@@ -17,11 +17,11 @@ permalink: /news/multiple-sclerosis/
 
 ---
 
-### [Singapore must rethink work, support systems to help individuals in a ‘longevity’ society: Indranee](https://www.straitstimes.com/singapore/health/singapore-must-rethink-work-support-systems-to-help-individuals-in-a-longevity-society)
+### [Lung cell bank aims to help Singapore breathe easy in case of outbreak](https://www.straitstimes.com/singapore/health/lung-cell-bank-aims-to-help-singapore-breathe-easy-in-case-of-outbreak)
 
-2026-04-19
+2026-04-20
 
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-must-rethink-work-support-systems-to-help-individuals-in-a-longevity-society)
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/lung-cell-bank-aims-to-help-singapore-breathe-easy-in-case-of-outbreak)
 
 ---
 
