@@ -19,7 +19,7 @@ permalink: /news/cancer/
 
 ### [Commentary: More young adults are surviving cancer, but they face many unseen challenges](https://www.channelnewsasia.com/commentary/young-adults-diagnosed-cancer-support-singapore-6048746)
 
-2026-04-19
+2026-04-20
 
 Source: [CNA](https://www.channelnewsasia.com/commentary/young-adults-diagnosed-cancer-support-singapore-6048746)
 
