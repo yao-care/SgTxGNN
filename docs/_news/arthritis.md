@@ -17,14 +17,6 @@ permalink: /news/arthritis/
 
 ---
 
-### [TTSH to extend care programme to all wards as patients benefit from power of touch](https://www.straitstimes.com/singapore/health/healing-touch-ttsh-to-scale-care-programme-across-all-wards-after-finding-it-improves-care)
-
-2026-04-22
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/healing-touch-ttsh-to-scale-care-programme-across-all-wards-after-finding-it-improves-care)
-
----
-
 ### [About 20 cases of illegal dental practice probed in Singapore between 2021 and 2025](https://www.straitstimes.com/singapore/health/about-20-cases-of-illegal-dental-practice-probed-in-singapore-between-2021-and-2025)
 
 2026-04-22
@@ -38,6 +30,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/about-20-c
 2026-04-22
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/spore-should-aim-to-train-10000-nurses-healthcare-workers-in-palliative-care-by-2030-ong-ye-kung)
+
+---
+
+### [Tele-dentistry programme helps kids from lower-income families improve oral health](https://www.straitstimes.com/singapore/health/tele-dentistry-programme-helps-kids-from-lower-income-families-improve-oral-health)
+
+2026-04-22
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/tele-dentistry-programme-helps-kids-from-lower-income-families-improve-oral-health)
 
 ---
 
