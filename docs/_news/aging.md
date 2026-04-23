@@ -13,7 +13,7 @@ permalink: /news/aging/
 
 ---
 
-**3 articles** related to aging.
+**4 articles** related to aging.
 
 ---
 
@@ -38,6 +38,14 @@ Source: [CNA](https://www.channelnewsasia.com/commentary/strength-training-healt
 2026-04-23
 
 Source: [CNA](https://www.channelnewsasia.com/today/big-read/malnutrition-seniors-elderly-diet-health-changes-nutrition-6018116)
+
+---
+
+### [Commentary: Ageing Singapore could use a better way of thinking about ‘good’ healthcare for seniors](https://www.channelnewsasia.com/commentary/singapore-healthcare-seniors-right-decision-health-6073436)
+
+2026-04-23
+
+Source: [CNA](https://www.channelnewsasia.com/commentary/singapore-healthcare-seniors-right-decision-health-6073436)
 
 ---
 
