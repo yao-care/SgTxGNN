@@ -19,7 +19,7 @@ permalink: /news/multiple-sclerosis/
 
 ### [Lung cell bank aims to help Singapore breathe easy in case of outbreak](https://www.straitstimes.com/singapore/health/lung-cell-bank-aims-to-help-singapore-breathe-easy-in-case-of-outbreak)
 
-2026-04-22
+2026-04-23
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/lung-cell-bank-aims-to-help-singapore-breathe-easy-in-case-of-outbreak)
 
