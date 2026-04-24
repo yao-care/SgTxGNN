@@ -13,21 +13,13 @@ permalink: /news/caffeine/
 
 ---
 
-**2 articles** related to CAFFEINE.
-
----
-
-### [Do energy drinks offer benefits beyond caffeine? What you need to know](https://www.channelnewsasia.com/wellness/energy-drinks-benefits-caffeine-5934906)
-
-2026-04-23
-
-Source: [CNA](https://www.channelnewsasia.com/wellness/energy-drinks-benefits-caffeine-5934906)
+**1 articles** related to CAFFEINE.
 
 ---
 
 ### [Does the caffeine in matcha really hit differently? Here's why it feels smoother](https://www.channelnewsasia.com/wellness/matcha-caffeine-coffee-6002406)
 
-2026-04-23
+2026-04-24
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/matcha-caffeine-coffee-6002406)
 
