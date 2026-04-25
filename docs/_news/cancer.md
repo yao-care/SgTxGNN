@@ -19,7 +19,7 @@ permalink: /news/cancer/
 
 ### [S’pore-led studies make breakthroughs in treating cancers in women](https://www.straitstimes.com/singapore/health/studies-led-by-singapore-researchers-make-breakthroughs-in-treating-challenging-cancers-in-women)
 
-2026-04-24
+2026-04-25
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/studies-led-by-singapore-researchers-make-breakthroughs-in-treating-challenging-cancers-in-women)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/studies-le
 
 ### [Commentary: More young adults are surviving cancer, but they face many unseen challenges](https://www.channelnewsasia.com/commentary/young-adults-diagnosed-cancer-support-singapore-6048746)
 
-2026-04-24
+2026-04-25
 
 Source: [CNA](https://www.channelnewsasia.com/commentary/young-adults-diagnosed-cancer-support-singapore-6048746)
 

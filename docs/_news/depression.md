@@ -17,9 +17,9 @@ permalink: /news/depression/
 
 ---
 
-### [MOH emphasises mental health prevention, tackling tech impact on youth](https://www.straitstimes.com/singapore/health/moh-emphasises-mental-health-prevention-tackling-tech-impact-on-youth)
+### [MOH realigning resources with focus on mental health, tackling tech impact on youth](https://www.straitstimes.com/singapore/health/moh-emphasises-mental-health-prevention-tackling-tech-impact-on-youth)
 
-2026-04-24
+2026-04-25
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/moh-emphasises-mental-health-prevention-tackling-tech-impact-on-youth)
 
