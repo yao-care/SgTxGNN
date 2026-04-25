@@ -13,15 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**6 articles** related to arthritis.
-
----
-
-### [About 20 cases of illegal dental practice probed in Singapore between 2021 and 2025](https://www.straitstimes.com/singapore/health/about-20-cases-of-illegal-dental-practice-probed-in-singapore-between-2021-and-2025)
-
-2026-04-25
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/about-20-cases-of-illegal-dental-practice-probed-in-singapore-between-2021-and-2025)
+**5 articles** related to arthritis.
 
 ---
 
