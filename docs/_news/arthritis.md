@@ -19,7 +19,7 @@ permalink: /news/arthritis/
 
 ### [S’pore should aim to train 10,000 nurses, healthcare workers in palliative care by 2030: Ong Ye Kung](https://www.straitstimes.com/singapore/health/spore-should-aim-to-train-10000-nurses-healthcare-workers-in-palliative-care-by-2030-ong-ye-kung)
 
-2026-04-25
+2026-04-26
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/spore-should-aim-to-train-10000-nurses-healthcare-workers-in-palliative-care-by-2030-ong-ye-kung)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/spore-shou
 
 ### [Tele-dentistry programme helps kids from lower-income families improve oral health](https://www.straitstimes.com/singapore/health/tele-dentistry-programme-helps-kids-from-lower-income-families-improve-oral-health)
 
-2026-04-25
+2026-04-26
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/tele-dentistry-programme-helps-kids-from-lower-income-families-improve-oral-health)
 
@@ -35,7 +35,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/tele-denti
 
 ### [Commentary: Strength training may be the key to healthy ageing](https://www.channelnewsasia.com/commentary/strength-training-healthy-ageing-exercise-routine-5976751)
 
-2026-04-25
+2026-04-26
 
 Source: [CNA](https://www.channelnewsasia.com/commentary/strength-training-healthy-ageing-exercise-routine-5976751)
 
@@ -43,7 +43,7 @@ Source: [CNA](https://www.channelnewsasia.com/commentary/strength-training-healt
 
 ### [TikTok’s new favourite drink is hot water – is it just basic hydration or something else?](https://www.channelnewsasia.com/wellness/health-benefits-hot-water-tiktok-5971671)
 
-2026-04-25
+2026-04-26
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/health-benefits-hot-water-tiktok-5971671)
 
@@ -51,7 +51,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/health-benefits-hot-water
 
 ### [Super-agers' brains have a special ability tied to sharp memory, new study suggests](https://www.channelnewsasia.com/wellness/super-agers-brains-neurons-5965341)
 
-2026-04-25
+2026-04-26
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/super-agers-brains-neurons-5965341)
 
