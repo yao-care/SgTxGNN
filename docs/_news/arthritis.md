@@ -13,7 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**6 articles** related to arthritis.
+**7 articles** related to arthritis.
 
 ---
 
@@ -38,6 +38,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/tele-denti
 2026-04-28
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/polyclinic-identifies-oral-frailty-as-early-warning-sign-of-physical-decline-aims-to-prevent-falls)
+
+---
+
+### [S’pore researchers ‘programme’ good gut bacteria to stop liver toxins from reaching brain](https://www.straitstimes.com/singapore/health/singapore-researchers-programme-good-gut-bacteria-to-stop-liver-toxins-from-reaching-brain)
+
+2026-04-28
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-researchers-programme-good-gut-bacteria-to-stop-liver-toxins-from-reaching-brain)
 
 ---
 
