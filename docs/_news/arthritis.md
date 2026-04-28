@@ -13,15 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**7 articles** related to arthritis.
-
----
-
-### [S’pore should aim to train 10,000 nurses, healthcare workers in palliative care by 2030: Ong Ye Kung](https://www.straitstimes.com/singapore/health/spore-should-aim-to-train-10000-nurses-healthcare-workers-in-palliative-care-by-2030-ong-ye-kung)
-
-2026-04-28
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/spore-should-aim-to-train-10000-nurses-healthcare-workers-in-palliative-care-by-2030-ong-ye-kung)
+**6 articles** related to arthritis.
 
 ---
 
