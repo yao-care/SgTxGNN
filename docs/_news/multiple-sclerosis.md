@@ -13,7 +13,15 @@ permalink: /news/multiple-sclerosis/
 
 ---
 
-**1 articles** related to multiple sclerosis.
+**2 articles** related to multiple sclerosis.
+
+---
+
+### [Lung cell bank aims to help Singapore breathe easy in case of outbreak](https://www.straitstimes.com/singapore/health/lung-cell-bank-aims-to-help-singapore-breathe-easy-in-case-of-outbreak)
+
+2026-04-29
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/lung-cell-bank-aims-to-help-singapore-breathe-easy-in-case-of-outbreak)
 
 ---
 
