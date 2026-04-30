@@ -13,7 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**6 articles** related to arthritis.
+**7 articles** related to arthritis.
 
 ---
 
@@ -38,6 +38,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/polyclinic
 2026-04-30
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-researchers-programme-good-gut-bacteria-to-stop-liver-toxins-from-reaching-brain)
+
+---
+
+### [3 new TB clusters discovered in Bedok Central, screening to be done for those frequenting key spots](https://www.straitstimes.com/singapore/health/3-new-tb-clusters-discovered-in-bedok-central-screening-to-be-done-for-those-frequenting-key-spots)
+
+2026-04-30
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/3-new-tb-clusters-discovered-in-bedok-central-screening-to-be-done-for-those-frequenting-key-spots)
 
 ---
 
