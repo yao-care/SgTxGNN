@@ -19,7 +19,7 @@ permalink: /news/infectious-disease/
 
 ### [Diarrhoea, sinus infections for a year: Living with invisible conditions](https://www.straitstimes.com/singapore/health/living-with-invisible-conditions-that-affect-the-immune-system)
 
-2026-04-30
+2026-05-01
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/living-with-invisible-conditions-that-affect-the-immune-system)
 
