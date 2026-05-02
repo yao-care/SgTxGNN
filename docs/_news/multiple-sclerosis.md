@@ -19,7 +19,7 @@ permalink: /news/multiple-sclerosis/
 
 ### [Polyclinic identifies oral frailty as early warning sign of physical decline, aims to prevent falls](https://www.straitstimes.com/singapore/health/polyclinic-identifies-oral-frailty-as-early-warning-sign-of-physical-decline-aims-to-prevent-falls)
 
-2026-05-01
+2026-05-02
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/polyclinic-identifies-oral-frailty-as-early-warning-sign-of-physical-decline-aims-to-prevent-falls)
 
