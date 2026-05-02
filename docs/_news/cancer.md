@@ -13,15 +13,7 @@ permalink: /news/cancer/
 
 ---
 
-**2 articles** related to cancer.
-
----
-
-### [S’pore-led studies make breakthroughs in treating cancers in women](https://www.straitstimes.com/singapore/health/studies-led-by-singapore-researchers-make-breakthroughs-in-treating-challenging-cancers-in-women)
-
-2026-05-02
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/studies-led-by-singapore-researchers-make-breakthroughs-in-treating-challenging-cancers-in-women)
+**1 articles** related to cancer.
 
 ---
 
