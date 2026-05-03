@@ -13,15 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**7 articles** related to arthritis.
-
----
-
-### [Tele-dentistry programme helps kids from lower-income families improve oral health](https://www.straitstimes.com/singapore/health/tele-dentistry-programme-helps-kids-from-lower-income-families-improve-oral-health)
-
-2026-05-03
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/tele-dentistry-programme-helps-kids-from-lower-income-families-improve-oral-health)
+**6 articles** related to arthritis.
 
 ---
 
