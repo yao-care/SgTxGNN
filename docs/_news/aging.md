@@ -13,21 +13,13 @@ permalink: /news/aging/
 
 ---
 
-**3 articles** related to aging.
-
----
-
-### [Commentary: Strength training may be the key to healthy ageing](https://www.channelnewsasia.com/commentary/strength-training-healthy-ageing-exercise-routine-5976751)
-
-2026-05-02
-
-Source: [CNA](https://www.channelnewsasia.com/commentary/strength-training-healthy-ageing-exercise-routine-5976751)
+**2 articles** related to aging.
 
 ---
 
 ### [In the land of plenty, elderly malnutrition is rising in Singapore – and it’s not just about access to food](https://www.channelnewsasia.com/today/big-read/malnutrition-seniors-elderly-diet-health-changes-nutrition-6018116)
 
-2026-05-02
+2026-05-03
 
 Source: [CNA](https://www.channelnewsasia.com/today/big-read/malnutrition-seniors-elderly-diet-health-changes-nutrition-6018116)
 
@@ -35,7 +27,7 @@ Source: [CNA](https://www.channelnewsasia.com/today/big-read/malnutrition-senior
 
 ### [Commentary: Ageing Singapore could use a better way of thinking about ‘good’ healthcare for seniors](https://www.channelnewsasia.com/commentary/singapore-healthcare-seniors-right-decision-health-6073436)
 
-2026-05-02
+2026-05-03
 
 Source: [CNA](https://www.channelnewsasia.com/commentary/singapore-healthcare-seniors-right-decision-health-6073436)
 
