@@ -13,7 +13,7 @@ permalink: /news/multiple-sclerosis/
 
 ---
 
-**1 articles** related to multiple sclerosis.
+**2 articles** related to multiple sclerosis.
 
 ---
 
@@ -22,6 +22,14 @@ permalink: /news/multiple-sclerosis/
 2026-05-03
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/polyclinic-identifies-oral-frailty-as-early-warning-sign-of-physical-decline-aims-to-prevent-falls)
+
+---
+
+### [Over $1.8 million of discounts redeemed to offset MediShield Life premiums](https://www.straitstimes.com/singapore/health/over-1-8-million-of-discounts-redeemed-to-offset-medishield-life-premiums)
+
+2026-05-03
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/over-1-8-million-of-discounts-redeemed-to-offset-medishield-life-premiums)
 
 ---
 
