@@ -19,7 +19,7 @@ permalink: /news/arthritis/
 
 ### [Polyclinic identifies oral frailty as early warning sign of physical decline, aims to prevent falls](https://www.straitstimes.com/singapore/health/polyclinic-identifies-oral-frailty-as-early-warning-sign-of-physical-decline-aims-to-prevent-falls)
 
-2026-05-03
+2026-05-04
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/polyclinic-identifies-oral-frailty-as-early-warning-sign-of-physical-decline-aims-to-prevent-falls)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/polyclinic
 
 ### [S’pore researchers ‘programme’ good gut bacteria to stop liver toxins from reaching brain](https://www.straitstimes.com/singapore/health/singapore-researchers-programme-good-gut-bacteria-to-stop-liver-toxins-from-reaching-brain)
 
-2026-05-03
+2026-05-04
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-researchers-programme-good-gut-bacteria-to-stop-liver-toxins-from-reaching-brain)
 
@@ -35,7 +35,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-
 
 ### [3 new TB clusters discovered in Bedok Central, screening to be done for those frequenting key spots](https://www.straitstimes.com/singapore/health/3-new-tb-clusters-discovered-in-bedok-central-screening-to-be-done-for-those-frequenting-key-spots)
 
-2026-05-03
+2026-05-04
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/3-new-tb-clusters-discovered-in-bedok-central-screening-to-be-done-for-those-frequenting-key-spots)
 
@@ -43,7 +43,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/3-new-tb-c
 
 ### [TikTok’s new favourite drink is hot water – is it just basic hydration or something else?](https://www.channelnewsasia.com/wellness/health-benefits-hot-water-tiktok-5971671)
 
-2026-05-03
+2026-05-04
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/health-benefits-hot-water-tiktok-5971671)
 
@@ -51,7 +51,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/health-benefits-hot-water
 
 ### [Super-agers' brains have a special ability tied to sharp memory, new study suggests](https://www.channelnewsasia.com/wellness/super-agers-brains-neurons-5965341)
 
-2026-05-03
+2026-05-04
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/super-agers-brains-neurons-5965341)
 
@@ -59,7 +59,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/super-agers-brains-neuron
 
 ### [How do I prevent falls at home? Practical ways to stay safe indoors](https://www.channelnewsasia.com/wellness/fall-prevention-6071631)
 
-2026-05-03
+2026-05-04
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/fall-prevention-6071631)
 
