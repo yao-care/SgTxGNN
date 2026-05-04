@@ -17,19 +17,19 @@ permalink: /news/arthritis/
 
 ---
 
-### [S’pore researchers ‘programme’ good gut bacteria to stop liver toxins from reaching brain](https://www.straitstimes.com/singapore/health/singapore-researchers-programme-good-gut-bacteria-to-stop-liver-toxins-from-reaching-brain)
-
-2026-05-04
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-researchers-programme-good-gut-bacteria-to-stop-liver-toxins-from-reaching-brain)
-
----
-
 ### [3 new TB clusters discovered in Bedok Central, screening to be done for those frequenting key spots](https://www.straitstimes.com/singapore/health/3-new-tb-clusters-discovered-in-bedok-central-screening-to-be-done-for-those-frequenting-key-spots)
 
 2026-05-04
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/3-new-tb-clusters-discovered-in-bedok-central-screening-to-be-done-for-those-frequenting-key-spots)
+
+---
+
+### [askST: Should I be worried about 3 tuberculosis clusters in Bedok Central?](https://www.straitstimes.com/singapore/health/askst-should-i-be-worried-about-3-tuberculosis-clusters-in-bedok-central)
+
+2026-05-04
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/askst-should-i-be-worried-about-3-tuberculosis-clusters-in-bedok-central)
 
 ---
 
