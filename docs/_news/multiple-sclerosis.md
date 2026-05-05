@@ -19,7 +19,7 @@ permalink: /news/multiple-sclerosis/
 
 ### [Over $1.8 million of discounts redeemed to offset MediShield Life premiums](https://www.straitstimes.com/singapore/health/over-1-8-million-of-discounts-redeemed-to-offset-medishield-life-premiums)
 
-2026-05-04
+2026-05-05
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/over-1-8-million-of-discounts-redeemed-to-offset-medishield-life-premiums)
 
