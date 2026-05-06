@@ -19,7 +19,7 @@ permalink: /news/cancer/
 
 ### [Facing cancer with confidence: Why acting fast made all the difference for this S’porean mother](https://www.straitstimes.com/singapore/health/prudential-facing-cancer-with-confidence-singaporean-mother)
 
-2026-05-05
+2026-05-06
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/prudential-facing-cancer-with-confidence-singaporean-mother)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/prudential
 
 ### [Commentary: More young adults are surviving cancer, but they face many unseen challenges](https://www.channelnewsasia.com/commentary/young-adults-diagnosed-cancer-support-singapore-6048746)
 
-2026-05-05
+2026-05-06
 
 Source: [CNA](https://www.channelnewsasia.com/commentary/young-adults-diagnosed-cancer-support-singapore-6048746)
 
