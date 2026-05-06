@@ -13,15 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**6 articles** related to arthritis.
-
----
-
-### [3 new TB clusters discovered in Bedok Central, screening to be done for those frequenting key spots](https://www.straitstimes.com/singapore/health/3-new-tb-clusters-discovered-in-bedok-central-screening-to-be-done-for-those-frequenting-key-spots)
-
-2026-05-06
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/3-new-tb-clusters-discovered-in-bedok-central-screening-to-be-done-for-those-frequenting-key-spots)
+**5 articles** related to arthritis.
 
 ---
 
