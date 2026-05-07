@@ -13,7 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**5 articles** related to arthritis.
+**6 articles** related to arthritis.
 
 ---
 
@@ -22,6 +22,14 @@ permalink: /news/arthritis/
 2026-05-07
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/askst-should-i-be-worried-about-3-tuberculosis-clusters-in-bedok-central)
+
+---
+
+### [Inside Toa Payoh, Singapore’s first Age Well Neighbourhood](https://www.straitstimes.com/singapore/health/inside-the-toa-payoh-age-well-neighbourhood)
+
+2026-05-07
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/inside-the-toa-payoh-age-well-neighbourhood)
 
 ---
 
