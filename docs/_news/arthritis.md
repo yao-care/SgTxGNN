@@ -13,7 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**6 articles** related to arthritis.
+**7 articles** related to arthritis.
 
 ---
 
@@ -30,6 +30,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/askst-shou
 2026-05-08
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/inside-the-toa-payoh-age-well-neighbourhood)
+
+---
+
+### [Two S'pore residents who were on board MV Hondius test negative for hantavirus infection](https://www.straitstimes.com/singapore/health/two-singapore-residents-who-were-on-board-mv-hondius-test-negative-for-hantavirus-infection)
+
+2026-05-08
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/two-singapore-residents-who-were-on-board-mv-hondius-test-negative-for-hantavirus-infection)
 
 ---
 
