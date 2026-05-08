@@ -41,14 +41,6 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/two-singap
 
 ---
 
-### [TikTok’s new favourite drink is hot water – is it just basic hydration or something else?](https://www.channelnewsasia.com/wellness/health-benefits-hot-water-tiktok-5971671)
-
-2026-05-08
-
-Source: [CNA](https://www.channelnewsasia.com/wellness/health-benefits-hot-water-tiktok-5971671)
-
----
-
 ### [Super-agers' brains have a special ability tied to sharp memory, new study suggests](https://www.channelnewsasia.com/wellness/super-agers-brains-neurons-5965341)
 
 2026-05-08
@@ -70,6 +62,14 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/fall-prevention-6071631)
 2026-05-08
 
 Source: [CNA](https://www.channelnewsasia.com/asia/thailand-travel-insurance-compulsory-policy-6097621)
+
+---
+
+### [The high protein craze: Fad or fixture in the Singaporean diet?](https://www.channelnewsasia.com/today/big-read/high-protein-craze-supermarket-food-nutrition-diet-health-6106716)
+
+2026-05-08
+
+Source: [CNA](https://www.channelnewsasia.com/today/big-read/high-protein-craze-supermarket-food-nutrition-diet-health-6106716)
 
 ---
 
