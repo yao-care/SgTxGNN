@@ -13,15 +13,7 @@ permalink: /news/cancer/
 
 ---
 
-**2 articles** related to cancer.
-
----
-
-### [Facing cancer with confidence: Why acting fast made all the difference for this S’porean mother](https://www.straitstimes.com/singapore/health/prudential-facing-cancer-with-confidence-singaporean-mother)
-
-2026-05-09
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/prudential-facing-cancer-with-confidence-singaporean-mother)
+**1 articles** related to cancer.
 
 ---
 
