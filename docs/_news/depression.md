@@ -19,7 +19,7 @@ permalink: /news/depression/
 
 ### [IMH launches third nationwide survey to assess mental health in Singapore](https://www.straitstimes.com/singapore/health/imh-launches-third-nationwide-survey-to-assess-national-mental-health)
 
-2026-05-08
+2026-05-09
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/imh-launches-third-nationwide-survey-to-assess-national-mental-health)
 
