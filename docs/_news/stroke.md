@@ -13,7 +13,15 @@ permalink: /news/stroke/
 
 ---
 
-**2 articles** related to stroke.
+**3 articles** related to stroke.
+
+---
+
+### [Frail, socially isolated seniors in Toa Payoh to be engaged weekly under new initiative](https://www.straitstimes.com/singapore/health/frail-socially-isolated-seniors-in-toa-payoh-to-be-engaged-weekly-under-new-initiative)
+
+2026-05-09
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/frail-socially-isolated-seniors-in-toa-payoh-to-be-engaged-weekly-under-new-initiative)
 
 ---
 

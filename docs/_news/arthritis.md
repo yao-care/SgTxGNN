@@ -13,7 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**7 articles** related to arthritis.
+**8 articles** related to arthritis.
 
 ---
 
@@ -38,6 +38,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/inside-the
 2026-05-09
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/two-singapore-residents-who-were-on-board-mv-hondius-test-negative-for-hantavirus-infection)
+
+---
+
+### [Frail, socially isolated seniors in Toa Payoh to be engaged weekly under new initiative](https://www.straitstimes.com/singapore/health/frail-socially-isolated-seniors-in-toa-payoh-to-be-engaged-weekly-under-new-initiative)
+
+2026-05-09
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/frail-socially-isolated-seniors-in-toa-payoh-to-be-engaged-weekly-under-new-initiative)
 
 ---
 
