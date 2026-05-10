@@ -19,7 +19,7 @@ permalink: /news/kidney-disease/
 
 ### [Over 200,000 people newly diagnosed with chronic kidney disease over four years](https://www.straitstimes.com/singapore/health/over-200000-people-newly-diagnosed-with-chronic-kidney-disease-over-four-years)
 
-2026-05-09
+2026-05-10
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/over-200000-people-newly-diagnosed-with-chronic-kidney-disease-over-four-years)
 
