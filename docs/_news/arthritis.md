@@ -19,7 +19,7 @@ permalink: /news/arthritis/
 
 ### [askST: Should I be worried about 3 tuberculosis clusters in Bedok Central?](https://www.straitstimes.com/singapore/health/askst-should-i-be-worried-about-3-tuberculosis-clusters-in-bedok-central)
 
-2026-05-10
+2026-05-11
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/askst-should-i-be-worried-about-3-tuberculosis-clusters-in-bedok-central)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/askst-shou
 
 ### [Inside Toa Payoh, Singapore’s first Age Well Neighbourhood](https://www.straitstimes.com/singapore/health/inside-the-toa-payoh-age-well-neighbourhood)
 
-2026-05-10
+2026-05-11
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/inside-the-toa-payoh-age-well-neighbourhood)
 
@@ -35,7 +35,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/inside-the
 
 ### [Two S'pore residents who were on board MV Hondius test negative for hantavirus infection](https://www.straitstimes.com/singapore/health/two-singapore-residents-who-were-on-board-mv-hondius-test-negative-for-hantavirus-infection)
 
-2026-05-10
+2026-05-11
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/two-singapore-residents-who-were-on-board-mv-hondius-test-negative-for-hantavirus-infection)
 
@@ -43,7 +43,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/two-singap
 
 ### [Frail, socially isolated seniors in Toa Payoh to be engaged weekly under new initiative](https://www.straitstimes.com/singapore/health/frail-socially-isolated-seniors-in-toa-payoh-to-be-engaged-weekly-under-new-initiative)
 
-2026-05-10
+2026-05-11
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/frail-socially-isolated-seniors-in-toa-payoh-to-be-engaged-weekly-under-new-initiative)
 
@@ -51,7 +51,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/frail-soci
 
 ### [Super-agers' brains have a special ability tied to sharp memory, new study suggests](https://www.channelnewsasia.com/wellness/super-agers-brains-neurons-5965341)
 
-2026-05-10
+2026-05-11
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/super-agers-brains-neurons-5965341)
 
@@ -59,7 +59,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/super-agers-brains-neuron
 
 ### [How do I prevent falls at home? Practical ways to stay safe indoors](https://www.channelnewsasia.com/wellness/fall-prevention-6071631)
 
-2026-05-10
+2026-05-11
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/fall-prevention-6071631)
 
@@ -67,7 +67,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/fall-prevention-6071631)
 
 ### [Land of Smiles - and mandatory travel insurance? Thailand’s proposed move for tourists stirs debate](https://www.channelnewsasia.com/asia/thailand-travel-insurance-compulsory-policy-6097621)
 
-2026-05-10
+2026-05-11
 
 Source: [CNA](https://www.channelnewsasia.com/asia/thailand-travel-insurance-compulsory-policy-6097621)
 
@@ -75,7 +75,7 @@ Source: [CNA](https://www.channelnewsasia.com/asia/thailand-travel-insurance-com
 
 ### [The high protein craze: Fad or fixture in the Singaporean diet?](https://www.channelnewsasia.com/today/big-read/high-protein-craze-supermarket-food-nutrition-diet-health-6106716)
 
-2026-05-10
+2026-05-11
 
 Source: [CNA](https://www.channelnewsasia.com/today/big-read/high-protein-craze-supermarket-food-nutrition-diet-health-6106716)
 
