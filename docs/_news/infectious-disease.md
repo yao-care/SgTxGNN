@@ -19,7 +19,7 @@ permalink: /news/infectious-disease/
 
 ### [Two S'pore residents who were on board MV Hondius test negative for hantavirus infection](https://www.straitstimes.com/singapore/health/two-singapore-residents-who-were-on-board-mv-hondius-test-negative-for-hantavirus-infection)
 
-2026-05-10
+2026-05-11
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/two-singapore-residents-who-were-on-board-mv-hondius-test-negative-for-hantavirus-infection)
 
