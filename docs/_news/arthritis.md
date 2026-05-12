@@ -13,15 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**8 articles** related to arthritis.
-
----
-
-### [askST: Should I be worried about 3 tuberculosis clusters in Bedok Central?](https://www.straitstimes.com/singapore/health/askst-should-i-be-worried-about-3-tuberculosis-clusters-in-bedok-central)
-
-2026-05-12
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/askst-should-i-be-worried-about-3-tuberculosis-clusters-in-bedok-central)
+**7 articles** related to arthritis.
 
 ---
 
