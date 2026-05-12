@@ -13,7 +13,15 @@ permalink: /news/aging/
 
 ---
 
-**2 articles** related to aging.
+**3 articles** related to aging.
+
+---
+
+### [Slow ageing with exercise and diet: Geriatrician's tips](https://www.straitstimes.com/singapore/health/slow-aging-with-exercise-and-diet-tips-from-a-geriatrician)
+
+2026-05-12
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/slow-aging-with-exercise-and-diet-tips-from-a-geriatrician)
 
 ---
 

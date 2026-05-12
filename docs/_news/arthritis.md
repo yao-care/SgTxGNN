@@ -13,7 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**7 articles** related to arthritis.
+**8 articles** related to arthritis.
 
 ---
 
@@ -38,6 +38,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/two-singap
 2026-05-12
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/frail-socially-isolated-seniors-in-toa-payoh-to-be-engaged-weekly-under-new-initiative)
+
+---
+
+### [TCM tuina therapy as effective as physiotherapy for short-term relief of lower back pain: SGH study](https://www.straitstimes.com/singapore/health/tcm-tuina-therapy-as-good-as-physiotherapy-for-short-term-relief-of-lower-back-pain-sgh-study)
+
+2026-05-12
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/tcm-tuina-therapy-as-good-as-physiotherapy-for-short-term-relief-of-lower-back-pain-sgh-study)
 
 ---
 
