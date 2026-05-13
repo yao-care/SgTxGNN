@@ -13,7 +13,15 @@ permalink: /news/cancer/
 
 ---
 
-**1 articles** related to cancer.
+**2 articles** related to cancer.
+
+---
+
+### [S’pore to trial multi-cancer early detection tests and targeted cancer screening](https://www.straitstimes.com/singapore/health/singapore-to-run-clinical-studies-on-multi-cancer-early-detection-tests-tackle-cancers-linked-to)
+
+2026-05-13
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-to-run-clinical-studies-on-multi-cancer-early-detection-tests-tackle-cancers-linked-to)
 
 ---
 
