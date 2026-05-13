@@ -17,14 +17,6 @@ permalink: /news/arthritis/
 
 ---
 
-### [Inside Toa Payoh, Singapore’s first Age Well Neighbourhood](https://www.straitstimes.com/singapore/health/inside-the-toa-payoh-age-well-neighbourhood)
-
-2026-05-13
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/inside-the-toa-payoh-age-well-neighbourhood)
-
----
-
 ### [Two S'pore residents who were on board MV Hondius test negative for hantavirus infection](https://www.straitstimes.com/singapore/health/two-singapore-residents-who-were-on-board-mv-hondius-test-negative-for-hantavirus-infection)
 
 2026-05-13
@@ -46,6 +38,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/frail-soci
 2026-05-13
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/tcm-tuina-therapy-as-good-as-physiotherapy-for-short-term-relief-of-lower-back-pain-sgh-study)
+
+---
+
+### [Bedok Central TB screening: 85.1% of more than 3,000 people screened test negative](https://www.straitstimes.com/singapore/health/bedok-central-tb-screening-85-1-per-cent-out-of-more-than-3000-people-screened-tested-negative)
+
+2026-05-13
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/bedok-central-tb-screening-85-1-per-cent-out-of-more-than-3000-people-screened-tested-negative)
 
 ---
 
