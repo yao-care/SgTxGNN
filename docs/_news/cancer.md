@@ -19,7 +19,7 @@ permalink: /news/cancer/
 
 ### [S’pore to trial multi-cancer early detection tests and targeted cancer screening](https://www.straitstimes.com/singapore/health/singapore-to-run-clinical-studies-on-multi-cancer-early-detection-tests-tackle-cancers-linked-to)
 
-2026-05-13
+2026-05-14
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-to-run-clinical-studies-on-multi-cancer-early-detection-tests-tackle-cancers-linked-to)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-
 
 ### [Commentary: More young adults are surviving cancer, but they face many unseen challenges](https://www.channelnewsasia.com/commentary/young-adults-diagnosed-cancer-support-singapore-6048746)
 
-2026-05-13
+2026-05-14
 
 Source: [CNA](https://www.channelnewsasia.com/commentary/young-adults-diagnosed-cancer-support-singapore-6048746)
 
