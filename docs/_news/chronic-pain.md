@@ -19,7 +19,7 @@ permalink: /news/chronic-pain/
 
 ### [TCM tuina therapy as effective as physiotherapy for short-term relief of lower back pain: SGH study](https://www.straitstimes.com/singapore/health/tcm-tuina-therapy-as-good-as-physiotherapy-for-short-term-relief-of-lower-back-pain-sgh-study)
 
-2026-05-14
+2026-05-15
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/tcm-tuina-therapy-as-good-as-physiotherapy-for-short-term-relief-of-lower-back-pain-sgh-study)
 
