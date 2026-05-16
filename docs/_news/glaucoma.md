@@ -19,7 +19,7 @@ permalink: /news/glaucoma/
 
 ### [The minimally invasive glaucoma surgery that could end daily eye drops](https://www.straitstimes.com/singapore/health/minimally-invasive-glaucoma-surgery-novena-bladeless-cataract-surgery-and-eye-centre)
 
-2026-05-15
+2026-05-16
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/minimally-invasive-glaucoma-surgery-novena-bladeless-cataract-surgery-and-eye-centre)
 
