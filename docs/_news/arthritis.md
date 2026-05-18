@@ -13,7 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**7 articles** related to arthritis.
+**8 articles** related to arthritis.
 
 ---
 
@@ -30,6 +30,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/bedok-cent
 2026-05-18
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/erectile-dysfunction-causes-treatments-shockwave-therapy-sl-aesthetic-clinic)
+
+---
+
+### [Hawker centre in Bedok Central linked to TB clusters undergoes deep cleaning](https://www.straitstimes.com/singapore/health/businesses-impacted-by-tb-cases-at-block-216-bedok-food-centre-market-may-get-more-reliefs)
+
+2026-05-18
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/businesses-impacted-by-tb-cases-at-block-216-bedok-food-centre-market-may-get-more-reliefs)
 
 ---
 
