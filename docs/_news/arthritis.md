@@ -13,15 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**8 articles** related to arthritis.
-
----
-
-### [Bedok Central TB screening: 85.1% of more than 3,000 people screened test negative](https://www.straitstimes.com/singapore/health/bedok-central-tb-screening-85-1-per-cent-out-of-more-than-3000-people-screened-tested-negative)
-
-2026-05-19
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/bedok-central-tb-screening-85-1-per-cent-out-of-more-than-3000-people-screened-tested-negative)
+**7 articles** related to arthritis.
 
 ---
 
