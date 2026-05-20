@@ -19,7 +19,7 @@ permalink: /news/eye-disease/
 
 ### [NUS study finds photosynthesis could treat dry eye disease](https://www.straitstimes.com/singapore/health/nus-study-finds-photosynthesis-could-treat-dry-eye-disease)
 
-2026-05-19
+2026-05-20
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/nus-study-finds-photosynthesis-could-treat-dry-eye-disease)
 
