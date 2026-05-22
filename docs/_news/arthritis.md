@@ -13,15 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**7 articles** related to arthritis.
-
----
-
-### [Understanding erectile dysfunction and how non-invasive shockwave therapy can help](https://www.straitstimes.com/singapore/health/erectile-dysfunction-causes-treatments-shockwave-therapy-sl-aesthetic-clinic)
-
-2026-05-22
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/erectile-dysfunction-causes-treatments-shockwave-therapy-sl-aesthetic-clinic)
+**6 articles** related to arthritis.
 
 ---
 
