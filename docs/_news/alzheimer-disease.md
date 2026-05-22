@@ -13,7 +13,15 @@ permalink: /news/alzheimer-disease/
 
 ---
 
-**2 articles** related to alzheimer disease.
+**3 articles** related to alzheimer disease.
+
+---
+
+### [S’pore launches $350m longevity challenge to tackle cognitive decline and loss of physical function](https://www.straitstimes.com/singapore/health/spore-launches-350m-longevity-challenge-to-tackle-cognitive-decline-and-loss-of-physical-function)
+
+2026-05-22
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/spore-launches-350m-longevity-challenge-to-tackle-cognitive-decline-and-loss-of-physical-function)
 
 ---
 
