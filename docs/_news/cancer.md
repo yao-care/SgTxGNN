@@ -13,7 +13,15 @@ permalink: /news/cancer/
 
 ---
 
-**1 articles** related to cancer.
+**2 articles** related to cancer.
+
+---
+
+### [Surgeons perform first brain tumour removal through eye socket in Singapore](https://www.straitstimes.com/singapore/health/surgeons-perform-first-brain-tumour-removal-through-eye-socket-in-singapore)
+
+2026-05-23
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/surgeons-perform-first-brain-tumour-removal-through-eye-socket-in-singapore)
 
 ---
 

@@ -13,7 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**6 articles** related to arthritis.
+**7 articles** related to arthritis.
 
 ---
 
@@ -22,6 +22,14 @@ permalink: /news/arthritis/
 2026-05-23
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/businesses-impacted-by-tb-cases-at-block-216-bedok-food-centre-market-may-get-more-reliefs)
+
+---
+
+### [Surgeons perform first brain tumour removal through eye socket in Singapore](https://www.straitstimes.com/singapore/health/surgeons-perform-first-brain-tumour-removal-through-eye-socket-in-singapore)
+
+2026-05-23
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/surgeons-perform-first-brain-tumour-removal-through-eye-socket-in-singapore)
 
 ---
 
