@@ -19,7 +19,7 @@ permalink: /news/arthritis/
 
 ### [Hawker centre in Bedok Central linked to TB clusters undergoes deep cleaning](https://www.straitstimes.com/singapore/health/businesses-impacted-by-tb-cases-at-block-216-bedok-food-centre-market-may-get-more-reliefs)
 
-2026-05-22
+2026-05-23
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/businesses-impacted-by-tb-cases-at-block-216-bedok-food-centre-market-may-get-more-reliefs)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/businesses
 
 ### [How do I prevent falls at home? Practical ways to stay safe indoors](https://www.channelnewsasia.com/wellness/fall-prevention-6071631)
 
-2026-05-22
+2026-05-23
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/fall-prevention-6071631)
 
@@ -35,7 +35,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/fall-prevention-6071631)
 
 ### [Land of Smiles - and mandatory travel insurance? Thailand’s proposed move for tourists stirs debate](https://www.channelnewsasia.com/asia/thailand-travel-insurance-compulsory-policy-6097621)
 
-2026-05-22
+2026-05-23
 
 Source: [CNA](https://www.channelnewsasia.com/asia/thailand-travel-insurance-compulsory-policy-6097621)
 
@@ -43,7 +43,7 @@ Source: [CNA](https://www.channelnewsasia.com/asia/thailand-travel-insurance-com
 
 ### [The high protein craze: Fad or fixture in the Singaporean diet?](https://www.channelnewsasia.com/today/big-read/high-protein-craze-supermarket-food-nutrition-diet-health-6106716)
 
-2026-05-22
+2026-05-23
 
 Source: [CNA](https://www.channelnewsasia.com/today/big-read/high-protein-craze-supermarket-food-nutrition-diet-health-6106716)
 
@@ -51,7 +51,7 @@ Source: [CNA](https://www.channelnewsasia.com/today/big-read/high-protein-craze-
 
 ### [More pregnant women taking respiratory virus vaccine, but uptake still low](https://www.channelnewsasia.com/singapore/rsv-respiratory-virus-infant-pregnant-women-vaccine-6091006)
 
-2026-05-22
+2026-05-23
 
 Source: [CNA](https://www.channelnewsasia.com/singapore/rsv-respiratory-virus-infant-pregnant-women-vaccine-6091006)
 
@@ -59,7 +59,7 @@ Source: [CNA](https://www.channelnewsasia.com/singapore/rsv-respiratory-virus-in
 
 ### [Feeling foggy and tired? Your gut health may be affecting your brain](https://www.channelnewsasia.com/wellness/gut-brain-fog-health-6110251)
 
-2026-05-22
+2026-05-23
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/gut-brain-fog-health-6110251)
 
