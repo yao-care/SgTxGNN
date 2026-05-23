@@ -13,7 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**7 articles** related to arthritis.
+**8 articles** related to arthritis.
 
 ---
 
@@ -30,6 +30,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/businesses
 2026-05-23
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/surgeons-perform-first-brain-tumour-removal-through-eye-socket-in-singapore)
+
+---
+
+### [TCM practitioners can join hands with eligible clinics to manage patients’ health: Koh Poh Koon](https://www.straitstimes.com/singapore/health/tcm-practitioners-eligible-clinics-to-be-able-to-jointly-manage-healthcare-koh-poh-koon)
+
+2026-05-23
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/tcm-practitioners-eligible-clinics-to-be-able-to-jointly-manage-healthcare-koh-poh-koon)
 
 ---
 
