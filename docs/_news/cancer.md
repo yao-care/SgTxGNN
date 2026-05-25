@@ -13,7 +13,7 @@ permalink: /news/cancer/
 
 ---
 
-**2 articles** related to cancer.
+**3 articles** related to cancer.
 
 ---
 
@@ -22,6 +22,14 @@ permalink: /news/cancer/
 2026-05-25
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/surgeons-perform-first-brain-tumour-removal-through-eye-socket-in-singapore)
+
+---
+
+### [Fatty liver genes combined with diabetes and obesity increase liver cancer risk: S’pore study](https://www.straitstimes.com/singapore/health/fatty-liver-genes-combined-with-diabetes-and-obesity-increase-liver-cancer-risk-spore-study)
+
+2026-05-25
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/fatty-liver-genes-combined-with-diabetes-and-obesity-increase-liver-cancer-risk-spore-study)
 
 ---
 
