@@ -19,7 +19,7 @@ permalink: /news/infectious-disease/
 
 ### [askST: Are 12,700 Covid-19 cases in a week cause for concern?](https://www.straitstimes.com/singapore/health/askst-should-we-be-concerned-with-12700-covid-19-cases-in-a-week)
 
-2026-05-24
+2026-05-25
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/askst-should-we-be-concerned-with-12700-covid-19-cases-in-a-week)
 
