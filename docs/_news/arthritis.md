@@ -13,7 +13,15 @@ permalink: /news/arthritis/
 
 ---
 
-**9 articles** related to arthritis.
+**10 articles** related to arthritis.
+
+---
+
+### [First EC land tender under new rules expected to draw healthy interest, slightly lower bids: Analysts](https://www.todayonline.com/singapore/canberra-drive-executive-condominium-ec-land-sale-tender-interest-bids-6141826)
+
+2026-05-26
+
+Source: [TODAY](https://www.todayonline.com/singapore/canberra-drive-executive-condominium-ec-land-sale-tender-interest-bids-6141826)
 
 ---
 
