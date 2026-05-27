@@ -19,7 +19,7 @@ permalink: /news/aging/
 
 ### [S’pore launches $350m longevity challenge to tackle cognitive decline and loss of physical function](https://www.straitstimes.com/singapore/health/spore-launches-350m-longevity-challenge-to-tackle-cognitive-decline-and-loss-of-physical-function)
 
-2026-05-26
+2026-05-27
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/spore-launches-350m-longevity-challenge-to-tackle-cognitive-decline-and-loss-of-physical-function)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/spore-laun
 
 ### [Commentary: Ageing Singapore could use a better way of thinking about ‘good’ healthcare for seniors](https://www.channelnewsasia.com/commentary/singapore-healthcare-seniors-right-decision-health-6073436)
 
-2026-05-26
+2026-05-27
 
 Source: [CNA](https://www.channelnewsasia.com/commentary/singapore-healthcare-seniors-right-decision-health-6073436)
 
