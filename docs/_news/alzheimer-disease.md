@@ -19,7 +19,7 @@ permalink: /news/alzheimer-disease/
 
 ### [S’pore launches $350m longevity challenge to tackle cognitive decline and loss of physical function](https://www.straitstimes.com/singapore/health/spore-launches-350m-longevity-challenge-to-tackle-cognitive-decline-and-loss-of-physical-function)
 
-2026-05-27
+2026-05-28
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/spore-launches-350m-longevity-challenge-to-tackle-cognitive-decline-and-loss-of-physical-function)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/spore-laun
 
 ### [4 types of drugs that may increase your dementia risk](https://www.channelnewsasia.com/wellness/medications-dementia-risk-increase-6076966)
 
-2026-05-27
+2026-05-28
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/medications-dementia-risk-increase-6076966)
 
@@ -35,7 +35,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/medications-dementia-risk
 
 ### [6 common medications that may lower your dementia risk](https://www.channelnewsasia.com/wellness/medications-dementia-risk-decrease-6069041)
 
-2026-05-27
+2026-05-28
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/medications-dementia-risk-decrease-6069041)
 
