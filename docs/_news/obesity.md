@@ -19,7 +19,7 @@ permalink: /news/obesity/
 
 ### [Fatty liver genes combined with diabetes and obesity increase liver cancer risk: S’pore study](https://www.straitstimes.com/singapore/health/fatty-liver-genes-combined-with-diabetes-and-obesity-increase-liver-cancer-risk-spore-study)
 
-2026-05-28
+2026-05-29
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/fatty-liver-genes-combined-with-diabetes-and-obesity-increase-liver-cancer-risk-spore-study)
 
