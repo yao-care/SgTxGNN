@@ -13,7 +13,7 @@ permalink: /news/infectious-disease/
 
 ---
 
-**1 articles** related to infectious disease.
+**2 articles** related to infectious disease.
 
 ---
 
@@ -22,6 +22,14 @@ permalink: /news/infectious-disease/
 2026-05-29
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/askst-should-we-be-concerned-with-12700-covid-19-cases-in-a-week)
+
+---
+
+### [Not true that current COVID situation is more dangerous: CDA, experts](https://www.straitstimes.com/singapore/health/not-true-that-current-covid-situation-is-more-dangerous-cda-experts)
+
+2026-05-29
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/not-true-that-current-covid-situation-is-more-dangerous-cda-experts)
 
 ---
 
