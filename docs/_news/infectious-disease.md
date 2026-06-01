@@ -13,15 +13,7 @@ permalink: /news/infectious-disease/
 
 ---
 
-**2 articles** related to infectious disease.
-
----
-
-### [askST: Are 12,700 Covid-19 cases in a week cause for concern?](https://www.straitstimes.com/singapore/health/askst-should-we-be-concerned-with-12700-covid-19-cases-in-a-week)
-
-2026-06-01
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/askst-should-we-be-concerned-with-12700-covid-19-cases-in-a-week)
+**1 articles** related to infectious disease.
 
 ---
 

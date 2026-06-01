@@ -13,15 +13,7 @@ permalink: /news/aging/
 
 ---
 
-**2 articles** related to aging.
-
----
-
-### [S’pore launches $350m longevity challenge to tackle cognitive decline and loss of physical function](https://www.straitstimes.com/singapore/health/spore-launches-350m-longevity-challenge-to-tackle-cognitive-decline-and-loss-of-physical-function)
-
-2026-06-01
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/spore-launches-350m-longevity-challenge-to-tackle-cognitive-decline-and-loss-of-physical-function)
+**1 articles** related to aging.
 
 ---
 
