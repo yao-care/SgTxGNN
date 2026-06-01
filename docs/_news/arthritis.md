@@ -41,7 +41,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-ai-ass
 
 ---
 
-### [Shorter wait times for eye surgery with SNEC’s third operating theatre in Sengkang](https://www.straitstimes.com/singapore/health/shorter-wait-times-for-eye-surgery-with-snecs-third-operating-theatre-in-sengkang)
+### [Shorter wait times for eye surgery as SNEC opens third operating theatre in Sengkang](https://www.straitstimes.com/singapore/health/shorter-wait-times-for-eye-surgery-with-snecs-third-operating-theatre-in-sengkang)
 
 2026-06-01
 
