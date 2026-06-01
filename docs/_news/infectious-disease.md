@@ -19,7 +19,7 @@ permalink: /news/infectious-disease/
 
 ### [askST: Are 12,700 Covid-19 cases in a week cause for concern?](https://www.straitstimes.com/singapore/health/askst-should-we-be-concerned-with-12700-covid-19-cases-in-a-week)
 
-2026-05-31
+2026-06-01
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/askst-should-we-be-concerned-with-12700-covid-19-cases-in-a-week)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/askst-shou
 
 ### [Not true that current Covid-19 situation is more dangerous: CDA, experts](https://www.straitstimes.com/singapore/health/not-true-that-current-covid-situation-is-more-dangerous-cda-experts)
 
-2026-05-31
+2026-06-01
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/not-true-that-current-covid-situation-is-more-dangerous-cda-experts)
 
