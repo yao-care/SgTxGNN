@@ -19,7 +19,7 @@ permalink: /news/kidney-disease/
 
 ### [$9m pilot initiative to integrate palliative care into chronic kidney disease treatment](https://www.straitstimes.com/singapore/health/9m-pilot-to-integrate-palliative-care-into-chronic-kidney-disease-treatment)
 
-2026-06-01
+2026-06-02
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/9m-pilot-to-integrate-palliative-care-into-chronic-kidney-disease-treatment)
 
