@@ -13,15 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**11 articles** related to arthritis.
-
----
-
-### [TCM practitioners can join hands with eligible clinics to manage patients’ health: Koh Poh Koon](https://www.straitstimes.com/singapore/health/tcm-practitioners-eligible-clinics-to-be-able-to-jointly-manage-healthcare-koh-poh-koon)
-
-2026-06-03
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/tcm-practitioners-eligible-clinics-to-be-able-to-jointly-manage-healthcare-koh-poh-koon)
+**10 articles** related to arthritis.
 
 ---
 
