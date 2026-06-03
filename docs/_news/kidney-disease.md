@@ -13,7 +13,7 @@ permalink: /news/kidney-disease/
 
 ---
 
-**1 articles** related to kidney disease.
+**2 articles** related to kidney disease.
 
 ---
 
@@ -22,6 +22,14 @@ permalink: /news/kidney-disease/
 2026-06-03
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/9m-pilot-to-integrate-palliative-care-into-chronic-kidney-disease-treatment)
+
+---
+
+### [NKF, other dialysis providers help kidney patients find jobs and sense of purpose](https://www.straitstimes.com/singapore/health/nkf-other-dialysis-providers-help-kidney-patients-find-jobs-and-sense-of-purpose)
+
+2026-06-03
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/nkf-other-dialysis-providers-help-kidney-patients-find-jobs-and-sense-of-purpose)
 
 ---
 

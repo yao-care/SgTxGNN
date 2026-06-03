@@ -13,15 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**12 articles** related to arthritis.
-
----
-
-### [Surgeons perform first brain tumour removal through eye socket in Singapore](https://www.straitstimes.com/singapore/health/surgeons-perform-first-brain-tumour-removal-through-eye-socket-in-singapore)
-
-2026-06-03
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/surgeons-perform-first-brain-tumour-removal-through-eye-socket-in-singapore)
+**11 articles** related to arthritis.
 
 ---
 
