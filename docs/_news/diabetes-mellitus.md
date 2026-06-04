@@ -19,7 +19,7 @@ permalink: /news/diabetes-mellitus/
 
 ### [Fatty liver genes combined with diabetes and obesity increase liver cancer risk: S’pore study](https://www.straitstimes.com/singapore/health/fatty-liver-genes-combined-with-diabetes-and-obesity-increase-liver-cancer-risk-spore-study)
 
-2026-06-03
+2026-06-04
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/fatty-liver-genes-combined-with-diabetes-and-obesity-increase-liver-cancer-risk-spore-study)
 
