@@ -13,13 +13,21 @@ permalink: /news/diabetes-mellitus/
 
 ---
 
-**1 articles** related to diabetes mellitus.
+**2 articles** related to diabetes mellitus.
+
+---
+
+### [Big Read: How a diabetes drug became a weight-loss hack, and why doctors are concerned](https://www.todayonline.com/today/big-read/ozempic-glp1-drug-weight-loss-diet-trend-diabetes-obesity-social-media-6161316)
+
+2026-06-06
+
+Source: [TODAY](https://www.todayonline.com/today/big-read/ozempic-glp1-drug-weight-loss-diet-trend-diabetes-obesity-social-media-6161316)
 
 ---
 
 ### [Fatty liver genes combined with diabetes and obesity increase liver cancer risk: S’pore study](https://www.straitstimes.com/singapore/health/fatty-liver-genes-combined-with-diabetes-and-obesity-increase-liver-cancer-risk-spore-study)
 
-2026-06-05
+2026-06-06
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/fatty-liver-genes-combined-with-diabetes-and-obesity-increase-liver-cancer-risk-spore-study)
 
