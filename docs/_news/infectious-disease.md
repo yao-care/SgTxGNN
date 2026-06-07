@@ -19,7 +19,7 @@ permalink: /news/infectious-disease/
 
 ### [Not true that current Covid-19 situation is more dangerous: CDA, experts](https://www.straitstimes.com/singapore/health/not-true-that-current-covid-situation-is-more-dangerous-cda-experts)
 
-2026-06-06
+2026-06-07
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/not-true-that-current-covid-situation-is-more-dangerous-cda-experts)
 
