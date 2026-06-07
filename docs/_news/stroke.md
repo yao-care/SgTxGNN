@@ -13,7 +13,7 @@ permalink: /news/stroke/
 
 ---
 
-**4 articles** related to stroke.
+**3 articles** related to stroke.
 
 ---
 
@@ -22,14 +22,6 @@ permalink: /news/stroke/
 2026-06-07
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/9m-pilot-to-integrate-palliative-care-into-chronic-kidney-disease-treatment)
-
----
-
-### [Research shows potential of using blood tests to predict Alzheimer’s disease](https://www.straitstimes.com/singapore/health/research-shows-potential-of-using-blood-tests-to-predict-alzheimers-disease)
-
-2026-06-07
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/research-shows-potential-of-using-blood-tests-to-predict-alzheimers-disease)
 
 ---
 
