@@ -19,7 +19,7 @@ permalink: /news/aging/
 
 ### [Commentary: Ageing Singapore could use a better way of thinking about ‘good’ healthcare for seniors](https://www.channelnewsasia.com/commentary/singapore-healthcare-seniors-right-decision-health-6073436)
 
-2026-06-08
+2026-06-09
 
 Source: [CNA](https://www.channelnewsasia.com/commentary/singapore-healthcare-seniors-right-decision-health-6073436)
 

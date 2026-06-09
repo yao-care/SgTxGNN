@@ -19,7 +19,7 @@ permalink: /news/multiple-sclerosis/
 
 ### [A blood test may help detect Alzheimer’s disease years before cognitive symptoms appear](https://www.straitstimes.com/singapore/health/research-shows-potential-of-using-blood-tests-to-predict-alzheimers-disease)
 
-2026-06-08
+2026-06-09
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/research-shows-potential-of-using-blood-tests-to-predict-alzheimers-disease)
 
