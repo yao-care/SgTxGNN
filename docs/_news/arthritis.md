@@ -13,7 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**9 articles** related to arthritis.
+**10 articles** related to arthritis.
 
 ---
 
@@ -38,6 +38,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/pet-chicke
 2026-06-09
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/9m-pilot-to-integrate-palliative-care-into-chronic-kidney-disease-treatment)
+
+---
+
+### [KTPH surgeons develop new surgical approach to treat frequent shoulder dislocation](https://www.straitstimes.com/singapore/health/surgeons-at-ktph-develop-new-surgical-approach-to-treat-frequent-shoulder-dislocation)
+
+2026-06-09
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/surgeons-at-ktph-develop-new-surgical-approach-to-treat-frequent-shoulder-dislocation)
 
 ---
 
