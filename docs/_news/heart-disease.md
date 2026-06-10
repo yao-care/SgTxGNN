@@ -19,7 +19,7 @@ permalink: /news/heart-disease/
 
 ### [Two new procedures at National Heart Centre Singapore to identify hidden heart diseases](https://www.straitstimes.com/singapore/health/two-new-procedures-at-national-heart-centre-singapore-to-identify-hidden-heart-diseases)
 
-2026-06-09
+2026-06-10
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/two-new-procedures-at-national-heart-centre-singapore-to-identify-hidden-heart-diseases)
 
