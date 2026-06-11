@@ -13,47 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**11 articles** related to arthritis.
-
----
-
-### [Shorter wait times for eye surgery as SNEC opens third operating theatre in Sengkang](https://www.straitstimes.com/singapore/health/shorter-wait-times-for-eye-surgery-with-snecs-third-operating-theatre-in-sengkang)
-
-2026-06-11
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/shorter-wait-times-for-eye-surgery-with-snecs-third-operating-theatre-in-sengkang)
-
----
-
-### [As Singapore ramps up psychiatric nursing home capacity, focus shifts to social care](https://www.straitstimes.com/singapore/health/pet-chickens-and-karaoke-as-spore-ramps-up-psych-home-capacity-focus-shifts-to-social-care)
-
-2026-06-11
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/pet-chickens-and-karaoke-as-spore-ramps-up-psych-home-capacity-focus-shifts-to-social-care)
-
----
-
-### [$9m pilot initiative to integrate palliative care into chronic kidney disease treatment](https://www.straitstimes.com/singapore/health/9m-pilot-to-integrate-palliative-care-into-chronic-kidney-disease-treatment)
-
-2026-06-11
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/9m-pilot-to-integrate-palliative-care-into-chronic-kidney-disease-treatment)
-
----
-
-### [KTPH surgeons develop new surgical approach to treat frequent shoulder dislocation](https://www.straitstimes.com/singapore/health/surgeons-at-ktph-develop-new-surgical-approach-to-treat-frequent-shoulder-dislocation)
-
-2026-06-11
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/surgeons-at-ktph-develop-new-surgical-approach-to-treat-frequent-shoulder-dislocation)
-
----
-
-### [Ultrasound procedure for liver cancer saves grandfather’s place on transplant waiting list](https://www.straitstimes.com/singapore/health/ultrasound-procedure-for-liver-cancer-keeps-grandfather-on-transplant-waiting-list)
-
-2026-06-11
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/ultrasound-procedure-for-liver-cancer-keeps-grandfather-on-transplant-waiting-list)
+**6 articles** related to arthritis.
 
 ---
 
