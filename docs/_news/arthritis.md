@@ -13,7 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**10 articles** related to arthritis.
+**11 articles** related to arthritis.
 
 ---
 
@@ -46,6 +46,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/9m-pilot-t
 2026-06-11
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/surgeons-at-ktph-develop-new-surgical-approach-to-treat-frequent-shoulder-dislocation)
+
+---
+
+### [Ultrasound procedure for liver cancer saves grandfather’s place on transplant waiting list](https://www.straitstimes.com/singapore/health/ultrasound-procedure-for-liver-cancer-keeps-grandfather-on-transplant-waiting-list)
+
+2026-06-11
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/ultrasound-procedure-for-liver-cancer-keeps-grandfather-on-transplant-waiting-list)
 
 ---
 
