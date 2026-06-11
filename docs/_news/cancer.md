@@ -13,15 +13,7 @@ permalink: /news/cancer/
 
 ---
 
-**3 articles** related to cancer.
-
----
-
-### [Ultrasound procedure for liver cancer saves grandfather’s place on transplant waiting list](https://www.straitstimes.com/singapore/health/ultrasound-procedure-for-liver-cancer-keeps-grandfather-on-transplant-waiting-list)
-
-2026-06-11
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/ultrasound-procedure-for-liver-cancer-keeps-grandfather-on-transplant-waiting-list)
+**2 articles** related to cancer.
 
 ---
 
