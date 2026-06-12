@@ -13,15 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**11 articles** related to arthritis.
-
----
-
-### [Shorter wait times for eye surgery as SNEC opens third operating theatre in Sengkang](https://www.straitstimes.com/singapore/health/shorter-wait-times-for-eye-surgery-with-snecs-third-operating-theatre-in-sengkang)
-
-2026-06-12
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/shorter-wait-times-for-eye-surgery-with-snecs-third-operating-theatre-in-sengkang)
+**10 articles** related to arthritis.
 
 ---
 
