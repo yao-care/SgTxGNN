@@ -41,7 +41,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/ultrasound
 
 ---
 
-### [Toddler’s rare diagnosis gives family answers about her developmental delays](https://www.straitstimes.com/singapore/health/toddlers-rare-diagnosis-gives-family-answers-about-her-developmental-delays)
+### [Toddler’s rare diagnosis gives family answers to her developmental delays](https://www.straitstimes.com/singapore/health/toddlers-rare-diagnosis-gives-family-answers-about-her-developmental-delays)
 
 2026-06-13
 
