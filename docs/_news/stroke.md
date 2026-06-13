@@ -13,21 +13,13 @@ permalink: /news/stroke/
 
 ---
 
-**3 articles** related to stroke.
-
----
-
-### [$9m pilot initiative to integrate palliative care into chronic kidney disease treatment](https://www.straitstimes.com/singapore/health/9m-pilot-to-integrate-palliative-care-into-chronic-kidney-disease-treatment)
-
-2026-06-12
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/9m-pilot-to-integrate-palliative-care-into-chronic-kidney-disease-treatment)
+**2 articles** related to stroke.
 
 ---
 
 ### [4 types of drugs that may increase your dementia risk](https://www.channelnewsasia.com/wellness/medications-dementia-risk-increase-6076966)
 
-2026-06-12
+2026-06-13
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/medications-dementia-risk-increase-6076966)
 
@@ -35,7 +27,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/medications-dementia-risk
 
 ### [6 common medications that may lower your dementia risk](https://www.channelnewsasia.com/wellness/medications-dementia-risk-decrease-6069041)
 
-2026-06-12
+2026-06-13
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/medications-dementia-risk-decrease-6069041)
 
