@@ -13,7 +13,39 @@ permalink: /news/arthritis/
 
 ---
 
-**6 articles** related to arthritis.
+**10 articles** related to arthritis.
+
+---
+
+### [$9m pilot initiative to integrate palliative care into chronic kidney disease treatment](https://www.straitstimes.com/singapore/health/9m-pilot-to-integrate-palliative-care-into-chronic-kidney-disease-treatment)
+
+2026-06-13
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/9m-pilot-to-integrate-palliative-care-into-chronic-kidney-disease-treatment)
+
+---
+
+### [KTPH surgeons develop new surgical approach to treat frequent shoulder dislocation](https://www.straitstimes.com/singapore/health/surgeons-at-ktph-develop-new-surgical-approach-to-treat-frequent-shoulder-dislocation)
+
+2026-06-13
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/surgeons-at-ktph-develop-new-surgical-approach-to-treat-frequent-shoulder-dislocation)
+
+---
+
+### [Ultrasound procedure for liver cancer saves grandfather’s place on transplant waiting list](https://www.straitstimes.com/singapore/health/ultrasound-procedure-for-liver-cancer-keeps-grandfather-on-transplant-waiting-list)
+
+2026-06-13
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/ultrasound-procedure-for-liver-cancer-keeps-grandfather-on-transplant-waiting-list)
+
+---
+
+### [Toddler’s rare diagnosis gives family answers about her developmental delays](https://www.straitstimes.com/singapore/health/toddlers-rare-diagnosis-gives-family-answers-about-her-developmental-delays)
+
+2026-06-13
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/toddlers-rare-diagnosis-gives-family-answers-about-her-developmental-delays)
 
 ---
 
