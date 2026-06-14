@@ -13,31 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**9 articles** related to arthritis.
-
----
-
-### [KTPH surgeons develop new surgical approach to treat frequent shoulder dislocation](https://www.straitstimes.com/singapore/health/surgeons-at-ktph-develop-new-surgical-approach-to-treat-frequent-shoulder-dislocation)
-
-2026-06-14
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/surgeons-at-ktph-develop-new-surgical-approach-to-treat-frequent-shoulder-dislocation)
-
----
-
-### [Ultrasound procedure for liver cancer saves grandfather’s place on transplant waiting list](https://www.straitstimes.com/singapore/health/ultrasound-procedure-for-liver-cancer-keeps-grandfather-on-transplant-waiting-list)
-
-2026-06-14
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/ultrasound-procedure-for-liver-cancer-keeps-grandfather-on-transplant-waiting-list)
-
----
-
-### [Toddler’s rare diagnosis gives family answers to her developmental delays](https://www.straitstimes.com/singapore/health/toddlers-rare-diagnosis-gives-family-answers-about-her-developmental-delays)
-
-2026-06-14
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/toddlers-rare-diagnosis-gives-family-answers-about-her-developmental-delays)
+**6 articles** related to arthritis.
 
 ---
 
