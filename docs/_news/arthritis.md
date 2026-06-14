@@ -13,15 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**10 articles** related to arthritis.
-
----
-
-### [$9m pilot initiative to integrate palliative care into chronic kidney disease treatment](https://www.straitstimes.com/singapore/health/9m-pilot-to-integrate-palliative-care-into-chronic-kidney-disease-treatment)
-
-2026-06-14
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/9m-pilot-to-integrate-palliative-care-into-chronic-kidney-disease-treatment)
+**9 articles** related to arthritis.
 
 ---
 
