@@ -2,7 +2,7 @@
 layout: default
 title: Digoxin
 parent: 僅模型預測 (L5)
-nav_order: 243
+nav_order: 301
 evidence_level: L5
 indication_count: 10
 ---

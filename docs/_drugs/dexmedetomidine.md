@@ -2,7 +2,7 @@
 layout: default
 title: Dexmedetomidine
 parent: 僅模型預測 (L5)
-nav_order: 237
+nav_order: 295
 evidence_level: L5
 indication_count: 10
 ---
