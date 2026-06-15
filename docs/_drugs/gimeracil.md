@@ -2,7 +2,7 @@
 layout: default
 title: Gimeracil
 parent: 僅模型預測 (L5)
-nav_order: 263
+nav_order: 321
 evidence_level: L5
 indication_count: 10
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Idarucizumab
 parent: 僅模型預測 (L5)
-nav_order: 302
+nav_order: 360
 evidence_level: L5
 indication_count: 10
 ---

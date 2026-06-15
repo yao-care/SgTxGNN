@@ -2,7 +2,7 @@
 layout: default
 title: Dexlansoprazole
 parent: 僅模型預測 (L5)
-nav_order: 236
+nav_order: 294
 evidence_level: L5
 indication_count: 10
 ---

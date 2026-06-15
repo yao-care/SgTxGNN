@@ -2,7 +2,7 @@
 layout: default
 title: Idarubicin
 parent: 僅模型預測 (L5)
-nav_order: 301
+nav_order: 359
 evidence_level: L5
 indication_count: 10
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Cyclizine
 parent: 僅模型預測 (L5)
-nav_order: 198
+nav_order: 256
 evidence_level: L5
 indication_count: 10
 ---

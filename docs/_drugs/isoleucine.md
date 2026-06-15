@@ -2,7 +2,7 @@
 layout: default
 title: Isoleucine
 parent: 僅模型預測 (L5)
-nav_order: 339
+nav_order: 397
 evidence_level: L5
 indication_count: 10
 ---
