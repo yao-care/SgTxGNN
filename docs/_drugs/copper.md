@@ -2,7 +2,7 @@
 layout: default
 title: Copper
 parent: 僅模型預測 (L5)
-nav_order: 250
+nav_order: 275
 evidence_level: L5
 indication_count: 10
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Colchicine
 parent: 僅模型預測 (L5)
-nav_order: 249
+nav_order: 274
 evidence_level: L5
 indication_count: 10
 ---

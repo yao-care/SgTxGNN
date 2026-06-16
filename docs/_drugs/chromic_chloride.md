@@ -2,7 +2,7 @@
 layout: default
 title: Chromic Chloride
 parent: 僅模型預測 (L5)
-nav_order: 220
+nav_order: 245
 evidence_level: L5
 indication_count: 10
 ---

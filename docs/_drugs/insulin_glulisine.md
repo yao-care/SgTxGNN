@@ -2,7 +2,7 @@
 layout: default
 title: Insulin Glulisine
 parent: 僅模型預測 (L5)
-nav_order: 380
+nav_order: 483
 evidence_level: L5
 indication_count: 10
 ---

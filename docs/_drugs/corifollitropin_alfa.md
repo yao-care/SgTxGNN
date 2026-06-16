@@ -2,7 +2,7 @@
 layout: default
 title: Corifollitropin Alfa
 parent: 僅模型預測 (L5)
-nav_order: 251
+nav_order: 276
 evidence_level: L5
 indication_count: 10
 ---

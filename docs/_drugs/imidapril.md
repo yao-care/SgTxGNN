@@ -2,7 +2,7 @@
 layout: default
 title: Imidapril
 parent: 僅模型預測 (L5)
-nav_order: 365
+nav_order: 468
 evidence_level: L5
 indication_count: 10
 ---
