@@ -2,7 +2,7 @@
 layout: default
 title: Indomethacin
 parent: 僅模型預測 (L5)
-nav_order: 373
+nav_order: 476
 evidence_level: L5
 indication_count: 10
 ---

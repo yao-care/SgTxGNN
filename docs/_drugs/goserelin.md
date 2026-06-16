@@ -2,7 +2,7 @@
 layout: default
 title: Goserelin
 parent: 僅模型預測 (L5)
-nav_order: 333
+nav_order: 436
 evidence_level: L5
 indication_count: 10
 ---

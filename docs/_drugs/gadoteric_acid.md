@@ -2,7 +2,7 @@
 layout: default
 title: Gadoteric Acid
 parent: 僅模型預測 (L5)
-nav_order: 306
+nav_order: 409
 evidence_level: L5
 indication_count: 10
 ---

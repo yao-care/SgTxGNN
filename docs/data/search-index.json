@@ -1,7 +1,7 @@
 {
-  "generated": "2026-06-15",
-  "drug_count": 1732,
-  "indication_count": 2175,
+  "generated": "2026-06-16",
+  "drug_count": 1783,
+  "indication_count": 2288,
   "drugs": [
     {
       "name": "4 56Mg Donepezil Free Base",
@@ -9784,7 +9784,7 @@
       ]
     },
     {
-      "name": "CASPOFUNGIN",
+      "name": "Caspofungin",
       "slug": "caspofungin",
       "brands": [],
       "original": "",
@@ -9843,7 +9843,7 @@
       ]
     },
     {
-      "name": "CEFACLOR",
+      "name": "Cefaclor",
       "slug": "cefaclor",
       "brands": [],
       "original": "",
@@ -9902,7 +9902,7 @@
       ]
     },
     {
-      "name": "CEFADROXIL",
+      "name": "Cefadroxil",
       "slug": "cefadroxil",
       "brands": [],
       "original": "",
@@ -9969,6 +9969,14 @@
       "indications": []
     },
     {
+      "name": "Cefazolin",
+      "slug": "cefazolin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
       "name": "CEFEPIME BASE",
       "slug": "cefepime-base",
       "brands": [],
@@ -9977,7 +9985,15 @@
       "indications": []
     },
     {
-      "name": "CEFOTAXIME",
+      "name": "Cefepime",
+      "slug": "cefepime",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Cefotaxime",
       "slug": "cefotaxime",
       "brands": [],
       "original": "",
@@ -10036,7 +10052,15 @@
       ]
     },
     {
-      "name": "CEFTAZIDIME",
+      "name": "Ceftaroline Fosamil",
+      "slug": "ceftaroline_fosamil",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Ceftazidime",
       "slug": "ceftazidime",
       "brands": [],
       "original": "",
@@ -10095,7 +10119,66 @@
       ]
     },
     {
-      "name": "CEFTRIAXONE",
+      "name": "Ceftolozane",
+      "slug": "ceftolozane",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Gonococcal Urethritis | 99.89% | L5 | Research Question | Gram-negative coverage theoretically applicable; no clinical data; IV formulation unsuitable for standard outpatient gonorrhea treatment",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Ureaplasma Urethritis | 99.89% | L5 | **Hold — Mechanism Incompatible** | *Ureaplasma* lacks a peptidoglycan cell wall; beta-lactams are entirely ineffective",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Uterine Inflammatory Disease | 99.88% | L5 | **Hold** | PID requires coverage for *Chlamydia* (intracellular; beta-lactam-insensitive) and anaerobes; does not match CDC treatment guidelines",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Xanthogranulomatous Pyelonephritis | 99.88% | L4 | Research Question | Caused by Gram-negatives (*E. coli*, *Proteus*) within Ceftolozane's coverage; 1 indirect review reference; surgery is the primary treatment",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Polyclonal Hyperviscosity Syndrome | 99.52% | L5 | **Hold — Mechanism Incompatible** | B-cell/immunoglobulin disorder; antibiotics have no known effect on immunoglobulin production",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Hyperamylasemia | 99.52% | L5 | **Hold — Mechanism Incompatible** | Biochemical marker of pancreatic/salivary injury, not a bacterial target; no clinical rationale",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Urogenital Tuberculosis | 99.50% | L5 | **Hold — Mechanism Incompatible** | *Mycobacterium tuberculosis* is intrinsically resistant to cephalosporins due to its unique cell wall lipid layer",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Congenital Analbuminemia | 99.44% | L5 | **Hold — Mechanism Incompatible** | Genetic ALB mutation; antibiotics have no corrective effect on protein synthesis defects",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Blood Group Incompatibility | 99.22% | L5 | **Hold — Mechanism Incompatible** | Red blood cell antigen–antibody reaction; entirely unrelated to antimicrobial mechanism",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Premalignant Hematological Disease | 99.11% | L5 | **Hold — Mechanism Incompatible** | MDS and similar disorders are driven by genomic instability; antibiotics have no therapeutic effect",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Ceftriaxone",
       "slug": "ceftriaxone",
       "brands": [],
       "original": "",
@@ -10154,7 +10237,7 @@
       ]
     },
     {
-      "name": "CEFUROXIME",
+      "name": "Cefuroxime",
       "slug": "cefuroxime",
       "brands": [],
       "original": "",
@@ -10213,7 +10296,7 @@
       ]
     },
     {
-      "name": "CELECOXIB",
+      "name": "Celecoxib",
       "slug": "celecoxib",
       "brands": [],
       "original": "",
@@ -10272,7 +10355,7 @@
       ]
     },
     {
-      "name": "CEPHALEXIN",
+      "name": "Cephalexin",
       "slug": "cephalexin",
       "brands": [],
       "original": "",
@@ -10331,7 +10414,7 @@
       ]
     },
     {
-      "name": "CERITINIB",
+      "name": "Ceritinib",
       "slug": "ceritinib",
       "brands": [],
       "original": "",
@@ -10398,7 +10481,15 @@
       "indications": []
     },
     {
-      "name": "CETRORELIX",
+      "name": "Cetirizine",
+      "slug": "cetirizine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Cetrorelix",
       "slug": "cetrorelix",
       "brands": [],
       "original": "",
@@ -10457,7 +10548,23 @@
       ]
     },
     {
-      "name": "CHLORAMPHENICOL",
+      "name": "Cetylpyridinium",
+      "slug": "cetylpyridinium",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Chlorambucil",
+      "slug": "chlorambucil",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Chloramphenicol",
       "slug": "chloramphenicol",
       "brands": [],
       "original": "",
@@ -10524,8 +10631,24 @@
       "indications": []
     },
     {
+      "name": "Chlordiazepoxide",
+      "slug": "chlordiazepoxide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
       "name": "CHLORHEXIDINE HCL",
       "slug": "chlorhexidine-hcl",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Chlorhexidine",
+      "slug": "chlorhexidine",
       "brands": [],
       "original": "",
       "level": "L5",
@@ -10540,8 +10663,75 @@
       "indications": []
     },
     {
+      "name": "Chlormadinone",
+      "slug": "chlormadinone",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Antithrombin Deficiency Type 2 | 98.71% | L5 | 0 | 0 | Hold | Pro-coagulant direction; no evidence",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Heparin Cofactor 2 Deficiency | 98.67% | L5 | 0 | 0 | Hold | Topology-only; no biological specificity",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Factor 5 Excess / Spontaneous Thrombosis | 98.64% | L5 | 0 | 0 | Hold | CMA may worsen APC resistance",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Candidiasis | 98.62% | L5 | 0 | 3 | Hold | Literature shows CMA *increases* risk",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Plasma Cell Myeloma | 97.89% | L5 | 0 | 0 | Hold | No clinical or preclinical data",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Heart Neoplasm | 97.77% | L5 | 0 | 1 | Hold | Hormone-risk framework only",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Rheumatoid Arthritis | 97.72% | L5 | 0 | 1 | Hold | Bidirectional; insufficient data",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Indolent Plasma Cell Myeloma | 97.68% | L5 | 0 | 0 | Hold | Same path as rank 5; ontology similarity only",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Gout | 97.68% | L5 | 0 | 0 | Hold | Estrogen drives urate excretion; progestogen effect minimal",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Thrombophilia | 97.66% | **L4** | 0 | **7** | Hold* | Context: safe contraceptive use, not treatment",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
       "name": "CHLOROQUINE PHOSPHATE",
       "slug": "chloroquine-phosphate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Chloroquine",
+      "slug": "chloroquine",
       "brands": [],
       "original": "",
       "level": "L5",
@@ -10556,12 +10746,74 @@
       "indications": []
     },
     {
+      "name": "Chlorpheniramine",
+      "slug": "chlorpheniramine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
       "name": "CHLORPROMAZINE HCL BP",
       "slug": "chlorpromazine-hcl-bp",
       "brands": [],
       "original": "",
       "level": "L5",
       "indications": []
+    },
+    {
+      "name": "Chlorpromazine",
+      "slug": "chlorpromazine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Retinal dystrophy with/without extraocular anomalies | 99.95% | L5 | ⛔ Hold | **Reverse warning: chlorpromazine CAUSES retinal toxicity — not a treatment**",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Congenital disorder of glycosylation (fucosylation defect) | 99.94% | L5 | Hold | No mechanistic link; probable KG artifact via CNS → neurodelopment → glycosylation",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Myopia X-linked | 99.94% | L5 | Hold | No therapeutic mechanism; known ocular toxicity is a contraindication concern",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Syndromic myopia | 99.94% | L5 | Hold | Genetic/collagen etiology; no drug target; model over-predicts ophthalmic cluster",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Hydranencephaly | 99.93% | L5 | Hold | Irreversible structural brain anomaly; sedation is symptom management only",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Polymicrogyria with cerebellar hypoplasia & arthrogryposis | 99.93% | L5 | Hold | Irreversible cortical malformation; distant indirect KG linkage only",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Myopia 26, X-linked, female-limited | 99.93% | L5 | Hold | Same as Rank 3; ARR3 gene defect, no known drug target",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Charcot-Marie-Tooth disease type 1G | 99.93% | L5 | Hold | No remyelination mechanism; chlorpromazine may worsen peripheral neuropathy",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Atypical glycine encephalopathy | 99.92% | L5 | Hold | Hypothetical NMDA co-agonist connection; no clinical or preclinical data",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
     },
     {
       "name": "CHLORTETRACYCLINE HCL",
@@ -60158,7 +60410,31 @@
       "indications": []
     },
     {
-      "name": "DINOPROSTONE",
+      "name": "Dimenhydrinate",
+      "slug": "dimenhydrinate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Dimethicone",
+      "slug": "dimethicone",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Dimethyl Fumarate",
+      "slug": "dimethyl_fumarate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Dinoprostone",
       "slug": "dinoprostone",
       "brands": [],
       "original": "",
@@ -60217,8 +60493,91 @@
       ]
     },
     {
+      "name": "Diosmin",
+      "slug": "diosmin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
       "name": "DIPHENHYDRAMINE HCL",
       "slug": "diphenhydramine-hcl",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Diphenhydramine",
+      "slug": "diphenhydramine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Rosacea Conjunctivitis | 99.20% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "**Rhinitis** | **98.35%** | **L1** | **Proceed with Guardrails**",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Allergic Urticaria | 98.24% | L2 | Proceed with Guardrails",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Cold Urticaria | 95.92% | L3 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Cauda Equina Syndrome | 95.57% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Nasopharyngitis | 94.96% | L4 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Viral Conjunctivitis | 93.97% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Neuralgia | 92.30% | L4 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Trigeminal Autonomic Cephalalgia | 92.25% | L3 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Glossodynia | 92.08% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Diphenoxylate",
+      "slug": "diphenoxylate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Dipyridamole",
+      "slug": "dipyridamole",
       "brands": [],
       "original": "",
       "level": "L5",
@@ -60233,60 +60592,68 @@
       "indications": []
     },
     {
-      "name": "DOBUTAMINE",
+      "name": "Distigmine",
+      "slug": "distigmine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Dobutamine",
       "slug": "dobutamine",
       "brands": [],
       "original": "",
       "level": "L5",
       "indications": [
         {
-          "name": "alopecia",
-          "score": 99.85,
+          "name": "Alopecia | 99.85% | 0 | 2 (non-contributory) | KG artefact — likely confusion with minoxidil via vasodilation node; no β1 link to hair biology",
+          "score": 99.0,
           "level": "L5"
         },
         {
-          "name": "hypotrichosis simplex of the scalp",
-          "score": 99.84,
+          "name": "Hypotrichosis simplex of the scalp | 99.84% | 0 | 0 | Genetic disease (CDSN, LPAR6 mutations); no adrenergic mechanism",
+          "score": 99.0,
           "level": "L5"
         },
         {
-          "name": "congenital hypotrichosis milia",
-          "score": 99.83,
+          "name": "Congenital hypotrichosis milia | 99.83% | 0 | 0 | Genetic skin disorder; no β1 signalling connection",
+          "score": 99.0,
           "level": "L5"
         },
         {
-          "name": "diffuse alopecia areata",
-          "score": 99.82,
+          "name": "Diffuse alopecia areata | 99.82% | 0 | 0 | Autoimmune (JAK-STAT pathway); standard of care is JAK inhibitors",
+          "score": 99.0,
           "level": "L5"
         },
         {
-          "name": "open-angle glaucoma",
-          "score": 99.47,
+          "name": "Open-angle glaucoma | 99.47% | 0 | 0 | **Reversed mechanism**: β-blockers lower IOP; β-agonist dobutamine would increase aqueous humour production and worsen glaucoma",
+          "score": 99.0,
           "level": "L5"
         },
         {
-          "name": "Raynaud disease",
-          "score": 99.47,
+          "name": "Raynaud disease | 99.47% | 0 | 1 (irrelevant) | Weak β2 vasodilation hypothesis; IV-only route entirely unsuitable for chronic management of a peripheral vasospastic disorder",
+          "score": 99.0,
           "level": "L5"
         },
         {
-          "name": "primary hereditary glaucoma",
-          "score": 99.46,
+          "name": "Primary hereditary glaucoma | 99.46% | 0 | 0 | Genetic (MYOC, OPTN mutations); same reversed mechanism risk as rank 5",
+          "score": 99.0,
           "level": "L5"
         },
         {
-          "name": "headache disorder",
-          "score": 99.31,
+          "name": "Headache disorder | 99.31% | 1* | 4 (non-contributory) | **Dobutamine causes headache as a known side effect** (PMID 9137218, n=3,011); drug is an aetiological agent, not a treatment",
+          "score": 99.0,
           "level": "L5"
         },
         {
-          "name": "hypertrichosis (disease)",
-          "score": 99.29,
+          "name": "Hypertrichosis | 99.29% | 0 | 0 | Same hair-disorder KG artefact cluster; hypertrichosis is not a therapeutic target",
+          "score": 99.0,
           "level": "L5"
         },
         {
-          "name": "migraine disorder",
-          "score": 99.24,
+          "name": "Migraine disorder | 99.24% | 0 | 1 (in vitro animal) | **Reversed mechanism**: β-blockers (propranolol, metoprolol) prevent migraine; β-agonist use is pharmacologically contraindicated",
+          "score": 99.0,
           "level": "L5"
         }
       ]
@@ -60300,7 +60667,15 @@
       "indications": []
     },
     {
-      "name": "DOLUTEGRAVIR",
+      "name": "Docetaxel",
+      "slug": "docetaxel",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Dolutegravir",
       "slug": "dolutegravir",
       "brands": [],
       "original": "",
@@ -60359,7 +60734,7 @@
       ]
     },
     {
-      "name": "DOMPERIDONE",
+      "name": "Domperidone",
       "slug": "domperidone",
       "brands": [],
       "original": "",
@@ -60426,66 +60801,123 @@
       "indications": []
     },
     {
-      "name": "DORAVIRINE",
+      "name": "Donepezil",
+      "slug": "donepezil",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Psychogenic movement disorders | 99.23% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Chronic tic disorder | 99.19% | L4 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Primary orthostatic tremor | 99.17% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Extrapyramidal and movement disease | 99.16% | L4 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Benign shuddering attacks | 99.16% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Tremor-nystagmus-duodenal ulcer syndrome | 99.15% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Benign paroxysmal tonic upgaze of childhood with ataxia | 99.12% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Acute intermittent porphyria | 98.75% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Glaucoma | 98.28% | L4 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Dopamine",
+      "slug": "dopamine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Doravirine",
       "slug": "doravirine",
       "brands": [],
       "original": "",
       "level": "L5",
       "indications": [
         {
-          "name": "feline acquired immunodeficiency syndrome",
-          "score": 99.93,
+          "name": "Feline acquired immunodeficiency syndrome | 99.93% | L5 | **Hold** — veterinary indication; FIV RT is structurally divergent from HIV-1 RT and largely resistant to NNRTI",
+          "score": 99.0,
           "level": "L5"
         },
         {
-          "name": "simian immunodeficiency virus infection",
-          "score": 99.93,
+          "name": "Simian immunodeficiency virus infection | 99.93% | L5 | **Hold** — SIV RT shows high resistance to most NNRTI; supporting literature (PMID 31658118) concerns islatravir, not Doravirine",
+          "score": 99.0,
           "level": "L5"
         },
         {
-          "name": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter",
-          "score": 99.91,
+          "name": "Neurodevelopmental disorder with ataxic gait, absent speech, decreased cortical white matter | 99.91% | L5 | **Hold** — rare genetic disorder (e.g. ADAR1 mutation); no known link to HIV-1 RT mechanism",
+          "score": 99.0,
           "level": "L5"
         },
         {
-          "name": "fibroma of prostate",
-          "score": 98.76,
+          "name": "Fibroma of prostate | 98.76% | L5 | **Hold** — benign stromal tumour; no viral or RT-related aetiology; likely KG path artefact",
+          "score": 99.0,
           "level": "L5"
         },
         {
-          "name": "congenital human immunodeficiency virus",
-          "score": 98.75,
+          "name": "AIDS related complex | 98.75% | L3 | **Research Question** ✓",
+          "score": 99.0,
           "level": "L5"
         },
         {
-          "name": "AIDS related complex",
-          "score": 98.75,
+          "name": "Brenner tumor | 98.75% | L5 | **Hold** — ovarian transitional cell tumour; no NNRTI mechanism link; likely KG cluster artefact",
+          "score": 99.0,
           "level": "L5"
         },
         {
-          "name": "Brenner tumor",
-          "score": 98.75,
+          "name": "Benign reproductive system neoplasm | 98.70% | L5 | **Hold** — broad category; no viral or RT aetiology",
+          "score": 99.0,
           "level": "L5"
         },
         {
-          "name": "benign reproductive system neoplasm",
-          "score": 98.7,
+          "name": "Benign prostate phyllodes tumor | 98.63% | L5 | **Hold** — rare mesenchymal-epithelial tumour; no known NNRTI antifibrotic or antitumour activity",
+          "score": 99.0,
           "level": "L5"
         },
         {
-          "name": "benign prostate phyllodes tumor",
-          "score": 98.63,
-          "level": "L5"
-        },
-        {
-          "name": "male reproductive organ cancer",
-          "score": 98.46,
+          "name": "Male reproductive organ cancer | 98.46% | L5 | **Hold** — hormone/genetic aetiology; Doravirine has no antitumour evidence",
+          "score": 99.0,
           "level": "L5"
         }
       ]
     },
     {
-      "name": "DORZOLAMIDE",
+      "name": "Dorzolamide",
       "slug": "dorzolamide",
       "brands": [],
       "original": "",
@@ -60544,7 +60976,7 @@
       ]
     },
     {
-      "name": "DOSTARLIMAB",
+      "name": "Dostarlimab",
       "slug": "dostarlimab",
       "brands": [],
       "original": "",
@@ -60611,7 +61043,36 @@
       "indications": []
     },
     {
-      "name": "DOXAZOSIN",
+      "name": "Dosulepin",
+      "slug": "dosulepin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Neurotic Disorder",
+          "score": 7.0,
+          "level": "L2"
+        },
+        {
+          "name": "Melancholia",
+          "score": 4.0,
+          "level": "L2"
+        },
+        {
+          "name": "Neurotic Depression",
+          "score": 5.0,
+          "level": "L2"
+        },
+        {
+          "name": "Dysthymic Disorder",
+          "score": 2.0,
+          "level": "L3"
+        }
+      ]
+    },
+    {
+      "name": "Doxazosin",
       "slug": "doxazosin",
       "brands": [],
       "original": "",
@@ -60678,7 +61139,15 @@
       "indications": []
     },
     {
-      "name": "DOXYCYCLINE",
+      "name": "Doxorubicin",
+      "slug": "doxorubicin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Doxycycline",
       "slug": "doxycycline",
       "brands": [],
       "original": "",
@@ -60745,7 +61214,15 @@
       "indications": []
     },
     {
-      "name": "DRONEDARONE",
+      "name": "Doxylamine",
+      "slug": "doxylamine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Dronedarone",
       "slug": "dronedarone",
       "brands": [],
       "original": "",
@@ -60804,7 +61281,7 @@
       ]
     },
     {
-      "name": "DROSPIRENONE",
+      "name": "Drospirenone",
       "slug": "drospirenone",
       "brands": [],
       "original": "",
@@ -60863,7 +61340,15 @@
       ]
     },
     {
-      "name": "DULOXETINE",
+      "name": "Dulaglutide",
+      "slug": "dulaglutide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Duloxetine",
       "slug": "duloxetine",
       "brands": [],
       "original": "",
@@ -60922,66 +61407,74 @@
       ]
     },
     {
-      "name": "DURVALUMAB",
+      "name": "Dupilumab",
+      "slug": "dupilumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Durvalumab",
       "slug": "durvalumab",
       "brands": [],
       "original": "",
       "level": "L5",
       "indications": [
         {
-          "name": "prostatic urethra urothelial carcinoma",
-          "score": 99.98,
+          "name": "Prostatic urethra urothelial carcinoma | 99.98% | 0 | L5 | Hold",
+          "score": 99.0,
           "level": "L5"
         },
         {
-          "name": "kidney pelvis sarcomatoid transitional cell carcinoma",
-          "score": 99.98,
+          "name": "Kidney pelvis sarcomatoid transitional cell carcinoma | 99.98% | 1 | L3 | Research Question",
+          "score": 99.0,
           "level": "L5"
         },
         {
-          "name": "infiltrating bladder urothelial carcinoma sarcomatoid variant",
-          "score": 99.98,
+          "name": "Infiltrating bladder urothelial carcinoma, sarcomatoid variant | 99.98% | 2 | L3 | Research Question",
+          "score": 99.0,
           "level": "L5"
         },
         {
-          "name": "renal pelvis papillary urothelial carcinoma",
-          "score": 99.98,
+          "name": "Renal pelvis papillary urothelial carcinoma | 99.98% | 0 | L5 | Hold",
+          "score": 99.0,
           "level": "L5"
         },
         {
-          "name": "uterine ligament adenocarcinoma",
-          "score": 99.92,
+          "name": "Uterine ligament adenocarcinoma | 99.92% | 0 | L5 | Hold",
+          "score": 99.0,
           "level": "L5"
         },
         {
-          "name": "endocervical carcinoma",
-          "score": 99.91,
+          "name": "**Endocervical carcinoma** | 99.91% | 2 | **L3** | **Proceed with Guardrails**",
+          "score": 99.0,
           "level": "L5"
         },
         {
-          "name": "adenoid cystic carcinoma of the cervix uteri",
-          "score": 99.91,
+          "name": "Adenoid cystic carcinoma of the cervix uteri | 99.91% | 0 | L5 | Hold",
+          "score": 99.0,
           "level": "L5"
         },
         {
-          "name": "uterine ligament serous adenocarcinoma",
-          "score": 99.91,
+          "name": "Uterine ligament serous adenocarcinoma | 99.91% | 0 | L5 | Hold",
+          "score": 99.0,
           "level": "L5"
         },
         {
-          "name": "signet ring cell variant cervical mucinous adenocarcinoma",
-          "score": 99.9,
+          "name": "Signet ring cell variant cervical mucinous adenocarcinoma | 99.90% | 0 | L5 | Hold",
+          "score": 99.0,
           "level": "L5"
         },
         {
-          "name": "intestinal variant cervical mucinous adenocarcinoma",
-          "score": 99.9,
+          "name": "Intestinal variant cervical mucinous adenocarcinoma | 99.90% | 0 | L5 | Hold",
+          "score": 99.0,
           "level": "L5"
         }
       ]
     },
     {
-      "name": "DUTASTERIDE",
+      "name": "Dutasteride",
       "slug": "dutasteride",
       "brands": [],
       "original": "",
@@ -61040,7 +61533,7 @@
       ]
     },
     {
-      "name": "DYDROGESTERONE",
+      "name": "Dydrogesterone",
       "slug": "dydrogesterone",
       "brands": [],
       "original": "",
@@ -61099,7 +61592,7 @@
       ]
     },
     {
-      "name": "EBASTINE",
+      "name": "Ebastine",
       "slug": "ebastine",
       "brands": [],
       "original": "",
@@ -61166,7 +61659,23 @@
       "indications": []
     },
     {
-      "name": "EFAVIRENZ",
+      "name": "Econazole",
+      "slug": "econazole",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Eculizumab",
+      "slug": "eculizumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Efavirenz",
       "slug": "efavirenz",
       "brands": [],
       "original": "",
@@ -61225,7 +61734,7 @@
       ]
     },
     {
-      "name": "ELACESTRANT",
+      "name": "Elacestrant",
       "slug": "elacestrant",
       "brands": [],
       "original": "",
@@ -61292,7 +61801,7 @@
       "indications": []
     },
     {
-      "name": "ELETRIPTAN",
+      "name": "Eletriptan",
       "slug": "eletriptan",
       "brands": [],
       "original": "",
@@ -61351,7 +61860,7 @@
       ]
     },
     {
-      "name": "ELTROMBOPAG",
+      "name": "Eltrombopag",
       "slug": "eltrombopag",
       "brands": [],
       "original": "",
@@ -61410,66 +61919,125 @@
       ]
     },
     {
-      "name": "EMPAGLIFLOZIN",
+      "name": "Emicizumab",
+      "slug": "emicizumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Acquired Coagulation Factor Deficiency | 99.90% | **L1** | **Proceed with Guardrails** | Primary candidate; Phase 2/3 trial data available",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Glanzmann Thrombasthenia | 99.98% | L4 | Research Question | Mechanistically plausible; only background observational data",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Pseudo-von Willebrand Disease | 99.99% | L5 | Hold | Mechanistic mismatch; GPIbα gain-of-function may be worsened",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Primary Release Disorder of Platelets | 99.99% | L5 | Hold | Indirect mechanism; no clinical evidence",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Scott Syndrome | 99.92% | L5 | Hold | Ultra-rare (<100 cases worldwide); theoretical basis only",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Bleeding Diathesis (Collagen Receptor Defect) | 99.86% | L5 | Hold | Distal compensation only; no supporting evidence",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Hemorrhagic Disorder (Constitutional Thrombocytopenia) | 99.85% | L5 | Hold | Quantity defect, not coagulation factor; limited relevance",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Thrombotic Thrombocytopenic Purpura | 99.61% | L5 | **Hold ⚠️** | **Safety concern**: pro-coagulant mechanism may worsen TTP",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Fetal/Neonatal Alloimmune Thrombocytopenia | 99.52% | L5 | Hold | Immune-mediated platelet destruction; mechanism incompatible; neonatal safety unknown",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Flood Factor Deficiency | 99.40% | L5 | Hold ⚠️ | Terminology unclear — likely ontology mapping error; do not act without clarification",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Empagliflozin",
       "slug": "empagliflozin",
       "brands": [],
       "original": "",
       "level": "L5",
       "indications": [
         {
-          "name": "focal stiff limb syndrome",
-          "score": 99.06,
+          "name": "Focal Stiff Limb Syndrome | 99.06% | L5 | Hold | Likely graph noise; GAD65/diabetes comorbidity node adjacency",
+          "score": 99.0,
           "level": "L5"
         },
         {
-          "name": "classic stiff person syndrome",
-          "score": 99.06,
+          "name": "Classic Stiff Person Syndrome | 99.06% | L5 | Hold | Identical score to rank 1; treated as same node cluster by model",
+          "score": 99.0,
           "level": "L5"
         },
         {
-          "name": "opsismodysplasia",
-          "score": 99.03,
+          "name": "Opsismodysplasia | 99.03% | L5 | Hold | INPPL1/SHIP2 → PI3K connection theoretical; ultra-rare, gene therapy is the relevant direction",
+          "score": 99.0,
           "level": "L5"
         },
         {
-          "name": "thiamine-responsive dysfunction syndrome",
-          "score": 98.99,
+          "name": "Thiamine-Responsive Dysfunction Syndrome | 98.99% | L5 | Hold ⚠️ | **Active safety risk**: SGLT2 inhibitors can deplete thiamine — likely a contraindication in this population",
+          "score": 99.0,
           "level": "L5"
         },
         {
-          "name": "drug-induced localized lipodystrophy",
-          "score": 98.46,
+          "name": "Drug-Induced Localized Lipodystrophy | 98.46% | L5 | Hold | Injection-site mechanical injury; no systemic metabolic mechanism applies",
+          "score": 99.0,
           "level": "L5"
         },
         {
-          "name": "centrifugal lipodystrophy",
-          "score": 98.39,
+          "name": "Centrifugal Lipodystrophy | 98.39% | L5 | Hold | Paediatric onset; empagliflozin not approved in patients under 18",
+          "score": 99.0,
           "level": "L5"
         },
         {
-          "name": "pressure-induced localized lipoatrophy",
-          "score": 98.34,
+          "name": "Pressure-Induced Localized Lipoatrophy | 98.34% | L5 | Hold | Pure physical injury mechanism; no pharmacological rationale",
+          "score": 99.0,
           "level": "L5"
         },
         {
-          "name": "idiopathic localized lipodystrophy",
-          "score": 98.25,
+          "name": "Idiopathic Localized Lipodystrophy | 98.25% | L5 | Hold | Ranks 5–8 are ICD subtypes of the same pathological category: ontology leakage",
+          "score": 99.0,
           "level": "L5"
         },
         {
-          "name": "pancreatic agenesis",
-          "score": 98.07,
+          "name": "Pancreatic Agenesis | 98.07% | L4 | Research Question | **Best mechanistic fit**: insulin-independent glucose lowering may support neonatal diabetes from agenesis",
+          "score": 99.0,
           "level": "L5"
         },
         {
-          "name": "autoimmune oophoritis",
-          "score": 92.37,
+          "name": "Autoimmune Oophoritis | 92.37% | L5 | Hold | Organ-specific autoimmunity; non-specific anti-inflammatory link is insufficient",
+          "score": 99.0,
           "level": "L5"
         }
       ]
     },
     {
-      "name": "EMTRICITABINE",
+      "name": "Emtricitabine",
       "slug": "emtricitabine",
       "brands": [],
       "original": "",
@@ -61536,6 +62104,14 @@
       "indications": []
     },
     {
+      "name": "Enalapril",
+      "slug": "enalapril",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
       "name": "ENALAPRILAT 14.148MG EQV. ENALAPRIL 15.287MG EQV. ENALAPRIL MALEATE",
       "slug": "enalaprilat-14.148mg-eqv.-enalapril-15.287mg-eqv.-enalapril-maleate",
       "brands": [],
@@ -61544,7 +62120,15 @@
       "indications": []
     },
     {
-      "name": "ENCORAFENIB",
+      "name": "Enalaprilat",
+      "slug": "enalaprilat",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Encorafenib",
       "slug": "encorafenib",
       "brands": [],
       "original": "",
@@ -61662,6 +62246,14 @@
       ]
     },
     {
+      "name": "Enfortumab Vedotin",
+      "slug": "enfortumab_vedotin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
       "name": "ENOXAPARIN SODIUM",
       "slug": "enoxaparin-sodium",
       "brands": [],
@@ -61670,7 +62262,15 @@
       "indications": []
     },
     {
-      "name": "ENTACAPONE",
+      "name": "Enoxaparin",
+      "slug": "enoxaparin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Entacapone",
       "slug": "entacapone",
       "brands": [],
       "original": "",
@@ -61729,7 +62329,69 @@
       ]
     },
     {
-      "name": "ENZALUTAMIDE",
+      "name": "Entecavir",
+      "slug": "entecavir",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Entrectinib",
+      "slug": "entrectinib",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Multiple Endocrine Neoplasia | 98.58% | L4 | Research Question",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Amenorrhea | 98.37% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Thrombocytopenia | 98.11% | L5 | Hold ⚠️",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Cytomegalovirus Infection | 97.97% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Pulmonary Hypertension | 97.87% | L5 | Hold ⚠️",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Macrothrombocytopenia + Mitral Valve Insufficiency | 97.80% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Hereditary Thrombocytopenia (Normal Platelets) | 97.79% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Transient Neonatal Thrombocytopenia | 97.76% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Infectious Bovine Rhinotracheitis | 97.74% | L5 | Hold",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Enzalutamide",
       "slug": "enzalutamide",
       "brands": [],
       "original": "",
@@ -61796,6 +62458,14 @@
       "indications": []
     },
     {
+      "name": "Eperisone",
+      "slug": "eperisone",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
       "name": "EPHEDRINE HCL",
       "slug": "ephedrine-hcl",
       "brands": [],
@@ -61804,7 +62474,15 @@
       "indications": []
     },
     {
-      "name": "EPINEPHRINE",
+      "name": "Ephedrine",
+      "slug": "ephedrine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Epinephrine",
       "slug": "epinephrine",
       "brands": [],
       "original": "",
@@ -61863,7 +62541,7 @@
       ]
     },
     {
-      "name": "EPLERENONE",
+      "name": "Eplerenone",
       "slug": "eplerenone",
       "brands": [],
       "original": "",
@@ -61922,7 +62600,15 @@
       ]
     },
     {
-      "name": "EPROSARTAN",
+      "name": "Epoprostenol",
+      "slug": "epoprostenol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Eprosartan",
       "slug": "eprosartan",
       "brands": [],
       "original": "",
@@ -61981,7 +62667,15 @@
       ]
     },
     {
-      "name": "ERAVACYCLINE",
+      "name": "Eptinezumab",
+      "slug": "eptinezumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Eravacycline",
       "slug": "eravacycline",
       "brands": [],
       "original": "",
@@ -62040,7 +62734,7 @@
       ]
     },
     {
-      "name": "ERDAFITINIB",
+      "name": "Erdafitinib",
       "slug": "erdafitinib",
       "brands": [],
       "original": "",
@@ -62099,7 +62793,7 @@
       ]
     },
     {
-      "name": "ERDOSTEINE",
+      "name": "Erdosteine",
       "slug": "erdosteine",
       "brands": [],
       "original": "",
@@ -62158,8 +62852,24 @@
       ]
     },
     {
+      "name": "Erenumab",
+      "slug": "erenumab",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
       "name": "ERGOMETRINE MALEATE",
       "slug": "ergometrine-maleate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Ergometrine",
+      "slug": "ergometrine",
       "brands": [],
       "original": "",
       "level": "L5",
@@ -62174,6 +62884,14 @@
       "indications": []
     },
     {
+      "name": "Ergotamine",
+      "slug": "ergotamine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
       "name": "ERIBULIN MESYLATE",
       "slug": "eribulin-mesylate",
       "brands": [],
@@ -62182,7 +62900,15 @@
       "indications": []
     },
     {
-      "name": "ERLOTINIB",
+      "name": "Eribulin",
+      "slug": "eribulin",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Erlotinib",
       "slug": "erlotinib",
       "brands": [],
       "original": "",
@@ -62241,7 +62967,15 @@
       ]
     },
     {
-      "name": "ERYTHROMYCIN",
+      "name": "Ertapenem",
+      "slug": "ertapenem",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Erythromycin",
       "slug": "erythromycin",
       "brands": [],
       "original": "",
@@ -62300,7 +63034,7 @@
       ]
     },
     {
-      "name": "ESCITALOPRAM",
+      "name": "Escitalopram",
       "slug": "escitalopram",
       "brands": [],
       "original": "",
@@ -62367,7 +63101,31 @@
       "indications": []
     },
     {
-      "name": "ESOMEPRAZOLE",
+      "name": "Esketamine",
+      "slug": "esketamine",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": [
+        {
+          "name": "Melancholia | L2 | Proceed with Guardrails | Severe depressive subtype (DSM-5 specifier); same TRD evidence base applies; esketamine's rapid synaptic mechanism is especially well-suited to this treatment-refractory, anhedonic phenotype",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Obsessive-Compulsive Disorder (OCD) | L3 | Research Question | Glutamate dysregulation supports NMDA antagonist rationale; 6 trials identified including 1 prospective OCD-specific trial ([NCT05577585](https://clinicaltrials.gov/study/NCT05577585), recruiting); retrospective chart review (PMID [38194244](https://pubmed.ncbi.nlm.nih.gov/38194244/)) shows initial efficacy signal",
+          "score": 99.0,
+          "level": "L5"
+        },
+        {
+          "name": "Insomnia | L3 | Research Question | 46 trials identified; most with sleep as secondary endpoint; 2025 pilot study (PMID [40732353](https://pubmed.ncbi.nlm.nih.gov/40732353/)) shows esketamine add-on therapy reduces insomnia severity in TRD patients; dedicated primary insomnia RCT has not yet been completed",
+          "score": 99.0,
+          "level": "L5"
+        }
+      ]
+    },
+    {
+      "name": "Esomeprazole",
       "slug": "esomeprazole",
       "brands": [],
       "original": "",
@@ -62485,7 +63243,7 @@
       ]
     },
     {
-      "name": "ESTRADIOL",
+      "name": "Estradiol",
       "slug": "estradiol",
       "brands": [],
       "original": "",
@@ -62544,7 +63302,15 @@
       ]
     },
     {
-      "name": "ETANERCEPT",
+      "name": "Estradiol Valerate",
+      "slug": "estradiol_valerate",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Etanercept",
       "slug": "etanercept",
       "brands": [],
       "original": "",
@@ -62603,7 +63369,23 @@
       ]
     },
     {
-      "name": "ETHINYLESTRADIOL",
+      "name": "Etelcalcetide",
+      "slug": "etelcalcetide",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Ethambutol",
+      "slug": "ethambutol",
+      "brands": [],
+      "original": "",
+      "level": "L5",
+      "indications": []
+    },
+    {
+      "name": "Ethinylestradiol",
       "slug": "ethinylestradiol",
       "brands": [],
       "original": "",
@@ -62662,7 +63444,7 @@
       ]
     },
     {
-      "name": "ETOMIDATE",
+      "name": "Etomidate",
       "slug": "etomidate",
       "brands": [],
       "original": "",
@@ -62721,7 +63503,7 @@
       ]
     },
     {
-      "name": "ETOPOSIDE",
+      "name": "Etoposide",
       "slug": "etoposide",
       "brands": [],
       "original": "",
@@ -88705,6 +89487,17 @@
       ]
     },
     {
+      "name": "**Endocervical carcinoma** | 99.91% | 2 | **L3** | **Proceed with Guardrails**",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Durvalumab",
+          "slug": "durvalumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "**Gonococcal urethritis** | **99.93%** | **L3** | **Hold (primary candidate)** | ✅ Sound — β-lactamase inhibition restores amoxicillin activity against PPNG; historical RCT-level data",
       "drug_count": 1,
       "drugs": [
@@ -88722,6 +89515,17 @@
         {
           "drug": "Baricitinib",
           "slug": "baricitinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "**Rhinitis** | **98.35%** | **L1** | **Proceed with Guardrails**",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Diphenhydramine",
+          "slug": "diphenhydramine",
           "score": 99.0
         }
       ]
@@ -88829,7 +89633,7 @@
           "score": 92.77
         },
         {
-          "drug": "DROSPIRENONE",
+          "drug": "Drospirenone",
           "slug": "drospirenone",
           "score": 92.77
         }
@@ -88876,7 +89680,7 @@
           "score": 93.67
         },
         {
-          "drug": "ELACESTRANT",
+          "drug": "Elacestrant",
           "slug": "elacestrant",
           "score": 81.65
         }
@@ -89014,7 +89818,7 @@
           "score": 99.92
         },
         {
-          "drug": "DRONEDARONE",
+          "drug": "Dronedarone",
           "slug": "dronedarone",
           "score": 99.92
         },
@@ -89081,7 +89885,7 @@
           "score": 97.09
         },
         {
-          "drug": "ELTROMBOPAG",
+          "drug": "Eltrombopag",
           "slug": "eltrombopag",
           "score": 97.09
         }
@@ -89089,7 +89893,7 @@
     },
     {
       "name": "AIDS related complex",
-      "drug_count": 27,
+      "drug_count": 26,
       "drugs": [
         {
           "drug": "Etravirine",
@@ -89140,6 +89944,17 @@
           "drug": "Darunavir",
           "slug": "db01264",
           "score": 98.97
+        }
+      ]
+    },
+    {
+      "name": "AIDS related complex | 98.75% | L3 | **Research Question** ✓",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Doravirine",
+          "slug": "doravirine",
+          "score": 99.0
         }
       ]
     },
@@ -89242,6 +90057,17 @@
       ]
     },
     {
+      "name": "Acquired Coagulation Factor Deficiency | 99.90% | **L1** | **Proceed with Guardrails** | Primary candidate; Phase 2/3 trial data available",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Emicizumab",
+          "slug": "emicizumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Acrodermatitis Chronica Atrophicans | 99.58% | L5 | 0 | 0 | Hold",
       "drug_count": 1,
       "drugs": [
@@ -89330,6 +90156,17 @@
       ]
     },
     {
+      "name": "Acute intermittent porphyria | 98.75% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Donepezil",
+          "slug": "donepezil",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Addison disease",
       "drug_count": 2,
       "drugs": [
@@ -89342,6 +90179,17 @@
           "drug": "OCTREOTIDE",
           "slug": "octreotide",
           "score": 98.74
+        }
+      ]
+    },
+    {
+      "name": "Adenoid cystic carcinoma of the cervix uteri | 99.91% | 0 | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Durvalumab",
+          "slug": "durvalumab",
+          "score": 99.0
         }
       ]
     },
@@ -89390,6 +90238,17 @@
         {
           "drug": "Agomelatine",
           "slug": "agomelatine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Allergic Urticaria | 98.24% | L2 | Proceed with Guardrails",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Diphenhydramine",
+          "slug": "diphenhydramine",
           "score": 99.0
         }
       ]
@@ -89445,6 +90304,17 @@
         {
           "drug": "Hydroxychloroquine",
           "slug": "hydroxychloroquine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Alopecia | 99.85% | 0 | 2 (non-contributory) | KG artefact — likely confusion with minoxidil via vasodilation node; no β1 link to hair biology",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Dobutamine",
+          "slug": "dobutamine",
           "score": 99.0
         }
       ]
@@ -89526,7 +90396,7 @@
           "score": 100.0
         },
         {
-          "drug": "DUTASTERIDE",
+          "drug": "Dutasteride",
           "slug": "dutasteride",
           "score": 100.0
         },
@@ -89565,6 +90435,17 @@
         {
           "drug": "Gemeprost",
           "slug": "gemeprost",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Amenorrhea | 98.37% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Entrectinib",
+          "slug": "entrectinib",
           "score": 99.0
         }
       ]
@@ -89666,6 +90547,17 @@
           "drug": "Promethazine",
           "slug": "db01069",
           "score": 93.2
+        }
+      ]
+    },
+    {
+      "name": "Antithrombin Deficiency Type 2 | 98.71% | L5 | 0 | 0 | Hold | Pro-coagulant direction; no evidence",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Chlormadinone",
+          "slug": "chlormadinone",
+          "score": 99.0
         }
       ]
     },
@@ -89813,6 +90705,17 @@
       ]
     },
     {
+      "name": "Atypical glycine encephalopathy | 99.92% | L5 | Hold | Hypothetical NMDA co-agonist connection; no clinical or preclinical data",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Chlorpromazine",
+          "slug": "chlorpromazine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Autoimmune Oophoritis | 82.22% | L5 | Hold",
       "drug_count": 1,
       "drugs": [
@@ -89830,6 +90733,17 @@
         {
           "drug": "Gliclazide",
           "slug": "gliclazide",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Autoimmune Oophoritis | 92.37% | L5 | Hold | Organ-specific autoimmunity; non-specific anti-inflammatory link is insufficient",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Empagliflozin",
+          "slug": "empagliflozin",
           "score": 99.0
         }
       ]
@@ -90023,6 +90937,17 @@
       ]
     },
     {
+      "name": "Benign paroxysmal tonic upgaze of childhood with ataxia | 99.12% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Donepezil",
+          "slug": "donepezil",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Benign paroxysmal torticollis of infancy | 97.72% | L5 | Hold",
       "drug_count": 1,
       "drugs": [
@@ -90045,12 +90970,56 @@
       ]
     },
     {
+      "name": "Benign prostate phyllodes tumor | 98.63% | L5 | **Hold** — rare mesenchymal-epithelial tumour; no known NNRTI antifibrotic or antitumour activity",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Doravirine",
+          "slug": "doravirine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Benign reproductive system neoplasm | 98.70% | L5 | **Hold** — broad category; no viral or RT aetiology",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Doravirine",
+          "slug": "doravirine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Benign shuddering attacks | 99.16% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Donepezil",
+          "slug": "donepezil",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Beta-thalassemia with other manifestations | 95.40% | L5 | Hold",
       "drug_count": 1,
       "drugs": [
         {
           "drug": "Deoxycholic Acid",
           "slug": "deoxycholic_acid",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Bleeding Diathesis (Collagen Receptor Defect) | 99.86% | L5 | Hold | Distal compensation only; no supporting evidence",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Emicizumab",
+          "slug": "emicizumab",
           "score": 99.0
         }
       ]
@@ -90073,6 +91042,17 @@
         {
           "drug": "Agomelatine",
           "slug": "agomelatine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Blood Group Incompatibility | 99.22% | L5 | **Hold — Mechanism Incompatible** | Red blood cell antigen–antibody reaction; entirely unrelated to antimicrobial mechanism",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Ceftolozane",
+          "slug": "ceftolozane",
           "score": 99.0
         }
       ]
@@ -90250,7 +91230,7 @@
     },
     {
       "name": "Brenner tumor",
-      "drug_count": 22,
+      "drug_count": 21,
       "drugs": [
         {
           "drug": "Etravirine",
@@ -90268,18 +91248,13 @@
           "score": 99.55
         },
         {
-          "drug": "ENZALUTAMIDE",
+          "drug": "Enzalutamide",
           "slug": "enzalutamide",
           "score": 99.55
         },
         {
           "drug": "Doravirine",
           "slug": "db12301",
-          "score": 98.75
-        },
-        {
-          "drug": "DORAVIRINE",
-          "slug": "doravirine",
           "score": 98.75
         },
         {
@@ -90301,6 +91276,22 @@
           "drug": "APALUTAMIDE",
           "slug": "db11901",
           "score": 97.58
+        },
+        {
+          "drug": "Darunavir",
+          "slug": "darunavir",
+          "score": 97.53
+        }
+      ]
+    },
+    {
+      "name": "Brenner tumor | 98.75% | L5 | **Hold** — ovarian transitional cell tumour; no NNRTI mechanism link; likely KG cluster artefact",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Doravirine",
+          "slug": "doravirine",
+          "score": 99.0
         }
       ]
     },
@@ -90509,6 +91500,17 @@
       ]
     },
     {
+      "name": "Candidiasis | 98.62% | L5 | 0 | 3 | Hold | Literature shows CMA *increases* risk",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Chlormadinone",
+          "slug": "chlormadinone",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Carney complex",
       "drug_count": 1,
       "drugs": [
@@ -90516,6 +91518,17 @@
           "drug": "Levothyroxine",
           "slug": "db00451",
           "score": 99.18
+        }
+      ]
+    },
+    {
+      "name": "Cauda Equina Syndrome | 95.57% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Diphenhydramine",
+          "slug": "diphenhydramine",
+          "score": 99.0
         }
       ]
     },
@@ -90559,6 +91572,17 @@
         {
           "drug": "Gliclazide",
           "slug": "gliclazide",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Centrifugal Lipodystrophy | 98.39% | L5 | Hold | Paediatric onset; empagliflozin not approved in patients under 18",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Empagliflozin",
+          "slug": "empagliflozin",
           "score": 99.0
         }
       ]
@@ -90641,7 +91665,7 @@
           "score": 99.87
         },
         {
-          "drug": "DOXYCYCLINE",
+          "drug": "Doxycycline",
           "slug": "doxycycline",
           "score": 99.87
         },
@@ -90654,6 +91678,17 @@
           "drug": "STREPTOMYCIN",
           "slug": "streptomycin",
           "score": 99.83
+        }
+      ]
+    },
+    {
+      "name": "Charcot-Marie-Tooth disease type 1G | 99.93% | L5 | Hold | No remyelination mechanism; chlorpromazine may worsen peripheral neuropathy",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Chlorpromazine",
+          "slug": "chlorpromazine",
+          "score": 99.0
         }
       ]
     },
@@ -90747,6 +91782,17 @@
       ]
     },
     {
+      "name": "Chronic tic disorder | 99.19% | L4 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Donepezil",
+          "slug": "donepezil",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Classic Stiff Person Syndrome | 96.90% | L5 | Hold",
       "drug_count": 1,
       "drugs": [
@@ -90764,6 +91810,17 @@
         {
           "drug": "Gliclazide",
           "slug": "gliclazide",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Classic Stiff Person Syndrome | 99.06% | L5 | Hold | Identical score to rank 1; treated as same node cluster by model",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Empagliflozin",
+          "slug": "empagliflozin",
           "score": 99.0
         }
       ]
@@ -90802,6 +91859,17 @@
         {
           "drug": "Codeine",
           "slug": "codeine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Cold Urticaria | 95.92% | L3 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Diphenhydramine",
+          "slug": "diphenhydramine",
           "score": 99.0
         }
       ]
@@ -90862,6 +91930,17 @@
       ]
     },
     {
+      "name": "Congenital Analbuminemia | 99.44% | L5 | **Hold — Mechanism Incompatible** | Genetic ALB mutation; antibiotics have no corrective effect on protein synthesis defects",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Ceftolozane",
+          "slug": "ceftolozane",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Congenital Analbuminemia | 99.59% | L5 | 0 | 0 | Hold",
       "drug_count": 1,
       "drugs": [
@@ -90901,6 +91980,28 @@
         {
           "drug": "Azithromycin",
           "slug": "azithromycin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Congenital disorder of glycosylation (fucosylation defect) | 99.94% | L5 | Hold | No mechanistic link; probable KG artifact via CNS → neurodelopment → glycosylation",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Chlorpromazine",
+          "slug": "chlorpromazine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Congenital hypotrichosis milia | 99.83% | 0 | 0 | Genetic skin disorder; no β1 signalling connection",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Dobutamine",
+          "slug": "dobutamine",
           "score": 99.0
         }
       ]
@@ -91072,6 +92173,17 @@
       ]
     },
     {
+      "name": "Cytomegalovirus Infection | 97.97% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Entrectinib",
+          "slug": "entrectinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "DK1-CDG",
       "drug_count": 2,
       "drugs": [
@@ -91206,6 +92318,17 @@
       ]
     },
     {
+      "name": "Diffuse alopecia areata | 99.82% | 0 | 0 | Autoimmune (JAK-STAT pathway); standard of care is JAK inhibitors",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Dobutamine",
+          "slug": "dobutamine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Diffuse alopecia areata | 99.993% | L3 | Research Question | Plausible via FP-receptor anagen promotion; trials on patchy AA exist (NCT05600673) but diffuse subtype needs specific validation",
       "drug_count": 1,
       "drugs": [
@@ -91256,6 +92379,17 @@
         {
           "drug": "Gliclazide",
           "slug": "gliclazide",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Drug-Induced Localized Lipodystrophy | 98.46% | L5 | Hold | Injection-site mechanical injury; no systemic metabolic mechanism applies",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Empagliflozin",
+          "slug": "empagliflozin",
           "score": 99.0
         }
       ]
@@ -91334,6 +92468,17 @@
           "drug": "Cimetidine",
           "slug": "cimetidine",
           "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Dysthymic Disorder",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Dosulepin",
+          "slug": "dosulepin",
+          "score": 2.0
         }
       ]
     },
@@ -91576,7 +92721,7 @@
           "score": 99.85
         },
         {
-          "drug": "ETOPOSIDE",
+          "drug": "Etoposide",
           "slug": "etoposide",
           "score": 99.85
         },
@@ -91604,12 +92749,34 @@
       ]
     },
     {
+      "name": "Extrapyramidal and movement disease | 99.16% | L4 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Donepezil",
+          "slug": "donepezil",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Faciodigitogenital syndrome | 98.78% | 0 | 0 | L5 | Hold ⚠️ Likely false positive",
       "drug_count": 1,
       "drugs": [
         {
           "drug": "Baclofen",
           "slug": "baclofen",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Factor 5 Excess / Spontaneous Thrombosis | 98.64% | L5 | 0 | 0 | Hold | CMA may worsen APC resistance",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Chlormadinone",
+          "slug": "chlormadinone",
           "score": 99.0
         }
       ]
@@ -91692,6 +92859,17 @@
       ]
     },
     {
+      "name": "Feline acquired immunodeficiency syndrome | 99.93% | L5 | **Hold** — veterinary indication; FIV RT is structurally divergent from HIV-1 RT and largely resistant to NNRTI",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Doravirine",
+          "slug": "doravirine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Female breast carcinoma | 94.23% | L4 | Research Question",
       "drug_count": 1,
       "drugs": [
@@ -91703,12 +92881,34 @@
       ]
     },
     {
+      "name": "Fetal/Neonatal Alloimmune Thrombocytopenia | 99.52% | L5 | Hold | Immune-mediated platelet destruction; mechanism incompatible; neonatal safety unknown",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Emicizumab",
+          "slug": "emicizumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Fibroma of Lung | 99.75% | L5 | Hold | Rare benign mesenchymal tumor; no driver mutation evidence",
       "drug_count": 1,
       "drugs": [
         {
           "drug": "Crizotinib",
           "slug": "crizotinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Fibroma of prostate | 98.76% | L5 | **Hold** — benign stromal tumour; no viral or RT-related aetiology; likely KG path artefact",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Doravirine",
+          "slug": "doravirine",
           "score": 99.0
         }
       ]
@@ -91736,6 +92936,17 @@
       ]
     },
     {
+      "name": "Flood Factor Deficiency | 99.40% | L5 | Hold ⚠️ | Terminology unclear — likely ontology mapping error; do not act without clarification",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Emicizumab",
+          "slug": "emicizumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Focal Stiff Limb Syndrome | 96.90% | L5 | Hold",
       "drug_count": 1,
       "drugs": [
@@ -91753,6 +92964,17 @@
         {
           "drug": "Gliclazide",
           "slug": "gliclazide",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Focal Stiff Limb Syndrome | 99.06% | L5 | Hold | Likely graph noise; GAD65/diabetes comorbidity node adjacency",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Empagliflozin",
+          "slug": "empagliflozin",
           "score": 99.0
         }
       ]
@@ -91894,6 +93116,17 @@
       ]
     },
     {
+      "name": "Glanzmann Thrombasthenia | 99.98% | L4 | Research Question | Mechanistically plausible; only background observational data",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Emicizumab",
+          "slug": "emicizumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Glanzmann thrombasthenia",
       "drug_count": 38,
       "drugs": [
@@ -91961,12 +93194,45 @@
       ]
     },
     {
+      "name": "Glaucoma | 98.28% | L4 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Donepezil",
+          "slug": "donepezil",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Glossodynia | 92.08% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Diphenhydramine",
+          "slug": "diphenhydramine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Glossodynia | 99.26% | L5 | Hold | No literature; caffeine may exacerbate burning mouth syndrome",
       "drug_count": 1,
       "drugs": [
         {
           "drug": "Caffeine",
           "slug": "caffeine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Gonococcal Urethritis | 99.89% | L5 | Research Question | Gram-negative coverage theoretically applicable; no clinical data; IV formulation unsuitable for standard outpatient gonorrhea treatment",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Ceftolozane",
+          "slug": "ceftolozane",
           "score": 99.0
         }
       ]
@@ -91994,6 +93260,17 @@
         {
           "drug": "Hydrocortisone Aceponate",
           "slug": "hydrocortisone_aceponate",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Gout | 97.68% | L5 | 0 | 0 | Hold | Estrogen drives urate excretion; progestogen effect minimal",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Chlormadinone",
+          "slug": "chlormadinone",
           "score": 99.0
         }
       ]
@@ -92218,12 +93495,34 @@
       ]
     },
     {
+      "name": "Headache disorder | 99.31% | 1* | 4 (non-contributory) | **Dobutamine causes headache as a known side effect** (PMID 9137218, n=3,011); drug is an aetiological agent, not a treatment",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Dobutamine",
+          "slug": "dobutamine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Heart Fibrosarcoma | 99.94% | L4 | Hold",
       "drug_count": 1,
       "drugs": [
         {
           "drug": "Imatinib",
           "slug": "imatinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Heart Neoplasm | 97.77% | L5 | 0 | 1 | Hold | Hormone-risk framework only",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Chlormadinone",
+          "slug": "chlormadinone",
           "score": 99.0
         }
       ]
@@ -92278,6 +93577,28 @@
       ]
     },
     {
+      "name": "Hemorrhagic Disorder (Constitutional Thrombocytopenia) | 99.85% | L5 | Hold | Quantity defect, not coagulation factor; limited relevance",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Emicizumab",
+          "slug": "emicizumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Heparin Cofactor 2 Deficiency | 98.67% | L5 | 0 | 0 | Hold | Topology-only; no biological specificity",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Chlormadinone",
+          "slug": "chlormadinone",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Heparin Cofactor 2 Deficiency | 99.45% | L5 | 0 | 0 | ⛔ **Safety Alert** — CPA procoagulant effects directly contraindicated",
       "drug_count": 1,
       "drugs": [
@@ -92306,6 +93627,17 @@
         {
           "drug": "Hydroxychloroquine",
           "slug": "hydroxychloroquine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Hereditary Thrombocytopenia (Normal Platelets) | 97.79% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Entrectinib",
+          "slug": "entrectinib",
           "score": 99.0
         }
       ]
@@ -92425,12 +93757,34 @@
       ]
     },
     {
+      "name": "Hydranencephaly | 99.93% | L5 | Hold | Irreversible structural brain anomaly; sedation is symptom management only",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Chlorpromazine",
+          "slug": "chlorpromazine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Hyperamylasemia | 99.01% | L5 | 0 | 0 | Hold | ❌ False positive — metabolic marker; graph embedding confuses \"enzyme inhibitor\" semantic nodes",
       "drug_count": 1,
       "drugs": [
         {
           "drug": "Avibactam",
           "slug": "avibactam",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Hyperamylasemia | 99.52% | L5 | **Hold — Mechanism Incompatible** | Biochemical marker of pancreatic/salivary injury, not a bacterial target; no clinical rationale",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Ceftolozane",
+          "slug": "ceftolozane",
           "score": 99.0
         }
       ]
@@ -92480,6 +93834,17 @@
       ]
     },
     {
+      "name": "Hypertrichosis | 99.29% | 0 | 0 | Same hair-disorder KG artefact cluster; hypertrichosis is not a therapeutic target",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Dobutamine",
+          "slug": "dobutamine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Hypoalphalipoproteinemia | 99.20% | L5 | Hold | 0",
       "drug_count": 1,
       "drugs": [
@@ -92487,6 +93852,17 @@
           "drug": "Digoxin",
           "slug": "digoxin",
           "score": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Hypotrichosis simplex of the scalp | 99.84% | 0 | 0 | Genetic disease (CDSN, LPAR6 mutations); no adrenergic mechanism",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Dobutamine",
+          "slug": "dobutamine",
+          "score": 99.0
         }
       ]
     },
@@ -92546,6 +93922,17 @@
         {
           "drug": "Gliclazide",
           "slug": "gliclazide",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Idiopathic Localized Lipodystrophy | 98.25% | L5 | Hold | Ranks 5–8 are ICD subtypes of the same pathological category: ontology leakage",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Empagliflozin",
+          "slug": "empagliflozin",
           "score": 99.0
         }
       ]
@@ -92639,12 +94026,45 @@
       ]
     },
     {
+      "name": "Indolent Plasma Cell Myeloma | 97.68% | L5 | 0 | 0 | Hold | Same path as rank 5; ontology similarity only",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Chlormadinone",
+          "slug": "chlormadinone",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Indolent plasma cell myeloma | 93.31% | L5 | Hold",
       "drug_count": 1,
       "drugs": [
         {
           "drug": "Baricitinib",
           "slug": "baricitinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Infectious Bovine Rhinotracheitis | 97.74% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Entrectinib",
+          "slug": "entrectinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Infiltrating bladder urothelial carcinoma, sarcomatoid variant | 99.98% | 2 | L3 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Durvalumab",
+          "slug": "durvalumab",
           "score": 99.0
         }
       ]
@@ -92667,6 +94087,28 @@
         {
           "drug": "Adapalene",
           "slug": "adapalene",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Insomnia | L3 | Research Question | 46 trials identified; most with sleep as secondary endpoint; 2025 pilot study (PMID [40732353](https://pubmed.ncbi.nlm.nih.gov/40732353/)) shows esketamine add-on therapy reduces insomnia severity in TRD patients; dedicated primary insomnia RCT has not yet been completed",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Esketamine",
+          "slug": "esketamine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Intestinal variant cervical mucinous adenocarcinoma | 99.90% | 0 | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Durvalumab",
+          "slug": "durvalumab",
           "score": 99.0
         }
       ]
@@ -92936,6 +94378,17 @@
       ]
     },
     {
+      "name": "Kidney pelvis sarcomatoid transitional cell carcinoma | 99.98% | 1 | L3 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Durvalumab",
+          "slug": "durvalumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "King-Denborough syndrome",
       "drug_count": 1,
       "drugs": [
@@ -92996,7 +94449,7 @@
           "score": 99.55
         },
         {
-          "drug": "ETANERCEPT",
+          "drug": "Etanercept",
           "slug": "etanercept",
           "score": 99.55
         }
@@ -93204,7 +94657,7 @@
           "score": 75.99
         },
         {
-          "drug": "ERDOSTEINE",
+          "drug": "Erdosteine",
           "slug": "erdosteine",
           "score": 75.99
         }
@@ -93308,7 +94761,7 @@
           "score": 99.83
         },
         {
-          "drug": "CERITINIB",
+          "drug": "Ceritinib",
           "slug": "ceritinib",
           "score": 99.78
         },
@@ -93344,7 +94797,7 @@
           "score": 99.25
         },
         {
-          "drug": "ENTACAPONE",
+          "drug": "Entacapone",
           "slug": "entacapone",
           "score": 99.25
         },
@@ -93410,7 +94863,7 @@
           "score": 94.24
         },
         {
-          "drug": "ELACESTRANT",
+          "drug": "Elacestrant",
           "slug": "elacestrant",
           "score": 81.79
         }
@@ -93624,6 +95077,17 @@
       ]
     },
     {
+      "name": "Macrothrombocytopenia + Mitral Valve Insufficiency | 97.80% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Entrectinib",
+          "slug": "entrectinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Maffucci syndrome",
       "drug_count": 1,
       "drugs": [
@@ -93703,6 +95167,17 @@
           "drug": "Clozapine",
           "slug": "db00363",
           "score": 99.02
+        }
+      ]
+    },
+    {
+      "name": "Male reproductive organ cancer | 98.46% | L5 | **Hold** — hormone/genetic aetiology; Doravirine has no antitumour evidence",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Doravirine",
+          "slug": "doravirine",
+          "score": 99.0
         }
       ]
     },
@@ -93787,7 +95262,7 @@
           "score": 92.65
         },
         {
-          "drug": "DROSPIRENONE",
+          "drug": "Drospirenone",
           "slug": "drospirenone",
           "score": 92.65
         }
@@ -93821,12 +95296,34 @@
       ]
     },
     {
+      "name": "Melancholia",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Dosulepin",
+          "slug": "dosulepin",
+          "score": 4.0
+        }
+      ]
+    },
+    {
       "name": "Melancholia | 95.52% | L2 | Proceed with Guardrails",
       "drug_count": 1,
       "drugs": [
         {
           "drug": "Amitriptyline",
           "slug": "amitriptyline",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Melancholia | L2 | Proceed with Guardrails | Severe depressive subtype (DSM-5 specifier); same TRD evidence base applies; esketamine's rapid synaptic mechanism is especially well-suited to this treatment-refractory, anhedonic phenotype",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Esketamine",
+          "slug": "esketamine",
           "score": 99.0
         }
       ]
@@ -93909,6 +95406,17 @@
         {
           "drug": "Apixaban",
           "slug": "apixaban",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Migraine disorder | 99.24% | 0 | 1 (in vitro animal) | **Reversed mechanism**: β-blockers (propranolol, metoprolol) prevent migraine; β-agonist use is pharmacologically contraindicated",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Dobutamine",
+          "slug": "dobutamine",
           "score": 99.0
         }
       ]
@@ -94010,7 +95518,7 @@
           "score": 99.08
         },
         {
-          "drug": "ERDAFITINIB",
+          "drug": "Erdafitinib",
           "slug": "erdafitinib",
           "score": 98.78
         },
@@ -94102,6 +95610,17 @@
       ]
     },
     {
+      "name": "Multiple Endocrine Neoplasia | 98.58% | L4 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Entrectinib",
+          "slug": "entrectinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Myasthenia gravis with thymus hyperplasia | 99.71% | L5 | **Hold** | ⚠️ Mechanistic contradiction — opposes ACh signalling",
       "drug_count": 1,
       "drugs": [
@@ -94168,6 +95687,28 @@
       ]
     },
     {
+      "name": "Myopia 26, X-linked, female-limited | 99.93% | L5 | Hold | Same as Rank 3; ARR3 gene defect, no known drug target",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Chlorpromazine",
+          "slug": "chlorpromazine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Myopia X-linked | 99.94% | L5 | Hold | No therapeutic mechanism; known ocular toxicity is a contraindication concern",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Chlorpromazine",
+          "slug": "chlorpromazine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Myositis fibrosa | 88.71% | L5 | None | Fibrotic process (TGF-β/collagen deposition); no mechanistic link to nAChR antagonism",
       "drug_count": 1,
       "drugs": [
@@ -94212,6 +95753,17 @@
         {
           "drug": "Codeine",
           "slug": "codeine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Nasopharyngitis | 94.96% | L4 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Diphenhydramine",
+          "slug": "diphenhydramine",
           "score": 99.0
         }
       ]
@@ -94272,6 +95824,17 @@
       ]
     },
     {
+      "name": "Neuralgia | 92.30% | L4 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Diphenhydramine",
+          "slug": "diphenhydramine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Neuralgia | 99.34% | L4 | Research Question | Animal models support trigeminal pain adjuvant role; human data absent",
       "drug_count": 1,
       "drugs": [
@@ -94305,6 +95868,17 @@
       ]
     },
     {
+      "name": "Neurodevelopmental disorder with ataxic gait, absent speech, decreased cortical white matter | 99.91% | L5 | **Hold** — rare genetic disorder (e.g. ADAR1 mutation); no known link to HIV-1 RT mechanism",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Doravirine",
+          "slug": "doravirine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Neurogenic bladder | 99.91% | L4 | Research Question | Class-effect plausible; anticholinergics are standard for overactive bladder",
       "drug_count": 1,
       "drugs": [
@@ -94323,6 +95897,28 @@
           "drug": "Dalteparin",
           "slug": "dalteparin",
           "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Neurotic Depression",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Dosulepin",
+          "slug": "dosulepin",
+          "score": 5.0
+        }
+      ]
+    },
+    {
+      "name": "Neurotic Disorder",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Dosulepin",
+          "slug": "dosulepin",
+          "score": 7.0
         }
       ]
     },
@@ -94426,6 +96022,17 @@
       ]
     },
     {
+      "name": "Obsessive-Compulsive Disorder (OCD) | L3 | Research Question | Glutamate dysregulation supports NMDA antagonist rationale; 6 trials identified including 1 prospective OCD-specific trial ([NCT05577585](https://clinicaltrials.gov/study/NCT05577585), recruiting); retrospective chart review (PMID [38194244](https://pubmed.ncbi.nlm.nih.gov/38194244/)) shows initial efficacy signal",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Esketamine",
+          "slug": "esketamine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Ohdo syndrome and variants",
       "drug_count": 23,
       "drugs": [
@@ -94450,7 +96057,7 @@
           "score": 99.69
         },
         {
-          "drug": "DULOXETINE",
+          "drug": "Duloxetine",
           "slug": "duloxetine",
           "score": 99.69
         },
@@ -94571,6 +96178,17 @@
       ]
     },
     {
+      "name": "Open-angle glaucoma | 99.47% | 0 | 0 | **Reversed mechanism**: β-blockers lower IOP; β-agonist dobutamine would increase aqueous humour production and worsen glaucoma",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Dobutamine",
+          "slug": "dobutamine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Opsismodysplasia | 97.24% | L5 | Hold",
       "drug_count": 1,
       "drugs": [
@@ -94588,6 +96206,17 @@
         {
           "drug": "Gliclazide",
           "slug": "gliclazide",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Opsismodysplasia | 99.03% | L5 | Hold | INPPL1/SHIP2 → PI3K connection theoretical; ultra-rare, gene therapy is the relevant direction",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Empagliflozin",
+          "slug": "empagliflozin",
           "score": 99.0
         }
       ]
@@ -94657,7 +96286,7 @@
           "score": 99.76
         },
         {
-          "drug": "ENTACAPONE",
+          "drug": "Entacapone",
           "slug": "entacapone",
           "score": 99.76
         },
@@ -94791,6 +96420,17 @@
       ]
     },
     {
+      "name": "Pancreatic Agenesis | 98.07% | L4 | Research Question | **Best mechanistic fit**: insulin-independent glucose lowering may support neonatal diabetes from agenesis",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Empagliflozin",
+          "slug": "empagliflozin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Papillary Conjunctivitis | 97.17% | L5 | Hold | No mechanistic basis for systemic opioid in local ocular inflammation",
       "drug_count": 1,
       "drugs": [
@@ -94898,7 +96538,7 @@
       "drug_count": 5,
       "drugs": [
         {
-          "drug": "CEFUROXIME",
+          "drug": "Cefuroxime",
           "slug": "cefuroxime",
           "score": 99.72
         },
@@ -94913,7 +96553,7 @@
           "score": 99.37
         },
         {
-          "drug": "CEFTAZIDIME",
+          "drug": "Ceftazidime",
           "slug": "ceftazidime",
           "score": 99.17
         },
@@ -95068,6 +96708,17 @@
       ]
     },
     {
+      "name": "Plasma Cell Myeloma | 97.89% | L5 | 0 | 0 | Hold | No clinical or preclinical data",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Chlormadinone",
+          "slug": "chlormadinone",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Plasma cell myeloma | 91.83% | L4 | Hold",
       "drug_count": 1,
       "drugs": [
@@ -95108,7 +96759,7 @@
           "score": 98.73
         },
         {
-          "drug": "DOMPERIDONE",
+          "drug": "Domperidone",
           "slug": "domperidone",
           "score": 98.73
         },
@@ -95172,6 +96823,17 @@
       ]
     },
     {
+      "name": "Polyclonal Hyperviscosity Syndrome | 99.52% | L5 | **Hold — Mechanism Incompatible** | B-cell/immunoglobulin disorder; antibiotics have no known effect on immunoglobulin production",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Ceftolozane",
+          "slug": "ceftolozane",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Polyclonal Hyperviscosity Syndrome | 99.63% | L5 | 0 | 0 | Hold",
       "drug_count": 1,
       "drugs": [
@@ -95189,6 +96851,17 @@
         {
           "drug": "Azithromycin",
           "slug": "azithromycin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Polymicrogyria with cerebellar hypoplasia & arthrogryposis | 99.93% | L5 | Hold | Irreversible cortical malformation; distant indirect KG linkage only",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Chlorpromazine",
+          "slug": "chlorpromazine",
           "score": 99.0
         }
       ]
@@ -95243,6 +96916,17 @@
       ]
     },
     {
+      "name": "Premalignant Hematological Disease | 99.11% | L5 | **Hold — Mechanism Incompatible** | MDS and similar disorders are driven by genomic instability; antibiotics have no therapeutic effect",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Ceftolozane",
+          "slug": "ceftolozane",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Premalignant Hematological Disease | 99.29% | L5 | 0 | 0 | Hold",
       "drug_count": 1,
       "drugs": [
@@ -95287,6 +96971,17 @@
       ]
     },
     {
+      "name": "Pressure-Induced Localized Lipoatrophy | 98.34% | L5 | Hold | Pure physical injury mechanism; no pharmacological rationale",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Empagliflozin",
+          "slug": "empagliflozin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Primary Hereditary Glaucoma | 92.06% | L5 | 0 | 0 | Hold",
       "drug_count": 1,
       "drugs": [
@@ -95298,12 +96993,45 @@
       ]
     },
     {
+      "name": "Primary Release Disorder of Platelets | 99.99% | L5 | Hold | Indirect mechanism; no clinical evidence",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Emicizumab",
+          "slug": "emicizumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Primary hereditary glaucoma | 99.46% | 0 | 0 | Genetic (MYOC, OPTN mutations); same reversed mechanism risk as rank 5",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Dobutamine",
+          "slug": "dobutamine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Primary hereditary glaucoma | 99.69% | L4 | Research Question | Best mechanistic rationale: PGF2α → FP receptor → uveoscleral drainage; class analogy with latanoprost/bimatoprost",
       "drug_count": 1,
       "drugs": [
         {
           "drug": "Carboprost Tromethamine",
           "slug": "carboprost_tromethamine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Primary orthostatic tremor | 99.17% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Donepezil",
+          "slug": "donepezil",
           "score": 99.0
         }
       ]
@@ -95464,12 +97192,45 @@
       ]
     },
     {
+      "name": "Prostatic urethra urothelial carcinoma | 99.98% | 0 | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Durvalumab",
+          "slug": "durvalumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Pseudo-von Willebrand Disease | 99.99% | L5 | Hold | Mechanistic mismatch; GPIbα gain-of-function may be worsened",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Emicizumab",
+          "slug": "emicizumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Pseudo-von Willebrand disease | 99.52% | L5 | **Hold** | Bleeding disorder — GPIb mutation; anticoagulant contraindicated",
       "drug_count": 1,
       "drugs": [
         {
           "drug": "Dalteparin",
           "slug": "dalteparin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Psychogenic movement disorders | 99.23% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Donepezil",
+          "slug": "donepezil",
           "score": 99.0
         }
       ]
@@ -95525,6 +97286,17 @@
         {
           "drug": "Apixaban",
           "slug": "apixaban",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Pulmonary Hypertension | 97.87% | L5 | Hold ⚠️",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Entrectinib",
+          "slug": "entrectinib",
           "score": 99.0
         }
       ]
@@ -95683,7 +97455,7 @@
           "score": 99.73
         },
         {
-          "drug": "ENTACAPONE",
+          "drug": "Entacapone",
           "slug": "entacapone",
           "score": 99.73
         },
@@ -95748,7 +97520,7 @@
     },
     {
       "name": "Raynaud disease",
-      "drug_count": 18,
+      "drug_count": 17,
       "drugs": [
         {
           "drug": "Terazosin",
@@ -95776,11 +97548,6 @@
           "score": 99.56
         },
         {
-          "drug": "DOBUTAMINE",
-          "slug": "dobutamine",
-          "score": 99.47
-        },
-        {
           "drug": "Acetylsalicylic Acid",
           "slug": "acetylsalicylic_acid",
           "score": 98.67
@@ -95799,6 +97566,22 @@
           "drug": "Carbimazole",
           "slug": "carbimazole",
           "score": 97.89
+        },
+        {
+          "drug": "Carbimazole",
+          "slug": "db00389",
+          "score": 97.89
+        }
+      ]
+    },
+    {
+      "name": "Raynaud disease | 99.47% | 0 | 1 (irrelevant) | Weak β2 vasodilation hypothesis; IV-only route entirely unsuitable for chronic management of a peripheral vasospastic disorder",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Dobutamine",
+          "slug": "dobutamine",
+          "score": 99.0
         }
       ]
     },
@@ -95880,6 +97663,17 @@
       ]
     },
     {
+      "name": "Renal pelvis papillary urothelial carcinoma | 99.98% | 0 | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Durvalumab",
+          "slug": "durvalumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Restless Legs Syndrome | 98.51% | L5 | Hold",
       "drug_count": 1,
       "drugs": [
@@ -95897,6 +97691,17 @@
         {
           "drug": "Clobazam",
           "slug": "clobazam",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Retinal dystrophy with/without extraocular anomalies | 99.95% | L5 | ⛔ Hold | **Reverse warning: chlorpromazine CAUSES retinal toxicity — not a treatment**",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Chlorpromazine",
+          "slug": "chlorpromazine",
           "score": 99.0
         }
       ]
@@ -95947,6 +97752,17 @@
           "drug": "Carbamazepine",
           "slug": "db00564",
           "score": 99.87
+        }
+      ]
+    },
+    {
+      "name": "Rheumatoid Arthritis | 97.72% | L5 | 0 | 1 | Hold | Bidirectional; insufficient data",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Chlormadinone",
+          "slug": "chlormadinone",
+          "score": 99.0
         }
       ]
     },
@@ -96060,6 +97876,17 @@
       ]
     },
     {
+      "name": "Rosacea Conjunctivitis | 99.20% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Diphenhydramine",
+          "slug": "diphenhydramine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Rowley-Rosenberg syndrome",
       "drug_count": 1,
       "drugs": [
@@ -96140,6 +97967,17 @@
           "drug": "Zanamivir",
           "slug": "db00558",
           "score": 98.35
+        }
+      ]
+    },
+    {
+      "name": "Scott Syndrome | 99.92% | L5 | Hold | Ultra-rare (<100 cases worldwide); theoretical basis only",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Emicizumab",
+          "slug": "emicizumab",
+          "score": 99.0
         }
       ]
     },
@@ -96299,6 +98137,28 @@
         {
           "drug": "Guselkumab",
           "slug": "guselkumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Signet ring cell variant cervical mucinous adenocarcinoma | 99.90% | 0 | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Durvalumab",
+          "slug": "durvalumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Simian immunodeficiency virus infection | 99.93% | L5 | **Hold** — SIV RT shows high resistance to most NNRTI; supporting literature (PMID 31658118) concerns islatravir, not Doravirine",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Doravirine",
+          "slug": "doravirine",
           "score": 99.0
         }
       ]
@@ -96510,6 +98370,17 @@
       ]
     },
     {
+      "name": "Syndromic myopia | 99.94% | L5 | Hold | Genetic/collagen etiology; no drug target; model over-predicts ophthalmic cluster",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Chlorpromazine",
+          "slug": "chlorpromazine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "T-B+ severe combined immunodeficiency due to CD45 deficiency",
       "drug_count": 2,
       "drugs": [
@@ -96519,7 +98390,7 @@
           "score": 89.1
         },
         {
-          "drug": "DINOPROSTONE",
+          "drug": "Dinoprostone",
           "slug": "dinoprostone",
           "score": 89.1
         }
@@ -96618,12 +98489,45 @@
       ]
     },
     {
+      "name": "Thiamine-Responsive Dysfunction Syndrome | 98.99% | L5 | Hold ⚠️ | **Active safety risk**: SGLT2 inhibitors can deplete thiamine — likely a contraindication in this population",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Empagliflozin",
+          "slug": "empagliflozin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Thrombocytopenia | 98.11% | L5 | Hold ⚠️",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Entrectinib",
+          "slug": "entrectinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Thrombophilia (Protein C deficiency, AR) | 99.88% | L4 | Research Question | Strong mechanistic fit; ATIII pathway compensates for protein C deficiency",
       "drug_count": 1,
       "drugs": [
         {
           "drug": "Dalteparin",
           "slug": "dalteparin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Thrombophilia | 97.66% | **L4** | 0 | **7** | Hold* | Context: safe contraceptive use, not treatment",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Chlormadinone",
+          "slug": "chlormadinone",
           "score": 99.0
         }
       ]
@@ -96657,6 +98561,17 @@
         {
           "drug": "Caffeine",
           "slug": "caffeine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Thrombotic Thrombocytopenic Purpura | 99.61% | L5 | **Hold ⚠️** | **Safety concern**: pro-coagulant mechanism may worsen TTP",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Emicizumab",
+          "slug": "emicizumab",
           "score": 99.0
         }
       ]
@@ -96762,6 +98677,39 @@
       ]
     },
     {
+      "name": "Transient Neonatal Thrombocytopenia | 97.76% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Entrectinib",
+          "slug": "entrectinib",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Tremor-nystagmus-duodenal ulcer syndrome | 99.15% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Donepezil",
+          "slug": "donepezil",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Trigeminal Autonomic Cephalalgia | 92.25% | L3 | Research Question",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Diphenhydramine",
+          "slug": "diphenhydramine",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Trigeminal Autonomic Cephalalgia | 99.21% | L4 | Research Question | A2A antagonism may modulate hypothalamic-trigeminal pathway",
       "drug_count": 1,
       "drugs": [
@@ -96828,6 +98776,17 @@
       ]
     },
     {
+      "name": "Ureaplasma Urethritis | 99.89% | L5 | **Hold — Mechanism Incompatible** | *Ureaplasma* lacks a peptidoglycan cell wall; beta-lactams are entirely ineffective",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Ceftolozane",
+          "slug": "ceftolozane",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Ureaplasma urethritis",
       "drug_count": 20,
       "drugs": [
@@ -96872,7 +98831,7 @@
           "score": 99.33
         },
         {
-          "drug": "CEFTAZIDIME",
+          "drug": "Ceftazidime",
           "slug": "ceftazidime",
           "score": 99.27
         },
@@ -96917,6 +98876,17 @@
       ]
     },
     {
+      "name": "Urogenital Tuberculosis | 99.50% | L5 | **Hold — Mechanism Incompatible** | *Mycobacterium tuberculosis* is intrinsically resistant to cephalosporins due to its unique cell wall lipid layer",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Ceftolozane",
+          "slug": "ceftolozane",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Urogenital tuberculosis | 99.89% | L4 | Hold | ⚠️ Exploratory only — *M. tuberculosis* has BlaC β-lactamase but standard TB therapy is irreplaceable",
       "drug_count": 1,
       "drugs": [
@@ -96928,12 +98898,45 @@
       ]
     },
     {
+      "name": "Uterine Inflammatory Disease | 99.88% | L5 | **Hold** | PID requires coverage for *Chlamydia* (intracellular; beta-lactam-insensitive) and anaerobes; does not match CDC treatment guidelines",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Ceftolozane",
+          "slug": "ceftolozane",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Uterine inflammatory disease | 99.92% | L3 | Hold (secondary candidate) | ✅ Partial — amoxicillin-clavulanate cited in CNGOF postpartum endometritis guidelines; most supporting data from animals",
       "drug_count": 1,
       "drugs": [
         {
           "drug": "Clavulanic Acid",
           "slug": "clavulanic_acid",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Uterine ligament adenocarcinoma | 99.92% | 0 | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Durvalumab",
+          "slug": "durvalumab",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Uterine ligament serous adenocarcinoma | 99.91% | 0 | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Durvalumab",
+          "slug": "durvalumab",
           "score": 99.0
         }
       ]
@@ -96989,6 +98992,17 @@
         {
           "drug": "Dalteparin",
           "slug": "dalteparin",
+          "score": 99.0
+        }
+      ]
+    },
+    {
+      "name": "Viral Conjunctivitis | 93.97% | L5 | Hold",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Diphenhydramine",
+          "slug": "diphenhydramine",
           "score": 99.0
         }
       ]
@@ -97050,7 +99064,7 @@
           "score": 99.86
         },
         {
-          "drug": "CELECOXIB",
+          "drug": "Celecoxib",
           "slug": "celecoxib",
           "score": 99.8
         },
@@ -97139,7 +99153,7 @@
           "score": 99.37
         },
         {
-          "drug": "DRONEDARONE",
+          "drug": "Dronedarone",
           "slug": "dronedarone",
           "score": 99.37
         }
@@ -97388,6 +99402,17 @@
       ]
     },
     {
+      "name": "Xanthogranulomatous Pyelonephritis | 99.88% | L4 | Research Question | Caused by Gram-negatives (*E. coli*, *Proteus*) within Ceftolozane's coverage; 1 indirect review reference; surgery is the primary treatment",
+      "drug_count": 1,
+      "drugs": [
+        {
+          "drug": "Ceftolozane",
+          "slug": "ceftolozane",
+          "score": 99.0
+        }
+      ]
+    },
+    {
       "name": "Xanthogranulomatous pyelonephritis | 99.90% | L4 | Hold | ⚠️ Marginal — surgery is primary treatment; antibiotic role is ancillary only",
       "drug_count": 1,
       "drugs": [
@@ -97553,12 +99578,12 @@
           "score": 98.97
         },
         {
-          "drug": "ESOMEPRAZOLE",
+          "drug": "Esomeprazole",
           "slug": "esomeprazole",
           "score": 98.97
         },
         {
-          "drug": "CASPOFUNGIN",
+          "drug": "Caspofungin",
           "slug": "caspofungin",
           "score": 97.67
         },
@@ -97902,7 +99927,7 @@
           "score": 95.59
         },
         {
-          "drug": "ENCORAFENIB",
+          "drug": "Encorafenib",
           "slug": "encorafenib",
           "score": 95.59
         }
@@ -98082,7 +100107,7 @@
           "score": 92.75
         },
         {
-          "drug": "DROSPIRENONE",
+          "drug": "Drospirenone",
           "slug": "drospirenone",
           "score": 92.75
         }
@@ -98227,7 +100252,7 @@
           "score": 99.55
         },
         {
-          "drug": "ERYTHROMYCIN",
+          "drug": "Erythromycin",
           "slug": "erythromycin",
           "score": 99.55
         },
@@ -98751,7 +100776,7 @@
           "score": 99.53
         },
         {
-          "drug": "DORZOLAMIDE",
+          "drug": "Dorzolamide",
           "slug": "dorzolamide",
           "score": 99.53
         },
@@ -98810,7 +100835,7 @@
     },
     {
       "name": "adenoid cystic carcinoma of the cervix uteri",
-      "drug_count": 5,
+      "drug_count": 4,
       "drugs": [
         {
           "drug": "RAMUCIRUMAB",
@@ -98830,11 +100855,6 @@
         {
           "drug": "DURVALUMAB",
           "slug": "db11714",
-          "score": 99.91
-        },
-        {
-          "drug": "DURVALUMAB",
-          "slug": "durvalumab",
           "score": 99.91
         }
       ]
@@ -98932,7 +100952,7 @@
           "score": 95.94
         },
         {
-          "drug": "DOSTARLIMAB",
+          "drug": "Dostarlimab",
           "slug": "dostarlimab",
           "score": 50.0
         }
@@ -98948,7 +100968,7 @@
           "score": 50.0
         },
         {
-          "drug": "DOSTARLIMAB",
+          "drug": "Dostarlimab",
           "slug": "dostarlimab",
           "score": 50.0
         }
@@ -99252,7 +101272,7 @@
           "score": 99.84
         },
         {
-          "drug": "DULOXETINE",
+          "drug": "Duloxetine",
           "slug": "duloxetine",
           "score": 99.84
         },
@@ -99415,7 +101435,7 @@
           "score": 99.0
         },
         {
-          "drug": "CEPHALEXIN",
+          "drug": "Cephalexin",
           "slug": "cephalexin",
           "score": 98.27
         },
@@ -99484,7 +101504,7 @@
     },
     {
       "name": "alopecia",
-      "drug_count": 28,
+      "drug_count": 27,
       "drugs": [
         {
           "drug": "Isosorbide dinitrate",
@@ -99522,7 +101542,7 @@
           "score": 99.9
         },
         {
-          "drug": "DORZOLAMIDE",
+          "drug": "Dorzolamide",
           "slug": "dorzolamide",
           "score": 99.9
         },
@@ -99532,9 +101552,9 @@
           "score": 99.86
         },
         {
-          "drug": "DOBUTAMINE",
-          "slug": "dobutamine",
-          "score": 99.85
+          "drug": "Tamsulosin",
+          "slug": "db00706",
+          "score": 99.81
         }
       ]
     },
@@ -99890,7 +101910,7 @@
           "score": 95.59
         },
         {
-          "drug": "ENCORAFENIB",
+          "drug": "Encorafenib",
           "slug": "encorafenib",
           "score": 95.59
         }
@@ -100075,7 +102095,7 @@
           "score": 99.27
         },
         {
-          "drug": "ERDAFITINIB",
+          "drug": "Erdafitinib",
           "slug": "erdafitinib",
           "score": 98.91
         },
@@ -100126,7 +102146,7 @@
           "score": 99.26
         },
         {
-          "drug": "ERDAFITINIB",
+          "drug": "Erdafitinib",
           "slug": "erdafitinib",
           "score": 99.06
         },
@@ -100177,7 +102197,7 @@
           "score": 99.25
         },
         {
-          "drug": "ERDAFITINIB",
+          "drug": "Erdafitinib",
           "slug": "erdafitinib",
           "score": 98.88
         },
@@ -100668,7 +102688,7 @@
           "score": 98.97
         },
         {
-          "drug": "EBASTINE",
+          "drug": "Ebastine",
           "slug": "ebastine",
           "score": 98.97
         },
@@ -100725,7 +102745,7 @@
           "score": 97.02
         },
         {
-          "drug": "EPINEPHRINE",
+          "drug": "Epinephrine",
           "slug": "epinephrine",
           "score": 97.02
         },
@@ -100766,7 +102786,7 @@
           "score": 98.58
         },
         {
-          "drug": "ESTRADIOL",
+          "drug": "Estradiol",
           "slug": "estradiol",
           "score": 98.58
         },
@@ -101059,7 +103079,7 @@
           "score": 91.24
         },
         {
-          "drug": "DINOPROSTONE",
+          "drug": "Dinoprostone",
           "slug": "dinoprostone",
           "score": 91.24
         }
@@ -101178,7 +103198,7 @@
           "score": 97.88
         },
         {
-          "drug": "DYDROGESTERONE",
+          "drug": "Dydrogesterone",
           "slug": "dydrogesterone",
           "score": 89.91
         }
@@ -101209,7 +103229,7 @@
           "score": 99.8
         },
         {
-          "drug": "CETRORELIX",
+          "drug": "Cetrorelix",
           "slug": "cetrorelix",
           "score": 99.53
         }
@@ -101690,7 +103710,7 @@
           "score": 99.94
         },
         {
-          "drug": "ELETRIPTAN",
+          "drug": "Eletriptan",
           "slug": "eletriptan",
           "score": 99.94
         },
@@ -101899,7 +103919,7 @@
           "score": 92.04
         },
         {
-          "drug": "DINOPROSTONE",
+          "drug": "Dinoprostone",
           "slug": "dinoprostone",
           "score": 92.04
         }
@@ -102109,7 +104129,7 @@
     },
     {
       "name": "autoimmune oophoritis",
-      "drug_count": 43,
+      "drug_count": 42,
       "drugs": [
         {
           "drug": "Insulin aspart",
@@ -102168,7 +104188,7 @@
       "drug_count": 1,
       "drugs": [
         {
-          "drug": "DOSTARLIMAB",
+          "drug": "Dostarlimab",
           "slug": "dostarlimab",
           "score": 50.0
         }
@@ -102653,7 +104673,7 @@
           "score": 98.87
         },
         {
-          "drug": "ERDAFITINIB",
+          "drug": "Erdafitinib",
           "slug": "erdafitinib",
           "score": 98.83
         },
@@ -103114,7 +105134,7 @@
           "score": 98.37
         },
         {
-          "drug": "ENZALUTAMIDE",
+          "drug": "Enzalutamide",
           "slug": "enzalutamide",
           "score": 98.37
         },
@@ -103283,7 +105303,7 @@
           "score": 99.85
         },
         {
-          "drug": "DULOXETINE",
+          "drug": "Duloxetine",
           "slug": "duloxetine",
           "score": 99.85
         },
@@ -103301,7 +105321,7 @@
     },
     {
       "name": "benign prostate phyllodes tumor",
-      "drug_count": 17,
+      "drug_count": 16,
       "drugs": [
         {
           "drug": "Etravirine",
@@ -103319,18 +105339,13 @@
           "score": 99.48
         },
         {
-          "drug": "ENZALUTAMIDE",
+          "drug": "Enzalutamide",
           "slug": "enzalutamide",
           "score": 99.48
         },
         {
           "drug": "Doravirine",
           "slug": "db12301",
-          "score": 98.63
-        },
-        {
-          "drug": "DORAVIRINE",
-          "slug": "doravirine",
           "score": 98.63
         },
         {
@@ -103352,6 +105367,11 @@
           "drug": "Darunavir",
           "slug": "db01264",
           "score": 97.35
+        },
+        {
+          "drug": "Apalutamide",
+          "slug": "apalutamide",
+          "score": 97.21
         }
       ]
     },
@@ -103404,7 +105424,7 @@
     },
     {
       "name": "benign reproductive system neoplasm",
-      "drug_count": 22,
+      "drug_count": 21,
       "drugs": [
         {
           "drug": "Etravirine",
@@ -103422,18 +105442,13 @@
           "score": 99.53
         },
         {
-          "drug": "ENZALUTAMIDE",
+          "drug": "Enzalutamide",
           "slug": "enzalutamide",
           "score": 99.53
         },
         {
           "drug": "Doravirine",
           "slug": "db12301",
-          "score": 98.7
-        },
-        {
-          "drug": "DORAVIRINE",
-          "slug": "doravirine",
           "score": 98.7
         },
         {
@@ -103454,6 +105469,11 @@
         {
           "drug": "Darunavir",
           "slug": "darunavir",
+          "score": 97.52
+        },
+        {
+          "drug": "Darunavir",
+          "slug": "db01264",
           "score": 97.52
         }
       ]
@@ -103990,7 +106010,7 @@
           "score": 99.6
         },
         {
-          "drug": "DULOXETINE",
+          "drug": "Duloxetine",
           "slug": "duloxetine",
           "score": 99.6
         },
@@ -104025,7 +106045,7 @@
           "score": 97.87
         },
         {
-          "drug": "ESCITALOPRAM",
+          "drug": "Escitalopram",
           "slug": "escitalopram",
           "score": 97.87
         }
@@ -104097,7 +106117,7 @@
           "score": 98.52
         },
         {
-          "drug": "ESTRADIOL",
+          "drug": "Estradiol",
           "slug": "estradiol",
           "score": 98.52
         },
@@ -104199,7 +106219,7 @@
           "score": 99.7
         },
         {
-          "drug": "CEFUROXIME",
+          "drug": "Cefuroxime",
           "slug": "cefuroxime",
           "score": 99.65
         }
@@ -104327,7 +106347,7 @@
           "score": 92.91
         },
         {
-          "drug": "ELACESTRANT",
+          "drug": "Elacestrant",
           "slug": "elacestrant",
           "score": 86.81
         }
@@ -104396,7 +106416,7 @@
           "score": 99.8
         },
         {
-          "drug": "ETOPOSIDE",
+          "drug": "Etoposide",
           "slug": "etoposide",
           "score": 99.8
         },
@@ -104739,7 +106759,7 @@
           "score": 99.71
         },
         {
-          "drug": "DRONEDARONE",
+          "drug": "Dronedarone",
           "slug": "dronedarone",
           "score": 99.71
         },
@@ -105168,7 +107188,7 @@
           "score": 97.84
         },
         {
-          "drug": "ERAVACYCLINE",
+          "drug": "Eravacycline",
           "slug": "eravacycline",
           "score": 85.97
         },
@@ -105457,7 +107477,7 @@
           "score": 99.25
         },
         {
-          "drug": "CASPOFUNGIN",
+          "drug": "Caspofungin",
           "slug": "caspofungin",
           "score": 95.18
         },
@@ -105528,7 +107548,7 @@
           "score": 98.72
         },
         {
-          "drug": "EBASTINE",
+          "drug": "Ebastine",
           "slug": "ebastine",
           "score": 98.72
         },
@@ -106118,7 +108138,7 @@
           "score": 99.67
         },
         {
-          "drug": "CETRORELIX",
+          "drug": "Cetrorelix",
           "slug": "cetrorelix",
           "score": 99.29
         }
@@ -106137,7 +108157,7 @@
     },
     {
       "name": "centrifugal lipodystrophy",
-      "drug_count": 48,
+      "drug_count": 47,
       "drugs": [
         {
           "drug": "Vildagliptin",
@@ -106248,7 +108268,7 @@
           "score": 99.44
         },
         {
-          "drug": "DRONEDARONE",
+          "drug": "Dronedarone",
           "slug": "dronedarone",
           "score": 99.44
         },
@@ -106258,7 +108278,7 @@
           "score": 68.38
         },
         {
-          "drug": "EPLERENONE",
+          "drug": "Eplerenone",
           "slug": "eplerenone",
           "score": 68.38
         }
@@ -106301,7 +108321,7 @@
           "score": 99.71
         },
         {
-          "drug": "DRONEDARONE",
+          "drug": "Dronedarone",
           "slug": "dronedarone",
           "score": 99.71
         },
@@ -106806,7 +108826,7 @@
           "score": 96.08
         },
         {
-          "drug": "ELTROMBOPAG",
+          "drug": "Eltrombopag",
           "slug": "eltrombopag",
           "score": 96.08
         },
@@ -106821,7 +108841,7 @@
           "score": 90.57
         },
         {
-          "drug": "DYDROGESTERONE",
+          "drug": "Dydrogesterone",
           "slug": "dydrogesterone",
           "score": 87.92
         },
@@ -107131,7 +109151,7 @@
           "score": 96.07
         },
         {
-          "drug": "ENCORAFENIB",
+          "drug": "Encorafenib",
           "slug": "encorafenib",
           "score": 96.07
         }
@@ -107182,7 +109202,7 @@
           "score": 97.1
         },
         {
-          "drug": "ENCORAFENIB",
+          "drug": "Encorafenib",
           "slug": "encorafenib",
           "score": 97.1
         }
@@ -107326,7 +109346,7 @@
           "score": 99.77
         },
         {
-          "drug": "DOXYCYCLINE",
+          "drug": "Doxycycline",
           "slug": "doxycycline",
           "score": 99.77
         }
@@ -107398,7 +109418,7 @@
           "score": 96.39
         },
         {
-          "drug": "DOLUTEGRAVIR",
+          "drug": "Dolutegravir",
           "slug": "dolutegravir",
           "score": 96.39
         },
@@ -107639,7 +109659,7 @@
           "score": 99.13
         },
         {
-          "drug": "CEFTRIAXONE",
+          "drug": "Ceftriaxone",
           "slug": "ceftriaxone",
           "score": 99.01
         },
@@ -107649,7 +109669,7 @@
           "score": 99.01
         },
         {
-          "drug": "CEPHALEXIN",
+          "drug": "Cephalexin",
           "slug": "cephalexin",
           "score": 98.55
         },
@@ -107782,7 +109802,7 @@
           "score": 98.63
         },
         {
-          "drug": "CHLORAMPHENICOL",
+          "drug": "Chloramphenicol",
           "slug": "chloramphenicol",
           "score": 98.36
         },
@@ -107900,7 +109920,7 @@
     },
     {
       "name": "classic stiff person syndrome",
-      "drug_count": 48,
+      "drug_count": 47,
       "drugs": [
         {
           "drug": "Vildagliptin",
@@ -108139,7 +110159,7 @@
           "score": 95.68
         },
         {
-          "drug": "DOMPERIDONE",
+          "drug": "Domperidone",
           "slug": "domperidone",
           "score": 95.68
         }
@@ -108522,7 +110542,7 @@
           "score": 98.32
         },
         {
-          "drug": "ETOMIDATE",
+          "drug": "Etomidate",
           "slug": "etomidate",
           "score": 97.41
         },
@@ -108542,7 +110562,7 @@
           "score": 97.02
         },
         {
-          "drug": "DOMPERIDONE",
+          "drug": "Domperidone",
           "slug": "domperidone",
           "score": 97.02
         },
@@ -108822,7 +110842,7 @@
           "score": 99.25
         },
         {
-          "drug": "CASPOFUNGIN",
+          "drug": "Caspofungin",
           "slug": "caspofungin",
           "score": 95.18
         },
@@ -109045,7 +111065,7 @@
     },
     {
       "name": "congenital human immunodeficiency virus",
-      "drug_count": 26,
+      "drug_count": 25,
       "drugs": [
         {
           "drug": "Etravirine",
@@ -109101,7 +111121,7 @@
     },
     {
       "name": "congenital hypotrichosis milia",
-      "drug_count": 57,
+      "drug_count": 56,
       "drugs": [
         {
           "drug": "Minoxidil",
@@ -109139,7 +111159,7 @@
           "score": 99.94
         },
         {
-          "drug": "DORZOLAMIDE",
+          "drug": "Dorzolamide",
           "slug": "dorzolamide",
           "score": 99.94
         },
@@ -109457,7 +111477,7 @@
           "score": 61.6
         },
         {
-          "drug": "EPROSARTAN",
+          "drug": "Eprosartan",
           "slug": "eprosartan",
           "score": 61.6
         },
@@ -109530,7 +111550,7 @@
           "score": 99.61
         },
         {
-          "drug": "DORZOLAMIDE",
+          "drug": "Dorzolamide",
           "slug": "dorzolamide",
           "score": 99.61
         },
@@ -109648,7 +111668,7 @@
           "score": 99.87
         },
         {
-          "drug": "CHLORAMPHENICOL",
+          "drug": "Chloramphenicol",
           "slug": "chloramphenicol",
           "score": 99.66
         },
@@ -109793,7 +111813,7 @@
           "score": 99.18
         },
         {
-          "drug": "EBASTINE",
+          "drug": "Ebastine",
           "slug": "ebastine",
           "score": 99.18
         },
@@ -110372,7 +112392,7 @@
           "score": 98.05
         },
         {
-          "drug": "ETHINYLESTRADIOL",
+          "drug": "Ethinylestradiol",
           "slug": "ethinylestradiol",
           "score": 96.59
         },
@@ -110444,7 +112464,7 @@
           "score": 84.18
         },
         {
-          "drug": "ERDOSTEINE",
+          "drug": "Erdosteine",
           "slug": "erdosteine",
           "score": 84.18
         }
@@ -111005,7 +113025,7 @@
     },
     {
       "name": "diffuse alopecia areata",
-      "drug_count": 30,
+      "drug_count": 29,
       "drugs": [
         {
           "drug": "Minoxidil",
@@ -111043,7 +113063,7 @@
           "score": 99.9
         },
         {
-          "drug": "DORZOLAMIDE",
+          "drug": "Dorzolamide",
           "slug": "dorzolamide",
           "score": 99.9
         },
@@ -111120,7 +113140,7 @@
           "score": 99.82
         },
         {
-          "drug": "CHLORAMPHENICOL",
+          "drug": "Chloramphenicol",
           "slug": "chloramphenicol",
           "score": 99.65
         },
@@ -111627,7 +113647,7 @@
     },
     {
       "name": "drug-induced localized lipodystrophy",
-      "drug_count": 48,
+      "drug_count": 47,
       "drugs": [
         {
           "drug": "Vildagliptin",
@@ -111920,7 +113940,7 @@
           "score": 99.4
         },
         {
-          "drug": "ESOMEPRAZOLE",
+          "drug": "Esomeprazole",
           "slug": "esomeprazole",
           "score": 99.4
         },
@@ -112070,7 +114090,7 @@
           "score": 93.61
         },
         {
-          "drug": "DROSPIRENONE",
+          "drug": "Drospirenone",
           "slug": "drospirenone",
           "score": 93.61
         }
@@ -112549,7 +114569,7 @@
           "score": 99.76
         },
         {
-          "drug": "ETOPOSIDE",
+          "drug": "Etoposide",
           "slug": "etoposide",
           "score": 99.76
         },
@@ -112672,7 +114692,7 @@
     },
     {
       "name": "endocervical carcinoma",
-      "drug_count": 5,
+      "drug_count": 4,
       "drugs": [
         {
           "drug": "RAMUCIRUMAB",
@@ -112692,11 +114712,6 @@
         {
           "drug": "DURVALUMAB",
           "slug": "db11714",
-          "score": 99.91
-        },
-        {
-          "drug": "DURVALUMAB",
-          "slug": "durvalumab",
           "score": 99.91
         }
       ]
@@ -113243,7 +115258,7 @@
           "score": 99.53
         },
         {
-          "drug": "CEFTAZIDIME",
+          "drug": "Ceftazidime",
           "slug": "ceftazidime",
           "score": 99.39
         },
@@ -113738,7 +115753,7 @@
           "score": 98.26
         },
         {
-          "drug": "DINOPROSTONE",
+          "drug": "Dinoprostone",
           "slug": "dinoprostone",
           "score": 98.26
         },
@@ -113908,7 +115923,7 @@
       "drug_count": 1,
       "drugs": [
         {
-          "drug": "DOSTARLIMAB",
+          "drug": "Dostarlimab",
           "slug": "dostarlimab",
           "score": 50.0
         }
@@ -113944,7 +115959,7 @@
           "score": 99.14
         },
         {
-          "drug": "ETOMIDATE",
+          "drug": "Etomidate",
           "slug": "etomidate",
           "score": 97.77
         },
@@ -114088,7 +116103,7 @@
           "score": 99.79
         },
         {
-          "drug": "DOXYCYCLINE",
+          "drug": "Doxycycline",
           "slug": "doxycycline",
           "score": 99.79
         },
@@ -114176,7 +116191,7 @@
           "score": 99.75
         },
         {
-          "drug": "ETOPOSIDE",
+          "drug": "Etoposide",
           "slug": "etoposide",
           "score": 99.75
         },
@@ -114501,7 +116516,7 @@
           "score": 98.43
         },
         {
-          "drug": "ETHINYLESTRADIOL",
+          "drug": "Ethinylestradiol",
           "slug": "ethinylestradiol",
           "score": 91.6
         }
@@ -114512,7 +116527,7 @@
       "drug_count": 1,
       "drugs": [
         {
-          "drug": "ELACESTRANT",
+          "drug": "Elacestrant",
           "slug": "elacestrant",
           "score": 82.91
         }
@@ -114819,7 +116834,7 @@
           "score": 99.65
         },
         {
-          "drug": "CETRORELIX",
+          "drug": "Cetrorelix",
           "slug": "cetrorelix",
           "score": 99.63
         }
@@ -114855,7 +116870,7 @@
           "score": 99.84
         },
         {
-          "drug": "CETRORELIX",
+          "drug": "Cetrorelix",
           "slug": "cetrorelix",
           "score": 99.55
         }
@@ -115181,7 +117196,7 @@
     },
     {
       "name": "feline acquired immunodeficiency syndrome",
-      "drug_count": 64,
+      "drug_count": 63,
       "drugs": [
         {
           "drug": "Atazanavir",
@@ -115562,7 +117577,7 @@
           "score": 99.86
         },
         {
-          "drug": "CERITINIB",
+          "drug": "Ceritinib",
           "slug": "ceritinib",
           "score": 99.82
         },
@@ -115585,7 +117600,7 @@
     },
     {
       "name": "fibroma of prostate",
-      "drug_count": 28,
+      "drug_count": 27,
       "drugs": [
         {
           "drug": "Etravirine",
@@ -115603,7 +117618,7 @@
           "score": 99.53
         },
         {
-          "drug": "ENZALUTAMIDE",
+          "drug": "Enzalutamide",
           "slug": "enzalutamide",
           "score": 99.53
         },
@@ -115633,9 +117648,9 @@
           "score": 98.76
         },
         {
-          "drug": "DORAVIRINE",
-          "slug": "doravirine",
-          "score": 98.76
+          "drug": "Darunavir",
+          "slug": "darunavir",
+          "score": 97.74
         }
       ]
     },
@@ -115674,7 +117689,7 @@
           "score": 99.89
         },
         {
-          "drug": "CERITINIB",
+          "drug": "Ceritinib",
           "slug": "ceritinib",
           "score": 99.86
         },
@@ -115882,7 +117897,7 @@
     },
     {
       "name": "focal stiff limb syndrome",
-      "drug_count": 48,
+      "drug_count": 47,
       "drugs": [
         {
           "drug": "Vildagliptin",
@@ -116007,7 +118022,7 @@
           "score": 99.57
         },
         {
-          "drug": "EPINEPHRINE",
+          "drug": "Epinephrine",
           "slug": "epinephrine",
           "score": 99.57
         },
@@ -116115,7 +118130,7 @@
           "score": 99.22
         },
         {
-          "drug": "ENTACAPONE",
+          "drug": "Entacapone",
           "slug": "entacapone",
           "score": 99.22
         },
@@ -116505,7 +118520,7 @@
       "drug_count": 4,
       "drugs": [
         {
-          "drug": "CASPOFUNGIN",
+          "drug": "Caspofungin",
           "slug": "caspofungin",
           "score": 99.44
         },
@@ -117023,7 +119038,7 @@
           "score": 99.75
         },
         {
-          "drug": "DORZOLAMIDE",
+          "drug": "Dorzolamide",
           "slug": "dorzolamide",
           "score": 99.75
         },
@@ -117318,7 +119333,7 @@
           "score": 99.33
         },
         {
-          "drug": "CEFTAZIDIME",
+          "drug": "Ceftazidime",
           "slug": "ceftazidime",
           "score": 99.27
         },
@@ -117572,7 +119587,7 @@
           "score": 99.85
         },
         {
-          "drug": "CERITINIB",
+          "drug": "Ceritinib",
           "slug": "ceritinib",
           "score": 99.81
         },
@@ -117652,7 +119667,7 @@
     },
     {
       "name": "headache disorder",
-      "drug_count": 65,
+      "drug_count": 64,
       "drugs": [
         {
           "drug": "Dexketoprofen",
@@ -117999,7 +120014,7 @@
           "score": 99.56
         },
         {
-          "drug": "CEFUROXIME",
+          "drug": "Cefuroxime",
           "slug": "cefuroxime",
           "score": 99.55
         }
@@ -118739,7 +120754,7 @@
           "score": 93.66
         },
         {
-          "drug": "DOLUTEGRAVIR",
+          "drug": "Dolutegravir",
           "slug": "dolutegravir",
           "score": 93.66
         },
@@ -119195,7 +121210,7 @@
           "score": 84.75
         },
         {
-          "drug": "ERDOSTEINE",
+          "drug": "Erdosteine",
           "slug": "erdosteine",
           "score": 84.75
         }
@@ -120158,7 +122173,7 @@
           "score": 99.95
         },
         {
-          "drug": "CELECOXIB",
+          "drug": "Celecoxib",
           "slug": "celecoxib",
           "score": 99.83
         },
@@ -120394,7 +122409,7 @@
     },
     {
       "name": "hypertrichosis (disease)",
-      "drug_count": 53,
+      "drug_count": 52,
       "drugs": [
         {
           "drug": "Alfuzosin",
@@ -120417,7 +122432,7 @@
           "score": 100.0
         },
         {
-          "drug": "DUTASTERIDE",
+          "drug": "Dutasteride",
           "slug": "dutasteride",
           "score": 100.0
         },
@@ -120516,7 +122531,7 @@
       "drug_count": 1,
       "drugs": [
         {
-          "drug": "DOSTARLIMAB",
+          "drug": "Dostarlimab",
           "slug": "dostarlimab",
           "score": 50.0
         }
@@ -120703,7 +122718,7 @@
           "score": 96.52
         },
         {
-          "drug": "ELACESTRANT",
+          "drug": "Elacestrant",
           "slug": "elacestrant",
           "score": 81.67
         }
@@ -120884,7 +122899,7 @@
     },
     {
       "name": "hypotrichosis simplex of the scalp",
-      "drug_count": 55,
+      "drug_count": 54,
       "drugs": [
         {
           "drug": "Minoxidil",
@@ -120922,7 +122937,7 @@
           "score": 99.95
         },
         {
-          "drug": "DORZOLAMIDE",
+          "drug": "Dorzolamide",
           "slug": "dorzolamide",
           "score": 99.95
         },
@@ -121062,7 +123077,7 @@
       "drug_count": 1,
       "drugs": [
         {
-          "drug": "DOSTARLIMAB",
+          "drug": "Dostarlimab",
           "slug": "dostarlimab",
           "score": 50.0
         }
@@ -121250,7 +123265,7 @@
     },
     {
       "name": "idiopathic localized lipodystrophy",
-      "drug_count": 36,
+      "drug_count": 35,
       "drugs": [
         {
           "drug": "Vildagliptin",
@@ -121688,7 +123703,7 @@
           "score": 99.84
         },
         {
-          "drug": "CERITINIB",
+          "drug": "Ceritinib",
           "slug": "ceritinib",
           "score": 99.79
         },
@@ -121857,7 +123872,7 @@
           "score": 74.43
         },
         {
-          "drug": "ERDOSTEINE",
+          "drug": "Erdosteine",
           "slug": "erdosteine",
           "score": 74.43
         }
@@ -121903,7 +123918,7 @@
           "score": 99.87
         },
         {
-          "drug": "DOXYCYCLINE",
+          "drug": "Doxycycline",
           "slug": "doxycycline",
           "score": 99.87
         },
@@ -122053,7 +124068,7 @@
           "score": 99.44
         },
         {
-          "drug": "CEFTRIAXONE",
+          "drug": "Ceftriaxone",
           "slug": "ceftriaxone",
           "score": 99.26
         },
@@ -122063,7 +124078,7 @@
           "score": 99.26
         },
         {
-          "drug": "CEFTAZIDIME",
+          "drug": "Ceftazidime",
           "slug": "ceftazidime",
           "score": 99.19
         },
@@ -122129,7 +124144,7 @@
           "score": 99.88
         },
         {
-          "drug": "DOXYCYCLINE",
+          "drug": "Doxycycline",
           "slug": "doxycycline",
           "score": 99.88
         },
@@ -122147,7 +124162,7 @@
     },
     {
       "name": "infiltrating bladder urothelial carcinoma sarcomatoid variant",
-      "drug_count": 5,
+      "drug_count": 4,
       "drugs": [
         {
           "drug": "Atezolizumab",
@@ -122162,11 +124177,6 @@
         {
           "drug": "DURVALUMAB",
           "slug": "db11714",
-          "score": 99.98
-        },
-        {
-          "drug": "DURVALUMAB",
-          "slug": "durvalumab",
           "score": 99.98
         },
         {
@@ -122264,7 +124274,7 @@
           "score": 99.98
         },
         {
-          "drug": "CELECOXIB",
+          "drug": "Celecoxib",
           "slug": "celecoxib",
           "score": 99.8
         },
@@ -122315,7 +124325,7 @@
           "score": 93.33
         },
         {
-          "drug": "DROSPIRENONE",
+          "drug": "Drospirenone",
           "slug": "drospirenone",
           "score": 93.33
         }
@@ -122728,7 +124738,7 @@
     },
     {
       "name": "intestinal variant cervical mucinous adenocarcinoma",
-      "drug_count": 5,
+      "drug_count": 4,
       "drugs": [
         {
           "drug": "RAMUCIRUMAB",
@@ -122748,11 +124758,6 @@
         {
           "drug": "DURVALUMAB",
           "slug": "db11714",
-          "score": 99.9
-        },
-        {
-          "drug": "DURVALUMAB",
-          "slug": "durvalumab",
           "score": 99.9
         }
       ]
@@ -123151,7 +125156,7 @@
           "score": 94.03
         },
         {
-          "drug": "ETHINYLESTRADIOL",
+          "drug": "Ethinylestradiol",
           "slug": "ethinylestradiol",
           "score": 91.59
         }
@@ -123182,7 +125187,7 @@
           "score": 100.0
         },
         {
-          "drug": "DUTASTERIDE",
+          "drug": "Dutasteride",
           "slug": "dutasteride",
           "score": 100.0
         },
@@ -123322,7 +125327,7 @@
           "score": 99.83
         },
         {
-          "drug": "CERITINIB",
+          "drug": "Ceritinib",
           "slug": "ceritinib",
           "score": 99.77
         },
@@ -123425,7 +125430,7 @@
           "score": 98.08
         },
         {
-          "drug": "ETANERCEPT",
+          "drug": "Etanercept",
           "slug": "etanercept",
           "score": 98.08
         },
@@ -123651,7 +125656,7 @@
     },
     {
       "name": "kidney pelvis sarcomatoid transitional cell carcinoma",
-      "drug_count": 9,
+      "drug_count": 8,
       "drugs": [
         {
           "drug": "Atezolizumab",
@@ -123666,11 +125671,6 @@
         {
           "drug": "DURVALUMAB",
           "slug": "db11714",
-          "score": 99.98
-        },
-        {
-          "drug": "DURVALUMAB",
-          "slug": "durvalumab",
           "score": 99.98
         },
         {
@@ -123963,7 +125963,7 @@
           "score": 97.31
         },
         {
-          "drug": "EPINEPHRINE",
+          "drug": "Epinephrine",
           "slug": "epinephrine",
           "score": 97.31
         }
@@ -124214,7 +126214,7 @@
           "score": 99.28
         },
         {
-          "drug": "ENTACAPONE",
+          "drug": "Entacapone",
           "slug": "entacapone",
           "score": 99.28
         },
@@ -124420,7 +126420,7 @@
           "score": 99.66
         },
         {
-          "drug": "DULOXETINE",
+          "drug": "Duloxetine",
           "slug": "duloxetine",
           "score": 99.66
         },
@@ -124850,7 +126850,7 @@
           "score": 99.85
         },
         {
-          "drug": "CERITINIB",
+          "drug": "Ceritinib",
           "slug": "ceritinib",
           "score": 99.8
         },
@@ -124917,7 +126917,7 @@
           "score": 99.84
         },
         {
-          "drug": "CERITINIB",
+          "drug": "Ceritinib",
           "slug": "ceritinib",
           "score": 99.8
         },
@@ -124973,7 +126973,7 @@
           "score": 99.85
         },
         {
-          "drug": "CERITINIB",
+          "drug": "Ceritinib",
           "slug": "ceritinib",
           "score": 99.8
         },
@@ -125014,7 +127014,7 @@
           "score": 98.47
         },
         {
-          "drug": "ESTRADIOL",
+          "drug": "Estradiol",
           "slug": "estradiol",
           "score": 98.47
         },
@@ -125271,7 +127271,7 @@
           "score": 95.5
         },
         {
-          "drug": "DOMPERIDONE",
+          "drug": "Domperidone",
           "slug": "domperidone",
           "score": 95.5
         }
@@ -125287,7 +127287,7 @@
           "score": 99.05
         },
         {
-          "drug": "ERYTHROMYCIN",
+          "drug": "Erythromycin",
           "slug": "erythromycin",
           "score": 99.05
         }
@@ -125535,7 +127535,7 @@
     },
     {
       "name": "male reproductive organ cancer",
-      "drug_count": 6,
+      "drug_count": 5,
       "drugs": [
         {
           "drug": "ENZALUTAMIDE",
@@ -125543,18 +127543,13 @@
           "score": 99.51
         },
         {
-          "drug": "ENZALUTAMIDE",
+          "drug": "Enzalutamide",
           "slug": "enzalutamide",
           "score": 99.51
         },
         {
           "drug": "Doravirine",
           "slug": "db12301",
-          "score": 98.46
-        },
-        {
-          "drug": "DORAVIRINE",
-          "slug": "doravirine",
           "score": 98.46
         },
         {
@@ -125594,7 +127589,7 @@
           "score": 100.0
         },
         {
-          "drug": "DUTASTERIDE",
+          "drug": "Dutasteride",
           "slug": "dutasteride",
           "score": 100.0
         },
@@ -126357,7 +128352,7 @@
           "score": 84.75
         },
         {
-          "drug": "ERDOSTEINE",
+          "drug": "Erdosteine",
           "slug": "erdosteine",
           "score": 84.75
         }
@@ -126737,7 +128732,7 @@
       "drug_count": 1,
       "drugs": [
         {
-          "drug": "DOSTARLIMAB",
+          "drug": "Dostarlimab",
           "slug": "dostarlimab",
           "score": 50.0
         }
@@ -127057,7 +129052,7 @@
           "score": 98.85
         },
         {
-          "drug": "CEPHALEXIN",
+          "drug": "Cephalexin",
           "slug": "cephalexin",
           "score": 98.17
         },
@@ -127088,7 +129083,7 @@
           "score": 99.13
         },
         {
-          "drug": "CEFTRIAXONE",
+          "drug": "Ceftriaxone",
           "slug": "ceftriaxone",
           "score": 98.99
         },
@@ -127103,7 +129098,7 @@
           "score": 98.83
         },
         {
-          "drug": "CEPHALEXIN",
+          "drug": "Cephalexin",
           "slug": "cephalexin",
           "score": 98.52
         },
@@ -127152,7 +129147,7 @@
     },
     {
       "name": "migraine disorder",
-      "drug_count": 106,
+      "drug_count": 105,
       "drugs": [
         {
           "drug": "Cisatracurium",
@@ -127221,7 +129216,7 @@
           "score": 99.99
         },
         {
-          "drug": "ELETRIPTAN",
+          "drug": "Eletriptan",
           "slug": "eletriptan",
           "score": 99.99
         },
@@ -127343,7 +129338,7 @@
           "score": 99.86
         },
         {
-          "drug": "ETOMIDATE",
+          "drug": "Etomidate",
           "slug": "etomidate",
           "score": 98.29
         }
@@ -127582,7 +129577,7 @@
           "score": 99.61
         },
         {
-          "drug": "CEFUROXIME",
+          "drug": "Cefuroxime",
           "slug": "cefuroxime",
           "score": 99.57
         }
@@ -127946,7 +129941,7 @@
           "score": 99.63
         },
         {
-          "drug": "ENTACAPONE",
+          "drug": "Entacapone",
           "slug": "entacapone",
           "score": 99.63
         },
@@ -128022,7 +130017,7 @@
           "score": 98.64
         },
         {
-          "drug": "DYDROGESTERONE",
+          "drug": "Dydrogesterone",
           "slug": "dydrogesterone",
           "score": 91.63
         }
@@ -128178,7 +130173,7 @@
           "score": 99.1
         },
         {
-          "drug": "EBASTINE",
+          "drug": "Ebastine",
           "slug": "ebastine",
           "score": 99.1
         },
@@ -128781,7 +130776,7 @@
           "score": 99.0
         },
         {
-          "drug": "ERYTHROMYCIN",
+          "drug": "Erythromycin",
           "slug": "erythromycin",
           "score": 99.0
         }
@@ -128818,7 +130813,7 @@
           "score": 99.25
         },
         {
-          "drug": "CASPOFUNGIN",
+          "drug": "Caspofungin",
           "slug": "caspofungin",
           "score": 95.18
         },
@@ -129360,7 +131355,7 @@
     },
     {
       "name": "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter",
-      "drug_count": 63,
+      "drug_count": 62,
       "drugs": [
         {
           "drug": "Atazanavir",
@@ -129922,7 +131917,7 @@
           "score": 90.62
         },
         {
-          "drug": "DINOPROSTONE",
+          "drug": "Dinoprostone",
           "slug": "dinoprostone",
           "score": 90.62
         }
@@ -129948,7 +131943,7 @@
           "score": 99.04
         },
         {
-          "drug": "CEPHALEXIN",
+          "drug": "Cephalexin",
           "slug": "cephalexin",
           "score": 98.43
         },
@@ -130201,7 +132196,7 @@
           "score": 99.84
         },
         {
-          "drug": "DULOXETINE",
+          "drug": "Duloxetine",
           "slug": "duloxetine",
           "score": 99.84
         },
@@ -130221,7 +132216,7 @@
           "score": 98.36
         },
         {
-          "drug": "ESCITALOPRAM",
+          "drug": "Escitalopram",
           "slug": "escitalopram",
           "score": 98.36
         },
@@ -130350,7 +132345,7 @@
           "score": 61.34
         },
         {
-          "drug": "EPROSARTAN",
+          "drug": "Eprosartan",
           "slug": "eprosartan",
           "score": 61.34
         },
@@ -130537,7 +132532,7 @@
           "score": 99.96
         },
         {
-          "drug": "DRONEDARONE",
+          "drug": "Dronedarone",
           "slug": "dronedarone",
           "score": 99.96
         },
@@ -130749,7 +132744,7 @@
           "score": 63.04
         },
         {
-          "drug": "EPROSARTAN",
+          "drug": "Eprosartan",
           "slug": "eprosartan",
           "score": 63.04
         },
@@ -130827,7 +132822,7 @@
           "score": 99.7
         },
         {
-          "drug": "DORZOLAMIDE",
+          "drug": "Dorzolamide",
           "slug": "dorzolamide",
           "score": 99.7
         },
@@ -130865,7 +132860,7 @@
     },
     {
       "name": "open-angle glaucoma",
-      "drug_count": 37,
+      "drug_count": 36,
       "drugs": [
         {
           "drug": "TERLIPRESSIN",
@@ -130881,11 +132876,6 @@
           "drug": "VARENICLINE",
           "slug": "varenicline",
           "score": 99.55
-        },
-        {
-          "drug": "DOBUTAMINE",
-          "slug": "dobutamine",
-          "score": 99.47
         },
         {
           "drug": "Sennosides",
@@ -130916,6 +132906,11 @@
           "drug": "Enalapril",
           "slug": "db00584",
           "score": 98.21
+        },
+        {
+          "drug": "Atropine",
+          "slug": "atropine",
+          "score": 98.03
         }
       ]
     },
@@ -130995,7 +132990,7 @@
     },
     {
       "name": "opsismodysplasia",
-      "drug_count": 48,
+      "drug_count": 47,
       "drugs": [
         {
           "drug": "Vildagliptin",
@@ -131507,7 +133502,7 @@
           "score": 99.9
         },
         {
-          "drug": "DOXYCYCLINE",
+          "drug": "Doxycycline",
           "slug": "doxycycline",
           "score": 99.9
         },
@@ -131563,7 +133558,7 @@
           "score": 99.09
         },
         {
-          "drug": "CEFTRIAXONE",
+          "drug": "Ceftriaxone",
           "slug": "ceftriaxone",
           "score": 98.95
         },
@@ -131578,7 +133573,7 @@
           "score": 98.84
         },
         {
-          "drug": "CEPHALEXIN",
+          "drug": "Cephalexin",
           "slug": "cephalexin",
           "score": 98.47
         },
@@ -131736,7 +133731,7 @@
           "score": 98.44
         },
         {
-          "drug": "ESTRADIOL",
+          "drug": "Estradiol",
           "slug": "estradiol",
           "score": 98.44
         }
@@ -131933,7 +133928,7 @@
           "score": 98.58
         },
         {
-          "drug": "ESTRADIOL",
+          "drug": "Estradiol",
           "slug": "estradiol",
           "score": 98.58
         },
@@ -132025,7 +134020,7 @@
     },
     {
       "name": "pancreatic agenesis",
-      "drug_count": 47,
+      "drug_count": 46,
       "drugs": [
         {
           "drug": "Vildagliptin",
@@ -132282,7 +134277,7 @@
           "score": 99.6
         },
         {
-          "drug": "ENTACAPONE",
+          "drug": "Entacapone",
           "slug": "entacapone",
           "score": 99.6
         },
@@ -132363,7 +134358,7 @@
           "score": 99.76
         },
         {
-          "drug": "ETOPOSIDE",
+          "drug": "Etoposide",
           "slug": "etoposide",
           "score": 99.76
         },
@@ -132753,7 +134748,7 @@
           "score": 98.45
         },
         {
-          "drug": "ESTRADIOL",
+          "drug": "Estradiol",
           "slug": "estradiol",
           "score": 98.45
         }
@@ -132841,7 +134836,7 @@
           "score": 97.88
         },
         {
-          "drug": "DYDROGESTERONE",
+          "drug": "Dydrogesterone",
           "slug": "dydrogesterone",
           "score": 90.59
         }
@@ -132954,7 +134949,7 @@
           "score": 98.56
         },
         {
-          "drug": "ESTRADIOL",
+          "drug": "Estradiol",
           "slug": "estradiol",
           "score": 98.56
         },
@@ -132995,7 +134990,7 @@
           "score": 98.56
         },
         {
-          "drug": "ESTRADIOL",
+          "drug": "Estradiol",
           "slug": "estradiol",
           "score": 98.56
         },
@@ -133036,7 +135031,7 @@
           "score": 98.54
         },
         {
-          "drug": "ESTRADIOL",
+          "drug": "Estradiol",
           "slug": "estradiol",
           "score": 98.54
         },
@@ -133217,7 +135212,7 @@
           "score": 75.62
         },
         {
-          "drug": "ERDOSTEINE",
+          "drug": "Erdosteine",
           "slug": "erdosteine",
           "score": 75.62
         }
@@ -133701,7 +135696,7 @@
           "score": 99.8
         },
         {
-          "drug": "CETRORELIX",
+          "drug": "Cetrorelix",
           "slug": "cetrorelix",
           "score": 99.67
         },
@@ -134170,7 +136165,7 @@
           "score": 77.24
         },
         {
-          "drug": "ERDOSTEINE",
+          "drug": "Erdosteine",
           "slug": "erdosteine",
           "score": 77.24
         }
@@ -134298,7 +136293,7 @@
       "drug_count": 2,
       "drugs": [
         {
-          "drug": "CEFOTAXIME",
+          "drug": "Cefotaxime",
           "slug": "cefotaxime",
           "score": 96.73
         },
@@ -134456,7 +136451,7 @@
           "score": 99.5
         },
         {
-          "drug": "ETANERCEPT",
+          "drug": "Etanercept",
           "slug": "etanercept",
           "score": 99.5
         }
@@ -134841,7 +136836,7 @@
           "score": 98.36
         },
         {
-          "drug": "EBASTINE",
+          "drug": "Ebastine",
           "slug": "ebastine",
           "score": 98.36
         },
@@ -135098,7 +137093,7 @@
           "score": 99.89
         },
         {
-          "drug": "DOXYCYCLINE",
+          "drug": "Doxycycline",
           "slug": "doxycycline",
           "score": 99.89
         },
@@ -135170,7 +137165,7 @@
           "score": 99.89
         },
         {
-          "drug": "DOXYCYCLINE",
+          "drug": "Doxycycline",
           "slug": "doxycycline",
           "score": 99.89
         },
@@ -135340,7 +137335,7 @@
           "score": 99.89
         },
         {
-          "drug": "DOXYCYCLINE",
+          "drug": "Doxycycline",
           "slug": "doxycycline",
           "score": 99.89
         },
@@ -135798,7 +137793,7 @@
           "score": 99.64
         },
         {
-          "drug": "CEFUROXIME",
+          "drug": "Cefuroxime",
           "slug": "cefuroxime",
           "score": 99.6
         }
@@ -135806,7 +137801,7 @@
     },
     {
       "name": "pressure-induced localized lipoatrophy",
-      "drug_count": 45,
+      "drug_count": 44,
       "drugs": [
         {
           "drug": "Vildagliptin",
@@ -136031,7 +138026,7 @@
           "score": 96.12
         },
         {
-          "drug": "ELACESTRANT",
+          "drug": "Elacestrant",
           "slug": "elacestrant",
           "score": 84.71
         }
@@ -136050,7 +138045,7 @@
     },
     {
       "name": "primary hereditary glaucoma",
-      "drug_count": 62,
+      "drug_count": 61,
       "drugs": [
         {
           "drug": "Dorzolamide",
@@ -136058,7 +138053,7 @@
           "score": 99.99
         },
         {
-          "drug": "DORZOLAMIDE",
+          "drug": "Dorzolamide",
           "slug": "dorzolamide",
           "score": 99.99
         },
@@ -136311,7 +138306,7 @@
           "score": 99.94
         },
         {
-          "drug": "ETOPOSIDE",
+          "drug": "Etoposide",
           "slug": "etoposide",
           "score": 99.94
         },
@@ -136698,7 +138693,7 @@
           "score": 99.04
         },
         {
-          "drug": "ENTACAPONE",
+          "drug": "Entacapone",
           "slug": "entacapone",
           "score": 99.04
         },
@@ -136828,7 +138823,7 @@
           "score": 99.71
         },
         {
-          "drug": "ENZALUTAMIDE",
+          "drug": "Enzalutamide",
           "slug": "enzalutamide",
           "score": 99.71
         },
@@ -136874,7 +138869,7 @@
           "score": 99.74
         },
         {
-          "drug": "ETOPOSIDE",
+          "drug": "Etoposide",
           "slug": "etoposide",
           "score": 99.74
         },
@@ -136910,7 +138905,7 @@
           "score": 99.57
         },
         {
-          "drug": "ENZALUTAMIDE",
+          "drug": "Enzalutamide",
           "slug": "enzalutamide",
           "score": 99.57
         },
@@ -136936,7 +138931,7 @@
           "score": 98.37
         },
         {
-          "drug": "ENZALUTAMIDE",
+          "drug": "Enzalutamide",
           "slug": "enzalutamide",
           "score": 98.37
         }
@@ -136952,7 +138947,7 @@
           "score": 98.37
         },
         {
-          "drug": "ENZALUTAMIDE",
+          "drug": "Enzalutamide",
           "slug": "enzalutamide",
           "score": 98.37
         },
@@ -136970,7 +138965,7 @@
     },
     {
       "name": "prostatic urethra urothelial carcinoma",
-      "drug_count": 9,
+      "drug_count": 8,
       "drugs": [
         {
           "drug": "Atezolizumab",
@@ -136985,11 +138980,6 @@
         {
           "drug": "DURVALUMAB",
           "slug": "db11714",
-          "score": 99.98
-        },
-        {
-          "drug": "DURVALUMAB",
-          "slug": "durvalumab",
           "score": 99.98
         },
         {
@@ -137245,7 +139235,7 @@
           "score": 97.32
         },
         {
-          "drug": "EPINEPHRINE",
+          "drug": "Epinephrine",
           "slug": "epinephrine",
           "score": 97.32
         }
@@ -137797,7 +139787,7 @@
           "score": 99.94
         },
         {
-          "drug": "ETOPOSIDE",
+          "drug": "Etoposide",
           "slug": "etoposide",
           "score": 99.94
         },
@@ -138105,7 +140095,7 @@
           "score": 99.84
         },
         {
-          "drug": "CERITINIB",
+          "drug": "Ceritinib",
           "slug": "ceritinib",
           "score": 99.8
         },
@@ -138177,7 +140167,7 @@
           "score": 99.94
         },
         {
-          "drug": "DOXYCYCLINE",
+          "drug": "Doxycycline",
           "slug": "doxycycline",
           "score": 99.94
         },
@@ -138255,7 +140245,7 @@
           "score": 88.69
         },
         {
-          "drug": "DINOPROSTONE",
+          "drug": "Dinoprostone",
           "slug": "dinoprostone",
           "score": 88.69
         },
@@ -138317,7 +140307,7 @@
           "score": 99.32
         },
         {
-          "drug": "ETHINYLESTRADIOL",
+          "drug": "Ethinylestradiol",
           "slug": "ethinylestradiol",
           "score": 97.55
         },
@@ -138332,7 +140322,7 @@
           "score": 93.18
         },
         {
-          "drug": "DROSPIRENONE",
+          "drug": "Drospirenone",
           "slug": "drospirenone",
           "score": 93.18
         },
@@ -138466,7 +140456,7 @@
           "score": 92.67
         },
         {
-          "drug": "DROSPIRENONE",
+          "drug": "Drospirenone",
           "slug": "drospirenone",
           "score": 92.67
         }
@@ -138776,7 +140766,7 @@
           "score": 98.2
         },
         {
-          "drug": "DYDROGESTERONE",
+          "drug": "Dydrogesterone",
           "slug": "dydrogesterone",
           "score": 91.24
         }
@@ -139146,7 +141136,7 @@
     },
     {
       "name": "renal pelvis papillary urothelial carcinoma",
-      "drug_count": 5,
+      "drug_count": 4,
       "drugs": [
         {
           "drug": "Atezolizumab",
@@ -139161,11 +141151,6 @@
         {
           "drug": "DURVALUMAB",
           "slug": "db11714",
-          "score": 99.98
-        },
-        {
-          "drug": "DURVALUMAB",
-          "slug": "durvalumab",
           "score": 99.98
         },
         {
@@ -139312,7 +141297,7 @@
           "score": 95.64
         },
         {
-          "drug": "DOMPERIDONE",
+          "drug": "Domperidone",
           "slug": "domperidone",
           "score": 95.64
         },
@@ -139373,7 +141358,7 @@
           "score": 81.9
         },
         {
-          "drug": "ERAVACYCLINE",
+          "drug": "Eravacycline",
           "slug": "eravacycline",
           "score": 77.46
         }
@@ -139389,7 +141374,7 @@
           "score": 99.27
         },
         {
-          "drug": "DORZOLAMIDE",
+          "drug": "Dorzolamide",
           "slug": "dorzolamide",
           "score": 99.27
         },
@@ -139502,7 +141487,7 @@
           "score": 74.95
         },
         {
-          "drug": "ERDOSTEINE",
+          "drug": "Erdosteine",
           "slug": "erdosteine",
           "score": 74.95
         }
@@ -139918,7 +141903,7 @@
           "score": 99.79
         },
         {
-          "drug": "ETOPOSIDE",
+          "drug": "Etoposide",
           "slug": "etoposide",
           "score": 99.79
         },
@@ -140040,7 +142025,7 @@
           "score": 99.84
         },
         {
-          "drug": "CELECOXIB",
+          "drug": "Celecoxib",
           "slug": "celecoxib",
           "score": 99.82
         },
@@ -140091,7 +142076,7 @@
           "score": 99.84
         },
         {
-          "drug": "CELECOXIB",
+          "drug": "Celecoxib",
           "slug": "celecoxib",
           "score": 99.83
         },
@@ -140137,7 +142122,7 @@
           "score": 99.98
         },
         {
-          "drug": "CELECOXIB",
+          "drug": "Celecoxib",
           "slug": "celecoxib",
           "score": 99.85
         },
@@ -140172,7 +142157,7 @@
           "score": 99.71
         },
         {
-          "drug": "ETANERCEPT",
+          "drug": "Etanercept",
           "slug": "etanercept",
           "score": 99.71
         }
@@ -140420,7 +142405,7 @@
           "score": 99.43
         },
         {
-          "drug": "DRONEDARONE",
+          "drug": "Dronedarone",
           "slug": "dronedarone",
           "score": 99.43
         }
@@ -140773,7 +142758,7 @@
           "score": 99.03
         },
         {
-          "drug": "ELETRIPTAN",
+          "drug": "Eletriptan",
           "slug": "eletriptan",
           "score": 99.03
         },
@@ -140937,7 +142922,7 @@
       "drug_count": 2,
       "drugs": [
         {
-          "drug": "ETHINYLESTRADIOL",
+          "drug": "Ethinylestradiol",
           "slug": "ethinylestradiol",
           "score": 95.24
         },
@@ -141460,7 +143445,7 @@
           "score": 97.56
         },
         {
-          "drug": "DYDROGESTERONE",
+          "drug": "Dydrogesterone",
           "slug": "dydrogesterone",
           "score": 89.81
         }
@@ -141573,7 +143558,7 @@
           "score": 99.86
         },
         {
-          "drug": "ETOMIDATE",
+          "drug": "Etomidate",
           "slug": "etomidate",
           "score": 98.27
         }
@@ -141615,7 +143600,7 @@
           "score": 99.63
         },
         {
-          "drug": "DRONEDARONE",
+          "drug": "Dronedarone",
           "slug": "dronedarone",
           "score": 99.63
         }
@@ -141753,7 +143738,7 @@
     },
     {
       "name": "signet ring cell variant cervical mucinous adenocarcinoma",
-      "drug_count": 5,
+      "drug_count": 4,
       "drugs": [
         {
           "drug": "RAMUCIRUMAB",
@@ -141774,17 +143759,12 @@
           "drug": "DURVALUMAB",
           "slug": "db11714",
           "score": 99.9
-        },
-        {
-          "drug": "DURVALUMAB",
-          "slug": "durvalumab",
-          "score": 99.9
         }
       ]
     },
     {
       "name": "simian immunodeficiency virus infection",
-      "drug_count": 63,
+      "drug_count": 62,
       "drugs": [
         {
           "drug": "Atazanavir",
@@ -142688,7 +144668,7 @@
           "score": 99.97
         },
         {
-          "drug": "DRONEDARONE",
+          "drug": "Dronedarone",
           "slug": "dronedarone",
           "score": 99.97
         },
@@ -142941,7 +144921,7 @@
           "score": 95.59
         },
         {
-          "drug": "ENCORAFENIB",
+          "drug": "Encorafenib",
           "slug": "encorafenib",
           "score": 95.59
         }
@@ -142978,7 +144958,7 @@
           "score": 99.92
         },
         {
-          "drug": "CEFUROXIME",
+          "drug": "Cefuroxime",
           "slug": "cefuroxime",
           "score": 99.56
         },
@@ -142993,7 +144973,7 @@
           "score": 99.13
         },
         {
-          "drug": "CEFTRIAXONE",
+          "drug": "Ceftriaxone",
           "slug": "ceftriaxone",
           "score": 99.02
         },
@@ -143003,7 +144983,7 @@
           "score": 99.02
         },
         {
-          "drug": "CEPHALEXIN",
+          "drug": "Cephalexin",
           "slug": "cephalexin",
           "score": 98.53
         },
@@ -143118,7 +145098,7 @@
           "score": 98.76
         },
         {
-          "drug": "ESTRADIOL",
+          "drug": "Estradiol",
           "slug": "estradiol",
           "score": 98.76
         },
@@ -143180,7 +145160,7 @@
           "score": 100.0
         },
         {
-          "drug": "DUTASTERIDE",
+          "drug": "Dutasteride",
           "slug": "dutasteride",
           "score": 100.0
         },
@@ -143510,7 +145490,7 @@
           "score": 50.0
         },
         {
-          "drug": "DOSTARLIMAB",
+          "drug": "Dostarlimab",
           "slug": "dostarlimab",
           "score": 50.0
         }
@@ -143852,7 +145832,7 @@
     },
     {
       "name": "thiamine-responsive dysfunction syndrome",
-      "drug_count": 48,
+      "drug_count": 47,
       "drugs": [
         {
           "drug": "Vildagliptin",
@@ -144075,7 +146055,7 @@
           "score": 84.52
         },
         {
-          "drug": "ERDOSTEINE",
+          "drug": "Erdosteine",
           "slug": "erdosteine",
           "score": 84.52
         }
@@ -144348,7 +146328,7 @@
           "score": 92.76
         },
         {
-          "drug": "DROSPIRENONE",
+          "drug": "Drospirenone",
           "slug": "drospirenone",
           "score": 92.76
         }
@@ -144626,7 +146606,7 @@
           "score": 93.53
         },
         {
-          "drug": "DROSPIRENONE",
+          "drug": "Drospirenone",
           "slug": "drospirenone",
           "score": 93.53
         }
@@ -144838,7 +146818,7 @@
           "score": 99.43
         },
         {
-          "drug": "ENTACAPONE",
+          "drug": "Entacapone",
           "slug": "entacapone",
           "score": 99.43
         },
@@ -144945,7 +146925,7 @@
           "score": 83.75
         },
         {
-          "drug": "ERDOSTEINE",
+          "drug": "Erdosteine",
           "slug": "erdosteine",
           "score": 83.75
         }
@@ -145828,7 +147808,7 @@
           "score": 99.89
         },
         {
-          "drug": "ELETRIPTAN",
+          "drug": "Eletriptan",
           "slug": "eletriptan",
           "score": 99.89
         },
@@ -145945,7 +147925,7 @@
           "score": 98.1
         },
         {
-          "drug": "DYDROGESTERONE",
+          "drug": "Dydrogesterone",
           "slug": "dydrogesterone",
           "score": 91.22
         },
@@ -146179,7 +148159,7 @@
           "score": 99.91
         },
         {
-          "drug": "CEFUROXIME",
+          "drug": "Cefuroxime",
           "slug": "cefuroxime",
           "score": 99.62
         },
@@ -146194,7 +148174,7 @@
           "score": 99.52
         },
         {
-          "drug": "CEFTAZIDIME",
+          "drug": "Ceftazidime",
           "slug": "ceftazidime",
           "score": 99.41
         },
@@ -146456,7 +148436,7 @@
           "score": 98.7
         },
         {
-          "drug": "CEFACLOR",
+          "drug": "Cefaclor",
           "slug": "cefaclor",
           "score": 96.85
         },
@@ -146479,7 +148459,7 @@
     },
     {
       "name": "uterine ligament adenocarcinoma",
-      "drug_count": 5,
+      "drug_count": 4,
       "drugs": [
         {
           "drug": "RAMUCIRUMAB",
@@ -146499,11 +148479,6 @@
         {
           "drug": "DURVALUMAB",
           "slug": "db11714",
-          "score": 99.92
-        },
-        {
-          "drug": "DURVALUMAB",
-          "slug": "durvalumab",
           "score": 99.92
         }
       ]
@@ -146543,7 +148518,7 @@
     },
     {
       "name": "uterine ligament serous adenocarcinoma",
-      "drug_count": 5,
+      "drug_count": 4,
       "drugs": [
         {
           "drug": "RAMUCIRUMAB",
@@ -146563,11 +148538,6 @@
         {
           "drug": "DURVALUMAB",
           "slug": "db11714",
-          "score": 99.91
-        },
-        {
-          "drug": "DURVALUMAB",
-          "slug": "durvalumab",
           "score": 99.91
         }
       ]
@@ -146617,7 +148587,7 @@
           "score": 98.35
         },
         {
-          "drug": "EBASTINE",
+          "drug": "Ebastine",
           "slug": "ebastine",
           "score": 98.35
         },
@@ -147068,7 +149038,7 @@
           "score": 99.16
         },
         {
-          "drug": "ETANERCEPT",
+          "drug": "Etanercept",
           "slug": "etanercept",
           "score": 99.16
         },
@@ -147802,7 +149772,7 @@
           "score": 99.94
         },
         {
-          "drug": "ETOPOSIDE",
+          "drug": "Etoposide",
           "slug": "etoposide",
           "score": 99.94
         },
@@ -147914,7 +149884,7 @@
           "score": 98.67
         },
         {
-          "drug": "CEFACLOR",
+          "drug": "Cefaclor",
           "slug": "cefaclor",
           "score": 96.72
         },
@@ -147951,7 +149921,7 @@
       "drug_count": 13,
       "drugs": [
         {
-          "drug": "ETHINYLESTRADIOL",
+          "drug": "Ethinylestradiol",
           "slug": "ethinylestradiol",
           "score": 99.63
         },
@@ -147976,7 +149946,7 @@
           "score": 98.74
         },
         {
-          "drug": "DROSPIRENONE",
+          "drug": "Drospirenone",
           "slug": "drospirenone",
           "score": 98.74
         },
