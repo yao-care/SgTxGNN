@@ -19,7 +19,7 @@ permalink: /news/copd/
 
 ### [More pregnant women taking respiratory virus vaccine, but uptake still low](https://www.channelnewsasia.com/singapore/rsv-respiratory-virus-infant-pregnant-women-vaccine-6091006)
 
-2026-06-15
+2026-06-16
 
 Source: [CNA](https://www.channelnewsasia.com/singapore/rsv-respiratory-virus-infant-pregnant-women-vaccine-6091006)
 
