@@ -13,7 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**9 articles** related to arthritis.
+**10 articles** related to arthritis.
 
 ---
 
@@ -38,6 +38,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/ultrasound
 2026-06-19
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/toddlers-rare-diagnosis-gives-family-answers-about-her-developmental-delays)
+
+---
+
+### [3 friends raise over $44,000 for cancer research by running relay for 10 days in China](https://www.straitstimes.com/singapore/health/3-friends-raise-over-44000-for-cancer-research-by-running-relay-for-10-days-in-china)
+
+2026-06-19
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/3-friends-raise-over-44000-for-cancer-research-by-running-relay-for-10-days-in-china)
 
 ---
 
