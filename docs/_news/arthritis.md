@@ -13,7 +13,47 @@ permalink: /news/arthritis/
 
 ---
 
-**6 articles** related to arthritis.
+**11 articles** related to arthritis.
+
+---
+
+### [KTPH surgeons develop new surgical approach to treat frequent shoulder dislocation](https://www.straitstimes.com/singapore/health/surgeons-at-ktph-develop-new-surgical-approach-to-treat-frequent-shoulder-dislocation)
+
+2026-06-20
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/surgeons-at-ktph-develop-new-surgical-approach-to-treat-frequent-shoulder-dislocation)
+
+---
+
+### [Ultrasound procedure for liver cancer saves grandfather’s place on transplant waiting list](https://www.straitstimes.com/singapore/health/ultrasound-procedure-for-liver-cancer-keeps-grandfather-on-transplant-waiting-list)
+
+2026-06-20
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/ultrasound-procedure-for-liver-cancer-keeps-grandfather-on-transplant-waiting-list)
+
+---
+
+### [Toddler’s rare diagnosis gives family answers to her developmental delays](https://www.straitstimes.com/singapore/health/toddlers-rare-diagnosis-gives-family-answers-about-her-developmental-delays)
+
+2026-06-20
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/toddlers-rare-diagnosis-gives-family-answers-about-her-developmental-delays)
+
+---
+
+### [3 friends raise over $44,000 for cancer research by running relay for 10 days in China](https://www.straitstimes.com/singapore/health/3-friends-raise-over-44000-for-cancer-research-by-running-relay-for-10-days-in-china)
+
+2026-06-20
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/3-friends-raise-over-44000-for-cancer-research-by-running-relay-for-10-days-in-china)
+
+---
+
+### [Wired for relief: Man gets electrical pulses in spine to block pain from rare, debilitating condition](https://www.straitstimes.com/singapore/health/wired-for-relief-man-gets-electrical-pulses-in-spine-to-block-pain-from-rare-debilitating-condition)
+
+2026-06-20
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/wired-for-relief-man-gets-electrical-pulses-in-spine-to-block-pain-from-rare-debilitating-condition)
 
 ---
 
