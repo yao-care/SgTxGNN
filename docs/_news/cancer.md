@@ -13,7 +13,23 @@ permalink: /news/cancer/
 
 ---
 
-**2 articles** related to cancer.
+**4 articles** related to cancer.
+
+---
+
+### [Ultrasound procedure for liver cancer saves grandfather’s place on transplant waiting list](https://www.straitstimes.com/singapore/health/ultrasound-procedure-for-liver-cancer-keeps-grandfather-on-transplant-waiting-list)
+
+2026-06-20
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/ultrasound-procedure-for-liver-cancer-keeps-grandfather-on-transplant-waiting-list)
+
+---
+
+### [3 friends raise over $44,000 for cancer research by running relay for 10 days in China](https://www.straitstimes.com/singapore/health/3-friends-raise-over-44000-for-cancer-research-by-running-relay-for-10-days-in-china)
+
+2026-06-20
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/3-friends-raise-over-44000-for-cancer-research-by-running-relay-for-10-days-in-china)
 
 ---
 
