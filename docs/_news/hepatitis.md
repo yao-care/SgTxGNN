@@ -19,7 +19,7 @@ permalink: /news/hepatitis/
 
 ### [The proof is in the poo: S’pore study links gut health to fatty liver disease](https://www.straitstimes.com/singapore/health/the-proof-is-in-the-poo-spore-study-links-gut-health-to-fatty-liver-disease)
 
-2026-06-22
+2026-06-23
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/the-proof-is-in-the-poo-spore-study-links-gut-health-to-fatty-liver-disease)
 
