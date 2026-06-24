@@ -19,7 +19,7 @@ permalink: /news/cancer/
 
 ### [3 friends raise over $44,000 for cancer research by running relay for 10 days in China](https://www.straitstimes.com/singapore/health/3-friends-raise-over-44000-for-cancer-research-by-running-relay-for-10-days-in-china)
 
-2026-06-23
+2026-06-24
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/3-friends-raise-over-44000-for-cancer-research-by-running-relay-for-10-days-in-china)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/3-friends-
 
 ### [She lost her womb to cancer at 32 – now she helps younger people with cancer navigate recovery and work](https://www.channelnewsasia.com/women/cancer-support-group-singapore-young-patients-6129861)
 
-2026-06-23
+2026-06-24
 
 Source: [CNA](https://www.channelnewsasia.com/women/cancer-support-group-singapore-young-patients-6129861)
 
@@ -35,7 +35,7 @@ Source: [CNA](https://www.channelnewsasia.com/women/cancer-support-group-singapo
 
 ### [GLP-1 drugs, including Ozempic, may have a beneficial effect across many types of cancer](https://www.channelnewsasia.com/wellness/glp1-drugs-ozempic-cancer-risk-survival-study-6159511)
 
-2026-06-23
+2026-06-24
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/glp1-drugs-ozempic-cancer-risk-survival-study-6159511)
 
