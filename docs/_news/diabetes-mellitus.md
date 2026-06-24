@@ -19,7 +19,7 @@ permalink: /news/diabetes-mellitus/
 
 ### [Digital coaching, constant glucose monitoring improve health of people at risk of diabetes: HPB](https://www.straitstimes.com/singapore/health/digital-coaching-constant-glucose-monitoring-improve-health-of-people-at-risk-of-diabetes-hpb)
 
-2026-06-23
+2026-06-24
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/digital-coaching-constant-glucose-monitoring-improve-health-of-people-at-risk-of-diabetes-hpb)
 
