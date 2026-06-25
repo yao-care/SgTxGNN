@@ -13,7 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**9 articles** related to arthritis.
+**10 articles** related to arthritis.
 
 ---
 
@@ -38,6 +38,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/wired-for-
 2026-06-25
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/digital-coaching-constant-glucose-monitoring-improve-health-of-people-at-risk-of-diabetes-hpb)
+
+---
+
+### [Empower nurses to be architects of care in S’pore: Rahayu](https://www.straitstimes.com/singapore/health/empowering-nurses-to-be-architects-of-care-in-spore)
+
+2026-06-25
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/empowering-nurses-to-be-architects-of-care-in-spore)
 
 ---
 
