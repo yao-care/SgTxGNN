@@ -13,15 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**10 articles** related to arthritis.
-
----
-
-### [Toddler’s rare diagnosis gives family answers to her developmental delays](https://www.straitstimes.com/singapore/health/toddlers-rare-diagnosis-gives-family-answers-about-her-developmental-delays)
-
-2026-06-25
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/toddlers-rare-diagnosis-gives-family-answers-about-her-developmental-delays)
+**9 articles** related to arthritis.
 
 ---
 
