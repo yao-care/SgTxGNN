@@ -19,7 +19,7 @@ permalink: /news/multiple-sclerosis/
 
 ### [Could a blood test predict if you’ll get Alzheimer’s years before symptoms appear?](https://www.channelnewsasia.com/wellness/alzheimers-blood-tests-6171616)
 
-2026-06-24
+2026-06-25
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/alzheimers-blood-tests-6171616)
 
