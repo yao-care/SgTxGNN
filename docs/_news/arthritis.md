@@ -13,7 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**10 articles** related to arthritis.
+**11 articles** related to arthritis.
 
 ---
 
@@ -46,6 +46,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/digital-co
 2026-06-27
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/empowering-nurses-to-be-architects-of-care-in-spore)
+
+---
+
+### [Two brothers diagnosed with Sanfilippo syndrome, a rare disorder dubbed ‘childhood dementia’](https://www.straitstimes.com/singapore/health/two-brothers-with-sanfilippo-syndrome-a-rare-and-brutal-disorder-dubbed-childhood-dementia)
+
+2026-06-27
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/two-brothers-with-sanfilippo-syndrome-a-rare-and-brutal-disorder-dubbed-childhood-dementia)
 
 ---
 
