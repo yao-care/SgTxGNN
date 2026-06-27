@@ -13,7 +13,15 @@ permalink: /news/alzheimer-disease/
 
 ---
 
-**2 articles** related to alzheimer disease.
+**3 articles** related to alzheimer disease.
+
+---
+
+### [Two brothers diagnosed with Sanfilippo syndrome, a rare disorder dubbed ‘childhood dementia’](https://www.straitstimes.com/singapore/health/two-brothers-with-sanfilippo-syndrome-a-rare-and-brutal-disorder-dubbed-childhood-dementia)
+
+2026-06-27
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/two-brothers-with-sanfilippo-syndrome-a-rare-and-brutal-disorder-dubbed-childhood-dementia)
 
 ---
 
