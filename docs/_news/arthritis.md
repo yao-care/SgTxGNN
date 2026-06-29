@@ -17,14 +17,6 @@ permalink: /news/arthritis/
 
 ---
 
-### [3 friends raise over $44,000 for cancer research by running relay for 10 days in China](https://www.straitstimes.com/singapore/health/3-friends-raise-over-44000-for-cancer-research-by-running-relay-for-10-days-in-china)
-
-2026-06-29
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/3-friends-raise-over-44000-for-cancer-research-by-running-relay-for-10-days-in-china)
-
----
-
 ### [Wired for relief: Man gets electrical pulses in spine to block pain from rare, debilitating condition](https://www.straitstimes.com/singapore/health/wired-for-relief-man-gets-electrical-pulses-in-spine-to-block-pain-from-rare-debilitating-condition)
 
 2026-06-29
@@ -54,6 +46,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/empowering
 2026-06-29
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/two-brothers-with-sanfilippo-syndrome-a-rare-and-brutal-disorder-dubbed-childhood-dementia)
+
+---
+
+### [55 central kitchens, food caterers, restaurants involved in food poisoning outbreaks in 2024/25: CDA](https://www.straitstimes.com/singapore/health/55-central-kitchens-food-caterers-restaurants-involved-in-food-poisoning-outbreaks-in-202425-cda)
+
+2026-06-29
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/55-central-kitchens-food-caterers-restaurants-involved-in-food-poisoning-outbreaks-in-202425-cda)
 
 ---
 
