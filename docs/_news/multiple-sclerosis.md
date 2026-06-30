@@ -13,15 +13,7 @@ permalink: /news/multiple-sclerosis/
 
 ---
 
-**2 articles** related to multiple sclerosis.
-
----
-
-### [Why three doctors who paid themselves low salaries to dodge taxes failed to convince the courts](https://www.todayonline.com/singapore/doctors-iras-income-tax-avoidance-evasion-6207676)
-
-2026-06-30
-
-Source: [TODAY](https://www.todayonline.com/singapore/doctors-iras-income-tax-avoidance-evasion-6207676)
+**1 articles** related to multiple sclerosis.
 
 ---
 
