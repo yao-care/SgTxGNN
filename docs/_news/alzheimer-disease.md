@@ -13,15 +13,31 @@ permalink: /news/alzheimer-disease/
 
 ---
 
-**1 articles** related to alzheimer disease.
+**3 articles** related to alzheimer disease.
 
 ---
 
 ### [Two brothers diagnosed with Sanfilippo syndrome, a rare disorder dubbed ‘childhood dementia’](https://www.straitstimes.com/singapore/health/two-brothers-with-sanfilippo-syndrome-a-rare-and-brutal-disorder-dubbed-childhood-dementia)
 
-2026-06-29
+2026-06-30
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/two-brothers-with-sanfilippo-syndrome-a-rare-and-brutal-disorder-dubbed-childhood-dementia)
+
+---
+
+### [4 types of drugs that may increase your dementia risk](https://www.channelnewsasia.com/wellness/medications-dementia-risk-increase-6076966)
+
+2026-06-30
+
+Source: [CNA](https://www.channelnewsasia.com/wellness/medications-dementia-risk-increase-6076966)
+
+---
+
+### [6 common medications that may lower your dementia risk](https://www.channelnewsasia.com/wellness/medications-dementia-risk-decrease-6069041)
+
+2026-06-30
+
+Source: [CNA](https://www.channelnewsasia.com/wellness/medications-dementia-risk-decrease-6069041)
 
 ---
 
