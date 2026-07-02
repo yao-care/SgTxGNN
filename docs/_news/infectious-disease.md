@@ -19,7 +19,7 @@ permalink: /news/infectious-disease/
 
 ### [‘Diseases, unfortunately, do not sleep’: How CDA is using AI to lead S’pore’s infectious diseases fight](https://www.straitstimes.com/singapore/health/diseases-unfortunately-do-not-sleep-how-cda-is-using-ai-to-lead-spores-infectious-diseases-fight)
 
-2026-07-01
+2026-07-02
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/diseases-unfortunately-do-not-sleep-how-cda-is-using-ai-to-lead-spores-infectious-diseases-fight)
 
