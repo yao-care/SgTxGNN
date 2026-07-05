@@ -13,13 +13,13 @@ permalink: /news/arthritis/
 
 ---
 
-**10 articles** related to arthritis.
+**11 articles** related to arthritis.
 
 ---
 
 ### [Digital coaching, constant glucose monitoring improve health of people at risk of diabetes: HPB](https://www.straitstimes.com/singapore/health/digital-coaching-constant-glucose-monitoring-improve-health-of-people-at-risk-of-diabetes-hpb)
 
-2026-07-04
+2026-07-05
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/digital-coaching-constant-glucose-monitoring-improve-health-of-people-at-risk-of-diabetes-hpb)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/digital-co
 
 ### [Empower nurses to be architects of care in S’pore: Rahayu](https://www.straitstimes.com/singapore/health/empowering-nurses-to-be-architects-of-care-in-spore)
 
-2026-07-04
+2026-07-05
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/empowering-nurses-to-be-architects-of-care-in-spore)
 
@@ -35,7 +35,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/empowering
 
 ### [Two brothers diagnosed with Sanfilippo syndrome, a rare disorder dubbed ‘childhood dementia’](https://www.straitstimes.com/singapore/health/two-brothers-with-sanfilippo-syndrome-a-rare-and-brutal-disorder-dubbed-childhood-dementia)
 
-2026-07-04
+2026-07-05
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/two-brothers-with-sanfilippo-syndrome-a-rare-and-brutal-disorder-dubbed-childhood-dementia)
 
@@ -43,23 +43,15 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/two-brothe
 
 ### [55 central kitchens, food caterers, restaurants involved in food poisoning outbreaks in past 2 years](https://www.straitstimes.com/singapore/health/55-central-kitchens-food-caterers-restaurants-involved-in-food-poisoning-outbreaks-in-202425-cda)
 
-2026-07-04
+2026-07-05
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/55-central-kitchens-food-caterers-restaurants-involved-in-food-poisoning-outbreaks-in-202425-cda)
 
 ---
 
-### [How do I prevent falls at home? Practical ways to stay safe indoors](https://www.channelnewsasia.com/wellness/fall-prevention-6071631)
-
-2026-07-04
-
-Source: [CNA](https://www.channelnewsasia.com/wellness/fall-prevention-6071631)
-
----
-
 ### [Land of Smiles - and mandatory travel insurance? Thailand’s proposed move for tourists stirs debate](https://www.channelnewsasia.com/asia/thailand-travel-insurance-compulsory-policy-6097621)
 
-2026-07-04
+2026-07-05
 
 Source: [CNA](https://www.channelnewsasia.com/asia/thailand-travel-insurance-compulsory-policy-6097621)
 
@@ -67,7 +59,7 @@ Source: [CNA](https://www.channelnewsasia.com/asia/thailand-travel-insurance-com
 
 ### [The high protein craze: Fad or fixture in the Singaporean diet?](https://www.channelnewsasia.com/today/big-read/high-protein-craze-supermarket-food-nutrition-diet-health-6106716)
 
-2026-07-04
+2026-07-05
 
 Source: [CNA](https://www.channelnewsasia.com/today/big-read/high-protein-craze-supermarket-food-nutrition-diet-health-6106716)
 
@@ -75,7 +67,7 @@ Source: [CNA](https://www.channelnewsasia.com/today/big-read/high-protein-craze-
 
 ### [More pregnant women taking respiratory virus vaccine, but uptake still low](https://www.channelnewsasia.com/singapore/rsv-respiratory-virus-infant-pregnant-women-vaccine-6091006)
 
-2026-07-04
+2026-07-05
 
 Source: [CNA](https://www.channelnewsasia.com/singapore/rsv-respiratory-virus-infant-pregnant-women-vaccine-6091006)
 
@@ -83,7 +75,7 @@ Source: [CNA](https://www.channelnewsasia.com/singapore/rsv-respiratory-virus-in
 
 ### [Feeling foggy and tired? Your gut health may be affecting your brain](https://www.channelnewsasia.com/wellness/gut-brain-fog-health-6110251)
 
-2026-07-04
+2026-07-05
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/gut-brain-fog-health-6110251)
 
@@ -91,9 +83,25 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/gut-brain-fog-health-6110
 
 ### [What does being frail actually mean? And how do you know if you are at risk?](https://www.channelnewsasia.com/wellness/frailty-aging-6114366)
 
-2026-07-04
+2026-07-05
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/frailty-aging-6114366)
+
+---
+
+### [Commentary: AI can be a personal trainer in your pocket - but is it safe?](https://www.channelnewsasia.com/commentary/ai-personal-trainer-fitness-programme-health-6230166)
+
+2026-07-05
+
+Source: [CNA](https://www.channelnewsasia.com/commentary/ai-personal-trainer-fitness-programme-health-6230166)
+
+---
+
+### [Your wearable tracks countless health metrics, but which ones are worth paying attention to?](https://www.channelnewsasia.com/wellness/health-wearables-doctors-rfk-apple-watch-6210331)
+
+2026-07-05
+
+Source: [CNA](https://www.channelnewsasia.com/wellness/health-wearables-doctors-rfk-apple-watch-6210331)
 
 ---
 
