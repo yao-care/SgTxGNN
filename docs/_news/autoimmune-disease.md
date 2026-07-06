@@ -1,27 +1,19 @@
 ---
 layout: default
-title: "multiple sclerosis News"
+title: "autoimmune disease News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to multiple sclerosis"
-permalink: /news/multiple-sclerosis/
+description: "Health news related to autoimmune disease"
+permalink: /news/autoimmune-disease/
 ---
 
-# multiple sclerosis Related News
+# autoimmune disease Related News
 
 [← Back to News Overview]({{ '/news/' | relative_url }})
 
 ---
 
-**2 articles** related to multiple sclerosis.
-
----
-
-### [Could a blood test predict if you’ll get Alzheimer’s years before symptoms appear?](https://www.channelnewsasia.com/wellness/alzheimers-blood-tests-6171616)
-
-2026-07-06
-
-Source: [CNA](https://www.channelnewsasia.com/wellness/alzheimers-blood-tests-6171616)
+**1 articles** related to autoimmune disease.
 
 ---
 

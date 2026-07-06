@@ -13,7 +13,7 @@ permalink: /news/alzheimer-disease/
 
 ---
 
-**2 articles** related to alzheimer disease.
+**1 articles** related to alzheimer disease.
 
 ---
 
@@ -22,14 +22,6 @@ permalink: /news/alzheimer-disease/
 2026-07-06
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/two-brothers-with-sanfilippo-syndrome-a-rare-and-brutal-disorder-dubbed-childhood-dementia)
-
----
-
-### [6 common medications that may lower your dementia risk](https://www.channelnewsasia.com/wellness/medications-dementia-risk-decrease-6069041)
-
-2026-07-06
-
-Source: [CNA](https://www.channelnewsasia.com/wellness/medications-dementia-risk-decrease-6069041)
 
 ---
 
