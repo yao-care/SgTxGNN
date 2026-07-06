@@ -13,7 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**11 articles** related to arthritis.
+**12 articles** related to arthritis.
 
 ---
 
@@ -46,6 +46,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/55-central
 2026-07-06
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/more-physiotherapists-opting-to-work-in-private-healthcare-can-public-sector-keep-up)
+
+---
+
+### [Workgroup set up to train palliative care nurses, upskilling target exceeds 2030 goal: Ong Ye Kung](https://www.straitstimes.com/singapore/health/workgroup-set-up-to-train-palliative-care-nurses-upskilling-target-exceeds-2030-goal-ong-ye-kung)
+
+2026-07-06
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/workgroup-set-up-to-train-palliative-care-nurses-upskilling-target-exceeds-2030-goal-ong-ye-kung)
 
 ---
 
