@@ -49,7 +49,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/more-physi
 
 ---
 
-### [Workgroup set up to train palliative care nurses, upskilling target exceeds 2030 goal: Ong Ye Kung](https://www.straitstimes.com/singapore/health/workgroup-set-up-to-train-palliative-care-nurses-upskilling-target-exceeds-2030-goal-ong-ye-kung)
+### [Upskilling in generalist palliative care nursing exceeds expectations: Ong Ye Kung](https://www.straitstimes.com/singapore/health/workgroup-set-up-to-train-palliative-care-nurses-upskilling-target-exceeds-2030-goal-ong-ye-kung)
 
 2026-07-06
 

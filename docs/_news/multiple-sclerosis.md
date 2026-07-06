@@ -13,7 +13,7 @@ permalink: /news/multiple-sclerosis/
 
 ---
 
-**1 articles** related to multiple sclerosis.
+**2 articles** related to multiple sclerosis.
 
 ---
 
@@ -22,6 +22,14 @@ permalink: /news/multiple-sclerosis/
 2026-07-06
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/alzheimers-blood-tests-6171616)
+
+---
+
+### ['My stomach is eating itself': Biohacker Bryan Johnson reveals he has autoimmune disease](https://www.channelnewsasia.com/wellness/bryan-johnson-autoimmune-gastritis-disease-6235086)
+
+2026-07-06
+
+Source: [CNA](https://www.channelnewsasia.com/wellness/bryan-johnson-autoimmune-gastritis-disease-6235086)
 
 ---
 
