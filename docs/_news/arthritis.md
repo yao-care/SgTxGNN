@@ -13,15 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**12 articles** related to arthritis.
-
----
-
-### [Empower nurses to be architects of care in S’pore: Rahayu](https://www.straitstimes.com/singapore/health/empowering-nurses-to-be-architects-of-care-in-spore)
-
-2026-07-07
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/empowering-nurses-to-be-architects-of-care-in-spore)
+**11 articles** related to arthritis.
 
 ---
 
