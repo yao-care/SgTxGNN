@@ -19,7 +19,7 @@ permalink: /news/alzheimer-disease/
 
 ### [Two brothers diagnosed with Sanfilippo syndrome, a rare disorder dubbed ‘childhood dementia’](https://www.straitstimes.com/singapore/health/two-brothers-with-sanfilippo-syndrome-a-rare-and-brutal-disorder-dubbed-childhood-dementia)
 
-2026-07-07
+2026-07-08
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/two-brothers-with-sanfilippo-syndrome-a-rare-and-brutal-disorder-dubbed-childhood-dementia)
 
