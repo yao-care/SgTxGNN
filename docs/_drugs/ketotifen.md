@@ -2,7 +2,7 @@
 layout: default
 title: Ketotifen
 parent: 僅模型預測 (L5)
-nav_order: 513
+nav_order: 550
 evidence_level: L5
 indication_count: 10
 ---

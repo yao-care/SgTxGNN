@@ -2,7 +2,7 @@
 layout: default
 title: Ixazomib
 parent: 僅模型預測 (L5)
-nav_order: 507
+nav_order: 544
 evidence_level: L5
 indication_count: 10
 ---

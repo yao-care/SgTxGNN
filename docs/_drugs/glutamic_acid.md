@@ -2,7 +2,7 @@
 layout: default
 title: Glutamic Acid
 parent: 僅模型預測 (L5)
-nav_order: 430
+nav_order: 467
 evidence_level: L5
 indication_count: 10
 ---
