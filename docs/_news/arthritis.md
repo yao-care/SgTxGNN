@@ -13,13 +13,13 @@ permalink: /news/arthritis/
 
 ---
 
-**7 articles** related to arthritis.
+**9 articles** related to arthritis.
 
 ---
 
 ### [More physiotherapists opting to work in private healthcare – can the public sector keep up?](https://www.straitstimes.com/singapore/health/more-physiotherapists-opting-to-work-in-private-healthcare-can-public-sector-keep-up)
 
-2026-07-12
+2026-07-13
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/more-physiotherapists-opting-to-work-in-private-healthcare-can-public-sector-keep-up)
 
@@ -27,15 +27,31 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/more-physi
 
 ### [Upskilling in generalist palliative care nursing exceeds expectations: Ong Ye Kung](https://www.straitstimes.com/singapore/health/workgroup-set-up-to-train-palliative-care-nurses-upskilling-target-exceeds-2030-goal-ong-ye-kung)
 
-2026-07-12
+2026-07-13
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/workgroup-set-up-to-train-palliative-care-nurses-upskilling-target-exceeds-2030-goal-ong-ye-kung)
 
 ---
 
+### [Two cancer patients, two eras of treatment](https://www.straitstimes.com/singapore/health/two-cancer-patients-two-eras-of-treatment)
+
+2026-07-13
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/two-cancer-patients-two-eras-of-treatment)
+
+---
+
+### [Urine biopsy offers a more accurate way to detect bladder, kidney and prostate cancers](https://www.straitstimes.com/singapore/health/urine-biopsy-offers-a-more-accurate-way-to-detect-bladder-kidney-and-prostate-cancer)
+
+2026-07-13
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/urine-biopsy-offers-a-more-accurate-way-to-detect-bladder-kidney-and-prostate-cancer)
+
+---
+
 ### [Feeling foggy and tired? Your gut health may be affecting your brain](https://www.channelnewsasia.com/wellness/gut-brain-fog-health-6110251)
 
-2026-07-12
+2026-07-13
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/gut-brain-fog-health-6110251)
 
@@ -43,7 +59,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/gut-brain-fog-health-6110
 
 ### [What does being frail actually mean? And how do you know if you are at risk?](https://www.channelnewsasia.com/wellness/frailty-aging-6114366)
 
-2026-07-12
+2026-07-13
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/frailty-aging-6114366)
 
@@ -51,7 +67,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/frailty-aging-6114366)
 
 ### [Commentary: AI can be a personal trainer in your pocket - but is it safe?](https://www.channelnewsasia.com/commentary/ai-personal-trainer-fitness-programme-health-6230166)
 
-2026-07-12
+2026-07-13
 
 Source: [CNA](https://www.channelnewsasia.com/commentary/ai-personal-trainer-fitness-programme-health-6230166)
 
@@ -59,7 +75,7 @@ Source: [CNA](https://www.channelnewsasia.com/commentary/ai-personal-trainer-fit
 
 ### [Your wearable tracks countless health metrics, but which ones are worth paying attention to?](https://www.channelnewsasia.com/wellness/health-wearables-doctors-rfk-apple-watch-6210331)
 
-2026-07-12
+2026-07-13
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/health-wearables-doctors-rfk-apple-watch-6210331)
 
@@ -67,7 +83,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/health-wearables-doctors-
 
 ### [Do high-intensity workouts raise cortisol? Here's why the stress hormone isn't always bad](https://www.channelnewsasia.com/wellness/exercise-stress-cortisol-levels-6228051)
 
-2026-07-12
+2026-07-13
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/exercise-stress-cortisol-levels-6228051)
 
