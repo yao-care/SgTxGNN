@@ -2,7 +2,7 @@
 layout: default
 title: Inotuzumab Ozogamicin
 parent: 僅模型預測 (L5)
-nav_order: 478
+nav_order: 515
 evidence_level: L5
 indication_count: 10
 ---

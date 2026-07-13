@@ -2,7 +2,7 @@
 layout: default
 title: Guselkumab
 parent: 僅模型預測 (L5)
-nav_order: 440
+nav_order: 477
 evidence_level: L5
 indication_count: 10
 ---

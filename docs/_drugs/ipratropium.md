@@ -2,7 +2,7 @@
 layout: default
 title: Ipratropium
 parent: 僅模型預測 (L5)
-nav_order: 492
+nav_order: 529
 evidence_level: L5
 indication_count: 10
 ---

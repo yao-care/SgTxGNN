@@ -2,7 +2,7 @@
 layout: default
 title: Histidine
 parent: 僅模型預測 (L5)
-nav_order: 444
+nav_order: 481
 evidence_level: L5
 indication_count: 10
 ---
