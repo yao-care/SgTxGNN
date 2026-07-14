@@ -13,23 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**9 articles** related to arthritis.
-
----
-
-### [More physiotherapists opting to work in private healthcare – can the public sector keep up?](https://www.straitstimes.com/singapore/health/more-physiotherapists-opting-to-work-in-private-healthcare-can-public-sector-keep-up)
-
-2026-07-14
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/more-physiotherapists-opting-to-work-in-private-healthcare-can-public-sector-keep-up)
-
----
-
-### [Upskilling in generalist palliative care nursing exceeds expectations: Ong Ye Kung](https://www.straitstimes.com/singapore/health/workgroup-set-up-to-train-palliative-care-nurses-upskilling-target-exceeds-2030-goal-ong-ye-kung)
-
-2026-07-14
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/workgroup-set-up-to-train-palliative-care-nurses-upskilling-target-exceeds-2030-goal-ong-ye-kung)
+**8 articles** related to arthritis.
 
 ---
 
@@ -46,6 +30,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/two-cancer
 2026-07-14
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/urine-biopsy-offers-a-more-accurate-way-to-detect-bladder-kidney-and-prostate-cancer)
+
+---
+
+### [Ketamine therapy at IMH offers hope to patients with hard-to-treat depression](https://www.straitstimes.com/singapore/health/ketamine-therapy-at-imh-offers-hope-to-patients-with-hard-to-treat-depression)
+
+2026-07-14
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/ketamine-therapy-at-imh-offers-hope-to-patients-with-hard-to-treat-depression)
 
 ---
 
