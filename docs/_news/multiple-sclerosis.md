@@ -17,7 +17,7 @@ permalink: /news/multiple-sclerosis/
 
 ---
 
-### [24-hour care, worry-free recovery, hotel comforts: What mums can expect at this $100,000 luxury confinement centre](https://www.straitstimes.com/singapore/health/derama-luxury-confinement-centre-professional-postpartum-care-singapore)
+### [What mums can expect at this $100,000 luxury confinement centre](https://www.straitstimes.com/singapore/health/derama-luxury-confinement-centre-professional-postpartum-care-singapore)
 
 2026-07-16
 
