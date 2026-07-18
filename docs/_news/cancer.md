@@ -19,31 +19,31 @@ permalink: /news/cancer/
 
 ### [When back pain turns out to be cancer – and something more](https://www.straitstimes.com/singapore/health/when-back-pain-turns-out-to-be-cancer-and-something-more)
 
-2026-07-17
+2026-07-18
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/when-back-pain-turns-out-to-be-cancer-and-something-more)
 
 ---
 
-### [Two cancer patients, two eras of treatment](https://www.straitstimes.com/singapore/health/two-cancer-patients-two-eras-of-treatment)
-
-2026-07-17
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/two-cancer-patients-two-eras-of-treatment)
-
----
-
 ### [Urine biopsy offers a more accurate way to detect bladder, kidney and prostate cancers](https://www.straitstimes.com/singapore/health/urine-biopsy-offers-a-more-accurate-way-to-detect-bladder-kidney-and-prostate-cancer)
 
-2026-07-17
+2026-07-18
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/urine-biopsy-offers-a-more-accurate-way-to-detect-bladder-kidney-and-prostate-cancer)
 
 ---
 
+### [Two cancer patients, two eras of treatment](https://www.straitstimes.com/singapore/health/two-cancer-patients-two-eras-of-treatment)
+
+2026-07-18
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/two-cancer-patients-two-eras-of-treatment)
+
+---
+
 ### [She lost her womb to cancer at 32 – now she helps younger people with cancer navigate recovery and work](https://www.channelnewsasia.com/women/cancer-support-group-singapore-young-patients-6129861)
 
-2026-07-17
+2026-07-18
 
 Source: [CNA](https://www.channelnewsasia.com/women/cancer-support-group-singapore-young-patients-6129861)
 
@@ -51,7 +51,7 @@ Source: [CNA](https://www.channelnewsasia.com/women/cancer-support-group-singapo
 
 ### [GLP-1 drugs, including Ozempic, may have a beneficial effect across many types of cancer](https://www.channelnewsasia.com/wellness/glp1-drugs-ozempic-cancer-risk-survival-study-6159511)
 
-2026-07-17
+2026-07-18
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/glp1-drugs-ozempic-cancer-risk-survival-study-6159511)
 
