@@ -19,7 +19,7 @@ permalink: /news/prostate-cancer/
 
 ### [Urine biopsy offers a more accurate way to detect bladder, kidney and prostate cancers](https://www.straitstimes.com/singapore/health/urine-biopsy-offers-a-more-accurate-way-to-detect-bladder-kidney-and-prostate-cancer)
 
-2026-07-17
+2026-07-18
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/urine-biopsy-offers-a-more-accurate-way-to-detect-bladder-kidney-and-prostate-cancer)
 
