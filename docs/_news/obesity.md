@@ -13,7 +13,7 @@ permalink: /news/obesity/
 
 ---
 
-**1 articles** related to obesity.
+**2 articles** related to obesity.
 
 ---
 
@@ -22,6 +22,14 @@ permalink: /news/obesity/
 2026-07-21
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/glp1-drugs-ozempic-longevity-6225001)
+
+---
+
+### [Pharma heavyweights Novo Nordisk and Eli Lilly clash over anti-obesity drug ads](https://www.channelnewsasia.com/world/novo-nordisk-eli-lilly-ads-weightloss-drug-6268796)
+
+2026-07-21
+
+Source: [CNA](https://www.channelnewsasia.com/world/novo-nordisk-eli-lilly-ads-weightloss-drug-6268796)
 
 ---
 

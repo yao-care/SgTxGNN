@@ -13,15 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**7 articles** related to arthritis.
-
----
-
-### [Urine biopsy offers a more accurate way to detect bladder, kidney and prostate cancers](https://www.straitstimes.com/singapore/health/urine-biopsy-offers-a-more-accurate-way-to-detect-bladder-kidney-and-prostate-cancer)
-
-2026-07-21
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/urine-biopsy-offers-a-more-accurate-way-to-detect-bladder-kidney-and-prostate-cancer)
+**6 articles** related to arthritis.
 
 ---
 
@@ -33,19 +25,19 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/two-cancer
 
 ---
 
+### [Urine biopsy offers a more accurate way to detect bladder, kidney and prostate cancers](https://www.straitstimes.com/singapore/health/urine-biopsy-offers-a-more-accurate-way-to-detect-bladder-kidney-and-prostate-cancer)
+
+2026-07-21
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/urine-biopsy-offers-a-more-accurate-way-to-detect-bladder-kidney-and-prostate-cancer)
+
+---
+
 ### [Ketamine therapy at IMH offers hope to patients with hard-to-treat depression](https://www.straitstimes.com/singapore/health/ketamine-therapy-at-imh-offers-hope-to-patients-with-hard-to-treat-depression)
 
 2026-07-21
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/ketamine-therapy-at-imh-offers-hope-to-patients-with-hard-to-treat-depression)
-
----
-
-### [What does being frail actually mean? And how do you know if you are at risk?](https://www.channelnewsasia.com/wellness/frailty-aging-6114366)
-
-2026-07-21
-
-Source: [CNA](https://www.channelnewsasia.com/wellness/frailty-aging-6114366)
 
 ---
 
