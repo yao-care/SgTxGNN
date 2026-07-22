@@ -19,7 +19,7 @@ permalink: /news/depression/
 
 ### [Ketamine therapy at IMH offers hope to patients with hard-to-treat depression](https://www.straitstimes.com/singapore/health/ketamine-therapy-at-imh-offers-hope-to-patients-with-hard-to-treat-depression)
 
-2026-07-21
+2026-07-22
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/ketamine-therapy-at-imh-offers-hope-to-patients-with-hard-to-treat-depression)
 
