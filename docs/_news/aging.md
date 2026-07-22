@@ -19,7 +19,7 @@ permalink: /news/aging/
 
 ### [Staying awake during spine surgery can be a safer treatment option for the elderly](https://www.straitstimes.com/singapore/health/staying-awake-during-spine-surgery-can-be-a-safer-treatment-option-for-the-elderly)
 
-2026-07-21
+2026-07-22
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/staying-awake-during-spine-surgery-can-be-a-safer-treatment-option-for-the-elderly)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/staying-aw
 
 ### [Are Ozempic and other weight loss drugs also longevity drugs? Here's what early research suggests](https://www.channelnewsasia.com/wellness/glp1-drugs-ozempic-longevity-6225001)
 
-2026-07-21
+2026-07-22
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/glp1-drugs-ozempic-longevity-6225001)
 
