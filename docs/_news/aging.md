@@ -13,15 +13,7 @@ permalink: /news/aging/
 
 ---
 
-**2 articles** related to aging.
-
----
-
-### [Staying awake during spine surgery can be a safer treatment option for the elderly](https://www.straitstimes.com/singapore/health/staying-awake-during-spine-surgery-can-be-a-safer-treatment-option-for-the-elderly)
-
-2026-07-24
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/staying-awake-during-spine-surgery-can-be-a-safer-treatment-option-for-the-elderly)
+**1 articles** related to aging.
 
 ---
 
