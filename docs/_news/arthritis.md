@@ -13,7 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**6 articles** related to arthritis.
+**7 articles** related to arthritis.
 
 ---
 
@@ -38,6 +38,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/urine-biop
 2026-07-24
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/ketamine-therapy-at-imh-offers-hope-to-patients-with-hard-to-treat-depression)
+
+---
+
+### [4 trailblazers receive President’s Award for Nurses](https://www.straitstimes.com/singapore/health/4-trailblazers-receive-presidents-award-for-nurses)
+
+2026-07-24
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/4-trailblazers-receive-presidents-award-for-nurses)
 
 ---
 
