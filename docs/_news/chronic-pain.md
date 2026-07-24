@@ -19,7 +19,7 @@ permalink: /news/chronic-pain/
 
 ### [When back pain turns out to be cancer – and something more](https://www.straitstimes.com/singapore/health/when-back-pain-turns-out-to-be-cancer-and-something-more)
 
-2026-07-23
+2026-07-24
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/when-back-pain-turns-out-to-be-cancer-and-something-more)
 
