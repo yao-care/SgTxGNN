@@ -25,19 +25,19 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/when-back-
 
 ---
 
-### [Two cancer patients, two eras of treatment](https://www.straitstimes.com/singapore/health/two-cancer-patients-two-eras-of-treatment)
-
-2026-07-24
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/two-cancer-patients-two-eras-of-treatment)
-
----
-
 ### [Urine biopsy offers a more accurate way to detect bladder, kidney and prostate cancers](https://www.straitstimes.com/singapore/health/urine-biopsy-offers-a-more-accurate-way-to-detect-bladder-kidney-and-prostate-cancer)
 
 2026-07-24
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/urine-biopsy-offers-a-more-accurate-way-to-detect-bladder-kidney-and-prostate-cancer)
+
+---
+
+### [Two cancer patients, two eras of treatment](https://www.straitstimes.com/singapore/health/two-cancer-patients-two-eras-of-treatment)
+
+2026-07-24
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/two-cancer-patients-two-eras-of-treatment)
 
 ---
 
