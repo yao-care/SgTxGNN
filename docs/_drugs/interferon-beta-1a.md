@@ -4,6 +4,7 @@ title: INTERFERON BETA-1A
 parent: Drugs
 nav_order: 18
 last_modified_date: 2026-03-11
+sitemap: false
 ---
 
 # INTERFERON BETA-1A

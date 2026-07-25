@@ -4,6 +4,7 @@ title: ALFUZOSIN HYDROCHLORIDE
 parent: Drugs
 nav_order: 98
 last_modified_date: 2026-03-11
+sitemap: false
 ---
 
 # ALFUZOSIN HYDROCHLORIDE
