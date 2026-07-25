@@ -231,5 +231,23 @@ This system uses Harvard Zitnik Lab's <a href="https://www.nature.com/articles/s
 <strong>Disclaimer</strong><br>
 This report is for academic research purposes only and <strong>does not constitute medical advice</strong>. Please follow physician instructions for medication use. Any drug repurposing decisions require complete clinical validation and regulatory approval.
 <br><br>
-<small>Last Review: 2026-03-03 | Reviewer: SgTxGNN Research Team</small>
+<small>Last Review: 2026-03-03 | Reviewer: 藥提醒科技有限公司 (yao.care)</small>
 </div>
+
+---
+
+## About the Developer
+
+This platform is developed and operated by **藥提醒科技有限公司** (yao.care, company registration
+number 83620786, 12F, No. 220, Sec. 2, Taiwan Blvd., West Dist., Taichung City, Taiwan).
+
+SgTxGNN is the Singapore site of the company's "TxGNN Drug Repurposing" product line.
+The same system is deployed across 30 countries and regions, each named `{CC}TxGNN`
+(JpTxGNN, UsTxGNN, DETxGNN, and so on) at `{cc}txgnn.yao.care`.
+Product overview: <https://www.yao.care/medical/txgnn/>.
+
+The TxGNN model itself was developed by the Zitnik Lab at Harvard Medical School and published
+in *Nature Medicine*. This platform is the production system 藥提醒科技有限公司 built on top of that
+model, covering national drug-registration data integration, dual knowledge-graph and
+deep-learning prediction, PubMed / ClinicalTrials evidence grading, and SMART on FHIR
+electronic health record integration.

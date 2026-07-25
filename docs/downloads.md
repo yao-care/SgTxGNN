@@ -85,7 +85,7 @@ curl https://sgtxgnn.yao.care/fhir/MedicationKnowledge/db00945
 ### Citation
 
 ```
-Yao.Care. (2026). SgTxGNN: Drug Repurposing Predictions for Singapore HSA Drugs.
+yao.care. (2026). SgTxGNN: Drug Repurposing Predictions for Singapore HSA Drugs.
 https://sgtxgnn.yao.care/
 ```
 
