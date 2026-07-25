@@ -13,23 +13,7 @@ permalink: /news/cancer/
 
 ---
 
-**5 articles** related to cancer.
-
----
-
-### [When back pain turns out to be cancer – and something more](https://www.straitstimes.com/singapore/health/when-back-pain-turns-out-to-be-cancer-and-something-more)
-
-2026-07-25
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/when-back-pain-turns-out-to-be-cancer-and-something-more)
-
----
-
-### [Two cancer patients, two eras of treatment](https://www.straitstimes.com/singapore/health/two-cancer-patients-two-eras-of-treatment)
-
-2026-07-25
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/two-cancer-patients-two-eras-of-treatment)
+**4 articles** related to cancer.
 
 ---
 
@@ -38,6 +22,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/two-cancer
 2026-07-25
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/urine-biopsy-offers-a-more-accurate-way-to-detect-bladder-kidney-and-prostate-cancer)
+
+---
+
+### [Two cancer patients, two eras of treatment](https://www.straitstimes.com/singapore/health/two-cancer-patients-two-eras-of-treatment)
+
+2026-07-25
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/two-cancer-patients-two-eras-of-treatment)
 
 ---
 
