@@ -4,6 +4,7 @@ title: FUROSEMIDE
 parent: Drugs
 nav_order: 224
 last_modified_date: 2026-03-11
+evidence_level: L3
 ---
 
 # FUROSEMIDE

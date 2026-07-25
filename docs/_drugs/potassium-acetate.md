@@ -4,6 +4,7 @@ title: POTASSIUM ACETATE
 parent: Drugs
 nav_order: 729
 last_modified_date: 2026-03-11
+evidence_level: L4
 ---
 
 # POTASSIUM ACETATE

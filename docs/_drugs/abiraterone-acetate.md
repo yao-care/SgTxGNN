@@ -4,6 +4,7 @@ title: ABIRATERONE ACETATE
 parent: Drugs
 nav_order: 515
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # ABIRATERONE ACETATE

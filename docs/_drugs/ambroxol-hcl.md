@@ -4,6 +4,7 @@ title: AMBROXOL HCL
 parent: Drugs
 nav_order: 549
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # AMBROXOL HCL

@@ -4,6 +4,7 @@ title: MAGNESIUM CARBONATE
 parent: Drugs
 nav_order: 648
 last_modified_date: 2026-03-11
+evidence_level: L3
 ---
 
 # MAGNESIUM CARBONATE

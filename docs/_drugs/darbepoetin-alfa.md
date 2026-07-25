@@ -4,6 +4,7 @@ title: DARBEPOETIN ALFA
 parent: Drugs
 nav_order: 4
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # DARBEPOETIN ALFA

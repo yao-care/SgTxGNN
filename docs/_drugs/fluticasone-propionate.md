@@ -4,6 +4,7 @@ title: FLUTICASONE PROPIONATE
 parent: Drugs
 nav_order: 187
 last_modified_date: 2026-03-11
+evidence_level: L1
 ---
 
 # FLUTICASONE PROPIONATE
