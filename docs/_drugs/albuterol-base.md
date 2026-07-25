@@ -4,6 +4,7 @@ title: ALBUTEROL BASE
 parent: Drugs
 nav_order: 333
 last_modified_date: 2026-03-11
+sitemap: false
 ---
 
 # ALBUTEROL BASE

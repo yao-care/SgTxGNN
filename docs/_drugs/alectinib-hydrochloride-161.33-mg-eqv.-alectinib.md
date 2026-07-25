@@ -4,6 +4,7 @@ title: ALECTINIB HYDROCHLORIDE 161.33 MG EQV. ALECTINIB
 parent: Drugs
 nav_order: 661
 last_modified_date: 2026-03-11
+sitemap: false
 ---
 
 # ALECTINIB HYDROCHLORIDE 161.33 MG EQV. ALECTINIB
