@@ -4,6 +4,7 @@ title: POTASSIUM CHLORIDE
 parent: Drugs
 nav_order: 246
 last_modified_date: 2026-03-11
+evidence_level: L3
 ---
 
 # POTASSIUM CHLORIDE

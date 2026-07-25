@@ -4,6 +4,7 @@ title: INSULIN DEGLUDEC
 parent: Drugs
 nav_order: 652
 last_modified_date: 2026-03-11
+evidence_level: L1
 ---
 
 # INSULIN DEGLUDEC

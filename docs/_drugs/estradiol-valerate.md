@@ -4,6 +4,7 @@ title: ESTRADIOL VALERATE
 parent: Drugs
 nav_order: 724
 last_modified_date: 2026-03-11
+evidence_level: L3
 ---
 
 # ESTRADIOL VALERATE

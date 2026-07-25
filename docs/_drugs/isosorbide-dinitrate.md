@@ -4,6 +4,7 @@ title: ISOSORBIDE DINITRATE
 parent: Drugs
 nav_order: 295
 last_modified_date: 2026-03-11
+evidence_level: L1
 ---
 
 # ISOSORBIDE DINITRATE

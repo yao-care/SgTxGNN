@@ -4,6 +4,7 @@ title: MOMETASONE FUROATE
 parent: Drugs
 nav_order: 731
 last_modified_date: 2026-03-11
+evidence_level: L3
 ---
 
 # MOMETASONE FUROATE

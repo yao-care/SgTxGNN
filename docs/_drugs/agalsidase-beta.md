@@ -4,6 +4,7 @@ title: AGALSIDASE BETA
 parent: Drugs
 nav_order: 26
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # AGALSIDASE BETA
