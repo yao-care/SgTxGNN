@@ -4,6 +4,7 @@ title: BENDAMUSTINE HYDROCHLORIDE
 parent: Drugs
 nav_order: 550
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # BENDAMUSTINE HYDROCHLORIDE

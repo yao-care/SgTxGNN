@@ -4,6 +4,7 @@ title: SOLIFENACIN SUCCINATE
 parent: Drugs
 nav_order: 472
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # SOLIFENACIN SUCCINATE

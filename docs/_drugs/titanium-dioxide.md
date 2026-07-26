@@ -4,6 +4,7 @@ title: TITANIUM DIOXIDE
 parent: Drugs
 nav_order: 650
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # TITANIUM DIOXIDE

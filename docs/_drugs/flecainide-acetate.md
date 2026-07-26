@@ -4,6 +4,7 @@ title: FLECAINIDE ACETATE
 parent: Drugs
 nav_order: 416
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # FLECAINIDE ACETATE

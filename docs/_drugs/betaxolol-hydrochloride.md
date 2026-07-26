@@ -4,6 +4,7 @@ title: BETAXOLOL HYDROCHLORIDE
 parent: Drugs
 nav_order: 45
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # BETAXOLOL HYDROCHLORIDE

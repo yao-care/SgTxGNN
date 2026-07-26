@@ -4,6 +4,7 @@ title: TRAMADOL HYDROCHLORIDE
 parent: Drugs
 nav_order: 44
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # TRAMADOL HYDROCHLORIDE

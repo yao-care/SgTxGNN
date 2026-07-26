@@ -4,6 +4,7 @@ title: ECONAZOLE NITRATE
 parent: Drugs
 nav_order: 387
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # ECONAZOLE NITRATE

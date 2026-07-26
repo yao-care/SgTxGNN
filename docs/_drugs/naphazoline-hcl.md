@@ -4,6 +4,7 @@ title: NAPHAZOLINE HCL
 parent: Drugs
 nav_order: 546
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # NAPHAZOLINE HCL

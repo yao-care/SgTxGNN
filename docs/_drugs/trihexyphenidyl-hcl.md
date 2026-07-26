@@ -4,6 +4,7 @@ title: TRIHEXYPHENIDYL HCL
 parent: Drugs
 nav_order: 109
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # TRIHEXYPHENIDYL HCL

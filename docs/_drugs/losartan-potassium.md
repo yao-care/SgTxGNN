@@ -4,6 +4,7 @@ title: LOSARTAN POTASSIUM
 parent: Drugs
 nav_order: 217
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # LOSARTAN POTASSIUM

@@ -4,6 +4,7 @@ title: PIMECROLIMUS
 parent: Drugs
 nav_order: 93
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # PIMECROLIMUS

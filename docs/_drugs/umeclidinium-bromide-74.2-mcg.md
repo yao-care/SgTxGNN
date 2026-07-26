@@ -4,6 +4,7 @@ title: UMECLIDINIUM BROMIDE 74.2 MCG
 parent: Drugs
 nav_order: 611
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # UMECLIDINIUM BROMIDE 74.2 MCG

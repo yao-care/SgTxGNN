@@ -4,6 +4,7 @@ title: RASAGILINE MESYLATE 1.56MG EQUIVALENT RASAGILINE
 parent: Drugs
 nav_order: 461
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # RASAGILINE MESYLATE 1.56MG EQUIVALENT RASAGILINE

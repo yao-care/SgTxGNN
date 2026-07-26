@@ -4,6 +4,7 @@ title: OXYBUTYNIN CHLORIDE
 parent: Drugs
 nav_order: 360
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # OXYBUTYNIN CHLORIDE

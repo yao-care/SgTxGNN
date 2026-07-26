@@ -4,6 +4,7 @@ title: RALOXIFENE HYDROCHLORIDE
 parent: Drugs
 nav_order: 149
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # RALOXIFENE HYDROCHLORIDE

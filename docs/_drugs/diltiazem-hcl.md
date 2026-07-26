@@ -4,6 +4,7 @@ title: DILTIAZEM HCL
 parent: Drugs
 nav_order: 97
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # DILTIAZEM HCL

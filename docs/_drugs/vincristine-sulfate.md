@@ -4,6 +4,7 @@ title: VINCRISTINE SULFATE
 parent: Drugs
 nav_order: 169
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # VINCRISTINE SULFATE

@@ -4,6 +4,7 @@ title: MIDOSTAURIN
 parent: Drugs
 nav_order: 535
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # MIDOSTAURIN

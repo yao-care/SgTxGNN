@@ -4,6 +4,7 @@ title: ROPEGINTERFERON ALFA-2B
 parent: Drugs
 nav_order: 749
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # ROPEGINTERFERON ALFA-2B

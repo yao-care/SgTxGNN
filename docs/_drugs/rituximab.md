@@ -4,6 +4,7 @@ title: RITUXIMAB
 parent: Drugs
 nav_order: 21
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # RITUXIMAB

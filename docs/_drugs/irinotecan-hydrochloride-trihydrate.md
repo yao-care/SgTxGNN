@@ -4,6 +4,7 @@ title: IRINOTECAN HYDROCHLORIDE TRIHYDRATE
 parent: Drugs
 nav_order: 247
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # IRINOTECAN HYDROCHLORIDE TRIHYDRATE

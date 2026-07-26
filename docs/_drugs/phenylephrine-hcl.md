@@ -4,6 +4,7 @@ title: PHENYLEPHRINE HCL
 parent: Drugs
 nav_order: 114
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # PHENYLEPHRINE HCL

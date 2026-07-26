@@ -4,6 +4,7 @@ title: AZITHROMYCIN DIHYDRATE 262MG EQ TO AZITHROMYCIN
 parent: Drugs
 nav_order: 50
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # AZITHROMYCIN DIHYDRATE 262MG EQ TO AZITHROMYCIN

@@ -4,6 +4,7 @@ title: CARBINOXAMINE MALEATE
 parent: Drugs
 nav_order: 241
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # CARBINOXAMINE MALEATE

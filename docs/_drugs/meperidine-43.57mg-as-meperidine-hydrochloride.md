@@ -4,6 +4,7 @@ title: MEPERIDINE 43.57MG AS MEPERIDINE HYDROCHLORIDE
 parent: Drugs
 nav_order: 139
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # MEPERIDINE 43.57MG AS MEPERIDINE HYDROCHLORIDE

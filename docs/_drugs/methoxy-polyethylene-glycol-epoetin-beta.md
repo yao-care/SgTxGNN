@@ -4,6 +4,7 @@ title: METHOXY POLYETHYLENE GLYCOL-EPOETIN BETA
 parent: Drugs
 nav_order: 621
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # METHOXY POLYETHYLENE GLYCOL-EPOETIN BETA

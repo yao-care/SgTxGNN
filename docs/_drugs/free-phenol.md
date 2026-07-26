@@ -4,6 +4,7 @@ title: FREE PHENOL
 parent: Drugs
 nav_order: 557
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # FREE PHENOL

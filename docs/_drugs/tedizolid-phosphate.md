@@ -4,6 +4,7 @@ title: TEDIZOLID PHOSPHATE
 parent: Drugs
 nav_order: 602
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # TEDIZOLID PHOSPHATE

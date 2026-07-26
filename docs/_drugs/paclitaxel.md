@@ -4,6 +4,7 @@ title: PACLITAXEL
 parent: Drugs
 nav_order: 432
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # PACLITAXEL

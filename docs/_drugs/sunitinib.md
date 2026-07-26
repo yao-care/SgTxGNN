@@ -4,6 +4,7 @@ title: SUNITINIB
 parent: Drugs
 nav_order: 449
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # SUNITINIB

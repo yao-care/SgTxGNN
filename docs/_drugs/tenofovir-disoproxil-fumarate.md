@@ -4,6 +4,7 @@ title: TENOFOVIR DISOPROXIL FUMARATE
 parent: Drugs
 nav_order: 78
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # TENOFOVIR DISOPROXIL FUMARATE

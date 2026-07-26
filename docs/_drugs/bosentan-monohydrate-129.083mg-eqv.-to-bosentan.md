@@ -4,6 +4,7 @@ title: BOSENTAN MONOHYDRATE 129.083MG EQV. TO BOSENTAN
 parent: Drugs
 nav_order: 174
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # BOSENTAN MONOHYDRATE 129.083MG EQV. TO BOSENTAN

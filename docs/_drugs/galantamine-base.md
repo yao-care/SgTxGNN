@@ -4,6 +4,7 @@ title: GALANTAMINE BASE
 parent: Drugs
 nav_order: 215
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # GALANTAMINE BASE

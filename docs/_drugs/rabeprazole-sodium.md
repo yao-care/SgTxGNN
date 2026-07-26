@@ -4,6 +4,7 @@ title: RABEPRAZOLE SODIUM
 parent: Drugs
 nav_order: 389
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # RABEPRAZOLE SODIUM

@@ -4,6 +4,7 @@ title: TAZOBACTAM SODIUM 0.54733G EQ TO TAZOBACTAM
 parent: Drugs
 nav_order: 477
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # TAZOBACTAM SODIUM 0.54733G EQ TO TAZOBACTAM

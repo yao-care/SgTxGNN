@@ -4,6 +4,7 @@ title: DOCETAXEL ANHYDROUS
 parent: Drugs
 nav_order: 440
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # DOCETAXEL ANHYDROUS

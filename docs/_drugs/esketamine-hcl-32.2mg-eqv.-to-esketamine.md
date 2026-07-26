@@ -4,6 +4,7 @@ title: ESKETAMINE HCL 32.2MG EQV. TO ESKETAMINE
 parent: Drugs
 nav_order: 685
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # ESKETAMINE HCL 32.2MG EQV. TO ESKETAMINE

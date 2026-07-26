@@ -4,6 +4,7 @@ title: OXALIPLATIN
 parent: Drugs
 nav_order: 164
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # OXALIPLATIN
