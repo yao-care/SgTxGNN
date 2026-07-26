@@ -13,39 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**8 articles** related to arthritis.
-
----
-
-### [Urine biopsy offers a more accurate way to detect bladder, kidney and prostate cancers](https://www.straitstimes.com/singapore/health/urine-biopsy-offers-a-more-accurate-way-to-detect-bladder-kidney-and-prostate-cancer)
-
-2026-07-26
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/urine-biopsy-offers-a-more-accurate-way-to-detect-bladder-kidney-and-prostate-cancer)
-
----
-
-### [Two cancer patients, two eras of treatment](https://www.straitstimes.com/singapore/health/two-cancer-patients-two-eras-of-treatment)
-
-2026-07-26
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/two-cancer-patients-two-eras-of-treatment)
-
----
-
-### [Ketamine therapy at IMH offers hope to patients with hard-to-treat depression](https://www.straitstimes.com/singapore/health/ketamine-therapy-at-imh-offers-hope-to-patients-with-hard-to-treat-depression)
-
-2026-07-26
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/ketamine-therapy-at-imh-offers-hope-to-patients-with-hard-to-treat-depression)
-
----
-
-### [4 trailblazers receive President’s Award for Nurses](https://www.straitstimes.com/singapore/health/4-trailblazers-receive-presidents-award-for-nurses)
-
-2026-07-26
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/4-trailblazers-receive-presidents-award-for-nurses)
+**4 articles** related to arthritis.
 
 ---
 
