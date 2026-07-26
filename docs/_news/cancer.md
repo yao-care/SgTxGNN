@@ -13,23 +13,7 @@ permalink: /news/cancer/
 
 ---
 
-**4 articles** related to cancer.
-
----
-
-### [Urine biopsy offers a more accurate way to detect bladder, kidney and prostate cancers](https://www.straitstimes.com/singapore/health/urine-biopsy-offers-a-more-accurate-way-to-detect-bladder-kidney-and-prostate-cancer)
-
-2026-07-26
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/urine-biopsy-offers-a-more-accurate-way-to-detect-bladder-kidney-and-prostate-cancer)
-
----
-
-### [Two cancer patients, two eras of treatment](https://www.straitstimes.com/singapore/health/two-cancer-patients-two-eras-of-treatment)
-
-2026-07-26
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/two-cancer-patients-two-eras-of-treatment)
+**2 articles** related to cancer.
 
 ---
 

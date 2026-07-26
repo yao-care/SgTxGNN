@@ -13,15 +13,7 @@ permalink: /news/aging/
 
 ---
 
-**2 articles** related to aging.
-
----
-
-### [Singapore must grow longevity economy without driving up healthcare costs: Ong Ye Kung](https://www.straitstimes.com/singapore/health/singapore-must-grow-longevity-economy-without-driving-up-healthcare-costs-ong-ye-kung)
-
-2026-07-26
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-must-grow-longevity-economy-without-driving-up-healthcare-costs-ong-ye-kung)
+**1 articles** related to aging.
 
 ---
 
