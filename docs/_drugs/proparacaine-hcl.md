@@ -4,6 +4,7 @@ title: PROPARACAINE HCL
 parent: Drugs
 nav_order: 264
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # PROPARACAINE HCL

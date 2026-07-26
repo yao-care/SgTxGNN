@@ -4,6 +4,7 @@ title: HYDROCORTISONE SODIUM SUCCINATE
 parent: Drugs
 nav_order: 735
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # HYDROCORTISONE SODIUM SUCCINATE

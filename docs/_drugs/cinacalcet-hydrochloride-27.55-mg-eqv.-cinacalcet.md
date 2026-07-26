@@ -4,6 +4,7 @@ title: CINACALCET HYDROCHLORIDE 27.55 MG EQV. CINACALCET
 parent: Drugs
 nav_order: 339
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # CINACALCET HYDROCHLORIDE 27.55 MG EQV. CINACALCET

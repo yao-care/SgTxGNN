@@ -4,6 +4,7 @@ title: OBINUTUZUMAB
 parent: Drugs
 nav_order: 593
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # OBINUTUZUMAB

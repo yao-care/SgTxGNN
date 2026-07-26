@@ -4,6 +4,7 @@ title: PIPERACILLIN SODIUM 4.25310G EQ TO PIPERACILLIN
 parent: Drugs
 nav_order: 85
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # PIPERACILLIN SODIUM 4.25310G EQ TO PIPERACILLIN

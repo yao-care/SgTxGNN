@@ -4,6 +4,7 @@ title: CHLORDIAZEPOXIDE HCL
 parent: Drugs
 nav_order: 146
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # CHLORDIAZEPOXIDE HCL

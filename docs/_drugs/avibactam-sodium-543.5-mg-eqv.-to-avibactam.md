@@ -4,6 +4,7 @@ title: AVIBACTAM SODIUM 543.5 MG EQV. TO AVIBACTAM
 parent: Drugs
 nav_order: 605
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # AVIBACTAM SODIUM 543.5 MG EQV. TO AVIBACTAM

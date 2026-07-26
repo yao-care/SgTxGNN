@@ -4,6 +4,7 @@ title: SCOPOLAMINE N-BUTYLBROMIDE
 parent: Drugs
 nav_order: 240
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # SCOPOLAMINE N-BUTYLBROMIDE

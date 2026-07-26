@@ -4,6 +4,7 @@ title: SELEXIPAG
 parent: Drugs
 nav_order: 660
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # SELEXIPAG

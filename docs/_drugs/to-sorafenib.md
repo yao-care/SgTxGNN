@@ -4,6 +4,7 @@ title: TO SORAFENIB
 parent: Drugs
 nav_order: 120
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # TO SORAFENIB

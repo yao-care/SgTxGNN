@@ -4,6 +4,7 @@ title: CHROMIC CHLORIDE HEXAHYDRATE
 parent: Drugs
 nav_order: 625
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # CHROMIC CHLORIDE HEXAHYDRATE

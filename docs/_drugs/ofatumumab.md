@@ -4,6 +4,7 @@ title: OFATUMUMAB
 parent: Drugs
 nav_order: 538
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # OFATUMUMAB

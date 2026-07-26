@@ -4,6 +4,7 @@ title: DISODIUM PAMIDRONATE
 parent: Drugs
 nav_order: 72
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # DISODIUM PAMIDRONATE

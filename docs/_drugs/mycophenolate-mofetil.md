@@ -4,6 +4,7 @@ title: MYCOPHENOLATE MOFETIL
 parent: Drugs
 nav_order: 222
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # MYCOPHENOLATE MOFETIL

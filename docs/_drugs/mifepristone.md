@@ -4,6 +4,7 @@ title: MIFEPRISTONE
 parent: Drugs
 nav_order: 275
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # MIFEPRISTONE

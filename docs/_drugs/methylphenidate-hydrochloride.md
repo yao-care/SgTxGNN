@@ -4,6 +4,7 @@ title: METHYLPHENIDATE HYDROCHLORIDE
 parent: Drugs
 nav_order: 127
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # METHYLPHENIDATE HYDROCHLORIDE

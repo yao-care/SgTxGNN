@@ -4,6 +4,7 @@ title: LISDEXAMFETAMINE DIMESYLATE
 parent: Drugs
 nav_order: 442
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # LISDEXAMFETAMINE DIMESYLATE

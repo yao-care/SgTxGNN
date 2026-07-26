@@ -4,6 +4,7 @@ title: TERBUTALINE SULFATE
 parent: Drugs
 nav_order: 289
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # TERBUTALINE SULFATE

@@ -4,6 +4,7 @@ title: MIVACURIUM CHLORIDE
 parent: Drugs
 nav_order: 431
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # MIVACURIUM CHLORIDE

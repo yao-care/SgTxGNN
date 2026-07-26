@@ -4,6 +4,7 @@ title: CODEINE PHOSPHATE
 parent: Drugs
 nav_order: 84
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # CODEINE PHOSPHATE

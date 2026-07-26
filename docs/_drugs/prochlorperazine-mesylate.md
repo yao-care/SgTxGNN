@@ -4,6 +4,7 @@ title: PROCHLORPERAZINE MESYLATE
 parent: Drugs
 nav_order: 130
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # PROCHLORPERAZINE MESYLATE

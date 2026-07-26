@@ -4,6 +4,7 @@ title: PROPRANOLOL HCL
 parent: Drugs
 nav_order: 181
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # PROPRANOLOL HCL

@@ -4,6 +4,7 @@ title: PALIVIZUMAB
 parent: Drugs
 nav_order: 30
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # PALIVIZUMAB

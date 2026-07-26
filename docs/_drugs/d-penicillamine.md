@@ -4,6 +4,7 @@ title: D-PENICILLAMINE
 parent: Drugs
 nav_order: 284
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # D-PENICILLAMINE

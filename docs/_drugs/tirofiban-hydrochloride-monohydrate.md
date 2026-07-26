@@ -4,6 +4,7 @@ title: TIROFIBAN HYDROCHLORIDE MONOHYDRATE
 parent: Drugs
 nav_order: 252
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # TIROFIBAN HYDROCHLORIDE MONOHYDRATE

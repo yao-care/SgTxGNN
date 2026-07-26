@@ -4,6 +4,7 @@ title: CLOMIPRAMINE HCL
 parent: Drugs
 nav_order: 439
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # CLOMIPRAMINE HCL

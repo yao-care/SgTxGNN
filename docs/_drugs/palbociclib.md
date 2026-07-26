@@ -4,6 +4,7 @@ title: PALBOCICLIB
 parent: Drugs
 nav_order: 609
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # PALBOCICLIB

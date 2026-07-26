@@ -5,6 +5,7 @@ parent: Drugs
 nav_order: 18
 last_modified_date: 2026-03-11
 sitemap: false
+evidence_level: L5
 ---
 
 # INTERFERON BETA-1A

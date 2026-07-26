@@ -4,6 +4,7 @@ title: SAFINAMIDE
 parent: Drugs
 nav_order: 539
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # SAFINAMIDE

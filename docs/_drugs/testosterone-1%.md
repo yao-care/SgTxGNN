@@ -4,6 +4,7 @@ title: TESTOSTERONE 1%
 parent: Drugs
 nav_order: 200
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # TESTOSTERONE 1%

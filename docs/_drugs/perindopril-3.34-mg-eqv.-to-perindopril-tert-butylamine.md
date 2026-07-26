@@ -4,6 +4,7 @@ title: PERINDOPRIL 3.34 MG EQV. TO PERINDOPRIL TERT-BUTYLAMINE
 parent: Drugs
 nav_order: 258
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # PERINDOPRIL 3.34 MG EQV. TO PERINDOPRIL TERT-BUTYLAMINE

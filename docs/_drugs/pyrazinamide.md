@@ -4,6 +4,7 @@ title: PYRAZINAMIDE
 parent: Drugs
 nav_order: 95
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # PYRAZINAMIDE

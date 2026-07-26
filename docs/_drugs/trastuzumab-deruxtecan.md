@@ -4,6 +4,7 @@ title: TRASTUZUMAB DERUXTECAN
 parent: Drugs
 nav_order: 744
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # TRASTUZUMAB DERUXTECAN

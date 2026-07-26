@@ -4,6 +4,7 @@ title: ELEMENTARY IRON
 parent: Drugs
 nav_order: 753
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # ELEMENTARY IRON

@@ -4,6 +4,7 @@ title: BETAHISTINE 2HCL
 parent: Drugs
 nav_order: 543
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # BETAHISTINE 2HCL

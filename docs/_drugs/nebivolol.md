@@ -4,6 +4,7 @@ title: NEBIVOLOL
 parent: Drugs
 nav_order: 504
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # NEBIVOLOL

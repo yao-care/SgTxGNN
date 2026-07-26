@@ -4,6 +4,7 @@ title: BIFONAZOLE MICRONIZED
 parent: Drugs
 nav_order: 498
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # BIFONAZOLE MICRONIZED

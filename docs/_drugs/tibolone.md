@@ -4,6 +4,7 @@ title: TIBOLONE
 parent: Drugs
 nav_order: 608
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # TIBOLONE

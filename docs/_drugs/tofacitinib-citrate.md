@@ -4,6 +4,7 @@ title: TOFACITINIB CITRATE
 parent: Drugs
 nav_order: 578
 last_modified_date: 2026-03-11
+evidence_level: L5
 ---
 
 # TOFACITINIB CITRATE
