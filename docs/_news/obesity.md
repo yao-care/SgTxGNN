@@ -19,7 +19,7 @@ permalink: /news/obesity/
 
 ### [Are Ozempic and other weight loss drugs also longevity drugs? Here's what early research suggests](https://www.channelnewsasia.com/wellness/glp1-drugs-ozempic-longevity-6225001)
 
-2026-07-26
+2026-07-27
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/glp1-drugs-ozempic-longevity-6225001)
 
@@ -27,7 +27,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/glp1-drugs-ozempic-longev
 
 ### [Pharma heavyweights Novo Nordisk and Eli Lilly clash over anti-obesity drug ads](https://www.channelnewsasia.com/world/novo-nordisk-eli-lilly-ads-weightloss-drug-6268796)
 
-2026-07-26
+2026-07-27
 
 Source: [CNA](https://www.channelnewsasia.com/world/novo-nordisk-eli-lilly-ads-weightloss-drug-6268796)
 
