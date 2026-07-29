@@ -41,7 +41,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/dad-got-he
 
 ---
 
-### [Dengue cases in Singapore low but increasing, numbers may rise further with dengue strain change](https://www.straitstimes.com/singapore/health/dengue-cases-in-singapore-low-but-increasing-numbers-may-rise-further-with-dengue-strain-change)
+### [Singapore dengue cases low but increasing, may rise further with strain change](https://www.straitstimes.com/singapore/health/dengue-cases-in-singapore-low-but-increasing-numbers-may-rise-further-with-dengue-strain-change)
 
 2026-07-29
 
