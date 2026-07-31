@@ -19,7 +19,7 @@ permalink: /news/aging/
 
 ### [Singapore must grow longevity economy without driving up healthcare costs: Ong Ye Kung](https://www.straitstimes.com/singapore/health/singapore-must-grow-longevity-economy-without-driving-up-healthcare-costs-ong-ye-kung)
 
-2026-07-30
+2026-07-31
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-must-grow-longevity-economy-without-driving-up-healthcare-costs-ong-ye-kung)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-
 
 ### [Are Ozempic and other weight loss drugs also longevity drugs? Here's what early research suggests](https://www.channelnewsasia.com/wellness/glp1-drugs-ozempic-longevity-6225001)
 
-2026-07-30
+2026-07-31
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/glp1-drugs-ozempic-longevity-6225001)
 
