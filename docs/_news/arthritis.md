@@ -13,15 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**8 articles** related to arthritis.
-
----
-
-### [4 trailblazers receive President’s Award for Nurses](https://www.straitstimes.com/singapore/health/4-trailblazers-receive-presidents-award-for-nurses)
-
-2026-07-31
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/4-trailblazers-receive-presidents-award-for-nurses)
+**7 articles** related to arthritis.
 
 ---
 
