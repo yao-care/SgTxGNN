@@ -13,7 +13,7 @@ permalink: /news/stroke/
 
 ---
 
-**1 articles** related to stroke.
+**2 articles** related to stroke.
 
 ---
 
@@ -22,6 +22,14 @@ permalink: /news/stroke/
 2026-07-31
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/spores-first-specialised-gym-for-stroke-patients-opens-bridging-gap-between-rehab-and-fitness)
+
+---
+
+### [Singapore-based lab to produce clinical trial doses for potential new Ebola vaccine](https://www.straitstimes.com/singapore/health/spore-based-lab-to-produce-clinical-trial-doses-for-potential-new-ebola-vaccine)
+
+2026-07-31
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/spore-based-lab-to-produce-clinical-trial-doses-for-potential-new-ebola-vaccine)
 
 ---
 
