@@ -17,14 +17,6 @@ permalink: /news/arthritis/
 
 ---
 
-### [IMH nurses trained to defuse tense situations before they escalate into abuse and assault](https://www.straitstimes.com/singapore/health/imh-nurses-trained-to-defuse-tense-situations-before-they-escalate-into-abuse-and-assault)
-
-2026-08-01
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/imh-nurses-trained-to-defuse-tense-situations-before-they-escalate-into-abuse-and-assault)
-
----
-
 ### [Dad overhauls his lifestyle to become a living liver donor for his toddler with rare condition](https://www.straitstimes.com/singapore/health/dad-got-healthy-gave-up-bad-habits-to-donate-liver-to-son-with-rare-condition)
 
 2026-08-01
@@ -38,6 +30,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/dad-got-he
 2026-08-01
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/dengue-cases-in-singapore-low-but-increasing-numbers-may-rise-further-with-dengue-strain-change)
+
+---
+
+### [Singer’s rare benign spinal tumour kept at bay with proton beam therapy](https://www.straitstimes.com/singapore/health/singers-rare-benign-spinal-tumour-kept-at-bay-with-proton-beam-therapy)
+
+2026-08-01
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/singers-rare-benign-spinal-tumour-kept-at-bay-with-proton-beam-therapy)
 
 ---
 
