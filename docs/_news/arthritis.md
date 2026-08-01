@@ -19,7 +19,7 @@ permalink: /news/arthritis/
 
 ### [IMH nurses trained to defuse tense situations before they escalate into abuse and assault](https://www.straitstimes.com/singapore/health/imh-nurses-trained-to-defuse-tense-situations-before-they-escalate-into-abuse-and-assault)
 
-2026-07-31
+2026-08-01
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/imh-nurses-trained-to-defuse-tense-situations-before-they-escalate-into-abuse-and-assault)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/imh-nurses
 
 ### [Dad overhauls his lifestyle to become a living liver donor for his toddler with rare condition](https://www.straitstimes.com/singapore/health/dad-got-healthy-gave-up-bad-habits-to-donate-liver-to-son-with-rare-condition)
 
-2026-07-31
+2026-08-01
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/dad-got-healthy-gave-up-bad-habits-to-donate-liver-to-son-with-rare-condition)
 
@@ -35,7 +35,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/dad-got-he
 
 ### [Singapore dengue cases low but increasing, may rise further with strain change](https://www.straitstimes.com/singapore/health/dengue-cases-in-singapore-low-but-increasing-numbers-may-rise-further-with-dengue-strain-change)
 
-2026-07-31
+2026-08-01
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/dengue-cases-in-singapore-low-but-increasing-numbers-may-rise-further-with-dengue-strain-change)
 
@@ -43,7 +43,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/dengue-cas
 
 ### [Commentary: AI can be a personal trainer in your pocket - but is it safe?](https://www.channelnewsasia.com/commentary/ai-personal-trainer-fitness-programme-health-6230166)
 
-2026-07-31
+2026-08-01
 
 Source: [CNA](https://www.channelnewsasia.com/commentary/ai-personal-trainer-fitness-programme-health-6230166)
 
@@ -51,7 +51,7 @@ Source: [CNA](https://www.channelnewsasia.com/commentary/ai-personal-trainer-fit
 
 ### [Your wearable tracks countless health metrics, but which ones are worth paying attention to?](https://www.channelnewsasia.com/wellness/health-wearables-doctors-rfk-apple-watch-6210331)
 
-2026-07-31
+2026-08-01
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/health-wearables-doctors-rfk-apple-watch-6210331)
 
@@ -59,7 +59,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/health-wearables-doctors-
 
 ### [Do high-intensity workouts raise cortisol? Here's why the stress hormone isn't always bad](https://www.channelnewsasia.com/wellness/exercise-stress-cortisol-levels-6228051)
 
-2026-07-31
+2026-08-01
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/exercise-stress-cortisol-levels-6228051)
 
@@ -67,7 +67,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/exercise-stress-cortisol-
 
 ### [Fish oil for brain health: Are omega-3 supplements actually good?](https://www.channelnewsasia.com/wellness/omega-3s-supplements-benefits-brain-6253466)
 
-2026-07-31
+2026-08-01
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/omega-3s-supplements-benefits-brain-6253466)
 
