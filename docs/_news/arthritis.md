@@ -13,15 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**7 articles** related to arthritis.
-
----
-
-### [Dad overhauls his lifestyle to become a living liver donor for his toddler with rare condition](https://www.straitstimes.com/singapore/health/dad-got-healthy-gave-up-bad-habits-to-donate-liver-to-son-with-rare-condition)
-
-2026-08-01
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/dad-got-healthy-gave-up-bad-habits-to-donate-liver-to-son-with-rare-condition)
+**6 articles** related to arthritis.
 
 ---
 
