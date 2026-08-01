@@ -13,7 +13,15 @@ permalink: /news/cancer/
 
 ---
 
-**1 articles** related to cancer.
+**2 articles** related to cancer.
+
+---
+
+### [Singer’s rare benign spinal tumour kept at bay with proton beam therapy](https://www.straitstimes.com/singapore/health/singers-rare-benign-spinal-tumour-kept-at-bay-with-proton-beam-therapy)
+
+2026-08-01
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/singers-rare-benign-spinal-tumour-kept-at-bay-with-proton-beam-therapy)
 
 ---
 
