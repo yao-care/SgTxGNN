@@ -13,21 +13,13 @@ permalink: /news/multiple-sclerosis/
 
 ---
 
-**2 articles** related to multiple sclerosis.
-
----
-
-### [Could a blood test predict if you’ll get Alzheimer’s years before symptoms appear?](https://www.channelnewsasia.com/wellness/alzheimers-blood-tests-6171616)
-
-2026-08-01
-
-Source: [CNA](https://www.channelnewsasia.com/wellness/alzheimers-blood-tests-6171616)
+**1 articles** related to multiple sclerosis.
 
 ---
 
 ### ['My stomach is eating itself': Biohacker Bryan Johnson reveals he has autoimmune disease](https://www.channelnewsasia.com/wellness/bryan-johnson-autoimmune-gastritis-disease-6235086)
 
-2026-08-01
+2026-08-02
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/bryan-johnson-autoimmune-gastritis-disease-6235086)
 
