@@ -19,7 +19,7 @@ permalink: /news/stroke/
 
 ### [S’pore’s first specialised gym for stroke patients opens, bridging gap between rehab and fitness](https://www.straitstimes.com/singapore/health/spores-first-specialised-gym-for-stroke-patients-opens-bridging-gap-between-rehab-and-fitness)
 
-2026-08-02
+2026-08-03
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/spores-first-specialised-gym-for-stroke-patients-opens-bridging-gap-between-rehab-and-fitness)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/spores-fir
 
 ### [Singapore-based lab to produce clinical trial doses for potential new Ebola vaccine](https://www.straitstimes.com/singapore/health/spore-based-lab-to-produce-clinical-trial-doses-for-potential-new-ebola-vaccine)
 
-2026-08-02
+2026-08-03
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/spore-based-lab-to-produce-clinical-trial-doses-for-potential-new-ebola-vaccine)
 
@@ -35,7 +35,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/spore-base
 
 ### [How healthy are cucumbers? Why dietitians still recommend them](https://www.channelnewsasia.com/wellness/cucumber-health-benefits-6268306)
 
-2026-08-02
+2026-08-03
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/cucumber-health-benefits-6268306)
 
