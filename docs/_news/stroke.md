@@ -13,15 +13,7 @@ permalink: /news/stroke/
 
 ---
 
-**3 articles** related to stroke.
-
----
-
-### [S’pore’s first specialised gym for stroke patients opens, bridging gap between rehab and fitness](https://www.straitstimes.com/singapore/health/spores-first-specialised-gym-for-stroke-patients-opens-bridging-gap-between-rehab-and-fitness)
-
-2026-08-03
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/spores-first-specialised-gym-for-stroke-patients-opens-bridging-gap-between-rehab-and-fitness)
+**2 articles** related to stroke.
 
 ---
 
