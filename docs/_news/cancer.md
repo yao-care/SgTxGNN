@@ -13,15 +13,23 @@ permalink: /news/cancer/
 
 ---
 
-**1 articles** related to cancer.
+**2 articles** related to cancer.
 
 ---
 
 ### [Singer’s rare benign spinal tumour kept at bay with proton beam therapy](https://www.straitstimes.com/singapore/health/singers-rare-benign-spinal-tumour-kept-at-bay-with-proton-beam-therapy)
 
-2026-08-02
+2026-08-03
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/singers-rare-benign-spinal-tumour-kept-at-bay-with-proton-beam-therapy)
+
+---
+
+### [Why cancer in young adults is rising – and why their needs are different](https://www.straitstimes.com/singapore/health/why-cancer-in-young-adults-is-rising-and-why-their-needs-are-different)
+
+2026-08-03
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/why-cancer-in-young-adults-is-rising-and-why-their-needs-are-different)
 
 ---
 
