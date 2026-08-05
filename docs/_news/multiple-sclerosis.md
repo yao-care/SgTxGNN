@@ -19,7 +19,7 @@ permalink: /news/multiple-sclerosis/
 
 ### ['My stomach is eating itself': Biohacker Bryan Johnson reveals he has autoimmune disease](https://www.channelnewsasia.com/wellness/bryan-johnson-autoimmune-gastritis-disease-6235086)
 
-2026-08-04
+2026-08-05
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/bryan-johnson-autoimmune-gastritis-disease-6235086)
 
