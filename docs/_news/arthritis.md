@@ -13,7 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**6 articles** related to arthritis.
+**7 articles** related to arthritis.
 
 ---
 
@@ -30,6 +30,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/singers-ra
 2026-08-06
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/enhanced-healthcare-plan-for-more-affordable-accessible-outpatient-care-for-migrant-workers)
+
+---
+
+### [New IP riders attract heightened interest but sales remain muted for some insurers](https://www.straitstimes.com/singapore/health/new-ip-riders-attract-heightened-interest-but-sales-remain-muted-for-some-insurers)
+
+2026-08-06
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-ip-riders-attract-heightened-interest-but-sales-remain-muted-for-some-insurers)
 
 ---
 
