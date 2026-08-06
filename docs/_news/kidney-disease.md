@@ -19,7 +19,7 @@ permalink: /news/kidney-disease/
 
 ### [NKF pushes for more sustainable dialysis to reduce carbon footprint and ease staff’s back pain](https://www.straitstimes.com/singapore/health/nkf-pushes-for-more-sustainable-dialysis-to-reduce-carbon-footprint-and-ease-staffs-back-pain)
 
-2026-08-05
+2026-08-06
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/nkf-pushes-for-more-sustainable-dialysis-to-reduce-carbon-footprint-and-ease-staffs-back-pain)
 
