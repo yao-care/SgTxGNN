@@ -19,7 +19,7 @@ permalink: /news/stroke/
 
 ### [Singapore-based lab to produce clinical trial doses for potential new Ebola vaccine](https://www.straitstimes.com/singapore/health/spore-based-lab-to-produce-clinical-trial-doses-for-potential-new-ebola-vaccine)
 
-2026-08-05
+2026-08-06
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/spore-based-lab-to-produce-clinical-trial-doses-for-potential-new-ebola-vaccine)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/spore-base
 
 ### [How healthy are cucumbers? Why dietitians still recommend them](https://www.channelnewsasia.com/wellness/cucumber-health-benefits-6268306)
 
-2026-08-05
+2026-08-06
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/cucumber-health-benefits-6268306)
 
