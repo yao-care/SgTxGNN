@@ -13,15 +13,7 @@ permalink: /news/stroke/
 
 ---
 
-**2 articles** related to stroke.
-
----
-
-### [Singapore-based lab to produce clinical trial doses for potential new Ebola vaccine](https://www.straitstimes.com/singapore/health/spore-based-lab-to-produce-clinical-trial-doses-for-potential-new-ebola-vaccine)
-
-2026-08-06
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/spore-based-lab-to-produce-clinical-trial-doses-for-potential-new-ebola-vaccine)
+**1 articles** related to stroke.
 
 ---
 
