@@ -13,7 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**5 articles** related to arthritis.
+**6 articles** related to arthritis.
 
 ---
 
@@ -22,6 +22,14 @@ permalink: /news/arthritis/
 2026-08-06
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/singers-rare-benign-spinal-tumour-kept-at-bay-with-proton-beam-therapy)
+
+---
+
+### [Enhanced healthcare plan for more affordable, accessible outpatient care for migrant workers](https://www.straitstimes.com/singapore/health/enhanced-healthcare-plan-for-more-affordable-accessible-outpatient-care-for-migrant-workers)
+
+2026-08-06
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/enhanced-healthcare-plan-for-more-affordable-accessible-outpatient-care-for-migrant-workers)
 
 ---
 
