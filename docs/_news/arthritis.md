@@ -13,15 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**7 articles** related to arthritis.
-
----
-
-### [Singer’s rare benign spinal tumour kept at bay with proton beam therapy](https://www.straitstimes.com/singapore/health/singers-rare-benign-spinal-tumour-kept-at-bay-with-proton-beam-therapy)
-
-2026-08-07
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/singers-rare-benign-spinal-tumour-kept-at-bay-with-proton-beam-therapy)
+**6 articles** related to arthritis.
 
 ---
 
