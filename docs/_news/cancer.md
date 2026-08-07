@@ -19,7 +19,7 @@ permalink: /news/cancer/
 
 ### [Singer’s rare benign spinal tumour kept at bay with proton beam therapy](https://www.straitstimes.com/singapore/health/singers-rare-benign-spinal-tumour-kept-at-bay-with-proton-beam-therapy)
 
-2026-08-06
+2026-08-07
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/singers-rare-benign-spinal-tumour-kept-at-bay-with-proton-beam-therapy)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/singers-ra
 
 ### [Why cancer in young adults is rising – and why their needs are different](https://www.straitstimes.com/singapore/health/why-cancer-in-young-adults-is-rising-and-why-their-needs-are-different)
 
-2026-08-06
+2026-08-07
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/why-cancer-in-young-adults-is-rising-and-why-their-needs-are-different)
 
