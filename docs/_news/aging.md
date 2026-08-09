@@ -19,7 +19,7 @@ permalink: /news/aging/
 
 ### [Are Ozempic and other weight loss drugs also longevity drugs? Here's what early research suggests](https://www.channelnewsasia.com/wellness/glp1-drugs-ozempic-longevity-6225001)
 
-2026-08-08
+2026-08-09
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/glp1-drugs-ozempic-longevity-6225001)
 
