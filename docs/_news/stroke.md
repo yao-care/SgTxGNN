@@ -19,7 +19,7 @@ permalink: /news/stroke/
 
 ### [How healthy are cucumbers? Why dietitians still recommend them](https://www.channelnewsasia.com/wellness/cucumber-health-benefits-6268306)
 
-2026-08-09
+2026-08-10
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/cucumber-health-benefits-6268306)
 
