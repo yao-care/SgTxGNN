@@ -19,7 +19,7 @@ permalink: /news/cancer/
 
 ### [Why cancer in young adults is rising – and why their needs are different](https://www.straitstimes.com/singapore/health/why-cancer-in-young-adults-is-rising-and-why-their-needs-are-different)
 
-2026-08-11
+2026-08-12
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/why-cancer-in-young-adults-is-rising-and-why-their-needs-are-different)
 
