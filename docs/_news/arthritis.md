@@ -19,7 +19,7 @@ permalink: /news/arthritis/
 
 ### [Enhanced healthcare plan for more affordable, accessible outpatient care for migrant workers](https://www.straitstimes.com/singapore/health/enhanced-healthcare-plan-for-more-affordable-accessible-outpatient-care-for-migrant-workers)
 
-2026-08-11
+2026-08-12
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/enhanced-healthcare-plan-for-more-affordable-accessible-outpatient-care-for-migrant-workers)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/enhanced-h
 
 ### [New IP riders attract heightened interest but sales remain muted for some insurers](https://www.straitstimes.com/singapore/health/new-ip-riders-attract-heightened-interest-but-sales-remain-muted-for-some-insurers)
 
-2026-08-11
+2026-08-12
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-ip-riders-attract-heightened-interest-but-sales-remain-muted-for-some-insurers)
 
@@ -35,7 +35,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-ip-rid
 
 ### [Commentary: AI can be a personal trainer in your pocket - but is it safe?](https://www.channelnewsasia.com/commentary/ai-personal-trainer-fitness-programme-health-6230166)
 
-2026-08-11
+2026-08-12
 
 Source: [CNA](https://www.channelnewsasia.com/commentary/ai-personal-trainer-fitness-programme-health-6230166)
 
@@ -43,7 +43,7 @@ Source: [CNA](https://www.channelnewsasia.com/commentary/ai-personal-trainer-fit
 
 ### [Your wearable tracks countless health metrics, but which ones are worth paying attention to?](https://www.channelnewsasia.com/wellness/health-wearables-doctors-rfk-apple-watch-6210331)
 
-2026-08-11
+2026-08-12
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/health-wearables-doctors-rfk-apple-watch-6210331)
 
@@ -51,7 +51,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/health-wearables-doctors-
 
 ### [Do high-intensity workouts raise cortisol? Here's why the stress hormone isn't always bad](https://www.channelnewsasia.com/wellness/exercise-stress-cortisol-levels-6228051)
 
-2026-08-11
+2026-08-12
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/exercise-stress-cortisol-levels-6228051)
 
@@ -59,7 +59,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/exercise-stress-cortisol-
 
 ### [Fish oil for brain health: Are omega-3 supplements actually good?](https://www.channelnewsasia.com/wellness/omega-3s-supplements-benefits-brain-6253466)
 
-2026-08-11
+2026-08-12
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/omega-3s-supplements-benefits-brain-6253466)
 
@@ -67,7 +67,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/omega-3s-supplements-bene
 
 ### [She spent decades alone with a rare genetic condition – now she's building a community for others like her](https://www.channelnewsasia.com/women/neurofibromatosis-support-group-singapore-6279901)
 
-2026-08-11
+2026-08-12
 
 Source: [CNA](https://www.channelnewsasia.com/women/neurofibromatosis-support-group-singapore-6279901)
 
