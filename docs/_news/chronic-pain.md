@@ -19,7 +19,7 @@ permalink: /news/chronic-pain/
 
 ### [NKF pushes for more sustainable dialysis to reduce carbon footprint and ease staff’s back pain](https://www.straitstimes.com/singapore/health/nkf-pushes-for-more-sustainable-dialysis-to-reduce-carbon-footprint-and-ease-staffs-back-pain)
 
-2026-08-12
+2026-08-13
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/nkf-pushes-for-more-sustainable-dialysis-to-reduce-carbon-footprint-and-ease-staffs-back-pain)
 
