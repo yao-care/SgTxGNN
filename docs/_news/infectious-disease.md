@@ -19,7 +19,7 @@ permalink: /news/infectious-disease/
 
 ### [Dentists in S’pore lack awareness on prescribing antibiotics: NUS study](https://www.straitstimes.com/singapore/health/dentists-in-spore-lack-awareness-on-prescribing-antibiotics-nus-study)
 
-2026-08-15
+2026-08-16
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/dentists-in-spore-lack-awareness-on-prescribing-antibiotics-nus-study)
 
