@@ -19,7 +19,7 @@ permalink: /news/aging/
 
 ### [New biological age test uses Asian cohort data to measure how quickly you are ageing](https://www.straitstimes.com/singapore/health/new-biological-age-test-uses-asian-cohort-data-to-measure-how-fast-you-age)
 
-2026-08-15
+2026-08-16
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-biological-age-test-uses-asian-cohort-data-to-measure-how-fast-you-age)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-biolog
 
 ### [Are Ozempic and other weight loss drugs also longevity drugs? Here's what early research suggests](https://www.channelnewsasia.com/wellness/glp1-drugs-ozempic-longevity-6225001)
 
-2026-08-15
+2026-08-16
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/glp1-drugs-ozempic-longevity-6225001)
 
@@ -35,7 +35,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/glp1-drugs-ozempic-longev
 
 ### [9 things health experts wish you’d do in midlife to increase longevity](https://www.channelnewsasia.com/wellness/longevity-expert-tips-middle-age-6301671)
 
-2026-08-15
+2026-08-16
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/longevity-expert-tips-middle-age-6301671)
 
