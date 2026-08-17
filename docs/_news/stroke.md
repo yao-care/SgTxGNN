@@ -13,7 +13,15 @@ permalink: /news/stroke/
 
 ---
 
-**1 articles** related to stroke.
+**2 articles** related to stroke.
+
+---
+
+### [New $4.5m rehab initiative to help 2,000 people with Parkinson’s disease](https://www.straitstimes.com/singapore/health/new-4-48m-rehab-initiative-to-help-2000-people-with-parkinsons-disease)
+
+2026-08-17
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-4-48m-rehab-initiative-to-help-2000-people-with-parkinsons-disease)
 
 ---
 
