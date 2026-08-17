@@ -19,7 +19,7 @@ permalink: /news/arthritis/
 
 ### [Enhanced healthcare plan for more affordable, accessible outpatient care for migrant workers](https://www.straitstimes.com/singapore/health/enhanced-healthcare-plan-for-more-affordable-accessible-outpatient-care-for-migrant-workers)
 
-2026-08-16
+2026-08-17
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/enhanced-healthcare-plan-for-more-affordable-accessible-outpatient-care-for-migrant-workers)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/enhanced-h
 
 ### [New IP riders attract heightened interest but sales remain muted for some insurers](https://www.straitstimes.com/singapore/health/new-ip-riders-attract-heightened-interest-but-sales-remain-muted-for-some-insurers)
 
-2026-08-16
+2026-08-17
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-ip-riders-attract-heightened-interest-but-sales-remain-muted-for-some-insurers)
 
@@ -35,7 +35,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-ip-rid
 
 ### [Do high-intensity workouts raise cortisol? Here's why the stress hormone isn't always bad](https://www.channelnewsasia.com/wellness/exercise-stress-cortisol-levels-6228051)
 
-2026-08-16
+2026-08-17
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/exercise-stress-cortisol-levels-6228051)
 
@@ -43,7 +43,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/exercise-stress-cortisol-
 
 ### [Fish oil for brain health: Are omega-3 supplements actually good?](https://www.channelnewsasia.com/wellness/omega-3s-supplements-benefits-brain-6253466)
 
-2026-08-16
+2026-08-17
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/omega-3s-supplements-benefits-brain-6253466)
 
@@ -51,7 +51,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/omega-3s-supplements-bene
 
 ### [She spent decades alone with a rare genetic condition – now she's building a community for others like her](https://www.channelnewsasia.com/women/neurofibromatosis-support-group-singapore-6279901)
 
-2026-08-16
+2026-08-17
 
 Source: [CNA](https://www.channelnewsasia.com/women/neurofibromatosis-support-group-singapore-6279901)
 
@@ -59,7 +59,7 @@ Source: [CNA](https://www.channelnewsasia.com/women/neurofibromatosis-support-gr
 
 ### [What chiropractors can help with – and what patients should know](https://www.channelnewsasia.com/wellness/chiropractors-treatments-6306271)
 
-2026-08-16
+2026-08-17
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/chiropractors-treatments-6306271)
 
