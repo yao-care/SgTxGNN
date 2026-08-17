@@ -17,19 +17,19 @@ permalink: /news/arthritis/
 
 ---
 
-### [Enhanced healthcare plan for more affordable, accessible outpatient care for migrant workers](https://www.straitstimes.com/singapore/health/enhanced-healthcare-plan-for-more-affordable-accessible-outpatient-care-for-migrant-workers)
-
-2026-08-17
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/enhanced-healthcare-plan-for-more-affordable-accessible-outpatient-care-for-migrant-workers)
-
----
-
 ### [New IP riders attract heightened interest but sales remain muted for some insurers](https://www.straitstimes.com/singapore/health/new-ip-riders-attract-heightened-interest-but-sales-remain-muted-for-some-insurers)
 
 2026-08-17
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-ip-riders-attract-heightened-interest-but-sales-remain-muted-for-some-insurers)
+
+---
+
+### [Research integrating Western medicine and TCM gets boost under new collaboration](https://www.straitstimes.com/singapore/health/research-integrating-western-medicine-and-tcm-gets-boost-under-new-collaboration)
+
+2026-08-17
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/research-integrating-western-medicine-and-tcm-gets-boost-under-new-collaboration)
 
 ---
 
