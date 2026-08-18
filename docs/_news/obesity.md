@@ -13,7 +13,7 @@ permalink: /news/obesity/
 
 ---
 
-**2 articles** related to obesity.
+**3 articles** related to obesity.
 
 ---
 
@@ -30,6 +30,14 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/glp1-drugs-ozempic-longev
 2026-08-18
 
 Source: [CNA](https://www.channelnewsasia.com/world/novo-nordisk-eli-lilly-ads-weightloss-drug-6268796)
+
+---
+
+### [Why obesity is not simply about willpower](https://www.channelnewsasia.com/advertorial/why-obesity-not-simply-about-willpower-6255261)
+
+2026-08-18
+
+Source: [CNA](https://www.channelnewsasia.com/advertorial/why-obesity-not-simply-about-willpower-6255261)
 
 ---
 
