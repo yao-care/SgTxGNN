@@ -19,7 +19,7 @@ permalink: /news/cancer/
 
 ### [Life After... gastrointestinal stromal tumour: Battle with cancer helps entrepreneur get to the gist of life](https://www.straitstimes.com/singapore/health/life-after-gastrointestinal-stromal-tumour-entrepreneur-gets-to-the-gist-of-life-after-rare-cancer)
 
-2026-08-18
+2026-08-19
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/life-after-gastrointestinal-stromal-tumour-entrepreneur-gets-to-the-gist-of-life-after-rare-cancer)
 
