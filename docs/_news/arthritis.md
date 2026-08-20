@@ -13,7 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**4 articles** related to arthritis.
+**5 articles** related to arthritis.
 
 ---
 
@@ -22,6 +22,14 @@ permalink: /news/arthritis/
 2026-08-20
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/research-integrating-western-medicine-and-tcm-gets-boost-under-new-collaboration)
+
+---
+
+### [Do high-intensity workouts raise cortisol? Here's why the stress hormone isn't always bad](https://www.channelnewsasia.com/wellness/exercise-stress-cortisol-levels-6228051)
+
+2026-08-20
+
+Source: [CNA](https://www.channelnewsasia.com/wellness/exercise-stress-cortisol-levels-6228051)
 
 ---
 
