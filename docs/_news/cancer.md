@@ -13,13 +13,21 @@ permalink: /news/cancer/
 
 ---
 
-**1 articles** related to cancer.
+**2 articles** related to cancer.
+
+---
+
+### [CNA Explains: A cancer survivor who needed work flexibility was forced to quit – what went wrong?](https://www.todayonline.com/singapore/cancer-survivor-work-home-flexible-policy-employer-forced-resign-wrongful-dismissal-6330206)
+
+2026-08-21
+
+Source: [TODAY](https://www.todayonline.com/singapore/cancer-survivor-work-home-flexible-policy-employer-forced-resign-wrongful-dismissal-6330206)
 
 ---
 
 ### [Life After... gastrointestinal stromal tumour: Battle with cancer helps entrepreneur get to the gist of life](https://www.straitstimes.com/singapore/health/life-after-gastrointestinal-stromal-tumour-entrepreneur-gets-to-the-gist-of-life-after-rare-cancer)
 
-2026-08-20
+2026-08-21
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/life-after-gastrointestinal-stromal-tumour-entrepreneur-gets-to-the-gist-of-life-after-rare-cancer)
 
