@@ -13,15 +13,7 @@ permalink: /news/cancer/
 
 ---
 
-**2 articles** related to cancer.
-
----
-
-### [CNA Explains: A cancer survivor who needed work flexibility was forced to quit – what went wrong?](https://www.todayonline.com/singapore/cancer-survivor-work-home-flexible-policy-employer-forced-resign-wrongful-dismissal-6330206)
-
-2026-08-21
-
-Source: [TODAY](https://www.todayonline.com/singapore/cancer-survivor-work-home-flexible-policy-employer-forced-resign-wrongful-dismissal-6330206)
+**1 articles** related to cancer.
 
 ---
 
