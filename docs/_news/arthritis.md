@@ -13,7 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**5 articles** related to arthritis.
+**6 articles** related to arthritis.
 
 ---
 
@@ -22,6 +22,14 @@ permalink: /news/arthritis/
 2026-08-22
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/research-integrating-western-medicine-and-tcm-gets-boost-under-new-collaboration)
+
+---
+
+### [S’pore general dentists split over new guidelines for wisdom tooth surgery](https://www.straitstimes.com/singapore/health/spore-general-dentists-split-over-new-guidelines-for-wisdom-tooth-surgery)
+
+2026-08-22
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/spore-general-dentists-split-over-new-guidelines-for-wisdom-tooth-surgery)
 
 ---
 
