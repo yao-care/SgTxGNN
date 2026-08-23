@@ -13,15 +13,23 @@ permalink: /news/cancer/
 
 ---
 
-**1 articles** related to cancer.
+**2 articles** related to cancer.
 
 ---
 
 ### [Life After... gastrointestinal stromal tumour: Battle with cancer helps entrepreneur get to the gist of life](https://www.straitstimes.com/singapore/health/life-after-gastrointestinal-stromal-tumour-entrepreneur-gets-to-the-gist-of-life-after-rare-cancer)
 
-2026-08-22
+2026-08-23
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/life-after-gastrointestinal-stromal-tumour-entrepreneur-gets-to-the-gist-of-life-after-rare-cancer)
+
+---
+
+### [NUS researchers find drug that turns off ‘master switch’ in aggressive breast cancer](https://www.straitstimes.com/singapore/health/nus-researchers-find-drug-that-turns-off-master-switch-in-aggressive-breast-cancer)
+
+2026-08-23
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/nus-researchers-find-drug-that-turns-off-master-switch-in-aggressive-breast-cancer)
 
 ---
 
