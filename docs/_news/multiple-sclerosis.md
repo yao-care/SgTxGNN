@@ -19,7 +19,7 @@ permalink: /news/multiple-sclerosis/
 
 ### [Girl born with skin missing from her scalp, body, arms and legs, treated with her own lab-grown skin](https://www.straitstimes.com/singapore/health/girl-born-with-skin-missing-from-her-scalp-body-arms-and-legs)
 
-2026-08-23
+2026-08-24
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/girl-born-with-skin-missing-from-her-scalp-body-arms-and-legs)
 
