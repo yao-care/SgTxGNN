@@ -13,15 +13,7 @@ permalink: /news/aging/
 
 ---
 
-**3 articles** related to aging.
-
----
-
-### [New biological age test uses Asian cohort data to measure how quickly you are ageing](https://www.straitstimes.com/singapore/health/new-biological-age-test-uses-asian-cohort-data-to-measure-how-fast-you-age)
-
-2026-08-25
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-biological-age-test-uses-asian-cohort-data-to-measure-how-fast-you-age)
+**2 articles** related to aging.
 
 ---
 
