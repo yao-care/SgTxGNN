@@ -13,7 +13,7 @@ permalink: /news/stroke/
 
 ---
 
-**2 articles** related to stroke.
+**3 articles** related to stroke.
 
 ---
 
@@ -22,6 +22,14 @@ permalink: /news/stroke/
 2026-08-26
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-4-48m-rehab-initiative-to-help-2000-people-with-parkinsons-disease)
+
+---
+
+### [New SUSS initiative to boost student start-ups and social ventures tackling social challenges](https://www.straitstimes.com/singapore/health/new-suss-initiative-to-boost-student-start-ups-and-social-ventures-tackling-social-challenges)
+
+2026-08-26
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-suss-initiative-to-boost-student-start-ups-and-social-ventures-tackling-social-challenges)
 
 ---
 
