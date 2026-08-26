@@ -19,7 +19,7 @@ permalink: /news/stroke/
 
 ### [New $4.5m rehab initiative to help 2,000 people with Parkinson’s disease](https://www.straitstimes.com/singapore/health/new-4-48m-rehab-initiative-to-help-2000-people-with-parkinsons-disease)
 
-2026-08-25
+2026-08-26
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-4-48m-rehab-initiative-to-help-2000-people-with-parkinsons-disease)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-4-48m-
 
 ### [How healthy are cucumbers? Why dietitians still recommend them](https://www.channelnewsasia.com/wellness/cucumber-health-benefits-6268306)
 
-2026-08-25
+2026-08-26
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/cucumber-health-benefits-6268306)
 
