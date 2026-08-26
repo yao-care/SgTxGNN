@@ -19,7 +19,7 @@ permalink: /news/aging/
 
 ### [Are Ozempic and other weight loss drugs also longevity drugs? Here's what early research suggests](https://www.channelnewsasia.com/wellness/glp1-drugs-ozempic-longevity-6225001)
 
-2026-08-25
+2026-08-26
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/glp1-drugs-ozempic-longevity-6225001)
 
@@ -27,7 +27,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/glp1-drugs-ozempic-longev
 
 ### [9 things health experts wish you’d do in midlife to increase longevity](https://www.channelnewsasia.com/wellness/longevity-expert-tips-middle-age-6301671)
 
-2026-08-25
+2026-08-26
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/longevity-expert-tips-middle-age-6301671)
 
