@@ -2,7 +2,7 @@
 layout: default
 title: Lurasidone
 parent: 僅模型預測 (L5)
-nav_order: 570
+nav_order: 615
 evidence_level: L5
 indication_count: 10
 ---

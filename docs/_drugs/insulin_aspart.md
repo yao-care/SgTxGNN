@@ -2,7 +2,7 @@
 layout: default
 title: Insulin Aspart
 parent: 僅模型預測 (L5)
-nav_order: 516
+nav_order: 529
 evidence_level: L5
 indication_count: 10
 ---

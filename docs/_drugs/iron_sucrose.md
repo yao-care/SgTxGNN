@@ -2,7 +2,7 @@
 layout: default
 title: Iron Sucrose
 parent: 僅模型預測 (L5)
-nav_order: 533
+nav_order: 546
 evidence_level: L5
 indication_count: 10
 ---

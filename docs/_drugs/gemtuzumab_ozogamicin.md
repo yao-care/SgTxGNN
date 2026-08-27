@@ -2,7 +2,7 @@
 layout: default
 title: Gemtuzumab Ozogamicin
 parent: 僅模型預測 (L5)
-nav_order: 458
+nav_order: 471
 evidence_level: L5
 indication_count: 10
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Magnesium Acetate Tetrahydrate
 parent: 僅模型預測 (L5)
-nav_order: 575
+nav_order: 620
 evidence_level: L5
 indication_count: 10
 ---

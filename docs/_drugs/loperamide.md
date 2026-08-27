@@ -2,7 +2,7 @@
 layout: default
 title: Loperamide
 parent: 僅模型預測 (L5)
-nav_order: 561
+nav_order: 606
 evidence_level: L5
 indication_count: 10
 ---
