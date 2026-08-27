@@ -2,7 +2,7 @@
 layout: default
 title: Isoniazid
 parent: 僅模型預測 (L5)
-nav_order: 538
+nav_order: 551
 evidence_level: L5
 indication_count: 10
 ---

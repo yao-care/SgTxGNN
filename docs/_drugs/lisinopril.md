@@ -2,7 +2,7 @@
 layout: default
 title: Lisinopril
 parent: 僅模型預測 (L5)
-nav_order: 556
+nav_order: 601
 evidence_level: L5
 indication_count: 10
 ---

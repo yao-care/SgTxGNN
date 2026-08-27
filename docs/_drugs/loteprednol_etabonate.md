@@ -2,7 +2,7 @@
 layout: default
 title: Loteprednol Etabonate
 parent: 僅模型預測 (L5)
-nav_order: 567
+nav_order: 612
 evidence_level: L5
 indication_count: 10
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Ivabradine
 parent: 僅模型預測 (L5)
-nav_order: 542
+nav_order: 555
 evidence_level: L5
 indication_count: 10
 ---

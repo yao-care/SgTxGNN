@@ -2,7 +2,7 @@
 layout: default
 title: Human Thrombin
 parent: 僅模型預測 (L5)
-nav_order: 483
+nav_order: 496
 evidence_level: L5
 indication_count: 10
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Lixisenatide
 parent: 僅模型預測 (L5)
-nav_order: 558
+nav_order: 603
 evidence_level: L5
 indication_count: 10
 ---

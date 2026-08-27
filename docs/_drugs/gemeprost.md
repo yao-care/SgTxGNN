@@ -2,7 +2,7 @@
 layout: default
 title: Gemeprost
 parent: 僅模型預測 (L5)
-nav_order: 456
+nav_order: 469
 evidence_level: L5
 indication_count: 10
 ---

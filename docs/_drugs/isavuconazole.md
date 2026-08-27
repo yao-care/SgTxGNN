@@ -2,7 +2,7 @@
 layout: default
 title: Isavuconazole
 parent: 僅模型預測 (L5)
-nav_order: 535
+nav_order: 548
 evidence_level: L5
 indication_count: 10
 ---
