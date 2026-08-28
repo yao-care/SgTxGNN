@@ -13,7 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**5 articles** related to arthritis.
+**6 articles** related to arthritis.
 
 ---
 
@@ -30,6 +30,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/research-i
 2026-08-28
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/spore-general-dentists-split-over-new-guidelines-for-wisdom-tooth-surgery)
+
+---
+
+### [Living with an extra X chromosome: How one man cracked the code of his condition](https://www.straitstimes.com/singapore/health/living-with-an-extra-x-chromosome-how-one-man-cracked-the-code-of-his-condition)
+
+2026-08-28
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/living-with-an-extra-x-chromosome-how-one-man-cracked-the-code-of-his-condition)
 
 ---
 
