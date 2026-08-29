@@ -33,7 +33,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/spore-gene
 
 ---
 
-### [Living with an extra X chromosome: How one man cracked the code of his condition](https://www.straitstimes.com/singapore/health/living-with-an-extra-x-chromosome-how-one-man-cracked-the-code-of-his-condition)
+### [Living with an extra X chromosome: How one man cracked the code to his condition](https://www.straitstimes.com/singapore/health/living-with-an-extra-x-chromosome-how-one-man-cracked-the-code-of-his-condition)
 
 2026-08-29
 
