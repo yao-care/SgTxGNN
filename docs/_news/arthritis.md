@@ -13,7 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**7 articles** related to arthritis.
+**8 articles** related to arthritis.
 
 ---
 
@@ -46,6 +46,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/living-wit
 2026-08-31
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/private-not-for-profit-hospital-to-be-located-in-the-east-due-to-high-occupancy-rates-moh)
+
+---
+
+### [Singapore-based research network appointed WHO collaborating centre for clinical trials](https://www.straitstimes.com/singapore/health/singapore-based-research-network-is-appointed-who-collaborating-centre-for-clinical-trials)
+
+2026-08-31
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-based-research-network-is-appointed-who-collaborating-centre-for-clinical-trials)
 
 ---
 
