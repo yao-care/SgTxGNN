@@ -19,7 +19,7 @@ permalink: /news/arthritis/
 
 ### [Research integrating Western medicine and TCM gets boost under new collaboration](https://www.straitstimes.com/singapore/health/research-integrating-western-medicine-and-tcm-gets-boost-under-new-collaboration)
 
-2026-08-31
+2026-09-01
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/research-integrating-western-medicine-and-tcm-gets-boost-under-new-collaboration)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/research-i
 
 ### [S’pore general dentists split over new guidelines for wisdom tooth surgery](https://www.straitstimes.com/singapore/health/spore-general-dentists-split-over-new-guidelines-for-wisdom-tooth-surgery)
 
-2026-08-31
+2026-09-01
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/spore-general-dentists-split-over-new-guidelines-for-wisdom-tooth-surgery)
 
@@ -35,7 +35,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/spore-gene
 
 ### [Living with an extra X chromosome: How one man cracked the code to his condition](https://www.straitstimes.com/singapore/health/living-with-an-extra-x-chromosome-how-one-man-cracked-the-code-of-his-condition)
 
-2026-08-31
+2026-09-01
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/living-with-an-extra-x-chromosome-how-one-man-cracked-the-code-of-his-condition)
 
@@ -43,7 +43,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/living-wit
 
 ### [New private not-for-profit hospital to be located in the east due to high occupancy rates: MOH](https://www.straitstimes.com/singapore/health/private-not-for-profit-hospital-to-be-located-in-the-east-due-to-high-occupancy-rates-moh)
 
-2026-08-31
+2026-09-01
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/private-not-for-profit-hospital-to-be-located-in-the-east-due-to-high-occupancy-rates-moh)
 
@@ -51,23 +51,15 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/private-no
 
 ### [Singapore-based research network appointed WHO collaborating centre for clinical trials](https://www.straitstimes.com/singapore/health/singapore-based-research-network-is-appointed-who-collaborating-centre-for-clinical-trials)
 
-2026-08-31
+2026-09-01
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-based-research-network-is-appointed-who-collaborating-centre-for-clinical-trials)
 
 ---
 
-### [Fish oil for brain health: Are omega-3 supplements actually good?](https://www.channelnewsasia.com/wellness/omega-3s-supplements-benefits-brain-6253466)
-
-2026-08-31
-
-Source: [CNA](https://www.channelnewsasia.com/wellness/omega-3s-supplements-benefits-brain-6253466)
-
----
-
 ### [She spent decades alone with a rare genetic condition – now she's building a community for others like her](https://www.channelnewsasia.com/women/neurofibromatosis-support-group-singapore-6279901)
 
-2026-08-31
+2026-09-01
 
 Source: [CNA](https://www.channelnewsasia.com/women/neurofibromatosis-support-group-singapore-6279901)
 
@@ -75,9 +67,17 @@ Source: [CNA](https://www.channelnewsasia.com/women/neurofibromatosis-support-gr
 
 ### [What chiropractors can help with – and what patients should know](https://www.channelnewsasia.com/wellness/chiropractors-treatments-6306271)
 
-2026-08-31
+2026-09-01
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/chiropractors-treatments-6306271)
+
+---
+
+### [Always tripping or spraining your ankles? When ‘clumsiness’ could be a genetic nerve disorder](https://www.channelnewsasia.com/wellness/charcot-marie-tooth-tripping-weakness-6323596)
+
+2026-09-01
+
+Source: [CNA](https://www.channelnewsasia.com/wellness/charcot-marie-tooth-tripping-weakness-6323596)
 
 ---
 
