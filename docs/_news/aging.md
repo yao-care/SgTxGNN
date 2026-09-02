@@ -19,7 +19,7 @@ permalink: /news/aging/
 
 ### [9 things health experts wish you’d do in midlife to increase longevity](https://www.channelnewsasia.com/wellness/longevity-expert-tips-middle-age-6301671)
 
-2026-09-01
+2026-09-02
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/longevity-expert-tips-middle-age-6301671)
 
