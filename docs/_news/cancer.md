@@ -19,7 +19,7 @@ permalink: /news/cancer/
 
 ### [NUS researchers find drug that turns off ‘master switch’ in aggressive breast cancer](https://www.straitstimes.com/singapore/health/nus-researchers-find-drug-that-turns-off-master-switch-in-aggressive-breast-cancer)
 
-2026-09-02
+2026-09-03
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/nus-researchers-find-drug-that-turns-off-master-switch-in-aggressive-breast-cancer)
 

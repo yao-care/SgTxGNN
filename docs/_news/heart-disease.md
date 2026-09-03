@@ -19,7 +19,7 @@ permalink: /news/heart-disease/
 
 ### [She spent decades alone with a rare genetic condition – now she's building a community for others like her](https://www.channelnewsasia.com/women/neurofibromatosis-support-group-singapore-6279901)
 
-2026-09-02
+2026-09-03
 
 Source: [CNA](https://www.channelnewsasia.com/women/neurofibromatosis-support-group-singapore-6279901)
 
