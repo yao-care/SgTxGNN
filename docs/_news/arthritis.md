@@ -13,7 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**8 articles** related to arthritis.
+**9 articles** related to arthritis.
 
 ---
 
@@ -54,6 +54,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/private-no
 2026-09-03
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-based-research-network-is-appointed-who-collaborating-centre-for-clinical-trials)
+
+---
+
+### [Palliative care and surgery encouraged for advanced cancer patients under new initiative](https://www.straitstimes.com/singapore/health/palliative-care-and-surgery-encouraged-for-advanced-cancer-patients-under-new-initiative)
+
+2026-09-03
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/palliative-care-and-surgery-encouraged-for-advanced-cancer-patients-under-new-initiative)
 
 ---
 

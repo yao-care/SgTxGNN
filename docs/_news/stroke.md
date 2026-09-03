@@ -17,19 +17,19 @@ permalink: /news/stroke/
 
 ---
 
-### [New $4.5m rehab initiative to help 2,000 people with Parkinson’s disease](https://www.straitstimes.com/singapore/health/new-4-48m-rehab-initiative-to-help-2000-people-with-parkinsons-disease)
-
-2026-09-03
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-4-48m-rehab-initiative-to-help-2000-people-with-parkinsons-disease)
-
----
-
 ### [New SUSS initiative to boost student start-ups and social ventures tackling social challenges](https://www.straitstimes.com/singapore/health/new-suss-initiative-to-boost-student-start-ups-and-social-ventures-tackling-social-challenges)
 
 2026-09-03
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-suss-initiative-to-boost-student-start-ups-and-social-ventures-tackling-social-challenges)
+
+---
+
+### [Palliative care and surgery encouraged for advanced cancer patients under new initiative](https://www.straitstimes.com/singapore/health/palliative-care-and-surgery-encouraged-for-advanced-cancer-patients-under-new-initiative)
+
+2026-09-03
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/palliative-care-and-surgery-encouraged-for-advanced-cancer-patients-under-new-initiative)
 
 ---
 
