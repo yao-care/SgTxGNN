@@ -2,7 +2,7 @@
 layout: default
 title: Methylnaltrexone
 parent: 僅模型預測 (L5)
-nav_order: 653
+nav_order: 656
 evidence_level: L5
 indication_count: 10
 ---

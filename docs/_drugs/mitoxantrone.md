@@ -2,7 +2,7 @@
 layout: default
 title: Mitoxantrone
 parent: 僅模型預測 (L5)
-nav_order: 664
+nav_order: 675
 evidence_level: L5
 indication_count: 10
 ---
