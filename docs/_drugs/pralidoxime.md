@@ -2,7 +2,7 @@
 layout: default
 title: Pralidoxime
 parent: 僅模型預測 (L5)
-nav_order: 676
+nav_order: 807
 evidence_level: L5
 indication_count: 10
 ---

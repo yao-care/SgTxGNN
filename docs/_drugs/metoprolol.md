@@ -2,7 +2,7 @@
 layout: default
 title: Metoprolol
 parent: 僅模型預測 (L5)
-nav_order: 657
+nav_order: 661
 evidence_level: L5
 indication_count: 10
 ---
