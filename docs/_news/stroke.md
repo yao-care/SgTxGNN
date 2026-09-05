@@ -13,15 +13,7 @@ permalink: /news/stroke/
 
 ---
 
-**3 articles** related to stroke.
-
----
-
-### [New SUSS initiative to boost student start-ups and social ventures tackling social challenges](https://www.straitstimes.com/singapore/health/new-suss-initiative-to-boost-student-start-ups-and-social-ventures-tackling-social-challenges)
-
-2026-09-05
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-suss-initiative-to-boost-student-start-ups-and-social-ventures-tackling-social-challenges)
+**2 articles** related to stroke.
 
 ---
 

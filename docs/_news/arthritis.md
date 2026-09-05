@@ -13,7 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**8 articles** related to arthritis.
+**9 articles** related to arthritis.
 
 ---
 
@@ -54,6 +54,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/palliative
 2026-09-05
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/personalised-health-dashboard-body-servicing-inside-spores-massive-healthy-ageing-experiment)
+
+---
+
+### [Rare disorder leaves toddler struggling to produce energy](https://www.straitstimes.com/singapore/health/when-a-rare-disorder-leaves-a-toddler-struggling-to-produce-energy)
+
+2026-09-05
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/when-a-rare-disorder-leaves-a-toddler-struggling-to-produce-energy)
 
 ---
 
