@@ -17,19 +17,19 @@ permalink: /news/aging/
 
 ---
 
-### [Rethinking ageing: It’s not about just adding years to life, but adding life to years](https://www.straitstimes.com/singapore/health/rethinking-ageing-its-not-about-just-adding-years-to-life-but-adding-life-to-years)
-
-2026-09-05
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/rethinking-ageing-its-not-about-just-adding-years-to-life-but-adding-life-to-years)
-
----
-
 ### [Investing in the future of health: Singapore’s growing longevity sector](https://www.straitstimes.com/singapore/health/inside-singapores-growing-longevity-market)
 
 2026-09-05
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/inside-singapores-growing-longevity-market)
+
+---
+
+### [Rethinking ageing: It’s not about just adding years to life, but adding life to years](https://www.straitstimes.com/singapore/health/rethinking-ageing-its-not-about-just-adding-years-to-life-but-adding-life-to-years)
+
+2026-09-05
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/rethinking-ageing-its-not-about-just-adding-years-to-life-but-adding-life-to-years)
 
 ---
 
