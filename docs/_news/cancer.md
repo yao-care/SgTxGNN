@@ -13,21 +13,13 @@ permalink: /news/cancer/
 
 ---
 
-**2 articles** related to cancer.
-
----
-
-### [NUS researchers find drug that turns off ‘master switch’ in aggressive breast cancer](https://www.straitstimes.com/singapore/health/nus-researchers-find-drug-that-turns-off-master-switch-in-aggressive-breast-cancer)
-
-2026-09-04
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/nus-researchers-find-drug-that-turns-off-master-switch-in-aggressive-breast-cancer)
+**1 articles** related to cancer.
 
 ---
 
 ### [Palliative care and surgery encouraged for advanced cancer patients under new initiative](https://www.straitstimes.com/singapore/health/palliative-care-and-surgery-encouraged-for-advanced-cancer-patients-under-new-initiative)
 
-2026-09-04
+2026-09-05
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/palliative-care-and-surgery-encouraged-for-advanced-cancer-patients-under-new-initiative)
 
