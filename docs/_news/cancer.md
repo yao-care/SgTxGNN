@@ -13,15 +13,7 @@ permalink: /news/cancer/
 
 ---
 
-**2 articles** related to cancer.
-
----
-
-### [Palliative care and surgery encouraged for advanced cancer patients under new initiative](https://www.straitstimes.com/singapore/health/palliative-care-and-surgery-encouraged-for-advanced-cancer-patients-under-new-initiative)
-
-2026-09-07
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/palliative-care-and-surgery-encouraged-for-advanced-cancer-patients-under-new-initiative)
+**1 articles** related to cancer.
 
 ---
 

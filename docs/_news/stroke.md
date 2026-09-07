@@ -17,11 +17,11 @@ permalink: /news/stroke/
 
 ---
 
-### [Palliative care and surgery encouraged for advanced cancer patients under new initiative](https://www.straitstimes.com/singapore/health/palliative-care-and-surgery-encouraged-for-advanced-cancer-patients-under-new-initiative)
+### [TTSH launches new initiative to tackle sepsis and prevent it from becoming deadly](https://www.straitstimes.com/singapore/health/ttsh-launches-new-initiative-to-tackle-sepsis-and-prevent-it-from-becoming-deadly)
 
 2026-09-07
 
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/palliative-care-and-surgery-encouraged-for-advanced-cancer-patients-under-new-initiative)
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/ttsh-launches-new-initiative-to-tackle-sepsis-and-prevent-it-from-becoming-deadly)
 
 ---
 
