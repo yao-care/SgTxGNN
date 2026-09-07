@@ -13,21 +13,13 @@ permalink: /news/arthritis/
 
 ---
 
-**8 articles** related to arthritis.
-
----
-
-### [New private not-for-profit hospital to be located in the east due to high occupancy rates: MOH](https://www.straitstimes.com/singapore/health/private-not-for-profit-hospital-to-be-located-in-the-east-due-to-high-occupancy-rates-moh)
-
-2026-09-06
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/private-not-for-profit-hospital-to-be-located-in-the-east-due-to-high-occupancy-rates-moh)
+**7 articles** related to arthritis.
 
 ---
 
 ### [Singapore-based research network appointed WHO collaborating centre for clinical trials](https://www.straitstimes.com/singapore/health/singapore-based-research-network-is-appointed-who-collaborating-centre-for-clinical-trials)
 
-2026-09-06
+2026-09-07
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-based-research-network-is-appointed-who-collaborating-centre-for-clinical-trials)
 
@@ -35,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-
 
 ### [Palliative care and surgery encouraged for advanced cancer patients under new initiative](https://www.straitstimes.com/singapore/health/palliative-care-and-surgery-encouraged-for-advanced-cancer-patients-under-new-initiative)
 
-2026-09-06
+2026-09-07
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/palliative-care-and-surgery-encouraged-for-advanced-cancer-patients-under-new-initiative)
 
@@ -43,7 +35,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/palliative
 
 ### [From personalised health dashboard to body servicing: Inside S’pore’s massive healthy ageing experiment](https://www.straitstimes.com/singapore/health/personalised-health-dashboard-body-servicing-inside-spores-massive-healthy-ageing-experiment)
 
-2026-09-06
+2026-09-07
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/personalised-health-dashboard-body-servicing-inside-spores-massive-healthy-ageing-experiment)
 
@@ -51,7 +43,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/personalis
 
 ### [Rare disorder leaves toddler struggling to produce cell energy](https://www.straitstimes.com/singapore/health/when-a-rare-disorder-leaves-a-toddler-struggling-to-produce-energy)
 
-2026-09-06
+2026-09-07
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/when-a-rare-disorder-leaves-a-toddler-struggling-to-produce-energy)
 
@@ -59,7 +51,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/when-a-rar
 
 ### [She spent decades alone with a rare genetic condition – now she's building a community for others like her](https://www.channelnewsasia.com/women/neurofibromatosis-support-group-singapore-6279901)
 
-2026-09-06
+2026-09-07
 
 Source: [CNA](https://www.channelnewsasia.com/women/neurofibromatosis-support-group-singapore-6279901)
 
@@ -67,7 +59,7 @@ Source: [CNA](https://www.channelnewsasia.com/women/neurofibromatosis-support-gr
 
 ### [What chiropractors can help with – and what patients should know](https://www.channelnewsasia.com/wellness/chiropractors-treatments-6306271)
 
-2026-09-06
+2026-09-07
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/chiropractors-treatments-6306271)
 
@@ -75,7 +67,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/chiropractors-treatments-
 
 ### [Always tripping or spraining your ankles? When ‘clumsiness’ could be a genetic nerve disorder](https://www.channelnewsasia.com/wellness/charcot-marie-tooth-tripping-weakness-6323596)
 
-2026-09-06
+2026-09-07
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/charcot-marie-tooth-tripping-weakness-6323596)
 

@@ -19,7 +19,7 @@ permalink: /news/aging/
 
 ### [Investing in the future of health: Singapore’s growing longevity sector](https://www.straitstimes.com/singapore/health/inside-singapores-growing-longevity-market)
 
-2026-09-06
+2026-09-07
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/inside-singapores-growing-longevity-market)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/inside-sin
 
 ### [Rethinking ageing: It’s not about just adding years to life, but adding life to years](https://www.straitstimes.com/singapore/health/rethinking-ageing-its-not-about-just-adding-years-to-life-but-adding-life-to-years)
 
-2026-09-06
+2026-09-07
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/rethinking-ageing-its-not-about-just-adding-years-to-life-but-adding-life-to-years)
 
@@ -35,7 +35,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/rethinking
 
 ### [From personalised health dashboard to body servicing: Inside S’pore’s massive healthy ageing experiment](https://www.straitstimes.com/singapore/health/personalised-health-dashboard-body-servicing-inside-spores-massive-healthy-ageing-experiment)
 
-2026-09-06
+2026-09-07
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/personalised-health-dashboard-body-servicing-inside-spores-massive-healthy-ageing-experiment)
 
@@ -43,7 +43,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/personalis
 
 ### [9 things health experts wish you’d do in midlife to increase longevity](https://www.channelnewsasia.com/wellness/longevity-expert-tips-middle-age-6301671)
 
-2026-09-06
+2026-09-07
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/longevity-expert-tips-middle-age-6301671)
 
