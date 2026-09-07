@@ -13,23 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**7 articles** related to arthritis.
-
----
-
-### [Singapore-based research network appointed WHO collaborating centre for clinical trials](https://www.straitstimes.com/singapore/health/singapore-based-research-network-is-appointed-who-collaborating-centre-for-clinical-trials)
-
-2026-09-07
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-based-research-network-is-appointed-who-collaborating-centre-for-clinical-trials)
-
----
-
-### [Palliative care and surgery encouraged for advanced cancer patients under new initiative](https://www.straitstimes.com/singapore/health/palliative-care-and-surgery-encouraged-for-advanced-cancer-patients-under-new-initiative)
-
-2026-09-07
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/palliative-care-and-surgery-encouraged-for-advanced-cancer-patients-under-new-initiative)
+**6 articles** related to arthritis.
 
 ---
 
@@ -46,6 +30,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/personalis
 2026-09-07
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/when-a-rare-disorder-leaves-a-toddler-struggling-to-produce-energy)
+
+---
+
+### [Residents of Windsor Convalescent Home, LC Nursing Home transferred out before shutdown](https://www.straitstimes.com/singapore/health/residents-of-windsor-convalescent-home-lc-nursing-home-transferred-out-before-shutdown)
+
+2026-09-07
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/residents-of-windsor-convalescent-home-lc-nursing-home-transferred-out-before-shutdown)
 
 ---
 
