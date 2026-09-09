@@ -19,7 +19,7 @@ permalink: /news/stroke/
 
 ### [TTSH launches new initiative to tackle sepsis and prevent it from becoming deadly](https://www.straitstimes.com/singapore/health/ttsh-launches-new-initiative-to-tackle-sepsis-and-prevent-it-from-becoming-deadly)
 
-2026-09-08
+2026-09-09
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/ttsh-launches-new-initiative-to-tackle-sepsis-and-prevent-it-from-becoming-deadly)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/ttsh-launc
 
 ### [How healthy are cucumbers? Why dietitians still recommend them](https://www.channelnewsasia.com/wellness/cucumber-health-benefits-6268306)
 
-2026-09-08
+2026-09-09
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/cucumber-health-benefits-6268306)
 
