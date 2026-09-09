@@ -17,11 +17,11 @@ permalink: /news/aging/
 
 ---
 
-### [Investing in the future of health: Singapore’s growing longevity sector](https://www.straitstimes.com/singapore/health/inside-singapores-growing-longevity-market)
+### [From personalised health dashboard to body servicing: Inside S’pore’s massive healthy ageing experiment](https://www.straitstimes.com/singapore/health/personalised-health-dashboard-body-servicing-inside-spores-massive-healthy-ageing-experiment)
 
 2026-09-09
 
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/inside-singapores-growing-longevity-market)
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/personalised-health-dashboard-body-servicing-inside-spores-massive-healthy-ageing-experiment)
 
 ---
 
@@ -33,11 +33,11 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/rethinking
 
 ---
 
-### [From personalised health dashboard to body servicing: Inside S’pore’s massive healthy ageing experiment](https://www.straitstimes.com/singapore/health/personalised-health-dashboard-body-servicing-inside-spores-massive-healthy-ageing-experiment)
+### [Investing in the future of health: Singapore’s growing longevity sector](https://www.straitstimes.com/singapore/health/inside-singapores-growing-longevity-market)
 
 2026-09-09
 
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/personalised-health-dashboard-body-servicing-inside-spores-massive-healthy-ageing-experiment)
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/inside-singapores-growing-longevity-market)
 
 ---
 
