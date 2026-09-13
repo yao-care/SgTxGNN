@@ -19,7 +19,7 @@ permalink: /news/cancer/
 
 ### [New guidelines call for osteoporosis screening, earlier breast cancer scan](https://www.straitstimes.com/singapore/health/new-health-guidelines-osteoporosis-screening-recommended-breast-cancer-scans-to-start-earlier)
 
-2026-09-12
+2026-09-13
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-health-guidelines-osteoporosis-screening-recommended-breast-cancer-scans-to-start-earlier)
 
