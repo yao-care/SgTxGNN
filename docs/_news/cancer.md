@@ -13,7 +13,7 @@ permalink: /news/cancer/
 
 ---
 
-**1 articles** related to cancer.
+**2 articles** related to cancer.
 
 ---
 
@@ -22,6 +22,14 @@ permalink: /news/cancer/
 2026-09-13
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-health-guidelines-osteoporosis-screening-recommended-breast-cancer-scans-to-start-earlier)
+
+---
+
+### [Life After... Stage 4 cancer: Producer-director wants to sleep more](https://www.straitstimes.com/singapore/health/life-after-stage-4-cancer-producer-director-wants-to-sleep-more)
+
+2026-09-13
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/life-after-stage-4-cancer-producer-director-wants-to-sleep-more)
 
 ---
 

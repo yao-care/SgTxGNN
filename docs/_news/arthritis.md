@@ -13,7 +13,15 @@ permalink: /news/arthritis/
 
 ---
 
-**6 articles** related to arthritis.
+**7 articles** related to arthritis.
+
+---
+
+### [From personalised health dashboard to body servicing: Inside S’pore’s massive healthy ageing experiment](https://www.straitstimes.com/singapore/health/personalised-health-dashboard-body-servicing-inside-spores-massive-healthy-ageing-experiment)
+
+2026-09-13
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/personalised-health-dashboard-body-servicing-inside-spores-massive-healthy-ageing-experiment)
 
 ---
 
