@@ -13,23 +13,15 @@ permalink: /news/aging/
 
 ---
 
-**5 articles** related to aging.
+**4 articles** related to aging.
 
 ---
 
-### [Rethinking ageing: It’s not about just adding years to life, but adding life to years](https://www.straitstimes.com/singapore/health/rethinking-ageing-its-not-about-just-adding-years-to-life-but-adding-life-to-years)
+### [From personalised health dashboard to body servicing: Inside S’pore’s massive healthy ageing experiment](https://www.straitstimes.com/singapore/health/personalised-health-dashboard-body-servicing-inside-spores-massive-healthy-ageing-experiment)
 
 2026-09-13
 
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/rethinking-ageing-its-not-about-just-adding-years-to-life-but-adding-life-to-years)
-
----
-
-### [Investing in the future of health: Singapore’s growing longevity sector](https://www.straitstimes.com/singapore/health/inside-singapores-growing-longevity-market)
-
-2026-09-13
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/inside-singapores-growing-longevity-market)
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/personalised-health-dashboard-body-servicing-inside-spores-massive-healthy-ageing-experiment)
 
 ---
 
