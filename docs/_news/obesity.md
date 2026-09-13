@@ -19,7 +19,7 @@ permalink: /news/obesity/
 
 ### [Why obesity is not simply about willpower](https://www.channelnewsasia.com/advertorial/why-obesity-not-simply-about-willpower-6255261)
 
-2026-09-12
+2026-09-13
 
 Source: [CNA](https://www.channelnewsasia.com/advertorial/why-obesity-not-simply-about-willpower-6255261)
 
