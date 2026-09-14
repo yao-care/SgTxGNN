@@ -13,7 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**6 articles** related to arthritis.
+**7 articles** related to arthritis.
 
 ---
 
@@ -30,6 +30,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/when-a-rar
 2026-09-14
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/residents-of-windsor-convalescent-home-lc-nursing-home-transferred-out-before-shutdown)
+
+---
+
+### [Plaque buildup, bad breath, bleeding gums: Rethinking your daily oral-care routine](https://www.straitstimes.com/singapore/health/plaque-buildup-bad-breath-bleeding-gums-daily-oral-care-routine-systema-lion)
+
+2026-09-14
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/plaque-buildup-bad-breath-bleeding-gums-daily-oral-care-routine-systema-lion)
 
 ---
 
