@@ -13,15 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**7 articles** related to arthritis.
-
----
-
-### [Air quality in eastern, western and central Singapore in unhealthy range](https://www.todayonline.com/singapore/haze-psi-unhealthy-nea-sep-14-6378666)
-
-2026-09-14
-
-Source: [TODAY](https://www.todayonline.com/singapore/haze-psi-unhealthy-nea-sep-14-6378666)
+**6 articles** related to arthritis.
 
 ---
 
