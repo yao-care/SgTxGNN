@@ -17,11 +17,11 @@ permalink: /news/arthritis/
 
 ---
 
-### [From personalised health dashboard to body servicing: Inside S’pore’s massive healthy ageing experiment](https://www.straitstimes.com/singapore/health/personalised-health-dashboard-body-servicing-inside-spores-massive-healthy-ageing-experiment)
+### [Air quality in eastern, western and central Singapore in unhealthy range](https://www.todayonline.com/singapore/haze-psi-unhealthy-nea-sep-14-6378666)
 
 2026-09-14
 
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/personalised-health-dashboard-body-servicing-inside-spores-massive-healthy-ageing-experiment)
+Source: [TODAY](https://www.todayonline.com/singapore/haze-psi-unhealthy-nea-sep-14-6378666)
 
 ---
 

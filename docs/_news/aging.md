@@ -13,15 +13,7 @@ permalink: /news/aging/
 
 ---
 
-**4 articles** related to aging.
-
----
-
-### [From personalised health dashboard to body servicing: Inside S’pore’s massive healthy ageing experiment](https://www.straitstimes.com/singapore/health/personalised-health-dashboard-body-servicing-inside-spores-massive-healthy-ageing-experiment)
-
-2026-09-14
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/personalised-health-dashboard-body-servicing-inside-spores-massive-healthy-ageing-experiment)
+**3 articles** related to aging.
 
 ---
 
