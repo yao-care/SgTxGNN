@@ -13,7 +13,15 @@ permalink: /news/multiple-sclerosis/
 
 ---
 
-**1 articles** related to multiple sclerosis.
+**2 articles** related to multiple sclerosis.
+
+---
+
+### [Plaque buildup, bad breath, bleeding gums: Rethinking your daily oral-care routine](https://www.straitstimes.com/singapore/health/plaque-buildup-bad-breath-bleeding-gums-daily-oral-care-routine-systema-lion)
+
+2026-09-14
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/plaque-buildup-bad-breath-bleeding-gums-daily-oral-care-routine-systema-lion)
 
 ---
 
