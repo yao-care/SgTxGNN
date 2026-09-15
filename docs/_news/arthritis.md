@@ -13,15 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**7 articles** related to arthritis.
-
----
-
-### [Rare disorder leaves toddler struggling to produce cell energy](https://www.straitstimes.com/singapore/health/when-a-rare-disorder-leaves-a-toddler-struggling-to-produce-energy)
-
-2026-09-15
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/when-a-rare-disorder-leaves-a-toddler-struggling-to-produce-energy)
+**6 articles** related to arthritis.
 
 ---
 
