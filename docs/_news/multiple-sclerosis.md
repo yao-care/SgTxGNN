@@ -19,7 +19,7 @@ permalink: /news/multiple-sclerosis/
 
 ### [Plaque buildup, bad breath, bleeding gums: Rethinking your daily oral-care routine](https://www.straitstimes.com/singapore/health/plaque-buildup-bad-breath-bleeding-gums-daily-oral-care-routine-systema-lion)
 
-2026-09-14
+2026-09-15
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/plaque-buildup-bad-breath-bleeding-gums-daily-oral-care-routine-systema-lion)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/plaque-bui
 
 ### [Always tripping or spraining your ankles? When ‘clumsiness’ could be a genetic nerve disorder](https://www.channelnewsasia.com/wellness/charcot-marie-tooth-tripping-weakness-6323596)
 
-2026-09-14
+2026-09-15
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/charcot-marie-tooth-tripping-weakness-6323596)
 

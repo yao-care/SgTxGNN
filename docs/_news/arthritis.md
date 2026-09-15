@@ -13,13 +13,21 @@ permalink: /news/arthritis/
 
 ---
 
-**7 articles** related to arthritis.
+**8 articles** related to arthritis.
+
+---
+
+### [Air quality in all regions of Singapore in unhealthy range; central area the worst with 24-hour PSI exceeding 150](https://www.todayonline.com/singapore/singapore-haze-psi-unhealthy-6382851)
+
+2026-09-15
+
+Source: [TODAY](https://www.todayonline.com/singapore/singapore-haze-psi-unhealthy-6382851)
 
 ---
 
 ### [Rare disorder leaves toddler struggling to produce cell energy](https://www.straitstimes.com/singapore/health/when-a-rare-disorder-leaves-a-toddler-struggling-to-produce-energy)
 
-2026-09-14
+2026-09-15
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/when-a-rare-disorder-leaves-a-toddler-struggling-to-produce-energy)
 
@@ -27,7 +35,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/when-a-rar
 
 ### [Residents of Windsor Convalescent Home, LC Nursing Home transferred out before shutdown](https://www.straitstimes.com/singapore/health/residents-of-windsor-convalescent-home-lc-nursing-home-transferred-out-before-shutdown)
 
-2026-09-14
+2026-09-15
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/residents-of-windsor-convalescent-home-lc-nursing-home-transferred-out-before-shutdown)
 
@@ -35,7 +43,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/residents-
 
 ### [Plaque buildup, bad breath, bleeding gums: Rethinking your daily oral-care routine](https://www.straitstimes.com/singapore/health/plaque-buildup-bad-breath-bleeding-gums-daily-oral-care-routine-systema-lion)
 
-2026-09-14
+2026-09-15
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/plaque-buildup-bad-breath-bleeding-gums-daily-oral-care-routine-systema-lion)
 
@@ -43,7 +51,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/plaque-bui
 
 ### [She spent decades alone with a rare genetic condition – now she's building a community for others like her](https://www.channelnewsasia.com/women/neurofibromatosis-support-group-singapore-6279901)
 
-2026-09-14
+2026-09-15
 
 Source: [CNA](https://www.channelnewsasia.com/women/neurofibromatosis-support-group-singapore-6279901)
 
@@ -51,7 +59,7 @@ Source: [CNA](https://www.channelnewsasia.com/women/neurofibromatosis-support-gr
 
 ### [What chiropractors can help with – and what patients should know](https://www.channelnewsasia.com/wellness/chiropractors-treatments-6306271)
 
-2026-09-14
+2026-09-15
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/chiropractors-treatments-6306271)
 
@@ -59,7 +67,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/chiropractors-treatments-
 
 ### [Always tripping or spraining your ankles? When ‘clumsiness’ could be a genetic nerve disorder](https://www.channelnewsasia.com/wellness/charcot-marie-tooth-tripping-weakness-6323596)
 
-2026-09-14
+2026-09-15
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/charcot-marie-tooth-tripping-weakness-6323596)
 
@@ -67,7 +75,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/charcot-marie-tooth-tripp
 
 ### [Is mouthwash bad for your oral health? Here's what the research found](https://www.channelnewsasia.com/wellness/mouthwash-oral-microbiome-harms-6360641)
 
-2026-09-14
+2026-09-15
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/mouthwash-oral-microbiome-harms-6360641)
 
