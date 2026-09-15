@@ -13,15 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**8 articles** related to arthritis.
-
----
-
-### [Air quality in all regions of Singapore in unhealthy range; central area the worst with 24-hour PSI exceeding 150](https://www.todayonline.com/singapore/singapore-haze-psi-unhealthy-6382851)
-
-2026-09-15
-
-Source: [TODAY](https://www.todayonline.com/singapore/singapore-haze-psi-unhealthy-6382851)
+**7 articles** related to arthritis.
 
 ---
 
