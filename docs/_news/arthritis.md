@@ -13,7 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**6 articles** related to arthritis.
+**7 articles** related to arthritis.
 
 ---
 
@@ -30,6 +30,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/residents-
 2026-09-16
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/plaque-buildup-bad-breath-bleeding-gums-daily-oral-care-routine-systema-lion)
+
+---
+
+### [Singapore medtech start-up Bioactivx launches synthetic skin substitute](https://www.straitstimes.com/singapore/health/singapore-medtech-start-up-launches-synthetic-skin-substitute)
+
+2026-09-16
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-medtech-start-up-launches-synthetic-skin-substitute)
 
 ---
 
