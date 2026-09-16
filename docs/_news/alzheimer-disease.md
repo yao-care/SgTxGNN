@@ -1,27 +1,19 @@
 ---
 layout: default
-title: "stroke News"
+title: "alzheimer disease News"
 parent: Health News
 nav_exclude: true
-description: "Health news related to stroke"
-permalink: /news/stroke/
+description: "Health news related to alzheimer disease"
+permalink: /news/alzheimer-disease/
 ---
 
-# stroke Related News
+# alzheimer disease Related News
 
 [← Back to News Overview]({{ '/news/' | relative_url }})
 
 ---
 
-**2 articles** related to stroke.
-
----
-
-### [TTSH launches new initiative to tackle sepsis and prevent it from becoming deadly](https://www.straitstimes.com/singapore/health/ttsh-launches-new-initiative-to-tackle-sepsis-and-prevent-it-from-becoming-deadly)
-
-2026-09-16
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/ttsh-launches-new-initiative-to-tackle-sepsis-and-prevent-it-from-becoming-deadly)
+**1 articles** related to alzheimer disease.
 
 ---
 
