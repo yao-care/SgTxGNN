@@ -19,7 +19,7 @@ permalink: /news/stroke/
 
 ### [TTSH launches new initiative to tackle sepsis and prevent it from becoming deadly](https://www.straitstimes.com/singapore/health/ttsh-launches-new-initiative-to-tackle-sepsis-and-prevent-it-from-becoming-deadly)
 
-2026-09-16
+2026-09-17
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/ttsh-launches-new-initiative-to-tackle-sepsis-and-prevent-it-from-becoming-deadly)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/ttsh-launc
 
 ### [New $3.3m Dementia Singapore-Lien Foundation initiative offers early palliative care, home support](https://www.straitstimes.com/singapore/health/new-3-3m-dementia-singapore-lien-foundation-initiative-offers-early-palliative-care-home-support)
 
-2026-09-16
+2026-09-17
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-3-3m-dementia-singapore-lien-foundation-initiative-offers-early-palliative-care-home-support)
 
