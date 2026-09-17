@@ -13,15 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**7 articles** related to arthritis.
-
----
-
-### [Residents of Windsor Convalescent Home, LC Nursing Home transferred out before shutdown](https://www.straitstimes.com/singapore/health/residents-of-windsor-convalescent-home-lc-nursing-home-transferred-out-before-shutdown)
-
-2026-09-17
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/residents-of-windsor-convalescent-home-lc-nursing-home-transferred-out-before-shutdown)
+**6 articles** related to arthritis.
 
 ---
 
