@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Sodium Ascorbate
-parent: 僅模型預測 (L5)
+parent: Low Evidence (L5)
 nav_order: 907
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Sodium Ascorbate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -92,7 +92,7 @@ No trial in the retrieved set directly tests sodium ascorbate as a primary inter
 
 ## Singapore Market Information
 
-No marketed products or registration records for sodium ascorbate are available in this evidence pack (`market_status`: 未上市 / Not marketed; `total_licenses`: 0).
+No marketed products or registration records for sodium ascorbate are available in this evidence pack (`market_status`: Not marketed / Not marketed; `total_licenses`: 0).
 
 ---
 

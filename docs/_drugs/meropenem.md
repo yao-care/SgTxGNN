@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Meropenem
-parent: 僅模型預測 (L5)
+parent: Low Evidence (L5)
 nav_order: 646
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Meropenem
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -49,7 +49,7 @@ Using the report template exactly as specified in the prompt (this is a direct c
 | Predicted New Indication | Bacterial Arthritis |
 | TxGNN Prediction Score | 99.92% (rank 1633 among candidates) |
 | Evidence Level | L3 (see note below) |
-| Singapore Market Status | ✗ Not Marketed (未上市) |
+| Singapore Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 
@@ -96,7 +96,7 @@ Mechanistically, therefore, the prediction is plausible and consistent with mero
 
 ## Singapore Market Information
 
-Meropenem currently has **no marketing authorization registered in Singapore** (`market_status: 未上市`, `total_licenses: 0`, no license records available in this evidence pack). No authorization number, product name, or locally approved indication text can be extracted at this time.
+Meropenem currently has **no marketing authorization registered in Singapore** (`market_status: Not marketed`, `total_licenses: 0`, no license records available in this evidence pack). No authorization number, product name, or locally approved indication text can be extracted at this time.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Vincristine
-parent: 僅模型預測 (L5)
+parent: High Evidence (L1-L2)
 nav_order: 1059
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Vincristine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L1** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 10
 | Predicted New Indication | Ganglioneuroblastoma (disease) |
 | TxGNN Prediction Score | 99.31% |
 | Evidence Level | L1 |
-| Singapore Market Status | ✗ Not Marketed (未上市) |
+| Singapore Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -87,7 +87,7 @@ Ganglioneuroblastoma is a tumor on the neuroblastic tumor spectrum — sharing l
 
 ## Singapore Market Information
 
-Currently no marketing authorizations registered in Singapore (`market_status`: 未上市, 0 licenses on file).
+Currently no marketing authorizations registered in Singapore (`market_status`: Not marketed, 0 licenses on file).
 
 ---
 

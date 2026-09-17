@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Leuprolide
-parent: 僅模型預測 (L5)
+parent: Low Evidence (L5)
 nav_order: 586
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Leuprolide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,13 +25,13 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
 Using the txgnn-pipeline skill context (multi-country deployment conventions) alongside the detailed v5 report prompt supplied directly in your message — the user-supplied template is treated as the authoritative spec here. I verified every field cited below actually exists in the Evidence Pack JSON before writing it into the report.
 
-A few things worth flagging before the report: `original_moa` is `"[Data Gap]"`, `original_indications` is an empty array, and Singapore market status is "未上市" (not marketed, 0 licenses) — so the "Original Indication" and "Singapore Market Information" sections have very little to extract. I did not invent an official original-indication field; where I reference prostate cancer / endometriosis context, that's drawn directly from the trial titles, literature abstracts, and `repurposing_rationale` text already present in the pack (NCT00002881's title, and the rank-8 endometriosis literature), not outside knowledge. I also omitted the Cytotoxicity section entirely — the pack contains no DrugBank category data and no cancer-labeled `original_indications`, so antineoplastic status can't be verified from the data given (rule 1 and 2 both fail; leuprolide is a hormonal GnRH agonist, not a conventional cytotoxic class under rule 3).
+A few things worth flagging before the report: `original_moa` is `"[Data Gap]"`, `original_indications` is an empty array, and Singapore market status is "Not marketed" (not marketed, 0 licenses) — so the "Original Indication" and "Singapore Market Information" sections have very little to extract. I did not invent an official original-indication field; where I reference prostate cancer / endometriosis context, that's drawn directly from the trial titles, literature abstracts, and `repurposing_rationale` text already present in the pack (NCT00002881's title, and the rank-8 endometriosis literature), not outside knowledge. I also omitted the Cytotoxicity section entirely — the pack contains no DrugBank category data and no cancer-labeled `original_indications`, so antineoplastic status can't be verified from the data given (rule 1 and 2 both fail; leuprolide is a hormonal GnRH agonist, not a conventional cytotoxic class under rule 3).
 
 ---
 

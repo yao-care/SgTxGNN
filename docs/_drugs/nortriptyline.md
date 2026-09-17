@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Nortriptyline
-parent: 僅模型預測 (L5)
+parent: High Evidence (L1-L2)
 nav_order: 717
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Nortriptyline
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L2** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -51,7 +51,7 @@ Nortriptyline is a tricyclic antidepressant (TCA); structured original-indicatio
 | Predicted New Indication | Attention-Deficit/Hyperactivity Disorder (ADHD) |
 | TxGNN Prediction Score | 99.42% |
 | Evidence Level | L2 |
-| Singapore Market Status | ✗ Not marketed (未上市) |
+| Singapore Market Status | ✗ Not marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 
@@ -92,7 +92,7 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-Nortriptyline currently holds no marketing authorization in Singapore in this evidence pack — market status is **未上市 (Not Marketed)** with **0 registered licenses**. No product/dosage-form data is available to tabulate.
+Nortriptyline currently holds no marketing authorization in Singapore in this evidence pack — market status is **Not marketed (Not Marketed)** with **0 registered licenses**. No product/dosage-form data is available to tabulate.
 
 ---
 

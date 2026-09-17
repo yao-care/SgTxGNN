@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Pertuzumab
-parent: 僅模型預測 (L5)
+parent: High Evidence (L1-L2)
 nav_order: 773
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Pertuzumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L1** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -45,7 +45,7 @@ Pertuzumab (DrugBank DB06366) is an anti-HER2 monoclonal antibody used in combin
 | Predicted New Indication | Progesterone-Receptor Positive Breast Cancer |
 | TxGNN Prediction Score | 99.93% |
 | Evidence Level | L1 |
-| Singapore Market Status | ✗ Not Marketed (未上市) |
+| Singapore Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 

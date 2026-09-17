@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pralidoxime
-parent: 僅模型預測 (L5)
+parent: Low Evidence (L5)
 nav_order: 807
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Pralidoxime
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -45,7 +45,7 @@ Pralidoxime is an acetylcholinesterase (AChE) reactivator historically used as a
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 95.70% |
 | Evidence Level | L5 |
-| Singapore Market Status | 未上市 (Not Marketed) |
+| Singapore Market Status | Not marketed (Not Marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 
@@ -75,7 +75,7 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Pralidoxime currently has no marketing authorizations on record (market status: 未上市 / Not Marketed; total registrations: 0). No product license data is available to summarize.
+Pralidoxime currently has no marketing authorizations on record (market status: Not marketed / Not Marketed; total registrations: 0). No product license data is available to summarize.
 
 ---
 

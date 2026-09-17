@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 780Mg Metformin
-parent: 僅模型預測 (L5)
+parent: Low Evidence (L5)
 nav_order: 14
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # 780Mg Metformin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Evidence Level: **L5** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -48,7 +48,7 @@ indication_count: 0
 | 預測新適應症 | 無（predicted_indications 為空） |
 | TxGNN 預測分數 | 無資料 |
 | 證據等級 | 無法評估 |
-| 新加坡市場狀態 | 未上市（資料缺失，待驗證） |
+| 新加坡市場狀態 | Not marketed（資料缺失，待驗證） |
 | 建議決策 | **Hold — 資料品質問題，需先修正輸入資料** |
 
 ---

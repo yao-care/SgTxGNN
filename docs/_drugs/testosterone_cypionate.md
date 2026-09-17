@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Testosterone Cypionate
-parent: 僅模型預測 (L5)
+parent: Low Evidence (L5)
 nav_order: 962
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Testosterone Cypionate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -45,7 +45,7 @@ Testosterone cypionate is a long-acting injectable androgen ester used clinicall
 | Predicted New Indication | Urethral obstruction sequence |
 | TxGNN Prediction Score | 98.30% |
 | Evidence Level | L5 |
-| Singapore Market Status | 未上市 (Not marketed) |
+| Singapore Market Status | Not marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 

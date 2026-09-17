@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Methoxyflurane
-parent: 僅模型預測 (L5)
+parent: Medium Evidence (L3-L4)
 nav_order: 653
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Methoxyflurane
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -84,7 +84,7 @@ The link to anxiety is indirect but biologically plausible: at sub-anesthetic in
 
 ## Singapore Market Information
 
-Methoxyflurane currently has **no registered license in Singapore** (`market_status`: 未上市, `total_licenses`: 0). No product listing is available for this evaluation.
+Methoxyflurane currently has **no registered license in Singapore** (`market_status`: Not marketed, `total_licenses`: 0). No product listing is available for this evaluation.
 
 ## Safety Considerations
 

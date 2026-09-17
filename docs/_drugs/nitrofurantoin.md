@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Nitrofurantoin
-parent: 僅模型預測 (L5)
+parent: Medium Evidence (L3-L4)
 nav_order: 709
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Nitrofurantoin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -86,7 +86,7 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-Nitrofurantoin currently has no registered license in Singapore under this evidence pack (`total_licenses: 0`, `market_status: 未上市`/Not Marketed). No product records are available to list.
+Nitrofurantoin currently has no registered license in Singapore under this evidence pack (`total_licenses: 0`, `market_status: Not marketed`/Not Marketed). No product records are available to list.
 
 ---
 

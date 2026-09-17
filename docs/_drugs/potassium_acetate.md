@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Potassium Acetate
-parent: 僅模型預測 (L5)
+parent: Medium Evidence (L3-L4)
 nav_order: 801
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Potassium Acetate
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,13 +25,13 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
 Using this as a direct report-generation task per the given template (no matching skill covers "write a drug repurposing evaluation report from a supplied Evidence Pack" — this is a self-contained formatting spec, so I'll follow it directly).
 
-A few notes before the report: `drug.original_moa` and `drug.original_indications` are empty in this pack ("[Data Gap]"), and `taiwan_regulatory.licenses` is empty (0 registrations, 未上市). Per the prohibition rules I'm not fabricating values for these — I state the absence explicitly and pull the only substantive mechanistic content available, which is embedded in `predicted_indications[0].repurposing_rationale`.
+A few notes before the report: `drug.original_moa` and `drug.original_indications` are empty in this pack ("[Data Gap]"), and `taiwan_regulatory.licenses` is empty (0 registrations, Not marketed). Per the prohibition rules I'm not fabricating values for these — I state the absence explicitly and pull the only substantive mechanistic content available, which is embedded in `predicted_indications[0].repurposing_rationale`.
 
 ---
 
@@ -49,7 +49,7 @@ Potassium acetate (DrugBank DB14498) is not currently marketed in Singapore, and
 | Predicted New Indication | Renal Tubular Acidosis |
 | TxGNN Prediction Score | 99.90% |
 | Evidence Level | L4 |
-| Singapore Market Status | 未上市 (Not Marketed) |
+| Singapore Market Status | Not marketed (Not Marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -71,7 +71,7 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Potassium acetate currently has no marketing authorizations on record in Singapore (0 registrations; market status: 未上市). No product name, dosage form, or approved indication text is available in this dataset.
+Potassium acetate currently has no marketing authorizations on record in Singapore (0 registrations; market status: Not marketed). No product name, dosage form, or approved indication text is available in this dataset.
 
 ## Safety Considerations
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Octreotide
-parent: 僅模型預測 (L5)
+parent: Low Evidence (L5)
 nav_order: 723
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Octreotide
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -43,7 +43,7 @@ Octreotide is a somatostatin analog whose known mechanism suppresses GH/IGF-1, g
 | Predicted New Indication | Vulvar Inverted Follicular Keratosis |
 | TxGNN Prediction Score | 99.58% |
 | Evidence Level | L5 (model prediction only, no supporting trials or literature) |
-| Singapore Market Status | ✗ Not marketed (未上市) |
+| Singapore Market Status | ✗ Not marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 

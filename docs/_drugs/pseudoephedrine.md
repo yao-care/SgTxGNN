@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Pseudoephedrine
-parent: 僅模型預測 (L5)
+parent: High Evidence (L1-L2)
 nav_order: 832
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Pseudoephedrine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L2** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -87,7 +87,7 @@ Nine additional lower-ranked predictions in this evidence pack (e.g., acute lary
 
 ## Singapore Market Information
 
-Pseudoephedrine currently has **no marketing authorization registered in Singapore** (`market_status: 未上市`, 0 licenses on file), so no product-level table can be produced from the registry data.
+Pseudoephedrine currently has **no marketing authorization registered in Singapore** (`market_status: Not marketed`, 0 licenses on file), so no product-level table can be produced from the registry data.
 
 ---
 

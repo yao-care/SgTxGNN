@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ramipril
-parent: 僅模型預測 (L5)
+parent: Low Evidence (L5)
 nav_order: 841
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Ramipril
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -45,7 +45,7 @@ Ramipril's original indication is not documented in the current evidence pack (t
 | Predicted New Indication | Pulmonary Hypertension with Unclear Multifactorial Mechanism |
 | TxGNN Prediction Score | 99.93% |
 | Evidence Level | L5 (model prediction only, no clinical or literature support) |
-| Singapore Market Status | Not marketed (未上市) |
+| Singapore Market Status | Not marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 
@@ -73,7 +73,7 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-No marketing authorization records found. Ramipril's `market_status` is recorded as **未上市 (Not marketed)** with **0 total licenses**, so no product/dosage form/indication data is available for Singapore.
+No marketing authorization records found. Ramipril's `market_status` is recorded as **Not marketed (Not marketed)** with **0 total licenses**, so no product/dosage form/indication data is available for Singapore.
 
 ---
 

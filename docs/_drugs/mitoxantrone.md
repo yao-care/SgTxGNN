@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Mitoxantrone
-parent: 僅模型預測 (L5)
+parent: Medium Evidence (L3-L4)
 nav_order: 675
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Mitoxantrone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -43,11 +43,11 @@ currently supported by **1 clinical trial** (not yet recruiting) and **20 litera
 
 | Item | Content |
 |------|------|
-| Original Indication | Not registered in Singapore (untuk 未上市). Internationally, mitoxantrone is a well-established antineoplastic historically indicated for acute myeloid leukemia, non-Hodgkin lymphoma, metastatic breast cancer, and secondary progressive multiple sclerosis (general drug reference; no TFDA/HSA-sourced label text is present in this evidence pack) |
+| Original Indication | Not registered in Singapore (untuk Not marketed). Internationally, mitoxantrone is a well-established antineoplastic historically indicated for acute myeloid leukemia, non-Hodgkin lymphoma, metastatic breast cancer, and secondary progressive multiple sclerosis (general drug reference; no TFDA/HSA-sourced label text is present in this evidence pack) |
 | Predicted New Indication | Upper Aerodigestive Tract Neoplasm |
 | TxGNN Prediction Score | 99.78% |
 | Evidence Level | L3 |
-| Singapore Market Status | ✗ Not Marketed (未上市) |
+| Singapore Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 
@@ -113,7 +113,7 @@ Ranks #8 and #9 (bladder exstrophy-epispadias-cloacal exstrophy complex; bulbar 
 
 ## Singapore Market Information
 
-Mitoxantrone currently has no market authorization in Singapore (Market Status: 未上市 / Not Marketed; Total Registrations: 0). No license records are available in this evidence pack.
+Mitoxantrone currently has no market authorization in Singapore (Market Status: Not marketed / Not Marketed; Total Registrations: 0). No license records are available in this evidence pack.
 
 ---
 

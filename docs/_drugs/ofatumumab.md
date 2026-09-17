@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ofatumumab
-parent: 僅模型預測 (L5)
+parent: High Evidence (L1-L2)
 nav_order: 724
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Ofatumumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L2** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -45,7 +45,7 @@ Closely related, higher-scoring nodes (CLL/SLL molecular subtypes, and CLL/SLL i
 | Predicted New Indication | Follicular Lymphoma |
 | TxGNN Prediction Score | 99.70% |
 | Evidence Level | L2 |
-| Singapore Market Status | 未上市 (Not marketed) |
+| Singapore Market Status | Not marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -89,7 +89,7 @@ This extrapolation is further reinforced by the model's related, higher-scoring 
 
 ## Singapore Market Information
 
-Ofatumumab currently holds **no product registration in Singapore** (0 licenses, market status: 未上市). No dosage form, authorization number, or approved local indication text is available.
+Ofatumumab currently holds **no product registration in Singapore** (0 licenses, market status: Not marketed). No dosage form, authorization number, or approved local indication text is available.
 
 ## Cytotoxicity
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Mivacurium
-parent: 僅模型預測 (L5)
+parent: Low Evidence (L5)
 nav_order: 676
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Mivacurium
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -76,7 +76,7 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Mivacurium currently has **0 registered licenses** and is **not marketed** in Singapore/Taiwan under this evidence pack (`market_status: 未上市`), so no local product or approved-indication text is available for comparison.
+Mivacurium currently has **0 registered licenses** and is **not marketed** in Singapore/Taiwan under this evidence pack (`market_status: Not marketed`), so no local product or approved-indication text is available for comparison.
 
 ---
 

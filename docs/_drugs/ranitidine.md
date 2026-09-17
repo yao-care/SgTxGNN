@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ranitidine
-parent: 僅模型預測 (L5)
+parent: High Evidence (L1-L2)
 nav_order: 844
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Ranitidine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L1** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -47,7 +47,7 @@ Critically, ranitidine has been withdrawn from global markets (including no acti
 | Predicted New Indication | Active peptic ulcer disease |
 | TxGNN Prediction Score | 99.89% |
 | Evidence Level | L1 |
-| Taiwan Market Status | 未上市 (Not marketed / withdrawn) |
+| Taiwan Market Status | Not marketed (Not marketed / withdrawn) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 
@@ -92,7 +92,7 @@ The overriding consideration for this candidate is regulatory, not mechanistic: 
 
 ## Singapore Market Information
 
-Currently no registration records — `taiwan_regulatory.total_licenses = 0` and `market_status = 未上市 (not marketed)`. Ranitidine has been withdrawn worldwide since 2020 due to NDMA contamination, consistent with the absence of an active Taiwan license.
+Currently no registration records — `taiwan_regulatory.total_licenses = 0` and `market_status = Not marketed (not marketed)`. Ranitidine has been withdrawn worldwide since 2020 due to NDMA contamination, consistent with the absence of an active Taiwan license.
 
 ---
 
