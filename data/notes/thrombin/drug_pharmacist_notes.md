@@ -16,7 +16,7 @@
 | Predicted New Indication | Primary Release Disorder of Platelets |
 | TxGNN Prediction Score | 96.82% |
 | Evidence Level | L4 |
-| Singapore Market Status | ✗ Not marketed (未上市) |
+| Singapore Market Status | ✗ Not marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | **Hold** |
 
@@ -59,7 +59,7 @@ No clinical or therapeutic literature supports using thrombin to treat this dise
 
 ## Singapore Market Information
 
-Thrombin currently has **no HSA-registered products in Singapore** (0 licenses on file; market status: 未上市 / not marketed). No authorization numbers, product names, or approved-indication text are available for this jurisdiction.
+Thrombin currently has **no HSA-registered products in Singapore** (0 licenses on file; market status: Not marketed / not marketed). No authorization numbers, product names, or approved-indication text are available for this jurisdiction.
 
 ---
 

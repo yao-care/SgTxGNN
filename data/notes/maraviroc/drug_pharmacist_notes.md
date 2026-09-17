@@ -14,7 +14,7 @@ Maraviroc's original mechanism of action is not formally recorded in this eviden
 | Predicted New Indication | Multiple Endocrine Neoplasia (top-ranked of 10 candidates screened) |
 | TxGNN Prediction Score | 99.82% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not Marketed (未上市) |
+| Singapore Market Status | Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 

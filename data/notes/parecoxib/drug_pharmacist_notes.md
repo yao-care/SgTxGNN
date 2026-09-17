@@ -22,7 +22,7 @@ Note: the JSON's regulatory data is keyed `taiwan_regulatory` and references TFD
 | Predicted New Indication | Migraine Disorder |
 | TxGNN Prediction Score | 99.55% |
 | Evidence Level | L2 |
-| Taiwan Market Status | ✗ Not Marketed (未上市) |
+| Taiwan Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 
@@ -54,7 +54,7 @@ Currently no related clinical trials registered.
 
 ## Taiwan Market Information
 
-Parecoxib currently has no registered pharmaceutical licenses in Taiwan (0 records on file; market status: 未上市/Not Marketed).
+Parecoxib currently has no registered pharmaceutical licenses in Taiwan (0 records on file; market status: Not marketed/Not Marketed).
 
 ---
 

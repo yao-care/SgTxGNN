@@ -66,7 +66,7 @@ This pattern repeats across all 10 ranked candidates in the pack (Hepatitis E, a
 
 ## Singapore Market Information
 
-Voxilaprevir currently has **no marketing authorization in Singapore** (`total_licenses: 0`, market status: 未上市 / Not Marketed).
+Voxilaprevir currently has **no marketing authorization in Singapore** (`total_licenses: 0`, market status: Not marketed / Not Marketed).
 
 ---
 

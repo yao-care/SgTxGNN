@@ -16,7 +16,7 @@
 | Predicted New Indication | Primary release disorder of platelets |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not marketed (未上市) |
+| Singapore Market Status | ✗ Not marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 
@@ -46,7 +46,7 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Turoctocog alfa currently has **no registrations** in Singapore (`total_licenses: 0`, market status: 未上市 / Not marketed). No authorization records, product names, or approved indication text are available for extraction.
+Turoctocog alfa currently has **no registrations** in Singapore (`total_licenses: 0`, market status: Not marketed / Not marketed). No authorization records, product names, or approved indication text are available for extraction.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Perampanel
-parent: 僅模型預測 (L5)
+parent: Medium Evidence (L3-L4)
 nav_order: 770
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Perampanel
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -92,7 +92,7 @@ None of the 19 returned publications specifically addresses visually-induced/pho
 
 ## Singapore Market Information
 
-Perampanel currently has **0 registered authorizations** in Singapore (`market_status: 未上市` / Not Marketed). No license records, product names, dosage forms, or approved indication text are available from the regulatory data source for this drug.
+Perampanel currently has **0 registered authorizations** in Singapore (`market_status: Not marketed` / Not Marketed). No license records, product names, dosage forms, or approved indication text are available from the regulatory data source for this drug.
 
 ---
 

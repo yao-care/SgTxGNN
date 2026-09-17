@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Tacrolimus
-parent: 僅模型預測 (L5)
+parent: High Evidence (L1-L2)
 nav_order: 937
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Tacrolimus
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L1** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -49,7 +49,7 @@ Using no additional skill — this is a direct report-generation task fully spec
 | Predicted New Indication | Seborrheic Dermatitis |
 | TxGNN Prediction Score | 99.26% |
 | Evidence Level | L1 |
-| Singapore Market Status | ✗ Not Marketed (未上市) |
+| Singapore Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -91,7 +91,7 @@ Seborrheic dermatitis is a chronic inflammatory dermatological disease that, lik
 
 ## Singapore Market Information
 
-Tacrolimus currently has no registered product license in Singapore under this evidence pack (market status: 未上市 / Not Marketed; 0 registrations). No authorization records are available to summarize.
+Tacrolimus currently has no registered product license in Singapore under this evidence pack (market status: Not marketed / Not Marketed; 0 registrations). No authorization records are available to summarize.
 
 ---
 

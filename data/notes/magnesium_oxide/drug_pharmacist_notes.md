@@ -1,6 +1,6 @@
 Using the drug-repurposing evaluation report template supplied in this prompt (no additional skill applies — this is a fully self-contained content-generation task from a provided Evidence Pack, not a coding/debugging/creative-build task that would trigger a process skill).
 
-Before writing, I verified the Evidence Pack directly rather than trusting memory: `original_indications` is `[]`, `taiwan_regulatory.licenses` is `[]` (market_status "未上市", total_licenses 0), `original_moa` is a Data Gap, and — critically — `predicted_indications[0]` (rank 1, "calcium-alkali syndrome," score 0.98) carries a `repurposing_rationale.mechanistic_link` that explicitly flags the sole supporting literature item as describing magnesium oxide as a **cause** of the syndrome, not a treatment. Reporting that as a clean repurposing opportunity without surfacing this would misrepresent the underlying data, so the report leads with that caveat.
+Before writing, I verified the Evidence Pack directly rather than trusting memory: `original_indications` is `[]`, `taiwan_regulatory.licenses` is `[]` (market_status "Not marketed", total_licenses 0), `original_moa` is a Data Gap, and — critically — `predicted_indications[0]` (rank 1, "calcium-alkali syndrome," score 0.98) carries a `repurposing_rationale.mechanistic_link` that explicitly flags the sole supporting literature item as describing magnesium oxide as a **cause** of the syndrome, not a treatment. Reporting that as a clean repurposing opportunity without surfacing this would misrepresent the underlying data, so the report leads with that caveat.
 
 ---
 
@@ -56,7 +56,7 @@ Calcium-alkali syndrome (the modern term for what was historically called milk-a
 
 ## Singapore Market Information
 
-Magnesium oxide currently has **no HSA registrations on file** in this Evidence Pack (`total_licenses = 0`, `market_status = 未上市 / Not Marketed`). No authorization records, product names, or approved indication text are available to tabulate.
+Magnesium oxide currently has **no HSA registrations on file** in this Evidence Pack (`total_licenses = 0`, `market_status = Not marketed / Not Marketed`). No authorization records, product names, or approved indication text are available to tabulate.
 
 ---
 

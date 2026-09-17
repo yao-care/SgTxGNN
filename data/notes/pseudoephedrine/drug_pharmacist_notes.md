@@ -56,7 +56,7 @@ Nine additional lower-ranked predictions in this evidence pack (e.g., acute lary
 
 ## Singapore Market Information
 
-Pseudoephedrine currently has **no marketing authorization registered in Singapore** (`market_status: 未上市`, 0 licenses on file), so no product-level table can be produced from the registry data.
+Pseudoephedrine currently has **no marketing authorization registered in Singapore** (`market_status: Not marketed`, 0 licenses on file), so no product-level table can be produced from the registry data.
 
 ---
 

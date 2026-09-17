@@ -14,7 +14,7 @@ Treosulfan is an alkylating agent with no approved indication currently recorded
 | Predicted New Indication | Diabetic Cataract |
 | TxGNN Prediction Score | 99.01% |
 | Evidence Level | L5 |
-| Singapore Market Status | 未上市 (Not marketed) |
+| Singapore Market Status | Not marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | **Hold** |
 
@@ -44,7 +44,7 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Treosulfan currently has no registered products in Singapore (0 licenses on file); market status is 未上市 (Not marketed).
+Treosulfan currently has no registered products in Singapore (0 licenses on file); market status is Not marketed (Not marketed).
 
 ---
 

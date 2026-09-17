@@ -18,7 +18,7 @@ Because the single retrieved trial tests an unrelated herbal extract rather than
 | Predicted New Indication | Endemic Goiter |
 | TxGNN Prediction Score | 99.81% |
 | Evidence Level | L2 |
-| Singapore Market Status | ✗ Not Marketed (未上市) |
+| Singapore Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -65,7 +65,7 @@ No clinical trial in the pack directly tests levothyroxine in an endemic-goiter 
 
 ## Singapore Market Information
 
-Levothyroxine currently has **no marketing authorization on record** in this Evidence Pack — `taiwan_regulatory.market_status` is "未上市" (Not Marketed) with `total_licenses = 0` and an empty license list. No product/dosage-form/indication table can be generated from this data.
+Levothyroxine currently has **no marketing authorization on record** in this Evidence Pack — `taiwan_regulatory.market_status` is "Not marketed" (Not Marketed) with `total_licenses = 0` and an empty license list. No product/dosage-form/indication table can be generated from this data.
 
 ---
 

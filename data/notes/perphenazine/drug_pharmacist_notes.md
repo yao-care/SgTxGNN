@@ -14,7 +14,7 @@ Perphenazine is a piperazine-phenothiazine antipsychotic historically used for s
 | Predicted New Indication | Anxiety Disorder |
 | TxGNN Prediction Score | 99.53% |
 | Evidence Level | L3 (dated RCTs / observational studies, no current confirmatory trial) |
-| Singapore Market Status | Not Marketed (未上市) |
+| Singapore Market Status | Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 

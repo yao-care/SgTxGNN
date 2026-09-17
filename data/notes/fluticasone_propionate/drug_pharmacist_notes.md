@@ -74,7 +74,7 @@ By contrast, the model's literal top-ranked candidates (e.g. "2-hydroxyethyl met
 
 ## Singapore Market Information
 
-Fluticasone propionate currently has **no marketing authorization on record in Singapore** (0 registrations; market status: 未上市 / Not marketed). No product listing is available to summarize.
+Fluticasone propionate currently has **no marketing authorization on record in Singapore** (0 registrations; market status: Not marketed / Not marketed). No product listing is available to summarize.
 
 ---
 

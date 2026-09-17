@@ -14,7 +14,7 @@ Levetiracetam (LEV) is an established second-generation antiepileptic drug (AED)
 | Predicted New Indication | Visual Epilepsy (photosensitive / photoparoxysmal reflex epilepsy) |
 | TxGNN Prediction Score | 99.98% (rank 676) |
 | Evidence Level | L3 |
-| Singapore Market Status | ✗ Not Marketed (未上市) |
+| Singapore Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 

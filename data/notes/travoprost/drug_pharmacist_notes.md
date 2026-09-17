@@ -16,7 +16,7 @@
 | Predicted New Indication | Visceral Calciphylaxis |
 | TxGNN Prediction Score | 99.9998% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed (未上市) |
+| Singapore Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 

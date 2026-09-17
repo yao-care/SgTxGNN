@@ -16,7 +16,7 @@
 | Predicted New Indication | Trigeminal Nerve Neoplasm |
 | TxGNN Prediction Score | 99.97% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed (未上市) |
+| Singapore Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | **Hold** |
 
@@ -48,7 +48,7 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-This drug is currently not marketed in Singapore (未上市), and no registration records (SIN numbers) are available in this evidence pack.
+This drug is currently not marketed in Singapore (Not marketed), and no registration records (SIN numbers) are available in this evidence pack.
 
 ---
 

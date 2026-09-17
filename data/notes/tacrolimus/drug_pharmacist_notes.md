@@ -18,7 +18,7 @@ Using no additional skill — this is a direct report-generation task fully spec
 | Predicted New Indication | Seborrheic Dermatitis |
 | TxGNN Prediction Score | 99.26% |
 | Evidence Level | L1 |
-| Singapore Market Status | ✗ Not Marketed (未上市) |
+| Singapore Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -60,7 +60,7 @@ Seborrheic dermatitis is a chronic inflammatory dermatological disease that, lik
 
 ## Singapore Market Information
 
-Tacrolimus currently has no registered product license in Singapore under this evidence pack (market status: 未上市 / Not Marketed; 0 registrations). No authorization records are available to summarize.
+Tacrolimus currently has no registered product license in Singapore under this evidence pack (market status: Not marketed / Not Marketed; 0 registrations). No authorization records are available to summarize.
 
 ---
 

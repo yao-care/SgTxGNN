@@ -16,7 +16,7 @@ While no clinical trials have specifically enrolled neurotic depression patients
 | Predicted New Indication | Neurotic Depression (Persistent Depressive Disorder, ICD-10 F34.1) |
 | TxGNN Prediction Score | 97.83% |
 | Evidence Level | L2 |
-| Singapore Market Status | 未上市 (Not Marketed) |
+| Singapore Market Status | Not marketed (Not Marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 

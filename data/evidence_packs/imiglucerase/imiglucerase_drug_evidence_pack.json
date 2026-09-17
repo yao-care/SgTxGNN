@@ -13,23 +13,23 @@
       {
         "id": "DG001",
         "category": "Drug_Level",
-        "item": "TFDA 仿單警語/禁忌",
+        "item": "HSA package insert warnings/contraindications",
         "severity": "Blocking",
-        "impact": "無法進入 S1 安全性初評",
+        "impact": "Cannot proceed to S1 safety screening",
         "remediation": {
-          "source": "TFDA 官網",
-          "method": "下載仿單 PDF 並解析"
+          "source": "HSA website",
+          "method": "Download and parse the package insert PDF"
         }
       },
       {
         "id": "DG002",
         "category": "Drug_Level",
-        "item": "作用機轉 (MOA)",
+        "item": "Mechanism of action (MOA)",
         "severity": "High",
-        "impact": "影響機轉關聯性分析",
+        "impact": "Limits mechanistic-link analysis",
         "remediation": {
           "source": "DrugBank",
-          "method": "查詢 DrugBank API"
+          "method": "Query the DrugBank API"
         }
       }
     ]
@@ -42,7 +42,7 @@
     "original_moa": "[Data Gap]"
   },
   "taiwan_regulatory": {
-    "market_status": "未上市",
+    "market_status": "Not marketed",
     "total_licenses": 0,
     "licenses": [],
     "dosage_forms_by_route": []
@@ -657,7 +657,7 @@
         "recommendation": "Proceed with Guardrails"
       },
       "repurposing_rationale": {
-        "mechanistic_link": "此分類實質上等同於 Gaucher disease type 1（骨骼受累型），為 imiglucerase 的全球已核准適應症（FDA 1994年核准，EMA核准）。GBA 基因突變導致 glucocerebrosidase 缺乏 → glucosylceramide（葡萄糖腦苷脂）於溶小體堆積 → 活化巨噬細胞浸潤骨髓 → 骨痛、骨梗塞、骨壞死、骨質疏鬆。Imiglucerase 提供外源性 glucocerebrosidase，降低底物堆積，改善骨骼表現。【注意：本地市場標記為未上市，建議確認台灣/當地健保給付狀態。臨床試驗顯示之 velaglucerase alfa 為同類不同分子，支持類別有效性。】",
+        "mechanistic_link": "此分類實質上等同於 Gaucher disease type 1（骨骼受累型），為 imiglucerase 的全球已核准適應症（FDA 1994年核准，EMA核准）。GBA 基因突變導致 glucocerebrosidase 缺乏 → glucosylceramide（葡萄糖腦苷脂）於溶小體堆積 → 活化巨噬細胞浸潤骨髓 → 骨痛、骨梗塞、骨壞死、骨質疏鬆。Imiglucerase 提供外源性 glucocerebrosidase，降低底物堆積，改善骨骼表現。【注意：本地市場標記為Not marketed，建議確認台灣/當地健保給付狀態。臨床試驗顯示之 velaglucerase alfa 為同類不同分子，支持類別有效性。】",
         "similarity_to_original": "pending"
       },
       "route_compatibility": {

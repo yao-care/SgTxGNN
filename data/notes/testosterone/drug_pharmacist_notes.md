@@ -18,7 +18,7 @@
 | Predicted New Indication | Polysomy of X Chromosome |
 | TxGNN Prediction Score | 94.88% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed (未上市) |
+| Singapore Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 

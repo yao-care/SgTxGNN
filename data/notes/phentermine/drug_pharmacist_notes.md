@@ -14,7 +14,7 @@
 | Predicted New Indication | Fatty Liver Disease (NAFLD/MASLD) |
 | TxGNN Prediction Score | 77.74% |
 | Evidence Level | L2 |
-| Singapore Market Status | Not Marketed (未上市) |
+| Singapore Market Status | Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -60,7 +60,7 @@ Fatty liver disease (NAFLD/MASLD) is pathophysiologically driven by obesity and 
 
 ## Singapore Market Information
 
-Phentermine has **no current market registration in Singapore** (`market_status`: 未上市, 0 licenses on record). No authorization numbers, product names, or approved indication text are available to tabulate.
+Phentermine has **no current market registration in Singapore** (`market_status`: Not marketed, 0 licenses on record). No authorization numbers, product names, or approved indication text are available to tabulate.
 
 ---
 

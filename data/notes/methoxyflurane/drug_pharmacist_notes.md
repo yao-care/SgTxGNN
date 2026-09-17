@@ -53,7 +53,7 @@ The link to anxiety is indirect but biologically plausible: at sub-anesthetic in
 
 ## Singapore Market Information
 
-Methoxyflurane currently has **no registered license in Singapore** (`market_status`: 未上市, `total_licenses`: 0). No product listing is available for this evaluation.
+Methoxyflurane currently has **no registered license in Singapore** (`market_status`: Not marketed, `total_licenses`: 0). No product listing is available for this evaluation.
 
 ## Safety Considerations
 

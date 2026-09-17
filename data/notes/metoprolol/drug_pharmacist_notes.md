@@ -20,7 +20,7 @@ Using the report structure specified in the prompt. A quick data-fidelity note b
 | Predicted New Indication | Malignant Renovascular Hypertension |
 | TxGNN Prediction Score | 99.91% |
 | Evidence Level | L4 |
-| Singapore Market Status | 未上市 (Not Marketed) |
+| Singapore Market Status | Not marketed (Not Marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 
@@ -55,7 +55,7 @@ Both articles are classified by the evidence pack as off-topic to this specific 
 
 ## Singapore Market Information
 
-Metoprolol currently has **0 registrations** on record in this jurisdiction's regulatory data (market status: 未上市 / Not Marketed). No license entries are available to tabulate.
+Metoprolol currently has **0 registrations** on record in this jurisdiction's regulatory data (market status: Not marketed / Not Marketed). No license entries are available to tabulate.
 
 ---
 

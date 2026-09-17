@@ -16,7 +16,7 @@ with **1 completed Phase 3 clinical trial** and **2 publications** currently sup
 | Predicted New Indication | Alopecia Areata |
 | TxGNN Prediction Score | 99.94% |
 | Evidence Level | L1 |
-| Singapore Market Status | Not marketed (未上市) |
+| Singapore Market Status | Not marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 

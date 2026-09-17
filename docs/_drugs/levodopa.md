@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Levodopa
-parent: 僅模型預測 (L5)
+parent: Low Evidence (L5)
 nav_order: 590
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Levodopa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -53,7 +53,7 @@ A note on methodology before the report: `predicted_indications[0]` (the field t
 | Predicted New Indication | Rasmussen Subacute Encephalitis |
 | TxGNN Prediction Score | 99.06% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed (未上市) |
+| Singapore Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 
@@ -83,7 +83,7 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Levodopa currently has no registrations on file for Singapore (`market_status: 未上市`, `total_licenses: 0`, no license records provided). No authorization number, product name, or approved indication text is available to report.
+Levodopa currently has no registrations on file for Singapore (`market_status: Not marketed`, `total_licenses: 0`, no license records provided). No authorization number, product name, or approved indication text is available to report.
 
 ---
 

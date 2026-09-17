@@ -14,7 +14,7 @@ Rilpivirine is a non-nucleoside reverse transcriptase inhibitor (NNRTI) used in 
 | Predicted New Indication | Simian immunodeficiency virus infection (SIV) — non-human primate model |
 | TxGNN Prediction Score | 99.97% |
 | Evidence Level | L4 |
-| Singapore Market Status | ✗ Not marketed (未上市) |
+| Singapore Market Status | ✗ Not marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 

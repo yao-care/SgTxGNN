@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Metformin
-parent: 僅模型預測 (L5)
+parent: Low Evidence (L5)
 nav_order: 649
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Metformin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -47,7 +47,7 @@ indication_count: 10
 | Top-Ranked Predicted Indication (rank 1) | Focal Stiff Limb Syndrome |
 | TxGNN Prediction Score (rank 1) | 99.45% |
 | Evidence Level (rank 1) | L5 (model prediction only, no trials/literature) |
-| Singapore Market Status | ✗ Not Marketed (未上市) |
+| Singapore Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | **Hold** (all 10 candidates) |
 
@@ -116,7 +116,7 @@ Literature was found for only 2 of the 10 candidates. All others returned zero P
 
 ## Singapore Market Information
 
-No Singapore drug registrations are recorded in this evidence pack. `taiwan_regulatory.total_licenses = 0` and `market_status = 未上市 (Not Marketed)` — Metformin currently has no listed license entries to summarize in this dataset.
+No Singapore drug registrations are recorded in this evidence pack. `taiwan_regulatory.total_licenses = 0` and `market_status = Not marketed (Not Marketed)` — Metformin currently has no listed license entries to summarize in this dataset.
 
 ---
 

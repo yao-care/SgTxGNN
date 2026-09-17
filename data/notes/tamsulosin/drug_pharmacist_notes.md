@@ -48,7 +48,7 @@ Currently no related literature available
 
 ## Singapore Market Information
 
-Tamsulosin currently has no registered product license under this evidence pack (`total_licenses: 0`, `market_status: 未上市 / Not Marketed`). No authorization records are available to summarize.
+Tamsulosin currently has no registered product license under this evidence pack (`total_licenses: 0`, `market_status: Not marketed / Not Marketed`). No authorization records are available to summarize.
 
 ---
 

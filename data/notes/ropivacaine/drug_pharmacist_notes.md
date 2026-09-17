@@ -16,7 +16,7 @@
 | Predicted New Indication | Migraine Disorder |
 | TxGNN Prediction Score | 99.65% |
 | Evidence Level | L3 (observational studies, no large RCT specific to ropivacaine for migraine) |
-| Singapore Market Status | 未上市 (Not Marketed) |
+| Singapore Market Status | Not marketed (Not Marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 

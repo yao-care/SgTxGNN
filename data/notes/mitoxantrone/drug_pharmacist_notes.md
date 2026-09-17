@@ -12,11 +12,11 @@ currently supported by **1 clinical trial** (not yet recruiting) and **20 litera
 
 | Item | Content |
 |------|------|
-| Original Indication | Not registered in Singapore (untuk 未上市). Internationally, mitoxantrone is a well-established antineoplastic historically indicated for acute myeloid leukemia, non-Hodgkin lymphoma, metastatic breast cancer, and secondary progressive multiple sclerosis (general drug reference; no TFDA/HSA-sourced label text is present in this evidence pack) |
+| Original Indication | Not registered in Singapore (untuk Not marketed). Internationally, mitoxantrone is a well-established antineoplastic historically indicated for acute myeloid leukemia, non-Hodgkin lymphoma, metastatic breast cancer, and secondary progressive multiple sclerosis (general drug reference; no TFDA/HSA-sourced label text is present in this evidence pack) |
 | Predicted New Indication | Upper Aerodigestive Tract Neoplasm |
 | TxGNN Prediction Score | 99.78% |
 | Evidence Level | L3 |
-| Singapore Market Status | ✗ Not Marketed (未上市) |
+| Singapore Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 
@@ -82,7 +82,7 @@ Ranks #8 and #9 (bladder exstrophy-epispadias-cloacal exstrophy complex; bulbar 
 
 ## Singapore Market Information
 
-Mitoxantrone currently has no market authorization in Singapore (Market Status: 未上市 / Not Marketed; Total Registrations: 0). No license records are available in this evidence pack.
+Mitoxantrone currently has no market authorization in Singapore (Market Status: Not marketed / Not Marketed; Total Registrations: 0). No license records are available in this evidence pack.
 
 ---
 

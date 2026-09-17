@@ -14,7 +14,7 @@ Obinutuzumab is a type II glycoengineered anti-CD20 monoclonal antibody already 
 | Predicted New Indication | Follicular Lymphoma |
 | TxGNN Prediction Score | 99.18% |
 | Evidence Level | L1 |
-| Singapore Market Status | ✗ Not Marketed (未上市) |
+| Singapore Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -56,7 +56,7 @@ Follicular lymphoma (FL) and CLL are both CD20-positive, mature B-cell lymphopro
 
 ## Singapore Market Information
 
-Obinutuzumab currently has **no registered product license in Singapore** (0 registrations; market status: 未上市 / Not Marketed). No authorization records are available to summarize.
+Obinutuzumab currently has **no registered product license in Singapore** (0 registrations; market status: Not marketed / Not Marketed). No authorization records are available to summarize.
 
 ## Cytotoxicity
 

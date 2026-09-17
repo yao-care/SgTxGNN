@@ -14,7 +14,7 @@ Minocycline is a broad-spectrum, semisynthetic tetracycline-class antibiotic cla
 | Predicted New Indication | Punctate Epithelial Keratoconjunctivitis |
 | TxGNN Prediction Score | 99.63% |
 | Evidence Level | L5 |
-| Taiwan Market Status | 未上市 (Not Marketed) |
+| Taiwan Market Status | Not marketed (Not Marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 

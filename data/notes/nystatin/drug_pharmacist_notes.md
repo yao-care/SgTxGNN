@@ -14,7 +14,7 @@ Nystatin is a polyene antifungal traditionally used to treat *Candida* (fungal) 
 | Predicted New Indication | Vulvovaginitis |
 | TxGNN Prediction Score | 99.92% |
 | Evidence Level | L2 |
-| Singapore Market Status | Not Marketed (未上市) |
+| Singapore Market Status | Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 

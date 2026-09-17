@@ -20,7 +20,7 @@ Protein C (DrugBank DB11312) is a vitamin K–dependent anticoagulant protein wh
 | Predicted New Indication | Inherited thrombophilia (rank #8 of 10) — the only candidate with supporting evidence; not a genuinely novel indication (see rationale below) |
 | TxGNN Prediction Score | 90.01% (rank #8). Note: the top-ranked candidate by score, Glanzmann thrombasthenia, scored 98.60% but was mechanistically rejected (see Screening Summary) |
 | Evidence Level | L2 (inherited thrombophilia); **L5 for all other 9 candidates** |
-| Singapore Market Status | 未上市 (Not marketed) |
+| Singapore Market Status | Not marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | **Hold** on novel repurposing overall; **Proceed with Guardrails** applies only to inherited thrombophilia, which confirms known biology rather than opening a new indication |
 
@@ -114,6 +114,6 @@ Please refer to the package insert for safety information. *(All safety fields i
 **To proceed, the following is needed:**
 - Resolve **DG001** (blocking): obtain TFDA/HSA label warnings and contraindications before any S1 safety screening.
 - Resolve **DG002**: confirm formal MOA record via DrugBank API (currently inferred only from the rationale text, not from a structured `original_moa` field).
-- If commercial interest exists in Singapore, a fresh HSA registration pathway would be required, as the drug is currently unregistered (`未上市`).
+- If commercial interest exists in Singapore, a fresh HSA registration pathway would be required, as the drug is currently unregistered (`Not marketed`).
 - Verify the "flood factor deficiency" disease entity against standard ontologies (e.g., MONDO/UMLS) before deciding whether it warrants re-evaluation.
 - If further repurposing screening is desired for this drug, consider constraining the TxGNN candidate set to disease categories consistent with anticoagulant/anti-thrombotic mechanisms (e.g., other thrombophilic or pro-thrombotic conditions) rather than the hemostasis-disorder cluster returned here.

@@ -16,7 +16,7 @@
 | Predicted New Indication | Polycystic Kidney Disease 3, with or without Polycystic Liver Disease (ADPKD) |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L1 |
-| Singapore Market Status | ✗ Not marketed (未上市) |
+| Singapore Market Status | ✗ Not marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -26,7 +26,7 @@
 
 Detailed mechanism-of-action data for tolvaptan is not available in this evidence pack (flagged as a High-severity data gap, DG002). However, the model's repurposing rationale supplies the relevant pharmacology: tolvaptan is a selective vasopressin V2-receptor antagonist that blocks cAMP accumulation in renal tubular epithelial cells. This cAMP pathway is the key driver of cyst formation and enlargement following *PKD1*/*PKD2* mutations, which cause autosomal dominant polycystic kidney disease (ADPKD).
 
-Unlike many TxGNN candidates that rely purely on embedding similarity, this prediction reflects an indication tolvaptan already holds in multiple jurisdictions (approved as Jynarque for ADPKD). The evidence pack notes that although this local market shows "未上市" (not marketed) status, large Phase 3 trials and international approvals already exist — meaning the local gap is a regulatory/registration gap rather than an evidence gap.
+Unlike many TxGNN candidates that rely purely on embedding similarity, this prediction reflects an indication tolvaptan already holds in multiple jurisdictions (approved as Jynarque for ADPKD). The evidence pack notes that although this local market shows "Not marketed" (not marketed) status, large Phase 3 trials and international approvals already exist — meaning the local gap is a regulatory/registration gap rather than an evidence gap.
 
 Because the mechanistic link (V2 receptor → cAMP → cystogenesis) is direct and well-characterized rather than inferred, this is one of the stronger candidates in the prediction set — in contrast to lower-ranked candidates in this same pack (e.g., hypertrichosis, Dandy-Walker malformation), which the model itself flags as likely knowledge-graph noise with no mechanistic or literature support.
 
@@ -57,7 +57,7 @@ Currently no related clinical trials registered in this evidence pack (the `clin
 
 ## Singapore Market Information
 
-This drug is currently **not registered/marketed** in this jurisdiction (`market_status`: 未上市, `total_licenses`: 0). No authorization records are available to list.
+This drug is currently **not registered/marketed** in this jurisdiction (`market_status`: Not marketed, `total_licenses`: 0). No authorization records are available to list.
 
 ---
 

@@ -14,7 +14,7 @@ Milrinone is a phosphodiesterase-3 (PDE3) inhibitor globally established as a sh
 | Predicted New Indication | Alopecia |
 | TxGNN Prediction Score | 99.91% |
 | Evidence Level | L5 |
-| Singapore Market Status | 未上市 (Not Marketed) |
+| Singapore Market Status | Not marketed (Not Marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 

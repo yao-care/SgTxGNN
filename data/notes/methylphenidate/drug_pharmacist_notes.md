@@ -65,7 +65,7 @@ It is also worth noting, for triage transparency, that several other TxGNN predi
 
 ## Singapore Market Information
 
-Methylphenidate currently has **no marketing authorization registered** in the Singapore regulatory dataset used for this evaluation (market status: 未上市 / Not Marketed; 0 registrations on file).
+Methylphenidate currently has **no marketing authorization registered** in the Singapore regulatory dataset used for this evaluation (market status: Not marketed / Not Marketed; 0 registrations on file).
 
 ---
 

@@ -12,23 +12,23 @@
       {
         "id": "DG001",
         "category": "Drug_Level",
-        "item": "TFDA 仿單警語/禁忌",
+        "item": "HSA package insert warnings/contraindications",
         "severity": "Blocking",
-        "impact": "無法進入 S1 安全性初評",
+        "impact": "Cannot proceed to S1 safety screening",
         "remediation": {
-          "source": "TFDA 官網",
-          "method": "下載仿單 PDF 並解析"
+          "source": "HSA website",
+          "method": "Download and parse the package insert PDF"
         }
       },
       {
         "id": "DG002",
         "category": "Drug_Level",
-        "item": "作用機轉 (MOA)",
+        "item": "Mechanism of action (MOA)",
         "severity": "High",
-        "impact": "影響機轉關聯性分析",
+        "impact": "Limits mechanistic-link analysis",
         "remediation": {
           "source": "DrugBank",
-          "method": "查詢 DrugBank API"
+          "method": "Query the DrugBank API"
         }
       }
     ]
@@ -41,7 +41,7 @@
     "original_moa": "[Data Gap]"
   },
   "taiwan_regulatory": {
-    "market_status": "未上市",
+    "market_status": "Not marketed",
     "total_licenses": 0,
     "licenses": [],
     "dosage_forms_by_route": []
@@ -1024,7 +1024,7 @@
         "recommendation": "Proceed with Guardrails"
       },
       "repurposing_rationale": {
-        "mechanistic_link": "Benzocaine 阻斷喉咽部感覺神經 Nav 通道，緩解急性咽喉炎之疼痛與刺激感。此為 benzocaine 最直接、最有臨床合理性的再利用方向。全球多國（美國、英國、澳洲）已有 OTC 含片（Cepacol Ultra Sore Throat、Chloraseptic）以 benzocaine 為主成分用於喉嚨痛，構成實際世界使用的大規模真實世界證據（RWE），即便未被本次資料庫捕獲。市場狀態「未上市」代表在目標市場可考慮以 OTC 途徑申請重新引入。",
+        "mechanistic_link": "Benzocaine 阻斷喉咽部感覺神經 Nav 通道，緩解急性咽喉炎之疼痛與刺激感。此為 benzocaine 最直接、最有臨床合理性的再利用方向。全球多國（美國、英國、澳洲）已有 OTC 含片（Cepacol Ultra Sore Throat、Chloraseptic）以 benzocaine 為主成分用於喉嚨痛，構成實際世界使用的大規模真實世界證據（RWE），即便未被本次資料庫捕獲。市場狀態「Not marketed」代表在目標市場可考慮以 OTC 途徑申請重新引入。",
         "similarity_to_original": "pending"
       },
       "route_compatibility": {

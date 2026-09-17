@@ -48,7 +48,7 @@ Currently no related literature available for this specific ontology term.
 
 ## Singapore Market Information
 
-Venetoclax has **no registered license in Singapore** (`total_licenses: 0`, `market_status: 未上市/Not Marketed`). No product/dosage-form/indication data is available to tabulate.
+Venetoclax has **no registered license in Singapore** (`total_licenses: 0`, `market_status: Not marketed/Not Marketed`). No product/dosage-form/indication data is available to tabulate.
 
 ---
 

@@ -18,7 +18,7 @@
 | Predicted New Indication | Amenorrhea |
 | TxGNN Prediction Score | 99.9994% |
 | Evidence Level | L2 |
-| Taiwan Market Status | 未上市 (Not Marketed) |
+| Taiwan Market Status | Not marketed (Not Marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -72,7 +72,7 @@ Because this mechanistic link is already embedded in MPA's known secondary pharm
 
 ## Taiwan Market Information
 
-No Taiwan drug license records were found for medroxyprogesterone acetate in this evidence pack (`market_status`: 未上市 / Not Marketed; `total_licenses`: 0). No dosage-form or brand data is currently available.
+No Taiwan drug license records were found for medroxyprogesterone acetate in this evidence pack (`market_status`: Not marketed / Not Marketed; `total_licenses`: 0). No dosage-form or brand data is currently available.
 
 ---
 

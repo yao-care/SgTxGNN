@@ -12,7 +12,7 @@ Valaciclovir is an antiviral prodrug of acyclovir, established for treating herp
 | Predicted New Indication | Rheumatoid Arthritis |
 | TxGNN Prediction Score | 98.95% |
 | Evidence Level | L4 |
-| Singapore Market Status | ✗ Not marketed (未上市) |
+| Singapore Market Status | ✗ Not marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 

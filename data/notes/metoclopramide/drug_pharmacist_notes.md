@@ -48,7 +48,7 @@ In short, the mechanistic rationale is biologically plausible (motility-mediated
 
 ## Singapore Market Information
 
-Metoclopramide currently has **no marketing authorization on file in Singapore** (`taiwan_regulatory.total_licenses = 0`, `market_status = 未上市/Not Marketed`). No product name, dosage form, or approved-indication text is available to summarize.
+Metoclopramide currently has **no marketing authorization on file in Singapore** (`taiwan_regulatory.total_licenses = 0`, `market_status = Not marketed/Not Marketed`). No product name, dosage form, or approved-indication text is available to summarize.
 
 ## Safety Considerations
 

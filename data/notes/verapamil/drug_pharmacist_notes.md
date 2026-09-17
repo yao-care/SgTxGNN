@@ -44,7 +44,7 @@ Currently no related literature available
 
 ## Singapore Market Information
 
-Verapamil currently has **no marketing authorizations registered** in this evidence pack (`total_licenses: 0`, `market_status: 未上市`). No dosage form or approved-indication data is available to populate a registration table.
+Verapamil currently has **no marketing authorizations registered** in this evidence pack (`total_licenses: 0`, `market_status: Not marketed`). No dosage form or approved-indication data is available to populate a registration table.
 
 ---
 

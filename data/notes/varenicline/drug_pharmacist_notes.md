@@ -16,7 +16,7 @@
 | Predicted New Indication | Migraine Disorder |
 | TxGNN Prediction Score | 99.92% |
 | Evidence Level | L4 (single case report only; no RCT, no clinical trial) |
-| Singapore Market Status | ✗ Not marketed (未上市) |
+| Singapore Market Status | ✗ Not marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | **Hold** |
 
@@ -48,7 +48,7 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-Varenicline holds no marketing authorization in Singapore (market status: 未上市, 0 registrations). No product license data is available.
+Varenicline holds no marketing authorization in Singapore (market status: Not marketed, 0 registrations). No product license data is available.
 
 ---
 

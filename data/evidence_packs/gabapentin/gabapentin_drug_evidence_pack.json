@@ -13,23 +13,23 @@
       {
         "id": "DG001",
         "category": "Drug_Level",
-        "item": "TFDA 仿單警語/禁忌",
+        "item": "HSA package insert warnings/contraindications",
         "severity": "Blocking",
-        "impact": "無法進入 S1 安全性初評",
+        "impact": "Cannot proceed to S1 safety screening",
         "remediation": {
-          "source": "TFDA 官網",
-          "method": "下載仿單 PDF 並解析"
+          "source": "HSA website",
+          "method": "Download and parse the package insert PDF"
         }
       },
       {
         "id": "DG002",
         "category": "Drug_Level",
-        "item": "作用機轉 (MOA)",
+        "item": "Mechanism of action (MOA)",
         "severity": "High",
-        "impact": "影響機轉關聯性分析",
+        "impact": "Limits mechanistic-link analysis",
         "remediation": {
           "source": "DrugBank",
-          "method": "查詢 DrugBank API"
+          "method": "Query the DrugBank API"
         }
       }
     ]
@@ -42,7 +42,7 @@
     "original_moa": "[Data Gap]"
   },
   "taiwan_regulatory": {
-    "market_status": "未上市",
+    "market_status": "Not marketed",
     "total_licenses": 0,
     "licenses": [],
     "dosage_forms_by_route": []
@@ -506,7 +506,7 @@
         "recommendation": "Proceed with Guardrails"
       },
       "repurposing_rationale": {
-        "mechanistic_link": "Gabapentin 與突觸前 α2δ-1 鈣離子通道亞基結合，降低鈣離子內流及 glutamate/GABA 釋放失衡，具明確抗癲癇機轉。FDA 核准為局部性癲癇輔助治療（partial seizures），但 AAN 實踐指引（2018）及 Cochrane 網絡整合分析均顯示其對 GTCS 有一定療效數據。需注意：Gabapentin 在 GTC 的療效證據強度低於 valproate 或 lamotrigine；市場狀態「未上市」需確認當地法規路徑。",
+        "mechanistic_link": "Gabapentin 與突觸前 α2δ-1 鈣離子通道亞基結合，降低鈣離子內流及 glutamate/GABA 釋放失衡，具明確抗癲癇機轉。FDA 核准為局部性癲癇輔助治療（partial seizures），但 AAN 實踐指引（2018）及 Cochrane 網絡整合分析均顯示其對 GTCS 有一定療效數據。需注意：Gabapentin 在 GTC 的療效證據強度低於 valproate 或 lamotrigine；市場狀態「Not marketed」需確認當地法規路徑。",
         "similarity_to_original": "pending"
       },
       "route_compatibility": {

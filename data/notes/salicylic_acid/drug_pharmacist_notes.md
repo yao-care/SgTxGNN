@@ -13,7 +13,7 @@ The TxGNN model predicts it may be effective for **Papillary Conjunctivitis**, b
 | Predicted New Indication | Papillary Conjunctivitis |
 | TxGNN Prediction Score | 99.88% |
 | Evidence Level | L5 (model prediction only, no supporting trials or literature) |
-| Singapore Market Status | ✗ Not marketed (未上市) |
+| Singapore Market Status | ✗ Not marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 

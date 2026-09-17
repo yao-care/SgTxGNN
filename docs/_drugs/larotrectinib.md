@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Larotrectinib
-parent: 僅模型預測 (L5)
+parent: Medium Evidence (L3-L4)
 nav_order: 574
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Larotrectinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -45,7 +45,7 @@ Larotrectinib is a highly selective pan-TRK (NTRK1/2/3) kinase inhibitor, global
 | Predicted New Indication | Multiple Endocrine Neoplasia |
 | TxGNN Prediction Score | 99.24% |
 | Evidence Level | L4 |
-| Taiwan Market Status | ✗ Not Marketed (未上市) |
+| Taiwan Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 
@@ -80,7 +80,7 @@ The most plausible explanation for this prediction is that the TxGNN model's kno
 
 ## Singapore Market Information
 
-Larotrectinib currently has **no registered product license** in the Taiwan regulatory dataset used for this evaluation (market status: 未上市 / Not Marketed, 0 total licenses). No authorization, product name, dosage form, or approved indication text is available to tabulate.
+Larotrectinib currently has **no registered product license** in the Taiwan regulatory dataset used for this evaluation (market status: Not marketed / Not Marketed, 0 total licenses). No authorization, product name, dosage form, or approved indication text is available to tabulate.
 
 ---
 

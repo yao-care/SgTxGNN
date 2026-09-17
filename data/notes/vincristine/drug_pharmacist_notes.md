@@ -16,7 +16,7 @@
 | Predicted New Indication | Ganglioneuroblastoma (disease) |
 | TxGNN Prediction Score | 99.31% |
 | Evidence Level | L1 |
-| Singapore Market Status | ✗ Not Marketed (未上市) |
+| Singapore Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -56,7 +56,7 @@ Ganglioneuroblastoma is a tumor on the neuroblastic tumor spectrum — sharing l
 
 ## Singapore Market Information
 
-Currently no marketing authorizations registered in Singapore (`market_status`: 未上市, 0 licenses on file).
+Currently no marketing authorizations registered in Singapore (`market_status`: Not marketed, 0 licenses on file).
 
 ---
 

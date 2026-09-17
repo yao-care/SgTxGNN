@@ -14,7 +14,7 @@
 | Predicted New Indication | Pneumocystosis (Pneumocystis pneumonia) |
 | TxGNN Prediction Score | 99.99% (rank #345 of all candidates) |
 | Evidence Level | L4 |
-| Singapore Market Status | 未上市 (Not Marketed) |
+| Singapore Market Status | Not marketed (Not Marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | **Hold** |
 
@@ -67,7 +67,7 @@ Consistent with this, the retrieved literature consists of general reviews of AI
 
 ## Singapore Market Information
 
-Metronidazole has **no registered products on file** in the Singapore regulatory data provided (`total_licenses: 0`, `market_status: 未上市`). No authorization numbers, product names, or approved-indication text are available to tabulate.
+Metronidazole has **no registered products on file** in the Singapore regulatory data provided (`total_licenses: 0`, `market_status: Not marketed`). No authorization numbers, product names, or approved-indication text are available to tabulate.
 
 ---
 

@@ -46,7 +46,7 @@ Currently no related literature available
 
 ## Singapore Market Information
 
-Vedolizumab is not currently marketed in Singapore (market status: 未上市 / Not Marketed; total registrations: 0). No local authorization records exist to report.
+Vedolizumab is not currently marketed in Singapore (market status: Not marketed / Not Marketed; total registrations: 0). No local authorization records exist to report.
 
 ---
 

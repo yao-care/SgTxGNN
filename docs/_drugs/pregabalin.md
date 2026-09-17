@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Pregabalin
-parent: 僅模型預測 (L5)
+parent: High Evidence (L1-L2)
 nav_order: 815
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Pregabalin
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L1** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -53,7 +53,7 @@ One judgment call before the report: **predicted_indications[0] in this pack is 
 | Predicted New Indication | Osteoarthritis (centrally sensitized pain phenotype) |
 | TxGNN Prediction Score | 98.58% (score rank 13,736; #8 of the top 10 candidates in this pack) |
 | Evidence Level | L1 |
-| Singapore Market Status | 未上市 (Not Marketed) |
+| Singapore Market Status | Not marketed (Not Marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 

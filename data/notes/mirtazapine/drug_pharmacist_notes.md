@@ -69,7 +69,7 @@ Dysthymic disorder is a chronic, lower-grade form of depressive illness that sha
 
 ## Singapore Market Information
 
-Mirtazapine currently has **no marketing authorizations on record in Singapore** (`market_status: 未上市`, `total_licenses: 0`). No product name, dosage form, or approved indication text is available from the regulatory data source in this Evidence Pack.
+Mirtazapine currently has **no marketing authorizations on record in Singapore** (`market_status: Not marketed`, `total_licenses: 0`). No product name, dosage form, or approved indication text is available from the regulatory data source in this Evidence Pack.
 
 ---
 

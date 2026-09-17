@@ -16,7 +16,7 @@ Lactulose is a non-absorbable osmotic disaccharide with long-established use for
 | Predicted New Indication | Obstructive Jaundice |
 | TxGNN Prediction Score | 99.53% |
 | Evidence Level | L3 |
-| Singapore Market Status | ✗ Not Marketed (未上市) |
+| Singapore Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 

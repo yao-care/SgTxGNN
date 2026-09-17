@@ -15,7 +15,7 @@
 | Predicted New Indication | Migraine Disorder |
 | TxGNN Prediction Score | 96.91% |
 | Evidence Level | L5 (model prediction only, no supporting studies) |
-| Singapore Market Status | Not marketed (未上市) |
+| Singapore Market Status | Not marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | **Hold** |
 

@@ -58,7 +58,7 @@ Currently no related literature available for the top-ranked prediction (polyclo
 
 ## Singapore Market Information
 
-Lincomycin is currently **not registered or marketed in Singapore** (`market_status: 未上市`, `total_licenses: 0`). No authorization records are available.
+Lincomycin is currently **not registered or marketed in Singapore** (`market_status: Not marketed`, `total_licenses: 0`). No authorization records are available.
 
 ## Safety Considerations
 

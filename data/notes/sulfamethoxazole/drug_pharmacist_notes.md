@@ -16,7 +16,7 @@
 | Predicted New Indication | Acute Contagious Conjunctivitis |
 | TxGNN Prediction Score | 99.63% |
 | Evidence Level | L3 |
-| Singapore Market Status | 未上市 (Not Marketed) |
+| Singapore Market Status | Not marketed (Not Marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 
@@ -48,7 +48,7 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-Sulfamethoxazole is not currently marketed in Singapore (market status: 未上市). No product registrations or licenses are on file in this Evidence Pack.
+Sulfamethoxazole is not currently marketed in Singapore (market status: Not marketed). No product registrations or licenses are on file in this Evidence Pack.
 
 ---
 

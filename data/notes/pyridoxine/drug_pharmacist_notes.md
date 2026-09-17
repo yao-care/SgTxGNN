@@ -18,7 +18,7 @@ Using no additional skill — this is a direct content-generation task matching 
 | Predicted New Indication | Gonococcal Urethritis |
 | TxGNN Prediction Score | 93.87% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed (未上市) |
+| Singapore Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 

@@ -10,11 +10,11 @@ Malathion 是一種有機磷酸酯類乙醯膽鹼酯酶抑制劑，目前已知�
 
 | 項目 | 內容 |
 |------|------|
-| 原始適應症 | 台灣藥政資料（`taiwan_regulatory.licenses`）無記錄、藥品未上市；依已知藥理用途，Malathion 為外用殺蟲劑，臨床上用於頭蝨與疥瘡之殺蟲/殺疥蟎治療 |
+| 原始適應症 | 台灣藥政資料（`taiwan_regulatory.licenses`）無記錄、藥品Not marketed；依已知藥理用途，Malathion 為外用殺蟲劑，臨床上用於頭蝨與疥瘡之殺蟲/殺疥蟎治療 |
 | 預測新適應症 | Seborrheic Keratosis（脂漏性角化病） |
 | TxGNN 預測分數 | 96.45% |
 | 證據等級 | L5（僅模型預測，無臨床試驗或文獻佐證） |
-| 台灣市場狀態 | 未上市 |
+| 台灣市場狀態 | Not marketed |
 | 登記證數量 | 0 |
 | 建議決策 | Hold（暫緩） |
 
@@ -73,7 +73,7 @@ Malathion 目前**未於台灣上市**，登記證數量為 0，`taiwan_regulato
 
 **若要繼續推進，需要補充：**
 - TFDA 仿單警語與禁忌資料（DG001，Blocking，需下載並解析官方仿單 PDF）
-- Malathion 完整作用機轉（MOA）資料（DG002，需查詢 DrugBank API）
+- Malathion 完整作用機轉（MOA）資料（DG002，需Query the DrugBank API）
 - 針對脂漏性角化病此適應症的獨立體外／體內機轉研究，以驗證或推翻目前「無合理機轉」的初步判斷
 - 若機轉驗證通過，需重新評估台灣/新加坡在地法規上市路徑可行性
 

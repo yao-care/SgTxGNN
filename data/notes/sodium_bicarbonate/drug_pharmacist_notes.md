@@ -12,7 +12,7 @@ Sodium bicarbonate is a systemic alkalinizing agent traditionally used to correc
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 97.91% |
 | Evidence Level | L3 |
-| Singapore Market Status | 未上市 (Not marketed) |
+| Singapore Market Status | Not marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 

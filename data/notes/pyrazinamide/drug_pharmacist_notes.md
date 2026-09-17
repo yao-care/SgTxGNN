@@ -16,7 +16,7 @@
 | Predicted New Indication | Infectious Otitis Media |
 | TxGNN Prediction Score | 99.96% |
 | Evidence Level | L5 (no clinical trials, no literature) |
-| Singapore Market Status | 未上市 (Not Marketed) |
+| Singapore Market Status | Not marketed (Not Marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 
@@ -46,7 +46,7 @@ Currently no related literature available
 
 ## Singapore Market Information
 
-This drug is currently **not registered/marketed** (未上市, 0 licenses on file). No authorization records are available to summarize.
+This drug is currently **not registered/marketed** (Not marketed, 0 licenses on file). No authorization records are available to summarize.
 
 ---
 

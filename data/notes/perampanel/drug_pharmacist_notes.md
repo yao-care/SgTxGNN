@@ -61,7 +61,7 @@ None of the 19 returned publications specifically addresses visually-induced/pho
 
 ## Singapore Market Information
 
-Perampanel currently has **0 registered authorizations** in Singapore (`market_status: 未上市` / Not Marketed). No license records, product names, dosage forms, or approved indication text are available from the regulatory data source for this drug.
+Perampanel currently has **0 registered authorizations** in Singapore (`market_status: Not marketed` / Not Marketed). No license records, product names, dosage forms, or approved indication text are available from the regulatory data source for this drug.
 
 ---
 

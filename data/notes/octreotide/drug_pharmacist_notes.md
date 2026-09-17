@@ -12,7 +12,7 @@ Octreotide is a somatostatin analog whose known mechanism suppresses GH/IGF-1, g
 | Predicted New Indication | Vulvar Inverted Follicular Keratosis |
 | TxGNN Prediction Score | 99.58% |
 | Evidence Level | L5 (model prediction only, no supporting trials or literature) |
-| Singapore Market Status | ✗ Not marketed (未上市) |
+| Singapore Market Status | ✗ Not marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 

@@ -16,7 +16,7 @@
 | Predicted New Indication | Pneumonia |
 | TxGNN Prediction Score | 99.46% |
 | Evidence Level | L1 |
-| Singapore Market Status | 未上市 (Not Marketed) |
+| Singapore Market Status | Not marketed (Not Marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -68,7 +68,7 @@ Mechanistically, the rationale is strong: Gram-negative pathogens implicated in 
 
 ## Singapore Market Information
 
-Tazobactam currently holds **no marketing authorization records in Singapore** (market status: 未上市 / Not Marketed; 0 registrations). No product license table is available for this drug at this time.
+Tazobactam currently holds **no marketing authorization records in Singapore** (market status: Not marketed / Not Marketed; 0 registrations). No product license table is available for this drug at this time.
 
 ---
 

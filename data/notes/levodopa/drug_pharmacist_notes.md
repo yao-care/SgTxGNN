@@ -22,7 +22,7 @@ A note on methodology before the report: `predicted_indications[0]` (the field t
 | Predicted New Indication | Rasmussen Subacute Encephalitis |
 | TxGNN Prediction Score | 99.06% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed (未上市) |
+| Singapore Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 
@@ -52,7 +52,7 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Levodopa currently has no registrations on file for Singapore (`market_status: 未上市`, `total_licenses: 0`, no license records provided). No authorization number, product name, or approved indication text is available to report.
+Levodopa currently has no registrations on file for Singapore (`market_status: Not marketed`, `total_licenses: 0`, no license records provided). No authorization number, product name, or approved indication text is available to report.
 
 ---
 

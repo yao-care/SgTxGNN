@@ -14,7 +14,7 @@ Fosnetupitant is referenced in this evidence pack only by mechanistic notes desc
 | Predicted New Indication | Leprosy |
 | TxGNN Prediction Score | 96.44% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not Marketed (未上市) |
+| Singapore Market Status | Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 
@@ -62,7 +62,7 @@ All ten candidates share the same evidence profile: 0 clinical trials, 0 literat
 
 ## Singapore Market Information
 
-Fosnetupitant is currently **not marketed** in Singapore (`market_status` = 未上市) and has **0 registered licenses** on file. No product name, dosage form, or approved indication text is available for this evidence pack.
+Fosnetupitant is currently **not marketed** in Singapore (`market_status` = Not marketed) and has **0 registered licenses** on file. No product name, dosage form, or approved indication text is available for this evidence pack.
 
 ---
 

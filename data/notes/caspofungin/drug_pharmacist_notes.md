@@ -15,7 +15,7 @@ The TxGNN model predicts it may be effective for **Gastrin Secretion Abnormality
 | Predicted New Indication | Gastrin Secretion Abnormality |
 | TxGNN Prediction Score | 99.44% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not marketed (未上市) |
+| Singapore Market Status | Not marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 

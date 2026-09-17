@@ -63,7 +63,7 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-No Singapore product registrations on file — market status is **未上市 (not marketed)**, with 0 total licenses recorded.
+No Singapore product registrations on file — market status is **Not marketed (not marketed)**, with 0 total licenses recorded.
 
 ---
 

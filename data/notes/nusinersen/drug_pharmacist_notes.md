@@ -17,7 +17,7 @@ The TxGNN model's top-ranked candidate in this pack is **Tendinopathy**, but the
 | Predicted New Indication | Tendinopathy |
 | TxGNN Prediction Score | 50.00% (non-significant; rank 51,833) |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not marketed (未上市) |
+| Singapore Market Status | ✗ Not marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 
@@ -47,7 +47,7 @@ Currently no related literature available
 
 ## Singapore Market Information
 
-Nusinersen has no license registrations in Singapore (`total_licenses: 0`, market status: 未上市), so no market information table can be produced.
+Nusinersen has no license registrations in Singapore (`total_licenses: 0`, market status: Not marketed), so no market information table can be produced.
 
 ---
 

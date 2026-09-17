@@ -16,7 +16,7 @@
 | Top-Ranked Predicted Indication (rank 1) | Focal Stiff Limb Syndrome |
 | TxGNN Prediction Score (rank 1) | 99.45% |
 | Evidence Level (rank 1) | L5 (model prediction only, no trials/literature) |
-| Singapore Market Status | ✗ Not Marketed (未上市) |
+| Singapore Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | **Hold** (all 10 candidates) |
 
@@ -85,7 +85,7 @@ Literature was found for only 2 of the 10 candidates. All others returned zero P
 
 ## Singapore Market Information
 
-No Singapore drug registrations are recorded in this evidence pack. `taiwan_regulatory.total_licenses = 0` and `market_status = 未上市 (Not Marketed)` — Metformin currently has no listed license entries to summarize in this dataset.
+No Singapore drug registrations are recorded in this evidence pack. `taiwan_regulatory.total_licenses = 0` and `market_status = Not marketed (Not Marketed)` — Metformin currently has no listed license entries to summarize in this dataset.
 
 ---
 

@@ -15,7 +15,7 @@ The TxGNN model's top prediction for this drug is **Thrombocytopenia** (score 98
 | Predicted New Indication | Thrombocytopenia |
 | TxGNN Prediction Score | 98.46% |
 | Evidence Level | L4 |
-| Singapore Market Status | 未上市 (Not Marketed) |
+| Singapore Market Status | Not marketed (Not Marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 

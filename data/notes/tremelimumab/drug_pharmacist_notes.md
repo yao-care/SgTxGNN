@@ -14,7 +14,7 @@ but **zero clinical trials** and **zero publications** currently support this di
 | Predicted New Indication | Diabetic cataract |
 | TxGNN Prediction Score | 98.49% |
 | Evidence Level | L5 |
-| Singapore Market Status | 未上市 (Not marketed) |
+| Singapore Market Status | Not marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 
@@ -34,7 +34,7 @@ Currently no related literature available
 
 ## Singapore Market Information
 
-This drug currently has no registered market authorizations in Singapore (未上市, 0 licenses on record).
+This drug currently has no registered market authorizations in Singapore (Not marketed, 0 licenses on record).
 
 ## Safety Considerations
 

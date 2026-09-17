@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Alpha-Tocopherol
-parent: 僅模型預測 (L5)
+parent: Low Evidence (L5)
 nav_order: 68
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Alpha-Tocopherol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Evidence Level: **L5** | Predicted Indications: **0** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -47,7 +47,7 @@ Alpha-tocopherol（維生素 E 的主要活性形式）是一種脂溶性抗氧�
 | Predicted New Indication | 無（TxGNN 未產生預測結果） |
 | TxGNN Prediction Score | 無 |
 | Evidence Level | 無法判定（無預測資料） |
-| Singapore Market Status | 未上市 |
+| Singapore Market Status | Not marketed |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 

@@ -11,7 +11,7 @@
 
 | Item | Content |
 |------|------|
-| Original Indication | Not registered in Singapore (market status: 未上市/Not Marketed); no local approved-indication text is available to extract |
+| Original Indication | Not registered in Singapore (market status: Not marketed/Not Marketed); no local approved-indication text is available to extract |
 | Predicted New Indication | Cauda Equina Syndrome |
 | TxGNN Prediction Score | 99.99% (score 0.9999, model rank 346) |
 | Evidence Level | L5 |

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Nusinersen
-parent: 僅模型預測 (L5)
+parent: Low Evidence (L5)
 nav_order: 719
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Nusinersen
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -48,7 +48,7 @@ The TxGNN model's top-ranked candidate in this pack is **Tendinopathy**, but the
 | Predicted New Indication | Tendinopathy |
 | TxGNN Prediction Score | 50.00% (non-significant; rank 51,833) |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not marketed (未上市) |
+| Singapore Market Status | ✗ Not marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 
@@ -78,7 +78,7 @@ Currently no related literature available
 
 ## Singapore Market Information
 
-Nusinersen has no license registrations in Singapore (`total_licenses: 0`, market status: 未上市), so no market information table can be produced.
+Nusinersen has no license registrations in Singapore (`total_licenses: 0`, market status: Not marketed), so no market information table can be produced.
 
 ---
 

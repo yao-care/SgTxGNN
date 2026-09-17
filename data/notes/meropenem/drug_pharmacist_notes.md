@@ -18,7 +18,7 @@ Using the report template exactly as specified in the prompt (this is a direct c
 | Predicted New Indication | Bacterial Arthritis |
 | TxGNN Prediction Score | 99.92% (rank 1633 among candidates) |
 | Evidence Level | L3 (see note below) |
-| Singapore Market Status | ✗ Not Marketed (未上市) |
+| Singapore Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 
@@ -65,7 +65,7 @@ Mechanistically, therefore, the prediction is plausible and consistent with mero
 
 ## Singapore Market Information
 
-Meropenem currently has **no marketing authorization registered in Singapore** (`market_status: 未上市`, `total_licenses: 0`, no license records available in this evidence pack). No authorization number, product name, or locally approved indication text can be extracted at this time.
+Meropenem currently has **no marketing authorization registered in Singapore** (`market_status: Not marketed`, `total_licenses: 0`, no license records available in this evidence pack). No authorization number, product name, or locally approved indication text can be extracted at this time.
 
 ---
 

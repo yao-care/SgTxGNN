@@ -14,7 +14,7 @@ Vigabatrin is an established anticonvulsant historically used for refractory epi
 | Predicted New Indication | Intellectual disability, X-linked, with or without seizures, ARX-related |
 | TxGNN Prediction Score | 98.66% |
 | Evidence Level | L3 (indirect observational/review evidence on related neurogenetic epilepsy syndromes; no disease-specific trials) |
-| Singapore Market Status | 未上市 (Not Marketed) |
+| Singapore Market Status | Not marketed (Not Marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 

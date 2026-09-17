@@ -53,7 +53,7 @@ Trigeminal neuralgia (TN) is a hyperexcitability disorder of the trigeminal nerv
 
 ## Singapore Market Information
 
-Currently no marketing authorization on record. Per the evidence pack, `market_status = 未上市` with **0** registered licenses. A new-registration or import-license pathway would need to be established before local clinical use.
+Currently no marketing authorization on record. Per the evidence pack, `market_status = Not marketed` with **0** registered licenses. A new-registration or import-license pathway would need to be established before local clinical use.
 
 ## Safety Considerations
 

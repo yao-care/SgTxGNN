@@ -12,7 +12,7 @@ Norfloxacin is a fluoroquinolone antibacterial; this evidence pack does not cont
 | Predicted New Indication | Hyperamylasemia |
 | TxGNN Prediction Score | 99.70% |
 | Evidence Level | L5 |
-| Singapore Market Status | 未上市 (Not marketed) |
+| Singapore Market Status | Not marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 

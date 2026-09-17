@@ -15,7 +15,7 @@ The TxGNN model's top-ranked prediction is **Psychogenic Movement Disorders**, b
 | Predicted New Indication | Psychogenic Movement Disorders |
 | TxGNN Prediction Score | 99.82% (rank 3123 overall) |
 | Evidence Level | L5 |
-| Singapore Market Status | 未上市 (Not marketed) |
+| Singapore Market Status | Not marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 
@@ -43,7 +43,7 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Valbenazine is not currently registered in Singapore (market status: 未上市). No license records are available in this evidence pack.
+Valbenazine is not currently registered in Singapore (market status: Not marketed). No license records are available in this evidence pack.
 
 ---
 

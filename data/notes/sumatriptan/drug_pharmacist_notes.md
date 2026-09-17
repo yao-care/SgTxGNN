@@ -57,7 +57,7 @@ Currently no related clinical trials registered specifically for migraine with b
 
 ## Singapore Market Information
 
-Sumatriptan currently has **no market authorization on record in Singapore** (0 licenses; market status: 未上市/Not Marketed).
+Sumatriptan currently has **no market authorization on record in Singapore** (0 licenses; market status: Not marketed/Not Marketed).
 
 ---
 

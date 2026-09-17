@@ -14,7 +14,7 @@ Pirfenidone is an oral antifibrotic agent referenced in the evidence pack as app
 | Predicted New Indication (evidence-supported) | Fibroblastic Neoplasm (rank 9/10, the only candidate with literature evidence) |
 | TxGNN Prediction Score | 99.23% (fibroblastic neoplasm); highest-scoring candidate overall is extracutaneous mastocytoma at 99.71% but has no evidence |
 | Evidence Level | L3 (fibroblastic neoplasm); all other 9 candidates are L5 |
-| Singapore Market Status | ✗ Not Marketed (未上市) |
+| Singapore Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | **Hold** |
 
@@ -70,7 +70,7 @@ Currently no related clinical trials registered for fibroblastic neoplasm. (A sm
 
 ## Singapore Market Information
 
-Pirfenidone currently has **no marketing authorization on file** — `taiwan_regulatory.market_status` is "未上市" (Not Marketed) with 0 registered licenses. No dosage form or brand information is available.
+Pirfenidone currently has **no marketing authorization on file** — `taiwan_regulatory.market_status` is "Not marketed" (Not Marketed) with 0 registered licenses. No dosage form or brand information is available.
 
 ---
 

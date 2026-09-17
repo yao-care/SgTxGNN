@@ -15,7 +15,7 @@ The TxGNN model predicts it may also be effective for **Myeloid Leukemia (acute 
 | Predicted New Indication | Myeloid Leukemia (Acute Myeloid Leukemia, AML) |
 | TxGNN Prediction Score | 99.49% |
 | Evidence Level | L2 |
-| Singapore Market Status | ✗ Not Marketed (未上市) |
+| Singapore Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 

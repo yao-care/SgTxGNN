@@ -14,7 +14,7 @@ Furosemide is a loop diuretic long used internationally for fluid overload (edem
 | Predicted New Indication | Malignant Renovascular Hypertension |
 | TxGNN Prediction Score | 98.03% |
 | Evidence Level | L3 (Observational studies; no RCTs identified) |
-| Singapore Market Status | ✗ Not Marketed (未上市) |
+| Singapore Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 

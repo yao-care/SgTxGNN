@@ -14,7 +14,7 @@ Testosterone cypionate is a long-acting injectable androgen ester used clinicall
 | Predicted New Indication | Urethral obstruction sequence |
 | TxGNN Prediction Score | 98.30% |
 | Evidence Level | L5 |
-| Singapore Market Status | 未上市 (Not marketed) |
+| Singapore Market Status | Not marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 

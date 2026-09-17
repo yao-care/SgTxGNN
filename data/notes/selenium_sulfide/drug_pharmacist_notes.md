@@ -18,7 +18,7 @@ Using no additional skill — this is a direct content-generation task with an e
 | Predicted New Indication | Vulvar Inverted Follicular Keratosis |
 | TxGNN Prediction Score | 89.52% |
 | Evidence Level | L5 |
-| Taiwan Market Status | 未上市 (Not marketed) |
+| Taiwan Market Status | Not marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 
@@ -48,7 +48,7 @@ Currently no related literature available.
 
 ## Taiwan Market Information
 
-This drug currently has no approved license registrations in Taiwan (market status: 未上市 / Not marketed; total licenses: 0). No dosage form or approved indication text is available from TFDA sources.
+This drug currently has no approved license registrations in Taiwan (market status: Not marketed / Not marketed; total licenses: 0). No dosage form or approved indication text is available from TFDA sources.
 
 ---
 

@@ -66,7 +66,7 @@ This distinction matters for decision-making: unlike a true repurposing signal (
 
 ## Singapore Market Information
 
-Raltegravir currently has **no registered market authorizations in Singapore** (market status: 未上市 / Not Marketed; total registrations: 0). No license records are available for review.
+Raltegravir currently has **no registered market authorizations in Singapore** (market status: Not marketed / Not Marketed; total registrations: 0). No license records are available for review.
 
 ---
 

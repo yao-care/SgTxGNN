@@ -16,7 +16,7 @@ Prilocaine is an amide-type local anesthetic, best known as one of the two activ
 | Predicted New Indication | Neuralgia (postherpetic neuralgia) |
 | TxGNN Prediction Score | 99.34% |
 | Evidence Level | L2 |
-| Singapore Market Status | ✗ Not Marketed (未上市) |
+| Singapore Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -60,7 +60,7 @@ The link between "local anesthesia" and "neuralgia" is not a novel hypothesis �
 
 ## Singapore Market Information
 
-Prilocaine has **0 registered products** in the Singapore regulatory dataset used for this evaluation (`market_status: 未上市`). No authorization records, product names, or approved-indication text are available. If this candidate advances, formal HSA registration status and label text must be independently confirmed before further evaluation.
+Prilocaine has **0 registered products** in the Singapore regulatory dataset used for this evaluation (`market_status: Not marketed`). No authorization records, product names, or approved-indication text are available. If this candidate advances, formal HSA registration status and label text must be independently confirmed before further evaluation.
 
 ---
 

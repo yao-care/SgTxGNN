@@ -45,7 +45,7 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Mivacurium currently has **0 registered licenses** and is **not marketed** in Singapore/Taiwan under this evidence pack (`market_status: 未上市`), so no local product or approved-indication text is available for comparison.
+Mivacurium currently has **0 registered licenses** and is **not marketed** in Singapore/Taiwan under this evidence pack (`market_status: Not marketed`), so no local product or approved-indication text is available for comparison.
 
 ---
 

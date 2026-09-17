@@ -16,7 +16,7 @@ Montelukast is a cysteinyl leukotriene receptor 1 (CysLT1) antagonist originally
 | Predicted New Indication | Bronchitis (bundles viral bronchiolitis, bronchiolitis obliterans syndrome, and eosinophilic bronchitis) |
 | TxGNN Prediction Score | 99.95% |
 | Evidence Level | L2 |
-| Singapore Market Status | ✗ Not Marketed (未上市) |
+| Singapore Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Research Question |
 
@@ -68,7 +68,7 @@ Because the disease node mixes conditions with very different pathophysiology (a
 
 ## Singapore Market Information
 
-Montelukast currently has **no registered license and is not marketed** in Singapore under this dataset (`market_status: 未上市`, 0 total licenses). No product-level authorization details are available to tabulate.
+Montelukast currently has **no registered license and is not marketed** in Singapore under this dataset (`market_status: Not marketed`, 0 total licenses). No product-level authorization details are available to tabulate.
 
 ---
 

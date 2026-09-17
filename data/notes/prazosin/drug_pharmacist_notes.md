@@ -46,7 +46,7 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Prazosin currently has no marketing authorization in Singapore (0 registrations, market status: 未上市/Not Marketed). No dosage form or approved indication data is available for this jurisdiction.
+Prazosin currently has no marketing authorization in Singapore (0 registrations, market status: Not marketed/Not Marketed). No dosage form or approved indication data is available for this jurisdiction.
 
 ---
 

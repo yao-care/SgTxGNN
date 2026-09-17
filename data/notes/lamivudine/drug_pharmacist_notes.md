@@ -20,7 +20,7 @@ Lamivudine is a nucleoside reverse transcriptase inhibitor (NRTI) originally dev
 | Predicted New Indication | Hepatitis B Virus Infection |
 | TxGNN Prediction Score | 97.84% |
 | Evidence Level | L1 |
-| Singapore Market Status | Not Marketed (未上市) |
+| Singapore Market Status | Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 

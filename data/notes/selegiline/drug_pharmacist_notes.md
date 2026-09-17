@@ -16,7 +16,7 @@
 | Predicted New Indication | Schizophrenia (negative symptoms, as antipsychotic augmentation) |
 | TxGNN Prediction Score | 99.14% |
 | Evidence Level | L2 |
-| Singapore Market Status | 未上市 (Not marketed) |
+| Singapore Market Status | Not marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 

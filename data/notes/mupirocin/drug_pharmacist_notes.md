@@ -18,7 +18,7 @@ Mupirocin is a topical antibacterial that inhibits bacterial isoleucyl-tRNA synt
 | Predicted New Indication | Staphylococcal Scalded Skin Syndrome (SSSS) |
 | TxGNN Prediction Score | 95.57% |
 | Evidence Level | L3 |
-| Singapore Market Status | ✗ Not marketed (未上市) |
+| Singapore Market Status | ✗ Not marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 
@@ -51,7 +51,7 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-Mupirocin currently has **no registration records** in Singapore (0 licenses on file; market status "未上市/Not marketed"). No authorization details are available to report.
+Mupirocin currently has **no registration records** in Singapore (0 licenses on file; market status "Not marketed/Not marketed"). No authorization details are available to report.
 
 ## Safety Considerations
 

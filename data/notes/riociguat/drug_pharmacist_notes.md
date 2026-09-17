@@ -14,7 +14,7 @@ Riociguat is a soluble guanylate cyclase (sGC) stimulator originally developed f
 | Predicted New Indication | Pulmonary Arterial Hypertension Associated with Connective Tissue Disease (CTD-PAH) |
 | TxGNN Prediction Score | 91.55% |
 | Evidence Level | L2 |
-| Singapore Market Status | ✗ Not marketed (未上市) |
+| Singapore Market Status | ✗ Not marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 

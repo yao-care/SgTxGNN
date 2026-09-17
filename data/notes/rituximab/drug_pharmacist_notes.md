@@ -16,7 +16,7 @@
 | Predicted New Indication | Follicular Lymphoma |
 | TxGNN Prediction Score | 96.08% |
 | Evidence Level | L1 |
-| Singapore Market Status | 未上市 (Not Marketed) |
+| Singapore Market Status | Not marketed (Not Marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -68,7 +68,7 @@ Because no formal MOA field or original indication field was populated for this 
 
 ## Singapore Market Information
 
-Rituximab currently has **no marketing authorization records in Singapore** in this Evidence Pack (market status: 未上市 / Not Marketed; total registrations: 0). No product name, dosage form, or approved indication text is available for local review.
+Rituximab currently has **no marketing authorization records in Singapore** in this Evidence Pack (market status: Not marketed / Not Marketed; total registrations: 0). No product name, dosage form, or approved indication text is available for local review.
 
 ---
 

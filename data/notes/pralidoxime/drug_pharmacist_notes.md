@@ -14,7 +14,7 @@ Pralidoxime is an acetylcholinesterase (AChE) reactivator historically used as a
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 95.70% |
 | Evidence Level | L5 |
-| Singapore Market Status | 未上市 (Not Marketed) |
+| Singapore Market Status | Not marketed (Not Marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 
@@ -44,7 +44,7 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Pralidoxime currently has no marketing authorizations on record (market status: 未上市 / Not Marketed; total registrations: 0). No product license data is available to summarize.
+Pralidoxime currently has no marketing authorizations on record (market status: Not marketed / Not Marketed; total registrations: 0). No product license data is available to summarize.
 
 ---
 

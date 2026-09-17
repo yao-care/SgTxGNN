@@ -14,7 +14,7 @@ Pertuzumab (DrugBank DB06366) is an anti-HER2 monoclonal antibody used in combin
 | Predicted New Indication | Progesterone-Receptor Positive Breast Cancer |
 | TxGNN Prediction Score | 99.93% |
 | Evidence Level | L1 |
-| Singapore Market Status | ✗ Not Marketed (未上市) |
+| Singapore Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 

@@ -16,7 +16,7 @@ Thalidomide is a well-established immunomodulatory drug (IMiD) with documented u
 | Predicted New Indication | Neuroblastoma |
 | TxGNN Prediction Score | 98.66% |
 | Evidence Level | L2 |
-| Singapore Market Status | ✗ Not Marketed (未上市) |
+| Singapore Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Proceed with Guardrails (conditional — see Conclusion) |
 
@@ -57,7 +57,7 @@ Neuroblastoma is a highly vascularized pediatric solid tumor in which microvesse
 
 ## Singapore Market Information
 
-Currently no local registrations. Thalidomide is **not marketed** (未上市, 0 authorizations recorded) in this evidence pack.
+Currently no local registrations. Thalidomide is **not marketed** (Not marketed, 0 authorizations recorded) in this evidence pack.
 
 ---
 

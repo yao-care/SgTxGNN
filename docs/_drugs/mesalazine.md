@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Mesalazine
-parent: 僅模型預測 (L5)
+parent: High Evidence (L1-L2)
 nav_order: 647
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Mesalazine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L2** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -49,7 +49,7 @@ Using the Evidence Pack for Mesalazine (DB00244), I selected the report's featur
 | Predicted New Indication | Rheumatoid Arthritis |
 | TxGNN Prediction Score | 99.57% (rank 5,829 of all drug–disease pairs) |
 | Evidence Level | L2 |
-| Singapore Market Status | Not Marketed (未上市) |
+| Singapore Market Status | Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 
@@ -99,7 +99,7 @@ For context, the TxGNN model's second-ranked, evidence-backed prediction — ost
 
 ## Singapore Market Information
 
-Mesalazine is currently **not registered or marketed** in Singapore under this Evidence Pack's regulatory data (0 licenses on file, market status: 未上市). No authorization records, product names, or approved indication text are available to tabulate.
+Mesalazine is currently **not registered or marketed** in Singapore under this Evidence Pack's regulatory data (0 licenses on file, market status: Not marketed). No authorization records, product names, or approved indication text are available to tabulate.
 
 ---
 

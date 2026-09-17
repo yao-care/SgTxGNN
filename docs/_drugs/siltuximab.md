@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Siltuximab
-parent: 僅模型預測 (L5)
+parent: Medium Evidence (L3-L4)
 nav_order: 903
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Siltuximab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -47,7 +47,7 @@ with **1 completed randomized controlled trial** (on the parent iMCD indication)
 | Predicted New Indication | TAFRO Syndrome |
 | TxGNN Prediction Score | 98.79% |
 | Evidence Level | L3 |
-| Singapore Market Status | 未上市 (Not Marketed) |
+| Singapore Market Status | Not marketed (Not Marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -90,7 +90,7 @@ Currently no related clinical trials registered for TAFRO syndrome specifically.
 
 ## Singapore Market Information
 
-Siltuximab is **not currently registered in Singapore** (0 authorizations, market status: 未上市/Not Marketed). No local product listing, dosage form, or approved indication text is available in this evidence pack.
+Siltuximab is **not currently registered in Singapore** (0 authorizations, market status: Not marketed/Not Marketed). No local product listing, dosage form, or approved indication text is available in this evidence pack.
 
 ---
 

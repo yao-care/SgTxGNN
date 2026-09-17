@@ -16,7 +16,7 @@
 | Predicted New Indication | Female Breast Carcinoma |
 | TxGNN Prediction Score | 99.73% |
 | Evidence Level | L2 |
-| Singapore Market Status | ✗ Not Marketed (未上市) |
+| Singapore Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 

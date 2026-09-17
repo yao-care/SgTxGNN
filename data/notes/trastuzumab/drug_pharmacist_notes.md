@@ -14,7 +14,7 @@ Trastuzumab is a humanized anti-HER2 (ERBB2) monoclonal antibody already establi
 | Predicted New Indication | Progesterone-Receptor Positive Breast Cancer |
 | TxGNN Prediction Score | 99.90% (rank 1913) |
 | Evidence Level | L1 |
-| Singapore Market Status | 未上市 (Not Marketed) |
+| Singapore Market Status | Not marketed (Not Marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -66,7 +66,7 @@ Because of this, the mechanistic plausibility is high, but the clinical value of
 
 ## Singapore Market Information
 
-Trastuzumab currently has **no product registrations in Singapore** (market status: 未上市 / Not Marketed; total licenses: 0). No authorization records, product names, or approved indication text are available in the regulatory data source.
+Trastuzumab currently has **no product registrations in Singapore** (market status: Not marketed / Not Marketed; total licenses: 0). No authorization records, product names, or approved indication text are available in the regulatory data source.
 
 ---
 

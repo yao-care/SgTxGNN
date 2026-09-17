@@ -54,7 +54,7 @@ Additionally, one of the two supporting literature records (PMID 30018843, a cas
 
 ## Singapore Market Information
 
-Fondaparinux is currently **not registered or marketed in Singapore** (`total_licenses: 0`, `market_status: 未上市`). No license records are available in this evidence pack.
+Fondaparinux is currently **not registered or marketed in Singapore** (`total_licenses: 0`, `market_status: Not marketed`). No license records are available in this evidence pack.
 
 ---
 

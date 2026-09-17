@@ -12,7 +12,7 @@ Netarsudil is a Rho-kinase (ROCK) inhibitor marketed elsewhere as Rhopressa®/Ro
 | Predicted New Indication | Primary Hereditary Glaucoma |
 | TxGNN Prediction Score | 99.50% |
 | Evidence Level | L4 |
-| Singapore Market Status | 未上市 (Not Marketed) |
+| Singapore Market Status | Not marketed (Not Marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 

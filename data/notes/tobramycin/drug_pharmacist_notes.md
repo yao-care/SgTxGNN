@@ -15,7 +15,7 @@
 | Predicted New Indication | Exposure Keratitis |
 | TxGNN Prediction Score | 99.93% |
 | Evidence Level | L4 |
-| Singapore Market Status | ✗ Not Marketed (未上市) |
+| Singapore Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 

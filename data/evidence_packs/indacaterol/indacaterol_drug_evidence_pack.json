@@ -13,23 +13,23 @@
       {
         "id": "DG001",
         "category": "Drug_Level",
-        "item": "TFDA 仿單警語/禁忌",
+        "item": "HSA package insert warnings/contraindications",
         "severity": "Blocking",
-        "impact": "無法進入 S1 安全性初評",
+        "impact": "Cannot proceed to S1 safety screening",
         "remediation": {
-          "source": "TFDA 官網",
-          "method": "下載仿單 PDF 並解析"
+          "source": "HSA website",
+          "method": "Download and parse the package insert PDF"
         }
       },
       {
         "id": "DG002",
         "category": "Drug_Level",
-        "item": "作用機轉 (MOA)",
+        "item": "Mechanism of action (MOA)",
         "severity": "High",
-        "impact": "影響機轉關聯性分析",
+        "impact": "Limits mechanistic-link analysis",
         "remediation": {
           "source": "DrugBank",
-          "method": "查詢 DrugBank API"
+          "method": "Query the DrugBank API"
         }
       }
     ]
@@ -42,7 +42,7 @@
     "original_moa": "[Data Gap]"
   },
   "taiwan_regulatory": {
-    "market_status": "未上市",
+    "market_status": "Not marketed",
     "total_licenses": 0,
     "licenses": [],
     "dosage_forms_by_route": []
@@ -1138,7 +1138,7 @@
         "recommendation": "Proceed with Guardrails"
       },
       "repurposing_rationale": {
-        "mechanistic_link": "【核心已核准適應症】Indacaterol 選擇性激動氣道平滑肌 β2 腎上腺素受體 → Gs 蛋白活化 → adenylyl cyclase → cAMP↑ → PKA → 肌球蛋白輕鏈激酶失活 + MLCK 磷酸化 → 平滑肌舒張 → 支氣管擴張，持效 24 小時。附加：抑制肥大細胞脫顆粒減少炎症介質、促黏液纖毛清除。與 Glycopyrronium（LAMA）協同擴張不同受體，與 Mometasone（ICS）互補抗炎，形成三聯療法機轉完整。此為藥物核心機轉直接適應症，具備 L1 等級多項 Phase 3 RCT 支持。【注意：市場狀態「未上市」可能為本地登記資料缺失，建議驗證 HSA/衛福部核准狀態】",
+        "mechanistic_link": "【核心已核准適應症】Indacaterol 選擇性激動氣道平滑肌 β2 腎上腺素受體 → Gs 蛋白活化 → adenylyl cyclase → cAMP↑ → PKA → 肌球蛋白輕鏈激酶失活 + MLCK 磷酸化 → 平滑肌舒張 → 支氣管擴張，持效 24 小時。附加：抑制肥大細胞脫顆粒減少炎症介質、促黏液纖毛清除。與 Glycopyrronium（LAMA）協同擴張不同受體，與 Mometasone（ICS）互補抗炎，形成三聯療法機轉完整。此為藥物核心機轉直接適應症，具備 L1 等級多項 Phase 3 RCT 支持。【注意：市場狀態「Not marketed」可能為本地登記資料缺失，建議驗證 HSA/衛福部核准狀態】",
         "similarity_to_original": "pending"
       },
       "route_compatibility": {

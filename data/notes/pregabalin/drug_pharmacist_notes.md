@@ -22,7 +22,7 @@ One judgment call before the report: **predicted_indications[0] in this pack is 
 | Predicted New Indication | Osteoarthritis (centrally sensitized pain phenotype) |
 | TxGNN Prediction Score | 98.58% (score rank 13,736; #8 of the top 10 candidates in this pack) |
 | Evidence Level | L1 |
-| Singapore Market Status | 未上市 (Not Marketed) |
+| Singapore Market Status | Not marketed (Not Marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 

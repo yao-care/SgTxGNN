@@ -14,7 +14,7 @@ Olodaterol is a long-acting β2-adrenergic agonist (LABA), delivered via the Res
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 99.84% |
 | Evidence Level | L1 |
-| Singapore Market Status | 未上市 (Not Marketed) |
+| Singapore Market Status | Not marketed (Not Marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 

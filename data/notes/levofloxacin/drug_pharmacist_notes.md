@@ -53,7 +53,7 @@ Currently no related clinical trials registered in ClinicalTrials.gov/ICTRP for 
 
 ## Singapore Market Information
 
-Levofloxacin currently has **0 registrations** and is **not marketed** in Singapore under this dataset (`market_status: 未上市`). No license records are available to summarize.
+Levofloxacin currently has **0 registrations** and is **not marketed** in Singapore under this dataset (`market_status: Not marketed`). No license records are available to summarize.
 
 ## Safety Considerations
 

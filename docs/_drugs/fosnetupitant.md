@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Fosnetupitant
-parent: 僅模型預測 (L5)
+parent: Low Evidence (L5)
 nav_order: 451
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Fosnetupitant
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -45,7 +45,7 @@ Fosnetupitant is referenced in this evidence pack only by mechanistic notes desc
 | Predicted New Indication | Leprosy |
 | TxGNN Prediction Score | 96.44% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not Marketed (未上市) |
+| Singapore Market Status | Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 
@@ -93,7 +93,7 @@ All ten candidates share the same evidence profile: 0 clinical trials, 0 literat
 
 ## Singapore Market Information
 
-Fosnetupitant is currently **not marketed** in Singapore (`market_status` = 未上市) and has **0 registered licenses** on file. No product name, dosage form, or approved indication text is available for this evidence pack.
+Fosnetupitant is currently **not marketed** in Singapore (`market_status` = Not marketed) and has **0 registered licenses** on file. No product name, dosage form, or approved indication text is available for this evidence pack.
 
 ---
 

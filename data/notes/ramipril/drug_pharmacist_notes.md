@@ -14,7 +14,7 @@ Ramipril's original indication is not documented in the current evidence pack (t
 | Predicted New Indication | Pulmonary Hypertension with Unclear Multifactorial Mechanism |
 | TxGNN Prediction Score | 99.93% |
 | Evidence Level | L5 (model prediction only, no clinical or literature support) |
-| Singapore Market Status | Not marketed (未上市) |
+| Singapore Market Status | Not marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 
@@ -42,7 +42,7 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-No marketing authorization records found. Ramipril's `market_status` is recorded as **未上市 (Not marketed)** with **0 total licenses**, so no product/dosage form/indication data is available for Singapore.
+No marketing authorization records found. Ramipril's `market_status` is recorded as **Not marketed (Not marketed)** with **0 total licenses**, so no product/dosage form/indication data is available for Singapore.
 
 ---
 

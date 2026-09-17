@@ -14,7 +14,7 @@ Proguanil is a well-established antimalarial prodrug, though its specific origin
 | Predicted New Indication | Smouldering Systemic Mastocytosis |
 | TxGNN Prediction Score | 92.12% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not marketed (未上市) |
+| Singapore Market Status | ✗ Not marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 
@@ -44,7 +44,7 @@ Currently no related literature available
 
 ## Singapore Market Information
 
-Proguanil currently has no market authorization in Singapore (market status: 未上市, total registrations: 0). No license records are available to summarize.
+Proguanil currently has no market authorization in Singapore (market status: Not marketed, total registrations: 0). No license records are available to summarize.
 
 ---
 

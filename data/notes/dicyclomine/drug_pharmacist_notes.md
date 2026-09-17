@@ -16,7 +16,7 @@ Among all 10 ranked predictions, the more mechanistically credible candidates ar
 | Predicted New Indication | Cauda Equina Syndrome (Rank 1) |
 | TxGNN Prediction Score | 99.66% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not marketed (未上市) |
+| Singapore Market Status | Not marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 

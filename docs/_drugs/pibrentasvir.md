@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pibrentasvir
-parent: 僅模型預測 (L5)
+parent: Low Evidence (L5)
 nav_order: 782
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Pibrentasvir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -45,7 +45,7 @@ Pibrentasvir is an NS5A inhibitor combined with glecaprevir (Glecaprevir/Pibrent
 | Predicted New Indication | Hepatitis B virus infection |
 | TxGNN Prediction Score | 99.84% |
 | Evidence Level | L5 (see caveat below — supporting trials/literature address HCV, not HBV) |
-| Singapore Market Status | 未上市 (Not marketed) |
+| Singapore Market Status | Not marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 
@@ -101,7 +101,7 @@ This pattern is consistent with what this same evidence pack documents for sever
 
 ## Singapore Market Information
 
-Pibrentasvir is currently **not marketed in Singapore (未上市)**, and no HSA registrations exist for this evidence pack (`total_licenses: 0`).
+Pibrentasvir is currently **not marketed in Singapore (Not marketed)**, and no HSA registrations exist for this evidence pack (`total_licenses: 0`).
 
 ---
 

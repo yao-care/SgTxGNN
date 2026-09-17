@@ -12,7 +12,7 @@
 
 | Item | Content |
 |------|---------|
-| Original Indication | Not registered in Singapore (未上市); no local approved indication text available. Per clinical trial data in this evidence pack, trametinib is used with dabrafenib for BRAF V600E/K-mutation-positive melanoma |
+| Original Indication | Not registered in Singapore (Not marketed); no local approved indication text available. Per clinical trial data in this evidence pack, trametinib is used with dabrafenib for BRAF V600E/K-mutation-positive melanoma |
 | Predicted New Indication | Choroideremia |
 | TxGNN Prediction Score | 99.31% |
 | Evidence Level | L5 |
@@ -46,7 +46,7 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Trametinib currently has no registrations in Singapore (0 licenses; market status: 未上市 / Not Marketed). No local product, dosage form, or approved indication text is available.
+Trametinib currently has no registrations in Singapore (0 licenses; market status: Not marketed / Not Marketed). No local product, dosage form, or approved indication text is available.
 
 ---
 

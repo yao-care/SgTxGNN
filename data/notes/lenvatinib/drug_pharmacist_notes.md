@@ -4,7 +4,7 @@
 
 Lenvatinib is a multi-target tyrosine kinase inhibitor (VEGFR1–3/FGFR1–4/PDGFRα/KIT/RET) that is **not currently registered in Singapore** (0 local licenses); it is globally approved elsewhere for cancers such as differentiated thyroid cancer, hepatocellular carcinoma, and renal cell carcinoma (in combination regimens). The TxGNN model's top-ranked prediction in this evidence pack is **Liposarcoma**, supported by **1 completed clinical trial** and **4 publications**, representing an early-stage research signal rather than an established indication.
 
-> **Note on data provenance**: the evidence pack's `original_indications` and `taiwan_regulatory.licenses` fields are both empty (Singapore market status = 未上市 / Not Marketed, 0 registrations). The "globally approved" indications referenced above are well-established public drug-label facts for this DrugBank entity (DB09078 = Lenvatinib), not sourced from local Singapore regulatory data, which this pack does not contain.
+> **Note on data provenance**: the evidence pack's `original_indications` and `taiwan_regulatory.licenses` fields are both empty (Singapore market status = Not marketed / Not Marketed, 0 registrations). The "globally approved" indications referenced above are well-established public drug-label facts for this DrugBank entity (DB09078 = Lenvatinib), not sourced from local Singapore regulatory data, which this pack does not contain.
 
 ---
 
@@ -16,7 +16,7 @@ Lenvatinib is a multi-target tyrosine kinase inhibitor (VEGFR1–3/FGFR1–4/PDG
 | Predicted New Indication | Liposarcoma |
 | TxGNN Prediction Score | 99.51% |
 | Evidence Level | L3 |
-| Singapore Market Status | 未上市 (Not Marketed) |
+| Singapore Market Status | Not marketed (Not Marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 
@@ -75,7 +75,7 @@ Lenvatinib is an antineoplastic agent (multi-target tyrosine kinase inhibitor us
 
 Please refer to the package insert for safety information.
 
-*(This evidence pack currently has no populated key warnings, contraindications, or drug-interaction data — flagged internally as data gap DG001, "TFDA 仿單警語/禁忌," severity: Blocking.)*
+*(This evidence pack currently has no populated key warnings, contraindications, or drug-interaction data — flagged internally as data gap DG001, "HSA package insert warnings/contraindications," severity: Blocking.)*
 
 ---
 

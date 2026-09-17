@@ -16,7 +16,7 @@ Rufinamide is a triazole-derivative sodium-channel blocker with an established r
 | Predicted New Indication | Childhood-onset epileptic encephalopathy |
 | TxGNN Prediction Score | 97.71% |
 | Evidence Level | L1 |
-| Singapore Market Status | ✗ Not marketed (未上市) |
+| Singapore Market Status | ✗ Not marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -57,7 +57,7 @@ Currently no related clinical trials registered under this specific indication l
 
 ## Singapore Market Information
 
-No marketing authorizations are on file for rufinamide in Singapore (market status: 未上市 / not marketed; 0 registrations). No dosage form or product-level data is available.
+No marketing authorizations are on file for rufinamide in Singapore (market status: Not marketed / not marketed; 0 registrations). No dosage form or product-level data is available.
 
 ---
 

@@ -16,7 +16,7 @@ Lactic acid (DrugBank DB04398) has **no recorded approved indication or mechanis
 | Predicted New Indication | Atypical Coarctation of Aorta |
 | TxGNN Prediction Score | 99.59% |
 | Evidence Level | L5 |
-| Singapore Market Status | 未上市 (Not Marketed) |
+| Singapore Market Status | Not marketed (Not Marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 

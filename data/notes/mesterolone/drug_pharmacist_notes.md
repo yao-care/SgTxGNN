@@ -14,7 +14,7 @@
 | Predicted New Indication | Gout |
 | TxGNN Prediction Score | 98.20% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed (未上市) |
+| Singapore Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 
@@ -44,7 +44,7 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-No Singapore registration currently on file. `taiwan_regulatory.total_licenses = 0` and `market_status = 未上市 (Not Marketed)` — Mesterolone has no active license or approved-indication text to draw from in this dataset.
+No Singapore registration currently on file. `taiwan_regulatory.total_licenses = 0` and `market_status = Not marketed (Not Marketed)` — Mesterolone has no active license or approved-indication text to draw from in this dataset.
 
 ---
 

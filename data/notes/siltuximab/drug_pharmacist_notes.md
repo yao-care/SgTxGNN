@@ -16,7 +16,7 @@ with **1 completed randomized controlled trial** (on the parent iMCD indication)
 | Predicted New Indication | TAFRO Syndrome |
 | TxGNN Prediction Score | 98.79% |
 | Evidence Level | L3 |
-| Singapore Market Status | 未上市 (Not Marketed) |
+| Singapore Market Status | Not marketed (Not Marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -59,7 +59,7 @@ Currently no related clinical trials registered for TAFRO syndrome specifically.
 
 ## Singapore Market Information
 
-Siltuximab is **not currently registered in Singapore** (0 authorizations, market status: 未上市/Not Marketed). No local product listing, dosage form, or approved indication text is available in this evidence pack.
+Siltuximab is **not currently registered in Singapore** (0 authorizations, market status: Not marketed/Not Marketed). No local product listing, dosage form, or approved indication text is available in this evidence pack.
 
 ---
 

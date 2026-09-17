@@ -47,7 +47,7 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Tramadol is currently **not marketed** in Singapore per this evidence pack (`market_status: 未上市`, 0 registrations). No authorization records are available to summarize.
+Tramadol is currently **not marketed** in Singapore per this evidence pack (`market_status: Not marketed`, 0 registrations). No authorization records are available to summarize.
 
 ---
 

@@ -59,7 +59,7 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-Trifluoperazine currently has no marketing authorization recorded in Singapore (`market_status: 未上市`, `total_licenses: 0`).
+Trifluoperazine currently has no marketing authorization recorded in Singapore (`market_status: Not marketed`, `total_licenses: 0`).
 
 ---
 

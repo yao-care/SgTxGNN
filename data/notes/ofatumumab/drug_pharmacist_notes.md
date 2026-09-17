@@ -14,7 +14,7 @@ Closely related, higher-scoring nodes (CLL/SLL molecular subtypes, and CLL/SLL i
 | Predicted New Indication | Follicular Lymphoma |
 | TxGNN Prediction Score | 99.70% |
 | Evidence Level | L2 |
-| Singapore Market Status | 未上市 (Not marketed) |
+| Singapore Market Status | Not marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -58,7 +58,7 @@ This extrapolation is further reinforced by the model's related, higher-scoring 
 
 ## Singapore Market Information
 
-Ofatumumab currently holds **no product registration in Singapore** (0 licenses, market status: 未上市). No dosage form, authorization number, or approved local indication text is available.
+Ofatumumab currently holds **no product registration in Singapore** (0 licenses, market status: Not marketed). No dosage form, authorization number, or approved local indication text is available.
 
 ## Cytotoxicity
 

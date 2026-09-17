@@ -46,7 +46,7 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-No Singapore market authorization is on file. `taiwan_regulatory.market_status` is recorded as **未上市 (Not Marketed)**, with `total_licenses = 0` and no license entries in the evidence pack.
+No Singapore market authorization is on file. `taiwan_regulatory.market_status` is recorded as **Not marketed (Not Marketed)**, with `total_licenses = 0` and no license entries in the evidence pack.
 
 ---
 

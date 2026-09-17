@@ -61,7 +61,7 @@ No trial in the retrieved set directly tests sodium ascorbate as a primary inter
 
 ## Singapore Market Information
 
-No marketed products or registration records for sodium ascorbate are available in this evidence pack (`market_status`: 未上市 / Not marketed; `total_licenses`: 0).
+No marketed products or registration records for sodium ascorbate are available in this evidence pack (`market_status`: Not marketed / Not marketed; `total_licenses`: 0).
 
 ---
 

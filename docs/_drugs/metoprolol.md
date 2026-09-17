@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Metoprolol
-parent: 僅模型預測 (L5)
+parent: Medium Evidence (L3-L4)
 nav_order: 661
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Metoprolol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -51,7 +51,7 @@ Using the report structure specified in the prompt. A quick data-fidelity note b
 | Predicted New Indication | Malignant Renovascular Hypertension |
 | TxGNN Prediction Score | 99.91% |
 | Evidence Level | L4 |
-| Singapore Market Status | 未上市 (Not Marketed) |
+| Singapore Market Status | Not marketed (Not Marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 
@@ -86,7 +86,7 @@ Both articles are classified by the evidence pack as off-topic to this specific 
 
 ## Singapore Market Information
 
-Metoprolol currently has **0 registrations** on record in this jurisdiction's regulatory data (market status: 未上市 / Not Marketed). No license entries are available to tabulate.
+Metoprolol currently has **0 registrations** on record in this jurisdiction's regulatory data (market status: Not marketed / Not Marketed). No license entries are available to tabulate.
 
 ---
 

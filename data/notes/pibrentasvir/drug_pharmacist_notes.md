@@ -14,7 +14,7 @@ Pibrentasvir is an NS5A inhibitor combined with glecaprevir (Glecaprevir/Pibrent
 | Predicted New Indication | Hepatitis B virus infection |
 | TxGNN Prediction Score | 99.84% |
 | Evidence Level | L5 (see caveat below — supporting trials/literature address HCV, not HBV) |
-| Singapore Market Status | 未上市 (Not marketed) |
+| Singapore Market Status | Not marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 
@@ -70,7 +70,7 @@ This pattern is consistent with what this same evidence pack documents for sever
 
 ## Singapore Market Information
 
-Pibrentasvir is currently **not marketed in Singapore (未上市)**, and no HSA registrations exist for this evidence pack (`total_licenses: 0`).
+Pibrentasvir is currently **not marketed in Singapore (Not marketed)**, and no HSA registrations exist for this evidence pack (`total_licenses: 0`).
 
 ---
 

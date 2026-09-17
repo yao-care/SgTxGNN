@@ -15,7 +15,7 @@ The TxGNN model predicts it may be effective for **Diabetic Cataract**, but this
 | Predicted New Indication | Diabetic Cataract |
 | TxGNN Prediction Score | 98.40% |
 | Evidence Level | L5 (model prediction only, no supporting clinical trials or literature) |
-| Taiwan Market Status | ✗ Not marketed (未上市) |
+| Taiwan Market Status | ✗ Not marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 

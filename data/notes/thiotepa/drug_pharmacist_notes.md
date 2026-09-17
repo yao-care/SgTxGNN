@@ -16,7 +16,7 @@
 | Predicted New Indication | Adult Germ Cell Tumor |
 | TxGNN Prediction Score | 98.51% |
 | Evidence Level | L2 |
-| Singapore Market Status | ✗ Not Marketed (未上市) |
+| Singapore Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 

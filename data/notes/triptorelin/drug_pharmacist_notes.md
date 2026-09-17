@@ -44,7 +44,7 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Triptorelin currently has **no marketing authorization records** in the Singapore regulatory dataset provided (`market_status: 未上市 / Not Marketed`, `total_licenses: 0`). No license table can be generated from the available data.
+Triptorelin currently has **no marketing authorization records** in the Singapore regulatory dataset provided (`market_status: Not marketed / Not Marketed`, `total_licenses: 0`). No license table can be generated from the available data.
 
 ---
 

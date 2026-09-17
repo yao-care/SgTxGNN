@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Nilotinib
-parent: 僅模型預測 (L5)
+parent: Medium Evidence (L3-L4)
 nav_order: 705
-evidence_level: L5
+evidence_level: L3
 indication_count: 10
 ---
 
 # Nilotinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -47,7 +47,7 @@ Nilotinib is a second-generation BCR-ABL/PDGFR/KIT tyrosine kinase inhibitor, or
 | Predicted New Indication | Dermatofibrosarcoma Protuberans |
 | TxGNN Prediction Score | 99.31% |
 | Evidence Level | L3 |
-| Market Status (Taiwan) | 未上市 (Not Marketed) |
+| Market Status (Taiwan) | Not marketed (Not Marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 
@@ -79,7 +79,7 @@ Currently no related clinical trials registered
 
 ## Singapore Market Information
 
-Nilotinib is currently not marketed / not registered in Taiwan (未上市, 0 licenses on file), so no authorization records are available to list.
+Nilotinib is currently not marketed / not registered in Taiwan (Not marketed, 0 licenses on file), so no authorization records are available to list.
 
 ---
 

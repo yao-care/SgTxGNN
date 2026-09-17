@@ -46,7 +46,7 @@ Given the absence of MOA data, the lack of a plausible mechanistic link, and the
 
 ## Singapore Market Information
 
-Sodium sulfate currently has **no marketing authorization** in Singapore (market status: 未上市 / Not Marketed, 0 registrations on file).
+Sodium sulfate currently has **no marketing authorization** in Singapore (market status: Not marketed / Not Marketed, 0 registrations on file).
 
 ## Safety Considerations
 

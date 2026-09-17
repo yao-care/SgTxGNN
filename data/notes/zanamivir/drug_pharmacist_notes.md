@@ -47,7 +47,7 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Zanamivir currently has no marketing authorizations on record (`total_licenses: 0`, `market_status: 未上市`). No registration data is available to populate a licenses table.
+Zanamivir currently has no marketing authorizations on record (`total_licenses: 0`, `market_status: Not marketed`). No registration data is available to populate a licenses table.
 
 ---
 

@@ -55,7 +55,7 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-Nitrofurantoin currently has no registered license in Singapore under this evidence pack (`total_licenses: 0`, `market_status: 未上市`/Not Marketed). No product records are available to list.
+Nitrofurantoin currently has no registered license in Singapore under this evidence pack (`total_licenses: 0`, `market_status: Not marketed`/Not Marketed). No product records are available to list.
 
 ---
 

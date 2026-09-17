@@ -50,7 +50,7 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-Ribociclib is currently **not registered** in Singapore (market status: 未上市／Not Marketed; total licenses: 0). No local product license or approved indication text is available.
+Ribociclib is currently **not registered** in Singapore (market status: Not marketed／Not Marketed; total licenses: 0). No local product license or approved indication text is available.
 
 ---
 

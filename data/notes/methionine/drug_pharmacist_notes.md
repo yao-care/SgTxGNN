@@ -16,7 +16,7 @@
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 99.9996% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed (未上市) |
+| Singapore Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 
@@ -55,7 +55,7 @@ Evidence below is for the top-ranked predicted indication, **acne (disease)**.
 
 ## Singapore Market Information
 
-Methionine currently has **no marketing authorization on file in Singapore** (`market_status`: 未上市 / Not Marketed; `total_licenses`: 0). No product registration table is available.
+Methionine currently has **no marketing authorization on file in Singapore** (`market_status`: Not marketed / Not Marketed; `total_licenses`: 0). No product registration table is available.
 
 ---
 

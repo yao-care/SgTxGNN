@@ -34,7 +34,7 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Tafluprost has no registered licenses in Singapore (`total_licenses: 0`, `market_status: 未上市`). No product table is available.
+Tafluprost has no registered licenses in Singapore (`total_licenses: 0`, `market_status: Not marketed`). No product table is available.
 
 ## Safety Considerations
 

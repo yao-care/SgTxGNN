@@ -14,7 +14,7 @@ Rasagiline is a selective MAO-B inhibitor used for Parkinson's disease. Across t
 | Predicted New Indication | Lewy Body Dementia |
 | TxGNN Prediction Score | 98.83% |
 | Evidence Level | L4 |
-| Singapore Market Status | 未上市 (Not marketed) |
+| Singapore Market Status | Not marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 

@@ -51,7 +51,7 @@ Neither publication directly studies selpercatinib for pulmonary hypertension; b
 
 ## Taiwan Market Information
 
-Selpercatinib currently has no marketing authorization on record — no licenses, brand names, or approved indication text are available in the Taiwan regulatory dataset (`market_status: 未上市`, `total_licenses: 0`).
+Selpercatinib currently has no marketing authorization on record — no licenses, brand names, or approved indication text are available in the Taiwan regulatory dataset (`market_status: Not marketed`, `total_licenses: 0`).
 
 ---
 

@@ -49,7 +49,7 @@ Currently no related clinical trials registered.
 
 ## Singapore Market Information
 
-No registration record was found for Vasopressin in the Singapore evidence pack (`market_status: 未上市`, `total_licenses: 0`). The drug currently has no marketed license and no approved indication text on file.
+No registration record was found for Vasopressin in the Singapore evidence pack (`market_status: Not marketed`, `total_licenses: 0`). The drug currently has no marketed license and no approved indication text on file.
 
 ---
 

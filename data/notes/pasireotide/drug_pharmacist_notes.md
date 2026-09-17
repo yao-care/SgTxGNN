@@ -12,7 +12,7 @@ Pasireotide is a multi-receptor somatostatin analog with established use in Cush
 | Predicted New Indication | Nephrogenic Syndrome of Inappropriate Antidiuresis |
 | TxGNN Prediction Score | 96.12% |
 | Evidence Level | L5 |
-| Singapore Market Status | 未上市 (Not marketed) |
+| Singapore Market Status | Not marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 

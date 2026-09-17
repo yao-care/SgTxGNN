@@ -14,7 +14,7 @@ Spironolactone is a mineralocorticoid receptor antagonist traditionally used for
 | Predicted New Indication | Alopecia (Androgenetic Alopecia / Female Pattern Hair Loss) |
 | TxGNN Prediction Score | 97.83% |
 | Evidence Level | L2 |
-| Singapore Market Status | ✗ Not Marketed (未上市) |
+| Singapore Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 

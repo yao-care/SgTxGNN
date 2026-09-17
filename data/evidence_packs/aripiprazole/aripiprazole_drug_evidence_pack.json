@@ -13,23 +13,23 @@
       {
         "id": "DG001",
         "category": "Drug_Level",
-        "item": "TFDA 仿單警語/禁忌",
+        "item": "HSA package insert warnings/contraindications",
         "severity": "Blocking",
-        "impact": "無法進入 S1 安全性初評",
+        "impact": "Cannot proceed to S1 safety screening",
         "remediation": {
-          "source": "TFDA 官網",
-          "method": "下載仿單 PDF 並解析"
+          "source": "HSA website",
+          "method": "Download and parse the package insert PDF"
         }
       },
       {
         "id": "DG002",
         "category": "Drug_Level",
-        "item": "作用機轉 (MOA)",
+        "item": "Mechanism of action (MOA)",
         "severity": "High",
-        "impact": "影響機轉關聯性分析",
+        "impact": "Limits mechanistic-link analysis",
         "remediation": {
           "source": "DrugBank",
-          "method": "查詢 DrugBank API"
+          "method": "Query the DrugBank API"
         }
       }
     ]
@@ -42,7 +42,7 @@
     "original_moa": "[Data Gap]"
   },
   "taiwan_regulatory": {
-    "market_status": "未上市",
+    "market_status": "Not marketed",
     "total_licenses": 0,
     "licenses": [],
     "dosage_forms_by_route": []
@@ -1147,7 +1147,7 @@
         "recommendation": "Proceed with Guardrails"
       },
       "repurposing_rationale": {
-        "mechanistic_link": "Aripiprazole 之 D2 部分致效作用可穩定中腦邊緣系統多巴胺過度活化；5-HT1A 部分致效及 5-HT2A 拮抗可增強前額葉皮質血清素傳遞，此雙重機轉與情感障礙（MDD 輔助治療、雙極障礙維持期）之病理直接相關。全球已有 FDA 核准 MDD 輔助治療及雙極障礙 I 型之適應症，本地『未上市』狀態為法規層面議題，非證據缺口。",
+        "mechanistic_link": "Aripiprazole 之 D2 部分致效作用可穩定中腦邊緣系統多巴胺過度活化；5-HT1A 部分致效及 5-HT2A 拮抗可增強前額葉皮質血清素傳遞，此雙重機轉與情感障礙（MDD 輔助治療、雙極障礙維持期）之病理直接相關。全球已有 FDA 核准 MDD 輔助治療及雙極障礙 I 型之適應症，本地『Not marketed』狀態為法規層面議題，非證據缺口。",
         "similarity_to_original": "pending"
       },
       "route_compatibility": {

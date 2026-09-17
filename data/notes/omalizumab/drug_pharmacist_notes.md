@@ -22,7 +22,7 @@ Omalizumab is a humanized anti-IgE monoclonal antibody internationally establish
 | Predicted New Indication | Obstructive Lung Disease (broadened beyond classic allergic asthma to include allergen-sensitized COPD) |
 | TxGNN Prediction Score | 99.97% |
 | Evidence Level | L1 |
-| Singapore Market Status | 未上市 (Not Marketed) |
+| Singapore Market Status | Not marketed (Not Marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 

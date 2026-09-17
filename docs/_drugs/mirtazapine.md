@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Mirtazapine
-parent: 僅模型預測 (L5)
+parent: Low Evidence (L5)
 nav_order: 673
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Mirtazapine
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -100,7 +100,7 @@ Dysthymic disorder is a chronic, lower-grade form of depressive illness that sha
 
 ## Singapore Market Information
 
-Mirtazapine currently has **no marketing authorizations on record in Singapore** (`market_status: 未上市`, `total_licenses: 0`). No product name, dosage form, or approved indication text is available from the regulatory data source in this Evidence Pack.
+Mirtazapine currently has **no marketing authorizations on record in Singapore** (`market_status: Not marketed`, `total_licenses: 0`). No product name, dosage form, or approved indication text is available from the regulatory data source in this Evidence Pack.
 
 ---
 

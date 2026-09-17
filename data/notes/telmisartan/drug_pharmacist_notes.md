@@ -62,7 +62,7 @@ Clinically, this rationale has already been tested: the TRIDENT trial evaluated 
 
 ## Singapore Market Information
 
-Telmisartan currently has **no registration records** in the Singapore dataset used for this evaluation (`market_status: 未上市`, `total_licenses: 0`). No product-level information (authorization number, product name, dosage form, approved indication) is available.
+Telmisartan currently has **no registration records** in the Singapore dataset used for this evaluation (`market_status: Not marketed`, `total_licenses: 0`). No product-level information (authorization number, product name, dosage form, approved indication) is available.
 
 ---
 

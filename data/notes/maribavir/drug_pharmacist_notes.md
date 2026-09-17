@@ -14,7 +14,7 @@ Maribavir is a narrow-spectrum antiviral (UL97 kinase inhibitor) associated with
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 87.79% |
 | Evidence Level | L5 (model prediction only, no supporting clinical trials or literature) |
-| Singapore Market Status | ✗ Not Marketed (未上市) |
+| Singapore Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 

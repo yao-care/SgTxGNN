@@ -14,7 +14,7 @@ but this prediction is currently supported by **0 clinical trials** and **0 publ
 | Predicted New Indication | Punctate Epithelial Keratoconjunctivitis |
 | TxGNN Prediction Score | 97.60% |
 | Evidence Level | L5 |
-| Singapore Market Status | 未上市 (Not Marketed) |
+| Singapore Market Status | Not marketed (Not Marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 

@@ -18,7 +18,7 @@ Using the Evidence Pack for Mesalazine (DB00244), I selected the report's featur
 | Predicted New Indication | Rheumatoid Arthritis |
 | TxGNN Prediction Score | 99.57% (rank 5,829 of all drug–disease pairs) |
 | Evidence Level | L2 |
-| Singapore Market Status | Not Marketed (未上市) |
+| Singapore Market Status | Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 
@@ -68,7 +68,7 @@ For context, the TxGNN model's second-ranked, evidence-backed prediction — ost
 
 ## Singapore Market Information
 
-Mesalazine is currently **not registered or marketed** in Singapore under this Evidence Pack's regulatory data (0 licenses on file, market status: 未上市). No authorization records, product names, or approved indication text are available to tabulate.
+Mesalazine is currently **not registered or marketed** in Singapore under this Evidence Pack's regulatory data (0 licenses on file, market status: Not marketed). No authorization records, product names, or approved indication text are available to tabulate.
 
 ---
 

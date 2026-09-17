@@ -14,7 +14,7 @@
 | Predicted New Indication | 無 |
 | TxGNN Prediction Score | N/A |
 | Evidence Level | L5（僅模型紀錄，無實際研究連結） |
-| Singapore Market Status | 未上市 |
+| Singapore Market Status | Not marketed |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 

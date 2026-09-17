@@ -16,7 +16,7 @@
 | Predicted New Indication | Restless Legs Syndrome |
 | TxGNN Prediction Score | 99.74% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed (未上市) |
+| Singapore Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 
@@ -46,7 +46,7 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Oxybutynin currently has no marketing authorization on record in Singapore (0 registrations; market status: 未上市/Not Marketed).
+Oxybutynin currently has no marketing authorization on record in Singapore (0 registrations; market status: Not marketed/Not Marketed).
 
 ---
 

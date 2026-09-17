@@ -16,7 +16,7 @@ Alpha-tocopherol（維生素 E 的主要活性形式）是一種脂溶性抗氧�
 | Predicted New Indication | 無（TxGNN 未產生預測結果） |
 | TxGNN Prediction Score | 無 |
 | Evidence Level | 無法判定（無預測資料） |
-| Singapore Market Status | 未上市 |
+| Singapore Market Status | Not marketed |
 | Number of Registrations | 0 |
 | Recommended Decision | Hold |
 

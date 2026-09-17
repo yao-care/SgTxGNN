@@ -16,7 +16,7 @@ Paroxetine (DrugBank DB00715) is a selective serotonin reuptake inhibitor (SSRI)
 | Predicted New Indication | Agoraphobia (Panic Disorder) |
 | TxGNN Prediction Score | 97.76% |
 | Evidence Level | L1 |
-| Singapore Market Status | 未上市 (Not marketed) |
+| Singapore Market Status | Not marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 
@@ -54,7 +54,7 @@ By contrast, several other high-scoring candidates in this pack (Ohdo syndrome a
 
 ## Singapore Market Information
 
-Paroxetine currently has **no HSA registration on file** in this evidence pack (`market_status`: 未上市, `total_licenses`: 0). No authorization records, product names, or approved indication text are available to summarize.
+Paroxetine currently has **no HSA registration on file** in this evidence pack (`market_status`: Not marketed, `total_licenses`: 0). No authorization records, product names, or approved indication text are available to summarize.
 
 ## Safety Considerations
 

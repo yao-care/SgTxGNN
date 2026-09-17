@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Montelukast
-parent: 僅模型預測 (L5)
+parent: High Evidence (L1-L2)
 nav_order: 679
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Montelukast
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Evidence Level: **L2** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Pharmacist Assessment Report
 
 </div>
 
@@ -47,7 +47,7 @@ Montelukast is a cysteinyl leukotriene receptor 1 (CysLT1) antagonist originally
 | Predicted New Indication | Bronchitis (bundles viral bronchiolitis, bronchiolitis obliterans syndrome, and eosinophilic bronchitis) |
 | TxGNN Prediction Score | 99.95% |
 | Evidence Level | L2 |
-| Singapore Market Status | ✗ Not Marketed (未上市) |
+| Singapore Market Status | ✗ Not Marketed (Not marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Research Question |
 
@@ -99,7 +99,7 @@ Because the disease node mixes conditions with very different pathophysiology (a
 
 ## Singapore Market Information
 
-Montelukast currently has **no registered license and is not marketed** in Singapore under this dataset (`market_status: 未上市`, 0 total licenses). No product-level authorization details are available to tabulate.
+Montelukast currently has **no registered license and is not marketed** in Singapore under this dataset (`market_status: Not marketed`, 0 total licenses). No product-level authorization details are available to tabulate.
 
 ---
 

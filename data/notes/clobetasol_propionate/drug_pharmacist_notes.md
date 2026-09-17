@@ -16,7 +16,7 @@ Given multiple completed Phase 3 and Phase 4 RCTs, psoriasis is the primary acti
 | Predicted New Indication | Psoriasis (TxGNN Rank 10; Evidence Rank 1 among all predictions) |
 | TxGNN Prediction Score | 96.30% |
 | Evidence Level | L1 |
-| Singapore Market Status | 未上市 (Not Marketed) |
+| Singapore Market Status | Not marketed (Not Marketed) |
 | Number of Registrations | 0 |
 | Recommended Decision | Proceed with Guardrails |
 

@@ -67,7 +67,7 @@ Since GVHD is fundamentally a donor-lymphocyte-driven alloimmune process, MPA's 
 
 ## Singapore Market Information
 
-No marketing authorizations are currently on file — the evidence pack records **0 registered licenses** and a market status of **未上市 (Not Marketed)** for this drug in Singapore.
+No marketing authorizations are currently on file — the evidence pack records **0 registered licenses** and a market status of **Not marketed (Not Marketed)** for this drug in Singapore.
 
 ---
 
