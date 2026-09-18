@@ -13,15 +13,7 @@ permalink: /news/stroke/
 
 ---
 
-**2 articles** related to stroke.
-
----
-
-### [TTSH launches new initiative to tackle sepsis and prevent it from becoming deadly](https://www.straitstimes.com/singapore/health/ttsh-launches-new-initiative-to-tackle-sepsis-and-prevent-it-from-becoming-deadly)
-
-2026-09-18
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/ttsh-launches-new-initiative-to-tackle-sepsis-and-prevent-it-from-becoming-deadly)
+**1 articles** related to stroke.
 
 ---
 
