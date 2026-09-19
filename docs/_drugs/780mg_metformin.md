@@ -29,87 +29,89 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Metformin：資料不完整，無法產生老藥新用評估報告
+# Metformin: Incomplete Data — Unable to Generate Drug Repurposing Assessment Report
 
 ---
 
-## 一句話摘要
+## Single-Sentence Summary
 
-本 Evidence Pack 的藥物名稱欄位存在解析錯誤（原始值為 `"780MG METFORMIN)"`，疑似劑量資訊與藥物名稱混入同一欄位），導致 DrugBank ID 無法對應、預測適應症清單為空、新加坡藥監資料未收錄，**目前無法產生有效的老藥新用評估報告**。
-
----
-
-## 快速概覽
-
-| 項目 | 內容 |
-|------|------|
-| 資料狀態 | ⚠️ 藥物名稱解析錯誤 |
-| 辨識藥物 | Metformin（推測，需確認） |
-| 預測新適應症 | 無（predicted_indications 為空） |
-| TxGNN 預測分數 | 無資料 |
-| 證據等級 | 無法評估 |
-| 新加坡市場狀態 | Not marketed（資料缺失，待驗證） |
-| 建議決策 | **Hold — 資料品質問題，需先修正輸入資料** |
+The Evidence Pack contains a parsing error in the drug name field (original value: `"780MG METFORMIN)"`, with dosage information apparently mixed into the same field as the drug name), resulting in inability to map DrugBank ID, empty predicted indications list, and missing Singapore regulatory data. **Currently unable to generate a valid drug repurposing assessment report.**
 
 ---
 
-## 資料品質問題說明
+## Quick Overview
 
-### 藥物名稱錯誤
+| Item | Content |
+|------|---------|
+| Data Status | ⚠️ Drug name parsing error |
+| Identified Drug | metformin (presumed, requires confirmation) |
+| Predicted New Indications | None (predicted_indications is empty) |
+| TxGNN Prediction Score | No data |
+| Evidence Level | Cannot be assessed |
+| Singapore Market Status | Not marketed (data missing, pending verification) |
+| Recommended Decision | **Hold — data quality issues, input data correction needed first** |
 
-Evidence Pack 中 `drug.inn` 欄位值為：
+---
+
+## Data Quality Issues Explanation
+
+### Drug Name Error
+
+The `drug.inn` field value in the Evidence Pack is:
 
 ```
 780MG METFORMIN)
 ```
 
-此字串具有以下異常：
-- 前綴 `780MG` 為劑量資訊，不應出現在 INN 名稱欄位
-- 結尾有未閉合的右括號 `)`，疑似 PDF 或 OCR 解析殘留
-- 正確的 INN 應為 **`metformin`**
+This string exhibits the following anomalies:
+- The prefix `780MG` is dosage information and should not appear in the INN name field
+- The string ends with an unmatched closing parenthesis `)`, apparently leftover from PDF or OCR parsing
+- The correct INN should be **`metformin`**
 
-### 連鎖影響
+### Cascading Effects
 
-| 影響項目 | 狀態 |
-|----------|------|
-| DrugBank ID 對應 | 失敗（null） |
-| MOA 資料 | 缺失（Data Gap） |
-| TxGNN 預測 | 無輸出（predicted_indications 空陣列） |
-| 安全性資料 | 全部缺失 |
-| 新加坡藥監資料 | 無記錄 |
-
----
-
-## 安全考量
-
-目前所有安全性資料均缺失，無法評估：
-- 藥物警語
-- 禁忌症
-- 藥物交互作用
-
-> 請參閱原廠仿單之警語與注意事項。
+| Impact Item | Status |
+|-------------|--------|
+| DrugBank ID Mapping | Failed (null) |
+| MOA Data | Missing (Data Gap) |
+| TxGNN Prediction | No output (predicted_indications empty array) |
+| Safety Data | All missing |
+| Singapore Regulatory Data | No records |
 
 ---
 
-## 結論與下一步
+## Safety Considerations
 
-**決策：Hold**
+All safety data are currently missing and cannot be assessed:
+- Drug warnings
+- Contraindications
+- Drug interactions
 
-**原因：**
-輸入資料的藥物名稱欄位因解析錯誤包含劑量資訊與異常符號，導致整個評估流程無法執行，無任何預測適應症或安全性資料可供分析。
-
-**繼續進行前，需完成以下事項：**
-
-1. **修正藥物名稱**：將 `drug.inn` 從 `"780MG METFORMIN)"` 更正為 `"metformin"`，並重新執行資料擷取流程
-2. **補充 DrugBank ID**：Metformin 的 DrugBank ID 為 `DB00331`，可直接填入重跑
-3. **重新執行 TxGNN 預測**：修正輸入後，重新執行 KG + DL 預測流程以取得 predicted_indications
-4. **確認新加坡上市狀態**：Metformin 在新加坡廣泛使用，需確認 HSA 登記資料是否因名稱錯誤而漏查
-5. **補充 MOA 資料**（DG002）：從 DrugBank API 查詢 metformin 作用機轉
-6. **補充警語與禁忌**（DG001）：查詢 HSA 或 DrugBank 的安全性資料
+> Please refer to the manufacturer's package insert for warnings and precautions.
 
 ---
 
-> ⚠️ **注意**：本報告因輸入資料品質問題而無法完整產生。建議優先排除資料解析錯誤後，重新提交 Evidence Pack。
+## Conclusion and Next Steps
+
+**Decision: Hold**
+
+**Reason:**
+
+The input data's drug name field contains dosage information and anomalous characters due to parsing errors, resulting in failure of the entire assessment workflow with no predicted indications or safety data available for analysis.
+
+**The following must be completed before proceeding:**
+
+1. **Correct drug name**: Update `drug.inn` from `"780MG METFORMIN)"` to `"metformin"` and re-run the data extraction workflow
+2. **Supply DrugBank ID**: metformin's DrugBank ID is `DB00331`, which can be directly entered for re-processing
+3. **Re-run TxGNN prediction**: After correcting the input, re-run the KG + DL prediction workflow to obtain predicted_indications
+4. **Confirm Singapore market status**: metformin is widely used in Singapore; confirm whether HSA registration data was missed due to the naming error
+5. **Supply MOA data** (DG002): Query metformin's mechanism of action from DrugBank API
+6. **Supply warnings and contraindications** (DG001): Query safety data from HSA or DrugBank
+
+---
+
+> ⚠️ **Note**: This report cannot be fully generated due to input data quality issues. It is recommended to first resolve the data parsing errors and then resubmit the Evidence Pack.
+
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

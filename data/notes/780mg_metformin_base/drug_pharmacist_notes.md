@@ -1,62 +1,62 @@
-# 780MG METFORMIN BASE): 資料品質不足，無法完成老藥新用評估
+# 780MG METFORMIN BASE): Insufficient Data Quality to Complete Drug Repurposing Assessment
 
-> ⚠️ **注意**：本報告因輸入資料存在嚴重品質問題，無法按標準格式完整輸出。以下為資料缺口分析與建議行動。
+> ⚠️ **Notice**: This report cannot be completed in standard format due to severe data quality issues with the input data. The following is an analysis of data gaps and recommended actions.
 
 ---
 
 ## One-Sentence Summary
 
-此 Evidence Pack 的藥物欄位（INN）包含非標準字串 `"780MG METFORMIN BASE)"`，疑似為劑量規格混入藥名欄位導致的解析錯誤，而非正確的國際非專利名稱。
-由於藥物識別失敗，系統未能取得任何 TxGNN 預測指徵、新加坡上市資料或安全性資料，**目前無法執行老藥新用評估**。
+The drug field (INN) in this Evidence Pack contains a non-standard string `"780MG METFORMIN BASE)"`, which appears to result from a parsing error where dosage specifications were inadvertently mixed into the drug name field, rather than representing a correct international nonproprietary name.
+Due to failed drug identification, the system was unable to retrieve any TxGNN predicted indications, Singapore market availability data, or safety data. **At present, drug repurposing assessment cannot be executed**.
 
 ---
 
 ## Quick Overview
 
-| 項目 | 內容 |
-|------|------|
-| 輸入藥名（原始） | `780MG METFORMIN BASE)` ← 疑似解析錯誤 |
-| 推測正確藥物 | Metformin（Metformin HCl，雙胍類降血糖藥） |
-| 預測新適應症 | 無（predicted_indications 為空） |
-| TxGNN 預測分數 | 無資料 |
-| 證據等級 | L5（模型預測資料缺失） |
-| 新加坡市場狀態 | Not marketed（0 筆核准） |
-| 許可證數量 | 0 |
-| 建議決策 | **Hold** |
+| Item | Content |
+|------|---------|
+| Input Drug Name (Raw) | `780MG METFORMIN BASE)` ← suspected parsing error |
+| Presumed Correct Drug | Metformin (Metformin HCl, biguanide antidiabetic) |
+| Predicted New Indications | None (predicted_indications array is empty) |
+| TxGNN Prediction Score | No data |
+| Evidence Level | L5 (model prediction data missing) |
+| Singapore Market Status | Not marketed (0 approvals) |
+| License Count | 0 |
+| Recommended Decision | **Hold** |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-由於 `predicted_indications` 陣列為空，本節無法執行機轉關聯性分析。
+Due to the empty `predicted_indications` array, mechanistic relevance analysis cannot be performed in this section.
 
-若確認本案藥物為 **Metformin**，其作用機轉（AMPK 活化、肝醣新生抑制）在老藥新用領域具有豐富研究基礎（癌症、PCOS、NAFLD、神經退化性疾病等），**具備評估潛力**。但在藥物識別問題解決前，不應進行任何預測解讀。
+Should the drug be confirmed as **Metformin**, its mechanism of action (AMPK activation, hepatic gluconeogenesis inhibition) possesses a rich research foundation in the drug repurposing field (cancer, PCOS, NAFLD, neurodegenerative disease, etc.), and **would merit evaluation**. However, until the drug identification issue is resolved, no prediction interpretation should be undertaken.
 
 ---
 
 ## Clinical Trial Evidence
 
-目前無相關臨床試驗資料（predicted_indications 為空，無法查詢）。
+No relevant clinical trial data are currently available (predicted_indications is empty, precluding queries).
 
 ---
 
 ## Literature Evidence
 
-目前無相關文獻資料（predicted_indications 為空，無法查詢）。
+No relevant literature data are currently available (predicted_indications is empty, precluding queries).
 
 ---
 
 ## Singapore Market Information
 
-本次查詢未取得任何新加坡核准記錄（total_licenses: 0）。
+The present query retrieved no Singapore approval records (total_licenses: 0).
 
-若藥物識別確認為 Metformin，應重新執行查詢——Metformin 在新加坡為廣泛上市藥物，預期應有多筆 HSA 核准記錄。
+Should drug identification be confirmed as Metformin, re-querying is warranted—Metformin is widely marketed in Singapore and would be expected to have multiple HSA approval records.
 
 ---
 
 ## Safety Considerations
 
-請參閱仿單警語與禁忌事項。安全性資料查詢未能返回結果，可能與藥物識別失敗有關。
+Please consult product labeling warnings and contraindications. Safety data queries failed to return results, possibly due to failed drug identification.
 
 ---
 
@@ -65,23 +65,23 @@
 **Decision: Hold**
 
 **Rationale:**
-藥物識別欄位（INN）包含格式錯誤字串，導致 DrugBank 映射、TxGNN 預測、新加坡上市查詢及安全性評估全部失敗。在資料修正完成前，本案無任何可評估的預測證據。
+The drug identification field (INN) contains a malformed string, resulting in complete failure of DrugBank mapping, TxGNN prediction, Singapore market availability query, and safety assessment. Without data correction, this case presents no evaluable prediction evidence.
 
 **To proceed, the following is needed:**
 
-1. **修正藥物識別問題（Blocking）**
-   - 確認正確 INN：若為 Metformin，應輸入 `metformin`（全小寫、無括號、無劑量規格）
-   - 重新觸發 Evidence Pack 生成流程
+1. **Resolve drug identification issue (Blocking)**
+   - Confirm correct INN: if Metformin, input should be `metformin` (lowercase, no parentheses, no dosage specifications)
+   - Re-trigger Evidence Pack generation workflow
 
-2. **補充 DrugBank ID（High）**
-   - Metformin DrugBank ID 為 `DB00331`
-   - 補入後可取得完整 MOA、藥物分類、安全性資料
+2. **Supplement DrugBank ID (High)**
+   - Metformin DrugBank ID is `DB00331`
+   - Supplementation enables retrieval of complete MOA, drug classification, and safety data
 
-3. **重新執行 TxGNN 預測**
-   - 確認藥物識別後，重新生成 `predicted_indications`
+3. **Re-execute TxGNN prediction**
+   - Upon confirmation of drug identification, regenerate `predicted_indications`
 
-4. **補充新加坡 HSA 資料（High）**
-   - Metformin 在新加坡應有上市記錄，需重新查詢確認
+4. **Supplement Singapore HSA data (High)**
+   - Metformin should have market records in Singapore; re-query to confirm
 
-5. **補充仿單安全資料（Blocking）**
-   - 依 DG001 補救措施：下載仿單 PDF 解析警語與禁忌
+5. **Supplement product labeling safety data (Blocking)**
+   - Per DG001 remediation measures: download product labeling PDF for parsing of warnings and contraindications
