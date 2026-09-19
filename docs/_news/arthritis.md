@@ -13,7 +13,15 @@ permalink: /news/arthritis/
 
 ---
 
-**5 articles** related to arthritis.
+**6 articles** related to arthritis.
+
+---
+
+### [Air quality back at unhealthy levels in central Singapore](https://www.todayonline.com/singapore/air-quality-back-unhealthy-levels-in-central-singapore-6396246)
+
+2026-09-19
+
+Source: [TODAY](https://www.todayonline.com/singapore/air-quality-back-unhealthy-levels-in-central-singapore-6396246)
 
 ---
 
