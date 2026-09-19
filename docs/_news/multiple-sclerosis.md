@@ -13,21 +13,29 @@ permalink: /news/multiple-sclerosis/
 
 ---
 
-**2 articles** related to multiple sclerosis.
+**3 articles** related to multiple sclerosis.
 
 ---
 
 ### [Plaque buildup, bad breath, bleeding gums: Rethinking your daily oral-care routine](https://www.straitstimes.com/singapore/health/plaque-buildup-bad-breath-bleeding-gums-daily-oral-care-routine-systema-lion)
 
-2026-09-14
+2026-09-18
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/plaque-buildup-bad-breath-bleeding-gums-daily-oral-care-routine-systema-lion)
 
 ---
 
+### [New active ageing centre in Yishun helps seniors build confidence in gyms, find purpose in life](https://www.straitstimes.com/singapore/health/new-active-ageing-centre-in-yishun-helps-seniors-build-confidence-in-gyms-find-purpose-in-life)
+
+2026-09-18
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-active-ageing-centre-in-yishun-helps-seniors-build-confidence-in-gyms-find-purpose-in-life)
+
+---
+
 ### [Always tripping or spraining your ankles? When ‘clumsiness’ could be a genetic nerve disorder](https://www.channelnewsasia.com/wellness/charcot-marie-tooth-tripping-weakness-6323596)
 
-2026-09-14
+2026-09-18
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/charcot-marie-tooth-tripping-weakness-6323596)
 
