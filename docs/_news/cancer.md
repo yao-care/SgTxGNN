@@ -13,15 +13,7 @@ permalink: /news/cancer/
 
 ---
 
-**3 articles** related to cancer.
-
----
-
-### [Up Close: He was given 50% odds of surviving. How childhood cancer shaped a doctor's calling](https://www.todayonline.com/today/up-close/cancer-survivor-child-doctor-leukaemia-critical-illness-6391111)
-
-2026-09-20
-
-Source: [TODAY](https://www.todayonline.com/today/up-close/cancer-survivor-child-doctor-leukaemia-critical-illness-6391111)
+**2 articles** related to cancer.
 
 ---
 
