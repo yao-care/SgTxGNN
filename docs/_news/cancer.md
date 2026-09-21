@@ -13,21 +13,13 @@ permalink: /news/cancer/
 
 ---
 
-**2 articles** related to cancer.
-
----
-
-### [Life After... Stage 4 cancer: Producer-director wants to sleep more](https://www.straitstimes.com/singapore/health/life-after-stage-4-cancer-producer-director-wants-to-sleep-more)
-
-2026-09-20
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/life-after-stage-4-cancer-producer-director-wants-to-sleep-more)
+**1 articles** related to cancer.
 
 ---
 
 ### [NUS researchers use magnetic pulses to turn cancer-promoting immune cells into cancer fighters](https://www.straitstimes.com/singapore/health/nus-researchers-use-magnetic-pulses-to-turn-cancer-promoting-immune-cells-into-cancer-fighters)
 
-2026-09-20
+2026-09-21
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/nus-researchers-use-magnetic-pulses-to-turn-cancer-promoting-immune-cells-into-cancer-fighters)
 
