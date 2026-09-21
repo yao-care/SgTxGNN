@@ -13,13 +13,13 @@ permalink: /news/arthritis/
 
 ---
 
-**5 articles** related to arthritis.
+**6 articles** related to arthritis.
 
 ---
 
 ### [Plaque buildup, bad breath, bleeding gums: Rethinking your daily oral-care routine](https://www.straitstimes.com/singapore/health/plaque-buildup-bad-breath-bleeding-gums-daily-oral-care-routine-systema-lion)
 
-2026-09-20
+2026-09-21
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/plaque-buildup-bad-breath-bleeding-gums-daily-oral-care-routine-systema-lion)
 
@@ -27,15 +27,23 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/plaque-bui
 
 ### [Singapore medtech start-up Bioactivx launches synthetic skin substitute](https://www.straitstimes.com/singapore/health/singapore-medtech-start-up-launches-synthetic-skin-substitute)
 
-2026-09-20
+2026-09-21
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-medtech-start-up-launches-synthetic-skin-substitute)
 
 ---
 
+### [Yawning, food cravings, mood changes: These could be warning signs of a migraine](https://www.straitstimes.com/singapore/health/yawning-food-cravings-mood-changes-warning-signs-migraine-pfizer)
+
+2026-09-21
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/yawning-food-cravings-mood-changes-warning-signs-migraine-pfizer)
+
+---
+
 ### [What chiropractors can help with – and what patients should know](https://www.channelnewsasia.com/wellness/chiropractors-treatments-6306271)
 
-2026-09-20
+2026-09-21
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/chiropractors-treatments-6306271)
 
@@ -43,7 +51,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/chiropractors-treatments-
 
 ### [Always tripping or spraining your ankles? When ‘clumsiness’ could be a genetic nerve disorder](https://www.channelnewsasia.com/wellness/charcot-marie-tooth-tripping-weakness-6323596)
 
-2026-09-20
+2026-09-21
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/charcot-marie-tooth-tripping-weakness-6323596)
 
@@ -51,7 +59,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/charcot-marie-tooth-tripp
 
 ### [Is mouthwash bad for your oral health? Here's what the research found](https://www.channelnewsasia.com/wellness/mouthwash-oral-microbiome-harms-6360641)
 
-2026-09-20
+2026-09-21
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/mouthwash-oral-microbiome-harms-6360641)
 
