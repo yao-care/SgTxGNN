@@ -13,7 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**6 articles** related to arthritis.
+**7 articles** related to arthritis.
 
 ---
 
@@ -38,6 +38,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-
 2026-09-21
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/yawning-food-cravings-mood-changes-warning-signs-migraine-pfizer)
+
+---
+
+### [With new AI tool, SGH can detect brain bleeding from CT scans in a few minutes](https://www.straitstimes.com/singapore/health/with-ai-tool-sgh-detects-brain-bleeding-from-ct-scans-within-a-few-minutes)
+
+2026-09-21
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/with-ai-tool-sgh-detects-brain-bleeding-from-ct-scans-within-a-few-minutes)
 
 ---
 
