@@ -19,7 +19,7 @@ permalink: /news/cancer/
 
 ### [NUS researchers use magnetic pulses to turn cancer-promoting immune cells into cancer fighters](https://www.straitstimes.com/singapore/health/nus-researchers-use-magnetic-pulses-to-turn-cancer-promoting-immune-cells-into-cancer-fighters)
 
-2026-09-21
+2026-09-22
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/nus-researchers-use-magnetic-pulses-to-turn-cancer-promoting-immune-cells-into-cancer-fighters)
 
