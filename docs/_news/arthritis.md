@@ -19,7 +19,7 @@ permalink: /news/arthritis/
 
 ### [Plaque buildup, bad breath, bleeding gums: Rethinking your daily oral-care routine](https://www.straitstimes.com/singapore/health/plaque-buildup-bad-breath-bleeding-gums-daily-oral-care-routine-systema-lion)
 
-2026-09-22
+2026-09-23
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/plaque-buildup-bad-breath-bleeding-gums-daily-oral-care-routine-systema-lion)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/plaque-bui
 
 ### [Singapore medtech start-up Bioactivx launches synthetic skin substitute](https://www.straitstimes.com/singapore/health/singapore-medtech-start-up-launches-synthetic-skin-substitute)
 
-2026-09-22
+2026-09-23
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-medtech-start-up-launches-synthetic-skin-substitute)
 
@@ -35,7 +35,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-
 
 ### [Yawning, food cravings, mood changes: These could be warning signs of a migraine](https://www.straitstimes.com/singapore/health/yawning-food-cravings-mood-changes-warning-signs-migraine-pfizer)
 
-2026-09-22
+2026-09-23
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/yawning-food-cravings-mood-changes-warning-signs-migraine-pfizer)
 
@@ -43,7 +43,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/yawning-fo
 
 ### [With new AI tool, SGH can detect brain bleeding from CT scans in a few minutes](https://www.straitstimes.com/singapore/health/with-ai-tool-sgh-detects-brain-bleeding-from-ct-scans-within-a-few-minutes)
 
-2026-09-22
+2026-09-23
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/with-ai-tool-sgh-detects-brain-bleeding-from-ct-scans-within-a-few-minutes)
 
@@ -51,7 +51,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/with-ai-to
 
 ### [What chiropractors can help with – and what patients should know](https://www.channelnewsasia.com/wellness/chiropractors-treatments-6306271)
 
-2026-09-22
+2026-09-23
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/chiropractors-treatments-6306271)
 
@@ -59,7 +59,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/chiropractors-treatments-
 
 ### [Always tripping or spraining your ankles? When ‘clumsiness’ could be a genetic nerve disorder](https://www.channelnewsasia.com/wellness/charcot-marie-tooth-tripping-weakness-6323596)
 
-2026-09-22
+2026-09-23
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/charcot-marie-tooth-tripping-weakness-6323596)
 
@@ -67,7 +67,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/charcot-marie-tooth-tripp
 
 ### [Is mouthwash bad for your oral health? Here's what the research found](https://www.channelnewsasia.com/wellness/mouthwash-oral-microbiome-harms-6360641)
 
-2026-09-22
+2026-09-23
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/mouthwash-oral-microbiome-harms-6360641)
 
