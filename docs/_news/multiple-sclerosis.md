@@ -17,19 +17,19 @@ permalink: /news/multiple-sclerosis/
 
 ---
 
-### [Bad breath, bleeding gums? Your brushing routine could be behind these dental problems](https://www.straitstimes.com/singapore/health/plaque-buildup-bad-breath-bleeding-gums-daily-oral-care-routine-systema-lion)
-
-2026-09-24
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/plaque-buildup-bad-breath-bleeding-gums-daily-oral-care-routine-systema-lion)
-
----
-
 ### [New active ageing centre in Yishun helps seniors build confidence in gyms, find purpose in life](https://www.straitstimes.com/singapore/health/new-active-ageing-centre-in-yishun-helps-seniors-build-confidence-in-gyms-find-purpose-in-life)
 
 2026-09-24
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-active-ageing-centre-in-yishun-helps-seniors-build-confidence-in-gyms-find-purpose-in-life)
+
+---
+
+### [Singapore aims to help WHO get new vaccines approved during global crises: Ong Ye Kung](https://www.straitstimes.com/singapore/health/singapore-aims-to-help-who-get-new-vaccines-approved-during-global-crises-ong-ye-kung)
+
+2026-09-24
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-aims-to-help-who-get-new-vaccines-approved-during-global-crises-ong-ye-kung)
 
 ---
 
