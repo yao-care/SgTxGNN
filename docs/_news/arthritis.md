@@ -13,7 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**6 articles** related to arthritis.
+**7 articles** related to arthritis.
 
 ---
 
@@ -38,6 +38,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/yawning-fo
 2026-09-25
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/with-ai-tool-sgh-detects-brain-bleeding-from-ct-scans-within-a-few-minutes)
+
+---
+
+### [St Luke’s Hospital to raise $50m over five years to redevelop campus, expand services and train staff](https://www.straitstimes.com/singapore/health/st-lukes-hospital-to-raise-50m-over-five-years-to-redevelop-campus-expand-services-and-train-staff)
+
+2026-09-25
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/st-lukes-hospital-to-raise-50m-over-five-years-to-redevelop-campus-expand-services-and-train-staff)
 
 ---
 
