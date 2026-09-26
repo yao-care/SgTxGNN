@@ -19,7 +19,7 @@ permalink: /news/migraine/
 
 ### [Yawning, food cravings, mood changes: These could be warning signs of a migraine](https://www.straitstimes.com/singapore/health/yawning-food-cravings-mood-changes-warning-signs-migraine-pfizer)
 
-2026-09-25
+2026-09-26
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/yawning-food-cravings-mood-changes-warning-signs-migraine-pfizer)
 
