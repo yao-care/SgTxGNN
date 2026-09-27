@@ -13,7 +13,15 @@ permalink: /news/cancer/
 
 ---
 
-**1 articles** related to cancer.
+**2 articles** related to cancer.
+
+---
+
+### [NTU study could offer clues to overcoming cancer drug resistance](https://www.straitstimes.com/singapore/health/ntu-study-could-offer-clues-to-overcoming-cancer-drug-resistance)
+
+2026-09-27
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/ntu-study-could-offer-clues-to-overcoming-cancer-drug-resistance)
 
 ---
 

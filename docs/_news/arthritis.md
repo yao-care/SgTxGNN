@@ -13,15 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**7 articles** related to arthritis.
-
----
-
-### [Singapore medtech start-up Bioactivx launches synthetic skin substitute](https://www.straitstimes.com/singapore/health/singapore-medtech-start-up-launches-synthetic-skin-substitute)
-
-2026-09-27
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-medtech-start-up-launches-synthetic-skin-substitute)
+**6 articles** related to arthritis.
 
 ---
 
