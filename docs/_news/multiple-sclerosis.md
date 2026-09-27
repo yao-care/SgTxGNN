@@ -13,15 +13,7 @@ permalink: /news/multiple-sclerosis/
 
 ---
 
-**4 articles** related to multiple sclerosis.
-
----
-
-### [New active ageing centre in Yishun helps seniors build confidence in gyms, find purpose in life](https://www.straitstimes.com/singapore/health/new-active-ageing-centre-in-yishun-helps-seniors-build-confidence-in-gyms-find-purpose-in-life)
-
-2026-09-27
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-active-ageing-centre-in-yishun-helps-seniors-build-confidence-in-gyms-find-purpose-in-life)
+**3 articles** related to multiple sclerosis.
 
 ---
 
