@@ -19,7 +19,7 @@ permalink: /news/aging/
 
 ### [New active ageing centre in Yishun helps seniors build confidence in gyms, find purpose in life](https://www.straitstimes.com/singapore/health/new-active-ageing-centre-in-yishun-helps-seniors-build-confidence-in-gyms-find-purpose-in-life)
 
-2026-09-26
+2026-09-27
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-active-ageing-centre-in-yishun-helps-seniors-build-confidence-in-gyms-find-purpose-in-life)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-active
 
 ### [Managing 5 or more medications for an elderly family member? Here's what caregivers should know](https://www.channelnewsasia.com/wellness/senior-multiple-medications-caregiver-safety-6364221)
 
-2026-09-26
+2026-09-27
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/senior-multiple-medications-caregiver-safety-6364221)
 
@@ -35,7 +35,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/senior-multiple-medicatio
 
 ### [The most important longevity term you’ve probably never heard of](https://www.channelnewsasia.com/wellness/intrinsic-capacity-longevity-measure-6357926)
 
-2026-09-26
+2026-09-27
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/intrinsic-capacity-longevity-measure-6357926)
 
