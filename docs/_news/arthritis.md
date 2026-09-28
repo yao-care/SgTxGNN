@@ -13,15 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**5 articles** related to arthritis.
-
----
-
-### [With new AI tool, SGH can detect brain bleeding from CT scans in a few minutes](https://www.straitstimes.com/singapore/health/with-ai-tool-sgh-detects-brain-bleeding-from-ct-scans-within-a-few-minutes)
-
-2026-09-28
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/with-ai-tool-sgh-detects-brain-bleeding-from-ct-scans-within-a-few-minutes)
+**4 articles** related to arthritis.
 
 ---
 
