@@ -1,0 +1,37 @@
+{
+  "resourceType": "MedicationKnowledge",
+  "id": "activated_charcoal",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge"
+    ]
+  },
+  "status": "active",
+  "code": {
+    "coding": [
+      {
+        "system": "https://sgtxgnn.yao.care/drugs",
+        "code": "activated_charcoal",
+        "display": "Activated Charcoal"
+      }
+    ],
+    "text": "Activated Charcoal"
+  },
+  "intendedJurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "SG",
+          "display": "Singapore"
+        }
+      ]
+    }
+  ],
+  "extension": [
+    {
+      "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    }
+  ]
+}

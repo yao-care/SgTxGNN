@@ -1,0 +1,37 @@
+{
+  "resourceType": "MedicationKnowledge",
+  "id": "tetanus_immune_globulin",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge"
+    ]
+  },
+  "status": "active",
+  "code": {
+    "coding": [
+      {
+        "system": "https://sgtxgnn.yao.care/drugs",
+        "code": "tetanus_immune_globulin",
+        "display": "Tetanus Immune Globulin"
+      }
+    ],
+    "text": "Tetanus Immune Globulin"
+  },
+  "intendedJurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "SG",
+          "display": "Singapore"
+        }
+      ]
+    }
+  ],
+  "extension": [
+    {
+      "url": "https://sgtxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    }
+  ]
+}
