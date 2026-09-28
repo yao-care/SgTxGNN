@@ -13,7 +13,15 @@ permalink: /news/arthritis/
 
 ---
 
-**4 articles** related to arthritis.
+**5 articles** related to arthritis.
+
+---
+
+### [Air quality in four Singapore regions in unhealthy range](https://www.todayonline.com/singapore/air-quality-haze-unhealthy-regions-sep-29-6413481)
+
+2026-09-28
+
+Source: [TODAY](https://www.todayonline.com/singapore/air-quality-haze-unhealthy-regions-sep-29-6413481)
 
 ---
 
