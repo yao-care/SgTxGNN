@@ -827,8 +827,45 @@
     "is_novel_check_done": true
   },
   "tfda": {
-    "found": false,
-    "records": []
+    "found": true,
+    "records": [
+      {
+        "license_id": "SIN08670P",
+        "brand_name_zh": "AERRANE INHALATION ANAESTHETIC",
+        "brand_name_en": "AERRANE INHALATION ANAESTHETIC",
+        "ingredients": "ISOFLURANE",
+        "indication": "",
+        "dosage_form": "SOLUTION",
+        "manufacturer": "Baxter Healthcare Corporation",
+        "license_holder": "Baxter Healthcare Corporation",
+        "approval_date": "1996-04-19 00:00:00",
+        "expiry_date": "",
+        "status": ""
+      },
+      {
+        "license_id": "SIN07914P",
+        "brand_name_zh": "ISOFLURANE INHALATION",
+        "brand_name_en": "ISOFLURANE INHALATION",
+        "ingredients": "ISOFLURANE",
+        "indication": "",
+        "dosage_form": "SOLUTION",
+        "manufacturer": "Piramal Pharma Limited",
+        "license_holder": "Piramal Pharma Limited",
+        "approval_date": "1994-11-15 00:00:00",
+        "expiry_date": "",
+        "status": ""
+      }
+    ],
+    "total_matches": 2,
+    "drugbank_ids": [
+      "DB00753"
+    ],
+    "package_insert": {
+      "warnings": [],
+      "contraindications": [],
+      "dosage": "",
+      "special_populations": []
+    }
   },
   "safety": {
     "label_sources": [],
