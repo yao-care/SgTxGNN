@@ -19,7 +19,7 @@ permalink: /news/aging/
 
 ### [Simple handgrip test could help doctors detect early heart ageing in seniors](https://www.straitstimes.com/singapore/health/simple-handgrip-test-could-help-doctors-detect-early-heart-ageing-in-seniors)
 
-2026-09-28
+2026-09-29
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/simple-handgrip-test-could-help-doctors-detect-early-heart-ageing-in-seniors)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/simple-han
 
 ### [Managing 5 or more medications for an elderly family member? Here's what caregivers should know](https://www.channelnewsasia.com/wellness/senior-multiple-medications-caregiver-safety-6364221)
 
-2026-09-28
+2026-09-29
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/senior-multiple-medications-caregiver-safety-6364221)
 
@@ -35,7 +35,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/senior-multiple-medicatio
 
 ### [The most important longevity term you’ve probably never heard of](https://www.channelnewsasia.com/wellness/intrinsic-capacity-longevity-measure-6357926)
 
-2026-09-28
+2026-09-29
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/intrinsic-capacity-longevity-measure-6357926)
 
