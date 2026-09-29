@@ -17,19 +17,19 @@ permalink: /news/arthritis/
 
 ---
 
-### [Air quality in all Singapore regions in unhealthy range](https://www.todayonline.com/singapore/air-quality-haze-unhealthy-regions-sep-29-6413481)
-
-2026-09-29
-
-Source: [TODAY](https://www.todayonline.com/singapore/air-quality-haze-unhealthy-regions-sep-29-6413481)
-
----
-
 ### [St Luke’s Hospital to raise $50m over five years to redevelop campus, expand services and train staff](https://www.straitstimes.com/singapore/health/st-lukes-hospital-to-raise-50m-over-five-years-to-redevelop-campus-expand-services-and-train-staff)
 
 2026-09-29
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/st-lukes-hospital-to-raise-50m-over-five-years-to-redevelop-campus-expand-services-and-train-staff)
+
+---
+
+### [Emergency visits for respiratory cases up even with small spikes in PM2.5 levels: S’pore study](https://www.straitstimes.com/singapore/health/emergency-visits-for-asthma-chronic-respiratory-disease-rise-with-higher-pm2-5-levels-spore-study)
+
+2026-09-29
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/emergency-visits-for-asthma-chronic-respiratory-disease-rise-with-higher-pm2-5-levels-spore-study)
 
 ---
 
