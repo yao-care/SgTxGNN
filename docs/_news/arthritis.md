@@ -17,19 +17,19 @@ permalink: /news/arthritis/
 
 ---
 
-### [St Luke’s Hospital to raise $50m over five years to redevelop campus, expand services and train staff](https://www.straitstimes.com/singapore/health/st-lukes-hospital-to-raise-50m-over-five-years-to-redevelop-campus-expand-services-and-train-staff)
-
-2026-09-30
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/st-lukes-hospital-to-raise-50m-over-five-years-to-redevelop-campus-expand-services-and-train-staff)
-
----
-
 ### [Emergency visits for respiratory cases up even with small spikes in PM2.5 levels: S’pore study](https://www.straitstimes.com/singapore/health/emergency-visits-for-asthma-chronic-respiratory-disease-rise-with-higher-pm2-5-levels-spore-study)
 
 2026-09-30
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/emergency-visits-for-asthma-chronic-respiratory-disease-rise-with-higher-pm2-5-levels-spore-study)
+
+---
+
+### [Koh Poh Koon rejoins Singapore General Hospital as colorectal surgeon](https://www.straitstimes.com/singapore/health/koh-poh-koon-rejoins-singapore-general-hospital-as-colorectal-surgeon)
+
+2026-09-30
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/koh-poh-koon-rejoins-singapore-general-hospital-as-colorectal-surgeon)
 
 ---
 
