@@ -19,7 +19,7 @@ permalink: /news/kidney-disease/
 
 ### [NKF sets up mock home at Sengkang centre to help patients adjust to home dialysis](https://www.straitstimes.com/singapore/health/nkf-sets-up-mock-home-at-sengkang-centre-to-help-patients-learn-home-dialysis)
 
-2026-09-29
+2026-09-30
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/nkf-sets-up-mock-home-at-sengkang-centre-to-help-patients-learn-home-dialysis)
 

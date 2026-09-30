@@ -19,7 +19,7 @@ permalink: /news/cancer/
 
 ### [NTU study could offer clues to overcoming cancer drug resistance](https://www.straitstimes.com/singapore/health/ntu-study-could-offer-clues-to-overcoming-cancer-drug-resistance)
 
-2026-09-29
+2026-09-30
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/ntu-study-could-offer-clues-to-overcoming-cancer-drug-resistance)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/ntu-study-
 
 ### [How Stage 4 lung cancer changed this former nightlife boss: From 5 litres of beer a night to Everest Base Camp](https://www.channelnewsasia.com/wellness/living-stage-4-lung-cancer-michael-chuah-6382671)
 
-2026-09-29
+2026-09-30
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/living-stage-4-lung-cancer-michael-chuah-6382671)
 
