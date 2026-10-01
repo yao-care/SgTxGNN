@@ -33,70 +33,58 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Remdesivir is an RNA-dependent RNA polymerase (RdRp) inhibitor originally developed for Ebola and repurposed for COVID-19 (SARS-CoV-2 infection). The TxGNN model's top-ranked prediction — **Multiple Endocrine Neoplasia (MEN)** — has **no supporting clinical trials or literature**, and the model's own mechanistic review flags it as a knowledge-graph embedding artifact with no biological plausibility.
-
----
+Remdesivir is an intravenous antiviral, and the trials in this evidence pack show it being used mainly for COVID-19. The TxGNN model predicts it may be effective for **multiple endocrine neoplasia** (a hereditary tumour syndrome). This prediction is **model-only: no clinical trials and no publications** support it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | COVID-19 / SARS-CoV-2 infection (per associated trial and literature evidence; formal license text not available) |
-| Predicted New Indication | Multiple Endocrine Neoplasia |
+| Original Indication | COVID-19 (inferred from the trial evidence; the Singapore approved-indication text is not on file) |
+| Predicted New Indication | Multiple endocrine neoplasia |
 | TxGNN Prediction Score | 99.50% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on trial and literature context, Remdesivir is a nucleotide analog prodrug that inhibits viral RdRp, and its clinical use has centered on RNA viruses (Ebola, SARS-CoV-2).
+Currently, detailed mechanism of action data is not available from DrugBank. Based on known information, remdesivir is a nucleotide-analogue inhibitor of viral RNA-dependent RNA polymerase, with antiviral activity against RNA viruses such as SARS-CoV-2.
 
-Multiple Endocrine Neoplasia is a hereditary endocrine tumour syndrome driven by *RET* or *MEN1* germline mutations — a genetic/oncogenic disease mechanism entirely unrelated to RdRp inhibition. The model's own rationale states explicitly that this pairing has **no biological plausibility** and reflects knowledge-graph embedding similarity rather than a genuine mechanistic or clinical signal.
-
-**Important context on lower-ranked candidates:** several other top-10 predictions (e.g., HIV infection, rank 2) initially appear well-supported with 23 clinical trials and 20 publications. However, closer review shows these are a **systematic label-mismatch artifact**: virtually all of the underlying trials and literature (e.g., NCT04292730/ACTT-1, PMID 33264556/WHO Solidarity Trial) are Remdesivir-in-COVID-19 studies, not HIV studies. None of the 10 ranked predictions in this evidence pack carry genuine, disease-specific supporting evidence for the labeled indication.
-
----
+The review of this prediction found **no plausible mechanistic link** to multiple endocrine neoplasia. This condition is a hereditary tumour syndrome, and an antiviral polymerase inhibitor has no known role in its biology. The high TxGNN score (0.995, rank 6,448) most likely reflects relationships in the knowledge graph rather than a real pharmacological connection. Without trials or literature, the prediction cannot be considered mechanistically supported.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Remdesivir is not currently marketed in Singapore (market status: Not Marketed; 0 registrations on file). No license records are available for extraction.
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN15950P | VEKLURY® Lyophilized Powder for IV Infusion 100mg/vial | Injection, powder, lyophilized, for solution |
 
----
+The registration record contains no approved-indication text.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (Multiple Endocrine Neoplasia) has zero clinical trial or literature support and is explicitly assessed as mechanistically implausible. Review of other top-10 candidates in this evidence pack reveals a recurring KG label-mismatch issue rather than genuine repurposing signals, so no candidate in this batch meets the threshold to proceed.
+The prediction has only a graph-based score. It has no trials, no publications and no mechanistic rationale, so it stays at evidence level L5. The other top-ranked predictions are also weak. For example, the HIV prediction drew 23 retrieved trials, but all concern COVID-19, not HIV, so the trial count is not informative. The other predictions (SIV, feline immunodeficiency, cytomegalovirus, leprosy, and several unrelated genetic or vascular conditions) have no supporting clinical evidence either.
 
 **To proceed, the following is needed:**
-- Verified mechanism of action (MOA) data for Remdesivir from DrugBank/primary literature
-- Confirmed original indication and regulatory status (Singapore has no license data on file)
-- Re-run or manually audit the KG/literature matching pipeline to resolve the disease-label mismatch seen in rank 2 (HIV) and rank 8/10 (leprosy, CMV) candidates before treating their evidence counts as meaningful
-- TFDA/HSA warning and contraindication data (currently a blocking data gap, DG001) before any safety-relevant decision can be made
+- Singapore package insert warnings and contraindications from the HSA (a blocking gap for safety screening)
+- Detailed mechanism of action data from DrugBank
+- Any preclinical or mechanistic evidence linking remdesivir to multiple endocrine neoplasia
+- A review of whether a more biologically plausible predicted indication should replace this one as the lead candidate
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

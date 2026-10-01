@@ -29,76 +29,72 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pegfilgrastim: From Neutropenia (G-CSF Class) to Severe Nonproliferative Diabetic Retinopathy
+# Pegfilgrastim: From Neutropenia Prevention to Severe Nonproliferative Diabetic Retinopathy
 
 ## One-Sentence Summary
 
-> Pegfilgrastim is a pegylated G-CSF (granulocyte colony-stimulating factor) analog; internationally it is used to stimulate neutrophil recovery, most commonly in the setting of chemotherapy-induced neutropenia (specific Singapore label text unavailable — drug is currently unmarketed here).
-> The TxGNN model predicts it may be effective for **Severe Nonproliferative Diabetic Retinopathy**,
-> but this direction is currently supported by **0 clinical trials** and **0 publications**, and the model's own rationale text flags no known mechanistic link.
-
----
+Pegfilgrastim is a long-acting (PEGylated) G-CSF, generally used to reduce neutropenia in patients receiving chemotherapy. The TxGNN model predicts it may be effective for **severe nonproliferative diabetic retinopathy**, but **0 clinical trials** and **0 publications** currently support this direction. It is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not registered in Singapore (drug unmarketed); internationally used for chemotherapy-induced neutropenia (G-CSF class) |
-| Predicted New Indication | Severe Nonproliferative Diabetic Retinopathy |
+| Original Indication | Not stated in the registration data (generally used to reduce chemotherapy-associated neutropenia) |
+| Predicted New Indication | Severe nonproliferative diabetic retinopathy |
 | TxGNN Prediction Score | 99.89% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 3 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the source registry for this candidate (marked as a data gap). Based on the drug class information present in the evidence pack, Pegfilgrastim is a G-CSF analog whose primary pharmacology is stimulating proliferation and differentiation of bone marrow granulocyte precursors and mobilizing neutrophils into circulation.
+Currently, detailed mechanism of action data is not available. Based on general knowledge, pegfilgrastim is a PEGylated G-CSF that stimulates neutrophil production. Its mechanistic link to diabetic retinopathy is only hypothetical.
 
-Severe nonproliferative diabetic retinopathy is a microvascular disease driven by chronic hyperglycemia-induced capillary damage, ischemia, and (at more advanced stages) pathological neovascularization. The TxGNN model's own rationale text for this pairing states that there is **no direct known mechanistic link** between G-CSF-driven granulocyte mobilization and retinal microvascular/ischemic pathology — the only cited connection is a speculative and non-specific literature thread on G-CSF mobilizing endothelial progenitor cells in ischemic tissue repair generally, which does not specifically implicate retinal disease.
+One possible link is that G-CSF mobilizes bone-marrow endothelial progenitor cells, which are impaired in diabetes, and this could support vascular repair. However, the same mechanism could also drive pathological neovascularization in the retina. The direction of effect is therefore uncertain, and there is a real safety concern.
 
-In short, the high TxGNN score for this pairing appears to reflect a graph-topology association rather than an established or even plausible biological mechanism. This should be treated as a hypothesis-generating signal only, not as evidence of therapeutic potential.
-
----
+The other top predictions are also unsupported by clinical evidence:
+- **Diabetic retinopathy (99.73%)** rests on the same hypothesis and carries the same pro-angiogenic concern.
+- **Cataract subtypes (diabetic, senile, nuclear, cortical)** have no plausible mechanism. The scores likely reflect graph-neighborhood similarity.
+- **Platelet disorders (primary release disorder, pseudo-von Willebrand disease, Glanzmann thrombasthenia)** have no clear link to a neutrophil-directed growth factor.
+- **Drug-induced osteoporosis (96.75%)** may point in the wrong direction. Preclinical reports suggest G-CSF mobilizes osteoclast precursors and suppresses osteoblast activity, which would worsen bone loss.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Pegfilgrastim currently has no registered license records in the Singapore regulatory dataset provided (market status: Not Marketed, 0 registrations).
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN13200P | Neulastim Pre-filled Syringe 6mg/0.6ml | Injection, solution | Amgen Manufacturing Limited LLC |
+| SIN16012P | Fulphila Solution for Injection in Prefilled Syringe 6mg/0.6ml | Injection, solution | Biocon Biologics Limited |
+| SIN16249P | Pelgraz Solution for Injection in pre-filled syringe 6mg/0.6ml | Injection, solution | Intas Pharmaceuticals Limited Biopharma Division |
 
----
+Approved indication text was not provided in the registration data. All three products are injectables, and route compatibility with the predicted indication has not been assessed.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction sits at evidence level L5 — a pure model-generated association with zero supporting clinical trials or literature, and the model's own rationale explicitly notes the absence of a credible mechanistic link between G-CSF pharmacology and diabetic retinopathy pathophysiology. Combined with missing MOA and safety/label data (including a blocking gap on TFDA/HSA warnings and contraindications) and the drug's unmarketed status in Singapore, there is currently no basis to advance this candidate beyond hypothesis stage.
+The prediction has a very high model score (99.89%), but no clinical trials or publications support it (L5). The plausible mechanism (progenitor-cell mobilization) could equally promote retinal neovascularization, so the direction of effect is uncertain and a safety concern exists.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism-of-action data from DrugBank API (currently a data gap)
-- TFDA/HSA package insert warnings and contraindications (blocking gap — required before any S1 safety screening)
-- Preclinical or mechanistic studies specifically evaluating G-CSF/Pegfilgrastim in retinal microvascular or ischemic disease models, to establish biological plausibility before pursuing clinical evidence
-- If pursued, a Singapore market-entry regulatory assessment, since the drug is not currently registered
+- Package insert warnings and contraindications from the HSA website, which is a blocking gap for safety screening
+- Detailed mechanism of action data (MOA) from DrugBank
+- Systematic literature and trial searches for pegfilgrastim/G-CSF in diabetic retinopathy, with attention to retinal neovascularization risk
+- Assessment of route compatibility, since the approved forms are subcutaneous injectables and ocular disease may need a different route
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

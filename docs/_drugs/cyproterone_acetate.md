@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Cyproterone Acetate
-parent: Low Evidence (L5)
+parent: Medium Evidence (L3-L4)
 nav_order: 286
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Cyproterone Acetate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,127 +29,75 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cyproterone Acetate: From Hyperandrogenism to Migraine Disorder
+# Cyproterone Acetate: From Hormonal Antiandrogen Therapy to Migraine Disorder
 
 ## One-Sentence Summary
 
-Cyproterone acetate (CPA) is a synthetic antiandrogen and potent progestogen internationally established for hyperandrogenism, hirsutism, and polycystic ovary syndrome (PCOS); in high doses it is used for hormonal suppression in prostate cancer. The TxGNN model predicts it may have relevance for **Migraine Disorder** — the highest-ranked of 10 new predicted indications — supported by **no clinical trials** and only **3 publications** providing indirect mechanistic evidence. Across the full landscape of 10 predictions, only **amenorrhea/PCOS-related menstrual disorders (Rank 8)** reaches actionable evidence (L3, 4 trials, 14 publications); five other predictions are **active safety contraindications** where CPA would cause harm rather than benefit.
-
----
+Cyproterone acetate (CPA) is an antiandrogen and progestin, marketed in Singapore alone and in combination with ethinylestradiol.
+The TxGNN model predicts it may be effective for **migraine disorder**, but there are **0 clinical trials** and only **3 indirect publications** (none testing CPA as a migraine treatment), so evidence is weak.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not registered in Singapore; internationally approved for hyperandrogenism and PCOS-related conditions (EU: Diane-35, Androcur) |
-| Predicted New Indication | Migraine Disorder |
+| Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 99.66% |
-| Evidence Level | L4 (mechanism/review literature only; no clinical trials) |
-| Singapore Market Status | ✗ Not marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 3 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Cyproterone acetate is a synthetic steroidal compound with dual activity: it competitively blocks androgen receptors and suppresses gonadotropin (LH/FSH) secretion, thereby reducing testosterone production. Beyond its classical hormonal role, CPA engages the neurosteroid axis — progesterone is metabolised downstream to allopregnanolone, a potent positive allosteric modulator of GABA-A receptors. PMID 14670648 (Gruber & Huber, 2003) specifically documents that CPA interacts with GABA-A receptor subtypes, stimulates dopamine release in striatal tissue, modulates GnRH release from hypothalamic neurons, and binds opioid receptors — all pathways that have been implicated in migraine pathophysiology.
+Currently, detailed mechanism of action data is not available from the source database. Based on the retrieved literature, CPA blocks androgen receptors and acts as a progestin that suppresses gonadotropins. Its efficacy in hormone-driven conditions such as hyperandrogenism, hirsutism and PCOS is documented in the literature.
 
-The hormone-migraine connection is well-established in clinical observation. Menstrual migraine is closely linked to the perimenstrual drop in progesterone and the consequent fall in allopregnanolone, which destabilises GABA-A receptor-mediated inhibition and lowers the threshold for trigeminal vascular activation and cortical spreading depression. CPA's progestogenic potency could theoretically buffer this hormonal instability and maintain steadier GABA-A tone. PMID 12390622 (Facchinetti et al., 2002) demonstrates that different hormone replacement regimens have meaningfully different effects on migraine course in postmenopausal women, confirming that the type and stability of progestogenic exposure matters for migraine frequency.
+Hormonal fluctuation is a recognised migraine trigger, and progestins can influence central nervous system excitability. A 2003 review notes that progestins interact with GABA-A receptors and dopamine and opioid systems, and that CPA increases dopaminergic responses and binds opiate receptors independently of its classical hormonal effects. This offers a plausible but unproven link to migraine.
 
-Despite this biological rationale, the evidence remains entirely indirect. None of the 3 available publications directly tested CPA as a migraine treatment. Furthermore, a critical safety boundary must be respected: for patients with **migraine with aura** — including brainstem aura (formerly basilar-type migraine) — combined hormonal preparations containing CPA are classified as WHO Medical Eligibility Criteria Category 4 (absolute contraindication) due to significantly elevated ischaemic stroke risk. Any future investigation must strictly exclude this patient subgroup.
-
----
+The retrieved papers cover hormonal effects on the brain, hormone replacement and migraine, and CPA long-term side effects. None studies CPA as a migraine treatment. The high TxGNN score is a graph-based prediction without supporting clinical data.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [14670648](https://pubmed.ncbi.nlm.nih.gov/14670648/) | 2003 | Review | *Maturitas* | CPA activates GABA-A receptor subtypes via C21-steroid pathway, stimulates dopaminergic and opioid systems; provides mechanistic basis for CNS effects relevant to migraine |
-| [12390622](https://pubmed.ncbi.nlm.nih.gov/12390622/) | 2002 | Observational/Clinical | *Headache* | Three HRT schemes produce significantly different migraine outcomes in postmenopausal women, establishing that progestogen type and dose affects migraine course |
-| [10857213](https://pubmed.ncbi.nlm.nih.gov/10857213/) | 2000 | Retrospective (Adverse Effects) | *Zentralblatt für Gynäkologie* | Long-term safety analysis of CPA-containing therapy in 2,506 patients (7,971 patient-years); no migraine efficacy data — included as background safety context only |
-
----
+|------|-----|------|------|---------|
+| [14670648](https://pubmed.ncbi.nlm.nih.gov/14670648/) | 2003 | Review | Maturitas | Progestins interact with GABA-A receptors and dopamine, GnRH and opioid systems. CPA increases dopaminergic responses and binds opiate receptors. Mechanistic background only. |
+| [12390622](https://pubmed.ncbi.nlm.nih.gov/12390622/) | 2002 | Clinical study | Headache | Compared three oral hormone replacement schemes for their effect on migraine in postmenopausal women. The abstract states only the aim, so CPA-specific findings are unconfirmed. |
+| [10857213](https://pubmed.ncbi.nlm.nih.gov/10857213/) | 2000 | Cohort | Zentralblatt fur Gynakologie | Long-term side effects of CPA-containing gynaecological therapy. It discusses mutagenicity concerns, and a multicentre study of 2,506 patients did not find a signal (abstract truncated). Safety context, not migraine efficacy. |
 
 ## Singapore Market Information
 
-Cyproterone acetate is **not registered with the Health Sciences Authority (HSA) of Singapore** and holds no product licences. There are no authorisation numbers, approved dosage forms, or official approved indications to record. The drug is authorised in multiple other jurisdictions — notably the EU (Diane-35 for hyperandrogenism; Androcur for prostate cancer suppression) — but currently has no regulatory pathway in Singapore.
-
----
-
-## All Predicted Indications at a Glance
-
-This is a multi-indication evidence pack. The following table summarises all 10 TxGNN predictions for cyproterone acetate:
-
-| Rank | Indication | Score | Evidence | Trials | Publications | Decision |
-|------|-----------|-------|----------|--------|-------------|---------|
-| 1 | Migraine Disorder | 99.66% | L4 | 0 | 3 | Hold — Research Question |
-| 2 | Migraine with Brainstem Aura | 99.58% | L5 | 0 | 2 | ⛔ **Safety Alert** — Absolute contraindication for hormonal contraceptives; stroke risk |
-| 3 | Prinzmetal Angina | 99.52% | L5 | 0 | 0 | Hold — No evidence, tenuous mechanistic link |
-| 4 | Antithrombin Deficiency Type 2 | 99.48% | L5 | 0 | 0 | ⛔ **Safety Alert** — CPA raises VTE risk; lethal in AT-deficient patients |
-| 5 | Heparin Cofactor 2 Deficiency | 99.45% | L5 | 0 | 0 | ⛔ **Safety Alert** — CPA procoagulant effects directly contraindicated |
-| 6 | Factor V Excess with Spontaneous Thrombosis | 99.45% | L5 | 0 | 0 | ⛔ **Safety Alert** — CPA + Factor V interaction multiplies VTE risk |
-| 7 | Migraine with/without Aura (susceptibility) | 99.34% | L4 | 0 | 20* | Hold — Most literature is epilepsy-focused, not migraine |
-| **8** | **Amenorrhea / PCOS-related Menstrual Disorders** | **99.28%** | **L3** | **4** | **14** | ✅ **Proceed with Guardrails** |
-| 9 | Breast Fibrocystic Disease | 99.15% | L4 | 0 | 4 | Hold — Research Question; antiandrogenic mechanism plausible |
-| 10 | Thrombophilia | 99.03% | L5 | 0 | 18 | ⛔ **Model False Positive** — All 18 papers document CPA *causing* thrombosis |
-
-> \* Rank 7 literature (20 publications) is overwhelmingly epilepsy-focused; only PMID 33856647 directly addresses migraine-epilepsy shared mechanisms.
-
-**Critical Interpretation Note:** Ranks 2, 4, 5, 6, and 10 are not repurposing opportunities — they are pharmacological contraindications. Rank 10 (thrombophilia) is a likely TxGNN graph false positive: the model appears to have learned drug-disease co-occurrence from pharmacovigilance reports documenting CPA *as a cause* of thrombosis, misidentifying this signal as a potential therapeutic relationship.
-
----
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN13545P | PROCUR TABLETS 50MG | Tablet |
+| SIN04784P | DIANE-35 TABLET | Tablet, sugar coated |
+| SIN12117P | ESTELLE-35 TABLET | Tablet, film coated |
 
 ## Safety Considerations
 
-Formal package insert data (warnings, contraindications) is unavailable for Singapore as this drug holds no HSA registration. Based on the pharmacovigilance literature retrieved in this evidence pack, the following safety signals are directly evidenced:
+- **Thromboembolic risk (from literature)**: Studies of CPA and ethinylestradiol products consistently report increased venous thromboembolism risk, especially in women with factor V Leiden, along with prothrombotic changes such as activated protein C resistance (e.g., [24634164](https://pubmed.ncbi.nlm.nih.gov/24634164/), [29614525](https://pubmed.ncbi.nlm.nih.gov/29614525/), [15550051](https://pubmed.ncbi.nlm.nih.gov/15550051/)).
+- **Relevance to migraine**: Migraine with aura is itself a stroke-risk marker that limits combined hormonal contraceptive use. Vascular risk of hormonal contraception is reviewed in [30389542](https://pubmed.ncbi.nlm.nih.gov/30389542/).
+- **Other long-term concerns**: Hepatotoxicity and meningioma with long-term high-dose use.
 
-- **Venous Thromboembolism Risk**: CPA-containing oral contraceptives reduce Protein S levels (24–38%), increase endogenous thrombin potential, and activate the coagulation cascade (PMID 15550051, 18064335, 18067603). In women carrying Factor V Leiden, the interaction with CPA multiplies VTE risk substantially (PMID 29614525, 32342502).
-- **Cerebral Venous Sinus Thrombosis**: Case reports associate CPA-containing contraceptives with CVST in women of childbearing age (PMID 40704263).
-- **Stroke Risk in Migraine with Aura**: Combined hormonal preparations are WHO MEC Category 4 for any migraine with aura. Literature (PMID 25227335, 30389542) confirms this prohibition applies to CPA-containing products.
-- **Thrombophilia Interaction**: Patients with inherited thrombophilia (Factor V Leiden, Protein C deficiency, antithrombin deficiency) face significantly amplified VTE risk with CPA use (PMID 36634704, 19340712).
-
-For complete safety information including hepatotoxicity, meningioma risk with prolonged high-dose use, and considerations in gender-affirming therapy, refer to the EMA-approved Diane-35 and Androcur Summary of Product Characteristics.
-
----
+Please refer to the package insert for full warnings, contraindications and drug interactions.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold** *(for Migraine Disorder — the top TxGNN prediction)*
+**Decision: Hold**
 
 **Rationale:**
-The mechanistic hypothesis connecting CPA to migraine via the progesterone–allopregnanolone–GABA-A pathway is biologically coherent, but entirely speculative at this stage. With zero clinical trials and only 3 indirect publications, there is insufficient evidence to justify clinical development investment. Patient safety concerns — particularly the stroke contraindication in migraine with aura — further limit the eligible population and raise the bar for investigation.
+The migraine prediction rests on a graph score alone. There are no clinical trials, and the retrieved literature is indirect and does not show CPA benefit. The known vascular and thrombotic risk of CPA-containing products argues against use in migraine, particularly migraine with aura.
 
----
+Among the other predicted indications, only amenorrhea (rank 8) has clinical data, including a Phase 4 trial of ethinylestradiol/CPA in hyperandrogenic irregular cycles (NCT01103518, status unknown). Thrombophilia (rank 10) is better read as a safety flag than as an opportunity.
 
-**Priority Redirection — Amenorrhea/PCOS (Rank 8): Proceed with Guardrails**
-
-The most actionable finding in this pack is not the top TxGNN prediction but **Rank 8 (amenorrhea/PCOS-related menstrual disorders)**, which has genuine clinical traction:
-- CPA+EE (Diane-35/Dianette) has EU regulatory approval for hyperandrogenism-related menstrual irregularity
-- 4 clinical trials (including NCT01103518 — Phase IV, direct EE+CPA comparison) and 14 publications support this use
-- This represents a credible **HSA registration opportunity** for an indication with established international precedent
-
----
-
-**To proceed with the Migraine Disorder research question, the following is needed:**
-
-- Retrieve CPA mechanism of action data from DrugBank API (addresses Data Gap DG002)
-- Obtain EMA package insert warnings and contraindications (addresses Data Gap DG001) and map to Singapore clinical context
-- Commission a focused preclinical study examining CPA's effect on cortical spreading depression threshold in migraine animal models
-- Define strict patient eligibility criteria: exclude migraine with aura, active thrombophilia, smoking, cardiovascular risk factors
-- Evaluate progestogen-only CPA formulations (without oestrogen component) to separate efficacy signal from known EE-related VTE risk
-
-**To expedite the Amenorrhea/PCOS evaluation (Rank 8):**
-
-- Obtain and review the EMA benefit-risk assessment basis for Diane-35 PCOS indication
-- Map existing EU clinical trial data (NCT01103518, NCT04831151, NCT02744131) to HSA new drug application requirements
-- Develop a VTE risk management plan as a condition of any regulatory submission, given the drug's established procoagulant profile
+**To proceed, the following is needed:**
+- HSA package insert warnings and contraindications (blocking for safety screening)
+- Mechanism of action data from DrugBank
+- HSA-approved indication text for the three registered products
+- Any controlled or observational data on CPA in migraine, with attention to aura status and thrombotic risk
+- Consider re-prioritising the amenorrhea/PCOS indication, which has actual clinical data, after checking novelty against existing labelling
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

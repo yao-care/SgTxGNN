@@ -29,80 +29,73 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Famotidine: From Peptic Ulcer Disease to Duodenogastric Reflux
+# Famotidine: From Gastric Acid Suppression to Duodenogastric Reflux
 
 ## One-Sentence Summary
 
-Famotidine is a potent, highly selective histamine H2-receptor antagonist globally established for suppressing gastric acid secretion in peptic ulcer disease and related acid-mediated conditions, though it currently holds no Singapore regulatory registration.
-The TxGNN model predicts it may be effective for **Duodenogastric Reflux**, with **0 clinical trials** and **2 publications** currently supporting this specific direction.
-The prediction score of 99.99% reflects strong model confidence, though clinical evidence for this exact indication remains limited.
-
----
+Famotidine is an H2-receptor antagonist that reduces gastric acid and is marketed in Singapore as oral tablets.
+The TxGNN model predicts it may be effective for **duodenogastric reflux**, but this is supported by **no registered clinical trials** and only **2 publications**, whose designs are unverified.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not registered in Singapore; globally established for peptic ulcer disease and gastric acid hypersecretion |
-| Predicted New Indication | Duodenogastric Reflux |
+|------|------|
+| Predicted New Indication | Duodenogastric reflux |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L4 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 11 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Famotidine is a highly selective antagonist of histamine H2 receptors located on the basolateral surface of gastric parietal cells. By competitively blocking these receptors, famotidine suppresses both basal and stimulated gastric acid secretion. On a weight-for-weight basis, it is approximately 20–50 times more potent than cimetidine and 8 times more potent than ranitidine, with a single bedtime dose (40 mg) providing 10–12 hours of sustained acid suppression. Detailed mechanism-of-action data from DrugBank was not retrievable in this Evidence Pack; the above reflects the drug's well-documented pharmacological class.
+Detailed mechanism-of-action data is not available in the record. Based on known pharmacology, famotidine blocks H2 receptors on stomach parietal cells and lowers acid secretion. Its efficacy in acid-related conditions is well established.
 
-Duodenogastric reflux (DGR) is characterised by retrograde flow of bile acids, lysolecithin, and pancreatic enzymes from the duodenum into the stomach. Although impaired pyloric function is the primary anatomical driver, the acid environment of the stomach significantly amplifies mucosal injury caused by the mixed refluxate. By raising intragastric pH, famotidine reduces the corrosive acid component of this combined chemical insult, offering mechanistic rationale for mucosal protection even when the bile component persists.
+Duodenogastric (bile) reflux is mainly driven by pyloric and motility factors. Acid suppression is therefore not expected to reduce the reflux itself. At most, famotidine may ease acid-related injury to the stomach lining. The mechanistic link is weak.
 
-Two published clinical studies directly address this link: one examines famotidine's effects on both gastroesophageal and duodeno-gastro-esophageal reflux in critically ill patients, exploring possible underlying mechanisms; the other evaluates H2-receptor antagonist therapy (famotidine 20 mg twice daily) in early-stage gastroduodenal reflux disease classified by the modified Savary-Miller scale. Both align with famotidine's established antisecretory profile and its broader role in managing acid-mediated upper gastrointestinal conditions.
-
----
+The TxGNN score reflects proximity in the knowledge graph. It does not show that famotidine treats this condition.
 
 ## Clinical Trial Evidence
 
-Currently no clinical trials specifically addressing duodenogastric reflux for famotidine are registered.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [12532466](https://pubmed.ncbi.nlm.nih.gov/12532466/) | 2003 | Clinical study | World Journal of Gastroenterology | Investigated famotidine's effect on gastroesophageal reflux (GER) and duodeno-gastro-esophageal reflux (DGER) in critically ill patients; evaluated possible mechanisms and relevant contributing factors |
-| [16259441](https://pubmed.ncbi.nlm.nih.gov/16259441/) | 2004 | Clinical study | Experimental & Clinical Gastroenterology | Assessed famotidine 20 mg BID in early-stage gastroduodenal reflux disease (Savary-Miller grade 0–1) using combined clinical and endoscopic endpoints |
-
----
+|------|-----|------|------|---------|
+| [12532466](https://pubmed.ncbi.nlm.nih.gov/12532466/) | 2003 | Clinical study (design unverified) | World J Gastroenterol | Examined famotidine's effect on gastroesophageal and duodeno-gastro-esophageal reflux in critically ill patients and explored possible mechanisms. The abstract excerpt does not report results. |
+| [16259441](https://pubmed.ncbi.nlm.nih.gov/16259441/) | 2004 | Review/clinical article (Russian) | Eksp Klin Gastroenterol | Assessed famotidine 20 mg twice daily in early-stage gastroduodenal reflux disease using clinical and endoscopic evaluation. The abstract excerpt does not report results. |
 
 ## Singapore Market Information
 
-Famotidine currently has no registered products in Singapore. No authorization numbers or approved indication texts are available from local regulatory records.
+The registration data does not state approved indications for these products.
 
----
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN10595P | Sunpepcin 20 Tablet 20 mg | Film-coated tablet | Sunward Pharmaceutical Private Limited |
+| SIN05641P | Famopsin 20 Tablet 20 mg | Film-coated tablet | Remedica Ltd |
+| SIN10470P | Pharma Famotidine Tablet 20 mg | Film-coated tablet | Korea Pharma Co Ltd |
+| SIN05640P | Famopsin 40 Tablet 40 mg | Film-coated tablet | Remedica Ltd |
+| SIN10596P | Sunpepcin 40 Tablet 40 mg | Film-coated tablet | Sunward Pharmaceutical Private Limited |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model assigns a near-perfect prediction score for famotidine in duodenogastric reflux, and the acid-suppression mechanism provides a plausible biological basis. However, the Singapore-specific clinical evidence base is minimal (2 observational studies, 0 registered trials), no Singapore registration exists, and the safety profile — warnings, contraindications, and drug interaction data — could not be populated from this Evidence Pack.
+The mechanistic link is weak, there are no registered trials, and the two publications have unverified designs and no confirmed efficacy results. The high TxGNN score alone does not justify moving forward.
+
+By contrast, other predicted indications for famotidine, such as peptic ulcer disease, have far stronger trial and literature support. They are likely established uses rather than true repurposing, so their label status should be confirmed.
 
 **To proceed, the following is needed:**
-- Identify a Singapore HSA registration pathway, or establish whether the drug is available under an unregistered route (e.g., named-patient supply)
-- Retrieve the official package insert to populate key warnings, contraindications, and drug-drug interaction data (resolves DG001)
-- Query DrugBank API for full MOA details (resolves DG002)
-- Identify or commission clinical studies with duodenogastric reflux as a primary endpoint, distinguishing famotidine's effect from PPIs on the bile-acid component of reflux
-- Benchmark against current Singapore standard-of-care for DGR (proton pump inhibitors, ursodeoxycholic acid, prokinetics) to define where famotidine adds clinical value
+- Full-text review of PMID 12532466 and PMID 16259441 to confirm study design, endpoints and results
+- Singapore package insert warnings and contraindications
+- Mechanism-of-action data from DrugBank
+- Confirmation of the approved indications for the Singapore registrations
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

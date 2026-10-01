@@ -29,60 +29,72 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-Using the provided Evidence Pack, here is the evaluation report for Fentanyl.
-
----
-
-# Fentanyl: From Opioid Analgesia to Nephrogenic Syndrome of Inappropriate Antidiuresis
+# Fentanyl: From Severe Pain to Nephrogenic Syndrome of Inappropriate Antidiuresis
 
 ## One-Sentence Summary
 
-Fentanyl is a potent synthetic opioid, generally used for the management of severe and breakthrough pain and as an anesthetic adjunct. The TxGNN model predicts it may be effective for **Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD)**, but this direction is currently supported by **0 clinical trials** and **0 publications**, and the model's own mechanistic assessment flags the pathway link as biologically implausible.
+Fentanyl is a potent opioid analgesic, marketed in Singapore as a transdermal patch and a sublingual tablet for severe pain. The TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**. However, **no clinical trials and no publications** currently support this direction, and the mechanism argues against it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded — no `original_indications` or local regulatory filings are available for this drug in the current dataset. (General pharmacological class: opioid analgesic for severe/chronic pain and anesthesia) |
-| Predicted New Indication | Nephrogenic Syndrome of Inappropriate Antidiuresis |
-| TxGNN Prediction Score | 99.46% |
+| Original Indication | Severe pain (analgesia). The registration records provided contain no indication text. |
+| Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
+| TxGNN Prediction Score | 99.46% (rank 6,786) |
 | Evidence Level | L5 |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 18 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available for fentanyl in this evidence pack (data gap DG002). Based on general pharmacological knowledge, fentanyl is a synthetic full agonist at the μ-opioid receptor, and its efficacy in severe/chronic pain management and anesthesia is well established.
+Currently, detailed mechanism of action data is not available in the source data. Fentanyl is a mu-opioid receptor agonist, and its efficacy in pain relief is well established.
 
-The predicted new indication, nephrogenic syndrome of inappropriate antidiuresis (NSIAD), is a rare congenital disorder caused by constitutive, ligand-independent activation of the vasopressin V2 receptor (AVPR2) — it is not driven by excess ADH secretion. Opioids, including fentanyl, are known to promote non-osmotic ADH release, which is sometimes cited as a contributing *risk factor* for SIAD-like hyponatremia in perioperative settings. This is mechanistically distinct from NSIAD, whose pathology is receptor-intrinsic and independent of circulating ADH/opioid signaling.
-
-The evidence pack's own mechanistic rationale explicitly notes there is no known overlap between the μ-opioid receptor pathway and the AVPR2 mutation pathway underlying NSIAD, and characterizes this prediction as a likely statistical artifact of the TxGNN knowledge-graph embedding rather than a pharmacologically grounded hypothesis. Combined with the complete absence of clinical trials or literature for this pairing, the mechanistic case does not currently support prioritizing this candidate.
+The predicted disease is caused by gain-of-function variants in the AVPR2 gene. These variants make the kidney concentrate urine inappropriately, leading to low blood sodium. Mu-opioid agonism has no plausible way to correct this defect, and opioids can even promote antidiuresis. The very high graph score appears to be an artifact of the knowledge graph rather than a real pharmacological signal, so the prediction should not be considered credible on mechanistic grounds.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
+
+## Singapore Market Information
+
+18 registrations are listed. The five main ones are shown below. The provided records contain no approved-indication text.
+
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN08332P | DUROGESIC TRANSDERMAL SYSTEM 75 mcg/hr | Patch |
+| SIN08335P | DUROGESIC TRANSDERMAL SYSTEM 50 mcg/hr | Patch |
+| SIN08334P | DUROGESIC TRANSDERMAL SYSTEM 25 mcg/hr | Patch |
+| SIN15148P | ABSTRAL SUBLINGUAL TABLET 200 mcg | Tablet |
+| SIN15147P | ABSTRAL SUBLINGUAL TABLET 100 mcg | Tablet |
+
+Other dosage forms recorded for fentanyl are injection and injection solution.
 
 ## Safety Considerations
 
-Detailed safety data (key warnings, contraindications, drug-drug interactions) has not yet been retrieved for fentanyl in this evidence pack — this is flagged as a **blocking** data gap (DG001: TFDA/HSA label warnings and contraindications), which prevents entry into the S1 safety pre-assessment stage. Please refer to the official package insert for complete safety information before any clinical use.
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked predicted indication (NSIAD) has zero supporting clinical trials or literature, and its own mechanistic rationale assesses the opioid-receptor-to-AVPR2-mutation pathway link as biologically implausible rather than merely under-studied. Fentanyl is also not currently marketed in this jurisdiction (0 registrations), and a blocking data gap (missing TFDA/HSA label) prevents even a baseline safety review.
+The prediction has no trials or literature behind it (L5), and the disease mechanism (AVPR2 gain-of-function) is not something a mu-opioid agonist could correct. The high score most likely reflects a knowledge-graph artifact. Fentanyl also carries dependence and respiratory-depression risks that cannot be justified without supporting evidence.
+
+**Other predicted candidates:**
+- Among the other predictions, only **myofascial pain syndrome** reached the next screening stage (Research Question). It would be a symptomatic extension of fentanyl's analgesic use, not true repurposing.
+- Its one Phase 3 trial (NCT00343733) needs its study population checked against the registry record.
+- Long-term opioid use for chronic musculoskeletal pain carries significant safety concerns.
 
 **To proceed, the following is needed:**
-- TFDA/HSA package insert (warnings, contraindications) to resolve blocking data gap DG001
-- DrugBank mechanism-of-action data to resolve data gap DG002
-- Independent pharmacological review of the proposed opioid–AVPR2 mechanistic link before any further investment in this specific candidate
-- Note: within this same evidence pack, two other predicted indications for fentanyl show materially stronger support and may warrant separate evaluation — **myofascial pain syndrome** (rank 4, evidence level L2, "Proceed with Guardrails," backed by a completed Phase 3 RCT and supportive review literature) and **tendinitis** (rank 10, evidence level L3, "Research Question," backed by multiple RCTs on perioperative opioid analgesia in tendon/rotator-cuff surgery)
+- HSA package insert warnings and contraindications
+- Mechanism of action data (for example, from DrugBank)
+- Any direct clinical or preclinical evidence linking fentanyl to NSIAD, which is unlikely to exist
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

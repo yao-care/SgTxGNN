@@ -29,78 +29,71 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Naltrexone: From No Singapore-Registered Indication to Hypervitaminosis
+# Naltrexone: From Opioid and Alcohol Dependence to Hypervitaminosis
 
 ## One-Sentence Summary
 
-> Naltrexone currently holds no marketing authorization in Singapore (0 registrations on file), so its originally proven indication cannot be confirmed from this evidence pack.
-> The TxGNN model's top-ranked prediction is **Hypervitaminosis**, but this candidate is supported by **0 clinical trials** and **0 publications**, and the model's own rationale states there is no known mechanistic link.
-> Across all 10 predicted indications in this pack, none clear the bar for further development — this is a **Hold** across the board.
-
----
+Naltrexone is an opioid-receptor antagonist. It is generally known for treating opioid and alcohol dependence, and in combination with bupropion (Contrave) for weight management.
+The TxGNN model predicts it may be effective for **hypervitaminosis** with a high score, but there are **0 clinical trials** and **0 publications** supporting this direction. This is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not established — Naltrexone has no marketed product in Singapore (0 licenses on file) |
+| Original Indication | Opioid and alcohol dependence (general pharmacological knowledge; not stated in the local registration data) |
 | Predicted New Indication | Hypervitaminosis |
 | TxGNN Prediction Score | 98.66% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed drug-level mechanism of action data is not available for Naltrexone in this evidence pack (flagged as a High-severity data gap). However, the evidence pack's own repurposing rationale for a lower-ranked candidate (restless legs syndrome, rank 5) identifies Naltrexone as a **μ-opioid receptor antagonist**, which is consistent with its known pharmacological class.
+Detailed mechanism of action data is not available for this report. Naltrexone is generally known as an opioid-receptor antagonist. Its efficacy is established in dependence-related conditions, and it is also marketed in a fixed-dose combination with bupropion in Singapore.
 
-For the top-ranked candidate, **Hypervitaminosis**, the evidence pack explicitly states there is **no known mechanistic connection**: hypervitaminosis is a vitamin-toxicity state with no physiological relationship to opioid receptor antagonism. The high TxGNN score (98.66%) appears to reflect a statistical association in the knowledge graph rather than a biologically grounded hypothesis, and it is not corroborated by any clinical trial or literature evidence.
+No mechanistic link between opioid-receptor antagonism and vitamin excess can be identified from the provided data. The high score (0.987) is a knowledge-graph prediction only. It is not backed by any trial, publication or pathway evidence.
 
-Looking across all 10 ranked candidates in this pack, none present a coherent mechanistic story supported by real-world evidence. The best-evidenced candidate is restless legs syndrome (rank 5, L4, 5 supporting papers), but the rationale itself flags a **mechanistic contradiction**: standard effective RLS therapies are opioid *agonists*, so an opioid *antagonist* like Naltrexone would theoretically risk worsening rather than treating RLS symptoms. Of the 5 papers, only one (PMID 39893547) directly concerns Naltrexone, and it is a pharmacovigilance/adverse-event signal study — suggesting RLS may be a Naltrexone side effect rather than a treatable indication. The remaining candidates (proximal 16p11.2 microdeletion syndrome, obsolete hypertelorism, frontorhiny, DECR deficiency leukodystrophy, myxomatous mitral valve prolapse, ADHD inattentive type, bridged sella turcica, autosomal hypospadias 3) are genetic, structural, or developmental conditions with no plausible link to opioid receptor pharmacology and zero supporting evidence.
-
----
+Hypervitaminosis is typically managed by stopping the offending vitamin and giving supportive care. There is no recognised role for opioid antagonism. The prediction should be treated as a likely knowledge-graph artefact until proven otherwise.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Naltrexone currently has no marketing authorization on file in Singapore (0 registrations; market status: Not Marketed).
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN10002P | NARPAN TABLET 50 mg | Tablet | Duopharma (M) Sdn Bhd |
+| SIN16411P | CONTRAVE PROLONGED RELEASE TABLET 8MG/90MG | Tablet, film coated, extended release | Patheon Inc. |
 
----
+Both products are oral tablets. Approved indication text was not available in the registration data.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
----
+Please refer to the package insert for safety information. No drug interaction records were found for this drug.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The top-ranked prediction (Hypervitaminosis) has zero clinical or literature support and no plausible mechanistic link per the model's own rationale — it does not meet the bar for further evaluation.
-- No candidate among the 10 ranked predictions reaches L1–L3 evidence; the single L4 candidate (restless legs syndrome) has a mechanistic rationale that argues *against* efficacy, not for it.
-- Naltrexone is not currently marketed in Singapore, and a Blocking-severity data gap (TFDA/local label warnings and contraindications) means a safety assessment (S1) cannot be initiated regardless of indication choice.
+The prediction rests on a model score alone, with no trials, no literature and no plausible mechanism. It is also likely a knowledge-graph artefact rather than a real therapeutic signal. The evidence level is L5.
 
 **To proceed, the following is needed:**
-- Resolve DG001 (Blocking): retrieve and parse the official product label for warnings/contraindications before any S1 safety review.
-- Resolve DG002 (High): confirm Naltrexone's mechanism of action from DrugBank to validate or refute candidate mechanistic links.
-- If pursuing repurposing further, prioritize re-scoring or expert review of lower-score-but-literature-supported candidates over the top raw TxGNN score, given the disconnect seen here between score rank and biological plausibility.
-- Independent pharmacological review of the restless legs syndrome hypothesis is needed before dismissal or advancement, given the contradictory direction of effect noted above.
+- A mechanistic rationale linking opioid-receptor antagonism to vitamin excess, together with any supporting preclinical data
+- The Singapore package insert (HSA) warnings and contraindications, which is a blocking gap for safety screening
+- Detailed mechanism of action data from DrugBank
+- Approved indication text for the two Singapore registrations
+- Confirmation that "hypervitaminosis" is a clinically actionable target, since the term is broad
+
+**Note on other predictions:** Among the other nine predictions, restless legs syndrome (score 92.2%) is the only one with any retrieved literature. That literature is indirect, and none of it is an interventional naltrexone study. Opioid agonists are used for refractory restless legs syndrome, so an antagonist could plausibly worsen symptoms. It is not recommended for advancement on current evidence either.
+
+*These results are for research reference only and do not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

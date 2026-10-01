@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Chloroquine
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 238
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 ---
 
 # Chloroquine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,78 +29,68 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Chloroquine: From Malaria and Autoimmune Disease to Rheumatoid Factor-Positive Polyarticular Juvenile Idiopathic Arthritis
+# Chloroquine: From Malaria to Rheumatoid Factor-Positive Polyarticular Juvenile Idiopathic Arthritis
 
 ## One-Sentence Summary
 
-Chloroquine is a classic aminoquinoline antimalarial drug with established historical use as a disease-modifying antirheumatic drug (DMARD) for rheumatoid arthritis and systemic lupus erythematosus. The TxGNN model predicts it may be effective for **Rheumatoid Factor-Positive Polyarticular Juvenile Idiopathic Arthritis (RF+ pJIA)**, with **0 clinical trials** and **2 publications** currently supporting this specific direction. This multi-indication analysis also identifies **Osteoarthritis** as a notably higher-evidence candidate (L1, completed Phase 4 RCT, NCT00805519), warranting parallel consideration.
-
----
+Chloroquine is an oral antimalarial. The Singapore registration record does not list an approved indication, so this is based on general pharmacology.
+The TxGNN model predicts it may be effective for **rheumatoid factor-positive polyarticular juvenile idiopathic arthritis (RF+ pJIA)**.
+This prediction has **0 clinical trials** and **2 publications**, and neither publication studies chloroquine, so the support is essentially the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Malaria; rheumatoid arthritis; systemic lupus erythematosus (no Singapore registration available) |
+|------|------|
+| Original Indication | Not stated in the Singapore registration record (chloroquine is generally known as an antimalarial) |
 | Predicted New Indication | Rheumatoid factor-positive polyarticular juvenile idiopathic arthritis |
 | TxGNN Prediction Score | 99.41% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the evidence pack. Based on known pharmacological information, chloroquine is an aminoquinoline compound whose key mechanisms include lysosomal stabilization, inhibition of phospholipase A2, suppression of Toll-like receptor (TLR) 7/9 signaling, and downstream reduction of pro-inflammatory cytokines — including IL-1β and TNF-α. These actions also impair the presentation of autoantigens via endosomal antigen-presenting pathways.
+Currently, detailed mechanism of action data is not available in the input. Based on general pharmacology (not on the input data), chloroquine raises lysosomal pH, reduces antigen presentation and inhibits TLR7/9 signalling. These immunomodulatory effects plausibly fit autoimmune arthritis.
 
-Rheumatoid factor-positive polyarticular JIA (RF+ pJIA) is the juvenile arthritis subtype most closely resembling adult seropositive rheumatoid arthritis. It features circulating immune complexes, persistent synovial inflammation, and progressive joint destruction — pathological mechanisms that overlap substantially with adult RA, for which CQ and its analog hydroxychloroquine (HCQ) are well-established DMARDs. The mechanistic extension to RF+ pJIA is therefore scientifically plausible: CQ's TLR7/9 inhibition and immune complex-disrupting effects could theoretically suppress the core inflammatory cascade in this subtype.
+Chloroquine and its analogue hydroxychloroquine have been used as slow-acting anti-rheumatic drugs. RF+ pJIA is an autoimmune polyarthritis, so the mechanistic overlap is reasonable in principle.
 
-However, no clinical trials have directly tested chloroquine in RF+ pJIA specifically. The two available publications address adjacent conditions rather than providing direct evidence for this indication. The mechanistic connection remains an indirect inference, and the evidence base is insufficient to advance beyond hypothesis generation at this stage.
-
----
+This link is theoretical for this specific entry. None of the retrieved papers tests chloroquine in RF+ pJIA, and the only support is the high TxGNN score. Today's standard of care (methotrexate and biologics) would also have to be considered.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for this indication.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [8627446](https://pubmed.ncbi.nlm.nih.gov/8627446/) | 1996 | Case Series | The Journal of Pediatrics | Two RF+ polyarticular-onset JRA patients developed accelerated nodulosis on methotrexate; nodules arrested with addition of hydroxychloroquine in one patient — provides indirect evidence that antimalarial drugs have clinical activity in this disease subtype |
-| [24334641](https://pubmed.ncbi.nlm.nih.gov/24334641/) | 2014 | Prospective Cohort | The Journal of Rheumatology | Long-term real-world experience with leflunomide in JIA; contextualises DMARD use in the JIA population but does not directly evaluate chloroquine |
-
----
+|------|-----|------|------|---------|
+| [24334641](https://pubmed.ncbi.nlm.nih.gov/24334641/) | 2014 | Cohort | The Journal of Rheumatology | Long-term real-life experience with leflunomide in JIA. Does not involve chloroquine. |
+| [8627446](https://pubmed.ncbi.nlm.nih.gov/8627446/) | 1996 | Case series | The Journal of Pediatrics | Two RF-positive polyarticular JRA patients developed accelerated nodulosis on methotrexate. The nodules were arrested in one patient after adding hydroxychloroquine (an analogue, not chloroquine). |
 
 ## Singapore Market Information
 
-Chloroquine is currently **not registered in Singapore**. No product authorizations are on record.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN01559P | CHLOROQUINE TABLETS 250 mg (Beacons Pharmaceuticals Pte. Ltd.) | Tablet, film coated | Not specified in the registration record |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Evidence for chloroquine specifically in RF+ pJIA is limited to two peripherally related publications with no clinical trials; the mechanistic rationale, while plausible, remains unvalidated for this particular subtype.
+The prediction has no registered trials and no chloroquine-specific publications. The evidence level is L5, so it rests on the model score alone.
 
 **To proceed, the following is needed:**
-- Obtain and review the full chloroquine prescribing information to assess key warnings, contraindications, and monitoring requirements (particularly retinal toxicity and cardiac conduction effects relevant to pediatric long-term use)
-- Confirm mechanism of action via DrugBank to strengthen the mechanistic rationale section
-- Evaluate evidence from the closely related juvenile chronic polyarthritis indication (Rank 3 in this report), where a 1991 controlled clinical trial — PMID 1688268 — directly tested Delagil (chloroquine diphosphate) and provides stronger direct clinical evidence
-- Assess whether hydroxychloroquine, which has an established pediatric safety profile and documented use in JIA (PMID 3517643, US-USSR RCT), would be the more appropriate clinical candidate for this indication rather than chloroquine itself
-- Consider the broader multi-indication landscape: Osteoarthritis (Rank 5) has L1 evidence from a completed Phase 4 RCT (NCT00805519) and is the most immediately actionable candidate from this analysis
+- The HSA package insert (approved indication, warnings, contraindications), which is required before any safety screening.
+- Detailed mechanism of action data from DrugBank.
+- Chloroquine-specific studies in RF+ pJIA, and a comparison against current standard of care (methotrexate, biologics) and paediatric retinal toxicity risk.
+
+**Other candidates for this drug:** Two other predicted indications in the Evidence Pack have more supporting evidence and may deserve priority review. Osteoarthritis (L2) has a completed chloroquine add-on trial (NCT00805519) and a hydroxychloroquine meta-analysis, but its outcome data are not supplied and the hydroxychloroquine evidence is mixed. Juvenile chronic polyarthritis (L3) has a small, old comparative study of chloroquine versus sulphasalazine (PMID 1688268).
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

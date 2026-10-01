@@ -29,15 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-Using no additional skill — this is a direct content-generation task matching the provided report template; I'll follow it as instructed.
-
-# Pyridoxine: From Vitamin B6 Deficiency/Supplementation to Gonococcal Urethritis
+# Pyridoxine: From Original Indication (Not Recorded) to Gonococcal Urethritis
 
 ## One-Sentence Summary
 
-> Pyridoxine (Vitamin B6) is a water-soluble vitamin classically used to treat or prevent vitamin B6 deficiency and related conditions (e.g., sideroblastic anemia, isoniazid-induced neuropathy, pyridoxine-dependent seizures).
-> The TxGNN model predicts it may be effective for **Gonococcal Urethritis**,
-> but currently **0 clinical trials** and **0 publications** support this specific direction.
+Pyridoxine (vitamin B6) is marketed in Singapore in several oral and injectable products, but the Evidence Pack does not record its original indications.
+The TxGNN model predicts it may be effective for **gonococcal urethritis**, but this is a model prediction only, with **0 clinical trials** and **0 publications** supporting it.
 
 ---
 
@@ -45,23 +42,20 @@ Using no additional skill — this is a direct content-generation task matching 
 
 | Item | Content |
 |------|------|
-| Original Indication | Not specified in regulatory data (drug not registered in Singapore); commonly used for vitamin B6 deficiency and related metabolic conditions |
-| Predicted New Indication | Gonococcal Urethritis |
+| Predicted New Indication | Gonococcal urethritis |
 | TxGNN Prediction Score | 93.87% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed (Not marketed) |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 14 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action (MOA) data is not available for this evaluation. Based on known pharmacology, pyridoxine functions as a cofactor (via its active form pyridoxal 5'-phosphate) in amino acid, neurotransmitter, and one-carbon metabolism — none of which are known to involve antimicrobial or anti-inflammatory activity against *Neisseria gonorrhoeae*.
+Currently, detailed mechanism of action data is not available. Pyridoxine is a vitamin B6 form that the body converts to pyridoxal 5'-phosphate, a cofactor in amino acid and neurotransmitter metabolism. Its established roles are correcting B6 deficiency and treating B6-dependent conditions.
 
-There is no established pharmacological, preclinical, or clinical rationale linking vitamin B6 to gonococcal urethritis. The evidence review for this candidate explicitly notes that the high TxGNN score likely reflects an artifact of the knowledge graph: pyridoxine and gonococcal urethritis may share connections through general "urethritis/urinary system" nodes, producing a spuriously high similarity score rather than a genuine mechanistic or clinical relationship.
-
-Given the complete absence of supporting clinical trials or literature, this prediction should be treated as a hypothesis-generation signal only, not as a candidate ready for further clinical evaluation.
+Mechanistically, this prediction is hard to justify. Gonococcal urethritis is a bacterial infection caused by *Neisseria gonorrhoeae*, and pyridoxine has no known antimicrobial action against it. The model gave "Ureaplasma urethritis" exactly the same score (93.87%), which suggests the signal comes from shared neighbours in the knowledge graph rather than from pharmacology. No trials or publications were found to support a link.
 
 ---
 
@@ -79,13 +73,25 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-This drug currently has no registered product license in Singapore (0 registrations, market status: not marketed). No authorization records are available for review.
+Five of the 14 registrations are shown. Approved indication text is not available for any of them.
+
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN15301P | DICLECTIN DELAYED RELEASE TABLETS 10MG/10MG | Tablet, delayed release |
+| SIN16865P | BONJESTA EXTENDED-RELEASE TABLETS 20 MG/20 MG | Tablet, film coated, extended release |
+| SIN06258P | NEUROBION TABLET | Tablet, sugar coated |
+| SIN12077P | DANEURON TABLET | Tablet, film coated |
+| SIN15098P | NEUROBION TABLET (OTC) | Tablet, sugar coated |
+
+Registered dosage forms across all licences include oral tablets and injectables (injection; powder for solution).
 
 ---
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
+
+The pack also notes that excess pyridoxine can cause sensory neuropathy (PMIDs 25137514 and 1463588, from another candidate indication's literature). Any dose-related risk for this drug should be checked against the package insert.
 
 ---
 
@@ -94,13 +100,15 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-There is no clinical trial or literature evidence supporting pyridoxine's use in gonococcal urethritis, and the underlying mechanistic rationale is assessed as biologically implausible — likely a knowledge-graph artifact from shared "urethritis/urinary" node connections rather than a true pharmacological signal.
+The prediction is supported only by a model score. There is no antimicrobial rationale, no trial and no literature, so the signal is likely a graph artifact. Pyridoxine would also not replace antibiotic treatment of a bacterial urethral infection.
 
 **To proceed, the following is needed:**
-- TFDA/HSA package insert data (warnings, contraindications) — currently a blocking data gap (DG001)
-- Confirmed mechanism of action (MOA) data from DrugBank or primary literature (DG002)
-- Preclinical evidence (e.g., in vitro antimicrobial or anti-inflammatory activity against *N. gonorrhoeae*) before any further evaluation is warranted
-- Note: among the other TxGNN predictions reviewed for this drug, "vitamin deficiency disorder" (rank 10, score 85.5%) has substantially more supporting literature and trial evidence and a mechanistically coherent rationale, but represents an already-known use rather than a novel repurposing candidate — it is not proposed as a substitute conclusion here, only flagged for context.
+- HSA package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- Any in vitro or clinical evidence of anti-gonococcal activity, which does not currently exist in the pack
+- Original approved indications, to assess the relationship to the predicted one
+
+**Other candidates in the pack:** Among the ten predicted indications, "vitamin deficiency disorder" (rank 10, score 85.50%) has the most supporting evidence. It is rated L2 in the pack with a "Proceed with Guardrails" recommendation. However, its supporting trials are mostly multivitamin or multi-nutrient studies, with limited B6-specific evidence. It is also likely a rediscovery of existing nutritional use rather than true repurposing. It would warrant a dedicated report with dose caps and neuropathy monitoring.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

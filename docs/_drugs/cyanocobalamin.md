@@ -3,14 +3,14 @@ layout: default
 title: Cyanocobalamin
 parent: Medium Evidence (L3-L4)
 nav_order: 280
-evidence_level: L3
+evidence_level: L4
 indication_count: 10
 ---
 
 # Cyanocobalamin
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,100 +29,96 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Cyanocobalamin: From Vitamin B12 Deficiency to Biotin Metabolic Disease
+# Cyanocobalamin: From Approved Vitamin B12 Products to Biotin Metabolic Disease
 
 ## One-Sentence Summary
 
-Cyanocobalamin is the synthetic form of Vitamin B12, classically used to treat vitamin B12 deficiency and megaloblastic anemia arising from dietary deficiency or malabsorption syndromes.
-The TxGNN model predicts it may be effective for **Biotin Metabolic Disease**, with **15 clinical trials** and **20 publications** currently identified in support of this direction.
-However, the majority of retrieved evidence is indirect — no trials directly test Cyanocobalamin as a therapeutic agent for biotin metabolic disease — placing the current evidence at **L3**.
-
----
+Cyanocobalamin is a synthetic form of vitamin B12, marketed in Singapore as an injection and in oral B-vitamin tablets.
+The TxGNN model predicts it may be effective for **biotin metabolic disease**. The search returned **14 clinical trials** and **20 publications**, but none directly tests cyanocobalamin for this condition, so the prediction is **unsupported by direct evidence**.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Vitamin B12 deficiency; megaloblastic anemia (not registered in Singapore — no approved indication on record) |
-| Predicted New Indication | Biotin Metabolic Disease |
+|------|------|
+| Predicted New Indication | Biotin metabolic disease |
 | TxGNN Prediction Score | 99.60% |
-| Evidence Level | L3 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 14 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the formal drug record. Based on known biochemical information, Cyanocobalamin is a synthetic form of Vitamin B12 that is converted in the body to two active cofactors: adenosylcobalamin and methylcobalamin. Adenosylcobalamin drives the conversion of methylmalonyl-CoA to succinyl-CoA via the enzyme methylmalonyl-CoA mutase (MUT); methylcobalamin participates in remethylation of homocysteine to methionine. These reactions are central to propionate catabolism and one-carbon metabolism.
+Currently, detailed mechanism of action data is not available. Based on known information, cyanocobalamin is a B12 cofactor vitamin. The literature describes B12 as a cofactor in the conversion of methylmalonyl-CoA to succinyl-CoA, and in the conversion of homocysteine to methionine. The approved indication text for the Singapore products is not recorded in the data.
 
-The mechanistic link to biotin metabolic disease rests on a shared metabolic node. Biotin is the obligatory cofactor for propionyl-CoA carboxylase (PCC), which converts propionyl-CoA to methylmalonyl-CoA — the direct substrate for the B12-dependent MUT enzyme. When biotin metabolism is disrupted (e.g., in biotinidase deficiency or holocarboxylase synthetase deficiency), PCC dysfunction causes propionyl-CoA accumulation and secondary impairment of the methylmalonyl-CoA pathway, which can reduce the efficiency of B12-dependent enzymatic steps downstream. A 2013 clinical review (PMID 23622402) explicitly groups cobalamin, folate, and biotin together as core cofactor interventions in vitamin-responsive inherited metabolic disorders, supporting the biological rationale for this prediction.
+The high score most likely reflects a shared "vitamin/cofactor neighbourhood" in the knowledge graph. Cyanocobalamin and biotin are both B-vitamin cofactors, and reviews group them under "vitamin-responsive disorders". That is a category link, not proof of treatment benefit.
 
-It is important to clarify, however, that Cyanocobalamin is not the primary treatment for biotin metabolic disease — biotin supplementation remains the first-line standard of care. B12 plays an adjunctive or secondary role in patients with combined or overlapping pathway dysfunction (e.g., methylmalonic acidemia with secondary propionate accumulation). The TxGNN prediction most likely captures metabolic network proximity rather than a direct, standalone therapeutic indication. Notably, one of the lower-ranked predictions — **proteinuria** (Rank 8) — carries a substantially stronger mechanistic link via Imerslund-Gräsbeck syndrome (CUBN mutations causing selective B12 malabsorption with proteinuria), and that indication has received a "Proceed with Guardrails" recommendation in this analysis.
-
----
+Biotin-related defects, such as biotinidase or holocarboxylase synthetase deficiency, are treated with biotin itself. No evidence in this pack shows that cobalamin treats a biotin metabolic defect. A related prediction, proteinuria, has a more concrete biological link through the cubilin (CUBN) receptor. Even there, the pack shows association rather than treatment benefit.
 
 ## Clinical Trial Evidence
 
+None of these trials tests cyanocobalamin against biotin metabolic disease. They are listed as the closest available context.
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01643187](https://clinicaltrials.gov/study/NCT01643187) | Phase 2 | Unknown | 1,000 | Comparison of micronutrient-fortified food vs. milk (measuring serum B12 among other markers) in malnourished Guatemalan children; Phase 2 design with B12 as a key measured intervention component |
-| [NCT02426775](https://clinicaltrials.gov/study/NCT02426775) | Phase 3 | Completed | 33 | Phase 3 RCT of carglumic acid in propionic acidemia (PA) and methylmalonic acidemia (MMA) — both organic acidemias share the same propionate-biotin-B12 metabolic axis affected in biotin metabolic disease |
-| [NCT05832190](https://clinicaltrials.gov/study/NCT05832190) | N/A | Terminated | 5 | Biotin + dietary fibre supplementation to correct gut microbiota before bariatric surgery; terminated early (only 5 enrolled), biotin was the primary micronutrient of interest |
-| [NCT04312152](https://clinicaltrials.gov/study/NCT04312152) | N/A | Unknown | 200 | Cross-over RCT of Q10 ubiquinol + Vitamins B & E as metabolic support in autism and Phelan-McDermid syndrome; B vitamins used as part of a broader metabolic support package, not biotin-specific |
-| [NCT03655223](https://clinicaltrials.gov/study/NCT03655223) | N/A | Enrolling by Invitation | 30,000 | Pre-symptomatic newborn screening framework for rare conditions including biotin metabolic disorders; infrastructure and identification study, not a therapeutic trial |
-| [NCT05687474](https://clinicaltrials.gov/study/NCT05687474) | N/A | Completed | 6,824 | Universal genomic newborn screening (Baby Detect) covering 126 treatable genetic diseases including biotin metabolic disease; diagnostic platform study, no direct B12 intervention |
-| [NCT00572741](https://clinicaltrials.gov/study/NCT00572741) | N/A | Completed | 39 | B12-containing nutritional intervention targeting impaired methylation and antioxidant capacity in children with autism; indirect relevance via shared methylation pathway |
-
----
+| [NCT01474486](https://clinicaltrials.gov/study/NCT01474486) | N/A | Completed | 40 | Multi-micronutrient palliative therapy in congestive heart failure. B12 is one component of many. |
+| [NCT00572741](https://clinicaltrials.gov/study/NCT00572741) | N/A | Completed | 39 | Nutritional intervention targeting methylation and oxidative stress in autism. B12 is relevant to the methylation pathway, but the condition is not a biotin disorder. |
+| [NCT01643187](https://clinicaltrials.gov/study/NCT01643187) | Phase 2 | Unknown | 1000 | Fortified food vs milk on micronutrient status (including serum B12) in malnourished children. |
+| [NCT04312152](https://clinicaltrials.gov/study/NCT04312152) | N/A | Unknown | 200 | Q10 ubiquinol plus B and E vitamins vs B and E vitamins alone in autism and Phelan-McDermid syndrome. |
+| [NCT03444155](https://clinicaltrials.gov/study/NCT03444155) | N/A | Completed | 30 | Natural vs synthetic vitamin B complexes, comparing bioavailability. |
+| [NCT01173315](https://clinicaltrials.gov/study/NCT01173315) | Phase 2 | Completed | 75 | Vitamin and mineral supplementation for neuropathy and nephropathy in type 2 diabetes. |
+| [NCT02426775](https://clinicaltrials.gov/study/NCT02426775) | Phase 3 | Completed | 33 | Carglumic acid in propionic or methylmalonic acidemia. This trial does not test cyanocobalamin, so it does not count as direct evidence. |
+| [NCT05832190](https://clinicaltrials.gov/study/NCT05832190) | N/A | Terminated | 5 | Fibre plus biotin supplementation before bariatric surgery. Terminated at n=5 and uninformative for cyanocobalamin. |
+| [NCT03360435](https://clinicaltrials.gov/study/NCT03360435) | N/A | Completed | 99 | Transdermal vitamin absorption after bariatric surgery. |
+| [NCT05687474](https://clinicaltrials.gov/study/NCT05687474) | N/A | Completed | 6824 | Genomic newborn screening programme with no drug intervention. |
 
 ## Literature Evidence
 
+Most entries are older narrative reviews. None is a randomised trial of cyanocobalamin for biotin metabolic disease.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [23622402](https://pubmed.ncbi.nlm.nih.gov/23622402/) | 2013 | Clinical Review | Handbook of Clinical Neurology | Directly groups cobalamin, folate, and biotin as core cofactors in vitamin-responsive metabolic disorders; delineates inborn errors of cobalamin and biotin absorption, transport, and intracellular metabolism in children |
-| [38203763](https://pubmed.ncbi.nlm.nih.gov/38203763/) | 2024 | Review | Int J Molecular Sciences | Describes B12 as cofactor for synthesis of succinyl-CoA from methylmalonyl-CoA and biotin; reviews molecular mechanisms of B12 deficiency beyond classical hematological effects, with relevance to metabolic disease |
-| [1909779](https://pubmed.ncbi.nlm.nih.gov/1909779/) | 1991 | Clinical Metabolic Study | Pediatric Research | In vivo propionate metabolism study in PA, MMA (4 of 8 patients B12-responsive), and multiple carboxylase deficiency; directly demonstrates B12 responsiveness in overlapping biotin-B12 metabolic disorders |
-| [6152513](https://pubmed.ncbi.nlm.nih.gov/6152513/) | 1983 | Clinical Review | Advances in Clinical Chemistry | Comprehensive review of vitamin-responsive inborn errors of metabolism; includes cofactor therapy with B12 and biotin in inherited amino acid and organic acid metabolic disorders |
-| [958746](https://pubmed.ncbi.nlm.nih.gov/958746/) | 1976 | Case Series | Pediatric Clinics of North America | Megavitamin-responsive aminoacidopathies; documents B-complex vitamin (including B12) efficacy in various inborn errors of metabolism, including enzyme activation by cofactor supplementation |
-| [7027768](https://pubmed.ncbi.nlm.nih.gov/7027768/) | 1981 | Review | Acta Vitaminologica et Enzymologica | Reviews vitamins (including B12 and biotin) in metabolic diseases via three mechanisms: malabsorption, errors in vitamin metabolism, and vitamin-dependent apoenzyme syndromes |
-| [7015958](https://pubmed.ncbi.nlm.nih.gov/7015958/) | 1980 | Review | Annals of the New York Academy of Sciences | Interactions among B-complex vitamins essential for metabolic and catabolic reactions; explains clinical aberrations in metabolic disease states through vitamin interrelationships |
-| [36476407](https://pubmed.ncbi.nlm.nih.gov/36476407/) | 2023 | Experimental | The Journal of Endocrinology | B12-deficient rats show glucose intolerance, delayed peak insulin, and promoted ketogenesis; supports a broader metabolic role of B12 beyond classical hematological and neurological functions |
-| [11031989](https://pubmed.ncbi.nlm.nih.gov/11031989/) | 2000 | Review | Ryoikibetsu Shokogun Shirizu | Reviews vitamin dependency syndromes, including B12-dependent conditions; relevant to inherited enzyme deficiency states that overlap with biotin metabolism |
-| [7004517](https://pubmed.ncbi.nlm.nih.gov/7004517/) | 1980 | Review | Birth Defects Original Article Series | Documents enzyme manipulation by megavitamin therapy; supports pharmacological-dose B12 use in inborn errors of metabolism as a cofactor-rescue strategy |
-
----
+| [23622402](https://pubmed.ncbi.nlm.nih.gov/23622402/) | 2013 | Review | Handbook of Clinical Neurology | Vitamin-responsive disorders (cobalamin, folate, biotin, B1, E). Describes rare inborn errors of cobalamin and folate handling. |
+| [38203763](https://pubmed.ncbi.nlm.nih.gov/38203763/) | 2024 | Not classified | International Journal of Molecular Sciences | B12 deficiency and the nervous system. Notes B12 as a cofactor in the methylmalonyl-CoA to succinyl-CoA step. |
+| [1909779](https://pubmed.ncbi.nlm.nih.gov/1909779/) | 1991 | Cohort | Pediatric Research | Propionate metabolism in propionic acidemia, methylmalonic acidemia (four B12-responsive), and multiple carboxylase deficiency. |
+| [6152513](https://pubmed.ncbi.nlm.nih.gov/6152513/) | 1983 | Review | Advances in Clinical Chemistry | Vitamin-responsive inborn errors of metabolism. |
+| [7027768](https://pubmed.ncbi.nlm.nih.gov/7027768/) | 1981 | Review | Acta Vitaminologica et Enzymologica | Vitamins in metabolic disease through malabsorption, errors of vitamin metabolism, and vitamin-dependent syndromes. |
+| [958746](https://pubmed.ncbi.nlm.nih.gov/958746/) | 1976 | Review | Pediatric Clinics of North America | Megavitamin-responsive aminoacidopathies. Notes that individual response to a cofactor is hard to predict, so therapeutic trials are warranted. |
+| [11031989](https://pubmed.ncbi.nlm.nih.gov/11031989/) | 2000 | Review | Ryoikibetsu Shokogun Shirizu | Vitamin dependency syndrome. |
+| [36476407](https://pubmed.ncbi.nlm.nih.gov/36476407/) | 2023 | Preclinical | Journal of Endocrinology | B12 deficiency causes glucose intolerance and promotes ketogenesis in female rats. |
+| [25388747](https://pubmed.ncbi.nlm.nih.gov/25388747/) | 2015 | Not classified | Endocrine, Metabolic & Immune Disorders Drug Targets | Vitamins and type 2 diabetes. Notes that biotin and other B vitamins have been found low in diabetic subjects. |
+| [29173522](https://pubmed.ncbi.nlm.nih.gov/29173522/) | 2017 | Not classified | Gastroenterology Clinics of North America | Vitamins and minerals in inflammatory bowel disease. |
 
 ## Singapore Market Information
 
-Cyanocobalamin is currently **not registered** with the Health Sciences Authority (HSA) in Singapore. No product licenses are on record in the database as of the data cutoff (2026-04-04).
+Approved indication text is not recorded for these licences.
 
----
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN07876P | VITAMIN B12 INJECTION 1000 mcg/ml | Injection |
+| SIN06258P | NEUROBION TABLET | Tablet, sugar coated |
+| SIN12077P | DANEURON TABLET | Tablet, film coated |
+| SIN15098P | NEUROBION TABLET (OTC) | Tablet, sugar coated |
+| SIN10891P | NEURO-B TABLET | Tablet, film coated |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model assigns Cyanocobalamin a high predictive score for biotin metabolic disease (99.60%), grounded in a biologically plausible mechanistic overlap through the shared propionate-CoA metabolic pathway. However, no clinical trial directly evaluates Cyanocobalamin as a therapeutic agent for biotin metabolic disease, all retrieved trials are of low direct relevance (Grade C or indirect), and biotin supplementation — not B12 — remains the established standard of care for biotinidase and holocarboxylase synthetase deficiency.
+The 99.60% score most likely reflects shared vitamin-responsive disease classification rather than a treatment effect. No trial or publication shows cyanocobalamin benefiting biotin metabolic disease, and biotin defects are treated with biotin itself.
 
 **To proceed, the following is needed:**
+- HSA package insert warnings and contraindications
+- Mechanism of action data, for example from DrugBank
+- Direct clinical evidence, such as case series or trials of cyanocobalamin in confirmed biotin-pathway disorders
+- Expert review of whether the vitamin-class link has any plausible therapeutic basis
 
-- **Indication sub-type clarification**: Identify the specific biotin metabolic disease subtype (e.g., biotinidase deficiency vs. holocarboxylase synthetase deficiency vs. acquired biotin depletion) where adjunctive B12 therapy might offer measurable benefit
-- **Prospective pilot data**: Design a case series or proof-of-concept study evaluating B12 supplementation outcomes in patients with confirmed biotin metabolic disease who also show signs of secondary propionyl-CoA pathway disruption
-- **Formal MOA documentation**: Retrieve complete DrugBank mechanism of action data and pharmacokinetic profiling for Cyanocobalamin to enable a rigorous mechanistic analysis
-- **Safety and labelling data**: Obtain formal package insert information (warnings, contraindications, drug interactions), which was unavailable in the current evidence pack
-- **Singapore regulatory pathway**: Conduct an HSA regulatory feasibility assessment, as Cyanocobalamin is currently not marketed in Singapore; evaluate whether orphan drug designation or a compassionate use pathway would apply given the rare disease context
-- **Consider prioritising the Proteinuria / Imerslund-Gräsbeck syndrome indication (Rank 8)**: This indication carries a far stronger direct mechanistic link (cubilin-mediated B12 absorption pathway), a 2023 systematic review (PMID 37710296), and has received a "Proceed with Guardrails" recommendation — it represents the more actionable drug repurposing opportunity for Cyanocobalamin in this analysis
-
-> **Disclaimer**: This report is for research reference only and does not constitute medical advice. Drug repurposing candidates require clinical validation before therapeutic application.
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

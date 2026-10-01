@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Hydroxyurea
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 507
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
 ---
 
 # Hydroxyurea
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,85 +29,90 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Hydroxyurea: From Sickle Cell Disease & Leukemia to Female Breast Carcinoma
+# Hydroxyurea: From an Antineoplastic Antimetabolite to Female Breast Carcinoma
 
 ## One-Sentence Summary
 
-Hydroxyurea is a well-established antineoplastic and disease-modifying agent used internationally for sickle cell disease, chronic myeloid leukemia, and other myeloproliferative disorders, though it currently holds no product registration in Singapore.
-The TxGNN model predicts it may be effective for **Female Breast Carcinoma** with a confidence score of **99.97%**, with **0 registered clinical trials** and **20 publications** currently available — the latter consisting primarily of Phase I combination studies from the 1990s and recent preclinical research rather than breast-cancer-specific efficacy trials.
+Hydroxyurea is an oral antineoplastic drug that inhibits ribonucleotide reductase, but its approved indication is not recorded in the Singapore registration data.
+The TxGNN model predicts it may be effective for **female breast carcinoma**, with **0 registered clinical trials** and **about 10 relevant publications**, mostly preclinical work and 1990s Phase I/II combination studies.
+This is a hypothesis that needs testing, not a validated direction.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Sickle cell disease, chronic myeloid leukemia, and myeloproliferative disorders (not registered in Singapore) |
-| Predicted New Indication | Female Breast Carcinoma |
+|------|------|
+| Original Indication | Not recorded in the available data |
+| Predicted New Indication | Female breast carcinoma |
 | TxGNN Prediction Score | 99.97% |
-| Evidence Level | L3 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 (preclinical and mechanistic studies, plus early-phase combination studies with no breast-specific efficacy confirmed) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on established pharmacology, Hydroxyurea (HU) is a ribonucleotide reductase (RNR) inhibitor — it blocks the conversion of ribonucleotides to deoxyribonucleotides, the rate-limiting step in DNA synthesis, causing cells to arrest in the S-phase of the cell cycle. This mechanism is broadly cytotoxic to rapidly dividing cells, making it theoretically applicable to many tumour types including breast cancer.
+Currently, detailed mechanism of action data is not available in the record. Based on known information, hydroxyurea is a ribonucleotide reductase inhibitor. It depletes the dNTP pools that cells need for DNA synthesis, which causes S-phase arrest and replication stress.
 
-The biological rationale for HU in breast cancer rests on two intersecting mechanisms: (1) direct RNR inhibition to arrest breast tumour cell proliferation, particularly relevant in hormone-independent, rapidly cycling subtypes; and (2) sensitisation of cancer cells to DNA-damaging agents by impairing the DNA repair response. Early Phase I clinical studies from the late 1980s and early 1990s included breast cancer patients in combination regimens with 5-fluorouracil, leucovorin, and cisplatin, and one Phase I/II trial specifically enrolled 26 metastatic breast cancer patients for high-dose HU with haematopoietic stem cell rescue. More recent preclinical work has explored HU sensitisation via the RPA2 hyperphosphorylation–DNA repair axis (in combination with valproic acid) and novel lipid conjugate or nanoparticle delivery systems targeting the PI3K/AKT/mTOR pathway.
+Breast cancer cells often depend on replication-stress tolerance and DNA-damage-response signalling, such as ATR and RPA2 phosphorylation. Preclinical studies show that blocking these pathways makes breast cancer cells more sensitive to hydroxyurea, or to drugs of the same class. This gives the model's prediction a plausible biological basis.
 
-However, the critical evidence gap is the complete absence of any Phase 2 or Phase 3 trial evaluating HU specifically in breast cancer as either a single agent or a defined combination. All existing clinical data comes from small Phase I studies treating heterogeneous solid tumour populations where breast cancer patients were a minority. The TxGNN prediction is mechanistically plausible, but the current evidence base supports a hypothesis-generating signal rather than an actionable clinical development path.
+The link has not been validated in patients. No registered trial tests hydroxyurea in breast cancer. The 1990s combination studies did not lead to hydroxyurea being adopted for this disease. A high graph score by itself does not indicate efficacy.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Hydroxyurea in female breast carcinoma.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [7914447](https://pubmed.ncbi.nlm.nih.gov/7914447/) | 1994 | Phase I/II (high-dose + stem cell rescue) | Bone Marrow Transplantation | 26 metastatic breast cancer women responding to prior chemotherapy received HU 18 g/m² combined with cyclophosphamide (6 g/m²) + thiotepa (600 mg/m²) with stem cell rescue; reported as effective consolidation chemotherapy |
-| [1957839](https://pubmed.ncbi.nlm.nih.gov/1957839/) | 1991 | Phase I RCT (combination) | Am J Clin Oncol | 20 patients with advanced colorectal, pancreatic, gastric, and breast cancer enrolled in HALF regimen (5-FU + leucovorin → HU + allopurinol); dose escalation and tolerability assessed |
-| [2245491](https://pubmed.ncbi.nlm.nih.gov/2245491/) | 1990 | Pilot / In vitro–guided clinical | Cancer Chemother Pharmacol | Cisplatin preceded by concurrent cytarabine + HU in 40 patients (mixed solid tumours); design based on in vitro synergy model showing HU inhibits cisplatin-damaged DNA repair in colon cancer cells |
-| [1733549](https://pubmed.ncbi.nlm.nih.gov/1733549/) | 1992 | Phase I/II (combination + RT) | Cancer Chemother Pharmacol | Escalating cisplatin added to 5-FU + HU + concomitant radiotherapy in advanced solid tumours; established HU as radiation sensitiser in multi-drug palliative setting |
-| [28837865](https://pubmed.ncbi.nlm.nih.gov/28837865/) | 2017 | Preclinical (cell line) | DNA Repair | Valproic acid (0.5 mM) sensitises multiple breast cancer cell lines to HU (2 mM) by blocking RPA2 hyperphosphorylation-mediated DNA double-strand break repair; mechanistic sensitisation study |
-| [32795962](https://pubmed.ncbi.nlm.nih.gov/32795962/) | 2020 | Preclinical | DNA Repair | 2-hexyl-4-pentynoic acid investigated as alternative sensitiser to HU in breast carcinoma cells via the RPA2 hyperphosphorylation-DNA repair axis; addresses valproic acid dose limitations |
-| [38211596](https://pubmed.ncbi.nlm.nih.gov/38211596/) | 2024 | In-silico / Computational | Drug Research | Novel HU lipid drug conjugates designed in silico to increase lipophilicity and cellular uptake; targets PI3K/AKT/mTOR pathway in breast cancer; no in vivo data available |
-| [34661718](https://pubmed.ncbi.nlm.nih.gov/34661718/) | 2022 | Preclinical (nanoparticle) | Naunyn-Schmiedeberg's Arch Pharmacol | HU loaded into Fe₃O₄/SiO₂/chitosan-g-mPEG2000 magnetic nanoparticles; pH-dependent release demonstrated; cell cycle arrest and altered p53/lincRNA-p21 expression in cancer cell lines |
-| [21730979](https://pubmed.ncbi.nlm.nih.gov/21730979/) | 2011 | Preclinical (cell line) | Br J Cancer | ATR inhibitor NU6027 potentiates cisplatin in breast and ovarian cancer cell lines; HU used as replication stress inducer to characterise ATR-dependent checkpoint signalling |
-| [30159181](https://pubmed.ncbi.nlm.nih.gov/30159181/) | 2018 | Case Report | Case Rep Hematol | 65-year-old woman with JAK2+ essential thrombocythemia concurrent with hormone-positive, HER2-negative invasive ductal carcinoma; HU used for thrombocythemia management during breast cancer treatment; reports clinical management challenges of dual diagnoses |
+|------|-----|------|------|---------|
+| [7914447](https://pubmed.ncbi.nlm.nih.gov/7914447/) | 1994 | Phase I/II trial | Bone Marrow Transplant | Hydroxyurea (18 g/m²) added to high-dose cyclophosphamide and thiotepa with stem cell rescue in 26 women with responding metastatic breast cancer; the authors describe it as an effective consolidation regimen |
+| [1957839](https://pubmed.ncbi.nlm.nih.gov/1957839/) | 1991 | Phase I trial | Am J Clin Oncol | Sequential 5-FU/leucovorin then hydroxyurea with allopurinol in 20 patients with advanced GI and breast cancers; a mixed population, so breast-specific results are unclear |
+| [1733549](https://pubmed.ncbi.nlm.nih.gov/1733549/) | 1992 | Phase I/II trial | Cancer Chemother Pharmacol | Dose-escalation of cisplatin added to 5-FU, hydroxyurea and radiotherapy in advanced solid tumours; not breast-specific |
+| [2245491](https://pubmed.ncbi.nlm.nih.gov/2245491/) | 1990 | Pilot / Phase I | Cancer Chemother Pharmacol | Cisplatin preceded by cytarabine and hydroxyurea, based on an in vitro colon carcinoma model; a toxicity study, not breast-specific |
+| [38211596](https://pubmed.ncbi.nlm.nih.gov/38211596/) | 2024 | In-silico / preclinical | Drug Research | Designs hydroxyurea–lipid conjugates to overcome its hydrophilicity and improve cell uptake, targeting the PI3K/AKT/mTOR pathway |
+| [28837865](https://pubmed.ncbi.nlm.nih.gov/28837865/) | 2017 | Preclinical | DNA Repair | Valproic acid sensitizes breast cancer cells to hydroxyurea by inhibiting RPA2 hyperphosphorylation-mediated DNA repair |
+| [32795962](https://pubmed.ncbi.nlm.nih.gov/32795962/) | 2020 | Preclinical | DNA Repair | 2-hexyl-4-pentynoic acid, a valproic acid analogue, is explored as a hydroxyurea sensitizer in breast carcinoma cells through the same DNA-repair mechanism |
+| [37777742](https://pubmed.ncbi.nlm.nih.gov/37777742/) | 2023 | Preclinical (mechanistic) | Mol Cancer | EYA4 helps breast cancer cells avoid replication stress, linking tumour progression to dependence on replication-stress tolerance |
+| [21730979](https://pubmed.ncbi.nlm.nih.gov/21730979/) | 2011 | Preclinical | Br J Cancer | NU6027, an ATR inhibitor, is evaluated in breast and ovarian cancer cell lines, supporting the importance of ATR signalling in DNA damage |
+| [34661718](https://pubmed.ncbi.nlm.nih.gov/34661718/) | 2022 | Preclinical (drug delivery) | Naunyn Schmiedebergs Arch Pharmacol | Hydroxyurea-loaded magnetic chitosan nanoparticles with pH-dependent release; studies cell-cycle arrest and p53 and lincRNA-p21 expression |
 
 ---
 
 ## Singapore Market Information
 
-Hydroxyurea is currently **not registered** in Singapore. There are no active product authorizations on record (total registrations: 0). Clinicians wishing to use this agent would need to apply through the Health Sciences Authority (HSA) special access pathway for unregistered medicines.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN11083P | HYDRINE CAPSULES 500 mg (Korea United Pharm. Inc.) | Capsule (oral) | Not listed in the registration data |
 
 ---
 
 ## Cytotoxicity
 
-Hydroxyurea qualifies as an antineoplastic agent (ribonucleotide reductase inhibitor; conventional cytotoxic class). Its original clinical use includes treatment of leukaemia and myeloproliferative disorders.
+This section is based on the drug's general pharmacology. The Evidence Pack contains no toxicity data.
 
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Conventional cytotoxic — Ribonucleotide reductase inhibitor (distinct from alkylating agents, antimetabolites, or taxanes) |
-| Myelosuppression Risk | High — bone marrow suppression is the primary dose-limiting toxicity; neutropenia, thrombocytopenia, and macrocytic anaemia are common and dose-dependent |
-| Emetogenicity Classification | Low to moderate |
-| Monitoring Items | Complete blood count (CBC with differential) at baseline and regularly during therapy; renal function (serum creatinine, eGFR) — HU is primarily renally excreted and dose adjustment required in renal impairment; platelet nadir monitoring in high-dose regimens |
-| Handling Protection | Must follow cytotoxic drug handling regulations; capsule formulations should not be opened or crushed without appropriate PPE; pregnant healthcare workers should avoid direct contact |
+|------|------|
+| Cytotoxicity Classification | Conventional cytotoxic (antimetabolite, ribonucleotide reductase inhibitor) |
+| Myelosuppression Risk | High (dose-limiting; neutropenia, thrombocytopenia and anaemia are expected) |
+| Emetogenicity Classification | Low |
+| Monitoring Items | CBC with differential, renal and liver function |
+| Handling Protection | Follow cytotoxic drug handling regulations (gloves; avoid contact with capsule contents) |
+
+Please refer to the package insert warnings and precautions for full details.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Singapore package insert data (TFDA warnings and contraindications) has been identified as a **blocking data gap** in this evidence pack and must be retrieved before any clinical decision-making. No drug-drug interaction data was found in this search.
+Please refer to the package insert for safety information.
 
 ---
 
@@ -116,14 +121,17 @@ Please refer to the package insert for safety information. Singapore package ins
 **Decision: Hold**
 
 **Rationale:**
-All existing clinical evidence for Hydroxyurea in female breast carcinoma consists of Phase I combination regimens from over 30 years ago where breast cancer patients were a minority subgroup, supplemented by recent preclinical and computational studies. There are no Phase 2 or Phase 3 trials, no registered active trials, and no regulatory precedent for this indication. The mechanistic rationale is plausible but not sufficiently differentiated from established standard-of-care agents to justify clinical development without foundational studies.
+There is no registered breast cancer trial, and the supporting literature is mainly preclinical work plus old, mixed-population combination studies. The Singapore package insert has not been reviewed, so the safety screen cannot proceed.
 
 **To proceed, the following is needed:**
-- **Safety baseline**: Retrieve TFDA/international package insert for key warnings and contraindications (currently a blocking data gap)
-- **MOA documentation**: Obtain full mechanism of action profile from DrugBank to strengthen mechanistic argument for breast cancer subtypes
-- **Biomarker hypothesis**: Identify which breast cancer subtype (HR+, HER2+, or TNBC) is most likely to respond based on RNR expression or DNA repair pathway dependence
-- **Preclinical proof-of-concept**: Conduct in vitro and in vivo studies with HU as monotherapy or in a defined targeted combination (e.g., HU + PARP inhibitor or HU + anti-HER2) in breast cancer models
-- **Evidence upgrade**: If preclinical data is promising, design a Phase 1b/2 biomarker-stratified basket trial; the high-dose stem cell rescue data from 1994 (PMID 7914447) may provide historical dosing reference but is not suitable as modern comparator evidence
+- The HSA package insert, covering warnings, contraindications and the approved indication
+- Mechanism of action data from DrugBank
+- Breast-cancer-specific clinical data, or a prospective study showing benefit over current standard therapy
+- A myelosuppression monitoring plan, given the drug's cytotoxic profile
+
+**Note:** Hydroxyurea in hemoglobin SC disease (rank 4 in this pack) has much stronger evidence, including several Phase 2 trials and a 2025 NEJM Evidence publication. It is worth evaluating separately.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

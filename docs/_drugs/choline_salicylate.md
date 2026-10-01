@@ -29,80 +29,75 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Choline Salicylate: From Inflammatory Pain to Prinzmetal Angina
+# Choline Salicylate: From Topical Oral Pain Relief to Prinzmetal Angina
 
 ## One-Sentence Summary
 
-Choline salicylate is a non-acetylated salicylate with anti-inflammatory and analgesic properties, historically used for musculoskeletal pain and inflammatory conditions.
-The TxGNN model predicts it may be effective for **Prinzmetal Angina**, achieving a prediction score of 99.84%; however, this indication currently has **no supporting clinical trials or published literature**, placing it at the lowest evidence tier (L5).
-Notably, the second-ranked prediction — **rheumatoid arthritis** — carries L3-level observational evidence from documented clinical use in the 1970s–1980s and warrants separate consideration as a more actionable repurposing candidate.
-
----
+Choline salicylate is a salicylate anti-inflammatory and analgesic, marketed in Singapore only as topical oral gels (the registration records do not state the approved indications).
+The TxGNN model predicts it may be effective for **Prinzmetal angina**, but **no clinical trials and no publications** support this direction.
+This is a model-only prediction with a safety concern, so it is not ready for further development.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Anti-inflammatory and analgesic use (non-acetylated salicylate class; no Singapore registration on record) |
-| Predicted New Indication | Prinzmetal Angina |
-| TxGNN Prediction Score | 99.84% |
-| Evidence Level | L5 — Model prediction only; no clinical studies found |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Original Indication | Not stated in the Singapore registration records (the products are labelled as oral gels for pain relief) |
+| Predicted New Indication | Prinzmetal angina |
+| TxGNN Prediction Score | 99.84% (rank 2863) |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 3 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for choline salicylate in this dataset. Based on known pharmacological properties, choline salicylate is a non-acetylated salicylate that inhibits cyclooxygenase (COX-1 and COX-2) in a reversible manner, thereby reducing prostaglandin and thromboxane A₂ (TXA₂) synthesis. Unlike aspirin, the non-acetylated structure results in weaker and reversible platelet COX-1 inhibition, which theoretically translates to a more favourable gastrointestinal safety profile for long-term use.
+Currently, detailed mechanism of action data is not available. Based on known information, choline salicylate is a non-acetylated salicylate with weak COX inhibition. It is not known to have any meaningful irreversible antiplatelet effect.
 
-The TxGNN model may be inferring a mechanistic link through the COX-1 → TXA₂ → platelet-mediated vasoconstriction pathway: theoretically, reducing TXA₂ synthesis could attenuate platelet-driven coronary spasm. Prinzmetal angina (variant angina), however, is primarily characterised by episodic rest-onset chest pain caused by transient coronary artery vasospasm driven by smooth muscle hyperreactivity and endothelial dysfunction — conditions managed with calcium channel blockers and long-acting nitrates, not anti-inflammatory or antiplatelet agents.
-
-In practice, aspirin — a closely related and more potent COX-1 inhibitor — has not demonstrated clear benefit in Prinzmetal angina and may even exacerbate vasospasm in certain cases by suppressing prostacyclin (PGI₂) production. Extrapolating this concern to choline salicylate, which has weaker COX-1 inhibitory activity, makes clinical translation even less plausible. The high TxGNN score likely reflects a graph-based structural/network similarity pattern rather than a mechanistically validated pathway, and the prediction must be treated as hypothesis-generating only.
-
----
+The link between the original use (topical pain relief) and coronary vasospasm is weak. Nothing in the evidence explains how a salicylate would relieve vasospasm. The TxGNN score of 0.998 is near saturation and does not separate this candidate from the others, so it should be read as a graph-neighbourhood signal, not evidence of efficacy. Aspirin-class drugs have also been reported to worsen vasospastic angina at some doses, which raises a possible safety concern.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Choline salicylate (DB14006) is currently **not registered or marketed in Singapore**. No product licences are on record with the Health Sciences Authority (HSA).
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN10428P | SORAGEL ANTISEPTIC PAIN RELIEVING ORAL GEL | Gel | ICM Pharma Pte. Ltd. |
+| SIN04948P | ORA-SED JEL | Gel | Hamilton Pharmaceutical Pty Ltd |
+| SIN04303P | BONJELA GEL | Gel | Reckitt Benckiser Healthcare (UK) Ltd |
 
----
+All three registered products are topical gels, and the registration records list no approved indication text. Topical oral gels are unlikely to give the systemic exposure a cardiovascular indication would need. Route compatibility has not yet been assessed.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
-> **Note for prescribers:** As a salicylate-class compound, choline salicylate shares class-level concerns common to NSAIDs — including potential renal prostaglandin suppression, gastrointestinal effects, and interactions with anticoagulants — though non-acetylated salicylates are generally considered to have a more favourable GI and platelet safety profile than aspirin. Formal contraindication and warning data specific to this compound were not available in the current evidence pack.
-
----
+Concerns from the prediction analysis:
+- Salicylates and aspirin-class drugs may worsen vasospastic angina at some doses.
+- A published case report describes urticarial and bronchospastic reactions to non-acetylated salicylates in a patient with asthma, nasal polyps and rheumatoid arthritis. Caution applies to patients with asthma, nasal polyps or NSAID hypersensitivity.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model assigns a high prediction score (99.84%) to choline salicylate for Prinzmetal angina, but this is unsupported by any clinical trials or published literature; the pathophysiological rationale is speculative, and the known mechanism of the salicylate class in coronary physiology raises the possibility of net harm rather than benefit in this indication.
+The prediction rests on a saturated model score alone, with no supporting trials or literature and no plausible mechanism. There is also a possible safety concern in vasospastic angina.
+
+**Other candidates from the same run:** Rheumatoid arthritis is the only candidate with any published support. Four papers from 1977 to 1986 were retrieved (Evidence Level L3, Research Question). Their study designs are unverified, no trials were retrieved, and the original indications are empty in the pack, so on-label status should be checked first. The remaining candidates (hypertensive disorder, migraine, pulmonary hypertension, Raynaud disease and the malignant hypertensive renal entries) have no trial or literature evidence that tests choline salicylate. For several of them, salicylate or NSAID effects on blood pressure and renal perfusion argue against use.
 
 **To proceed, the following is needed:**
+- The HSA package insert warnings and contraindications (blocking for safety screening)
+- Mechanism of action data (from DrugBank)
+- Confirmed approved indications for the three Singapore products
+- Any direct clinical or mechanistic evidence for coronary vasospasm, and an assessment of whether a topical gel could deliver the exposure required
+- Consider redirecting review to the rheumatoid arthritis candidate
 
-- **MOA data**: Retrieve full mechanism of action and pharmacology from DrugBank (DB14006) to confirm or refute the TXA₂-vasospasm hypothesis
-- **Safety package**: Download and parse the TFDA package insert PDF to populate key warnings and contraindications (currently a blocking data gap)
-- **Preclinical evidence review**: Conduct a systematic search for salicylate class effects on coronary vasospasm in animal and in vitro models
-- **Priority redirect — Rheumatoid Arthritis (Rank 2, L3)**: The second-ranked TxGNN prediction for rheumatoid arthritis has 4 supporting observational publications and a documented history of clinical use in the 1970s–1980s. This represents a significantly more viable near-term repurposing candidate. A focused safety review, updated literature search for modern RA studies, and assessment of current standard-of-care relevance should be prioritised over the Prinzmetal angina hypothesis.
-- **Market feasibility**: Since the drug has no Singapore registration, a regulatory pathway assessment would be required before any clinical development could proceed.
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

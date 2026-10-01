@@ -29,99 +29,94 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Magnesium Chloride: From Electrolyte Replacement to Congestive Heart Failure
+# Magnesium Chloride: From Electrolyte and Dialysis Solution Component to Congestive Heart Failure
 
 ## One-Sentence Summary
 
-Magnesium chloride (MgCl₂) is an inorganic salt used clinically as an electrolyte replacement agent to correct hypomagnesaemia, a condition frequently arising in patients on long-term diuretic therapy.
-The TxGNN model predicts it may be effective for **congestive heart failure (CHF)**, supported by a mechanistically compelling rationale: CHF patients are prone to diuretic-induced magnesium wasting, and MgCl₂ oral supplementation has been shown to reduce arrhythmia risk and improve myocardial function.
-Current evidence includes **1 directly relevant small clinical trial** (PMID 8237806) and **multiple observational and review publications**, placing overall support at **Evidence Level L3**.
-
----
+Magnesium chloride is an electrolyte that appears in Singapore-registered dialysis and infusion solutions. The registration data do not state an approved indication.
+The TxGNN model predicts it may be useful for **congestive heart failure**, mainly by correcting magnesium loss caused by diuretics.
+Evidence is thin: **15 registered trials** were retrieved, none of which tests magnesium chloride in heart failure, and **19 publications**, of which only two small crossover studies (1989 and 1993) are directly relevant.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Electrolyte replacement / correction of hypomagnesaemia (no formal Singapore registration) |
-| Predicted New Indication | Congestive Heart Failure |
+|------|------|
+| Original Indication | Not stated in the registration data (registered products are dialysis and electrolyte solutions) |
+| Predicted New Indication | Congestive heart failure |
 | TxGNN Prediction Score | 97.07% |
 | Evidence Level | L3 |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 20 |
+| Recommended Decision | Hold |
 
----
+## Why is This Prediction Reasonable?
 
-## Why Is This Prediction Reasonable?
+Currently, detailed mechanism of action data is not available. Based on known information, magnesium chloride is a magnesium salt used for electrolyte replacement and as a component of dialysis and infusion solutions. Any mechanistic link to heart failure is therefore inferred from the literature only.
 
-Magnesium is the second most abundant intracellular cation and plays a critical role in cardiac electrophysiology. It stabilises cell membrane potential, regulates the Na⁺/K⁺-ATPase pump, and acts as a physiological antagonist to voltage-gated calcium channels. In cardiomyocytes, adequate Mg²⁺ is essential for normal action potential duration and prevention of triggered arrhythmias such as torsades de pointes.
+The plausible link is deficiency repletion, not a new pharmacological effect. Loop and thiazide diuretics, the mainstay of heart failure treatment, increase urinary loss of magnesium and potassium. Magnesium deficiency is associated with arrhythmia and worse cardiovascular outcomes. A mouse study (PMID 34096318) reported that magnesium deficiency alone can cause a reversible diastolic cardiomyopathy. Reviews also describe possible antiarrhythmic benefit from magnesium in heart failure.
 
-In congestive heart failure, the use of loop diuretics (e.g. furosemide) and thiazides is the standard of care for decongestion. However, these agents promote urinary wasting of magnesium alongside potassium and sodium. The resulting hypomagnesaemia significantly increases susceptibility to ventricular ectopy, Q-T prolongation, and sudden cardiac death — complications that contribute substantially to the high CHF mortality burden. Animal studies further confirm that dietary magnesium deficiency alone can induce a reversible, metabolic diastolic cardiomyopathy (PMID 34096318).
-
-Magnesium chloride, as the most bioavailable oral magnesium salt, is well-positioned to correct this deficiency. A landmark randomised crossover trial (PMID 8237806) directly studied long-term oral MgCl₂ replacement in 21 CHF patients on loop diuretics, demonstrating restoration of serum and tissue magnesium levels and associated antiarrhythmic benefits. Combined with its synergistic effect on potassium repletion (refractory hypokalaemia often resolves only after magnesium correction), the mechanistic case for MgCl₂ supplementation in CHF is biologically plausible and clinically grounded.
-
----
+The evidence supports monitoring and correcting low magnesium in patients on diuretics. It does not yet support magnesium chloride as a disease-modifying heart failure therapy. The TxGNN score is high, but the supporting human data are small, old and not conclusive.
 
 ## Clinical Trial Evidence
 
+None of the retrieved trials tests magnesium chloride in heart failure. The most relevant are listed below.
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT03980574](https://clinicaltrials.gov/study/NCT03980574) | N/A | Completed | 10 | Pilot crossover study of dietary supplementation (potentially including magnesium) in CHF patients with and without diabetes; assessed 6-minute walk distance and readmission rates |
-| [NCT03439514](https://clinicaltrials.gov/study/NCT03439514) | Phase 3 | Terminated | 77 | Dilated cardiomyopathy (LMNA mutation) treated with p38α MAPK inhibitor ARRY-371797; indication relevant but intervention unrelated to MgCl₂ |
-| [NCT02560519](https://clinicaltrials.gov/study/NCT02560519) | Phase 4 | Completed | 1,386 | Albumin vs Ringer's lactate (containing Mg²⁺) in cardiac surgery; large study exploring electrolyte-containing crystalloids, though primary endpoint was colloid selection |
-| [NCT04393493](https://clinicaltrials.gov/study/NCT04393493) | Phase 2 | Completed | 80 | Two furosemide strategies in type 1 cardiorenal syndrome; relevant to diuretic-electrolyte context in CHF |
-| [NCT03031496](https://clinicaltrials.gov/study/NCT03031496) | Phase 1 | Completed | 42 | Bioequivalence study of hydrochlorothiazide/amiloride for CHF, hypertension, and cirrhosis with ascites; electrolyte-sparing diuretic context relevant |
-| [NCT07163936](https://clinicaltrials.gov/study/NCT07163936) | N/A | Not Yet Recruiting | 80 | Citrate-based dialysate with added magnesium to prevent vascular calcification in CKD; directly tests Mg²⁺ supplementation in a related cardiovascular-renal population |
-| [NCT06021860](https://clinicaltrials.gov/study/NCT06021860) | Phase 4 | Unknown | 96 | Spironolactone oral suspension PK/PD in paediatric oedema due to heart failure or cirrhosis; electrolyte management context |
-
----
+| [NCT03980574](https://clinicaltrials.gov/study/NCT03980574) | N/A | Completed | 10 | Pilot crossover of a dietary supplement drink vs placebo in heart failure. Composition is unconfirmed and the study is too small to show efficacy |
+| [NCT07163936](https://clinicaltrials.gov/study/NCT07163936) | N/A | Not yet recruiting | 80 | Citrate dialysate with added magnesium vs acetate dialysate for vascular calcification in hemodialysis. Different population and endpoint |
+| [NCT03982693](https://clinicaltrials.gov/study/NCT03982693) | Phase 3 | Recruiting | 50 | EDTA chelation in critical limb ischemia. Not heart failure |
+| [NCT02560519](https://clinicaltrials.gov/study/NCT02560519) | Phase 4 | Completed | 1386 | Albumin vs Ringer solution in cardiac surgery. Fluid comparison, not magnesium |
+| [NCT06021860](https://clinicaltrials.gov/study/NCT06021860) | Phase 4 | Unknown | 96 | Spironolactone oral suspension in pediatric edema due to heart failure or cirrhosis. Different drug |
+| [NCT04393493](https://clinicaltrials.gov/study/NCT04393493) | Phase 2 | Completed | 80 | Two furosemide strategies in type 1 cardiorenal syndrome. Different drug |
+| [NCT03439514](https://clinicaltrials.gov/study/NCT03439514) | Phase 3 | Terminated | 77 | ARRY-371797 in LMNA-related dilated cardiomyopathy. Unrelated intervention |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [8237806](https://pubmed.ncbi.nlm.nih.gov/8237806/) | 1993 | Controlled Trial (RCT crossover) | Am J Cardiology | Long-term oral MgCl₂ replacement in 21 CHF patients on loop diuretics restored serum Mg and reduced arrhythmia susceptibility; **only direct trial of oral MgCl₂ in CHF** |
-| [2755214](https://pubmed.ncbi.nlm.nih.gov/2755214/) | 1989 | Controlled Trial | Magnesium | K⁺ alone vs K⁺+Mg combination in CHF on hydrochlorothiazide; demonstrated that combined K⁺-Mg supplementation more effectively corrected hypokalaemia |
-| [40530753](https://pubmed.ncbi.nlm.nih.gov/40530753/) | 2025 | Review | Eur J Heart Failure | Comprehensive review of water and electrolyte homeostasis during decongestion in CHF; highlights that Mg²⁺/K⁺ co-depletion is a key consequence of loop diuretic use |
-| [8861138](https://pubmed.ncbi.nlm.nih.gov/8861138/) | 1995 | Critical Review | Magnesium Research | Antiarrhythmic actions of magnesium in CHF; epidemiological evidence for Mg deficit in sudden cardiac death, enzymatic roles in myocyte function |
-| [34096318](https://pubmed.ncbi.nlm.nih.gov/34096318/) | 2021 | Preclinical Study | J Am Heart Assoc | Low-Mg diet in C57BL/6J mice produced reversible diastolic cardiomyopathy; fully reversed upon Mg repletion — establishes direct causal link between Mg deficiency and cardiac dysfunction |
-| [2650515](https://pubmed.ncbi.nlm.nih.gov/2650515/) | 1989 | Review | Am J Cardiology | Cardiovascular consequences of Mg deficiency: arterial/myocardial lesions, atherogenesis, thrombogenesis; Mg and Cl⁻ loss complicates K⁺ repletion |
-| [4091044](https://pubmed.ncbi.nlm.nih.gov/4091044/) | 1985 | Observational | Acta Med Scandinavica | 108 CHF/hypertension patients on long-term diuretics showed consistent Mg and K⁺ depletion in skeletal muscle even with normal serum levels |
-| [2309624](https://pubmed.ncbi.nlm.nih.gov/2309624/) | 1990 | Review | Am J Cardiology | Diuretic-electrolyte interaction in CHF; kaliuresis worsens with continued therapy, Mg depletion underlies refractory hypokalaemia |
-| [25660927](https://pubmed.ncbi.nlm.nih.gov/25660927/) | 2015 | Review | J Am Coll Cardiology | Depletional hyponatraemia in acute decompensated CHF driven by diuretics; Mg/K supplementation recommended when plasma levels are low |
-| [2436474](https://pubmed.ncbi.nlm.nih.gov/2436474/) | 1987 | Review | Am J Medicine | Potassium and magnesium depletion from diuretic therapy; serum levels can appear normal despite significant tissue depletion, underscoring need for empirical supplementation |
-
----
+|------|-----|------|---------|---------|
+| [8237806](https://pubmed.ncbi.nlm.nih.gov/8237806/) | 1993 | Randomized double-blind crossover trial | Am J Cardiol | Long-term oral magnesium chloride replacement in 21 patients with stable heart failure due to coronary artery disease on loop diuretics |
+| [2755214](https://pubmed.ncbi.nlm.nih.gov/2755214/) | 1989 | Randomized double-blind crossover trial | Magnesium | Potassium alone vs potassium plus magnesium in 10 heart failure patients on hydrochlorothiazide. Potassium chloride alone did not efficiently correct serum potassium |
+| [8861138](https://pubmed.ncbi.nlm.nih.gov/8861138/) | 1995 | Review | Magnesium Research | Critical review of the antiarrhythmic action of magnesium in heart failure |
+| [40530753](https://pubmed.ncbi.nlm.nih.gov/40530753/) | 2025 | Review | Eur J Heart Fail | Water and electrolyte homeostasis during decongestion. Heart failure requires excretion of cations including magnesium |
+| [2650515](https://pubmed.ncbi.nlm.nih.gov/2650515/) | 1989 | Review | Am J Cardiol | Cardiovascular consequences of magnesium deficiency and loss |
+| [2436474](https://pubmed.ncbi.nlm.nih.gov/2436474/) | 1987 | Review | Am J Med | Magnesium depletion, diuretics and arrhythmias. Serum levels may be normal despite tissue depletion |
+| [2309624](https://pubmed.ncbi.nlm.nih.gov/2309624/) | 1990 | Review | Am J Cardiol | Interaction of diuretics and electrolytes in heart failure |
+| [4091044](https://pubmed.ncbi.nlm.nih.gov/4091044/) | 1985 | Observational | Acta Med Scand | Electrolyte excretion in 108 patients on long-term diuretics. Diuretics impaired conservation of potassium and magnesium |
+| [34096318](https://pubmed.ncbi.nlm.nih.gov/34096318/) | 2021 | Animal study | J Am Heart Assoc | Magnesium deficiency alone caused a reversible diastolic cardiomyopathy in mice |
+| [25660927](https://pubmed.ncbi.nlm.nih.gov/25660927/) | 2015 | Review | J Am Coll Cardiol | Hyponatremia in acute decompensated heart failure. Potassium and magnesium replacement may help if plasma levels are low |
 
 ## Singapore Market Information
 
-Magnesium chloride (DB09407) currently has **no registered products** with the Health Sciences Authority (HSA) in Singapore. The drug is not approved or commercially marketed in Singapore under any dosage form or indication.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN07943P | Haemodialysis Concentrate NKFS-02 (Acid) for Bicarbonate Dialysis | Solution | Not stated |
+| SIN13265P | Balance 1.5% Glucose 1.25 mmol/L Calcium Peritoneal Dialysis Solution (CAPD 17 Formulation) | Solution, sterile | Not stated |
+| SIN13264P | Balance 4.25% Glucose 1.25 mmol/L Calcium Peritoneal Dialysis Solution (CAPD 18 Formulation) | Solution, sterile | Not stated |
+| SIN06523P | Plasma-Lyte A Injection | Injection | Not stated |
+| SIN11220P | Extraneal Peritoneal Dialysis Solution 75 g/l | Solution, sterile | Not stated |
 
-There are no authorization records to display.
-
----
+Twenty registrations exist in total. The first five are shown. All registered products are dialysis or infusion solutions. Heart failure is not a registered use, and none of these products is intended as heart failure therapy.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No Singapore HSA-specific warnings, contraindications, or drug interaction data were retrievable for this submission. Clinicians should consult the relevant product monograph and standard pharmacology references before use.
+Please refer to the package insert for safety information.
 
----
+One indirect signal appears in the literature. Excess magnesium is a concern in renal impairment, which is common in heart failure. This was not retrieved from a label, so dose and monitoring should be confirmed from the package insert.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The mechanistic and epidemiological case for magnesium chloride in congestive heart failure is strong — diuretic-induced hypomagnesaemia is well-documented, MgCl₂ oral replacement has been directly studied in CHF in a small RCT (PMID 8237806) with positive signals, and animal data confirm that Mg deficiency alone can cause reversible cardiomyopathy. However, evidence remains at Level L3 (observational and small controlled studies), with no large-scale Phase 2/3 RCT specifically evaluating oral MgCl₂ supplementation as an adjunct in CHF management.
+The link between diuretic-induced magnesium loss and heart failure is plausible. However, the only direct human data are two small, old crossover studies, and no registered trial tests magnesium chloride in heart failure. The safety review is also blocked because the Singapore package insert data are missing. The model's own staging classifies this as a research question.
 
 **To proceed, the following is needed:**
-
-- **Safety data retrieval**: Obtain and review the MgCl₂ product monograph / prescribing information to confirm contraindications (e.g. renal impairment, hypermagnesaemia) and drug interactions (e.g. with digoxin, aminoglycosides)
-- **Singapore regulatory pathway**: Determine if MgCl₂ oral formulation can be registered as a supplement or prescription product via HSA; assess GMP-compliant supply chain
-- **Dose-finding clarification**: The 1993 trial (PMID 8237806) used oral MgCl₂ at a specific replacement dose — confirm optimal dosing, frequency, and target serum Mg levels for CHF
-- **Renal function gating**: Mg supplementation is contraindicated in significant renal impairment (eGFR < 30 mL/min typically); a patient selection framework is required
-- **Larger prospective study**: Design a Phase 2 RCT evaluating oral MgCl₂ supplementation (vs placebo) in CHF patients on loop diuretics, with endpoints of serum Mg normalisation, arrhythmia burden (24-hour Holter), hospitalisation rates, and NYHA class
+- HSA package insert warnings and contraindications (blocking), especially for renal impairment
+- Mechanism of action data from DrugBank
+- A full read of the 1993 crossover trial (PMID 8237806) for outcomes and effect size
+- A properly powered RCT, or a registered trial, of magnesium supplementation in heart failure patients on diuretics
+- A route and formulation decision, since no registered product is designed for oral or chronic heart failure use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

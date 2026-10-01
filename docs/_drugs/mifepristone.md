@@ -29,39 +29,44 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Mifepristone: From No Registered Indication (Not Marketed in Singapore) to Punctate Epithelial Keratoconjunctivitis
+# Mifepristone: From Its Registered Use to Punctate Epithelial Keratoconjunctivitis
 
 ## One-Sentence Summary
 
-Mifepristone is not currently marketed in Singapore, and no original indication data is available in this evidence pack.
-The TxGNN model predicts it may be effective for **Punctate Epithelial Keratoconjunctivitis**,
-but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a pure model-generated association with no mechanistic or empirical backing found to date.
+Mifepristone is an oral tablet registered in Singapore as MIFEGYNE 200 mg, but the supplied data does not record its approved indication.
+The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**.
+**No clinical trials and no publications** currently support this prediction, so it is a model output only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available (drug not marketed in Singapore; no registered indication on file) |
-| Predicted New Indication | Punctate Epithelial Keratoconjunctivitis |
+| Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 97.60% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not marketed (Not Marketed) |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for mifepristone (flagged as a Blocking-adjacent High-severity data gap in this evidence pack). Elsewhere in the same evidence pack, mifepristone is described as a progesterone receptor (PR) antagonist and glucocorticoid receptor (GR) antagonist — a pharmacological class typically associated with reproductive endocrinology and glucocorticoid-related conditions, not ocular surface disease.
+Currently, detailed mechanism of action data is not available. Mifepristone is generally known as a glucocorticoid and progesterone receptor antagonist. However, the supplied data does not document any link between this activity and ocular surface inflammation.
 
-For this specific candidate, the evidence pack's own rationale is explicit: there is no known ophthalmological mechanism linking PR/GR antagonism to punctate epithelial keratoconjunctivitis, and no clinical trial or literature evidence exists to support the association. The prediction rank (18,880) also places it well outside the model's highest-confidence tier. In short, this appears to be a knowledge-graph proximity signal rather than a mechanistically or clinically grounded hypothesis, and should be treated as exploratory only.
+The original indication is also not recorded in the Singapore licence data, so the relationship between the old and new indications cannot be assessed. The high score (97.60%) reflects the model's pattern matching on its knowledge graph. It is not supported by any external clinical or literature data, and it should be treated as a hypothesis rather than a finding.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
+
+## Singapore Market Information
+
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN15583P | MIFEGYNE TABLETS 200MG | Tablet (oral) | Laboratoires MACORS |
 
 ## Safety Considerations
 
@@ -72,13 +77,16 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-There is no clinical trial evidence, no literature evidence, and no known mechanistic link between mifepristone's pharmacology and punctate epithelial keratoconjunctivitis — combined with the drug's non-marketed status in Singapore, this candidate does not meet the threshold to advance past initial screening.
+The prediction has no supporting trials or literature (L5). No mechanism or safety data links mifepristone to punctate epithelial keratoconjunctivitis. Only oral tablets are registered in Singapore, and no ocular route or formulation is available.
 
 **To proceed, the following is needed:**
-- Official mechanism of action (MOA) data from DrugBank (High-severity gap, DG002) to properly assess mechanistic plausibility
-- TFDA/HSA package insert warnings and contraindications (Blocking gap, DG001) — required before any S1 safety pre-assessment can begin
-- A biologically grounded hypothesis connecting GR/PR antagonism to ocular surface inflammation, ideally supported by preclinical or in vitro data
-- Continued monitoring for any emerging clinical trials or publications on this drug-disease pair before reconsidering
+- The Singapore package insert (warnings, contraindications, approved indication), which is a blocking gap for safety screening
+- Mechanism of action data for mifepristone (for example from DrugBank)
+- A literature search for glucocorticoid or progesterone receptor involvement in punctate epithelial keratoconjunctivitis
+- A route-compatibility assessment, since an ocular formulation would probably be needed
+- Consider prioritising other predictions on the list that have some supporting evidence. Rosacea (rank 2) has one indirect in vitro paper, and post-infectious syndrome (rank 7) has a small Phase 2 HIV trial that is only indirectly relevant. Both are still weak and need further review.
+
+*This report is for research reference only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

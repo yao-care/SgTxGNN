@@ -33,91 +33,77 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Felodipine is a second-generation dihydropyridine calcium channel blocker (CCB), widely used internationally for the treatment of hypertension, though it carries no current registration in Singapore.
-The TxGNN model predicts it may be effective for **pulmonary hypertension owing to lung disease and/or hypoxia (Group 3 PH)**,
-with **no clinical trials** and **20 publications** retrieved — none of which directly evaluate Felodipine in this indication; the literature reflects general hypoxia biology, and established cardiology guidelines actually caution against CCB use in Group 3 PH.
-
----
+Felodipine is a vascular-selective calcium channel blocker, used mainly as an antihypertensive. The TxGNN model predicts it may help with **pulmonary hypertension owing to lung disease and/or hypoxia**. This prediction has **0 clinical trials** and **20 publications** behind it, and none of the publications studies felodipine in this condition, so the evidence is **model prediction only**.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not registered in Singapore; no local regulatory record available |
+|------|------|
+| Original Indication | Hypertension (inferred from drug class; the Singapore registration records contain no indication text) |
 | Predicted New Indication | Pulmonary hypertension owing to lung disease and/or hypoxia |
 | TxGNN Prediction Score | 99.91% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 3 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Felodipine is a vascular-selective dihydropyridine CCB that blocks L-type calcium channels in arterial smooth muscle cells, producing vasodilation and reducing systemic vascular resistance. Detailed MOA data from DrugBank is currently unavailable, but this pharmacological profile is well-established in the published literature. The drug is recognised internationally as a first-line or add-on agent for hypertension, with evidence supporting use in angina and stroke prevention.
+Detailed mechanism-of-action data are not available in the Evidence Pack. Felodipine is a dihydropyridine L-type calcium channel blocker with strong selectivity for vascular smooth muscle. It relaxes arteries and lowers vascular resistance, so pulmonary vasodilation is plausible in principle.
 
-On the surface, a mechanistic case can be made: as an arterial vasodilator, Felodipine could theoretically reduce pulmonary vascular resistance (PVR) in pulmonary hypertension. CCBs are indeed effective in Group 1 pulmonary arterial hypertension (PAH) — but only in the roughly 10–15% of patients who demonstrate a positive acute vasoreactivity response on right heart catheterisation.
-
-The critical problem is that the target indication here — Group 3 PH, driven by lung disease and/or hypoxia (e.g., COPD, interstitial lung disease) — operates through a fundamentally different mechanism: hypoxic pulmonary vasoconstriction (HPV). HPV is a protective physiological reflex that shunts blood away from poorly ventilated lung regions to preserve systemic oxygenation. Felodipine, by inhibiting HPV, would worsen ventilation-perfusion (V/Q) mismatch and risk deepening systemic hypoxaemia. Current ESC/ERS pulmonary hypertension guidelines explicitly state that CCBs are not indicated — and may be harmful — in Group 3 PH. The TxGNN prediction most likely arises from graph-proximity associations between "CCB" and "pulmonary hypertension" nodes in the knowledge graph, without discriminating between PH subgroups.
-
----
+The link to this indication is weak, for three reasons:
+- In hypoxic lung disease, non-selective vasodilators can worsen ventilation-perfusion matching and gas exchange.
+- The score of 99.91% is a graph-based prediction, not evidence of efficacy.
+- The score is identical to that of "pulmonary hypertension with unclear multifactorial mechanism", which suggests a shared graph neighbourhood rather than an independent signal.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for this indication.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-The 20 retrieved publications address general hypoxia biology (neurodegeneration, tumour microenvironment, immunology, altitude physiology) and do not evaluate Felodipine in pulmonary hypertension. The most informative items are listed below for context.
+Twenty papers were retrieved, but all are general hypoxia biology (brain aging, cancer, immunity, altitude). None studies felodipine or pulmonary hypertension treatment. Representative examples:
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [39841808](https://pubmed.ncbi.nlm.nih.gov/39841808/) | 2025 | Review | Science Translational Medicine | Chronic continuous hypoxia may benefit mitochondrial disease, autoimmunity, and aging in preclinical models, but translating to patients poses major safety challenges |
-| [28972206](https://pubmed.ncbi.nlm.nih.gov/28972206/) | 2017 | Review | Nature Reviews Immunology | Hypoxia in physiological and pathological niches modulates innate and adaptive immunity in context-dependent ways |
-| [33862277](https://pubmed.ncbi.nlm.nih.gov/33862277/) | 2021 | Review | Ageing Research Reviews | Brain is acutely vulnerable to hypoxia; hypoxia is pivotal in Alzheimer's, Parkinson's, and neurodegeneration, yet altitude-related hypoxia may paradoxically benefit aging |
-| [15192444](https://pubmed.ncbi.nlm.nih.gov/15192444/) | 2004 | Review | Current Opinion in Clinical Nutrition | Chronic hypoxia in COPD and high-altitude exposure share metabolic features (body mass loss, exercise intolerance), suggesting common pathophysiology |
-| [11172576](https://pubmed.ncbi.nlm.nih.gov/11172576/) | 2000 | Review | Respiratory Care Clinics of North America | Reviews fundamental mechanisms of hypoxaemia including V/Q mismatch — foundational to understanding Group 3 PH pathophysiology |
-| [21328446](https://pubmed.ncbi.nlm.nih.gov/21328446/) | 2011 | Review | Journal of Cellular Biochemistry | Hypoxia influences growth, metabolism, pH homeostasis, and angiogenesis; contributes to vascular disease and cancer |
-| [34535359](https://pubmed.ncbi.nlm.nih.gov/34535359/) | 2021 | Review | Clinical Oncology | Tumour hypoxia drives resistance to radiotherapy and immunotherapy; not relevant to Felodipine or PH |
-| [34618295](https://pubmed.ncbi.nlm.nih.gov/34618295/) | 2022 | Review | Metabolic Brain Disease | Both acute and chronic hypoxia induce cognitive deficits via distinct neurological mechanisms |
-| [40963621](https://pubmed.ncbi.nlm.nih.gov/40963621/) | 2025 | Review | Frontiers in Immunology | HIF-1α links hypoxia in the tumour microenvironment to autoimmune disease progression |
-| [31706510](https://pubmed.ncbi.nlm.nih.gov/31706510/) | 2019 | Review | Trends in Cancer | Deubiquitinases regulate HIF abundance and represent potential drug targets in hypoxic tumours |
-
-> **Note:** None of the 20 retrieved publications directly evaluate Felodipine in pulmonary hypertension owing to lung disease or hypoxia. This literature corpus provides background on hypoxia pathobiology only and does not constitute clinical evidence for this repurposing indication.
-
----
+|------|-----|------|------|---------|
+| [33862277](https://pubmed.ncbi.nlm.nih.gov/33862277/) | 2021 | Review | Ageing Res Rev | Hypoxia and brain aging; not related to felodipine or pulmonary hypertension |
+| [39841808](https://pubmed.ncbi.nlm.nih.gov/39841808/) | 2025 | Review | Sci Transl Med | Chronic hypoxia as a potential therapy in preclinical models; not related to felodipine |
+| [11172576](https://pubmed.ncbi.nlm.nih.gov/11172576/) | 2000 | Review | Respir Care Clin N Am | Four basic mechanisms of hypoxemia; background physiology only |
 
 ## Singapore Market Information
 
-Felodipine is not currently registered in Singapore. No marketing authorisations are on record with the Health Sciences Authority (HSA).
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN08768P | PLENDIL TABLET 10 mg | Tablet, extended release | Not stated in registry record |
+| SIN07738P | PLENDIL TABLET 2.5 mg | Tablet, extended release | Not stated in registry record |
+| SIN08781P | PLENDIL TABLET 5 mg | Tablet, extended release | Not stated in registry record |
 
----
+Manufacturer for all three: AstraZeneca Pharmaceutical Co. Ltd and Saneca Pharmaceuticals a.s. Route: oral.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
-> **Clinical safety alert specific to this indication:** Beyond standard adverse drug reactions, use of Felodipine in Group 3 PH carries an on-target pharmacodynamic safety concern. By inhibiting hypoxic pulmonary vasoconstriction (HPV) — a critical compensatory reflex in lung disease patients — Felodipine may worsen V/Q mismatch and deepen systemic hypoxaemia. This is not a labelled warning but a mechanistic contraindication identified in the ESC/ERS 2022 Pulmonary Hypertension Guidelines.
-
----
+One indication-specific concern comes from the mechanistic review. Vasodilation in hypoxic lung disease may worsen ventilation-perfusion mismatch and hypoxemia.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model assigns a high numerical score to this prediction (99.91%), but the mechanistic analysis reveals a fundamental mismatch: Felodipine's CCB action inhibits the very physiological reflex (hypoxic pulmonary vasoconstriction) that Group 3 PH patients depend on, and current ESC/ERS guidelines advise against CCB use in this subgroup. There are no clinical trials and no direct pharmacological publications supporting this indication.
+This indication rests on a model score alone. There are no trials, no felodipine-specific literature, and a plausible physiological risk of worsening gas exchange.
 
-**To proceed, the following would be needed:**
+**To proceed, the following is needed:**
+- Package insert warnings and contraindications from HSA (currently blocking safety screening)
+- Mechanism-of-action data from DrugBank
+- Any felodipine-specific studies in pulmonary hypertension, especially hypoxia-associated forms
 
-- Identification of a specific patient subpopulation within Group 3 PH where vasodilatory benefit outweighs HPV inhibition risk (e.g., concurrent systemic hypertension with mild PH)
-- Preclinical data (animal model) demonstrating net haemodynamic and oxygenation benefit
-- Clarification of Felodipine's full MOA profile (DrugBank data gap — remediation: query DrugBank API)
-- Singapore/HSA regulatory filing review and package insert analysis to establish baseline safety profile (TFDA/HSA data gap — remediation: download and parse local product monograph)
-- Formal consultation with a pulmonary hypertension specialist before any clinical investigation is designed
+**Better-supported alternatives in the same prediction list:**
+- **Prinzmetal angina** (L2): small randomized or comparative studies of felodipine, including once-daily felodipine versus four-times-daily nifedipine. Recommendation: Research Question.
+- **Cerebrovascular disorder** (L1): the FEVER trial and HOT support stroke and cardiovascular event prevention in hypertensive patients. This overlaps with felodipine's core hypertension use, so it is not a true new indication. Recommendation: Research Question.
+- **Chronic pulmonary heart disease** (L3): 1980s hemodynamic studies in severe COPD and heart failure show reduced pulmonary and systemic vascular resistance. There are no outcome data. Recommendation: Research Question.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

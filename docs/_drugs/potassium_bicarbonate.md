@@ -29,17 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-Using the evidence pack as provided (no fabricated data), here is the evaluation report:
-
----
-
-# Potassium Bicarbonate: From Electrolyte/Alkalinizing Supplement to Gastroduodenitis
+# Potassium Bicarbonate: From Antacid Component (Registered Indication Not Recorded) to Gastroduodenitis
 
 ## One-Sentence Summary
 
-> Potassium bicarbonate is a potassium salt / systemic-urinary alkalinizing agent; no approved-indication record exists in this evidence pack because the drug is **not currently registered or marketed in Singapore**.
-> The TxGNN model's top-ranked prediction is **Gastroduodenitis**, with a very high similarity score (**99.72%**), but this prediction is currently supported by **0 clinical trials** and **0 publications**.
-> Given the complete absence of clinical or literature corroboration, this is a pure knowledge-graph link prediction that has not yet been validated by any external evidence source.
+Potassium bicarbonate is a buffering agent used as an ingredient in antacid suspensions marketed in Singapore, but the registry data does not state an approved indication.
+The TxGNN model predicts it may be useful for **Gastroduodenitis** with a very high score, yet there are **0 clinical trials** and **0 publications** supporting this specific prediction.
+The prediction currently rests on the model score and basic pharmacology alone.
 
 ---
 
@@ -47,29 +43,31 @@ Using the evidence pack as provided (no fabricated data), here is the evaluation
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no HSA/TFDA license or approved-indication record found (drug not marketed) |
+| Original Indication | Not recorded in the HSA licence data (marketed as an antacid-type suspension) |
 | Predicted New Indication | Gastroduodenitis |
-| TxGNN Prediction Score | 99.72% |
+| TxGNN Prediction Score | 99.72% (model rank 4,366) |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for potassium bicarbonate in this evidence pack. Based on the drug's known pharmacological class, potassium bicarbonate is a potassium salt used as an electrolyte supplement and as a systemic/urinary alkalinizing agent; this general classification is consistent with how it appears elsewhere in this same evidence pack (e.g., as the mechanistic basis cited for the "acute urate nephropathy" candidate, rank 9).
+Currently, detailed mechanism of action data is not available from DrugBank. Based on known pharmacology, potassium bicarbonate is a buffering agent that can neutralise gastric acid. Both Singapore products are antacid-type suspensions, so the drug is already used in acid-related stomach complaints as part of a combination product.
 
-No original indication data could be extracted either, because the drug has no active license or registration record in this jurisdiction (0 total licenses, market status "not marketed"). This means there is no regulatory-approved indication to anchor a mechanistic comparison against the predicted new indication.
+Gastroduodenitis is inflammation of the stomach and duodenal lining, where acid contributes to symptoms. Neutralising acid could therefore give symptom relief. This is a plausible link, not an established one. Antacids are not standard disease-modifying treatment for gastroduodenitis, and no study tested potassium bicarbonate for this condition.
 
-For Gastroduodenitis specifically, the TxGNN model assigns the highest similarity score among all ten candidates (99.72%, global rank 4,366), but this is a pure knowledge-graph link prediction with **no supporting clinical trials or literature** (0 results returned from ClinicalTrials.gov, ICTRP, and PubMed queries). The only plausible mechanistic narrative that can be constructed is a weak "gastric acid neutralization / antacid-like" hypothesis — i.e., potassium bicarbonate, like other bicarbonate salts, could theoretically provide transient buffering of gastric acid. However, this is not a recognized or evidence-based treatment pathway for gastroduodenitis, and no external data source corroborates it. This is reflected in the evidence-level classification of L5 (model prediction only, no actual studies) and decision stage S0.
+Among the other predictions, "stomach disease" has the best indirect support. A 2013 systematic review covers raft-forming (alginate) products for reflux in pregnancy, and potassium bicarbonate is a component of some of these. That evidence applies to combination products, not to the single agent.
 
 ---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
+
+Trials appeared under other predicted indications (peptic ulcer, gastric ulcer and others), but none tested potassium bicarbonate. Most involve potassium-competitive acid blockers such as vonoprazan and tegoprazan, which are matches on the word "potassium" and not on the drug.
 
 ---
 
@@ -81,15 +79,16 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Potassium bicarbonate (DrugBank ID: DB11098) currently has **no registered product licenses in Singapore** (total licenses: 0; market status: not marketed). No authorization records are available to summarize.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN12635P | GAVISCON ADVANCE-PEPPERMINT FLAVOUR SUSPENSION | Suspension | Not stated in registry data |
+| SIN16042P | GASCOVID ADVANCE LIQUID | Suspension | Not stated in registry data |
 
 ---
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-*(Note: the drug-level data gap log flags this as a blocking issue — see Conclusion below.)*
 
 ---
 
@@ -98,15 +97,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-- The top-ranked predicted indication (Gastroduodenitis) has a high TxGNN similarity score (99.72%) but **zero clinical trial or literature support** — this is evidence level L5 (model prediction only), decision stage S0, which does not meet the bar to advance toward any development or research pathway.
-- Two data gaps block further progression: **DG001 (Blocking)** — TFDA/HSA package insert warnings and contraindications are missing, which prevents entry into the S1 safety pre-screen; and **DG002 (High)** — mechanism of action data is missing, which prevents any meaningful mechanistic-relevance analysis.
+The 99.72% model score is the only support for gastroduodenitis. There are no trials or literature, the mechanism is unconfirmed, and the original indication is not recorded. The related trials in the pack involve other drugs, so they do not strengthen the case.
 
 **To proceed, the following is needed:**
-- Obtain the official HSA/TFDA package insert (warnings, contraindications, drug interactions) to resolve DG001 and unblock the S1 safety pre-screen
-- Obtain DrugBank/primary-literature mechanism of action (MOA) data to resolve DG002
-- Generate at least preliminary clinical or literature evidence specifically linking potassium bicarbonate to gastroduodenitis before any evidence-level upgrade is considered
-- Confirm current and historical Singapore (HSA) registration status, since no license record currently exists
-- Consider re-evaluating other TxGNN candidates in this evidence pack with stronger supporting rationale — notably **rank 9, "acute urate nephropathy"** (evidence level L4, decision stage S1, recommendation "Research Question"), which has an established pharmacological basis (potassium bicarbonate as a urinary alkalinizer to increase uric acid solubility), unlike the top-ranked Gastroduodenitis candidate
+- HSA package insert warnings and contraindications (this blocks any safety screening)
+- Approved indication text for SIN12635P and SIN16042P, to establish the original indication
+- Mechanism of action data from DrugBank
+- Single-agent or combination-product clinical evidence in gastroduodenitis or related acid-related conditions
+- A review of whether the raft-forming antacid evidence in "stomach disease" can reasonably extend to this drug
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -33,73 +33,63 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Kanamycin is an aminoglycoside antibiotic historically used to treat serious gram-negative bacterial infections and as a second-line agent for tuberculosis. The TxGNN model predicts it may be effective for **Hyperamylasemia** (ranked #1 among 10 predicted indications), however, **no clinical trials or publications** currently support this direction. Evidence sits at Level L5 — model prediction only — and the proposed mechanistic link reflects an adverse effect rather than a therapeutic pathway.
-
----
+Kanamycin is an aminoglycoside antibiotic that acts on bacterial ribosomes and is used against bacterial infections. The TxGNN model predicts it may be effective for **hyperamylasemia**, a laboratory finding of raised amylase. There are **0 clinical trials** and **0 publications** supporting this prediction, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Gram-negative bacterial infections (aminoglycoside antibiotic; no Singapore registration on record) |
+|------|------|
+| Original Indication | Not stated in the Singapore licence records; kanamycin is an aminoglycoside antibacterial |
 | Predicted New Indication | Hyperamylasemia |
 | TxGNN Prediction Score | 94.53% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for Kanamycin in this evidence pack. Based on known pharmacology, Kanamycin is an aminoglycoside antibiotic that inhibits bacterial protein synthesis by irreversibly binding to the 30S ribosomal subunit, causing misreading of mRNA and disruption of the translocation step — ultimately leading to bacterial cell death. This mechanism is entirely antibacterial in nature.
+Currently, detailed mechanism of action data is not available in the record. Kanamycin is an aminoglycoside that binds the bacterial 30S ribosomal subunit and blocks protein synthesis. Its antibacterial use is well established.
 
-Hyperamylasemia (elevated serum amylase) typically arises as a secondary phenomenon from acute pancreatitis, salivary gland disease, or renal impairment. The only conceivable link between Kanamycin and hyperamylasemia is that Kanamycin's well-documented nephrotoxicity could theoretically impair glomerular filtration, reducing amylase clearance and causing serum levels to rise. This, however, represents a potential **adverse effect pathway** — Kanamycin would precipitate hyperamylasemia as a complication, not resolve it therapeutically.
+Hyperamylasemia is a laboratory abnormality, not an infection. It has many possible causes, such as pancreatic or salivary gland disease, and an antibacterial has no clear way to treat it. The review found no plausible mechanistic link between kanamycin's action and this condition.
 
-There is no plausible mechanistic rationale for using Kanamycin to treat elevated amylase. It is worth noting that among the 10 TxGNN-predicted indications for this drug, gonococcal urethritis (rank #5, Evidence Level L3, 20 publications spanning 1958–2018) and uterine inflammatory disease / pelvic inflammatory disease (rank #8, Evidence Level L3, 2 clinical trials + 4 publications) carry substantially more credible biological rationale and clinical historical data as repurposing candidates.
-
----
+The score of 94.53% comes from patterns in a knowledge graph. No trials or publications back it up, and it should not be read as clinical support.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Hyperamylasemia.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for Hyperamylasemia.
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Kanamycin is currently **not registered** in Singapore. No product licences are on record, and the drug has no documented market presence.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN02356P | KANAMYCIN MEIJI FOR INJECTION 1 g/vial | Injection, powder, for solution | Not stated in the record |
+| SIN01963P | KANAMYCIN SULFATE INJECTION 1 g/3 ml | Injection | Not stated in the record |
 
----
+Both products are made by Thai Meiji Pharmaceutical Co., Ltd and are injectables.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-> **Note for reviewers:** Safety data (key warnings, contraindications, drug–drug interactions) were not retrievable for this evidence pack. Based on general pharmacological knowledge, Kanamycin is an aminoglycoside antibiotic associated with nephrotoxicity and ototoxicity; these risks would be particularly relevant to any clinical evaluation.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked TxGNN prediction (hyperamylasemia, score 94.53%) is supported only by computational modelling — no clinical trials or literature exist for this indication, and the mechanistic rationale describes an adverse effect of the drug rather than a therapeutic one, making this indication unsuitable for repurposing development.
+The prediction has no trials, no literature and no plausible mechanism, so it stays at evidence level L5 (model prediction only). Hyperamylasemia is a laboratory finding that an antibacterial would not be expected to treat.
 
-**To proceed with any repurposing evaluation, the following is needed:**
+**To proceed, the following is needed:**
+- The HSA package insert, including warnings and contraindications. This is a blocking gap for any safety screening.
+- Mechanism of action data from DrugBank.
+- A check of whether hyperamylasemia is a meaningful clinical target. If it is not, this candidate should be dropped.
+- For the same drug, **gonococcal urethritis** (rank 5) has much stronger support: about 10 historical clinical reports from 1958 to 1985 (evidence level L3). Modern use is limited by resistance and by cephalosporin-based first-line regimens. It is a better candidate for a follow-up review than hyperamylasemia.
 
-- **Redirect focus to higher-evidence predictions:** Gonococcal urethritis (rank #5, L3, 20 publications, including comparative RCT-like studies from 1958–2018) and uterine inflammatory disease / PID (rank #8, L3, 2 completed clinical trials + 4 publications) represent far more plausible repurposing candidates with established mechanistic rationale
-- **Obtain full safety profile:** Retrieve TFDA/HSA package insert to document warnings, contraindications, and nephrotoxicity/ototoxicity thresholds before any clinical evaluation
-- **Clarify regulatory status:** Confirm whether Kanamycin can be imported or compounded in Singapore given zero current registrations
-- **Resistance landscape review:** Assess contemporary antimicrobial susceptibility data before pursuing any infectious disease indication, as resistance trends (particularly in *N. gonorrhoeae*) have shifted significantly since the bulk of the supporting literature was published
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -29,104 +29,87 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Methylprednisolone: From Systemic Anti-Inflammatory/Immunosuppressive Therapy to Alopecia Areata
+# Methylprednisolone: From Injectable Corticosteroid to Alopecia Areata
 
 ## One-Sentence Summary
 
-> Methylprednisolone is a synthetic glucocorticoid used broadly for anti-inflammatory and immunosuppressive therapy across autoimmune and inflammatory conditions.
-> The TxGNN model predicts it may be effective for **Alopecia Areata**,
-> with **18 clinical trials** and **20 publications** identified in the evidence pack, of which a smaller subset directly evaluates methylprednisolone pulse therapy in this indication.
-
----
+Methylprednisolone is a glucocorticoid marketed in Singapore as an injectable (powder for solution). The TxGNN model predicts it may be useful for **alopecia areata**, an autoimmune hair-loss disorder. Support comes from **20 publications** (mostly retrospective or open-label studies), **1 completed Phase 4 trial**, and no randomised controlled trial.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not registered in Singapore (no license record); as a systemic glucocorticoid, broadly indicated for anti-inflammatory / immunosuppressive therapy internationally |
-| Predicted New Indication | Alopecia Areata |
-| TxGNN Prediction Score | 99.99% |
+| Predicted New Indication | Alopecia areata |
+| TxGNN Prediction Score | 99.99% (model rank 321) |
 | Evidence Level | L3 |
-| Singapore Market Status | ✗ Not marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
+| Recommended Decision | Hold |
 
----
+The registration records supplied for the two Singapore licences contain no approved-indication text, so the original indication is not listed here.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, Methylprednisolone is part of the systemic corticosteroid (glucocorticoid) class, its efficacy in anti-inflammatory and immunosuppressive therapy has been proven, and mechanistically may be applicable to Alopecia Areata.
+Detailed mechanism-of-action data for methylprednisolone is not available in the supplied record. Methylprednisolone is a glucocorticoid with broad anti-inflammatory and immunosuppressive activity.
 
-Alopecia areata is a T-cell-mediated autoimmune disease in which cytotoxic T lymphocytes attack the immune-privileged hair follicle, driving hair loss. Glucocorticoids such as methylprednisolone suppress cytotoxic T-cell infiltration and reduce peri-follicular inflammatory cytokines, which is directly relevant to this disease mechanism.
+Alopecia areata is a T-cell-mediated autoimmune attack on the hair follicle. Suppressing that immune response is the basis for using corticosteroids in it. Oral or IV pulse dosing is used off-label for severe or rapidly progressive disease.
 
-Intravenous or oral "pulse" methylprednisolone therapy is already an established clinical option for severe or treatment-resistant alopecia areata (as reflected in the clinical trial and literature evidence below), lending mechanistic and real-world plausibility to the TxGNN prediction. However, the evidence base consists largely of small cohort studies, retrospective analyses, and reviews rather than large randomized controlled trials of methylprednisolone specifically, so the prediction should be regarded as a reasonable but not yet definitively proven repurposing signal.
-
----
+The evidence is at drug-class level, not a new mechanism. It comes from retrospective or open-label studies. No Phase 2/3 RCT of methylprednisolone in alopecia areata was found in the supplied data. Pulse steroid therapy carries a known safety burden, and relapse after stopping is common.
 
 ## Clinical Trial Evidence
 
+The search returned 18 trials, but most are keyword matches unrelated to this drug or disease (mainly studies of other agents in lupus). Only the three below relate to alopecia.
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01167946](https://clinicaltrials.gov/study/NCT01167946) | Phase 4 | Completed | 42 | Oral mega-pulse methylprednisolone (higher dose, more frequent pulses than standard) evaluated in severe, therapy-resistant alopecia areata |
-| [NCT01017510](https://clinicaltrials.gov/study/NCT01017510) | N/A | Unknown | 20 | Compared DERMOJET (needle-free) vs. conventional syringe for intralesional corticosteroid delivery in alopecia areata; a delivery-technique study rather than systemic pulse therapy |
-| [NCT07101471](https://clinicaltrials.gov/study/NCT07101471) | N/A | Completed | 296 | Observational safety/effectiveness study of tofacitinib in alopecia, with some participants receiving adjuvant prednisolone; provides background on the current systemic therapy landscape for severe alopecia areata |
-
-*Note: The evidence pack returned 18 trials total for this query; the remaining 15 (mostly systemic lupus erythematosus trials of unrelated drugs such as baricitinib, sirolimus, and monoclonal antibodies) were graded low relevance (Grade C) or unrelated to alopecia areata and are omitted here.*
-
----
+| [NCT01167946](https://clinicaltrials.gov/study/NCT01167946) | Phase 4 | Completed | 42 | Oral mega-pulse methylprednisolone in severe, therapy-resistant alopecia areata, using higher and more frequent pulses than earlier regimens. No results are supplied. |
+| [NCT01017510](https://clinicaltrials.gov/study/NCT01017510) | N/A | Unknown | 20 | Needle-free DERMOJET versus normal syringe for intralesional steroid injection in alopecia areata. The steroid used is not confirmed, so this is only indirectly relevant. |
+| [NCT07101471](https://clinicaltrials.gov/study/NCT07101471) | N/A | Completed | 296 | Observational safety study of tofacitinib in alopecia, with or without adjuvant prednisolone. Not a methylprednisolone study. |
 
 ## Literature Evidence
 
+No RCTs were found. The table lists the most relevant publications, with reviews first.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [32270396](https://pubmed.ncbi.nlm.nih.gov/32270396/) | 2020 | Systematic Review | Dermatology and Therapy | Systematic review of cyclosporine with and without systemic corticosteroids in alopecia areata; outcomes vary by regimen |
-| [37992355](https://pubmed.ncbi.nlm.nih.gov/37992355/) | 2023 | Review | Dermatology Practical & Conceptual | Reviews efficacy, relapse rates, side effects, and prognostic factors of different corticosteroid pulse regimens in alopecia areata |
-| [35986630](https://pubmed.ncbi.nlm.nih.gov/35986630/) | 2022 | Retrospective Cohort | Dermatologic Therapy | 26 patients with extensive alopecia areata: methylprednisolone alone vs. methylprednisolone + methotrexate, assessing whether combination is superior to monotherapy |
-| [25566921](https://pubmed.ncbi.nlm.nih.gov/25566921/) | 2015 | Cohort | Indian J Dermatol Venereol Leprol | Evaluated intravenous methylprednisolone pulse therapy in severe, extensive, therapy-resistant alopecia areata |
-| [22426909](https://pubmed.ncbi.nlm.nih.gov/22426909/) | 2012 | Clinical Study | Saudi Medical Journal | Intensive oral mega-pulse methylprednisolone regimen used in severe therapy-resistant alopecia areata |
-| [36865845](https://pubmed.ncbi.nlm.nih.gov/36865845/) | 2022 | Retrospective Study | Indian Journal of Dermatology | Examined sex-based differences in treatment response to steroid pulse therapy in alopecia areata |
-| [30745958](https://pubmed.ncbi.nlm.nih.gov/30745958/) | 2019 | Cohort | Open Access Maced J Med Sci | Methotrexate combined with mini-pulse doses of methylprednisolone evaluated in severe alopecia areata (Vietnamese cohort) |
-| [9777767](https://pubmed.ncbi.nlm.nih.gov/9777767/) | 1998 | Open Prospective Study | J Am Acad Dermatol | Open prospective study of 45 patients; single IV methylprednisolone pulse evaluated in recent-onset severe alopecia areata (<12 months duration) |
-| [21592197](https://pubmed.ncbi.nlm.nih.gov/21592197/) | 2011 | Retrospective Study | The Journal of Dermatology | 70 patients evaluated to identify prognostic factors for response to methylprednisolone pulse therapy and establish proper treatment indications |
-| [23336179](https://pubmed.ncbi.nlm.nih.gov/23336179/) | 2014 | Clinical Study | J Dermatolog Treat | Pulse methylprednisolone therapy evaluated for extensive alopecia areata as an approach to reduce long-term steroid side effects |
-
-*10 additional publications in the evidence pack (e.g., pediatric dosing reviews, case reports, and studies without relevance classification) are not shown here for brevity.*
-
----
+| [32270396](https://pubmed.ncbi.nlm.nih.gov/32270396/) | 2020 | Systematic Review | Dermatol Ther | Cyclosporine with or without systemic corticosteroids in alopecia areata, with varied outcomes. |
+| [37992355](https://pubmed.ncbi.nlm.nih.gov/37992355/) | 2023 | Review | Dermatol Pract Concept | Efficacy, relapse rates, side effects and prognostic factors of corticosteroid pulse therapy. |
+| [36461625](https://pubmed.ncbi.nlm.nih.gov/36461625/) | 2023 | Review | Pediatr Dermatol | Dosing regimens and side effects of pulse corticosteroids in children, where regimens are not well established. |
+| [35986630](https://pubmed.ncbi.nlm.nih.gov/35986630/) | 2022 | Retrospective cohort | Dermatol Ther | 26 patients with extensive disease: methylprednisolone alone (14) versus combined with methotrexate (12). |
+| [30745958](https://pubmed.ncbi.nlm.nih.gov/30745958/) | 2019 | Cohort | Open Access Maced J Med Sci | Methotrexate plus mini-pulse methylprednisolone in severe disease (Vietnamese experience). |
+| [25566921](https://pubmed.ncbi.nlm.nih.gov/25566921/) | 2015 | Cohort | Indian J Dermatol Venereol Leprol | IV methylprednisolone pulse therapy in severe alopecia areata. |
+| [25872976](https://pubmed.ncbi.nlm.nih.gov/25872976/) | 2015 | Retrospective study | Pediatr Dermatol | Early IV methylprednisolone pulses in severe childhood disease were followed by high relapse rates. |
+| [22426909](https://pubmed.ncbi.nlm.nih.gov/22426909/) | 2012 | Cohort | Saudi Med J | Intensive oral mega-pulse regimen in severe, therapy-resistant disease. |
+| [18608727](https://pubmed.ncbi.nlm.nih.gov/18608727/) | 2008 | Open-label study | J Dermatol Treat | Cyclosporine plus methylprednisolone in severe alopecia areata. |
+| [9777767](https://pubmed.ncbi.nlm.nih.gov/9777767/) | 1998 | Open prospective study | J Am Acad Dermatol | Single IV methylprednisolone pulse in 45 patients with ongoing hair loss of under 12 months. |
 
 ## Singapore Market Information
 
-Methylprednisolone currently has no registered product license on file in this evidence pack (0 authorizations; market status: not marketed). No product-level information (dosage form, approved indication text) is therefore available for Singapore at this time.
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN04683P | SOLU-MEDROL FOR INJECTION 500 mg/8 ml (Pfizer Manufacturing Belgium NV) | Injection, powder, for solution |
+| SIN14594P | METHYLPREDNISOLONE POWDER FOR SOLUTION FOR INJECTION 500mg (Mylan Laboratories Limited) | Injection, powder, lyophilized, for solution |
 
----
+Both products are injectable, which suits IV pulse dosing.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
-*(Note: Key warnings, contraindications, and drug-drug interaction data are flagged as a Blocking-severity data gap (DG001) in this evidence pack — this must be resolved before any formal safety review can proceed.)*
-
----
-
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-- The mechanistic link is strong (T-cell-mediated autoimmune pathology responsive to glucocorticoid immunosuppression), and methylprednisolone pulse therapy is already used off-label as an established option for severe, treatment-resistant alopecia areata across multiple cohort studies, retrospective analyses, and one completed Phase 4 trial. However, no large-scale RCT specific to methylprednisolone monotherapy exists, keeping the evidence level at L3.
+The biological rationale is plausible, and there are many published series of pulse methylprednisolone in severe alopecia areata. However, the evidence is retrospective or open-label, no Phase 2/3 RCT was found, and relapse after stopping is common. The HSA package insert warnings and contraindications are also missing, so safety screening cannot proceed. This remains a research question.
 
 **To proceed, the following is needed:**
-- Singapore/HSA package insert data (warnings, contraindications) — currently a Blocking data gap (DG001)
-- Detailed mechanism of action data from DrugBank — currently a High-severity data gap (DG002)
-- Drug-drug interaction data (current DDI query returned no results)
-- Larger controlled trials evaluating methylprednisolone specifically (as opposed to combination regimens) in alopecia areata
-- Route/dosage compatibility assessment, since this drug is not currently registered in the Singapore market
+- HSA package insert warnings and contraindications (blocking)
+- Mechanism-of-action data from DrugBank
+- A controlled trial or systematic review specific to methylprednisolone in alopecia areata
+- A safety and relapse-management plan for repeated pulse dosing
 
----
-
-### Other Candidates Reviewed (Not Prioritized)
-
-This evidence pack also screened nine additional TxGNN-predicted indications for methylprednisolone. Most (alopecia mucinosa, telogen effluvium, folliculitis decalvans, and several rare genetic alopecia syndromes) had no supporting clinical trial or literature evidence and were assessed as **Hold (L5, model prediction only)** — several were flagged as likely false positives driven by semantic similarity to "alopecia"/"hair loss" keywords rather than genuine mechanistic relevance. One candidate, **idiopathic steroid-sensitive nephrotic syndrome** (L2, Proceed with Guardrails), had strong supporting evidence, but the reviewer noted this represents rediscovery of an already-standard corticosteroid therapy rather than a novel repurposing opportunity.
+The other seven predicted indications (ranks 2–8 and 9) have no supporting clinical evidence and stay on Hold. Rank 10, steroid-sensitive nephrotic syndrome, is a standard steroid-class use rather than novel repurposing.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

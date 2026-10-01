@@ -29,60 +29,64 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Octreotide: From Neuroendocrine Hormone-Hypersecretion Syndromes to Vulvar Inverted Follicular Keratosis
+# Octreotide: From Hormone Suppression (Somatostatin Analogue) to Vulvar Inverted Follicular Keratosis
 
 ## One-Sentence Summary
 
-Octreotide is a somatostatin analog whose known mechanism suppresses GH/IGF-1, glucagon, gastrin, and VIP secretion along the gastro-entero-pancreatic-pituitary axis — used clinically for neuroendocrine hormone-hypersecretion conditions such as acromegaly and carcinoid syndrome. The TxGNN model's top-ranked prediction for this drug is **Vulvar Inverted Follicular Keratosis**, but this is supported by **0 clinical trials** and **0 publications**, and the evidence pack's own mechanistic review flags it as a likely knowledge-graph embedding artifact rather than a pharmacologically plausible lead.
+Octreotide is a somatostatin analogue that suppresses hormone secretion and is marketed in Singapore as injectable products (Sandostatin and Sandostatin LAR).
+The TxGNN model ranks **vulvar inverted follicular keratosis** as its top predicted new indication, but this is a model prediction only, with **0 clinical trials** and **0 publications** behind it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not registered in Singapore (drug not marketed locally); internationally used for neuroendocrine hormone-hypersecretion syndromes (e.g., acromegaly, carcinoid syndrome), consistent with its somatostatin-analog mechanism |
-| Predicted New Indication | Vulvar Inverted Follicular Keratosis |
+| Predicted New Indication | Vulvar inverted follicular keratosis |
 | TxGNN Prediction Score | 99.58% |
-| Evidence Level | L5 (model prediction only, no supporting trials or literature) |
-| Singapore Market Status | ✗ Not marketed (Not marketed) |
-| Number of Registrations | 0 |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for Octreotide is not available as a structured field in this evidence pack, but the underlying rationale text confirms it acts as a somatostatin analog, binding somatostatin receptors (SSTR1–5) to inhibit growth hormone/IGF-1, glucagon, gastrin, and vasoactive intestinal peptide (VIP) secretion — the basis for its established use in neuroendocrine hormone-hypersecretion states.
+Octreotide is a somatostatin analogue that acts on somatostatin receptors (mainly SSTR2 and SSTR5) to suppress hormone secretion. Detailed mechanism data were not supplied with this evidence pack, and the Singapore registration records provide no approved-indication text.
 
-Vulvar inverted follicular keratosis is a benign, localized epidermal/follicular keratinocyte proliferative lesion. There is no established relationship between somatostatin receptor signaling and follicular keratinization pathology, and the original indication (systemic neuroendocrine hormone excess) shares neither organ system nor pathophysiology with the predicted one (localized benign skin lesion).
-
-Per the evidence pack's own repurposing rationale, this high TxGNN score most likely reflects proximity of the "keratosis" disease node to other skin/keratinization-related nodes within the knowledge graph embedding space, rather than genuine pharmacological plausibility. No mechanistic pathway currently supports applying Octreotide to this indication.
+We could not identify a plausible biological link between somatostatin receptor signalling and vulvar inverted follicular keratosis, a benign follicular skin lesion. The high score (99.58%) most likely reflects proximity in the knowledge graph rather than independent biological or clinical support. The second-ranked prediction, seborrheic keratosis (99.55%), also has no mechanism or clinical data, and the two appear to share a graph neighbourhood.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Octreotide is not currently registered or marketed in Singapore under this evidence pack (0 licenses on record); no HSA authorization data is available for review.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN11638P | Sandostatin LAR for Injection 30 mg | Injection | Not listed in registration data |
+| SIN03808P | Sandostatin Injection 0.1 mg/ml | Injection | Not listed in registration data |
+| SIN11637P | Sandostatin LAR for Injection 20 mg | Injection | Not listed in registration data |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No warnings, contraindications or drug interactions were available in this evidence pack.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction carries a high TxGNN score but zero clinical or literature support (L5), and the model's own mechanistic assessment identifies it as a probable false-positive driven by embedding proximity rather than a biologically grounded hypothesis linking somatostatin signaling to follicular keratosis.
+The prediction has no supporting trials or literature (L5), and no plausible mechanistic link to a benign follicular skin lesion. It is likely a knowledge-graph artefact.
+
+Among the other top-10 predictions, Addison disease (L4) has some literature, but that literature does not support treatment. It consists of one case report of a corticotropic adenoma, one study showing no acute effect of octreotide on pituitary-adrenal function, and two papers unrelated to octreotide treatment. Adrenocortical insufficiency (L5) has one paper with no octreotide-specific data. Neither prediction offers a therapeutic rationale, because lowering ACTH would not correct adrenal failure.
 
 **To proceed, the following is needed:**
-- Formal MOA and DrugBank mechanism data (DG002) to properly assess pathway plausibility
-- Preclinical or case-level evidence connecting SSTR signaling to keratinocyte/follicular proliferation
-- Singapore/HSA regulatory and safety data (DG001), given the drug is not currently marketed locally
-- Note: other candidates in this batch — Addison disease and adrenocortical insufficiency (both L4, with limited diagnostic-use literature) and primary hypereosinophilic syndrome (flagged as a Research Question with a plausible SSTR-mediated rationale but no supporting data) — carry marginally stronger, though still preliminary, evidence and may warrant separate, focused evaluation rather than this top-ranked candidate.
+- Any preclinical or clinical signal linking somatostatin receptor signalling to follicular keratinocyte lesions
+- Package insert warnings and contraindications from HSA
+- Confirmed approved-indication text and mechanism of action data
+- A route-compatibility assessment: octreotide is available only as an injection in Singapore, and the target lesion would likely need a different route
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

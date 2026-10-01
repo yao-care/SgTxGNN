@@ -29,11 +29,11 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Procaine: From Unspecified Original Indication to Methemoglobinemia (Likely False-Positive Prediction)
+# Procaine: From Local Anaesthesia to Methemoglobinemia
 
 ## One-Sentence Summary
 
-Procaine's original approved indication and mechanism of action are not available in this evidence pack (data gap). TxGNN's top-ranked prediction is **Methemoglobinemia**, but the supporting literature actually documents procaine as a **cause** of methemoglobinemia rather than a treatment for it — this is most likely a reversed-causality artifact, not a genuine repurposing signal. Of the 10 candidates reviewed, only two (fibromyalgia, tendinitis — ranks 7–8) show a biologically plausible treatment relationship, though evidence quality remains low (L3).
+Procaine is an ester-type local anaesthetic, and the only Singapore product is a 2% topical lotion. The TxGNN model ranks **methemoglobinemia** as its top prediction, but the supporting literature (**0 clinical trials, 8 publications**) shows procaine *causing* methemoglobinemia, not treating it. This is most likely a drug-adverse-effect association, not a therapeutic one.
 
 ---
 
@@ -41,25 +41,23 @@ Procaine's original approved indication and mechanism of action are not availabl
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available (no Taiwan/Singapore license data, `original_indications` empty) |
+| Original Indication | Local anaesthesia (drug class; no indication text in the Singapore registration record) |
 | Predicted New Indication | Methemoglobinemia |
 | TxGNN Prediction Score | 99.50% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 (case reports and observational data only, all pointing to harm, not benefit) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (`original_moa: [Data Gap]`), and no approved indication is on file for Procaine in this jurisdiction.
+Currently, detailed mechanism of action data is not available. Procaine is a local anaesthetic of the ester class, and its efficacy as a local anaesthetic is well established. Nothing in the data suggests a mechanism by which it would treat methemoglobinemia.
 
-More importantly, **this prediction does not appear mechanistically reasonable**. The literature retrieved for "methemoglobinemia" consistently describes procaine as an oxidizing agent that *causes* methemoglobinemia — through its metabolites, analogous to other aromatic-amine-type oxidants — rather than a drug used to *treat* it. Case reports (e.g. PMID 5529388, PMID 705003) and a cohort study (PMID 3691245) all frame procaine as the causal trigger, not the therapy.
+The retrieved literature points the other way. Case reports describe methemoglobinemia after intravenous procaine in adults and after subcutaneous procaine infiltration in a newborn. A 1987 observational study examined the effect of intravenous procaine anaesthesia on methemoglobin levels, and a 1965 report describes the same problem with lignocaine. The high TxGNN score therefore likely reflects a drug-induced adverse-effect link in the knowledge graph. It should be read as a safety signal, not a repurposing opportunity.
 
-This pattern is consistent with a known failure mode of knowledge-graph embedding models: a strong "drug–disease" association can be learned from literature co-occurrence without the model distinguishing *causes* from *treats*. TxGNN's high score (99.50%) here most likely reflects this causal-direction confusion rather than a genuine repurposing opportunity. The same caveat applies to rank 2 (methemoglobinemia, alpha type) and rank 5 (methemoglobin reductase deficiency), and a similar causal reversal is documented for rank 4 (anaphylaxis, where procaine/procaine-penicillin is the allergen, not the treatment).
-
-Among the 10 candidates in this evidence pack, only **fibromyalgia** (rank 7, L3, historical trigger-point/intradermal procaine injections for fibrositis) and **tendinitis** (rank 8, L3, supported by a 2022 prospective cohort using 1% procaine for supraspinatus tendinopathy, plus a 2013 RCT of local-anesthetic vs. steroid injection for lateral epicondylitis) have a biologically coherent, direction-correct treatment rationale — local anesthetic infiltration for pain/spasm relief. These are worth separate evaluation but are **not** the top-ranked candidate.
+The other top-ranked predictions follow a similar pattern. Alpha-type methemoglobinemia and methemoglobin reductase deficiency are closely related conditions, so they are more likely safety concerns than treatment targets. Fibromyalgia and tendinitis are the two predictions with a plausible therapeutic rationale (see Conclusion).
 
 ---
 
@@ -73,30 +71,37 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [5529388](https://pubmed.ncbi.nlm.nih.gov/5529388/) | 1970 | Case Report | Acta physiologica latino americana | Reports methemoglobinemia caused by intravenous procaine — procaine as causal agent, not therapy. |
-| [5644303](https://pubmed.ncbi.nlm.nih.gov/5644303/) | 1968 | Unclassified | American Journal of Obstetrics and Gynecology | Studies placental passage of procaine and PABA; not related to methemoglobinemia treatment. |
-| [6705717](https://pubmed.ncbi.nlm.nih.gov/6705717/) | 1984 | Review | Drugs | General review of rational local anaesthetic use; no methemoglobinemia-specific findings. |
-| [14246695](https://pubmed.ncbi.nlm.nih.gov/14246695/) | 1965 | Case Report | Lancet | Methaemoglobinaemia following lignocaine (a related but different local anaesthetic, not procaine). |
-| [5118947](https://pubmed.ncbi.nlm.nih.gov/5118947/) | 1971 | Unclassified | Laval Medical | General overview article on local anaesthetics. |
-| [3691245](https://pubmed.ncbi.nlm.nih.gov/3691245/) | 1987 | Cohort | Zhonghua wai ke za zhi (Chinese Journal of Surgery) | Studies effect of intravenous procaine anesthesia on methemoglobin levels — procaine raises MetHb. |
-| [6745527](https://pubmed.ncbi.nlm.nih.gov/6745527/) | 1984 | Unclassified | Fundamental and Applied Toxicology | Discusses toxicologic interactions of organophosphate insecticides; only tangentially relevant. |
-| [705003](https://pubmed.ncbi.nlm.nih.gov/705003/) | 1978 | Case Report | Revista Española de Anestesiología y Reanimación | Methemoglobinemia in a newborn after subcutaneous procaine (novocaine) infiltration during general anesthesia — again, procaine as cause. |
+| [5529388](https://pubmed.ncbi.nlm.nih.gov/5529388/) | 1970 | Case report | Acta Physiol Latinoam | Methemoglobinemia due to intravenous procaine (an adverse effect) |
+| [3691245](https://pubmed.ncbi.nlm.nih.gov/3691245/) | 1987 | Observational study | Zhonghua Wai Ke Za Zhi | Effect of intravenous procaine anaesthesia on methemoglobin levels |
+| [705003](https://pubmed.ncbi.nlm.nih.gov/705003/) | 1978 | Case report | Rev Esp Anestesiol Reanim | Methemoglobinemia in a newborn after subcutaneous procaine (novocaine) infiltration during general anaesthesia |
+| [14246695](https://pubmed.ncbi.nlm.nih.gov/14246695/) | 1965 | Case report | Lancet | Methemoglobinemia following lignocaine, a related local anaesthetic |
+| [6705717](https://pubmed.ncbi.nlm.nih.gov/6705717/) | 1984 | Review | Drugs | Rational use of local anaesthetics (general background) |
+| [5118947](https://pubmed.ncbi.nlm.nih.gov/5118947/) | 1971 | Review | Laval Med | Overview of local anaesthetics (general background) |
+| [5644303](https://pubmed.ncbi.nlm.nih.gov/5644303/) | 1968 | Pharmacokinetic study | Am J Obstet Gynecol | Placental passage of procaine and para-aminobenzoic acid (not directly relevant) |
+| [6745527](https://pubmed.ncbi.nlm.nih.gov/6745527/) | 1984 | Review | Fundam Appl Toxicol | Toxicological interactions of organophosphate insecticides (not directly relevant) |
 
-**Note:** All eight papers describe procaine as a *cause* of methemoglobinemia, not as a candidate treatment. This directly undermines the repurposing hypothesis for rank 1.
+None of these publications reports a therapeutic benefit of procaine in methemoglobinemia.
 
 ---
 
 ## Singapore Market Information
 
-Procaine currently has **no product registrations on file** in Singapore (market status: Not Marketed, 0 licenses).
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN09166P | PROCANOL LOTION 2% (ICM Pharma Pte. Ltd.) | Lotion | Not stated in the registration record |
+
+The only registered form is a topical lotion. The methemoglobinemia reports involve intravenous or infiltration use, so any extrapolation across routes would need separate justification.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: No interaction records were found for procaine in the queried database.
+- **Signals from the retrieved literature** (not from the package insert):
+  - Methemoglobinemia, including in a newborn.
+  - Hypersensitivity: ester-type local anaesthetics such as procaine are mainly associated with contact dermatitis (type IV). Reactions to procaine-penicillin (e.g., Hoigné's syndrome) are also described.
 
-**Blocking data gap:** TFDA/HSA label warnings and contraindications for Procaine are not currently available in this evidence pack (`DG001`, severity: Blocking). This must be resolved before any S1 safety pre-evaluation can proceed. Drug-drug interaction search also returned no results (`query_status: not_found`, 0 interactions found).
+Please refer to the package insert for key warnings and contraindications.
 
 ---
 
@@ -105,12 +110,15 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (methemoglobinemia) is most likely a reversed-causality artifact — all supporting literature shows procaine causing the condition, not treating it — so it does not represent a credible repurposing candidate. Combined with a blocking safety data gap (no TFDA/HSA label data) and zero current market presence in Singapore, there is no basis to advance this candidate.
+The top prediction is not supported as a treatment. The available evidence shows procaine causing methemoglobinemia, and there are no clinical trials. The TxGNN score appears to reflect a safety association, not therapeutic potential.
 
 **To proceed, the following is needed:**
-- Resolve `DG001`: obtain TFDA/HSA label warnings and contraindications (Blocking — required before any safety pre-evaluation)
-- Resolve `DG002`: obtain Procaine's mechanism of action from DrugBank to properly assess mechanistic plausibility
-- If pursuing repurposing research, redirect focus away from rank 1 (methemoglobinemia) and instead scope a research question around the two candidates with direction-correct, if still weak (L3), evidence: **fibromyalgia** (rank 7) and **tendinitis** (rank 8), both involving local-anesthetic infiltration for pain/spasm — noting most supporting studies used other local anesthetics (e.g. lidocaine) rather than procaine itself, so procaine-specific extrapolation still needs validation
+- Singapore package insert warnings and contraindications (HSA), which are currently missing and block safety screening.
+- Mechanism of action data (e.g., from DrugBank).
+- A decision on whether to deprioritise methemoglobinemia, alpha-type methemoglobinemia and methemoglobin reductase deficiency as therapeutic targets and handle them as safety flags.
+- Consideration of fibromyalgia and tendinitis as research questions. Local procaine injection is mechanistically plausible there. The evidence is a 2022 neural therapy study in supraspinatus tendinopathy and a 2013 comparison of local anaesthetic versus corticosteroid injection in lateral epicondylitis, with no controlled trials for fibromyalgia. Study designs would need verification, and the Singapore lotion would not cover injection routes.
+
+*This report is for research reference only and does not constitute medical advice. Predicted indications require clinical validation before any clinical application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

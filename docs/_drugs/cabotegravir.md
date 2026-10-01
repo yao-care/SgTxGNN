@@ -29,80 +29,71 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cabotegravir: From HIV Infection to Rheumatoid Arthritis
+# Cabotegravir: From HIV-1 Infection to Rheumatoid Arthritis
 
 ## One-Sentence Summary
 
-Cabotegravir (CAB) is an integrase strand transfer inhibitor (INSTI) approved for HIV-1 treatment and pre-exposure prophylaxis (PrEP), available as a long-acting injectable formulation.
-The TxGNN model predicts it may be effective for **Rheumatoid Arthritis**, with **0 clinical trials** and **0 publications** currently supporting this direction.
-This prediction is classified as model-only (L5) and is considered highly speculative at this stage.
-
----
+Cabotegravir is an HIV integrase strand transfer inhibitor, sold in Singapore as oral tablets and long-acting injectable suspensions under the brand name Vocabria.
+The TxGNN model predicts it may be effective for **rheumatoid arthritis**, with a very high score (99.45%).
+However, there are currently **0 clinical trials** and **0 publications** supporting this prediction, so it rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | HIV-1 infection treatment and pre-exposure prophylaxis (PrEP) |
-| Predicted New Indication | Rheumatoid Arthritis |
+|------|------|
+| Original Indication | HIV-1 infection (inferred from its drug class; the Singapore registration records provide no indication text) |
+| Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 99.45% |
-| Evidence Level | L5 |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 3 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in the data pack. Based on known pharmacological information, Cabotegravir is an integrase strand transfer inhibitor (INSTI) — it works by binding to and blocking HIV integrase, the viral enzyme responsible for inserting viral DNA into the host cell genome. The cellular cofactor LEDGF/p75, which HIV exploits for nuclear targeting, is also known to interact with certain host transcriptional pathways.
+Currently, detailed mechanism of action data is not available in the input. Based on known information, cabotegravir is an HIV integrase strand transfer inhibitor. Its role is to block a viral enzyme needed for HIV to integrate into host DNA.
 
-The proposed mechanistic link to rheumatoid arthritis (RA) is highly speculative: LEDGF/p75 has been associated with stress-response gene regulation, and there are indirect hypotheses that INSTI-mediated interference with this cofactor could modulate NF-κB-related inflammatory signalling — a pathway central to RA pathogenesis. Additionally, some observational data from HIV patients on antiretroviral therapy (ART) have noted improvement in inflammatory arthropathy symptoms, though this has not been specifically attributed to CAB.
+No established link exists between this mechanism and rheumatoid arthritis, which is an autoimmune inflammatory joint disease. Integrase inhibition targets a viral enzyme and has no known role in the immune pathways that drive the disease. The high TxGNN score reflects a pattern in the knowledge graph, not a documented biological rationale.
 
-However, no direct mechanistic studies, animal models, or clinical investigations have tested Cabotegravir specifically in RA. The mechanistic link remains at the level of biological conjecture. The TxGNN high score likely reflects graph-proximity between HIV-related immune nodes and autoimmune disease nodes in the knowledge graph, rather than a genuine treatment signal.
-
----
+Route compatibility and similarity to the original indication have not yet been assessed.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Cabotegravir is currently not registered in Singapore. No product authorisations on record.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN16541P | Vocabria Film-Coated Tablets 30 mg | Film-coated tablet | Not provided in registry data |
+| SIN16543P | Vocabria Prolonged-Release Suspension for Injection 400 mg/2 mL | Suspension for injection | Not provided in registry data |
+| SIN16542P | Vocabria Prolonged-Release Suspension for Injection 600 mg/3 mL | Suspension for injection | Not provided in registry data |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: The interaction query returned no records, so this is not evidence that no interactions exist.
 
-> **Note for reviewers:** Cabotegravir is known from post-marketing experience to carry a risk of mild hepatotoxicity (cholestatic injury cases reported). INSTI class agents including CAB are also associated with metabolic effects such as weight gain and insulin resistance, which would be relevant considerations if any future RA indication were explored.
-
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There is no clinical trial or published literature evidence supporting Cabotegravir's use in rheumatoid arthritis. The TxGNN prediction is based entirely on knowledge graph topology, and the mechanistic link between HIV integrase inhibition and RA pathophysiology is highly speculative with no experimental validation.
+The prediction is supported only by the model score. No trials or drug-specific publications link cabotegravir to rheumatoid arthritis, and there is no plausible mechanistic connection. The other top-ranked predictions (for example sclerosing cholangitis, bronchitis and diabetic retinopathy) are equally unsupported. The 18 papers retrieved for the tenth-ranked prediction are background reviews of congenital eye anomalies and do not mention cabotegravir, so they do not count as evidence.
 
 **To proceed, the following is needed:**
+- Mechanism of action data for cabotegravir (for example from DrugBank)
+- A documented biological rationale linking integrase inhibition, or any secondary pharmacology, to rheumatoid arthritis
+- Preclinical or early clinical evidence in rheumatoid arthritis
+- The HSA package insert, to obtain approved indications, warnings and contraindications
+- An assessment of whether long-acting injectable dosing suits rheumatoid arthritis
 
-- **Mechanism of action clarification**: Retrieve formal DrugBank MOA data to assess whether any downstream target of CAB (e.g., LEDGF/p75-NF-κB axis) has a plausible validated role in RA
-- **Preclinical evidence**: In vitro or animal model data demonstrating any anti-inflammatory effect of CAB on RA-relevant pathways (e.g., TNF-α, IL-6, synovial fibroblast activity)
-- **Comparative INSTI review**: Evaluate whether other INSTI agents (dolutegravir, bictegravir) show any signals in inflammatory arthritis, to support or refute class-level extrapolation
-- **Safety data gap resolution**: Obtain TFDA/FDA prescribing information to assess hepatotoxicity and metabolic risk in potential RA patient populations (who may already have liver or metabolic comorbidities)
-- **Singapore regulatory pathway**: CAB is not marketed in Singapore; any repurposing programme would need to address regulatory registration strategy from the ground up
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

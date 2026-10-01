@@ -29,11 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Oxymetholone: From Aplastic Anemia to Seborrheic Dermatitis
+# Oxymetholone: From Anabolic Steroid (Registered Indication Not Listed) to Seborrheic Dermatitis
 
 ## One-Sentence Summary
 
-Oxymetholone is a 17α-alkylated anabolic-androgenic steroid whose established clinical use is stimulating red blood cell production in aplastic anemia. The TxGNN model predicts a possible link to **Seborrheic Dermatitis**, but this is currently based on knowledge-graph topology alone — **0 clinical trials** and **0 publications** support this specific indication, and the underlying rationale actually points toward a risk of aggravation rather than treatment.
+Oxymetholone is an oral anabolic-androgenic steroid marketed in Singapore as a 50 mg tablet, but its registered indication is not stated in the available data.
+The TxGNN model predicts it may be effective for **seborrheic dermatitis**, but this is a graph-based prediction only, with **0 clinical trials** and **0 publications** supporting it.
 
 ---
 
@@ -41,41 +42,59 @@ Oxymetholone is a 17α-alkylated anabolic-androgenic steroid whose established c
 
 | Item | Content |
 |------|------|
-| Original Indication | Aplastic anemia (per known pharmacology noted in the evidence rationale; not derived from a Singapore registration, as the drug is unmarketed there) |
-| Predicted New Indication | Seborrheic Dermatitis |
+| Original Indication | Not stated in the Singapore registration data |
+| Predicted New Indication | Seborrheic dermatitis |
 | TxGNN Prediction Score | 99.05% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for Oxymetholone is not available in the evidence pack (MOA: Data Gap). Based on known information cited alongside the prediction, Oxymetholone is a synthetic anabolic-androgenic steroid whose proven clinical efficacy is in stimulating erythropoiesis for aplastic anemia — it is not part of a recognized dermatological drug class.
+Currently, detailed mechanism of action data is not available. Oxymetholone is an anabolic-androgenic steroid. Its original indication could not be confirmed from the registration data, so a mechanistic bridge to the new indication cannot be verified.
 
-The mechanistic link offered for seborrheic dermatitis is that androgen receptor activation increases sebaceous gland secretion and keratinocyte proliferation, which theoretically overlaps with the sebaceous-gland pathophysiology of seborrheic dermatitis. However, this overlap points in the **wrong direction**: increased androgenic sebum production is more consistent with worsening or triggering seborrheic dermatitis than treating it. The TxGNN score reflects graph-topological similarity between disease/drug nodes, not a validated therapeutic hypothesis, and no clinical or literature evidence currently exists to support a treatment effect.
+The prediction is difficult to justify on pharmacological grounds. Androgens stimulate sebaceous gland activity, so a worsening of seborrheic conditions is at least as plausible as a benefit. The high score most likely reflects proximity in the knowledge graph rather than a real drug-disease relationship.
 
-Given the theoretical mechanism runs counter to a therapeutic rationale, and no supporting trials or publications exist, this candidate should be treated as a low-confidence, hypothesis-generating signal only.
+The other top-ranked predictions are also L5 (model prediction only), with no trials or literature:
+
+| Rank | Predicted Indication | TxGNN Score |
+|------|------|------|
+| 2 | Primary release disorder of platelets | 98.68% |
+| 3 | Pseudo-von Willebrand disease | 98.53% |
+| 4 | Seborrheic keratosis | 97.05% |
+| 5 | Vulvar inverted follicular keratosis | 96.49% |
+| 6 | Glanzmann thrombasthenia | 95.95% |
+| 7 | Fetal and neonatal alloimmune thrombocytopenia | 93.88% |
+| 8 | Psoriasis | 93.34% |
+| 9 | Parapsoriasis | 92.85% |
+| 10 | Acute lichenoid pityriasis | 90.73% |
+
+The platelet-related predictions rest only on a speculative, indirect rationale: androgenic agents such as danazol have been used in some haematological conditions. For fetal and neonatal alloimmune thrombocytopenia, there is an additional concern about virilization of the fetus.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
 
 ---
 
 ## Singapore Market Information
 
-Oxymetholone is not marketed in Singapore — no registration records are available (total_licenses = 0).
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN09975P | HAN SEO OXYMETHOLONE TABLET 50 mg | Tablet (oral) | HAN SEO PHARM CO LTD |
+
+The approved indication text is blank in the registration record.
 
 ---
 
@@ -90,13 +109,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests solely on knowledge-graph similarity (L5, S0) with zero supporting clinical trials or literature, and the proposed androgenic mechanism plausibly worsens rather than treats seborrheic dermatitis. The drug is also unmarketed in Singapore, with no safety or MOA data currently available.
+The prediction has no supporting trials or literature (L5), and no verifiable mechanism. The known pharmacology of androgens, including increased sebaceous activity and hepatotoxicity concerns for a systemic anabolic steroid, argues against benefit in seborrheic dermatitis.
 
 **To proceed, the following is needed:**
-- TFDA/manufacturer package insert (warnings, contraindications) — currently a Blocking data gap
-- Verified mechanism of action data from DrugBank or primary literature
-- Preclinical or case-level evidence specifically evaluating androgens in seborrheic dermatitis, including assessment of sebum-stimulation risk
-- Confirmation of regulatory pathway, since the drug has no existing Singapore registration to leverage
+- Package insert warnings and contraindications from the HSA (currently blocking any safety screening)
+- The registered indication and mechanism of action (for example from DrugBank)
+- A targeted literature and trial search for oxymetholone or androgens in seborrheic dermatitis
+- A review of whether a stronger candidate exists among the other predictions, such as those with a clearer haematological link
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

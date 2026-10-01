@@ -29,77 +29,70 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Bisacodyl: From Constipation to Exercise-Induced Malignant Hyperthermia
+# Bisacodyl: From Stimulant Laxative Use to Exercise-Induced Malignant Hyperthermia
 
 ## One-Sentence Summary
 
-Bisacodyl is a well-established stimulant laxative used for the management of constipation and bowel preparation prior to colonoscopy or surgical procedures.
-The TxGNN model predicts it may be effective for **Exercise-Induced Malignant Hyperthermia**, with a prediction score of **97.69%**;
-however, **no clinical trials or published literature** currently support this direction, and the mechanistic rationale is considered biologically implausible.
-
----
+Bisacodyl is a stimulant laxative that acts locally on the colon.
+The TxGNN model predicts it may be effective for **exercise-induced malignant hyperthermia**,
+but **no clinical trials and no publications** currently support this prediction, and no plausible mechanistic link has been identified.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Constipation; pre-procedure bowel preparation (standard pharmacological use; no Singapore HSA registration on file) |
-| Predicted New Indication | Exercise-Induced Malignant Hyperthermia |
+|------|------|
+| Original Indication | Not stated in the registration data; bisacodyl is a stimulant laxative |
+| Predicted New Indication | Exercise-induced malignant hyperthermia |
 | TxGNN Prediction Score | 97.69% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 11 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data from DrugBank is not available for this report. Based on established pharmacological knowledge, Bisacodyl is a stimulant laxative that acts directly on the colonic mucosa. It inhibits water and electrolyte reabsorption, stimulates the myenteric plexus, and accelerates colonic transit — effects localised entirely to the gastrointestinal tract.
+Currently, detailed mechanism of action data is not available in the input. Based on known information, bisacodyl is a stimulant laxative. Its active metabolite stimulates enteric neurons and reduces water absorption in the colon.
 
-Exercise-induced malignant hyperthermia (MH) is a genetic disorder of skeletal muscle calcium regulation driven by loss-of-function or gain-of-function mutations in the **RYR1** or **CACNA1S** genes. During physical exertion or heat stress, these mutations cause uncontrolled calcium release from the sarcoplasmic reticulum, triggering a life-threatening hypermetabolic crisis characterised by rigidity, hyperthermia, and rhabdomyolysis.
+Exercise-induced malignant hyperthermia is a skeletal-muscle disorder involving calcium dysregulation (RYR1). It has no recognised connection to colonic motility or secretion. The high score (0.977) is a graph-based prediction only. It sits alongside several other malignant hyperthermia terms in the ranking, which suggests a knowledge-graph artifact rather than a genuine pharmacological signal.
 
-There is no identifiable mechanistic bridge between Bisacodyl's colonic action and the calcium channelopathy underlying exercise-induced MH. The two pathologies involve entirely distinct anatomical locations, receptor systems, and signalling pathways. The elevated TxGNN score is most likely attributable to indirect graph noise around "hyperthermia"-related nodes in the knowledge graph, rather than any true pharmacological connection. This prediction is considered **biologically implausible** and is flagged as a model artefact.
-
----
+On current evidence, this prediction is not mechanistically supported.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Bisacodyl is not currently registered with the Singapore Health Sciences Authority (HSA). No product authorisation records are on file.
+Eleven registrations exist; five main ones are listed below. The registration data do not include approved indication text.
 
----
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN02432P | LAXODYL TABLET 5 mg | Enteric coated tablet | Sunward Pharmaceutical Private Limited |
+| SIN02689P | S.L. LAXATIVE TABLET 5 mg | Enteric coated tablet | Beacons Pharmaceuticals Pte. Ltd. |
+| SIN03319P | UNILAX TABLET 5 mg | Enteric coated tablet | Beacons Pharmaceuticals Pte. Ltd. |
+| SIN03615P | BISACODYL TABLET 5 mg | Enteric coated tablet | Beacons Pharmaceuticals Pte. Ltd. |
+| SIN14002P | BISACODYL SUPPOSITORIES 5MG | Suppository | Y.S.P. Industries (M) Sdn. Bhd. |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite a high TxGNN model score (97.69%), this prediction lacks any mechanistic plausibility — Bisacodyl acts exclusively on the colonic mucosa while exercise-induced MH is a genetically-driven skeletal muscle calcium channelopathy — and is supported by zero clinical trials or published literature. The absence of Singapore market registration further removes any existing safety dataset to draw upon.
+The prediction rests on model score alone (L5), with no trials, no literature and no plausible mechanism linking a colonic stimulant laxative to a skeletal-muscle calcium disorder. The other top-ranked predictions (other malignant hyperthermia terms, respiratory infections, and others) show the same pattern of weak or absent support.
 
 **To proceed, the following is needed:**
-- Mechanism of action confirmation via DrugBank API to rule out any indirect pharmacological pathways not yet documented
-- Preclinical data demonstrating any effect of Bisacodyl (or related stimulant laxatives) on RYR1/CACNA1S channel function or skeletal muscle calcium homeostasis
-- Full Singapore package insert or equivalent (e.g., UK/EU SmPC, US label) for complete safety profile, contraindications, and drug interaction assessment
-- Independent pharmacological expert review to formally assess biological plausibility before any further resource allocation
-- Consideration of alternative drug candidates for exercise-induced MH with more mechanistically coherent TxGNN predictions
+- Package insert warnings and contraindications from the HSA
+- Mechanism of action data for bisacodyl
+- Independent preclinical or clinical evidence linking bisacodyl to malignant hyperthermia
+- Route compatibility assessment (currently pending)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

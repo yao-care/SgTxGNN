@@ -29,79 +29,68 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Carbetocin: From Postpartum Haemorrhage Prevention to Isotretinoin-Like Syndrome
+# Carbetocin: From an Unlisted Original Indication to Isotretinoin-like Syndrome
 
 ## One-Sentence Summary
 
-Carbetocin is a long-acting synthetic oxytocin analogue used clinically as a uterotonic agent for the prevention of postpartum haemorrhage following caesarean and vaginal delivery.
-The TxGNN model predicts it may be effective for **Isotretinoin-Like Syndrome** (score: 99.15%),
-however there are **0 clinical trials** and **0 publications** supporting this specific pairing — the mechanistic connection is entirely unestablished and the prediction is likely a knowledge-graph structural artefact.
-
-> ⚠️ **Notable finding across all 10 predictions:** **Prader-Willi syndrome** (rank 3, score 98.99%) is the only candidate with a biologically coherent rationale — OTR signalling deficits are a documented feature of this condition, and levo-carbetocin (RG7314) has previously entered Phase 2 trials in PWS. This warrants a separate, dedicated evidence pack.
-
----
+Carbetocin is a long-acting oxytocin receptor agonist, but the Singapore registration record does not state its original approved indication.
+The TxGNN model predicts it may be relevant to **isotretinoin-like syndrome**, a rare teratogenic-phenotype condition.
+Currently there are **0 clinical trials** and **0 publications** for this pair, so it is a graph-based prediction only.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Prevention of postpartum haemorrhage (uterotonic use; not registered in Singapore) |
-| Predicted New Indication | Isotretinoin-Like Syndrome |
+|------|------|
+| Original Indication | Not stated in the Singapore registration record |
+| Predicted New Indication | Isotretinoin-like syndrome |
 | TxGNN Prediction Score | 99.15% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Carbetocin is a structural analogue of oxytocin with a prolonged duration of action. It acts as an agonist at the oxytocin receptor (OTR), inducing sustained uterine contractions. Compared to native oxytocin, structural modifications at its N-terminus and C-terminus make it resistant to enzymatic degradation, resulting in a half-life approximately four to ten times longer. This property underpins its clinical role in uterotonic prophylaxis after delivery.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Carbetocin is generally known as a long-acting synthetic oxytocin receptor agonist. Nothing in the data links that mechanism to isotretinoin-like syndrome.
 
-Isotretinoin-like syndrome (retinoic acid embryopathy) is a congenital malformation syndrome caused by gestational exposure to retinoids. The affected pathways involve retinoic acid receptor (RAR/RXR) signalling and neural crest cell development — neither of which has any known intersection with the oxytocin/OTR axis. There is no pharmacological, genetic, or epidemiological basis linking OTR agonism to isotretinoin-related teratogenicity.
-
-The TxGNN model's high score for this pairing most likely reflects shared comorbidity structures or co-occurrence patterns within the knowledge graph rather than a genuine mechanistic relationship. Without an articulated biological hypothesis connecting these two, this prediction does not meet the threshold for further investment.
-
----
+The high score reflects proximity in the knowledge graph, not biological or clinical evidence. The record lists no original indication to compare against, so the similarity between original and new indication cannot be assessed. No mechanistic link is established, and the prediction should not be treated as actionable in its current form.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Carbetocin is not currently registered with HSA (Health Sciences Authority) Singapore. No product authorisations are on record.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN15173P | Duratocin RTS Solution for Injection 100 mcg/ml (Ferring GmbH) | Injection, solution | Not stated in the registry record |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: The interaction query returned no records for carbetocin.
 
----
+Please refer to the package insert for warnings and contraindications. These were not available in the Evidence Pack.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite a high TxGNN prediction score (99.15%), there is no established mechanistic pathway connecting oxytocin receptor agonism to isotretinoin-like syndrome, and the evidence base is entirely absent (L5 — model prediction only). Proceeding without any biological hypothesis or preclinical signal would not be a responsible use of resources.
+The prediction has no supporting trials or publications, no mechanistic link, and no stated original indication to compare against. Safety screening also cannot proceed without the package insert.
 
 **To proceed, the following is needed:**
+- The HSA package insert (warnings, contraindications, approved indication)
+- Mechanism of action data from DrugBank
+- Registry searches (ClinicalTrials.gov, ICTRP) and a PubMed search specific to this drug–disease pair
+- Route compatibility assessment (currently pending)
 
-- **Mechanistic hypothesis first:** Identify any biological pathway by which OTR agonism could intersect with retinoic acid teratogenicity before committing further resources to this pairing.
-- **Re-prioritise to Prader-Willi syndrome (rank 3):** Open a dedicated evidence pack for the PWS indication. The OTR–PWS mechanistic link is well-documented; cross-validate CARE-PWS (Levo-carbetocin / RG7314) trial data directly against ClinicalTrials.gov, as the current dataset shows 0 trials despite external knowledge indicating a Phase 2 study was conducted.
-- **Obtain complete safety profile:** Download and parse the relevant package insert (EMA SmPC or TFDA monograph) to populate key warnings, contraindications, and special population data (the primary data gap blocking S1 safety assessment).
-- **Confirm MOA via DrugBank API:** Complete the mechanism-of-action record to support any downstream mechanistic analysis for higher-priority candidates.
+Among the other top-10 candidates, **Prader-Willi syndrome due to paternal deletion of 15q11q13** (score 98.99%) is flagged as a Research Question. It has a plausible oxytocin-system rationale but also no supporting studies in the package. Partial deletion of the long arm of chromosome 15 overlaps that region and should be handled together with it.
+
+This report is for research reference only and does not constitute medical advice. Any repurposing candidate requires clinical validation before use.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

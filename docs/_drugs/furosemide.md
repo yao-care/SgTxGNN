@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Furosemide
-parent: Low Evidence (L5)
+parent: Medium Evidence (L3-L4)
 nav_order: 455
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Furosemide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,86 +29,87 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Furosemide: From Diuretic Therapy (Edema/Hypertension) to Malignant Renovascular Hypertension
+# Furosemide: From Loop Diuretic to Malignant Renovascular Hypertension
 
 ## One-Sentence Summary
 
-Furosemide is a loop diuretic long used internationally for fluid overload (edema due to cardiac, hepatic, or renal disease) and hypertension. The TxGNN model predicts it may also be effective for **Malignant Renovascular Hypertension**, but currently only **0 clinical trials** and **14 literature articles** support this direction, and most of that literature describes furosemide's use as a diagnostic *renin-stimulation test* rather than as a proven treatment for this specific condition.
-
----
+Furosemide is a loop diuretic that is already marketed in Singapore.
+The TxGNN model predicts it may be effective for **malignant renovascular hypertension**, but there are **0 clinical trials** and only **14 publications** retrieved. None of those publications tests furosemide as a treatment for this condition, so the prediction is essentially unsupported by clinical data.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Edema (cardiac/hepatic/renal) and hypertension — general international indication for this loop diuretic; no Singapore-specific approved indication text is available (drug is not currently registered) |
-| Predicted New Indication | Malignant Renovascular Hypertension |
+| Predicted New Indication | Malignant renovascular hypertension |
 | TxGNN Prediction Score | 98.03% |
-| Evidence Level | L3 (Observational studies; no RCTs identified) |
-| Singapore Market Status | ✗ Not Marketed (Not marketed) |
-| Number of Registrations | 0 |
+| Evidence Level | L4 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 10 |
 | Recommended Decision | Hold |
 
----
+The registration records retrieved do not state an approved indication, so the original indication row is omitted.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the structured record used for this evaluation (Data Gap DG002, severity High). Based on well-established pharmacology, furosemide is a loop diuretic that inhibits the Na⁺-K⁺-2Cl⁻ (NKCC2) cotransporter in the thick ascending limb of the loop of Henle, producing potent natriuresis and diuresis. Its efficacy in edema and hypertension is proven internationally, and mechanistically it may be applicable to malignant renovascular hypertension through its known effects on renal sodium handling and the renin-angiotensin-aldosterone system (RAAS).
+Currently, detailed mechanism of action data is not available. Based on known information, furosemide is a loop diuretic. Loop diuretics reduce circulating volume and are used as adjuncts in severe hypertension. Mechanistically, this could plausibly help in a volume-dependent form of hypertension.
 
-Malignant renovascular hypertension arises from severe renal artery stenosis, which chronically activates the RAAS and drives extreme, organ-damaging blood pressure elevation. Furosemide's diuretic action reduces intravascular volume and is known to *stimulate* renin release — a property literature has long exploited as a "furosemide stimulation test" to help diagnose secondary and renovascular hypertension, rather than as a direct disease-modifying treatment. Volume control with loop diuretics is nonetheless a recognized adjunct in managing the hypertensive-emergency component of malignant hypertension, typically alongside RAAS blockers (ACE inhibitors/ARBs) and, where indicated, revascularization.
+The link is ambiguous, however. Renovascular hypertension is driven by activation of the renin-angiotensin system, and furosemide stimulates renin release. Diuretic-induced renin stimulation could therefore worsen this disease rather than treat it. The high TxGNN score (0.98) is not backed by furosemide-specific clinical data.
 
-The TxGNN model's link between furosemide and malignant renovascular hypertension most likely reflects shared knowledge-graph connections through renin/RAAS pathway genes and hypertension-related disease nodes. This mechanistic plausibility is reasonable, but the supporting literature reflects furosemide's diagnostic and adjunctive volume-management role rather than confirmed therapeutic efficacy specifically for malignant renovascular hypertension, so the prediction should be interpreted cautiously.
-
----
+The retrieved literature reflects this. Furosemide mostly appears as a diagnostic renin-stimulation test, not as a therapy.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [397653](https://pubmed.ncbi.nlm.nih.gov/397653/) | 1979 | Clinical Review | Transactions of the American Association of Genito-Urinary Surgeons | Furosemide stimulates renin release and is used with saline suppression testing to differentiate causes of secondary hypertension, including renovascular disease |
-| [15080378](https://pubmed.ncbi.nlm.nih.gov/15080378/) | 2004 | Prospective Observational Study | Hypertension Research | In 1,020 hypertensive patients, a furosemide-plus-upright test was used in secondary screening to identify causes of secondary hypertension, including renovascular hypertension |
-| [844016](https://pubmed.ncbi.nlm.nih.gov/844016/) | 1977 | Case Report | Canadian Medical Association Journal | Furosemide screening test showed elevated plasma renin activity in a patient ultimately diagnosed with pheochromocytoma rather than renovascular hypertension, illustrating its differential-diagnostic use |
-| [2944248](https://pubmed.ncbi.nlm.nih.gov/2944248/) | 1986 | Observational Study | Tohoku Journal of Experimental Medicine | Furosemide altered active/inactive renin levels in hypertensive patients and was studied alongside renal angioplasty outcomes in renovascular hypertension |
-| [6321850](https://pubmed.ncbi.nlm.nih.gov/6321850/) | 1984 | Case Report | Klinische Wochenschrift | Describes a patient with malignant renovascular hypertension and chronic renal failure from bilateral renal artery occlusion, with reversible ACE-inhibitor-induced renal insufficiency |
-| [7977845](https://pubmed.ncbi.nlm.nih.gov/7977845/) | 1994 | Preclinical (Animal Study) | American Journal of Physiology | In a Goldblatt rat model of renovascular hypertension, thromboxane A2 receptor blockade reduced progression to malignant hypertension, supporting a renin/vascular-mediated mechanism |
-| [659766](https://pubmed.ncbi.nlm.nih.gov/659766/) | 1978 | Observational Study | Journal of the American Geriatrics Society | Serum uric acid and plasma renin activity were both elevated in malignant and renovascular hypertension versus essential hypertension, supporting a shared RAAS pathophysiology |
-| [30401909](https://pubmed.ncbi.nlm.nih.gov/30401909/) | 2019 | Prospective Registry Study | Hypertension Research | The SHRIMP study evaluated predictors of confirmatory testing for secondary hypertension causes, including renovascular disease, in patients with elevated aldosterone-to-renin ratio |
-| [3283072](https://pubmed.ncbi.nlm.nih.gov/3283072/) | 1988 | Retrospective Study | International Urology and Nephrology | Renal/renovascular lesions were more prominent in aldosteronism patients whose hypertension persisted despite treatment |
-| [34782](https://pubmed.ncbi.nlm.nih.gov/34782/) | 1979 | Case Series | Medizinische Klinik | Angiotensin-II blockade (saralasin) normalized blood pressure in resistant hypertensive crises, including a renovascular hypertension case, after conventional vasodilator therapy failed |
-
----
+| [7977845](https://pubmed.ncbi.nlm.nih.gov/7977845/) | 1994 | Animal study | Am J Physiol | Thromboxane receptor antagonist in rat Goldblatt (two-kidney, one-clip) hypertension. Not a furosemide study. |
+| [397653](https://pubmed.ncbi.nlm.nih.gov/397653/) | 1979 | Review | Trans Am Assoc Genito-Urinary Surg | Evaluation of secondary hypertension. Furosemide is used to stimulate renin release for diagnosis. |
+| [15080378](https://pubmed.ncbi.nlm.nih.gov/15080378/) | 2004 | Cohort | Hypertens Res | Prospective screening of 1,020 hypertensive patients for secondary hypertension. The furosemide plus upright test was a diagnostic step. |
+| [844016](https://pubmed.ncbi.nlm.nih.gov/844016/) | 1977 | Case report | CMAJ | Pheochromocytoma case. The furosemide screening test for renovascular hypertension was used diagnostically. |
+| [2944248](https://pubmed.ncbi.nlm.nih.gov/2944248/) | 1986 | Not classified | Tohoku J Exp Med | Changes in active and inactive renin after captopril or furosemide in hypertensive patients, including renovascular hypertension. |
+| [659766](https://pubmed.ncbi.nlm.nih.gov/659766/) | 1978 | Observational | J Am Geriatr Soc | Serum uric acid and renin activity in 96 patients with various hypertension types. Both were higher in malignant hypertension. |
+| [30401909](https://pubmed.ncbi.nlm.nih.gov/30401909/) | 2019 | Not classified | Hypertens Res | Registry study of confirmatory tests for primary hyperaldosteronism. Not about renovascular disease treatment. |
+| [1199811](https://pubmed.ncbi.nlm.nih.gov/1199811/) | 1975 | Clinical report | Acta Med Scand | IV diazoxide in 14 patients with severe hypertension. The drug studied is diazoxide, not furosemide. |
+| [34782](https://pubmed.ncbi.nlm.nih.gov/34782/) | 1979 | Not classified | Med Klin | Saralasin normalised blood pressure in 4 patients with resistant hypertensive crisis. The drug studied is saralasin, not furosemide. |
+| [6321850](https://pubmed.ncbi.nlm.nih.gov/6321850/) | 1984 | Case report | Klin Wochenschr | Reversible acute renal insufficiency after captopril and enalapril in a patient with malignant renovascular hypertension. |
 
 ## Singapore Market Information
 
-Furosemide currently has no registered product license in Singapore (0 authorizations on file; market status: Not Marketed). No indication or dosage-form data is available for this market.
+Furosemide is marketed in Singapore with 10 registrations. The main authorizations are listed below. The registration records retrieved do not include approved indication text.
 
----
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN14074P | RASITOL TABLET 40MG | Tablet |
+| SIN15131P | FUROSEMIDE FRESENIUS KABI SOLUTION FOR INJECTION 20MG/2ML | Injection, solution |
+| SIN00239P | DIRINE INJECTION 20 mg/2 ml | Injection |
+| SIN16712P | FUSETIC SOLUTION FOR INJECTION 20MG/2ML | Injection, solution |
+| SIN00199P | LASIX TABLET 40 mg | Tablet |
+
+Both oral (tablet) and injectable forms are available.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-interaction data for this evaluation are currently unavailable — TFDA/HSA label data has not yet been obtained, Data Gap DG001, severity Blocking.)
-
----
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-No clinical trials support furosemide's use in malignant renovascular hypertension, and the existing literature primarily describes furosemide's role as a diagnostic renin-stimulation reagent rather than proven therapy for this condition. Critically, package-insert safety data (warnings/contraindications) is missing and classified as a Blocking data gap, which prevents even an initial safety assessment (S1). The drug is also not currently registered in the Singapore market.
+The TxGNN score is high, but there are no clinical trials and no furosemide-specific treatment evidence. The retrieved literature is mainly diagnostic or animal data. The mechanism is also ambiguous, because furosemide-induced renin stimulation could aggravate renovascular hypertension. The evidence level is L4 and the prediction is currently a research question only.
 
 **To proceed, the following is needed:**
-- TFDA/HSA package insert (warnings, contraindications) — required to clear the Blocking data gap before any safety review can begin
-- Structured mechanism-of-action data from DrugBank to support mechanistic-relevance analysis
-- A targeted literature/expert review distinguishing furosemide's diagnostic (renin-stimulation test) use from any genuine treatment-efficacy evidence for malignant renovascular hypertension
-- Clarification of the regulatory pathway if Singapore market entry for this indication is being considered
-- Given the weak evidence for this top-ranked indication, consider evaluating other candidates in the same prediction set with stronger clinical trial support (e.g., chronic pulmonary heart disease, rank 6, which has 22 registered clinical trials) as a separate line of review
+- Package insert warnings and contraindications from the HSA website, which is a blocking gap for safety screening
+- Mechanism of action data from DrugBank, to analyse the mechanistic link
+- Furosemide-specific clinical or mechanistic studies in renovascular hypertension, including the effect of renin stimulation on disease control
+- A review of the label indications for the Singapore products, which are not stated in the records retrieved
+
+Among the other predicted indications, chronic renal failure and chronic kidney disease have the strongest evidence (L3). Their evidence supports symptomatic volume control, and this use may already fall within the approved label, so it may not be true repurposing. This is worth evaluating separately.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

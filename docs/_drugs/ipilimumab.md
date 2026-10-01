@@ -33,89 +33,72 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Ipilimumab (Yervoy) is an anti-CTLA-4 monoclonal antibody checkpoint inhibitor, globally approved for the treatment of unresectable or metastatic melanoma and other cancers.
-The TxGNN model ranks **Choroideremia** as its top predicted new indication with a prediction score of 99.06%; however, **no clinical trials or literature** currently support this direction.
-This prediction is assessed as a likely **model false positive** — choroideremia is an X-linked genetic retinal dystrophy with no plausible immunological connection to anti-CTLA-4 mechanisms.
-
----
+Ipilimumab is an anti-CTLA-4 antibody used in cancer immunotherapy, principally for melanoma.
+The TxGNN model predicts it may be effective for **choroideremia**, an inherited retinal degeneration.
+**No clinical trials** and **no publications** currently support this direction, and the mechanistic review found no plausible link.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Melanoma (globally approved; not registered in Singapore) |
+|------|------|
+| Original Indication | Melanoma (from the candidate's mechanistic notes; the Singapore licence record contains no indication text) |
 | Predicted New Indication | Choroideremia |
 | TxGNN Prediction Score | 99.06% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known clinical information, Ipilimumab is an anti-CTLA-4 monoclonal antibody that blocks the CTLA-4/B7 co-inhibitory interaction, releasing the brake on T-cell activation and amplifying anti-tumour immune responses. It is globally approved for unresectable or metastatic melanoma (cutaneous, uveal, and mucosal subtypes), non-small cell lung cancer, renal cell carcinoma, and several other indications — most often in combination with nivolumab (anti-PD-1).
+Detailed mechanism of action data is not available in the source record. Based on known information, ipilimumab blocks CTLA-4, a checkpoint on T cells, and so releases anti-tumour T-cell priming and expansion. That mechanism underlies its proven efficacy in melanoma.
 
-Choroideremia, by contrast, is an X-linked recessive inherited retinal dystrophy caused by loss-of-function mutations in the *CHM* gene, resulting in deficiency of Rab escort protein-1 (REP-1). Disease progression is driven by progressive photoreceptor and retinal pigment epithelium degeneration — a purely genetic, non-immune-mediated process. Anti-CTLA-4 blockade has no known mechanistic target relevant to REP-1 deficiency, Rab GTPase trafficking dysfunction, or photoreceptor apoptosis.
+That mechanism does not carry over to choroideremia. Choroideremia is an X-linked retinal degeneration caused by loss of the CHM/REP1 gene. It is not driven by tumour immune escape, so CTLA-4 blockade has no clear rationale.
 
-The TxGNN score of 0.9906 for choroideremia is almost certainly a **model false positive**, most likely arising from knowledge-graph structural artefacts or cross-disease embedding overlap. This interpretation is strongly supported by the fact that all nine remaining top-ranked predictions (ranks 2–10) are melanoma subtypes — a biologically coherent cluster entirely consistent with Ipilimumab's known pharmacology — making the rank-1 choroideremia prediction an anomalous outlier.
-
----
+The very high TxGNN score is most likely an artefact of the knowledge graph. Ipilimumab sits close to melanoma nodes, including eye-related melanoma nodes, and this proximity probably inflated the prediction. The score should not be read as evidence of benefit.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Ipilimumab in Choroideremia.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for Ipilimumab in Choroideremia.
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Ipilimumab has no products registered with the Health Sciences Authority (HSA) in Singapore and is currently not marketed locally. Clinicians requiring access would need to apply through the HSA's Special Access Route (SAR) or similar compassionate-use pathway.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN14598P | YERVOY INJECTION CONCENTRATE 5MG/ML | Injection, solution, concentrate | Not listed in the record |
 
 ## Cytotoxicity
 
-Ipilimumab is an antineoplastic agent (immunotherapy class). The cytotoxicity profile differs fundamentally from conventional chemotherapy.
-
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Immunotherapy — Anti-CTLA-4 checkpoint inhibitor (IgG1κ monoclonal antibody) |
-| Myelosuppression Risk | Low (not a myelosuppressive agent; immune-related haematological events are rare but possible) |
+|------|------|
+| Cytotoxicity Classification | Immunotherapy (anti-CTLA-4 monoclonal antibody), not a conventional cytotoxic |
+| Myelosuppression Risk | Low; toxicity is mainly immune-mediated rather than direct marrow suppression |
 | Emetogenicity Classification | Low |
-| Monitoring Items | Liver function (ALT, AST, bilirubin), thyroid function (TSH, free T4), adrenal function (cortisol, ACTH), CBC with differential, renal function, blood glucose; routine immune-related adverse event (irAE) surveillance |
-| Handling Protection | Standard monoclonal antibody/biological handling procedures; dedicated cytotoxic drug handling regulations not typically required, but institutional policies should be followed |
-
----
+| Monitoring Items | CBC, liver and renal function, thyroid and adrenal function, and signs of immune-related adverse events (colitis, dermatitis, hepatitis, endocrinopathies) |
+| Handling Protection | Please refer to the package insert and institutional policy for handling of antineoplastic biologics |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Ocular immune-related adverse events**: These are a specific concern for any retinal or eye-related use, because ipilimumab can cause immune-mediated inflammation in ocular tissue.
 
-> **Note:** Ipilimumab carries well-characterised immune-related adverse events (irAEs) including immune-mediated colitis, hepatitis, dermatitis, endocrinopathies (hypophysitis, thyroiditis, adrenal insufficiency), and pneumonitis, which may be severe or fatal. Full prescribing information and REMS/risk minimisation materials (e.g., YERVOY Risk Minimisation Tools, NCT02224768) should be reviewed before clinical use.
-
----
+Please refer to the package insert for other safety information, including warnings, contraindications and drug interactions.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The rank-1 TxGNN prediction of choroideremia for Ipilimumab is mechanistically implausible and unsupported by any clinical trial or published literature; this prediction should not be advanced as a drug repurposing candidate.
+The prediction rests on the model score alone (evidence level L5). There are no trials or publications, and the mechanistic review found no plausible link between CTLA-4 blockade and CHM/REP1-driven retinal degeneration. Immune-related ocular toxicity adds a safety concern.
 
 **To proceed, the following is needed:**
-
-- **Shift evaluation focus to rank-2 indication (Non-Cutaneous Melanoma):** This indication carries L2 evidence, 50+ clinical trials, 5 publications, and a "Proceed with Guardrails" recommendation — representing a far more actionable and biologically coherent target for repurposing review.
-- **Obtain MOA data from DrugBank:** Query DrugBank API for DB06186 to complete the mechanism-of-action analysis and enable full mechanistic link scoring.
-- **Obtain Singapore-specific safety information:** As the drug is unregistered in Singapore, download the EMA/FDA package insert for Ipilimumab and review key warnings, contraindications, and monitoring requirements prior to any clinical evaluation.
-- **No further investigation of choroideremia** as a repurposing target is recommended unless novel immune-mediated pathophysiology specific to this disease is identified and validated.
+- A credible biological rationale linking CTLA-4 blockade to choroideremia, or preclinical evidence
+- The HSA package insert warnings and contraindications
+- Mechanism of action data (MOA) from DrugBank
+- Attention to the melanoma-subtype predictions in this pack (non-cutaneous and acral lentiginous melanoma, both L2), which have far stronger evidence and are better candidates for further evaluation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

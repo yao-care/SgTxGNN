@@ -33,102 +33,88 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Daptomycin is a cyclic lipopeptide antibiotic approved for treating serious Gram-positive bacterial infections, including complicated skin and soft tissue infections, *Staphylococcus aureus* bacteremia, and right-sided infective endocarditis.
-The TxGNN model predicts it may be effective for **Osteoarthritis** with a score of 99.86%, supported by **0 clinical trials** and **9 associated publications** — however, evidence review indicates this is a false positive driven by literature co-occurrence in patients undergoing joint replacement surgery rather than a genuine repurposing signal.
-Of the top 10 predictions, **Rheumatoid Arthritis (Rank 2, score 99.84%, Evidence Level L4)** carries the most scientifically credible mechanistic basis, supported by two 2025 preclinical studies demonstrating NF-κB pathway suppression in collagen-induced arthritis models.
-
----
+Daptomycin is a cyclic lipopeptide antibiotic, used against Gram-positive infections such as skin infections, bacteraemia and right-sided endocarditis.
+The TxGNN model predicts it may be effective for **osteoarthritis** (score 99.86%), but **no clinical trials** and no studies of osteoarthritis itself were found.
+The 8 publications retrieved are about bone and joint *infections*, so this prediction is best treated as a knowledge-graph artefact for now.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Gram-positive bacterial infections (complicated skin/soft tissue infections, *S. aureus* bacteremia, right-sided endocarditis) |
+|------|------|
+| Original Indication | Gram-positive infections (skin infections, bacteraemia, right-sided endocarditis, per published literature; the Singapore registration records contain no indication text) |
 | Predicted New Indication | Osteoarthritis |
 | TxGNN Prediction Score | 99.86% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (no studies of osteoarthritis itself; the source pack labels it L4, based on infection-related literature) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 7 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known pharmacological information, Daptomycin is a cyclic lipopeptide antibiotic that disrupts bacterial cell membrane integrity in a calcium-dependent manner — it binds to phosphatidylglycerol in the membrane, causing depolarization and rapid bactericidal cell death. This mechanism is unique among antibiotics and specifically targets Gram-positive organisms including MRSA and VRE. It has no known action on eukaryotic cell signaling pathways relevant to inflammatory joint disease.
+Currently, detailed mechanism of action data is not available in the source record. Daptomycin is a cyclic lipopeptide with strong antibacterial activity against most Gram-positive pathogens, and its efficacy in bacterial infections is established.
 
-Osteoarthritis is driven by progressive cartilage degradation, synovial inflammation, and subchondral bone remodeling — pathways mediated by TGF-β, Wnt/β-catenin, MMP-13, and ADAMTS signaling. Daptomycin has no established activity in any of these pathways. There is no pharmacological rationale connecting an antibiotic membrane depolarizer to OA disease modification.
+The osteoarthritis prediction is **not mechanistically supported**. Osteoarthritis is a degenerative joint disease, whereas every paper retrieved concerns daptomycin as an antibacterial for osteoarticular or prosthetic joint infections. The high score most likely reflects a "joint/bone" association in the knowledge graph rather than a disease-modifying effect.
 
-The high TxGNN score is best explained as a **literature co-occurrence false positive**: all 9 retrieved publications describe Daptomycin being used to treat periprosthetic joint infections (PJIs) and osteoarticular infections in patients who had previously undergone joint replacement surgery — a common outcome in advanced OA. These studies address bacterial infection management, not OA treatment. The knowledge graph has learned an association between Daptomycin and "osteoarthritis" from this incidental clinical overlap, not from any true therapeutic connection.
+Two lower-ranked predictions are worth noting:
+- **Rheumatoid arthritis** (score 99.84%): two 2025 preclinical studies (PMID 39571268, 40923559) report that daptomycin, or derived cyclic lipopeptides, reduced inflammatory cytokines and NF-κB signalling and alleviated collagen-induced arthritis in mice. This is a plausible anti-inflammatory mechanism, but there is no human data. Translation is limited by IV-only dosing, the risk of CPK elevation and myopathy, and the need for long-term use in a chronic disease.
+- **Gout** (score 99.79%): the only report is a case of daptomycin-induced rhabdomyolysis followed by acute gouty arthritis. This is an adverse-event signal, not a therapeutic one.
 
----
+The remaining seven predictions (osteoarthritis susceptibility and several rare skeletal or congenital syndromes) have no supporting mechanism and no trials or literature.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Daptomycin in osteoarthritis.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
+None of these papers tests daptomycin as a treatment for osteoarthritis. All concern bone and joint infections.
+
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [17999973](https://pubmed.ncbi.nlm.nih.gov/17999973/) | 2008 | Retrospective comparative | J Antimicrob Chemother | Daptomycin vs. standard therapy for osteoarticular infections associated with *S. aureus* bacteremia — evaluates antibiotic treatment outcomes, not OA disease modification |
-| [21477701](https://pubmed.ncbi.nlm.nih.gov/21477701/) | 2010 | Registry analysis | Medicina Clinica | EU-CORE registry real-world daptomycin use in Spain, including osteoarticular infection patients — routine antibiotic usage data |
-| [22511636](https://pubmed.ncbi.nlm.nih.gov/22511636/) | 2012 | Retrospective cohort | J Antimicrob Chemother | Daptomycin for hip and knee periprosthetic joint infections — clinical efficacy and safety as an antibiotic in post-arthroplasty patients |
-| [22854340](https://pubmed.ncbi.nlm.nih.gov/22854340/) | 2012 | In vitro susceptibility | J Antibiotics | Susceptibility of *S. aureus* and *S. epidermidis* isolated from prosthetic joint infections to daptomycin — microbiological susceptibility mapping |
-| [23312602](https://pubmed.ncbi.nlm.nih.gov/23312602/) | 2013 | Cross-sectional survey | Int J Antimicrob Agents | Physician survey on PJI antibiotic practices; daptomycin cited as preferred option for MRSA PJI — clinical practice guidance, not OA therapy |
-| [23519823](https://pubmed.ncbi.nlm.nih.gov/23519823/) | 2013 | Retrospective cohort | Int Orthop | High-dose daptomycin + rifampicin combination for Gram-positive osteoarticular infections — antibiotic regimen safety and efficacy |
-| [25650692](https://pubmed.ncbi.nlm.nih.gov/25650692/) | 2015 | Retrospective epidemiology | Surgical Infections | Microbiologic profile of staphylococci from osteoarticular infections over 10 years — antibiotic susceptibility trends to inform empiric therapy |
-| [26235888](https://pubmed.ncbi.nlm.nih.gov/26235888/) | 2015 | Retrospective cohort | Int J Antimicrob Agents | High-dose daptomycin (>6 mg/kg) for complicated bone and joint implant-associated infections — dosing safety data |
-| [32206362](https://pubmed.ncbi.nlm.nih.gov/32206362/) | 2020 | Case report | Case Reports in Orthopedics | *C. striatum* septic arthritis misdiagnosed as OA; daptomycin used to treat the infection — highlights diagnostic overlap, not OA treatment |
-
-> ⚠️ **Critical Interpretation Note:** All 9 publications address Daptomycin as an **antibiotic for joint infections** occurring in patients with osteoarthritis or post-arthroplasty. None study Daptomycin as a therapy for OA pathology itself. This literature pattern is the mechanistic source of the TxGNN false positive.
-
----
+|------|-----|------|------|---------|
+| [23519823](https://pubmed.ncbi.nlm.nih.gov/23519823/) | 2013 | Cohort | International Orthopaedics | Safety and efficacy of high-dose daptomycin plus rifampicin in Gram-positive osteoarticular infections |
+| [22511636](https://pubmed.ncbi.nlm.nih.gov/22511636/) | 2012 | Cohort | J Antimicrob Chemother | Clinical efficacy and safety of daptomycin in hip and knee periprosthetic joint infections |
+| [26235888](https://pubmed.ncbi.nlm.nih.gov/26235888/) | 2015 | Cohort | Int J Antimicrob Agents | High-dose daptomycin (>6 mg/kg) in complicated bone, joint and implant-associated Gram-positive infections (no abstract available) |
+| [17999973](https://pubmed.ncbi.nlm.nih.gov/17999973/) | 2008 | Cohort | J Antimicrob Chemother | Outcomes of daptomycin versus standard therapy for osteoarticular infections with *S. aureus* bacteraemia |
+| [21477701](https://pubmed.ncbi.nlm.nih.gov/21477701/) | 2010 | Cohort | Medicina Clínica | Spanish experience with daptomycin from the EU-CORE registry across Gram-positive infections |
+| [23312602](https://pubmed.ncbi.nlm.nih.gov/23312602/) | 2013 | Cohort (survey) | Int J Antimicrob Agents | Survey of infectious diseases physicians on current prosthetic joint infection management |
+| [25650692](https://pubmed.ncbi.nlm.nih.gov/25650692/) | 2015 | Cohort | Surgical Infections | Ten-year evolution of staphylococcal profiles in osteoarticular infections |
+| [22854340](https://pubmed.ncbi.nlm.nih.gov/22854340/) | 2012 | In vitro | J Antibiot | Antibiotic susceptibility of *S. aureus* and *S. epidermidis* from prosthetic joint infections |
+| [32206362](https://pubmed.ncbi.nlm.nih.gov/32206362/) | 2020 | Case report | Case Reports in Orthopedics | Chronic *Corynebacterium striatum* septic arthritis in a patient with known osteoarthritis referred for knee replacement |
 
 ## Singapore Market Information
 
-Daptomycin is currently **not registered or marketed in Singapore**. No product authorizations are on file.
+Approved indication text is not available in the registration records.
 
-For reference, Daptomycin (brand name Cubicin®) is approved in the United States, European Union, and other markets for Gram-positive bacterial infections including MRSA. Any future registration in Singapore would require a new HSA application.
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN16443P | Pfizer Daptomycin 500 mg/vial (Hospira Australia) | Lyophilised powder for injection/infusion |
+| SIN16813P | Penmix Daptomycin 500 mg/vial (Penmix Ltd) | Lyophilised powder for injection/infusion |
+| SIN16828P | Bedapt Daptomycin 500 mg/vial (Biological E.) | Powder for injection/infusion |
+| SIN17204P | Daptomycin/Anfarm 500 mg/vial (Anfarm Hellas) | Lyophilised powder for injection/infusion |
+| SIN16900P | Daptomycin-AFT 500 mg/vial (Qilu Pharmaceutical, Hainan) | Lyophilised powder for injection/infusion |
 
----
+All products are injectable only, so any chronic-disease use would require IV administration.
 
 ## Safety Considerations
 
-Please refer to the package insert for comprehensive safety information, as formal warning and contraindication data were not available in this Evidence Pack.
+- **Muscle toxicity signal**: the literature describes daptomycin-induced rhabdomyolysis (a 2023 case complicated by acute gouty arthritis, PMID 36693494). CPK elevation and myopathy are recognised risks, and they matter for any long-term use in chronic joint disease.
 
-Based on published literature, the following safety signals are particularly relevant to any repurposing consideration:
-
-- **Myotoxicity (High concern for chronic use):** Daptomycin is associated with elevated creatine kinase (CK), myopathy, and rhabdomyolysis — risk increases with higher doses and prolonged administration. A documented case (PMID 36693494) reports daptomycin-induced rhabdomyolysis complicated by acute secondary gouty arthritis. This toxicity profile is incompatible with the long-term treatment required for OA or RA.
-- **Pulmonary toxicity:** Eosinophilic pneumonia has been reported with daptomycin use, requiring treatment discontinuation.
-- **Route of administration barrier:** Daptomycin is administered intravenously only. This is a fundamental barrier for any chronic musculoskeletal indication.
-
----
+No structured warnings, contraindications or drug interaction data were available. Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN high-score prediction for osteoarthritis is assessed as a **false positive** resulting from knowledge graph co-occurrence, not a true repurposing signal. Daptomycin has no mechanistic basis for OA disease modification, zero clinical trials, and zero preclinical OA models. All associated literature describes antibiotic use in OA patients with secondary joint infections — a clinically incidental association.
+The osteoarthritis prediction has a very high model score but no supporting trials, and the retrieved literature concerns joint infections rather than degenerative osteoarthritis. The drug is IV-only and carries a muscle-toxicity risk, which makes chronic use in osteoarthritis unattractive.
 
----
+**To proceed, the following is needed:**
+- Any direct evidence of daptomycin in osteoarthritis (currently none)
+- HSA package insert warnings and contraindications
+- Mechanism of action data from DrugBank
+- If pursuing an anti-inflammatory direction, rheumatoid arthritis is the more plausible research question, and would need human safety and efficacy data beyond the 2025 mouse studies
 
-**Secondary Finding Warranting Monitoring — Rheumatoid Arthritis (Rank 2, L4):**
-
-Two 2025 publications (PMID [39571268](https://pubmed.ncbi.nlm.nih.gov/39571268/), [40923559](https://pubmed.ncbi.nlm.nih.gov/40923559/)) directly demonstrate Daptomycin's anti-inflammatory activity in the collagen-induced arthritis (CIA) mouse model — the gold-standard preclinical model for RA drug development. The proposed mechanism is inhibition of the NF-κB signaling pathway with downstream suppression of TNF-α, IL-1β, IL-6, and IL-17. One group has already synthesized novel Daptomycin-derived cyclic lipopeptide analogs with improved anti-RA activity (CLP-d2), suggesting active structural optimization efforts. This constitutes genuine early-stage mechanistic evidence and merits tracking as a research question.
-
-**To advance the RA research question, the following is needed:**
-
-- Evaluation of anti-inflammatory dosing vs. antibacterial dosing to determine therapeutic window
-- Long-term safety data in chronic administration animal models (myotoxicity is the primary barrier)
-- Investigation of Daptomycin-derived structural analogs (e.g., CLP-d2) that dissociate anti-inflammatory from myotoxic effects
-- In vitro human synoviocyte and PBMC validation studies
-- A clear regulatory pathway assessment, given no Singapore registration and IV-only formulation
-
-> **Research Disclaimer:** This report is for research reference only and does not constitute medical advice. All drug repurposing candidates require clinical validation before therapeutic application.
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Prazosin
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 811
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 ---
 
 # Prazosin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,76 +29,66 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Prazosin: From Hypertension to Malignant Hypertensive Renal Disease
+# Prazosin: From a Marketed Antihypertensive to Malignant Hypertensive Renal Disease
 
 ## One-Sentence Summary
 
-Prazosin is a selective α1-adrenergic receptor antagonist internationally used for arterial hypertension.
-The TxGNN model predicts it may be effective for **Malignant Hypertensive Renal Disease**,
-but this specific pairing currently has **0 clinical trials** and **0 publications** supporting it directly — the connection is a mechanistic extrapolation only.
-
----
+Prazosin is an oral alpha-1 adrenergic blocker that is marketed in Singapore as tablets. The TxGNN model predicts it may be effective for **malignant hypertensive renal disease**, but **0 clinical trials** and **0 publications** currently support this specific prediction, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (arterial hypertension) — not formally registered in Singapore |
-| Predicted New Indication | Malignant Hypertensive Renal Disease |
-| TxGNN Prediction Score | 90.23% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Original Indication | Not stated in the Singapore registration records (the approved indication text is blank for all 5 licences) |
+| Predicted New Indication | Malignant hypertensive renal disease |
+| TxGNN Prediction Score | 90.2% |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 5 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed DrugBank mechanism-of-action text is currently a data gap. Based on the information available in this evidence pack, Prazosin is a selective α1-adrenergic receptor antagonist that produces peripheral vasodilation and lowers systemic blood pressure. Its use in arterial hypertension is documented in older clinical literature (e.g., a 1975 case series of 24 hypertensive patients, PMID 1055318), including two cases of severe renovascular hypertension that responded well to the drug.
+Currently, detailed mechanism of action data is not available in the source record. Based on general pharmacology, prazosin is a selective alpha-1 adrenergic antagonist. It lowers blood pressure by relaxing blood vessels and reducing vascular resistance. Mechanistically, this fits a severe hypertensive condition with kidney involvement.
 
-Malignant hypertensive renal disease is a hypertensive emergency subtype characterized by markedly elevated blood pressure causing acute renal injury. The rationale for repurposing rests on the shared physiological target — acute blood pressure control — rather than any disease-specific mechanism unique to renal pathology. This is a plausible pharmacological extension of prazosin's known antihypertensive effect, but it has not been directly tested in this specific patient population.
-
-No clinical trials or literature specific to prazosin in malignant hypertensive renal disease were found in this evidence pack. The next-ranked candidate (malignant renovascular hypertension, rank 2, same TxGNN score) has somewhat stronger — though still limited — supporting literature, which may be a useful adjacent signal but does not substitute for direct evidence on this exact indication.
-
----
+Malignant hypertensive renal disease is a form of severe hypertension that damages the kidneys, so the link to an antihypertensive drug is plausible in principle. However, plausibility is not evidence. No trials or publications specifically address prazosin in this condition. Severe hypertension with kidney damage is usually managed with rapid, closely monitored blood pressure control, and nothing in the data shows where prazosin would fit.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Prazosin currently has no marketing authorization in Singapore (0 registrations, market status: Not marketed/Not Marketed). No dosage form or approved indication data is available for this jurisdiction.
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN07264P | APO-PRAZO TABLET 1 mg | Tablet | Apotex Inc |
+| SIN07260P | APO-PRAZO TABLET 2 mg | Tablet | Apotex Inc |
+| SIN07263P | APO-PRAZO TABLET 5 mg | Tablet | Apotex Inc |
+| SIN07529P | ATODEL 1 TABLET 1 mg | Tablet | Remedica Ltd |
+| SIN16122P | MINISON TABLET 1MG | Tablet | Y.S.P. Industries (M) Sdn. Bhd. |
 
----
+All registered products are oral tablets.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. TFDA/HSA-level warnings, contraindications, and drug-interaction data are not yet available for this candidate (flagged as a **Blocking** data gap — DG001 — required before any S1 safety pre-assessment can proceed).
-
----
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked predicted indication (malignant hypertensive renal disease) has no supporting clinical trials or literature — only a mechanistic rationale extrapolated from prazosin's general antihypertensive effect. Evidence level is L4, and the drug is not currently marketed in Singapore, so there is no local regulatory or safety foundation to build on.
+The prediction has a high model score (90.2%) but no trials, no literature and no mechanism data in the record, which places it at evidence level L5. Prazosin is already marketed in Singapore, so no new route or formulation is needed. That does not substitute for evidence of efficacy in this condition.
 
 **To proceed, the following is needed:**
-- TFDA/HSA package insert warnings and contraindications (DG001 — Blocking)
-- Confirmed mechanism-of-action documentation from DrugBank (DG002)
-- Disease-specific clinical or observational evidence for prazosin in malignant hypertensive renal disease (currently absent)
-- Consideration of whether the adjacent candidate (malignant renovascular hypertension, rank 2, L3 evidence with 3 literature citations) is a more evidence-supported starting point for this mechanistic cluster
+- Singapore (HSA) package insert, including approved indications, warnings and contraindications
+- Mechanism of action data (for example, from DrugBank)
+- Any clinical data on prazosin in malignant or renovascular hypertension. The closest signal is the related prediction, *malignant renovascular hypertension* (L4). Its literature is only indirect: a 1975 uncontrolled clinical report in general hypertension that noted two severe renovascular cases responding well, and a rodent model paper.
+- A clinical review of whether alpha-1 blockade has a role in this setting at all
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

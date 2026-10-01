@@ -29,80 +29,69 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Gadoteric Acid: From MRI Contrast Agent to Osteoarthritis
+# Gadoteric Acid: From MRI Contrast Imaging to Osteoarthritis
 
 ## One-Sentence Summary
 
-Gadoteric acid (Gd-DOTA) is a macrocyclic gadolinium-based MRI contrast agent used intravenously to enhance magnetic resonance imaging in various diagnostic contexts.
-The TxGNN model predicts it may be effective for **Osteoarthritis**, however this prediction is most likely a **diagnostic co-occurrence false signal** — the drug is widely used to image osteoarthritic joints (via the dGEMRIC technique), and the model may have learned this diagnostic association as a therapeutic one.
-There are currently **0 clinical trials** and **0 publications** supporting a therapeutic role in osteoarthritis.
-
----
+Gadoteric acid is a gadolinium-based contrast agent used in magnetic resonance imaging (MRI), not a treatment for any disease.
+The TxGNN model predicts it may be effective for **osteoarthritis**, but **0 clinical trials** and **0 publications** support this.
+The prediction is most likely an artifact of the knowledge graph, so this is a computational result only.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | MRI contrast enhancement (no Singapore regulatory data available) |
+|------|------|
+| Original Indication | Not listed in the Singapore registration records (gadolinium-based MRI contrast agent) |
 | Predicted New Indication | Osteoarthritis |
 | TxGNN Prediction Score | 98.57% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 4 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the Evidence Pack. Based on well-established knowledge, Gadoteric acid (brand name: Dotarem) is a macrocyclic, ionic, gadolinium-chelate contrast agent. It functions by shortening the T1 relaxation time of protons in surrounding tissues, thereby enhancing signal intensity on T1-weighted MRI sequences. It has no known pharmacodynamic effect on any tissue — it is purely a diagnostic tool.
+Currently, detailed mechanism of action data is not available. Gadoteric acid is a paramagnetic gadolinium-based MRI contrast agent. It improves image contrast rather than treating disease, and it has no known disease-modifying pharmacology.
 
-The link between gadoteric acid and osteoarthritis almost certainly reflects a **diagnostic co-occurrence artefact**. Gd-DOTA is used in the dGEMRIC (delayed Gadolinium-Enhanced MRI of Cartilage) technique to evaluate glycosaminoglycan content in articular cartilage, enabling non-invasive assessment of osteoarthritic joint damage. The TxGNN knowledge graph contains associations between Gd-DOTA and osteoarthritis because the agent is used *to diagnose and monitor* the disease — not to treat it.
+There is no plausible therapeutic link between an imaging agent and osteoarthritis. The high score most likely reflects the drug's closeness to musculoskeletal diseases in the knowledge graph, not a real pharmacological effect. The other top-ranked predictions (for example osteoarthritis susceptibility, pseudoachondroplasia, brachyolmia and gout) show the same pattern.
 
-This same pattern recurs across all top-10 predictions in this Evidence Pack: the drug appears alongside musculoskeletal diseases (osteoarthritis, rheumatoid arthritis, gout, skeletal dysplasias) in the medical literature and clinical databases exclusively in a diagnostic imaging context. There is no known mechanism by which an extracellular gadolinium chelate could modify disease biology in any of these conditions. The prediction score reflects diagnostic co-occurrence, not therapeutic potential.
-
----
+The nearest related evidence concerns rheumatoid arthritis, a different disease. Two older MRI studies (1990 and 1992) used Gd-DOTA to visualize inflamed synovium in the knee. They show a diagnostic use only, with no anti-inflammatory or therapeutic effect, so they do not support repurposing as a treatment.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available for the osteoarthritis indication.
-
-> **Note on rank-3 indication (Rheumatoid Arthritis):** Two publications were retrieved — [PMID 1727317](https://pubmed.ncbi.nlm.nih.gov/1727317/) (Radiology, 1992) and [PMID 2115261](https://pubmed.ncbi.nlm.nih.gov/2115261/) (AJR, 1990) — both classified as **Diagnostic Imaging Studies**. They document Gd-DOTA uptake in inflamed synovium as a marker of disease activity, not as a treatment. These publications reinforce rather than contradict the false-signal interpretation.
-
----
+Currently no related literature available for osteoarthritis.
 
 ## Singapore Market Information
 
-Gadoteric acid is **not registered** in Singapore. No product authorisations are on file.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN15973P | DOTAGRAF Solution for Injection 0.5 mmol/ml | Injection, solution | Not listed in registration data |
+| SIN09008P | DOTAREM Injection 27.932 g/100 ml | Injection | Not listed in registration data |
+| SIN15693P | CLARISCAN Solution for Injection in Vial 0.5 mmol/ml | Injection, solution | Not listed in registration data |
+| SIN15694P | CLARISCAN Solution for Injection in Pre-filled Syringe 0.5 mmol/ml | Injection, solution | Not listed in registration data |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
-> **Specific caution flagged by the Evidence Pack:** For the hepatic porphyria prediction (rank 5), the mechanistic rationale notes that heavy metal chelates may potentially trigger a porphyric crisis. While this is not directly relevant to the top osteoarthritis prediction, it should be documented as a background safety signal if any exploratory use is ever considered.
-
----
+Gadolinium retention in tissue and the risk of nephrogenic systemic fibrosis (NSF) make therapeutic use of this class unattractive, particularly for a chronic condition such as osteoarthritis.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-All 10 TxGNN-predicted indications for gadoteric acid share the same fundamental problem: the drug is a passive diagnostic contrast agent with no pharmacodynamic activity on disease biology. The high prediction scores (98.57%–97.38% across all ranks) represent a systematic **diagnostic co-occurrence false signal** — the model has learned that gadolinium MRI is used alongside these diseases, and incorrectly interpreted this as a therapeutic relationship. No clinical trials or supportive therapeutic literature exist for any predicted indication.
+The prediction has no clinical trials, no literature and no plausible mechanism, so it is evidence level L5. Repeated or long-term exposure to a gadolinium agent would carry a real safety cost with no expected benefit.
 
 **To proceed, the following is needed:**
-- **Do not pursue further repurposing evaluation** without a credible mechanistic hypothesis that is independent of diagnostic imaging use
-- Conduct a formal false-positive signal review: confirm whether the TxGNN knowledge graph encodes diagnostic imaging relationships separately from therapeutic relationships; if not, all gadolinium-based contrast agents in the dataset should be flagged as a class
-- If MRI-guided drug delivery applications are of interest (a genuinely distinct research area), a separate evidence pack with focused literature search on theranostic gadolinium platforms would be required — this is a different question from standard repurposing
-- Singapore regulatory pathway is moot at this stage given zero market presence and no therapeutic evidence base
+- HSA package insert warnings and contraindications, to complete safety screening
+- Mechanism of action data from DrugBank
+- A credible mechanistic hypothesis and preclinical evidence linking gadoteric acid to osteoarthritis
+- A route and dosing rationale, since only injectable forms are registered in Singapore
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

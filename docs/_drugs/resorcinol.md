@@ -29,11 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Resorcinol: From Topical Keratolytic Use to Acne Keloid
+# Resorcinol: From Topical Keratolytic/Antiseptic Use to Acne Keloid
 
 ## One-Sentence Summary
 
-Resorcinol is a traditional topical keratolytic and antibacterial agent, historically used for acne and minor dermatological lesions, though no formal indication record exists for this market. The TxGNN model predicts it may be effective for **Acne Keloid**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a model-only signal.
+Resorcinol is a topical keratolytic and antiseptic agent, historically used for acne and other follicular skin conditions.
+The TxGNN model predicts it may be effective for **acne keloid**, but there are currently **0 clinical trials** and **0 publications** supporting this direction.
+The prediction is a model-generated hypothesis only (Evidence Level L5).
 
 ---
 
@@ -41,49 +43,48 @@ Resorcinol is a traditional topical keratolytic and antibacterial agent, histori
 
 | Item | Content |
 |------|------|
-| Original Indication | No approved indication on file (drug not registered/marketed locally); historically used as a topical keratolytic/antiseptic agent |
-| Predicted New Indication | Acne Keloid |
+| Original Indication | Not stated in the registration records; historically used as a topical keratolytic/antiseptic for acne and follicular skin conditions |
+| Predicted New Indication | Acne keloid |
 | TxGNN Prediction Score | 99.83% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, Resorcinol is a topical keratolytic and mild antibacterial agent traditionally used for acne and other minor dermatological lesions, acting by softening and dissolving the outer layer of keratin.
+Currently, detailed mechanism of action data is not available. Based on known information, resorcinol is a topical phenolic keratolytic and antiseptic. It has long been used in skin products for acne and other follicular conditions. Mechanistically, it may be applicable to acne keloid, which is an inflammatory follicular condition of the skin.
 
-Acne keloid (acne keloidalis nuchae) shares a pathological overlap with acne in terms of keratin hyperplasia and follicular inflammation, which gives some superficial biological plausibility to this prediction. However, this connection is inferential rather than confirmed — there is no direct study linking Resorcinol to this specific condition.
-
-It is worth noting that the same TxGNN run also surfaced several other high-scoring candidates (e.g., rheumatoid vasculitis, ankylosing spondylitis, hypermobility of coccyx) for which the reviewer explicitly flagged the mechanistic link as weak or likely a knowledge-graph artifact. This context suggests the model's high scores in this batch should be interpreted cautiously, and acne keloid — while the most plausible of the group — still lacks any confirmatory evidence.
+Acne keloid is a follicular and dermal disorder, so a dermatologic link to resorcinol's historical uses is plausible. However, no disease-specific trial or publication was found. The high TxGNN score (0.998) is a computational association, not proof of efficacy, and should be treated as a research question rather than a clinical conclusion.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
 
 ---
 
 ## Singapore Market Information
 
-Resorcinol is currently **not registered or marketed** in Singapore. No license records are available for this product.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN06396P | WILISAN RINGWORM COMPOUND LOTION | Lotion | Not listed in registration record |
+| SIN03372P | CASTELLANI'S PAINT (STAINLESS) | Liquid | Not listed in registration record |
 
 ---
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-*(Note: Key regulatory warnings and contraindications for this product have not yet been retrieved — this is flagged as a blocking data gap for safety review.)*
 
 ---
 
@@ -92,13 +93,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests solely on a TxGNN model score (L5, no clinical trials or literature), and the drug is not currently registered in this market. Combined with missing mechanism-of-action and safety/label data, there is insufficient evidence to advance this candidate.
+The only support is a model prediction, with no clinical trials or literature, and the mechanism of action is unavailable. The dermatologic link to acne keloid is plausible but unverified. The other nine predicted indications (for example amyopathic dermatomyositis, ankylosing spondylitis, rheumatoid vasculitis) have no mechanistic rationale and are also on Hold.
 
 **To proceed, the following is needed:**
-- Local regulatory warnings and contraindications (TFDA label PDF) — currently blocking
-- Confirmed mechanism of action (DrugBank API query)
-- Preclinical or case-level evidence specifically linking Resorcinol to acne keloid
-- Assessment of local market entry pathway, since the drug is not currently registered
+- Mechanism of action data, for example from DrugBank
+- Package insert warnings and contraindications from the HSA website, which are required before any safety screening
+- Targeted literature and trial searches for resorcinol in acne keloid and related keloidal or follicular conditions
+- Approved indication text for the two Singapore registrations
+- Assessment of topical route suitability and local tolerability, including systemic absorption of phenolic compounds
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

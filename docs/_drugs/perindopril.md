@@ -29,78 +29,77 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Perindopril: From Hypertension (ACE Inhibitor Class) to Malignant Renovascular Hypertension
+# Perindopril: From Hypertension to Malignant Renovascular Hypertension
 
 ## One-Sentence Summary
 
-Perindopril is an ACE inhibitor; a confirmed original approved indication is not present in this evidence pack (registration and MOA fields are marked as data gaps). The TxGNN model predicts potential efficacy for **Malignant Renovascular Hypertension**, but this is currently supported by **0 clinical trials** and **0 publications** — it is a pure model prediction with a mechanistically double-edged risk profile (ACE inhibitors are the standard antihypertensive class for renovascular hypertension, yet are contraindicated in bilateral renal artery stenosis).
-
----
+Perindopril is an ACE inhibitor marketed in Singapore, mainly in combination products with amlodipine or indapamide, so its original use is presumably hypertension.
+The TxGNN model predicts it may be effective for **malignant renovascular hypertension**.
+**No clinical trials** and **no publications** currently support this direction, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no registered license or `original_indications` entry in this dataset; drug class (ACE inhibitor) is typically used for hypertension, but this is not confirmed by registry data |
+| Original Indication | Hypertension (inferred from drug class and product names; the registration records list no indication text) |
 | Predicted New Indication | Malignant renovascular hypertension |
 | TxGNN Prediction Score | 99.77% |
-| Evidence Level | L5 (model prediction only — no clinical trials or literature identified) |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 20 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for this candidate (flagged as a High-severity data gap — DG002). Based on known pharmacological class information, Perindopril is an ACE inhibitor, and this class is a well-established treatment for hypertension broadly, including certain renovascular hypertension presentations, by suppressing angiotensin II formation and reducing afterload.
+Currently, detailed mechanism of action data is not available in the input. Based on class knowledge, perindopril is an ACE inhibitor. It blocks the renin-angiotensin-aldosterone system (RAAS), which lowers blood pressure.
 
-However, the relationship between ACE inhibitor pharmacology and malignant renovascular hypertension is bidirectional: the same mechanism that lowers blood pressure in renin-dependent hypertension can precipitate acute renal failure in patients with bilateral (or solitary-kidney unilateral) renal artery stenosis, since glomerular filtration in the affected kidney(s) depends on angiotensin II-mediated efferent arteriolar constriction. This means the mechanistic link is real but carries an inherent contraindication risk that must be actively ruled out before any use in this population, and it is not, by itself, evidence of therapeutic benefit.
+Renovascular hypertension is driven by RAAS activation, because reduced kidney blood flow triggers renin release. RAAS blockade is therefore biologically plausible here. The high score (0.998) is a model output, not clinical evidence.
 
-No clinical trial or literature evidence in this evidence pack directly evaluates Perindopril in malignant renovascular hypertension — the prediction rests entirely on TxGNN's knowledge-graph inference.
-
----
+There is also a safety concern. ACE inhibitors can precipitate acute renal failure in patients with bilateral renal artery stenosis or a solitary functioning kidney. These are the patients this indication targets, so a dedicated safety review is needed before any further step.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-No registration records found in this dataset — Perindopril has 0 licenses on record and a market status of "Not Marketed."
+Registration records show 20 licenses. The main ones are listed below. The records contain no approved-indication text.
 
----
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN15400P | COSYREL Film-Coated Tablet 10 mg/5 mg | Tablet, film coated |
+| SIN13826P | COVERAM Tablet 5 mg/5 mg | Tablet |
+| SIN13633P | COVERSYL PLUS Tablet 5 mg/1.25 mg | Tablet, film coated |
+| SIN15399P | COSYREL Film-Coated Tablet 5 mg/10 mg | Tablet, film coated |
+| SIN15726P | AMLESSA Tablets 8 mg/10 mg | Tablet |
+
+All listed forms are oral.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
-*(Note: This is a Blocking-severity data gap — DG001. Key warnings, contraindications, and drug interaction data were not found in this evidence pack and should be retrieved from the official label before any safety assessment.)*
-
----
+One class-level caution applies to this prediction: ACE inhibitors can precipitate acute renal failure in bilateral renal artery stenosis or a solitary functioning kidney.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (malignant renovascular hypertension) has zero supporting clinical trials or literature, and the underlying mechanism carries a known contraindication risk (bilateral renal artery stenosis) rather than a clean therapeutic rationale. Core drug-level data — original indication, MOA, and label safety information — are all missing from this evidence pack, so this candidate cannot proceed past S0.
+The prediction has no clinical trials and no relevant literature, and the evidence level is L5. The target population also carries a known renal safety risk with ACE inhibitors, and the package insert safety data has not been obtained.
 
 **To proceed, the following is needed:**
-- Confirmed original indication and registration status (via HSA/official label lookup)
-- DrugBank MOA data (DG002)
-- Official label warnings and contraindications (DG001, Blocking)
-- Formal evaluation of renal artery stenosis status as an exclusion criterion if this indication is pursued further
+- HSA package insert warnings and contraindications (blocking for safety screening)
+- Mechanism of action data confirmed from DrugBank
+- A dedicated safety review of ACE inhibitor use in renal artery stenosis and solitary kidney
+- A targeted search for trials and literature on ACE inhibitors in renovascular hypertension
+- Approved-indication text for the Singapore licenses, to confirm the original indication
 
-**Additional context:** All 10 TxGNN-predicted indications for Perindopril in this evidence pack (ranks 1–10, covering renovascular/pulmonary hypertension variants, rare genetic syndromes, cor pulmonale, polydipsia, and TMJ ankylosis) received a "Hold" recommendation — the associated literature hits were largely keyword-level mismatches (e.g., hypoxia biology, congenital ocular anomalies) rather than substantive clinical evidence for Perindopril in those conditions.
+Results are for research reference only and do not constitute medical advice. Repurposing candidates require clinical validation before any application.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

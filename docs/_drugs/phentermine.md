@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Phentermine
-parent: High Evidence (L1-L2)
+parent: Low Evidence (L5)
 nav_order: 777
-evidence_level: L2
+evidence_level: L5
 indication_count: 10
 ---
 
 # Phentermine
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Phentermine: From Obesity to Fatty Liver Disease
+# Phentermine: From Obesity (Weight Management) to Hypervitaminosis
 
 ## One-Sentence Summary
 
-> Phentermine is a sympathomimetic anorectic historically used as a short-term adjunct for obesity/weight management. Among the candidates surfaced by the TxGNN model, the only indication supported by concrete evidence is **Fatty Liver Disease (NAFLD/MASLD)**, backed by **2 clinical trials** (including one completed Phase 4 study directly testing phentermine) and **15 publications**. TxGNN's numerically highest-scoring predictions (e.g., hypervitaminosis, rare genetic syndromes) carry no supporting evidence and are treated in this report as low-confidence graph noise rather than the primary candidate.
+Phentermine is a sympathomimetic amine (a noradrenergic appetite suppressant) used for weight management. The Singapore licence records supplied do not state an approved indication.
+The TxGNN model's top-ranked prediction is **hypervitaminosis** (score 99.57%), but there are **0 clinical trials** and **0 publications** behind it, and no plausible mechanism links the two.
+Among the other predictions, only **fatty liver disease** has meaningful support (**2 clinical trials** and **15 publications**), and that support is indirect.
 
 ---
 
@@ -41,83 +43,107 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Not registered in Singapore; internationally labeled for short-term adjunctive treatment of obesity (per literature, e.g., PMID 22348915) |
-| Predicted New Indication | Fatty Liver Disease (NAFLD/MASLD) |
-| TxGNN Prediction Score | 77.74% |
-| Evidence Level | L2 |
-| Singapore Market Status | Not Marketed (Not marketed) |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Original Indication | Not stated in the HSA licence data; the pack describes phentermine's use as weight loss (obesity) |
+| Predicted New Indication | Hypervitaminosis |
+| TxGNN Prediction Score | 99.57% |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 4 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for phentermine is not available in this evidence pack (data gap DG002). Based on the supporting literature collected here, phentermine is a noradrenergic sympathomimetic amine that suppresses appetite by promoting norepinephrine release in the hypothalamus, and has been FDA-approved for decades as a short-term obesity treatment — including as the anorectic component of the phentermine/topiramate combination (Qsymia).
+Currently, detailed mechanism of action data is not available in the database. Phentermine is known as a noradrenergic appetite suppressant, and its use in weight management is established.
 
-Fatty liver disease (NAFLD/MASLD) is pathophysiologically driven by obesity and insulin resistance, and clinically meaningful weight loss is an established route to reducing hepatic fat content. Phentermine's effect on NAFLD therefore appears to be **indirect and weight-mediated** rather than a direct hepatic mechanism — consistent with the completed Phase 4 trial (NCT03849729) that directly measured phentermine's effect on intrahepatic fat infiltration prior to bariatric surgery. A caveat noted in the evidence pack: much of the review literature discusses phentermine only as part of the phentermine/topiramate combination, so phentermine's independent contribution (separate from topiramate, which has its own hepatic and metabolic effects) is not yet clearly isolated.
+The link to hypervitaminosis is weak. Phentermine has no known role in vitamin metabolism or clearance. The high graph-based score (0.996) is not supported by any trial or publication, so it most likely reflects a knowledge-graph artefact rather than a real therapeutic signal.
 
-**Note on other TxGNN-predicted candidates:** The raw model output ranked several other diseases above fatty liver disease by prediction score — hypervitaminosis, proximal 16p11.2 microdeletion syndrome, obsolete hypertelorism, frontorhiny, pentosuria, lethal polymalformative syndrome (Boissel type), and migraine with brainstem aura. All of these returned **zero clinical trials and zero literature**, and the evidence pack's own mechanistic rationale flags them as implausible or as knowledge-graph noise. Two additional candidates carry partial signals worth flagging as cautions rather than opportunities:
-- **Postural orthostatic tachycardia syndrome (POTS)** — the single retrieved publication (PMID 26968177) is a case report describing stimulant medication *mimicking or aggravating* POTS symptoms, not treating it. Phentermine's sympathomimetic action is mechanistically more likely to worsen than improve POTS.
-- **Migraine disorder** — the retrieved literature attributes migraine-preventive effects to the *topiramate* component of the phentermine/topiramate combination, not to phentermine itself; one case report (PMID 25911503) even describes topiramate withdrawal (with phentermine added) affecting migraine control, further pointing to topiramate as the active agent.
+Several other top-scoring predictions are similarly implausible:
+- Proximal 16p11.2 microdeletion syndrome is associated with obesity, so the link to weight loss is speculative.
+- Obsolete hypertelorism, frontorhiny and Boissel-type lethal polymalformative syndrome are craniofacial or congenital malformation conditions with no pharmacological rationale.
+
+The most credible candidate is **fatty liver disease** (rank 7, score 77.7%, evidence level L3, "Research Question"). Phentermine promotes weight loss, and weight loss lowers intrahepatic fat in obesity-associated MASLD/NAFLD. Any liver benefit is therefore probably secondary to weight loss, not a liver-specific mechanism.
 
 ---
 
 ## Clinical Trial Evidence
 
+For the top-ranked prediction (hypervitaminosis): Currently no related clinical trials registered.
+
+For fatty liver disease, the most evidence-supported alternative prediction:
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT03849729](https://clinicaltrials.gov/study/NCT03849729) | Phase 4 | Completed | 92 | Evaluated effectiveness and tolerability of phentermine in reducing intrahepatic fat infiltration and adipose tissue, and postoperative complications, in patients undergoing bariatric surgery. |
-| [NCT07058155](https://clinicaltrials.gov/study/NCT07058155) | Phase 4 | Recruiting | 70 | OPTIMAL Trial: evaluates TIPS combined with interval metabolic surgery for advanced liver disease/portal hypertension in patients with obesity; phentermine's role as an intervention is not clearly primary (graded C relevance). |
+| [NCT03849729](https://clinicaltrials.gov/study/NCT03849729) | Phase 4 | Completed | 92 | Phentermine to reduce intrahepatic fat, adipose tissue and postoperative complications in bariatric surgery patients. Results and randomisation design are not in the provided data. |
+| [NCT07058155](https://clinicaltrials.gov/study/NCT07058155) | Phase 4 | Recruiting | 70 | TIPS with interval metabolic surgery for advanced liver disease with portal hypertension and severe obesity. Focus is surgical, so phentermine's role is unclear. |
 
 ---
 
 ## Literature Evidence
 
+For the top-ranked prediction (hypervitaminosis): Currently no related literature available.
+
+For fatty liver disease (15 publications retrieved; the 8 most relevant are shown):
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [32153507](https://pubmed.ncbi.nlm.nih.gov/32153507/) | 2020 | Systematic Review | Frontiers in Endocrinology | Systematic review of weight-loss medications' effects on hepatic steatosis/steatohepatitis; GLP-1 agonists best studied, but reviews anorectics including phentermine. |
-| [35501557](https://pubmed.ncbi.nlm.nih.gov/35501557/) | 2022 | Review | Current Obesity Reports | Reviews anti-obesity medication effects on NAFLD, with focus on hepatic histology outcomes. |
-| [36120448](https://pubmed.ncbi.nlm.nih.gov/36120448/) | 2022 | Review | Frontiers in Endocrinology | Compares anti-obesity agents to identify the optimal option for NAFLD patients. |
-| [30502373](https://pubmed.ncbi.nlm.nih.gov/30502373/) | 2019 | Review | Metabolism | Reviews obesity-NAFLD pathophysiology and links weight loss to reduced liver-specific and all-cause mortality in NAFLD. |
-| [41025003](https://pubmed.ncbi.nlm.nih.gov/41025003/) | 2025 | Review | World Journal of Gastroenterology | Updated review of anti-obesity drug efficacy/safety in MASLD/MASH, noting hepatotoxicity and altered hepatic metabolism concerns in this population. |
-| [39604664](https://pubmed.ncbi.nlm.nih.gov/39604664/) | 2025 | Cohort | Digestive Diseases and Sciences | Cohort study on weight-management therapy success (7% total body weight loss target) in MASLD/MASH patients with psychiatric comorbidities. |
-| [35430025](https://pubmed.ncbi.nlm.nih.gov/35430025/) | 2022 | Review | Journal of Clinical Lipidology | Roundtable discussion noting extended-release phentermine/topiramate promotes meaningful weight loss in RCTs relevant to fatty liver risk reduction. |
-| [36059008](https://pubmed.ncbi.nlm.nih.gov/36059008/) | 2022 | Review | Paediatric Drugs | Reviews phentermine/topiramate's pediatric approval, noting the combination was also studied for NASH. |
-| [39720872](https://pubmed.ncbi.nlm.nih.gov/39720872/) | 2025 | Cohort | JPEN | Describes topiramate (phentermine-topiramate combination component) treatment outcomes in pediatric MASLD. |
-| [18560368](https://pubmed.ncbi.nlm.nih.gov/18560368/) | 2008 | Basic Science | International Journal of Obesity | Preclinical study of amylin combined with phentermine or sibutramine on food intake and body weight in diet-induced obese rats. |
+| [41025003](https://pubmed.ncbi.nlm.nih.gov/41025003/) | 2025 | Systematic review/Meta-analysis | World J Gastroenterol | Efficacy and safety of anti-obesity drugs in MASLD/MASH; notes safety and hepatotoxicity concerns given altered hepatic metabolism |
+| [32153507](https://pubmed.ncbi.nlm.nih.gov/32153507/) | 2020 | Systematic review | Front Endocrinol | Hepatic effects of weight-loss drugs; GLP-1 agonists are best studied |
+| [35501557](https://pubmed.ncbi.nlm.nih.gov/35501557/) | 2022 | Review | Curr Obes Rep | Effect of anti-obesity medications on NAFLD, focusing on hepatic histology |
+| [36120448](https://pubmed.ncbi.nlm.nih.gov/36120448/) | 2022 | Review | Front Endocrinol | Choice of anti-obesity agent in NAFLD; limited data |
+| [30502373](https://pubmed.ncbi.nlm.nih.gov/30502373/) | 2019 | Review | Metabolism | Obesity and NAFLD from pathophysiology to therapeutics |
+| [36059008](https://pubmed.ncbi.nlm.nih.gov/36059008/) | 2022 | Drug approval review | Paediatr Drugs | Phentermine/topiramate (Qsymia) pediatric approval; NASH listed among development targets |
+| [35430025](https://pubmed.ncbi.nlm.nih.gov/35430025/) | 2022 | Expert roundtable | J Clin Lipidol | Obesity, diabetes and liver disease in relation to cardiovascular risk; discusses phentermine/topiramate |
+| [39604664](https://pubmed.ncbi.nlm.nih.gov/39604664/) | 2025 | Cohort | Dig Dis Sci | Mood or anxiety disorders did not affect weight-management success in MASLD |
+
+Two other predictions have a small amount of literature, both of which argue against a benefit from phentermine:
+- **Postural orthostatic tachycardia syndrome:** one 2016 case report ([26968177](https://pubmed.ncbi.nlm.nih.gov/26968177/)) shows stimulant medication can mimic or aggravate POTS tachycardia, which points to an adverse effect, not a therapeutic one.
+- **Migraine disorder:** the literature is confounded by topiramate, the migraine-active component of the phentermine/topiramate combination. Phentermine appears only as a co-component or as an add-on in one case report ([25911503](https://pubmed.ncbi.nlm.nih.gov/25911503/)).
 
 ---
 
 ## Singapore Market Information
 
-Phentermine has **no current market registration in Singapore** (`market_status`: Not marketed, 0 licenses on record). No authorization numbers, product names, or approved indication text are available to tabulate.
+The approved indication text is empty in all four records, so that column is omitted.
+
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN05315P | PANBESY CAPSULE 15 MG | Capsule | OSMOPHARM SA / Tjoapack Netherlands B.V. |
+| SIN05113P | PANBESY CAPSULE 30 mg | Capsule | OSMOPHARM SA / Tjoapack Netherlands B.V. |
+| SIN01256P | DUROMINE CAPSULE 30 mg | Capsule | Douglas Manufacturing Ltd |
+| SIN01255P | DUROMINE CAPSULE 15 mg | Capsule | Douglas Manufacturing Ltd |
+
+All products are oral capsules.
 
 ---
 
 ## Safety Considerations
 
-Structured safety data (key warnings, contraindications, drug interactions) is not currently available for this drug (data gap DG001, blocking).
+Please refer to the package insert for safety information. The HSA package insert warnings and contraindications have not been retrieved, and no drug interaction records were found.
 
-- **Mechanistic caution from evidence review:** As a sympathomimetic stimulant, phentermine's pharmacology may be inappropriate for, or could aggravate, conditions with pre-existing sympathetic overactivity — this is illustrated by the case-report evidence retrieved under the POTS candidate indication (PMID 26968177), which describes stimulant medication mimicking/worsening postural tachycardia rather than treating it.
-
-Please refer to the official package insert for complete safety information once available.
+From the retrieved literature only:
+- **Cardiovascular:** stimulants such as phentermine may aggravate tachycardia and orthostatic symptoms (POTS case report).
+- **Heart valve disorder:** it has been reported with the fenfluramine plus phentermine combination.
+- **Liver disease:** safety and hepatotoxicity concerns apply to anti-obesity medications in MASLD/MASH.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-A completed Phase 4 trial directly measuring phentermine's effect on intrahepatic fat, supported by a consistent body of review literature linking anti-obesity pharmacotherapy to NAFLD/MASLD improvement, gives fatty liver disease reasonable (L2) evidence support — but the effect is indirect (weight-mediated), phentermine's independent contribution versus its combination partner topiramate is not fully isolated, and the drug is not currently marketed in Singapore.
+The top-ranked prediction, hypervitaminosis, is a model score only. It has no trials, no literature and no plausible mechanism. The other high-scoring predictions are also unsupported. Fatty liver disease is the only indication worth pursuing, as a research question, and any benefit is likely secondary to weight loss.
 
 **To proceed, the following is needed:**
-- TFDA/HSA-equivalent package insert data — warnings, contraindications (blocking gap DG001)
-- Drug's original mechanism of action (DG002) for a complete mechanistic justification
-- Evidence isolating phentermine's independent effect on hepatic fat from the topiramate component in combination studies
-- Regulatory pathway assessment given phentermine's current unregistered status in Singapore
-- Cardiovascular/sympathetic risk screening protocol, given the mechanistic caution raised by the POTS-related case report
+- The HSA package insert warnings and contraindications, since safety screening cannot proceed without them (blocking gap)
+- Phentermine's mechanism of action data from DrugBank
+- The results and design of NCT03849729. If it was a randomised controlled trial with a positive hepatic fat endpoint, the fatty liver evidence could move from L3 to L2.
+- The Singapore approved indication text for the four registrations
+- Confirmation that cardiovascular safety in patients with fatty liver disease has been considered
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

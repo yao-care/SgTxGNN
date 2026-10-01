@@ -29,89 +29,66 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ivermectin: From Parasitic Infections to Vulvovaginal Candidiasis
+# Ivermectin: From Approved Topical Use (Indication Not Recorded) to Vulvovaginal Candidiasis
 
 ## One-Sentence Summary
 
-Ivermectin is a broad-spectrum antiparasitic agent established for treating nematode and ectoparasite infections (including strongyloidiasis, onchocerciasis, and scabies).
-The TxGNN model predicts it may be effective for **Vulvovaginal Candidiasis**, ranking it 1st with a score of 99.95%;
-however, **0 clinical trials** and **0 directly relevant publications** currently support this direction, and the mechanistic rationale is critically weak, raising serious concern that this prediction reflects a knowledge graph (KG) node bias rather than a genuine repurposing opportunity.
-
----
+Ivermectin is registered in Singapore as a topical cream (SOOLANTRA), but the record does not state its approved indication.
+The TxGNN model predicts it may be effective for **vulvovaginal candidiasis**, but **no clinical trials and no supporting publications** back this prediction, so it is a model-only signal.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Parasitic infections (antiparasitic agent — strongyloidiasis, onchocerciasis, scabies); formal indication data not available in system |
-| Predicted New Indication | Vulvovaginal Candidiasis |
+|------|------|
+| Original Indication | Not recorded in the Singapore registration data |
+| Predicted New Indication | Vulvovaginal candidiasis |
 | TxGNN Prediction Score | 99.95% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | **Hold** |
-
----
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack (Data Gap DG002 — DrugBank API query pending). Based on pharmacological context provided in the prediction rationale, Ivermectin acts by binding to glutamate-gated chloride (GluCl) ion channels found exclusively in invertebrate nerve and muscle cells, causing paralysis and death of susceptible parasites (nematodes, ectoparasites). At therapeutic doses, this mechanism has negligible activity in mammalian cells, which is the basis for Ivermectin's established safety profile in antiparasitic therapy.
+Currently, detailed mechanism of action data is not available in the record. Ivermectin's known action is on glutamate-gated chloride channels in invertebrates. Fungal pathogens have no clear counterpart to these channels, so there is no established mechanistic link to *Candida* infection.
 
-Vulvovaginal candidiasis is a fungal infection caused by *Candida* species (most commonly *C. albicans*). Fungi do not possess GluCl channels — Ivermectin's primary molecular target — meaning there is **no established mechanistic basis** for antifungal activity. Some in vitro data have suggested Ivermectin may inhibit *Candida* biofilm formation, possibly through membrane permeability changes, but these findings are preliminary, inconsistent, and have not generated any clinical investigations.
+The high score most likely reflects proximity in the knowledge graph rather than biology. Other top predictions for this drug are also candidiasis-related or vulvovaginal conditions, such as esophageal candidiasis, vulvovaginitis and vulvitis. This suggests the model is picking up a cluster of related terms.
 
-Notably, all 10 top-ranked TxGNN predictions for Ivermectin cluster around candidiasis, vulvovaginal conditions, and HPV infection — a pattern highly inconsistent with its antiparasitic pharmacology. This uniformity is a recognised signature of **KG node bias**, where a drug's graph neighbourhood becomes spuriously enriched for co-located disease nodes rather than biologically plausible targets. The prediction score of 99.95% therefore reflects statistical artefact rather than mechanistic plausibility, and should be interpreted with extreme caution.
-
----
+The two publications attached to lower-ranked predictions do not support antifungal use. One is a strongyloidiasis case report and the other is a crusted scabies case series. Both describe antiparasitic use only.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-No directly relevant literature is available for vulvovaginal candidiasis.
-
-> **Note on retrieved literature across all 10 predicted indications:** Two records were retrieved during the evidence search, but neither supports the predicted indications:
->
-> | PMID | Year | Type | Journal | Finding |
-> |------|------|------|---------|---------|
-> | [35835488](https://pubmed.ncbi.nlm.nih.gov/35835488/) | 2022 | Case Report | *BMJ Case Reports* | Disseminated strongyloidiasis treated with Ivermectin — this is Ivermectin's **original** indication, not the predicted one |
-> | [10098288](https://pubmed.ncbi.nlm.nih.gov/10098288/) | 1999 | Case Report | *Australasian Journal of Dermatology* | Crusted scabies in immunocompromised children treated with Ivermectin — again, an **original** indication; patient's concurrent mucocutaneous candidiasis was not treated by Ivermectin |
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Ivermectin is currently **not registered** in Singapore. No product licences are on record, and no approved indication text is available through the Singapore regulatory database.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN15197P | SOOLANTRA CREAM 10MG/G (Laboratoires Galderma) | Cream | Not listed in the record |
 
----
+The only registered form is a topical cream. Whether it could serve a vulvovaginal indication has not been assessed, and route compatibility is still pending.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
-> Safety data (key warnings, contraindications, drug interactions) were not retrieved in this evidence pack due to Data Gap DG001 (TFDA package insert not yet parsed). DDI query returned no results. Full safety assessment is blocked until DG001 is resolved.
-
----
+Please refer to the package insert for safety information. No drug interaction records were found.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This prediction sits at Evidence Level L5 — model prediction only — with zero supporting clinical trials, zero relevant publications, and no credible mechanistic link between Ivermectin's antiparasitic mechanism and Candida infection biology. The clustering of all 10 top predictions around candidiasis/vulvovaginal conditions is a strong signal of KG node bias; this candidate is not suitable for further repurposing development without first resolving the model artefact.
+The prediction rests only on a model score. There are no trials or supportive publications, and there is no plausible antifungal mechanism. The record also lacks the approved indication and safety labelling needed for screening.
 
 **To proceed, the following is needed:**
-
-- **Resolve KG node bias:** Audit the TxGNN knowledge graph neighbourhood for Ivermectin to identify which node relationships are driving the candidiasis cluster; consider re-running predictions after graph correction
-- **Complete MOA data (DG002):** Query DrugBank API for Ivermectin's full mechanism of action to enable proper mechanistic plausibility assessment
-- **Complete safety data (DG001):** Parse TFDA package insert PDF to retrieve warnings and contraindications; this is currently a blocking data gap
-- **Assess in vitro antifungal evidence:** Conduct a targeted PubMed search for Ivermectin + *Candida* + in vitro / biofilm to determine whether any preclinical signal exists that could justify upgraded investigation
-- **If in vitro signal confirmed:** Commission a formal preclinical study before any clinical consideration is warranted
-
-> ⚠️ *This report is for research reference only and does not constitute medical advice. All drug repurposing candidates require clinical validation before application.*
+- The approved indication and package insert warnings and contraindications from the HSA
+- Mechanism of action data from DrugBank
+- In vitro susceptibility data for ivermectin against *Candida* species
+- A route and formulation assessment, since only a topical cream is registered
+- Any clinical or preclinical study directly addressing candidiasis
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

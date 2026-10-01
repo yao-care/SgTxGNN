@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Imiglucerase
-parent: Low Evidence (L5)
+parent: Medium Evidence (L3-L4)
 nav_order: 519
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Imiglucerase
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,124 +31,85 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 # Imiglucerase: From Gaucher Disease to Hurler Syndrome
 
----
-
 ## One-Sentence Summary
 
-Imiglucerase (Cerezyme®) is a recombinant glucocerebrosidase enzyme replacement therapy (ERT) approved globally for Gaucher disease — the most common lysosomal storage disorder — but currently not marketed in Singapore.
-TxGNN ranks Hurler syndrome as its top repurposing target (score 99.52%), supported by **0 clinical trials** and **2 publications**; however, the mechanistic link is absent, as Hurler syndrome requires alpha-L-iduronidase replacement, an entirely different enzyme.
-The most evidence-supported prediction is **rank 6: lysosomal storage disease with skeletal involvement** (operationally equivalent to Gaucher disease with bone complications), backed by **2 completed clinical trials** and **20 publications**, with L1 evidence and a "Proceed with Guardrails" recommendation.
+Imiglucerase is a recombinant glucocerebrosidase enzyme (Cerezyme) used as enzyme replacement therapy, most likely for Gaucher disease.
+The TxGNN model predicts it may be effective for **Hurler syndrome**, but there are **0 clinical trials** and only **2 general publications** on lysosomal enzyme replacement therapy (ERT), neither with imiglucerase-specific data for this disease.
+The evidence for this prediction is weak.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Gaucher disease (glucocerebrosidase deficiency; FDA-approved 1994, EMA-approved) |
-| TxGNN Top Predicted Indication | Hurler syndrome (rank 1) |
-| TxGNN Prediction Score | 99.52% (Hurler syndrome, rank 1) |
-| Evidence Level | L4 (rank 1: Hurler syndrome) / L1 (rank 6: lysosomal storage disease with skeletal involvement) |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Hold (ranks 1–5, 7–10) / Proceed with Guardrails (rank 6) |
+|------|------|
+| Original Indication | Gaucher disease (inferred from the enzyme's function; the Singapore record has no indication text) |
+| Predicted New Indication | Hurler syndrome (MPS I) |
+| TxGNN Prediction Score | 99.52% |
+| Evidence Level | L4 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Imiglucerase is a recombinant form of human glucocerebrosidase (GBA), produced in Chinese hamster ovary cells and modified to expose mannose residues that direct the enzyme into macrophage lysosomes via mannose receptor-mediated endocytosis. In Gaucher disease, pathogenic GBA mutations cause glucocerebroside (glucosylceramide) to accumulate within lysosomes of macrophages throughout the liver, spleen, bone marrow, and — in neuropathic subtypes — the central nervous system. Intravenous biweekly administration of imiglucerase replenishes the deficient enzyme, progressively clearing the glycolipid substrate and reversing systemic manifestations including hepatosplenomegaly, anaemia, thrombocytopenia, and skeletal complications.
+Detailed mechanism of action data is not available in the record. Based on known biochemistry, imiglucerase is a recombinant human glucocerebrosidase (GBA). It breaks down glucosylceramide, the substance that accumulates in Gaucher disease.
 
-TxGNN's high scores for Hurler syndrome (MPS I), Scheie syndrome, Wolman disease, and cholesteryl ester storage disease reflect the knowledge graph's recognition that all lysosomal storage diseases share a common pathophysiological logic — an enzyme deficiency leads to substrate accumulation and progressive organ damage. This category-level similarity is a structural artifact of the knowledge graph, not a clinically actionable mechanistic link. **Hurler and Scheie syndromes require replacement of alpha-L-iduronidase (laronidase, Aldurazyme®), which is a completely different lysosomal enzyme from glucocerebrosidase.** Imiglucerase has no catalytic activity against the glycosaminoglycan substrates that accumulate in MPS I.
+The mechanistic link to Hurler syndrome is weak. Hurler syndrome is caused by a deficiency of a different enzyme, alpha-L-iduronidase (IDUA), which leads to glycosaminoglycan buildup. Imiglucerase does not supply the missing enzyme and does not act on the accumulating substrate. The only shared concept is that both are lysosomal storage diseases treated with ERT.
 
-The most clinically coherent and evidence-supported TxGNN prediction is **rank 6: lysosomal storage disease with skeletal involvement**, which maps directly to the established, globally approved indication for imiglucerase. Multiple cohort studies, clinical trials, and long-term registries confirm that imiglucerase reduces bone marrow infiltration, bone pain, avascular necrosis risk, and improves quality of life in patients with skeletal Gaucher disease. The critical gap in Singapore is not efficacy uncertainty but the absence of local market authorisation, making this a market access question rather than a clinical evidence question.
+The very high TxGNN score most likely reflects how closely lysosomal storage diseases sit to each other in the knowledge graph, not a drug-specific mechanism. Treat it as a hypothesis, not a supported finding.
+
+The same problem applies to Scheie syndrome (score 99.29%), an attenuated form of MPS I. Other high-scoring predictions, such as Wolman disease and cholesteryl ester storage disease, involve a different enzyme (lysosomal acid lipase) that already has its own dedicated ERT.
+
+One lower-ranked prediction is notable: **lysosomal storage disease with skeletal involvement** (rank 6, score 98.94%). It maps to Gaucher disease with bone involvement and has an evidence level of L3. That is very likely the drug's existing labeled use, so it is probably not true repurposing and should be checked against the label.
 
 ---
 
 ## Clinical Trial Evidence
 
-*Hurler syndrome (TxGNN rank 1):*
-
-Currently no related clinical trials registered for imiglucerase in Hurler syndrome.
-
----
-
-*Lysosomal storage disease with skeletal involvement (TxGNN rank 6 — highest evidence):*
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT04656600](https://clinicaltrials.gov/study/NCT04656600) | Phase 4 | Completed | 12 | Single-arm study of imiglucerase at maximum Chinese label dosage (60 U/kg IV biweekly) in Chinese patients with Gaucher disease type III; evaluated haematologic parameters, visceral manifestations, bone disease efficacy, and safety profile |
-| [NCT01842841](https://clinicaltrials.gov/study/NCT01842841) | Phase 3 | Completed | 5 | Open-label extension of velaglucerase alfa ERT in Japanese patients with Gaucher disease; demonstrates class-level ERT efficacy for skeletal and haematologic manifestations in an Asian population (same enzyme class, different molecule, supports biological plausibility) |
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-*Hurler syndrome (TxGNN rank 1) — 2 publications:*
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [20534487](https://pubmed.ncbi.nlm.nih.gov/20534487/) | 2010 | Technical Study | PNAS | PET imaging applied to monitor ERT enzyme distribution across multiple LSDs including Gaucher, Fabry, **Hurler**, Hunter, and Pompe disease; imiglucerase cited as the prototype ERT — no therapeutic data specific to Hurler |
-| [21211680](https://pubmed.ncbi.nlm.nih.gov/21211680/) | 2010 | Review | Rev Med Interne | Review of ERT development for LSDs; describes imiglucerase as the ERT prototype and discusses distinct enzyme products required for Fabry, **Hurler**, Hunter, and Pompe — confirms different enzymes are needed for each disease |
-
-*Lysosomal storage disease with skeletal involvement (TxGNN rank 6 — 20 publications, top 10 selected):*
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [17539908](https://pubmed.ncbi.nlm.nih.gov/17539908/) | 2007 | Cohort | Clinical Genetics | Imiglucerase (60 U/kg biweekly) significantly improved health-related quality of life in 32 treatment-naïve type 1 Gaucher patients with skeletal manifestations including bone pain, medullary infarctions, avascular necrosis, and lytic lesions |
-| [8931951](https://pubmed.ncbi.nlm.nih.gov/8931951/) | 1996 | Clinical Trial | Blood Cells Mol Dis | Low-dose ERT produced objective bone improvement in 14 adult type 1 Gaucher patients with severe skeletal involvement over 2–4 years of treatment |
-| [9453101](https://pubmed.ncbi.nlm.nih.gov/9453101/) | 1997 | Clinical Study | Skeletal Radiology | MRI-based assessment of bone marrow involvement and ERT response in type 1 Gaucher disease; MRI identified as most sensitive tool for monitoring skeletal treatment response |
-| [22640238](https://pubmed.ncbi.nlm.nih.gov/22640238/) | 2012 | Cohort | Br J Haematology | ICGG Registry retrospective analysis (n=1,016 GD1 patients with intact spleen) examining characteristics associated with persistent thrombocytopenia after 4–5 years of continuous imiglucerase therapy |
-| [18553043](https://pubmed.ncbi.nlm.nih.gov/18553043/) | 2008 | Case Series | Calcified Tissue Int | Bone metabolism laboratory parameters in 7 Gaucher patients consecutively switching from imiglucerase ERT to miglustat substrate reduction therapy; documents bone marker changes during treatment transition |
-| [20055531](https://pubmed.ncbi.nlm.nih.gov/20055531/) | 2010 | Review | BioDrugs | Comprehensive review of imiglucerase: mechanism, dosing optimisation, clinical outcomes including bone improvements, and registry evidence from the ICGG international database |
-| [27441734](https://pubmed.ncbi.nlm.nih.gov/27441734/) | 2016 | Biomarker Study | Am J Hematology | Plasma glucosylsphingosine (lyso-GL1) validated as key biomarker for Gaucher disease activity and ERT response in 169 GD1 patients; relevant for treatment monitoring |
-| [34500086](https://pubmed.ncbi.nlm.nih.gov/34500086/) | 2021 | Cohort | Eur J Med Genetics | 16-year single-centre retrospective study of 38 Turkish children with GD1/GD3; imiglucerase ERT improved haematologic and visceral outcomes; characterises paediatric Asian/Middle Eastern population response |
-| [25127542](https://pubmed.ncbi.nlm.nih.gov/25127542/) | 2014 | Cohort | Mol Genet Metab | Long-term ERT outcomes in Italian type 3 Gaucher cohort; ERT effective for systemic manifestations; CNS involvement not addressed due to blood-brain barrier limitation |
-| [21889384](https://pubmed.ncbi.nlm.nih.gov/21889384/) | 2011 | Review | Mol Genet Metab | Comprehensive review of bone pathology in Gaucher disease and ERT response; discusses heterogeneity of skeletal involvement including osteonecrosis, marrow infiltration, and pathological fracture mechanisms |
+| [21211680](https://pubmed.ncbi.nlm.nih.gov/21211680/) | 2010 | Review | La Revue de médecine interne | Overview of ERT for lysosomal storage diseases. It traces the move from placenta-derived alglucerase to recombinant imiglucerase for Gaucher disease. No imiglucerase-specific data for Hurler syndrome. |
+| [20534487](https://pubmed.ncbi.nlm.nih.gov/20534487/) | 2010 | Other (ERT imaging) | Proceedings of the National Academy of Sciences | PET imaging of enzyme replacement therapy. Mentions Hurler syndrome among diseases where ERT has been used, but does not test imiglucerase in it. |
 
 ---
 
 ## Singapore Market Information
 
-No registered products found. Imiglucerase is **not currently authorised or marketed in Singapore** (0 HSA licences).
-
-For patient access in Singapore, potential pathways include:
-
-- **Named-patient / Special Access Route**: Application to HSA under the Special Access Route for unregistered therapeutic products
-- **Institutional importation**: Licensed healthcare institutions (e.g., tertiary hospitals) may arrange direct importation
-- **Manufacturer programme**: Contact Sanofi Genzyme for patient assistance or named-patient supply
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN13842P | Cerezyme® (Imiglucerase) 400U Powder for solution for injection (Genzyme Ireland Ltd) | Injection, powder, for solution |
 
 ---
 
 ## Safety Considerations
 
-No warnings, contraindications, or drug interactions were retrieved in this evidence pack for imiglucerase.
-
-Based on well-established clinical experience with intravenous ERT:
-
-- **Infusion-related reactions** are the most commonly reported adverse events, occurring in approximately 13% of patients; symptoms include pruritus, flushing, urticaria, chest discomfort, and — rarely — anaphylaxis. Pre-medication with antihistamines or low-dose corticosteroids is recommended for patients who have experienced prior reactions.
-- **Antibody formation**: A subset of patients develops IgG antibodies to imiglucerase; most remain asymptomatic, but monitoring is recommended, particularly in patients with persistent or worsening disease despite adequate dosing.
-
-Please refer to the international Cerezyme® product insert for full prescribing information, including pregnancy, lactation, and renal/hepatic impairment guidance.
+Please refer to the package insert for safety information.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold (novel repurposing, ranks 1–5 and 7–10) / Proceed with Guardrails (rank 6: Gaucher disease with skeletal involvement)**
+**Decision: Hold**
 
 **Rationale:**
-TxGNN's top nine unique predictions (Hurler syndrome through rank 10) are either mechanistically invalid — each requiring a different lysosomal enzyme unrelated to glucocerebrosidase — or entirely without supporting evidence. The one actionable TxGNN finding (rank 6) corresponds to imiglucerase's own established global indication and is supported by L1-level evidence including multiple cohort studies, Phase 3/4 trials, and long-term international registries. The barrier to use in Singapore is **market access**, not clinical uncertainty.
+The predicted use in Hurler syndrome has no clinical trials and no drug-specific literature. Imiglucerase replaces a different enzyme from the one missing in this disease, so the high TxGNN score is not backed by a plausible mechanism.
 
-**To proceed (Gaucher disease with skeletal involvement, Singapore access), the following is needed:**
+**To proceed, the following is needed:**
+- The HSA package insert (indications, warnings, contraindications), which is also needed to confirm the original indication
+- Detailed mechanism of action data from DrugBank
+- Evidence of any biochemical activity of glucocerebrosidase against MPS I substrates, which is currently unsupported
+- Separate review of the "lysosomal storage disease with skeletal involvement" prediction, to confirm whether it is an on-label Gaucher indication rather than repurposing
 
-- **Market access**: Initiate HSA Special Access Route or institutional importation process; confirm whether the Ministry of Health rare disease funding framework covers imiglucerase
-- **Safety documentation**: Obtain the full international Cerezyme® package insert and conduct a formal pharmacist-led safety review prior to any infusion
-- **Baseline workup**: Establish pre-treatment assessment including CBC with differential, liver and spleen imaging (ultrasound/MRI), bone marrow MRI for skeletal disease burden, and plasma lyso-GL1 biomarker
-- **Long-term monitoring plan**: Define CBC, organ imaging, and biomarker review intervals aligned with ICGG Registry protocols
-- **For novel repurposing directions (ranks 1–5, 7–10)**: Mechanistic validation studies required before any clinical consideration; TxGNN scores reflect disease-category similarity, not enzyme-level specificity
-
-> ⚠️ **Disclaimer**: This report is for research reference only and does not constitute medical advice. All drug repurposing candidates require clinical validation before application. Clinicians should refer to the full product monograph and applicable regulatory guidance for patient care decisions.
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -33,68 +33,63 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Valbenazine is a selective VMAT2 inhibitor whose established use (per literature evidence in this pack) is tardive dyskinesia and Huntington's chorea; it is not currently registered in Singapore.
-The TxGNN model's top-ranked prediction is **Psychogenic Movement Disorders**, but this specific candidate has **0 clinical trials** and **0 publications** supporting it, and the model's own mechanistic rationale flags it as biologically implausible.
-
----
+Valbenazine is an oral VMAT2 inhibitor used for tardive dyskinesia, an indication not recorded in the Singapore licence text but described in the supporting literature. The TxGNN model predicts it may be effective for **psychogenic movement disorders** with a very high score, but **no clinical trials and no publications** currently support this specific prediction. It is best treated as a model-only signal, probably an artifact of the knowledge graph.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not registered in Singapore. Per literature evidence, valbenazine is approved internationally for Tardive Dyskinesia (and Huntington's chorea) |
-| Predicted New Indication | Psychogenic Movement Disorders |
-| TxGNN Prediction Score | 99.82% (rank 3123 overall) |
+| Original Indication | Tardive dyskinesia (inferred from the literature; the licence indication text is blank) |
+| Predicted New Indication | Psychogenic movement disorders |
+| TxGNN Prediction Score | 99.82% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not marketed (Not marketed) |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed formal MOA data for Valbenazine is a data gap. Based on literature within this evidence pack, valbenazine is a selective vesicular monoamine transporter 2 (VMAT2) inhibitor: it downregulates presynaptic packaging and release of dopamine into the neuronal synapse, an action effective in hyperkinetic movement disorders such as tardive dyskinesia and Huntington's chorea (PMID 32454050, 28578484).
+Detailed mechanism-of-action data is not available in the Evidence Pack. Based on the supporting literature, valbenazine is a selective VMAT2 inhibitor. It reduces presynaptic dopamine packaging and release, which is the basis for its use in hyperkinetic movement disorders such as tardive dyskinesia.
 
-Psychogenic (functional) movement disorders, however, are not driven by excess presynaptic dopamine vesicle release — their pathophysiology is understood to be functional/central rather than a dopaminergic packaging defect. The evidence pack's own rationale explicitly notes this: *"功能性（心因性）運動障礙病理機轉非多巴胺囊泡釋放異常，與 VMAT2 抑制作用機轉關聯薄弱"*. Combined with the complete absence of clinical trials or publications for this specific pairing, this appears to be a high TxGNN score without corresponding biological plausibility — a likely false-positive prediction rather than a genuine repurposing signal.
-
----
+The model's prediction most likely reflects general similarity between movement disorders in the knowledge graph. Psychogenic (functional) movement disorders are not primarily driven by dopamine excess, so suppressing dopamine release has a weak biological rationale here. A high score with no trials or literature, and a rank of 3123 among all predictions, suggests a knowledge-graph neighbourhood artifact rather than a real therapeutic signal.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Valbenazine is not currently registered in Singapore (market status: Not marketed). No license records are available in this evidence pack.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN16198P | REMLEAS HARD CAPSULES 40 MG | Capsule, gelatin coated (oral) | — (not listed in the record) |
 
----
+Manufacturer: Patheon France S.A.S.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
----
+Please refer to the package insert for safety information. No interaction records were found for this drug.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite a very high TxGNN score, this specific indication (Psychogenic Movement Disorders) has no supporting clinical trials or literature, and the mechanistic rationale itself identifies a poor biological fit. This does not meet the bar to advance past preliminary screening.
+The prediction has a high model score but no trials, no literature and a weak mechanistic rationale. Evidence is at L5 (model prediction only), so there is nothing to justify moving forward for psychogenic movement disorders.
 
 **To proceed, the following is needed:**
-- TFDA/HSA-equivalent label warnings and contraindications (currently a **Blocking** data gap — required before any S1 safety assessment)
-- Formal DrugBank MOA confirmation (currently a **High**-severity data gap)
-- Reconsider prioritization: within this same evidence pack, **Chronic Tic Disorder / Tourette syndrome** (rank 5, one Phase 2 trial + 12 publications) and **Drug-Induced Dyskinesia / Tardive Dyskinesia** (rank 10, multiple completed Phase 2–4 RCTs including pivotal KINECT trials) have substantially stronger evidence bases and warrant separate evaluation as more viable candidates than the top-ranked psychogenic movement disorders prediction.
+- Any clinical or preclinical evidence linking VMAT2 inhibition to functional movement disorders
+- The Singapore package insert (warnings, contraindications and the approved indication text)
+- Mechanism-of-action data for the drug record
+
+**Other predictions for this drug (outside the scope of this report):**
+- **Chronic tic disorder** is the most credible genuine repurposing direction (L3). It has a plausible VMAT2 rationale, a terminated pediatric Phase 2 rollover study (n=6) and real-world reports, but no randomized evidence.
+- **Drug-induced dyskinesia (tardive dyskinesia)** is the marketed use, with Phase 3 RCT support (L1). It is not true repurposing, and its guardrails are confirming label status in Singapore and monitoring for depression, suicidality, somnolence, QT effects and CYP2D6/3A4 interactions.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

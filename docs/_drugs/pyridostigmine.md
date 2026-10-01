@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Pyridostigmine
-parent: Low Evidence (L5)
+parent: Medium Evidence (L3-L4)
 nav_order: 834
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Pyridostigmine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,45 +29,51 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pyridostigmine: From Myasthenia Gravis to Myasthenia Gravis with Thymus Hyperplasia
+# Pyridostigmine: From Myasthenia Gravis (Symptomatic Therapy) to Myasthenia Gravis with Thymus Hyperplasia
 
 ## One-Sentence Summary
 
-Pyridostigmine is a well-established acetylcholinesterase inhibitor used as standard symptomatic therapy for myasthenia gravis (MG) — this is confirmed by the drug's own literature evidence base, though formal original-indication and MOA records are currently missing from the Evidence Pack (data gaps). The TxGNN model's top prediction, **Myasthenia Gravis with Thymus Hyperplasia**, is a clinical subtype of the disease pyridostigmine already treats, rather than a genuinely new disease area. Supporting evidence is limited to **3 publications** (no dedicated clinical trials) for this specific subtype.
+Pyridostigmine is a reversible acetylcholinesterase inhibitor and a standard symptomatic therapy for myasthenia gravis.
+The TxGNN model predicts it may be effective for **myasthenia gravis with thymus hyperplasia**, but this is a subtype of the drug's established use rather than a true repurposing.
+Support is thin: **0 clinical trials** and **3 publications**, none of which tests pyridostigmine in this subtype.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in Singapore regulatory data (data gap); literature evidence indicates established use in generalized myasthenia gravis |
-| Predicted New Indication | Myasthenia Gravis with Thymus Hyperplasia |
+| Original Indication | Myasthenia gravis (symptomatic therapy); the Singapore licence record does not state an indication |
+| Predicted New Indication | Myasthenia gravis with thymus hyperplasia |
 | TxGNN Prediction Score | 99.76% |
-| Evidence Level | L3 (retrospective observational study + reviews/case reports) |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (data gap). Based on the literature captured in this Evidence Pack, pyridostigmine is repeatedly described as a standard acetylcholinesterase inhibitor used in the symptomatic treatment of myasthenia gravis — for example, one review notes that "standard medical therapy consists of symptomatic treatment with acetylcholinesterase inhibitors (e.g., pyridostigmine)" (PMID 38212553), and pharmacokinetic studies directly measure its clinical effect in MG patients (PMID 199393, PMID 2166138).
+Pyridostigmine blocks the breakdown of acetylcholine, so more of it stays available at the neuromuscular junction. In myasthenia gravis, autoantibodies reduce the receptors that respond to acetylcholine, and boosting acetylcholine partly compensates. This is why the drug is a first-line symptomatic option in the disease.
 
-Myasthenia Gravis with Thymus Hyperplasia is not a distinct disease but a well-recognized clinical phenotype of generalized MG, associated with thymic pathology and often managed with thymectomy alongside anticholinesterase therapy (PMID 25683765). Mechanistically, pyridostigmine's inhibition of acetylcholinesterase at the neuromuscular junction is disease-subtype agnostic within MG — it improves neuromuscular transmission regardless of whether thymic hyperplasia is present.
+The predicted indication is a subtype of the same disease, and thymic hyperplasia is a common feature of antibody-positive myasthenia gravis. The model's high score therefore mostly reflects that closeness rather than a new therapeutic idea. The supplied literature covers thymus hyperplasia and thymectomy outcomes, not pyridostigmine efficacy in this subtype.
 
-Importantly, this means the TxGNN prediction largely reflects an **already-established use pattern** rather than a novel repurposing opportunity. The value of this signal lies in identifying an underserved MG subtype/phenotype for more targeted evidence generation, not in discovering a new therapeutic area.
+One caution applies: MuSK-positive disease, which lacks the typical thymic changes, often responds poorly to acetylcholinesterase inhibitors.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for this specific predicted indication.
-
-*(Note: broader MG-related trials exist under other TxGNN-ranked predictions, e.g., NCT05095103 and NCT04101578 under "autoimmune disease of peripheral nervous system," but none are indexed specifically for the thymus hyperplasia subtype.)*
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [25683765](https://pubmed.ncbi.nlm.nih.gov/25683765/) | 2015 | Observational (retrospective cohort) | Journal of Neurology | 2-year outcomes of thymectomy in 39 patients with non-thymomatous late-onset generalized MG; anticholinesterase therapy continued alongside surgery |
-| [34225443](https://pubmed.ncbi.nlm.nih.gov/34225443/) | 2021 | Review | Molecular Medicine Reports | Reviews MG pathology, autoimmunity, and phenotypic heterogeneity, including thymic hyperplasia-associated presentations |
-| [18053719](https://pubmed.ncbi.nlm.nih.gov/18053719/) | 2008 | Case report | Neuromuscular Disorders | Describes dropped head syndrome as a prominent feature in MuSK-positive MG with thymus hyperplasia |
+|------|-----|------|---------|---------|
+| [34225443](https://pubmed.ncbi.nlm.nih.gov/34225443/) | 2021 | Review | Molecular Medicine Reports | Genomic, phenotypic and epigenetic review of myasthenia gravis pathology, autoimmunity and weight management; no pyridostigmine-specific efficacy data |
+| [25683765](https://pubmed.ncbi.nlm.nih.gov/25683765/) | 2015 | Cohort (retrospective) | Journal of Neurology | Two-year outcomes of thymectomy in 39 patients with non-thymomatous late-onset myasthenia gravis; studies surgery, not pyridostigmine |
+| [18053719](https://pubmed.ncbi.nlm.nih.gov/18053719/) | 2008 | Case report | Neuromuscular Disorders | Dropped head syndrome in MuSK-positive myasthenia gravis with thymus hyperplasia; a single patient |
+
+## Singapore Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN02898P | MESTINON TABLET 60 mg | Tablet, sugar coated (oral) | Not listed in the registration record |
 
 ## Safety Considerations
 
@@ -78,12 +84,20 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The predicted indication is a recognized clinical subtype of a disease pyridostigmine already treats, so novelty is low; combined with the absence of dedicated clinical trials for this subtype, a blocking safety data gap (no TFDA/HSA label warnings or contraindications available), and zero market presence in Singapore, the evidence does not yet support proceeding.
+The prediction restates the drug's established use in a narrower subtype, and no trial or paper evaluates pyridostigmine for it. The package-insert safety review is also still outstanding, which blocks progression.
 
 **To proceed, the following is needed:**
-- TFDA/HSA package insert (warnings, contraindications, DDI) — currently blocking (DG001)
-- Confirmed mechanism of action and formal original-indication record from DrugBank — currently missing (DG002)
-- Subtype-specific clinical evidence (e.g., outcomes in thymus hyperplasia-associated MG specifically, beyond general MG data) to justify this as a distinct evaluation target
+- The HSA package insert warnings and contraindications, which block the safety screening
+- The Singapore-approved indication wording, to confirm whether this subtype is already covered
+- Subtype-specific response data, including antibody status (AChR vs MuSK), since MuSK-positive disease may respond poorly
+- Detailed mechanism of action data from DrugBank
+
+**Other predictions in this pack (brief):**
+- "Autoimmune disease of peripheral nervous system" (L3) could proceed with guardrails, limited to defined neuromuscular junction conditions. Its two registered trials are observational and do not test pyridostigmine.
+- "Myasthenia, congenital, refractory to acetylcholinesterase inhibitors" conflicts with the disease definition, and acetylcholinesterase inhibitors can worsen slow-channel forms, so it should be held.
+- Hypersplenism, atypical hemolytic-uremic syndrome and fetal akinesia deformation sequence have no plausible mechanistic link and should be held.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

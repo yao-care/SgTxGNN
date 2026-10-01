@@ -29,35 +29,34 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dexchlorpheniramine Maleate: From Allergic Rhinitis to Acute Intermittent Porphyria
+# Dexchlorpheniramine Maleate: From H1 Antihistamine Use to Acute Intermittent Porphyria
 
 ## One-Sentence Summary
 
-Dexchlorpheniramine maleate is a first-generation H1 antihistamine, classically used for symptomatic relief of allergic rhinitis, urticaria, and related hypersensitivity reactions. The TxGNN model predicts it may be effective for **Acute Intermittent Porphyria (AIP)** as its highest-ranked candidate (score 99.12%), yet this is currently supported by **no clinical trials** and **no published literature**. The mechanistic link is not established and carries an active porphyria-specific safety concern; of the 10 predicted indications evaluated, **Allergic Urticaria (rank #6, L3 evidence)** represents the only candidate with actionable clinical support.
+Dexchlorpheniramine maleate is an H1-receptor antagonist (antihistamine) marketed in Singapore in tablet and syrup forms. The TxGNN model's top-ranked prediction is **Acute Intermittent Porphyria**, but this rests on knowledge-graph proximity alone, with **0 clinical trials** and **0 publications**. Among the other predictions, only **Allergic Urticaria** has meaningful supporting evidence (6 publications), and it is probably an existing, on-label use rather than true repurposing.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Allergic rhinitis, urticaria (first-generation H1 antihistamine; no Singapore HSA registration on record) |
-| Predicted New Indication | Acute Intermittent Porphyria |
+|------|------|
+| Predicted New Indication | Acute intermittent porphyria |
 | TxGNN Prediction Score | 99.12% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 10 |
 | Recommended Decision | Hold |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on established pharmacology, Dexchlorpheniramine maleate is the pharmacologically active dextro-enantiomer of chlorpheniramine — a first-generation, sedating H1 receptor competitive antagonist. It blocks peripheral and central histamine H1 receptors, suppressing vascular dilation, increased capillary permeability, and pruritic signalling that characterise allergic reactions. It also carries notable anticholinergic activity and readily crosses the blood-brain barrier, accounting for its CNS sedative effects.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on known information, dexchlorpheniramine is an H1-receptor antagonist. That class blocks histamine-mediated effects, and this is the basis of its established use in allergic conditions.
 
-Acute Intermittent Porphyria is a metabolic disorder driven by loss-of-function mutations in the *HMBS* gene, resulting in impaired haem biosynthesis and toxic accumulation of δ-aminolevulinic acid (ALA) and porphobilinogen (PBG) — neurotoxic precursors responsible for the autonomic, motor, and psychiatric symptoms of acute attacks. The core pathophysiology is fundamentally unrelated to histamine receptor signalling; H1 receptor antagonism has no known direct regulatory interaction with the haem biosynthesis pathway.
+For acute intermittent porphyria, **no mechanistic link has been established**. The high score (0.991) appears to come from proximity within the knowledge graph, not from known H1-antagonist pharmacology. Porphyria is a metabolic disorder of heme biosynthesis, and antihistamine action does not address it. The related prediction "porphyria" (rank 3) is a parent term and probably shares the same graph-derived signal.
 
-The high TxGNN score (0.9912) most likely reflects indirect connections through comorbidity networks or shared symptom nodes in the knowledge graph — for example, psychiatric or autonomic symptoms appearing as shared graph neighbours — rather than a true therapeutic mechanistic link. Critically, British and South African Porphyria guidelines classify certain drugs (including members of the first-generation antihistamine class) under "use with caution" or safety-uncertain categories due to the theoretical risk of precipitating acute attacks. This prediction is mechanistically unsupported and carries an active safety signal that must be resolved before any further evaluation.
+Because the pack lists no approved indication for the drug, the "original indication" could not be confirmed from local registration data.
 
 ---
 
@@ -73,33 +72,74 @@ Currently no related literature available.
 
 ---
 
+## Other Predicted Indications
+
+The other nine predictions are summarised below. Only allergic urticaria has substantive evidence.
+
+| Rank | Predicted Indication | Score | Evidence Level | Decision | Assessment |
+|------|------|------|------|------|------|
+| 2 | Nephrogenic syndrome of inappropriate antidiuresis | 98.36% | L5 | Hold | No plausible link; the disease is driven by the vasopressin V2 receptor pathway |
+| 3 | Porphyria | 97.69% | L5 | Hold | Parent term of rank 1; no trials or literature |
+| 4 | Schizophrenia | 97.17% | L4 | Hold | One paper uses H1 blockade as a probe of sensorimotor performance, not as treatment; no antipsychotic efficacy supported |
+| 5 | Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis | 97.13% | L5 | Hold | No pharmacological target; prediction-only |
+| **6** | **Allergic urticaria** | **96.96%** | **L3** | **Proceed with Guardrails** | **Strong mechanistic fit; see below** |
+| 7 | Syndromic myopia | 96.83% | L5 | Hold | No direct evidence; any rationale is speculative |
+| 8 | Atypical glycine encephalopathy | 96.75% | L5 | Hold | Inborn error of metabolism; no plausible target |
+| 9 | Myopia 26, X-linked, female-limited | 96.71% | L5 | Hold | Graph proximity to other myopia entries only |
+| 10 | Myopia X-linked | 96.61% | L5 | Hold | Graph proximity to other myopia entries only |
+
+### Allergic Urticaria (Rank 6)
+
+H1 antagonism blocks the histamine-mediated wheal and flare response, so the mechanistic fit is strong. This is likely an established, on-label use, and the empty original-indication field appears to be a data gap. It should not be treated as true repurposing until the label is verified. No registered trials were found, and the evidence is surrogate pharmacodynamic and clinical, with no Phase 3 RCT.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [39265704](https://pubmed.ncbi.nlm.nih.gov/39265704/) | 2024 | Phase I randomised PD trial | Eur J Pharm Sci | Compared oral bilastine, parenteral dexchlorpheniramine and a new parenteral bilastine formulation for inhibition of histamine-induced wheal and flare |
+| [29723372](https://pubmed.ncbi.nlm.nih.gov/29723372/) | 2018 | Pharmacodynamic study | An Bras Dermatol | Compared suppression of wheal and flare in the histamine test across the main H1 antihistamines sold in Brazil |
+| [28601540](https://pubmed.ncbi.nlm.nih.gov/28601540/) | 2017 | Case report | Am J Med | Atrial fibrillation in anaphylaxis |
+| [26179134](https://pubmed.ncbi.nlm.nih.gov/26179134/) | 2015 | Case report | Contact Dermatitis | Palpebral angioedema and allergic contact dermatitis caused by a cerumenolytic |
+| [2523357](https://pubmed.ncbi.nlm.nih.gov/2523357/) | 1989 | In vitro study | Int Arch Allergy Appl Immunol | Cetirizine inhibition of eosinophil chemotaxis and IgE-dependent platelet stimulation |
+| [39803](https://pubmed.ncbi.nlm.nih.gov/39803/) | 1979 | Clinical and immunological study | Dermatologica | Case of acquired heat contact urticaria |
+
+---
+
 ## Singapore Market Information
 
-Dexchlorpheniramine maleate has **no Health Sciences Authority (HSA) product registrations** in Singapore. This drug is not currently marketed in Singapore under any dosage form or brand name.
+Five of the 10 registrations are shown below. Approved indication text is not available in the registration data.
+
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN09373P | DEXTRAMINE TABLET 2 mg | Tablet | Chulia Pharma Sdn Bhd |
+| SIN02655P | DEXCHLORAMINE TABLET 2 mg | Tablet | Beacons Pharmaceuticals Pte. Ltd. |
+| SIN02491P | POLARAX SYRUP 2 mg/5 ml | Syrup | Sunward Pharmaceutical Private Limited |
+| SIN09916P | SOMIN TAB 2 mg | Tablet | Y S P Industries (M) Sdn Bhd |
+| SIN10542P | AXCEL DEXCHLORPHENIRAMINE FORTE SYRUP 2 mg/5 ml | Syrup | Kotra Pharma (M) Sdn Bhd |
 
 ---
 
 ## Safety Considerations
 
-**Important porphyria-specific safety signal:** British and South African Porphyria guidelines list certain first-generation antihistamines under categories requiring caution or with undefined safety status in acute porphyrias. Use in AIP patients carries a potential risk of precipitating an acute attack. Any further evaluation must first verify this drug's porphyria safety classification against current databases (e.g., [www.drugs-porphyria.org](https://www.drugs-porphyria.org)).
+Please refer to the package insert for safety information.
 
-For general safety information including CNS sedation, anticholinergic effects, and age-related contraindications, please refer to the drug's package insert.
+Porphyria drug-safety is a separate concern that needs dedicated review before any use of this drug in porphyria. The Evidence Pack found no drug-interaction records for this drug.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Hold** (for the top-ranked prediction, acute intermittent porphyria)
 
 **Rationale:**
-There is no clinical trial evidence, no supporting literature, and no established mechanistic rationale connecting dexchlorpheniramine maleate to the treatment of Acute Intermittent Porphyria. The additional porphyria-specific safety signal makes this a low-priority repurposing direction without substantially more data to resolve both efficacy and safety unknowns.
+The score of 99.12% reflects knowledge-graph proximity only. There are no trials or literature, and no mechanistic link to H1 antagonism. Of the ten predictions, only allergic urticaria (Proceed with Guardrails, L3) has meaningful support, and it is likely an existing label use.
 
 **To proceed, the following is needed:**
-- Verify this drug's porphyria safety classification via a recognised porphyria drug safety database (e.g., www.drugs-porphyria.org) — this is a **blocking prerequisite** before any further work
-- Obtain complete TFDA/HSA-equivalent package insert to assess full warning and contraindication profile (currently a blocking data gap)
-- Obtain detailed MOA data from DrugBank (DB09555) to determine whether any pleiotropic mechanism could interact with haem biosynthesis
-- Generate a preclinical mechanistic hypothesis supported by basic science evidence before advancing to clinical consideration
-- **If pivoting to Allergic Urticaria (rank #6, L3 evidence, "Proceed with Guardrails"):** this indication carries a direct mechanistic rationale and has 6 supporting publications including a comparative RCT-level study (PMID 39265704); it represents the only actionable repurposing candidate in this Evidence Pack
+- Singapore package insert warnings and contraindications from the HSA (currently blocking safety screening)
+- Verification of the approved indications on the HSA label, to confirm whether allergic urticaria is on-label
+- Mechanism of action data from DrugBank
+- A dedicated porphyria drug-safety review before any porphyria-related use is considered
+- For allergic urticaria, controlled clinical evidence (ideally Phase 3 RCTs) if it is confirmed to be a true new indication
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

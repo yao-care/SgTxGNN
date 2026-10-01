@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Uracil
-parent: High Evidence (L1-L2)
+parent: Low Evidence (L5)
 nav_order: 1033
-evidence_level: L1
+evidence_level: L5
 indication_count: 10
 ---
 
 # Uracil
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,11 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Uracil: From Fluoropyrimidine-Enhancing Component to Colonic Neoplasm
+# Uracil: From Oral Fluoropyrimidine Combination (UFT) to Colonic Neoplasm
 
 ## One-Sentence Summary
 
-Uracil (DrugBank DB03419) has no independently registered indication in Singapore; it is best known as the pyrimidine component of the tegafur-uracil (UFT) oral combination chemotherapy used against gastrointestinal cancers.
-The TxGNN model predicts it may be effective for **Colonic Neoplasm**, and this is strongly corroborated by real-world evidence — the UFT combination itself has already been tested and used clinically in colon cancer for over two decades.
-Support currently includes **47 clinical trials** and **20 publications**, several of which are Phase 3 RCTs studying the drug (as UFT) directly.
+Uracil is the DPD-inhibiting component of the oral anticancer combination tegafur-uracil (UFT), which is registered in Singapore as UFT Capsule. The TxGNN model predicts it may be effective for **Colonic Neoplasm**. Of **50 registered clinical trials** and **20 publications** retrieved, only **one trial** (NCT00378716, a Phase 3 trial of UFT/LV) and a handful of publications test a uracil-containing regimen directly. The rest are fluoropyrimidine class evidence.
 
 ---
 
@@ -43,40 +41,40 @@ Support currently includes **47 clinical trials** and **20 publications**, sever
 
 | Item | Content |
 |------|------|
-| Original Indication | Not independently documented for Uracil; historically used as the DPD-modulating component of tegafur-uracil (UFT), a fluoropyrimidine combination for gastrointestinal cancers |
-| Predicted New Indication | Colonic Neoplasm |
+| Original Indication | Not stated in the Singapore registration record. The registered product (UFT Capsule, tegafur-uracil) is an oral fluoropyrimidine anticancer combination. |
+| Predicted New Indication | Colonic neoplasm |
 | TxGNN Prediction Score | 99.50% |
-| Evidence Level | L1 |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L1 (the Phase 3 evidence applies to the UFT combination, not uracil alone) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for Uracil is not available in the evidence pack. Based on known pharmacology reflected in the supporting literature (e.g., PMID 26722024), uracil is part of the tegafur-uracil (UFT) combination: it competitively inhibits dihydropyrimidine dehydrogenase (DPD), the enzyme that degrades 5-fluorouracil, thereby prolonging the exposure and cytotoxic activity of the 5-FU generated from tegafur within tumour tissue.
+Detailed mechanism-of-action data for uracil was not retrieved from DrugBank. The mechanism below comes from the evidence review. In UFT, tegafur is a prodrug of 5-fluorouracil (5-FU). Uracil is added in excess to compete with 5-FU for the enzyme dihydropyrimidine dehydrogenase (DPD), which normally breaks 5-FU down. This keeps 5-FU exposure higher and longer from an oral dose.
 
-This DPD-modulating role is not a new concept for gastrointestinal malignancy — UFT has an established, decades-long track record as an oral fluoropyrimidine regimen for colorectal and gastric cancer. Multiple randomized controlled trials (e.g., NSABP C-06, ACTS-CC 02, JFMC46-1201) have directly evaluated UFT plus leucovorin against standard IV 5-FU/LV or other fluoropyrimidine backbones specifically in colon cancer.
-
-Because uracil's mechanistic contribution (5-FU potentiation via DPD inhibition) is disease-agnostic across the GI tract, and because colon cancer already shares the same fluoropyrimidine-based standard-of-care backbone used in UFT trials, the TxGNN prediction for "colonic neoplasm" is highly consistent with existing pharmacological and clinical practice — this is less a *novel* repurposing signal and more a *confirmation* of an indication the combination product already occupies in several markets.
+Colon cancer is a core indication for fluoropyrimidine chemotherapy, and UFT has been developed as adjuvant treatment after tumour resection in several solid tumours, including colon/rectal cancer. This makes the prediction mechanistically plausible. The uracil-specific evidence applies to the UFT combination only. Uracil on its own is not an anticancer treatment, so any repurposing assessment should be restricted to the tegafur-uracil formulation.
 
 ---
 
 ## Clinical Trial Evidence
 
+Only the first row directly tests a uracil-containing regimen. The others are fluoropyrimidine-backbone trials in colorectal cancer and show disease and class relevance only.
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00378716](https://clinicaltrials.gov/study/NCT00378716) | Phase 3 | Completed | 1,608 | Direct trial of oral uracil/tegafur (UFT) plus leucovorin vs. IV 5-FU plus leucovorin in resected Stage II/III colon cancer |
-| [NCT01228734](https://clinicaltrials.gov/study/NCT01228734) | Phase 3 | Completed | 553 | Cetuximab + FOLFOX-4 vs. FOLFOX-4 alone in first-line RAS wild-type metastatic colorectal cancer (Chinese subjects) |
-| [NCT00227747](https://clinicaltrials.gov/study/NCT00227747) | Phase 3 | Completed | 598 | Preoperative chemoradiation regimens (capecitabine ± oxaliplatin) in resectable rectal carcinoma |
-| [NCT00952029](https://clinicaltrials.gov/study/NCT00952029) | Phase 2/3 | Completed | 492 | FOLFIRI + bevacizumab with/without bevacizumab maintenance in non-pretreated metastatic colorectal cancer |
-| [NCT02251977](https://clinicaltrials.gov/study/NCT02251977) | Phase 3 | Completed | 196 | GM1 for prevention of oxaliplatin-induced neurotoxicity during adjuvant chemotherapy in colorectal cancer |
-| [NCT00484939](https://clinicaltrials.gov/study/NCT00484939) | Phase 3 | Completed | 280 | Bevacizumab + capecitabine vs. capecitabine alone in elderly first-line metastatic colorectal cancer |
-| [NCT04607421](https://clinicaltrials.gov/study/NCT04607421) | Phase 3 | Active, not recruiting | 831 | Encorafenib + cetuximab ± chemotherapy vs. standard of care in BRAF V600E-mutant metastatic colorectal cancer |
-| [NCT05253651](https://clinicaltrials.gov/study/NCT05253651) | Phase 3 | Recruiting | 400 | Tucatinib + trastuzumab + mFOLFOX6 vs. mFOLFOX6-based regimens in HER2+ metastatic colorectal cancer |
-| [NCT05239741](https://clinicaltrials.gov/study/NCT05239741) | Phase 3 | Recruiting | 100 | Pembrolizumab vs. standard chemotherapy in MSI-H/dMMR Stage IV colorectal cancer (Chinese participants) |
-| [NCT05863195](https://clinicaltrials.gov/study/NCT05863195) | Phase 3 | Recruiting | 408 | Hepatic arterial infusion + systemic therapy vs. systemic therapy alone for unresectable colorectal liver metastases |
+| [NCT00378716](https://clinicaltrials.gov/study/NCT00378716) | Phase 3 | Completed | 1608 | **Uracil/tegafur + leucovorin vs 5-FU + leucovorin** in resected stage II/III colon cancer |
+| [NCT01228734](https://clinicaltrials.gov/study/NCT01228734) | Phase 3 | Completed | 553 | Cetuximab + FOLFOX-4 vs FOLFOX-4 in first-line RAS wild-type metastatic colorectal cancer (5-FU backbone, no uracil) |
+| [NCT04607421](https://clinicaltrials.gov/study/NCT04607421) | Phase 3 | Active, not recruiting | 831 | Encorafenib + cetuximab ± chemotherapy in BRAF V600E-mutant metastatic colorectal cancer (no uracil) |
+| [NCT00209625](https://clinicaltrials.gov/study/NCT00209625) | Phase 1/2 | Completed | 23 | Irinotecan + 5-FU + leucovorin in advanced colorectal cancer; dose-finding and efficacy |
+| [NCT00039611](https://clinicaltrials.gov/study/NCT00039611) | Not applicable | Completed | Not reported | FOLFOX4 in untreated advanced colorectal cancer (backbone relevance only) |
+| [NCT00227747](https://clinicaltrials.gov/study/NCT00227747) | Phase 3 | Completed | 598 | Preoperative chemoradiation with capecitabine ± oxaliplatin in resectable rectal carcinoma |
+| [NCT02376452](https://clinicaltrials.gov/study/NCT02376452) | Phase 2 | Unknown | 100 | Raltitrexed + irinotecan vs FOLFIRI as second-line therapy in advanced colorectal cancer |
+| [NCT02861300](https://clinicaltrials.gov/study/NCT02861300) | Phase 1/2 | Completed | 50 | CB-839 + capecitabine in fluoropyrimidine-resistant PIK3CA-mutant colorectal cancer |
+| [NCT00952029](https://clinicaltrials.gov/study/NCT00952029) | Phase 2/3 | Completed | 492 | FOLFIRI + bevacizumab, with or without bevacizumab maintenance, in metastatic colorectal cancer |
+| [NCT04269369](https://clinicaltrials.gov/study/NCT04269369) | Phase 4 | Unknown | 250 | Pre-emptive DPYD genotyping and phenotyping to reduce 5-FU/capecitabine toxicity (relevant to the DPD safety guardrail) |
 
 ---
 
@@ -84,42 +82,46 @@ Because uracil's mechanistic contribution (5-FU potentiation via DPD inhibition)
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [16648506](https://pubmed.ncbi.nlm.nih.gov/16648506/) | 2006 | RCT | J Clin Oncol | NSABP C-06: oral UFT + leucovorin non-inferior to IV 5-FU + leucovorin in Stage II/III colon cancer |
-| [31917122](https://pubmed.ncbi.nlm.nih.gov/31917122/) | 2020 | RCT | Clin Colorectal Cancer | ACTS-CC 02 Phase III: S-1+oxaliplatin (SOX) vs. tegafur-uracil+leucovorin (UFT/LV) as adjuvant therapy in high-risk Stage III colon cancer |
-| [33714860](https://pubmed.ncbi.nlm.nih.gov/33714860/) | 2021 | RCT (updated survival) | ESMO Open | ACTS-CC 02 5-year survival update: SOX not superior to UFT/LV as adjuvant chemotherapy |
-| [38833114](https://pubmed.ncbi.nlm.nih.gov/38833114/) | 2024 | Prospective controlled trial (final analysis) | Int J Clin Oncol | JFMC46-1201: UFT/LV improves disease-free survival vs. surgery alone in high-risk Stage II colon cancer |
-| [35168560](https://pubmed.ncbi.nlm.nih.gov/35168560/) | 2022 | Prospective observational study | BMC Cancer | JFMC46-1201 interim analysis supporting UFT/LV benefit in high-risk Stage II colon cancer |
-| [33950962](https://pubmed.ncbi.nlm.nih.gov/33950962/) | 2021 | Cohort study / meta-analysis | Medicine | Nationwide Taiwan cohort: UFT vs. 5-FU as postoperative adjuvant chemotherapy in Stage II/III colon cancer, comparable DFS/OS |
-| [15108041](https://pubmed.ncbi.nlm.nih.gov/15108041/) | 2004 | RCT | Int J Clin Oncol | Adjuvant immunochemotherapy combining OK-432 with oral pyrimidines (including UFT) in colorectal cancer |
-| [17952521](https://pubmed.ncbi.nlm.nih.gov/17952521/) | 2007 | Review | Surgery Today | Clinical evidence and mechanism of action of UFT (tegafur+uracil) as adjuvant therapy in colorectal, gastric, lung and breast cancer |
-| [26722024](https://pubmed.ncbi.nlm.nih.gov/26722024/) | 2016 | Review | Anticancer Research | Review of oral fluoropyrimidines (S-1, UFT, capecitabine) and DPD-inhibition strategy to enhance 5-FU efficacy in colon cancer |
-| [11320674](https://pubmed.ncbi.nlm.nih.gov/11320674/) | 2001 | Case report | Cancer Chemother Pharmacol | UFT-induced haemolytic anaemia in a patient treated for metastatic colon cancer |
+| [16648506](https://pubmed.ncbi.nlm.nih.gov/16648506/) | 2006 | RCT | J Clin Oncol | NSABP C-06: oral UFT + leucovorin vs IV 5-FU + leucovorin after surgery for stage II/III colon cancer, comparing disease-free and overall survival |
+| [31917122](https://pubmed.ncbi.nlm.nih.gov/31917122/) | 2020 | RCT | Clin Colorectal Cancer | ACTS-CC 02: S-1 + oxaliplatin vs UFT/LV as adjuvant therapy in high-risk stage III colon cancer (UFT/LV was the comparator) |
+| [33714860](https://pubmed.ncbi.nlm.nih.gov/33714860/) | 2021 | RCT | ESMO Open | ACTS-CC 02 5-year follow-up: S-1 + oxaliplatin was **not superior** to UFT/LV for disease-free survival |
+| [15108041](https://pubmed.ncbi.nlm.nih.gov/15108041/) | 2004 | RCT | Int J Clin Oncol | Adjuvant immunochemotherapy (OK-432) combined with oral pyrimidines, including UFT, in colorectal cancer |
+| [33950962](https://pubmed.ncbi.nlm.nih.gov/33950962/) | 2021 | Cohort + meta-analysis | Medicine | Taiwan national insurance database (2000–2015) and meta-analysis comparing UFT with 5-FU as adjuvant therapy in stage II/III colon cancer |
+| [38833114](https://pubmed.ncbi.nlm.nih.gov/38833114/) | 2024 | Prospective controlled study | Int J Clin Oncol | JFMC46-1201 final analysis: UFT/LV in high-risk stage II colon cancer, with 5-year overall survival and risk-factor analysis |
+| [35168560](https://pubmed.ncbi.nlm.nih.gov/35168560/) | 2022 | Prospective observational | BMC Cancer | JFMC46-1201 interim: 3-year disease-free survival was significantly higher with UFT/LV than surgery alone (propensity-matched) |
+| [17952521](https://pubmed.ncbi.nlm.nih.gov/17952521/) | 2007 | Review | Surgery Today | UFT as postoperative adjuvant chemotherapy for solid tumours (lung, stomach, colon/rectum, breast): clinical evidence and mechanism |
+| [26722024](https://pubmed.ncbi.nlm.nih.gov/26722024/) | 2016 | Review | Anticancer Res | TAS-102 as an emerging oral fluoropyrimidine; discusses DPD-inhibiting approaches such as UFT |
+| [11320674](https://pubmed.ncbi.nlm.nih.gov/11320674/) | 2001 | Case report | Cancer Chemother Pharmacol | Haemolytic anaemia in a patient receiving UFT for metastatic colon cancer |
 
 ---
 
 ## Singapore Market Information
 
-Uracil is not currently registered in Singapore (0 licenses on file; market status: **Not Marketed**). No HSA product authorization data is available for either uracil monotherapy or a UFT-type combination product under this DrugBank entry.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN03692P | UFT CAPSULE (Taiho Pharmaceutical Co Ltd) | Capsule (oral) | Not stated in the registration record |
 
 ---
 
 ## Cytotoxicity
 
-Uracil is assessed as antineoplastic-adjacent because it is a core component of the fluoropyrimidine-class combination chemotherapy tegafur-uracil (UFT), used across the retrieved evidence exclusively in cancer treatment regimens.
-
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (Fluoropyrimidine class — DPD-inhibiting enhancer within the UFT combination) |
-| Myelosuppression Risk | Medium — literature describes UFT as having a comparatively mild toxicity profile relative to IV 5-FU (PMID 17952521), but case reports document haematological adverse events including haemolytic anaemia (PMID 11320674) |
-| Emetogenicity Classification | Low to Moderate — consistent with oral fluoropyrimidine regimens |
-| Monitoring Items | CBC with differential, liver and renal function, signs of haemolysis; DPD deficiency screening is advisable given fluoropyrimidine-class toxicity risk |
-| Handling Protection | Standard cytotoxic drug handling precautions apply as part of a fluoropyrimidine combination regimen, despite oral route of administration |
+| Cytotoxicity Classification | Conventional cytotoxic (fluoropyrimidine class). The cytotoxic effect comes from tegafur/5-FU, and uracil acts as the DPD modulator. |
+| Myelosuppression Risk | Not quantified in the available data; please refer to the package insert warnings and precautions. Haemolytic anaemia has been reported with UFT. |
+| Emetogenicity Classification | Generally low for oral fluoropyrimidines; confirm against the package insert |
+| Monitoring Items | CBC (with differential), liver and renal function; DPYD variant screening before treatment |
+| Handling Protection | Follow institutional cytotoxic drug handling procedures; refer to the package insert |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No key warnings, contraindications, or drug-drug interaction data were retrievable for this candidate in the current evidence pack (DDI query status: not found).
+Formal warnings, contraindications and interaction data were not available for this report. Please refer to the package insert for safety information. The evidence review points to these risks:
+
+- **DPD deficiency**: screen for DPYD variants, because reduced DPD activity increases fluoropyrimidine toxicity.
+- **Haemolytic anaemia**: reported in a patient receiving UFT for metastatic colon cancer.
+- **Hepatotoxicity**: monitor liver function during treatment.
 
 ---
 
@@ -128,13 +130,17 @@ Please refer to the package insert for safety information. No key warnings, cont
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Evidence quality is high (L1) — the tegafur-uracil combination that uracil is part of has multiple completed Phase 3 RCTs directly demonstrating efficacy in colon cancer, and this indication is already established clinical practice in several markets. However, uracil has zero Singapore registrations and a Blocking-severity data gap on safety labeling, so this cannot proceed to clinical use without closing that gap.
+- Large Phase 3 and prospective studies support the UFT combination in colon cancer (NSABP C-06 and ACTS-CC 02, plus the completed 1,608-patient UFT/LV trial NCT00378716).
+- Uracil has no standalone evidence, and most of the other registered trials only support the fluoropyrimidine class.
+- The recommendation should be limited to the tegafur-uracil formulation.
 
 **To proceed, the following is needed:**
-- Obtain and parse the HSA (or equivalent regulatory) package insert / product label for tegafur-uracil (UFT) to resolve the Blocking safety data gap (DG001)
-- Confirm mechanism of action (DG002) directly from DrugBank API rather than inferred literature to finalize the mechanistic rationale
-- Establish a formal drug-drug interaction profile, particularly with other DPD-pathway-affecting agents (e.g., other fluoropyrimidines, DPD inhibitors)
-- If clinical development is pursued in Singapore, initiate a registration pathway assessment with HSA given the current "Not Marketed" status
+- The HSA package insert, including approved indication, warnings and contraindications for SIN03692P
+- Confirmation of whether UFT (with or without leucovorin) holds a colon cancer indication in Singapore
+- A DPYD screening plan and monitoring protocol for haemolytic anaemia and hepatotoxicity
+- DrugBank mechanism-of-action data to complete the mechanistic analysis
+
+The same UFT rationale applies to the second-ranked prediction, gastric carcinoma, which has only a Phase 2 UFT maintenance study (NCT02903498) and is classed as a research question. The remaining predictions, such as benign lesions and non-specific terms, are rated Hold.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

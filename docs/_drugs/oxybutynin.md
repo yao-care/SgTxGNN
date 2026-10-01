@@ -33,74 +33,54 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-> Oxybutynin is a well-established antimuscarinic agent used to treat overactive bladder and urinary incontinence caused by detrusor overactivity.
-> The TxGNN model predicts it may be effective for **Restless Legs Syndrome**, with a very high prediction score (**99.74%**),
-> but currently **no clinical trials or published literature** support this specific link — the signal is model-based only.
-
----
+Oxybutynin is a muscarinic antagonist widely used for overactive bladder, although the Singapore registration record does not state an indication.
+The TxGNN model predicts it may be effective for **restless legs syndrome (RLS)**, but there are currently **0 clinical trials** and **0 publications** supporting this direction.
+This is a model-only prediction (evidence level L5).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Overactive bladder / urinary incontinence (detrusor overactivity) — based on general pharmacological knowledge; no Singapore-specific approved indication text is available |
-| Predicted New Indication | Restless Legs Syndrome |
+| Original Indication | Not stated in the Singapore registration record. Overactive bladder is the established use in the published literature |
+| Predicted New Indication | Restless legs syndrome |
 | TxGNN Prediction Score | 99.74% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed (Not marketed) |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in this evidence pack. Based on established pharmacological knowledge, oxybutynin is a synthetic antimuscarinic (anticholinergic) agent that antagonizes M3 (and to a lesser extent M1) muscarinic receptors, relaxing bladder detrusor smooth muscle. It is widely used for overactive bladder, urge incontinence, and neurogenic bladder.
+Detailed mechanism of action data is not available in the evidence pack. Oxybutynin is a muscarinic antagonist with direct antispasmodic action on bladder smooth muscle, and its efficacy in bladder overactivity is well established.
 
-Restless Legs Syndrome (RLS), however, is primarily driven by central dopaminergic dysfunction and abnormal iron metabolism — a pathophysiology that does not have a known mechanistic link to peripheral/central anticholinergic activity. According to the model's own repurposing rationale, there is **no established pharmacological connection** between oxybutynin's anticholinergic action and RLS pathology; the prediction reflects the TxGNN score alone, without any supporting clinical or mechanistic evidence.
+The link to RLS is speculative. RLS is generally associated with dopaminergic and iron-related pathways, and no mechanistic path from muscarinic blockade to RLS symptom relief has been established. The high TxGNN score reflects a pattern in the knowledge graph, not confirmed biology.
 
-Given this gap, the high prediction score should be interpreted as a hypothesis-generating signal rather than a validated therapeutic rationale.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
-
----
+Oxybutynin's anticholinergic burden may also worsen sleep quality, which would work against use in a sleep-related movement disorder.
 
 ## Singapore Market Information
 
-Oxybutynin currently has no marketing authorization on record in Singapore (0 registrations; market status: Not marketed/Not Marketed).
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN11215P | OBUTIN TABLETS 5 mg (Hanlim Pharmaceutical Co Ltd) | Tablet | Not stated in the registration record |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score for oxybutynin–RLS is high, but there is zero clinical trial or literature support, and the underlying mechanistic rationale is explicitly weak (anticholinergic action vs. dopaminergic/iron-metabolism pathology). This is a pure model prediction (L5) and does not meet the evidence bar to advance.
+The RLS prediction rests on the model score alone: no trials or publications were retrieved, and the mechanistic rationale is speculative. The anticholinergic profile may also aggravate sleep problems, and the package insert safety data has not been obtained.
 
 **To proceed, the following is needed:**
-- Preclinical or mechanistic studies exploring any plausible anticholinergic pathway in RLS
-- At minimum an observational/case-level signal before considering trial design
-- Confirmed original indication and approved labeling text (Singapore or reference market) for this drug, since no local registration data exists
-- Formal MOA documentation (currently "[Data Gap]")
+- HSA package insert warnings and contraindications (a blocking gap for safety screening)
+- Detailed mechanism of action data from DrugBank
+- Any preclinical or clinical evidence linking oxybutynin to RLS
+- Confirmation of the approved indication text for SIN11215P
 
-**Note:** Other TxGNN candidates for oxybutynin in this evidence pack carry substantially stronger evidence and may warrant separate evaluation — notably *low compliance bladder* (2 clinical trials incl. a Phase 3, 20 literature items, L4) and *insomnia* (5 clinical trials incl. two Phase 3, L4), both mechanistically closer to oxybutynin's known urological/anticholinergic effects than RLS.
+**Other predicted indications:** The pack lists nine other predictions. The strongest is **low compliance bladder** (L3, Proceed with Guardrails), supported by a Phase 3 trial that is not yet recruiting, cohort studies and a systematic review. It overlaps heavily with oxybutynin's established bladder use, so it adds little as repurposing. It may merit its own report.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

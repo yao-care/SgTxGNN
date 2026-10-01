@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ixazomib
-parent: High Evidence (L1-L2)
+parent: Medium Evidence (L3-L4)
 nav_order: 557
-evidence_level: L2
+evidence_level: L3
 indication_count: 10
 ---
 
 # Ixazomib
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,91 +33,81 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Ixazomib (Ninlaro) is the world's first oral proteasome inhibitor, approved for the treatment of relapsed/refractory multiple myeloma (RRMM) in combination with lenalidomide and dexamethasone.
-The TxGNN model predicts it may be effective for **Indolent Plasma Cell Myeloma (Smoldering Multiple Myeloma)**, supported by **2 real-world cohort studies** from the broader multiple myeloma spectrum and a strong mechanistic rationale shared between active and indolent disease subtypes.
-
----
+Ixazomib is an oral proteasome inhibitor, marketed for relapsed/refractory multiple myeloma (RRMM) in combination with lenalidomide and dexamethasone.
+The TxGNN model predicts it may be effective for **indolent plasma cell myeloma**, but there are **0 clinical trials** and **2 publications** (both real-world cohort studies in RRMM, not in indolent disease), so the evidence is indirect.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Relapsed/refractory multiple myeloma (IRd regimen, TOURMALINE-MM1 Phase 3) |
-| Predicted New Indication | Indolent plasma cell myeloma (Smoldering MM) |
+|------|------|
+| Original Indication | Relapsed/refractory multiple myeloma (per the cited literature; the Singapore licence records list no indication text) |
+| Predicted New Indication | Indolent plasma cell myeloma |
 | TxGNN Prediction Score | 96.17% |
-| Evidence Level | L2 |
-| Singapore Market Status | ✗ Not marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Evidence Level | L3 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 3 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on known published information, ixazomib is the world's first oral proteasome inhibitor (boronic acid class). It selectively and reversibly inhibits the chymotrypsin-like activity of the β5 subunit of the 20S proteasome. Blocking proteasome function causes accumulation of misfolded and ubiquitinated proteins within plasma cells, triggering the unfolded protein response (UPR) and ultimately apoptosis. In the landmark TOURMALINE-MM1 Phase 3 trial, the all-oral IRd triplet (ixazomib + lenalidomide + dexamethasone) significantly improved progression-free survival in RRMM, establishing proteasome inhibition as a backbone of myeloma therapy.
+Ixazomib is an oral, reversible proteasome inhibitor that targets the 20S β5 subunit. Plasma cells produce large amounts of immunoglobulin and rely heavily on proteasome activity to clear misfolded protein. Blocking the proteasome is therefore a plausible way to stress and kill abnormal plasma cells.
 
-Multiple myeloma and indolent plasma cell myeloma (smoldering MM, SMM) share identical cellular origin — clonal bone marrow plasma cells that overproduce immunoglobulins. Both subtypes are intrinsically dependent on continuous proteasome activity to handle the burden of excess immunoglobulin light chains. The biological distinction between SMM and active MM is primarily defined by clinical thresholds (CRAB criteria, SLiM criteria) rather than a fundamental difference in underlying molecular machinery. This means the proteasome inhibition mechanism is equally relevant at the indolent disease stage.
+Indolent (smoldering) plasma cell myeloma is a slower-growing form of the same plasma cell disease that ixazomib already treats in its active, relapsed form. The biological rationale carries over, and the drug's safety profile in myeloma is reasonably well characterized.
 
-The TxGNN prediction score of 96.17% reflects this tight mechanistic continuity. Parallel evidence from bortezomib (an intravenous proteasome inhibitor) in high-risk SMM has already demonstrated that early proteasome inhibition can delay progression to symptomatic MM. Ixazomib's oral bioavailability and favourable tolerability profile make it a compelling candidate for this lower-intensity, pre-emptive treatment setting. Multiple real-world studies confirm that IRd achieves outcomes consistent with clinical trial data in RRMM, further validating the class effect.
-
----
+There are important caveats. Detailed mechanism-of-action data was not supplied in the Evidence Pack, so the above rests on general knowledge of the drug class. The supporting studies are in active, relapsed disease, where the risk-benefit balance differs from an indolent condition that may not need immediate treatment.
 
 ## Clinical Trial Evidence
 
-Currently no clinical trials specifically registering ixazomib for indolent plasma cell myeloma have been identified.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [38558233](https://pubmed.ncbi.nlm.nih.gov/38558233/) | 2024 | Real-world retrospective-prospective cohort | *Cancer Medicine* | Northern Italy multi-centre experience with IRd in RRMM; real-world efficacy and safety profiles were consistent with the TOURMALINE-MM1 trial, supporting generalisability of the oral proteasome inhibitor approach |
-| [32193630](https://pubmed.ncbi.nlm.nih.gov/32193630/) | 2020 | Real-world retrospective cohort | *Annals of Hematology* | Multi-site Israeli registry study confirming IRd real-world outcomes in RRMM; demonstrates that ixazomib-based combinations translate from controlled trials to routine clinical practice across diverse patient populations |
+|------|-----|------|------|---------|
+| [38558233](https://pubmed.ncbi.nlm.nih.gov/38558233/) | 2024 | Cohort | Cancer Medicine | Real-world retrospective-prospective analysis from northern Italy of ixazomib + lenalidomide + dexamethasone (IRd) in RRMM, assessing efficacy and safety beyond the TOURMALINE-MM1 trial |
+| [32193630](https://pubmed.ncbi.nlm.nih.gov/32193630/) | 2020 | Cohort | Annals of Hematology | Multi-site Israeli registry study testing whether real-world outcomes of ixazomib-based regimens in RRMM match the TOURMALINE-MM1 phase 3 results |
 
-> **Note:** Both studies address RRMM broadly. No study has yet specifically targeted indolent/smoldering MM with ixazomib. The evidence represents class-level and regimen-level support rather than direct indication-specific proof.
-
----
+Both studies address relapsed/refractory disease. Neither studies indolent myeloma.
 
 ## Singapore Market Information
 
-Ixazomib is currently **not registered in Singapore**. No marketing authorisation records are available. Access would require special compassionate use or clinical trial enrolment pathways.
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN15162P | NINLARO Capsule 2.3 mg | Capsule |
+| SIN15163P | NINLARO Capsule 3 mg | Capsule |
+| SIN15164P | NINLARO Capsule 4 mg | Capsule |
 
----
+All three are oral capsules, with Takeda Ireland Ltd. among the manufacturers listed.
 
 ## Cytotoxicity
 
-Ixazomib is an antineoplastic agent (proteasome inhibitor) indicated for haematological malignancy; cytotoxicity assessment applies.
-
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy — oral proteasome inhibitor (boronic acid class) |
-| Myelosuppression Risk | Moderate — thrombocytopenia is the most clinically significant haematological toxicity (most nadir occurring around Day 14–21 of cycle); neutropenia and anaemia also reported |
-| Emetogenicity Classification | Low to moderate (oral agent; nausea and vomiting reported but generally manageable without routine prophylaxis) |
-| Monitoring Items | CBC with differential and platelet count (each cycle, especially early cycles); liver function tests; renal function (ixazomib exposure increases in severe renal impairment); peripheral neuropathy assessment (clinical neurological examination each cycle) |
-| Handling Protection | Standard cytotoxic oral drug handling precautions required; capsules should not be crushed or opened |
-
----
+|------|------|
+| Cytotoxicity Classification | Targeted therapy (proteasome inhibitor) |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Complete blood count (with differential) is the minimum; also liver and renal function. Confirm the full schedule against the package insert |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ## Safety Considerations
 
-Formal safety data (package insert warnings, contraindications, drug interactions) was not available in the current evidence pack. Please refer to the Ninlaro (ixazomib) package insert and the Medicines.org.uk/MIMS database for complete prescribing information before clinical use.
-
----
+Please refer to the package insert for safety information. No warnings, contraindications, or drug interaction records were available in the Evidence Pack.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Ixazomib shares the same validated proteasome inhibition mechanism as bortezomib, which has already demonstrated clinical benefit in high-risk smoldering MM; the TxGNN score of 96.17% and the biological continuity between indolent and active plasma cell myeloma provide a compelling mechanistic basis for this repurposing direction, even though direct clinical trial evidence for indolent plasma cell myeloma specifically is still lacking.
+The 96.17% model score and the biological rationale are encouraging, but no trial has tested ixazomib in indolent myeloma. The only human data are real-world cohorts in relapsed/refractory disease. The package insert, which is needed for safety screening, is also missing.
 
 **To proceed, the following is needed:**
-- Prospective clinical trial data specifically targeting indolent/smoldering MM with ixazomib (Phase 2 exploratory trial recommended)
-- Full package insert review to document key warnings, contraindications, and dose adjustments for SMM patient population (typically treatment-naïve, lower disease burden)
-- Comprehensive drug-drug interaction assessment (especially CYP3A inducers/inhibitors relevant to the oral route)
-- Singapore regulatory pathway evaluation — formal application to HSA or Named Patient Programme access given current non-registered status
-- Risk stratification framework: restrict initial use to high-risk SMM (per 20/2/20 model) where benefit-risk ratio is most favourable
+- Singapore (HSA) package insert warnings and contraindications (blocking gap)
+- Mechanism-of-action data, for example from DrugBank
+- Confirmation of the approved indication text on the Singapore licences
+- Clinical evidence in smoldering or indolent myeloma, or a decision to frame this as a research question rather than a treatment proposal
+- A benefit-risk assessment for treating a slow-growing condition with a cytotoxic-class oral agent
+
+**Note on other predictions:** Melanoma (rank 7) has only preclinical support (ixazomib with interferon-alpha, in vitro and in vivo). The remaining predictions are model-only and should stay on hold.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

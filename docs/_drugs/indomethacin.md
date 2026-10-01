@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Indomethacin
-parent: High Evidence (L1-L2)
+parent: Low Evidence (L5)
 nav_order: 526
-evidence_level: L2
+evidence_level: L5
 indication_count: 10
 ---
 
 # Indomethacin
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,96 +29,83 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Indomethacin: From Inflammatory Arthritis to Juvenile Idiopathic Arthritis
+# Indomethacin: From an NSAID (Original Indication Not Recorded) to Brachydactyly-Syndactyly Syndrome
 
 ## One-Sentence Summary
 
-Indomethacin is a potent non-steroidal anti-inflammatory drug (NSAID) with decades of clinical history, originally used to treat inflammatory conditions including rheumatoid arthritis, ankylosing spondylitis, and gouty arthritis. The TxGNN model predicts it may be effective for **Juvenile Idiopathic Arthritis (JIA)** — the most evidenced actionable candidate among 10 predicted indications — supported by **0 registered clinical trials** and **20 publications**. Among all predicted indications, JIA (Rank 8) carries the strongest mechanistic grounding and achieves the highest evidence level (L2) with a "Proceed with Guardrails" recommendation.
-
----
+Indomethacin is a marketed non-selective COX inhibitor (an NSAID), but the source data does not record its approved indications.
+The TxGNN model's top prediction is **brachydactyly-syndactyly syndrome**, a congenital limb malformation, with a very high score of 99.97%.
+This prediction has **0 clinical trials** and **0 publications** behind it, so it is a graph-based signal only. Among the other predictions, **juvenile idiopathic arthritis (JIA)** is the only one with meaningful literature support.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Inflammatory arthritis and pain conditions (rheumatoid arthritis, ankylosing spondylitis, gout) — no Singapore registration on record |
-| Predicted New Indication | Juvenile Idiopathic Arthritis (JIA) |
-| TxGNN Prediction Score | 99.84% |
-| Evidence Level | L2 |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
-> **Note:** This is a multi-indication evaluation pack (10 predictions total). Ranks 1–7 and 9–10 all carry L4–L5 evidence with "Hold" recommendations, primarily due to KG topology bias around rare skeletal/developmental diseases (brachydactyly-syndactyly, brachyolmia, colobomatous microphthalmia, etc.) where Indomethacin has no plausible mechanistic rationale. JIA (Rank 8) is the sole indication with genuine clinical evidence and is therefore the primary focus of this report.
-
----
+|------|------|
+| Original Indication | Not available (the licence records contain no indication text) |
+| Predicted New Indication | Brachydactyly-syndactyly syndrome |
+| TxGNN Prediction Score | 99.97% |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 3 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from this evidence pack. Based on well-established pharmacology, Indomethacin is one of the most potent non-selective NSAIDs, acting by inhibiting cyclooxygenase-1 (COX-1) and cyclooxygenase-2 (COX-2) enzymes. This reduces synthesis of prostaglandins — in particular prostaglandin E2 (PGE2) — the central mediators of pain, fever, and joint inflammation. Its anti-inflammatory potency is broadly regarded as superior to most other NSAIDs in its class.
+Currently, detailed mechanism of action data is not available in the record. Indomethacin is known to be a non-selective COX-1/COX-2 inhibitor. It reduces prostaglandin-mediated inflammation and pain.
 
-The pathological core of JIA is prostaglandin-driven synovial inflammation, joint swelling, and progressive cartilage destruction. Since PGE2 directly promotes synovial hyperplasia and leukocyte recruitment in inflamed joints, COX inhibition aligns precisely with JIA's underlying pathophysiology. This is not a novel hypothesis: historically, Indomethacin was one of the standard first-line therapies for JIA (then termed "juvenile rheumatoid arthritis" or JRA) and remains particularly noted for its efficacy in controlling systemic-onset JIA fever.
+For brachydactyly-syndactyly syndrome, the review found **no plausible mechanistic link**. It is a congenital limb malformation, and COX inhibition has no known relevance to its development. The high TxGNN score reflects graph proximity only. It is not supported by any trial or publication, so it should be treated as a model artefact rather than a lead.
 
-In the pre-biologic era, NSAIDs including Indomethacin formed the cornerstone of JIA management. While IL-1, IL-6, and TNF inhibitors have shifted the treatment paradigm for moderate-to-severe JIA, NSAIDs including Indomethacin remain relevant for symptom control, especially in milder oligoarticular disease. The TxGNN prediction is therefore mechanistically grounded and historically validated. The primary constraint for Singapore is the absence of any HSA product registration.
+The same is true of most other top-ranked predictions: colobomatous microphthalmia-rhizomelic dysplasia syndrome, Hunter-Thompson acromesomelic dysplasia, WHIM syndrome, brachyolmia and brachyolmia-amelogenesis imperfecta syndrome. All are rare genetic disorders with no COX-dependent mechanism.
 
----
+The mechanistically plausible candidates are the inflammatory arthritis predictions. Juvenile idiopathic arthritis is the strongest of these (rank 8, score 99.84%, evidence level L3). NSAIDs are a recognised symptomatic therapy in JIA. Note that this would be established symptomatic care, not a novel disease-modifying repurposing claim.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Indomethacin in Juvenile Idiopathic Arthritis on ClinicalTrials.gov or ICTRP.
-
----
+Currently no related clinical trials registered for brachydactyly-syndactyly syndrome. No trials were retrieved for any of the other nine predicted indications either.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [362571](https://pubmed.ncbi.nlm.nih.gov/362571/) | 1978 | Double-blind RCT | South African Medical Journal | Ketoprofen vs. indomethacin in 30 children with juvenile chronic arthritis; both drugs proved safe and effective; indomethacin emerged as the preferred drug in this head-to-head comparison |
-| [28418334](https://pubmed.ncbi.nlm.nih.gov/28418334/) | 2017 | Review | Balkan Medical Journal | Comprehensive overview of JIA subtypes, epidemiology, clinical features, and management strategies including NSAID use as initial therapy |
-| [1379157](https://pubmed.ncbi.nlm.nih.gov/1379157/) | 1992 | Review | Drugs | Pharmacological management of JRA: goals of suppressing synovitis and controlling systemic inflammation; NSAIDs including indomethacin described as core first-line agents |
-| [8422565](https://pubmed.ncbi.nlm.nih.gov/8422565/) | 1993 | Review | British Journal of Rheumatology | NSAIDs in paediatric rheumatic diseases; indomethacin and salicylates used for systemic JCA fever, though noted as more toxic than ibuprofen and diclofenac for joint symptom control |
-| [22573189](https://pubmed.ncbi.nlm.nih.gov/22573189/) | 2012 | Review/Cohort | Swiss Medical Weekly | Systemic-onset JIA (Still's disease): disease characteristics unique from other JIA subtypes; discusses long-term outcomes and role of conventional therapy including NSAIDs |
-| [5632159](https://pubmed.ncbi.nlm.nih.gov/5632159/) | 1967 | Case Series | Arzneimittel-Forschung | Early long-term clinical experience with indomethacin specifically in juvenile rheumatoid arthritis and Still's disease; one of the earliest primary-use reports |
-| [1884567](https://pubmed.ncbi.nlm.nih.gov/1884567/) | 1991 | Review | Clinical Pharmacokinetics | Pharmacokinetics of drugs used in juvenile arthritis including NSAIDs; reviews indomethacin dosing characteristics relevant to pediatric populations |
-| [7417361](https://pubmed.ncbi.nlm.nih.gov/7417361/) | 1980 | Comparative Cohort | Arthritis and Rheumatism | Cross-national JRA comparison (USSR vs. USA); documents therapeutic diversity including indomethacin and aspirin as contemporaneous NSAID options |
-| [28086918](https://pubmed.ncbi.nlm.nih.gov/28086918/) | 2017 | Cohort | Pediatric Rheumatology Online Journal | Atypical monoarthritis presentations in oligoarticular JIA; documents clinical heterogeneity and management challenges in this most common JIA subtype |
-| [23312448](https://pubmed.ncbi.nlm.nih.gov/23312448/) | 2013 | Research Article | Cytotherapy | Mesenchymal stromal cells from children with systemic JIA suppress innate and adaptive immune responses — provides immunological context for JIA pathogenesis |
+Currently no related literature available for brachydactyly-syndactyly syndrome.
 
----
+The only indication with substantial literature is the rank 8 prediction, **juvenile idiopathic arthritis**. The table below lists its most relevant publications. Only titles and abstract excerpts were reviewed, and none is a phase-labelled trial.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [362571](https://pubmed.ncbi.nlm.nih.gov/362571/) | 1978 | RCT | S Afr Med J | Double-blind crossover of ketoprofen vs indomethacin in 30 children with juvenile chronic arthritis. Both were safe and effective, and indomethacin was the preferred drug. |
+| [1379157](https://pubmed.ncbi.nlm.nih.gov/1379157/) | 1992 | Review | Drugs | Pharmacological management of juvenile rheumatoid arthritis. Lists indomethacin among the NSAIDs used. |
+| [28418334](https://pubmed.ncbi.nlm.nih.gov/28418334/) | 2017 | Review | Balkan Med J | General overview of JIA subtypes, clinical features and treatment. |
+| [22573189](https://pubmed.ncbi.nlm.nih.gov/22573189/) | 2012 | Review | Swiss Med Wkly | Review of systemic-onset JIA (Still's disease). |
+| [8422565](https://pubmed.ncbi.nlm.nih.gov/8422565/) | 1993 | Not classified | Br J Rheumatol | NSAIDs in paediatric rheumatic disease. Salicylates and indomethacin are used for systemic JCA fever. For joint symptoms they are no more effective than other NSAIDs, but more toxic. |
+| [1884567](https://pubmed.ncbi.nlm.nih.gov/1884567/) | 1991 | Not classified | Clin Pharmacokinet | Pharmacokinetics of drugs used in juvenile arthritis. |
+| [5632159](https://pubmed.ncbi.nlm.nih.gov/5632159/) | 1967 | Not classified | Arzneimittel-Forschung | Long-term indomethacin therapy in juvenile rheumatoid arthritis and Still's disease (no abstract available). |
 
 ## Singapore Market Information
 
-Indomethacin is currently **not registered** with Singapore's Health Sciences Authority (HSA). No product authorizations are on record. Any clinical use or repurposing development in Singapore would require full HSA registration, including submission of product dossiers covering safety, quality, and efficacy.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN05375P | INDO CAPSULES 25 mg | Capsule | Not listed in the retrieved record |
+| SIN08624P | INDOMEN CAPSULE 25 mg | Capsule | Not listed in the retrieved record |
+| SIN09699P | HD-METHACIN CAPSULE 25 mg | Capsule | Not listed in the retrieved record |
 
----
+All three products are oral capsules.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
-> All safety fields in this evidence pack are data gaps: TFDA prescribing information warnings and contraindications have not been retrieved, and the DDI query returned no results. These are classified as blocking data gaps that must be resolved before proceeding to regulatory submission.
-
----
+Please refer to the package insert for safety information. No drug-interaction records were found in the data.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Indomethacin's efficacy in JIA is mechanistically well-grounded (COX inhibition → reduced PGE2 → suppression of prostaglandin-driven synovitis) and historically documented, including a direct double-blind RCT in juvenile chronic arthritis (PMID 362571) and multiple clinical reviews confirming its role in the pre-biologic JIA treatment landscape. The TxGNN score of 99.84% and L2 evidence level support advancing this candidate — but the complete absence of Singapore HSA registration and unresolved safety data gaps require structured remediation before proceeding.
+The top prediction, brachydactyly-syndactyly syndrome, rests on a model score alone. It has no trials, no literature and no plausible mechanism. Indomethacin's use in JIA is real but is established symptomatic NSAID care. It is not a new repurposing opportunity and is supported only by dated, mostly comparative literature.
 
 **To proceed, the following is needed:**
-
-- **Regulatory pathway:** Initiate HSA product registration; no Singapore marketing authorization currently exists
-- **Safety data (Blocking):** Retrieve and review full prescribing information warnings, contraindications, and special population precautions (pediatric dosing, hepatic/renal considerations)
-- **MOA documentation:** Retrieve DrugBank MOA record to complete mechanistic rationale for regulatory dossier
-- **DDI profile:** Re-query drug interaction databases (e.g., DrugBank DDI, Lexicomp) — current query returned no results, which is likely a data issue rather than absence of interactions
-- **Comparative effectiveness:** Evaluate positioning relative to current JIA biologics (anakinra, tocilizumab, etanercept); define the patient population where Indomethacin adds value (mild oligoarticular disease, systemic fever control, adjunctive use)
-- **Pediatric PK/PD:** Confirm appropriate dosing and safety monitoring parameters for the Singapore pediatric JIA population
-
----
-
-*This report is for research reference only and does not constitute medical advice. All repurposing candidates require clinical validation before therapeutic application.*
+- HSA package insert (warnings, contraindications and approved indications). This is a blocking gap for safety screening.
+- Mechanism of action data from DrugBank.
+- Full-text review of the JIA literature, especially the 1978 RCT, to confirm efficacy and safety in children.
+- If JIA is pursued, a check of whether it already falls within the approved Singapore indications, to avoid counting existing use as repurposing.
+- Route compatibility and similarity-to-original assessments, which are currently pending.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -29,91 +29,78 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Polatuzumab Vedotin: From B-Cell Malignancies to HER2 Positive Breast Carcinoma
+# Polatuzumab vedotin: From B-Cell Lymphoma to HER2-Positive Breast Carcinoma
 
 ## One-Sentence Summary
 
-Polatuzumab vedotin is an antibody-drug conjugate (ADC) that targets CD79b, a surface marker expressed almost exclusively on normal and malignant B lymphocytes, delivering the cytotoxic payload MMAE to B-cell malignancies.
-The TxGNN model predicts it may be effective for **HER2 Positive Breast Carcinoma**, but this prediction is currently supported by **zero clinical trials** and **zero publications**, and the evidence pack's own mechanistic review flags it as likely a knowledge-graph artifact rather than a biologically plausible signal.
-
----
+Polatuzumab vedotin is an anti-CD79b antibody-drug conjugate (ADC) with an MMAE payload, used in B-cell lymphoma.
+The TxGNN model predicts it may be effective for **HER2-positive breast carcinoma**,
+but there are currently **0 clinical trials** and **0 relevant publications** supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not available — no Singapore license on file; drug's target biology (CD79b) indicates B-cell malignancy use |
-| Predicted New Indication | HER2 Positive Breast Carcinoma |
+|------|------|
+| Original Indication | Not stated in the registration data (lymphoma use noted in the mechanism analysis) |
+| Predicted New Indication | HER2 positive breast carcinoma |
 | TxGNN Prediction Score | 99.34% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data from DrugBank is not available for this drug (Data Gap, high severity). However, the evidence pack's own repurposing rationale confirms the drug class: Polatuzumab vedotin is an antibody-drug conjugate combining an anti-CD79b monoclonal antibody with the microtubule-disrupting cytotoxin MMAE. CD79b is a component of the B-cell receptor complex and is expressed on normal and malignant B lymphocytes only — it has no known expression in breast epithelial or breast tumor tissue, including HER2-positive subtypes.
+Detailed mechanism of action data is not available in the Evidence Pack. Based on known information, polatuzumab vedotin is an antibody-drug conjugate that delivers MMAE, a microtubule inhibitor, to cells expressing CD79b.
 
-Because HER2-positive breast carcinoma has no known CD79b expression, there is no target-based mechanism connecting this drug to the predicted indication. The evidence pack explicitly assesses this as likely **knowledge-graph noise**, possibly arising from indirect connections through generic "tumor" or "antibody therapy" nodes rather than a genuine pharmacological relationship.
+The mechanistic link to breast cancer is weak. CD79b is a B-cell-restricted antigen and is not a recognized target in breast carcinoma. Polatuzumab does not bind HER2, although other HER2-directed ADCs already exist. The high score (0.993) most likely reflects graph proximity to other ADCs or cytotoxic payloads, not a target-based rationale.
 
-This assessment is reinforced across the full top-10 prediction list: predictions 2, 3, and 5 (PR-positive, PR-negative, and "normal breast-like" breast cancer subtypes) share the identical lack of CD79b expression rationale; prediction 4 initially appears literature-supported (19 PubMed records) but on inspection all 19 articles concern B-cell biology or Hepatitis B vaccines — a keyword collision between "luminal B" breast cancer subtype and "B cell," not genuine evidence; and predictions 6–10 (drug-induced osteoporosis, acne, and three coagulation-factor disorders) have no plausible mechanistic link to an anti-CD79b/MMAE ADC at all. Taken together, this candidate cluster shows a pattern consistent with model score inflation rather than a genuine repurposing signal.
-
----
+The other nine predictions were also reviewed: other breast cancer subtypes, drug-induced osteoporosis, acne, and three hereditary coagulation disorders. None has a plausible mechanism, and none has trials or supporting literature. Several share identical scores, which points to graph-neighborhood artifacts rather than independent signals.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
-*(Note: rank-4 candidate "breast tumor luminal A or B" returned 19 PubMed records, but all concern B-cell immunology/lymphoma/hepatitis B vaccination — a false match on the letter "B" — and are not relevant to the rank-1 predicted indication above.)*
-
----
+The 19 publications retrieved for the related prediction "breast tumor luminal A or B" were false-positive matches. The search term "B" pulled in B-cell biology, B-cell lymphoma and hepatitis B vaccine papers. None addresses polatuzumab vedotin in breast cancer.
 
 ## Singapore Market Information
 
-Polatuzumab vedotin is currently **not marketed** in Singapore. No license records (SIN numbers) are on file, so no authorization table can be produced.
-
----
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN16345P | POLIVY 30 mg powder for concentrate for solution for infusion | Lyophilized powder for injection | F. Hoffmann-La Roche AG |
+| SIN16007P | POLIVY 140 mg powder for concentrate for solution for infusion | Lyophilized powder for injection | BSP Pharmaceuticals S.p.A (Primary Packager) |
 
 ## Cytotoxicity
 
-Polatuzumab vedotin is an antineoplastic agent (ADC with a cytotoxic MMAE payload, historically used in B-cell malignancies).
-
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy (CD79b-directed ADC) delivering a conventional cytotoxic payload (MMAE, a microtubule inhibitor) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions (no toxicity data available in this evidence pack) |
+|------|------|
+| Cytotoxicity Classification | Targeted therapy: antibody-drug conjugate with a cytotoxic microtubule-inhibitor payload (MMAE) |
+| Myelosuppression Risk | Myelosuppression is a known toxicity; please refer to the package insert for severity grading |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | ADC with cytotoxic payload — handle per cytotoxic drug handling regulations pending confirmation from official labeling |
-
----
+| Monitoring Items | Complete blood count; neurological assessment for neuropathy; liver and renal function |
+| Handling Protection | Please refer to the package insert; follow institutional cytotoxic drug handling procedures given the MMAE payload |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
----
+Known toxicities of this drug include neuropathy and myelosuppression. No drug interaction records were found. Please refer to the package insert for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The predicted indication (HER2 positive breast carcinoma) has no clinical trial or literature support, sits at Evidence Level L5 (model prediction only), and lacks any plausible target-based mechanism — CD79b is not expressed in breast tissue. The evidence pack's own review, together with the pattern across all 10 top-ranked candidates for this drug, indicates the signal is most likely knowledge-graph noise rather than a genuine repurposing opportunity.
+The prediction is computational only (L5). There are no trials or relevant literature, and the target (CD79b) is not expressed in breast carcinoma. The high TxGNN score is not supported by any biological rationale.
 
 **To proceed, the following is needed:**
-- TFDA/HSA label warnings and contraindications (currently blocking — DG001)
-- Confirmed DrugBank mechanism-of-action data (DG002)
-- Independent biological rationale or preclinical data specifically linking CD79b/MMAE ADC activity to HER2-positive breast carcinoma before this candidate can advance beyond S0
-- If no such evidence emerges, this candidate cluster should be deprioritized in favor of higher-scoring, mechanistically coherent predictions for this drug
+- Evidence of target expression (CD79b or an alternative) in HER2-positive breast tumors
+- Preclinical data showing activity in HER2-positive breast cancer models
+- Mechanism of action data from DrugBank
+- HSA package insert warnings and contraindications for safety screening
+- Comparison against existing HER2-directed ADCs to show a differentiated rationale
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

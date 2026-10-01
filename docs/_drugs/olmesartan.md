@@ -33,39 +33,45 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Olmesartan is an angiotensin II receptor blocker (ARB) generally used to treat hypertension. The TxGNN model's top-ranked prediction for this drug is **Prinzmetal angina** (vasospastic angina), but this is currently supported by **0 clinical trials** and **0 publications** — it is a pure knowledge-graph inference with no corroborating evidence.
+Olmesartan is an angiotensin II receptor blocker (ARB) that is marketed in Singapore as a single agent (Olmetec, Olmezen) and in combination with amlodipine (Azoren). The approved indication text is not recorded in the evidence pack, so hypertension is inferred from the drug class. The TxGNN model predicts it may be effective for **Prinzmetal angina**, but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (general ARB-class indication; no Singapore label text available — drug is not marketed locally) |
+| Original Indication | Not recorded in the evidence pack (hypertension inferred from ARB class) |
 | Predicted New Indication | Prinzmetal angina |
 | TxGNN Prediction Score | 99.84% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 7 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for olmesartan is not available in this evidence pack. Based on known pharmacological class information, olmesartan is an angiotensin II receptor (AT1) blocker, and its efficacy in hypertension is well established.
+Currently, detailed mechanism of action data is not available. Olmesartan belongs to the ARB class, which blocks the angiotensin II type 1 (AT1) receptor. Its efficacy in blood pressure control is well established, and mechanistically it may be applicable to Prinzmetal angina.
 
-Prinzmetal angina (vasospastic angina) results from transient coronary artery vasospasm rather than fixed atherosclerotic obstruction. The proposed rationale for repurposing is that AT1 receptor blockade could theoretically reduce angiotensin II-mediated coronary vasoconstriction, which is mechanistically plausible given olmesartan's known vasodilatory effect in systemic hypertension.
-
-However, this link is purely theoretical. The evidence pack explicitly notes: "理論上 AT1 阻斷可能減少 angiotensin II 相關冠狀動脈血管收縮,但無任何臨床或臨床前資料支持,純屬 TxGNN 預測" (AT1 blockade may theoretically reduce angiotensin II-related coronary vasoconstriction, but no clinical or preclinical data currently support this — it is a TxGNN prediction only). No dedicated pharmacology, animal model, or human study for olmesartan specifically in Prinzmetal angina exists in the record.
+Prinzmetal (vasospastic) angina is caused by coronary artery vasospasm. Blocking the renin-angiotensin system could plausibly affect vascular tone, which is the basis for the model's prediction. However, no trial or publication has tested this for olmesartan. The prediction rests on the model's score alone, and the mechanistic link is a hypothesis.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Olmesartan currently has no registered licenses in Singapore (market status: Not Marketed; total registrations: 0). No product/dosage-form information is available.
+The approved indication text is not listed for any of the licenses in the evidence pack.
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN15528P | OLMEZEN Film-Coated Tablet 40mg | Film-coated tablet | Not listed |
+| SIN13018P | Olmetec Tablet 40mg | Film-coated tablet | Not listed |
+| SIN13016P | Olmetec Tablet 20mg | Film-coated tablet | Not listed |
+| SIN15530P | OLMEZEN Film-Coated Tablet 20mg | Film-coated tablet | Not listed |
+| SIN13964P | Azoren Film-Coated Tablet 20mg/5mg | Film-coated tablet | Not listed |
 
 ## Safety Considerations
 
@@ -76,13 +82,20 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-This is an L5-level prediction — a TxGNN model score only, with no supporting clinical trials, literature, or preclinical studies, and no confirmed mechanism-of-action data. There is insufficient evidence to advance this candidate.
+Prinzmetal angina is supported only by the TxGNN score (L5). There are no trials, no literature and no established mechanism for olmesartan in this condition. The safety data needed for screening are also missing.
 
 **To proceed, the following is needed:**
-- Preclinical (in vitro/animal) evidence of olmesartan's effect on coronary vasospasm
-- Confirmed mechanism-of-action data from DrugBank or primary literature
-- TFDA/HSA label warnings and contraindications (currently marked as data gaps, blocking safety pre-screening)
-- Note: this evidence pack also contains other candidate indications for olmesartan with stronger evidence — migraine disorder (L2, 1 RCT + review-level literature) and pulmonary hypertension (L4, preclinical models + 1 suspended Phase 4 trial) — which may warrant separate, higher-priority evaluation before revisiting Prinzmetal angina
+- Package insert warnings and contraindications from HSA (currently a blocking gap)
+- Mechanism of action data from DrugBank
+- Any clinical or observational evidence for ARBs in vasospastic angina
+- The approved indication text for the Singapore licenses
+
+**Other candidates in the same prediction set (for separate evaluation):**
+- **Migraine disorder** is the best-supported candidate (L3, Research Question). It has an ACEi/ARB systematic review (2019) and a small olmesartan study in hypertensive patients (2006). Any benefit may be confounded by blood pressure lowering, and study designs are inferred from titles only.
+- **Pulmonary hypertension** has preclinical rat and mouse evidence only (L4, Research Question), with no human efficacy data.
+- The remaining candidates (hair-loss disorders, open-angle glaucoma and others) have no meaningful supporting evidence.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

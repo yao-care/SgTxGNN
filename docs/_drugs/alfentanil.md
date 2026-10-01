@@ -29,77 +29,66 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Alfentanil: From Anaesthesia to Nephrogenic Syndrome of Inappropriate Antidiuresis
+# Alfentanil: From Opioid Anaesthesia/Analgesia to Nephrogenic Syndrome of Inappropriate Antidiuresis
 
 ## One-Sentence Summary
 
-Alfentanil is an ultra-short-acting μ-opioid receptor agonist administered intravenously as an analgesic adjunct during general anaesthesia and procedural sedation.
-The TxGNN model predicts it may be effective for **Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD)**,
-yet **no clinical trials and no publications** currently support this direction — evidence sits at the lowest possible tier.
-
----
+Alfentanil is a short-acting mu-opioid agonist injection used in anaesthesia and analgesia. The TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**, but there are currently **0 clinical trials** and **0 publications** supporting this direction. The prediction rests on the graph model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Intravenous analgesia and anaesthesia adjunct (opioid analgesic) |
-| Predicted New Indication | Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD) |
+| Original Indication | Not stated in the registration data (alfentanil is a short-acting opioid used for anaesthesia and analgesia) |
+| Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 99.51% |
-| Evidence Level | L5 — Model prediction only, no supporting studies |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data was not available in this Evidence Pack. Based on established pharmacology, Alfentanil is a potent, ultra-short-acting μ-opioid receptor agonist (redistribution half-life ~1 min) administered intravenously for the induction and maintenance of anaesthesia as well as procedural analgesia. Its primary mechanism involves binding to μ-opioid receptors in the central nervous system — particularly in the spinal dorsal horn, brainstem, and periaqueductal grey — to suppress nociceptive transmission and produce sedation.
+Currently, detailed mechanism of action data is not available. Based on known information, alfentanil is a mu-opioid receptor agonist. Its efficacy for anaesthesia and analgesia is established, but no mechanistic link to NSIAD has been identified.
 
-NSIAD is a channelopathy caused by gain-of-function mutations in the *AVPR2* gene (arginine vasopressin receptor type 2), resulting in constitutive receptor activation independent of vasopressin binding. This leads to inappropriate water retention, euvolaemic hyponatraemia, and can be clinically indistinguishable from SIADH except that it does not respond to V2-receptor antagonists (vaptans). The disease driver is a permanently activated AVPR2 receptor, not a pain-signalling or opioid-receptor pathway.
-
-While opioid receptor agonism is known to modulate ADH secretion indirectly through hypothalamic pathways, this effect is entirely upstream of the constitutively active AVPR2 mutation and cannot antagonise or correct the underlying receptor dysfunction. The TxGNN high score (99.51%) most likely reflects indirect graph traversals between water-electrolyte imbalance nodes and CNS pharmacology nodes in the knowledge graph rather than a biologically coherent mechanism. Mechanistic plausibility for this specific repurposing prediction is assessed as very low.
-
----
+NSIAD is a rare disorder caused by gain-of-function variants of the vasopressin V2 receptor, which lead to excessive water retention. Alfentanil acts on opioid receptors, not on the V2 receptor or the vasopressin pathway. The high TxGNN score (99.51%) is a graph-based prediction only, and it is not supported by any biological or clinical reasoning found so far. Model rank 6,411 also suggests the score alone should not be treated as a strong signal.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
+**Other predicted indications:** Of the other top-10 predictions, only **headache disorder** has drug-specific evidence, a single case report of propofol plus alfentanil in episodic cluster headache (PMID [24910816](https://pubmed.ncbi.nlm.nih.gov/24910816/)). It is classed as a research question for acute or procedural settings, because opioids carry a medication-overuse headache risk. Migraine predictions are supported only by an indirect mechanistic review and an anaesthesia case report, and the remaining predictions are model output only.
 
 ## Singapore Market Information
 
-Alfentanil is not registered in Singapore. No regulatory authorisation records are available.
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN17055P | ALFENTANIL KALCEKS SOLUTION FOR INJECTION/ INFUSION 0.5MG/ML | Injection, solution |
+| SIN04326P | RAPIFEN INJECTION 0.5 mg/ml | Injection |
 
----
+Approved indication text is not recorded for either licence.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This prediction rests entirely on the TxGNN model score (L5 evidence); there are no clinical trials, no published literature, and no established mechanistic pathway linking μ-opioid receptor agonism to the AVPR2 gain-of-function mutations that drive NSIAD.
+The prediction has no supporting trials or literature, and it conflicts with the known pharmacology, since NSIAD is a V2 receptor gain-of-function disorder and alfentanil is a mu-opioid agonist. The high model score alone is not enough to justify further investment.
 
 **To proceed, the following is needed:**
-- Preclinical evidence (in vitro or animal models) demonstrating any functional interaction between opioid signalling and AVPR2 constitutive activity
-- A coherent mechanistic hypothesis explaining how Alfentanil could modulate NSIAD pathophysiology beyond indirect ADH modulation
-- Mechanism of action data from DrugBank (Data Gap DG002)
-- Singapore package insert and warnings review to complete the safety profile (Data Gap DG001)
-- Expert pharmacologist and nephrologist review before any further development of this candidate
+- A plausible mechanistic hypothesis linking mu-opioid activity to vasopressin or V2 receptor signalling
+- Detailed mechanism of action data for alfentanil
+- Singapore package insert warnings and contraindications, and the approved indication text
+- Preclinical or case-level evidence in NSIAD
+- Consideration of headache disorder as a better-supported research question
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

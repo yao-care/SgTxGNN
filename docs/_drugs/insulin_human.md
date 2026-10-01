@@ -33,81 +33,72 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Insulin human is a recombinant polypeptide hormone universally established as the core replacement therapy for diabetes mellitus, particularly Type 1 diabetes (T1DM), where endogenous insulin secretion is absent or severely deficient.
-The TxGNN model predicts it may be effective for **Autoimmune Oophoritis**, with **0 clinical trials** and **0 publications** currently supporting this specific direction.
-This prediction is assessed as a **disease co-morbidity network signal** rather than a direct therapeutic association, and warrants careful interpretation before any further investment.
-
----
+Insulin human is a recombinant human insulin used for glycaemic control in diabetes. The Singapore registry record does not state an approved indication.
+The TxGNN model predicts it may be effective for **autoimmune oophoritis**, but there are **0 clinical trials** and **0 publications** supporting this prediction, so it is a model output only.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Diabetes Mellitus (insulin replacement therapy) |
-| Predicted New Indication | Autoimmune Oophoritis |
-| TxGNN Prediction Score | 99.84% |
+|------|------|
+| Predicted New Indication | Autoimmune oophoritis |
+| TxGNN Prediction Score | 99.84% (model rank 2841) |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from this Evidence Pack. Based on well-established pharmacology, insulin human is a recombinant form of endogenous human insulin. It acts by binding to the insulin receptor (IR) on target cells, activating the PI3K/Akt and MAPK/ERK intracellular signalling cascades, thereby promoting cellular glucose uptake (primarily in skeletal muscle and adipose tissue), suppressing hepatic gluconeogenesis, and facilitating anabolic biosynthesis of glycogen, lipids, and protein.
+Currently, detailed mechanism of action data is not available. Insulin human is a replacement hormone for insulin-deficient diabetes. It has no known direct link to autoimmune oophoritis, an autoimmune inflammation of the ovary.
 
-Autoimmune oophoritis is an immune-mediated disorder in which autoreactive T-lymphocytes and autoantibodies target ovarian steroidogenic cells, leading to progressive ovarian insufficiency. Critically, it frequently co-occurs as a component of Autoimmune Polyglandular Syndrome Type II or III (APS-II/III), and APS-II specifically includes T1DM as one of its defining features. It is this epidemiological co-occurrence — patients with T1DM who require insulin therapy are at elevated risk of developing APS and, consequently, autoimmune oophoritis — that the TxGNN knowledge graph model appears to have captured as a topological connection between insulin and autoimmune oophoritis.
+The 0.998 score reflects proximity in the knowledge graph, not clinical or mechanistic evidence. The supplied data give no support for a therapeutic role of insulin in this disease. This prediction should not be advanced without new evidence.
 
-This represents a **comorbidity association, not a therapeutic association**. Insulin has no known pharmacological mechanism to suppress the ovarian autoimmune cascade, modulate the autoantibodies targeting theca or granulosa cells, or reverse the gonadal insufficiency caused by autoimmune oophoritis. The standard of care for autoimmune oophoritis is oestrogen-based hormone replacement therapy (HRT) for symptom management, combined with immunosuppressive agents (e.g., corticosteroids) in selected cases. This prediction is most likely a false positive arising from shared disease-node proximity in the knowledge graph, and the direction of the association (comorbidity) is the opposite of therapeutic utility.
+The other top-10 predictions show the same pattern:
 
----
+| Predicted Indication | Evidence Level | Assessment |
+|------|------|------|
+| Classic stiff person syndrome / focal stiff limb syndrome | L5 | Likely an anti-GAD65 autoimmunity overlap with type 1 diabetes. The one paper is an antibody epitope-mapping study and does not test insulin. |
+| Thiamine-responsive dysfunction syndrome | L4 | Insulin would only manage the diabetes. The primary treatment is thiamine. |
+| Opsismodysplasia | L5 | SHIP2 (INPPL1) regulates insulin signalling, but the papers cover gene function and a mouse model, with no evidence that exogenous insulin helps. |
+| Drug-induced localized lipodystrophy, centrifugal lipodystrophy, pressure-induced localized lipoatrophy, idiopathic localized lipodystrophy | L4–L5 | Likely a reverse association. Injected insulin is a known cause of injection-site lipodystrophy, so these should be read as adverse-effect signals, not treatment targets. |
+| Pancreatic agenesis | L4 | Biologically coherent, because insulin replacement is the expected therapy for the resulting neonatal diabetes. The literature is general diabetes and beta-cell biology. This is standard diabetes care rather than true repurposing, so check it against existing labeling. |
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-No Singapore Health Sciences Authority (HSA) drug registrations are currently on record for Insulin Human under this Evidence Pack. Insulin human products are however widely available globally under multiple brand names (e.g., Humulin, Novolin) and are typically registered in most major markets. A targeted HSA product search is recommended to verify current local registration status.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN02395P | ACTRAPID INJECTION 100 IU/ml (Novo Nordisk A/S) | Injection | Not listed in the registry record |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: No interaction records were found in the queried source.
+- **Injection-site effects**: The prediction analysis notes that injected insulin can cause localized lipohypertrophy and lipoatrophy. This is relevant to any long-term injectable use.
 
-> **Note on a critical adverse signal identified within this prediction set:** Among the 10 TxGNN predictions reviewed, **rank 6 (drug-induced localized lipodystrophy)** represents a situation where insulin is itself a well-documented *causative agent* of the predicted condition (via repeat injection-site lipoatrophy or lipohypertrophy), not a therapeutic one. This illustrates a known limitation of knowledge graph models that infer associations from co-occurrence patterns without encoding the *direction* of causality. This finding should be flagged in any downstream filtering pipeline.
-
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN prediction for autoimmune oophoritis is driven by disease co-morbidity network topology — autoimmune oophoritis frequently co-occurs with APS type II/III, which itself includes T1DM — rather than any direct pharmacological effect of insulin on ovarian autoimmune pathology. With zero supporting clinical trials and zero supporting literature, and with no biologically plausible therapeutic mechanism, this prediction does not meet the threshold to progress.
+The prediction rests on a model score alone. There are no trials or literature for autoimmune oophoritis, and no mechanistic rationale is supported by the supplied data. Several related predictions appear to be adverse-effect signals or standard diabetes care rather than new uses.
 
-**To proceed to the next evaluation stage, the following would be needed:**
+**To proceed, the following is needed:**
+- The HSA package insert, to confirm the approved indication, warnings and contraindications
+- Mechanism of action data (from DrugBank)
+- A targeted literature search on insulin in autoimmune oophoritis
+- A check of whether pancreatic agenesis is already covered by existing labeling; it is the only candidate flagged as a research question
+- Route-compatibility assessment (currently pending)
 
-- Identification of a biologically plausible mechanism by which insulin could modulate ovarian autoimmune activity (e.g., insulin receptor expression on immune effector cells in ovarian tissue, anti-inflammatory effects of insulin signalling in the ovarian microenvironment)
-- At minimum one peer-reviewed preclinical study demonstrating any therapeutic effect of insulin in an autoimmune oophoritis model
-- Disambiguation of the TxGNN signal: determine whether the model is encoding a co-morbidity pattern, a shared-biomarker pattern (e.g., anti-islet/anti-ovary cross-reactive antibodies in APS), or a genuine pharmacological relationship
-
-**Higher-priority prediction to consider:**
-A review of the full prediction set in this Evidence Pack reveals that **rank 9 (Pancreatic Agenesis)** carries an L4 evidence level with a "Proceed with Guardrails" recommendation and a direct, mechanistically unambiguous rationale: complete absence of endogenous pancreatic beta-cells necessitates exogenous insulin replacement as the primary therapeutic strategy. This prediction is substantially more actionable and is recommended for prioritisation in the next evaluation cycle.
-
----
-
-> ⚠️ **Disclaimer:** This report is for research reference purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any therapeutic application. All predictions should be interpreted in the context of current clinical guidelines and applicable regulatory requirements.
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

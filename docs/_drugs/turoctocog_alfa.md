@@ -33,9 +33,9 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-> Turoctocog alfa is a recombinant Factor VIII replacement product, conventionally used to control and prevent bleeding in **Haemophilia A**.
-> The TxGNN model predicts it may be effective for **primary release disorder of platelets**,
-> but this candidate currently has **0 clinical trials** and **0 publications** supporting it, and the model's own mechanistic rationale flags the biological plausibility as weak.
+Turoctocog alfa is a recombinant factor VIII (FVIII) replacement product, marketed in Singapore as Novoeight, and is used for haemophilia A.
+The TxGNN model predicts it may be effective for **primary release disorder of platelets**, but there are **0 clinical trials** and **0 publications** supporting this direction.
+The high score appears to reflect graph proximity to haemostasis terms rather than a plausible mechanism, so the recommendation is **Hold**.
 
 ---
 
@@ -43,23 +43,37 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Haemophilia A (known drug class fact; not present in Singapore registry data, as the product is not yet marketed) |
+| Original Indication | Haemophilia A (FVIII replacement; the Singapore licence records contain no indication text) |
 | Predicted New Indication | Primary release disorder of platelets |
 | TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✗ Not marketed (Not marketed) |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 4 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the registry input (DrugBank query pending — see Data Gap DG002). Based on known information, Turoctocog alfa is a recombinant Factor VIII (FVIII) concentrate that acts on the intrinsic coagulation cascade, replacing deficient clotting factor activity in Haemophilia A. Its efficacy in reducing bleeding episodes in FVIII-deficient patients is well established.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on known information, turoctocog alfa is a recombinant FVIII product. It supplies the missing clotting factor in haemophilia A, where the tenase complex (FVIIIa/FIXa) cannot form properly.
 
-The predicted new indication, primary release disorder of platelets (a platelet storage pool disease), involves a defect in platelet granule content release during activation — a mechanism entirely upstream and independent of the coagulation cascade that FVIII participates in. The Evidence Pack's own mechanistic assessment for this candidate explicitly states that FVIII "does not participate in platelet activation or granule release" and that the high TxGNN score likely reflects **topological similarity between "bleeding tendency" nodes in the knowledge graph rather than genuine biological plausibility**.
+The predicted disease is a different kind of problem. Release disorders are intrinsic platelet defects in granule secretion and signalling. FVIII levels are normal in these patients, so supplying more FVIII does not address the primary defect. The 99.99% score most likely comes from the disease sitting close to haemostasis terms in the knowledge graph. **The mechanistic rationale is weak.**
 
-Among the ten candidates returned, one indication — **acquired coagulation factor deficiency** (rank 5) — has a materially stronger mechanistic rationale, since acquired FVIII deficiency (e.g., acquired haemophilia A with anti-FVIII antibodies) is a recognized on-label-adjacent use for FVIII replacement. However, this candidate is currently supported by no clinical trials or literature either, and the disease label is too broad to confirm the specific subtype implied. Overall, the top-ranked prediction should be treated as a model-generated hypothesis requiring independent biological validation before any further evaluation.
+The other top-ranked predictions show the same pattern: they are mostly platelet-related or von Willebrand-related bleeding disorders.
+
+| Rank | Predicted Disease | Score | Assessment |
+|----|------|------|------|
+| 2 | Pseudo-von Willebrand disease | 99.99% | Gain-of-function GPIbα defect; plasma FVIII is usually normal, so the rationale is weak. Standard care is platelet transfusion or VWF-directed therapy. |
+| 3 | Glanzmann thrombasthenia | 99.99% | Integrin αIIbβ3 defect; FVIII would not correct it. Platelet transfusion and recombinant FVIIa are established options. |
+| 4 | Scott syndrome | 99.95% | Loss of the phosphatidylserine surface on platelets; the link to FVIII is indirect and speculative. |
+| 5 | Acquired coagulation factor deficiency | 99.95% | The most plausible entry, but only if the deficiency is specifically FVIII (e.g., acquired hemophilia A). Autoantibody inhibitors usually neutralise human recombinant FVIII, and the term is too generic. Classed as a research question only. |
+| 6 | Bleeding diathesis due to a collagen receptor defect | 99.91% | Platelet-intrinsic adhesion defect; FVIII does not address it. |
+| 7 | Haemorrhagic disorder due to constitutional thrombocytopenia | 99.91% | Bleeding is due to low platelet counts, not FVIII deficiency. |
+| 8 | "Flood factor deficiency" | 99.61% | Ambiguous name, possibly a knowledge-graph artifact; needs ontology curation before evaluation. |
+| 9 | Thrombotic thrombocytopenic purpura | 99.54% | ADAMTS13 deficiency drives thrombosis. A procoagulant factor runs against treatment, so this is a safety concern, not an opportunity. |
+| 10 | Hereditary thrombocytosis with transverse limb defect | 99.52% | No plausible link to FVIII replacement. |
+
+None of the ten predictions has any registered trial or published literature.
 
 ---
 
@@ -77,13 +91,25 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Turoctocog alfa currently has **no registrations** in Singapore (`total_licenses: 0`, market status: Not marketed / Not marketed). No authorization records, product names, or approved indication text are available for extraction.
+Four Novoeight licences are registered (powder and solvent for solution for injection). The records do not include approved indication text.
+
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN16109P | Novoeight Powder and Solvent for Solution for Injection 250 IU/vial | Injection, powder, for solution |
+| SIN16111P | Novoeight Powder and Solvent for Solution for Injection 500 IU/vial | Injection, powder, for solution |
+| SIN16110P | Novoeight Powder and Solvent for Solution for Injection 1000 IU/vial | Injection, powder, for solution |
+| SIN16713P | Novoeight Powder and Solvent for Solution for Injection 2000 IU/vial | Injection, powder, for solution |
+
+The manufacturer is Novo Nordisk A/S (Kalundborg and Hagedornsvej sites), with the solvent supplied by Vetter Pharma-Fertigung.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-drug interaction data are currently unavailable — see Data Gap DG001, classified as Blocking for safety pre-screening.)
+- **Thrombotic risk**: For thrombotic thrombocytopenic purpura (rank 9), giving a procoagulant factor such as FVIII is mechanistically opposed to treatment, and elevated FVIII is a recognised thrombotic risk factor. This indication should not be pursued.
+- **Inhibitors**: In acquired FVIII deficiency with autoantibody inhibitors, human recombinant FVIII is usually neutralised, so efficacy is doubtful.
+
+No drug interaction records were found. For warnings and contraindications, please refer to the package insert.
 
 ---
 
@@ -92,14 +118,16 @@ Please refer to the package insert for safety information. (Key warnings, contra
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (primary release disorder of platelets) is supported only by a TxGNN model score (L5, S0) with zero clinical trials or literature, and the mechanistic review itself indicates the biological rationale is weak, likely driven by knowledge-graph topology rather than true pharmacological relevance. The drug is also not currently marketed in Singapore, and safety data (DG001, Blocking) required for even a preliminary S1 safety screen is missing.
+The prediction has no supporting trials or literature (L5), and the mechanism does not fit: the bleeding in the predicted diseases is platelet-mediated, not FVIII-mediated. The high TxGNN score appears to be an artifact of graph proximity.
 
 **To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain product label warnings/contraindications, e.g., via HSA/TFDA-equivalent label filing
-- Resolve DG002 (High): confirm mechanism of action via DrugBank API to properly assess mechanistic linkage
-- If pursuing further, prioritize re-evaluation of the mechanistically stronger candidate **acquired coagulation factor deficiency** (rank 5) with a narrower disease definition (e.g., acquired haemophilia A) rather than the current top-ranked candidate
-- Clarify rank 8 "flood factor deficiency" — likely an ontology/naming artifact possibly meaning combined Factor V/VIII deficiency — before considering it as a candidate
-- Independent biological/preclinical evidence before any clinical evaluation is initiated, given the complete absence of trials or literature across all ten candidates
+- HSA package insert (warnings, contraindications, approved indication), currently a blocking gap for safety screening
+- Detailed mechanism of action data from DrugBank
+- Ontology curation of ambiguous disease terms such as "flood factor deficiency"
+- For the one hypothesis worth exploring, acquired coagulation factor deficiency (acquired haemophilia A), a literature review of inhibitor-related efficacy before any further work
+- Exclusion of thrombotic thrombocytopenic purpura from further evaluation on safety grounds
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

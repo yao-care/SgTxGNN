@@ -33,86 +33,78 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Exemestane is a steroidal aromatase inhibitor (AI) used as standard endocrine therapy for postmenopausal women with estrogen receptor-positive breast cancer.
-The TxGNN model predicts it may be effective for **Antithrombin Deficiency Type 2**,
-with **no clinical trials** and **no publications** currently supporting this direction — the prediction rests on model inference alone.
-
----
+Exemestane is a steroidal aromatase inhibitor, a hormonal therapy used in hormone-receptor-positive breast cancer. The Singapore registry entries do not state an approved indication, so this original use is taken from the drug class and the retrieved literature. The TxGNN model predicts it may be effective for **antithrombin deficiency type 2**, but there are **0 clinical trials** and **0 publications** behind this prediction, so it is most likely a knowledge-graph artifact.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Estrogen receptor-positive breast cancer (postmenopausal women) |
-| Predicted New Indication | Antithrombin Deficiency Type 2 |
+|------|------|
+| Original Indication | Breast cancer (inferred from drug class and literature; registry indication text is empty) |
+| Predicted New Indication | Antithrombin deficiency type 2 |
 | TxGNN Prediction Score | 99.83% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Registered |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 5 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the Evidence Pack. Based on established pharmacology, Exemestane is a steroidal, irreversible aromatase inhibitor — it binds covalently to the active site of the CYP19A1 (aromatase) enzyme, blocking the conversion of androgens (androstenedione, testosterone) into estrogens (estrone, estradiol). This produces a sustained, profound reduction in circulating estrogen levels in postmenopausal women, starving estrogen receptor-positive breast tumours of their proliferative driver.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Exemestane is known as a steroidal aromatase inhibitor. It blocks the conversion of androgens into estrogens and lowers circulating estrogen. This is the standard endocrine approach for estrogen-receptor-positive breast cancer in postmenopausal women.
 
-The theoretical bridge to antithrombin deficiency type 2 runs through the well-documented pro-coagulant effects of estrogen: exogenous estrogens upregulate clotting factors II, VII, and X, and suppressing estrogen with an AI might theoretically reduce coagulation system activation. On the surface this creates a speculative rationale — lower estrogen, less coagulation drive, potentially less strain on an already deficient antithrombin system.
+Antithrombin deficiency type 2 is an inherited defect of the *SERPINC1* gene that impairs the body's natural inhibition of blood clotting. Exemestane does not act on the coagulation cascade. The only conceivable link runs through estrogen-modulated hemostasis, which is speculative. The high TxGNN score therefore looks like a knowledge-graph artifact, not a real therapeutic signal.
 
-However, this mechanistic chain does not hold under scrutiny. Antithrombin III type 2 deficiency (SERPINC1 mutations) is a hereditary disorder in which the *functional activity* of the AT-III protein is impaired — the protein exists but cannot perform its anticoagulant function correctly. Aromatase inhibition does not and cannot restore that defective protein function. Reducing estrogen-driven coagulation factor synthesis is a peripheral modulation that cannot compensate for a dysfunctional antithrombin molecule. The mechanistic link is indirect, the direction of benefit is highly questionable, and no biological evidence supports proceeding.
-
----
+Other top predictions show the same pattern. Thrombophilia, factor 5 excess and heparin cofactor 2 deficiency have no supporting evidence. Migraine and acne could plausibly worsen with exemestane. Amenorrhea appears in the literature only as a context or outcome in breast cancer patients, not as something exemestane treats. Breast fibrocystic disease is the most mechanistically coherent of the ten predictions, since it is estrogen-driven, but it also has no trials or literature.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Exemestane is not currently registered with the Health Sciences Authority (HSA) of Singapore and holds no active product licences. No authorization records are available.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN11398P | AROMASIN TABLET 25mg (Pfizer Italia S.r.l.) | Tablet, sugar coated | Not listed in registry |
+| SIN15232P | AROMASTAN F.C. TABLET 25MG (S.C. Sindan-Pharma S.R.L.) | Tablet, film coated | Not listed in registry |
+| SIN14757P | EXEMESTANE STADA FILM COATED TABLET 25mg (EirGen Pharma Ltd.) | Tablet, film coated | Not listed in registry |
+| SIN16646P | EXEDRAL 25 FILM-COATED TABLET 25MG (Remedica Ltd) | Tablet, film coated | Not listed in registry |
+| SIN16062P | EXACCORD 25 FILM COATED TABLET 25 MG (Intas Pharmaceuticals Limited) | Tablet, film coated | Not listed in registry |
 
----
+All registered products are oral tablets.
 
 ## Cytotoxicity
 
-Exemestane is classified as an antineoplastic agent (aromatase inhibitor) used in breast cancer treatment.
-
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted endocrine therapy — steroidal aromatase inhibitor (not conventional cytotoxic chemotherapy) |
-| Myelosuppression Risk | Low — aromatase inhibitors do not typically cause clinically significant bone marrow suppression |
-| Emetogenicity Classification | Minimal to low |
-| Monitoring Items | Bone mineral density (DEXA scan; AI-associated osteoporosis risk), liver enzymes, lipid profile, serum estradiol where clinically indicated |
-| Handling Protection | Standard pharmaceutical precautions apply; not classified as hazardous chemotherapy under NIOSH cytotoxic handling guidelines |
-
----
+|------|------|
+| Cytotoxicity Classification | Hormonal (endocrine) therapy, aromatase inhibitor; not a conventional cytotoxic agent |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert warnings and precautions |
+| Handling Protection | Please refer to the package insert and local handling policy |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
----
+Aromatase inhibitors carry their own cardiovascular and thromboembolic safety considerations. Any exploration in a thrombosis-related condition would need a separate safety review first.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model's prediction score is high (99.83%), but it is unsupported by any clinical trials, observational studies, or mechanistic publications. More critically, the proposed mechanism — estrogen suppression as a surrogate for antithrombin activity restoration — is biologically implausible: Exemestane cannot compensate for a hereditary loss-of-function defect in the SERPINC1 gene product, and there is a genuine risk that the reduced estrogenic milieu could perturb coagulation balance in unpredictable ways in an already compromised patient.
+The prediction rests on a model score alone (L5). There are no trials or literature, and no plausible mechanism links an aromatase inhibitor to a inherited coagulation-inhibitor defect. The prediction should not advance.
 
-**To proceed, the following would be needed:**
-- Formal mechanistic data (DrugBank MOA and pharmacodynamic profile) to map aromatase inhibition onto the AT-III pathway with specificity
-- At minimum one pre-clinical study (in vitro or animal model of AT-III type 2 deficiency) demonstrating a biologically plausible benefit signal from estrogen suppression
-- A clear safety rationale addressing the risk of paradoxical coagulation effects in patients with hereditary thrombophilia
-- Singapore HSA registration of Exemestane as a prerequisite for any local clinical study pathway
+**To proceed, the following is needed:**
+- Singapore package insert warnings and contraindications (currently a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- Approved indication text for the Singapore registrations
+- A targeted literature search for breast fibrocystic disease, the most mechanistically coherent prediction, as a possible alternative research question
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

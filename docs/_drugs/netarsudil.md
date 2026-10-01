@@ -29,59 +29,97 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Netarsudil: From Glaucoma/Elevated Intraocular Pressure to Primary Hereditary Glaucoma
+# Netarsudil: From Open-Angle Glaucoma and Ocular Hypertension to Primary Hereditary Glaucoma
 
 ## One-Sentence Summary
 
-Netarsudil is a Rho-kinase (ROCK) inhibitor marketed elsewhere as Rhopressa®/Rocklatan® for lowering elevated intraocular pressure in open-angle glaucoma. The TxGNN model predicts it may extend to **Primary Hereditary Glaucoma**, but this specific candidate is currently supported by only **1 indirect clinical trial** and **no dedicated literature**.
+Netarsudil is a topical eye drop (marketed in Singapore as Rhopressa and Rocklatan) used to lower eye pressure in open-angle glaucoma and ocular hypertension.
+The TxGNN model ranks **primary hereditary glaucoma** as its top predicted new indication, but only **1 loosely related clinical trial** and **no publications** support this specific direction, so evidence is at the model-prediction level.
+Netarsudil's evidence in ordinary glaucoma is much stronger (see the Conclusion), but that reflects its existing use, not a new repurposing finding.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Elevated intraocular pressure / open-angle glaucoma (per Rhopressa®/Rocklatan® approvals referenced elsewhere in this evidence pack; no formal original-indication record or Singapore registration on file) |
-| Predicted New Indication | Primary Hereditary Glaucoma |
+| Original Indication | Open-angle glaucoma and ocular hypertension (from the Evidence Pack rationale; the Singapore licence records provide no indication text) |
+| Predicted New Indication | Primary hereditary glaucoma |
 | TxGNN Prediction Score | 99.50% |
 | Evidence Level | L4 |
-| Singapore Market Status | Not marketed (Not Marketed) |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for Netarsudil is not available in this evidence pack (flagged as a High-severity data gap). Based on the supporting evidence collected across related candidates in this dataset, Netarsudil is known to act as a Rho-kinase (ROCK) and norepinephrine-transporter inhibitor that relaxes the trabecular meshwork, increases conventional aqueous outflow, and lowers episcleral venous pressure — the mechanism underlying its approved use for lowering intraocular pressure in open-angle glaucoma.
+Netarsudil inhibits Rho kinase (ROCK) and the norepinephrine transporter. ROCK inhibition relaxes the trabecular meshwork and increases the eye's main fluid outflow route. It also lowers episcleral venous pressure, and norepinephrine transporter inhibition reduces aqueous humour production. Together these effects lower intraocular pressure (IOP). The Evidence Pack has no separate DrugBank mechanism entry, so this description comes from the pack's repurposing rationale and the literature abstracts.
 
-Primary hereditary glaucoma shares the same core pathology as open-angle glaucoma — increased outflow resistance at the trabecular meshwork leading to elevated intraocular pressure — so a ROCK inhibitor could plausibly extend to this genetically-defined subgroup. This is a mechanistic extension within the same disease family rather than a jump to an unrelated indication.
+Hereditary glaucoma is also driven by raised eye pressure, so a drug that improves outflow is a plausible fit. The main weakness is that no trial or publication has tested hereditary or paediatric forms of glaucoma specifically. The one linked trial studies a related but different question (see below).
 
-However, the single clinical trial captured for this specific candidate (NCT06969586) does not actually enroll a hereditary glaucoma population — it studies corneal endothelial safety in Fuchs endothelial corneal dystrophy patients who also have glaucoma. It therefore offers only indirect, mechanism-adjacent safety signal rather than direct efficacy evidence in primary hereditary glaucoma. (For context, the broader "glaucoma"/"open angle glaucoma" entries elsewhere in this dataset are backed by extensive Phase 2/3 RCT evidence — but that supports the mechanism class generally, not this specific hereditary subtype.)
+---
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT06969586](https://clinicaltrials.gov/study/NCT06969586) | N/A | Enrolling by Invitation | 50 | Evaluates whether topical ROCK inhibitors protect corneal endothelial cells in patients with glaucoma and Fuchs endothelial corneal dystrophy after cataract surgery. Studies corneal safety, not primary hereditary glaucoma efficacy — an indirect signal only. |
+| [NCT06969586](https://clinicaltrials.gov/study/NCT06969586) | N/A | Enrolling by invitation | 50 | Tests whether topical ROCK inhibitors protect corneal endothelial cells after cataract surgery in patients with glaucoma and Fuchs endothelial corneal dystrophy, versus placebo. Not a hereditary glaucoma efficacy study, so it offers only indirect evidence on ocular tolerability. |
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for primary hereditary glaucoma.
+
+A systematic review of topical netarsudil in childhood glaucoma ([PMID 39749726](https://pubmed.ncbi.nlm.nih.gov/39749726/), *Current Eye Research*, 2025) appears under the broader "glaucoma" prediction. Its findings are not included in the Evidence Pack, so it should be read in full before any conclusion is drawn.
+
+---
+
+## Singapore Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN16816P | RHOPRESSA Ophthalmic Solution, 0.02% w/v | Sterile solution | Not stated in the data provided |
+| SIN16818P | ROCKLATAN Ophthalmic Solution, 0.02% w/v / 0.005% w/v (netarsudil/latanoprost) | Sterile solution | Not stated in the data provided |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Known adverse events (from the pack's rationale and literature):**
+  - Conjunctival hyperemia
+  - Corneal verticillata
+  - Punctal changes, including a report of partial stenosis and complete punctal closure ([PMID 36223296](https://pubmed.ncbi.nlm.nih.gov/36223296/))
+  - Reticular epithelial corneal edema ([PMID 41438161](https://pubmed.ncbi.nlm.nih.gov/41438161/))
+  - Corneal flattening in a 4-year-old child with secondary open-angle glaucoma ([PMID 35702654](https://pubmed.ncbi.nlm.nih.gov/35702654/)), which is relevant to any paediatric or hereditary use
+
+Please refer to the package insert for warnings, contraindications and drug interactions.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The only trial linked to this specific candidate does not study the target population (it studies Fuchs corneal dystrophy, not primary hereditary glaucoma), and no literature directly supports this indication. Evidence level L4 (mechanism-level only) is insufficient to justify advancing beyond a research question.
+The prediction score is high (99.50%), but there is no efficacy trial or publication for primary hereditary glaucoma, and paediatric safety and efficacy are not established. The predicted use is plausible on mechanism alone, which is not enough to proceed.
+
+**Context from the other predictions in the Evidence Pack:**
+
+| Predicted Indication | Evidence Level | Decision | Comment |
+|------|------|------|------|
+| Glaucoma; glaucoma 1, open angle; open angle glaucoma | L1 | Proceed with Guardrails | Multiple completed Phase 3 RCTs (e.g. NCT02674854, NCT02558374, NCT02207621). This is the drug's existing use, so it confirms the labelled indication rather than a new one. |
+| Axenfeld anomaly, hydrophthalmos (congenital glaucoma) | L5 | Hold | Plausible IOP-lowering rationale, but surgery is the standard of care and there are no trials or literature. |
+| Hypoglycemia, hereditary thrombocytopenia with normal platelets, dense granule disease, macrothrombocytopenia with mitral valve insufficiency | L5 | Hold | No credible mechanistic link. Topical eye dosing gives minimal systemic exposure, and the scores likely reflect graph-proximity artefacts. |
 
 **To proceed, the following is needed:**
-- TFDA/local regulatory package-insert warnings and contraindications (currently a Blocking data gap — required before any S1 safety screen)
-- Confirmed drug-drug interaction (DDI) data (current query returned no results)
-- DrugBank-sourced mechanism of action detail (currently a High-severity data gap)
-- A clinical trial or observational study enrolling patients specifically diagnosed with primary hereditary glaucoma, rather than general open-angle glaucoma or corneal-dystrophy populations
-- Clarification of Netarsudil's actual regulatory/market status outside Singapore, since this evidence pack shows no original indication or local registration on file
+- HSA package insert warnings and contraindications, which are currently a blocking data gap
+- The labelled indication text for the two Singapore licences
+- Detailed mechanism-of-action data from DrugBank
+- Full review of the childhood glaucoma systematic review (PMID 39749726), and ideally prospective data in hereditary or paediatric glaucoma
+- A paediatric-specific ocular safety plan covering corneal changes and punctal effects
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

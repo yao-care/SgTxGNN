@@ -29,76 +29,64 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Verteporfin: From Photodynamic Therapy for Wet AMD to Mitochondrial Oxidative Phosphorylation Disorder
+# Verteporfin: From Ocular Photodynamic Therapy to Mitochondrial Oxidative Phosphorylation Disorder (Nuclear DNA Anomalies)
 
 ## One-Sentence Summary
 
-> Verteporfin is a benzoporphyrin-derivative photosensitizer historically used in photodynamic therapy (PDT) for neovascular (wet) age-related macular degeneration and choroidal neovascularization.
-> The TxGNN model predicts it may be effective for **Mitochondrial Oxidative Phosphorylation Disorder due to Nuclear DNA Anomalies**,
-> but currently **0 clinical trials** and **0 publications** support this specific direction — this is a model-generated hypothesis only.
-
----
+Verteporfin is a light-activated photosensitizer used in ocular photodynamic therapy (PDT), mainly for neovascular age-related macular degeneration and choroidal neovascularization.
+The TxGNN model predicts it may be effective for **mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies**, but this is a graph-based prediction only.
+Currently there are **0 clinical trials** and **0 publications** supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not present in structured Singapore registrational data (drug not marketed locally). Publicly documented use is photodynamic therapy for wet AMD / choroidal neovascularization (supported by literature evidence in this pack, e.g. PMID 17579286) |
-| Predicted New Indication | Mitochondrial Oxidative Phosphorylation Disorder due to Nuclear DNA Anomalies |
+| Original Indication | Ocular photodynamic therapy (neovascular AMD and myopic choroidal neovascularization, per the literature in the Evidence Pack; the HSA record has no indication text) |
+| Predicted New Indication | Mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies |
 | TxGNN Prediction Score | 99.49% |
-| Evidence Level | L5 (model prediction only — no clinical trials or literature identified) |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack (flagged as a High-severity data gap, DG002). Based on publicly known pharmacology, verteporfin is a photosensitizing agent that, upon activation by a 690 nm laser, generates reactive oxygen species leading to selective occlusion of abnormal, leaky vasculature. This mechanism underlies its established use in ocular PDT for wet AMD and pathologic myopia-related CNV — a **vascular** disease process.
+Detailed mechanism-of-action data is not available in the DrugBank record. From general knowledge, verteporfin has two known activities. In PDT it is activated by light and generates reactive oxygen species, which occlude abnormal blood vessels. In the lab it also acts as a light-independent inhibitor of YAP-TEAD signalling.
 
-The top-ranked predicted indication, mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies, is a **genetic/metabolic** disease affecting cellular energy production, not a vascular pathology. There is no obvious mechanistic bridge between light-triggered vascular photothrombosis and correction of a nuclear-DNA-encoded OXPHOS defect, and no clinical trial or literature evidence in this pack substantiates such a link.
+Neither activity has a documented connection to oxidative phosphorylation defects caused by nuclear DNA anomalies. The vascular and ocular uses of verteporfin are unrelated to a systemic mitochondrial disorder. The high score (0.995) therefore comes from graph proximity in the knowledge graph, not from a mechanism or evidence we can identify. A light-activated photosensitizer also carries systemic photosensitivity concerns in a chronic disease.
 
-Given the absence of supporting evidence and the lack of a clear mechanistic rationale, this prediction should be treated as a preliminary knowledge-graph signal requiring independent mechanistic and preclinical validation before further evaluation.
-
----
+Other predictions for this drug rank lower, and they are also weakly supported. Exocrine pancreatic insufficiency has one 2025 preclinical paper on YAP and fibrosis, which gives an indirect YAP-inhibition hypothesis only. The retinal conditions (such as pigmented paravenous retinochoroidal atrophy and familial flecked retinopathy) share only tissue-level proximity with ocular PDT.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Verteporfin currently has no marketing authorization registered in Singapore (market status: **Not Marketed**, 0 licenses on file). No product-level regulatory data (dosage form, approved indication text) is available for this jurisdiction.
-
----
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN11608P | VISUDYNE FOR INJECTION 15 mg/vial | Injection | Alcami Carolinas Corporation; Nippon Fine Chemical Co. Ltd (drug product intermediate manufacturer) |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Key warnings, contraindications, and drug-drug interaction data are not available in this evidence pack (flagged as a Blocking-severity data gap, DG001 — TFDA/HSA label warnings and contraindications have not yet been retrieved).
-
----
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top predicted indication has no supporting clinical trial or literature evidence (Evidence Level L5), no established mechanistic rationale linking ocular PDT vascular action to a nuclear-DNA mitochondrial disorder, and a Blocking-severity safety data gap prevents any S1 safety pre-screening.
+The prediction rests only on a knowledge-graph score. There are no trials, no supporting literature and no identifiable mechanistic link. As a systemic photosensitizer, verteporfin also raises safety questions in a chronic metabolic indication.
 
 **To proceed, the following is needed:**
-- Retrieve TFDA/HSA package insert warnings and contraindications (DG001, Blocking)
-- Obtain verteporfin's formal mechanism of action from DrugBank (DG002, High)
-- Identify preclinical or mechanistic studies connecting verteporfin/PDT to mitochondrial OXPHOS pathways before advancing this candidate
-- Consider re-evaluating lower-ranked candidates with existing literature support (e.g. rank 10, "retinal dystrophy in systemic or cerebroretinal lipidoses," which has 11 associated publications) as a more evidence-grounded alternative for this drug
+- The HSA package insert, to confirm approved indications, warnings and contraindications (a blocking item for safety screening)
+- Mechanism-of-action data from DrugBank
+- A targeted literature search for verteporfin or YAP-TEAD inhibition in mitochondrial and OXPHOS disease models
+- Any preclinical evidence for this indication, plus a route and formulation compatibility assessment
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

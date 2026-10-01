@@ -33,58 +33,61 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Sevoflurane is an inhalational general anesthetic used to induce and maintain surgical anesthesia. The TxGNN model's top prediction suggests possible efficacy for **Prinzmetal Angina**, but this is currently a **model-only prediction with no supporting clinical trials or literature**, and available data actually points in the opposite direction (inhalational anesthetics are associated with coronary spasm risk, not benefit).
+Sevoflurane is a volatile inhalation anaesthetic used to induce and maintain general anesthesia. The TxGNN model predicts it may be effective for **Prinzmetal angina**, but this is a model prediction only, with **0 clinical trials** and **0 publications** supporting it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available (no approved indication text on file) |
-| Predicted New Indication | Prinzmetal Angina |
+| Original Indication | General anesthesia (inhalation anaesthetic). The Singapore registration records do not list indication text, so this reflects the drug's known class use. |
+| Predicted New Indication | Prinzmetal angina |
 | TxGNN Prediction Score | 99.78% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not marketed (Not marketed) |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on general pharmacological knowledge, Sevoflurane is an inhalational general anesthetic that acts primarily by enhancing inhibitory GABA-A receptor conductance and antagonizing NMDA receptors, producing central nervous system depression and loss of consciousness. It has no established original indication text in this dataset, but its clinical use as a surgical anesthetic is well known.
+Detailed mechanism of action data is not currently available. Based on known information, sevoflurane is a volatile anaesthetic, and its efficacy as a general anaesthetic is well established. Mechanistically, it may have some relevance to vasospastic angina.
 
-There is no coherent mechanistic pathway linking Sevoflurane's central anesthetic action to Prinzmetal angina, which is caused by focal coronary artery vasospasm. In fact, the evidence pack's own rationale notes that some inhalational anesthetics have been clinically associated with **triggering or worsening coronary spasm** — a safety signal that runs counter to, rather than supports, this predicted indication. This top-ranked prediction, along with most of the other nine candidates (Tourette syndrome, fibromyalgia, tendinitis, myositis variants, trichotillomania, migraine, etc.), appears to reflect knowledge-graph node proximity effects rather than genuine pharmacological rationale — none currently have supporting treatment-intent clinical trials, and where literature exists, it discusses Sevoflurane's use *as an anesthetic during surgery* for patients who happen to have these conditions, not its use *to treat* the conditions themselves.
+Prinzmetal angina is caused by coronary artery vasospasm. Sevoflurane is known to have coronary vasodilatory effects, so a link is conceivable. However, volatile anaesthetics are not an established therapy for vasospastic angina, and the score may reflect graph-level associations rather than a documented mechanism. The prediction should be treated as a hypothesis only.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Prinzmetal Angina.
-
-*(Note: Across all 10 predicted indications, only one loosely related trial exists — [NCT03789370](https://clinicaltrials.gov/study/NCT03789370) for migraine disorder — which studies postoperative headache as a side effect of Sevoflurane anesthesia, not treatment efficacy.)*
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for Prinzmetal Angina.
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Sevoflurane has no registered licenses in Singapore (0 registrations, market status: Not marketed/Not marketed). No authorization table is available.
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|------|
+| SIN16819P | NOREVELL INHALATION ANAESTHETIC LIQUID 100% | Inhalant | PT. Novell Pharmaceutical Laboratories |
+| SIN14780P | SOJOURN INHALATION ANAESTHETIC LIQUID 100% | Inhalant | Piramal Critical Care Inc. |
+| SIN08264P | SEVORANE INHALATION | Solution | AbbVie S.r.l. |
+| SIN13741P | Sevoflurane Inhalation Anaesthetic Liquid 100% | Inhalant | Baxter Healthcare Corporation |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-*(Both key warnings and contraindications are marked as data gaps in the source pack; no drug interaction data was found.)*
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This candidate has no clinical trials, no literature, and no plausible mechanistic link supporting Prinzmetal angina as an indication — it is a pure L5 model prediction, and the available safety context (coronary spasm risk with inhalational anesthetics) actively argues against pursuing it. The drug is also not currently marketed in Singapore, and core safety data (warnings, contraindications, MOA) are flagged as blocking data gaps in the source pack.
+The prediction is very high-scoring but has no supporting trials or publications (L5). Sevoflurane is a short-acting inhaled agent given under anesthesia supervision, which makes it a poor practical fit for a chronic outpatient condition such as Prinzmetal angina.
 
 **To proceed, the following is needed:**
-- TFDA/HSA package insert warnings and contraindications (currently blocking data gap, DG001)
-- Confirmed mechanism of action data from DrugBank (DG002)
-- Any preclinical or mechanistic literature specifically linking Sevoflurane to coronary vasospasm modulation (to resolve the apparent contradiction with known coronary spasm risk)
-- Re-evaluation against lower-ranked but better-evidenced candidates (e.g., tendinitis, fibromyalgia) if a repurposing signal is still considered worth pursuing, though these too currently lack treatment-intent evidence
+- HSA package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data, for example from DrugBank
+- Preclinical or clinical evidence showing a therapeutic effect on coronary vasospasm
+- An assessment of route and setting compatibility, since sevoflurane is administered only by inhalation under anesthesia care
+
+**Other predicted indications:** The other top predictions are also Hold. Fibromyalgia, tendinitis, migraine and inclusion body myositis have only indirect literature (L4), such as anesthetic management case reports and a postoperative headache trial. None of these studies evaluates sevoflurane as a treatment for the disease.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

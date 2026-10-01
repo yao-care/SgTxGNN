@@ -33,97 +33,88 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Clozapine is a broad-spectrum atypical antipsychotic, globally recognised as the standard of care for treatment-resistant schizophrenia and psychotic disorders, though it is currently not registered in Singapore.
-The TxGNN model predicts it may be effective for **Manic Bipolar Affective Disorder**,
-with **1 completed Phase 2 double-blind clinical trial**, **1 large-scale ongoing Phase 3 trial**, and **20 publications** currently supporting this direction.
-
----
+Clozapine is an atypical antipsychotic, best known for treatment-resistant schizophrenia.
+The TxGNN model predicts it may be effective for **manic bipolar affective disorder**, with **6 registered clinical trials** (1 directly relevant) and **20 publications** currently supporting this direction.
+Direct evidence is limited to one small completed Phase 2 double-blind trial plus systematic reviews and meta-analyses.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Treatment-resistant schizophrenia / psychotic disorder (internationally approved; not registered in Singapore) |
-| Predicted New Indication | Manic Bipolar Affective Disorder |
+|------|------|
+| Original Indication | Treatment-resistant schizophrenia (general knowledge; the Singapore licence records supplied contain no indication text) |
+| Predicted New Indication | Manic bipolar affective disorder |
 | TxGNN Prediction Score | 99.95% |
 | Evidence Level | L2 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 4 |
 | Recommended Decision | Proceed with Guardrails |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known pharmacological information, Clozapine is an atypical antipsychotic (second-generation) with broad multi-receptor antagonism. Its efficacy in treatment-resistant schizophrenia and psychotic disorders has been firmly established over decades of clinical use, and mechanistically it may be applicable to manic bipolar affective disorder through overlapping neurotransmitter pathways.
+Currently, detailed mechanism of action data is not available. Clozapine is generally described as a multi-receptor antagonist (D2, 5-HT2A and others). This is background knowledge, not part of the supplied data. That broad receptor profile is plausibly relevant to mania, especially in patients who do not respond to, or cannot tolerate, conventional treatment.
 
-The mechanistic rationale described in this evidence pack highlights three key pharmacological pillars relevant to mania: (1) dopamine D2/D4 receptor antagonism — providing dose-dependent, rapid antimanic effects by suppressing mesocortical and mesolimbic dopaminergic hyperactivation that underlies manic episodes; (2) serotonin 5-HT2A antagonism — contributing to mood stabilisation and reducing psychotic features commonly co-occurring with severe mania; and (3) α1-adrenergic antagonism — attenuating the agitation and hyperarousal characteristic of acute manic states. Compared to standard bipolar disorder, manic-phase treatment demands faster onset of action, making clozapine's broad receptor profile particularly relevant for treatment-resistant cases.
+The trial that best fits this prediction is a double-blind Phase 2 study of clozapine in treatment-resistant mania. Its stated rationale is that many manic patients respond poorly to standard therapy or cannot tolerate effective doses. Systematic reviews and meta-analyses of clozapine in bipolar disorder also exist, and a 2023 Asian prescribing-pattern study shows real-world use.
 
-Both manic bipolar affective disorder and treatment-resistant schizophrenia share overlapping pathophysiological features — dopaminergic hyperactivation, glutamatergic dysregulation, and impaired prefrontal inhibitory control — giving strong biological plausibility to this prediction. Multiple systematic reviews and meta-analyses (PMID 32182485, PMID 25346322) have directly evaluated clozapine in treatment-resistant bipolar disorder, and a 2023 Asian consortium study (PMID 37068038) confirmed active real-world prescribing of clozapine for bipolar disorder across Singapore-adjacent territories including Taiwan, confirming that this clinical extrapolation is already taking place in regional practice.
-
----
+The TxGNN score is very high, but it is a model prediction only. The supporting clinical data are small and mostly in treatment-resistant populations. Any use would need to stay restricted to those patients.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|-----------|--------------|
-| [NCT00029458](https://clinicaltrials.gov/study/NCT00029458) | Phase 2 | Completed | 42 | Double-blind RCT directly evaluating clozapine's safety and efficacy in treatment-resistant mania; examines pathophysiology of the manic phase of bipolar disorder — the only dedicated Phase 2 controlled trial for this indication |
-| [NCT05603104](https://clinicaltrials.gov/study/NCT05603104) | Phase 3 | Recruiting | 1,254 | Large-scale RCT of intensified pharmacological treatment in patients failing first-line therapy for schizophrenia, MDD, and bipolar depression; bipolar disorder cohort provides relevant comparative data |
-| [NCT07047651](https://clinicaltrials.gov/study/NCT07047651) | Phase 4 | Recruiting | 40 | Evaluates pharmacotherapy combined with the RECOVERYTRSBDGR recovery programme specifically designed for treatment-resistant bipolar disorder |
-| [NCT06993662](https://clinicaltrials.gov/study/NCT06993662) | Phase 1 | Active, Not Recruiting | 107 | Combination of pharmacotherapy and individual cognitive behavioural therapy in mental health disorders including bipolar spectrum conditions |
-| [NCT03651674](https://clinicaltrials.gov/study/NCT03651674) | N/A | Unknown | 200 | Longitudinal MRI study of ECT effects in schizophrenia and bipolar disorder; investigates neuroimaging markers predictive of treatment outcomes |
-| [NCT07398365](https://clinicaltrials.gov/study/NCT07398365) | N/A | Recruiting | 100 | Observational phenotyping of NHS general adult psychiatry inpatients; provides real-world morbidity data in a population that includes bipolar disorder |
+|---------|------|------|------|---------|
+| [NCT00029458](https://clinicaltrials.gov/study/NCT00029458) | Phase 2 | Completed | 42 | Double-blind study of clozapine efficacy and pathophysiology in treatment-resistant mania. Directly relevant, but small. |
+| [NCT05603104](https://clinicaltrials.gov/study/NCT05603104) | Phase 3 | Recruiting | 1254 | Intensified pharmacological treatment after first-line failure in schizophrenia, major depression and bipolar depression. No results yet, and the population appears schizophrenia-focused. |
+| [NCT07047651](https://clinicaltrials.gov/study/NCT07047651) | Phase 4 | Recruiting | 40 | Recovery-oriented programmes added to pharmacotherapy in treatment-resistant schizophrenia and bipolar disorder. Clozapine is not the tested intervention. |
+| [NCT06993662](https://clinicaltrials.gov/study/NCT06993662) | Phase 1 | Active, not recruiting | 107 | Pharmacotherapy combined with cognitive behavioural therapy. Clozapine is not the tested intervention. |
+| [NCT03651674](https://clinicaltrials.gov/study/NCT03651674) | N/A | Unknown | 200 | MRI study of electroconvulsive therapy in schizophrenia and bipolar disorder. Not a clozapine efficacy test. |
+| [NCT07398365](https://clinicaltrials.gov/study/NCT07398365) | N/A | Recruiting | 100 | Observational medical phenotyping of psychiatric inpatients. Not an efficacy study. |
 
----
+Two further trials appear under the broader bipolar disorder entry and are relevant to this question:
+- [NCT00036582](https://clinicaltrials.gov/study/NCT00036582): Phase 3, completed, n=116, clozapine vs placebo in treatment-refractory bipolar disorder in children and adolescents.
+- [NCT06011460](https://clinicaltrials.gov/study/NCT06011460): observational safety registry of clozapine in bipolar disorder, n=30, enrolling by invitation.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [32182485](https://pubmed.ncbi.nlm.nih.gov/32182485/) | 2020 | Systematic Review / Meta-analysis | Journal of Psychiatric Research | Directly assessed clinical efficacy and adverse effect profile of clozapine in bipolar disorder; highest-tier direct evidence for this indication |
-| [25346322](https://pubmed.ncbi.nlm.nih.gov/25346322/) | 2015 | Systematic Review | Bipolar Disorders | Systematically evaluated the efficacy and safety of clozapine specifically for treatment-resistant bipolar disorder (TRBD); key reference for prescribing guidance |
-| [33719158](https://pubmed.ncbi.nlm.nih.gov/33719158/) | 2021 | Narrative Review | Bipolar Disorders | Reviewed the current state of evidence for clozapine in bipolar disorder and identified future research priorities; calls for prospective controlled trials |
-| [31488793](https://pubmed.ncbi.nlm.nih.gov/31488793/) | 2019 | Review | Psychiatria Danubina | Highlighted clozapine as a promising treatment for suicidality in bipolar disorder, leveraging its unique anti-aggressive and anti-impulsive pharmacological properties |
-| [37068038](https://pubmed.ncbi.nlm.nih.gov/37068038/) | 2023 | Cross-sectional Cohort | Journal of Clinical Psychopharmacology | Asian Psychotropic Prescription Patterns Consortium Study documenting real-world clozapine use for bipolar disorder across Taiwan, Singapore and other Asian territories |
-| [33460070](https://pubmed.ncbi.nlm.nih.gov/33460070/) | 2020 | Review | Acta Psychiatrica Scandinavica | Evidence-based treatment algorithm for acute bipolar mania; discusses the role of antipsychotics including clozapine for treatment-resistant presentations |
-| [31567198](https://pubmed.ncbi.nlm.nih.gov/31567198/) | 2021 | Clinical Study | American Journal of Therapeutics | Examined rapid clozapine titration protocols in both schizophrenia and bipolar disorder; practical implementation guidance with safety data |
-| [16432528](https://pubmed.ncbi.nlm.nih.gov/16432528/) | 2006 | Review | Molecular Psychiatry | Comprehensive review of treatment-resistant bipolar disorder; positions clozapine among second-generation antipsychotics for refractory cases |
-| [12392350](https://pubmed.ncbi.nlm.nih.gov/12392350/) | 2002 | Review | Journal of Clinical Psychiatry | Reviewed long-term use of antipsychotics including clozapine in bipolar disorder; discusses mood-stabilising properties vs. side-effect profile |
-| [11280956](https://pubmed.ncbi.nlm.nih.gov/11280956/) | 2001 | Review | Bulletin of the Menninger Clinic | Early foundational review of pharmacotherapy options for treatment-resistant bipolar disorder; contextualises clozapine within the broader treatment landscape |
-
----
+|------|-----|------|------|---------|
+| [32182485](https://pubmed.ncbi.nlm.nih.gov/32182485/) | 2020 | Systematic review/Meta-analysis | J Psychiatr Res | Assesses clozapine's clinical efficacy in bipolar disorder and its adverse-effect profile. |
+| [25346322](https://pubmed.ncbi.nlm.nih.gov/25346322/) | 2015 | Systematic review | Bipolar Disord | Evaluates the efficacy and safety of clozapine in treatment-resistant bipolar disorder. |
+| [34552059](https://pubmed.ncbi.nlm.nih.gov/34552059/) | 2021 | Meta-review | Transl Psychiatry | Quantitative meta-review of clozapine efficacy, tolerability and adverse-event management in psychotic disorders. |
+| [33719158](https://pubmed.ncbi.nlm.nih.gov/33719158/) | 2021 | Review | Bipolar Disord | Summarises what is known about clozapine in bipolar disorder and what research is still needed. |
+| [37068038](https://pubmed.ncbi.nlm.nih.gov/37068038/) | 2023 | Cohort/Prescribing-pattern study | J Clin Psychopharmacol | Asian multi-country study of clozapine use in bipolar disorder. |
+| [31567198](https://pubmed.ncbi.nlm.nih.gov/31567198/) | 2021 | Clinical study | Am J Ther | Rapid clozapine titration in schizophrenia and bipolar disorder. |
+| [31488793](https://pubmed.ncbi.nlm.nih.gov/31488793/) | 2019 | Review/Commentary | Psychiatr Danub | Clozapine as a promising option for suicidality in bipolar disorder. |
+| [33460070](https://pubmed.ncbi.nlm.nih.gov/33460070/) | 2020 | Review | Acta Psychiatr Scand | Evidence-based options for managing bipolar mania. |
+| [16432528](https://pubmed.ncbi.nlm.nih.gov/16432528/) | 2006 | Review | Mol Psychiatry | Treatment-resistant bipolar disorder and the options available. |
+| [10682225](https://pubmed.ncbi.nlm.nih.gov/10682225/) | 2000 | Case series review | Clin Neuropharmacol | 36 patients given combined ECT and clozapine. 67% benefited, and adverse reactions occurred in 16.6%. |
 
 ## Singapore Market Information
 
-Clozapine (DrugBank: DB00363) currently has **no registered products** in Singapore. No HSA (Health Sciences Authority) product authorisation has been identified for this compound.
-
-Clinicians wishing to use clozapine in Singapore would need to access it through the **Special Access Route (SAR)** administered by HSA, or via institutional compassionate-use pathways, with mandatory documentation of treatment resistance and risk-benefit justification.
-
----
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN11384P | CLOZAPINE TABLET 100 mg | Tablet | Rottendorf Pharma GmbH / Synthon Hispania, S.L. |
+| SIN11497P | CLOZAPINE TABLET 25 mg | Tablet | Rottendorf Pharma GmbH / Synthon Hispania, S.L. |
+| SIN07235P | CLOZARIL TABLET 100 mg | Tablet, film coated | Madaus GmbH |
+| SIN07234P | CLOZARIL TABLET 25 mg | Tablet, film coated | Madaus GmbH |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: no interaction records were found in the supplied data.
 
-> **Important note:** Safety data including key warnings, contraindications, and drug-drug interactions were not available in this Evidence Pack for Singapore-specific regulatory review. Clozapine is internationally well-known for serious risks that require active management — including **agranulocytosis** (mandatory weekly/biweekly CBC monitoring), **seizure risk** (dose-dependent), **myocarditis/cardiomyopathy** (early monitoring essential), **metabolic syndrome** (weight gain, hyperglycaemia, dyslipidaemia), and **severe sedation and orthostatic hypotension** during titration. A full review of the FDA or EMA-approved package insert is strongly recommended before any prescribing decision.
-
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-One completed Phase 2 double-blind RCT directly evaluating clozapine in treatment-resistant mania (NCT00029458, n=42), together with two dedicated systematic reviews on clozapine in bipolar disorder and consistent real-world prescribing evidence from the Asian region, provides sufficient L2 evidence to warrant cautious clinical advancement — specifically in patients with treatment-resistant manic bipolar disorder who have failed standard mood stabilisers and at least two antipsychotics.
+A completed Phase 2 double-blind trial, a completed Phase 3 paediatric trial and meta-analyses support clozapine in treatment-resistant bipolar mania. The trials are small, and the only recruiting Phase 3 trial is schizophrenia-focused and has no results. Use should stay limited to treatment-resistant cases under strict safety monitoring.
 
 **To proceed, the following is needed:**
-- Obtain and review the full international package insert (FDA/EMA label) to complete the safety gap (DG001: TFDA warnings/contraindications)
-- Retrieve DrugBank mechanism-of-action data (DG002) to strengthen mechanistic analysis and patient stratification rationale
-- Establish a mandatory haematological monitoring programme (CBC/WBC) prior to initiation, consistent with international clozapine registry requirements
-- Confirm HSA Special Access Route (SAR) eligibility for unlicensed use in Singapore and prepare the required clinical justification documentation
-- Define a narrow target population: recommend restricting use to treatment-resistant manic bipolar disorder patients who have failed ≥2 guideline-concordant treatments
-- Clarify the drug interaction profile with common co-medications in bipolar disorder (lithium, valproate, carbamazepine) given the absence of DDI data in this pack
-- Design a prospective local pharmacovigilance protocol to collect Singapore-specific safety and efficacy data given the absence of local registration records
+- HSA package insert warnings and contraindications, which are currently missing and block safety screening.
+- Mechanism of action data from DrugBank.
+- Confirmation of published results for NCT00029458 and NCT00036582.
+- A monitoring plan covering absolute neutrophil count (agranulocytosis), myocarditis, seizure and metabolic risk.
+- Clarification of the Singapore labelled indication, since the licence records supply no indication text.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

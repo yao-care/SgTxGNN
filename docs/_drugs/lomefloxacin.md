@@ -33,91 +33,67 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Lomefloxacin is a second-generation fluoroquinolone antibiotic, belonging to a class of broad-spectrum antibacterials that act by inhibiting bacterial DNA gyrase and topoisomerase IV enzymes, historically used for urinary tract and respiratory tract infections.
-The TxGNN model predicts it may be effective for **Laryngotracheitis (croup)**, with **0 clinical trials** and **0 publications** currently supporting this direction — making this a purely model-driven hypothesis at the earliest exploratory stage.
-Notably, several other top-ranked predictions appear to reflect **known adverse effects** of fluoroquinolones (QT prolongation, aortic aneurysm) rather than therapeutic opportunities, raising important questions about model signal interpretation.
-
----
+Lomefloxacin is a fluoroquinolone antibiotic that acts against bacteria. The TxGNN model predicts it may be effective for **laryngotracheitis**, but there are currently **0 clinical trials** and **0 publications** supporting this direction. This is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Broad-spectrum bacterial infections (UTI, lower respiratory tract infections) |
-| Predicted New Indication | Laryngotracheitis (Croup) |
+|------|------|
+| Original Indication | Not stated in the Singapore registration record (lomefloxacin is a fluoroquinolone antibacterial, i.e. bacterial infections) |
+| Predicted New Indication | Laryngotracheitis |
 | TxGNN Prediction Score | 99.61% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Research Question |
-
----
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on known pharmacological class, Lomefloxacin is a second-generation fluoroquinolone antibiotic that inhibits bacterial DNA gyrase (topoisomerase II) and topoisomerase IV — enzymes essential for bacterial DNA replication and repair. This results in broad-spectrum bactericidal activity covering Gram-negative organisms (including *Haemophilus influenzae*, *Moraxella catarrhalis*) and some Gram-positive pathogens relevant to respiratory tract infections.
+Detailed mechanism of action data is not available in the Evidence Pack. Based on known information, lomefloxacin is a fluoroquinolone. This class inhibits bacterial DNA gyrase and topoisomerase IV, which are enzymes essential for bacterial DNA replication. Activity against bacterial laryngotracheitis or tracheitis is therefore biologically plausible.
 
-Laryngotracheitis, commonly known as croup, is predominantly caused by parainfluenza viruses (types 1 and 2), with secondary bacterial superinfection occurring in a minority of severe or prolonged cases. The TxGNN prediction likely reflects the fluoroquinolone class's well-established coverage of respiratory bacterial pathogens and the knowledge graph edges connecting this drug class to upper and lower respiratory tract infection nodes — rather than a specific mechanistic link to croup pathophysiology. This represents a class-level association rather than a disease-specific therapeutic rationale.
+There are important limits to this reasoning. Most laryngotracheitis (croup) is caused by viruses, which an antibacterial drug does not treat. Better-studied antibiotics are also available. Fluoroquinolones carry known safety concerns, including tendinopathy, QT prolongation and phototoxicity. The prediction is currently a research question, not an evidence-backed candidate.
 
-The biological plausibility is therefore limited and indirect: lomefloxacin could theoretically be useful only in the uncommon scenario of bacterial superinfection complicating croup, but fluoroquinolones are not guideline-recommended for this indication, and the primary viral etiology would not respond to antibiotic treatment.
-
----
-
-## ⚠️ Safety Signal Review — Adverse Effect Predictions
-
-A critical observation from this evidence pack: **8 out of 10 top TxGNN predictions involve cardiac conditions**, and multiple entries explicitly flag that these predictions likely represent **fluoroquinolone adverse effect pathways** captured in the knowledge graph, not therapeutic opportunities:
-
-| Rank | Predicted Disease | Signal Type | Key Concern |
-|------|------------------|-------------|-------------|
-| 3 | Heart Conduction Disease | ⛔ Reverse Safety Signal | Fluoroquinolones cause QTc prolongation via hERG channel blockade; may induce Torsades de Pointes |
-| 10 | Heart Aneurysm | ⛔ FDA Black Box Warning | FDA 2018 black box warning: fluoroquinolones increase aortic aneurysm and dissection risk via MMP activation and collagen degradation |
-| 6 | Pericardium Disease | ⚠️ Potential Harm | Fluoroquinolones have been associated with drug-induced pericarditis |
-| 9 | Myocardial Rupture | ⚠️ Potential Harm | Fluoroquinolone collagen synthesis inhibition may worsen tissue fragility |
-
-These predictions should be interpreted as **contraindications or cautions** discovered via adverse drug reaction–disease knowledge graph paths — not as repurposing leads.
-
----
+The other nine predictions in the pack are all cardiac conditions, such as heart valve disease, heart conduction disease and heart aneurysm. They have scores of 0.992–0.994 and are also L5 with a Hold recommendation. For several of them, the fluoroquinolone class warnings (valve regurgitation, QT prolongation, aortic aneurysm) point toward potential harm rather than benefit. They are likely knowledge-graph artifacts.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Lomefloxacin in any of the 10 predicted indications.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for Lomefloxacin in any of the 10 predicted indications.
+Currently no related literature available.
 
----
+## Singapore Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN10847P | LOMFLOX TABLET 400 mg (IPCA Laboratories Ltd) | Tablet, film coated | Not stated in the registration record |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+The Evidence Pack contains no drug-specific warnings, contraindications or interaction records for lomefloxacin. The prediction rationale notes these fluoroquinolone class-level concerns:
 
-Based on known fluoroquinolone class effects (independent of the data pack), the following class-level cautions are relevant for this evaluation:
+- **Tendon effects**: tendinopathy and tendon rupture
+- **Cardiac effects**: QT prolongation via hERG channel blockade, and a regulatory warning for heart valve regurgitation
+- **Vascular effects**: increased risk of aortic aneurysm and dissection
+- **Skin effects**: phototoxicity
 
-- **QT Prolongation**: Fluoroquinolones block hERG potassium channels; lomefloxacin carries QTc prolongation risk. Contraindicated with other QT-prolonging agents.
-- **Aortic Aneurysm/Dissection**: FDA Black Box Warning (2018) applies to all systemic fluoroquinolones, including lomefloxacin. Avoid in patients with known aortic aneurysm or risk factors.
-- **Tendinopathy/Tendon Rupture**: Class Black Box Warning; risk increased with corticosteroid co-use and in elderly patients.
-- **Photosensitivity**: Lomefloxacin has notably high photosensitivity risk compared to other fluoroquinolones — a class-differentiating safety concern.
-- **CNS Effects**: Seizures, confusion, and peripheral neuropathy are class-level risks.
-
----
+Please refer to the package insert for full safety information.
 
 ## Conclusion and Next Steps
 
-**Decision: Research Question (Hold for Most Cardiac Predictions)**
+**Decision: Hold**
 
 **Rationale:**
-For the top-ranked indication (laryngotracheitis), this is a model-prediction-only signal (L5) with no supporting clinical trials or literature. The biological rationale is class-level and indirect, as croup is a viral condition where antibiotics have no primary role. For the cardiac predictions (ranks 2–10), the weight of evidence suggests these represent **adverse effect associations** rather than therapeutic opportunities — several are explicitly contraindicated based on known fluoroquinolone pharmacology.
+The prediction has a high model score (99.61%) but no supporting trials or literature. The main indication is mostly viral, and fluoroquinolone safety concerns and better-studied alternatives count against it.
 
-**To proceed with laryngotracheitis as a research question, the following is needed:**
+**To proceed, the following is needed:**
+- The package insert warnings and contraindications from the HSA (a blocking gap for safety screening)
+- Detailed mechanism of action data (MOA) and the original approved indications
+- Any clinical or preclinical evidence for lomefloxacin in bacterial laryngotracheitis or tracheitis
+- A risk-benefit comparison against established antibiotics
 
-- Confirm mechanism of action data via DrugBank API (DG002 data gap)
-- Literature review on fluoroquinolone use in bacterial tracheitis or croup superinfection (narrative review, not captured in evidence pack query)
-- Clarify whether TxGNN cardiac predictions are being correctly classified as adverse-drug-reaction nodes vs. therapeutic-indication nodes in the knowledge graph — this may indicate a model calibration issue for this drug class
-- Expert pharmacological consultation on fluoroquinolone class appropriateness for upper respiratory indications given the unfavorable safety profile (QT prolongation, tendinopathy, photosensitivity)
-- Singapore market assessment: Drug is currently not marketed; registration pathway evaluation would be required before any clinical development consideration
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

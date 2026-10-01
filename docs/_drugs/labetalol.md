@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Labetalol
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 565
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 ---
 
 # Labetalol
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,79 +33,72 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Labetalol is a combined alpha-1 and non-selective beta-adrenergic blocker, clinically established for hypertension management and hypertensive emergencies.
-The TxGNN model predicts it may be effective for **Malignant Renovascular Hypertension**, with **0 clinical trials** and **2 case report publications** currently supporting this direction.
-Overall evidence is limited to mechanistic rationale and incidental case observations, warranting a hold pending further dedicated investigation.
-
----
+Labetalol is an alpha- and beta-blocking antihypertensive, marketed in Singapore as an injection and a tablet.
+The TxGNN model predicts it may be effective for **malignant renovascular hypertension**.
+Currently there are **0 clinical trials** and only **2 case reports** supporting this direction, so it is a research question rather than an established use.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Hypertension / Hypertensive Emergency |
-| Predicted New Indication | Malignant Renovascular Hypertension |
+|------|------|
+| Original Indication | Not recorded (the approved indication text in the Singapore registrations is blank; hypertension is inferred from the drug class) |
+| Predicted New Indication | Malignant renovascular hypertension |
 | TxGNN Prediction Score | 99.08% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 (case reports only, no trials) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the DrugBank source. Based on established pharmacological knowledge, Labetalol belongs to the combined alpha-1 / non-selective beta-adrenergic blocker class. Its antihypertensive action operates through two complementary pathways: alpha-1 blockade reduces peripheral vascular resistance by relaxing arteriolar smooth muscle, while beta-blockade decreases heart rate and cardiac output. This dual mechanism makes it effective for rapid blood pressure reduction in hypertensive crises, including intravenous administration in emergency settings.
+Currently, detailed mechanism of action data is not available in the source record. Based on known pharmacology, labetalol combines alpha-1 and non-selective beta blockade, which lowers vascular resistance and heart rate. It is already used clinically in hypertensive emergencies.
 
-Malignant renovascular hypertension is a severe, end-organ-threatening condition arising from renal artery stenosis, characterised by markedly elevated blood pressure and excessive renin-angiotensin-aldosterone system (RAAS) activation. Labetalol's beta-blockade component can suppress renin release from juxtaglomerular cells, theoretically interrupting the RAAS feedback loop. Combined with alpha-1 mediated vasodilation, this provides a mechanistically rational dual-target approach specifically relevant to the renovascular pathophysiology driving this condition.
+Renovascular hypertension is driven by the renin-angiotensin system, so beta-blockade, which reduces renin release, may add benefit. In that sense, the predicted indication is a more severe and more specific form of the condition the drug is already used for.
 
-The two retrieved publications each describe patients with malignant hypertension involving renal vascular abnormalities, in which labetalol was used for acute blood pressure control. While neither study was designed to formally evaluate labetalol for this specific indication, both cases demonstrate clinical feasibility. An important caution is that labetalol clearance may be reduced in renal impairment — a common comorbidity in this patient population — requiring careful dose titration.
-
----
+The TxGNN score is very high (rank 9,960 in the model), but the same score is given to the neighbouring entry "malignant hypertensive renal disease". This suggests a shared graph neighbourhood rather than independent evidence.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for malignant renovascular hypertension.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [7242419](https://pubmed.ncbi.nlm.nih.gov/7242419/) | 1981 | Case Report | The Medical Journal of Australia | 20-year-old male with hallucinogenic drug-induced vasculitis presenting as malignant hypertension; renal angiography showed arteritic changes and renal cortical infarction. Labetalol achieved impressive initial blood pressure control; prednisone resolved the arteritis. |
-| [15113447](https://pubmed.ncbi.nlm.nih.gov/15113447/) | 2004 | Case Report | BMC Nephrology | 18-month-old child with hyponatremic hypertensive syndrome (HHS) secondary to renovascular disease, presenting as malignant hypertension — a rare paediatric manifestation. Highlights the clinical complexity of managing malignant renovascular hypertension across age groups. |
+|------|-----|------|------|---------|
+| [7242419](https://pubmed.ncbi.nlm.nih.gov/7242419/) | 1981 | Case report | Med J Aust | A 20-year-old man with malignant hypertension and renal arteritis after hallucinogen use. Blood pressure was controlled initially with minoxidil and labetalol, and the arteritis resolved with prednisone. |
+| [15113447](https://pubmed.ncbi.nlm.nih.gov/15113447/) | 2004 | Case report | BMC Nephrol | An 18-month-old child with hyponatremic hypertensive syndrome presenting as malignant hypertension. The abstract provided does not mention labetalol. |
 
----
+Both are single-patient reports. They do not show that labetalol is effective for this condition.
 
 ## Singapore Market Information
 
-Labetalol is currently **not registered** in Singapore. No product authorisations, approved indications, or dosage forms are on record with HSA.
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN02281P | TRANDATE INJECTION 100 mg/20 ml (UBI Pharma Inc) | Injection |
+| SIN05162P | TRANTALOL TABLET 100 mg (Duopharma (M) Sdn Bhd) | Tablet |
 
----
+Both routes (injectable and oral) are available. Approved indication text is not listed in the registration records.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
-> **Note:** Package insert warnings and contraindications were not available in this evidence pack (Data Gap DG001). Drug-drug interaction data query returned no results. Before any clinical use or trial planning, a full safety review via the originator product monograph (e.g., Trandate® or equivalent) is required, with particular attention to beta-blocker contraindications (asthma, decompensated heart failure, second/third-degree AV block) and the requirement for dose adjustment in renal impairment.
-
----
+Please refer to the package insert for safety information. No drug-interaction records were found in the source data.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Although the TxGNN model assigns a high prediction score (99.08%) and the mechanistic link between labetalol's dual adrenergic blockade and renovascular hypertension pathophysiology is scientifically plausible, the supporting evidence consists solely of two decades-old incidental case reports with no dedicated clinical trials. Additionally, labetalol is not currently registered in Singapore, and key safety data (package insert warnings, contraindications) remain unverified.
+The prediction is mechanistically plausible, and labetalol is already used in severe hypertension. However, evidence consists only of two case reports, with no clinical trials. The high model score is shared with a neighbouring entry and is not independently corroborated.
 
 **To proceed, the following is needed:**
-- Retrieve and review the full product monograph / package insert warnings and contraindications (DG001 — Blocking severity)
-- Obtain complete MOA data from DrugBank API (DG002 — High severity)
-- Conduct a systematic literature review specifically targeting labetalol or combined alpha/beta-blockers in renovascular or malignant hypertension
-- Assess pharmacokinetic profile of labetalol in patients with renal impairment, given that malignant renovascular hypertension commonly presents with concurrent renal dysfunction
-- Evaluate Singapore regulatory pathway requirements for labetalol market entry or compassionate use, given zero current registrations
-- Design a registry-based or retrospective observational study as a precursor to any prospective trial
+- The Singapore package insert (warnings, contraindications) to complete safety screening
+- Confirmed mechanism of action data from DrugBank
+- Controlled or observational data on labetalol in renovascular or malignant hypertension
+- Confirmation of the registered indication text for both Singapore licences
+
+Of the other predicted indications, open-angle glaucoma has slightly more direct support (a 1981 study reporting an ocular hypotensive effect in rabbit and human eyes), but this is early, small-scale evidence.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

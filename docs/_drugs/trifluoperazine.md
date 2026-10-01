@@ -29,90 +29,81 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-Using the evidence pack as provided (no external assumptions beyond what appears in the literature/JSON), here is the report:
-
-# Trifluoperazine: From Psychotic Disorders to Manic Bipolar Affective Disorder
+# Trifluoperazine: From Antipsychotic Use to Manic Bipolar Affective Disorder
 
 ## One-Sentence Summary
 
-> Trifluoperazine is a phenothiazine-class antipsychotic, historically used for psychotic disorders such as schizophrenia (as referenced throughout the supporting literature, though not separately confirmed by a formal indication record in this evidence pack).
-> The TxGNN model predicts it may be effective for **Manic Bipolar Affective Disorder**,
-> with **0 clinical trials** and **20 publications** currently supporting this direction — evidence remains largely mechanistic and historical rather than confirmatory.
-
----
+Trifluoperazine is a high-potency phenothiazine antipsychotic that is marketed in Singapore as a 5 mg tablet.
+The TxGNN model predicts it may be effective for **manic bipolar affective disorder**, with a very high score of 99.5%.
+However, there are **0 clinical trials** and no retrieved publication that directly tests trifluoperazine in mania, so this remains a model-driven research question.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not formally recorded in evidence pack (`original_indications` empty); literature context indicates use as a typical antipsychotic for psychotic disorders/schizophrenia |
-| Predicted New Indication | Manic Bipolar Affective Disorder |
+| Original Indication | Not stated in the Singapore registration record (trifluoperazine is a phenothiazine antipsychotic) |
+| Predicted New Indication | Manic bipolar affective disorder |
 | TxGNN Prediction Score | 99.51% |
 | Evidence Level | L4 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (`original_moa: [Data Gap]`). Based on the supporting literature in this evidence pack, Trifluoperazine belongs to the phenothiazine class of typical antipsychotics. One review directly in the evidence set (PMID 40926568, *J Appl Toxicol* 2026) states that "phenothiazine derivatives have been used for decades as antipsychotic drugs in multiple mental health and physical conditions treatment (schizophrenia, **mania in bipolar disorder**, and psychosis)" — indicating this drug class already has an established, if underdocumented, role in mania management.
+Trifluoperazine blocks dopamine D2 receptors. A dopaminergic hypothesis of mania has been discussed since the 1970s. A 1976 case study found that a dopamine agonist was associated with manic episodes, while the dopamine blocker pimozide had an antimanic effect (PMID 970489). Antipsychotics are also widely used in acute mania, so the biological link is plausible.
 
-Mechanistically, mania has been linked to dopaminergic overactivity: an early case study in the evidence pack (PMID 970489, *Am J Psychiatry* 1976) reports that pimozide, a dopamine receptor blocker, exerted an antimanic effect, supporting a "dopaminergic mechanism in mania." As Trifluoperazine is also a dopamine receptor antagonist, this provides a plausible pharmacological rationale for its potential antimanic activity, consistent with the TxGNN prediction. A 1963 double-blind study (PMID 14084030) further documents Trifluoperazine's real-world use in combination regimens for mood-disorder maintenance, suggesting prior clinical familiarity with this drug in affective illness, even though it was not the primary study endpoint.
+The caveat is that none of the retrieved literature tests trifluoperazine in mania. The papers cover other antipsychotics, adverse-event reports and class-level safety reviews. The high TxGNN score is probably driven by class similarity to antipsychotics already used in mania. It should be read as a prediction, not as clinical evidence.
 
-Overall, the connection between the original antipsychotic use and the predicted manic bipolar indication is biologically coherent (shared dopaminergic mechanism, same drug class already used off-label in mania), but the supporting evidence consists mainly of older case reports, narrative reviews, and drug-class commentary rather than dedicated randomized trials in bipolar mania.
+Detailed mechanism-of-action data for trifluoperazine are not currently available in the evidence pack, so the mechanistic argument above rests on its known drug class.
 
----
+The other nine predictions (myopia variants, retinal dystrophy, polymicrogyria, Charcot-Marie-Tooth type 1G, a glycosylation disorder, hydranencephaly and atypical glycine encephalopathy) have scores of 95.7–97.3%. They have no trials, no relevant literature and no plausible mechanism, and are all rated L5 / Hold.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
+
+No randomized controlled trial was retrieved. The papers below are indirect: most concern other antipsychotics or general class safety, not trifluoperazine in mania.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [14084030](https://pubmed.ncbi.nlm.nih.gov/14084030/) | 1963 | Double-blind study | Current Ther Res Clin Exp | Withdrawal of trifluoperazine from patients maintained on tranylcypromine + trifluoperazine combination, evaluated in a double-blind design |
-| [40926568](https://pubmed.ncbi.nlm.nih.gov/40926568/) | 2026 | Review | J Appl Toxicol | States phenothiazine derivatives (incl. trifluoperazine class) have long been used for mania in bipolar disorder, psychosis, and schizophrenia |
-| [17017818](https://pubmed.ncbi.nlm.nih.gov/17017818/) | 2006 | Review | J Clin Psychiatry | Reviews efficacy of typical and atypical antipsychotics for anxiety symptoms co-occurring with bipolar disorder |
-| [24943390](https://pubmed.ncbi.nlm.nih.gov/24943390/) | 2014 | Cross-sectional survey | J Clin Psychopharmacol | Documents real-world prescribing patterns of antipsychotics (including for bipolar affective disorder) in psychiatric inpatients |
-| [970489](https://pubmed.ncbi.nlm.nih.gov/970489/) | 1976 | Case study | Am J Psychiatry | Supports a dopaminergic mechanism in mania; dopamine-blocking agents show antimanic effect |
-| [6636782](https://pubmed.ncbi.nlm.nih.gov/6636782/) | 1983 | Case study | Wien Klin Wochenschr | MAO inhibitor plus lithium/neuroleptic combinations in rapid-cycling bipolar manic-depressive patients |
-| [3935307](https://pubmed.ncbi.nlm.nih.gov/3935307/) | 1985 | Case report | Can J Psychiatry | Case of bipolar disorder in an adolescent, treatment and differential diagnosis discussed |
-| [2102674](https://pubmed.ncbi.nlm.nih.gov/2102674/) | 1990 | Case report | Br J Psychiatry | Neuroleptic malignant syndrome following trifluoperazine + carbamazepine overdose |
-| [14309092](https://pubmed.ncbi.nlm.nih.gov/14309092/) | 1965 | Clinical study | Int J Neuropsychiatry | Evaluates haloperidol (comparator antipsychotic class) in schizophrenic and manic patients |
-| [19461391](https://pubmed.ncbi.nlm.nih.gov/19461391/) | 2009 | Review | J Psychiatr Pract | Reviews use and safety of antipsychotics (including in bipolar-related pregnancies) |
-
----
+| [970489](https://pubmed.ncbi.nlm.nih.gov/970489/) | 1976 | Case study | Am J Psychiatry | A dopamine agonist was associated with manic episodes, while the dopamine blocker pimozide had an antimanic effect, supporting a dopaminergic role in mania |
+| [11279762](https://pubmed.ncbi.nlm.nih.gov/11279762/) | 2001 | Review (Cochrane) | Cochrane Database Syst Rev | Clotiapine, a neuroleptic, used for tranquillisation in acute psychotic illness; not trifluoperazine |
+| [17017818](https://pubmed.ncbi.nlm.nih.gov/17017818/) | 2006 | Review | J Clin Psychiatry | Reviews antipsychotic efficacy for anxiety symptoms, including in bipolar disorder |
+| [40926568](https://pubmed.ncbi.nlm.nih.gov/40926568/) | 2026 | Review | J Appl Toxicol | Phenothiazine derivatives and apoptosis; notes their use in mania in bipolar disorder |
+| [39202628](https://pubmed.ncbi.nlm.nih.gov/39202628/) | 2024 | Systematic review | Medicina (Kaunas) | Oral vertical dyskinesia ("rabbit" syndrome), a drug-induced movement disorder |
+| [19461391](https://pubmed.ncbi.nlm.nih.gov/19461391/) | 2009 | Review | J Psychiatr Pract | Use and safety of antipsychotics during pregnancy |
+| [30601177](https://pubmed.ncbi.nlm.nih.gov/30601177/) | 2021 | Review | Am J Ther | Safety scoring of psychotropic drugs during lactation |
+| [14309092](https://pubmed.ncbi.nlm.nih.gov/14309092/) | 1965 | Clinical study | Int J Neuropsychiatry | Haloperidol in schizophrenic and manic patients; not trifluoperazine |
+| [14084030](https://pubmed.ncbi.nlm.nih.gov/14084030/) | 1963 | Double-blind study | Curr Ther Res | Effects of withdrawing trifluoperazine in patients on tranylcypromine plus trifluoperazine (no abstract available) |
+| [2102674](https://pubmed.ncbi.nlm.nih.gov/2102674/) | 1990 | Case report | Br J Psychiatry | Neuroleptic malignant syndrome-like picture after overdose of trifluoperazine and carbamazepine |
 
 ## Singapore Market Information
 
-Trifluoperazine currently has no marketing authorization recorded in Singapore (`market_status: Not marketed`, `total_licenses: 0`).
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN00289P | AA PHARMA TRIFLUOPERAZINE TABLET 5 mg (Apotex Inc) | Tablet, film coated (oral) | Not listed in the registration record |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Note: this evidence pack flags a **Blocking** data gap (DG001 — TFDA/HSA label warnings and contraindications not yet retrieved), which currently prevents formal safety pre-assessment (S1 stage).
+Please refer to the package insert for safety information.
 
----
+The retrieved literature mentions rare case-level safety signals for the phenothiazine and antipsychotic class. These include neuroleptic malignant syndrome, rabbit syndrome, seizures and EEG changes, and sexual side effects. They are not label-based warnings for this product.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The drug is not currently marketed in Singapore, no clinical trials support the predicted indication, and a **Blocking** safety data gap (missing label warnings/contraindications) prevents entry into the safety pre-assessment stage. Supporting literature is mechanistic/historical rather than confirmatory (Evidence Level L4).
+The only support for this prediction is a high model score and class-level plausibility. There are no trials and no literature that directly tests trifluoperazine in mania. The Singapore package insert, with its warnings and contraindications, has also not yet been reviewed.
 
 **To proceed, the following is needed:**
-- Retrieve official label warnings and contraindications (DG001, Blocking) via HSA/TFDA product insert
-- Obtain confirmed mechanism of action data from DrugBank (DG002)
-- Complete literature classification (currently marked "pending" study type/tier/relevance for all 20 references)
-- Assess feasibility of a Singapore registration pathway before further repurposing work
-- If proceeding, prioritize designing a dedicated clinical study or systematic review specifically evaluating trifluoperazine in bipolar mania, given the absence of direct trial evidence
+- Singapore package insert (warnings, contraindications and approved indication)
+- Detailed mechanism-of-action data from DrugBank
+- Targeted search for trifluoperazine-specific mania studies, and comparison with antipsychotics already approved for acute mania
+- Safety plan covering neuroleptic malignant syndrome, movement disorders and use in vulnerable populations
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

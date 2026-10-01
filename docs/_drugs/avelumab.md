@@ -29,104 +29,78 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Avelumab: From Merkel Cell Carcinoma to Human Herpesvirus 8-Related Tumor
+# Avelumab: From Urothelial Carcinoma to Human Herpesvirus 8-Related Tumor
 
 ## One-Sentence Summary
 
-Avelumab is an anti-PD-L1 monoclonal antibody checkpoint inhibitor, approved internationally for Merkel cell carcinoma and urothelial carcinoma maintenance therapy.
-The TxGNN model predicts it may be effective for **Human Herpesvirus 8 (HHV-8)-Related Tumors** (including Kaposi sarcoma and primary effusion lymphoma),
-with **0 clinical trials** and **0 publications** in the current evidence pack supporting this specific direction — this remains a model-generated hypothesis only.
-
----
+Avelumab is a PD-L1 immune checkpoint antibody marketed in Singapore as Bavencio. The Evidence Pack links it to urothelial carcinoma, though the local registration record itself gives no indication text. The TxGNN model predicts it may be effective for **human herpesvirus 8-related tumor**, but **no clinical trials and no publications** were found for this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Merkel cell carcinoma; urothelial carcinoma (first-line maintenance) *(Note: original_indications field is empty in source data; based on known international approvals)* |
-| Predicted New Indication | Human Herpesvirus 8-Related Tumor |
+|------|------|
+| Original Indication | Not stated in the local registration record (the Evidence Pack elsewhere refers to urothelial carcinoma) |
+| Predicted New Indication | Human herpesvirus 8-related tumor |
 | TxGNN Prediction Score | 99.97% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
----
+## Why is This Prediction Reasonable?
 
-## Why Is This Prediction Reasonable?
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on known information, avelumab blocks PD-L1 and is marketed for urothelial carcinoma. Mechanistically, it may be applicable to virus-driven tumors.
 
-Avelumab is a fully human IgG1 anti-PD-L1 monoclonal antibody. By blocking PD-L1 on tumour cells, it prevents the PD-1/PD-L1 interaction that suppresses cytotoxic T cells, thereby restoring the immune system's ability to recognize and destroy cancer cells. Notably, as an IgG1 antibody, Avelumab also retains the ability to induce antibody-dependent cellular cytotoxicity (ADCC), which distinguishes it mechanistically from other checkpoint inhibitors.
-
-HHV-8 causes oncogenesis primarily through viral proteins that upregulate cellular PD-L1 expression — particularly in Kaposi sarcoma (KS) and primary effusion lymphoma (PEL). This PD-L1 upregulation is a key mechanism by which HHV-8-infected tumour cells evade immune surveillance. On this basis, blocking PD-L1 with Avelumab is mechanistically plausible: restoring T-cell cytotoxicity against virus-transformed cells is conceptually sound.
-
-The analogy to Merkel cell carcinoma (MCC) — Avelumab's primary approved indication — provides additional support. MCC is a virus-associated (Merkel cell polyomavirus) neuroendocrine skin tumour that also relies on PD-L1-mediated immune evasion, and checkpoint inhibition has proven highly effective. HHV-8-associated malignancies share this virus-driven, PD-L1-dependent immune escape biology, making the TxGNN prediction biologically coherent. However, it should be noted that the MOA data field is listed as a data gap in the source pack, and the connection currently rests on known pharmacology rather than data formally submitted to this pipeline.
-
----
+The reasoning is by analogy. PD-L1 blockade could restore T-cell responses against a tumor driven by a virus. Merkel cell carcinoma, which is driven by a different virus, is the precedent. This is a plausible hypothesis, not an established link. No trial or publication on HHV-8-related tumors was provided, and the similarity to the original indication has not yet been assessed.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Avelumab in human herpesvirus 8-related tumor.
-
-> **Note:** External literature outside this evidence pack contains preliminary case reports on checkpoint inhibitors (including PD-1/PD-L1 blockade) in Kaposi sarcoma. A targeted PubMed search is recommended to supplement this gap before advancing to any decision stage.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available within this evidence pack for Avelumab in human herpesvirus 8-related tumor.
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Avelumab has **no Singapore Health Sciences Authority (HSA) registrations**. The drug is not marketed in Singapore as of the data cutoff (2026-04-05).
-
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------------------|-------------|-------------|-------------------|
-| — | — | — | No registrations found |
+|---------|------|------|-----------|
+| SIN15672P | BAVENCIO CONCENTRATE FOR SOLUTION FOR INFUSION 200MG/10ML (MERCK SERONO SA, Aubonne) | Injection, solution, concentrate | Not stated in the registration record |
 
----
+Only an injectable (infusion) form is registered.
 
 ## Cytotoxicity
 
-Avelumab is an antineoplastic agent (immunotherapy class). The following applies:
-
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Immunotherapy — Checkpoint inhibitor (anti-PD-L1 IgG1 monoclonal antibody); not a conventional cytotoxic agent |
-| Myelosuppression Risk | Low (direct myelosuppression is not a primary toxicity; immune-mediated haematological events such as immune thrombocytopenia are possible but uncommon) |
-| Emetogenicity Classification | Minimal to low |
-| Monitoring Items | CBC with differential; liver function tests (ALT, AST, bilirubin); thyroid function (TSH, free T4); renal function; blood glucose; adrenal function if clinically indicated; infusion reaction monitoring during administration |
-| Handling Protection | Standard biologic/monoclonal antibody handling protocols apply; does not require cytotoxic chemotherapy-level containment procedures, but facility-specific biosafety guidelines for IV administration should be followed |
-
----
+|------|------|
+| Cytotoxicity Classification | Immunotherapy (PD-L1 checkpoint inhibitor), not a conventional cytotoxic |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert warnings and precautions |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ## Safety Considerations
 
-Detailed TFDA package insert warnings and contraindications were not available in this evidence pack (Data Gap DG001). Known class-level safety considerations for PD-L1 checkpoint inhibitors include:
-
-- **Immune-Related Adverse Events (irAEs):** Pneumonitis, colitis, hepatitis, endocrinopathies (thyroiditis, adrenal insufficiency, hypophysitis), nephritis, and dermatitis — any of which can be severe or life-threatening
-- **Infusion-Related Reactions:** Premedication with antihistamine and paracetamol is recommended prior to the first four infusions
-- **Special Populations:** Use in patients with active autoimmune disease, immunodeficiency, or those on systemic immunosuppressants requires individual risk-benefit assessment
-
-Please refer to the full Bavencio® (Avelumab) international prescribing information for complete warnings and contraindications.
-
----
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model assigns a high prediction score (99.97%) driven by a mechanistically coherent hypothesis — HHV-8-driven PD-L1 upregulation as a target for Avelumab — but no clinical trials or peer-reviewed literature have been retrieved in this evidence pack to support advancement. This is a pure model-generated signal (Evidence Level L5) requiring hypothesis validation before any clinical or regulatory pathway can be considered.
+The high score (99.97%) comes from the model alone. There are no trials, no literature, and no completed mechanism or route assessment, so this is Evidence Level L5. The blocking data gap is the missing package insert safety information.
 
 **To proceed, the following is needed:**
+- The HSA package insert (warnings, contraindications, approved indications), which is currently blocking safety screening
+- Mechanism of action data, for example from DrugBank
+- A literature and trial search specific to HHV-8-related tumors, such as Kaposi sarcoma
+- Similarity and route compatibility assessment against the original indication
 
-- **Targeted PubMed search:** Search for case reports, retrospective series, or proof-of-concept studies on PD-1/PD-L1 checkpoint inhibitors in Kaposi sarcoma and primary effusion lymphoma (these likely exist outside the current pipeline's capture)
-- **MOA data gap resolution (DG002):** Formally retrieve Avelumab's mechanism of action from DrugBank API to strengthen the mechanistic narrative
-- **Safety data gap resolution (DG001):** Obtain and parse the TFDA or equivalent package insert PDF to complete the S1 safety screen
-- **Singapore regulatory pathway assessment:** Given zero HSA registrations, an independent import/compassionate use or clinical trial IND pathway would be required for any local use
-- **PD-L1 expression evidence in HHV-8 tumours:** Identify published biomarker studies confirming PD-L1 expression in Kaposi sarcoma or PEL tumour tissue to strengthen the translational rationale before escalating to Research Question status
+**Other candidates in the same pack:**
+- Rank 9 (prostatic urethra urothelial carcinoma) and rank 10 (kidney pelvis sarcomatoid transitional cell carcinoma) are urothelial subsites. They have a stronger mechanistic rationale. Rank 10 has one retrospective observational study (NCT05431777, n=79, avelumab maintenance in Japan), which is indirect evidence.
+- Ranks 5–8 are primary immunodeficiencies, with no plausible link to a checkpoint inhibitor. They are probable false positives.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

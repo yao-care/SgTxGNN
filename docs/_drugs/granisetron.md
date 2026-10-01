@@ -33,32 +33,35 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Granisetron is a selective 5-HT₃ (serotonin type 3) receptor antagonist primarily used to prevent nausea and vomiting induced by chemotherapy, radiotherapy, and postoperative settings.
-The TxGNN model predicts it may be effective for **Manic Bipolar Affective Disorder**, with **0 clinical trials** and **0 publications** currently supporting this direction — the prediction rests entirely on model inference from the knowledge graph.
+Granisetron is a 5-HT3 receptor antagonist, and its established use is as an antiemetic (the HSA records supplied do not state an approved indication).
+The TxGNN model predicts it may be effective for **manic bipolar affective disorder**, with a very high score of 99.62%.
+Currently there are **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Prevention of nausea and vomiting caused by chemotherapy, radiotherapy, and surgery |
-| Predicted New Indication | Manic Bipolar Affective Disorder |
+|------|------|
+| Original Indication | Not stated in the supplied HSA records. Granisetron is generally known as an antiemetic for chemotherapy-induced nausea and vomiting. |
+| Predicted New Indication | Manic bipolar affective disorder |
 | TxGNN Prediction Score | 99.62% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Registered |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 7 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on established pharmacological knowledge, Granisetron is a highly selective antagonist of the 5-HT₃ receptor — a ligand-gated ion channel that mediates fast excitatory serotonergic transmission. It exerts its antiemetic effect by blocking 5-HT₃ receptors on peripheral vagal nerve terminals in the gut and centrally in the chemoreceptor trigger zone of the area postrema, suppressing the vomiting cascade triggered by serotonin release during cytotoxic chemotherapy.
+Granisetron is a selective 5-HT3 receptor antagonist. Detailed mechanism-of-action data is not available in the Evidence Pack, so this description comes from the pack's own rationale text.
 
-The theoretical basis for a role in bipolar mania stems from the known involvement of the serotonin system in mood regulation. 5-HT₃ receptors are expressed at relatively high density in limbic structures — including the hippocampus, amygdala, and prefrontal cortex — that govern emotional processing. Antagonising these receptors could, in principle, dampen aberrant serotonergic excitation in circuits implicated in manic episodes. The Evidence Pack rates this mechanistic link as **weak to moderate**: while the anatomical substrate exists, the precise role of 5-HT₃ receptors in bipolar mania remains speculative, and established mood stabilisers (lithium, valproate, atypical antipsychotics) operate through fundamentally different pathways.
+A hypothetical link is that 5-HT3 blockade could modulate serotonergic and dopaminergic signalling in limbic circuits, which are involved in mood regulation. That would be the bridge between an antiemetic and a mood disorder.
 
-Without any published clinical or preclinical data to anchor this prediction, this signal should be treated as a hypothesis-generating observation only. The high TxGNN score is likely driven by the drug's broad serotonergic footprint in the knowledge graph rather than by direct disease-mechanism evidence.
+This link is speculative. No trial or publication was supplied, and the case rests only on the TxGNN score. The original indication and the new one are also not obviously related, and the pack marks their similarity as pending.
+
+The model produced other high-scoring predictions for granisetron. These include Tourette syndrome and trichotillomania, which have a similar serotonergic and dopaminergic rationale. Several others, such as conjunctivitis, bronchitis and nephrogenic syndrome of inappropriate antidiuresis, have no plausible mechanistic link and likely reflect knowledge-graph proximity rather than biology.
 
 ---
 
@@ -76,13 +79,21 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Granisetron is currently **not registered** with the Health Sciences Authority (HSA) of Singapore. No product authorisation has been identified in this dataset.
+Granisetron has 7 registrations in Singapore, in both injectable and oral forms. The five main ones are below. Approved indication text was not provided for any of them.
+
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN16589P | Granodex Solution for Injection 1 mg/ml | Injection, solution |
+| SIN07800P | Kytril Tablet 1 mg | Tablet, film coated |
+| SIN15174P | Emenat Tablets 1 mg | Tablet |
+| SIN14612P | Granisetron-AFT Solution for Injection 1 mg/ml | Injection, solution |
+| SIN07089P | Kytril for Infusion 3 mg/3 ml | Injection |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No drug interactions were found in the supplied query.
 
 ---
 
@@ -91,14 +102,16 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-All evidence for this indication is at Level L5 — TxGNN model prediction only, with zero supporting clinical trials or publications. The mechanistic connection between 5-HT₃ antagonism and bipolar mania is theoretical and rated weak to moderate, and granisetron is not currently registered in Singapore, creating an additional regulatory barrier before any clinical use could be considered.
+The prediction has a very high model score, but no clinical trials or literature support it, and the mechanistic link to mania is only hypothetical. Safety data has also not been reviewed, so the candidate cannot advance beyond the initial screening stage.
 
 **To proceed, the following is needed:**
-- Retrieve full MOA data from DrugBank (DB00889) to complete mechanistic analysis
-- Conduct a broader literature search covering the entire 5-HT₃ antagonist class (ondansetron, tropisetron) in bipolar disorder and mania to assess class-level evidence
-- Identify and review preclinical (animal model) studies examining 5-HT₃ blockade in manic-like behavioural paradigms
-- Obtain TFDA / HSA package insert to assess key warnings, contraindications, and QTc prolongation risk (relevant for psychiatric co-prescribing)
-- Evaluate Singapore HSA regulatory pathway and feasibility of new indication registration
+- The HSA package insert, to obtain the approved indication, warnings and contraindications
+- Detailed mechanism of action data, for example from DrugBank
+- A systematic search of PubMed and trial registries (including ICTRP) for granisetron in bipolar mania, and in Tourette syndrome and trichotillomania, which have more plausible rationales
+- Preclinical or mechanistic evidence for 5-HT3 antagonism in mood disorders
+- A route and dose compatibility assessment for the new indication
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

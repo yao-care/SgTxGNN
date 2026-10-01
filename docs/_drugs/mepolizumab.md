@@ -29,13 +29,13 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Mepolizumab: From Severe Eosinophilic Asthma to Immune Thrombocytopenia
+# Mepolizumab: From Anti-IL-5 Eosinophil Therapy to Thrombocytopenia Due to Immune Destruction
 
 ## One-Sentence Summary
 
-Mepolizumab is an anti-IL-5 monoclonal antibody originally developed for severe eosinophilic asthma and related eosinophilic conditions.
-The TxGNN model predicts it may be effective for **thrombocytopenia due to immune destruction**,
-but this direction is currently supported by only **0 clinical trials** and **1 publication** (a single case report), and the drug is not yet registered in Singapore.
+Mepolizumab is an anti-IL-5 antibody that depletes eosinophils, and it is marketed in Singapore as NUCALA injection.
+The TxGNN model predicts it may help with **thrombocytopenia due to immune destruction**, but so far there are **0 clinical trials** and only **1 publication**, a case report.
+The high score is not backed by direct evidence, so this prediction should be treated as a hypothesis only.
 
 ---
 
@@ -43,29 +43,28 @@ but this direction is currently supported by only **0 clinical trials** and **1 
 
 | Item | Content |
 |------|------|
-| Original Indication | Severe eosinophilic asthma (based on established global product information; no Singapore license record is available to confirm locally) |
 | Predicted New Indication | Thrombocytopenia due to immune destruction |
 | TxGNN Prediction Score | 99.66% |
 | Evidence Level | L4 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 3 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, Mepolizumab is part of the **anti-interleukin-5 (IL-5) monoclonal antibody class**, and its efficacy in severe eosinophilic asthma (and related eosinophil-driven conditions such as EGPA, HES, and CRSwNP) has been well established. Mechanistically, IL-5 blockade suppresses eosinophil proliferation, activation, and survival.
+Mepolizumab blocks interleukin-5 (IL-5), the main signal that keeps eosinophils alive and active. Detailed mechanism-of-action data from DrugBank is not currently available, so this description rests on its known class.
 
-The link to immune-mediated thrombocytopenia is indirect: eosinophil-driven inflammatory states have been reported to coexist with, and in rare cases to trigger, immune-mediated platelet destruction and microangiopathic processes. The one available piece of literature evidence describes a case in which mepolizumab resolved a steroid-resistant hypereosinophilic condition with concomitant improvement of an associated thrombotic microangiopathy — a plausible but non-specific mechanistic bridge rather than direct evidence for immune thrombocytopenia itself.
+The link to immune thrombocytopenia is weak and indirect. Immune platelet destruction is driven mainly by autoantibodies and T cells, not by IL-5-dependent eosinophils. Any benefit would be limited to rare cases where eosinophil-driven immune dysregulation contributes. No direct platelet-destruction mechanism has been shown for mepolizumab.
 
-Because no dedicated clinical trials or case series specifically evaluating mepolizumab in immune thrombocytopenia currently exist, this prediction should be regarded as an early, mechanism-plausible hypothesis rather than a clinically validated repurposing candidate.
+The high TxGNN score probably reflects closeness in the knowledge graph rather than a proven biological link. The other top predictions (for example Glanzmann thrombasthenia, pseudo-von Willebrand disease and neonatal thrombocytopenia) also lack a plausible IL-5 connection. Filariasis is a special case: IL-5 blockade could weaken anti-parasite defence, so it is a potential safety concern rather than a benefit.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ---
 
@@ -73,13 +72,17 @@ Currently no related clinical trials registered
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [28648630](https://pubmed.ncbi.nlm.nih.gov/28648630/) | 2018 | Case report | Blood Cells, Molecules & Diseases | Case report of a patient with atypical hemolytic uremic syndrome-associated hypereosinophilic syndrome; mepolizumab resolved the steroid-resistant hypereosinophilic diathesis with concomitant amelioration of a mixed thrombotic microangiopathy |
+| [28648630](https://pubmed.ncbi.nlm.nih.gov/28648630/) | 2018 | Case report | Blood Cells Mol Dis | A steroid-resistant hypereosinophilic immune disorder resolved with mepolizumab, with improvement of a coexisting mixed thrombotic microangiopathy (atypical HUS context). It does not directly address immune thrombocytopenia. |
 
 ---
 
 ## Singapore Market Information
 
-Mepolizumab is not currently registered or marketed in Singapore — no local authorization records are available.
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN16811P | NUCALA solution for injection in pre-filled syringe 40 mg/0.4 mL | Injection, solution | Glaxo Operations UK Ltd |
+| SIN16172P | NUCALA solution for injection in pre-filled pen 100 mg/mL | Injection, solution | Glaxo Operations UK Ltd |
+| SIN16171P | NUCALA solution for injection in pre-filled syringe 100 mg/mL | Injection, solution | Glaxo Operations UK Ltd |
 
 ---
 
@@ -94,13 +97,15 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-Evidence for this indication currently consists of a single indirectly-related case report with no supporting clinical trials, and the drug is not registered in Singapore. Combined with a Blocking data gap on local safety labeling (DG001) and a High-severity gap on confirmed mechanism-of-action data (DG002), the evidentiary and safety basis is insufficient to proceed at this time.
+The only supporting evidence is a single case report in a different condition (hypereosinophilic disorder with thrombotic microangiopathy), and there are no trials. The mechanism is not plausible for antibody-mediated platelet destruction, and the prediction is probably a knowledge-graph artifact.
 
 **To proceed, the following is needed:**
-- Official Singapore/TFDA-equivalent prescribing information (key warnings, contraindications) to complete the S1 safety screen (resolves DG001)
-- Confirmed mechanism-of-action data from DrugBank or the approved product label (resolves DG002)
-- Dedicated clinical studies (trials or case series) directly evaluating mepolizumab in immune-mediated thrombocytopenia, rather than relying on a single tangentially related case report
-- Ongoing literature monitoring, since current evidence is limited to one publication
+- The HSA package insert (warnings and contraindications), which blocks any safety screening
+- Mechanism-of-action data from DrugBank
+- Direct clinical or mechanistic evidence for mepolizumab in immune thrombocytopenia, for example a subgroup with eosinophil-associated disease
+- Review of the case report to confirm whether platelet counts improved
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

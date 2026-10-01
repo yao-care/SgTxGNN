@@ -29,91 +29,80 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dactinomycin: From Rhabdomyosarcoma to Relapsing-Remitting Multiple Sclerosis
+# Dactinomycin: From Cancer Chemotherapy to Relapsing-Remitting Multiple Sclerosis
 
 ## One-Sentence Summary
 
-Dactinomycin (Actinomycin D) is a cytotoxic antibiotic that has been a cornerstone of pediatric oncology for decades, used as the "A" component of the VAC regimen (Vincristine + Actinomycin D + Cyclophosphamide) for rhabdomyosarcoma, Wilms' tumor, and related solid tumors.
-The TxGNN model predicts it may have relevance in **Relapsing-Remitting Multiple Sclerosis (RRMS)**,
-however, **0 clinical trials** and **0 supporting publications** currently exist for this direction, placing evidence at the lowest possible level.
-
----
+Dactinomycin is a cytotoxic anticancer antibiotic, and the literature in this pack shows it used in combination regimens for paediatric sarcomas and Wilms tumour.
+The TxGNN model predicts it may be effective for **relapsing-remitting multiple sclerosis**, but there are **0 clinical trials** and **0 publications** supporting this direction, so it is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Rhabdomyosarcoma, Wilms' tumor (VAC regimen component; pediatric solid tumors) |
-| Predicted New Indication | Relapsing-Remitting Multiple Sclerosis |
+|------|------|
+| Original Indication | Not recorded in the Singapore label data (see Singapore Market Information) |
+| Predicted New Indication | Relapsing-remitting multiple sclerosis |
 | TxGNN Prediction Score | 99.58% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on established pharmacology, Dactinomycin (Actinomycin D) is a DNA-intercalating antibiotic that binds to guanine-cytosine base pairs in double-stranded DNA, blocking RNA polymerase elongation and thereby halting RNA synthesis. This mechanism selectively targets rapidly proliferating cells, which underpins its longstanding role as the backbone of the VAC chemotherapy regimen for pediatric rhabdomyosarcoma and Wilms' tumor.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Dactinomycin is known to intercalate into DNA and inhibit transcription. Mechanistically, this could suppress rapidly dividing immune cells and produce broad immunosuppression.
 
-Relapsing-Remitting Multiple Sclerosis is an autoimmune demyelinating disease in which autoreactive T-cells (particularly Th17 cells) and B-cells attack myelin sheaths in the central nervous system. The theoretical basis for the TxGNN prediction is that dactinomycin's broad cytotoxicity could non-specifically suppress autoreactive lymphocyte proliferation — mechanistically similar to the reasoning behind early use of cyclophosphamide in MS. However, this is a blunt, non-selective mechanism with no MS-specific immune modulation (e.g., no selectivity for Th17/Treg axis, no remyelination support, no CNS trafficking modulation).
+This is a weak rationale. Dactinomycin is a highly cytotoxic agent with a narrow therapeutic index. Multiple sclerosis is a chronic, non-oncologic disease for which approved disease-modifying therapies already exist. The risk-benefit balance is therefore unfavourable.
 
-In contemporary RRMS management, approved disease-modifying therapies such as interferon-beta, natalizumab, and ocrelizumab offer targeted, well-characterised immune modulation with substantially more favourable safety profiles. Dactinomycin's significant myelosuppression risk, hepatotoxicity (including veno-occlusive disease), and lack of any published MS evidence make the benefit-risk ratio unfavourable. The high TxGNN score reflects a model-computed graph association rather than strong biological plausibility.
-
----
+The high score (99.58%) most likely reflects proximity in the knowledge graph to other cytotoxic or immunosuppressive drugs, not a real therapeutic signal. There are no trials, publications or preclinical studies linking dactinomycin to multiple sclerosis.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Dactinomycin is currently **not registered or marketed in Singapore**. No product authorisations on record.
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN10989P | K. U. DACTINOMYCIN FOR INJECTION 0.5 mg/vial | Injection, powder, for solution | Korea United Pharmaceutical Inc |
 
----
+The registration record contains no approved indication text. The only route available is injectable.
 
 ## Cytotoxicity
 
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Conventional cytotoxic (Antibiotic class — DNA intercalator / RNA synthesis inhibitor) |
-| Myelosuppression Risk | High — neutropenia, thrombocytopenia, and anaemia are well-established class effects; dose-dependent bone marrow suppression is a primary toxicity |
-| Emetogenicity Classification | Moderate |
-| Monitoring Items | Full blood count (FBC) with differential before each cycle; liver function tests (ALT, AST, bilirubin); renal function; vigilance for hepatic veno-occlusive disease (particularly in young children) |
-| Handling Protection | Must be handled in accordance with cytotoxic drug handling regulations; closed-system drug transfer devices, appropriate PPE, and negative-pressure preparation environment required |
+|------|------|
+| Cytotoxicity Classification | Conventional cytotoxic (anticancer antibiotic, DNA intercalator) |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Haematological parameters (CBC with differential) and liver function; hepatic veno-occlusive disease has been reported in the literature retrieved for this drug |
+| Handling Protection | Must follow cytotoxic drug handling regulations |
 
----
+The rows above marked "Please refer to the package insert" have no source data in this Evidence Pack.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
----
+The literature retrieved for other candidate indications documents hepatic veno-occlusive disease and hepatopathy after dactinomycin-containing regimens (vincristine, dactinomycin, cyclophosphamide). This is a serious concern in any hepatobiliary or immune-mediated setting. No drug interaction records were found.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There is no clinical or preclinical evidence supporting dactinomycin in relapsing-remitting multiple sclerosis, and the mechanistic link is weak — non-specific cytotoxicity is not a recognised nor sufficient mode of action for MS disease modification, and the drug's established toxicity profile is disproportionate to any theoretical immunosuppressive benefit when compared with approved RRMS therapies.
+This is a model prediction only (L5), with no trials or literature. Dactinomycin's cytotoxicity and narrow therapeutic index make it a poor fit for a chronic non-oncologic disease that already has approved disease-modifying therapies.
 
 **To proceed, the following is needed:**
-- Preclinical in vitro and in vivo data demonstrating selective suppression of autoreactive T-cell or B-cell populations at sub-cytotoxic dactinomycin concentrations
-- Mechanistic studies distinguishing any immune-modulatory effect from general RNA synthesis inhibition
-- Comparative benefit-risk modelling against existing RRMS first-line and second-line DMTs
-- Formal MOA data from DrugBank to complete the mechanistic gap (Data Gap DG002)
-- Full package insert review for warnings and contraindications (Data Gap DG001, currently blocking S1 safety evaluation)
+- The HSA package insert warnings and contraindications (a blocking data gap, so the case cannot proceed to safety screening without it)
+- Mechanism of action data from DrugBank
+- Any preclinical or clinical signal for dactinomycin in multiple sclerosis or autoimmune demyelination
 
-> **Note on other TxGNN predictions:** While RRMS (Rank 1) holds the highest model score, it has the weakest clinical evidence (L5). For clinical teams seeking actionable repurposing leads, **Rank 5 — Parameningeal Embryonal Rhabdomyosarcoma — carries L1 evidence** (two Phase 3 IRS studies directly involving dactinomycin as a VAC regimen component) and a "Proceed with Guardrails" recommendation. Additional RMS subtypes (Ranks 2–6) and liver sarcoma (Rank 7, L2) represent a coherent mechanistic cluster where dactinomycin's role in the VAC backbone provides direct, biologically plausible support.
+**Note on other predictions in this pack:** Several oncology predictions are much better supported, all in rhabdomyosarcoma (RMS) settings. Parameningeal embryonal RMS (rank 5) is the strongest, at L1 with a suggested "Proceed with Guardrails". It is supported by VAC-regimen (vincristine, dactinomycin, cyclophosphamide) studies from the Children's Oncology Group and the Intergroup Rhabdomyosarcoma Study. Those results are probably already standard of care rather than true repurposing, so they should be confirmed against the labelled indication wording. Evidence for the other rhabdomyosarcoma sites, liver sarcoma and head and neck cancer is limited to case reports, reviews and cohort studies, and evidence for T-cell leukemia is limited to in vitro work.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

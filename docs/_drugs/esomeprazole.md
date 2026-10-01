@@ -29,37 +29,33 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Esomeprazole: From Gastroesophageal Reflux Disease to Duodenogastric Reflux
+# Esomeprazole: From Acid-Related Gastric Disorders to Duodenogastric Reflux
 
 ## One-Sentence Summary
 
-Esomeprazole is a proton pump inhibitor (PPI) widely used globally for gastroesophageal reflux disease, peptic ulcer disease, and *Helicobacter pylori* eradication — though it currently holds no regulatory registration in Singapore.
-The TxGNN model predicts it may be effective for **Duodenogastric Reflux**, with **no registered clinical trials** and **1 review publication** currently supporting this specific direction.
-The mechanistic rationale is indirect, and evidence specific to this indication is insufficient for a clinical development decision at this time.
+Esomeprazole is a proton pump inhibitor (PPI) used to suppress stomach acid, and the Singapore registration data supplied here do not list its approved indications. The TxGNN model predicts it may be effective for **duodenogastric reflux** (bile reflux into the stomach), but **0 clinical trials** and only **1 general review** currently support this direction. The high model score is not backed by disease-specific clinical data.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Gastroesophageal reflux disease / acid-related diseases (globally recognised; no Singapore registration on record) |
-| Predicted New Indication | Duodenogastric Reflux |
+|------|------|
+| Original Indication | Not listed in the supplied registration data (acid-related gastric disorders are the drug class's established use) |
+| Predicted New Indication | Duodenogastric reflux |
 | TxGNN Prediction Score | 99.53% |
 | Evidence Level | L4 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 16 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not included in this evidence pack. Based on established pharmacology, Esomeprazole is the S-isomer of omeprazole — the first single-optical-isomer proton pump inhibitor developed for clinical use. It irreversibly binds and inhibits the H⁺/K⁺-ATPase enzyme on gastric parietal cells, suppressing acid secretion and maintaining intragastric pH above 4 for 14–16 hours per dose. This makes it the most potent acid-suppressive agent in its class.
+Currently, detailed mechanism of action data is not available in the supplied data. Based on known information, esomeprazole is a proton pump inhibitor, and PPIs are established treatments for acid-related conditions such as peptic ulcer, *H. pylori* infection and gastro-oesophageal reflux disease. Mechanistically, acid suppression may partly relieve symptoms of duodenogastric reflux.
 
-Duodenogastric reflux involves retrograde flow of duodenal contents (bile acids, pancreatic enzymes, and intestinal secretions) into the stomach. Although bile acids are the primary mucosal irritant in this condition, they are typically mixed with gastric acid, and the resulting acidic-bile mixture amplifies epithelial injury. By reducing the acidic component of the refluxate, Esomeprazole may partially attenuate mucosal damage — giving the TxGNN model a pharmacological basis to flag this association.
-
-However, the mechanistic link is indirect and limited. Esomeprazole has no direct effect on bile acid reflux itself, nor on the pyloric dysfunction or motility abnormalities that drive duodenogastric reflux. The TxGNN high prediction score most likely reflects shared knowledge-graph nodes around "gastric mucosal protection" and "acid suppression" rather than a specific mechanistic connection to duodenogastric reflux as a distinct disease entity. Clinically, bile acid sequestrants or prokinetics — not PPIs — are considered more mechanistically aligned treatments for this condition.
+The reasoning is weak, however. Duodenogastric (bile) reflux is driven by bile and pancreatic secretions, not gastric acid. A PPI may relieve symptoms indirectly by reducing acid, but it does not address the underlying cause. The only literature found is a general review of PPI clinical use and pharmacokinetics, which is not specific to this disease. The model score is therefore not supported by clinical data.
 
 ---
 
@@ -72,8 +68,24 @@ Currently no related clinical trials registered.
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [18679668](https://pubmed.ncbi.nlm.nih.gov/18679668/) | 2008 | Review | *European Journal of Clinical Pharmacology* | Broad PPI class update covering Esomeprazole clinical uses: peptic ulcer, *H. pylori* eradication, GERD, NSAID-induced GI lesions, and Zollinger-Ellison syndrome. Duodenogastric reflux is not addressed as a distinct indication. |
+|------|-----|------|------|---------|
+| [18679668](https://pubmed.ncbi.nlm.nih.gov/18679668/) | 2008 | Review | European Journal of Clinical Pharmacology | General update on PPI clinical use and pharmacokinetics. PPIs are first-choice drugs for peptic ulcer, *H. pylori* infection, GORD, NSAID-induced lesions and Zollinger-Ellison syndrome. It does not address duodenogastric reflux. |
+
+---
+
+## Singapore Market Information
+
+Sixteen registrations exist in total. Five are shown below. The registration data supplied do not include approved-indication text.
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN15233P | Emanera Gastro-Resistant Capsules 40 mg | Capsule | Not provided |
+| SIN15637P | Sompraz IV Powder for Solution for Injection 40 mg/vial | Injection, powder, for solution | Not provided |
+| SIN12616P | Nexium Powder for Solution for Injection and Infusion 40 mg | Injection, powder, for solution | Not provided |
+| SIN14632P | Esoz Tablets 20 mg | Tablet, enteric coated | Not provided |
+| SIN15234P | Emanera Gastro-Resistant Capsules 20 mg | Capsule | Not provided |
+
+Available routes across all registrations include oral (capsule, enteric-coated, delayed-release and film-coated tablets) and injectable forms.
 
 ---
 
@@ -88,13 +100,16 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic rationale for Esomeprazole in duodenogastric reflux is indirect — acid suppression may reduce mucosal injury from the acidic component of refluxate, but bile acids (the primary pathological driver) are entirely unaffected. With zero registered clinical trials and only a single general PPI review paper, there is no direct clinical evidence to support advancement.
+The 99.53% model score is not supported by any disease-specific trial or study, and the only literature is a general PPI review. Bile reflux is not acid-driven, so the biological rationale is weak.
 
 **To proceed, the following is needed:**
-- Dedicated clinical trials evaluating Esomeprazole specifically for duodenogastric reflux endpoints (e.g., endoscopic mucosal healing, validated symptom scales such as the Bile Reflux Symptom Score)
-- Mechanistic studies clarifying whether acid suppression alone produces clinically meaningful mucosal protection in the context of bile acid-predominant reflux
-- Singapore HSA regulatory pathway assessment, as Esomeprazole currently has no local registration
-- Full package insert safety review (FDA/EMA labelling) to address current data gaps in warnings, contraindications, and drug-drug interactions
+- HSA package insert warnings and contraindications (blocking for safety screening)
+- Approved-indication text for the Singapore registrations, to confirm the original indication
+- Mechanism of action data from DrugBank
+- Disease-specific clinical evidence for duodenogastric reflux, such as controlled studies of PPIs against bile reflux symptoms
+- Note: other predicted indications, namely duodenal ulcer and active peptic ulcer disease, have much stronger evidence (many Phase 3 trials). These are probably already established labeled uses and not true repurposing, so they should be checked against the label and assessed separately.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

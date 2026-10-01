@@ -29,62 +29,82 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Methylthioninium: From Unspecified Original Indication to Irritable Bowel Syndrome
+# Methylthioninium: From Its Registered Use to Irritable Bowel Syndrome
 
 ## One-Sentence Summary
 
-Methylthioninium (methylene blue, DrugBank DB08167) has no original indication or approved product on file in this dataset, and it is not currently marketed in Singapore. The TxGNN model predicts it may be effective for **Irritable Bowel Syndrome**, but this candidate is currently supported by **0 clinical trials** and **0 publications** — the prediction rests on the model score alone.
+Methylthioninium (methylene blue) is marketed in Singapore as an injectable solution (PROVEBLUE 5 mg/mL), but the registration record does not state an approved indication.
+The TxGNN model predicts it may be effective for **irritable bowel syndrome**, with a score of 90.43%.
+There are currently **0 clinical trials** and **0 publications** supporting this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented (no approved indication on file; drug is unmarketed in Singapore) |
-| Predicted New Indication | Irritable Bowel Syndrome |
+| Predicted New Indication | Irritable bowel syndrome |
 | TxGNN Prediction Score | 90.43% |
-| Evidence Level | L5 |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for Methylthioninium in this dataset. No original indication or marketed product is on file either, so no direct comparison can be drawn between a prior approved use and the predicted new use of Irritable Bowel Syndrome.
+Currently, detailed mechanism of action data is not available. The registration record does not list an approved indication, so the relationship between the original and new indications cannot be assessed.
 
-Per the model's own rationale, there is no established pharmacological pathway connecting Methylthioninium to irritable bowel syndrome — no gut-motility, visceral-hypersensitivity, or gut-microbiome mechanism is cited. The high TxGNN score is not accompanied by any supporting mechanistic hypothesis, clinical trial, or literature evidence, which places this specific candidate at the lowest confidence tier (L5, model prediction only).
-
-It is worth noting that other candidates generated for this drug carry somewhat stronger rationale — notably dysthymic disorder (rank 2), where methylene blue's known reversible MAO-inhibitory and redox activity offers a plausible (if still unproven) mechanistic link. That candidate reached decision stage S1 ("Research Question"), one step ahead of the irritable bowel syndrome candidate reviewed here, which remains at S0.
+The only mechanistic ideas are speculative and have no supporting data in this evidence pack. One is nitric oxide/cGMP signaling in gut smooth muscle. The other is MAO-A inhibition affecting the serotonergic pathway, which plays a role in gut motility and sensation. Both need to be checked against the literature before they can be treated as a rationale.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Methylthioninium has no registered products in Singapore in this dataset (0 licenses on file; market status: not marketed).
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN16319P | PROVEBLUE SOLUTION FOR INJECTION 5MG/ML | Injection, solution | Cenexi SAS |
+
+The registration record does not include approved indication text. The only available route is injectable, and an oral or other gut-targeted route for irritable bowel syndrome has not been assessed.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
-*Note: Regulatory label warnings/contraindications for this drug (TFDA/HSA-equivalent labeling) are a flagged data gap in this evidence pack (blocking severity) — this must be resolved before any safety pre-screen can proceed.*
+The drug interaction query returned no records. This is probably a data gap rather than evidence of no interactions.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The Irritable Bowel Syndrome candidate has the highest TxGNN score in this set but no clinical, literature, or mechanistic support, and the drug itself is unmarketed in Singapore with no safety labeling on file — insufficient basis to advance past model-prediction stage.
+The prediction score is high, but it is the only support. There are no trials, no literature, no mechanism data, and no safety data. The evidence level is L5, and safety screening cannot start without the package insert.
+
+**Other predicted indications (all also on Hold, except anxiety):**
+
+| Predicted Indication | Score | Evidence Level | Note |
+|------|------|------|------|
+| Dysthymic disorder | 88.53% | L5 | Serotonin syndrome risk with serotonergic antidepressants needs review first |
+| Anaphylaxis | 88.06% | L5 | Hypothesized NO/guanylate cyclase link in refractory shock; no supporting data |
+| Food-dependent exercise-induced anaphylaxis | 87.75% | L5 | Likely inherited from the general anaphylaxis association |
+| Bronchitis | 85.52% | L5 | No rationale supplied |
+| Anxiety | 80.59% | L4 | One preclinical alpha-synuclein paper on the reduced form; indirect and unverified (Research Question) |
+| Obsolete rare pulmonary disease | 75.18% | L5 | Term is obsolete; needs remapping to a current ontology entry |
+| Variably protease-sensitive prionopathy | 74.85% | L5 | Ultra-rare, so trials are unlikely to be feasible |
+| Autonomic nervous system disease | 74.49% | L5 | Category is very broad |
+| Pulmonary edema | 73.87% | L5 | Speculative NO pathway link |
 
 **To proceed, the following is needed:**
-- Mechanism of action (MOA) data for Methylthioninium (currently a data gap)
-- Official product labeling / safety warnings and contraindications (blocking data gap — required before any S1 safety pre-screen)
-- A testable mechanistic hypothesis linking methylene blue's known pharmacology to IBS pathophysiology
-- Consider reprioritizing evaluation toward the dysthymic disorder candidate (rank 2), which already has a stated mechanistic rationale and reached decision stage S1
+- HSA package insert (warnings, contraindications, approved indication), which blocks safety screening
+- Mechanism of action data from DrugBank
+- A systematic search of ClinicalTrials.gov and PubMed for methylene blue in irritable bowel syndrome
+- Interaction review, especially serotonergic drugs because of MAO-A inhibition
+- Assessment of route compatibility for the target indication
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

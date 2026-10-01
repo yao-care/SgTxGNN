@@ -29,73 +29,78 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Venlafaxine: From Depression/Anxiety Spectrum (SNRI Class) to Ohdo Syndrome and Variants
+# Venlafaxine: From Major Depressive Disorder to Ohdo Syndrome and Variants
 
 ## One-Sentence Summary
 
-> Venlafaxine is a serotonin-norepinephrine reuptake inhibitor (SNRI); the evidence pack does not contain formal Singapore-approved indication data (the drug is not marketed here), but internal rationale annotations consistently describe it as an antidepressant used across the depression/anxiety spectrum.
-> The TxGNN model's **top-ranked** prediction is **Ohdo Syndrome and Variants**, a rare genetic developmental disorder — but this candidate has **zero supporting clinical trials and zero literature**, and the evidence pack itself flags the high score as likely embedding-space noise rather than a genuine mechanistic signal.
-> Several **lower-ranked** predictions (dysthymic disorder, melancholia, OCD, agoraphobia) are far better supported, with real Phase 2–4 trials and RCT-level literature — these are discussed in the Conclusion as the more credible repurposing leads from this pack.
-
----
+Venlafaxine is a serotonin-norepinephrine reuptake inhibitor (SNRI) antidepressant, used mainly for major depressive disorder. The TxGNN model ranks **Ohdo syndrome and variants** as its top new-indication prediction. There are **0 clinical trials** and **0 publications** supporting it, so it is most likely a knowledge-graph artifact.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — Venlafaxine has no Singapore regulatory license on file (0 registrations); rationale annotations describe it generically as an SNRI antidepressant |
-| Predicted New Indication | Ohdo Syndrome and Variants |
+| Original Indication | Major depressive disorder (the Singapore registration records do not state an indication text) |
+| Predicted New Indication | Ohdo syndrome and variants |
 | TxGNN Prediction Score | 95.86% |
-| Evidence Level | L5 (model prediction only, no clinical trials or literature) |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | **Hold** |
-
----
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 7 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap, DG002). Based on the rationale annotations included in this evidence pack, venlafaxine is consistently characterized as a serotonin-norepinephrine reuptake inhibitor (SNRI) whose established therapeutic domain is depressive and anxiety-spectrum disorders — this is corroborated by the strong clinical/literature support found for several *other* candidates in this same pack (e.g., dysthymic disorder, melancholia, OCD, agoraphobia).
+Venlafaxine blocks the reuptake of serotonin and norepinephrine. This mechanism supports its use in depression, and in anxiety-related disorders such as panic disorder and obsessive-compulsive disorder. Detailed mechanism-of-action data is not available in the Evidence Pack beyond this class-level description.
 
-Ohdo syndrome and its variants, however, are rare congenital developmental disorders caused by mutations in chromatin-modifying genes (e.g., KAT6A/KAT6B), involving structural and epigenetic regulatory abnormalities. There is no established pharmacological or pathophysiological link between this gene-driven developmental condition and venlafaxine's monoamine reuptake inhibition mechanism.
+Ohdo syndrome is a rare genetic developmental disorder, usually linked to KAT6B. It involves structural and intellectual-disability features, not a monoaminergic deficit. No plausible mechanistic link to venlafaxine's pharmacology was identified. The high score (0.959) most likely reflects proximity in the knowledge graph, not pharmacology. The same applies to the closely related entry "blepharophimosis - intellectual disability syndrome, Ohdo type" (rank 3, score 93.79%).
 
-The evidence pack's own rationale is explicit on this point: the high TxGNN score for this candidate is assessed as likely reflecting **proximity noise in the knowledge-graph embedding space**, not a genuine signal of mechanistic plausibility. No clinical trials or publications exist to support this indication, and the model's top numerical rank should not be interpreted as its most clinically credible prediction.
-
----
+Treat this prediction as a model output with no clinical or literature support.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
 
----
+## Singapore Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN11435P | EFEXOR XR CAPSULE 75 mg | Capsule | Not stated in records |
+| SIN15038P | VENLEX XR CAPSULES 75MG | Capsule, extended release | Not stated in records |
+| SIN15039P | VENLEX FORTE XR CAPSULES 150MG | Capsule, extended release | Not stated in records |
+| SIN15521P | DEPREVIX MODIFIED RELEASE HARD CAPSULE 150MG | Capsule, delayed release | Not stated in records |
+| SIN15520P | DEPREVIX MODIFIED RELEASE HARD CAPSULE 75MG | Capsule, delayed release | Not stated in records |
+
+All products are oral formulations. Two further registrations (7 in total) are not listed here.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. (Note: TFDA/HSA label warnings and contraindications for venlafaxine could not be retrieved for this evidence pack — flagged as a **Blocking** data gap, DG001 — and drug-drug interaction data was not found. These must be resolved before any safety evaluation stage.)
-
----
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked TxGNN prediction (Ohdo Syndrome and Variants) has no clinical trial or literature support (L5, decision stage S0) and no plausible mechanistic link to venlafaxine's SNRI activity; the evidence pack itself attributes the high score to embedding noise rather than a true signal. Combined with a Blocking data gap on safety labeling (DG001) and missing MOA data (DG002), this candidate does not meet the bar to advance.
+The prediction has no trials, no publications, and no plausible mechanism. The only support is a high model score, which is not enough to justify further investment in this indication.
 
 **To proceed, the following is needed:**
-- Resolve DG001 (HSA/regulatory safety label) and DG002 (formal MOA) before any further evaluation of this or other candidates for this drug
-- If pursuing Ohdo syndrome specifically: obtain preclinical/mechanistic rationale linking monoamine reuptake inhibition to KAT6A/KAT6B-driven pathology — currently none exists
-- **Redirect evaluation effort toward better-supported candidates in this same pack**, which warrant separate "Proceed with Guardrails" review:
-  - *Dysthymic disorder* (rank 5, L2, direct RCT/open-label evidence including elderly and SCI populations)
-  - *Melancholia* (rank 6, L2, multiple double-blind RCTs including hospitalized cohorts)
-  - *Obsessive-compulsive disorder* (rank 9, L2, multiple double-blind head-to-head trials in treatment-resistant OCD)
-  - *Agoraphobia* (rank 10, L2, large double-blind RCTs in panic disorder with agoraphobia)
+- Package insert warnings and contraindications from the HSA, which are required before any safety screening
+- Detailed mechanism-of-action data from DrugBank
+- A credible mechanistic hypothesis linking SNRI pharmacology to KAT6B-related disorders, followed by preclinical support
+
+**Other predictions in this Evidence Pack have more support and may be worth reviewing first:**
+
+| Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
+|------|------|------|------|
+| Melancholia | 88.81% | L2 | Proceed with Guardrails (a subtype within the existing depression indication, not true repurposing) |
+| Agoraphobia | 85.25% | L2 | Proceed with Guardrails (strongest when co-occurring with panic disorder; standalone evidence is limited) |
+| Dysthymic disorder | 89.14% | L3 | Research Question (open-label studies and a class-level meta-analysis, no venlafaxine-specific RCT) |
+| Obsessive-compulsive disorder | 87.34% | L3 | Research Question (mostly open-label and case-level evidence, no confirmed venlafaxine RCT) |
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

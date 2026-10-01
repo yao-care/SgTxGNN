@@ -29,91 +29,91 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Articaine: From Local Anesthesia to Gout
+# Articaine: From Local Anaesthesia to Gout
 
 ## One-Sentence Summary
 
-Articaine is a thiophene-ring amide-class local anesthetic, widely used in dentistry and minor surgical procedures for regional nerve blockade and infiltration anesthesia.
-The TxGNN model predicts it may be effective for **Gout**,
-with **0 clinical trials** and **0 publications** currently supporting this direction — the prediction rests entirely on knowledge graph inference with no direct empirical support.
-
----
+Articaine is an amide local anaesthetic, marketed in Singapore as dental injection products (the registered indication text is not available in the data).
+The TxGNN model predicts it may be effective for **Gout**, but there are **0 clinical trials** and **0 publications** supporting this direction.
+The prediction rests on the model score alone, and no plausible mechanistic link has been identified.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Dental and surgical local anesthesia (regional nerve block, infiltration) |
+|------|------|
+| Original Indication | Local anaesthesia (inferred from drug class; registered indication text is not available) |
 | Predicted New Indication | Gout |
 | TxGNN Prediction Score | 99.58% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 5 |
 | Recommended Decision | Hold |
 
----
+## Why is This Prediction Reasonable?
 
-## Why Is This Prediction Reasonable?
+Detailed mechanism of action data is not available from the source record. Based on its drug class, articaine blocks voltage-gated sodium channels, which stops nerve conduction and produces local anaesthesia.
 
-Detailed mechanism of action data is not available in this evidence pack. Based on established pharmacology, Articaine is a thiophene-bearing amide local anesthetic that reversibly blocks voltage-gated sodium channels (Nav1.x), preventing initiation and propagation of action potentials in peripheral sensory and motor neurons. Its thiophene ring confers greater lipid solubility and a faster onset compared to lidocaine; it is primarily administered by infiltration or nerve block injection in dental and minor surgical settings.
-
-The hypothesised mechanistic link to gout is as follows: sodium channel blockade → inhibition of NLRP3 inflammasome activation triggered by monosodium urate (MSU) crystals → reduced IL-1β release → attenuation of acute gouty inflammation. NLRP3-driven IL-1β production is indeed central to acute gout pathophysiology, and ion channel modulation has been shown in some in vitro models to influence inflammasome activity. However, this specific pathway has never been demonstrated for articaine in any published experimental model, and systemic drug exposure achievable through local anesthetic dosing would be far below the concentrations required to reach joint synovium at therapeutically relevant levels.
-
-In summary, the mechanistic hypothesis is intellectually interesting but entirely speculative. The high TxGNN score most likely reflects indirect co-occurrence patterns in the knowledge graph — e.g., articaine nodes co-localised with "pain," "inflammation," and "joint procedure" nodes — rather than a validated biological interaction. No repurposing signal for gout can be substantiated at this stage.
-
----
+Gout is driven by urate crystal deposition and the resulting inflammation. Nothing in sodium-channel blockade connects to urate metabolism or gouty inflammation. The 99.58% score is a knowledge-graph prediction (rank 5775) and should not be read as evidence of benefit. The same is true of the other nine candidates: none has a plausible mechanism or supporting clinical evidence.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
+## Other Predicted Candidates (for Context)
+
+| Rank | Predicted Indication | TxGNN Score | Evidence Level | Decision |
+|------|------|------|------|------|
+| 1 | Gout | 99.58% | L5 | Hold |
+| 2 | Exostosis | 99.42% | L5 | Hold |
+| 3 | Allergic asthma | 99.38% | L5 | Hold |
+| 4 | Intrinsic asthma | 99.34% | L5 | Hold |
+| 5 | Exostoses, multiple | 98.90% | L5 | Hold |
+| 6 | Hypotrichosis simplex of the scalp | 98.62% | L5 | Hold |
+| 7 | Alopecia | 98.58% | L5 | Hold |
+| 8 | Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome | 98.49% | L5 | Hold |
+| 9 | Brain small vessel disease 1 with or without ocular anomalies | 98.48% | L5 | Hold |
+| 10 | Congenital hypotrichosis milia | 98.44% | L5 | Hold |
+
+Two of these candidates had literature retrieved, and neither is evidence of benefit:
+- **Allergic asthma:** The three papers concern hypersensitivity to local anaesthetics (paediatric diagnostic testing, dental allergy, prilocaine compartment allergy). They raise a caution for atopic patients rather than support efficacy.
+- **Brain small vessel disease:** The papers cover congenital ocular anomalies and do not mention articaine or local anaesthetics. They appear to be matched on disease terms only.
 
 ## Singapore Market Information
 
-Articaine is **not registered** in Singapore. No product licenses are on record with the Health Sciences Authority (HSA).
-
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
 |---------|------|------|-----------|
-| — | — | — | No registered products |
+| SIN05504P | UBISTESIN INJECTION | Injection | 3M Deutschland GmbH |
+| SIN05505P | UBISTESIN FORTE INJECTION | Injection | 3M Deutschland GmbH |
+| SIN12648P | CITOCARTIN 100 INJECTION 1.7 ml/cartridge | Injection | Laboratorios Normon, S.A. |
+| SIN15913P | ARTINIBSA 4% WITH EPINEPHRINE SOLUTION FOR INJECTION 1:100000 | Injection, solution | Laboratorios Inibsa, S.A. |
+| SIN14537P | Posicaine-100 Injection | Injection, solution | Novocol Pharmaceutical of Canada Inc. |
 
----
+All five products are injectable only. Approved indication text is not recorded for any of them.
 
 ## Safety Considerations
 
-Full package insert safety data (warnings, contraindications) was not available for review in this evidence pack.
+- **Drug Interactions**: No interaction records were found in the queried source.
+- **Hypersensitivity**: The allergy literature retrieved for the asthma candidates indicates local anaesthetic hypersensitivity reactions are a recognised concern, so caution applies in atopic patients.
 
-> **Important safety note derived from evidence pack analysis:** Articaine injectable formulations commonly contain sodium metabisulfite as an antioxidant/preservative. Metabisulfite is a known trigger of bronchospasm and anaphylactoid reactions in sulfite-sensitive individuals, particularly patients with asthma. This constitutes a clinically significant contraindication for asthmatic patients and is directly relevant to the two asthma-related predictions (allergic asthma, rank 3; intrinsic asthma, rank 4) in this evidence pack — both predictions represent **reverse safety signals**, not treatment opportunities.
-
-Please refer to the authorised package insert for complete warnings, contraindications, and drug interaction information.
-
----
+Please refer to the package insert for other safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-All ten predicted indications in this evidence pack are rated L5 (model prediction only, no clinical or preclinical empirical support), and the top prediction — gout — has zero registered trials and zero directly relevant publications. The mechanistic pathway linking Nav blockade to NLRP3 inflammasome suppression is speculative and lacks articaine-specific validation; systemic bioavailability constraints further undermine clinical plausibility. Two of the top-ranked predictions (allergic asthma, intrinsic asthma) carry active reverse safety signals due to metabisulfite content.
+All ten predictions are L5, model-only, with no clinical trials and no drug-specific literature. For the top candidate, gout, there is no plausible mechanistic link. Articaine's route (injectable, local) is also not compatible with the systemic use gout would require, though route compatibility has not yet been assessed.
 
 **To proceed, the following is needed:**
-
-- **MOA verification:** Retrieve full articaine DrugBank entry (DB09009) to confirm whether any documented secondary pharmacology supports inflammasome interaction or anti-inflammatory activity.
-- **TFDA/HSA package insert review:** Download and parse the approved product monograph to complete mandatory safety screening (warnings, contraindications, drug interactions).
-- **Preclinical feasibility study:** Conduct in vitro NLRP3 inflammasome assay with articaine at physiologically achievable concentrations before advancing to any in vivo model.
-- **Pharmacokinetic modelling:** Assess whether any alternative route of administration (e.g., intra-articular injection) could achieve sufficient synovial fluid concentrations to exert anti-inflammatory effects.
-- **Knowledge graph audit:** Investigate the source of the TxGNN score for gout — determine whether the graph edge is driven by meaningful biological shared neighbours or by procedural co-occurrence artefacts (e.g., "dental surgery → pain → joint" path).
-- **Safety clearance before any further development:** The metabisulfite content requires explicit risk mitigation planning for any formulation intended for non-dental systemic use.
-
----
-
-> ⚠️ **Disclaimer:** This report is for research reference only and does not constitute medical advice. All drug repurposing candidates require clinical validation before application. This prediction has not been validated in any clinical setting.
+- HSA package insert (warnings and contraindications), which is required before any safety screening
+- Mechanism of action data from DrugBank, to allow a proper mechanistic-link analysis
+- The registered indication text for the Singapore licences
+- A drug-specific literature and trial search for articaine in gout, since none has been retrieved
+- Route-compatibility assessment for any candidate indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -29,90 +29,89 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Insulin Glulisine: From Diabetes Mellitus to Type 1 Diabetes Mellitus
+# Insulin Glulisine: Type 1 Diabetes Mellitus as the Top Predicted Indication
 
 ## One-Sentence Summary
 
-Insulin glulisine (Apidra) is a rapid-acting human insulin analogue approved globally for prandial glycaemic control in patients with diabetes mellitus; it is not currently registered in Singapore.
-The TxGNN model predicts it may be effective for **Type 1 Diabetes Mellitus (T1DM)** — importantly, this constitutes a **validation prediction** that confirms the drug's primary established indication worldwide rather than identifying a genuinely novel repurposing opportunity.
-With **50 clinical trials** and **19 publications** identified, the evidence base is exceptionally robust at **Evidence Level L1**.
+Insulin glulisine (Apidra) is a rapid-acting human insulin analogue used as a mealtime insulin in diabetes. The TxGNN model ranks **type 1 diabetes mellitus** as its top predicted indication, with **50 clinical trials** and **19 publications** retrieved for this direction. This is most likely an on-label use rather than true repurposing, so treat it as a confirmation of an established indication.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not registered in Singapore; globally approved for diabetes mellitus (prandial glycaemic control) |
-| Predicted New Indication | Type 1 Diabetes Mellitus |
+|------|------|
+| Predicted New Indication | Type 1 diabetes mellitus |
 | TxGNN Prediction Score | 99.55% |
 | Evidence Level | L1 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Proceed with Guardrails |
+
+The Singapore registration record contains no approved-indication text, so the original indication could not be taken from it.
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from this evidence pack's structured fields. Based on well-established pharmacological knowledge, insulin glulisine is a rapid-acting human insulin analogue (brand name: Apidra, Sanofi). It incorporates two amino acid substitutions in the B chain — asparagine at position B3 is replaced by lysine, and lysine at position B29 is replaced by glutamic acid — which reduces insulin self-association and accelerates subcutaneous absorption compared to regular human insulin, producing an onset of action within approximately 15 minutes and a duration of approximately 4 hours.
+Detailed mechanism of action data is not available in the Evidence Pack. Based on the published literature, insulin glulisine is a human insulin analogue that binds the insulin receptor much like regular human insulin, but with a faster onset and shorter duration of action. In type 1 diabetes the body lacks endogenous insulin, so a mealtime insulin directly replaces the missing hormone.
 
-Type 1 Diabetes Mellitus is characterised by autoimmune destruction of pancreatic β-cells, resulting in absolute insulin deficiency. External insulin replacement is the cornerstone of T1DM management. Insulin glulisine's rapid onset and short duration of action precisely mimic physiological prandial insulin secretion, making it biologically ideal for managing postprandial glycaemic excursions in T1DM patients across all age groups, including paediatric populations.
+The high TxGNN score reflects the well-established insulin–diabetes link in the knowledge graph. Several Phase 3 and Phase 4 trials and a randomized comparison with insulin lispro in adults with type 1 diabetes point the same way. Because the drug is already a marketed mealtime insulin, this prediction should be checked against the registered indication before it is presented as a repurposing finding.
 
-A critical contextual note: TxGNN's top-ranked prediction for insulin glulisine is T1DM — **its primary globally approved indication**. This TxGNN result represents model validation rather than drug repurposing. The practical implication for Singapore is that a well-evidenced, internationally established therapy currently lacks local registration, representing a potential access gap for T1DM patients who require rapid-acting prandial insulin coverage.
+The other nine predictions (thiamine-responsive dysfunction syndrome, opsismodysplasia, focal and classic stiff person syndromes, autoimmune oophoritis, pancreatic agenesis, and three lipodystrophy or lipoatrophy conditions) have no trials or literature. They are Level L5 (model prediction only) and are on **Hold**. Pancreatic agenesis would only be standard insulin replacement, and the lipodystrophy and lipoatrophy entries are more likely injection-site adverse effects than therapeutic targets.
 
 ---
 
 ## Clinical Trial Evidence
 
+The table lists the 10 registered trials most relevant to type 1 diabetes. They were selected from 50 retrieved trials.
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00964574](https://clinicaltrials.gov/study/NCT00964574) | Phase 4 | Completed | 68 | Multicentre study directly evaluating efficacy and safety of insulin glulisine in T1DM patients also using insulin glargine as basal; assessed HbA1c change, insulin dosing, and patient satisfaction |
-| [NCT03328845](https://clinicaltrials.gov/study/NCT03328845) | Phase 4 | Completed | 300 | Compared the influence of different rapid-acting insulin analogues (including glulisine) on oxidative stress parameters in T1DM patients; high relevance, large sample, completed |
-| [NCT01204593](https://clinicaltrials.gov/study/NCT01204593) | Phase 4 | Completed | 206 | Multinational non-comparative study of glargine once-daily + glulisine three times-daily in T1DM patients previously uncontrolled on any insulin regimen; primary endpoint HbA1c change at week 24 |
-| [NCT00546702](https://clinicaltrials.gov/study/NCT00546702) | Phase 3 | Completed | 142 | Multicentre, non-randomised Phase 3 evaluating efficacy (HbA1c change) and safety of insulin glulisine in T1DM over 26 weeks; insulin glargine used as basal component |
-| [NCT00046150](https://clinicaltrials.gov/study/NCT00046150) | Phase 3 | Completed | 59 | Multinational randomised controlled trial comparing safety of insulin glulisine vs insulin aspart in continuous subcutaneous insulin infusion (CSII) in T1DM; assessed catheter occlusions, HbA1c, and hypoglycaemia rates |
-| [NCT00467376](https://clinicaltrials.gov/study/NCT00467376) | Phase 3 | Completed | 485 | Randomised, parallel-group study comparing efficacy and safety of insulin glulisine to insulin lispro in T1DM and T2DM patients using insulin glargine as basal; 12-week HbA1c primary endpoint |
-| [NCT04974528](https://clinicaltrials.gov/study/NCT04974528) | Phase 3 | Completed | 319 | Open-label randomised trial comparing inhaled insulin Afrezza vs rapid-acting insulin analogues (including glulisine) combined with basal insulin in paediatric T1DM and T2DM over 26 weeks |
-| [NCT00174668](https://clinicaltrials.gov/study/NCT00174668) | Phase 3 | Completed | 311 | Multinational open randomised trial demonstrating superior efficacy of an intensified insulin glulisine + glargine regimen over a conventional two-injection regimen in poorly controlled diabetes |
-| [NCT02518945](https://clinicaltrials.gov/study/NCT02518945) | Phase 3 | Completed | 26 | Randomised double-blind placebo-controlled study of dapagliflozin as adjunct to liraglutide and insulin (including rapid-acting) in T1DM; examined glycaemic control, variability reduction, and weight outcomes |
-| [NCT04124302](https://clinicaltrials.gov/study/NCT04124302) | Phase 4 | Completed | 76 | Compared two insulin dose calculation approaches on postprandial glycaemia after mixed meals in children with T1DM; relevant to rapid-acting insulin optimisation in paediatric T1DM |
+| [NCT00546702](https://clinicaltrials.gov/study/NCT00546702) | Phase 3 | Completed | 142 | 26-week efficacy (HbA1c) and safety of glulisine with glargine in type 1 diabetes |
+| [NCT00046150](https://clinicaltrials.gov/study/NCT00046150) | Phase 3 | Completed | 59 | Safety of glulisine vs insulin aspart in insulin pumps, including catheter occlusions and hypoglycemia |
+| [NCT00467376](https://clinicaltrials.gov/study/NCT00467376) | Phase 3 | Completed | 485 | Glulisine vs insulin lispro with glargine in type 1 or 2 diabetes; efficacy, safety, hypoglycemia frequency |
+| [NCT00135941](https://clinicaltrials.gov/study/NCT00135941) | Phase 3 | Completed | 582 | Glargine plus glulisine vs premix insulin in type 1 or 2 diabetes; patient-reported outcomes |
+| [NCT04974528](https://clinicaltrials.gov/study/NCT04974528) | Phase 3 | Completed | 319 | Inhaled insulin (Afrezza) vs rapid-acting analogue injections (aspart, lispro or glulisine) in children with type 1 or 2 diabetes |
+| [NCT01204593](https://clinicaltrials.gov/study/NCT01204593) | Phase 4 | Completed | 206 | Glargine plus glulisine, change in HbA1c at 24 weeks in previously uncontrolled type 1 diabetes |
+| [NCT00964574](https://clinicaltrials.gov/study/NCT00964574) | Phase 4 | Completed | 68 | Efficacy and safety of glulisine with glargine in type 1 diabetes |
+| [NCT00489190](https://clinicaltrials.gov/study/NCT00489190) | Phase 4 | Completed | 45 | 12-week effectiveness and safety data for Apidra in type 1 diabetes |
+| [NCT02910518](https://clinicaltrials.gov/study/NCT02910518) | Phase 1 | Completed | 44 | Bioequivalence of glulisine 300 U/mL vs 100 U/mL (Apidra) in type 1 diabetes |
+| [NCT00290043](https://clinicaltrials.gov/study/NCT00290043) | Phase 1 | Completed | 20 | Glucose response to glulisine vs regular human insulin given before and after a meal in type 1 diabetes |
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|---------|
-| [35933650](https://pubmed.ncbi.nlm.nih.gov/35933650/) | 2022 | Comparative RCT | Acta Diabetologica | Described T1DM population using glulisine vs lispro/aspart for CSII therapy; evaluated relative effectiveness on HbA1c, fasting glucose, dose requirements, and rates of hypoglycaemia and diabetic ketoacidosis |
-| [16308840](https://pubmed.ncbi.nlm.nih.gov/16308840/) | 2005 | RCT | Hormone and Metabolic Research | Multinational, multicentre, randomised, parallel-group trial (n=683) comparing glulisine to lispro in adult T1DM; demonstrated comparable glycaemic efficacy and a similar safety profile |
-| [28544684](https://pubmed.ncbi.nlm.nih.gov/28544684/) | 2017 | Clinical Study | Pediatrics International | Evaluated efficacy and safety of insulin glulisine for CSII in 20 children with T1DM over 1 year; showed significant improvement in postprandial glucose after breakfast and dinner, with no increase in hypoglycaemic events |
-| [19496630](https://pubmed.ncbi.nlm.nih.gov/19496630/) | 2009 | Systematic Review | Drugs | Comprehensive systematic review of insulin glulisine for glycaemic management in adults, adolescents, and children; concluded it is effective and broadly comparable to other rapid-acting analogues with a favourable tolerability profile |
-| [18076215](https://pubmed.ncbi.nlm.nih.gov/18076215/) | 2008 | PK/PD Study | Clinical Pharmacokinetics | Detailed pharmacokinetic and pharmacodynamic characterisation of insulin glulisine; documented faster absorption, earlier peak, and shorter duration of action compared to regular human insulin |
-| [19216625](https://pubmed.ncbi.nlm.nih.gov/19216625/) | 2009 | Review | Expert Opinion on Biological Therapy | Reviewed optimisation of basal/bolus therapy using insulin glulisine; discussed its role in physiologically mirroring prandial insulin secretion and implications for early insulin initiation strategies |
-| [23243636](https://pubmed.ncbi.nlm.nih.gov/23243636/) | 2012 | Review | Drugs of Today | Reviewed rapid-acting insulin analogues (including glulisine) in T1DM children and adolescents; compared pharmacokinetic profiles, clinical outcomes, and approval status across paediatric age groups |
-| [17703632](https://pubmed.ncbi.nlm.nih.gov/17703632/) | 2007 | Review | Vascular Health and Risk Management | Reviewed strategies for combining insulins including glulisine for optimal glycaemic control in T1DM and T2DM; discussed pharmacokinetic limitations of conventional insulins and the advantages of rapid-acting analogues |
-| [16193096](https://pubmed.ncbi.nlm.nih.gov/16193096/) | 2005 | Drug Review | Drugs of Today | Early drug profile of insulin glulisine; characterised its rapid-action pharmacokinetic profile, pre- and post-meal dosing flexibility, and potential advantages over conventional insulin therapy in clinical diabetes management |
-| [35650058](https://pubmed.ncbi.nlm.nih.gov/35650058/) | 2022 | Case Report | Japanese Journal of Geriatrics | Case of an 82-year-old T1DM patient with chronic heart failure: switching from insulin degludec to glulisine improved nocturnal hypoglycaemia and ventricular arrhythmia; illustrates the importance of insulin selection in complex comorbid T1DM |
+|------|-----|------|------|---------|
+| [16308840](https://pubmed.ncbi.nlm.nih.gov/16308840/) | 2005 | RCT | Horm Metab Res | Glulisine vs lispro in adults with type 1 diabetes; 683 randomized, 672 treated |
+| [21457066](https://pubmed.ncbi.nlm.nih.gov/21457066/) | 2011 | RCT | Diabetes Technol Ther | Three-way crossover of glulisine, aspart and lispro by continuous subcutaneous insulin infusion (CSII) |
+| [21291333](https://pubmed.ncbi.nlm.nih.gov/21291333/) | 2011 | Clinical trial | Diabetes Technol Ther | 26-week basal-bolus comparison of glulisine and lispro in children and adolescents; the title reports comparable efficacy and safety |
+| [19614947](https://pubmed.ncbi.nlm.nih.gov/19614947/) | 2009 | Comparative study | Diabetes Obes Metab | Glulisine vs lispro with glargine in Japanese patients with type 1 diabetes |
+| [16123473](https://pubmed.ncbi.nlm.nih.gov/16123473/) | 2005 | PK/PD study | Diabetes Care | Pharmacokinetics, postprandial glucose and safety vs regular human insulin in children and adolescents |
+| [35933650](https://pubmed.ncbi.nlm.nih.gov/35933650/) | 2022 | Comparative study | Acta Diabetol | Glulisine vs lispro and aspart in pumps; compares HbA1c, fasting glucose, dose, and rates of hypo- and hyperglycemia and ketoacidosis |
+| [24412929](https://pubmed.ncbi.nlm.nih.gov/24412929/) | 2014 | Comparative study | Eur J Endocrinol | Glulisine vs aspart on postprandial glycemia after a high-glycemic-index meal in children using pumps |
+| [28544684](https://pubmed.ncbi.nlm.nih.gov/28544684/) | 2017 | Clinical study | Pediatr Int | 20 children on CSII; after-meal glucose improved at 1 year (breakfast 192.5 to 162.0 mg/dL, dinner 191.1 to 161.1 mg/dL) |
+| [23243636](https://pubmed.ncbi.nlm.nih.gov/23243636/) | 2012 | Systematic review | Drugs Today | Insulin analogues for type 1 diabetes in children and adolescents |
+| [19496630](https://pubmed.ncbi.nlm.nih.gov/19496630/) | 2009 | Review | Drugs | Glulisine is approved for glycaemic control in adults, adolescents and children; effects on glucose are similar to insulin lispro |
 
 ---
 
 ## Singapore Market Information
 
-Insulin glulisine is currently **not registered** in Singapore. There are no active or historical product licences on record with the Health Sciences Authority (HSA).
-
-Globally, insulin glulisine is marketed under the brand name **Apidra** (Sanofi-Aventis) and holds regulatory approvals from major agencies, including:
-- **US FDA** (approved 2004) — for improvement of glycaemic control in adults with T1DM and T2DM
-- **European Medicines Agency (EMA)** — approved for adults, adolescents, and children ≥6 years with T1DM or T2DM
-- **Health Canada** and multiple other national regulators
-
-There is no Singapore-equivalent product licence to tabulate at this time.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN13432P | Apidra SoloStar 100 Units/ml Solution for injection in a pre-filled pen (Sanofi-Aventis Deutschland GmbH) | Injection, solution | Not stated in the registry record |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Hypoglycemia**: Insulin therapy carries a hypoglycemia risk, so individualized dosing and glucose monitoring are needed.
+- **Injection-site reactions**: The Evidence Pack notes localized lipodystrophy and lipoatrophy at injection or infusion sites as known effects of subcutaneous insulin.
+
+Please refer to the package insert for formal warnings, contraindications and drug interactions.
 
 ---
 
@@ -121,15 +120,13 @@ Please refer to the package insert for safety information.
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-This TxGNN result validates insulin glulisine's primary globally approved indication (T1DM) at Evidence Level L1, supported by multiple completed Phase 3 and Phase 4 randomised trials; however, the drug is entirely absent from the Singapore market, creating a potential access gap for T1DM patients who require rapid-acting prandial insulin analogues.
+Multiple completed Phase 3 trials, several Phase 4 trials and a randomized comparison with insulin lispro in type 1 diabetes support the use of glulisine, giving evidence Level L1. This is most likely an on-label use rather than a new repurposing finding, so the decision rests on confirming the registered indication and safety text.
 
 **To proceed, the following is needed:**
-- Initiate or verify an HSA registration pathway for Singapore; assess whether a reference product dossier (US FDA/EMA approval) can be leveraged for expedited review
-- Obtain and review the full prescribing information (package insert) to document official warnings, contraindications, and drug-drug interactions for local labelling
-- Confirm cold-chain supply logistics, storage infrastructure, and distributor agreements for insulin products in Singapore
-- Review the Ministry of Health (MOH) Singapore clinical practice guidelines for T1DM to confirm that insulin glulisine aligns with current national standards of care
-- Develop a pharmacovigilance and post-market safety monitoring plan, with particular attention to hypoglycaemia risk in local patient populations
-- Explore health technology assessment (HTA) requirements, including cost-effectiveness data relative to alternative rapid-acting insulins already registered in Singapore (e.g., insulin aspart, insulin lispro)
+- Confirm the approved indication against the HSA package insert and registry record before presenting this as repurposing.
+- Obtain the package-insert warnings and contraindications for safety screening.
+- Obtain the mechanism of action from DrugBank.
+- Keep hypoglycemia monitoring and individualized dosing in any use.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

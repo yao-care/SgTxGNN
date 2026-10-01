@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Misoprostol
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 674
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 ---
 
 # Misoprostol
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,12 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Misoprostol: From Gastric Ulcer Prevention to Amenorrhea
+# Misoprostol: From an Unlisted Original Indication to Amenorrhea
 
 ## One-Sentence Summary
 
-Misoprostol is a prostaglandin E1 (PGE1) analogue whose internationally recognized original indication is prevention of NSAID-induced gastric ulcers (it is not currently registered in the Singapore market, so no local approved-indication text is available in this evidence pack). The TxGNN model's top-ranked prediction is **Amenorrhea**, with a prediction score of **99.64%**, supported by **0 clinical trials** and **7 publications** — however, on inspection, all 7 publications actually concern misoprostol used *together with mifepristone for medical/early pregnancy termination*, not treatment of amenorrhea itself, strongly suggesting this is a knowledge-graph ontology mis-mapping rather than a genuine repurposing signal.
+Misoprostol is a prostaglandin E1 analog marketed in Singapore as Cytotec 200 mcg tablets. The approved indication text is not recorded in the source data.
+The TxGNN model predicts it may be effective for **amenorrhea**, but the retrieved evidence is only indirect: **0 clinical trials** and **7 publications**, none of which tests misoprostol as a treatment for amenorrhea.
 
 ---
 
@@ -41,23 +42,23 @@ Misoprostol is a prostaglandin E1 (PGE1) analogue whose internationally recogniz
 
 | Item | Content |
 |------|------|
-| Original Indication | NSAID-induced gastric ulcer prevention (not registered in Singapore — no local license text available; based on internationally known indication) |
-| Predicted New Indication | Amenorrhea (disease) |
+| Original Indication | Not listed in the Singapore licence record |
+| Predicted New Indication | Amenorrhea |
 | TxGNN Prediction Score | 99.64% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 (indirect, mechanism-level and off-target clinical data only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in this evidence pack (`original_moa` is unrecorded). Based on generally known pharmacology, misoprostol is a synthetic PGE1 analogue that acts on prostaglandin E receptors (EP2/EP3/EP4); its cytoprotective effect on gastric mucosa (increasing mucus/bicarbonate secretion, reducing acid secretion) underlies its approved use in preventing NSAID-induced ulcers, while its separate uterotonic effect (myometrial contraction, cervical ripening) underlies its well-established off-label/adjunct use in obstetrics and gynecology (labor induction, postpartum hemorrhage management, and — combined with mifepristone — medical abortion).
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Misoprostol is a prostaglandin E1 analog that causes uterine contraction and cervical ripening. Its known effects on the uterus explain why the model links it to gynaecological conditions.
 
-**Important caveat flagged in the evidence pack itself:** all 7 supporting publications for the "Amenorrhea" prediction describe misoprostol *combined with mifepristone for terminating very-early pregnancy* (defined clinically as "amenorrhea ≤35 days," i.e., using amenorrhea only as a *pregnancy-dating criterion*, not as the condition being treated). None of the evidence describes misoprostol being used to *treat* amenorrhea as a disorder. This pattern is consistent with a knowledge-graph ontology mapping error — the "amenorrhea" disease node was likely conflated with "early pregnancy" or "pregnancy termination" concepts during graph construction — rather than a real pharmacological repurposing opportunity. There is no known mechanism by which a uterotonic/abortifacient agent would be indicated for the *treatment* of amenorrhea; if anything, the pharmacology points the opposite direction (termination of pregnancy, not restoration of menses).
+The retrieved papers all concern medical abortion or missed abortion, where misoprostol is used to induce bleeding and expel pregnancy tissue. In those studies "amenorrhea" is only a gestational-age criterion (for example, "amenorrhea ≤35 days"), not a disease being treated. No study evaluates misoprostol for treating amenorrhea.
 
-Given this, the mechanistic rationale for this specific drug–disease pair should be treated as **not credible as a genuine repurposing candidate**, despite the high raw TxGNN score. Analysts should be aware that a high model score does not guarantee a valid signal when the underlying literature reflects an ontology artifact.
+The high TxGNN score is therefore probably driven by the shared uterine and pregnancy-related neighborhood in the knowledge graph, not by therapeutic evidence. There is also a directional concern: misoprostol induces uterine bleeding and pregnancy loss, and it is not known to restore menstrual function.
 
 ---
 
@@ -71,25 +72,29 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [27678099](https://pubmed.ncbi.nlm.nih.gov/27678099/) | 2017 | RCT | Reproductive Sciences | RCT (n=744) comparing self-administered vs. hospital-administered low-dose mifepristone + misoprostol for ultra-early medical abortion (amenorrhea ≤35 days used as a pregnancy-dating criterion, not as the treated condition). |
-| [25394644](https://pubmed.ncbi.nlm.nih.gov/25394644/) | 2015 | RCT | Reproductive Sciences | Dose-ranging RCT (n=2500) testing lower doses of mifepristone + misoprostol for termination of ultra-early pregnancy. |
-| [26405260](https://pubmed.ncbi.nlm.nih.gov/26405260/) | 2015 | Cohort (Feasibility) | Human Reproduction | Feasibility of low-dose mifepristone + misoprostol given before expected menstruation to prevent unintended pregnancy. |
-| [29974571](https://pubmed.ncbi.nlm.nih.gov/29974571/) | 2018 | Cohort | J Obstet Gynaecol Res | Safety/efficacy of low-dose mifepristone combined with self-administered misoprostol for early pregnancy termination. |
-| [1486304](https://pubmed.ncbi.nlm.nih.gov/1486304/) | 1992 | Cohort | BMJ | Early report on medical management of missed abortion and anembryonic pregnancy using misoprostol-based regimens. |
-| [26001691](https://pubmed.ncbi.nlm.nih.gov/26001691/) | 2015 | Review | J Obstet Gynaecol Canada | Review of endometrial ablation for abnormal uterine bleeding — not directly related to misoprostol treatment. |
-| [37113350](https://pubmed.ncbi.nlm.nih.gov/37113350/) | 2023 | Case Report | Cureus | Case of acute fatty liver of pregnancy presenting with amenorrhea as a symptom; not related to misoprostol treatment. |
+| [27678099](https://pubmed.ncbi.nlm.nih.gov/27678099/) | 2017 | RCT | Reproductive Sciences | 744 women with ultra-early pregnancy (amenorrhea ≤35 days) received low-dose mifepristone plus hospital-administered or self-administered misoprostol for medical abortion. Off-topic for amenorrhea treatment. |
+| [25394644](https://pubmed.ncbi.nlm.nih.gov/25394644/) | 2015 | RCT | Reproductive Sciences | Dose-ranging trial in 2,500 women. Mifepristone 50–150 mg followed by misoprostol 200 µg was tested for ultra-early pregnancy termination. Off-topic for amenorrhea treatment. |
+| [26405260](https://pubmed.ncbi.nlm.nih.gov/26405260/) | 2015 | Clinical study | Human Reproduction | Low-dose mifepristone plus misoprostol before expected menstruation to prevent unintended pregnancy. Design not confirmed. |
+| [29974571](https://pubmed.ncbi.nlm.nih.gov/29974571/) | 2018 | Clinical study | J Obstet Gynaecol Res | Safety and efficacy of self-administered misoprostol with low-dose mifepristone for early pregnancy termination. |
+| [1486304](https://pubmed.ncbi.nlm.nih.gov/1486304/) | 1992 | Clinical study / review | BMJ | Medical management of missed abortion and anembryonic pregnancy. No abstract available. |
+| [26001691](https://pubmed.ncbi.nlm.nih.gov/26001691/) | 2015 | Review | J Obstet Gynaecol Can | Endometrial ablation for abnormal uterine bleeding. Off-topic. |
+| [37113350](https://pubmed.ncbi.nlm.nih.gov/37113350/) | 2023 | Case report | Cureus | Acute fatty liver of pregnancy presenting with amenorrhea. Off-topic. |
 
 ---
 
 ## Singapore Market Information
 
-Misoprostol currently has no registered product license in Singapore (0 registrations found in this evidence pack), so no authorization/product-level data is available.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN03501P | CYTOTEC TABLET 200 mcg (Piramal Healthcare UK Limited) | Tablet (oral) | — |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No warnings, contraindications, or drug-interaction records were retrieved (the interaction query returned no results).
+
+Misoprostol is a uterotonic with a recognised pregnancy-related risk, so any repurposing in women of reproductive age would need explicit pregnancy guardrails.
 
 ---
 
@@ -98,13 +103,15 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The evidence supporting "Amenorrhea" as a repurposing candidate does not hold up on inspection — all cited literature concerns misoprostol + mifepristone for early pregnancy termination, not treatment of amenorrhea, and there is no plausible mechanism for a uterotonic/abortifacient agent to treat amenorrhea. This pattern strongly suggests a knowledge-graph ontology mapping artifact rather than a genuine repurposing signal, so the candidate should not advance despite the high TxGNN score.
+The prediction score is very high, but no trial or publication tests misoprostol for amenorrhea. The retrieved literature concerns pregnancy termination, and the pharmacology (inducing uterine bleeding) does not point toward treating amenorrhea. The score appears to reflect graph proximity, not therapeutic evidence.
 
 **To proceed, the following is needed:**
-- Confirm/correct the knowledge-graph disease-node mapping for "amenorrhea" vs. "pregnancy termination/early pregnancy" before trusting any further predictions built on this node
-- Singapore drug label warnings/contraindications (currently a **Blocking** data gap per this evidence pack — required before any S1 safety pre-assessment can proceed)
-- Mechanism-of-action data from DrugBank (currently a **High**-severity data gap affecting mechanistic-relevance analysis)
-- If a genuine repurposing signal is still of interest from this same evidence pack, consider prioritizing **esophageal disease** (rank 6, evidence level L3, decision stage S2) instead — it has a direct mechanistic rationale (PGE1/EP-receptor mediated mucosal cytoprotection), a supporting case report of successful use in idiopathic esophageal ulceration (PMID 9820375), and mechanistic studies on PGE-mediated esophageal ulcer healing (PMID 25059824), making it a substantially more credible candidate than the top-ranked "Amenorrhea" prediction
+- The HSA package insert (warnings, contraindications, approved indication), which is a blocking gap for safety screening
+- Mechanism of action data from DrugBank
+- Evidence that misoprostol treats or restores menstruation in amenorrhea, or a rationale for a specific amenorrhea subtype
+- Attention to other predictions in the same pack: esophageal disease (rank 6, L4) is the only one with a biologically coherent rationale. It rests on preclinical EP2 receptor work (PMID 25059824) and one case report (PMID 9820375), and no controlled trials exist.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

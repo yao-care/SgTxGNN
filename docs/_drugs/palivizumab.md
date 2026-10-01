@@ -29,74 +29,69 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Palivizumab: From RSV Prophylaxis to Benign Neoplasm of Tongue
+# Palivizumab: From RSV Prevention to Benign Neoplasm of Tongue
 
 ## One-Sentence Summary
 
-Palivizumab is a monoclonal antibody used to prevent respiratory syncytial virus (RSV) infection in high-risk infants. The TxGNN model assigns a very high score (99.94%) to **Benign Neoplasm of Tongue** as a repurposing candidate, but this is currently supported by **zero clinical trials** and **zero publications**, and the model's own mechanistic rationale states no biologically plausible link exists between an anti-RSV antibody and this indication.
-
----
+Palivizumab is a humanized monoclonal antibody against the respiratory syncytial virus (RSV) F protein. The HSA record lists no approved indication text, but the drug is known for RSV prevention.
+The TxGNN model predicts it may be effective for **benign neoplasm of tongue**, but **0 clinical trials** and **0 publications** support this direction.
+This is a model-only prediction with no clinical backing.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | RSV (Respiratory Syncytial Virus) prophylaxis in high-risk infants (based on known drug identity — not covered by Singapore regulatory data, as the product is unmarketed here) |
-| Predicted New Indication | Benign Neoplasm of Tongue |
+| Original Indication | Not stated in the HSA record (palivizumab is known to be used for RSV prevention) |
+| Predicted New Indication | Benign neoplasm of tongue |
 | TxGNN Prediction Score | 99.94% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in this evidence pack. Based on known pharmacology, Palivizumab is a humanized monoclonal antibody directed against the F (fusion) glycoprotein of respiratory syncytial virus; its only established biological activity is viral neutralization, and it has no known interaction with oncogenic pathways (e.g., EGFR, VEGF, immune checkpoints) or with any tissue-specific process relevant to tongue neoplasia.
+Detailed mechanism-of-action data is not available in the source record. Palivizumab neutralizes RSV by binding the viral F protein, so its action is antiviral and specific to RSV.
 
-There is no known pharmacological, anatomical, or pathway-level relationship between RSV prophylaxis and benign tongue neoplasm. The evidence pack's own repurposing rationale is explicit on this point: it describes the high TxGNN score as most likely reflecting proximity between nodes in the knowledge graph (e.g., shared upper-respiratory/head-and-neck anatomical associations) rather than a genuine pharmacological signal.
+The predicted disease is a benign tumor of the tongue. Nothing links an anti-RSV F protein antibody to the biology of oral or lingual tumors. The drug has no known tumor-relevant target, and no similarity between the original and predicted indications could be established.
 
-This same pattern repeats across all ten top-ranked predictions for this drug in the evidence pack (epiglottis neoplasm, cervical neuroblastoma, hypopharynx/floor-of-mouth neoplasms, testicular tumor, cystic neoplasm, schwannoma, mesenchymoma, thyroglossal duct cyst) — all score near 99.94%, all are rated L5/Hold, and all carry rationale text stating no credible mechanistic link exists. This clustering suggests a systemic graph-embedding artifact for this drug rather than an isolated false positive, and should be treated as a signal to investigate the underlying node embeddings rather than a genuine repurposing lead.
+The score of 99.94% comes from the TxGNN knowledge-graph model alone. No trial or publication corroborates it, so it should be read as a hypothesis-generating signal, not as evidence of efficacy.
 
----
+The other nine top-ranked predictions are also L5 and also lack any plausible mechanistic link. They are benign neoplasm of hypopharynx, epiglottis neoplasm, cervical neuroblastoma, benign neoplasm of floor of mouth, tumor of testis and paratestis, cystic neoplasm, schwannoma of jugular foramen, mesenchymoma and thyroglossal duct cyst. Their scores are all between 99.935% and 99.939%. This tight cluster of near-identical scores across unrelated tumor types suggests a systematic model pattern, not a drug-specific signal.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Palivizumab is not currently marketed in Singapore (0 registered licenses). No local authorization, product, or approved-indication data is available for review.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN15112P | SYNAGIS SOLUTION FOR INJECTION 100MG/ML (Boehringer Ingelheim Pharma GmbH & Co. KG) | Injection, solution | Not stated in the record |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
----
+Please refer to the package insert for safety information. No drug interactions were found in the DrugBank query.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high, but there is no supporting clinical trial or literature evidence, and the model's own mechanistic rationale concludes the signal is not biologically plausible — most likely a knowledge-graph proximity artifact rather than a real repurposing opportunity. The drug is also not marketed in Singapore, so there is no local regulatory or safety data to build a submission on.
+The prediction is supported only by the model score. There are no clinical trials or publications, no plausible mechanistic link, and no safety data in the record. Repurposing a pathogen-specific antibody for benign tumors is not biologically justified on current information.
 
 **To proceed, the following is needed:**
-- Formal DrugBank/label-sourced mechanism of action (MOA) data (currently a data gap)
-- TFDA/manufacturer package insert warnings and contraindications (currently a data gap)
-- Independent biological rationale (e.g., target expression data in tongue/oral tissue) before this candidate is escalated beyond S0
-- If pursued at all, this should be treated as a low-priority signal requiring dedicated mechanistic investigation, not a standard evidence-collection cycle
+- HSA package insert warnings and contraindications (a blocking gap for safety screening)
+- Detailed mechanism-of-action data from DrugBank
+- A tumor-relevant target or biological rationale linking RSV F protein neutralization to the predicted disease
+- Any preclinical or clinical evidence for the predicted indication
+- Confirmation of the approved indication text for the Singapore license
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

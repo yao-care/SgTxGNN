@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Orlistat
-parent: High Evidence (L1-L2)
+parent: Low Evidence (L5)
 nav_order: 735
-evidence_level: L2
+evidence_level: L5
 indication_count: 10
 ---
 
 # Orlistat
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Orlistat: From Obesity Management to Fatty Liver Disease (NAFLD/NASH)
+# Orlistat: From Obesity Management to Hypervitaminosis
 
 ## One-Sentence Summary
 
-Orlistat is a gastrointestinal lipase inhibitor originally used for weight management in obesity. Among the 10 TxGNN-predicted indications reviewed, **Fatty Liver Disease (NAFLD/NASH)** is the only candidate backed by real-world evidence — **7 clinical trials** and **20 publications**, including RCTs and meta-analyses directly testing orlistat in NAFLD/NASH populations — while the model's top-ranked hits (hypervitaminosis, rare craniofacial syndromes, etc.) have zero supporting trials or literature and are treated here as low-confidence knowledge-graph associations rather than viable leads.
+Orlistat is a gastrointestinal lipase inhibitor marketed as an anti-obesity drug. The Singapore licence records provided contain no approved-indication text, so obesity is inferred from the drug's mechanism and its trial history.
+The TxGNN model gives its top-ranked prediction, **hypervitaminosis**, a score of 99.42%, but **0 clinical trials** and **0 publications** support it.
+Of the ten predicted indications, only fatty liver disease has meaningful evidence (6 trials, 20 publications), so it is discussed below as the most credible signal.
 
 ---
 
@@ -41,66 +43,75 @@ Orlistat is a gastrointestinal lipase inhibitor originally used for weight manag
 
 | Item | Content |
 |------|------|
-| Original Indication | Obesity / weight management (global indication; not registered in Singapore per current dataset) |
-| Predicted New Indication | Fatty Liver Disease (NAFLD/NASH) |
-| TxGNN Prediction Score | 85.26% |
-| Evidence Level | L2 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Original Indication | Not stated in the Singapore licence data (inferred: obesity, as a lipase inhibitor) |
+| Predicted New Indication | Hypervitaminosis |
+| TxGNN Prediction Score | 99.42% |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
 | Recommended Decision | Hold |
-
-**Note on candidate selection:** TxGNN's rank-1 prediction ("hypervitaminosis") scored 99.42%, but its own rationale flags it as a reverse-speculation of a known orlistat side effect (fat-soluble vitamin deficiency) with high safety concern and zero supporting evidence (L5/Hold). Ranks 2–7, 9 (microdeletion syndrome, obsolete hypertelorism, frontorhiny, hypoalphalipoproteinemia, ischemic stroke susceptibility, ABri amyloidosis, homozygous familial hypercholesterolemia) are similarly unsupported — no trials, no literature, and several explicitly flagged as likely knowledge-graph noise. Fatty liver disease (rank 8) is the only candidate with substantive clinical and literature evidence, so it is used as the primary subject of this report. Amenorrhea (rank 10) has one small cohort study and is not covered in depth here.
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (DrugBank MOA field returned a data gap). Based on known information, Orlistat is a pancreatic/gastric lipase inhibitor used for obesity and weight management; its efficacy in reducing body weight has been well established, and mechanistically this fat-absorption-reducing effect may directly reduce dietary fat delivery to the liver, plausibly lowering hepatic fat accumulation.
+Detailed mechanism-of-action data is not available in the record. Orlistat is known to inhibit gastrointestinal lipases, which reduces dietary fat absorption. It also lowers absorption of fat-soluble vitamins (A, D, E, K).
 
-Obesity and NAFLD/NASH are mechanistically and epidemiologically intertwined: excess adiposity and insulin resistance are the primary drivers of hepatic steatosis, and weight loss is recognized as first-line therapy for NAFLD. Since orlistat's core pharmacology (blocking ~30% of dietary fat absorption) produces sustained weight loss, a downstream reduction in hepatic fat content is biologically plausible — and this is not merely theoretical: orlistat has already been directly studied in NASH/NAFLD populations in multiple prospective and randomized trials (see below), rather than relying purely on an indirect "obesity → NAFLD" inference chain.
+This is the only conceivable link to hypervitaminosis. In routine use, reduced vitamin absorption is a documented adverse effect. In theory, that effect could lower vitamin levels in fat-soluble hypervitaminosis. No trial or publication tests this idea. The high TxGNN score is not backed by any clinical rationale, and the link is weak.
+
+Of the other nine predictions, most are likely knowledge-graph artifacts or indirect associations. Examples are obsolete ontology terms, craniofacial phenotypes, and ABri amyloidosis. Fatty liver disease is the exception. Orlistat-driven weight loss and reduced fat absorption plausibly improve hepatic steatosis in patients with obesity.
 
 ---
 
 ## Clinical Trial Evidence
 
+**Hypervitaminosis (top-ranked prediction):** Currently no related clinical trials registered.
+
+**Fatty liver disease (best-supported alternative prediction, TxGNN score 85.26%):**
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00207311](https://clinicaltrials.gov/study/NCT00207311) | Phase 4 | Completed | 30 | RCT of orlistat (Xenical) followed by PEG-interferon/Copegus for hepatitis C patients with significant hepatic steatosis or NASH |
-| [NCT00160407](https://clinicaltrials.gov/study/NCT00160407) | Phase 4 | Completed | 50 | Orlistat (Xenical) in overweight NASH patients — assessed weight loss and improvement in necroinflammatory/fibrotic liver changes |
-| [NCT00001723](https://clinicaltrials.gov/study/NCT00001723) | Phase 2 | Completed | 200 | Safety and efficacy of orlistat in adolescents with obesity-related comorbid conditions (African American and Caucasian cohorts) |
-| [NCT04270656](https://clinicaltrials.gov/study/NCT04270656) | N/A | Completed | 46 | Insulin pump therapy effects on liver/metabolic outcomes in T2D patients with non-alcoholic hepatic steatosis (context trial, not orlistat-specific) |
-| [NCT05934110](https://clinicaltrials.gov/study/NCT05934110) | Phase 2 | Unknown | 320 | Double-blind RCT comparing EMP16 (with acarbose) vs. modified-release orlistat, conventional orlistat, and placebo in overweight/obesity |
-| [NCT06501326](https://clinicaltrials.gov/study/NCT06501326) | Phase 4 | Unknown | 102 | Efficacy/safety of liraglutide (comparator context) in obesity with metabolism-associated fatty liver disease |
-| [NCT07437001](https://clinicaltrials.gov/study/NCT07437001) | N/A | Not yet recruiting | 60 | Electroacupuncture effect on central obesity and fatty liver in postmenopausal women (context trial, not orlistat-specific) |
+| [NCT00160407](https://clinicaltrials.gov/study/NCT00160407) | Phase 4 | Completed | 50 | Orlistat in overweight NASH patients; tests weight loss and improvement in necroinflammatory and fibrotic changes (most direct trial) |
+| [NCT00207311](https://clinicaltrials.gov/study/NCT00207311) | Phase 4 | Completed | 30 | Randomized, placebo-controlled trial of Xenical for steatosis/NASH before hepatitis C treatment |
+| [NCT00001723](https://clinicaltrials.gov/study/NCT00001723) | Phase 2 | Completed | 200 | Orlistat safety and efficacy in obese children and adolescents with obesity-related comorbidities; not liver-specific |
+| [NCT05934110](https://clinicaltrials.gov/study/NCT05934110) | Phase 2 | Unknown | 320 | 26-week study in overweight or obesity with orlistat comparator arms; indirect link to fatty liver |
 
 ---
 
 ## Literature Evidence
 
+**Hypervitaminosis (top-ranked prediction):** Currently no related literature available.
+
+**Fatty liver disease (best-supported alternative prediction):**
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [36781126](https://pubmed.ncbi.nlm.nih.gov/36781126/) | 2023 | RCT | Am J Clin Nutr | Randomized controlled trial comparing diet vs. orlistat for obesity and metabolic-associated fatty liver disease |
-| [38081992](https://pubmed.ncbi.nlm.nih.gov/38081992/) | 2024 | RCT | Eur J Pediatr | RCT of orlistat in overweight/obese adolescents with NAFLD |
-| [41768122](https://pubmed.ncbi.nlm.nih.gov/41768122/) | 2026 | Systematic Review / Meta-analysis (RCTs) | Curr Ther Res Clin Exp | GRADE-assessed meta-analysis of orlistat's effect on cardiometabolic indices in MASLD |
-| [38910819](https://pubmed.ncbi.nlm.nih.gov/38910819/) | 2024 | Systematic Review / Meta-analysis (RCTs) | Proc (Baylor Univ Med Cent) | Meta-analysis of RCTs on orlistat efficacy in obese patients with NAFLD/MASLD |
-| [41069538](https://pubmed.ncbi.nlm.nih.gov/41069538/) | 2024 | Prospective clinical study | Acta Endocrinol (Bucur) | Early effect of orlistat on NASH and atherogenicity indices in obese NAFLD patients |
-| [33072533](https://pubmed.ncbi.nlm.nih.gov/33072533/) | 2020 | Systematic Review / Network Meta-analysis | Adv Pharm Bull | Network meta-analysis of pharmacologic treatments (including orlistat) for NAFLD |
-| [35501557](https://pubmed.ncbi.nlm.nih.gov/35501557/) | 2022 | Review | Curr Obes Rep | Review of anti-obesity medications' hepatic histology effects in NAFLD |
-| [18095746](https://pubmed.ncbi.nlm.nih.gov/18095746/) | 2008 | Review | Drug Safety | Critical review of orlistat-associated adverse effects and drug interactions |
-| [27646933](https://pubmed.ncbi.nlm.nih.gov/27646933/) | 2017 | Review | Gut | Review of current and upcoming NAFLD pharmacotherapy, including repurposed agents |
-| [30502373](https://pubmed.ncbi.nlm.nih.gov/30502373/) | 2019 | Review | Metabolism | Review of obesity-NAFLD pathophysiology and therapeutic rationale |
+| [36781126](https://pubmed.ncbi.nlm.nih.gov/36781126/) | 2023 | RCT | Am J Clin Nutr | Diet versus orlistat in obesity with metabolic-associated fatty liver disease |
+| [38081992](https://pubmed.ncbi.nlm.nih.gov/38081992/) | 2024 | RCT | Eur J Pediatr | Orlistat in 53 adolescents with overweight/obesity and NAFLD |
+| [38910819](https://pubmed.ncbi.nlm.nih.gov/38910819/) | 2024 | Meta-analysis | Proc (Bayl Univ Med Cent) | Systematic review of RCTs on orlistat in obese NAFLD patients |
+| [41768122](https://pubmed.ncbi.nlm.nih.gov/41768122/) | 2026 | Meta-analysis | Curr Ther Res | Effect of orlistat on cardiometabolic indices in MASLD, GRADE-assessed |
+| [41069538](https://pubmed.ncbi.nlm.nih.gov/41069538/) | 2024 | Clinical study | Acta Endocrinol | Early effect of orlistat on NASH and atherogenicity indices in obese NAFLD |
+| [35501557](https://pubmed.ncbi.nlm.nih.gov/35501557/) | 2022 | Review | Curr Obes Rep | Anti-obesity medications for NAFLD, focusing on hepatic histology |
+| [18095746](https://pubmed.ncbi.nlm.nih.gov/18095746/) | 2008 | Review | Drug Saf | Orlistat adverse effects and drug interactions |
 
 ---
 
 ## Singapore Market Information
 
-Orlistat currently holds no market authorization in Singapore under this dataset (0 registrations on record; market status: **Not Marketed**).
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN13046P | XENICAL CAPSULE 120MG | Capsule | Not listed in the record |
+| SIN15312P | OBELIT 120 CAPSULE 120MG | Capsule, gelatin coated | Not listed in the record |
+
+Both products are oral capsules.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. (Local warnings, contraindications, and drug-interaction data could not be retrieved from the current sources — this is a **blocking** data gap for safety screening, see below.)
+Please refer to the package insert for safety information.
+
+The record shows no drug-interaction entries. The published review (PMID 18095746) notes that orlistat commonly causes mild-to-moderate gastrointestinal adverse effects, such as oily stools, diarrhoea and abdominal pain. It also reduces absorption of fat-soluble vitamins, which is relevant to any use in vitamin-related conditions.
 
 ---
 
@@ -109,14 +120,15 @@ Please refer to the package insert for safety information. (Local warnings, cont
 **Decision: Hold**
 
 **Rationale:**
-Orlistat's use in NAFLD/NASH has real supporting evidence — completed Phase 2/4 trials and published RCTs plus two meta-analyses — making it a mechanistically and clinically plausible repurposing candidate. However, orlistat has no current Singapore market registration, and the drug-level safety label (warnings/contraindications) is entirely missing, which blocks the mandatory initial safety screening (S1) regardless of efficacy evidence quality.
+The top-ranked prediction, hypervitaminosis, rests on a model score alone. It has no trials, no literature and a weak clinical rationale. Only fatty liver disease has real support (L2 in the record), and even that is limited to small Phase 4 studies, a few RCTs and meta-analyses, with no Phase 3 RCT using hepatic histology endpoints. The other eight predictions are L5 or L4 and should also be held.
 
 **To proceed, the following is needed:**
-- Obtain the official package insert (warnings/contraindications) to close the blocking data gap (DG001) and complete S1 safety screening
-- Retrieve detailed DrugBank mechanism-of-action data (DG002) to strengthen the mechanistic rationale
-- Clarify Singapore/regional regulatory pathway and registration status for orlistat before any local development plan
-- Complete drug-drug interaction (DDI) profiling — current query returned no results
-- Given most direct evidence is Phase 2/4 with modest sample sizes (N=30–200), consider whether a dedicated Phase 3 RCT in NAFLD/NASH is warranted before advancing beyond guardrail-stage evaluation
+- Singapore package insert warnings, contraindications and approved-indication text (currently missing)
+- Mechanism-of-action data from DrugBank
+- For fatty liver disease, as the more promising direction: a Phase 3 RCT with liver histology endpoints, plus a plan to monitor fat-soluble vitamins and GI adverse effects
+- For hypervitaminosis: a literature and mechanism review to decide whether the prediction merits any study
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

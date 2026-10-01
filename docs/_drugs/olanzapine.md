@@ -29,60 +29,75 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Olanzapine: From Schizophrenia to Benign Paroxysmal Torticollis of Infancy
+# Olanzapine: From Antipsychotic Use to Benign Paroxysmal Torticollis of Infancy
 
 ## One-Sentence Summary
 
-Olanzapine is an atypical antipsychotic internationally approved for **schizophrenia and bipolar I disorder**. The TxGNN model's top-ranked prediction is **Benign Paroxysmal Torticollis of Infancy**, but this direction currently has **0 clinical trials** and **0 publications** — it is a model-score-only prediction with no supporting evidence.
+Olanzapine is a marketed antipsychotic medicine, but the Singapore registration records supplied do not state its approved indication.
+The TxGNN model predicts it may be effective for **benign paroxysmal torticollis of infancy**, but **no clinical trials and no publications** currently support this direction, so it is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Schizophrenia, Bipolar I Disorder (internationally established use; drug is not registered in Singapore, so no local approved-indication text is available) |
-| Predicted New Indication | Benign Paroxysmal Torticollis of Infancy |
+| Predicted New Indication | Benign paroxysmal torticollis of infancy |
 | TxGNN Prediction Score | 99.54% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 19 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known pharmacology, olanzapine is a thienobenzodiazepine-class atypical antipsychotic that antagonizes D1–D4 dopamine, 5-HT2A/2C serotonin, muscarinic, histamine H1, and α1-adrenergic receptors; its efficacy in schizophrenia and bipolar I disorder is well established.
+Currently, detailed mechanism of action data is not available for this report. Olanzapine is a marketed antipsychotic, but no drug-level mechanism was supplied that would connect it to this condition.
 
-Benign paroxysmal torticollis of infancy, however, is an episodic vestibular disorder of early childhood believed to sit on the migraine spectrum. There is no known mechanistic link between D2/5-HT2A receptor antagonism and this condition's pathophysiology, and the extrapyramidal side-effect risk of antipsychotics in infants further undermines plausibility.
+Benign paroxysmal torticollis of infancy is a self-limited childhood condition, thought to be related to channelopathy. The analysis found no plausible mechanism by which olanzapine would treat it, and no trials or literature were retrieved. The high score (99.54%) reflects a pattern in the knowledge graph. It is not clinical or mechanistic evidence.
 
-Taken together, this is the highest-scoring TxGNN output by rank, but it is not accompanied by any mechanistic rationale, clinical trial, or literature support. It should be read as a raw model signal rather than a substantiated repurposing hypothesis.
+Exposing infants to an antipsychotic would also raise safety concerns, especially for a condition that resolves on its own.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Olanzapine is not currently registered in Singapore under this evidence pack (0 licenses on file); no product/dosage-form/indication records are available for listing.
+The registry data supplied do not include approved indication text for these products. Five of the 19 registrations are listed below.
+
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN15246P | TOLANZ ODT TABLETS 5 MG | Orally disintegrating tablet | Torrent Pharmaceuticals Ltd |
+| SIN14228P | Olanzapine Mevon Film-coated Tablets 10 mg | Film-coated tablet | Pharmathen S.A. |
+| SIN09410P | ZYPREXA TABLET 10 mg | Film-coated tablet | Lilly Del Caribe, Inc. / Lilly S.A. |
+| SIN13957P | Onzapin ODT Orodispersible Tablet 5 mg | Orally disintegrating tablet | Actavis Ltd. |
+| SIN14124P | OLANKLINE TABLETS 5MG | Film-coated tablet | Dr Reddy's Laboratories Limited |
+
+All listed products are oral forms.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: The interaction query returned no records.
+- **Pediatric exposure**: The analysis flagged safety concerns about giving an antipsychotic to infants.
+
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The top-ranked prediction (Benign Paroxysmal Torticollis of Infancy) has zero clinical trials, zero literature, no plausible mechanistic link, and is explicitly scored L5/S0 — model prediction only, insufficient to advance.
-- The drug is not currently marketed in Singapore, and a Blocking data gap (TFDA/HSA label warnings and contraindications) prevents even a preliminary safety assessment.
+This is a model prediction only (L5). There are no trials, no literature and no documented mechanism. A pediatric antipsychotic exposure for a self-limited condition is difficult to justify.
 
 **To proceed, the following is needed:**
-- Official label/package insert data (warnings, contraindications, DDI) to close the Blocking data gap
-- Confirmed mechanism-of-action documentation (currently a data gap)
-- If pursuing repurposing further, note that other candidates in this same evidence pack — **neurotic depression** and **melancholia** (rank 6–7, Evidence Level L2, "Proceed with Guardrails") — are backed by multiple systematic reviews/network meta-analyses and align with the already-approved olanzapine–fluoxetine combination for treatment-resistant depression; these represent a substantially stronger basis for evaluation than the top TxGNN-ranked candidate above.
+- Mechanism of action data for olanzapine, and a plausible biological link to this condition
+- HSA package insert warnings and contraindications
+- Any published case reports or clinical evidence in this condition
+- A pediatric risk-benefit assessment
+
+Other predictions for this drug have far stronger support. For example, the neurotic depression prediction (rank 6) has multiple systematic reviews and network meta-analyses and is rated L2 with "Proceed with Guardrails". Prioritising that candidate would be a better use of review effort.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

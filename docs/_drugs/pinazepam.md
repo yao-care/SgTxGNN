@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Pinazepam
-parent: Low Evidence (L5)
+parent: Medium Evidence (L3-L4)
 nav_order: 785
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Pinazepam
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,78 +29,73 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pinazepam: From Anxiolytic Use to Insomnia
+# Pinazepam: From Anxiety to Insomnia
 
 ## One-Sentence Summary
 
-> Pinazepam is a benzodiazepine derivative; based on published pharmacology literature it has historically been used as an anxiolytic/sedative, though this evidence pack does not contain a formally documented original indication.
-> The TxGNN model's top-ranked prediction suggests it may be effective for **Insomnia**,
-> but currently only **1 clinical trial** (unrelated to pinazepam) and **no drug-specific literature** support this specific direction.
-
----
+Pinazepam is a benzodiazepine anxiolytic. Its literature describes anxiety control, and the Singapore registration record does not state an approved indication.
+The TxGNN model predicts it may be effective for **Insomnia**, but the evidence is very thin: **1 registered clinical trial** (unrelated to the drug) and **0 publications** specific to insomnia.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not formally documented (drug not marketed in Singapore); historically used as an anxiolytic/sedative per published pharmacology literature |
-| Predicted New Indication | Insomnia (disease) |
+| Original Indication | Anxiety (from the pinazepam literature; not stated in the HSA record) |
+| Predicted New Indication | Insomnia |
 | TxGNN Prediction Score | 99.95% |
-| Evidence Level | L5 |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, Pinazepam is a benzodiazepine derivative that is metabolized to N-desmethyldiazepam — the same active metabolite shared with diazepam. Pharmacology literature (e.g., PMID 6147192) indicates it has anxiolytic and mild sedative properties in animal and early human studies, with lower hypnotic activity than diazepam.
+Detailed mechanism of action data is not available in the database. Pinazepam is a 1,4-benzodiazepine with a propargyl group at the N1 position. It acts largely as a prodrug: it is converted to N-desmethyldiazepam (nordazepam), an active GABA-A positive allosteric modulator. Benzodiazepines as a class have sedative-hypnotic effects, so the prediction is biologically plausible at class level.
 
-Anxiety and insomnia are both CNS conditions commonly managed with benzodiazepines via GABA-A receptor positive allosteric modulation, which produces both anxiolytic and sedative-hypnotic effects. This shared mechanism is the basis for TxGNN linking pinazepam to insomnia.
-
-However, this mechanistic plausibility is class-level, not drug-specific: the repurposing rationale explicitly notes that pinazepam's original MoA is a data gap and there is no insomnia-specific clinical evidence for this compound. The single associated clinical trial (NCT04151485) was flagged internally as **Grade C relevance** — it studies a fertility psychological intervention and has no connection to pinazepam or sleep pharmacology. Other pinazepam-related predictions in this evidence pack (e.g., anxiety, anxiety disorder) are supported by actual pinazepam-specific open-label studies from the 1970s–80s and carry stronger evidence levels (L3), which may be a more promising repurposing direction than insomnia.
-
----
+The prediction rests on class-level reasoning only. The 1984 pharmacology review notes that pinazepam has a particularly low hypnotic effect and limited impairment of motor coordination in animals. This runs against its use as a sleep aid. Nordazepam also has a long half-life, which raises concern about next-day sedation.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT04151485](https://clinicaltrials.gov/study/NCT04151485) | N/A | Unknown | 177 | Study of a psychological Mind/Body fertility program in Hungary; **not related to pinazepam or insomnia treatment** — internally graded as low relevance (Grade C), included only due to disease-keyword overlap |
+| [NCT04151485](https://clinicaltrials.gov/study/NCT04151485) | N/A | Unknown | 177 | Mind/Body psychological program for women in fertility treatment. No drug is tested and insomnia is not targeted (relevance grade C). |
 
----
+No registered trial tests pinazepam or any benzodiazepine for insomnia.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for insomnia.
 
----
+Pinazepam-specific literature exists only for anxiety and pharmacokinetics (for example, a 1984 review, PMID 6147192). None of it addresses insomnia.
 
 ## Singapore Market Information
 
-Pinazepam has no marketing authorizations on record in Singapore (0 registrations; market status: Not Marketed). No product-level licensing data is available for this evidence pack.
-
----
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN01038P | DOMAR CAPSULE 5 mg | Capsule | POLIPHARM CO LTD |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No warnings, contraindications or drug interaction records are available in the current data.
 
----
+Class-level guardrails noted in the evidence review:
+- **Next-day sedation**: the active metabolite nordazepam has a long half-life.
+- **Dependence and abuse liability**: these apply to benzodiazepines generally.
+- **Placental transfer**: documented for pinazepam and nordazepam in pregnant women at term.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (insomnia) is supported only by a class-level mechanistic argument (benzodiazepine GABA-A modulation); the one linked clinical trial is unrelated to pinazepam, and no literature directly evaluates pinazepam for insomnia. This corresponds to Evidence Level L5 — model prediction only.
+The insomnia prediction has a high model score but no pinazepam-specific trials or publications. Its only support is class-level mechanism, and the pinazepam literature points to a low hypnotic effect. Benzodiazepine risks (residual sedation, dependence) also weigh against it.
 
 **To proceed, the following is needed:**
-- Original mechanism of action (MOA) data for pinazepam (currently a blocking data gap)
-- Singapore/TFDA-equivalent package insert warnings and contraindications (currently a blocking data gap for safety screening)
-- Insomnia-specific preclinical or clinical studies on pinazepam (none currently exist)
-- Consider evaluating the **anxiety / anxiety disorder** predictions instead (rank 6 and rank 8 in this evidence pack), which are supported by pinazepam-specific open-label clinical studies (PMID 12907, PMID 7006888) and carry a stronger L3/S2 evidence rating
+- The HSA package insert (warnings, contraindications, approved indication)
+- Detailed mechanism of action data (MOA), for example from DrugBank
+- Pinazepam-specific clinical evidence in insomnia, ideally a controlled trial
+- A comparison against established hypnotics, including residual sedation and dependence risk
+- If anxiety is the most defensible direction, review it separately: two of the studies in that literature are older uncontrolled clinical studies
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

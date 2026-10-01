@@ -33,33 +33,32 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Calcipotriol is a synthetic Vitamin D3 analogue (VDR agonist) widely used as a topical treatment for plaque psoriasis.
-The TxGNN model predicts it may be effective for **Seborrheic Keratosis**, with **0 clinical trials** and **6 publications** currently supporting this direction.
-The mechanistic rationale is well-grounded, and short-term clinical case series show promising complete remission rates.
+Calcipotriol is a topical vitamin D analogue marketed in Singapore as ointment and gel products (Daivonex, Daivobet). Its approved indication is not recorded in the local registration data. It is generally known for psoriasis, an inference not stated in the source data.
+The TxGNN model predicts it may be effective for **seborrheic keratosis**, with **0 registered clinical trials** and **6 publications** (mostly small case-level reports) supporting this direction.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Plaque psoriasis (topical treatment) |
-| Predicted New Indication | Seborrheic Keratosis |
+|------|------|
+| Original Indication | Not listed in the Singapore registration records (general knowledge: psoriasis, unverified here) |
+| Predicted New Indication | Seborrheic keratosis |
 | TxGNN Prediction Score | 99.96% |
 | Evidence Level | L3 |
-| Singapore Market Status | Not marketed (0 registrations) |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 3 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Calcipotriol is a synthetic Vitamin D3 analogue that binds and activates the Vitamin D Receptor (VDR). Through VDR activation, calcipotriol downregulates cyclin D1 and upregulates the cell-cycle inhibitors p21 and p27, suppressing keratinocyte proliferation. It also induces apoptosis in abnormal keratinocytes via the Bax/Bcl-2 pathway — a mechanism directly demonstrated in clinical studies of topical vitamin D3 analogues applied to seborrheic keratosis lesions (PMID 16043912).
+Currently, detailed mechanism of action data is not available from DrugBank. Calcipotriol is a vitamin D receptor agonist. Based on general vitamin D analogue pharmacology, it inhibits keratinocyte proliferation and promotes keratinocyte differentiation. This is the basis for its use in hyperproliferative skin disease.
 
-Seborrheic keratosis is characterised by benign, slow-growing epidermal hyperproliferation — pathologically analogous to the dysregulated keratinocyte turnover seen in psoriasis, calcipotriol's established indication. Unlike malignant tumours, benign keratotic lesions tend to be more responsive to VDR-mediated anti-proliferative signalling, making the mechanistic extension biologically sound. The topical route of administration is identical for both conditions, eliminating formulation compatibility concerns.
+Seborrheic keratosis is a common benign epithelial tumour of the elderly, marked by keratinocyte overgrowth. It is usually treated with cryotherapy, surgery or laser. A topical agent that slows keratinocyte growth is therefore mechanistically plausible. One Japanese study (PMID 16043912) suggests topical vitamin D3 analogues may act by inducing apoptosis in these lesions.
 
-Multiple clinical case series have reported complete regression of seborrheic keratoses following topical 0.005% calcipotriol application over 3–8 months, with sustained remission lasting 6–10 years (PMID 36752725). A larger clinical study of 116 cases treated with active vitamin D3 analogues including calcipotriol showed a 30.2% complete response rate (PMID 16043912). This positions calcipotriol as a potentially viable non-invasive alternative to the standard cryosurgical approach, particularly for cosmetically sensitive facial lesions.
+This link rests on general pharmacology and small human reports. It has not been confirmed in a registered trial.
 
 ---
 
@@ -72,19 +71,25 @@ Currently no related clinical trials registered.
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [36752725](https://pubmed.ncbi.nlm.nih.gov/36752725/) | 2023 | Prospective Clinical Study | Australasian Journal of Dermatology | 12 patients with facial seborrheic keratosis treated with 0.005% calcipotriol ointment; complete regression in all cases after 3–8 months; remission sustained for 6–10 years |
-| [16043912](https://pubmed.ncbi.nlm.nih.gov/16043912/) | 2005 | Clinical Study | The Journal of Dermatology | 116 seborrheic keratosis cases treated with topical vitamin D3 analogues (tacalcitol, calcipotriol, maxacalcitol); 30.2% complete response rate; proposed mechanism is VDR-induced apoptosis |
-| [15577148](https://pubmed.ncbi.nlm.nih.gov/15577148/) | 2004 | Clinical Study / Case Series | Clinical Calcium | Active vitamin D3 ointments including calcipotriol applied once or twice daily showed effectiveness against senile warts (seborrheic keratosis) in elderly patients |
-| [15090020](https://pubmed.ncbi.nlm.nih.gov/15090020/) | 2004 | Comparative Controlled Study | International Journal of Dermatology | Compared standard cryosurgery versus topical calcipotriene, tazarotene, and imiquimod in seborrheic keratoses; assessing patient preference for topical alternatives |
-| [10721662](https://pubmed.ncbi.nlm.nih.gov/10721662/) | 2000 | Case Report | The Journal of Dermatology | Patient with keratosis lichenoides chronica (a keratotic dermatosis with seborrheic dermatitis-like features) showed marked clinical response to calcipotriol ointment |
-| [21534378](https://pubmed.ncbi.nlm.nih.gov/21534378/) | 2011 | Case Report | JAAPA | Clinical vignette describing seborrheic keratosis presentation and differential diagnosis considerations |
+|------|-----|------|------|---------|
+| [15577148](https://pubmed.ncbi.nlm.nih.gov/15577148/) | 2004 | Review / clinical note | Clinical Calcium | Overview of topical active vitamin D3 (tacalcitol, calcipotriol, maxacalcitol) applied once or twice daily to senile warts (seborrheic keratosis) |
+| [16043912](https://pubmed.ncbi.nlm.nih.gov/16043912/) | 2005 | Clinical study | J Dermatol | 116 cases treated for 3–12 months with topical vitamin D3 analogues. 35 (30.2%) showed a reported response. The abstract excerpt is truncated, and the study suggests an apoptosis-related effect |
+| [36752725](https://pubmed.ncbi.nlm.nih.gov/36752725/) | 2023 | Case series | Australas J Dermatol | 12 patients with solitary facial seborrheic keratosis used 0.005% calcipotriol ointment for 3–8 months. All lesions regressed completely, with 6–10 years of remission |
+| [15090020](https://pubmed.ncbi.nlm.nih.gov/15090020/) | 2004 | Comparative clinical study | Int J Dermatol | Compared standard cryosurgery with topical calcipotriene, tazarotene and imiquimod. The abstract gives no results |
+| [10721662](https://pubmed.ncbi.nlm.nih.gov/10721662/) | 2000 | Case report | J Dermatol | Marked response to calcipotriol ointment in keratosis lichenoides chronica, a related keratotic disorder rather than seborrheic keratosis |
+| [21534378](https://pubmed.ncbi.nlm.nih.gov/21534378/) | 2011 | Clinical vignette | JAAPA | Case-based description of seborrheic keratosis presenting as an itchy shin rash. No abstract, and no clear calcipotriol data |
 
 ---
 
 ## Singapore Market Information
 
-Calcipotriol is not currently registered with the Health Sciences Authority (HSA) in Singapore. No market authorisations are on record.
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN06587P | DAIVONEX OINTMENT 50 mcg/g | Ointment | LEO Laboratories Limited |
+| SIN14318P | Daivobet Gel 50mcg/g + 0.5mg/g | Gel | LEO Pharma A/S & LEO Laboratories Ltd |
+| SIN12241P | DAIVOBET OINTMENT | Ointment | LEO Laboratories Limited |
+
+Approved indication text is blank in all three records.
 
 ---
 
@@ -96,17 +101,21 @@ Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Multiple clinical studies — including a prospective case series demonstrating complete regression with up to 10-year follow-up — support the topical use of calcipotriol for seborrheic keratosis via a mechanistically well-grounded VDR-mediated anti-proliferative pathway. The evidence base reaches L3, which is sufficient to justify formal feasibility planning, provided that missing safety data and regulatory gaps are resolved before clinical use.
+The evidence is limited to small case-level reports and one uncontrolled series, with no registered trials. The safety data needed for screening (package insert warnings and contraindications) is missing, which blocks progression. The link is biologically plausible, so seborrheic keratosis is best treated as a research question rather than a candidate for adoption.
+
+The other nine predicted indications are weaker. Most are prediction-only (L5) with no supporting literature or clear mechanism, such as vulvovaginitis, atrophic vaginitis, bone Paget disease and breast fibrocystic disease. Vulvitis and vulvar neoplasm have only indirect case-level reports, including one on combination therapy with fluorouracil for extramammary Paget disease.
 
 **To proceed, the following is needed:**
-- Obtain and review the full safety profile: package insert warnings, contraindications, and drug interactions (TFDA/international label)
-- Confirm the import/registration pathway for calcipotriol with HSA, as there are currently no Singapore-registered products
-- Retrieve detailed mechanism of action data from DrugBank to complete the pharmacological assessment
-- Commission or identify a prospective randomised controlled trial comparing calcipotriol against standard cryotherapy to establish Level 1–2 evidence
-- Conduct a pharmacokinetic safety assessment of percutaneous absorption from keratotic skin and evaluate risk of hypercalcaemia with prolonged topical use over large surface areas
+- Singapore package insert warnings and contraindications from the HSA website
+- Mechanism of action data from DrugBank
+- Confirmation of the approved original indication
+- A randomised, controlled trial of topical calcipotriol versus standard treatment such as cryotherapy in seborrheic keratosis
+- Tolerability data if any genital or mucosal site is considered
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

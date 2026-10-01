@@ -29,11 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Midostaurin: From Undocumented Original Indication to Familial Thrombocytosis
+# Midostaurin: From a Multikinase Inhibitor to Familial Thrombocytosis
 
 ## One-Sentence Summary
 
-Midostaurin's original approved indication and mechanism of action are not documented in this evidence pack (flagged as data gaps DG002 and unrecorded `original_indications`). The TxGNN model predicts it may be effective for **Familial Thrombocytosis**, but this ranking currently has **0 clinical trials** and **0 publications** supporting it — the model's own rationale notes no known mechanistic overlap between midostaurin's targets and this disease's genetic drivers.
+Midostaurin is an oral multikinase inhibitor (FLT3, KIT, PKC, VEGFR2, PDGFR) that is marketed in Singapore as RYDAPT soft capsules.
+The TxGNN model predicts it may be effective for **familial thrombocytosis**, but there are currently **0 clinical trials** and **0 publications** for this indication, so this is a model-only prediction.
 
 ---
 
@@ -41,41 +42,57 @@ Midostaurin's original approved indication and mechanism of action are not docum
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this evidence pack (data gap) |
-| Predicted New Indication | Familial Thrombocytosis |
+| Predicted New Indication | Familial thrombocytosis |
 | TxGNN Prediction Score | 98.92% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for midostaurin is not available from DrugBank in this evidence pack. From literature associated with a different candidate indication in this same pack (metastatic melanoma, PMID 16969355), midostaurin is described as a multikinase inhibitor of protein kinase C alpha (PKCα), VEGFR2, KIT, PDGFR, and FLT3 — but this characterization is incidental to this report's primary prediction and has not been independently verified against DrugBank for this candidate.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on published literature, midostaurin potently inhibits PKCα, VEGFR2, KIT, PDGFR and FLT3 tyrosine kinases.
 
-For the top-ranked prediction, familial thrombocytosis, the evidence pack's own mechanistic assessment is unfavorable: this disease is typically driven by germline mutations in *THPO* or *MPL*, pathways with no documented overlap with midostaurin's known targets (PKC/FLT3/KIT). The high TxGNN score therefore appears to reflect a statistical association in the knowledge graph rather than a validated biological pathway, and is not corroborated by any clinical trial or published literature.
+Familial thrombocytosis is typically driven by germline variants in THPO, MPL or JAK2. Midostaurin mainly acts on FLT3, KIT and PKC, so no direct mechanistic link is evident. The high score most likely reflects knowledge-graph proximity to myeloproliferative disease nodes rather than a validated pathway.
 
-Notably, this candidate's own predicted-indications list contains other entries with somewhat more substantive evidence — thrombocythemia (rank 5, L4, supported by FLT3-ITD mouse-model literature) and metastatic melanoma (rank 3, L2, supported by a completed Phase 2 trial) — but the melanoma trial (PMID 16969355) concluded midostaurin **lacked activity** in that setting, which further weakens confidence in extrapolating this drug's targets to other indications in this family.
+The prediction should therefore be treated as a hypothesis-generating signal, not as evidence of benefit.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
+
+---
+
+## Other Predicted Indications (Context)
+
+Of the 10 predictions, only two have any literature. Neither supports a clinical benefit.
+
+| Predicted Indication | Score | Evidence Level | Key Findings |
+|------|------|------|------|
+| Metastatic melanoma | 97.64% | L3 | A phase IIA trial ([PMID 16969355](https://pubmed.ncbi.nlm.nih.gov/16969355/), Br J Cancer, 2006) found midostaurin lacked activity. Mouse studies ([12527035](https://pubmed.ncbi.nlm.nih.gov/12527035/), [12820400](https://pubmed.ncbi.nlm.nih.gov/12820400/)) showed reduced metastasis, and a KIT inhibitor review ([29704617](https://pubmed.ncbi.nlm.nih.gov/29704617/)) is also available. |
+| Thrombocythemia | 97.48% | L4 | Only indirect evidence: two MPN reviews ([29277359](https://pubmed.ncbi.nlm.nih.gov/29277359/), [23471017](https://pubmed.ncbi.nlm.nih.gov/23471017/)) and a FLT3-ITD transgenic mouse model of myeloproliferative disease ([16116483](https://pubmed.ncbi.nlm.nih.gov/16116483/)). No clinical data for midostaurin. |
+
+The remaining seven predictions have no trials or literature. They are reactive thrombocytosis, inverse Klippel-Trenaunay syndrome, non-cutaneous melanoma, epithelioid cell melanoma, eyelid melanoma, scrotum melanoma and mucosal melanoma. All are L5, Hold.
+
+Literature classification is based on truncated titles and abstracts only.
 
 ---
 
 ## Singapore Market Information
 
-Midostaurin has no marketing authorizations on record in Singapore (0 registrations; market status: not marketed).
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN15518P | RYDAPT SOFT CAPSULE 25MG | Capsule, liquid filled (oral) | Not stated in the registration record |
 
 ---
 
@@ -83,10 +100,10 @@ Midostaurin has no marketing authorizations on record in Singapore (0 registrati
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (multi-kinase inhibitor: PKC/FLT3/KIT/PDGFR/VEGFR2), based on literature associated with a separate candidate indication in this pack; not confirmed against DrugBank categories for this report |
+| Cytotoxicity Classification | Targeted therapy (multikinase inhibitor) |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert warnings and precautions (at minimum, CBC and liver and renal function are usual for antineoplastic kinase inhibitors) |
 | Handling Protection | Please refer to the package insert warnings and precautions |
 
 ---
@@ -102,14 +119,16 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (familial thrombocytosis) has no clinical trial or literature support and is an L5, model-prediction-only signal. The evidence pack's own mechanistic review finds no credible target overlap between midostaurin and this disease's known genetic drivers, so the prediction does not currently warrant advancement.
+The top prediction rests on a model score alone, with no trials, no literature and no evident mechanistic link. The closest clinical signal, in metastatic melanoma, was negative.
 
 **To proceed, the following is needed:**
-- TFDA/HSA label warnings and contraindications (blocking gap, DG001)
-- Confirmed mechanism of action from DrugBank (DG002)
-- Documented original approved indication(s) for this drug
-- Preclinical or mechanistic studies directly linking midostaurin's targets (PKC/FLT3/KIT) to thrombopoiesis pathways (THPO/MPL) before further evaluation of this specific indication
-- If pursuing alternative candidates in this pack, dedicated evaluation of thrombocythemia (L4) or re-assessment of melanoma-family indications in light of the existing negative Phase 2 result
+- HSA package insert (warnings, contraindications, approved indication), which is a blocking gap for safety screening
+- Mechanism of action data from DrugBank
+- Preclinical evidence linking FLT3/KIT/PKC inhibition to thrombocytosis, or a review of the underlying THPO/MPL/JAK2 biology
+- Route compatibility and similarity-to-original assessments, both still pending
+- If a lead is wanted, prioritise thrombocythemia (L4, "Research Question") over familial thrombocytosis, and confirm that any FLT3-related MPN signal is not simply explained by JAK2/CALR/MPL drivers
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

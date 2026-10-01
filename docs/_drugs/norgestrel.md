@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Norgestrel
-parent: High Evidence (L1-L2)
+parent: Medium Evidence (L3-L4)
 nav_order: 716
-evidence_level: L2
+evidence_level: L4
 indication_count: 10
 ---
 
 # Norgestrel
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,12 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Norgestrel: From Contraception to Amenorrhea
+# Norgestrel: From Progestin Hormonal Therapy to Amenorrhea
 
 ## One-Sentence Summary
 
-> Norgestrel is a synthetic progestin historically used as a component of hormonal contraceptives (fertility control).
-> The TxGNN model predicts it may be effective for **Amenorrhea**,
-> with **4 clinical trials** and **20 publications** currently identified in relation to this indication.
+Norgestrel is a synthetic progestin, and levonorgestrel is its active enantiomer. It is registered in Singapore as PROGYLUTON TABLET, but the registration record does not state the approved indication.
+The TxGNN model predicts it may be effective for **amenorrhea** (score 98.8%), but the **4 registered clinical trials** and **20 publications** are only indirect support. None of them tests norgestrel as a treatment for amenorrhea.
 
 ---
 
@@ -43,23 +42,23 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Contraception (fertility control) — no official Singapore label text available |
-| Predicted New Indication | Amenorrhea (disease) |
+| Original Indication | Not stated in the Singapore registration record |
+| Predicted New Indication | Amenorrhea |
 | TxGNN Prediction Score | 98.81% |
-| Evidence Level | L2 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data specific to Norgestrel is currently a data gap. Based on the information available in this evidence pack, Norgestrel is the racemic mixture whose active enantiomer is levonorgestrel — a synthetic progestin that acts as a progesterone-receptor agonist. Pharmacologically, this suppresses ovulation and induces endometrial atrophy, an effect that is well documented for levonorgestrel-releasing systems such as the LNG-IUS (e.g., Mirena), which are used clinically to induce amenorrhea and to reduce excessive menstrual bleeding.
+Detailed mechanism of action data is not available in the DrugBank field for this drug. From its pharmacology, norgestrel acts as a progesterone receptor agonist. It suppresses gonadotropins and thins the endometrium. That makes it plausible for inducing progestin withdrawal bleeding in secondary amenorrhea.
 
-The link between the original indication (hormonal contraception) and the predicted new indication (amenorrhea) is mechanistically direct: amenorrhea is a known, reproducible pharmacological effect of progestin exposure via receptor-mediated endometrial suppression, and it is already exploited therapeutically in LNG-IUS-based menorrhagia/amenorrhea management. This gives the TxGNN prediction strong biological plausibility.
+The link between the drug and the disease points in an ambiguous direction, though. Amenorrhea is mainly a known *effect* of progestin exposure, seen with levonorgestrel-releasing systems. It is not a demonstrated *treatment target*. The model's prediction may partly reflect this association.
 
-However, nearly all of the identified clinical trial and literature evidence concerns the levonorgestrel-releasing intrauterine system (device-based, local delivery) rather than oral Norgestrel itself. The pharmacological class rationale is sound, but the specific drug entity and route differ from most of the supporting evidence, so the prediction should currently be treated as class-level extrapolation rather than direct proof for oral Norgestrel.
+The trial and literature data do not test the mechanism. Most of the evidence concerns levonorgestrel products (intrauterine systems and implants), not norgestrel itself. The prediction is therefore a research question, not a validated repurposing candidate.
 
 ---
 
@@ -67,10 +66,10 @@ However, nearly all of the identified clinical trial and literature evidence con
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01833793](https://clinicaltrials.gov/study/NCT01833793) | N/A | Completed | 35 | MARILIA study: acceptability of amenorrhea induced by Mirena (LNG-IUS) in contraception users over 1-year follow-up; evaluated bleeding profile and removal rates. |
-| [NCT01165307](https://clinicaltrials.gov/study/NCT01165307) | Phase 4 | Completed | 77 | Prospective RCT comparing medical therapy (progestin-based) vs. radiofrequency endometrial ablation for menorrhagia, including amenorrhea-related outcomes and cost-utility analysis. |
-| [NCT00117260](https://clinicaltrials.gov/study/NCT00117260) | Phase 3 | Withdrawn | 0 | Planned RCT of extended-cycle oral contraceptive (Seasonale) for low bone mineral density in adolescents with secondary amenorrhea; withdrawn before enrollment, no data available. |
-| [NCT00995150](https://clinicaltrials.gov/study/NCT00995150) | Phase 3 | Terminated | 1910 | Open-label study of LNG-releasing IUS (LNG20) for long-term reversible contraception; terminated, results incomplete. |
+| [NCT01833793](https://clinicaltrials.gov/study/NCT01833793) | N/A | Completed | 35 | Non-interventional study of how acceptable amenorrhea is to Mirena (levonorgestrel IUS) users for contraception. Amenorrhea is an outcome of exposure, not a treatment target. |
+| [NCT00117260](https://clinicaltrials.gov/study/NCT00117260) | Phase 3 | Withdrawn | 0 | Planned trial of a 91-day extended-cycle combined oral contraceptive for low bone mineral density in adolescents with secondary amenorrhea. No participants were enrolled, so it yields no evidence. |
+| [NCT01165307](https://clinicaltrials.gov/study/NCT01165307) | Phase 4 | Completed | 77 | Randomized comparison of medical therapy versus radiofrequency endometrial ablation for menorrhagia. Amenorrhea is probably an outcome, and the population is heavy menstrual bleeding. |
+| [NCT00995150](https://clinicaltrials.gov/study/NCT00995150) | Phase 3 | Terminated | 1910 | Open-label study of a levonorgestrel-releasing IUS for long-term contraception. Amenorrhea appears as a bleeding-pattern outcome, not an efficacy endpoint. |
 
 ---
 
@@ -78,30 +77,32 @@ However, nearly all of the identified clinical trial and literature evidence con
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [8585882](https://pubmed.ncbi.nlm.nih.gov/8585882/) | 1995 | Review | Contraception | LNG-IUD combines contraceptive and therapeutic properties; strong endometrial suppression is described as the mechanism behind reduced menstrual bleeding/amenorrhea. |
-| [8489751](https://pubmed.ncbi.nlm.nih.gov/8489751/) | 1993 | Review | Annals of Medicine | Levonorgestrel-releasing IUD (20 µg/day) evaluated in 1,821 women over 5 years; favorable safety and efficacy vs. copper IUDs. |
-| [7740994](https://pubmed.ncbi.nlm.nih.gov/7740994/) | 1994 | Review | Advances in Contraception | Reviews non-contraceptive effects of LNG-IUD, including reduction of menorrhagia and induction of amenorrhea as a recognized (beneficial and sometimes deleterious) effect. |
-| [3131966](https://pubmed.ncbi.nlm.nih.gov/3131966/) | 1987 | Review | Wien Med Wochenschr | Progestogen-releasing IUDs cause endometrial atrophy, impairing nidation; describes the mechanistic basis for bleeding suppression. |
-| [1773615](https://pubmed.ncbi.nlm.nih.gov/1773615/) | 1991 | Review | Contraception | Comparative review of LNG-IUD vs. copper-releasing IUDs, covering efficacy and menstrual effects. |
-| [3118717](https://pubmed.ncbi.nlm.nih.gov/3118717/) | 1987 | Review | Am J Obstet Gynecol | Describes how unopposed estrogen causes endometrial hyperplasia/amenorrhea, and how cyclic progestogen produces predictable shedding — direct mechanistic link between progestin and amenorrhea. |
-| [1625459](https://pubmed.ncbi.nlm.nih.gov/1625459/) | 1992 | Review | J Tenn Med Assoc | General review of Norplant (levonorgestrel implant) contraception. |
-| [6508652](https://pubmed.ncbi.nlm.nih.gov/6508652/) | 1984 | Review | Aust Fam Physician | General review of oral contraceptives. |
-| [8829701](https://pubmed.ncbi.nlm.nih.gov/8829701/) | 1996 | Review (pending) | Int J Fertil Menopausal Stud | Overview of long-acting contraceptive options, including levonorgestrel implants. |
-| [8982750](https://pubmed.ncbi.nlm.nih.gov/8982750/) | 1996 | Study (pending) | Hum Reprod | Progesterone receptor changes in Norplant (levonorgestrel) endometrium, relevant to mechanism of endometrial suppression. |
+| [8585882](https://pubmed.ncbi.nlm.nih.gov/8585882/) | 1995 | Review | Contraception | Levonorgestrel IUD suppresses endometrial growth and can treat menorrhagia. |
+| [7740994](https://pubmed.ncbi.nlm.nih.gov/7740994/) | 1994 | Not classified | Advances in Contraception | Reviews non-contraceptive effects of the levonorgestrel IUD, including amenorrhea as an adverse effect. |
+| [3118717](https://pubmed.ncbi.nlm.nih.gov/3118717/) | 1987 | Not classified | Am J Obstet Gynecol | Progestogen potency in oral contraceptives. Cyclic progestogen produces predictable endometrial shedding, whereas unopposed estrogen leads to hyperplasia and amenorrhea. |
+| [8489751](https://pubmed.ncbi.nlm.nih.gov/8489751/) | 1993 | Review | Annals of Medicine | Hormonal IUDs: 5-year study of 1,821 women with a Pearl index of 0.09. |
+| [1773615](https://pubmed.ncbi.nlm.nih.gov/1773615/) | 1991 | Not classified | Contraception | Compares the levonorgestrel IUD with copper IUDs. |
+| [8829701](https://pubmed.ncbi.nlm.nih.gov/8829701/) | 1996 | Review | Int J Fertil Menopausal Stud | Long-acting contraceptive options, including levonorgestrel implants. |
+| [3131966](https://pubmed.ncbi.nlm.nih.gov/3131966/) | 1987 | Review | Wien Med Wochenschr | Intrauterine steroid contraceptives cause endometrial atrophy and reduce bleeding and pain. |
+| [2660092](https://pubmed.ncbi.nlm.nih.gov/2660092/) | 1989 | Review | Pediatr Clin North Am | Principles of hormonal contraception in adolescents. |
+| [5639191](https://pubmed.ncbi.nlm.nih.gov/5639191/) | 1968 | Not classified | Obstet Gynecol | Early report on low-dose norgestrel plus ethinyl estradiol for fertility control. |
+| [2752751](https://pubmed.ncbi.nlm.nih.gov/2752751/) | 1989 | Not classified | Contraception | Norgestrel 0.075 mg mini-pill in 200 breastfeeding women, assessing acceptability and efficacy. |
+
+All of these are contraception-focused or descriptive. None reports norgestrel treating amenorrhea.
 
 ---
 
 ## Singapore Market Information
 
-No marketing authorizations for Norgestrel are currently registered in Singapore (0 licenses on record; market status: Not Marketed).
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN04778P | PROGYLUTON TABLET | Tablet, sugar coated (oral) | Not stated in the registration record |
 
 ---
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-*(Note: key warnings, contraindications, and drug interaction data are currently unavailable — this is flagged as a Blocking data gap (DG001) that must be resolved before a formal safety assessment (S1) can be conducted.)*
 
 ---
 
@@ -110,13 +111,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-- The mechanistic rationale for amenorrhea is biologically plausible and reasonably well supported, but nearly all clinical evidence concerns the LNG-IUS device rather than oral Norgestrel, and the strongest trials (Phase 3) were either withdrawn or terminated without results. Combined with the absence of any Singapore market registration and a **Blocking** safety data gap (no TFDA/HSA label, warnings, or contraindications available), the evidence is not yet sufficient to proceed even with guardrails.
+The prediction score is high, but no trial or paper tests norgestrel as a treatment for amenorrhea. The evidence concerns levonorgestrel products, and amenorrhea there is an expected effect of exposure rather than a therapeutic goal. The other nine predicted indications (mostly benign breast conditions) have even weaker support, limited to old indirect reviews or model output alone.
 
 **To proceed, the following is needed:**
-- Official safety labeling (warnings, contraindications, DDI) for Norgestrel — currently blocking
-- Confirmed mechanism-of-action data specific to oral Norgestrel (vs. levonorgestrel/LNG-IUS)
-- Dedicated clinical evidence for oral Norgestrel (not device-based LNG-IUS) in amenorrhea
-- Assessment of regulatory pathway for market entry in Singapore, given zero current registrations
+- The approved indication and the package insert warnings and contraindications for PROGYLUTON, from the HSA website
+- Detailed mechanism of action data from DrugBank
+- Direct clinical evidence for norgestrel (not levonorgestrel devices) in secondary amenorrhea
+- A clear clinical rationale for the direction of effect, treatment versus expected side effect
+- A route and formulation compatibility assessment
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

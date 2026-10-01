@@ -29,74 +29,74 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Serine: From No Established Indication to Familial Visceral Myopathy (Preliminary Signal)
+# Serine: From Parenteral Amino Acid Nutrition to Familial Visceral Myopathy
 
 ## One-Sentence Summary
 
-Serine is an unregistered amino acid compound with no approved therapeutic indication or documented mechanism of action in the current dataset. The TxGNN model's top prediction points to **Familial Visceral Myopathy**, but this association is currently supported by **zero clinical trials** and **zero publications** — it is a pure knowledge-graph inference with no external validation.
-
----
+Serine is a proteinogenic amino acid. In Singapore it is registered as a component of amino acid infusion solutions, and the registration records give no indication text. The TxGNN model predicts it may be effective for **familial visceral myopathy**, but **no clinical trials and no publications** support this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not established (no approved indication on record) |
-| Predicted New Indication | Familial Visceral Myopathy |
+| Original Indication | Not recorded in the registration data (marketed in amino acid infusion products) |
+| Predicted New Indication | Familial visceral myopathy |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 19 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available, and no approved therapeutic indication has been recorded for Serine in the regulatory dataset. Serine is a non-essential amino acid known to participate in protein synthesis, phospholipid (phosphatidylserine) biosynthesis, and one-carbon/folate metabolism, but without confirmed clinical indication or MOA documentation, no mechanistic bridge to familial visceral myopathy (a rare hereditary disorder of gastrointestinal smooth-muscle function) can be established from the evidence on hand.
+Currently, detailed mechanism of action data is not available. Serine is a building-block amino acid used in nutritional infusion solutions, but no approved indication text is recorded for it.
 
-The TxGNN score (99.99%, rank 292) reflects high confidence *within the model's internal graph structure*, but this is not corroborated by any independent clinical or literature signal — the evidence pack explicitly notes this is "pure knowledge-graph inference, no biological plausibility established."
+The screening found no mechanistic link between serine and familial visceral myopathy. Serine has no documented role in visceral smooth muscle or enteric myopathy pathways. The very high score (0.9999) reflects proximity in the knowledge-graph embedding, not biological or clinical evidence. This prediction should be treated as a hypothesis only.
 
-**A note on the lower-ranked candidates:** several of the other 9 predicted indications (e.g., *intestinal obstruction*, *angle-closure glaucoma*) initially appear literature-rich, but closer review shows these are largely false positives caused by textual overlap between "Serine" (the amino acid) and unrelated terms such as "serine protease" or "PRSS56" (a gene encoding an enzyme with "serine" in its name). None of the reviewed trials or papers describe pharmacological use of the amino acid Serine for these conditions.
-
----
+The other top-ranked predictions, mostly intestinal pseudo-obstruction types and glaucoma types, are in the same position:
+- Most have no trials or literature.
+- Where trials or papers were retrieved, they appear to come from keyword matches. For example, "serine protease" and "serine/threonine kinase" are different molecules from the amino acid serine.
+- The identical scores for the two pseudo-obstruction entries suggest a shared graph-neighbourhood artifact rather than independent signals.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Serine has **no marketed products or authorization registrations** in Singapore (0 licenses on record). No dosage form, brand name, or approved indication data is available.
+Five of the 19 registrations are listed below. None has approved indication text recorded.
 
----
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN16337P | AMINOVEN SOLUTION FOR INFUSION 15% | Infusion, solution | Fresenius Kabi Austria GmbH (Graz) |
+| SIN11682P | AMINOVEN SOLUTION FOR INFUSION 5% | Injection | Fresenius Kabi Austria GmbH |
+| SIN11829P | AMINOVEN SOLUTION FOR INFUSION 10% | Injection | Fresenius Kabi Austria GmbH |
+| SIN06299P | NEPHROSTERIL FOR INTRAVENOUS INFUSION | Injection | Fresenius Kabi Austria GmbH |
+| SIN08352P | AMINOPLASMAL-15% INFUSION | Injection | B. Braun Melsungen AG |
 
 ## Safety Considerations
 
-No safety data (key warnings, contraindications, or drug-drug interactions) is currently available for Serine in this dataset.
-
----
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked predicted indication (familial visceral myopathy) has no supporting clinical trials or literature, the drug's mechanism of action is undocumented, and it currently has no market presence or safety profile in Singapore. This is a model-only signal that does not meet the minimum evidence bar to proceed.
+The prediction is model-only (L5), with no relevant trials or publications and no identifiable mechanism linking serine to familial visceral myopathy. The package insert has not been reviewed, so safety screening cannot begin.
 
 **To proceed, the following is needed:**
-- Mechanism of action data from DrugBank or primary pharmacology literature (currently blocking — DG002)
-- Regulatory label / package insert data (warnings, contraindications) — currently blocking (DG001)
-- Disease-specific pharmacological or preclinical studies that clearly distinguish the amino acid Serine from unrelated "serine protease"/gene-name matches
-- Confirmation of whether any jurisdiction has approved or is investigating Serine for a specific indication, to establish a baseline "original indication" for comparison
+- HSA package insert warnings and contraindications (blocking for safety screening)
+- Mechanism of action data, for example from DrugBank
+- The approved indication text for the Singapore registrations
+- A plausible biological rationale for serine in visceral smooth muscle or enteric myopathy, ideally from preclinical studies
+- Route compatibility assessment (currently only injectable and infusion forms are registered)
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

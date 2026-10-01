@@ -33,9 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Gefitinib (Iressa) is a first-generation EGFR tyrosine kinase inhibitor originally developed for the treatment of EGFR-mutant non-small cell lung cancer (NSCLC).
-The TxGNN model predicts it may be effective for **Gingival Fibromatosis**, with **no clinical trials** and **no publications** currently directly supporting this specific indication.
-This prediction carries the lowest possible evidence level (L5) and the mechanistic rationale is considered weak given the disease's distinct pathophysiology.
+Gefitinib is an oral EGFR tyrosine kinase inhibitor, used for non-small cell lung cancer (NSCLC). The TxGNN model predicts it may be effective for **gingival fibromatosis** with a very high score (99.89%), but **no clinical trials and no publications** currently support this direction, so it is a model-only prediction.
 
 ---
 
@@ -43,23 +41,23 @@ This prediction carries the lowest possible evidence level (L5) and the mechanis
 
 | Item | Content |
 |------|------|
-| Original Indication | Non-Small Cell Lung Cancer (NSCLC) with activating EGFR mutations |
-| Predicted New Indication | Gingival Fibromatosis (fibromatosis, gingival) |
-| TxGNN Prediction Score | 99.89% |
+| Original Indication | Non-small cell lung cancer (from general drug knowledge and the retrieved literature; the Singapore licence records contain no indication text) |
+| Predicted New Indication | Gingival fibromatosis |
+| TxGNN Prediction Score | 99.89% (model rank 2108) |
 | Evidence Level | L5 |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 5 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available from the Singapore regulatory database. Based on established pharmacological knowledge, Gefitinib is a selective inhibitor of the Epidermal Growth Factor Receptor (EGFR) tyrosine kinase domain. By blocking EGFR-mediated downstream signaling — including the RAS/MAPK and PI3K/AKT cascades — it suppresses tumour cell proliferation, promotes apoptosis, and inhibits angiogenesis and invasion. Its efficacy in EGFR-mutant NSCLC (particularly exon 19 deletions and exon 21 L858R substitutions) is well established.
+Detailed mechanism of action data is not available in the source data. Gefitinib is a selective inhibitor of the epidermal growth factor receptor (EGFR), a receptor that controls cell growth, survival and angiogenesis. Its efficacy in EGFR-mutant NSCLC is well established. Mechanistically, it may be applicable to gingival fibromatosis.
 
-Gingival fibromatosis is primarily caused by mutations in the SOS1, HRAS, or KRAS genes, or is drug-induced (e.g., by cyclosporine, phenytoin, or calcium channel blockers). While EGFR signaling plays a subsidiary role in fibroblast proliferation within connective tissue, it is not the primary driver of this condition. The high TxGNN score (0.9989) most likely reflects a non-specific association between EGFR and connective tissue signaling nodes in the knowledge graph, rather than a genuine therapeutic relationship.
+Gingival fibromatosis is a non-cancerous overgrowth of gum tissue. The only link the analysis offers is that EGFR signalling can drive fibroblast proliferation. This link is conceivable but **untested**. No study in the evidence pack connects gefitinib or EGFR inhibition to this condition.
 
-No published literature or registered clinical trials currently support the use of Gefitinib in gingival fibromatosis, and there is no established mechanistic bridge between EGFR inhibition and the pathophysiology of this disease. This prediction should be interpreted with caution.
+The very high TxGNN score reflects a network-based association in the knowledge graph. It is not disease-specific evidence. It should be read as a hypothesis, not a finding.
 
 ---
 
@@ -77,21 +75,27 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Gefitinib is currently not registered in Singapore. No product authorisations are on record in the regulatory dataset (total registrations: 0).
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN16722P | GEFITINIB-TEVA FC TABLET 250MG | Film-coated tablet | Teva Pharmaceutical Industries, Ltd. |
+| SIN16030P | VEIASU FILM-COATED TABLETS 250 MG | Film-coated tablet | Lotus Pharmaceutical Co., Ltd Nantou Plant |
+| SIN16055P | INGEFITINIB FILM COATED TABLET 250MG | Film-coated tablet | REMEDICA LTD |
+| SIN16130P | GEFTINAT FILM COATED TABLETS 250 MG | Film-coated tablet | Natco Pharma Limited - Pharma Division |
+| SIN15984P | HOVID GEFITINIB TABLETS 250 MG | Film-coated tablet | Qilu Pharmaceutical (Hainan) Co. Ltd. |
+
+All five products are oral tablets. The approved indication text is not recorded in the licence data.
 
 ---
 
 ## Cytotoxicity
 
-Gefitinib is an antineoplastic agent (EGFR-targeted therapy). The following applies:
-
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy — First-generation EGFR tyrosine kinase inhibitor (4-anilinoquinazoline class) |
-| Myelosuppression Risk | Low (haematological toxicity is uncommon; not conventionally myelosuppressive like cytotoxic chemotherapy) |
-| Emetogenicity Classification | Minimal to Low |
-| Monitoring Items | Liver function tests (ALT/AST — hepatotoxicity risk), pulmonary function assessment (interstitial lung disease risk), ECG monitoring (QTc interval prolongation), dermatological assessment (acneiform eruption, paronychia, xerosis) |
-| Handling Protection | Standard oral antineoplastic precautions apply — do not crush or split tablets; handle with care and follow institutional cytotoxic drug handling procedures |
+| Cytotoxicity Classification | Targeted therapy (EGFR tyrosine kinase inhibitor), not a conventional cytotoxic |
+| Myelosuppression Risk | Low, as expected for this class; please refer to the package insert |
+| Emetogenicity Classification | Low, as expected for this class; please refer to the package insert |
+| Monitoring Items | Liver function is a typical monitoring item for this class; please refer to the package insert for the full list |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ---
 
@@ -106,13 +110,15 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model assigns a high score to gingival fibromatosis, but this prediction lacks mechanistic plausibility — the disease is primarily driven by SOS1/HRAS/KRAS mutations or drug-induced mechanisms unrelated to EGFR — and is unsupported by any clinical trial or published literature evidence.
+The prediction rests only on the TxGNN score. There are no trials and no relevant publications for gingival fibromatosis, and the proposed EGFR–fibroblast link is untested. Package insert safety data has not been retrieved, which blocks safety screening.
 
 **To proceed, the following is needed:**
-- Preclinical investigation (in vitro fibroblast proliferation models) to assess whether EGFR activity is meaningfully elevated in gingival fibromatosis tissue
-- Retrieval and review of the Gefitinib package insert (e.g., AstraZeneca Iressa SmPC) to document key warnings, contraindications, and drug interactions
-- Drug–drug interaction screening via a validated clinical database (e.g., Lexi-Interact, Micromedex)
-- Formal assessment of whether the TxGNN knowledge graph is capturing a specific biological relationship or a non-specific connective tissue node association
+- HSA package insert warnings and contraindications (currently blocking)
+- Mechanism of action data from DrugBank
+- A targeted literature search for gefitinib or EGFR inhibition in gingival fibromatosis or fibroblast overgrowth, plus preclinical evidence
+- Route and formulation assessment, since the only Singapore forms are oral tablets
+
+**Other candidates:** Lung hilum carcinoma (rank 5) is probably an NSCLC anatomical subtype, so it is largely an on-label scenario rather than true repurposing.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

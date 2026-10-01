@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Acetaminophen
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 29
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
 ---
 
 # Acetaminophen
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,95 +29,87 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Acetaminophen: From Analgesic/Antipyretic to Migraine with Brainstem Aura
+# Acetaminophen: From Analgesic Use to Migraine with Brainstem Aura
 
 ## One-Sentence Summary
 
-Acetaminophen (paracetamol) is one of the most widely used non-prescription analgesics and antipyretics globally, indicated for mild-to-moderate pain and fever reduction.
-The TxGNN model predicts it may be effective for **Migraine with Brainstem Aura** (formerly basilar-type migraine), a rare ICHD-3 subtype characterized by reversible brainstem-originating aura symptoms.
-Currently, **0 dedicated clinical trials** exist for this specific subtype, but **20 publications** spanning broader migraine pharmacotherapy provide indirect mechanistic and clinical supporting evidence.
-
----
+Acetaminophen is a widely marketed central analgesic, and its label indication text is not available in the source data.
+The TxGNN model predicts it may be effective for **migraine with brainstem aura**, with a score of 99.15%.
+There are **no clinical trials** and **19 publications** on this direction, all on migraine in general rather than this subtype, so the evidence is indirect.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Mild-to-moderate pain relief and antipyretic (no Singapore registration data available) |
-| Predicted New Indication | Migraine with Brainstem Aura |
+|------|------|
+| Original Indication | Not stated in the registry data (all retrieved licenses have empty indication text) |
+| Predicted New Indication | Migraine with brainstem aura |
 | TxGNN Prediction Score | 99.15% |
-| Evidence Level | L3 |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 (indirect: general migraine literature only, nothing specific to this subtype) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 20 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Acetaminophen's analgesic mechanism is primarily central rather than peripheral. It inhibits central COX-3 and spinal COX-2, reducing prostaglandin E2 (PGE2) synthesis and thereby decreasing trigeminal nerve terminal sensitization — one of the key steps in migraine attack generation. Beyond COX inhibition, acetaminophen indirectly modulates the descending serotonergic inhibitory system via the brainstem raphe nuclei (5-HT pathway), and evidence suggests it may also engage the endocannabinoid system and TRPV1 receptor desensitization.
+Currently, detailed mechanism of action data is not available in DrugBank for this record. From general pharmacology, acetaminophen is a central analgesic. It is thought to act through COX inhibition in the central nervous system and through serotonergic and endocannabinoid pathways. That profile makes it a plausible option for headache pain.
 
-Migraine with brainstem aura involves functional abnormalities in the periaqueductal gray (PAG) and locus coeruleus — the very brainstem structures implicated in acetaminophen's central analgesic pathways. This anatomical and mechanistic overlap provides a biologically plausible rationale for the TxGNN prediction: acetaminophen could attenuate both the trigeminal sensitization and the brainstem descending modulation dysfunction central to this migraine subtype.
+The literature supports acetaminophen, mostly in combination products, for acute migraine in general. It is also cited as first-line symptomatic treatment for headache in pregnancy. However, none of the retrieved publications addresses brainstem aura specifically. The high TxGNN score (0.99) is most likely driven by the parent "migraine" node in the knowledge graph rather than by subtype-specific evidence.
 
-However, a critical limitation must be acknowledged: existing clinical evidence for acetaminophen in migraine is derived from studies on general migraine (with or without aura) or pregnancy-related migraine — not specifically from the brainstem aura subtype as defined by ICHD-3 criteria. No dedicated RCT has investigated acetaminophen's efficacy in this rare variant. The TxGNN prediction likely captures the mechanistic overlap at a general migraine node level, and the disease-specific evidence gap remains a significant barrier to clinical translation.
-
----
+The comparison with the drug's currently approved indication could not be made, because label indication text is missing. Whether migraine is already covered by existing Singapore labels is therefore unverified.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered specifically for acetaminophen in migraine with brainstem aura.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [11318886](https://pubmed.ncbi.nlm.nih.gov/11318886/) | 2001 | RCT | *Headache* | Isometheptene/dichloralphenazone/acetaminophen combination vs. sumatriptan for mild-to-moderate migraine (with or without aura); comparable efficacy and safety at attack onset |
-| [9482363](https://pubmed.ncbi.nlm.nih.gov/9482363/) | 1998 | RCT (3 trials) | *Archives of Neurology* | Three double-blind, placebo-controlled trials of OTC acetaminophen/aspirin/caffeine combination; demonstrated significant migraine pain relief vs. placebo |
-| [10321417](https://pubmed.ncbi.nlm.nih.gov/10321417/) | 1999 | RCT (pooled) | *Clinical Therapeutics* | Retrospective analysis of 3 placebo-controlled trials; acetaminophen/aspirin/caffeine combination effective for menstruation-associated migraine, benefits comparable to non-menstrual migraine |
-| [39493026](https://pubmed.ncbi.nlm.nih.gov/39493026/) | 2024 | Systematic Review | *Cureus* | Systematic review of abortive and prophylactic therapies for migraine in pregnancy; acetaminophen identified as first-line symptomatic option due to favorable safety profile |
-| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Clinical Guideline (AHS) | *Headache* | American Headache Society evidence assessment of acute migraine pharmacotherapies; provides evidence grading framework for acetaminophen-containing regimens |
-| [30470274](https://pubmed.ncbi.nlm.nih.gov/30470274/) | 2019 | Narrative Review | *Neurologic Clinics* | Review of headache management in pregnancy and puerperium; acetaminophen confirmed as first-line symptomatic treatment across trimesters |
-| [38307660](https://pubmed.ncbi.nlm.nih.gov/38307660/) | 2024 | Narrative Review | *Handbook of Clinical Neurology* | Review of status migrainosus (debilitating migraine >72h); discusses management strategies relevant to severe and brainstem-involved migraine presentations |
-| [37123778](https://pubmed.ncbi.nlm.nih.gov/37123778/) | 2023 | Narrative Review | *Cureus* | Overview of migraine treatment in pregnancy and breastfeeding; emphasizes acetaminophen's role across all four migraine phases (premonitory, aura, headache, postdrome) |
-| [33525313](https://pubmed.ncbi.nlm.nih.gov/33525313/) | 2021 | Narrative Review | *Neurology International* | Review contextualizing ubrogepant for acute migraine; confirms acetaminophen and NSAIDs as standard first-line analgesics for mild-to-moderate migraine attacks |
-| [10487510](https://pubmed.ncbi.nlm.nih.gov/10487510/) | 1999 | Narrative Review | *Neurology* | Review of migraine in pregnancy; notes 60–70% remission rate in second/third trimester and discusses analgesic safety, relevant to the brainstem aura subtype that may worsen during pregnancy |
+|------|-----|------|------|---------|
+| [9482363](https://pubmed.ncbi.nlm.nih.gov/9482363/) | 1998 | RCT (three double-blind, placebo-controlled trials) | Arch Neurol | Assessed the acetaminophen + aspirin + caffeine combination for relieving migraine headache pain |
+| [10321417](https://pubmed.ncbi.nlm.nih.gov/10321417/) | 1999 | RCT (pooled analysis of 3 trials) | Clin Ther | Same combination studied in menstruation-associated versus non-menstrual migraine |
+| [11318886](https://pubmed.ncbi.nlm.nih.gov/11318886/) | 2001 | RCT (combination product) | Headache | Compared isometheptene/dichloralphenazone/acetaminophen with sumatriptan in mild-to-moderate migraine, with or without aura |
+| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Guideline / evidence assessment | Headache | American Headache Society update on evidence for acute migraine drug therapies |
+| [38307660](https://pubmed.ncbi.nlm.nih.gov/38307660/) | 2024 | Review | Handb Clin Neurol | Status migrainosus, a complication of migraine with or without aura |
+| [30470274](https://pubmed.ncbi.nlm.nih.gov/30470274/) | 2019 | Review | Neurol Clin | Headache in pregnancy; acetaminophen is described as first-line symptomatic treatment |
+| [39493026](https://pubmed.ncbi.nlm.nih.gov/39493026/) | 2024 | Review | Cureus | Abortive and preventive migraine therapies in pregnancy |
+| [37123778](https://pubmed.ncbi.nlm.nih.gov/37123778/) | 2023 | Review | Cureus | Migraine in pregnancy and breastfeeding, and treatment approach |
+| [33525313](https://pubmed.ncbi.nlm.nih.gov/33525313/) | 2021 | Review | Neurol Int | Acute migraine treatment; notes acetaminophen among non-prescription options |
+| [9556832](https://pubmed.ncbi.nlm.nih.gov/9556832/) | 1998 | Review | Schweiz Med Wochenschr | Migraine drug treatment, from mechanisms of action to contraindications |
 
----
+The RCTs above test combination products, not acetaminophen alone. They also enrolled general migraine populations, not brainstem aura specifically.
 
 ## Singapore Market Information
 
-Acetaminophen has **no registered products** in Singapore according to the current dataset (0 licenses, status: Not Marketed).
+Five of the 20 registrations are listed below.
 
-> **Note:** This is unexpected for a drug as widely used as acetaminophen globally. This likely reflects a data gap in the current dataset rather than the true regulatory status. Independent verification via HSA's PRISM database is strongly recommended before drawing any market access conclusions.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN16479P | PANADOL MINI CAPS CAPSULE 500MG | Capsule | Not listed in registry data |
+| SIN11299P | PARACIL TABLETS 500 mg | Tablet | Not listed in registry data |
+| SIN14871P | PARASUSTAIN SUSTAINED RELEASE TABLETS 665MG | Film-coated extended-release tablet | Not listed in registry data |
+| SIN14699P | PANADOL WITH OPTIZORB CAPLET 500MG | Film-coated tablet | Not listed in registry data |
+| SIN11120P | PRITAMOL SUPPOSITORIES 125 mg | Suppository | Not listed in registry data |
 
----
+Other registered forms include suspension, powder and intravenous infusion solution.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-While the TxGNN prediction score is high (99.15%) and acetaminophen's central analgesic mechanism provides a plausible biological basis for migraine with brainstem aura, no clinical trials have specifically studied this ICHD-3 subtype. All existing evidence derives from general migraine populations, leaving an unbridged evidence gap for this rare variant. The indication cannot be advanced without subtype-specific data.
+The prediction rests on general migraine evidence, and none of it is specific to brainstem aura. No clinical trial evaluates acetaminophen for this subtype. Safety data and label indications are also missing.
 
 **To proceed, the following is needed:**
-- Dedicated prospective clinical studies enrolling patients meeting ICHD-3 criteria for migraine with brainstem aura specifically
-- Mechanistic studies characterizing acetaminophen's effects on PAG and locus coeruleus dysfunction in brainstem aura models
-- Verification of Singapore regulatory status via HSA PRISM database (current dataset shows zero registrations, which is likely a data artifact)
-- Retrieval of complete MOA data from DrugBank API to fill the current data gap
-- Full safety profile review including package insert warnings, contraindications, and drug–drug interactions
-- Subgroup analysis of existing migraine RCTs to identify any brainstem aura participants and their treatment responses
+- HSA package insert warnings and contraindications (currently a blocking gap for safety screening)
+- Label indication text, to check whether migraine is already an approved use in Singapore
+- Mechanism of action data from DrugBank
+- Subtype-specific evidence, or a clinical judgement that general migraine evidence can be extended to brainstem aura
 
----
-
-> ⚠️ **Disclaimer:** This report is for research purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any therapeutic application. All predictions should be interpreted in conjunction with clinical expertise.
+**Note on other predictions in this pack:** Among the lower-ranked predictions, **sciatic neuropathy** has the strongest direct evidence (L2). It has two Phase 4 randomized trials of IV paracetamol in emergency-department sciatica (NCT02504996, NCT02777320) and one RCT (PMID 26938140). These are symptom-focused rather than disease-modifying, and a review title in the pack suggests analgesic efficacy in sciatica is contested; that review's findings were not verified here. This candidate may warrant its own evaluation.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

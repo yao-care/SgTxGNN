@@ -29,11 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Somatotropin: From Undocumented Original Indication to Middle Ear Neuroendocrine Tumor
+# Somatotropin: From Growth Hormone Therapy to Middle Ear Neuroendocrine Tumor
 
 ## One-Sentence Summary
 
-Somatotropin (recombinant human growth hormone, DB00052) has no original indication or mechanism-of-action data available in this evidence pack, and it is not currently registered in the Singapore market. TxGNN's top-ranked prediction links it to **Middle Ear Neuroendocrine Tumor**, but this is supported by only **2 loosely related publications and zero clinical trials**, and the underlying biology (GH/IGF-1 axis activation) points toward a tumor-growth risk signal rather than a therapeutic rationale.
+Somatotropin is recombinant human growth hormone, marketed in Singapore under several brands, though the supplied registration records do not list its approved indications.
+The TxGNN model predicts it may be effective for **middle ear neuroendocrine tumor**, but this rests on a graph-based score alone, with **0 clinical trials** and **2 loosely related publications**.
+The literature does not test somatotropin as a treatment for this tumor, and growth hormone's growth-promoting activity raises a theoretical safety concern in tumors.
 
 ---
 
@@ -41,23 +43,23 @@ Somatotropin (recombinant human growth hormone, DB00052) has no original indicat
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented (no Singapore/Taiwan license data available; `original_indications` empty) |
-| Predicted New Indication | Middle Ear Neuroendocrine Tumor |
+| Original Indication | Not stated in the supplied HSA records |
+| Predicted New Indication | Middle ear neuroendocrine tumor |
 | TxGNN Prediction Score | 96.82% |
-| Evidence Level | L5 (model prediction only; no clinical trials, no directly relevant studies) |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 6 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for somatotropin in this evidence pack. In general, recombinant GH acts through the GH receptor to stimulate hepatic IGF-1 production, driving linear growth and metabolic effects — this is a **growth-promoting/proliferative pathway**, not a mechanism that would typically be repurposed for an oncologic condition.
+Currently, detailed mechanism of action data is not available. Somatotropin is a growth hormone product that acts through the GH/IGF-1 axis. The registration records do not state its approved indications, so the link to the predicted tumor cannot be traced.
 
-For the top-ranked prediction (middle ear neuroendocrine tumor), the two supporting publications do not actually study GH treatment of this tumor type: one examines stress-hormone profiles (including endogenous GH) in Ménière's disease and acoustic neuroma patients, and the other is a histopathology study of vestibular schwannoma growth factors. Neither establishes a treatment rationale. Because GH/IGF-1 signaling is a known growth-promoting axis, its presence in a tumor-adjacent context is more plausibly read as a **safety signal (potential tumor stimulation)** than as a repurposing opportunity — consistent with the evidence pack's own rationale annotation.
+The prediction comes only from the knowledge-graph model. The two retrieved papers study stress hormones in Ménière's disease and acoustic neuroma, and growth factors in vestibular schwannoma. Neither examines somatotropin as a treatment, so there is no direct mechanistic support.
 
-It is worth noting that other, lower-ranked predictions in this same evidence pack (mixed gonadal dysgenesis, mosaic monosomy X, and Turner syndrome due to structural X chromosome anomalies — ranks 5–7) have a **much stronger and more coherent mechanistic basis**: GH is an established therapy for short stature in Turner syndrome and related sex-chromosome mosaicism conditions, supported by a completed Phase 3 RCT (NCT00191113, Humatrope in Turner syndrome) and multiple cohort studies. These may represent more productive repurposing candidates than the current top-ranked hit.
+Growth hormone and IGF-1 signalling promotes cell growth. In a tumor indication this is a theoretical safety concern rather than a therapeutic rationale.
 
 ---
 
@@ -71,20 +73,30 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [15925138](https://pubmed.ncbi.nlm.nih.gov/15925138/) | 2005 | Review/Observational | Brain Research Bulletin | Investigated stress hormones (including endogenous GH) in Ménière's disease and acoustic neuroma patients vs. controls; found correlation between cortisol and ACTH, not a GH-treatment study |
-| [11200590](https://pubmed.ncbi.nlm.nih.gov/11200590/) | 2000 | Immunohistochemical study | Acta Oto-Laryngologica | Examined histopathological growth factors in 69 vestibular schwannoma specimens; no involvement of exogenous GH therapy |
+| [15925138](https://pubmed.ncbi.nlm.nih.gov/15925138/) | 2005 | Cohort | Brain Research Bulletin | Measured stress hormones (ACTH, cortisol, growth hormone, prolactin) in patients with Ménière's disease and acoustic neuroma against facial spasm controls. It is not a treatment study. |
+| [11200590](https://pubmed.ncbi.nlm.nih.gov/11200590/) | 2000 | Cohort | Acta Oto-Laryngologica | Retrospective study of 69 vestibular schwannomas examining whether vessel count, blood cell extravasation and inflammation predict tumor growth. It does not involve somatotropin. |
 
 ---
 
 ## Singapore Market Information
 
-Somatotropin is currently not registered in the Singapore market (0 licenses on record).
+The registration records supplied do not state approved indications. Only 5 of the 6 registrations were provided in detail.
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN14362P | ZOMACTON Powder and Solvent for Solution for Injection 4 mg | Injection, powder, for solution | Not stated |
+| SIN12215P | NORDITROPIN FLEXPRO Injection 10 mg/1.5 ml | Injection | Not stated |
+| SIN14432P | Saizen solution for injection 5.83 mg/ml (6 mg in 1.03 ml) | Injection, solution | Not stated |
+| SIN14433P | Saizen solution for injection 8.00 mg/ml (20 mg in 2.50 ml) | Injection, solution | Not stated |
+| SIN14425P | Saizen solution for injection 8.00 mg/ml (12 mg in 1.50 ml) | Injection, solution | Not stated |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Note: TFDA/HSA package insert warnings and contraindications for this drug are flagged as a **blocking data gap (DG001)** in this evidence pack and have not yet been reviewed.
+- **Theoretical tumor-growth concern**: GH/IGF-1 signalling promotes cell growth, so use in neoplastic disease needs particular caution.
+
+No interaction data were found. Please refer to the package insert for further safety information.
 
 ---
 
@@ -93,12 +105,13 @@ Please refer to the package insert for safety information. Note: TFDA/HSA packag
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked predicted indication (middle ear neuroendocrine tumor) has no clinical trial support and only indirect, non-mechanistic literature; furthermore, GH/IGF-1 axis activation is mechanistically more consistent with a tumor-growth risk than a therapeutic benefit. Combined with a blocking safety data gap, this candidate does not meet the threshold to advance.
+The prediction is model-only (L5), with no trials and no literature testing somatotropin in this tumor. The theoretical safety concern argues against pursuing it without further evidence.
 
 **To proceed, the following is needed:**
-- Resolve DG001 (TFDA/HSA package insert warnings and contraindications) before any further safety evaluation (S1)
-- Resolve DG002 (confirmed mechanism of action) to properly assess mechanistic plausibility
-- Consider re-prioritizing evaluation toward the Turner syndrome / mixed gonadal dysgenesis / mosaic monosomy X predictions in this same evidence pack (ranks 5–7), which already carry L3 evidence and a completed Phase 3 RCT, and represent a substantially stronger repurposing signal than the current top-ranked candidate
+- HSA package insert warnings, contraindications and approved indications
+- Mechanism of action data (for example from DrugBank)
+- Any direct preclinical or clinical evidence of somatotropin in neuroendocrine tumors, together with a tumor-safety assessment
+- Consider redirecting effort to other predicted candidates in the same pack with stronger support. Mosaic monosomy X (L3) and mixed gonadal dysgenesis (L3) are the clearest, both with a plausible short-stature and GH rationale. The Phase 3 Turner syndrome trial NCT00191113 is related but not direct evidence.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

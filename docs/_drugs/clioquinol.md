@@ -3,14 +3,14 @@ layout: default
 title: Clioquinol
 parent: Medium Evidence (L3-L4)
 nav_order: 262
-evidence_level: L3
+evidence_level: L4
 indication_count: 10
 ---
 
 # Clioquinol
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,37 +29,36 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Clioquinol: From Topical Antiseptic to Cutaneous Candidiasis
+# Clioquinol: From Topical Anti-infective Use to Cutaneous Candidiasis
 
 ## One-Sentence Summary
 
-Clioquinol (Vioform) is a halogenated hydroxyquinoline derivative historically used as a topical antiseptic and antifungal agent, included in combination preparations such as Locacorten-Vioform for the treatment of infected dermatoses.
-The TxGNN model predicts it may be effective for **Cutaneous Candidiasis**, with **0 clinical trials** and **6 publications** currently supporting this direction.
-Evidence is based on older clinical comparison studies from the 1970s–1980s, and Clioquinol is currently not marketed in Singapore.
+Clioquinol is a topical hydroxyquinoline sold in Singapore as creams, but the registration records do not state an approved indication.
+The TxGNN model predicts it may be effective for **cutaneous candidiasis** (99.84% score), but there are **no registered clinical trials** and only **6 publications**, mostly old studies of steroid-antimicrobial combination creams.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Topical antiseptic / infected dermatoses (historical combination preparations) |
-| Predicted New Indication | Cutaneous Candidiasis |
+|------|------|
+| Original Indication | Not stated in the Singapore registration records |
+| Predicted New Indication | Cutaneous candidiasis |
 | TxGNN Prediction Score | 99.84% |
-| Evidence Level | L3 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 4 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Clioquinol (iodochlorhydroxyquin, brand name Vioform) is a chelating agent with broad-spectrum antimicrobial properties. Its principal mechanism of antifungal action involves metal chelation — it binds divalent and trivalent metal ions (Zn²⁺, Cu²⁺, Fe³⁺) that are essential cofactors for fungal metalloenzymes, disrupting cell membrane integrity and inhibiting fungal metabolic pathways. This mechanism is biologically plausible for activity against *Candida albicans*, which relies on metal-dependent enzymatic systems for growth and virulence.
+Detailed mechanism of action data is not available for this drug. Clioquinol is a hydroxyquinoline metal chelator with known topical antifungal and antibacterial activity. This general pharmacology suggests it could act against *Candida*, but that link is not documented in the supplied data.
 
-Historically, clioquinol was a component of commercially available topical combination preparations — most notably Locacorten-Vioform (flucortolone + clioquinol 3%) and iodochlorhydroxyquin-hydrocortisone (I-HC). These products were used in clinical practice for dermatoses complicated by secondary bacterial or fungal infection, including cutaneous candidiasis. Several clinical studies from the 1970s–1980s directly compared clioquinol-containing preparations against other topical regimens in patients with confirmed cutaneous candidiasis, providing a historical basis for its anti-candidal efficacy.
+Cutaneous candidiasis is a superficial yeast infection of the skin. That fits a topical anti-infective, and all four Singapore products are creams. The literature is weak support, though. The studies are from 1965 to 1988, and most test corticosteroid-antimicrobial combination creams. Clioquinol's effect cannot be separated from the steroid or the other antimicrobials. Some of the products, such as halcinonide-neomycin-amphotericin, may not contain clioquinol at all.
 
-The TxGNN prediction therefore reflects a pharmacologically coherent and historically validated mechanism. However, because all supporting studies are decades old, were performed with combination formulations (not clioquinol alone), and lack modern RCT designs, the evidence base is categorised as L3. No registered clinical trials are currently exploring this indication.
+Other predictions follow the same theme. Superficial mycosis has one 2021 preclinical study of clioquinol combined with ciclopirox and terbinafine, which supports a combination-therapy hypothesis. Deep or hair-shaft infections (Majocchi granuloma, endothrix, ectothrix, tinea profunda) are poorly suited to a topical agent. Granuloma annulare is a non-infectious inflammatory disease, so an antimicrobial mechanism does not clearly apply. None of these has clinical or literature support.
 
 ---
 
@@ -71,33 +70,33 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-The following publications are relevant to clioquinol's use in cutaneous candidiasis. Note that most studies examined clioquinol as part of combination topical formulations (e.g., iodochlorhydroxyquin-hydrocortisone, Locacorten-Vioform), not as a monotherapy.
-
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [128475](https://pubmed.ncbi.nlm.nih.gov/128475/) | 1975 | Clinical study (double-blind) | Dermatologica | Locacorten (flucortolone 0.02%) + Vioform (clioquinol 3%) cream showed significantly superior microbiological conversion and clinical improvement compared to clioquinol alone, corticosteroid alone, or placebo in 430 patients with dermatoses complicated by secondary bacterial infection |
-| [155507](https://pubmed.ncbi.nlm.nih.gov/155507/) | 1979 | Clinical comparison study | Current Medical Research and Opinion | Iodochlorhydroxyquin-hydrocortisone (I-HC) used as active control; overall therapeutic response in cutaneous candidiasis was 43% (17/40 patients), substantially lower than the comparator HNA cream (95%), highlighting the limitations of clioquinol combination preparations |
-| [6459255](https://pubmed.ncbi.nlm.nih.gov/6459255/) | 1981 | Randomised parallel study | Journal of International Medical Research | Randomised study of 154 patients (67 with cutaneous candidiasis); a combination containing iodochlorhydroxyquin showed equivalent therapeutic response to an HNN-containing cream, supporting the anti-candidal role of clioquinol in topical formulations |
-| [136333](https://pubmed.ncbi.nlm.nih.gov/136333/) | 1976 | Clinical evaluation | Current Therapeutic Research | Clinical evaluation of a halcinonide-antifungal topical combination; limited abstract available |
-| [4220930](https://pubmed.ncbi.nlm.nih.gov/4220930/) | 1965 | Pathology/aetiology study | Zeitschrift fur Haut- und Geschlechtskrankheiten | Examined the role of yeasts in acrodermatitis enteropathica (Danbolt-Closs); contextual background on cutaneous candidal aetiology |
-| [2978600](https://pubmed.ncbi.nlm.nih.gov/2978600/) | 1988 | Occupational prevention study | Przeglad Dermatologiczny | In vitro assessment of additives to soap against *Candida albicans* strains; demonstrated strong fungicidal effect of clioquinol in alkaline soap solutions, providing mechanistic support for topical anti-candidal activity |
+|------|-----|------|------|---------|
+| [6459255](https://pubmed.ncbi.nlm.nih.gov/6459255/) | 1981 | Randomized comparative study | J Int Med Res | 154 patients (67 with cutaneous candidiasis) treated with either a halcinonide-neomycin-nystatin cream or a betamethasone-gentamicin-iodochlorhydroxyquin-tolnaftate cream. Responses were equivalent, but this is a comparison of two combinations. |
+| [128475](https://pubmed.ncbi.nlm.nih.gov/128475/) | 1975 | Double-blind study | Dermatologica | 430 patients with secondary bacterial infection of dermatoses. Locacorten (0.02%)-Vioform (3%) cream beat each component alone and placebo. The study concerns bacterial infection, not candidiasis. |
+| [155507](https://pubmed.ncbi.nlm.nih.gov/155507/) | 1979 | Clinical evaluation | Curr Med Res Opin | A halcinonide-neomycin-amphotericin cream gave an excellent response in 95% (38/40) of patients, versus 43% (17/40) for the iodochlorhydroxyquin-hydrocortisone comparator. The clioquinol-containing comparator was the weaker arm. |
+| [136333](https://pubmed.ncbi.nlm.nih.gov/136333/) | 1976 | Clinical evaluation | Curr Ther Res | Evaluation of a halcinonide-antifungal combination. No abstract available, and the product may not contain clioquinol. |
+| [4220930](https://pubmed.ncbi.nlm.nih.gov/4220930/) | 1965 | Etiology/observational | Z Haut Geschlechtskr | Role of yeasts in acrodermatitis enteropathica. No abstract available, and only indirectly related. |
+| [2978600](https://pubmed.ncbi.nlm.nih.gov/2978600/) | 1988 | In vitro/prevention | Przegl Dermatol | Effects of soap additives on *Candida albicans* strains from patients. Occupational prevention rather than treatment. |
 
 ---
 
 ## Singapore Market Information
 
-Clioquinol currently has **no registered products** in Singapore. There are no HSA-issued licences on record.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN08790P | HYDRODERM-C CREAM 1% | Cream | Not stated in record |
+| SIN08795P | DERMANOL-C CREAM 0.1% | Cream | Not stated in record |
+| SIN08793P | DERMANOL-C CREAM 0.025% | Cream | Not stated in record |
+| SIN08796P | DERMANOL-C CREAM 0.05% | Cream | Not stated in record |
+
+All four products are topical creams from ICM PHARMA PTE. LTD.
 
 ---
 
 ## Safety Considerations
 
-Detailed safety data (package insert warnings, contraindications, and drug interaction data) were not available in this evidence pack. The following considerations are drawn from publicly known information about this compound:
-
-- **Historical neurological concern**: Systemic use of clioquinol was associated with subacute myelo-optic neuropathy (SMON) in Japan (1960s–1970s), which led to the withdrawal of oral formulations in most countries. **Topical formulations are generally considered to have a different safety profile** due to limited systemic absorption, but this should be verified.
-- **Topical absorption**: Although systemic absorption via intact skin is low, absorption through broken or inflamed skin is possible.
-
-Please refer to the package insert and regulatory guidance for complete safety information before any clinical consideration.
+Please refer to the package insert for safety information. No drug interactions were found in the queried database.
 
 ---
 
@@ -106,16 +105,16 @@ Please refer to the package insert and regulatory guidance for complete safety i
 **Decision: Hold**
 
 **Rationale:**
-Although clioquinol has a biologically plausible antifungal mechanism (metal chelation targeting *Candida* metalloenzymes) and historical clinical use in combination topical preparations for cutaneous candidiasis, all supporting literature dates from the 1970s–1980s and involves combination products rather than clioquinol monotherapy. There are no registered clinical trials, and the drug has no Singapore market presence, making regulatory and clinical development pathways unclear.
+The prediction score is very high, but the supporting evidence is thin. There are no registered trials, and the 1965–1988 literature mostly tests combination products, so clioquinol's own contribution cannot be isolated. The mechanism data and the safety information from the package insert are also missing, so the drug cannot yet move past early screening.
 
 **To proceed, the following is needed:**
+- HSA package insert warnings and contraindications, which block safety screening
+- Mechanism of action data, for example from DrugBank
+- Confirmation of the approved indications of the four Singapore products
+- Evidence isolating clioquinol's activity against *Candida*, such as in vitro susceptibility data or a controlled trial of a clioquinol-only cream
+- Manual review of the literature for the scalp/beard dermatophytosis prediction, where the retrieved papers were keyword noise (beard transplantation, zebrafish cells, aviator masks) and none concern clioquinol
 
-- **Mechanism of action data**: Formal DrugBank/literature review to confirm the metal chelation mechanism and its relevance to *C. albicans* specifically
-- **Modern safety assessment**: Systematic review of topical safety profile, including systemic absorption risk via inflamed/broken skin in candidiasis patients
-- **Regulatory status clarification**: Confirm global regulatory status of topical clioquinol preparations and whether any jurisdiction maintains an approved topical indication
-- **Comparative efficacy data**: Head-to-head comparison with current standard-of-care topical antifungals (e.g., clotrimazole, miconazole) — clioquinol would need to demonstrate a meaningful advantage to justify further development
-- **Formulation feasibility**: Assess whether a standalone clioquinol topical preparation (not in combination) is viable, given that all historical preparations used it in fixed-dose combinations
-- **Singapore registration pathway**: If evidence supports continuation, consult HSA on the regulatory pathway for a product with no current Singapore registration
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

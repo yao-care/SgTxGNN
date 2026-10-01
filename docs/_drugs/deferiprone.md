@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Deferiprone
-parent: Low Evidence (L5)
+parent: Medium Evidence (L3-L4)
 nav_order: 306
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Deferiprone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,89 +29,70 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Deferiprone: From Iron Overload (Thalassemia) to Hepatic Porphyria
+# Deferiprone: From Iron Chelation to Hepatic Porphyria
 
 ## One-Sentence Summary
 
-Deferiprone (DB08826) is an oral iron chelator with established global use in transfusion-dependent iron overload, most notably beta-thalassemia major — though its registered indications are not reflected in the Singapore database (data gap in this Evidence Pack).
-The TxGNN model predicts it may be effective for **Hepatic Porphyria**, with **0 clinical trials** and **2 preclinical/case-series publications** currently supporting this direction, placing overall evidence at the preclinical stage.
-The mechanistic rationale — iron excess as a key driver of porphyrin accumulation — is biologically plausible, but robust human clinical data specific to hepatic porphyria remain absent.
-
----
+Deferiprone is an oral iron chelator marketed in Singapore as Ferriprox.
+The TxGNN model predicts it may be effective for **hepatic porphyria**.
+Support is thin: **0 clinical trials** and **2 publications**, both preclinical mouse studies.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Iron overload in transfusion-dependent thalassemia *(note: original_indications field empty in this Evidence Pack — data gap)* |
-| Predicted New Indication | Hepatic Porphyria |
+|------|------|
+| Predicted New Indication | Hepatic porphyria |
 | TxGNN Prediction Score | 99.20% |
-| Evidence Level | L4 (preclinical studies and mechanism studies only) |
-| Singapore Market Status | ✗ Not marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Deferiprone (3-hydroxy-4-pyridinone, L1) is a small-molecule oral iron chelator. Its mechanism centres on forming stable 3:1 complexes with ferric iron (Fe³⁺), facilitating urinary iron excretion and reducing tissue iron burden. Although detailed MOA data was not retrievable via DrugBank in this Evidence Pack, Deferiprone is a WHO Essential Medicine with decades of clinical use for iron overload in haemoglobinopathies. Its key mechanistic property — mobilising intracellular and hepatic iron — is directly relevant to the predicted indication.
+Detailed mechanism of action data is not available in the Evidence Pack. Deferiprone is an oral iron chelator, so it can lower the body's iron burden. Its efficacy in its established use has been proven, and mechanistically it may be applicable to hepatic porphyria.
 
-Hepatic porphyria, particularly **Porphyria Cutanea Tarda (PCT)**, is characterised by elevated hepatic iron that inhibits uroporphyrinogen decarboxylase (UROD), the enzyme whose dysfunction leads to pathological porphyrin accumulation. Excess iron promotes reactive oxygen species (ROS) generation, which further impairs UROD and accelerates toxic uroporphyrin build-up in the liver. Standard phlebotomy works precisely by depleting hepatic iron — the same endpoint an oral chelator could achieve non-invasively, particularly in patients unsuitable for phlebotomy.
+In porphyria cutanea tarda, the most common hepatic porphyria, excess liver iron aggravates the buildup of porphyrins (uroporphyrin). Phlebotomy, which removes iron, is an effective treatment. A chelator could in theory achieve the same iron depletion without bloodletting.
 
-The TxGNN prediction therefore reflects a genuine mechanistic overlap: an iron-reducing drug applied to an iron-driven disease. The supporting literature confirms this concept in animal models (PCT mouse) and a related porphyria subtype (CEP), though no randomised clinical trials in hepatic porphyria patients have been conducted with Deferiprone. The evidence base remains at L4.
-
----
+The supporting papers are indirect. One is a mouse model of porphyria cutanea tarda. The other is a mouse model of congenital erythropoietic porphyria, which is not a hepatic porphyria. No human data were provided.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [32678895](https://pubmed.ncbi.nlm.nih.gov/32678895/) | 2020 | Preclinical / Case series | *Blood* | Iron chelation rescued hemolytic anemia and skin photosensitivity in a mouse model and case series of **Congenital Erythropoietic Porphyria (CEP)** — a related but distinct porphyria subtype. Supports the concept that iron reduction ameliorates porphyrin-driven pathology. |
-| [17854053](https://pubmed.ncbi.nlm.nih.gov/17854053/) | 2007 | Animal experiment | *Hepatology* | Deferiprone (L1) reduced hepatic uroporphyrin accumulation in **Hfe⁻/⁻ mice** (a PCT model) comparably to an iron-deficient diet. Directly demonstrates Deferiprone's iron-chelating effect in a porphyria cutanea tarda model. |
-
----
+|------|-----|------|------|---------|
+| [17854053](https://pubmed.ncbi.nlm.nih.gov/17854053/) | 2007 | Preclinical (mouse) | Hepatology | In Hfe-/- mice given ALA, deferiprone was compared with iron-deficient diets as ways to deplete liver iron and reduce liver uroporphyrin in a porphyria cutanea tarda model |
+| [32678895](https://pubmed.ncbi.nlm.nih.gov/32678895/) | 2020 | Preclinical (mouse) | Blood | Iron chelation was reported to rescue hemolytic anemia and skin photosensitivity in a congenital erythropoietic porphyria model (an erythropoietic, not hepatic, porphyria) |
 
 ## Singapore Market Information
 
-Deferiprone is not currently registered with the Health Sciences Authority (HSA) in Singapore. No authorisation records are available.
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN13668P | Ferriprox 100 mg/ml Oral Solution | Solution |
+| SIN12083P | Ferriprox Film-Coated Tablet 500 mg | Tablet, film coated |
 
----
+The approved indication text was not supplied for either registration.
 
 ## Safety Considerations
 
-Singapore-specific prescribing information (package insert warnings and contraindications) could not be retrieved, as Deferiprone is not registered in Singapore. Please refer to the approved package inserts from jurisdictions where Deferiprone is marketed (e.g., EU SmPC for Ferriprox®, or FDA label) for full safety information, including:
-
-- Known serious risks: **agranulocytosis / neutropenia** (requires weekly absolute neutrophil count monitoring)
-- GI side effects (nausea, vomiting, abdominal pain)
-- Arthropathy
-- Potential for zinc chelation
-
-No drug–drug interaction data was returned in this Evidence Pack query.
-
----
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Evidence supporting Deferiprone for hepatic porphyria is limited to a PCT mouse model and a CEP case series — both indirectly related to the target indication. No human clinical trials exist, and Singapore regulatory status is absent (no HSA registration), making immediate clinical development in Singapore premature without a full regulatory pathway assessment.
+The only support is two preclinical mouse studies (evidence level L4). One of them concerns an erythropoietic rather than a hepatic porphyria. There are no human trials, and safety and label data from the package insert are missing.
 
 **To proceed, the following is needed:**
-
-- **Mechanistic gap fill**: Retrieve full DrugBank MOA entry and confirm iron-chelation specificity relevant to UROD inhibition reversal in PCT vs. other hepatic porphyrias
-- **Safety dossier**: Obtain and parse Deferiprone package inserts (Ferriprox® EU SmPC / FDA label) to populate key warnings, contraindications, and DDI data — currently blocking (DG001)
-- **Clinical feasibility study**: Assess whether Deferiprone could be tested in PCT patients who are poor candidates for phlebotomy (e.g., those with anaemia or poor venous access) — as a proof-of-concept Phase 1/2 study
-- **Patient population scoping**: Estimate hepatic porphyria prevalence in Singapore (likely very rare) to determine commercial and public health justification
-- **Regulatory pathway**: Consult HSA on requirements for first-in-Singapore registration of Deferiprone before any repurposing programme can advance
-- **Comparator landscape**: Map existing treatments (phlebotomy, low-dose hydroxychloroquine) to define where Deferiprone could offer differentiated value
+- The HSA package insert (warnings, contraindications and approved indications), which is currently blocking safety screening
+- Mechanism of action data from DrugBank
+- Any human data (case series or trials) on iron chelation in porphyria cutanea tarda
+- A check of how deferiprone compares with phlebotomy, the established iron-depletion approach
+- A review of the other predictions. Beta-thalassemia (rank 8) is the most plausible mechanistically, but it may already be an on-label use for transfusional iron overload and should be checked against the regulatory label.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

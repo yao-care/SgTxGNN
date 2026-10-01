@@ -33,66 +33,74 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Idursulfase (brand name: Elaprase) is a recombinant enzyme replacement therapy originally developed for Hunter syndrome (Mucopolysaccharidosis Type II, MPS II), a rare X-linked lysosomal storage disorder caused by deficiency of iduronate-2-sulfatase (I2S).
-The TxGNN model predicts it may be effective for **Ptosis-Strabismus-Ectopic Pupils Syndrome**, a rare congenital structural eye condition.
-However, **no clinical trials or published literature** currently support this direction, and mechanistic analysis strongly suggests this prediction is a knowledge graph topology artefact rather than a genuine therapeutic signal.
-
----
+Idursulfase is a recombinant enzyme replacement therapy for Hunter syndrome (mucopolysaccharidosis type II, MPS II).
+The TxGNN model ranks **ptosis-strabismus-ectopic pupils syndrome** as its top predicted new indication, but this is a model prediction only, with **0 clinical trials** and **0 publications** behind it.
+Mechanistically, no plausible link was found.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Hunter Syndrome (Mucopolysaccharidosis Type II, MPS II) |
-| Predicted New Indication | Ptosis-Strabismus-Ectopic Pupils Syndrome |
+|------|------|
+| Original Indication | Hunter syndrome (MPS II); the Singapore registration record does not state an indication text |
+| Predicted New Indication | Ptosis-strabismus-ectopic pupils syndrome |
 | TxGNN Prediction Score | 97.89% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known information, Idursulfase (Elaprase) is a recombinant human iduronate-2-sulfatase (I2S), the lysosomal enzyme deficient in Hunter syndrome (MPS II). In MPS II, absence of I2S leads to progressive accumulation of glycosaminoglycans (GAGs) — specifically heparan sulfate and dermatan sulfate — within lysosomes throughout the body. This causes multi-organ damage including skeletal deformities, cardiopulmonary disease, hepatosplenomegaly, and, in severe cases, neurological deterioration. Weekly intravenous infusions of Idursulfase partially restore I2S activity, slowing GAG accumulation.
+Idursulfase is recombinant iduronate-2-sulfatase (IDS). It replaces the enzyme that is missing in Hunter syndrome and breaks down accumulated glycosaminoglycans (GAGs). Structured mechanism-of-action data is not available in the source record, so this description comes from the assessment of the predicted indications.
 
-Ptosis-strabismus-ectopic pupils syndrome is a rare congenital structural eye disorder characterised by drooping eyelids (ptosis), misalignment of the eyes (strabismus), and abnormal positioning of the pupils. Its pathogenesis lies in embryonic developmental anomalies or neuromuscular deficits occurring during organogenesis — a fundamentally different disease category from lysosomal storage disorders.
+The predicted disease is a congenital syndrome of the eyelids, pupils and eye movement. It has no known GAG-storage mechanism, and an intravenous lysosomal enzyme has no known target in it. The high score (0.979) is most likely a network-proximity artefact of the knowledge graph rather than a biological signal. Because it is a graph-based prediction only, it does not support repurposing.
 
-**The mechanistic link between Idursulfase and this syndrome is not biologically plausible.** While MPS II can cause certain ocular manifestations (e.g., corneal clouding, papilloedema) via GAG deposition in ocular tissues, these are categorically different from the structural congenital malformations that define ptosis-strabismus-ectopic pupils syndrome. The TxGNN analysis itself flags this as a likely non-specific topological correlation — the high prediction score (97.89%) is attributed to clustering of "ocular disease" nodes in the knowledge graph rather than shared molecular aetiology. Enzyme replacement targeting I2S has no known mechanism to reverse congenital developmental malformations of the eyelid, extraocular muscles, or pupillary apparatus.
+The other top-ranked predictions have the same problem. Ranks 2 to 9 are all rare congenital ocular or eyelid conditions:
+- camptodactyly with medial rectus fibrosis
+- congenital Horner syndrome
+- ptosis-vocal cord paralysis syndrome
+- ptosis-upper ocular movement limitation-absence of lacrimal punctum syndrome
+- jaw-winking syndrome
+- congenital entropion
+- epiblepharon
+- congenital ectropion
 
----
+None has trials, literature or a mechanistic link.
+
+The only candidate with any literature is rank 10, **Scheie syndrome** (attenuated MPS I), at a score of 94.79%. Scheie syndrome is caused by a deficiency of a different enzyme, alpha-L-iduronidase. Both enzymes act in the same dermatan/heparan sulfate degradation pathway, which likely explains the score. They act at different steps, so idursulfase cannot replace the missing activity. Laronidase is already the enzyme replacement therapy for MPS I. The retrieved papers cover MPS enzyme replacement therapy in general, such as desensitization and infusion reactions, and none shows idursulfase efficacy in Scheie syndrome.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
+## Singapore Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN13902P | Elaprase (TM) Solution for Intravenous Infusion 2mg/ml | Infusion, solution concentrate | Not stated in the registration record |
+
+Manufacturers: Shire HGT, Inc; Vetter Pharma-Fertigung GmbH & Co. KG (fill-finish). The only available route is injectable.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
----
+Please refer to the package insert for safety information. No drug-interaction records were found.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This prediction is classified at Evidence Level L5 — model output only, with zero supporting clinical trials or published literature. Mechanistic review confirms the prediction lacks biological plausibility: ptosis-strabismus-ectopic pupils syndrome is a congenital structural disorder with no established relationship to lysosomal GAG accumulation or I2S deficiency, and the high TxGNN score is consistent with a knowledge graph topology artefact driven by co-clustering of ocular disease nodes.
+The prediction rests on the model score alone. There are no trials or publications, and no plausible mechanistic link between iduronate-2-sulfatase replacement and a congenital eyelid, pupil and ocular-motility syndrome. The other top-ranked predictions have the same problem. The one candidate with related literature, Scheie syndrome, involves a different enzyme deficiency.
 
 **To proceed, the following is needed:**
-- Retrieve complete MOA data from DrugBank API (DG002: currently blocking mechanistic analysis)
-- Obtain Singapore HSA package insert to assess safety profile and contraindications (DG001: currently blocking S1 safety evaluation)
-- Conduct a formal biological plausibility triage across all 10 predicted indications; rank 10 (Scheie syndrome) warrants a separate assessment note as it involves a related lysosomal storage disorder, despite the key enzymatic target mismatch
-- Do not advance this specific indication (ptosis-strabismus-ectopic pupils syndrome) to any further evaluation stage without independent mechanistic evidence linking I2S deficiency to congenital ocular structural development
+- The Singapore package insert (warnings, contraindications and approved indication), which must be obtained before any safety screening
+- Structured mechanism-of-action data from DrugBank
+- Preclinical or mechanistic evidence that IDS replacement affects the pathology of the predicted disease
+- Similarity analysis and route-compatibility assessment, both currently pending
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

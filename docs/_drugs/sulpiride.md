@@ -29,13 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sulpiride: From an Unconfirmed Original Indication to a Predicted Role in Retinal Dystrophy
+# Sulpiride: From an Unrecorded Original Indication to Retinal Dystrophy
 
 ## One-Sentence Summary
 
-> Sulpiride's original indication could not be determined from available regulatory data — the drug is **not currently marketed in Taiwan** and no approved indication text is on file.
-> The TxGNN model predicts a possible link to **Retinal Dystrophy with or without Extraocular Anomalies**,
-> but this is supported by **0 clinical trials** and **no drug-specific literature** — all 15 retrieved publications discuss the disease in general terms without mentioning Sulpiride.
+Sulpiride is a selective D2/D3 dopamine receptor antagonist, and the supplied data do not record its original approved indication.
+The TxGNN model predicts it may be effective for **retinal dystrophy with or without extraocular anomalies**,
+but there are **0 clinical trials** and **0 publications that actually study sulpiride in this condition**. This is a model prediction only.
 
 ---
 
@@ -43,23 +43,23 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — drug is unlicensed in Taiwan, no original indication data on file |
-| Predicted New Indication | Retinal Dystrophy with or without Extraocular Anomalies |
+| Original Indication | Not recorded in the supplied data |
+| Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
 | TxGNN Prediction Score | 99.95% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Taiwan Market Status | Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | **Hold** |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for Sulpiride (flagged as a **Blocking-severity data gap**). Based on general pharmacological class knowledge, Sulpiride is known as a **D2/D3 dopamine receptor antagonist**, a class typically used for psychiatric indications (e.g., schizophrenia, depression) and, in some markets, functional gastrointestinal or vestibular disorders.
+Currently, detailed mechanism of action data is not available in the supplied record. Sulpiride is known as a selective D2/D3 dopamine receptor antagonist, but no formal mechanism-of-action entry was retrieved. Its original indication is also missing from both the drug record and the Singapore licence, so the relationship between the original and new indication cannot be assessed.
 
-Retinal dystrophy with or without extraocular anomalies is a heterogeneous group of **inherited retinal degeneration disorders**, generally driven by genetic mutations affecting photoreceptor structure or function. There is **no established pharmacological or mechanistic pathway** connecting dopaminergic receptor antagonism to the genetic/developmental processes underlying retinal dystrophy. The retrieved literature (see below) discusses orbital and ocular motility conditions in general clinical terms and does not reference Sulpiride, dopamine receptors, or any pharmacological intervention for retinal dystrophy.
+The only biological rationale is a loose one: dopamine signalling is active in the retina. However, no supplied data link sulpiride to inherited retinal dystrophy, which is a genetic condition. The high TxGNN score reflects a pattern in the knowledge graph, not demonstrated efficacy.
 
-Given the absence of a biologically plausible mechanism and the complete lack of drug-specific supporting evidence, this prediction should be treated as a **high-confidence but low-plausibility algorithmic signal**, warranting no further action without independent biological validation.
+The other nine predicted indications for this drug are also L5 and on Hold. Three are myopia forms (X-linked myopia, myopia 26, and syndromic myopia). These have an indirect rationale through retinal dopamine and eye-growth signalling, but they are monogenic or syndromic conditions with no supporting sulpiride data. The rest (for example hydranencephaly, Charcot-Marie-Tooth type 1G, and glycosylation disorders) have no plausible mechanistic link.
 
 ---
 
@@ -71,32 +71,36 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-⚠️ **Caveat:** The following publications were retrieved because they discuss the predicted disease (or closely related ocular/orbital conditions). **None of them mention Sulpiride**, and their relevance to this specific drug-disease pairing has not been confirmed (`relevance: pending` in source data). They are listed for transparency, not as supporting evidence.
+The articles below were retrieved by disease-term matching. None mentions sulpiride, and all are marked "relevance: pending". Most concern extraocular, orbital, or congenital eye conditions rather than retinal dystrophy. They show background on the disease area only, not support for the drug.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [38321238](https://pubmed.ncbi.nlm.nih.gov/38321238/) | 2024 | Review | Pediatric Radiology | Differential diagnosis and imaging features of pediatric ocular pathologies, including congenital/developmental lesions |
-| [38249493](https://pubmed.ncbi.nlm.nih.gov/38249493/) | 2023 | Review | Taiwan Journal of Ophthalmology | Congenital anomalies of lens shape and associated developmental abnormalities |
-| [33806565](https://pubmed.ncbi.nlm.nih.gov/33806565/) | 2021 | Review | Int J Molecular Sciences | Optic nerve head and retinal abnormalities in congenital fibrosis of extraocular muscles (genetic dysinnervation disorder) |
-| [33447730](https://pubmed.ncbi.nlm.nih.gov/33447730/) | 2020 | Review | Therapeutic Advances in Ophthalmology | Eye involvement (including retina, extraocular muscles) in inherited metabolic disorders |
-| [30747268](https://pubmed.ncbi.nlm.nih.gov/30747268/) | 2019 | Review | Neuroradiology | Neuroradiological evaluation of ophthalmoplegia |
-| [30196776](https://pubmed.ncbi.nlm.nih.gov/30196776/) | 2018 | Review | J Binocular Vision Ocular Motility | Congenital Cranial Dysinnervation Disorders overview |
-| [24932988](https://pubmed.ncbi.nlm.nih.gov/24932988/) | 2014 | Review | Am J Ophthalmology | Pathogenesis/treatment of maculopathy with cavitary optic disc anomalies |
-| [24413161](https://pubmed.ncbi.nlm.nih.gov/24413161/) | 2014 | Case Report | J Neuro-Ophthalmology | Case of congenital trochlear-oculomotor synkinesis |
-| [22241537](https://pubmed.ncbi.nlm.nih.gov/22241537/) | 2012 | Review | Klin Monatsbl Augenheilkd | Review of congenital ptosis, levator muscle dystrophy/fibrosis |
-| [20127583](https://pubmed.ncbi.nlm.nih.gov/20127583/) | 2010 | Review | Seminars in Neurology | Clinical approach to diplopia (ocular/neurologic/muscular causes) |
+| [9416661](https://pubmed.ncbi.nlm.nih.gov/9416661/) | 1997 | Review | Seminars in Ultrasound, CT, and MR | Overview of orbital infections, most commonly from sinusitis |
+| [20127583](https://pubmed.ncbi.nlm.nih.gov/20127583/) | 2010 | Review | Seminars in Neurology | Systematic approach to evaluating diplopia |
+| [22241537](https://pubmed.ncbi.nlm.nih.gov/22241537/) | 2012 | Review | Klinische Monatsblätter für Augenheilkunde | Congenital ptosis: forms, associated findings, and examination |
+| [38249493](https://pubmed.ncbi.nlm.nih.gov/38249493/) | 2023 | Review | Taiwan Journal of Ophthalmology | Congenital anomalies of lens size, shape, and position |
+| [7035111](https://pubmed.ncbi.nlm.nih.gov/7035111/) | 1981 | Review | Documenta Ophthalmologica | Wagner-Stickler syndrome complex: vitreoretinal degeneration with extraocular features |
+| [38321238](https://pubmed.ncbi.nlm.nih.gov/38321238/) | 2024 | Review | Pediatric Radiology | Differential diagnosis and imaging of pediatric ocular pathologies |
+| [33447730](https://pubmed.ncbi.nlm.nih.gov/33447730/) | 2020 | Review | Therapeutic Advances in Ophthalmology | Eye involvement in inherited metabolic disorders |
+| [109006](https://pubmed.ncbi.nlm.nih.gov/109006/) | 1979 | Case report | American Journal of Ophthalmology | Two patients with unilateral cryptophthalmia |
+| [24413161](https://pubmed.ncbi.nlm.nih.gov/24413161/) | 2014 | Case report | Journal of Neuro-Ophthalmology | Isolated trochlear-oculomotor synkinesis in a 6-year-old boy |
+| [19826317](https://pubmed.ncbi.nlm.nih.gov/19826317/) | 2009 | Case report | Optometry and Vision Science | Congenital fibrosis of extraocular muscles with synergistic divergence |
 
 ---
 
-## Singapore/Taiwan Market Information
+## Singapore Market Information
 
-Sulpiride is **not currently marketed in Taiwan** — no license or authorization records are on file (`total_licenses: 0`), so no product/indication table is available.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN09937P | DEVODIL 200 TABLET 200 mg | Tablet | Not stated in the supplied data |
+
+The product is an oral tablet made by Remedica Ltd.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No TFDA warnings, contraindications, or drug interaction data are currently on file for Sulpiride (this is flagged as a **Blocking-severity data gap** — TFDA package insert has not yet been retrieved and parsed).
+Please refer to the package insert for safety information.
 
 ---
 
@@ -105,13 +109,13 @@ Please refer to the package insert for safety information. No TFDA warnings, con
 **Decision: Hold**
 
 **Rationale:**
-- Despite a very high TxGNN score (99.95%), there is no mechanistic plausibility, no clinical trial evidence, and no drug-specific literature connecting Sulpiride to retinal dystrophy. Combined with the Blocking-severity safety data gap (no TFDA label data) and the drug's unmarketed status in Taiwan, this candidate cannot proceed past S0. The remaining 9 predicted indications for Sulpiride in this evidence pack show the same pattern — L5 evidence, no supporting trials/literature, and Hold recommendations — reinforcing that these are likely algorithmic artifacts rather than genuine repurposing signals.
+The prediction is model-only (L5), with no clinical trials and no literature on sulpiride in retinal dystrophy. The mechanistic link is weak, and key drug-level data (original indication, mechanism of action, safety information) are missing.
 
 **To proceed, the following is needed:**
-- TFDA package insert (warnings, contraindications) — currently Blocking gap (DG001)
-- Confirmed mechanism of action from DrugBank — currently High-severity gap (DG002)
-- Original indication data (Sulpiride's approved use elsewhere) to establish a baseline for mechanistic comparison
-- Drug-specific literature search (Sulpiride + retinal dystrophy / dopamine + retinal degeneration) to confirm or rule out biological plausibility before any further evaluation
+- The HSA package insert, including warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action and original indication data (for example from DrugBank)
+- Preclinical or mechanistic evidence that D2/D3 antagonism affects inherited retinal degeneration
+- A targeted literature search that includes sulpiride or dopamine antagonists and retinal disease, with relevance screening
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

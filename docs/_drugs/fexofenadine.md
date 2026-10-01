@@ -29,77 +29,74 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Fexofenadine: From Allergic Rhinitis to Rosacea Conjunctivitis
+# Fexofenadine: From Allergic Conditions to Rosacea Conjunctivitis
 
 ## One-Sentence Summary
 
-Fexofenadine is a second-generation, non-sedating H1 antihistamine approved globally for allergic rhinitis and chronic idiopathic urticaria, though it is not currently registered in Singapore.
-The TxGNN model predicts it may be effective for **Rosacea Conjunctivitis**, scoring a near-perfect 99.85%.
-However, **no clinical trials and no published literature** currently support this specific direction — this prediction remains at the model-only evidence level (L5).
-
----
+Fexofenadine is a peripherally selective H1 antihistamine, generally used for allergic conditions. The TxGNN model predicts it may be effective for **rosacea conjunctivitis**, but **no clinical trials and no publications** currently support this prediction. It is a model-only signal.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Allergic rhinitis, chronic idiopathic urticaria (global approval; not registered in Singapore) |
-| Predicted New Indication | Rosacea Conjunctivitis |
+|------|------|
+| Original Indication | Allergic conditions (general drug class knowledge; the Singapore licence records provide no indication text) |
+| Predicted New Indication | Rosacea conjunctivitis |
 | TxGNN Prediction Score | 99.85% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 7 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from this evidence pack. Based on established pharmacology, fexofenadine is a selective, peripherally-acting H1 receptor antagonist — it competitively blocks histamine H1 receptors at the cell surface, thereby inhibiting histamine-induced vasodilation, increased vascular permeability, and pruritic signaling. Crucially, fexofenadine does not readily cross the blood-brain barrier, which accounts for its non-sedating profile and favorable safety record. Its proven efficacy in allergic rhinitis and urticaria — both conditions driven by mast cell histamine release — establishes the mechanistic foundation.
+Detailed mechanism of action data is not currently available. Fexofenadine is a peripherally selective H1 antihistamine, and histamine blockade is its known pharmacological role. Histamine-mediated inflammation could contribute to ocular surface symptoms, which is the basis for the predicted link.
 
-The prediction for rosacea conjunctivitis is biologically plausible. Rosacea is now understood to involve pathological mast cell activation and excessive histamine release within facial and ocular tissue, driving chronic neurovascular inflammation of the conjunctiva. H1 receptor blockade can theoretically suppress histamine-mediated vasodilation, vascular permeability, and itch transmission at the ocular surface, potentially reducing the redness, burning, and discharge characteristic of rosacea conjunctivitis. The TxGNN knowledge graph assigns its highest score (0.9985, rank #2,797 overall) to this indication, reflecting significant co-occurrence of rosacea pathways and histamine signaling nodes in the biomedical literature graph.
+However, the link is weak. Ocular disease in rosacea is mainly driven by meibomian gland dysfunction, microbial and Demodex factors, and innate immune and MMP activation, not histamine. Oral fexofenadine has no documented use in ocular rosacea. The high score (0.998) reflects knowledge-graph proximity only.
 
-That said, the causal role of histamine in the ocular manifestations of rosacea — versus demodex colonization, altered innate immune signaling, and matrix metalloproteinase activity — is not fully established. The prediction is mechanistically coherent but clinically unverified, and no human evidence currently supports it.
+The other nine top predictions are all ocular, eyelid, or infection-related conditions, and each also has L5 evidence with no trials or literature:
 
----
+- **Punctate epithelial keratoconjunctivitis, viral conjunctivitis, parasitic eyelid infestation, ulcerative blepharitis, infective urethral stricture, post-bacterial disorder:** the mechanistic link is indirect or absent. These conditions are driven by viral, parasitic, or bacterial causes or by fibrosis, and H1 blockade is not a recognised treatment for them. Fexofenadine might relieve itch at most.
+- **Blepharoconjunctivitis (allergic subtype), postinfectious vasculitis:** plausible symptom relief in histamine-driven forms, but there are no data for oral fexofenadine and it would not be disease-modifying.
+- **Noninfectious dermatoses of eyelid:** the most credible of the ten. Allergic or atopic eyelid dermatitis involves histamine-mediated itch, so symptomatic benefit is biologically plausible. Supporting data would be needed first.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Fexofenadine is not currently registered with Singapore HSA. No product authorizations are on record.
+Seven registrations are recorded. The five main ones are listed below.
 
----
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN11704P | TELFAST TABLET 120 mg | Film-coated tablet | PT. Kalventis Sinergi Farma |
+| SIN11699P | TELFAST TABLET 180 mg | Film-coated tablet | PT. Kalventis Sinergi Farma |
+| SIN14591P | FEXODIN FILM COATED TABLET 180MG | Film-coated tablet | Medreich Limited |
+| SIN15714P | FEXODIN FILM COATED TABLET 120MG | Film-coated tablet | Medreich Limited |
+| SIN16296P | FEXOFEN FILM-COATED TABLET 180MG | Film-coated tablet | Ind-Swift Limited |
+
+Available forms are oral film-coated tablets and a suspension. No ocular (topical) formulation was found, so route compatibility with the predicted ocular indications has not been assessed.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-No clinical trials or published literature specifically address fexofenadine in rosacea conjunctivitis; the entire evidence base consists of a single TxGNN model prediction (L5), and the drug has no Singapore regulatory footprint from which to draw safety or indication data.
+The prediction is supported only by the TxGNN model score. There are no trials or publications, the mechanistic link to rosacea conjunctivitis is weak, and the only available forms are oral. The 99.85% score alone is not enough to justify further investment.
 
 **To proceed, the following is needed:**
-- Targeted literature review on H1 antihistamines as a class effect in ocular rosacea and rosacea conjunctivitis (broaden search beyond fexofenadine to cetirizine, loratadine, bilastine)
-- Retrieval of full MOA documentation from DrugBank (DB00950) and product labeling to characterize receptor selectivity and tissue distribution at the ocular level
-- Safety data gap remediation: obtain key warnings, contraindications, and drug interaction profile from a registered package insert (e.g., EU SmPC or US FDA label)
-- Route-of-administration assessment: determine whether systemic oral dosing achieves adequate concentrations at the conjunctival surface, or whether a topical ophthalmic formulation would be required
-- Engagement with a clinical ophthalmologist or dermatologist with rosacea expertise to assess feasibility of an exploratory investigator-initiated study or prospective case series
+- Approved indication text and safety information from the HSA package insert
+- Detailed mechanism of action data, for example from DrugBank
+- Evidence for oral or topical H1 antagonists in ocular rosacea. If that is unavailable, consider re-prioritising toward "noninfectious dermatoses of eyelid," which has the most plausible mechanism.
+- A route-compatibility assessment, since the available forms are oral and the target conditions are ocular
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -29,78 +29,66 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-Using the provided Evidence Pack directly (no additional skill needed — this is a template-driven report generation task).
-
-# Rocuronium: From Neuromuscular Blockade in General Anesthesia to Migraine Disorder
+# Rocuronium: From Neuromuscular Blockade in Anesthesia to Migraine Disorder
 
 ## One-Sentence Summary
 
-Rocuronium is a peripheral non-depolarizing neuromuscular blocking agent (NMBA) used as an adjunct to general anesthesia (drug class inferred from the evidence pack; no structured original-indication data was provided). The TxGNN model predicts it may be effective for **Migraine Disorder**, but this direction is currently supported by only **1 loosely-related clinical trial** and **no literature**, and the drug is not marketed in Singapore.
-
----
+Rocuronium is a non-depolarizing neuromuscular blocker given by injection, used as an adjunct in anesthesia.
+The TxGNN model predicts it may be effective for **migraine disorder**, but only **1 clinical trial** (unrelated to migraine efficacy) and **0 publications** are linked to this prediction.
+The prediction is model output only, and the evidence does not support it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in registry data. Rocuronium is a peripheral NMBA used in general anesthesia (inferred from evidence-pack mechanistic notes) |
+| Original Indication | Not stated in the Singapore registration records (rocuronium is generally used as a neuromuscular blocker in anesthesia) |
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 99.90% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 4 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap). Based on the available evidence-pack annotations, rocuronium is a non-depolarizing NMBA that acts at nicotinic acetylcholine receptors at the peripheral neuromuscular junction; it has very low blood-brain-barrier penetration and no known central mechanism.
+It is not well supported. Detailed mechanism of action data is not available in the input. Rocuronium is known to block nicotinic acetylcholine receptors at the neuromuscular junction, causing skeletal muscle relaxation. It has no known action on migraine pathways such as CGRP, the trigeminovascular system, or cortical spreading depression.
 
-There is no established pharmacological rationale connecting a peripheral muscle relaxant to migraine pathophysiology, which is primarily a central/trigeminovascular disorder. The single supporting trial (a pediatric pharmacokinetics study covering many unrelated drugs) does not test rocuronium against migraine and offers no mechanistic or clinical signal.
-
-Taken together, this prediction should be treated as a low-confidence, model-only signal — likely arising from indirect co-occurrence patterns in the knowledge graph (e.g., rocuronium's frequent use in surgical/anesthesia contexts that also involve headache-related outcome reporting) rather than a genuine pharmacological link.
-
----
+Its original use (skeletal muscle paralysis during surgery) is pharmacologically unrelated to migraine, which is a neurovascular headache disorder. The very high TxGNN score (about 99.9%) is most likely an artifact of how the knowledge graph propagates scores, not a real therapeutic signal.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01431326](https://clinicaltrials.gov/study/NCT01431326) | N/A | Completed | 3,520 | Pediatric pharmacokinetics study of multiple "understudied" drugs administered per standard of care; not designed to evaluate rocuronium for migraine treatment |
-
----
+| [NCT01431326](https://clinicaltrials.gov/study/NCT01431326) | N/A | Completed | 3520 | Pharmacokinetics of understudied drugs given to children as standard of care. No migraine endpoint; relevance grade C. |
 
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Rocuronium is not currently marketed in Singapore (0 registrations on file); no license records are available to summarize.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN17025P | NOVERON SOLUTION FOR INJECTION 10MG/ML | Injection, solution | Not listed in record |
+| SIN15106P | ROCURONIUM KABI SOLUTION FOR INJECTION/INFUSION 10MG/ML | Injection, solution | Not listed in record |
+| SIN09479P | ESMERON INJECTION 50 mg/5ml | Injection | Not listed in record |
+| SIN15237P | ROCURONIUM-HAMELN INJECTION 10MG/ML | Injection, solution | Not listed in record |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The predicted migraine indication has no plausible mechanistic basis (rocuronium is a peripherally-acting NMBA with negligible CNS penetration) and is supported only by an unrelated pediatric pharmacokinetics trial. Combined with the absence of Singapore market presence and missing safety/MOA data, this candidate does not meet the threshold to advance past S0.
+The migraine prediction rests on model score alone, with no efficacy trials, no relevant literature, and no plausible mechanism. The other nine ranked predictions (for example migraine with brainstem aura, cauda equina syndrome, irritable bowel syndrome, and sciatic neuropathy) are also at L5 with no mechanistic rationale. Headache disorder has some anesthesia-related trials and publications, but headache appears there only as a perioperative side effect or secondary outcome, not as a treatment target.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism of action data from DrugBank (currently a High-severity data gap, DG002)
-- Package insert warnings/contraindications (currently a Blocking data gap, DG001) — required before any S1 safety screening
-- A credible preclinical or mechanistic study linking peripheral NMBA activity to migraine pathophysiology, if this candidate is to be pursued further
-- Note: among the 10 TxGNN-predicted indications in this pack, **headache disorder** (rank 10) has a materially stronger evidence base (L3, decision stage S1) — including an RCT/cohort study showing rocuronium-sugammadex may reduce post-ECT myalgia/headache versus succinylcholine. If pursuing a headache-related indication, that candidate — not migraine — is the more defensible starting point.
+- HSA package insert warnings and contraindications, which are currently missing and block safety screening
+- Mechanism of action data from DrugBank, to allow a proper mechanistic-link assessment
+- Any preclinical or clinical evidence that neuromuscular blockade benefits migraine. Without it, this candidate should not advance.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

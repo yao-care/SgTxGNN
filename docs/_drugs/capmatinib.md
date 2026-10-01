@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Capmatinib
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 202
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 ---
 
 # Capmatinib
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,114 +29,82 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Capmatinib: From NSCLC (METex14) to Rheumatoid Arthritis
+# Capmatinib: From MET Exon 14-Mutated Non-Small Cell Lung Cancer to Rheumatoid Arthritis
 
 ## One-Sentence Summary
 
-Capmatinib (Tabrecta) is a selective c-MET/HGFR inhibitor approved by the FDA for the treatment of non-small cell lung cancer (NSCLC) harbouring MET exon 14 (METex14) skipping mutations.
-The TxGNN model predicts it may be effective for **Rheumatoid Arthritis**,
-with **0 clinical trials** and **1 publication** (a general narrative review) currently providing only indirect mechanistic support for this direction.
-
----
+Capmatinib is an oral MET kinase inhibitor, marketed in Singapore as Tabrecta. It is generally used for MET-dysregulated non-small cell lung cancer, but the registration data supplied here do not state the approved indication.
+The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but **no clinical trials** and only **1 general review** support this direction, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | NSCLC with MET exon 14 skipping mutations |
-| Predicted New Indication | Rheumatoid Arthritis |
+|------|------|
+| Original Indication | Not stated in the Singapore registration data. Non-small cell lung cancer with MET alterations is the usual use (general knowledge, not from the Evidence Pack) |
+| Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 99.45% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
 | Recommended Decision | Hold |
 
----
+## Why is This Prediction Reasonable?
 
-## Why Is This Prediction Reasonable?
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on general knowledge, capmatinib is a selective MET (c-Met) kinase inhibitor. Its efficacy in MET-driven cancer is established, and mechanistically it may be applicable to rheumatoid arthritis.
 
-Capmatinib is a highly selective, orally bioavailable inhibitor of the c-MET receptor tyrosine kinase (also known as HGFR, hepatocyte growth factor receptor). By blocking MET phosphorylation, capmatinib suppresses downstream pro-survival and pro-migratory signalling cascades including PI3K/AKT, RAS/MAPK, and STAT3. Its original oncology indication exploits the fact that METex14 mutations abolish the receptor's self-degradation signal, leading to constitutive kinase activation and tumour growth.
+The proposed link is biological. HGF/MET signalling is thought to contribute to synovial inflammation and fibroblast activity, which are central to rheumatoid arthritis. This is a plausible hypothesis, not a demonstrated effect.
 
-In rheumatoid arthritis (RA), the HGF/c-MET axis is aberrantly upregulated within the inflamed synovium. Synovial fibroblasts (FLS) from RA patients overexpress c-MET, and HGF stimulation drives FLS proliferation, invasion into cartilage, and secretion of matrix metalloproteinases. Additionally, MET-mediated signalling promotes VEGF-driven pannus (inflammatory tissue) formation and neovascularisation, processes that sustain chronic joint destruction. Mechanistically, therefore, blocking MET could theoretically restrain FLS invasiveness and synovial angiogenesis — two hallmarks of RA pathology.
-
-However, the mechanistic link currently rests on indirect inference only. The sole retrieved publication (PMID 33513356) is a broad narrative review of FDA-approved kinase inhibitors and does not present any RA-specific data for capmatinib. No dedicated in vitro, animal-model, or clinical studies have been published examining capmatinib in an RA context. This means the biological plausibility, while conceptually coherent, lacks empirical validation and the prediction should be treated as an early-stage hypothesis requiring dedicated experimental work.
-
----
+The evidence does not go further than that. No RA-specific data were provided, and the high score (0.994, rank 6,947) is a model output only. The one supporting publication is a general review of kinase inhibitors, not a study of capmatinib in RA.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Capmatinib in Rheumatoid Arthritis.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [33513356](https://pubmed.ncbi.nlm.nih.gov/33513356/) | 2021 | Narrative Review | Pharmacological Research | Comprehensive overview of properties of all FDA-approved small molecule kinase inhibitors as of 2021, including capmatinib; no RA-specific data presented |
-
----
+|------|-----|------|------|---------|
+| [33513356](https://pubmed.ncbi.nlm.nih.gov/33513356/) | 2021 | Review | Pharmacological Research | 2021 update on FDA-approved small-molecule protein kinase inhibitors. It is general background on kinase inhibitors and does not study capmatinib in rheumatoid arthritis. |
 
 ## Singapore Market Information
 
-Capmatinib currently holds **no registered product licences** in Singapore. The drug is therefore not commercially available in this market.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN16351P | TABRECTA FILM-COATED TABLET 200mg | Film-coated tablet | Not stated in the registration data |
+| SIN16350P | TABRECTA FILM-COATED TABLET 150mg | Film-coated tablet | Not stated in the registration data |
 
-For reference, capmatinib (Tabrecta®) has received regulatory approval in the following major jurisdictions outside Singapore:
-
-| Jurisdiction | Approval Year | Approved Indication |
-|-------------|--------------|---------------------|
-| USA (FDA) | 2020 | Adult patients with metastatic NSCLC whose tumours have a METex14 skipping mutation |
-| EU (EMA) | 2022 | Adult patients with advanced NSCLC with METex14 skipping mutations |
-| Japan (PMDA) | 2021 | Unresectable, advanced/recurrent NSCLC with MET gene alterations |
-
-Any future regulatory pathway in Singapore would require local registration prior to clinical use.
-
----
+Both products are oral tablets.
 
 ## Cytotoxicity
 
-Capmatinib is an antineoplastic targeted therapy (kinase inhibitor class).
-
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy — selective MET receptor tyrosine kinase inhibitor |
-| Myelosuppression Risk | Low to moderate; peripheral oedema, nausea, and fatigue are more common dose-limiting effects; haematologic toxicity is uncommon but monitor baseline CBC |
-| Emetogenicity Classification | Low (consistent with most oral targeted kinase inhibitors) |
-| Monitoring Items | CBC with differential; liver function tests (ALT/AST — interstitial lung disease and hepatotoxicity reported); renal function; QTc interval at baseline and during dose escalation |
-| Handling Protection | Oral solid dosage form; standard precautions for handling cytotoxic oral agents apply (avoid crushing tablets, use gloves) |
-
----
+|------|------|
+| Cytotoxicity Classification | Targeted therapy (MET kinase inhibitor), not a conventional cytotoxic |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert warnings and precautions (typically liver function and other routine laboratory parameters) |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ## Safety Considerations
 
-Detailed TFDA package insert warnings and contraindications are not available in the current data set (Data Gap DG001). Please refer to the FDA/EMA-approved Tabrecta® prescribing information for complete safety details.
-
-Key safety signals from the approved oncology indication that remain relevant in any new indication:
-
-- **Interstitial Lung Disease (ILD) / Pneumonitis**: Reported in ~5% of patients in the GEOMETRY mono-1 trial; any new or worsening respiratory symptoms require prompt evaluation and treatment interruption.
-- **Photosensitivity**: Patients should be counselled to limit sun exposure and use broad-spectrum sunscreen.
-- **Embryo-Foetal Toxicity**: Capmatinib can cause foetal harm; effective contraception required in women of childbearing potential.
-- **Drug Interactions**: No DDI data were retrieved in this evidence pack. Note that capmatinib is a substrate of CYP3A4 and P-glycoprotein, and co-administration with strong CYP3A4 inducers or inhibitors warrants caution.
-
----
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model assigns a high score (99.45%) to the capmatinib → rheumatoid arthritis pairing, and the HGF/c-MET mechanistic hypothesis in RA synovial biology is conceptually coherent. However, the evidence base is at L4 — no dedicated pre-clinical RA models, no clinical trials, and no direct publications — making this a hypothesis-only prediction unsuitable for clinical advancement at this stage.
+The RA prediction has a high model score but no trials, no RA-specific literature and no confirmed mechanism data, so it stays at evidence level L5. The safety documents needed for screening are also missing.
 
 **To proceed, the following is needed:**
+- HSA package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank, to support the HGF/MET–synovium hypothesis
+- Preclinical or translational evidence for MET inhibition in RA
+- A safety review for use in a chronic inflammatory disease, given that this is an oncology kinase inhibitor
 
-- **Preclinical validation**: In vitro experiments using RA-FLS cell lines treated with capmatinib (proliferation, invasion, cytokine secretion assays); collagen-induced arthritis (CIA) mouse model studies to assess joint protection endpoints
-- **MOA data**: Full DrugBank mechanistic annotation for capmatinib (Data Gap DG002) to strengthen the mechanistic rationale
-- **Safety data**: Retrieve and review TFDA/FDA package insert warnings and contraindications (Data Gap DG001) before any clinical hypothesis development
-- **RA-specific literature search**: Conduct a targeted systematic search for HGF/MET inhibition in RA across PubMed, EMBASE, and bioRxiv to identify any unpublished or grey literature evidence
-- **Comparator analysis**: Review whether other MET inhibitors (crizotinib, tepotinib, savolitinib) have been studied in RA, as class-level evidence could inform capmatinib's potential
-- **Registration pathway assessment**: If preclinical evidence emerges, a Singapore HSA registration strategy would be required de novo given current zero-licence status
+**Other predictions of note:** heart disease (rank 4) has one preclinical study (PMID 32333917) in which capmatinib offset doxorubicin cardiotoxicity in mice. It is graded L4, "Research Question", and is indirect evidence with no human efficacy data. The remaining predictions are rare syndromes or structural conditions with no supporting data (L5, Hold).
 
-> ⚠️ **Disclaimer**: This report is intended for research reference only and does not constitute medical advice. All drug repurposing candidates require clinical validation before any application.
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

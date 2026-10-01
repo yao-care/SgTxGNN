@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Pitavastatin
-parent: High Evidence (L1-L2)
+parent: Medium Evidence (L3-L4)
 nav_order: 793
-evidence_level: L1
+evidence_level: L4
 indication_count: 10
 ---
 
 # Pitavastatin
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,92 +29,66 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Pitavastatin: From Hypercholesterolemia to Cardiovascular Disease Prevention in HIV Infection
+# Pitavastatin: From Hyperlipidemia to Homozygous Familial Hypercholesterolemia
 
 ## One-Sentence Summary
 
-> Pitavastatin is an HMG-CoA reductase inhibitor (statin) originally developed for treating hypercholesterolemia and dyslipidemia.
-> Among 10 TxGNN-predicted indications for this drug, **cardiovascular disease prevention in people with HIV infection** stands out as the most clinically robust candidate,
-> supported by **2 clinical trials** — including the landmark REPRIEVE Phase 3 RCT (N=7,769) — and **20 publications**, most notably a primary report in the *New England Journal of Medicine*.
-
-*(Note: Of the 10 candidates in this evidence pack, several — such as "familial hypercholesterolemia" and "hyperlipoproteinemia" — largely fall within pitavastatin's established statin-class indications rather than true repurposing. "HIV infectious disease" was selected as the report subject because it represents a genuinely new, high-evidence indication: primary/secondary cardiovascular prevention in HIV-positive patients, not treatment of HIV itself.)*
-
----
+Pitavastatin is a statin (HMG-CoA reductase inhibitor) marketed in Singapore as Livalo for lowering cholesterol.
+The TxGNN model predicts it may be effective for **homozygous familial hypercholesterolemia (HoFH)**, but **no clinical trials** and only **2 publications** are linked, and neither directly supports this use.
+The high model score reflects proximity in the knowledge graph, not clinical proof.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypercholesterolemia / Dyslipidemia (general statin-class indication; no Singapore-specific registration text available) |
-| Predicted New Indication | HIV Infectious Disease — specifically, cardiovascular disease (MACE) prevention in people with HIV |
-| TxGNN Prediction Score | 99.97% |
-| Evidence Level | L1 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Original Indication | Not stated in the HSA licence records (pitavastatin is a statin used for primary hyperlipidemia/dyslipidemia) |
+| Predicted New Indication | Homozygous familial hypercholesterolemia |
+| TxGNN Prediction Score | 99.996% |
+| Evidence Level | L4 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for pitavastatin is not available in this evidence pack (flagged as a High-severity data gap). Based on established pharmacology, pitavastatin is an HMG-CoA reductase inhibitor (statin class) whose efficacy in lowering LDL-cholesterol and treating hypercholesterolemia/dyslipidemia is well proven. Beyond lipid-lowering, statins as a class exhibit pleiotropic anti-inflammatory effects — including reduction of hsCRP and other inflammatory markers — that are mechanistically distinct from their lipid effects.
+Pitavastatin inhibits HMG-CoA reductase, the rate-limiting enzyme in cholesterol synthesis. This lowers LDL-C mainly by upregulating LDL receptors (LDLR) in the liver. Cholesterol-lowering is its established use, and HoFH is a severe form of the same problem (very high LDL-C), so the model links the two.
 
-People living with HIV experience chronic immune activation and systemic inflammation that accelerates atherosclerosis, giving them a substantially elevated cardiovascular disease risk even after accounting for traditional risk factors. Pitavastatin's dual action — LDL-lowering plus anti-inflammatory/anti-atherogenic effects — provides a plausible mechanistic bridge from its original lipid indication to cardiovascular risk reduction in this specific, high-risk population.
-
-This mechanistic plausibility is strongly reinforced by direct outcome data: the REPRIEVE trial (NCT02344290), a Phase 3 RCT enrolling 7,769 participants with HIV on antiretroviral therapy and low-to-moderate cardiovascular risk, demonstrated a significant reduction in major adverse cardiovascular events (MACE) with pitavastatin versus placebo. It's important to note the precise framing: this is not a predicted therapy for HIV infection itself, but for **prevention of HIV-associated cardiovascular disease**, and the indication label should reflect this distinction.
-
----
+The mechanism also explains the limits. HoFH involves severe loss of LDLR function, and statins depend on residual receptor activity. Response is therefore expected to be limited, especially in patients with null/null genotypes. The two linked papers do not close this gap (see below), and the pack does not include detailed mechanism-of-action data from DrugBank.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT02344290](https://clinicaltrials.gov/study/NCT02344290) | Phase 3 | Completed | 7,769 | REPRIEVE trial: pitavastatin evaluated for reducing cardiovascular disease risk in adults with HIV on antiretroviral therapy; demonstrated significant reduction in major adverse cardiovascular events (MACE) |
-| [NCT06317051](https://clinicaltrials.gov/study/NCT06317051) | Phase 3/4 | Active, not recruiting | 300 | Factorial RCT comparing dapagliflozin vs placebo and rosuvastatin/ezetimibe vs pitavastatin in HIV patients on integrase inhibitor-based therapy with elevated metabolic risk |
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [37486775](https://pubmed.ncbi.nlm.nih.gov/37486775/) | 2023 | RCT (primary report) | New England Journal of Medicine | REPRIEVE trial primary results: pitavastatin reduced cardiovascular disease risk in HIV-positive adults |
-| [38381407](https://pubmed.ncbi.nlm.nih.gov/38381407/) | 2024 | Mechanistic substudy (RCT) | JAMA Cardiology | Pitavastatin reduced non-calcified coronary plaque and MACE by 35% over a median 5.1 years in REPRIEVE participants |
-| [39374532](https://pubmed.ncbi.nlm.nih.gov/39374532/) | 2024 | Secondary analysis (RCT) | Annals of Internal Medicine | Examined diabetes risk factors and natural history in HIV patients receiving pitavastatin vs placebo |
-| [39661372](https://pubmed.ncbi.nlm.nih.gov/39661372/) | 2025 | Secondary analysis (RCT) | JAMA Cardiology | Pitavastatin affected procollagen pathways and plaque stabilization mechanisms in HIV patients |
-| [40482662](https://pubmed.ncbi.nlm.nih.gov/40482662/) | 2025 | Longitudinal cohort analysis | The Lancet HIV | Investigated interaction between antiretroviral therapy history and pitavastatin's effect on MACE in REPRIEVE |
-| [36849967](https://pubmed.ncbi.nlm.nih.gov/36849967/) | 2023 | RCT (crossover) | AIDS Research and Therapy | Randomized double-blind crossover study of pitavastatin's effect on atherosclerotic inflammatory biomarkers in HIV patients on ritonavir-boosted atazanavir |
-| [38294226](https://pubmed.ncbi.nlm.nih.gov/38294226/) | 2025 | Review | Cardiology in Review | Review of pitavastatin's role in cardiovascular disease prevention in people living with HIV |
-| [39435321](https://pubmed.ncbi.nlm.nih.gov/39435321/) | 2024 | Secondary analysis (RCT) | Open Forum Infectious Diseases | Assessed effects of pitavastatin on COVID-19 incidence and severity in the global REPRIEVE HIV cohort |
-| [30928823](https://pubmed.ncbi.nlm.nih.gov/30928823/) | 2019 | Substudy rationale/design | American Heart Journal | Study design paper for the REPRIEVE mechanistic substudy on coronary artery disease and inflammatory biomarkers |
-| [38198667](https://pubmed.ncbi.nlm.nih.gov/38198667/) | 2023 | Review | Topics in Antiviral Medicine | Review of cardiovascular disease prevention and treatment strategies, including statins, in HIV |
-
----
+| [28416195](https://pubmed.ncbi.nlm.nih.gov/28416195/) | 2017 | RCT (Phase 4, INTREPID) | The Lancet HIV | Pitavastatin vs pravastatin in adults with HIV-1 and dyslipidaemia. Population mismatch: not an HoFH study. |
+| [39532566](https://pubmed.ncbi.nlm.nih.gov/39532566/) | 2025 | Case report | Journal of Clinical Lipidology | Rapid lipid-lowering response in two cases of autosomal recessive hypercholesterolemia (LDLRAP1 variants), a phenotype clinically similar to HoFH. Only two patients, and not HoFH itself. |
 
 ## Singapore Market Information
 
-Pitavastatin is currently **not marketed** in Singapore — no product registrations are on file in this evidence pack (total registrations: 0).
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN15859P | LIVALO Film-Coated Tablets 2 mg (Kowa Company, Ltd., Nagoya Factory) | Tablet, film coated | Not stated in the record |
+| SIN15860P | LIVALO Film-Coated Tablets 4 mg (Kowa Company, Ltd., Nagoya Factory) | Tablet, film coated | Not stated in the record |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-interaction data are flagged as data gaps in this evidence pack, including a Blocking-severity gap for TFDA/HSA label warnings and contraindications.)
-
----
+Please refer to the package insert for safety information. No drug-interaction records were found for this drug in the pack.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The REPRIEVE trial provides Level 1 evidence (a large, completed Phase 3 RCT published in NEJM, N=7,769) that pitavastatin significantly reduces cardiovascular events in people with HIV — a genuinely new, well-mechanistically-supported indication distinct from its original lipid-lowering use. However, the drug is not currently marketed in Singapore, and critical safety/label data are missing.
+No trials exist for HoFH. The two linked papers are an HIV dyslipidaemia RCT and a two-patient case report of a related recessive condition. The mechanism suggests limited benefit when LDL receptor function is severely lost. The 99.996% score reflects graph proximity, not clinical evidence.
 
 **To proceed, the following is needed:**
-- Mechanism of action (MOA) data from DrugBank (currently a High-severity data gap)
-- Official package insert warnings, contraindications, and drug interaction data (currently a Blocking-severity data gap preventing safety pre-assessment)
-- Confirmation of Singapore/HSA registration pathway, since the drug has no current market presence locally
-- Precise indication scoping — labeling should specify "cardiovascular risk reduction in HIV-positive patients on antiretroviral therapy with low-to-moderate CV risk," not "HIV infection" broadly
+- HoFH-specific clinical data, ideally stratified by LDLR genotype (residual receptor activity vs null/null)
+- The current HSA package insert (warnings, contraindications, approved indications)
+- Detailed mechanism-of-action data from DrugBank
+- Evidence-based context from other predicted indications for this drug: cardiovascular prevention in people with HIV (REPRIEVE, a completed Phase 3 trial in 7,769 participants) and heterozygous familial hypercholesterolemia have much stronger support than HoFH
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

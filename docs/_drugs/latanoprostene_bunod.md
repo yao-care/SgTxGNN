@@ -29,67 +29,64 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Latanoprostene Bunod: From Ocular Hypertension/Glaucoma to Visceral Calciphylaxis
+# Latanoprostene Bunod: From Ocular Hypertension and Open-Angle Glaucoma to Visceral Calciphylaxis
 
 ## One-Sentence Summary
 
-> Latanoprostene bunod is an ophthalmic agent (FP-receptor agonist + nitric oxide donor) used for intraocular-pressure lowering; its formal original indication and mechanism-of-action record are currently a data gap in this evidence pack, though clinical trial titles in the dataset confirm use in ocular hypertension/primary open-angle glaucoma populations. The TxGNN model's **top-ranked** prediction for this drug is **Visceral Calciphylaxis**, but this specific candidate is supported by **0 clinical trials** and **0 publications**, and the model's own mechanistic review flags it as likely statistical noise rather than a genuine repurposing signal.
-
----
+Latanoprostene bunod is an eye drop that lowers eye pressure, and it is marketed in Singapore as VYZULTA 0.024%. The TxGNN model predicts it may be effective for **visceral calciphylaxis** with a score of 99.76%. This prediction rests on the model alone: **0 clinical trials** and **0 publications** support it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in structured data (Data Gap) — trial evidence in this pack (NCT03931317) indicates use in ocular hypertension / primary open-angle glaucoma populations |
-| Predicted New Indication | Visceral Calciphylaxis |
+| Original Indication | Not stated in the Singapore registration record. The drug is known as an eye-pressure-lowering agent for ocular hypertension and open-angle glaucoma. |
+| Predicted New Indication | Visceral calciphylaxis |
 | TxGNN Prediction Score | 99.76% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for latanoprostene bunod is not available in the current record (Data Gap). Based on information embedded elsewhere in this evidence pack (repurposing rationale text and clinical trial titles), the compound acts through FP-receptor activation combined with nitric oxide (NO) release, a mechanism used to lower intraocular pressure — consistent with use in glaucoma / ocular hypertension.
+Detailed mechanism-of-action data are not available in the supplied record. Latanoprostene bunod is described as an ocular prostaglandin F2-alpha analog that also donates nitric oxide. It is understood to lower eye pressure by increasing fluid outflow through both the uveoscleral and trabecular pathways.
 
-For the top-ranked candidate specifically — **visceral calciphylaxis** — the model's own mechanistic assessment does **not** support the prediction. Calciphylaxis is pathologically driven by vascular calcification and microthrombosis, a disease process with no known mechanistic overlap with FP-receptor activation or NO-donor–mediated IOP reduction. No clinical trial, registry trial, or publication in this evidence pack addresses this drug-disease pair; the high TxGNN similarity score appears to reflect model-internal pattern matching rather than a biologically grounded hypothesis.
+No plausible mechanistic link to visceral calciphylaxis (calcific uremic arteriolopathy) is apparent. Nitric oxide and prostaglandin effects on blood vessels are a theoretical bridge, but no data connect them to this disease. The high score most likely reflects a pattern in the knowledge graph rather than biological or clinical evidence. This prediction should not be treated as a credible repurposing lead.
 
-For transparency: two other candidates in this same prediction set carry materially stronger support and may warrant separate evaluation — **primary hereditary glaucoma** (rank 2, L4, mechanistically plausible via the same IOP-lowering pathway as the drug's presumed original use) and **vascular disease** (rank 6, L3, supported by two completed trials — NCT03949244 and NCT03931317 — directly measuring the drug's microvascular/nailfold capillary blood-flow effects). These are not the subject of this report but are noted here because they emerged from the same TxGNN run and materially change the interpretation of "how reasonable is this drug's repurposing profile overall" versus this specific rank-1 candidate.
-
----
+Two other predictions for this drug look more useful:
+- **Primary hereditary glaucoma** is biologically plausible, but it may overlap with the labeled use, so it may not count as repurposing. No trials or literature were supplied for this subtype.
+- **Vascular disease** (rank 6) has two completed human studies of blood-flow effects. These are physiological studies, not efficacy trials, and the term is too broad to support any clinical claim.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
 
----
+## Singapore Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN16214P | VYZULTA (Latanoprostene Bunod Ophthalmic Solution) 0.024% (Bausch & Lomb, Incorporated) | Sterile solution | — |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- This candidate (visceral calciphylaxis) has no clinical trial or literature support, no coherent mechanistic link to the drug's known pharmacology, and an evidence level of L5 (model prediction only) — the weakest tier in this framework. The drug's own repurposing rationale explicitly characterizes this as likely model noise rather than an actionable hypothesis.
+The prediction has no clinical trials, no literature and no plausible mechanism, and an ocular drug has no evident role in a systemic calcific vascular disease. The score alone is not enough to justify further investment.
 
 **To proceed, the following is needed:**
-- Confirmed original indication and full mechanism-of-action (MOA) data for latanoprostene bunod (currently Data Gap)
-- TFDA/regulatory label warnings and contraindications (currently Data Gap, flagged as Blocking — required before any S1 safety evaluation)
-- If repurposing investment is desired for this drug, consider redirecting attention to the higher-evidence candidates identified in the same run — **vascular disease** (L3, two supporting trials) and **primary hereditary glaucoma** (L4, strong mechanistic plausibility) — rather than pursuing visceral calciphylaxis further
+- The Singapore package insert, covering warnings, contraindications and the approved indication text
+- Detailed mechanism-of-action data
+- Preclinical or mechanistic evidence linking nitric oxide or prostaglandin pathways to vascular calcification
+- If the goal is a lead worth pursuing, review the primary hereditary glaucoma and vascular disease predictions instead, after checking overlap with the labeled indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

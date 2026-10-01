@@ -29,37 +29,37 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Benzoic Acid: From Antimicrobial Preservative to Bronchitis
+# Benzoic Acid: From Topical Skin Preparations to Bronchitis
 
 ## One-Sentence Summary
 
-Benzoic acid is a small-molecule organic acid historically used as an antimicrobial preservative and topical antifungal agent (e.g., Whitfield's ointment), with no formal registered indications in Singapore.
-The TxGNN model predicts it may be effective for **Bronchitis**, with a prediction score of **99.98%**.
-However, **no clinical trials** and only **2 incidentally related publications** currently support this direction — making this a model-only prediction requiring substantial further investigation.
+Benzoic acid is registered in Singapore only as an ingredient in topical skin products (ointments and a solution). The registration data states no approved indication, but the product names refer to ringworm and tinea. The TxGNN model predicts it may be effective for **bronchitis**, but there are **0 clinical trials** and only **2 publications** on file, and neither publication studies benzoic acid. This is a model-only signal.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No formally registered indication (used as antimicrobial preservative / topical antifungal component) |
+|------|------|
+| Original Indication | Not stated in the registration data. Product names suggest topical skin infections (ringworm, tinea) |
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 99.98% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 5 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for benzoic acid as a therapeutic agent. Based on known information, benzoic acid is a simple aromatic carboxylic acid with established antimicrobial properties — it inhibits the growth of bacteria and fungi by disrupting cell membrane function and interfering with intracellular pH homeostasis. It has historically been paired with salicylic acid in Whitfield's ointment for topical fungal infections, and is widely used as a food preservative (E210).
+Currently, detailed mechanism of action data is not available, and no original indication is on file. Based on the registered products, benzoic acid is used in topical preparations named for ringworm and tinea. It is a commonly known antifungal and preservative ingredient in such products. No mechanistic link to bronchitis has been established.
 
-From a mechanistic standpoint, there is a theoretically plausible link to bronchitis: benzoic acid has demonstrated weak antimicrobial activity against respiratory pathogens including *Streptococcus* and *Haemophilus influenzae*, organisms frequently implicated in acute bacterial bronchitis. Additionally, some benzoic acid derivatives have shown NF-κB inhibitory activity, which could theoretically attenuate airway inflammation. However, these are indirect and extrapolated properties — no systematic respiratory pharmacology studies exist for benzoic acid itself.
+The 99.98% score is a knowledge-graph embedding output only. The two retrieved papers do not support it:
+- One reviews repaglinide, a benzoic acid derivative, in type 2 diabetes.
+- The other tests a soluble epoxide hydrolase inhibitor in a smoke-induced COPD model.
 
-Importantly, the two retrieved literature items do not directly study benzoic acid in bronchitis. One describes repaglinide (a *carbamoylmethyl benzoic acid derivative*), and the other investigates a soluble epoxide hydrolase inhibitor in COPD. Neither constitutes evidence for benzoic acid in bronchitis treatment. The TxGNN prediction likely reflects knowledge graph proximity between benzoic acid's antimicrobial node and respiratory infection nodes, rather than direct biological evidence.
+Route compatibility is also a concern. All registered products are topical (ointment, solution), while bronchitis would normally require systemic or inhaled delivery. This has not been assessed.
 
 ---
 
@@ -71,26 +71,30 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-The 2 retrieved publications are **contextually related but do not directly study benzoic acid for bronchitis**. They are included for completeness.
-
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [11577798](https://pubmed.ncbi.nlm.nih.gov/11577798/) | 2001 | Review | *Drugs* | Review of repaglinide, a **carbamoylmethyl benzoic acid derivative**, for type 2 diabetes — demonstrates that benzoic acid scaffold derivatives have pharmacological activity, but no connection to bronchitis |
-| [22180869](https://pubmed.ncbi.nlm.nih.gov/22180869/) | 2012 | Animal/Preclinical | *Am J Respir Cell Mol Biol* | Soluble epoxide hydrolase inhibitor shows anti-inflammatory effects in tobacco smoke-induced COPD/bronchitis rat model — relevant to bronchitis pathology but does not involve benzoic acid |
+|------|-----|------|------|---------|
+| [11577798](https://pubmed.ncbi.nlm.nih.gov/11577798/) | 2001 | Review | Drugs | Review of repaglinide, a benzoic acid derivative, in type 2 diabetes. Not about benzoic acid or bronchitis |
+| [22180869](https://pubmed.ncbi.nlm.nih.gov/22180869/) | 2012 | Preclinical | Am J Respir Cell Mol Biol | Soluble epoxide hydrolase inhibitor in a smoke-induced COPD model. Bronchitis is only mentioned as a COPD component. Benzoic acid is not studied |
+
+Neither paper provides direct evidence for benzoic acid in bronchitis.
 
 ---
 
 ## Singapore Market Information
 
-Benzoic acid (DrugBank ID: DB03793) has **no registered pharmaceutical products** in Singapore. It is not approved as a standalone therapeutic agent and carries no Health Sciences Authority (HSA) marketing authorizations.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN09544P | Robinson Ringworm & Whitespot Ointment | Ointment | Not stated in registration data |
+| SIN08773P | Tinea Skin Solution (Three Leg Brand) | Solution | Not stated in registration data |
+| SIN09830P | Saw Hong Choon Skin Ointment | Ointment | Not stated in registration data |
+| SIN04418P | Nixoderm Ointment | Ointment | Not stated in registration data |
+| SIN16547P | Veelanz's Ointment | Ointment | Not stated in registration data |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert and relevant regulatory sources for safety information. No formal warning, contraindication, or drug interaction data was available in this evidence pack.
-
-> **Note:** Although no DDI data was returned, benzoic acid is known to be metabolized via glycine conjugation to hippuric acid. Clinicians should be aware of potential interactions with drugs relying on glycine pathway or renal organic acid transporters. This warrants further pharmacokinetic investigation before any therapeutic development proceeds.
+Please refer to the package insert for safety information.
 
 ---
 
@@ -99,18 +103,16 @@ Please refer to the package insert and relevant regulatory sources for safety in
 **Decision: Hold**
 
 **Rationale:**
-All 10 predicted indications for benzoic acid are rated L5 (model prediction only), and the top indication — bronchitis — is supported by zero direct clinical or preclinical evidence. The retrieved literature items are incidentally retrieved background papers with no therapeutic relevance to benzoic acid in respiratory disease. With no Singapore market presence, no registered indications, and no MOA data, this candidate does not meet the minimum evidentiary threshold to proceed.
+The prediction rests on model output alone (L5). There are no trials, and the retrieved literature does not study benzoic acid. The registered topical products also do not match a respiratory indication.
 
 **To proceed, the following is needed:**
+- HSA package insert warnings and contraindications, which are required before any safety screening
+- Mechanism of action data (for example, from the DrugBank API)
+- Direct studies of benzoic acid in bronchitis or airway inflammation models
+- An assessment of whether a suitable delivery route exists, since only topical forms are registered
+- A review of the other predictions. Diabetic retinopathy (L4) has the most indirect context, but it relies only on benzoic acid derivatives (repaglinide, synthetic retinoids), not benzoic acid itself. It would need a direct test in retinal models before it counts as evidence.
 
-- **Establish basic pharmacology:** Confirm benzoic acid's anti-inflammatory and antimicrobial activity in respiratory cell/animal models (in vitro MIC studies against *H. influenzae*, *S. pneumoniae*; NF-κB inhibition assay in bronchial epithelial cells)
-- **Resolve MOA data gap (DG002):** Query DrugBank API for full mechanistic profile of DB03793
-- **Resolve safety data gap (DG001):** Review available toxicology literature and any relevant regulatory monographs (e.g., FDA GRAS status, EMA assessments) to establish a safety baseline
-- **Assess drug-like properties:** Evaluate PK/PD suitability for pulmonary delivery — benzoic acid is primarily used topically/as preservative; its systemic or inhaled pharmacology is poorly characterised
-- **Investigate KG prediction artifact:** The cluster of high-scoring fibromatosis indications (ranks 5–7, scores 0.9975–0.9977) strongly suggests knowledge graph node-cluster effects. A graph-level review of benzoic acid's neighbourhood in TxGNN is recommended to distinguish genuine biological signal from topological artifacts before acting on any of the top-10 predictions
-- **Preclinical proof-of-concept study** before any clinical development consideration
-
-> ⚠️ *This report is for research reference only and does not constitute medical advice. All drug repurposing candidates require clinical validation before application.*
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

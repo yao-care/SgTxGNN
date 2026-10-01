@@ -29,72 +29,70 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Copper: From Copper Deficiency to Esotropia
+# Copper: From Parenteral Trace-Element Supplementation to Esotropia
 
 ## One-Sentence Summary
 
-Copper (DrugBank DB09130) is an essential trace element used primarily to address copper deficiency states, functioning as a cofactor for multiple critical metalloenzymes in human physiology.
-The TxGNN model predicts it may be effective for **Esotropia** (convergent strabismus caused by extraocular muscle imbalance),
-with **0 clinical trials** and **0 publications** currently supporting this direction.
-
----
+Copper is marketed in Singapore as a component of parenteral (intravenous) trace-element products. The registration records do not state an approved indication. The TxGNN model predicts it may be useful for **esotropia** (inward-turning eye misalignment), but there are **0 clinical trials** and **0 publications** supporting this prediction, so it is a model output only.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Copper deficiency |
+|------|------|
+| Original Indication | Not stated in the HSA records; the products are intravenous trace-element concentrates |
 | Predicted New Indication | Esotropia |
 | TxGNN Prediction Score | 96.25% |
-| Evidence Level | L5 |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 3 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Copper is an essential trace element that functions as a catalytic cofactor for several key metalloenzymes: lysyl oxidase (responsible for collagen and elastin cross-linking in connective tissue), tyrosinase (involved in melanin biosynthesis), ceruloplasmin (iron metabolism and antioxidant defense), and copper-zinc superoxide dismutase (Cu-Zn SOD, a primary cellular antioxidant). These roles position copper as biologically relevant to tissue maintenance, oxidative stress regulation, and wound healing processes.
+Currently, detailed mechanism of action data is not available. Based on known information, copper is an essential trace element supplied in parenteral infusion concentrates. The registration data do not record an approved indication, so the link between its original use and esotropia cannot be established.
 
-However, the connection between copper and esotropia is not biologically established. Esotropia is characterised by inward deviation of one or both eyes due to extraocular muscle imbalance or defective neural control of eye alignment. Standard treatments include optical correction (prism lenses), occlusion therapy, botulinum toxin injection, or surgical muscle repositioning — none of which involve trace element modulation. There is no known biochemical pathway by which systemic copper status would directly influence extraocular muscle tone or the neural circuitry governing binocular alignment.
+No mechanistic link to esotropia has been identified. Nothing in the supplied data ties copper to eye-movement control or strabismus. The high score reflects a knowledge-graph pattern, not biological or clinical evidence. The prediction should be treated as a hypothesis-generating signal at best.
 
-Detailed mechanism of action data is not currently available from DrugBank. Based on the model's own assessment, the high TxGNN prediction score (96.25%) likely reflects topological proximity within the ophthalmology disease cluster in the knowledge graph rather than direct biological plausibility. This prediction should be interpreted with significant caution and is not considered actionable without a clearly articulated mechanistic hypothesis.
-
----
+The same analysis flagged other diseases for copper, such as dermatitis, dry eye syndrome and Paget disease of bone. None of them shows convincing therapeutic evidence either. For dermatitis, the available data point to copper as a possible contact allergen rather than a treatment.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
+## Singapore Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN08899P | PEDITRACE Concentrate for Parenteral Infusion (HP Halden Pharma AS) | Injection | Not listed in record |
+| SIN15302P | ADDAVEN Concentrate for Solution for Infusion (HP Halden Pharma AS) | Infusion, solution concentrate | Not listed in record |
+| SIN14341P | Nutritrace Concentrate for Solution for Infusion (B.Braun Melsungen AG) | Infusion, solution concentrate | Not listed in record |
+
+All three products are injectable. Any ophthalmic use would need a different route and formulation, and route compatibility has not been assessed.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
----
+Please refer to the package insert for safety information. No drug interaction records were found for copper.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There are zero clinical trials and zero published studies supporting the use of copper for esotropia, and no established mechanistic link exists between copper biology and extraocular muscle imbalance. The high TxGNN score reflects knowledge graph topology rather than biological plausibility, making this a model artefact rather than a genuine repurposing signal.
+The prediction has no supporting trials or publications, no identifiable mechanism, and no data on approved indications or safety. The existing products are intravenous formulations, which are not obviously suited to an eye-related condition.
 
 **To proceed, the following is needed:**
-- Develop a biologically plausible mechanistic hypothesis linking copper homeostasis to extraocular muscle function or oculomotor neural control
-- Obtain complete MOA and safety data from DrugBank (DG001, DG002) before any further evaluation
-- Conduct a targeted literature search in ophthalmology and neuromuscular physiology to identify any indirect copper-related pathways (e.g., Cu-Zn SOD in ocular tissue, copper's role in neurological conditions affecting eye movement)
-- Consider deprioritising this indication in favour of Rank 2 (**Dermatitis**, L4 evidence) or Rank 8 (**Dry Eye Syndrome**, L4 evidence), both of which have a more mechanistically coherent rationale and existing — albeit early-stage — experimental data
+- HSA package insert warnings and contraindications (a blocking gap for safety screening)
+- Approved indication text for the three Singapore registrations
+- Mechanism of action data (for example from DrugBank) and a plausible biological rationale linking copper to esotropia
+- Any preclinical or clinical study of copper in strabismus or ocular motor disorders
+- A route and formulation compatibility assessment, since current products are intravenous only
+- Consideration of whether another predicted indication has a better evidence base. This should be reviewed carefully, as the current dermatitis data suggest possible harm rather than benefit.
 
-> ⚠️ **Disclaimer:** This report is for research reference only and does not constitute medical advice. All drug repurposing candidates require clinical validation before any application.
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

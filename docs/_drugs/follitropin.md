@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Follitropin
-parent: Low Evidence (L5)
+parent: Medium Evidence (L3-L4)
 nav_order: 446
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Follitropin
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,15 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-Using the provided Evidence Pack, I'll note several important data characteristics before presenting the report: `drug.original_indications` is an empty array and `original_moa` is flagged `[Data Gap]` (matching data-gap DG002), and `taiwan_regulatory.licenses` is empty (drug not marketed in Singapore, DG001 also blocks safety review). Per the prohibition against fabricating data, I have not invented a formal "approved indication text" for Singapore — where a field cannot be populated from the Evidence Pack, I've stated that explicitly rather than guessing, while noting Follitropin's well-established pharmacological class (recombinant FSH used in ovulation induction/ART) only as background context, not as sourced regulatory data.
-
----
-
-# Follitropin: From Infertility (Ovulation Induction) to Allergic Asthma
+# Follitropin: From Infertility Treatment to Allergic Asthma
 
 ## One-Sentence Summary
 
-Follitropin (recombinant follicle-stimulating hormone, FSH) is a gonadotropin used to induce ovulation and support controlled ovarian stimulation in infertility/assisted reproductive technology — no formal indication record is present in this Evidence Pack, and Singapore licensing data confirms the product is **not currently marketed** here. The TxGNN model's top prediction is **Allergic Asthma**, but this is currently supported only by **4 indirect literature references** (mechanism/observational studies) and **0 clinical trials**, making the evidence base weak.
+Follitropin is recombinant follicle-stimulating hormone (FSH). The Singapore licence data give no approved indication text, but the retrieved literature places it in infertility and assisted reproduction.
+The TxGNN model predicts it may be effective for **allergic asthma**, but there are **0 clinical trials** and only **4 publications** on the topic. None of those publications tests follitropin in asthma, so this is a model-only hypothesis.
 
 ---
 
@@ -45,23 +42,25 @@ Follitropin (recombinant follicle-stimulating hormone, FSH) is a gonadotropin us
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this Evidence Pack (`original_indications` empty, Singapore has no licenses on file). Generally known pharmacology: infertility / ovulation induction (ART) |
-| Predicted New Indication | Allergic Asthma |
+| Original Indication | Infertility / assisted reproduction (inferred from the literature; licence indication text is blank) |
+| Predicted New Indication | Allergic asthma |
 | TxGNN Prediction Score | 96.32% |
-| Evidence Level | L4 (mechanism/preclinical-type literature only, no clinical trials) |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 11 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for Follitropin in this Evidence Pack (data gap DG002). Based on generally known pharmacological information, Follitropin belongs to the gonadotropin class — it is a recombinant form of follicle-stimulating hormone (FSH) that binds FSH receptors to drive follicular development, and its efficacy in ovulation induction/controlled ovarian stimulation for infertility is well established in clinical practice.
+Currently, detailed mechanism of action data is not available. Based on known information, follitropin is a recombinant form of the endogenous gonadotrophin FSH. Its use in infertility is documented in the literature (for example, a 1998 review of follitropin alpha in infertility). Any mechanistic link to allergic asthma is indirect.
 
-The mechanistic rationale offered for allergic asthma is indirect. The supporting literature centers on **activin A**, a cytokine in the TGF-β superfamily that plays a role in asthmatic airway inflammation and remodeling — activin A is biologically related to FSH only in the sense that FSH-associated inhibin/activin research shares the same signaling superfamily, not through a direct pharmacological link to exogenous FSH itself. A second strand of evidence concerns associations between endogenous sex steroid hormones and allergic disease susceptibility (in children) and postmenopausal-onset bronchial asthma. None of these studies test Follitropin (or any exogenous FSH product) as a treatment for asthma; they describe correlative, endogenous-hormone biology rather than an interventional effect of the drug itself.
+No direct FSH-asthma mechanism has been established. The literature points to two indirect threads:
+- **Activin A.** This TGF-β family cytokine was first identified as an inducer of FSH release. Reviews describe it as a regulator of asthmatic airway inflammation and remodelling (fibrosis). It is a related signalling molecule, not FSH itself, so it does not show that giving FSH would help.
+- **Sex hormones.** A Japanese birth cohort examined sex steroids and childhood allergic disease. An older study looked at pituitary and gonadal hormone profiles in women who developed asthma after menopause. Both are associations, not treatment evidence.
 
-Given the absence of any clinical trial evidence and the indirect nature of the literature (activin A ≠ FSH; endogenous hormone correlation ≠ drug efficacy), the mechanistic plausibility for repurposing Follitropin in allergic asthma should be regarded as a hypothesis-generating signal only, not a validated pharmacological rationale.
+The link is speculative. The high TxGNN score reflects a network-based prediction, not demonstrated efficacy.
 
 ---
 
@@ -75,16 +74,32 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [25962695](https://pubmed.ncbi.nlm.nih.gov/25962695/) | 2015 | Review | Clinical and Experimental Allergy | Reviews activin A (TGF-β superfamily, originally identified as an FSH-release inducer) as an immunoregulatory and fibrotic driver in asthmatic airway inflammation and remodeling |
-| [31416681](https://pubmed.ncbi.nlm.nih.gov/31416681/) | 2019 | Review | Journal of Autoimmunity | Reviews activin-A's broad immune-regulatory roles in allergy, autoimmunity, and cancer; notes its initial identification as an FSH-secretion inducer |
-| [37735641](https://pubmed.ncbi.nlm.nih.gov/37735641/) | 2023 | Cohort | BMC Pediatrics | Pilot birth-cohort study examining associations between sex steroid hormones and allergic disease in Japanese children |
-| [3081834](https://pubmed.ncbi.nlm.nih.gov/3081834/) | 1986 | Case series/Observational | Minerva Medica | Observational study of hypophyseal/gonadal hormone (including FSH) profiles in women with postmenopausal-onset bronchial asthma vs. allergic asthma controls |
+| [25962695](https://pubmed.ncbi.nlm.nih.gov/25962695/) | 2015 | Review | Clin Exp Allergy | Activin A, first identified as an inducer of FSH release, regulates asthmatic inflammation and airway remodelling. |
+| [31416681](https://pubmed.ncbi.nlm.nih.gov/31416681/) | 2019 | Review | J Autoimmun | Activin-A, a TGF-β family member, regulates immune responses in allergy, autoimmunity and cancer. |
+| [37735641](https://pubmed.ncbi.nlm.nih.gov/37735641/) | 2023 | Cohort | BMC Pediatr | Pilot birth cohort (Japan Environment and Children's Study) examining sex steroid hormones and allergic disease in children. |
+| [3081834](https://pubmed.ncbi.nlm.nih.gov/3081834/) | 1986 | Cohort | Minerva Med | Compared pituitary and gonadal hormone levels (including FSH and LH) in women with asthma onset after menopause versus allergic asthma. |
+
+None of these studies involved follitropin treatment.
+
+---
+
+## Singapore Market Information
+
+Eleven licences are registered; five are shown below. The approved indication text is blank in the source data for all of them.
+
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN13023P | Gonal-f 300 iu/0.48 ml pre-filled pen | Injection, solution | Merck Serono S.p.A. (Italy) |
+| SIN13022P | Gonal-f 450 iu/0.72 ml pre-filled pen | Injection, solution | Merck Serono S.p.A. (Italy) |
+| SIN14474P | Puregon 900 IU/1.08 ml | Injection | Vetter Pharma-Fertigung GmbH & Co. KG |
+| SIN14473P | Puregon 600 IU/0.72 ml | Injection | Vetter Pharma-Fertigung GmbH & Co. KG |
+| SIN12185P | Puregon 300 iu/0.36 ml | Injection | Vetter Pharma-Fertigung GmbH & Co. KG |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. (This Evidence Pack's key warnings, contraindications, and drug-interaction fields are all marked as data gaps, and DDI lookup returned no results. Note: data gap DG001 — TFDA/HSA label warnings/contraindications — is flagged **Blocking**, meaning a formal safety (S1) evaluation cannot proceed until this is resolved.)
+Please refer to the package insert for safety information. No drug interactions were found in the queried data.
 
 ---
 
@@ -93,14 +108,13 @@ Please refer to the package insert for safety information. (This Evidence Pack's
 **Decision: Hold**
 
 **Rationale:**
-The allergic asthma prediction is supported only by indirect, mechanism-level literature (activin A biology and endogenous hormone associations) with zero clinical trials directly testing Follitropin in asthma, placing it at evidence level L4. Combined with the blocking safety data gap (no TFDA/HSA label data) and the drug's non-marketed status in Singapore, there is insufficient evidence to proceed beyond a research-question stage.
+The asthma prediction has no clinical trials, and the four supporting papers concern activin A biology and hormone associations rather than follitropin therapy. It is a hypothesis with no supporting evidence for treatment.
 
 **To proceed, the following is needed:**
-- Resolve blocking data gap DG001: obtain official label warnings/contraindications before any S1 safety evaluation
-- Resolve data gap DG002: obtain confirmed mechanism of action (MOA) data from DrugBank
-- Confirm actual original/approved indication(s) for Follitropin, since `original_indications` is currently empty in this pack
-- Seek direct pharmacological or clinical evidence (in vitro/in vivo or trial data) linking exogenous FSH administration to asthma outcomes, rather than relying on activin A/endogenous-hormone correlation studies
-- Reassess market/regulatory pathway, given the drug is not currently registered in Singapore
+- Original indication and mechanism of action data (DrugBank), plus the HSA package insert warnings and contraindications
+- Preclinical or mechanistic studies showing that FSH or FSH-receptor signalling affects allergic airway inflammation
+- A direct-effect assessment: whether exogenous FSH could worsen hormone-sensitive conditions
+- Route and formulation compatibility review (currently pending)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

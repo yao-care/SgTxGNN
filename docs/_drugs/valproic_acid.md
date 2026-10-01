@@ -29,77 +29,77 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Valproic Acid: From Epilepsy to Trigeminal Nerve Neoplasm
+# Valproic Acid: From Antiepileptic Therapy to Trigeminal Nerve Neoplasm
 
 ## One-Sentence Summary
 
-> Valproic acid (DB00313) is a broad-spectrum antiepileptic and mood-stabilizing drug, well documented across dozens of publications in this evidence pack for the treatment of generalized and reflex epilepsies.
-> The TxGNN model's top-ranked prediction is **Trigeminal Nerve Neoplasm**, with a very high raw score (**99.97%**),
-> but this is supported by **0 clinical trials** and only **1 unrelated case series**, indicating the prediction is very likely an algorithmic artifact rather than a genuine repurposing signal.
-
----
+Valproic acid is a long-established antiseizure medicine, and 11 Singapore registrations cover injectable, oral tablet and syrup forms.
+The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm**, with a very high model score.
+In practice, **0 clinical trials** and only **1 publication** (on a different disease) support this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Epilepsy (per literature evidence in this pack; no formal Singapore label text available — see Market Status) |
-| Predicted New Indication | Trigeminal Nerve Neoplasm |
+| Predicted New Indication | Trigeminal nerve neoplasm |
 | TxGNN Prediction Score | 99.97% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed (Not marketed) |
-| Number of Registrations | 0 |
-| Recommended Decision | **Hold** |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 11 |
+| Recommended Decision | Hold |
 
----
+The HSA records provided contain no approved-indication text, so the original indication is not listed here. The "antiseizure" label in this report comes from the retrieved literature, not from the registration data.
 
 ## Why is This Prediction Reasonable?
 
-Currently, a formal DrugBank mechanism-of-action summary is not available in this evidence pack (marked as a High-severity data gap, DG002). However, the literature collected across multiple predicted indications consistently describes valproic acid as a broad-spectrum antiseizure medication that enhances GABAergic transmission, modulates voltage-gated sodium and T-type calcium channels, and raises the seizure threshold. This pharmacology underlies its established role across many epilepsy syndromes.
+Detailed mechanism of action data is not available in the HSA/DrugBank inputs. Valproic acid is known as a histone deacetylase inhibitor with some preclinical antineoplastic interest. It is also an antiseizure drug that enhances GABAergic inhibition and blocks sodium channels.
 
-For the top-ranked prediction — trigeminal nerve neoplasm — the evidence pack's own rationale flags this as a weak match: there is no mechanistic pathway connecting VPA's antiepileptic/GABAergic activity to antitumor activity against trigeminal nerve tumors, and the single literature hit is a 1997 case series on Sturge-Weber syndrome (a vascular/neurocutaneous disorder with associated epilepsy), not a study of nerve tumors or VPA's antineoplastic use. This pattern is consistent with a TxGNN disease-entity matching artifact, where the model likely confused "trigeminal" with unrelated neurological entities in the knowledge graph rather than identifying a genuine pharmacological link.
-
-Notably, this evidence pack also contains several other VPA-related predictions with substantially stronger support — for example, **visual epilepsy** (rank 2, L2 evidence, "Proceed with Guardrails") and **trigeminal neuralgia** (rank 3, L3 evidence, including a direct clinical study of sodium valproate in trigeminal neuralgia, PMID 6776393). These are mechanistically coherent extensions of VPA's known antiepileptic/analgesic profile and may warrant separate evaluation, whereas the rank 1 candidate discussed here does not.
-
----
+The data does not link these properties to trigeminal nerve tumours. The only retrieved paper is a 1997 case series on Sturge-Weber syndrome, which is a different disease. The high score therefore appears to come from knowledge-graph proximity rather than a supported biological rationale. Treat the prediction as a model signal, not a mechanistic argument.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [9157801](https://pubmed.ncbi.nlm.nih.gov/9157801/) | 1997 | Case Series | Anales españoles de pediatría | Review of 14 Sturge-Weber syndrome cases; not related to trigeminal nerve tumors or VPA's antitumor activity — relevance to this indication is unclear |
-
----
+| [9157801](https://pubmed.ncbi.nlm.nih.gov/9157801/) | 1997 | Case series | Anales espanoles de pediatria | Review of 14 Sturge-Weber syndrome cases over 25 years (clinical features, evolution, treatment response). It does not address trigeminal nerve tumours. |
 
 ## Singapore Market Information
 
-This drug is currently not marketed in Singapore (Not marketed), and no registration records (SIN numbers) are available in this evidence pack.
+Showing 5 of 11 registrations. The records contain no approved-indication text.
 
----
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|------|
+| SIN16642P | VALPROATE-AFT Solution for Infusion/Injection 100 mg/ml | Injection, solution | LABIANA Pharmaceuticals |
+| SIN15525P | Sodium Valproate Aguettant Solution for Injection 400 mg/4 ml | Injection, solution | Laboratoire Aguettant |
+| SIN05215P | Epilim 400 mg Powder for Injection/Infusion | Injection, powder, for solution | sanofi S.R.L / Chinoin Pharmaceutical and Chemical Works (solvent) |
+| SIN05690P | Epilim 200 Tablet 200 mg | Enteric coated tablet | Sanofi-Aventis S.A |
+| SIN15343P | Sodium Valproate Wockhardt Solution for Injection or Infusion 100 mg/ml | Injection, solution | CP Pharmaceuticals Limited |
+
+Other dosage forms across the 11 registrations include syrup and film-coated tablet.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
----
+The retrieved literature for related seizure indications points to teratogenicity and fetal neurodevelopmental risk, hepatotoxicity, and an interaction with carbapenem antibiotics.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The trigeminal nerve neoplasm prediction, despite its high raw TxGNN score, is backed by zero clinical trials and a single unrelated case series. The internal rationale explicitly characterizes this as likely knowledge-graph matching noise rather than a genuine mechanistic signal, so it does not meet the threshold to advance past initial screening (S0).
+The 99.97% model score is not backed by any clinical trial, mechanism or relevant publication for trigeminal nerve neoplasm. Evidence is L5 (model prediction only). The only retrieved paper concerns a different disease.
 
 **To proceed, the following is needed:**
-- Formal DrugBank/label mechanism-of-action data (DG002)
-- Singapore/regional regulatory label warnings and contraindications (DG001, currently blocking safety pre-screening)
-- If pursuing VPA repurposing further, prioritize re-evaluating the higher-evidence candidates already surfaced in this pack — **visual epilepsy** (L2, Proceed with Guardrails) and **trigeminal neuralgia** (L3, direct clinical evidence) — rather than this rank 1 candidate
+- HSA package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank, to assess any biological link to tumours of the trigeminal nerve
+- Targeted literature searches for valproate in cranial nerve or nerve-sheath tumours
+- A decision on whether the other predictions for this drug should be pursued instead. These are visual epilepsy (L3, Proceed with Guardrails), and trigeminal neuralgia, startle epilepsy and reading seizures (Research Question).
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

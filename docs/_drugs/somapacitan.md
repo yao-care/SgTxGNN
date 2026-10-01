@@ -29,88 +29,63 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Somapacitan: From Growth Hormone Deficiency to Allergic Asthma
+# Somapacitan: From Growth Hormone Therapy to Allergic Asthma
 
 ## One-Sentence Summary
 
-> Somapacitan is a long-acting human growth hormone (GH) analogue; the evidence pack does not document its original approved indication in Singapore, but by drug class it is used for GH replacement therapy.
-> The TxGNN model predicts it may be effective for **Allergic Asthma**, but this prediction is currently supported by **zero clinical trials** and **zero publications** — it is a model-only signal at the earliest evaluation stage (S0).
-
----
+Somapacitan is a long-acting growth hormone (GH) analog sold in Singapore as an injectable (brand name SOGROYA).
+The TxGNN model predicts it may be effective for **allergic asthma**, but this is a model prediction only, with **0 clinical trials** and **0 publications** supporting it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in evidence pack (drug class: GH replacement therapy) |
-| Predicted New Indication | Allergic Asthma |
+| Original Indication | Not stated in the Singapore registration data (somapacitan is a long-acting growth hormone analog) |
+| Predicted New Indication | Allergic asthma |
 | TxGNN Prediction Score | 95.73% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Singapore Market Status | ✗ Not marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 3 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in structured form (`original_moa` is a data gap). Based on the model's own rationale field, Somapacitan is described as a long-acting human GH analogue that acts primarily via the GH receptor/IGF-1 axis.
+Currently, detailed mechanism of action data is not available. Based on known information, somapacitan is a long-acting GH analog that acts through the GH receptor and the IGF-1 axis. Its efficacy has been established in GH-axis disorders, not in airway disease.
 
-There is no established biological link between the GH/IGF-1 axis and the Th2/IgE-driven immune pathways that underlie allergic asthma. The high TxGNN score most likely reflects indirect node proximity within the knowledge graph rather than a genuine shared mechanism — the model's own rationale explicitly flags this as a possible false positive.
-
-Given the absence of any clinical trial, literature, or mechanistic pathway connecting these two conditions, this prediction should be treated as hypothesis-generating only, not as a basis for clinical or research prioritization at this time.
-
----
+No established link connects the GH/IGF-1 axis to allergic airway inflammation. Any role in asthma is speculative. The high score most likely reflects a pattern in the knowledge graph rather than a biological finding. The model also ranks intrinsic asthma (95.34%) and asthma-related susceptibility traits among its top predictions, which suggests a shared graph-neighborhood signal.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-No Singapore market authorization records are available — Somapacitan is currently **not marketed** in Singapore (0 registrations).
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN17216P | SOGROYA Solution for Injection in Pre-filled Pen 5mg/1.5mL | Injection, solution | Not listed in registry data |
+| SIN17217P | SOGROYA Solution for Injection in Pre-filled Pen 10mg/1.5mL | Injection, solution | Not listed in registry data |
+| SIN17218P | SOGROYA Solution for Injection in Pre-filled Pen 15mg/1.5mL | Injection, solution | Not listed in registry data |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-> Note: The evidence pack flags a **Blocking** data gap (DG001) — TFDA/HSA label warnings and contraindications are unavailable, which by itself prevents this candidate from advancing past the initial safety screening stage regardless of efficacy evidence.
-
----
-
-## Other Ranked Predictions (Context)
-
-All 10 candidate indications for Somapacitan carry the same evidence level (L5) and recommendation (Hold), with only one (rank 3, brain small vessel disease with ocular anomalies) returning any literature — and that literature was assessed as keyword mismatches unrelated to GH therapy. Two candidates warrant particular caution rather than optimism:
-
-- **Diabetic nephropathy** (rank 8): published mechanistic evidence suggests GH/IGF-1 axis *activation* may worsen, not improve, diabetic nephropathy — the predicted direction may be mechanistically inverted.
-- **Gout** (rank 6): any plausible link is theoretical and would require a purely speculative uricosuric effect, with competing risk from GH-associated insulin resistance.
-
-None of the 10 predictions currently meet the threshold to leave S0.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by TxGNN's model score (L5), with no clinical trials or literature evidence, an implausible-to-contradictory mechanistic rationale, and a blocking gap in safety labeling data. There is no basis to advance this candidate beyond initial screening.
+The prediction rests on the model score alone, with no trials, no literature and no plausible mechanism. Other top-ranked predictions are also L5 and Hold. Some raise direction-of-effect concerns, such as diabetic nephropathy and gout, because GH can reduce insulin sensitivity and may cause hyperuricemia and fluid retention.
 
 **To proceed, the following is needed:**
-- TFDA/HSA package insert (warnings, contraindications) — currently blocking (DG001)
-- Confirmed original approved indication and full MOA data (DG002)
-- Any preclinical or mechanistic literature specifically linking GH/IGF-1 signaling to Th2/IgE-mediated allergic asthma pathways
-- Continued monitoring for new clinical trial registrations or publications before re-scoring
+- Mechanism of action data and a biological rationale linking the GH/IGF-1 axis to allergic airway inflammation
+- The HSA package insert (warnings, contraindications and approved indications), needed before any safety screening
+- Preclinical or observational evidence of GH-axis involvement in asthma
+- A route and dosing compatibility assessment for the proposed indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

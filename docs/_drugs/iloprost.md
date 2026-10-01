@@ -29,76 +29,67 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Iloprost: From Pulmonary Arterial Hypertension to Hypotrichosis Simplex of the Scalp
+# Iloprost: From Prostacyclin Analog (Original Indication Not Recorded) to Hypotrichosis Simplex of the Scalp
 
 ## One-Sentence Summary
 
-Iloprost is a synthetic prostacyclin (PGI₂) analogue approved in multiple countries for the treatment of pulmonary arterial hypertension (PAH) and peripheral vascular disease. The TxGNN model ranks **Hypotrichosis Simplex of the Scalp** as its top predicted new indication, with a prediction score of **99.45%**. However, **no clinical trials or published literature** currently support this specific application, making this a pure algorithmic prediction without empirical backing.
-
----
+Iloprost is a prostacyclin (IP receptor) analog. It is marketed in Singapore as an inhalation solution, but the registration record does not state its approved indication.
+The TxGNN model predicts it may be effective for **hypotrichosis simplex of the scalp**, a genetic hair-loss disorder.
+This prediction has **0 clinical trials** and **0 publications** behind it, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Pulmonary arterial hypertension; peripheral vascular disease (not currently registered in Singapore) |
-| Predicted New Indication | Hypotrichosis Simplex of the Scalp |
+|------|------|
+| Original Indication | Not stated in the Singapore registration record |
+| Predicted New Indication | Hypotrichosis simplex of the scalp |
 | TxGNN Prediction Score | 99.45% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the current Evidence Pack. Based on published pharmacological knowledge, Iloprost is a synthetic prostacyclin analogue that acts primarily through the IP (prostacyclin) receptor and PPAR-γ, producing pulmonary and systemic vasodilation, inhibiting smooth muscle cell proliferation, and reducing platelet aggregation. These effects form the basis for its approved use in PAH and vascular occlusive conditions.
+Currently, detailed mechanism of action data is not available in the source record. Iloprost is a prostacyclin analog that acts on the IP receptor, and it is known for vasodilatory and antiproliferative effects. Its original indication could not be confirmed from the registration data.
 
-The theoretical basis for the TxGNN prediction may involve the IP receptor's hypothetical role in promoting microvascular proliferation around hair follicles, which could indirectly support follicular survival and hair growth. However, this mechanistic link is entirely speculative. No biological experiments, animal models, or pathophysiological studies have established a connection between prostacyclin signalling and hypotrichosis simplex of the scalp.
+The mechanistic link to this new indication is weak. Prostaglandins can either promote or suppress hair growth depending on the receptor subtype, so a connection to hair-follicle biology is speculative. Hypotrichosis simplex is also a genetic disorder. A vasodilator is unlikely to address its underlying cause.
 
-Hypotrichosis Simplex of the Scalp is a rare, genetically-determined condition (associated with mutations in LPAR6, LIPH, and related genes governing hair follicle lipid metabolism), whose pathogenesis does not intersect with the prostacyclin pathway in any established way. The TxGNN model's high score almost certainly reflects graph topology proximity in the knowledge graph rather than a true mechanistic relationship.
-
----
+The high model score (99.45%, rank 6,897) therefore reflects a pattern in the knowledge graph, not a plausible biological explanation. Treat it as a hypothesis-generating signal only.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Iloprost is currently **not marketed in Singapore**. No product licences or approved registrations are on record with the Health Sciences Authority (HSA).
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN13140P | VENTAVIS SOLUTION FOR INHALATION (BERLIMED SA) | Solution | Not stated in the registration record |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
----
+Please refer to the package insert for safety information. No drug interactions were found in the queried data.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-While TxGNN assigns a 99.45% prediction score, there is zero empirical evidence — no preclinical studies, no clinical trials, and no published literature — supporting Iloprost's use in Hypotrichosis Simplex of the Scalp. The mechanistic link is hypothetical at best, and the disease's genetic aetiology makes a prostacyclin-based intervention biologically implausible without further foundational research.
+The prediction has no supporting trials or publications (L5), and no plausible mechanism links prostacyclin signaling to a genetic hair disorder. Safety and label information is also missing, so screening cannot proceed.
+
+Other predictions for iloprost have much stronger support. Pulmonary arterial hypertension associated with congenital heart disease is L3 (one interventional study, NCT01383083, plus cohort studies) and is rated Proceed with Guardrails. Pulmonary arterial hypertension associated with HIV infection is L2 (one linked Phase 3 trial, NCT00709956, whose truncated title still needs verification). Pulmonary arterial hypertension associated with connective tissue disease is L3, rated Research Question. These are better candidates for further evaluation than the hair-related predictions.
 
 **To proceed, the following is needed:**
-- Preclinical studies (in vitro/in vivo) investigating IP receptor expression and functional role in hair follicle biology
-- Basic research establishing whether prostacyclin signalling influences the lipid metabolism pathways disrupted in LPAR6/LIPH-mutant hypotrichosis
-- Mechanism of action data (MOA) for Iloprost (retrievable via DrugBank API — see Data Gap DG002)
-- Safety and warning data from the Singapore HSA or alternative regulatory sources (see Data Gap DG001)
+- Approved indication and package insert (warnings and contraindications) from the HSA website
+- Mechanism of action data from DrugBank
+- Any preclinical or clinical evidence linking prostacyclin signaling to hair-follicle biology, before reconsidering this indication
 
-> **Note for prioritisation:** This report presents TxGNN's highest-scored prediction. Among all 10 candidates in this Evidence Pack, the **PAH-associated indications** (CHD-PAH, CTD-PAH, HIV-PAH) carry substantially stronger evidence (L2–L3) with "Proceed with Guardrails" recommendations, and may represent higher-yield repurposing opportunities for Iloprost. A separate report for those indications is recommended.
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

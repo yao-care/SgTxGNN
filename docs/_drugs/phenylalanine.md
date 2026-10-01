@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Phenylalanine
-parent: Low Evidence (L5)
+parent: Medium Evidence (L3-L4)
 nav_order: 778
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Phenylalanine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,79 +29,75 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Phenylalanine: From Essential Amino Acid to Sclerosing Cholangitis
+# Phenylalanine: From Parenteral Amino Acid Nutrition to Sclerosing Cholangitis
 
 ## One-Sentence Summary
 
-Phenylalanine (DrugBank DB00120) is an essential amino acid with no approved therapeutic indication on record in Singapore. The TxGNN model's top prediction suggests possible relevance to **Sclerosing Cholangitis**, but this is supported by **0 clinical trials** and only **4 publications**, most of which involve unrelated compounds (a bacterial chemotactic peptide and tyrosine) rather than phenylalanine itself.
-
----
+Phenylalanine is an essential amino acid. In Singapore it is registered as a component of amino acid infusion solutions for parenteral nutrition (inferred from product names, because the registry gives no indication text).
+The TxGNN model predicts it may be relevant to **sclerosing cholangitis**, but there are **0 clinical trials** and only **4 publications**, none of which show a treatment effect.
+This is a model-only signal that clinical data do not support.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not established — no approved indication on record (essential amino acid, not marketed as a therapeutic in Singapore) |
-| Predicted New Indication | Sclerosing Cholangitis |
+| Original Indication | Not stated in registry data (registered products are amino acid infusion solutions) |
+| Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 99.43% |
-| Evidence Level | L5 (model prediction only) |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 19 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for phenylalanine in this context is not available (Data Gap). Phenylalanine is a naturally occurring essential amino acid and metabolic precursor to tyrosine; it has no established pharmacological indication for hepatobiliary disease.
+Currently, detailed mechanism of action data is not available. Based on known information, phenylalanine is part of multi-amino-acid infusion formulations, and it is an essential amino acid used for nutritional support. Any mechanistic link to sclerosing cholangitis is therefore speculative.
 
-Reviewing the supporting literature for this specific prediction raises concerns rather than confirming plausibility. Of the four associated publications, one is an animal model of cholangitis induced by **fMLP (N-formyl-methionyl-leucyl-phenylalanine)** — a bacterial chemotactic peptide that merely contains a phenylalanine residue, not free phenylalanine itself — and a related paper on enterohepatic circulation of the same bacterial peptide. The remaining two concern tyrosine levels in primary biliary cirrhosis/PSC patients and a cholangiocarcinoma metabolomics study, neither of which demonstrates a therapeutic role for phenylalanine.
+The literature does not support a treatment link. The most relevant paper (PMID 15790420) is an observational study relating plasma tyrosine, a phenylalanine metabolite, to fatigue in primary biliary cirrhosis and primary sclerosing cholangitis. That is a symptom-biomarker association, not evidence that giving phenylalanine helps. The other hits concern a bacterial chemotactic peptide (fMLP or fMLT) that contains phenylalanine or related residues. They are not about phenylalanine supplementation.
 
-Taken together, this pattern is consistent with an **embedding/name-similarity confound** (phenylalanine ↔ fMLP peptide ↔ tyrosine) rather than a genuine mechanistic signal. No clinical trials exist to counterbalance this concern.
-
----
+The high TxGNN score most likely reflects knowledge-graph connections through amino acid metabolism and liver or biliary pathways. It should be treated as a hypothesis-generating signal only.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [15790420](https://pubmed.ncbi.nlm.nih.gov/15790420/) | 2005 | Cohort | BMC Gastroenterology | Examined plasma tyrosine (not phenylalanine) concentration and its relation to fatigue in PBC/PSC patients — an association study, not an interventional signal |
-| [32025163](https://pubmed.ncbi.nlm.nih.gov/32025163/) | 2020 | Cohort/Metabolomics | J Clin Exp Hepatol | Serum metabolomic profiling in cholangiocarcinoma vs. benign hepatobiliary disease; amino acids appear only as incidental biomarkers |
-| [8000512](https://pubmed.ncbi.nlm.nih.gov/8000512/) | 1994 | Animal (fMLP-induced, not phenylalanine itself) | J Gastroenterology | Rectal fMLP (a bacterial chemotactic tripeptide containing phenylalanine) induced small duct cholangitis in rats with colitis — a disease model, not a treatment |
-| [2103382](https://pubmed.ncbi.nlm.nih.gov/2103382/) | 1990 | Basic Research | J Gastroenterol Hepatol | Enterohepatic circulation of bacterial chemotactic peptides (F-met-oligopeptides) in humans; unrelated to free phenylalanine therapy |
-
----
+| [15790420](https://pubmed.ncbi.nlm.nih.gov/15790420/) | 2005 | Cohort | BMC Gastroenterology | Examined amino acid patterns and plasma tyrosine in relation to fatigue in PBC and PSC. This is a symptom-biomarker study, not a treatment study. |
+| [32025163](https://pubmed.ncbi.nlm.nih.gov/32025163/) | 2020 | Cohort | Journal of Clinical and Experimental Hepatology | Serum metabolomic profiling in cholangiocarcinoma versus benign hepatobiliary disease, aimed at early biomarkers. No therapeutic role for phenylalanine. |
+| [8000512](https://pubmed.ncbi.nlm.nih.gov/8000512/) | 1994 | Preclinical | Journal of Gastroenterology | Rectal fMLT induced small duct cholangitis in colitic rats, a PSC pathogenesis model. The peptide is not phenylalanine. |
+| [2103382](https://pubmed.ncbi.nlm.nih.gov/2103382/) | 1990 | Preclinical | Journal of Gastroenterology and Hepatology | Radioimmunoassay showing enterohepatic circulation of bacterial chemotactic peptides in humans. Unrelated to phenylalanine as a therapy. |
 
 ## Singapore Market Information
 
-Phenylalanine is not marketed in Singapore; no HSA registration records are available (total licenses: 0).
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN16337P | Aminoven Solution for Infusion 15% | Infusion, solution | Not stated in registry data |
+| SIN11682P | Aminoven Solution for Infusion 5% | Injection | Not stated in registry data |
+| SIN11829P | Aminoven Solution for Infusion 10% | Injection | Not stated in registry data |
+| SIN06299P | Nephrosteril for Intravenous Infusion | Injection | Not stated in registry data |
+| SIN08352P | Aminoplasmal-15% Infusion | Injection | Not stated in registry data |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (Sclerosing Cholangitis) rests on Evidence Level L5 with zero clinical trials, and the four supporting publications appear to be confounded matches driven by name/embedding similarity (fMLP peptide, tyrosine) rather than evidence of phenylalanine's own therapeutic effect. All other TxGNN-predicted indications for this compound (ranks 2–10, including congenital prothrombin deficiency, epiglottitis, hypophosphatemic rickets, laryngitis, cholecystolithiasis, and diabetic nephropathy) were similarly flagged as Hold due to unrelated trial drugs (e.g., Nitisinone, RAS blockers) or confounded literature (e.g., levodopa-related studies mismatched to phenylalanine). No candidate in this evidence pack currently supports advancement.
+The only support for sclerosing cholangitis is a high model score. No clinical trials exist, and the available papers are observational or preclinical and do not involve phenylalanine as a treatment. Evidence sits at L4 at best.
 
 **To proceed, the following is needed:**
-- TFDA/HSA-equivalent label safety data — warnings and contraindications (blocking gap, DG001)
-- Verified mechanism of action data from DrugBank (DG002)
-- Confirmation of the original approved indication(s), if any exist in another jurisdiction
-- Phenylalanine-specific (not fMLP- or tyrosine-derived) preclinical or clinical evidence directly addressing sclerosing cholangitis before any further evaluation stage is considered
+- HSA package insert warnings and contraindications, which are needed before any safety screening
+- Mechanism of action data (for example from DrugBank) to test whether a biological link to biliary disease exists
+- Registered indication text for the Singapore products, to confirm the original use
+- Preclinical or early clinical evidence that phenylalanine supplementation, rather than its level as a biomarker, affects cholestatic liver disease
+
+Of the other nine predictions, only diabetic nephropathy (rank 10) reaches L4. There, phenylalanine appears as a biomarker, and elevated levels may indicate risk, so it is a biomarker research question rather than a treatment candidate.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

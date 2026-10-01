@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Abemaciclib
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 22
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 ---
 
 # Abemaciclib
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,104 +29,85 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Abemaciclib: From Breast Cancer to Rheumatoid Arthritis
+# Abemaciclib: From HR+/HER2- Breast Cancer to Rheumatoid Arthritis
 
 ## One-Sentence Summary
 
-Abemaciclib is a CDK4/6 inhibitor globally approved for hormone receptor-positive (HR+)/HER2-negative breast cancer, though it holds no registration in Singapore.
-The TxGNN model's top predicted new indication is **Rheumatoid Arthritis** (score: **97.32%**);
-however, the sole supporting publication (PMID 40504547) documents CDK4/6 inhibitor-induced autoimmune adverse events — a **reverse safety signal** rather than therapeutic benefit — and **no clinical trials** directly explore this indication.
-
----
+Abemaciclib is an oral CDK4/6 inhibitor used for hormone receptor-positive, HER2-negative breast cancer. The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but this direction has **0 clinical trials** and **1 publication**, an observational breast cancer cohort study that does not test efficacy in RA. The prediction currently rests almost entirely on the model score.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | HR+/HER2- Breast Cancer (globally approved; no Singapore registration on record) |
-| Predicted New Indication | Rheumatoid Arthritis |
+|------|------|
+| Original Indication | HR+/HER2- breast cancer (inferred from the trial and literature context; the Singapore registration records contain no indication text) |
+| Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 97.32% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 (no RA trials; only one observational study, on safety and prevalence rather than efficacy) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 6 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Abemaciclib selectively inhibits cyclin-dependent kinases 4 and 6 (CDK4/6), blocking the G1-to-S phase transition of the cell cycle. In HR+/HER2- breast cancer, overactive CDK4/6 drives unchecked tumour proliferation, and blocking this pathway has demonstrated clear clinical benefit. Beyond oncology, CDK4/6 inhibition has been shown in experimental settings to suppress T-cell proliferation and reduce pro-inflammatory cytokines such as IL-6 and TNF-α — two central mediators of rheumatoid arthritis (RA) synovitis. This theoretical immunomodulatory overlap is likely what drove the TxGNN knowledge graph to assign a high score.
+Currently, detailed mechanism of action data is not available. Based on known pharmacology, abemaciclib is a CDK4/6 inhibitor, and its efficacy in HR+/HER2- breast cancer is established. CDK4/6 blockade could plausibly limit the proliferation of activated lymphocytes and synovial fibroblasts, both of which drive joint inflammation in RA. This is a hypothesis, not something the supplied data demonstrates.
 
-However, the only clinical evidence retrieved points in the **opposite direction**. PMID 40504547 is a retrospective pharmacovigilance study describing immune-mediated adverse events — including RA-like inflammatory arthritis — arising as **side effects** of CDK4/6 inhibitor therapy in breast cancer patients. This is a reverse safety signal: the drug may trigger, not treat, RA-like autoimmune conditions in some individuals.
-
-The TxGNN score almost certainly reflects shared immune and inflammatory pathway nodes in the underlying knowledge graph rather than direct pharmacological evidence for efficacy. Without dedicated pre-clinical models or prospective trials, this prediction should be treated as a hypothesis-generating signal only.
-
----
+Breast cancer and RA are very different diseases, so the link to the original indication is weak. The only linked publication studied pre-existing and emerging immune-mediated diseases in breast cancer patients taking CDK4/6 inhibitors. That is a safety-type question, not a test of RA treatment. Immune-mediated events during treatment could even point the other way. The high TxGNN score is a knowledge-graph prediction only.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Abemaciclib in Rheumatoid Arthritis.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [40504547](https://pubmed.ncbi.nlm.nih.gov/40504547/) | 2025 | Retrospective / Pharmacovigilance | *The Oncologist* | CDK4/6 inhibitors combined with endocrine therapy in HR+/HER2- breast cancer were associated with both pre-existing and new-onset immune-mediated diseases, including RA-like inflammatory arthritis. This represents a **safety signal rather than therapeutic benefit** for RA. |
-
----
+|------|-----|------|------|---------|
+| [40504547](https://pubmed.ncbi.nlm.nih.gov/40504547/) | 2025 | Cohort (observational) | The Oncologist | Investigates the prevalence of autoimmune diseases in HR+/HER2- breast cancer patients on CDK4/6 inhibitors plus endocrine therapy, to identify predictive biomarkers and the impact on outcomes. It does not test abemaciclib as an RA treatment. |
 
 ## Singapore Market Information
 
-Abemaciclib currently holds **no product registrations** in Singapore. The drug is marketed internationally as Verzenio® (Eli Lilly) for HR+/HER2- breast cancer and high-risk early-stage HR+/HER2- breast cancer adjuvant therapy, but no application has been recorded in Singapore's regulatory database.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN15789P | VERZENIO 100 mg | Film-coated tablet | Not stated in the record |
+| SIN15790P | VERZENIO 150 mg | Film-coated tablet | Not stated in the record |
+| SIN16574P | YULAREB 50 mg | Film-coated tablet | Not stated in the record |
+| SIN16575P | YULAREB 100 mg | Film-coated tablet | Not stated in the record |
+| SIN16576P | YULAREB 150 mg | Film-coated tablet | Not stated in the record |
 
----
+The table shows 5 of the 6 registrations. All are oral products manufactured by Lilly del Caribe, Inc.
 
 ## Cytotoxicity
 
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy — CDK4/6 inhibitor (not conventional cytotoxic) |
-| Myelosuppression Risk | Moderate — neutropenia is a known class effect; generally less severe than conventional chemotherapy |
-| Emetogenicity Classification | Low to moderate |
-| Monitoring Items | CBC with differential (haematological toxicity), liver function tests (hepatotoxicity), renal function, QTc interval / ECG monitoring (cardiovascular risk) |
-| Handling Protection | Standard oral targeted agent precautions; cytotoxic drug handling protocols are recommended as a precaution |
-
----
+|------|------|
+| Cytotoxicity Classification | Targeted therapy (CDK4/6 inhibitor) |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions (neutropenia is a recognised CDK4/6 inhibitor class effect) |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Haematological parameters (CBC with differential) and liver function; confirm the schedule against the package insert |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ## Safety Considerations
 
-Full package insert safety data (warnings, contraindications) were not available in this evidence pack and could not be assessed. Two clinically important safety signals are nonetheless identifiable from the retrieved evidence:
+Please refer to the package insert for safety information. No drug interaction records were found for this drug.
 
-- **Cardiovascular risk**: Multiple systematic reviews and meta-analyses (identified in the heart disease evidence block of this pack — see PMIDs 39254653, 41422771) confirm that CDK4/6 inhibitors as a class are associated with QTc prolongation and increased risk of major cardiovascular adverse events. Abemaciclib appears to carry lower cardiovascular risk than ribociclib, but monitoring is still warranted.
-- **Immune-mediated adverse events**: RA-like arthritis and other autoimmune conditions have been reported in breast cancer patients receiving CDK4/6 inhibitors, as documented in PMID 40504547.
-
-Please refer to the Verzenio® (Abemaciclib) prescribing information for complete warnings, contraindications, and drug interaction details.
-
----
+The RA-linked cohort study also asks whether CDK4/6 inhibitors may trigger or worsen autoimmune disease. That question should be resolved before any use in patients with autoimmune conditions.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The sole publication identified for the rheumatoid arthritis indication constitutes a reverse safety signal — documenting the drug as a *cause* of RA-like arthritis rather than a *treatment* for it. No clinical trials or pre-clinical RA models exist to support pursuing this indication further at this stage.
+The RA prediction has a high model score but no clinical trials, and the single linked study is observational and addresses safety, not efficacy. The mechanistic link is plausible but unverified, and the immune-mediated event signal could argue against benefit.
 
-**Notable alternative predictions worth monitoring:**
+**To proceed, the following is needed:**
+- Mechanism of action data for abemaciclib (DrugBank).
+- Package insert warnings and contraindications from HSA, plus the approved indication text for the Singapore registrations.
+- RA-specific preclinical evidence, such as CDK4/6 inhibition in synovial fibroblasts or arthritis models.
+- Full results of the linked cohort study on how CDK4/6 inhibitors affect pre-existing and new autoimmune disease.
+- Route compatibility assessment for RA use.
 
-| Indication | Evidence Level | Key Signal |
-|------------|---------------|------------|
-| Multiple Endocrine Neoplasia (Rank 3) | L3 | Indirect Phase 1/2 trial coverage via pancreatic and endocrine tumour arms; CDK4 overexpression in pNETs provides a plausible mechanistic link |
-| Amyotrophic Lateral Sclerosis (Rank 10) | L4 | Pre-clinical data (PMID 38596406) shows Abemaciclib accelerates autophagic flux and clears TDP-43 aggregates — the core pathological hallmark of ALS — in vitro and in vivo |
+Among the other predicted indications, amyotrophic lateral sclerosis has a preclinical study of abemaciclib on TDP-43 clearance. It is flagged in the data as a research question, and may be a better next candidate to examine.
 
-**To advance any of these candidates, the following steps are needed:**
-
-- Obtain full mechanism of action (MOA) data from DrugBank (currently a data gap)
-- Retrieve the Verzenio® Singapore/international package insert to complete the safety profile
-- For RA specifically: dedicated pre-clinical studies in collagen-induced arthritis models to determine whether CDK4/6 inhibition is net anti-inflammatory or pro-autoimmune
-- For ALS specifically: design a Phase 0/1 proof-of-concept trial powered by the autophagy/TDP-43 biomarker hypothesis
-- For MEN specifically: review umbrella trial protocols (NCT03280563, NCT04802759) to determine whether endocrine neoplasia subtypes are explicitly enrolled
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

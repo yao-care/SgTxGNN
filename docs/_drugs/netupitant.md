@@ -33,66 +33,68 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Netupitant is an NK1 receptor antagonist, best known as a component of the NEPA combination (netupitant/palonosetron) used to prevent chemotherapy-induced nausea and vomiting. The TxGNN model predicts it may be effective for **Nephrogenic Syndrome of Inappropriate Antidiuresis**, but this prediction currently has **no supporting clinical trials or published literature** — it is a model-only hypothesis.
-
----
+Netupitant is a substance P/NK1 receptor antagonist, used in the fixed-dose combination AKYNZEO with palonosetron to prevent chemotherapy-induced nausea and vomiting.
+The TxGNN model ranks **nephrogenic syndrome of inappropriate antidiuresis** as its top prediction, with a score of 98.35%.
+There are currently **0 clinical trials** and **0 publications** supporting this direction, and the evidence pack itself describes the prediction as likely a knowledge-graph artifact.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Chemotherapy-induced nausea and vomiting (CINV), based on general pharmacological knowledge of the NEPA combination — not recorded in this evidence pack |
-| Predicted New Indication | Nephrogenic Syndrome of Inappropriate Antidiuresis |
+| Original Indication | Chemotherapy-induced nausea and vomiting (taken from the evidence pack's mechanism notes; the Singapore approved-indication text is empty) |
+| Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 98.35% |
-| Evidence Level | L5 |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for netupitant is not populated in this evidence pack (`original_moa` is a data gap). Based on general pharmacological knowledge, netupitant is an NK1 (neurokinin-1) receptor antagonist that blocks substance P signaling, and is used in combination with palonosetron for CINV prophylaxis.
+Currently, detailed mechanism of action data is not available in the evidence pack. Netupitant is described as an NK1 receptor antagonist, and its efficacy in chemotherapy-induced nausea and vomiting is established.
 
-Nephrogenic syndrome of inappropriate antidiuresis is a disorder of vasopressin (antidiuretic hormone) receptor signaling. There is no established pharmacological pathway linking NK1 receptor blockade to antidiuretic hormone receptor activity. The evidence pack's own mechanistic assessment for this candidate states the link is weak: *"no known direct association between NK1 receptor antagonism and antidiuretic hormone receptor signaling; the mechanistic connection is tenuous and this is a TxGNN prediction only, with no clinical or literature evidence."*
+Nephrogenic syndrome of inappropriate antidiuresis is caused by gain-of-function variants in the vasopressin V2 receptor gene (*AVPR2*). NK1 antagonism does not act on this pathway, so **no mechanistic link is known**. The high graph score is not supported by any identifiable biology.
 
-In short, this candidate ranks highly on the TxGNN score alone, but has no mechanistic, preclinical, or clinical corroboration at this time.
+### Other Predicted Indications (for context)
 
----
+All ten predictions are L5 with a Hold recommendation, and none has clinical trial support.
+
+- **Migraine (ranks 3, 4 and 6):** These are the only biologically plausible candidates, through substance P/NK1 signaling in the trigeminovascular system. However, earlier NK1 antagonists reportedly showed no efficacy in acute migraine trials. The 20 papers retrieved for the rank-4 migraine-susceptibility term concern epilepsy and migraine genetics, and none studies netupitant or NK1 antagonism.
+- **Pulmonary hypertension and coronary artery disease:** The links are weak and speculative. Netupitant's CYP3A4 inhibition also raises interaction concerns with common cardiopulmonary drugs.
+- **Leprosy, kyphoscoliotic heart disease, hyperargininemia and hypertrichosis:** No plausible mechanism was identified.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
+## Singapore Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN15031P | AKYNZEO CAPSULES 300MG/0.5MG | Capsule, gelatin coated (oral) | Not provided in the source data |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
-*(Note: this evidence pack flags a Blocking data gap — TFDA/regulatory label warnings and contraindications for netupitant have not yet been retrieved, which prevents any safety pre-screening (S1 stage) for this candidate.)*
-
----
+- **Drug Interactions:** No interaction records were found in the queried database. The evidence pack notes that netupitant is a CYP3A4 inhibitor, which is relevant to co-medications such as statins, antiplatelet agents and cardiopulmonary drugs.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (nephrogenic syndrome of inappropriate antidiuresis) has Evidence Level L5 — a TxGNN score with zero supporting clinical trials or literature, and the mechanistic rationale is explicitly assessed as weak. The drug is also not currently marketed in Singapore, so there is no local regulatory or safety baseline to build on.
+The prediction rests only on a model score. There are no trials or drug-specific publications, and no plausible link between NK1 antagonism and *AVPR2* gain-of-function disease. Of the ten predictions, only migraine has a credible hypothesis, and it is weakened by the failure of earlier NK1 antagonists.
 
 **To proceed, the following is needed:**
-- TFDA/regulatory label warnings and contraindications for netupitant (currently a Blocking data gap)
-- Confirmed mechanism-of-action documentation (currently a High-severity data gap)
-- Preclinical or mechanistic studies directly testing NK1 antagonism in antidiuretic hormone/vasopressin-receptor-mediated conditions before any clinical evaluation is warranted
-- Note: rank 4 ("migraine with or without aura, susceptibility to") returned 20 PubMed hits, but on review these are epilepsy-genetics papers largely tangential to netupitant or migraine specifically — this candidate would need a targeted literature re-query before being considered a stronger alternative lead.
+- HSA package insert warnings and contraindications (currently blocking the safety screening step)
+- Detailed mechanism of action data, for example from DrugBank
+- Netupitant-specific preclinical or clinical evidence for any candidate indication, with migraine as the most plausible one to examine first
+- Review of the CYP3A4 interaction profile against the drugs commonly used in the target population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

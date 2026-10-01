@@ -29,92 +29,78 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Inotuzumab Ozogamicin: From B-Cell Precursor Acute Lymphoblastic Leukemia to Drug-Induced Osteoporosis
+# Inotuzumab ozogamicin: From Relapsed/Refractory B-Cell Leukaemia to Drug-Induced Osteoporosis
 
 ## One-Sentence Summary
 
-Inotuzumab ozogamicin is an anti-CD22 antibody-drug conjugate (ADC) approved internationally for relapsed or refractory B-cell precursor acute lymphoblastic leukemia (ALL), and is currently not registered in Singapore.
-The TxGNN model predicts it may be effective for **Drug-Induced Osteoporosis** as its highest-ranked repurposing candidate (score: 98.24%),
-however, with **0 clinical trials** and **0 directly relevant publications** supporting this direction, the evidence base remains at model prediction only.
-
----
+Inotuzumab ozogamicin is a CD22-directed antibody-drug conjugate with a calicheamicin DNA-cleaving payload. It is a B-cell-targeted cancer drug, and the local record does not state its approved indication.
+The TxGNN model predicts it may be effective for **drug-induced osteoporosis**, but there are **0 clinical trials** and **0 publications** supporting this prediction.
+This is a model-only prediction with no plausible biological rationale.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Relapsed or refractory B-cell precursor acute lymphoblastic leukemia (ALL) |
-| Predicted New Indication | Drug-Induced Osteoporosis |
+|------|------|
+| Original Indication | Not recorded in the local HSA data. The drug is a CD22-directed agent for B-cell malignancy (relapsed/refractory CD22-positive B-cell precursor acute lymphoblastic leukaemia, from general knowledge, not from the Evidence Pack) |
+| Predicted New Indication | Drug-induced osteoporosis |
 | TxGNN Prediction Score | 98.24% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Inotuzumab ozogamicin is a targeted antibody-drug conjugate composed of a humanized anti-CD22 IgG4 monoclonal antibody covalently linked to calicheamicin — a potent cytotoxic natural product that induces irreversible double-strand DNA breaks upon intracellular release. CD22 is a cell-surface glycoprotein expressed predominantly on mature B lymphocytes and on the blast cells of most B-cell precursor ALL patients. After the ADC binds to CD22 and is internalized, the calicheamicin payload is released, selectively killing CD22-expressing cells. This narrow mechanism of action is what makes the drug effective against B-cell malignancies.
+Currently, detailed mechanism of action data is not available in the record. Inotuzumab ozogamicin is a CD22-directed antibody-drug conjugate. CD22 is expressed on B-lineage cells, and the calicheamicin payload cleaves DNA to kill the targeted cells.
 
-Drug-induced osteoporosis, by contrast, is a metabolic bone disease driven by osteoclast/osteoblast imbalance, typically triggered by agents such as glucocorticoids, aromatase inhibitors, or androgen deprivation therapy. Its core pathophysiology revolves around RANKL/OPG signaling, vitamin D and calcium metabolism dysregulation, and direct suppression of osteoblast activity. There is no established direct link between the CD22 antigen or calicheamicin's DNA-damaging mechanism and bone remodeling pathways.
+The prediction is **not** mechanistically supported. Bone-forming or anti-resorptive activity has no support for this drug. A cytotoxic agent would more likely harm bone marrow and bone health than protect it. The high TxGNN score reflects graph proximity in the knowledge graph, not a biological mechanism.
 
-The high TxGNN knowledge graph score (98.24%) is most likely driven by indirect graph connectivity — for example, B cells are known to influence RANKL expression in the bone microenvironment, which in turn regulates osteoclastogenesis. While this indirect path exists biologically, it does not constitute a therapeutically actionable connection for an ADC targeting CD22. In practice, inotuzumab ozogamicin itself causes significant thrombocytopenia and hepatic sinusoidal obstruction syndrome, making safety in a non-oncology setting a further concern. This prediction should be considered a speculative, graph-topology artifact rather than a biologically grounded repurposing hypothesis.
-
----
+The other top-ranked predictions show the same pattern. They include several breast cancer subtypes, diabetic retinopathy, platelet and von Willebrand-type bleeding disorders, and a veterinary disease (infectious bovine rhinotracheitis). None has clinical trials, and none has a CD22-based rationale. Some are also unsafe for this drug: its cytopenias could worsen bleeding disorders, and its hepatotoxicity is a poor trade-off in a non-life-threatening eye condition. The breast cancer subtypes lack CD22 expression. Overall, the predictions look like knowledge-graph artefacts.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
-> **Note on Rank 5 (Breast Tumor Luminal A/B):** The evidence search for that indication retrieved 19 PubMed results; however, upon individual review, all publications relate to B-cell biology, hepatitis B vaccine studies, or unrelated topics. These represent keyword contamination (the letter "B" triggering B-cell–related literature) and contain no evidence supporting inotuzumab ozogamicin use in breast cancer.
-
----
+For the lower-ranked prediction "breast tumor luminal A or B", 19 publications were retrieved. All were keyword false positives on "B" (B-cell biology, hepatitis B vaccines, B-cell lymphoma). None concerns breast cancer or bone health, and they do not support any predicted indication.
 
 ## Singapore Market Information
 
-Inotuzumab ozogamicin is **not registered** in Singapore. No marketing authorizations or product licenses were identified. Clinicians requiring access would need to pursue special access channels (e.g., clinical trial enrollment or compassionate use pathways), subject to HSA approval.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN15747P | BESPONSA Powder for Concentrate for Solution for Infusion 1 mg/vial (Wyeth Pharmaceutical Division of Wyeth Holding LLC) | Powder, for solution | Not stated in the local record |
 
 ## Cytotoxicity
 
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted cytotoxic — Antibody-Drug Conjugate (ADC); payload is calicheamicin, a DNA double-strand break inducer (enediyne class) |
-| Myelosuppression Risk | **High** — Thrombocytopenia is a dose-limiting toxicity reported in >50% of patients in pivotal trials; neutropenia and febrile neutropenia are also common |
-| Emetogenicity Classification | Low to moderate |
-| Monitoring Items | CBC with differential (monitor for thrombocytopenia and neutropenia), liver function tests with particular attention to sinusoidal obstruction syndrome (SOS/VOD), total bilirubin, renal function, coagulation profile |
-| Handling Protection | Must follow cytotoxic/hazardous drug handling regulations; ADC preparation requires specialized pharmacy biosafety protocols (closed-system transfer devices recommended) |
-
----
+|------|------|
+| Cytotoxicity Classification | Antibody-drug conjugate with a cytotoxic payload (calicheamicin, a DNA-cleaving agent) |
+| Myelosuppression Risk | Cytopenias and thrombocytopenia are recognised main toxicities. Please refer to the package insert for incidence details |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Complete blood count with platelets, liver function (hepatotoxicity including veno-occlusive disease is a known risk) |
+| Handling Protection | Follow local cytotoxic drug handling regulations |
 
 ## Safety Considerations
 
-Please refer to the package insert for complete safety information. Given that inotuzumab ozogamicin itself causes dose-limiting thrombocytopenia and carries a black-box warning for hepatic sinusoidal obstruction syndrome (SOS/VOD) in international labeling, extrapolation to non-oncology indications such as drug-induced osteoporosis raises significant safety concerns that would need to be thoroughly characterized before any clinical evaluation.
+- **Drug Interactions**: No interaction records were found in the queried database.
+- **Other risks**: Known risks include hepatotoxicity (including veno-occlusive disease), cytopenias and thrombocytopenia.
 
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There is no clinically coherent mechanistic link between inotuzumab ozogamicin's anti-CD22 mode of action and the pathophysiology of drug-induced osteoporosis. All 10 TxGNN-predicted indications for this drug return an L5 evidence level (model prediction only, zero supporting trials or literature), and several predictions — including breast cancer subtypes, platelet disorders, pseudo-von Willebrand disease, and infectious bovine rhinotracheitis — exhibit clear mechanistic implausibility or fall entirely outside the scope of human oncology. The drug's known serious toxicities (thrombocytopenia, hepatotoxicity) further complicate any non-oncology repurposing scenario.
+The prediction rests only on a graph-based model score. There are no clinical trials or literature, and no plausible mechanism links a CD22-directed cytotoxic conjugate to osteoporosis. The drug's toxicity profile makes benefit-risk unfavourable for this indication.
 
 **To proceed, the following is needed:**
-
-- **Mechanistic validation:** Identify a biologically plausible and testable hypothesis connecting CD22/B-cell biology to bone resorption (e.g., B-cell–mediated RANKL upregulation in steroid-induced osteoporosis models)
-- **Preclinical proof-of-concept:** In vitro or in vivo studies demonstrating that anti-CD22 targeting reduces bone loss in drug-induced osteoporosis animal models
-- **MOA data retrieval:** Query DrugBank API to obtain complete mechanism-of-action data for formal mechanistic analysis
-- **Safety package review:** Obtain and parse the full prescribing information (package insert) to complete S1 safety screening, including warnings, contraindications, and special population data
-- **Regulatory pathway assessment:** Evaluate feasibility of Singapore registration or compassionate use given current non-marketed status and the nature of the proposed indication
+- HSA package insert (warnings, contraindications, approved indication), which is required before any safety screening
+- Mechanism of action data from DrugBank
+- Any preclinical or clinical signal linking the drug to bone metabolism. Without one, this candidate should not advance.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -29,98 +29,101 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Nepafenac: From Post-Cataract Surgery Ocular Inflammation to Eye Disease
+# Nepafenac: From Post-Cataract Surgery Ocular Inflammation and Pain to Eye Disease
 
 ## One-Sentence Summary
 
-Nepafenac is a topical ophthalmic NSAID originally developed to treat pain and inflammation after cataract surgery.
-The TxGNN model predicts it may be effective more broadly for **Eye Disease**,
-with **41 clinical trials** and **20 publications** currently supporting anti-inflammatory activity across a range of ocular conditions.
-
----
+Nepafenac is a topical NSAID eye drop, originally used to treat pain and inflammation after cataract surgery.
+The TxGNN model predicts it may be effective for **eye disease**, a very broad category, with **41 clinical trials** and **20 publications** currently supporting this direction.
+This signal largely reflects the already-established post-cataract-surgery use rather than a truly new indication. The more specific sub-indications (macular edema prevention, uveitic macular edema, post-laser inflammation) should be assessed separately.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Ocular pain and inflammation associated with cataract surgery (per published literature; no local Singapore license on file) |
-| Predicted New Indication | Eye disease (broad ophthalmic indication expansion) |
+| Original Indication | Pain and inflammation after cataract surgery (per published literature; the Singapore label text was not supplied) |
+| Predicted New Indication | Eye disease |
 | TxGNN Prediction Score | 99.85% |
 | Evidence Level | L1 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Hold |
-
----
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
+| Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
 
-Currently, a structured DrugBank mechanism-of-action record is not available (data gap). Based on information contained in the supporting literature, Nepafenac is a prodrug that, following topical ocular administration, is converted to its active metabolite amfenac, which inhibits both COX-1 and COX-2, thereby suppressing prostaglandin E2 (PGE2) synthesis in ocular tissue (PMID 26474497, 19897019). Its efficacy in preventing and treating inflammation and pain after cataract surgery is well established and forms the basis of its existing global approvals (as Nevanac/Ilevro).
+Nepafenac is a prodrug that is converted in the eye to amfenac, an inhibitor of COX-1 and COX-2. By blocking prostaglandin (PGE2) synthesis, it reduces ocular inflammation, pain and macular edema. Preclinical work also shows it reaches the posterior segment of the eye, which is why it has been studied beyond the front of the eye.
 
-The predicted new indication, "eye disease," is a broad category rather than a narrowly novel target. In practice, the supporting evidence largely reflects the drug's already-known anti-inflammatory role across the eye — extending from cataract-surgery inflammation into related inflammatory/vascular ocular conditions such as diabetic macular edema, uveitis, and post-laser iridotomy inflammation. This should be read as a confirmation and extension of an established pharmacological effect rather than a genuinely new therapeutic hypothesis.
+The predicted "eye disease" label overlaps heavily with the drug's existing use after cataract surgery. That use has strong Phase 3 support, including large vehicle-controlled trials in diabetic patients. The prediction is therefore mechanistically sound but not very specific.
 
-Mechanistically, COX-mediated PGE2 suppression is relevant wherever ocular inflammation or vascular permeability drives disease — this is supported by preclinical work showing topical nepafenac reduces diabetic-retinopathy-related retinal microvascular abnormalities in a rat model (PMID 17259381) and inhibits retinal angiogenesis in vitro (PMID 19897019), lending biological plausibility to indications beyond post-surgical inflammation.
-
----
+More specific findings exist:
+- Prevention of cystoid macular edema (CME) after cataract surgery is supported by a 2025 systematic review and meta-analysis and by several randomized trials.
+- Uveitic macular edema and inflammation after laser peripheral iridotomy are being studied. The uveitis trial ended early with only 9 participants.
 
 ## Clinical Trial Evidence
 
+Of 41 registered trials, the 10 most relevant are shown below.
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01109173](https://clinicaltrials.gov/study/NCT01109173) | Phase 3 | Completed | 2120 | Pivotal registration trial: nepafenac 0.3% for prevention/treatment of ocular inflammation and pain after cataract surgery |
-| [NCT01853072](https://clinicaltrials.gov/study/NCT01853072) | Phase 3 | Completed | 881 | Nepafenac 0.3% QD superior to vehicle in diabetic patients following cataract surgery |
-| [NCT00939276](https://clinicaltrials.gov/study/NCT00939276) | Phase 3 | Terminated | 175 | Nepafenac evaluated for macular edema in diabetic retinopathy patients after cataract surgery |
-| [NCT00782717](https://clinicaltrials.gov/study/NCT00782717) | Phase 2 | Completed | 263 | Nepafenac vs vehicle for reducing macular edema incidence after cataract surgery in diabetic retinopathy patients |
-| [NCT01331005](https://clinicaltrials.gov/study/NCT01331005) | Phase 2 | Completed | 125 | Topical NSAID effect on macular volume in non-central diabetic macular edema (independent of cataract surgery) |
-| [NCT00801905](https://clinicaltrials.gov/study/NCT00801905) | Phase 2 | Terminated | 50 | Nepafenac for macular thickening related to pan-retinal photocoagulation in diabetic retinopathy |
-| [NCT01939691](https://clinicaltrials.gov/study/NCT01939691) | Phase 4 | Terminated | 9 | Nepafenac vs difluprednate for macular edema in uveitis |
-| [NCT02955641](https://clinicaltrials.gov/study/NCT02955641) | N/A | Unknown | 100 | Efficacy/necessity of anti-inflammatory drops (incl. nepafenac) after laser peripheral iridotomy |
-| [NCT05847049](https://clinicaltrials.gov/study/NCT05847049) | N/A | Completed | 16 | Combined eplerenone, aflibercept and topical nepafenac for serous foveal detachment in central serous chorioretinopathy |
-| [NCT03025945](https://clinicaltrials.gov/study/NCT03025945) | N/A | Completed | 662 | Adjunctive once-daily topical nepafenac 0.3% vs placebo for pseudophakic cystoid macular edema prevention |
-
----
+| [NCT01109173](https://clinicaltrials.gov/study/NCT01109173) | Phase 3 | Completed | 2120 | Nepafenac 0.3% for prevention and treatment of ocular inflammation and pain after cataract surgery |
+| [NCT01853072](https://clinicaltrials.gov/study/NCT01853072) | Phase 3 | Completed | 881 | Double-masked, vehicle-controlled trial of nepafenac 0.3% in diabetic patients after cataract surgery; the strongest direct evidence |
+| [NCT01872611](https://clinicaltrials.gov/study/NCT01872611) | Phase 3 | Completed | 819 | Companion vehicle-controlled trial of nepafenac 0.3% in diabetic patients after cataract surgery |
+| [NCT01426854](https://clinicaltrials.gov/study/NCT01426854) | Phase 3 | Completed | 260 | Nepafenac 0.1% vs vehicle for inflammation and pain after cataract surgery in Chinese adults |
+| [NCT00405730](https://clinicaltrials.gov/study/NCT00405730) | Phase 3 | Completed | 227 | Nepafenac 0.1% vs ketorolac 0.5% vs placebo after cataract surgery (European study) |
+| [NCT03025945](https://clinicaltrials.gov/study/NCT03025945) | Not phase-labeled | Completed | 662 | Once-daily nepafenac 0.3% vs placebo added to steroid for preventing pseudophakic CME |
+| [NCT01395069](https://clinicaltrials.gov/study/NCT01395069) | Phase 4 | Completed | 162 | Prophylactic nepafenac 0.1% or ketorolac 0.5% vs placebo for preventing macular edema after phacoemulsification |
+| [NCT00494494](https://clinicaltrials.gov/study/NCT00494494) | Phase 4 | Completed | 82 | Nepafenac 0.1% to prevent CME after uncomplicated cataract surgery |
+| [NCT00939276](https://clinicaltrials.gov/study/NCT00939276) | Phase 3 | Terminated | 175 | Nevanac for macular edema after cataract surgery in diabetic retinopathy patients |
+| [NCT01939691](https://clinicaltrials.gov/study/NCT01939691) | Phase 4 | Terminated | 9 | Nepafenac vs difluprednate in uveitic macular edema; underpowered because it ended early |
 
 ## Literature Evidence
 
+Of 20 publications, the 10 most relevant are shown below.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [24345529](https://pubmed.ncbi.nlm.nih.gov/24345529/) | 2014 | RCT (Phase 3) | J Cataract Refract Surg | Once-daily nepafenac 0.3% effective for preventing/treating ocular pain and inflammation after cataract surgery |
-| [22795976](https://pubmed.ncbi.nlm.nih.gov/22795976/) | 2012 | RCT | J Cataract Refract Surg | Prophylactic nepafenac and ketorolac superior to placebo in preventing postoperative macular edema |
-| [32672612](https://pubmed.ncbi.nlm.nih.gov/32672612/) | 2020 | RCT | Ophthalmology Glaucoma | Nepafenac 0.1% vs prednisolone acetate for inflammation control after laser peripheral iridotomy |
-| [35196591](https://pubmed.ncbi.nlm.nih.gov/35196591/) | 2022 | RCT | Ophthalmology Glaucoma | Nepafenac 0.1% vs bromfenac 0.09% for inflammation after laser peripheral iridotomy |
-| [24345317](https://pubmed.ncbi.nlm.nih.gov/24345317/) | 2014 | RCT | Am J Ophthalmol | Randomized prospective study of nepafenac's effect on intraocular pressure in cataract eyes |
-| [39936354](https://pubmed.ncbi.nlm.nih.gov/39936354/) | 2025 | Systematic Review/Meta-analysis | Eur J Ophthalmol | Nepafenac reduces macular swelling and improves visual outcomes after cataract surgery when added to topical steroids |
-| [35025078](https://pubmed.ncbi.nlm.nih.gov/35025078/) | 2022 | Review | Drugs | Review of therapeutic agents, including topical NSAIDs, for non-infectious corneal injury |
-| [34210237](https://pubmed.ncbi.nlm.nih.gov/34210237/) | 2022 | Review | Clin Exp Optom | Review of nepafenac's role in reducing postoperative inflammation, pain and cystoid macular edema in cataract surgery |
-| [17259381](https://pubmed.ncbi.nlm.nih.gov/17259381/) | 2007 | Preclinical | Diabetes | Topical nepafenac inhibits diabetes-induced retinal microvascular disease in a rat model |
-| [36573765](https://pubmed.ncbi.nlm.nih.gov/36573765/) | 2023 | Case Report | J Cataract Refract Surg | Case of extreme IOP elevation and steroid-dependent iritis in a patient on chronic topical nepafenac/steroid therapy |
-
----
+| [39936354](https://pubmed.ncbi.nlm.nih.gov/39936354/) | 2025 | Systematic review / meta-analysis | Eur J Ophthalmol | Effect of adding nepafenac to perioperative steroids on foveal thickness, macular volume and visual acuity after cataract surgery |
+| [24345529](https://pubmed.ncbi.nlm.nih.gov/24345529/) | 2014 | Phase 3 study | J Cataract Refract Surg | Once-daily nepafenac 0.3% to prevent and treat ocular pain and inflammation after cataract surgery |
+| [22795976](https://pubmed.ncbi.nlm.nih.gov/22795976/) | 2012 | RCT | J Cataract Refract Surg | Prophylactic nepafenac and ketorolac vs placebo for preventing macular edema after uneventful phacoemulsification |
+| [35196591](https://pubmed.ncbi.nlm.nih.gov/35196591/) | 2022 | RCT | Ophthalmol Glaucoma | Nepafenac 0.1% vs bromfenac 0.09% for inflammation after laser peripheral iridotomy |
+| [32672612](https://pubmed.ncbi.nlm.nih.gov/32672612/) | 2020 | RCT | Ophthalmol Glaucoma | Nepafenac 0.1% vs prednisolone acetate 1% after laser peripheral iridotomy |
+| [34120417](https://pubmed.ncbi.nlm.nih.gov/34120417/) | 2021 | Comparative clinical study | Korean J Ophthalmol | Nepafenac 0.1% vs prednisolone 1% for postoperative inflammation after micro-incisional cataract surgery |
+| [30284393](https://pubmed.ncbi.nlm.nih.gov/30284393/) | 2018 | Comparative clinical study | Acta Ophthalmol | Nepafenac vs preservative-free diclofenac: efficacy and tolerability after cataract surgery |
+| [34210237](https://pubmed.ncbi.nlm.nih.gov/34210237/) | 2022 | Review | Clin Exp Optom | Nepafenac in cataract surgery: high ocular penetration and a very low side-effect profile |
+| [26474497](https://pubmed.ncbi.nlm.nih.gov/26474497/) | 2016 | Preclinical PK | Exp Eye Res | Topical nepafenac and its active metabolite amfenac reach the posterior segment of the eye |
+| [17259381](https://pubmed.ncbi.nlm.nih.gov/17259381/) | 2007 | Preclinical (animal) | Diabetes | Topical nepafenac inhibited diabetes-induced retinal microvascular disease in rats |
 
 ## Singapore Market Information
 
-Nepafenac currently has no registered product license in Singapore (0 licenses on file); it is classified as not marketed locally.
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN13759P | Nevanac® Eye Drops Suspension 1 mg/ml | Sterile suspension | Novartis Manufacturing NV |
 
----
+The approved indication text is not included in the supplied registration record.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
----
-
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Proceed with Guardrails**
 
 **Rationale:**
-Clinical evidence for nepafenac's anti-inflammatory activity across ocular conditions is strong (L1, multiple completed Phase 3 RCTs), but the predicted indication ("eye disease") is broad and substantially overlaps with the drug's already-established use rather than representing a distinct unmet need. More critically, local safety labeling data is a **Blocking** data gap (DG001) that prevents the candidate from entering the S1 safety initial evaluation, and the drug is not currently registered in Singapore.
+Nepafenac has many completed Phase 3 and Phase 4 trials, plus a 2025 meta-analysis, supporting eye-related use, so the evidence level is L1. However, "eye disease" is too broad to count as a genuine new indication. The evidence mostly reflects the existing post-cataract-surgery use, so the decision should be made per specific sub-indication.
 
 **To proceed, the following is needed:**
-- Local package insert / warnings and contraindications (resolve DG001, Blocking) to enable S1 safety review
-- Confirmed DrugBank mechanism-of-action data (resolve DG002)
-- A narrower, clinically distinct target indication within "eye disease" (e.g., diabetic macular edema, uveitis, or CSCR) rather than the broad disease category, to support a focused submission
-- A Singapore market entry / registration pathway assessment, given zero current local licenses
+- The HSA package insert (warnings, contraindications, approved indication) to complete safety screening
+- Separate evaluation of specific sub-indications, such as CME prevention in diabetic patients, uveitic macular edema and inflammation after laser peripheral iridotomy
+- Detailed mechanism of action data from DrugBank
+
+**Other predicted indications:**
+- Optic papillitis (L4) and vitreous detachment (L4) are limited to animal or biomarker evidence.
+- Six others (L5) are supported by the model prediction alone: hypotrichosis simplex of the scalp, seborrheic keratosis, von Hippel anomaly, congenital hypotrichosis milia, McPherson-Robertson-Cammarano syndrome and vulvar inverted follicular keratosis.
+- Lagophthalmos (L5) is also model-only, and NSAIDs may impair corneal healing in exposure-prone eyes.
+- None of these are recommended for further development at this time.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

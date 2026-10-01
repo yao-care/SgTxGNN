@@ -29,88 +29,83 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Micafungin: From Antifungal Therapy to Candida Urinary Tract Infection
+# Micafungin: From Invasive Candidiasis to Urinary Tract Infection
 
 ## One-Sentence Summary
 
-Micafungin is an echinocandin-class antifungal, originally developed to treat systemic/invasive fungal infections by inhibiting fungal cell wall synthesis.
-The TxGNN model predicts it may be effective for **Candida-caused Urinary Tract Infection (candiduria)**,
-with **0 clinical trials** but **13 supporting publications** (mostly case reports/series and one pharmacokinetic study) currently backing this direction.
-
----
+Micafungin is an echinocandin antifungal, marketed for invasive candidiasis.
+The TxGNN model predicts it may be effective for **Urinary Tract Infection (Candida UTI / candiduria)**.
+Evidence consists of **0 registered clinical trials** and **13 publications**, all retrospective, pharmacokinetic or case-based, with no prospective trial.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Antifungal therapy (echinocandin class) — specific Singapore-approved indication text not available |
-| Predicted New Indication | Urinary Tract Infection — specifically Candida spp. infection (candiduria), not bacterial UTI |
+| Original Indication | Invasive candidiasis (taken from the prediction rationale; the Singapore registry entry does not state an indication) |
+| Predicted New Indication | Urinary tract infection |
 | TxGNN Prediction Score | 99.03% |
 | Evidence Level | L3 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Formal mechanism-of-action data for Micafungin is currently flagged as a data gap pending confirmation via the DrugBank API. Based on information available in this evidence pack, Micafungin is an echinocandin-class antifungal that inhibits fungal 1,3-β-D-glucan synthase, disrupting fungal cell wall synthesis. This mechanism is fungicidal/fungistatic against *Candida* species, including azole-resistant strains such as *C. krusei*, *C. glabrata*, and the emerging multidrug-resistant *C. auris*.
+Micafungin inhibits 1,3-beta-D-glucan synthase, an enzyme Candida needs to build its cell wall. Candida is a common cause of fungal urinary infections and candiduria, so the link is biologically plausible. A detailed mechanism-of-action record is not available in the evidence pack, so this rests on the general echinocandin mechanism.
 
-The predicted new indication — urinary tract infection — overlaps with the drug's original antifungal use only where the causative organism is *Candida*, not bacteria. Echinocandins have historically been under-used for UTIs due to low urinary excretion, but the literature in this pack includes a dedicated pharmacokinetic study (PMID 27424599) showing that urinary micafungin concentrations are in fact sufficient to treat *Candida* UTIs, supporting the biological plausibility of this repurposing signal. Multiple retrospective cohorts and case series further describe real-world use of micafungin (including in pediatric, transplant, and neonatal patients) for candiduria refractory to fluconazole or amphotericin B.
+There is one caveat. Echinocandins have traditionally been considered poor choices for urinary infections because little active drug is excreted in urine. Some newer data challenge this:
+- A pharmacokinetic study (PMID 27424599) reports urinary micafungin levels sufficient to treat Candida UTIs.
+- Case series, retrospective cohorts and case reports describe clinical eradication, including in fluconazole-resistant Candida species such as *C. krusei* and *C. glabrata*.
 
-It is important to note that of the 10 indications TxGNN predicted for Micafungin, only this one (Candida UTI) is mechanistically coherent and evidence-supported. The remaining nine — *Ureaplasma* urethritis, gonococcal urethritis, uterine inflammatory disease, xanthogranulomatous pyelonephritis, three mesothelioma subtypes, and urogenital tuberculosis — involve bacteria, mycobacteria, or malignancies that lack the fungal glucan cell wall target and have no supporting clinical or literature evidence (all scored L5/Hold in this pack). This report therefore focuses on the top-ranked, evidence-backed prediction only.
+All of this evidence is retrospective or anecdotal. Asymptomatic candiduria is also often overtreated (PMID 29109159), so any future study needs strict patient selection.
 
----
+The nine other predicted indications are not supported by any clinical evidence. They cover bacterial urogenital infections (Ureaplasma or gonococcal urethritis, xanthogranulomatous pyelonephritis, urogenital tuberculosis), uterine inflammatory disease and several mesothelioma subtypes. Micafungin's target is absent in bacteria and no antitumour mechanism is known, so these look like knowledge-graph artifacts and are classed L5 / Hold.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
+
+No RCTs were found. The table lists the most relevant publications, ordered by study design strength.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [27424599](https://pubmed.ncbi.nlm.nih.gov/27424599/) | 2016 | Pharmacokinetic Study | Int J Antimicrob Agents | Urinary micafungin levels shown sufficient to treat Candida UTI; TDM of urinary levels may optimize outcomes despite low urinary excretion |
-| [35146837](https://pubmed.ncbi.nlm.nih.gov/35146837/) | 2022 | Cohort/Case Series (pediatric) | Pediatr Int | Outcomes of critically ill PICU patients treated with micafungin for hospital-acquired Candida UTI; success rates varied by species |
-| [27587066](https://pubmed.ncbi.nlm.nih.gov/27587066/) | 2016 | Retrospective Cohort | Int Urol Nephrol | Examined candiduria elimination rates among hospitalized patients treated with micafungin |
-| [29109159](https://pubmed.ncbi.nlm.nih.gov/29109159/) | 2018 | Multi-institutional Cohort Study | Antimicrob Agents Chemother | Retrospective cohort of 305 hospitalized patients characterizing candiduria management and antifungal overtreatment patterns |
-| [31111613](https://pubmed.ncbi.nlm.nih.gov/31111613/) | 2019 | Case Report | Transplant Infect Dis | Successful eradication of chronic *C. krusei* UTI with increased-dose micafungin in a liver/kidney transplant recipient |
-| [38827222](https://pubmed.ncbi.nlm.nih.gov/38827222/) | 2024 | Case Report | Front Pediatr | Micafungin used to treat *C. glabrata* urinary infection in a catheterized premature neonate |
-| [33520520](https://pubmed.ncbi.nlm.nih.gov/33520520/) | 2020 | Case Report | Cureus | *Candida auris* UTI in a multi-comorbid nursing home patient |
-| [39781278](https://pubmed.ncbi.nlm.nih.gov/39781278/) | 2025 | Epidemiological Survey/Review | Ther Adv Infect Dis | Distribution and antifungal susceptibility of *Candida* species causing UTI/vulvovaginal candidiasis in Vietnam, 2023 |
-| [26937340](https://pubmed.ncbi.nlm.nih.gov/26937340/) | 2016 | Case Series | Med Mycol Case Rep | Five cases of candiduria treated with parenteral micafungin; fungal clearance achieved within 30 days |
-| [38681664](https://pubmed.ncbi.nlm.nih.gov/38681664/) | 2024 | Case Report | Med Mycol Case Rep | Unilateral renal fungus ball from *C. glabrata*, sensitive to micafungin, managed with antifungal therapy plus endoscopic extraction |
-
----
+| [35146837](https://pubmed.ncbi.nlm.nih.gov/35146837/) | 2022 | Retrospective cohort (pediatric) | Pediatr Int | Outcomes of micafungin for hospital-acquired Candida UTIs in critically ill children; success rates analysed overall and by Candida species |
+| [27587066](https://pubmed.ncbi.nlm.nih.gov/27587066/) | 2016 | Retrospective cohort | Int Urol Nephrol | Rates of candiduria elimination in micafungin-treated hospitalized patients |
+| [27424599](https://pubmed.ncbi.nlm.nih.gov/27424599/) | 2016 | PK study / case series | Int J Antimicrob Agents | Six UTI cases treated successfully, four with fluconazole-resistant Candida; urinary micafungin levels were sufficient |
+| [26937340](https://pubmed.ncbi.nlm.nih.gov/26937340/) | 2016 | Case series | Med Mycol Case Rep | Five patients received at least 6 days of micafungin; baseline fungal growth resolved within 30 days of treatment completion |
+| [31111613](https://pubmed.ncbi.nlm.nih.gov/31111613/) | 2019 | Case report + review | Transpl Infect Dis | Chronic symptomatic *C. krusei* UTI in a liver and kidney transplant recipient eradicated with increased-dose micafungin |
+| [38827222](https://pubmed.ncbi.nlm.nih.gov/38827222/) | 2024 | Case report | Front Pediatr | *C. glabrata* urinary infection in a premature neonate treated with micafungin |
+| [40765059](https://pubmed.ncbi.nlm.nih.gov/40765059/) | 2025 | Case report | J Pharm Health Care Sci | *C. glabrata* pyelonephritis with bacteremia in a patient on an SGLT2 inhibitor, successfully treated with micafungin |
+| [38681664](https://pubmed.ncbi.nlm.nih.gov/38681664/) | 2024 | Case report | Med Mycol Case Rep | Unilateral renal fungus ball (*C. glabrata*, micafungin-sensitive) managed with antifungal therapy, endoscopic extraction and ureteral stent |
+| [29109159](https://pubmed.ncbi.nlm.nih.gov/29109159/) | 2018 | Multi-centre cohort (indirect) | Antimicrob Agents Chemother | Asymptomatic candiduria is often overtreated despite guidelines advising against antifungals; supports careful patient selection |
 
 ## Singapore Market Information
 
-Micafungin currently has no marketing authorization registered in Singapore (0 licenses on file; market status: Not Marketed).
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN14464P | MYCAMINE Powder for Solution for Infusion 50mg/vial | Injection, powder, lyophilized, for solution |
 
----
+The manufacturer is Astellas Pharma Inc. (with Patheon Italia S.p.A.). The route is injectable only.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
----
-
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Real-world cohort and case-series evidence, supported by a dedicated pharmacokinetic study, consistently shows micafungin achieves adequate urinary concentrations and clinical success against azole-resistant *Candida* UTIs (L3 evidence), but no RCTs exist and this applies only to fungal — not bacterial — UTI. Critically, HSA-equivalent label warnings/contraindications are a **Blocking** data gap that must be resolved before this candidate can enter safety review.
+The evidence is biologically plausible and supported by a PK study, small cohorts and case reports, but it is entirely retrospective or anecdotal. Echinocandin urinary excretion is a known concern, and safety and package-insert data are missing, which blocks progression to safety screening. The candidate is best treated as a research question.
 
 **To proceed, the following is needed:**
-- Official label warnings and contraindications (currently a Blocking data gap; source: local regulatory label)
-- Confirmed mechanism-of-action documentation from DrugBank (High-severity gap)
-- Drug-drug interaction data (current query returned not_found)
-- Confirmation that scope is limited to Candida-caused UTI, to prevent misapplication to bacterial UTI
-- Singapore-specific regulatory pathway assessment, since the drug is currently unmarketed locally
+- Package insert warnings and contraindications from HSA, which are required before safety screening
+- Mechanism of action and original indication data from DrugBank
+- A prospective study design limited to symptomatic Candida UTI or candiduria with clear treatment criteria, to avoid treating asymptomatic colonisation
+- Urinary drug-level monitoring to confirm adequate concentrations, especially in fluconazole-resistant species
+- A route compatibility check (Singapore registration is injectable only)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

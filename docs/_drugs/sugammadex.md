@@ -29,76 +29,70 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sugammadex: From Neuromuscular Blockade Reversal to Breast Fibrocystic Disease
+# Sugammadex: From Reversal of Neuromuscular Blockade to Breast Fibrocystic Disease
 
 ## One-Sentence Summary
 
-> Sugammadex is a modified γ-cyclodextrin used clinically to reverse rocuronium/vecuronium-induced neuromuscular blockade during general anaesthesia.
-> The TxGNN model flags a possible association with **Breast Fibrocystic Disease**, but this is one of the model's lowest-confidence output categories,
-> currently supported by **0 clinical trials** and **0 publications**, and the model's own generated rationale finds no plausible mechanistic link.
-
----
+Sugammadex is a modified gamma-cyclodextrin used to reverse the effect of steroidal neuromuscular blockers (rocuronium, vecuronium) after anesthesia.
+The TxGNN model predicts it may be effective for **breast fibrocystic disease**, but there are **0 clinical trials** and **0 publications** supporting this prediction.
+It is a model-only prediction with no identified mechanistic link.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Reversal of steroidal neuromuscular blocking agents (rocuronium/vecuronium) — inferred from evidence text; no formal Singapore label text available |
-| Predicted New Indication | Breast Fibrocystic Disease |
+| Original Indication | Reversal of rocuronium/vecuronium-induced neuromuscular blockade (the HSA license records provide no indication text) |
+| Predicted New Indication | Breast fibrocystic disease |
 | TxGNN Prediction Score | 98.49% |
-| Evidence Level | L5 |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 5 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for sugammadex is not available in DrugBank for this pack (DG002, High severity gap). However, evidence text collected across other candidate indications consistently describes sugammadex's known pharmacology: it is a modified γ-cyclodextrin that physically encapsulates and chelates steroidal neuromuscular blocking agents (rocuronium, vecuronium), inactivating them rather than acting on a receptor or enzyme system.
+Currently, detailed mechanism of action data is not available in the input. Based on known information, sugammadex works by encapsulating steroidal neuromuscular blockers, binding them tightly and removing them from the neuromuscular junction. Its proven use is anesthesia reversal.
 
-Breast fibrocystic disease is a hormonally-driven epithelial/stromal proliferative condition of the breast. There is no established pharmacological pathway connecting cyclodextrin-mediated drug encapsulation to hormonal or epithelial proliferation biology. The evidence pack's own repurposing rationale for this candidate states explicitly that the high TxGNN score reflects knowledge-graph embedding similarity rather than any mechanistic or clinical signal.
+This pathway has no known connection to benign breast tissue. Fibrocystic breast change is a hormone-responsive condition of breast tissue, and sugammadex does not act on that biology. The high score (0.985) is a graph-based signal only, so the prediction is **not mechanistically supported**.
 
-**Conclusion of this assessment**: the prediction is not currently mechanistically reasonable. It should be treated as a model-generated hypothesis requiring independent biological rationale before further investment, not as a validated repurposing signal.
-
----
+Several other breast-related predictions (apocrine adenosis, blunt duct adenosis, benign mammary dysplasia) share very similar or identical scores. This suggests one shared graph-neighbor artifact rather than independent signals.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Sugammadex currently has no product registrations in Singapore (0 licenses on file); the drug is classified as **Not Marketed** in this jurisdiction.
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN13812P | Bridion Solution For Injection 100mg/ml (N.V. Organon / Patheon Manufacturing Services LLC) | Solution for injection |
+| SIN16880P | Sugammadex Sandoz Solution For Injection 100mg/ml (Lek Pharmaceuticals) | Solution for injection |
+| SIN16933P | Sugammadex Scigen Solution For Injection 100mg/ml (Mefar İlaç Sanayii) | Solution for injection |
+| SIN16988P | Sugammadex Kabi Solution For Injection 100 mg/ml (Labesfal) | Solution for injection |
+| SIN16994P | Accodex Solution For Injection 100mg/ml (Steril-Gene Life Sciences) | Solution for injection |
 
----
+All five products are injectable only.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Note: HSA-equivalent label warnings/contraindications and DrugBank DDI data have not yet been retrieved for this drug (DG001, Blocking severity) — this gap must be closed before any safety-related decision (S1 stage) can proceed.
-
----
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This candidate has Evidence Level L5 (model prediction only — no clinical trials, no literature, no case reports of any kind for this specific indication), and the mechanistic rationale generated alongside the prediction explicitly finds no biological link between sugammadex's cyclodextrin-encapsulation mechanism and breast fibrocystic disease pathology. There is no basis to advance this candidate past initial screening.
+The prediction has no trials, no literature, and no plausible mechanism. An injectable anesthesia-reversal agent has no known role in a benign breast condition. The other top-ranked predictions (Prinzmetal angina, peripheral arterial disease, thrombotic disease, tendinitis, female breast carcinoma) are also unsupported, with all trials and publications reflecting perioperative use only.
 
 **To proceed, the following is needed:**
-- Close DG001 (HSA/TFDA-equivalent label warnings and contraindications) — currently a Blocking gap preventing any S1 safety evaluation
-- Close DG002 (confirmed DrugBank mechanism-of-action record) to formally document sugammadex's pharmacology
-- Independent literature or preclinical search specifically targeting sugammadex and breast/fibrocystic tissue biology, since none currently exists
-- If no mechanistic or clinical rationale emerges, deprioritize this candidate in favor of higher-evidence predictions in the same pack (e.g., rank 6 "thrombotic disease" and rank 10 "female breast carcinoma," which at least have L4-tier literature, though still requiring safety-focused rather than efficacy-focused interpretation)
+- HSA package insert warnings and contraindications (a blocking gap for any safety screening)
+- Detailed mechanism of action data from DrugBank
+- A biological hypothesis linking sugammadex to breast tissue, plus preclinical evidence
+- Confirmation that route and dosing could suit a chronic benign breast condition, since only injectable forms are registered
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -33,33 +33,40 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Fedratinib (brand name Inrebic) is a selective JAK2 inhibitor approved for the treatment of intermediate-2 or high-risk primary or secondary myelofibrosis.
-The TxGNN model predicts it may be effective for **Benign PEComa (Perivascular Epithelioid Cell Neoplasm)**,
-with **no clinical trials** and **no published literature** currently supporting this specific direction.
+Fedratinib is an oral JAK2-selective kinase inhibitor, registered in Singapore as INREBIC capsules. The TxGNN model predicts it may be effective for **benign PEComa** (and related conditions such as lymphangiomyoma), but **no clinical trials and no publications** currently support this direction. It is a model-only prediction.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Myelofibrosis (intermediate-2 or high-risk primary/secondary) |
+|------|------|
+| Original Indication | Myelofibrosis (general labelling knowledge; the supplied Singapore record and DrugBank entry list no indication text) |
 | Predicted New Indication | Benign PEComa |
 | TxGNN Prediction Score | 99.84% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not registered |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known pharmacological information, Fedratinib is a selective JAK2 inhibitor with secondary BRD4 inhibitory activity. Its proven efficacy in myelofibrosis stems from suppression of constitutive JAK2/STAT5 signalling — particularly in patients carrying the JAK2 V617F mutation or MPL/CALR alterations that drive aberrant cytokine receptor signalling.
+Detailed mechanism-of-action data is not available in the supplied record. Fedratinib is a JAK2-selective inhibitor, and it also has FLT3 and BRD4 activity. Its efficacy in its original setting, which is JAK/STAT-driven myeloproliferative disease, is established.
 
-Benign PEComa belongs to the perivascular epithelioid cell tumour family, which is primarily driven by inactivation of TSC1/TSC2, resulting in mTOR pathway hyperactivation. The clinically established treatment for mTOR-driven PEComas is mTOR inhibitors (e.g., everolimus). There is no direct preclinical evidence that Fedratinib's JAK2 or BRD4 inhibition meaningfully suppresses TSC/mTOR-mediated tumour proliferation.
+For the top-ranked prediction, the link is weak. PEComa and the related lymphangiomyoma and lymphangioleiomyomatosis are driven mainly by mTOR pathway hyperactivation (TSC1/TSC2 loss). Any connection to a JAK2 inhibitor would run through indirect JAK/STAT-mTOR crosstalk. The 99.84% score is a graph-based signal only.
 
-The high TxGNN prediction score most likely reflects shared co-morbidity nodes or tissue-level topological proximity within the knowledge graph rather than a direct mechanistic bridge. Until preclinical models in PEComa specifically demonstrate sensitivity to JAK2 or BRD4 inhibition, the biological plausibility of this repurposing hypothesis remains unestablished.
+Other predictions in the top 10 follow a similar pattern:
+
+| Predicted Disease | Score | Rationale | Assessment |
+|------|------|------|------|
+| Dermatofibrosarcoma protuberans | 99.80% | Driven by PDGFRB signalling. Fedratinib has no known PDGFR activity. | Weak link |
+| Rhabdoid tumor / familial rhabdoid tumor | 99.78% / 99.77% | Loss of SMARCB1. Fedratinib's BRD4 activity offers a loose epigenetic angle. | Speculative, unvalidated |
+| Familial Mediterranean fever | 99.75% | Pyrin inflammasome/IL-1 disease. JAK2 inhibition might dampen downstream cytokines. | Indirect |
+| Hemophagocytic lymphohistiocytosis (HLH), malignancy- or infection-associated | 99.74% | IFN-γ-driven hypercytokinemia signals through JAK1/2-STAT1, and JAK inhibition is a recognised concept in HLH. | **Most biologically plausible in the set** |
+
+The HLH rationale rests on JAK inhibitors as a class, not on fedratinib data. Fedratinib is JAK2-selective with less JAK1 activity, and it carries a Wernicke encephalopathy boxed warning, which is a concern in a critically ill population. For infection-associated HLH, the trigger must also be treated, which complicates any repurposing study design.
 
 ---
 
@@ -77,29 +84,31 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Fedratinib is not currently registered in Singapore. No product authorisations are on record.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN16617P | INREBIC CAPSULES 100 MG (Celgene International Sarl) | Capsule | Not stated in the supplied record |
+
+Fedratinib is available in Singapore only as an oral capsule.
 
 ---
 
 ## Cytotoxicity
 
-Fedratinib is a targeted anticancer agent indicated for myelofibrosis, a malignant haematological condition. It meets the criteria for antineoplastic classification.
-
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy (selective JAK2 / secondary BRD4 kinase inhibitor) |
-| Myelosuppression Risk | High — anaemia, thrombocytopenia, and neutropenia are dose-limiting toxicities; CBC monitoring required |
-| Emetogenicity Classification | Moderate — nausea and vomiting are commonly reported; anti-emetic prophylaxis is recommended |
-| Monitoring Items | CBC with differential (weekly for first 3 months, then monthly); liver function tests; renal function; **thiamine levels** before initiation and periodically thereafter (Wernicke's encephalopathy black-box warning) |
-| Handling Protection | Handle as a cytotoxic oral agent per institutional cytotoxic drug handling guidelines |
+|------|------|
+| Cytotoxicity Classification | Targeted therapy (kinase inhibitor), not a conventional cytotoxic |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions. Cytopenias are a recognised concern with JAK inhibitors. |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Full blood count, liver and renal function, and neurological status (given the Wernicke encephalopathy warning) |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Key Warnings**: The predictions record a Wernicke encephalopathy boxed warning for fedratinib. This is especially relevant in critically ill populations such as HLH.
 
-> **Critical note from evidence pack**: Fedratinib carries a **black-box warning for Wernicke's encephalopathy** (thiamine deficiency-associated). This risk is particularly relevant when considering use in malnourished or hypermetabolic patients. Thiamine status must be assessed and corrected before initiating treatment.
+The full warnings and contraindications from the Singapore package insert were not available. Please refer to the package insert for complete safety information.
 
 ---
 
@@ -108,14 +117,17 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-Despite a high TxGNN prediction score (99.84%), the mechanistic link between Fedratinib (a JAK2/BRD4 inhibitor) and benign PEComa (an mTOR-driven tumour) is indirect and speculative, with no supporting clinical trials, literature, or preclinical data. An established standard of care (mTOR inhibitors) already exists for this indication.
+The predictions rest on model scores alone, with no trials or publications (L5). The mechanistic links to the top-ranked mTOR-driven diseases are indirect and speculative. HLH is the only prediction with a credible class-level rationale, and it can be kept as a research question rather than a candidate for development.
 
 **To proceed, the following is needed:**
-- Preclinical studies in PEComa cell lines or TSC-null tumour models to determine whether JAK2 or BRD4 inhibition has any effect on mTOR-driven proliferation
-- Full MOA and kinase selectivity profile from DrugBank to identify any secondary targets relevant to PEComa biology
-- Regulatory strategy assessment: Fedratinib is currently unregistered in Singapore; a regulatory pathway would need to be identified before any clinical development
-- Thiamine monitoring protocol to be built into any clinical or compassionate-use plan given the black-box warning
-- **Priority note**: Consider evaluating HLH-associated indications (ranks 8–9 in this report, evidence level L4) as a nearer-term repurposing opportunity, given class-effect support from ruxolitinib (JAK1/2) in the same pathway
+- HSA package insert warnings and contraindications (a blocking gap for safety screening)
+- Detailed mechanism-of-action data (for example, from DrugBank)
+- Preclinical or clinical evidence specific to fedratinib in HLH, or in PEComa/LAM if mTOR-JAK/STAT crosstalk is to be pursued
+- A safety assessment of the Wernicke encephalopathy risk in the target population
+
+---
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

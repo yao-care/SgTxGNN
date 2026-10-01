@@ -29,82 +29,85 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-Using the drug-repurposing evaluation report template to produce the report from the supplied Evidence Pack.
-
----
-
-# Ruxolitinib: From an Undetermined Original Indication to Uterine Corpus Perivascular Epithelioid Cell Tumor (PEComa)
+# Ruxolitinib: From Myeloproliferative Neoplasms to Uterine Corpus Perivascular Epithelioid Cell Tumor
 
 ## One-Sentence Summary
 
-> Ruxolitinib is a JAK1/2 inhibitor; its original approved indication cannot be confirmed from this Evidence Pack because regulatory license data and mechanism-of-action (MOA) records are both flagged as data gaps.
-> The TxGNN model's top-ranked prediction is **Uterine Corpus Perivascular Epithelioid Cell Tumor (PEComa)**,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a model-only signal.
-
----
+Ruxolitinib is an oral JAK1/2 inhibitor marketed in Singapore as Jakavi, and is generally used for myeloproliferative neoplasms. The registered indication text is not included in the supplied record.
+The TxGNN model predicts it may be effective for **uterine corpus perivascular epithelioid cell tumor (PEComa)**, but there are currently **0 clinical trials** and **0 publications** supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no Singapore license records exist, and MOA is flagged as a data gap (DG002) |
-| Predicted New Indication | Uterine Corpus Perivascular Epithelioid Cell Tumor (PEComa) |
+| Original Indication | Myeloproliferative neoplasms (general knowledge of the drug; not stated in the supplied HSA record) |
+| Predicted New Indication | Uterine corpus perivascular epithelioid cell tumor |
 | TxGNN Prediction Score | 99.73% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 4 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (data gap DG002). Based on general pharmacological knowledge, ruxolitinib is a JAK1/2 inhibitor that blocks JAK-STAT signal transduction; however, without a confirmed original indication in this Evidence Pack, its established efficacy baseline cannot be independently verified here.
+Detailed mechanism of action data is not available in the supplied record. Ruxolitinib is known as a JAK1/2 inhibitor, and it dampens JAK-STAT-dependent cytokine signaling.
 
-The rationale provided alongside this prediction actively argues against strong mechanistic plausibility: PEComa (perivascular epithelioid cell tumor) is understood to be driven predominantly by **TSC1/TSC2 mutations activating the mTOR pathway**, not by JAK-STAT signaling. The evidence pack's own annotation states that the high TxGNN score likely arises from indirect knowledge-graph connections to other tumor/hematologic-malignancy nodes, rather than from a direct, validated molecular link between JAK inhibition and PEComa biology.
+PEComa is mainly driven by loss of TSC1/TSC2 and hyperactivation of mTOR. The supplied data shows no direct link between this biology and JAK1/2 inhibition. The high graph score probably reflects shared neighbors among PEComa-family diseases in the knowledge graph rather than a demonstrated mechanism. No trials or literature were found.
 
-Given the absence of any clinical trials or literature for this specific indication, and a stated mechanistic mismatch, this prediction should be treated as exploratory only. Notably, other indications within this same evidence pack — particularly infection-associated hemophagocytic syndrome (rank 9, evidence level L2) — show substantially stronger mechanistic and clinical support for ruxolitinib repurposing and may warrant prioritized review instead.
-
----
+This prediction should therefore be treated as a computational signal only. It is not supported by mechanistic or clinical evidence.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Ruxolitinib currently has **no registered product license in Singapore** (market status: Not Marketed; total licenses: 0). No authorization records are available for this section.
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN14927P | JAKAVI TABLET 10MG | Tablet |
+| SIN14398P | JAKAVI TABLET 20MG | Tablet |
+| SIN14397P | JAKAVI TABLET 15MG | Tablet |
+| SIN14396P | JAKAVI TABLET 5MG | Tablet |
 
----
+All four registrations are oral tablets from Novartis Pharma Stein AG.
+
+## Cytotoxicity
+
+Ruxolitinib is a targeted kinase inhibitor, not a conventional cytotoxic agent. The details below come from general knowledge of the drug, not from the supplied record.
+
+| Item | Content |
+|------|------|
+| Cytotoxicity Classification | Targeted therapy (JAK1/2 inhibitor) |
+| Myelosuppression Risk | Medium (thrombocytopenia, anaemia and neutropenia are recognised effects) |
+| Emetogenicity Classification | Low |
+| Monitoring Items | CBC with platelet count, liver and renal function; please also refer to the package insert |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-*(Note: key warnings, contraindications, and drug-drug interaction data are all flagged as data gaps in this Evidence Pack — most notably DG001, a "Blocking" severity gap for TFDA label warnings/contraindications, which currently prevents a full safety pre-assessment.)*
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked predicted indication (PEComa) has no supporting clinical trials or literature, and the stated mechanistic rationale directly questions its biological plausibility (mTOR-driven pathology vs. JAK-STAT inhibition). Combined with a Blocking-severity data gap on TFDA safety labeling, this candidate does not meet the threshold to advance.
+The prediction is model-only (L5) with a high score but no trials, no literature and no plausible JAK-related mechanism for a TSC/mTOR-driven tumor. It is not suitable to advance as it stands.
+
+Other candidates in the same prediction set are better supported:
+- **Infection-associated hemophagocytic syndrome (L3):** two registered trials, a Phase 3 trial with unknown status and a Phase 1 trial not yet recruiting, plus a coherent JAK1/2 cytokine-suppression rationale.
+- **Liposarcoma (L4):** preclinical data link myxoid liposarcoma to JAK-STAT signaling and chemotherapy resistance.
 
 **To proceed, the following is needed:**
-- Resolve DG001 (TFDA label warnings/contraindications) before any safety pre-assessment (S1) can begin
-- Resolve DG002 (confirmed MOA) to properly evaluate mechanistic fit for any candidate indication
-- Obtain preclinical or clinical evidence directly testing JAK1/2 inhibition in PEComa/TSC-mTOR–driven tumors before further pursuing this specific prediction
-- Consider redirecting review priority toward higher-evidence candidates already present in this same pack — particularly **infection-associated hemophagocytic syndrome** (L2, Proceed with Guardrails, supported by a completed Phase 3 RCT design) and **myxoid liposarcoma** (L4, mechanistic literature via FUS-DDIT3/STAT3 activation)
+- Registered indication text and package insert warnings and contraindications for the Singapore products
+- Detailed mechanism of action data
+- Any direct preclinical or clinical evidence linking JAK inhibition to PEComa; otherwise, prioritise the better-supported candidates above
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -29,89 +29,69 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Malathion: From Head Lice/Scabies External Parasiticide to Seborrheic Keratosis Prediction
+# Malathion: From Head Lice to Seborrheic Keratosis
 
-## One-line Summary
+## One-Sentence Summary
 
-Malathion is an organophosphate acetylcholinesterase inhibitor, and its currently known clinical uses are as an external parasiticide used to treat head lice (pediculosis capitis) and scabies infections. The TxGNN model predicts that it may be effective for **seborrheic keratosis**, but currently **no clinical trials exist**, **no related literature exists** to support this direction, and the evidence package's own mechanistic analysis also indicates **no reasonable biological linkage** between the two.
-
----
+Malathion is an organophosphate topical pediculicide/scabicide, and its only Singapore product is a 0.5% lotion for lice.
+The TxGNN model predicts it may be effective for **seborrheic keratosis**, but **0 clinical trials** and **0 publications** support this prediction.
+The high score most likely reflects knowledge-graph proximity between topical skin agents and skin conditions, not biological rationale.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No record in Taiwan regulatory data (`taiwan_regulatory.licenses`), drug not marketed; based on known pharmacological uses, Malathion is an external parasiticide, clinically used for parasiticide/mite-killing treatment of head lice and scabies |
-| Predicted New Indication | Seborrheic Keratosis |
+|------|------|
+| Original Indication | Head lice (inferred from the product name "Lice Care Lotion" and the drug class; the registry record does not state an indication) |
+| Predicted New Indication | Seborrheic keratosis |
 | TxGNN Prediction Score | 96.45% |
-| Evidence Level | L5 (Model prediction only, no clinical trials or literature evidence) |
-| Taiwan Market Status | Not marketed |
-| Number of Licenses | 0 |
-| Recommended Decision | Hold (Suspend) |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
+| Recommended Decision | Hold |
 
----
+## Why is This Prediction Reasonable?
 
-## Why Is This Prediction Reasonable?
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Malathion is known as an organophosphate acetylcholinesterase inhibitor. It paralyses and kills lice and scabies mites when applied to the skin.
 
-Currently no formal mechanism of action (MOA) data is available for consultation (`original_moa` is a data gap, High priority). Based on known pharmacological information, Malathion is an organophosphate compound that achieves insecticidal effects by inhibiting acetylcholinesterase (AChE), and is used clinically as an external formulation for the treatment of head lice and scabies infections.
+This mechanism does not connect to seborrheic keratosis, a benign epidermal growth. Malathion has no known action on keratinocyte proliferation or benign epidermal tumours. The high TxGNN score is therefore best read as a graph-proximity artifact, not a plausible therapeutic link.
 
-However, regarding the target indication for this prediction—"seborrheic keratosis"—the mechanistic analysis attached to the evidence package clearly indicates: seborrheic keratosis is a benign epithelial proliferative lesion whose pathological mechanism is primarily related to mutations in genes such as FGFR3 and PIK3CA, as well as keratinocyte proliferation, **and there is no known biological association between this and AChE inhibition or parasiticide activity**.
-
-In other words, this prediction **currently lacks mechanistic plausibility**, and is more likely an associational artifact in the knowledge graph due to node proximity effects (for example, proximity to other keratinization-related lesion nodes) rather than a genuine drug repurposing signal with pharmacological basis. This point is further reinforced in the evidence package's analysis of subsequent candidate indications ranking second (vulvar inverted follicular keratosis) and beyond, supporting this judgment further.
-
----
+The other nine predictions show the same pattern. They include vulvar inverted follicular keratosis, seborrheic dermatitis, mycotic corneal ulcer, anogenital HPV infection and several benign breast conditions. All are rated Hold. Seborrheic dermatitis has one case report, but it describes scalp scabies mimicking the condition, so the link is diagnostic confusion, not treatment.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trial registrations exist.
-
-(Query records show that for the combination of Malathion + Seborrheic Keratosis, separate queries of ClinicalTrials.gov and ICTRP both returned zero results.)
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature can be found.
+Currently no related literature available.
 
-(PubMed query for the combination of Malathion + Seborrheic Keratosis returned zero results.)
+## Singapore Market Information
 
-> Supplementary note: The evidence package's third-ranked candidate indication, "seborrheic dermatitis," yielded 1 related literature result (PMID: [24126752](https://pubmed.ncbi.nlm.nih.gov/24126752/)), but the literature's subject is a case of **clinical presentation differential diagnosis confusion** between scalp scabies infection and seborrheic dermatitis, not "mechanistic evidence that Malathion has therapeutic efficacy for seborrheic dermatitis," and therefore does not constitute supporting literature for this report's primary target (seborrheic keratosis).
-
----
-
-## Taiwan Market Information
-
-Malathion is currently **not marketed in Taiwan**, with zero license registrations, and `taiwan_regulatory.licenses` contains no authorization records available for listing.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN09320P | LICE CARE LOTION 0.5% w/v (ICM Pharma Pte. Ltd.) | Emulsion | Not stated in the registry record |
 
 ## Safety Considerations
 
-For safety information, please refer to the drug package insert.
+Please refer to the package insert for safety information.
 
-(Currently `key_warnings`, `contraindications`, and drug-drug interaction (DDI) queries all lack available data; DDI query status is "no records found.")
+Drug-interaction search returned no records. The Evidence Pack also flags two concerns for specific predicted sites:
+- Ocular exposure to organophosphates can cause miosis, irritation and cholinergic effects, which argues against corneal use.
+- Application to vulvar or anogenital mucosa raises irritation and systemic absorption concerns.
 
----
+## Conclusion and Next Steps
 
-## Conclusions and Recommendations for Follow-up
-
-**Decision: Hold (Suspend)**
+**Decision: Hold**
 
 **Rationale:**
-- The top-ranked predicted indication (seborrheic keratosis) currently has **zero clinical trials and zero literature support**, and the evidence package's internal mechanistic analysis has already clearly indicated there is no known biological linkage between the two, suggesting this score may derive from knowledge graph node proximity effects rather than genuine pharmacological signals.
-- Evidence level is L5 (model prediction only), the lowest among five levels.
-- The drug is currently not marketed in Taiwan (number of licenses = 0), and **package insert warning/contraindication data is missing (DG001, Blocking level)**—this is a prerequisite for preliminary safety evaluation (S1), currently unable to pass.
+The prediction has no supporting trials or literature and no plausible mechanism. The current evidence base is model output only (L5), so the drug should not advance to safety screening for this indication.
 
-**To proceed further, the following must be supplemented:**
-- TFDA package insert warnings and contraindication data (DG001, Blocking, requires downloading and parsing official package insert PDF)
-- Complete mechanism of action (MOA) data for Malathion (DG002, requires querying the DrugBank API)
-- Independent in vitro/in vivo mechanistic studies specifically for seborrheic keratosis as an indication, to verify or refute the current preliminary judgment of "no reasonable mechanism"
-- If mechanistic verification passes, re-evaluation of regulatory approval pathway feasibility in Taiwan/Singapore is required
-
----
-
-*Candidate indications ranking 2–10 (vulvar inverted follicular keratosis, seborrheic dermatitis, mycotic corneal ulcer, inherited skin tumor, anogenital HPV infection, breast fibrocystic disease, benign mammary dysplasia, blunt duct adenosis of breast, apocrine adenosis of breast) all belong to L5 evidence level, recommended Hold status, and the evidence package mechanistic analyses all indicate no reasonable biological linkage or knowledge graph associational artifacts; individual expansion is temporarily not pursued.*
-
+**To proceed, the following is needed:**
+- The Singapore package insert (warnings, contraindications and approved indication), which is a blocking gap for safety screening
+- Mechanism of action data from DrugBank
+- A biologically plausible rationale linking malathion to keratinocyte or benign epidermal lesion pathology
+- Any preclinical or clinical study for seborrheic keratosis
+- A route and formulation compatibility assessment
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

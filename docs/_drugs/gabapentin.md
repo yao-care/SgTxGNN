@@ -29,35 +29,33 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Gabapentin: From Partial Seizures / Neuropathic Pain to Acne
+# Gabapentin: From Epilepsy to Acne
 
 ## One-Sentence Summary
 
-Gabapentin is a well-established antiepileptic and neuropathic pain drug, widely known for its adjunctive use in partial seizures and postherpetic neuralgia via α2δ calcium channel binding. The TxGNN model predicts it may be effective for **Acne (disease)** as the top-ranked new indication (score: 98.46%), with **0 clinical trials** and **1 tangentially related case report** currently identified, providing essentially no evidentiary support for this repurposing direction.
+Gabapentin is an alpha2-delta calcium channel ligand, used mainly as an antiseizure drug and for neuropathic pain. The TxGNN model predicts it may be effective for **acne**, with a high score of 98.5%. However, there are **0 clinical trials** and only **1 publication** (a case report of unclear relevance), so this is a model prediction only.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not available from Singapore registry; widely known for: partial seizures (adjunctive), postherpetic neuralgia |
-| Predicted New Indication | Acne (disease) |
+|------|------|
+| Original Indication | Partial seizures (from published literature; the Singapore licence records supplied no indication text) |
+| Predicted New Indication | Acne |
 | TxGNN Prediction Score | 98.46% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 14 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the Evidence Pack. Based on widely established pharmacological knowledge, Gabapentin binds to the α2δ-1 and α2δ-2 auxiliary subunits of presynaptic voltage-gated calcium channels, reducing calcium influx and subsequent release of excitatory neurotransmitters such as glutamate. This mechanism underpins its clinical efficacy in suppressing neuronal hyperexcitability in epilepsy and in attenuating central sensitisation in neuropathic pain states.
+Detailed mechanism of action data is not available in the source record. From the literature, gabapentin binds the alpha2-delta subunit of voltage-gated calcium channels and reduces excitatory neurotransmitter release. This underlies its antiseizure and neuropathic pain effects.
 
-The predicted new indication — acne — presents a substantial mechanistic gap. Acne pathology involves four core drivers: sebaceous gland hypersecretion (androgen-mediated), follicular hyperkeratosis, *Cutibacterium acnes* colonisation, and cutaneous innate immune inflammation. None of these processes are known to be modulated by voltage-gated calcium channel α2δ subunit inhibition. There is no established biological pathway connecting Gabapentin's primary mechanism to sebum production, keratinocyte differentiation, or dermal bacteriostasis.
-
-The high TxGNN score (0.9846) most likely reflects a distant, indirect linkage within the knowledge graph — potentially through shared nodes in neurogenic skin inflammation or general inflammatory cascades — rather than a direct and actionable therapeutic rationale. In the absence of any preclinical model data or clinical signal, this prediction is considered a knowledge-graph artefact and cannot currently be regarded as biologically plausible.
+That mechanism has no established role in acne, which is driven by sebum production, follicular keratinisation, *Cutibacterium acnes* and inflammation. The high TxGNN score is therefore not supported by a plausible mechanistic link in the available data. The score should be treated as a hypothesis-generating signal, not as evidence of efficacy.
 
 ---
 
@@ -70,14 +68,22 @@ Currently no related clinical trials registered.
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [22278969](https://pubmed.ncbi.nlm.nih.gov/22278969/) | 2012 | Case Report | Arthritis Care & Research | Case of a swollen painful toe in a young man — clinical context involves Gabapentin and tophaceous gout, with no relevance to acne pathology or dermatological use |
+|------|-----|------|------|---------|
+| [22278969](https://pubmed.ncbi.nlm.nih.gov/22278969/) | 2012 | Case report | Arthritis Care & Research | "Unusual case of a swollen painful toe in a young man." No abstract is available, and the title does not indicate any link to acne or gabapentin efficacy. |
 
 ---
 
 ## Singapore Market Information
 
-Gabapentin is currently not registered in Singapore. No marketing authorisation records are available.
+There are 14 registrations in total. The five main authorizations are listed below. No approved-indication text was provided for these products.
+
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN12638P | PMS-GABAPENTIN CAPSULE 100 mg | Capsule |
+| SIN16698P | ALPENTIN CAPSULE 100MG | Capsule |
+| SIN17166P | GRALISE EXTENDED RELEASE TABLETS 300 MG | Tablet, extended release |
+| SIN08302P | NEURONTIN CAPSULE 400 mg | Capsule |
+| SIN08303P | NEURONTIN CAPSULE 300 mg | Capsule |
 
 ---
 
@@ -92,13 +98,16 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-There is no established mechanistic connection between Gabapentin's α2δ calcium channel pharmacology and the pathophysiology of acne, and the sole identified literature record is entirely unrelated to this indication. The TxGNN high score appears to reflect a remote knowledge graph linkage rather than genuine repurposing potential.
+The acne prediction has a high model score but no clinical trials, no supporting literature and no plausible mechanistic link. Evidence is at L5 (model prediction only), so there is no basis to advance it.
 
 **To proceed, the following is needed:**
-- Preclinical evidence (in vitro or animal model) demonstrating any biological connection between α2δ calcium channel modulation and sebaceous gland function, keratinocyte proliferation, or acne-related inflammation
-- Full MOA data from DrugBank to identify any secondary mechanisms (e.g., anti-inflammatory, anti-androgenic) that could provide a plausible bridge to acne pathophysiology
-- Singapore regulatory pathway assessment for Gabapentin registration, should future evidence emerge
-- Safety profile documentation including TFDA package insert warnings, contraindications, and drug interaction data before any clinical development can be initiated
+- Singapore package insert warnings and contraindications, which are currently missing and block safety screening
+- Detailed mechanism of action data, plus a rationale for how alpha2-delta modulation could affect acne
+- Any preclinical or clinical study of gabapentin in acne
+
+**Other candidates in this pack that are better supported than acne:**
+- **Myofascial pain syndrome (rank 4, L2):** it has a randomized controlled trial in chronic masticatory muscle pain ([PMID 17030096](https://pubmed.ncbi.nlm.nih.gov/17030096/)) and a completed Phase 3 fibromyalgia trial ([NCT01107574](https://clinicaltrials.gov/study/NCT01107574)). Evidence specific to myofascial pain syndrome is still limited.
+- **Epilepsy with generalized tonic-clonic seizures (rank 3, L4):** the mechanism is plausible, but no subtype-specific efficacy evidence is provided.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -29,96 +29,76 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Larotrectinib: From NTRK Gene Fusion-Positive Solid Tumors to Multiple Endocrine Neoplasia
+# Larotrectinib: From NTRK Fusion-Positive Solid Tumours to Multiple Endocrine Neoplasia
 
 ## One-Sentence Summary
 
-Larotrectinib is a highly selective pan-TRK (NTRK1/2/3) kinase inhibitor, globally approved as a tissue-agnostic therapy for NTRK gene fusion-positive solid tumors (not currently registered in Taiwan). The TxGNN model predicts it may be effective for **Multiple Endocrine Neoplasia**, but this direction is currently supported by only **1 clinical trial** (an indirectly-relevant basket trial) and **2 publications** (neither evaluating larotrectinib itself) — the underlying mechanistic pathway (RET) differs from larotrectinib's actual target (NTRK), so this is a low-confidence, model-only signal rather than an evidence-backed lead.
-
----
+Larotrectinib is a selective TRK inhibitor (NTRK1/2/3) that is marketed in Singapore as VITRAKVI. The TxGNN model predicts it may be effective for **multiple endocrine neoplasia (MEN)**. Support is weak: **1 large basket trial** that is not MEN-specific and **2 publications** that concern other targets or general thyroid cancer therapy.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | NTRK gene fusion-positive solid tumors (tissue-agnostic; global label — not registered in Taiwan) |
-| Predicted New Indication | Multiple Endocrine Neoplasia |
+| Predicted New Indication | Multiple endocrine neoplasia |
 | TxGNN Prediction Score | 99.24% |
 | Evidence Level | L4 |
-| Taiwan Market Status | ✗ Not Marketed (Not marketed) |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 3 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for larotrectinib is not available in this evidence pack (flagged as a High-severity data gap). Based on what is known from the supporting evidence itself, larotrectinib is a selective inhibitor of the TRKA/B/C proteins encoded by the NTRK1/2/3 genes, and its approved use is restricted to tumors carrying an NTRK gene fusion, regardless of tumor site of origin.
+Detailed mechanism of action data is not available in the source record. Larotrectinib is known to be a selective inhibitor of the TRK kinases (NTRK1, NTRK2, NTRK3), which are the targets in NTRK fusion-positive tumours.
 
-Multiple Endocrine Neoplasia (particularly MEN2, which includes medullary thyroid carcinoma) is driven almost exclusively by germline **RET** mutations — a genetically and pharmacologically distinct kinase target from NTRK. Larotrectinib has no reported direct inhibitory activity against RET. The two literature citations retrieved for this pairing (PMID 31322645, PMID 38438731) both discuss RET-targeted agents (selpercatinib, pralsetinib) and kinase-inhibitor classes used in thyroid cancer broadly — they support the biology of RET-driven disease, not any direct pharmacological link to larotrectinib.
+The link to MEN is weak. MEN is mainly driven by RET activation (MEN2) or loss of the MEN1 gene, not by TRK signalling. The only plausible connection is that some thyroid and other endocrine tumours can carry NTRK fusions. Any benefit would therefore be limited to NTRK fusion-positive tumours and would not extend to MEN in general.
 
-The most plausible explanation for this prediction is that the TxGNN model's knowledge-graph embeddings place NTRK and RET close together because both are receptor tyrosine kinases frequently discussed in the same thyroid-cancer treatment context, rather than reflecting a real drug-mechanism-to-disease relationship. This should be treated as a hypothesis-generating signal only, not as evidence of clinical activity.
-
----
+The retrieved literature concerns RET inhibitor resistance, which is a different target. The very high TxGNN score (0.99) is not supported by the target biology.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT02465060](https://clinicaltrials.gov/study/NCT02465060) | Phase 2 | Active, Not Recruiting | 6,452 | NCI-MATCH — a multi-arm, genomically-driven basket trial for refractory solid tumors, lymphomas, and multiple myeloma. The larotrectinib arm enrolls only NTRK-fusion-positive tumors; patients are not selected by a Multiple Endocrine Neoplasia diagnosis, so relevance to this specific indication is indirect (evidence-pack relevance grade: C). |
-
----
+| [NCT02465060](https://clinicaltrials.gov/study/NCT02465060) | Phase 2 | Active, not recruiting | 6452 | NCI-MATCH: a genetically guided basket platform for advanced, refractory solid tumours, lymphomas and myelomas. It is not randomised, has no MEN-specific cohort, and no larotrectinib arm is shown in the data. |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31322645](https://pubmed.ncbi.nlm.nih.gov/31322645/) | 2019 | Review | Endocrine Reviews | Reviews kinase inhibitors (vandetanib, cabozantinib, sorafenib, lenvatinib, dabrafenib/trametinib, and RET-selective agents) approved for advanced thyroid cancer; does not evaluate larotrectinib or MEN directly. |
-| [38438731](https://pubmed.ncbi.nlm.nih.gov/38438731/) | 2024 | Review/Case report | NPJ Precision Oncology | Describes acquired resistance mechanisms to RET inhibitors (selpercatinib) in RET-driven medullary thyroid carcinoma, a manifestation of MEN2; informative on RET biology but does not study larotrectinib. |
-
----
+| [31322645](https://pubmed.ncbi.nlm.nih.gov/31322645/) | 2019 | Review | Endocrine Reviews | Reviews kinase inhibitors for advanced thyroid cancer, including mutation-specific indications. It gives general context and does not test larotrectinib in MEN. |
+| [38438731](https://pubmed.ncbi.nlm.nih.gov/38438731/) | 2024 | Preclinical/Mechanistic | NPJ Precision Oncology | Case-based analysis of off-target resistance to the RET inhibitor selpercatinib in medullary thyroid carcinoma. It concerns RET, not TRK. |
 
 ## Singapore Market Information
 
-Larotrectinib currently has **no registered product license** in the Taiwan regulatory dataset used for this evaluation (market status: Not marketed / Not Marketed, 0 total licenses). No authorization, product name, dosage form, or approved indication text is available to tabulate.
-
----
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN16827P | VITRAKVI ORAL SOLUTION 20MG/ML | Solution | PCI (Penn Pharmaceutical Services Ltd.), Tredegar |
+| SIN15991P | VITRAKVI HARD CAPSULE 100MG | Capsule | Penn Pharmaceutical Services Limited; NextPharma Ploermel |
+| SIN15992P | VITRAKVI HARD CAPSULE 25MG | Capsule | Penn Pharmaceutical Services Limited; NextPharma Ploermel |
 
 ## Cytotoxicity
 
-Larotrectinib is an antineoplastic agent (targeted small-molecule kinase inhibitor used in oncology), so this section applies.
-
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (selective pan-TRK / NTRK kinase inhibitor) — not a conventional cytotoxic chemotherapeutic |
-| Myelosuppression Risk | Not directly established in this evidence pack. Note: the rank-10 prediction in this same pack flags thrombocytopenia as a *possible class-related adverse effect* of kinase inhibitors (including larotrectinib), not a treatable indication — this is an important causality-direction caveat, not efficacy evidence |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Standard kinase-inhibitor monitoring is reasonable pending label confirmation: CBC with differential, liver function, renal function |
-| Handling Protection | Oral targeted agent; standard oncology-drug handling precautions apply, but confirm against the official package insert since TFDA labeling data is currently unavailable (blocking data gap) |
+| Cytotoxicity Classification | Targeted therapy (TRK kinase inhibitor) |
 
----
+Please refer to the package insert warnings and precautions for myelosuppression risk, emetogenicity, monitoring items and handling requirements.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Key warnings, contraindications, and drug-drug interaction data are not currently available for larotrectinib in this evidence pack (DrugBank DDI query returned "not found"; TFDA label warnings/contraindications are recorded as a **Blocking** data gap, DG001).
-
----
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The mechanistic basis is weak: Multiple Endocrine Neoplasia (MEN2) is driven by RET mutations, while larotrectinib selectively targets NTRK — a different kinase pathway. Supporting evidence (1 indirectly-relevant basket trial, 2 reviews not studying larotrectinib) does not establish a direct drug-disease link, consistent with the evidence pack's own S0/Hold classification.
-- Safety evaluation cannot proceed to a Stage 1 review because the TFDA label (warnings/contraindications) is a **Blocking** data gap (DG001), and larotrectinib is not currently marketed in Taiwan.
+The prediction rests on a model score alone. The only trial is a broad basket platform with no MEN-specific data, and MEN is driven by RET or MEN1 rather than TRK. Larotrectinib's activity in NTRK fusion-positive solid tumours is supported by a separate completed Phase 2 basket trial (NCT02576431, n=215), which was retrieved under another predicted indication, progesterone-receptor negative breast cancer (rank 6). That trial does not support MEN specifically.
 
 **To proceed, the following is needed:**
-- Larotrectinib package insert / TFDA label (warnings, contraindications, DDI) — currently blocking
-- Confirmed mechanism-of-action documentation (DrugBank API or equivalent) — currently a High-severity gap
-- Preclinical or mechanistic studies directly testing NTRK-pathway involvement in MEN2/RET-driven disease, since none currently exist
-- A trial or case series enrolling patients by MEN diagnosis (rather than by NTRK-fusion status) before this candidate can be considered for Stage 1 advancement
-
-**Data quality note:** This evidence pack's other ranked candidates (ranks 2–10) include predictions the pipeline itself has flagged as low-value or erroneous — e.g., two veterinary diseases (malignant catarrh, infectious bovine rhinotracheitis) that appear to be cross-species ontology noise, a "breast tumor luminal A or B" candidate whose 19 retrieved articles are keyword-polluted matches to "B cell"/"Hepatitis B" content unrelated to breast cancer subtyping, and a "thrombocytopenia" candidate that is more plausibly a known adverse effect than a treatable indication. None of these should be advanced without a pipeline/data-source review.
+- Evidence of NTRK fusions in MEN-associated or other endocrine tumours, and any MEN-specific cohort results from NCI-MATCH
+- Mechanism of action data
+- Package insert warnings and contraindications (a blocking gap for safety screening)
+- Approved indication text for the Singapore registrations
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

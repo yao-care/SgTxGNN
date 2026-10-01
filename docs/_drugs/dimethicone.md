@@ -29,82 +29,72 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dimethicone: From Skin Protectant / Antifoaming Agent to Insomnia
+# Dimethicone: From Antifoaming Agent to Insomnia
 
 ## One-Sentence Summary
 
-Dimethicone (DB11074) is an inert silicone polymer widely used as a topical skin barrier protectant and gastrointestinal antifoaming agent; no approved therapeutic indication is documented in the Singapore regulatory database.
-The TxGNN model predicts it may be effective for **Insomnia**, with a prediction score of **94.35%** —
-however, **no supporting clinical trials or literature** for this indication exist, and the mechanistic rationale is absent. This prediction is assessed as a likely knowledge-graph artifact rather than a genuine biological signal.
-
----
+Dimethicone is a silicone that is not absorbed into the body. It is used orally as an antifoaming agent and topically as a skin protectant.
+The TxGNN model predicts it may be effective for **Insomnia**, but only **1 clinical trial** was retrieved, and it is unrelated to sleep. There are **0 publications**, so this prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No approved indication on record (Singapore: not marketed) |
+|------|------|
+| Original Indication | No approved indication text in the registration records; described as an oral antifoaming agent and topical skin protectant |
 | Predicted New Indication | Insomnia |
 | TxGNN Prediction Score | 94.35% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | **Hold** |
-
----
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 19 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for Dimethicone (DB11074). Based on known pharmaceutical information, Dimethicone is a polydimethylsiloxane (PDMS) silicone polymer that functions as a **physical barrier agent and antifoaming agent**. It is chemically inert and pharmacologically passive — it does not bind to receptors, inhibit enzymes, or modulate signalling pathways in any known therapeutic sense.
+Currently, detailed mechanism of action data is not available. Dimethicone (polydimethylsiloxane) is a largely non-absorbed, physiologically inert silicone. It has no known activity on the central nervous system or on sleep regulation.
 
-Insomnia involves complex central neurological pathways including GABAergic signalling, adenosine receptor modulation, and the melatonin circadian system. Dimethicone has no known intersection with any of these pathways. The high TxGNN score (94.35%) is most likely attributable to an indirect knowledge-graph traversal artifact — a plausible but biologically unsupported path such as "skin barrier → comfort → sleep quality" — rather than a direct pharmacological mechanism.
+No plausible mechanistic link to insomnia was identified. The high TxGNN score is most likely an artifact of the knowledge-graph topology, not a real pharmacological signal.
 
-The one clinical trial retrieved (NCT04872946) assessed skin health and inner wellness using a topical/oral skin care regimen that included Dimethicone as a formulation excipient. This trial has no relevance to insomnia as a primary indication and does not constitute evidence of therapeutic activity against sleep disorders.
-
----
+The same pattern appears in the other predictions. Ranks 2–10 are mostly cataract types, plus severe non-proliferative diabetic retinopathy. Each has no trials or literature, and none has a pharmacological rationale. Silicone oil is used in the eye only as a surgical tamponade or device material. Silicone oil is also associated with causing cataract, not treating it.
 
 ## Clinical Trial Evidence
 
-> ⚠️ The single trial retrieved is rated **Grade C (not relevant)** — Dimethicone was used as a topical cosmetic/skin care ingredient, and insomnia was not a study endpoint.
-
 | Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT04872946](https://clinicaltrials.gov/study/NCT04872946) | NA | Completed | 74 | Assessed oral + topical skin care regimen (Inner Calm + Super Calm) for skin redness and sensitivity. No insomnia endpoints. Dimethicone appears as a formulation component, not as an active drug for sleep disorders. **Not supportive evidence.** |
-
----
+|---------|------|------|------|---------|
+| [NCT04872946](https://clinicaltrials.gov/study/NCT04872946) | N/A | Completed | 74 | Oral supplement plus topical product for skin appearance and sensitivity. It did not enroll people with insomnia or measure sleep outcomes, so it is not relevant to this indication. |
 
 ## Literature Evidence
 
-Currently no related literature available for Dimethicone in the treatment of insomnia.
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Dimethicone (DB11074) has **no registered products** in Singapore. No authorization records are available.
+19 registrations exist in total. The first 5 are listed below. The registration records contain no approved indication text.
 
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN09136P | RIDWIND BABY DROP | Emulsion | Not stated in record |
+| SIN02382P | MYLOM DROPS 40 mg/0.6 ml | Solution | Not stated in record |
+| SIN11621P | SIMCONE CHEWABLE TABLET 80 mg | Tablet | Not stated in record |
+| SIN03333P | COLIMIX SYRUP | Syrup | Not stated in record |
+| SIN16773P | ALVERSIME SOFT CAPSULES | Capsule | Not stated in record |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction data, key warnings, or contraindication records were retrieved from available databases for this candidate.
+- **Drug Interactions**: No interaction records were found in the drug interaction query.
 
----
+Please refer to the package insert for other safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-All 10 TxGNN-predicted indications for Dimethicone are rated L5 (model prediction only, no clinical or preclinical evidence). The top-ranked indication — insomnia — lacks any mechanistic plausibility: Dimethicone is a chemically inert silicone polymer with no known neuroactive properties. The single clinical trial retrieved is entirely unrelated to sleep disorders. The TxGNN scores across all 10 candidates (insomnia and multiple cataract subtypes) are consistent with knowledge-graph clustering artifacts rather than true biological signals.
+The prediction has no supporting clinical or literature evidence (L5). The only retrieved trial is unrelated to sleep. There is no plausible mechanism for an inert, non-absorbed silicone to affect insomnia, so the high score is likely a model artifact.
 
-**To proceed, the following would be needed:**
-
-- Identification of a credible pharmacological mechanism linking Dimethicone to sleep regulation (e.g., preclinical receptor binding data, in vitro CNS activity)
-- Retrieval and review of TFDA/HSA package insert warnings and contraindications (currently a blocking data gap)
-- MOA data from DrugBank API (currently missing)
-- At minimum one hypothesis-generating preclinical study before any clinical translation could be considered
-- Re-evaluation of whether the TxGNN graph scoring is driven by formulation co-occurrence (Dimethicone as excipient in products containing active sleep aids) rather than intrinsic pharmacological activity of Dimethicone itself
+**To proceed, the following is needed:**
+- Mechanism of action data, to confirm whether any CNS or sleep-related activity exists
+- Package insert warnings and contraindications from the HSA, needed for any safety screening
+- Any insomnia-specific trial or literature evidence; without it, this candidate should not advance
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

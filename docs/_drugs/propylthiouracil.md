@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Propylthiouracil
-parent: Low Evidence (L5)
+parent: Medium Evidence (L3-L4)
 nav_order: 828
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Propylthiouracil
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,81 +29,72 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Propylthiouracil: From Hyperthyroidism to Resistance to Thyroid Hormone (RTH-β)
+# Propylthiouracil: From Hyperthyroidism to Resistance to Thyroid Hormone (THRB Mutation)
 
 ## One-Sentence Summary
 
-Propylthiouracil (PTU) is a thionamide antithyroid drug historically used to treat hyperthyroidism (Graves' disease, thyrotoxicosis) by suppressing thyroid hormone synthesis. The TxGNN model predicts potential relevance to **Resistance to Thyroid Hormone due to a Mutation in Thyroid Hormone Receptor Beta (RTH-β)**, but this is currently supported only by **0 clinical trials** and **6 case-report/mechanistic publications**, several of which actually describe PTU treatment failing in this condition rather than helping it.
-
----
+Propylthiouracil (PTU) is an antithyroid drug that lowers thyroid hormone production. The TxGNN model predicts it may be effective for **resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta**, with a very high score (99.66%). However, there are **0 clinical trials** and only **6 publications** (case reports and mouse studies), and the mechanism points the wrong way. This prediction should be put on hold.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hyperthyroidism / Graves' disease (thyrotoxicosis) — inferred from literature context; not confirmed via Singapore regulatory filings, as the drug is not marketed there |
+| Original Indication | Hyperthyroidism (inferred from the drug's mechanism; the Singapore registrations list no indication text) |
 | Predicted New Indication | Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta |
 | TxGNN Prediction Score | 99.66% |
-| Evidence Level | L5 |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from DrugBank for this candidate. Based on known pharmacology, propylthiouracil is a thionamide that inhibits thyroid peroxidase, blocking iodide organification and iodotyrosine coupling, thereby reducing thyroid hormone synthesis. Its efficacy in hyperthyroid states (Graves' disease, thyrotoxicosis) is well established in clinical practice.
+Detailed mechanism-of-action data is not available in DrugBank for this record. Based on known pharmacology, PTU inhibits thyroid peroxidase and so reduces thyroid hormone synthesis. Its efficacy in hyperthyroidism is well established.
 
-RTH-β, however, is a different kind of disorder: a germline mutation in the thyroid hormone receptor beta gene reduces target-tissue sensitivity to thyroid hormone. Patients typically present with elevated free T4/T3 but non-suppressed TSH, which can superficially mimic hyperthyroidism and lead clinicians to mistakenly start antithyroid drugs. Because PTU only lowers hormone production without correcting the receptor defect, it does not address the underlying pathology — and one of the papers in this evidence pack (PMID 10724359) explicitly documents this: a patient was given propylthiouracil for presumed thyrotoxicosis, and her goiter *enlarged* rather than resolving, consistent with treatment failure once RTH-β was correctly diagnosed.
-
-This suggests the high TxGNN score likely reflects strong textual co-occurrence — PTU is frequently mentioned in RTH-β case reports as a misdiagnosis pitfall — rather than a genuine mechanistic rationale for therapeutic benefit. This pattern mirrors what the evidence pack already flags for other candidates in this drug's prediction list (e.g., Hashimoto thyroiditis, rank 4, and Prinzmetal angina, rank 9), where high-scoring predictions were also found to rest on incidental or contraindicated associations rather than efficacy signals.
-
----
+In resistance to thyroid hormone (RTH), the defect is in the thyroid hormone receptor beta, not in hormone production. Lowering hormone levels therefore does not correct the problem. It may also push TSH higher and enlarge the goiter. The published cases support this concern: a Thai patient with a de novo L330S mutation was treated with PTU for suspected thyrotoxicosis, and her goiter became more enlarged (PMID 10724359). The high TxGNN score probably reflects proximity to thyroid-hormone nodes in the knowledge graph rather than a true therapeutic link.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [18561095](https://pubmed.ncbi.nlm.nih.gov/18561095/) | 2009 | Case report | Exp Clin Endocrinol Diabetes | Turkish family with TR-β P453A mutation causing RTH; describes diagnostic features, not PTU treatment outcomes |
-| [14684607](https://pubmed.ncbi.nlm.nih.gov/14684607/) | 2004 | Mechanistic (animal) study | Endocrinology | Mouse model shows mutant TR-β acts as dominant-negative in cardiac tissue, explaining tissue-selective TH resistance |
-| [22919057](https://pubmed.ncbi.nlm.nih.gov/22919057/) | 2012 | Mechanistic (animal) study | Endocrinology | TR-β mutant mice develop thyroid carcinoma driven by chronic TSH elevation; no PTU treatment data |
-| [12201835](https://pubmed.ncbi.nlm.nih.gov/12201835/) | 2002 | Case report | Clinical Endocrinology | Family with TRβ M313T mutation; infant misdiagnosed with neonatal thyrotoxicosis, responded to antithyroid therapy transiently before RTH was recognized |
-| [10724359](https://pubmed.ncbi.nlm.nih.gov/10724359/) | 1999 | Case report | Endocrine Journal | Thai woman with de novo TRβ L330S mutation; **PTU was given for presumed thyrotoxicosis, but her goiter enlarged**, indicating treatment did not address the underlying RTH |
-| [21909131](https://pubmed.ncbi.nlm.nih.gov/21909131/) | 2012 | Mechanistic (animal) study | Oncogene | TR-β PV mutant mouse model shows thyroid hormone drives tumor proliferation; mechanistic, not PTU-focused |
-
----
+| [18561095](https://pubmed.ncbi.nlm.nih.gov/18561095/) | 2009 | Case report (family) | Exp Clin Endocrinol Diabetes | P453A THRB mutation in a Turkish mother and son with RTH-pattern thyroid tests |
+| [14684607](https://pubmed.ncbi.nlm.nih.gov/14684607/) | 2004 | Review/Preclinical | Endocrinology | Mutant TR-beta in the heart and its role in tissue resistance to thyroid hormone |
+| [22919057](https://pubmed.ncbi.nlm.nih.gov/22919057/) | 2012 | Animal study (mouse) | Endocrinology | Role of TSH in thyroid carcinoma in mice carrying a THRB mutation |
+| [12201835](https://pubmed.ncbi.nlm.nih.gov/12201835/) | 2002 | Case report | Clin Endocrinol | M313T THRB mutation: neonatal thyrotoxicosis and maternal infertility in one family |
+| [10724359](https://pubmed.ncbi.nlm.nih.gov/10724359/) | 1999 | Case report | Endocr J | De novo L330S mutation in a Thai woman; her goiter enlarged after 9 months of PTU given for presumed thyrotoxicosis |
+| [21909131](https://pubmed.ncbi.nlm.nih.gov/21909131/) | 2012 | Animal study (mouse) | Oncogene | Thyroid hormone drives tumor cell proliferation in a follicular thyroid carcinoma mouse model |
 
 ## Singapore Market Information
 
-Propylthiouracil is not currently registered or marketed in Singapore (0 authorizations on file).
-
----
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN00772P | PROPYLTHIOURACIL TABLETS BP 50 mg | Tablet | PT Actavis Indonesia |
+| SIN11695P | PROPYL TABLET 50 mg | Tablet | Sriprasit Pharma Co Ltd |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No warnings, contraindications or drug interaction records were retrieved for this drug.
 
----
+The literature collected for other predicted indications also reports PTU-associated ANCA vasculitis and agranulocytosis (PMID 31917676, 15163328) and neonatal hepatitis after placental transfer (PMID 2090674). These come from case reports and cohorts, not from the safety dataset, and should be checked against the full label.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There are no clinical trials and only case-report/mechanistic literature supporting this indication, and part of that literature actually documents PTU treatment failing in RTH-β (a case where the goiter enlarged despite therapy). Combined with the absence of confirmed MOA data and Singapore market/label information, the evidence does not support advancing this candidate.
+The evidence is limited to case reports and mouse studies (L4). The mechanism is weak and potentially counterproductive, because RTH is a receptor defect and PTU lowers hormone levels. The high TxGNN score likely reflects knowledge-graph proximity.
+
+Among the other ten predictions in this pack, "autoimmune thyroid disease" (rank 5) carries the strongest evidence (L1, Phase 3 trials). It includes Graves' disease, which is probably an existing PTU indication rather than a true repurposing finding. The Phase 3 trials there study thionamides as a class, and the PTU-specific arms are unconfirmed.
 
 **To proceed, the following is needed:**
-- TFDA/manufacturer label data on warnings and contraindications (currently a blocking data gap)
-- Confirmed mechanism of action from DrugBank
-- A systematic review or case series specifically evaluating outcomes of thyroid-suppressive therapy in genetically confirmed RTH-β patients, to clarify whether any subgroup (e.g., transient hyperthyroxinemic phases) could plausibly benefit
-- Re-evaluation of the TxGNN scoring signal to rule out spurious co-occurrence-driven associations, given the pattern seen elsewhere in this drug's prediction set
+- HSA package insert warnings and contraindications (a blocking gap for safety screening)
+- Approved indication text for the two Singapore registrations, and the original indication record
+- Mechanism of action data from DrugBank
+- For any further pursuit of this indication, an expert assessment of whether lowering thyroid hormone could ever be appropriate in RTH
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

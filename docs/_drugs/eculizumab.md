@@ -29,84 +29,72 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Eculizumab: From Paroxysmal Nocturnal Hemoglobinuria to Cyclic Hematopoiesis
+# Eculizumab: From Complement-Mediated Disorders to Cyclic Hematopoiesis
 
 ## One-Sentence Summary
 
-Eculizumab is a humanized monoclonal antibody that inhibits complement protein C5, currently approved globally for paroxysmal nocturnal hemoglobinuria (PNH), atypical hemolytic uremic syndrome (aHUS), and generalized myasthenia gravis (gMG).
-The TxGNN model predicts it may be effective for **Cyclic Hematopoiesis** (also known as cyclic neutropenia),
-however **0 clinical trials** and **0 directly relevant publications** currently support this indication — the evidence base is model-prediction only.
-
----
+Eculizumab is a complement C5 inhibitor. The Singapore licence record does not state its approved indication, but the retrieved literature describes its established use in complement-driven diseases such as paroxysmal nocturnal hemoglobinuria (PNH) and atypical hemolytic uremic syndrome (aHUS).
+The TxGNN model predicts it may be effective for **cyclic hematopoiesis** with a very high graph score, but there are **0 clinical trials** and **0 publications** supporting this specific prediction.
+This is a model-only signal with no supporting mechanism, so it is not recommended for advancement.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Paroxysmal nocturnal hemoglobinuria (PNH), atypical hemolytic uremic syndrome (aHUS), generalized myasthenia gravis (gMG) — established globally; **not registered in Singapore** |
-| Predicted New Indication | Cyclic Hematopoiesis (cyclic neutropenia) |
+|------|------|
+| Original Indication | Not stated in the Singapore licence record (literature context: PNH, aHUS) |
+| Predicted New Indication | Cyclic hematopoiesis |
 | TxGNN Prediction Score | 99.97% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not marketed (0 registrations) |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Eculizumab is a humanized IgG2/4κ monoclonal antibody that binds selectively to complement C5, blocking its cleavage into the pro-inflammatory C5a and the membrane attack complex (MAC) initiator C5b. By halting the terminal complement cascade, eculizumab prevents complement-mediated cell lysis and inflammatory signalling. This mechanism underpins its efficacy in PNH (where GPI-anchor deficiency leaves red cells unprotected from complement attack), aHUS (driven by dysregulation of the alternative complement pathway), and gMG (where complement-mediated destruction of the neuromuscular junction is AChR-antibody-dependent).
+Eculizumab inhibits complement component C5, which blocks C5 cleavage and formation of the membrane attack complex. This mechanism suits diseases where uncontrolled complement activation drives tissue injury, such as PNH and aHUS.
 
-Cyclic hematopoiesis is caused by autosomal dominant mutations in the **ELANE** gene, which encodes neutrophil elastase. These mutations trigger endoplasmic reticulum stress and unfolded protein response (UPR) in myeloid precursors, producing an oscillatory pattern of granulopoiesis with a cycle of approximately 21 days. The pathophysiology is intrinsic to the bone marrow and driven by a cell-autonomous granulocyte maturation defect — not by complement-mediated destruction of circulating cells.
+Cyclic hematopoiesis (cyclic neutropenia) works differently. It is driven mainly by *ELANE* mutations and oscillating blood-cell production, not by complement-mediated injury. Based on the data provided, no plausible mechanistic link to C5 inhibition is supported. The high TxGNN score most likely reflects proximity in the knowledge graph rather than a real biological signal.
 
-The TxGNN graph model may have identified a topological connection between eculizumab's drug node and the cyclic hematopoiesis disease node through shared immune pathway neighbours (e.g., C5a receptor signalling influences neutrophil recruitment and could theoretically modulate inflammatory oscillations). However, no mechanistic studies, animal models, or clinical reports support the hypothesis that C5 inhibition corrects the ELANE-driven oscillatory cycle. The biological plausibility is speculative at best. The prediction should be treated as a hypothesis-generating signal requiring dedicated experimental validation before any clinical consideration.
+There is also a safety mismatch. Eculizumab carries a boxed warning for meningococcal infection, which would add to the infection risk already present in neutropenic patients.
 
----
+The other nine predictions in this pack (rank 2–10) are also neutropenia or immune-deficiency related, or a platelet disorder, and all were assessed as L5 with no mechanistic rationale. The literature attached to ranks 4 and 10 covers PNH, aHUS/TMA, myasthenia gravis and CD59 deficiency. None of it addresses those diseases, so it does not support them.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Eculizumab in cyclic hematopoiesis.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature directly addressing Eculizumab in cyclic hematopoiesis is available.
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Eculizumab (Soliris®) is **not registered** with the Health Sciences Authority (HSA) of Singapore. There are no active product licences on record as of the data cutoff (2026-06-16).
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN14226P | Soliris Concentrate for Solution for Infusion 300mg/vial | Infusion, solution concentrate | Not listed in the licence record |
 
----
+Manufacturer: Alexion Pharma International Operations Limited / Patheon Italia S.p.A. Route: injectable (intravenous infusion).
 
 ## Safety Considerations
 
-Detailed warning and contraindication data from local regulatory submissions is not available for this report. Based on the established global safety profile of eculizumab, clinicians should be aware of the following key concerns from international labelling:
+- **Key Warnings**: Boxed warning for meningococcal infection. This is especially relevant for any neutropenic or immunodeficient population.
 
-- **Black Box Warning**: Eculizumab increases susceptibility to serious, life-threatening, and fatal meningococcal infections (*Neisseria meningitidis*). All patients must be vaccinated against meningococcal disease at least 2 weeks before initiating treatment. Patients who cannot be vaccinated require antibiotic prophylaxis.
-- **Serious Infections**: Risk of serious infections caused by encapsulated bacteria (*Streptococcus pneumoniae*, *Haemophilus influenzae*) is elevated.
-- **Infusion Reactions**: Serious hypersensitivity reactions, including anaphylaxis, have been reported.
-
-Please refer to the current approved package insert (e.g., EMA/FDA labelling) for complete warnings, contraindications, and monitoring requirements.
-
----
+Please refer to the package insert for the full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model assigns a high algorithmic score (99.97%) to cyclic hematopoiesis, but this prediction is entirely unsupported by clinical trials, mechanistic studies, or disease-specific literature. The known mechanism of eculizumab (terminal complement inhibition) does not intersect with the established pathophysiology of cyclic hematopoiesis (ELANE-mutation-driven UPR and myeloid precursor apoptosis). Furthermore, eculizumab is not registered in Singapore, and local safety data is unavailable.
+The prediction is model-only (L5), with no trials or literature for cyclic hematopoiesis and no credible link between C5 inhibition and the disease biology. The infection risk from C5 blockade is unfavorable in neutropenia.
 
-**To proceed beyond Hold, the following would be needed:**
+**To proceed, the following is needed:**
+- Any preclinical or clinical evidence that complement activation contributes to cyclic hematopoiesis
+- Obtain the HSA package insert (warnings, contraindications, approved indications) to complete safety screening
+- Detailed mechanism of action data from DrugBank to support a formal mechanistic-link analysis
+- A risk-benefit assessment of C5 inhibition in neutropenic patients, including meningococcal prophylaxis considerations
 
-- **Mechanistic evidence**: Preclinical studies (cell line or animal models of cyclic neutropenia) demonstrating a role for C5a or the terminal complement cascade in driving neutrophil cycle oscillations.
-- **MOA clarification**: Retrieval of full DrugBank pharmacology data and Singapore HSA / global regulatory labelling to complete the safety profile.
-- **Regulatory pathway assessment**: Confirmation of the feasibility of an investigational use or Named Patient Programme application given the absence of any Singapore registration.
-- **Expert consultation**: Input from a haematologist specialising in congenital bone marrow failure syndromes to independently assess biological plausibility before any resource commitment.
-- **Alternative approaches**: G-CSF remains the standard of care for cyclic neutropenia; any repurposing investigation would need to demonstrate a clear unmet need or superiority rationale over existing therapy.
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

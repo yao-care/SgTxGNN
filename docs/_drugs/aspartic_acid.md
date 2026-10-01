@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Aspartic Acid
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 114
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 ---
 
 # Aspartic Acid
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,94 +29,88 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Aspartic Acid: From No Established Indication to Renal Tubular Acidosis
+# Aspartic Acid: From Parenteral Nutrition (Amino Acid Component) to Renal Tubular Acidosis
 
 ## One-Sentence Summary
 
-Aspartic acid (L-aspartate) is an endogenous, non-essential amino acid with fundamental roles in cellular metabolism, renal nitrogen transport, and tubular acid-base regulation, but it carries no formally approved therapeutic indication.
-The TxGNN model predicts it may be effective for **Renal Tubular Acidosis (RTA)**, with **1 clinical trial retrieved** (of negligible direct relevance) and **10 publications** identified across basic, translational, and clinical literature.
-The mechanistic rationale is biologically coherent but the clinical evidence base is sparse, placing this prediction firmly at an early exploratory research stage.
-
----
+Aspartic acid is an amino acid component of intravenous amino acid infusion products marketed in Singapore. The TxGNN model predicts it may be effective for **renal tubular acidosis**, but the evidence is thin: **1 registered clinical trial** (unrelated to this drug) and **10 publications** (case reports, genetic studies and animal work), none of which tests aspartic acid as a treatment.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No established approved indication |
-| Predicted New Indication | Renal Tubular Acidosis |
+|------|------|
+| Original Indication | Not recorded in the registration data; marketed as a component of parenteral amino acid / nutrition infusions |
+| Predicted New Indication | Renal tubular acidosis |
 | TxGNN Prediction Score | 99.47% |
-| Evidence Level | L4 |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 7 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data from DrugBank is currently unavailable. Based on established biochemistry, aspartic acid (aspartate) is a dicarboxylic amino acid central to the malate-aspartate shuttle, the urea cycle, and purine nucleotide synthesis. Its physiological relevance to the kidney is well-documented, though its potential as a therapeutic agent in renal tubular acidosis has not been formally evaluated in controlled trials.
+Currently, detailed mechanism of action data is not available. Based on known information, aspartic acid is a natural amino acid used as a component of intravenous nutrition solutions. It is a renal tubular metabolic intermediate and a transporter substrate, and the link to the predicted indication is indirect.
 
-Three mechanistic threads link aspartate to RTA pathophysiology. First, the transporter SLC22A13 catalyses unidirectional efflux of aspartate and glutamate specifically at the **basolateral membrane of type A intercalated cells** in the renal collecting duct, co-localising with anion exchanger 1 (AE1/Band 3/SLC4A1) — the very protein whose mutations cause distal RTA (PMID 24147638). This places aspartate transport at the centre of the cellular machinery responsible for proton secretion. Second, aspartate serves as a nitrogen donor in **renal ammoniagenesis** (PMID 14301365), the kidney's primary mechanism for buffering and excreting acid load; in chronically acidotic rats, concentrations of aspartate and related metabolic intermediates are significantly altered (PMID 5641145, PMID 2884989). Third, and most directly, a 1983 case report documents a child with pyruvate carboxylase deficiency, proximal RTA, and cystinuria whose clinical condition improved — including growth — following dietary supplementation with aspartic acid and asparagine (PMID 6422151). This is the only human observation of potential therapeutic benefit.
+The strongest biological connection is that SLC22A13 mediates efflux of aspartate and glutamate at the basolateral membrane of type A intercalated cells in the collecting duct. These are the same cells affected in distal renal tubular acidosis (dRTA). Older animal work also shows that renal tubules handle glutamate carbon differently during chronic metabolic acidosis.
 
-The TxGNN model's high score (99.47%) most likely reflects this deep embedding of aspartate in the renal tubular knowledge graph — many interacting proteins, transporters, and metabolic nodes connect aspartate to acid-base physiology. However, mechanistic relevance does not equal clinical efficacy, and the jump from biochemical role to therapeutic intervention remains unvalidated. The prediction is a biologically grounded hypothesis in need of prospective testing.
-
----
+These findings describe how the kidney handles aspartate. They do not show that giving aspartic acid corrects acidosis. The high score of 0.995 is a model prediction only, and no study tests aspartic acid as a therapy for this condition.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT04725812](https://clinicaltrials.gov/study/NCT04725812) | Phase 2 | Terminated | 2 | Single-arm study of eculizumab (complement C5 inhibitor) for preeclampsia at 23–30 weeks gestation. Terminated with only 2 participants. Entirely unrelated to aspartic acid or RTA; database matching appears to be an error. |
-
-> **No clinical trials directly evaluating aspartic acid for renal tubular acidosis were identified.**
-
----
+| [NCT04725812](https://clinicaltrials.gov/study/NCT04725812) | Phase 2 | Terminated | 2 | Eculizumab in preeclampsia (single-arm, open-label). Unrelated to renal tubular acidosis or aspartic acid |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [6422151](https://pubmed.ncbi.nlm.nih.gov/6422151/) | 1983 | Case Report | J Inherited Metab Dis | A child with pyruvate carboxylase deficiency, proximal RTA, and cystinuria began to thrive when diet was supplemented with **aspartic acid and asparagine** — the only direct clinical observation linking aspartate to improvement in an RTA setting. |
-| [24147638](https://pubmed.ncbi.nlm.nih.gov/24147638/) | 2014 | Basic Research | Biochem J | SLC22A13 mediates unidirectional aspartate/glutamate efflux at the basolateral membrane of **type A intercalated cells** in the renal collecting duct, co-localising with AE1; directly implicates aspartate transport in the cells whose dysfunction underlies distal RTA. |
-| [990372](https://pubmed.ncbi.nlm.nih.gov/990372/) | 1976 | Case Series | Biomedicine | Ornithine-aspartate infused intravenously in children from two families, one with hyperargininaemia and one with **incomplete RTA plus cystinuria**; explores serum amino acid kinetics following aspartate loading in an RTA context. |
-| [2884989](https://pubmed.ncbi.nlm.nih.gov/2884989/) | 1987 | Animal Study | Biochem J | ¹³C NMR tracking of glutamate/aspartate carbon flux in rat renal tubules under chronic metabolic acidosis; reveals upregulated ammoniagenesis and altered aspartate utilisation in the acidotic kidney. |
-| [5641145](https://pubmed.ncbi.nlm.nih.gov/5641145/) | 1968 | Animal Study | Nature | Demonstrates significant changes in concentrations of metabolic intermediates, including aspartate, in kidneys of rats with metabolic acidosis — supporting a compensatory role in acid-base buffering. |
-| [14301365](https://pubmed.ncbi.nlm.nih.gov/14301365/) | 1965 | Physiology Study | Am J Physiol | Characterises the relationship between tubular cell pNH₃ and renal ammonia production; aspartate serves as a primary nitrogen donor in this acid-excreting process. |
-| [26208211](https://pubmed.ncbi.nlm.nih.gov/26208211/) | 2015 | Diagnostic Study | J Pediatria | Whole-exome sequencing used to confirm genetic diagnosis in four children with distal RTA — illustrates the genetic heterogeneity of dRTA and ongoing unmet diagnostic and therapeutic needs. |
-| [20068363](https://pubmed.ncbi.nlm.nih.gov/20068363/) | 2010 | Case Series | Nephron Physiol | SLC4A1 (AE1/Band 3) mutations causing distal RTA in Filipino children; the AE1 pathway co-localises with SLC22A13 aspartate transport, supporting a common mechanistic node. |
-| [12087557](https://pubmed.ncbi.nlm.nih.gov/12087557/) | 2002 | Case Report | Am J Kidney Dis | Autosomal recessive dRTA caused by G701D AE1 mutation — failure of basolateral Cl⁻/HCO₃⁻ exchange blocks H⁺ secretion in intercalated cells; contextualises the transporter environment where aspartate acts. |
-| [23053187](https://pubmed.ncbi.nlm.nih.gov/23053187/) | 2013 | Case Report | Ann Hematol | Band 3 A858D homozygote with hypokalaemic dRTA, compensated haemolysis, and acanthocytosis — further characterises the AE1/Band 3 phenotypic spectrum relevant to aspartate co-transport studies. |
-
----
+| [26208211](https://pubmed.ncbi.nlm.nih.gov/26208211/) | 2015 | Case series | Jornal de Pediatria | Whole-exome sequencing gave a genetic diagnosis in four children with dRTA |
+| [20068363](https://pubmed.ncbi.nlm.nih.gov/20068363/) | 2010 | Case series | Nephron Physiology | dRTA in Filipino children caused by SLC4A1 (AE1) mutations |
+| [12087557](https://pubmed.ncbi.nlm.nih.gov/12087557/) | 2002 | Case report | Am J Kidney Dis | Autosomal recessive dRTA caused by the G701D AE1 mutation |
+| [23053187](https://pubmed.ncbi.nlm.nih.gov/23053187/) | 2013 | Case report | Annals of Hematology | Hypokalaemic dRTA with haemolysis in a band 3 A858D homozygote |
+| [6422151](https://pubmed.ncbi.nlm.nih.gov/6422151/) | 1983 | Case report | J Inherit Metab Dis | Neonate with pyruvate carboxylase deficiency, proximal RTA and cystinuria. The patient thrived when the diet was supplemented with aspartic acid, asparagine and other amino acids, but the effect cannot be attributed to aspartic acid alone |
+| [990372](https://pubmed.ncbi.nlm.nih.gov/990372/) | 1976 | Small physiological study | Biomedicine | IV arginine and ornithine-aspartate loading in siblings with incomplete RTA and cystinuria. Physiological testing, not treatment |
+| [24147638](https://pubmed.ncbi.nlm.nih.gov/24147638/) | 2014 | Preclinical (in vitro) | Biochem J | SLC22A13 mediates aspartate/glutamate efflux in type A intercalated cells |
+| [2884989](https://pubmed.ncbi.nlm.nih.gov/2884989/) | 1987 | Preclinical (animal) | Biochem J | Fate of glutamate carbon in rat renal tubules during chronic metabolic acidosis |
+| [14301365](https://pubmed.ncbi.nlm.nih.gov/14301365/) | 1965 | Preclinical (animal) | Am J Physiol | Renal ammonia production in tubular cells |
+| [5641145](https://pubmed.ncbi.nlm.nih.gov/5641145/) | 1968 | Preclinical (animal) | Nature | Kidney metabolic intermediates in rats with metabolic acidosis |
 
 ## Singapore Market Information
 
-Aspartic acid (DrugBank ID: DB00128) is **not registered in Singapore**. No product licences are on record. This drug would need to go through HSA's full registration process before any clinical use in Singapore.
+Seven registrations exist; the five main ones are listed. The approved indication text is not recorded in the registration data.
 
----
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN08352P | AMINOPLASMAL-15% INFUSION | Injection | B. Braun Melsungen AG |
+| SIN07846P | TROPHAMINE INJECTION 10% | Injection | B. Braun Melsungen AG |
+| SIN07428P | VAMINOLACT INTRAVENOUS SOLUTION | Injection | Fresenius Kabi Austria GmbH |
+| SIN15411P | AMINOPLASMAL B.BRAUN 10% E SOLUTION FOR INFUSION | Infusion, solution | B. Braun Melsungen AG |
+| SIN16734P | NUTRIFLEX® OMEGA SPECIAL B. BRAUN EMULSION FOR INFUSION | Injection, emulsion | B. Braun Melsungen AG |
+
+All registered forms are injectable or infusion products.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No key warnings, contraindications, or drug interaction data were identified in the current evidence search.
-
-> Aspartic acid is a naturally occurring endogenous amino acid. At nutritional doses it is broadly regarded as safe. However, high-dose supplementation in the setting of renal impairment — which is inherent to RTA — warrants dedicated safety evaluation, as altered tubular function may affect both aspartate handling and downstream nitrogen metabolism.
-
----
+Please refer to the package insert for safety information. No drug interaction records were found.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model's high prediction score (99.47%) reflects genuine, multi-layered biochemical connections between aspartate and renal tubular acid-base physiology — particularly the SLC22A13 transporter in intercalated cells and the role of aspartate in renal ammoniagenesis. However, the human clinical evidence amounts to a single 1983 case report in a complex metabolic disorder, and the one clinical trial retrieved is entirely off-target. With evidence at Level 4 (preclinical and mechanistic) and no controlled data, this candidate requires foundational validation before any forward-moving decision can be made.
+The prediction has a very high model score but no supporting clinical evidence. The only registered trial is unrelated, and the literature consists of dRTA genetics, case reports and animal physiology. Aspartic acid is marketed in Singapore only as an infusion component, so no dedicated product or route exists for a renal tubular acidosis use.
+
+Other predicted indications are weaker or equally unsupported:
+- **Dyspepsia:** L4, classed as a research question, based on indirect animal data and 1960s–70s betaine aspartate reports.
+- **Renal hypomagnesemia:** L4, but the effect comes from magnesium and potassium, with aspartate only as the carrier anion.
+- **All others:** L5.
 
 **To proceed, the following is needed:**
-- Retrieve the full DrugBank MOA record for aspartic acid to confirm and extend the mechanistic rationale (resolve data gap DG002)
-- Download and review the relevant package insert or monograph to assess safety warnings and contraindications for renal disease populations (resolve data gap DG001)
-- Conduct a systematic literature search specifically on L-aspartate or ornithine-aspartate supplementation in metabolic acidosis and RTA animal models
-- Define the target RTA subtype (proximal type 2 vs. distal type 1; genetic vs. acquired/drug-induced) with the strongest mechanistic fit based on the SLC22A13–AE1 intercalated cell evidence
-- Commission a proof-of-concept preclinical study in a validated dRTA animal model to measure urinary pH, NH₄⁺ excretion, and serum bicarbonate following aspartate supplementation before considering any first-in-indication human study
+- Package insert warnings and contraindications from HSA (currently blocking safety screening)
+- Mechanism of action data from DrugBank
+- Evidence that aspartic acid itself, not the carried cation or a mixed amino acid supplement, corrects acid-base balance in renal tubular acidosis
+- A route and formulation assessment, since current registrations are all IV infusion products
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

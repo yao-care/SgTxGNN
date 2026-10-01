@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Mefenamic Acid
-parent: High Evidence (L1-L2)
+parent: Low Evidence (L5)
 nav_order: 635
-evidence_level: L1
+evidence_level: L5
 indication_count: 10
 ---
 
 # Mefenamic Acid
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Mefenamic Acid: From Analgesic/Anti-Inflammatory Use to Rheumatoid Arthritis
+# Mefenamic Acid: From Analgesic NSAID to Rheumatoid Arthritis
 
 ## One-Sentence Summary
 
-Mefenamic acid is a fenamate-class NSAID historically used for pain, primary dysmenorrhea, and inflammatory joint conditions, but it is **not currently registered or marketed in Singapore**. The TxGNN model's top prediction identifies **Rheumatoid Arthritis** as its leading candidate indication, with a **99.73% prediction score**, supported by **20 publications** (including several controlled trials from the 1960s–1980s) but **no currently registered clinical trials**.
+Mefenamic acid is a non-steroidal anti-inflammatory drug (NSAID) that is currently marketed in Singapore under 11 registrations.
+The TxGNN model predicts it may be useful for **Rheumatoid Arthritis**, but there are **no registered clinical trials**.
+The support is **20 publications**, mostly from 1966-1979, including 3 small double-blind comparative trials against other NSAIDs.
 
 ---
 
@@ -41,29 +43,28 @@ Mefenamic acid is a fenamate-class NSAID historically used for pain, primary dys
 
 | Item | Content |
 |------|------|
-| Original Indication | Not on file in local regulatory data (drug not marketed in Singapore); internationally, mefenamic acid is a classic NSAID historically indicated for mild-to-moderate pain, primary dysmenorrhea, and inflammatory joint disease |
-| Predicted New Indication | Rheumatoid Arthritis |
+| Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 99.73% |
-| Evidence Level | L1 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Evidence Level | L2 (as assigned in the Evidence Pack; based on published double-blind trials, with no registry phase label to confirm Phase 2/3) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 11 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed DrugBank-sourced mechanism of action data is not currently available for this candidate (flagged as a High-severity data gap, DG002). Based on the literature synthesized in this evidence pack, mefenamic acid is a fenamate (anthranilic acid derivative) NSAID that inhibits cyclo-oxygenase (COX), reducing prostaglandin-mediated inflammation and pain — the same mechanism shared by ibuprofen, diclofenac, and indomethacin, drugs it is directly compared against in the trial literature below.
+Mefenamic acid is a non-selective COX-1/COX-2 inhibitor. It lowers prostaglandin production, which reduces inflammation and pain. The detailed DrugBank mechanism record is not included in this Evidence Pack, so this description comes from the Pack's mechanistic analysis.
 
-This mechanism is directly relevant to rheumatoid arthritis (RA), a chronic autoimmune joint disease driven substantially by prostaglandin-mediated inflammation. COX inhibition provides symptomatic relief of joint pain, swelling, and morning stiffness, which is why NSAIDs including mefenamic acid have long been used as adjunctive/symptomatic therapy in RA.
+Prostaglandin-driven inflammation and joint pain are central to rheumatoid arthritis (RA), so the mechanism fits. However, the benefit is **symptomatic only**. Mefenamic acid relieves pain and stiffness but is not disease-modifying, meaning it does not slow joint damage.
 
-It is worth noting transparently that this is not a *novel* mechanistic hypothesis: the literature evidence includes multiple double-blind RCTs from 1966–1979 directly testing mefenamic acid in RA populations, so the model is substantially re-identifying an already well-documented historical use rather than proposing an unprecedented repurposing. Importantly, as an NSAID, mefenamic acid provides **symptomatic relief only** and has **no disease-modifying (DMARD) activity** — a distinction critical to interpreting its relevance against modern RA standard-of-care.
+The Singapore licence records do not state an approved indication, so the novelty of this repurposing cannot be judged from the Pack. The 1970s trials suggest that RA use is not new. They show that mefenamic acid was already tested as a conventional NSAID for RA symptom control.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered (ClinicalTrials.gov and ICTRP).
 
 ---
 
@@ -71,46 +72,62 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [373989](https://pubmed.ncbi.nlm.nih.gov/373989/) | 1979 | RCT (double-blind crossover) | Current Medical Research and Opinion | In 24 RA patients, mefenamic acid, sulindac, and flurbiprofen were all significantly superior to placebo on pain score, patient assessment, joint tenderness, and morning stiffness |
-| [330287](https://pubmed.ncbi.nlm.nih.gov/330287/) | 1977 | RCT | Journal of International Medical Research | Randomized double-blind within-patient study (n=40) found mefenamic acid and ibuprofen had comparable analgesic/anti-inflammatory effect and similar (mostly mild) side effects |
-| [796645](https://pubmed.ncbi.nlm.nih.gov/796645/) | 1976 | RCT (double-blind crossover) | The Medical Journal of Australia | Mefenamic acid (1500 mg/day) compared favourably with ibuprofen (1200 mg/day) in RA patients on background salicylate therapy; side effects mild and mostly gastrointestinal |
-| [4294443](https://pubmed.ncbi.nlm.nih.gov/4294443/) | 1967 | Clinical Trial | Annals of the Rheumatic Diseases | Early clinical trial establishing efficacy of mefenamic acid in rheumatoid arthritis (abstract not available in source) |
-| [5920657](https://pubmed.ncbi.nlm.nih.gov/5920657/) | 1966 | RCT (comparative) | British Medical Journal | Comparative trial of mefenamic acid and flufenamic acid against aspirin and phenylbutazone in RA (abstract not available in source) |
-| [6039589](https://pubmed.ncbi.nlm.nih.gov/6039589/) | 1967 | Comparative trial | Annals of the Rheumatic Diseases | Methodological evaluation comparing mefenamic and flufenamic acids with phenylbutazone and aspirin in RA outpatients (abstract not available in source) |
-| [10439](https://pubmed.ncbi.nlm.nih.gov/10439/) | 1976 | Comparative study | The Journal of Rheumatology | Single-blind, non-crossover comparison of 10 antirheumatic drugs in 684 RA patients using a daily pain-chart methodology |
-| [306128](https://pubmed.ncbi.nlm.nih.gov/306128/) | 1978 | Review | Scottish Medical Journal | Reviews the therapeutic place of mefenamic acid specifically within RA management (abstract not available in source) |
-| [29548675](https://pubmed.ncbi.nlm.nih.gov/29548675/) | 2018 | Observational (case-crossover) | The American Journal of Cardiology | Case-crossover study of 5,921 stroke/AMI patients with RA comorbidity evaluating transient cardiovascular risk of selective vs. non-selective NSAIDs |
-| [4890710](https://pubmed.ncbi.nlm.nih.gov/4890710/) | 1967 | RCT (double-blind) | Reumatismo | Italian double-blind clinical and biohumoral study of mefenamic acid in RA therapy (preliminary observations; abstract not available in source) |
+| [373989](https://pubmed.ncbi.nlm.nih.gov/373989/) | 1979 | RCT (double-blind crossover, n=24) | Curr Med Res Opin | Mefenamic acid (1500 mg/day), flurbiprofen, and sulindac were all significantly better than placebo for pain, joint tenderness, and morning stiffness |
+| [330287](https://pubmed.ncbi.nlm.nih.gov/330287/) | 1977 | RCT (double-blind, n=40) | J Int Med Res | Analgesic and anti-inflammatory effect not significantly different from ibuprofen; side effects were similar |
+| [796645](https://pubmed.ncbi.nlm.nih.gov/796645/) | 1976 | RCT (double-blind crossover) | Med J Aust | Mefenamic acid compared favourably with ibuprofen; side effects were mild and almost all gastrointestinal |
+| [306128](https://pubmed.ncbi.nlm.nih.gov/306128/) | 1978 | Review | Scott Med J | Review of the place of mefenamic acid in RA treatment (no abstract available) |
+| [4294443](https://pubmed.ncbi.nlm.nih.gov/4294443/) | 1967 | Clinical study | Ann Rheum Dis | Early clinical study of mefenamic acid in RA (no abstract available) |
+| [5920657](https://pubmed.ncbi.nlm.nih.gov/5920657/) | 1966 | Comparative clinical study | Br Med J | Compared mefenamic and flufenamic acids with aspirin and phenylbutazone (no abstract available) |
+| [10439](https://pubmed.ncbi.nlm.nih.gov/10439/) | 1976 | Comparative study | J Rheumatol | Single-blind assessment method applied to 10 antirheumatic drugs in 684 RA patients |
+| [5676955](https://pubmed.ncbi.nlm.nih.gov/5676955/) | 1968 | Case series (safety) | Br Med J | Three patients developed autoimmune haemolytic anaemia during mefenamic acid therapy and recovered after withdrawal |
+| [23611159](https://pubmed.ncbi.nlm.nih.gov/23611159/) | 2014 | Formulation study | Pharm Dev Technol | Developed a time-controlled-release mefenamic acid tablet aimed at RA |
+| [29548675](https://pubmed.ncbi.nlm.nih.gov/29548675/) | 2018 | Case-crossover study | Am J Cardiol | Evaluated stroke and myocardial infarction risk with selective and non-selective NSAIDs in RA patients (class-level, not specific to mefenamic acid) |
 
 ---
 
 ## Singapore Market Information
 
-Mefenamic acid currently has no registered product authorizations in Singapore (0 licenses on file; market status: not marketed).
+11 registrations in total; the 5 main ones are listed. The records do not include approved indication text.
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN07726P | Pontalon Film Coated Tablet 500 mg | Tablet, film coated | Not stated |
+| SIN05487P | Fenagesic Capsules 250 mg | Capsule | Not stated |
+| SIN11071P | Melgesic Capsule 250 mg | Capsule | Not stated |
+| SIN08483P | Pontalon Capsule 250 mg | Capsule | Not stated |
+| SIN10125P | Mefril-250 Capsule 250 mg | Capsule | Not stated |
+
+Available forms include oral tablets and capsules, plus a suspension.
 
 ---
 
 ## Safety Considerations
 
-Structured safety data (key warnings, contraindications, and drug-drug interaction database) is not currently available for this candidate — please refer to the package insert for safety information.
+The Evidence Pack contains no package-insert warnings, contraindications, or drug interaction data. Please refer to the package insert for safety information.
 
-**Supplementary note (from literature review):** although not part of the structured safety dataset, the literature evidence collected for this candidate independently documents several class-related adverse effect signals for mefenamic acid, including nephropathy (PMID [3561624](https://pubmed.ncbi.nlm.nih.gov/3561624/)), enteropathy/villous atrophy (PMID [3680546](https://pubmed.ncbi.nlm.nih.gov/3680546/), [29095288](https://pubmed.ncbi.nlm.nih.gov/29095288/)), autoimmune hemolytic anemia (PMID [5676955](https://pubmed.ncbi.nlm.nih.gov/5676955/)), and GI bleeding (PMID [949194](https://pubmed.ncbi.nlm.nih.gov/949194/)). These should be formally verified against an official package insert before any clinical use is considered.
+The literature in the Pack reports these NSAID-class and mefenamic-acid-specific concerns:
+- **Gastrointestinal**: bleeding duodenal ulcer, and enteropathy with villous atrophy after prolonged use
+- **Renal**: mefenamic acid nephropathy
+- **Haematological**: autoimmune haemolytic anaemia
+- **Cardiovascular**: NSAID class effect on stroke and myocardial infarction risk in RA patients
+
+RA patients need long-term therapy, so these risks matter more than they would for short courses.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Multiple tier-1 double-blind RCTs from the 1960s–1980s support the historical efficacy of mefenamic acid in rheumatoid arthritis, comparable to ibuprofen and other reference NSAIDs, giving this pairing a reasonably strong evidence base (L1). However, the drug is not currently marketed in Singapore, provides symptomatic relief only (no disease-modifying activity relevant to modern RA standard of care), and a Blocking-severity data gap (DG001: local regulatory warnings/contraindications) currently prevents a full safety evaluation.
+The mechanism is plausible and a few small double-blind trials show mefenamic acid performing about as well as other NSAIDs. However, these trials are old (1976-1979), enrolled few patients, and have no registry phase label. The benefit is symptomatic only, RA already has established NSAID options, and the safety data needed for screening are missing.
 
 **To proceed, the following is needed:**
-- Official package insert / regulatory warnings and contraindications data (DG001 — Blocking; required before any Stage 1 safety review)
-- Confirmed mechanism of action from DrugBank API (DG002)
-- Confirmation of Singapore registration/market-entry pathway, given current "not marketed" status
-- Formal DDI database query (current query returned "not found")
-- Clinical positioning assessment against modern RA standard-of-care (DMARDs/biologics), since mefenamic acid would at most serve as adjunctive symptomatic therapy, not primary treatment
+- HSA package insert warnings and contraindications, which are currently blocking safety screening
+- Approved indication text for the Singapore licences, to clarify what is actually new
+- DrugBank mechanism of action data
+- Comparison against current RA standards of care and modern NSAIDs
+- A long-term safety plan for GI, renal, cardiovascular, and haematological risks in chronic use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

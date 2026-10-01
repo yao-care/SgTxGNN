@@ -29,94 +29,75 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Venetoclax: From Unregistered Status in Singapore to Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (IGHV-Mutated Subtype)
+# Venetoclax: Repurposing Assessment for CLL/SLL with IGHV Somatic Hypermutation
 
 ## One-Sentence Summary
 
-Venetoclax is a BCL-2 inhibitor that is currently **not marketed in Singapore** (0 registrations), and no original-indication data is available in this evidence pack.
-The TxGNN model's top-ranked prediction is **Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (CLL/SLL) with IGHV somatic hypermutation**,
-but for this specific ontology term there are currently **0 clinical trials** and **0 publications** — the prediction is supported only by general mechanistic reasoning, not by direct evidence.
-
----
+Venetoclax is an oral BCL-2 inhibitor marketed in Singapore as VENCLEXTA, and the registered indication text is not available in the data provided.
+The TxGNN model predicts it may be effective for **chronic lymphocytic leukemia/small lymphocytic lymphoma (CLL/SLL) with immunoglobulin heavy chain variable-region gene somatic hypermutation**.
+Currently **0 clinical trials** and **0 publications** support this specific subtype, so the prediction is not yet backed by subtype-specific evidence.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — drug is not registered in Singapore and no original indication data was provided |
-| Predicted New Indication | Chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation |
+| Predicted New Indication | CLL/SLL with IGHV somatic hypermutation |
 | TxGNN Prediction Score | 99.55% |
-| Evidence Level | L5 (0 clinical trials, 0 literature for this specific term — model prediction only) |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 (mechanistic rationale only; no trials or publications) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 3 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (flagged as a data gap, DG002). Based on known pharmacological information, Venetoclax is a BH3-mimetic that selectively inhibits BCL-2, a pro-survival protein overexpressed in CLL/SLL tumor cells; by blocking BCL-2, Venetoclax restores the intrinsic apoptotic pathway and induces tumor cell death. This mechanism is the basis of Venetoclax's globally established, FDA-approved use as a standard therapy (alone or with anti-CD20 antibodies) for CLL/SLL.
+Venetoclax is a selective BCL-2 inhibitor. CLL/SLL cells depend on BCL-2 for survival, so blocking BCL-2 restores apoptosis in these cells. The mechanism therefore fits this disease.
 
-The specific ontology term predicted here — CLL/SLL with IGHV somatic hypermutation — refers to a prognostic subtype rather than a distinct disease. IGHV mutation status stratifies CLL patients into better- (mutated) vs. worse-prognosis (unmutated) groups, but it does not change the core BCL-2 dependency that makes CLL/SLL broadly responsive to Venetoclax. The complete absence of trials/literature tied to this exact term is therefore best interpreted as an **ontology granularity gap in the evidence search**, not as evidence against the mechanism — the drug's own related evidence pack entries (e.g., rank 2, "pre-germinal center CLL/SLL," rank 4 "myeloid leukemia") show that Venetoclax has substantial, well-established evidence in the broader CLL/SLL and hematologic malignancy space.
-
-**Recommended follow-up**: re-run evidence collection using the broader term "chronic lymphocytic leukemia" (rather than the IGHV-mutation-qualified subtype) to surface the pivotal trials (e.g., MURANO, CLL14) that actually support this indication.
-
----
+The predicted indication is a molecular subtype (mutated IGHV) of CLL/SLL, a disease in which venetoclax is already used. Any support for this subtype comes only from the parent CLL/SLL disease, so it is not a distinct repurposing signal. The package has no subtype-specific data on efficacy or resistance. The high TxGNN score is a model prediction only.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for this specific ontology term.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for this specific ontology term.
-
-*(Note: the closely related entry "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma" in the same evidence pack cites one review, PMID [35158929](https://pubmed.ncbi.nlm.nih.gov/35158929/), on BCR structure/IGHV subsets in CLL — background context only, not direct efficacy evidence for Venetoclax.)*
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Venetoclax has **no registered license in Singapore** (`total_licenses: 0`, `market_status: Not marketed/Not Marketed`). No product/dosage-form/indication data is available to tabulate.
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN15267P | VENCLEXTA FILM-COATED TABLET 100MG | Tablet, film coated |
+| SIN15266P | VENCLEXTA FILM-COATED TABLET 50MG | Tablet, film coated |
+| SIN15265P | VENCLEXTA FILM-COATED TABLET 10MG | Tablet, film coated |
 
----
+All three products are oral tablets from AbbVie. The approved indication text was not available for any of them.
 
 ## Cytotoxicity
 
-Venetoclax is an antineoplastic agent (targeted BCL-2 inhibitor used in hematologic malignancies), so this section applies.
-
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (BH3-mimetic / selective BCL-2 inhibitor) |
-| Myelosuppression Risk | High — neutropenia and thrombocytopenia are commonly reported, particularly in combination regimens (e.g., thrombocytopenia 80%, fatigue 60% in bendamustine-rituximab-ibrutinib combinations); tumour lysis syndrome and myelosuppression are the most frequently encountered toxicities across venetoclax-based regimens |
-| Emetogenicity Classification | Low to moderate (oral targeted agent) |
-| Monitoring Items | CBC with differential, renal function, electrolytes and uric acid (tumour lysis syndrome risk during dose ramp-up), liver function |
-| Handling Protection | Must follow cytotoxic/antineoplastic drug handling regulations |
-
----
+| Cytotoxicity Classification | Targeted therapy (BCL-2 inhibitor) |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert warnings and precautions |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-*(Note: TFDA/local package-insert warnings and contraindications are flagged as a Blocking data gap, DG001 — this must be resolved before any Stage 1 safety review can proceed.)*
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model's #1-ranked prediction for Venetoclax, "CLL/SLL with IGHV somatic hypermutation," currently has zero directly matched clinical trials or publications, and the drug itself is not registered in Singapore. While the underlying BCL-2 mechanism is well established for CLL/SLL broadly (and even more strongly for AML — see rank 4 in the underlying prediction set, which carries L2 evidence with a "Proceed with Guardrails" recommendation), this specific granular ontology term lacks the direct evidence needed to move past a research question stage.
+The BCL-2 mechanism is plausible for CLL/SLL, but the package contains no trials or publications for this subtype. The score is a model prediction only. Support from the parent CLL/SLL disease does not constitute a separate repurposing signal.
 
 **To proceed, the following is needed:**
-- TFDA/local regulatory label (warnings, contraindications) — currently a Blocking data gap (DG001)
-- Formal mechanism-of-action documentation (DG002)
-- Re-run evidence search using the broader "chronic lymphocytic leukemia" term to capture pivotal trials (e.g., MURANO) already known to support this drug class in CLL/SLL
-- If pursuing repurposing in Singapore, evaluate whether the better-evidenced predicted indications in this dataset (myeloid leukemia/AML, follicular lymphoma) represent a more actionable entry point, given their stronger L2-level trial support
+- The HSA package insert, to confirm the registered indication, warnings and contraindications. Safety screening cannot proceed without it.
+- Subtype-specific data for mutated-IGHV CLL/SLL, such as trial subgroup analyses or biomarker studies.
+- DrugBank mechanism-of-action data, to complete the mechanistic-link analysis.
+- A decision on whether to assess this subtype within the broader CLL/SLL indication instead of as a separate candidate.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -29,12 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Mannitol: From an Undocumented Original Indication to Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD)
+# Mannitol: From Osmotic Diuretic Use to Nephrogenic Syndrome of Inappropriate Antidiuresis
 
 ## One-Sentence Summary
 
-Mannitol's original approved indication is not documented in this evidence pack (a DrugBank record was located, but its indication/MOA text was not captured — flagged as data gap DG002), so no verified "from" indication can be cited here.
-The TxGNN model predicts it may be effective for **Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD)**, with a prediction score of **99.97%**, but this is currently supported by only **0 clinical trials** and **1 non-specific review article**.
+Mannitol is an intravenous osmotic diuretic that is marketed in Singapore under 2 registrations.
+The TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**.
+This prediction has **0 clinical trials** and **1 general review** behind it, and the review does not mention mannitol, so the evidence is **model prediction only**.
 
 ---
 
@@ -42,23 +43,23 @@ The TxGNN model predicts it may be effective for **Nephrogenic Syndrome of Inapp
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — DrugBank record found, but indication/MOA text not extracted (see data gap DG002); no Singapore license records exist to source this from |
-| Predicted New Indication | Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD) |
+| Original Indication | Not stated in the Singapore registration records (mannitol is an osmotic diuretic) |
+| Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 99.97% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action (MOA) data for Mannitol is not available in this evidence pack. A DrugBank query returned a record (query log #2, `result_status: success`), but the MOA and original-indication text were not extracted, and this is explicitly flagged as a High-severity data gap (DG002) requiring a follow-up DrugBank API lookup. Because this specific dataset does not confirm Mannitol's approved indication, this report does not assert one.
+Currently, detailed mechanism of action data is not available in the record. Mannitol is known as an osmotic diuretic. It draws water out of cells and increases urine flow through osmotic water shift.
 
-NSIAD is a rare condition caused by gain-of-function mutations in the vasopressin V2 receptor (AVPR2), which produces persistent free-water retention and hyponatremia independent of actual ADH levels. Standard management relies on fluid restriction, urea, or vaptan-class V2-receptor antagonists. Mannitol, as an osmotic diuretic, could theoretically increase free-water excretion — this is the plausible mechanistic bridge that the knowledge graph appears to have captured.
+On mechanism, the prediction is hard to defend. NSIAD is a hyponatraemic condition driven by inappropriate antidiuresis (the body retains too much water). Mannitol lowers serum sodium through osmotic water shift. This is the opposite of what such a patient needs, and it could worsen the sodium imbalance. The very high TxGNN score is most likely an artefact of proximity in the knowledge graph. No mannitol-specific evidence supports it.
 
-However, the single supporting literature item (PMID 26706473) is a general review on diagnostic pitfalls in hyponatremia evaluation — it does not specifically discuss Mannitol's role in NSIAD, and no NSIAD-specific trials, case series, or mechanistic studies were found. The mechanistic link is therefore a plausible extrapolation rather than a demonstrated therapeutic relationship, consistent with the evidence being graded **L5 (model prediction only, no disease-specific studies)**.
+The 10 predictions in the Evidence Pack all sit at Hold. Several (malignant hyperthermia, periodic paralysis) show only indirect or supportive links, such as mannitol as a formulation excipient or a forced-diuresis aid. None shows disease-modifying activity.
 
 ---
 
@@ -72,13 +73,18 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [26706473](https://pubmed.ncbi.nlm.nih.gov/26706473/) | 2016 | Review | European Journal of Internal Medicine | General review of common diagnostic pitfalls in evaluating hyponatremia; does not specifically address Mannitol or its use in NSIAD. |
+| [26706473](https://pubmed.ncbi.nlm.nih.gov/26706473/) | 2016 | Review | European Journal of Internal Medicine | Describes common pitfalls in evaluating patients with hyponatraemia, including under- and over-treatment. It contains no mannitol-specific data. |
 
 ---
 
 ## Singapore Market Information
 
-Mannitol currently has no marketing authorization on record in Singapore (0 registrations). This evidence pack contains no license entries to list.
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN10315P | Mannitol Intravenous Injection 20% | Injection | Euro-Med Laboratories Phil Inc |
+| SIN05957P | Osmofundin Injection 20% | Injection | B. Braun Medical Industries Sdn Bhd |
+
+The registry records do not list approved indication text for either product.
 
 ---
 
@@ -86,7 +92,7 @@ Mannitol currently has no marketing authorization on record in Singapore (0 regi
 
 Please refer to the package insert for safety information.
 
-Note: TFDA/HSA label warnings and contraindications for Mannitol are not yet captured in this evidence pack (Blocking data gap DG001) — this must be resolved before any Stage 1 (S1) safety screening can proceed. No drug-drug interaction data was found (DDI query returned `not_found`, 0 results).
+One mechanism-based concern applies to this prediction. Mannitol's osmotic effect may aggravate water and sodium imbalance in a hyponatraemic condition.
 
 ---
 
@@ -95,15 +101,13 @@ Note: TFDA/HSA label warnings and contraindications for Mannitol are not yet cap
 **Decision: Hold**
 
 **Rationale:**
-The only supporting evidence is a single general review that does not specifically discuss Mannitol in NSIAD, with zero disease-specific trials or case studies, placing this candidate at evidence level L5 (model prediction only). Combined with a Blocking safety data gap (DG001) and Mannitol's non-marketed status in Singapore, there is currently no basis to advance this candidate beyond initial screening.
+The high TxGNN score is not backed by any trial, mannitol-specific literature or plausible mechanism, and the mechanism points the wrong way. Evidence stays at L5, and the safety review is blocked because package insert data are missing.
 
 **To proceed, the following is needed:**
-- TFDA/HSA package insert (warnings, contraindications) — resolve DG001 (Blocking)
-- DrugBank-sourced mechanism of action detail for Mannitol — resolve DG002 (High)
-- At least one study or case report specifically evaluating Mannitol (not diuretics in general) in NSIAD or a closely related SIAD/hyponatremia cohort
-- Assessment of an import/special-access pathway, since Mannitol currently holds zero marketing registrations in Singapore
-
-*Note: This evidence pack also contains 9 additional lower-ranked predicted indications (ranks 2–10, TxGNN scores 99.66%–99.88%), all currently rated Hold with L4–L5 evidence. Several (e.g., malignant hyperthermia susceptibility, exercise-induced malignant hyperthermia, King-Denborough syndrome) appear to stem from knowledge-graph confounding via Mannitol's role as an excipient in Dantrolene injection formulations rather than direct pharmacological activity, per the rationale notes in the evidence pack.*
+- HSA package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank, to support mechanistic analysis
+- Any mannitol-specific clinical or preclinical evidence in NSIAD. Without it, the prediction should not advance.
+- Review of the other nine predicted indications in the Evidence Pack, in case any has stronger support than this one
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

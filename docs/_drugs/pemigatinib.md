@@ -29,11 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pemigatinib: From Cholangiocarcinoma to Multiple Endocrine Neoplasia
+# Pemigatinib: From FGFR-Targeted Cancer Therapy to Multiple Endocrine Neoplasia
 
 ## One-Sentence Summary
 
-Pemigatinib is a selective FGFR1-3 tyrosine kinase inhibitor, originally developed for FGFR2 fusion/rearrangement-positive cholangiocarcinoma. The TxGNN model predicts a possible link to **Multiple Endocrine Neoplasia (MEN)** with a **99.71%** prediction score, but there are currently **no clinical trials and no literature** supporting this direction, and the biological rationale is weak.
+Pemigatinib is an oral, selective FGFR1-3 inhibitor marketed in Singapore as Pemazyre tablets.
+The TxGNN model predicts it may be effective for **multiple endocrine neoplasia (MEN)**, but **no clinical trials and no publications** support this prediction, so it rests on the model score alone.
 
 ---
 
@@ -41,23 +42,27 @@ Pemigatinib is a selective FGFR1-3 tyrosine kinase inhibitor, originally develop
 
 | Item | Content |
 |------|------|
-| Original Indication | Cholangiocarcinoma, FGFR2 fusion/rearrangement-positive (not verifiable via Singapore license records — drug is not marketed locally) |
-| Predicted New Indication | Multiple Endocrine Neoplasia |
+| Original Indication | Not stated in the Singapore registration records |
+| Predicted New Indication | Multiple endocrine neoplasia |
 | TxGNN Prediction Score | 99.71% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 3 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Pemigatinib is a small-molecule, orally administered inhibitor that selectively targets FGFR1, FGFR2, and FGFR3 tyrosine kinases. Its established clinical value comes from blocking aberrant FGFR2 signaling in fusion/rearrangement-positive cholangiocarcinoma.
+Pemigatinib is a selective inhibitor of FGFR1, FGFR2 and FGFR3. Detailed mechanism-of-action data is not available in the source data. The FGFR-inhibitor description comes from the mechanistic assessment in the Evidence Pack.
 
-Multiple Endocrine Neoplasia, however, is not an FGFR-driven disease — MEN1 and MEN2 syndromes are caused by germline mutations in the *MEN1* and *RET* genes respectively, pathways unrelated to FGFR signaling. The evidence pack's own mechanistic assessment explicitly flags this gap, noting no literature supports a role for FGFR inhibitors in MEN.
+The link to the predicted indication is weak. MEN syndromes are driven mainly by MEN1 and RET alterations, and no direct FGFR-driven mechanism is established for them. The high score (0.997, model rank 4529) is a statistical output of the knowledge graph. It has not been confirmed by any trial, publication or preclinical study.
 
-Given the absence of a plausible biological mechanism and the complete lack of supporting trials or publications, this specific prediction (rank 1) is best interpreted as a high TxGNN similarity score that does not reflect a validated pharmacological relationship — likely a knowledge-graph artifact rather than a genuine repurposing signal.
+Other high-scoring predictions for this drug raise further doubts about the model output:
+- **Veterinary diseases** (infectious bovine rhinotracheitis, malignant catarrhal fever) are likely knowledge-graph artifacts and are not human indications.
+- **Three overlapping ALS entries** should be read as a single signal. FGF signalling is generally neurotrophic, so FGFR inhibition could be neutral or harmful.
+- **Amenorrhea** appears to have the opposite direction of effect. FGFR1 signalling supports GnRH neuron development, so FGFR inhibition is more likely to disturb the reproductive axis than to treat amenorrhea.
+- **HER2-positive breast carcinoma** is the only prediction with a plausible mechanism, because FGFR pathway alterations have been discussed as resistance or co-drivers. The one retrieved paper is a general kinase-inhibitor review with no pemigatinib efficacy data, so this remains a research question.
 
 ---
 
@@ -75,7 +80,13 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Pemigatinib is not marketed in Singapore; no license records are available in the evidence pack.
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN17042P | PEMAZYRE TABLETS 4.5 MG | Tablet | Lonza Tampa LLC |
+| SIN17043P | PEMAZYRE TABLETS 9 MG | Tablet | Lonza Tampa LLC |
+| SIN17044P | PEMAZYRE TABLETS 13.5 MG | Tablet | Lonza Tampa LLC |
+
+The registration records do not include approved indication text. All three products are oral tablets.
 
 ---
 
@@ -83,17 +94,21 @@ Pemigatinib is not marketed in Singapore; no license records are available in th
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (selective FGFR1-3 small-molecule tyrosine kinase inhibitor) |
-| Myelosuppression Risk | Not available in evidence pack — please refer to the package insert |
-| Emetogenicity Classification | Not available in evidence pack — please refer to the package insert |
-| Monitoring Items | Not available in evidence pack — please refer to the package insert |
-| Handling Protection | Not available in evidence pack — please refer to the package insert |
+| Cytotoxicity Classification | Targeted therapy (FGFR kinase inhibitor), not a conventional cytotoxic agent |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert warnings and precautions |
+| Handling Protection | Please refer to the package insert warnings and precautions |
+
+The classification is inferred from the drug class. The Evidence Pack contains no DrugBank toxicity data.
 
 ---
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
+
+The drug-interaction query returned no records. This means no data was found, not that no interactions exist.
 
 ---
 
@@ -102,14 +117,16 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-Evidence level is L5 — a model prediction with no clinical trials, no literature, and no supported mechanism of action. The rationale in the evidence pack itself indicates MEN is driven by *RET*/*MEN1* mutations rather than FGFR signaling, making this a low-confidence candidate not warranted for further investment at this time.
+The 99.71% TxGNN score for multiple endocrine neoplasia is not supported by any trial, publication or established mechanism. MEN is driven mainly by MEN1 and RET, not FGFR. The evidence level is L5 (model prediction only), and the safety package is incomplete.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism-of-action data (MOA) for Pemigatinib beyond the FGFR1-3 target class
-- Preclinical or mechanistic evidence directly linking FGFR inhibition to MEN pathophysiology
-- Full safety profile (contraindications, key warnings, DDI) from TFDA/manufacturer labeling
-- Singapore regulatory/registration status confirmation
-- Consider reprioritizing evaluation toward rank 3 (HER2-positive breast carcinoma, evidence level L4, decision stage S1), which has a documented mechanistic crosstalk rationale (FGFR upregulation as a HER2-targeted therapy resistance mechanism) and at least one supporting literature reference — a comparatively stronger candidate than the top-ranked MEN prediction.
+- Preclinical or mechanistic evidence linking FGFR signalling to MEN pathology
+- Mechanism of action data from DrugBank
+- HSA package insert warnings and contraindications, which block safety screening
+- Approved indication text for the Singapore registrations
+- Separate follow-up on HER2-positive breast carcinoma (FGFR as a resistance pathway) as a more plausible research question
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

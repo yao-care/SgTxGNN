@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Dydrogesterone
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 358
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
 ---
 
 # Dydrogesterone
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,96 +29,66 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Dydrogesterone: From Endometriosis to Amenorrhea
+# Dydrogesterone: From Progestogen Therapy to Seborrheic Keratosis
 
 ## One-Sentence Summary
 
-Dydrogesterone (Duphaston®) is a synthetic progestogen with over 50 years of documented clinical use in Europe and Asia for gynaecological conditions including endometriosis, dysmenorrhea, and luteal phase insufficiency.
-The TxGNN model predicts it may be effective for **Amenorrhea**, with **6 clinical trials** and **6 publications** currently supporting this direction.
-The mechanistic rationale is strong: dydrogesterone's selective progestogenic action on the endometrium is the pharmacological foundation of hormone replacement therapy (HRT) regimens routinely used to manage both primary and secondary amenorrhea — though it is not currently registered in Singapore.
-
----
+Dydrogesterone is a progestogen (progesterone-receptor agonist) marketed in Singapore in gynecologic hormone products. The Singapore registry data do not state its approved indication.
+The TxGNN model predicts it may be effective for **Seborrheic Keratosis**, but **no clinical trials and no publications** currently support this prediction.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Gynecological disorders (endometriosis, dysmenorrhea, luteal insufficiency) — based on published literature; no Singapore registration on record |
-| Predicted New Indication | Amenorrhea |
-| TxGNN Prediction Score | 88.53% |
-| Evidence Level | L3 |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+|------|------|
+| Predicted New Indication | Seborrheic keratosis |
+| TxGNN Prediction Score | 92.06% |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Dydrogesterone is a synthetic progestogen that selectively binds to progesterone receptors (PR-A and PR-B) in the endometrium, triggering the transition from the proliferative phase to the secretory phase. This mechanism — progestogen opposition of estrogen-driven endometrial proliferation — is the pharmacological cornerstone of cyclic HRT worldwide. Unlike many synthetic progestogens, dydrogesterone carries no androgenic, glucocorticoid, or mineralocorticoid side-activity, making it a preferred agent for long-term gynaecological use.
+Currently, detailed mechanism of action data is not available. Dydrogesterone is a selective progesterone-receptor agonist used in gynecologic hormone therapy, such as supporting the endometrium. Based on the provided data, no plausible link between progestogen activity and seborrheic keratosis has been identified.
 
-Amenorrhea (both primary and secondary) frequently arises from conditions characterised by insufficient progesterone signalling: premature ovarian insufficiency (POI), hypothalamic-pituitary axis dysfunction, and Asherman's syndrome (intrauterine adhesions following uterine surgery). In all these settings, cyclic progestogen administration — commonly dydrogesterone — is standard HRT practice to restore cyclical bleeding, protect the endometrium from unopposed estrogen, and support uterine development. The 1972 French clinical review (PMID 4673267) and the 1977 German progestin therapy review (PMID 556711) both document dydrogesterone's established gynaecological role, and the 2022 Cochrane review (PMID 36200708) confirms progestogen as an essential HRT component in POI — a leading cause of secondary amenorrhea.
-
-The TxGNN prediction therefore aligns precisely with well-established pharmacological rationale and half a century of clinical practice in Europe and Asia. The gap in evidence is not mechanistic uncertainty but rather the absence of direct head-to-head trials specifically labelled for amenorrhea as the primary endpoint, and the lack of any Singapore regulatory registration.
-
----
+Seborrheic keratosis is a common benign epidermal skin lesion, pharmacologically unrelated to gynecologic hormone therapy. The score of 92.06% reflects a statistical association in the knowledge graph, not a demonstrated biological mechanism. The prediction should be treated as a hypothesis only.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT06952296](https://clinicaltrials.gov/study/NCT06952296) | N/A | Not Yet Recruiting | 250 | Observational multicenter study of dydrogesterone for endometriosis-associated pain; not yet started and has no results, but confirms ongoing regulatory-level interest in dydrogesterone for gynaecological indications |
-| [NCT03329898](https://clinicaltrials.gov/study/NCT03329898) | N/A | Unknown | 200 | Balloon uterine stent combined with hormonal therapy (estrogen + progestogen) for Asherman's syndrome — a primary cause of secondary amenorrhea; directly relevant disease context |
-| [NCT01300676](https://clinicaltrials.gov/study/NCT01300676) | Phase 2/3 | Completed | 79 | Completed comparison of HRT (estrogen + progestogen including dydrogesterone) vs. Tualang honey in postmenopausal women; establishes safety profile in HRT context |
-| [NCT02726971](https://clinicaltrials.gov/study/NCT02726971) | Phase 1/2 | Completed | 141 | Completed RCT of estrogen dose after hysteroscopic adhesiolysis for Asherman's syndrome; sequential progestogen (e.g., dydrogesterone) is standard in such regimens |
-| [NCT03346317](https://clinicaltrials.gov/study/NCT03346317) | N/A | Unknown | 100 | Asherman's syndrome therapy with balloon stent + estrogen vs. amnion graft; hormonal regimen directly relevant to secondary amenorrhea management |
-| [NCT03351205](https://clinicaltrials.gov/study/NCT03351205) | N/A | Unknown | 100 | Prevention of adhesion recurrence post-hysteroscopy with estrogen and sequential progestogen; confirms multi-centre adoption of hormonal protocols for adhesion-related amenorrhea |
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [36200708](https://pubmed.ncbi.nlm.nih.gov/36200708/) | 2022 | Cochrane Review | Cochrane Database Syst Rev | Systematic review of HRT for uterine and endometrial development in POI; amenorrhea is a defining feature of POI, and progestogen (including dydrogesterone) is an essential HRT component — highest-quality evidence in this pack |
-| [556711](https://pubmed.ncbi.nlm.nih.gov/556711/) | 1977 | Review | Fortschritte der Medizin | German review of progestin therapy spectrum; dydrogesterone specifically recommended for endometriosis and broader reproductive gynaecological indications; early authoritative documentation of its clinical utility |
-| [4673267](https://pubmed.ncbi.nlm.nih.gov/4673267/) | 1972 | Clinical Review | La Nouvelle presse médicale | Earliest clinical review of dydrogesterone indications in gynaecology — documents its role in menstrual cycle-related conditions from the outset of clinical use |
-| [23185193](https://pubmed.ncbi.nlm.nih.gov/23185193/) | 2012 | Cohort | Archives of Medical Science | Estroprogestagen therapy (including dydrogesterone) in adolescent girls with functional hypothalamic amenorrhea (FHA); assessed impact on bone mineral density across ER-α polymorphism subtypes |
-| [34219314](https://pubmed.ncbi.nlm.nih.gov/34219314/) | 2021 | Case Report | J Obstet Gynaecol Res | Secondary hypopituitarism post-craniopharyngioma resection causing primary amenorrhea; sequential estrogen + progesterone (dydrogesterone component) used for endometrial support and successful conception |
-| [39901965](https://pubmed.ncbi.nlm.nih.gov/39901965/) | 2025 | Case Report | SAGE Open Med Case Rep | Turner syndrome presenting with primary amenorrhea and ischemic cardiomyopathy; illustrates the clinical HRT context where progestogens including dydrogesterone are integral to management |
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Dydrogesterone is **not currently registered in Singapore**. No marketing authorisations are on record (total licences: 0).
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN11255P | DUPHASTON TABLET 10 mg (Film-coated) | Film-coated tablet | Abbott Biologicals B.V. |
+| SIN12121P | FEMOSTON CONTI 1/5 TABLET | Film-coated tablet | Abbott Biologicals B.V. |
 
-> **Context for decision-makers:** Dydrogesterone is marketed globally as Duphaston® (Abbott/Viatris) and holds regulatory approvals for gynaecological indications in the EU, UK, Japan, Hong Kong, Malaysia, and numerous other countries. A Singapore registration pathway via HSA (NDA or GDA submission) would need to be formally assessed before any clinical application.
-
----
+Both products are oral. The registry data do not include approved indication text.
 
 ## Safety Considerations
 
-Detailed safety data (package insert warnings, contraindications, and drug–drug interaction data) is not available in this Evidence Pack.
-
-> Please refer to the official package insert and current prescribing information for complete safety information. Priority areas to review before any clinical application include: risk of thromboembolic events, hepatic function in patients with hepatic impairment, contraindications in hormone-sensitive conditions, and use in pregnancy (luteal phase support versus teratogenicity data).
-
----
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Dydrogesterone's progestogenic mechanism is the established pharmacological basis for managing progesterone-deficiency-related amenorrhea (POI, Asherman's syndrome post-operative HRT, and hypothalamic amenorrhea), supported by over 50 years of documented clinical use globally. Evidence is predominantly observational and indirect (L3) rather than from head-to-head amenorrhea-specific RCTs, and Singapore registration is currently absent — these are the two guardrails that must be addressed before clinical deployment.
+The prediction rests on the model score alone (L5). No trials or publications were retrieved for seborrheic keratosis, and no supporting mechanism is evident for this benign skin lesion.
+
+Among the other top-10 predictions, only amenorrhea has any indirect evidence. It is a plausible gynecologic use, but it may reflect an existing labeled indication rather than true repurposing. The other predictions are mostly hematologic (myelodysplastic syndrome cluster) or rare benign lesions, with no evidence retrieved. Cholecystolithiasis raises a possible safety signal, since progestogens may increase gallstone risk.
 
 **To proceed, the following is needed:**
-
-- **Singapore registration:** Dydrogesterone is not currently marketed in Singapore; a formal HSA NDA/GDA submission is a prerequisite for any clinical use
-- **Full safety review (DG001):** Obtain and parse the official product insert (TFDA or EMA SmPC) for contraindications, boxed warnings, and drug interactions before clinical application
-- **MOA data (DG002):** Confirm detailed mechanism of action via DrugBank API query to support the mechanistic link analysis
-- **Targeted clinical evidence:** Identify or sponsor prospective studies evaluating dydrogesterone as part of sequential HRT specifically in well-defined amenorrhea subtypes (POI, Asherman's post-hysteroscopy, hypothalamic amenorrhea) in the Singapore/Southeast Asian population
-- **Population-specific safety assessment:** Review safety data in the target demographic, including adolescents (for FHA) and women of reproductive age with POI, given the long-term HRT exposure anticipated
+- HSA package insert (approved indications, warnings, contraindications)
+- Mechanism of action data from DrugBank
+- A targeted literature and trial search on progestogens and seborrheic keratosis
+- A mechanistic rationale linking progesterone-receptor signalling to keratinocyte biology
+- Consideration of amenorrhea (or other gynecologic indications) as a more evidence-supported direction, after verifying label status against the local regulatory source
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

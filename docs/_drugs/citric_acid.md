@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Citric Acid
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 255
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 ---
 
 # Citric Acid
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,94 +29,93 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Citric Acid: From Pharmaceutical Excipient to Stomach Disease
+# Citric Acid: From Multi-Product Oral Formulations to Stomach Disease
 
 ## One-Sentence Summary
 
-Citric acid is a naturally occurring organic acid primarily used as a pharmaceutical excipient, food acidity regulator, and diagnostic test meal component, with no currently approved standalone therapeutic indications.
-The TxGNN model predicts it may be relevant to **Stomach Disease** with a score of 99.74%,
-supported by metabolomics observations and preclinical data, though no direct clinical intervention evidence currently exists.
-
----
+Citric acid is marketed in Singapore as an ingredient in oral solutions, granules and powders, but the registration records supplied contain no approved-indication text.
+The TxGNN model predicts it may be relevant to **Stomach Disease**, and 29 clinical trials and 20 publications were retrieved for this pairing.
+None of them tests citric acid as a treatment for a stomach condition, so the prediction is **supported by the model score only**.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | No approved therapeutic indication (used as pharmaceutical excipient / food acidity regulator) |
-| Predicted New Indication | Stomach Disease |
-| TxGNN Prediction Score | 99.74% |
-| Evidence Level | L4 |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Predicted New Indication | Stomach disease |
+| TxGNN Prediction Score | 99.74% (model rank 4,102) |
+| Evidence Level | L4 (mechanistic and diagnostic-adjunct studies only; no therapeutic trial) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 5 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for citric acid as a standalone therapeutic agent. Based on known information, citric acid is a naturally occurring tricarboxylic acid that serves as a fundamental intermediate in the TCA (tricarboxylic acid / Krebs) cycle and is a well-documented normal component of human gastric juice (PMID 6027230). Its deep integration into gastric physiology provides the likely basis for the TxGNN model's prediction.
+Detailed mechanism-of-action data is not available for citric acid. Based on known information, citric acid is an acidifying agent that also delays gastric emptying. In gastric research it is used as a test-meal component to improve the accuracy of the 13C-urea breath test for *H. pylori*.
 
-Citric acid's most established role in gastroenterology is as a diagnostic adjunct rather than a therapeutic agent: it is used as the test meal medium in the ¹³C-urea breath test (¹³C-UBT), where its acidic properties delay gastric emptying and measurably improve the accuracy of *Helicobacter pylori* detection in Asian populations (PMID 31505905). Separately, a preclinical study found that MX1 — a novel compound combining the H₂-blocker roxatidine with a bismuth-citric acid complex — demonstrated gastroprotective effects against stress-induced ulcers in rats (PMID 9379358), suggesting that citrate-containing compounds may interact with gastric mucosal defense mechanisms.
+That is a **diagnostic adjunct, not a treatment effect**. The gastric-cancer papers describe changes in citrate and the TCA cycle as metabolic signatures of disease, not as a treatment target. Only a few older or animal studies touch on therapy. These include a bismuth-citrate salt tested against stress ulcers in rats (1997) and a comparison of calcium citrate and carbonate absorption in patients with achlorhydria (1985). Neither supports treating stomach disease with citric acid itself.
 
-Metabolomics research adds further indirect support: serum citric acid levels are elevated prior to gastric cancer onset and correlate negatively with alkaline phosphatase in Korean cohorts (PMID 35900644), while TCA cycle upregulation — with citric acid as its central molecule — defines the MSC1 gastric cancer subtype associated with better prognosis (PMID 38959111). H. pylori infection also demonstrably alters TCA cycle metabolites in stomach tissue (PMID 28546118). These findings collectively indicate that the TxGNN prediction captures citric acid's physiological centrality in gastric biology, but current evidence remains observational and mechanistic rather than therapeutic.
-
----
+The 99.74% score should therefore be read as a knowledge-graph association. It reflects how often citrate appears in gastric biology, not evidence that it works clinically.
 
 ## Clinical Trial Evidence
 
-No clinical trials directly investigate citric acid as a standalone treatment for stomach disease. The trials retrieved for this indication are largely studies of other interventions in related gastric conditions. The most thematically relevant are listed below:
+The search returned 29 trials. Most were found because the stomach or digestive terms overlap, and citric acid is not the studied intervention. The most relevant ones are listed below.
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT07122284](https://clinicaltrials.gov/study/NCT07122284) | N/A | Completed | 42 | Metagenomic and metabolomic characterization of gut ecosystem in concurrent H. pylori infection and SIBO; citric acid may appear as a metabolic biomarker but is not the investigational drug |
-| [NCT03812380](https://clinicaltrials.gov/study/NCT03812380) | Phase 3 | Terminated | 62 | Effervescent calcium magnesium **citrate** to prevent PPI-related complications (fractures, hypomagnesaemia, CKD) in patients treated for gastric ulcer/gastritis; uses a citrate-containing compound but was terminated early |
-| [NCT05753306](https://clinicaltrials.gov/study/NCT05753306) | Phase 2 | Recruiting | 40 | Robotic cytoreduction and HIPEC for gastric cancer with limited peritoneal metastasis; stomach-related context but does not involve citric acid |
-| [NCT04350346](https://clinicaltrials.gov/study/NCT04350346) | N/A | Unknown | 70 | Motilitone vs Gasmotin for functional dyspepsia in gallstone patients; stomach-related but does not involve citric acid |
-| [NCT03320538](https://clinicaltrials.gov/study/NCT03320538) | N/A | Completed | 360 | Hou Gu Mi Xi (TCM) for peptic ulcer disease; stomach-related but does not involve citric acid |
-
----
+| [NCT03812380](https://clinicaltrials.gov/study/NCT03812380) | Phase 3 | Terminated | 62 | Effervescent calcium magnesium citrate to avert PPI-associated complications (fractures, low magnesium, kidney disease) in patients on acid suppression. It targets complications of gastric treatment, not the gastric disease itself. |
+| [NCT02830789](https://clinicaltrials.gov/study/NCT02830789) | N/A | Completed | 38 | Calcium citrate vs calcium carbonate for secondary hyperparathyroidism after Roux-en-Y gastric bypass. Citrate is a calcium salt here. |
+| [NCT03425747](https://clinicaltrials.gov/study/NCT03425747) | Phase 4 | Completed | 26 | Calcium citrate vs carbonate in chronic hypoparathyroidism. Unrelated to stomach disease. |
+| [NCT04095975](https://clinicaltrials.gov/study/NCT04095975) | Phase 4 | Completed | 31 | Baking soda vs LithoLyte (a citrate-containing product) for raising urinary citrate and pH in kidney-stone risk. Relevant to citrate's urinary use, not gastric use. |
+| [NCT03851393](https://clinicaltrials.gov/study/NCT03851393) | N/A | Completed | 30 | Validation of Peptest for reflux detection in cough, including cough induction in healthy volunteers. A diagnostic study. |
+| [NCT07122284](https://clinicaltrials.gov/study/NCT07122284) | N/A | Completed | 42 | Gut microbiota and metabolic profiling in *H. pylori* infection with SIBO. Observational; citric acid is not given. |
+| [NCT03320538](https://clinicaltrials.gov/study/NCT03320538) | N/A | Completed | 360 | Herbal formula (Hou Gu Mi Xi) in peptic ulcer disease. Citric acid is not the studied agent. |
+| [NCT04350346](https://clinicaltrials.gov/study/NCT04350346) | N/A | Unknown | 70 | Motilitone vs Gasmotin for functional dyspepsia in gallstone patients. Citric acid is not involved. |
+| [NCT03342456](https://clinicaltrials.gov/study/NCT03342456) | Phase 4 | Completed | 184 | Ilaprazole/doxycycline bismuth quadruple therapy for *H. pylori*-positive duodenal ulcer. Standard eradication study; not a citric acid trial. |
+| [NCT05753306](https://clinicaltrials.gov/study/NCT05753306) | Phase 2 | Recruiting | 40 | Robotic cytoreduction plus HIPEC for gastric cancer with limited peritoneal metastasis. Citric acid is not the intervention. |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31505905](https://pubmed.ncbi.nlm.nih.gov/31505905/) | 2019 | Clinical Study | Gut and Liver | Citric acid test meal improves ¹³C-UBT diagnostic accuracy for H. pylori detection in Asian populations; establishes an active gastric role |
-| [9379358](https://pubmed.ncbi.nlm.nih.gov/9379358/) | 1997 | Preclinical | J Pharmacy & Pharmacology | MX1 (roxatidine + bismuth-citric acid complex) demonstrates gastroprotective efficacy against stress-induced ulcers in rats — the only preclinical evidence directly linking a citrate compound to gastric mucosal protection |
-| [6027230](https://pubmed.ncbi.nlm.nih.gov/6027230/) | 1967 | Basic Science | Gastroenterology | Citric acid confirmed as a normal constituent of human gastric juice; provides physiological baseline |
-| [35900644](https://pubmed.ncbi.nlm.nih.gov/35900644/) | 2022 | Observational | Metabolomics | High serum citric acid and L-carnitine levels negatively correlated with alkaline phosphatase; detectable before gastric cancer onset in Korean cohort — potential early-detection biomarker |
-| [38959111](https://pubmed.ncbi.nlm.nih.gov/38959111/) | 2024 | Molecular Classification | Cell Reports | TCA cycle upregulation (citric acid as central intermediate) defines the MSC1 gastric cancer subtype, which exhibits better prognosis and distinct TP53/RHOA mutations |
-| [28546118](https://pubmed.ncbi.nlm.nih.gov/28546118/) | 2017 | Preclinical | Microbial Pathogenesis | H. pylori infection progressively alters TCA cycle metabolites, including citric acid, in mouse gastric tissue over 1–6 months |
-| [37477784](https://pubmed.ncbi.nlm.nih.gov/37477784/) | 2024 | Review | Clinical & Translational Oncology | TCA cycle and mitochondrial energy metabolism reviewed as emerging therapeutic targets in gastric cancer; positions citric acid metabolism as pharmacologically relevant |
-| [26088916](https://pubmed.ncbi.nlm.nih.gov/26088916/) | 2015 | Metabolomics | Applied Biochemistry & Biotechnology | LC/MS metabolomic profiling of gastric cancer identifies dysregulation of citric acid–associated metabolic pathways as disease biomarkers |
-| [9604442](https://pubmed.ncbi.nlm.nih.gov/9604442/) | 1998 | Clinical Review | British Medical Bulletin | Overview of ¹³C-UBT (citric acid-assisted) for H. pylori diagnosis and monitoring of eradication therapy response |
-| [2072799](https://pubmed.ncbi.nlm.nih.gov/2072799/) | 1991 | Review | Medical Clinics of North America | Diet and nutrition in peptic ulcer disease; discusses how acidic components, including citric acid, may influence gastric acid secretion and mucosal irritation |
+| [31505905](https://pubmed.ncbi.nlm.nih.gov/31505905/) | 2019 | Diagnostic study | Gut Liver | Asks whether a citric acid meal increases the accuracy of the 13C-urea breath test in Asian populations. This is the strongest direct link, and it is diagnostic. |
+| [4000241](https://pubmed.ncbi.nlm.nih.gov/4000241/) | 1985 | Clinical study | N Engl J Med | Compared calcium absorption as carbonate and as pH-adjusted citrate in 11 fasting patients with achlorhydria and 9 normal subjects. |
+| [6027230](https://pubmed.ncbi.nlm.nih.gov/6027230/) | 1967 | Observational | Gastroenterology | Measured lactic, pyruvic, citric and uric acid and urea in human gastric juice. |
+| [35900644](https://pubmed.ncbi.nlm.nih.gov/35900644/) | 2022 | Cohort/Omics | Metabolomics | High serum L-carnitine and citric acid were detectable in Koreans before gastric cancer onset. This is a possible risk biomarker, not a therapy. |
+| [38959111](https://pubmed.ncbi.nlm.nih.gov/38959111/) | 2024 | Cohort/Omics | Cell Rep | Three metabolic subtypes of gastric cancer with distinct prognosis, one with upregulated TCA cycle and lipid metabolism. |
+| [37477784](https://pubmed.ncbi.nlm.nih.gov/37477784/) | 2024 | Review | Clin Transl Oncol | Energy metabolism (the Warburg effect) as a treatment target in gastric cancer. |
+| [2072799](https://pubmed.ncbi.nlm.nih.gov/2072799/) | 1991 | Review | Med Clin North Am | Restrictive diets are not needed in peptic ulcer disease. Advises avoiding extreme gastric acid stimulation. |
+| [9379358](https://pubmed.ncbi.nlm.nih.gov/9379358/) | 1997 | Animal study | J Pharm Pharmacol | MX1, a roxatidine-metabolite salt with a bismuth-citric acid complex, protected against stress ulcers in rats. Citric acid is a component, not the sole agent. |
+| [28546118](https://pubmed.ncbi.nlm.nih.gov/28546118/) | 2017 | Animal study | Microb Pathog | Metabolic pathway changes in stomach tissue of mice infected with *H. pylori*. |
+| [26088916](https://pubmed.ncbi.nlm.nih.gov/26088916/) | 2015 | Omics study | Appl Biochem Biotechnol | LC/MS metabolomics of gastric cancer as a source of biomarkers. |
 
----
+## Singapore Market Information
+
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN05148P | POTCIT MIXTURE | Solution |
+| SIN06732P | POTASSIUM CITRATE MIXTURE BP | Solution |
+| SIN17163P | PICO-SWIFT POWDER FOR ORAL SOLUTION | Powder, for solution |
+| SIN06442P | E-Z-GAS II GRANULES | Granule |
+| SIN14374P | Ural Effervescent Granules | Granule, effervescent |
+
+The approved-indication text for all five registrations is empty in the data supplied, so no indication can be quoted.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
----
+Please refer to the package insert for safety information. No DDI records were found for citric acid in the interaction query.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Evidence for citric acid in stomach disease is currently at Level L4 (preclinical data and metabolomics observations only), with no clinical trials directly testing citric acid as a standalone therapeutic intervention. The TxGNN model's high-confidence prediction likely captures citric acid's fundamental role in gastric physiology and the TCA cycle rather than an actionable therapeutic mechanism. Until a specific and testable clinical hypothesis is established, advancing this candidate is premature.
+The high TxGNN score is not backed by any therapeutic study. Trial and literature hits are either unrelated interventions or use citric acid as a diagnostic aid, test-meal component or metabolic marker. The evidence is L4, and safety screening cannot start because the package insert data is missing.
 
 **To proceed, the following is needed:**
-- Define a specific therapeutic hypothesis (e.g., TCA cycle modulation in gastric cancer metabolic reprogramming, H. pylori microenvironment acidification as anti-infective strategy, or gastric mucosal cytoprotection via bismuth-citrate complex formulation)
-- Retrieve full mechanism of action data from DrugBank and TFDA/HSA package inserts (currently unavailable — Data Gap DG002)
-- Conduct dedicated preclinical studies testing citric acid or citrate-containing compounds directly as a gastric disease treatment
-- Determine a clinically appropriate formulation, dose, and route of administration distinct from its excipient/diagnostic role
-- Resolve the safety data gap (Data Gap DG001): obtain TFDA package insert warnings and contraindications before any S1 safety assessment can proceed
-
----
-
-> ⚠️ **Disclaimer**: This report is for research reference only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any therapeutic application.
+- HSA package inserts for the five registrations, to obtain approved indications, warnings and contraindications (blocking gap)
+- DrugBank mechanism-of-action data to allow a proper mechanistic-link assessment
+- A defined therapeutic hypothesis in the stomach (for example acidification in achlorhydria) before any trial design
+- Consider redirecting effort to the lower-ranked **thrombotic disease** prediction (L3). It has established regional citrate anticoagulation in CRRT and hemodialysis, plus completed catheter-lock and dialysis trials (NCT04548713, NCT03887468). That evidence covers circuit or catheter clotting rather than treatment of thrombotic disease, so the formulation and role of citrate in those trials still need to be checked.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

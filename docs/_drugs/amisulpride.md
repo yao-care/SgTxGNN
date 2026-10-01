@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Amisulpride
-parent: High Evidence (L1-L2)
+parent: Low Evidence (L5)
 nav_order: 90
-evidence_level: L1
+evidence_level: L5
 indication_count: 10
 ---
 
 # Amisulpride
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,54 +29,54 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Amisulpride: From Unregistered Status to Schizophrenia Treatment in Singapore
+# Amisulpride: From Antipsychotic (Original Indication Not Recorded) to Schizophrenia
 
 ## One-Sentence Summary
 
-Amisulpride is a second-generation atypical antipsychotic of the substituted benzamide class, approved for schizophrenia in the European Union, Australia, and numerous other countries, but currently not registered in Singapore.
-The TxGNN model predicts it may be effective for **Schizophrenia** — effectively validating its well-established global evidence base in the Singapore context —
-with **50 clinical trials** and **20 publications** currently supporting this direction.
+Amisulpride is an atypical antipsychotic that is registered and marketed in Singapore as Solian tablets. The TxGNN model predicts it may be effective for **schizophrenia**, which is in practice confirmation of an established use rather than true repurposing. More than **40 registered clinical trials** and **18 publications** (including several RCTs and meta-analyses) support this direction.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No Singapore registration (drug not currently marketed in Singapore) |
+|------|------|
+| Original Indication | Not stated in the Singapore licence record (schizophrenia is an established use in many jurisdictions) |
 | Predicted New Indication | Schizophrenia |
 | TxGNN Prediction Score | 96.05% |
-| Evidence Level | L1 |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L1 (see note in the Conclusion) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Amisulpride is a highly selective dopamine receptor antagonist with a unique dual-dose mechanism of action. At higher doses (400–1,200 mg/day), it preferentially blocks postsynaptic D2/D3 receptors in the mesolimbic system, suppressing dopaminergic hyperactivity and alleviating positive symptoms such as hallucinations and delusions. At lower doses (50–300 mg/day), it preferentially blocks presynaptic D2/D3 autoreceptors, thereby disinhibiting dopamine release in the prefrontal cortex and improving negative symptoms — including blunted affect, social withdrawal, and avolition. Additionally, amisulpride exhibits 5-HT7 receptor antagonism, which further contributes to improvement of negative and affective symptoms. This mechanistic versatility distinguishes amisulpride from many other second-generation antipsychotics that rely primarily on broad 5-HT2A/D2 antagonism.
+Detailed mechanism of action data is not available in the source record. From the published literature, amisulpride is a selective D2/D3 dopamine receptor antagonist. At higher doses it blocks postsynaptic receptors, which is the basis of its antipsychotic effect on positive symptoms. At low doses it preferentially blocks presynaptic autoreceptors, which is thought to enhance dopaminergic transmission and may help negative symptoms.
 
-The dopamine hyperactivity hypothesis of schizophrenia — particularly excess mesolimbic D2 receptor stimulation — directly aligns with amisulpride's postsynaptic D2/D3 blocking mechanism. Its selective dopaminergic profile also affords a generally more favourable metabolic side-effect burden compared to agents such as clozapine or olanzapine, which is clinically meaningful for long-term maintenance therapy. The drug's ability to address both positive and negative symptom domains within a single agent represents a meaningful clinical advantage.
+Because schizophrenia is a core established use of amisulpride, the model's high score is well aligned with the drug's known pharmacology. The evidence goes beyond routine use. Trials cover clozapine-resistant schizophrenia (amisulpride augmentation), first-episode illness, and head-to-head comparisons with olanzapine, aripiprazole and risperidone.
 
-Amisulpride has been approved for schizophrenia in the European Union (marketed as Solian®), Australia, and numerous other markets for over two decades. A landmark 2013 Lancet network meta-analysis encompassing 212 trials and 43,049 patients ranked amisulpride among the most efficacious antipsychotics for overall schizophrenia outcomes. The high TxGNN prediction score (96.05%) reflects the robust mechanistic and clinical alignment between this drug and this indication, and the primary barrier to Singapore market access is regulatory — not evidentiary.
+The data cannot show which indication the Singapore licence covers, because the approved indication text is blank in the record. Confirming this against the HSA package insert is the first step before any use of this report for local decisions.
 
 ---
 
 ## Clinical Trial Evidence
 
+The table lists 10 of the most relevant trials. The full list contains more than 40 schizophrenia-related registrations.
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01105481](https://clinicaltrials.gov/study/NCT01105481) | Phase 4 | Completed | 273 | 14-week double-blind RCT of amisulpride augmentation therapy in clozapine-resistant schizophrenia; results (PMID 36253804) demonstrated significant improvement in psychopathology and cognitive performance versus placebo |
-| [NCT04528095](https://clinicaltrials.gov/study/NCT04528095) | Phase 3 | Unknown | 162 | Sequential multiple-assignment RCT (SMART) comparing antipsychotic regimens including amisulpride in treatment-resistant schizophrenia; status requires follow-up for published outcomes |
-| [NCT03510325](https://clinicaltrials.gov/study/NCT03510325) | Phase 3 | Completed | 762 | SMART design RCT evaluating antipsychotics including amisulpride for first-episode schizophrenia in real-world settings; assessed efficacy, adverse reactions, and pharmacoeconomics |
-| [NCT01609153](https://clinicaltrials.gov/study/NCT01609153) | Phase 4 | Completed | 328 | COMBINE trial: double-blind RCT assessing whether olanzapine + amisulpride combination is superior to either monotherapy in acutely ill patients (results published in Lancet Psychiatry 2022) |
-| [NCT01248195](https://clinicaltrials.gov/study/NCT01248195) | Phase 4 | Completed | 479 | OPTiMiSE study: optimising and individualising treatment in schizophrenia across Europe, with amisulpride as a primary first-line comparator arm |
-| [NCT03451734](https://clinicaltrials.gov/study/NCT03451734) | N/A | Completed | 2,000 | Large multicentre Chinese observational study across 20 hospitals randomising first-episode schizophrenia patients to amisulpride or other second-generation antipsychotics over 8 weeks |
-| [NCT05633108](https://clinicaltrials.gov/study/NCT05633108) | N/A | Completed | 579,728 | French national health insurance database study evaluating antipsychotic monotherapy versus polypharmacy (including amisulpride) on time to psychiatric rehospitalisation across psychotic disorders |
-| [NCT01446328](https://clinicaltrials.gov/study/NCT01446328) | Phase 4 | Completed | 151 | Bergen Psychosis Project 2: independent, pragmatic head-to-head comparison of amisulpride, aripiprazole, and olanzapine with 12-month follow-up; assessed symptoms, side effects, and cognition |
-| [NCT01795183](https://clinicaltrials.gov/study/NCT01795183) | Phase 4 | Completed | 316 | Prospective, open-label, multicentre study evaluating effectiveness and safety of amisulpride specifically in Chinese patients with schizophrenia — directly relevant to the Singapore population |
-| [NCT00245674](https://clinicaltrials.gov/study/NCT00245674) | Phase 4 | Completed | 300 | Solian oral solution study: observing antipsychotic effect and safety profile of amisulpride solution during the first days of an acute schizophrenic episode |
+| [NCT01105481](https://clinicaltrials.gov/study/NCT01105481) | Phase 4 | Completed | 273 | 14-week randomized, double-blind, placebo-controlled trial of amisulpride augmentation in clozapine-resistant schizophrenia (direct drug and disease match) |
+| [NCT01246232](https://clinicaltrials.gov/study/NCT01246232) | Phase 4 | Completed | 69 | Amisulpride augmentation in clozapine-unresponsive schizophrenia |
+| [NCT01609153](https://clinicaltrials.gov/study/NCT01609153) | Phase 4 | Completed | 328 | COMBINE: double-blind trial of olanzapine plus amisulpride versus each alone in acutely ill patients |
+| [NCT01446328](https://clinicaltrials.gov/study/NCT01446328) | Phase 4 | Completed | 151 | Bergen Psychosis Project 2: head-to-head comparison of aripiprazole, amisulpride and olanzapine over 12 months |
+| [NCT01615185](https://clinicaltrials.gov/study/NCT01615185) | Phase 4 | Terminated | 96 | Amisulpride 800 mg/day versus low-dose amisulpride plus low-dose sulpiride in acute exacerbation (6-week, double-blind) |
+| [NCT01795183](https://clinicaltrials.gov/study/NCT01795183) | Phase 4 | Completed | 316 | Prospective open-label multicenter study of effectiveness and safety in Chinese patients |
+| [NCT00761670](https://clinicaltrials.gov/study/NCT00761670) | Phase 4 | Completed | 37 | Amisulpride versus risperidone on cognitive function in chronic schizophrenia |
+| [NCT03510325](https://clinicaltrials.gov/study/NCT03510325) | Phase 3 | Completed | 762 | Sequential multiple-assignment randomized trial of antipsychotics in first-episode schizophrenia (the amisulpride arm is not confirmed from the record) |
+| [NCT04528095](https://clinicaltrials.gov/study/NCT04528095) | Phase 3 | Unknown | 162 | Sequential randomized comparison of antipsychotics in treatment-resistant schizophrenia (amisulpride arm unverified, status unknown) |
+| [NCT01029769](https://clinicaltrials.gov/study/NCT01029769) | N/A | Completed | 350 | Early antipsychotic switch versus maintenance in early non-responders (amisulpride-specific contribution unclear) |
 
 ---
 
@@ -84,39 +84,37 @@ Amisulpride has been approved for schizophrenia in the European Union (marketed 
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [23810019](https://pubmed.ncbi.nlm.nih.gov/23810019/) | 2013 | Network Meta-Analysis | Lancet | Leucht et al.: Among 15 antipsychotics across 212 trials (N=43,049), amisulpride ranked among the most efficacious agents for overall schizophrenia outcomes; established as first-tier treatment |
-| [36253804](https://pubmed.ncbi.nlm.nih.gov/36253804/) | 2022 | RCT | Military Medical Research | 12-week double-blind RCT (n=273): amisulpride augmentation significantly improved PANSS scores and cognitive function in patients with clozapine-resistant treatment-refractory schizophrenia |
-| [35276079](https://pubmed.ncbi.nlm.nih.gov/35276079/) | 2022 | RCT | Lancet Psychiatry | COMBINE trial (n=328): combination of amisulpride plus olanzapine demonstrated superior outcomes versus either monotherapy in acutely ill schizophrenia patients, informing polypharmacy practice |
-| [39002529](https://pubmed.ncbi.nlm.nih.gov/39002529/) | 2024 | RCT | Schizophrenia Research | BeSt InTro substudy (n=126): compared remission rates across amisulpride, aripiprazole, and olanzapine; amisulpride showed competitive remission rates, supporting its use as a first-line SGA |
-| [33069317](https://pubmed.ncbi.nlm.nih.gov/33069317/) | 2020 | Pragmatic RCT | Lancet Psychiatry | BeSt InTro trial: first independent, rater-blind, pragmatic head-to-head trial of amisulpride vs aripiprazole vs olanzapine; amisulpride demonstrated competitive efficacy and safety over 12 months |
-| [30115598](https://pubmed.ncbi.nlm.nih.gov/30115598/) | 2018 | RCT | Lancet Psychiatry | OPTiMiSE three-phase switching study: amisulpride as first-line agent achieved symptomatic remission in approximately 47% of first-episode schizophrenia patients at 10 weeks |
-| [29368205](https://pubmed.ncbi.nlm.nih.gov/29368205/) | 2018 | Systematic Review | Eur Arch Psychiatry Clin Neurosci | Antipsychotics for predominant or prominent negative symptoms: amisulpride identified as one of the most efficacious options for this clinically challenging symptom domain |
-| [30185173](https://pubmed.ncbi.nlm.nih.gov/30185173/) | 2018 | Meta-Analysis | BMC Psychiatry | Amisulpride vs olanzapine for schizophrenia in China (systematic review + meta-analysis): comparable efficacy with more favourable metabolic profile for amisulpride; cost-minimisation analysis supports amisulpride |
-| [36368055](https://pubmed.ncbi.nlm.nih.gov/36368055/) | 2022 | Review | Expert Opinion on Pharmacotherapy | Update on novel antipsychotics and strategies for treatment-resistant schizophrenia; amisulpride augmentation (particularly add-on to clozapine) reviewed as a clinically supported strategy |
-| [12685918](https://pubmed.ncbi.nlm.nih.gov/12685918/) | 2002 | Review | Int Clinical Psychopharmacology | Seminal review establishing the mechanistic rationale for amisulpride's dual-dose dopaminergic effects; addresses dosage optimisation for positive versus negative symptom targets |
+| [36253804](https://pubmed.ncbi.nlm.nih.gov/36253804/) | 2022 | RCT | Military Medical Research | 12-week double-blind, placebo-controlled trial: amisulpride augmentation in clozapine-resistant schizophrenia, improving cognitive performance and psychopathology |
+| [35276079](https://pubmed.ncbi.nlm.nih.gov/35276079/) | 2022 | RCT | Lancet Psychiatry | COMBINE: amisulpride plus olanzapine versus each monotherapy in acutely ill patients with schizophrenia |
+| [39002529](https://pubmed.ncbi.nlm.nih.gov/39002529/) | 2024 | RCT | Schizophrenia Research | Remission rates with amisulpride, aripiprazole and olanzapine in schizophrenia-spectrum disorders (126 patients) |
+| [23810019](https://pubmed.ncbi.nlm.nih.gov/23810019/) | 2013 | Network meta-analysis | Lancet | Comparative efficacy and tolerability of 15 antipsychotics in schizophrenia |
+| [30185173](https://pubmed.ncbi.nlm.nih.gov/30185173/) | 2018 | Meta-analysis | BMC Psychiatry | Amisulpride versus olanzapine: efficacy, safety and cost in China |
+| [29368205](https://pubmed.ncbi.nlm.nih.gov/29368205/) | 2018 | Systematic review / meta-analysis | Eur Arch Psychiatry Clin Neurosci | Antipsychotics for schizophrenia with predominant or prominent negative symptoms |
+| [33069317](https://pubmed.ncbi.nlm.nih.gov/33069317/) | 2020 | Pragmatic semi-randomised trial | Lancet Psychiatry | BeSt InTro: head-to-head comparison of amisulpride, aripiprazole and olanzapine |
+| [12076408](https://pubmed.ncbi.nlm.nih.gov/12076408/) | 2002 | Cochrane review | Cochrane Database Syst Rev | Amisulpride for schizophrenia, including movement-disorder risk relative to typical antipsychotics |
+| [36368055](https://pubmed.ncbi.nlm.nih.gov/36368055/) | 2022 | Review | Expert Opin Pharmacother | Novel antipsychotics and strategies for treatment-resistant schizophrenia |
+| [12685918](https://pubmed.ncbi.nlm.nih.gov/12685918/) | 2002 | Review | Int Clin Psychopharmacol | Dopaminergic deficit and the role of amisulpride in schizophrenia |
 
 ---
 
 ## Singapore Market Information
 
-Amisulpride currently holds **no approved product registrations** with the Health Sciences Authority (HSA) of Singapore. The drug is not available as a locally licensed medicinal product. There are no authorisation numbers, approved dosage forms, or registered indications on record.
-
-Clinicians wishing to prescribe amisulpride in Singapore would need to access it through the HSA Special Access Route (SAR) or similar regulatory pathway pending formal product registration.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN09773P | SOLIAN TABLET 200 mg (manufacturer: Delpharm Dijon) | Tablet (oral) | Not stated in the licence record |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Formal TFDA/HSA-specific warnings, contraindications, and drug–drug interaction data were not available in this evidence pack.
+The Evidence Pack contains no warnings, contraindications or interaction data for this product. The drug-interaction query returned no results. Please refer to the HSA package insert for full safety information.
 
-Based on the established pharmacological profile of amisulpride as a selective D2/D3 antagonist, the following clinically important safety considerations are known from the approved EU/Australian prescribing information and published literature:
+The repurposing analysis suggests the following monitoring guardrails:
 
-- **Hyperprolactinaemia**: Class effect of D2 receptor blockade; may manifest as galactorrhoea, amenorrhoea, or sexual dysfunction — monitor prolactin in long-term users
-- **QTc prolongation**: Amisulpride carries dose-dependent QTc-prolonging effects; baseline and periodic ECG monitoring is recommended, particularly at higher doses and in patients with cardiac risk factors
-- **Extrapyramidal symptoms (EPS)**: Risk is lower than first-generation antipsychotics but increases with dose; akathisia and parkinsonism may occur
-- **Metabolic profile**: Generally more favourable than clozapine or olanzapine, with lower risk of weight gain and dyslipidaemia — an advantage for long-term schizophrenia management
-
-For definitive prescribing guidance, consult the approved EU Summary of Product Characteristics (SmPC) or Australian Product Information for Solian®.
+- **Hyperprolactinemia**: monitor prolactin and related symptoms. Published data show this is a common adverse effect of amisulpride.
+- **QTc prolongation**: consider ECG monitoring in patients at risk.
+- **Renal function**: dose adjustment may be needed in renal impairment.
+- **Metabolic parameters**: monitor weight and glucose, although amisulpride is noted to have a comparatively favorable metabolic profile among antipsychotics.
 
 ---
 
@@ -125,16 +123,18 @@ For definitive prescribing guidance, consult the approved EU Summary of Product 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Amisulpride has robust Level 1 evidence for schizophrenia — supported by multiple completed Phase 3 and Phase 4 RCTs, a landmark Lancet network meta-analysis, regulatory approval in the EU and Australia, and over two decades of post-marketing real-world data. The primary barrier to Singapore use is the absence of local HSA registration, not a lack of clinical evidence.
+The evidence for schizophrenia is strong and direct. It includes completed Phase 4 RCTs, high-quality RCTs and network meta-analyses in the literature, and long clinical use. Note that the L1 grade rests mainly on these Phase 4 RCTs and the literature. Of the two Phase 3 listings, one has unknown status (NCT04528095) and the other has an unconfirmed amisulpride arm (NCT03510325), so the strict criterion of two completed Phase 3 RCTs is not clearly met.
 
 **To proceed, the following is needed:**
+- The HSA package insert, to confirm the approved indication for SIN09773P and to collect warnings and contraindications.
+- Mechanism of action data from DrugBank to complete the record.
+- Verification of the amisulpride arms in NCT04528095 and NCT03510325.
+- A monitoring plan covering prolactin, QTc, renal function and metabolic parameters.
 
-- **Regulatory pathway**: Initiate a New Drug Application (NDA) to HSA or utilise the Special Access Route (SAR) for immediate clinical access while registration is pursued
-- **Complete safety documentation**: Obtain full prescribing information from an approved jurisdiction (EU SmPC or Australian PI); assess TFDA/HSA-specific requirements for warnings and contraindications
-- **Drug–drug interaction assessment**: Compile the DDI profile (particularly for QTc-prolonging co-medications common in Singapore's patient population) before routine prescribing
-- **Local population data**: Consider a local post-marketing surveillance plan given the Asian population context (PK differences in CYP450 metabolism may warrant dose-adjustment guidance)
-- **Cardiac safety protocol**: Establish institutional ECG monitoring protocols given amisulpride's known QTc-prolongation risk
-- **Pharmacoeconomic evaluation**: Benchmark cost-effectiveness against currently available antipsychotics in Singapore to support formulary inclusion decisions
+**Other predicted indications:**
+- Psychotic disorder (rank 5) largely overlaps with the schizophrenia evidence and carries the same L1 assessment and guardrails.
+- Dysthymic disorder (rank 8) is graded L2 as a research question. It rests on small, older RCTs and needs confirmation in modern, adequately powered trials.
+- The remaining candidates (retinal dystrophy, X-linked myopias, hydranencephaly, polymicrogyria and anxiety disorder) have no credible clinical support and should be held.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

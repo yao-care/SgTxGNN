@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Talazoparib
-parent: High Evidence (L1-L2)
+parent: Medium Evidence (L3-L4)
 nav_order: 942
-evidence_level: L2
+evidence_level: L4
 indication_count: 10
 ---
 
 # Talazoparib
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,12 +29,11 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Talazoparib: From BRCA-Mutated HER2-Negative Breast Cancer to HER2-Positive Breast Carcinoma
+# Talazoparib: From HER2-Negative BRCA-Mutated Breast Cancer to HER2-Positive Breast Carcinoma
 
 ## One-Sentence Summary
 
-> Talazoparib is a PARP inhibitor globally approved for germline BRCA1/2-mutated, **HER2-negative** locally advanced or metastatic breast cancer (EMBRACA trial).
-> The TxGNN model's top-ranked prediction is **HER2-Positive Breast Carcinoma**, but nearly all of the **10 clinical trials** and **13 publications** cited under this label actually describe HER2-negative/BRCA-mutated populations — a strong signal that this is a knowledge-graph disease-label mapping artifact rather than a genuine new-indication finding.
+Talazoparib is an oral PARP inhibitor that is internationally approved for germline BRCA-mutated, HER2-negative breast cancer. The TxGNN model predicts it may also work in **HER2-positive breast carcinoma**. The 10 clinical trials and 13 publications retrieved are almost all in triple-negative or HER2-negative disease, so **no direct evidence for HER2-positive disease** was found.
 
 ---
 
@@ -42,65 +41,68 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | No Singapore-specific label on file (0 licenses). Globally approved for germline BRCA1/2-mutated, HER2-negative locally advanced/metastatic breast cancer |
+| Original Indication | Not stated in the Singapore registration records. The international label indication (germline BRCA-mutated, HER2-negative breast cancer) comes from the cited literature. |
 | Predicted New Indication | HER2 positive breast carcinoma |
 | TxGNN Prediction Score | 98.98% |
-| Evidence Level | L2 |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed structured MOA data is not available in DrugBank for this record (Data Gap DG002). Based on information present elsewhere in the evidence pack, Talazoparib is an oral PARP (poly-ADP ribose polymerase) inhibitor that exploits **synthetic lethality** in tumors with homologous-recombination deficiency, most notably germline BRCA1/2-mutated tumors. It is globally approved (EMBRACA Phase 3 trial, NCT01945775) specifically for **HER2-negative** advanced/metastatic breast cancer.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Talazoparib is a PARP1/2 inhibitor. It traps PARP on DNA and is synthetically lethal in tumours with BRCA1/2 deficiency or homologous recombination deficiency (HRD).
 
-The rank-1 predicted indication in this pack, "HER2 positive breast carcinoma," is the opposite of the drug's known approved population. Critically, when we examine the supporting evidence attached to this exact prediction, the trials and literature almost uniformly describe **HER2-negative or triple-negative** breast cancer populations (e.g., NCT03499353 "early HER2-negative breast cancer," NCT04134884 "HER2-negative metastatic breast cancer," NCT03911973 "HER2 negative breast cancers"). No trial in the list specifically enrolls or targets HER2-positive disease. This mismatch strongly suggests a **knowledge-graph/disease-node mapping error** (HER2 status inverted) rather than a pharmacologically plausible new signal.
+Both the original and predicted indications are breast cancers. The rationale holds only for the BRCA-mutated or HRD subset of HER2-positive disease, because PARP inhibitor sensitivity depends on DNA-repair status, not HER2 status.
 
-A more mechanistically consistent candidate exists within the same evidence pack: rank 3, "progesterone-receptor negative breast cancer" (Evidence Level L2, decision stage S2, "Proceed with Guardrails"). PR-negative breast cancer overlaps heavily with the triple-negative/BRCA-mutated population that is Talazoparib's core validated mechanism, and is supported by the Phase 3 EMBRACA trial itself plus 26 related clinical trials. This candidate should be treated as the primary evidence-backed repurposing signal from this pack, while the HER2-positive label should be flagged for data-quality review before any further action.
+The high TxGNN score probably reflects a shared breast-carcinoma neighbourhood in the knowledge graph, not HER2-specific data. The marketed breast indication is HER2-negative, so this prediction should be treated as a research question, not an established repurposing opportunity.
 
 ---
 
 ## Clinical Trial Evidence
-*(Trials attached to the rank-1 prediction, "HER2 positive breast carcinoma" — note none actually enroll HER2-positive patients)*
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT03499353](https://clinicaltrials.gov/study/NCT03499353) | Phase 2 | Terminated | 61 | Neoadjuvant talazoparib in gBRCA1/2-mutant, early **HER2-negative** breast cancer; trial terminated |
-| [NCT05826964](https://clinicaltrials.gov/study/NCT05826964) | Phase 2 | Active, not recruiting | 24 | ctDNA-guided early treatment switch in HR-positive metastatic breast cancer; not specific to talazoparib label |
-| [NCT06735742](https://clinicaltrials.gov/study/NCT06735742) | N/A | Active, not recruiting | 3 | Japan post-marketing safety surveillance of TALZENNA in BRCA-mutated, **HER2-negative** unresectable/recurrent breast cancer |
-| [NCT04134884](https://clinicaltrials.gov/study/NCT04134884) | Phase 1 | Completed | 34 | ASTX727 + talazoparib in triple-negative or hormone-resistant **HER2-negative** metastatic breast cancer |
-| [NCT04550494](https://clinicaltrials.gov/study/NCT04550494) | Phase 2 | Recruiting | 36 | Talazoparib in advanced solid tumors with DNA-damage-response gene alterations (tumor-agnostic, not HER2-defined) |
-| [NCT03911973](https://clinicaltrials.gov/study/NCT03911973) | Phase 1/2 | Active, not recruiting | 37 | Gedatolisib + talazoparib in TNBC or BRCA1/2-positive, **HER2-negative** breast cancer |
-| [NCT02401347](https://clinicaltrials.gov/study/NCT02401347) | Phase 2 | Completed | 21 | Talazoparib in BRCA-wild-type TNBC/HRD or advanced **HER2-negative** breast cancer |
-| [NCT01042379](https://clinicaltrials.gov/study/NCT01042379) | Phase 2 | Recruiting | 5000 | I-SPY2 adaptive platform trial matching novel agents to breast cancer subtypes; not talazoparib/HER2+ specific |
-| [NCT05097599](https://clinicaltrials.gov/study/NCT05097599) | Phase 2 | Terminated | 11 | StrataPATH basket trial of approved drugs in biomarker-guided solid tumor populations |
-| [NCT04508803](https://clinicaltrials.gov/study/NCT04508803) | Phase 2 | Completed | 37 | HX008 (anti-PD-1) + niraparib (not talazoparib) in germline-mutated metastatic breast cancer |
+| [NCT03499353](https://clinicaltrials.gov/study/NCT03499353) | Phase 2 | Terminated | 61 | Single-arm neoadjuvant talazoparib in germline BRCA1/2 early breast cancer. The title is truncated and the HER2 status is unclear, so relevance is partial. |
+| [NCT05826964](https://clinicaltrials.gov/study/NCT05826964) | Phase 2 | Active, not recruiting | 24 | Randomised ctDNA-guided early treatment switch in metastatic breast cancer. The population is likely not HER2-positive. |
+| [NCT06735742](https://clinicaltrials.gov/study/NCT06735742) | N/A | Active, not recruiting | 3 | Japanese post-marketing safety study in BRCA-positive, HER2-negative disease. It excludes HER2-positive patients. |
+| [NCT04134884](https://clinicaltrials.gov/study/NCT04134884) | Phase 1 | Completed | 34 | ASTX727 plus talazoparib safety study in triple-negative or HER2-negative breast cancer. |
+| [NCT04550494](https://clinicaltrials.gov/study/NCT04550494) | Phase 2 | Recruiting | 36 | Tumour-agnostic study in advanced solid tumours with DNA damage response gene changes. No HER2-positive-specific signal. |
+| [NCT03911973](https://clinicaltrials.gov/study/NCT03911973) | Phase 1/2 | Active, not recruiting | 37 | Gedatolisib plus talazoparib in triple-negative or BRCA-positive, HER2-negative breast cancer. |
+| [NCT02401347](https://clinicaltrials.gov/study/NCT02401347) | Phase 2 | Completed | 21 | Talazoparib in BRCA wild-type triple-negative or HER2-negative breast cancer with HR pathway alterations. |
+| [NCT01042379](https://clinicaltrials.gov/study/NCT01042379) | Phase 2 | Recruiting | 5000 | I-SPY breast platform trial. Talazoparib exposure in HER2-positive disease is not evident. |
+| [NCT05097599](https://clinicaltrials.gov/study/NCT05097599) | Phase 2 | Terminated | 11 | StrataPATH biomarker-guided solid tumour study. No usable HER2-positive efficacy signal. |
+| [NCT04508803](https://clinicaltrials.gov/study/NCT04508803) | Phase 2 | Completed | 37 | HX008 plus niraparib (a different PARP inhibitor) in germline-mutated metastatic breast cancer. Class-level support only. |
 
 ---
 
 ## Literature Evidence
-*(Publications attached to the rank-1 prediction; the great majority describe HER2-negative disease, reinforcing the mapping-error concern)*
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [36379199](https://pubmed.ncbi.nlm.nih.gov/36379199/) | 2022 | Meta-analysis/GRADE | Breast (Edinburgh, Scotland) | Olaparib/talazoparib for BRCA1/2-related advanced **HER2-negative** breast cancer; formal GRADE recommendations |
-| [36045677](https://pubmed.ncbi.nlm.nih.gov/36045677/) | 2022 | Comparative study | Frontiers in Immunology | Retrospective comparison of talazoparib vs. conventional chemotherapy; abstract describes **HER2-negative** ABC population despite title |
-| [36952230](https://pubmed.ncbi.nlm.nih.gov/36952230/) | 2023 | Real-world cohort | The Oncologist | Real-world US outcomes of talazoparib in germline BRCA-mutated, **HER2-negative** advanced breast cancer |
-| [34324367](https://pubmed.ncbi.nlm.nih.gov/34324367/) | 2021 | Guideline | J Clin Oncol | ASCO guideline update on endocrine/targeted therapy for HR-positive, **HER2-negative** metastatic breast cancer |
-| [40471518](https://pubmed.ncbi.nlm.nih.gov/40471518/) | 2025 | Phase I/II trial | Breast Cancer Res Treat | Gedatolisib + talazoparib in triple-negative or BRCA1/2-positive, **HER2-negative** breast cancer |
-| [36202026](https://pubmed.ncbi.nlm.nih.gov/36202026/) | 2022 | Network meta-analysis | Cancer Treat Rev | Therapeutic sequencing algorithms for metastatic triple-negative breast cancer |
-| [33983696](https://pubmed.ncbi.nlm.nih.gov/33983696/) | 2021 | Review | Oncology (Williston Park) | Novel therapies (immunotherapy, ADCs) for metastatic triple-negative breast cancer |
-| [40192953](https://pubmed.ncbi.nlm.nih.gov/40192953/) | 2025 | Retrospective | Mol Diagn Ther | Notes FDA approval of olaparib/talazoparib specifically for germline/somatic BRCA1/2-mutated breast cancer |
-| [35343197](https://pubmed.ncbi.nlm.nih.gov/35343197/) | 2022 | Review | Indian J Cancer | Role of PARP inhibitors in management of **HER2-negative** metastatic breast cancer |
-| [39516069](https://pubmed.ncbi.nlm.nih.gov/39516069/) | 2025 | Real-world cohort | Clin Breast Cancer | Mayo Clinic real-world prescribing patterns and outcomes of PARP inhibitors in metastatic breast cancer |
+| [40471518](https://pubmed.ncbi.nlm.nih.gov/40471518/) | 2025 | Phase I/II trial | Breast Cancer Res Treat | Gedatolisib plus talazoparib in advanced triple-negative or BRCA1/2-positive, HER2-negative breast cancer. |
+| [36379199](https://pubmed.ncbi.nlm.nih.gov/36379199/) | 2022 | Meta-analysis | Breast | Meta-analysis and GRADE recommendations for PARP inhibitors in BRCA1/2-related HER2-negative advanced breast cancer. Approval is based on the OlympiAD and EMBRACA phase 3 trials. |
+| [36045677](https://pubmed.ncbi.nlm.nih.gov/36045677/) | 2022 | Retrospective comparison | Front Immunol | Titled as talazoparib versus chemotherapy in HER2-positive breast cancer, but the abstract refers to HER2-negative advanced breast cancer. The population is inconsistent and needs checking. |
+| [36952230](https://pubmed.ncbi.nlm.nih.gov/36952230/) | 2023 | Real-world cohort | Oncologist | First US real-world data on talazoparib in germline BRCA-mutated, HER2-negative advanced breast cancer. |
+| [39516069](https://pubmed.ncbi.nlm.nih.gov/39516069/) | 2025 | Real-world cohort | Clin Breast Cancer | Mayo Clinic outcomes, toxicities and prescribing patterns of PARP inhibitors in metastatic breast cancer. |
+| [40192953](https://pubmed.ncbi.nlm.nih.gov/40192953/) | 2025 | Retrospective cohort | Mol Diagn Ther | Actionability of molecular targets in multi-ethnic breast cancer patients, including PARP inhibitors for BRCA-mutated disease. |
+| [34324367](https://pubmed.ncbi.nlm.nih.gov/34324367/) | 2021 | Guideline review | J Clin Oncol | ASCO guideline update for HR-positive, HER2-negative metastatic breast cancer. |
+| [36202026](https://pubmed.ncbi.nlm.nih.gov/36202026/) | 2022 | Network meta-analysis | Cancer Treat Rev | Treatment sequencing in metastatic triple-negative breast cancer. |
+| [35343197](https://pubmed.ncbi.nlm.nih.gov/35343197/) | 2022 | Review | Indian J Cancer | Role of PARP inhibitors in HER2-negative metastatic breast cancer. |
+| [33983696](https://pubmed.ncbi.nlm.nih.gov/33983696/) | 2021 | Review | Oncology (Williston Park) | Novel therapies, including immunotherapy and antibody-drug conjugates, for metastatic triple-negative breast cancer. |
 
 ---
 
 ## Singapore Market Information
 
-Talazoparib currently has **no registered product license in Singapore** (0 total licenses, market status: Not Marketed). No authorization number, product name, or approved local indication text is available in this evidence pack.
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN15945P | TALZENNA CAPSULE 1MG | Capsule (oral) |
+| SIN15944P | TALZENNA CAPSULE 0.25MG | Capsule (oral) |
+
+Both products are manufactured by Excella GmbH & Co. KG. The registration records do not include approved indication text.
 
 ---
 
@@ -108,17 +110,17 @@ Talazoparib currently has **no registered product license in Singapore** (0 tota
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (PARP inhibitor; synthetic-lethality mechanism, not conventional cytotoxic chemotherapy) |
-| Myelosuppression Risk | High — this evidence pack independently flags a separate KG signal ("primary release disorder of platelets," rank 8) noting that thrombocytopenia is a well-known class adverse effect of PARP inhibitors including talazoparib; anemia and neutropenia are also class-typical concerns |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | CBC with differential (particularly platelet count), renal and hepatic function |
-| Handling Protection | Recommend handling under institutional hazardous/cytotoxic drug precautions, consistent with oral targeted oncology agents |
+| Cytotoxicity Classification | Targeted therapy (PARP inhibitor) |
+| Myelosuppression Risk | Medium to High. Thrombocytopenia and other cytopenias are common with talazoparib. |
+| Emetogenicity Classification | Low to moderate (oral agent) |
+| Monitoring Items | CBC with differential, liver and renal function |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Key warnings, contraindications, and drug-interaction data are all listed as data gaps in this evidence pack (safety.key_warnings, safety.contraindications, and DDI query all returned no data).
+Please refer to the package insert for safety information. No drug interaction records were found in the Evidence Pack.
 
 ---
 
@@ -127,14 +129,14 @@ Please refer to the package insert for safety information. Key warnings, contrai
 **Decision: Hold**
 
 **Rationale:**
-The rank-1 predicted indication ("HER2 positive breast carcinoma") directly contradicts Talazoparib's core validated mechanism and approved population (gBRCA-mutated, **HER2-negative** breast cancer), and essentially all of its attached trial and literature evidence describes HER2-negative populations — indicating a likely disease-label mapping error rather than a genuine repurposing signal. Independently, safety pre-assessment (S1) is blocked because product-label warnings/contraindications (DG001, Blocking) and confirmed MOA (DG002, High) are both data gaps, and Singapore has zero registered licenses for this drug.
+No trial or publication in the Evidence Pack studies talazoparib specifically in HER2-positive breast cancer. The supporting evidence comes from HER2-negative and triple-negative populations, so the high TxGNN score is not backed by indication-specific data. Talazoparib's effect depends on BRCA/HRD status, not HER2 status.
 
 **To proceed, the following is needed:**
-- Resolve DG001: obtain TFDA/HSA product label warnings and contraindications
-- Resolve DG002: confirm MOA via DrugBank API query
-- Manually verify/correct the "HER2 positive breast carcinoma" disease-node mapping against the EMBRACA trial population before treating it as a repurposing candidate
-- If the mapping error is confirmed, re-run this evaluation using rank-3 "progesterone-receptor negative breast cancer" (L2 evidence, Phase 3 RCT NCT01945775, decision stage S2, "Proceed with Guardrails"), which is mechanistically and clinically the stronger signal in this pack
-- Confirm Singapore HSA registration pathway status given the drug is currently not marketed locally
+- Evidence for the gBRCA-mutated or HRD-positive HER2-positive subgroup, including trial subgroup analyses and a check of the PMID 36045677 population discrepancy
+- Confirmation of the Singapore approved indication from the HSA package insert, which also provides warnings and contraindications
+- Mechanism of action data from DrugBank
+- A haematological toxicity monitoring plan, given the thrombocytopenia and myelosuppression risk
+- Evaluation of a related indication, receptor-negative (triple-negative) breast cancer, which has stronger evidence, including a randomised Phase 2 maintenance trial and a published single-arm neoadjuvant gBRCA trial. It likely overlaps the approved gBRCA HER2-negative indication, so it may not count as true repurposing.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

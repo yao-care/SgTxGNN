@@ -29,83 +29,77 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Sultamicillin: From Bacterial Infections to Bronchitis
+# Sultamicillin: From Antibacterial Use to Bronchitis
 
 ## One-Sentence Summary
 
-Sultamicillin is an oral mutual prodrug of ampicillin and sulbactam, a β-lactam/β-lactamase inhibitor combination antibiotic used to treat bacterial infections. The TxGNN model predicts it may be effective for **Bronchitis** (including acute exacerbations of chronic bronchitis), with **0 registered clinical trials** but **16 supporting publications**, mostly historical open-label and cohort studies from the 1980s–1990s. This is best understood as confirmation of an already-known antibacterial indication rather than a novel mechanistic repurposing.
-
----
+Sultamicillin is an oral antibacterial prodrug of ampicillin and sulbactam (a beta-lactamase inhibitor). The TxGNN model predicts it may be effective for **bronchitis**, with **no registered clinical trials** but **16 publications** (open-label and non-comparative clinical studies, pediatric studies, and background microbiology) pointing in this direction. Because the drug is already marketed as an antibacterial, this may be an existing label use rather than true repurposing.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not specified in registry data (Sultamicillin is a β-lactam/β-lactamase inhibitor combination antibiotic used for bacterial infections) |
+| Original Indication | Not recorded in the Evidence Pack (antibacterial; label indication to be confirmed) |
 | Predicted New Indication | Bronchitis |
-| TxGNN Prediction Score | 96.20% |
+| TxGNN Prediction Score | 96.2% |
 | Evidence Level | L3 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Proceed with Guardrails |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, Sultamicillin is a mutual prodrug of ampicillin and sulbactam, belonging to the β-lactam/β-lactamase inhibitor combination antibiotic class; its efficacy against bacterial infections has been well established, and mechanistically it is expected to be applicable to bronchitis.
+Detailed mechanism of action data is not available in the Evidence Pack. Sultamicillin is a mutual prodrug of ampicillin and sulbactam. Ampicillin is a beta-lactam antibacterial. Sulbactam inhibits the beta-lactamases that would otherwise inactivate it. Bacterial exacerbations of chronic bronchitis and lower respiratory tract infections fall within this antibacterial spectrum.
 
-Bronchitis — particularly acute exacerbations of chronic bronchitis and lower respiratory tract infections — is commonly caused by bacterial pathogens (e.g. *Haemophilus influenzae*, *Streptococcus pneumoniae*, *Branhamella catarrhalis*) that fall within Sultamicillin's known antibacterial spectrum. This is therefore not a mechanistic "repurposing" in the traditional sense, but rather a confirmation/extension of the drug's core antibacterial indication to a specific respiratory infection subtype. Because the input `original_indications` field was empty, the candidate was still carried through the full evaluation pipeline for completeness.
+The high TxGNN score is consistent with this. However, the original-indication field is empty, which looks like a data gap, and the drug is already marketed. The label indication should be confirmed before this is treated as a repurposing finding.
 
----
+The mechanism supports only **bacterial** bronchitis. Viral or non-bacterial bronchitis is not supported.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [6323377](https://pubmed.ncbi.nlm.nih.gov/6323377/) | 1984 | Open-label trial | J Antimicrob Chemother | 30 hospitalised patients with acute purulent exacerbations of chronic bronchitis treated with sultamicillin 750–1000 mg BID x10 days; clinical cure rates 73% at end-of-treatment, 60% at 1-week follow-up |
-| [2041156](https://pubmed.ncbi.nlm.nih.gov/2041156/) | 1991 | Open-label clinical evaluation | Jpn J Antibiot | Multicenter trial (132 patients) in lower respiratory tract infections; efficacy rate 78.5% (73/93) for bronchitis and 80.0% for pneumonia |
-| [1451929](https://pubmed.ncbi.nlm.nih.gov/1451929/) | 1992 | Open-label trial | J Int Med Res | 30 adults with lower respiratory tract infections treated with 375 mg sultamicillin q8–12h; cure in 76.6%, improvement in 23.3% |
-| [1458803](https://pubmed.ncbi.nlm.nih.gov/1458803/) | 1992 | Open non-comparative trial | La Clinica Terapeutica | 48 children with respiratory infections (18 bronchitis, 4 asthmatic bronchitis) treated at 50 mg/kg/day; 96% good clinical response |
-| [8008659](https://pubmed.ncbi.nlm.nih.gov/8008659/) | 1993 | Comparative trial (vs cefuroxime axetil) | Pol Tyg Lek | Ambulatory treatment comparison in exacerbated chronic bronchitis |
-| [3249371](https://pubmed.ncbi.nlm.nih.gov/3249371/) | 1988 | Cohort/PK study (pediatric) | Jpn J Antibiot | Pharmacokinetics and therapeutic effectiveness of sultamicillin fine granules in children |
-| [3249372](https://pubmed.ncbi.nlm.nih.gov/3249372/) | 1988 | Cohort/PK study (pediatric) | Jpn J Antibiot | Plasma and urinary concentration study of sultamicillin granules in pediatric patients |
-| [3249362](https://pubmed.ncbi.nlm.nih.gov/3249362/) | 1988 | Cohort/PK/bacteriological study (pediatric) | Jpn J Antibiot | Antibacterial activity against key respiratory pathogens (H. influenzae, S. pneumoniae, B. catarrhalis) compared with ampicillin |
-| [3249365](https://pubmed.ncbi.nlm.nih.gov/3249365/) | 1988 | Cohort/clinical study (pediatric) | Jpn J Antibiot | Serum level and clinical response study including bronchitis cases |
-| [3249373](https://pubmed.ncbi.nlm.nih.gov/3249373/) | 1988 | Cohort/PK study (pediatric) | Jpn J Antibiot | Pharmacokinetic and clinical study of sultamicillin fine granules in a variety of pediatric infections |
-
----
+| [6323377](https://pubmed.ncbi.nlm.nih.gov/6323377/) | 1984 | Open-label trial | J Antimicrob Chemother | 30 hospitalised patients with acute exacerbations of chronic bronchitis took 750 or 1000 mg twice daily for 10 days. Clinical cure was 73% at end of treatment and 60% one week later. |
+| [2041156](https://pubmed.ncbi.nlm.nih.gov/2041156/) | 1991 | Multicenter clinical evaluation | Jpn J Antibiot | 132 patients with lower respiratory tract infections. Efficacy was 78.5% (73/93) for bronchitis and 80.0% (28/35) for pneumonia. |
+| [1451929](https://pubmed.ncbi.nlm.nih.gov/1451929/) | 1992 | Clinical study | J Int Med Res | 30 adults with lower respiratory tract infections took 375 mg tablets. 76.6% were cured and 23.3% improved. |
+| [1458803](https://pubmed.ncbi.nlm.nih.gov/1458803/) | 1992 | Open non-comparative study | Clin Ter | 48 children with respiratory infections, including 18 with bronchitis. 96% showed a good clinical response. |
+| [8008659](https://pubmed.ncbi.nlm.nih.gov/8008659/) | 1993 | Clinical study | Pol Tyg Lek | Compared with cefuroxime axetil in ambulatory exacerbated chronic bronchitis. Design unverified and no abstract available. |
+| [3249367](https://pubmed.ncbi.nlm.nih.gov/3249367/) | 1988 | Pediatric clinical study | Jpn J Antibiot | 18 children with infections, 94.4% overall efficacy. Only 1 case of bronchitis (good response). |
+| [3249369](https://pubmed.ncbi.nlm.nih.gov/3249369/) | 1988 | Pediatric clinical study | Jpn J Antibiot | 15 children with acute bacterial infections, including 2 with acute bronchitis. All had good to excellent responses. |
+| [3249370](https://pubmed.ncbi.nlm.nih.gov/3249370/) | 1988 | Pediatric clinical study | Jpn J Antibiot | 17 children evaluated for PK, safety and efficacy. Bronchitis was only 2 of 14 treated cases. |
+| [3249364](https://pubmed.ncbi.nlm.nih.gov/3249364/) | 1988 | Pediatric clinical study | Jpn J Antibiot | 31 pediatric patients with various bacterial infections, evaluated for efficacy and safety. |
+| [3000026](https://pubmed.ncbi.nlm.nih.gov/3000026/) | 1985 | Clinical microbiology | Tohoku J Exp Med | Describes respiratory infections (including acute and chronic bronchitis) caused by beta-lactamase-producing *Branhamella catarrhalis*. This is background rationale for a beta-lactamase inhibitor combination. |
 
 ## Singapore Market Information
 
-Sultamicillin is not currently registered in Singapore (0 licenses on file, market status: Not Marketed).
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN04892P | UNASYN ORAL TABLET 375 mg (Pfizer Global Supply Japan Inc) | Tablet, film coated | Not stated in the registry record |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Bronchitis is supported by a consistent, decades-spanning body of open-label and cohort literature (1984–1993) showing efficacy in acute bronchitis and exacerbations of chronic bronchitis, aligned with Sultamicillin's known antibacterial spectrum. However, evidence is limited to older non-RCT studies, no trials are registered, and the drug is not currently marketed in Singapore — hence guardrails rather than an unconditional "Go."
+The antibacterial spectrum of ampicillin/sulbactam fits bacterial bronchitis. Several open-label and non-comparative studies report cure or response rates of roughly 73–96% in respiratory infections. However, the evidence is old, mostly uncontrolled, and has no confirmed Phase 3 RCT or registered trial. The indication may already be on the label.
 
 **To proceed, the following is needed:**
-- Local (HSA) safety labeling — warnings and contraindications data are currently a blocking gap (DG001)
-- Confirmed mechanism of action data from DrugBank (DG002)
-- A market entry/registration assessment for Singapore, since the drug has zero existing local licenses
-- Note: Ranks 2–10 in this evidence pack (thrombotic disease, heparin cofactor 2 deficiency, rheumatoid arthritis, etc.) are largely unsupported KG artifacts (L4–L5, mostly "Hold") and are not recommended for further action at this time.
+- Confirm the approved label indication from the HSA package insert. This also supplies the missing warnings and contraindications.
+- Obtain detailed mechanism of action data (for example from DrugBank).
+- Review the full texts of key studies (especially the comparative trial vs cefuroxime axetil) and look for controlled trials.
+- Restrict the scope to bacterial bronchitis, including acute exacerbations of chronic bronchitis.
+
+**Other predictions (not recommended for pursuit):** Thrombosis-related and other predictions such as thrombotic disease, thrombophilia, rheumatoid arthritis and the rare genetic conditions have no plausible mechanism. Where literature exists, it concerns infections occurring alongside the condition, not treatment of the condition itself. All are on **Hold**. Laryngotracheitis (score 90.6%) is a research question only, plausible just for bacterial forms, with no trials or literature retrieved.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

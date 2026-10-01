@@ -29,31 +29,30 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Phenol: From No Established Indication to Acrodermatitis Chronica Atrophicans
+# Phenol: From Antiseptic and Keratolytic Use to Acrodermatitis Chronica Atrophicans
 
 ## One-Sentence Summary
 
-Phenol (DrugBank DB03255) has no approved indication or mechanism-of-action record in this evidence pack and is not currently marketed in Singapore (0 registrations). The TxGNN model's top-ranked prediction, **Acrodermatitis Chronica Atrophicans**, is a pure model score supported by **0 clinical trials** and **0 publications**. Across all 10 predicted indications screened for this candidate, only **Acne Keloid** (rank 5) reached a minimally credible evidence tier (L4, based on 4 dermatology publications on phenol chemical peels) — the top-ranked signal reported below remains unsupported.
+Phenol is a protein denaturant used as an antiseptic and keratolytic, and it is marketed in Singapore as an injection, a liquid paint and a gel.
+The TxGNN model predicts it may be effective for **acrodermatitis chronica atrophicans**, a late-stage *Borrelia* skin infection, with a very high score (99.95%).
+This prediction has **0 clinical trials** and **0 publications** behind it, so it is a model output only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented — no approved indications on record (data gap, see below) |
-| Predicted New Indication | Acrodermatitis Chronica Atrophicans |
+| Predicted New Indication | Acrodermatitis chronica atrophicans |
 | TxGNN Prediction Score | 99.95% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism-of-action data for phenol is not available in this evidence pack (data gap DG002, severity: High). Phenol is a well-characterized small phenolic compound long used in medicine as a topical antiseptic, local anesthetic/sclerosing agent, and — as documented in the literature evidence retrieved for a *different* candidate indication in this screen — as a chemical peeling agent in dermatology (PMID 17204096: *"Effectiveness of modified phenol peel (Exoderm) on facial wrinkles, acne scars and other skin problems"*). No original/approved indication is registered for phenol in the current dataset, and it holds no marketing authorization in Singapore.
+Currently, detailed mechanism of action data is not available. Phenol is known as a protein denaturant with antiseptic and keratolytic properties, and it is used in topical and injectable products.
 
-For the top-ranked prediction, Acrodermatitis Chronica Atrophicans — a late-stage cutaneous manifestation of Lyme borreliosis — the evidence pack's own rationale explicitly states there is **no known pathological mechanistic link** to phenol's corrosive/antiseptic/chemical-peel actions. No clinical trials, ICTRP records, or PubMed literature were retrieved for this specific drug–disease pair (0/0/0). This ranking is therefore a raw TxGNN embedding-similarity score (99.95%, global rank 1146) rather than a hypothesis with independent support.
-
-By contrast, the one candidate indication in this screen with a plausible mechanistic story is **Acne Keloid** (rank 5, score 99.94%): phenol's keratolytic/corrosive action in chemical peeling is used clinically to remodel acne scarring and pigmentary skin lesions, and four dermatology publications (tier 2–3, cohort/case-series and reviews) discuss phenol peels and keloidal/hyperpigmented outcomes in acne patients — though none directly test phenol against keloidal acne as a primary endpoint. This is the only prediction in the full set that reached evidence level L4 / decision stage S1 ("Research Question"); all other nine candidates, including the top-ranked one reported above, remain at L5/Hold.
+Acrodermatitis chronica atrophicans is a late-stage skin infection caused by *Borrelia*, and it is treated with systemic antibiotics. Nothing in phenol's known pharmacology links it to this disease, and no antibacterial effect against *Borrelia* in skin tissue has been shown. The high TxGNN score reflects knowledge-graph associations, not clinical or mechanistic support, so this prediction is **not** considered reasonable on current evidence.
 
 ## Clinical Trial Evidence
 
@@ -65,7 +64,11 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-No Singapore market authorizations are on record for phenol; it is currently classified as **Not Marketed** (0 registrations, 0 licenses).
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN02735P | HAEMOROL™, Oily Phenol Injection 250mg/5ml | Injection | Phebra Pty Ltd |
+| SIN03372P | Castellani's Paint (Stainless) | Liquid | ICM Pharma Pte. Ltd. |
+| SIN05339P | Egopsoryl TA Gel | Ointment | Ego Pharmaceuticals Pty Ltd |
 
 ## Safety Considerations
 
@@ -76,14 +79,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-- The top-ranked prediction (Acrodermatitis Chronica Atrophicans) is evidence level L5 — a model score only, with the model's own mechanistic rationale explicitly denying plausibility and zero supporting trials or literature.
-- Phenol is not marketed in Singapore, and a Blocking data gap on safety labeling (DG001: TFDA/HSA warnings and contraindications) prevents any Stage 1 safety screening for this candidate.
+The prediction has no supporting trials or publications, no plausible mechanism, and the standard treatment (systemic antibiotics) is unrelated to phenol. It is a model output only (L5) and should not be pursued.
 
 **To proceed, the following is needed:**
-- HSA/TFDA product label (warnings, contraindications) — currently a Blocking data gap (DG001), required before any safety pre-screen
-- Mechanism-of-action confirmation via DrugBank API — High-severity gap (DG002)
-- If the more credible signal is pursued instead — Acne Keloid (rank 5) — a targeted literature/trial search specifically on phenol peel outcomes in keloidal/hypertrophic acne scarring, since current evidence is indirect (general chemical-peel literature, not keloid-specific endpoints)
-- Route-of-administration and dosage-form compatibility assessment (currently "pending" for all candidate indications)
+- Package insert warnings and contraindications from the HSA website (a blocking gap for any safety screening)
+- Mechanism of action data from DrugBank
+- Any preclinical or clinical evidence of phenol activity against *Borrelia* or in this disease. None currently exists.
+
+**Other candidates worth noting:** Of the ten predicted indications, only **acne keloid** has a plausible signal (L4). Phenol-based chemical peels have been used for acne scars, and the one uncontrolled clinical study covers acne scars, not acne keloidalis. Treat it as a research question, not a repurposing candidate. The other indications are Hold, with no phenol-specific evidence.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

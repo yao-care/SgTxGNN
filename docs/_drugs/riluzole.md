@@ -29,33 +29,31 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Riluzole: From No Registered Indication to Bilateral Parasagittal Parieto-Occipital Polymicrogyria
+# Riluzole: From Amyotrophic Lateral Sclerosis (ALS) to Bilateral Parasagittal Parieto-Occipital Polymicrogyria
 
 ## One-Sentence Summary
 
-> Riluzole's original indication and mechanism of action are not available in the current evidence pack, and the drug is not marketed in Singapore.
-> The TxGNN model's top-ranked prediction is **Bilateral Parasagittal Parieto-Occipital Polymicrogyria**,
-> but this candidate is supported by **0 clinical trials** and **0 publications**, and the model's own rationale states there is no known mechanistic link to riluzole.
+Riluzole is a glutamate-modulating neuroprotective drug, best known as the first-line disease-modifying treatment for ALS. The TxGNN model's top-ranked prediction for it is **bilateral parasagittal parieto-occipital polymicrogyria**, a cortical malformation. **No clinical trials and no publications** support this prediction, and the high score appears to be a model artifact rather than a clinical signal.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no Singapore license data, no original indication or MOA on file (data gap) |
-| Predicted New Indication | Bilateral Parasagittal Parieto-Occipital Polymicrogyria |
+| Original Indication | ALS (inferred from the supplied literature; the Singapore registration record does not state an indication) |
+| Predicted New Indication | Bilateral parasagittal parieto-occipital polymicrogyria |
 | TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for riluzole is not available in this evidence pack. Based on the model's own repurposing rationale, riluzole is known externally to act via glutamate release inhibition and voltage-gated sodium channel blockade — a mechanism relevant to motor neuron excitotoxicity.
+Currently, detailed mechanism of action data is not available in the source record. Based on the supplied literature, riluzole inhibits glutamate release, blocks voltage-gated sodium channels and modulates postsynaptic glutamate signaling. This counters excitotoxicity in motor neurons, and its benefit in ALS is modest (survival extended by roughly 2–3 months, per the supplied reviews).
 
-The predicted indication, bilateral parasagittal parieto-occipital polymicrogyria, is a congenital cortical malformation caused by abnormal neuronal migration during brain development. According to the model's own rationale text, there is **no known mechanistic relationship** between this condition and riluzole's glutamate/sodium-channel modulating activity. This candidate arises purely from statistical association within the knowledge graph, without mechanistic plausibility or any supporting clinical evidence.
+The predicted indication is a structural cortical malformation caused by defects in neuronal migration or organization during development. Riluzole's anti-excitotoxic and sodium-channel effects do not address a structural developmental defect. We found no credible mechanistic link. The very high TxGNN score (0.9999; model rank 236) most likely reflects graph-propagation noise.
 
-**Note:** This same evidence pack contains a much better-supported candidate — rank 8, "amyotrophic lateral sclerosis, susceptibility to" (L1, decision stage S3, 20 supporting publications, recommendation "Proceed with Guardrails") — which aligns with riluzole's well-established pharmacology. That candidate would be a more appropriate subject for a standalone evaluation report; see Next Steps below.
+The model's other top-10 predictions are also mostly weak (skeletal dysplasias, ultra-rare syndromes, mitochondrial myopathy). The plausible ones are all in the motor neuron disease family: lower motor neuron syndrome with late-adult onset, monomelic amyotrophy, Mills syndrome and ALS type 22. These are hypotheses only, with no supporting trials or literature. The ALS-susceptibility entity (rank 8) reflects an already-established use, not repurposing.
 
 ## Clinical Trial Evidence
 
@@ -65,22 +63,28 @@ Currently no related clinical trials registered.
 
 Currently no related literature available.
 
+## Singapore Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN09426P | RILUTEK TABLET 50 mg (Opella Healthcare International SAS) | Film-coated tablet (oral) | Not stated in the registration record |
+
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Note that this drug currently has a **Blocking**-severity data gap on TFDA-equivalent label warnings/contraindications (DG001), meaning this candidate cannot yet proceed to a formal safety pre-assessment (S1) regardless of efficacy evidence.
+Please refer to the package insert for safety information. No drug interaction records were found for riluzole in the queried source.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (bilateral parasagittal parieto-occipital polymicrogyria) has no mechanistic plausibility, no clinical trials, and no literature support — it is a pure statistical output from the knowledge graph (Evidence Level L5). Combined with a blocking gap in drug label/safety data, there is no basis to advance this specific candidate.
+The prediction rests on model output alone, with no trials, no literature and no plausible mechanism. Riluzole's mechanism does not fit a structural neurodevelopmental malformation, so this candidate should not advance.
 
 **To proceed, the following is needed:**
-- Riluzole's mechanism of action (MOA) from DrugBank or equivalent source
-- TFDA-equivalent product label (warnings, contraindications) to clear the blocking safety data gap
-- Original indication / regulatory history for riluzole, since Singapore market data shows zero registrations
-- If pursuing this drug further, prioritize evaluating **rank 8 ("amyotrophic lateral sclerosis, susceptibility to")** instead, given its L1 evidence level and 20 supporting publications — this is a substantially stronger candidate within the same evidence pack
+- Singapore HSA package insert (warnings, contraindications and approved indication), which is a blocking gap for safety screening
+- Mechanism of action data from DrugBank
+- A mechanistic or preclinical rationale for polymicrogyria, if the candidate is to be reconsidered
+- Consider redirecting review effort to the motor neuron disease candidates (lower motor neuron syndrome, Mills syndrome, ALS type 22), which are flagged as research questions. Their evidence is indirect and should be verified against primary RCT sources.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

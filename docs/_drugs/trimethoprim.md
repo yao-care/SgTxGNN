@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Trimethoprim
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 1019
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 ---
 
 # Trimethoprim
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,76 +29,80 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Trimethoprim: From Bacterial Infections to Punctate Epithelial Keratoconjunctivitis
+# Trimethoprim: From Antibacterial Use to Punctate Epithelial Keratoconjunctivitis
 
 ## One-Sentence Summary
 
-Trimethoprim is a classic DHFR-inhibiting antibacterial agent, traditionally used to treat bacterial infections (e.g. urinary tract infections, often combined with sulfamethoxazole or, in ophthalmic form, polymyxin B). The TxGNN model predicts it may be effective for **Punctate Epithelial Keratoconjunctivitis**, but this specific prediction is currently supported only by the model's score — **no clinical trials and no published literature** have been identified for this exact indication.
-
-> Note: the drug's original indication and mechanism of action are marked as data gaps in this evidence pack (no Singapore label on file), so the "original indication" above is based on trimethoprim's well-established pharmacological class rather than a documented local approval.
-
----
+Trimethoprim is an antibacterial that inhibits bacterial dihydrofolate reductase (DHFR). It is marketed in Singapore mainly as a component of co-trimoxazole products.
+The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**, but **0 clinical trials** and **0 publications** support this specific prediction, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Data gap — not documented in Singapore regulatory filings (trimethoprim is classically used as an antibacterial agent) |
+| Original Indication | Not stated in the Singapore licence records (antibacterial agent) |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 99.57% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 12 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (High-severity data gap — DrugBank MOA lookup pending). Based on known information, trimethoprim is a dihydrofolate reductase (DHFR) inhibitor commonly formulated as a topical ophthalmic antibacterial (e.g. combined with polymyxin B in products such as Polytrim), and mechanistically it may be applicable to ocular surface conditions.
+Currently, detailed mechanism of action data is not available. Based on known information, trimethoprim is an antibacterial DHFR inhibitor. It is used in combination products such as co-trimoxazole and in topical polymyxin B/trimethoprim eye preparations.
 
-Punctate epithelial keratoconjunctivitis and bacterial conjunctivitis (a related, better-evidenced candidate in this evidence pack, see below) are both ocular surface disorders where secondary or co-existing bacterial infection can play a role. The repurposing rationale for this candidate describes the link as an **indirect, class-based extrapolation** — trimethoprim's known antibacterial spectrum overlaps with organisms implicated in conjunctivitis-type disease, but no direct trial or literature evidence exists for punctate epithelial keratoconjunctivitis specifically. This should therefore be treated as a research hypothesis rather than a validated repurposing signal.
-
-It is worth noting that a related candidate in the same evidence pack — **conjunctivitis (disease)**, ranked #2 by TxGNN score — has substantially stronger support: an L1 evidence level, a completed Phase 4 head-to-head RCT (NCT00581542), and roughly 20 associated publications including RCTs. This suggests that trimethoprim's realistic near-term repurposing value in ophthalmology is currently concentrated in conjunctivitis, not punctate epithelial keratoconjunctivitis (see "Conclusion and Next Steps").
-
----
+The link to this indication is weak. Punctate epithelial keratoconjunctivitis is frequently viral (for example adenoviral) or non-infectious, so an antibacterial mechanism has no clear target. The high score appears to come from the knowledge-graph association between the drug and eye-surface conditions in general. It does not show that trimethoprim treats this disease.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Trimethoprim is currently **not marketed** in Singapore under this evidence pack (0 registrations found, no license records available).
+The record lists 12 authorizations. The five main ones are below. The records give no approved indication text.
 
----
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN00508P | APO-SULFATRIM PEDIATRIC TABLET | Tablet |
+| SIN00435P | APO-SULFATRIM TABLET | Tablet |
+| SIN00526P | B.S. SUSPENSION | Suspension |
+| SIN02183P | DBL SULFAMETHOXAZOLE 400MG AND TRIMETHOPRIM 80MG CONCENTRATE INJECTION BP | Injection |
+| SIN00583P | CO-TRIMEXAZOLE SUSPENSION | Suspension |
+
+The available forms are oral tablets, suspensions and injection. No ophthalmic product appears in the records provided.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-drug interaction data are currently marked as data gaps in this evidence pack — see "Conclusion and Next Steps" for remediation.)
-
----
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (punctate epithelial keratoconjunctivitis) has only mechanistic/analogic support (L4), with zero clinical trials or literature directly addressing this indication, and the drug is not currently marketed in Singapore. A Blocking-severity data gap (missing label warnings/contraindications) also prevents a preliminary S1 safety assessment.
+This prediction has only a model score, with no trials, no literature and no clear mechanistic link. The disease is often viral or non-infectious, which an antibacterial would not address.
+
+**Other indications in the same prediction list:**
+- **Conjunctivitis (rank 2)** has the strongest support in this pack. It is rated L2 and Proceed with Guardrails.
+  - Evidence: a completed Phase 4 trial of polymyxin B/trimethoprim versus moxifloxacin ([NCT00581542](https://clinicaltrials.gov/study/NCT00581542), n=124) and a matching multicenter publication ([PMID 19043945](https://pubmed.ncbi.nlm.nih.gov/19043945/)).
+  - Caveats: the trial used a combination product, not trimethoprim alone. This may be an existing labeled use rather than true repurposing.
+  - Guardrails: limit to bacterial etiology and consider local resistance.
+- **Otitis externa (rank 8)** is rated L3 and treated as a research question only. The only direct human study is a 1993 oral cotrimoxazole trial, and Pseudomonas is often intrinsically resistant to trimethoprim.
 
 **To proceed, the following is needed:**
-- TFDA/HSA package insert warnings and contraindications — download and parse the official label PDF (Blocking gap, required before any S1 safety screening)
-- Detailed mechanism of action data via DrugBank API (High-priority gap)
-- If this specific indication is to be pursued, dedicated clinical studies (even small case series) directly evaluating trimethoprim in punctate epithelial keratoconjunctivitis, since current support is purely class-based extrapolation
-- Consider prioritizing **conjunctivitis (disease)** instead as the lead repurposing candidate for this drug — it already has L1 evidence, a completed Phase 4 RCT, and a "Proceed with Guardrails" recommendation within the same evidence pack, representing a materially stronger and more actionable opportunity
+- HSA package insert warnings and contraindications (a blocking gap).
+- Mechanism of action data from DrugBank.
+- Original indication from the HSA licences, to judge whether any candidate is truly new.
+- Route compatibility assessment. The Singapore licences list only oral and injectable forms, and ocular use would need a topical formulation.
+- Direct human evidence for punctate epithelial keratoconjunctivitis. Without it, this indication should not advance.
+- If conjunctivitis is pursued, a label check and the resistance guardrails above.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

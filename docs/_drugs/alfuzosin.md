@@ -33,73 +33,64 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Alfuzosin is a selective α1-adrenergic receptor antagonist, primarily used to treat benign prostatic hyperplasia (BPH) and hypertension.
-The TxGNN model predicts it may be effective for **Ambras Type Hypertrichosis Universalis Congenita** — a rare genetic condition causing excessive whole-body hair growth —
-however, **no clinical trials and no supporting publications** exist for this direction, and the underlying mechanistic rationale is considered weak.
-
----
+Alfuzosin is an alpha-1 adrenergic blocker. The Singapore registration records do not state its approved indication, but the drug class is generally used for urinary symptoms of benign prostatic hyperplasia (BPH). The TxGNN model predicts it may be effective for **Ambras type hypertrichosis universalis congenita**, but this is a model prediction only, with **0 clinical trials** and **0 publications** supporting it.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Benign Prostatic Hyperplasia (BPH) / Hypertension (no Singapore registration data available) |
-| Predicted New Indication | Ambras Type Hypertrichosis Universalis Congenita |
-| TxGNN Prediction Score | 99.999% |
+|------|------|
+| Original Indication | Not stated in registration data (drug class is generally used for BPH) |
+| Predicted New Indication | Ambras type hypertrichosis universalis congenita |
+| TxGNN Prediction Score | 99.999% (model rank 34) |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 4 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from this evidence pack. Based on known pharmacological information, Alfuzosin is a selective α1-adrenergic receptor antagonist (alpha-1 blocker). Its established efficacy in benign prostatic hyperplasia relies on relaxing smooth muscle in the prostate and bladder neck, thereby relieving urinary obstruction. It also has a role in hypertension management through peripheral vascular smooth muscle relaxation.
+Currently, detailed mechanism of action data is not available. Based on known information, alfuzosin is an alpha-1 adrenergic antagonist. Its approved use in Singapore is not recorded in the data received.
 
-The proposed mechanistic bridge to hair disorders rests on the observation that α1-adrenergic receptors are expressed in the **arrector pili muscles** of hair follicles. Theoretically, blocking α1 signalling could influence the hair follicle cycle. However, Ambras type hypertrichosis universalis congenita is caused by mutations in the **TRPS1 gene** — a zinc-finger transcription factor governing hair follicle development — which has no established direct relationship with adrenergic signalling pathways. The TxGNN model's high confidence score (99.999%) most likely arises from indirect traversal paths within the knowledge graph (e.g., hair disorder nodes connecting through shared adrenergic-related intermediaries) rather than from a genuine therapeutic biology, and should be regarded as **model noise**.
+Ambras syndrome is a rare genetic disorder of hair development. No credible mechanistic link to alpha-1 blockade has been identified, so the high graph score is a model output with no biological or clinical support.
 
-A critical red flag further undermines this prediction: **hypertrichosis (excessive hair growth) has been reported as an adverse effect of Alfuzosin** in clinical use. This suggests that α1 blockade may actively *promote* rather than suppress hair growth, creating a direct pharmacological contradiction with the proposed repurposing rationale.
-
----
+The other top predictions show the same pattern. Most are hair-related conditions, and the list includes both hypertrichosis and hypotrichosis, which are opposite phenotypes. This suggests the scores reflect graph-proximity artifacts rather than real biology. Vasodilators such as minoxidil are known to cause hypertrichosis, so even the direction of any effect is unclear.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
-
----
+Currently no related literature available for this indication.
 
 ## Singapore Market Information
 
-Alfuzosin is currently **not registered in Singapore**. No marketing authorizations were found in the regulatory database.
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN09546P | XATRAL SR TABLET 5 mg | Extended-release tablet | Sanofi Winthrop Industrie |
+| SIN11579P | XATRAL XL TABLET 10 mg | Tablet | Sanofi Winthrop Industrie |
+| SIN13984P | RANFUZOSIN MODIFIED RELEASE TABLETS 10MG | Extended-release tablet | Sun Pharmaceutical Industries Limited |
+| SIN15512P | APO-ALFUZOSIN PROLONGED RELEASE TABLET 10mg | Extended-release tablet | Apotex Inc |
 
----
+All products are oral.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
----
+Please refer to the package insert for safety information. No drug interaction records were found in the data received.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There is no clinical trial or published literature evidence supporting Alfuzosin for Ambras type hypertrichosis universalis congenita. The condition is driven by a specific genetic mutation (TRPS1) with no known mechanistic connection to α1-adrenergic blockade, and the paradox that hypertrichosis is itself a reported adverse effect of this drug makes the repurposing rationale logically inconsistent.
+The prediction rests on the model score alone (L5). No trials or drug-specific literature exist, and no mechanism links alpha-1 blockade to hair development disorders. Predictions for opposite hair phenotypes point to a graph artifact.
 
-**To proceed, the following would be needed:**
-- Verified MOA data from DrugBank confirming any hair follicle biology involvement
-- Preclinical evidence (e.g., in vitro or animal model data) demonstrating that α1-adrenergic blockade influences TRPS1-associated hair growth pathways
-- Resolution of the pharmacological paradox: Alfuzosin causes hypertrichosis as a side effect — any proposed mechanism for treating hypertrichosis must address this contradiction directly
-- Singapore HSA package insert data to complete safety screening (currently blocking Step S1 safety assessment)
-- If the broader TxGNN candidate list is being reviewed, note that **allergic urticaria** (rank 7) and **persistent fetal circulation syndrome** (rank 8) carry more mechanistically coherent rationales and are classified as "Research Question" rather than "Hold" — these may be more productive targets for hypothesis generation
+**To proceed, the following is needed:**
+- Package insert warnings and contraindications from the HSA (blocking for safety screening)
+- Mechanism of action data from DrugBank
+- Approved indication text for the Singapore registrations
+- Any drug-specific preclinical or clinical evidence for this indication; without it, the candidate should not advance
+- Consideration of higher-ranked candidates with plausible mechanisms, such as persistent fetal circulation syndrome, though this has major safety concerns (systemic hypotension, no neonatal data)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

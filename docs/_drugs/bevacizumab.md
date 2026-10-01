@@ -29,83 +29,80 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Bevacizumab: From Anti-VEGF Antineoplastic Therapy to Epiglottis Neoplasm
+# Bevacizumab: From Approved Oncology Use to Epiglottis Neoplasm
 
 ## One-Sentence Summary
 
-Bevacizumab (Avastin) is a humanized anti-VEGF-A monoclonal antibody with established global approvals across multiple solid tumours, including colorectal cancer, non-small cell lung cancer, glioblastoma, and ovarian cancer, though it is not currently registered in Singapore.
-The TxGNN model predicts it may be effective for **Epiglottis Neoplasm**, with a high prediction score of **99.90%**.
-However, **no clinical trials and no supporting publications** currently exist for this specific indication, placing this candidate at the lowest evidence level (L5) — model prediction only.
-
----
+Bevacizumab is a VEGF-A-neutralizing antibody marketed in Singapore under 9 registrations. The approved indication text is not included in the supplied registration records.
+The TxGNN model predicts it may be effective for **Epiglottis Neoplasm**.
+This prediction currently has **0 clinical trials** and **0 publications** supporting it, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not registered in Singapore (globally: colorectal cancer, NSCLC, glioblastoma, ovarian cancer, renal cell carcinoma) |
-| Predicted New Indication | Epiglottis Neoplasm |
+|------|------|
+| Original Indication | Not listed in the supplied registration records |
+| Predicted New Indication | Epiglottis neoplasm |
 | TxGNN Prediction Score | 99.90% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 9 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known information, Bevacizumab is a recombinant humanized monoclonal antibody that selectively binds and neutralizes VEGF-A (Vascular Endothelial Growth Factor A), thereby inhibiting tumour neovascularisation. By blocking the formation of new blood vessels, Bevacizumab deprives tumours of the oxygen and nutrient supply required for growth and metastasis. This anti-angiogenic mechanism is in principle tumour-agnostic and has been clinically validated across multiple histological cancer types.
+Detailed mechanism-of-action data is not available in the supplied record. The prediction rationale notes that bevacizumab neutralizes VEGF-A, the main driver of tumour blood-vessel growth (angiogenesis).
 
-Epiglottis neoplasms are tumours arising from the supraglottic larynx — a head and neck region where VEGF-mediated angiogenesis has been implicated in tumour progression and treatment resistance in adjacent anatomical sites. The TxGNN knowledge graph likely inferred this association through shared disease nodes with other head and neck cancers for which anti-VEGF strategies have shown preclinical or clinical activity. Mechanistically, Bevacizumab's ability to suppress supraglottic tumour angiogenesis provides a plausible biological rationale, even in the absence of direct clinical evidence.
-
-However, it must be emphasised that the current standard of care for epiglottis neoplasms is surgery and/or radiochemotherapy, and no preclinical models specifically exploring anti-angiogenic therapy in this entity have been established. The prediction at this stage rests entirely on knowledge graph inference, and the risk-benefit profile for systemic anti-VEGF therapy in this uncommon indication has not been characterised.
-
----
+VEGF-driven angiogenesis is plausible in head and neck tumours, and the epiglottis is part of the larynx. This makes the prediction biologically reasonable. However, no trials or literature were supplied for this specific disease, and the approved indications were not provided, so the link to the original use cannot be assessed. The score reflects a model-derived association and has not been validated clinically.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for this indication.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for this indication.
+Currently no related literature available.
 
----
+## Singapore Market Information
+
+There are 9 registrations in total. The 5 main authorizations are listed below. Approved indication text is not included in these records.
+
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|------|
+| SIN14097P | Avastin Concentrate for Solution for Infusion 400mg/16ml | Infusion, solution concentrate | F. Hoffmann-La Roche Ltd / Roche Diagnostics GmbH / Genentech Inc., Hillsboro |
+| SIN16287P | Zirabev Concentrate for Solution for Infusion 400 mg/16 ml | Infusion, solution concentrate | Pharmacia & Upjohn Company, LLC |
+| SIN16286P | Zirabev Concentrate for Solution for Infusion 100 mg/4 ml | Infusion, solution concentrate | Pharmacia & Upjohn Company, LLC |
+| SIN16583P | Abevmy Concentrate for Solution for Infusion 25mg/ml | Injection, solution, concentrate | Biocon Biologics Limited |
+| SIN17101P | Avamab Concentrate for Solution for Infusion 100mg/4mL | Infusion, solution concentrate | Universal Farma, S.L. |
 
 ## Cytotoxicity
 
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy (Anti-VEGF-A humanized monoclonal antibody; not conventional cytotoxic) |
-| Myelosuppression Risk | Low (Bevacizumab does not directly suppress bone marrow; haematological toxicity is primarily driven by any co-administered chemotherapy) |
-| Emetogenicity Classification | Low |
-| Monitoring Items | Blood pressure (hypertension is common), urinalysis for proteinuria, wound healing assessment, signs of gastrointestinal perforation, thromboembolic events, and haemorrhage; CBC if combined with cytotoxic agents |
-| Handling Protection | Follow institutional biologic/monoclonal antibody handling protocols; standard precautions apply (not classified as a conventional hazardous cytotoxic agent for handling purposes) |
-
----
+|------|------|
+| Cytotoxicity Classification | Targeted therapy (anti-VEGF monoclonal antibody), not a conventional cytotoxic agent |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert warnings and precautions |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Although the TxGNN model assigns a high knowledge-graph prediction score (99.90%), epiglottis neoplasm is an Evidence Level L5 candidate — supported solely by computational inference with no clinical trials, no published literature, and no preclinical data. The absence of even mechanistic or preclinical evidence, combined with well-established surgical and radiochemotherapy standards for this indication, does not support advancing to clinical investigation at this time.
+The prediction has a very high model score (99.90%) but no supporting trials or publications (Evidence Level L5). The package insert, which is a blocking data item, is also missing, so safety screening cannot start.
 
 **To proceed, the following is needed:**
-- Preclinical studies (in vitro/in vivo tumour models) establishing VEGF dependency specifically in epiglottis neoplasm
-- Systematic review of VEGF/angiogenesis expression data in supraglottic tumour tissue
-- Retrieval and parsing of the Singapore (HSA) / global package insert for complete warnings and contraindications data
-- Mechanism of action (MOA) data from DrugBank to support mechanistic rationale analysis
-- Assessment of unmet medical need and eligible patient population size to determine feasibility of future study design
+- HSA package insert (warnings, contraindications, approved indications), which blocks safety screening
+- Approved indication text, to confirm whether epiglottis neoplasm is a new use or already covered
+- Detailed mechanism-of-action data from DrugBank
+- A targeted search for trials and literature on bevacizumab in laryngeal, epiglottic and head and neck tumours
+- Clarification of whether the predicted term refers to a benign or malignant tumour
+- Route compatibility assessment (currently pending)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

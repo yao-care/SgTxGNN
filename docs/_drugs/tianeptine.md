@@ -33,75 +33,64 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-> Tianeptine is an atypical tricyclic antidepressant, historically used in the treatment of **depression** (including dysthymic disorder), though this is not confirmed in official Singapore regulatory records.
-> The TxGNN model's top-ranked prediction is **Migraine Disorder** (score 96.91%), but this specific prediction is currently supported by **0 clinical trials** and **0 publications** — it is a pure algorithmic signal with no direct evidence behind it.
-
----
+Tianeptine is an antidepressant, and the literature in this Evidence Pack describes it as a modified tricyclic that enhances serotonin uptake. The TxGNN model predicts it may be useful for **Migraine Disorder**, but **0 clinical trials** and **0 publications** currently support this specific prediction. It rests on a model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Depression / dysthymic disorder (based on literature; not found in official Singapore regulatory data — `original_indications` is empty) |
-| Predicted New Indication | Migraine Disorder |
+| Original Indication | Depressive disorders (from the literature; the Singapore indication text is blank in the registration record) |
+| Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 96.91% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Singapore Market Status | Not marketed (Not marketed) |
-| Number of Registrations | 0 |
-| Recommended Decision | **Hold** |
-
----
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action (MOA) data for Tianeptine is not available in the evidence pack (flagged as a High-severity data gap). Based on literature retrieved for related indications, Tianeptine is described as a novel antidepressant that — unlike most other antidepressants — **stimulates** (rather than inhibits) serotonin reuptake, and its antidepressant/anxiolytic effects have also been linked to glutamatergic (AMPA receptor) modulation and mu-opioid receptor agonism, alongside effects on hippocampal neuroplasticity.
+Currently, detailed mechanism of action data is not available. Tianeptine is described in the literature as an antidepressant. Its efficacy in depression and anxious-depression has been studied in controlled trials against amitriptyline. Mechanistically, it may be applicable to migraine, but this has not been shown.
 
-For the top-ranked prediction, **Migraine Disorder**, the evidence pack explicitly states there is no direct clinical trial or literature support — the rationale notes only a thematic overlap with an ongoing Phase 2 trial for the related "headache disorder" category (NCT06012552, testing Tianeptine for post-COVID "brain fog" including headache-related symptoms). This means the 96.91% score reflects graph-based pattern similarity in the TxGNN model rather than any confirmed pharmacological or clinical link to migraine specifically.
+Two actions are sometimes proposed for tianeptine: mu-opioid receptor agonism and glutamatergic modulation. Both are plausible routes to pain or headache effects, but neither is verified for migraine. Antidepressants are also used for headache prophylaxis, which gives the prediction some indirect plausibility. No tianeptine-specific data linking it to migraine were found.
 
-It is worth noting that other, lower-ranked predictions in this same evidence pack carry meaningfully stronger evidence: **Dysthymic Disorder** (rank 3, L2, 8 supporting publications including RCTs and a meta-analysis) and **Headache Disorder** (rank 5, L2, 1 actively recruiting Phase 2 RCT plus supporting literature) both have documented pharmacological plausibility tied to Tianeptine's serotonergic/antidepressant mechanism. These may represent more actionable repurposing candidates than the top TxGNN-ranked migraine indication.
-
----
+The model's other headache-related predictions (migraine with brainstem aura, trigeminal autonomic cephalalgia) are probably neighbours of this one in the knowledge graph, not independent signals.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Migraine Disorder.
-
-*(For reference, an actively recruiting Phase 2 RCT — [NCT06012552](https://clinicaltrials.gov/study/NCT06012552) — is testing Tianeptine for headache-related "COVID fog" symptoms, a related but distinct predicted indication ranked #5 in this evidence pack.)*
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for Migraine Disorder.
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Tianeptine is currently **not marketed** in Singapore (0 registrations recorded in the evidence pack). No dosage form, brand name, or approved indication data is available locally.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN11182P | STABLON TABLET 12.5 mg (Les Laboratoires Servier Industrie) | Tablet, sugar coated | Not provided in the registration record |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
-*Note: Key warnings, contraindications, and drug interaction data are all flagged as data gaps (`[Data Gap]`) in the current evidence pack, including a **Blocking**-severity gap for TFDA/HSA package insert warnings and contraindications (DG001). This must be resolved before any safety evaluation (S1 stage) can proceed.*
-
----
+- **Misuse and dependence**: Misuse and dependence liability have been reported for tianeptine, linked to its opioid-receptor activity. This should be reviewed before any advancement.
+- **Other safety information**: No warnings, contraindications or interaction data were retrieved. Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked TxGNN prediction (Migraine Disorder) has no clinical trial or literature support and is classified as Evidence Level L5 — a pure model-generated hypothesis. Combined with a **Blocking** data gap in core safety information (TFDA/HSA warnings and contraindications) and the drug's non-marketed status in Singapore, there is currently no basis to advance this specific candidate.
+The migraine prediction is supported only by the model score (96.91%), with no trials, no literature, and no verified mechanism. Evidence is L5. The rest of the pack does not rescue it:
+- The only nearby trial (NCT06012552, Phase 2, recruiting) tests tianeptine for post-COVID cognitive symptoms, so it does not establish a migraine signal.
+- Dysthymic disorder, another prediction (score 95.76%), has more tianeptine literature, including RCTs. That evidence comes from depression patients and is a better fit to the original use than to migraine.
 
 **To proceed, the following is needed:**
-- Resolve **DG001** (Blocking): obtain and parse the official package insert for warnings/contraindications before any S1 safety evaluation
-- Resolve **DG002** (High): obtain confirmed mechanism of action data from DrugBank to support mechanistic-link analysis
-- Confirm the drug's officially approved original indication(s), as `original_indications` is currently empty in regulatory data
-- If pursuing repurposing for this drug, consider re-scoping toward **Dysthymic Disorder** or **Headache Disorder**, which carry substantially stronger evidence (L2, active/completed RCTs) than the current top-ranked Migraine Disorder prediction
+- The package insert for the Singapore registration, covering approved indication, warnings and contraindications
+- Mechanism of action data, and any preclinical or clinical evidence specific to migraine or headache
+- Results from NCT06012552, and confirmation of whether any headache population is included
+- A safety review covering misuse and dependence liability before any move to clinical evaluation
+- A route and dosing compatibility assessment for the migraine use
+
+*This report is for research reference only and does not constitute medical advice. Predicted repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

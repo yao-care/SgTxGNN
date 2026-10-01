@@ -29,78 +29,65 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pantothenic Acid: From No Established Indication to Congenital Prothrombin Deficiency
+# Pantothenic Acid: From Vitamin Supplementation to Congenital Prothrombin Deficiency
 
 ## One-Sentence Summary
 
-Pantothenic acid (Vitamin B5, DrugBank DB01783) has no formally recorded original indication in this evidence pack and is not currently marketed in Singapore. The TxGNN model's top prediction is **Congenital Prothrombin Deficiency**, but this pairing is currently supported only by **1 loosely related clinical trial** and **no disease-specific literature** — the evidence pack itself flags this as a topological artifact of the knowledge graph rather than a mechanistically grounded hypothesis.
-
----
+Pantothenic acid (vitamin B5) is a nutrient, and in Singapore it is registered as a component of a multivitamin injection.
+The TxGNN model predicts it may be effective for **congenital prothrombin deficiency**, but there is **1 clinical trial** (unrelated to this condition) and **no publications** supporting this direction.
+The high score looks like a graph artifact rather than a real signal.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no approved indication text on file; drug is not marketed in Singapore |
-| Predicted New Indication | Congenital Prothrombin Deficiency |
+| Original Indication | Vitamin supplementation (inferred from the registered product, a multivitamin injection; no approved indication text is listed) |
+| Predicted New Indication | Congenital prothrombin deficiency |
 | TxGNN Prediction Score | 99.96% |
-| Evidence Level | L5 (model prediction only) |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, pantothenic acid is a water-soluble B-vitamin and the essential precursor of coenzyme A (CoA), and its physiological role is well established in fatty-acid and energy metabolism.
+Currently, detailed mechanism of action data is not available. Based on known information, pantothenic acid is a precursor of coenzyme A (CoA) and is supplied as part of a multivitamin product. Its role in general metabolism is well established.
 
-The proposed new indication, congenital prothrombin deficiency, is a genetic disorder affecting Factor II (prothrombin) synthesis in the coagulation cascade. There is no established biochemical pathway connecting CoA/pantothenate metabolism to prothrombin gene expression or hepatic synthesis of coagulation factors.
+Congenital prothrombin deficiency is a genetic defect of a coagulation factor. Pantothenic acid has no known role in prothrombin synthesis, so the mechanistic link is not plausible. The TxGNN score appears to reflect network proximity in the knowledge graph rather than biological rationale.
 
-The evidence pack's own mechanistic assessment is explicit on this point: the high TxGNN score is attributed to **knowledge-graph topological similarity** between disease nodes rather than any known biological mechanism. The single associated clinical trial (a dietary-supplement study in hypertensive patients) does not investigate coagulation factor deficiency at all. Taken together, this prediction should be treated as a hypothesis-generation signal only, not as evidence of therapeutic plausibility.
-
----
+Two other predictions for this drug have more support than this one. Folic acid deficiency anemia (L4) is indirectly supported by multi-micronutrient trials and historical deficiency reports. Uterine inflammatory disease (L4) is supported by a single 2026 mouse study. Neither has direct human evidence for pantothenic acid alone.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT02392767](https://clinicaltrials.gov/study/NCT02392767) | NA | Completed | 25 | Cross-over RCT testing a multi-ingredient dietary supplement (L-arginine, Pycnogenol, vitamin K2, alpha-lipoic acid, B-vitamins) on endothelial function in hypertension/hyperhomocysteinemia. Not a study of congenital prothrombin deficiency — flagged as **relevance grade C (mismatch)** in the source data. |
-
----
+| [NCT02392767](https://clinicaltrials.gov/study/NCT02392767) | Not applicable | Completed | 25 | A multi-ingredient dietary supplement (L-arginine, Pycnogenol, vitamin K2, lipoic acid, B vitamins) was tested against placebo for endothelial function in mild-to-moderate hypertension. It is unrelated to coagulation disorders and gives no support for this indication (relevance grade C). |
 
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Pantothenic acid has no current marketing authorizations on file in Singapore (0 licenses).
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN11975P | CERNEVIT FOR INJECTION | Injection, powder, for solution | Not specified in the registration data |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high, but the evidence pack shows no mechanistic pathway linking pantothenate metabolism to prothrombin synthesis, and the only associated clinical trial is unrelated to the proposed indication. With no disease-specific literature and evidence level at L5, this candidate does not meet the bar to advance.
+The prediction has no mechanistic plausibility and no supporting trials or publications. The only retrieved trial is a multi-ingredient supplement study in hypertension, which is unrelated to this condition.
 
 **To proceed, the following is needed:**
-- Mechanism of action (MOA) data for pantothenic acid (currently a data gap — DG002)
-- Regulatory safety labeling / warnings and contraindications (currently a data gap — DG001, blocking)
-- Preclinical or biochemical evidence for any link between CoA metabolism and coagulation factor II synthesis
-- Disease-specific clinical or case-level evidence in congenital prothrombin deficiency populations
-
-**Additional note:** Within this same evidence pack, rank 4 (**folic acid deficiency anemia**) reached a materially stronger evidence position — Evidence Level L3, decision stage S1 ("Research Question"), supported by 4 clinical trials and 4 publications, including a direct trial comparing natural vs. synthetic B-complex vitamins. If prioritizing among this drug's candidates, that indication warrants review ahead of the top-ranked but mechanistically unsupported prediction above.
+- Singapore HSA package insert warnings and contraindications, which currently block safety screening
+- Detailed mechanism of action data (MOA) from DrugBank
+- A reassessment of folic acid deficiency anemia, the better-supported candidate (L4), using trials that isolate pantothenic acid
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

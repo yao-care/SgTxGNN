@@ -33,74 +33,78 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Albutrepenonacog alfa (rIX-FP) is a recombinant Factor IX albumin fusion protein designed to provide long-acting coagulation factor replacement for Hemophilia B (congenital Factor IX deficiency).
-The TxGNN model predicts it may be effective for **Pseudo-von Willebrand Disease**,
-however there are currently **0 clinical trials** and **0 publications** supporting this direction, and the mechanistic rationale is assessed as extremely weak.
-
----
+Albutrepenonacog alfa (marketed as Idelvion) is a recombinant factor IX-albumin fusion protein used to replace factor IX in hemophilia B.
+The TxGNN model predicts it may be effective for **pseudo-von Willebrand disease**, but there are **0 clinical trials** and **0 publications** supporting this direction, and the mechanism does not support it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hemophilia B (congenital Factor IX deficiency) |
-| Predicted New Indication | Pseudo-von Willebrand Disease |
+| Original Indication | Hemophilia B (factor IX replacement; the HSA indication text is blank in the provided data) |
+| Predicted New Indication | Pseudo-von Willebrand disease |
 | TxGNN Prediction Score | 99.94% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 4 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the Evidence Pack. Based on established pharmacological knowledge, Albutrepenonacog alfa is a recombinant human Factor IX fused to human serum albumin (rIX-FP), engineered to extend the circulating half-life of Factor IX to approximately 104 hours—roughly 5-fold longer than standard Factor IX concentrates. This enables once-weekly or less frequent prophylactic dosing in patients with Hemophilia B, where Factor IX activity is congenitally absent or severely reduced, impairing the intrinsic coagulation pathway (Xase complex: FIXa + FVIIIa → FXa).
+Detailed mechanism of action data is not available in the database. From its structure and use, albutrepenonacog alfa replaces the missing factor IX in hemophilia B and restores the coagulation cascade. The albumin fusion extends its half-life.
 
-Pseudo-von Willebrand disease (platelet-type vWD) is caused by a gain-of-function mutation in GPIbα on the platelet surface, which creates abnormally high affinity for von Willebrand Factor (vWF). This leads to spontaneous platelet-vWF binding, resulting in platelet aggregation and selective consumption of high-molecular-weight vWF multimers. The pathological mechanism operates entirely within the primary hemostasis axis (platelet/vWF interaction), and is structurally and functionally distinct from the coagulation cascade where Factor IX functions.
-
-Mechanistic relevance is **extremely low**: supplementing Factor IX cannot correct GPIbα gain-of-function abnormalities, replace consumed vWF multimers, or prevent spontaneous platelet aggregation. The TxGNN model's high prediction score (99.94%) most likely reflects shared rare bleeding disorder ontology in the knowledge graph rather than true mechanistic or therapeutic overlap. Among all 10 predicted indications in this analysis, only **acquired coagulation factor deficiency** (Rank 7) carries a meaningful mechanistic link to Factor IX replacement therapy, as it may encompass acquired Factor IX deficiency (e.g., in systemic amyloidosis).
-
----
+Pseudo-von Willebrand disease is a platelet defect, not a coagulation factor deficiency. The platelet GPIb receptor binds von Willebrand factor (VWF) too strongly. Factor IX replacement does not correct this defect. The high TxGNN score therefore has no plausible mechanistic support. It most likely reflects graph proximity among hemostasis-related nodes rather than a real therapeutic link.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for pseudo-von Willebrand disease.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for pseudo-von Willebrand disease.
+Currently no related literature available.
 
----
+## Other Predicted Indications (for Context)
+
+All nine other predictions also have L5 evidence and no supporting studies.
+
+| Predicted Indication | TxGNN Score | Assessment |
+|------|------|------|
+| Primary release disorder of platelets | 99.94% | Platelet secretion defect; no clear link to factor IX |
+| Glanzmann thrombasthenia | 99.92% | Platelet aggregation defect; standard care is platelet transfusion or rFVIIa |
+| Scott syndrome | 99.63% | Defect in the platelet procoagulant surface; extra factor IX cannot compensate |
+| Bleeding diathesis due to a collagen receptor defect | 99.28% | Platelet adhesion defect upstream of factor IX |
+| Hemorrhagic disorder due to a constitutional thrombocytopenia | 99.26% | Bleeding driven by low platelet count or function |
+| **Acquired coagulation factor deficiency** | 98.58% | Most mechanistically coherent, and flagged as a **Research Question**. Acquired deficiencies are usually multi-factor, so a narrower question (acquired factor IX deficiency or inhibitors) would be more appropriate |
+| Thrombotic thrombocytopenic purpura | 98.21% | Procoagulant agent raises a theoretical thrombotic safety concern |
+| Fetal and neonatal alloimmune thrombocytopenia | 97.54% | Antibody-mediated platelet destruction; treated with IVIG or compatible platelets |
+| Inherited thrombophilia | 97.41% | Hypercoagulable state, the opposite of the target condition. The one linked trial ([NCT02546622](https://clinicaltrials.gov/study/NCT02546622), an observational study of hemophilia patients switching factor products, n=310) is graded C and does not test this indication |
 
 ## Singapore Market Information
 
-Albutrepenonacog alfa is currently **not registered** in Singapore. No HSA-authorised products containing this active substance have been identified. This drug is therefore not commercially available through standard regulatory channels in Singapore.
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN15811P | IDELVION Powder and Solvent for Solution for Injection 250IU/vial | Lyophilized powder for injection |
+| SIN15812P | IDELVION Powder and Solvent for Solution for Injection 500IU/vial | Lyophilized powder for injection |
+| SIN15813P | IDELVION Powder and Solvent for Solution for Injection 1000IU/vial | Lyophilized powder for injection |
+| SIN15814P | IDELVION Powder and Solvent for Solution for Injection 2000IU/vial | Lyophilized powder for injection |
 
----
+The manufacturer for all four is CSL Behring GmbH. Approved indication text is not recorded in the provided data.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite a high TxGNN prediction score (99.94%), pseudo-von Willebrand disease involves a primary hemostasis defect in GPIbα/vWF interaction that is mechanistically orthogonal to Factor IX replacement therapy; there is no clinical, preclinical, or biological rationale supporting this repurposing direction, and no supporting evidence exists.
+The top prediction has no clinical or literature support, and its mechanism (a platelet GPIb defect) is unrelated to factor IX replacement. Across all ten predictions, only acquired coagulation factor deficiency is mechanistically coherent, and it is best treated as a research question rather than a repurposing candidate.
 
 **To proceed, the following is needed:**
-
-- Obtain and review the full prescribing information (package insert) for Albutrepenonacog alfa (Idelvion, CSL Behring) to confirm the approved indication, key warnings, and contraindications — this is currently a **Blocking** data gap
-- Retrieve the complete mechanism of action from DrugBank (DB13884) to enable formal mechanistic analysis — currently a **High** severity data gap
-- Redirect repurposing evaluation to **Acquired Coagulation Factor Deficiency** (Rank 7), which has the strongest mechanistic justification among all predicted candidates, as acquired Factor IX deficiency (e.g., amyloidosis-associated) represents a direct biological parallel to the approved Hemophilia B indication
-- Before any further evaluation of the remaining candidates, conduct a mechanistic triage review — note that **inherited thrombophilia** (Rank 10) and **thrombotic thrombocytopenic purpura** (Rank 8) represent potentially **contraindicated** directions where Factor IX supplementation could theoretically worsen thrombotic risk
-- Register Albutrepenonacog alfa with HSA Singapore if the primary Hemophilia B indication is commercially relevant, as the drug is currently not marketed in Singapore
+- HSA package insert warnings, contraindications and approved indication text
+- Mechanism of action data from DrugBank
+- A narrower, clinically defined research question for acquired factor IX deficiency or inhibitors, with a targeted literature and trial search
+- A thrombotic risk assessment before considering any use in platelet or microangiopathic disorders
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

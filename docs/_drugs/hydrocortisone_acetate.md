@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Hydrocortisone Acetate
-parent: High Evidence (L1-L2)
+parent: Low Evidence (L5)
 nav_order: 502
-evidence_level: L1
+evidence_level: L5
 indication_count: 10
 ---
 
 # Hydrocortisone Acetate
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,90 +29,73 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Hydrocortisone Acetate: From Topical Anti-inflammatory Use to Alopecia Areata
+# Hydrocortisone Acetate: From Topical Corticosteroid Cream to Alopecia Areata
 
 ## One-Sentence Summary
 
-Hydrocortisone acetate is the acetate ester form of hydrocortisone (cortisol), a well-established glucocorticoid used for mild-to-moderate inflammatory skin conditions.
-The TxGNN model predicts it may be effective for **Alopecia Areata** (圓禿),
-with **1 completed Phase 3 clinical trial** and **2 publications** currently supporting this direction.
-
----
+Hydrocortisone acetate is a low-potency corticosteroid, marketed in Singapore only as 1% creams. The TxGNN model predicts it may be effective for **alopecia areata**, with **1 clinical trial** and **2 publications** currently supporting this direction. In the trial, hydrocortisone 1% cream was the comparator rather than the test drug.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Topical anti-inflammatory (mild-to-moderate inflammatory skin conditions); no Singapore registration data available |
-| Predicted New Indication | Alopecia Areata |
+|------|------|
+| Predicted New Indication | Alopecia areata |
 | TxGNN Prediction Score | 99.94% |
-| Evidence Level | L1 |
-| Singapore Market Status | Not marketed (Not marketed) |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Evidence Level | L2 (one completed Phase 3 RCT, but hydrocortisone is only the comparator) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 8 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Hydrocortisone acetate is the acetate esterification of hydrocortisone (cortisol) — the primary endogenous glucocorticoid in humans. As a glucocorticoid receptor agonist (GRα), it inhibits NF-κB and AP-1 signalling pathways, suppresses pro-inflammatory cytokines including IL-2 and IFN-γ, and reduces local immune cell recruitment. The acetate ester form enhances percutaneous penetration and depot effect, making it particularly suitable for topical or intralesional administration.
+Currently, detailed mechanism of action data is not available. Based on known information, hydrocortisone acetate is a corticosteroid, a class with anti-inflammatory and immunosuppressive effects, and it is already used topically in Singapore. Mechanistically, it may be applicable to alopecia areata.
 
-Alopecia areata is a T-cell–mediated autoimmune disease in which CD8⁺ T cells breach the hair follicle's immune privilege zone — normally protected by low MHC-I expression and local immunosuppressive signals. This immune attack causes reversible hair follicle miniaturisation and hair loss. The mechanism of corticosteroids maps directly onto this pathology: by suppressing IL-2 and IFN-γ within the perifollicular microenvironment and restoring the immunosuppressive milieu, glucocorticoids can effectively re-establish follicular immune privilege.
+Alopecia areata is an autoimmune, T-cell-mediated attack on hair follicles, so an anti-inflammatory, immunosuppressive drug is biologically plausible. Topical and intralesional corticosteroids are an established treatment class for this disease. However, the available evidence concerns hydrocortisone in general, and the acetate salt is not specifically confirmed. Low-potency hydrocortisone is also generally considered less effective than high-potency agents such as clobetasol.
 
-Intralesional or topical hydrocortisone has been employed clinically in alopecia areata for decades — the 1973 literature (PMID 4755919) describes the use of intralesional hydrocortisone acetate suspension specifically for severe cases, and the completed Phase 3 trial (NCT01453686) directly compared hydrocortisone 1% cream against a higher-potency corticosteroid in paediatric alopecia areata. The mechanistic rationale is clear and direct, making this one of the more biologically plausible TxGNN predictions in this candidate set.
-
----
+The other nine predictions are not supported. Nine other predicted indications have no trials or literature, and their mechanistic rationale is weak. They include telogen effluvium, alopecia mucinosa, folliculitis decalvans, several rare genetic hair-loss syndromes, seborrheic keratosis and steroid-sensitive nephrotic syndrome. Many likely reflect knowledge-graph similarity to other alopecias rather than real pharmacology.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT01453686](https://clinicaltrials.gov/study/NCT01453686) | Phase 3 | Completed | 41 | Randomised controlled trial comparing Clobetasol Propionate 0.05% cream versus Hydrocortisone 1% cream in children with alopecia areata. Hydrocortisone served as the active comparator, providing direct Phase 3 evidence of its clinical use in this indication. Sample size was modest (n=41); the trial formulation (1% cream) is a close comparator to hydrocortisone acetate but minor pharmacokinetic differences exist. |
-
-> **Note:** In this trial, hydrocortisone 1% cream served as the comparator arm rather than the investigational drug. The evidence nonetheless establishes direct Phase 3 clinical use of hydrocortisone in paediatric alopecia areata.
-
----
+|---------|------|------|------|---------|
+| [NCT01453686](https://clinicaltrials.gov/study/NCT01453686) | Phase 3 | Completed | 41 | Randomized trial in children with alopecia areata (2002-2003) comparing clobetasol propionate 0.05% cream with hydrocortisone 1% cream. Hydrocortisone is the comparator, the salt form is not specified, and the sample is small. |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [4755919](https://pubmed.ncbi.nlm.nih.gov/4755919/) | 1973 | Clinical Study (Case Series) | Przeglad Dermatologiczny | Reports intralesional subcutaneous injection of hydrocortisone acetate suspension for severe forms of alopecia areata. This is the earliest direct clinical evidence using the specific acetate ester formulation (DB14539) in this indication. |
-| [153470](https://pubmed.ncbi.nlm.nih.gov/153470/) | 1979 | Review | MMW Münchener Medizinische Wochenschrift | Comprehensive review of topical therapy advances in skin diseases. Discusses comparative anti-inflammatory potency of hydrocortisone acetate versus newer corticosteroid esters, providing pharmacological context for its use in inflammatory dermatological conditions. |
-
----
+|------|-----|------|------|---------|
+| [4755919](https://pubmed.ncbi.nlm.nih.gov/4755919/) | 1973 | Case series | Przeglad dermatologiczny | Intralesional injection of hydrocortisone acetate suspension for severe alopecia areata. No abstract is available, and the design is non-randomized. |
+| [153470](https://pubmed.ncbi.nlm.nih.gov/153470/) | 1979 | Review | MMW, Munchener medizinische Wochenschrift | General review of topical skin therapy. It notes that fluocortin butyl ester has anti-inflammatory activity about equal to hydrocortisone acetate. It is not specific to alopecia areata. |
 
 ## Singapore Market Information
 
-Hydrocortisone acetate (DB14539) currently has **no registered products** in Singapore. There are no active licences on record.
+Eight products are registered, all topical creams. The approved indication text is not listed for these products. The five main authorizations are:
 
-> Pharmaceutical companies wishing to enter the Singapore market would need to submit a new drug application to the Health Sciences Authority (HSA).
-
----
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN08804P | HYDRODERM CREAM 1% | Cream |
+| SIN11172P | YSP HYDROCORT CREAM 1% W/W | Cream |
+| SIN04767P | HYDROCORTISONE CREAM 1% w/w | Cream |
+| SIN03781P | SW HYDROCORTISONE CREAM 1% w/w | Cream |
+| SIN08726P | UCORT CREAM | Cream |
 
 ## Safety Considerations
 
-Detailed safety data (warnings, contraindications, drug interactions) for hydrocortisone acetate are not available in this Evidence Pack.
-
-> Please refer to the package insert for complete safety information. For general glucocorticoid class effects, consult current dermatology guidelines — known class concerns include skin atrophy with prolonged topical use, HPA axis suppression (especially in children with extensive application), and secondary infection risk.
-
----
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The mechanistic link between hydrocortisone acetate and alopecia areata is direct and well-established — glucocorticoid-mediated restoration of follicular immune privilege is a primary therapeutic strategy in this disease. A completed Phase 3 RCT (NCT01453686, n=41) and 1973 case series using the acetate form specifically provide sufficient clinical grounding for L1 classification, despite the modest evidence base.
+The only trial evidence is a small pediatric Phase 3 study in which hydrocortisone 1% was the comparator, and the other supporting literature is old and weak. The mechanism is plausible, but low-potency hydrocortisone is generally considered less effective than agents such as clobetasol. Safety data is also missing, so the candidate remains a research question.
 
 **To proceed, the following is needed:**
-
-- **Singapore regulatory pathway confirmation:** Hydrocortisone acetate is currently not registered in Singapore; an HSA product registration submission is required before any clinical deployment
-- **Formulation specification:** Clarify whether the intended route is topical cream, intralesional injection, or other; DB14539 (acetate ester) has distinct pharmacokinetic properties from hydrocortisone 1% cream used in NCT01453686 — bioequivalence data should be reviewed
-- **Safety package completion:** Retrieve full prescribing information (package insert, contraindications, warnings) for the specific acetate formulation
-- **Paediatric considerations:** The Phase 3 trial was conducted in children; if adult use is intended, age-specific dosing and safety data should be confirmed
-- **MOA documentation:** Formal mechanism of action data from DrugBank or published sources should be retrieved to complete the pharmacological dossier
-- **Comparative effectiveness context:** Stronger-potency corticosteroids (e.g., clobetasol, betamethasone) or intralesional triamcinolone are current standard-of-care in alopecia areata; a positioning rationale versus established treatments is needed
+- The trial's results, to see how hydrocortisone 1% performed against clobetasol
+- Package insert warnings and contraindications for the Singapore products
+- Detailed mechanism of action data (MOA)
+- Evidence specific to hydrocortisone acetate rather than hydrocortisone in general
+- Confirmation that the topical route and 1% strength are appropriate for alopecia areata, in adults and children
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

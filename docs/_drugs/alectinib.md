@@ -29,84 +29,84 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Alectinib: From ALK-Positive NSCLC to Fibromatosis, Gingival
+# Alectinib: From ALK-Positive Lung Cancer to Gingival Fibromatosis
 
 ## One-Sentence Summary
 
-Alectinib is a second-generation, highly selective ALK (anaplastic lymphoma kinase) tyrosine kinase inhibitor, approved in multiple global jurisdictions for the treatment of ALK-positive non-small cell lung cancer (NSCLC), though it currently holds no market authorization in Singapore.
-The TxGNN model ranks **Fibromatosis, Gingival** as its top new indication prediction, with a score of 99.97%.
-However, **zero clinical trials and zero supporting publications** exist for this specific pairing, placing this prediction at the lowest possible evidence tier (L5).
+Alectinib is an ALK/RET tyrosine kinase inhibitor used to treat ALK-positive lung cancer.
+The TxGNN model predicts it may be effective for **gingival fibromatosis**, but there are **0 clinical trials** and **0 publications** supporting this prediction.
+It is a model-only signal with no mechanistic link, so it should be treated as a hypothesis, not a lead.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | ALK-positive non-small cell lung cancer (NSCLC) |
-| Predicted New Indication | Fibromatosis, Gingival |
+|------|------|
+| Original Indication | Not stated in the Singapore licence record (alectinib is used for ALK-positive non-small-cell lung cancer, per the retrieved literature) |
+| Predicted New Indication | Fibromatosis, gingival |
 | TxGNN Prediction Score | 99.97% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Alectinib is a potent, orally bioavailable second-generation ALK inhibitor. It competitively occupies the ATP-binding pocket of the ALK kinase domain, blocking constitutively active ALK fusion oncoproteins (most commonly EML4-ALK) from driving downstream proliferation signalling via the RAS/MAPK, PI3K/AKT, and JAK/STAT pathways. Unlike its predecessor crizotinib, alectinib achieves robust CNS penetration and retains activity against most crizotinib-resistance mutations (e.g., L1196M, F1174L). Note: formal DrugBank MOA data was not retrieved in this evidence pack; the above reflects established published pharmacology.
+Detailed mechanism of action data is not available in the record. Alectinib is a targeted ALK/RET kinase inhibitor, and its efficacy is established in ALK-driven lung cancer (Phase 3 trials such as ALEX and J-ALEX).
 
-Gingival fibromatosis is a rare benign fibrous overgrowth of the gingival tissue. It is driven predominantly by mutations in the **SOS1** or **HMGA2** genes (hereditary form) or triggered as a drug-induced reaction (e.g., phenytoin, calcium channel blockers, cyclosporine). There is currently no published evidence that ALK overexpression, amplification, or fusion genes play any role in its pathogenesis. The condition is not a proliferative malignancy in the oncological sense and does not involve tyrosine kinase-dependent signalling.
+The prediction is hard to justify mechanistically. Gingival fibromatosis is a benign overgrowth of gum tissue, and no ALK-driven pathology is documented in it. The score (0.9997) is close to saturation, so it does not rank candidates meaningfully. It reflects graph-based proximity only.
 
-The TxGNN model's high prediction score for this indication most likely reflects **knowledge graph topology artefacts**: "fibroproliferative lesion" node clusters in the underlying knowledge graph may share graph-structural proximity to Alectinib's known disease nodes, generating an indirect, mechanistically unsupported association. Without any biological plausibility for ALK pathway involvement in gingival fibromatosis, this prediction should not be taken as evidence of a genuine repurposing opportunity.
+For that reason the prediction should not be read as evidence of therapeutic potential.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Alectinib in fibromatosis, gingival.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available for Alectinib in fibromatosis, gingival.
+Currently no related literature available.
 
 ---
 
 ## Singapore Market Information
 
-Alectinib currently holds **no drug registrations** with the Health Sciences Authority (HSA) of Singapore. It is not marketed in Singapore as of the data cutoff date (2026-04-04).
-
-Alectinib is approved in the United States (FDA, 2015/2017), European Union (EMA), Japan (PMDA), and Taiwan (TFDA) for ALK-positive NSCLC, but none of these authorisations extend to Singapore market registration. Any clinical use in Singapore would require special access pathways (e.g., HSA's Special Access Route).
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN15220P | ALECENSA HARD CAPSULE 150MG | Capsule | Not stated in the record |
 
 ---
 
 ## Cytotoxicity
 
-Alectinib is an antineoplastic targeted therapy indicated for a malignant indication (ALK-positive NSCLC); the following cytotoxicity profile applies.
-
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy — Second-generation ALK tyrosine kinase inhibitor (non-conventional cytotoxic) |
-| Myelosuppression Risk | Low (not a conventional cytotoxic agent; clinically significant myelosuppression is uncommon; anaemia reported in ~20% of patients but severe cases are rare) |
-| Emetogenicity Classification | Minimal to low (oral TKI; nausea reported in ~14% but severe vomiting is uncommon) |
-| Monitoring Items | Liver function (ALT, AST, total bilirubin) every 2 weeks for the first 3 months then monthly; CBC; renal function; serum creatine phosphokinase (CPK) for myalgia; body weight (unexplained weight gain reported in ~10%); heart rate (bradycardia risk) |
-| Handling Protection | Standard cytotoxic handling precautions apply; oral capsule formulation reduces aerosolisation risk compared to intravenous agents |
+|------|------|
+| Cytotoxicity Classification | Targeted therapy (ALK/RET tyrosine kinase inhibitor) |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert warnings and precautions |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ---
 
 ## Safety Considerations
 
-Formal TFDA/HSA package insert warnings and contraindications were not available in this evidence pack (Data Gap — Blocking severity). Please refer to the approved product package insert for complete safety information.
+Please refer to the package insert for safety information.
 
-The following is noted from general published data:
-- **Hepatotoxicity**: Grade 3–4 ALT/AST elevation occurs in approximately 3–5% of patients; liver function monitoring is essential.
-- **Interstitial lung disease / pneumonitis**: Rare but potentially severe; requires prompt discontinuation.
-- **Bradycardia**: Dose-dependent heart rate reduction; monitor in patients on concomitant antihypertensives or antiarrhythmics.
-- **Photosensitivity**: Patients should avoid prolonged sun exposure and use sun protection.
-- **CPK elevation and myalgia**: Reported in up to 30% of patients; monitor serum CPK.
+Literature retrieved for other predicted indications reports these alectinib adverse events, mostly as case reports:
+- Hypertriglyceridemia-induced pancreatitis
+- Drug reaction with eosinophilia and systemic symptoms (DRESS)
+- Erythema multiforme
+- Weight gain
+- QTc and bradycardia effects, assessed in an ECG monitoring analysis
+
+No drug interaction data was found.
 
 ---
 
@@ -115,15 +115,14 @@ The following is noted from general published data:
 **Decision: Hold**
 
 **Rationale:**
-There is no established biological link between ALK signalling and gingival fibromatosis, and zero clinical or preclinical data support this repurposing direction. The TxGNN high score reflects knowledge graph structural proximity rather than mechanistic plausibility, and pursuing this indication without any supporting evidence would not be a productive use of resources.
+The top-ranked prediction has no trials, no literature and no plausible ALK/RET link, and the evidence level is L5. It looks like a graph artifact, so there is no basis to advance it.
 
 **To proceed, the following is needed:**
-- Tissue profiling studies to determine whether ALK is expressed or rearranged in gingival fibromatosis specimens
-- Preclinical (in vitro cell line or animal model) data demonstrating that ALK inhibition has any biological effect on gingival fibroblast proliferation
-- Retrieval of the full DrugBank MOA entry and TFDA/HSA package insert to complete the safety assessment (currently Blocking data gaps)
-- If ALK expression is confirmed in future tissue studies, escalate to L4 evidence stage and consider proof-of-concept preclinical work before any clinical translation
+- Any biological evidence that ALK or RET signalling contributes to gingival fibromatosis
+- Mechanism of action data for alectinib (currently missing)
+- The HSA package insert, for warnings, contraindications and approved indication text (currently missing)
 
-> **Note for reviewers:** Among the 10 TxGNN-predicted indications in this Evidence Pack, **Rank 6 (Lung Germ Cell Tumor / ALK-positive Neuroendocrine Tumours)** carries the strongest actual evidence (Evidence Level L3; 2 clinical trials, 16 publications including multiple case reports of objective response in ALK+ large-cell neuroendocrine carcinoma). If the goal is to identify the most actionable repurposing signal for Alectinib, that indication warrants a separate, dedicated evaluation report.
+**Note on other candidates:** Among the 10 predictions, only **lung germ cell tumor** reached stage S1 ("Research Question"). It is supported by a recruiting Phase 2/3 basket trial (NCT05770037) and case reports in ALK-rearranged lung neuroendocrine tumors. Its link to alectinib is still indirect and unverified, but it is a better candidate for follow-up than the top-ranked one.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

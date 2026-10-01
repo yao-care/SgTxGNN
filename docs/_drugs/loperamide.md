@@ -29,86 +29,76 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Loperamide: From Acute Diarrhea to Acute Contagious Conjunctivitis
+# Loperamide: From Diarrhea to Acute Contagious Conjunctivitis
 
 ## One-Sentence Summary
 
-Loperamide is a well-established over-the-counter antidiarrheal agent that acts on intestinal opioid receptors to reduce gut motility, widely used for symptomatic relief of acute and chronic diarrhea.
-The TxGNN model predicts it may be effective for **Acute Contagious Conjunctivitis**, however **no clinical trials and no relevant publications** currently support this direction.
-The biological rationale connecting intestinal opioid receptors to ocular conjunctival disease is not established, and the high model score most likely reflects non-specific co-occurrence clustering in the knowledge graph rather than a true mechanistic link.
-
----
+Loperamide is a peripheral opioid antidiarrheal that slows gut motility and reduces secretion, and it is marketed in Singapore mainly as capsules and syrup.
+The TxGNN model predicts it may be effective for **acute contagious conjunctivitis** with a very high score (99.97%), but **no clinical trials and no publications** support this prediction.
+The score most likely reflects proximity in the knowledge graph rather than a pharmacological rationale.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Acute diarrhea (symptomatic relief) |
-| Predicted New Indication | Acute Contagious Conjunctivitis |
+|------|------|
+| Original Indication | Diarrhea (antidiarrheal use; the registry extract gives no indication text) |
+| Predicted New Indication | Acute contagious conjunctivitis |
 | TxGNN Prediction Score | 99.97% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 10 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the current evidence pack. Based on established pharmacological knowledge, Loperamide is a peripheral μ-opioid receptor agonist that acts specifically on the enteric nervous system. It slows intestinal peristalsis, reduces fluid and electrolyte secretion into the bowel lumen, and increases anal sphincter tone — all localised effects that do not cross the blood-brain barrier at therapeutic doses.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Loperamide is known as a peripheral mu-opioid receptor agonist that acts on gut motility and secretion, and its efficacy in diarrhea is well established.
 
-Acute contagious conjunctivitis is an inflammatory or infectious condition of the conjunctival membrane of the eye, driven by viral, bacterial, or allergic immune mechanisms. There is no established physiological pathway through which peripheral intestinal opioid receptor agonism would influence conjunctival immunity, tear film production, or ocular surface inflammatory responses. The repurposing rationale in the evidence pack explicitly identifies this as a likely **knowledge graph artefact** — the high TxGNN score is attributed to non-specific co-occurrence clustering between diarrhea-infection nodes rather than a genuine mechanistic signal.
-
-In summary, the biological plausibility for this prediction is very low. The two disease domains (gastrointestinal motility disorders and ocular surface infections) are mechanistically disconnected, and the model score alone is insufficient grounds to pursue this indication without corroborating biological or clinical evidence.
-
----
+There is no plausible mechanistic link between a gut-acting opioid antidiarrheal and infection or inflammation of the ocular surface. The high score (rank 878 in the model output) is most likely explained by neighborhood proximity to other conjunctivitis nodes in the knowledge graph. The same pattern appears in the sibling predictions (pseudomembranous, chronic follicular, parasitic, serous conjunctivitis and others), which share identical or near-identical scores.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Loperamide in acute contagious conjunctivitis.
+Currently no related clinical trials registered for acute contagious conjunctivitis.
 
-> **Note:** Two clinical trials were retrieved in the database query for the related term "conjunctivitis" (NCT04185402, NCT06289647), but both study Azithromycin for trachoma elimination and have no relevance to Loperamide. They are excluded from this report.
-
----
+For reference, the broader "conjunctivitis" prediction matched two azithromycin trachoma trials (NCT04185402 and NCT06289647). Loperamide is not an intervention in either, so they provide no evidence for this drug.
 
 ## Literature Evidence
 
-Currently no related literature available for Loperamide in acute contagious conjunctivitis.
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Loperamide is currently **not registered** with the Health Sciences Authority (HSA) of Singapore. No product licences or authorisation records were found.
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN05587P | VACONTIL CAPSULE 2 mg | Capsule |
+| SIN06525P | LORPA SYRUP 1mg/5ml | Syrup |
+| SIN05595P | LOPERAX CAPSULE 2 mg | Capsule |
+| SIN06212P | IMODIUM CAPSULE 2 mg | Capsule |
+| SIN16450P | ABYDIUM CAPSULES 2MG | Capsule |
 
----
+Only 5 of the 10 registrations are shown. No topical or ophthalmic formulation is registered, so the available forms (oral capsule and syrup) do not match the route needed for an ocular indication.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-> **Known signal of note (from Evidence Pack clinical data):** At **rank 10**, the evidence pack flags that high-dose Loperamide carries cardiac toxicity risk via hERG channel blockade. This is relevant context for any safety assessment of this drug. It is particularly notable for indication **Angelucci syndrome** (allergic conjunctivitis with cardiac palpitations), where Loperamide's cardiac risk profile makes it a contraindicated candidate.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN prediction score of 99.97% for acute contagious conjunctivitis is high in absolute terms, but is assessed to be a knowledge graph artefact with no underlying biological mechanism connecting Loperamide's intestinal μ-opioid receptor activity to conjunctival disease. Evidence level is L5 (model prediction only) with zero supporting clinical trials or literature.
+The prediction rests on a model score alone (L5), with no trials, no literature and no plausible mechanism. It is very likely a graph artifact, and there is no reason to spend resources on it.
 
-**To revisit this decision, the following would be needed:**
+**To proceed, the following is needed:**
+- A pharmacological rationale for a gut-acting opioid in conjunctival disease, and detailed mechanism of action data
+- Any preclinical or clinical study of loperamide in conjunctivitis
+- The HSA package insert warnings and contraindications for a safety screen
+- A suitable ocular formulation, since none is registered in Singapore
 
-- Identification of a credible mechanistic hypothesis linking peripheral opioid receptor activity to conjunctival pathophysiology (e.g., mucosal immune cross-talk, shared neuropeptide signalling)
-- At minimum one preclinical study (animal model or in vitro) demonstrating any ocular surface activity of Loperamide or closely related opioid receptor ligands
-- Resolution of current data gaps: formal MOA documentation (DrugBank API query) and HSA/TFDA package insert warnings to enable basic safety screening
+**Other predictions in the pack:**
+- **Gastroduodenitis** is the only one with a literature signal: a 1986 non-English clinical report of Imodium in peptic ulcer and chronic gastroduodenitis. Its design and outcomes are unconfirmed, so it is worth verifying as a research question.
+- **Amebic dysentery** points to a safety concern rather than a benefit: a case report links heavy loperamide use to fulminant amoebic colitis. It is not a viable candidate.
 
-**Among the 10 predicted indications reviewed, the most scientifically credible candidate for further investigation is Rank 4: Gastroduodenitis** — where Loperamide's mechanism (reduced GI motility, mucosal protection via slowed luminal flow) has a plausible symptomatic link, and a 1986 Soviet clinical observation (PMID 3520142) provides a preliminary signal, albeit of uncertain methodological quality.
-
----
-
-*⚠️ This report is for research reference only and does not constitute medical advice. All drug repurposing candidates require clinical validation before therapeutic application.*
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -29,39 +29,36 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Biotin: From Biotin Deficiency to Dyspepsia
+# Biotin: From Parenteral Vitamin Supplementation to Dyspepsia
 
 ## One-Sentence Summary
 
-Biotin (vitamin B7) is an essential water-soluble vitamin that functions as a cofactor for five critical carboxylase enzymes, clinically used in the treatment of biotin deficiency states and related metabolic disorders.
-The TxGNN model ranks **Dyspepsia (functional indigestion)** as the top new indication by prediction score,
-supported by **2 clinical trials** and **7 publications** — though the evidence is largely indirect and mechanistically inferential.
-
-> **Note for reviewers:** By evidence quality, **Biotin Metabolic Disease** (Rank 8, **L1** evidence, 42 clinical trials, 20 publications) and **Vitamin Deficiency Disorder** (Rank 7, **L2** evidence, 10 clinical trials) are substantially better supported. Dyspepsia leads only by TxGNN prediction score (99.43%), not by clinical evidence strength.
+Biotin (vitamin B7) is an essential vitamin cofactor. In Singapore it is registered only within two injectable multivitamin products, and no approved indication text is on file.
+The TxGNN model predicts it may be useful for **dyspepsia** (score 99.43%), but the supporting evidence is weak: **2 clinical trials** (both judged irrelevant) and **7 publications** (none testing biotin as a treatment).
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Biotin deficiency / nutritional supplementation — no Singapore regulatory registration on file |
+|------|------|
+| Original Indication | Not stated in the registration record. Inferred from the products: parenteral multivitamin supplementation |
 | Predicted New Indication | Dyspepsia |
 | TxGNN Prediction Score | 99.43% |
 | Evidence Level | L4 |
-| Singapore Market Status | ✗ Not marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the regulatory data set. Based on established biochemical knowledge documented across the evidence base, Biotin functions as a prosthetic group covalently bound to five essential carboxylases: acetyl-CoA carboxylase 1 and 2 (fatty acid synthesis), pyruvate carboxylase (gluconeogenesis and TCA cycle anaplerosis), propionyl-CoA carboxylase (odd-chain fatty acid and branched-chain amino acid catabolism), and methylcrotonyl-CoA carboxylase (leucine catabolism). These enzymes are indispensable for the energy metabolism and proliferative capacity of gastrointestinal mucosal epithelium.
+Detailed mechanism of action data is not available. Biotin is known as the essential cofactor of the carboxylase enzymes, which drive fatty acid synthesis, gluconeogenesis and amino acid breakdown. Its established role is correcting biotin deficiency, not treating gastrointestinal symptoms.
 
-The theoretical link between Biotin and dyspepsia operates through two indirect pathways. First, biotin-dependent fatty acid synthesis carboxylases support intestinal epithelial cell renewal; their impairment under deficiency could compromise the gastric mucosal barrier and predispose to dyspeptic symptoms. Second, recent translational research (PMID 35017197) demonstrates that impaired gut microbial biotin metabolism is associated with severe metabolic dysregulation, suggesting Biotin availability may modulate the gut microbiome composition relevant to upper GI function. Supportive but non-specific evidence comes from PMID 25384804, which reported that a multi-component food supplement containing Biotin — alongside sodium alginate, calcium carbonate, pineapple, papaya, ginger, and fennel — improved functional dyspepsia quality of life after H. pylori eradication; however, Biotin's independent contribution cannot be isolated from this multi-ingredient design.
+No direct mechanism links biotin to dyspepsia. Any connection would be indirect. For example, malabsorption or Helicobacter pylori-related problems could lower micronutrient status, and repleting a deficiency could then relieve symptoms. This is a hypothesis with no clinical support in the retrieved evidence.
 
-The mechanistic connection remains largely speculative. Dyspepsia is a multifactorial condition more directly driven by gastric acid secretion, motility dysfunction, and visceral hypersensitivity rather than carboxylase insufficiency. The TxGNN prediction at Rank 1 most likely reflects knowledge graph network topology connecting biotin metabolism nodes to gastrointestinal disease nodes rather than an established therapeutic pathway.
+The high TxGNN score reflects a pattern found in the knowledge graph, not clinical proof. The retrieved trials and papers do not test biotin for dyspepsia.
 
 ---
 
@@ -69,33 +66,43 @@ The mechanistic connection remains largely speculative. Dyspepsia is a multifact
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT03360435](https://clinicaltrials.gov/study/NCT03360435) | N/A | Completed | 99 | Pharmacokinetics of transdermal vitamin absorption (including Biotin) in post-bariatric surgery patients; primary endpoint is serum micronutrient levels, not dyspepsia — population and endpoints are not directly relevant |
+| [NCT03360435](https://clinicaltrials.gov/study/NCT03360435) | N/A | Completed | 99 | Serum micronutrient levels and deficiencies in post-bariatric surgery patients using transdermal vitamin patches. Concerns micronutrient status, not dyspepsia treatment |
+| [NCT05389813](https://clinicaltrials.gov/study/NCT05389813) | Phase 2/3 | Unknown | 150 | Oxycodone vs pregabalin as preemptive analgesia for postoperative pain. Biotin and dyspepsia are not involved; likely a spurious match |
 
-> NCT05389813 (oxycodone vs. pregabalin for postoperative pain) was excluded as confirmed data noise — no connection to Biotin or dyspepsia.
+Both trials were graded C (low relevance). Neither tests biotin for dyspepsia.
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|---------|
-| [25384804](https://pubmed.ncbi.nlm.nih.gov/25384804/) | 2014 | Clinical interventional (open-label multicenter) | Minerva Gastroenterol Dietol | Multi-component supplement including Biotin improved quality of life in functional dyspepsia after H. pylori eradication; Biotin's individual contribution cannot be isolated from the formula |
-| [15863846](https://pubmed.ncbi.nlm.nih.gov/15863846/) | 2005 | Case report | J Dermatol | 5-month-old infant with neonatal dyspepsia fed amino acid formula developed classic Biotin deficiency — suggests formula-fed GI patients are at depletion risk; not a treatment efficacy study |
-| [21695955](https://pubmed.ncbi.nlm.nih.gov/21695955/) | 2011 | Review/Clinical | Exp Clin Gastroenterology | Biotin-containing B-vitamin complex (Stimbifid) corrected intestinal microbiota dysbiosis in bronchopulmonary patients on antibiotics; indirect GI microbiome relevance only |
+|------|-----|------|------|---------|
+| [25384804](https://pubmed.ncbi.nlm.nih.gov/25384804/) | 2014 | Clinical study (open, multicentre) | Minerva Gastroenterol Dietol | A food supplement (alginate, calcium carbonate, pineapple, papaya, ginger, α-galactosidase, fennel) was evaluated in functional dyspepsia after H. pylori treatment. Biotin is not among the listed components |
+| [15863846](https://pubmed.ncbi.nlm.nih.gov/15863846/) | 2005 | Case report | J Dermatol | Biotin deficiency in an infant fed only amino acid formula after a neonatal dyspepsia diagnosis. Dyspepsia is background history, not the treated condition |
+| [21695955](https://pubmed.ncbi.nlm.nih.gov/21695955/) | 2011 | Clinical/review | Eksp Klin Gastroenterol | A prebiotic supplement containing several vitamins (including biotin) and minerals for gut microbiota disorders in patients on antibiotics. Biotin's contribution cannot be isolated |
+| [25110039](https://pubmed.ncbi.nlm.nih.gov/25110039/) | 2014 | Cohort/histology | Int J Mol Med | Stomach antral endocrine cell changes in 76 patients with irritable bowel syndrome. Off-target |
+| [24891930](https://pubmed.ncbi.nlm.nih.gov/24891930/) | 2014 | Cohort/histology | World J Gastrointest Endosc | Endocrine cells in the stomach's oxyntic mucosa in IBS patients. Off-target |
+| [11304845](https://pubmed.ncbi.nlm.nih.gov/11304845/) | 2001 | Cohort/histology | J Clin Pathol | Interleukin-10 in H. pylori-associated gastritis. Off-target |
+| [10354275](https://pubmed.ncbi.nlm.nih.gov/10354275/) | 1999 | Cohort | Kidney Int | Small bowel T cells and stress proteins in IgA nephropathy. Off-target |
+
+No RCT of biotin in dyspepsia was found.
 
 ---
 
 ## Singapore Market Information
 
-Biotin (DB00121) currently has **no registered pharmaceutical products in Singapore**. No authorization numbers, brand names, dosage forms, or approved indications are on file.
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN05209P | SOLUVIT N FOR INFUSION | Injection, powder, for solution |
+| SIN11975P | CERNEVIT FOR INJECTION | Injection, powder, for solution |
+
+Both products are injectable multivitamin preparations. Approved indication text is not recorded for either. There is no oral or other route on the market, and oral use would be the expected route for dyspepsia.
 
 ---
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-> **Critical safety alert — Immunoassay interference:** High-dose Biotin supplementation (>5 mg/day, particularly formulations such as MD1003 at 100–300 mg/day) is known to interfere with electrochemiluminescence immunoassays (ECLIA). This can produce **falsely abnormal results** for thyroid function tests (TSH, FT4, FT3), cardiac biomarkers (Troponin I/T), oncology markers (PSA, AFP, CEA), and pregnancy tests (β-HCG). Clinicians should routinely ask patients about Biotin supplementation before ordering these tests, and patients should be advised to discontinue Biotin 48–72 hours prior to laboratory sampling to avoid diagnostic errors.
 
 ---
 
@@ -104,14 +111,15 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-No clinical trial has directly tested Biotin monotherapy for dyspepsia, and the only supportive study (PMID 25384804) used a multi-ingredient supplement that prevents attribution of benefit to Biotin. The mechanistic connection is indirect and L4 evidence is insufficient to justify advancing this indication.
+The dyspepsia prediction rests on a high model score alone. The two retrieved trials are unrelated to it, and no retrieved paper tests biotin for dyspepsia. Biotin is not marketed in Singapore in an oral form.
+
+Two other predictions in the pack are better supported. "Biotin metabolic disease" is graded L3 and "vitamin deficiency disorder" is L3. Both describe deficiency correction, which is largely established practice rather than true repurposing.
 
 **To proceed, the following is needed:**
-- Survey Biotin deficiency prevalence in functional dyspepsia patient populations as a prerequisite feasibility study
-- Design a placebo-controlled pilot trial of Biotin supplementation in confirmed-deficient functional dyspepsia patients
-- Retrieve full MOA documentation from DrugBank (Data Gap DG002) to characterize the mechanism properly
-- Obtain Singapore-approved package insert warnings and contraindications (Data Gap DG001) before safety assessment can proceed
-- **Strategic prioritization:** Research resources are more efficiently directed toward **Biotin Metabolic Disease** (Rank 8, L1 evidence, 42 clinical trials — including Phase 2 RCT NCT03114215 and the direct Biotinidase deficiency study NCT03269045) and **Vitamin Deficiency Disorder** (Rank 7, L2 evidence, 10 clinical trials), where Biotin's therapeutic role is mechanistically direct and clinically established
+- Any controlled or observational study of biotin for dyspepsia, or a documented indirect pathway (e.g., biotin deficiency in dyspepsia or H. pylori patients)
+- Approved indication text and package insert safety information from HSA for both registered products
+- Mechanism of action data from DrugBank
+- Route and formulation compatibility assessment, since only injectable products are registered
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

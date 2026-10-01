@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Theophylline
-parent: High Evidence (L1-L2)
+parent: Low Evidence (L5)
 nav_order: 970
-evidence_level: L2
+evidence_level: L5
 indication_count: 10
 ---
 
 # Theophylline
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,84 +29,85 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Theophylline: From Asthma/COPD (Bronchodilator) to Nasal Cavity Disease (Post-Viral Olfactory Dysfunction)
+# Theophylline: From Asthma and COPD (Bronchodilator Use) to Thrombotic Disease
 
 ## One-Sentence Summary
 
-> Theophylline is a classical methylxanthine bronchodilator long used for asthma and chronic obstructive pulmonary disease (COPD).
-> The TxGNN model predicts it may also be effective for **Nasal Cavity Disease**, specifically post-viral olfactory dysfunction (smell loss),
-> with **1 completed Phase 2 clinical trial** and **3 supporting publications** currently available.
-
----
+Theophylline is a long-established bronchodilator used for airway diseases such as asthma and COPD.
+The TxGNN model predicts it may be effective for **thrombotic disease**, but this rests on the model score alone: there are **no registered clinical trials** and no publications showing theophylline treats thrombosis.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not captured in structured regulatory data; classically used as a bronchodilator/anti-inflammatory agent for asthma and COPD |
-| Predicted New Indication | Nasal Cavity Disease (post-viral olfactory dysfunction) |
-| TxGNN Prediction Score | 99.53% |
-| Evidence Level | L2 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Research Question |
+| Predicted New Indication | Thrombotic disease |
+| TxGNN Prediction Score | 99.62% |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 8 |
+| Recommended Decision | Hold |
 
----
+The Singapore licence records provided carry no approved-indication text, so the original indication is not listed here. The bronchodilator use above comes from the retrieved literature.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the structured DrugBank record for this evidence pack. Based on the pharmacological literature reviewed here, Theophylline is a methylxanthine that acts as a non-selective phosphodiesterase (PDE) inhibitor and adenosine receptor antagonist. This mechanism raises intracellular cAMP, producing bronchodilation and anti-inflammatory effects, and is the basis for its long-established use in obstructive airway disease.
+Detailed mechanism-of-action data are not available in this Evidence Pack. Theophylline is known to be a phosphodiesterase (PDE) inhibitor and an adenosine receptor antagonist. Its efficacy in airway disease is well established.
 
-The respiratory mucosa (bronchial and nasal) shares overlapping inflammatory and ciliary-function pathways. A completed randomised trial (PMID 9648963) showed that slow-release theophylline reduced the nasal eosinophilic inflammatory response following allergen challenge in patients with allergic rhinitis — directly demonstrating that theophylline's anti-inflammatory action extends to nasal mucosal tissue, not just the lower airway.
-
-Building on this mechanistic bridge, a completed Phase 2 trial (SCENT, NCT03990766) directly tested topical nasal theophylline irrigation for post-viral olfactory dysfunction (smell loss following viral respiratory infection), comparing it against saline placebo over 6 weeks. This represents a genuine repurposing signal — moving from theophylline's classical role as a systemic bronchodilator to a novel topical application targeting nasal mucosal/olfactory recovery — though the trial's small sample size (n=27) limits definitive conclusions.
-
----
+The two actions point in opposite directions for thrombosis. PDE inhibition can raise cAMP in platelets, which in theory reduces aggregation. Adenosine antagonism could blunt the antiplatelet effect of adenosine. No supporting data were provided, so the net direction is unclear. The very high TxGNN score (0.996) is a graph-based association and not evidence of clinical benefit.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT03990766](https://clinicaltrials.gov/study/NCT03990766) | Phase 2 | Completed | 27 | Nasal theophylline irrigation vs. saline placebo for post-viral olfactory dysfunction; smell function tested before and after 6 weeks of treatment, with monitoring for side effects. |
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
+No RCTs were found. The retrieved papers are mostly platelet biology, assay methods, or unrelated conditions. None shows theophylline treating thrombosis. The most relevant items are listed below.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [9648963](https://pubmed.ncbi.nlm.nih.gov/9648963/) | 1998 | RCT | European Respiratory Journal | Slow-release theophylline reduced the nasal eosinophilic inflammatory response following allergen challenge in patients with allergic rhinitis, supporting a topical/local anti-inflammatory effect on nasal mucosa. |
-| [21139231](https://pubmed.ncbi.nlm.nih.gov/21139231/) | 2010 | Animal Study | Biological & Pharmaceutical Bulletin | Guinea pig asthma model in which antigen passes through the nasal cavity before reaching the lung, supporting the nasal mucosa as a relevant site of allergic/inflammatory signaling in xanthine-responsive airway disease. |
-| [11331690](https://pubmed.ncbi.nlm.nih.gov/11331690/) | 2001 | Cohort | Pediatrics | Compares high-flow nasal cannula with nasal CPAP for apnea of prematurity; only tangentially related (nasal airway device study, no direct theophylline-nasal disease link). |
-
----
+| [6771102](https://pubmed.ncbi.nlm.nih.gov/6771102/) | 1980 | Review | CRC Crit Rev Biochem | Thromboxane A2 and prostacyclin act oppositely on platelets; prostacyclin stimulates adenylate cyclase to inhibit aggregation (the cAMP rationale) |
+| [8981060](https://pubmed.ncbi.nlm.nih.gov/8981060/) | 1996 | Not classified | Gen Pharmacol | Milrinone, a PDE inhibitor, reduces platelet aggregation and raises cAMP, and interacts with adenosine effects (a related drug, not theophylline) |
+| [8055680](https://pubmed.ncbi.nlm.nih.gov/8055680/) | 1994 | Review | Clin Pharmacokinet | Pharmacokinetics of ticlopidine, an antiplatelet agent (not theophylline) |
+| [6241135](https://pubmed.ncbi.nlm.nih.gov/6241135/) | 1984 | Not classified | Cor Vasa | T-lymphocyte subsets in patients with myocardial infarction and thrombophlebitis; theophylline was used only as a cell-subset marker |
+| [26764324](https://pubmed.ncbi.nlm.nih.gov/26764324/) | 2016 | Not classified | J Nutr | Aged garlic extract inhibits platelet aggregation via cAMP and cGMP signalling (not theophylline) |
+| [25856065](https://pubmed.ncbi.nlm.nih.gov/25856065/) | 2015 | Not classified | Platelets | Soluble CLEC-2 as a platelet-activation marker for thrombotic risk (not theophylline) |
+| [749930](https://pubmed.ncbi.nlm.nih.gov/749930/) | 1978 | Not classified | Br J Haematol | Platelet factor 4 assay; theophylline appears only as a sample additive to prevent platelet activation |
+| [14231672](https://pubmed.ncbi.nlm.nih.gov/14231672/) | 1964 | Not classified | Z Gesamte Inn Med | Chronic cor pulmonale after thromboembolic disease (no abstract available) |
 
 ## Singapore Market Information
 
-Theophylline currently has **no marketing authorization** on record for this jurisdiction (market status: Not Marketed; total registrations: 0).
+Eight registrations are on record; the five main ones are shown. Approved-indication text is not recorded in the data.
 
----
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN11399P | NUELIN-SR 125 TABLET | Tablet | Adcock Ingram Limited |
+| SIN10679P | NUELIN-SR 250 TABLET | Tablet | Adcock Ingram Limited |
+| SIN03139P | THEOPHYLLINE TABLETS 100 mg | Tablet | Beacons Pharmaceuticals Pte. Ltd. |
+| SIN09668P | APO-THEO LA TABLET 200 mg | Tablet | Apotex Inc |
+| SIN10158P | APO-THEO LA TABLET 100 mg | Tablet | Apotex Inc |
+
+Forms across all registrations are oral tablets (including film-coated) and syrup.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Narrow therapeutic index**: serum level monitoring is needed. CYP1A2-related and other drug interactions require review.
+- **Drug Interactions**: the interaction query returned no records, which is likely a data gap and not evidence of no interactions.
+- **Carcinogenicity**: an NTP carcinogenesis study in rodents is in the literature and should be reviewed.
 
-*(Note: safety warnings, contraindications, and drug-drug interaction data for Theophylline are currently unavailable in this evidence pack — flagged as a blocking data gap (DG001) that must be resolved before any S1 safety pre-assessment.)*
-
----
+Please refer to the package insert for further safety information.
 
 ## Conclusion and Next Steps
 
-**Decision: Research Question**
+**Decision: Hold**
 
 **Rationale:**
-A completed Phase 2 RCT (SCENT trial, n=27) shows a plausible efficacy signal for topical nasal theophylline irrigation in post-viral olfactory dysfunction, mechanistically supported by an earlier RCT demonstrating theophylline's anti-inflammatory effect on nasal mucosa. However, the evidence rests on a single small trial (L2), so it is not yet sufficient to move beyond a research question.
+The prediction is supported only by the TxGNN score. No trials exist, and the retrieved literature contains no data on theophylline in thrombosis. The two main mechanisms may oppose each other for platelet function.
 
 **To proceed, the following is needed:**
-- A larger, confirmatory Phase 2/3 RCT of nasal theophylline irrigation for post-viral olfactory dysfunction
-- Formal mechanism of action (MOA) data from DrugBank/product labeling (currently a data gap, DG002)
-- TFDA/HSA-equivalent package insert warnings, contraindications, and drug interaction data (currently a blocking data gap, DG001) before any safety pre-assessment
-- Confirmation of local (Singapore) regulatory pathway, since Theophylline is not currently marketed in this jurisdiction
+- HSA package insert warnings and contraindications, which block safety screening
+- Mechanism-of-action data from DrugBank
+- A targeted literature search on theophylline, platelet aggregation and thrombosis
+- Consideration of better-supported candidates in the same pack, namely nasal cavity disease (L2, a completed Phase 2 trial of nasal theophylline irrigation for post-viral olfactory dysfunction, n=27) and obstructive lung disease (L1, but this is the existing approved use and not true repurposing)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

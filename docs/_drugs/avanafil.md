@@ -33,81 +33,66 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Avanafil is a selective PDE5 (phosphodiesterase type 5) inhibitor approved in multiple countries (e.g., the United States as Stendra®) for the treatment of erectile dysfunction, but currently not registered in Singapore.
-The TxGNN model's top-ranked prediction is **Amenorrhea** (score: 94.59%), though no clinical trials or publications directly support this direction (Evidence Level: L5).
-Across the full set of 10 predicted indications, **Raynaud disease** (rank #5) emerges as the most clinically credible candidate, backed by a mechanistically coherent rationale and class-level evidence from related PDE5 inhibitors.
-
----
+Avanafil is an oral PDE5 inhibitor marketed in Singapore as Spedra. The Singapore registry data supplied here does not record its approved indication; it is generally used for erectile dysfunction.
+The TxGNN model predicts it may be effective for **amenorrhea**, but **no clinical trials and no relevant publications** support this prediction, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Erectile dysfunction (not registered in Singapore) |
+|------|------|
+| Original Indication | Not recorded in the supplied registry data (PDE5 inhibitors are generally used for erectile dysfunction; not verified from this pack) |
 | Predicted New Indication | Amenorrhea |
 | TxGNN Prediction Score | 94.59% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 3 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for Avanafil is not available in this evidence pack. However, Avanafil is a well-characterised selective PDE5 (phosphodiesterase type 5) inhibitor belonging to the same pharmacological class as sildenafil and tadalafil. Its established mechanism involves blocking PDE5, the enzyme responsible for degrading cyclic GMP (cGMP). This raises intracellular cGMP concentrations in smooth muscle cells, leading to vasodilation and smooth muscle relaxation — effects primarily harnessed in erectile dysfunction treatment.
+Currently, detailed mechanism of action data is not available in the supplied record. Avanafil is a PDE5 inhibitor, which raises cGMP and promotes vasodilation.
 
-For amenorrhea, the mechanistic link is theoretically plausible but highly indirect: PDE5 is expressed in uterine endometrium and ovarian tissue, and the NO-cGMP signalling pathway is known to participate in menstrual cycle regulation. Sildenafil has been explored in small studies for improving endometrial perfusion. However, there is no published clinical or preclinical data linking Avanafil specifically to amenorrhea, and the connection remains a model-derived extrapolation rather than an established pharmacological rationale.
-
-Among all 10 predictions in this evidence pack, **Raynaud disease** (rank #5, score: 88.54%) presents the most clinically credible repurposing opportunity. The core pathology of Raynaud's phenomenon — episodic vasospasm and impaired peripheral perfusion — aligns directly with PDE5 inhibition's mechanism of promoting smooth muscle relaxation and vasodilation. Sildenafil and Tadalafil have both demonstrated efficacy in Raynaud's (particularly scleroderma-related secondary Raynaud's) across multiple Phase 2/3 RCTs and a Cochrane systematic review, providing a strong class-effect rationale for studying Avanafil in this setting. In contrast, predictions such as malignant catarrh (rank #3) and infectious bovine rhinotracheitis (rank #4) represent veterinary diseases with no biological relevance to human pharmacology and should be treated as model artefacts.
-
----
+Amenorrhea is mainly a disorder of the hypothalamic-pituitary-ovarian axis, and no clear link to the cGMP/vasodilation pathway was identified. The high score (0.946) is not supported by any trial or literature. Treat it as an unexplained model output, not a mechanistic lead.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Avanafil in amenorrhea.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature directly studying Avanafil for amenorrhea.
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Avanafil is not currently registered with the Health Sciences Authority (HSA) in Singapore. No marketing authorisations are on record.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN15880P | SPEDRA TABLET 50MG | Tablet | Not stated in registry data |
+| SIN15879P | SPEDRA TABLET 100MG | Tablet | Not stated in registry data |
+| SIN15881P | SPEDRA TABLET 200MG | Tablet | Not stated in registry data |
 
-> **Note for reviewers**: Avanafil is approved by the US FDA (Stendra®) and EMA (Spedra®) for erectile dysfunction. Prescribers and investigators should refer to the approved product information from these jurisdictions for dosing, safety, and contraindication guidance until Singapore-specific regulatory data becomes available.
-
----
+All three are held by MENARINI VON HEYDEN GmbH and are oral tablets.
 
 ## Safety Considerations
 
-No drug interaction data, key warnings, or contraindication data were available in this evidence pack (both flagged as data gaps). As a class-level reference:
+- **Drug Interactions**: The interaction query returned no records. This means nothing was found, not that no interactions exist.
 
-- **PDE5 inhibitor class warnings**: Contraindicated with nitrates (risk of severe hypotension); caution required in patients with significant cardiovascular disease, hypotension, or recent stroke/myocardial infarction.
-- **Drug interactions**: Strong CYP3A4 inhibitors (e.g., ketoconazole, ritonavir) significantly increase Avanafil plasma levels. Alpha-blockers and antihypertensives may potentiate hypotensive effects.
-
-Please refer to the approved package inserts (US FDA/EMA) for complete safety information until TFDA/HSA prescribing information is retrieved.
-
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top TxGNN-predicted indication (amenorrhea) carries an Evidence Level of L5 — no supporting clinical trials or Avanafil-specific publications exist, and the mechanistic link is highly indirect. The overall prediction set is predominantly L5/Hold, with the single exception of Raynaud disease (L4, "Research Question"), which warrants targeted follow-up rather than immediate development.
+The prediction is model-only (L5), with no trials, no relevant literature and no plausible mechanistic link between PDE5 inhibition and amenorrhea. Safety data (warnings and contraindications) is also missing, so safety screening cannot proceed.
 
 **To proceed, the following is needed:**
+- The HSA package insert (warnings, contraindications, approved indication)
+- Mechanism of action data from DrugBank
+- A targeted trial and literature search for avanafil or PDE5 inhibitors in amenorrhea, and an expert view on whether a rationale exists
 
-- **Raynaud disease follow-up (most actionable)**: Conduct a focused literature review on Avanafil pharmacokinetics in peripheral vascular conditions; design a Phase 2 pilot protocol leveraging existing class-effect data from sildenafil/tadalafil RCTs in secondary Raynaud's (scleroderma-associated)
-- **Safety data gaps**: Retrieve TFDA/HSA package insert warnings and contraindications (Data Gap DG001, Blocking severity) — required before any formal safety screening can proceed
-- **MOA data**: Query DrugBank API for Avanafil's detailed mechanism of action (Data Gap DG002, High severity) to enable mechanistic link analysis
-- **Regulatory pathway**: Evaluate feasibility of HSA registration for Avanafil as a prerequisite for any Singapore-based clinical investigation
-- **Model artefact filtering**: Exclude veterinary disease predictions (malignant catarrh, rank #3; infectious bovine rhinotracheitis, rank #4) and the deprecated ontology concept (obsolete susceptibility to ischemic stroke, rank #7) from future evaluation cycles to improve signal-to-noise ratio in prediction outputs
+**Other candidates in this run:** Raynaud disease (score 88.5%, also L5) is the most biologically plausible, since PDE5-mediated vasodilation is relevant to vasospasm. It is flagged as a "Research Question" and merits a targeted search before this amenorrhea prediction does. The remaining candidates are Hold. Several are veterinary or obsolete ontology terms (malignant catarrh, infectious bovine rhinotracheitis, obsolete susceptibility to ischemic stroke), which look like knowledge-graph artifacts.
+
+*This report is for research reference only and is not medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

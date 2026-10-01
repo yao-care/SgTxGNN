@@ -29,63 +29,66 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-Using no skill — this is a direct evidence-pack-to-report task governed by the prompt spec itself; the SgTxGNN CLAUDE.md doesn't require any script here, and no coding/debugging is involved.
-
-# Sodium Fluoride: From No Recorded Indication to Epiglottitis
+# Sodium Fluoride: From Dental and Trace-Element Products to Epiglottitis
 
 ## One-Sentence Summary
 
-Sodium fluoride (DB09325) has no recorded original indication and no market presence in Singapore in the current evidence pack. The TxGNN model predicts it may be effective for **Epiglottitis**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the model's own rationale explicitly notes no known mechanistic basis for this link.
+Sodium fluoride is marketed in Singapore in a dental suspension and in trace-element infusion concentrates. The approved indication text was not available for this report, so the original use is inferred from the product types only. The TxGNN model predicts it may be effective for **epiglottitis**, but there are **0 clinical trials** and **0 publications** supporting this direction, so it is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no Singapore registration or indication data recorded |
+| Original Indication | Not available (approved indication text is empty in all 4 registrations) |
 | Predicted New Indication | Epiglottitis |
 | TxGNN Prediction Score | 99.92% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for sodium fluoride. No original indication is recorded in this evidence pack, so no basis exists for evaluating pharmacological continuity between an existing use and epiglottitis.
+Currently, detailed mechanism of action data is not available, and the original indication is not recorded in the data received. The prediction therefore cannot be cross-checked against a known indication or mechanism.
 
-More importantly, the evidence pack's own repurposing rationale for this candidate states directly: *"No known mechanistic link. Sodium fluoride has no antimicrobial or anti-inflammatory properties that would support treatment of bacterial epiglottitis (commonly caused by H. influenzae), and the absence of MOA data prevents construction of a plausible hypothesis."* This indicates the high TxGNN score (99.92%, rank 1650) likely reflects knowledge-graph topological similarity rather than an underlying pharmacological relationship. The same pattern holds across the other nine predicted indications in this candidate set — all are flagged with "no mechanistic link" and Hold recommendations.
+Fluoride has weak antibacterial activity in vitro, through inhibition of enolase and F-ATPase. This is not clinically relevant for epiglottitis, which is treated with systemic antibiotics and airway management. The high score (rank 1,650 among all candidates) more likely reflects proximity to anti-infective drug classes in the knowledge graph than a pharmacological rationale.
+
+The other nine predictions for this drug are also prediction-only (L5) and Hold. They are mostly infections (urinary tract infection, gonococcal and Ureaplasma urethritis, uterine inflammatory disease, xanthogranulomatous pyelonephritis, urogenital and abdominal tuberculosis) plus laryngitis and biotin metabolic disease. None has a plausible mechanism. For laryngitis, the five retrieved papers are not therapeutic evidence: an in vitro diphtheria toxin study, a broiler fluorine toxicity study, and three ¹⁸F-NaF PET/CT imaging case reports.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
-
-*(Note: a lower-ranked candidate in this drug's prediction set — laryngitis, rank 7 — did return 5 PubMed records, but on review none support a therapeutic mechanism: three are ¹⁸F-NaF PET/CT imaging case reports for unrelated oncologic staging, one is a diphtheria-toxin cell-culture study, and one is a poultry intestinal-development study. None constitute clinical evidence for laryngitis treatment.)*
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Sodium fluoride has no registered product licenses in Singapore (0 total registrations); no market authorization data is available.
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN07802P | DURAPHAT 50mg/ml Dental Suspension | Liquid |
+| SIN08899P | PEDITRACE Concentrate for Parenteral Infusion | Injection |
+| SIN15302P | ADDAVEN Concentrate for Solution for Infusion | Infusion, solution concentrate |
+| SIN14341P | Nutritrace Concentrate for solution for infusion | Infusion, solution concentrate |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No drug-interaction records were found for this drug.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There is no mechanism of action data, no original indication on record, no clinical trial or literature evidence for the top-ranked predicted indication, and the drug is not currently marketed in Singapore. The prediction rationale itself states no known mechanistic link to epiglottitis, indicating this is a pure knowledge-graph score without pharmacological support.
+The evidence is a model score only (L5), with no trials, no relevant literature, and no plausible mechanism for epiglottitis. Effective standard treatments already exist, and the required safety information has not been retrieved.
 
 **To proceed, the following is needed:**
-- Sodium fluoride's mechanism of action (DG002, High severity — currently blocking rationale analysis)
-- TFDA/HSA package insert warnings and contraindications (DG001, Blocking severity — required before any S1 safety screening)
-- Confirmation of original approved indication(s), if any, in a comparable market
-- Independent literature or preclinical search specifically for antimicrobial/anti-inflammatory activity relevant to epiglottitis, given none was found in this pass
-- Given the uniformly weak rationale across all 10 predicted indications for this drug, consider deprioritizing this candidate in favor of higher-evidence drugs in the pipeline
+- Singapore package insert (warnings and contraindications), which is a blocking gap for safety screening
+- Approved indication text for the four registrations
+- Mechanism of action data (for example, via DrugBank)
+- Any preclinical or clinical evidence of fluoride efficacy against epiglottitis
+- Route-compatibility assessment, since the marketed products are a dental suspension and parenteral trace-element concentrates, which do not match a typical epiglottitis treatment route
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -29,90 +29,75 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Gemtuzumab Ozogamicin: From Acute Myeloid Leukemia to Richter Syndrome
+# Gemtuzumab ozogamicin: From CD33-Positive Acute Myeloid Leukemia to Richter Syndrome
 
 ## One-Sentence Summary
 
-Gemtuzumab ozogamicin (GO; Mylotarg) is a CD33-targeting antibody-drug conjugate (ADC) established for the treatment of CD33-positive Acute Myeloid Leukemia (AML).
-The TxGNN model predicts it may be effective for **Richter Syndrome**, with **0 clinical trials** and **0 publications** currently supporting this direction.
-Despite an exceptionally high TxGNN prediction score of 98.06%, this prediction is assessed to be a knowledge graph artifact with no meaningful biological rationale, and a **Hold** decision is warranted.
-
----
+Gemtuzumab ozogamicin is a CD33-targeted antibody-drug conjugate carrying the cytotoxin calicheamicin. The literature in the Evidence Pack describes it as a treatment for CD33-positive acute myeloid leukemia (AML).
+The TxGNN model predicts it may be effective for **Richter syndrome** with a high graph score, but **no clinical trials and no publications** currently support this prediction.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | CD33-positive Acute Myeloid Leukemia (AML) |
-| Predicted New Indication | Richter Syndrome |
+|------|------|
+| Original Indication | Acute myeloid leukemia (CD33-positive), per the literature. The Singapore licence record contains no indication text. |
+| Predicted New Indication | Richter syndrome |
 | TxGNN Prediction Score | 98.06% |
-| Evidence Level | L5 |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from DrugBank for this drug. Based on known information drawn from the clinical trial and literature evidence in this pack, gemtuzumab ozogamicin is a humanized anti-CD33 monoclonal antibody conjugated to calicheamicin, a potent cytotoxic antibiotic. CD33 (Siglec-3) is a myeloid differentiation antigen expressed on the surface of AML blast cells and certain myeloid progenitors. Upon antibody binding, the ADC is internalized by the leukemia cell, releasing calicheamicin intracellularly to induce DNA double-strand breaks and apoptosis. Its efficacy in AML—a myeloid lineage malignancy defined by high CD33 surface expression—has been established across multiple Phase 2 and Phase 3 trials.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on known information, gemtuzumab ozogamicin binds CD33 on the cell surface. After the antibody is internalised, calicheamicin is released and causes DNA double-strand breaks. This approach has been established in CD33-positive AML.
 
-Richter Syndrome (RS) is a rare, aggressive transformation of Chronic Lymphocytic Leukemia (CLL) or Small Lymphocytic Lymphoma (SLL), most commonly into Diffuse Large B-Cell Lymphoma (DLBCL). As a **B-lymphoid lineage** malignancy, RS cells characteristically do not express CD33, which is a myeloid-specific surface antigen. Without CD33 target expression, GO's antibody component cannot bind to tumor cells, and the calicheamicin payload cannot be selectively delivered—making the core ADC mechanism entirely inapplicable in the RS biological context.
-
-The high TxGNN prediction score (98.06%) most likely arises from indirect associations within the knowledge graph—for instance, pathological nodes connecting CLL to chronic myelogenous leukemia (CML) or other CD33-positive myeloid entities where GO has documented activity—rather than a genuine therapeutic signal for RS. This prediction should be considered a model artifact. The mechanistic mismatch between a myeloid-targeted ADC and a B-cell lymphoma is fundamental, and no preclinical or clinical evidence exists to suggest otherwise.
-
----
+The mechanistic link to the new indication is weak. Richter syndrome is a transformation of chronic lymphocytic leukemia into an aggressive large B-cell lymphoma. CD33 is a myeloid antigen, and no CD33 expression data in Richter syndrome were retrieved. The high TxGNN score (98.06%) is therefore a knowledge-graph signal only and should not be read as biological or clinical support.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Gemtuzumab ozogamicin is currently not registered in Singapore. No marketing authorizations are on record (total registrations: 0).
-
----
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN16243P | MYLOTARG powder for concentrate for solution for infusion 5 mg/vial (Wyeth Pharmaceutical Division of Wyeth Holdings LLC) | Powder, for solution |
 
 ## Cytotoxicity
 
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Conventional cytotoxic — Antibody-Drug Conjugate (ADC); calicheamicin-conjugated humanized anti-CD33 monoclonal antibody |
-| Myelosuppression Risk | High — severe neutropenia, thrombocytopenia, and anemia are expected, dose-limiting toxicities observed across AML trials in this pack |
-| Emetogenicity Classification | Low to moderate |
-| Monitoring Items | CBC with differential, liver function tests (ALT, AST, total bilirubin), renal function; close surveillance for hepatic sinusoidal obstruction syndrome (SOS/VOD), particularly in transplant-eligible patients |
-| Handling Protection | Must follow cytotoxic drug handling regulations; ADC formulation requires specialized preparation and administration protocols |
-
----
+|------|------|
+| Cytotoxicity Classification | Antibody-drug conjugate (CD33-directed, calicheamicin cytotoxic payload) |
+| Myelosuppression Risk | High expected (cytopenias are typical for this class); confirm against the package insert |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | CBC with differential, liver function including bilirubin, and signs of hepatic sinusoidal obstruction syndrome |
+| Handling Protection | Follow cytotoxic drug handling regulations |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Key Warnings (from the published literature in the Evidence Pack, not from the package insert)**: Hepatic sinusoidal obstruction syndrome (veno-occlusive disease) has been reported after gemtuzumab ozogamicin, including in patients who had not received a stem cell transplant (PMID 11895761, PMID 11466696). Grade 3-4 hyperbilirubinaemia and transaminase elevation occurred in about 20% of patients in one report.
 
-> **Clinical note**: Evidence from trials within this Evidence Pack (PMID 11895761, PMID 11466696) indicates that gemtuzumab ozogamicin carries a well-documented risk of **hepatic sinusoidal obstruction syndrome (SOS/VOD)**, a potentially fatal complication. This risk is substantially elevated in patients who have undergone or are planned for hematopoietic stem cell transplantation. Any off-label evaluation must incorporate robust hepatic safety monitoring and risk stratification as a prerequisite.
-
----
+Please refer to the package insert for the full safety information. The Singapore package insert warnings and contraindications have not yet been retrieved.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Richter Syndrome is a B-lymphoid malignancy that does not express CD33, the obligatory molecular target of gemtuzumab ozogamicin. The predicted repurposing opportunity lacks both biological rationale and any supporting clinical or preclinical evidence, rendering the high TxGNN model score a knowledge graph artifact rather than a true therapeutic signal.
+The prediction rests only on the model score. There are no trials or publications for Richter syndrome, and there is no evidence that CD33 is expressed in this B-cell-derived disease. The drug also carries a known hepatic toxicity risk.
+
+Among the other predicted indications in the Evidence Pack, chronic myeloid leukemia (blast phase) has more supporting data: a Phase 1/2 transplant-conditioning trial, a blast-crisis case report and in vitro CD33 expression on CML stem cells. It would be a better candidate for further review.
 
 **To proceed, the following is needed:**
-- Immunohistochemical or flow cytometric confirmation of CD33 expression in Richter Syndrome patient samples — this is an absolute prerequisite before any further evaluation can be justified
-- If CD33 expression is unexpectedly confirmed in a defined RS subset, preclinical activity studies in RS cell lines or patient-derived xenograft (PDX) models would be required as a next step
-- Formal safety profile review from the package insert (currently a data gap; TFDA package insert retrieval recommended)
-- Consider redirecting repurposing evaluation resources toward indications in this Evidence Pack with stronger mechanistic and clinical foundations, particularly **BCR-ABL1-positive CML** (Rank 3, L3 evidence, 3 trials, 13 publications) and **therapy-related AML/MDS** (Rank 10), where CD33 expression on myeloid blasts provides genuine biological rationale for GO
+- CD33 expression data in Richter syndrome tissue, or preclinical activity data
+- Mechanism of action data from DrugBank
+- The HSA package insert warnings and contraindications
+- Any registered trial or case series in Richter syndrome or transformed B-cell lymphoma
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

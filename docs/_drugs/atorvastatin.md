@@ -29,86 +29,93 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Atorvastatin: From Primary Hypercholesterolemia to Familial Hypercholesterolemia
+# Atorvastatin: From Lipid Lowering to Familial Hypercholesterolemia
 
 ## One-Sentence Summary
 
-Atorvastatin is a synthetic HMG-CoA reductase inhibitor (statin), widely established in the treatment of primary hypercholesterolemia and mixed dyslipidemia for cardiovascular risk reduction.
-The TxGNN model predicts it may be effective for **Familial Hypercholesterolemia (FH)**, with **34 clinical trials** and **19 publications** currently supporting this direction.
-The prediction score reaches **99.42%** and has been rated at the highest evidence level (**L1**), reflecting multiple completed Phase 3 randomised controlled trials.
+Atorvastatin is a statin (HMG-CoA reductase inhibitor) marketed in Singapore under 20 registrations. The Singapore registry records supplied here list no approved indication text.
+The TxGNN model predicts it is effective for **familial hypercholesterolemia (FH)**, with **34 clinical trials** and **19 publications** retrieved.
+This is largely an on-label lipid-lowering use rather than true repurposing, and many of the retrieved trials test add-on drugs rather than atorvastatin alone.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Primary hypercholesterolemia and mixed dyslipidemia (established pharmacological use; Singapore HSA registration data not available in current dataset) |
-| Predicted New Indication | Familial Hypercholesterolemia |
+|------|------|
+| Original Indication | Not stated in the supplied records (the registry text and original-indication fields are empty); atorvastatin is a lipid-lowering statin |
+| Predicted New Indication | Familial hypercholesterolemia |
 | TxGNN Prediction Score | 99.42% |
 | Evidence Level | L1 |
-| Singapore Market Status | Not marketed (no HSA registration found in current dataset) |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 20 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Atorvastatin competitively inhibits HMG-CoA reductase, the rate-limiting enzyme in the mevalonate pathway responsible for endogenous cholesterol synthesis in the liver. By reducing hepatic cholesterol production, the liver compensates by upregulating LDL receptor (LDLR) expression on hepatocytes, thereby accelerating the clearance of circulating LDL-C. Detailed MOA data is not available in the current dataset; however, based on the well-established statin pharmacology documented extensively in the literature (PMID 9129869; PMID 10582478), this mechanism is robust and well-characterised.
+Detailed mechanism-of-action data are not available in the record. From the known pharmacology, atorvastatin inhibits HMG-CoA reductase, the rate-limiting enzyme of cholesterol synthesis. This lowers intracellular cholesterol and upregulates hepatic LDL receptors, so more LDL-C is cleared from the blood.
 
-Familial hypercholesterolemia arises from mutations that impair LDL receptor-mediated clearance — principally loss-of-function LDLR mutations, defective ApoB-100 (FDB), or gain-of-function PCSK9 mutations. In heterozygous FH, where at least one functional receptor allele remains, atorvastatin's compensatory upregulation of residual receptor activity typically achieves 30–50% LDL-C reduction. This forms the mechanistic basis for international guidelines (ACC/AHA, ESC/EAS, AACE/ACE) designating high-intensity statins as the cornerstone first-line therapy for FH.
-
-For homozygous FH, where receptor function is nearly absent, atorvastatin alone is insufficient but remains the essential backbone of combination regimens with ezetimibe, PCSK9 inhibitors (alirocumab, evolocumab), or lomitapide. The TxGNN score of 99.42% reflects the extremely strong topological linkage between atorvastatin and FH in the knowledge graph — reinforcing rather than discovering a clinically well-validated indication. The L1 evidence classification is fully justified by the large number of completed Phase 3 trials documented in this evidence pack.
+Familial hypercholesterolemia is a genetic condition of very high LDL-C, usually from LDL-receptor pathway defects. In heterozygous FH, partial receptor function remains, so the statin mechanism applies directly. In homozygous FH, the response is weaker and add-on therapy is often needed. This matches the trial pattern: several Phase 3 studies test add-ons (ezetimibe, torcetrapib, alirocumab) on top of atorvastatin.
 
 ---
 
 ## Clinical Trial Evidence
 
+The 10 most relevant of the 34 retrieved trials are listed below.
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00136981](https://clinicaltrials.gov/study/NCT00136981) | Phase 3 | Completed | 800 | Carotid B-mode ultrasound evaluation of atorvastatin vs torcetrapib/atorvastatin in HeFH over 24 months; largest imaging-endpoint trial directly evaluating atorvastatin in FH (torcetrapib arm later terminated due to safety findings unrelated to atorvastatin) |
-| [NCT00827606](https://clinicaltrials.gov/study/NCT00827606) | Phase 3 | Completed | 272 | 3-year prospective, open-label study of atorvastatin in children and adolescents with HeFH; characterised long-term LDL-C reduction alongside growth, development (Tanner stage), and safety in the paediatric FH population |
-| [NCT03867318](https://clinicaltrials.gov/study/NCT03867318) | Phase 3 | Completed | 621 | Ezetimibe 10 mg co-administered with atorvastatin in HeFH and high-CV-risk patients uncontrolled on atorvastatin 10 mg; established the atorvastatin + ezetimibe dual combination as effective beyond statin monotherapy |
-| [NCT03882996](https://clinicaltrials.gov/study/NCT03882996) | Phase 3 | Completed | 432 | Long-term (12-month) safety and tolerability of ezetimibe co-administered with atorvastatin 10–80 mg daily in HeFH and CHD patients; confirmed sustained LDL-C control and acceptable long-term tolerability |
-| [NCT03884452](https://clinicaltrials.gov/study/NCT03884452) | Phase 3 | Completed | 50 | Ezetimibe added to atorvastatin or simvastatin in homozygous FH; confirmed combination therapy efficacy in the most severe genotypic subgroup and supports guideline-recommended dual therapy for HoFH |
-| [NCT00134485](https://clinicaltrials.gov/study/NCT00134485) | Phase 3 | Completed | 400 | Torcetrapib/atorvastatin vs atorvastatin alone in HeFH over 6 months; atorvastatin monotherapy arm serves as direct evidence of statin efficacy in HeFH; torcetrapib project subsequently terminated |
-| [NCT02107898](https://clinicaltrials.gov/study/NCT02107898) | Phase 3 | Completed | 216 | Alirocumab added to stable daily statin (including atorvastatin) in HeFH or high-CV-risk patients; double-blind, placebo-controlled RCT demonstrating significant LDL-C reduction at 24 weeks — atorvastatin confirmed as effective standard backbone |
-| [NCT01623115](https://clinicaltrials.gov/study/NCT01623115) | Phase 3 | Completed | 486 | Alirocumab (SAR236553/REGN727) vs placebo in HeFH on stable LMT over 24 weeks; atorvastatin as standard background therapy; established that even on maximal statin therapy, additional LDL-C lowering is achievable |
-| [NCT01507831](https://clinicaltrials.gov/study/NCT01507831) | Phase 3 | Completed | 2,341 | Long-term safety and tolerability of alirocumab in high-CV-risk patients on LMT; largest long-term follow-up study with atorvastatin as background; assessed cardiovascular outcomes, LDL-C, and immunogenicity |
-| [NCT00739999](https://clinicaltrials.gov/study/NCT00739999) | Phase 1 | Completed | 39 | Pharmacokinetics, pharmacodynamics, safety, and tolerability of atorvastatin in children and adolescents with HeFH over 8 weeks; provided the paediatric PK/PD basis for age-appropriate dose selection |
+| [NCT00136981](https://clinicaltrials.gov/study/NCT00136981) | Phase 3 | Completed | 800 | Torcetrapib/atorvastatin vs maximally tolerated atorvastatin alone in heterozygous FH; carotid ultrasound endpoint (torcetrapib program terminated for safety in 2006) |
+| [NCT00134485](https://clinicaltrials.gov/study/NCT00134485) | Phase 3 | Completed | 400 | Torcetrapib/atorvastatin vs atorvastatin alone over 6 months in heterozygous FH |
+| [NCT00827606](https://clinicaltrials.gov/study/NCT00827606) | Phase 3 | Completed | 272 | 3-year open-label study of atorvastatin in children and adolescents with heterozygous FH: growth, development and cholesterol reduction |
+| [NCT00739999](https://clinicaltrials.gov/study/NCT00739999) | Phase 1 | Completed | 39 | 8-week open-label pharmacokinetic, pharmacodynamic and safety study of atorvastatin in children and adolescents with heterozygous FH |
+| [NCT03884452](https://clinicaltrials.gov/study/NCT03884452) | Phase 3 | Completed | 50 | Ezetimibe added to atorvastatin or simvastatin in homozygous FH |
+| [NCT03885921](https://clinicaltrials.gov/study/NCT03885921) | Phase 3 | Completed | 44 | 24-month open-label extension of ezetimibe added to atorvastatin or simvastatin in homozygous FH (long-term safety) |
+| [NCT03867318](https://clinicaltrials.gov/study/NCT03867318) | Phase 3 | Completed | 621 | Double-blind ezetimibe added to atorvastatin 10 mg in heterozygous FH, coronary heart disease or multiple risk factors |
+| [NCT01730040](https://clinicaltrials.gov/study/NCT01730040) | Phase 3 | Completed | 355 | Alirocumab added to atorvastatin vs ezetimibe add-on vs atorvastatin dose increase vs switch to rosuvastatin |
+| [NCT00134511](https://clinicaltrials.gov/study/NCT00134511) | Phase 3 | Completed | 30 | Open-label forced titration of torcetrapib/atorvastatin in homozygous FH |
+| [NCT00145431](https://clinicaltrials.gov/study/NCT00145431) | Phase 3 | Terminated | 41 | Torcetrapib/atorvastatin vs atorvastatin alone vs fenofibrate in type III hyperlipoproteinemia; terminated early, so conclusions are limited |
 
 ---
 
 ## Literature Evidence
 
+The 10 most relevant of the 19 retrieved publications are listed below.
+
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|---------|
-| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | Clinical Guideline | Endocrine Practice | AACE/ACE 2017 comprehensive guidelines for dyslipidemia management and cardiovascular disease prevention; designates atorvastatin as a high-potency statin and establishes LDL-C treatment targets specific to FH risk stratification |
-| [26988948](https://pubmed.ncbi.nlm.nih.gov/26988948/) | 2016 | Practice Guideline | Journal of the American College of Cardiology | Recommendations for improving monitoring and care of FH patients; highlights underdiagnosis and undertreatment globally, and stresses the critical role of early, intensive statin therapy |
-| [39751968](https://pubmed.ncbi.nlm.nih.gov/39751968/) | 2025 | Review | Current Atherosclerosis Reports | 2025 update on novel pharmacological therapies for homozygous FH; reviews how atorvastatin remains the essential backbone even as new agents (inclisiran, evinacumab, lomitapide) are added |
-| [27417002](https://pubmed.ncbi.nlm.nih.gov/27417002/) | 2016 | Cohort Study | Journal of the American College of Cardiology | First study to quantify statin-induced reduction of coronary artery disease events and all-cause mortality specifically in heterozygous FH; demonstrated statins reduce risk to near the level of the general population |
-| [27678432](https://pubmed.ncbi.nlm.nih.gov/27678432/) | 2016 | Longitudinal Study | Journal of Clinical Lipidology | 3-year efficacy and safety of atorvastatin in children and adolescents (6–17 years) with HeFH; confirmed sustained LDL-C reduction without adverse effects on growth or development over an extended observation period |
-| [11058703](https://pubmed.ncbi.nlm.nih.gov/11058703/) | 2000 | Clinical Trial | Atherosclerosis | Atorvastatin at escalating doses (10–40 mg/day) in homozygous FH patients undergoing LDL-apheresis; 5 of 9 patients responded with meaningful LDL-C reduction, supporting atorvastatin use even in severe receptor-deficient FH |
-| [11383320](https://pubmed.ncbi.nlm.nih.gov/11383320/) | 2001 | Clinical Trial | Nutrition, Metabolism and Cardiovascular Diseases | Head-to-head comparison of atorvastatin vs simvastatin in heterozygous FH; atorvastatin showed superior LDL-C reduction and better achievement of NCEP guidelines targets, alongside improvements in fibrinogen levels |
-| [9129869](https://pubmed.ncbi.nlm.nih.gov/9129869/) | 1997 | Drug Review | Drugs | Landmark review of atorvastatin pharmacology and therapeutic potential in hyperlipidaemias; documented dose-dependent (10–80 mg) LDL-C reductions of 36–55% and established its role as a high-potency synthetic statin |
-| [9793596](https://pubmed.ncbi.nlm.nih.gov/9793596/) | 1998 | Clinical Review | Annals of Pharmacotherapy | Efficacy and safety review of atorvastatin in primary hypercholesterolemia and mixed dyslipidemias; confirmed significant total cholesterol, LDL-C, and triglyceride reductions across large clinical trial populations |
-| [35361995](https://pubmed.ncbi.nlm.nih.gov/35361995/) | 2022 | Pharmacogenomics Study | The Pharmacogenomics Journal | Novel NGS strategy combining FH gene panel with statin pharmacogenomics (SLCO1B1, CYP2C19); supports the clinical implementation of pharmacogenomics-guided atorvastatin prescribing in FH patients to optimise efficacy and minimise myotoxicity risk |
+|------|-----|------|---------|---------|
+| [12034651](https://pubmed.ncbi.nlm.nih.gov/12034651/) | 2002 | RCT | Circulation | Double-blind trial of ezetimibe with atorvastatin or simvastatin in 50 homozygous FH patients |
+| [17966840](https://pubmed.ncbi.nlm.nih.gov/17966840/) | 2007 | Meta-analysis | Int J Clin Pharmacol Ther | Pooled placebo-controlled RCTs of statins on the lipid profile of children with FH |
+| [17957184](https://pubmed.ncbi.nlm.nih.gov/17957184/) | 2008 | Randomized crossover | Clin Pharmacol Ther | 19 Japanese heterozygous FH patients; LDL-C fell 42.8% with pitavastatin and 40.7% with atorvastatin |
+| [27678432](https://pubmed.ncbi.nlm.nih.gov/27678432/) | 2016 | Clinical study | J Clin Lipidol | 3-year study of atorvastatin in children and adolescents with heterozygous FH, addressing use beyond 1 year |
+| [21259004](https://pubmed.ncbi.nlm.nih.gov/21259004/) | 2011 | Clinical trial | Pediatr Cardiol | 8-week open-label study of atorvastatin in children with genetically confirmed heterozygous FH |
+| [15642565](https://pubmed.ncbi.nlm.nih.gov/15642565/) | 2005 | Clinical study | Am J Cardiol | Atorvastatin 80 mg for 2 more years halted progression of carotid intima-media thickness in FH |
+| [11383320](https://pubmed.ncbi.nlm.nih.gov/11383320/) | 2001 | Comparative study | Nutr Metab Cardiovasc Dis | Atorvastatin vs simvastatin for reaching LDL-C goal in heterozygous FH |
+| [11058703](https://pubmed.ncbi.nlm.nih.gov/11058703/) | 2000 | Clinical study | Atherosclerosis | 9 homozygous FH patients on LDL-apheresis; 5 of 9 responded well to escalating atorvastatin |
+| [39751968](https://pubmed.ncbi.nlm.nih.gov/39751968/) | 2025 | Review | Curr Atheroscler Rep | Novel LDL-C-lowering therapies for homozygous FH |
+| [32800790](https://pubmed.ncbi.nlm.nih.gov/32800790/) | 2020 | Case report | J Clin Lipidol | Singapore case: decade-long pharmacological management of a child with severe compound heterozygous FH |
 
 ---
 
 ## Singapore Market Information
 
-No active HSA (Health Sciences Authority) registration for Atorvastatin was identified in the current dataset. The market status is recorded as "not marketed" with 0 active product licences. This is likely a **data collection gap**, as atorvastatin (brand name Lipitor®, Pfizer) is a globally ubiquitous cardiovascular medication that is widely available in Singapore. Direct verification is recommended via the HSA Product Listing portal:
-[https://eservice.hsa.gov.sg/prism/common/enquirepublic/SearchDRProduct.do](https://eservice.hsa.gov.sg/prism/common/enquirepublic/SearchDRProduct.do)
+Five of the 20 registrations are shown. The registry records supplied contain no approved indication text.
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN15795P | ATOCOR 10 Film Coated Tablet 10mg | Tablet, film coated | Not listed |
+| SIN16921P | Dr. Reddy's Atorvastatin Film Coated Tablet 20mg USP | Tablet, film coated | Not listed |
+| SIN14572P | Inatorvas Film-Coated Tablet 20mg | Tablet, film coated | Not listed |
+| SIN14313P | Atorvon Film-Coated Tablets 20mg | Tablet, film coated | Not listed |
+| SIN14174P | Torvalipin Tablet 10 mg | Tablet, film coated | Not listed |
 
 ---
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-> **Note:** Key safety areas relevant to atorvastatin in FH — including myopathy/rhabdomyolysis risk with CYP3A4 inhibitors (e.g., certain HIV protease inhibitors, clarithromycin, cyclosporine), statin-induced myalgia (particularly with the SLCO1B1 c.521T>C variant), hepatotoxicity monitoring, pregnancy/breastfeeding contraindication, and drug–drug interactions with immunosuppressants — should be retrieved from the DrugBank API or official package insert. These data were not available in the current evidence pack.
 
 ---
 
@@ -117,18 +124,13 @@ Please refer to the package insert for safety information.
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The TxGNN prediction score of 99.42%, combined with an L1 evidence level (multiple completed Phase 3 RCTs totalling thousands of FH patients), confirms that atorvastatin is already a well-evidenced, guideline-endorsed first-line treatment for both heterozygous and homozygous familial hypercholesterolemia. This prediction validates established clinical practice rather than identifying a novel repurposing opportunity — the guardrails relate primarily to dataset gaps (Singapore registration, MOA data, safety data) and the need for subgroup-specific combination therapy planning, particularly for homozygous FH.
+Several completed Phase 3 randomized trials, including a large heterozygous FH study (n=800), plus pediatric and adult literature support atorvastatin in FH, and the mechanism fits directly. The guardrails are that most trials test add-on drugs rather than atorvastatin alone, and that the Singapore label, safety and mechanism data are missing from the record.
 
 **To proceed, the following is needed:**
-
-- **Verify Singapore HSA registration** directly via the HSA Product Information Database to resolve the current dataset gap (expected: Lipitor® and/or multiple generic atorvastatin products are licensed)
-- **Retrieve MOA and safety data** (key warnings, contraindications, DDI profiles) from DrugBank API or HSA/TFDA official product information to complete the safety assessment (currently recorded as data gap)
-- **CYP3A4 interaction management plan**: Atorvastatin is metabolised by CYP3A4 and OATP1B1; co-medications in FH patients (especially immunosuppressants in post-transplant FH, or antifungals) require dose adjustment review
-- **Pharmacogenomics screening consideration**: SLCO1B1 c.521T>C and POR\*28 polymorphisms significantly influence atorvastatin exposure and myotoxicity risk; relevant for FH patients requiring high-intensity (40–80 mg) dosing
-- **Combination therapy plan for HoFH**: For homozygous FH, atorvastatin must be combined with ezetimibe and/or PCSK9 inhibitors; lomitapide or LDL-apheresis should be considered for receptor-null variants
-- **Paediatric dosing protocol**: Clinical trial data (NCT00827606, NCT00739999) supports atorvastatin use from age 6–10 years in FH, but a locally adapted paediatric dosing and monitoring protocol is needed
-
-> ⚠️ **Disclaimer**: This analysis is for research reference only and does not constitute medical advice. Drug repurposing candidates require independent clinical validation before therapeutic application.
+- Download and review the HSA package insert for approved indications (including any FH or pediatric use), warnings and contraindications
+- Confirm the original approved indication and mechanism-of-action data from DrugBank
+- Confirm whether the trials with truncated titles test atorvastatin alone or as a background therapy
+- A plan for homozygous FH (add-on therapy) and pediatric dosing, plus the interaction and pharmacogenetic (SLCO1B1) considerations noted in the literature
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

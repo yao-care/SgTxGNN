@@ -29,97 +29,86 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Selpercatinib: From RET Fusion-Positive Cancer to Pulmonary Hypertension
+# Selpercatinib: From RET-Driven Cancers to Pulmonary Hypertension
 
 ## One-Sentence Summary
 
-> Selpercatinib is a selective RET kinase inhibitor whose established use, based on the available literature, is treatment of RET fusion-positive non-small-cell lung cancer (and related RET-altered malignancies).
-> The TxGNN model predicts it may be effective for **Pulmonary Hypertension**,
-> but currently only **2 indirect publications** support this direction — and no clinical trials exist. Notably, the same literature reports **hypertension as a known adverse event** of this drug class, which runs counter to the predicted therapeutic direction.
-
----
+Selpercatinib is an oral targeted cancer drug. The Singapore registration records do not state its approved indication, but the retrieved publications describe its use in RET-driven cancers such as RET fusion-positive non-small-cell lung cancer.
+The TxGNN model predicts it may be effective for **pulmonary hypertension**, but there are **0 clinical trials** and **no publications testing the drug in this disease**, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | RET fusion-positive non-small-cell lung cancer (from literature context; no formal Taiwan-registered indication text available) |
-| Predicted New Indication | Pulmonary Hypertension |
+| Original Indication | Not stated in the registration records; publications describe RET fusion-positive NSCLC |
+| Predicted New Indication | Pulmonary hypertension |
 | TxGNN Prediction Score | 99.18% |
-| Evidence Level | L5 |
-| Taiwan Market Status | ✗ Not marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for selpercatinib is currently a data gap. Based on the available literature, selpercatinib is a selective RET (rearranged during transfection) kinase inhibitor, used clinically to treat RET fusion-positive non-small-cell lung cancer and other RET-altered cancers. Its efficacy in this oncology setting has been demonstrated in early clinical trials and confirmed in real-world cohorts (e.g., the SIREN retrospective analysis, PMID 34178121).
+Currently, detailed mechanism of action data is not available. The publications describe selpercatinib as a selective RET inhibitor used in RET-driven cancers. Whether RET inhibition affects the biology of pulmonary vascular remodelling is not documented in the supplied data.
 
-The proposed mechanistic link between RET inhibition and pulmonary hypertension is biologically plausible in principle — RET/GDNF signaling has been implicated in vascular smooth muscle regulation — but the direction of the predicted effect is not supported by current evidence. In fact, a real-world pharmacovigilance study comparing RET inhibitors (PMID 39372206) identifies **hypertension** as a recognized adverse event of this drug class. This suggests selpercatinib may *elevate* blood pressure rather than relieve pulmonary vascular hypertension, which is the opposite of the predicted therapeutic benefit.
+The score is very high, but the evidence does not support the link. Other kinase inhibitors, such as PDGFR-directed agents, have been explored in pulmonary arterial hypertension. That does not carry over to selective RET inhibition. The prediction is most likely driven by the structure of the knowledge graph rather than by established biology.
 
-Given this contradiction between the TxGNN prediction and the known safety signal, this candidate should be treated as a low-plausibility, data-driven artifact rather than a mechanistically grounded repurposing hypothesis at this stage.
-
----
+Selpercatinib's known cardiovascular effects, systemic hypertension and QT prolongation, argue for caution in any cardiopulmonary indication.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [39372206](https://pubmed.ncbi.nlm.nih.gov/39372206/) | 2024 | Cohort | Frontiers in Pharmacology | Real-world FAERS comparison of pralsetinib vs. selpercatinib adverse events; **hypertension identified as a class adverse effect**, not a treatment benefit |
-| [34178121](https://pubmed.ncbi.nlm.nih.gov/34178121/) | 2021 | Cohort | Therapeutic Advances in Medical Oncology | SIREN real-world analysis of selpercatinib in RET fusion-positive NSCLC (oncology efficacy/access program data; no relevance to pulmonary hypertension) |
+| [39372206](https://pubmed.ncbi.nlm.nih.gov/39372206/) | 2024 | Pharmacovigilance (FAERS) | Frontiers in Pharmacology | Compares adverse event profiles of pralsetinib and selpercatinib in real-world reporting data. Does not study pulmonary hypertension. |
+| [34178121](https://pubmed.ncbi.nlm.nih.gov/34178121/) | 2021 | Retrospective cohort | Therapeutic Advances in Medical Oncology | Real-world analysis (SIREN) of selpercatinib in RET fusion-positive NSCLC patients treated through an access program. Does not study pulmonary hypertension. |
 
-Neither publication directly studies selpercatinib for pulmonary hypertension; both are oncology-context/pharmacovigilance sources.
+Neither publication tests selpercatinib in pulmonary hypertension. Both concern its use in RET-driven cancers.
 
----
+## Singapore Market Information
 
-## Taiwan Market Information
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN16991P | TANSTRIVE HARD CAPSULES 80MG | Capsule | Lilly del Caribe, Inc.; Lilly, S.A. (primary and secondary packager) |
+| SIN16990P | TANSTRIVE HARD CAPSULES 40MG | Capsule | Lilly del Caribe, Inc.; Lilly, S.A. (primary and secondary packager) |
 
-Selpercatinib currently has no marketing authorization on record — no licenses, brand names, or approved indication text are available in the Taiwan regulatory dataset (`market_status: Not marketed`, `total_licenses: 0`).
+The approved indication text is blank in both records. The only route of administration is oral.
 
----
-
-## Cytotoxicity (Antineoplastic Drug)
-
-Selpercatinib is classified as antineoplastic based on its established use in RET-altered malignancies (per literature context).
+## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (selective RET kinase inhibitor) |
-| Myelosuppression Risk | No data available — please refer to the package insert |
-| Emetogenicity Classification | No data available — please refer to the package insert |
-| Monitoring Items | Blood pressure monitoring recommended, given the class-associated hypertension signal reported in real-world pharmacovigilance data (PMID 39372206); otherwise refer to package insert for full monitoring requirements |
-| Handling Protection | No specific handling data available — please refer to institutional hazardous/oral oncolytic drug handling policy |
-
----
+| Cytotoxicity Classification | Targeted therapy (selective kinase inhibitor), not a conventional cytotoxic |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert warnings and precautions |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ## Safety Considerations
 
-Formal safety data (key warnings, contraindications, TFDA label, DDI) are not currently available for this drug — please refer to the package insert for safety information once obtained.
+- **Cardiovascular concerns**: Selpercatinib's known cardiovascular effects are systemic hypertension and QT prolongation. These would need careful assessment before any pulmonary hypertension hypothesis could be pursued.
+- **Drug Interactions**: No interaction records were found.
 
-**Notable literature signal:** A real-world pharmacovigilance study (PMID 39372206) reports hypertension as a recognized adverse event associated with selpercatinib. This should be factored into any safety evaluation for the pulmonary hypertension repurposing hypothesis, as it points toward a potential safety concern rather than a therapeutic benefit.
-
----
+Please refer to the package insert for further safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by TxGNN's model score (L5, no actual supportive studies), and the only related literature identifies hypertension as an adverse event of this drug class — directly contradicting the hypothesis that selpercatinib treats pulmonary hypertension. There is currently no clinical trial evidence and no confirmed original-indication data from Taiwan regulatory sources.
+The evidence is limited to a model prediction. There are no clinical trials, and neither supplied publication tests the drug in pulmonary hypertension. No biological link between RET inhibition and the disease is documented, and the drug carries cardiovascular liabilities. The other nine predicted indications are also model-only (L5, Hold). The migraine/epilepsy-related literature retrieved for one of them does not mention selpercatinib. Several entries are rare or obsolete disease terms, which suggests knowledge-graph artifacts.
 
 **To proceed, the following is needed:**
-- Confirmed MOA data from DrugBank (currently a blocking data gap)
-- TFDA-equivalent label warnings/contraindications for formal S1 safety screening (currently a blocking data gap, DG001)
-- Preclinical or mechanistic studies specifically linking RET inhibition to pulmonary vascular effects (direction of effect must be clarified — vasodilation vs. vasoconstriction)
-- Ongoing monitoring for new clinical trials or case reports addressing this indication, given the currently contradictory safety signal
+- The Singapore package insert, covering approved indication, warnings and contraindications
+- Mechanism of action data, for example from DrugBank, to test for any RET-related role in pulmonary vascular biology
+- Preclinical or mechanistic evidence linking RET signalling to pulmonary hypertension
+- A cardiovascular risk assessment (blood pressure, QT) for this patient population
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

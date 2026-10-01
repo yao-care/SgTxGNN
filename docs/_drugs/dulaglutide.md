@@ -29,57 +29,66 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dulaglutide: From Type 2 Diabetes Mellitus to Opsismodysplasia
+# Dulaglutide: From Type 2 Diabetes to Opsismodysplasia
 
 ## One-Sentence Summary
 
-Dulaglutide (Trulicity) is a long-acting GLP-1 receptor agonist originally developed and approved for the management of Type 2 Diabetes Mellitus in adults, acting by stimulating insulin secretion and suppressing glucagon in a glucose-dependent manner.
-
-The TxGNN model predicts it may be effective for **Opsismodysplasia** as the top-ranked candidate, with a prediction score of **97.05%** — however, this prediction is supported by **no clinical trials and no published literature**, placing it squarely at the lowest evidence tier.
-
-Across all 10 predictions in this batch, the pattern is consistent: high TxGNN scores driven by network topology proximity, with zero empirical evidence for any of the predicted indications. All 10 are assigned **Evidence Level L5** and a **Hold** recommendation.
+Dulaglutide is a once-weekly injectable GLP-1 receptor agonist, used for type 2 diabetes (the Singapore registration record does not state the indication, so this comes from the drug's known class use).
+The TxGNN model predicts it may be effective for **opsismodysplasia**, a rare skeletal disorder.
+There are **0 clinical trials** and **0 publications** supporting this prediction, so it rests on model output alone.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Type 2 Diabetes Mellitus (GLP-1 receptor agonist class) |
+|------|------|
+| Original Indication | Type 2 diabetes mellitus (from known drug use; not stated in the Singapore licence records) |
 | Predicted New Indication | Opsismodysplasia |
 | TxGNN Prediction Score | 97.05% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Dulaglutide is a GLP-1 (glucagon-like peptide-1) receptor agonist. It binds to GLP-1 receptors expressed on pancreatic beta cells and multiple other tissues, triggering a cAMP → PKA → PI3K signalling cascade. This pathway stimulates glucose-dependent insulin secretion, suppresses glucagon, slows gastric emptying, and reduces appetite. The PI3K/AKT/mTOR node is the key intersection point with many other biological processes.
+Currently, detailed mechanism of action data is not available in the input. Based on known class pharmacology, dulaglutide is a GLP-1 receptor agonist. It enhances glucose-dependent insulin secretion, slows gastric emptying and reduces appetite. Its efficacy in type 2 diabetes is established, but nothing in these mechanisms addresses a skeletal disorder.
 
-Opsismodysplasia is a rare, severe skeletal dysplasia caused by loss-of-function mutations in **INPPL1** (encoding SHIP2, a phosphoinositide phosphatase). SHIP2 is a negative regulator of PI3K signalling — when SHIP2 is non-functional, PI3K/AKT/mTOR signalling becomes dysregulated, impairing chondrocyte differentiation and endochondral ossification. The TxGNN model likely scores this association highly because both Dulaglutide's mechanism and SHIP2 dysfunction converge on the same PI3K network node.
+**This prediction is not biologically reasonable on current information.** Opsismodysplasia is a rare skeletal dysplasia linked to INPPL1, with impaired growth plate ossification. There is no plausible pathway from GLP-1 receptor signalling to this defect. The high score most likely reflects proximity in the knowledge graph rather than real biology.
 
-However, the biological rationale for therapeutic benefit is very weak. Opsismodysplasia is a **congenital structural bone defect** — the skeletal malformation is established in utero and cannot be reversed by metabolic pathway modulation. There is no preclinical evidence that GLP-1 receptor agonism influences cartilage formation or chondrocyte biology. This is a textbook case of **network topology driving a false positive**: shared pathway nodes inflate the TxGNN score without translating to therapeutic relevance.
+The other top predictions show the same pattern:
+- **Stiff person spectrum (focal stiff limb syndrome, classic stiff person syndrome):** the link likely comes from anti-GAD65 autoimmunity co-occurring with diabetes. That is comorbidity, not evidence of treatment benefit.
+- **Localized lipodystrophies (drug-induced, centrifugal, pressure-induced, idiopathic):** these likely cluster together in the graph. Dulaglutide is itself an injectable, and further fat loss would be undesirable.
+- **Pancreatic agenesis:** dulaglutide needs existing beta cells to act, and these are largely absent in this condition.
+- **Thiamine-responsive dysfunction syndrome and autoimmune oophoritis:** the support is weak or speculative, and there are no clinical data.
+
+All ten predicted indications are at evidence level L5 with a Hold recommendation.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Dulaglutide in any of the 10 predicted indications in this batch.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available for Dulaglutide in any of the 10 predicted indications in this batch.
+Currently no related literature available.
 
 ---
 
 ## Singapore Market Information
 
-Dulaglutide is not registered with the Health Sciences Authority (HSA) of Singapore. No product authorisations on record.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN14968P | TRULICITY INJECTION 0.75MG/0.5ML | Injection, solution | Not listed in the record |
+| SIN14967P | TRULICITY INJECTION 1.5MG/0.5ML | Injection, solution | Not listed in the record |
+
+Both products are made by Eli Lilly and Company, with Vetter Pharma-Fertigung as the manufacturing site. The only available route is injection.
 
 ---
 
@@ -94,15 +103,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-All 10 TxGNN-predicted indications for Dulaglutide in this batch are rare or ultra-rare diseases with zero supporting clinical trials or published literature. The high prediction scores (0.70–0.97) reflect shared network topology — particularly the GLP-1 → cAMP → PKA → PI3K pathway intersecting with multiple disease-associated nodes — rather than genuine pharmacological evidence. The top prediction (opsismodysplasia) is a congenital skeletal dysplasia where drug-induced pathway modulation cannot address the underlying structural defect.
+The prediction has no clinical, registry or literature support and no plausible mechanism. The high TxGNN score most likely reflects knowledge-graph artifacts, not a genuine treatment signal.
 
 **To proceed, the following is needed:**
-
-- **MOA confirmation**: Retrieve Dulaglutide's full pharmacological profile from DrugBank (DB09045) to enable proper mechanistic scoring
-- **Singapore registration status clarification**: Confirm whether Dulaglutide (Trulicity/Awiqli) has been submitted to HSA or is under review
-- **Prioritisation within the prediction batch**: Of the 10 indications, **Autoimmune Oophoritis** (rank 10) warrants the closest second look — GLP-1R is expressed in granulosa cells, and GLP-1's immunomodulatory effects (Treg/Th17 balance, NF-κB suppression) provide the most biologically coherent rationale, despite its lower TxGNN score (70%)
-- **Known indications gap**: Dulaglutide has established cardiovascular outcomes data (REWIND trial, CVOT) and an approved indication for CV risk reduction in T2DM patients — these are not reflected in this Evidence Pack and should be cross-checked against the full prediction list for potential missed hits
-- **Rare disease feasibility screen**: Before advancing any of the 10 candidates, confirm patient population size and whether orphan drug regulatory pathways (e.g., HSA Orphan Drug Scheme) would apply
+- The HSA package insert (warnings and contraindications), which is currently missing and blocks any safety screening
+- Detailed mechanism of action data from DrugBank
+- Preclinical or mechanistic evidence linking GLP-1 receptor signalling to INPPL1-related growth plate defects
+- Review by a rare skeletal disease specialist to decide whether this candidate is worth pursuing
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

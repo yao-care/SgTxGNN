@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Colchicine
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 274
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 ---
 
 # Colchicine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,37 +29,40 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Colchicine: From Gout to Plasmodium falciparum Malaria
+# Colchicine: From an Unrecorded Local Indication to Plasmodium falciparum Malaria
 
 ## One-Sentence Summary
 
-Colchicine is a long-established anti-inflammatory agent primarily used to treat acute gout attacks, Familial Mediterranean Fever (FMF), and recurrent pericarditis.
-The TxGNN model predicts it may be effective for **Plasmodium falciparum malaria**, with **0 clinical trials** and **6 publications** (all in vitro or basic science studies) currently supporting this direction.
-Evidence is limited to preclinical mechanistic data, placing this prediction at an early exploratory stage.
+Colchicine is a microtubule-targeting anti-inflammatory drug that is marketed in Singapore as oral tablets, but the local records provided do not state its approved indication.
+The TxGNN model predicts it may be effective against **Plasmodium falciparum malaria**, but there are **0 clinical trials** and only **laboratory (in vitro) literature**, mostly on related compounds rather than colchicine itself.
+This is a research question at this stage, not a repurposing candidate ready for clinical development.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Gout; autoinflammatory conditions (no Singapore regulatory data available — drug not registered) |
+|------|------|
+| Original Indication | Not recorded in the Singapore licence data provided |
 | Predicted New Indication | Plasmodium falciparum malaria |
-| TxGNN Prediction Score | 99.60% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Research Question |
+| TxGNN Prediction Score | 99.60% (model rank 5631) |
+| Evidence Level | L4 (preclinical / mechanism studies only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Colchicine's hallmark mechanism is binding to β-tubulin and inhibiting microtubule polymerisation. This disrupts cell division, neutrophil chemotaxis, and — through downstream effects on cytoskeletal scaffolding — NLRP3 inflammasome activation. Although DrugBank pharmacology data was not retrieved in this evidence pack, Colchicine's tubulin-targeting action is one of the most well-characterised small-molecule mechanisms in clinical pharmacology.
+Colchicine binds tubulin and disrupts microtubule formation. Detailed mechanism-of-action data was not supplied in the Evidence Pack, so this description rests on the pack's rationale notes. Microtubules are essential to cell division in eukaryotic cells, including the malaria parasite, so a microtubule-binding drug could plausibly affect parasite growth.
 
-*Plasmodium falciparum* depends on a functional tubulin/microtubule system for intraerythrocytic cell division and gametocyte formation. Several in vitro studies from the late 1980s–1990s demonstrated that compounds binding to cytoskeletal proteins — including colcemid (a structural congener of Colchicine) and tubulozole isomers with colcemid-like effects on protein synthesis — inhibit P. falciparum growth in erythrocyte cultures. This body of work established parasite tubulin as a pharmacologically tractable target and provides indirect mechanistic support for the TxGNN prediction.
+Several laboratory studies support this idea indirectly. Papers from 1989 to 2013 report that compounds binding tubulin or other cytoskeletal proteins are active against *P. falciparum* in culture. One of them notes that Colcemid, a close colchicine analogue, affected parasite protein synthesis in a similar way to the antimalarial candidate tubulozoles. Another paper suggests parasite tubulin differs from mammalian tubulin at the molecular level. That is encouraging for selectivity but has not been tested with colchicine here.
 
-Critically, P. falciparum tubulins are structurally distinct from mammalian tubulins at the molecular level. This divergence may offer selectivity, but it also means Colchicine's affinity and potency against the parasite — and its therapeutic index in an in vivo malaria context — are entirely unknown. Colchicine carries a narrow therapeutic window in humans, and there are currently no clinical or animal model data to establish whether an effective antimalarial dose is safe. The TxGNN model likely identified this candidate based on pharmacological graph similarities, not direct experimental evidence.
+The link is indirect and has important limits:
+- None of the retrieved papers shows colchicine itself clearing malaria parasites in a clinical or animal setting.
+- Colchicine has a narrow therapeutic index, so a systemic antimalarial dose is unlikely to be practical.
+- The model's high score reflects graph proximity to related nodes, not direct proof of efficacy.
 
 ---
 
@@ -71,14 +74,26 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
+All retrieved papers are laboratory or background studies. None is an RCT, and none tests colchicine directly in malaria.
+
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [2670249](https://pubmed.ncbi.nlm.nih.gov/2670249/) | 1989 | In Vitro Study | Cell Biology International Reports | Nine tubulin-binding substances tested against intraerythrocytic P. falciparum; parasite tubulins appear molecularly distinct from mammalian tubulins; tubulozole-T showed promising selective antimalarial activity |
-| [2655935](https://pubmed.ncbi.nlm.nih.gov/2655935/) | 1989 | In Vitro Study | Cell Biology International Reports | Duplicate report of the same cytoskeletal compound screen; colchicine-class agents active in vitro with differential host vs. parasite selectivity noted |
-| [2221861](https://pubmed.ncbi.nlm.nih.gov/2221861/) | 1990 | In Vitro Study | Antimicrobial Agents and Chemotherapy | Tubulozole isomers (mechanism resembling colcemid) inhibit P. falciparum protein synthesis; colcemid itself shows analogous effect, providing indirect support for the colchicine-related mechanism |
-| [23505424](https://pubmed.ncbi.nlm.nih.gov/23505424/) | 2013 | In Vitro Study | PLoS ONE | Curcumin (a structurally distinct tubulin binder) disrupts P. falciparum microtubule architecture in vitro, further validating parasite tubulin as a druggable target |
-| [7511206](https://pubmed.ncbi.nlm.nih.gov/7511206/) | 1994 | In Vitro / Molecular | Molecular and Cellular Biology | pfmdr1-encoded Pgh1 expressed in mammalian cells increases chloroquine susceptibility; provides background context on P. falciparum drug resistance mechanisms relevant to any repurposing candidate |
-| [6362934](https://pubmed.ncbi.nlm.nih.gov/6362934/) | 1984 | Serological Study | Clinical and Experimental Immunology | Anti-intermediate filament antibodies detected in 82% of acute malaria patients; supports the concept that cytoskeletal disruption is a biologically significant feature of P. falciparum infection |
+|------|-----|------|------|---------|
+| [23505424](https://pubmed.ncbi.nlm.nih.gov/23505424/) | 2013 | In vitro | PLoS One | Curcumin (not colchicine) disrupts *P. falciparum* microtubules, building on evidence that tubulin-binding agents can affect the parasite |
+| [2221861](https://pubmed.ncbi.nlm.nih.gov/2221861/) | 1990 | In vitro | Antimicrob Agents Chemother | Tubulozoles act on parasite protein synthesis; Colcemid (a colchicine analogue) had a similar effect |
+| [2670249](https://pubmed.ncbi.nlm.nih.gov/2670249/) / [2655935](https://pubmed.ncbi.nlm.nih.gov/2655935/) | 1989 | In vitro | Cell Biol Int Rep | Tubulin- and actin-binding compounds were active against *P. falciparum* in culture; plasmodial tubulin appears to differ from mammalian tubulin (two records with the same title) |
+| [7511206](https://pubmed.ncbi.nlm.nih.gov/7511206/) | 1994 | In vitro | Mol Cell Biol | Expressing the parasite *pfmdr1* gene in mammalian cells increased chloroquine susceptibility; background on drug resistance, not colchicine |
+| [6362934](https://pubmed.ncbi.nlm.nih.gov/6362934/) | 1984 | Other | Clin Exp Immunol | Patients with acute malaria commonly carry antibodies to cytoskeletal intermediate filaments; not a drug study |
+
+---
+
+## Singapore Market Information
+
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN15572P | COLCHICINE HALEWOOD TABLET 500 MCG | Tablet | Surepharm Services Limited |
+| SIN12301P | COLCITEX TABLET 0.6 mg | Tablet | The United Drug (1996) Co Ltd |
+
+Both products are oral tablets. The approved indication text is not recorded for either licence.
 
 ---
 
@@ -86,25 +101,26 @@ Currently no related clinical trials registered.
 
 Please refer to the package insert for safety information.
 
-> **Note:** Colchicine has a well-known narrow therapeutic window. Toxicity data (warnings, contraindications, drug–drug interactions) was not retrieved in this evidence pack. Before any research use in malaria settings, a full safety profile review — particularly regarding renal and hepatic dose adjustments, CYP3A4/P-gp interactions, and myelosuppression risk — is essential.
+Note: colchicine is known to have a narrow therapeutic index, which is a key barrier to any systemic antimalarial use. No drug-interaction records were found in the data provided.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Research Question**
+**Decision: Hold**
 
 **Rationale:**
-All supporting evidence is limited to in vitro and basic science studies from the 1980s–2010s; no clinical trials have been registered, and there are no animal model or pharmacokinetic data to define whether an effective antimalarial dose of Colchicine is achievable within its narrow therapeutic window. This indication cannot advance beyond hypothesis generation at this stage.
+The malaria prediction rests on a high model score and indirect laboratory evidence about other tubulin-binding compounds. There are no clinical trials, no colchicine-specific malaria data, and a narrow therapeutic index that makes a practical systemic antimalarial dose doubtful.
 
 **To proceed, the following is needed:**
+- Direct in vitro or animal data showing colchicine (or a safer analogue) inhibits *P. falciparum* at achievable, non-toxic concentrations
+- The HSA package insert, to establish the approved indication and safety warnings
+- Detailed mechanism-of-action data from DrugBank
+- A therapeutic-window analysis comparing antiparasitic concentrations with human toxicity
 
-- Retrieve full MOA and safety profile from DrugBank (DG001, DG002 data gaps must be resolved)
-- In vitro selectivity studies: determine IC₅₀ against P. falciparum versus host erythrocyte/hepatocyte toxicity to establish a preliminary therapeutic index
-- Rodent malaria model (e.g., P. berghei) proof-of-concept study to confirm in vivo efficacy and tolerability
-- Pharmacokinetic modelling to assess whether oral Colchicine achieves adequate parasite-inhibiting concentrations in blood without systemic toxicity
-- Comparative assessment against current first-line antimalarials (artemisinin-based combination therapies) to define potential niche (e.g., transmission-blocking via gametocyte inhibition)
-- Singapore regulatory pathway assessment if preclinical data becomes supportive (note: currently not registered with HSA)
+**Other predictions worth a look:** The second-ranked prediction, familial Mediterranean fever (score 99.38%), has a much stronger literature base, with many reviews describing colchicine as standard therapy. It is likely an existing label or guideline use rather than true repurposing. It is best handled as a label-status check, and the specific FMF variant should be confirmed. The remaining predictions (ranks 3 to 10) are supported by model score alone or by unrelated evidence and should stay on hold.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

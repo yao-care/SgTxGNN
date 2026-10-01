@@ -29,13 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Travoprost: From Glaucoma to Visceral Calciphylaxis
+# Travoprost: From Glaucoma / Ocular Hypertension to Visceral Calciphylaxis
 
 ## One-Sentence Summary
 
-> Travoprost is a prostaglandin (PGF2α) analogue used to lower intraocular pressure in glaucoma and ocular hypertension.
-> The TxGNN model's top prediction is **Visceral Calciphylaxis**, with a raw score of **99.9998%**,
-> but this candidate is currently supported by **0 clinical trials** and **0 publications**, and the evidence pack's own mechanistic analysis flags it as likely model noise.
+Travoprost is a prostaglandin F2-alpha analogue eye drop, used to lower eye pressure in glaucoma and ocular hypertension.
+The TxGNN model predicts it may be effective for **visceral calciphylaxis**, but **no clinical trials and no publications** were found for this indication, so the prediction rests on the model score alone.
 
 ---
 
@@ -43,41 +42,55 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Glaucoma / Ocular Hypertension (inferred from trial/literature context in the evidence pack; no structured field available) |
-| Predicted New Indication | Visceral Calciphylaxis |
+| Original Indication | Open-angle glaucoma / ocular hypertension (inferred from the eye-drop products and trial records; the registration data contains no indication text) |
+| Predicted New Indication | Visceral calciphylaxis |
 | TxGNN Prediction Score | 99.9998% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed (Not marketed) |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 3 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-The structured `original_moa` field is marked as a data gap, but the evidence pack's own rationale text describes Travoprost's mechanism: it is a PGF2α prostaglandin analogue that activates FP receptors to increase uveoscleral outflow, thereby lowering intraocular pressure — the standard mechanism underlying its established use in glaucoma and ocular hypertension.
+Travoprost is an FP-receptor agonist applied as an eye drop. It lowers intraocular pressure by acting on the eye's prostaglandin receptors. Detailed mechanism-of-action data is not currently available in the evidence pack.
 
-Visceral calciphylaxis is a vascular calcification / microthrombotic disorder affecting internal organ vasculature. The evidence pack explicitly states there is **no known mechanistic link** between local FP-receptor-mediated ocular pressure reduction and the calcification/microthrombosis pathophysiology of calciphylaxis, and characterizes this prediction as likely arising from embedding-level semantic similarity around the term "vascular" rather than a genuine pharmacological signal.
+No plausible link has been established between this mechanism and visceral calciphylaxis, a condition of vascular calcification. Systemic exposure from eye drops is also minimal, so a meaningful effect on deep vascular tissue is unlikely. The score of about 1.0 is shared by many candidates, so it does not distinguish a real signal from a model artefact.
 
-No clinical trials or literature currently exist for this specific drug-disease pair. Combined with the explicit noise-flag in the model's own rationale, this candidate does not currently meet the bar for further evaluation.
+The other nine candidates for this drug (thoracic outlet syndromes, angiodysplasia of the stomach, blue toe syndrome, idiopathic spontaneous coronary artery dissection, lymphangiectasis, hemangioendothelioma, and "vascular disease") are also vascular conditions, and none has a clear mechanistic rationale. The only retrieved material relevant to vascular physiology is a small ocular blood-flow study (NCT00308945, n=20). It was matched to "vascular disease" and does not show efficacy in any vascular disease.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
+
+---
+
+## Singapore Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN15446P | TRAVON Eye Drops Solution 0.004% (Indoco Remedies Limited) | Sterile solution | — |
+| SIN15206P | TRAVATAN C Eye Drop Solution 30 mcg/mL (Novartis Manufacturing NV) | Sterile solution | — |
+| SIN13722P | DuoTrav Eye Drops, Solution, 5 mg/40 mcg per mL (Novartis Manufacturing NV) | Sterile solution | — |
+
+All three registered products are ophthalmic solutions. No systemic or injectable formulation is registered in Singapore.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Note: TFDA/HSA label warnings and contraindications data (DG001, blocking gap) have not yet been retrieved, which prevents any formal safety assessment for this or other candidates involving this drug.
+Please refer to the package insert for safety information.
+
+The literature retrieved for this drug repeatedly reports conjunctival hyperemia as a common ocular side effect of travoprost. This is relevant to the on-label eye use only.
 
 ---
 
@@ -86,14 +99,13 @@ Please refer to the package insert for safety information. Note: TFDA/HSA label 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (visceral calciphylaxis) has zero clinical trial or literature support, and the evidence pack's own mechanistic analysis identifies it as probable model noise rather than a genuine signal. Combined with the drug not being marketed in Singapore (0 registrations) and a blocking gap in label safety data, there is no basis to proceed.
+The prediction rests on the model score alone, with no trials or publications for visceral calciphylaxis. No mechanism connects a topical ocular prostaglandin analogue to vascular calcification, and eye-drop dosing gives negligible systemic exposure.
 
 **To proceed, the following is needed:**
-- TFDA/HSA package insert (warnings, contraindications) — currently blocking (DG001)
-- Verified mechanism-of-action reference for Travoprost (DG002)
-- Independent, non-embedding-based validation of any mechanistic link to calcification/vascular pathophysiology before further evaluation
-
-**Note for portfolio triage:** Among this drug's 10 ranked candidates, only **"vascular disease"** (rank 5) has any supporting evidence — a Phase 4 trial (NCT00308945) directly measuring travoprost's effect on retinal vascular diameter and choroidal blood flow, reaching evidence level L4 and stage S1 ("Research Question"). However, this evidence reflects a *local ocular* pharmacological effect, not treatment of systemic vascular disease, and should not be conflated with efficacy for that broad indication. If this drug is to be pursued further for repurposing, rank 5 — not rank 1 — is the more defensible starting point.
+- Detailed mechanism-of-action data for travoprost, and any biological evidence linking FP-receptor signalling to vascular calcification
+- Package insert warnings and contraindications from HSA, which are currently missing and block safety screening
+- A systemic-exposure and route-compatibility assessment, since only eye-drop products are registered
+- A targeted literature search on prostaglandin analogues in calciphylaxis or vascular calcification, before any further investment
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

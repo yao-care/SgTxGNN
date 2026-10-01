@@ -33,75 +33,64 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-> Varenicline (DrugBank DB01273) is a nicotinic receptor partial agonist originally used for smoking cessation / nicotine dependence.
-> The TxGNN model predicts it may be effective for **Migraine Disorder**, with a prediction score of **99.92%**,
-> but this is supported by only **1 case report** (an adverse cardiac event, not an efficacy study) and **no clinical trials**.
-
----
+Varenicline is an oral nicotinic receptor partial agonist, widely documented in the literature as a smoking cessation aid.
+The TxGNN model predicts it may be effective for **migraine disorder**, but this is a model prediction only, with **0 clinical trials** and **1 publication** (a cardiac safety case report that does not address migraine).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Smoking cessation / nicotine dependence (not derivable from Singapore license data — drug is not marketed here; referenced as background context in the evidence pack's rationale text) |
-| Predicted New Indication | Migraine Disorder |
+| Original Indication | Smoking cessation (inferred from the literature; the registered indication text is blank in the Singapore data) |
+| Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 99.92% |
-| Evidence Level | L4 (single case report only; no RCT, no clinical trial) |
-| Singapore Market Status | ✗ Not marketed (Not marketed) |
-| Number of Registrations | 0 |
-| Recommended Decision | **Hold** |
-
----
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action (MOA) data for varenicline is not available in this evidence pack. Based on general background pharmacology (not sourced from the structured MOA field in this dataset), varenicline is known as a partial agonist at the α4β2 nicotinic acetylcholine receptor (nAChR), which reduces nicotine craving and withdrawal — the basis for its approved use in smoking cessation.
+Detailed mechanism of action data is not available in the Evidence Pack. From the supplied analysis, varenicline is an α4β2 nicotinic acetylcholine receptor partial agonist, and it is also described as a full α7 agonist. Its efficacy in smoking cessation is well documented.
 
-The theoretical rationale linking varenicline to migraine rests on the fact that nAChR signaling has some involvement in trigeminovascular pain modulation. However, this is a mechanistic hypothesis only — the evidence pack contains no clinical trial or efficacy literature testing varenicline for migraine.
+The proposed link to migraine is nicotinic modulation of trigeminovascular signalling or cortical spreading depression. This link is **speculative**. The very high TxGNN score reflects graph-based similarity, not clinical support.
 
-Critically, the single piece of literature evidence associated with this prediction (PMID 19585710) is a case report of **cardiac arrest following varenicline use** — an adverse safety event, not evidence of therapeutic benefit for migraine. This runs counter to, rather than supports, the repurposing hypothesis. Given the complete absence of efficacy data and the presence of only a safety-concerning case report, this prediction should be treated as a model-generated hypothesis requiring substantial further validation, not an actionable signal.
-
----
+There is also a warning sign. Headache is a documented adverse effect of varenicline (see the bath-related headache case report in the literature for the related "headache disorder" prediction). This points in the opposite direction from therapeutic benefit. The other top-ranked predictions (other migraine subtypes, hair disorders, glaucoma, pulmonary hypertension) are also L5 and Hold. For several of them the pack finds no plausible mechanism.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [19585710](https://pubmed.ncbi.nlm.nih.gov/19585710/) | 2009 | Case Report | Therapie | Reports a case of **cardiac arrest** associated with varenicline use — an adverse safety event, not evidence of efficacy for migraine |
-
----
+| [19585710](https://pubmed.ncbi.nlm.nih.gov/19585710/) | 2009 | Case report | Therapie | Report of cardiac arrest in a patient taking varenicline. It is a safety report with no abstract and no migraine data. |
 
 ## Singapore Market Information
 
-Varenicline holds no marketing authorization in Singapore (market status: Not marketed, 0 registrations). No product license data is available.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN13323P | Champix Tablet 1mg | Film-coated tablet | Not listed in the registry data |
+| SIN13322P | Champix Tablet Starter Pack | Film-coated tablet | Not listed in the registry data |
 
----
+Both products are manufactured by Pfizer Italia S.r.l. and are oral formulations.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. (No structured warnings, contraindications, or drug-interaction data are available in this evidence pack.)
-
----
+Please refer to the package insert for safety information. No drug-interaction records were found in the queried source.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The predicted migraine indication is supported only by a theoretical mechanistic hypothesis and a single case report describing a serious adverse cardiac event — not therapeutic efficacy. There are no clinical trials, RCTs, or efficacy literature specific to migraine, and the drug is not currently marketed in Singapore. Evidence level is L4 at best, and the only concrete clinical signal points toward a safety concern rather than benefit.
+The prediction is supported only by the model score (L5). No trials exist, and the single publication is an unrelated cardiac safety report. Headache is a known adverse effect of varenicline, so the signal runs against benefit.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism-of-action data from DrugBank or the official label
-- Regulatory safety data (warnings, contraindications, DDI) from TFDA/HSA product labeling
-- Dedicated preclinical or clinical studies evaluating varenicline specifically for migraine, not smoking-cessation trials with incidental headache mentions
-- Further pharmacovigilance review of the cardiac arrest signal (PMID 19585710) before any therapeutic hypothesis is pursued
-- Note: the other 9 predicted indications in this evidence pack (e.g., migraine with brainstem aura, alopecia subtypes, glaucoma, headache disorder, pulmonary hypertension) are all L4–L5 with either no evidence or evidence pack literature/trials that, on inspection, pertain only to the original smoking-cessation indication or adverse events — none currently warrant progression beyond Hold.
+- The Singapore package insert, covering warnings, contraindications and the approved indication text
+- Detailed mechanism of action data
+- Preclinical or clinical evidence that nicotinic modulation affects migraine pathophysiology
+- A review of headache and other neurological adverse-event data to weigh risk against any potential benefit
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

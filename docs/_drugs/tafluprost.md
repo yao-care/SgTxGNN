@@ -29,31 +29,29 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tafluprost: From Glaucoma to Primary Hereditary Glaucoma
+# Tafluprost: From Open-Angle Glaucoma to Primary Hereditary Glaucoma
 
 ## One-Sentence Summary
 
-Tafluprost is a prostaglandin F2α analogue used to lower intraocular pressure. The TxGNN model's top prediction — **primary hereditary glaucoma** — is essentially a within-class extension of its known glaucoma indication, but this candidate currently has **zero clinical trials and zero literature entries** directly attached to it in the evidence pack. A secondary signal on **vascular disease** is supported by 2 trials and 10 publications, but that evidence is safety/mechanistic in nature, not therapeutic support for a new indication.
+Tafluprost is a prostaglandin eye drop used to lower eye pressure in glaucoma and ocular hypertension. The TxGNN model predicts it may be effective for **primary hereditary glaucoma**, but **no clinical trials and no publications** specific to this indication were found. Support is indirect and comes from its use in open-angle glaucoma.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in registry data (drug is not marketed in Singapore) |
+| Original Indication | Open-angle glaucoma / ocular hypertension (inferred from the literature; the HSA records contain no indication text) |
 | Predicted New Indication | Primary hereditary glaucoma |
 | TxGNN Prediction Score | 98.62% |
-| Evidence Level | L4 (mechanism-only; no direct trials or literature attached to this candidate) |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only; the pack assigns L4 on mechanistic plausibility, but no actual studies exist) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the evidence pack (marked as a data gap). Based on known pharmacology, however, tafluprost is a selective **FP receptor (prostaglandin F2α) agonist** that lowers intraocular pressure primarily by increasing uveoscleral outflow — this is well established as the mechanism underlying the entire prostaglandin analogue drug class (same family as latanoprost, travoprost, bimatoprost), which is first-line therapy for open-angle glaucoma and ocular hypertension.
+Tafluprost is a prostaglandin F2α analogue that acts on the FP receptor. It lowers intraocular pressure (IOP) by increasing uveoscleral outflow of aqueous humour. Detailed mechanism-of-action data is not available from DrugBank, so this description comes from the pack's mechanistic analysis.
 
-The predicted indication, "primary hereditary glaucoma," sits within the same disease family as tafluprost's established use in glaucoma/ocular hypertension. This is not a cross-mechanism repurposing hypothesis but rather a **subtype extension** — the model is essentially recognizing that a drug already used to treat glaucoma should also work on a genetically-defined glaucoma subtype, which is mechanistically expected rather than novel.
-
-Despite this plausibility, the evidence pack shows **no clinical trials or literature specifically retrieved for this candidate** (trials_count = 0, literature_count = 0). The high TxGNN score reflects strong network-level similarity between "glaucoma" and "primary hereditary glaucoma" as disease nodes, not independent clinical validation for the hereditary subtype specifically.
+Hereditary glaucoma is also driven by raised IOP, so an IOP-lowering mechanism is plausibly relevant. However, all support is indirect, drawn from use in open-angle glaucoma. Hereditary and developmental forms (for example, trabeculodysgenesis) involve different outflow-pathway abnormalities. Efficacy and safety in these forms, including in children, have not been verified.
 
 ## Clinical Trial Evidence
 
@@ -65,27 +63,28 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Tafluprost has no registered licenses in Singapore (`total_licenses: 0`, `market_status: Not marketed`). No product table is available.
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN13872P | Taflotan Ophthalmic Solution 0.0015% | Sterile solution | Santen Pharmaceutical Co., Ltd. (Shiga Plant) |
+| SIN14856P | TAFLOTAN-S Ophthalmic Solution 0.0015% | Sterile solution | Santen Pharmaceutical Co., Ltd. (Noto Plant) |
+| SIN15060P | TAPCOM-S Ophthalmic Solution | Sterile solution | Laboratoire Unither |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-*(Note: `key_warnings`, `contraindications`, and DDI data are all flagged as data gaps or not found in the evidence pack — TFDA label warnings/contraindications are listed as a Blocking data gap that must be resolved before any S1 safety assessment can proceed.)*
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked candidate (primary hereditary glaucoma) is mechanistically plausible as a within-class extension of tafluprost's known glaucoma pharmacology, but it currently has no direct clinical trial or literature support — this is a model-score-only prediction (L4, not the L5 assigned score would suggest but effectively unsupported at the indication level). Separately, the "vascular disease" candidate (rank 9) has real evidence (2 trials, 10 publications), but that evidence documents tafluprost's **vascular side effects** (corneal vascular changes, hyperemia, systemic blood pressure elevation) — this is a safety signal, not efficacy support, and argues against rather than for repurposing toward vascular disease.
+The prediction score is high, but there are no trials or publications for hereditary glaucoma. The only support is an indirect mechanistic link from open-angle glaucoma, so this is a research question rather than an actionable candidate.
 
 **To proceed, the following is needed:**
-- Resolve DG001 (TFDA/original-market label warnings and contraindications) — currently Blocking for any safety review
-- Resolve DG002 (confirmed MOA from DrugBank) to properly ground the mechanistic rationale
-- Targeted literature/trial search specifically on "hereditary glaucoma" + prostaglandin analogues, since the current evidence pack returned none despite the high model score
-- Given zero direct evidence for the top candidate, this should remain a research question (S0/S1) rather than move toward development planning
-- If pursuing the vascular-disease signal, reframe as a pharmacovigilance/safety monitoring topic rather than a repurposing indication
+- A targeted literature and trial search for tafluprost or prostaglandin analogues in hereditary, congenital and paediatric glaucoma
+- HSA package insert warnings and contraindications for safety screening
+- Detailed mechanism of action data from DrugBank
+- Route compatibility confirmation, since the product is a topical ophthalmic solution
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

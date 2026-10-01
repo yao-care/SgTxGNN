@@ -3,14 +3,14 @@ layout: default
 title: Acetylcysteine
 parent: High Evidence (L1-L2)
 nav_order: 33
-evidence_level: L1
+evidence_level: L2
 indication_count: 10
 ---
 
 # Acetylcysteine
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,104 +29,104 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Acetylcysteine: From Mucolytic/Acetaminophen Antidote to Thrombotic Disease
+# Acetylcysteine: From Mucolytic Use to Thrombotic Disease
 
 ## One-Sentence Summary
 
-Acetylcysteine (NAC) is a well-established mucolytic agent and antioxidant with proven efficacy in acetaminophen overdose, cystic fibrosis, and chronic obstructive pulmonary disease.
-The TxGNN model predicts it may be effective for **Thrombotic Disease**,
-with **9 clinical trials** and **20 publications** currently supporting this direction.
-
----
+Acetylcysteine (N-acetylcysteine, NAC) is marketed in Singapore as oral mucolytic products such as Fluimucil and Mucodex. The HSA data supplied here do not state an approved indication.
+The TxGNN model predicts it may be effective for **thrombotic disease**, mainly thrombotic microangiopathies (TTP, transplant-associated TMA).
+The pack lists **9 clinical trials** and **20 publications**, and no trial results were supplied.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Mucolytic agent; antidote for acetaminophen overdose (well-established globally; no Singapore registration on record) |
-| Predicted New Indication | Thrombotic Disease |
-| TxGNN Prediction Score | 99.96% |
-| Evidence Level | L1 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+|------|------|
+| Original Indication | Not stated in the HSA data (all approved-indication fields are blank). The products are oral mucolytic formulations. |
+| Predicted New Indication | Thrombotic disease |
+| TxGNN Prediction Score | 99.96% (model rank 1010) |
+| Evidence Level | L2 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 16 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the regulatory dataset. Based on known published information, Acetylcysteine (NAC) is a small-molecule thiol compound that functions primarily as a glutathione (GSH) precursor and direct antioxidant. Its best-characterized clinical roles include mucolysis — achieved by cleaving disulfide bonds within mucin polymers — and hepatoprotection via GSH replenishment following acetaminophen overdose.
+Detailed mechanism-of-action data are not available in the pack. Based on general NAC pharmacology, NAC is a thiol that can break disulfide bonds. Ultra-large von Willebrand factor (VWF) multimers, which drive platelet-rich clots in TTP, are held together by such bonds. NAC also replenishes glutathione and reduces oxidative injury to blood-vessel lining cells. This mechanistic link is inferred, not taken from the record.
 
-The mechanistic link to thrombotic disease is substantiated in peer-reviewed literature: NAC cleaves disulfide bonds within ultra-large von Willebrand factor (ULVWF) multimers, reducing their size and platelet-binding capacity, thereby inhibiting pathological platelet aggregation and microthrombosis. This mechanism has been validated in mouse and baboon models of thrombotic thrombocytopenic purpura (TTP) (PMID 28011677) and mechanistically characterized in human plasma (PMID 21266777). Simultaneously, NAC's antioxidant activity — via GSH replenishment — attenuates endothelial oxidative damage, a key driver of thrombotic microangiopathy.
+The link between the original and new indications is indirect. Thick mucus and platelet-rich thrombi are both stabilised by disulfide bonds, so a bond-cleaving thiol could plausibly act on both. Preclinical work supports the VWF angle:
+- NAC reduced the size and activity of VWF in human plasma and mice (PMID 21266777).
+- NAC was tested in mouse and baboon TTP models (PMID 28011677).
 
-The primary clinical application with the strongest evidence focuses on **Transplantation-Associated Thrombotic Microangiopathy (TA-TMA)**, a severe subtype of thrombotic disease occurring post-HSCT. A completed Phase 3 trial (NCT03252925, n=170) has directly evaluated NAC's safety and efficacy in TA-TMA, and a 2022 RCT (PMID 35940529) further supports prophylactic use. TA-TMA and acquired TTP share overlapping pathophysiology involving ADAMTS13 dysfunction and ULVWF accumulation, making this mechanistic extrapolation scientifically sound. **Caution is warranted, however, when extrapolating the broad label "thrombotic disease" to other subtypes** (e.g., arterial thrombosis, deep vein thrombosis), which remain unsupported by direct clinical evidence at this time.
-
----
+Clinically, the most direct signals are in transplant-associated TMA (TA-TMA) and renal insufficiency:
+- A randomized placebo-controlled prophylaxis trial in TA-TMA has been published (PMID 35940529).
+- A completed Phase 2 crossover trial in renal insufficiency targeted the thrombotic phenotype (NCT03636932).
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT03252925](https://clinicaltrials.gov/study/NCT03252925) | Phase 3 | Completed | 170 | Prospective trial evaluating safety and efficacy of NAC in transplant-associated thrombotic microangiopathy (TA-TMA); the highest-grade direct clinical evidence for this indication and primary basis for L1 classification |
-| [NCT05907486](https://clinicaltrials.gov/study/NCT05907486) | Phase 3 | Unknown | 260 | NAC for prevention of thrombotic events after allogeneic HSCT; largest enrollment in this indication — completion will substantially reinforce the L1 evidence base |
-| [NCT07279610](https://clinicaltrials.gov/study/NCT07279610) | Phase 2/3 | Active, Not Recruiting | 44 | Multicenter prospective single-arm trial assessing NAC efficacy and safety for TA-TMA; ongoing companion to NCT03252925 |
-| [NCT03636932](https://clinicaltrials.gov/study/NCT03636932) | Phase 2 | Completed | 40 | RENACTIF: Randomized double-blind placebo-controlled crossover trial (chronic kidney disease patients) evaluating NAC's effect on thrombotic phenotype through oxidative stress reduction |
-| [NCT03460808](https://clinicaltrials.gov/study/NCT03460808) | Phase 1/2 | Unknown | 200 | Atorvastatin + NAC + Danazol vs. Danazol monotherapy in steroid-resistant/relapsed immune thrombocytopenia (ITP); mechanistically related to thrombotic disease, but NAC's independent contribution cannot be isolated |
-| [NCT04368598](https://clinicaltrials.gov/study/NCT04368598) | Phase 2 | Unknown | 44 | NAC + high-dose dexamethasone in newly diagnosed primary ITP; ITP involves platelet-related pathology with indirect relevance to thrombotic disease mechanisms |
-| [NCT01808521](https://clinicaltrials.gov/study/NCT01808521) | Early Phase 1 | Completed | 3 | Pilot study of IV NAC in suspected TTP undergoing therapeutic plasma exchange; directly relevant indication, but very small sample — preliminary feasibility only |
-| [NCT06518044](https://clinicaltrials.gov/study/NCT06518044) | Phase 2 | Not Yet Recruiting | 30 | NAC to promote hematopoietic recovery after haploidentical transplantation in severe aplastic anemia; indirectly related — awaiting initiation |
-| [NCT05551624](https://clinicaltrials.gov/study/NCT05551624) | Early Phase 1 | Completed | 15 | Atorvastatin + NAC combination for platelet count elevation in steroid-resistant ITP; very small sample and combination design limit independent NAC evidence |
+Trials are ordered by relevance. None of the entries includes posted results, so efficacy is unverified.
 
----
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT03252925](https://clinicaltrials.gov/study/NCT03252925) | Phase 3 | Completed | 170 | NAC safety and efficacy in transplant-associated TMA; no results provided |
+| [NCT05907486](https://clinicaltrials.gov/study/NCT05907486) | Phase 3 | Unknown | 260 | NAC to prevent thrombotic events after allogeneic stem cell transplantation; no results |
+| [NCT07279610](https://clinicaltrials.gov/study/NCT07279610) | Phase 2/3 | Active, not recruiting | 44 | Single-arm NAC study in TA-TMA; expected completion 2026-12 |
+| [NCT03636932](https://clinicaltrials.gov/study/NCT03636932) | Phase 2 | Completed | 40 | RENACTIF: randomized, double-blind, placebo-controlled crossover; NAC to reduce the thrombotic phenotype in renal insufficiency |
+| [NCT01808521](https://clinicaltrials.gov/study/NCT01808521) | Early Phase 1 | Completed | 3 | Pilot of IV NAC in suspected TTP alongside plasma exchange; too small to judge efficacy |
+| [NCT03460808](https://clinicaltrials.gov/study/NCT03460808) | Phase 1/2 | Unknown | 200 | Atorvastatin + NAC + danazol in relapsed ITP; ITP is a bleeding disorder and NAC's effect cannot be isolated |
+| [NCT04368598](https://clinicaltrials.gov/study/NCT04368598) | Phase 2 | Unknown | 44 | High-dose dexamethasone + NAC in newly diagnosed ITP; non-thrombotic, combination regimen |
+| [NCT05551624](https://clinicaltrials.gov/study/NCT05551624) | Early Phase 1 | Completed | 15 | Atorvastatin + NAC and platelet count in ITP; platelet-count endpoint, not thrombosis |
+| [NCT06518044](https://clinicaltrials.gov/study/NCT06518044) | Phase 2 | Not yet recruiting | 30 | NAC for blood-count recovery in severe aplastic anemia after transplant; not a thrombotic indication |
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [35940529](https://pubmed.ncbi.nlm.nih.gov/35940529/) | 2022 | RCT | Transplantation and Cellular Therapy | Open-label randomized placebo-controlled trial demonstrating NAC as effective prophylactic therapy for TA-TMA in HSCT; direct clinical validation |
-| [37311880](https://pubmed.ncbi.nlm.nih.gov/37311880/) | 2023 | Retrospective Cohort | Annals of Hematology | Cohort study examining association between NAC treatment and in-hospital mortality reduction in acquired TTP; supports benefit despite ongoing controversy |
-| [21266777](https://pubmed.ncbi.nlm.nih.gov/21266777/) | 2011 | Mechanistic Study | Journal of Clinical Investigation | NAC reduces size and activity of ULVWF multimers in human plasma and mice — the foundational mechanistic study underpinning NAC's use in TTP/TA-TMA |
-| [28011677](https://pubmed.ncbi.nlm.nih.gov/28011677/) | 2017 | Animal Study | Blood | NAC validated in mouse and baboon TTP models; demonstrates VWF cleavage via free thiols and prevention of platelet/VWF string propagation |
-| [32243196](https://pubmed.ncbi.nlm.nih.gov/32243196/) | 2020 | Review (Drug Repurposing) | Expert Review of Hematology | Summarizes repurposed drugs in immune-mediated TTP including NAC, rituximab, bortezomib, and caplacizumab; contextualizes NAC's place in evolving treatment landscape |
-| [33540569](https://pubmed.ncbi.nlm.nih.gov/33540569/) | 2021 | Review | Journal of Clinical Medicine | Comprehensive review of TTP pathophysiology, diagnosis, and management including ADAMTS13 deficiency and emerging therapies |
-| [28382967](https://pubmed.ncbi.nlm.nih.gov/28382967/) | 2017 | Review | Nature Reviews Disease Primers | Authoritative disease primer on TTP covering pathophysiology, clinical features, treatment, and relapse risk |
-| [28416507](https://pubmed.ncbi.nlm.nih.gov/28416507/) | 2017 | Review | Blood | TTP overview including ADAMTS13 deficiency mechanism, plasma exchange as mainstay, and current treatment landscape |
-| [28645643](https://pubmed.ncbi.nlm.nih.gov/28645643/) | 2017 | Review/Guideline | Transfusion Clinique et Biologique | TTP management including role of rituximab, refractory disease, and NAC as an emerging agent |
-| [32614622](https://pubmed.ncbi.nlm.nih.gov/32614622/) | 2021 | Review | Platelets | Novel antiplatelet strategies targeting VWF and GPIb in thrombotic microangiopathy; provides mechanistic context for NAC's ULVWF-targeting approach |
+Study types are as classified in the pack. Abstracts were truncated, so outcomes are stated only where the title or abstract makes them clear.
 
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [35940529](https://pubmed.ncbi.nlm.nih.gov/35940529/) | 2022 | RCT | Transplant Cell Ther | Open-label, randomized, placebo-controlled trial of NAC as prophylaxis for TA-TMA; outcome not shown in the supplied abstract |
+| [37311880](https://pubmed.ncbi.nlm.nih.gov/37311880/) | 2023 | Cohort | Ann Hematol | Retrospective study of NAC and in-hospital mortality in acquired TTP; the abstract notes NAC use in aTTP is still controversial |
+| [28011677](https://pubmed.ncbi.nlm.nih.gov/28011677/) | 2017 | Preclinical | Blood | NAC tested in mouse and baboon TTP models |
+| [21266777](https://pubmed.ncbi.nlm.nih.gov/21266777/) | 2011 | Preclinical | J Clin Invest | NAC reduces the size and activity of VWF in human plasma and mice |
+| [32243196](https://pubmed.ncbi.nlm.nih.gov/32243196/) | 2020 | Review | Expert Rev Hematol | Repurposed and novel TTP therapies, including NAC, rituximab, bortezomib and caplacizumab |
+| [33540569](https://pubmed.ncbi.nlm.nih.gov/33540569/) | 2021 | Review | J Clin Med | TTP pathophysiology, diagnosis and management |
+| [28416507](https://pubmed.ncbi.nlm.nih.gov/28416507/) | 2017 | Review | Blood | TTP overview: ADAMTS13 deficiency and microvascular thrombi |
+| [28382967](https://pubmed.ncbi.nlm.nih.gov/28382967/) | 2017 | Review | Nat Rev Dis Primers | TTP primer; plasma therapy raised survival from under 10% to 80–90% |
+| [39737637](https://pubmed.ncbi.nlm.nih.gov/39737637/) | 2025 | Case report | J Pediatr Hematol Oncol | Plasma exchange plus NAC in congenital TTP with acute renal failure |
+| [28961512](https://pubmed.ncbi.nlm.nih.gov/28961512/) | 2018 | Preclinical | Redox Biol | NAC attenuated platelet activation and cerebral vessel thrombosis in diabetes |
 
 ## Singapore Market Information
 
-Acetylcysteine is currently **not registered in Singapore**. No product authorizations are on record with HSA. This means there is no locally approved labeling, approved indication text, or registered dosage form available for reference.
+Acetylcysteine has 16 registrations. Five are listed below, and none includes approved-indication text in the HSA data supplied.
 
-Clinicians wishing to use NAC in Singapore would need to rely on overseas approved labeling (e.g., US FDA, EMA) and comply with the Health Sciences Authority's frameworks for use of unregistered therapeutic products.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN03414P | Fluimucil Granules 100 mg/sachet | Granule | Not recorded |
+| SIN03415P | Fluimucil Granules 200 mg/sachet | Granule | Not recorded |
+| SIN07474P | Fluimucil A 600 Effervescent Tablet 600 mg (Revised Formula) | Tablet | Not recorded |
+| SIN15339P | Fluimucil A 600 Effervescent Tablet 600 mg (OTC Pack) | Tablet | Not recorded |
+| SIN16305P | Mucodex Powder for Solution 100 mg/sachet | Powder, for solution | Not recorded |
 
----
+Across all 16 registrations, the forms include granule, powder, tablet, effervescent tablet, capsule, and granules for solution or suspension. No injectable form appears in the pack. This matters because the TTP pilot (NCT01808521) used intravenous NAC.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
-> No Singapore-specific warning or contraindication data is available. Detailed TFDA/HSA package insert data and drug-drug interaction data were not retrievable at the time of this report. These gaps are classified as **Blocking** for formal safety pre-screening and must be resolved before clinical application.
-
----
-
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-A completed Phase 3 trial (NCT03252925, n=170) directly supports NAC's safety and efficacy in transplant-associated thrombotic microangiopathy (TA-TMA), and a 2022 RCT (PMID 35940529) corroborates prophylactic benefit in the same population. A concurrent Phase 3 trial (NCT05907486, n=260) is underway, which upon completion will further consolidate L1-grade evidence. However, the clinical scope must be carefully bounded to **TA-TMA and TTP subtypes** where the mechanistic and clinical evidence is strongest — extrapolation to broader thrombotic disease categories is not yet supported.
+- Evidence for thrombotic disease is L2. It rests on one completed Phase 2 RCT and a published randomized prophylaxis trial in TA-TMA, with no results supplied for the two Phase 3 trials.
+- The pack flags missing HSA safety information as a blocking gap, so safety screening cannot proceed.
+- For reference, the pack rates dry eye syndrome as a stronger candidate ("Proceed with Guardrails"). That evidence applies to the topical chitosan-NAC eye-drop formulation, which is not among the Singapore registrations listed.
 
 **To proceed, the following is needed:**
-- Obtain full published results from NCT03252925 (Phase 3 TA-TMA, completed) to assess effect size, subgroup outcomes, and adverse event profile
-- Await completion and reporting of NCT05907486 (Phase 3, n=260) for confirmatory evidence
-- Narrow the clinical target: define whether the intended indication is TA-TMA, acquired TTP, or another thrombotic microangiopathy subtype to match available evidence
-- Resolve the **Blocking data gap**: retrieve and review the HSA/TFDA package insert (or international equivalents) for full warnings, contraindications, and drug interaction profile — especially relevant given post-transplant polypharmacy
-- Obtain detailed mechanism of action data from DrugBank to support regulatory and clinical rationale documentation
-- Define the intended route of administration (IV vs. oral) and confirm dosing regimen for the target indication, as NAC's PK profile differs significantly by route
-- Evaluate drug interaction risk specifically in HSCT patients receiving immunosuppressants (calcineurin inhibitors, mTOR inhibitors) where oxidative stress and renal function are critical variables
+- Download and parse the HSA package insert to fill the warnings and contraindications gap.
+- Obtain results for NCT03252925 and NCT05907486, and the full outcomes of PMID 35940529.
+- Confirm the route and dose used in the thrombotic studies against the registered oral forms.
+- Retrieve DrugBank mechanism-of-action data to replace the inferred mechanistic link.
+- Confirm the original approved indication text with HSA.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

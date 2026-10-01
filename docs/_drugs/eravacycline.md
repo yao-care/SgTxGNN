@@ -29,77 +29,68 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Eravacycline: From Complicated Intra-Abdominal Infections to Bronchitis
+# Eravacycline: From Complicated Intra-abdominal Infections to Bronchitis
 
 ## One-Sentence Summary
 
-Eravacycline (Xerava) is a novel fluorocycline antibiotic approved by the FDA for complicated intra-abdominal infections (cIAI), belonging to the tetracycline class with broad-spectrum antibacterial activity. The TxGNN model predicts it may be effective for **Bronchitis**, with a prediction score of **96.85%**. Currently, **no clinical trials** and **no published literature** specifically examine eravacycline for bronchitis, placing this candidate at evidence level L5 — hypothesis generation only.
-
----
+Eravacycline is an intravenous fluorocycline antibiotic, and its approval is limited to complicated intra-abdominal infections.
+The TxGNN model predicts it may be effective for **bronchitis**,
+but **0 clinical trials** and **0 publications** currently support this direction, so it is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Complicated intra-abdominal infections (cIAI) — not registered in Singapore |
+|------|------|
+| Original Indication | Complicated intra-abdominal infections (HSA approved-indication text is blank; taken from the Evidence Pack's rationale text) |
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 96.85% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Research Question |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
+| Recommended Decision | Hold |
 
----
+## Why is This Prediction Reasonable?
 
-## Why Is This Prediction Reasonable?
+Detailed mechanism of action data is not available from DrugBank. The Evidence Pack's rationale describes eravacycline as a fluorocycline antibacterial that binds the bacterial 30S ribosomal subunit. On that basis, activity against respiratory bacterial pathogens is biologically plausible.
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known pharmacological information, Eravacycline is a first-in-class fluorocycline antibiotic that inhibits bacterial protein synthesis by binding to the bacterial 30S ribosomal subunit, blocking aminoacyl-tRNA attachment and halting translation. It demonstrates broad-spectrum activity against Gram-positive, Gram-negative, anaerobic, and atypical bacteria — including multidrug-resistant strains such as MRSA and carbapenem-resistant Enterobacteriaceae.
+The link to bronchitis is weak, for three reasons:
+- Acute bronchitis is mostly viral, so an antibiotic would help only in a small bacterial subset.
+- Eravacycline is available only as an intravenous injection, which is a poor fit for a mostly outpatient condition.
+- Its approval is limited to complicated intra-abdominal infections, and there are no trials or literature in respiratory infection.
 
-The mechanistic rationale for bronchitis is biologically plausible in a specific subset of patients. Bacterial bronchitis — particularly cases caused by atypical pathogens such as *Mycoplasma pneumoniae*, *Chlamydia pneumoniae*, *Legionella* spp., and *Haemophilus influenzae* — falls squarely within eravacycline's demonstrated antibacterial spectrum. The tetracycline class (e.g., doxycycline) is already a guideline-recommended option for atypical respiratory tract infections, and eravacycline shares the same core inhibitory mechanism at the 30S ribosomal level.
-
-However, a critical caveat must be acknowledged: acute bronchitis is viral in origin in more than 90% of cases, where antibiotics confer no meaningful clinical benefit. The repurposing opportunity, if one exists, is limited to the culture-confirmed or biomarker-selected bacterial/atypical pathogen subgroup. Any development programme would need to define this subpopulation rigorously before proceeding.
-
----
+The high TxGNN score (0.969) is a knowledge-graph prediction, not clinical evidence.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Eravacycline + Bronchitis.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for Eravacycline + Bronchitis.
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Eravacycline is not currently registered or marketed in Singapore. No Health Sciences Authority (HSA) product authorizations are on record.
-
----
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN15930P | XERAVA Powder for Concentrate for Solution for Infusion 50 mg per vial | Injection, powder, lyophilized, for solution | Patheon Manufacturing Services LLC |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
----
-
 ## Conclusion and Next Steps
 
-**Decision: Research Question**
+**Decision: Hold**
 
 **Rationale:**
-The TxGNN model assigns a high prediction score (96.85%) for eravacycline in bronchitis, and the mechanistic connection to atypical/bacterial bronchitis subpopulations is biologically coherent. However, the complete absence of clinical trial or published literature evidence for this specific use case — combined with the predominantly viral (non-antibiotic-amenable) etiology of bronchitis — means this remains a hypothesis that requires basic evidence generation before any investment or development decision.
+The prediction is supported only by the model score (L5), with no trials or publications. Bronchitis is mainly viral, and eravacycline is IV-only, so the clinical fit is poor.
 
 **To proceed, the following is needed:**
-
-- **Mechanism clarification**: Retrieve full MOA data from DrugBank (DB12329), particularly eravacycline's activity profile against respiratory atypical pathogens (*Mycoplasma*, *Chlamydia*, *Legionella*)
-- **Indirect evidence review**: Conduct a systematic literature search for eravacycline in community-acquired pneumonia (CAP) or atypical respiratory infections, which would provide adjacent mechanistic support
-- **Pharmacokinetic assessment**: Evaluate respiratory tract penetration (sputum, bronchial mucosa concentrations) from existing cIAI pharmacokinetic data
-- **Subpopulation definition**: Propose a target patient population (e.g., culture-confirmed atypical bacterial bronchitis) with appropriate biomarker or microbiological entry criteria
-- **Preclinical signal**: Consider an in vitro/in vivo respiratory infection model study as a prerequisite before any clinical hypothesis testing
-- **Singapore regulatory landscape**: Confirm whether any HSA-approved tetracyclines are indicated for respiratory infections, to establish the competitive and regulatory baseline
+- The HSA package insert, covering approved indication, warnings and contraindications
+- Detailed mechanism of action data from DrugBank
+- Evidence that bacterial bronchitis has an unmet need that an IV agent could address, such as data on resistant respiratory pathogens
+- Any in vitro or clinical data on eravacycline in respiratory infection
+- A route-compatibility assessment, since only an injectable form exists
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

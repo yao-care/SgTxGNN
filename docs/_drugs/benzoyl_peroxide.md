@@ -33,80 +33,62 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Benzoyl peroxide (BPO) is a well-established topical antimicrobial and keratolytic agent widely used for acne vulgaris, exerting its effects through oxidative bactericidal activity against *Cutibacterium acnes* and mild follicular desquamation.
-The TxGNN model predicts it may be effective for **Vulvar Inverted Follicular Keratosis**, a rare benign epithelial neoplasm of the follicular infundibulum.
-There are currently **0 clinical trials** and **0 publications** supporting this direction, placing evidence at the minimum possible level (L5) — this candidate is not ready for further development.
-
----
+Benzoyl peroxide is a topical antimicrobial and keratolytic agent, marketed in Singapore in a gel combined with adapalene for acne.
+The TxGNN model predicts it may be effective for **vulvar inverted follicular keratosis**, but there are **0 clinical trials** and **0 publications** supporting this direction.
+This is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Acne Vulgaris (topical antimicrobial / keratolytic) |
-| Predicted New Indication | Vulvar Inverted Follicular Keratosis |
+|------|------|
+| Original Indication | Acne vulgaris (the Singapore registration records list no indication text) |
+| Predicted New Indication | Vulvar inverted follicular keratosis |
 | TxGNN Prediction Score | 99.92% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the evidence pack. Based on well-established pharmacological knowledge, benzoyl peroxide is a topical oxidizing agent that generates reactive oxygen species (ROS), exerting bactericidal activity against *Cutibacterium acnes* and mild keratolytic activity that promotes follicular epithelial desquamation. It is not absorbed systemically to any clinically meaningful extent.
+Currently, detailed mechanism of action data is not available in the evidence pack. Benzoyl peroxide is a topical antimicrobial, keratolytic and comedolytic agent. Its efficacy in acne is well established, but that benefit comes from its antibacterial and comedone-clearing actions in the follicle.
 
-Vulvar inverted follicular keratosis is a rare benign lesion characterized by squamous proliferation originating from the follicular infundibulum. The TxGNN model's high score likely derives from the knowledge graph's "follicular keratinization abnormality" node, which BPO is connected to via its keratolytic properties. At a superficial level, a drug that modulates follicular keratinization could theoretically influence follicular keratotic lesions — hence the model's prediction.
-
-However, the anatomical gap is critical. BPO is designed for sebaceous gland–rich skin (face, chest, back), and its tolerance on vulvar mucosa has never been established. The vulvar epithelium has significantly different permeability, pH, and irritant sensitivity. There is no mechanistic evidence that BPO's keratolytic activity would be effective or safe for a benign follicular neoplasm at this anatomical site. This prediction most likely reflects KG over-generalization rather than a genuine therapeutic opportunity.
-
----
+Vulvar inverted follicular keratosis is a benign follicular neoplasm. No mechanistic link to benzoyl peroxide has been established. The high score of 0.999 reflects proximity in the knowledge graph, not any demonstrated pharmacological rationale. Without trials or literature, the prediction cannot be considered supported.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Benzoyl peroxide is **not currently registered or marketed in Singapore**. No HSA authorization records are available.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN15460P | EPIDUO FORTE GEL 0.3%/2.5% | Gel | Not listed in record |
+| SIN13789P | EPIDUO GEL 0.1%/2.5% | Gel | Not listed in record |
 
----
+Both products are topical gels. They are made by Laboratoires Galderma (SIN15460P jointly with G Production Inc).
 
 ## Safety Considerations
 
-- **Photosensitizing effect**: BPO enhances UV-induced skin damage. This is clinically relevant because two of the top 10 TxGNN predictions (phototoxic dermatitis, hydroa vacciniforme) involve photosensitive conditions — BPO would be **contraindicated**, not therapeutic, in those contexts.
-- **Contact sensitization**: BPO is a recognised contact allergen. Allergic contact dermatitis is a documented adverse effect with prolonged use, confirmed by published review data (PMID 25982754).
-- **Mucosal irritation**: Application to mucosal surfaces (directly relevant to the vulvar indication) poses significant irritation and tissue damage risk not present with standard dermal application. No mucosal safety data exist.
-
-Please refer to the package insert for complete safety information.
-
----
+Please refer to the package insert for safety information. No drug interaction records were found.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top TxGNN prediction (vulvar inverted follicular keratosis) has zero supporting clinical or preclinical evidence, a significant anatomical safety concern regarding mucosal application, and no mechanistic pathway beyond KG generalization. The overall candidate profile across all 10 predictions is weak — 9 of 10 indications are Hold/L5, and several represent mechanistic contradictions (BPO as a cause of phototoxic dermatitis and contact sensitization, not a treatment).
+The prediction has no supporting trials or literature and no plausible mechanism, so it stays at evidence level L5. Repurposing work should not start on this indication.
 
-The single indication worth retaining for further discussion is **Rank 4: Acne Keloid (L4, Research Question)** — BPO's upstream anti-inflammatory activity against *C. acnes* provides indirect rationale for reducing the inflammatory trigger of acne keloidalis nuchae. This would be framed as **preventive** intervention on upstream follicular inflammation, not treatment of established keloid. Even here, the clinical trial found (NCT07015931) studies retinoids against acne vulgaris, not BPO against keloid, offering only indirect contextual support.
+**To proceed, the following is needed:**
+- HSA package insert warnings and contraindications, which are required for any safety screening
+- Detailed mechanism of action data from DrugBank
+- Any clinical or histopathology evidence linking benzoyl peroxide to inverted follicular keratosis
 
-**To proceed with the acne keloid research question, the following is needed:**
-- Formal mechanism of action data from DrugBank (DG002 remediation)
-- Safety profile confirmation for prolonged topical use in keloid-prone skin types (Fitzpatrick III–V)
-- A prospectively designed pilot study framed as "BPO for prevention of acne keloidalis nuchae recurrence" in at-risk populations
-- MOA gap (DG002) and safety gap (DG001) must both be resolved before S1 safety screening can proceed
-
-> ⚠️ **Research note only.** This report is intended for exploratory research purposes. All predictions require clinical validation before any therapeutic application. This document does not constitute medical advice.
+**Other predictions worth noting:** Among the other nine predictions, **acne keloid** (rank 4, score 99.06%) is the only one with a plausible, though indirect, mechanistic link. This is because benzoyl peroxide's antibacterial and comedolytic actions overlap with follicular inflammation. It has no direct study and is best treated as a research question rather than a candidate for development.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

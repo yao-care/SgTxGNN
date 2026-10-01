@@ -29,82 +29,67 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Asfotase Alfa: From Hypophosphatasia to Mitochondrial Oxidative Phosphorylation Disorder (Nuclear DNA)
+# Asfotase alfa: From Hypophosphatasia to Mitochondrial Oxidative Phosphorylation Disorder due to Nuclear DNA Anomalies
 
 ## One-Sentence Summary
 
-Asfotase alfa (Strensiq) is a recombinant human tissue-nonspecific alkaline phosphatase (TNSALP) enzyme replacement therapy originally developed to treat Hypophosphatasia (HPP), a rare inherited metabolic bone disease caused by ALPL gene mutations.
-The TxGNN model predicts it may be effective for **mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies**, representing a mechanistically distant leap from its original indication.
-Currently, **0 clinical trials** and **0 publications** support this repurposing direction, making this a purely model-driven prediction with no external validation.
-
----
+Asfotase alfa is a tissue-nonspecific alkaline phosphatase (TNSALP) enzyme replacement therapy, marketed in Singapore as STRENSIQ and used for hypophosphatasia.
+The TxGNN model predicts it may be effective for **mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies**.
+Currently **0 clinical trials** and **0 publications** support this direction, so the prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Hypophosphatasia (HPP) — inherited TNSALP deficiency causing defective bone mineralisation |
+|------|------|
+| Original Indication | Hypophosphatasia (per the TNSALP enzyme replacement rationale; the Singapore licence records contain no indication text) |
 | Predicted New Indication | Mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies |
 | TxGNN Prediction Score | 99.95% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | **Hold** |
-
----
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on established pharmacological knowledge, asfotase alfa is a recombinant fusion protein that replaces deficient tissue-nonspecific alkaline phosphatase (TNSALP). In Hypophosphatasia, loss-of-function ALPL mutations cause systemic TNSALP deficiency, leading to accumulation of inorganic pyrophosphate (PPi) and phosphoethanolamine, which impair bone and dental mineralisation, and in severe forms cause seizures mediated by reduced pyridoxal-5′-phosphate availability in the CNS.
+Currently, detailed mechanism of action data is not available. Based on known information, asfotase alfa is a TNSALP enzyme replacement product. Its efficacy in hypophosphatasia, a disorder of defective bone mineralization, is established. No mechanistic route to mitochondrial disease has been identified.
 
-The repurposing hypothesis connecting asfotase alfa to mitochondrial oxidative phosphorylation (OXPHOS) disorders caused by nuclear DNA mutations rests on a highly indirect biological inference. TNSALP participates in ATP hydrolysis and PPi clearance in the extracellular space; in theory, excessive PPi accumulation could perturb mitochondrial membrane potential. However, nuclear DNA-encoded OXPHOS disorders primarily involve structural or assembly defects in respiratory chain complexes (I–V), which are entirely distinct from the alkaline phosphatase pathway.
+Hypophosphatasia is caused by TNSALP deficiency, which affects pyrophosphate and phosphate handling in mineralization. Mitochondrial oxidative phosphorylation disorders caused by nuclear DNA anomalies involve defects in cellular energy production. No known link connects TNSALP activity to that pathway, and no supporting trial or publication exists. The high score is therefore best treated as an unverified model signal, possibly a knowledge-graph association artifact.
 
-The TxGNN knowledge graph likely identifies these two conditions as topologically proximate due to shared nodes such as "rare metabolic disorder," "mitochondrial involvement," or "energy metabolism," rather than a direct mechanistic overlap. The Evidence Pack's own biological plausibility assessment rates this connection as **extremely low**, noting that TNSALP supplementation cannot address complex assembly defects caused by nuclear DNA mutations. This prediction should be treated as a graph-topology artefact rather than a clinically actionable hypothesis.
-
----
+The other nine top-ranked predictions (for example Steel syndrome, Scheie syndrome, Hurler syndrome and cystinosis) are also L5, with no trials or literature and only weak or speculative mechanistic overlap. Nothing in this Evidence Pack singles out the top prediction as more credible than the others.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Asfotase alfa is currently **not registered** in Singapore. No marketing authorisation records are on file.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN17126P | STRENSIQ SOLUTION FOR INJECTION 100 MG/ML | Injection, solution | Not listed in source data |
+| SIN17127P | STRENSIQ SOLUTION FOR INJECTION 40 MG/ML | Injection, solution | Not listed in source data |
 
-> **Note:** Strensiq (asfotase alfa) has received regulatory approval in the United States (FDA, 2015), European Union (EMA, 2015), and Japan (PMDA, 2015) for the treatment of Hypophosphatasia. A Singapore registration application status could not be confirmed from the current data set.
-
----
+Both products are made by Alexion Pharma International Operations Limited (with Patheon Italia S.p.A) and are injectable only.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-> Safety data including TFDA/HSA package insert warnings, contraindications, and drug–drug interaction records were not available in this Evidence Pack (Data Gaps DG001 and DG002). Before any further development work proceeds, the prescribing information for Strensiq (asfotase alfa) should be reviewed directly from the approved product labelling (FDA, EMA, or PMDA sources).
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model assigns a high numerical score (99.95%) to this prediction, but the underlying biological plausibility is extremely low — TNSALP enzyme replacement has no established mechanistic pathway to rescue mitochondrial respiratory chain complex assembly defects caused by nuclear DNA mutations. There is zero supporting clinical trial or literature evidence, placing this firmly at Evidence Level L5. This combination of low biological plausibility and absent empirical evidence does not justify resource investment in this repurposing direction at this time.
+The prediction has a very high model score but no clinical trials, no literature and no plausible mechanism, so it stays at evidence level L5 and decision stage S0. The package insert warnings and contraindications have also not been obtained, so safety screening cannot proceed.
 
-**To proceed, the following would be needed:**
-
-- **Basic science validation**: Demonstrate in cellular or animal models of nuclear DNA-encoded OXPHOS disorders that asfotase alfa (or TNSALP activity) modulates mitochondrial function or corrects an energy deficit.
-- **Mechanistic clarification**: Identify a specific molecular link between extracellular PPi accumulation and mitochondrial complex assembly that is addressable by TNSALP supplementation.
-- **Safety data remediation**: Resolve Data Gap DG001 by obtaining the full package insert warnings and contraindications from an approved regulatory authority source.
-- **MOA documentation**: Resolve Data Gap DG002 by retrieving the complete mechanism of action entry from DrugBank (DB09105).
-- **Alternative indication review**: Given that asfotase alfa's strongest biological rationale remains in TNSALP-deficient bone conditions, consider prioritising evaluation of other TxGNN-predicted indications with skeletal or phosphate metabolism involvement (e.g., lysosomal storage disease with skeletal involvement, rank 6), where at least indirect mechanistic logic exists.
+**To proceed, the following is needed:**
+- Download and parse the HSA package insert to obtain warnings and contraindications (blocking gap)
+- Obtain mechanism of action data from DrugBank to allow mechanistic-link analysis
+- Provide a biological rationale linking TNSALP replacement to nuclear-DNA-related mitochondrial oxidative phosphorylation defects
+- Search for preclinical or clinical evidence; if none exists, deprioritise this prediction
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

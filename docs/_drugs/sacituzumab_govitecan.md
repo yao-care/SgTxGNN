@@ -29,12 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sacituzumab Govitecan: From Breast Cancer to Drug-Induced Osteoporosis
+# Sacituzumab govitecan: From Oncology (Trop-2-Directed Cancer Therapy) to Drug-Induced Osteoporosis
 
 ## One-Sentence Summary
 
-> Sacituzumab govitecan is a Trop-2-targeted antibody-drug conjugate (ADC) carrying the cytotoxic payload SN-38, known clinically for treating triple-negative and HR+/HER2- breast cancer.
-> The TxGNN model's top prediction is **Drug-Induced Osteoporosis**, but this is supported by **0 clinical trials** and **0 publications** — the model's own rationale flags this as likely prediction noise rather than a genuine mechanistic signal.
+Sacituzumab govitecan is a Trop-2-directed antibody-drug conjugate with a topoisomerase I inhibitor payload (SN-38), used in oncology.
+The TxGNN model predicts it may be effective for **drug-induced osteoporosis**, but there are currently **0 clinical trials** and **0 publications** supporting this direction.
+This is a model-only prediction with no mechanistic rationale, so it should be treated as a low-confidence signal.
 
 ---
 
@@ -42,23 +43,23 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in Singapore registration data (drug not marketed here). Known globally for triple-negative breast cancer and HR+/HER2- breast cancer (per model's mechanistic rationale) |
-| Predicted New Indication | Drug-Induced Osteoporosis |
+| Original Indication | Not stated in the Singapore registration record (the drug is a cancer therapy used in oncology) |
+| Predicted New Indication | Drug-induced osteoporosis |
 | TxGNN Prediction Score | 99.78% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in structured form (flagged as a High-severity data gap). Based on the model's own annotations, sacituzumab govitecan is a Trop-2-targeted ADC whose cytotoxic warhead, SN-38 (a topoisomerase I inhibitor), is the active metabolite of irinotecan. It is used for cytotoxic killing of breast cancer cells, not for modulating bone metabolism.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Sacituzumab govitecan is known to be a Trop-2-directed antibody-drug conjugate. It delivers SN-38, the active metabolite of irinotecan and a topoisomerase I inhibitor, to Trop-2-expressing tumour cells.
 
-There is no established or plausible mechanistic link between Trop-2/SN-38 pharmacology and osteoclast/osteoblast regulation. The model's own rationale explicitly states this high score likely reflects an indirect graph artifact — a shared "breast cancer → bone metastasis → osteoporosis" co-morbidity path in the knowledge graph — rather than a true pharmacological signal.
+On the available information, **the prediction is not mechanistically supported**. Drug-induced osteoporosis is a chronic bone-metabolism condition. A cytotoxic, myelosuppressive agent is a poor fit for it, and cytotoxic therapy is itself associated with bone loss in some settings. The score of 0.998 appears to come from knowledge-graph proximity alone, with no trials or literature behind it.
 
-This pattern repeats across the other 9 top-ranked predictions for this drug (diabetic retinopathy, several forms of cataract), none of which have any mechanistic, preclinical, or clinical support. Given that sacituzumab govitecan carries significant systemic cytotoxicity (myelosuppression, diarrhea) via its SN-38 payload, repurposing toward chronic, non-life-threatening degenerative conditions (cataract, retinopathy) is also clinically implausible from a risk-benefit standpoint.
+The other nine predictions in the pack show the same pattern. They are diabetic retinopathy (severe nonproliferative and general) and several cataract subtypes. All are L5 with no evidence and no plausible link. The identical scores across the cataract subtypes (0.9855 and 0.9840) suggest score propagation within the graph rather than disease-specific signal.
 
 ---
 
@@ -76,7 +77,9 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-This drug is not currently registered/marketed in Singapore (0 licenses on file).
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN16425P | TRODELVY POWDER FOR SOLUTION FOR INFUSION 180 MG/VIAL (BSP Pharmaceuticals S.p.A.) | Lyophilized powder for solution for injection (injectable) | Not listed in the registration record |
 
 ---
 
@@ -84,17 +87,17 @@ This drug is not currently registered/marketed in Singapore (0 licenses on file)
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy — Antibody-drug conjugate (ADC) delivering the cytotoxic payload SN-38 (topoisomerase I inhibitor) |
-| Myelosuppression Risk | High (SN-38 is the active metabolite of irinotecan; class effect includes significant neutropenia) |
-| Emetogenicity Classification | Moderate (SN-38-associated nausea and diarrhea are well-documented class effects) |
-| Monitoring Items | CBC with differential, hepatic and renal function, GI symptoms (severe diarrhea) |
-| Handling Protection | Standard cytotoxic drug handling precautions apply despite antibody-targeted delivery |
+| Cytotoxicity Classification | Targeted therapy: antibody-drug conjugate with a topoisomerase I inhibitor payload (SN-38) |
+| Myelosuppression Risk | High (neutropenia is a key concern for this class; confirm against the package insert) |
+| Emetogenicity Classification | Medium (based on general drug-class knowledge; confirm against the package insert) |
+| Monitoring Items | CBC with differential (neutrophils in particular), diarrhoea and hydration status, liver and renal function |
+| Handling Protection | Follow cytotoxic drug handling regulations |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Note: TFDA/HSA label warnings and contraindications are currently unavailable (Blocking data gap DG001) — this must be resolved before any safety pre-screening (S1) can proceed.
+Please refer to the package insert for safety information.
 
 ---
 
@@ -103,13 +106,15 @@ Please refer to the package insert for safety information. Note: TFDA/HSA label 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (drug-induced osteoporosis) and all 9 other top candidates for this drug are L5 (model-prediction-only) with zero supporting clinical trials or literature, and the model's own mechanistic rationale identifies most as likely graph artifacts rather than genuine signals. Combined with a Blocking safety data gap (no TFDA/HSA label data available), this candidate cannot advance past initial screening.
+The prediction rests on a knowledge-graph score alone (L5), with no trials, no literature and no plausible mechanism. The risk profile of a cytotoxic, myelosuppressive ADC is also unfavourable for a chronic non-malignant bone condition.
 
 **To proceed, the following is needed:**
-- TFDA/HSA package insert (warnings, contraindications) — resolves Blocking gap DG001
-- Confirmed mechanism of action data from DrugBank — resolves High-severity gap DG002
-- Independent mechanistic or preclinical evidence linking Trop-2/SN-38 pharmacology to bone metabolism, specifically for the top-ranked indication
-- Re-evaluation of whether this candidate's high TxGNN scores across unrelated disease clusters (bone, retina, lens) indicate a graph-embedding artifact requiring model-side review, rather than pursuing further evidence collection
+- The HSA package insert (warnings and contraindications), which is currently a blocking gap for safety screening
+- Mechanism of action data (for example from DrugBank) to support a mechanistic-link analysis
+- Any preclinical or clinical evidence linking Trop-2 targeting or topoisomerase I inhibition to bone metabolism
+- A benefit-risk justification for systemic cytotoxic exposure in a non-malignant indication
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -29,80 +29,69 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Triclosan: From Antiseptic/Antimicrobial Use to Acne (Predicted)
+# Triclosan: From Antibacterial Agent to Acne
 
 ## One-Sentence Summary
 
-> Triclosan is a broad-spectrum antimicrobial agent traditionally used as an antiseptic ingredient in personal care products such as soaps and toothpaste, rather than as a formally indicated prescription drug.
-> The TxGNN model predicts it may be effective for **Acne (disease)**,
-> with **1 clinical trial** and **1 piece of literature** currently available in the evidence pack, though neither directly evaluates triclosan itself for acne.
-
----
+Triclosan is a broad-spectrum antibacterial agent. In Singapore it is registered in one topical lotion product (QV Flare Up Bath Oil), and no approved indication text is recorded for that product.
+The TxGNN model predicts it may be useful for **acne**, but the supplied evidence contains **no triclosan-specific clinical trials and no triclosan-specific publications** for this indication.
+This is a mechanism-plausible hypothesis only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not formally registered in Singapore; historically used as an antimicrobial/antiseptic excipient in personal care products (soap, toothpaste, hand sanitizers) — no disease-specific indication on file |
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 97.38% |
-| Evidence Level | L4 (mechanistic/indirect — available trial and literature do not directly test triclosan for acne) |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only; the pack labels it L4, but no preclinical or mechanism studies were supplied) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on general pharmacological knowledge, Triclosan is a broad-spectrum antimicrobial agent active against gram-positive bacteria, including *Cutibacterium acnes* (formerly *Propionibacterium acnes*), the bacterium implicated in acne pathogenesis. This antibacterial property provides a plausible mechanistic rationale for why a model might associate triclosan with acne.
+Detailed mechanism-of-action data is not available in DrugBank for this record. Based on general pharmacology, triclosan inhibits bacterial enoyl-ACP reductase (FabI), an enzyme in bacterial fatty-acid synthesis. This gives it broad antibacterial activity.
 
-Triclosan's established use has been as a topical antiseptic in cosmetic and personal-care formulations rather than as a treated indication for a specific disease. Acne vulgaris is a follicular inflammatory condition with a well-recognized bacterial component, so an antimicrobial agent capable of reducing *C. acnes* colonization is mechanistically compatible with the disease process.
-
-That said, the clinical trial and literature currently linked to this prediction do not directly test triclosan for acne — the trial evaluates tretinoin/benzoyl peroxide regimens, and the literature is a systematic review on hidradenitis suppurativa/acne inversa management. The mechanistic argument therefore remains hypothesis-generating and would require triclosan-specific dermatological studies before it can be considered supported evidence.
-
----
+Acne involves *Cutibacterium acnes* colonisation of the pilosebaceous unit. An agent that suppresses skin bacteria could plausibly reduce this component, which is why the model's prediction is biologically reasonable. However, the evidence supplied does not contain triclosan-specific acne data, so the link remains theoretical. Acne also has non-bacterial drivers, such as sebum production, follicular keratinisation and inflammation, which an antibacterial alone would not address.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00907257](https://clinicaltrials.gov/study/NCT00907257) | Phase 4 | Completed | 247 | Compared morning/evening dosing schedules of tretinoin gel microsphere plus benzoyl peroxide wash for facial acne vulgaris; does not evaluate triclosan directly |
-
----
+| [NCT00907257](https://clinicaltrials.gov/study/NCT00907257) | Phase 4 | Completed | 247 | Compared two tretinoin gel (RETIN-A MICRO 0.04%) plus 5% benzoyl peroxide wash regimens for facial acne vulgaris. Triclosan is not involved, so this is not evidence for the drug. |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [30176066](https://pubmed.ncbi.nlm.nih.gov/30176066/) | 2019 | Systematic Review | J Eur Acad Dermatol Venereol | International consensus/treatment-optimization framework for hidradenitis suppurativa/acne inversa; provides disease-management context but does not evaluate triclosan |
-
----
+| [30176066](https://pubmed.ncbi.nlm.nih.gov/30176066/) | 2019 | Systematic review | J Eur Acad Dermatol Venereol | HS ALLIANCE treatment recommendations for hidradenitis suppurativa/acne inversa. This is a different condition from acne vulgaris and is not specific to triclosan. |
 
 ## Singapore Market Information
 
-Triclosan currently has no drug registration records in Singapore (market status: not marketed, 0 registrations). It is not available as a licensed pharmaceutical product in this market.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN11468P | QV FLARE UP BATH OIL (EGO Pharmaceuticals) | Lotion | Not stated in the record |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No warnings, contraindications, or drug interaction data are currently available for triclosan in this evidence pack.
+- **Drug Interactions**: No interaction records were found.
+- **Endocrine and thyroid signal**: The supplied literature (10 of the 15 listed publications were provided) discusses triclosan as a potential endocrine disruptor. Evidence includes reduced thyroxine in rats (PMID 29462796) and reviews of reproductive, cardiovascular and thyroid effects (PMID 36232730). A critical review concludes human studies show no evidence that personal-care-product exposure affects the thyroid system (PMID 24897554). Human data are mixed, include a randomised intervention in pregnancy (PMID 28939492), and need careful interpretation.
 
----
+Please refer to the package insert for full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The predicted acne indication is mechanistically plausible given triclosan's antibacterial activity, but the available clinical trial and literature evidence does not directly assess triclosan for acne, and a **blocking data gap** exists for TFDA/regulatory safety labeling (warnings and contraindications), which prevents even an initial S1 safety evaluation. Combined with the drug having no market presence in Singapore, the candidate is not ready to advance.
+The 97.38% model score is not backed by any triclosan-specific trial or publication. The only trial found tested a different drug. Long-term endocrine-safety concerns for triclosan are also unresolved. The other nine predicted indications are either unsupported or, for thyroid gland disease, reflect a safety signal rather than a therapeutic one.
 
 **To proceed, the following is needed:**
-- Package insert / regulatory labeling data (warnings, contraindications) to clear the S1 safety-evaluation blocker (DG001)
-- Confirmed mechanism of action data from DrugBank or primary literature (DG002)
-- Triclosan-specific clinical or preclinical studies evaluating efficacy in acne (current evidence is indirect)
-- Assessment of dermatological/topical formulation feasibility and route compatibility for an acne indication
+- The HSA package insert, to confirm warnings, contraindications and the approved indication
+- Mechanism-of-action data from DrugBank
+- Triclosan-specific in vitro or clinical data against *C. acnes* or in acne
+- A review of the thyroid and endocrine safety literature in the context of repeated topical use
+- A route and formulation compatibility assessment for acne
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -29,92 +29,80 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Elacestrant: From ER+ Breast Cancer to Amenorrhea
+# Elacestrant: From ER+/HER2- Breast Cancer to Amenorrhea
 
 ## One-Sentence Summary
 
-Elacestrant is a selective estrogen receptor degrader (SERD) developed for the treatment of ER+/HER2- advanced or metastatic breast cancer — a role confirmed by the clinical trial evidence found during this search. The TxGNN model's top prediction is **Amenorrhea**, with a score of **92.50%**, yet **0 clinical trials** and **0 supporting publications** exist for this indication; all 10 top predictions carry the lowest possible evidence level (L5). Critically, the primary mechanistic rationale for the lead prediction runs counter to clinical benefit, making this a portfolio where the model's ranking likely reflects indirect graph connectivity rather than true therapeutic opportunity.
-
----
+Elacestrant is an oral selective estrogen receptor degrader (SERD) developed for ER+/HER2- breast cancer.
+The TxGNN model predicts it may be effective for **amenorrhea**,
+but **no clinical trials and no publications** currently support this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | ER+/HER2- advanced breast cancer (ESR1-mutated) — inferred from clinical trial context; not registered in Singapore |
+|------|------|
+| Original Indication | ER+/HER2- breast cancer (inferred from the drug's clinical development and trial records; the Singapore registry entries carry no indication text) |
 | Predicted New Indication | Amenorrhea |
 | TxGNN Prediction Score | 92.50% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Elacestrant is a selective estrogen receptor degrader (SERD) — a class of drugs that binds to the estrogen receptor (ER) and promotes its proteasomal degradation, thereby abolishing downstream estrogen signalling. Compared with older endocrine agents such as fulvestrant, elacestrant retains potency against tumours harbouring ESR1 ligand-binding domain mutations, which are a major mechanism of acquired resistance to aromatase inhibitors in advanced breast cancer. The drug's mechanism is fundamentally anti-estrogenic.
+Detailed mechanism-of-action data is not currently available in the source record. Based on its known drug class, elacestrant is an oral SERD. It binds the estrogen receptor and promotes its degradation, which is how it acts against ER-driven breast cancer.
 
-Amenorrhea is the absence of menstruation and may arise from a wide range of causes, including hypothalamic suppression, pituitary dysfunction, premature ovarian insufficiency, or intrauterine pathology. In the most common forms — particularly those driven by oestrogen deficiency or HPG-axis disruption — the therapeutic goal is to *restore* oestrogen signalling or normalise its feedback dynamics, not suppress them further. Deploying a SERD in this context would be expected to worsen, not improve, the condition.
-
-The TxGNN model's high-ranking prediction for amenorrhea most plausibly reflects indirect connections within the knowledge graph — shared HPG-axis nodes link estrogen pharmacology to menstrual cycle regulation — rather than a direct, clinically exploitable mechanism. There is no biological or clinical rationale to support elacestrant development for amenorrhea, and the assessment is accordingly **Hold**.
-
----
+The proposed link to amenorrhea is speculative. Blocking estrogen receptors in the hypothalamus could, in theory, release negative feedback and raise gonadotropins. Clomiphene works this way in anovulatory amenorrhea. However, elacestrant has only been studied in postmenopausal breast cancer, and its effect in premenopausal women is unknown. The TxGNN score of 92.50% is a model prediction, not evidence of benefit.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Elacestrant + Amenorrhea.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for Elacestrant + Amenorrhea.
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Elacestrant is not currently registered in Singapore. No marketing authorisations are on record.
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN17096P | ORSERDU Film-Coated Tablet 345 mg | Tablet, film coated (oral) | Catalent Greenville, Inc. |
+| SIN17097P | ORSERDU Film-Coated Tablet 86 mg | Tablet, film coated (oral) | Catalent Greenville, Inc. |
 
----
+The registry records provided do not include approved indication text.
 
 ## Cytotoxicity
 
-Elacestrant is an antineoplastic agent (targeted endocrine therapy used in breast cancer), and this section applies.
-
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy — Selective Estrogen Receptor Degrader (SERD); not a conventional cytotoxic agent |
+|------|------|
+| Cytotoxicity Classification | Targeted hormonal therapy (SERD); not a conventional cytotoxic agent |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
 | Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Standard oral oncology handling precautions apply; specific cytotoxic containment requirements should be confirmed per institutional policy |
-
----
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
----
+No drug-drug interaction records were found for elacestrant. Its safety in premenopausal women, the population relevant to amenorrhea, has not been established.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Every one of the 10 top-ranked TxGNN predictions carries an L5 evidence level with no supporting clinical trials or publications for the specific indication. More importantly, the lead prediction (amenorrhea) has a mechanistic direction that is actively contrary to therapeutic benefit — a SERD that blocks oestrogen signalling cannot be expected to treat a condition rooted in oestrogen deficiency.
+The prediction has no clinical, literature, or mechanistic support beyond a speculative hormonal-feedback hypothesis, and the only human data are in postmenopausal breast cancer. Using a systemic oncology drug for a non-cancer gynaecological condition would need much stronger evidence. The other nine predicted indications in the pack are also L5 and on Hold. Several have implausible mechanisms, and the trials retrieved for multiple endocrine neoplasia are all breast cancer studies unrelated to that disease.
 
-**Notable observation before closing:**
-Among the 10 predictions, one stands out as a genuine **Research Question**: **hypogonadotropic hypogonadism with or without anosmia** (rank 9, score 81.67%). The mechanistic rationale is biologically coherent — blocking oestrogen's negative feedback on the HPG axis could theoretically stimulate GnRH pulsatility, analogous to the well-established mechanism of clomiphene citrate. However, no clinical or preclinical evidence currently exists to support this, and SERDs' complete receptor degradation (versus SERM partial agonism) introduces unpredictable differences in effect. This hypothesis is scientifically worth flagging for basic research, not for clinical development at this stage.
+**To proceed, the following is needed:**
+- The HSA package insert, to obtain warnings, contraindications, and the approved indication text
+- Confirmed mechanism-of-action data from DrugBank
+- Preclinical or clinical evidence of elacestrant's effect on the hypothalamic-pituitary-gonadal axis in premenopausal women
+- A safety assessment for premenopausal or reproductive-age use, including reproductive toxicity
+- A comparison against established amenorrhea treatments to justify the risk-benefit balance
 
-**To proceed to any next stage, the following is needed:**
-
-- Retrieve elacestrant's full mechanistic and safety data from DrugBank (MOA currently a data gap)
-- Obtain package insert (e.g., FDA Orserdu label) for complete warnings, contraindications, and DDI profile
-- For the hypogonadotropic hypogonadism hypothesis specifically: commission a literature review on SERD effects on GnRH pulsatility in preclinical models before any clinical hypothesis can be formed
-- Singapore registration pathway assessment is premature until a biologically credible new indication is identified with at least L3-level evidence
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

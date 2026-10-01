@@ -29,75 +29,68 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Velaglucerase Alfa: From Gaucher Disease to Steel Syndrome
+# Velaglucerase alfa: From Gaucher Disease to Steel Syndrome
 
 ## One-Sentence Summary
 
-Velaglucerase alfa is a recombinant glucocerebrosidase enzyme replacement therapy, originally used to treat **Gaucher disease (type 1)**.
-The TxGNN model's top-ranked prediction is **Steel syndrome**, but **this evidence pack itself states there is no known biological link** between the two conditions, and there are currently **0 clinical trials** and **0 publications** supporting this direction.
-
----
+Velaglucerase alfa is a recombinant glucocerebrosidase enzyme replacement therapy, used for Gaucher disease. The TxGNN model predicts it may be effective for **Steel syndrome**, but this is a model prediction only, with **0 clinical trials** and **0 publications** supporting it. The prediction is most likely a knowledge-graph artifact, so we recommend holding it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Gaucher disease (type 1) — enzyme replacement therapy target; not confirmed via Singapore label text (drug is unregistered) |
+| Original Indication | Gaucher disease (the Singapore registration record gives no indication text, so this comes from the drug's known use and the Evidence Pack rationale) |
 | Predicted New Indication | Steel syndrome |
-| TxGNN Prediction Score | 96.99% |
-| Evidence Level | L5 (model prediction only, no clinical/literature support) |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | **Hold** |
-
----
+| TxGNN Prediction Score | 97.0% |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (DrugBank MOA field is unresolved). Based on known pharmacology, velaglucerase alfa is a recombinant human glucocerebrosidase that replaces the deficient enzyme in Gaucher disease, a lysosomal storage disorder caused by GBA gene mutations.
+Currently, detailed mechanism of action data is not available in the record. Based on known information, velaglucerase alfa is a recombinant form of the lysosomal enzyme glucocerebrosidase. It replaces the deficient enzyme in Gaucher disease so that glucosylceramide can be broken down.
 
-The top-ranked predicted indication, **Steel syndrome**, is a skeletal dysplasia (spine-pelvis-femur anomaly) caused by **COL27A1** gene mutations — a collagen structural defect with no known involvement of the glucocerebrosidase/lysosomal storage pathway. The evidence pack's own mechanistic annotation explicitly states: *"no known biological link"* between the two conditions, and characterizes this as a purely data-driven prediction with no mechanistic plausibility.
+Steel syndrome is a connective tissue and skeletal disorder caused by a collagen defect (*COL27A1*). It has no known link to glucosylceramide metabolism or lysosomal enzyme deficiency, and no mechanistic link was identified. The high score (0.970, rank 21,318) is probably a knowledge-graph artifact rather than a real biological signal. Because the route compatibility and similarity-to-original-indication checks are still pending, the prediction has not been assessed further.
 
-It is worth noting that several **lower-ranked** candidates in this pack (e.g., rank 5 Wolman disease, rank 7 cholesteryl ester storage disease) at least share a *lysosomal storage disorder* category with Gaucher disease, even though they act via a different enzyme (LIPA, not GBA). By contrast, the rank-1 candidate (Steel syndrome) has the **weakest** biological rationale among all 10 predictions returned, despite having the highest raw score — suggesting the ranking here should not be read as a proxy for clinical plausibility.
+The other top-ranked predictions have similar problems:
+- **Esophageal varices (with and without bleeding) and varicose disease:** The only link is that Gaucher disease can cause splenomegaly and, rarely, portal hypertension. Enzyme replacement does not act on variceal pathophysiology.
+- **Hypophosphatasia, Wolman disease and cholesteryl ester storage disease:** The link is class-level only (enzyme replacement or lysosomal storage). Each condition has a different enzyme deficiency and its own targeted therapy (asfotase alfa, sebelipase alfa).
+- **Ichthyosis syndrome, STAT5B-related growth hormone insensitivity and proximal myopathy with extrapyramidal signs:** The links are hypothesis-level at best or absent.
 
----
+None of these predictions has clinical trial or literature support.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Velaglucerase alfa is **not currently marketed** in Singapore (0 registrations, no license records available). No approved indication text, product name, or dosage form data exists in the regulatory registry to report.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN16107P | VPRIV Powder for Solution for Infusion 400 Units/Vial | Injection, powder, lyophilized, for solution | Not provided in the registration record |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Note: TFDA/HSA label warnings and contraindications data could not be retrieved for this drug (flagged as a **Blocking** data gap — see Conclusion), so a formal safety pre-screen (S1 stage) cannot currently be completed.
-
----
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top predicted indication (Steel syndrome) has no clinical trials, no literature, and — per the evidence pack's own mechanistic analysis — no known biological pathway connecting it to velaglucerase alfa's mode of action. Combined with a Blocking-severity data gap on drug label warnings/contraindications, this candidate cannot proceed past the S0 (hypothesis) stage.
+The prediction rests on a model score alone (L5). There are no clinical trials or publications, and no plausible mechanistic link between glucocerebrosidase replacement and a *COL27A1*-related collagen disorder. A high TxGNN score by itself is not enough to justify further investment.
 
 **To proceed, the following is needed:**
-- TFDA/HSA package insert (warnings, contraindications) — currently blocking any safety pre-screen
-- Confirmed mechanism of action (MOA) from DrugBank or primary literature
-- Re-evaluation of whether the rank-1 candidate (Steel syndrome) should be deprioritized in favor of candidates with at least categorical mechanistic overlap (e.g., other lysosomal storage disorders), pending any future clinical/literature evidence
-- If pursuing further, prioritize generating at least preclinical/mechanistic evidence before advancing any of the 10 listed candidates beyond L5
+- A credible mechanistic hypothesis connecting glucocerebrosidase activity to Steel syndrome pathophysiology
+- Preclinical or clinical evidence, or at least relevant published literature
+- Singapore package insert warnings and contraindications, which are missing from the current record
+- Detailed mechanism of action data from DrugBank
+- A route compatibility assessment, which is still pending
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

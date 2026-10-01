@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ivabradine
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 555
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
 ---
 
 # Ivabradine
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,109 +29,75 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Ivabradine: From Chronic Heart Failure to Pulmonary Hypertension
+# Ivabradine: From Angina and Heart Rate Control to Hypertrichosis
 
 ## One-Sentence Summary
 
-Ivabradine is a selective HCN4 channel inhibitor originally indicated for chronic heart failure with reduced ejection fraction and stable angina, reducing heart rate through sinoatrial If current blockade without suppressing cardiac contractility.
-Among the TxGNN model's top 10 predictions, **Pulmonary Hypertension** (rank 7, score 98.50%) stands out as the most clinically relevant candidate, supported by **3 clinical trial registrations** and **20 publications** — including direct animal and clinical observational evidence for right ventricular function improvement.
-Notably, the top 6 TxGNN computational predictions (ranks 1–6, largely hair and dental malformation syndromes) are assessed as mechanistic false positives due to absent pathophysiological links to the If channel; the pulmonary hypertension signal is the most actionable finding in this evidence pack.
-
----
+Ivabradine is a heart-rate-lowering drug that inhibits the HCN (If) channel. A trial summary in the pack notes it is licensed for angina, and it is marketed in Singapore.
+The TxGNN model predicts it may be effective for **hypertrichosis** with a very high score, but there are **0 clinical trials** and **0 publications** for this indication.
+The prediction is a knowledge-graph signal only and is not supported by any clinical evidence.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Chronic heart failure with reduced ejection fraction (HFrEF); stable angina |
-| Predicted New Indication | Pulmonary Hypertension |
-| TxGNN Prediction Score | 98.50% (Rank 7 of 17,080 diseases) |
-| Evidence Level | L3 |
-| Singapore Market Status | ✗ Not marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+|------|------|
+| Original Indication | Angina (from a trial summary in the pack; the Singapore licence records contain no indication text) |
+| Predicted New Indication | Hypertrichosis |
+| TxGNN Prediction Score | 99.79% |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 6 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Ivabradine selectively inhibits the If ("funny current") channel — encoded by the HCN4 subunit — in the sinoatrial node. This reduces spontaneous pacemaker depolarisation, lowering heart rate in a dose-dependent manner without any negative inotropic effect. Unlike beta-blockers, ivabradine does not reduce cardiac contractility or blood pressure, making it theoretically attractive in conditions where heart rate reduction is beneficial but further haemodynamic depression must be avoided.
+Ivabradine slows heart rate by inhibiting HCN (If) channels in the pacemaker cells of the sinus node. Detailed mechanism data was not retrieved from DrugBank, so this description comes only from the pack's rationale text.
 
-In pulmonary hypertension (PH), the right ventricle faces chronically elevated afterload from increased pulmonary vascular resistance. The compensatory tachycardia that develops shortens diastolic filling time and amplifies right ventricular oxygen demand, creating a vicious cycle of worsening right heart function. Ivabradine's selective heart rate reduction would theoretically restore diastolic filling time, reduce right ventricular wall tension and myocardial oxygen demand, and slow the progression of right ventricular remodelling — without the cardiac output penalties that make beta-blockers poorly tolerated in advanced PH.
+The pack finds no established pathway from HCN channel inhibition to hair growth. Hypertrichosis is a hair-growth disorder, while ivabradine's known actions are cardiac. The very high score (rank 3,572 in the model) most likely reflects graph proximity rather than biology. The other hair-related predictions (Ambras syndrome, hair shaft abnormality, trichomegaly) appear to be neighbours of the same artifact.
 
-Two independent rat model studies (monocrotaline-induced PH and SU5416/hypoxia-induced PH) confirm that ivabradine reduces right ventricular fibrosis and improves biventricular function, with mechanistic evidence pointing to downregulation of the TGF-β/Smad fibrotic pathway. Multiple small clinical studies and case series in humans — including patients with systemic sclerosis–associated PAH and COPD-associated pulmonary hypertension — report functional improvements with ivabradine therapy. The presence of HCN channel expression in pulmonary vascular smooth muscle cells further raises the hypothesis of direct vasodilatory effects, though this remains unconfirmed in humans.
-
----
+In short, this prediction should be treated as a hypothesis-generating signal and not as a credible repurposing direction.
 
 ## Clinical Trial Evidence
 
-Two of the three identified trials directly involve ivabradine; the third (NCT04735354, studying sacubitril/valsartan in HFrEF) provides only indirect background context and is excluded below.
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT03650205](https://clinicaltrials.gov/study/NCT03650205) | N/A | Unknown | 160 | Ivabradine to prevent anthracycline-induced cardiotoxicity — assesses cardiac-protective effects via If channel inhibition; provides indirect safety and cardioprotection data for ivabradine under cardiac stress conditions |
-| [NCT00757055](https://clinicaltrials.gov/study/NCT00757055) | Phase 2 | Withdrawn | 0 | Ivabradine in diastolic heart failure — withdrawn before enrolment (reason unknown); the stated rationale addresses heart rate reduction to improve impaired ventricular filling, mechanistically overlapping with the right heart failure pathophysiology seen in PH |
-
-> **Evidence gap:** No dedicated clinical trial targeting ivabradine specifically for pulmonary hypertension has been registered on ClinicalTrials.gov or ICTRP. This is a critical gap for advancing this repurposing candidate.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-The following 10 publications are most directly relevant to ivabradine and pulmonary hypertension, prioritised by study type and direct drug–disease relevance:
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|------|---------|
-| [37742537](https://pubmed.ncbi.nlm.nih.gov/37742537/) | 2023 | Clinical Observational | Am J Cardiology | Prospective study (n not stated); ivabradine selectively lowers heart rate and significantly improves right ventricular systolic function in COPD patients with cor pulmonale and PH |
-| [24556029](https://pubmed.ncbi.nlm.nih.gov/24556029/) | 2014 | Case Series | J Cardiac Failure | Functional improvements (6MWT, NYHA class) reported in PAH patients treated with ivabradine; early proof-of-concept signal in humans |
-| [32915674](https://pubmed.ncbi.nlm.nih.gov/32915674/) | 2020 | Animal Study | Am J Resp Cell Mol Biol | Ivabradine (10 mg/kg/d) reduces RV fibrosis and improves RV function in MCT and SUHX rat PH models; anti-fibrotic mechanism via TGF-β/Smad pathway confirmed |
-| [29146614](https://pubmed.ncbi.nlm.nih.gov/29146614/) | 2018 | Animal Study | Am J Physiol Heart Circ | HR reduction with ivabradine (vs carvedilol) improves biventricular mechanics, cardiac cycle timing, and interventricular interactions in monocrotaline-PAH rats |
-| [22792738](https://pubmed.ncbi.nlm.nih.gov/22792738/) | 2012 | Small Clinical Study | Kardiologiia | Ivabradine (10 mg/day, 2 weeks) produces statistically significant reduction in pulmonary hypertension severity in COPD patients (n=60, controlled) |
-| [23021874](https://pubmed.ncbi.nlm.nih.gov/23021874/) | 2012 | Case Series | Eur J Int Med | Ivabradine in systemic sclerosis–related PAH — reports clinical improvement in this high-risk subgroup |
-| [22383181](https://pubmed.ncbi.nlm.nih.gov/22383181/) | 2012 | Case Series | Clin Res Cardiol | Ivabradine safe and well-tolerated in systemic sclerosis patients with PH; supports the feasibility of use alongside PH-specific therapies |
-| [23389056](https://pubmed.ncbi.nlm.nih.gov/23389056/) | 2013 | Case Series | Clin Res Cardiol | Ivabradine in PAH — preliminary data suggesting potential to delay escalation to parenteral prostanoid therapy |
-| [28701278](https://pubmed.ncbi.nlm.nih.gov/28701278/) | 2017 | Review | Eur J Int Med | Narrative review covering ACEi, ARB, beta-blockers, and ivabradine as supportive therapies in PH; discusses drug safety, tolerability, and interaction considerations |
-| [32248556](https://pubmed.ncbi.nlm.nih.gov/32248556/) | 2020 | Scoping Review | Pharmacotherapy | Systematic scoping review of novel ivabradine uses beyond approved indications; pulmonary hypertension identified as one of the most evidence-supported off-label applications |
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Ivabradine is currently **not registered** in Singapore. The HSA product license database returns zero registrations for this drug. There are no approved brand-name products, dosage forms, or indication-specific approvals on record.
+Six licences are registered. Five are listed below. No approved-indication text is recorded for any of them.
 
-This means any clinical use of ivabradine in Singapore would require special access (e.g., Special Access Route / Investigational New Drug pathway) and there is no locally available reference product or approved label to draw upon for safety benchmarking.
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN16202P | IVASWIFT Film-Coated Tablet 5 mg | Film-coated tablet | Ind-Swift Limited |
+| SIN16201P | IVASWIFT Film-Coated Tablet 7.5 mg | Film-coated tablet | Ind-Swift Limited |
+| SIN17220P | VARADIN Film-Coated Tablets 7.5 mg | Film-coated tablet | Genepharm S.A |
+| SIN17221P | VARADIN Film-Coated Tablets 5 mg | Film-coated tablet | Genepharm S.A |
+| SIN13409P | CORALAN Tablet 7.5 mg | Film-coated tablet | Les Laboratoires Servier Industrie |
 
----
+All available products are oral formulations.
 
 ## Safety Considerations
 
-Formal Singapore HSA package insert data are not available (drug is unregistered). Based on the international clinical literature present in this evidence pack and known pharmacology:
-
-- **Key mechanism-based risk:** Dose-dependent bradycardia — the primary adverse effect; risk is amplified in patients with baseline low heart rate or those on concomitant rate-lowering agents
-- **Visual disturbances:** Transient luminous phenomena (phosphenes) due to HCN1 channel expression in retinal photoreceptors; generally mild and reversible
-- **CYP3A4 interactions:** Ivabradine is metabolised by CYP3A4; concomitant use with potent inhibitors (e.g., azole antifungals, macrolides) markedly increases plasma levels and bradycardia risk
-- **Atrial fibrillation risk:** Noted in the SHIFT trial; ivabradine should be used with caution in patients at risk of AF
-- **Contraindicated in:** Resting heart rate <60 bpm, severe hepatic impairment, sick sinus syndrome, sinoatrial block, and use with strong CYP3A4 inhibitors
-
-For the specific PH patient population, drug interactions with ERA (endothelin receptor antagonists), PDE5 inhibitors, and prostanoids — the standard of care in PAH — require formal review before clinical use.
-
----
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The mechanistic basis for ivabradine in pulmonary hypertension is well-grounded: selective heart rate reduction without negative inotropy addresses a key pathophysiological driver of right ventricular deterioration in PH. This rationale is reinforced by convergent evidence from two independent animal models and multiple small clinical studies, establishing ivabradine as a scientifically credible repurposing candidate at the observational/hypothesis-generating stage (L3). The absence of a completed Phase 2/3 RCT is the key evidence gap preventing a "Go" determination.
+The prediction rests on the model score alone. There are no trials or literature for hypertrichosis, and no plausible mechanistic link between HCN inhibition and hair growth. The evidence level is L5.
+
+**A better-supported alternative in the same output:**
+- Among the model's other predictions, **pulmonary hypertension** (score 98.50%) has the strongest support at L3. It has rodent studies showing improved right ventricular function and fibrosis, plus small human studies in systemic-sclerosis PAH and COPD-associated PH suggesting tolerability. There are no Phase 3 or adequately powered randomized trials, and the registered trials listed do not test PH directly. It is best treated as a research question, not a decision-ready candidate.
 
 **To proceed, the following is needed:**
-
-- **Regulatory:** Assess Singapore HSA Special Access Route eligibility; obtain international reference label (EMA/FDA) for full contraindication and safety profiling
-- **Safety review:** Formal drug interaction assessment with standard PAH therapies (endothelin antagonists, PDE5 inhibitors, prostanoids)
-- **MOA documentation:** Retrieve and document full HCN4 pharmacology from DrugBank (DG002 remediation) to support mechanistic narrative in any future IND submission
-- **Clinical trial design:** Design a prospective RCT — recommended target population: PAH (Group 1) or COPD-associated PH (Group 3) with baseline HR ≥75 bpm; primary endpoint: right ventricular function (echocardiographic) or 6-minute walk distance
-- **Local KOL consultation:** Engage Singapore pulmonary hypertension specialists to assess feasibility and patient availability for an investigator-initiated trial
-- **Heart rate phenotyping:** Identify the PH patient subgroup most likely to benefit (tachycardic patients at rest, inadequately controlled with existing therapies)
+- Approved indication text and safety information (warnings, contraindications) from the HSA package insert
+- Mechanism of action data from DrugBank to allow a proper mechanistic assessment
+- Any experimental or clinical rationale linking HCN channels to hair follicle biology, before further work on hypertrichosis
+- If pulmonary hypertension is pursued, a dedicated evidence review, with a controlled trial as the eventual requirement
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

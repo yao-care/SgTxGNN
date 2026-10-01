@@ -29,78 +29,74 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Terazosin: From Benign Prostatic Hyperplasia to Hypotrichosis Simplex of the Scalp
+# Terazosin: From Alpha-1 Blocker Uses (BPH and Hypertension) to Hypotrichosis Simplex of the Scalp
 
 ## One-Sentence Summary
 
-> Terazosin is a selective alpha-1 adrenergic receptor antagonist traditionally used to treat benign prostatic hyperplasia (BPH) and hypertension.
-> The TxGNN model predicts it may be effective for **Hypotrichosis Simplex of the Scalp**,
-> but this ranking currently has **no clinical trials and no supporting literature** — it is a pure model-generated signal.
-
----
+Terazosin is an oral alpha-1 adrenergic blocker. The Singapore registration data does not list an approved indication, but the drug class is generally used for benign prostatic hyperplasia and hypertension.
+The TxGNN model predicts it may be effective for **hypotrichosis simplex of the scalp**, a genetic hair-loss condition.
+**No clinical trials and no publications** currently support this direction, so it is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Benign prostatic hyperplasia (BPH) / hypertension *(inferred from evidence-pack rationale text; no formal regulatory indication text available)* |
-| Predicted New Indication | Hypotrichosis Simplex of the Scalp |
+| Original Indication | Not listed in the Singapore registration records |
+| Predicted New Indication | Hypotrichosis simplex of the scalp |
 | TxGNN Prediction Score | 99.97% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 5 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap). Based on information embedded in the evidence pack's rationale notes, Terazosin is a selective alpha-1 adrenergic receptor antagonist, clinically established for BPH and hypertension through peripheral vasodilation and smooth-muscle relaxation.
+Currently, detailed mechanism of action data is not available in the evidence package. Based on known information, terazosin is an alpha-1 adrenergic antagonist that relaxes vascular and smooth muscle. It has also been reported to activate the enzyme PGK1. Its efficacy in its usual indications is established, but nothing in this package links these actions to hair growth.
 
-There is no known mechanistic pathway connecting alpha-1 receptor blockade to hair follicle growth stimulation. The evidence pack itself explicitly states this connection is unsupported: *"血管擴張作用與毛囊生長刺激機轉尚無已知關聯"* (the vasodilatory effect has no established link to hair follicle growth stimulation). This ranking is a pure TxGNN statistical output (score 99.97%, rank 784) with zero corroborating clinical trials or literature.
-
-Notably, other lower-ranked predictions in this same batch — **Raynaud disease** (rank 7, L3, two clinical studies directly testing terazosin on vasospasm) and **migraine disorder** (rank 5, L3, two clinical studies from the 1990s) — have meaningfully stronger mechanistic and empirical support, since alpha-1 blockade has a direct, plausible link to vascular tone disorders. These may warrant separate evaluation ahead of the top-ranked hair-loss indication.
-
----
+The high score most likely reflects the drug's proximity to hair-disorder nodes in the knowledge graph, not a known pharmacological mechanism. Alpha-1 blockade has no established role in genetic hypotrichosis. Other hair-related predictions for this drug point in opposite directions: several concern hair loss and one concerns hair excess (Ambras hypertrichosis). This pattern suggests a graph-proximity artifact.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Terazosin is **not currently marketed** in Singapore (0 registrations on file). No license or approved-indication data is available for this drug in the Singapore regulatory database.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN12672P | APO-TERAZOSIN TABLET 2 mg | Tablet | Not listed |
+| SIN11676P | HYTRIN TABLET 5 mg | Tablet | Not listed |
+| SIN11674P | HYTRIN TABLET 1 mg | Tablet | Not listed |
+| SIN11675P | HYTRIN TABLET 2 mg | Tablet | Not listed |
+| SIN11600P | TERASIN TABLET 2 mg | Tablet | Not listed |
 
----
+All five products are oral tablets.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
-*(Note: TFDA warning/contraindication data collection is flagged as a **Blocking** data gap — required before any safety-stage evaluation can proceed.)*
-
----
+Please refer to the package insert for safety information. No drug-interaction records were found in the evidence package.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked predicted indication (hypotrichosis simplex of the scalp) is supported only by a TxGNN statistical score, with no clinical trials, no literature, and no established mechanistic pathway — evidence level L5. Combined with a Blocking data gap on TFDA safety information, this candidate cannot advance past initial screening.
+This indication rests on a model score alone, with no trials, no literature, and no plausible mechanism. It is most likely a knowledge-graph artifact.
+
+**Other predicted indications for this drug:**
+- **Raynaud disease** has the strongest mechanistic plausibility, since alpha-1 blockade causes peripheral vasodilation. It has one 1997 clinical study (PMID 9273472) whose design and size are unverified, and it is rated L4 (Research Question).
+- **Migraine disorder** has two older papers, a 1994 open study (PMID 7911406) and a 1997 review (PMID 9074296), and is also rated L4.
+- **Alopecia** has only one narrative review whose content on terazosin is unverified.
 
 **To proceed, the following is needed:**
-- TFDA package insert (warnings, contraindications) — currently a Blocking gap
-- Confirmed mechanism of action data via DrugBank API
-- Any preclinical or case-level evidence linking alpha-1 blockade to hair follicle biology
-- Consider re-prioritizing evaluation toward Raynaud disease and migraine prophylaxis, which carry stronger mechanistic rationale (L3) and existing human clinical data, despite lower TxGNN scores
+- Package insert warnings and contraindications from HSA, which are currently missing and block safety screening
+- Approved indication text for the Singapore licences
+- Detailed mechanism of action data, for example from DrugBank
+- Abstract and full-text review of the supporting papers if any hair-related indication is pursued
+- A review of the Raynaud disease candidate as a separate protocol, since it is the more credible repurposing lead
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

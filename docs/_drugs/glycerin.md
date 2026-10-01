@@ -29,77 +29,68 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Glycerin: From Osmotic Agent to Cauda Equina Syndrome
+# Glycerin: From Constipation Relief to Cauda Equina Syndrome
 
 ## One-Sentence Summary
 
-Glycerin (glycerol) is a widely used osmotic agent and pharmaceutical excipient, historically applied to reduce intraocular pressure in acute glaucoma and as a rectal laxative; no formal therapeutic indication is registered in Singapore.
-The TxGNN model predicts it may have potential for **Cauda Equina Syndrome**,
-however **no clinical trials or publications** currently support this direction.
-
----
+Glycerin is marketed in Singapore as an osmotic laxative in syrup and enema products, so its original use appears to be constipation relief. The registrations carry no approved-indication text, so this is inferred from product type. The TxGNN model predicts it may be effective for **cauda equina syndrome**, but there are **0 clinical trials** and **0 publications** supporting this prediction, and no plausible pharmacological link was found.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No formal regulatory indication registered in Singapore (known uses: osmotic agent, laxative, pharmaceutical excipient) |
-| Predicted New Indication | Cauda Equina Syndrome |
+|------|------|
+| Original Indication | Not stated in registrations (inferred: constipation, from syrup/enema products) |
+| Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 99.60% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 3 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from DrugBank. Based on known pharmacological properties, Glycerin (glycerol) is a small triol molecule that functions as an osmotic agent by creating an osmotic gradient across biological membranes. This property underlies its established clinical applications: oral or intravenous glycerol has been used to transiently reduce intraocular pressure (IOP) in acute angle-closure glaucoma attacks, and rectal glycerol suppositories exploit the same principle to stimulate bowel evacuation.
+Currently, detailed mechanism of action data is not available. Based on known information, glycerin is an osmotic agent used as a laxative, and its use for constipation is well established. Mechanistically, there is no evident route by which it would help cauda equina syndrome.
 
-Cauda equina syndrome (CES) is a neurological emergency caused by acute or subacute compression of the lumbosacral nerve roots below the conus medullaris, typically by a large disc herniation or tumour. In theory, an osmotic agent capable of reducing perineural or intraspinal oedema could provide ancillary neuroprotection alongside definitive surgical decompression. This represents a mechanistically plausible but highly indirect rationale—analogous to how mannitol is occasionally used in acute spinal cord injury to reduce oedema—yet no clinical evidence exists to support this reasoning for CES specifically.
+Cauda equina syndrome is a compressive injury to the lumbosacral nerve roots. Osmotic dehydration is not a recognised treatment for it, and the supplied data identified no pharmacological link, trials or literature. The high score (rank 5,615 in the model's ranking) is best read as a statistical artefact of the knowledge graph rather than a mechanistic signal.
 
-The TxGNN model's high prediction score (99.60%) most likely reflects the model's broader generalisation across neurological compression or pressure-related disorders rather than a specific, validated mechanistic link. Given the acute surgical nature of CES and the complete absence of preclinical or clinical data for Glycerin in this setting, the biological hypothesis remains speculative.
-
----
+Other predictions for glycerin have somewhat more plausible rationales, though all are still weak:
+- **Open-angle glaucoma** (score 99.59%, L4): osmotic lowering of intraocular pressure is established mainly for acute angle-closure episodes, so the link to chronic open-angle disease is indirect. The supplied literature does not show glycerin acting as a therapeutic agent there.
+- **Irritable bowel syndrome** (score 99.49%, L4): plausible only for constipation-predominant IBS, with no IBS-specific evidence supplied.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-No regulatory registrations for Glycerin were found in Singapore's Health Sciences Authority (HSA) database.
-
----
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN02748P | LEMON SWEET PURGATIVE SYRUP | Syrup | Syarikat Wen Ken Drug Sdn Bhd |
+| SIN02959P | HUACHI ENEMA | Enema | Jen Sheng Pharmaceutical Co Ltd |
+| SIN03514P | MINICA S ENEMA | Enema | Yukinomoto Honten Co., Ltd |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug–drug interaction data were identified in the current search. Package insert warnings and contraindications could not be retrieved and should be obtained directly from the TFDA official website by downloading and parsing the prescribing information PDF.
-
----
+Please refer to the package insert for safety information. No drug-interaction records were found for glycerin in the queried source.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There is currently no clinical trial evidence or peer-reviewed literature directly supporting Glycerin as a treatment for cauda equina syndrome. The condition is a neurosurgical emergency where timely decompression—not pharmacological osmotherapy—is the standard of care, and the proposed mechanistic link remains entirely speculative.
+The prediction rests on the model score alone (L5), with no trials, no literature and no plausible mechanism for cauda equina syndrome. Package insert safety data are also missing, which blocks safety screening.
 
 **To proceed, the following is needed:**
-- Retrieve full MOA data from DrugBank (DB09462) to establish whether any secondary pharmacological targets are relevant to spinal nerve root compression
-- Obtain package insert (PI) warnings and contraindications from official regulatory sources to complete the safety profile
-- Commission a scoping review of osmotic agents (mannitol, glycerol) in acute spinal cord injury or cauda equina compression animal models to determine if a preclinical basis exists
-- If preclinical data are identified, design a hypothesis-driven mechanistic study before any clinical translation is considered
-- Clarify whether the high TxGNN rank reflects a true biological signal or a model artefact from proximity to other neurological pressure disorders in the knowledge graph
+- Package insert warnings and contraindications from HSA (blocking gap)
+- Mechanism of action data, for example from DrugBank
+- Approved-indication text for the three Singapore registrations, to confirm the original indication
+- A documented mechanistic rationale for cauda equina syndrome; otherwise consider redirecting effort to the glaucoma or constipation-predominant IBS candidates
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

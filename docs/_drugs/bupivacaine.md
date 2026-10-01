@@ -29,79 +29,66 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Bupivacaine: From Local/Regional Anesthesia to Acrodermatitis Chronica Atrophicans
+# Bupivacaine: From Local Anesthesia to Acrodermatitis Chronica Atrophicans
 
 ## One-Sentence Summary
 
-Bupivacaine is a long-acting amide-type local anesthetic widely used for regional anesthesia, epidural analgesia, and perioperative pain management.
-The TxGNN model predicts it may be effective for **Acrodermatitis Chronica Atrophicans** (a late cutaneous manifestation of Lyme borreliosis),
-with **0 clinical trials** and **0 publications** currently supporting this direction — the prediction appears driven by knowledge graph proximity rather than a mechanistic rationale.
-
----
+Bupivacaine is a long-acting local anesthetic that is marketed in Singapore as injectable products.
+The TxGNN model predicts it may be effective for **Acrodermatitis Chronica Atrophicans** (a chronic skin condition caused by Borrelia infection), but **0 clinical trials** and **0 publications** support this prediction. It is a model-only signal.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Local/regional anesthesia and pain management |
-| Predicted New Indication | Acrodermatitis Chronica Atrophicans |
+|------|------|
+| Predicted New Indication | Acrodermatitis chronica atrophicans |
 | TxGNN Prediction Score | 99.23% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 4 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on known pharmacological information, Bupivacaine is a long-acting amide-class local anesthetic that primarily blocks voltage-gated sodium channels (Nav1.7, Nav1.8), thereby preventing depolarisation and inhibiting nerve impulse conduction. Beyond its anesthetic effect, preclinical studies have reported that bupivacaine may modulate local inflammatory signalling — including suppression of NF-κB activation and reduced release of pro-inflammatory cytokines (TNF-α, IL-6) — at concentrations achievable within injected tissue.
+Detailed mechanism of action data is not currently available in the Evidence Pack. Based on general pharmacology, bupivacaine is a voltage-gated sodium channel blocker. It blocks nerve conduction to produce local anesthesia and analgesia.
 
-Acrodermatitis chronica atrophicans (ACA) is the late-stage dermatological manifestation of Lyme borreliosis, caused by persistent *Borrelia burgdorferi* infection. The disease is characterised by chronic dermal lymphocytic infiltration, progressive skin atrophy, and collagen loss — driven primarily by ongoing spirochetal infection and the resulting host immune dysregulation, not by a purely inflammatory or channel-mediated process.
+This mechanism has no known link to acrodermatitis chronica atrophicans. That disease is a chronic skin inflammation driven by Borrelia infection, and sodium channel blockade does not act on the pathogen or on the inflammatory process. The high TxGNN score most likely reflects the model's graph-based associations, not a true pharmacological relationship.
 
-The mechanistic link between bupivacaine and ACA is implausible. ACA is fundamentally an infectious disease that responds to antibiotic therapy (doxycycline, amoxicillin); sodium channel blockade has no known role in clearing Borrelia or reversing the associated connective tissue destruction. The TxGNN score of 0.992 almost certainly reflects the model capturing a neighbourhood relationship between generic "skin inflammation" nodes in the knowledge graph — a non-specific signal rather than a genuine therapeutic hypothesis.
-
----
+The lower-ranked predictions show the same pattern. For uterine polyp, vocal cord polyp, epulis and middle ear polyp, the trials and publications only use bupivacaine as a procedural anesthetic or as a co-injected vehicle. They do not show it treating the disease, so they do not support therapeutic repurposing either.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
+## Singapore Market Information
+
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN05681P | MARCAIN SPINAL 0.5% HEAVY INJECTION | Injection | Cenexi |
+| SIN05679P | MARCAIN INJECTION 0.5% (POLYAMP DUOFIT) | Injection | AstraZeneca AB & Aspen Notre Dame de Bondeville |
+| SIN13211P | Marcain Injection 0.5% (4ml) | Injection | Cenexi |
+| SIN14273P | SURGICAINE Injection | Injection | Novocol Pharmaceutical of Canada, Inc. |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
-> **Note:** Key warnings, contraindications, and drug interaction data were not available in this evidence pack. Retrieval from the Singapore HSA package insert and DrugBank is required before any clinical evaluation.
-
----
+No drug interaction records were found in the queried source.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The predicted indication (acrodermatitis chronica atrophicans) is an antibiotic-responsive infectious disease with no plausible biological connection to bupivacaine's mechanism of action; the evidence level is L5 (model prediction only), and no supporting clinical or preclinical literature exists.
+The prediction has only a computational basis (L5). There are no clinical trials or literature for acrodermatitis chronica atrophicans, and there is no plausible mechanistic link. Bupivacaine's role in the other predicted conditions is limited to procedural anesthesia, which does not support repurposing.
 
 **To proceed, the following is needed:**
-
-- **Safety data gap closure (Blocking):** Retrieve Singapore HSA / Taiwan TFDA package insert warnings and contraindications (DG001) before any further evaluation stage can be entered.
-- **MOA data from DrugBank (High):** Complete the DrugBank API query (DG002) to enable proper mechanistic linkage analysis across all predicted indications.
-- **Re-prioritise the candidate list:** Among the 10 predictions evaluated, two carry clinically coherent rationales and at least some supporting evidence:
-  - **Rank 8 — Epulis / Central Giant Cell Granuloma (L4, Research Question):** Six case-series publications document a specific intralesional protocol combining triamcinolone + bupivacaine for CGCG; bupivacaine serves as both a carrier vehicle and a post-injection analgesic, with one publication (PMID 11862204) explicitly reporting the bupivacaine mixture. This is the most clinically grounded finding in the pack.
-  - **Rank 9 — Polyp of Vocal Cord (L4, Research Question):** A Phase 2 RCT (NCT06734975, n=28, recruiting) is formally testing whether bupivacaine superior laryngeal nerve block improves patient outcomes following microdirect laryngoscopy for benign vocal fold lesions. The study design is rigorous; results are pending (expected completion December 2026).
-- **Formal evaluation of Ranks 8–9** should be prioritised over Rank 1, as these represent actionable research questions rather than graph artefacts.
-
----
-
-> *This report is for research reference only and does not constitute medical advice. All drug repurposing candidates require clinical validation before application.*
+- Mechanism of action data from DrugBank, to enable a mechanistic-link analysis
+- Package insert warnings and contraindications from the HSA website, which are required before safety screening
+- Any preclinical or clinical evidence that bupivacaine acts on Borrelia-related skin inflammation. Without it, this candidate should not advance.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

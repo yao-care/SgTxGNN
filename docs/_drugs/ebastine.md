@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ebastine
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 359
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 ---
 
 # Ebastine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,79 +29,65 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Ebastine: From Allergic Rhinitis / Urticaria to Coronary Artery Disease
+# Ebastine: From Allergic Conditions to Coronary Artery Disease
 
 ## One-Sentence Summary
 
-Ebastine is a second-generation H1 antihistamine, clinically used for allergic rhinitis and chronic urticaria.
-The TxGNN model predicts it may be effective for **Coronary Artery Disease**,
-with **0 clinical trials** and **1 computational publication** currently supporting this direction — evidence remains at the preclinical mechanistic stage only.
-
----
+Ebastine is a peripherally selective H1 antihistamine, marketed in Singapore as KESTINE 10 mg tablets. The TxGNN model predicts it may be effective for **coronary artery disease** with a very high score, but there are **0 clinical trials** and only **1 publication**, a computational study that does not test the prediction. This is a model-only signal, and the mechanistic hint from that paper points the opposite way.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Allergic rhinitis / Chronic urticaria (no Singapore registration on record) |
-| Predicted New Indication | Coronary Artery Disease |
+|------|------|
+| Original Indication | Not stated in the registration record (ebastine is an H1 antihistamine used for allergic conditions) |
+| Predicted New Indication | Coronary artery disease |
 | TxGNN Prediction Score | 99.18% |
-| Evidence Level | L4 |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 (preclinical/computational only; the other nine predictions are L5) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Ebastine is a second-generation H1 receptor antagonist used for allergic conditions. Beyond its classical H1-blocking activity, ebastine has been identified as a ligand that interacts with cytochrome P450 2J2 (CYP2J2), an enzyme expressed abundantly in cardiac and vascular tissue.
+Detailed mechanism-of-action data are not available in the record. Ebastine is known as a peripherally selective H1 receptor antagonist, and it has no established anti-atherosclerotic or anti-ischaemic mechanism.
 
-CYP2J2 catalyses the epoxidation of arachidonic acid to epoxyeicosatrienoic acids (EETs), which are known to exert vasodilatory, anti-inflammatory, and anti-thrombotic cardioprotective effects. If ebastine inhibits CYP2J2, it could theoretically modulate the arachidonic acid–EET axis and thereby influence coronary artery disease pathophysiology. A 2008 computational study (PMID 18004755) used homology modelling and molecular dynamics simulation to demonstrate that ebastine can dock into the CYP2J2 active site, providing the only molecular-level mechanistic evidence for this connection.
+The only linked paper is a molecular docking study of CYP2J2, an enzyme that makes cardioprotective epoxyeicosatrienoic acids (EETs). Ebastine appears in it as a CYP2J2 ligand or inhibitor. Inhibiting CYP2J2 would plausibly work against cardiovascular benefit, not for it. The same reasoning applies to the second-ranked prediction, myocardial ischaemia, which rests on the same paper.
 
-However, the mechanistic direction remains critically unresolved: whether CYP2J2 inhibition in this context is cardioprotective or detrimental has not been established. There are no in vivo animal studies, no observational human data, and no clinical trials. The TxGNN prediction appears to be driven by graph proximity between ebastine's CYP2J2 interaction node and cardiovascular disease nodes, rather than a directly validated therapeutic pathway.
-
----
+The prediction is therefore best read as a knowledge-graph association, not a mechanistically grounded hypothesis. The high score is not backed by any clinical signal. Cardiac-population caution is also warranted because of QT/hERG liability considerations in this drug class.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [18004755](https://pubmed.ncbi.nlm.nih.gov/18004755/) | 2008 | Computational (In silico) | Proteins | Homology modelling and molecular dynamics simulation of human CYP2J2 demonstrate that ebastine binds to the enzyme's active site. CYP2J2 catalyses epoxidation of arachidonic acid to EETs, which are associated with coronary artery disease, hypertension, and carcinogenesis; the study identifies CYP2J2 as a potential drug target and biomarker. |
-
----
+|------|-----|------|------|---------|
+| [18004755](https://pubmed.ncbi.nlm.nih.gov/18004755/) | 2008 | In silico / computational | Proteins | Homology modelling, molecular dynamics and docking of ligand binding to human CYP2J2. CYP2J2 is linked to coronary artery disease, hypertension and cancer, but the study does not test ebastine in any disease. |
 
 ## Singapore Market Information
 
-Ebastine is not currently registered in Singapore. No marketing authorizations or product licences are on record with HSA.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN09435P | KESTINE TABLET 10 mg (manufacturer: Industrias Farmaceuticas Almirall (IFA) S.A.) | Tablet, film coated | Not listed in the record |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Cardiac caution**: QT/hERG liability considerations for this drug class argue for caution in cardiac populations.
 
----
+Please refer to the package insert for other safety information, including warnings, contraindications and drug interactions.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The sole supporting evidence is a single 2008 in silico study demonstrating ebastine's structural compatibility with the CYP2J2 active site — there are no clinical trials, no in vivo studies, and no human data linking ebastine to coronary artery disease outcomes. The direction of the CYP2J2–EET effect (protective vs. harmful) in this setting remains unresolved, making the biological rationale insufficient to advance.
+The prediction has no clinical trials and one computational paper whose mechanism suggests a possibly adverse direction. Beyond this top-ranked prediction, the other nine (myocardial ischaemia, anomalous left coronary artery from the pulmonary artery, leprosy, candidiasis, pneumocystosis, hypertrichosis, and vocal cord, middle ear and uterine polyps) are also rated Hold, with no supporting clinical data.
 
 **To proceed, the following is needed:**
-- Full CYP2J2 inhibition kinetics (IC₅₀, selectivity vs. other CYP isoforms) for ebastine confirmed in wet-lab assays
-- In vivo animal model data evaluating ebastine's effect on myocardial or vascular endpoints
-- Mechanistic clarification of whether CYP2J2 inhibition is cardioprotective or detrimental in coronary artery disease models
-- Complete MOA profile and safety data from DrugBank and package inserts (currently unavailable — data gap DG002/DG001)
-- HSA registration review if Singapore-market application is intended
+- The Singapore package insert (warnings, contraindications and approved indication), which is a blocking gap for safety screening
+- Mechanism of action data for ebastine, for example from DrugBank
+- Preclinical or clinical evidence that ebastine has a benefit, not harm, in coronary or ischaemic settings, taking CYP2J2/EET biology and QT liability into account
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

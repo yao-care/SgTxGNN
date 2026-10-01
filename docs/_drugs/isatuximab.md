@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Isatuximab
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 547
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 ---
 
 # Isatuximab
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,98 +33,83 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Isatuximab (Sarclisa) is an anti-CD38 monoclonal antibody approved for the treatment of relapsed/refractory multiple myeloma in combination regimens.
-The TxGNN model predicts it may be effective for **Indolent Plasma Cell Myeloma**, a closely related but clinically distinct plasma cell neoplasm with different management strategies.
-Supporting evidence is currently limited to **0 clinical trials** and **2 low-tier publications** (a case report and a commentary), placing this prediction at an early exploratory stage.
-
----
+Isatuximab is an anti-CD38 monoclonal antibody already marketed for multiple myeloma.
+The TxGNN model predicts it may be effective for **indolent plasma cell myeloma**, a less active disease phase.
+There are **0 clinical trials** and **2 publications** (neither directly relevant), so this is a mechanism-based hypothesis rather than an evidence-backed candidate.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Relapsed/refractory multiple myeloma (in combination therapy) |
-| Predicted New Indication | Indolent Plasma Cell Myeloma |
+|------|------|
+| Original Indication | Multiple myeloma (from the mechanistic rationale; the HSA indication text was not supplied) |
+| Predicted New Indication | Indolent plasma cell myeloma |
 | TxGNN Prediction Score | 98.23% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (the Evidence Pack labels it L4, but no preclinical or mechanism studies were supplied) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on known pharmacological information, Isatuximab is an IgG1-kappa monoclonal antibody that targets CD38, a transmembrane glycoprotein highly expressed on the surface of malignant plasma cells. Its anti-tumour effects are mediated through multiple mechanisms: direct cytotoxicity (apoptosis induction), antibody-dependent cellular cytotoxicity (ADCC), complement-dependent cytotoxicity (CDC), and immunomodulatory effects on CD38-expressing regulatory immune cells.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Isatuximab is known to be an anti-CD38 monoclonal antibody. CD38 is highly expressed on malignant plasma cells, so targeting it is biologically plausible for plasma cell neoplasms.
 
-Indolent plasma cell myeloma (also referred to as smouldering or asymptomatic myeloma) belongs to the same plasma cell neoplasm spectrum as active multiple myeloma. Like its active counterpart, malignant plasma cells in the indolent form characteristically overexpress CD38, making the target antigen biologically present. This provides a strong mechanistic rationale for why TxGNN assigned a near-perfect score of 98.23% to this prediction—the molecular target is shared, and the disease biology is closely related.
+Indolent plasma cell myeloma is a less active phase of the disease treated by the original indication. The prediction would therefore be an extension along the disease course, not a new mechanism. The high model score (98.23%) fits this close disease relationship.
 
-The key clinical distinction, however, is the management paradigm: indolent plasma cell myeloma is traditionally managed with watchful waiting, as early intervention has not consistently demonstrated survival benefit. Recent trials (e.g., ECOG E3A06 with lenalidomide, and the CESAR trial exploring carfilzomib-based regimens) are actively reassessing this dogma. Whether an anti-CD38 antibody such as Isatuximab confers benefit in this pre-active phase requires dedicated clinical investigation, particularly given the need to balance treatment toxicity against a disease that may remain stable for years.
-
----
+The supplied data contain no trial evidence in the indolent or smoldering setting. The prediction rests on mechanism alone.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Isatuximab in indolent plasma cell myeloma.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [38275249](https://pubmed.ncbi.nlm.nih.gov/38275249/) | 2024 | Letter / Commentary | Journal of Investigational Allergology & Clinical Immunology | Reply letter discussing Isatuximab desensitization in a patient with refractory multiple myeloma and concurrent indolent systemic mastocytosis; addresses management of hypersensitivity reactions |
-| [38888584](https://pubmed.ncbi.nlm.nih.gov/38888584/) | 2024 | Case Report | Journal of Investigational Allergology & Clinical Immunology | Case report of successful Isatuximab desensitization in a patient with refractory multiple myeloma and indolent systemic mastocytosis; provides protocol for managing anaphylactic reactions to Isatuximab |
+|------|-----|------|------|---------|
+| [38888584](https://pubmed.ncbi.nlm.nih.gov/38888584/) | 2024 | Case report | J Investig Allergol Clin Immunol | Successful isatuximab desensitization in a refractory myeloma patient who also had indolent *systemic mastocytosis* |
+| [38275249](https://pubmed.ncbi.nlm.nih.gov/38275249/) | 2024 | Letter/Commentary (reply) | J Investig Allergol Clin Immunol | Reply to the case above, also on isatuximab desensitization |
 
-> ⚠️ **Note:** Both publications relate to **indolent systemic mastocytosis** as a comorbidity in multiple myeloma patients receiving Isatuximab, rather than direct evidence of efficacy in indolent plasma cell myeloma. These documents address drug hypersensitivity management, not treatment outcomes for the predicted indication.
-
----
+**Caution:** Both papers concern hypersensitivity management in a patient with indolent systemic mastocytosis. They do not address indolent plasma cell myeloma and give no efficacy support for this prediction. The abstracts were not supplied, so the summaries are based on titles only.
 
 ## Singapore Market Information
 
-Isatuximab is currently **not registered** in Singapore. No product licences have been identified through the Health Sciences Authority (HSA) database.
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN16630P | SARCLISA Concentrate for Solution for Infusion 20 mg/mL | Infusion, solution concentrate | Sanofi-Aventis Deutschland GmbH |
 
-> Isatuximab (brand name Sarclisa) holds regulatory approval in the United States (FDA, 2020), European Union (EMA, 2020), and Japan (PMDA, 2020) for relapsed/refractory multiple myeloma. A Singapore registration application may be pending or not yet submitted.
-
----
+The approved indication text was not provided in the supplied registration data. The only registered route is injectable (intravenous infusion).
 
 ## Cytotoxicity
 
-Isatuximab is an antineoplastic agent (anti-CD38 monoclonal antibody) indicated for haematological malignancy.
-
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted immunotherapy — anti-CD38 IgG1-kappa monoclonal antibody (not conventional cytotoxic) |
-| Myelosuppression Risk | Moderate to High — neutropenia and thrombocytopenia are commonly reported in combination regimens (e.g., with pomalidomide-dexamethasone or carfilzomib-dexamethasone) |
-| Emetogenicity Classification | Low (monoclonal antibodies carry low intrinsic emetogenic potential; premedication is required to manage infusion-related reactions, not emesis) |
-| Monitoring Items | Complete blood count with differential (CBC-diff), renal function, hepatic function; monitor for infusion-related reactions during and after each infusion |
-| Handling Protection | Follows institutional monoclonal antibody handling protocols; cytotoxic chemotherapy handling precautions apply as per local pharmacy SOPs |
-
----
+|------|------|
+| Cytotoxicity Classification | Immunotherapy (anti-CD38 monoclonal antibody), not a conventional cytotoxic |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Low (typical of monoclonal antibodies; confirm against the package insert) |
+| Monitoring Items | CBC with differential, liver and renal function; blood typing before the first dose, since anti-CD38 antibodies can interfere with red cell serology |
+| Handling Protection | Follow institutional procedures for handling antineoplastic biologics; confirm against the package insert |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Formal safety data including TFDA/HSA-registered warnings and contraindications are not available in the current Evidence Pack.
+- **Drug Interactions:** No interactions were found in the queried database.
+- **Transfusion:** Anti-CD38 antibodies can interfere with red cell serology, which matters for transfusion planning.
+- **Hypersensitivity:** The literature above describes anaphylaxis and desensitization with isatuximab.
 
-> Based on published prescribing information for Sarclisa, clinicians should be aware that Isatuximab is associated with infusion-related reactions (premedication required), increased infection risk (particularly respiratory infections and pneumonia), neutropenia, and interference with cross-matching and blood typing tests due to CD38 expression on red blood cells.
-
----
+Otherwise, please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Although the mechanistic link between Isatuximab's CD38-targeting mechanism and indolent plasma cell myeloma is scientifically compelling (both share CD38-high malignant plasma cells), the complete absence of dedicated clinical trials and the low quality of available literature (case reports addressing hypersensitivity, not efficacy) mean there is insufficient clinical evidence to justify advancement beyond hypothesis generation. Additionally, the clinical management philosophy for indolent myeloma (watchful waiting) differs fundamentally from active disease, requiring careful evaluation of the risk-benefit profile before any intervention is considered.
+The mechanistic case is plausible and the model score is high, but there are no trials and no directly relevant literature. The safety data are also missing, which blocks the safety screening step. This is a research question, not a candidate ready to proceed.
+
+The other nine predicted indications (scores 0.58–0.65, all L5, none with evidence or a plausible mechanistic link) are also on Hold.
 
 **To proceed, the following is needed:**
-
-- **MOA data supplementation**: Retrieve full Isatuximab mechanism of action from DrugBank API (DB14811) to complete mechanistic analysis
-- **Singapore regulatory pathway assessment**: Evaluate HSA registration feasibility; Sarclisa is approved in major markets and may qualify for expedited review
-- **Dedicated clinical evidence search**: Broaden PubMed/ClinicalTrials.gov query to include smouldering myeloma, asymptomatic myeloma, and early intervention trials that may include anti-CD38 arms
-- **Safety data retrieval**: Obtain full prescribing information and TFDA/HSA package insert to complete safety profile (currently Blocking data gap per DG001)
-- **Preclinical literature review**: Assess whether any in vitro or mouse model studies have explored anti-CD38 treatment in indolent or smouldering myeloma contexts
-- **Clinical strategy consultation**: Engage with a haematology/oncology expert to evaluate whether the evolving early-intervention evidence base in smouldering myeloma (e.g., CESAR, ECOG E3A06 descendants) creates an opening for an Isatuximab-based trial design
+- HSA package insert warnings and contraindications
+- Detailed mechanism of action data (MOA) from DrugBank
+- Trial or observational evidence for isatuximab in indolent or smoldering plasma cell myeloma
+- A benefit-risk assessment for treating a low-activity disease with a systemic antineoplastic antibody
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -29,56 +29,96 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tadalafil: From Unregistered Indication to Ambras Type Hypertrichosis Universalis Congenita
+# Tadalafil: From Its Registered Uses to Ambras Type Hypertrichosis Universalis Congenita
 
 ## One-Sentence Summary
 
-Tadalafil is a PDE5 inhibitor whose approved uses (based on general pharmacological knowledge embedded in this evidence pack) rely on inhibiting cGMP degradation to relax vascular and smooth muscle. The TxGNN model's top-ranked prediction for this drug is **Ambras type hypertrichosis universalis congenita**, a rare congenital hair-overgrowth syndrome — but this pairing is supported by **zero clinical trials and zero publications**, and the model's own rationale states it is a pure statistical artifact with no known mechanistic basis.
+Tadalafil is a PDE5 inhibitor marketed in Singapore, but the registration records provided do not state its approved indication.
+The TxGNN model predicts it may be effective for **Ambras type hypertrichosis universalis congenita** with a very high score, but **no clinical trials and no publications** support this prediction.
+It is most likely a knowledge-graph artifact, and the recommendation is **Hold**.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no market authorization or approved indication text on record in Singapore |
+| Original Indication | Not stated in the registration records provided |
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
 | TxGNN Prediction Score | 99.98% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 20 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed drug-level mechanism-of-action data is flagged as a data gap in this pack. However, mechanistic context recoverable from the evidence pack's rationale fields indicates Tadalafil is a PDE5 inhibitor: it blocks degradation of cGMP, producing vascular and smooth muscle relaxation, with known clinical relevance to the corpus cavernosum and pulmonary vasculature (the same rationale text notes Tadalafil is already used in WHO Group 1 pulmonary arterial hypertension).
+Currently, detailed mechanism of action data is not available in the input. Tadalafil is generally known as a PDE5 inhibitor that raises intracellular cGMP, but this evidence pack does not document its original indications.
 
-Ambras type hypertrichosis universalis congenita is a congenital, genetically-driven disorder of excessive hair growth. There is no established biological pathway connecting PDE5/cGMP signaling to the genetic regulation of hair follicle overgrowth in this condition. The evidence pack's own mechanistic assessment for this prediction states explicitly that the association is "purely a statistical relationship derived from the TxGNN knowledge graph, without any mechanistic or clinical basis."
+On this basis, the prediction is **not mechanistically supported**:
 
-In other words, despite a very high model confidence score (99.98%), this particular top-ranked prediction should not be interpreted as a credible repurposing signal — a high TxGNN score reflects graph-embedding similarity, not biological plausibility, and here the two diverge substantially.
+- Ambras syndrome is a genetic disorder caused by a chromosome 8q22 position effect that alters regulation of the *TRPS1* gene. No known pathway connects PDE5/cGMP signaling to this mechanism.
+- The condition involves excess hair growth. A drug that reduces hair growth would be needed, and nothing suggests tadalafil does this.
+- The high score probably reflects graph propagation through shared hair-phenotype nodes, not a real pharmacological link.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
 
+---
+
+## Singapore Market Information
+
+Tadalafil has 20 registrations in Singapore. Five main ones are shown below. The approved indication text is not available in the records provided.
+
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|------|
+| SIN16935P | A-Tadalafil Film-Coated Tablets 10 mg | Film-coated tablet | Micro Labs Limited |
+| SIN16885P | Tadalafil-Teva FC Tablet 5 mg | Film-coated tablet | Teva Pharma, S.L.U. |
+| SIN15899P | Caliberi Orodispersible Film 5 mg | Soluble film | CTCBIO Inc. |
+| SIN16134P | Tadafil 2.5 Tadalafil Tablets USP 2.5 mg | Film-coated tablet | Hetero Labs Limited |
+| SIN16132P | Tadafil 10 Tadalafil Tablets USP 10 mg | Film-coated tablet | Hetero Labs Limited |
+
+---
+
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Note: official label warnings and contraindications for this drug have not yet been obtained and are currently a blocking data gap for any formal safety evaluation.
+- **Drug Interactions**: The interaction query returned no records (not found). This does not mean no interactions exist.
+- **Migraine signal**: A 2006 case report ([PMID 17059442](https://pubmed.ncbi.nlm.nih.gov/17059442/), *Cephalalgia*) describes tadalafil associated with typical migraine aura without headache. This matters for the lower-ranked migraine predictions, which are not supported as treatment targets.
+
+Please refer to the package insert for warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (Ambras type hypertrichosis universalis congenita) has no clinical trial or literature support, and the model's own rationale confirms it lacks mechanistic plausibility — this is a statistical artifact, not a repurposing signal. The drug is also not currently marketed in Singapore (0 registrations), and blocking safety data (official label warnings/contraindications) is unavailable, preventing entry into a formal safety review (S1).
+The top prediction has no trials, no literature, and no plausible mechanism, and it is likely a graph-propagation artifact. The other nine predictions reviewed (Evidence Level L4–L5, all Hold) are also unsupported:
+
+- **Hair and skin conditions** (hypertrichosis, isolated genetic hair shaft abnormality, familial isolated trichomegaly, hypotrichosis simplex of the scalp): no established link.
+- **Malformation syndromes** (Dandy-Walker feature, odontal/periodontal component): no plausible mechanism. The periodontal literature is general periodontitis literature that never mentions tadalafil.
+- **Migraine** (with brainstem aura, and migraine disorder): the only evidence is the adverse-event case report above, which argues against this direction.
+- **Kyphoscoliotic heart disease**: the only indirectly plausible candidate. Kyphoscoliosis can cause secondary pulmonary hypertension, which PDE5 inhibition could theoretically help. There are no trials or literature, and evidence in similar pulmonary hypertension groups has been mixed.
 
 **To proceed, the following is needed:**
-- Obtain official label warnings and contraindications from HSA (or equivalent regulatory source) to close the blocking data gap before any safety-stage evaluation
-- Obtain a verified, sourced mechanism-of-action reference for Tadalafil to close the mechanism data gap
-- If this candidate pack is revisited, evaluate rank 7 (kyphoscoliotic heart disease, L4/S1, "Research Question") separately — it is the only candidate in this pack with a biologically coherent link to Tadalafil's known pulmonary vasodilatory activity, though evidence remains preclinical/theoretical
-- Treat the migraine-related candidates (ranks 8–9) as safety signals rather than efficacy leads — available literature associates Tadalafil with *inducing* migraine aura, not treating it
+- Package insert warnings and contraindications from the HSA website (this blocks any safety screening)
+- The drug's original indications and mechanism of action (e.g., from the DrugBank API)
+- For kyphoscoliotic heart disease, a targeted literature search on PDE5 inhibitors in secondary pulmonary hypertension
+- Any preclinical or clinical data specific to tadalafil in the predicted conditions before reconsidering the hair-related predictions
+
+*These results are for research reference only and do not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

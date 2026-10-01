@@ -33,88 +33,81 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Bortezomib (Velcade) is a first-in-class 26S proteasome inhibitor, approved globally as a primary treatment for multiple myeloma and relapsed mantle cell lymphoma, though it holds no current product registration in Singapore.
-The TxGNN model predicts it may be effective for **Vertebral Anomalies and Variable Endocrine and T-Cell Dysfunction** (score: 96.10%),
-with **no clinical trials** and **no publications** currently supporting this specific direction — this is a purely model-driven prediction based on graph neural network inference, without any clinical or experimental evidence.
-
----
+Bortezomib is a proteasome inhibitor used in blood cancers such as multiple myeloma and mantle cell lymphoma. The HSA licence records supplied do not state its approved indication.
+The TxGNN model predicts it may be effective for **vertebral anomalies and variable endocrine and T-cell dysfunction**, but this is a **model prediction only**, with **0 clinical trials** and **0 publications** supporting it.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Multiple Myeloma / Mantle Cell Lymphoma (globally approved; not registered in Singapore) |
-| Predicted New Indication | Vertebral Anomalies and Variable Endocrine and T-Cell Dysfunction |
+|------|------|
+| Original Indication | Multiple myeloma (taken from the literature in the pack; the HSA indication text is blank) |
+| Predicted New Indication | Vertebral anomalies and variable endocrine and T-cell dysfunction |
 | TxGNN Prediction Score | 96.10% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 12 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Bortezomib is a reversible, selective inhibitor of the 26S proteasome, targeting specifically the chymotrypsin-like proteolytic activity of the β5 catalytic subunit. By blocking proteasomal degradation, it causes accumulation of polyubiquitinated regulatory proteins, stabilises pro-apoptotic factors (including IκBα, p53, Bax, and Bik), induces endoplasmic reticulum stress, and powerfully suppresses the NF-κB survival signalling axis. This combination of effects underlies its established clinical utility in multiple myeloma and mantle cell lymphoma, where constitutive NF-κB activation and high proteasomal load are hallmarks of the malignancy.
+Currently, detailed mechanism of action data is not available in the supplied record. Based on the literature in the pack, bortezomib is a first-in-class proteasome inhibitor. Its efficacy in multiple myeloma and mantle cell lymphoma is established, and it works mainly by blocking NF-kB signalling and inducing endoplasmic reticulum stress and apoptosis in malignant cells.
 
-"Vertebral anomalies and variable endocrine and T-cell dysfunction" is an extremely rare congenital syndrome characterised by structural vertebral defects combined with endocrine dysfunction and immune dysregulation at the T-cell level. The theoretical basis for TxGNN's prediction likely derives from Bortezomib's known ability to modulate T-cell function: proteasome inhibition alters MHC-I antigen presentation, disrupts T-cell homeostatic signalling via NF-κB suppression, and can influence the balance between regulatory and effector T-cell populations. These mechanisms may have indirect relevance to the T-cell dysfunction component of this syndrome.
-
-However, there is no established direct mechanistic link between proteasome inhibition and the pathogenesis of vertebral anomaly syndromes, which are primarily driven by developmental genetic programmes (e.g., NOTCH signalling, somitogenesis transcription factors) entirely unrelated to proteasome biology. The high TxGNN score (0.961, graph rank 24,031) reflects structural similarity in the disease–gene knowledge graph rather than any validated biological or clinical rationale. No clinical trials have been registered, no relevant publications exist, and no preclinical model data supports this use. This prediction should be treated as a hypothesis-generating signal only, with no near-term clinical development pathway.
-
----
+The predicted condition is a rare syndrome involving skeletal, endocrine and T-cell abnormalities. It is not a cancer, so it has no obvious biological link to the drug's antitumour mechanism. The model score is high (96.10%), but no trials or publications were retrieved, and no mechanistic rationale can be drawn from the supplied data. The prediction should be treated as a hypothesis-generating signal only.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Bortezomib is not currently registered with Singapore's Health Sciences Authority (HSA). No product licences were found in the regulatory database. Clinicians requiring Bortezomib in Singapore would need to access it via special approval or importation pathways.
+There are 12 registrations in total. Five are listed below.
 
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN16586P | BORTEZOMIB-AFT Powder for Solution for Injection 3.5mg/vial | Injection, powder, for solution | Not listed |
+| SIN15243P | BORACTIB Powder for Solution for Injection 3.5mg/vial | Injection, powder, lyophilized, for solution | Not listed |
+| SIN16421P | VELTEZOM Powder for Solution for Injection 3.5mg | Injection, powder, lyophilized, for solution | Not listed |
+| SIN16409P | BORTEBIN Powder for Solution for Injection 3.5mg/vial | Injection, powder, lyophilized, for solution | Not listed |
+| SIN16892P | MIBZO Powder for Solution for Injection 3.5mg/vial | Injection, powder, for solution | Not listed |
 
 ## Cytotoxicity
 
-Bortezomib is an antineoplastic agent used for haematological malignancies. The cytotoxicity assessment below is based on its established pharmacological class and internationally published prescribing information.
-
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy — Proteasome inhibitor (novel mechanism; distinct from conventional cytotoxic chemotherapy) |
-| Myelosuppression Risk | Moderate to High: Thrombocytopenia is the hallmark haematologic toxicity. Platelet nadir typically occurs around Day 11 of a 21-day cycle and recovers by Day 21. Neutropenia and anaemia are also observed. |
-| Emetogenicity Classification | Low (minimal emetogenic potential per MASCC/ESMO oncology guidelines) |
-| Monitoring Items | CBC with differential and platelet count before each dose; liver function tests; renal function; blood glucose (especially in diabetic patients); peripheral neuropathy clinical assessment each cycle |
-| Handling Protection | Must follow institutional cytotoxic drug handling regulations: gloves and protective gown required; avoid skin and mucous membrane contact; dispose of as hazardous waste |
-
----
+|------|------|
+| Cytotoxicity Classification | Targeted therapy (proteasome inhibitor) |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert warnings and precautions |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Although the TxGNN model assigns a high predictive score (96.10%) to Bortezomib for vertebral anomalies and variable endocrine and T-cell dysfunction, this remains a purely model-derived prediction backed by zero clinical trials, zero supporting publications, and no established mechanistic connection to this rare congenital developmental syndrome. At the current evidence level (L5), no clinical development activities can be justified.
+This candidate is supported only by the model score (L5). There are no trials, no publications and no plausible mechanistic link to a non-malignant syndrome. The HSA package insert is also missing, so safety screening cannot start.
 
 **To proceed, the following is needed:**
-- Basic mechanistic investigation to determine whether proteasome inhibition modulates any pathway relevant to vertebral anomaly or T-cell dysfunction in this specific syndrome
-- Retrieval of Bortezomib's full mechanism of action documentation from DrugBank (currently a data gap) to identify any overlooked biological connections
-- Identification of relevant patient-derived cell lines, animal models, or organoids that recapitulate this syndrome's pathophysiology
-- Acquisition of Bortezomib's Singapore package insert or international SmPC to establish a full safety reference baseline
-- Review of whether the T-cell dysfunction component of this syndrome shares any molecular features with the immune dysregulation Bortezomib modulates in myeloma (e.g., NF-κB pathway involvement)
-- Expert consultation with rare disease specialists to evaluate whether the genetic architecture of this syndrome overlaps with proteasome-regulated processes
+- HSA package insert warnings and contraindications (a blocking gap)
+- Drug mechanism-of-action data from DrugBank
+- Any mechanistic or clinical evidence linking proteasome inhibition to this syndrome
+
+**Other candidates for this drug**
+
+The pack contains lower-ranked predictions with more evidence. They are outside this report's primary indication but may be worth evaluating separately:
+- **Neuroblastoma** (score 95.11%, L2): several completed Phase 1 and Phase 1/2 paediatric trials plus extensive preclinical work.
+- **Hodgkin's lymphoma** (score 85.09%, L2): a randomized Phase 2 (BICE vs ICE) and other Phase 2 studies.
+- **Non-Hodgkin lymphoma, familial** (score 83.59%, L1): Phase 3 support comes from mantle cell lymphoma (VR-CAP), which is already an approved use. That support is not a repurposing finding, and the mapped term does not match the evidence.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

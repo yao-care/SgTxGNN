@@ -29,77 +29,69 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pralidoxime: From Organophosphate/Carbamate Poisoning to Bronchitis
+# Pralidoxime: From Organophosphate Poisoning to Bronchitis
 
 ## One-Sentence Summary
 
-Pralidoxime is an acetylcholinesterase (AChE) reactivator historically used as an antidote for organophosphate and carbamate poisoning. The TxGNN model predicts it may be effective for **Bronchitis**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the model's own rationale flags the mechanistic link as weak.
-
----
+Pralidoxime is an acetylcholinesterase reactivator, generally used as an antidote in organophosphate poisoning. The TxGNN model predicts it may be effective for **bronchitis**. Currently **0 clinical trials** and **0 publications** support this direction, so it is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not formally registered; historically used as an antidote for organophosphate/carbamate poisoning (AChE reactivation) |
+| Original Indication | Not stated in the Singapore registration record (generally known use: organophosphate poisoning) |
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 95.70% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not marketed (Not Marketed) |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available from DrugBank (marked as a data gap). However, based on the model's own repurposing rationale, Pralidoxime is known to act as an AChE reactivator: it reverses the phosphorylation of acetylcholinesterase caused by organophosphate or carbamate toxins, restoring normal enzyme function. It does not act directly on muscarinic receptors or bronchial smooth muscle.
+Currently, detailed mechanism of action data is not available in the supplied record. Based on general knowledge, pralidoxime reactivates acetylcholinesterase inhibited by organophosphates. Its efficacy in organophosphate poisoning is established, but the record lists no approved indication.
 
-The proposed link to bronchitis stems from the fact that organophosphate poisoning itself can cause cholinergic overactivation, leading to bronchospasm and excessive bronchial secretions — symptoms that overlap superficially with bronchitis. However, this is a toxicological *symptom* of poisoning, not evidence that Pralidoxime has a therapeutic pharmacological effect on bronchitis as a primary disease. The causal direction is reversed: Pralidoxime treats the underlying poisoning, it does not treat airway inflammation.
+A link to bronchitis, such as modulation of cholinergic airway tone, is possible in principle but speculative. Neither the mechanism data nor any trial or publication supports it. The high score most likely reflects proximity in the knowledge graph rather than a drug-specific mechanism.
 
-Given this, the mechanistic connection between the original use (antidote for AChE-inhibitor poisoning) and the predicted indication (bronchitis) is considered weak. This is consistent with the evidence pack's own assessment, which explicitly notes the mechanistic link is thin and the causal direction is misapplied. No clinical or literature evidence currently exists to independently support this prediction.
+Other top-ranked predictions are also unsupported by evidence:
+- Female breast carcinoma (88.3%)
+- Seborrheic dermatitis (83.8%)
+- Plasma cell myeloma (83.7%)
 
----
+Several of these appear correlated with each other. Examples are bronchial neoplasm with bronchitis, and the two myeloma entries. They should not be counted as independent evidence.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Pralidoxime currently has no marketing authorizations on record (market status: Not marketed / Not Marketed; total registrations: 0). No product license data is available to summarize.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN05412P | PAM-A INJECTION 500 mg/ampoule (ILDONG PHARMACEUTICAL CO., LTD) | Injection, powder, lyophilized, for solution | Not stated in the record |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
-*(Note: A Blocking-severity data gap exists — TFDA/HSA package insert warnings and contraindications have not yet been retrieved. This must be resolved before any safety-related decision can be made.)*
-
----
+Please refer to the package insert for safety information. No drug interaction records were found.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-All ten predicted indications for Pralidoxime — including the top-ranked candidate, bronchitis — sit at Evidence Level L5 (model prediction only) with no supporting clinical trials or literature (decision stage S0). The mechanistic rationale for bronchitis is weak and directionally inconsistent (poisoning symptom vs. therapeutic indication), and a Blocking-severity safety data gap (missing package insert warnings/contraindications) currently prevents even an initial safety screen (S1).
+The prediction rests on the model score alone. No trials, no literature, no mechanism data and no safety data are available. The only registered product is an injectable, and the route requirements for bronchitis have not been assessed.
 
 **To proceed, the following is needed:**
-- TFDA/HSA package insert warnings and contraindications (resolves Blocking gap DG001)
-- Verified mechanism of action data from DrugBank API (resolves High-priority gap DG002)
-- Confirmation of the drug's formally approved indication text, since no local registration/license data currently exists
-- At minimum, preclinical or mechanistic literature supporting a plausible pharmacological pathway between AChE reactivation and bronchitis before advancing past S0
-- Continued monitoring for clinical trial or publication signals, as none currently exist for any of the ten predicted indications in this evidence pack
+- Package insert warnings and contraindications from HSA (blocking for safety screening)
+- Mechanism of action data, for example from DrugBank
+- A literature and trial search focused on cholinergic mechanisms in bronchitis
+- A route-compatibility assessment, since only an injectable form is registered
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

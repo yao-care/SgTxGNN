@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Distigmine
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 336
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 ---
 
 # Distigmine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,75 +33,66 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Distigmine (DB13694) is an acetylcholinesterase inhibitor (AChEI) used in Japan for detrusor underactivity — a bladder condition characterised by impaired detrusor muscle contraction. The TxGNN model predicts it may be effective for **Myasthenia Gravis with Thymus Hyperplasia** (TxGNN score: 99.9984%), which is mechanistically plausible given that AChEIs are already the cornerstone of MG therapy. However, **no clinical trials or literature** currently exist specifically linking Distigmine to this MG subtype, leaving the evidence at preclinical/mechanistic level only.
-
----
+Distigmine is a long-acting cholinesterase inhibitor. The literature describes it as a treatment for detrusor underactivity, but the Singapore registration record does not state an indication.
+The TxGNN model predicts it may be effective for **myasthenia gravis with thymus hyperplasia**.
+There are currently **0 clinical trials** and **0 publications** for this indication, so the prediction rests on model output and class-level reasoning only.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Detrusor underactivity (urinary retention) |
-| Predicted New Indication | Myasthenia Gravis with Thymus Hyperplasia |
-| TxGNN Prediction Score | 99.9984% |
-| Evidence Level | L4 |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+|------|------|
+| Original Indication | Detrusor underactivity (per PMID 20410601; not stated in the Singapore registration record) |
+| Predicted New Indication | Myasthenia gravis with thymus hyperplasia |
+| TxGNN Prediction Score | 99.998% |
+| Evidence Level | L5 (no studies for this indication; the source pack labels it L4 on mechanism reasoning) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Distigmine is a long-acting carbamate-type acetylcholinesterase inhibitor. By inhibiting AChE, it prevents the breakdown of acetylcholine (ACh) at the neuromuscular junction (NMJ), resulting in a sustained elevation of ACh concentration. A 2010 receptor binding study (PMID 20410601) further confirmed that Distigmine has direct binding activity at both muscarinic and nicotinic receptors — a dual-action profile that distinguishes it from simpler AChEIs.
+Detailed mechanism of action data is not available in the Evidence Pack. Distigmine is a long-acting cholinesterase inhibitor. Blocking acetylcholinesterase raises acetylcholine levels at the neuromuscular junction. This is the standard symptomatic mechanism used in autoimmune myasthenia gravis.
 
-Myasthenia gravis with thymus hyperplasia is the most common subtype of MG, characterised by autoantibodies against acetylcholine receptors (AChR) that reduce the number of functional AChRs at the NMJ. Elevating ACh availability — exactly what AChEIs do — compensates for this receptor loss and is the rationale behind pyridostigmine being the established first-line treatment for MG worldwide. Since Distigmine shares the same core mechanism and reportedly has a longer duration of action than pyridostigmine, the TxGNN model's prediction is pharmacologically coherent.
+A receptor-binding study (PMID 20410601) found that distigmine binds muscarinic and nicotinic receptors. It also inhibited blood acetylcholinesterase more weakly than neostigmine did. This supports its cholinergic pharmacology, but it was studied in detrusor underactivity, not in myasthenia gravis.
 
-Distigmine's longer half-life is a theoretical advantage in MG (less frequent dosing), but it also increases the risk of cholinergic crisis. The absence of any MG-specific clinical data for Distigmine means this mechanistic logic has not been clinically validated. For thymus hyperplasia-associated MG specifically, thymectomy and immunosuppression remain the primary disease-modifying approaches; AChEI would serve as symptomatic adjunct therapy.
-
----
+The link to myasthenia gravis is indirect. It rests on the drug class, not on any distigmine study in this subtype. The high TxGNN score is a model output and is not clinical evidence.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Distigmine in myasthenia gravis with thymus hyperplasia.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for Distigmine in myasthenia gravis with thymus hyperplasia.
+Currently no related literature available for this indication.
 
----
+Two publications turned up under other predictions, and neither supports this one:
+- PMID 20410601 (2010, *Biological & Pharmaceutical Bulletin*) is a receptor-binding study in detrusor underactivity. It was found under "disease of receptor activity".
+- PMID 19172815 (2009, *No to Hattatsu*) is a case-level report on congenital myasthenic syndrome with acetylcholine receptor deficiency. It was found under the refractory congenital myasthenia prediction.
 
 ## Singapore Market Information
 
-Distigmine has no registered products in Singapore. The drug is primarily available in Japan under local regulatory approval for detrusor underactivity.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN02915P | UBRETID TABLET 5 mg (Globopharm) | Tablet (oral) | Not stated in the record |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
-> **Note:** Distigmine is an acetylcholinesterase inhibitor. As a class effect, clinicians should be aware of the risk of **cholinergic excess** (bradycardia, excessive secretions, muscle fasciculation, cholinergic crisis), which is particularly relevant at higher doses or in patients with impaired drug clearance. The long half-life of Distigmine compared to pyridostigmine may increase this risk. No drug interaction data or formal contraindication data were retrievable for this Evidence Pack.
-
----
+Please refer to the package insert for safety information. No interactions were found in the drug interaction query.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic rationale for using Distigmine in myasthenia gravis with thymus hyperplasia is strong — it shares the same AChEI mechanism as the established standard-of-care drug pyridostigmine. However, the complete absence of clinical trials, MG-specific publications, and Singapore regulatory registration means there is no translational evidence chain to support proceeding toward clinical development or formulary evaluation at this time.
+The mechanism is plausible for autoimmune myasthenia gravis, but there are no trials or publications for this indication and no safety data. Other candidates in the list are weaker. Several have no plausible link (hypersplenism, atypical hemolytic-uremic syndrome). Others conflict with the mechanism (myasthenia refractory to acetylcholinesterase inhibitors) or carry unfavourable safety concerns (neonatal and fetal indications).
 
 **To proceed, the following is needed:**
+- Obtain the HSA package insert and confirm the registered indication, warnings and contraindications
+- Retrieve mechanism of action data from DrugBank
+- Search for distigmine-specific clinical evidence in myasthenia gravis, including regional registries
+- Compare distigmine against established cholinesterase inhibitors, given its long duration of action
 
-- **MOA verification:** Retrieve full DrugBank pharmacology profile (mechanism, targets, ADME) to formally characterise Distigmine vs. pyridostigmine
-- **Comparative pharmacokinetic data:** Establish half-life, bioavailability, and dose equivalence versus pyridostigmine in humans
-- **MG-specific case reports or observational data:** Systematic search in Japanese literature (J-Stage, Ichushi) where Distigmine has regulatory approval and clinical use
-- **Safety profile for MG patients:** Package insert data from Japanese PMDA approval for detrusor underactivity; evaluate cholinergic crisis risk thresholds
-- **Regulatory pathway assessment:** Determine whether an off-label use pathway or new indication study would be required in Singapore given zero local registration
-- **Subtype relevance analysis:** Clarify whether thymus hyperplasia-associated MG patients respond differently to long-acting vs. short-acting AChEIs, to assess whether Distigmine's longer duration of action is a net benefit or risk in this specific subtype
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

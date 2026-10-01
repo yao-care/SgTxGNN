@@ -29,89 +29,95 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Mycophenolate Mofetil: From Transplant Rejection Prophylaxis to HIV Infection
+# Mycophenolate mofetil: From Transplant Rejection Prophylaxis to HIV Infectious Disease
 
 ## One-Sentence Summary
 
-Mycophenolate mofetil (MMF) is internationally used as an immunosuppressant for the prophylaxis of organ transplant rejection. The TxGNN model predicts it may have adjunctive antiretroviral value in **HIV infectious disease**, with **10 clinical trials** and **20 publications** currently identified, though most of the direct evidence is small, older, or of uncertain/terminated status.
-
----
+Mycophenolate mofetil (MMF) is an immunosuppressant; the literature in this pack describes it as used to prevent allograft rejection after kidney, heart, or liver transplant. The TxGNN model predicts it may be useful for **HIV infectious disease**, with a very high score. Evidence is **small and early**: about 5 trials test MMF directly in HIV, mostly small or unresolved, plus about 10 clinical and pharmacokinetic papers, and clinical benefit has not been established.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available from Singapore regulatory data (drug is not registered/marketed in Singapore); internationally, MMF is indicated for prophylaxis of organ transplant rejection (renal, cardiac, hepatic) |
+| Original Indication | Not listed in the HSA records provided; the literature describes prevention of allograft rejection after transplant |
 | Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 99.86% |
 | Evidence Level | L2 |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 11 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack (drug-level data gap, source: DrugBank, not yet retrieved). Based on the mechanistic rationale associated with this prediction, MMF's active metabolite mycophenolic acid (MPA) inhibits IMPDH (inosine monophosphate dehydrogenase), depleting intracellular guanine nucleotide pools. This has two theoretically relevant downstream effects: (1) it reduces T-cell activation and proliferation, which could lower the chronic immune-activation burden that drives HIV disease progression; and (2) it can potentiate the intracellular phosphorylation/activity of certain nucleoside reverse transcriptase inhibitors (e.g., abacavir, and the investigational agent DAPD/amdoxovir), giving a potential pharmacodynamic synergy with antiretroviral therapy.
+Detailed mechanism-of-action data are not available in the drug record. The candidate rationale in the pack is as follows. MMF inhibits IMPDH, which depletes guanosine and deoxyguanosine nucleotides. This limits lymphocyte proliferation and so may shrink the pool of activated CD4+ T cells that HIV infects. The lower dGTP pool may also enhance guanosine-analogue antiretrovirals such as abacavir and didanosine.
 
-This is a mechanistically well-defined hypothesis that has already been tested in several proof-of-concept clinical studies (see below) rather than a purely computational association — several groups investigated MMF as an adjunct to HAART/ART from the late 1990s through the mid-2000s. However, the clinical signal is old, small-scale, and mixed (including a withdrawn trial with zero enrollment and two "unknown status" Phase 4 studies), so it should be regarded as a research hypothesis rather than an established therapeutic use.
+This gives two possible routes to benefit. One is direct: interfering with viral replication and reverse transcription. The other is indirect: dampening the chronic immune hyperactivation linked to HIV progression. The two routes can pull in opposite directions, because suppressing T cells could also impair immune reconstitution. One short communication (PMID 16379601) examined this concern in patients on HAART plus MMF.
 
----
+The very high TxGNN score is a knowledge-graph signal only. The small pilot studies below explored this idea about 20 years ago. Clinical benefit was not established, and there is no evidence of later adoption.
 
 ## Clinical Trial Evidence
 
+Only some of the trials below test MMF as an HIV treatment. Several are transplant or unrelated studies retrieved by keyword match.
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00038272](https://clinicaltrials.gov/study/NCT00038272) | Phase 1/2 | Completed | 56 | Double-blind, placebo-controlled pilot of DAPD (amdoxovir) vs. DAPD + MMF in treatment-experienced HIV patients; directly tests MMF's antiviral-potentiating mechanism |
-| [NCT00021489](https://clinicaltrials.gov/study/NCT00021489) | Phase 1/2 | Withdrawn | 0 | Planned safety/tolerability/antiretroviral-activity study of MMF added to abacavir in heavily treatment-experienced patients; withdrawn before enrollment, no data generated |
-| [NCT00247494](https://clinicaltrials.gov/study/NCT00247494) | Phase 4 | Unknown | 90 | MAN2 substudy assessing effect of MMF 500 mg BID on cardiovascular surrogate markers in ART-naive HIV-1 patients |
-| [NCT00120419](https://clinicaltrials.gov/study/NCT00120419) | Phase 4 | Unknown | 90 | MAN2 study: evaluates whether MMF reduces chronic immune hyperactivation and CD4+ T-cell decline, and its effect on plasma HIV-1 RNA, in untreated chronic HIV-1 infection |
-| [NCT01453192](https://clinicaltrials.gov/study/NCT01453192) | Phase 3 | Completed | 27 | Renal transplantation in HIV-1 patients under raltegravir-based ART; evaluates acute graft rejection, with MMF used as standard post-transplant immunosuppression rather than as an HIV-directed therapy |
-| [NCT00009009](https://clinicaltrials.gov/study/NCT00009009) | Phase 2 | Completed | 10 | Safety/efficacy of renal transplantation in HIV-infected patients with ESRD; MMF is part of the standard immunosuppressive regimen, not the primary study intervention against HIV |
-| [NCT00112593](https://clinicaltrials.gov/study/NCT00112593) | N/A | Completed | 5 | Allogeneic HSCT to induce mixed hematopoietic chimerism in HIV-1-infected patients; MMF used as post-transplant immunosuppression |
-| [NCT01288131](https://clinicaltrials.gov/study/NCT01288131) | Phase 3 | Terminated | 8 | Cyclosporine + MMF vs. cyclophosphamide + prednisolone for anti-EPO-associated pure red cell aplasia; unrelated disease, not HIV-specific |
-| [NCT02793544](https://clinicaltrials.gov/study/NCT02793544) | Phase 2 | Completed | 80 | HLA-mismatched unrelated donor bone marrow transplant with post-transplant cyclophosphamide, sirolimus and MMF for GVHD prophylaxis in hematologic malignancies; not related to HIV treatment |
-| [NCT06869265](https://clinicaltrials.gov/study/NCT06869265) | Phase 2 | Recruiting | 56 | Thiotepa/busulfan/fludarabine conditioning for haploidentical HSCT in high-risk AML; unrelated to HIV or MMF's antiviral mechanism |
-
----
+| [NCT00120419](https://clinicaltrials.gov/study/NCT00120419) | Phase 4 | Unknown | 90 | MAN2 study: MMF in antiretroviral-naive HIV-1 patients, to see whether it reduces immune hyperactivation and CD4 decline; no results provided |
+| [NCT00247494](https://clinicaltrials.gov/study/NCT00247494) | Phase 4 | Unknown | 90 | MAN2 substudy of MMF effects on cardiovascular surrogate markers in HIV-1; not a viral-control endpoint |
+| [NCT00038272](https://clinicaltrials.gov/study/NCT00038272) | Phase 2 | Completed | 56 | Randomized, double-blind, placebo-controlled: DAPD vs DAPD plus MMF added to anti-HIV regimens in treatment-experienced patients (published as PMID 17885292) |
+| [NCT00021489](https://clinicaltrials.gov/study/NCT00021489) | Phase 2 | Withdrawn | 0 | MMF added to abacavir in heavily pre-treated HIV patients; withdrawn with no participants, so no data |
+| [NCT01453192](https://clinicaltrials.gov/study/NCT01453192) | Phase 3 | Completed | 27 | Kidney transplantation in HIV-infected patients on a raltegravir-containing regimen; the MMF link is unconfirmed and needs manual review |
+| [NCT00009009](https://clinicaltrials.gov/study/NCT00009009) | Phase 2 | Completed | 10 | Kidney transplant safety in HIV-infected patients; MMF likely part of immunosuppression, so it is not an HIV treatment trial |
+| [NCT00112593](https://clinicaltrials.gov/study/NCT00112593) | N/A | Completed | 5 | Stem cell transplant for chimerism in HIV-positive patients, with cyclosporine and MMF after transplant; not relevant to MMF as HIV therapy |
+| [NCT02793544](https://clinicaltrials.gov/study/NCT02793544) | Phase 2 | Completed | 80 | HLA-mismatched bone marrow transplant using MMF for GVHD prophylaxis; the HIV link is incidental |
+| [NCT01288131](https://clinicaltrials.gov/study/NCT01288131) | Phase 3 | Terminated | 8 | Anti-EPO pure red cell aplasia treated with cyclosporine plus MMF; not HIV-related |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [12352149](https://pubmed.ncbi.nlm.nih.gov/12352149/) | 2002 | RCT | J Acquir Immune Defic Syndr | Adding MMF 500 mg BID to abacavir-containing ART depleted intracellular dGTP and was associated with decreased plasma HIV-1 RNA in patients failing maximal therapy (n=5) |
-| [17017956](https://pubmed.ncbi.nlm.nih.gov/17017956/) | 2006 | Review | Curr Top Med Chem | Reviews immunosuppressive drugs, including MMF, as adjuncts targeting chronic immune activation in HIV disease progression |
-| [41118390](https://pubmed.ncbi.nlm.nih.gov/41118390/) | 2025 | Cohort | J Clin Invest | Explores antiproliferative drugs (including MPA-related mechanisms) for selectively targeting clonally expanded HIV-infected CD4+ T cells as a cure strategy |
-| [15871638](https://pubmed.ncbi.nlm.nih.gov/15871638/) | 2005 | Cohort | Clin Pharmacokinet | PK/PD of low-dose MMF in HIV-infected patients on abacavir, efavirenz, and nelfinavir; supports monitoring feasibility |
-| [16379601](https://pubmed.ncbi.nlm.nih.gov/16379601/) | 2005 | Cohort | AIDS Res Hum Retroviruses | MMF combined with HAART showed no detrimental immunological effects in treatment-naive acute/chronic HIV-1 patients |
-| [15355127](https://pubmed.ncbi.nlm.nih.gov/15355127/) | 2004 | Cohort | Clin Pharmacokinet | MMF's effect on pharmacokinetics of antiretrovirals and intracellular nucleoside triphosphate pools |
-| [15213566](https://pubmed.ncbi.nlm.nih.gov/15213566/) | 2004 | Cohort | J Acquir Immune Defic Syndr | Randomized pilot study: MMF's effect on immune response and viral load during/after HAART interruption (n=17) |
-| [11391161](https://pubmed.ncbi.nlm.nih.gov/11391161/) | 2001 | Cohort | J Acquir Immune Defic Syndr | Pilot study of MMF as a component of therapy for multidrug-resistant HIV-1 infection (n=7), well tolerated, no consistent virologic benefit shown |
-| [15353978](https://pubmed.ncbi.nlm.nih.gov/15353978/) | 2004 | Study | AIDS | Studied effect of MMF on plasma HIV-1 RNA decay rate and latent reservoir in treatment-naive patients starting ART |
-| [17885292](https://pubmed.ncbi.nlm.nih.gov/17885292/) | 2007 | Study | AIDS | Safety, tolerability and antiretroviral activity of DAPD with or without MMF in drug-resistant HIV infection |
+| [15213566](https://pubmed.ncbi.nlm.nih.gov/15213566/) | 2004 | Randomized pilot study | J Acquir Immune Defic Syndr | 17 patients on HAART were randomized to add MMF or continue HAART, then HAART was stopped in the MMF group; assessed immune response and viral load during interruption |
+| [15353978](https://pubmed.ncbi.nlm.nih.gov/15353978/) | 2004 | Clinical study | AIDS | HAART with or without MMF in treatment-naive patients; examined plasma HIV-1 RNA decay and the latent reservoir (results not in the retrieved abstract) |
+| [17885292](https://pubmed.ncbi.nlm.nih.gov/17885292/) | 2007 | Clinical study | AIDS | Safety, tolerability, and antiretroviral activity of DAPD with or without MMF in drug-resistant HIV after extensive prior therapy |
+| [12352149](https://pubmed.ncbi.nlm.nih.gov/12352149/) | 2002 | Clinical study | J Acquir Immune Defic Syndr | MMF added to abacavir-containing regimens in 5 patients failing therapy; associated with depleted intracellular dGTP and a decrease in plasma HIV-1 RNA |
+| [11391161](https://pubmed.ncbi.nlm.nih.gov/11391161/) | 2001 | Pilot study | J Acquir Immune Defic Syndr | 7 patients with AIDS and multidrug-resistant HIV received MMF plus abacavir, didanosine, amprenavir, and ritonavir; therapy was well tolerated |
+| [16379601](https://pubmed.ncbi.nlm.nih.gov/16379601/) | 2005 | Clinical study | AIDS Res Hum Retroviruses | Reported no detrimental immunological effects of MMF plus HAART on T-cell proliferation in treatment-naive patients |
+| [15871638](https://pubmed.ncbi.nlm.nih.gov/15871638/) | 2005 | Clinical PK/PD study | Clin Pharmacokinet | Pharmacokinetics and pharmacodynamics of low-dose MMF with abacavir, efavirenz, and nelfinavir; monitoring recommended because of low dosing |
+| [15355127](https://pubmed.ncbi.nlm.nih.gov/15355127/) | 2004 | Clinical PK study | Clin Pharmacokinet | Effect of MMF on antiretroviral pharmacokinetics and intracellular dCTP/dGTP pools |
+| [17017956](https://pubmed.ncbi.nlm.nih.gov/17017956/) | 2006 | Review | Curr Top Med Chem | Reviews immunosuppressive drugs in HIV disease, with immune hyperactivation as a marker of progression |
+| [39515757](https://pubmed.ncbi.nlm.nih.gov/39515757/) | 2025 | Registry analysis | Am J Transplant | Kidney transplant recipients with HIV discharged on tacrolimus/MMF; compares induction regimens, so this concerns transplant rather than HIV treatment |
 
----
+## Singapore Market Information
+
+MMF has 11 registrations in Singapore, and the pack also lists an injectable powder for solution. The approved-indication text is blank in the records provided. The five main authorizations:
+
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN09279P | CELLCEPT CAPSULE 250 mg | Capsule | Delpharm Milano S.r.l. / F. Hoffmann-La Roche Ltd (packagers) |
+| SIN16175P | TRANSTERO MYCOPHENOLATE MOFETIL CAPSULES 250MG USP | Capsule | Hetero Labs Limited |
+| SIN16011P | MOFECON 250 CAPSULES 250 MG | Capsule | Concord Biotech Limited |
+| SIN13986P | MYFENAX FILM-COATED TABLETS 500MG | Tablet, film coated | Teva Pharmaceutical Works Pte Ltd Company / Teva Pharmaceutical Industries Ltd |
+| SIN15596P | MYCOFIT 250 CAPSULE 250 MG | Capsule, gelatin coated | Intas Pharmaceuticals Limited |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No structured warnings, contraindications, or drug-interaction data were available in this evidence pack (DDI query status: not found).
+Please refer to the package insert for safety information.
 
----
+One preclinical signal is relevant to the safety question. A mouse study (PMID 16621037) reported that IMPDH inhibitors, including MMF, enhanced SARS-CoV infectivity, which fits the general concern that immunosuppression raises infection risk. The pack also does not include any drug-interaction data for MMF.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The HIV repurposing hypothesis for MMF has a clear pharmacological mechanism and is supported by an RCT plus several small cohort/pilot studies (Evidence Level L2), but the direct evidence base is largely 15–25 years old, small-scale, and includes a withdrawn trial (n=0) and two Phase 4 studies of unknown status. Combined with a **Blocking** data gap on TFDA/HSA label warnings and contraindications (DG001) — which prevents completion of the S1 safety screening stage — and the fact that MMF currently has zero registrations/market presence in Singapore, the candidate is not ready to advance.
+The mechanistic idea is plausible, but the direct HIV evidence is limited to small, mostly 2001–2007 pilot studies. The 90-patient Phase 4 MAN2 study has unknown status and no reported results, and the 2006 review considers immune-based approaches only as an adjunct. The pack's safety screen is also blocked because package insert warnings and contraindications are missing. Immunosuppression in people with HIV carries obvious infection-risk concerns.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from the regulatory authority (resolves DG001, currently blocking)
-- Detailed mechanism of action documentation from DrugBank (resolves DG002)
-- A completed drug-drug interaction (DDI) query (currently not_found)
-- Confirmation of a registration/import pathway, since the drug is not currently marketed in Singapore
-- An updated literature/trial search to assess whether more recent (post-2010) confirmatory studies exist, given that most direct MMF-HIV evidence predates modern ART regimens
+- HSA package insert warnings, contraindications, and drug interactions (blocking gap for safety screening)
+- Confirmed MOA data from DrugBank
+- Results of MAN2 (NCT00120419) and the DAPD plus MMF trial (NCT00038272 / PMID 17885292), and the full text of PMID 15353978 and 15213566, to check whether viral or reservoir endpoints improved
+- Manual check of the possible MMF link in NCT01453192
+- Assessment of whether any current unmet HIV need justifies pursuing this, given that antiretroviral therapy has advanced since these studies
+- Separate review of the multiple sclerosis candidate (rank 6), which has more direct evidence (a Cochrane review and Phase 2 trials) than this HIV prediction
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

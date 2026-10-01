@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Sorafenib
-parent: High Evidence (L1-L2)
+parent: Low Evidence (L5)
 nav_order: 920
-evidence_level: L2
+evidence_level: L5
 indication_count: 10
 ---
 
 # Sorafenib
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,91 +29,86 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Sorafenib: From Renal Cell Carcinoma to Liposarcoma
+# Sorafenib: From Advanced Kidney and Liver Cancer to Liposarcoma
 
 ## One-Sentence Summary
 
-Sorafenib is a multi-kinase inhibitor (RAF/MEK/ERK and VEGFR/PDGFR/c-KIT) whose approved use — evident across the trial evidence in this pack — centers on advanced/metastatic **Renal Cell Carcinoma (RCC)**. The TxGNN model predicts it may also be effective for **Liposarcoma**, but current support comes from only **2 clinical trials** (neither specific to liposarcoma) and **no dedicated literature**, so the signal remains preliminary.
-
-> ⚠️ Note: The evidence pack's `original_indications` field is empty and `original_moa` is flagged as a data gap. The "Renal Cell Carcinoma" original indication above is inferred from repeated references within the clinical trial and rationale data (e.g., NCT01613846: "Both drugs are registered for this indication" [RCC]; rank-3 rationale: "Sorafenib 為已核准之 RCC…標準治療"), not from a confirmed regulatory label.
-
----
+Sorafenib is an oral multikinase cancer drug. The literature in the Evidence Pack describes its established use in advanced renal cell carcinoma and as a first-line treatment for hepatocellular carcinoma.
+The TxGNN model predicts it may be effective for **liposarcoma**.
+Support is thin: **2 clinical trials** (only one tested sorafenib, in mixed soft tissue sarcoma rather than liposarcoma) and **no publications** specific to this indication.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Renal Cell Carcinoma (inferred from trial/rationale evidence; not confirmed by regulatory label — see data gap) |
+| Original Indication | Not stated in the Singapore registration records provided. Literature describes use in advanced renal cell carcinoma and hepatocellular carcinoma |
 | Predicted New Indication | Liposarcoma |
 | TxGNN Prediction Score | 99.82% |
-| Evidence Level | L2 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L2 as assigned in the Evidence Pack. It rests on one completed Phase 2 trial in mixed soft tissue sarcoma, which is not liposarcoma-specific and has no reported outcomes. |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 3 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data (`original_moa`) is flagged as a data gap in this evidence pack. However, the repurposing rationale attached to the top prediction indicates Sorafenib inhibits the RAF/MEK/ERK signaling cascade and the receptor tyrosine kinases VEGFR, PDGFR, and c-KIT — a mechanism consistent with its established anti-angiogenic and anti-proliferative activity in RCC.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Sorafenib is known to inhibit RAF, VEGFR and PDGFR signaling. Through these pathways it can block tumor growth signals and tumor blood supply.
 
-The rationale explicitly notes that this mechanism gives Sorafenib theoretical activity against vascularized soft tissue sarcomas as a class. However, it also flags an important caveat: liposarcoma — particularly the myxoid subtype driven by the **FUS-DDIT3** fusion — is not a classical receptor-tyrosine-kinase-dependent tumor. The mechanistic link is therefore described in the evidence pack itself as an **indirect extension** rather than a disease-specific mechanism, which is consistent with the modest evidence base below.
+Its efficacy in advanced renal cell carcinoma and hepatocellular carcinoma is established. Liposarcoma is a soft tissue sarcoma, a tumor type in which angiogenesis and growth-factor pathways are also relevant. This is the mechanistic basis for the model's prediction.
 
----
+The link is plausible but not proven. The only sorafenib-specific evidence is one Phase 2 trial in mixed advanced soft tissue sarcomas, and no liposarcoma-specific results are shown.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00217620](https://clinicaltrials.gov/study/NCT00217620) | Phase 2 | Completed | 51 | Sorafenib (BAY 43-9006) studied in advanced soft tissue sarcomas broadly, not liposarcoma-specific; Grade B relevance — subgroup data needed to confirm efficacy in liposarcoma. |
-| [NCT02048371](https://clinicaltrials.gov/study/NCT02048371) | Phase 2 | Completed | 131 | SARC024 study of oral **regorafenib** (a related but distinct BAY multi-kinase inhibitor) in selected sarcoma subtypes; cites precedent for sorafenib activity in osteogenic/Ewing sarcoma. Grade C — not direct sorafenib evidence, mechanistic analogy only. |
-
----
+| [NCT00217620](https://clinicaltrials.gov/study/NCT00217620) | Phase 2 | Completed | 51 | Sorafenib in advanced soft tissue sarcomas. It is a direct sorafenib trial but not liposarcoma-specific, and no outcomes are provided. |
+| [NCT02048371](https://clinicaltrials.gov/study/NCT02048371) | Phase 2 | Completed | 131 | SARC024 tested regorafenib, not sorafenib, in selected sarcoma subtypes. It is a structural analog with a similar kinase profile, so it is only indirect context. |
 
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Sorafenib currently has no registered product authorizations in Singapore (0 licenses on file; market status: Not Marketed).
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN13339P | NEXAVAR TABLET 200 mg (Bayer AG) | Film-coated tablet |
+| SIN16485P | INFENIB FILM COATED TABLET 200MG (Remedica Ltd / PharOS MT Ltd) | Film-coated tablet |
+| SIN16774P | SORAVAR 200 FILM COATED TABLET 200 MG (Intas Pharmaceuticals Limited) | Film-coated tablet |
 
----
+All three products are oral tablets. The approved indication text is not available in the records provided.
 
 ## Cytotoxicity
 
-**This drug is antineoplastic** (multi-kinase inhibitor used in RCC/oncology settings per trial evidence), so this section applies.
-
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (multi-target kinase inhibitor: RAF/VEGFR/PDGFR/c-KIT) |
+| Cytotoxicity Classification | Targeted therapy (multikinase inhibitor) |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
 | Monitoring Items | Please refer to the package insert warnings and precautions |
 | Handling Protection | Please refer to the package insert warnings and precautions |
 
----
-
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
----
+Please refer to the package insert for safety information. No drug interaction records were found in the Evidence Pack.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The lead prediction (Liposarcoma) rests on only two Phase 2 trials, neither of which enrolled a liposarcoma-specific population — one is not even a sorafenib trial (regorafenib). Combined with a **Blocking** data gap on TFDA/HSA warnings and contraindications (required before any S1 safety screen) and the fact that Sorafenib is not currently marketed in Singapore, the evidence is insufficient to proceed past a research-question stage for this indication.
+The TxGNN score is very high, but no liposarcoma-specific sorafenib trial or publication exists. The single sorafenib sarcoma trial is mixed-histology with no reported outcomes. The package insert safety data, which is a blocking gap, is also missing.
 
 **To proceed, the following is needed:**
-- TFDA/HSA package insert (warnings, contraindications) to unblock the S1 safety evaluation
-- Confirmed original indication and formal MOA data from DrugBank/regulatory source
-- Liposarcoma-subgroup outcome data from NCT00217620 (or a dedicated liposarcoma trial) to replace the current indirect mechanistic extrapolation
-- Consider re-evaluating rank 3 (Unclassified Renal Cell Carcinoma — L2, Proceed with Guardrails, Grade B trial + 3 supporting literature items) as a stronger near-term candidate, given it builds directly on Sorafenib's established RCC activity
+- HSA package insert warnings and contraindications (blocking), to allow safety screening
+- Results of NCT00217620, with a subgroup analysis for liposarcoma
+- Mechanism of action data to support the mechanistic-link analysis
+- The approved indication text for the Singapore registrations
+- Any liposarcoma-specific clinical or preclinical evidence, since the current support is indirect
+
+Among the other predicted indications, female breast carcinoma, renal pelvis carcinoma and dermatofibrosarcoma protuberans have more evidence than liposarcoma. They could be considered for a separate review.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

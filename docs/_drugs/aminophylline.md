@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Aminophylline
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 88
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
 ---
 
 # Aminophylline
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,68 +29,75 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Aminophylline: From Bronchospasm to Migraine Disorder
+# Aminophylline: From Bronchodilator Use to Migraine Disorder
 
 ## One-Sentence Summary
 
-Aminophylline is a methylxanthine derivative with dual pharmacological activity — adenosine receptor antagonism and phosphodiesterase (PDE) inhibition — established as a bronchodilator for asthma, COPD, and apnea of prematurity.
-The TxGNN model predicts it may be effective for **Migraine Disorder** by blocking adenosine-mediated intracranial vasodilation and neurogenic inflammation,
-with **0 registered clinical trials** and **6 publications** (evidence level **L3**) currently supporting this direction.
+Aminophylline is a theophylline-based drug, a bronchodilator by general pharmacology. The Singapore registration record does not state an approved indication.
+The TxGNN model predicts it may be effective for **Migraine Disorder**, but there are currently **0 registered clinical trials** and only **6 publications**. Of these, just 1 (a 2023 review) addresses aminophylline in migraine directly.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Bronchospasm (asthma / COPD / apnea of prematurity) |
-| Predicted New Indication | Migraine Disorder |
+|------|------|
+| Original Indication | Not stated in the Singapore registration record (general pharmacology: bronchodilator) |
+| Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 99.88% |
-| Evidence Level | L3 |
-| Singapore Market Status | ✗ Not marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 (mechanism and review-level literature only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Aminophylline is a soluble salt of theophylline and ethylenediamine. Its two primary pharmacological mechanisms are: **(1) non-selective adenosine receptor antagonism** (blocking A1, A2A, A2B, and A3 subtypes), and **(2) non-selective phosphodiesterase (PDE) inhibition**, which raises intracellular cAMP and cGMP levels in smooth muscle and neurons. Although formal MOA data could not be retrieved from the system, these mechanisms are well-characterised in the published literature and are directly relevant to the predicted indication.
+Currently, detailed mechanism of action data is not available in the source record. Based on general pharmacology, aminophylline (theophylline plus ethylenediamine) is a non-selective adenosine receptor antagonist and phosphodiesterase (PDE) inhibitor. Its efficacy as a bronchodilator is well established.
 
-The scientific case for migraine repurposing is mechanistically coherent. Adenosine — acting via A2A and A2B receptors — promotes intracranial vasodilation and neurogenic inflammation, both of which are central to migraine pathophysiology. Accumulating evidence suggests that migraine attacks may be driven in part by impaired cerebral energy metabolism leading to pathologically elevated extracellular adenosine. By blocking adenosine receptors, aminophylline theoretically interrupts this trigger. In parallel, PDE inhibition modulates downstream cAMP-dependent pathways that regulate CGRP (calcitonin gene-related peptide) release — a validated migraine target already exploited by approved therapies.
+The link to migraine rests on adenosine. A 2023 review proposes that migraine may involve impaired brain energy metabolism with pathologically high adenosine levels. It argues that adenosine blockade by aminophylline could relieve pain, particularly post-dural headache, and cites an observational case series. A regadenoson case report also fits this: regadenoson is an adenosine A2A agonist, and it triggered a hemiplegic migraine episode. Older in vitro work (1979) showed adenosine and related compounds dilate cerebral arteries.
 
-The most direct support comes from a 2023 review/case series (*Pain Management*, PMID 38059379) whose title is specifically "Aminophylline in pain and migraine," describing observational evidence of therapeutic benefit in post-dural puncture headache and pain. A 2022 case report (PMID 34308528) provides indirect confirmation: regadenoson — a selective A2A adenosine receptor agonist — triggered a hemiplegic migraine episode during nuclear cardiology stress testing, and the episode was reversed using methylxanthines including aminophylline. This real-world adenosine–migraine–antagonism chain strengthens the biological plausibility. That said, no prospective clinical trials have yet been conducted, and current evidence does not meet the threshold for clinical implementation.
+This is a plausible hypothesis, not a demonstrated effect. The evidence is a single review, a case report and mechanistic data, and the very high TxGNN score is a model prediction only.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Aminophylline in migraine disorder.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [38059379](https://pubmed.ncbi.nlm.nih.gov/38059379/) | 2023 | Review / Case Series | *Pain Management* | Proposes that migraine is driven by elevated adenosine levels and impaired brain energy metabolism; aminophylline (adenosine receptor antagonist) may provide strong relief in pain and post-dural headache, supported by an observational case series |
-| [34308528](https://pubmed.ncbi.nlm.nih.gov/34308528/) | 2022 | Case Report | *Journal of Nuclear Cardiology* | Regadenoson (A2A agonist used during stress MPI) triggered a hemiplegic migraine episode; symptoms reversed by methylxanthines including aminophylline and caffeine — directly demonstrating the adenosine–migraine link |
-| [219563](https://pubmed.ncbi.nlm.nih.gov/219563/) | 1979 | Basic Science | *Stroke* | Adenosine and adenine compounds markedly dilate feline and human pial arteries in vitro, with the effect absent in extracranial vessels; supports adenosine's selective role in intracranial vascular tone relevant to migraine |
-| [7728647](https://pubmed.ncbi.nlm.nih.gov/7728647/) | 1995 | Case Report | *Canadian Journal of Cardiology* | "Myocardial migraine" case with excessive adenosine effect: dipyridamole (adenosine potentiator) provoked severe pain and ST changes without ischemia; highlights adenosine's role in pain syndromes |
-| [14168418](https://pubmed.ncbi.nlm.nih.gov/14168418/) | 1964 | Clinical Report | *Aggiornamenti clinicoterapeutici* | Early Italian clinical report on pharmacological management of medical headaches; historical context only |
-| [5540199](https://pubmed.ncbi.nlm.nih.gov/5540199/) | 1971 | Formulation | *The Practitioner* | Describes aminophylline suppository formulation; provides context on available routes of administration but has no direct efficacy data for migraine |
+|------|-----|------|------|---------|
+| [38059379](https://pubmed.ncbi.nlm.nih.gov/38059379/) | 2023 | Review | Pain Management | Proposes migraine is driven by high adenosine and impaired brain energy metabolism. Argues aminophylline may relieve pain, especially post-dural headache, citing an observational case series. |
+| [34308528](https://pubmed.ncbi.nlm.nih.gov/34308528/) | 2022 | Case report | Journal of Nuclear Cardiology | A hemiplegic migraine episode was triggered by regadenoson, an adenosine A2A agonist. Indirect support for adenosine involvement. |
+| [7728647](https://pubmed.ncbi.nlm.nih.gov/7728647/) | 1995 | Case report | Canadian Journal of Cardiology | Syndrome X patient with an excessive adenosine effect, described as "myocardial migraine". Indirect and cardiac. |
+| [219563](https://pubmed.ncbi.nlm.nih.gov/219563/) | 1979 | Preclinical (in vitro) | Stroke | Adenosine and adenine compounds dilated cat and human pial arteries, but not extracranial arteries. Mechanistic relevance to migraine. |
+| [14168418](https://pubmed.ncbi.nlm.nih.gov/14168418/) | 1964 | Review | Aggiornamenti Clinicoterapeutici | Historical review of headaches. No abstract available. |
+| [5540199](https://pubmed.ncbi.nlm.nih.gov/5540199/) | 1971 | Other | The Practitioner | Suppositories article. Likely not relevant. |
 
 ---
 
 ## Singapore Market Information
 
-Aminophylline (DB01223) is **not registered** with Singapore's Health Sciences Authority (HSA). There are no active marketing authorizations on record. Any clinical use in Singapore would require compassionate use or importation procedures under applicable HSA regulatory pathways.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN03471P | AMINOPHYLLINE INJECTION 0.25 g/10 ml (Atlantic Laboratories Corp Ltd) | Injection | Not listed in the registration record |
+
+Only an injectable form is registered in Singapore.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Package insert warnings, contraindications and drug interaction data were not available for this drug. Please refer to the package insert for safety information.
+
+Two literature signals from other predicted indications are worth noting for any repurposing plan:
+- A 1988 study reported that terminating a dipyridamole stress test with aminophylline triggered coronary vasospasm in patients with variant angina.
+- A 1989 study found aminophylline produced a greater increase in tremor in hyperthyroid patients than in the same patients once euthyroid.
 
 ---
 
@@ -99,15 +106,18 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic hypothesis — aminophylline's adenosine receptor antagonism blocking migraine-triggering vasodilation — is biologically sound and backed by a directly titled 2023 review and supporting case reports. However, zero prospective clinical trials exist for this indication, the highest-quality evidence is a review/case series (L3), and the drug carries no Singapore registration. The evidence profile is currently insufficient to support clinical implementation or investment without first establishing proof-of-concept trial data.
+The mechanistic hypothesis is plausible, but there are no clinical trials. The direct evidence is one 2023 review that leans on an observational case series, plus a few indirect case reports and in vitro work. Package insert safety data are also missing, so the safety screening stage cannot proceed.
 
 **To proceed, the following is needed:**
-- A prospective pilot or proof-of-concept RCT evaluating aminophylline (oral or IV) for acute migraine treatment, ideally in a population with high baseline adenosine activity or post-dural puncture headache
-- Retrieval of the full safety profile — TFDA/HSA package insert or DrugBank warnings/contraindications — before any clinical protocol can be designed
-- Formal MOA documentation from DrugBank to complete the mechanistic dossier
-- Determination of the optimal dosing regimen and route of administration for the migraine indication (distinguishing from bronchodilator dosing)
-- Comparative positioning against current migraine standard-of-care (triptans, CGRP antagonists) to identify the patient subgroup most likely to benefit
-- HSA regulatory pathway assessment for Singapore market entry if Phase 2 data supports advancement
+- Package insert warnings and contraindications from the HSA record (currently blocking)
+- Mechanism of action data from DrugBank
+- Full-text review of the 2023 review and the case series it cites, to check the reported effect sizes
+- A comparison of the registered injectable route with the route and setting used in migraine or post-dural headache reports
+- A controlled clinical study before any efficacy claim
+
+For reference, the same evidence pack shows stronger evidence for **pulmonary hypertension** (L3): a completed Phase 1 aminophylline plus ambrisentan safety trial (NCT01530464) and older hemodynamic studies. That indication may be a better first candidate to review.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

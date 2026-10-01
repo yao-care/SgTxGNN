@@ -29,80 +29,69 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Trihexyphenidyl: From Parkinsonism (Anticholinergic Therapy) to Attention-Deficit/Hyperactivity Disorder (ADHD)
+# Trihexyphenidyl: From Parkinsonism and Dystonia to Attention Deficit-Hyperactivity Disorder
 
 ## One-Sentence Summary
 
-> Trihexyphenidyl is a classic anticholinergic drug traditionally associated with Parkinson's disease and drug-induced extrapyramidal symptoms (specific Singapore-approved indication text is not available in this evidence pack).
-> The TxGNN model predicts it may be effective for **Attention-Deficit/Hyperactivity Disorder (ADHD)**,
-> but this is currently supported by **0 clinical trials** and only **1 tangentially related publication**, and the mechanistic rationale actually points in the opposite direction.
-
----
+Trihexyphenidyl is a central muscarinic antagonist (anticholinergic) used for parkinsonism and dystonia.
+The TxGNN model predicts it may be effective for **attention deficit-hyperactivity disorder (ADHD)**, but there are **0 clinical trials** and only **1 loosely related publication**, which does not test the drug. This prediction is graph-based only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — drug is not currently registered in Singapore (no license records) |
-| Predicted New Indication | Attention-Deficit/Hyperactivity Disorder (ADHD) |
+| Original Indication | Parkinsonism and dystonia (general drug profile; the Singapore registry record gives no indication text) |
+| Predicted New Indication | Attention deficit-hyperactivity disorder |
 | TxGNN Prediction Score | 99.92% |
-| Evidence Level | L5 (model prediction only) |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only; the single paper does not evaluate the drug) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap). Based on known pharmacology, Trihexyphenidyl is a **centrally acting anticholinergic (antimuscarinic) agent**, a drug class typically used to manage Parkinsonian tremor/rigidity and drug-induced extrapyramidal symptoms by blocking excess cholinergic activity in the basal ganglia.
+Detailed mechanism of action data is not currently available. Trihexyphenidyl is an anticholinergic that blocks central muscarinic receptors. This is the basis of its use in parkinsonism and dystonia.
 
-There is no established pharmacological rationale linking this mechanism to ADHD. The single retrieved publication (a case series on tic disorder with dystonia) does not discuss ADHD or attention-related outcomes at all — it appears to be a knowledge-graph co-occurrence artifact rather than genuine supporting evidence.
+The link between the original and predicted indications is weak. The only retrieved paper is a clinical series on primary tic disorder with dystonia, in which ADHD appears as a comorbidity and not as a treatment target. Anticholinergics can also impair attention and cognition, so the direction of any effect on ADHD is uncertain. The very high TxGNN score reflects knowledge-graph topology and has no clinical support here.
 
-More importantly, the mechanistic direction is **contradictory**: anticholinergic drugs are well known to be associated with anticholinergic burden and cognitive impairment (including attention and memory deficits) in clinical practice, which is the opposite of what would be expected for a drug intended to improve inattention. This prediction should be treated as a pure model-score artifact rather than a biologically plausible hypothesis at this time.
-
----
+The inattentive-type subtype of ADHD (score 99.75%) is also predicted. It has no independent evidence and the same cognitive-effect concern.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [21506147](https://pubmed.ncbi.nlm.nih.gov/21506147/) | 2011 | Case series | Movement Disorders | Describes a clinical series of primary tic disorder co-occurring with dystonia; does **not** address ADHD or attention outcomes, and does not evaluate Trihexyphenidyl treatment effect on ADHD symptoms |
-
----
+| [21506147](https://pubmed.ncbi.nlm.nih.gov/21506147/) | 2011 | Cohort | Movement Disorders | Large clinical series of patients with tics and persistent dystonia, describing the prevalence and clinical features of this syndrome. It does not evaluate trihexyphenidyl for ADHD. |
 
 ## Singapore Market Information
 
-This drug currently has **no registration records in Singapore** (market status: Not Marketed, 0 licenses). No approved indication text is available for extraction.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN05827P | AA PHARMA TRIHEXYPHENIDYL TABLET 2 mg (Apotex Inc) | Tablet (oral) | Not listed in the registry record |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+No warnings, contraindications or drug interaction records are available in the data provided. Please refer to the package insert for safety information.
 
-*(Note: TFDA/HSA label warnings and contraindications for this drug are currently a data gap flagged as Blocking severity — this must be resolved before any safety assessment can proceed.)*
-
----
+One concern applies to this prediction. Anticholinergic cognitive effects could worsen inattention, which is the opposite of the intended benefit in ADHD.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (ADHD) has no supporting clinical trials, only one irrelevant publication, and a mechanistic rationale that actively contradicts the hypothesis (anticholinergic burden is linked to cognitive/attention impairment, not improvement). This is an L5, model-score-only signal with no biological plausibility demonstrated.
+The prediction has no clinical trials and no drug-specific literature. The mechanism argues against a benefit in ADHD, and the safety profile is not yet reviewed.
+
+Across the top 10 predictions, the other nine also stay at Hold. The exception is PLA2G6-associated neurodegeneration (99.58%), which is flagged as a Research Question. Its dystonia and parkinsonism features match where trihexyphenidyl is already used, but the evidence is case reports only.
 
 **To proceed, the following is needed:**
-- Resolve the Blocking data gap: obtain official label warnings/contraindications (source: regulatory agency label PDF)
-- Resolve the High-severity data gap: confirm mechanism of action via DrugBank API to properly assess mechanistic linkage
-- If pursuing repurposing research for this drug at all, note that **PLA2G6-associated neurodegeneration** (rank 5 in this evidence pack) shows a substantially more coherent mechanistic rationale (dystonia-parkinsonism phenotype matching known anticholinergic use in movement disorders, L4 evidence, staged as "Research Question") and may warrant separate evaluation instead of the ADHD hypothesis
-- Do not advance the ADHD indication further without new experimental or clinical evidence directly linking anticholinergic mechanism to attention improvement
+- The HSA package insert, to obtain warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- A targeted literature search for trihexyphenidyl in ADHD or tic-related conditions, to replace the keyword-match hit
+- Review of anticholinergic cognitive effects in the ADHD population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

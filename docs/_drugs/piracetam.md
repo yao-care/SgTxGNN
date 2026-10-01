@@ -29,77 +29,75 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Piracetam: From Nootropic Use to Predicted Osteoarthritis
+# Piracetam: From an Unrecorded Original Indication to Osteoarthritis
 
 ## One-Sentence Summary
 
-Piracetam is a GABA-derivative nootropic agent traditionally associated with cognitive enhancement and neuroprotective use, though no confirmed original indication or approved Singapore product exists in current records. TxGNN predicts a possible link to **Osteoarthritis** with a very high score (98.45%), but **zero clinical trials and zero literature** currently support this specific pairing — this is a model-only signal, not a validated repurposing hypothesis.
-
----
+Piracetam is a marketed drug in Singapore, but the registration records do not state its approved indication.
+The TxGNN model predicts it may be effective for **osteoarthritis**, but **0 clinical trials** and **0 publications** currently support this direction.
+The prediction rests on knowledge-graph link prediction alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in current dataset (no Singapore licenses on file); pharmacologically classified as a nootropic/GABA-cyclic derivative |
+| Original Indication | Not stated in the Singapore license records |
 | Predicted New Indication | Osteoarthritis |
 | TxGNN Prediction Score | 98.45% |
-| Evidence Level | L5 (model prediction only, no supporting trials or literature) |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 5 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for Piracetam is not available (data gap). Based on known pharmacological classification, Piracetam is a GABA cyclic derivative belonging to the nootropic/anticonvulsant-adjunct drug family, with reported effects on AMPA receptor modulation, neuronal membrane fluidity, and cerebral blood flow.
+Currently, detailed mechanism of action data is not available for piracetam, and none of the five Singapore licenses list an approved indication. No mechanistic link to osteoarthritis is documented. The high score (0.985) reflects only the model's knowledge-graph association, not any biological rationale.
 
-Osteoarthritis pathology, by contrast, centers on cartilage degeneration, low-grade inflammation, and mechanical joint loading — none of which have a known mechanistic overlap with Piracetam's neuropharmacological profile. There is no established biological rationale connecting the two.
+Because the original indication is unknown here, the similarity between the original and new indication cannot be assessed. Route compatibility is also unassessed. Piracetam is available as an injection, capsules and film-coated tablets, but the route needed for osteoarthritis has not been defined.
 
-Given the absence of any mechanistic bridge, any clinical trials, or any relevant literature, this prediction should be interpreted as a statistical association arising from the TxGNN knowledge-graph embedding space rather than a biologically plausible repurposing hypothesis. The same pattern (high score, no supporting evidence) recurs across most of the top-10 predicted indications for this drug, reinforcing that these are likely embedding-space artifacts rather than actionable signals.
-
----
+The prediction should be treated as a hypothesis-generating signal only. The closest neighbouring predictions are no stronger: "osteoarthritis susceptibility" is a genetic phenotype rather than a treatable condition, and it is likely an artifact of the osteoarthritis link.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Piracetam is currently not marketed in Singapore, and no license records are available for this product.
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN16054P | Cetam Injection 200mg/ml | Injection |
+| SIN08477P | Neurocetam Capsule 400 mg | Capsule |
+| SIN10738P | Racetam Capsule 400 mg (Orange/white) | Capsule |
+| SIN10602P | Cetam Capsule 400 mg | Capsule |
+| SIN06408P | Cebrotonin Tablet 800 mg | Tablet, film coated |
 
----
+The approved indication text is blank in all five records.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-> **Note:** A blocking data gap (DG001) has been identified — Taiwan/regional regulatory safety labeling (warnings/contraindications) is currently unavailable, which prevents this candidate from entering formal S1 safety pre-assessment.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high, but there is no mechanistic rationale, no clinical trial evidence, and no direct literature evidence supporting Piracetam's use in osteoarthritis. This is an L5 model-only prediction and does not meet the bar for further clinical or regulatory investment at this time.
+The osteoarthritis prediction has a high model score but no trials, no literature and no documented mechanism (evidence level L5). Missing safety and indication data also block progression to safety screening.
+
+Other top-ranked predictions are no stronger. Rheumatoid arthritis and hepatic porphyria have only indirect evidence, and all of it concerns levetiracetam, a structural analog, rather than piracetam. The remaining candidates have no evidence and are probably graph-neighbourhood artifacts.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data for Piracetam (currently a data gap)
-- TFDA/Singapore regulatory safety data (warnings, contraindications) — currently a **blocking** gap preventing safety pre-assessment
-- Original indication and licensing history, to establish a baseline for repurposing comparison
-- Targeted literature search using disambiguated drug naming — several candidate indications in this evidence pack (rheumatoid arthritis, hepatic porphyria) returned literature that actually references **Levetiracetam**, not Piracetam; this naming confusion should be corrected in future evidence pulls before any candidate in this drug's prediction set is escalated
-- If pursued further, preclinical mechanistic studies exploring any plausible link between Piracetam and joint/cartilage biology would be required before this candidate could advance beyond L5
+- Singapore package insert (warnings and contraindications), downloaded from the HSA website
+- Piracetam's approved indications and mechanism of action (for example, from the DrugBank API)
+- A literature search for piracetam-specific studies in osteoarthritis, including preclinical work
+- A mechanistic rationale linking piracetam to osteoarthritis pathology
+- Route and dosage-form compatibility assessment for osteoarthritis
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

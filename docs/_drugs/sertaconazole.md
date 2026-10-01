@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Sertaconazole
-parent: Low Evidence (L5)
+parent: Medium Evidence (L3-L4)
 nav_order: 899
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Sertaconazole
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,94 +29,71 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sertaconazole: From Superficial Fungal Skin Infections to Dermatophytosis of Groin and Perianal Area
+# Sertaconazole: From Topical Azole Antifungal to Dermatophytosis of the Groin and Perianal Area
 
 ## One-Sentence Summary
 
-Sertaconazole is a topical imidazole antifungal established for superficial fungal skin infections (dermatophytosis, cutaneous candidiasis, pityriasis versicolor), though it is not currently registered in Singapore.
-The TxGNN model's top-ranked prediction is **Dermatophytosis of Groin and Perianal Area** (tinea cruris) with a prediction score of **99.98%**,
-but this specific indication currently has **no clinical trials or literature** directly attached in the evidence pack — the highest confidence score is not yet backed by direct evidence.
-
----
+Sertaconazole is a topical imidazole antifungal, marketed in Singapore as a 2% cream and a 300 mg vaginal suppository. The TxGNN model predicts it may be effective for **dermatophytosis of the groin and perianal area**, but this prediction currently has **0 clinical trials** and **0 publications** registered for this exact indication. Trials in the neighbouring indication, tinea corporis, exist (see Literature Evidence).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not registered in Singapore; per literature (PMID 19275277), internationally indicated for superficial skin mycoses (dermatophytosis, cutaneous candidiasis, pityriasis versicolor) |
-| Predicted New Indication | Dermatophytosis of groin and perianal area (tinea cruris) |
+| Predicted New Indication | Dermatophytosis of groin and perianal area |
 | TxGNN Prediction Score | 99.98% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
 | Recommended Decision | Hold |
 
----
+The Singapore registration records contain no approved indication text, and the pack lists no original indications, so the original indication row is omitted.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (flagged as a Blocking data gap in this evidence pack). Based on literature evidence attached to related predictions in this pack (e.g., PMID 19275277, PMID 23566144), Sertaconazole is an imidazole-class antifungal that inhibits ergosterol biosynthesis and disrupts fungal cell wall integrity — a mechanism directly applicable to dermatophyte and yeast infections of the skin.
+Detailed mechanism-of-action data is not available in the dataset. Based on general pharmacology and published reviews, sertaconazole is an imidazole antifungal that inhibits ergosterol synthesis (lanosterol 14-alpha-demethylase). At higher concentrations it may also disrupt fungal membranes through its benzothiophene ring. Ergosterol is essential to fungal cell membranes, so this mechanism should apply to dermatophytes at any skin site.
 
-The predicted new indication, dermatophytosis of groin and perianal area (commonly known as tinea cruris), belongs to the same disease family as sertaconazole's well-established uses: tinea corporis, tinea pedis, and cutaneous candidiasis. Mechanistically, there is no meaningful distinction between dermatophyte infection at different body sites — the pathogen biology and drug action are the same. This is supported indirectly by strong evidence at rank 2 (tinea corporis, L2, 20 publications including multiple RCTs) and rank 3 (cutaneous candidiasis, L2, Phase II trial), which validate sertaconazole's efficacy across the broader dermatophytosis/candidiasis spectrum.
-
-However, for the specific rank-1 indication (groin/perianal dermatophytosis), the evidence pack currently contains **zero clinical trials and zero literature entries** directly tied to this term — likely because trial/publication indexing uses "tinea cruris" rather than the exact TxGNN disease ontology label. The mechanistic plausibility is high, but direct evidence has not yet been located and mapped.
-
----
+The groin and perianal area is a skin site for dermatophyte infection (tinea cruris and related forms). A 2009 review (PMID 19275277) reports sertaconazole is indicated in the EU for dermatophytosis, including tinea cruris. This suggests the prediction may reflect an existing use rather than true repurposing, though the missing original-indication data prevents confirming this.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for this specific indication.
 
-*Note: Closely related indications within this same drug's prediction set do have strong literature support — see "Related High-Evidence Indications" below.*
+For context, the adjacent indication **tinea corporis** has randomized comparative trials of sertaconazole. Two of them also enrolled patients with tinea cruris:
+- [24249898](https://pubmed.ncbi.nlm.nih.gov/24249898/): vs terbinafine 1% cream in tinea corporis and tinea cruris (2013).
+- [28066103](https://pubmed.ncbi.nlm.nih.gov/28066103/): vs terbinafine in localized dermatophytosis (tinea corporis or cruris) (2016).
 
----
+These are indirect evidence. They were not retrieved for the groin and perianal indication, and no trial phase is labelled in the data.
 
 ## Singapore Market Information
 
-Sertaconazole is not currently registered in Singapore (0 licenses on file). No authorization records are available for review.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN10933P | ZALAIN CREAM 2% | Cream (topical) | Not stated in registration data |
+| SIN11905P | ZALAIN VAGINAL SUPPOSITORY 300 mg | Suppository | Not stated in registration data |
 
----
+Only the cream is a skin formulation. The vaginal suppository is not relevant to groin or perianal skin infection.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug interaction data are not currently available for this drug — flagged as a Blocking data gap requiring TFDA/HSA label retrieval.)
-
----
-
-## Related High-Evidence Indications (Supporting Context)
-
-Although the top-ranked prediction lacks direct evidence, several other TxGNN-predicted indications for sertaconazole in this evidence pack are well supported and may warrant separate evaluation:
-
-| Rank | Disease | TxGNN Score | Evidence Level | Trials/Literature | Recommendation |
-|------|---------|-------------|-----------------|-------------------|-----------------|
-| 2 | Tinea corporis | 99.94% | L2 | 20 publications (multiple RCTs) | Proceed with Guardrails |
-| 3 | Cutaneous candidiasis | 99.63% | L2 | 4 publications (incl. Phase II trial) | Proceed with Guardrails |
-| 7 | Superficial mycosis | 99.55% | L2 | 14 publications | Proceed with Guardrails |
-| 9 | Pityriasis versicolor | 99.45% | L2 | 6 publications (incl. clinical trial) | Proceed with Guardrails |
-
-Ranks 4, 5, 6, 8, and 10 (Majocchi granuloma, ectothrix/endothrix infectious disease, dermatophytosis of scalp/beard, tinea profunda) are L5 (model prediction only, no usable evidence) and are recommended **Hold**. Note: rank 8's attached literature was almost entirely irrelevant (beard reconstruction surgery, unrelated topics) and should be treated as noise rather than supporting evidence.
-
----
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (dermatophytosis of groin and perianal area) has a very high TxGNN confidence score but zero directly attached clinical trials or literature, placing it at Evidence Level L5. Combined with two Blocking/High-severity data gaps (TFDA/HSA label warnings and mechanism of action), this indication is not yet ready to advance past initial screening.
+This indication rests on the model prediction and general pharmacology alone, with no trials or literature retrieved (L4). Safety data, including the package insert, is missing and is flagged as a blocking gap. The adjacent tinea corporis indication has stronger evidence (L1) and is a better candidate to advance first.
 
 **To proceed, the following is needed:**
-- Retrieve TFDA/HSA-equivalent package insert (warnings, contraindications) — currently a Blocking gap
-- Retrieve confirmed mechanism of action from DrugBank — currently a High-severity gap
-- Re-run literature/trial search using synonym term "tinea cruris" to check whether evidence exists under alternate naming
-- Consider re-prioritizing evaluation toward rank 2 (tinea corporis) and rank 3 (cutaneous candidiasis), which already meet L2 evidence with multiple RCTs and could proceed with guardrails sooner
-- Confirm Singapore regulatory pathway, since sertaconazole currently has no local registration (0 licenses)
+- HSA package insert (warnings and contraindications), which blocks safety screening
+- The approved indication text for the Singapore cream (SIN10933P), to confirm whether tinea cruris is already on-label
+- Mechanism-of-action data from DrugBank
+- A targeted search for tinea cruris and perianal dermatophytosis trials
+- Route compatibility review (topical cream use on groin and perianal skin)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

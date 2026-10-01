@@ -29,78 +29,63 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sodium Zirconium Cyclosilicate: From Hyperkalemia to Breast Fibrocystic Disease
+# Sodium Zirconium Cyclosilicate: From Hyperkalaemia to Breast Fibrocystic Disease
 
 ## One-Sentence Summary
 
-> Sodium zirconium cyclosilicate (SZC) is a non-absorbed intestinal cation-exchange agent used to lower serum potassium in hyperkalemia.
-> The TxGNN model predicts it may be effective for **Breast Fibrocystic Disease**,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the evidence pack's own mechanistic review found no biologically plausible link.
-
----
+Sodium zirconium cyclosilicate is a potassium binder that works in the gut. It is marketed in Singapore as LOKELMA, and the registration data provided do not state its approved indication.
+The TxGNN model predicts it may be effective for **breast fibrocystic disease**, but **no clinical trials and no publications** currently support this prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hyperkalemia *(inferred from mechanistic description in evidence pack; no official approved-label text available — drug not marketed in Singapore)* |
-| Predicted New Indication | Breast Fibrocystic Disease |
+| Original Indication | Not stated in the registration data; the drug is known as a potassium binder for hyperkalaemia |
+| Predicted New Indication | Breast fibrocystic disease |
 | TxGNN Prediction Score | 93.41% |
-| Evidence Level | L5 (model prediction only) |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | **Hold** |
-
----
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism-of-action data is not available from DrugBank (flagged as a data gap, DG002 — High severity). However, the rationale text accompanying each of the top-10 predictions consistently describes SZC as a **non-absorbed intestinal cation exchanger**: its Zr-Si lattice structure captures K⁺/NH₄⁺ in the gut lumen while releasing Na⁺/H⁺, which is consistent with SZC's known clinical role as a potassium binder in hyperkalemia management.
+Currently, detailed mechanism of action data is not available. Sodium zirconium cyclosilicate is a non-absorbed, selective potassium-binding cation exchanger that acts in the gastrointestinal tract. It has no known action on breast tissue.
 
-There is no established or plausible pharmacological pathway connecting this local, gut-restricted ion-exchange mechanism to breast fibrocystic disease, which is driven by hormonal (estrogen/progesterone) and epithelial proliferative processes. The evidence pack's own mechanistic assessment explicitly states this: *"無任何已知路徑與乳腺纖維囊性病變之激素/上皮增生機轉相關... 缺乏生物學合理性"* (no known pathway relates to the hormonal/epithelial-proliferative mechanisms of fibrocystic breast disease; biological plausibility is lacking).
-
-This pattern repeats across predictions #2–8 (all benign breast conditions — benign mammary dysplasia, blunt duct adenosis, apocrine adenosis, breast abscess, fat necrosis, lactation disease, breast adenosis — all sharing similar TxGNN scores of ~0.88–0.93) and predictions #9–10 (rare coagulation disorders — heparin cofactor 2 deficiency, antithrombin deficiency type 2). None of these have an identified mechanistic rationale; they most likely reflect **knowledge-graph embedding proximity/noise** rather than genuine pharmacological relationships.
-
----
+The prediction is therefore not mechanistically supported. The score of 0.934 comes from the knowledge graph alone, and no trial or literature backs it. The other top predictions are mostly closely related benign breast conditions (benign mammary dysplasia, blunt duct adenosis, apocrine adenosis, breast adenosis). They have near-identical scores, which suggests the signal is inherited from shared disease nodes in the graph and is not drug-specific evidence. The remaining top-10 predictions, including breast abscess, fat necrosis of breast, lactation disease, and two inherited coagulation inhibitor deficiencies, also have no plausible link to the drug.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-This drug is not marketed in Singapore (0 registered licenses). No product authorization records are available for review.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN15961P | LOKELMA Powder for Oral Suspension 5G | Powder, for suspension | Not listed in the data provided |
+| SIN15962P | LOKELMA Powder for Oral Suspension 10G | Powder, for suspension | Not listed in the data provided |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
-*(Note: TFDA/HSA-level warnings and contraindications are flagged as a **Blocking** data gap (DG001) — without this data, safety review cannot proceed to Stage S1.)*
-
----
+Please refer to the package insert for safety information. No drug interactions were found in the queried data.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-All top-10 TxGNN-predicted indications for SZC sit at Evidence Level L5 (model prediction only) with zero supporting clinical trials or literature. The evidence pack's own mechanistic analysis found no biologically plausible pathway linking SZC's gut-restricted cation-exchange mechanism to the predicted indications (predominantly benign breast conditions and rare coagulation disorders), suggesting these are graph-embedding artifacts rather than genuine repurposing candidates. In addition, SZC is not marketed in Singapore and a Blocking-severity data gap exists for TFDA/HSA safety labeling.
+The prediction is supported only by a graph-based model score. There are no trials or literature, and the drug's gut-restricted, non-absorbed action gives no plausible mechanism in breast tissue.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism-of-action data via DrugBank API (resolves DG002)
-- TFDA/HSA package insert warnings and contraindications (resolves DG001 — required before any S1 safety review)
-- Independent preclinical or mechanistic evidence establishing a plausible biological link between SZC and breast tissue pathology before further investment
-- Re-evaluation if new clinical trial or literature evidence emerges for any of the top-10 predicted indications
+- Singapore package insert warnings and contraindications from the HSA website, which block safety screening
+- Detailed mechanism of action data (for example, from DrugBank)
+- The approved indication text for the Singapore registrations
+- Any preclinical or clinical evidence linking potassium binding to benign breast disease. None exists in the current data.
+- Route compatibility assessment (oral powder versus any route a breast indication would require)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -29,76 +29,65 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Soybean Oil (DB09422): From Undetermined Original Use to Amenorrhea
+# Soybean Oil: From Parenteral Nutrition Lipid to Amenorrhea
 
 ## One-Sentence Summary
 
-> No approved original indication is on record for soybean oil (DB09422) in this evidence pack; available literature associates it primarily with intravenous lipid emulsions used in parenteral nutrition.
-> The TxGNN model's top prediction is **Amenorrhea (disease)**,
-> but this is supported by **0 clinical trials** and **0 publications** — the score reflects model output only, with no corroborating clinical or mechanistic evidence.
-
----
+Soybean oil is a nutritional lipid used in intravenous lipid emulsions such as SMOFlipid 20%, which is registered in Singapore. The TxGNN model predicts it may be effective for **amenorrhea**, but **no clinical trials and no publications** currently support this prediction. It is a graph-based score only, with no hormonal or reproductive pathway documented for soybean oil.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no Singapore licenses or original_indications on record; literature describes soybean oil as a component of IV lipid emulsions (parenteral nutrition) |
-| Predicted New Indication | Amenorrhea (disease) |
+| Original Indication | Not stated in the registration record (the product is an intravenous lipid emulsion for nutritional support) |
+| Predicted New Indication | Amenorrhea |
 | TxGNN Prediction Score | 99.61% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✗ Not marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for soybean oil is not available, and no approved original indication is recorded in this evidence pack. The literature collected under this candidate (attached to a different predicted indication, esophageal disease) describes soybean oil almost exclusively as a component of intravenous lipid emulsions used in parenteral nutrition, particularly in surgical or critically ill patients. This role is nutritional/immunomodulatory in nature and does not provide any identifiable mechanistic pathway to amenorrhea.
+Currently, detailed mechanism of action data is not available. Based on known information, soybean oil is a source of fatty acids and energy in parenteral nutrition and is also used as an excipient. Its established role is nutritional, and no mechanism linking it to amenorrhea has been shown.
 
-The evidence pack's own rationale for this prediction states it plainly: there is no clinical trial or literature support for a soybean oil–amenorrhea link, and the high TxGNN score most likely reflects indirect embedding relationships in the knowledge graph around nutrition/lipid-metabolism nodes rather than genuine biological plausibility. The same pattern repeats across most of the top-10 predictions for this drug (bone Paget disease, juvenile Paget disease, dentinogenesis imperfecta, several rare carcinomas) — all rated L5, all annotated by the source pipeline as likely knowledge-graph artifacts rather than credible repurposing hypotheses.
-
-The one partial exception is rank 4, esophageal disease, which does have some clinical trial and literature evidence — but that evidence largely shows dietary/IV fat *inducing or influencing* esophageal symptoms (e.g., acid sensitivity, reflux, perioperative immune modulation) rather than treating disease, and includes a withdrawn trial with zero enrollment. Even the drug's best-evidenced candidate is mechanistically inconsistent and far from actionable. Given this, the amenorrhea prediction at rank 1 should be treated as unsupported model noise rather than a plausible repurposing signal.
-
----
+The very high TxGNN score (99.61%) comes from patterns in the knowledge graph, not from biological or clinical findings. No hormonal or reproductive pathway is documented for soybean oil, so the link to amenorrhea is unsupported. This prediction should be treated as a hypothesis only.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Soybean oil (DB09422) currently has no marketing authorization on record in Singapore (0 registrations; market status: not marketed).
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN13246P | SMOFlipid 20% | Injection, emulsion | Not stated in the record |
 
----
+Manufacturer: Fresenius Kabi Austria GmbH and Fresenius Kabi AB.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
----
+Please refer to the package insert for safety information. No drug interaction records were found for this drug in the available data.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked predicted indication (amenorrhea) has zero supporting clinical trials or literature, no known mechanism of action, and the drug is not currently marketed in Singapore — this is a pure model prediction (L5) with no clinical or mechanistic corroboration.
+The prediction has no supporting trials or publications (L5), and no plausible mechanism links soybean oil to amenorrhea. Safety data are also incomplete, because the package insert warnings and contraindications are missing and block safety screening.
+
+Among the other predictions for this drug, only "esophageal disease" (rank 4) has any evidence (L4). That evidence is indirect and includes a withdrawn trial with 0 participants, so it is also on Hold.
 
 **To proceed, the following is needed:**
-- Mechanism of action data for soybean oil (DrugBank query, per DG002)
-- Regulatory label warnings/contraindications (TFDA or equivalent PDF label parsing, per DG001 — currently blocking)
-- Independent literature or preclinical search specifically targeting a soybean oil–amenorrhea (or lipid/endocrine axis) mechanistic hypothesis, since none currently exists in this evidence pack
-- If pursuing any candidate from this drug's prediction set, esophageal disease (rank 4) warrants closer review first, as it is the only one with any clinical/literature signal — though that signal is currently inconsistent (symptom-inducing rather than therapeutic) and would need substantial further evidence before advancing past Hold
+- The HSA package insert (warnings, contraindications, approved indications)
+- Mechanism of action data for soybean oil, for example from DrugBank
+- A biologically plausible hypothesis linking fatty-acid or lipid effects to menstrual or reproductive function
+- Any preclinical or clinical studies of soybean oil in amenorrhea
+- An assessment of whether an intravenous lipid emulsion could be suitable for this indication (route compatibility)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

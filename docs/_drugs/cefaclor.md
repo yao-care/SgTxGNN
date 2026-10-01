@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Cefaclor
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 217
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
 ---
 
 # Cefaclor
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,93 +29,93 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Cefaclor: From Bacterial Infections to Gonococcal Urethritis
+# Cefaclor: From Bacterial Infections to Hyperamylasemia
 
 ## One-Sentence Summary
 
-Cefaclor is a second-generation oral cephalosporin antibiotic, widely used to treat bacterial infections of the respiratory tract, urinary tract, and skin.
-The TxGNN model's highest-evidence prediction is **Gonococcal Urethritis** (model rank #3), supported by **0 registered clinical trials** and **6 published studies** spanning 1979–1997.
-The majority of the top-10 TxGNN predictions (ranks 1, 2, 4–10) lack biological plausibility and are assessed as likely knowledge-graph noise; only the gonococcal urethritis prediction carries actionable clinical evidence.
-
----
+Cefaclor is an oral second-generation cephalosporin antibiotic. Its approved indication text is not stated in the Singapore registration records, so "bacterial infections" is the general class use.
+The TxGNN model ranks **hyperamylasemia** as its top prediction, but there are **0 clinical trials** and **0 publications** supporting it, and no plausible mechanism.
+This looks like a graph artifact rather than a real repurposing signal.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Broad-spectrum bacterial infections (respiratory, urinary tract, skin) |
-| Predicted New Indication (Best Evidence) | Gonococcal Urethritis |
-| TxGNN Prediction Score | 97.48% |
-| Evidence Level | L3 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+|------|------|
+| Original Indication | Not stated in the registration records (cefaclor is a cephalosporin antibacterial) |
+| Predicted New Indication | Hyperamylasemia |
+| TxGNN Prediction Score | 97.70% |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Cefaclor belongs to the second-generation cephalosporin class of β-lactam antibiotics. Its core mechanism is inhibition of bacterial cell wall synthesis through covalent binding to penicillin-binding proteins (PBPs). Because *Neisseria gonorrhoeae* possesses a cell wall and expresses susceptible PBP variants, Cefaclor's antibacterial mechanism applies directly — making this a biologically plausible repurposing candidate, not a graph-generated artefact.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Cefaclor is a beta-lactam antibiotic that inhibits bacterial penicillin-binding proteins and cell-wall synthesis.
 
-The connection between Cefaclor's established role in treating bacterial infections and its potential use in gonococcal urethritis is straightforward: both involve susceptible gram-negative bacteria requiring cell wall disruption. Between 1979 and 1997, multiple controlled and comparative clinical trials demonstrated clinical cure rates above 89% when Cefaclor was used in single or multi-dose regimens, including head-to-head comparisons against spectinomycin. The evidence base is older but methodologically direct.
+That mechanism has no known effect on amylase metabolism. Hyperamylasemia is a laboratory finding with varied causes, not a bacterial disease, so an antibacterial has no clear therapeutic role. The high TxGNN score is most likely a graph artifact.
 
-The critical caveat is that the antibiotic landscape has shifted significantly. Current WHO and CDC guidelines deprioritise second-generation cephalosporins for gonococcal infections due to the global emergence of cephalosporin-resistant *N. gonorrhoeae* strains (including ESBL and high-level cephalosporin resistance). Any consideration of Cefaclor for this indication would require local antibiogram data to confirm strain susceptibility before clinical use.
-
-> **Note on MOA data gap:** Formal DrugBank mechanism-of-action data was not retrieved for this report. The pharmacological rationale above is derived from the class-level knowledge of second-generation cephalosporins and from the mechanistic link documented in the Evidence Pack's `repurposing_rationale` field.
-
----
+The same pattern applies to most of the other top-ranked predictions. Several are hematologic or immunoglobulin-related disorders with no mechanistic link (see "Other Predicted Indications" below).
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [121455](https://pubmed.ncbi.nlm.nih.gov/121455/) | 1979 | Clinical Trial (open-label) | Postgraduate Medical Journal | Controlled trial in 40 men with uncomplicated gonococcal urethritis; 1 g loading dose of Cefaclor showed activity against *N. gonorrhoeae* in vitro and clinically |
-| [116373](https://pubmed.ncbi.nlm.nih.gov/116373/) | 1979 | Clinical Trial (open-label) | Sexually Transmitted Diseases | Randomised trial in men; regimens of 2–4 g Cefaclor ± probenecid evaluated; therapeutic outcomes confirmed by Day 7 follow-up cultures of 66 participants |
-| [6225482](https://pubmed.ncbi.nlm.nih.gov/6225482/) | 1983 | Comparative Clinical Trial | British Journal of Venereal Diseases | 400 men randomised to spectinomycin, cefamandole, or Cefaclor ± probenecid; Cefaclor 3 g + probenecid achieved 95.8% cure rate vs. 98.9% for spectinomycin |
-| [6400040](https://pubmed.ncbi.nlm.nih.gov/6400040/) | 1984 | Clinical Trial (interventional) | Medical Journal of Malaysia | Single-dose oral Cefaclor evaluated in men with uncomplicated gonococcal urethritis |
-| [9582471](https://pubmed.ncbi.nlm.nih.gov/9582471/) | 1997 | Comparative Study | Genitourinary Medicine | Reassessment of in vivo and in vitro efficacy of Cefaclor for uncomplicated gonococcal infection; evaluated as potential alternative to third-generation cephalosporins in resource-limited settings |
-| [2673664](https://pubmed.ncbi.nlm.nih.gov/2673664/) | 1989 | Large Case Series | Current Medical Research and Opinion | 1,505-patient multi-national study comparing cefetamet pivoxil against standard antibiotics including Cefaclor; single doses of comparator cephalosporins shown effective for gonorrhoea |
+Currently no related literature available.
 
----
+## Other Predicted Indications Worth Noting
+
+Among the top 10 predictions, only one has any supporting evidence.
+
+**Gonococcal urethritis (rank 3, score 97.48%, Evidence Level L3, "Research Question")**
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [121455](https://pubmed.ncbi.nlm.nih.gov/121455/) | 1979 | Clinical study | Postgrad Med J | Controlled trial in 40 men with uncomplicated gonococcal urethritis, using a 1 g cefaclor loading dose |
+| [116373](https://pubmed.ncbi.nlm.nih.gov/116373/) | 1979 | Randomized trial | Sex Transm Dis | Cefaclor 2, 3 or 4 g daily for 3 days, with or without probenecid, in men with culture-confirmed infection |
+| [6225482](https://pubmed.ncbi.nlm.nih.gov/6225482/) | 1983 | Comparative study | Br J Vener Dis | 400 men randomized to four regimens. Cure rate was 98.9% with spectinomycin, 95.8% with cefaclor 3 g plus probenecid, and 89.6% with cefaclor 3 g alone |
+| [6400040](https://pubmed.ncbi.nlm.nih.gov/6400040/) | 1984 | Clinical study | Med J Malaysia | Single-dose oral cefaclor in men with uncomplicated gonococcal urethritis |
+| [9582471](https://pubmed.ncbi.nlm.nih.gov/9582471/) | 1997 | Clinical study | Genitourin Med | Reassessed in vivo and in vitro efficacy of cefaclor for uncomplicated gonococcal infection in the developing world |
+
+The studies are old and no registered trials exist. Current gonorrhea guidelines favor injectable ceftriaxone because of rising resistance to oral cephalosporins. This is an antibacterial use rather than true repurposing.
+
+**Other predictions with no evidence (all L5, Hold):**
+- **Mechanistically contradicted:** Ureaplasma urethritis. Ureaplasma lacks a cell wall, so beta-lactams are intrinsically ineffective.
+- **Partial plausibility only:** uterine inflammatory disease (only if bacterial, and cefaclor lacks reliable anaerobic and chlamydial coverage) and xanthogranulomatous pyelonephritis (mainly surgical, antibiotics only adjunctive).
+- **No mechanistic link:**
+  - polyclonal hyperviscosity syndrome
+  - congenital analbuminemia
+  - premalignant hematological system disease
+  - monoclonal gammopathy
+- **Opposite safety signal:** blood group incompatibility. Cephalosporins can cause drug-induced immune hemolytic anemia.
 
 ## Singapore Market Information
 
-Cefaclor has **no registered products in Singapore** at this time (HSA market status: Not Marketed; total licences: 0). This means any clinical development pathway would need to proceed via new product registration with the Health Sciences Authority (HSA) under the relevant therapeutic indication.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN09294P | CLEANCEF CAPSULE 250 mg | Capsule | Not stated in the registration record |
+| SIN11733P | SOFICLOR FOR ORAL SUSPENSION 125 mg/5 ml | Granule, for suspension | Not stated in the registration record |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Full prescribing data — including warnings, contraindications, and drug interactions — was not available in this Evidence Pack.
+Please refer to the package insert for safety information.
 
-> **Pharmacokinetic alert (from repurposing rationale):** Patients with hypoalbuminaemia may exhibit significantly altered Cefaclor pharmacokinetics due to reduced protein binding, leading to elevated free-drug concentrations. This should be considered when dosing in patients with hepatic disease, malnutrition, or albumin-related disorders.
-
----
+- **Drug Interactions**: No interaction records were found in the queried source.
+- **Hemolysis signal**: Cephalosporins are known to cause drug-induced immune hemolytic anemia. This matters for any blood-related indication.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Multiple controlled clinical trials from 1979–1997 confirmed Cefaclor's direct antibacterial activity against *N. gonorrhoeae* with cure rates exceeding 89–95%, and the β-lactam cell-wall inhibition mechanism is directly applicable. However, the evidence predates the emergence of cephalosporin-resistant gonorrhoea strains, which substantially limits direct clinical translation without contemporary susceptibility data.
+The top prediction, hyperamylasemia, has no trials, no literature and no plausible mechanism, so the high TxGNN score is not credible. The only indication with any evidence is gonococcal urethritis. That is an old, antibacterial-type use with limited relevance today.
 
 **To proceed, the following is needed:**
-
-- **Local antibiogram data**: Current *N. gonorrhoeae* susceptibility profiles in Singapore (or target market) must confirm Cefaclor MIC values are within therapeutic range — this is the single most critical gate
-- **Formal MOA documentation**: Retrieve DrugBank API entry (DB00833) to complete the mechanistic dossier
-- **Regulatory safety package**: Obtain and parse the Singapore HSA package insert (or equivalent market authorisation in an approved jurisdiction) to fill the blocking data gap (DG001) on warnings and contraindications
-- **Resistance review**: Systematic literature review of post-2000 cephalosporin resistance rates in gonorrhoea to quantify the gap between 1979–1997 trial populations and current epidemiology
-- **HSA registration pathway**: Initiate pre-submission consultation with HSA given zero current Singapore registrations
-
----
-
-*This report is generated for research purposes only and does not constitute medical advice. All drug repurposing candidates require clinical validation before therapeutic application.*
+- HSA package insert (warnings, contraindications, approved indications). This blocks safety screening.
+- Mechanism of action data from DrugBank.
+- For gonococcal urethritis only: current local susceptibility data and comparison against present guideline regimens.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

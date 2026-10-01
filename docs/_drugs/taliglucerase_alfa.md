@@ -29,31 +29,31 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Taliglucerase Alfa: From Gaucher Disease to Lysosomal Storage Disease with Skeletal Involvement
+# Taliglucerase alfa: From Gaucher Disease to Hurler Syndrome
 
 ## One-Sentence Summary
 
-Taliglucerase alfa is a recombinant glucocerebrosidase enzyme replacement therapy; registry data on its original indication is missing, but literature confirms established use in **Type 1 Gaucher disease**. Of the 10 TxGNN-predicted indications reviewed, 9 — including the top-ranked "Hurler syndrome" (score 99.52%) — have **zero clinical trial or literature support** and are flagged by the model's own rationale as knowledge-graph clustering noise (unrelated enzyme targets). The only indication with real evidence, "Lysosomal Storage Disease with Skeletal Involvement," is supported by **2 publications** but mechanistically corresponds to Gaucher disease itself rather than a genuinely novel indication.
+Taliglucerase alfa is a recombinant enzyme replacement therapy that is marketed in Singapore as ELELYSO and appears to be used for Gaucher disease. The TxGNN model predicts it may be effective for **Hurler syndrome** (MPS I), but there are **0 clinical trials** and **0 publications** supporting this prediction. The prediction rests on model output alone, and the mechanism does not support it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in registry data (Data Gap); literature indicates Type 1 Gaucher disease |
-| Predicted New Indication | Lysosomal Storage Disease with Skeletal Involvement (mechanistically = Gaucher disease phenotype) |
-| TxGNN Prediction Score | 98.94% (rank 10,953) — Note: the highest-scoring candidate overall, Hurler syndrome (99.52%), has no supporting evidence and is assessed separately below |
-| Evidence Level | L1 (per scoring; underlying literature is real-world cohort + review, not RCT) |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails (this indication only); **Hold** on all other 9 predicted indications |
+| Original Indication | Gaucher disease (inferred from the literature; the Singapore registration record gives no indication text) |
+| Predicted New Indication | Hurler syndrome |
+| TxGNN Prediction Score | 99.52% |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (Data Gap DG002). Based on known information, taliglucerase alfa is a recombinant human glucocerebrosidase, used as enzyme replacement therapy to reduce glucocerebroside accumulation in macrophages caused by GBA1 gene mutations — the defect underlying Gaucher disease.
+Detailed mechanism of action data is not available in the input. Taliglucerase alfa is a recombinant glucocerebrosidase that breaks down glucosylceramide. Its on-label use is replacing this deficient enzyme in Gaucher disease.
 
-"Lysosomal Storage Disease with Skeletal Involvement" is not a distinct new indication in the pharmacological sense — skeletal involvement (bone infarcts, avascular necrosis, growth retardation) is a well-documented manifestation of Type 1 Gaucher disease, the drug's own approved indication. The TxGNN model has effectively rediscovered the drug's known indication under an alternate disease-ontology label, which explains why this is the only candidate among the top 10 with genuine clinical and literature backing.
+Hurler syndrome is caused by a different deficiency, alpha-L-iduronidase, which leads to accumulation of glycosaminoglycans. Glucocerebrosidase does not act on these substances, so there is no direct mechanistic link. The high score most likely reflects the two diseases sitting close together in the knowledge graph as lysosomal storage diseases, not a shared pathway. This should be read as a model artifact, not a repurposing signal.
 
-By contrast, the remaining 9 predictions (Hurler syndrome, Scheie syndrome, adrenal adenoma, ichthyosis syndrome, cholesteryl ester storage disease, Wolman disease ×2, proximal myopathy, growth hormone insensitivity syndrome) target **different enzyme deficiencies** (alpha-L-iduronidase, lysosomal acid lipase, etc.) that do not overlap with glucocerebrosidase substrate metabolism. Their high TxGNN scores likely reflect the model's tendency to cluster diseases within the broad "lysosomal storage disease" category rather than true mechanistic relevance — a limitation explicitly noted in each candidate's own rationale text, and consistent with zero clinical trials or publications found for any of them.
+The other top-ranked predictions show the same pattern. These include Scheie syndrome, Wolman disease and cholesteryl ester storage disease, none of which has a plausible mechanistic link. The one exception is rank 6, "lysosomal storage disease with skeletal involvement". Its supporting papers concern Gaucher disease, the drug's known use, so they are not repurposing evidence.
 
 ## Clinical Trial Evidence
 
@@ -61,31 +61,34 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [41096096](https://pubmed.ncbi.nlm.nih.gov/41096096/) | 2025 | Cohort (real-world) | Journal of Clinical Medicine | 10-year prospective follow-up of taliglucerase alfa in Type 1 Gaucher disease (Albania); confirms long-term efficacy/safety in treatment-naïve and previously-treated patients |
-| [22916340](https://pubmed.ncbi.nlm.nih.gov/22916340/) | 2012 | Review | Drugs of Today | Overview of taliglucerase alfa mechanism (glucocerebrosidase replacement) and its role in treating Gaucher's disease, including hematologic and skeletal manifestations |
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Taliglucerase alfa is **not currently marketed** in Singapore — no authorization records (0 licenses) are on file.
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN16770P | ELELYSO Powder for Concentrate for Solution for Infusion 200 units/vial (Pharmacia and Upjohn Company LLC) | Lyophilized powder for injection |
+
+The registration record does not include approved indication text.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. TFDA/HSA label warnings, contraindications, and drug-drug interaction data could not be retrieved for this evidence pack (see Data Gap DG001 below).
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold** (for genuinely novel indications) / **Proceed with Guardrails** (for skeletal-involvement/Gaucher re-indication only)
+**Decision: Hold**
 
 **Rationale:**
-Nine of the ten TxGNN-predicted indications have no clinical or literature evidence and target biologically unrelated enzyme deficiencies — these should not proceed. The one indication with real evidence support is not a novel repurposing opportunity but a restatement of the drug's known Gaucher disease indication, so any "guardrailed" progress should be framed as expanding documentation of existing use (e.g., skeletal outcome data), not as new-indication development.
+The Hurler syndrome prediction has no trials, no literature and no mechanistic link, so it stays at evidence level L5. The enzyme and substrate differ from the disease defect, and a dedicated therapy (iduronidase replacement) already exists for this condition.
 
 **To proceed, the following is needed:**
-- **[Blocking]** TFDA/HSA label warnings and contraindications (DG001) — required before any safety pre-assessment (S1) can begin
-- **[High]** Confirmed mechanism of action from DrugBank (DG002) — needed to formally validate/reject mechanistic links for all 10 candidates
-- Confirmation of the drug's actual original approved indication(s), since registry data (`original_indications`) is currently empty
-- If pursuing the skeletal-involvement angle: additional RCT-level evidence beyond the single cohort study to support upgrading past L1/S3
+- Singapore package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- A documented original indication for the drug record
+- Any preclinical or clinical evidence linking glucocerebrosidase replacement to MPS I, without which the prediction should not advance
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

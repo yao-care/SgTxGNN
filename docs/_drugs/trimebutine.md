@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Trimebutine
-parent: High Evidence (L1-L2)
+parent: Low Evidence (L5)
 nav_order: 1017
-evidence_level: L2
+evidence_level: L5
 indication_count: 10
 ---
 
 # Trimebutine
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,85 +29,80 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Trimebutine: From Functional Gastrointestinal Disorders to Migraine Disorder
+# Trimebutine: From a Gastrointestinal Motility Regulator to Migraine Disorder
 
 ## One-Sentence Summary
 
-Trimebutine is a peripheral opioid receptor agonist historically used for functional gastrointestinal disorders such as irritable bowel syndrome (IBS); it is not currently registered in Singapore, and no formal Singapore-approved indication text is on file.
-The TxGNN model predicts it may be effective for **Migraine Disorder**, likely through a pharmacokinetic (not antimigraine) mechanism,
-with **0 clinical trials** and **4 publications** (including 1 RCT) currently supporting this direction.
-
----
+Trimebutine is a gut motility regulator that acts on opioid receptors in the digestive tract. It is registered and marketed in Singapore, but the registration record lists no approved indication text.
+The TxGNN model predicts it may help in **migraine disorder**, mainly as an add-on to triptans.
+Support is limited: **0 registered clinical trials** and **1 randomized trial** (plus 3 reviews or case reports), so this is a research question rather than an actionable indication.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in Singapore regulatory data (drug not registered). Based on published literature, trimebutine is used for functional gastrointestinal disorders (e.g., IBS) |
+| Original Indication | Not stated in the Singapore registration record (general use: gastrointestinal motility regulation) |
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 99.64% |
-| Evidence Level | L2 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Evidence Level | L2 (provisional: the trial phase is not confirmed, and no registry entry was found) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action (MOA) data for trimebutine is not available from DrugBank (flagged as a High-severity data gap). Based on known information, trimebutine is a peripheral opioid receptor (μ/δ/κ) agonist that acts selectively on receptors of the Meissner and Auerbach plexuses throughout the GI tract, modulating intestinal smooth muscle motility. It has no systemic absorption or central activity, and its established clinical use is in functional gastrointestinal disorders such as IBS.
+Detailed mechanism of action data is not available from DrugBank. From general pharmacology, trimebutine is a peripheral opioid receptor agonist that regulates motility along the digestive tract. It acts on the Meissner and Auerbach nerve plexuses, and the trial literature describes it as having no systemic absorption benefit of its own.
 
-The link to migraine is **not** a direct central or vascular antimigraine mechanism. Instead, the rationale is pharmacokinetic synergy: gastroparesis (delayed gastric emptying) frequently occurs during migraine attacks, which delays absorption of orally administered drugs, including triptans. As a gastrokinetic/prokinetic agent, trimebutine may accelerate gastric emptying and thereby improve the absorption, onset of action, and consistency of response of co-administered triptans such as rizatriptan — rather than exerting antimigraine activity on its own.
+The link to migraine is gastrointestinal rather than central. Gastric stasis often occurs during migraine attacks and can delay absorption of oral triptans. A motility-regulating add-on might therefore speed up triptan onset. A direct antimigraine effect of trimebutine has not been established.
 
-This mechanistic hypothesis is directly supported by a randomized, double-blind, placebo-controlled crossover trial comparing rizatriptan alone vs. rizatriptan plus trimebutine, and is further contextualized by a review on prokinetic agents' effects on diseases external to the GI tract, and a Lancet review on strategies to increase triptan efficacy. However, because the mechanism is adjunctive/pharmacokinetic rather than a primary antimigraine action, the strength of the "new indication" claim is inherently more limited than a direct pharmacodynamic repurposing case.
+Support comes from one double-blind, randomized, cross-over, placebo-controlled study of rizatriptan with and without trimebutine (PMID 16776704). The only other migraine-specific item is a pediatric abdominal migraine case report in which trimebutine did not help.
 
----
+The other nine TxGNN predictions are much weaker.
+- **Headache disorder (98.49%):** supported only indirectly through the migraine evidence.
+- **Migraine with brainstem aura and migraine susceptibility:** no drug-specific evidence. The retrieved literature on susceptibility is about epilepsy genetics and does not evaluate trimebutine.
+- **Atrophoderma vermiculata, nephrogenic syndrome of inappropriate antidiuresis, ulerythema ophryogenesis, pulmonary hypertension, open-angle glaucoma and Raynaud disease:** no evidence and no identifiable mechanistic rationale. These are graph-based predictions only.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [16776704](https://pubmed.ncbi.nlm.nih.gov/16776704/) | 2006 | RCT | Cephalalgia | Double-blind, randomized, crossover, placebo-controlled study: rizatriptan + trimebutine vs. rizatriptan alone for acute migraine; trimebutine's gastrokinetic action hypothesized to improve triptan absorption during migraine-associated gastroparesis |
-| [19220673](https://pubmed.ncbi.nlm.nih.gov/19220673/) | 2009 | Review | J Gastroenterol Hepatol | Reviews effectiveness of prokinetic agents (including trimebutine) against diseases external to the GI tract, including CNS-related conditions |
-| [17046449](https://pubmed.ncbi.nlm.nih.gov/17046449/) | 2006 | Review | Lancet | Discusses strategies (including gastrokinetic co-administration) to increase triptan efficacy in migraine |
-| [16245431](https://pubmed.ncbi.nlm.nih.gov/16245431/) | 2005 | Case Report | Polski Merkuriusz Lekarski | Case of abdominal migraine in a 9-year-old girl who did not improve with trimebutine (and other antispasmodics) — a negative/non-supportive data point |
-
----
+| [16776704](https://pubmed.ncbi.nlm.nih.gov/16776704/) | 2006 | RCT | Cephalalgia | Double-blind, randomized, cross-over, placebo-controlled study of rizatriptan vs. rizatriptan plus trimebutine in acute migraine. The rationale was that a gastrokinetic drug might improve triptan response. Effect size and primary endpoint are not in the supplied excerpt. |
+| [17046449](https://pubmed.ncbi.nlm.nih.gov/17046449/) | 2006 | Review | Lancet | Commentary on ways to increase the effect of triptans in migraine. No abstract was available. |
+| [19220673](https://pubmed.ncbi.nlm.nih.gov/19220673/) | 2009 | Review | J Gastroenterol Hepatol | Review of prokinetic agents for diseases outside the GI tract, including the central nervous system. |
+| [16245431](https://pubmed.ncbi.nlm.nih.gov/16245431/) | 2005 | Case report | Pol Merkur Lekarski | A 9-year-old girl with abdominal migraine and chronic abdominal pain who did not improve on drotaverine, mebeverine or trimebutine. Anecdotal. |
 
 ## Singapore Market Information
 
-Trimebutine is not currently registered or marketed in Singapore (0 licenses on file). No product authorization, dosage form, or approved indication data is available.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN02931P | DEBRIDAT TABLET 100 mg (FARMEA) | Tablet | Not listed in the registration record |
 
----
+Only an oral tablet is registered.
 
 ## Safety Considerations
 
+No drug-interaction records were found in the interaction query.
 Please refer to the package insert for safety information.
-
-*(Note: TFDA/HSA label warnings and contraindications are flagged as a Blocking data gap — see Conclusion below.)*
-
----
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-A single randomized, placebo-controlled crossover trial and supporting review literature suggest trimebutine may enhance triptan absorption during migraine attacks via a gastrokinetic (pharmacokinetic), not antimigraine, mechanism. Evidence is directional but limited to one small trial, no confirmatory Phase 2/3 studies exist, and the drug is not currently registered in Singapore.
+The migraine prediction has a very high model score, but the evidence is a single trial of triptan combination therapy. Any benefit would likely be indirect, through improved triptan absorption, and no registered trials exist. Package insert warnings and contraindications are also missing, which blocks safety screening.
 
 **To proceed, the following is needed:**
-- Official mechanism of action (MOA) data from DrugBank (currently a High-severity data gap, DG002)
-- Package insert / label warnings and contraindications from the regulatory authority (currently a Blocking data gap, DG001) — required before any S1 safety review can proceed
-- Confirmation of trimebutine's officially approved original indication(s), as no data currently exists in `original_indications`
-- Additional RCTs evaluating trimebutine as a triptan-absorption adjunct in migraine, ideally with larger sample sizes and confirmatory design
-- Drug-drug interaction data, particularly given trimebutine's opioid receptor activity and likely co-administration with triptans
-- Singapore/regional market entry pathway assessment, since the drug currently has zero registrations here
+- Singapore package insert warnings, contraindications and approved indication text, for safety screening
+- Full text of PMID 16776704, to confirm the trial phase, primary endpoint and effect size
+- Mechanism of action data from DrugBank
+- Confirmation that the benefit is as a triptan add-on only, with no standalone antimigraine claim
+- Checks for newer or registered trials of trimebutine in migraine
+
+*These are research-stage predictions only. They do not constitute medical advice and require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

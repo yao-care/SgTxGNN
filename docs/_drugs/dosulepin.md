@@ -33,84 +33,57 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Dosulepin (dothiepin) is a tricyclic antidepressant (TCA) with a long history of clinical use in Europe for depression and anxiety-related neurotic disorders. The TxGNN model's top-ranked prediction is **benign paroxysmal torticollis of infancy** (score: 98.97%), yet **no clinical trials or published literature** currently support this direction — making it a likely false positive driven by knowledge graph topology rather than biological plausibility. Of greater clinical relevance in this evidence pack, indications such as **neurotic disorder**, **melancholia**, and **neurotic depression** are backed by Level L2 evidence, including direct randomised controlled trials using dosulepin itself.
-
----
+Dosulepin (also called dothiepin) is a tricyclic antidepressant, and the published literature describes it as used for depressive illness.
+The TxGNN model predicts it may be effective for **benign paroxysmal torticollis of infancy**, but this rests on the model alone, with **0 clinical trials** and **0 publications** supporting it.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Depression / Neurotic anxiety disorders (tricyclic antidepressant) |
-| Predicted New Indication (Rank 1) | Benign Paroxysmal Torticollis of Infancy |
+|------|------|
+| Original Indication | Depression (from published literature; the HSA record lists no indication text) |
+| Predicted New Indication | Benign paroxysmal torticollis of infancy |
 | TxGNN Prediction Score | 98.97% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from DrugBank. Based on known information, dosulepin (also known as dothiepin) is a tricyclic antidepressant structurally related to amitriptyline. Published reviews (PMID 2670509) describe its antidepressant activity as primarily mediated through facilitation of noradrenergic neurotransmission via reuptake inhibition, with enhancement of serotonergic neurotransmission as a secondary mechanism. Additional antihistamine (H1) and anticholinergic properties contribute to its sedative and anxiolytic profile.
+Currently, detailed mechanism of action data is not available. Based on known information, dosulepin is a tricyclic antidepressant structurally related to amitriptyline. Its antidepressant effect is thought to come from blocking the reuptake of noradrenaline and possibly serotonin.
 
-Benign paroxysmal torticollis of infancy (BPTI) is considered a migraine equivalent in early childhood. Its pathophysiology is linked to cortical spreading depression (CSD) and ion channel dysfunction — particularly mutations in the CACNA1A gene encoding P/Q-type voltage-gated calcium channels. Episodes are typically self-limiting, resolving spontaneously before school age, and rarely require pharmacological prophylaxis.
-
-The mechanistic link between dosulepin and BPTI is biologically implausible. Dosulepin's NET/SERT inhibition, anticholinergic, and antihistamine actions have no established relationship to CSD dynamics or CACNA1A channelopathy. The high TxGNN score most likely reflects indirect topological proximity between migraine-adjacent nodes and the broader depression cluster within the knowledge graph — not a genuine therapeutic signal. This prediction is assessed as a false positive and is not recommended for further clinical investigation.
-
----
+Benign paroxysmal torticollis of infancy is regarded as a migraine-equivalent condition, and tricyclics are sometimes used to prevent migraine. This is the only conceivable link, and it is speculative. No direct connection between dosulepin and this condition has been identified. The prediction comes from the knowledge graph only, and no study has tested it.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Dosulepin is not currently registered with Singapore's Health Sciences Authority (HSA). No marketing authorisations are on record. Any clinical use would require an import licence, Special Access Route (SAR) approval, or a formal regulatory pathway submission before proceeding.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN10607P | ESPIN CAPSULE 25 mg (TAEJOON PHARM CO LTD) | Capsule (oral) | Not stated in the registration record |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-> **Literature-derived cardiac safety signal**: Two cross-sectional cardiac safety studies specific to dosulepin (PMID 15311996; PMID 15354946) documented statistically significant increases in QT dispersion (QTd) in treated patients compared to healthy volunteers, consistent with the known cardiotoxic potential of the TCA drug class. These findings underscore the need for baseline ECG assessment and ongoing QTc monitoring if dosulepin is considered for any clinical application.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked TxGNN prediction — benign paroxysmal torticollis of infancy — has no biological plausibility and is supported by zero clinical or literature evidence. It represents a knowledge graph false positive and should not be prioritised for any repurposing programme.
+The prediction has no clinical trials or literature behind it (L5), and the mechanistic link is speculative. The condition is a benign, self-limiting infant disorder, so the bar for adding a tricyclic antidepressant is high. Within this pack, the predictions for dysthymic disorder, melancholia and neurotic depression have more evidence (L3) and are better candidates to pursue first.
 
----
-
-**Higher-Priority Repurposing Opportunities Identified in This Evidence Pack:**
-
-| Indication | Rank | Evidence Level | Recommendation | Key Evidence |
-|-----------|------|---------------|----------------|-------------|
-| Neurotic Disorder | 7 | L2 | Proceed with Guardrails | Direct dosulepin RCT (Nottingham study, PMID 2899234); 17 years of European experience (PMID 7440528) |
-| Melancholia | 4 | L2 | Proceed with Guardrails | Dosulepin vs amitriptyline RCT (PMID 386873); multiple meta-analyses including dosulepin |
-| Neurotic Depression | 5 | L2 | Proceed with Guardrails | Nottingham RCT series; naturalistic comparative cohort (PMID 19347769) |
-| Dysthymic Disorder | 2 | L3 | Research Question | TCA meta-analysis (PMID 21527126); Nottingham longitudinal cohorts |
-
-**To proceed with the psychiatric indications above, the following is needed:**
-
-- **Regulatory pathway**: Dosulepin is not registered in Singapore; an import licence or Special Access Route application to HSA would be required before any clinical use
-- **Cardiac safety protocol**: Mandatory baseline ECG and QTc monitoring must be built into any treatment plan, given documented QT dispersion risk in dosulepin-treated patients
-- **MOA data retrieval**: Formal query to the DrugBank API to complete mechanism-of-action documentation (currently unavailable in this evidence pack)
-- **Comparator safety review**: Head-to-head safety comparison against currently HSA-approved antidepressants (SSRIs, SNRIs) to establish the benefit-risk profile in the Singapore clinical context
+**To proceed, the following is needed:**
+- The HSA package insert, including warnings and contraindications, which is currently missing and blocks safety screening
+- Detailed mechanism of action data (for example from DrugBank)
+- A targeted literature search on tricyclics or migraine prophylaxis in benign paroxysmal torticollis of infancy
+- A pediatric safety and dosing assessment, since the target population is infants
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

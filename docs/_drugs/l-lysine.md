@@ -29,87 +29,76 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# L-Lysine: From Nutritional Supplement to Gastroparesis
+# L-Lysine: From Parenteral Amino Acid Nutrition to Gastroparesis
 
 ## One-Sentence Summary
 
-L-Lysine is an essential amino acid with no approved drug indications in Singapore, primarily recognised as a nutritional supplement and protein-synthesis building block.
-The TxGNN model predicts it may be effective for **Gastroparesis**,
-however with **0 clinical trials** and only **1 tangentially related basic science publication**, the evidentiary foundation is essentially absent.
-The high prediction score (99.77%) is suspected to reflect a knowledge graph false positive rather than a genuine therapeutic signal.
-
----
+L-Lysine is an essential amino acid. In Singapore it is registered as an ingredient in amino acid infusion and dialysis solutions, but the records do not state a specific approved indication.
+The TxGNN model predicts it may be effective for **Gastroparesis**, but there are currently **0 clinical trials** and only **1 publication** (a preclinical stem-cell study that does not involve lysine).
+This is a model-only prediction with no supporting biological rationale.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No approved drug indication on record (essential amino acid / nutritional supplement) |
+|------|------|
+| Original Indication | Not stated in the registration records (the Singapore products are amino acid infusion and peritoneal dialysis solutions) |
 | Predicted New Indication | Gastroparesis |
 | TxGNN Prediction Score | 99.77% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 7 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-L-Lysine is an essential amino acid that humans cannot synthesise endogenously. In normal physiology, it serves several biochemical roles: it is a structural component of collagens (cross-linked via lysyl oxidase), a precursor to carnitine biosynthesis (through trimethyllysine intermediates), and a key substrate in the lysine-catabolism pathway relevant to pyridoxine-dependent epilepsy. Detailed pharmacological mechanism of action data is currently unavailable from DrugBank for this candidate, so the analysis below relies on known biochemistry.
+Currently, detailed mechanism of action data is not available. L-Lysine is an essential amino acid used in parenteral nutrition and amino acid-containing solutions. Its established role is nutritional supplementation, not treatment of a specific disease.
 
-Gastroparesis is a gastric motility disorder characterised by delayed emptying without mechanical obstruction. The core pathology involves depletion of interstitial cells of Cajal (ICC) and enteric neuron dysfunction, leading to pyloric dysregulation and severe nausea/vomiting. The proposed mechanistic link to L-Lysine is extremely tenuous: L-Lysine's participation in collagen cross-linking through lysyl oxidase could theoretically influence gastric wall connective tissue, but no direct biochemical or pharmacological pathway has been described linking L-Lysine supplementation to ICC regeneration or gastric motility restoration.
+No mechanistic link between L-lysine and gastric motility was identified. Gastroparesis involves loss of interstitial cells of Cajal and enteric neurons, leading to delayed gastric emptying. Nothing in the evidence connects lysine supplementation to that process.
 
-The sole retrieved publication (PMID 29414870) investigates mesenchymal stem cell therapy delivered via a gelatin-alginate hydrogel scaffold in gastroparesis — a study completely unrelated to L-Lysine as a therapeutic agent. The high TxGNN score (0.998) therefore most likely reflects knowledge graph noise: a spurious co-occurrence of "lysine" terminology in gastroparesis-adjacent graph nodes, rather than a meaningful drug–disease relationship.
-
----
+The 99.77% score is a computational output only. The one linked paper is about mesenchymal stem cell delivery and is unrelated to lysine, so the prediction should be treated as a hypothesis, not as supported evidence.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [29414870](https://pubmed.ncbi.nlm.nih.gov/29414870/) | 2018 | Basic Science | Bioengineering (Basel, Switzerland) | Delivery of mesenchymal stem cells via gelatin-alginate hydrogel to restore ICC and enteric neurons in gastroparesis animal models — no involvement of L-Lysine as a pharmacological agent |
-
----
+|------|-----|------|------|---------|
+| [29414870](https://pubmed.ncbi.nlm.nih.gov/29414870/) | 2018 | Preclinical | Bioengineering (Basel) | Gelatin-alginate hydrogels for delivering mesenchymal stem cells to the stomach lumen as a potential gastroparesis therapy. It does not test lysine. |
 
 ## Singapore Market Information
 
-L-Lysine has no regulatory registrations with the Health Sciences Authority (HSA) of Singapore. No authorization numbers, brand names, or approved indications are on record.
+Showing 5 of 7 registrations. The records contain no approved indication text.
 
----
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN16003P | LYSAKARE SOLUTION FOR INFUSION 25G / 25G | Infusion, solution | Laboratoire Bioluz |
+| SIN11682P | AMINOVEN SOLUTION FOR INFUSION 5% | Injection | Fresenius Kabi Austria GmbH |
+| SIN11829P | AMINOVEN SOLUTION FOR INFUSION 10% | Injection | Fresenius Kabi Austria GmbH |
+| SIN06299P | NEPHROSTERIL FOR INTRAVENOUS INFUSION | Injection | Fresenius Kabi Austria GmbH |
+| SIN09353P | NUTRINEAL PD4 WITH 1.1% AMINO ACID SOLUTION | Solution, sterile | Baxter Healthcare SA / Vantive Manufacturing Pte. Ltd. |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
----
+Please refer to the package insert for safety information. The drug interaction query returned no records.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite a very high TxGNN score, the gastroparesis prediction is unsupported by any clinical trials and the single retrieved publication is entirely unrelated to L-Lysine as a therapy; the mechanistic link is non-existent under current evidence.
+The prediction rests on model output alone (L5). There are no clinical trials, and the only linked paper is unrelated to lysine. The registered Singapore products are all injectable or dialysis solutions, and their suitability for gastroparesis has not been assessed.
 
-**Noteworthy finding across the full Top-10 prediction list:**
-Of the 10 predicted indications evaluated, only **Vitamin Deficiency Disorder (Rank 6)** reaches a higher evidence tier (L4) and advances to decision stage S1 with a "Research Question" recommendation. This is supported by a biologically plausible mechanistic link — L-Lysine is a direct precursor in carnitine biosynthesis (requiring both L-Lysine and Vitamin C as cofactors), lysine-restriction is an established adjunct therapy in pyridoxine-dependent epilepsy (a Vitamin B6-related disorder), and secondary carnitine deficiency resulting from vitamin deficiencies is well-documented. Redirecting investigational focus to Vitamin Deficiency Disorder may yield a more productive repurposing hypothesis.
+**To proceed, the following is needed:**
+- HSA package insert warnings and contraindications (blocking for safety screening)
+- Mechanism of action data from DrugBank
+- A plausible mechanistic rationale linking lysine to gastric motility, supported by direct preclinical or clinical studies
+- Route compatibility assessment, since the available products are injectable or dialysis solutions
 
-**To proceed on gastroparesis (current rank 1), the following is needed:**
-- Evidence of a direct mechanistic pathway linking L-Lysine to gastric motility or ICC biology
-- At minimum, in vitro or animal model studies specifically testing L-Lysine in gastroparesis
-- MOA data retrieval from DrugBank API (currently a data gap)
-- HSA package insert review for Singapore-relevant safety and contraindication data
+The other nine predicted indications for this drug are also weakly supported (mostly L5, two at L4). None currently has direct evidence for lysine as a treatment.
 
-**To advance the more promising Vitamin Deficiency Disorder hypothesis (rank 6), the following is needed:**
-- Prospective clinical study protocol evaluating L-Lysine supplementation in patients with documented vitamin-associated carnitine deficiency
-- Quantification of plasma L-Lysine and carnitine levels as pharmacodynamic endpoints
-- Regulatory consultation on indication scope (dietary supplement vs. drug classification in Singapore)
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

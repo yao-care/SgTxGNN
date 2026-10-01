@@ -29,80 +29,65 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Artesunate: From Malaria to Acne
+# Artesunate: From Antiparasitic Use to Acne (Disease)
 
 ## One-Sentence Summary
 
-Artesunate is a semisynthetic derivative of artemisinin, widely recognised as a frontline treatment for severe and uncomplicated malaria globally.
-The TxGNN model predicts it may be effective for **Acne (disease)** as its top-ranked new indication, yet **no clinical trials or published literature** were found to support this specific direction.
-Across all 10 predicted indications, every candidate sits at evidence level **L5** (model prediction only), with **diffuse cutaneous leishmaniasis** (rank 6) standing out as the mechanistically best-supported candidate.
-
----
+Artesunate is an artemisinin-derivative antiparasitic, and it is marketed in Singapore as an injectable powder. The TxGNN model predicts it may be effective for **acne (disease)**, but this is a computational signal only. There are **0 clinical trials** and **0 publications** supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Malaria (severe and uncomplicated) |
+|------|------|
+| Original Indication | Not recorded in the Singapore license data (drug is an antiparasitic artemisinin derivative) |
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 79.21% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Artesunate belongs to the artemisinin family of antimalarial compounds. Its canonical mechanism relies on an endoperoxide bridge that is cleaved by free iron derived from haem within parasite cells, generating a burst of reactive oxygen species (ROS) that cause lethal oxidative damage to the parasite. Beyond antiparasitic activity, artesunate has demonstrated broad anti-inflammatory properties in preclinical models, primarily through suppression of NF-κB signalling and its downstream cytokines (IL-1β, TNF-α, IL-6). In vitro data also suggest that artemisinin derivatives may exert direct antimicrobial activity via ROS-mediated mechanisms.
+Currently, detailed mechanism of action data is not available. Artesunate is an artemisinin-class antiparasitic. The Singapore license record does not state an approved indication, so the link between its original use and acne cannot be assessed from the supplied data.
 
-Acne vulgaris is a multifactorial inflammatory skin condition driven by sebaceous hyperactivity, follicular hyperkeratosis, colonisation by *Cutibacterium acnes*, and downstream inflammatory cytokine cascades. Artesunate's theoretical relevance rests on two pillars: (1) its NF-κB inhibitory activity could dampen the inflammatory component of acne lesions; and (2) artemisinin derivatives have demonstrated in vitro inhibitory activity against *C. acnes*, possibly through the same ROS mechanism that governs antiparasitic action.
+The only mechanistic idea is that artesunate is reported to have general anti-inflammatory activity, which could relate to inflammatory skin disease. This was not verified against the supplied data. No mechanism can be tied to acne at this stage, and the prediction rests on the TxGNN score alone.
 
-However, the mechanistic link is indirect and the evidence base is very thin. Systemic anti-inflammatory effects may not translate to the sebaceous follicle microenvironment, and no artesunate-specific in vitro acne models have been published. This remains a hypothesis requiring bench-level validation before any clinical consideration.
-
----
+The other top predictions show the same limits. The mastocytosis entities (ranks 2, 3 and 5) cluster together, which suggests a shared knowledge-graph neighborhood signal rather than independent support. Diffuse cutaneous leishmaniasis (rank 6, score 66.16%) has the most coherent biology, since it is a protozoal disease and artesunate is an antiparasitic. That point is also unverified and needs a targeted literature search.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Artesunate in acne (disease).
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for Artesunate in acne (disease).
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Artesunate holds no product registrations in Singapore. The drug is currently not marketed and no Health Sciences Authority (HSA) licence records are available for review.
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN17135P | Artesunate Amivas Powder and Solvent for Solution for Injection 110mg/vial | Injection, powder, for solution |
 
----
+The manufacturer is Dalton Chemical Laboratories Inc. (operating as Dalton Pharma Services). Only an injectable form is registered, and no topical form is registered.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
-> **Note:** Formal warning and contraindication data from the regulatory package insert were not available for this evaluation (classified as a blocking data gap). General safety considerations known from the antimalarial indication — including post-treatment haemolytic anaemia (reported with intravenous use) and hepatotoxicity signals — should be reviewed via WHO prequalification documentation or the originator's Summary of Product Characteristics before any repurposing study is designed.
-
----
+Please refer to the package insert for safety information. The drug interaction query returned no records.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-All 10 TxGNN-predicted indications sit at L5, meaning none is supported by clinical trials or published literature at this time; acne (disease), while the highest-scored candidate, rests on an indirect and unvalidated mechanistic hypothesis, making any immediate clinical or regulatory pathway premature.
+The acne prediction is model output only (L5), with no trials, no literature and no verified mechanism. The only registered product is an injectable, so route compatibility with a skin indication is also unresolved.
 
 **To proceed, the following is needed:**
-
-- **Fill critical data gaps first:** Obtain MOA details from DrugBank API and download the package insert to complete the safety profile — both are currently blocking or high-severity gaps
-- **In vitro validation for acne:** Conduct *C. acnes* minimum inhibitory concentration (MIC) assays with artesunate and an NF-κB inhibition assay in a sebocyte inflammation model
-- **Prioritise the higher-readiness indication:** Consider redirecting initial efforts toward **diffuse cutaneous leishmaniasis (rank 6)**, which carries the strongest mechanistic rationale (ROS sensitivity of Leishmania parallels malaria), an unmet medical need (high toxicity of existing therapies, frequent drug resistance in diffuse cutaneous type), and a large existing human safety dataset from malaria treatment
-- **Dermatological pharmacokinetics:** If the acne direction is retained, characterise skin penetration and local drug concentration achievable with feasible formulations (topical vs. systemic)
-- **Singapore regulatory pathway:** As Artesunate is not registered in Singapore, any repurposing programme would require a de novo HSA application; early pre-submission consultation is advisable
+- Package insert warnings and contraindications from the HSA website (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- A targeted literature search on artesunate in acne and inflammatory skin disease
+- A route compatibility assessment (injectable only vs. any topical or oral need)
+- A separate literature check on artesunate against *Leishmania*, since diffuse cutaneous leishmaniasis (rank 6) is flagged as a research question
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
