@@ -29,80 +29,72 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Diosmin: From Chronic Venous Insufficiency to Amenorrhea
+# Diosmin: From Venous Vascular Use (Registry Indication Not Recorded) to Amenorrhea
 
 ## One-Sentence Summary
 
-Diosmin is a naturally occurring flavonoid glycoside with established use in Europe and Asia for chronic venous insufficiency and hemorrhoidal disease, though it carries no Singapore regulatory registration.
-The TxGNN model predicts it may be effective for **Amenorrhea**, with a prediction confidence of **99.42%**.
-However, **no clinical trials** and **no supporting publications** currently exist for this specific indication, placing this prediction at the lowest evidence tier.
-
----
+Diosmin is a venoactive flavonoid marketed in Singapore as oral tablets, but the registry data provided does not record its approved indication.
+The TxGNN model predicts it may be effective for **Amenorrhea** with a very high score, but **0 clinical trials** and **0 publications** currently support this prediction.
+This is a model-only signal with no plausible mechanism identified, so it should be held.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Chronic venous insufficiency / Hemorrhoidal disease (established global use; not registered in Singapore) |
+|------|------|
+| Original Indication | Not recorded (all approved indication fields are empty) |
 | Predicted New Indication | Amenorrhea |
 | TxGNN Prediction Score | 99.42% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 6 |
 | Recommended Decision | Hold |
 
----
+## Why is This Prediction Reasonable?
 
-## Why Is This Prediction Reasonable?
+Currently, detailed mechanism of action data is not available. Diosmin is generally described as a venoactive flavonoid. The Singapore registry entries provided contain no approved indication text, so the relationship between the original and new indication cannot be established from this data.
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known pharmacological information, Diosmin is a bioflavonoid with several vascular and anti-inflammatory effects: it increases venous tone by protecting norepinephrine from oxidative degradation, reduces capillary permeability by stabilising the endothelial glycocalyx, inhibits prostaglandin E2 and I2 synthesis to dampen vascular wall inflammation, and suppresses NF-κB-driven leukocyte adhesion. These properties underpin its established role in venous insufficiency management.
+Amenorrhea is a gynecological and endocrine symptom. Nothing in the supplied data links diosmin to menstrual regulation, hormonal pathways, or uterine physiology. Despite the high score, the prediction is best read as a statistical association from the knowledge graph, not a demonstrated pharmacological rationale. The mechanistic link cannot be assessed until the mechanism of action is obtained.
 
-The predicted link to amenorrhea draws on a separate, weaker pharmacological feature: like many flavonoids, Diosmin possesses mild phytoestrogenic activity and can partially bind oestrogen receptors ER-α and ER-β. In theory, this could exert a modest modulatory effect on the hypothalamic-pituitary-ovarian (HPO) axis and menstrual cycle regulation.
-
-In practice, however, this connection is highly speculative. Diosmin's phytoestrogenic potency is far lower than that of well-studied phytoestrogens such as soy isoflavones. Furthermore, amenorrhea is an aetiologically heterogeneous condition — causes range from central hypothalamic suppression and pituitary pathology to primary ovarian insufficiency and structural uterine abnormalities — making a single mechanistic bridge implausible without far more targeted data. The prediction is noted as biologically creative but pharmacologically unsubstantiated at this stage.
-
----
+Other predictions for this drug are also weak. Nine of the top ten are L5 (model prediction only). The exception is thrombophilia (rank 7), which has three indirectly related publications (L4). None of those publications has a title mentioning diosmin.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Diosmin carries no Singapore HSA registration. No product authorisations are on record.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN17191P | Vessosmin Film Coated Tablet 500mg | Tablet, film coated | Not recorded |
+| SIN16068P | Ruventin Film Coated Tablet 500mg | Tablet, film coated | Not recorded |
+| SIN01067P | Daflon Tablet 500 mg | Tablet, sugar coated | Not recorded |
+| SIN15669P | Daflon Film-Coated Tablet 1000 mg | Tablet, film coated | Not recorded |
+| SIN16960P | Davmorid Film Coated Tablet | Tablet, film coated | Not recorded |
 
----
+All listed products are oral. The registry reports 6 licenses in total; the first five are shown here.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
-> **Note:** Safety data including key warnings, contraindications, and drug interaction records were not retrievable at the time this Evidence Pack was compiled. These represent blocking data gaps that must be resolved before any clinical evaluation can proceed.
-
----
+Please refer to the package insert for safety information. No drug interaction records were found in the queried source.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There is no clinical trial or published literature evidence connecting Diosmin to amenorrhea treatment, and the mechanistic hypothesis — based solely on weak phytoestrogenic receptor binding — is highly speculative and unvalidated in any preclinical or clinical model for this indication.
+The amenorrhea prediction has the highest TxGNN score, but there are no trials or publications, no known mechanism, and no recorded approved indication to compare against. Safety documentation is also missing, so the candidate cannot advance to safety screening.
 
 **To proceed, the following is needed:**
+- HSA package insert (warnings, contraindications, approved indications). This is a blocking gap.
+- Mechanism of action data from DrugBank
+- A targeted literature search on diosmin and menstrual or gynecological outcomes
+- Full-text review of the thrombophilia-related papers, to see whether diosmin is discussed at all, if that secondary prediction is pursued
 
-- **Mechanism of action data** — retrieve Diosmin's full MOA from DrugBank API (identified as High-severity data gap DG002) to confirm whether phytoestrogenic activity is sufficiently characterised to justify further investigation
-- **Safety package** — obtain Singapore HSA package insert or equivalent regulatory document to resolve the Blocking data gap (DG001) before any clinical stage planning
-- **Amenorrhea subtype stratification** — determine whether any subtype (hypothalamic, pituitary, ovarian, or uterine origin) presents a plausible mechanistic entry point for Diosmin's known biological activities
-- **Preclinical evidence generation** — commission in vitro or animal studies assessing Diosmin's effect on HPO axis function or endometrial receptivity before advancing to clinical hypotheses
-- **Singapore registration pathway assessment** — if evidence eventually supports this indication, map out HSA registration requirements given the drug's current zero-registration status in Singapore
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

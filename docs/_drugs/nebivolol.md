@@ -33,35 +33,46 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Nebivolol is a third-generation, β1-selective adrenergic receptor blocker with nitric oxide-mediated vasodilatory activity, originally used to treat hypertension. The TxGNN model's top-ranked prediction is **Malignant Hypertensive Renal Disease**, but this specific candidate currently has **0 clinical trials** and **0 publications** supporting it — the signal comes from the model score alone.
+Nebivolol is a third-generation beta-blocker used to treat hypertension. The TxGNN model predicts it may be effective for **malignant hypertensive renal disease**, but **0 clinical trials** and **0 publications** currently support this specific prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (per evidence-pack rationale text; no Singapore license data available — drug not locally marketed) |
-| Predicted New Indication | Malignant Hypertensive Renal Disease |
+| Original Indication | Hypertension (from the published literature; the Singapore licence records provided contain no indication text) |
+| Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 99.42% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in structured form. Based on information present elsewhere in the evidence pack, Nebivolol is a third-generation β1-selective adrenergic receptor blocker that also promotes nitric-oxide-mediated vasodilation, distinguishing it from older-generation beta-blockers. Its efficacy in essential hypertension is well established as its core pharmacological use.
+Detailed mechanism of action data is not available in the source record. Based on general pharmacology, nebivolol is a beta-1 selective blocker with nitric oxide (NO)-mediated vasodilation. Together, these effects lower blood pressure, and beta-1 blockade also reduces renin release.
 
-Malignant hypertensive renal disease is a severe form of hypertension-driven renal vascular injury, so blood pressure control is mechanistically central to its management. In principle, an antihypertensive agent like Nebivolol could contribute to this goal, which is presumably why the model assigned it a high score.
+Malignant hypertensive renal disease is kidney injury caused by severely elevated blood pressure. A blood-pressure-lowering drug is therefore plausible on its face. The high score most likely reflects how close this condition sits to nebivolol's known hypertension use in the knowledge graph. No trial or publication shows that nebivolol protects the kidney in malignant hypertension, and the prediction should be read as a model association only.
 
-However, this mechanistic plausibility is not backed by any disease-specific evidence: no clinical trials or literature records were retrieved for this drug–disease pair (see below), so the connection remains a model-level inference rather than a validated finding.
+The same score (99.42%) was given to a closely related prediction, malignant renovascular hypertension. That condition is usually managed by revascularisation or RAAS-targeted therapy, which is a further reason for caution.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
+
+## Singapore Market Information
+
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN11728P | NEBILET TABLET 5 mg | Tablet | Berlin-Chemie AG |
+| SIN16446P | NEVODIO TABLET 5MG | Tablet | PT. Dexa Medica |
+| SIN16481P | NEBIVOLOL STELLA TABLET 5MG | Tablet | Stellapharm J.V. Co., Ltd. - Branch 1 |
+| SIN15958P | NEVOPRES TABLET 5MG | Tablet | PT. Dexa Medica |
+
+All four products are oral tablets.
 
 ## Safety Considerations
 
@@ -72,15 +83,15 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-Despite a high TxGNN score (99.42%), the malignant hypertensive renal disease prediction has no supporting clinical trials or literature (Evidence Level L5, Decision Stage S0) and the drug is not currently marketed in Singapore, so there is no basis to advance this specific candidate at this time.
+The prediction has a very high model score but no supporting trials or literature (L5). The proposed mechanism is generic to antihypertensives, and the package insert safety review has not been done.
 
 **To proceed, the following is needed:**
-- Disease-specific clinical or preclinical evidence for Nebivolol in malignant hypertensive renal disease
-- Structured MOA data (DrugBank API query, currently a Blocking data gap per meta.data_gaps)
-- TFDA/local package insert warnings and contraindications (currently a Blocking data gap)
-- Singapore regulatory/registration pathway assessment, since the drug is not presently marketed locally
-
-**Note:** Within the same evidence pack, two lower-ranked candidates have materially stronger evidence and may warrant separate evaluation: *chronic pulmonary heart disease* (rank 6, L2, "Proceed with Guardrails," 4 clinical trials including 2 completed Phase 4 trials directly testing Nebivolol, 18 publications) and *Prinzmetal angina* (rank 7, L2, "Proceed with Guardrails," a completed Phase 4 trial directly testing Nebivolol in coronary arterial spasm). These may be more actionable near-term repurposing candidates than the top-ranked prediction covered in this report.
+- HSA package insert warnings and contraindications (a blocking gap for safety screening)
+- Detailed mechanism of action data (MOA)
+- Evidence of renal outcomes in malignant hypertension, such as clinical or observational data
+- An option to consider is moving to better-supported candidates from the same drug's prediction list:
+  - **Prinzmetal angina** (L3): a completed Phase 4 study of nebivolol in hypertensive patients with coronary spasm (NCT03930433, n=51). Safety in vasospastic angina needs careful confirmation because beta-blockers are traditionally cautioned in this condition.
+  - **Chronic pulmonary heart disease** (L4): only indirect evidence on beta-blocker tolerability in patients with heart failure and COPD, with no efficacy evidence.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

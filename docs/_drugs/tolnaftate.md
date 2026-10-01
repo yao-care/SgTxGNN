@@ -29,63 +29,95 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tolnaftate: From Superficial Fungal Infections to Ectothrix Infectious Disease
+# Tolnaftate: From Topical Antifungal Use to Ectothrix Infectious Disease
 
 ## One-Sentence Summary
 
-Tolnaftate is a topical thiocarbamate antifungal, traditionally used to treat superficial dermatophyte (tinea/ringworm) infections. The TxGNN model's top-ranked prediction is **Ectothrix Infectious Disease** (a dermatophyte pattern affecting the outer hair shaft), but this is currently supported by **0 clinical trials** and **0 publications** — the prediction score is high, but there is no direct evidence base behind it.
+Tolnaftate is a topical antifungal marketed in Singapore as a cream and a lotion. The HSA records provided do not state an approved indication.
+The TxGNN model predicts it may be effective for **ectothrix infectious disease** (a dermatophyte infection of the hair shaft), but this is **a model prediction only, with 0 clinical trials and 0 publications** behind it.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Superficial fungal infections (dermatophytosis/tinea) — based on known clinical use; no formal Singapore registration record available |
-| Predicted New Indication | Ectothrix Infectious Disease |
+| Original Indication | Not stated in the HSA records (the literature describes topical use for superficial dermatophyte infections) |
+| Predicted New Indication | Ectothrix infectious disease |
 | TxGNN Prediction Score | 98.59% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
 | Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (DrugBank MOA field is a data gap). Based on known information, Tolnaftate belongs to the thiocarbamate class of antifungals, and its efficacy against superficial dermatophyte infections has been well established for decades; mechanistically, this same action could plausibly extend to ectothrix infection patterns.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Tolnaftate is generally understood to inhibit fungal squalene epoxidase, which blocks ergosterol synthesis. Dermatophytes, the organisms behind ectothrix infection, are plausible targets for this mechanism.
 
-Ectothrix infection describes a dermatophyte infection pattern where fungal elements (typically *Microsporum* species) colonize the *outside* of the hair shaft. This is mechanistically consistent with Tolnaftate's known action of inhibiting squalene epoxidase and blocking ergosterol biosynthesis in dermatophytes — the same fungal class Tolnaftate is already approved to treat. In other words, this is not a mechanistically distant "new" indication; it is a close variant of the drug's existing, well-established antifungal spectrum.
+The main obstacle is delivery, not mechanism. Ectothrix infection involves the hair shaft, which topical agents penetrate poorly. Systemic antifungals are usually the standard treatment. The Singapore products are a cream and a lotion, so the available routes do not clearly match what this condition needs. Route compatibility has not yet been assessed.
 
-Importantly, the evidence pack's own rationale for this candidate explicitly notes that ectothrix infection represents "an extension of the existing indication rather than a genuinely new indication," and no direct trial or literature evidence currently exists for this specific presentation. By comparison, other lower-ranked candidates in this pack have materially more support — **superficial mycosis** (rank 5) is explicitly identified as the drug's core original indication with L1-level evidence (RCTs, systematic review), while **cutaneous candidiasis** (rank 3, L4) has some early/mixed evidence for a genuinely different fungal target (yeast vs. dermatophyte). These may be more productive angles for further evaluation than the top-ranked prediction itself.
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
 
+---
+
+## Other Predicted Indications Worth Noting
+
+The other nine predictions fall into three groups. Only superficial mycosis has meaningful literature, and it reflects established use rather than repurposing.
+
+| Predicted Indication | Score | Evidence Level | Pack Recommendation | Comment |
+|------|------|------|------|------|
+| Superficial mycosis | 98.48% | L1 | Proceed with Guardrails | Includes two older RCTs ([1090684](https://pubmed.ncbi.nlm.nih.gov/1090684/), 1975; [4619464](https://pubmed.ncbi.nlm.nih.gov/4619464/), 1974) and a [systematic review of topical treatments for foot infections](https://pubmed.ncbi.nlm.nih.gov/10398626/) (BMJ, 1999). The level rests on titles only, and the studies are from the 1960s to 1970s. |
+| Skin disease caused by infection | 90.45% | L4 | Research Question | Broad umbrella category. The three linked trials are unrelated to tolnaftate. An in vitro study ([32653607](https://pubmed.ncbi.nlm.nih.gov/32653607/)) reports ergosterol inhibition in *Leishmania*, a possible lead for cutaneous leishmaniasis. |
+| Cutaneous candidiasis | 98.54% | L4 | Hold | Weak mechanistic support. Tolnaftate is generally not active against yeasts, and the retrieved papers are mostly general antifungal reviews or clotrimazole studies. |
+| Majocchi granuloma, endothrix infectious disease, tinea profunda | 98.14–98.59% | L5 | Hold | Dermatophyte targets are plausible, but deep or hair-shaft infection is poorly reached topically. No evidence retrieved. |
+| Ophthalmic herpes zoster, orbital cellulitis, infectious mononucleosis | 90.09–92.16% | L5 | Hold | No plausible mechanism (viral or bacterial causes), so these are likely graph false positives. |
+
+---
+
 ## Singapore Market Information
 
-No Singapore market authorization records are currently available for Tolnaftate (Market Status: Not Marketed; 0 registrations on file).
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN04473P | NAFTATE CREAM 1% w/w | Cream | Not listed in record |
+| SIN04429P | NAFTATE LOTION 1% w/v | Lotion | Not listed in record |
+
+Both products are made by Sunward Pharmaceutical Private Limited.
+
+---
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
-*(Note: A blocking data gap has been identified — TFDA/HSA label warnings and contraindications have not yet been retrieved, which currently prevents this candidate from advancing to a formal safety pre-assessment stage.)*
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (ectothrix infectious disease) has a high TxGNN score but zero supporting clinical trials or literature, and the pack's own mechanistic rationale characterizes it as a label extension rather than a genuinely novel indication — insufficient basis to proceed at this time.
+The top prediction, ectothrix infectious disease, has no trials or literature, and topical delivery is unlikely to reach hair-shaft infection. The only well-supported direction, superficial mycosis, is established topical antifungal use rather than true repurposing. It also cannot advance until the safety data gap is closed.
 
 **To proceed, the following is needed:**
-- TFDA/HSA product label data (warnings, contraindications) — currently a blocking data gap
-- Confirmed mechanism of action via DrugBank API query
-- Targeted literature/trial search specifically on tolnaftate efficacy in ectothrix-pattern tinea capitis (e.g., *Microsporum* species)
-- Clarification of whether this candidate should be reclassified as a label-extension review rather than a repurposing candidate
-- Consider prioritizing **superficial mycosis** (existing indication, L1 evidence) and **cutaneous candidiasis** (L4, distinct fungal target) for more actionable next steps
+- The HSA package insert, to confirm the approved indications and obtain warnings and contraindications. This is a blocking data gap.
+- Mechanism of action data from DrugBank.
+- Confirmation that the superficial mycosis evidence meets the evidence-level criteria. This means checking abstracts for study design and phase, since the 1960s–1970s studies were classified from titles only.
+- A route-compatibility assessment for hair-shaft and deep dermatophyte infections against the cream and lotion forms.
+- An in vitro or clinical follow-up on cutaneous leishmaniasis, if that lead is to be pursued.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

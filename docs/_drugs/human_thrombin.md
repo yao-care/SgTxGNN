@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Human Thrombin
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 496
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 ---
 
 # Human Thrombin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,82 +29,94 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Human Thrombin: From Surgical Hemostasis to Primary Release Disorder of Platelets
+# Human Thrombin: From Topical Hemostasis to Primary Release Disorder of Platelets
 
 ## One-Sentence Summary
 
-Human thrombin is a serine protease and a central enzyme in the coagulation cascade, used clinically as a topical hemostatic agent in surgery and for endoscopic control of variceal bleeding.
-The TxGNN model predicts it may be effective for **primary release disorder of platelets** — a rare condition where platelets fail to properly secrete their granule contents upon activation —
-with **13 clinical trials** and **20 publications** in the evidence base, though the majority address broader hemostatic and platelet biology rather than this specific indication directly.
+Human thrombin is a clotting enzyme used in topical fibrin sealants and hemostatic sponges. The registration records supplied do not state its original indication.
+The TxGNN model predicts it may be effective for **primary release disorder of platelets**, but the evidence is weak: **13 clinical trials** and **20 publications** were retrieved, and **none tests thrombin as a treatment** for this condition.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Surgical hemostasis; endoscopic control of gastric/esophageal variceal bleeding |
+|------|------|
+| Original Indication | Topical hemostasis (a component of fibrin sealants; the Singapore registration records list no indication text) |
 | Predicted New Indication | Primary release disorder of platelets |
 | TxGNN Prediction Score | 96.95% |
-| Evidence Level | L4 |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 3 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Human thrombin is a serine protease generated from prothrombin through the coagulation cascade. Beyond its role in converting fibrinogen to fibrin, thrombin is the most potent physiological platelet activator known — it signals through protease-activated receptors PAR1 and PAR4 on the platelet surface, triggering shape change, granule secretion, and aggregation independently of other agonist pathways.
+Currently, detailed mechanism of action data is not available. Based on known information, human thrombin converts fibrinogen to fibrin and is used topically as a hemostatic agent. Its efficacy in local bleeding control is established, but that is different from treating a platelet disorder.
 
-Primary release disorder of platelets encompasses a spectrum of conditions in which platelets fail to adequately release their dense granule contents (ADP, serotonin, calcium) or alpha granule contents (fibrinogen, von Willebrand factor, P-selectin) upon activation. The underlying defect may reside in granule formation, granule content, or the secretion machinery itself. Because thrombin activates platelets via a receptor-mediated (PAR-dependent) pathway that is structurally distinct from many of the signaling steps that are impaired in release disorders, it holds mechanistic plausibility as an agent capable of bypassing certain upstream defects and eliciting residual secretion responses. A 1976 study (PMID 984037) directly demonstrated that thrombin activates endogenous phospholipases in platelets and drives the release of arachidonic acid metabolites — the very metabolic pathway implicated in platelet dense-granule release.
+The mechanistic link to a platelet release disorder is weak. Thrombin is a physiological platelet agonist, and researchers use it to probe granule release in the lab. In a release disorder, the defect lies in the platelet's response to agonists, so adding exogenous thrombin is not a plausible therapy. Systemic exposure would also carry a serious thrombosis risk. The high TxGNN score most likely reflects shared platelet-pathway associations in the knowledge graph rather than a therapeutic rationale.
 
-However, the TxGNN prediction should be interpreted cautiously. The mechanistic connection is indirect, and the existing literature reflects physiological characterisation of thrombin–platelet interactions rather than evidence of clinical benefit in patients with defined release disorders. No clinical trial has yet prospectively evaluated exogenous thrombin as a therapy for this condition.
+The same pattern appears across the other platelet-disorder predictions in this pack (Glanzmann thrombasthenia, platelet-type von Willebrand disease, Scott syndrome and others). In those, thrombin at most serves as a local hemostatic adjunct, and no evidence supports even that.
 
 ---
 
 ## Clinical Trial Evidence
 
-The 13 trials retrieved by the evidence query are drawn from a broad coagulation and platelet biology search. None directly investigates human thrombin administration as a treatment for primary release disorder of platelets. The most contextually relevant are listed below:
+The trials below are keyword matches. None evaluates thrombin for a platelet release disorder, and those graded for relevance were rated low.
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT03341156](https://clinicaltrials.gov/study/NCT03341156) | Phase 3 | Terminated | 14 | Prothrombin complex concentrate (Kcentra) vs. fresh frozen plasma in heart transplant surgery; evaluates coagulation factor supplementation in surgical coagulopathy |
-| [NCT05391412](https://clinicaltrials.gov/study/NCT05391412) | Phase 4 | Unknown | 32 | Prophylactic fibrinogen concentrate in paediatric scoliosis surgery; examines coagulation factor correction in predicted surgical blood loss |
-| [NCT04808895](https://clinicaltrials.gov/study/NCT04808895) | Phase 3 | Unknown | 204 | Aspirin for prevention of severe SARS-CoV-2 pneumonia; background rationale specifically cites platelet activation and inflammation-driven thrombosis as the mechanistic target |
-| [NCT02850692](https://clinicaltrials.gov/study/NCT02850692) | N/A | Unknown | 60 | Portal hypertension in cystic fibrosis; investigates endothelial dysfunction and vascular pathology relevant to platelet–vessel wall interactions |
-| [NCT03603769](https://clinicaltrials.gov/study/NCT03603769) | N/A | Completed | 6 | Salmon polar lipids nutraceutical; includes EFSA-regulated claims on reduced platelet aggregation as an endpoint, providing a platelet function measurement context |
-
-> **Note:** No trials in this evidence set directly examine human thrombin as a therapeutic intervention for platelet release disorders. This constitutes a clear evidence gap for the proposed repurposing hypothesis.
+|---------|------|------|------|---------|
+| [NCT03341156](https://clinicaltrials.gov/study/NCT03341156) | Phase 3 | Terminated | 14 | Prothrombin complex concentrate (Kcentra) vs fresh frozen plasma in heart transplantation; different product, not thrombin |
+| [NCT04492475](https://clinicaltrials.gov/study/NCT04492475) | Phase 3 | Completed | 969 | ACTT-3 in hospitalized COVID-19: interferon beta-1a plus remdesivir vs remdesivir alone; unrelated |
+| [NCT04640168](https://clinicaltrials.gov/study/NCT04640168) | Phase 3 | Completed | 1010 | ACTT-4 in COVID-19: baricitinib plus remdesivir vs dexamethasone plus remdesivir; unrelated |
+| [NCT04401579](https://clinicaltrials.gov/study/NCT04401579) | Phase 3 | Completed | 1033 | ACTT-2 in COVID-19: baricitinib plus remdesivir vs remdesivir alone; unrelated |
+| [NCT05391412](https://clinicaltrials.gov/study/NCT05391412) | Phase 4 | Unknown | 32 | Pilot of prophylactic fibrinogen concentrate in scoliosis surgery; no thrombin involved |
+| [NCT04808895](https://clinicaltrials.gov/study/NCT04808895) | Phase 3 | Unknown | 204 | Aspirin to prevent severe SARS-CoV-2 pneumonia; antiplatelet study, not a thrombin study |
+| [NCT04619693](https://clinicaltrials.gov/study/NCT04619693) | N/A | Terminated | 79 | Biomarkers predicting dexamethasone response in COVID-19 pneumonia; unrelated |
+| [NCT02850692](https://clinicaltrials.gov/study/NCT02850692) | N/A | Unknown | 60 | Endothelial dysfunction in portal hypertension with cystic fibrosis; unrelated |
+| [NCT03603769](https://clinicaltrials.gov/study/NCT03603769) | N/A | Completed | 6 | Anti-inflammatory and anti-platelet-aggregation effects of salmon polar lipids; unrelated |
+| [NCT04174937](https://clinicaltrials.gov/study/NCT04174937) | Phase 1 | Completed | 72 | First-in-human safety study of an oral compound ("PA") in healthy volunteers; unrelated |
 
 ---
 
 ## Literature Evidence
 
+No RCTs were found. The publications are reviews or mechanistic reports on platelet and thrombin biology, and none tests thrombin as therapy for a platelet release disorder.
+
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [984037](https://pubmed.ncbi.nlm.nih.gov/984037/) | 1976 | Basic research | Am J Hematology | Thrombin activates platelet endogenous phospholipases, liberates arachidonic acid from phospholipids, and drives cyclooxygenase-mediated eicosanoid release — directly relevant to thrombin's role in triggering the platelet release reaction |
-| [1321709](https://pubmed.ncbi.nlm.nih.gov/1321709/) | 1992 | Review | Disease-a-Month | Comprehensive review of platelet function disorders; describes the four phases of platelet activation (adhesion, aggregation, secretion, procoagulant expression) and documents release/secretion defects as a distinct disease category |
-| [33749992](https://pubmed.ncbi.nlm.nih.gov/33749992/) | 2021 | Review | Wound Repair Regen | Current applications of platelet gels; demonstrates that thrombin (or calcium) activation of platelets drives release of growth factors and granule contents, supporting a functional secretion-inducing role |
-| [35226963](https://pubmed.ncbi.nlm.nih.gov/35226963/) | 2022 | Review | Hamostaseologie | Genetic analysis of hereditary hemorrhagic, thrombotic, and platelet disorders; covers molecular taxonomy of primary release disorders and their diagnostic workup |
-| [6229030](https://pubmed.ncbi.nlm.nih.gov/6229030/) | 1983 | Review | Semin Thromb Hemost | Molecular markers in hemostatic defects; discusses biochemical pathways in platelet activation and abnormalities in the release reaction as measurable endpoints |
-| [14727968](https://pubmed.ncbi.nlm.nih.gov/14727968/) | 2002 | Review | Am J Cardiovasc Drugs | New targets for antithrombotic drugs; details the platelet activation cascade via thrombin/PAR signalling and glycoprotein IIb/IIIa as points of pharmacological intervention |
-| [2016486](https://pubmed.ncbi.nlm.nih.gov/2016486/) | 1991 | Review | JACC | Platelets and thrombin in restenosis after coronary angioplasty; characterises thrombin-mediated platelet activation and secretion in the context of vascular injury |
-| [35344028](https://pubmed.ncbi.nlm.nih.gov/35344028/) | 2022 | Review | Biochemical Journal | Immunothrombosis and tissue factor regulation; discusses the central role of thrombin generation in both physiological and dysregulated coagulation states |
-| [30986390](https://pubmed.ncbi.nlm.nih.gov/30986390/) | 2019 | Clinical review | Gastroenterology | AGA practice update on coagulation in cirrhosis; provides clinical guidance on pro-coagulant and haemostatic agent use, relevant to understanding thrombin's clinical deployment context |
-| [35343037](https://pubmed.ncbi.nlm.nih.gov/35343037/) | 2022 | Laboratory study | J Thromb Haemost | Von Willebrand factor and thrombin cooperate to accelerate fibrin clotting in engineered microvessels; highlights the interaction between thrombin and platelet-derived factors in establishing haemostatic plugs |
+|------|-----|------|------|---------|
+| [30986390](https://pubmed.ncbi.nlm.nih.gov/30986390/) | 2019 | Guideline/Clinical practice update | Gastroenterology | AGA update on coagulation in cirrhosis and appropriate use of anticoagulants and pro-coagulants |
+| [33749992](https://pubmed.ncbi.nlm.nih.gov/33749992/) | 2021 | Review | Wound Repair Regen | Platelet gels, activated with thrombin or calcium, in chronic wound healing |
+| [1321709](https://pubmed.ncbi.nlm.nih.gov/1321709/) | 1992 | Review | Dis Mon | Overview of platelet function disorders and the phases of normal platelet function |
+| [984037](https://pubmed.ncbi.nlm.nih.gov/984037/) | 1976 | Mechanistic/In vitro | Am J Hematol | Thrombin activates phospholipases in human platelets, releasing arachidonic acid and driving aggregation |
+| [35344028](https://pubmed.ncbi.nlm.nih.gov/35344028/) | 2022 | Unclassified | Biochem J | Immunothrombosis, tissue factor and pyroptosis; prospects for new anticoagulants |
+| [35226963](https://pubmed.ncbi.nlm.nih.gov/35226963/) | 2022 | Unclassified | Hamostaseologie | Routine genetic analysis of hereditary bleeding, thrombotic and platelet disorders |
+| [14727968](https://pubmed.ncbi.nlm.nih.gov/14727968/) | 2002 | Unclassified | Am J Cardiovasc Drugs | New targets for antithrombotic drugs in platelet activation pathways |
+| [11079020](https://pubmed.ncbi.nlm.nih.gov/11079020/) | 2000 | Unclassified | Arch Pathol Lab Med | Review of heparin-induced thrombocytopenia pathophysiology and diagnosis |
+| [22841202](https://pubmed.ncbi.nlm.nih.gov/22841202/) | 2012 | Unclassified | Transplant Proc | Coagulopathy management in liver transplantation |
+| [2016486](https://pubmed.ncbi.nlm.nih.gov/2016486/) | 1991 | Unclassified | J Am Coll Cardiol | Role of platelets, thrombin and hyperplasia in restenosis after coronary angioplasty |
 
 ---
 
 ## Singapore Market Information
 
-Human thrombin (DrugBank ID: DB11571) has **no current product registrations in Singapore**. The drug is not approved or marketed in Singapore at present. This constitutes a significant regulatory barrier for any repurposing pathway in this jurisdiction and would require a full new drug application or compassionate use designation to proceed.
+The registration records list no approved indication text. All three products are dosage forms for non-systemic (topical/sealant) use.
+
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN16143P | VERASEAL Solutions for Sealant, 80 mg/ml, 500 IU/ml | Solution | Instituto Grifols, S.A. |
+| SIN14441P | TACHOSIL, Medicated Sponge | Sponge | BBF Sterilisation Service GmbH; Corza Medical Distribution GmbH, Austria Branch |
+| SIN14719P | ARTISS Solutions for Sealant, Deep Frozen | Solution | Takeda Manufacturing Austria AG |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Key Warnings**: Systemic exposure to thrombin carries a serious thrombosis risk. Human thrombin is a topical hemostat and is not suited to systemic use in a platelet disorder.
+
+For other safety information (contraindications, drug interactions), please refer to the package insert.
 
 ---
 
@@ -113,14 +125,16 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-Although human thrombin has a compelling mechanistic rationale as one of the most potent physiological inducers of platelet granule secretion, the current evidence for its use in primary release disorder of platelets consists exclusively of mechanistic and physiological studies (L4), with no dedicated clinical trials and no Singapore regulatory registration. The gap between the known topical/endoscopic use of thrombin and the proposed systemic or targeted use for an inherited platelet disorder is substantial and has not been bridged by clinical data.
+The prediction rests on the knowledge-graph score alone (L5). No trial or publication tests thrombin in a platelet release disorder, the mechanism argues against benefit, and systemic use carries a thrombosis risk.
 
 **To proceed, the following is needed:**
-- Dedicated in vitro studies confirming that exogenous thrombin at therapeutic concentrations can rescue granule release in established cellular models of primary release disorder (dense granule deficiency, signalling pathway defects)
-- Identification of specific patient subtypes (e.g., isolated dense granule deficiency vs. signalling-pathway defects) most likely to respond, given that thrombin's PAR-mediated activation operates downstream of some — but not all — release disorder mechanisms
-- Pharmacokinetic and safety data for routes of administration applicable to platelet disorders (intravenous or targeted delivery), distinct from current topical/endoscopic use
-- Drug information package including full mechanism of action, approved prescribing information, and safety data (currently documented as data gaps)
-- Regulatory pathway assessment with Singapore HSA for first-in-class or orphan drug designation, given the rarity of primary release disorders
+- Package insert warnings and contraindications for the registered products
+- Mechanism of action data
+- Any direct clinical or preclinical evidence for thrombin in platelet release disorders (none currently exists)
+
+**Note:** Among the other predictions for this drug, **esophageal disease** (rank 8) has the strongest support. It rests on endoscopic or EUS-guided thrombin injection for bleeding gastric and ectopic varices, backed by a systematic review and meta-analysis, observational series, and one Phase 3 trial (NCT01717612, status unknown). It is rated L3, "Proceed with Guardrails". Guardrails would be expert endoscopic use only, monitoring for embolic and thrombotic events, and scope limited to variceal bleeding. It merits a separate evaluation.
+
+*This report is for research reference only and does not constitute medical advice. Predicted indications require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

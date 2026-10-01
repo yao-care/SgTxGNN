@@ -3,14 +3,14 @@ layout: default
 title: Sertraline
 parent: Medium Evidence (L3-L4)
 nav_order: 900
-evidence_level: L3
+evidence_level: L4
 indication_count: 10
 ---
 
 # Sertraline
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,84 +29,72 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Sertraline: From Major Depressive Disorder to Schizotypal Personality Disorder
+# Sertraline: From Its Original Indication (Not Recorded in Local Data) to Schizotypal Personality Disorder
 
 ## One-Sentence Summary
 
-> Sertraline is a widely used SSRI, originally developed for major depressive disorder and subsequently approved for panic disorder, OCD, PTSD, and other anxiety-spectrum conditions.
-> The TxGNN model predicts it may be relevant for **Schizotypal Personality Disorder**,
-> but this signal is currently supported by only **1 small completed trial (n=8)** and **1 unrelated case report**, making it an early-stage research hypothesis rather than an established finding.
-
----
+Sertraline is a selective serotonin reuptake inhibitor (SSRI) antidepressant. The local Singapore records do not state its original approved indication, although published literature describes it as marketed for major depressive disorder and later approved for panic disorder, obsessive-compulsive disorder and post-traumatic stress disorder. The TxGNN model predicts it may be effective for **schizotypal personality disorder**, but only **1 small clinical trial** and **1 case report** exist, and neither directly tests this condition.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Major Depressive Disorder (per cited literature; no formal Singapore license record exists for this field — see Market Status below) |
-| Predicted New Indication | Schizotypal Personality Disorder |
+| Original Indication | Not stated in local licence records |
+| Predicted New Indication | Schizotypal personality disorder |
 | TxGNN Prediction Score | 99.93% |
-| Evidence Level | L3 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Hold (flagged internally as "Research Question" — hypothesis-generating stage) |
-
----
+| Evidence Level | L4 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 7 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for sertraline is not available in this evidence pack (data gap, high severity). Based on known pharmacological information cited within the associated literature (PMID 12452737), sertraline is a naphthalenamine-derivative SSRI whose predominant action is inhibition of presynaptic serotonin reuptake at the synaptic cleft. It was initially marketed for major depressive disorder and later approved for panic disorder, OCD, and PTSD.
+Currently, detailed mechanism of action data is not available in the record. Based on general knowledge, sertraline is an SSRI that raises serotonin signalling in the synapse. This could plausibly affect the mood, anxiety and obsessive features that sometimes accompany schizotypal traits.
 
-The predicted new indication, schizotypal personality disorder, sits on the schizophrenia spectrum and is characterized by attenuated positive and negative symptoms (odd beliefs, social anxiety, cognitive-perceptual distortions). The only supporting clinical trial (NCT00169988) tested sertraline in adolescents with *attenuated* positive/negative symptoms — a population conceptually adjacent to schizotypal presentations — providing a plausible, if indirect, mechanistic bridge between serotonergic modulation and thought-disorder-spectrum symptoms.
-
-However, this mechanistic link remains theoretical. The trial enrolled only 8 participants with no phase designation, and the sole supporting literature record is a case report on an unrelated comorbidity (OCD and anorexia nervosa) that does not address schizotypal personality disorder at all. TxGNN's high confidence score likely reflects shared knowledge-graph connections among personality-disorder and mood/anxiety nodes rather than disease-specific efficacy evidence — a pattern also seen in several other lower-ranked candidates in this same prediction batch (e.g., schizoid, histrionic, and paranoid personality disorders), which show similarly high scores but essentially no relevant clinical evidence.
-
----
+The link to the predicted indication is weak. The only related trial studied adolescents with attenuated positive and negative symptoms, a prodromal psychosis population, not people diagnosed with schizotypal personality disorder. The model gave the same score (99.93%) to schizotypal, schizoid, histrionic and paranoid personality disorders. That pattern suggests a shared neighbourhood in the knowledge graph rather than a signal specific to schizotypal personality disorder.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00169988](https://clinicaltrials.gov/study/NCT00169988) | NA | Completed | 8 | Compared sertraline alone vs. sertraline + risperidone in adolescents with attenuated positive/negative symptoms, assessing reduction in unusual thoughts, suspiciousness, and improvement in reasoning, memory, attention, and social skills. Directly relevant population but extremely small sample (n=8) limits statistical power. |
-
----
+| [NCT00169988](https://clinicaltrials.gov/study/NCT00169988) | Not applicable | Completed | 8 | Sertraline alone vs. sertraline plus risperidone in adolescents with attenuated positive and negative symptoms. It targets reduced unusual thoughts, suspiciousness, and improved reasoning, attention and social skills. No results are provided in the data. Only conceptually related to schizotypy. |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [37082034](https://pubmed.ncbi.nlm.nih.gov/37082034/) | 2021 | Case report | Postępy Psychiatrii i Neurologii | Describes diagnostic difficulty in a 14-year-old girl with comorbid OCD and anorexia nervosa; does not address schizotypal personality disorder directly and is of limited relevance to this prediction. |
-
----
+| [37082034](https://pubmed.ncbi.nlm.nih.gov/37082034/) | 2021 | Case report | Postepy Psychiatrii Neurologii | Comorbid obsessive-compulsive disorder and anorexia nervosa in a 14-year-old girl, with emphasis on diagnostic caution. Not about schizotypal personality disorder. |
 
 ## Singapore Market Information
 
-Sertraline is currently **not marketed** in Singapore per the available regulatory dataset (0 registered licenses). No authorization records, product names, or approved-indication text are available to summarize.
+Sertraline holds 7 registrations in Singapore. The local records do not list approved indication text for any of them. Five are shown below.
 
----
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN07301P | ZOLOFT TABLET 50 mg | Film-coated tablet |
+| SIN13467P | Apo-Sertraline 50mg Tablet | Film-coated tablet |
+| SIN14789P | INOSERT 100 Tablet 100mg | Film-coated tablet |
+| SIN14790P | INOSERT 50 TABLET 50mg | Film-coated tablet |
+| SIN16649P | SERNADE FILM-COATED TABLET 50 MG | Film-coated tablet |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-Note: A TFDA/HSA label review (warnings and contraindications) is flagged as a **Blocking** data gap in this evidence pack — this must be resolved before any formal safety (S1) assessment can proceed for this drug.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked predicted indication (schizotypal personality disorder) is supported by only one very small, non-phased completed trial (n=8) and one unrelated case report, placing it at evidence level L3 / decision stage S1 ("Research Question"). This is a hypothesis worth tracking, but not yet actionable.
+The prediction rests on a model score that appears to reflect graph-neighbourhood effects. The only evidence is one 8-person trial in a related but different population, and one unrelated case report. There is no direct evidence that sertraline helps schizotypal personality disorder.
 
 **To proceed, the following is needed:**
-- Detailed mechanism of action (MOA) data for sertraline (currently a data gap)
-- TFDA/HSA product label (warnings, contraindications) — currently a **Blocking** data gap preventing any safety (S1) evaluation
-- Larger, adequately powered trials specifically in schizotypal personality disorder or closely related attenuated-psychosis populations
-- Literature directly evaluating sertraline's effect on schizotypal symptom domains (the current single reference is off-target)
+- The Singapore package insert (warnings and contraindications), which blocks any safety screening
+- Confirmed original indications from the HSA licence texts
+- Mechanism of action data, for example from DrugBank
+- Published results of NCT00169988, or a controlled trial in diagnosed schizotypal personality disorder
 
-**Additional context:** Several other candidates in this same prediction batch (agoraphobia/panic disorder, endogenous depression, major depressive disorder — ranks 6, 9, 10) carry the same TxGNN-style high scores but are supported by extensive Phase 3/4 RCT evidence (L1). These are not novel repurposing opportunities — they reflect sertraline's already well-established SSRI class indications, included here only because the original indication list in this dataset was empty. They should not be confused with genuinely new repurposing hypotheses like the schizotypal personality disorder signal discussed above.
+Within the same evidence pack, other predicted indications have much stronger support. Agoraphobia, via panic disorder, and major depressive disorder are both supported by sertraline RCTs. Both are likely on-label uses, so they may not count as true repurposing. Checking this requires the original indications above.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -29,88 +29,80 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Trastuzumab Deruxtecan: From HER2-Targeted Oncology Use to Drug-Induced Osteoporosis (Low-Confidence Signal)
+# Trastuzumab Deruxtecan: From HER2-Expressing Cancers to Drug-Induced Osteoporosis
 
 ## One-Sentence Summary
 
-Trastuzumab deruxtecan (T-DXd) is a HER2-targeted antibody-drug conjugate (ADC); its original approved oncology indication is not recorded in this evidence pack.
-TxGNN's top-ranked prediction is **Drug-Induced Osteoporosis**, but the model's own rationale flags this as a likely noise prediction, and there is currently **no clinical trial or literature evidence** supporting it.
-
----
+> Trastuzumab deruxtecan is a HER2-directed antibody-drug conjugate carrying a topoisomerase I inhibitor payload, used in oncology.
+> The TxGNN model predicts it may be effective for **drug-induced osteoporosis**, with a very high score of 99.31%.
+> **No clinical trials and no publications** support this prediction, so it is a graph-based prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available (no Singapore license on record; not specified in evidence pack) |
-| Predicted New Indication | Drug-Induced Osteoporosis |
+| Original Indication | HER2-expressing cancers (oncology). The Singapore registration record does not state the approved indication text. |
+| Predicted New Indication | Drug-induced osteoporosis |
 | TxGNN Prediction Score | 99.31% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the structured MOA field. However, the evidence pack's own repurposing rationale consistently describes trastuzumab deruxtecan as a HER2-targeted ADC carrying a topoisomerase I inhibitor payload (deruxtecan).
+Currently, detailed mechanism of action data is not available in the record. From the known drug class, trastuzumab deruxtecan targets HER2 and delivers a cytotoxic topoisomerase I inhibitor to HER2-expressing cells.
 
-There is no established pharmacological link between HER2/topoisomerase I inhibition and bone remodeling or osteoclast pathways. The evidence pack explicitly characterizes this specific prediction as a high-scoring but mechanistically unsupported output of the TxGNN model — i.e., likely embedding noise rather than a biologically grounded repurposing hypothesis. No clinical trial or literature evidence has been found to corroborate a therapeutic role for T-DXd in osteoporosis.
+We found no credible link between this mechanism and osteoporosis. HER2 targeting has no established role in bone remodelling, and a cytotoxic oncology drug is not a plausible osteoporosis therapy.
 
----
+The high TxGNN score of 0.993 is a network-based prediction. No trial or publication corroborates it, so it should be read as a hypothesis-generating signal, not evidence of efficacy.
+
+Nine other predicted indications were also reviewed, including diabetic retinopathy, bronchitis and several tumour types. All were rated L5 and Hold. For the non-oncology ones, the mechanistic and safety rationale is unfavourable. The oncology-type ones (testicular tumours and non-seminomatous lesions) are speculative and would first need HER2 expression data.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Trastuzumab deruxtecan is not currently marketed in Singapore; no registration records are available (total licenses: 0).
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN16352P | ENHERTU POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 100MG/VIAL (Baxter Oncology GmbH) | Infusion, solution concentrate | Not stated in the registration record |
 
 ## Cytotoxicity
 
-Trastuzumab deruxtecan is an antineoplastic antibody-drug conjugate, so this section applies.
-
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (ADC) with cytotoxic topoisomerase I inhibitor payload (deruxtecan) |
+| Cytotoxicity Classification | Targeted therapy: HER2-directed antibody-drug conjugate with a topoisomerase I inhibitor payload |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
 | Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
-
----
+| Handling Protection | Must follow cytotoxic drug handling regulations (injectable antineoplastic) |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Respiratory risk**: The drug carries a known interstitial lung disease/pneumonitis risk.
+- **Ocular risk**: Ocular toxicity is a recognised concern. Both risks make benefit-risk implausible for non-malignant chronic conditions.
+- No interactions were found in the drug-interaction query.
 
----
+Please refer to the package insert for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-All top 10 TxGNN-predicted indications for this drug (osteoporosis, diabetic retinopathy variants, bronchitis, diabetic cataract, rare pediatric/testicular tumors, ductular proliferation) lack clinical trial or literature support, and most are explicitly flagged in the evidence pack as lacking any mechanistic plausibility. One prediction ("ductal or ductular proliferation") returned 20 literature hits, but only one is drug-relevant — a case report of deruxtecan-induced Fanconi syndrome (PMID 37492824), which is a **safety signal, not efficacy evidence**, and argues against rather than for this indication.
+The prediction is supported only by a model score, with no clinical trials or literature. There is no plausible mechanistic link between a HER2-directed cytotoxic ADC and drug-induced osteoporosis. The systemic toxicity profile also argues against use in a non-malignant bone condition.
 
 **To proceed, the following is needed:**
-- Resolve Blocking data gap DG001: HSA/manufacturer package insert warnings and contraindications
-- Resolve High-priority data gap DG002: confirmed mechanism of action from DrugBank
-- Confirmed original approved indication(s), since none are currently on record
-- If any repurposing signal is pursued, a dedicated safety review of ADC-related renal/tubular toxicity (Fanconi syndrome) given the case report identified above
-- Re-screen this candidate once safety and MOA data gaps are closed, as current evidence does not support advancing beyond S0
+- HSA package insert warnings and contraindications (blocking for safety screening)
+- Mechanism of action data from DrugBank
+- Any preclinical or observational evidence linking the drug or its pathway to bone metabolism
+- A benefit-risk rationale for a non-oncology indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

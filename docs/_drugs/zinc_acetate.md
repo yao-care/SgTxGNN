@@ -29,74 +29,72 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Zinc Acetate: A Model-Predicted Signal for Severe Nonproliferative Diabetic Retinopathy
+# Zinc Acetate: From Parenteral Nutrition Ingredient to Severe Nonproliferative Diabetic Retinopathy
 
 ## One-Sentence Summary
 
-Zinc acetate's original approved indication is not documented in this evidence pack (the drug is not currently registered in Singapore, and mechanism-of-action data is unavailable). The TxGNN model predicts a possible link to **severe nonproliferative diabetic retinopathy**, but this prediction is currently **model-only — no clinical trials or published literature support it**.
-
----
+Zinc acetate is registered in Singapore as an ingredient of Nutriflex Omega parenteral nutrition emulsions, and the HSA records give no approved-indication text.
+The TxGNN model predicts it may be effective for **severe nonproliferative diabetic retinopathy**.
+This is a model prediction only: **0 clinical trials** and **0 publications** were retrieved for this indication.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no Singapore license record and no original indication data in this evidence pack |
-| Predicted New Indication | Severe Nonproliferative Diabetic Retinopathy |
-| TxGNN Prediction Score | 99.97% (rank 783) |
-| Evidence Level | L5 (model prediction only, no clinical or preclinical studies identified) |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Original Indication | Not stated in HSA records (registered in parenteral nutrition emulsion products) |
+| Predicted New Indication | Severe nonproliferative diabetic retinopathy |
+| TxGNN Prediction Score | 99.97% |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 3 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for zinc acetate is not available in this evidence pack, so its original therapeutic use cannot be confirmed or connected here.
+Currently, detailed mechanism of action data is not available. Based on known information, zinc acetate is a zinc source used in nutrition and supplementation products. Its role as an essential trace element is well established, but its efficacy in a specific original indication cannot be confirmed from the HSA records.
 
-The TxGNN model's rationale for this candidate is purely theoretical: zinc is a cofactor for several retinal metabolic enzymes (e.g., carbonic anhydrase, superoxide dismutase), and its antioxidant properties are hypothesized to be potentially beneficial in diabetic retinal disease. However, this link is derived entirely from knowledge-graph association — **no clinical or preclinical study in this evidence pack tests zinc acetate in diabetic retinopathy**. The prediction should be treated as a hypothesis-generating signal only, not as evidence of efficacy.
-
----
+Zinc is a cofactor for antioxidant enzymes such as superoxide dismutase (SOD), so it may plausibly relate to oxidative stress in the retina, which is one component of diabetic retinopathy. This link is speculative. The TxGNN score reflects knowledge-graph associations, and no study of this drug and disease pair was found. The scores for diabetic retinopathy (99.92%) and its severe nonproliferative form are consistent with each other, but they come from the same graph neighborhood and are not independent confirmation.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Zinc acetate is **not currently registered** in Singapore (0 licenses on file), so no marketed product information is available.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN16734P | NUTRIFLEX® OMEGA SPECIAL B. BRAUN EMULSION FOR INFUSION | Injection, emulsion | Not listed in the record |
+| SIN15468P | NUTRIFLEX® OMEGA PLUS EMULSION FOR INFUSION | Injection, emulsion | Not listed in the record |
+| SIN15469P | NUTRIFLEX® OMEGA SPECIAL EMULSION FOR INFUSION | Injection, emulsion | Not listed in the record |
 
----
+All three are manufactured by B. Braun Melsungen AG and are injectable only. No oral or ophthalmic zinc acetate formulation appears in the Singapore records, so route compatibility with a retinal indication has not been assessed.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug interaction data were not available in this evidence pack — see Data Gaps below.)
+- **Drug Interactions**: The DDI query returned no records for this drug.
 
----
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This candidate is supported only by a TxGNN knowledge-graph score with no clinical trials or literature evidence (L5), and the drug has no existing regulatory presence in Singapore. The mechanistic rationale is theoretical and has not been tested for this indication.
+The prediction has a high model score but no supporting clinical trials or literature (L5). The mechanism is speculative, and the package insert warnings and contraindications have not been obtained.
 
 **To proceed, the following is needed:**
-- Mechanism of action (MOA) data from DrugBank or primary literature
-- TFDA/HSA package insert data (warnings, contraindications) — currently a **blocking** data gap for any safety assessment
-- Preclinical or clinical evidence specifically evaluating zinc/zinc acetate in diabetic retinopathy
-- If pursued, a route-of-administration and formulation feasibility assessment, since zinc acetate has no current Singapore registration
+- Package insert warnings and contraindications from the HSA website (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- A literature search on zinc status or supplementation in diabetic retinopathy
+- Route and formulation assessment, since the only registered products are parenteral nutrition emulsions
 
-**Additional note:** Among this drug's other predicted indications, **bronchitis** (rank 2, score 99.97%) has a materially stronger evidence base — one completed Phase NA RCT on zinc lozenges for the common cold (NCT03309995, graded relevance "C" due to diagnosis mismatch) and L4/S1 status ("Research Question"). This may be a more tractable candidate for an initial evidence review than the top-ranked diabetic retinopathy signal.
+**Other predictions to consider:** For the same drug, **bronchitis** (rank 2, L4) has one completed randomized trial of zinc acetate lozenges in the common cold (NCT03309995, n=87). That is indirect evidence, and no bronchitis study was found. Treat it as a research question, not as support for the retinopathy prediction.
+
+*These results are for research reference only and do not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

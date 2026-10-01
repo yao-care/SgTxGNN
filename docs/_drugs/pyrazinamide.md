@@ -33,75 +33,69 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-> Pyrazinamide is a first-line antituberculosis agent, historically used as part of combination therapy for *Mycobacterium tuberculosis* infection.
-> The TxGNN model predicts it may be effective for **Infectious Otitis Media**,
-> but currently **no clinical trials** and **no publications** directly support this specific prediction — the recommendation is **Hold**.
-
----
+Pyrazinamide is a first-line anti-tuberculosis drug. The TxGNN model predicts it may be effective for **infectious otitis media**, but **no clinical trials and no publications** were found for this exact term. The score is likely driven by TB-related neighbours in the knowledge graph, so this is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Tuberculosis (based on drug's known antimycobacterial mechanism; no Taiwan/Singapore approved-label text is available — see Data Gaps below) |
-| Predicted New Indication | Infectious Otitis Media |
+| Original Indication | Tuberculosis (inferred from the drug class; the Singapore registration record gives no indication text) |
+| Predicted New Indication | Infectious otitis media |
 | TxGNN Prediction Score | 99.96% |
-| Evidence Level | L5 (no clinical trials, no literature) |
-| Singapore Market Status | Not marketed (Not Marketed) |
-| Number of Registrations | 0 |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for pyrazinamide is not available in this evidence pack (flagged as a High-severity data gap). Based on information found elsewhere in the pack, pyrazinamide is a prodrug that is converted to pyrazinoic acid, which inhibits *Mycobacterium tuberculosis* within the acidic intracellular environment of macrophages. It is a component of standard first-line antituberculosis combination regimens, not used as monotherapy.
+Currently, detailed mechanism of action data is not available. Based on known information, pyrazinamide is a standard component of multidrug anti-tuberculosis regimens. Its efficacy in tuberculosis is established, and it may be mechanistically applicable to otitis media only where the infection is mycobacterial.
 
-For the top-ranked predicted indication, **infectious otitis media**, there is no direct clinical trial or literature evidence in this pack — the TxGNN score is high, but the prediction is unsupported by any real-world data (L5, model prediction only).
+Common otitis media is caused by ordinary bacteria, and pyrazinamide is not expected to be active against those pathogens. The link holds only for the tuberculous subtype, a rare extrapulmonary form of TB. The high score is probably an artefact of TB-related graph neighbours, not evidence of a new mechanism.
 
-Notably, several **related** predicted indications in this same pack — middle ear disease (rank 2), chronic otitis media (rank 4), suppurative otitis media (rank 5), and infectious otitis interna (rank 10) — are supported by multiple case reports and case series describing **tuberculous otitis media**, a rare form of extrapulmonary tuberculosis in which *M. tuberculosis* infects the middle ear. This provides a plausible biological rationale for pyrazinamide's association with the broader "otitis media" disease cluster: the model may be capturing a real extrapulmonary-TB signal, but the specific term "infectious otitis media" has not yet been directly evidenced, and the diagnosis would need to be confirmed as tuberculous (not general bacterial/viral) in origin before pyrazinamide — always as part of standard multi-drug anti-TB therapy — would be applicable.
-
----
+Several related predictions in the same ear-disease cluster do have supporting literature. These are middle ear disease, chronic otitis media, suppurative otitis media and infectious otitis interna. All of it concerns tuberculous otitis media, which would be an extension of the existing TB indication, not a new one.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available for "infectious otitis media" as a search term.
 
----
+The publications below were retrieved for closely related predictions. They are indirect evidence, limited to tuberculous otitis media case reports and small series.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [26785789](https://pubmed.ncbi.nlm.nih.gov/26785789/) | 2013 | Case Report | Int J Mycobacteriol | Nasal and middle ear TB treated with rifampicin, isoniazid and pyrazinamide for 9 months; no recurrence at 1 year |
+| [21532520](https://pubmed.ncbi.nlm.nih.gov/21532520/) | 2011 | Case Series | Otol Neurotol | Variable presentation of TB otitis media; early detection improves treatment outcome |
+| [12680299](https://pubmed.ncbi.nlm.nih.gov/12680299/) | 2003 | Case Series | An Otorrinolaringol Ibero Am | Three cases of tuberculous otitis media; anti-TB drugs usually effective, but diagnosis is often delayed |
+| [15168420](https://pubmed.ncbi.nlm.nih.gov/15168420/) | 2004 | Case Report | Am J Kidney Dis | Tuberculous otitis media in a renal transplant recipient after repeated empiric antibiotic courses |
+| [41783873](https://pubmed.ncbi.nlm.nih.gov/41783873/) | 2026 | Case Report | Cureus | Tuberculous otitis media presenting as otorrhea, diagnosed late in a low-TB-prevalence setting |
 
 ## Singapore Market Information
 
-This drug is currently **not registered/marketed** (Not marketed, 0 licenses on file). No authorization records are available to summarize.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN00900P | PYRAZINAMIDE TABLET 500 mg (Sunward Pharmaceutical Private Limited) | Tablet | — (not stated in the registry record) |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-**Note:** Local regulatory label warnings and contraindications (DG001) are marked as a **Blocking** data gap in this evidence pack — this must be resolved before any S1 safety pre-assessment can proceed.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (infectious otitis media) has a high TxGNN score but zero direct clinical trial or literature support (L5). While related otitis-media terms show case-report-level evidence for tuberculous otitis media, that evidence has not been mapped to this specific predicted term, and the drug is not currently marketed locally.
+The prediction for infectious otitis media rests on the model score alone, with no trials or publications for this term. Pyrazinamide has no expected activity against common bacterial otitis media. The only credible link is tuberculous otitis media, which would be an extension of the existing TB use, not a new indication.
 
 **To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain local package insert / label warnings and contraindications before any safety pre-assessment
-- Resolve DG002 (High): confirm mechanism of action via DrugBank to support mechanistic-link analysis
-- Clarify disease-term overlap between "infectious otitis media" and the literature-supported "tuberculous otitis media" cluster (ranks 2, 4, 5, 10) to determine if they represent the same clinical entity
-- If pursued, restrict to cases with confirmed *M. tuberculosis* etiology, using pyrazinamide only as part of standard combination anti-TB therapy, not monotherapy
-- Assess local registration/import pathway, since the drug currently has no market presence
+- Retrieve the Singapore (HSA) package insert, including warnings and contraindications and the approved indication text
+- Obtain mechanism of action data for pyrazinamide (for example from DrugBank)
+- Narrow the indication to tuberculous otitis media and review that evidence as a TB-extension question
+- Check whether any ongoing studies cover TB otitis media
+- Compare the prediction against standard TB treatment guidance for extrapulmonary disease
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

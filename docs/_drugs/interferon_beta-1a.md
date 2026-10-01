@@ -33,94 +33,64 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Interferon beta-1a (IFN β-1a) is a recombinant biological immunomodulator globally approved for relapsing forms of Multiple Sclerosis (MS), though it holds no current Singapore market registration.
-The TxGNN model ranks **Jeune syndrome situs inversus** as its top predicted new indication with a score of **97.47%**; however, this is supported by **0 clinical trials** and **0 publications** specifically addressing this drug–disease combination.
-Across all 10 predicted indications — each a rare congenital structural or chromosomal disorder — the uniform evidence level is **L5** (model prediction only), and the recommended decision for every candidate is **Hold**.
-
----
+Interferon beta-1a is an immunomodulatory injectable marketed in Singapore as Rebif. The registration records give no indication text, but the retrieved literature describes it as an approved multiple sclerosis (MS) treatment.
+The TxGNN model predicts it may be effective for **Jeune syndrome situs inversus**, but there are **0 clinical trials** and **0 publications** supporting this prediction, so it is a model output only.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not registered in Singapore; globally known for relapsing-remitting Multiple Sclerosis (RRMS) |
+|------|------|
+| Original Indication | Not stated in the Singapore registration data (literature describes use in multiple sclerosis) |
 | Predicted New Indication | Jeune syndrome situs inversus |
 | TxGNN Prediction Score | 97.47% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
 | Recommended Decision | Hold |
 
----
+## Why is This Prediction Reasonable?
 
-## Why Is This Prediction Reasonable?
+Currently, detailed mechanism of action data is not available. Interferon beta-1a is known as an immunomodulator, and its efficacy in relapsing multiple sclerosis is well documented in the literature.
 
-Interferon beta-1a is a type I interferon with well-characterised immunomodulatory and antiviral properties. In its approved indication of relapsing-remitting MS, IFN β-1a signals through the IFNAR1/IFNAR2 receptor complex, activating the JAK-STAT pathway to drive expression of hundreds of interferon-stimulated genes (ISGs). The downstream effects include suppression of autoreactive T-cell activation, reduction of pro-inflammatory cytokine production (TNF-α, IL-17), and stabilisation of the blood-brain barrier — collectively reducing relapse frequency and slowing disability accumulation. Formal MOA documentation could not be retrieved from the drug database at the time of this evaluation, and additional source verification is recommended.
+Jeune syndrome situs inversus is a ciliopathy and skeletal dysplasia with laterality defects. It is a developmental, structural condition rather than an immune-mediated one. No plausible mechanism links an immunomodulator to this disease.
 
-Jeune syndrome situs inversus is a rare autosomal-recessive ciliopathy caused by mutations in cilia-related genes (e.g., *IFT80*, *DYNC2H1*, *CEP120*). The hallmark presentation is a severely restricted thoracic cage (asphyxiating thoracic dystrophy) combined with situs inversus (mirror-image positioning of thoracic and abdominal organs). The disease mechanism is rooted in dysfunctional primary cilia during embryonic development — entirely a structural and developmental failure, with no established immune dysregulation or interferon-axis involvement.
-
-**No pharmacological bridge currently exists** between IFN β-1a's immunomodulatory mechanism and the pathophysiology of Jeune syndrome situs inversus. The high TxGNN score (97.47%) almost certainly reflects knowledge graph topology artefacts rather than a biologically actionable relationship. This pattern is consistent across all 10 predicted indications in this Evidence Pack, which span congenital skeletal anomalies, chromosomal deletions, Pierre Robin sequence variants, glycosylation disorders, and low-malignancy gynaecological tumours — none of which has a recognised immunomodulatory treatment axis.
-
----
+The score comes from knowledge-graph patterns alone. The other nine top-ranked predictions are also congenital malformations, chromosomal deletions or ovarian tumours. All are L5, with no trials or disease-specific literature, and all are rated Hold. This suggests the high scores reflect graph artefacts rather than biological signal.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Interferon beta-1a in Jeune syndrome situs inversus.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for Interferon beta-1a in Jeune syndrome situs inversus.
-
-> **Note on Rank 4 literature:** The PubMed query for "disorder of fucoglycosan synthesis" returned 20 publications, but review of each record confirms they concern IFN β-1a in MS, COPD, and COVID-19 — not fucoglycosan synthesis disorders. These are search retrieval artefacts and do not constitute supportive evidence for that indication or any indication in this Evidence Pack.
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Interferon beta-1a holds no current registrations with the Health Sciences Authority (HSA) of Singapore as of the data cutoff (2026-04-04). No product licence records were retrieved.
-
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
-|----------------------|--------------|-------------|---------------------|
-| — | — | — | No HSA registrations on record |
+|---------|------|------|-----------|
+| SIN13975P | Rebif Solution for Injection in Cartridge 44mcg/0.5ml | Injection, solution | Not stated in registration data |
+| SIN13974P | Rebif Solution for Injection in Cartridge 22mcg/0.5ml | Injection, solution | Not stated in registration data |
 
-For reference, IFN β-1a products (e.g., Avonex®, Rebif®) are licensed in major markets (USA, EU, Japan) for relapsing forms of MS. A formal HSA registration application would be required before any use in Singapore.
-
----
+Both products are made by Merck Serono S.p.A (Bari).
 
 ## Safety Considerations
 
-Singapore-specific prescribing information, package insert warnings, and formal contraindications were not retrievable for this evaluation. Please refer to the originator package insert (e.g., Avonex® or Rebif® EU/US SmPC) for comprehensive safety information, including:
-
-- Hepatotoxicity and elevated liver enzymes (monitoring of LFTs recommended)
-- Depression and suicidal ideation (black box warning in some jurisdictions)
-- Flu-like injection-site reactions
-- Thyroid dysfunction and autoimmune events
-- Embryo-fetal risk (contraindicated in pregnancy in some regulatory frameworks)
-
-No drug–drug interaction data was found in the query database for this submission.
-
----
+Please refer to the package insert for safety information. No drug interactions were found in the queried data.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Every one of the 10 TxGNN-predicted indications for Interferon beta-1a is rated L5 — model prediction only, with no supporting clinical trials or directly relevant published literature. All predicted target diseases are rare congenital structural, chromosomal, or developmental disorders for which IFN β-1a's immunomodulatory mechanism has no established or plausible therapeutic rationale. Combined with zero Singapore market presence and unresolved blocking safety data gaps, there is no evidence basis to advance any of these candidates at this time.
+The prediction has no trials, no literature and no plausible mechanism. The disease is a congenital ciliopathy that an immunomodulator would not be expected to treat, so there is no basis to advance it.
 
 **To proceed, the following is needed:**
+- The Singapore package insert, including approved indications, warnings and contraindications
+- Mechanism of action data for interferon beta-1a
+- Disease-specific evidence, such as preclinical data linking interferon signalling to ciliopathy or laterality pathways
+- A review of whether a more biologically plausible indication exists among the lower-ranked predictions
 
-- **Resolve blocking data gap:** Retrieve the originator package insert (HSA, EMA, or FDA SmPC) to obtain complete warnings, contraindications, and special population guidance
-- **Obtain MOA documentation:** Query DrugBank API (DB00060) to formally document the mechanism of action and enable rigorous mechanistic plausibility assessment
-- **Re-evaluate TxGNN output quality:** The current top-10 predicted indications are uniformly congenital structural disorders with no immunological basis — consider applying disease-category post-filters or re-running prediction with IFN biology–relevant disease subsets (autoimmune, inflammatory, viral) to surface pharmacologically coherent repurposing candidates
-- **Singapore regulatory pathway assessment:** If a viable new indication is identified after the above steps, engage HSA's regulatory affairs pathway early (e.g., Product Licence application under the Health Products Act) given current zero-registration status
-- **Scientific advisory review:** Before investing additional evidence-gathering resources, a clinical pharmacologist or immunologist review of the TxGNN output for this drug is strongly recommended to triage candidates with genuine mechanistic plausibility
-
----
-
-*This report is generated for research reference only and does not constitute medical advice. All repurposing candidates require clinical validation before any therapeutic application.*
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

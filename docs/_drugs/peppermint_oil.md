@@ -29,11 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Peppermint Oil: From No Registered Indication to Leprosy
+# Peppermint Oil: From a Marketed Oral Capsule to Leprosy (Prediction Only)
 
 ## One-Sentence Summary
 
-Peppermint oil (DrugBank DB11198) has no registered original indication and is not currently marketed in Singapore, so this evaluation starts without an established therapeutic baseline. The TxGNN model's top-ranked prediction is **Leprosy**, with a very high similarity score (99.80%), but **zero clinical trials and zero publications** currently support this specific link — it is a pure knowledge-graph embedding prediction with no mechanistic, clinical, or literature backing.
+Peppermint oil is marketed in Singapore as an enteric-coated oral capsule (Colpermin), but no approved indication is recorded in the data provided.
+The TxGNN model predicts it may be effective for **leprosy**, with a very high score, but there are **0 clinical trials** and **0 publications** supporting this link.
+This is a model-only prediction and should be treated as a hypothesis, not a repurposing candidate.
 
 ---
 
@@ -41,23 +43,21 @@ Peppermint oil (DrugBank DB11198) has no registered original indication and is n
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no Singapore license/registration on file |
+| Original Indication | Not stated in the registration record |
 | Predicted New Indication | Leprosy |
 | TxGNN Prediction Score | 99.80% |
-| Evidence Level | L5 |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for peppermint oil is not available in this evidence pack. Based on the information provided, peppermint oil has no defined original indication and no Singapore market presence, so there is no established pharmacological baseline from which to reason toward leprosy.
+Currently, detailed mechanism of action data is not available. Peppermint oil is an essential oil whose main constituent is menthol, and it is already used in an oral capsule form. Its original indication is not recorded in the Singapore registration data.
 
-Leprosy is caused by *Mycobacterium leprae* infection and is treated with anti-mycobacterial regimens. The evidence pack's own rationale for this prediction states plainly that there is no known mechanistic link between peppermint oil and leprosy: no in vitro or clinical evidence of anti-mycobacterial activity exists for this compound. The high TxGNN score reflects embedding-space similarity within the knowledge graph rather than any biological or pharmacological reasoning, and should be treated as a hypothesis-generation signal only, not as mechanistic support.
-
-Given the complete absence of supporting trials or literature, this prediction currently has no scientific rationale beyond the model's statistical output.
+Peppermint oil shows generic in vitro antimicrobial activity, but nothing links it to *Mycobacterium leprae*, the bacterium that causes leprosy. Leprosy also needs prolonged multidrug antibiotic treatment, and no evidence suggests that peppermint oil could replace or add to it. The high TxGNN score (99.80%, model rank 3,433) reflects a pattern in the knowledge graph and is not backed by any laboratory or clinical result. The score should not be read as evidence of efficacy.
 
 ---
 
@@ -73,9 +73,19 @@ Currently no related literature available.
 
 ---
 
+## Singapore Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN13034P | COLPERMIN CAPSULE 187mg | Capsule, enteric coated (oral) | Not listed in the record |
+
+Manufacturers: Tillotts Pharma AG (including the capsule coating step) and SwissCo Services AG (capsule coating step only).
+
+---
+
 ## Safety Considerations
 
-Please refer to the package insert for safety information. (Note: TFDA/HSA labeling warnings and contraindications for peppermint oil are currently a documented data gap — see Conclusion below.)
+Please refer to the package insert for safety information.
 
 ---
 
@@ -84,13 +94,17 @@ Please refer to the package insert for safety information. (Note: TFDA/HSA label
 **Decision: Hold**
 
 **Rationale:**
-The 99.80% TxGNN score for leprosy is unsupported by any mechanism, clinical trial, or published literature — it reflects knowledge-graph similarity only (Evidence Level L5). In addition, peppermint oil is not marketed in Singapore and lacks basic regulatory safety documentation, so it cannot yet clear even a preliminary safety screen.
+The leprosy prediction has a high model score but no trials, no literature and no plausible mechanism, so it stays at evidence level L5. Safety screening cannot proceed until the package insert data are obtained.
+
+Among the top 10 predictions, only cardiovascular disease (rank 9) has any supporting studies. It is at L3 and rated "Research Question": two small completed trials of peppermint on cardiometabolic parameters and blood pressure, using surrogate endpoints only. It is a more realistic follow-up than leprosy, though efficacy is still unproven.
 
 **To proceed, the following is needed:**
-- Complete mechanism of action (MOA) data for peppermint oil (currently a data gap)
-- TFDA/HSA label warnings and contraindications, required before any preliminary (S1) safety assessment — this is currently a **blocking** data gap
-- In vitro or mechanistic evidence for any anti-mycobacterial activity, since none currently exists to support the leprosy hypothesis
-- Consider re-prioritizing evaluation toward **cardiovascular disease** (rank 9 in this same prediction set), which already has a materially stronger evidence base: 3 completed clinical trials (n=36–40) and 8 literature records including 1 RCT protocol, reaching Evidence Level L3 / decision stage S2 ("Research Question") — a substantially more actionable candidate than leprosy for this drug.
+- HSA package insert warnings and contraindications (currently blocking safety screening)
+- Mechanism of action data for peppermint oil and menthol
+- Any in vitro activity data against *M. leprae*, before any clinical consideration
+- A decision on whether to redirect effort to the cardiovascular prediction, where a safety-focused next step is feasible
+
+*This report is for research reference only and does not constitute medical advice. Predicted indications require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

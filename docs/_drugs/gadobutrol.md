@@ -29,107 +29,69 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Gadobutrol: From CNS MRI Contrast Enhancement to Peripheral Arterial Disease Diagnosis
+# Gadobutrol: From MRI Contrast Imaging to Benign Prostatic Hyperplasia
 
 ## One-Sentence Summary
 
-Gadobutrol (Gadovist) is a high-concentration (1.0 mol/L) macrocyclic gadolinium-based contrast agent (GBCA) primarily used for MRI enhancement of the central nervous system and whole-body imaging.
-The TxGNN model's highest-evidence prediction suggests it may serve a diagnostic role in **Peripheral Arterial Disease (PAD)**, with **4 clinical trials** and **20 publications** currently supporting this direction.
-It is important to note that this represents a **diagnostic**, rather than therapeutic, repurposing — Gadobutrol's role in PAD is as a contrast medium for CE-MRA (contrast-enhanced MR angiography), not as a treatment agent.
-
----
+Gadobutrol is a gadolinium-based contrast agent used in MRI. It is a diagnostic agent, not a treatment.
+The TxGNN model predicts it may be effective for **benign prostatic hyperplasia (BPH)**,
+but **no clinical trials and no publications** support this prediction, so it is a model-only signal.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | CNS MRI enhancement (brain and spine); whole-body MR angiography |
-| Predicted New Indication | Peripheral Arterial Disease (PAD) |
-| TxGNN Prediction Score | 76.72% (rank #2 by evidence quality; rank #1 BPH has no supporting evidence) |
-| Evidence Level | L1 (2 completed Phase 4 RCTs directly comparing Gadobutrol in PAD) |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
-> **Note on TxGNN Rank Interpretation:** The model's rank 1 prediction (Benign Prostatic Hyperplasia, score 83.2%) has zero clinical trial or literature support and is mechanistically implausible. This report focuses on PAD (rank 2, score 76.7%), which carries the strongest evidence and a coherent mechanistic rationale.
-
----
+|------|------|
+| Original Indication | Not stated in the Singapore registration records. Gadobutrol is an extracellular gadolinium-based MRI contrast agent. |
+| Predicted New Indication | Benign prostatic hyperplasia |
+| TxGNN Prediction Score | 83.24% |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Gadobutrol is a macrocyclic, extracellular gadolinium chelate formulated at a uniquely high concentration of 1.0 mol/L — twice that of conventional 0.5 mol/L GBCAs. This high molarity shortens T1 relaxation time more efficiently, producing superior vessel-to-background contrast even at lower injection volumes. The physical mechanism is straightforward: **high [Gd]→ enhanced MRI signal → superior vascular delineation**.
+Currently, detailed mechanism of action data is not available in the record. Gadobutrol is an extracellular gadolinium-based MRI contrast agent. Its gadolinium chelate shortens T1 relaxation time and so brightens vessels and tissues on scans. It has no known pharmacological action on prostate tissue.
 
-In the context of peripheral arterial disease, contrast-enhanced MR angiography (CE-MRA) is the established non-invasive reference standard for assessing stenosis severity, lesion extent, and guiding revascularisation decisions. Gadobutrol's concentration advantage is particularly valuable in multi-station CE-MRA protocols covering the entire runoff vasculature from the aorta to the foot — a technically demanding study where bolus timing and signal-to-noise ratio are critical. The high relaxivity of Gadobutrol allows lower gadolinium doses (0.1 mmol/kg) while maintaining diagnostic image quality, which also carries safety benefits in patients with comorbid renal dysfunction.
+The 0.83 graph score is most likely a knowledge-graph artifact rather than a real biological link. The dataset contains no trial or publication that connects gadobutrol to BPH. This prediction is not considered mechanistically plausible.
 
-The TxGNN knowledge graph likely identifies this connection through the shared pathway: **Gadobutrol ↔ MR angiography ↔ vascular disease diagnosis**, reflecting real-world clinical practice rather than a novel therapeutic mechanism. While this does not constitute pharmacological drug repurposing in the conventional sense, it does represent an **expansion of the diagnostic indication** for Gadobutrol into peripheral vascular imaging — an application already well-supported by high-quality clinical evidence but potentially not yet formally registered in all markets.
-
----
+For context, the model's next-ranked predictions show a similar pattern:
+- **Peripheral arterial disease** (score 76.7%) and **peripheral vascular disease** (score 74.4%) have diagnostic evidence only. This includes Phase 4 MR angiography comparisons in which gadobutrol was the comparator, and several prospective studies against digital subtraction angiography. These show gadobutrol works well as an imaging agent for these diseases. They do not show any therapeutic effect, so this is not drug repurposing.
+- **Disease of orbital region** has only indirect MRI diagnostic trials in which the contrast agent is not specified.
+- The remaining predictions (cauda equina syndrome, strongyloidiasis, prostate calculus, neurogenic bladder, iritis, hypertrichosis) have no supporting trials or literature.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT01026389](https://clinicaltrials.gov/study/NCT01026389) | Phase 4 | Completed | 189 | Head-to-head RCT comparing Gadovist® (Gadobutrol) vs Dotarem® (gadoterate) CE-MRA in abdominal and lower limb arterial disease — the largest PAD diagnostic comparison trial |
-| [NCT00955617](https://clinicaltrials.gov/study/NCT00955617) | Phase 4 | Completed | 20 | Intra-individual crossover comparison of Gadobutrol vs gadoterate in CE-MRA for clinically significant abdominal/lower limb arterial disease |
-| [NCT02917213](https://clinicaltrials.gov/study/NCT02917213) | N/A | Completed | 92 | Prospective observational study assessing quantitative cardiac and vascular MRI (including Gadobutrol) for predicting thromboembolic complications including peripheral arterial embolism post-MI |
-| [NCT05685160](https://clinicaltrials.gov/study/NCT05685160) | N/A | Enrolling by Invitation | 75 | Imaging comparison of intermetatarsal bursitis vs Morton's neuroma using MRI with contrast — limited direct relevance to PAD diagnosis |
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [26001243](https://pubmed.ncbi.nlm.nih.gov/26001243/) | 2015 | RCT | AJR Am J Roentgenol | Large-scale randomised prospective study demonstrating non-inferiority of gadoterate vs Gadobutrol at 3T MRA in peripheral arterial occlusive disease, using DSA as reference — establishes Gadobutrol as diagnostic benchmark |
-| [12928960](https://pubmed.ncbi.nlm.nih.gov/12928960/) | 2003 | Prospective Cohort | Eur Radiol | Multi-centre blinded study (n=203) comparing Gadobutrol CE-MRA vs intra-arterial DSA in peripheral vascular disease — demonstrated high diagnostic accuracy for pelvic and peripheral arteries |
-| [22848033](https://pubmed.ncbi.nlm.nih.gov/22848033/) | 2012 | Prospective RCT | J Magn Reson Imaging | Single-centre randomised crossover double-blind study comparing 0.5M gadoterate vs 1.0M Gadobutrol in peripheral MRA at 3T for abdominal/lower limb arterial disease |
-| [20959539](https://pubmed.ncbi.nlm.nih.gov/20959539/) | 2010 | Prospective Cohort | Radiology | Evaluated a 3T MRA protocol combining continuous table movement with time-resolved TWIST-MRA using single-dose Gadobutrol (0.1 mmol/kg) in peripheral arterial occlusive disease |
-| [23188773](https://pubmed.ncbi.nlm.nih.gov/23188773/) | 2013 | Prospective Comparative | J Magn Reson Imaging | Compared CE-MRA vs DSA in lower extremity arterial disease, confirming high diagnostic accuracy for stenosis grading in symptomatic peripheral arterial occlusive disease |
-| [15149986](https://pubmed.ncbi.nlm.nih.gov/15149986/) | 2004 | Prospective Cohort | AJR Am J Roentgenol | Whole-body 3D CE-MRA with Gadobutrol in 51 patients with PAD; demonstrated feasibility of single-injection whole-body vascular coverage compared to DSA |
-| [19652610](https://pubmed.ncbi.nlm.nih.gov/19652610/) | 2009 | Prospective Cohort | Invest Radiol | Proof-of-concept for peripheral CTM MRA combined with time-resolved TWIST-MRA using single low dose of Gadobutrol (0.1 mmol/kg) at 3.0T |
-| [12677513](https://pubmed.ncbi.nlm.nih.gov/12677513/) | 2003 | Prospective Cohort | RoFo | Early clinical results for 1.0M Gadobutrol CE-MRA vs intra-arterial DSA in peripheral arterial occlusive disease — established early evidence base |
-| [24893292](https://pubmed.ncbi.nlm.nih.gov/24893292/) | 2014 | Prospective Comparative | PLoS One | Compared enhancement characteristics and image quality of Gadobutrol vs gadoterate in low-dose time-resolved 3T MRA at calf station — relevant for distal PAD assessment |
-| [21031523](https://pubmed.ncbi.nlm.nih.gov/21031523/) | 2010 | Prospective Comparative | J Magn Reson Imaging | Inter-individual prospective comparison of gadobenate dimeglumine vs Gadobutrol in CE run-off MRA of the lower extremities for diagnostic accuracy and image quality |
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Gadobutrol is currently **not registered** with the Health Sciences Authority (HSA) of Singapore. No product authorisations are on file.
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN12399P | GADOVIST INJECTION 1.0 mmol/ml | Injection |
+| SIN13807P | GADOVIST 1MMOL/ML PREFILLED SYRINGE 5.0 ML | Injection |
 
-> Gadobutrol (marketed as Gadovist® by Bayer and as Gadavist® in North America) holds regulatory approval in multiple major markets including the European Union, United States, Japan, and Australia for MRI enhancement of CNS and body imaging. A formal registration application to HSA would be required before clinical use in Singapore.
-
----
+Both products are made by Bayer AG. The approved indication text was not provided in the records.
 
 ## Safety Considerations
 
-No HSA-specific package insert warnings or contraindications data were available for this review. No drug-drug interaction data were identified in the query log.
-
-Please refer to the originator's package insert (Gadovist®, Bayer) for complete safety information. Key class-related considerations for gadolinium-based contrast agents include:
-
-- **Nephrogenic Systemic Fibrosis (NSF):** Risk in patients with severe renal impairment (eGFR < 30 mL/min/1.73 m²). Gadobutrol is a macrocyclic GBCA with a more stable chelate structure than linear agents, associated with lower NSF risk.
-- **Gadolinium Retention:** Long-term gadolinium deposition in the brain and other tissues has been reported for all GBCAs; macrocyclic agents including Gadobutrol show lower retention than linear agents.
-- **Hypersensitivity Reactions:** As with all contrast media, anaphylactoid reactions are possible; resuscitation facilities should be available.
-- **Renal Function Monitoring:** Screen for renal impairment before administration; dose adjustment or avoidance may be required in renally compromised patients.
-
----
+Please refer to the package insert for safety information. No drug interactions were found in the queried database.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The evidence base for Gadobutrol in peripheral arterial disease diagnosis is substantial and of high quality — two completed Phase 4 RCTs and multiple prospective cohort studies consistently demonstrate diagnostic non-inferiority or equivalence to the reference standard (DSA), with a clear and well-understood mechanistic basis. This is not a speculative pharmacological repurposing but an evidence-grounded **diagnostic indication expansion** backed by L1-level evidence.
+The BPH prediction rests only on a model score, with no trials, no literature and no plausible mechanism. Gadobutrol is a diagnostic imaging agent. The peripheral vascular disease findings are established diagnostic use, not therapeutic repurposing.
 
 **To proceed, the following is needed:**
-
-- **HSA Registration:** Gadobutrol is not currently registered in Singapore. A regulatory submission to HSA is required. The existing EU and US approval dossiers (Gadovist® / Gadavist®) provide a strong foundation for a submission.
-- **Formal Safety Data for Singapore Label:** Obtain and translate the complete package insert (warnings, contraindications, NSF risk communication) to fulfil HSA label requirements.
-- **Renal Safety Protocol:** Establish a local institutional protocol for pre-administration eGFR screening, consistent with international radiology society guidelines (ACR, ESUR) for macrocyclic GBCA use.
-- **MOA Documentation:** Formal documentation of the gadolinium chelate mechanism for regulatory dossier completeness.
-- **Post-Market Surveillance Plan:** Given gadolinium retention signals across the class, a pharmacovigilance plan aligned with MHC/HSA requirements should be prepared.
-
-> **Research Disclaimer:** This report is for research reference only and does not constitute medical advice. All drug repurposing candidates require clinical validation before application.
+- The HSA package insert, to confirm approved indications and complete safety screening (currently blocking)
+- Formal mechanism of action data from DrugBank
+- Any preclinical or clinical evidence linking gadobutrol to BPH. Without it, this candidate should not advance beyond model prediction.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

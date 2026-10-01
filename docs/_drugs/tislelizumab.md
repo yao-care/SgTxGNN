@@ -29,92 +29,82 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tislelizumab: From Advanced Solid Tumors to Mixed-Type Autoimmune Hemolytic Anemia
+# Tislelizumab: From an Unspecified Original Indication to Mixed-Type Autoimmune Hemolytic Anemia
 
 ## One-Sentence Summary
 
-Tislelizumab is an anti-PD-1 immune checkpoint inhibitor used in oncology (e.g., esophageal cancer, NSCLC, per literature in this evidence pack); it is not currently registered or marketed in Singapore.
-The TxGNN model's top prediction is **Mixed-Type Autoimmune Hemolytic Anemia**, but this candidate has **no clinical trials and no supporting literature (L5)**.
-More importantly, the drug's own mechanism argues *against* this prediction — PD-1 inhibitors are well documented to **cause**, not treat, immune-mediated hemolytic anemia as an adverse event, and this pattern repeats across most of the top 10 TxGNN hits for this drug (see note below).
-
----
+Tislelizumab is a PD-1 blocking antibody that the literature describes as approved for advanced solid tumours such as lung and esophageal cancer. The Singapore registration record does not state an approved indication.
+The TxGNN model predicts it may be effective for **mixed-type autoimmune hemolytic anemia**, but **0 clinical trials** and **0 publications** support this. The mechanism also argues against it, so this is a model-only prediction that is probably in the wrong direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Advanced solid tumors (e.g., esophageal cancer, NSCLC) — inferred from literature within this evidence pack; no official Singapore-approved indication text exists as the drug is not registered |
+| Original Indication | Not stated in the registration record (the literature describes use in advanced solid tumours, e.g. NSCLC and esophageal cancer) |
 | Predicted New Indication | Mixed-type autoimmune hemolytic anemia |
 | TxGNN Prediction Score | 93.76% |
-| Evidence Level | L5 (model prediction only, no clinical or literature support) |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | **Hold** |
-
----
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in this evidence pack (`original_moa: [Data Gap]`). Based on literature cited within the pack, Tislelizumab is a humanized IgG4 anti-PD-1 monoclonal antibody that blocks the PD-1/PD-L1 checkpoint pathway to reactivate anti-tumor T-cell immunity, and is used for advanced solid tumors including esophageal cancer.
+Currently, detailed mechanism of action data is not available in the record. Tislelizumab is a PD-1 blocking antibody (humanized IgG4) that releases the brake on T cells to restore anti-tumour immunity. Its use in cancer is well documented in the retrieved literature.
 
-This mechanism does **not** support the top-ranked prediction. Autoimmune hemolytic anemia is a recognized immune-related adverse event (irAE) of PD-1 inhibitors — releasing the "brake" on T cells can trigger autoimmune attack on red blood cells, the opposite of a therapeutic effect. The evidence pack's own rationale explicitly flags this as a likely **reversed-direction artifact**: TxGNN appears to have learned "drug–disease co-occurrence" from adverse-event reporting data rather than a genuine treatment relationship. No clinical trial or publication in this pack supports using Tislelizumab to *treat* autoimmune hemolytic anemia.
+The prediction is **not mechanistically convincing**. Blocking PD-1 reduces immune tolerance and can unmask or worsen autoimmunity. Immune checkpoint inhibitors are themselves recognised causes of immune-mediated hemolysis, so a benefit in autoimmune hemolytic anemia is biologically implausible. The knowledge-graph link probably reflects shared immune-pathway neighbours rather than a treatment effect.
 
-**Batch-level pattern warning:** This is not an isolated issue. Of the top 10 TxGNN candidates for this drug, at least 6 (ranks 1, 2, 4, 5, 8, 10 — hemolytic anemias, PNH, CD59 deficiency, dermatomyositis) follow the same reversed-mechanism pattern, and the two candidates with actual literature support (rank 3: dermatitis; rank 6: proteinuria) are populated almost entirely by case reports and pharmacovigilance studies describing Tislelizumab-**induced** SJS/TEN, DRESS, agranulocytosis, and renal thrombotic microangiopathy — i.e., adverse-event evidence, not therapeutic evidence. This suggests a systematic confound in this prediction batch that should be flagged before further evaluation of any candidate in this set.
-
----
+The other top-ranked predictions show the same pattern:
+- Several are autoimmune or hemolytic conditions: idiopathic aplastic anemia, drug-induced and neonatal autoimmune hemolytic anemia, and amyopathic dermatomyositis. PD-1 blockade is more likely to trigger or worsen these than to treat them.
+- For dermatitis and proteinuria, the literature found is almost entirely about tislelizumab **causing** skin and kidney injury, which is a harm signal rather than a therapeutic one.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for mixed-type autoimmune hemolytic anemia.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for mixed-type autoimmune hemolytic anemia.
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Tislelizumab is currently **not registered or marketed in Singapore** (0 authorizations on file).
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN17089P | TEVIMBRA Concentrate for Solution for Infusion 100mg/10mL | Infusion, solution concentrate |
 
----
+The record lists Boehringer Ingelheim Biopharmaceuticals (China) Ltd as the manufacturer. It does not include the approved indication text.
 
 ## Cytotoxicity
 
-Tislelizumab is an oncology therapeutic (immune checkpoint inhibitor), so this section applies.
-
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Immunotherapy (anti-PD-1 immune checkpoint inhibitor) — not a conventional cytotoxic agent |
-| Myelosuppression Risk | Low direct myelosuppression; however, literature in this pack documents a rare case of Tislelizumab-induced agranulocytosis (PMID 38910480), so hematologic monitoring is still warranted |
-| Emetogenicity Classification | Low (immune checkpoint inhibitors are minimally emetogenic as monotherapy) |
-| Monitoring Items | CBC with differential, liver function, renal function/urinalysis (proteinuria, TMA reported — PMID 40528285, 40420929), thyroid function, skin examination (SJS/TEN, DRESS reported — PMID 41346629, 40447060, 41268547) |
-| Handling Protection | Standard precautions for parenteral monoclonal antibody administration; not classified under conventional cytotoxic drug handling regulations, but institutional hazardous-drug policy should be confirmed |
-
----
+| Cytotoxicity Classification | Immunotherapy (PD-1 checkpoint inhibitor), not a conventional cytotoxic agent |
+| Myelosuppression Risk | Not a typical direct myelosuppressant; immune-mediated hematologic toxicity is possible (a case of agranulocytosis is reported in the literature) |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | CBC, liver and renal function, and monitoring for immune-related adverse events (skin, kidney) |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ## Safety Considerations
 
-No formal safety data (warnings, contraindications, or drug interactions) is available in this evidence pack — please refer to the package insert for safety information once available.
+The package insert warnings and contraindications are not in the record, so please refer to the package insert for formal safety information. No drug interaction data were found.
 
-**Note from literature evidence in this pack:** although not part of the formal `safety` dataset, publications retrieved for other candidate indications (dermatitis, proteinuria) document severe immune-related adverse events attributed to Tislelizumab, including Stevens-Johnson syndrome/toxic epidermal necrolysis, DRESS syndrome, agranulocytosis, and renal thrombotic microangiopathy. These should be factored into any future safety review of this drug.
-
----
+The literature retrieved for the other predicted indications shows these safety signals:
+- **Severe skin reactions**: Stevens-Johnson syndrome/toxic epidermal necrolysis (SJS/TEN) and DRESS, in multiple case reports, case series and systematic reviews. Pharmacovigilance analyses (FAERS) also flag cutaneous toxicity.
+- **Renal injury**: thrombotic microangiopathy (with fruquintinib) and granulomatosis with polyangiitis, in single case reports.
+- **Hematologic toxicity**: agranulocytosis reported together with TEN in one case.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (mixed-type autoimmune hemolytic anemia) has no clinical or literature support (L5) and is mechanistically contradicted by known PD-1 inhibitor pharmacology — the condition is a documented adverse effect of this drug class, not a treatable target. The broader prediction batch shows the same reversed-direction pattern, indicating a likely systematic issue with this TxGNN run for Tislelizumab rather than a genuine repurposing signal.
+The prediction rests on a model score alone (L5), with no trials or literature, and PD-1 blockade is mechanistically expected to aggravate autoimmune hemolysis rather than treat it. The safety literature points toward harm in the immune-mediated conditions examined.
 
 **To proceed, the following is needed:**
-- TFDA/HSA package insert warnings and contraindications (currently blocking — DG001)
-- Confirmed mechanism of action data from DrugBank (currently high-impact gap — DG002)
-- Manual review of NCT07190027 (rank 3, dermatitis) to confirm whether it studies Tislelizumab as an irAE-management trial rather than a dermatitis treatment trial, before any further action on that candidate
-- If pursuing this drug for repurposing evaluation at all, request a re-run or manual audit of the TxGNN prediction batch to rule out adverse-event/therapeutic-relationship confounding before evaluating lower-ranked candidates
+- Package insert warnings and contraindications from the HSA website (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- The approved indication text for the Singapore registration
+- Any supporting clinical or preclinical evidence for a benefit in autoimmune hemolytic anemia. Without it, the candidate should not advance.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

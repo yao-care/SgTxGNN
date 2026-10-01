@@ -29,80 +29,68 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ulipristal: From Original Indication Not on Record to Rheumatoid Arthritis (Predicted)
+# Ulipristal: From Emergency Contraception to Rheumatoid Arthritis
 
 ## One-Sentence Summary
 
-> Ulipristal (DrugBank DB08867) has no original indication or market license data currently on file in Singapore, and mechanism-of-action data is also unavailable.
-> The TxGNN model predicts it may be effective for **Rheumatoid Arthritis**,
-> but this is currently supported by only **1 clinical trial** (assessed as low relevance) and **no publications**.
-
----
+Ulipristal is a selective progesterone receptor modulator, marketed in Singapore as ELLA 30 mg tablets (emergency contraception).
+The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but this prediction rests on the model score alone.
+Only **1 clinical trial** was found, and it is unrelated to the drug. There are **no publications** supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in current dataset |
-| Predicted New Indication | Rheumatoid Arthritis |
-| TxGNN Prediction Score | 90.31% |
-| Evidence Level | L5 (model prediction only) |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Original Indication | Emergency contraception (the HSA record has no indication text; this is based on the known use of ELLA 30 mg) |
+| Predicted New Indication | Rheumatoid arthritis |
+| TxGNN Prediction Score | 90.31% (model rank 34,482) |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for Ulipristal is not available in this evidence pack, and no original indication is on record. Based on the repurposing rationale provided alongside the prediction, Ulipristal is understood to be a **selective progesterone receptor modulator (SPRM)** — but there is no established mechanistic pathway connecting SPRM activity to the immune-inflammatory processes underlying rheumatoid arthritis.
+Ulipristal is a selective progesterone receptor modulator with some anti-glucocorticoid activity. Sex-hormone and glucocorticoid signaling both influence immune regulation, which gives a loose, hypothesis-level link to rheumatoid arthritis (RA).
 
-The prediction score (90.31%) reflects knowledge graph embedding similarity computed by TxGNN, not a validated biological hypothesis. The single clinical trial retrieved for this indication (NCT04300465, a community-based cardiovascular lifestyle intervention study) was independently graded **C (not relevant)** — likely a keyword-matching artifact rather than genuine supporting evidence. No literature was found to corroborate the association.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. No RA-specific mechanism or data support the link, and the relationship between the original use (a reproductive-hormone indication) and an autoimmune joint disease is weak. Long-term ulipristal use also carries a hepatotoxicity signal, which is a concern for a chronic indication like RA.
 
-Given the absence of MOA data, original indication data, and relevant clinical/literature evidence, this prediction should be treated as an early-stage hypothesis generated purely by the model, requiring substantial additional validation before any translational consideration.
-
----
+The other nine top predictions (including tendinitis, fibromyalgia, Glanzmann thrombasthenia and several rare congenital syndromes) are also L5 with a Hold recommendation. Most have no plausible mechanism and appear to be knowledge-graph artifacts.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT04300465](https://clinicaltrials.gov/study/NCT04300465) | N/A | Unknown | 64 | Community-based lifestyle intervention program targeting cardiovascular risk factors; does not involve Ulipristal or RA-directed treatment. Relevance graded **C (not relevant)** — likely a keyword mismatch rather than genuine supporting evidence. |
-
----
+| [NCT04300465](https://clinicaltrials.gov/study/NCT04300465) | N/A | Unknown | 64 | A 12-week community lifestyle program (exercise, education, cardiovascular risk optimisation) in chronic disease patients. It does not test ulipristal and gives no efficacy or safety evidence for RA (relevance grade C). |
 
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Ulipristal is currently **not registered** in the Singapore market (0 licenses on file); no authorization records are available.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN13979P | ELLA TABLET 30MG (manufacturer: CENEXI) | Tablet (oral) | Not stated in the registration record |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Hepatotoxicity**: Long-term ulipristal use carries a hepatotoxicity signal, which matters for a chronic indication such as RA.
 
-*(Key warnings, contraindications, and drug interaction data are not currently available in this evidence pack.)*
-
----
+Please refer to the package insert for warnings, contraindications and drug interaction information. No interaction records were found.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is based solely on TxGNN embedding similarity (Evidence Level L5), with no mechanistically relevant clinical trials, no supporting literature, no mechanism-of-action data, and no market presence in Singapore. There is currently insufficient basis to advance this candidate.
+The prediction is supported only by the TxGNN score. No relevant trials or publications exist, the mechanistic link is speculative, and the hepatotoxicity signal argues against chronic use.
 
 **To proceed, the following is needed:**
-- Original indication and confirmed mechanism of action (MOA) data for Ulipristal
-- TFDA/HSA-equivalent package insert warnings and contraindications (currently a **Blocking** data gap per DG001)
-- Targeted literature and clinical trial search specific to Ulipristal and rheumatoid arthritis (current trial match appears to be a false positive)
-- A biologically plausible mechanistic hypothesis linking SPRM activity to RA pathophysiology before further evaluation
+- The HSA package insert warnings and contraindications (blocking for safety screening)
+- Detailed mechanism of action data (for example, via the DrugBank API)
+- Preclinical or mechanistic evidence for progesterone receptor or glucocorticoid-receptor modulation in RA
+- A long-term hepatic safety assessment for chronic dosing
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

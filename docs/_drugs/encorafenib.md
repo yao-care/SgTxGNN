@@ -29,88 +29,84 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Encorafenib: From BRAF V600E/K Melanoma to Choroideremia
+# Encorafenib: From BRAF-Mutant Cancers to Choroideremia
 
 ## One-Sentence Summary
 
-Encorafenib (Braftovi) is a selective BRAF kinase inhibitor approved in multiple markets (EU, US) for BRAF V600E/K mutation-positive unresectable or metastatic melanoma, and in combination with cetuximab for BRAF V600E-mutated metastatic colorectal cancer — though it is not currently registered in Singapore.
-The TxGNN model predicts it may be effective for **Choroideremia** with a prediction score of **97.1%**, however this remains a model-only prediction with **no clinical trials** and **no publications** directly supporting this direction.
-
----
+Encorafenib is an oral BRAF V600 kinase inhibitor used in BRAF-mutant cancers such as melanoma and colorectal cancer, and it is marketed in Singapore.
+The TxGNN model ranks **choroideremia**, an inherited retinal degeneration, as its top predicted new indication.
+There are **no clinical trials and no publications** supporting this prediction, so it should be treated as an unsupported model output.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | BRAF V600E/K mutation-positive melanoma; BRAF V600E metastatic colorectal cancer (approved in EU/US; not registered in Singapore) |
+|------|------|
+| Original Indication | Not stated in the Singapore registration text. The trial record points to BRAF V600-mutant melanoma and colorectal cancer. |
 | Predicted New Indication | Choroideremia |
-| TxGNN Prediction Score | 97.1% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| TxGNN Prediction Score | 97.10% |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in this Evidence Pack. Based on known information, Encorafenib is a highly selective RAF kinase inhibitor that targets mutant BRAF V600E and V600K, blocking constitutive activation of the MAPK/ERK signaling cascade that drives unchecked tumor cell proliferation and survival. It is typically combined with a MEK inhibitor (binimetinib) to achieve more complete pathway blockade and delay acquired resistance.
+Detailed mechanism-of-action data is not available in the dossier. Based on the known drug class, encorafenib inhibits BRAF V600 kinase. It is used where the MAPK pathway is over-activated by a BRAF mutation, as in BRAF-mutant melanoma.
 
-Choroideremia is a rare X-linked recessive chorioretinal degenerative disease caused by loss-of-function mutations in the CHM gene, resulting in deficiency or absence of Rab escort protein-1 (REP-1). REP-1 is essential for the prenylation and membrane targeting of Rab GTPases, which regulate intracellular vesicle trafficking. Without functional REP-1, Rab GTPases cannot be correctly geranylgeranylated, causing progressive degeneration of the retinal pigment epithelium (RPE), photoreceptors, and choroid — ultimately leading to blindness.
+Choroideremia is different. It is an X-linked retinal degeneration caused by loss of CHM/REP1 function and is not driven by BRAF/MAPK hyperactivation. The high score (0.971) most likely reflects graph-topology artifacts, such as shared ocular or pigmentation-related neighbours in the knowledge graph.
 
-There is currently **no known biological intersection** between the BRAF/MAPK signaling pathway (Encorafenib's target) and the CHM/REP-1/Rab GTPase prenylation pathway (choroideremia's disease mechanism). The TxGNN model's high prediction score of 97.1% most likely reflects structural similarities at the knowledge graph level — for example, shared retinal cell type annotations or overlapping disease network topology — rather than direct pharmacological plausibility. Without a mechanistic rationale, clinical translation of this prediction is not currently justified.
-
----
+Retinal toxicity is a known class concern for MAPK-pathway inhibitors. Any use in an already degenerating retina would therefore need a strong safety rationale, which is currently absent.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Encorafenib is not currently registered with the Health Sciences Authority (HSA) in Singapore. No product authorizations are on record. If clinical investigation is pursued, market authorization would need to be sought through the standard HSA regulatory pathway.
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN16824P | BRAFTOVI HARD CAPSULE 75MG | Capsule |
+| SIN16825P | BRAFTOVI HARD CAPSULE 50MG | Capsule |
 
----
+The approved-indication text is blank in both registration records. Both products are oral capsules.
 
 ## Cytotoxicity
 
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy — Selective BRAF kinase inhibitor (RAF class kinase inhibitor; antineoplastic) |
-| Myelosuppression Risk | Low (not a conventional cytotoxic; significant hematologic toxicity is uncommon compared to chemotherapy) |
-| Emetogenicity Classification | Low to moderate (oral targeted agent; nausea reported in approximately 20–30% of patients in melanoma trials) |
-| Monitoring Items | Liver function tests (ALT/AST/bilirubin), dermatological assessment (rash, palmar-plantar erythrodysesthesia, new primary cutaneous malignancies, keratoacanthoma), ophthalmological monitoring (uveitis, iritis, retinal vein occlusion), QTc interval, CBC |
-| Handling Protection | Follow institutional cytotoxic handling policies for oral antineoplastic agents; standard precautions (gloves, dedicated dispensing) apply |
-
----
+|------|------|
+| Cytotoxicity Classification | Targeted therapy (BRAF kinase inhibitor), not a conventional cytotoxic agent |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Ophthalmic examination (class concern for MAPK inhibitors) and dermatologic surveillance (secondary skin neoplasms reported in case reports). Please refer to the package insert for laboratory monitoring. |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Ocular toxicity**: Retinal toxicity is a recognized class concern for MAPK-pathway inhibitors. This is especially relevant when the proposed indication is itself a retinal degeneration.
+- **Secondary skin neoplasms**: Case reports in the wider evidence set describe new melanomas or nevi appearing during BRAF inhibitor therapy, including PMID 40878071 (encorafenib plus cetuximab). These reports come from other indications, not from choroideremia.
 
----
+Please refer to the package insert for complete safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There is no established mechanistic link between BRAF kinase inhibition and choroideremia's underlying disease pathway (CHM gene / REP-1 / Rab GTPase prenylation), and no clinical trials or published literature currently support this repurposing direction. The high TxGNN prediction score is likely an artifact of knowledge graph topology rather than a signal of biological plausibility.
+Choroideremia has no trials, no literature and no plausible BRAF/MAPK mechanism, so the 97.10% score is likely a graph artifact. The known retinal class toxicity adds a specific safety concern.
+
+Other predictions carry more evidence, but they are extensions of the melanoma use rather than true repurposing. Non-cutaneous melanoma (score 96.55%) and acral lentiginous melanoma (score 95.59%) each have Phase 2 trials and are rated L2, "Research Question". Their trials have no results available, and BRAF V600 mutations are uncommon in mucosal, uveal and acral disease. If a candidate is taken forward, these would be better choices than choroideremia.
 
 **To proceed, the following is needed:**
-- Basic science investigation into whether BRAF/MAPK signaling plays any role in RPE or photoreceptor degeneration in CHM-deficient in vitro or animal models
-- Review of the TxGNN knowledge graph edge connections underpinning this prediction to evaluate whether the mechanistic path is biologically meaningful or a graph artefact
-- Full MOA data from DrugBank (DB11718) to complete mechanistic analysis
-- Singapore (HSA) regulatory pathway assessment if further investigation is warranted
-- Safety profile data from the full prescribing information (package insert) to complete contraindication and warning review
+- The HSA package insert, to establish warnings, contraindications and the registered indications
+- Detailed mechanism-of-action data (MOA)
+- A biological rationale and retinal safety assessment before any retinal-disease use is considered
+- For the melanoma subtypes: registry verification of trial populations and BRAF V600 status, and any available results
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

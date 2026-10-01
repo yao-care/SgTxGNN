@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Hydroxyprogesterone Caproate
-parent: Low Evidence (L5)
+parent: Medium Evidence (L3-L4)
 nav_order: 506
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Hydroxyprogesterone Caproate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,66 +29,72 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Hydroxyprogesterone Caproate: From Preterm Birth Prevention to Endometriosis of Uterus
+# Hydroxyprogesterone Caproate: From a Marketed Injectable Progestin to Endometriosis of Uterus
 
 ## One-Sentence Summary
 
-Hydroxyprogesterone caproate (17-OHPC) is a synthetic progestogen primarily known internationally for its use in the prevention of preterm birth in high-risk pregnancies, with a long history of use in hormonal management of gynaecological conditions including endometrial cancer.
-The TxGNN model predicts it may be effective for **Endometriosis of Uterus**, with **no clinical trials** and only **2 peripheral publications** providing indirect contextual support for this direction.
-Given the absence of direct clinical evidence and the drug's non-registered status in Singapore, this candidate requires further mechanistic validation and literature review before it can be advanced.
+Hydroxyprogesterone caproate is a synthetic progestin, sold in Singapore as an intramuscular depot injection (PROLUTON DEPOT). The TxGNN model predicts it may be effective for **endometriosis of uterus**. However, there are **0 clinical trials** and only **2 publications**, a case report and a histology paper, and neither shows a treatment benefit.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not registered in Singapore; internationally known use: preterm birth prevention / progestogenic therapy |
-| Predicted New Indication | Endometriosis of Uterus |
+|------|------|
+| Predicted New Indication | Endometriosis of uterus |
 | TxGNN Prediction Score | 99.98% |
-| Evidence Level | L5 (model prediction only; no direct clinical studies on this indication) |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this dataset. Based on established pharmacology, hydroxyprogesterone caproate is a synthetic ester of 17α-hydroxyprogesterone — a naturally occurring progestogen. It acts primarily through progesterone receptors, suppressing gonadotropin secretion, reducing estrogen-driven proliferation of endometrial tissue, and modulating the hormonal environment of the uterus. This hormonal profile forms the mechanistic bridge between the drug and oestrogen-dependent reproductive conditions.
+Detailed mechanism of action data is not currently available. Hydroxyprogesterone caproate is a synthetic progestin. Progestins are a recognised drug class for endometriosis and adenomyosis, so the link below is inferred from drug class, not from drug-specific data.
 
-Endometriosis of the uterus (which encompasses adenomyosis and uterine endometriosis) is fundamentally an oestrogen-dependent, progesterone-resistant condition. Progestogens are a cornerstone class of medical treatment for endometriosis, acting to oppose oestrogen-driven proliferation and induce decidualisation or atrophy of ectopic endometrial implants. The TxGNN score of 99.98% likely reflects the strong mechanistic alignment between progestogenic pharmacology and the hormone-driven pathophysiology of endometriosis, captured through patterns in the knowledge graph.
+Progestins act on progesterone receptors and oppose estrogen-driven growth of endometrial tissue. Endometriosis is an estrogen-dependent condition, so hormonal suppression is a plausible approach.
 
-Importantly, this drug has a substantial body of historical evidence in closely related gynecological conditions — uterine corpus cancer (rank 6, 9 publications) and endometrial cancer (rank 8, 20 publications and 1 clinical trial) — documenting its hormonal effects on uterine and endometrial tissue dating back to the 1960s. This cross-indication evidence reinforces the biological plausibility of the TxGNN prediction and suggests that the progestogenic mechanism may be applicable to benign hormone-dependent conditions such as endometriosis.
+The 99.98% TxGNN score is a knowledge-graph prediction only. The two supporting papers do not show benefit:
+
+- **2023 case report:** hemoperitoneum in pregnancy in a woman with endometriosis. It describes a complication, not treatment.
+- **1985 histology paper:** structural changes in the uterus after sex hormone treatment.
+
+**Other predictions for this drug**
+
+- **Endometrial cancer** (rank 8) has by far the most literature: 20 publications and a Cochrane review, but only one trial, and that trial is unrelated to the drug. This is a separate research question, not part of the endometriosis evidence.
+- **Uterine corpus cancer** (rank 6) has 9 mostly older observational papers.
+- **Renal hypoplasia and infantile cerebral and cerebellar atrophy** have no plausible progestin mechanism and no evidence. They look like knowledge-graph artifacts.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for hydroxyprogesterone caproate in endometriosis of the uterus.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [37488914](https://pubmed.ncbi.nlm.nih.gov/37488914/) | 2023 | Case Report | The American Journal of Case Reports | 41-year-old woman with adenomyosis developed spontaneous hemoperitoneum due to endometriosis at 28 weeks of pregnancy; highlights endometriosis as a major risk factor and illustrates the severity of hormone-dependent uterine disease |
-| [3158227](https://pubmed.ncbi.nlm.nih.gov/3158227/) | 1985 | Clinical Study | Akusherstvo i Ginekologiia | Describes structural changes in pathologically altered uterine tissue following sex hormone treatment; provides indirect evidence for hormonal modulation of uterine pathology |
-
-> **Note:** Neither publication directly evaluates hydroxyprogesterone caproate as a therapeutic intervention for endometriosis. Both are cited as peripherally relevant contextual evidence only.
+|------|-----|------|---------|---------|
+| [37488914](https://pubmed.ncbi.nlm.nih.gov/37488914/) | 2023 | Case report | The American Journal of Case Reports | A 41-year-old woman with adenomyosis had spontaneous hemoperitoneum from endometriosis at 28 weeks of pregnancy. It describes a complication and shows no treatment benefit. |
+| [3158227](https://pubmed.ncbi.nlm.nih.gov/3158227/) | 1985 | Histopathology observation | Akusherstvo i Ginekologiia | Structural changes in the uterus after sex hormone treatment. No abstract is available and no therapeutic benefit is shown. |
 
 ---
 
 ## Singapore Market Information
 
-Hydroxyprogesterone caproate is **not registered** in Singapore. No licensed products are currently available on the local market.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN14879P | PROLUTON DEPOT INJECTION 250MG/ML (Bayer AG) | Injection | Not listed in the record |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. The interaction query found no recorded drug interactions.
 
 ---
 
@@ -97,14 +103,16 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-Direct clinical evidence supporting hydroxyprogesterone caproate for endometriosis of the uterus is absent (L5 evidence level), with only two peripheral publications and no registered clinical trials. The drug is also not currently marketed in Singapore, and both mechanism of action and safety data are unavailable in the current dataset, making a robust risk-benefit assessment impossible at this stage.
+The prediction score is very high, but there are no trials and the only two papers do not show treatment benefit. The link rests on drug class alone, and both the mechanism and the safety data are missing.
 
 **To proceed, the following is needed:**
-- Retrieve complete MOA and pharmacodynamic data from DrugBank (DB06789) to formally characterise the progestogenic mechanism
-- Obtain and review the full package insert (or equivalent prescribing information) for warnings, contraindications, and drug interaction profile
-- Conduct a dedicated systematic literature review of progestogens — including 17-OHPC specifically — for endometriosis treatment to determine whether class-level evidence can be applied
-- Cross-reference the substantially stronger evidence base for the related indication of endometrial cancer (rank 8: 20 publications, 1 clinical trial) to build the mechanistic argument for indication expansion
-- Assess the regulatory pathway for Singapore registration, including feasibility of a new drug application or compassionate use framework given the current non-marketed status
+- Package insert warnings and contraindications from the HSA website (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- The approved indication text for SIN14879P
+- A targeted search for hydroxyprogesterone caproate studies in endometriosis or adenomyosis
+- Separate review of the endometrial cancer evidence, starting with the Cochrane review (PMID 10796737), to see whether it covers this drug specifically
+
+*This report is for research reference only and is not medical advice. Repurposing candidates require clinical validation before use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

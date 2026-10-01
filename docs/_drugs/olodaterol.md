@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Olodaterol
-parent: High Evidence (L1-L2)
+parent: Medium Evidence (L3-L4)
 nav_order: 729
-evidence_level: L1
+evidence_level: L3
 indication_count: 10
 ---
 
 # Olodaterol
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,81 +29,72 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Olodaterol: From COPD Maintenance Bronchodilation to Bronchitis
+# Olodaterol: From COPD to Bronchitis
 
 ## One-Sentence Summary
 
-Olodaterol is a long-acting β2-adrenergic agonist (LABA), delivered via the Respimat inhaler and marketed globally (including in fixed-dose combination with tiotropium as Spiolto/Stiolto Respimat) as a once-daily maintenance bronchodilator for chronic obstructive pulmonary disease (COPD). The TxGNN model predicts it may be effective for **Bronchitis**, with **3 clinical trials** and **2 publications** currently associated with this prediction — though the underlying evidence largely reflects olodaterol's already-established COPD/chronic bronchitis use rather than a genuinely new indication.
-
----
+Olodaterol is a once-daily long-acting beta2-agonist (LABA) bronchodilator, sold in Singapore as part of the tiotropium/olodaterol inhaler Spiolto Respimat. It is used for chronic obstructive pulmonary disease (COPD).
+The TxGNN model predicts it may be effective for **bronchitis**, with **3 clinical trials** and **2 publications** linked to this prediction. All of them concern COPD, and none tests bronchitis as a separate indication.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not registered in Singapore; internationally indicated as once-daily maintenance bronchodilator therapy for COPD (per literature evidence, e.g. PMID 25773742, 31119643) |
+| Original Indication | COPD (inferred from the trial evidence; the Singapore registration record has no indication text) |
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 99.84% |
-| Evidence Level | L1 |
-| Singapore Market Status | Not marketed (Not Marketed) |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Evidence Level | L3 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data from DrugBank is currently a data gap. Based on the available literature within this evidence pack, olodaterol is a long-acting β2-adrenoceptor agonist (LABA) delivered via the Respimat inhaler, indicated as once-daily maintenance bronchodilator therapy in COPD, and also marketed as a fixed-dose combination with the LAMA tiotropium (Spiolto®/Stiolto® Respimat) for long-term COPD maintenance.
+Detailed mechanism of action data is not available in the record. Olodaterol is known to be a long-acting beta2-agonist that relaxes airway smooth muscle and widens the airways. Its efficacy in COPD is well established, and mechanistically it may be applicable to bronchitis.
 
-Chronic bronchitis is one of the two classic clinical phenotypes of COPD (alongside emphysema), and airflow obstruction in chronic bronchitis responds to the same β2-agonist-mediated bronchial smooth muscle relaxation that underlies olodaterol's approved COPD use. This is reflected directly in the evidence pack's own rationale: bronchitis is described as "essentially the same core indication as olodaterol's known/original approved use, not an independent new indication" — the drug's largest supporting trial (NCT02850978) explicitly enrolled COPD patients with chronic bronchitis and emphysema phenotypes.
-
-Because of this overlap, the mechanistic plausibility is high, but the "repurposing novelty" is low — this is best understood as confirmatory evidence for an already-related use rather than a genuinely new therapeutic direction.
-
----
+Chronic bronchitis is a clinical form of COPD, which is why the model links the two. The signal is therefore largely COPD-derived. It does not show that olodaterol works for bronchitis as its own condition. No evidence supports acute bronchitis at all.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT02850978](https://clinicaltrials.gov/study/NCT02850978) | N/A | Completed | 1,335 | Post-marketing surveillance of long-term safety/effectiveness of tiotropium+olodaterol FDC (Spiolto) in Japanese COPD patients (chronic bronchitis, emphysema) in real-world practice |
-| [NCT05127304](https://clinicaltrials.gov/study/NCT05127304) | N/A | Completed | 11,316 | Health care resource utilization and clinical outcomes comparing tiotropium/olodaterol vs. fluticasone furoate/umeclidinium/vilanterol in COPD maintenance therapy |
-| [NCT03333018](https://clinicaltrials.gov/study/NCT03333018) | N/A | Completed | 22,155 | Drug utilization study of aclidinium bromide (a different LAMA, not olodaterol) in COPD patients — included only via disease-category overlap; low direct relevance |
-
----
+| [NCT02850978](https://clinicaltrials.gov/study/NCT02850978) | N/A | Completed | 1335 | Japanese post-marketing surveillance of long-term tiotropium/olodaterol in COPD (chronic bronchitis, emphysema). Real-world safety data, not bronchitis efficacy. |
+| [NCT03333018](https://clinicaltrials.gov/study/NCT03333018) | N/A | Completed | 22155 | Drug utilisation safety study of aclidinium bromide in COPD. Olodaterol is not the studied drug, so relevance is indirect. |
+| [NCT05127304](https://clinicaltrials.gov/study/NCT05127304) | N/A | Completed | 11316 | Healthcare resource use and cost in COPD patients starting tiotropium/olodaterol versus a triple inhaler. No efficacy endpoint for bronchitis. |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [27354040](https://pubmed.ncbi.nlm.nih.gov/27354040/) | 2016 | Review | American Journal of Health-System Pharmacy | Reviews pharmacology, pharmacokinetics, efficacy, and safety of once-daily LABA olodaterol for COPD |
-| [25515181](https://pubmed.ncbi.nlm.nih.gov/25515181/) | 2015 | Guideline/Review | Basic & Clinical Pharmacology & Toxicology | Finnish national COPD guideline covering diagnosis, assessment, and pharmacotherapy of stable COPD |
-
----
+| [27354040](https://pubmed.ncbi.nlm.nih.gov/27354040/) | 2016 | Review | Am J Health Syst Pharm | Reviews the pharmacology, pharmacokinetics, efficacy and safety of olodaterol in COPD. |
+| [25515181](https://pubmed.ncbi.nlm.nih.gov/25515181/) | 2015 | Guideline | Basic Clin Pharmacol Toxicol | Finnish national guideline on diagnosis and drug treatment of stable COPD. |
 
 ## Singapore Market Information
 
-Olodaterol is currently not marketed in Singapore — no HSA registration records exist (0 licenses on file).
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN15890P | SPIOLTO® RESPIMAT® Re-usable Solution for Inhalation 2.5 microgram / 2.5 microgram | Solution |
 
----
+The manufacturer is Boehringer Ingelheim Pharma GmbH & Co. KG.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
----
-
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Olodaterol has a well-established global safety and efficacy profile as a COPD bronchodilator, and the "bronchitis" prediction is mechanistically sound but substantially overlaps with its existing approved use rather than representing a novel therapeutic direction — this tempers the strategic value of pursuing it as a distinct repurposing candidate. The drug is also not currently registered in Singapore, meaning any pathway forward requires a market entry assessment in addition to clinical evidence review.
+The bronchitis signal comes from COPD studies and does not establish a separate bronchitis indication. The three linked trials are observational or utilisation studies. The Singapore package insert warnings and contraindications are also missing, which blocks safety screening.
+
+Olodaterol's strongest evidence is for COPD itself. That is the existing use, so it is not a repurposing claim. The other TxGNN-predicted conditions (interstitial and compensatory emphysema, tracheal stenosis, and others) have no trials or literature, and their mechanistic links are weak.
 
 **To proceed, the following is needed:**
-- TFDA/HSA-equivalent package insert data (warnings, contraindications) — currently a **Blocking** data gap preventing S1 safety pre-screening
-- DrugBank-sourced mechanism of action detail to confirm receptor-level rationale
-- Clarification of whether "bronchitis" as a TxGNN-labeled indication is clinically distinct from olodaterol's existing COPD/chronic bronchitis approval, to determine true repurposing novelty
-- Singapore market entry/registration strategy, since the drug currently has no local licenses
+- HSA package insert warnings and contraindications
+- Mechanism of action data from DrugBank
+- Bronchitis-specific efficacy studies, separating chronic from acute bronchitis
+- Confirmation of the approved indication text for SIN15890P
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

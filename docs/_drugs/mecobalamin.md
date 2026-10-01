@@ -29,62 +29,66 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Mecobalamin: From Vitamin B12 Deficiency/Peripheral Neuropathy to Sclerosing Cholangitis
+# Mecobalamin: From a Marketed Vitamin B12 Analog to Sclerosing Cholangitis
 
 ## One-Sentence Summary
 
-Mecobalamin is the bioactive coenzyme form of vitamin B12, used internationally for vitamin B12 deficiency and peripheral neuropathy (it is not currently licensed in Singapore). The TxGNN model predicts a possible effect on **Sclerosing Cholangitis**, but this signal is currently supported by **0 clinical trials** and **0 publications**, and the evidence pack itself flags it as a likely graph-embedding artifact rather than a genuine mechanistic finding.
+Mecobalamin is a vitamin B12 analog that is currently marketed in Singapore, but the registration records give no approved indication text.
+The TxGNN model predicts it may be effective for **sclerosing cholangitis**, with a very high score.
+However, there are **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not on file for Singapore (drug not licensed here). Internationally, Mecobalamin is used for vitamin B12 deficiency and peripheral neuropathy. |
-| Predicted New Indication | Sclerosing Cholangitis |
+| Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 99.50% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for Mecobalamin is not available in this evidence pack. Based on known pharmacology, Mecobalamin (methylcobalamin) functions as a coenzyme for methionine synthase, supporting homocysteine metabolism and myelin/nerve repair — its efficacy in vitamin B12 deficiency and peripheral neuropathy is well established.
+Currently, detailed mechanism of action data is not available. Mecobalamin is a vitamin B12 analog, sold in Singapore as oral tablets, capsules and an injection. Its established efficacy in any original indication cannot be confirmed from the provided data, because the Singapore records list no approved indication text.
 
-Sclerosing cholangitis, however, is a chronic autoimmune/fibrotic biliary disease with no established connection to B12-dependent one-carbon metabolism or myelin repair pathways. The evidence pack's own rationale for this candidate states that the drug node has very sparse connections in the knowledge graph (consistent with the missing MOA data), and that the high TxGNN score is more likely a graph-embedding proximity artifact than a reflection of real biological overlap between the original and predicted indications.
+No mechanistic link between mecobalamin and sclerosing cholangitis has been established. The score of 0.995 is a knowledge-graph prediction only. No trials or literature were retrieved, and no provided data support a mechanism. The score therefore should not be read as evidence of benefit.
 
-This weak-mechanism pattern is consistent across the rest of the candidate list: none of the other nine TxGNN-predicted indications (multiple endocrine neoplasia, bone/juvenile Paget disease, gastroparesis, acne, osteomesopyknosis, vitamin D deficiency, choledocholithiasis, colorectal cancer) have a plausible, literature-supported mechanistic link either. Notably, the acne signal is flagged as a potential **adverse effect direction** (high-dose B12 has been reported to trigger acneiform eruptions), not a therapeutic opportunity — this is a safety signal disguised as an efficacy prediction and should not be pursued as repurposing.
+The model's other top-ranked predictions (for example multiple endocrine neoplasia, bone Paget disease and choledocholithiasis) are also unsupported by evidence. This suggests the high scores partly reflect graph proximity rather than pharmacology.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Mecobalamin is currently not marketed in Singapore — no license or registration records are available in this evidence pack.
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN06291P | METHYCOBAL TABLET 500 mcg | Tablet, sugar coated |
+| SIN06349P | METHYCOBAL INJECTION 500 mcg/ml | Injection |
+| SIN10917P | NEUROMETHYN CAP. 500 mcg | Capsule |
+| SIN16735P | MECONEURO CAPSULES 500 MCG | Capsule |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
-*(Key warnings, contraindications, and drug-drug interaction data were all queried but returned no results; a formal HSA/manufacturer package insert review is still required before any clinical use is considered.)*
+Please refer to the package insert for safety information. No drug-interaction records were found in the query.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked candidate (Sclerosing Cholangitis) has zero supporting clinical trials or literature, and the evidence pack's own mechanistic assessment considers the high TxGNN score a likely embedding artifact rather than genuine biological signal. All 10 TxGNN-predicted indications for this drug carry a "Hold" recommendation at decision stage S0 — none has more than incidental, off-target trial/literature hits (e.g., the multiple endocrine neoplasia trial is an unrelated newborn screening study, and the colorectal cancer citation concerns post-surgical urinary dysfunction, not oncologic efficacy). One candidate (acne) even points toward a safety risk rather than a benefit.
+The prediction is supported only by a knowledge-graph score. No clinical trials, literature or mechanistic rationale support it, so the evidence level is L5. Safety screening cannot proceed without the package insert data.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data from DrugBank or primary literature
-- TFDA/HSA package insert (warnings, contraindications, DDI) — currently a Blocking data gap
-- Independent mechanistic or preclinical rationale connecting B12 coenzyme pathways to any of the predicted indications before allocating further evaluation resources
-- Re-screening once additional clinical trial or literature evidence becomes available, given the current complete absence of supporting studies
+- The HSA package insert, covering warnings, contraindications and approved indications
+- Mechanism of action data from DrugBank
+- A literature and trial search specific to mecobalamin in sclerosing cholangitis and related cholestatic liver disease
+- A mechanistic rationale, and a route-compatibility check for the required route of administration
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

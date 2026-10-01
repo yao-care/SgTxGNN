@@ -33,74 +33,68 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-> Lidocaine is a voltage-gated sodium channel blocker used clinically as a local/topical anesthetic (including routine ophthalmic surface anesthesia).
-> The TxGNN model predicts it may be effective for **Punctate Epithelial Keratoconjunctivitis**,
-> but currently **0 clinical trials** and **0 publications** support this specific direction, and the drug's own rationale notes no clear mechanistic link.
-
----
+Lidocaine is a local anesthetic that blocks sodium channels in nerves. The Singapore licence records retrieved here do not state an approved indication, so this describes its general use. The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**, but there are currently **0 clinical trials** and **0 publications** supporting this direction, and the available mechanistic reasoning points to a safety concern.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Local anesthesia (topical/regional; voltage-gated Na⁺ channel blocker) — not formally documented in this evidence pack; Singapore licensing data unavailable because the product is not currently registered |
-| Predicted New Indication | Punctate Epithelial Keratoconjunctivitis |
+| Original Indication | Local anesthesia (general pharmacology; approved indication text is not listed in the Singapore records) |
+| Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 20 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed formal mechanism-of-action documentation was not retrieved for this evidence pack (flagged as a data gap, DG002). However, information embedded across the evidence pack's own rationale texts is consistent: lidocaine is a voltage-gated sodium channel blocker, and in ophthalmology it is used almost exclusively as a **topical/local surface anesthetic** — for example, to numb the eye during examinations, injections, or minor procedures (as reflected in several of the ophthalmic surgical anesthesia trials retrieved for other candidate indications in this pack, e.g. NCT05978687, NCT02324166).
+Currently, detailed mechanism of action data is not available in the input. Based on general pharmacology, lidocaine blocks voltage-gated sodium channels, so it could relieve ocular surface pain. This is symptomatic relief only.
 
-Punctate epithelial keratoconjunctivitis, by contrast, is a corneal/conjunctival epithelial disorder most often driven by viral infection, toxic exposure, or dry-eye–related epithelial damage — its underlying pathology is epithelial injury and inflammation, not abnormal nerve signaling. Lidocaine's sodium-channel blockade addresses pain and sensory transmission, not epithelial healing, viral clearance, or inflammatory modulation, so there is no direct disease-modifying mechanism connecting the two.
+The prediction is only weakly plausible. Punctate epithelial keratoconjunctivitis is driven by inflammation or infection, and lidocaine does not address either. The high score likely reflects shared ocular-surface neighbors in the knowledge graph rather than a real therapeutic link.
 
-Per the evidence pack's own repurposing rationale, the high TxGNN score for this candidate "may simply reflect its graph proximity to other ophthalmic drugs" rather than a genuine pharmacological signal — i.e., the model may be picking up on lidocaine's frequent co-occurrence with ophthalmic conditions in general (as an anesthetic adjunct during eye procedures) rather than a true therapeutic effect on this specific disease. This should be read as a low-confidence, mechanism-unsupported prediction.
-
----
+The safety signal also runs against this indication. Prolonged topical anesthetic use is known to impair corneal epithelial healing and can cause toxic keratopathy, which could worsen a corneal epithelial disease.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Lidocaine is not currently marketed in Singapore under this evidence pack (0 registrations, no license records available), so no product/dosage-form table can be generated at this time.
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN06314P | LIDOCAINE GEL 2% (WITH PRESERVATIVE) | Gel |
+| SIN05673P | LumaCina Lidocaine Injection 2% | Injection |
+| SIN15953P | XYLOTIN 300 - Lidocaine Hydrochloride Injection USP 300MG/30ML | Injection, solution |
+| SIN05684P | XYLOCAINE JELLY 2% | Gel |
+| SIN15952P | XYLOTIN 50 - Lidocaine Hydrochloride Injection USP 50MG/5ML | Injection, solution |
 
----
+These are 5 of 20 registrations. Approved indication text is not listed in the retrieved records. Other registered forms include ointment, spray, patch and jelly. No ophthalmic route is confirmed among the forms retrieved.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Ocular-specific concern**: Prolonged topical anesthetic use can impair corneal epithelial healing and cause toxic keratopathy. Anesthetizing the cornea also reduces the blink reflex and protective sensation.
 
-*(Note: TFDA/HSA-equivalent package insert warnings and contraindications are flagged as a blocking data gap — DG001 — and drug interaction data returned no results; these should be obtained before any safety evaluation proceeds.)*
-
----
+Please refer to the package insert for other safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The evidence level is L5 (model prediction only, with zero supporting clinical trials or literature), and the drug's own mechanistic rationale explicitly states there is no pharmacological basis linking lidocaine's anesthetic sodium-channel-blocking action to the epithelial/inflammatory pathology of punctate epithelial keratoconjunctivitis. The prediction likely reflects knowledge-graph proximity (lidocaine's common use as an ophthalmic anesthetic adjunct) rather than a genuine repurposing signal.
+The prediction is model-only (L5), with no supporting trials or literature. Lidocaine's mechanism does not address the cause of the disease, and known corneal toxicity with prolonged topical use argues against this indication.
 
 **To proceed, the following is needed:**
-- Preclinical/mechanistic studies directly evaluating lidocaine's effect on corneal epithelial inflammation or healing (beyond its anesthetic effect)
-- Any clinical trials or case evidence specifically testing lidocaine (as a disease-modifying, not anesthetic, agent) in punctate epithelial keratoconjunctivitis
-- Resolution of the blocking safety data gap (DG001: package insert warnings/contraindications) before any S1 safety screening can begin
-- Confirmation of Singapore registration/market status, since the drug currently has zero local licenses on file
+- Package insert warnings and contraindications from the HSA
+- Detailed mechanism of action data (MOA)
+- Any direct clinical or preclinical evidence of lidocaine benefit in punctate epithelial keratoconjunctivitis
+- A corneal safety assessment and confirmation of an ophthalmic route or formulation
+
+Among the other top-10 predictions, only conjunctival disorder (rank 6) reaches L4. Its evidence covers procedural ocular anesthesia only, not disease treatment.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

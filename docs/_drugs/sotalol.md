@@ -29,77 +29,69 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sotalol: From Cardiac Arrhythmia to Sick Sinus Syndrome 2, Autosomal Dominant
+# Sotalol: From Cardiac Arrhythmia to Sick Sinus Syndrome 2 (Autosomal Dominant)
 
 ## One-Sentence Summary
 
-> Sotalol is a class III antiarrhythmic/beta-blocker long used for atrial fibrillation and ventricular arrhythmias.
-> The TxGNN model's top-ranked prediction links it to **Sick Sinus Syndrome 2, Autosomal Dominant**,
-> but this association has **no supporting clinical trials or literature**, and the mechanistic rationale itself flags a potential safety conflict rather than a therapeutic opportunity.
-
----
+Sotalol is an oral beta-blocker with class III antiarrhythmic activity, used for ventricular arrhythmias and atrial fibrillation.
+The TxGNN model predicts it may be effective for **sick sinus syndrome 2, autosomal dominant**, but this is a model prediction only, with **0 clinical trials** and **0 publications** directly supporting it.
+The mechanism points the other way: sotalol slows the sinus rate, so the prediction looks like a graph artifact with a bradycardia safety concern.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not captured in registration data; sotalol is clinically established for atrial fibrillation and ventricular arrhythmias (general pharmacological knowledge, not extracted from structured records) |
-| Predicted New Indication | Sick Sinus Syndrome 2, Autosomal Dominant |
+|------|------|
+| Original Indication | Not stated in the Singapore registration records (antiarrhythmic use) |
+| Predicted New Indication | Sick sinus syndrome 2, autosomal dominant |
 | TxGNN Prediction Score | 99.76% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for sotalol is not available in this Evidence Pack (flagged as data gap DG002). Based on established pharmacology, sotalol combines non-selective beta-adrenergic blockade with cardiac potassium-channel (IKr) blockade, producing negative chronotropic effects and prolonged repolarization. This profile underlies its established use in suppressing atrial fibrillation/flutter and ventricular tachyarrhythmias — a mechanism reflected throughout the clinical trial and literature evidence in this Evidence Pack (e.g., NCT00007605, NCT05279833, PMID 37485722).
+Detailed mechanism of action data is not available in the Evidence Pack. Based on known pharmacology, sotalol combines beta-adrenergic blockade with potassium-channel (IKr) blockade. Together these slow the sinus rate and atrioventricular conduction.
 
-Sick Sinus Syndrome 2 is a genetic disorder of sinoatrial node dysfunction that typically presents as pathological **bradycardia**. Sotalol's own negative chronotropic action runs counter to this disease process rather than supporting it. The repurposing rationale attached to this candidate states this explicitly: sotalol "may aggravate bradycardia in patients with sinus node dysfunction," describing the relationship as a **mechanistic conflict, not a treatment opportunity**.
+The prediction is probably not reasonable. Sick sinus syndrome is a disorder of sinus-node function, often with a slow heart rate. A drug that further slows the sinus rate and AV conduction is generally avoided in this condition unless a pacemaker is in place. The high score most likely reflects the shared "arrhythmia" neighbourhood in the knowledge graph rather than a therapeutic link. Treating the prediction as real could expose patients to bradycardia.
 
-Given the absence of any clinical trial or literature evidence, the high TxGNN score for this candidate should be read as a graph-embedding pattern match rather than a validated therapeutic hypothesis. This is effectively a **safety-signal candidate**, not a repurposing opportunity.
-
----
+One related lead sits under another predicted indication, stroke disorder. Trial NCT02145546 (Phase 4, status unknown, 600 patients) compares amiodarone, sotalol and propafenone for atrial fibrillation in patients with sick sinus syndrome after pacing. It addresses AF burden in these patients, not treatment of sick sinus syndrome itself.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered for sick sinus syndrome 2, autosomal dominant.
 
 ## Literature Evidence
 
-Currently no related literature available
-
----
+Currently no related literature available for this predicted indication.
 
 ## Singapore Market Information
 
-Sotalol currently holds no valid registration in Singapore (0 registrations, market status: Not Marketed). No authorization records are available for review.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN13311P | SotaHexal 80mg Tablet | Film-coated tablet | Not stated in the registration record |
+| SIN09139P | APO-SOTALOL TABLET 160 mg | Tablet | Not stated in the registration record |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Predicted-indication concern**: Sotalol's rate- and conduction-slowing effects make bradycardia a potential problem in sick sinus syndrome.
+- **Proarrhythmic risk**: Sotalol prolongs the QT interval, which carries a risk of torsades de pointes.
+- **Drug interactions**: No interaction records were found in the Evidence Pack.
 
-*(Note: The specific safety concern for this candidate — potential worsening of bradycardia in sinus node dysfunction — is discussed above under mechanistic rationale, as it originates from the repurposing analysis rather than the drug's general safety dataset, which remains a data gap.)*
-
----
+Please refer to the package insert for full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked candidate has no clinical trial or literature support (Evidence Level L5), and its proposed mechanism conflicts with the target disease's pathophysiology — sotalol's negative chronotropic effect could worsen, rather than treat, bradycardia in sinus node dysfunction. This should be treated as a potential contraindication signal rather than a repurposing lead.
+The prediction rests on a model score alone (L5), with no trials or literature. Sotalol's pharmacology argues against use in sick sinus syndrome. The other nine predicted indications also lack supportive efficacy evidence. Stroke disorder is the only one with meaningful data, and that evidence is indirect (AF rhythm control, not stroke outcomes).
 
 **To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data from DrugBank to complete a formal mechanistic evaluation (DG002)
-- TFDA/HSA label warnings and contraindications, currently a **Blocking** data gap (DG001) preventing entry into safety pre-screening (S1)
-- Consider redirecting evaluation effort to other candidates in this Evidence Pack with substantially stronger support — notably **rank 4 (stroke disorder / atrial fibrillation)**, which is backed by 20+ clinical trials and 20 publications directly involving sotalol, rather than pursuing this top-ranked but mechanistically contradictory candidate
+- HSA package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- A specific safety assessment of sotalol in sinus-node dysfunction, including pacemaker status
+- A stroke-outcome study to test the indirect AF-to-stroke link, if the stroke direction is pursued
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

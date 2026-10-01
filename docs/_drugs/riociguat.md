@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Riociguat
-parent: High Evidence (L1-L2)
+parent: Low Evidence (L5)
 nav_order: 862
-evidence_level: L2
+evidence_level: L5
 indication_count: 10
 ---
 
 # Riociguat
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,86 +29,86 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Riociguat: From Pulmonary Arterial Hypertension to PAH Associated with Connective Tissue Disease
+# Riociguat: From Pulmonary Arterial Hypertension to Ambras Type Hypertrichosis Universalis Congenita
 
 ## One-Sentence Summary
 
-Riociguat is a soluble guanylate cyclase (sGC) stimulator originally developed for pulmonary arterial hypertension (PAH, WHO Group 1) and chronic thromboembolic pulmonary hypertension. Evidence in this pack points to a mechanistically coherent extension into **PAH associated with connective tissue disease (CTD-PAH)** — a recognized PAH subtype rather than an unrelated new indication — supported by a **dedicated PATENT-1/PATENT-2 subgroup RCT** and **12 related publications**, including a systematic review and an EULAR treatment guideline. A closely related subtype, **PAH associated with congenital heart disease (CHD-PAH)**, shows similar-strength evidence and is discussed alongside it.
-
----
+Riociguat is marketed in Singapore as ADEMPAS and is described in the supplied literature as approved for pulmonary arterial hypertension (PAH).
+The TxGNN model predicts it may be effective for **Ambras type hypertrichosis universalis congenita**, but **0 clinical trials** and **0 publications** support this prediction.
+It is a graph-based signal only and no mechanistic link is supported by the data.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Pulmonary arterial hypertension (WHO Group 1) — established from clinical literature; no Singapore label text available since the product is not locally registered |
-| Predicted New Indication | Pulmonary Arterial Hypertension Associated with Connective Tissue Disease (CTD-PAH) |
-| TxGNN Prediction Score | 91.55% |
-| Evidence Level | L2 |
-| Singapore Market Status | ✗ Not marketed (Not marketed) |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Original Indication | Pulmonary arterial hypertension (from the supplied literature; the Singapore license records contain no indication text) |
+| Predicted New Indication | Ambras type hypertrichosis universalis congenita |
+| TxGNN Prediction Score | 94.92% |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 5 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-A structured mechanism-of-action record is not available for this drug in the evidence pack (data gap). However, the supporting literature consistently and repeatedly identifies riociguat as a **soluble guanylate cyclase (sGC) stimulator** that acts through the NO–sGC–cGMP pathway to produce pulmonary vasodilation and anti-proliferative effects on pulmonary vascular smooth muscle. This is the drug's approved mechanism for WHO Group 1 PAH.
+Riociguat is a soluble guanylate cyclase (sGC) stimulator. It raises cGMP, which causes pulmonary vasodilation and anti-remodeling effects. Detailed mechanism-of-action data from DrugBank is not currently available.
 
-CTD-PAH is not a novel, unrelated disease — it is one of the main clinical subtypes within the WHO Group 1 PAH classification (alongside idiopathic PAH, heritable PAH, CHD-PAH, and others). Because the sGC-cGMP mechanism operates independently of the underlying etiology of pulmonary vascular remodeling, applying riociguat to CTD-PAH represents a direct, mechanism-consistent extension rather than a speculative cross-indication leap. This is reinforced by a prospectively-planned subgroup analysis from the pivotal PATENT-1/PATENT-2 phase III program (PMID 27457511) specifically evaluating riociguat in PAH-CTD patients, plus a systematic review/meta-analysis (PMID 38378970) and an EULAR clinical guideline for systemic sclerosis (PMID 27941129) that references vasodilator therapy for this population.
+On the available evidence, this prediction is **not well supported**. Ambras syndrome is a rare congenital disorder with a developmental and genetic basis, and sGC stimulation has no established relevance to it. The high score (0.949) may simply reflect vasodilator-class neighbors in the knowledge graph.
 
-A closely related candidate, **PAH associated with congenital heart disease (CHD-PAH, rank 6)**, shows the same evidence tier (L2) via a dedicated PATENT-1 CHD subgroup analysis (PMID 26135803), reflecting the same underlying logic. By contrast, several top-scoring TxGNN predictions in this pack (Ambras-type hypertrichosis, odontal malformation syndrome, Dandy-Walker syndrome, hair shaft abnormality, isolated hypertrichosis — ranks 1–5) have no mechanistic plausibility and no supporting clinical or literature evidence; these are best interpreted as knowledge-graph embedding noise and are appropriately flagged "Hold" rather than pursued.
-
----
+Some vasodilators, such as minoxidil, are known to cause hypertrichosis, but through a different mechanism (K-ATP channel opening). The related hypertrichosis prediction (rank 5) should be read as a possible adverse-effect signal or graph artifact, not as a therapeutic lead.
 
 ## Clinical Trial Evidence
 
-Currently no clinical trials registered specifically for riociguat in CTD-PAH are present in this evidence pack. (Note: a related trial, NCT07356778, evaluating sotatercept — not riociguat — was identified under the neighboring CHD-PAH candidate and is included there only as field-activity context, not as direct evidence for CTD-PAH.)
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [27457511](https://pubmed.ncbi.nlm.nih.gov/27457511/) | 2017 | RCT (PATENT-1/2 subgroup) | Annals of the Rheumatic Diseases | Prospectively-planned analysis of riociguat efficacy/safety in the PAH-CTD subgroup of the pivotal PATENT-1/2 phase III program |
-| [38378970](https://pubmed.ncbi.nlm.nih.gov/38378970/) | 2024 | Systematic Review / Meta-analysis | Internal and Emergency Medicine | Pooled RCT/subgroup data on CTD-PAH treatment outcomes (functional class, survival, 6-MWD) |
-| [27941129](https://pubmed.ncbi.nlm.nih.gov/27941129/) | 2017 | Clinical Guideline (EULAR) | Annals of the Rheumatic Diseases | Updated EULAR recommendations for systemic sclerosis treatment, including PAH-directed vasodilator therapy |
-| [33131480](https://pubmed.ncbi.nlm.nih.gov/33131480/) | 2020 | Review | Kardiologiia | Reviews the role of riociguat specifically in PAH associated with systemic connective tissue disease |
-| [37765060](https://pubmed.ncbi.nlm.nih.gov/37765060/) | 2023 | Review | Pharmaceuticals (Basel) | Recent advances in treatment of PAH associated with connective tissue disease |
-| [28671485](https://pubmed.ncbi.nlm.nih.gov/28671485/) | 2017 | Case Series / Switch Study | Pulmonary Circulation | Case series switching PDE-5 inhibitor to riociguat in PAH-CTD patients |
-| [31090367](https://pubmed.ncbi.nlm.nih.gov/31090367/) | 2019 | Registry / Cohort | Terapevticheskii Arkhiv | National PAH registry data on prevalence, clinical course, and therapy, including CTD-associated cases |
-| [40331647](https://pubmed.ncbi.nlm.nih.gov/40331647/) | 2025 | Prospective Observational | Kardiologiia | Long-term survival and prognostic factor analysis in PAH associated with connective tissue/rheumatic disease |
-| [39985455](https://pubmed.ncbi.nlm.nih.gov/39985455/) | 2025 | Basic Science (preclinical) | Rheumatology (Oxford) | Characterizes a next-generation sGC activator (avenciguat) building on riociguat's sGC-stimulator mechanism in SSc models |
-| [35412560](https://pubmed.ncbi.nlm.nih.gov/35412560/) | 2022 | Review | JAMA | General review of PAH diagnosis and treatment landscape |
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Riociguat is currently **not marketed in Singapore** — no local product registrations exist in the evidence pack (0 licenses). Market entry would require full HSA registration and label development.
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN14678P | ADEMPAS Film-Coated Tablet 0.5 mg | Tablet, film coated |
+| SIN14679P | ADEMPAS Film-Coated Tablet 1.0 mg | Tablet, film coated |
+| SIN14680P | ADEMPAS Film-Coated Tablet 1.5 mg | Tablet, film coated |
+| SIN14681P | ADEMPAS Film-Coated Tablet 2.0 mg | Tablet, film coated |
+| SIN14682P | ADEMPAS Film-Coated Tablet 2.5 mg | Tablet, film coated |
 
----
+All five products are oral tablets manufactured by Bayer AG, Leverkusen. The records contain no approved-indication text.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Structured warnings, contraindications, and drug-interaction data were not available in this evidence pack (flagged as a **Blocking** data gap for the safety pre-screen stage).
+Package insert data (warnings, contraindications) was not retrieved, and no drug-interaction records were found. Please refer to the package insert for safety information.
 
----
+The evidence pack's rationale text for other riociguat indications also flags the following. These notes are not from the package insert and should be verified against it:
+- Pregnancy is contraindicated.
+- Co-administration with PDE5 inhibitors or nitrates is contraindicated.
+- CYP3A4/P-gp inhibitors, such as ritonavir-boosted regimens, raise riociguat exposure.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The CTD-PAH prediction is mechanistically sound and supported by a dedicated phase III subgroup RCT, a systematic review, and a clinical guideline — reaching evidence level L2. This is not a speculative repurposing signal but a clinically-recognized PAH subtype within the drug's existing pharmacological class of use. The same logic applies to the neighboring CHD-PAH candidate (rank 6), which should be evaluated jointly.
+The prediction rests on a model score alone (L5, stage S0). No trials or publications exist, and no plausible sGC-mediated mechanism links riociguat to Ambras syndrome.
 
 **To proceed, the following is needed:**
-- TFDA/HSA-equivalent label warnings and contraindications (currently a Blocking data gap — DG001)
-- Structured mechanism-of-action documentation from DrugBank (High-priority gap — DG002)
-- Confirmation of local (Singapore) regulatory pathway status, since the product is currently unregistered
-- Drug-drug interaction data (none currently on file) before any clinical protocol design
-- Independent assessment of the CHD-PAH candidate (rank 6) as a parallel or combined submission
+- A credible mechanistic hypothesis connecting sGC/cGMP signaling to the disease
+- Download and parsing of the HSA package insert, which is a blocking gap for safety screening
+- Mechanism-of-action data from DrugBank
+- Evidence that this signal is not simply a vasodilator-class hypertrichosis adverse-effect association
+
+**Other predictions for riociguat in this pack:**
+Two lower-ranked predictions have far stronger support than this one. They are PAH associated with congenital heart disease (rank 6) and PAH associated with connective tissue disease (rank 8).
+
+- **Evidence:** Both are rated L1 and "Proceed with Guardrails". The evidence is post hoc or prospectively planned subgroup analyses of the Phase 3 PATENT-1/-2 trials (PMID 26135803 and 27457511), and these are small subgroups.
+- **Limits:** The connective tissue disease prediction has no registered trial in the pack.
+- **Related prediction:** PAH associated with HIV infection (rank 10) is a research question only (L4).
+
+If the goal is a practical repurposing candidate for riociguat, these are better starting points.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

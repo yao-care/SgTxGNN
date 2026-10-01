@@ -29,83 +29,66 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Titanium dioxide: From Excipient to Model Noise — No Viable Repurposing Signal
+# Titanium Dioxide: From Pigment, Excipient and Sunscreen Use to Drug-Induced Osteoporosis
 
 ## One-Sentence Summary
 
-Titanium dioxide (DrugBank DB09536) is an inorganic pigment/excipient with no recorded therapeutic indication and no known pharmacological mechanism of action. TxGNN assigns near-saturated prediction scores (~99.998%) across ten disease candidates — ranging from diabetic retinopathy to multiple cataract subtypes — but **none are supported by clinical trials, and the five literature hits retrieved are all unrelated tool/method-development studies rather than therapeutic evidence.** This pattern strongly suggests knowledge-graph noise rather than a genuine repurposing hypothesis.
-
----
+Titanium dioxide is mainly used as an inert pigment, excipient and sunscreen agent, and no approved therapeutic indication is documented for it in Singapore.
+The TxGNN model predicts it may be effective for **drug-induced osteoporosis**, but **0 clinical trials** and **0 publications** currently support this prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not applicable (no recorded therapeutic indication; used as excipient/pigment) |
-| Predicted New Indication | Drug-induced osteoporosis (top rank; 9 additional candidates, mostly cataract subtypes) |
-| TxGNN Prediction Score | 99.9998% (rank 1); scores cluster at 99.998–99.9998% across all 10 candidates |
-| Evidence Level | L5 (model prediction only, no clinical or mechanistic support for any candidate) |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | **Hold** |
-
----
+| Original Indication | None documented (the Singapore registration record lists no approved indication; known uses are non-therapeutic) |
+| Predicted New Indication | Drug-induced osteoporosis |
+| TxGNN Prediction Score | 99.9998% |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Mechanism of action data for titanium dioxide is not available. Titanium dioxide is an inorganic compound used industrially and pharmaceutically as a white pigment, opacifier, and inert excipient in tablet coatings — it is not developed or used as a pharmacologically active therapeutic agent, and DrugBank does not list any approved indication for it.
+Currently, detailed mechanism of action data is not available. Titanium dioxide is mainly used as an inert pigment, excipient and sunscreen agent rather than as an active therapeutic ingredient. No therapeutic effect in any original indication has been established, so there is no known mechanism to carry over to bone disease.
 
-Because there is no original indication and no MOA to anchor a mechanistic rationale, the relationship between titanium dioxide and any of the ten predicted diseases (drug-induced osteoporosis, diabetic retinopathy, diabetic cataract, and related eye/bone conditions) cannot be pharmacologically justified. All ten candidates in this evidence pack score within a narrow, saturated band (~0.99998–0.9999998), which is consistent with a systematic artifact of the knowledge graph — likely driven by titanium dioxide nanoparticles' frequent appearance in unrelated *research contexts* (e.g., as tools for extracellular vesicle purification or retinal imaging) rather than any therapeutic association. The clustering of near-identical, near-maximal scores across an entire disease family (all cataract subtypes) is a known TxGNN failure pattern for nodes lacking real pharmacological edges in the graph.
+No mechanistic link to drug-induced osteoporosis has been identified. The very high TxGNN score is a model prediction based on knowledge-graph proximity, not evidence of benefit. The only registered Singapore product is an ointment, and route compatibility with a systemic bone condition has not been assessed.
 
-The five literature records retrieved for diabetic retinopathy — the only candidate with any literature — confirm this: all describe titanium dioxide nanoparticles being used as laboratory tools (EV purification substrates, retinal imaging conjugates, diagnostic phantoms) or reviewed generically as nanomedicine carriers, none as a treatment for diabetic retinopathy itself. No candidate has any clinical trial evidence.
-
----
+The other top-ranked predictions are diabetic retinopathy and several cataract types. Five publications were retrieved for diabetic retinopathy, but they cover analytical purification methods, an eye phantom, an imaging agent and a general nanoparticle review. None tests titanium dioxide as a treatment. The remaining predictions have no evidence at all.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for any of the ten predicted indications.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Literature exists only for **diabetic retinopathy** (rank 2); all other candidates have none.
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [39566751](https://pubmed.ncbi.nlm.nih.gov/39566751/) | 2025 | Imaging/Diagnostic tool | Methods | TiO₂ nanoparticle–fluorescein conjugates evaluated as an imaging agent for fundus fluorescein angiography, not as a treatment for diabetic retinopathy |
-| [41637842](https://pubmed.ncbi.nlm.nih.gov/41637842/) | 2026 | Review | J Trace Elem Med Biol | General review of metallic nanoparticles in diabetes mellitus; does not specifically validate TiO₂ as a diabetic retinopathy therapy |
-| [38078945](https://pubmed.ncbi.nlm.nih.gov/38078945/) | 2023 | Method/Tool development | Analytical Chemistry | TiO₂ microparticles used as a purification substrate for circulating RNA/EV analysis; not a therapeutic study |
-| [36197877](https://pubmed.ncbi.nlm.nih.gov/36197877/) | 2022 | Method/Tool development | Analytical Chemistry | TiO₂ microparticles used to purify plasma extracellular vesicles for metabolomic profiling of diabetic retinopathy patients; a diagnostic biomarker tool, not treatment |
-| [20059246](https://pubmed.ncbi.nlm.nih.gov/20059246/) | 2009 | Instrumentation/Phantom study | J Biomed Optics | Eye phantom device for retinal oximetry calibration; unrelated to TiO₂ as a drug |
-
-None of these papers support a therapeutic role for titanium dioxide in diabetic retinopathy.
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Titanium dioxide has no drug registrations in Singapore (0 licenses; not marketed as a therapeutic product).
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN16547P | VEELANZ'S OINTMENT (BEACONS PHARMACEUTICALS PTE. LTD.) | Ointment | Not stated in the registration record |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No key warnings, contraindications, or drug interaction data are available in the evidence pack.
-
----
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Titanium dioxide has no known therapeutic mechanism of action and no original indication to anchor a repurposing hypothesis. All ten predicted indications lack clinical trial support, and the only available literature (for diabetic retinopathy) consists exclusively of nanoparticle tool/imaging studies unrelated to treatment efficacy. The near-uniform, saturated TxGNN scores across an entire disease family (all cataract subtypes at ~0.99998) is a strong signature of knowledge-graph noise for a pharmacologically inert excipient node, not a genuine biological signal.
+The prediction rests only on a model score, with no trials, no publications, no known mechanism and no documented original therapeutic indication. The only marketed product is an ointment, which is not an obvious fit for osteoporosis.
 
 **To proceed, the following is needed:**
-- Confirmation of whether this DrugBank entry should even be treated as a candidate for repurposing screening (recommend excluding inert excipients/pigments from future TxGNN candidate pools)
-- If retained, independent mechanistic or in vitro/in vivo pharmacology data establishing any plausible biological activity of titanium dioxide relevant to bone metabolism or ocular/retinal disease
-- No further evidence collection is recommended for this candidate absent such foundational data — resources are better allocated to candidates with an established original indication and MOA
+- The HSA package insert, to obtain warnings and contraindications. This is currently a blocking gap.
+- Mechanism of action data, for example from DrugBank
+- A plausible biological rationale linking titanium dioxide to bone metabolism
+- Any preclinical or clinical studies testing titanium dioxide for drug-induced osteoporosis
+- A route-compatibility assessment of the existing topical product against a systemic indication
+
+*This report is for research reference only and does not constitute medical advice. Predicted candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -33,74 +33,61 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Lacidipine is a third-generation dihydropyridine (DHP) L-type calcium channel blocker (CCB), established in several markets for hypertension treatment but not currently registered in Singapore.
-The TxGNN model predicts it may be effective for **Migraine Disorder**, though **no clinical trials** and **no published literature** currently support this specific direction.
-The prediction rests entirely on model inference from the knowledge graph (Evidence Level **L5**), and the mechanistic rationale for DHP CCBs in migraine is weak compared to non-DHP CCBs and T-type blockers.
-
----
+Lacidipine is a dihydropyridine calcium channel blocker, and its approved use is hypertension. The TxGNN model predicts it may be effective for **migraine disorder**, but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction. This is a model-only signal (Evidence Level L5).
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Hypertension (established pharmacological class use; not registered in Singapore) |
-| Predicted New Indication | Migraine Disorder |
+|------|------|
+| Original Indication | Hypertension (the Singapore registration record does not state an indication text) |
+| Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 98.34% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for Lacidipine from the retrieved sources. Based on known pharmacological class information, Lacidipine is a third-generation dihydropyridine (DHP) L-type calcium channel blocker with high vascular selectivity and lipophilicity, originally developed and used for hypertension. It selectively blocks L-type voltage-gated calcium channels in vascular smooth muscle, causing vasodilation and lowering peripheral resistance.
+Currently, detailed mechanism of action data is not available in the record. Based on known information, lacidipine is a peripherally selective dihydropyridine calcium channel blocker. Its efficacy in hypertension is established, and mechanistically it may be applicable to migraine.
 
-The mechanistic link between L-type DHP CCBs and migraine is indirect and weak. Certain CCBs do have established roles in migraine prophylaxis — notably flunarizine (a T-type CCB with additional dopamine/histamine receptor antagonism) and verapamil (a non-DHP CCB) — but these act via distinct mechanisms beyond simple L-type vascular channel blockade. Lacidipine's profile, focused on peripheral vascular L-type channels with limited central nervous system penetration, does not map well onto the neuronal and cortical pathways implicated in migraine pathophysiology.
-
-The TxGNN prediction likely arises from shared graph nodes connecting Lacidipine's drug class to vascular and headache-related disease nodes. Without supporting clinical or preclinical data, and given the mechanistic mismatch with established migraine-effective CCBs, this prediction should be treated as a hypothesis-generating signal only. No direct neurovascular or cortical spreading depression studies exist for Lacidipine in the context of migraine.
-
----
+Other calcium channel blockers are used for migraine prophylaxis, so calcium channel modulation is a plausible link. There are two caveats. Lacidipine has limited CNS penetration, which weakens the case for a central effect. No trial or literature evidence was found for lacidipine in migraine. The high score should therefore be treated as a hypothesis, not as evidence of efficacy.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Lacidipine in Migraine Disorder.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for Lacidipine in Migraine Disorder.
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Lacidipine is not currently registered or marketed in Singapore. No authorization records are available.
-
----
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN07934P | LACIPIL TABLET 4 mg (Glaxo Wellcome SA) | Tablet, film coated (oral) |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction data, key warnings, or contraindication data were retrieved for Lacidipine in this evidence pack.
-
----
+Please refer to the package insert for safety information. No drug interaction records were found for this drug in the queried source.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There is zero empirical evidence (no trials, no literature) supporting Lacidipine for migraine disorder, and the mechanistic rationale is weak — L-type DHP CCBs as a class lack neurological evidence for migraine prophylaxis, in contrast to the established migraine-relevant CCBs (flunarizine, verapamil). The TxGNN score reflects graph connectivity rather than validated biological plausibility.
+The migraine prediction rests on the model score and a class-level mechanistic argument alone. There is no lacidipine-specific trial or publication, and its limited CNS penetration works against the hypothesis.
 
-**To proceed, the following would be needed:**
+Two other predicted indications have class-level support and are rated as research questions (L4). These are **Prinzmetal angina** and **Raynaud disease**. Calcium channel blockers are standard vasodilator therapy for both, but the retrieved literature is a general review and a pharmacovigilance study, not lacidipine-specific trials. They may be a better starting point than migraine.
 
-- Confirm Lacidipine's MOA from DrugBank (currently a data gap) to clarify whether any CNS-penetrant or neuronal calcium channel activity exists
-- Retrieve full prescribing information / SmPC to assess any historical use or off-label signals in neurovascular conditions
-- Conduct a targeted PubMed search on "dihydropyridine calcium channel blocker AND migraine prophylaxis" to assess class-level evidence before attributing to Lacidipine specifically
-- Evaluate whether Lacidipine has meaningful blood-brain barrier penetration compared to flunarizine or verapamil
-- If class-level evidence is found, design a preclinical study (e.g., cortical spreading depression model) to test Lacidipine's activity before considering any clinical investigation
+**To proceed, the following is needed:**
+- The HSA package insert warnings and contraindications, which are blocking for safety screening
+- Mechanism of action data from DrugBank
+- The approved indication text for the Singapore registration
+- A targeted search for lacidipine or dihydropyridine studies in migraine, Prinzmetal angina and Raynaud disease
+- An assessment of whether lacidipine's limited CNS penetration is compatible with a migraine indication
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

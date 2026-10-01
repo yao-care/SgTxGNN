@@ -29,64 +29,69 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Salicylic Acid: From Topical Dermatological Use to Papillary Conjunctivitis (Predicted)
+# Salicylic Acid: From Topical Skin Treatment to Papillary Conjunctivitis
 
 ## One-Sentence Summary
 
-Salicylic acid is a long-established topical keratolytic/anti-inflammatory agent; no formal original indication is on file in this evidence pack because the drug is not currently marketed in Singapore.
-The TxGNN model predicts it may be effective for **Papillary Conjunctivitis**, but this prediction is currently supported by **0 clinical trials** and **0 publications**.
+Salicylic acid is marketed in Singapore mainly as topical skin products such as lotions, creams, solutions and collodion. The TxGNN model predicts it may be effective for **papillary conjunctivitis**, but **no clinical trials and no publications** currently support this direction. The prediction is model output only, and there is an ocular irritation concern.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no Singapore license record on file |
-| Predicted New Indication | Papillary Conjunctivitis |
+| Predicted New Indication | Papillary conjunctivitis |
 | TxGNN Prediction Score | 99.88% |
-| Evidence Level | L5 (model prediction only, no supporting trials or literature) |
-| Singapore Market Status | ✗ Not marketed (Not marketed) |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 20 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack (flagged as a High-severity data gap). Based on general pharmacological knowledge, salicylic acid is a keratolytic agent with mild local anti-inflammatory activity, commonly used topically for dermatological conditions such as acne, warts, calluses, and psoriasis. However, no original indication is formally recorded here, and the drug has no active market authorization in Singapore.
+Currently, detailed mechanism of action data is not available in the Evidence Pack, and the licensed indication text is not recorded for the listed products. Salicylic acid is a salicylate with a known anti-inflammatory profile (COX inhibition, NF-kB modulation). It is also keratolytic, which is why it is used topically on the skin.
 
-The TxGNN rationale for the top-ranked candidate notes that salicylic acid's keratolytic and local anti-inflammatory properties could theoretically extend to allergic/inflammatory conjunctival surface reactions such as papillary conjunctivitis. This is described explicitly as an indirect, mechanism-only association — there is no ophthalmic formulation, dosing, or safety data to support ocular use, so the link should be treated as a pure computational prediction rather than a clinically grounded hypothesis.
+Papillary conjunctivitis is an inflammatory condition of the conjunctiva, often allergic or caused by mechanical irritation. An anti-inflammatory agent is conceptually relevant, which may partly explain the high score. However, this link is indirect and untested.
 
-It is also worth noting that most of the remaining top-10 predictions (e.g., various skeletal/craniofacial dysplasia syndromes) were flagged by the model's own rationale as likely knowledge-graph noise, with no plausible mechanistic connection to salicylic acid. Only rank 5 (rosacea conjunctivitis) and rank 10 (spondyloarthropathy susceptibility) carry comparable theoretical plausibility to the top candidate — and like it, both lack any clinical or literature evidence.
+The main concern is safety. Topical salicylic acid is irritating to the eye. None of the Singapore-registered products is an ophthalmic formulation, so the route of use would be new as well as the indication. The high score (0.9988) reflects the model's knowledge-graph pattern, not clinical evidence.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
 
 ## Singapore Market Information
 
-No Singapore (HSA) market authorizations are on file for this drug — Salicylic acid is currently **not marketed** in Singapore under this evidence pack (0 licenses registered).
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN09177P | ICM White Spot Lotion 5% | Lotion |
+| SIN04701P | Centa Skin Lotion 2% w/v | Lotion |
+| SIN02882P | Salicylic Acid 2% Cream | Cream |
+| SIN13728P | Collomack Salicylic Acid Solution 10% | Solution |
+| SIN04047P | Duofilm Collodion | Tincture |
+
+Showing 5 of 20 registrations. Other registered forms include shampoo and ointment.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Ocular irritation**: Salicylic acid is keratolytic and irritating to the eye, which is a major concern for any conjunctival or periocular use.
 
-*(Note: Key warnings, contraindications, and drug-drug interaction data are currently unavailable and flagged as a Blocking data gap — this must be resolved before any safety evaluation can proceed.)*
+Please refer to the package insert for other safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The evidence level is L5 — a model prediction only, with no clinical trials, no literature, and no ophthalmic formulation or safety data. Combined with the drug's non-marketed status in Singapore and blocking gaps in warning/contraindication data, there is currently no basis to advance this candidate.
+The prediction rests only on a model score, with no supporting trials or publications. The ocular irritation risk and the lack of any ophthalmic formulation in Singapore add further barriers. Among the other top-ranked predictions, most (skeletal and congenital syndromes) have no plausible mechanism. Rosacea conjunctivitis and spondyloarthropathy susceptibility are the only others flagged as research questions.
 
 **To proceed, the following is needed:**
-- TFDA/HSA package insert warnings and contraindications (Blocking gap — required before any S1 safety screening)
-- Mechanism of action data via DrugBank API (High-priority gap — needed for mechanistic plausibility assessment)
-- Preclinical or in vitro evidence for anti-inflammatory activity on conjunctival/ocular tissue
-- Ophthalmic formulation and route-compatibility data (topical keratolytic formulations are not equivalent to ocular-safe formulations)
-- Any real-world or case-report evidence linking salicylic acid (not aspirin) to ocular surface inflammatory conditions
+- HSA package insert warnings and contraindications, which are currently blocking safety screening
+- Mechanism of action data (for example from DrugBank)
+- A literature and trial search specific to salicylates in conjunctival inflammation
+- An ocular safety and tolerability assessment, and a review of whether a suitable ophthalmic route or formulation exists
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

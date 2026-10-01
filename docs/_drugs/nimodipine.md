@@ -29,31 +29,33 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Nimodipine: From Cerebral Vasospasm (Subarachnoid Hemorrhage) to Homozygous Familial Hypercholesterolemia
+# Nimodipine: From Its Registered Indication to Homozygous Familial Hypercholesterolemia
 
 ## One-Sentence Summary
 
-Nimodipine is a lipophilic, cerebrovascular-selective dihydropyridine calcium channel blocker traditionally used to prevent and treat cerebral vasospasm following aneurysmal subarachnoid hemorrhage. The TxGNN model predicts it may be effective for **Homozygous Familial Hypercholesterolemia**, but this specific pairing currently has **0 clinical trials** and **0 publications** supporting it, and the underlying rationale flags no known biological connection between the two conditions.
+Nimodipine is an L-type calcium channel blocker marketed in Singapore as an infusion and as a tablet; the registration records do not state its approved indication.
+The TxGNN model predicts it may be effective for **homozygous familial hypercholesterolemia**, but there are currently **0 clinical trials** and **0 publications** supporting this direction.
+This is a model-only prediction (Evidence Level L5), and no biological link has been identified.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Cerebral vasospasm following aneurysmal subarachnoid hemorrhage (drawn from repurposing-rationale context; not independently confirmed by market registration data, which is empty) |
-| Predicted New Indication | Homozygous Familial Hypercholesterolemia |
+| Original Indication | Not stated in the registration records |
+| Predicted New Indication | Homozygous familial hypercholesterolemia |
 | TxGNN Prediction Score | 99.29% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for nimodipine is flagged as a data gap in this evidence pack. Based on drug-class information available elsewhere in the pack, nimodipine is an L-type calcium channel blocker with pronounced cerebrovascular selectivity, historically used to reduce delayed cerebral ischemia after subarachnoid hemorrhage.
+Currently, detailed mechanism of action data is not available in the database. Based on the review of the prediction, nimodipine is a vasoselective dihydropyridine calcium channel blocker, and its known cerebrovascular activity is the basis for its use in vasospasm after subarachnoid hemorrhage.
 
-Homozygous familial hypercholesterolemia is caused by LDL-receptor gene defects leading to severely impaired clearance of LDL cholesterol — a lipid-metabolism disorder with no established link to calcium-channel physiology. The evidence pack's own mechanistic assessment for this pairing is explicit: there is **no known biological connection** between calcium-channel blockade and LDL-receptor-mediated lipid metabolism.
+Homozygous familial hypercholesterolemia is a genetic disorder of LDL receptor function and lipid metabolism. Nimodipine has no established effect on the LDL receptor or on lipid metabolism, so no plausible mechanistic link exists between the two. The very high TxGNN score reflects proximity in the knowledge graph, not a demonstrated pharmacological rationale.
 
-Given the very high TxGNN score (99.29%) combined with a complete absence of clinical trial or literature support, this prediction most likely reflects the model fitting a knowledge-graph co-morbidity or co-prescription pattern rather than capturing a genuine pharmacological signal. It should be treated as a hypothesis-generation output only, not as evidence of therapeutic plausibility.
+The prediction should therefore be treated as a hypothesis only. Nimodipine's approved use is unrelated to lipid disorders, and no clinical or literature support was found.
 
 ## Clinical Trial Evidence
 
@@ -65,7 +67,12 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Nimodipine is not currently registered or marketed in Singapore (0 authorizations on file), so no product-level licensing table is available.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN06931P | NIMOTOP FOR INFUSION 0.02% | Injection | Not listed in the record |
+| SIN09111P | NIMOTOP TABLET 30 mg | Tablet, film coated | Not listed in the record |
+
+Both products are manufactured by Bayer AG. Two routes are available: injectable and oral.
 
 ## Safety Considerations
 
@@ -76,13 +83,15 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-- The prediction carries a high TxGNN confidence score but is backed by zero clinical trials and zero literature references, and the pack's own mechanistic review found no plausible biological link between nimodipine's calcium-channel activity and LDL-receptor-driven hypercholesterolemia — the profile of an L5 (model-prediction-only) candidate.
-- For context, other candidates generated in this same batch (e.g., congestive heart failure, rank 3) have a larger — though still low-relevance — evidence base (3 trials, 19 publications), which may warrant separate evaluation ahead of this one.
+The prediction rests on the model score alone. There are no trials or publications, and the mechanism of nimodipine does not connect to LDL receptor function or lipid metabolism. Established lipid-lowering therapies address this disease directly, so there is no basis to advance this candidate.
 
 **To proceed, the following is needed:**
-- Resolution of DG001 (TFDA/label warnings and contraindications — flagged Blocking, required before any S1 safety screening) and DG002 (confirmed mechanism of action from DrugBank — flagged High severity)
-- Independent mechanistic or preclinical rationale connecting calcium-channel blockade to lipid metabolism/LDL clearance, if any exists, before further investment
-- Ongoing literature/trial monitoring, since no supporting evidence currently exists for this specific drug–disease pair
+- The Singapore package insert (warnings, contraindications and approved indication), which is currently missing and blocks safety screening
+- Detailed mechanism of action data from DrugBank
+- A credible mechanistic or preclinical rationale linking nimodipine to LDL receptor or lipid pathways
+- A review of lower-ranked predictions with a plausible mechanistic link, such as Moyamoya angiopathy (cerebrovascular activity). None of them has supporting evidence yet either, and the decision for each is currently also Hold.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

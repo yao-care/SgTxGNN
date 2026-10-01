@@ -29,94 +29,73 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ceftolozane: From Complicated Urinary Tract Infections to Gonococcal Urethritis
+# Ceftolozane: From Bacterial Infection Treatment to Gonococcal Urethritis
 
 ## One-Sentence Summary
 
-Ceftolozane is a novel cephalosporin (beta-lactam) antibiotic, clinically used in combination with tazobactam (as Ceftolozane/tazobactam, brand name Zerbaxa) for complicated urinary tract infections and hospital-acquired/ventilator-associated bacterial pneumonia.
-The TxGNN model predicts it may be effective for **Gonococcal Urethritis**, with a prediction score of **99.89%** — however, **0 clinical trials** and **0 publications** specifically support this repurposing direction, and mechanistic support is assessed as weak.
-
----
+Ceftolozane is a cephalosporin antibacterial, marketed in Singapore as an injectable (Zerbaxa, combined with tazobactam).
+The TxGNN model predicts it may be effective for **gonococcal urethritis**,
+but currently there are **0 clinical trials** and **0 publications** supporting this specific prediction.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Complicated urinary tract infections (cUTI), hospital-acquired bacterial pneumonia — based on global drug profile (Zerbaxa); no Singapore registration data available |
-| Predicted New Indication | Gonococcal Urethritis |
+|------|------|
+| Predicted New Indication | Gonococcal urethritis |
 | TxGNN Prediction Score | 99.89% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known pharmacological information, Ceftolozane is a cephalosporin-class beta-lactam antibiotic that inhibits bacterial cell wall synthesis by binding to penicillin-binding proteins (PBPs) — with particularly enhanced affinity for PBP1b, PBP1c, and PBP3 in Gram-negative bacteria and notable potency against *Pseudomonas aeruginosa*. In clinical use, it is always combined with the beta-lactamase inhibitor tazobactam to broaden its spectrum against beta-lactamase-producing organisms.
+Detailed mechanism of action data is not available in the source record. Ceftolozane belongs to the cephalosporin class, which inhibits bacterial penicillin-binding proteins and blocks cell wall synthesis. Ceftolozane covers Enterobacterales and *Pseudomonas aeruginosa*.
 
-*Neisseria gonorrhoeae*, the causative agent of gonococcal urethritis, is a Gram-negative diplococcus that is theoretically susceptible to beta-lactam antibiotics — this is the theoretical basis for the TxGNN prediction. The global rise of Ceftriaxone-resistant *N. gonorrhoeae* (a serious public health concern) has created genuine interest in identifying alternative cephalosporins or beta-lactam combinations, which gives this prediction some contextual relevance as a research question.
+Other cephalosporins, such as ceftriaxone, are standard therapy for *Neisseria gonorrhoeae*, so the mechanism is plausible. However, no ceftolozane-specific gonococcal data were found, and the drug is not positioned for this use. The high score most likely reflects class-level antibacterial similarity rather than drug-specific evidence.
 
-However, the mechanistic support for Ceftolozane specifically is assessed as weak. There is minimal published in vitro data characterising Ceftolozane's activity against *N. gonorrhoeae*, and no PK/PD target-attainment data or clinical evidence for this indication exists. The current standard of care remains Ceftriaxone IM, and Ceftolozane/tazobactam is an IV-only formulation ill-suited for outpatient gonorrhea treatment. This prediction is best interpreted as a speculative signal for drug-resistant gonorrhea research rather than a near-term repurposing opportunity.
-
----
+The other top predictions are weaker or less plausible:
+- **Xanthogranulomatous pyelonephritis** (99.88%) has the strongest biological link, because ceftolozane/tazobactam is already used for complicated urinary tract infections. It is a chronic, obstructive condition managed mainly by surgery, and the only literature is a general review of febrile UTI (PMID 26658652). Evidence level is L4.
+- **Uterine inflammatory disease** (99.88%) is plausible for Gram-negative coverage, but ceftolozane alone lacks anaerobic and atypical pathogen coverage.
+- **Ureaplasma urethritis** is mechanistically implausible, because *Ureaplasma* has no cell wall and beta-lactams are expected to be inactive.
+- **Urogenital tuberculosis** is implausible, because *M. tuberculosis* produces a beta-lactamase and is generally not susceptible to standard cephalosporins.
+- The remaining candidates (polyclonal hyperviscosity syndrome, hyperamylasemia, congenital analbuminemia, blood group incompatibility, premalignant hematological system disease) have no plausible mechanism and are likely knowledge-graph artifacts.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
+## Singapore Market Information
 
-## All Predicted Indications — Overview
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN15317P | ZERBAXA POWDER FOR SOLUTION FOR INJECTION 1G/0.5G | Injection, powder, for solution | Steri-Pharma, LLC; ACS Dobfar, S.p.A (ceftolozane drug product intermediate) |
 
-The TxGNN model generated 10 candidate indications for Ceftolozane. The mechanistic plausibility varies significantly across predictions:
-
-| Rank | Disease | Score | Evidence Level | Assessment | Rationale Summary |
-|------|---------|-------|---------------|------------|-------------------|
-| 1 | Gonococcal Urethritis | 99.89% | L5 | Research Question | Gram-negative coverage theoretically applicable; no clinical data; IV formulation unsuitable for standard outpatient gonorrhea treatment |
-| 2 | Ureaplasma Urethritis | 99.89% | L5 | **Hold — Mechanism Incompatible** | *Ureaplasma* lacks a peptidoglycan cell wall; beta-lactams are entirely ineffective |
-| 3 | Uterine Inflammatory Disease | 99.88% | L5 | **Hold** | PID requires coverage for *Chlamydia* (intracellular; beta-lactam-insensitive) and anaerobes; does not match CDC treatment guidelines |
-| 4 | Xanthogranulomatous Pyelonephritis | 99.88% | L4 | Research Question | Caused by Gram-negatives (*E. coli*, *Proteus*) within Ceftolozane's coverage; 1 indirect review reference; surgery is the primary treatment |
-| 5 | Polyclonal Hyperviscosity Syndrome | 99.52% | L5 | **Hold — Mechanism Incompatible** | B-cell/immunoglobulin disorder; antibiotics have no known effect on immunoglobulin production |
-| 6 | Hyperamylasemia | 99.52% | L5 | **Hold — Mechanism Incompatible** | Biochemical marker of pancreatic/salivary injury, not a bacterial target; no clinical rationale |
-| 7 | Urogenital Tuberculosis | 99.50% | L5 | **Hold — Mechanism Incompatible** | *Mycobacterium tuberculosis* is intrinsically resistant to cephalosporins due to its unique cell wall lipid layer |
-| 8 | Congenital Analbuminemia | 99.44% | L5 | **Hold — Mechanism Incompatible** | Genetic ALB mutation; antibiotics have no corrective effect on protein synthesis defects |
-| 9 | Blood Group Incompatibility | 99.22% | L5 | **Hold — Mechanism Incompatible** | Red blood cell antigen–antibody reaction; entirely unrelated to antimicrobial mechanism |
-| 10 | Premalignant Hematological Disease | 99.11% | L5 | **Hold — Mechanism Incompatible** | MDS and similar disorders are driven by genomic instability; antibiotics have no therapeutic effect |
-
-> **Note:** 7 of 10 predictions are mechanistically incompatible with Ceftolozane's antibiotic mechanism of action. These high TxGNN scores likely reflect co-morbidity network noise in the knowledge graph rather than true pharmacological signal.
-
----
+The only available route is injectable.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-*(No safety data — including key warnings, contraindications, or drug interactions — was available in this Evidence Pack for Ceftolozane. Package insert retrieval from the global Zerbaxa label is recommended as a priority action.)*
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite a high TxGNN prediction score (99.89%), the evidence level is L5 (model prediction only) with no supporting clinical trials, observational studies, or publications for any of the top-ranked indications. The only biologically plausible candidate (gonococcal urethritis) has weak mechanistic support and faces significant practical barriers (IV-only formulation vs. outpatient disease; no in vitro characterisation against *N. gonorrhoeae*). The majority of other predictions are mechanistically incompatible and should be deprioritised. Ceftolozane is also not registered in Singapore, and all safety data is currently unavailable.
+The prediction is supported only by a model score (L5), with no trials or literature and no ceftolozane-specific gonococcal data. Gonorrhoea already has established cephalosporin therapy, and safety information from the package insert has not been reviewed.
 
-**To proceed with the gonococcal urethritis research question, the following is needed:**
+**To proceed, the following is needed:**
+- Package insert warnings and contraindications from the HSA record (required before any safety screening)
+- Mechanism of action data (e.g., from DrugBank)
+- In vitro susceptibility data for *N. gonorrhoeae* against ceftolozane, including resistance patterns
+- A comparison against current standard gonorrhoea therapy to establish whether there is any added value
+- If a urinary tract direction is preferred, a targeted literature review for xanthogranulomatous pyelonephritis, which has the most plausible link
 
-- **In vitro MIC data**: Characterise Ceftolozane's minimum inhibitory concentrations against *N. gonorrhoeae*, including WHO-designated Ceftriaxone-resistant reference strains
-- **PK/PD modelling**: Determine whether standard Ceftolozane/tazobactam dosing achieves adequate concentrations at the urethral mucosa to eradicate *N. gonorrhoeae*
-- **MOA documentation**: Retrieve full mechanism of action data from DrugBank API (currently flagged as a data gap)
-- **Safety data**: Download and parse the Zerbaxa international package insert for warnings, contraindications, and drug interactions (currently a blocking data gap)
-- **Formulation feasibility review**: Assess whether an IV antibiotic can be practically positioned for a condition primarily managed in outpatient/STI clinic settings
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

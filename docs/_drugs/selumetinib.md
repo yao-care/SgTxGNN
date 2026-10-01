@@ -29,104 +29,77 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Selumetinib: From an Undocumented Original Indication to Familial Generalized Lentiginosis
+# Selumetinib: From Neurofibromatosis Type 1 Plexiform Neurofibroma to Familial Generalized Lentiginosis
 
 ## One-Sentence Summary
 
-Selumetinib's original approved indication and mechanism-of-action data are not available in this evidence pack — the drug is not registered in Singapore, and detailed MOA is flagged as a blocking data gap. TxGNN's top-ranked prediction points to **Familial Generalized Lentiginosis**, but this is supported by **zero clinical trials and zero publications**, making it a pure algorithmic signal rather than an actionable candidate. Notably, this same evidence pack contains other candidates (peripheral nerve schwannoma, rhabdoid tumor) with substantially stronger real-world evidence — these are summarized separately below.
-
----
+Selumetinib is a MEK inhibitor marketed in Singapore as KOSELUGO and used for NF1 plexiform neurofibromas. The TxGNN model predicts it may be effective for **familial generalized lentiginosis**, but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction. It is a model-only prediction (Evidence Level L5).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no approved indication text exists because Selumetinib has 0 registrations in Singapore, and original MOA is also unrecorded (see Data Gaps) |
-| Predicted New Indication | Familial Generalized Lentiginosis |
+| Original Indication | Not listed in the Singapore registration records. Selumetinib is known to be approved for NF1 plexiform neurofibromas. |
+| Predicted New Indication | Familial generalized lentiginosis |
 | TxGNN Prediction Score | 99.96% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
 | Recommended Decision | Hold |
-
-**Blocking data gaps affecting this evaluation:**
-- **DG001 (Blocking)**: HSA/label warnings and contraindications are unavailable, preventing any S1 safety pre-screen.
-- **DG002 (High)**: Detailed mechanism of action is unavailable, limiting mechanistic-linkage analysis.
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for Selumetinib in this evidence pack. Based on the rationale text accompanying the model's predictions, Selumetinib is understood to act as a MEK inhibitor targeting the RAS-MAPK signaling pathway — this description recurs consistently across multiple predicted-indication rationales in the pack, even though it is not formally captured in the `original_moa` field.
+Detailed mechanism-of-action data is not available in the Evidence Pack. Selumetinib inhibits MEK1/2 in the RAS/MAPK pathway. This pathway is dysregulated in NF1, the condition behind selumetinib's established use.
 
-Familial Generalized Lentiginosis belongs to the RASopathy spectrum of conditions (overlapping phenotypically with LEOPARD/Legius syndrome), which is theoretically linked to RAS-MAPK pathway activation. This gives the prediction a plausible mechanistic rationale in principle. However, the evidence pack explicitly notes that **no experimental or clinical data currently support MEK inhibitor use in this specific indication** — the link is described as "purely a TxGNN algorithmic inference" (`repurposing_rationale.mechanistic_link`). This is consistent with the L5 evidence level (model prediction only, no actual studies) and the resulting Hold recommendation.
-
----
+Familial generalized lentiginosis is a pigmentary condition. A plausible but unproven link is that RAS/MAPK dysregulation also occurs in several RASopathy-like pigmentary phenotypes. The high score may simply reflect knowledge-graph proximity to NF1-type and pigmentary features. No trials, literature or mechanistic studies were retrieved to confirm MEK dependence in this condition. The prediction should be treated as a hypothesis only.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Selumetinib is **not currently registered in Singapore** (0 licenses on file). No product name, dosage form, or approved indication text is available for this market.
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN16275P | KOSELUGO HARD CAPSULES 10MG | Capsule | Patheon Pharmaceuticals Inc. |
+| SIN16276P | KOSELUGO HARD CAPSULES 25MG | Capsule | Patheon Pharmaceuticals Inc. |
 
----
+Both products are oral capsules. Approved indication text was not available in the registration records.
 
-## Cytotoxicity (Antineoplastic Drugs Only)
-
-Selumetinib is understood to be a targeted oncology agent (MEK inhibitor acting on the RAS-MAPK pathway), based on mechanism descriptions embedded in this evidence pack's repurposing rationales.
+## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (MEK inhibitor) |
+| Cytotoxicity Classification | Targeted therapy (MEK1/2 inhibitor) |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
 | Monitoring Items | Please refer to the package insert warnings and precautions |
 | Handling Protection | Please refer to the package insert warnings and precautions |
 
----
-
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
----
-
-## Other Predicted Indications in This Evidence Pack
-
-This evidence pack ("multi" candidate set) contains 10 TxGNN-predicted indications for Selumetinib. Most share the same pattern as the headline prediction above — high TxGNN scores (>99.9%) but **zero corroborating evidence** (L5, Hold): familial generalized lentiginosis, gastrocutaneous syndrome, acromelanosis, congenital café-au-lait/SCE syndrome, Moynahan syndrome, and three other ultra-rare syndromes.
-
-Two candidates, however, stand apart with real supporting evidence and warrant separate tracking as research questions:
-
-| Rank | Disease | Evidence Level | Decision Stage | Key Support |
-|------|---------|----------------|-----------------|--------------|
-| 9 | Peripheral nerve schwannoma | **L2** | S2 (Research Question) | A dedicated Phase 2 trial ([NCT03095248](https://clinicaltrials.gov/study/NCT03095248)) in NF2-related tumors — terminated early due to poor accrual (n=10) — plus 7 supporting publications, including a preclinical study on MEK1/2 inhibition (AZD6244) in primary schwannoma cells (PMID [19804833](https://pubmed.ncbi.nlm.nih.gov/19804833/)) and a case report of partial response in NF2-associated disease (PMID [38058737](https://pubmed.ncbi.nlm.nih.gov/38058737/)) |
-| 3 | Rhabdoid tumor | **L3** | S1 (Research Question) | Screened within the NCI-COG Pediatric MATCH basket trial ([NCT03155620](https://clinicaltrials.gov/study/NCT03155620)); preclinical evidence that MAPK pathway activation is a druggable driver in atypical teratoid/rhabdoid tumors (PMID [25638158](https://pubmed.ncbi.nlm.nih.gov/25638158/)) |
-
-These two candidates should be considered the more scientifically credible outputs of this evidence pack and, if this evaluation is to be extended, are better starting points than the nominally highest-scoring but evidence-free prediction above.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (Familial Generalized Lentiginosis) is an L5, evidence-free algorithmic output with no clinical trials, no literature, and an explicitly acknowledged lack of biological validation. Combined with the blocking absence of HSA label/safety data (DG001) and MOA data (DG002), and the drug's unregistered status in Singapore, there is no basis to advance this specific indication.
+The prediction is supported only by a very high model score. No clinical trials, literature or established mechanism support familial generalized lentiginosis, so there is currently no basis for advancing it.
+
+Among the other predicted indications for this drug, **peripheral nerve schwannoma** (rank 9) has the most support at Evidence Level L3. It has a small terminated Phase 2 trial in NF2-related tumors (NCT03095248, n=10), preclinical MEK-inhibitor data in human schwannoma cells and case reports. It is worth evaluating as a separate research question.
 
 **To proceed, the following is needed:**
-- Resolve DG001: obtain HSA-equivalent (or originating regulator, e.g., FDA/EMA) label warnings and contraindications before any safety pre-screen (S1) can begin.
-- Resolve DG002: confirm Selumetinib's original approved indication and formal mechanism of action via DrugBank or manufacturer labeling.
-- If pursuing repurposing signals from this evidence pack, redirect evaluation toward the two evidence-backed candidates — **peripheral nerve schwannoma (L2)** and **rhabdoid tumor (L3)** — rather than the top TxGNN score alone.
+- Singapore package insert warnings and contraindications (blocking for safety screening)
+- Mechanism-of-action data for selumetinib (for example from DrugBank) to assess the link to pigmentary conditions
+- Any published case reports, preclinical studies or trials linking MEK inhibition to familial generalized lentiginosis
+- Approved indication text for the Singapore registrations
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -3,14 +3,14 @@ layout: default
 title: Salicylamide
 parent: Medium Evidence (L3-L4)
 nav_order: 885
-evidence_level: L3
+evidence_level: L4
 indication_count: 10
 ---
 
 # Salicylamide
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,81 +29,74 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Salicylamide: From Antipyretic/Analgesic Use to Pharyngitis
+# Salicylamide: From Pain and Fever Relief to Pharyngitis
 
 ## One-Sentence Summary
 
-> Salicylamide has no formal registered indication on file in Singapore; historically it has been used as a component of antipyretic/analgesic combination products for colds and sore throat.
-> The TxGNN model predicts it may be effective for **Pharyngitis**,
-> with **0 clinical trials** and **3 publications** (all small studies from the 1950s–60s) currently supporting this direction.
-
----
+Salicylamide is a salicylate-class analgesic and antipyretic. In Singapore it is marketed in oral combination products for pain and fever relief. The TxGNN model predicts it may be useful for **pharyngitis**, but there are **0 registered clinical trials** and only **3 publications**, all from 1953-1969 and none controlled.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | No formal Singapore-registered indication on file; historically used as an antipyretic/analgesic component in combination cold and sore-throat remedies |
+| Original Indication | Pain and fever relief (inferred from product names; no approved indication text is recorded in the registry) |
 | Predicted New Indication | Pharyngitis |
 | TxGNN Prediction Score | 99.98% |
-| Evidence Level | L3 |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 4 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for salicylamide is not available. Based on the information on file, salicylamide is a traditional antipyretic/analgesic — a weak COX inhibitor that is structurally related to salicylic acid but is not itself hydrolysed to salicylic acid in the body. It has historically been formulated as a component of combination cold- and sore-throat remedies, used to relieve fever and pain rather than to act on disease-specific pathology.
+Currently, detailed mechanism of action data is not available. Based on known information, salicylamide is a salicylate-class analgesic and antipyretic. It has long been a component of multi-ingredient cold and pain remedies. It is assumed to act through cyclooxygenase (COX) inhibition, but this has not been confirmed from DrugBank.
 
-This mechanism aligns loosely with pharyngitis, where symptomatic relief of fever, throat pain, and inflammation is the primary treatment goal — which is consistent with how salicylamide-containing products (e.g., in rectal capsule and oral combination forms) were historically used for "catarrhal tonsillitis" and pharyngo-tonsillitis in the mid-20th century literature. However, this is a symptom-relief rationale, not evidence of disease-modifying efficacy, and no modern controlled trial has evaluated salicylamide specifically (rather than as one ingredient in a multi-component product) for pharyngitis.
-
----
+Sore throat is a symptom that analgesics and antipyretics commonly treat, so symptomatic relief of pharyngitis is mechanistically plausible. A 1953 clinical series reported salicylamide combined with sodium p-aminobenzoate in infants with catarrhal tonsillitis. The very high TxGNN score probably reflects similarity to other salicylates rather than independent evidence. This is symptom relief, not a new disease-modifying use.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [13060598](https://pubmed.ncbi.nlm.nih.gov/13060598/) | 1953 | Case series | Gazzetta medica italiana | Salicylamide combined with sodium p-aminobenzoate used to treat catarrhal tonsillitis in infants |
-| [14126993](https://pubmed.ncbi.nlm.nih.gov/14126993/) | 1963 | Case series | Kinderarztliche Praxis | Experience with a new antipyretic/analgesic rectal capsule formulation in children |
-| [5354503](https://pubmed.ncbi.nlm.nih.gov/5354503/) | 1969 | RCT (double-blind) | Minerva medica | Double-blind comparison of two bismuth preparations in pharyngo-tonsillitis; note the comparator is bismuth-based, not salicylamide itself, so relevance to salicylamide's efficacy is indirect |
+| [13060598](https://pubmed.ncbi.nlm.nih.gov/13060598/) | 1953 | Clinical series (uncontrolled) | Gazzetta medica italiana | Salicylamide with sodium p-aminobenzoate for catarrhal tonsillitis in infants |
+| [14126993](https://pubmed.ncbi.nlm.nih.gov/14126993/) | 1963 | Clinical experience report | Kinderarztliche Praxis | Experience with a new antipyretic/analgesic rectal capsule; no abstract available |
+| [5354503](https://pubmed.ncbi.nlm.nih.gov/5354503/) | 1969 | Double-blind trial | Minerva medica | Two bismuth preparations in pharyngo-tonsillitis; relevance to salicylamide unclear from the title |
 
-All three studies are from 1953–1969, predate modern trial methodology (small samples, limited reporting), and only one directly involves salicylamide as the active agent studied.
-
----
+All three papers are old, lack abstracts, and have not been reviewed for relevance. None provides modern controlled evidence.
 
 ## Singapore Market Information
 
-Salicylamide currently has **no marketing authorization in Singapore** (0 registrations on file). No product listing, dosage form, or approved indication text is available for review.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN08055P | SEMOR PAIN AND FEVER RELIEF CAPSULES | Capsule | Not stated in registry |
+| SIN05768P | CON-Z-LIN TABLET | Tablet, sugar coated | Not stated in registry |
+| SIN02859P | CONSU CAPSULE | Capsule | Not stated in registry |
+| SIN03369P | FONGTIT 600 CAPSULE | Capsule | Not stated in registry |
 
----
+All four products are made by Sunward Pharmaceutical Private Limited and are oral forms.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No structured safety warnings, contraindications, or drug-drug interaction data are currently on file for salicylamide (HSA labelling data is a **Blocking** data gap — see Conclusion below).
+- **Literature signals:** An overdose toxicity report exists (PMID 8864802). A case report describes drug-induced hemolytic anemia with agranulocytosis after a cold remedy containing salicylamide, acetaminophen, caffeine and promethazine (PMID 8952318). In that case the contribution of salicylamide cannot be separated from the other ingredients. Salicylate use in neonates and infants also carries safety concerns, which matters because the only supporting paper involves infants.
 
----
+Please refer to the package insert for warnings, contraindications and drug interactions. The Singapore package insert data have not yet been retrieved, and no drug interaction records were found.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Evidence for the pharyngitis indication is limited to three small, methodologically dated studies (1953–1969), only one of which directly evaluates salicylamide as the active agent — this meets only L3 (observational/small study) evidence, with no completed RCTs specific to salicylamide itself. Combined with a **Blocking** data gap on HSA-approved safety labelling (warnings/contraindications) and the fact that salicylamide is not currently marketed in Singapore, there is insufficient basis to proceed at this time.
+The evidence is limited to three mid-20th-century uncontrolled or unclear reports and no registered trials. The high TxGNN score is likely a class-similarity effect. Sore-throat relief is also a symptomatic use that existing analgesics already cover. The safety data from the Singapore package insert are still missing, which blocks safety screening.
 
 **To proceed, the following is needed:**
-- HSA-approved package insert / safety labelling to close the Blocking data gap (warnings, contraindications, DDI)
-- Detailed mechanism of action (MOA) documentation from DrugBank or primary pharmacology sources
-- A modern-era efficacy study isolating salicylamide (not as part of a multi-ingredient combination product) for pharyngitis or related upper respiratory symptoms
-- Pharmacovigilance review of historically reported salicylamide-associated adverse events (e.g., overdose toxicity, drug-induced hemolytic anemia noted in the broader literature set) before any clinical development decision
-- Confirmation of whether a Singapore marketing authorization is planned, given the current 0-registration status
+- Singapore package insert warnings and contraindications (download from the HSA website)
+- Mechanism of action data (DrugBank)
+- Relevance review of the three retrieved papers
+- Comparison against current standard analgesics and antipyretics for sore throat
+- A pharmacist review of paediatric safety before any infant use is considered
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

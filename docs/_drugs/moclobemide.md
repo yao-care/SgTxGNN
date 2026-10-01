@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Moclobemide
-parent: High Evidence (L1-L2)
+parent: Low Evidence (L5)
 nav_order: 677
-evidence_level: L2
+evidence_level: L5
 indication_count: 10
 ---
 
 # Moclobemide
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,86 +33,78 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Moclobemide is a reversible inhibitor of monoamine oxidase A (RIMA), originally developed and used as an antidepressant for major depressive disorder and dysthymia. The TxGNN model predicts it may also be effective for **Agoraphobia** (typically presenting with panic disorder), with **0 registered clinical trials** but **12 supporting publications**, including two randomized controlled trials, currently available.
-
----
+Moclobemide is a reversible MAO-A inhibitor (RIMA), described in the literature as an antidepressant.
+The TxGNN model predicts it may be effective for **agoraphobia**, mostly in the form of panic disorder with agoraphobia.
+Support consists of **0 registered clinical trials** and **12 publications**, including 2 randomised trials in panic disorder with or without agoraphobia.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Depression (Major Depressive Disorder / Dysthymia) — inferred from known drug class information (see note below); no structured `original_indications` data available in this Evidence Pack |
+| Original Indication | Depression (inferred from the literature; the Singapore licence has no indication text) |
 | Predicted New Indication | Agoraphobia |
 | TxGNN Prediction Score | 99.43% |
-| Evidence Level | L2 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L2 (two RCTs found in the literature, but trial phase and outcomes are unverified and no registered trials exist) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action (MOA) data is not available from DrugBank in this Evidence Pack (flagged as a High-severity data gap, DG002). Based on known pharmacological information, moclobemide is a reversible inhibitor of monoamine oxidase A (RIMA) — a class distinct from older irreversible MAO inhibitors — and its antidepressant efficacy has been extensively established through decades of clinical trials in major depression, dysthymia, and atypical depression.
+Detailed mechanism of action data is not available in the Evidence Pack. The literature describes moclobemide as a reversible, selective inhibitor of monoamine oxidase A. This raises serotonin and norepinephrine, the same monoamine pathway targeted by antidepressants used in panic disorder with agoraphobia.
 
-Depression and agoraphobia (usually co-occurring with panic disorder) share substantial pharmacological and neurobiological overlap: both are thought to involve dysregulation of serotonergic and noradrenergic signaling, and MAO-A inhibition increases synaptic availability of these monoamines. This mechanistic overlap explains why a drug developed for depression would plausibly show efficacy in panic-related anxiety disorders such as agoraphobia.
+Agoraphobia usually occurs together with panic disorder, and MAO inhibitors have been reported to work in panic disorder with agoraphobia. One review notes this from controlled studies of MAO inhibitors as a class (PMID 2248064). The moclobemide-specific evidence is two randomised trials in panic disorder, one against placebo and CBT and one against clomipramine.
 
-This is further supported by real-world clinical use: moclobemide has been directly studied — including in placebo-controlled and comparator-controlled randomized trials — specifically for panic disorder with agoraphobia, social phobia, and other anxiety disorders, lending strong mechanistic and empirical plausibility to the TxGNN prediction.
-
----
+Two caveats apply. First, the evidence concerns panic disorder, not agoraphobia on its own. Second, no outcome data were available in the abstracts provided, so efficacy is unconfirmed. The high TxGNN score is consistent with the literature, but it is a model prediction and not proof of efficacy.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
-*(ClinicalTrials.gov and ICTRP searches for "Moclobemide" + "agoraphobia" both returned 0 results as of the data cutoff.)*
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [10448444](https://pubmed.ncbi.nlm.nih.gov/10448444/) | 1999 | RCT | The British Journal of Psychiatry | Randomised placebo-controlled trial of moclobemide, cognitive-behavioural therapy, and their combination in panic disorder with agoraphobia |
-| [10361962](https://pubmed.ncbi.nlm.nih.gov/10361962/) | 1999 | RCT | European Archives of Psychiatry and Clinical Neuroscience | Multicenter double-blind RCT (n=135): moclobemide 450 mg/day vs. clomipramine 150 mg/day in DSM-III-R panic disorder with/without agoraphobia |
-| [32002937](https://pubmed.ncbi.nlm.nih.gov/32002937/) | 2020 | Review | Advances in Experimental Medicine and Biology | Guideline-based review of psychopharmacological treatments for panic disorder/agoraphobia and other anxiety disorders |
-| [28867934](https://pubmed.ncbi.nlm.nih.gov/28867934/) | 2017 | Review | Dialogues in Clinical Neuroscience | Treatment recommendations for anxiety disorders (GAD, panic disorder/agoraphobia, social anxiety disorder) based on guidelines and meta-analyses |
-| [7717094](https://pubmed.ncbi.nlm.nih.gov/7717094/) | 1995 | Review | Acta Psychiatrica Scandinavica Supplementum | Review of reversible MAO-A inhibitors (brofaromine, moclobemide, toloxatone); moclobemide showed antidepressant activity across 4 placebo-controlled trials |
-| [2248064](https://pubmed.ncbi.nlm.nih.gov/2248064/) | 1990 | Review | Acta Psychiatrica Scandinavica Supplementum | Reviews MAOI efficacy in controlled studies of panic disorder with agoraphobia, social phobia, atypical depression, and other conditions |
-| [8313401](https://pubmed.ncbi.nlm.nih.gov/8313401/) | 1993 | RCT | Clinical Neuropharmacology | 8-week randomized double-blind trial comparing a reversible MAO-A inhibitor to clomipramine in panic disorder, supporting RIMA-class efficacy |
-| [16850261](https://pubmed.ncbi.nlm.nih.gov/16850261/) | 2006 | Clinical Study | Metabolic Brain Disease | SPECT study comparing citalopram and moclobemide effects on resting brain perfusion in social anxiety disorder |
-| [12006898](https://pubmed.ncbi.nlm.nih.gov/12006898/) | 2002 | Reanalysis | Journal of Clinical Psychopharmacology | Reanalysis of dose-response and therapeutic response models in panic disorder, including moclobemide data |
-| [7954487](https://pubmed.ncbi.nlm.nih.gov/7954487/) | 1994 | Open-label Study | Clinical Neuropharmacology | 12-week open pilot study (n=35) of moclobemide 300-600 mg/day in social phobia; consistent improvement in fear and avoidance symptoms |
-
----
+| [10448444](https://pubmed.ncbi.nlm.nih.gov/10448444/) | 1999 | RCT | Br J Psychiatry | Placebo-controlled trial of moclobemide, CBT and their combination in panic disorder with agoraphobia. Outcomes are not in the abstract provided. |
+| [10361962](https://pubmed.ncbi.nlm.nih.gov/10361962/) | 1999 | RCT | Eur Arch Psychiatry Clin Neurosci | Double-blind trial of moclobemide 450 mg/day vs clomipramine 150 mg/day in panic disorder with and without agoraphobia (135 patients randomised). Outcomes are not in the excerpt provided. |
+| [28867934](https://pubmed.ncbi.nlm.nih.gov/28867934/) | 2017 | Review | Dialogues Clin Neurosci | Guideline- and meta-analysis-based treatment recommendations for anxiety disorders, including panic disorder/agoraphobia. |
+| [32002937](https://pubmed.ncbi.nlm.nih.gov/32002937/) | 2020 | Review | Adv Exp Med Biol | Psychopharmacological recommendations for anxiety disorders, including panic disorder/agoraphobia, based on guidelines and RCT meta-analyses. |
+| [2248064](https://pubmed.ncbi.nlm.nih.gov/2248064/) | 1990 | Review | Acta Psychiatr Scand Suppl | MAO inhibitors as a class are reported effective in controlled studies of panic disorder with agoraphobia and social phobia. |
+| [7717094](https://pubmed.ncbi.nlm.nih.gov/7717094/) | 1995 | Review | Acta Psychiatr Scand Suppl | Review of RIMAs, including moclobemide, in mental disorders. Antidepressant activity is well documented. |
+| [12006898](https://pubmed.ncbi.nlm.nih.gov/12006898/) | 2002 | Analysis of trial data | J Clin Psychopharmacol | Reanalysis of moclobemide data in panic disorder using pre-post regression slopes to model therapeutic response. |
+| [16850261](https://pubmed.ncbi.nlm.nih.gov/16850261/) | 2006 | Imaging study | Metab Brain Dis | SPECT comparison of citalopram and moclobemide on resting brain perfusion in social anxiety disorder (indirect evidence). |
+| [7954487](https://pubmed.ncbi.nlm.nih.gov/7954487/) | 1994 | Open pilot study | Clin Neuropharmacol | 35 outpatients with social phobia received moclobemide for 12 weeks and showed consistent improvement (indirect evidence). |
+| [7892341](https://pubmed.ncbi.nlm.nih.gov/7892341/) | 1995 | Case report | Psychiatr Prax | Treatment-refractory panic disorder with agoraphobia remitted with imipramine, moclobemide and behavioural therapy. |
 
 ## Singapore Market Information
 
-Moclobemide currently has **no registration records** in Singapore (market status: Not Marketed, 0 licenses on file). No product authorization, brand name, or approved indication text is available from the current dataset.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN13093P | MOCLOBEMIDE HEXAL TABLET 150mg (Salutas Pharma GmbH) | Tablet | Not stated in the available data |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No warnings or contraindications are available in the Evidence Pack.
 
-*(Key warnings, contraindications, and DDI data are all currently unavailable — flagged as a Blocking-severity data gap, DG001. This gap must be resolved via TFDA/HSA package insert retrieval before any safety (S1) evaluation can proceed.)*
-
----
+The drug interaction query returned no records. The retrieved literature nonetheless flags interaction concerns, so this result should not be read as "no interactions":
+- MAO-A inhibition increases exposure to some triptans (almotriptan, sumatriptan).
+- Combining MAO inhibitors with SSRIs or other serotonergic agents needs caution.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The predicted indication is supported by a very high TxGNN score (99.43%) and a reasonably strong historical literature base — including two double-blind randomized controlled trials directly studying moclobemide in panic disorder with agoraphobia — but the drug is not currently marketed in Singapore (0 registrations), and the Blocking-severity gap in TFDA/HSA warning/contraindication data prevents even a preliminary safety (S1) assessment.
+The literature contains two randomised trials of moclobemide in panic disorder with agoraphobia, and the TxGNN score is very high. However, no trials are registered, no efficacy outcomes were verified, and the Singapore package insert safety data is missing. That gap is blocking, so the candidate should not advance until it is filled.
 
 **To proceed, the following is needed:**
-- TFDA/HSA package insert (warnings, contraindications) to close the Blocking data gap (DG001)
-- Detailed mechanism of action data from DrugBank to close the High-severity gap (DG002)
-- Confirmation of DDI profile, particularly relevant given moclobemide's MAO-A inhibition (interactions with serotonergic agents, sympathomimetics, triptans)
-- Clarification of whether the predicted "agoraphobia" indication should be scoped as "panic disorder with agoraphobia," consistent with how it appears in the supporting literature
-- An assessment of the regulatory pathway for market entry in Singapore, since no existing registration currently exists to build upon
+- HSA package insert warnings and contraindications, plus the licensed indication text
+- Full-text review of PMIDs 10448444 and 10361962 to confirm trial phase, endpoints and effect size in agoraphobia or panic disorder with agoraphobia
+- Mechanism of action data from DrugBank
+- A re-check of drug interaction data, especially triptans and serotonergic drugs
+- Note: the depression-related predictions (neurotic depression, melancholia) are largely on-label uses of an existing antidepressant, and the model ranks them as separate candidates
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

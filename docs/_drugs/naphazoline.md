@@ -29,68 +29,70 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Naphazoline: From Topical Decongestant to Hypotrichosis Simplex of the Scalp
+# Naphazoline: From Topical Decongestant Use to Hypotrichosis Simplex of the Scalp
 
 ## One-Sentence Summary
 
-Naphazoline is an imidazoline-derived, non-selective α-adrenergic agonist used topically as a nasal/ocular vasoconstrictor to relieve congestion and redness. The TxGNN model predicts it may be effective for **hypotrichosis simplex of the scalp**, but currently **0 clinical trials** and **0 publications** support this direction — the prediction is a pure model score with no corroborating mechanistic or clinical evidence.
-
----
+Naphazoline is a topical alpha-adrenergic vasoconstrictor, sold in Singapore as a nasal spray and an ophthalmic solution.
+The TxGNN model predicts it may be effective for **hypotrichosis simplex of the scalp**,
+but **no clinical trials and no publications** currently support this prediction, and the known pharmacology points the other way.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | No Taiwan-approved indication on record (drug not marketed); per available data, used as a topical nasal/ocular vasoconstrictor for congestion relief |
+| Original Indication | Not stated in the registration records (registered products are a nasal spray and an ophthalmic solution) |
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
 | TxGNN Prediction Score | 99.83% |
 | Evidence Level | L5 |
-| Taiwan Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 3 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed DrugBank mechanism-of-action data for Naphazoline is not available in this evidence pack. Based on information captured elsewhere in the pack, Naphazoline is an imidazoline derivative and non-selective α-adrenergic receptor agonist (predominantly α1, with weak α2 activity), used clinically only as a topical vasoconstrictor of nasal mucosa/conjunctiva to relieve congestion.
+Detailed mechanism of action data is not currently available. Based on known information, naphazoline is a topical alpha-adrenergic vasoconstrictor, and its use is as a local decongestant.
 
-For the top-ranked prediction — hypotrichosis simplex of the scalp — the evidence pack itself states there is no known pharmacological link: Naphazoline has no reported activity on hair follicle growth cycles, androgen receptor signaling, or keratinocyte pathways, and the pairing has zero supporting trials or literature. This is flagged as a pure TxGNN prediction score with no clinical evidence behind it.
+The prediction does not appear to be mechanistically supported. Reduced scalp blood flow would, if anything, run opposite to vasodilator hair-growth agents such as minoxidil. The very high score most likely reflects proximity to other adrenergic or vasoactive drugs in the knowledge graph rather than a real biological link. No plausible mechanism, trial or literature support was identified.
 
-Notably, across the 10 ranked predictions in this pack, TxGNN assigns similarly high scores to both hair-loss conditions (alopecia, hypotrichosis) and a hair-*excess* condition (hypertrichosis) — physiologically opposite directions. The pack's own rationale for rank 6 attributes this to a likely knowledge-graph clustering artifact around a shared "skin appendage" disease-embedding neighborhood rather than a genuine pharmacological signal. None of the 10 predicted indications have clinical trial support, and only two (open-angle glaucoma, and a periodontal malformation syndrome) returned any literature at all — and in both cases the retrieved literature does not actually concern Naphazoline itself.
-
----
+The other top-ranked predictions show the same pattern: all are model-only (L5) and none has a supporting mechanism. They include congenital hypotrichosis milia, diffuse alopecia areata, alopecia, hypertrichosis, open-angle glaucoma and primary hereditary glaucoma. Alopecia areata is autoimmune (JAK/IFN-gamma driven) and naphazoline has no known immunomodulatory action. For the two glaucoma predictions, naphazoline can cause mydriasis and carries an angle-closure risk in narrow-angle eyes, so harm is more likely than benefit.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
 
----
+## Singapore Market Information
+
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN03722P | NAZAL SPRAY | Spray | Sato Pharmaceutical Co Ltd |
+| SIN07343P | FLUCUR NEBULISER | Spray | Shigaken Pharm Ind Co Ltd |
+| SIN04717P | NAPHCON-A STERILE OPHTHALMIC SOLUTION | Solution | Alcon Singapore Manufacturing Pte. Ltd. |
+
+The approved indication text is not recorded in the registration data for these products.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
----
+Please refer to the package insert for safety information. No drug interaction records were found.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked predicted indication (hypotrichosis simplex of the scalp) has no supporting clinical trials or literature and no plausible mechanistic link — it is a model score only (L5). The drug is also not currently marketed in Taiwan (0 registrations), and a Blocking data gap on TFDA label warnings/contraindications means safety cannot yet be assessed.
+The prediction rests on a model score alone (L5). There are no trials or publications, and the drug's vasoconstrictor action does not support a hair-growth benefit.
 
 **To proceed, the following is needed:**
-- Confirmed DrugBank/TFDA mechanism-of-action data for Naphazoline
-- TFDA label (warnings, contraindications) to close the Blocking data gap
-- Independent pharmacological or preclinical evidence linking α-adrenergic agonism to hair follicle biology before further investment in this indication
-- Re-evaluation of lower-ranked candidates (e.g., open-angle glaucoma) only if drug-specific literature can be located, since current hits are off-target
+- Package insert warnings and contraindications from the HSA (blocking for safety screening)
+- Detailed mechanism of action data (for example, from DrugBank)
+- Any preclinical or clinical evidence linking naphazoline to scalp hair growth; without it, re-evaluation is not warranted
+- Confirmation of the approved indications for the three registered products
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -29,13 +29,13 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Pegaspargase: From Acute Lymphoblastic Leukemia to Precursor Lymphoblastic Lymphoma/Leukemia
+# Pegaspargase: From an Unrecorded Original Indication to Precursor Lymphoblastic Lymphoma/Leukemia
 
 ## One-Sentence Summary
 
-Pegaspargase is a pegylated asparaginase enzyme with an established role in multi-agent chemotherapy for acute lymphoblastic leukemia (ALL), as documented in the clinical literature reviewed for this candidate.
-The TxGNN model predicts it may be effective for **precursor lymphoblastic lymphoma/leukemia**, essentially the same disease biology as its known core indication,
-with **50 clinical trials** and **20 publications** currently supporting this direction.
+Pegaspargase (Oncaspar) is a long-acting, pegylated form of E. coli-derived L-asparaginase. The Singapore registration record does not state its original indication.
+The TxGNN model predicts it may be effective for **precursor lymphoblastic lymphoma/leukemia**, with **50 clinical trials** and **20 publications** retrieved for this direction.
+This is probably an on-label use of an established backbone agent for acute lymphoblastic leukemia (ALL) rather than true repurposing, so the label status should be verified.
 
 ---
 
@@ -43,38 +43,42 @@ with **50 clinical trials** and **20 publications** currently supporting this di
 
 | Item | Content |
 |------|------|
-| Original Indication | Acute Lymphoblastic Leukemia (ALL) — established use as part of multi-agent chemotherapy, per cited literature; no local Singapore license data available |
+| Original Indication | Not stated in the Singapore registration record |
 | Predicted New Indication | Precursor lymphoblastic lymphoma/leukemia |
 | TxGNN Prediction Score | 99.96% |
 | Evidence Level | L1 |
-| Singapore Market Status | ✗ Not marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action (MOA) data is not available from DrugBank for this candidate. Based on known information, Pegaspargase is a pegylated form of *E. coli*-derived L-asparaginase and is part of the asparaginase drug class used in multi-agent chemotherapy regimens for acute lymphoblastic leukemia; its efficacy in ALL has been proven in numerous Phase 3 trials, and mechanistically it is directly applicable to precursor lymphoblastic lymphoma/leukemia.
+Currently, detailed mechanism of action data is not available in the input. The mechanism below comes from the pack's repurposing rationale and the retrieved literature. Pegaspargase depletes circulating asparagine. Lymphoblasts express little asparagine synthetase and depend on external asparagine, so they are selectively vulnerable. This is the established mechanism in ALL, and asparaginase is a core component of multi-agent ALL regimens.
 
-The core, well-characterized mechanism underlying this prediction is that precursor (B- or T-lineage) lymphoblasts lack sufficient endogenous asparagine synthetase and therefore cannot synthesize adequate asparagine to survive. Pegaspargase depletes circulating asparagine, selectively inducing apoptosis in these asparagine-dependent lymphoblasts. Because "precursor lymphoblastic lymphoma/leukemia" and "acute lymphoblastic leukemia" describe overlapping/closely related disease biology, this is best understood not as a novel repurposing hypothesis but as a direct extension of the drug's existing standard-of-care role — which is precisely why the supporting evidence base is unusually strong (L1) compared with the drug's other TxGNN-predicted indications (most of which are Hold-level, L5, with no supporting trials or literature).
+The predicted indication overlaps almost entirely with a disease where pegaspargase is already a standard backbone agent. Pediatric and pediatric-inspired adult regimens include it (for example the GIMEMA LAL1913 protocol in adults). The high TxGNN score is therefore plausible. Because the original-indication field is empty, this looks like a data gap, and the candidate is probably on-label rather than repurposed.
+
+Pegaspargase's role in many of the retrieved trials is inferred from trial titles and the literature. Trial records do not confirm it in every case.
 
 ---
 
 ## Clinical Trial Evidence
 
+Ten of the 50 retrieved trials are shown, prioritising those that name pegaspargase or PEG-asparaginase.
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00103285](https://clinicaltrials.gov/study/NCT00103285) | Phase 3 | Completed | 5377 | Randomized comparison of combination chemotherapy regimens in newly diagnosed standard-risk B-precursor ALL |
-| [NCT00967057](https://clinicaltrials.gov/study/NCT00967057) | Phase 3 | Completed | 470 | ALLR3 international collaborative trial; combination chemotherapy incl. PEG-asparaginase backbone for relapsed/refractory ALL |
-| [NCT01117441](https://clinicaltrials.gov/study/NCT01117441) | Phase 3 | Completed | 6136 | International collaborative treatment protocol comparing combination chemotherapy regimens in children/adolescents with ALL |
-| [NCT01190930](https://clinicaltrials.gov/study/NCT01190930) | Phase 3 | Active, not recruiting | 9350 | Risk-adapted chemotherapy regimens in newly diagnosed standard-risk B-ALL or localized B-lineage lymphoblastic lymphoma |
-| [NCT03914625](https://clinicaltrials.gov/study/NCT03914625) | Phase 3 | Active, not recruiting | 6720 | Blinatumomab plus chemotherapy (incl. pegaspargase) in newly diagnosed standard-risk B-ALL/B-lymphoblastic lymphoma |
-| [NCT00819351](https://clinicaltrials.gov/study/NCT00819351) | Phase 3 | Completed | 650 | NOPHO protocol comparing intermittent vs. continuous PEG-asparaginase dosing for asparagine depletion |
-| [NCT00671034](https://clinicaltrials.gov/study/NCT00671034) | Phase 3 | Completed | 166 | Calaspargase pegol vs. pegaspargase combined with chemotherapy in high-risk ALL |
-| [NCT05602194](https://clinicaltrials.gov/study/NCT05602194) | Phase 3 | Recruiting | 440 | Levocarnitine prophylaxis to prevent asparaginase-associated hepatotoxicity in AYA ALL/LL/MPAL patients |
-| [NCT01769209](https://clinicaltrials.gov/study/NCT01769209) | Phase 2 | Completed | 18 | Bortezomib added to chemotherapy (VXLD) for relapsed/refractory adult ALL |
-| [NCT05192889](https://clinicaltrials.gov/study/NCT05192889) | Phase 1/2 | Active, not recruiting | 35 | Venetoclax + navitoclax combination in relapsed/refractory pediatric ALL/lymphoma |
+| [NCT00671034](https://clinicaltrials.gov/study/NCT00671034) | Phase 3 | Completed | 166 | Randomized comparison of calaspargase pegol vs pegaspargase with chemotherapy in newly diagnosed high-risk ALL |
+| [NCT00819351](https://clinicaltrials.gov/study/NCT00819351) | Phase 3 | Completed | 650 | NOPHO protocol: intermittent vs continuous PEG-asparaginase, event-free survival as the endpoint |
+| [NCT00103285](https://clinicaltrials.gov/study/NCT00103285) | Phase 3 | Completed | 5377 | Randomized chemotherapy regimens in standard-risk B-ALL; pegaspargase inclusion is inferred, not named in the title |
+| [NCT00187083](https://clinicaltrials.gov/study/NCT00187083) | Phase 3 | Completed | 40 | Native E. coli/Erwinia asparaginase vs PEG-asparaginase during induction in relapsed/refractory childhood ALL |
+| [NCT00866307](https://clinicaltrials.gov/study/NCT00866307) | Phase 1 | Completed | 104 | Pilot of intensified pegaspargase plus combination chemotherapy in newly diagnosed high-risk ALL; focus on side effects |
+| [NCT00184041](https://clinicaltrials.gov/study/NCT00184041) | Phase 2 | Completed | 47 | Intensified post-remission therapy containing PEG-asparaginase in newly diagnosed adult ALL |
+| [NCT00973752](https://clinicaltrials.gov/study/NCT00973752) | Phase 2 | Completed | 30 | Multi-drug regimen plus PEG-asparaginase and clofarabine in older adults with ALL |
+| [NCT00905034](https://clinicaltrials.gov/study/NCT00905034) | Phase 2 | Completed | 37 | MOAD (methotrexate, vincristine, pegylated L-asparaginase, dexamethasone) as salvage therapy in ALL |
+| [NCT03318419](https://clinicaltrials.gov/study/NCT03318419) | Phase 2 | Unknown | 50 | Cladribine + G-CSF + low-dose cytarabine + pegaspargase in relapsed/refractory ALL |
+| [NCT00439296](https://clinicaltrials.gov/study/NCT00439296) | Phase 1/2 | Terminated | 9 | ABT-751 with dexamethasone, PEG-asparaginase and doxorubicin in relapsed ALL; stopped early, limited value |
 
 ---
 
@@ -82,22 +86,24 @@ The core, well-characterized mechanism underlying this prediction is that precur
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [34228505](https://pubmed.ncbi.nlm.nih.gov/34228505/) | 2021 | Cohort/comparative | J Clin Oncol | DFCI 11-001: efficacy/toxicity comparison of calaspargase pegol vs. standard pegaspargase in childhood ALL |
-| [37276451](https://pubmed.ncbi.nlm.nih.gov/37276451/) | 2023 | Cohort (risk-adapted program) | Blood Advances | GIMEMA LAL1913: pegaspargase added to pediatric-inspired regimen in adult Ph− ALL/LL |
-| [27114587](https://pubmed.ncbi.nlm.nih.gov/27114587/) | 2016 | RCT (COG) | J Clin Oncol | AALL0232: dexamethasone and high-dose methotrexate improve outcomes in high-risk B-ALL |
-| [40109190](https://pubmed.ncbi.nlm.nih.gov/40109190/) | 2025 | Expert consensus | Haematologica | Panel consensus on recognition/prevention/management of asparaginase-associated adverse events in adult ALL |
-| [39322712](https://pubmed.ncbi.nlm.nih.gov/39322712/) | 2024 | Phase 2 follow-up | Leukemia | Long-term follow-up of venetoclax + hyper-CVAD/nelarabine/pegylated asparaginase in T-ALL/LBL |
-| [32813610](https://pubmed.ncbi.nlm.nih.gov/32813610/) | 2020 | RCT (COG AALL0434) | J Clin Oncol | Phase III trial testing nelarabine in newly diagnosed T-ALL |
-| [35271306](https://pubmed.ncbi.nlm.nih.gov/35271306/) | 2022 | Phase III trial (COG AALL1231) | J Clin Oncol | Bortezomib added to chemotherapy in newly diagnosed T-ALL/T-LL |
-| [31030380](https://pubmed.ncbi.nlm.nih.gov/31030380/) | 2019 | Review | Drugs | Pegaspargase review: approved in USA/EU as component of multi-agent chemotherapy for ALL |
-| [40163215](https://pubmed.ncbi.nlm.nih.gov/40163215/) | 2025 | Phase 2 multicenter | Int J Hematol | Efficacy, safety and PK of lyophilized pegaspargase in Japanese patients with previously untreated ALL |
-| [31977001](https://pubmed.ncbi.nlm.nih.gov/31977001/) | 2020 | Review | Blood | "How I treat" review on managing pegasparaginase toxicities in adults with ALL |
+| [35271306](https://pubmed.ncbi.nlm.nih.gov/35271306/) | 2022 | RCT | J Clin Oncol | COG AALL1231 phase III: bortezomib in newly diagnosed T-ALL/lymphoma; pegaspargase is background chemotherapy, not the tested variable |
+| [32813610](https://pubmed.ncbi.nlm.nih.gov/32813610/) | 2020 | RCT | J Clin Oncol | COG AALL0434 phase III: nelarabine in newly diagnosed T-ALL; same background-therapy caveat |
+| [27114587](https://pubmed.ncbi.nlm.nih.gov/27114587/) | 2016 | RCT | J Clin Oncol | COG AALL0232: dexamethasone and high-dose methotrexate in high-risk B-ALL; same background-therapy caveat |
+| [34228505](https://pubmed.ncbi.nlm.nih.gov/34228505/) | 2021 | Cohort | J Clin Oncol | DFCI 11-001: efficacy and toxicity of pegaspargase vs calaspargase pegol in childhood ALL |
+| [37276451](https://pubmed.ncbi.nlm.nih.gov/37276451/) | 2023 | Prospective trial | Blood Adv | GIMEMA LAL1913: pegaspargase 2000 IU/m² added to a risk-oriented 8-block adult Ph-negative ALL protocol |
+| [39322712](https://pubmed.ncbi.nlm.nih.gov/39322712/) | 2024 | Phase 2 follow-up | Leukemia | Long-term follow-up of hyper-CVAD with nelarabine and pegylated asparaginase, with venetoclax added later, in T-ALL/lymphoma |
+| [40163215](https://pubmed.ncbi.nlm.nih.gov/40163215/) | 2025 | Phase 2 | Int J Hematol | Lyophilized pegaspargase in Japanese patients with previously untreated ALL: efficacy, safety and pharmacokinetics |
+| [31030380](https://pubmed.ncbi.nlm.nih.gov/31030380/) | 2019 | Review | Drugs | Pegaspargase in ALL: longer circulation time than native asparaginase, allowing less frequent dosing |
+| [31977001](https://pubmed.ncbi.nlm.nih.gov/31977001/) | 2020 | Review | Blood | Practical management of pegasparaginase toxicities in adults with ALL |
+| [40109190](https://pubmed.ncbi.nlm.nih.gov/40109190/) | 2025 | Expert consensus | Haematologica | Recognition, prevention and management of asparaginase/pegaspargase adverse events in adult ALL |
 
 ---
 
 ## Singapore Market Information
 
-Pegaspargase currently has **no registered license in Singapore** (market status: not marketed; 0 registrations on file). No product/authorization details are available to tabulate.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN16408P | ONCASPAR POWDER FOR SOLUTION FOR INJECTION/INFUSION 750 U/ML | Injection, powder, lyophilized, for solution | Not stated in the registration record |
 
 ---
 
@@ -105,17 +111,26 @@ Pegaspargase currently has **no registered license in Singapore** (market status
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (asparagine-depleting antineoplastic enzyme) |
-| Myelosuppression Risk | Low as a direct effect of asparaginase itself (it is not a DNA-damaging cytotoxic); however, it is routinely combined with myelosuppressive multi-agent regimens, so overall regimen-level myelosuppression risk is significant |
-| Emetogenicity Classification | Low to moderate |
-| Monitoring Items | Liver function tests, lipase/amylase (pancreatitis risk), coagulation panel (fibrinogen, antithrombin — thrombosis/hemorrhage risk), triglycerides (hypertriglyceridemia), hypersensitivity monitoring during/after infusion, CBC per combination regimen |
-| Handling Protection | Yes — standard cytotoxic drug handling precautions required |
+| Cytotoxicity Classification | Enzyme-based antineoplastic (asparagine depletion), used within multi-agent cytotoxic chemotherapy |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Literature-reported toxicities point to liver function, triglycerides and lipids, pancreatic enzymes, and coagulation parameters; confirm against the package insert |
+| Handling Protection | Please refer to the package insert and institutional hazardous-drug handling policy |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Toxicities reported in the retrieved literature:**
+  - Hypersensitivity, including anaphylaxis and silent inactivation.
+  - Pancreatitis.
+  - Thrombosis.
+  - Hepatotoxicity.
+  - Hypertriglyceridemia.
+  - Risk is age-dependent, with adults and adolescents/young adults more affected than young children.
+  - Obesity is also associated with higher hepatotoxicity risk.
+
+Formal warnings, contraindications and drug-interaction data were not retrieved. Please refer to the package insert for safety information.
 
 ---
 
@@ -124,13 +139,21 @@ Please refer to the package insert for safety information.
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The predicted indication (precursor lymphoblastic lymphoma/leukemia) is supported by multiple completed and ongoing Phase 3 trials with large enrollments and a substantial published literature base, reflecting the drug's already-established mechanistic and clinical role in ALL-spectrum disease (L1 evidence). However, Pegaspargase has no current market authorization in Singapore and this evidence pack lacks local safety labeling (warnings/contraindications) and confirmed MOA data.
+Multiple completed Phase 3 trials and pegaspargase-specific studies support its use in ALL, and the mechanism is well established. It is probably an on-label use rather than a new indication, and it carries well-known asparaginase toxicities.
 
 **To proceed, the following is needed:**
-- HSA-recognized product labeling / package insert (warnings and contraindications) — flagged as a blocking data gap
-- Confirmed mechanism of action data from DrugBank or equivalent source
-- Local regulatory pathway assessment given the drug is not currently marketed in Singapore
-- Drug interaction (DDI) data, currently unavailable ("not_found")
+- Confirm the approved indication from the HSA package insert. The original-indication field is empty in the input.
+- Obtain the HSA package insert warnings and contraindications, which currently block formal safety screening.
+- Obtain mechanism of action data from DrugBank.
+- Confirm pegaspargase's actual role in each retrieved trial from the trial records. Several are inferred from titles.
+- Define a toxicity monitoring plan covering hypersensitivity, pancreatitis, thrombosis, hepatotoxicity and lipids, with age-adjusted dosing in adults.
+
+**Other predictions in this pack (not evaluated in detail above):**
+- Rank 5, acute lymphoblastic leukemia, duplicates this indication (L1, Proceed with Guardrails).
+- Rank 7, lymphoid neoplasm, is an umbrella term whose evidence is all ALL-derived.
+- Rank 8, Hodgkin lymphoma, has no Hodgkin-specific evidence. The pegaspargase evidence retrieved is in NK/T-cell lymphoma, which should be assessed as a separate indication.
+- Ranks 2, 3, 4, 6 and 9 (CLL/SLL variants, follicular lymphoma, cblE deficiency) are computational predictions only and are probably false positives (Hold).
+- Rank 10, blast-phase CML, has only indirect evidence (Hold).
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

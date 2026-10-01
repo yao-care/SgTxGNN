@@ -29,64 +29,71 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sitagliptin: From Type 2 Diabetes Mellitus to Opsismodysplasia
+# Sitagliptin: From Type 2 Diabetes to Opsismodysplasia
 
 ## One-Sentence Summary
 
-Sitagliptin is a DPP-4 inhibitor globally used to manage type 2 diabetes mellitus (T2DM) by prolonging incretin (GLP-1/GIP) activity.
-The TxGNN model's top-ranked prediction for this drug is **Opsismodysplasia**, a rare skeletal dysplasia,
-but this candidate is currently supported by **0 clinical trials** and **0 publications**, and the evidence pack itself flags the mechanistic link as unproven.
+Sitagliptin is a DPP-4 inhibitor used to improve blood sugar control; its approved-indication text is not recorded in the Singapore licence data supplied. The TxGNN model predicts it may be effective for **opsismodysplasia**, a rare skeletal dysplasia. There are currently **0 clinical trials** and **0 publications** supporting this prediction, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Type 2 Diabetes Mellitus (globally established use; not registered in Singapore, so a local approved-indication text is unavailable) |
+| Original Indication | Type 2 diabetes (general drug knowledge; not stated in the supplied licence records) |
 | Predicted New Indication | Opsismodysplasia |
 | TxGNN Prediction Score | 98.87% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 20 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for sitagliptin is not available in this evidence pack (flagged as a High-severity data gap). Based on general pharmacological knowledge, sitagliptin belongs to the DPP-4 inhibitor (gliptin) class, which works by blocking the breakdown of incretin hormones (GLP-1, GIP) to enhance glucose-dependent insulin secretion — its efficacy in type 2 diabetes is well established.
+Currently, detailed mechanism of action data is not available in the record. Sitagliptin is a DPP-4 inhibitor that raises incretin levels, and its efficacy in glycaemic control is well established.
 
-Opsismodysplasia, however, is a rare genetic skeletal dysplasia caused by mutations in *INPPL1*, affecting bone growth and development. Per the evidence pack's own mechanistic assessment, **there is no known biological connection** between DPP-4 inhibition/incretin signaling and the *INPPL1*-driven skeletal pathway. The high TxGNN score is most likely an artifact of the knowledge-graph embedding space — sitagliptin and opsismodysplasia may share indirect neighboring nodes (e.g., through metabolic/endocrine pathways) without any genuine pharmacological rationale.
+No plausible mechanistic link to the new indication was found. Opsismodysplasia is a rare skeletal dysplasia (INPPL1-related), and nothing connects incretin enhancement to bone or cartilage development. The high score (0.989) is a graph-based prediction only, probably driven by shared neighbours in the knowledge graph.
 
-In short, this is a case where a high model confidence score does **not** translate into mechanistic plausibility. It should be treated as a research hypothesis to be interrogated (and likely deprioritized), not as an actionable repurposing lead.
+The other top predictions (stiff person syndrome, several lipodystrophies, autoimmune oophoritis) are also L5 with no trials or literature. The one exception is pancreatic agenesis, which has indirect literature (type 2 diabetes, beta-cell function, animal models) but no study in the condition itself. Its mechanism is also implausible, because sitagliptin depends on functioning beta cells.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Sitagliptin is currently **not registered in the Singapore market** (0 authorizations on file). No product license, dosage form, or approved-indication information is available from local regulatory data at this time.
+Twenty registrations exist. The five main ones are listed below.
+
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN13259P | JANUVIA™ 25mg tablet | Tablet | Organon Pharma (UK) Limited |
+| SIN17122P | Sitagliptin Sandoz Film Coated Tablet 100mg | Film-coated tablet | Sandoz Private Limited |
+| SIN17162P | Sitavitae Film-Coated Tablets 100 mg | Film-coated tablet | SAG Manufacturing S.L.U. |
+| SIN17192P | Pansiptin Film Coated Tablets 100mg | Film-coated tablet | SAG Manufacturing, S.L.U. |
+| SIN17194P | Pansiptin Film Coated Tablets 25mg | Film-coated tablet | SAG Manufacturing, S.L.U. |
+
+All registered forms are oral (tablet, film-coated tablet, and extended-release film-coated tablet).
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-*(Note: Key warnings, contraindications, and drug–drug interaction data are all marked as data gaps in the current evidence pack — including the TFDA/HSA label review, which is flagged as a Blocking-severity gap. This must be resolved before any safety evaluation can proceed.)*
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (Opsismodysplasia) has a high TxGNN score but zero clinical or literature evidence, and the pack's own mechanistic review finds no credible biological link to sitagliptin's DPP-4/incretin mechanism — this pattern is consistent with a spurious knowledge-graph association rather than a genuine repurposing signal. Note also that a lower-ranked candidate (pancreatic agenesis, rank 6) has L4-level literature support, but that evidence concerns beta-cell function/pancreatic histology in diabetic patients, not the congenital organogenesis defect the disease label implies — a label–literature mismatch that also requires manual curation before use.
+The prediction has no clinical, registry or literature support, and no plausible mechanism links DPP-4 inhibition to opsismodysplasia. A high model score alone is not sufficient to justify further investment.
 
 **To proceed, the following is needed:**
-- Resolve Blocking data gap DG001: obtain and parse the drug's official label (warnings/contraindications) from the regulatory source before any safety screening (S1) can occur
-- Resolve High-severity data gap DG002: confirm mechanism of action via DrugBank API to support proper mechanistic-relevance analysis
-- Manual review of the KG disease-node mapping for "opsismodysplasia" and "pancreatic agenesis" to rule out label mismatch
-- If pursuing further, prioritize candidates with at least preliminary mechanistic or preclinical support over rank-1 by score alone
+- Any supporting evidence (case reports, preclinical data or registered trials) linking sitagliptin or DPP-4 inhibition to opsismodysplasia
+- A plausible mechanistic rationale, for example via INPPL1 or skeletal development pathways
+- Detailed mechanism of action data (MOA) from DrugBank
+- Singapore package insert warnings and contraindications from HSA, which are required before any safety screening
+- Approved-indication text for the Singapore registrations
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

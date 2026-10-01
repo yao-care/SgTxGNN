@@ -33,84 +33,80 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-> Sulbactam is a β-lactamase inhibitor with minimal antibacterial activity on its own, used clinically in combination with ampicillin (and other β-lactams) to restore efficacy against β-lactamase-producing bacteria.
-> The TxGNN model predicts it may be effective for **Bacterial Arthritis**,
-> with **no registered clinical trials** but **20 supporting publications** (including one RCT and several comparative cohort studies) currently identified for this direction.
-
----
+Sulbactam is a beta-lactamase inhibitor, marketed in Singapore as the ampicillin/sulbactam product UNASYN, used against bacterial infections.
+The TxGNN model predicts it may be effective for **bacterial arthritis**, with **no registered clinical trials** and **20 publications**.
+Only a few of those publications directly address sulbactam in joint infection. Most are small, old studies, reviews, or case reports.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections, used in combination with ampicillin as a β-lactamase inhibitor (specific TFDA/HSA-approved indication text not available — drug is not registered in Singapore) |
-| Predicted New Indication | Bacterial Arthritis |
+| Original Indication | Not stated in the HSA records. UNASYN is an ampicillin/sulbactam antibacterial injection. |
+| Predicted New Indication | Bacterial arthritis |
 | TxGNN Prediction Score | 99.79% |
 | Evidence Level | L3 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 3 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for sulbactam alone is not available in DrugBank. Based on known pharmacology, sulbactam is an irreversible β-lactamase inhibitor that is almost always co-administered with ampicillin (as ampicillin/sulbactam, or the oral prodrug sultamicillin). It has minimal intrinsic antibacterial activity but restores the effectiveness of ampicillin against β-lactamase-producing organisms such as *Staphylococcus aureus*, *Haemophilus influenzae*, and various Enterobacteriaceae.
+Currently, detailed mechanism of action data is not available. Based on known information, sulbactam is a beta-lactamase inhibitor that is combined with ampicillin. By blocking beta-lactamase enzymes, it restores ampicillin activity against resistant bacteria such as *Staphylococcus aureus* and Gram-negative bacilli. Its efficacy in other bacterial infections is established, and mechanistically it may be applicable to joint infection.
 
-Bacterial (septic) arthritis is an infection requiring prompt, broad-spectrum empirical antibiotic coverage, frequently caused by β-lactamase-producing organisms — exactly the pathogen population that ampicillin/sulbactam was designed to cover. This is therefore best understood as an extension of an already well-established antibacterial indication (skeletal/soft-tissue infections) rather than a novel mechanistic hypothesis.
-
-An important caveat: the evidence pack notes that sulbactam's `original_indications` field is empty (data gap), and essentially all clinical evidence identified is for the **ampicillin/sulbactam combination**, not sulbactam monotherapy. This attribution ambiguity should be kept in mind when interpreting the strength of this prediction.
-
----
+Bacterial (septic) arthritis is caused by exactly these organisms, so the link is plausible. However, direct clinical data in joint infection are sparse. The records also list no original indication for the drug, so the relationship between the old and new indications is inferred from the product type rather than from approved labeling.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
+
+Only the 10 most relevant of the 20 publications are listed. The abstracts available were truncated, so details below are limited to what they state.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [2677956](https://pubmed.ncbi.nlm.nih.gov/2677956/) | 1989 | RCT | Pediatric Infectious Disease Journal | Randomized 2:1 comparison of ampicillin/sulbactam vs. ceftriaxone in 105 children with soft-tissue infection, suppurative arthritis, or osteomyelitis; ampicillin/sulbactam group covered common pathogens including *S. aureus* and *S. pyogenes* |
-| [3026018](https://pubmed.ncbi.nlm.nih.gov/3026018/) | 1986 | Cohort (sequential therapy trial) | Reviews of Infectious Diseases | 9 children with osteomyelitis/septic arthritis treated with sequential IV sulbactam/ampicillin then oral sultamicillin; all isolated pathogens susceptible, adequate serum bactericidal titers achieved |
-| [3026009](https://pubmed.ncbi.nlm.nih.gov/3026009/) | 1986 | Cohort (open comparative trial) | Reviews of Infectious Diseases | Open randomized comparison of sulbactam/ampicillin vs. cefotaxime for serious bone, joint, and soft-tissue infections; clinical cure/improvement in all 13 sulbactam/ampicillin patients at 2 weeks post-therapy |
-| [39193962](https://pubmed.ncbi.nlm.nih.gov/39193962/) | 2024 | Cohort (pathogen surveillance) | Clinical Laboratory | Analysis of pathogen distribution and antimicrobial resistance in bone and joint infections among young children, informing empirical antibiotic selection |
-| [36804370](https://pubmed.ncbi.nlm.nih.gov/36804370/) | 2023 | Review | International Journal of Antimicrobial Agents | Review of off-label and formal antibiotic use (including β-lactam/β-lactamase inhibitor combinations) for MDR/XDR bacterial infections |
-| [16269877](https://pubmed.ncbi.nlm.nih.gov/16269877/) | 2005 | Review | Acta Orthopaedica et Traumatologica Turcica | Review of septic arthritis diagnosis and initial antibiotic treatment protocols in children and adults |
-| [6094857](https://pubmed.ncbi.nlm.nih.gov/6094857/) | 1984 | Clinical study | The Japanese Journal of Antibiotics | Pediatric clinical study of sulbactam/cefoperazone including a case of acute purulent knee arthritis; 100% overall efficacy rate reported |
-| [3252119](https://pubmed.ncbi.nlm.nih.gov/3252119/) | 1988 | Clinical trial | Mikrobiyoloji Bulteni | 84 patients with various infections including 5 cases of septic arthritis/osteomyelitis treated with parenteral ampicillin/sulbactam, with favorable clinical and microbiological outcomes |
-| [9263167](https://pubmed.ncbi.nlm.nih.gov/9263167/) | 1997 | Case Report | The Journal of Rheumatology | *Pasteurella multocida* infectious arthritis after cat bite successfully treated with ampicillin/sulbactam plus joint aspiration and intra-articular steroids |
-| [36550469](https://pubmed.ncbi.nlm.nih.gov/36550469/) | 2022 | Case Report | BMC Infectious Diseases | Septic arthritis case caused by rare pathogen *Ureaplasma parvum*, complicated by hyperammonemia, illustrating diagnostic and treatment challenges in atypical septic arthritis |
-
----
+| [2677956](https://pubmed.ncbi.nlm.nih.gov/2677956/) | 1989 | Randomized comparative study | Pediatr Infect Dis J | Ampicillin/sulbactam vs ceftriaxone in 125 hospitalized children (84 vs 41). Mostly soft tissue infection, with 11 suppurative arthritis and 9 osteomyelitis cases. |
+| [3026009](https://pubmed.ncbi.nlm.nih.gov/3026009/) | 1986 | Open randomized comparative study | Rev Infect Dis | Sulbactam/ampicillin (13 patients) vs cefotaxime (9 patients) for bone, joint and soft-tissue infections. All 13 sulbactam/ampicillin patients were reported cured or improved at two weeks after therapy. |
+| [3026018](https://pubmed.ncbi.nlm.nih.gov/3026018/) | 1986 | Clinical study | Rev Infect Dis | Nine children with osteomyelitis and/or septic arthritis were treated sequentially with parenteral sulbactam/ampicillin and oral sultamicillin. All identified pathogens were susceptible to the combination. |
+| [3252119](https://pubmed.ncbi.nlm.nih.gov/3252119/) | 1988 | Clinical trial | Mikrobiyol Bul | Parenteral ampicillin/sulbactam in 84 patients with various infections, including 5 with septic arthritis and osteomyelitis. |
+| [9263167](https://pubmed.ncbi.nlm.nih.gov/9263167/) | 1997 | Case report | J Rheumatol | *Pasteurella multocida* infectious arthritis after a cat bite. Resolved with ampicillin/sulbactam, joint aspiration and intra-articular steroids. |
+| [6094857](https://pubmed.ncbi.nlm.nih.gov/6094857/) | 1984 | Clinical study | Jpn J Antibiot | Sulbactam/cefoperazone (a different partner drug) in 11 children, including 1 with acute purulent knee arthritis. |
+| [1745624](https://pubmed.ncbi.nlm.nih.gov/1745624/) | 1991 | In vitro comparison and review | Pharmacotherapy | Compares ampicillin-sulbactam and ticarcillin-clavulanate. Sulbactam extends ampicillin activity to some beta-lactamase-producing aerobes and anaerobes. |
+| [36804370](https://pubmed.ncbi.nlm.nih.gov/36804370/) | 2023 | Review | Int J Antimicrob Agents | Off-label vs formally recommended use of antibiotics against multidrug-resistant bacteria. Indirect relevance. |
+| [39193962](https://pubmed.ncbi.nlm.nih.gov/39193962/) | 2024 | Retrospective analysis | Clin Lab | Pathogen distribution and antimicrobial resistance in bone and joint infections in children under four. |
+| [16269877](https://pubmed.ncbi.nlm.nih.gov/16269877/) | 2005 | Clinical analysis | Acta Orthop Traumatol Turc | Diagnosis of septic arthritis and development of an initial antibiotic protocol. |
 
 ## Singapore Market Information
 
-Sulbactam has no registered pharmaceutical licenses in Singapore (0 registrations, market status: Not Marketed). No product-level licensing data is available for review.
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN01949P | UNASYN 3000 FOR INJECTION | Powder for solution for injection | Haupt Pharma Latina S.r.L |
+| SIN01948P | UNASYN 1500 FOR INJECTION | Powder for solution for injection | Haupt Pharma Latina S.r.L |
+| SIN01950P | UNASYN 750 FOR INJECTION | Powder for solution for injection | Haupt Pharma Latina S.r.L |
 
----
+The approved indication text is not included in the records provided.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
----
-
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Mechanistic plausibility is strong (β-lactamase inhibition covering typical septic arthritis pathogens) and is supported by one RCT and several comparative cohort studies, but nearly all evidence is decades old, pediatric-focused, and attributable to the ampicillin/sulbactam combination rather than sulbactam alone — consistent with an L3 evidence level rather than confirmatory Phase 3 data.
+The mechanism is plausible, but evidence is limited to small studies from the 1980s, reviews, and case reports. No trials are registered, and the only comparative studies of note enrolled very few joint infection patients. In addition, the package insert safety data are missing, which blocks safety screening.
 
 **To proceed, the following is needed:**
-- TFDA/HSA package insert data (warnings, contraindications) — currently a **Blocking** data gap preventing S1 safety screening
-- DrugBank-sourced mechanism of action (MOA) data for sulbactam specifically — currently a **High**-severity gap affecting mechanistic attribution
-- Clarification of whether this indication should be evaluated for the ampicillin/sulbactam combination product rather than sulbactam as a standalone entity
-- Contemporary clinical trial or susceptibility data to update the largely 1980s–1990s evidence base
-- A Singapore market entry pathway assessment, given the drug currently holds zero local registrations
+- HSA package insert (warnings, contraindications, approved indications)
+- Detailed mechanism of action data (MOA)
+- Full-text review of the 1986 and 1989 comparative studies to verify design and joint-specific outcomes
+- Comparison with current guideline-recommended regimens for septic arthritis
+- Modern comparative or observational data in joint infection
+
+Note that other predicted indications for this drug, including epiglottitis, sinusitis, and infectious otitis media, have somewhat more supporting literature. They may be better candidates to evaluate first.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

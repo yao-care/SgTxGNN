@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Entacapone
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 374
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 ---
 
 # Entacapone
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,78 +29,72 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Entacapone: From Parkinson's Disease to PLA2G6-Associated Neurodegeneration
+# Entacapone: From Parkinson's Disease to PLA2G6-associated Neurodegeneration
 
 ## One-Sentence Summary
 
-Entacapone is a selective, reversible catechol-O-methyltransferase (COMT) inhibitor, used as adjunctive therapy alongside levodopa/carbidopa in Parkinson's disease to reduce "wearing-off" motor fluctuations.
-The TxGNN model predicts it may be effective for **PLA2G6-Associated Neurodegeneration (PLAN)**, with **no clinical trials** and **no publications** currently directly supporting this direction.
-The prediction rests on a mechanistic analogy: PLAN type III presents as early-onset parkinsonism with substantia nigra dopaminergic degeneration — the same dopamine deficit that Entacapone is designed to address.
-
----
+Entacapone is a COMT inhibitor used as an adjunct to levodopa in Parkinson's disease. The TxGNN model predicts it may be effective for **PLA2G6-associated neurodegeneration**, but the prediction is model-only, with **0 clinical trials** and **0 publications** supporting it.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Parkinson's disease (adjunct to levodopa/carbidopa) |
-| Predicted New Indication | PLA2G6-Associated Neurodegeneration (PLAN) |
+|------|------|
+| Original Indication | Parkinson's disease (adjunct to levodopa); the Singapore registration records provide no indication text |
+| Predicted New Indication | PLA2G6-associated neurodegeneration |
 | TxGNN Prediction Score | 99.76% |
-| Evidence Level | L4 |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 8 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known pharmacology, Entacapone is a peripheral and central COMT inhibitor. COMT is the enzyme that methylates and inactivates catecholamines, including dopamine and levodopa. By inhibiting COMT, Entacapone prolongs the plasma and brain half-life of levodopa, enhancing dopaminergic neurotransmission. This mechanism is well-established as adjunctive therapy in Parkinson's disease and is the basis for its repurposing rationale here.
+Detailed mechanism of action data is not available from DrugBank in this evidence pack. Entacapone is a peripheral COMT inhibitor that prolongs levodopa exposure. Its efficacy in Parkinson's disease is established, where it reduces end-of-dose wearing-off.
 
-PLA2G6-Associated Neurodegeneration (PLAN) is a rare autosomal recessive disorder caused by loss-of-function mutations in the *PLA2G6* gene, which encodes Group VI calcium-independent phospholipase A2. PLAN presents across three clinical subtypes; type III (adult-onset dystonia-parkinsonism) is most relevant here, as it features progressive degeneration of dopaminergic neurons in the substantia nigra — pathologically and clinically overlapping with idiopathic Parkinson's disease.
+PLA2G6 variants can cause dystonia-parkinsonism (PARK14). A symptomatic benefit through dopaminergic augmentation is therefore conceivable. This is an analogy only.
 
-The mechanistic link is biologically plausible but indirect. Since PLAN type III patients exhibit the same downstream dopamine deficiency as classical PD, Entacapone could theoretically serve as a levodopa-enhancing adjunct in this subtype, extending levodopa efficacy in patients with proven dopaminergic responsiveness. The plausibility is rated moderate: the mechanism is not specific to the upstream PLA2G6 defect, but rather targets the shared symptomatic endpoint of dopamine depletion. No clinical evidence currently substantiates this hypothesis.
-
----
+The disease is dominated by neurodegeneration and brain iron accumulation, which COMT inhibition does not address. The 0.998 score reflects a model prediction, not biological or clinical validation.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Entacapone is not currently registered in Singapore. No approved licences, product names, or authorisation numbers are on record.
+Entacapone is registered as a single agent and in combination with levodopa/carbidopa (Stalevo, Antipar). Eight registrations exist in total; five are listed here. The registration records contain no approved indication text.
 
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN16544P | ENCAPIA Film Coated Tablets 200 mg | Tablet, film coated | Not listed in record |
+| SIN11234P | COMTAN Tablet 200 mg | Tablet, film coated | Not listed in record |
+| SIN13142P | Stalevo Film Coated Tablets 100/25/200 mg | Tablet, film coated | Not listed in record |
+| SIN16957P | ANTIPAR Film Coated Tablet 150/37.5/200 mg | Tablet, film coated | Not listed in record |
+| SIN13141P | Stalevo Film Coated Tablets 150/37.5/200 mg | Tablet, film coated | Not listed in record |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic extrapolation from Parkinson's disease to PLAN type III is scientifically coherent — both conditions share substantia nigra dopaminergic degeneration — but the evidence remains at L4 (theoretical mechanism only), with no clinical trials, no published studies, and no Singapore regulatory footprint to support advancement at this stage.
+The top-ranked prediction has no trials or literature behind it (L5), and the disease's core pathology is not one COMT inhibition would be expected to treat. Package insert warnings are also missing, so safety screening cannot start.
 
 **To proceed, the following is needed:**
-- Confirm dopaminergic deficit in target patients via imaging (DaT-SPECT or [18F]F-DOPA PET) to establish pharmacological target engagement in PLAN type III
-- Document levodopa responsiveness in PLAN type III cases as proof-of-concept before adding Entacapone as an adjunct
-- Complete safety data review: retrieve Entacapone package insert warnings, contraindications, and drug interactions (DrugBank API + TFDA/EMA label)
-- Assess paediatric/young-adult safety profile, given that PLAN type III onset is typically earlier than idiopathic PD
-- Evaluate regulatory pathway: Singapore has zero registrations; a compassionate use or named-patient framework would be required for any clinical application
-- Consider case report or small case series design as the minimum evidence threshold before escalating to a formal research question
+- Obtain the HSA package insert (warnings and contraindications) to enable safety screening.
+- Obtain mechanism of action data from DrugBank.
+- Search for case reports or cohort data on levodopa or COMT-inhibitor response in PLA2G6-related dystonia-parkinsonism (PARK14).
+- Consider re-prioritising other predictions from this list:
+  - **Juvenile parkinsonism (rank 4, "Research Question")**: the mechanistic rationale is strong by analogy with adult Parkinson's disease, but pediatric and juvenile dosing and safety data are lacking.
+  - **Lewy body dementia (rank 7, L4, S1)**: the only retrieved trial is a Phase 1 F-DOPA imaging study, which does not test entacapone efficacy, and dopaminergic agents may worsen psychosis and confusion in dementia, so a specific safety review is needed.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

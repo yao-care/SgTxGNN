@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Bosentan
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 168
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 ---
 
 # Bosentan
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,90 +33,80 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Bosentan is a dual endothelin receptor antagonist (ETA/ETB) originally approved for pulmonary arterial hypertension (PAH), blocking endothelin-1 (ET-1) signalling to reduce vasoconstriction and pathological vascular remodelling.
-The TxGNN model predicts it may be effective for **Rheumatoid Arthritis**, with **1 clinical trial** (indirectly relevant, targeting Giant Cell Arteritis) and **16 publications** currently supporting this direction — though all human evidence is indirect and efficacy in RA remains unproven in a clinical setting.
-
----
+Bosentan is an oral dual endothelin receptor antagonist. Its established use is pulmonary arterial hypertension (PAH), which the Singapore registration record does not state and which is inferred from the supplied literature.
+The TxGNN model predicts it may be effective for **Rheumatoid Arthritis**, but there is **0 clinical trials in RA** and only **animal-model studies** behind the prediction.
+The evidence is weak, and the same drug's evidence in **limited systemic sclerosis** (rank 3) is much stronger.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Pulmonary Arterial Hypertension (PAH) |
-| Predicted New Indication | Rheumatoid Arthritis |
+|------|------|
+| Original Indication | Not stated in the Singapore registration data (PAH is inferred from the supplied literature) |
+| Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 99.80% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 (preclinical only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data was not available in this evidence pack. Based on pharmacological knowledge, Bosentan is a competitive dual antagonist at both ETA and ETB endothelin receptors. By blocking ET-1 — a potent vasoconstrictor and pro-fibrotic mediator — it reduces pulmonary vascular resistance and inhibits pathological remodelling. This is the basis for its established use in PAH and, in several jurisdictions, for prevention of new digital ulcers in systemic sclerosis.
+Detailed mechanism-of-action data is not available in the record. Bosentan is a dual ETA/ETB endothelin receptor antagonist. Endothelin-1 (ET-1) contributes to inflammatory joint pathology and pain sensitisation, and ET-1 levels are raised in the plasma and synovium of RA patients.
 
-The mechanistic bridge to rheumatoid arthritis (RA) depends on the role of ET-1 in joint inflammation. ET-1 concentrations are elevated in both the plasma and synovial membrane of RA patients. Through ETA and ETB receptors, ET-1 upregulates TNF-α, IL-1β, and LTB4, amplifying synovitis and sensitising articular nociceptors. Blocking this axis with bosentan may therefore attenuate TNF-driven joint destruction and reduce inflammatory pain — the rationale proposed by the TxGNN model.
+The strongest support is a 2012 mouse study. Bosentan reduced arthritis severity in collagen-induced arthritis, and the proposed mechanism involves TNF-α driving endothelin-system genes. Two other mouse studies link endothelin to inflammatory arthritis and joint pain. However, most of the remaining literature covers PAH in connective tissue disease, which is only an indirect link.
 
-Preclinical evidence lends modest biological plausibility: a 2012 mouse study (PMID 22249931) showed bosentan ameliorated collagen-induced arthritis (CIA), the most widely used preclinical RA model, by suppressing ET-system gene expression driven by TNF-α. Further animal work confirmed that endothelins modulate neutrophil recruitment and oedema in zymosan-induced arthritis (PMID 18515326), and that an IL-15 → IFN-γ → endothelin → prostaglandin cascade mediates articular hypernociception (PMID 16766656). However, no human randomised controlled trial in RA has been conducted, and RA already has a mature pipeline of biologic DMARDs (TNF inhibitors, IL-6 inhibitors, JAK inhibitors) as guideline-endorsed standard of care.
-
----
+There is no human RA efficacy data in the supplied set. The prediction is a plausible research hypothesis, not a supported treatment.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT06957002](https://clinicaltrials.gov/study/NCT06957002) | Phase 2 | Not Yet Recruiting | 40 | Bosentan + glucocorticoids vs glucocorticoids alone in **Giant Cell Arteritis (GCA)** over 12 months — **Note:** GCA is an autoimmune large-vessel vasculitis, not RA. Overlapping ET-1 pathobiology makes this informative for safety, but it cannot serve as efficacy evidence for RA. |
+|---------|------|------|------|---------|
+| [NCT06957002](https://clinicaltrials.gov/study/NCT06957002) | Phase 2 | Not yet recruiting | 40 | Bosentan plus glucocorticoids vs glucocorticoids alone in **giant cell arteritis**, not RA. Weak, indirect support only. |
 
----
+There are no clinical trials in RA.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [22249931](https://pubmed.ncbi.nlm.nih.gov/22249931/) | 2012 | Animal study (CIA model) | Inflammation Research | Bosentan ameliorated collagen-induced arthritis in mice; TNF-α upregulates ET-system genes in the joint, and dual ETA/ETB blockade reduces joint inflammation and damage — the strongest direct mechanistic evidence available |
-| [18515326](https://pubmed.ncbi.nlm.nih.gov/18515326/) | 2008 | Animal study | Journal of Leukocyte Biology | ET-1 elevated in RA synovium; ETA/ETB signalling drives neutrophil accumulation, oedema, and LTB4/TNF-α/CXCL-1 release in zymosan-induced arthritis model |
-| [16766656](https://pubmed.ncbi.nlm.nih.gov/16766656/) | 2006 | Animal study | PNAS | IL-15 → IFN-γ → endothelin → prostaglandin cascade mediates mechanical hypernociception in mice; dual ETA/ETB receptor antagonism suppressed this pathway — links ET-1 to RA pain pathophysiology |
-| [19969421](https://pubmed.ncbi.nlm.nih.gov/19969421/) | 2010 | Animal study | Pain | IL-17 drives articular hypernociception in antigen-induced arthritis; mechanistic overlap with the ET-1 joint pain sensitisation axis |
-| [20054770](https://pubmed.ncbi.nlm.nih.gov/20054770/) | 2009 | Case report | Kardiologia Polska | Child with Eisenmenger syndrome on bosentan subsequently diagnosed with juvenile RA; bosentan therapy continued without apparent exacerbation of RA — incidental co-existence with limited safety signal |
-| [24268012](https://pubmed.ncbi.nlm.nih.gov/24268012/) | 2014 | Review | Rheum Dis Clin North Am | PAH as complication of connective tissue diseases including RA; reviews ET-1 pathway and bosentan's role in CTD-PAH |
-| [16218473](https://pubmed.ncbi.nlm.nih.gov/16218473/) | 2005 | Review | Lupus | PAH as a complication of RA and other CTDs; ET-1 central to isolated pulmonary arteriopathy; bosentan discussed |
-| [19487226](https://pubmed.ncbi.nlm.nih.gov/19487226/) | 2009 | Review | Rheumatology (Oxford) | ET-1 role in vasculopathy and PAH secondary to SLE and Sjögren's syndrome; provides mechanistic context for endothelin axis in rheumatic disease |
-| [19851110](https://pubmed.ncbi.nlm.nih.gov/19851110/) | 2010 | Review | Current Opinion in Rheumatology | Broad review of rheumatic skin disease; contextualises autoimmune overlap and evolving treatment approaches |
-| [21165350](https://pubmed.ncbi.nlm.nih.gov/21165350/) | 2010 | Review | Canadian Respiratory Journal | Targeted PAH therapies (including bosentan) in CTD patients with and without interstitial lung disease; characterises bosentan's effect profile in the connective tissue disease setting |
+|------|-----|------|---------|---------|
+| [22249931](https://pubmed.ncbi.nlm.nih.gov/22249931/) | 2012 | Preclinical (mouse) | Inflamm Res | Bosentan ameliorated collagen-induced arthritis; TNF-α implicated in inducing endothelin genes |
+| [18515326](https://pubmed.ncbi.nlm.nih.gov/18515326/) | 2008 | Preclinical (mouse) | J Leukoc Biol | Endothelins modulate neutrophil accumulation and edema in zymosan-induced arthritis; ET-1 is raised in RA synovium |
+| [16766656](https://pubmed.ncbi.nlm.nih.gov/16766656/) | 2006 | Preclinical (mouse) | PNAS | IL-15-induced joint pain sensitisation was blocked by a dual ETA/ETB antagonist; not bosentan-specific |
+| [19969421](https://pubmed.ncbi.nlm.nih.gov/19969421/) | 2010 | Preclinical (mouse) | Pain | IL-17 mediates joint pain in antigen-induced arthritis; not bosentan-specific |
+| [20054770](https://pubmed.ncbi.nlm.nih.gov/20054770/) | 2009 | Case report | Kardiol Pol | Girl with Eisenmenger syndrome on bosentan who later developed juvenile RA; no RA benefit shown |
+| [24268012](https://pubmed.ncbi.nlm.nih.gov/24268012/) | 2014 | Review | Rheum Dis Clin North Am | PAH related to connective tissue disease: prognosis and treatment options |
+| [16218473](https://pubmed.ncbi.nlm.nih.gov/16218473/) | 2005 | Review | Lupus | PAH in connective tissue diseases; RA is a less common cause |
+| [19487226](https://pubmed.ncbi.nlm.nih.gov/19487226/) | 2009 | Review | Rheumatology (Oxford) | Vasculopathy and PAH in SLE, Sjögren's and vasculitis |
+| [19851110](https://pubmed.ncbi.nlm.nih.gov/19851110/) | 2010 | Review | Curr Opin Rheumatol | Rheumatic skin disease; only indirectly related |
+| [21165350](https://pubmed.ncbi.nlm.nih.gov/21165350/) | 2010 | Review | Can Respir J | PH treatment in connective tissue disease with interstitial lung disease |
 
----
+There are no RCTs. Most of the set concerns PAH in connective tissue disease, not RA treatment.
 
 ## Singapore Market Information
 
-No Singapore Health Sciences Authority (HSA) registrations were found for Bosentan. The drug is not currently marketed in Singapore.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN15132P | PROART FILM COATED TABLETS 125MG | Tablet, film coated | Not stated in the record |
+| SIN15133P | PROART FILM COATED TABLETS 62.5MG | Tablet, film coated | Not stated in the record |
 
-> **For reference:** Bosentan (Tracleer®) holds approved indications in the EU (EMA) and USA (FDA) for pulmonary arterial hypertension (WHO functional class II–III) and prevention of new digital ulcers in systemic sclerosis. Any future Singapore use would require HSA registration or special access pathways.
-
----
+Both are oral products from Sun Pharmaceutical Industries Limited.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
-> **Note for reviewers:** Safety data (warnings, contraindications, drug interactions) were not available in this evidence pack. Bosentan is known to carry hepatotoxicity risk (requiring monthly LFT monitoring), is a potent teratogen (Category X), and is a CYP3A4/CYP2C9 inducer with clinically significant drug–drug interactions. These should be formally assessed before any clinical repurposing decision. TFDA package insert retrieval is recommended as the next step.
-
----
+Please refer to the package insert for safety information. No drug interaction records were found.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Evidence for bosentan in rheumatoid arthritis rests entirely on preclinical animal models and mechanistic in vitro studies (L4). The only registered clinical trial (NCT06957002) targets Giant Cell Arteritis — not RA — and has not yet begun recruiting. With no human proof-of-concept data in RA, no Singapore market authorisation, and mature biologic DMARDs already available as standard of care, the risk-benefit case for repurposing has not been established.
+The RA prediction rests on mouse arthritis models and indirect PAH literature. There is no RA clinical trial, and the only related trial is in a different disease (giant cell arteritis). For this drug, **limited systemic sclerosis** (evidence level L3, digital ulcers and Raynaud's phenomenon) is a far better-supported candidate. The pack marks it "Proceed with Guardrails" and it deserves separate evaluation.
 
 **To proceed, the following is needed:**
-- A human proof-of-concept study (Phase 2 RCT) in active RA patients assessing ET-1 blockade on top of standard DMARDs, with synovial ET-1 levels as a biomarker endpoint
-- Full safety profile retrieval: TFDA or EMA package insert for hepatotoxicity warnings, teratogenicity risk, and drug–drug interaction profile (CYP3A4/2C9 interactions are particularly relevant in RA polypharmacy)
-- Mechanism of action data from DrugBank (DrugBank ID: DB00559) to formally document the ET-1 → TNF-α / synovitis mechanistic link
-- Comparative benefit–risk analysis against existing RA standard of care (methotrexate, bDMARDs, JAK inhibitors)
-- HSA regulatory pathway assessment for potential Singapore market entry
-- **Note:** Limited systemic sclerosis (TxGNN Rank 3, L2 evidence, EMA-approved in Europe) represents a more immediately actionable repurposing opportunity for this drug; a parallel report on that indication is recommended
+- The HSA package insert with warnings and contraindications (a blocking gap for safety screening)
+- The approved indication text and mechanism-of-action data (DrugBank)
+- Human RA data, such as a pilot or proof-of-concept trial, before any RA development
+- For the systemic sclerosis route, verification of the Phase 3 RCTs behind the 2023 meta-analysis, which could raise the level to L1/L2
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

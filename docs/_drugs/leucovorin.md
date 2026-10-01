@@ -29,73 +29,68 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Leucovorin: From Methotrexate Rescue/Chemotherapy Adjuvant to Primary Hyperoxaluria
+# Leucovorin: From Methotrexate Rescue and Folate Support to Primary Hyperoxaluria
 
 ## One-Sentence Summary
 
-> Leucovorin (folinic acid) is an established rescue agent for methotrexate toxicity and a biochemical modulator used alongside fluorouracil-based chemotherapy; its own novel indications are not recorded in this evidence pack.
-> The TxGNN model predicts it may be effective for **Primary Hyperoxaluria**,
-> but this direction is currently supported by **0 clinical trials** and **0 publications**, and the model's own rationale flags a likely biological implausibility.
-
----
+Leucovorin (folinic acid) is a reduced folate. It is generally used to rescue patients from methotrexate toxicity and to boost 5-FU in chemotherapy, although the Singapore registration data do not state its approved indications.
+The TxGNN model predicts it may be effective for **primary hyperoxaluria**, but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Folinic acid rescue (methotrexate toxicity) / adjuvant to fluorouracil-based chemotherapy (established use; specific registered indication text unavailable — no Singapore license records) |
+| Original Indication | Not stated in the Singapore registration data. General use: methotrexate rescue and 5-FU modulation (based on the evidence pack's rationale text) |
 | Predicted New Indication | Primary hyperoxaluria |
 | TxGNN Prediction Score | 99.41% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 4 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, leucovorin (calcium/levo-folinate) is primarily used clinically as a "rescue" agent following high-dose methotrexate therapy (bypassing dihydrofolate reductase inhibition to restore reduced-folate pools) and as a biochemical modulator that enhances the antitumor activity of 5-fluorouracil in colorectal and gastrointestinal chemotherapy regimens. These established uses are well documented, though the specific approved indication wording could not be extracted here because this drug has no license records in the Singapore registry data provided.
+Currently, detailed mechanism of action data is not available in the evidence pack. Leucovorin is a reduced folate that bypasses dihydrofolate reductase, which is why it can rescue cells from antifolate drugs such as methotrexate.
 
-Primary hyperoxaluria, by contrast, is a rare inherited disorder (AGXT/GRHPR/HOGA1 gene defects) of glyoxylate metabolism that leads to oxalate overproduction and progressive nephrocalcinosis/renal failure. There is no known overlap between the folate/reduced-folate metabolic pathway that leucovorin acts on and the glyoxylate-to-oxalate pathway implicated in this disease.
-
-The evidence pack's own mechanistic assessment for this candidate is explicit on this point: it states there is "no known direct or indirect connection" between leucovorin's pharmacology and oxalate metabolism, and assesses this as a likely **false-positive signal arising from knowledge-graph node proximity** rather than a genuine biological hypothesis. We report this candidate per the ranking, but flag that its biological plausibility is assessed as low by the source data itself — this is reflected in the L5 evidence level (model prediction only, no supporting studies) and the "Hold" recommendation.
-
-For context, this evidence pack evaluated 10 candidate indications for leucovorin in total. Several lower-ranked candidates (e.g., "focal myositis," rank 8; "primary amyloidosis," rank 9) have associated literature or trial records, but those records predominantly describe leucovorin's established supportive role in methotrexate-based regimens (as a toxicity-rescue agent) rather than independent therapeutic activity against those diseases, and were separately flagged as likely ontology/mapping artifacts. None of the 10 ranked candidates in this pack currently reach a level of evidence supporting a "Go" decision.
-
----
+Primary hyperoxaluria is caused by defects in glyoxylate metabolism (AGXT, GRHPR or HOGA1). This is not a folate-dependent pathway, so no clear mechanistic link to leucovorin was identified. The high TxGNN score is a graph-based prediction with no trial or literature to back it, and it should be read as a hypothesis-generating signal only.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
 
----
+## Singapore Market Information
+
+The registration data do not include approved indication text for any of these products.
+
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN11058P | NYRIN INJECTION 50 mg/5 ml | Injection |
+| SIN10318P | NYRIN INJ. 15 mg/ml | Injection |
+| SIN11059P | NYRIN INJECTION 3 mg/ml | Injection |
+| SIN10357P | NYRIN TABLET 15 mg | Tablet |
+
+All four are held by Korea United Pharmaceutical Inc. Both injectable and oral routes are available.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
----
+Please refer to the package insert for safety information. No drug-interaction records were found in the queried source.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite a high TxGNN similarity score (99.41%), there are zero clinical trials and zero publications supporting leucovorin for primary hyperoxaluria, and the model's own rationale identifies no plausible biological mechanism linking leucovorin's folate-pathway pharmacology to oxalate metabolism — this is assessed as a probable graph-proximity false positive rather than a genuine repurposing signal. Additionally, leucovorin has no market registration in Singapore in the data reviewed, and a blocking data gap (missing package-insert warnings/contraindications) prevents even a preliminary safety (S1) assessment.
+The prediction has no supporting trials or literature, and the biochemical rationale is weak because primary hyperoxaluria is not a folate-dependent disorder. The other nine predicted indications are also at L4–L5, with no completed RCT evidence for leucovorin itself. One of them, congenital intrinsic factor deficiency, carries a safety concern: leucovorin can mask B12-deficiency anaemia while neurologic damage progresses.
 
 **To proceed, the following is needed:**
-- Package insert warnings/contraindications for leucovorin (currently a blocking data gap, DG001)
-- Confirmed mechanism of action data (DG002) to properly evaluate mechanistic plausibility
-- Independent biological/preclinical rationale connecting folate metabolism to glyoxylate/oxalate metabolism, if this hypothesis is to be pursued further
-- Confirmation of current Singapore market/registration status for leucovorin, since none was found in this dataset
-- If this candidate is pursued at all, treat it as an exploratory research question rather than a clinical development candidate, given the source data's own assessment of low biological plausibility
+- The HSA package insert (warnings, contraindications and approved indications), which is a blocking gap for safety screening
+- Mechanism of action data from DrugBank, to support any mechanistic-link analysis
+- Expert biochemical review of whether any folate-related link to glyoxylate metabolism exists
+- A systematic search for preclinical or clinical evidence specific to primary hyperoxaluria before re-evaluation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

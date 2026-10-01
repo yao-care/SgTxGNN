@@ -33,73 +33,64 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Ceftaroline fosamil is a fifth-generation cephalosporin antibiotic approved internationally for community-acquired bacterial pneumonia (CABP) and acute bacterial skin and skin structure infections (ABSSSI), though it is not registered in Singapore.
-The TxGNN model predicts it may be effective for **Rheumatoid Arthritis** as the top-ranked indication (score 98.2%), yet this prediction is mechanistically implausible — ceftaroline's sole mechanism is bacterial cell wall inhibition via PBP2a, with no known activity against the autoimmune inflammatory pathways that drive RA.
-There are currently **0 clinical trials** and **0 publications** directly supporting this repurposing direction.
-
----
+Ceftaroline fosamil is an injectable cephalosporin antibiotic, used against serious bacterial infections such as MRSA.
+The TxGNN model predicts it may be effective for **rheumatoid arthritis**,
+but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction is very likely a knowledge-graph artifact.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Community-acquired bacterial pneumonia (CABP); acute bacterial skin and skin structure infections (ABSSSI) |
-| Predicted New Indication | Rheumatoid Arthritis |
+|------|------|
+| Original Indication | Bacterial infections (the Singapore registration record lists no indication text; this is based on the drug's known antibacterial class) |
+| Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 98.20% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Ceftaroline fosamil is a prodrug that is hydrolysed in vivo to its active form, ceftaroline. Its mechanism of action is selective inhibition of penicillin-binding proteins (PBPs), with unique high affinity for PBP2a — the altered transpeptidase expressed by methicillin-resistant *Staphylococcus aureus* (MRSA). This makes ceftaroline the first cephalosporin with meaningful anti-MRSA activity. Its pharmacological action is entirely confined to disruption of bacterial peptidoglycan cross-linking; it has no known interaction with any mammalian signalling pathway.
+Ceftaroline is a cephalosporin that inhibits bacterial cell-wall synthesis by binding penicillin-binding proteins (PBPs), including PBP2a of MRSA. Detailed DrugBank mechanism data is not available in this Evidence Pack, but this is the drug's well-established antibacterial mechanism.
 
-Rheumatoid arthritis is a chronic autoimmune inflammatory disease driven by dysregulation of the adaptive immune system — specifically the TNF-α/IL-6 cytokine axis, Th17/Treg imbalance, and progressive synovial pannus formation. These pathways have no mechanistic overlap with ceftaroline's target: PBP2a is a prokaryotic protein entirely absent in human cells. While certain antibiotics such as minocycline possess secondary immunomodulatory properties that have shown modest benefit in RA, ceftaroline has no documented anti-inflammatory activity.
+**The prediction is not well supported.** Rheumatoid arthritis is an autoimmune inflammatory disease, and ceftaroline has no known immunomodulatory or anti-inflammatory activity relevant to it. The high score (0.98) probably reflects graph proximity in the knowledge graph rather than a real biological link. No trial or publication tests this use.
 
-The TxGNN prediction score of 98.2% almost certainly reflects a knowledge graph artefact rather than a genuine biological signal. The underlying graph likely connects ceftaroline to musculoskeletal disease nodes through shared "infection / joint inflammation" hub nodes — for example, septic arthritis, prosthetic joint infection, or osteoarticular infections — creating spurious traversal paths to RA. This is a recognised limitation of graph-based repurposing models when an antibiotic's infection-related edges share graph neighbourhoods with inflammatory rheumatic disease nodes.
-
----
+The other top-ranked predictions (osteoarthritis, gout, several rare skeletal dysplasias, hemoglobinopathy, myosclerosis) show the same pattern. The few papers retrieved for them concern bone and joint infections or a new-drug roundup. They are keyword matches, not evidence of efficacy.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for ceftaroline fosamil in rheumatoid arthritis.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for ceftaroline fosamil in rheumatoid arthritis.
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Ceftaroline fosamil has no product registrations with the Health Sciences Authority (HSA). The drug is not currently marketed in Singapore.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN14268P | Zinforo Powder for Concentrate for Solution for Infusion 600mg/vial | Injection, powder, for solution | Not listed in the registration record |
 
----
+Manufacturer: ACS Dobfar S.p.A. The product is available only as an injectable (intravenous infusion).
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN prediction for ceftaroline fosamil in rheumatoid arthritis is mechanistically implausible — the drug's sole pharmacological action (PBP2a inhibition) has no relevance to RA pathophysiology, and there is zero supporting clinical evidence. The elevated TxGNN score (98.2%) most likely reflects a knowledge graph co-occurrence artefact from shared infection–musculoskeletal nodes rather than any true therapeutic signal.
+There are no trials or publications for rheumatoid arthritis, and there is no plausible mechanistic link between an antibacterial cell-wall inhibitor and autoimmune arthritis. The high TxGNN score is best treated as a model artifact.
 
 **To proceed, the following is needed:**
+- Package insert warnings and contraindications from HSA, which are a blocking gap for safety screening
+- Any preclinical or clinical evidence showing anti-inflammatory or immunomodulatory activity of ceftaroline in arthritis models
+- A rationale for using an IV-only antibiotic in a chronic disease, including route and long-term safety considerations
+- The registered indication text for SIN14268P, to document the original indication properly
 
-- **Reassess all 10 predicted indications**: none across the full candidate list has risen above evidence level L5 or received a recommendation above "Hold"; the prediction cluster is dominated by musculoskeletal and rare genetic diseases, all mechanistically inconsistent with an antibacterial agent
-- **Obtain complete drug profile**: retrieve the full package insert and MOA documentation via DrugBank API (DG002 remediation) to formally document the PBP2a mechanism and ensure no secondary pharmacology has been overlooked
-- **Resolve the Singapore registration gap**: confirm whether HSA registration is planned; no market pathway exists at present
-- **Redirect investigation to on-mechanism applications**: if ceftaroline fosamil repurposing is to be explored at all, the only biologically coherent direction is infectious bone and joint disease (osteoarticular infections, prosthetic joint infections), where limited real-world cohort data already exists (PMID [27530754](https://pubmed.ncbi.nlm.nih.gov/27530754/), [23312602](https://pubmed.ncbi.nlm.nih.gov/23312602/)) — a distinct clinical question from the non-infectious indications generated by TxGNN
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

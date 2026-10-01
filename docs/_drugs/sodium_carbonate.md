@@ -29,70 +29,70 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sodium Carbonate: From No Approved Indication to Cauda Equina Syndrome
+# Sodium Carbonate: From an Unspecified Original Indication to Cauda Equina Syndrome
 
 ## One-Sentence Summary
 
-Sodium carbonate (DrugBank DB09460) is not currently marketed in Singapore and has no documented approved indication.
-The TxGNN model predicts a possible association with **Cauda Equina Syndrome** (rank 1, score 99.80%),
-but this candidate is currently supported by **zero clinical trials** and **zero publications**, and the compound's own mechanism of action is unknown — this is a purely computational signal, not a clinically grounded hypothesis.
-
----
+Sodium carbonate is an alkalinizing agent, and no original approved indication is recorded for it in the Singapore registration data.
+The TxGNN model predicts it may be effective for **cauda equina syndrome**, but this is a graph prediction only.
+There are **0 clinical trials** and **0 publications** supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — sodium carbonate is not marketed in Singapore and has no approved indication on record |
-| Predicted New Indication | Cauda Equina Syndrome |
+| Original Indication | Not stated (the registration record has no approved indication text) |
+| Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 99.80% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Mechanism of action (MOA) data for sodium carbonate is not currently available, and the compound has no documented approved indication in Singapore — it is not on the market here, so there is no established clinical use to compare against the predicted new indication. Without either an MOA or a reference indication, there is no pharmacological basis on which to judge biological plausibility for this prediction.
+Currently, detailed mechanism of action data is not available for sodium carbonate. It is generally known as an alkalinizing agent. Its original indication cannot be established from the available record, so there is no known therapeutic area to compare against cauda equina syndrome.
 
-The evidence pack's own rationale for this candidate is explicit on this point: there is no clinical trial or literature evidence, and sodium carbonate's original MOA is missing because it is an unmarketed compound — the association with Cauda Equina Syndrome is purely an artifact of the TxGNN algorithm's scoring, with no assessable biological plausibility. This candidate should be treated as a hypothesis-generating signal only.
-
-It is also worth noting that across all 10 TxGNN-predicted indications for this drug in the current evidence pack (including anaphylaxis, dry eye syndrome, and Sjögren syndrome), evidence quality tops out at L4 — and even those L4 "hits" are single, tangentially related studies (e.g., a sodium bicarbonate/xylitol oral spray study, and an epinephrine sublingual-formulation stability study) rather than direct evidence of therapeutic efficacy. No candidate in this batch reaches a recommendation stronger than Hold.
-
----
+No plausible mechanistic link to cauda equina syndrome has been identified. Cauda equina syndrome is a neurological and surgical emergency caused by compression of the lumbosacral nerve roots. Nothing in the data suggests sodium carbonate acts on this condition. The high score (99.80%) reflects a pattern in the knowledge graph, not biological or clinical support. It should be treated as a hypothesis-generating signal only.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
 
----
+## Singapore Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN11470P | CEFAZIME FOR INJECTION 1 g/vial (CJ Corp) | Injection | Not stated in the record |
+
+The only registered product is an injectable preparation. Its name suggests an antibiotic, so sodium carbonate may be present only as a formulation component. This has not been verified against the product label.
 
 ## Safety Considerations
 
-Safety data specific to this compound and indication is not currently available. As sodium carbonate is not registered or marketed in Singapore, no local package insert exists for reference, and no drug-drug interaction data was found in this evidence pack.
-
----
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (Cauda Equina Syndrome) has an L5 evidence level — a TxGNN score with no supporting clinical trials, literature, or known mechanism of action. Combined with the drug's unmarketed status in Singapore and missing MOA data, there is currently no basis to advance this candidate beyond algorithmic screening.
+The prediction rests on the model score alone, with no trials, no literature and no mechanistic link. The sole Singapore registration may involve sodium carbonate only as an excipient, and no safety data are available.
 
 **To proceed, the following is needed:**
-- MOA data for sodium carbonate (DrugBank API query, flagged as DG002/High severity)
-- Confirmation of any regulatory approval/label in other jurisdictions, since none exists in Singapore
-- Targeted literature search specifically on sodium carbonate (as opposed to sodium bicarbonate, which appears in several retrieved but likely mismatched records) in the context of Cauda Equina Syndrome
-- If no direct evidence emerges, consider deprioritizing this candidate in favor of the other predicted indications in this batch (e.g., anaphylaxis, Sjögren syndrome) that at least have L4-level, if weak, supporting literature
+- Package insert warnings and contraindications from the HSA website, which currently block safety screening
+- Confirmation of whether sodium carbonate is an active ingredient or an excipient in the registered product
+- Mechanism of action data from DrugBank
+- A credible biological rationale linking sodium carbonate to cauda equina syndrome
+- A route-compatibility assessment, since this is currently pending
+
+**Other predictions to consider:**
+- Sjögren syndrome has one indirect publication (PMID 27813150, a sodium carbonate oral spray used with oral hygiene), and the model flags it as a research question.
+- A full-text review is needed to confirm that study's design before the evidence level can be upgraded.
+- Two predicted terms, "obsolete neurogenic bladder (disease)" and "obsolete bundle branch block", are obsolete and should be remapped to current ontology terms before any review.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

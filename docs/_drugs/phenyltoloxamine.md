@@ -29,76 +29,69 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Phenyltoloxamine: From Antihistamine Combination Use to Allergic Urticaria
+# Phenyltoloxamine: From an Unspecified Original Indication to Allergic Urticaria
 
 ## One-Sentence Summary
 
-> Phenyltoloxamine is a first-generation H1-antihistamine most commonly found as a component of combination cold/allergy products (e.g., Sinutab-type formulations); no standalone original indication is documented in the evidence pack.
-> The TxGNN model predicts it may be effective for **Allergic Urticaria**,
-> but this is currently supported by **0 clinical trials** and **0 publications** — the prediction rests on drug-class mechanism inference alone.
-
----
+Phenyltoloxamine is marketed in Singapore in one registered product (Codipront Capsule), but the registration record does not state its original indication.
+The TxGNN model predicts it may be effective for **allergic urticaria**, with a score of 96.2%.
+Currently there are **0 clinical trials** and **0 publications** supporting this specific prediction, so it rests on model output and class-level pharmacology alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not formally documented; pharmacologically known as an H1-antihistamine component of combination cold/allergy products |
-| Predicted New Indication | Allergic Urticaria |
+| Original Indication | Not stated in the Singapore registration record |
+| Predicted New Indication | Allergic urticaria |
 | TxGNN Prediction Score | 96.24% |
-| Evidence Level | L4 (mechanism-based, no direct clinical/literature support) |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for Phenyltoloxamine (DB11160). Based on known pharmacological classification, it is a first-generation ethanolamine-class H1-antihistamine (structurally similar to diphenhydramine), typically found as an adjunct component in multi-ingredient cold/allergy products rather than marketed as a standalone antihistamine.
+Currently, detailed mechanism of action data is not available in the supplied record. From general background knowledge (not supplied evidence), phenyltoloxamine is a first-generation H1 antihistamine of the ethanolamine class. Blocking H1 receptors is mechanistically consistent with histamine-mediated conditions such as urticaria, and this is likely why the model scored the prediction highly.
 
-Allergic urticaria's core pathology is mast cell histamine release acting through H1 receptors, and H1-antagonists are established first-line therapy for this condition. This gives the prediction reasonable mechanistic plausibility — but it is a **drug-class-level** inference (any H1-antihistamine would score similarly against urticaria-type diseases in the knowledge graph) rather than evidence specific to Phenyltoloxamine itself.
+The prediction is probably a class-effect rediscovery of a use typical for antihistamines, not a true repurposing finding. The original indication cannot be compared with the new one, because the registration record gives no indication text. The same class-level logic applies to cold urticaria, which ranks third among the predictions.
 
-Notably, a lower-ranked prediction in this pack (pharyngitis, rank 6) is backed by an actual completed Phase 4 real-world trial (NCT00378144) of a Phenyltoloxamine-containing combination product (Sinutab), which is currently the strongest evidence in this evidence pack — stronger than the top-ranked allergic urticaria prediction, though it reflects combination-product data rather than monotherapy.
-
----
+Newer non-sedating antihistamines are the usual choice for urticaria. Any advantage of phenyltoloxamine over them would need to be demonstrated.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for allergic urticaria.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for allergic urticaria.
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Phenyltoloxamine currently has no product registrations in Singapore (market status: Not Marketed, 0 licenses on file).
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN13319P | Codipront Capsule (CTS Chemical Industries Ltd) | Capsule, extended release (oral) | Not stated in the registration record |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Note that a **Blocking** data gap (DG001) exists: TFDA/HSA-equivalent warnings and contraindications have not yet been retrieved, which prevents completion of an initial safety (S1) review for any predicted indication in this pack.
-
----
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked predicted indication (allergic urticaria) has no clinical trial or literature support and rests solely on drug-class mechanism inference (L4). Combined with the drug's unregistered status in Singapore and a Blocking safety data gap, there is insufficient evidence to proceed at this time.
+The prediction is Level L5, meaning model output only, with no trials or publications for this drug and indication. The Singapore package insert warnings and contraindications are also missing, which blocks safety screening. The mechanistic rationale is plausible but class-level, and non-sedating alternatives already exist.
 
 **To proceed, the following is needed:**
-- Local regulatory package insert data — warnings and contraindications (DG001, Blocking)
-- Confirmed mechanism of action data from DrugBank (DG002, High)
-- Direct clinical or literature evidence specific to Phenyltoloxamine (not combination-product) for allergic urticaria
-- Re-evaluation of the pharyngitis signal (rank 6, L3, Proceed with Guardrails) separately, as it currently carries the strongest real-world evidence in this pack despite a lower TxGNN score
+- The HSA package insert (warnings, contraindications, approved indication) for SIN13319P
+- Mechanism of action data, for example from DrugBank
+- A literature and trial search specific to phenyltoloxamine in urticaria
+- A comparison against non-sedating H1 antihistamines
+- A check of route and dosage form compatibility (the current product is an oral extended-release capsule)
+
+Other predictions are weaker. Pharyngitis has one Phase 4 trial of a branded combination product, but nothing in the input shows it contains phenyltoloxamine. That trial is graded C (indirect) and is not usable as evidence. The remaining predictions are L5 and mostly lack a plausible mechanism.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

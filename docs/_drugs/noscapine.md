@@ -29,85 +29,80 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Noscapine: Original Indication Not on Record → Scalp Dermatosis (Low-Confidence Signal)
+# Noscapine: From Cough (Antitussive) to Scalp Dermatosis
 
 ## One-Sentence Summary
 
-Noscapine's originally approved indication is not captured in this evidence pack — DrugBank matched the compound, but no indication text or mechanism of action was returned (both flagged as data gaps). TxGNN's top-ranked prediction is **Scalp Dermatosis** (score 98.5%), but the model's own generated rationale describes this specific link as likely knowledge-graph embedding noise, and **zero clinical trials or publications** currently support it. Across all 10 predicted indications in this batch, only one (Eye Disease, rank 8) reaches even a weak literature-supported tier (L4); the rest remain unsupported model output (L5).
+Noscapine is marketed in Singapore in cough syrup and lozenge products, so it is presumably used as a cough suppressant. The approved indication text is not supplied in the record.
+The TxGNN model predicts it may be effective for **scalp dermatosis**, but **no clinical trials and no publications** support this prediction, so it is a model signal only.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available (DrugBank record found, but no indication text on file) |
-| Predicted New Indication | Scalp Dermatosis |
-| TxGNN Prediction Score | 98.52% (rank 14,046 of full candidate pool) |
-| Evidence Level | L5 (model prediction only, no trials or literature) |
-| Market Status | ✗ Not Marketed (0 registrations) |
-| Number of Registrations | 0 |
-| Recommended Decision | **Hold** |
+| Original Indication | Cough (inferred from the product names; no approved indication text in the record) |
+| Predicted New Indication | Scalp dermatosis |
+| TxGNN Prediction Score | 98.52% |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
+| Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available for noscapine in this evidence pack. Historical pharmacology literature in the pack (e.g., PMID 13864787, a 1962 double-blind antitussive comparison) suggests noscapine has long been used as a cough suppressant, but this is inferred from a single tangential citation, not from a confirmed `original_moa` or `original_indications` record — it should not be treated as verified regulatory history.
+Currently, detailed mechanism of action data is not available for noscapine. Based on known information, noscapine is a cough-suppressant ingredient in oral syrup and lozenge products. No link between that use and scalp dermatosis can be drawn from the supplied data.
 
-For the top-ranked prediction itself, the evidence pack's own generated rationale is explicit that the link is not mechanistically grounded: *"No identifiable pharmacological mechanistic link; this disease name is likely TxGNN knowledge-graph embedding noise, recommended as an exclusion candidate."* No clinical trials, ICTRP registrations, or PubMed literature were found connecting noscapine to scalp dermatosis in any of the four source queries run against it (ClinicalTrials.gov, ICTRP, PubMed, DDI). This prediction should be read as a raw model score with no corroborating evidence, not as a validated repurposing hypothesis.
+The high score should not be read as a finding. The retrieved data contain no trials, no literature, no mechanistic pathway and no route-compatibility assessment. A topical or scalp-directed use would also be a very different route from the oral products registered in Singapore. Until a mechanism is established, this prediction is a hypothesis to test, not a supported repurposing direction.
+
+Among the other nine predictions, the only retrieved literature belongs to "eye disease". It is indirect at best: a sigma-receptor review, a 1962 antitussive comparison and a 1956 chromatography paper. None of it supports scalp dermatosis.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
 
-## Other Ranked Candidates (Not Analyzed in Detail)
-
-This evidence pack scored 10 candidate indications for noscapine; all but one carry the same "no evidence found" profile as the top-ranked candidate above. Presented here for transparency:
-
-| Rank | Disease | TxGNN Score | Evidence Level | Decision | Note |
-|------|---------|-------------|-----------------|----------|------|
-| 1 | Scalp Dermatosis | 98.52% | L5 | Hold | Rationale flags as likely embedding noise |
-| 2 | RAAS-blocker-induced Angioedema | 98.44% | L5 | Hold | Mechanism (bradykinin) unrelated to noscapine's known pharmacology |
-| 3 | Rheumatoid Arthritis | 97.13% | L5 | Hold | Weak theoretical link via tubulin/anti-angiogenic activity; no direct evidence |
-| 4 | Atopic Eczema | 96.20% | L5 | Hold | No pharmacologic rationale beyond historical antihistamine co-formulation |
-| 5 | Colobomatous Microphthalmia–Rhizomelic Dysplasia Syndrome | 95.57% | L5 | Hold | Congenital syndrome, not a drug-treatable target; likely noise |
-| 6 | Nephrotic Syndrome | 95.41% | L5 | Hold | No known mechanistic overlap |
-| 7 | Brachydactyly-Syndactyly Syndrome | 95.37% | L5 | Hold | Congenital skeletal syndrome, not a drug-treatable target; likely noise |
-| 8 | Eye Disease | 95.19% | **L4** | **Research Question** | See literature below (sigma-receptor hypothesis) |
-| 9 | Autoimmune Hemolytic Anemia | 95.05% | L5 | Hold | No immunomodulatory mechanism known for noscapine |
-| 10 | Recurrent Idiopathic Neuroretinitis | 95.04% | L5 | Hold | Same sigma-receptor theme as rank 8, but no literature of its own |
-
-**Rank 8 (Eye Disease) supporting literature** — the only candidate in this batch with any literature hits:
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [10562963](https://pubmed.ncbi.nlm.nih.gov/10562963/) | 1999 | Review/Pharmacology | Nihon Yakurigaku Zasshi | Discusses sigma-receptor ligands (not noscapine-specific) in regulation of cough, GI, and retinal function; noscapine is a known sigma-receptor ligand, but the paper does not test noscapine directly against eye disease |
-| [13864787](https://pubmed.ncbi.nlm.nih.gov/13864787/) | 1962 | Animal/clinical antitussive comparison | Praxis | Double-blind comparison of noscapine hydrochloride vs. dihydrocodeine as antitussives; no abstract on file, unrelated to eye disease |
-| [13340902](https://pubmed.ncbi.nlm.nih.gov/13340902/) | 1956 | Methodology (paper chromatography) | Archiv der Pharmazie | Separation method for narcotine/papaverine; no abstract on file, not disease-relevant |
-
-None of these three papers directly studies noscapine in an ophthalmic disease context — the link is a mechanistic extrapolation (sigma-receptor involvement in retinal function) rather than direct evidence, which is why this candidate is scored "Research Question" rather than a stronger tier.
+---
 
 ## Singapore Market Information
 
-Noscapine currently has no market authorizations on file (0 licenses, status: Not Marketed).
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN09666P | TONIN COUGH SYRUP S | Syrup | Sato Pharmaceutical Co Ltd |
+| SIN04537P | NEW TONIN TROCHE L | Lozenge | Sato Pharmaceutical Co Ltd |
+
+The approved indication text is blank for both licences in the record.
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No key warnings, contraindications, or drug-interaction data are currently on file for noscapine; a DDI database query returned no results, and TFDA/HSA label data has not yet been retrieved (flagged as a **Blocking** data gap — DG001).
+Please refer to the package insert for safety information.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked predicted indication (Scalp Dermatosis) has no supporting clinical trial or literature evidence and is explicitly flagged by the evidence pack's own rationale as likely model noise. No candidate in this 10-item batch clears even a single completed trial or systematic review; the best case (Eye Disease) rests on three decades-old, indirectly relevant papers. Combined with the absence of MOA data, absence of market presence, and a blocking gap on regulatory safety labeling, there is no basis to advance any of these candidates past screening.
+The prediction rests on a model score alone, with no trials, no literature and no supported mechanism. The safety documentation is also missing, which blocks any further safety screening.
 
 **To proceed, the following is needed:**
-- Retrieve noscapine's mechanism of action from DrugBank API (data gap DG002)
-- Retrieve TFDA/HSA package insert warnings and contraindications (blocking gap DG001)
-- Re-run TxGNN ranking with noise filtering, since 8 of 10 top candidates in this batch (including congenital syndromes with no drug-treatable target) appear to be embedding artifacts
-- If pursuing the Eye Disease/sigma-receptor hypothesis further, commission a targeted literature search specifically on noscapine (not general sigma-receptor ligands) and retinal/ophthalmic outcomes before any trial design work
+- HSA package insert (warnings, contraindications and approved indication text), which is currently blocking safety screening
+- Mechanism of action data from DrugBank, to test whether any plausible link to scalp dermatosis exists
+- A targeted literature and trial search for noscapine in scalp or inflammatory skin conditions
+- A route-compatibility assessment, since the registered products are oral syrup and lozenge and none is a topical or scalp formulation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

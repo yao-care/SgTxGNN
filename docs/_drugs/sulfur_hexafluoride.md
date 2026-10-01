@@ -29,83 +29,65 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sulfur Hexafluoride: From Ultrasound Contrast Agent to Benign Prostatic Hyperplasia (Low-Confidence Prediction)
+# Sulfur Hexafluoride: From Ultrasound Contrast Imaging to Benign Prostatic Hyperplasia
 
 ## One-Sentence Summary
 
-> Sulfur hexafluoride (SF6, DrugBank DB11104) is the gas core of microbubble ultrasound contrast agents (e.g., SonoVue/Lumason) and has no established pharmacological treatment indication.
-> The TxGNN model predicts a possible association with **Benign Prostatic Hyperplasia**,
-> but on inspection all **3 supporting publications** are diagnostic imaging studies using SF6 as a contrast agent — none evaluate SF6 as a treatment.
-> Across all 10 ranked predictions for this drug, the evidence pack itself concludes these are likely data/ontology co-occurrence artefacts rather than genuine repurposing signals.
-
----
+Sulfur hexafluoride (marketed in Singapore as SonoVue) is a microbubble ultrasound contrast agent used for diagnostic imaging, not as a treatment.
+The TxGNN model predicts it may be relevant to **benign prostatic hyperplasia (BPH)**, but there are **0 clinical trials** and only **3 publications**, all of which use the agent for imaging, not therapy.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not applicable — SF6 is used clinically as an ultrasound contrast/imaging agent, not registered for a therapeutic indication |
-| Predicted New Indication | Benign Prostatic Hyperplasia (rank 34010 among all disease predictions) |
+| Original Indication | Ultrasound contrast imaging (the registration record lists no approved indication text) |
+| Predicted New Indication | Benign prostatic hyperplasia |
 | TxGNN Prediction Score | 90.75% |
-| Evidence Level | L5 (model prediction only; no treatment trials or clinical evidence) |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | **Hold** |
-
----
+| Evidence Level | L4 (imaging literature only; no therapeutic studies) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (Data Gap, severity: High — DG002). Based on known pharmacology, sulfur hexafluoride is an inert, poorly soluble gas encapsulated in phospholipid microbubbles and administered intravenously or intravitreally purely as a **physical contrast/tamponade medium** — it has no receptor binding, enzymatic, or systemic pharmacological activity that would plausibly treat a disease state.
+Currently, detailed mechanism of action data is not available. Based on known information, sulfur hexafluoride is an inert gas encapsulated in microbubbles that enhance the ultrasound signal in blood vessels. It has no known therapeutic pharmacology.
 
-The relationship between "original indication" and the predicted new indication is therefore not a genuine pharmacological repurposing case. Reviewing the underlying evidence (`repurposing_rationale.mechanistic_link`) confirms this: the TxGNN score reflects that SF6-based contrast agents are frequently *co-mentioned in the same knowledge-graph neighborhood* as prostate, vaginal, and vascular disease entities — because SF6 is commonly used to **image** these conditions (e.g., contrast-enhanced ultrasound of the prostate, transvaginal contrast sonography, peripheral arterial perfusion imaging), not because it treats them. Across all 10 predicted indications for this drug, evidence review consistently found either (a) no supporting literature/trials at all, or (b) literature that is exclusively diagnostic/imaging in nature, including one likely search mismatch (folliculitis, matched via an unrelated ophthalmic-surgery positioning paper).
-
-Mechanistically, there is no plausible pathway by which an inert contrast gas would produce a therapeutic effect in BPH or any of the other ranked candidates. This should be treated as a case where the TxGNN score is driven by imaging-use co-occurrence rather than therapeutic association.
-
----
+The three retrieved papers use contrast-enhanced ultrasound to measure prostate perfusion and to tell benign from malignant prostate nodules. This is **diagnostic imaging, not treatment of BPH**. The high model score most likely reflects the drug's frequent co-occurrence with prostate imaging literature, not a real therapeutic link. We do not consider this a credible repurposing candidate on current evidence.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [20546182](https://pubmed.ncbi.nlm.nih.gov/20546182/) | 2011 | Diagnostic Imaging Study | Reproduction in Domestic Animals | Contrast-enhanced ultrasound (using SF6-type agent) used to characterize vascular perfusion in canine prostatic disease, incl. BPH — a diagnostic technique study, not a treatment trial |
-| [18774354](https://pubmed.ncbi.nlm.nih.gov/18774354/) | 2008 | Diagnostic Imaging Study | Clinical Radiology | Contrast-enhanced transrectal ultrasound used to distinguish benign vs. malignant prostate nodules — imaging methodology only |
-| [19212283](https://pubmed.ncbi.nlm.nih.gov/19212283/) | 2009 | Review (Imaging) | Journal de Radiologie | Review of microbubble contrast agents for tumour angiogenesis imaging; general imaging application, not BPH-specific treatment evidence |
-
-**Note:** None of the above literature evaluates SF6 as a therapeutic intervention for BPH; all describe its established role as an ultrasound contrast agent.
-
----
+| [20546182](https://pubmed.ncbi.nlm.nih.gov/20546182/) | 2011 | Diagnostic study (dogs) | Reproduction in Domestic Animals | Contrast-enhanced ultrasound measured perfusion kinetics in 10 normal dogs and 26 dogs with prostatic disease (including BPH, confirmed by biopsy). It is an animal imaging study. |
+| [18774354](https://pubmed.ncbi.nlm.nih.gov/18774354/) | 2008 | Diagnostic study | Clinical Radiology | Assessed contrast-enhanced transrectal ultrasound for predicting whether peripheral-zone prostate lesions are benign or malignant. |
+| [19212283](https://pubmed.ncbi.nlm.nih.gov/19212283/) | 2009 | Review | Journal de Radiologie | Reviews microbubble contrast ultrasound for imaging tumour angiogenesis and monitoring response to anti-angiogenic drugs. It is not specific to BPH. |
 
 ## Singapore Market Information
 
-Sulfur hexafluoride currently has no registered product license in Singapore (0 registrations, market status: Not Marketed). No authorization records are available to summarize.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN12349P | SonoVue Powder for Dispersion for Injection 8 microlitres/ml (Bracco Suisse SA) | Injection, powder, for solution | Not listed in the record |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-interaction data are all currently unavailable — flagged as a **Blocking** data gap, DG001, preventing S1 safety pre-assessment.)
-
----
+Please refer to the package insert for safety information. No drug interactions were found in the queried data.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-All 10 TxGNN-predicted indications for sulfur hexafluoride, including the top-ranked BPH prediction, are supported only by diagnostic-imaging literature or are entirely unsupported — there is no clinical trial or publication evidence of SF6 being used therapeutically for any predicted indication, and no plausible pharmacological mechanism exists for repurposing an inert contrast gas as a treatment. Evidence level is L5 across the board, and the drug is not marketed in Singapore.
+The prediction has no clinical trials and only imaging literature. The agent is a diagnostic microbubble contrast agent with no plausible therapeutic mechanism for BPH. Several other top predictions (vaginitis, vulvitis, iritis, folliculitis and others) are similarly unsupported or based on spurious literature matches. The one exception is peripheral arterial disease, which has the most evidence, but that evidence is also imaging-based, and one early-stage 2024 feasibility paper on microbubble-assisted thrombolysis is the only hint of a therapeutic role.
 
 **To proceed, the following is needed:**
-- Confirmation from DrugBank/regulatory sources of SF6's approved use profile (contrast/tamponade agent) to formally close this candidate rather than advance it
-- If reopened in future, genuine interventional (not imaging) evidence for a specific disease would be required before any S1 safety review
-- Resolution of blocking data gap DG001 (label warnings/contraindications) if this or related microbubble contrast agents are evaluated again
-- Resolution of DG002 (MOA) via DrugBank API query for completeness of the record
+- Package insert warnings and contraindications from the HSA (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- Any therapeutic (non-imaging) human study in BPH, which would be required before this prediction could be reconsidered
+- A decision on whether to treat this as a diagnostic-use finding and not a repurposing candidate
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

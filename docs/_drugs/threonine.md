@@ -29,12 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Threonine: From No Established Indication to Predicted Gastroparesis
+# Threonine: From Parenteral Amino Acid Nutrition to Gastroparesis
 
 ## One-Sentence Summary
 
-> Threonine is an essential amino acid with no defined original therapeutic indication in the available regulatory records (not currently marketed in Singapore).
-> The TxGNN model predicts it may be relevant to **gastroparesis**, but this is currently supported by **zero clinical trials** and only **one indirect mechanistic publication** that does not study threonine directly.
+Threonine is an essential amino acid. In Singapore it is registered as a component of intravenous amino acid infusions, and the registration records do not state an indication.
+The TxGNN model predicts it may be effective for **Gastroparesis**, but there are **0 clinical trials** and only **1 preclinical publication**, which does not test threonine.
+This is a model-only prediction with no direct supporting evidence.
 
 ---
 
@@ -42,23 +43,23 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Not established — Threonine is an essential amino acid with no recorded approved indication in this evidence pack |
-| Predicted New Indication | Gastroparesis (disease) |
+| Original Indication | Not stated in the registration records (marketed as a component of parenteral amino acid infusions) |
+| Predicted New Indication | Gastroparesis |
 | TxGNN Prediction Score | 99.32% |
-| Evidence Level | L5 (model prediction only) |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 19 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, threonine is an essential amino acid and a key precursor for gastrointestinal mucin synthesis, which gives a theoretical (but unproven) link to gastric mucosal/smooth-muscle function.
+Detailed mechanism-of-action data for threonine is not currently available. Threonine is an essential amino acid and a component of mucins. Amino acid availability feeds into mTOR signaling, which is the only plausible link to the predicted indication.
 
-The one literature item retrieved for the top-ranked indication (gastroparesis) does not actually study threonine — it describes apoptosis and PI3K-AKT-mTOR/AMPK-mTOR signaling in a rat model of diabetic gastroparesis, with no threonine administration or measurement. Across all ten predicted indications in this evidence pack (dyspepsia, vitamin D deficiency, renal tubular acidosis, postgastrectomy syndrome, hypophosphatemic rickets variants, congenital prothrombin deficiency, albinism-deafness syndrome, postmenopausal osteoporosis), the supporting literature consists almost entirely of unrelated mechanistic, genetic, or traditional-medicine studies that happen to mention "threonine" only as an amino acid residue in unrelated proteins (e.g., WNK kinases, NBCe1, SGK3) — not as a therapeutic intervention.
+The single retrieved paper is a rat study of diabetic gastroparesis. It examines gastric smooth muscle cell apoptosis and the PI3K-AKT-mTOR and AMPK-mTOR pathways. It does not administer or measure threonine, so the connection runs through shared pathway keywords, not through the drug. The link is speculative.
 
-Given the complete absence of drug-specific mechanistic or clinical evidence, this candidate should be treated as a network-embedding signal only, not a pharmacologically grounded hypothesis at this stage.
+The model's 99.32% score reflects knowledge-graph proximity, not clinical evidence. The other predictions for this drug, including dyspepsia, renal tubular acidosis, hypophosphatemic rickets and postmenopausal osteoporosis, are also L5 and no better supported.
 
 ---
 
@@ -72,19 +73,27 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [28627597](https://pubmed.ncbi.nlm.nih.gov/28627597/) | 2017 | Basic/Mechanistic (animal) | Molecular Medicine Reports | Describes gastric smooth muscle cell apoptosis and PI3K-AKT-mTOR/AMPK-mTOR signaling in a rat model of diabetic gastroparesis; does not investigate threonine administration or supplementation |
+| [28627597](https://pubmed.ncbi.nlm.nih.gov/28627597/) | 2017 | Preclinical | Molecular Medicine Reports | Rat model of diabetic gastroparesis; examined changes in gastric smooth muscle cell apoptosis and PI3K-AKT-mTOR and AMPK-mTOR signaling over time. Threonine was not tested. |
 
 ---
 
 ## Singapore Market Information
 
-Threonine has no marketed products registered in Singapore under this evidence pack (0 total licenses).
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN16337P | AMINOVEN SOLUTION FOR INFUSION 15% | Infusion, solution | Not stated in registration record |
+| SIN11682P | AMINOVEN SOLUTION FOR INFUSION 5% | Injection | Not stated in registration record |
+| SIN11829P | AMINOVEN SOLUTION FOR INFUSION 10% | Injection | Not stated in registration record |
+| SIN06299P | NEPHROSTERIL FOR INTRAVENOUS INFUSION | Injection | Not stated in registration record |
+| SIN08352P | AMINOPLASMAL-15% INFUSION | Injection | Not stated in registration record |
+
+These are 5 of 19 registrations. All are injectable or infusion products, so any oral or enteral use for gastroparesis would fall outside the registered routes.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No drug interactions were found in the queried source.
 
 ---
 
@@ -93,12 +102,15 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-All ten TxGNN-predicted indications (including the top-ranked gastroparesis) sit at Evidence Level L5 with zero supporting clinical trials, and the associated literature is mechanistically unrelated to threonine itself. Combined with the absence of Singapore market presence, original indication data, and MOA data, there is insufficient basis to advance this candidate past S0.
+The prediction rests on model score alone (L5). There are no clinical trials, and the one publication is a preclinical study that does not involve threonine. Known registrations are intravenous nutrition products, which do not fit a gastroparesis use.
 
 **To proceed, the following is needed:**
-- Original MOA and established indication data for threonine (DrugBank / pharmacology reference)
-- TFDA/HSA package insert data for warnings, contraindications, and DDI (currently a Blocking data gap)
-- Preclinical or clinical studies directly testing threonine (not just amino-acid-residue mentions) in gastroparesis or other candidate indications before any further prioritization
+- HSA package insert warnings and contraindications, which block any safety screening
+- Mechanism-of-action data from DrugBank
+- Direct evidence that threonine affects gastric motility or emptying (preclinical or clinical)
+- Assessment of route and formulation suitability for gastroparesis
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

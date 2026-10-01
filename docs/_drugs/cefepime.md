@@ -33,82 +33,73 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Cefepime is a fourth-generation cephalosporin antibiotic, established in clinical practice for empirical treatment of serious bacterial infections — including febrile neutropenia, hospital-acquired pneumonia, and complicated urinary tract infections.
-The TxGNN model's top prediction identifies **Polyclonal Hyperviscosity Syndrome** as a candidate new indication, scoring a high confidence of **98.69%**.
-However, this prediction is supported by **zero clinical trials and zero publications**, placing it at evidence level **L5**, and the mechanistic rationale is assessed as implausible — the high score likely reflects a knowledge graph structural artifact rather than a genuine therapeutic signal.
-
----
+Cefepime is a fourth-generation cephalosporin antibiotic used for bacterial infections. The TxGNN model predicts it may be effective for **polyclonal hyperviscosity syndrome**, but this prediction has **0 clinical trials** and **0 publications** behind it. It is a knowledge-graph output only and is not supported by mechanism or clinical data.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not registered in Singapore (no HSA indication data available); globally established for serious bacterial infections and febrile neutropenia |
-| Predicted New Indication | Polyclonal Hyperviscosity Syndrome |
+|------|------|
+| Original Indication | Not stated in the Singapore registration records; cefepime is a broad-spectrum antibacterial |
+| Predicted New Indication | Polyclonal hyperviscosity syndrome |
 | TxGNN Prediction Score | 98.69% |
-| Evidence Level | L5 (model prediction only; no supporting studies) |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 4 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in this Evidence Pack. Based on established pharmacological knowledge, Cefepime exerts its antibacterial effect by binding to penicillin-binding proteins (PBPs) and inhibiting bacterial cell wall synthesis. As a fourth-generation cephalosporin, it offers broad-spectrum coverage including anti-*Pseudomonas aeruginosa* activity and stability against AmpC beta-lactamases — properties that make it valuable for empirical treatment of febrile neutropenia and healthcare-associated infections.
+Cefepime kills bacteria by binding penicillin-binding proteins and blocking cell wall synthesis. Polyclonal hyperviscosity syndrome is a protein-driven increase in blood viscosity. No plausible mechanism links an antibacterial to this condition.
 
-Polyclonal hyperviscosity syndrome is a fundamentally different disease process: it arises from massive overproduction of multiple immunoglobulin clones across different B-cell lineages, driving pathological elevation of blood viscosity. Its pathological core is immune dysregulation and aberrant protein production — mechanisms entirely outside the antibacterial spectrum of Cefepime. Cefepime has no documented anti-inflammatory, immunomodulatory, or anti-immunoglobulin activity, and no known interaction with the signalling pathways governing B-cell proliferation or immunoglobulin secretion.
-
-The mechanistic analysis embedded in this Evidence Pack explicitly flags that the high TxGNN score (0.9869) for this indication most likely reflects a **knowledge graph co-occurrence bias** — a strong statistical link between plasma cell disease nodes and antibiotic drug nodes in the knowledge graph, driven by the clinical reality that antibiotics are routinely administered to immunocompromised plasma cell disease patients for infection management. This is a known failure mode of graph-based repurposing models: the model learns that a drug frequently appears in the context of a disease, without discriminating between treating the disease versus treating its infectious complications. **This prediction is assessed as scientifically implausible under current mechanistic understanding.**
-
----
+The score of 0.987 (rank 12,900) most likely reflects the topology of the knowledge graph, not a pharmacological relationship. The same score was given to hyperamylasemia, another disease with no mechanistic link to cefepime. The prediction should be treated as a model artifact until independent evidence appears.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for polyclonal hyperviscosity syndrome.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for polyclonal hyperviscosity syndrome.
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Cefepime is currently **not registered** with the Health Sciences Authority (HSA) in Singapore. No product authorizations, dosage form records, or approved indication texts are available.
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN14658P | CEFEPIME-AFT POWDER FOR INJECTION 1G/VIAL | Injection, powder, lyophilized, for solution |
+| SIN14156P | Cefevon powder for solution for injection 2g/vial | Injection, powder, for solution |
+| SIN14988P | CEFEPIME KABI POWDER FOR SOLUTION FOR INJECTION OR INFUSION 2 g/vial | Injection, powder, for solution |
+| SIN14987P | CEFEPIME KABI POWDER FOR SOLUTION FOR INJECTION OR INFUSION 1 g/vial | Injection, powder, for solution |
 
----
+All four products are injectables. Approved indication text is not recorded for any of them.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
-> **Key safety signals identified from broader evidence review** (sourced from literature collected across other predicted indications in this pack):
->
-> - **Cefepime-induced neurotoxicity (CIN):** Encephalopathy, myoclonus, and seizures are documented adverse effects, with significantly elevated risk in patients with renal impairment due to drug accumulation. This is a well-established safety concern requiring dose adjustment by creatinine clearance.
-> - **Elevated free drug exposure in hypoalbuminaemia:** Cefepime's protein binding is approximately 20%. In patients with severe hypoalbuminaemia (e.g., congenital analbuminaemia or liver failure), free drug concentrations rise substantially, increasing neurotoxicity risk.
-> - **Acute interstitial nephritis:** A biopsy-confirmed case has been reported in the literature (PMID 25886295).
-> - **Drug-induced pancreatic enzyme elevation:** Some literature notes Cefepime as a rare cause of pancreatitis-like presentations, which is relevant to the hyperamylasaemia prediction cluster.
->
-> These signals are relevant to patient selection and monitoring in any future use scenarios.
-
----
+Literature attached to other candidate indications in this pack points to two safety signals:
+- **Neurotoxicity**: cefepime neurotoxicity is dose-dependent and is more likely at high exposure or in renal impairment (PMID 37735762 supports dose individualization).
+- **Kidney injury**: one case report describes biopsy-proven acute interstitial nephritis (PMID 25886295).
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Cefepime's mechanism of action — PBP binding and bacterial cell wall synthesis inhibition — has no plausible connection to immunoglobulin overproduction or blood viscosity regulation in polyclonal hyperviscosity syndrome. The TxGNN model's high confidence score is assessed as a knowledge graph structural artefact arising from the co-occurrence of antibiotics and plasma cell diseases in clinical contexts, not from a genuine pharmacological relationship. With zero supporting clinical trials and zero supporting literature, there is no evidence base to justify further investigation of this specific pairing.
+The prediction is model-only (L5). There is no mechanistic link, no trial and no publication for polyclonal hyperviscosity syndrome, and cefepime's known neurotoxicity gives no reason to prioritize it.
 
-**To proceed with any further evaluation, the following is needed:**
+**To proceed, the following is needed:**
+- The HSA package insert warnings and contraindications, which block the safety screening step.
+- Structured mechanism-of-action data from DrugBank (DB01413).
+- Any independent clinical or mechanistic evidence for this disease. Without it, this candidate should not advance.
 
-- **Mandatory:** Retrieve the full Cefepime prescribing information (package insert) from HSA or international regulatory sources to complete the safety gap assessment (DG001)
-- **Mandatory:** Query the DrugBank API for complete mechanism of action data to enable proper mechanistic link analysis (DG002)
-- **Recommended:** Apply knowledge graph de-biasing techniques to re-score TxGNN predictions for Cefepime, filtering out co-occurrence signals driven by infection management rather than direct therapeutic effect
-- **For any other indication in this pack:** Rank 8 (septicemic plague) and Rank 10 (infectious otitis media) carry stronger mechanistic rationale, with animal-model data (PMID 20583467) and microbiological plausibility respectively — these are more appropriate candidates for further research question development if resources are available
+**Other candidates in this pack:**
+Two other predictions are marked "Research Question" and are more biologically plausible than the top-ranked one:
+- **Septicemic plague**: cefepime showed activity in a mouse model (PMID 20583467), but no human data exist.
+- **Infectious otitis media**: Pseudomonas aeruginosa is a relevant pathogen, but the evidence is limited to case reports and one microbiology-trend study.
+
+Both would need in-vitro or microbiology-guided follow-up before any clinical consideration.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

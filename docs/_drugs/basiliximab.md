@@ -29,92 +29,76 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Basiliximab: From Organ Transplant Rejection to Plasma Cell Myeloma
+# Basiliximab: From Kidney Transplant Rejection Prophylaxis to Plasma Cell Myeloma
 
 ## One-Sentence Summary
 
-Basiliximab is a chimeric monoclonal antibody targeting the interleukin-2 receptor alpha chain (IL-2Rα / CD25), approved for prophylaxis of acute rejection in renal transplantation.
-The TxGNN model predicts it may be effective for **Plasma Cell Myeloma (Multiple Myeloma)**,
-with **3 clinical trials** and **3 publications** currently supporting this direction — primarily in the context of haematopoietic stem cell transplantation (HSCT)-related immune complications rather than direct anti-myeloma activity.
-
----
+Basiliximab is an anti-CD25 (IL-2 receptor) antibody, generally used to prevent acute rejection after organ transplantation. The Singapore registration record does not state an approved indication.
+The TxGNN model predicts it may be useful for **Plasma Cell Myeloma**, mainly as an immune-modulating add-on around stem cell transplant.
+The evidence is early: **3 related clinical trials** (the only completed myeloma-specific one is Phase 1) and **3 publications**.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Prophylaxis of acute organ rejection in renal transplantation |
-| Predicted New Indication | Plasma Cell Myeloma (Multiple Myeloma) |
+|------|------|
+| Original Indication | Prophylaxis of acute organ rejection in transplantation (general pharmacology; no indication text in the Singapore record) |
+| Predicted New Indication | Plasma cell myeloma |
 | TxGNN Prediction Score | 95.61% |
 | Evidence Level | L3 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known pharmacological information, Basiliximab is a chimeric IgG1 monoclonal antibody that competitively antagonises the IL-2Rα subunit (CD25) on the surface of activated T lymphocytes, thereby blocking IL-2-mediated T-cell proliferation and differentiation. This immunosuppressive mechanism has been validated in solid organ transplantation for preventing host immune rejection of grafted tissue.
+Currently, detailed mechanism of action data is not available in the source record. Based on general pharmacology, basiliximab is an antibody that blocks CD25 (the IL-2 receptor alpha chain). CD25 is found on activated T cells and on regulatory T cells (Tregs).
 
-The mechanistic link to multiple myeloma is indirect but biologically plausible. Multiple myeloma patients frequently require autologous or allogeneic haematopoietic stem cell transplantation (HSCT) as part of their treatment trajectory. In the allogeneic HSCT setting, graft-versus-host disease (GVHD) remains the principal transplant-related complication and a major driver of transplant-related mortality. By blocking IL-2-driven activation of donor T cells, Basiliximab may prevent or attenuate acute GVHD, thereby improving transplant outcomes in myeloma patients. Some investigators have also explored whether depleting regulatory T cells (Tregs) via IL-2R blockade post-autologous HSCT can unmask a beneficial graft-versus-myeloma (GVM) immune response.
+In transplant medicine, blocking this receptor dampens harmful T-cell activity. In myeloma, the idea is different. Tregs recover quickly after autologous stem cell transplant (ASCT) and may suppress the immune response against myeloma cells. Removing them could strengthen post-transplant anti-myeloma immunity. Basiliximab has also been used around allogeneic transplant to prevent graft-versus-host disease (GVHD).
 
-It is important to note that this prediction does **not** imply direct anti-myeloma cytotoxic activity. Rather, Basiliximab's proposed role is as a transplant immune-modulatory adjunct. The TxGNN model likely captures the network proximity between IL-2 signalling nodes, T-cell biology, and myeloma treatment pathways within its knowledge graph. Clinical evidence currently resides at the level of small pilot studies and case series, and a causative efficacy signal specific to myeloma has not been established.
-
----
+The drug is therefore an **immune-modulating adjunct**, not a direct anti-myeloma cytotoxic. The link between the original use and myeloma is indirect, and the current evidence supports feasibility and safety rather than efficacy.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT01526096](https://clinicaltrials.gov/study/NCT01526096) | Phase 1 | Completed | 30 | Pilot study testing whether regulatory T-cell depletion (using Basiliximab) is feasible and safe in multiple myeloma patients undergoing autologous SCT; primary focus on safety signal rather than efficacy endpoint |
-| [NCT00975975](https://clinicaltrials.gov/study/NCT00975975) | Phase 2 | Completed | 17 | Basiliximab in combination with cyclosporine for GVHD prevention following non-myeloablative allogeneic transplantation in haematological malignancies; myeloma-specific patient proportion not reported |
-| [NCT00594308](https://clinicaltrials.gov/study/NCT00594308) | Not Assigned | Terminated | 10 | Compared Basiliximab + cyclosporine vs cyclosporine alone for GVHD prevention; terminated early due to small sample size — provides only limited safety reference signals |
-
----
+|---------|------|------|------|---------|
+| [NCT01526096](https://clinicaltrials.gov/study/NCT01526096) | Phase 1 | Completed | 30 | Pilot of regulatory T-cell reduction in myeloma patients undergoing ASCT, testing feasibility and safety. The most direct evidence here. |
+| [NCT00975975](https://clinicaltrials.gov/study/NCT00975975) | Phase 2 | Completed | 17 | Basiliximab plus cyclosporine to prevent GVHD after nonmyeloablative allotransplant for blood cancers. The endpoint is GVHD, not myeloma control. Appears to be a small single-arm study. |
+| [NCT00594308](https://clinicaltrials.gov/study/NCT00594308) | N/A | Terminated | 10 | Basiliximab plus cyclosporine versus cyclosporine alone for GVHD prevention. Not myeloma-specific, and the small terminated study yields little usable data. |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [31940591](https://pubmed.ncbi.nlm.nih.gov/31940591/) | 2020 | Prospective Cohort | Journal for Immunotherapy of Cancer | Pilot study of Treg depletion using Basiliximab in multiple myeloma patients post-autologous HSCT; Tregs reconstitute rapidly after ASCT and may suppress anti-myeloma immune responses; intervention was feasible with manageable safety profile |
-| [12476283](https://pubmed.ncbi.nlm.nih.gov/12476283/) | 2002 | Case Series / Prospective | Bone Marrow Transplantation | Evaluated Basiliximab in 17 patients with steroid-refractory acute GVHD after allogeneic SCT (indications including multiple myeloma); found Basiliximab well tolerated and effective in achieving GVHD response in this refractory population |
-| [28320553](https://pubmed.ncbi.nlm.nih.gov/28320553/) | 2017 | Case Reports | American Journal of Kidney Diseases | Reports 4 myeloma patients who underwent kidney transplantation (with standard immunosuppression including Basiliximab induction) after achieving sustained remission; demonstrates transplant feasibility in myeloma survivors, not a repurposing efficacy study |
-
----
+|------|-----|------|------|---------|
+| [31940591](https://pubmed.ncbi.nlm.nih.gov/31940591/) | 2020 | Clinical study | J Immunother Cancer | Pilot study of Treg depletion around ASCT for myeloma. Tregs recover quickly after ASCT and may inhibit anti-myeloma immunity. |
+| [12476283](https://pubmed.ncbi.nlm.nih.gov/12476283/) | 2002 | Clinical study | Bone Marrow Transplant | Basiliximab in 17 patients with steroid-refractory acute GVHD after allogeneic transplant, reported as well tolerated and effective. The group included a few patients with myeloma among other blood cancers. |
+| [28320553](https://pubmed.ncbi.nlm.nih.gov/28320553/) | 2017 | Case reports | Am J Kidney Dis | Four patients with myeloma-related kidney failure who received kidney transplants after achieving myeloma control. Background for the transplant setting, not direct evidence for basiliximab. |
 
 ## Singapore Market Information
 
-Basiliximab currently has **no registered products** in Singapore. No authorisation records are available for this drug.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN10441P | SIMULECT FOR INJECTION 20 mg/vial | Injection, powder, for solution | Not stated in the registry record |
 
 ## Safety Considerations
 
-Safety data for Basiliximab is not available in this Evidence Pack. Please refer to the originator product (Simulect®) package insert for full information on warnings, contraindications, and drug interactions. Key areas to review prior to any clinical application include:
-
-- Hypersensitivity and anaphylactic reactions (known class risk for monoclonal antibodies)
-- Infectious complications due to immunosuppression
-- Potential impact on the graft-versus-myeloma (GVM) effect when used in allogeneic HSCT for myeloma (theoretical concern: over-suppression may reduce anti-tumour immunity)
-
----
+Please refer to the package insert for safety information. Drug interaction records were not found for this drug.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic link between Basiliximab and plasma cell myeloma is biologically indirect — the drug does not target myeloma cells directly, but rather modulates the transplant immune environment via IL-2R blockade. Existing evidence is limited to a Phase 1 pilot (n=30), a small Phase 2 study (n=17), and a 2002 case series, none of which provide a controlled efficacy signal specifically for myeloma. The evidence level (L3) and the indirect mechanistic pathway do not yet support a repurposing development programme without a clearer clinical rationale.
+The myeloma evidence is limited to one completed Phase 1 pilot and small transplant-setting studies, with no efficacy data. The Singapore package insert safety information is also missing, which blocks safety screening.
 
 **To proceed, the following is needed:**
+- Singapore package insert warnings and contraindications from the HSA website
+- Mechanism of action data from DrugBank
+- Efficacy data from a Phase 2 or larger myeloma-specific study of Treg depletion
+- Clarification of whether the pilot's Treg-depletion approach used basiliximab or another agent
 
-- **MOA data gap resolution**: Retrieve full DrugBank entry for Basiliximab to formally document IL-2Rα antagonism and clarify immune-modulatory versus anti-tumour distinctions
-- **Safety package review**: Download and parse the TFDA/EMA/FDA prescribing information (package insert) to document contraindications, black-box warnings, and known drug interactions
-- **Focused clinical hypothesis**: Define whether the repurposing question is (a) GVHD prevention in allogeneic HSCT for myeloma, or (b) Treg depletion post-autologous HSCT to enhance GVM effect — these require distinct trial designs
-- **Efficacy endpoint identification**: Identify prospective data on GVHD rates, transplant-related mortality, or progression-free survival in myeloma-specific cohorts treated with Basiliximab
-- **Singapore regulatory pathway assessment**: Confirm whether Basiliximab can be accessed via named-patient, compassionate use, or clinical trial import given its current non-marketed status in Singapore
+The other nine TxGNN predictions have weaker support. Bronchitis and the hemoglobinopathy entries rest only on transplant-setting evidence, and the rest have no clinical evidence.
 
-> ⚠️ **Disclaimer**: This report is for research reference purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any clinical application.
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

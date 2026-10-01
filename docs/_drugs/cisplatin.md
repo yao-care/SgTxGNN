@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Cisplatin
-parent: High Evidence (L1-L2)
+parent: Low Evidence (L5)
 nav_order: 254
-evidence_level: L1
+evidence_level: L5
 indication_count: 10
 ---
 
 # Cisplatin
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,91 +29,100 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Cisplatin: From Platinum-Based Cancer Chemotherapy to Female Breast Carcinoma
+# Cisplatin: From Established Cytotoxic Chemotherapy to Female Breast Carcinoma
 
 ## One-Sentence Summary
 
-Cisplatin is a platinum-based cytotoxic agent and one of the cornerstones of modern oncology, widely used across multiple solid tumours including testicular, cervical, and ovarian cancers, though its original approved indications are not on file for Singapore.
-The TxGNN model predicts it may be effective for **Female Breast Carcinoma** — particularly in BRCA-mutated and triple-negative subtypes — with a mechanistic basis grounded in DNA crosslinking and homologous recombination deficiency.
-This prediction is currently supported by **46 clinical trials** and **20 publications**.
+Cisplatin is a platinum-based cytotoxic chemotherapy marketed in Singapore as an injection. The local approved-indication text was not supplied, so its original indication is not recorded here.
+The TxGNN model predicts it may be effective for **female breast carcinoma**. The pack lists **46 registered clinical trials**, only a subset of which test cisplatin in breast cancer, and **20 publications**, mostly preclinical.
+Direct clinical evidence exists (small Phase 2 trials, one randomized Phase 2), but no completed Phase 3 trial that clearly tests cisplatin in breast cancer was found.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not available (Cisplatin is not registered in Singapore) |
-| Predicted New Indication | Female Breast Carcinoma |
+|------|------|
+| Predicted New Indication | Female breast carcinoma |
 | TxGNN Prediction Score | 97.39% |
-| Evidence Level | L1 |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Evidence Level | L2 (see note below) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
+| Recommended Decision | Hold |
+
+*Evidence level note: the L2 rating rests on one completed randomized Phase 2 trial (NCT01670500, neoadjuvant cisplatin vs. AC in BRCA-mutation carriers), and no results were supplied for it. The upstream pack scored this indication L3.*
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Why is This Prediction Reasonable?
 
-Formal mechanism of action data was not retrieved from DrugBank for this assessment. Based on established pharmacological knowledge, Cisplatin is a platinum-containing inorganic compound. Once inside a tumour cell, it undergoes aquation to form reactive platinum species that bind covalently to DNA — primarily creating intrastrand crosslinks at GpG and ApG sequences, as well as interstrand crosslinks. These adducts physically obstruct DNA replication and transcription machinery, ultimately triggering apoptosis predominantly via the p53 pathway and mitochondrial cascade.
+Detailed mechanism-of-action data is not available in the pack. Based on known information, cisplatin is a platinum compound that forms DNA crosslinks, and its efficacy in other solid tumours is well established. Mechanistically, it may be applicable to breast cancer.
 
-The key to predicting efficacy in breast carcinoma lies in **Homologous Recombination Deficiency (HRD)**. Cells harbouring BRCA1 or BRCA2 mutations cannot repair Cisplatin-induced DNA crosslinks through HR — a mechanism termed synthetic lethality. Triple-negative breast cancer (TNBC) is the subtype most enriched in BRCA1 mutations and basal-like features, making it selectively vulnerable to Cisplatin at doses tolerable to proficient normal tissues. This mechanistic overlap is well-documented: PMID 33500735 demonstrates that Cisplatin at sub-cytotoxic doses blocks epithelial-mesenchymal transition (EMT) and suppresses breast cancer metastasis; PMID 32124501 identifies CtBP1-driven RAD51 overexpression as a clinically relevant resistance mechanism; and PMID 38043199 shows that the Set7/9 methyltransferase modulates PARP1 expression, altering the threshold for Cisplatin response — collectively establishing BRCA deficiency as the central predictive biomarker for clinical translation.
+The link is strongest in tumours with impaired homologous recombination repair, such as BRCA-related and triple-negative breast cancer. These tumours struggle to repair platinum-induced DNA damage, which makes them more vulnerable to cisplatin.
 
-Crucially, this is not purely theoretical. Multiple Phase II trials have directly tested Cisplatin-based regimens in BRCA-mutated or HER2-positive breast cancers (NCT01670500, NCT01611727, NCT04126525), and a Phase III trial (NCT03201861, n=762) is actively enroling patients to evaluate weekly paclitaxel + Cisplatin as adjuvant therapy for high-risk HER2-negative breast cancer — lending strong clinical plausibility to this TxGNN prediction.
+The literature also describes synergy with PARP inhibitors such as olaparib. It describes resistance through RAD51, PARP1 and glutamine metabolism. The mechanistic rationale is stronger than the clinical evidence.
 
 ---
 
 ## Clinical Trial Evidence
 
+The pack lists 46 trials. Many are basket, supportive-care or other-cancer studies and are excluded here. The table shows the ones most directly relevant to breast cancer. No results are supplied for any of them.
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT04126525](https://clinicaltrials.gov/study/NCT04126525) | Phase 2 | Active, Not Recruiting | 53 | Neoadjuvant trastuzumab + pyrotinib combined with weekly paclitaxel/cisplatin in HER2+ locally advanced breast cancer; prospective open-label efficacy and safety evaluation |
-| [NCT01670500](https://clinicaltrials.gov/study/NCT01670500) | Phase 2 | Completed | 118 | Randomised comparison of neoadjuvant cisplatin vs. doxorubicin/cyclophosphamide (AC) in newly diagnosed breast cancer patients with germline BRCA mutations; directly evaluates cisplatin in a biomarker-selected population |
-| [NCT03201861](https://clinicaltrials.gov/study/NCT03201861) | Phase 3 | Recruiting | 762 | Weekly paclitaxel + cisplatin as adjuvant chemotherapy for high-risk, HER2-negative breast cancer; hypothesis that cisplatin improves outcomes vs. standard regimens |
-| [NCT01611727](https://clinicaltrials.gov/study/NCT01611727) | Phase 2 | Completed | 20 | Cisplatin monotherapy in BRCA1-positive metastatic breast cancer; one of the first trials to systematically probe cisplatin sensitivity in BRCA1 carriers |
-| [NCT00535509](https://clinicaltrials.gov/study/NCT00535509) | Phase 2 | Completed | 285 | Neoadjuvant FEC100 followed by cisplatin-docetaxel ± trastuzumab in HER2-overexpressed or amplified locally advanced breast cancer |
-| [NCT02365805](https://clinicaltrials.gov/study/NCT02365805) | Phase 2 | Completed | 30 | Randomised trial of BRCA1 mRNA expression-guided neoadjuvant chemotherapy selection (cisplatin-based vs. taxane-based) in HER2-negative primary breast cancer |
-| [NCT01031446](https://clinicaltrials.gov/study/NCT01031446) | Phase 1/2 | Completed | 55 | Cisplatin + paclitaxel + everolimus (mTOR inhibitor) in metastatic breast cancer; investigates potential synergy between platinum-based DNA damage and mTOR blockade |
-| [NCT00002772](https://clinicaltrials.gov/study/NCT00002772) | Phase 3 | Terminated | 602 | Intensive sequential chemotherapy (doxorubicin/paclitaxel/cyclophosphamide) vs. high-dose chemotherapy + peripheral stem cell transplant in breast cancer with 4–9 involved axillary lymph nodes; terminated before primary endpoint |
-| [NCT02466971](https://clinicaltrials.gov/study/NCT02466971) | Phase 3 | Active, Not Recruiting | 450 | Radiation + cisplatin ± triapine (ribonucleotide reductase inhibitor) in newly diagnosed bulky cervical/vaginal cancer; provides highest-level evidence for cisplatin + radiotherapy combination in gynaecological cancers with mechanistic relevance to HRD tumours |
-| [NCT05007106](https://clinicaltrials.gov/study/NCT05007106) | Phase 2 | Completed | 613 | Basket study of pembrolizumab/vibostolimab co-formulation ± other anticancer therapies including cisplatin-based regimens in advanced solid tumours; includes cervical cancer cohort |
+| [NCT01670500](https://clinicaltrials.gov/study/NCT01670500) | Phase 2 | Completed | 118 | Randomized neoadjuvant cisplatin vs. doxorubicin/cyclophosphamide (AC) in newly diagnosed breast cancer with germline BRCA mutations |
+| [NCT03201861](https://clinicaltrials.gov/study/NCT03201861) | Phase 3 | Recruiting | 762 | Weekly paclitaxel + cisplatin as adjuvant therapy in high-risk, HER2-negative early breast cancer |
+| [NCT04126525](https://clinicaltrials.gov/study/NCT04126525) | Phase 2 | Active, not recruiting | 53 | Neoadjuvant trastuzumab/pyrotinib + weekly paclitaxel/cisplatin in HER2-positive locally advanced breast cancer; likely single-arm |
+| [NCT01611727](https://clinicaltrials.gov/study/NCT01611727) | Phase 2 | Completed | 20 | Open-label cisplatin in BRCA1-positive metastatic breast cancer |
+| [NCT01031446](https://clinicaltrials.gov/study/NCT01031446) | Phase 1/2 | Completed | 55 | Cisplatin + paclitaxel + everolimus (RAD001) in metastatic breast cancer |
+| [NCT00535509](https://clinicaltrials.gov/study/NCT00535509) | Phase 2 (listed as N/A) | Completed | 285 | Neoadjuvant FEC100/cisplatin-docetaxel ± trastuzumab in HER2-overexpressing locally advanced breast cancer |
+| [NCT02365805](https://clinicaltrials.gov/study/NCT02365805) | Phase 2 | Completed | 30 | Randomized neoadjuvant chemotherapy customized by BRCA1 level in HER2-negative breast cancer; the cisplatin arm is not stated in the supplied text |
+| [NCT00002772](https://clinicaltrials.gov/study/NCT00002772) | Phase 3 | Terminated | 602 | Sequential intensive chemotherapy vs. high-dose chemotherapy with stem cell support in primary breast cancer; the platinum agent is unverified |
+| [NCT00003032](https://clinicaltrials.gov/study/NCT00003032) | Phase 3 | Completed | 224 | High-dose chemotherapy with stem cell therapy vs. standard therapy in metastatic breast cancer; cisplatin's role is not stated |
 
 ---
 
 ## Literature Evidence
 
+No randomized trials were found. The clinical papers are small single-arm studies or cohorts, and the rest are preclinical.
+
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|---------|
-| [24824628](https://pubmed.ncbi.nlm.nih.gov/24824628/) | 2015 | Phase II Clinical Study | Int J Cancer | Cisplatin (25 mg/m² d1–3) + gemcitabine as first-line therapy in metastatic TNBC (NCT00601159): ORR 37.5%, median PFS 7.0 months; establishes GP as an active regimen specifically in mTNBC |
-| [2643295](https://pubmed.ncbi.nlm.nih.gov/2643295/) | 1989 | Clinical Series | Am J Clin Oncol | Cisplatin 100 mg/m² + etoposide 300 mg/m² in 29 evaluable patients with refractory metastatic breast carcinoma: 3 CR + 8 PR (38% response rate); early evidence that platinum is active after prior anthracycline/hormone failure |
-| [22593470](https://pubmed.ncbi.nlm.nih.gov/22593470/) | 2012 | Clinical Study | Anticancer Res | Salvage cisplatin + 5-fluorouracil in heavily pretreated metastatic breast cancer; noteworthy activity against liver metastases where other regimens often fail |
-| [24344005](https://pubmed.ncbi.nlm.nih.gov/24344005/) | 2013 | Clinical Study | J BUON | Capecitabine + cisplatin doublet in anthracycline- and taxane-pretreated, HER-2 negative metastatic breast carcinoma; evaluates activity and tolerability in a late-line setting |
-| [33500735](https://pubmed.ncbi.nlm.nih.gov/33500735/) | 2021 | Preclinical/Mechanistic | Theranostics | At low doses, cisplatin blocks EMT by downregulating vimentin/N-cadherin and upregulating E-cadherin in breast cancer cells; combined with paclitaxel, retards both growth and metastasis — mechanistic basis for anti-metastatic activity |
-| [40295796](https://pubmed.ncbi.nlm.nih.gov/40295796/) | 2025 | Network Pharmacology | Sci Rep | Network pharmacology identifies shared targets and converging pathways underlying olaparib + cisplatin synergy in breast cancer; supports PARP-HR axis as the central therapeutic node |
-| [32124501](https://pubmed.ncbi.nlm.nih.gov/32124501/) | 2020 | Preclinical/Mechanistic | Mol Carcinog | CtBP1 transcriptionally activates RAD51, conferring cisplatin resistance in breast cancer cells; RAD51 overexpression identified as a druggable resistance biomarker relevant to BRCA-deficient tumours |
-| [38043199](https://pubmed.ncbi.nlm.nih.gov/38043199/) | 2024 | Preclinical/Mechanistic | Biochem Biophys Res Commun | Methyltransferase Set7/9 controls PARP1 expression and modulates cisplatin response in breast cancer; epigenetic layer of sensitivity regulation with translational implications for patient stratification |
-| [25992773](https://pubmed.ncbi.nlm.nih.gov/25992773/) | 2015 | Preclinical/Mechanistic | Oncotarget | Pit-1 transcription factor downregulates BRCA1 gene expression in breast cancer cells, sensitising them to cisplatin-induced DNA damage; confirms BRCA1 suppression as a mechanism of acquired cisplatin sensitivity |
-| [27448297](https://pubmed.ncbi.nlm.nih.gov/27448297/) | 2016 | Review | Tumour Biol | Comprehensive review of miRNA-mediated cisplatin resistance in breast cancer; covers EMT-related miRNAs, DNA damage response modification, and anti-apoptotic pathway upregulation — roadmap for overcoming resistance |
+|------|-----|------|------|---------|
+| [24824628](https://pubmed.ncbi.nlm.nih.gov/24824628/) | 2015 | Phase 2, single-arm | Int J Cancer | Cisplatin + gemcitabine as first-line therapy in metastatic triple-negative breast cancer (NCT00601159); outcome data are not in the supplied excerpt |
+| [2643295](https://pubmed.ncbi.nlm.nih.gov/2643295/) | 1989 | Cohort | Am J Clin Oncol | Cisplatin + etoposide in refractory metastatic breast cancer: 3 complete and 8 partial responses among 29 evaluable patients |
+| [22593470](https://pubmed.ncbi.nlm.nih.gov/22593470/) | 2012 | Clinical series | Anticancer Res | Salvage cisplatin + 5-FU in heavily pretreated metastatic breast cancer, with particular activity reported against liver metastases |
+| [24344005](https://pubmed.ncbi.nlm.nih.gov/24344005/) | 2013 | Clinical series | J BUON | Capecitabine/cisplatin doublet in anthracycline- and taxane-pretreated, HER2-negative metastatic breast cancer |
+| [27448297](https://pubmed.ncbi.nlm.nih.gov/27448297/) | 2016 | Review | Tumour Biol | miRNA-mediated mechanisms of cisplatin resistance in breast cancer |
+| [33500735](https://pubmed.ncbi.nlm.nih.gov/33500735/) | 2021 | Preclinical | Theranostics | Cisplatin blocks early EMT and metastasis in breast cancer cells and slows growth together with paclitaxel |
+| [34998857](https://pubmed.ncbi.nlm.nih.gov/34998857/) | 2022 | Preclinical (mouse) | Toxicol Appl Pharmacol | Timed (chronotherapy) cisplatin in a triple-negative mammary carcinoma model under normal and disrupted clock conditions |
+| [37067747](https://pubmed.ncbi.nlm.nih.gov/37067747/) | 2023 | Preclinical | Cell Oncol | Gallium maltolate shows synergy with cisplatin in breast carcinoma cells |
+| [32124501](https://pubmed.ncbi.nlm.nih.gov/32124501/) | 2020 | Preclinical (resistance) | Mol Carcinog | CtBP1 activates RAD51 and confers cisplatin resistance in breast cancer cells |
+| [40295796](https://pubmed.ncbi.nlm.nih.gov/40295796/) | 2025 | In silico | Sci Rep | Network pharmacology of olaparib + cisplatin synergy in breast cancer |
 
 ---
 
 ## Singapore Market Information
 
-Cisplatin (DrugBank ID: DB00515) currently holds **no marketing authorisation** in Singapore. There are no registered products on file.
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN00762P | DBL CISPLATIN INJECTION 1 mg/ml | Injection | Hospira Australia Pty Ltd |
+| SIN05418P | CISPLATIN INJECTION 1 mg/ml | Injection | Bridgewest Perth Pharma Pty Ltd |
 
-> **Note for procurement:** Cisplatin is a long-established generic cytotoxic agent included on the WHO Essential Medicines List and is commercially available worldwide (e.g., as intravenous concentrate from multiple manufacturers). Availability via institutional import or hospital tender should be confirmed with the relevant hospital pharmacy and the Health Sciences Authority (HSA) of Singapore under the applicable regulatory framework for unregistered medicines.
+Approved-indication text was not supplied for either registration, so on-label versus off-label status for breast cancer could not be assessed.
 
 ---
 
 ## Cytotoxicity
 
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Conventional cytotoxic — Platinum-based DNA crosslinking agent |
-| Myelosuppression Risk | Moderate (leukopenia and thrombocytopenia occur; myelosuppression is generally less severe than with carboplatin at standard doses, but cumulative over multiple cycles) |
-| Emetogenicity Classification | **High** — classified as a highly emetogenic agent; requires prophylactic triple antiemetic therapy (5-HT₃ antagonist + NK1 antagonist + dexamethasone) before each dose |
-| Monitoring Items | Serum creatinine / eGFR and 24-hour urine output (nephrotoxicity — dose-limiting); CBC with differential (myelosuppression); pure-tone audiogram at baseline and periodically (ototoxicity, especially at cumulative doses); neurological assessment for peripheral neuropathy; serum electrolytes — magnesium, potassium, sodium (electrolyte wasting); liver function tests |
-| Handling Protection | Must be prepared and administered according to cytotoxic drug handling regulations; personal protective equipment (gloves, gown, eye protection) required; preparation in a designated biological safety cabinet in pharmacy; waste disposal per cytotoxic waste protocols |
+|------|------|
+| Cytotoxicity Classification | Conventional cytotoxic (platinum class, DNA crosslinking) |
+| Myelosuppression Risk | Moderate |
+| Emetogenicity Classification | High |
+| Monitoring Items | CBC with differential, renal function, electrolytes (including magnesium and potassium), hearing and neurological assessment |
+| Handling Protection | Must follow cytotoxic drug handling regulations |
+
+The pack contains no DrugBank toxicity data, so these entries reflect general knowledge of the drug class. Please refer to the package insert warnings and precautions for authoritative details.
 
 ---
 
@@ -121,24 +130,23 @@ Cisplatin (DrugBank ID: DB00515) currently holds **no marketing authorisation** 
 
 Please refer to the package insert for safety information.
 
-> Safety data including key warnings, contraindications, and drug-drug interactions were not available in this evidence pack (identified as a blocking data gap: DG001). Retrieval from the TFDA package insert PDF and DrugBank API is recommended before any clinical use decision. Of particular importance are contraindications in renal impairment and interactions with other nephrotoxic agents (e.g., aminoglycosides, NSAIDs).
-
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Cisplatin's activity in BRCA-mutated and triple-negative breast cancer is supported by multiple completed Phase II trials with direct evidence, an ongoing Phase III trial (NCT03201861, n=762), and a well-characterised mechanistic rationale built on synthetic lethality with HRD. The TxGNN score of 97.39% reflects a prediction strongly consistent with the clinical evidence already in the public domain.
+The mechanistic rationale is credible, especially for BRCA-related and triple-negative disease. Direct clinical evidence is limited to small Phase 2 trials, with no supplied results and no completed Phase 3 trial that clearly tests cisplatin in breast cancer.
+The HSA package insert warnings and contraindications are also missing, a blocking gap for safety screening.
 
 **To proceed, the following is needed:**
-- **Safety data retrieval**: Download and parse TFDA package insert PDF to obtain key warnings, contraindications, and drug-drug interactions (DG001 — Blocking severity; required before S1 safety screening)
-- **DrugBank MOA data**: Query DrugBank API to formally populate mechanism of action and pharmacokinetic parameters (DG002 — High severity)
-- **Patient selection strategy**: Define eligibility criteria based on BRCA1/2 germline/somatic mutation status or validated HRD assay score; TNBC subtype is the primary enrichment strategy
-- **Singapore procurement pathway**: Confirm mechanism for importation or hospital-based sourcing of Cisplatin as an unregistered medicine under HSA regulations
-- **Renal function threshold**: Establish institution-specific creatinine clearance cut-off (typically ≥60 mL/min) and hydration/antiemetic protocol before first infusion
-- **Long-term toxicity monitoring plan**: Pre-specify audiological follow-up and neurotoxicity grading schedule, given cumulative dose-dependent ototoxicity and peripheral neuropathy
+- HSA package insert (warnings, contraindications) and the approved-indication text for both registrations
+- Results for NCT01670500 (randomized Phase 2 vs. AC) and NCT03201861 (Phase 3), with subgroup data for BRCA-mutated and triple-negative disease
+- Mechanism-of-action data from DrugBank
+- Toxicity and monitoring plan for breast cancer populations, including nephrotoxicity, ototoxicity, neuropathy and myelosuppression
+
+*Note: other predictions in this pack, such as gonadal and adult germ cell tumors, have stronger evidence. Cisplatin-based regimens are already standard there, so they are established uses rather than new repurposing.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

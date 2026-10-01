@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Prucalopride
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 831
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 ---
 
 # Prucalopride
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Prucalopride: From Chronic Constipation (Class Use) to Amyloidosis-Related GI Motility Disorder
+# Prucalopride: From Gastrointestinal Motility Disorders to Hypoalphalipoproteinemia
 
 ## One-Sentence Summary
 
-> Prucalopride is a selective 5-HT4 receptor agonist used clinically to enhance colonic motility in chronic constipation (per evidence pack rationale notes; no structured original-indication or MOA record is available in this pack).
-> Among 10 TxGNN-predicted indications, the top-ranked candidate (hypoalphalipoproteinemia, 99.82%) is explicitly flagged in the evidence pack as likely model noise with no mechanistic plausibility.
-> The most defensible candidate is **Amyloidosis-related GI motility disorder**, supported by **2 case/cohort publications** describing amyloid-induced enteric neuromuscular dysfunction, though no clinical trial has directly tested prucalopride in this population.
+Prucalopride is a selective 5-HT4 receptor agonist with gastrointestinal prokinetic activity, and it is marketed in Singapore as Resolor tablets.
+The TxGNN model ranks **hypoalphalipoproteinemia** (low HDL cholesterol) as its top prediction, but **no clinical trials and no publications** support it, and no biological link is known.
+Of the 10 predicted indications, only the amyloidosis-related ones have any literature, and that literature is indirect.
 
 ---
 
@@ -43,54 +43,77 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no Singapore license or `original_indications` record exists; class use (chronic constipation) is inferred only from rationale text, not a structured field |
-| Predicted New Indication | Amyloidosis (GI motility disorder / chronic intestinal pseudo-obstruction) |
-| TxGNN Prediction Score | 99.62% (rank 6 of candidate list; related entry "primary amyloidosis" at 99.56%, rank 9) |
-| Evidence Level | L4 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Original Indication | Not stated in the Singapore registration records (approved-indication text is empty); pharmacologically a GI prokinetic |
+| Predicted New Indication | Hypoalphalipoproteinemia |
+| TxGNN Prediction Score | 99.82% |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
 | Recommended Decision | Hold |
-
-**Note on selection:** The single highest-scoring TxGNN prediction (hypoalphalipoproteinemia, 99.82%) was **not** used as the headline candidate. Its own `repurposing_rationale` states there is no known mechanistic or clinical link and explicitly labels it as likely prediction noise. The amyloidosis-related candidates are the only ones in this pack that reach L4 evidence (literature-supported) and an S1 decision stage ("Research Question"); all other 8 candidates remain L5/S0/Hold with no supporting evidence.
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the structured `original_moa` field (flagged as a High-severity data gap, DG002). Based on the mechanistic notes accompanying the predictions, prucalopride is described as a selective 5-HT4 receptor agonist that promotes colonic motility, a mechanism established for chronic constipation.
+Currently, detailed mechanism of action data is not available in the input. Prucalopride is known as a selective 5-HT4 receptor agonist that stimulates gastrointestinal motility.
 
-Amyloid protein deposition can infiltrate the intestinal smooth muscle layer and enteric nervous plexus, producing gastrointestinal motility failure that can progress to chronic intestinal pseudo-obstruction (CIPO). This creates a theoretical overlap with prucalopride's known pharmacology (correcting insufficient gut motility), since both the disease mechanism and the drug's action converge on enteric neuromuscular function.
+For hypoalphalipoproteinemia, **no plausible link was identified**. Prucalopride has no known role in HDL metabolism. The high score (0.998) is a graph-based prediction only, with no trial or literature support.
 
-However, this is an **indirect mechanistic inference, not direct treatment evidence**. The supporting literature only characterizes how amyloidosis produces GI dysmotility (and how it is frequently misdiagnosed as a functional GI disorder); none of the retrieved publications evaluate prucalopride's efficacy or safety in amyloidosis patients. No clinical trials (registered or ICTRP) currently exist for this drug-disease pair.
+The same applies to the next four predictions. There is no known connection to LDL receptor function in homozygous familial hypercholesterolemia. There is no effect on acid secretion or mucosal defence in duodenal ulcer. There is no antifungal mechanism in oral candidiasis. And there is no link to lipid metabolism in the familial combined hyperlipidemia entry, which is flagged **obsolete** in the ontology and may map to a deprecated node.
+
+The only candidates with a partial rationale are the amyloidosis-related ones (amyloidosis, primary amyloidosis, acquired amyloid peripheral neuropathy). Amyloid infiltration of the gut wall or autonomic nerves can cause intestinal dysmotility or pseudo-obstruction, and a prokinetic might relieve those symptoms. This would be symptom management only and would not modify the underlying amyloid disease.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered (for hypoalphalipoproteinemia or any of the other 9 predicted indications).
 
 ---
 
 ## Literature Evidence
 
+Currently no related literature available for hypoalphalipoproteinemia.
+
+Two papers were retrieved for the amyloidosis-related predictions. Neither tests prucalopride:
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [34231480](https://pubmed.ncbi.nlm.nih.gov/34231480/) | 2021 | Cohort | Turkish J Gastroenterol | Specific GI motility disorders (gastroparesis, CIPO, colonic inertia) are commonly under-recognized in Asia and misdiagnosed as functional GI disorders by community physicians |
-| [40376135](https://pubmed.ncbi.nlm.nih.gov/40376135/) | 2025 | Case Report | Cureus | 61-year-old man with recurrent dilated small bowel and multiple non-diagnostic laparotomies, ultimately attributed to amyloidosis presenting as chronic intestinal pseudo-obstruction |
+| [34231480](https://pubmed.ncbi.nlm.nih.gov/34231480/) | 2021 | Cohort | Turk J Gastroenterol | Specific GI motility disorders (gastroparesis, chronic intestinal pseudo-obstruction, colonic inertia) are often misdiagnosed as functional GI disorders by community physicians. This is a diagnostic study, not a prucalopride treatment study. |
+| [40376135](https://pubmed.ncbi.nlm.nih.gov/40376135/) | 2025 | Case report | Cureus | A 61-year-old man with amyloidosis presenting as chronic intestinal pseudo-obstruction. It shows amyloidosis as a cause of dysmotility, not prucalopride efficacy. |
+
+---
+
+## Other Predicted Indications (Ranks 2–10)
+
+| Rank | Indication | Score | Evidence Level | Recommendation |
+|------|------|------|------|------|
+| 2 | Homozygous familial hypercholesterolemia | 99.67% | L5 | Hold |
+| 3 | Duodenal ulcer | 99.65% | L5 | Hold |
+| 4 | Oral candidiasis | 99.64% | L5 | Hold |
+| 5 | Familial combined hyperlipidemia (obsolete term) | 99.62% | L5 | Hold |
+| 6 | Amyloidosis | 99.62% | L4 | Research Question |
+| 7 | Strongyloidiasis | 99.60% | L5 | Hold |
+| 8 | HIV infectious disease | 99.60% | L5 | Hold |
+| 9 | Primary amyloidosis | 99.56% | L4 | Research Question |
+| 10 | Acquired amyloid peripheral neuropathy | 99.55% | L5 | Hold |
 
 ---
 
 ## Singapore Market Information
 
-Prucalopride currently has no marketing license record in this dataset — `taiwan_regulatory.licenses` is empty and market status is "Not Marketed."
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN14103P | Resolor Film-coated Tablet 1 mg | Tablet, film coated | Not listed in registration record |
+| SIN14104P | Resolor Film-coated Tablet 2 mg | Tablet, film coated | Not listed in registration record |
+
+Both products are manufactured by Janssen Cilag S.p.A. and are oral formulations.
 
 ---
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-*(Note: `key_warnings`, `contraindications`, and DDI data are all unavailable in the current evidence pack. This is flagged as a **Blocking** data gap — DG001, TFDA/HSA label warnings and contraindications — and must be resolved before any S1 safety assessment can proceed.)*
 
 ---
 
@@ -99,13 +122,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-Even the best-supported candidate (amyloidosis-related GI motility disorder) rests only on indirect case/cohort literature describing disease mechanism, with no direct clinical evidence for prucalopride in this population, no registered trials, and a Blocking-severity gap in label safety data. The drug is also unregistered in the Singapore market, and the top TxGNN-scored candidate for this drug is independently assessed as likely noise.
+The top-ranked prediction (hypoalphalipoproteinemia) has no clinical trials, no literature, and no plausible mechanism. The amyloidosis-related candidates have an indirect, symptom-level rationale only, and their retrieved papers do not test prucalopride. Nothing here currently justifies moving forward.
 
 **To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain TFDA/HSA label warnings and contraindications before any safety evaluation
-- Resolve DG002: confirm mechanism of action via DrugBank API query
-- Generate or identify direct clinical evidence (retrospective cohort or trial) evaluating prucalopride specifically in amyloidosis-associated GI dysmotility / CIPO
-- Confirm Singapore/regional regulatory pathway status, since the drug currently holds zero local licenses
+- HSA package insert (warnings, contraindications, approved indication), which is required before any safety screening
+- Mechanism of action data from DrugBank
+- Reconciliation of the obsolete familial combined hyperlipidemia term with its current ontology node
+- For the amyloidosis-related candidates, a targeted search for prucalopride use in amyloid-associated GI dysmotility, framed as symptom management rather than disease modification
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

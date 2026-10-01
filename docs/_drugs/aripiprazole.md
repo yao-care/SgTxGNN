@@ -29,106 +29,100 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Aripiprazole: From Schizophrenia to Major Affective Disorder
+# Aripiprazole: From Antipsychotic Use to Major Affective Disorder
 
 ## One-Sentence Summary
 
-Aripiprazole is a second-generation (atypical) antipsychotic, originally approved globally for the treatment of schizophrenia and bipolar I disorder, though currently not registered in Singapore.
-The TxGNN model predicts it may be effective for **Major Affective Disorder** (encompassing major depressive disorder and bipolar disorder),
-with **multiple completed Phase 3 RCTs** and **20 publications** currently supporting this direction — yielding an overall evidence level of **L1**.
-
-> **Note:** Aripiprazole already holds FDA approval for adjunctive treatment of major depressive disorder and bipolar I disorder globally. Its "not marketed" status in Singapore represents a **regulatory access gap**, not an evidence gap.
-
----
+Aripiprazole is a marketed atypical antipsychotic. The registration records provided contain no approved-indication text, so its labelled indications are unconfirmed here.
+The TxGNN model predicts it may be effective for **major affective disorder**, and **50 clinical trials** and **20 publications** were retrieved for this direction. Many of these are Phase 3 trials of aripiprazole added to an antidepressant in major depressive disorder (MDD).
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Schizophrenia; Bipolar I Disorder (global approvals) |
-| Predicted New Indication | Major Affective Disorder |
+|------|------|
+| Original Indication | Not stated in the Singapore registration records (approved-indication text is empty) |
+| Predicted New Indication | Major affective disorder |
 | TxGNN Prediction Score | 99.62% |
 | Evidence Level | L1 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 14 |
 | Recommended Decision | Proceed with Guardrails |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Aripiprazole is a dopamine D2/D3 partial agonist and serotonin 5-HT1A partial agonist with 5-HT2A antagonism — a dual-mechanism profile often described as "dopamine-serotonin system stabiliser." Its partial agonist activity at D2 receptors allows it to stabilise mesolimbic dopamine overactivity without the full blockade seen with older antipsychotics, while the 5-HT1A partial agonism and 5-HT2A antagonism enhance serotonergic and dopaminergic transmission in the prefrontal cortex. This combination directly addresses the neurobiological substrates underlying both the manic/psychotic pole and the depressive pole of major affective disorders.
+Aripiprazole is a dopamine D2 partial agonist, a serotonin 5-HT1A partial agonist and a 5-HT2A antagonist. This receptor profile fits mood stabilisation and antidepressant augmentation. A structured mechanism-of-action record is not available for this drug, so the description above comes from the pharmacological rationale supplied with the prediction.
 
-The mechanistic bridge to major affective disorder is well-established: dysregulation of the dopamine-serotonin axis is central to the pathophysiology of both major depressive disorder (MDD) and bipolar disorder. Aripiprazole's ability to modulate reward circuitry and prefrontal function without causing metabolic burden or sedation distinguishes it from other second-generation antipsychotics used in mood disorders. The US FDA has already approved aripiprazole as an adjunctive treatment for MDD (Abilify, 2007) and for acute mania and maintenance treatment of bipolar I disorder — providing high-confidence external validation for the TxGNN prediction.
+Major affective disorder covers depressive and bipolar mood conditions. The trials retrieved test aripiprazole as an add-on to antidepressants in MDD when the antidepressant alone is not enough. They also test it in bipolar I disorder, including a long-acting injectable maintenance study and paediatric studies. One review in the evidence set (PMID 25963405) states that aripiprazole has already received FDA approval as an adjunct to antidepressants in MDD.
 
-In the Singapore context, the drug's absence from the local market reflects a regulatory submission gap rather than any clinical uncertainty. The breadth and quality of global evidence — including large Phase 3 multi-centre RCTs in treatment-resistant depression (TRD), MDD augmentation, and bipolar maintenance — makes this one of the most evidence-rich repurposing candidates in the dataset. The TxGNN score of 99.62% further reinforces that the knowledge-graph topology strongly links aripiprazole to affective disorder biology.
-
----
+Because the local label text is empty, it is unclear how much of this is true repurposing and how much is an existing labelled use. The Singapore label must be checked before the candidate is treated as repurposing.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT01421342](https://clinicaltrials.gov/study/NCT01421342) | Phase 3 | Completed | 1,522 | VA VAST-D: Compared aripiprazole augmentation vs. bupropion-SR augmentation vs. bupropion-SR switch in Veterans with MDD unresponsive to first-line antidepressants; primary outcome was symptom remission at 12 weeks |
-| [NCT00095758](https://clinicaltrials.gov/study/NCT00095758) | Phase 3 | Completed | 1,200 | Randomised, double-blind, placebo-controlled 14-week study of adjunctive aripiprazole for MDD patients with inadequate response to ongoing antidepressant therapy; core Phase 3 registration trial |
-| [NCT00261443](https://clinicaltrials.gov/study/NCT00261443) | Phase 4 | Completed | 1,270 | Long-term maintenance study of aripiprazole combined with lithium or valproate in bipolar I disorder patients partially non-responsive to mood stabiliser monotherapy |
-| [NCT00277212](https://clinicaltrials.gov/study/NCT00277212) | Phase 4 | Completed | 1,169 | Double-blind maintenance study of aripiprazole combined with lamotrigine in bipolar I disorder following recent manic or mixed episode |
-| [NCT01567527](https://clinicaltrials.gov/study/NCT01567527) | Phase 3 | Completed | 731 | 52-week, placebo-controlled trial of aripiprazole intramuscular depot (OPC-14597) for maintenance treatment in bipolar I disorder; assessed time to recurrence of any mood episode |
-| [NCT00876343](https://clinicaltrials.gov/study/NCT00876343) | Phase 3 | Completed | 586 | Placebo-controlled, parallel-group study of aripiprazole as adjunctive therapy with SSRI or SNRI in MDD patients; conducted across multiple centres |
-| [NCT02046564](https://clinicaltrials.gov/study/NCT02046564) | Phase 3 | Completed | 412 | Evaluated the fixed-dose combination ASC-01 (aripiprazole/sertraline) vs. sertraline monotherapy in MDD patients with incomplete response to sertraline |
-| [NCT03423680](https://clinicaltrials.gov/study/NCT03423680) | Phase 3 | Recruiting | 390 | 8-week confirmatory study of aripiprazole adjunctive to mood stabiliser for major depressive episodes in bipolar I or II disorder; ongoing with results expected post-2025 |
-| [NCT00110461](https://clinicaltrials.gov/study/NCT00110461) | Phase 3 | Completed | 296 | Tested two doses of aripiprazole in children and adolescents with bipolar I disorder (manic or mixed episode); key paediatric safety and efficacy dataset |
-| [NCT00704860](https://clinicaltrials.gov/study/NCT00704860) | Phase 4 | Completed | 27 | Investigated aripiprazole augmentation in treatment-resistant depression (TRD) with neuroimaging (raclopride/F-DOPA PET and fMRI) to characterise dopaminergic mechanism; directly supports TRD subpopulation |
+The 50 trials retrieved include 16 Phase 3 trials for this predicted indication. The table lists the 10 most relevant. The summaries describe study designs, since no efficacy results were included in the data provided.
 
----
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT00095758](https://clinicaltrials.gov/study/NCT00095758) | Phase 3 | Completed | 1200 | 14-week randomized, double-blind, placebo-controlled trial of aripiprazole added to ongoing antidepressant treatment in MDD |
+| [NCT00876343](https://clinicaltrials.gov/study/NCT00876343) | Phase 3 | Completed | 586 | Placebo-controlled, double-blind trial of aripiprazole added to an SSRI or SNRI in MDD |
+| [NCT00683852](https://clinicaltrials.gov/study/NCT00683852) | Phase 3 | Completed | 225 | Double-blind, placebo-controlled trial of a reduced aripiprazole dose added to antidepressant therapy in MDD with inadequate response |
+| [NCT02046564](https://clinicaltrials.gov/study/NCT02046564) | Phase 3 | Completed | 412 | Randomized, double-blind trial of aripiprazole/sertraline combination (ASC-01) vs sertraline alone in MDD with incomplete response to sertraline |
+| [NCT01421342](https://clinicaltrials.gov/study/NCT01421342) | Phase 3 | Completed | 1522 | VAST-D: aripiprazole or bupropion-SR added to an antidepressant vs switching to bupropion-SR, in Veterans with MDD |
+| [NCT01111539](https://clinicaltrials.gov/study/NCT01111539) | Phase 3 | Terminated | 211 | Randomized, double-blind trial of an aripiprazole/escitalopram combination in MDD; stopped early |
+| [NCT03423680](https://clinicaltrials.gov/study/NCT03423680) | Phase 3 | Recruiting | 390 | 8-week randomized, double-blind, placebo-controlled trial of adjunctive aripiprazole (with a mood stabiliser) for depressive episodes in bipolar I/II disorder |
+| [NCT01567527](https://clinicaltrials.gov/study/NCT01567527) | Phase 3 | Completed | 731 | 52-week randomized, double-blind, placebo-controlled maintenance trial of intramuscular depot aripiprazole in bipolar I disorder |
+| [NCT00110461](https://clinicaltrials.gov/study/NCT00110461) | Phase 3 | Completed | 296 | Two aripiprazole doses in children and adolescents with bipolar I disorder (manic or mixed episode) |
+| [NCT00882362](https://clinicaltrials.gov/study/NCT00882362) | Phase 3 | Completed | 155 | Long-term study of aripiprazole added to an SSRI or SNRI in MDD |
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [38669232](https://pubmed.ncbi.nlm.nih.gov/38669232/) | 2024 | Meta-analysis of RCTs | PLoS One | First and largest systematic review and meta-analysis of RCTs evaluating aripiprazole or bupropion augmentation and switching in TRD/MDD; demonstrated significant efficacy and acceptable safety profile for aripiprazole augmentation |
-| [36961650](https://pubmed.ncbi.nlm.nih.gov/36961650/) | 2023 | RCT | CNS Drugs | Randomised, open-label, pivotal pharmacokinetic/safety study of aripiprazole 2-month long-acting injectable (960 mg) in schizophrenia and bipolar I disorder; confirmed PK equivalence and safety enabling extended dosing interval |
-| [38219278](https://pubmed.ncbi.nlm.nih.gov/38219278/) | 2024 | Systematic Review | Neuropsychopharmacology Reports | Frequentist network meta-analysis comparing brexpiprazole, aripiprazole, and placebo for Japanese MDD patients inadequately responsive to antidepressants; confirmed efficacy and characterised tolerability differences relevant to Asian populations |
-| [37815563](https://pubmed.ncbi.nlm.nih.gov/37815563/) | 2023 | Review | JAMA | Comprehensive review of bipolar disorder diagnosis and treatment covering ~8 million US adults and ~40 million globally; positions aripiprazole within contemporary treatment algorithms |
-| [34986373](https://pubmed.ncbi.nlm.nih.gov/34986373/) | 2022 | Systematic Review / Network Meta-analysis | Journal of Affective Disorders | Network meta-analysis comparing augmentation agents in adult TRD; aripiprazole ranked among the most efficacious and well-tolerated augmentation options |
-| [37149344](https://pubmed.ncbi.nlm.nih.gov/37149344/) | 2023 | Review | Psychiatric Clinics of North America | Reviewed pharmacotherapy for TRD; highlighted that atypical antipsychotics — particularly aripiprazole and brexpiprazole — are the most widely studied augmentation agents with FDA approval |
-| [35510505](https://pubmed.ncbi.nlm.nih.gov/35510505/) | 2023 | Systematic Review | Psychological Medicine | Comprehensive meta-analysis of antipsychotics as monotherapy and adjunctive therapy in MDD; first analysis to systematically examine both treatment roles across the drug class |
-| [34167174](https://pubmed.ncbi.nlm.nih.gov/34167174/) | 2021 | Systematic Review / Meta-analysis | Primary Care Companion for CNS Disorders | Assessed long-term (≥6 months) efficacy and safety of adjunctive aripiprazole in MDD; remission rates and adverse effect profile confirmed sustained benefit |
-| [37746943](https://pubmed.ncbi.nlm.nih.gov/37746943/) | 2023 | Systematic Review / Network Meta-analysis | Medicine | Compared and ranked four atypical antipsychotics (including aripiprazole) for adjuvant treatment of MDD; provided direct comparative efficacy and safety data |
-| [25963405](https://pubmed.ncbi.nlm.nih.gov/25963405/) | 2016 | Review | Asia-Pacific Psychiatry | Reviewed three FDA-approved antipsychotics for adjunctive MDD treatment (quetiapine, aripiprazole, olanzapine); noted these agents are effective at sub-antipsychotic doses and discussed receptor-profile mechanisms — directly relevant to the Asia-Pacific regulatory context |
+The table lists 10 of the 20 publications retrieved. Genome-wide studies of bipolar disorder and papers on brain stimulation and psychedelics were left out because they do not test aripiprazole.
 
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [38669232](https://pubmed.ncbi.nlm.nih.gov/38669232/) | 2024 | Systematic review / meta-analysis of RCTs | PLoS One | Efficacy and safety of aripiprazole or bupropion augmentation and switching in treatment-resistant depression or MDD |
+| [34986373](https://pubmed.ncbi.nlm.nih.gov/34986373/) | 2022 | Systematic review / network meta-analysis | J Affect Disord | Compares efficacy and discontinuation of augmentation agents in adults with treatment-resistant depression |
+| [38219278](https://pubmed.ncbi.nlm.nih.gov/38219278/) | 2024 | Systematic review / network meta-analysis | Neuropsychopharmacol Rep | Brexpiprazole vs aripiprazole vs placebo in Japanese MDD patients with inadequate antidepressant response |
+| [34167174](https://pubmed.ncbi.nlm.nih.gov/34167174/) | 2021 | Systematic review / meta-analysis | Prim Care Companion CNS Disord | Long-term (≥6 months) efficacy and tolerability of adjunctive aripiprazole in MDD, with remission as the primary outcome |
+| [37746943](https://pubmed.ncbi.nlm.nih.gov/37746943/) | 2023 | Systematic review / network meta-analysis | Medicine | Compares and ranks the efficacy and safety of 4 atypical antipsychotics as add-on treatment in MDD |
+| [35510505](https://pubmed.ncbi.nlm.nih.gov/35510505/) | 2023 | Systematic review / meta-analysis | Psychol Med | Efficacy and tolerability of antipsychotics as monotherapy and adjunctive therapy in adult MDD |
+| [35861202](https://pubmed.ncbi.nlm.nih.gov/35861202/) | 2023 | Systematic review / meta-analysis | J Psychopharmacol | Augmentation and combination treatments for early-stage treatment-resistant depression |
+| [34238049](https://pubmed.ncbi.nlm.nih.gov/34238049/) | 2021 | Comparative analysis | J Psychopharmacol | Antidepressants plus second-generation antipsychotics vs esketamine vs lithium in major depression |
+| [37149344](https://pubmed.ncbi.nlm.nih.gov/37149344/) | 2023 | Review | Psychiatr Clin North Am | Atypical antipsychotics are the most widely studied augmentation agents in treatment-resistant depression, and aripiprazole is named among them |
+| [25963405](https://pubmed.ncbi.nlm.nih.gov/25963405/) | 2016 | Review | Asia Pac Psychiatry | Quetiapine, aripiprazole and olanzapine have FDA approval as adjuncts to antidepressants in MDD, and are effective only at subantipsychotic doses |
 
 ## Singapore Market Information
 
-Aripiprazole currently has **no registered products** in Singapore (HSA). The drug is not listed in any active or historical licence under the Health Sciences Authority.
+Five of 14 registrations are shown. The registration records provided contain no approved-indication text, so that column is omitted.
 
-> This is a **regulatory access gap**. Aripiprazole holds approvals in the United States (FDA), European Union (EMA), Japan (PMDA), and multiple other jurisdictions for schizophrenia, bipolar I disorder, and adjunctive treatment of MDD. A full HSA registration dossier submission would be required to bring this product to the Singapore market.
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN17222P | ABILIFY ASIMTUFII Prolonged-Release Suspension for Injection in Pre-filled Syringe 960mg/3.2mL | Injection, suspension, extended release | Otsuka Pharmaceutical Co., Ltd. |
+| SIN16688P | ARIPDON Tablets 5mg | Tablet | Pharmathen International S.A. |
+| SIN16594P | ARIPRIP 10 Tablet 10mg | Tablet | Ind-Swift Limited |
+| SIN16593P | ARIPRIP 5 Tablet 5mg | Tablet | Ind-Swift Limited |
+| SIN17180P | ARIPIPRAZOLE MEVON Tablets 10mg | Tablet | Pharmathen International S.A. |
 
----
+Across all registrations, aripiprazole is available as oral tablets and as extended-release injectables.
 
 ## Safety Considerations
 
-Formal safety data (package insert warnings, contraindications, and drug–drug interaction records) were not retrievable for this evaluation cycle.
-
-> Please refer to the originator package insert (Abilify® / Otsuka Pharmaceutical) and the FDA prescribing information for complete safety information, including black-box warnings for increased mortality in elderly patients with dementia-related psychosis, suicidality in paediatric and young adult patients, and impulse-control disorders (pathological gambling, hypersexuality, binge eating) associated with dopamine partial agonism.
-
----
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Aripiprazole is one of the best-evidenced drugs in this repurposing dataset for major affective disorder: multiple completed Phase 3 RCTs in MDD augmentation and bipolar maintenance, FDA and EMA approved indications, and an established mechanistic rationale firmly rooted in dopamine-serotonin stabilisation. The L1 evidence level and 99.62% TxGNN score together indicate that the scientific case is settled — the remaining barriers are regulatory and pharmacovigilance in nature, not evidentiary.
+Several completed Phase 3 randomized trials, plus multiple meta-analyses, address aripiprazole in MDD and bipolar disorder, which supports evidence level L1. Two gaps limit a full "Go". The local label text and safety information were not available, so it is unclear how much of the predicted use is already labelled in Singapore. The trial summaries also contain no efficacy results.
 
 **To proceed, the following is needed:**
+- The HSA package insert, covering approved indications, warnings and contraindications.
+- Confirmation of whether adjunctive MDD and bipolar depression uses are already on the Singapore label, which decides whether this counts as repurposing.
+- Efficacy and safety results extracted from the completed Phase 3 trials, especially NCT00095758, NCT00876343 and NCT00683852.
+- A structured mechanism-of-action record from DrugBank.
+- Safety monitoring for populations that need particular care, such as children and adolescents (NCT00110461).
 
-- **HSA Registration Submission**: Prepare a full Common Technical Document (CTD) dossier for HSA submission, leveraging existing FDA/EMA approval as a reference pathway (potentially via the HSA Abridged Evaluation route)
-- **Safety Package Retrieval**: Download and parse the current FDA prescribing information and EMA SmPC to populate the complete warnings, contraindications, and drug interaction profile required for the S1 safety screen
-- **MOA Documentation**: Obtain the formal DrugBank mechanism-of-action entry (DB01238) to complete the mechanistic linkage analysis
-- **Local Risk Management Plan**: Develop a Singapore-specific Risk Management Plan (RMP) addressing the impulse-control disorder (ICD) black-box warning, particularly for the MDD augmentation indication where doses and patient populations may differ from the schizophrenia setting
-- **Pharmacoeconomic Assessment**: Conduct a cost-effectiveness evaluation in the Singapore healthcare context, given that multiple generic aripiprazole formulations are available globally
+The other nine predicted indications should be held. Eight are prediction-only with no supporting trials or literature. Trichotillomania (score 99.26%) has only small open-label and case-report evidence, and it remains a research question.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

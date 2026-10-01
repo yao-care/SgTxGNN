@@ -29,88 +29,82 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Panitumumab: From Anti-EGFR Antibody Therapy to Drug-Induced Osteoporosis
+# Panitumumab: From an Anti-EGFR Oncology Antibody to Drug-Induced Osteoporosis
 
 ## One-Sentence Summary
 
-Panitumumab is a fully human anti-EGFR monoclonal antibody; the evidence pack does not record its originally approved indication or detailed mechanism of action (both flagged as data gaps). The TxGNN model's top prediction is **Drug-Induced Osteoporosis**, but this and all 9 other ranked candidates are currently supported by **zero clinical trials** and **zero publications** — the prediction rests entirely on knowledge-graph embedding similarity.
-
----
+Panitumumab is an anti-EGFR monoclonal antibody marketed in Singapore as Vectibix, and the registration record supplied does not list its approved indication.
+The TxGNN model predicts it may be relevant to **drug-induced osteoporosis**, but there are **0 clinical trials** and **0 publications** supporting this direction.
+This is a model-only hypothesis (Evidence Level L5) and should be treated as such.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in evidence pack (no licensed indication text on file) |
-| Predicted New Indication | Drug-Induced Osteoporosis |
+| Original Indication | Not listed in the registration record supplied |
+| Predicted New Indication | Drug-induced osteoporosis |
 | TxGNN Prediction Score | 99.13% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for panitumumab is not available in this evidence pack (flagged as a High-severity data gap). Based on the information that is available, panitumumab is a fully human anti-EGFR monoclonal antibody. The pack's own rationale notes that EGFR signaling has a partial, indirect role in osteoblast/osteoclast differentiation — but there is no direct evidence that anti-EGFR therapy can reverse or treat drug-induced osteoporosis.
+Panitumumab is an anti-EGFR monoclonal antibody. Detailed mechanism-of-action data is not available in the source record, so the mechanistic analysis is limited.
 
-All 10 ranked predictions (drug-induced osteoporosis, diabetic retinopathy variants, and several cataract subtypes) share the same pattern: a plausible-sounding but weak biological rationale linking EGFR signaling to the target tissue, with **no clinical trials, no ICTRP registrations, and no PubMed literature** returned for any drug-disease pair (see query log, 30 zero-result searches across ClinicalTrials.gov, ICTRP, and PubMed). Several rationales explicitly flag the connection as speculative or possibly KG noise (e.g., tetanic cataract, craniostenosis cataract).
+EGFR signalling has been discussed in the context of bone remodelling. Nothing in the supplied data shows which direction the effect goes, and EGFR blockade could plausibly be neutral or even harmful to bone. The link between the original use and this new indication therefore rests only on a TxGNN graph prediction (score 0.991), and is speculative.
 
-Because the original indication and MOA are both data gaps, and no external evidence corroborates any of the 10 candidates, this prediction should be treated as a hypothesis-generation signal only, not a validated repurposing lead.
-
----
+The other top-ranked predictions are diabetic retinopathy (including severe non-proliferative disease) and several cataract subtypes, all with scores around 0.988 to 0.990. Several cataract entries share identical scores, which suggests a shared graph-derived signal rather than disease-specific evidence. None has supporting trials or literature.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Panitumumab is not currently registered in the Singapore market (0 licenses on file; market status: Not Marketed).
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN14498P | Vectibix Concentrate for Solution for Infusion 100 mg/vial | Infusion, solution concentrate | Not listed in the registration record |
 
----
+The manufacturer is Amgen Manufacturing Limited LLC. The only registered route is injectable.
 
 ## Cytotoxicity
-
-Panitumumab's own evidence-pack rationale text identifies it as a targeted anti-EGFR monoclonal antibody (referred to internally as a "腫瘤標靶藥物" / tumor-targeted agent), so this section applies.
 
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Targeted therapy (anti-EGFR monoclonal antibody) |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
-
----
+| Monitoring Items | Electrolytes, especially magnesium and calcium (anti-EGFR antibodies are known to cause hypomagnesemia); other items per the package insert |
+| Handling Protection | Please refer to the package insert and local institutional handling policy |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Electrolyte disturbance (caution flag):** Anti-EGFR antibodies are known to cause hypomagnesemia. This could be counterproductive in bone-related conditions and in cataract subtypes secondary to hypocalcaemia. It is a caution and not evidence of benefit.
+- **Systemic use in new populations:** Panitumumab is a systemic oncology antibody, and its safety in patients with diabetic eye disease, cataract or osteoporosis has not been assessed.
 
----
+Please refer to the package insert for complete safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-All 10 TxGNN-predicted indications are L5 (model prediction only) with zero corroborating clinical trials or literature, and a Blocking-severity data gap exists for TFDA/local regulatory safety information — insufficient basis to advance any candidate past initial screening.
+The prediction is supported only by a TxGNN score, with no clinical trials, no literature, and no established mechanism. The direction of EGFR blockade on bone is unclear and may be harmful, and the safety profile of a systemic oncology antibody in these populations is unassessed.
 
 **To proceed, the following is needed:**
-- TFDA (or local regulator) package insert — warnings, contraindications (DG001, Blocking)
-- Confirmed mechanism of action from DrugBank or primary literature (DG002, High)
-- Original approved indication(s) for panitumumab, to properly assess mechanistic similarity to the predicted indications
-- Preclinical or case-level evidence specifically linking anti-EGFR therapy to drug-induced osteoporosis before further evaluation
+- The HSA package insert (warnings, contraindications and approved indication), which is currently blocking safety screening
+- Mechanism-of-action data from DrugBank
+- A literature review of EGFR signalling in bone remodelling to establish the direction of effect
+- Preclinical or mechanistic evidence for the predicted indication
+- A risk-benefit assessment of systemic anti-EGFR therapy in non-oncology populations
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

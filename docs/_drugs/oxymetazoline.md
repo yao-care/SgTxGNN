@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Oxymetazoline
-parent: High Evidence (L1-L2)
+parent: Low Evidence (L5)
 nav_order: 743
-evidence_level: L2
+evidence_level: L5
 indication_count: 10
 ---
 
 # Oxymetazoline
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,12 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Oxymetazoline: From Nasal Congestion (OTC Decongestant) to Nasal Cavity Disease
+# Oxymetazoline: From Topical Nasal Decongestant to Nasal Cavity Disease
 
 ## One-Sentence Summary
 
-Oxymetazoline is a topical α1/α2-adrenergic agonist long used as an OTC nasal decongestant for symptomatic nasal congestion. The TxGNN model predicts it may be effective for **Nasal Cavity Disease**, with **17 clinical trials** and **5 publications** currently associated with this indication — though, as the evidence itself notes, this prediction largely reconfirms the drug's already-established mechanism rather than identifying a truly novel use. The drug is not currently registered or marketed in Singapore.
+Oxymetazoline is a topical nasal decongestant. The Singapore products are nasal sprays and drops, although the registration data records no approved indication text.
+The TxGNN model predicts it may be effective for **nasal cavity disease**, with **17 clinical trials** and **5 publications** retrieved. Only about one trial directly tests oxymetazoline in this setting, so this is largely a rediscovery of its established use rather than true repurposing.
 
 ---
 
@@ -41,40 +42,42 @@ Oxymetazoline is a topical α1/α2-adrenergic agonist long used as an OTC nasal 
 
 | Item | Content |
 |------|------|
-| Original Indication | Nasal congestion (topical OTC decongestant use) — no formal Singapore registration record available |
-| Predicted New Indication | Nasal Cavity Disease |
+| Original Indication | Not recorded in the HSA data (all approved-indication fields are empty). Pharmacologically, it is a topical nasal decongestant. |
+| Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 99.96% |
-| Evidence Level | L2 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L2 (provisional). The one completed Phase 2 randomized trial cannot be confirmed to involve oxymetazoline. |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 10 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed structured mechanism-of-action data for oxymetazoline is not available in this evidence pack (original_moa is a data gap). However, the evidence pack's own repurposing rationale confirms that oxymetazoline is a topical α1/α2-adrenergic receptor agonist that produces direct vasoconstriction of the nasal mucosa, reducing mucosal swelling and congestion — this is the well-established pharmacological basis of its use as an OTC nasal decongestant.
+Detailed mechanism of action data is not available in the Evidence Pack. Oxymetazoline is a topical alpha-1/alpha-2 adrenergic agonist. It constricts the blood vessels of the nasal mucosa and reduces blood flow and tissue swelling. This explains its decongestant effect and its ability to reduce bleeding during nasal surgery.
 
-Because "Nasal Cavity Disease" is a broad diagnostic category that includes congestion, rhinitis, and related mucosal conditions, this predicted indication sits very close to the drug's already-known clinical use rather than representing a genuinely new therapeutic area. The evidence pack explicitly flags this: the mechanistic link is described as "an extension of an existing use rather than a true repurposing candidate — low novelty, but the mechanism is the best-supported of all predictions in this set."
+Nasal cavity disease is a broad category, and congestion and mucosal swelling are central to many of its conditions. The prediction therefore mostly overlaps with what the drug already does. The Phase 4 trial NCT03228914 directly tests this effect.
 
-This is reinforced by the related rank-9 prediction (nasopharyngitis), which shares the identical vasoconstriction/decongestant mechanism and is described as the "typical extension application" of oxymetazoline as an OTC cold/nasopharyngitis decongestant, even though no direct trials or literature were retrieved for that specific term in this dataset.
+Some of the other predicted indications are much weaker. These include allergic urticaria, faucial diphtheria and cervical disc degenerative disorder, which have no plausible mechanism and are likely knowledge-graph artifacts.
 
 ---
 
 ## Clinical Trial Evidence
 
+17 trials were retrieved for this indication. Only one is a direct, completed test of oxymetazoline. The table lists the 10 most relevant.
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT03228914](https://clinicaltrials.gov/study/NCT03228914) | Phase 4 | Completed | 20 | Topical 0.05% oxymetazoline vs. 1:1000 epinephrine before endoscopic sinus surgery — direct comparison of effect on blood loss and surgical visualization |
-| [NCT00562120](https://clinicaltrials.gov/study/NCT00562120) | Phase 2 | Completed | 21 | Randomized, double-blind, placebo-controlled, 4-way crossover study of nasal congestion following allergen challenge in seasonal allergic rhinitis |
-| [NCT04104789](https://clinicaltrials.gov/study/NCT04104789) | Phase 2 | Withdrawn | 0 | Kovanaze (tetracaine + oxymetazoline) nasal mist vs. articaine injection for dental pulpal anesthesia |
-| [NCT03962634](https://clinicaltrials.gov/study/NCT03962634) | Phase 2 | Terminated | 3 | Same Kovanaze (tetracaine + oxymetazoline) vs. articaine comparison, terminated early |
-| [NCT01411969](https://clinicaltrials.gov/study/NCT01411969) | N/A | Completed | 16 | Acoustic rhinometry of nasal cavities after decongestion with 0.05% oxymetazoline aerosol spray |
-| [NCT03620513](https://clinicaltrials.gov/study/NCT03620513) | Phase 4 | Completed | 160 | Double-blind study of topical anesthesia and/or decongestant pretreatment for comfort during fiberoptic nasal pharyngoscopy/laryngoscopy |
-| [NCT03380715](https://clinicaltrials.gov/study/NCT03380715) | N/A | Completed | 106 | Comparison of co-phenylcaine nasal spray vs. nasal nebulization for decongestion/anesthesia before rigid nasoendoscopy |
-| [NCT01974726](https://clinicaltrials.gov/study/NCT01974726) | N/A | Terminated | 95 | Evaluation of Eustachian tube function tests in children/adults with middle-ear disease |
-| [NCT07021040](https://clinicaltrials.gov/study/NCT07021040) | N/A | Recruiting | 125 | Collection and analysis of human olfactory lining biopsies from the nasal cavity in health and disease |
-| [NCT06457100](https://clinicaltrials.gov/study/NCT06457100) | Phase 1/2 | Active, not recruiting | 60 | Perioperative esmolol vs. lidocaine infusion for recovery quality after functional endoscopic sinus surgery |
+| [NCT03228914](https://clinicaltrials.gov/study/NCT03228914) | Phase 4 | Completed | 20 | Compares 0.05% oxymetazoline with 1:1000 epinephrine before endoscopic sinus surgery, measuring blood loss and surgical field visualization. This is the most direct evidence, but the sample is small. |
+| [NCT00147940](https://clinicaltrials.gov/study/NCT00147940) | Phase 4 | Terminated | 20 | Correlates nasal volume and cross-sectional area (acoustic rhinometry) with nasalance scores. Oxymetazoline is probably used as a decongestant challenge, so this is only mechanistic support. |
+| [NCT00562120](https://clinicaltrials.gov/study/NCT00562120) | Phase 2 | Completed | 21 | Randomized, double-blind, placebo-controlled four-way crossover of an H3 antagonist on congestion after nasal allergen challenge. Oxymetazoline is not confirmed as the intervention. |
+| [NCT01411969](https://clinicaltrials.gov/study/NCT01411969) | N/A | Completed | 16 | Acoustic rhinometry with an external nasal dilator strip, with and without 0.05% oxymetazoline decongestion. Oxymetazoline is only a measurement aid. |
+| [NCT03620513](https://clinicaltrials.gov/study/NCT03620513) | Phase 4 | Completed | 160 | Double-blind randomized study of topical anesthesia and/or decongestant before fiberoptic nasal laryngoscopy, on pain and discomfort. The specific decongestant is not stated. |
+| [NCT04104789](https://clinicaltrials.gov/study/NCT04104789) | Phase 2 | Withdrawn | 0 | Kovanaze (tetracaine/oxymetazoline nasal spray) versus articaine for maxillary pulpal anesthesia. Withdrawn with no enrollment, so there are no data. |
+| [NCT03962634](https://clinicaltrials.gov/study/NCT03962634) | Phase 2 | Terminated | 3 | Same Kovanaze versus articaine comparison. Terminated after 3 participants, so there are no usable efficacy data. |
+| [NCT06443255](https://clinicaltrials.gov/study/NCT06443255) | Phase 3 | Completed | 16 | Triple crossover of intranasal analgesia with cocaine, lidocaine/xylometazoline and saline. The decongestant is xylometazoline, not oxymetazoline, so it is not direct evidence. |
+| [NCT03380715](https://clinicaltrials.gov/study/NCT03380715) | N/A | Completed | 106 | Co-phenylcaine nasal spray versus nebulization before rigid nasoendoscopy. The product combines a decongestant and a local anesthetic, and oxymetazoline is not confirmed. |
+| [NCT03890692](https://clinicaltrials.gov/study/NCT03890692) | N/A | Unknown | 100 | Adenoid size assessment by nasoendoscopy and radiography in relation to symptoms. The drug's role is unclear. |
 
 ---
 
@@ -82,23 +85,39 @@ This is reinforced by the related rank-9 prediction (nasopharyngitis), which sha
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [9929658](https://pubmed.ncbi.nlm.nih.gov/9929658/) | 1998 | Cohort | Ann NY Acad Sci | Olfactory function assessment (CSERP, psychophysical testing, acoustic rhinometry) in acute rhinitis |
-| [8615587](https://pubmed.ncbi.nlm.nih.gov/8615587/) | 1996 | Animal/Preclinical | Ann Otol Rhinol Laryngol | Topical oxymetazoline nose drops evaluated for effect on early local tissue defense in experimental bacterial sinusitis (rabbit model) |
-| [25496205](https://pubmed.ncbi.nlm.nih.gov/25496205/) | 2015 | Cohort | J Plast Surg Hand Surg | Acoustic rhinometry evaluation of nasal patency after repair of unilateral cleft lip and palate |
-| [28490409](https://pubmed.ncbi.nlm.nih.gov/28490409/) | 2017 | Case Series | Am J Rhinol Allergy | Endoscopic-guided coblation treatment of nasal telangiectasias in hereditary hemorrhagic telangiectasia |
-| [38024464](https://pubmed.ncbi.nlm.nih.gov/38024464/) | 2023 | Case Report | Global Pediatr Health | Case report of rhinoscleroma (nasal cavity granulomatous disease) in a 9-year-old boy |
+| [8615587](https://pubmed.ncbi.nlm.nih.gov/8615587/) | 1996 | Animal study | Ann Otol Rhinol Laryngol | In 14 rabbits with bilateral sinus infection, oxymetazoline drops in one nasal cavity were compared with placebo in the other. The study tested oxymetazoline's effect on early local tissue defense against infection. |
+| [9929658](https://pubmed.ncbi.nlm.nih.gov/9929658/) | 1998 | Cohort | Ann N Y Acad Sci | Olfactory function in acute rhinitis in 36 subjects, with nasal volume measured by acoustic rhinometry. It describes the disease, not oxymetazoline treatment. |
+| [25496205](https://pubmed.ncbi.nlm.nih.gov/25496205/) | 2015 | Cohort | J Plast Surg Hand Surg | Acoustic rhinometry of nasal patency in children with repaired unilateral cleft lip and palate versus controls. It is background methodology. |
+| [28490409](https://pubmed.ncbi.nlm.nih.gov/28490409/) | 2017 | Case series | Am J Rhinol Allergy | Endoscopic coblation of nasal telangiectasias in hereditary hemorrhagic telangiectasia, a technique description. |
+| [38024464](https://pubmed.ncbi.nlm.nih.gov/38024464/) | 2023 | Case report | Glob Pediatr Health | Rhinoscleroma in a 9-year-old boy, a rare granulomatous disease of the nasal cavity. |
+
+No randomized trial or systematic review was retrieved. Only the rabbit study concerns oxymetazoline, and it examines the drug's effect on infection defense, not a therapeutic benefit.
 
 ---
 
 ## Singapore Market Information
 
-Oxymetazoline is currently **not marketed** in Singapore — no HSA registration records were found in this evidence pack (0 licenses on file).
+10 licenses are registered. The 5 main ones are listed. The data records no approved indication text for any of them.
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN02674P | ILIADIN SPRAY 0.05% | Spray | Not listed in the data |
+| SIN10520P | NAZOLIN NASAL SPRAY 0.05% | Spray | Not listed in the data |
+| SIN02656P | CLARICLEAR NASAL SPRAY 0.05% | Spray | Not listed in the data |
+| SIN03162P | ILIADIN SOLUTION 0.025% | Solution | Not listed in the data |
+| SIN09618P | OXY-NASE NASAL DROPS 0.025% | Solution | Not listed in the data |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+No warnings, contraindications or drug interaction records were found in the Evidence Pack. Please refer to the package insert for safety information.
+
+The following guardrails come from the repurposing analysis and the retrieved literature, not from a label:
+- **Duration of use**: Limit use to a few days because of the risk of rebound congestion (rhinitis medicamentosa).
+- **MAOIs**: Use caution with monoamine oxidase inhibitors (see the review [PMID 36425231](https://pubmed.ncbi.nlm.nih.gov/36425231/)).
+- **Hypertension**: Use caution in patients with hypertension.
+- **Children**: Use caution in children. Systemic absorption of imidazoline decongestants can cause CNS depression, bradycardia and hypotension in young children.
 
 ---
 
@@ -107,14 +126,17 @@ Please refer to the package insert for safety information.
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The mechanism (topical α1/α2-adrenergic vasoconstriction) is well-supported and one Phase 2 double-blind, placebo-controlled RCT plus one completed Phase 4 comparative trial directly evaluate oxymetazoline's decongestant effect in nasal/sinus contexts, justifying an L2 evidence level. However, the predicted indication overlaps substantially with the drug's existing known use rather than representing a novel therapeutic direction, and the drug has no current Singapore registration.
+The predicted use matches oxymetazoline's known decongestant pharmacology, and one completed Phase 4 trial directly supports its vasoconstrictive effect in nasal surgery. However, the evidence base is small, mostly indirect and includes no confirmed randomized trial of oxymetazoline. Because of this, the L2 level is provisional and the finding should be treated as a rediscovery, not a new repurposing opportunity.
 
 **To proceed, the following is needed:**
-- Detailed mechanism of action (MOA) documentation from DrugBank
-- TFDA/HSA package insert warnings and contraindications (currently a blocking data gap)
-- Formal drug interaction (DDI) data (current query returned no results)
-- A regulatory pathway assessment for Singapore market entry, since the drug is currently unregistered
-- Clarification on whether this candidate should be reclassified as "existing indication confirmation" rather than "new indication repurposing" given the low novelty noted in the evidence rationale
+- **Blocking gap**: Download and parse the HSA package insert to obtain warnings, contraindications and the approved indications. Without these, safety screening cannot proceed.
+- Confirm whether NCT00562120 used oxymetazoline. If it did not, downgrade the evidence level to L3–L4.
+- Detailed mechanism of action data from DrugBank (a gap in the current pack).
+- A duration-limit and special-population safety plan (children, MAOI users, hypertension).
+- Re-score nasopharyngitis together with the nasal cavity disease evidence, since it overlaps with the established use.
+- Headache disorder has a case series of intranasal tetracaine plus oxymetazoline for status migrainosus ([PMID 31919839](https://pubmed.ncbi.nlm.nih.gov/31919839/)). It is a research question (L3), not ready for a decision. All other predicted indications should be held (L5, no evidence).
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

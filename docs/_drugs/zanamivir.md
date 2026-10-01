@@ -33,10 +33,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-> Zanamivir is a neuraminidase inhibitor originally developed for treating influenza virus infection.
-> The TxGNN model predicts it may be effective for **Pyelonephritis**,
-> but currently there are **0 clinical trials** and **0 publications** supporting this specific direction,
-> and the evidence pack itself flags this link as a likely artifact of knowledge-graph embedding similarity rather than a real biological connection.
+Zanamivir is a viral neuraminidase inhibitor, and its only Singapore registration is an inhaled powder (Relenza Rotadisk). The registration record does not list an approved indication. The TxGNN model predicts it may be effective for **pyelonephritis**, but there are **0 clinical trials** and **0 publications** supporting this prediction, so it is a model-only signal.
 
 ---
 
@@ -44,23 +41,23 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Influenza (viral) infection — not present in local registry data; based on known drug class (neuraminidase inhibitor) |
+| Original Indication | Not listed in the registration record (zanamivir is a viral neuraminidase inhibitor, i.e. an anti-influenza antiviral) |
 | Predicted New Indication | Pyelonephritis |
 | TxGNN Prediction Score | 99.84% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the structured registry (flagged as Data Gap DG002). Based on annotations embedded elsewhere in this evidence pack, Zanamivir is a neuraminidase (NA) inhibitor developed for influenza A/B virus infection, with efficacy established through head-to-head trials against oseltamivir in hospitalized patients.
+Currently, detailed mechanism of action data is not available. Zanamivir is known as a neuraminidase inhibitor that acts on influenza viruses, and it is not an antibacterial agent.
 
-Pyelonephritis, however, is predominantly a bacterial upper urinary tract infection (commonly caused by *E. coli* and other Gram-negative uropathogens). Its pathophysiology does not involve viral neuraminidase, and no shared drug target, pathway, or clinical mechanism links it to Zanamivir's known pharmacology.
+The link to the predicted indication is weak. Pyelonephritis is usually a bacterial infection of the kidney, and zanamivir has no expected antibacterial activity. The high TxGNN score (0.998) reflects an association in the knowledge graph, not evidence from trials or literature. This prediction should be treated as a graph artifact until independent data show otherwise.
 
-The evidence pack's own repurposing rationale is explicit on this point: it states there is "no pharmacological mechanism overlap" and attributes the prediction to "indirect KG embedding similarity, not a real biological connection." No clinical trials or literature were retrieved for this specific indication. **This prediction should be treated as a low-confidence model artifact rather than a mechanistically grounded repurposing hypothesis.**
+The other top-ranked predictions are also unsupported: tyrosine and phenylalanine metabolism disorders, Pierre Robin syndrome, and several "susceptibility to infection" entries such as Legionnaire disease, dengue, aspergillosis and schistosomiasis. All are rated L5 with a Hold recommendation.
 
 ---
 
@@ -78,15 +75,17 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Zanamivir currently has no marketing authorizations on record (`total_licenses: 0`, `market_status: Not marketed`). No registration data is available to populate a licenses table.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN11199P | RELENZA ROTADISK 5 mg/dose | Powder, metered | Not listed in the record |
+
+The manufacturer is Glaxo Wellcome Production / GlaxoSmithKline Australia Pty Ltd. Only an inhaled-powder form is registered, so there is no route-compatibility data for a systemic infection such as pyelonephritis.
 
 ---
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-*(Note: TFDA/HSA label warnings and contraindications are recorded as a **Blocking** data gap (DG001) — this must be resolved before any safety assessment can proceed.)*
 
 ---
 
@@ -95,13 +94,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked predicted indication (pyelonephritis) has no supporting clinical trials or literature, no plausible mechanistic link, and the evidence pack explicitly characterizes the association as a likely false-positive from embedding-based similarity. Evidence level is L5 (model prediction only), and a Blocking safety data gap (TFDA/HSA label warnings and contraindications) remains unresolved.
+The prediction rests only on a knowledge-graph score. There are no trials or publications for pyelonephritis, and there is no plausible mechanism for a viral neuraminidase inhibitor in a bacterial kidney infection. The only registered form is an inhaled powder, and no safety information is available.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism-of-action data for Zanamivir (DG002)
-- TFDA/HSA product label — warnings, contraindications, DDI data (DG001, Blocking)
-- Any preclinical or mechanistic evidence linking neuraminidase inhibition to bacterial pyelonephritis pathophysiology (none currently identified)
-- Re-evaluation of lower-ranked candidates in this pack, several of which (e.g., HIV susceptibility, rank 7) show higher nominal evidence levels (L4) but are also flagged as likely drug/trial mismatches and require manual verification before consideration
+- The HSA package insert (warnings and contraindications), which is currently blocking safety screening
+- Mechanism of action data from DrugBank
+- Any preclinical or clinical evidence of activity in urinary tract or kidney infection
+- An assessment of whether a systemic route of administration would be feasible, given that only an inhaled form is registered in Singapore
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

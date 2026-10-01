@@ -29,33 +29,29 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-Using the drug-repurposing evaluation report format to produce the Nicotine report from the supplied Evidence Pack.
-
-# Nicotine: From Smoking Cessation to Exercise-Induced Malignant Hyperthermia
+# Nicotine: From Nicotine Replacement Therapy to Exercise-Induced Malignant Hyperthermia
 
 ## One-Sentence Summary
 
-Nicotine is a nicotinic acetylcholine receptor (nAChR) agonist generally known for its role in nicotine replacement therapy for smoking cessation and nicotine dependence; it is **not currently registered or marketed in Singapore** according to this evidence pack. The TxGNN model's top-ranked prediction for this candidate is **Exercise-Induced Malignant Hyperthermia**, but **no clinical trials and no literature** currently support this direction — the signal is a model-score-only prediction with no corroborating evidence.
+Nicotine is marketed in Singapore as nicotine-replacement products (lozenge, spray, patch, chewing gum). The TxGNN model predicts it may be effective for **exercise-induced malignant hyperthermia**, but **no clinical trials and no publications** support this link. The prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in this evidence pack (nicotine is generally known as a nicotine replacement therapy agent for smoking cessation/nicotine dependence; no Singapore license record exists to confirm a formally approved indication) |
-| Predicted New Indication | Exercise-Induced Malignant Hyperthermia |
+| Original Indication | Not stated in the licence records; the registered products are nicotine-replacement forms |
+| Predicted New Indication | Exercise-induced malignant hyperthermia |
 | TxGNN Prediction Score | 83.91% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 10 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack (flagged as a High-severity data gap). Based on generally known pharmacology, nicotine acts as an agonist at nicotinic acetylcholine receptors (nAChRs), a mechanism relevant to autonomic, neuromuscular, and central nervous system signaling — most clinically established in smoking cessation/nicotine replacement therapy.
+Currently, detailed mechanism of action data is not available. Based on known information, nicotine is a nicotinic acetylcholine receptor (nAChR) agonist. Mechanistically, it could in theory affect neuromuscular signalling.
 
-Exercise-induced malignant hyperthermia, however, is a hereditary disorder of skeletal muscle calcium handling driven by mutations in the ryanodine receptor 1 (RYR1) calcium-release channel. This is a mechanistically distinct pathway from nicotinic cholinergic signaling, and the evidence pack's own repurposing rationale is explicit on this point: there is "no known connection between nicotinic acetylcholine receptor mechanisms and RYR1-related calcium channelopathy," and the association is assessed as "purely a TxGNN model prediction score, with no clinical evidence support."
-
-Given the complete absence of clinical trials, literature, or a plausible mechanistic bridge, this prediction should be treated as a low-confidence, exploratory model output rather than a validated repurposing hypothesis.
+Exercise-induced malignant hyperthermia is a disorder of calcium handling in skeletal muscle, typically involving the ryanodine receptor. The evidence pack contains no data linking nicotine to this pathway, so the mechanistic link is unsupported. The model score (rank 39,900 overall) reflects a knowledge-graph association, not independent evidence.
 
 ## Clinical Trial Evidence
 
@@ -67,7 +63,15 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Nicotine has no registered product license on file in this evidence pack — market status is **Not Marketed**, with **0 registrations**. No dosage form, authorization number, or approved indication text is available to summarize.
+Of 10 registrations, the 5 main ones are listed below. The approved-indication text is blank in all of these records.
+
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN11732P | Nicotinell Mint Lozenge 1 mg | Lozenge | Swissco Services AG |
+| SIN16567P | Nicorette QuickMist Mouthspray 1 mg/spray | Spray | McNeil AB |
+| SIN14296P | Nicorette Invisi Transdermal Patch 25 mg/16 hours | Extended-release patch | LTS Lohmann Therapie-Systeme AG |
+| SIN06529P | Nicotinell TTS 30 Transdermal Therapeutic System 21 mg/24 hrs | Patch | LTS Lohmann Therapie-Systeme AG |
+| SIN12570P | Nicotinell Mint 4 mg Chewing Gum | Chewing gum | Fertin Pharma A/S |
 
 ## Safety Considerations
 
@@ -78,12 +82,18 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked TxGNN prediction (Exercise-Induced Malignant Hyperthermia, score 83.91%) has zero supporting clinical trials or literature and no plausible mechanistic link — it is a pure model-score signal (L5, decision stage S0) and does not warrant further action at this time. Notably, none of the 10 TxGNN-predicted indications for nicotine in this evidence pack reach a strong evidence tier: the relatively more evidence-backed candidates — blepharospasm (L3; two small pilot studies with inconsistent/negative results) and migraine disorder (L4; evidence largely shows nicotine withdrawal *triggers* migraine rather than treating it) — were both scored "Research Question," not "Go."
+The prediction has no trial or literature support (L5), and no plausible mechanism is documented for this condition. The package-insert safety review is also incomplete, which the evidence pack flags as a blocking data gap.
+
+Among the other nine predictions in the pack, blepharospasm (rank 5) is the only one with direct human data. It rests on two small pilot studies of nicotine nasal spray from 1996 and 1998. The later study concluded that the spray is not a reliable treatment, so this signal is inconsistent. The migraine, oppositional defiant disorder, communication disorder and developmental disorder predictions are supported only by literature on smoking, nicotine exposure or addiction, which shows association or risk rather than benefit.
 
 **To proceed, the following is needed:**
-- Nicotine mechanism of action (MOA) data from DrugBank to properly evaluate mechanistic plausibility (currently a Blocking-severity data gap)
-- Singapore product labeling/warnings and contraindications, since no registered license exists to source this from
-- If pursuing any candidate from this predicted-indications list, prioritize blepharospasm or migraine disorder over Exercise-Induced Malignant Hyperthermia, given their (still weak) actual clinical/mechanistic evidence base, and commission a targeted literature/trial search before any further evaluation stage
+- HSA package-insert warnings and contraindications (blocking)
+- Mechanism of action data from DrugBank, and a documented link to calcium handling or ryanodine receptor biology
+- Any preclinical or clinical study of nicotine in exercise-induced malignant hyperthermia
+- Route and formulation compatibility assessment
+- Safety review before any new-indication work
+
+*This report is for research reference only and does not constitute medical advice. Predicted indications require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

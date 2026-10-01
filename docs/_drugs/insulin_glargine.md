@@ -33,80 +33,87 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Insulin glargine is a long-acting recombinant basal insulin analog, widely used as the standard of care for glycaemic management in diabetes mellitus (Types 1 and 2).
-The TxGNN model predicts it may be effective for **Autoimmune Oophoritis**,
-with **0 clinical trials** and **0 publications** currently supporting this direction.
-This prediction rests entirely on knowledge graph topology, placing it at the lowest evidence tier (L5).
-
----
+Insulin glargine is a long-acting basal insulin analog. It is used to control blood glucose in diabetes, although the Singapore registration data does not state the approved indication text.
+The TxGNN model predicts it may be effective for **autoimmune oophoritis**, but there are **0 clinical trials** and **0 publications** supporting this prediction.
+The evidence is model prediction only, so the recommended decision is **Hold**.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Diabetes Mellitus (Types 1 & 2) |
-| Predicted New Indication | Autoimmune Oophoritis |
+|------|------|
+| Original Indication | Diabetes mellitus (general drug knowledge; the registration data has no indication text) |
+| Predicted New Indication | Autoimmune oophoritis |
 | TxGNN Prediction Score | 99.88% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 6 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in this Evidence Pack. Based on established pharmacology, Insulin glargine is a long-acting recombinant human insulin analog that binds insulin receptors (INSR) and, with weaker affinity, IGF-1 receptors (IGF-1R). It provides a steady, peakless 24-hour basal insulin supply primarily to regulate hepatic glucose output and peripheral glucose uptake in patients with diabetes mellitus.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Insulin glargine is a basal insulin analog that acts on the insulin receptor to control glucose. Its efficacy in diabetes is well established.
 
-Autoimmune oophoritis is a T-cell–mediated autoimmune disease in which immune cells attack and destroy ovarian granulosa cells, ultimately leading to premature ovarian insufficiency. The TxGNN model likely identified this prediction through shared pathway nodes in the knowledge graph: INSR is physiologically expressed in ovarian granulosa cells and plays a role in steroidogenesis, meaning insulin signalling and ovarian biology are not entirely disconnected at a molecular level.
+There is no plausible direct mechanism linking it to autoimmune oophoritis. The high score most likely reflects knowledge-graph proximity through autoimmune polyendocrine syndromes, where autoimmune diabetes and oophoritis co-occur. In that setting, insulin would treat only the diabetes component, not the ovarian autoimmunity.
 
-However, the connection is indirect. Insulin glargine's primary pharmacological action — lowering blood glucose — has no established relationship to the T-cell–driven inflammatory cascade responsible for autoimmune oophoritis. There is currently no clinical, animal-model, or in-vitro evidence supporting the use of insulin glargine as a therapeutic agent for ovarian autoimmune disease. The high TxGNN score most likely reflects the density of INSR/IGF-1R pathway connections in the knowledge graph rather than a clinically exploitable treatment mechanism.
-
----
+The prediction should therefore be read as a knowledge-graph association, not as a mechanistically supported new use.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
+## Other Predicted Indications (Top 10)
+
+The other nine predictions are also weak. Only one has any retrieved literature.
+
+| Rank | Predicted Indication | Score | Evidence Level | Assessment |
+|------|------|------|------|------|
+| 2 | Thiamine-responsive dysfunction syndrome | 99.61% | L5 | Insulin manages the diabetes symptom only, not the SLC19A2 transporter defect. |
+| 3 | Focal stiff limb syndrome | 99.60% | L5 | Link is through anti-GAD autoimmunity and co-existing type 1 diabetes. |
+| 4 | Classic stiff person syndrome | 99.60% | L5 | Same rationale as rank 3. |
+| 5 | Opsismodysplasia | 99.59% | L5 | Speculative link through INPPL1/SHIP2 in insulin signaling; no clinical rationale. |
+| 6 | Pancreatic agenesis | 99.43% | L4 | Insulin replacement is mechanistically direct, but this is hormone replacement rather than repurposing. The 6 retrieved papers are general insulin or diabetes reviews, a MODY5 case, and veterinary reports. None is specific to pancreatic agenesis or to insulin glargine. |
+| 7 | Drug-induced localized lipodystrophy | 99.42% | L5 | Insulin is a known cause of this condition, so this is a safety signal, not a therapy. |
+| 8 | Centrifugal lipodystrophy | 99.39% | L5 | Speculative link only. |
+| 9 | Pressure-induced localized lipoatrophy | 99.38% | L5 | No known mechanism. |
+| 10 | Idiopathic localized lipodystrophy | 99.34% | L5 | Insulin is a recognized cause of localized lipodystrophy, which argues against therapeutic use. |
 
 ## Singapore Market Information
 
-Insulin glargine currently holds **no active product registrations** with the Health Sciences Authority (HSA) of Singapore. The drug is not marketed in Singapore as of the data cutoff date (2026-04-04). Any future clinical or research use in Singapore would require prior regulatory assessment and market authorisation.
+Six registrations exist. Five are listed below; the registration data has no approved-indication text for any of them.
 
----
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN16009P | Semglee Solution for Injection in a Prefilled Pen 100U/ml | Injection, solution |
+| SIN15138P | Toujeo SoloStar 300 units/ml solution for injection in a pre-filled pen | Injection, solution |
+| SIN11934P | Lantus 100 Units/ml Solution for injection in a vial | Injection |
+| SIN13426P | Lantus SoloStar 100 Units/ml Solution for injection in a pre-filled pen | Injection, solution |
+| SIN15540P | Soliqua Solution for Injection in a Pre-filled Pen 100 units/ml + 50 mcg/ml | Injection, solution |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Adverse effect relevant to the predictions**: Injection-site lipodystrophy (lipoatrophy and lipohypertrophy) is a known effect of subcutaneous insulin.
+- **Drug Interactions**: No interaction records were found in the queried data.
 
----
+Please refer to the package insert for further safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite a very high TxGNN prediction score (99.88%), Insulin glargine's predicted indication in autoimmune oophoritis is supported by zero clinical trials and zero published studies (Evidence Level L5). The mechanistic link is speculative — driven by shared INSR pathway nodes in the knowledge graph — and there is no therapeutic rationale to justify clinical investigation at this stage. Additionally, the drug is not registered in Singapore, creating a compounding regulatory barrier.
+The top prediction, autoimmune oophoritis, rests on model prediction alone, with no trials, no literature and no plausible mechanism. Insulin would address only the co-existing diabetes. Among the other top 10 predictions, pancreatic agenesis is standard insulin replacement rather than repurposing. The lipodystrophy entries reflect insulin as a cause, not a treatment.
 
-> ⚠️ **Additional note from this Evidence Pack:** Among the 10 predicted indications reviewed, **rank 7 (drug-induced localized lipodystrophy)** carries a specific safety flag — insulin glargine injection is itself a well-documented *cause* of injection-site lipodystrophy, representing a reverse safety concern rather than a treatment opportunity. This should be prominently flagged if the knowledge graph is used for downstream decision-making.
->
-> Conversely, **rank 6 (pancreatic agenesis, Evidence Level L3)** represents the most clinically coherent prediction in this pack: neonates born without a pancreas require life-long exogenous insulin, and insulin glargine as a basal insulin is mechanistically appropriate. This candidate may warrant a separate, focused evaluation report.
+**To proceed, the following is needed:**
+- Singapore package insert warnings, contraindications and approved indications, which are currently blocking safety screening
+- Mechanism of action data, for example from the DrugBank API
+- Expert review of whether pancreatic agenesis should be handled as standard replacement therapy outside the repurposing pipeline
+- Dropping the lipodystrophy predictions from repurposing consideration and recording them as safety signals
 
-**To proceed with the autoimmune oophoritis indication, the following is needed:**
-
-- Mechanistic studies examining whether insulin/IGF-1R signalling modulates ovarian granulosa cell survival or autoimmune infiltration in vitro or in animal models
-- Preclinical proof-of-concept data in an autoimmune oophoritis model (e.g., neonatal thymectomy murine model)
-- Full MOA characterisation for Insulin glargine (currently unavailable — remediation via DrugBank API)
-- Package insert safety review (currently unavailable — remediation via HSA/manufacturer documentation)
-- Regulatory pathway consultation for Singapore market entry (HSA), given zero existing registrations
-- Re-evaluation of evidence level: advancement from L5 to at least L4 is required before any clinical hypothesis can be formally considered
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

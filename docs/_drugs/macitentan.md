@@ -33,73 +33,61 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Macitentan (Opsumit®) is a dual endothelin receptor antagonist (ERA) with established global approval for pulmonary arterial hypertension (PAH), though it carries no Singapore registration to date.
-The TxGNN model ranks **pulmonary arteriovenous malformation (PAVM)** as its highest-scoring new indication (98.89%), yet this prediction is backed by **no clinical trials** and **no published literature**, and the mechanistic rationale is not compelling.
-Of the 10 TxGNN predictions in this evidence pack, two PAH subtypes — CHD-associated PAH (rank #2) and connective tissue disease-associated PAH (rank #5) — carry substantially stronger evidence (L3 each) and represent the more clinically actionable repurposing opportunities.
-
----
+Macitentan is an endothelin receptor antagonist marketed in Singapore as OPSUMIT and used for pulmonary arterial hypertension (PAH).
+The TxGNN model predicts it may be effective for **Pulmonary Arteriovenous Malformation**, but this is a model-only prediction with **0 clinical trials** and **0 publications** supporting it.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Pulmonary Arterial Hypertension (globally approved; not registered in Singapore) |
-| Predicted New Indication | Pulmonary Arteriovenous Malformation (PAVM) |
+|------|------|
+| Original Indication | Not stated in the Singapore registration record (the approved indication text is blank). Pulmonary arterial hypertension is inferred from the drug's known use. |
+| Predicted New Indication | Pulmonary arteriovenous malformation |
 | TxGNN Prediction Score | 98.89% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Macitentan is a dual endothelin receptor antagonist that binds both ETA and ETB receptors with high affinity and unusually slow receptor-dissociation kinetics — a pharmacological feature that distinguishes it from earlier ERA agents such as bosentan. In pulmonary vascular disease, the ET-1 axis is a key driver of vasoconstriction, smooth muscle proliferation, and adventitial fibrosis. By blocking both receptor subtypes, Macitentan reduces pulmonary vascular resistance and attenuates pathological remodeling. The SERAPHIN Phase 3 trial confirmed that Macitentan significantly reduces morbidity and mortality in PAH, and the drug is now approved in over 80 countries under the brand name Opsumit®.
+Currently, detailed mechanism of action data is not available in the record. Macitentan is a dual endothelin receptor antagonist, blocking both the ETA and ETB receptors. Its efficacy in PAH is established. Endothelin-1 drives vasoconstriction and vascular remodeling, so blocking it could plausibly help other pulmonary vascular diseases.
 
-Pulmonary arteriovenous malformation (PAVM) is a fundamentally different disease: it is a structural vascular defect in which pulmonary arteries connect directly to pulmonary veins, bypassing the capillary bed entirely. This creates an anatomical right-to-left shunt without any known involvement of the ET-1 signaling pathway. The pathophysiology of PAVM is driven by embryological vascular development defects (often linked to hereditary hemorrhagic telangiectasia / HHT), not by vasoactive mediator imbalance. Accordingly, the standard of care is transcatheter embolization — a mechanical intervention to physically occlude the abnormal channel.
-
-Macitentan's ERA mechanism has no direct intervention point on a structural shunt, and there is no preclinical or clinical precedent for ERA use in PAVM. The high TxGNN prediction score (98.89%) most plausibly reflects indirect knowledge graph proximity through shared "pulmonary vascular disease" ontology nodes — a recognized false-positive pattern in graph neural network drug repurposing models when target diseases share broad categorical overlap with an approved indication but diverge mechanistically.
-
----
+The link to pulmonary arteriovenous malformation is speculative. The high score most likely reflects the disease's closeness to pulmonary vascular disease in the knowledge graph rather than a validated mechanism. No trials or publications test macitentan in this condition. Its pathology (abnormal direct connections between pulmonary arteries and veins) also differs from the vasoconstriction and remodeling seen in PAH.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
+## Singapore Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN14809P | OPSUMIT FILM-COATED TABLET 10MG | Tablet, film coated (oral) | Not stated in the record |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-PAVM is a structural vascular malformation addressed by embolization; Macitentan's endothelin receptor antagonist mechanism lacks any pathophysiologically relevant target in this disease, and the high TxGNN score is assessed as a knowledge graph artifact rather than a clinically meaningful signal.
+This prediction has no clinical or literature support (L5, model prediction only) and the mechanistic rationale is weak. The score alone is not enough to advance it.
+
+Two other predictions for macitentan have far more support: PAH associated with congenital heart disease (L2, including the Phase 3 MAESTRO study in Eisenmenger syndrome) and PAH associated with connective tissue disease (L3, real-world cohorts and a systematic review). These are subtypes of PAH, so they are closer to the drug's existing use than to true repurposing, and they are better candidates for further evaluation.
 
 **To proceed, the following is needed:**
-- Preclinical evidence demonstrating ET-1 pathway involvement in PAVM pathogenesis (currently absent in the literature)
-- Published case series or mechanistic studies linking ERA therapy to PAVM outcomes
+- The HSA package insert, to confirm the approved indication and obtain warnings and contraindications
+- Detailed mechanism of action data, and a rationale for why endothelin blockade would affect arteriovenous malformations
+- Preclinical or case-level evidence of macitentan in pulmonary arteriovenous malformation
+- A safety plan if the indication is pursued
 
-**Priority recommendation — redirect evaluation to the following indications in this evidence pack, which have genuine mechanistic grounding and existing real-world evidence:**
-
-| Rank | Indication | Evidence Level | Trials | Publications | Decision |
-|------|-----------|---------------|--------|-------------|---------|
-| #2 | PAH associated with Congenital Heart Disease (CHD-PAH) | L3 | 2 (1 active Phase 3 platform: NCT05179876) | 18 (incl. direct real-world cohort studies 2017–2026) | **Proceed with Guardrails** |
-| #5 | PAH associated with Connective Tissue Disease (CTD-PAH) | L3 | 2 | 18 (incl. systematic review PMID 38378970 + multiple real-world cohort studies 2022–2025) | **Proceed with Guardrails** |
-
-Both CHD-PAH and CTD-PAH share the same ET-1 overactivation pathway as idiopathic PAH, are formally classified as WHO Group 1 PAH, and already appear as subgroups in the SERAPHIN trial that established Macitentan's global approval. The real-world evidence base for these subtypes is active and growing. These are the highest-yield targets for a Singapore drug access or clinical development strategy.
+*This report is for research reference only and is not medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

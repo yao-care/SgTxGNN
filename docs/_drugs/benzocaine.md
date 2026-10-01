@@ -29,87 +29,80 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Benzocaine: From Topical Analgesia to Papillary Conjunctivitis
+# Benzocaine: From Topical Anesthesia to Papillary Conjunctivitis
 
 ## One-Sentence Summary
 
-Benzocaine is an ester-type topical local anesthetic widely available globally as an OTC product for mucosal pain relief, including sore throat lozenges (e.g., Cepacol, Chloraseptic), minor dental procedures, and skin preparations.
-The TxGNN model predicts it may be effective for **Papillary Conjunctivitis**, with **0 clinical trials** and **0 publications** currently providing direct evidence for this direction — making this the lowest evidence tier (L5).
-Notably, among all 10 predicted indications, **Acute Laryngopharyngitis** (rank 10) carries substantially stronger real-world evidence and a more mechanistically coherent rationale.
-
----
+Benzocaine is a topical ester local anesthetic. In Singapore it is marketed as gels, a spray and a lozenge.
+The TxGNN model predicts it may be effective for **papillary conjunctivitis**, but **0 clinical trials** and **0 publications** currently support this prediction.
+This is a model-only signal (evidence level L5), and the ocular use raises safety concerns.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Topical anesthesia — mucosal and skin pain relief (OTC; not registered in Singapore) |
-| Predicted New Indication | Papillary Conjunctivitis |
+|------|------|
+| Predicted New Indication | Papillary conjunctivitis |
 | TxGNN Prediction Score | 99.38% |
-| Evidence Level | L5 |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 6 |
 | Recommended Decision | Hold |
 
----
+No approved indication text is recorded for any Singapore license, so the original indication row is omitted.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on widely known pharmacology, Benzocaine is an ester-type local anesthetic that reversibly blocks voltage-gated sodium channels (Nav), inhibiting sensory nerve conduction and providing temporary analgesia at the application site. Its short duration of action and low systemic absorption make it suitable for topical mucosal use.
+Detailed mechanism of action data is not yet available in DrugBank for this record. Benzocaine is generally understood as a topical ester local anesthetic that blocks voltage-gated sodium channels. In theory this could ease ocular surface discomfort.
 
-Papillary conjunctivitis is an inflammatory eye condition characterised by enlarged conjunctival papillae, typically driven by mast-cell and eosinophil-mediated hypersensitivity responses to allergens or mechanical stimuli (e.g., contact lens wear). The core pathology is immunological, not nociceptive. While Nav blockade could theoretically blunt superficial ocular discomfort transiently, it cannot reduce the allergic cascade, reverse papillae formation, or address the underlying cause.
-
-Furthermore, the standard ophthalmic local anesthetics — proparacaine and tetracaine — have well-characterised corneal penetration profiles and established safety data. Benzocaine's corneal penetration is poor and its ophthalmic safety record is essentially absent. The TxGNN model's high prediction score for this indication likely reflects a broader clustering of mucosal/surface anesthetic applications across the knowledge graph, rather than any indication-specific mechanistic signal. Caution is warranted before interpreting this score as clinically actionable.
-
----
+The link to papillary conjunctivitis is weak. Any benefit would be symptomatic only (local analgesia). It would not address the allergic, inflammatory or infectious cause of the disease. Topical anesthetics are also generally unsuitable for repeated ocular use because of corneal toxicity concerns. The very high TxGNN score reflects the model's knowledge-graph neighborhood, not evidence of clinical benefit.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Benzocaine in Papillary Conjunctivitis.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for Benzocaine in Papillary Conjunctivitis.
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Benzocaine is currently not registered in Singapore. No marketing authorisations are on record.
+Six licenses are registered in total. The data lists five of them below. None of the five carries approved indication text.
 
----
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN07825P | HURRICAINE GEL 20% | Gel | J B Laboratories Inc |
+| SIN10762P | TOPICALE GEL 180 mg/g | Gel | Medical Products Laboratories |
+| SIN08158P | HURRICAINE SPRAY 20% | Spray | CCL Custom Manufacturing Inc |
+| SIN12391P | FREEZ-EEZ TOPICAL ANESTHETIC GEL 20% w/w | Gel | Germiphene Corporation |
+| SIN08535P | HORF LOZENGES | Lozenge | Y S P Industries (M) Sdn Bhd |
+
+None of the listed forms is an ophthalmic preparation, so route compatibility for eye use remains unassessed.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
-> **Note:** Key warnings and contraindications data are unavailable in this evidence pack (Data Gap: TFDA package insert not retrieved). Known safety signals for Benzocaine include the risk of **methemoglobinaemia** (particularly in infants and those with G6PD deficiency), **contact hypersensitivity** (Benzocaine is itself a common contact allergen in the ester-anesthetic class), and potential for mucosal toxicity with prolonged use. These gaps should be resolved before any clinical development or regulatory submission.
+Concerns raised in the analysis of this prediction:
+- **Corneal toxicity**: topical anesthetics are generally unsuitable for repeated ocular use.
+- **Contact sensitization**: benzocaine is a known contact sensitizer, and periocular skin is especially prone to allergic contact dermatitis.
+- **Methemoglobinemia**: the safety context for this risk has not yet been reviewed.
 
----
+No drug interaction records were found.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold** *(for Papillary Conjunctivitis)*
+**Decision: Hold**
 
 **Rationale:**
-There is zero direct clinical or preclinical evidence for Benzocaine in papillary conjunctivitis, the mechanistic rationale is weak (Nav blockade does not address immune-mediated inflammation), and preferred ophthalmic anesthetics with established safety profiles already exist. Benzocaine is also not marketed in Singapore, adding a regulatory barrier.
+The prediction rests on a model score alone, with no trials or publications, and the plausible benefit is symptomatic at best. Ocular use also carries safety concerns, and no ophthalmic formulation is registered.
 
-**Broader repurposing perspective — a more actionable signal exists:**
-Within the same TxGNN prediction set, **Acute Laryngopharyngitis (rank 10, score 96.63%, Evidence Level L3)** represents a substantially stronger repurposing candidate:
-- Benzocaine is already marketed OTC in the US, UK, and Australia specifically for sore throat pain (Cepacol Ultra Sore Throat, Chloraseptic Lozenges), constituting large-scale real-world evidence.
-- The mechanism is directly applicable: Nav blockade at pharyngeal sensory nerve endings relieves pain and irritation caused by acute laryngopharyngitis.
-- The Singapore market gap (currently not registered) may represent a genuine commercial and patient-care opportunity via an OTC regulatory pathway.
+Other predicted indications also remain at Hold. Among them, nasal cavity disease (L4) and acute laryngopharyngitis have the most plausible topical mucosal rationale. Nasal cavity disease is supported only by a class-level lignocaine trial.
 
-**To proceed on any indication, the following is needed:**
-
-- **MOA documentation:** Retrieve Benzocaine's full pharmacology and safety profile from DrugBank API (DG002 remediation)
-- **Regulatory safety data:** Download and parse the package insert warnings and contraindications (DG001 remediation — Blocking severity)
-- **Methemoglobinaemia risk assessment:** Quantify risk by patient population, dose, and route before any ophthalmic or expanded-use application
-- **Ophthalmic formulation feasibility study (if pursuing conjunctivitis):** Corneal penetration data and ocular toxicology are prerequisites
-- **OTC registration pathway for Acute Laryngopharyngitis:** Review HSA OTC approval requirements; benchmark against existing approved formulations in comparable regulatory environments (TGA, FDA)
-- **Contact allergy risk stratification:** Relevant for any topical formulation given ester-class hypersensitivity profile
+**To proceed, the following is needed:**
+- Retrieve and review the HSA package insert for warnings and contraindications (a blocking gap for safety screening)
+- Obtain mechanism of action data from DrugBank
+- Run a targeted literature search for benzocaine or topical anesthetics in allergic and papillary conjunctivitis
+- Assess ocular safety (corneal toxicity, sensitization) and whether an ophthalmic formulation and route would be feasible
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

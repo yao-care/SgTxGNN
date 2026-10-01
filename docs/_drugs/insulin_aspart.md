@@ -29,95 +29,95 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Insulin Aspart: From Diabetes Mellitus to Type 1 Diabetes Mellitus
+# Insulin Aspart: From Diabetes Mellitus (Glycaemic Control) to Type 1 Diabetes Mellitus
 
 ## One-Sentence Summary
 
-Insulin aspart (NovoLog®/NovoRapid®) is a rapid-acting human insulin analogue established globally for the management of blood glucose in patients with diabetes mellitus, though it is currently unregistered in Singapore.
-The TxGNN model predicts it may be effective for **Type 1 Diabetes Mellitus (T1DM)**, with **50 clinical trials** and **20 publications** currently supporting this direction — reflecting one of the most evidence-rich therapeutic relationships in diabetes pharmacology.
+Insulin aspart is a rapid-acting insulin analogue used for mealtime glucose control in diabetes. The TxGNN model predicts it for **type 1 diabetes mellitus (T1DM)**, backed by **50 clinical trials** and **20 publications**. T1DM is an established use of this drug, so this is largely a confirmation of a known drug-disease link and not a true repurposing finding.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not registered in Singapore (no approved indication on record) |
-| Predicted New Indication | Type 1 Diabetes Mellitus |
+|------|------|
+| Original Indication | Not stated in the Singapore registration records; established use is glycaemic control in diabetes mellitus |
+| Predicted New Indication | Type 1 diabetes mellitus |
 | TxGNN Prediction Score | 99.95% |
 | Evidence Level | L1 |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 8 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Insulin aspart is a rapid-acting human insulin analogue produced by substituting the amino acid proline at position B28 with aspartic acid (B28 Pro→Asp). This single structural modification reduces the tendency for insulin molecules to self-aggregate into hexamers, enabling faster subcutaneous absorption compared with regular human insulin. After injection, insulin aspart begins acting within 10–20 minutes, reaches peak plasma concentration at approximately 60 minutes, and more closely mirrors the physiological postprandial insulin secretion pattern seen in healthy individuals — a profile particularly well-suited for mealtime bolus dosing.
+Detailed mechanism of action data is not available in the Evidence Pack. Based on known pharmacology, insulin aspart is a rapid-acting human insulin analogue. It replaces the endogenous insulin that is missing in T1DM, and it is given around meals, usually alongside a basal insulin.
 
-In Type 1 Diabetes Mellitus, autoimmune destruction of pancreatic β-cells results in the complete and permanent loss of endogenous insulin secretion. Insulin replacement is therefore not merely beneficial — it is life-sustaining. Insulin aspart's pharmacokinetic profile makes it ideally suited for both multiple daily injection (MDI) regimens and continuous subcutaneous insulin infusion (CSII) via insulin pump, directly addressing the postprandial hyperglycaemia that characterises T1DM and contributes to long-term microvascular and macrovascular complications.
+The high score most likely reflects an existing drug-disease edge in the knowledge graph, because T1DM is already a standard use of this drug. The trials also show aspart as the mealtime insulin in T1DM regimens, in pumps, pens and closed-loop systems. In many of them it is background therapy or a comparator, not the product under test.
 
-It is important to note that from a global regulatory perspective, T1DM represents the primary established indication for insulin aspart rather than a novel repurposing target. The significance of this evaluation for Singapore lies in the fact that insulin aspart currently holds no product registration with the Health Sciences Authority (HSA). The TxGNN model's near-perfect prediction score, supported by L1-level clinical evidence, strongly supports initiating a regulatory market access pathway for Singapore.
+The other nine predictions (ranks 2-10) have little or no supporting evidence. Several look like graph artefacts from autoimmune or diabetes comorbidity. One, drug-induced localized lipodystrophy, is likely an injection-site adverse effect, not an indication.
 
 ---
 
 ## Clinical Trial Evidence
 
+The 10 most relevant of 50 retrieved trials are shown. Aspart is often the comparator or background insulin, not the investigational product.
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT00773279](https://clinicaltrials.gov/study/NCT00773279) | Phase 3 | Completed | 242 | Multicentre randomised crossover study comparing a new disposable pen (PDS290/FlexTouch®) vs FlexPen® for delivery of insulin detemir and insulin aspart in T1DM and T2DM; assessed glycaemic control, safety, and patient preference |
-| [NCT00071448](https://clinicaltrials.gov/study/NCT00071448) | Phase 3 | Completed | 378 | Basal/bolus therapy with insulin aspart vs regular human insulin or insulin lispro + NPH in US paediatric T1DM patients; established efficacy and safety in children and adolescents |
-| [NCT00095446](https://clinicaltrials.gov/study/NCT00095446) | Phase 4 | Completed | 513 | Large open-label study of insulin aspart vs insulin lispro in insulin pumps (CSII) under standard US clinical practice; evaluated postprandial control, safety, and patient acceptance |
-| [NCT01278160](https://clinicaltrials.gov/study/NCT01278160) | Phase 4 | Completed | 179 | Extension trial comparing biphasic insulin aspart 30 twice daily with two different dosage-split regimens in Chinese T2DM patients not at HbA1c target (<7%) |
-| [NCT00467649](https://clinicaltrials.gov/study/NCT00467649) | Phase 4 | Completed | 112 | Randomised open-label parallel-group study characterising basal insulin regimens intensified with either Symlin® or rapid-acting insulin aspart in insulin-naive or early-insulin T2DM |
-| [NCT03977727](https://clinicaltrials.gov/study/NCT03977727) | Phase 3 | Completed | 40 | Exploratory crossover trial comparing faster-acting insulin aspart (Fiasp®) vs standard insulin aspart (NovoLog®) in the Medtronic MiniMed 670G closed-loop system in T1DM adults |
-| [NCT01487382](https://clinicaltrials.gov/study/NCT01487382) | N/A (Post-marketing) | Completed | 241 | Japanese post-marketing special survey of NovoRapid® (insulin aspart) in paediatric T1DM and T2DM under real-world clinical conditions; collected safety and efficacy data |
-| [NCT00645827](https://clinicaltrials.gov/study/NCT00645827) | N/A | Completed | 78 | RCT evaluating an Insulin Infusion Conversion Equation (IICE) to improve inpatient glycaemic control during the transition from IV insulin infusion to subcutaneous insulin aspart injections |
-| [NCT01755416](https://clinicaltrials.gov/study/NCT01755416) | Phase 2 | Completed | 18 | Closed-loop device study with ePID algorithm assessing adjunctive liraglutide vs insulin aspart monotherapy for postprandial glucose excursions in T1DM; technical feasibility data |
-| [NCT07076199](https://clinicaltrials.gov/study/NCT07076199) | Phase 3 | Recruiting | 877 | 26-week head-to-head study: once-weekly insulin icodec vs once-daily insulin glargine U100, both combined with insulin aspart as bolus, in T1DM adults; expected completion December 2026 |
+|---------|------|------|------|---------|
+| [NCT00071448](https://clinicaltrials.gov/study/NCT00071448) | Phase 3 | Completed | 378 | Basal/bolus insulin aspart vs regular human insulin or lispro (with NPH) in children and adolescents with T1DM; aims to show effective and safe paediatric use |
+| [NCT00474045](https://clinicaltrials.gov/study/NCT00474045) | Phase 3 | Completed | 470 | Insulin detemir vs NPH, each with aspart as bolus insulin, in pregnant women with T1DM |
+| [NCT00095082](https://clinicaltrials.gov/study/NCT00095082) | Phase 3 | Completed | 447 | Detemir + aspart vs glargine + aspart in T1DM basal/bolus therapy |
+| [NCT00773279](https://clinicaltrials.gov/study/NCT00773279) | Phase 3 | Completed | 242 | Randomized cross-over comparison of the FlexTouch pen vs FlexPen (detemir with or without aspart) in T1DM/T2DM |
+| [NCT01467323](https://clinicaltrials.gov/study/NCT01467323) | Phase 3 | Completed | 303 | Biphasic insulin aspart 30 vs biphasic human insulin 30/70 twice daily in T1DM/T2DM |
+| [NCT03977727](https://clinicaltrials.gov/study/NCT03977727) | Phase 3 | Completed | 40 | Fiasp vs NovoLog in a Medtronic 670G closed-loop system in adults with T1DM (exploratory cross-over) |
+| [NCT07076199](https://clinicaltrials.gov/study/NCT07076199) | Phase 3 | Recruiting | 877 | Once-weekly icodec vs daily glargine U100, both with aspart, in T1DM (26 weeks) |
+| [NCT00095446](https://clinicaltrials.gov/study/NCT00095446) | Phase 4 | Completed | 513 | Insulin aspart vs lispro in insulin pumps (T1DM and insulin-requiring T2DM) |
+| [NCT01487382](https://clinicaltrials.gov/study/NCT01487382) | N/A | Completed | 241 | Japanese post-marketing survey of NovoRapid in children with diabetes (observational safety and efficacy data) |
+| [NCT02131246](https://clinicaltrials.gov/study/NCT02131246) | Phase 1 | Completed | 33 | Pharmacokinetics and pharmacodynamics of faster-acting insulin aspart in T1DM |
 
 ---
 
 ## Literature Evidence
 
+The 10 most relevant of 20 retrieved publications are shown, prioritising RCTs over reviews.
+
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [21333580](https://pubmed.ncbi.nlm.nih.gov/21333580/) | 2011 | Systematic Review | Diabetes & Metabolism | Systematic review and meta-analysis comparing insulin aspart (IAsp) vs regular human insulin (RHI) and biphasic IAsp vs premixed human insulin across T1DM and T2DM; IAsp consistently associated with superior HbA1c reduction and postprandial glucose control |
-| [37863084](https://pubmed.ncbi.nlm.nih.gov/37863084/) | 2023 | RCT | The Lancet | ONWARDS 6 trial: once-weekly insulin icodec vs once-daily insulin degludec, both in basal-bolus regimen with insulin aspart, in T1DM adults; aspart served as the standard bolus comparator demonstrating established efficacy |
-| [36623517](https://pubmed.ncbi.nlm.nih.gov/36623517/) | 2023 | RCT | The Lancet Diabetes & Endocrinology | EXPECT trial: non-inferiority RCT of insulin degludec vs insulin detemir, both combined with insulin aspart, in pregnant women with T1DM across multiple countries; confirmed safety and efficacy of aspart-containing regimens in high-risk obstetric populations |
-| [40129237](https://pubmed.ncbi.nlm.nih.gov/40129237/) | 2025 | RCT | Diabetes, Obesity & Metabolism | Double-blind crossover RCT comparing faster-acting insulin aspart vs standard insulin aspart in T1DM adults using non-automated insulin pump with continuous glucose monitoring; directly evaluated head-to-head efficacy and safety |
-| [12215068](https://pubmed.ncbi.nlm.nih.gov/12215068/) | 2002 | Systematic Review | Drugs | Foundational comprehensive review of insulin aspart across T1DM and T2DM: faster absorption than regular human insulin, significantly improved postprandial glucose, and comparable or superior HbA1c |
-| [37290466](https://pubmed.ncbi.nlm.nih.gov/37290466/) | 2023 | Review | The Lancet Diabetes & Endocrinology | Comprehensive review of T1DM management in pregnancy, including rapid-acting insulin analogues, CGM, and pump therapy; reinforces the central role of aspart-class insulins in achieving time-in-range targets |
-| [29978361](https://pubmed.ncbi.nlm.nih.gov/29978361/) | 2019 | Review | Clinical Pharmacokinetics | Pharmacokinetic and pharmacodynamic overview of faster insulin aspart (Fiasp®) compared with standard aspart; earlier glucose-lowering onset, greater 20-minute effect, with comparable overall efficacy |
-| [25143741](https://pubmed.ncbi.nlm.nih.gov/25143741/) | 2014 | Review | Vascular Health and Risk Management | Review of the insulin degludec/insulin aspart fixed-ratio combination in T1DM and T2DM; contextualises the role of the aspart component in providing prandial coverage within a basal-bolus framework |
-| [18710361](https://pubmed.ncbi.nlm.nih.gov/18710361/) | 2008 | Review | Expert Opinion on Pharmacotherapy | Evidence-based evaluation of biphasic insulin aspart 30 in T1DM; addressed pre- and postprandial hyperglycaemia as independent risk factors for complications |
-| [15871555](https://pubmed.ncbi.nlm.nih.gov/15871555/) | 2003 | Review | Treatments in Endocrinology | Spotlight review on insulin aspart (NovoLog®/NovoRapid®) in T1DM and T2DM; immediate-premeal dosing yielded significantly lower mean HbA1c and improved postprandial glucose vs regular human insulin |
+|------|-----|------|------|---------|
+| [37863084](https://pubmed.ncbi.nlm.nih.gov/37863084/) | 2023 | RCT | Lancet | ONWARDS 6: once-weekly icodec vs once-daily degludec within a basal-bolus regimen in adults with T1DM |
+| [36623517](https://pubmed.ncbi.nlm.nih.gov/36623517/) | 2023 | RCT | Lancet Diabetes Endocrinol | EXPECT: degludec vs detemir, both with aspart, in pregnant women with T1DM (non-inferiority) |
+| [37804858](https://pubmed.ncbi.nlm.nih.gov/37804858/) | 2023 | RCT | Lancet Diabetes Endocrinol | CopenFast: faster-acting aspart vs aspart on fetal growth in pregnancy and post-delivery (T1DM/T2DM) |
+| [40129237](https://pubmed.ncbi.nlm.nih.gov/40129237/) | 2025 | RCT | Diabetes Obes Metab | Double-blind cross-over of faster aspart vs aspart in adults with T1DM on a non-automated pump with CGM |
+| [21333580](https://pubmed.ncbi.nlm.nih.gov/21333580/) | 2011 | Systematic review | Diabetes Metab | Compares aspart with regular human insulin, and biphasic aspart with premixed human insulin, in T1DM/T2DM |
+| [12215068](https://pubmed.ncbi.nlm.nih.gov/12215068/) | 2002 | Review | Drugs | In most randomised trials in T1DM, aspart before meals gave lower mean HbA1c than regular human insulin |
+| [15871555](https://pubmed.ncbi.nlm.nih.gov/15871555/) | 2003 | Review | Treat Endocrinol | Summary of aspart's faster absorption and clinical trial results in T1DM/T2DM |
+| [37290466](https://pubmed.ncbi.nlm.nih.gov/37290466/) | 2023 | Review | Lancet Diabetes Endocrinol | Management of T1DM in pregnancy: lifestyle, drug treatment and technology for glycaemic targets |
+| [39115159](https://pubmed.ncbi.nlm.nih.gov/39115159/) | 2024 | Cohort (post hoc) | Diabet Med | Real-world safety and effectiveness of aspart vs other bolus insulins in pregnant women with T1DM |
+| [31902063](https://pubmed.ncbi.nlm.nih.gov/31902063/) | 2020 | Narrative review | Diabetes Ther | Insulin management strategies in adults with T1DM, including multiple daily injections and pump therapy |
 
 ---
 
 ## Singapore Market Information
 
-Insulin aspart is currently **not registered** in Singapore. There are no product licences on record with the Health Sciences Authority (HSA).
+Eight licences are registered; the five main ones are listed. The registration records contain no approved-indication text.
 
-For reference, insulin aspart is widely approved internationally under the following brand names:
-
-| Jurisdiction | Brand Name | Manufacturer | Approved Indications |
-|-------------|-----------|-------------|---------------------|
-| USA (FDA) | NovoLog® | Novo Nordisk | T1DM and T2DM in adults and paediatric patients ≥2 years |
-| EU (EMA) | NovoRapid® | Novo Nordisk | T1DM and T2DM in adults, adolescents, and children ≥1 year |
-| Japan (PMDA) | ノボラピッド® | Novo Nordisk | T1DM and T2DM |
-| Multiple markets | Fiasp® | Novo Nordisk | Faster-acting formulation; T1DM and T2DM |
-
-A regulatory submission to HSA under the new drug application pathway would be required before this product can be marketed in Singapore.
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN15995P | FIASP SOLUTION FOR INJECTION IN VIAL 100U/ML | Injection, solution |
+| SIN12189P | NOVORAPID FLEXPEN INJECTION 100 u/ml | Injection |
+| SIN15480P | NOVOMIX® 30 PENFILL® 100 U/ML | Injection, suspension |
+| SIN11394P | NOVORAPID PENFILL INJECTION 100 u/ml | Injection |
+| SIN15994P | FIASP FLEXTOUCH 100U/ML | Injection, solution |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Injection-site effects**: Localized lipodystrophy and lipohypertrophy at injection sites are recognised adverse effects of insulin injection. The predicted link to drug-induced localized lipodystrophy (rank 9) should go to pharmacovigilance, not be treated as an indication.
 
-> **Note:** Safety data including key warnings, contraindications, and drug interaction profile were not available in this Evidence Pack. This represents a **blocking data gap** that must be resolved before any clinical or regulatory decision can be made. The package insert (SmPC or prescribing information) from the originator (Novo Nordisk) should be reviewed as the primary source.
+Please refer to the package insert for other safety information, including warnings, contraindications and drug interactions.
 
 ---
 
@@ -126,16 +126,16 @@ Please refer to the package insert for safety information.
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Insulin aspart for Type 1 Diabetes Mellitus carries the highest tier of clinical evidence (L1), supported by multiple completed Phase 3 and Phase 4 randomised trials, extensive real-world safety data, and a strong pharmacological rationale. The drug is registered and widely used in virtually all high-income markets globally. The primary barrier in Singapore is not clinical — it is regulatory. The absence of HSA registration prevents patient access to a therapy that is considered standard of care internationally for T1DM.
+Several completed Phase 3 trials involve insulin aspart in T1DM, including paediatric and pregnancy populations, and the drug is already marketed in Singapore. Evidence is sufficient for L1, but T1DM is an existing use, so this should be handled as label and evidence confirmation, not a new-indication development.
 
 **To proceed, the following is needed:**
+- The HSA package insert (warnings, contraindications, approved indications), which is a blocking gap for safety screening
+- Confirmation of the local T1DM label status for each of the 8 licences
+- Mechanism of action data from DrugBank
+- Verification of per-trial relevance against full trial records, since many trials use aspart only as a comparator or background insulin
+- Routing of the lipodystrophy signal to pharmacovigilance
 
-- **Regulatory submission to HSA:** Initiate a full New Drug Application (NDA) or abridged application (referencing approved markets such as FDA or EMA) through the Health Sciences Authority
-- **Safety data package:** Obtain current prescribing information (SmPC/PI) to document key warnings, contraindications, and drug interactions — this is currently a blocking data gap
-- **Mechanism of action documentation:** Source MOA details from DrugBank (DB01306) or the originator SmPC to support the mechanistic rationale section of the regulatory dossier
-- **Cold chain logistics:** Confirm storage and distribution infrastructure in Singapore for insulin products (typically 2–8°C refrigeration)
-- **Local clinical guideline alignment:** Review the Ministry of Health Singapore's clinical practice guidelines for diabetes mellitus to confirm that insulin aspart-based regimens are consistent with recommended treatment algorithms
-- **Paediatric considerations:** Given the evidence base includes paediatric T1DM populations, confirm whether paediatric labelling is sought in the Singapore submission
+This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

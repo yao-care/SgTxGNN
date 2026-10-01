@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Pamidronic Acid
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 751
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 ---
 
 # Pamidronic Acid
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,81 +29,80 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Pamidronic Acid: From Bisphosphonate Bone Therapy to HIV Infectious Disease
+# Pamidronic Acid: From Bone Disorders to HIV Infection
 
 ## One-Sentence Summary
 
-Pamidronic acid (DrugBank DB00282) is a second-generation nitrogen-containing bisphosphonate; its original approved indications are not recorded in this evidence pack.
-The TxGNN model predicts it may be effective for **HIV Infectious Disease**, based on the drug's known ability to activate Vγ9Vδ2 γδ T cells via osteoclast FPPS inhibition — a mechanism explored in HIV "shock-and-kill" cure strategies.
-Evidence for this specific link is currently limited to **0 clinical trials** and **6 publications**, most of which are mechanism-level or case reports of adverse events rather than efficacy studies.
-
----
+Pamidronic acid is an intravenous bisphosphonate, used clinically for bone conditions such as hypercalcaemia of malignancy, osteolytic lesions and Paget's disease of bone. The TxGNN model predicts it may be effective for **HIV infectious disease**, but there are **0 clinical trials** and only **1 preclinical study** directly supporting this. The remaining papers are reviews and adverse-event case reports.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not specified in evidence pack (no license or original-indication data provided) |
-| Predicted New Indication | HIV Infectious Disease |
+| Original Indication | Not stated in the Singapore registration record. Literature describes hypercalcaemia of malignancy, osteolytic lesions and Paget's disease of bone |
+| Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 99.73% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Research Question |
-
----
+| Evidence Level | L4 (preclinical / mechanistic only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for pamidronic acid is not available in this evidence pack. Based on the information that is available, pamidronic acid is a nitrogen-containing bisphosphonate that inhibits farnesyl pyrophosphate synthase (FPPS) in osteoclasts, a mechanism most clearly documented for its rank-6 predicted indication, Paget disease of bone (an established bisphosphonate indication supported by a Cochrane systematic review, PMID 29192423).
+Pamidronic acid is a nitrogen-containing bisphosphonate. This class inhibits farnesyl pyrophosphate synthase, so isopentenyl pyrophosphate accumulates inside cells. This accumulation activates Vγ9Vδ2 γδ T cells, a kind of immune cell that can find and kill virus-infected cells. A 2023 laboratory study reported that aminobisphosphonates can reactivate the latent HIV-1 reservoir in cells from people living with HIV.
 
-For the HIV prediction specifically, the repurposing rationale supplied with this pack notes that FPPS inhibition by aminobisphosphonates causes accumulation of upstream isoprenoid metabolites (e.g., isopentenyl pyrophosphate), which is a known activator of Vγ9Vδ2 γδ T cells. This immunological activation is being explored as part of "shock-and-kill" strategies aimed at reactivating latent HIV-1 reservoirs so that immune effector cells can clear infected cells. This is a plausible immunopharmacological mechanism, but it is distinct from — and much less validated than — pamidronic acid's established bone-metabolism pharmacology.
+This fits the "shock and kill" HIV cure strategy. Latent virus is first woken up, then the immune system eliminates the infected cells. A 2018 review supports the role of γδ T cells in this approach. The prediction is therefore mechanistically plausible, but it rests on laboratory and ex vivo work only. No study has tested pamidronate for HIV in patients.
 
-It is worth noting that several other TxGNN candidates in this pack are simply rediscoveries of pamidronic acid's known bisphosphonate pharmacology (Paget disease of bone, its early-onset genetic subtype, osteomesopyknosis), which lends indirect credibility to the model's mechanistic reasoning in general, even though the top-ranked HIV prediction itself remains mechanism-only.
-
----
+Other papers linking pamidronate and HIV are case reports of harm, not efficacy. These include collapsing focal segmental glomerulosclerosis (a kidney lesion) and bone problems in HIV patients.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [29925697](https://pubmed.ncbi.nlm.nih.gov/29925697/) | 2018 | Review | JCI Insight | Discusses γδ T cells as an immunotherapeutic approach for HIV cure strategies, including agents that expand or activate this T-cell subset |
-| [11983250](https://pubmed.ncbi.nlm.nih.gov/11983250/) | 2002 | Review | Vaccine | Reviews innate T-cell immunity to HIV and phosphocarbohydrate/phosphoantigen-based immune intervention strategies |
-| [37744358](https://pubmed.ncbi.nlm.nih.gov/37744358/) | 2023 | In vitro/Preclinical | Frontiers in Immunology | Shows aminobisphosphonates (including pamidronate) can reactivate the latent HIV-1 reservoir in cells from people living with HIV, as part of "shock-and-kill" latency-reversal research |
-| [16761013](https://pubmed.ncbi.nlm.nih.gov/16761013/) | 2006 | Case Report (adverse event) | Kidney International | Describes collapsing focal segmental glomerulosclerosis associated with HIV and pamidronate use — a safety signal, not efficacy evidence |
-| [20713349](https://pubmed.ncbi.nlm.nih.gov/20713349/) | 2011 | Case Report (adverse event) | Endocrine Practice | Reports osteoporosis and bilateral hip osteonecrosis in an HIV-infected patient on corticosteroids and antiretroviral therapy; pamidronate context is incidental |
-| [9302445](https://pubmed.ncbi.nlm.nih.gov/9302445/) | 1997 | Case Report (adverse event) | AIDS | Reports hypercalcemia in an AIDS patient treated with growth hormone; not a pamidronate efficacy study |
+| [37744358](https://pubmed.ncbi.nlm.nih.gov/37744358/) | 2023 | Preclinical / ex vivo study | Front Immunol | Aminobisphosphonates reactivated latent HIV-1 in cellular reservoirs, supporting a shock-and-kill approach |
+| [29925697](https://pubmed.ncbi.nlm.nih.gov/29925697/) | 2018 | Review | JCI Insight | γδ T cells as an immunotherapy approach for HIV cure strategies |
+| [11983250](https://pubmed.ncbi.nlm.nih.gov/11983250/) | 2002 | Review | Vaccine | Innate T cell immunity in HIV infection and immunotherapy with phosphocarbohydrates as a concept |
+| [16761013](https://pubmed.ncbi.nlm.nih.gov/16761013/) | 2006 | Case report (adverse event) | Kidney Int | Collapsing focal segmental glomerulosclerosis associated with HIV and pamidronate. This is a safety signal, not efficacy |
+| [20713349](https://pubmed.ncbi.nlm.nih.gov/20713349/) | 2011 | Case report (adverse event) | Endocr Pract | Osteoporosis and hip osteonecrosis in an HIV-infected man on inhaled corticosteroids and ritonavir-boosted therapy. Not efficacy evidence |
+| [9302445](https://pubmed.ncbi.nlm.nih.gov/9302445/) | 1997 | Case report | AIDS | Hypercalcaemia in an AIDS patient given growth hormone. Not relevant to efficacy |
 
----
+## Singapore Market Information
+
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN11543P | PAMISOL CONCENTRATED INJECTION 30 mg/10 ml | Injection | Hospira Australia Pty Ltd |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No drug interaction records were found for this drug.
 
-A **Blocking** data gap (DG001) was identified: local drug-label warnings and contraindications have not yet been retrieved, and this pack cannot proceed to an initial safety assessment (S1) until that data is obtained. A **High**-severity gap (DG002) also exists for the drug's mechanism-of-action data, which limits the analysis above.
-
----
+Points from the supplied literature:
+- **Kidney**: pamidronate-associated collapsing focal segmental glomerulosclerosis was reported in an HIV patient (PMID 16761013), so renal function monitoring is important in this population.
+- **Bone**: osteonecrosis is a recognised bisphosphonate-class concern. Monitor calcium and the risk of osteonecrosis of the jaw.
 
 ## Conclusion and Next Steps
 
-**Decision: Research Question (Hold pending further evidence)**
+**Decision: Hold**
 
 **Rationale:**
-The HIV indication is supported only by mechanism-level and preclinical evidence (Evidence Level L4) — there are no clinical trials, and most identified literature consists of adverse-event case reports rather than efficacy data. Combined with a Blocking safety data gap, this candidate is not yet ready for any development or clinical decision-making.
+The high TxGNN score is not backed by clinical data. The only direct support is a preclinical study, and there are no registered trials of pamidronate for HIV. The HIV-related case reports describe harm, not benefit.
+
+**Other predictions from the same run:**
+- **Paget disease of bone** (score 96.6%) is an established use of pamidronate, supported by a Cochrane review of bisphosphonates. It is not a true repurposing candidate, but it could proceed with guardrails after checking the indication against the local label.
+- **Paget disease of bone 2, early-onset** is an extrapolation from classic Paget disease with no disease-specific evidence.
+- The other predictions (e.g. cholelithiasis, GNE myopathy, obsolete familial combined hyperlipidemia, osteomesopyknosis, feline and simian immunodeficiency) have no trials or literature and no plausible mechanism. Most appear to be knowledge-graph artifacts.
 
 **To proceed, the following is needed:**
-- Drug label warnings and contraindications (DG001, Blocking)
-- Confirmed mechanism-of-action data for pamidronic acid (DG002, High)
-- Preclinical or early-phase clinical data specifically testing pamidronate as an HIV latency-reversing agent
-- Original approved indication and Singapore licensing data, currently absent from this pack
+- The HSA package insert, including approved indications, warnings and contraindications
+- Confirmed mechanism of action data from DrugBank
+- Replication of the latent-reservoir reactivation findings, then a proof-of-concept study in people living with HIV
+- A renal and bone safety plan for HIV patients, who are often on antiretrovirals that affect the kidney and bone
 
-*Note: This drug's rank-6 prediction, Paget disease of bone (Evidence Level L1, decision stage S3, "Proceed with Guardrails," supported by a Cochrane systematic review), reflects an already-established bisphosphonate indication and may warrant separate review if regulatory registration is being considered.*
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

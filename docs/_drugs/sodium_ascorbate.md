@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Sodium Ascorbate
-parent: Low Evidence (L5)
+parent: Medium Evidence (L3-L4)
 nav_order: 907
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Sodium Ascorbate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,87 +33,79 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Sodium ascorbate is the sodium salt form of vitamin C (ascorbic acid), generally used as a nutritional supplement and antioxidant; no specific regulatory indication text is recorded in this evidence pack. The TxGNN model predicts potential relevance to **Insomnia**, but the supporting evidence base is thin — only **1 directly relevant observational study** was identified among the retrieved literature, and none of the retrieved clinical trials directly test sodium ascorbate for insomnia.
-
----
+Sodium ascorbate is the sodium salt of vitamin C, and its only Singapore registration is an injectable product.
+The TxGNN model predicts it may help with **insomnia**, but none of the **20 registered trials** found tests sodium ascorbate for this condition.
+The supporting **literature** is one observational cohort on dietary vitamin C and sleep disorders plus indirect studies, so the prediction is essentially model-driven.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this evidence pack (no regulatory license text available); sodium ascorbate is generically used as vitamin C supplementation/antioxidant |
-| Predicted New Indication | Insomnia (disease) |
+| Predicted New Indication | Insomnia |
 | TxGNN Prediction Score | 94.27% |
-| Evidence Level | L3 (single observational cohort study; no RCTs) |
-| Singapore Market Status | ✗ Not marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap). Based on general pharmacological knowledge, sodium ascorbate is the sodium salt of ascorbic acid (vitamin C), functioning primarily as an antioxidant and as a cofactor for collagen synthesis and several enzymatic reactions. Its established use relates to correcting vitamin C deficiency and providing antioxidant support; no oncology or other disease-specific original indication is recorded in this dataset.
+Currently, detailed mechanism of action data is not available. Based on known information, sodium ascorbate is a vitamin C salt. Its role in vitamin C supplementation is well established, and it may act mechanistically through antioxidant or neuromodulatory activity. Neither pathway has been shown to apply to insomnia.
 
-The mechanistic rationale linking vitamin C to insomnia is indirect: oxidative stress and inflammatory pathways have been implicated in sleep regulation, and vitamin C has been studied as a dietary factor associated with sleep quality in population-level research. However, this is a plausibility argument based on general biology rather than a validated pharmacological mechanism specific to sodium ascorbate. Most of the clinical trial and literature evidence retrieved for this candidate involves vitamin C as an incidental component (e.g., as a comparator, placebo, or co-supplement) rather than as the primary intervention being tested for insomnia, which weakens the strength of the mechanistic link.
+The only relevant human signal is a UK Biobank cohort study (68,221 participants) examining dietary vitamin C intake and sleep disorders, including insomnia. An observational association between diet and sleep does not show that supplementing sodium ascorbate treats insomnia. Causality, dose-response and the right formulation are all unknown.
 
----
+The model score is high, but it reflects knowledge-graph similarity, not clinical proof.
 
 ## Clinical Trial Evidence
 
-No trial in the retrieved set directly tests sodium ascorbate as a primary intervention for insomnia. The following are the most topically related trials (sleep-related outcomes or vitamin C/antioxidant supplementation), presented for context; relevance should be considered indirect:
+No identified trial tests sodium ascorbate or vitamin C as a treatment for insomnia. The trials below are the closest matches. Most were retrieved through keyword overlap, and none has Phase 2 or 3 efficacy data for this question.
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT03337529](https://clinicaltrials.gov/study/NCT03337529) | NA | Completed | 19 | Vitamin C evaluated as a treatment for Restless Legs Syndrome in hemodialysis patients, a condition associated with insomnia |
-| [NCT05646693](https://clinicaltrials.gov/study/NCT05646693) | Phase 2 | Unknown | 58 | Combined antioxidant therapy (with amitriptyline/perphenazine/diazepam) evaluated in chronic tinnitus, a condition linked to insomnia |
-| [NCT03186027](https://clinicaltrials.gov/study/NCT03186027) | NA | Completed | 282 | CoQ10 + NADH supplementation studied for fatigue and sleep disturbances in CFS/ME |
-| [NCT06777342](https://clinicaltrials.gov/study/NCT06777342) | NA | Not yet recruiting | 1281 | Preoperative sleep intervention to reduce postoperative delirium after cardiac surgery |
-| [NCT04951609](https://clinicaltrials.gov/study/NCT04951609) | Phase 1 | Terminated | 31 | Seltorexant (orexin antagonist, sleep-related mechanism) as adjunct therapy in adolescent MDD |
-| [NCT05332717](https://clinicaltrials.gov/study/NCT05332717) | NA | Completed | 176 | Melatonin vs. placebo (vitamin C used as the placebo) for sleep quality after knee arthroplasty |
-
-**Note:** Several other trials returned by the KG search (e.g., a bispecific antibody trial in multiple myeloma) show no meaningful connection to either sodium ascorbate or insomnia and have been excluded as noise.
-
----
+| [NCT03337529](https://clinicaltrials.gov/study/NCT03337529) | Not applicable | Completed | 19 | Vitamin C for restless legs syndrome in hemodialysis patients, a condition that often causes insomnia. Closest match, but a different primary condition and a very small sample. |
+| [NCT05332717](https://clinicaltrials.gov/study/NCT05332717) | Not applicable | Completed | 176 | Melatonin vs placebo for sleep quality after knee replacement. Vitamin C is used only as the placebo. |
+| [NCT06777342](https://clinicaltrials.gov/study/NCT06777342) | Not applicable | Not yet recruiting | 1281 | Preoperative sleep intervention to reduce postoperative delirium in cardiac surgery patients. An ascorbate role is not confirmed. |
+| [NCT03186027](https://clinicaltrials.gov/study/NCT03186027) | Not applicable | Completed | 282 | CoQ10 plus NADH for fatigue and sleep disturbance in chronic fatigue syndrome. Vitamin C is not the intervention. |
+| [NCT05241405](https://clinicaltrials.gov/study/NCT05241405) | Not applicable | Recruiting | 354 | American ginseng with camu camu vitamin C for cancer-related fatigue. Multi-component and a different outcome. |
+| [NCT03799094](https://clinicaltrials.gov/study/NCT03799094) | Phase 1/2 | Unknown | 150 | IV vitamin C plus a TKI in EGFR-mutant lung adenocarcinoma. Tests ascorbate, but in oncology. |
+| [NCT04951609](https://clinicaltrials.gov/study/NCT04951609) | Phase 1 | Terminated | 31 | Seltorexant (an orexin antagonist) in adolescents with depression. Unrelated to ascorbate. |
+| [NCT04469010](https://clinicaltrials.gov/study/NCT04469010) | Not applicable | Completed | 151 | Iron bisglycinate plus vitamin C for mood, fatigue and cognition in women. Multi-component. |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [39519494](https://pubmed.ncbi.nlm.nih.gov/39519494/) | 2024 | Cohort study | Nutrients | UK Biobank cohort (n=68,221) examining association between dietary vitamin C intake and sleep disorders, including insomnia |
-| [30795964](https://pubmed.ncbi.nlm.nih.gov/30795964/) | 2019 | Preclinical | Hearing Research | Explores glutamate/ascorbate involvement in salicylate-induced tinnitus, a condition associated with insomnia |
-| [24409635](https://pubmed.ncbi.nlm.nih.gov/24409635/) | 2010 | In vitro | Tanzania J Health Res | Antioxidant activity study of a plant extract traditionally used for insomnia relief; ascorbic acid not the primary agent |
-| [24481389](https://pubmed.ncbi.nlm.nih.gov/24481389/) | 2014 | Case report | NZ Medical Journal | High-dose IV vitamin C used to relieve chemotherapy-related fatigue in a single patient; insomnia not a primary endpoint |
-| [24867961](https://pubmed.ncbi.nlm.nih.gov/24867961/) | 2014 | Systematic review | Integr Cancer Ther | Systematic review of IV vitamin C in cancer care; not related to insomnia |
-
-**Note:** Only PMID 39519494 provides direct, population-level evidence linking vitamin C intake to sleep disorders; the remaining citations are tangential.
-
----
+| [39519494](https://pubmed.ncbi.nlm.nih.gov/39519494/) | 2024 | Cohort | Nutrients | Examines dietary vitamin C intake and sleep disorders (including insomnia and sleep apnea) in 68,221 UK Biobank participants. Observational and based on diet, not supplementation. |
+| [24867961](https://pubmed.ncbi.nlm.nih.gov/24867961/) | 2014 | Systematic review | Integrative Cancer Therapies | Reviews intravenous vitamin C in cancer patients. Indirect: oncology, not sleep. |
+| [24481389](https://pubmed.ncbi.nlm.nih.gov/24481389/) | 2014 | Case report | N Z Med J | Pharmacologic vitamin C for fatigue during chemotherapy in one breast cancer patient. Indirect. |
+| [30795964](https://pubmed.ncbi.nlm.nih.gov/30795964/) | 2019 | Preclinical | Hearing Research | MK-801 in a salicylate-induced tinnitus model. Insomnia is mentioned only as a consequence of tinnitus. Not relevant. |
+| [24409635](https://pubmed.ncbi.nlm.nih.gov/24409635/) | 2010 | In vitro | Tanzania J Health Res | Antioxidant assay of vetiver root extract, a plant traditionally used for insomnia. Not relevant to ascorbate. |
 
 ## Singapore Market Information
 
-No marketed products or registration records for sodium ascorbate are available in this evidence pack (`market_status`: Not marketed / Not marketed; `total_licenses`: 0).
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN05209P | SOLUVIT N FOR INFUSION | Injection, powder, for solution | Fresenius Kabi SSPC |
 
----
+The only registered product is injectable. Route compatibility with the predicted indication has not been assessed.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Key warnings, contraindications, and drug interaction data for sodium ascorbate are not currently available in this evidence pack — this has been flagged as a **Blocking** data gap (DG001: TFDA/regulatory warning and contraindication text) preventing a full initial safety assessment.
-
----
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The evidence for a sodium ascorbate–insomnia link consists of a single relevant observational cohort study and no direct interventional trials; most retrieved trials/literature reference vitamin C only incidentally. Combined with a Blocking data gap on safety warnings/contraindications and no current market presence in Singapore, there is insufficient basis to proceed at this time.
+The prediction rests on a model score and a single observational diet study. No trial tests sodium ascorbate for insomnia, and the only local product is an injectable. The evidence does not yet justify moving forward.
 
 **To proceed, the following is needed:**
-- Package insert / regulatory warning and contraindication data for sodium ascorbate (DG001, Blocking)
-- Detailed mechanism of action documentation to support the mechanistic rationale (DG002, High)
-- A targeted literature/trial search specifically for vitamin C (ascorbic acid/sodium ascorbate) interventional studies in insomnia, to distinguish direct evidence from incidental mentions
-- Confirmation of regulatory/market status before any commercial evaluation
+- The HSA package insert, to obtain warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank, to assess the link to sleep regulation
+- Controlled human data on vitamin C supplementation for insomnia, including dose and route
+- An assessment of whether an injectable-only product is compatible with insomnia treatment
+- Optionally, a review of the osteoarthritis prediction (rank 2), which has stronger supporting evidence (L3) than insomnia
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

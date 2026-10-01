@@ -29,79 +29,70 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ravulizumab: From PNH/aHUS to Autosomal Recessive Severe Congenital Neutropenia due to G6PC3 Deficiency
+# Ravulizumab: From Paroxysmal Nocturnal Hemoglobinuria to Autosomal Recessive Severe Congenital Neutropenia Due to G6PC3 Deficiency
 
 ## One-Sentence Summary
 
-> Ravulizumab is a long-acting anti-C5 terminal complement inhibitor, currently used for paroxysmal nocturnal hemoglobinuria (PNH) and atypical hemolytic uremic syndrome (aHUS).
-> The TxGNN model predicts it may be effective for **autosomal recessive severe congenital neutropenia due to G6PC3 deficiency**,
-> but this ranks as **L5 evidence** — a model prediction only, with **no clinical trials** and **no literature** currently supporting this direction.
-
----
+Ravulizumab is a complement C5 inhibitor, used in complement-mediated blood disorders such as paroxysmal nocturnal hemoglobinuria (PNH).
+The TxGNN model predicts it may be effective for **autosomal recessive severe congenital neutropenia due to G6PC3 deficiency**.
+**No clinical trials and no publications** currently support this prediction, so it rests on knowledge-graph proximity alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Paroxysmal Nocturnal Hemoglobinuria (PNH), atypical Hemolytic Uremic Syndrome (aHUS) *(inferred from evidence pack rationale; not confirmed via Singapore licensing data, as drug is unregistered)* |
+| Original Indication | Not stated in the Singapore registration record; PNH is inferred from the drug's known C5-inhibitor role |
 | Predicted New Indication | Autosomal recessive severe congenital neutropenia due to G6PC3 deficiency |
 | TxGNN Prediction Score | 99.96% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, DrugBank-sourced mechanism of action data is not available (data gap). Based on the repurposing rationale captured in this evidence pack, Ravulizumab is an eculizumab derivative that binds complement protein C5, blocking its cleavage into C5a and C5b and thereby preventing terminal complement complex (C5b-9) formation. It is used clinically for PNH and aHUS — both diseases driven by uncontrolled complement activation causing hemolysis and/or thrombotic microangiopathy (TMA).
+Ravulizumab blocks complement component C5, which prevents terminal complement activation and the hemolysis that follows. Detailed mechanism-of-action data are not available beyond this.
 
-The predicted indication, G6PC3-deficient severe congenital neutropenia, is mechanistically distinct. Its neutropenia arises from glucose-6-phosphatase catalytic subunit 3 deficiency, which causes endoplasmic reticulum stress and increased neutrophil apoptosis — a cell-intrinsic metabolic defect, not a complement-mediated process. There is no established biological pathway linking C5 inhibition to correction of this apoptotic defect.
+G6PC3 deficiency is a metabolic and neutrophil-survival defect involving ER stress and neutrophil apoptosis. It is not a complement-mediated disease, and no mechanistic link to C5 inhibition has been established. The high score most likely reflects the knowledge graph connecting the drug to other blood disorders, not a verified biological rationale.
 
-Given this mismatch, the evidence pack itself flags that the high TxGNN score likely reflects proximity between "immunodeficiency/hematologic disease" nodes in the knowledge graph rather than genuine mechanistic similarity. Among the 10 predicted indications in this batch, **primary hyperoxaluria (rank 3)** shows comparatively higher mechanistic plausibility, since oxalate-related nephropathy can present with TMA-like renal injury that theoretically overlaps with complement-mediated pathology — though this too remains unconfirmed by trial or literature evidence.
+The other top-ranked predictions show the same pattern. They include cyclic hematopoiesis, primary hyperoxaluria, severe congenital neutropenia, CXCR2-deficiency neutropenia, p14-deficiency immunodeficiency, pseudo-von Willebrand disease, X-linked neutropenia, primary platelet release disorder and megaloblastic anemia. All have scores of 99.8% or higher, L5 evidence and a Hold recommendation.
 
----
+Applying ravulizumab to the primary immunodeficiency candidate would be a safety concern. Complement inhibition raises infection risk, notably meningococcal disease.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Ravulizumab is not currently registered in Singapore (0 licenses on file). No approved indication, dosage form, or authorization data is available for this jurisdiction.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN17026P | ULTOMIRIS Concentrate for Solution for Infusion 100 mg/mL | Infusion, solution concentrate | Not listed in the record |
 
----
+The product is injectable only. The manufacturers are Catalent Indiana, LLC and Alexion Pharma International Operations Limited.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: No interaction records were found in the queried data.
 
-*(Note: Data gap DG001 flags that TFDA/HSA label warnings and contraindications are currently missing, which blocks progression to the S1 safety pre-assessment stage.)*
-
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction has no clinical trial or literature support (L5 — model prediction only), and the drug's own mechanistic profile (terminal complement inhibition) does not align biologically with the proposed indication's pathophysiology (ER stress-driven neutrophil apoptosis). The drug is also unregistered in Singapore, and safety documentation (warnings/contraindications) is a blocking data gap (DG001).
+The prediction has no supporting trials or publications (L5), and the disease mechanisms are unrelated to C5 blockade. Complement inhibition may also add infection risk in patients with immune or neutrophil disorders.
 
 **To proceed, the following is needed:**
-- Confirmed MOA data from DrugBank/regulatory sources (DG002)
-- TFDA/HSA label warnings and contraindications (DG001, blocking)
-- Preclinical or mechanistic studies testing complement pathway involvement in G6PC3-deficient neutropenia
-- If pursuing this program, consider re-prioritizing toward **primary hyperoxaluria** (rank 3), which has a more defensible TMA-complement mechanistic link, despite currently lacking trial/literature evidence
-- Singapore market entry pathway assessment, given current unregistered status
+- Package insert warnings and contraindications from the HSA website
+- Detailed mechanism-of-action data from DrugBank
+- Independent preclinical or clinical evidence linking complement C5 to the predicted disease
+- A safety assessment of infection risk, including meningococcal vaccination requirements, in the target population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

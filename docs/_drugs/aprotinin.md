@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Aprotinin
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 106
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 ---
 
 # Aprotinin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,70 +29,72 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Aprotinin: From Perioperative Hemostasis to Primary Release Disorder of Platelets
+# Aprotinin: From Perioperative Bleeding Reduction in Cardiac Surgery to Primary Release Disorder of Platelets
 
 ## One-Sentence Summary
 
-Aprotinin is a broad-spectrum serine protease inhibitor historically used as an antifibrinolytic agent to reduce perioperative blood loss in cardiac surgery; it was voluntarily withdrawn from most global markets in 2007 following safety signals from the BART trial, and has not been registered in Singapore.
-The TxGNN model predicts it may be effective for **Primary Release Disorder of Platelets**,
-with **2 indirectly relevant clinical trials** and **no direct publications** currently supporting this direction.
+Aprotinin is a serine protease inhibitor and antifibrinolytic, originally used to reduce perioperative bleeding in cardiac surgery.
+The TxGNN model predicts it may be effective for **primary release disorder of platelets**, but **no aprotinin-specific clinical trials or publications** support this yet.
+Only 2 indirect trials of other drugs in a similar surgical setting were retrieved.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Perioperative hemostasis in cardiac surgery (antifibrinolytic; no Singapore registration on record) |
-| Predicted New Indication | Primary Release Disorder of Platelets |
+|------|------|
+| Original Indication | Reduction of perioperative bleeding in cardiac surgery (taken from the evidence pack's rationale; the Singapore registration records contain no indication text) |
+| Predicted New Indication | Primary release disorder of platelets |
 | TxGNN Prediction Score | 92.71% |
-| Evidence Level | L4 |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 (indirect context only; no aprotinin-specific study) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 3 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known pharmacological information, Aprotinin is a Kunitz-type serine protease inhibitor that acts on plasmin, kallikrein, trypsin, and related serine proteases. Its efficacy in reducing surgical blood loss during cardiac bypass procedures was extensively documented prior to its 2007 market suspension, and mechanistically it engages multiple points of the coagulation-fibrinolysis axis that could theoretically touch upon platelet biology.
+Currently, detailed mechanism of action data is not available in the DrugBank record. Based on known information, aprotinin is a serine protease inhibitor that inhibits fibrinolysis, and its bleeding-reduction effect in cardiac surgery is the basis of its original use.
 
-The TxGNN model's mechanistic rationale centres on two indirect pathways: (1) Aprotinin inhibits plasmin, thereby protecting the platelet GP Ib-IX complex from proteolytic cleavage — preserving the receptor critical for platelet adhesion and signalling; and (2) Aprotinin inhibits kallikrein, reducing contact-activation-induced platelet stimulation, which could theoretically modulate granule release downstream. Both pathways represent plausible but non-primary connections to platelet granule secretion.
+Primary release disorder of platelets is an acquired or inherited platelet function problem that leads to bleeding. A comparable clinical scenario is patients undergoing coronary artery bypass grafting (CABG) after recent clopidogrel exposure, whose platelets are pharmacologically inhibited and who bleed more. An antifibrinolytic could plausibly help reduce bleeding in that setting. This is the mechanistic link behind the prediction.
 
-However, the mechanistic link is indirect and does not address the core defect. Primary platelet release disorder is fundamentally a granule secretion failure — either δ-granule (dense granule storage pool disease) or α-granule deficiency — driven by intrinsic platelet machinery dysfunction, not by excess protease activity. Inhibiting serine proteases does not restore granule biogenesis or secretion capacity. The high TxGNN score (92.71%) most likely reflects shared knowledge graph nodes between Aprotinin's hemostatic context and platelet-bleeding disorder ontology, rather than a direct therapeutic mechanism.
+The link is still hypothetical. The two trials retrieved are in this surgical setting, but neither is shown to test aprotinin. The prediction score comes from knowledge-graph proximity, not from direct evidence.
 
 ---
 
 ## Clinical Trial Evidence
 
-Neither trial below directly tests Aprotinin in primary platelet release disorder. Both involve different study drugs in cardiac surgery settings where platelet function is a secondary endpoint. They are included because the retrieval algorithm identified contextual overlap, but they do not constitute supportive evidence for this repurposing hypothesis.
-
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01596738](https://clinicaltrials.gov/study/NCT01596738) | N/A | Completed | 120 | Tests **tranexamic acid** (not Aprotinin) in CABG patients with premature clopidogrel cessation; Aprotinin is referenced only as the prior antifibrinolytic standard that was suspended in 2007; provides indirect context on antifibrinolytic strategies in platelet-compromised surgical patients |
-| [NCT00724880](https://clinicaltrials.gov/study/NCT00724880) | Phase 4 | Completed | 135 | Evaluates **clopidogrel** (not Aprotinin) and optimal surgical delay to minimise CABG bleeding; explores ADP-receptor-mediated platelet inhibition in a surgical setting; no Aprotinin arm |
-
-> ⚠️ Both trials carry Relevance Grade C — different study drugs, with platelet function as a contextual (not primary) endpoint. Neither constitutes direct evidence for Aprotinin in primary platelet release disorder.
+| [NCT01596738](https://clinicaltrials.gov/study/NCT01596738) | Not applicable | Completed | 120 | Tranexamic acid (a different antifibrinolytic) in on-pump CABG patients with premature clopidogrel cessation. It aimed to reduce postoperative bleeding and transfusion. No aprotinin arm, so it gives only class-level indirect context. |
+| [NCT00724880](https://clinicaltrials.gov/study/NCT00724880) | Phase 4 | Completed | 135 | Randomized study of how clopidogrel affects postoperative bleeding in CABG, and how long before surgery it should be stopped. The clinical scenario matches, but the title does not indicate an aprotinin intervention. |
 
 ---
 
 ## Literature Evidence
 
-Currently no direct literature is available for Aprotinin in primary release disorder of platelets.
+Currently no related literature available.
 
 ---
 
 ## Singapore Market Information
 
-Aprotinin is not registered in Singapore. No authorization records are available for review.
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN07805P | TRASYLOL INJECTION 500,000 kiu/50 ml | Injection | Bayer Pharma AG |
+| SIN14719P | ARTISS Solutions for Sealant, Deep Frozen | Solution | Takeda Manufacturing Austria AG |
+| SIN14707P | TISSEEL Fibrin Sealant VH S/D (Frozen) | Solution | Takeda Manufacturing Austria AG |
+
+Approved indication text is not provided in these registration records.
 
 ---
 
 ## Safety Considerations
 
-No formal safety data (warnings, contraindications, drug interactions) was retrievable from the current Evidence Pack. Please refer to the package insert for safety information.
+Please refer to the package insert for safety information.
 
-> **Critical historical context**: Aprotinin (Trasylol®) was voluntarily withdrawn from most global markets in November 2007 after the BART (Blood Conservation Using Antifibrinolytics in a Randomized Trial) trial demonstrated a statistically significant increase in 30-day mortality, renal failure requiring dialysis, and serious cardiovascular events compared to tranexamic acid and epsilon-aminocaproic acid. It was conditionally re-approved by the EMA in 2012 for restricted use in adult patients undergoing isolated coronary artery bypass grafting when other antifibrinolytics are insufficient or contraindicated. Any repurposing pathway must address this safety history as a primary concern.
+The evidence pack notes that aprotinin's marketing history includes safety restrictions (renal and mortality signals). Any exploration of a new use should begin with a safety review.
 
 ---
 
@@ -101,15 +103,14 @@ No formal safety data (warnings, contraindications, drug interactions) was retri
 **Decision: Hold**
 
 **Rationale:**
-There is no direct clinical or preclinical evidence supporting Aprotinin in primary platelet release disorder; the mechanistic connection is indirect and does not address the granule secretion defect that defines this condition. Compounded by an unresolved safety profile (prior market withdrawal for mortality/renal risk), the benefit-risk calculation is unfavourable for advancing this candidate in a non-life-threatening indication without substantially more targeted data.
+The high model score is a prediction only. There are no aprotinin-specific trials or publications for this indication, and the two retrieved trials do not test aprotinin. Aprotinin's history of renal and mortality safety signals, together with the missing package insert data, means the case is not ready to advance.
 
 **To proceed, the following is needed:**
-- Retrieve and review full TFDA/EMA package insert for current approved warnings, contraindications, and post-reinstatement risk minimisation measures
-- Obtain complete DrugBank MOA entry and pharmacological profile (DrugBank DB06692)
-- Commission dedicated preclinical studies testing Aprotinin specifically in δ-granule or α-granule deficiency platelet models (e.g., Hermansky-Pudlak or Gray Platelet syndrome cell lines)
-- Assess route-of-administration compatibility: Aprotinin is administered intravenously, which may be poorly tolerated for a chronic platelet disorder requiring repeated dosing
-- Conduct a formal benefit-risk analysis calibrated for the platelet release disorder patient population — the mortality/renal risk threshold acceptable for life-threatening cardiac surgery is unlikely to be acceptable for a rare bleeding diathesis
-- Evaluate Singapore regulatory pathway requirements given zero current registrations and the drug's global post-withdrawal restricted status
+- HSA package insert warnings and contraindications (a blocking gap for safety screening)
+- Detailed mechanism of action data from DrugBank
+- Aprotinin-specific clinical or observational evidence in platelet function disorders or clopidogrel-related surgical bleeding
+- A formal safety review covering renal and mortality signals
+- Route compatibility assessment (the injectable form is registered in Singapore; the other two registrations are sealant solutions)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

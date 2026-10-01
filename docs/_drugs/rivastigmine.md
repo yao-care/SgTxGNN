@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Rivastigmine
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 870
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 ---
 
 # Rivastigmine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,80 +29,78 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Rivastigmine: From Alzheimer's Disease to Glaucoma
+# Rivastigmine: From Alzheimer's Dementia to Glaucoma
 
 ## One-Sentence Summary
 
-> Rivastigmine is a cholinesterase inhibitor originally developed for Alzheimer's disease (and Parkinson's disease dementia).
-> The TxGNN model predicts it may be effective for **Glaucoma**,
-> with **0 clinical trials** and **3 publications** currently supporting this direction — evidence remains at the mechanistic/preclinical stage.
-
----
+Rivastigmine is a cholinesterase inhibitor used for dementia, and the literature in this pack describes it as established treatment for Alzheimer's disease and Parkinson's disease dementia. The TxGNN model predicts it may help with **glaucoma**. The support is **no clinical trials** and **3 publications**, only one of which is an actual study (in rabbits), so this is an early-stage research question.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not marketed in Singapore; drug class historically used for Alzheimer's disease / Parkinson's disease dementia |
+| Original Indication | Not stated in the Singapore licence records; literature describes Alzheimer's disease and Parkinson's disease dementia |
 | Predicted New Indication | Glaucoma |
 | TxGNN Prediction Score | 99.27% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✗ Not marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 (preclinical/mechanism evidence only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 7 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known pharmacology, Rivastigmine is a carbamate-type acetylcholinesterase (AChE) / butyrylcholinesterase (BuChE) inhibitor, whose efficacy in Alzheimer's disease and Parkinson's disease dementia has been well established through raising synaptic acetylcholine levels in the central nervous system.
+Currently, detailed mechanism of action data is not available in the record. From the literature, rivastigmine inhibits acetylcholinesterase and butyrylcholinesterase, which raises acetylcholine levels. This is why it is used in Alzheimer's disease and Parkinson's disease dementia.
 
-The proposed link to glaucoma rests on a distinct pharmacological pathway: AChE inhibition can also increase acetylcholine at peripheral muscarinic receptors, contracting the ciliary muscle and opening the trabecular meshwork — the same mechanism exploited by pilocarpine and other muscarinic agonists, an established drug class for intraocular pressure (IOP) reduction. This gives the prediction biological plausibility even though rivastigmine itself has not been developed or tested for ophthalmic use in humans.
+In the eye, higher acetylcholine acts on the ciliary muscle and trabecular meshwork. This increases aqueous humour outflow and lowers intraocular pressure (IOP), the same logic as cholinergic agents such as pilocarpine. A 2000 rabbit study found that topical rivastigmine lowered IOP in normotensive animals.
 
-However, this connection is currently supported only by animal pharmacology and mechanistic review literature — there is no human clinical trial evidence, and no ocular formulation of rivastigmine exists. The evidence level is therefore capped at L4 (preclinical/mechanism), and the internal recommendation stage is "Research Question" rather than a stage suitable for regulatory or clinical action.
-
----
+There is a gap between the original and new use. The only human evidence is indirect, and no clinical trials exist. Oral or transdermal use is not a validated route for glaucoma, so any move forward would need a topical ocular formulation with its own safety and tolerability work.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [39130374](https://pubmed.ncbi.nlm.nih.gov/39130374/) | 2024 | Review (mechanistic, systems genetics) | Frontiers in Molecular Biosciences | Reviews cholinergic (muscarinic) pathways regulating intraocular pressure via the trabecular meshwork, providing mechanistic rationale for cholinergic IOP-lowering agents |
-| [27967267](https://pubmed.ncbi.nlm.nih.gov/27967267/) | 2017 | Review (patent literature) | Expert Opinion on Therapeutic Patents | Notes that mild AChE inhibition has recognized therapeutic relevance in Alzheimer's disease, myasthenia gravis, and glaucoma |
-| [10673128](https://pubmed.ncbi.nlm.nih.gov/10673128/) | 2000 | Animal Study (rabbit, in vivo pharmacology) | Journal of Ocular Pharmacology and Therapeutics | Topical rivastigmine lowered intraocular pressure in normotensive rabbits, direct preclinical evidence for the IOP-lowering hypothesis |
-
----
+| [10673128](https://pubmed.ncbi.nlm.nih.gov/10673128/) | 2000 | Preclinical animal study (rabbit) | J Ocul Pharmacol Ther | Topical rivastigmine, a selective carbamate-type AChE inhibitor, lowered intraocular pressure in normotensive rabbits |
+| [39130374](https://pubmed.ncbi.nlm.nih.gov/39130374/) | 2024 | Systems genetics analysis and review | Front Mol Biosci | Reviews cholinergic agents for IOP reduction. Approved M3 agonists lower IOP but cause systemic cholinergic adverse effects, so understanding the eye's cholinergic system matters |
+| [27967267](https://pubmed.ncbi.nlm.nih.gov/27967267/) | 2017 | Review (patent literature) | Expert Opin Ther Pat | Notes that mild AChE inhibition has therapeutic relevance in Alzheimer's disease, myasthenia gravis and glaucoma |
 
 ## Singapore Market Information
 
-Rivastigmine currently has no marketing authorization registered in Singapore under this evidence pack (0 licenses on record); no local product or approved indication text is available.
+Seven registrations exist; five are shown below. Approved indication text is not recorded in these licence entries.
 
----
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN13450P | Exelon Patch 5 (4.6mg/24hr) | Patch, extended release |
+| SIN13451P | Exelon Patch 10 (9.5mg/24hr) | Patch, extended release |
+| SIN10036P | Exelon Capsule 3 mg | Capsule |
+| SIN10037P | Exelon Capsule 4.5 mg | Capsule |
+| SIN10038P | Exelon Capsule 6 mg | Capsule |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. TFDA/HSA label warnings and contraindications for this drug were not available at the time of this report (flagged as a blocking data gap — see Next Steps).
+Please refer to the package insert for safety information.
 
----
+- Systemic oral or transdermal use is not a validated route for glaucoma.
+- A topical ocular formulation would need its own safety and tolerability assessment.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Evidence for the glaucoma indication is currently limited to one animal pharmacology study and two mechanistic reviews (Evidence Level L4), with no human clinical trials. Combined with the absence of verified safety/label data (a blocking data gap) and the drug not being marketed in Singapore, there is insufficient basis to advance beyond a research question at this time.
+The high model score is backed only by one rabbit study and two general reviews. There are no clinical trials, no human efficacy data, and no suitable ocular formulation. Package insert safety data are also missing, which blocks the safety screening step.
 
 **To proceed, the following is needed:**
-- TFDA/HSA-equivalent label warnings and contraindications (currently a blocking data gap)
-- Confirmed mechanism of action documentation from DrugBank
-- Feasibility assessment of an ophthalmic (topical) rivastigmine formulation, since current approved forms (oral/transdermal patch) are not suited to ocular delivery
-- Preclinical dose-response and safety data specific to ocular/topical exposure, followed by early-phase human IOP-reduction studies
+- Singapore package insert warnings and contraindications (download and parse from the HSA website)
+- Detailed mechanism of action data (query the DrugBank API)
+- Confirmation of the original approved indication in the Singapore licence records
+- Human or further preclinical evidence of IOP lowering, plus a feasibility and ocular safety assessment for a topical formulation
+- Evaluation of primary hereditary glaucoma (also predicted) only after the general glaucoma question is resolved
+
+The other nine predictions (including acute intermittent porphyria and several movement disorders) have no supporting evidence and are all on Hold. For the movement disorders, the available literature points to a possible adverse-effect signal rather than benefit.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

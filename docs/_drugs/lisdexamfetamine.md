@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Lisdexamfetamine
-parent: High Evidence (L1-L2)
+parent: Low Evidence (L5)
 nav_order: 600
-evidence_level: L2
+evidence_level: L5
 indication_count: 10
 ---
 
 # Lisdexamfetamine
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,90 +33,73 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Lisdexamfetamine (LDX) is a CNS stimulant prodrug enzymatically converted to d-amphetamine in the body, clinically established worldwide as a first-line pharmacotherapy for attention-deficit/hyperactivity disorder (ADHD). The TxGNN model predicts it may be effective for **Specific Developmental Disorder** — a broad neurodevelopmental disease category under ICD-10 F80–F90 that directly encompasses ADHD — with **1 clinical trial** and **2 publications** currently supporting this direction; a Phase 2/3 RCT in Japanese pediatric patients provides the core evidence underpinning an L2 rating.
-
----
+Lisdexamfetamine is a prodrug of d-amphetamine. It is marketed in Singapore as Vyvanse, and the literature shows its established use is attention-deficit/hyperactivity disorder (ADHD).
+The TxGNN model predicts it may be effective for **specific developmental disorder** (a label covering learning, speech and motor disorders), with **1 clinical trial** and **2 publications** linked to this prediction.
+Both sources concern ADHD, and no direct evidence was found for the labelled disorders themselves.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | ADHD (Attention-Deficit/Hyperactivity Disorder) — not formally registered in Singapore |
-| Predicted New Indication | Specific Developmental Disorder |
-| TxGNN Prediction Score | 99.9999% |
-| Evidence Level | L2 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+|------|------|
+| Original Indication | ADHD (the Singapore registration records do not state the approved indication; ADHD is taken from the literature) |
+| Predicted New Indication | Specific developmental disorder |
+| TxGNN Prediction Score | 99.99999% |
+| Evidence Level | L2 (based on ADHD evidence only, not direct evidence for the predicted term) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 6 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Lisdexamfetamine is a prodrug composed of L-lysine covalently linked to d-amphetamine. Following oral administration, it is enzymatically hydrolysed in red blood cells to release active d-amphetamine, which promotes reversal of the dopamine transporter (DAT) and norepinephrine transporter (NET), sharply increasing synaptic catecholamine concentrations in the prefrontal cortex. This mechanism directly addresses the core neurobiological deficit of ADHD — impaired dopaminergic and noradrenergic signalling in frontal executive networks — and explains LDX's regulatory approvals in the US (FDA, 2007), EU, and Japan. Formal MOA data was not retrieved from DrugBank in this evidence pack; the above description is drawn from published pharmacology literature.
+The formal mechanism-of-action field is not populated for this drug. Based on known information, lisdexamfetamine is a d-amphetamine prodrug that raises dopamine and norepinephrine signalling in prefrontal-striatal circuits. Its efficacy in ADHD has been shown in a randomised, placebo-controlled Phase II/III study in Japanese children and adolescents.
 
-ADHD (ICD-10 F90) belongs to the broader "specific developmental disorder" disease group (ICD-10 F80–F90: neurodevelopmental disorders encompassing language, motor, scholastic, and attention disorders). This makes the TxGNN prediction a category-level extension of established clinical evidence rather than a classically novel repurposing signal. The mechanistic link is direct: LDX's prefrontal dopamine/norepinephrine augmentation maps precisely onto the shared pathophysiology of attention dysregulation, executive function deficits, and developmental learning impairments across this entire disease class.
+ADHD is a neurodevelopmental condition, so it is close to the "specific developmental disorder" label in the TxGNN graph. This closeness is probably what drives the very high score.
 
-Critically, a multicenter, randomized, double-blind, placebo-controlled Phase 2/3 trial conducted in Japanese paediatric patients (PMID 31718254) confirms LDX efficacy within this disease group, demonstrating significant reduction in ADHD-RS-IV total scores across doses of 30–70 mg/day over four weeks. This Asian-population dataset is particularly relevant for Singapore market assessment, where a comparable genetic and metabolic background may be expected.
-
----
+However, ADHD is already an approved use and only loosely overlaps with learning, speech and motor developmental disorders. No study of lisdexamfetamine in those specific conditions was found. The applicability of the ADHD evidence to the labelled term needs manual confirmation.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00573859](https://clinicaltrials.gov/study/NCT00573859) | Phase 1/2 | Completed | 27 | Mechanistic study exploring reinforcing effects of smoking in adult ADHD patients, including whether stimulant medication (LDX) potentiates smoking reward via ADHD symptom improvement, mood enhancement, or arousal. Not a primary efficacy trial for developmental disorders, but provides CNS mechanistic data in an ADHD/neurodevelopmental population. |
-
----
+| [NCT00573859](https://clinicaltrials.gov/study/NCT00573859) | Phase 1/2 | Completed | 27 | Reinforcing mechanisms of smoking in adult ADHD. The focus is smoking reinforcement and its potentiation by stimulant medication, so the endpoint is not the predicted disorder. |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31718254](https://pubmed.ncbi.nlm.nih.gov/31718254/) | 2020 | Phase 2/3 RCT | J Child Adolesc Psychopharmacol | Multicenter, randomized, double-blind, placebo-controlled trial of LDX 30/50/70 mg/day for 4 weeks in 76 Japanese paediatric patients (ages 6–17) with ADHD. Primary endpoint (ADHD-RS-IV total score change from baseline) was met with statistical significance. Key Asian-population dataset directly applicable to Singapore. |
-| [37849578](https://pubmed.ncbi.nlm.nih.gov/37849578/) | 2023 | Case Report | Cureus | An 18-year-old female with Hao-Fountain syndrome (USP7 mutation), intellectual disability, and comorbid ADHD. No LDX treatment data; documents co-occurrence of ADHD within a rare neurodevelopmental syndrome — contextually relevant to the breadth of the specific developmental disorder category but does not provide LDX efficacy evidence. |
-
----
+| [31718254](https://pubmed.ncbi.nlm.nih.gov/31718254/) | 2020 | RCT | Journal of Child and Adolescent Psychopharmacology | Phase II/III, multicentre, randomised, double-blind, placebo-controlled study of lisdexamfetamine 30, 50 or 70 mg/day for 4 weeks in 76 Japanese patients aged 6-17 with ADHD. The primary endpoint was the change in ADHD-RS-IV total score. |
+| [37849578](https://pubmed.ncbi.nlm.nih.gov/37849578/) | 2023 | Case report | Cureus | An 18-year-old woman with Hao-Fountain syndrome, a rare neurodevelopmental disorder that mimicked fragile X syndrome. She had intellectual disability, ADHD and dysmorphic facies. It gives no treatment evidence for lisdexamfetamine. |
 
 ## Singapore Market Information
 
-Lisdexamfetamine is currently **not registered** with the Health Sciences Authority (HSA) of Singapore. No marketing authorisations or product licences are on file in this evidence pack. As an amphetamine-class controlled substance, regulatory scheduling classification under Singapore's Misuse of Drugs Act must be confirmed as a prerequisite to any registration pathway assessment.
+Six registrations are on record; five are listed below. The records do not include approved-indication text.
 
----
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN15841P | VYVANSE CAPSULES 30 mg | Capsule | Patheon Pharmaceuticals Inc. (Bulk Production) / Takeda GmbH |
+| SIN15842P | VYVANSE CAPSULES 40 mg | Capsule | Patheon Pharmaceuticals Inc. (Bulk Production) / Takeda GmbH |
+| SIN15843P | VYVANSE CAPSULES 50 mg | Capsule | Patheon Pharmaceuticals Inc. (Bulk Production) / Takeda GmbH |
+| SIN15844P | VYVANSE CAPSULES 60 mg | Capsule | Patheon Pharmaceuticals Inc. (Bulk Production) / Takeda GmbH |
+| SIN15845P | VYVANSE CAPSULES 70 mg | Capsule | Patheon Pharmaceuticals Inc. (Bulk Production) / Takeda GmbH |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
-> **Note:** Key warnings, contraindications, and drug interaction data were not retrieved in this evidence pack. Full package insert review (including cardiovascular risk, abuse potential, psychiatric adverse events, and MAO inhibitor interactions) is required before any clinical or regulatory decision.
-
----
-
-⚠️ **Adverse Effect Signals Identified in Secondary TxGNN Predictions**
-
-Two lower-ranked predictions contain important safety signals that should be incorporated into any risk management plan:
-
-- **Trichotillomania (Rank #7):** Two published reports (PMID [32932388](https://pubmed.ncbi.nlm.nih.gov/32932388/); PMID [31984712](https://pubmed.ncbi.nlm.nih.gov/31984712/)) document LDX and other CNS stimulants *inducing* new-onset trichotillomania (hair-pulling disorder) rather than treating it. Excess dopaminergic activation may reinforce compulsive repetitive behaviour circuits (basal ganglia–anterior cingulate pathway). This should be classified as a **potential contraindication signal** in patients with body-focused repetitive behaviour (BFRB) history, not a repurposing target.
-
-- **Transient Tic Disorder (Rank #8):** Pharmacovigilance analyses and ADHD adverse event management reviews (PMID [37645441](https://pubmed.ncbi.nlm.nih.gov/37645441/); PMID [23294014](https://pubmed.ncbi.nlm.nih.gov/23294014/)) consistently position tics as a side effect requiring monitoring during stimulant therapy. Dopamine pathway potentiation may theoretically worsen striatal motor output in tic-prone patients. No therapeutic benefit signal exists.
-
----
-
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-ADHD is definitionally a specific developmental disorder (ICD-10 F90), and a Phase 2/3 RCT in an Asian paediatric population confirms LDX efficacy within this disease class, supporting an L2 evidence level. The biological rationale is mechanistically sound and category-consistent. However, LDX is an amphetamine-class controlled substance with significant regulatory and safety complexities that must be resolved before any further development step in Singapore.
+The only evidence tied to this prediction is in ADHD, which is already an approved use, and none of it directly addresses learning, speech or motor developmental disorders. The safety data from the package insert is also missing, which blocks the safety screening step.
 
 **To proceed, the following is needed:**
+- Confirm which conditions the "specific developmental disorder" label is meant to cover, and whether ADHD evidence can be counted toward it
+- Obtain the HSA package insert warnings and contraindications
+- Obtain the mechanism-of-action data from DrugBank
+- Search for trials or studies of lisdexamfetamine in specific learning, speech or motor developmental disorders
 
-- **Controlled substance classification:** Confirm LDX's scheduling status under Singapore's Misuse of Drugs Act (MDA) and determine whether a Therapeutic Products (TP) licence application is feasible under the current controlled drug framework
-- **Full package insert review:** Retrieve HSA-equivalent or FDA/EMA labelling to document cardiovascular warnings, psychiatric adverse events, contraindications (including MAO inhibitor co-administration), and abuse/dependence precautions — all currently flagged as data gaps in this evidence pack
-- **Drug interaction assessment:** Conduct a formal DDI screen; the current evidence pack returned zero interactions due to query failure, not confirmed absence of interactions
-- **Population scope clarification:** Define whether the clinical target remains ADHD specifically, or whether evidence for other conditions within the "specific developmental disorder" category (e.g., specific learning disability F81, developmental coordination disorder F82) is also being pursued, as each sub-category requires separate evidence review
-- **Risk management protocol:** Incorporate monitoring plans for trichotillomania and tic exacerbation, both identified as adverse effect signals in this evidence pack
-- **Narcolepsy secondary opportunity:** Consider a separate evaluation of narcolepsy (TxGNN Rank #9, L3 evidence; 2 completed Phase 1/2 trials, case series, and multiple historical reviews documenting amphetamine-class use for excessive daytime sleepiness) — this represents a biologically plausible secondary repurposing candidate warranting its own evidence pack
+Note: in the same Evidence Pack, **narcolepsy** (rank 9) has a stronger mechanistic link. It is supported by two small Phase 1/2 crossover studies and a case series, and it may be a better candidate to review first.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

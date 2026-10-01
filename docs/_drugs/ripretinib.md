@@ -29,78 +29,72 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ripretinib: From Undocumented Original Indication to Multiple Endocrine Neoplasia
+# Ripretinib: From Gastrointestinal Stromal Tumour (GIST) to Multiple Endocrine Neoplasia
 
 ## One-Sentence Summary
 
-> Ripretinib's original approved indication and mechanism of action are not documented in this evidence pack (both flagged as data gaps), and the drug currently has no market registration in Singapore.
-> The TxGNN model's top prediction is **Multiple Endocrine Neoplasia**, with a raw score of 98.84% but **zero clinical trials and zero publications** supporting this specific link — the model's own rationale describes it as "score-driven only, with no supporting evidence."
-
----
+Ripretinib is an oral kinase inhibitor approved for gastrointestinal stromal tumour (GIST).
+The TxGNN model predicts it may be effective for **multiple endocrine neoplasia**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction.
+It rests on model output alone, so it should be treated as a hypothesis rather than a lead.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented — no original indication or Singapore license record on file |
-| Predicted New Indication | Multiple Endocrine Neoplasia |
+| Original Indication | Gastrointestinal stromal tumour (GIST). The Singapore licence record carries no indication text, so this comes from the evidence pack's mechanistic notes. |
+| Predicted New Indication | Multiple endocrine neoplasia |
 | TxGNN Prediction Score | 98.84% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Singapore Market Status | ✗ Not marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. No original indication is recorded in this evidence pack either, so there is no basis on which to compare the drug's known pharmacology to the biology of multiple endocrine neoplasia (MEN, a RET/MEN1-driven tumour syndrome group).
+Currently, detailed mechanism of action data is not available in the database. From the evidence pack's analysis, ripretinib is a switch-control inhibitor of the KIT and PDGFRA kinases, and its efficacy in GIST is established.
 
-The evidence pack's own rationale is explicit on this point: the mechanistic link is described as unable to be established, and the prediction is characterized as purely score-driven with no supporting clinical, literature, or mechanistic evidence.
+The link to multiple endocrine neoplasia is weak. MEN syndromes are driven mainly by RET activation (MEN2) or loss of the MEN1 gene, and ripretinib has no established RET activity. The high score reflects proximity in the knowledge graph, not a demonstrated biological connection.
 
-This data-quality concern extends across the rest of the top-10 predicted indications for this candidate. Several lower-ranked entries — *infectious bovine rhinotracheitis* and *malignant catarrh* — are veterinary/reproductive-animal diseases, not human indications, and are flagged in the source data as likely knowledge-graph entity confusion. The rank-10 entry (*breast tumor luminal A or B*) returned 19 literature hits, but nearly all concern unrelated topics (B-cell immunology, hepatitis B vaccines) rather than breast cancer subtypes — consistent with a search/entity-matching artifact rather than genuine evidence. Given this pattern, the entire prediction set for this drug should be treated as low-confidence pending independent verification, not just the top-ranked candidate.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
-
----
-
-## Literature Evidence
-
-Currently no related literature available
-
----
+Any plausibility is therefore at the level of "kinase inhibitor for a tumour syndrome". It is not a target-based rationale.
 
 ## Singapore Market Information
 
-No Singapore (HSA) market authorization is currently on file — Ripretinib is not marketed in Singapore, and no license records were provided in this evidence pack.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN16769P | QINLOCK TABLET 50 MG | Tablet (oral) | Not stated in the licence record |
 
----
+## Cytotoxicity
+
+| Item | Content |
+|------|------|
+| Cytotoxicity Classification | Targeted therapy (kinase inhibitor), not a conventional cytotoxic agent |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert warnings and precautions |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
-*Note: package insert warnings and contraindications data (TFDA/HSA label) were not available for this candidate — this is flagged as a **Blocking** data gap that prevents formal safety screening (S1 stage).*
-
----
+Please refer to the package insert for safety information. No drug interaction records were found for this drug in the queried source.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top prediction (Multiple Endocrine Neoplasia) has an L5 evidence level — a TxGNN score with no supporting clinical trials, literature, or mechanistic rationale — and a Blocking data gap (missing label warnings/contraindications) prevents even a preliminary safety assessment. Several other top-10 predictions for this drug show signs of knowledge-graph entity confusion (veterinary diseases, mismatched literature topics), raising further doubt about signal quality for this candidate.
+The prediction has no supporting trials or literature, and no mechanistic link to ripretinib's known targets. The package insert safety data are also still missing, so the candidate cannot move past the initial screening stage.
+
+Other predicted indications for this drug fare no better:
+- **HER2-positive breast carcinoma:** only a general review of kinase inhibitors is linked, with no indication-specific data (L4, Research Question).
+- **Luminal A/B breast tumour:** the 19 retrieved papers are off-topic keyword matches (B-cell biology, hepatitis B vaccines) and should not be counted as evidence.
+- **Other breast cancer subtypes:** no supporting evidence for any of them.
+- **Veterinary herpesvirus diseases, cytomegalovirus infection and amenorrhea:** likely knowledge-graph artifacts.
 
 **To proceed, the following is needed:**
-- Obtain Ripretinib's package insert warnings and contraindications (TFDA/HSA) — currently Blocking (DG001)
-- Obtain Ripretinib's mechanism of action from DrugBank to enable mechanistic plausibility review (DG002)
-- Confirm the original approved indication(s) for Ripretinib, currently missing from this evidence pack
-- Run a targeted clinical trial and literature search specific to "Ripretinib" + "multiple endocrine neoplasia" (or RET/MEN1 pathway) to establish whether any real evidence base exists
-- Audit knowledge-graph entity mapping for this candidate given the veterinary-disease and topic-mismatch literature noise observed in ranks 2–10
+- The HSA package insert (warnings and contraindications), which is currently a blocking gap.
+- Mechanism of action data from DrugBank.
+- Preclinical evidence on ripretinib in RET-driven or MEN1-deficient models, or other direct data for this indication.
+- A targeted search for ripretinib trials and literature in MEN, replacing the keyword-matched results.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

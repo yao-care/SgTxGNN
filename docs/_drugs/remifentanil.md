@@ -33,33 +33,33 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-> Remifentanil is an ultra-short-acting μ-opioid receptor agonist used as an analgesic adjunct during general anesthesia; no formal original indication record was found in the regulatory data provided.
-> TxGNN predicts a possible association with **Common Cold** (viral upper respiratory infection), scoring **98.68%**,
-> but the supporting evidence — **2 clinical trials** and **2 publications**, none actually studying common cold — indicates this is most likely a knowledge-graph co-occurrence artifact rather than a genuine pharmacological relationship.
+Remifentanil is a short-acting opioid given by injection for analgesia during anesthesia.
+The TxGNN model predicts it may be effective for the **common cold**, but only **2 clinical trials** and **2 publications** were retrieved, and none of them studies the common cold.
+The high score is most likely a knowledge-graph artifact rather than a real therapeutic signal.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not documented in evidence pack. Per drug class, Remifentanil is clinically used as an ultra-short-acting opioid analgesic adjunct in general anesthesia. |
-| Predicted New Indication | Common Cold |
+|------|------|
+| Original Indication | Not stated in the Singapore registration record (remifentanil is used for analgesia during anesthesia) |
+| Predicted New Indication | Common cold |
 | TxGNN Prediction Score | 98.68% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (data gap). Based on known clinical context, Remifentanil is an ultra-short-acting μ-opioid receptor agonist used solely as an analgesic component during general anesthesia. It has no established pharmacological pathway relevant to common cold, which is a self-limiting viral upper respiratory infection.
+Currently, detailed mechanism of action data is not available in the evidence pack. Remifentanil is a short-acting mu-opioid receptor agonist used for analgesia and anesthesia. It has no antiviral, anti-inflammatory or symptom-relieving role in upper respiratory infection.
 
-The evidence review flags this prediction as likely a **knowledge-graph co-occurrence artifact**: opioid analgesics are frequently mentioned in surgical/anesthesia literature alongside a wide range of unrelated conditions purely because patients undergoing surgery may incidentally have a cold, not because the drug treats it. Both clinical trials retrieved for this indication are perioperative airway-management studies (video laryngeal mask airway comparison, paravertebral nerve blocks) with no relevance to respiratory infection treatment — both were graded "C" (low relevance) in the underlying review.
+Its original use (pain control and anesthesia) and the common cold share no disease pathway. Mechanistically there is no plausible link, and the model's high score is likely a knowledge-graph artifact.
 
-Neither of the two associated publications addresses common cold either: one examines pain from propofol injection, the other describes awake craniotomy technique for glioma resection. There is no mechanistic, clinical, or literature basis connecting Remifentanil to common cold treatment.
+The retrieved trials support this view. Both are anesthesia or perioperative studies in which remifentanil is only a background drug. Neither tests it as a treatment for a cold.
 
 ---
 
@@ -67,10 +67,8 @@ Neither of the two associated publications addresses common cold either: one exa
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT06950957](https://clinicaltrials.gov/study/NCT06950957) | N/A | Recruiting | 64 | Compares video laryngeal mask airway vs. endotracheal tube for airway safety during septoplasty; unrelated to common cold treatment (relevance grade C). |
-| [NCT06841822](https://clinicaltrials.gov/study/NCT06841822) | N/A | Recruiting | 168 | Evaluates paravertebral nerve block techniques for hemodynamic stability during thoracoscopic lung lobectomy; unrelated to common cold treatment (relevance grade C). |
-
-Neither trial evaluates Remifentanil for common cold; both are incidental perioperative anesthesia studies.
+| [NCT06950957](https://clinicaltrials.gov/study/NCT06950957) | N/A | Recruiting | 64 | Video laryngeal mask airway vs endotracheal tube in septoplasty. Remifentanil is only background anesthetic. Relevance grade C. |
+| [NCT06841822](https://clinicaltrials.gov/study/NCT06841822) | N/A | Recruiting | 168 | Paravertebral nerve block approaches and hemodynamics during thoracoscopic lobectomy induction. Unrelated to the common cold. Relevance grade C. |
 
 ---
 
@@ -78,22 +76,24 @@ Neither trial evaluates Remifentanil for common cold; both are incidental periop
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [21179290](https://pubmed.ncbi.nlm.nih.gov/21179290/) | 2010 | RCT | Korean J Anesthesiol | Evaluates combination of cold (temperature) propofol and remifentanil pretreatment to reduce propofol injection pain — unrelated to common cold (URI) treatment. |
-| [25909573](https://pubmed.ncbi.nlm.nih.gov/25909573/) | 2015 | Review/Case series | J Neurosurg | Describes awake craniotomy technique for glioma resection over a 27-year period; remifentanil mentioned as an anesthetic component, not related to common cold. |
+| [21179290](https://pubmed.ncbi.nlm.nih.gov/21179290/) | 2010 | RCT | Korean J Anesthesiol | Cold propofol plus remifentanil pretreatment for propofol injection pain. Here "cold" refers to temperature, not the common cold. |
+| [25909573](https://pubmed.ncbi.nlm.nih.gov/25909573/) | 2015 | Review | J Neurosurg | Awake craniotomy methods for glioma resection over 27 years. Not related to the common cold. |
 
 ---
 
 ## Singapore Market Information
 
-No marketing authorization records were found. Remifentanil is currently **not marketed** in Singapore according to the regulatory data provided (0 registrations).
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN09542P | ULTIVA FOR INJECTION 1 mg/vial | Injection, powder, for solution |
+
+The registration record does not list approved indication text.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
-*Note: A blocking data gap (DG001) was identified — official product-label warnings/contraindications have not yet been retrieved, which prevents a full S1 safety pre-assessment.*
+Please refer to the package insert for safety information. No drug interaction records were found in the queried source.
 
 ---
 
@@ -102,13 +102,17 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high, but evidence level is L5 (model prediction only) with no clinical trial or literature evidence actually studying Remifentanil for common cold. The retrieved trials and publications are incidental anesthesia-context mentions, and the underlying mechanistic rationale in the evidence pack itself concludes this is likely a knowledge-graph co-occurrence artifact rather than a real signal.
+There is no plausible mechanism and no relevant clinical study for the common cold, so the prediction is model output only (L5). Remifentanil is an injectable anesthesia opioid, which makes it an unlikely candidate for a self-limiting upper respiratory infection.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data from DrugBank (DG002)
-- Official TFDA/HSA label warnings and contraindications (DG001, currently blocking safety pre-assessment)
-- If further repurposing exploration is desired, consider prioritizing the higher-evidence candidate in this pack — **headache disorder** (rank 9, evidence level L3, recommendation "Research Question") — though existing trials there are also perioperative analgesia studies rather than dedicated headache-disorder trials, and opioid use for primary headache treatment is discouraged by current clinical guidelines
-- Regulatory pathway assessment, since the drug is not currently marketed in Singapore
+- HSA package insert warnings and contraindications, which block safety screening
+- Detailed mechanism of action data from DrugBank
+- A mechanistic rationale linking mu-opioid agonism to cold symptoms or pathology, plus any relevant clinical study
+- A route-compatibility assessment (the only registered form is injectable)
+
+The other nine predicted indications (rank 2 to 10) are also on Hold. Several periodic paralysis and malignant hyperthermia items rest on case reports of safe anesthetic use, which show feasibility rather than efficacy.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

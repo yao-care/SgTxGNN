@@ -29,76 +29,71 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Atracurium Besylate: From Neuromuscular Blockade to Preeclampsia
+# Atracurium Besylate: From Neuromuscular Blockade in Anaesthesia to Preeclampsia
 
 ## One-Sentence Summary
 
-Atracurium besylate is a non-depolarising neuromuscular blocking agent (NMB) widely used in anaesthesia to facilitate endotracheal intubation and maintain skeletal muscle relaxation during surgical procedures, including in pregnant patients.
-The TxGNN model predicts it may be effective for **Preeclampsia**, with **0 clinical trials** and **4 publications** identified in the evidence search — however, critical review reveals that none of these studies evaluate atracurium as a *treatment* for preeclampsia; they describe its use as an anaesthetic adjunct administered to preeclamptic patients undergoing caesarean section.
-
----
+Atracurium besylate is a non-depolarizing neuromuscular blocker, used as an adjunct in anaesthesia.
+The TxGNN model predicts it may be effective for **preeclampsia**, but there are **0 clinical trials** and only **4 publications**, none of which tests it as a treatment for the disease.
+The high score most likely reflects the drug appearing alongside preeclampsia in anaesthesia literature, not a therapeutic effect.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Neuromuscular blockade during anaesthesia and surgical procedures (not registered in Singapore; known from medical literature) |
+|------|------|
+| Original Indication | Not stated in the Singapore registration data. Used as a neuromuscular blocker in anaesthesia |
 | Predicted New Indication | Preeclampsia |
 | TxGNN Prediction Score | 99.97% |
 | Evidence Level | L4 |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on established pharmacology, atracurium besylate is a competitive antagonist of nicotinic acetylcholine receptors (nAChR) at the skeletal neuromuscular junction, producing reversible, dose-dependent muscle paralysis. Its defining pharmacokinetic property is **Hofmann elimination** — a spontaneous, pH- and temperature-dependent degradation process that is independent of renal or hepatic function — making it particularly suitable for patients with end-organ compromise, including those with preeclampsia-related organ dysfunction.
+Detailed mechanism of action data is not currently available. Atracurium is a short-acting intravenous neuromuscular blocker that acts at skeletal muscle nicotinic receptors. Nothing in this mechanism addresses the pathophysiology of preeclampsia, a pregnancy-related hypertensive disorder.
 
-The high TxGNN score most likely reflects **clinical co-occurrence** rather than therapeutic potential: preeclamptic patients who require emergency caesarean section under general anaesthesia routinely receive atracurium as part of the standard anaesthetic protocol. The knowledge graph likely captures this frequent association between the drug and the disease context. Preeclampsia itself is a hypertensive disorder of pregnancy driven by placental endothelial dysfunction, and its management relies on antihypertensives (labetalol, hydralazine, nifedipine) and magnesium sulphate (MgSO₄) for seizure prophylaxis — mechanisms entirely unrelated to neuromuscular blockade.
+The literature links the two only through anaesthesia care. Atracurium has been used in preeclamptic patients who need general anaesthesia, for example for caesarean section. Studies cover dosing, its pharmacokinetics in pregnancy and interactions with magnesium. They do not show that atracurium treats the disease.
 
-A clinically important safety signal exists in this pairing: **MgSO₄, the first-line therapy for preeclampsia/eclampsia prophylaxis, potentiates the neuromuscular blocking effect of atracurium** and can significantly prolong its duration of action. This pharmacodynamic interaction requires dose reduction and enhanced neuromuscular monitoring when both agents are co-administered — further confirming that atracurium's presence in preeclampsia-related literature represents an anaesthetic management consideration, not a repurposing opportunity.
-
----
+I therefore judge the prediction to be a likely artefact of co-occurrence in the knowledge graph, not a plausible repurposing lead. The same applies to the subtypes "severe pre-eclampsia" and "mild pre-eclampsia" (rank 8 and 9), which have no direct evidence.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for atracurium in the treatment of preeclampsia.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [3778800](https://pubmed.ncbi.nlm.nih.gov/3778800/) | 1986 | Case Series | British Journal of Anaesthesia | Clinical observation of atracurium use in pre-eclamptic patients; describes safe administration as NMB adjunct during anaesthesia, not as a treatment for preeclampsia |
-| [9646009](https://pubmed.ncbi.nlm.nih.gov/9646009/) | 1998 | PK/PD Review | Clinical Pharmacokinetics | Pharmacokinetics of NMBs (including atracurium) during pregnancy; notes that volume of distribution and clearance via Hofmann elimination are unchanged in pregnant patients |
-| [18383970](https://pubmed.ncbi.nlm.nih.gov/18383970/) | 2008 | Case Series | Revista Española de Anestesiología y Reanimación | Remifentanil for haemodynamic control during C-section in high-risk patients (including severe preeclampsia ineligible for spinal anaesthesia); atracurium used as background NMB in the general anaesthesia protocol |
-| [41103680](https://pubmed.ncbi.nlm.nih.gov/41103680/) | 2025 | RCT (anaesthesia comparison) | Anesthesiology and Pain Medicine | Comparison of IL-6, leptin, and adiponectin levels after C-section under general vs. spinal anaesthesia; atracurium included as part of the general anaesthesia regimen, not the study intervention |
+|------|-----|------|---------|---------|
+| [9646009](https://pubmed.ncbi.nlm.nih.gov/9646009/) | 1998 | Review | Clin Pharmacokinet | Volume of distribution and clearance of atracurium appear unchanged in pregnancy. Its elimination does not depend on renal, hepatic or enzymatic function |
+| [3778800](https://pubmed.ncbi.nlm.nih.gov/3778800/) | 1986 | Case series | Br J Anaesth | Reports use of atracurium in pre-eclamptic patients as an anaesthetic agent. The abstract is not available |
+| [18383970](https://pubmed.ncbi.nlm.nih.gov/18383970/) | 2008 | Case series | Rev Esp Anestesiol Reanim | Remifentanil bolus for haemodynamic control during caesarean section in 12 high-risk patients. Atracurium is not the focus |
+| [41103680](https://pubmed.ncbi.nlm.nih.gov/41103680/) | 2025 | Cohort | Anesth Pain Med | Compares inflammatory markers after caesarean section under general versus spinal anaesthesia. Not a test of atracurium for preeclampsia |
 
----
+None of these publications evaluates atracurium as a treatment for preeclampsia.
+
+## Singapore Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN06058P | TRACRIUM INJECTION 10 mg/ml | Injection | Not stated in registration data |
+| SIN14836P | ATRACURIUM LABATEC IV SOLUTION FOR INJECTION 10MG/ML | Injection, solution | Not stated in registration data |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-> **Clinically Important Interaction**: Magnesium sulphate (MgSO₄), the standard prophylactic therapy for preeclampsia-related seizures, is known to significantly potentiate neuromuscular blockade from atracurium. If atracurium is used in any preeclampsia context, dose reduction and continuous neuromuscular monitoring are required.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN prediction for atracurium in preeclampsia is assessed as a **false positive driven by clinical co-occurrence**: atracurium appears in preeclampsia-related literature solely as an anaesthetic adjunct, not as a therapeutic agent. There is no biological mechanism linking neuromuscular junction blockade to the core pathophysiology of preeclampsia (placental ischaemia, endothelial dysfunction, hypertension, proteinuria), and no clinical trial has ever evaluated atracurium as a repurposing candidate for this indication. Across all 10 TxGNN-predicted indications for this drug, the same pattern holds — the model captures perioperative context, not therapeutic signal.
+The prediction has no clinical trials and no therapeutic rationale, and the retrieved literature covers only anaesthesia use in preeclamptic patients. All nine other predicted indications are also model-only (rank 2 to 10), and the rank 6 thrombotic disease trial is unrelated.
 
 **To proceed, the following is needed:**
-
-- Retrieve the full product SmPC / package insert (originator source or HSA equivalent) to document contraindications, warnings, and dosing — currently a blocking data gap
-- Obtain DrugBank MOA entry for DB00732 to formally confirm pharmacological classification
-- No further repurposing investigation is recommended for the drug–preeclampsia pair or any of the 10 predicted indications in this pack; this candidate should be flagged as low-priority and archived pending any future mechanistic evidence
+- Mechanism of action data from DrugBank, to confirm there is no plausible link
+- The HSA package insert, for approved indications, warnings and contraindications
+- Any direct evidence that atracurium treats preeclampsia. Without it, this candidate should not advance to safety screening
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

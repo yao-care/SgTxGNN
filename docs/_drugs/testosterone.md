@@ -29,74 +29,65 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Testosterone: From Androgen Deficiency to Polysomy of X Chromosome
+# Testosterone: From Its Registered Use to Polysomy of X Chromosome
 
 ## One-Sentence Summary
 
-> Testosterone (DrugBank DB00624) is the principal endogenous androgen, used clinically for androgen replacement in conditions of testosterone deficiency such as male hypogonadism.
-> The TxGNN model predicts it may be relevant to **Polysomy of X Chromosome** (e.g., Klinefelter-type karyotypes),
-> but this specific prediction currently has **no supporting clinical trials or literature** in the evidence pack — it is a model-only signal.
-
-*Note: The evidence pack returned no regulatory record for testosterone's original indication or mechanism of action (both flagged as data gaps). The "androgen deficiency" indication above reflects well-established general pharmacology, not a value confirmed by this evidence pack.*
-
----
+Testosterone is an androgen sold in Singapore as a topical gel (Androgel), but the registration records supplied do not list its approved indication.
+The TxGNN model predicts it may be effective for **polysomy of X chromosome (47,XXX)**, with a high model score but **no clinical trials and no publications** supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in evidence pack (see Data Gap DG002); testosterone is generally used for androgen/testosterone deficiency |
-| Predicted New Indication | Polysomy of X Chromosome |
+| Original Indication | Not specified in the registration data |
+| Predicted New Indication | Polysomy of X chromosome |
 | TxGNN Prediction Score | 94.88% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed (Not marketed) |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 3 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for testosterone in this evidence pack (Data Gap DG002, severity High). Based on general pharmacological knowledge, testosterone is the primary endogenous androgen and is used therapeutically for androgen replacement in states of testosterone deficiency, most commonly male hypogonadism.
+Currently, detailed mechanism of action data is not available. Testosterone is the principal male sex hormone and is used as androgen replacement. Its efficacy in androgen-deficiency states is well established, but the supplied registration data do not state the approved indication.
 
-Polysomy of X chromosome — which clinically includes conditions such as Klinefelter syndrome (47,XXY) and its variants — is well known to present with primary hypogonadism and low endogenous testosterone due to testicular dysfunction. Androgen replacement therapy is, in fact, standard clinical practice for these patients. Mechanistically, this predicted link is therefore plausible and consistent with established endocrinology, even though it functions more as a confirmation of known practice than a novel repurposing hypothesis.
-
-However, it should be noted that for this specific run, **no clinical trials or literature were retrieved** to substantiate the association for "polysomy of X chromosome" specifically. The evidence pack's other lower-ranked predictions (e.g., rank 2 "tetragametic chimerism," rank 4 "testicular regression syndrome," rank 10 "primary ovarian failure") do carry supporting literature and/or trials involving testosterone, but these are not the top-ranked candidate and fall outside the scope of this single-indication report.
-
----
+The link to the predicted indication is weak. 47,XXX is a chromosomal condition that is not characterised by androgen deficiency, so there is no clear rationale for giving testosterone. The high TxGNN score (94.88%, rank 26,980 overall) reflects a pattern in the knowledge graph rather than a demonstrated biological or clinical benefit. This prediction should be treated as a hypothesis only.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
+## Singapore Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN13161P | Androgel 25mg | Gel | Not listed |
+| SIN16857P | Androgel Gel 16.2mg/g | Gel | Not listed |
+| SIN13162P | Androgel 50mg | Gel | Not listed |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-*(All safety fields — key warnings, contraindications, drug interactions — are recorded as data gaps in this evidence pack. Data Gap DG001 (TFDA/HSA label warnings and contraindications) is flagged as Blocking, meaning the drug cannot proceed to the S1 safety pre-screening stage until this is resolved.)*
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (polysomy of X chromosome) has no supporting clinical trial or literature evidence in this evidence pack — it is a model-only (L5) signal. Combined with a Blocking data gap on label warnings/contraindications, there is insufficient evidence to advance this specific indication.
+The prediction rests on the model score alone, with no trials or publications and no plausible mechanism for testosterone in 47,XXX. The package insert safety data have also not been obtained, so the candidate cannot proceed to safety screening.
+
+Other candidates in the same Evidence Pack have stronger support. Primary ovarian failure (L2) has a randomized transdermal testosterone trial and guideline coverage. Testicular regression syndrome (L3) has reviews and case reports. Neither has confirmed efficacy results, so both remain research questions rather than ready candidates.
 
 **To proceed, the following is needed:**
-- TFDA/HSA package insert warnings and contraindications (DG001, Blocking) — required before any S1 safety pre-screening
-- Testosterone mechanism of action data from DrugBank (DG002, High)
-- Regulatory record of testosterone's original approved indication(s) in Singapore, or confirmation that it is genuinely unregistered
-- Targeted literature/trial search specifically on testosterone use in Klinefelter syndrome / X-chromosome polysomy populations, since the current search returned none for this exact term despite plausible clinical precedent
+- The package insert from the Health Sciences Authority (HSA), covering the approved indication, warnings and contraindications
+- Mechanism of action data from DrugBank
+- A biological rationale and any supporting clinical or literature evidence for testosterone in 47,XXX
+- Consideration of re-prioritising the review toward primary ovarian failure or testicular regression syndrome
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

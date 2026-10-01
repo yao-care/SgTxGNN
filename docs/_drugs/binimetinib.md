@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Binimetinib
-parent: High Evidence (L1-L2)
+parent: Low Evidence (L5)
 nav_order: 161
-evidence_level: L2
+evidence_level: L5
 indication_count: 10
 ---
 
 # Binimetinib
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,105 +29,80 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Binimetinib: From BRAF-Mutant Melanoma to Non-Cutaneous Melanoma
+# Binimetinib: From BRAF V600-Mutant Melanoma to Choroideremia
 
 ## One-Sentence Summary
 
-Binimetinib is a selective MEK1/2 inhibitor approved globally (as Mektovi) in combination with encorafenib for BRAF V600E/K-mutant unresectable or metastatic cutaneous melanoma, though it has not been registered in Singapore.
-The TxGNN model predicts it may be effective for **Non-Cutaneous Melanoma** (including uveal, mucosal, and other non-skin subtypes), with **40 clinical trials** and **1 publication** currently supporting this direction.
-
-> **Note on Prediction Ranking:** The highest-scoring TxGNN prediction (Rank 1) is choroideremia (score 98.63%), which has no supporting clinical trials or literature (Evidence Level: L5, Recommendation: Hold). This report therefore focuses on **Non-Cutaneous Melanoma** (Rank 2, score 98.60%), the top evidenced indication with the strongest actionable recommendation.
-
----
+Binimetinib is an oral MEK1/2 inhibitor, used together with encorafenib for BRAF V600-mutant melanoma. The TxGNN model predicts it may be effective for **choroideremia**, an X-linked inherited retinal degeneration. There are **0 clinical trials** and **0 publications** for this indication, so the score of 98.6% is a graph-based prediction only and has no supporting studies.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not registered in Singapore (global approved use: BRAF V600E/K-mutant unresectable/metastatic melanoma) |
-| Predicted New Indication | Non-Cutaneous Melanoma |
-| TxGNN Prediction Score | 98.60% |
-| Evidence Level | L2 |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+|------|------|
+| Original Indication | BRAF V600-mutant melanoma (inferred from the mechanism and trial notes; the Singapore license text was blank) |
+| Predicted New Indication | Choroideremia |
+| TxGNN Prediction Score | 98.63% |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
+| Recommended Decision | Hold |
 
----
+## Why is This Prediction Reasonable?
 
-## Why Is This Prediction Reasonable?
+Detailed mechanism of action data is not available from DrugBank in this dataset. The mechanistic notes identify binimetinib as a MEK1/2 inhibitor that acts downstream of BRAF and NRAS in the MAPK pathway. Combined with encorafenib, it is an established regimen for BRAF V600-mutant melanoma.
 
-Currently, detailed mechanism of action data is not available from the Singapore regulatory database. Based on known information, Binimetinib is a selective MEK1/2 inhibitor that blocks the BRAF→MEK→ERK signaling cascade. When BRAF harbors a V600E or V600K activating mutation, it constitutively fires MEK, driving uncontrolled tumor cell proliferation. Binimetinib directly suppresses MEK1/2 kinase activity, halting this downstream signal. It is globally co-administered with the BRAF inhibitor encorafenib (Braftovi + Mektovi), synergistically shutting down the RAS-MAPK pathway from two nodes simultaneously.
+This mechanism does not plausibly connect to choroideremia. The disease is caused by loss of CHM/REP1 function, and no MAPK-driven mechanism has been established for it. The high TxGNN score most likely reflects network proximity in the knowledge graph, not biology. It should not be read as a signal of efficacy.
 
-Non-cutaneous melanoma encompasses biologically distinct subtypes — uveal (ocular), mucosal (oral, anorectal, genitourinary), and anatomical variants such as eyelid or acral presentations. Although BRAF V600 mutation rates in these subtypes are substantially lower (~5–20%) compared to cutaneous melanoma (~50%), a meaningful patient subset still harbors BRAF mutations or MEK-activating alterations. Uveal melanoma, for example, frequently carries GNAQ/GNA11 mutations that route oncogenic signaling through MEK, providing a distinct but relevant mechanistic basis for MEK inhibition even in BRAF-wild-type tumors.
+The model's other top predictions are melanoma subtypes, and these are much better supported:
+- **Non-cutaneous melanoma** (rank 2, 98.60%): 40 registered trials, of which 10 were provided. Evidence level is L2 and the recommendation is "Proceed with Guardrails". Most of the trials enrol melanoma broadly, and non-cutaneous enrolment is unconfirmed.
+- **Mucosal melanoma** and **acral lentiginous melanoma**: L2, "Research Question". BRAF V600 mutations are less frequent in these subtypes, so benefit is limited to the BRAF- or NRAS-mutant subset.
+- **Six other subtypes** (epithelioid cell, eyelid, scrotum, lentigo maligna, CDK4-linked and superficial spreading melanoma): L4–L5, "Hold". They have no subtype-specific efficacy evidence, only class-level plausibility.
 
-The mechanistic overlap between the established indication (BRAF-mutant cutaneous melanoma) and non-cutaneous subtypes with MEK-dependent signaling is why TxGNN assigns a high prediction score. Multiple Phase II/III trials — including the pivotal COLUMBUS trial (N=921) and the NEMO trial in NRAS-mutant melanoma (N=402) — enrolled patients across melanoma anatomical subtypes, and several ongoing studies explicitly permit or include mucosal and non-cutaneous participants. The combination's demonstrated ability to penetrate the CNS (brain metastasis studies) also extends its relevance to non-cutaneous primaries that frequently metastasize to the brain.
-
----
+These melanoma predictions largely restate the original indication, so they are not new repurposing opportunities.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT01909453](https://clinicaltrials.gov/study/NCT01909453) | Phase 3 | Completed | 921 | COLUMBUS pivotal trial: encorafenib + binimetinib vs vemurafenib in BRAF V600-mutant unresectable/metastatic melanoma — established the combination as a standard of care |
-| [NCT01763164](https://clinicaltrials.gov/study/NCT01763164) | Phase 3 | Completed | 402 | NEMO trial: binimetinib (MEK162) vs dacarbazine in NRAS Q61-mutant advanced melanoma — demonstrated binimetinib's superiority over chemotherapy; key evidence for MEK inhibition beyond BRAF subtype |
-| [NCT05270044](https://clinicaltrials.gov/study/NCT05270044) | Phase 3 | Active, not recruiting | 815 | COLUMBUS-AD: adjuvant encorafenib + binimetinib vs surveillance in fully resected Stage IIB/C BRAF V600E/K-mutant melanoma — evaluates curative-intent use |
-| [NCT04657991](https://clinicaltrials.gov/study/NCT04657991) | Phase 3 | Active, not recruiting | 257 | Encorafenib + binimetinib + pembrolizumab vs placebo + pembrolizumab in BRAF V600E/K-mutant metastatic/locally advanced melanoma — exploring chemo-immunotherapy combination |
-| [NCT03235245](https://clinicaltrials.gov/study/NCT03235245) | Phase 2 | Active, not recruiting | 271 | EBIN: encorafenib + binimetinib (12 weeks) → nivolumab + ipilimumab vs immediate immunotherapy in BRAF V600-mutant unresectable/metastatic melanoma — may enroll non-cutaneous subgroups |
-| [NCT03898908](https://clinicaltrials.gov/study/NCT03898908) | Phase 2 | Completed | 48 | Encorafenib + binimetinib before local CNS treatment in BRAF-mutant melanoma with brain metastases (asymptomatic and symptomatic cohorts) — directly relevant to advanced non-cutaneous disease |
-| [NCT04511013](https://clinicaltrials.gov/study/NCT04511013) | Phase 2 | Recruiting | 112 | Randomized trial: encorafenib + binimetinib + nivolumab vs ipilimumab + nivolumab in BRAF V600-mutant melanoma with brain metastases — design allows mucosal/non-cutaneous participation |
-| [NCT02910700](https://clinicaltrials.gov/study/NCT02910700) | Phase 2 | Active, not recruiting | 52 | TRIBECA: nivolumab + encorafenib + binimetinib (triplet) in BRAF-mutant Stage III–IV unresectable/metastatic melanoma — evaluates novel triplet combinations |
-| [NCT01320085](https://clinicaltrials.gov/study/NCT01320085) | Phase 2 | Completed | 183 | Single-agent MEK162 (binimetinib) in locally advanced/metastatic malignant cutaneous melanoma with BRAF V600 or NRAS mutations — foundational early-phase efficacy and safety data |
-| [NCT06887088](https://clinicaltrials.gov/study/NCT06887088) | Phase 2 | Recruiting | 33 | ENCEFALO: encorafenib + binimetinib → cemiplimab + fianlimab sequential strategy in BRAF-mutant melanoma with symptomatic brain metastases — newest trial in this combination space |
-
----
+Currently no related clinical trials registered for choroideremia.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [41774417](https://pubmed.ncbi.nlm.nih.gov/41774417/) | 2025 | Case Report | Pigment Cell & Melanoma Research | Molecular profiling used to diagnose epidermotropic metastatic melanoma presenting as eruptive primary melanomas; illustrates diagnostic complexity in distinguishing metastatic from primary melanoma subtypes, relevant to non-cutaneous disease staging |
-
----
+Currently no related literature available for choroideremia.
 
 ## Singapore Market Information
 
-No regulatory authorizations are currently registered for Binimetinib in Singapore. The drug is not available through the HSA approval pathway at this time.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN16826P | MEKTOVI FILM-COATED TABLET 15MG | Tablet, film coated | Not stated in the data provided |
 
----
+Manufacturer: ALMAC Pharma Services Limited; Pierre Fabre Médicament Production (PFMP) (primary and secondary packager). Route: oral.
 
 ## Cytotoxicity
 
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy (selective MEK1/2 inhibitor; non-conventional cytotoxic) |
-| Myelosuppression Risk | Low to moderate — MEK inhibitors carry lower myelosuppression risk than conventional cytotoxics; anaemia has been reported; monitor haematological parameters |
-| Emetogenicity Classification | Low |
-| Monitoring Items | CBC with differential, liver function tests, renal function, LVEF (cardiac monitoring at baseline and periodically), ophthalmic exams (risk of retinal pigment epithelium detachment and uveitis), dermatology assessment, blood pressure |
-| Handling Protection | Follow institutional oral antineoplastic handling guidelines; standard precautions for cytotoxic agents apply |
-
----
+|------|------|
+| Cytotoxicity Classification | Targeted therapy (MEK1/2 inhibitor) |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert warnings and precautions |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
----
+Please refer to the package insert for safety information. The HSA package insert has not been retrieved, and no drug interaction records were found.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The encorafenib + binimetinib combination has strong Phase II/III evidence across BRAF-mutant melanoma subtypes — including two completed Phase III trials (COLUMBUS, N=921; NEMO, N=402) and multiple ongoing trials enrolling non-cutaneous patient populations — and the BRAF→MEK mechanistic basis is well established; however, Binimetinib is not registered in Singapore, BRAF mutation rates in non-cutaneous subtypes are substantially lower than in cutaneous melanoma, and Singapore-specific safety data are absent.
+Choroideremia has no registered trials and no literature, and its mechanism (CHM/REP1 loss) has no established link to MEK inhibition. The prediction rests on the model score alone, so it does not justify further investment.
 
 **To proceed, the following is needed:**
-
-- **Regulatory pathway:** Determine Singapore HSA registration strategy for Binimetinib (and encorafenib as combination partner); assess parallel import or named-patient access options
-- **Molecular screening protocol:** Establish BRAF V600E/K mutation testing criteria for non-cutaneous melanoma patients to identify the eligible subpopulation
-- **Safety documentation:** Obtain full HSA/EMA/FDA package insert to complete the safety assessment (key warnings, contraindications, DDI profile)
-- **MOA documentation:** Retrieve formal mechanism of action data from DrugBank (DB11967) for regulatory dossier preparation
-- **Subtype stratification:** Clarify which non-cutaneous subtypes (uveal, mucosal, eyelid, acral) are intended targets, as BRAF prevalence and recommended therapies differ substantially by subtype
-- **Combination partner availability:** Confirm encorafenib availability in Singapore, as Binimetinib is not indicated as a single agent for melanoma
+- Preclinical evidence that MAPK/MEK signalling contributes to choroideremia pathology
+- Retrieval and review of the HSA package insert to complete the safety screen
+- Mechanism of action data from DrugBank
+- Assessment of route feasibility for an ocular indication, since only an oral tablet is registered
+- For the melanoma-subtype predictions: confirmation that the mapped trials enrolled non-cutaneous, mucosal or acral patients, and review of the remaining 30 trials not provided
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

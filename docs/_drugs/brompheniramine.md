@@ -29,77 +29,78 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Brompheniramine: From Allergic Rhinitis to Allergic Urticaria
+# Brompheniramine: From an Unspecified Original Indication to Allergic Urticaria
 
 ## One-Sentence Summary
 
-Brompheniramine is a first-generation H1 antihistamine historically used for allergic rhinitis, hay fever, and common cold symptom relief. The TxGNN model predicts it may be effective for **Allergic Urticaria**, with a prediction score of 99.87%. However, **no clinical trials and no published literature** were identified to support this specific repurposing direction — the evidence rests entirely on model prediction and mechanistic reasoning.
-
----
+Brompheniramine is a first-generation H1-receptor antagonist (antihistamine). The supplied data do not state its original indication.
+The TxGNN model predicts it may be effective for **allergic urticaria** (score 99.87%), but **no clinical trials and no publications** were supplied, so this remains a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Allergic rhinitis / Hay fever (common use; no Singapore regulatory record available) |
-| Predicted New Indication | Allergic Urticaria |
+|------|------|
+| Original Indication | Not stated in the supplied data (the Singapore registration record has no indication text) |
+| Predicted New Indication | Allergic urticaria |
 | TxGNN Prediction Score | 99.87% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Brompheniramine is a first-generation H1 receptor antagonist with an additional anticholinergic component. Its primary mechanism involves competitive blockade of histamine H1 receptors, which reduces the downstream effects of histamine — including vasodilation, increased vascular permeability, and the characteristic wheal-and-flare response of urticaria. The anticholinergic activity provides a secondary layer of action by suppressing neurogenic inflammation and glandular secretion.
+Currently, detailed mechanism of action data is not available. Based on known information, brompheniramine belongs to the first-generation H1 antihistamine class. Blocking histamine-mediated wheal and itch is a plausible class mechanism for allergic urticaria.
 
-Allergic urticaria shares a central pathophysiological axis with conditions for which antihistamines are already well-established: mast cell degranulation triggered by IgE-mediated allergen exposure releases histamine, which acts on cutaneous H1 receptors to produce the characteristic hives. Mechanistically, Brompheniramine's dual H1-blocking and anticholinergic profile positions it as a candidate for urticaria management — a category where antihistamines are the standard of care, though newer second-generation agents are generally preferred due to a more favourable sedation profile.
+Because the original indications are missing, we cannot tell whether allergic urticaria is a genuinely new use or already covered by labelled or standard antihistamine use. The prediction rests on class-level reasoning, not drug-specific data.
 
-The high TxGNN score (0.9987) is consistent with this mechanistic alignment. However, it is important to note that this prediction likely reflects the model recognising Brompheniramine's broad antihistaminergic profile rather than identifying a genuinely novel repurposing opportunity. Allergic urticaria is already an established indication class for H1 antagonists; what remains unclear is whether Brompheniramine specifically — as opposed to other antihistamines — holds clinical advantages in this setting.
+The other predicted indications, in rank order, differ widely in plausibility:
 
----
+| Rank | Predicted Indication | Score | Assessment |
+|------|------|------|------|
+| 2 | Cold urticaria | 99.55% | Histamine-driven physical urticaria; mechanistically coherent |
+| 3 | Nasal cavity disease | 98.92% | Term too broad; needs mapping to a defined condition such as allergic rhinitis |
+| 4 | Acute laryngopharyngitis | 98.91% | Mostly infectious; weak, indirect link |
+| 5 | Pharyngitis | 98.75% | Benefit limited to allergic or post-nasal-drip symptoms |
+| 6 | Recalcitrant atopic dermatitis | 98.53% | Possible adjunct for itch or sleep; histamine is not the main driver |
+| 7 | IgE responsiveness, atopic | 98.37% | A trait, not a treatable indication |
+| 8 | Rosacea conjunctivitis | 93.51% | Weak link; anticholinergic dryness may worsen symptoms |
+| 9 | Nasopharyngitis | 93.46% | Plausible for cold-symptom relief, possibly existing use |
+| 10 | Anorectal stricture | 80.86% | No plausible mechanism; likely a spurious association |
 
 ## Clinical Trial Evidence
 
-Currently no clinical trials for Brompheniramine in allergic urticaria are registered.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature is available.
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Brompheniramine is **not currently marketed in Singapore**. No Health Sciences Authority (HSA) product registrations were identified.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN10526P | BOMEX TABLET 4 mg (Y S P Industries (M) Sdn Bhd) | Tablet (oral) | Not listed in the registration record |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
-> **Note:** Detailed safety data (key warnings, contraindications, drug interactions) were not available in this Evidence Pack. As a first-generation antihistamine, Brompheniramine is generally known to carry risks of central nervous system sedation, anticholinergic effects (dry mouth, urinary retention, blurred vision), and potential interactions with CNS depressants and MAO inhibitors. These should be verified against the full product monograph before any clinical consideration.
-
----
+Please refer to the package insert for safety information. No drug interactions were found in the queried data.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic basis for Brompheniramine in allergic urticaria is sound — H1 antagonism is the pharmacological cornerstone of urticaria management — but this prediction represents a well-known drug class effect rather than a novel repurposing discovery. With zero clinical trials and zero supporting publications identified, and with the drug absent from the Singapore market entirely, there is insufficient evidence to advance beyond a research question at this stage.
+The prediction score is high, and the antihistamine mechanism fits urticaria. However, there is no trial or literature evidence (L5), and the original indications are unknown, so we cannot tell whether this is a new use or an existing one.
 
 **To proceed, the following is needed:**
+- The Singapore (HSA) package insert, for approved indications, warnings and contraindications
+- Original indication and mechanism of action data (e.g. from DrugBank), to confirm whether allergic urticaria and cold urticaria are already labelled uses
+- A literature and trial search for brompheniramine in urticaria
+- Mapping of "nasal cavity disease" to a defined condition (e.g. allergic rhinitis) before any evaluation
+- Removal or deprioritisation of poorly defined or implausible terms (atopic IgE responsiveness, anorectal stricture)
 
-- Clarify whether the clinical question is truly novel (i.e., does Brompheniramine offer advantages over existing antihistamines in urticaria, such as rapid onset in acute episodes?) or whether this is a regulatory/market access question for Singapore
-- Retrieve complete safety data: download and parse the product monograph (or equivalent) to document warnings, contraindications, and known drug interactions
-- Conduct a targeted literature search comparing first-generation vs. second-generation antihistamines specifically in allergic urticaria to assess whether a specific clinical rationale exists
-- Assess regulatory pathway: since there are zero Singapore HSA registrations, any market entry would require a full new product application — a significant barrier without compelling differentiation evidence
+This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

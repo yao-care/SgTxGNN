@@ -29,74 +29,70 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Triptorelin: From Undocumented Original Indication to Hypertrichosis
+# Triptorelin: Repurposing Evaluation for Hypertrichosis
 
 ## One-Sentence Summary
 
-Triptorelin is a synthetic GnRH (gonadotropin-releasing hormone) agonist; its original approved indication is not documented in the current evidence pack. The TxGNN model's top-ranked prediction is **hypertrichosis (disease)**, but this signal is currently supported by **zero clinical trials** and **zero publications**, and the accompanying mechanistic review flags it as a likely false-positive association.
-
----
+Triptorelin is a GnRH (gonadotropin-releasing hormone) agonist marketed in Singapore, but its approved indications are not recorded in the data supplied.
+The TxGNN model predicts it may be effective for **hypertrichosis**.
+**No clinical trials and no publications** currently support this prediction, so it rests on the knowledge-graph score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — original indication data was not provided in the evidence pack (data gap DG001/DG002) |
-| Predicted New Indication | Hypertrichosis (disease) |
-| TxGNN Prediction Score | 99.99% |
+| Predicted New Indication | Hypertrichosis |
+| TxGNN Prediction Score | 99.997% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 6 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for triptorelin is not available in this evidence pack. Based on the mechanistic notes accompanying the predictions, triptorelin is understood to be a **GnRH agonist** that suppresses gonadal steroid production — a class-level fact confirmed across multiple rationale entries in this dataset (e.g., its established use in precocious puberty, rank 7–8 below).
+Currently, detailed mechanism of action data is not available in the record. Triptorelin is a GnRH receptor agonist. Continuous dosing desensitizes the pituitary and suppresses sex hormones, which is the basis of its established hormone-related uses.
 
-For the top-ranked prediction, hypertrichosis, the model's own rationale states there is **no clear mechanistic link**: GnRH-agonist-driven suppression of gonadal steroids could plausibly affect *androgen-dependent* hair growth (hirsutism), but hypertrichosis is predominantly **non-androgen-dependent** excessive hair growth. The rationale explicitly notes an absence of supporting evidence for this specific association.
+One plausible but unproven route to hypertrichosis is androgen modulation through gonadal suppression. This could matter only if the excess hair growth were androgen-driven. It would not apply to congenital or non-androgenic forms.
 
-By contrast, several lower-ranked predictions in this pack — familial male-limited precocious puberty (rank 7) and precocious puberty (rank 8) — are strongly supported by dozens of completed Phase 3 trials and publications, consistent with triptorelin's well-known real-world use as a GnRH agonist in pediatric endocrinology. This suggests the TxGNN ranking for hypertrichosis (rank 129 by model score) does not align with the evidentiary strength seen elsewhere in the same drug's prediction set, reinforcing the "Hold" classification for this specific candidate.
-
----
+The TxGNN score is very high (rank 129 in the model's ordering), but a graph-based score is not clinical evidence. No study links triptorelin to hypertrichosis.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Triptorelin currently has **no marketing authorization records** in the Singapore regulatory dataset provided (`market_status: Not marketed / Not Marketed`, `total_licenses: 0`). No license table can be generated from the available data.
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN14323P | Pamorelin Powder for Suspension for Injection 3.75 mg per vial | Injection, powder, lyophilized, for suspension |
+| SIN14324P | Pamorelin Powder for Suspension for Injection 11.25 mg per vial | Injection, powder, lyophilized, for suspension |
+| SIN14325P | Pamorelin Powder for Suspension for Injection 22.5 mg per vial | Injection, powder, lyophilized, for suspension |
+| SIN14634P | DIPHERELINE P.R. Powder and Solvent for Suspension for Injection 3.75 mg/vial | Injection, powder, for suspension, extended release |
+| SIN08697P | DECAPEPTYL Injection 0.1 mg/ml | Injection |
 
----
+All registered products are injectables. Approved indication text was not available for these registrations.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Key warnings, contraindications, and drug interaction data were not available in this evidence pack (flagged as Blocking data gap DG001 — TFDA/local label warnings and contraindications required before any safety pre-assessment).
-
----
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked TxGNN prediction (hypertrichosis) has no clinical trial or literature support, and the model's own mechanistic rationale flags it as a likely false-positive association given the mismatch between GnRH-agonist pharmacology and non-androgen-dependent hair growth pathology. Evidence level is L5 (prediction only).
+The prediction has no supporting trials or publications (L5). The only plausible mechanism, androgen suppression, would not apply to congenital or non-androgenic hypertrichosis.
 
 **To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain TFDA/local package insert warnings and contraindications before any safety pre-assessment (S1) can begin
-- Resolve DG002 (High): confirm triptorelin's mechanism of action and original approved indication(s) via DrugBank or product label
-- If pursuing repurposing signals for this drug, consider re-scoring/re-ranking candidates by evidence density rather than raw TxGNN score alone — rank 7 (familial male-limited precocious puberty) and rank 8 (precocious puberty) show substantially stronger clinical trial and literature support and warrant separate evaluation
-- No action recommended on the hypertrichosis candidate specifically until independent mechanistic or preclinical evidence emerges
+- The HSA package insert, to confirm approved indications, warnings and contraindications
+- Mechanism of action data from DrugBank
+- A defined hypertrichosis subtype with a documented androgen-driven mechanism, plus any triptorelin-specific case or trial evidence
+
+**Note on other predictions for this drug:** Among the other predicted indications, **precocious puberty** (rank 8, score 99.89%) is far better supported. It has multiple completed Phase 3 triptorelin trials (for example NCT04736602, NCT00909844, NCT00564850, NCT01467882, NCT05029622) and several publications. It is likely an on-label use rather than true repurposing, so it should be assessed separately against the Singapore regulatory record.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

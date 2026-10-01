@@ -3,14 +3,14 @@ layout: default
 title: Warfarin
 parent: Medium Evidence (L3-L4)
 nav_order: 1069
-evidence_level: L3
+evidence_level: L4
 indication_count: 10
 ---
 
 # Warfarin
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,82 +29,76 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Warfarin: From Thromboembolic Disorders to Heparin Cofactor II Deficiency
+# Warfarin: From Oral Anticoagulation to Heparin Cofactor II Deficiency
 
 ## One-Sentence Summary
 
-> Warfarin is a vitamin K antagonist anticoagulant, originally used for the prevention and treatment of thromboembolic disorders (e.g., deep vein thrombosis, pulmonary embolism, stroke prevention in atrial fibrillation).
-> The TxGNN model predicts it may be effective for **Heparin Cofactor II Deficiency**,
-> with **0 clinical trials** and **5 publications** currently identified, though none directly evaluate warfarin as a treatment for this specific condition.
-
----
+Warfarin is an oral vitamin K antagonist anticoagulant that is marketed in Singapore as tablets. The TxGNN model predicts it may be useful for **heparin cofactor II deficiency**, a rare inherited thrombophilia. No clinical trials support this prediction, only **5 publications** (1 review, 3 case reports and 1 laboratory methods paper), so the evidence is weak.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Thromboembolic disorders (anticoagulation) — not specified in current Singapore regulatory data |
-| Predicted New Indication | Heparin Cofactor II Deficiency |
+|------|------|
+| Original Indication | Not stated in the registration data (warfarin is a standard oral anticoagulant) |
+| Predicted New Indication | Heparin cofactor 2 deficiency |
 | TxGNN Prediction Score | 99.87% |
-| Evidence Level | L3 |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 6 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, warfarin is a vitamin K antagonist that inhibits synthesis of vitamin K-dependent clotting factors (II, VII, IX, X), and its efficacy in thromboembolic disorders has been well established for decades.
+Detailed mechanism of action data is not available in the source record. Warfarin is known to lower the synthesis of vitamin K-dependent clotting factors II, VII, IX and X. This is plausibly useful for managing thrombosis in people with an inherited anticoagulant-pathway deficiency.
 
-Heparin Cofactor II Deficiency is a rare inherited thrombophilia in which reduced activity of the natural anticoagulant heparin cofactor II predisposes patients to venous and arterial thrombosis. Mechanistically, warfarin's established role as systemic anticoagulation therapy for thrombosis makes it plausible for use in patients with this deficiency who present with thrombotic events — analogous to its established use in other inherited thrombophilias such as antithrombin deficiency and Factor V Leiden.
+Heparin cofactor II deficiency impairs the body's natural ability to neutralise thrombin, which can lead to venous thrombosis. Warfarin would treat the resulting clotting tendency, not the underlying heparin cofactor II defect. It would therefore be standard symptomatic anticoagulation, not a new mechanism.
 
-Notably, the supporting literature largely describes case reports in which warfarin was already used clinically to manage thrombosis in patients with hereditary coagulation factor deficiencies (including heparin cofactor II deficiency), suggesting this represents an extension of existing clinical practice rather than an entirely novel mechanism-based hypothesis.
-
----
+The very high TxGNN score most likely reflects proximity in the knowledge graph between warfarin and thrombosis and coagulation nodes. It should not be read as proof of benefit specific to this condition.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [11177584](https://pubmed.ncbi.nlm.nih.gov/11177584/) | 2001 | Review | AIDS Patient Care and STDs | Reviews thrombotic risk factors in HIV/AIDS patients, including acquired/inherited deficiencies of natural anticoagulants such as heparin cofactor II |
-| [3778142](https://pubmed.ncbi.nlm.nih.gov/3778142/) | 1986 | Laboratory Study | Arch Pathol Lab Med | Describes and validates a laboratory method for measuring heparin cofactor II activity; low levels associated with liver disease, consumptive coagulopathy, and preeclampsia |
-| [2214444](https://pubmed.ncbi.nlm.nih.gov/2214444/) | 1990 | Case Report | Kyobu Geka | Familial heparin cofactor II deficiency presenting as a right ventricular thrombus in a 14-year-old female |
-| [11570053](https://pubmed.ncbi.nlm.nih.gov/11570053/) | 2001 | Case Report | Journal of UOEH | Family with recurrent multi-site thrombosis, including an infant death; warfarin used for secondary prevention after known hereditary thrombophilias were excluded |
-| [2033902](https://pubmed.ncbi.nlm.nih.gov/2033902/) | 1991 | Case Report | Nihon Kyobu Shikkan Gakkai Zasshi | Congenital antithrombin II deficiency with pulmonary infarction, managed with 7 years of warfarin therapy |
-
----
+| [11177584](https://pubmed.ncbi.nlm.nih.gov/11177584/) | 2001 | Review | AIDS Patient Care and STDs | Reviews thrombotic events in HIV-infected patients and the hypercoagulable abnormalities involved, including protein deficiencies. The link to heparin cofactor II is indirect. |
+| [2214444](https://pubmed.ncbi.nlm.nih.gov/2214444/) | 1990 | Case report | Kyobu Geka | A 14-year-old girl with familial heparin cofactor II deficiency had a large right ventricular thrombus, initially mistaken for a myxoma, that was removed surgically. |
+| [11570053](https://pubmed.ncbi.nlm.nih.gov/11570053/) | 2001 | Case report | Journal of UOEH | A family with multiple thromboses, including an infant death at 56 days, in which known hereditary thrombophilias were excluded. One child was started on warfarin after a DVT at age 2 and had another DVT at age 7. |
+| [2033902](https://pubmed.ncbi.nlm.nih.gov/2033902/) | 1991 | Case report | Nihon Kyobu Shikkan Gakkai Zasshi | A 48-year-old woman with congenital antithrombin II deficiency and recurrent thrombosis was treated with warfarin for 7 years. On admission, warfarin was stopped and low-dose heparin given. The outcome is truncated in the source. |
+| [3778142](https://pubmed.ncbi.nlm.nih.gov/3778142/) | 1986 | Laboratory methods | Archives of Pathology & Laboratory Medicine | Describes a laboratory assay for heparin cofactor II activity. Low levels were associated with liver disease, consumptive coagulopathy and preeclampsia. It contains no therapeutic data. |
 
 ## Singapore Market Information
 
-No marketing authorizations currently registered in Singapore.
+Six registrations are on record, and five are listed below. The registration data contains no approved indication text.
 
----
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN13517P | Apo-Warfarin 5mg Tablet | Tablet | Apotex Inc. |
+| SIN13516P | Apo-Warfarin 2mg Tablet | Tablet | Apotex Inc. |
+| SIN13515P | Apo-Warfarin 1mg Tablet | Tablet | Apotex Inc. |
+| SIN08146P | MAREVAN TABLET 1 mg (NEW ZEALAND) | Tablet | Douglas Manufacturing Ltd |
+| SIN08019P | MAREVAN TABLET 3 mg (NEW ZEALAND) | Tablet | Douglas Manufacturing Ltd |
+
+All products are oral tablets.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Supporting evidence is limited to case reports and a laboratory methodology paper, with no clinical trials directly evaluating warfarin for heparin cofactor II deficiency. Critical safety data (label warnings, contraindications, and drug-drug interactions) needed for initial safety screening are currently unavailable and flagged as a **Blocking** data gap.
+The only support is a few old case reports and a laboratory methods paper, with no clinical trials. Warfarin would act as ordinary anticoagulation for the thrombotic phenotype, not as a new treatment for heparin cofactor II deficiency. Two other warfarin predictions have more evidence behind them, thrombophilia (L3) and migraine disorder (case reports and small series). Both are flagged as research questions and are better candidates for further work.
 
 **To proceed, the following is needed:**
-- HSA/international package insert warnings and contraindications for warfarin (Blocking gap, DG001)
-- Confirmed mechanism of action detail from DrugBank (High priority gap, DG002)
-- Clarification of original indication and regulatory status, since Singapore licenses are currently listed as 0/not marketed
-- Given heparin cofactor II deficiency is a rare inherited disorder, consider registry/real-world evidence rather than RCTs as the feasible evidence path forward
+- The HSA package insert (warnings, contraindications and approved indications), since safety screening cannot start without it
+- Detailed mechanism of action data, for example from DrugBank
+- A systematic search for cohort or registry data on anticoagulant treatment in confirmed heparin cofactor II deficiency
+- Confirmation that the specific indication adds anything beyond existing standard anticoagulation for inherited thrombophilia
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

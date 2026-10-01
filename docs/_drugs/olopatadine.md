@@ -33,52 +33,71 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Olopatadine is a well-known H1-antihistamine / mast cell stabilizer eye drop, publicly documented as being used for allergic conjunctivitis (formal indication text is not available in the current dataset). The TxGNN model predicts it may be effective for **Rosacea Conjunctivitis**, but this direction currently has **0 clinical trials** and **0 publications** supporting it — the prediction score is high, but it stands entirely on the model itself.
+Olopatadine is an antihistamine and mast cell stabilizer, marketed in Singapore as eye drops and used for allergic conjunctivitis.
+The TxGNN model predicts it may be effective for **rosacea conjunctivitis**, but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction.
+The high score is best read as a knowledge-graph signal, not clinical evidence.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in structured data (drug not marketed in Singapore); publicly known as an H1-antihistamine/mast cell stabilizer used for allergic conditions (e.g., allergic conjunctivitis) |
-| Predicted New Indication | Rosacea Conjunctivitis |
+| Original Indication | Allergic conjunctivitis (the Singapore registration records have no indication text, so this comes from the evidence pack's rationale notes) |
+| Predicted New Indication | Rosacea conjunctivitis |
 | TxGNN Prediction Score | 99.41% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 7 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for olopatadine is not available in this dataset (data gap). Based on publicly known pharmacology, olopatadine is an H1-antihistamine and mast cell stabilizer whose action targets IgE-mediated allergic reactions — this is consistent with its known clinical use in allergic conjunctivitis/rhinitis.
+Detailed mechanism-of-action data from DrugBank is not available. Based on the evidence pack's rationale, olopatadine blocks the histamine H1 receptor and stabilizes mast cells. This can relieve itch and allergic-type inflammation on the ocular surface, which is why it is used for allergic conjunctivitis.
 
-Rosacea conjunctivitis, however, is pathologically distinct: it is primarily driven by meibomian gland dysfunction and chronic vascular inflammation rather than an IgE-mediated hypersensitivity response. The evidence pack's own mechanistic assessment for this candidate explicitly flags this as a **weak** mechanistic link, since olopatadine's antihistamine action does not directly address the vascular/glandular inflammatory pathway thought to drive rosacea conjunctivitis.
-
-The high TxGNN score (99.41%) reflects a strong signal in the knowledge-graph embedding space, but this is a pure model-based prediction (rank 7282) with no corroborating clinical trials or literature — placing it at Evidence Level L5. Several lower-ranked candidates in this batch (e.g., punctate epithelial keratoconjunctivitis, blepharoconjunctivitis) at least have some allergy-related literature context, which the top-ranked rosacea conjunctivitis candidate lacks entirely.
+The link to rosacea-related eye disease is weak. Ocular rosacea is driven mainly by meibomian gland dysfunction, innate immune activation, and microbial or Demodex factors, not primarily by mast cell or histamine pathways. The high TxGNN score most likely reflects the disease's proximity to other conjunctivitis nodes in the knowledge graph. Any benefit would probably be limited to symptomatic itch relief in patients with an allergic component.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
+
+## Singapore Market Information
+
+Showing 5 of 7 registrations. The registration records contain no approved indication text.
+
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN13961P | Pataday® Sterile Ophthalmic Solution 0.2% | Solution, sterile |
+| SIN15242P | PAZEO Ophthalmic Solution 0.7% | Solution, sterile |
+| SIN16569P | OLOPAN Ophthalmic Solution 0.1% w/v | Solution |
+| SIN15526P | ALERCHEK Ophthalmic Solution 0.2% | Solution, sterile |
+| SIN15527P | ALERCHEK Ophthalmic Solution 0.1% | Solution, sterile |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. The drug interaction query returned no records.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction relies solely on the TxGNN model score with no clinical trial or literature support, and the pack's own mechanistic analysis rates the drug–indication link as weak (rosacea conjunctivitis is not primarily an IgE-mediated condition). This is insufficient evidence to advance beyond model prediction (L5/S0).
+The prediction has no clinical trials or literature behind it, and the mechanistic fit with rosacea-related eye disease is weak. Only a possible symptomatic benefit remains.
+
+Among the other predictions, the following are closer to olopatadine's existing anti-allergic use. Each has no direct evidence, so they are research questions rather than candidates for action:
+- Angelucci syndrome (a vernal-type allergic conjunctivitis)
+- Serous conjunctivitis except viral
+- Chronic allergic blepharoconjunctivitis (only indirect literature)
 
 **To proceed, the following is needed:**
-- TFDA/HSA label data (warnings, contraindications) — currently a **Blocking** data gap (DG001), required before any S1 safety screening
-- Confirmed mechanism of action from DrugBank — currently a **High**-severity data gap (DG002)
-- Targeted preclinical or mechanistic studies linking histamine/mast cell pathways to rosacea conjunctivitis pathophysiology
-- Consideration of re-prioritizing toward candidates with existing literature signal (e.g., blepharoconjunctivitis, punctate epithelial keratoconjunctivitis, parasitic conjunctivitis), which at least offer indirect allergy-related evidence
+- HSA package insert warnings and contraindications (currently blocking any safety screening)
+- Mechanism-of-action data from DrugBank
+- A targeted literature search for olopatadine in ocular rosacea, or for the subgroup with a documented allergic component
+- Confirmation of the approved indications in the Singapore registrations
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

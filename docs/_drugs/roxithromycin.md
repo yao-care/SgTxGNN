@@ -33,9 +33,9 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-> Roxithromycin is a 14-membered ring macrolide antibiotic, conventionally used for bacterial infections of the respiratory tract, skin, and soft tissue.
-> The TxGNN model predicts it may be effective for **Leprosy (Hansen's Disease)**,
-> supported by **0 clinical trials** and **5 preclinical/mechanistic publications**, with no human efficacy data currently available.
+Roxithromycin is a macrolide antibiotic, registered in Singapore as an oral capsule (the registration record does not state its approved indication).
+The TxGNN model predicts it may be useful for **leprosy**.
+Support is limited to **5 publications** (reviews plus laboratory and mouse studies) and **0 clinical trials**.
 
 ---
 
@@ -43,29 +43,29 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections (respiratory tract, skin/soft tissue) — typical macrolide antibiotic use; specific approved indication text not available in this evidence pack |
+| Original Indication | Not stated in the Singapore registration record (macrolide antibacterial) |
 | Predicted New Indication | Leprosy |
 | TxGNN Prediction Score | 99.70% |
-| Evidence Level | L4 (preclinical / mechanistic only) |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 (preclinical studies only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, roxithromycin is part of the macrolide antibiotic class (alongside erythromycin and clarithromycin), which acts by binding the bacterial 50S ribosomal subunit to inhibit protein synthesis. Its efficacy in common bacterial infections has been well established clinically.
+Currently, detailed mechanism of action data is not available in the source record. Roxithromycin belongs to the macrolide class. Macrolides generally act by reversibly binding the 50S ribosomal subunit and blocking bacterial protein synthesis. Leprosy is caused by *Mycobacterium leprae*, so an antibacterial that reaches infected tissue could plausibly help.
 
-Mechanistically, several macrolides — most notably clarithromycin — have demonstrated direct activity against *Mycobacterium leprae* in preclinical models, and clarithromycin is already used as part of multidrug therapy (MDT) regimens for leprosy in some settings. Since roxithromycin shares the same macrolide scaffold and mode of action, the TxGNN prediction is biologically plausible.
+The literature supports this link. In mouse footpad infection, roxithromycin and clarithromycin were consistently active and bactericidal against *M. leprae*, while erythromycin and azithromycin were inactive. Clarithromycin was superior to roxithromycin. A Japanese review also describes anti-inflammatory and immunomodulatory effects for roxithromycin and clarithromycin, which may matter in leprosy-related nerve inflammation.
 
-However, the supporting literature is entirely preclinical (in vitro and mouse footpad models from the late 1980s–1990s), and no clinical trial or human efficacy data for roxithromycin specifically in leprosy exists. Notably, one comparative study found clarithromycin to be *superior* to roxithromycin in bactericidal activity against *M. leprae*, suggesting roxithromycin may be a weaker candidate within its own drug class for this indication.
+All of this evidence is preclinical, and no human trial of roxithromycin in leprosy is registered. The high TxGNN score is therefore a lead, not proof of benefit.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ---
 
@@ -73,23 +73,25 @@ Currently no related clinical trials registered
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [1648889](https://pubmed.ncbi.nlm.nih.gov/1648889/) | 1991 | Preclinical (animal model) | Antimicrobial Agents and Chemotherapy | In mouse footpad *M. leprae* infection, roxithromycin and clarithromycin were bactericidal; clarithromycin was superior to roxithromycin |
-| [2665640](https://pubmed.ncbi.nlm.nih.gov/2665640/) | 1989 | Preclinical (in vitro macrophage) | Antimicrobial Agents and Chemotherapy | Screening of >25 antimicrobials in macrophage model identified macrolide activity against *M. leprae* via phenolic glycolipid synthesis inhibition |
-| [3072920](https://pubmed.ncbi.nlm.nih.gov/3072920/) | 1988 | Preclinical (in vitro/in vivo) | Antimicrobial Agents and Chemotherapy | Assessed in vitro/in vivo activity of newer macrolides (incl. roxithromycin) against *M. leprae*, building on erythromycin precedent |
-| [10481449](https://pubmed.ncbi.nlm.nih.gov/10481449/) | 1999 | Cohort/Clinical | Japanese Journal of Leprosy | Roxithromycin and clarithromycin show anti-inflammatory/immunomodulatory activity relevant to leprous peripheral neuropathy management |
-| [12762831](https://pubmed.ncbi.nlm.nih.gov/12762831/) | 2003 | Review | American Journal of Clinical Dermatology | General review of macrolide use in skin infections; roxithromycin included as part of drug class discussion, not leprosy-specific |
+| [12762831](https://pubmed.ncbi.nlm.nih.gov/12762831/) | 2003 | Review | Am J Clin Dermatol | Guide to selecting and using macrolides in skin infections; macrolides inhibit bacterial protein synthesis and have established efficacy in several skin infections |
+| [10481449](https://pubmed.ncbi.nlm.nih.gov/10481449/) | 1999 | Review | Nihon Hansenbyo Gakkai Zasshi | Roxithromycin, clarithromycin, minocycline and fosfomycin show anti-inflammatory and immunomodulatory activity alongside anti-*M. leprae* activity; discussed for leprous peripheral neuropathy |
+| [1648889](https://pubmed.ncbi.nlm.nih.gov/1648889/) | 1991 | Preclinical (animal) | Antimicrob Agents Chemother | In mouse footpad infection, roxithromycin and clarithromycin were active and bactericidal; erythromycin and azithromycin were inactive; clarithromycin was superior |
+| [2665640](https://pubmed.ncbi.nlm.nih.gov/2665640/) | 1989 | Preclinical (in vitro) | Antimicrob Agents Chemother | Macrophage assay based on phenolic glycolipid I synthesis used to screen over 25 antimicrobials for antileprosy potential |
+| [3072920](https://pubmed.ncbi.nlm.nih.gov/3072920/) | 1988 | Preclinical (in vitro and animal) | Antimicrob Agents Chemother | Compared newer macrolides against *M. leprae* in vitro, then measured serum levels of the most active compounds in mice |
 
 ---
 
 ## Singapore Market Information
 
-Roxithromycin is not currently registered with any authorization in Singapore (0 licenses on record).
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN11413P | UPLORES CAPSULE 150 mg (PT Sanbe Farma) | Capsule | Not stated in the registration record |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. A blocking data gap exists: TFDA/HSA label warnings and contraindications have not yet been retrieved for this compound, which prevents a formal S1 safety pre-assessment.
+Please refer to the package insert for safety information. No drug interaction records were found in the source data.
 
 ---
 
@@ -98,14 +100,16 @@ Please refer to the package insert for safety information. A blocking data gap e
 **Decision: Hold**
 
 **Rationale:**
-Evidence for the leprosy indication is limited to preclinical in vitro/animal studies from the 1980s–90s (Evidence Level L4), with no clinical trials and no human efficacy data. The drug is also not currently marketed in Singapore, and core safety documentation (warnings, contraindications) is missing (Blocking data gap DG001).
+Support for leprosy rests on decades-old laboratory and mouse studies, with no human trials. The same studies show clarithromycin outperforming roxithromycin. Leprosy is therefore a research question rather than a candidate ready for development.
 
 **To proceed, the following is needed:**
-- Retrieve TFDA/HSA package insert for roxithromycin warnings and contraindications (resolve DG001)
-- Obtain formal DrugBank MOA confirmation (resolve DG002)
-- Head-to-head comparative data vs. clarithromycin (already used in leprosy MDT) to justify roxithromycin's relative value
-- Any available human/clinical pharmacokinetic or case data specific to *M. leprae* treatment
-- Confirm regulatory pathway feasibility given the drug's current non-marketed status in Singapore
+- The HSA package insert, to confirm approved indications, warnings and contraindications
+- Mechanism of action data from DrugBank
+- Full-text review of the 1988–1991 mouse and in vitro studies to confirm roxithromycin-specific results
+- A comparison against clarithromycin and standard leprosy multidrug therapy to define any realistic role (for example, add-on or alternative)
+- Any human data (case series or trials) for roxithromycin in leprosy
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

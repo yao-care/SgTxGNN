@@ -33,74 +33,70 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Efavirenz (EFV) is a non-nucleoside reverse transcriptase inhibitor (NNRTI) established globally for the treatment of HIV-1 infection, though it carries no registration in Singapore.
-The TxGNN model predicts it may be effective for **Simian Immunodeficiency Virus (SIV) Infection**, with **1 clinical trial** (withdrawn, 0 enrolled) and **16 publications** identified in support of this direction.
-Critically, all existing evidence is based on animal model studies using a chimeric RT-SHIV virus — this represents a research tool scenario rather than a human clinical repurposing target.
+Efavirenz is a non-nucleoside reverse transcriptase inhibitor (NNRTI) used in HIV-1 antiretroviral regimens. The TxGNN model predicts it may be effective for **simian immunodeficiency virus infection**. The supporting evidence is weak: **1 clinical trial** (withdrawn, 0 participants, and not about efavirenz) and **15 publications**, almost all animal or laboratory studies using an HIV-1/SIV hybrid virus. This looks like a model-organism mapping artifact rather than a real repurposing signal.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | HIV-1 Infection (established global use; no Singapore registration on record) |
-| Predicted New Indication | Simian Immunodeficiency Virus Infection |
+|------|------|
+| Original Indication | HIV-1 infection (based on drug class; the Singapore licence text was not supplied) |
+| Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 99.80% |
 | Evidence Level | L4 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the DrugBank query. Based on established pharmacological knowledge, Efavirenz is a non-nucleoside reverse transcriptase inhibitor that binds directly and non-competitively to HIV-1 reverse transcriptase (RT), blocking viral RNA-to-DNA transcription and halting HIV-1 replication. This mechanism is highly specific to HIV-1 RT and does not apply to native SIV reverse transcriptase, which has meaningful structural differences in its NNRTI binding pocket that render it insensitive to EFV.
+Currently, detailed mechanism of action data is not available in the source record. Efavirenz is known to be an HIV-1 NNRTI that binds an allosteric pocket of HIV-1 reverse transcriptase (RT).
 
-The reason TxGNN assigns a high prediction score for SIV infection is that the research literature extensively uses **RT-SHIV** — an artificially constructed chimeric virus with an SIV backbone but HIV-1 reverse transcriptase substituted in. Because this chimera incorporates HIV-1 RT, it retains sensitivity to NNRTIs including EFV. Multiple animal studies (2004–2022) demonstrate that EFV-containing HAART regimens effectively suppress RT-SHIV viral loads in rhesus and pigtail macaques by 3+ log orders, making this a validated nonhuman primate model for studying HIV treatment strategies, drug resistance evolution, and viral reservoir dynamics.
+The prediction is probably not biologically meaningful. Native SIV reverse transcriptase is naturally insensitive to NNRTIs, so efavirenz would not be expected to treat true SIV infection. The macaque studies in the literature use **RT-SHIV**, a chimeric virus that carries HIV-1 RT inside an SIV backbone. This design lets researchers test HIV-1 drugs in monkeys. The studies therefore model HIV-1 therapy in a primate. They do not show that efavirenz treats SIV.
 
-However, this is fundamentally a **research tool application, not a clinical repurposing opportunity**. There is no human patient population with "SIV infection," and the mechanistic link depends entirely on the artificial RT-SHIV construct rather than native SIV biology. Direct extrapolation to a human clinical translation pathway is not appropriate. For genuine clinical repurposing candidates in this Evidence Pack, see **AIDS Related Complex** (Rank 5, L1 evidence) and **Congenital HIV** (Rank 6, L1 evidence), both of which carry substantial Phase 3 RCT data.
+The high score (~0.998) is not backed by any human trial. This is best read as a species and disease-term mapping artifact.
 
 ---
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|-------------|
-| [NCT00863668](https://clinicaltrials.gov/study/NCT00863668) | N/A | Withdrawn | 0 | Planned study of HIV RNA decay kinetics with the integrase inhibitor raltegravir; referenced SIV primate decay comparisons as background context. Study was withdrawn before enrollment began. Research drug was raltegravir, not EFV; indication was HIV-1, not SIV — no evidence contribution to this indication. |
+|---------|------|------|------|---------|
+| [NCT00863668](https://clinicaltrials.gov/study/NCT00863668) | Not applicable | Withdrawn | 0 | Planned study of HIV decay kinetics with raltegravir. It concerns raltegravir, not efavirenz, and HIV rather than SIV. No usable evidence. |
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [15328115](https://pubmed.ncbi.nlm.nih.gov/15328115/) | 2004 | Animal Study | Antimicrobial Agents and Chemotherapy | Foundational study: EFV therapy evaluated directly in rhesus macaques infected with RT-SHIV (SIV backbone + HIV-1 RT). Demonstrated that EFV suppresses the chimeric virus through its NNRTI activity against the HIV-1 RT component — the mechanistic basis for all subsequent RT-SHIV/EFV literature. |
-| [15919889](https://pubmed.ncbi.nlm.nih.gov/15919889/) | 2005 | Animal Study | Journal of Virology | HAART (EFV 200 mg + lamivudine + tenofovir) in 7 RT-SHIV-infected rhesus macaques reduced plasma viral RNA by >3 log₁₀ copies/mL. Established the RT-SHIV HAART model as a proof-of-concept platform mirroring HIV treatment in humans. |
-| [15564466](https://pubmed.ncbi.nlm.nih.gov/15564466/) | 2004 | In Vitro | Journal of Virology | In vitro characterisation of the SIV-HIV-1 chimeric RT-SHIV construct; confirmed NNRTI susceptibility profile and assessed potential for antiviral resistance studies in pigtail macaques — foundational for the animal model. |
-| [19195672](https://pubmed.ncbi.nlm.nih.gov/19195672/) | 2009 | Animal Study | Virology | RT-SHIV characterised for vaginal transmission in Chinese rhesus macaques; viral RNA accumulated in lymph nodes and spleen correlating with plasma viremia — relevant to understanding tissue reservoir formation in the EFV model. |
-| [19889213](https://pubmed.ncbi.nlm.nih.gov/19889213/) | 2009 | Animal Study | Retrovirology | RT-SHIV subpopulation dynamics in pigtail macaques: short-course EFV monotherapy followed by combination ART; single-genome sequencing tracked wild-type and drug-resistant HIV-1 RT variants over time. |
-| [20668516](https://pubmed.ncbi.nlm.nih.gov/20668516/) | 2010 | Animal Study | PLoS ONE | Characterised viral decay kinetics in HAART-treated rhesus macaques (EFV + 3TC + TDF); demonstrated biphasic viral decay and persistent residual viremia consistent with human HIV HAART responses. |
-| [21084490](https://pubmed.ncbi.nlm.nih.gov/21084490/) | 2011 | Animal Study | Journal of Virology | SIV/HIV chimera (RT-SHIV) genetic diversity analysed before, during, and after ART including short-course EFV monotherapy in pigtail macaques; diversity persisted despite treatment. |
-| [22933296](https://pubmed.ncbi.nlm.nih.gov/22933296/) | 2012 | Virology/Sequencing | Journal of Virology | Ultrasensitive allele-specific PCR detected rare pre-existing EFV-resistant variants in RT-SHIV-infected macaques before ART; characterised how resistance mutations emerge under drug selection pressure. |
-| [24777106](https://pubmed.ncbi.nlm.nih.gov/24777106/) | 2014 | Animal Study | Antimicrobial Agents and Chemotherapy | Four- and five-drug HAART (including integrase inhibitor L-870-812 added to EFV-containing backbone) in RT-SHIV rhesus macaques; enhanced regimens improved early viral decay and reduced rebound upon cessation. |
-| [35856680](https://pubmed.ncbi.nlm.nih.gov/35856680/) | 2022 | Translational Imaging | Antimicrobial Agents and Chemotherapy | Mass spectrometry imaging of 6 ARVs (including EFV) in spleens of RT-SHIV-infected nonhuman primates; mapped spatial relationship between drug tissue distribution, viral RNA expression, and fibrosis markers — most recent study in this series. |
+|------|-----|------|------|---------|
+| [15328115](https://pubmed.ncbi.nlm.nih.gov/15328115/) | 2004 | Animal study | Antimicrob Agents Chemother | Efavirenz antiviral activity evaluated in rhesus macaques infected with RT-SHIV. |
+| [15919889](https://pubmed.ncbi.nlm.nih.gov/15919889/) | 2005 | Animal study | J Virol | Efavirenz plus lamivudine and tenofovir lowered plasma viral RNA in RT-SHIV-infected macaques (HAART model). |
+| [21084490](https://pubmed.ncbi.nlm.nih.gov/21084490/) | 2011 | Preclinical animal study | J Virol | Viral genetic diversity persisted in macaques despite therapy, including short efavirenz monotherapy. |
+| [19889213](https://pubmed.ncbi.nlm.nih.gov/19889213/) | 2009 | Animal study | Retrovirology | Tracked wild-type and drug-resistant RT-SHIV variants in macaques after efavirenz monotherapy and combination therapy. |
+| [24777106](https://pubmed.ncbi.nlm.nih.gov/24777106/) | 2014 | Animal study | Antimicrob Agents Chemother | Enhanced four- and five-drug regimens improved RT-SHIV viral decay in rhesus macaques. |
+| [22933296](https://pubmed.ncbi.nlm.nih.gov/22933296/) | 2012 | Preclinical laboratory study | J Virol | Ultrasensitive PCR found rare pre-existing drug-resistant variants in RT-SHIV-infected macaques. |
+| [15564466](https://pubmed.ncbi.nlm.nih.gov/15564466/) | 2004 | In vitro characterisation | J Virol | Characterised the SIV/HIV-1 RT chimera as a tool for studying NNRTI resistance in pigtail macaques. |
+| [35856680](https://pubmed.ncbi.nlm.nih.gov/35856680/) | 2022 | Preclinical imaging study | Antimicrob Agents Chemother | Imaging of antiretroviral distribution, viral RNA and fibrosis in the spleens of nonhuman primates. |
+| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | Laboratory study | Antivir Ther | Compared susceptibility of HIV-2, SIV and SHIV strains to approved anti-HIV drugs. |
+| [20668516](https://pubmed.ncbi.nlm.nih.gov/20668516/) | 2010 | Animal study | PLoS One | Viral decay kinetics in a HAART-treated rhesus macaque model of AIDS. |
 
 ---
 
 ## Singapore Market Information
 
-Efavirenz is currently **not registered** with Singapore's Health Sciences Authority (HSA). No product authorisations exist in the local regulatory database, and market status is confirmed as "not marketed."
-
-Any clinical use in Singapore would require accessing EFV through special order, compassionate use channels, or institutional import, subject to HSA approval on a case-by-case basis.
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN15719P | EFAVIRENZ SANDOZ FILM COATED TABLET 600MG (Sandoz Private Limited) | Tablet, film coated (oral) |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
-> Note: TFDA package insert warnings and contraindications were identified as a blocking data gap (DG001). DDI data was not returned from the query. A full safety profile including CYP3A4 induction interactions, CNS neuropsychiatric effects, and teratogenicity concerns (Category D in pregnancy) should be reviewed from the originator label and WHO prescribing information before any further evaluation.
+Please refer to the package insert for safety information. No warnings, contraindications or drug interactions were retrieved for this drug.
 
 ---
 
@@ -109,15 +105,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN prediction of EFV for "simian immunodeficiency virus infection" reflects the drug's established role in RT-SHIV primate research models, not a translatable human clinical indication. Native SIV is not sensitive to EFV; all 16 publications involve the artificially chimeric RT-SHIV virus engineered to carry HIV-1 reverse transcriptase. There is no identifiable human patient population with SIV infection, and the single registered clinical trial was withdrawn before enrolling a single participant. This prediction is best characterised as a **knowledge graph topology artefact** — the model correctly identified a biological connection, but the connection is a research model construct rather than a clinical treatment target.
+- The prediction rests only on primate and laboratory models that use an HIV-1 RT chimera. There is no human trial, and native SIV is not sensitive to NNRTIs.
+- Efavirenz is already established for HIV-1, so there is nothing new to repurpose here. The score reflects a species-mapping artifact.
 
 **To proceed, the following is needed:**
-
-- **Redirect attention to higher-value candidates**: If the goal is HIV-spectrum drug repurposing, **AIDS Related Complex** (Rank 5, L1, 5 clinical trials including Phase 3b, 17 publications) and **Congenital HIV / PMTCT** (Rank 6, L1, multiple Phase 3 RCTs, 20 publications) offer far more actionable evidence with established human clinical relevance
-- **Resolve blocking data gaps**: Obtain EFV package insert (TFDA or FDA label) for safety warnings, contraindications, and CYP3A4 DDI profile (DG001 — Blocking severity)
-- **MOA documentation**: Retrieve EFV DrugBank MOA data (DG002 — High severity) to enable mechanistic link analysis for any repurposing candidate
-- **Singapore import pathway**: If EFV is to be considered for any Singapore patient use, map HSA compassionate use or special access procedures given zero local registrations
-- **KG quality flag**: Recommend flagging the SIV infection node connection for knowledge graph review — the edge likely reflects RT-SHIV model co-citation rather than a genuine treatment relationship, and may be contributing to similar false-positive clusters seen in reproductive system neoplasm predictions (Ranks 7–10)
+- The Singapore package insert (warnings, contraindications and approved indication) to confirm the on-label HIV-1 use
+- Detailed mechanism of action data from DrugBank
+- Rank 6 of this candidate list, congenital HIV, has Phase 3 data (for example NCT03048422) and could be reviewed separately with guardrails. It also appears to be an HIV-1 use rather than a novel indication.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

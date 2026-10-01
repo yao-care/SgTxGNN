@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Sulfasalazine
-parent: High Evidence (L1-L2)
+parent: Low Evidence (L5)
 nav_order: 931
-evidence_level: L2
+evidence_level: L5
 indication_count: 10
 ---
 
 # Sulfasalazine
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,88 +29,66 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Sulfasalazine: From Rheumatoid Arthritis to Spondyloarthropathy Susceptibility
+# Sulfasalazine: From an Unspecified Registered Indication to Brachydactyly-Syndactyly Syndrome
 
 ## One-Sentence Summary
 
-Sulfasalazine is a classic DMARD (sulfapyridine + 5-aminosalicylic acid), long established for rheumatoid arthritis and inflammatory bowel disease. The TxGNN model highlights **spondyloarthropathy susceptibility** — particularly peripheral spondyloarthritis — as the strongest-supported repurposing signal among the top 10 predictions, backed by **13 publications** including a genetic-association cohort study, though no dedicated clinical trials for this exact indication were identified.
-
-*Note: Among the 10 TxGNN candidates in this evidence pack, several (e.g., brachydactyly-syndactyly syndrome, colobomatous microphthalmia-rhizomelic dysplasia) are flagged in the source data itself as likely embedding noise with no biological plausibility. This report focuses on the candidate with the highest actual evidence level (L2) and decision stage (S3).*
-
----
+Sulfasalazine is an oral anti-inflammatory drug marketed in Singapore as an enteric-coated tablet, although the registration record supplied does not state its approved indication.
+The TxGNN model predicts it may be effective for **brachydactyly-syndactyly syndrome**, a rare congenital limb malformation.
+This prediction has **0 clinical trials** and **0 publications** behind it, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis / Ulcerative colitis (based on established clinical knowledge — not derived from Singapore registration data, since the drug is not currently registered locally) |
-| Predicted New Indication | Spondyloarthropathy, susceptibility to |
-| TxGNN Prediction Score | 99.53% |
-| Evidence Level | L2 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Original Indication | Not stated in the supplied registration record |
+| Predicted New Indication | Brachydactyly-syndactyly syndrome |
+| TxGNN Prediction Score | 99.94% |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack (flagged as a High-severity data gap). Based on known information, sulfasalazine is a combination molecule (sulfapyridine + 5-aminosalicylic acid) whose anti-inflammatory activity — inhibition of NF-κB signalling and modulation of gut microbiota-driven immune activation — has been proven effective in rheumatoid arthritis and inflammatory bowel disease.
+Currently, detailed mechanism of action data is not available in the record. Sulfasalazine is known to have anti-inflammatory activity (including NF-kB modulation) and to inhibit the xCT cystine/glutamate transporter. The original indication is not stated in the supplied Singapore registration data.
 
-Spondyloarthropathies (reactive arthritis, psoriatic arthritis, IBD-associated arthritis, peripheral ankylosing spondylitis) share substantial inflammatory and gut-immune overlap with sulfasalazine's established indications, and sulfasalazine is already a guideline-recognized DMARD for **peripheral** spondyloarthritis. The TxGNN signal here should be read specifically as *susceptibility* — i.e., genetic/metabolic risk association — rather than a de novo therapeutic indication. This is reinforced by a Han Chinese cohort study (PMID 25413361) linking NAT (arylamine N-acetyltransferase) polymorphisms to both ankylosing spondylitis susceptibility and sulfasalazine-related adverse drug reactions, suggesting a pharmacogenomic link between drug metabolism and disease risk profile.
+No mechanistic link to the predicted condition is evident. Brachydactyly-syndactyly syndrome is a rare congenital limb malformation of developmental origin. Nothing in sulfasalazine's known pharmacology addresses that pathology.
 
-Importantly, the mechanistic link is weaker for **axial-only** disease — several RCTs cited in the underlying rationale report no benefit of sulfasalazine on axial symptoms of ankylosing spondylitis. Any repurposing pathway should therefore be scoped to peripheral spondyloarthritis phenotypes rather than the broader "spondyloarthropathy susceptibility" label predicted by the model.
-
----
+The high score (99.94%) is a knowledge-graph prediction only. It should be read as a hypothesis-generating signal, not as evidence of efficacy.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [25413361](https://pubmed.ncbi.nlm.nih.gov/25413361/) | 2014 | Genetic Association/Cohort | BMC Pharmacol Toxicol | NAT polymorphisms in Han Chinese AS patients linked to sulfasalazine-induced adverse drug reactions |
-| [20436080](https://pubmed.ncbi.nlm.nih.gov/20436080/) | 2010 | Cohort (longitudinal) | J Rheumatol | Long-term follow-up of undifferentiated spondyloarthritis patients |
-| [18166219](https://pubmed.ncbi.nlm.nih.gov/18166219/) | 2008 | Review | Semin Arthritis Rheum | Bench-to-clinic review of spondyloarthritis pathology and treatment |
-| [15922688](https://pubmed.ncbi.nlm.nih.gov/15922688/) | 2005 | Review | Am J Med | Update on spondyloarthritis pathogenesis and management |
-| [19938189](https://pubmed.ncbi.nlm.nih.gov/19938189/) | 2009 | Review | World J Gastroenterol | Rheumatic manifestations of IBD, including peripheral arthritis pathways |
-| [10910178](https://pubmed.ncbi.nlm.nih.gov/10910178/) | 2000 | Review | Curr Opin Rheumatol | Review of juvenile spondyloarthropathies including reactive arthritis |
-| [34599048](https://pubmed.ncbi.nlm.nih.gov/34599048/) | 2022 | Review | J Rheumatol | Interplay between COVID-19 and spondyloarthritis/its treatment |
-| [8105815](https://pubmed.ncbi.nlm.nih.gov/8105815/) | 1993 | Review | APMIS | Discussion of antibiotic use in reactive arthritis |
-| [1419506](https://pubmed.ncbi.nlm.nih.gov/1419506/) | 1992 | Review | Curr Opin Rheumatol | Immunogenetics of juvenile chronic arthritis and spondyloarthropathies |
-| [12105678](https://pubmed.ncbi.nlm.nih.gov/12105678/) | 2002 | Review | Reumatismo | Advances in diagnosis and treatment of reactive arthritis |
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Sulfasalazine currently has no marketing authorization registered in Singapore (market status: **Not Marketed**, 0 registrations).
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN06512P | PMS-SULFASALAZINE E.C.TABLET 500 mg (Dragenopharm Aptheker Pushl Gmbh & Co) | Enteric coated tablet | Not stated in the record |
 
----
+Route of administration: oral only.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
----
+Please refer to the package insert for safety information. The supplied record has no warning or contraindication data, and the drug-interaction query returned no results.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Sulfasalazine already has an established therapeutic role in peripheral spondyloarthritis, and a genetic-association study directly links drug metabolism (NAT polymorphisms) to spondyloarthritis susceptibility and ADR risk — giving this candidate the highest evidence level (L2) and decision stage (S3) among the 10 TxGNN predictions reviewed. However, no dedicated clinical trials exist for the specific "susceptibility" framing, and axial disease is unlikely to respond.
+The prediction is supported only by the model score. There are no trials or literature, no plausible mechanistic link, and the evidence level is L5. Other candidates for this drug, notably osteoarthritis and spondyloarthropathy susceptibility, have preclinical or indirect support (L4). They would be better starting points for follow-up than this one.
 
 **To proceed, the following is needed:**
-- HSA-approved label warnings and contraindications (currently a Blocking data gap — required before any S1 safety review)
-- Confirmed mechanism of action data from DrugBank (currently a High-severity data gap)
-- Clarification of the intended clinical scope: peripheral vs. axial spondyloarthritis
-- Singapore market registration pathway assessment, given the drug is not currently marketed locally
-- Consideration of NAT-polymorphism pharmacogenomic screening in future protocol design, given the ADR association identified in the literature
+- The Singapore package insert (HSA), for approved indication, warnings and contraindications
+- Mechanism of action data from DrugBank
+- A targeted literature review confirming whether any biological rationale exists for this condition
+- Route-compatibility and similarity-to-original-indication assessments, both currently pending
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

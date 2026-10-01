@@ -29,84 +29,78 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-根據 Evidence Pack 內容，以下是 Chlorhexidine 的老藥新用評估報告：
-
----
-
-# Chlorhexidine: From Antiseptic/Disinfectant Use to Chronic Ethmoidal Sinusitis
+# Chlorhexidine: From Topical Antiseptic to Chronic Ethmoidal Sinusitis
 
 ## One-Sentence Summary
 
-Chlorhexidine (CHX) is a broad-spectrum bisbiguanide antiseptic widely established globally for surgical site preparation, oral hygiene, and wound disinfection.
-The TxGNN model predicts it may be effective for **Chronic Ethmoidal Sinusitis**,
-with **0 clinical trials** and **1 publication** directly supporting this specific indication. The broader sinusitis cluster (sinusitis, chronic rhinosinusitis) shows incrementally stronger support, including a 2024 otorhinolaryngology review and a 2021 in vitro sinonasal stent study, suggesting that CHX's anti-biofilm properties hold mechanistic plausibility across the sinonasal disease spectrum.
-
----
+Chlorhexidine is a broad-spectrum antiseptic, marketed in Singapore as a mouthwash, lozenge, cream and lotion.
+The TxGNN model predicts it may be useful for **chronic ethmoidal sinusitis**,
+but for this prediction there are **0 clinical trials** and only **1 publication**, so the evidence is weak.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not registered in Singapore; used globally as broad-spectrum antiseptic (surgical scrub, wound care, oral hygiene) |
-| Predicted New Indication | Chronic Ethmoidal Sinusitis |
+|------|------|
+| Original Indication | Topical antiseptic (inferred from the product types; no approved indication text is on file) |
+| Predicted New Indication | Chronic ethmoidal sinusitis |
 | TxGNN Prediction Score | 95.46% |
 | Evidence Level | L4 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 4 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the Evidence Pack. Based on known information, Chlorhexidine is a bisbiguanide compound that acts as a broad-spectrum antiseptic and anti-biofilm agent. Its efficacy in surface and mucosal disinfection — including nasal cavity antisepsis — has been demonstrated in clinical practice, forming the mechanistic basis for the TxGNN prediction.
+Detailed mechanism-of-action data is not available in the source record. Chlorhexidine is a cationic biguanide antiseptic that disrupts bacterial cell membranes. Its efficacy as a topical antiseptic is well established.
 
-Chronic ethmoidal sinusitis is primarily driven by persistent bacterial infection and biofilm formation within the ethmoidal air cells — the same pathological processes that CHX directly targets. Key pathogens in chronic sinusitis, including *Staphylococcus aureus* and *Pseudomonas aeruginosa*, fall within CHX's established antibacterial spectrum. The adjacent indication **chronic rhinosinusitis** (TxGNN rank #3) has slightly stronger empirical backing: a 2021 in vitro study (PMID 34834197) directly demonstrated that CHX slow-release varnish–coated sinonasal stents sustained antibacterial and anti-biofilm activity against both pathogens in a sinonasal cavity model. A 2024 HNO review (PMID 38592477) further confirmed CHX's role in ENT antisepsis, specifically for MRSA decolonization.
+Chronic sinusitis involves bacterial colonisation and biofilm in the sinonasal cavity. Lowering the bacterial load in the nasal cavity could therefore plausibly influence the condition. The one supporting study looked at how nasal cavity disinfection affects the bacteriology of the ethmoid bulla in chronic sinusitis patients.
 
-The lone directly relevant publication for ethmoidal sinusitis (PMID 16008068, *Rhinology* 2005) investigated nasal cavity disinfection with CHX in chronic sinusitis patients and studied the bacteriology of the bulla ethmoidalis — providing face-valid, if not efficacy-level, support for CHX's applicability to this anatomic site. Taken together, the mechanistic connection is biologically coherent, but clinical evidence remains at the preclinical/mechanistic stage.
-
----
+The link is indirect, however. There are no ethmoid-specific clinical data, and topical antisepsis is not an established treatment for chronic sinus inflammation. A 2024 ENT review of antiseptics also advises using chlorhexidine only as a mouth and body wash for MRSA decolonisation. It notes that clinical efficacy is lacking for many other throat antiseptics.
 
 ## Clinical Trial Evidence
 
-No clinical trials specifically targeting **chronic ethmoidal sinusitis** with Chlorhexidine are currently registered on ClinicalTrials.gov or ICTRP.
+Currently no related clinical trials registered for chronic ethmoidal sinusitis.
 
----
+For the closely related prediction "sinusitis", one completed trial exists, but it tests infection prophylaxis rather than sinusitis treatment:
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT06313281](https://clinicaltrials.gov/study/NCT06313281) | Not applicable | Completed | 142 | Randomised three-arm trial of preoperative antiseptic preparation in transnasal skull base surgery. The endpoint is postoperative infection, not sinusitis. |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [16008068](https://pubmed.ncbi.nlm.nih.gov/16008068/) | 2005 | Clinical Study | Rhinology | Investigated the role of nasal cavity CHX disinfection in chronic sinusitis patients; examined bacteriology of the bulla ethmoidalis — anatomically and clinically the most directly relevant study for ethmoidal sinusitis |
-
----
+|------|-----|------|------|---------|
+| [16008068](https://pubmed.ncbi.nlm.nih.gov/16008068/) | 2005 | Clinical bacteriology study | Rhinology | Examined the role of nasal cavity disinfection in the bacteriology of the ethmoid bulla in chronic sinusitis patients. The abstract does not report treatment outcomes. |
 
 ## Singapore Market Information
 
-Chlorhexidine is currently **not registered** in Singapore. No Health Sciences Authority (HSA) authorization records are available.
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN08671P | DIFFLAM-C Anti-Inflammatory Antiseptic Solution | Mouthwash | Ensign Laboratories Pty Ltd |
+| SIN08535P | HORF Lozenges | Lozenge | Y S P Industries (M) Sdn Bhd |
+| SIN08901P | SOOV Cream | Cream | Ego Pharmaceuticals Pty Ltd |
+| SIN04696P | Oral Aid Lotion | Lotion | Beacons Pharmaceuticals Pte Ltd |
 
----
+None of the registered forms is a nasal or sinus irrigation product, so route compatibility with the predicted indication is unconfirmed.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Clinical evidence for Chlorhexidine in chronic ethmoidal sinusitis is limited to a single bacteriological study (L4). No Singapore HSA registration exists, detailed MOA and safety data are unavailable, and no indication-specific clinical trials have been conducted. The prediction is mechanistically coherent but lacks the clinical data foundation required to advance beyond a research hypothesis.
+The prediction score is high, but the evidence is limited to one bacteriology study and no trials. No controlled data show clinical benefit in chronic sinusitis. The other top-ranked predictions are equally weak: most rest on the model alone or on veterinary and unrelated literature.
 
 **To proceed, the following is needed:**
-- Mechanism of action data (MOA) from DrugBank API (DG002 remediation)
-- Singapore HSA and TFDA package insert review for safety warnings and contraindications (DG001 remediation)
-- Drug interaction assessment for Chlorhexidine
-- Route-of-administration compatibility assessment: evaluate whether a nasal irrigation or sinonasal stent formulation is feasible for the ethmoidal indication
-- Dedicated preclinical or pilot clinical study assessing CHX nasal irrigation in chronic ethmoidal sinusitis patients
-- Cross-indication scoping review across the sinusitis cluster (ranks 1–3: chronic ethmoidal sinusitis, sinusitis, chronic rhinosinusitis) to determine whether a unified research programme is warranted — chronic rhinosinusitis (rank #3, L3 evidence) may be the stronger entry point given the CHX-coated sinonasal stent in vitro data
+- Package insert warnings and contraindications from HSA
+- Mechanism-of-action data from DrugBank
+- Full-text review of the 2005 bacteriology study and its outcomes
+- A dosage form and route suitable for sinonasal use, plus sinonasal safety and tolerability data
+- Controlled clinical evidence in chronic rhinosinusitis, which is where the literature is thickest
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

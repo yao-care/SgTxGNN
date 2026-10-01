@@ -29,89 +29,80 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Methotrexate: From Established Oncologic/Autoimmune Indications to Pulmonary Blastoma
+# Methotrexate: From Its Established Uses to Pulmonary Blastoma
 
 ## One-Sentence Summary
 
-Methotrexate (MTX, DrugBank DB00563) is an antifolate agent whose established international uses span hematologic malignancies and autoimmune conditions such as rheumatoid arthritis.
-The TxGNN model predicts it may be effective for **Pulmonary Blastoma**, but this direction is currently supported by **0 clinical trials** and **0 publications** — it is a pure knowledge-graph-based prediction with no direct or indirect clinical corroboration.
-
----
+Methotrexate is an antifolate chemotherapy and immunosuppressive drug that is marketed in Singapore in tablet and injection forms.
+The TxGNN model predicts it may be effective for **pulmonary blastoma** with a very high score (99.45%), but **0 clinical trials** and **0 publications** support this prediction, so it is an unsupported model output.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not registered in the local market; internationally established for hematologic malignancies (e.g., acute lymphoblastic leukemia, lymphomas) and autoimmune diseases (e.g., rheumatoid arthritis) |
-| Predicted New Indication | Pulmonary Blastoma |
+| Original Indication | Not recorded in the HSA licence data supplied |
+| Predicted New Indication | Pulmonary blastoma |
 | TxGNN Prediction Score | 99.45% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 7 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for this candidate is currently unavailable (flagged as a High-severity data gap, DG002). Based on known pharmacology, methotrexate is a folate antagonist that inhibits dihydrofolate reductase (DHFR), blocking purine and pyrimidine synthesis and thereby suppressing rapidly dividing cells. This mechanism underlies its established efficacy across a range of hematologic malignancies and its immunomodulatory effect in autoimmune disease.
+Detailed mechanism-of-action data is not available in the input. Based on general pharmacology, methotrexate is an antifolate that inhibits dihydrofolate reductase and blocks nucleotide synthesis in rapidly dividing cells. This gives it a broad antineoplastic rationale and is why it is used across many cancers.
 
-For Pulmonary Blastoma specifically, however, there is no clinical trial or published literature evidence in this evidence pack. The model's rationale notes that the prediction is likely driven by MTX's existing knowledge-graph connections to other pulmonary or embryonal tumor entities, rather than by any direct or indirect clinical signal specific to pulmonary blastoma.
+Pulmonary blastoma is a rare lung tumour. The only link to methotrexate is this generic antiproliferative mechanism. No study, case series or trial was retrieved that tests methotrexate in this disease.
 
-Because pulmonary blastoma is a rare, biologically distinct pulmonary neoplasm (with both epithelial and blastemal/sarcomatous components), the applicability of a generic antifolate mechanism cannot be assumed from structural similarity alone. This candidate therefore sits at the earliest, most speculative end of the evidence spectrum — a hypothesis generated purely by model structure, not by any accumulated clinical or mechanistic data.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered
-
----
-
-## Literature Evidence
-
-Currently no related literature available
-
----
+The very high TxGNN score therefore reflects proximity in the knowledge graph rather than clinical support. It should be treated as a hypothesis only.
 
 ## Singapore Market Information
 
-Methotrexate currently has no registered product license in the local market (0 registrations; market status: Not Marketed). No authorization records are available to tabulate.
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN16395P | Methotrexate Orion Tablets 2.5 mg | Tablet | Orion Corporation, Orion Pharma |
+| SIN00260P | Methotrexate Tablet 2.5 mg | Tablet | Excella GmbH & Co. KG |
+| SIN16737P | Merex 2.5 (Methotrexate Tablets USP 2.5 mg) | Tablet | Intas Pharmaceuticals Limited |
+| SIN00758P | DBL Methotrexate Injection BP 50 mg/2 ml (without preservative) | Injection | Hospira Australia Pty Ltd |
+| SIN12414P | Emthexate 2.5 Tablet 2.5 mg | Tablet | Teva Czech Industries s.r.o. |
 
----
+Approved indication text is not provided in these records. Both oral (tablet, including film-coated) and injectable forms are registered.
 
 ## Cytotoxicity
 
-Methotrexate is classified as antineoplastic based on its established use as a conventional cytotoxic chemotherapeutic (antifolate/antimetabolite class), independent of the specific new indication under evaluation.
+This section is based on the drug class, because the input contains no toxicity data.
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (antifolate/antimetabolite — DHFR inhibitor) |
-| Myelosuppression Risk | High — class-effect of antimetabolite chemotherapy; high-dose regimens require leucovorin rescue and hematologic monitoring |
-| Emetogenicity Classification | Low (oral, low-dose) to Moderate (high-dose intravenous regimens) |
-| Monitoring Items | CBC with differential, renal function (creatinine clearance, critical for MTX elimination), liver function tests, serum MTX levels for high-dose/leucovorin-rescue protocols |
-| Handling Protection | Yes — requires handling under cytotoxic/hazardous drug precautions (personal protective equipment, closed-system transfer where applicable) |
+| Cytotoxicity Classification | Conventional cytotoxic (antimetabolite, antifolate) |
+| Myelosuppression Risk | High (especially at high doses) |
+| Emetogenicity Classification | Low to moderate, dose-dependent |
+| Monitoring Items | CBC with differential, liver and renal function, electrolytes, respiratory symptoms |
+| Handling Protection | Must follow cytotoxic drug handling regulations |
 
----
+Please refer to the package insert warnings and precautions for full details.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
----
+Please refer to the package insert for safety information. No drug interaction records were found in the input.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This candidate has no clinical trial or literature support (Evidence Level L5, Decision Stage S0) and is based solely on TxGNN structural inference. In addition, a Blocking-severity data gap (DG001: local safety labeling/warnings and contraindications) prevents this candidate from even entering the S1 safety pre-assessment stage.
+No clinical trials or literature support methotrexate in pulmonary blastoma, so the 99.45% score rests on model prediction alone (L5). Methotrexate is widely marketed in Singapore, but this specific prediction has no clinical support.
 
 **To proceed, the following is needed:**
-- Local regulatory safety labeling (warnings/contraindications) to clear the Blocking data gap (DG001)
-- Detailed mechanism-of-action data (DG002) to support a mechanistic rationale specific to pulmonary blastoma
-- At minimum, preclinical or case-level evidence directly addressing MTX activity in pulmonary blastoma before any further investment
-- As an alternative research priority within this same evidence pack, other TxGNN-predicted indications for methotrexate show materially stronger evidence maturity — notably Hodgkin's lymphoma (L2, Decision Stage S2, "Proceed with Guardrails") and small cell lung carcinoma (L2, S1) — and may warrant evaluation ahead of this candidate
+- A targeted search for pulmonary blastoma case series or trials involving methotrexate-containing regimens
+- The HSA package insert (warnings, contraindications, approved indications), which is currently missing and blocks safety screening
+- Detailed mechanism-of-action data from DrugBank
+- A route-compatibility assessment (pending)
+- **Consider other candidates from the same run, which have stronger evidence:**
+  - Rhabdomyosarcoma: L2, including a phase II high-dose methotrexate trial (PMID 9329466)
+  - Small cell lung carcinoma and Hodgkin lymphoma: L3, but historical, combination-regimen data only
+  - Primary pulmonary lymphoma: L4, indirect evidence
+  - The two CLL/SLL predictions have identical scores and should be treated as one prediction.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

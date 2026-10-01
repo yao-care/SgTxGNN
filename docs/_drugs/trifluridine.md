@@ -29,88 +29,83 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Trifluridine: From Antiviral/Colorectal Cancer Therapy to Cecum Villous Adenoma
+# Trifluridine: From Metastatic Colorectal Cancer to Cecum Villous Adenoma
 
 ## One-Sentence Summary
 
-Trifluridine is a thymidine-based nucleoside analogue known clinically as an ophthalmic antiviral for herpetic keratitis and, in combination with tipiracil (as TAS-102), as a cytotoxic antimetabolite for metastatic colorectal cancer. The TxGNN model predicts a possible new application in **Cecum Villous Adenoma**, but this direction is currently supported by **0 clinical trials** and **0 publications**, and the drug's own mechanistic profile argues against a genuine treatment rationale for this benign/premalignant lesion.
-
----
+Trifluridine is a cytotoxic nucleoside analog, used together with tipiracil (as Lonsurf) for metastatic colorectal cancer. The TxGNN model predicts it may be effective for **cecum villous adenoma**, a benign precancerous colon lesion. Currently **0 clinical trials** and **0 publications** support this specific prediction, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not established in this evidence pack (no Singapore license data); known global uses are herpetic keratoconjunctivitis (ophthalmic antiviral) and, as TAS-102, metastatic colorectal cancer |
-| Predicted New Indication | Cecum Villous Adenoma |
+| Original Indication | Metastatic colorectal cancer (based on general pharmacology of trifluridine/tipiracil; the Singapore registration records provided do not include indication text) |
+| Predicted New Indication | Cecum villous adenoma |
 | TxGNN Prediction Score | 98.60% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (data gap DG002). Based on known information, Trifluridine is a thymidine-based nucleoside analogue that acts by incorporating into DNA and inhibiting thymidylate synthase, blocking DNA synthesis. Clinically this mechanism is exploited in two very different settings: topically as an antiviral against herpes simplex keratitis, and systemically — combined with tipiracil as TAS-102 — as a cytotoxic chemotherapy for refractory metastatic colorectal cancer.
+Detailed mechanism of action data is not available in the record. Based on general pharmacology, trifluridine is a thymidine analog. It acts by being incorporated into DNA and by inhibiting thymidylate synthase. In combination with tipiracil, it is established in metastatic colorectal cancer. Tipiracil prevents trifluridine from being rapidly broken down.
 
-Cecum villous adenoma, however, is a benign-to-premalignant colonic polyp. Standard management is endoscopic resection or surveillance, not systemic cytotoxic therapy — there is no established clinical scenario where a DNA-synthesis-inhibiting antimetabolite would be indicated for an adenomatous polyp that has not progressed to invasive malignancy.
+The prediction most likely reflects the closeness of cecal and colonic nodes to colorectal cancer in the knowledge graph, not a therapeutic rationale. A villous adenoma is a benign, premalignant lesion. It is normally managed by endoscopic resection, so systemic cytotoxic chemotherapy has no clear role. The same pattern holds for the other top predictions (benign colonic lipoma, lymphangioma, leiomyoma, hemangioma and grade 1 neuroendocrine tumor): all are prediction-only with weak or no mechanistic support.
 
-Because of this mismatch, the mechanistic link recorded in the evidence pack explicitly flags this prediction as more likely reflecting **knowledge-graph proximity bias** — trifluridine sits close to colorectal-cancer-related nodes in the TxGNN graph, and "cecum villous adenoma" shares graph neighbors with those nodes — rather than a real pharmacological relationship. The same pattern (high TxGNN score, no supporting evidence, and rationale text explicitly describing the prediction as likely noise) recurs across the other top-10 candidates for this drug (e.g., colon lipoma, colonic lymphangioma, cecal neuroendocrine tumor G1, colon leiomyoma, cavernous hemangioma of colon), suggesting a systemic clustering artifact around colonic-lesion nodes rather than a single strong signal worth prioritizing.
-
----
+Two further points matter for interpretation:
+- "Rectosigmoid junction neoplasm" (rank 5) is too nonspecific to assess. If it means malignant disease, it overlaps the existing colorectal indication and is not true repurposing.
+- "Photosensitivity disease" (rank 10) is likely a graph artifact. Photosensitivity is a recognized adverse-effect concern for some antimetabolites, not a therapeutic target.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
 
----
+For context, the lower-ranked "cecal disease" prediction links to four case reports or small case series of trifluridine/tipiracil in colorectal cancer. These cover an adverse event (vasculitis), readministration, and long-term use. They support only the existing colorectal use, not a benign cecal indication.
 
 ## Singapore Market Information
 
-Trifluridine currently has no marketing authorization in Singapore (0 registrations, market status: Not Marketed). No license records are available to summarize.
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN15491P | LONSURF FILM-COATED TABLET 15MG/6.14MG | Tablet, film coated |
+| SIN15494P | LONSURF FILM-COATED TABLET 20MG/8.19MG | Tablet, film coated |
 
----
+Both products are oral tablets made by Taiho Pharmaceutical Co., Ltd. (Kitajima Plant).
 
 ## Cytotoxicity
 
-*(Included because trifluridine, in its established use as the active component of TAS-102 with tipiracil, is a conventional cytotoxic antimetabolite/nucleoside analogue.)*
-
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (thymidine-based nucleoside analogue / antimetabolite; active component of TAS-102) |
-| Myelosuppression Risk | High — leukopenia and neutropenia are commonly reported adverse effects in TAS-102 case literature (PMID 30677817) |
-| Emetogenicity Classification | Moderate — nausea, vomiting, diarrhea, and fatigue reported alongside myelosuppression |
-| Monitoring Items | Complete blood count with differential, liver and renal function, skin/cutaneous reactions (case reports describe leukocytoclastic vasculitis) |
-| Handling Protection | Standard cytotoxic drug handling precautions required per institutional hazardous-drug protocols |
+| Cytotoxicity Classification | Conventional cytotoxic (nucleoside analog antimetabolite) |
+| Myelosuppression Risk | High (neutropenia and other cytopenias are common) |
+| Emetogenicity Classification | Low to moderate |
+| Monitoring Items | CBC with differential before each treatment cycle, liver and renal function |
+| Handling Protection | Follow cytotoxic drug handling regulations |
 
----
+These entries come from general knowledge of the drug class, not from the evidence pack. Please also refer to the package insert warnings and precautions.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and DDI data are not yet available for this drug — see data gap DG001, which is blocking for a full safety assessment.)
-
----
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction for Cecum Villous Adenoma has a high TxGNN score but zero clinical trials, zero publications, and a mechanistic rationale that itself identifies the signal as likely graph-proximity noise rather than a genuine drug-disease relationship — a benign/premalignant colonic lesion has no established clinical indication for systemic cytotoxic antimetabolite therapy. This pattern repeats across nearly all top-ranked candidates for this drug, further weakening confidence in the cluster.
+The prediction has a high model score (98.60%) but no clinical trials or literature, and the evidence level is L5. The condition is a benign lesion normally treated by endoscopic resection, so a cytotoxic, myelosuppressive drug has an unfavorable risk-benefit profile. The high score most likely reflects graph proximity to colorectal cancer, not a therapeutic signal.
 
 **To proceed, the following is needed:**
-- Resolve blocking data gap DG001: obtain TFDA/HSA label warnings and contraindications before any safety evaluation (S1) can begin
-- Resolve high-priority data gap DG002: confirm mechanism of action via DrugBank API to properly assess mechanistic plausibility
-- If this candidate is to be pursued further, obtain preclinical or case-level evidence specifically linking nucleoside-analogue/antimetabolite mechanisms to adenomatous polyp biology (not just colorectal cancer)
-- Reassess whether "cecum villous adenoma" is being conflated with malignant colorectal neoplasms in the underlying knowledge graph, given the ambiguity seen in related candidates (e.g., "rectosigmoid junction neoplasm")
+- HSA package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data (MOA) from DrugBank
+- Re-mapping of nonspecific labels (e.g., rectosigmoid junction neoplasm) to specific histologies, and removal of candidates that overlap the approved colorectal indication
+- A clinical rationale for systemic cytotoxic therapy in a benign or premalignant lesion, or a shift of focus to malignant colorectal candidates
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

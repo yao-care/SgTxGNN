@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Paliperidone
-parent: High Evidence (L1-L2)
+parent: Low Evidence (L5)
 nav_order: 748
-evidence_level: L2
+evidence_level: L5
 indication_count: 10
 ---
 
 # Paliperidone
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,12 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Paliperidone: From Schizophrenia to Treatment-Refractory Schizophrenia
+# Paliperidone: From Schizophrenia to Retinal Dystrophy with or without Extraocular Anomalies
 
 ## One-Sentence Summary
 
-Paliperidone is an atypical (second-generation) antipsychotic in the risperidone class, with schizophrenia as its established core indication. The TxGNN model, combined with real evidence retrieval, points to a meaningful signal in **treatment-refractory schizophrenia**, supported by **4 clinical trials** and **2 publications**. Note: TxGNN's single highest-scoring prediction (retinal dystrophy with extraocular anomalies) is excluded from this report — see caveat below.
-
-> **Caveat on prediction selection:** TxGNN's top-ranked candidate by raw score was "retinal dystrophy with or without extraocular anomalies" (score 99.92%). The evidence pack's own rationale flags this as a likely knowledge-graph embedding artifact — the 15 retrieved PubMed records are all descriptive ophthalmology literature on congenital eye disorders with no mention of Paliperidone or any drug intervention. Ranks 2–9 (X-linked myopia, hydranencephaly, Charcot-Marie-Tooth, etc.) show the same pattern: no clinical trials, no literature, no plausible mechanistic link. This report instead focuses on rank 10 — **treatment-refractory schizophrenia** — the only candidate with real trial and literature support.
+Paliperidone is an atypical antipsychotic (the active metabolite of risperidone) used for schizophrenia.
+The TxGNN model predicts it may be effective for **retinal dystrophy with or without extraocular anomalies**, but **no clinical trials** and **no relevant publications** support this. The 15 retrieved papers are keyword matches on congenital eye disease, and none mentions paliperidone.
 
 ---
 
@@ -43,71 +42,85 @@ Paliperidone is an atypical (second-generation) antipsychotic in the risperidone
 
 | Item | Content |
 |------|------|
-| Original Indication | Schizophrenia (known antipsychotic class; not separately confirmed by local label text — see below) |
-| Predicted New Indication | Treatment-Refractory Schizophrenia |
-| TxGNN Prediction Score | 99.80% |
-| Evidence Level | L2 |
-| Singapore Market Status | ✗ Not marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Original Indication | Schizophrenia (the Singapore licence indication text was not supplied) |
+| Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
+| TxGNN Prediction Score | 99.92% |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 17 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is flagged as a data gap in this evidence pack. Based on the repurposing rationale accompanying the top evidence-backed candidate, Paliperidone is 9-hydroxy-risperidone, the active metabolite of risperidone, and acts as a dopamine D2 receptor and serotonin 5-HT2A receptor antagonist — the standard pharmacology of a non-typical antipsychotic.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on known pharmacology, paliperidone (9-hydroxyrisperidone) is a dopamine D2 and serotonin 5-HT2A receptor antagonist. Its efficacy in schizophrenia is established.
 
-Schizophrenia is Paliperidone's already-established core indication, so the mechanistic link to this disease family is not in question. What TxGNN is actually flagging here is a **sub-population signal**: efficacy specifically in the treatment-refractory subgroup, rather than a novel drug-disease pairing. This is a narrower and more plausible claim than the other nine predictions in this pack, which pair Paliperidone with unrelated congenital/genetic disorders with no supporting mechanism.
+No plausible mechanistic link to this eye condition was identified. Retinal dystrophies are largely inherited degenerations of photoreceptors and the retinal pigment epithelium. Nothing in paliperidone's receptor pharmacology addresses these processes. The very high score (0.999, model rank 1640) is a model output only. It is not supported by any trial, preclinical study or mechanistic paper.
 
-The clinical evidence found is consistent with this framing — most retrieved trials study Paliperidone or comparator antipsychotics in schizophrenia broadly, with only partial focus on the treatment-resistant subgroup specifically. This means the prediction is biologically credible but the evidence base addresses the general indication more than the "refractory" qualifier.
+The literature retrieved for this prediction covers orbital infections, diplopia, congenital ptosis, lens anomalies and congenital eye-muscle disorders. These look like keyword matches on "extraocular" and "congenital" terms rather than evidence about the drug.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01860781](https://clinicaltrials.gov/study/NCT01860781) | Phase 4 | Completed | 30 | Prospective naturalistic case series directly evaluating Paliperidone Palmitate effectiveness in schizophrenia across three patient groups; not specific to treatment-refractory subgroup |
-| [NCT06060886](https://clinicaltrials.gov/study/NCT06060886) | Phase 4 | Unknown | 244 | Open-label RCT (SchizOMICS) comparing Aripiprazole vs Paliperidone/Risperidone using multi-omics data in first-episode psychosis; same indication family but not refractory-specific, status unknown |
-| [NCT07047651](https://clinicaltrials.gov/study/NCT07047651) | Phase 4 | Recruiting | 40 | Evaluates pharmacotherapy combined with new recovery-oriented programs for treatment-resistant schizophrenia and treatment-resistant bipolar disorder; drug-specific link to Paliperidone unclear |
-| [NCT05741502](https://clinicaltrials.gov/study/NCT05741502) | Phase 4 | Terminated | 5 | Compared Clozapine vs non-Clozapine antipsychotics for inflammatory markers in treatment-resistant schizophrenia; terminated early, not Paliperidone-specific, background evidence only |
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
+No randomised trials were found. The table lists the ten most relevant items, reviews first and then case reports. None mentions paliperidone or any antipsychotic.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31648341](https://pubmed.ncbi.nlm.nih.gov/31648341/) | 2019 | Review | Actas Españolas de Psiquiatría | Reviews psychopharmacology evidence for schizoaffective disorder, noting the lack of disorder-specific treatment guidelines and reliance on antipsychotics generally |
-| [23364281](https://pubmed.ncbi.nlm.nih.gov/23364281/) | 2013 | Review | Current Opinion in Psychiatry | Reviews psychopharmacological approaches for early-onset schizophrenia spectrum disorders in adolescents, including dosing and switching strategies |
+| [9416661](https://pubmed.ncbi.nlm.nih.gov/9416661/) | 1997 | Review | Semin Ultrasound CT MR | Orbital infections, most often secondary to sinusitis; imaging and clinical features |
+| [20127583](https://pubmed.ncbi.nlm.nih.gov/20127583/) | 2010 | Review | Semin Neurol | Systematic approach to evaluating diplopia |
+| [22241537](https://pubmed.ncbi.nlm.nih.gov/22241537/) | 2012 | Review | Klin Monbl Augenheilkd | Congenital ptosis and associated eye anomalies |
+| [38249493](https://pubmed.ncbi.nlm.nih.gov/38249493/) | 2023 | Review | Taiwan J Ophthalmol | Congenital anomalies of lens size, shape and position |
+| [7035111](https://pubmed.ncbi.nlm.nih.gov/7035111/) | 1981 | Review | Doc Ophthalmol | Wagner-Stickler syndrome complex: vitreoretinal degeneration with extraocular features |
+| [38321238](https://pubmed.ncbi.nlm.nih.gov/38321238/) | 2024 | Review | Pediatr Radiol | Imaging of pediatric ocular pathologies (coloboma, Coats disease and others) |
+| [33447730](https://pubmed.ncbi.nlm.nih.gov/33447730/) | 2020 | Review | Ther Adv Ophthalmol | Eye involvement in inherited metabolic disorders |
+| [109006](https://pubmed.ncbi.nlm.nih.gov/109006/) | 1979 | Case report | Am J Ophthalmol | Two patients with unilateral cryptophthalmia |
+| [24413161](https://pubmed.ncbi.nlm.nih.gov/24413161/) | 2014 | Case report | J Neuroophthalmol | Congenital trochlear-oculomotor synkinesis in a 6-year-old boy |
+| [19826317](https://pubmed.ncbi.nlm.nih.gov/19826317/) | 2009 | Case report | Optom Vis Sci | Synergistic divergence in congenital fibrosis of the extraocular muscles |
 
 ---
 
 ## Singapore Market Information
 
-Currently no registration or license information is available — Paliperidone is not marketed in Singapore per this evidence pack (0 licenses on record).
+The Evidence Pack lists 17 registrations; five are shown below. Approved indication text was not provided for any of them.
+
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN13969P | INVEGA Sustenna 50mg/0.5 ml | Extended-release IM injectable suspension |
+| SIN13968P | INVEGA Sustenna 25mg/0.25 ml | Extended-release IM injectable suspension |
+| SIN16781P | PARNIDO 3mg | Multilayer extended-release tablet |
+| SIN15186P | INVEGA TRINZA 175mg/0.875ml | Extended-release IM injectable suspension |
+| SIN16655P | INVEGA HAFYERA 1000mg/5ml | Extended-release IM injectable suspension (prefilled syringe) |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. (No drug interaction, warning, or contraindication data was retrievable in this evidence pack.)
+Please refer to the package insert for safety information. The HSA package insert has not yet been retrieved, and no drug interaction records were found.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Paliperidone's mechanistic link to schizophrenia is well established, and one completed Phase 4 naturalistic study directly supports its effectiveness in the broader schizophrenia population. However, evidence specifically targeting the treatment-refractory subgroup is indirect (comparator trials, small/terminated samples, or unknown-status trials), so this should proceed only with additional guardrails rather than a full "Go."
+The prediction rests only on a model score. There are no trials, no relevant literature and no plausible mechanistic link, so the evidence is at the lowest level (L5). Repurposing an antipsychotic for an inherited retinal degeneration is not supported by anything in the Evidence Pack.
+
+Of the other predictions for this drug, only **treatment-refractory schizophrenia** (rank 10) has any trial activity. It has four Phase 4 studies, but none shows paliperidone is superior to clozapine, and it is a sub-population of an already approved indication rather than true repurposing. It could be evaluated separately as a research question.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism-of-action documentation (currently a data gap)
-- TFDA/HSA label warnings and contraindications (currently a data gap, marked Blocking severity in this evidence pack)
-- Drug-drug interaction data (current query returned "not_found")
-- A trial or study population specifically defined as treatment-refractory/treatment-resistant schizophrenia with Paliperidone as the primary intervention
-- Confirmation of Singapore market/registration pathway status, since the drug currently has zero local licenses
+- A biological rationale linking paliperidone to retinal degeneration, from preclinical or mechanistic studies
+- Literature searches that name paliperidone specifically, not only the disease terms
+- Mechanism of action data from DrugBank
+- The HSA package insert, to extract indications, warnings and contraindications
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -33,71 +33,64 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Dinoprostone is the pharmaceutical form of prostaglandin E2 (PGE2), a naturally occurring lipid mediator widely used in obstetrics for cervical ripening, labor induction, and management of pregnancy complications.
-The TxGNN model assigns it a high score of **98.26%** for **Esotropia** (convergent strabismus), yet **no clinical trials and no supporting literature** exist for this indication, and the mechanistic rationale is not biologically plausible.
-This prediction is assessed as an **L5 model-only signal** and warrants no further development at this stage.
-
----
+Dinoprostone (prostaglandin E2) is marketed in Singapore as a vaginal tablet and a vaginal delivery system, which points to obstetric use. The registration data does not state the approved indication. The TxGNN model predicts it may be effective for **esotropia**, but **0 clinical trials** and **0 publications** support this prediction.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Obstetric use (cervical ripening, labor induction) — no Singapore HSA registration on record |
+|------|------|
+| Original Indication | Not stated in the registration data (the vaginal products suggest obstetric use) |
 | Predicted New Indication | Esotropia |
 | TxGNN Prediction Score | 98.26% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | **Hold** |
-
----
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Dinoprostone is the synthetic equivalent of endogenous prostaglandin E2 (PGE2), acting through four G-protein–coupled receptors (EP1–EP4) that are distributed across smooth muscle, vascular endothelium, immune cells, and the reproductive tract. Through EP3 receptor activation, PGE2 promotes uterine contractility; through EP2/EP4, it induces cervical softening and smooth muscle relaxation. These mechanisms underpin its established obstetric use.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Dinoprostone is PGE2, which acts on EP receptors in smooth muscle and cervical tissue. That is consistent with its vaginal products.
 
-Esotropia is a form of strabismus in which one or both eyes deviate inward due to imbalance in extraocular muscle tone, neuromuscular signalling, or central oculomotor control. The EP1–EP4 receptors have no documented expression in the extraocular muscles or oculomotor nuclei that would mediate convergence control. No preclinical study, case report, or mechanistic study has proposed a link between PGE2 signalling and the pathophysiology of esotropia.
-
-The high TxGNN score most likely reflects distant, multi-hop connections in the knowledge graph — for instance, shared inflammatory pathway nodes — rather than a direct pharmacological relationship. This is a recognised limitation of graph-based repurposing models when the predicted indication sits far from the drug's biological neighbourhood. In the absence of any supporting evidence or plausible mechanism, this prediction should not be advanced.
-
----
+Esotropia is an ocular motor alignment disorder. No data connect PGE2 to it, and the pack found no plausible mechanistic link. The high score (98.26%) is a model output only. It is not backed by any trial, publication or mechanistic study, so this prediction should not be treated as credible at this time.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
+## Singapore Market Information
+
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN13982P | Cervidil Vaginal Delivery System 10mg | Other (vaginal delivery system) | Ferring Controlled Therapeutics Limited |
+| SIN02520P | PROSTIN E2 VAGINAL TABLET 3 mg | Tablet (vaginal) | Sanico NV |
+
+The approved indication text is blank for both licences.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Dinoprostone has no biological mechanism connecting PGE2/EP receptor signalling to extraocular muscle control or strabismus, and the L5 evidence level (model prediction only) provides no clinical or preclinical support for this repurposing hypothesis. The high TxGNN score is most likely a knowledge-graph artefact.
+The esotropia prediction has no supporting trials or literature, and no plausible link between PGE2 and ocular motor alignment was found. Registration is limited to vaginal products, and the original indication and safety data are missing.
 
-**To revise this decision, the following would be required:**
+**To proceed, the following is needed:**
+- Package insert (warnings, contraindications and approved indication) from the HSA website
+- Mechanism of action data from DrugBank
+- Any preclinical or clinical evidence linking PGE2 to extraocular muscle or strabismus, and a route and formulation assessment (current products are vaginal only)
 
-- Demonstration of EP receptor expression in extraocular muscles or oculomotor pathways (preclinical, molecular)
-- At least one animal model study showing PGE2 influence on ocular alignment or muscle tone
-- A coherent mechanistic hypothesis explaining how PGE2 agonism would correct, rather than exacerbate, strabismus
-- Safety and route-of-administration assessment for any proposed ophthalmic or systemic formulation
+**Other candidates in this pack:**
+- **Aortic malformation** (rank 3, score 91.2%) is the only candidate with a plausible mechanism, at L4. PGE-class drugs keep the ductus arteriosus open in ductal-dependent congenital heart disease. The clinical standard is PGE1 (alprostadil), and the use is palliative. Dinoprostone is marketed here only in vaginal forms, and no registered trials were found.
+- **Acne** and **HER2-positive breast carcinoma** show an unfavourable direction of effect. In both, PGE2 signalling is pro-inflammatory or pro-tumour, so exogenous PGE2 would be expected to worsen rather than treat the condition.
 
----
-
-> **Disclaimer:** This report is for research reference only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any therapeutic application.
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

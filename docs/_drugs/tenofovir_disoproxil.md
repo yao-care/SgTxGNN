@@ -29,78 +29,99 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tenofovir Disoproxil: From HIV/Hepatitis B Antiviral Therapy to Simian Immunodeficiency Virus Infection
+# Tenofovir Disoproxil: Repurposing Prediction for Simian Immunodeficiency Virus Infection
 
 ## One-Sentence Summary
 
-Tenofovir disoproxil is a nucleotide reverse transcriptase inhibitor (NRTI) whose established antiviral role against HIV and chronic hepatitis B is referenced throughout the supporting literature, though this evidence pack does not contain structured original-indication or mechanism-of-action data, and the drug is currently **not marketed in Singapore**. The TxGNN model's top-ranked prediction is **Simian Immunodeficiency Virus (SIV) Infection**, an animal-model disease rather than a human condition, supported by only 2 low-relevance clinical trials and 20 preclinical/animal publications — evidence that confirms known antiretroviral pharmacology in macaque models rather than pointing to a genuinely new human indication.
+Tenofovir disoproxil is a nucleotide reverse transcriptase inhibitor that is marketed in Singapore as film-coated tablets (300 mg). The TxGNN model predicts it may be effective for **simian immunodeficiency virus (SIV) infection**. The support is **2 registered trials, neither SIV-specific**, and **20 publications, almost all macaque studies**. This is preclinical evidence, and it models human HIV prevention and treatment rather than a separate human indication.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in this evidence pack (no `taiwan_regulatory.licenses` on file); supporting literature references tenofovir disoproxil's established use in HIV infection/PrEP and chronic hepatitis B |
-| Predicted New Indication | Simian Immunodeficiency Virus (SIV) Infection |
+| Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 99.95% |
-| Evidence Level | L4 (preclinical/animal studies only; no completed RCT directly targets SIV) |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 (preclinical) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 7 |
 | Recommended Decision | Hold |
+
+The approved indication text is not recorded in the Singapore registration data, so no original indication is listed.
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism-of-action data is not available in this evidence pack (flagged as a High-severity data gap). Based on the supporting literature, tenofovir disoproxil is an NRTI-class antiviral whose activity against retroviruses (HIV) and hepadnaviruses (HBV) is well documented; mechanistically, this same reverse-transcriptase inhibition extends to simian immunodeficiency virus (SIV) and simian/human immunodeficiency virus (SHIV) chimeras, which are the standard non-human primate models used to study HIV pre-exposure prophylaxis (PrEP) and treatment.
+Detailed mechanism of action data is not available in the dataset. Tenofovir disoproxil is a prodrug of tenofovir. Its active metabolite, tenofovir diphosphate, competes with natural nucleotides and terminates proviral DNA synthesis. This blocks reverse transcriptase in lentiviruses, including SIV and SHIV (the SIV/HIV chimeric virus used in macaque models).
 
-However, the repurposing rationale supplied with this candidate is explicit that SIV/SHIV models are used to **re-confirm** tenofovir's known HIV PrEP mechanism in an animal system, not to identify a novel, directly translatable human indication. SIV itself is a veterinary/research disease entity that does not occur in humans, so this prediction functions as mechanistic validation rather than a clinical repurposing opportunity.
+Because SIV is the primate counterpart of HIV, the macaque prevention (PrEP) and post-exposure (PEP) studies serve as a preclinical model of human HIV prevention. The clinically relevant counterpart is human HIV-1 infection, which appears elsewhere in this candidate's predictions as "AIDS related complex". The SIV prediction therefore mostly confirms known antiviral activity rather than opening a new clinical use.
 
-It is also worth noting that among this drug's other predicted indications, the strongest human-relevant evidence (L1, ≥2 completed Phase 3-class trials) attaches to **hepatitis B virus infection** (rank 6) and **AIDS-related complex** (rank 10) — both of which the underlying rationale identifies as re-confirmations of tenofovir disoproxil's already-approved indications, not new signals. The remaining candidates (ranks 3, 4, 5, 7, 8, 9) have no clinical trial or literature support at all (L5) and are already flagged "Hold" by the source pipeline.
+---
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT03577782](https://clinicaltrials.gov/study/NCT03577782) | Phase 1/2 | Unknown | 12 | Vedolizumab + ART in human HIV-infected subjects aiming at virological remission; no direct SIV/animal-model link (relevance grade C) |
-| [NCT00863668](https://clinicaltrials.gov/study/NCT00863668) | N/A | Withdrawn | 0 | HIV decay kinetics with raltegravir in humans; references SIV-macaque decay kinetics only as historical comparator, trial itself withdrawn (relevance grade C) |
+| [NCT03577782](https://clinicaltrials.gov/study/NCT03577782) | Phase 1/2 | Unknown | 12 | Vedolizumab plus antiretroviral therapy aimed at virological remission in HIV-infected people. Human HIV, not SIV, and tenofovir is not the tested variable |
+| [NCT00863668](https://clinicaltrials.gov/study/NCT00863668) | N/A | Withdrawn | 0 | HIV decay kinetics with raltegravir. Withdrawn with no participants, so it provides no evidence |
 
-Neither trial directly tests tenofovir disoproxil in an SIV/SHIV model; both are graded low relevance (C).
+Neither trial tests tenofovir in SIV infection, so both are weakly related.
+
+---
 
 ## Literature Evidence
 
+All entries below are preclinical (macaque) studies. No RCT or human study was retrieved for this indication.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [36477356](https://pubmed.ncbi.nlm.nih.gov/36477356/) | 2022 | Preclinical/Animal | JCI Insight | Hypo-osmolar rectal tenofovir douche prevents SHIV acquisition in macaques |
-| [27465645](https://pubmed.ncbi.nlm.nih.gov/27465645/) | 2016 | Preclinical/Animal | J Infect Dis | Oral TAF + emtricitabine protects macaques from rectal SHIV infection (PrEP model) |
-| [22072766](https://pubmed.ncbi.nlm.nih.gov/22072766/) | 2012 | Preclinical/Animal | J Virol | 1% tenofovir vaginal gel provides durable protection against vaginal SHIV in macaques |
-| [26743846](https://pubmed.ncbi.nlm.nih.gov/26743846/) | 2016 | Preclinical/Animal | J Infect Dis | FTC/TDF prevents vaginal SHIV infection in macaques co-infected with C. trachomatis/T. vaginalis |
-| [20874040](https://pubmed.ncbi.nlm.nih.gov/20874040/) | 2010 | Review | Pharmacotherapy | Review of systemic PrEP for HIV, citing SIV/SHIV macaque efficacy data |
-| [16810108](https://pubmed.ncbi.nlm.nih.gov/16810108/) | 2006 | Preclinical/Animal | J Acquir Immune Defic Syndr | Oral TDF and topical GS-7340 protect infant macaques against repeated oral SIV challenge |
-| [16960777](https://pubmed.ncbi.nlm.nih.gov/16960777/) | 2006 | Preclinical/Animal | J Infect Dis | TDF chemoprophylaxis gives partial protection against SHIV in macaques with multiple challenges |
-| [39632836](https://pubmed.ncbi.nlm.nih.gov/39632836/) | 2024 | Preclinical/Animal | Nat Commun | SHIV remission in macaques with early ART initiation plus long-acting antivirals |
-| [38134382](https://pubmed.ncbi.nlm.nih.gov/38134382/) | 2024 | Preclinical/Animal | J Infect Dis | TAF/elvitegravir vaginal inserts give extended postexposure protection against SHIV in macaques |
-| [23633402](https://pubmed.ncbi.nlm.nih.gov/23633402/) | 2013 | Preclinical/Animal | J Infect Dis | FTC/TDF prevents transmission of tenofovir-resistant (K65R) SHIV in macaques |
+| [36477356](https://pubmed.ncbi.nlm.nih.gov/36477356/) | 2022 | Preclinical (macaque) | JCI Insight | A hypo-osmolar rectal douche containing tenofovir prevented rectal SHIV acquisition |
+| [27465645](https://pubmed.ncbi.nlm.nih.gov/27465645/) | 2016 | Preclinical (macaque) | J Infect Dis | Oral emtricitabine plus tenofovir alafenamide protected macaques from rectal SHIV infection |
+| [26743846](https://pubmed.ncbi.nlm.nih.gov/26743846/) | 2016 | Preclinical (macaque) | J Infect Dis | Emtricitabine/TDF prevented vaginal SHIV infection in macaques coinfected with Chlamydia and Trichomonas |
+| [23633402](https://pubmed.ncbi.nlm.nih.gov/23633402/) | 2013 | Preclinical (macaque) | J Infect Dis | Tested whether emtricitabine/TDF prevents a tenofovir-resistant (K65R) SHIV |
+| [16810108](https://pubmed.ncbi.nlm.nih.gov/16810108/) | 2006 | Preclinical (infant macaque) | J Acquir Immune Defic Syndr | Evaluated oral TDF and topical GS-7340 against repeated oral SIV challenges in infant macaques |
+| [16960777](https://pubmed.ncbi.nlm.nih.gov/16960777/) | 2006 | Preclinical (macaque) | J Infect Dis | TDF gave partial protection against SHIV in macaques given repeated rectal challenges |
+| [16775328](https://pubmed.ncbi.nlm.nih.gov/16775328/) | 2006 | Preclinical (infant macaque) | J Virol | Structured treatment interruptions with tenofovir monotherapy in SIV-infected newborn macaques |
+| [15113912](https://pubmed.ncbi.nlm.nih.gov/15113912/) | 2004 | Preclinical (macaque) | J Virol | Tenofovir suppressed viremia in SIV-infected macaques, depending on CD8+ cells. Continuous treatment was required |
+| [10684272](https://pubmed.ncbi.nlm.nih.gov/10684272/) | 2000 | Preclinical (macaque) | J Virol | Transient post-inoculation tenofovir was used to study containment of SIV and protection on rechallenge |
+| [9643376](https://pubmed.ncbi.nlm.nih.gov/9643376/) | 1998 | Preclinical (newborn macaque) | AIDS Res Hum Retroviruses | PMPA (tenofovir) was tested for preventing perinatal SIV infection |
 
-All 10 entries are preclinical/veterinary primate studies; none constitute human clinical trial or RCT evidence for SIV infection itself.
+---
 
 ## Singapore Market Information
 
-No Singapore (HSA) registrations are on file for tenofovir disoproxil in this evidence pack — market status is "Not Marketed" with 0 total licenses.
+Seven registrations exist in total. The five main ones are listed below. The approved indication text is not recorded in the dataset, so it is not shown.
+
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN13938P | Viread Tablets 300mg | Tablet, film coated | Takeda GmbH & Gilead Sciences Ireland UC |
+| SIN15564P | TENOF Tenofovir Disoproxil Fumarate Film-Coated Tablets 300 mg | Tablet, film coated | Hetero Labs Limited |
+| SIN15936P | VIRKIL Film-Coated Tablets 300 mg | Tablet, film coated | Strides Pharma Science Limited |
+| SIN16078P | VIRCLEAN F.C. Tablets 300mg | Tablet, film coated | 2nd Plant, Standard Chem. & Pharm. Co. Ltd. |
+| SIN16566P | HOVID Tenofovir Disoproxil Fumarate Film Coated Tablet 300MG | Tablet, film coated | Chia Tai-Tianqing Pharmaceutical Group Co. Ltd. |
+
+---
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked TxGNN prediction (SIV infection) is an animal-model disease with no completed human clinical trial support and only preclinical/animal literature (L4), representing mechanistic re-confirmation rather than a novel, clinically actionable human indication. Combined with a Blocking data gap on Singapore/TFDA safety labeling and the drug's current non-marketed status in Singapore, there is no basis to advance this candidate.
+The evidence is preclinical (L4): macaque studies support antiviral activity, but no human trial tests tenofovir for SIV. SIV is an animal virus, so the clinically meaningful targets are human HIV-1 and HBV, which are covered by separate predictions for this drug.
 
 **To proceed, the following is needed:**
-- HSA/TFDA-equivalent package insert data (key warnings, contraindications) to close the Blocking data gap
-- Confirmed mechanism-of-action documentation (currently a data gap)
-- If pursuing repurposing further, evaluate the higher-evidence candidates in this same prediction set — hepatitis B virus infection and AIDS-related complex (both L1, "Proceed with Guardrails") — while recognizing these reflect tenofovir disoproxil's already-established indications rather than new repurposing opportunities
-- No further action recommended on the remaining L5 candidates (neurodevelopmental disorder, familial combined hyperlipidemia, fibroma of prostate, Brenner tumor, benign reproductive system neoplasm, benign prostate phyllodes tumor), which lack any supporting trial or literature evidence
+- The HSA package insert, to confirm approved indications, warnings and contraindications (this blocks any safety screening)
+- Mechanism of action data from DrugBank
+- Review of this prediction together with the human HIV-1 and HBV predictions, since they are the clinically relevant indications
+- Confirmation of whether the existing Singapore labels already cover these uses, which would make this on-label rather than repurposing
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

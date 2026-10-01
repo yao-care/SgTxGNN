@@ -33,72 +33,59 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Norelgestromin is the active metabolite of norgestimate and is used as the progestin component of combined hormonal contraceptive products (e.g., transdermal contraceptive patches). The TxGNN model's top-ranked prediction links it to **Amenorrhea**, but this association is **not currently supported by any clinical trials or published literature**, and the evidence pack itself flags the predicted relationship as potentially reflecting a known adverse effect (breakthrough bleeding/amenorrhea) or diagnostic use (progestin challenge test) rather than a genuine therapeutic indication.
-
----
+Norelgestromin is a progestin, the active metabolite of norgestimate. In Singapore it is registered only as a component of the EVRA transdermal patch, a combined hormonal product.
+The TxGNN model predicts it may be effective for **amenorrhea**, but there are currently **0 clinical trials** and **0 publications** supporting this. The prediction is based on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hormonal contraception (progestin component of a transdermal contraceptive patch) — not separately confirmed in the Singapore registration data |
-| Predicted New Indication | Amenorrhea (disease) |
+| Original Indication | Not stated in the registration record (the product is a combined contraceptive patch) |
+| Predicted New Indication | Amenorrhea |
 | TxGNN Prediction Score | 99.51% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for norelgestromin is not available in this evidence pack. Based on the information that is available, norelgestromin is the active metabolite of norgestimate, a low-androgenic progestin used as a component of combined hormonal contraceptive products.
+Detailed mechanism of action data is not currently available. Norelgestromin is a progestin that suppresses gonadotropins and acts on the endometrium. Hormonal agents can plausibly change menstrual bleeding patterns.
 
-The link to amenorrhea is mechanistically plausible but directionally ambiguous. Progestins are well known to be associated with amenorrhea in two very different ways: (1) as a **diagnostic tool** (the progestin challenge test, used to evaluate secondary amenorrhea), and (2) as a **known adverse effect** of contraceptive patches (breakthrough bleeding or amenorrhea during use). A knowledge-graph model can capture either of these associations without distinguishing them from a true treatment relationship. Because there are zero clinical trials and zero publications supporting norelgestromin as a *treatment* for amenorrhea, this prediction should be read as an association flagged for manual review of the underlying knowledge-graph edge semantics, not as an emerging treatment hypothesis.
+The direction of benefit is unclear, because progestins are known to cause amenorrhea as an effect. The model may be picking up this association rather than a therapeutic one. The prediction therefore rests only on the model score.
 
-For context, the same evidence pack's second-ranked prediction — acne (score 98.49%, evidence level L4) — has a clearer mechanistic rationale: the related combination norgestimate + ethinyl estradiol is an approved treatment for acne vulgaris via reduction of free testosterone. That is analog evidence, not direct evidence for norelgestromin, but it is mechanistically more coherent than the amenorrhea signal and may warrant separate consideration.
-
----
+The other top predictions (rank 2–10) fall mostly into a breast-disease cluster, such as fibrocystic disease, adenosis and benign mammary dysplasia. Several share identical scores, which suggests a shared graph neighbourhood rather than independent evidence. Some, such as breast abscess and fat necrosis of breast, have low biological plausibility.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Norelgestromin currently has no marketing authorization in Singapore (0 registered products; market status: Not Marketed). No dosage form or approved-indication data is available for this jurisdiction.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN12423P | EVRA TRANSDERMAL PATCH (6 mg/600 mcg), LTS Lohmann Therapie-Systeme AG | Patch | Not listed in the registration record |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
-*(Key warnings, contraindications, and drug interaction data are not currently available for norelgestromin in this evidence pack. Note: the missing TFDA/HSA-equivalent warning and contraindication data is flagged as a Blocking gap for safety pre-assessment — see Conclusion below.)*
-
----
+Please refer to the package insert for safety information. No drug interaction records were found.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The amenorrhea prediction has the highest TxGNN score in this candidate set but is supported only by a model-level association (L5, decision stage S0), with no clinical trials, no literature, and a specific concern — noted in the evidence pack itself — that the underlying knowledge-graph relationship may reflect an adverse effect or diagnostic use rather than a treatment effect. The drug is also not currently marketed in Singapore, and safety labeling data is entirely unavailable, which blocks any S1 safety pre-assessment.
+The prediction has no supporting trials or literature (L5), and no mechanism data. The direction of effect is ambiguous, since progestins can cause amenorrhea as well as treat it.
 
 **To proceed, the following is needed:**
-- Manual review of the knowledge-graph edge to determine whether it reflects a treatment relationship, an adverse-effect relationship, or a diagnostic-use relationship (progestin challenge test)
-- TFDA/HSA-equivalent package insert data: warnings and contraindications (currently a Blocking data gap)
-- Mechanism of action (MOA) data via DrugBank API query (currently a High-severity data gap)
-- If pursuing further, consider prioritizing the acne (rank 2) candidate instead, which has a more coherent mechanistic rationale via the norgestimate/ethinyl estradiol analog, though it likewise lacks direct clinical trial or literature support for norelgestromin itself
+- The HSA package insert warnings and contraindications (blocking for safety screening)
+- Mechanism of action data, for example from the DrugBank API
+- A targeted literature and trial search on progestin or norgestimate-containing contraceptives in amenorrhea, to clarify the direction of effect
+- Confirmation of the approved indication text and route compatibility (transdermal patch versus the routes needed for the new indication)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

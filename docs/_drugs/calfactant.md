@@ -33,93 +33,74 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Calfactant (Infasurf) is a natural calf lung surfactant, originally proven effective in neonatal and pediatric respiratory distress syndrome (RDS/ALI), where exogenous surfactant replacement directly addresses alveolar surface tension dysfunction.
-The TxGNN model predicts it may be effective for **Adult Acute Respiratory Distress Syndrome (ARDS)**,
-with **1 Phase 3 clinical trial** and **7 publications** currently examined — however, the pivotal Phase 3 RCT was terminated early due to futility, making this a cautionary evidence package rather than a supportive one.
-
----
+Calfactant is a natural calf-lung surfactant, marketed in Singapore as Infasurf, and used for respiratory distress syndrome in neonates.
+The TxGNN model predicts it may be effective for **adult acute respiratory distress syndrome (ARDS)**.
+Support so far is **1 Phase 3 trial (terminated early)** and **7 publications**, and adult efficacy has not been established.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Neonatal / Pediatric Respiratory Distress Syndrome (RDS / ALI) |
-| Predicted New Indication | Adult Acute Respiratory Distress Syndrome (ARDS) |
+|------|------|
+| Original Indication | Neonatal respiratory distress syndrome (not stated in the Singapore registration record) |
+| Predicted New Indication | Adult acute respiratory distress syndrome |
 | TxGNN Prediction Score | 95.78% |
-| Evidence Level | L1 (Phase 3 RCT exists, but terminated for futility) |
-| Singapore Market Status | ✗ Not marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | **Hold** |
+| Evidence Level | L2 (see note below) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
+| Recommended Decision | Hold |
 
----
+*Evidence level note: the input labelled this L1. Under the L1-L5 rules, L1 needs at least two completed Phase 3 RCTs. The only registered Phase 3 trial was terminated, so this report rates it L2 on the strength of the published RCTs (adult and pediatric).*
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on known pharmacological information, Calfactant is a natural bovine lung surfactant extract containing phospholipids (predominantly dipalmitoylphosphatidylcholine) and surfactant-associated proteins SP-B and SP-C. Its core mechanism is the restoration of alveolar surface tension at the air-liquid interface, which is the same pathological defect that defines neonatal RDS. The extension to ARDS is therefore mechanistically coherent at first glance.
+Detailed mechanism-of-action data for calfactant is not available in the input. Based on known information, calfactant is a natural bovine-derived lung surfactant that directly replaces the body's own surfactant. Its efficacy in neonatal respiratory distress syndrome is established, and mechanistically it may be applicable to ARDS.
 
-The rational link between neonatal RDS and adult ARDS rests on a shared pathophysiological feature: surfactant dysfunction. In ARDS, plasma proteins leaking across the damaged alveolar-capillary membrane competitively inhibit endogenous surfactant activity, collapsing alveoli and worsening hypoxemia. Replacing this dysfunctional surfactant pool with exogenous Calfactant — which is particularly rich in SP-B, the protein associated with superior surface tension reduction — was hypothesised to partially restore alveolar stability and improve gas exchange, directly extending the mechanism proven in neonates.
+ARDS involves inactivation and dysfunction of the lung's own surfactant. Replacing it is therefore biologically plausible, and it is the same principle that works in neonates. A pediatric acute lung injury RCT (JAMA 2005) and its secondary analysis support this direction in children.
 
-However, the translation fails at scale. Adult ARDS involves a far greater degree of inflammatory injury, protein flooding, and surfactant inactivation than neonatal RDS. The pivotal Phase 3 RCT (NCT00682500, n = 332) was stopped early by the Data Safety Monitoring Board for futility: Calfactant did not improve mortality or the course of respiratory failure in adults. Positive results from the paediatric ARDS RCT (JAMA 2005) cannot be directly extrapolated to adults, as was confirmed by the negative adult trial. The prediction is mechanistically plausible but clinically falsified for the adult population.
-
----
+Adult efficacy remains unproven. The adult Phase 3 trial was terminated early, so its outcome should be checked against the primary publication (PMID 25855884) before any recommendation is made.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT00682500](https://clinicaltrials.gov/study/NCT00682500) | Phase 3 | Terminated | 332 | Multicentre RCT of intratracheal Calfactant within 48 h of mechanical ventilation in adults and children with Direct ARDS/ALI. Stopped early — Calfactant did not reduce mortality or shorten the course of respiratory failure in adults. This is the decisive negative evidence against adult repurposing. |
-
----
+|---------|------|------|------|---------|
+| [NCT00682500](https://clinicaltrials.gov/study/NCT00682500) | Phase 3 | Terminated | 332 | Intratracheal calfactant in adults and children with direct ARDS or direct acute lung injury, started within 48 hours of mechanical ventilation. It tested whether calfactant lowers mortality and shortens respiratory failure. Early termination limits the strength of any conclusion. |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [25855884](https://pubmed.ncbi.nlm.nih.gov/25855884/) | 2015 | RCT Primary Report | Chest | Adult Calfactant in ARDS Trial: exogenous surfactant (including SP-B–containing preparations) failed to improve primary endpoints in adults with ALI/ARDS; terminates the hypothesis of adult benefit. |
-| [15671432](https://pubmed.ncbi.nlm.nih.gov/15671432/) | 2005 | RCT | JAMA | Paediatric ALI RCT (n = 153): intratracheal Calfactant significantly improved oxygenation and reduced mortality vs. placebo in children — the key positive paediatric signal that motivated the adult trial. |
-| [23925143](https://pubmed.ncbi.nlm.nih.gov/23925143/) | 2013 | Retrospective Cohort Analysis | Pediatric Critical Care Medicine | Post-hoc analysis of the paediatric Calfactant ARDS trial: fluid overload was independently associated with worse outcomes, underscoring that surfactant benefit in children occurs in the context of conservative fluid management. |
-| [33493441](https://pubmed.ncbi.nlm.nih.gov/33493441/) | 2021 | Case Report | Chest | Single-patient experience: exogenous surfactant administered to a COVID-19 ARDS patient with atypical physiology resembling neonatal RDS showed temporary oxygenation improvement; highlights a potential subgroup hypothesis but cannot support efficacy conclusions. |
-| [21048239](https://pubmed.ncbi.nlm.nih.gov/21048239/) | 2010 | Review | Indian Pediatrics | Comprehensive review of paediatric ARDS management; contextualises surfactant therapy within the broader paediatric ICU evidence base and supportive care strategies. |
-| [17198050](https://pubmed.ncbi.nlm.nih.gov/17198050/) | 2007 | Review | Current Opinion in Critical Care | Review of paediatric ventilation strategies and timing; surfactant use discussed as one component of lung-protective care in children, highlighting differences from adult practice. |
-| [20335386](https://pubmed.ncbi.nlm.nih.gov/20335386/) | 2010 | Basic Science / Methodology | American Journal of Respiratory and Critical Care Medicine | Commentary on surfactant composition and biophysical properties; argues that SP-B content and phospholipid profile are critical determinants of clinical efficacy, providing mechanistic context for why formulation differences matter in ARDS trials. |
-
----
+|------|-----|------|------|---------|
+| [25855884](https://pubmed.ncbi.nlm.nih.gov/25855884/) | 2015 | RCT | Chest | Adult Calfactant in ARDS trial. A multicentre, randomized, masked trial of calfactant in adults and children with ALI/ARDS, based on positive pediatric results. The abstract provided is truncated, so the outcome is not confirmed here. |
+| [15671432](https://pubmed.ncbi.nlm.nih.gov/15671432/) | 2005 | RCT (pediatric) | JAMA | Randomized trial of calfactant in pediatric acute lung injury. Earlier adult surfactant trials had been unsuccessful, while preliminary pediatric data suggested benefit. |
+| [23925143](https://pubmed.ncbi.nlm.nih.gov/23925143/) | 2013 | Secondary analysis of RCT (pediatric) | Pediatr Crit Care Med | Post hoc analysis of the pediatric calfactant trial examining how fluid balance relates to in-hospital outcomes. |
+| [21048239](https://pubmed.ncbi.nlm.nih.gov/21048239/) | 2010 | Review | Indian Pediatrics | Review of pediatric ARDS causes, mortality risk and supportive therapies. |
+| [17198050](https://pubmed.ncbi.nlm.nih.gov/17198050/) | 2007 | Review | Curr Opin Crit Care | Review of pediatric mechanical ventilation, which is largely guided by a few pediatric trials plus adult data. |
+| [20335386](https://pubmed.ncbi.nlm.nih.gov/20335386/) | 2010 | Review/Commentary | Am J Respir Crit Care Med | Commentary arguing that surfactant composition and biophysical properties matter in clinical studies. |
+| [33493441](https://pubmed.ncbi.nlm.nih.gov/33493441/) | 2021 | Case report | Chest | Exogenous surfactant used in one COVID-19 patient with ARDS. COVID-19 hypoxemia resembles surfactant-deficiency respiratory distress. |
 
 ## Singapore Market Information
 
-Calfactant is currently **not registered** in Singapore. There are no active or historical product licences on record.
-
-> If regulatory approval is pursued in the future, a full new drug application (NDA) process with the Health Sciences Authority (HSA) would be required.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN14333P | Infasurf Intratracheal Suspension 35mg/mL (ONY Biotech Inc., parametric release) | Suspension, sterile | Not listed in the registration record |
 
 ## Safety Considerations
 
-Detailed safety data (package insert warnings, contraindications, drug interactions) were not available in this Evidence Pack.
-
-> Please refer to the Calfactant (Infasurf) package insert for complete safety information, including handling precautions for intratracheal administration, monitoring requirements during mechanical ventilation, and contraindications in specific patient populations.
-
----
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model's high confidence score (95.78%) reflects a mechanistically coherent hypothesis, but the hypothesis has already been tested and **prospectively falsified** in adults: the Phase 3 RCT (NCT00682500) was terminated early for futility, and the 2015 Chest publication confirms that Calfactant does not improve adult ARDS outcomes. The positive paediatric signal (JAMA 2005) is real but does not generalise to adults. Proceeding with a standard adult ARDS repurposing programme would repeat a known failure.
+The mechanism is plausible and the model score is high (95.78%). However, the only Phase 3 trial in adults was terminated early, and adult efficacy is not established. The pediatric RCT evidence does not transfer directly to adults. Safety information is also missing from the input.
 
-**To reconsider, the following would be needed:**
+**To proceed, the following is needed:**
+- The package insert from HSA (warnings and contraindications), before any safety screening
+- Detailed mechanism-of-action data from DrugBank
+- The primary results of NCT00682500 and the Chest 2015 publication (PMID 25855884), including mortality and the reason for early termination
+- Confirmation of the approved indication text for SIN14333P and of intratracheal route suitability for adult ARDS
 
-- **Subgroup hypothesis generation**: Identification of a biologically defined adult subpopulation (e.g., COVID-19-associated ARDS with near-normal compliance, direct ARDS within 6 h of onset, or surfactant protein B–deficient patients) where the mechanism may still apply and where prior trials were underpowered.
-- **Mechanistic data (MOA)**: Formal retrieval of Calfactant's complete pharmacological profile from DrugBank to confirm whether any secondary mechanisms (beyond surface tension reduction) have been characterised that could support non-pulmonary or non-surfactant-based activity.
-- **Biomarker-stratified trial design**: Any future clinical investigation should incorporate surfactant dysfunction biomarkers (e.g., bronchoalveolar lavage surfactant protein levels, minimum surface tension measurements) as eligibility criteria to enrich the population most likely to benefit.
-- **Singapore regulatory pathway assessment**: Given zero existing registrations, a full HSA NDA strategy including GMP-certified supply chain, local clinical data requirements, and YMYL-compliant patient communication materials would be prerequisites before any clinical programme.
-
-> **Research note:** The rank 3 prediction (Pulmonary Edema, score 76.17%) may warrant a separate, exploratory research question — specifically in permeability-type pulmonary oedema overlapping with early ARDS — but requires a distinct and clearly defined protocol before any investment decision.
-
----
-
-*This report is generated for research reference purposes only and does not constitute medical advice. All drug repurposing candidates require prospective clinical validation before any clinical application.*
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

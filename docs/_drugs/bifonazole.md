@@ -29,82 +29,67 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Bifonazole: From Superficial Fungal Infections to Pulmonary Hypertension
+# Bifonazole: From Topical Antifungal Use to Pulmonary Hypertension
 
 ## One-Sentence Summary
 
-Bifonazole is a broad-spectrum topical imidazole antifungal agent, classically used for the treatment of superficial fungal infections of the skin (dermatomycoses including tinea and cutaneous candidiasis).
-The TxGNN model predicts it may be effective for **Pulmonary Hypertension**, with a prediction score of 96.30%.
-However, there are currently **0 clinical trials** and **0 publications** directly supporting this repurposing direction, and the proposed mechanistic rationale is highly speculative.
-
----
+Bifonazole is an imidazole antifungal, registered in Singapore as a 1% topical cream.
+The TxGNN model predicts it may be effective for **pulmonary hypertension**, but this is a computational prediction only, with **0 clinical trials** and **0 drug-specific publications** supporting it.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Superficial fungal infections (dermatomycoses) — no Singapore HSA-registered indications on file |
-| Predicted New Indication | Pulmonary Hypertension |
+|------|------|
+| Predicted New Indication | Pulmonary hypertension |
 | TxGNN Prediction Score | 96.30% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in the Evidence Pack (data gap DG002). Based on established pharmacological knowledge, Bifonazole is an imidazole antifungal that inhibits fungal CYP51A1 (lanosterol 14α-demethylase), disrupting ergosterol biosynthesis in the fungal cell membrane. This renders it effective against a broad range of dermatophytes and yeasts. Its clinical use has been confined to topical skin preparations.
+Currently, detailed mechanism of action data is not available. Based on known information, bifonazole is an imidazole antifungal that inhibits fungal ergosterol synthesis. Its established use is in topical antifungal treatment.
 
-The TxGNN-hypothesised pathway connecting Bifonazole to pulmonary hypertension runs as follows: CYP enzyme inhibition → altered arachidonic acid metabolism → pulmonary vascular tone modulation. This is a distant extrapolation. Certain azole antifungals (notably ketoconazole) have demonstrated off-target inhibition of mammalian CYP enzymes involved in prostacyclin and thromboxane synthesis, and this has attracted some research interest in vascular biology. However, there is no published evidence that Bifonazole specifically inhibits pulmonary vascular CYP isoforms at clinically relevant concentrations.
+No mechanistic link to pulmonary hypertension is established. Ergosterol synthesis inhibition has no known connection to pulmonary vascular remodelling. The high score (96.30%) most likely reflects proximity in the knowledge graph rather than a demonstrated pharmacological rationale. The prediction should be treated as a hypothesis only.
 
-A further critical barrier is pharmacokinetics. Bifonazole is a topical-only agent with minimal systemic absorption. There is no established route of administration that would deliver therapeutically meaningful concentrations to the pulmonary vasculature. The high TxGNN score most likely reflects knowledge graph signal propagation through shared CYP-related nodes rather than genuine mechanistic or clinical plausibility.
-
----
+Among the other top-ranked predictions, **mycotic corneal ulcer** (score 93.29%) is the most biologically coherent. It is a fungal eye infection, which fits an antifungal mechanism. However, no trials or literature were provided, and ocular safety, corneal penetration and suitability of the cream formulation for the eye are undocumented. It is a possible topic for preclinical or pharmacokinetic review, not a clinical recommendation.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
-
----
+Currently no related literature available for pulmonary hypertension.
 
 ## Singapore Market Information
 
-Bifonazole is not currently registered with the Health Sciences Authority (HSA) of Singapore. No product licences are on file, and the drug has no approved indications in the Singapore market.
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN15415P | CANESPRO ONCE DAILY CREAM 1% | Cream | GP Grenzach Produktions GmbH; Kern Pharma, S.L. |
 
----
+Only a topical cream is registered. Whether this route could reach the target tissue in pulmonary hypertension has not been assessed.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite a high TxGNN prediction score (96.30%), the proposed link between Bifonazole and pulmonary hypertension lacks mechanistic foundation, has zero supporting clinical or preclinical literature, and is pharmacokinetically implausible given the drug's exclusively topical route of administration. The drug is also not marketed in Singapore, and key safety data (warnings, contraindications, MOA profile) remain unavailable.
+The prediction rests on a model score alone (L5). There are no trials, no drug-specific literature and no plausible mechanistic link, and the only registered product is a topical cream.
 
 **To proceed, the following is needed:**
-- Pharmacokinetic data confirming whether any systemic route of administration can achieve lung-tissue concentrations adequate for vascular CYP inhibition
-- In vitro studies confirming Bifonazole's activity on mammalian pulmonary vascular CYP isoforms (specifically those involved in prostacyclin/thromboxane pathways)
-- Complete safety profile: package insert warnings, contraindications, and drug-drug interaction screening
-- Preclinical efficacy data in pulmonary hypertension animal models before any further investment is considered
+- Mechanism of action data for bifonazole
+- Package insert warnings and contraindications from the HSA
+- Any preclinical or clinical evidence specific to bifonazole in pulmonary hypertension
+- An assessment of route compatibility, since a topical cream is unlikely to suit a systemic cardiopulmonary indication
+- Optionally, a separate preclinical and pharmacokinetic review of the mycotic corneal ulcer hypothesis
 
----
-
-> **⚑ Higher-Priority Repurposing Candidate Flagged**
->
-> Among the 10 TxGNN predictions reviewed for this evidence pack, **Mycotic Corneal Ulcer (Fungal Keratitis)** (Rank 7; TxGNN score 93.29%; Evidence Level **L4**; Decision Stage **S1**) is the only indication with a mechanistically sound rationale. Bifonazole's CYP51A1 inhibition directly targets the same fungal pathway responsible for Aspergillus, Fusarium, and Candida keratitis. Other azoles (voriconazole, fluconazole) are already used clinically for this indication, providing a clear regulatory and clinical precedent. Recommended immediate next steps for this candidate: (1) in vitro MIC testing against common corneal fungal pathogens; (2) ocular local-tolerance assessment for an ophthalmic formulation; (3) literature search specifically for "bifonazole keratitis" or "bifonazole eye." This candidate merits a dedicated full evidence review.
+*These findings are for research reference only and do not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

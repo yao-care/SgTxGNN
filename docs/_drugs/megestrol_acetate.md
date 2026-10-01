@@ -29,71 +29,68 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Megestrol Acetate: From Cancer-Related Anorexia-Cachexia to Uterine Corpus Endometrial Carcinoma
-
-*Note: Singapore-specific approved-indication text is not available in this evidence pack (drug is not currently registered in Singapore). The original-indication description above reflects Megestrol acetate's globally established, well-documented uses (progestin hormonal therapy for advanced/recurrent breast and endometrial cancer, and cancer/AIDS-related anorexia-cachexia) rather than a locally sourced label.*
+# Megestrol Acetate: From an Unrecorded Original Indication to Uterine Corpus Endometrial Carcinoma
 
 ## One-Sentence Summary
 
-> Megestrol acetate is a synthetic progestin historically used for cancer-related anorexia-cachexia and as palliative hormonal therapy in advanced breast/endometrial cancer.
-> The TxGNN model predicts it may be effective for **Uterine Corpus Endometrial Carcinoma** — specifically in early-stage/fertility-sparing settings —
-> with **3 clinical trials** currently identified, one of which is a completed Phase 2 RCT that returned a **negative efficacy result with an increased blood-clot safety signal**, so the evidence should be read as directional, not confirmatory.
+Megestrol acetate is a synthetic progestin, sold in Singapore as oral tablets. The Singapore registration records do not state its approved indication.
+The TxGNN model predicts it may be effective for **uterine corpus endometrial carcinoma**, with **3 clinical trials** and **no publications** retrieved for this indication.
+Progestins are already used as hormonal therapy in endometrial cancer, so this may be closer to an established use than a true repurposing.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not captured in this evidence pack (drug not registered in Singapore); generally known as palliative hormonal therapy for breast/endometrial cancer and cancer-related anorexia-cachexia |
-| Predicted New Indication | Uterine Corpus Endometrial Carcinoma |
+| Original Indication | Not stated in the Singapore registration records |
+| Predicted New Indication | Uterine corpus endometrial carcinoma |
 | TxGNN Prediction Score | 99.94% |
 | Evidence Level | L2 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for Megestrol acetate is not available in this evidence pack (marked as a data gap). Based on the mechanistic rationale supplied alongside the TxGNN prediction, Megestrol acetate acts as a progesterone receptor (PR) agonist. Endometrial adenocarcinoma — particularly the endometrioid histological subtype — is frequently PR-positive, and progestins are known to induce tumour cell differentiation and counteract oestrogen-driven proliferation. This is the classical basis for progestin therapy in gynaecologic oncology, most notably in fertility-sparing treatment of early-stage endometrial cancer.
+Detailed mechanism-of-action data is not available for this record. Megestrol acetate is a synthetic progestin. Progestins can slow the growth of hormone-receptor-positive endometrial tissue and push it toward differentiation. Estrogen drives the growth of many endometrial cancer cells, and progestin therapy works against that stimulation.
 
-Because Megestrol acetate is already used in hormone-responsive gynaecologic malignancies, extending its use to fertility-sparing management of uterine corpus endometrial carcinoma is mechanistically plausible and consistent with existing clinical practice patterns in this disease area.
+Because megestrol is already used as hormonal therapy in endometrial cancer, this prediction may reflect an established use rather than a new one. The original indication and mechanism fields in the record are empty, so this should be checked against the approved label before any repurposing claim is made.
 
-However, the strength of this rationale should be weighed against the actual trial evidence below: the one completed, directly relevant Phase 2 RCT (NCT00729586) did **not** show a benefit from adding Megestrol acetate to therapy and instead flagged a significant increase in venous thromboembolism (VTE) risk. The mechanistic plausibility therefore supports **continued investigation**, not an assumption of proven efficacy.
+The other nine predicted indications are much weaker. Most are supported only by the model score, or only by indirect hormone-receptor rationale. The exception is ovarian cancer, whose retrieved trials mostly concern endometrial cancer. This report focuses on the top-ranked prediction.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00729586](https://clinicaltrials.gov/study/NCT00729586) | Phase 2 | Completed | 73 | Temsirolimus ± Megestrol acetate + Tamoxifen in advanced/recurrent endometrial carcinoma. Verified result: combination arm was **not superior** to control and showed a **significantly increased VTE risk**, leading to early closure of that arm — this is a safety warning signal, not supportive efficacy evidence. |
-| [NCT00503581](https://clinicaltrials.gov/study/NCT00503581) | Phase 2 | Terminated | 9 | Continuous vs. sequential progestin (megestrol) therapy for endometrial intraepithelial neoplasia/atypical endometrial hyperplasia. Directly drug-relevant, but terminated early with only 9 participants — underpowered; directional signal only. |
-| [NCT04046185](https://clinicaltrials.gov/study/NCT04046185) | Early Phase 1 | Unknown | 60 | PD-1 inhibitor combined with progesterone (not confirmed to be Megestrol specifically) vs. progesterone alone, in fertility-sparing treatment of early-stage endometrial cancer. Exploratory combination study; status unknown. |
-
-## Literature Evidence
-
-Currently no related literature available.
+| [NCT00503581](https://clinicaltrials.gov/study/NCT00503581) | Phase 2 | Terminated | 9 | Randomized comparison of continuous vs sequential progestin (megestrol) therapy in endometrial intraepithelial neoplasia or atypical hyperplasia, for patients wanting uterine preservation. It tests the drug class directly, but only 9 patients enrolled, so conclusions are weak. |
+| [NCT00729586](https://clinicaltrials.gov/study/NCT00729586) | Phase 2 | Completed | 73 | Temsirolimus alone vs temsirolimus plus hormonal therapy (megestrol acetate and tamoxifen) in advanced, persistent or recurrent endometrial carcinoma. Megestrol appears to be part of a combination arm rather than the investigational agent. The arm structure needs manual confirmation. |
+| [NCT04046185](https://clinicaltrials.gov/study/NCT04046185) | Early Phase 1 | Unknown | 60 | PD-1 inhibitor plus progesterone vs progesterone alone in early-stage endometrial cancer for patients who want to preserve fertility. It is exploratory, and the contribution of megestrol specifically is unclear. |
 
 ## Singapore Market Information
 
-Megestrol acetate currently has no marketing authorization recorded in Singapore (market status: Not Marketed; 0 registrations on file).
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN10157P | APO-MEGESTROL TABLET 160 mg (Apotex Inc) | Tablet |
+| SIN10156P | APO-MEGESTROL TABLET 40 mg (Apotex Inc) | Tablet |
+
+Both products are oral tablets. The registration records do not state an approved indication.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-*Additional note from clinical trial evidence: the completed Phase 2 trial (NCT00729586) identified a significantly increased risk of venous thromboembolism when Megestrol acetate was combined with temsirolimus/tamoxifen. This should be treated as an active safety signal for any further clinical development in this indication, even though it falls outside the formal `safety.key_warnings` field (which has no data on file).*
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-- The mechanistic basis (PR agonism in a frequently PR-positive tumour type) is sound and consistent with established gynaecologic-oncology practice, and one completed Phase 2 RCT directly tested the drug in this population — meeting the L2 evidence bar. However, that same trial returned a negative efficacy result and a significant VTE safety signal, so further development must proceed cautiously with explicit safety monitoring rather than on an assumption of efficacy.
+The model score is very high, and one completed randomized Phase 2 trial includes a megestrol-containing regimen in endometrial carcinoma. However, that trial's megestrol arm is a combination, and the trial that tests the drug class directly was terminated after 9 patients. No publications were retrieved, so the evidence is moderate at best.
 
 **To proceed, the following is needed:**
-- Formal mechanism of action (MOA) documentation from DrugBank (currently a blocking data gap, DG001/DG002)
-- Singapore/local label warnings and contraindications (currently a blocking data gap, DG001)
-- A dedicated thromboembolism risk-monitoring protocol before any further combination-therapy investigation
-- Clarification of whether NCT04046185's "progesterone" arm specifically uses Megestrol acetate
-- A properly powered follow-up study, given NCT00503581 was terminated with only 9 participants
+- The Singapore package insert (HSA), covering approved indications, warnings and contraindications. The lack of safety data currently blocks safety screening.
+- Mechanism-of-action data, for example from DrugBank.
+- A check of the label to establish whether endometrial cancer is already an approved use, which would make this an established use rather than repurposing.
+- Manual confirmation of the arm structure in NCT00729586.
+- A targeted literature search for megestrol in endometrial carcinoma, since none was retrieved.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

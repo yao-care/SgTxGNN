@@ -29,63 +29,73 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dutasteride: From Benign Prostatic Hyperplasia to Ambras Type Hypertrichosis Universalis Congenita
+# Dutasteride: From a 5-Alpha Reductase Inhibitor (Original Indication Not Listed) to Ambras Type Hypertrichosis Universalis Congenita
 
 ## One-Sentence Summary
 
-Dutasteride is a dual 5α-reductase inhibitor (types 1 and 2), widely used off-label and approved internationally for benign prostatic hyperplasia (BPH) and androgenetic alopecia, though it holds **no Singapore marketing authorisation**.
-The TxGNN model predicts it may be effective for **Ambras Type Hypertrichosis Universalis Congenita** with a near-perfect model score (99.99%), yet **zero clinical trials and zero publications** currently support this specific direction.
-Across all 10 TxGNN-ranked predictions, the model consistently clusters hair and connective tissue disorders — reflecting Dutasteride's known androgen–hair biology link — but mechanistic relevance varies substantially across specific disease subtypes.
+Dutasteride is a 5-alpha reductase inhibitor that lowers dihydrotestosterone (DHT), and its registered indication text is blank in the Singapore records provided.
+The TxGNN model predicts it may be effective for **Ambras type hypertrichosis universalis congenita**, but **0 clinical trials** and **0 publications** support this prediction. It rests on the model score alone, and the mechanistic link is weak.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Benign Prostatic Hyperplasia (BPH); Androgenetic Alopecia (international approvals; no Singapore registration found) |
-| Predicted New Indication | Ambras Type Hypertrichosis Universalis Congenita |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed (0 registrations) |
-| Number of Registrations | 0 |
+|------|------|
+| Original Indication | Not stated (all approved indication fields in the Singapore registration records are blank) |
+| Predicted New Indication | Ambras type hypertrichosis universalis congenita |
+| TxGNN Prediction Score | 99.998% |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 10 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the current Evidence Pack (Data Gap DG002). Based on established pharmacological knowledge, Dutasteride is a dual inhibitor of 5α-reductase isoenzymes type 1 and type 2, blocking the conversion of testosterone to dihydrotestosterone (DHT). This dual inhibition suppresses serum DHT by approximately 90–95% — a more complete reduction than Finasteride, which targets only type 2. Its clinical utility in conditions driven by androgen-dependent tissue responses (prostate enlargement, follicular miniaturisation in androgenetic alopecia) is well-established globally.
+Currently, detailed mechanism of action data is not available from DrugBank in this dataset. The candidate-level analysis notes that dutasteride inhibits 5-alpha reductase types 1 and 2, which lowers DHT. That mechanism is relevant to androgen-driven hair conditions.
 
-Ambras Syndrome (Ambras type hypertrichosis universalis congenita) is a rare congenital disorder caused by a chromosomal inversion at 8q23.3 affecting the TRPS1 gene, resulting in generalised, non-patterned excessive hair growth across the entire body. Critically, this condition is **androgen-independent**: the hair overgrowth is driven by a developmental genetic defect, not by elevated DHT or over-active 5α-reductase activity.
+The link to the predicted indication is weak. Ambras syndrome is a congenital condition caused by chromosomal rearrangements affecting *TRPS1* regulation, and it is not driven by androgens. Blocking DHT has no established rationale for it. The high score most likely reflects hair-phenotype proximity in the knowledge graph rather than a therapeutic rationale.
 
-The extremely high TxGNN prediction score (99.99%, rank 102) most likely reflects knowledge-graph path connectivity along the route "hair disorder → DHT pathway → 5α-reductase inhibitor" rather than a true disease-specific mechanism. Since Ambras Syndrome does not involve androgen excess or signalling dysregulation, inhibiting 5α-reductase provides no direct therapeutic rationale for this genetically-defined condition. This prediction is assessed as a likely false positive arising from imprecise disease categorisation within the knowledge graph.
+Other top-ranked predictions show the same pattern:
+- **Hair-related conditions** (hypertrichosis, hair shaft abnormality, hypotrichosis simplex, congenital hypotrichosis milia, trichomegaly): these are mostly genetic, non-androgen-mediated disorders, and there is no supporting evidence for any of them.
+- **Diffuse alopecia areata (rank 8)**: this is the only prediction with any indirect signal (Evidence Level L4, "Research Question"). The one retrieved item is a review of androgenetic alopecia in women, a different alopecia type. Alopecia areata is autoimmune, so the mechanism does not transfer directly.
+- **Unrelated developmental or neurological conditions** (Dandy-Walker syndrome, migraine with brainstem aura, odontal/periodontal malformation): no plausible mechanism. The 20 periodontitis papers retrieved for the periodontal malformation prediction never mention dutasteride, so they are a keyword match and not evidence.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Ambras Type Hypertrichosis Universalis Congenita and Dutasteride.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available for Ambras Type Hypertrichosis Universalis Congenita and Dutasteride.
+Currently no related literature available.
 
 ---
 
 ## Singapore Market Information
 
-Dutasteride is currently **not registered in Singapore**. No marketing authorisations have been identified in the regulatory database. Patients requiring Dutasteride-containing products would need to access them through special import or unregistered drug channels.
+The table lists 5 of the 10 registrations. The other 5 were not provided in the Evidence Pack.
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN16448P | DUTABIT 0.5 SOFT CAPSULES 0.5MG | Capsule, liquid filled | Not stated in registration record |
+| SIN15882P | RAFUSTER SOFT CAPSULES 0.5 MG | Capsule, liquid filled | Not stated in registration record |
+| SIN15563P | INTASTERIDE SOFT CAPSULE 0.5MG | Capsule, liquid filled | Not stated in registration record |
+| SIN16476P | ARIPSA SOFT CAPSULES 0.5MG | Capsule, liquid filled | Not stated in registration record |
+| SIN15590P | DUTASVITAE SOFT CAPSULE 0.5MG | Capsule, liquid filled | Not stated in registration record |
+
+All listed products are oral formulations.
 
 ---
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-> **Note:** Safety data (key warnings, contraindications) were not available in this Evidence Pack (Data Gap DG001 — package insert not retrieved). No drug–drug interaction records were identified in the DDI database query. Before any clinical use or trial planning, a full safety review against the international label (e.g., Avodart SmPC/USPI) is mandatory.
 
 ---
 
@@ -94,16 +104,16 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-Despite an extremely high TxGNN model score (99.99%), the mechanistic basis for Dutasteride in Ambras Type Hypertrichosis Universalis Congenita is non-existent — the disease is caused by a TRPS1 chromosomal inversion unrelated to androgen signalling, and there is no supporting clinical trial or published literature evidence. This prediction is most likely a knowledge-graph artefact.
+The prediction has a very high model score, but no clinical trials or literature support it. The mechanism (DHT suppression) does not fit a congenital, non-androgen-dependent condition. Safety and indication data from the Singapore package inserts are also missing.
 
 **To proceed, the following is needed:**
+- HSA package insert warnings, contraindications and approved indications (currently blocking any safety screening)
+- Mechanism of action data from DrugBank to support mechanistic-link analysis
+- Genetic and mechanistic review of Ambras syndrome (*TRPS1*-related) to test whether any androgen-pathway role exists
+- Evaluation of diffuse alopecia areata (rank 8) as a separate research question, with differential diagnosis and immune-mediated pathways reviewed first
+- Route compatibility and similarity-to-original assessments, which are still pending
 
-- Retrieve full safety data from the Dutasteride package insert (TFDA or international SmPC/USPI) to close Data Gap DG001 (Blocking severity)
-- Retrieve complete MOA data from the DrugBank API to close Data Gap DG002 (High severity)
-- Conduct a formal Singapore HSA regulatory pathway assessment before any local clinical use
-- **Prioritise re-evaluation of Rank 8 (Diffuse Alopecia Areata / Female Androgenetic Alopecia, Evidence Level L4)**: the retrieved literature (PMID [41714473](https://pubmed.ncbi.nlm.nih.gov/41714473/), 2026 narrative review of AGA in women) provides indirect mechanistic support for Dutasteride's off-label use in female androgenetic alopecia — a clinically distinct and more mechanistically plausible target; if the disease classification is confirmed as androgenetic rather than autoimmune alopecia areata, the evidence level could be upgraded to L3–L2 and the recommendation revised to **Proceed with Guardrails**
-- For Rank 2 (Hypertrichosis, general), clarify whether the target subtype is androgenic (Hirsutism) — if so, a limited mechanistic rationale exists and further literature search is warranted
-- All remaining ranked predictions (Ranks 1, 3–7, 9–10) involve either genetic structural defects, developmental malformations, or neurological disorders with no plausible androgen-axis connection; these are recommended for **permanent Hold** unless new biological evidence emerges
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

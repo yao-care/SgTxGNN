@@ -29,82 +29,77 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Guaifenesin: From Expectorant (Cough & Congestion) to Nasal Cavity Disease
+# Guaifenesin: From Cough and Mucus Congestion to Nasal Cavity Disease
 
 ## One-Sentence Summary
 
-Guaifenesin is a well-established expectorant traditionally used for symptomatic relief of cough and chest congestion by reducing airway mucus viscosity. The TxGNN model predicts it may be effective for **Nasal Cavity Disease** (including chronic rhinitis and sinusitis), with **1 clinical trial** and **2 publications** currently supporting this direction. The mechanistic rationale is strong due to direct overlap between guaifenesin's mucolytic action and the pathological core of nasal cavity disease, though the evidence base remains limited in volume and requires further validation.
-
----
+Guaifenesin is an oral expectorant that thins airway mucus. In Singapore it is sold mainly as cough syrups and an extended-release tablet.
+The TxGNN model predicts it may be effective for **nasal cavity disease**, and support so far is limited to **1 completed Phase 2 pilot trial** and **2 older narrative reviews**.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Expectorant for cough and chest congestion |
-| Predicted New Indication | Nasal Cavity Disease |
+|------|------|
+| Original Indication | Not stated in the Singapore registration records. Product names (cough syrups) suggest cough and chest congestion. |
+| Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 99.98% |
 | Evidence Level | L3 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 18 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Guaifenesin (guaiacol glyceryl ether) is an expectorant that acts by stimulating secretory cells of the respiratory mucosa to increase the output of respiratory tract fluid, thereby reducing mucus viscosity and adhesiveness and facilitating ciliary clearance. Detailed pharmacological MOA data from DrugBank was not retrieved in this evidence pack. However, the in vitro mechanistic study by Seagrave et al. (PMID 23113953, 2012) directly demonstrated in primary human tracheal-bronchial epithelial cells that guaifenesin suppresses MUC5AC mucin expression and significantly improves mucociliary transport rate — representing the highest-quality mechanistic evidence currently available.
+Currently, detailed mechanism of action data is not available from DrugBank. Guaifenesin is known as an expectorant that thins and loosens airway mucus. Its efficacy for chest congestion is the basis of its market use, and it may be mechanistically applicable to mucus-driven upper airway conditions.
 
-Nasal cavity disease — encompassing chronic rhinitis, sinusitis, and related conditions — shares a core pathological feature with guaifenesin's established respiratory indication: mucociliary dysfunction and mucus stasis. In chronic rhinitis and sinusitis, thickened, poorly cleared secretions perpetuate mucosal inflammation and obstruction; guaifenesin's ability to reduce secretion viscosity and enhance ciliary transport directly targets this underlying mechanism. The mechanistic bridge is therefore not inferential but demonstrably direct.
+Nasal cavity diseases such as chronic rhinitis and sinusitis involve thick or excess secretions. Reducing mucus viscosity could plausibly ease symptoms there. The link is indirect, however. It rests on general mucus-clearing action, not on a demonstrated effect in nasal tissue.
 
-The most compelling clinical signal is NCT01364467, a completed Phase 2 pilot randomised controlled trial investigating oral guaifenesin specifically in paediatric chronic rhinitis. Supporting literature further documents clinical use of guaifenesin-containing regimens in cystic fibrosis–related sinusitis and in voice users with nasal allergic disease, corroborating real-world clinical relevance of this mechanistic connection across multiple upper-airway disease contexts.
-
----
+Other predictions in the pack show the range of signal quality. Tracheal disease has in vitro support, in which guaifenesin modulated MUC5AC mucin and mucociliary transport in human airway cells (PMID 23113953). Several other high-scoring predictions have no plausible mechanism and no evidence, and look like knowledge-graph artifacts. Faucial diphtheria and papillary conjunctivitis are examples.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT01364467](https://clinicaltrials.gov/study/NCT01364467) | Phase 2 | Completed | 30 | 14-day randomised, placebo-controlled, parallel-group trial of oral guaifenesin for chronic rhinitis in children aged 7–18. Primary endpoints include nasal symptom relief (SN-5 survey), nasal airway volume, and biophysical properties of nasal secretions. Direct and highly relevant to the TxGNN prediction; however, pilot study design and small sample size (n=30) limit statistical power and generalisability. Results require cautious interpretation pending a larger replication study. |
-
----
+|---------|------|------|------|---------|
+| [NCT01364467](https://clinicaltrials.gov/study/NCT01364467) | Phase 2 | Completed | 30 | 14-day placebo-controlled pilot of oral guaifenesin in children aged 7–18 with chronic rhinitis. Outcomes are symptom score (SN-5), nasal airway volume and nasal secretion properties. No results are provided in the record. |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [9065342](https://pubmed.ncbi.nlm.nih.gov/9065342/) | 1997 | Review / Clinical Guidance | American Journal of Rhinology | Clinical management recommendations for chronic sinusitis in adult cystic fibrosis patients (22 patients, 8 surgical). Documents use of mucolytic agents including guaifenesin as part of sinusitis management, providing indirect clinical support for its nasal application in a mucus-overproduction context. |
-| [12487405](https://pubmed.ncbi.nlm.nih.gov/12487405/) | 2002 | Expert Review | Logopedics, Phoniatrics, Vocology | Treatment strategies for allergic respiratory conditions in professional voice users. Recommends decongestants combined with guaifenesin as a clinically preferred option over antihistamines for managing nasal secretion burden, supporting real-world utility in upper-airway allergic/inflammatory disease. |
-
----
+|------|-----|------|------|---------|
+| [9065342](https://pubmed.ncbi.nlm.nih.gov/9065342/) | 1997 | Review | American Journal of Rhinology | Management of chronic sinusitis in 22 adults with cystic fibrosis, with management recommendations. Guaifenesin's role is not established by this report. |
+| [12487405](https://pubmed.ncbi.nlm.nih.gov/12487405/) | 2002 | Review | Logopedics, Phoniatrics, Vocology | Treatment strategies for allergic voice users. It notes that decongestants containing guaifenesin may be useful. |
 
 ## Singapore Market Information
 
-Guaifenesin currently has **no registered products** with the Health Sciences Authority (HSA) in Singapore and is not commercially marketed in this jurisdiction. Compassionate use or importation arrangements would need to be assessed if clinical development is pursued.
+18 registrations in total. The registration records do not include approved indication text. The five main ones are:
 
----
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|------|
+| SIN08969P | Cough Relief Syrup 100 mg/5 ml | Syrup | Syarikat Wen Ken Drug Sdn Bhd |
+| SIN08411P | Breacol Cough Syrup 100 mg/5 ml | Syrup | PT. Menarini Indria Laboratories |
+| SIN06725P | Woods' Peppermint Cough Syrup 100 mg/5 ml | Syrup | DCH Contract Manufacturing Sdn. Bhd. |
+| SIN14588P | Mucinex Extended Release Tablets 600 mg | Tablet, extended release | Reckitt Benckiser Healthcare International Limited |
+| SIN15653P | Woods' Peppermint Cough Syrup for Children 50 mg/5 ml | Liquid | DCH Contract Manufacturing Sdn Bhd |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
-> **Note:** TFDA package insert warnings, contraindications, and drug interaction data were not available in this evidence pack. Obtaining full safety documentation is a blocking prerequisite before any S1 safety evaluation can proceed.
-
----
-
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Guaifenesin's mucolytic mechanism directly and demonstrably addresses the core pathological feature of nasal cavity disease, and one completed Phase 2 pilot RCT (NCT01364467) provides proof-of-concept clinical evidence specifically in paediatric chronic rhinitis. The biological rationale is among the strongest in the predicted indication set. However, the sole clinical trial is a small-sample pilot study, the drug is not currently registered in Singapore, and critical safety data (package insert warnings, contraindications) remain unavailable.
+The model score is very high, and the mechanism is biologically plausible for mucus-related nasal conditions. The direct clinical evidence is one small, completed pilot trial with no posted results, plus two narrative reviews. Package insert safety information has not been obtained, which blocks safety screening. The evidence supports keeping this as a research question and not a treatment recommendation.
 
 **To proceed, the following is needed:**
-- **Safety data retrieval (Blocking):** Download and parse the product monograph/package insert (TFDA or equivalent) to obtain warnings, contraindications, and special population guidance before S1 safety evaluation
-- **Mechanistic data confirmation:** Obtain DrugBank MOA entry (DB00874) to formally document mechanism of action for regulatory submissions
-- **Larger clinical evidence:** Design or identify a Phase 2/3 RCT in adult and paediatric chronic rhinitis/sinusitis populations to replicate and expand on NCT01364467 with adequate statistical power
-- **Systematic literature review:** Conduct a comprehensive search across non-English sources (e.g., European and Asian registries) to capture any additional unpublished or regional evidence
-- **Singapore regulatory pathway assessment:** Evaluate HSA requirements for first-in-Singapore registration or clinical trial authorisation, given zero existing registrations
+- Results of NCT01364467 (from the registry or publication). Confirm the randomization and blinding design, and the enrollment figure, since the record lists 30 participants while the summary text mentions 36 children. If it proves to be a randomized trial with reported outcomes, the evidence level could be reassessed toward L2.
+- Package insert warnings and contraindications from the HSA website.
+- Mechanism of action data from DrugBank.
+- Confirmation of the Singapore approved indications, which are missing from the registration records.
+- Dose and duration in children and adults, and a check of route compatibility (oral) for the target condition.
+
+*These results are for research reference only and do not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

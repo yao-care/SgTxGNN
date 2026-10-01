@@ -33,9 +33,9 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-> Safinamide is a selective, reversible MAO-B inhibitor with additional sodium/calcium channel-mediated glutamate-release inhibition, originally developed as an adjunct treatment for Parkinson's disease.
-> The TxGNN model predicts it may be effective for **Rasmussen Subacute Encephalitis**,
-> but currently **no clinical trials** and **no published literature** support this specific direction.
+Safinamide is an oral add-on therapy for Parkinson's disease. It acts through reversible MAO-B inhibition plus non-dopaminergic effects.
+The TxGNN model predicts it may be effective for **Rasmussen subacute encephalitis**, but **no clinical trials and no publications** were found to support this prediction.
+It is a model-only signal (evidence level L5) and should be treated as a hypothesis.
 
 ---
 
@@ -43,41 +43,49 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Parkinson's Disease (adjunct therapy) — inferred from known pharmacological classification; no structured Singapore label data available |
-| Predicted New Indication | Rasmussen Subacute Encephalitis |
+| Original Indication | Parkinson's disease (add-on therapy). This comes from the drug's known use, not from the Singapore license text, which is blank |
+| Predicted New Indication | Rasmussen subacute encephalitis |
 | TxGNN Prediction Score | 99.63% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known pharmacological classification, Safinamide is a selective MAO-B inhibitor that also inhibits voltage-gated sodium/calcium channels and reduces excessive glutamate release. Its efficacy as an adjunct therapy in Parkinson's disease has been established, and mechanistically its anti-excitotoxic properties could theoretically extend to conditions involving neuronal hyperexcitability.
+Detailed mechanism-of-action data is not available in the Evidence Pack. Safinamide is known to inhibit MAO-B reversibly. It also blocks voltage-gated sodium channels and modulates glutamate release. In theory, the last two actions could touch the excitotoxic and seizure components of Rasmussen encephalitis.
 
-However, Rasmussen subacute encephalitis is primarily driven by an autoimmune/neuroinflammatory process rather than dopaminergic deficiency or glutamate-mediated excitotoxicity alone. The knowledge-graph-derived rationale itself flags this link as indirect at best, with no direct mechanistic pathway connecting MAO-B inhibition to the underlying autoimmune inflammation of Rasmussen encephalitis.
+The link is weak, though. Rasmussen encephalitis is an immune-mediated disease driven by T-cell inflammation, and MAO-B inhibition does not address that process. The high TxGNN score is a knowledge-graph signal, not clinical evidence. At most, safinamide might offer symptomatic or neuroprotective support, not disease modification.
 
-It is worth noting that other candidates further down the prediction list — such as **paralysis agitans, juvenile, of Hunt** (rank 6) and **Lewy body dementia** (rank 7) — show substantially stronger mechanistic coherence with Safinamide's known dopaminergic/MAO-B pathway, since both involve parkinsonian and dopaminergic neurodegeneration. These may warrant closer review even though they were not the top-ranked prediction.
+The other nine predictions in the set are also model-only. Two have a clearer mechanistic rationale than the top-ranked disease:
+- **Juvenile paralysis agitans (Hunt)** has a parkinsonian phenotype, so the prediction can be seen as an extrapolation from the adult Parkinson's indication.
+- **Lewy body dementia** shares alpha-synuclein pathology and dopaminergic deficit with Parkinson's disease. Dopaminergic agents may worsen psychosis in this population, so cognitive and psychiatric effects are uncertain.
+
+Both are flagged as research questions rather than candidates for development.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
 
 ---
 
 ## Singapore Market Information
 
-Safinamide currently holds no product registrations in Singapore (0 licenses on file); no marketing authorization data is available for review.
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN16615P | EQUFINA FILM-COATED TABLET 50MG | Tablet, film coated (oral) |
+
+The approved indication text is not stated in the registration record.
 
 ---
 
@@ -92,13 +100,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (Rasmussen subacute encephalitis) is supported only by a model score with no corroborating clinical trials or literature, and the proposed mechanistic link (MAO-B/anti-excitotoxic activity vs. autoimmune encephalitis) is weak. This falls squarely into evidence level L5 with no path to a near-term Go decision.
+The prediction rests on a model score alone. There are no trials or publications, and the proposed mechanism does not fit an immune-mediated encephalitis. The package insert has not been reviewed, so the safety screen cannot start.
 
 **To proceed, the following is needed:**
-- Mechanism of action (MOA) data from DrugBank or primary literature (currently a Blocking data gap)
-- TFDA/HSA label warnings and contraindications to complete the S1 safety screen (currently a Blocking data gap)
-- Targeted literature/preclinical search on Safinamide in autoimmune or inflammatory CNS conditions
-- Re-evaluation of higher-mechanistic-plausibility candidates further down the ranked list (e.g., juvenile parkinsonism, Lewy body dementia) before committing resources to the top-ranked but mechanistically weaker prediction
+- The HSA package insert (warnings and contraindications), downloaded and parsed
+- The approved indication text for SIN16615P, so the original indication is confirmed from the Singapore label
+- Mechanism-of-action data from DrugBank
+- A targeted literature and trial-registry search for safinamide in Rasmussen encephalitis
+- A separate evidence search for juvenile parkinsonism and Lewy body dementia, the two mechanistically closer predictions
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -29,37 +29,39 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Isavuconazole: From Invasive Fungal Infections to Migraine Disorder
+# Isavuconazole: From Antifungal Therapy to Migraine Disorder
 
 ## One-Sentence Summary
 
-Isavuconazole is a broad-spectrum triazole antifungal approved in multiple international jurisdictions for invasive aspergillosis and mucormycosis, working by inhibiting the fungal enzyme CYP51 to disrupt cell membrane synthesis.
-The TxGNN model predicts it may be effective for **Migraine Disorder** with a score of 98.99%; however, there are currently **0 clinical trials** and **0 publications** directly supporting this repurposing direction.
-The mechanistic rationale is absent, and the high prediction score is most likely a knowledge graph topology artifact — this candidate should be placed on **Hold** pending fundamental pharmacological review.
+Isavuconazole is an azole antifungal, and the registration data supplied do not state its approved indication text.
+The TxGNN model predicts it may be effective for **migraine disorder**, but **0 clinical trials** and **0 publications** support this prediction.
+The prediction is a graph-based signal only and has no mechanistic or clinical backing.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Invasive aspergillosis; mucormycosis (approved in other jurisdictions; not registered in Singapore) |
-| Predicted New Indication | Migraine Disorder |
+|------|------|
+| Original Indication | Not stated in the Singapore registration data (drug class: azole antifungal) |
+| Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 98.99% |
-| Evidence Level | L5 |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Isavuconazole (administered as the prodrug isavuconazonium sulfate) is a third-generation triazole antifungal. Although a formal MOA data entry was not available in this Evidence Pack, isavuconazole's established mechanism involves selective inhibition of the fungal cytochrome P450 enzyme CYP51 (lanosterol 14α-demethylase), thereby blocking ergosterol biosynthesis and disrupting fungal cell membrane integrity. It is approved in the US, EU, and Japan for invasive aspergillosis and mucormycosis, with activity spanning *Aspergillus*, *Mucorales*, and select *Candida* species.
+Currently, detailed mechanism of action data is not available in the input. Based on known information, isavuconazole is an azole antifungal that inhibits fungal CYP51 and is a moderate CYP3A4 inhibitor. Nothing in this profile connects it to migraine pathophysiology.
 
-Migraine is a complex neurological disorder driven by trigeminovascular activation, CGRP (calcitonin gene-related peptide) release, cortical spreading depression (CSD), and central sensitisation. These mechanisms operate entirely within the human nervous and vascular systems and share no known biological intersection with fungal ergosterol metabolism or CYP51 inhibition.
+The high TxGNN score (0.99) reflects proximity in the knowledge graph, not drug-specific biology. No shared target, pathway or pharmacological effect linking an antifungal to migraine was identified.
 
-Critically, the TxGNN model's very high score (0.990) for this pairing is most likely a **knowledge graph topology artifact**: the absence of registered original indications in the source data (`original_indications: []`) may have stripped the drug node of its anchor associations, causing the model to generate biologically implausible high-scoring links. No scientific rationale currently supports isavuconazole as a candidate for migraine treatment.
+The other top-10 predictions are also unsupported. They include migraine with brainstem aura, pulmonary hypertension, rheumatoid arthritis and Prinzmetal angina.
+- The only trial found across them (NCT04680884) studies empirical steroids and/or antifungals for acute respiratory failure in immunocompromised patients. It is not about pulmonary hypertension.
+- The only relevant publication (PMID 37597857) is a case report of histoplasmosis in a patient with rheumatoid arthritis. It shows antifungal use in an immunosuppressed patient, not any effect on RA itself.
 
 ---
 
@@ -75,11 +77,20 @@ Currently no related literature available.
 
 ---
 
+## Singapore Market Information
+
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN15716P | CRESEMBA CAPSULES 100MG | Capsule (oral) | SwissCo Services AG |
+| SIN15717P | CRESEMBA POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 200MG | Lyophilised powder for injection (intravenous) | Baxter Pharmaceutical Solutions, LLC |
+
+Both oral and injectable forms are available. The approved indication text is not included in the supplied data.
+
+---
+
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-> **Note for reviewers:** Isavuconazole is a potent **CYP3A4 inhibitor**. Although formal DDI data was not retrieved in this Evidence Pack, this property is clinically significant and would interact with a wide range of co-medications (e.g., calcium channel blockers used in Prinzmetal angina, pulmonary hypertension drugs such as riociguat and macitentan). Any downstream repurposing evaluation must assess DDI risk as a priority safety item.
 
 ---
 
@@ -88,19 +99,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN prediction for isavuconazole in migraine disorder is not biologically plausible — there is no mechanistic link between fungal CYP51 inhibition and trigeminovascular pathophysiology, and zero clinical or published evidence exists. The high prediction score reflects a model artifact rather than a genuine repurposing signal. Isavuconazole is also not currently registered in Singapore, adding a regulatory barrier to any development pathway.
+The prediction rests on a model score alone (L5), with no trials, no drug-specific literature and no plausible mechanism linking an azole antifungal to migraine. The required safety information is also missing.
 
-**To proceed with any further evaluation, the following is needed:**
-
-- **Restore original indication data**: Retrieve and confirm approved indications and MOA from DrugBank (DB11633) or an official package insert to eliminate knowledge graph input bias
-- **Re-run TxGNN** with corrected drug node context to assess whether migraine remains a high-ranking prediction after model correction
-- **Prioritise mechanistically plausible candidates**: Among the top-10 predictions, rank 4 (pulmonary hypertension) carries an indirect but reviewable biological rationale (fungal infection → pulmonary vascular inflammation → secondary PH), and rank 6 (rheumatoid arthritis) has a documented case report of isavuconazole use in an RA patient — both warrant deeper investigation before migraine
-- **Singapore regulatory pathway**: Initiate a pre-submission inquiry with HSA if any indication reaches L2 evidence level or higher, given the drug's current zero-registration status
-- **DDI safety assessment**: Commission a formal CYP3A4 DDI evaluation relevant to any target indication before clinical consideration
-
----
-
-> ⚠️ *This report is for research reference only and does not constitute medical advice. Drug repurposing candidates require clinical validation before any therapeutic application.*
+**To proceed, the following is needed:**
+- The HSA package insert (warnings, contraindications, approved indications) for safety screening
+- Detailed mechanism of action data from DrugBank
+- A plausible mechanistic link between isavuconazole and migraine, or preclinical evidence
+- Any drug-specific clinical or literature evidence for migraine
+- A drug-interaction review, given its CYP3A4 inhibition and the likely use of migraine co-medications
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

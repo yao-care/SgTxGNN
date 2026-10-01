@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Busulfan
-parent: High Evidence (L1-L2)
+parent: Low Evidence (L5)
 nav_order: 185
-evidence_level: L1
+evidence_level: L5
 indication_count: 10
 ---
 
 # Busulfan
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,122 +29,108 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Busulfan: From Chronic Myeloid Leukemia to Myelodysplastic Syndrome
+# Busulfan: From Transplant Conditioning in Hematologic Malignancies to Myelodysplastic Syndrome
 
 ## One-Sentence Summary
 
-Busulfan is a bifunctional alkylating agent classically used for chronic myeloid leukemia (CML) and now widely adopted internationally as the backbone conditioning agent before allogeneic hematopoietic stem cell transplantation (allo-HSCT).
-The TxGNN model predicts it may be effective for **Myelodysplastic Syndrome (MDS)**, supported by **multiple completed Phase 3 RCTs** and **20 publications** — including two landmark trials published in *The Lancet Haematology* — establishing the highest evidence level (L1) for this indication.
-Despite strong international evidence, busulfan is currently not registered in Singapore, representing a critical access gap for eligible patients.
-
----
+Busulfan is a DNA-alkylating chemotherapy drug. It is established as a myeloablative conditioning agent before stem cell transplantation in hematologic malignancies, and no approved indication text is available in the Singapore records.
+The TxGNN model predicts it may be effective for **Myelodysplastic Syndrome (MDS)**, where it acts as the conditioning backbone before allogeneic transplant, not as stand-alone treatment.
+**50 clinical trials** and **20 publications** currently support this direction.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Chronic myeloid leukemia (CML); HSCT conditioning (not registered in Singapore) |
-| Predicted New Indication | Myelodysplastic Syndrome (MDS) |
+|------|------|
+| Predicted New Indication | Myelodysplastic syndrome (as conditioning before allogeneic HSCT) |
 | TxGNN Prediction Score | 99.62% |
-| Evidence Level | L1 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L1 (≥2 completed Phase 3 RCTs including busulfan-containing arms, e.g. NCT00469144, NCT00005866; see note below) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
 | Recommended Decision | Proceed with Guardrails |
 
----
+> Note: the source pack pre-scored this candidate as L2. Applying the level rules directly, at least two completed Phase 3 randomized trials in MDS contain busulfan regimens. Those trials compare conditioning regimens; none tests busulfan against no busulfan. The guardrails decision reflects this.
 
 ## Why is This Prediction Reasonable?
 
-Busulfan is a bifunctional bis-alkylsulfonate that covalently cross-links DNA strands by alkylating the N7 position of guanine. This mechanism selectively destroys rapidly dividing haematopoietic progenitor cells — including the abnormal clonal stem cells that define MDS — while sparing most non-haematopoietic tissues at conditioning doses. The drug can be calibrated across a spectrum: myeloablative conditioning (MAC, typically Flu/Bu4 or BuCy) eradicates the MDS clone completely, while reduced-intensity conditioning (RIC, Flu/Bu2) achieves sufficient immunosuppression for donor engraftment in older or comorbid patients who cannot tolerate full myeloablation.
+Currently, detailed mechanism of action data is not available. Based on known information, busulfan is a DNA-alkylating, myeloablative agent. Its role in hematologic malignancies is to clear the patient's bone marrow and suppress the immune system before donor stem cells are infused.
 
-MDS and CML share a common denominator: both originate from clonal haematopoietic stem cell dysfunction. In CML, the BCR-ABL fusion drives proliferation; in MDS, somatic mutations in genes such as *SF3B1*, *TET2*, *ASXL1*, and *TP53* cause dysplastic, ineffective haematopoiesis and risk of leukaemic transformation. Allo-HSCT with busulfan-based conditioning addresses MDS by simultaneously clearing the abnormal clone, creating marrow space, and enabling a donor graft-versus-MDS immune effect. This mechanistic logic is identical to busulfan's established role in CML transplantation, making the TxGNN prediction biologically coherent rather than speculative.
+For MDS, allogeneic stem cell transplantation is the only potentially curative treatment. It is the standard of care for eligible higher-risk patients (2025 review, PMID 40079242). Busulfan, usually combined with fludarabine or cyclophosphamide, is a common conditioning backbone. The prediction therefore reflects this transplant-conditioning role, not disease-modifying activity when busulfan is given alone.
 
-The prediction is strongly validated by clinical practice. The Phase 3 MC11 trial (*Lancet Haematology*, PMID 31606445, n=476) used busulfan+fludarabine as the **standard-of-care comparator arm** in older/comorbid AML and MDS patients undergoing allo-HSCT — confirming its reference status. A second Phase 3 RCT (*Lancet Haematology*, PMID 36702138) demonstrated that adding G-CSF and decitabine to the BUCY backbone significantly reduced MDS relapse rates, further cementing busulfan as the conditioning foundation. The 99.62% TxGNN score is therefore not a novel discovery but a correct identification of an already well-established, internationally-accepted application that simply lacks regulatory approval in Singapore.
-
----
+Several trials in MDS and secondary AML test busulfan-based regimens directly. They include busulfan + cyclophosphamide with decitabine, busulfan + fludarabine, and venetoclax-enhanced BuCy. Any new use therefore has to be assessed within the transplant setting.
 
 ## Clinical Trial Evidence
 
+The 10 most relevant of 50 retrieved trials are listed below.
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT05823714](https://clinicaltrials.gov/study/NCT05823714) | Phase 2 | Unknown | 70 | Venetoclax + Azacytidine bridge therapy followed by modified BUCY (busulfan + cyclophosphamide) conditioning for high-risk MDS and R/R AML undergoing allo-HSCT; evaluates the complete bridging-to-conditioning clinical pathway |
-| [NCT07183878](https://clinicaltrials.gov/study/NCT07183878) | Randomized | Recruiting | 138 | Prospective multicenter RCT comparing Venetoclax-enhanced BUCY versus standard BUCY conditioning in high-risk AML/MDS before allo-HSCT; 1:1 randomization, primary endpoint OS |
-| [NCT00629798](https://clinicaltrials.gov/study/NCT00629798) | Phase 2 | Completed | 64 | Busulfan + Melphalan + Fludarabine with peri-transplant palifermin (mucosal protection) followed by T-cell depleted allo-HSCT for advanced MDS and AML; directly tests busulfan-containing conditioning with adequate sample and complete follow-up |
-| [NCT02793544](https://clinicaltrials.gov/study/NCT02793544) | Phase 2 | Completed | 80 | Multi-centre HLA-mismatched unrelated donor BMT with post-transplant cyclophosphamide (PTCy) for haematologic malignancies including MDS; demonstrates busulfan conditioning feasibility in mismatched-donor setting |
-| [NCT00301834](https://clinicaltrials.gov/study/NCT00301834) | Phase 2 | Completed | 35 | Fludarabine + Busulfan + Alemtuzumab reduced-toxicity ablative regimen for paediatric patients with MDS and marrow failure syndromes; specifically evaluates busulfan in the paediatric MDS transplant context |
-| [NCT03412409](https://clinicaltrials.gov/study/NCT03412409) | Phase 2 | Recruiting | 50 | RIC regimen for elderly or high-comorbidity burden patients receiving haploidentical HSCT; targets the population with greatest clinical unmet need where transplant-related mortality is the primary concern |
-| [NCT00469144](https://clinicaltrials.gov/study/NCT00469144) | Phase 3 | Completed | 233 | Randomized Phase 3 comparing PK-guided (AUC-targeted) once-daily IV busulfan versus fixed-dose busulfan combined with fludarabine for AML/MDS; establishes therapeutic drug monitoring (TDM) as the standard approach to optimize efficacy and reduce toxicity |
-| [NCT06829472](https://clinicaltrials.gov/study/NCT06829472) | Phase 3 | Recruiting | 120 | Randomized Phase 3 comparing Melphalan 100 mg/m² versus 140 mg/m² within the Melphalan-Busulfan-Fludarabine (MBF) conditioning platform for AML/MDS; refines dosing to reduce toxicity without compromising disease control |
-| [NCT04713956](https://clinicaltrials.gov/study/NCT04713956) | Phase 2/3 | Unknown | 242 | Prospective study evaluating G-CSF + Decitabine + BUCY versus G-CSF + Decitabine + BF conditioning specifically in RAEB-1, RAEB-2 and secondary AML evolving from MDS; large sample, MDS-specific design |
-| [NCT05453552](https://clinicaltrials.gov/study/NCT05453552) | Phase 2/3 | Unknown | 242 | Parallel prospective study evaluating the same G-CSF + Decitabine + BUCY versus G-CSF + Decitabine + BF comparison focused on high-risk MDS; complements NCT04713956 with expanded MDS scope |
-
----
+| [NCT00469144](https://clinicaltrials.gov/study/NCT00469144) | Phase 3 | Completed | 233 | Once-daily IV busulfan dosed by blood levels + fludarabine vs fixed dosing, in AML/MDS transplant |
+| [NCT00005866](https://clinicaltrials.gov/study/NCT00005866) | Phase 3 | Completed | 240 | Busulfan-TBI vs cyclophosphamide-TBI in advanced MDS or MDS-related AML (HLA-identical sibling PBSC transplant) |
+| [NCT06829472](https://clinicaltrials.gov/study/NCT06829472) | Phase 3 | Recruiting | 120 | Melphalan-busulfan-fludarabine: melphalan 100 vs 140 mg/m² in adult AML/MDS |
+| [NCT04713956](https://clinicaltrials.gov/study/NCT04713956) | Phase 2/3 | Unknown | 242 | G-CSF + decitabine + BuCy vs + BF conditioning in RAEB-1/2 and MDS-secondary AML |
+| [NCT05453552](https://clinicaltrials.gov/study/NCT05453552) | Phase 2/3 | Unknown | 242 | Same comparison in high-risk MDS undergoing allo-HSCT |
+| [NCT03412409](https://clinicaltrials.gov/study/NCT03412409) | Phase 2 | Recruiting | 50 | Reduced-intensity conditioning in elderly or high-comorbidity patients receiving haploidentical HSCT |
+| [NCT05823714](https://clinicaltrials.gov/study/NCT05823714) | Phase 2 | Unknown | 70 | Venetoclax + azacitidine followed by modified BUCY conditioning in high-risk MDS/AML |
+| [NCT06247917](https://clinicaltrials.gov/study/NCT06247917) | Phase 2 | Unknown | 59 | Single-arm FLU-BU-MEL conditioning for allo-HSCT in MDS (MDS-EB or intermediate to very-high-risk IPSS-R) |
+| [NCT00629798](https://clinicaltrials.gov/study/NCT00629798) | Phase 2 | Completed | 64 | Busulfan/melphalan/fludarabine + palifermin, T-cell-depleted transplant in advanced MDS/AML |
+| [NCT00054340](https://clinicaltrials.gov/study/NCT00054340) | Phase 1/2 | Completed | Not reported | Targeted busulfan, cyclophosphamide and thymoglobulin conditioning for MDS and myeloproliferative disorders |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [36702138](https://pubmed.ncbi.nlm.nih.gov/36702138/) | 2023 | RCT | The Lancet Haematology | Phase 3 open-label multicentre RCT: G-CSF + decitabine + BUCY significantly reduced relapse vs. BUCY alone in MDS-RAEB and secondary AML patients undergoing allo-HSCT; establishes enhanced BUCY as superior conditioning platform |
-| [31606445](https://pubmed.ncbi.nlm.nih.gov/31606445/) | 2020 | Phase 3 RCT | The Lancet Haematology | MC11 Trial (n=476): treosulfan non-inferior to busulfan + fludarabine in older/comorbid AML and MDS patients; formally validates busulfan+fludarabine as the international reference standard for RIC conditioning in this population |
-| [35617104](https://pubmed.ncbi.nlm.nih.gov/35617104/) | 2022 | RCT Final Analysis | American Journal of Hematology | Final analysis of the Phase 3 MC11 trial: treosulfan-based conditioning improves event-free survival versus RIC busulfan in older AML/MDS; reinforces busulfan benchmark while defining its performance ceiling |
-| [37579918](https://pubmed.ncbi.nlm.nih.gov/37579918/) | 2023 | Prospective Phase 2 | Transplantation and Cellular Therapy | Myeloablative busulfan + fludarabine with in vivo T-cell depletion is safe and effective for AML/MDS across age groups when guided by HCT-CI comorbidity scoring; supports extension of MAC to older, fit patients |
-| [28380315](https://pubmed.ncbi.nlm.nih.gov/28380315/) | 2017 | Phase 3 RCT | Journal of Clinical Oncology | Phase 3 RCT comparing MAC vs. RIC before allo-HCT in AML/MDS: lower TRM with RIC, lower relapse with MAC; foundational data for conditioning intensity decision-making |
-| [34489555](https://pubmed.ncbi.nlm.nih.gov/34489555/) | 2021 | Registry Cohort | Bone Marrow Transplantation | Japanese national registry propensity-matched analysis: Flu/Bu4 superior to Bu4/Cy as myeloablative conditioning for MDS; supports fludarabine-busulfan as the preferred MAC backbone |
-| [35296446](https://pubmed.ncbi.nlm.nih.gov/35296446/) | 2022 | Registry Cohort | Transplantation and Cellular Therapy | Japanese national registry propensity-matched analysis comparing MAC Flu/Bu4 versus RIC Flu/Bu2 for MDS; provides real-world guidance on dose-intensity selection based on patient risk profile |
-| [33471943](https://pubmed.ncbi.nlm.nih.gov/33471943/) | 2021 | Retrospective Cohort | Cancer | Fractionated IV busulfan myeloablative conditioning can be safely administered to older AML/MDS patients without increasing non-relapse mortality; extends MAC eligibility beyond the traditional age cutoff of 55 |
-| [38648898](https://pubmed.ncbi.nlm.nih.gov/38648898/) | 2024 | Retrospective Cohort | Transplantation and Cellular Therapy | Propensity score-matched single-centre study (n=138 MDS patients): treosulfan vs. busulfan conditioning for MDS allo-HCT; provides contemporary comparative effectiveness data in a real-world MDS transplant population |
-| [40079242](https://pubmed.ncbi.nlm.nih.gov/40079242/) | 2025 | Narrative Review | American Journal of Hematology | Contemporary review of allo-HSCT for MDS and myelofibrosis: covers genomic-informed patient selection, conditioning intensity optimisation, novel pre-transplant therapies, and outcomes benchmarks for clinical practice |
-
----
+| [31606445](https://pubmed.ncbi.nlm.nih.gov/31606445/) | 2020 | RCT (Phase 3) | Lancet Haematol | Treosulfan + fludarabine vs reduced-intensity busulfan + fludarabine in older AML/MDS patients; non-inferiority design |
+| [35617104](https://pubmed.ncbi.nlm.nih.gov/35617104/) | 2022 | RCT (final analysis) | Am J Hematol | Final analysis of the randomized phase III trial (476 patients); treosulfan improved outcomes compared with the reduced-intensity busulfan arm |
+| [28380315](https://pubmed.ncbi.nlm.nih.gov/28380315/) | 2017 | RCT (Phase 3) | J Clin Oncol | Myeloablative vs reduced-intensity conditioning in AML/MDS |
+| [36702138](https://pubmed.ncbi.nlm.nih.gov/36702138/) | 2023 | RCT (Phase 3) | Lancet Haematol | G-CSF + decitabine + BuCy vs BuCy conditioning on relapse in MDS or MDS-derived secondary AML |
+| [34692485](https://pubmed.ncbi.nlm.nih.gov/34692485/) | 2021 | Meta-analysis | Front Oncol | Meta-analysis of RCTs comparing reduced-intensity and myeloablative conditioning in AML/MDS |
+| [33425740](https://pubmed.ncbi.nlm.nih.gov/33425740/) | 2020 | Systematic review / meta-analysis | Front Oncol | Long-term outcomes of treosulfan- vs busulfan-based conditioning in MDS/AML |
+| [40079242](https://pubmed.ncbi.nlm.nih.gov/40079242/) | 2025 | Review | Am J Hematol | Allogeneic transplant is the only potentially curative therapy for MDS and myelofibrosis; standard care for eligible higher-risk disease |
+| [34489555](https://pubmed.ncbi.nlm.nih.gov/34489555/) | 2021 | Retrospective cohort | Bone Marrow Transplant | Japanese registry, propensity-matched: fludarabine/busulfan vs busulfan/cyclophosphamide in MDS |
+| [35296446](https://pubmed.ncbi.nlm.nih.gov/35296446/) | 2022 | Retrospective cohort | Transplant Cell Ther | Japanese registry, propensity-matched: myeloablative (Flu/Bu4) vs reduced-intensity (Flu/Bu2) in MDS |
+| [38648898](https://pubmed.ncbi.nlm.nih.gov/38648898/) | 2024 | Retrospective cohort | Transplant Cell Ther | Single-center propensity-matched comparison of treosulfan vs busulfan conditioning in 138 adults with MDS/CMML |
 
 ## Singapore Market Information
 
-Busulfan is currently not registered or marketed in Singapore. No product authorizations are on record with HSA.
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN13260P | BUSULFEX® INJECTION 60 mg/vial | Injection, solution, concentrate | Baxter Oncology GmbH |
+| SIN11001P | MYRAN TABLETS 2 mg | Tablet | Korea United Pharmaceutical Inc |
 
-Busulfan IV (Busulfex®) and oral formulations (Myleran®) are approved in the US (FDA), EU (EMA), Japan (PMDA), and multiple other major markets for haematopoietic conditioning and/or CML. Any clinical use in Singapore would require an import exemption under the Medicines Act or access through an institutional compassionate use / named patient programme.
-
----
+Both an injectable and an oral form are registered. Neither record contains approved indication text.
 
 ## Cytotoxicity
 
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Conventional cytotoxic — Alkylating agent (bifunctional bis-alkylsulfonate; busulfan class) |
-| Myelosuppression Risk | **High** — severe, prolonged pancytopenia is the intended therapeutic effect at conditioning doses; myeloablation at MAC doses, significant cytopenia at RIC doses |
-| Emetogenicity Classification | Moderate to High — IV formulation at myeloablative doses is considered highly emetogenic; prophylactic antiemetic regimen (5-HT3 antagonist ± NK1 antagonist) required |
-| Monitoring Items | Complete blood count with differential (daily during conditioning); liver function tests and bilirubin (sinusoidal obstruction syndrome/VOD surveillance); serum creatinine and BUN; busulfan pharmacokinetics (AUC-guided TDM is the standard of care — target AUC 900–1350 µmol·min); neurological status assessment (seizure risk) |
-| Handling Protection | Must follow cytotoxic drug handling regulations; IV formulation (Busulfex®) requires preparation in a biological safety cabinet by trained pharmacy staff; closed-system drug transfer devices recommended |
-
----
+|------|------|
+| Cytotoxicity Classification | Conventional cytotoxic (DNA-alkylating agent) |
+| Myelosuppression Risk | High (myeloablative at conditioning doses) |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions (varies with route and dose) |
+| Monitoring Items | CBC with differential, liver and renal function; please also refer to the package insert |
+| Handling Protection | Must follow cytotoxic drug handling regulations |
 
 ## Safety Considerations
 
-Formal warning and contraindication data specific to Singapore regulatory filings are not available for this review, as busulfan is not registered locally.
+Please refer to the package insert for safety information. No drug-drug interactions were found in the queried database.
 
-Based on internationally established class-level safety information for clinical awareness:
-
-- **Seizure risk**: Prophylactic antiepileptic therapy (levetiracetam or phenytoin) is mandatory during busulfan conditioning due to dose-dependent CNS toxicity
-- **Hepatotoxicity / Sinusoidal Obstruction Syndrome (SOS/VOD)**: A serious, potentially fatal complication occurring in 5–40% of patients depending on risk factors; ursodiol prophylaxis is standard; defibrotide is used for established severe SOS
-- **Secondary malignancy**: Long-term leukemogenic risk with extended oral use (historical context: oral Myleran for CML); risk profile of conditioning-dose IV busulfan differs and is considered acceptable given transplant intent
-- **Pulmonary toxicity**: "Busulfan lung" (interstitial pneumonitis) reported with prolonged oral use; less common with short-course IV conditioning regimens
-
----
+A 2024 evidence review (PMID 37856098) notes that the risk of secondary malignancy after busulfan exposure is considered low but has been poorly characterized.
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Busulfan-based conditioning for allo-HSCT in MDS is supported by two completed Phase 3 RCTs in *The Lancet Haematology* using busulfan+fludarabine as the international standard-of-care comparator, numerous Phase 2 trials, and a large body of registry data — meeting the L1 evidence threshold. The mechanistic basis is clear, clinical practice is mature, and the drug is considered standard of care in international transplant guidelines (EBMT, NCCN). The critical barrier is not efficacy or safety, but the absence of regulatory registration in Singapore, which must be resolved before institutional adoption.
+Randomized Phase 3 trials and a large published literature support busulfan-containing conditioning regimens before allogeneic transplant in MDS. The use is transplant-enabling and specialist-only, and busulfan is already marketed in Singapore. The one head-to-head phase 3 result in the pack (PMID 35617104) favored treosulfan over reduced-intensity busulfan, so busulfan is a standard backbone, not a proven best option. No approved-label or safety data are on file for Singapore.
 
 **To proceed, the following is needed:**
+- HSA package insert warnings and contraindications (a blocking gap for safety screening)
+- Approved indication text for both Singapore registrations
+- Detailed mechanism of action data (from DrugBank)
+- Restriction to transplant-center use, with dose and exposure monitoring and a plan for veno-occlusive disease and secondary malignancy surveillance
 
-- **Regulatory access pathway**: Initiate HSA import licence application or Named Patient Programme for IV busulfan (Busulfex®); identify a licensed Singapore distributor or international supplier
-- **Safety data package**: Obtain and review the full SmPC/package insert (US FDA label or EMA SPC) to complete the blocking safety assessment (warnings, contraindications, DDI) identified as a data gap in this evidence pack
-- **MOA documentation**: Retrieve DrugBank DB01008 full drug profile to complete mechanism-of-action documentation for clinical reference materials
-- **Pharmacokinetic monitoring protocol**: Establish AUC-guided TDM service capacity at the transplant centre (target AUC 900–1350 µmol·min/dose); requires access to busulfan plasma assay
-- **Toxicity management protocols**: Formalize institutional SOPs for seizure prophylaxis, VOD/SOS surveillance and treatment (including defibrotide access), and hepatotoxicity monitoring
-- **Patient population definition**: Identify eligible MDS patients (IPSS-R intermediate-high/very high risk) who are allo-HSCT candidates and for whom busulfan-based conditioning would be selected over alternatives (e.g., treosulfan, when available)
+**Other predictions:** refractory cytopenia of childhood, unclassified MDS and aplastic anemia are research questions supported only by mixed transplant protocols or retrospective data. Del(5q), congenital sideroblastic anemia, the neurodevelopmental disorder, seborrheic keratosis and feline AIDS are on Hold (prediction only, no evidence). HIV appears only as a transplant or gene-therapy conditioning setting, not as an antiviral use.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

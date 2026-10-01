@@ -29,86 +29,79 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Ritonavir: From HIV/AIDS to Simian Immunodeficiency Virus Infection
+# Ritonavir: From HIV-1 Infection to Simian Immunodeficiency Virus Infection
 
 ## One-Sentence Summary
 
-> Ritonavir is a HIV-1 protease inhibitor originally used as part of antiretroviral combination therapy (e.g., lopinavir/ritonavir, atazanavir/ritonavir) for HIV/AIDS.
-> The TxGNN model's top-ranked prediction is **Simian Immunodeficiency Virus (SIV) Infection**, a non-human primate disease used as a laboratory model for HIV research —
-> supported only by **preclinical/animal literature (10 publications)**, with **no registered clinical trials**, reflecting a mechanistic rather than a clinically translatable signal.
-
----
+Ritonavir is an HIV protease inhibitor and pharmacokinetic booster, marketed in Singapore in products such as Norvir and Kaletra.
+The TxGNN model predicts it may be effective for **simian immunodeficiency virus (SIV) infection**, a non-human disease.
+Currently **0 clinical trials** are registered, and the **11 publications** retrieved are mostly in vitro or macaque studies, so this is a model prediction with only preclinical support.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV/AIDS antiretroviral therapy (per evidence-pack clinical context; not separately recorded in Singapore registry data) |
-| Predicted New Indication | Simian Immunodeficiency Virus Infection |
+| Original Indication | HIV-1 infection (inferred from the marketed products; the registry indication text was not provided) |
+| Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 99.92% |
 | Evidence Level | L4 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 4 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on known information, ritonavir is a HIV-1 protease inhibitor, most often used at sub-therapeutic doses as a pharmacokinetic "booster" (CYP3A4 inhibitor) to increase blood levels of co-administered protease inhibitors (e.g., lopinavir, atazanavir, darunavir) in combination antiretroviral therapy. Its efficacy in HIV/AIDS treatment is well established through decades of clinical use.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Ritonavir is known to inhibit the HIV-1 aspartyl protease, and it is widely used at low doses as a CYP3A4 booster in combination regimens. Its efficacy in HIV-1 is established, and mechanistically it may be applicable to SIV.
 
-SIV protease shares structural homology with HIV-1 protease, and in vitro data (e.g., PMID 12709355) confirm that ritonavir can inhibit SIV replication at nanomolar concentrations, comparable to its activity against HIV-1. This provides a plausible biochemical basis for the TxGNN association.
+SIV is a primate lentivirus closely related to HIV, and its protease is structurally similar to that of HIV-1. An in vitro assay supports this. Ritonavir inhibited SIVmac239 with an EC50 of 13 nM, compared with 25 nM for HIV-1.
 
-However, SIV infection is a **non-human primate disease** — it is used exclusively as an animal model to study HIV pathogenesis and to test antiretroviral regimens before human trials, not as an actual human clinical indication. The high TxGNN score most likely reflects the close textual and biological similarity between "SIV" and "HIV" in the knowledge graph rather than a genuine new human therapeutic opportunity. As such, this mechanistic link **cannot be directly translated into a new human indication**, and the evidence pack's own rationale explicitly flags this limitation.
-
----
+The very high score most likely reflects the HIV-1 association inherited through the knowledge graph, not independent SIV evidence. SIV is mainly a research model for HIV, so there is no clinical development path for this indication.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
+
+No randomized trials or human studies were found. The most relevant publications are listed below.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [12709355](https://pubmed.ncbi.nlm.nih.gov/12709355/) | 2003 | In vitro/Animal | Antimicrobial Agents and Chemotherapy | Ritonavir inhibited SIVmac239 in vitro with an EC50 of ~13 nM, comparable to its activity against HIV-1 |
-| [16973590](https://pubmed.ncbi.nlm.nih.gov/16973590/) | 2006 | Animal model | Journal of Virology | Quadruple antiretroviral therapy (including PI) produced rapid viral decay in SIV-infected macaques |
-| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | In vitro susceptibility | Antiviral Therapy | Evaluated susceptibility of HIV-2, SIV and SHIV strains to 16 approved anti-HIV-1 drugs, including ritonavir |
-| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | Animal model | PLoS Pathogens | Intensified multidrug ART induced long-term viral suppression in SIV-infected macaques (simian AIDS model) |
-| [25033210](https://pubmed.ncbi.nlm.nih.gov/25033210/) | 2014 | Animal model | PLoS One | Combination cART plus SAHA studied in SIV-infected Chinese rhesus macaques as a viral reservoir model |
-| [17350308](https://pubmed.ncbi.nlm.nih.gov/17350308/) | 2007 | Animal model | Microbes and Infection | Constructed a novel SHIV carrying HIV-1 protease gene as a tool for testing protease inhibitors in vivo |
-| [12951220](https://pubmed.ncbi.nlm.nih.gov/12951220/) | 2003 | Animal model | Journal of Virological Methods | Oral HAART including lopinavir/ritonavir evaluated in SHIV-infected monkeys, assessing CD8 subset impact |
-| [34903055](https://pubmed.ncbi.nlm.nih.gov/34903055/) | 2021 | Mechanistic/Animal | mBio | Lentiviral (HIV/SIV-family) brain reservoirs persist despite effective ART in multiple infection models |
-| [9875393](https://pubmed.ncbi.nlm.nih.gov/9875393/) | 1998 | In vitro | Antiviral Chemistry & Chemotherapy | Fluoroquinolone derivative active against HIV-1, HIV-2 and SIV, including ritonavir-resistant strains |
-| [12186895](https://pubmed.ncbi.nlm.nih.gov/12186895/) | 2002 | Mechanistic | Journal of Virology | Characterized viral protease-dependent processing of HIV-1 Vif protein, relevant to protease inhibitor biology |
+| [12709355](https://pubmed.ncbi.nlm.nih.gov/12709355/) | 2003 | In vitro susceptibility | Antimicrob Agents Chemother | Ritonavir inhibited SIVmac239 (EC50 13 ± 5 nM), with potency similar to that against HIV-1 (25 ± 14 nM) |
+| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | In vitro susceptibility | Antivir Ther | Sixteen approved anti-HIV drugs were tested against HIV-2, SIV and SHIV strains to inform treatment and post-exposure prophylaxis |
+| [16973590](https://pubmed.ncbi.nlm.nih.gov/16973590/) | 2006 | Preclinical (macaque) | J Virol | In SIVmac251-infected cynomolgus macaques, a 7-day quadruple antiretroviral course was used to model viral decay |
+| [17350308](https://pubmed.ncbi.nlm.nih.gov/17350308/) | 2007 | Preclinical (macaque) | Microbes Infect | A chimeric SHIV carrying the HIV-1 protease gene was built as a tool for testing protease inhibitors in vivo |
+| [12951220](https://pubmed.ncbi.nlm.nih.gov/12951220/) | 2003 | Preclinical (macaque) | J Virol Methods | In two SHIV-infected macaques, oral AZT, 3TC and lopinavir/ritonavir for 28 days was used to assess the effect on the CD8 subset |
+| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | Preclinical (macaque) | PLoS Pathog | A highly intensified multidrug ART regimen suppressed viremia and restricted the viral reservoir in SIVmac251-infected macaques |
+| [25033210](https://pubmed.ncbi.nlm.nih.gov/25033210/) | 2014 | Preclinical (macaque) | PLoS One | Intensive cART plus the HDAC inhibitor SAHA was studied in SIV-infected Chinese rhesus macaques as a reservoir model |
+| [34903055](https://pubmed.ncbi.nlm.nih.gov/34903055/) | 2021 | Preclinical/Review | mBio | Lentiviral infection persists in the brain despite effective ART in several models |
 
----
+Most of these studies test combination ART regimens, so ritonavir's own contribution cannot be separated out.
 
 ## Singapore Market Information
 
-Ritonavir currently has no registered product license in Singapore (market status: **Not Marketed**, 0 registrations on file). No authorization or approved-indication data is available from local registry sources.
-
----
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN14288P | Norvir Tablets 100 mg | Tablet, film coated | AbbVie Deutschland GmbH & Co. KG |
+| SIN16877P | Paxlovid Film-Coated Tablets | Tablet, film coated | Pfizer Manufacturing Deutschland GmbH / Pfizer Ireland Pharmaceuticals / AbbVie Deutschland GmbH & Co. KG |
+| SIN13250P | Kaletra Tablet 200mg/50mg | Tablet, film coated | AbbVie Deutschland GmbH & Co. KG |
+| SIN11492P | Kaletra Oral Solution | Syrup | AbbVie Inc. |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked TxGNN prediction (SIV infection) targets a non-human primate disease with no clinical trials and only preclinical/mechanistic literature; the evidence pack itself notes this cannot be translated into a human indication. This candidate does not warrant further clinical development at this time.
+The only support for SIV infection is in vitro susceptibility data and macaque studies used as models for HIV. No clinical trials exist, and SIV is not a human disease, so there is no clinical path. The high TxGNN score reflects the known HIV-1 association rather than new evidence.
 
 **To proceed, the following is needed:**
-- Ritonavir mechanism-of-action (MOA) data from DrugBank to support proper mechanistic review
-- TFDA/local package insert warnings and contraindications (currently a blocking data gap)
-- Consideration of alternative, higher-quality candidates already present in this evidence pack — e.g., "AIDS related complex" and "congenital HIV" (both rank L1 evidence with completed Phase 3 trials, decision stage S3, "Proceed with Guardrails") — which represent genuine, clinically supported extensions of ritonavir's antiretroviral use rather than a cross-species artifact
+- HSA package insert warnings and contraindications, which are currently missing and block safety screening
+- Detailed mechanism of action data from DrugBank
+- Confirmation that SIV is a relevant target. If it is not, other predicted indications for ritonavir, such as hepatitis B, hepatitis E and congenital HIV, are better candidates for follow-up. In the hepatitis B and delta trials ritonavir acts mainly as a booster for partner drugs.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

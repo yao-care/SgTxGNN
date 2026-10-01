@@ -29,121 +29,104 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Fludarabine: From B-cell Malignancies to Plasma Cell Myeloma
+# Fludarabine: From B-cell Lymphoid Malignancies to Plasma Cell Myeloma
 
 ## One-Sentence Summary
 
-Fludarabine is a purine analogue nucleoside antimetabolite established in the treatment of chronic lymphocytic leukaemia (CLL) and indolent B-cell lymphoid malignancies.
-The TxGNN model predicts it may be effective for **Plasma Cell Myeloma** (multiple myeloma),
-with **50 clinical trials** and **20 publications** currently supporting this direction — primarily through its role as the immunosuppressive backbone of allogeneic stem cell transplant conditioning and as standard lymphodepletion before CAR-T cell therapy.
-
----
+Fludarabine is a purine nucleoside analogue chemotherapy. The literature describes it as a mainstay in B-cell chronic lymphocytic leukaemia, hairy cell leukaemia and indolent lymphomas. The TxGNN model predicts it may be useful for **plasma cell myeloma** with a very high score. The 50 registered trials and 20 publications retrieved mostly use fludarabine as a conditioning or lymphodepletion backbone, so they do not show that fludarabine itself works against myeloma.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | CLL and indolent B-cell malignancies (established clinical use; no Singapore HSA registration found) |
-| Predicted New Indication | Plasma Cell Myeloma (Multiple Myeloma) |
+|------|------|
+| Original Indication | Not stated in the Singapore registration records. Literature describes use in B-cell chronic lymphocytic leukaemia, hairy cell leukaemia and indolent lymphomas |
+| Predicted New Indication | Plasma cell myeloma |
 | TxGNN Prediction Score | 99.82% |
 | Evidence Level | L3 |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available from the current evidence pack. Based on known pharmacology, fludarabine is a fluorinated purine nucleoside analogue that is phosphorylated intracellularly to its active triphosphate form (F-ara-ATP). This metabolite competitively inhibits DNA polymerase alpha, ribonucleotide reductase, and DNA primase, thereby blocking DNA synthesis and triggering apoptosis in proliferating lymphoid cells. Its selectivity for lymphoid lineages reflects preferential intracellular accumulation due to high deoxycytidine kinase activity in these cell types.
+Currently, detailed mechanism of action data is not available. Based on known information, fludarabine is a purine analogue that inhibits DNA synthesis and is toxic to lymphocytes. Its efficacy in B-cell lymphoid malignancies is established, and it may be mechanistically applicable to plasma cell myeloma, which is also a B-lineage malignancy.
 
-Plasma cell myeloma and the B-cell malignancies for which fludarabine is established both arise from B-lymphocyte lineage precursors. Plasma cells are terminally differentiated B-cells, and fludarabine's documented cytotoxicity against B-cell populations provides a direct mechanistic rationale for anti-myeloma activity. A key preclinical study (PMID 17976186) confirmed that fludarabine directly inhibits the myeloma cell line RPMI8226 both in vitro and in xenograft mouse models, demonstrating suppression of Akt phosphorylation — a survival pathway frequently dysregulated in myeloma.
+Two lines of evidence support the prediction:
 
-Clinically, fludarabine operates in multiple myeloma through two distinct pathways. First, as a core component of reduced-intensity conditioning (RIC) regimens (Flu+Mel, Flu+Bu, Flu+Treosulfan) before allogeneic haematopoietic stem cell transplantation (allo-HSCT), it provides immunosuppression sufficient to facilitate engraftment without the full toxicity of myeloablative conditioning — enabling a graft-versus-myeloma (GvM) effect in patients ineligible for conventional transplant. Second, fludarabine/cyclophosphamide has become the standard lymphodepletion platform before BCMA-targeted CAR-T cell therapies, where it enhances T-cell expansion and persistence. Both roles place fludarabine at the centre of several active and completed Phase 1–3 trials specifically enrolling myeloma patients.
+- **Preclinical activity.** A 2007 study reported that fludarabine inhibited the myeloma cell line RPMI8226 in vitro and in vivo, with reduced Akt phosphorylation. The authors noted that fludarabine's activity in myeloma had been controversial.
+- **Transplant and cell-therapy use.** Fludarabine is a core part of reduced-intensity conditioning regimens (for example with melphalan or busulfan) before allogeneic transplant, which relies on a graft-versus-myeloma effect. It is also the standard lymphodepletion drug (usually with cyclophosphamide) before BCMA-directed CAR-T and CAR-NK therapies. In these settings fludarabine prepares the patient for the treatment; it is not the agent being tested against the myeloma.
 
----
+The high TxGNN score is consistent with this pattern. The clinical data do not separate fludarabine's own anti-myeloma effect from that of the transplant or cell therapy.
 
 ## Clinical Trial Evidence
 
+Fifty trials were retrieved. None is a Phase 3 trial testing fludarabine in myeloma, and none reports results in the data provided. The 10 most relevant are listed below. CAR-T and CAR-NK trials where fludarabine is only the lymphodepletion step are represented by a single example.
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT03303950](https://clinicaltrials.gov/study/NCT03303950) | Phase 2 | Terminated | 6 | Busulfan + **Fludarabine** + post-transplant cyclophosphamide followed by donor SCT for MM and myelofibrosis; Fludarabine is a primary study drug; terminated due to recruitment challenges, not safety concerns |
-| [NCT00781170](https://clinicaltrials.gov/study/NCT00781170) | Phase 2 | Completed | 20 | Melphalan/**Fludarabine**-based dose-reduced allograft after autologous HSCT for Stage II/III MM; evaluates tandem auto-allo approach to induce graft-versus-myeloma effect |
-| [NCT01163357](https://clinicaltrials.gov/study/NCT01163357) | Phase 1 | Completed | 18 | Bortezomib ± total marrow irradiation (TMI) + **Fludarabine** + Melphalan as allo-HSCT conditioning for high-risk/relapsed refractory MM; directly tests Flu+Mel backbone augmented with bortezomib and radiation |
-| [NCT00856388](https://clinicaltrials.gov/study/NCT00856388) | Pilot | Completed | 62 | **Fludarabine** + Melphalan + low-dose TBI as reduced-intensity allo-SCT conditioning for haematologic cancers including MM; demonstrates feasibility and tolerability |
-| [NCT00134004](https://clinicaltrials.gov/study/NCT00134004) | Phase 2 | Completed | 210 | Non-myeloablative **Fludarabine** + cyclophosphamide + radiation for partially HLA-mismatched BM transplant in haematologic malignancies (MM included); large Phase 2 supporting Flu-based NMA regimen |
-| [NCT04093596](https://clinicaltrials.gov/study/NCT04093596) | Phase 1 | Active, not recruiting | 132 | ALLO-715 allogeneic BCMA CAR-T with ALLO-647 ± **Fludarabine**/cyclophosphamide lymphodepletion for R/R MM (UNIVERSAL trial); Fludarabine is standard lymphodepletion partner enabling CAR-T engraftment |
-| [NCT05257083](https://clinicaltrials.gov/study/NCT05257083) | Phase 3 | Active, not recruiting | 759 | DVRd + ciltacabtagene autoleucel vs DVRd + ASCT for newly diagnosed MM; **Fludarabine**-based lymphodepletion included in the CAR-T treatment arm |
-| [NCT07149857](https://clinicaltrials.gov/study/NCT07149857) | Phase 2 | Recruiting | 60 | Head-to-head comparison of **fludarabine**-free vs standard Cy/**Flu** lymphodepletion before cilta-cel infusion in MM; directly examines Fludarabine's necessity and role in this context |
-| [NCT03832127](https://clinicaltrials.gov/study/NCT03832127) | Phase 1 | Recruiting | 35 | 18F-**Fludarabine** PET imaging for initial staging and end-of-treatment response assessment in symptomatic MM (first-in-kind diagnostic application); explores Fludarabine uptake as a biomarker for plasma cell burden |
-| [NCT02507479](https://clinicaltrials.gov/study/NCT02507479) | Phase 2 | Unknown | 24 | **Fludarabine** + IV thiotepa followed by allo-HSCT for lymphoid malignancies including MM; explores thiotepa as substitute for busulfan/melphalan in Flu-based conditioning |
-
----
+| [NCT00134004](https://clinicaltrials.gov/study/NCT00134004) | Phase 2 | Completed | 210 | Non-myeloablative conditioning (fludarabine, cyclophosphamide, low-dose radiation) and HLA-mismatched bone marrow transplant in haematological malignancies. Myeloma is one of several conditions |
+| [NCT00781170](https://clinicaltrials.gov/study/NCT00781170) | Phase 2 | Completed | 20 | Autologous transplant followed by a melphalan/fludarabine dose-reduced allograft to induce a graft-versus-myeloma effect in stage II/III myeloma |
+| [NCT01163357](https://clinicaltrials.gov/study/NCT01163357) | Phase 1 | Completed | 18 | Bortezomib with fludarabine and melphalan, with or without total marrow irradiation, as conditioning for allogeneic transplant in high-risk myeloma |
+| [NCT00856388](https://clinicaltrials.gov/study/NCT00856388) | NA | Completed | 62 | Reduced-intensity allogeneic transplant with fludarabine, melphalan and low-dose total body irradiation in haematological cancers |
+| [NCT03303950](https://clinicaltrials.gov/study/NCT03303950) | Phase 2 | Terminated | 6 | Busulfan, fludarabine, donor transplant and post-transplant cyclophosphamide in myeloma or myelofibrosis |
+| [NCT00579111](https://clinicaltrials.gov/study/NCT00579111) | Phase 1/2 | Terminated | 4 | Fludarabine, busulfan and alemtuzumab conditioning before allogeneic transplant |
+| [NCT00676806](https://clinicaltrials.gov/study/NCT00676806) | Phase 2 | Terminated | 7 | Cord blood transplant after myeloablative or reduced-intensity conditioning |
+| [NCT02507479](https://clinicaltrials.gov/study/NCT02507479) | Phase 2 | Unknown | 24 | Fludarabine with IV thiotepa before allogeneic transplant in lymphoid malignancies including myeloma |
+| [NCT04003168](https://clinicaltrials.gov/study/NCT04003168) | Phase 1 | Unknown | 18 | BCMA CAR-T after fludarabine/cyclophosphamide conditioning in relapsed/refractory myeloma. Fludarabine is lymphodepletion only |
+| [NCT03832127](https://clinicaltrials.gov/study/NCT03832127) | Phase 1 | Recruiting | 35 | Exploratory imaging study of 18F-fludarabine PET in newly diagnosed myeloma. A diagnostic use, not therapy |
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|---------|
-| [38483213](https://pubmed.ncbi.nlm.nih.gov/38483213/) | 2024 | Phase 1 Trial | Am J Clin Oncol | Phase 1 study of Bortezomib + **Fludarabine** + Melphalan ± total marrow irradiation as allo-HSCT conditioning for high-risk/R-R MM; documents safety and activity of Flu+Mel backbone with bortezomib intensification |
-| [17976186](https://pubmed.ncbi.nlm.nih.gov/17976186/) | 2007 | Preclinical | Eur J Haematol | **Foundational preclinical evidence**: Fludarabine directly inhibits RPMI8226 myeloma cell line in vitro and in xenograft mouse models; mechanism involves Akt phosphorylation suppression, supporting direct anti-myeloma cytotoxicity |
-| [15389436](https://pubmed.ncbi.nlm.nih.gov/15389436/) | 2004 | Retrospective Cohort | Biol Blood Marrow Transplant | Prognostic factor analysis of Melphalan/**Fludarabine** dose-reduced allo-HSCT in 120 MM patients (1998–2002); 1-year TRM 18%; prior relapse after autograft identified as strongest risk factor for poor outcome |
-| [17310135](https://pubmed.ncbi.nlm.nih.gov/17310135/) | 2007 | Retrospective Cohort | Bone Marrow Transplant | **Fludarabine** + treosulfan reduced-toxicity conditioning before allo-SCT in 34 MM patients; demonstrates feasibility of low-toxicity Flu-based conditioning in a population not eligible for standard conditioning |
-| [37701906](https://pubmed.ncbi.nlm.nih.gov/37701906/) | 2023 | Phase 2 Trial | Leuk Res Rep | Split-dose busulfan + **Fludarabine** + post-transplant cyclophosphamide conditioning for allo-SCT in 6 MM and 4 myelofibrosis patients; 1-year OS 50%, non-relapse mortality 33%; reports early outcomes of this novel regimen |
-| [37833271](https://pubmed.ncbi.nlm.nih.gov/37833271/) | 2023 | Retrospective Cohort | Blood Cancer J | Bendamustine vs **Fludarabine**/cyclophosphamide lymphodepletion prior to BCMA CAR-T therapy in MM; **Flu/Cy is the reference standard** against which alternative lymphodepletion regimens are evaluated |
-| [36690811](https://pubmed.ncbi.nlm.nih.gov/36690811/) | 2023 | Phase 1 | Nature Medicine | UNIVERSAL trial interim results: ALLO-715 allogeneic BCMA CAR-T + ALLO-647 ± **Fludarabine**/cyclophosphamide for R/R MM (n=43); ORR 56% with tolerable safety profile; validates **Flu**-based lymphodepletion in allogeneic CAR-T setting |
-| [38659046](https://pubmed.ncbi.nlm.nih.gov/38659046/) | 2024 | Long-term Follow-up | J Hematol Oncol | 5-year follow-up of LEGEND-2 trial (LCAR-B38M CAR-T, now cilta-cel) in R/R MM; **Fludarabine**/cyclophosphamide used as lymphodepletion; sustained deep remissions in subset of patients at 5 years |
-| [39365257](https://pubmed.ncbi.nlm.nih.gov/39365257/) | 2025 | Real-World Cohort | Blood | Real-world outcomes of cilta-cel in 236 R/R MM patients at 16 US academic centres; standard-of-care **Flu**/cyclophosphamide lymphodepletion confirms Fludarabine's central role in current myeloma CAR-T practice |
-| [7781758](https://pubmed.ncbi.nlm.nih.gov/7781758/) | 1995 | Case Series | Eur J Haematol | Earliest clinical report of **Fludarabine** activity in plasma cell leukaemia — a closely related plasma cell malignancy — providing historical clinical evidence predating large trial series |
+No randomised controlled trials were found. The 8 most relevant publications are listed below.
 
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [17976186](https://pubmed.ncbi.nlm.nih.gov/17976186/) | 2007 | Preclinical | Eur J Haematol | Fludarabine inhibited the myeloma cell line RPMI8226 in vitro and in vivo, with decreased Akt phosphorylation |
+| [38483213](https://pubmed.ncbi.nlm.nih.gov/38483213/) | 2024 | Phase 1 trial | Am J Clin Oncol | Bortezomib, fludarabine and melphalan conditioning, with or without total marrow irradiation, before allogeneic transplant in high-risk or relapsed/refractory myeloma |
+| [15389436](https://pubmed.ncbi.nlm.nih.gov/15389436/) | 2004 | Retrospective cohort | Biol Blood Marrow Transplant | 120 myeloma patients received melphalan/fludarabine allografts. One-year treatment-related mortality was 18%. Relapse after a prior autograft and chronic GVHD were the strongest prognostic factors |
+| [17310135](https://pubmed.ncbi.nlm.nih.gov/17310135/) | 2007 | Retrospective analysis | Bone Marrow Transplant | Reduced-toxicity fludarabine/treosulfan conditioning was feasible in 34 myeloma patients (median age 51.5) |
+| [37701906](https://pubmed.ncbi.nlm.nih.gov/37701906/) | 2023 | Phase 2 study | Leuk Res Rep | Split-dose busulfan, fludarabine and post-transplant cyclophosphamide in 4 myelofibrosis and 2 myeloma patients. One-year non-relapse mortality was 33.3% and overall survival 50% |
+| [37833271](https://pubmed.ncbi.nlm.nih.gov/37833271/) | 2023 | Comparative cohort | Blood Cancer J | Compared bendamustine with fludarabine/cyclophosphamide lymphodepletion before BCMA CAR-T in myeloma |
+| [31058154](https://pubmed.ncbi.nlm.nih.gov/31058154/) | 2019 | Review | Front Med | Reviews 18F-fludarabine PET imaging in haematological malignancies |
+| [7781758](https://pubmed.ncbi.nlm.nih.gov/7781758/) | 1995 | Report | Eur J Haematol | Fludarabine in plasma cell leukaemia (no abstract available) |
 
 ## Singapore Market Information
 
-Fludarabine is currently **not registered** with the Health Sciences Authority (HSA) in Singapore and has no approved products on the Singapore market. No Singapore licence records are available.
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN11143P | FLUDARA FOR INTRAVENOUS INJECTION 50 mg/vial | Injection, powder, for solution |
+| SIN15030P | FLUDARABINE PHOSPHATE POWDER FOR SOLUTION FOR INJECTION/ INFUSION USP | Injection, powder, for solution |
 
-For clinical use in Singapore, access would need to be arranged through compassionate use, unregistered medicinal product import under the HSA's regulatory framework, or through an institutional protocol pending regulatory approval.
-
----
+Both products are injectables.
 
 ## Cytotoxicity
 
-Fludarabine meets the criteria for antineoplastic classification: it is a fluorinated purine nucleoside analogue used to treat CLL and B-cell malignancies, and belongs to the antimetabolite/cytotoxic chemotherapy category.
-
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Conventional cytotoxic — Purine nucleoside analogue (Antimetabolite class) |
-| Myelosuppression Risk | **High** — neutropenia, thrombocytopenia, and anaemia are common and dose-limiting; prolonged CD4+ lymphopenia increases opportunistic infection risk for months after treatment |
-| Emetogenicity Classification | Low to moderate |
-| Monitoring Items | Full blood count with differential (before each cycle and during recovery), renal function (CrCl — dose reduction required for CrCl < 30–50 mL/min), neurological assessment (high-dose neurotoxicity risk), infection surveillance (including PCP and CMV monitoring) |
-| Handling Protection | Must follow cytotoxic drug handling regulations — appropriate PPE, closed-system drug-transfer devices, biohazard waste disposal |
+|------|------|
+| Cytotoxicity Classification | Conventional cytotoxic (purine nucleoside analogue, antimetabolite) |
+| Myelosuppression Risk | High. Myelosuppression and immunosuppression are the main concerns in transplant-conditioning use |
+| Emetogenicity Classification | Low (based on general drug class; confirm against the package insert) |
+| Monitoring Items | CBC with differential, renal function (dose adjustment is needed), neurological status, infection surveillance |
+| Handling Protection | Must follow cytotoxic drug handling regulations |
 
----
+Published follow-up of fludarabine combination chemotherapy has also reported therapy-related myelodysplastic syndrome and acute myeloid leukaemia (PMID 20962860). Please refer to the package insert warnings and precautions for full details.
 
 ## Safety Considerations
 
-Detailed safety data (warnings, contraindications, drug interactions) specific to Singapore regulatory filings are not available in the current evidence pack.
-
-Please refer to the package insert for complete safety information.
-
-> **Known class-level safety signals** based on published literature: (1) severe and potentially fatal myelosuppression requiring haematological monitoring; (2) risk of severe opportunistic infections, including Pneumocystis jirovecii pneumonia and CMV reactivation, necessitating prophylaxis; (3) progressive multifocal leukoencephalopathy (PML) reported at higher doses; (4) significant renal dose adjustment requirement (CrCl-based dosing); (5) embryotoxicity and teratogenicity — contraindicated in pregnancy.
-
----
+Please refer to the package insert for safety information. No drug interaction records were found for this drug.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Fludarabine is mechanistically plausible and clinically embedded in multiple myeloma management, with preclinical evidence of direct anti-myeloma cytotoxicity (PMID 17976186), a robust retrospective dataset for Flu+Mel/Flu+Bu allo-HSCT conditioning in MM patients, and an established role as the standard lymphodepletion regimen enabling BCMA-targeted CAR-T therapies. However, no dedicated completed Phase 2/3 RCT demonstrates fludarabine's single-agent direct efficacy in myeloma outside of the transplant conditioning context, holding the evidence at L3.
+Fludarabine is used in myeloma mainly as a conditioning or lymphodepletion component of transplant and CAR-T regimens. No trial isolates its own efficacy, and the only direct support is one preclinical study. For context, the same evidence pack rates **myelodysplastic syndrome** as the strongest predicted indication (L2, Proceed with Guardrails). This is because fludarabine-based conditioning is supported by a large completed Phase 3 trial (NCT00822393, n=570).
 
 **To proceed, the following is needed:**
-
-- Obtain Singapore HSA regulatory guidance on importation or compassionate use of unregistered fludarabine products
-- Retrieve full package insert warnings, contraindications, and drug interaction data from a reference regulatory filing (FDA, EMA, or TFDA) to complete the S1 safety assessment
-- Retrieve mechanism of action detail from DrugBank (DB01073) to formally document the mechanistic link for institutional review purposes
-- Define the specific intended clinical role: **(a)** direct anti-myeloma therapy vs **(b)** conditioning/lymphodepletion backbone — these require different development and regulatory pathways
-- If pursuing direct anti-myeloma use, design a Phase 1/2 trial in the Singapore/Asia Pacific context to generate local evidence
-- Establish haematological monitoring and infection prophylaxis protocols before any clinical deployment given the high myelosuppression and immunosuppression risk in this patient population
+- The HSA package insert warnings, contraindications and approved indications. The registration records provide none, which blocks safety screening.
+- Detailed mechanism of action data (for example from DrugBank).
+- Comparative data that separate fludarabine's contribution from the transplant or cell therapy, for example trials with and without fludarabine in myeloma conditioning.
+- A decision on whether the intended use is transplant conditioning or a stand-alone anti-myeloma regimen, since the current evidence supports only the former.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

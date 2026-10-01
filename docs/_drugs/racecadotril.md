@@ -29,74 +29,69 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Racecadotril: From Acute Diarrhea to Polyclonal Hyperviscosity Syndrome
+# Racecadotril: From Acute Diarrhoea to Polyclonal Hyperviscosity Syndrome
 
 ## One-Sentence Summary
 
-Racecadotril is an enkephalinase inhibitor clinically used to treat acute diarrhea. The TxGNN model predicts potential efficacy for **polyclonal hyperviscosity syndrome**, but this signal is currently supported by **0 clinical trials** and **0 publications** — it is a pure model prediction with no mechanistic or clinical corroboration.
-
----
+Racecadotril is an intestinal antisecretory drug (an enkephalinase inhibitor) generally used to treat acute diarrhoea. The TxGNN model predicts it may be effective for **polyclonal hyperviscosity syndrome**, but **no clinical trials and no publications** currently support this prediction. It is a model output only, and no biological link has been identified.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Acute diarrhea (based on drug's known pharmacological classification; no Singapore regulatory filing available) |
+| Original Indication | Acute diarrhoea (general pharmacology; the Singapore registration records do not state an indication) |
 | Predicted New Indication | Polyclonal hyperviscosity syndrome |
 | TxGNN Prediction Score | 97.72% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for racecadotril in DrugBank. Based on known pharmacological information, racecadotril is an enkephalinase (neutral endopeptidase) inhibitor that reduces intestinal hypersecretion; its established clinical use and mechanism are confined to the gastrointestinal tract (acute diarrhea).
+Currently, detailed mechanism of action data is not available in the input. Based on general pharmacology, racecadotril inhibits enkephalinase in the gut and reduces intestinal secretion. Its efficacy is in diarrhoea, and it has no recognised role in blood viscosity.
 
-The evidence pack's own mechanistic analysis for this candidate explicitly states that **no biological or pharmacological link** has been identified between enkephalinase inhibition and polyclonal hyperviscosity syndrome, a plasma-protein/blood-viscosity disorder. The prediction arises purely from TxGNN knowledge-graph embedding similarity, not from any shared target, pathway, or clinical observation.
+No plausible link was found between the original use and the predicted indication. Polyclonal hyperviscosity syndrome concerns serum protein and viscosity abnormalities, which an antisecretory antidiarrhoeal does not address.
 
-This pattern is not isolated: all 10 top-ranked candidates for racecadotril (scores clustering 94–98%) — including monoclonal gammopathy, congenital analbuminemia, septicemic plague, and acute cystitis — are rated L5 with zero clinical trials, zero literature, and explicit statements of no mechanistic plausibility. This suggests the current candidate list for this drug is exploratory-only and not yet actionable.
+The score of 97.72% is identical to the score for hyperamylasemia (rank 2). This suggests a shared knowledge-graph artifact rather than independent biological signal. The prediction should therefore be treated as a hypothesis-generation output only.
 
----
+The other nine top-ranked predictions are also L5 with no trials or literature. They include hyperamylasemia, congenital analbuminemia, blood group incompatibility, monoclonal gammopathy, septicemic plague and acute cystitis. None has a plausible mechanistic link.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Racecadotril has no marketing authorization in Singapore (0 registrations). No license or approved-indication data is available to compare against the predicted new indication.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN14413P | Hidrasec Children Granules for Oral Suspension 30mg | Granule, for suspension | Not stated in the registration record |
+| SIN14412P | Hidrasec Infants Granules for Oral Suspension 10mg | Granule, for suspension | Not stated in the registration record |
 
----
+Both products are made by Laboratoires Sophartex and are oral granules for suspension.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
----
+Please refer to the package insert for safety information. No drug interaction records were found for this drug.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The predicted indication has no clinical trial or literature support, and the evidence pack itself flags an absence of mechanistic plausibility. Combined with L5 evidence level and no Singapore market presence, this candidate does not currently meet the threshold for further evaluation.
+The prediction is supported only by the model score, with no clinical trials or publications and no identifiable mechanistic link. The identical score shared with another unrelated indication points to a graph artifact. The package insert and mechanism data are also missing, so safety screening cannot start.
 
 **To proceed, the following is needed:**
-- Confirmed original MOA and approved indication for racecadotril (currently a High-severity data gap, DG002)
-- TFDA/HSA package insert warnings and contraindications (currently a Blocking data gap, DG001) — required before any S1 safety screening can proceed
-- Independent mechanistic or preclinical evidence linking enkephalinase inhibition to hyperviscosity/hematological pathophysiology, if this candidate is to be reconsidered
-- Re-screening of the full candidate list for signals with at least L3 evidence, since all current top-10 predictions are L5-only
+- Singapore (HSA) package insert warnings and contraindications, which block safety screening
+- Detailed mechanism of action data (for example, from DrugBank)
+- A credible biological rationale linking enkephalinase inhibition to serum viscosity or paraprotein-related disease
+- Any preclinical or clinical study supporting the indication, which would be needed to move beyond L5
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

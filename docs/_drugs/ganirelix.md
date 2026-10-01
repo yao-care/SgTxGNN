@@ -29,36 +29,35 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ganirelix: From Controlled Ovarian Stimulation to Hypertrichosis
+# Ganirelix: From Prevention of Premature LH Surges to Hypertrichosis
 
 ## One-Sentence Summary
 
-Ganirelix is a synthetic GnRH (Gonadotropin-releasing hormone) antagonist used internationally in assisted reproductive technology (ART) to prevent premature LH surges during controlled ovarian stimulation, though it is not currently registered in Singapore.
-The TxGNN model predicts it may be effective for **Hypertrichosis**, with a prediction score of **99.98%**, however there are currently **no clinical trials** and **no publications** specifically supporting this drug-disease pairing, and the mechanistic rationale is considered weak for most hypertrichosis subtypes.
+Ganirelix is a GnRH receptor antagonist, generally used in assisted reproduction to prevent premature LH surges during ovarian stimulation. The TxGNN model predicts it may be effective for **hypertrichosis**, but there are **0 clinical trials** and **0 publications** supporting this. The prediction is model output only and has no biological support.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Controlled ovarian stimulation (ART) — not registered in Singapore |
+|------|------|
+| Original Indication | Not stated in the Singapore registration record (generally used to prevent premature LH surges in controlled ovarian stimulation) |
 | Predicted New Indication | Hypertrichosis |
 | TxGNN Prediction Score | 99.98% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on known pharmacological information, Ganirelix is a synthetic decapeptide GnRH antagonist that competitively blocks GnRH receptors in the anterior pituitary, rapidly suppressing the secretion of LH (luteinising hormone) and FSH (follicle-stimulating hormone). This in turn reduces sex steroid production from the gonads — the core mechanism underlying its use in ART protocols.
+Ganirelix blocks the GnRH receptor in the pituitary. This rapidly suppresses LH and FSH and lowers gonadal steroid output. Detailed mechanism data is not available in the source record, so this description reflects the drug's known class pharmacology.
 
-A narrow subset of hypertrichosis cases may have a hormonal component. For example, androgen-driven hirsutism associated with polycystic ovary syndrome (PCOS) involves excess LH-stimulated androgen secretion from the ovaries. In theory, a GnRH antagonist suppressing LH could reduce ovarian androgen output and thereby attenuate androgen-dependent hair follicle stimulation. This represents the sole plausible mechanistic bridge between Ganirelix and hair over-growth.
+The link to hypertrichosis is weak. Hypertrichosis is excessive hair growth, and no known mechanism connects GnRH antagonism to it. The score of 99.98% most likely reflects an artifact of knowledge-graph connectivity rather than real biology. Other top-ranked predictions for this drug are also biologically unconnected. They include Ambras syndrome, Dandy-Walker malformation, hair shaft abnormalities and trichomegaly.
 
-However, hypertrichosis in its broader classification is predominantly a **genetic condition** — arising from structural mutations (e.g., Ambras syndrome, congenital hypertrichosis lanuginosa) that are entirely independent of the hypothalamic-pituitary-gonadal (HPG) axis. The TxGNN model's high score most likely reflects a **phenotypic false positive**: the model recognises "hair follicle over-activity" as a shared surface feature without distinguishing genetic from hormonal aetiology. The mechanistic connection between Ganirelix and hypertrichosis is therefore rated as weak, and this prediction should be interpreted with caution.
+Among the ten predictions, only **central precocious puberty** has a plausible mechanism. It is driven by premature activation of the hypothalamic-pituitary-gonadal axis, and suppressing that axis is the established treatment principle. Even so, no trials or literature were found. Ganirelix is a short-acting, daily-injection antagonist, and paediatric use is unstudied. This is a hypothesis for preclinical or pilot work only. Familial male-limited precocious puberty is also ranked, but it is driven by an activating LHCGR mutation downstream of the pituitary, so a GnRH antagonist would be expected to be ineffective.
 
 ---
 
@@ -74,9 +73,17 @@ Currently no related literature available.
 
 ---
 
+## Singapore Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN12165P | ORGALUTRAN SOLUTION FOR INJECTION 0.25 mg/0.5 ml (Vetter Pharma-Fertigung GmbH & Co. KG) | Injection | Not stated in the registration record |
+
+---
+
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No drug interactions were found in the queried data.
 
 ---
 
@@ -85,14 +92,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-This is a model-only prediction (L5 evidence) with zero supporting clinical trials or publications, and the dominant subtype of hypertrichosis is genetic in origin — a disease pathway for which Ganirelix has no mechanistic leverage. The high TxGNN score is best explained as a phenotypic similarity artefact at the hair follicle level rather than a true pharmacological signal.
+The prediction rests on a model score alone. There are no trials or literature, and no plausible mechanism links a GnRH antagonist to hypertrichosis. The score is most likely a knowledge-graph artifact.
 
 **To proceed, the following is needed:**
-- Clearly define the target patient population: androgen-driven hirsutism (e.g., PCOS-related) must be distinguished from genetic hypertrichosis before any further evaluation is meaningful
-- Retrieve full MOA data from DrugBank (DB06785) to formally characterise the HPG axis suppression profile
-- Conduct a focused literature search on GnRH antagonists (as a class) in hirsutism and hyperandrogenism to establish class-level precedent
-- Review more mechanistically coherent predictions in the same candidate set: **Central Precocious Puberty (rank 9, score 99.75%)** and **Aromatase Excess Syndrome (rank 8, score 99.80%)** both involve GnRH-dependent hormonal pathways and warrant independent evaluation before hypertrichosis is revisited
-- Obtain Singapore package insert warnings and contraindications to complete the safety profile required for Stage S1 evaluation
+- HSA package insert warnings and contraindications, which are missing and block safety screening
+- Mechanism of action data from DrugBank
+- Any preclinical or clinical signal for hypertrichosis; without one, the candidate should not advance
+- If a repurposing direction is pursued, central precocious puberty is the only prediction worth a preclinical or pilot investigation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

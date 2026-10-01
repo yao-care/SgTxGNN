@@ -29,100 +29,73 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Carboprost Tromethamine: From Postpartum Hemorrhage to Atypical Coarctation of Aorta
+# Carboprost tromethamine: From Uterine Contraction (Obstetric Use) to Atypical Coarctation of Aorta
 
 ## One-Sentence Summary
 
-Carboprost tromethamine (Hemabate) is a synthetic prostaglandin F2α (PGF2α) analogue established clinically as a uterotonic agent for treating postpartum haemorrhage and inducing uterine contractions. The TxGNN model predicts activity across **10 new indications**, with **Atypical Coarctation of Aorta** ranking first (score 99.99%), though the most mechanistically credible candidate is **Primary Hereditary Glaucoma** (rank 10, L4), where the PGF2α → FP receptor pathway overlaps with approved glaucoma drugs. For 9 of the 10 predicted indications, no supporting clinical trials or literature were identified, and several predictions are directly contradicted by known PGF2α pharmacology.
-
----
+Carboprost tromethamine is a prostaglandin F2-alpha (PGF2-alpha) analog whose known effects are uterine smooth muscle contraction and vasoconstriction. The TxGNN model predicts it may be effective for **atypical coarctation of aorta**, but there are **0 clinical trials** and **0 publications** supporting this prediction. The high score most likely reflects knowledge-graph topology rather than biology.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Postpartum haemorrhage; uterine atony; pregnancy termination |
-| Predicted New Indication (Rank 1) | Atypical Coarctation of Aorta |
+|------|------|
+| Original Indication | Not stated in the HSA record (the approved indication text is blank); pharmacology points to obstetric uterine contraction |
+| Predicted New Indication | Atypical coarctation of aorta |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the data sources queried. Based on established pharmacological knowledge, carboprost tromethamine is a 15-methyl analogue of prostaglandin F2α that acts as a selective FP receptor agonist, stimulating smooth muscle contractions — particularly in the uterus. This accounts for its proven efficacy in controlling postpartum haemorrhage and terminating pregnancy.
+Currently, detailed mechanism of action data is not available. Based on known information, carboprost is a PGF2-alpha analog that contracts uterine smooth muscle and causes vasoconstriction. No mechanism has been documented that would make it applicable to atypical coarctation of aorta.
 
-The rank 1 prediction — atypical coarctation of aorta — represents a congenital structural defect requiring surgical or catheter-based correction. While PGE1 (alprostadil) is used in neonates to maintain ductus arteriosus patency, carboprost as a PGF2α analogue produces opposing vasoconstrictive effects. There is no mechanistic pathway connecting FP receptor activation to the treatment of aortic coarctation, and the TxGNN model's prediction most likely reflects indirect prostaglandin-class linkages in the knowledge graph (KG noise) rather than a genuine drug–disease relationship.
+The predicted condition is a structural congenital aortic defect, and drugs cannot correct such defects. PGF2-alpha agonism offers no therapeutic rationale for it. Realistically, this is a knowledge-graph artefact and probably a false positive.
 
-The most mechanistically credible prediction across all 10 candidates is **rank 10: Primary Hereditary Glaucoma (L4)**. PGF2α analogues — latanoprost, bimatoprost, travoprost, tafluprost — are established first-line treatments for open-angle glaucoma, working through FP receptor activation to increase uveoscleral aqueous outflow and reduce intraocular pressure (IOP). Carboprost shares this receptor binding profile and was explored historically as an IOP-lowering candidate in early ophthalmology research. This class-level indirect evidence elevates rank 10 to a legitimate research question, though significant formulation challenges and systemic safety risks (uterine contractions, bronchospasm) remain unresolved.
-
----
-
-## All Predicted Indications — Summary
-
-| Rank | Disease | TxGNN Score | Evidence Level | Decision | Assessment |
-|------|---------|-------------|----------------|----------|------------|
-| 1 | Atypical coarctation of aorta | 99.99% | L5 | Hold | Structural defect; PGF2α mechanism is vasoconstrictive — opposing PGE1's role; KG noise |
-| 2 | Aortic malformation | 99.98% | L5 | Hold | Structural congenital disease; no PGF2α treatment rationale |
-| 3 | Migraine with brainstem aura | 99.97% | L5 | Hold | PGF2α agonism may aggravate central sensitisation; mechanism opposed to NSAID approach |
-| 4 | Migraine disorder | 99.96% | L5 | Hold | Same mechanistic concern as rank 3; no clinical data |
-| 5 | Pulmonary hypertension | 99.93% | L5 | Hold | ⚠️ **Safety contraindication**: carboprost causes pulmonary vasoconstriction and bronchospasm |
-| 6 | Non-syndromic esophageal malformation | 99.92% | L5 | Hold | Congenital structural defect; no PGF2α mechanism |
-| 7 | Kyphoscoliotic heart disease | 99.92% | L5 | Hold | Secondary cardiopulmonary disease from spinal deformity; pulmonary vasoconstriction risk |
-| 8 | Amenorrhea | 99.89% | L5 | Hold | Partial mechanistic plausibility (PGF2α promotes luteolysis/menstruation); systemic side effects limit clinical feasibility; no data |
-| 9 | Esophageal disease | 99.83% | L5 | Hold | PGE2/PGI2 protect GI mucosa but carboprost is FP-selective — wrong receptor subtype; KG generalisation noise |
-| 10 | Primary hereditary glaucoma | 99.69% | L4 | Research Question | Best mechanistic rationale: PGF2α → FP receptor → uveoscleral drainage; class analogy with latanoprost/bimatoprost |
-
----
+The other top predictions show the same pattern:
+- **Aortic malformation and esophageal malformation:** no plausible mechanism.
+- **Migraine (two entries):** prostaglandins are pro-nociceptive, and headache is a recognised adverse effect of carboprost, so the direction of benefit is doubtful.
+- **Pulmonary hypertension:** carboprost causes pulmonary vasoconstriction, so this is more likely a harm signal than a benefit.
+- **Amenorrhea:** the reproductive-tract link is conceivable, but carboprost induces uterine contraction and does not restore ovulatory cycles.
+- **Primary hereditary glaucoma:** this is the only prediction with a class-level link. Topical PGF2-alpha analogs such as latanoprost lower intraocular pressure. That evidence does not extend to systemic carboprost, and the condition is usually treated surgically, so it stays a hypothesis-generating question.
 
 ## Clinical Trial Evidence
 
-No clinical trials directly evaluating carboprost tromethamine for any of the 10 predicted indications were identified across ClinicalTrials.gov and ICTRP. One trial surfaced in the aortic malformation search but is not relevant to drug repurposing:
+Currently no related clinical trials registered for atypical coarctation of aorta.
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT04481503](https://clinicaltrials.gov/study/NCT04481503) | N/A | Completed | 150 | Observational echocardiography study characterising cardiac function during labour. Carboprost, if present, would appear only as a background uterotonic agent — it is not a study intervention and provides no evidence for treating aortic malformation. |
-
----
+For reference, the only trial linked to any top-ranked prediction is [NCT04481503](https://clinicaltrials.gov/study/NCT04481503). It is a completed, N/A-phase observational echocardiography study of 150 women in labor, linked to aortic malformation (rank 2). It did not test carboprost, so it provides no efficacy evidence.
 
 ## Literature Evidence
 
-Currently no related literature available for any of the 10 predicted indications.
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Carboprost tromethamine is **not registered with HSA** in Singapore. There are no active marketing authorisations, and no dosage forms are on record.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN06722P | HEMABATE INJECTION 250 mcg/ml (Pharmacia & Upjohn Company LLC) | Injection | Not stated in the record |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+The Evidence Pack contains no package insert warnings, contraindications or drug interaction records (the DDI query returned no results). Please refer to the package insert for safety information.
 
-> **Critical safety signal — Pulmonary Hypertension (Rank 5):** The mechanistic review flags that carboprost tromethamine is known clinically to cause **pulmonary vasoconstriction and bronchospasm**. Obstetric clinical guidelines explicitly list pulmonary hypertension as a contraindication or high-caution situation for carboprost use. The rank 5 prediction (pulmonary hypertension) therefore represents a potential harm risk rather than a repurposing opportunity and should be documented as a known contraindication in any clinical summary involving this drug.
-
----
+The mechanism analysis raises these pharmacology-based concerns:
+- Pulmonary vasoconstriction and bronchoconstriction, so caution is needed in cardiopulmonary disease.
+- Common adverse effects include headache, nausea, vomiting and diarrhea.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold (9 of 10 indications) / Research Question (Primary Hereditary Glaucoma)**
+**Decision: Hold**
 
 **Rationale:**
-The large majority of TxGNN predictions for carboprost tromethamine reflect prostaglandin-class knowledge graph connectivity rather than genuine mechanistic pathways. PGF2α agonism is pharmacologically distinct from — and in multiple cases directly opposed to — the prostaglandin subtypes relevant to the predicted diseases (PGE1 for vascular patency, PGI2 for pulmonary arterial hypertension, COX inhibition for migraine). The single exception is primary hereditary glaucoma, where FP receptor activation has a well-established therapeutic role in IOP reduction through the same class of drugs (latanoprost, bimatoprost) already in clinical use. Carboprost is not marketed in Singapore, eliminating any regulatory shortcut. The rank 5 prediction (pulmonary hypertension) should be actively flagged as a contraindication rather than a target.
+The prediction has no mechanistic basis, no clinical trials and no literature (evidence level L5). Several related predictions, such as pulmonary hypertension, conflict with carboprost's known pharmacology and may signal harm.
 
-**To advance the Primary Hereditary Glaucoma research question, the following is needed:**
-- MOA data retrieval from DrugBank API (currently a data gap)
-- Systematic literature review of historical carboprost IOP-lowering studies (pre-latanoprost era pharmacology)
-- Ocular formulation feasibility assessment: carboprost lacks the 17-phenyl and ester modifications that optimise corneal penetration and FP-receptor selectivity in approved glaucoma agents
-- Expert ophthalmology pharmacology consultation on MYOC/CYP1B1 mutation phenotypes and whether uveoscleral drainage enhancement can overcome trabecular structural damage
-- Systemic safety risk assessment: any topical ocular formulation must demonstrate absence of meaningful uterotonic and bronchoconstrictor systemic absorption
-
-**For all remaining 9 indications:** No further evaluation is recommended at this stage.
+**To proceed, the following is needed:**
+- The HSA package insert warnings and contraindications (a blocking gap for safety screening).
+- Mechanism of action data from DrugBank.
+- For atypical coarctation of aorta, a credible mechanistic hypothesis; without one, further work is not justified.
+- For primary hereditary glaucoma only, a literature review of PGF2-alpha analog evidence to decide whether the question is worth pursuing.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

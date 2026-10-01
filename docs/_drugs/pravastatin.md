@@ -3,14 +3,14 @@ layout: default
 title: Pravastatin
 parent: Medium Evidence (L3-L4)
 nav_order: 809
-evidence_level: L3
+evidence_level: L4
 indication_count: 10
 ---
 
 # Pravastatin
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,87 +29,75 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Pravastatin: From Hypercholesterolemia to Homozygous Familial Hypercholesterolemia
+# Pravastatin: From Statin Lipid-Lowering Therapy to Homozygous Familial Hypercholesterolemia
 
 ## One-Sentence Summary
 
-Pravastatin is a well-established HMG-CoA reductase inhibitor (statin) used to lower LDL cholesterol in patients with high cholesterol/dyslipidemia.
-The TxGNN model predicts it may also be effective for **Homozygous Familial Hypercholesterolemia (HoFH)**,
-but this direction is currently supported by only **1 tangentially related clinical trial** (testing a different drug) and a small set of general statin/FH literature — evidence remains preliminary.
-
----
+Pravastatin is an HMG-CoA reductase inhibitor (statin) used to lower cholesterol, and it is marketed in Singapore as oral tablets and capsules.
+The TxGNN model predicts it may be effective for **homozygous familial hypercholesterolemia (HoFH)**, with **1 clinical trial** and **13 publications** retrieved. However, none of these tests pravastatin in HoFH, so the prediction rests mainly on the shared lipid-lowering mechanism.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | High cholesterol / dyslipidemia (HMG-CoA reductase inhibitor class; drawn from trial background descriptions, not registered as a Singapore-labeled indication) |
-| Predicted New Indication | Homozygous Familial Hypercholesterolemia (HoFH) |
+| Predicted New Indication | Homozygous familial hypercholesterolemia |
 | TxGNN Prediction Score | 99.95% |
-| Evidence Level | L3 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 3 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for pravastatin is not available in our records (data gap). Based on known information, pravastatin belongs to the statin (HMG-CoA reductase inhibitor) class, which lowers LDL cholesterol by inhibiting hepatic cholesterol synthesis and upregulating LDL receptor expression on hepatocytes. Its efficacy in general hypercholesterolemia and heterozygous familial hypercholesterolemia (heFH) is well documented in the literature included in this evidence pack (e.g., pediatric heFH RCTs, long-term follow-up studies).
+Currently, detailed mechanism of action data is not available in the supplied record. Based on known pharmacology, pravastatin is a statin. It inhibits HMG-CoA reductase, lowers intracellular cholesterol, and raises hepatic LDL receptor (LDLR) expression, which clears LDL cholesterol from the blood.
 
-However, the mechanistic bridge from pravastatin's proven use to **homozygous** FH is weak. HoFH patients typically have severely deficient or absent LDL receptor function, and since statins act primarily by upregulating this same receptor pathway, their efficacy in HoFH is inherently limited. In clinical practice, statins are used only as adjunct background therapy in HoFH, with primary treatment relying on PCSK9 inhibitors (e.g., alirocumab) or LDL apheresis — both mechanistically distinct from statins.
-
-This is reflected in the evidence pack itself: the only clinical trial linked to this indication (NCT03510715) tests **alirocumab**, not pravastatin, and is flagged as low relevance (Grade C) precisely because of this mechanistic mismatch. The prediction should therefore be treated as a research hypothesis rather than an actionable repurposing candidate at this stage.
-
----
+HoFH is a severe inherited form of high cholesterol. The LDL receptor is absent or severely impaired, so a drug that works by upregulating that receptor is expected to give only a small response. The response depends on how much residual receptor activity remains. The high TxGNN score most likely reflects the shared lipid-lowering mechanism and the close link between the two conditions, not pravastatin-specific HoFH data.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Phase 3 | Completed | 18 | Evaluated **alirocumab** (not pravastatin) in children/adolescents with HoFH; assessed LDL-C reduction at 12/24/48 weeks on top of background lipid-lowering therapy (which may include statins). Flagged as low relevance — different drug and mechanism than pravastatin. |
-
----
+| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Phase 3 | Completed | 18 | Open-label study of alirocumab (a PCSK9 inhibitor) on LDL-C in children and adolescents aged 8–17 with HoFH, on top of background therapy. Pravastatin is not the test drug, so this gives no direct efficacy evidence. |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31696945](https://pubmed.ncbi.nlm.nih.gov/31696945/) | 2019 | Review (Cochrane) | Cochrane Database Syst Rev | Statins are effective and generally safe for lowering LDL-C in children with familial hypercholesterolemia; homozygotes have markedly more severe disease than heterozygotes, with limited statin monotherapy response. |
-| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | Guideline | Endocr Pract | AACE/ACE dyslipidemia management guidelines, including treatment algorithms for familial hypercholesterolemia (including HoFH combination approaches). |
-| [28685504](https://pubmed.ncbi.nlm.nih.gov/28685504/) | 2017 | Review (Cochrane) | Cochrane Database Syst Rev | Earlier version of the Cochrane review on statins in pediatric FH; supports efficacy/safety data mainly in heterozygous FH. |
-| [31358055](https://pubmed.ncbi.nlm.nih.gov/31358055/) | 2019 | In vitro (iPSC hepatocyte model) | Stem Cell Res Ther | LDLR-deficient iPSC-derived hepatocyte model for FH; a potential preclinical platform to test statin response in receptor-deficient states relevant to HoFH. |
-| [34425670](https://pubmed.ncbi.nlm.nih.gov/34425670/) | 2021 | Genetic case study | Iran Biomed J | Identifies a novel LDLRAP1 splice-site variant causing FH, illustrating genetic heterogeneity underlying HoFH phenotypes and variable statin responsiveness. |
-| [15531000](https://pubmed.ncbi.nlm.nih.gov/15531000/) | 2004 | Review | Clin Ther | Rosuvastatin review noting that statins as a class (including pravastatin) are indicated across primary hypercholesterolemia, mixed dyslipidemia, and HoFH, generally as adjunct therapy. |
-| [12269853](https://pubmed.ncbi.nlm.nih.gov/12269853/) | 2002 | Review | Drugs | Comparative statin review showing pravastatin's lipid-lowering potency relative to other statins in general hypercholesterolemia trials (background context only). |
-| [9129869](https://pubmed.ncbi.nlm.nih.gov/9129869/) | 1997 | Review | Drugs | Atorvastatin pharmacology review used as comparator context for statin-class efficacy in hyperlipidemia (not HoFH-specific). |
-
----
+| [31696945](https://pubmed.ncbi.nlm.nih.gov/31696945/) | 2019 | Systematic review (Cochrane) | Cochrane Database Syst Rev | Statins for children with familial hypercholesterolemia. It covers FH broadly and is not specific to HoFH or pravastatin. |
+| [28685504](https://pubmed.ncbi.nlm.nih.gov/28685504/) | 2017 | Systematic review (Cochrane) | Cochrane Database Syst Rev | Earlier version of the same review on statins in pediatric FH. |
+| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | Guideline | Endocr Pract | AACE/ACE guidelines for managing dyslipidemia and preventing cardiovascular disease. |
+| [31358055](https://pubmed.ncbi.nlm.nih.gov/31358055/) | 2019 | Preclinical (iPSC model) | Stem Cell Res Ther | LDLR-deficient hepatocytes derived from stem cells, used to model FH and test gene correction. It is a disease model, not a drug study. |
+| [34425670](https://pubmed.ncbi.nlm.nih.gov/34425670/) | 2021 | Genetic study | Iran Biomed J | A novel LDLRAP1 splice-site variant found in a family clinically diagnosed with FH. |
+| [15531000](https://pubmed.ncbi.nlm.nih.gov/15531000/) | 2004 | Review | Clin Ther | Rosuvastatin in hyperlipidemia, including HoFH. It is about a different statin. |
+| [12269853](https://pubmed.ncbi.nlm.nih.gov/12269853/) | 2002 | Review | Drugs | Rosuvastatin review. It reports superior lipid improvement over atorvastatin, simvastatin and pravastatin in hypercholesterolemia. |
+| [14727947](https://pubmed.ncbi.nlm.nih.gov/14727947/) | 2003 | Review | Am J Cardiovasc Drugs | Ezetimibe, a cholesterol absorption inhibitor. It is about a different drug. |
+| [14647533](https://pubmed.ncbi.nlm.nih.gov/14647533/) | 2003 | Review | Cardiovasc Drug Rev | Ezetimibe as a first-in-class cholesterol absorption inhibitor. |
+| [9129869](https://pubmed.ncbi.nlm.nih.gov/9129869/) | 1997 | Review | Drugs | Atorvastatin pharmacology and use in hyperlipidaemia. It is about a different statin. |
 
 ## Singapore Market Information
 
-Pravastatin currently has **no registered product licenses** in Singapore (0 licenses on file; market status: not marketed). No dosage form or approved indication text is available to summarize.
-
----
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN12671P | APO-PRAVASTATIN TABLET 10 mg | Tablet |
+| SIN12670P | APO-PRAVASTATIN TABLET 20 mg | Tablet |
+| SIN14508P | PRAVAFEN HARD CAPSULES 40mg/160mg | Capsule |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Local (Singapore) prescribing warnings, contraindications, and drug-drug interaction data are not currently on file — resolving this is flagged as a **blocking gap** for any safety pre-assessment (see Next Steps).
-
----
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The only trial linked to this indication tests a different drug (alirocumab) rather than pravastatin, and the underlying mechanism — LDL receptor upregulation — is inherently limited in HoFH patients who often have absent or severely dysfunctional LDL receptors. Evidence level L3 reflects supportive literature on statins in FH generally, but not direct, disease-specific validation for pravastatin in HoFH.
+The only retrieved trial tests a different drug (alirocumab), and no paper tests pravastatin in HoFH. Mechanistically, statins depend on residual LDL receptor function, which is minimal in HoFH, so a meaningful response is uncertain. The prediction is currently model-driven.
 
 **To proceed, the following is needed:**
-- Direct clinical or observational data on pravastatin (not just statins as a class, or PCSK9 inhibitors) specifically in HoFH patients, stratified by LDL receptor genotype (receptor-negative vs. receptor-defective)
-- Local regulatory safety documentation — Singapore HSA package insert warnings, contraindications, and DDI profile (currently a blocking data gap)
-- Mechanism of action documentation from DrugBank to support formal mechanistic-relevance scoring
-- Given the near-identical, better-evidenced candidate "hypercholesterolemia, autosomal dominant" in the same prediction set (L1 evidence, multiple completed trials, "Proceed with Guardrails" recommendation), consider prioritizing that indication over HoFH for near-term action.
+- HSA package insert warnings, contraindications and approved indications (the registration record has no indication text)
+- Detailed mechanism of action data
+- Pravastatin-specific efficacy data in HoFH, such as response by residual LDLR activity (receptor-defective vs receptor-negative)
+- Review of the related entries for familial hypercholesterolemia and autosomal dominant hypercholesterolemia. They have pravastatin-specific pediatric studies and are much closer to an established lipid-lowering use, and they largely overlap each other.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

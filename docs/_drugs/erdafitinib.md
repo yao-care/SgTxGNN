@@ -33,92 +33,81 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Erdafitinib (Balversa) is a pan-FGFR (fibroblast growth factor receptor 1–4) inhibitor approved for locally advanced or metastatic urothelial carcinoma harboring FGFR2/3 alterations.
-The TxGNN model predicts potential therapeutic utility in **Pulmonary Hypertension** with a score of **99.38%**, however **no clinical trials and no published literature** have been identified to support this direction — this remains a purely model-driven hypothesis at this time.
-
----
+Erdafitinib is an oral FGFR kinase inhibitor, originally used to treat FGFR-altered urothelial carcinoma.
+The TxGNN model predicts it may be effective for **pulmonary hypertension**, but there are currently **0 clinical trials** and **0 publications** supporting this direction.
+This is a computational prediction only.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Urothelial carcinoma with FGFR2/3 gene alterations |
-| Predicted New Indication | Pulmonary Hypertension |
+|------|------|
+| Original Indication | Urothelial carcinoma with FGFR alterations (from general drug knowledge; the Singapore registration records contain no indication text) |
+| Predicted New Indication | Pulmonary hypertension |
 | TxGNN Prediction Score | 99.38% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 3 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the current evidence pack. Based on publicly known information, erdafitinib is a selective, orally bioavailable pan-FGFR inhibitor that targets FGFR1, FGFR2, FGFR3, and FGFR4 through competitive ATP-binding inhibition, blocking downstream RAS–MAPK and PI3K–AKT proliferative signalling cascades. It received FDA approval in April 2019 under the brand name Balversa for patients with locally advanced or metastatic urothelial carcinoma harboring susceptible FGFR2/3 alterations.
+Detailed mechanism-of-action data is not available in the Evidence Pack. From general drug knowledge, erdafitinib is a pan-FGFR (FGFR1-4) tyrosine kinase inhibitor. Its efficacy in FGFR-driven urothelial cancer is established.
 
-The mechanistic rationale for pulmonary arterial hypertension (PAH) draws on the known role of FGFR1 and FGFR2 in pulmonary vascular biology. FGFR1/2 are expressed on pulmonary arterial endothelial cells and smooth muscle cells, and FGF2 signalling has been shown to drive aberrant proliferation of pulmonary arterial smooth muscle cells (PASMCs) — a central feature of PAH vascular remodelling. By inhibiting FGFR-mediated signalling, erdafitinib could theoretically attenuate this pathological process.
+FGF/FGFR signalling has been implicated in pulmonary vascular remodelling, which is a core feature of pulmonary hypertension. This makes the link biologically plausible. However, there is no clinical or preclinical evidence for erdafitinib specifically. FGF signalling may also be protective in the pulmonary vasculature, so FGFR inhibition could be harmful rather than helpful. The high TxGNN score reflects knowledge-graph proximity, not proof of benefit.
 
-It is important to note that this mechanistic link is pre-clinical in nature. No clinical trials or publications investigating erdafitinib in PAH have been identified. The prediction relies entirely on knowledge graph inference by the TxGNN model, and should be treated as a hypothesis-generating signal rather than actionable clinical evidence.
-
----
+Other top-ranked predictions are weaker:
+- **Rheumatoid arthritis** (score 99.25%) is the only other candidate with any literature. That is a general review of FDA-approved kinase inhibitors with no RA-specific erdafitinib data (Evidence Level L4).
+- **Amyotrophic lateral sclerosis** appears three times (ranks 5, 7 and 8). Rank 7 has a typo in the source data ("amyotrohpic"). These entries should be deduplicated, and no FGFR-related mechanism is known.
+- **Kyphoscoliotic heart disease, amenorrhea, brachydactyly-syndactyly syndrome, axial spondylometaphyseal dysplasia and Mills syndrome** have no clear FGFR-mediated mechanism and no evidence. Several also raise safety concerns for FGFR blockade in developing bone.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Erdafitinib in Pulmonary Hypertension.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for Erdafitinib in Pulmonary Hypertension.
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Erdafitinib is not currently registered with the Health Sciences Authority (HSA) in Singapore. No product authorisation records are available at this time.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN15986P | BALVERSA Film-Coated Tablets 3 mg | Film-coated tablet | — |
+| SIN15987P | BALVERSA Film-Coated Tablets 4 mg | Film-coated tablet | — |
+| SIN15988P | BALVERSA Film-Coated Tablets 5 mg | Film-coated tablet | — |
 
----
+All three are made by Janssen Cilag SpA and are oral products.
 
 ## Cytotoxicity
 
-Erdafitinib is an antineoplastic targeted therapy indicated for cancer treatment, and is subject to cytotoxic drug handling considerations.
-
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy (Pan-FGFR kinase inhibitor) |
-| Myelosuppression Risk | Low to Moderate (anaemia reported; does not carry the typical broad myelosuppressive profile of conventional cytotoxics) |
-| Emetogenicity Classification | Low to Moderate |
-| Monitoring Items | Serum phosphate (hyperphosphataemia is a common on-target effect), renal function, ophthalmic exam (central serous retinopathy / retinal pigment epithelial detachment risk), liver function, CBC |
-| Handling Protection | Follow institutional cytotoxic drug handling and disposal procedures per applicable guidelines |
+|------|------|
+| Cytotoxicity Classification | Targeted therapy (FGFR kinase inhibitor), not a conventional cytotoxic |
+| Myelosuppression Risk | Low (not a prominent feature of this class) |
+| Emetogenicity Classification | Low |
+| Monitoring Items | Serum phosphate, eye examinations, skin and nail changes, liver and renal function; please refer to the package insert warnings and precautions |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
----
+These entries come from general drug knowledge, not from the Evidence Pack.
 
 ## Safety Considerations
 
-> ⚠️ **Mechanistic Safety Signal — Amenorrhea**: The TxGNN model predicts an association between erdafitinib and amenorrhea (rank 3, score 99.26%). This is flagged as a **direction-incorrect** prediction: FGFR1 loss-of-function mutations naturally cause Kallmann syndrome (anosmia + hypogonadotropic amenorrhoea). As an FGFR1 inhibitor, erdafitinib may **induce or exacerbate** menstrual irregularities rather than treat them. This signal should be tracked as a potential adverse effect in female patients, not as a therapeutic indication.
-
-For complete warnings, contraindications, and drug interaction data, please refer to the full Balversa (erdafitinib) prescribing information / package insert.
-
----
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Although the TxGNN model assigns a high prediction score (99.38%) to pulmonary hypertension, and a biologically plausible FGFR–FGF2 vascular remodelling mechanism exists, the current evidence base is L5 — model prediction only, with zero clinical trials, zero supporting publications, no Singapore regulatory footprint, and absent formal MOA documentation in the evidence pack. The drug's oncology-grade toxicity profile (hyperphosphataemia, retinal toxicity) also requires careful evaluation before considering application in a non-oncology PAH population.
-
-An additional pattern is noted across the top-10 predictions: three separate ALS-related ontology nodes appear (ranks 5, 7, 8), suggesting possible knowledge graph node redundancy that may inflate scores for neurological indications.
+The prediction rests on model score alone (Evidence Level L5), with no trials, no literature and no established mechanism for erdafitinib in pulmonary hypertension. FGFR signalling could be protective in the lung vasculature, so a therapeutic effect cannot be assumed.
 
 **To proceed, the following is needed:**
+- Package insert warnings and contraindications from HSA. This is a blocking gap for safety screening.
+- Mechanism-of-action data from DrugBank.
+- Preclinical evidence (for example, pulmonary hypertension animal models) showing FGFR inhibition helps rather than harms.
+- Normalisation of duplicate and misspelled disease entries (the ALS group) in the prediction output.
 
-- Formal DrugBank MOA documentation confirming FGFR1/2 inhibition profile specific to pulmonary vasculature
-- Pre-clinical PAH model data (e.g., MCT or SU5416/hypoxia rat models) demonstrating FGFR inhibition efficacy
-- Cross-reference review of nintedanib (a multi-kinase inhibitor including FGFR) PAH/ILD data as a mechanistic analogue to assess feasibility of the class effect
-- Safety assessment of hyperphosphataemia and retinal toxicity acceptability for a chronic PAH patient population (vs. short-course oncology use)
-- Singapore HSA regulatory pathway assessment (new drug application vs. expanded indication, noting zero current registrations)
-- Ophthalmic and endocrine safety monitoring plan if exploratory PAH studies are initiated
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

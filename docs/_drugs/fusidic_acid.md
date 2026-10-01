@@ -29,82 +29,74 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Fusidic Acid: From Staphylococcal Infections to Exposure Keratitis
+# Fusidic Acid: From Topical Antibacterial Use to Exposure Keratitis
 
 ## One-Sentence Summary
 
-Fusidic acid is a steroidal bactericidal antibiotic with potent anti-staphylococcal activity, approved in several European countries as an ophthalmic gel (Fucithalmic® 1%) for bacterial conjunctivitis and widely used for staphylococcal skin and soft tissue infections.
-The TxGNN model predicts it may be effective for **Exposure Keratitis**, though only **1 tangentially related publication** currently supports this specific direction.
-Among the 10 evaluated predictions, **Post-Bacterial Disorder (ABSSSI) at rank 5** carries a completed Phase 3 RCT (NCT02570490, n=716) and warrants priority attention as a separate evaluation.
-
----
+Fusidic acid is an antibacterial marketed in Singapore mainly as creams and ointments. The TxGNN model predicts it may be useful for **exposure keratitis**, but **no clinical trials** and only **1 publication**, which does not test fusidic acid, support this direction. The evidence is indirect, so the recommendation is to hold.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | No Singapore registration on record |
-| Predicted New Indication | Exposure Keratitis |
+| Original Indication | Not stated in the Singapore registration records (marketed as a topical antibacterial) |
+| Predicted New Indication | Exposure keratitis |
 | TxGNN Prediction Score | 99.95% |
 | Evidence Level | L4 |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 19 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, no formal mechanism of action data is available in the regulatory database. Based on published pharmacology, fusidic acid is a steroidal antibiotic that irreversibly binds to the bacterial elongation factor G (EF-G)–GDP complex during ribosomal translocation, blocking peptide chain elongation and thereby inhibiting bacterial protein synthesis. It displays potent bactericidal or bacteriostatic activity against *Staphylococcus aureus* — including methicillin-resistant strains (MRSA and MRSE) — with MIC₉₀ values typically below 0.5 μg/mL, making it one of the more reliable topical anti-staphylococcal agents available.
+Fusidic acid inhibits bacterial elongation factor G, which blocks protein synthesis. It is mainly active against Gram-positive organisms such as *Staphylococcus*.
 
-The mechanistic bridge to exposure keratitis rests on fusidic acid's established ophthalmic precedent: Fucithalmic® 1% gel has received regulatory approval in multiple European countries (including the UK, Denmark, and Sweden) for the topical treatment of bacterial conjunctivitis. This confirms both ocular surface tolerability and clinically meaningful local anti-staphylococcal activity, and provides a pharmacological foundation for extrapolating to adjacent conditions of the corneal surface.
+Exposure keratitis is damage to the corneal surface from inadequate eyelid closure and drying. Damaged corneal tissue can develop secondary bacterial infection. On that basis, an antibacterial rationale is plausible but indirect.
 
-Exposure keratitis results from incomplete eyelid closure — due to facial palsy, proptosis, or post-surgical lagophthalmos — leaving the corneal epithelium chronically exposed to desiccation and secondary bacterial superinfection, most frequently caused by *S. aureus*. Topical fusidic acid could theoretically prevent or treat these secondary staphylococcal infections in an already-compromised cornea. However, no clinical trials have investigated this application, and the single available publication is only tangentially relevant, keeping the evidence firmly at the preclinical/mechanistic stage (L4).
-
----
+The only publication retrieved is a case series on ocular *Tsukamurella* infection. It does not study fusidic acid or exposure keratitis. The model's high score is therefore not backed by direct evidence. In addition, the registered products are creams and ointments for skin use, and their suitability for the eye has not been assessed.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for exposure keratitis.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31246677](https://pubmed.ncbi.nlm.nih.gov/31246677/) | 2019 | Case Series | *Cornea* | Largest reported case series of *Tsukamurella* spp.–associated ophthalmic infections, including corneal and conjunctival presentations; highlights the clinical spectrum of opportunistic ocular bacterial infections and the importance of targeted anti-staphylococcal/anti-bacterial selection in refractory periocular cases |
-
----
+| [31246677](https://pubmed.ncbi.nlm.nih.gov/31246677/) | 2019 | Case series | Cornea | Largest case series of *Tsukamurella* ophthalmic infections, covering clinical spectrum, risk factors, treatment and outcome. It includes the first report of an ocular implant infection after enucleation. It does not evaluate fusidic acid. |
 
 ## Singapore Market Information
 
-Fusidic acid is not currently registered or marketed in Singapore, and no product licenses are on file. For international context, Fucithalmic® 1% ophthalmic gel (fusidic acid) is registered in several European jurisdictions for bacterial conjunctivitis, and oral/topical fusidic acid preparations (e.g., Fucidin®) are approved for staphylococcal skin and soft tissue infections across Europe and Asia-Pacific.
+19 registrations in total, in cream, ointment and solution forms. The five main ones are below. The registration records do not include approved-indication text.
 
----
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN15620P | DEFUZIN CREAM 2% W/W | Cream | Xepa-Soul Pattinson (Malaysia) Sdn Bhd |
+| SIN12595P | DUZEN CREAM 2% w/w | Cream | Prime Pharmaceutical Sdn Bhd |
+| SIN08922P | BALAD OINTMENT 20 mg/g | Ointment | Korean Drug Co Ltd |
+| SIN14054P | DISUF OINTMENT 2% W/W | Ointment | Hovid Bhd. |
+| SIN14677P | AXCEL FUSIDIC ACID CREAM 2.0% w/w | Cream | Kotra Pharma (M) Sdn Bhd |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic rationale is coherent — European approval for bacterial conjunctivitis demonstrates ocular tolerability and anti-staphylococcal efficacy at the corneal surface — but no controlled clinical data exist specifically for exposure keratitis (L4 evidence, 0 trials, 1 tangentially related case series). Committing resources to this indication without any interventional pilot data is premature.
+The prediction score is very high, but there are no clinical trials for exposure keratitis. The single publication is an unrelated infection case series. No available product is confirmed as an ophthalmic formulation, and safety data for ocular use are missing.
 
-> ⚠️ **Higher-Priority Finding:** Among all 10 evaluated predictions, **Post-Bacterial Disorder / Acute Bacterial Skin and Skin Structure Infections (rank 5)** is supported by a completed Phase 3 double-blind multi-centre RCT (NCT02570490, n=716, oral sodium fusidate vs. oral linezolid), qualifying for **L1 evidence** and a **"Proceed with Guardrails"** recommendation. This indication should be prioritised for a dedicated repurposing evaluation report.
+**To proceed, the following is needed:**
+- Package insert warnings and contraindications from HSA (currently a blocking gap for safety screening)
+- Formal mechanism-of-action data from DrugBank
+- Evidence on ocular safety and on whether an ophthalmic formulation exists or is feasible
+- Any direct studies of fusidic acid in bacterial keratitis or exposure keratitis
 
-**To advance exposure keratitis from Hold to active research, the following is needed:**
+**Note on other predictions:** For this drug, otitis externa (rank 3) is the prediction with the most supporting literature. It has 5 publications, including 2 human studies of discharging ears, and is at the S1 safety-review stage. All of these are indirect microbiology or resistance studies rather than treatment trials. If a follow-up is prioritised, that candidate may be the better research question, after local resistance rates are checked.
 
-- Retrospective case review or prospective pilot study of topical fusidic acid in exposure keratitis patients with documented staphylococcal superinfection
-- Head-to-head comparison with current standard-of-care topical antibiotics (e.g., chloramphenicol, ciprofloxacin, tobramycin)
-- Full safety review: obtain complete package insert including warnings, contraindications, and drug interaction data (currently unavailable in the data pack)
-- Confirm ocular pharmacokinetics: tear film concentration, corneal penetration, and dosing frequency for Fucithalmic® formulation applied to an exposed cornea
-- Singapore regulatory pathway assessment for a new ophthalmic indication, given the drug is currently not marketed locally
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

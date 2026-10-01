@@ -29,74 +29,66 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-Using the drug-repurposing evaluation report template (v5) supplied in your prompt to convert this Evidence Pack into the report.
-
-# Lactic Acid: From No Registered Indication to Atypical Coarctation of Aorta
+# Lactic Acid: From Marketed Topical and Infusion Products to Atypical Coarctation of Aorta
 
 ## One-Sentence Summary
 
-Lactic acid (DrugBank DB04398) has **no recorded approved indication or mechanism-of-action data** in this evidence pack, and it is **not currently marketed in Singapore** (0 licenses on file). The TxGNN model's top-ranked prediction is **Atypical Coarctation of Aorta** (score 99.59%), but this prediction is supported by **zero clinical trials and zero publications**, and the model's own rationale flags the biological plausibility as extremely low. Across all 10 predicted indications reviewed, none currently clear the bar for progression beyond exploratory research.
-
----
+Lactic acid is marketed in Singapore in three products: a topical tincture, a topical solution, and a compound sodium lactate intravenous infusion.
+The TxGNN model predicts it may be effective for **atypical coarctation of aorta**, a structural vascular malformation.
+This is a purely computational prediction, with **0 clinical trials** and **0 publications** supporting it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no license records exist for this drug in Singapore, and no approved indication text was returned |
-| Predicted New Indication | Atypical Coarctation of Aorta |
+| Original Indication | Not stated in the Singapore registration records |
+| Predicted New Indication | Atypical coarctation of aorta |
 | TxGNN Prediction Score | 99.59% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not marketed (Not Marketed) |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 3 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism-of-action data is not available for lactic acid in this evidence pack, and no original approved indication is on record — the drug has no Singapore marketing licenses at all. What is known pharmacologically is that lactic acid is an endogenous metabolite of anaerobic glycolysis, functioning primarily as a pH regulator and metabolic intermediate rather than as a structurally targeted therapeutic agent.
+Currently, detailed mechanism of action data is not available. Lactic acid is used in topical and intravenous products in Singapore, but the registration records list no approved indication text. This makes it hard to link its established use to the predicted disease.
 
-Atypical coarctation of aorta is a **congenital structural vascular malformation** — a fixed anatomical narrowing of the aorta that typically requires surgical or catheter-based correction. There is no established pharmacological pathway by which a small-molecule metabolite like lactic acid could reverse or remodel this type of structural defect. The evidence pack's own mechanistic assessment is explicit on this point: *"主動脈狹窄為先天結構性血管畸形，乳酸為代謝物/pH調節劑，無已知結構修復或血管重塑機轉，生物合理性極低"* (aortic coarctation is a congenital structural vascular malformation; lactic acid is a metabolite/pH regulator with no known structural repair or vascular remodeling mechanism — biological plausibility is extremely low).
+Atypical coarctation of aorta is a structural malformation of the aorta, normally corrected by surgery or by a device. We found no plausible way for lactic acid to act on this pathology. The high score (0.996) most likely reflects proximity to unrelated nodes in the knowledge graph rather than a true therapeutic signal.
 
-In short, this is a case where the TxGNN model's high similarity score (a network-topology artifact) is not backed by any mechanistic, preclinical, or clinical signal. The prediction should be treated as **hypothesis-generating only**, not as a basis for further clinical evaluation at this time.
-
----
+The other top-ranked predictions look similar. Several of them, including aortic malformation, esophageal malformation and cauda equina syndrome, are structural or surgical conditions with no evidence or mechanism. For dry eye, eye disease and esophageal disease, the literature mostly shows lactate acting as a **pathogenic** mediator, which points the opposite way from repurposing.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
+## Singapore Market Information
+
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN04047P | DUOFILM COLLODION | Tincture | Delpharm Bladel B.V. |
+| SIN04987P | SATO UONOME SOLUTION | Solution | SATO Pharmaceutical Co Ltd |
+| SIN06281P | COMPOUND SODIUM LACTATE INTRAVENOUS INFUSION BP | Injection | PT Otsuka Indonesia / Thai Otsuka Pharmaceutical Co Ltd |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-*(No key warnings, contraindications, or drug-interaction data were returned for lactic acid in this query; a DDI search also returned no results.)*
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The top-ranked prediction (Atypical Coarctation of Aorta) has **no clinical trial or literature support** and is explicitly flagged as having very low biological plausibility — a metabolic compound cannot correct a fixed structural vascular malformation.
-- Two of the required foundational data elements are missing at the Blocking/High severity level: TFDA/HSA label warnings and contraindications (**DG001, Blocking** — required before any S1 safety screening can begin) and mechanism-of-action data (**DG002, High** — needed to assess mechanistic relevance to any candidate indication).
-- Reviewing the other 9 predicted indications for lactic acid in this pack for context: most (atypical coarctation of aorta, non-syndromic esophageal malformation, double outlet right ventricle with AVSD, lacrimal system anomaly, cauda equina syndrome) have **no trial or literature evidence at all** (L5). The remaining candidates with some literature (aortic malformation, amenorrhea, esophageal disease, eye disease, dry eye syndrome) largely reflect **lactate as a monitored biomarker or disease-promoting metabolite** rather than as a therapeutic agent — in esophageal disease and eye disease specifically, multiple 2023–2025 mechanistic papers describe lactate/lactylation as **driving pathology** (e.g., promoting esophageal squamous cell carcinoma progression, promoting choroidal neovascularization and myopia), which is the **opposite direction** of a repurposing signal and should be treated as a potential safety flag rather than supporting evidence. Only dry eye syndrome (rank 5) reached decision stage S1 ("Research Question"), and even that signal is confounded by probiotic (Lactobacillus) evidence rather than lactic acid itself, with unresolved dose-dependent directionality (anti-inflammatory at low concentration vs. pro-inflammatory at high concentration).
+The TxGNN score is high, but there are no trials or publications for this indication. No mechanism links lactic acid to the pathology of a structural aortic malformation. The evidence level is L5 (model prediction only).
 
 **To proceed, the following is needed:**
-- TFDA/HSA package insert data — warnings, contraindications (resolves DG001, currently blocking)
-- DrugBank/pharmacology-sourced mechanism-of-action data for lactic acid (resolves DG002)
-- If pursuing the dry eye syndrome lead instead of the top-ranked candidate: preclinical dose-response data clarifying whether exogenous lactic acid is anti-inflammatory or pro-inflammatory at the ocular surface, and clarification of whether the therapeutic hypothesis is lactic acid itself or a lactate-producing probiotic
-- Given the current evidence, recommend deprioritizing this candidate pending the above data rather than advancing to further clinical evaluation
+- HSA package insert warnings and contraindications
+- Mechanism of action data (for example from DrugBank)
+- A credible mechanistic hypothesis and preclinical support for this indication, before any clinical investment
+- Confirmation that the registered dosage forms (topical and intravenous) are compatible with the route the new indication would require
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

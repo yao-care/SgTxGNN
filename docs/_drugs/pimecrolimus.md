@@ -33,76 +33,65 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-> Pimecrolimus (Elidel®) is a topical calcineurin inhibitor originally developed and registered for mild-to-moderate atopic dermatitis (eczema).
-> The TxGNN model predicts it may also be effective for **Seborrheic Dermatitis**,
-> with **1 completed randomized controlled trial** currently supporting this direction (no dedicated literature yet indexed).
-
----
+Pimecrolimus is a topical calcineurin inhibitor, marketed in Singapore as Elidel 1% cream and used for atopic dermatitis.
+The TxGNN model predicts it may be effective for **seborrheic dermatitis**.
+Support is thin: **1 clinical trial** (Phase 2, completed, no results provided) and **0 publications**.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Atopic dermatitis, mild-to-moderate (per global registered indication referenced in clinical trial records; no Singapore-specific label text available) |
-| Predicted New Indication | Seborrheic Dermatitis |
+| Original Indication | Atopic dermatitis (the established labeled use of pimecrolimus 1% cream; the Singapore licence record has no indication text) |
+| Predicted New Indication | Seborrheic dermatitis |
 | TxGNN Prediction Score | 99.73% |
 | Evidence Level | L2 |
-| Singapore Market Status | ✗ Not marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed structured mechanism-of-action data is not available in the current record (`original_moa: [Data Gap]`). However, based on the supporting literature captured in this evidence pack, Pimecrolimus is known as an ascomycin-derivative topical calcineurin inhibitor. It selectively inhibits T-cell activation and blocks release of pro-inflammatory cytokines (IL-2, IL-4, IFN-γ, TNF-α), and also inhibits mast cell degranulation — while, unlike tacrolimus, having minimal effect on Langerhans cell differentiation and maturation.
+Detailed mechanism of action data is not available in the record. Based on the known pharmacology of the drug class, pimecrolimus inhibits calcineurin. This blocks NFAT-dependent T-cell activation and the release of inflammatory cytokines such as IL-2, IL-4 and IFN-gamma.
 
-Atopic dermatitis and seborrheic dermatitis are both chronic inflammatory dermatoses with a significant T-cell-mediated inflammatory component, even though seborrheic dermatitis also involves a *Malassezia* yeast colonization factor. Because Pimecrolimus's core pharmacology targets the T-cell/cytokine-driven inflammatory axis rather than a disease-specific antigen, its anti-inflammatory action is mechanistically plausible for seborrheic dermatitis as an extension of its established anti-inflammatory use in eczema.
+Seborrheic dermatitis has an inflammatory component, driven by an immune response to *Malassezia* yeast. A topical anti-inflammatory that acts on T cells is therefore biologically plausible. Pimecrolimus is a non-steroidal agent, so it may also avoid the skin thinning seen with topical corticosteroids. This is relevant because seborrheic dermatitis often affects the face.
 
-This is not purely theoretical: a completed Phase 2, randomized, double-blind, active-comparator-controlled trial (NCT00403559, n=113) directly tested Pimecrolimus against an active comparator for seborrheic dermatitis, which is why this candidate reaches Evidence Level L2 rather than a prediction-only L5.
-
----
+The mechanistic argument rests on general class knowledge, not on data specific to this record.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00403559](https://clinicaltrials.gov/study/NCT00403559) | Phase 2 | Completed | 113 | 4-week randomized, double-blind, parallel-group, active-comparator-controlled exploratory study evaluating Elidel (Pimecrolimus) for treatment of seborrheic dermatitis |
+| [NCT00403559](https://clinicaltrials.gov/study/NCT00403559) | Phase 2 | Completed | 113 | 4-week randomized, double-blind, active-comparator study of Elidel in seborrheic dermatitis. Described as exploratory, and no results or effect sizes were provided. |
 
----
+This is the only trial specific to the predicted indication. It is direct, disease-specific evidence, but it needs published results or replication.
 
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Pimecrolimus is currently **not marketed** in Singapore, and no HSA license records were found in this evidence pack (total registrations: 0).
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN12179P | ELIDEL CREAM 1% w/w (MEDA Manufacturing) | Cream | Not stated in the licence record |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
-**Additional note:** Topical calcineurin inhibitors as a class (including Pimecrolimus) carry a well-known long-term malignancy safety signal that has been the subject of systematic review (PMID: 36370744, *Lancet Child & Adolescent Health*, 2023, cancer risk meta-analysis in atopic dermatitis patients exposed to pimecrolimus/tacrolimus). This was not captured in the structured `safety` fields of this evidence pack (marked as Data Gap) and should be explicitly retrieved and reviewed before any regulatory or clinical decision.
-
----
+Please refer to the package insert for safety information. No drug interaction records were found for this drug.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-A completed, randomized, active-comparator-controlled Phase 2 trial directly supports Pimecrolimus's efficacy in seborrheic dermatitis (Evidence Level L2), and the drug's known anti-inflammatory mechanism is biologically consistent with this indication. However, the drug is not currently marketed in Singapore, and critical safety documentation is missing.
+The evidence is one completed Phase 2 trial without reported results and no supporting publications. The Singapore package insert warnings and contraindications are also missing from the record, which blocks safety screening.
 
 **To proceed, the following is needed:**
-- **[Blocking]** Official label warnings/contraindications (equivalent to TFDA/HSA package insert) — required before any S1 safety pre-assessment can proceed
-- **[High priority]** Formal DrugBank/regulatory mechanism-of-action documentation to confirm the mechanistic linkage described above
-- Confirmation of Singapore/regional market entry pathway, since there are currently zero local registrations
-- Retrieval of the topical calcineurin inhibitor class malignancy safety signal (see PMID 36370744) into formal safety review before advancing past S3
+- The results of NCT00403559 (efficacy versus the active comparator), from the registry or a publication
+- The HSA package insert, to obtain warnings and contraindications
+- A review of the cancer-risk question for topical calcineurin inhibitors as a class, given the possibility of longer or repeated use in a chronic, relapsing condition
+- Mechanism of action data from DrugBank
+- Independent confirmation, such as a second controlled trial or a published systematic review, before moving beyond the research-question stage
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

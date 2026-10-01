@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Methyldopa
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 655
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 ---
 
 # Methyldopa
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,74 +33,61 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Methyldopa (DrugBank DB00968) is a centrally acting antihypertensive, originally used to control hypertension through suppression of central sympathetic outflow. The TxGNN model predicts it may be effective for **Malignant Renovascular Hypertension**, but currently only **0 clinical trials** and **3 publications** support this specific direction, and the literature is topic-adjacent rather than drug-specific — evidence is preliminary and mechanism-based only.
-
----
+Methyldopa is a long-established centrally acting antihypertensive.
+The TxGNN model predicts it may be useful in **malignant renovascular hypertension**, but **no clinical trials** and only **3 indirect publications** relate to this prediction, and none tests methyldopa in the condition.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (inferred from mechanistic description; no Singapore registration record available to confirm the approved label wording) |
-| Predicted New Indication | Malignant Renovascular Hypertension |
+| Original Indication | Hypertension (general drug knowledge; the Singapore licence record has no indication text) |
+| Predicted New Indication | Malignant renovascular hypertension |
 | TxGNN Prediction Score | 96.63% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (the pack lists L4, but the retrieved papers are indirect and do not study methyldopa in this condition) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Formal mechanism-of-action data for Methyldopa is flagged as a data gap in DrugBank (DG002, High severity), so the following is based on the repurposing-rationale analysis rather than a verified DrugBank MOA record and should be treated as provisional. Methyldopa is understood to act as a centrally acting α2-adrenergic agonist: it lowers central sympathetic outflow, which produces a systemic blood-pressure-lowering effect. This decades-old mechanism has an established, if dated, clinical safety track record in general hypertension management.
+Detailed mechanism-of-action data are not available in the Evidence Pack. Methyldopa is generally described as a prodrug that acts as an alpha-2 agonist in the central nervous system, which lowers sympathetic tone and blood pressure. A blood-pressure-lowering rationale for another severe form of hypertension is therefore plausible.
 
-Malignant renovascular hypertension is a severe subtype of hypertension driven by renal artery pathology with markedly elevated sympathetic/renin-angiotensin activity. Because Methyldopa's central sympatholytic mechanism is not specific to any one hypertension subtype, it is theoretically applicable across severe/malignant hypertension presentations, including the renovascular form — which is the basis of the TxGNN prediction.
-
-However, none of the three supporting publications directly studies Methyldopa in malignant renovascular hypertension. They are topic-adjacent: one concerns confounders of the aldosterone/renin ratio test (which happens to mention malignant/renovascular hypertension as a confounding condition), one is a case report of unrelated renovascular pathology (coarctation with neurofibromatosis), and one concerns other antihypertensive agents in hypertensive emergencies. The prediction is mechanistically plausible but lacks a direct evidentiary anchor.
-
----
+The link is weaker than it first looks. Renovascular hypertension is driven mainly by renin, and methyldopa lowers renin only modestly. The high score probably reflects the general "antihypertensive drug for hypertensive disease" pattern in the knowledge graph rather than a specific mechanism. The retrieved literature covers renin/aldosterone testing confounders, a renovascular hypertension case report, and emergency treatment with other drugs. No study tests methyldopa in this condition.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [22147655](https://pubmed.ncbi.nlm.nih.gov/22147655/) | 2012 | Review/Cohort | Hormone and Metabolic Research | Discusses factors that confound the aldosterone/renin ratio screening test for primary aldosteronism, noting that concomitant malignant or renovascular hypertension is one such confounder — not a study of Methyldopa itself |
-| [6424340](https://pubmed.ncbi.nlm.nih.gov/6424340/) | 1984 | Case Report | Wiener Klinische Wochenschrift | Case of a 16-year-old girl with renovascular hypertension, aortic coarctation, and neurofibromatosis; describes disease presentation only, no treatment data on Methyldopa |
-| [41307](https://pubmed.ncbi.nlm.nih.gov/41307/) | 1979 | Review | Revista de Medicina Interna... | Reviews sodium nitroprusside and diazoxide use in hypertensive emergencies; abstract unavailable, relevance to Methyldopa is indirect (different agents) |
-
----
+| [22147655](https://pubmed.ncbi.nlm.nih.gov/22147655/) | 2012 | Review | Hormone and Metabolic Research | Factors affecting the aldosterone/renin ratio. Malignant or renovascular hypertension can cause false-negative screening for primary aldosteronism. Methyldopa is not evaluated. |
+| [6424340](https://pubmed.ncbi.nlm.nih.gov/6424340/) | 1984 | Case report | Wiener Klinische Wochenschrift | A 16-year-old girl with renovascular hypertension, neurofibromatosis and multiple vascular abnormalities. No methyldopa treatment data. |
+| [41307](https://pubmed.ncbi.nlm.nih.gov/41307/) | 1979 | Review | Revista de Medicina Interna (Medicina Interna) | Sodium nitroprusside and diazoxide for hypertensive emergencies. Methyldopa is not the subject, and no abstract is available. |
 
 ## Singapore Market Information
 
-Methyldopa is currently **not registered or marketed in Singapore** — 0 product authorizations are on file in this evidence pack. No dosage form, brand name, or approved-indication text is available to summarize.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN03618P | AA PHARMA METHYLDOPA TABLET 250 mg (Apotex Inc) | Tablet, film coated (oral) | Not stated in the registration record |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-interaction data are currently marked as data gaps in this evidence pack — notably, missing TFDA label warnings/contraindications is flagged as a **Blocking** data gap, DG001, since it prevents a proper S1 safety screen.)
-
----
+Please refer to the package insert for safety information. No drug interaction records were found in the Evidence Pack.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on Evidence Level L4 (mechanism-based reasoning only) with no clinical trials and no drug-specific literature directly studying Methyldopa in malignant renovascular hypertension. Combined with the drug's absence from the Singapore market and a Blocking-severity gap in safety-labeling data (DG001), there is not yet enough evidence to proceed past a research-question stage.
+The prediction score is high, but it rests on model output alone. There are no trials, and the three papers are indirect. The mechanism is doubtful for a renin-driven condition, and safety data have not been reviewed.
 
 **To proceed, the following is needed:**
-- TFDA/official label warnings and contraindications for Methyldopa (DG001, Blocking — required before any S1 safety evaluation)
-- Confirmed mechanism-of-action record from DrugBank API (DG002, currently a data gap)
-- Direct clinical or preclinical studies evaluating Methyldopa specifically in malignant/renovascular hypertension populations
-- Confirmation of Singapore regulatory pathway options, given the drug is not currently marketed there
+- Singapore package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism-of-action data from DrugBank, and an assessment of methyldopa's effect on renin in renovascular disease
+- A targeted literature search for methyldopa in renovascular or malignant hypertension
+- Consideration of lower-ranked predictions with stronger evidence. **Chronic pulmonary heart disease** (rank 6, score 85.03%) has a 1988 randomized study of long-term methyldopa in hypoxic cor pulmonale (PMID 3076795, 25 patients). Its pulmonary haemodynamic results were inconclusive overall, and the full text needs review.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

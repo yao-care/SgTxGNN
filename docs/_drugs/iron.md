@@ -29,76 +29,79 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Iron: From Iron Deficiency Anaemia to Vitamin B12- and Folate-Independent Constitutional Megaloblastic Anaemia
+# Iron: From an Unrecorded Original Indication to Vitamin B12- and Folate-Independent Constitutional Megaloblastic Anemia
 
 ## One-Sentence Summary
 
-Iron (elemental iron, DrugBank DB01592) is an essential mineral supplement with a long-established clinical role in correcting iron deficiency and treating iron deficiency anaemia.
-The TxGNN model predicts it may be effective for **Vitamin B12- and Folate-Independent Constitutional Megaloblastic Anaemia**, with a high model confidence of **99.89%**; however, this prediction is currently supported by **no clinical trials** and **no published literature**, placing it at the lowest evidence tier (L5).
-
----
+Iron is a mineral with six registered products in Singapore, but the registration records do not state an approved indication.
+The TxGNN model ranks **vitamin B12- and folate-independent constitutional megaloblastic anemia** as its top prediction, with a very high score.
+**No clinical trials and no publications** support this prediction, and the available analysis suggests it is a graph-proximity artifact rather than a real therapeutic signal.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Iron deficiency anaemia |
-| Predicted New Indication | Vitamin B12- and Folate-Independent Constitutional Megaloblastic Anaemia |
+|------|------|
+| Original Indication | Not recorded in the Singapore licence data |
+| Predicted New Indication | Vitamin B12- and folate-independent constitutional megaloblastic anemia |
 | TxGNN Prediction Score | 99.89% |
-| Evidence Level | L5 — Model prediction only, no actual studies |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 6 |
 | Recommended Decision | Hold |
 
----
+## Why is This Prediction Reasonable?
 
-## Why Is This Prediction Reasonable?
+Currently, detailed mechanism of action data is not available for iron. The original indication is also missing from the local licence records, so the link between the original and new indication cannot be assessed directly.
 
-Currently, detailed mechanism of action data is not available. Based on known pharmacological information, Iron is an essential trace mineral whose primary therapeutic mechanism involves replenishing depleted iron stores, enabling haemoglobin synthesis, and supporting cellular oxygen transport via iron-containing proteins (haemoglobin, myoglobin, cytochromes). Its efficacy in treating iron deficiency and iron deficiency anaemia has been proven across decades of clinical use and is supported by extensive Phase 3 and Phase 4 evidence globally.
-
-Vitamin B12- and folate-independent constitutional megaloblastic anaemia is a rare, genetically determined disorder characterised by impaired DNA replication in erythroid precursors, resulting in abnormally large, dysfunctional red blood cells. By definition, this condition is not caused by deficiencies in vitamin B12 or folate metabolism, which makes its aetiology distinct from more common forms of megaloblastic anaemia. The molecular basis of this constitutional subtype remains incompletely understood.
-
-The mechanistic connection between iron supplementation and this specific form of megaloblastic anaemia is extremely tenuous. Iron deficiency classically causes microcytic, hypochromic anaemia — physiologically the opposite of macrocytic megaloblastic anaemia. Although iron serves as a cofactor in certain DNA synthesis enzymes (e.g., ribonucleotide reductase), no direct mechanistic link to this constitutional subtype has been established in any clinical or preclinical study. The TxGNN model's high confidence score (99.89%) most plausibly reflects knowledge-graph over-generalisation via shared "anaemia" disease nodes in the bipartite network, rather than a genuine therapeutic signal. This prediction is not supported by any existing clinical or basic science evidence.
-
----
+The prediction is probably not clinically meaningful. Megaloblastic anemia arises from impaired DNA synthesis, not from iron deficiency. The high TxGNN score most likely reflects the disease's proximity to other anemia nodes in the knowledge graph, not a causal mechanism. Giving iron without a confirmed iron deficit could worsen the picture.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for this indication.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for this indication.
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Iron (DB01592) is not currently registered in Singapore. No product authorisation records are available.
+Six registrations are on file. Five are shown below. The licence records do not include approved indication text.
 
----
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN14035P | Ferinject Solution for Injection 50mg/ml | Injection, solution |
+| SIN14981P | Maltofer Film-Coated Tablets 100mg | Tablet, film coated |
+| SIN16513P | Avofer Injection 100mg/5ml | Injection |
+| SIN05699P | Maltofer Drops 50 mg/ml | Solution |
+| SIN14727P | Velphoro® Chewable Tablets 500mg | Tablet, chewable |
+
+Available routes: oral and injectable.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
----
+Please refer to the package insert for safety information. No drug-interaction records were found.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This is an L5-level prediction with no supporting clinical trials or published literature, and the mechanistic rationale is physiologically contradictory — iron deficiency produces microcytic anaemia, not megaloblastic anaemia. The TxGNN model's high score most likely reflects knowledge-graph over-generalisation rather than a clinically meaningful repurposing signal.
+The top-ranked prediction has no trials or literature behind it and no plausible mechanism. It is best treated as a model artifact.
+
+Other predicted indications for iron have more support:
+
+| Rank | Predicted Indication | Evidence Level | Note |
+|------|------|------|------|
+| 2 | Plummer-Vinson syndrome | L4 | 20 publications (reviews and case reports) describe iron repletion as first-line care. No trials or controlled data exist. It is a reasonable research question. |
+| 5 | Vitamin deficiency disorder | L2 | Trials mostly test iron deficiency, not the exact mapped term. |
+| 10 | Perinatal disease | L2 | Iron-folic acid trials exist in pregnancy. Many test multiple micronutrients, so iron is not isolated. |
+| 7 | Injury | L4 | Mixed signal. Iron drives ferroptosis in brain and spinal cord injury, which is a safety concern for neurotrauma. |
 
 **To proceed, the following is needed:**
-- A credible and biologically plausible mechanistic hypothesis explaining how iron supplementation could address B12/folate-independent megaloblastosis (e.g., via iron's role in ribonucleotide reductase or other DNA repair enzymes)
-- At minimum, preclinical (cell or animal model) or case-report evidence demonstrating iron's effect in this specific anaemia subtype
-- Retrieval of detailed mechanism of action data from DrugBank (currently unavailable)
-- Review of regulatory package insert safety data, including key warnings and contraindications (currently unavailable)
-- Consultation with a haematologist specialising in constitutional anaemias before any further investment in this direction
+- Download and parse the HSA package insert to obtain the approved indications, warnings and contraindications (blocking gap).
+- Mechanism of action data from DrugBank.
+- Confirmation of iron-deficiency status before any iron use for this or any anemia-related indication.
+- Consider redirecting the evaluation to Plummer-Vinson syndrome, which has the most credible evidence.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

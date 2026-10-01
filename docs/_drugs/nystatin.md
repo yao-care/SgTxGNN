@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Nystatin
-parent: High Evidence (L1-L2)
+parent: Medium Evidence (L3-L4)
 nav_order: 720
-evidence_level: L2
+evidence_level: L3
 indication_count: 10
 ---
 
 # Nystatin
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Nystatin: From Candidiasis to Vulvovaginitis
+# Nystatin: From Antifungal Use to Vulvovaginitis
 
 ## One-Sentence Summary
 
-Nystatin is a polyene antifungal traditionally used to treat *Candida* (fungal) infections of the skin, mouth, and gastrointestinal tract. The TxGNN model predicts it may also be effective for **Vulvovaginitis** — specifically Candida-driven vulvovaginal infection — a use already well recognized in clinical practice, supported by **20 publications** and **no dedicated clinical trials** identified in this search.
+Nystatin is a polyene antifungal, but the Singapore registration data do not record its approved indications.
+The TxGNN model predicts it may be effective for **Vulvovaginitis**, with **0 registered clinical trials** and **20 publications** (mostly reviews, plus in vitro, animal and observational work).
+The evidence points to established antifungal use for Candida vulvovaginitis rather than a novel repurposing signal.
 
 ---
 
@@ -41,23 +43,23 @@ Nystatin is a polyene antifungal traditionally used to treat *Candida* (fungal) 
 
 | Item | Content |
 |------|------|
-| Original Indication | Candidiasis (fungal infections of skin, mucosa, GI tract) — general pharmacological knowledge; no Singapore-specific approved indication text available (drug not currently registered) |
+| Original Indication | Not stated in the Singapore registration data (nystatin is a polyene antifungal) |
 | Predicted New Indication | Vulvovaginitis |
 | TxGNN Prediction Score | 99.92% |
-| Evidence Level | L2 |
-| Singapore Market Status | Not Marketed (Not marketed) |
-| Number of Registrations | 0 |
+| Evidence Level | L3 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 4 |
 | Recommended Decision | Proceed with Guardrails |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed structured mechanism-of-action data was not available for this evidence pack. Based on well-established pharmacology, Nystatin is a polyene antifungal that binds ergosterol in the fungal cell membrane, forming pores that cause leakage of cellular contents and fungal cell death. This mechanism has made it a mainstay topical/oral antifungal against *Candida* species for decades.
+The DrugBank mechanism field was not populated for this record. The mechanism below comes from the evidence assessment. Nystatin binds ergosterol in fungal cell membranes and forms pores, causing leakage and cell death. This fits Candida-driven vulvovaginitis directly. Candida albicans accounts for 85–90% of vulvovaginal candidiasis cases, and vaginal use gives high local exposure with minimal systemic absorption.
 
-Vulvovaginitis, when caused by *Candida albicans* (vulvovaginal candidiasis), is mechanistically the same target organism and pathology that Nystatin already treats elsewhere in the body — it is in fact a long-standing, traditional treatment option for this exact indication (vaginal Nystatin tablets/suppositories have historical clinical use, though they have since been largely surpassed by azole antifungals as first-line therapy). This is therefore less a "novel" repurposing signal and more a case of TxGNN correctly recognizing an already-known mechanistic and clinical relationship.
+The literature shows nystatin already used for vulvovaginal candidiasis, including in fluconazole-resistant disease and in fixed combinations with other vaginal agents. The prediction therefore largely restates established use. Local labelling should be checked before this is classed as repurposing.
 
-The supporting literature consistently frames Nystatin as an established, if now second-line, agent for vulvovaginal candidiasis — including in fluconazole-resistant cases, where it is cited as one of the few remaining effective alternatives.
+Vulvovaginitis has several causes, and an antifungal only addresses the fungal component. Bacterial or mixed vaginitis needs different or combined treatment.
 
 ---
 
@@ -69,24 +71,33 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
+No randomized controlled trials were found among the 20 publications. The table lists the 10 most relevant items, in priority order. PMID 8193418 (metronidazole hypersensitivity) was retrieved but is not about nystatin, so it is excluded.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [39771534](https://pubmed.ncbi.nlm.nih.gov/39771534/) | 2024 | Review | Pharmaceutics | Reviews management of fluconazole-resistant vulvovaginal candidiasis; identifies Nystatin (alongside boric acid, oteseconazole, ibrexafungerp) as an alternative therapy. |
-| [21774671](https://pubmed.ncbi.nlm.nih.gov/21774671/) | 2011 | Review | J Women's Health | Reviews boric acid for recurrent VVC; notes non-albicans *Candida* resistance to azoles as context for alternative agents like Nystatin. |
-| [20406393](https://pubmed.ncbi.nlm.nih.gov/20406393/) | 2011 | Cohort | Mycoses | 287 *Candida* isolates from 283 patients with complicated VVC; correlated in vitro fluconazole/Nystatin susceptibility with clinical treatment outcome. |
-| [16047929](https://pubmed.ncbi.nlm.nih.gov/16047929/) | 2005 | Cohort | Ceska gynekologie | Evaluated combined vaginal Nystatin + nifuratel therapy for mixed/miscellaneous vulvovaginal infections. |
-| [30359236](https://pubmed.ncbi.nlm.nih.gov/30359236/) | 2018 | In-vivo (rat model) | BMC Microbiology | Nystatin enhanced mucosal immune response and protected vaginal epithelial ultrastructure in a rat model of VVC. |
-| [25775428](https://pubmed.ncbi.nlm.nih.gov/25775428/) | 2015 | Review | BMJ Clinical Evidence | Overview of vulvovaginal candidiasis as the second most common cause of vaginitis; *C. albicans* accounts for 85–90% of cases. |
-| [12228137](https://pubmed.ncbi.nlm.nih.gov/12228137/) | 2002 | Review | BMJ | General clinical review of vulvovaginal candidiasis diagnosis and treatment. |
-| [4919155](https://pubmed.ncbi.nlm.nih.gov/4919155/) | 1970 | Review | Med Clin North America | Early historical review of Nystatin's antifungal use. |
-| [32104010](https://pubmed.ncbi.nlm.nih.gov/32104010/) | 2020 | In-vitro | Infection and Drug Resistance | Nystatin (and ZnO nanoparticles) showed antifungal activity and downregulated virulence gene expression in fluconazole-resistant *C. albicans* from VVC cases. |
-| [37023426](https://pubmed.ncbi.nlm.nih.gov/37023426/) | 2023 | Comparative in-vitro | J Infect Dev Ctries | Compared tea tree oil (5%, 10%) and Nystatin inhibition zones against vaginal *Candida* isolates in pregnancy. |
+| [25775428](https://pubmed.ncbi.nlm.nih.gov/25775428/) | 2015 | Review | BMJ Clinical Evidence | Vulvovaginal candidiasis is the second most common cause of vaginitis after bacterial vaginosis. C. albicans causes 85–90% of cases. |
+| [39771534](https://pubmed.ncbi.nlm.nih.gov/39771534/) | 2024 | Review | Pharmaceutics | Management of fluconazole-resistant vulvovaginal candidiasis. Nystatin is among the alternatives discussed, alongside boric acid, oteseconazole and ibrexafungerp. |
+| [21774671](https://pubmed.ncbi.nlm.nih.gov/21774671/) | 2011 | Review | J Womens Health | Recurrent vulvovaginal candidiasis is hard to manage. Non-albicans Candida species are more resistant to azoles. |
+| [16047929](https://pubmed.ncbi.nlm.nih.gov/16047929/) | 2005 | Review | Ceska Gynekologie | Mixed and miscellaneous vulvovaginal infections treated with combined vaginal products containing nifuratel and nystatin. |
+| [1436934](https://pubmed.ncbi.nlm.nih.gov/1436934/) | 1992 | Review | Obstet Gynecol Clin North Am | Nystatin was introduced in the 1950s for vulvovaginal candidiasis. Imidazoles and triazoles have since become first choice. |
+| [20406393](https://pubmed.ncbi.nlm.nih.gov/20406393/) | 2011 | Cohort | Mycoses | 287 Candida isolates from 283 patients with complicated vulvovaginal candidiasis. In vitro fluconazole and nystatin susceptibility was correlated with clinical outcome. |
+| [21918792](https://pubmed.ncbi.nlm.nih.gov/21918792/) | 2012 | Observational study | Acta Derm Venereol | Fluconazole and nystatin efficacy compared in Brazilian women with vaginal Candida (932 women screened, 114 culture-positive). |
+| [31969236](https://pubmed.ncbi.nlm.nih.gov/31969236/) | 2019 | Clinical study | Acta Dermatovenerol Croat | GENIE study (189 subjects). The oxytetracycline plus nystatin vaginal tablet was reported beneficial in unspecific and mixed vulvovaginal infections. |
+| [30359236](https://pubmed.ncbi.nlm.nih.gov/30359236/) | 2018 | Animal study | BMC Microbiology | In a rat model, nystatin enhanced the vaginal immune response to C. albicans and protected the epithelial ultrastructure. |
+| [32104010](https://pubmed.ncbi.nlm.nih.gov/32104010/) | 2020 | In vitro | Infect Drug Resist | Antifungal activity of ZnO nanoparticles and nystatin against fluconazole-resistant C. albicans from vulvovaginal candidiasis. |
 
 ---
 
 ## Singapore Market Information
 
-Nystatin has no current registration record in Singapore (market status: Not Marketed, 0 licenses on file). No product/authorization details are available to tabulate.
+The registration data list no approved indication text for any of the 4 licences.
+
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN05499P | PMS-NYSTATIN SUSPENSION 500,000 u/5 ml | Suspension | Pendopharm / Halo Pharmaceutical Canada Inc. |
+| SIN06750P | NYSTATIN VAGINAL TABLET 100,000 units | Tablet | Yung Shin Pharmaceutical Ind Co Ltd |
+| SIN03798P | FLAGYSTATIN VAGINAL OVULE | Suppository | PT Kalventis Sinergi Farma |
+| SIN07745P | POLYGYNAX VAGINAL CAPSULE | Capsule | Catalent France Beinheim SA / Swiss Caps AG / Innothera Chouzy |
 
 ---
 
@@ -101,13 +112,14 @@ Please refer to the package insert for safety information.
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The predicted use aligns with a well-established mechanism and decades of clinical precedent for Nystatin in *Candida*-driven vulvovaginitis, but evidence here is limited to observational/review-level literature with no supporting clinical trials, and the drug is currently unregistered in Singapore.
+The mechanism fits Candida vulvovaginitis well, and Singapore already has vaginal nystatin products on the market. However, the support is review-level and observational evidence at L3, with no registered trials and no Phase 3 RCTs. The other nine predicted indications are weakly supported. Vulvitis (L4) is a research question, and the rest are Hold with no supporting evidence.
 
 **To proceed, the following is needed:**
-- Package insert / label safety data (key warnings, contraindications) — currently a blocking data gap for safety pre-assessment
-- Formal mechanism-of-action documentation from DrugBank or equivalent source
-- Confirmation of Singapore registration pathway, since the drug is not currently marketed locally
-- Drug-drug interaction data (current query returned no results)
+- The HSA package insert (warnings and contraindications), which is currently missing and blocks safety screening
+- Confirmation of the approved indication on the local labels, to decide whether this is repurposing or existing use
+- Diagnostic distinction of Candida from bacterial or mixed vaginitis
+- Consideration of azole-resistant or non-albicans Candida species
+- DrugBank mechanism-of-action data to complete the mechanistic analysis
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

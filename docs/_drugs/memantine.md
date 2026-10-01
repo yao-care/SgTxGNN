@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Memantine
-parent: High Evidence (L1-L2)
+parent: Low Evidence (L5)
 nav_order: 641
-evidence_level: L2
+evidence_level: L5
 indication_count: 10
 ---
 
 # Memantine
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Memantine: From Unspecified Original Indication to Migraine Disorder
+# Memantine: From an NMDA Receptor Antagonist to Pulmonary Hypertension
 
 ## One-Sentence Summary
 
-> Memantine is an NMDA-receptor antagonist; this evidence pack does not specify its originally approved indication or mechanism of action (data gap), and the drug is currently **not marketed in Singapore**.
-> Across 10 TxGNN-predicted indications, **Migraine Disorder** stands out as the strongest candidate, supported by **2 clinical trials** (including one completed Phase 3 trial) and **20 publications**, among them a meta-analysis, a systematic review, and a randomized placebo-controlled trial.
-> The remaining 9 predicted indications are largely unsupported by clinical or literature evidence and are not recommended for further action at this time.
+Memantine is an NMDA receptor antagonist that is marketed in Singapore as oral film-coated tablets, but the registration records do not state its approved indication.
+The TxGNN model predicts it may be effective for **pulmonary hypertension**, but **0 clinical trials** and only **2 loosely related publications** currently support this direction.
+The prediction is model-only, so the recommendation is **Hold**.
 
 ---
 
@@ -43,32 +43,28 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no original indication or Singapore license data provided in this evidence pack |
-| Predicted New Indication | Migraine Disorder (leading candidate of 10 predicted indications; see appendix below for the rest) |
-| TxGNN Prediction Score | 99.52% |
-| Evidence Level | L2 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Predicted New Indication | Pulmonary hypertension |
+| TxGNN Prediction Score | 99.54% |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 8 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for Memantine in this evidence pack, and no original approved indication is recorded either — both are flagged as blocking/high-severity data gaps that must be resolved before a full mechanistic and safety comparison can be made.
+Detailed mechanism of action data is not available in the dataset. Memantine is an NMDA receptor antagonist, so any rationale rests on glutamate/NMDA receptor signalling.
 
-Based on the information that is available, Memantine is an NMDA (N-methyl-D-aspartate) receptor antagonist. The predicted link to migraine is mechanistically grounded: cortical spreading depression (CSD) and central sensitization are considered core pathophysiological drivers of migraine, and glutamate/NMDA receptor signaling plays a central role in both processes. This gives the TxGNN prediction reasonable biological plausibility, independent of knowing the drug's original approved use.
+One 2021 paper (Theranostics) notes that evidence has suggested a role for the glutamate/NMDA receptor axis in pulmonary arterial hypertension. However, its own data concern insulin sensitivity and lipid metabolism, not the pulmonary vasculature. The other paper is an early-phase safety and pharmacokinetic study of MN-08, a nitrate derivative of memantine under development for pulmonary arterial hypertension. That study enrolled healthy volunteers only, and MN-08 is a different molecule from memantine.
 
-This mechanistic rationale is corroborated by a substantial existing literature base specifically studying memantine for migraine prophylaxis — including a completed Phase 3 trial, a placebo-controlled RCT, a systematic review, and a meta-analysis — which is unusually deep supporting evidence for a TxGNN-generated hypothesis. However, one commentary in the same evidence set ("Memantine for migraine—Big promise but little evidence", PMID 34510445) explicitly cautions that clinical evidence remains limited, which should temper the overall confidence level.
+The review of the retrieved evidence found no credible mechanistic link. The high model score is not backed by any pulmonary vascular data on memantine itself.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT04698525](https://clinicaltrials.gov/study/NCT04698525) | Phase 3 | Completed | 33 | Direct comparison of memantine vs. sodium valproate for prophylactic treatment of episodic migraine; active-comparator design (not placebo-controlled), small sample size limits statistical power |
-| [NCT02670161](https://clinicaltrials.gov/study/NCT02670161) | Phase 4 | Enrolling by Invitation | 3300 | EMR-based pragmatic quality-improvement registry across 10 common neurological disorders; not a memantine-specific interventional trial, included only as background context (low relevance) |
+Currently no related clinical trials registered.
 
 ---
 
@@ -76,46 +72,28 @@ This mechanistic rationale is corroborated by a substantial existing literature 
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [26638119](https://pubmed.ncbi.nlm.nih.gov/26638119/) | 2016 | RCT (Double-Blind, Placebo-Controlled) | Headache | Randomized placebo-controlled study suggesting memantine may be effective for prophylaxis of migraine without aura |
-| [33961371](https://pubmed.ncbi.nlm.nih.gov/33961371/) | 2021 | Meta-Analysis (RCT) | Clinical Neuropharmacology | Systematic review and meta-analysis of memantine vs. placebo in migraine; efficacy for migraine "remains controversial" |
-| [34352118](https://pubmed.ncbi.nlm.nih.gov/34352118/) | 2021 | Systematic Review | Headache | Assesses efficacy and safety of memantine for prophylactic treatment of episodic migraine |
-| [40978493](https://pubmed.ncbi.nlm.nih.gov/40978493/) | 2025 | Network Meta-Analysis | Frontiers in Pharmacology | Comparative effectiveness/safety of oral preventive migraine medications in adults 18–65, network meta-analysis |
-| [39467289](https://pubmed.ncbi.nlm.nih.gov/39467289/) | 2024 | Clinical Practice Guideline | Annals of Internal Medicine | 2023 VA/DoD Clinical Practice Guideline for management of headache, covering migraine prevention recommendations |
-| [36869904](https://pubmed.ncbi.nlm.nih.gov/36869904/) | 2023 | Review | Naunyn-Schmiedeberg's Archives of Pharmacology | Reviews memantine and ketamine (NMDA receptor antagonists) as potential anti-migraine agents |
-| [34510445](https://pubmed.ncbi.nlm.nih.gov/34510445/) | 2021 | Commentary/Critical Appraisal | Headache | Cautionary commentary: "Memantine for migraine—Big promise but little evidence" |
-| [29508147](https://pubmed.ncbi.nlm.nih.gov/29508147/) | 2018 | Review | Neurotherapeutics | Reviews glutamate and its receptors, including NMDA receptors, as therapeutic targets for migraine |
-| [17901918](https://pubmed.ncbi.nlm.nih.gov/17901918/) | 2007 | Retrospective Study | The Journal of Headache and Pain | Retrospective analysis of 60 cases using memantine as preventive therapy for frequent migraine |
-| [19031499](https://pubmed.ncbi.nlm.nih.gov/19031499/) | 2008 | Open-Label Study | Headache | Assesses efficacy and tolerability of memantine in preventive treatment of refractory migraine |
+| [33500723](https://pubmed.ncbi.nlm.nih.gov/33500723/) | 2021 | Preclinical (mechanistic) | Theranostics | Studies NMDA receptor activation in insulin sensitivity and lipid metabolism. Pulmonary hypertension is mentioned only as background. |
+| [41739394](https://pubmed.ncbi.nlm.nih.gov/41739394/) | 2026 | Phase 1 PK/safety (healthy volunteers) | Clinical Drug Investigation | Single and multiple ascending doses of MN-08, a nitrate derivative of memantine being developed for pulmonary arterial hypertension. It reports safety and pharmacokinetics in healthy Chinese volunteers, not efficacy in patients. |
 
 ---
 
 ## Singapore Market Information
 
-Memantine currently has **no marketing authorization on record** in Singapore (0 registrations; market status: Not Marketed). No product listings, dosage forms, or approved indication text are available in this evidence pack.
+Showing 5 of 8 registrations.
 
----
-
-## Other Predicted Indications (Appendix)
-
-For completeness, the remaining 9 TxGNN-predicted indications from this evidence pack are summarized below. None currently meet the evidentiary bar for further action:
-
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Recommendation |
-|------|----------------------|-------------|-----------------|-----------------|
-| 1 | Pulmonary Hypertension | 99.54% | L4 | Hold — mechanistic link indirect; a related compound (MN-08) is in Phase 1, but compound identity vs. memantine is unclear |
-| 4 | Migraine with Brainstem Aura | 99.41% | L3 | Research Question — shares NMDA/CSD mechanism with typical migraine, but existing RCT population does not match this subtype |
-| 5 | Rheumatoid Arthritis | 98.73% | L4 | Hold — preclinical/in vitro support only, no human treatment evidence |
-| 6 | Nephrogenic Syndrome of Inappropriate Antidiuresis | 98.67% | L5 | Hold — no supporting evidence, model prediction only |
-| 7 | Atrophoderma Vermiculata | 98.48% | L5 | Hold — no supporting evidence, model prediction only |
-| 8 | Migraine With or Without Aura, Susceptibility To | 98.43% | L4 | Hold — genetic susceptibility literature, not treatment evidence |
-| 9 | Ulerythema Ophryogenesis | 98.21% | L5 | Hold — no supporting evidence, model prediction only |
-| 10 | Brachydactyly-Syndactyly Syndrome | 98.12% | L5 | Hold — no supporting evidence, model prediction only |
-| 3 | Kyphoscoliotic Heart Disease | 99.43% | L5 | Hold — no supporting evidence, model prediction only |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN15609P | ADMENTA 10 Film Coated Tablet 10 mg | Film-coated tablet | — |
+| SIN15599P | AVANTEN Film-Coated Tablets 10 mg | Film-coated tablet | — |
+| SIN15300P | MEMANTINE MEVON Film-Coated Tablets 10 mg | Film-coated tablet | — |
+| SIN15120P | MARIXINO Film-Coated Tablets 10 mg | Film-coated tablet | — |
+| SIN16928P | COGNIMET Film-Coated Tablet 10 mg | Film-coated tablet | — |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction, warning, or contraindication data is currently available for Memantine in this evidence pack.
+Please refer to the package insert for safety information.
 
 ---
 
@@ -124,15 +102,17 @@ Please refer to the package insert for safety information. No drug interaction, 
 **Decision: Hold**
 
 **Rationale:**
-- A blocking data gap (missing TFDA/regulatory label — warnings and contraindications) prevents even an initial safety screen (S1) from being completed, regardless of the efficacy signal.
-- The strongest candidate indication (migraine) has real but modest-quality evidence: a small (n=33), non-placebo-controlled completed Phase 3 trial, plus a systematic review and meta-analysis that explicitly describe the evidence as "controversial" and "little evidence" despite mechanistic plausibility.
-- All other 9 predicted indications lack clinical trial or credible literature support and should not be prioritized.
+The prediction is model-only (L5). There are no registered trials, and the two retrieved papers do not test memantine in pulmonary hypertension. The related MN-08 work is a different molecule studied only in healthy volunteers.
 
 **To proceed, the following is needed:**
-- Obtain the drug's regulatory label/package insert (warnings, contraindications, DDI) — currently a Blocking data gap (DG001)
-- Obtain confirmed mechanism of action data from DrugBank or equivalent source (High-severity data gap, DG002)
-- If pursuing migraine further: a larger, placebo-controlled confirmatory RCT, given existing evidence is limited to a small active-comparator trial and retrospective/open-label series
-- Clarify original approved indication(s) for Memantine, which are not recorded in this evidence pack, to properly assess indication-to-indication mechanistic similarity
+- Mechanism of action data for memantine (currently unavailable)
+- The HSA package insert, including warnings and contraindications
+- Preclinical evidence that NMDA antagonism affects pulmonary vascular remodelling or pressure
+- Review of MN-08 development results to see whether they carry over to memantine
+
+**Note on other candidates:** In the same Evidence Pack, **migraine disorder** (rank 2) is much better supported. It has a completed Phase 3 trial (NCT04698525, n=33, versus sodium valproate), meta-analyses and a systematic review, and is graded L1 with a "Proceed with Guardrails" recommendation. Because the trial is small and lacks a placebo arm, a confirmatory placebo-controlled trial would still be needed. If the aim is near-term repurposing, this candidate deserves its own evaluation.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

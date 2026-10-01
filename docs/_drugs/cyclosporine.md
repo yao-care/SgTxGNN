@@ -3,14 +3,14 @@ layout: default
 title: Cyclosporine
 parent: Medium Evidence (L3-L4)
 nav_order: 284
-evidence_level: L3
+evidence_level: L4
 indication_count: 10
 ---
 
 # Cyclosporine
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,85 +29,80 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Cyclosporine: From GVHD Prevention to Chronic Granulomatous Disease
+# Cyclosporine: From Transplant Immunosuppression to Chronic Granulomatous Disease (Autosomal Recessive)
 
 ## One-Sentence Summary
 
-Cyclosporine is a calcineurin inhibitor with a well-established role in preventing graft-versus-host disease (GVHD) in allogeneic hematopoietic stem cell transplantation (HSCT) and rejecting in solid organ transplantation.
-The TxGNN model predicts it may be effective for **Chronic Granulomatous Disease (CGD, autosomal recessive form)**,
-with **1 clinical trial** and **1 publication** currently supporting this direction — primarily in the context of HSCT as a curative therapy for CGD.
-
----
+Cyclosporine is a calcineurin-inhibitor immunosuppressant, marketed in Singapore as oral capsules and an infusion concentrate.
+The TxGNN model predicts it may be effective for **autosomal recessive chronic granulomatous disease (CGD)**, with **1 clinical trial** and **1 publication** linked to this prediction.
+Both are indirect: they concern stem cell transplantation for CGD, and neither tests cyclosporine as a treatment for CGD itself.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | GVHD prophylaxis / organ transplant rejection prevention |
-| Predicted New Indication | Granulomatous Disease, Chronic, Autosomal Recessive (CGD) |
+|------|------|
+| Original Indication | Not recorded in the Singapore licence data. Cyclosporine is a T-cell-suppressing immunosuppressant used around transplantation |
+| Predicted New Indication | Granulomatous disease, chronic, autosomal recessive |
 | TxGNN Prediction Score | 99.68% |
-| Evidence Level | L3 |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 10 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the data pack. Based on known pharmacology, Cyclosporine is a calcineurin inhibitor that suppresses T-cell activation by blocking calcineurin-mediated transcription of interleukin-2 (IL-2) and other pro-inflammatory cytokines. This immunosuppressive action has made it a standard backbone of transplant immunosuppression regimens and GVHD prophylaxis across multiple organ transplant settings.
+Cyclosporine is a calcineurin inhibitor that suppresses T-cell activation by reducing IL-2 signalling. Detailed mechanism-of-action data is not available in the source record.
 
-Chronic Granulomatous Disease (CGD) is a primary immunodeficiency caused by inherited defects in the NADPH oxidase complex, leading to recurrent life-threatening bacterial and fungal infections and pathological granuloma formation. The only established curative treatment for CGD is allogeneic HSCT. In this clinical scenario, Cyclosporine plays a well-recognised and necessary role as a GVHD prophylaxis agent — enabling the transplant procedure that cures CGD — rather than directly targeting CGD's underlying pathophysiology (NADPH oxidase dysfunction).
+CGD is an inherited defect of the phagocyte NADPH oxidase enzyme, and cyclosporine does not act on it. In CGD, cyclosporine appears only as graft-versus-host disease (GVHD) prophylaxis around allogeneic stem cell transplantation, which is the curative approach for the disease. The high TxGNN score most likely reflects this transplant-context association rather than a disease-modifying effect.
 
-The mechanistic link is therefore **indirect and context-limited**: Cyclosporine is not being repurposed to treat CGD per se, but its essential role in the HSCT protocol that cures CGD may be what the TxGNN model's knowledge graph is capturing. The high prediction score (99.68%) likely reflects graph adjacency between Cyclosporine's HSCT/immunosuppression nodes and CGD's curative transplant pathway, rather than a novel biological hypothesis. This distinction is critical for evaluating true repurposing potential.
-
----
+The prediction should therefore be read as a knowledge-graph association, not as evidence that cyclosporine treats CGD.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT01917708](https://clinicaltrials.gov/study/NCT01917708) | Phase 1 | Completed | 10 | Assessed tolerability of abatacept (CTLA4-Ig) combined with cyclosporine and mycophenolate mofetil as GVHD prophylaxis in children undergoing unrelated donor HSCT for serious non-malignant diseases including CGD; participants followed for 2 years. Cyclosporine was a background prophylaxis agent, not the primary intervention. |
-
----
+|---------|------|------|------|---------|
+| [NCT01917708](https://clinicaltrials.gov/study/NCT01917708) | Phase 1 | Completed | 10 | Abatacept added to cyclosporine and mycophenolate mofetil as GVHD prophylaxis in children receiving unrelated donor stem cell transplants for non-malignant diseases. It is not CGD-specific, and cyclosporine is only background therapy |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [22078471](https://pubmed.ncbi.nlm.nih.gov/22078471/) | 2012 | Retrospective Cohort | J Allergy Clin Immunol | Demonstrated excellent survival outcomes following matched related donor (MRD) and matched unrelated donor (MUD) HSCT for CGD, supporting the effectiveness of HSCT — within which CsA-based GVHD prophylaxis is standard — as a curative treatment approach. |
-
----
+|------|-----|------|------|---------|
+| [22078471](https://pubmed.ncbi.nlm.nih.gov/22078471/) | 2012 | Cohort | J Allergy Clin Immunol | Excellent survival after sibling or unrelated donor stem cell transplantation for CGD. It supports transplantation, not cyclosporine itself |
 
 ## Singapore Market Information
 
-Cyclosporine currently has **no registered products** in Singapore's drug regulatory database.
+Approved indication text is not recorded for these licences. The pack lists 10 registrations in total; the table shows the 5 provided.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------------------|-------------|-------------|---------------------|
-| — | No registered products found | — | — |
-
----
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN08179P | SANDIMMUN NEORAL CAPSULE 25 mg | Capsule, liquid filled |
+| SIN08177P | SANDIMMUN NEORAL CAPSULE 100 mg | Capsule, liquid filled |
+| SIN14048P | DEXIMUNE CAPSULES 50MG | Capsule, liquid filled |
+| SIN14049P | DEXIMUNE CAPSULES 100MG | Capsule, liquid filled |
+| SIN00520P | SANDIMMUN CONCENTRATE FOR INFUSION 50 mg/ml | Injection |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The evidence linking Cyclosporine to CGD is indirect — its role is as a GVHD prophylaxis enabler within HSCT protocols that cure CGD, not as a direct treatment for CGD pathophysiology. The sole clinical trial (NCT01917708, Phase 1, n=10) used Cyclosporine as a background agent alongside abatacept, and the single literature reference is a retrospective HSCT outcomes study. This body of evidence does not constitute a novel repurposing claim distinct from Cyclosporine's established GVHD prophylaxis role; the L3 rating reflects supportive but indirect data.
+The only supporting evidence is a Phase 1 trial and a cohort study on stem cell transplantation. Cyclosporine appears there as background GVHD prophylaxis, and neither study tests it against the underlying NADPH oxidase defect. The high score is most likely a transplant-context artefact.
 
 **To proceed, the following is needed:**
+- Singapore package insert warnings and contraindications (a blocking gap for safety screening)
+- Approved indication text from the Singapore licences
+- Detailed mechanism of action data from DrugBank
+- Any direct clinical evidence of cyclosporine benefit in CGD beyond GVHD prophylaxis
 
-- **Clarification of the repurposing hypothesis**: Is the intended claim (a) optimising CsA-based GVHD prophylaxis regimens specifically for CGD patients undergoing HSCT (a refinement of existing use), or (b) using CsA as a direct immunomodulatory therapy for CGD outside the HSCT context (a genuinely novel claim requiring de novo evidence)?
-- **Mechanism of action data (MOA)**: DrugBank API query needed to confirm whether CsA has any biologically plausible direct interaction with CGD pathophysiology (NADPH oxidase pathway, granuloma regulation)
-- **Safety data**: Official package insert must be retrieved (TFDA / Singapore HSA) to complete the S1 safety screening, currently blocked per Data Gap DG001
-- **Prospective clinical data**: If the novel direct-use hypothesis is pursued, at minimum a prospective case series or pilot study evaluating CsA monotherapy or combination therapy in CGD management outside transplant conditioning would be required before advancing to S2
+Other predictions in this pack have stronger evidence and may deserve review first:
+- **Bronchitis (rank 9):** the trials are for bronchiolitis obliterans syndrome after lung transplant (inhaled or liposomal cyclosporine), not bronchitis, so the mapping needs review. Evidence level L2.
+- **Nasolacrimal duct disease (rank 10):** evidence comes from topical 0.05% cyclosporine for punctal stenosis. Evidence level L3.
+
+This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

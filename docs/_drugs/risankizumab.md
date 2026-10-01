@@ -3,14 +3,14 @@ layout: default
 title: Risankizumab
 parent: High Evidence (L1-L2)
 nav_order: 864
-evidence_level: L1
+evidence_level: L2
 indication_count: 10
 ---
 
 # Risankizumab
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,96 +33,85 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Risankizumab is an IL-23p19-targeting monoclonal antibody globally approved for plaque psoriasis, psoriatic arthritis, generalized pustular psoriasis, erythrodermic psoriasis and Crohn's disease, but it is **not currently registered in Singapore**. The TxGNN model predicts effectiveness for the broad category **"Dermatitis"** (score 99.98%), supported by **7 clinical trials** and **16 publications**; however, this bucket mixes an already-approved label (psoriasis) with a hypothesis that **failed** its pivotal Phase 2 trial (atopic dermatitis), so the two must be evaluated separately.
-
----
+Risankizumab (Skyrizi) is an IL-23 p19 antibody, originally approved for psoriasis. The TxGNN model predicts it may be effective for **dermatitis**, but the supporting evidence is weak. There is **1 directly relevant Phase 2 RCT** in atopic dermatitis, which appears to be negative, plus **6 registered trials** and **16 publications** in total, most of them about psoriasis-spectrum disease.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not registered in Singapore (0 licenses); globally approved for Plaque Psoriasis, Psoriatic Arthritis, Generalized Pustular/Erythrodermic Psoriasis, Crohn's Disease (per PMID 31098898) |
-| Predicted New Indication | Dermatitis (spans psoriasis-spectrum disease + atopic dermatitis — see below) |
+| Original Indication | Plaque psoriasis (taken from the trial and literature records; the Singapore registration text is blank) |
+| Predicted New Indication | Dermatitis |
 | TxGNN Prediction Score | 99.98% |
-| Evidence Level | L1 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Evidence Level | L2 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 4 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed structured mechanism-of-action data is not available in this evidence pack (data gap DG002). Based on published literature (PMID 31098898), Risankizumab is a humanised IgG monoclonal antibody targeting the p19 subunit of interleukin-23 (IL-23), first globally approved in Japan (2019) for psoriasis vulgaris, psoriatic arthritis, generalised pustular psoriasis and erythrodermic psoriasis, and subsequently approved elsewhere (including Crohn's disease) — but it has no Singapore licence to date.
+Risankizumab is a humanised IgG monoclonal antibody that targets the p19 subunit of IL-23 (PMID 31098898). IL-23/Th17 signalling is central to psoriasis, where the drug has proven efficacy. Its first global approval, in Japan in 2019, covered psoriasis vulgaris, psoriatic arthritis, generalized pustular psoriasis and erythrodermic psoriasis.
 
-The TxGNN model groups the predicted indication under the broad label **"dermatitis,"** which in fact spans two clinically distinct entities that require separate evaluation:
+The link to "dermatitis" is much weaker. "Dermatitis" is a broad label, and the most relevant subtype, atopic dermatitis, is driven mainly by Th2 signalling (IL-4/IL-13). IL-23 and IL-22 are thought to play only a minor role. The high TxGNN score probably reflects how close psoriasis and other inflammatory skin diseases sit to dermatitis in the knowledge graph, not a validated mechanism.
 
-1. **Plaque psoriasis and its variants (genital, scalp, erythrodermic)** — IL-23/Th17-axis-driven inflammatory skin disease that matches Risankizumab's core mechanism directly. This is already the drug's approved global indication, so the "new indication" signal here mainly reflects an evidence-completion opportunity for the Singapore market rather than a genuinely novel repurposing hypothesis (Phase 4 head-to-head and RCT evidence: NCT04908475, NCT05969223).
-2. **Atopic dermatitis (AD)** — primarily Th2-driven. A mechanistic crossover hypothesis (IL-23→Th17/Th22) motivated testing, but the completed Phase 2 RCT (NCT03706040 / PMID 36588137) **did not demonstrate significant benefit over placebo**. This sub-indication should be treated as a **falsified hypothesis**, not supportive evidence.
-
-Because "dermatitis" bundles a de-facto label-expansion candidate (psoriasis) with a disproven hypothesis (AD), guardrail design must explicitly disaggregate the two.
-
----
+The most informative evidence is the Phase 2 placebo-controlled RCT in moderate-to-severe atopic dermatitis (NCT03706040, published as PMID 36588137). The Evidence Pack suggests the result was negative, but the abstract and trial summary provided do not give outcome data, so this must be confirmed from the full text. Several case reports describe eczematous or "paradoxical eczema" reactions during risankizumab treatment, which points the other way.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT04908475](https://clinicaltrials.gov/study/NCT04908475) | Phase 4 | Completed | 352 | Head-to-head vs apremilast in moderate plaque psoriasis; directly supports existing psoriasis label (Grade A) |
-| [NCT05969223](https://clinicaltrials.gov/study/NCT05969223) | Phase 4 | Completed | 214 | Randomized double-blind trial in moderate-to-severe genital/scalp psoriasis (Grade A) |
-| [NCT04818385](https://clinicaltrials.gov/study/NCT04818385) | N/A | Completed | 240 | Taiwan real-world observational cohort; PASI90 durability vs other biologics (Grade B, real-world evidence) |
-| [NCT03706040](https://clinicaltrials.gov/study/NCT03706040) | Phase 2 | Completed | 172 | Randomized placebo-controlled trial in moderate-to-severe atopic dermatitis — **did not meet efficacy endpoint** (Grade B, negative result) |
-| [NCT07021495](https://clinicaltrials.gov/study/NCT07021495) | N/A | Recruiting | 840 | Observational biomarker profiling across 6 immune-mediated inflammatory skin diseases incl. AD/psoriasis (Grade C, mechanistic) |
-| [NCT07041112](https://clinicaltrials.gov/study/NCT07041112) | N/A | Completed | 1000 | Pharmacogenetic study of biologic drug survival in cutaneous psoriasis (Grade C, indirect) |
-| [NCT07352566](https://clinicaltrials.gov/study/NCT07352566) | Phase 4 | Not yet recruiting | 10 | Microdevice drug-delivery testing platform for AD/psoriasis; not an efficacy trial (Grade C) |
-
----
+| [NCT03706040](https://clinicaltrials.gov/study/NCT03706040) | Phase 2 | Completed | 172 | Randomized, placebo-controlled, double-blind trial of risankizumab in adults and adolescents with moderate-to-severe atopic dermatitis. This is the only directly relevant trial; the outcome appears negative and needs full-text confirmation. |
+| [NCT04908475](https://clinicaltrials.gov/study/NCT04908475) | Phase 4 | Completed | 352 | Risankizumab vs apremilast in moderate plaque psoriasis. Approved indication; does not support dermatitis. |
+| [NCT05969223](https://clinicaltrials.gov/study/NCT05969223) | Phase 4 | Completed | 214 | Randomized, double-blind study in genital or scalp psoriasis. Psoriasis-related population, not dermatitis. |
+| [NCT04818385](https://clinicaltrials.gov/study/NCT04818385) | N/A | Completed | 240 | Taiwan observational cohort in moderate-to-severe plaque psoriasis, looking at durability of response. Approved indication. |
+| [NCT07041112](https://clinicaltrials.gov/study/NCT07041112) | N/A | Completed | 1000 | Retrospective pharmacogenetic study of biologic drug survival in psoriasis. No dermatitis efficacy data. |
+| [NCT07021495](https://clinicaltrials.gov/study/NCT07021495) | N/A | Recruiting | 840 | Observational biomarker study across six immune-mediated skin diseases, including atopic dermatitis. Non-interventional. |
+| [NCT07352566](https://clinicaltrials.gov/study/NCT07352566) | Phase 4 | Not yet recruiting | 10 | Microdevice study testing drugs in situ on skin in atopic dermatitis and psoriasis. No efficacy readout. |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [36588137](https://pubmed.ncbi.nlm.nih.gov/36588137/) | 2023 | RCT | Dermatology and Therapy | Phase 2 RCT in moderate-to-severe atopic dermatitis — **negative result**, no significant benefit over placebo |
-| [31098898](https://pubmed.ncbi.nlm.nih.gov/31098898/) | 2019 | Review | Drugs | "First Global Approval" review — defines MOA (IL-23p19 mAb) and approved indications (psoriasis, PsA, GPP, EP) |
-| [40794374](https://pubmed.ncbi.nlm.nih.gov/40794374/) | 2025 | Systematic Review | Inflammopharmacology | Role of IL inhibitors in lichen planus, including therapeutic and paradoxical effects |
-| [39201826](https://pubmed.ncbi.nlm.nih.gov/39201826/) | 2024 | Review | Children (Basel) | Narrative review of biologics for pediatric alopecia areata, psoriasis, AD, HS |
-| [33078990](https://pubmed.ncbi.nlm.nih.gov/33078990/) | 2020 | Review | Expert Opin Biol Ther | Current/emerging biologics for pediatric atopic dermatitis |
-| [40856907](https://pubmed.ncbi.nlm.nih.gov/40856907/) | 2025 | Systematic Review | Am J Clin Dermatol | Management of erythrodermic psoriasis with systemic therapies |
-| [39668419](https://pubmed.ncbi.nlm.nih.gov/39668419/) | 2025 | Cohort | Int J Dermatol | Combined dupilumab + risankizumab in patients with concomitant AD and psoriasis |
-| [40071317](https://pubmed.ncbi.nlm.nih.gov/40071317/) | 2025 | Cohort | Experimental Dermatology | Clinical experience of risankizumab in patients with history of erythrodermic psoriasis |
-| [37381703](https://pubmed.ncbi.nlm.nih.gov/37381703/) | 2023 | Case Report | J Dermatolog Treat | Acrodermatitis continua of Hallopeau successfully treated with risankizumab |
-| [33368238](https://pubmed.ncbi.nlm.nih.gov/33368238/) | 2021 | Case Report | Int J Dermatol | Acrodermatitis continua Hallopeau successfully treated by risankizumab |
-
----
+| [36588137](https://pubmed.ncbi.nlm.nih.gov/36588137/) | 2023 | RCT | Dermatology and Therapy | Phase 2 placebo-controlled study of risankizumab in moderate-to-severe atopic dermatitis; rationale was IL-23/IL-22 blockade. Efficacy results need confirmation from the full text. |
+| [39668419](https://pubmed.ncbi.nlm.nih.gov/39668419/) | 2025 | Case series/Cohort | International Journal of Dermatology | Combined dupilumab and risankizumab in patients with concomitant atopic dermatitis and psoriasis. |
+| [40856907](https://pubmed.ncbi.nlm.nih.gov/40856907/) | 2025 | Systematic Review | American Journal of Clinical Dermatology | Systemic therapies for erythrodermic psoriasis, a psoriasis variant. |
+| [40794374](https://pubmed.ncbi.nlm.nih.gov/40794374/) | 2025 | Systematic Review | Inflammopharmacology | Interleukin inhibitors in lichen planus, covering both therapeutic and paradoxical effects. |
+| [40071317](https://pubmed.ncbi.nlm.nih.gov/40071317/) | 2025 | Cohort | Experimental Dermatology | Retrospective single-centre study of risankizumab in patients with a history of erythrodermic psoriasis. |
+| [39201826](https://pubmed.ncbi.nlm.nih.gov/39201826/) | 2024 | Review | Children | Narrative review of biologics and small molecules in paediatric alopecia areata, psoriasis, atopic dermatitis and hidradenitis suppurativa. |
+| [31098898](https://pubmed.ncbi.nlm.nih.gov/31098898/) | 2019 | Review | Drugs | Risankizumab first global approval: IL-23 p19 antibody, approved in Japan for psoriasis-spectrum diseases. |
+| [41645692](https://pubmed.ncbi.nlm.nih.gov/41645692/) | 2026 | Case report | Dermatology Reports | Upadacitinib for paradoxical eczema induced by IL-23 inhibitors, estimated at 1–3% of psoriasis patients on biologics. |
+| [37014149](https://pubmed.ncbi.nlm.nih.gov/37014149/) | 2023 | Case report | Journal of Cutaneous Medicine and Surgery | Three psoriasis patients with brodalumab-induced eczematous reactions managed by switching to risankizumab. |
+| [37381703](https://pubmed.ncbi.nlm.nih.gov/37381703/) | 2023 | Case report | Journal of Dermatological Treatment | Acrodermatitis continua of Hallopeau (a psoriasis variant) treated successfully with risankizumab. |
 
 ## Singapore Market Information
 
-Risankizumab currently holds **no licence in Singapore** (0 registrations, market status: Not Marketed). No local authorization number, product name, or approved indication text is available for extraction.
+Approved indication text is blank in all four registrations.
 
----
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN16869P | SKYRIZI Concentrate for Solution for Infusion 600mg/10ml | Infusion, solution concentrate | Patheon Italia S.P.A. |
+| SIN16339P | SKYRIZI Solution for Injection in Pre-filled Pen 150mg/ml | Injection, solution | AbbVie Biotechnology Ltd. |
+| SIN16338P | SKYRIZI Solution for Injection in Pre-filled Syringe 150mg/ml | Injection, solution | AbbVie Biotechnology Ltd. |
+| SIN16870P | SKYRIZI Solution for Injection in Pre-filled Cartridge with On-body Injector 360mg/2.4ml | Injection, solution | Patheon Italia S.P.A. |
 
 ## Safety Considerations
 
-Formal local safety data (structured warnings, contraindications, drug interactions) is not yet available for Risankizumab in this evidence pack (data gap DG001, classified **Blocking** — must be resolved before S1 safety screening). Please refer to the manufacturer's package insert once available.
+Please refer to the package insert for safety information. No drug interaction records were found.
 
-**Literature-Reported Safety Signal**: Multiple case reports (PMID 41645692, 36939506, 33185530, 37014149, 33185535, 38607726) describe **paradoxical eczematous eruptions** occurring during treatment with Risankizumab and other IL-23 inhibitors in psoriasis patients, with an estimated incidence of 1–3%. This signal is particularly relevant given that the predicted indication under evaluation is itself "dermatitis," and should be weighed in any risk-benefit assessment.
-
----
+Literature notes one signal specific to this repurposing question. Paradoxical eczematous reactions have been reported with IL-23 inhibitors, including risankizumab, with an estimated incidence of 1–3% among psoriasis patients on biologics (PMID 41645692, 33185530, 36939506).
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-- The **psoriasis-spectrum** portion of the "dermatitis" prediction is well-supported by completed Phase 4 RCTs (NCT04908475, NCT05969223) and real-world cohort data (NCT04818385), and essentially reflects Risankizumab's existing global label rather than a novel hypothesis — justifying a guardrailed proceed for Singapore registration/label-expansion purposes.
-- The **atopic dermatitis** sub-indication should be explicitly excluded from this pathway: its pivotal Phase 2 RCT (NCT03706040 / PMID 36588137) was negative, and no further clinical development should be assumed without new evidence.
+The only direct RCT in atopic dermatitis appears not to show meaningful efficacy, and the mechanism (IL-23 in a mostly Th2-driven disease) is weak. The high TxGNN score probably reflects proximity to psoriasis in the knowledge graph. Eczematous reactions on risankizumab add a safety concern. The other nine predicted indications (ranks 2–10) have no trials or literature and are model-only (L5), so they do not change this decision.
 
 **To proceed, the following is needed:**
-- Resolve blocking data gap DG001 — obtain TFDA/local-equivalent package insert warnings and contraindications before any S1 safety evaluation
-- Complete structured MOA data (DG002) from DrugBank API
-- Confirm Singapore registration pathway, since the drug currently has zero local licences
-- Disaggregate the TxGNN "dermatitis" bucket into psoriasis-spectrum (proceed) vs. atopic dermatitis (hold/exclude) in any downstream indication-specific dossier
-- Note: ranks 2–10 in this evidence pack (e.g., neonatal dermatomyositis, amyopathic dermatomyositis, acrodermatitis chronica atrophicans, etc.) are all Evidence Level L5 with no clinical trial or literature support — model-prediction only — and are recommended **Hold** with no further action at this stage.
+- Full-text review of NCT03706040 and PMID 36588137 to confirm the efficacy outcome
+- Clarification of which dermatitis subtype is meant (atopic, contact, seborrhoeic, etc.)
+- The HSA package insert, to complete the warnings and contraindications review
+- Approved indication text for the Singapore registrations
+- If pursued, a subtype-specific proof-of-concept design, such as a case series in IL-23/Th17-driven or psoriasis-overlap dermatitis
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

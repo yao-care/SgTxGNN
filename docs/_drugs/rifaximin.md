@@ -29,78 +29,69 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Rifaximin: From Unregistered Indication to Oral Candidiasis
+# Rifaximin: From a Gut-Acting Antibacterial to Oral Candidiasis
 
 ## One-Sentence Summary
 
-Rifaximin is a gut-selective, non-absorbable rifamycin antibiotic; however, no original indication data is available in this evidence pack (the drug is not registered in Singapore or Taiwan) and detailed mechanism of action data is also missing.
-The TxGNN model predicts it may be effective for **Oral Candidiasis** with a very high similarity score, but the only supporting literature found actually reports the **opposite direction of effect** — rifaximin use was associated with an *increase* in resistant Candida infections, not treatment benefit.
-With **0 clinical trials** and only **1 publication** (which reports harm rather than efficacy), this candidate should be treated as a likely false positive from the model's embedding space rather than a genuine repurposing signal.
-
----
+Rifaximin is a non-absorbed, gut-restricted oral antibiotic, and its registered indication is not recorded in the Singapore data supplied.
+The TxGNN model predicts it may be effective for **oral candidiasis**, but there are **0 clinical trials** and **1 publication**, and that publication points to a possible harm signal rather than a benefit.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — drug is not registered in Singapore/Taiwan, and no original indication data was provided in the evidence pack |
-| Predicted New Indication | Oral Candidiasis |
+| Original Indication | Not recorded in the Singapore registration data |
+| Predicted New Indication | Oral candidiasis |
 | TxGNN Prediction Score | 99.75% |
-| Evidence Level | L5 (model prediction only; the one available publication is negative/contradictory) |
-| Singapore Market Status | ✗ Not marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 (indirect only; the single publication is a harm signal) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for rifaximin in this evidence pack (`original_moa: [Data Gap]`). Based on general pharmacological knowledge captured in the rationale field, rifaximin is a rifamycin-class antibiotic with minimal systemic or mucosal absorption, acting locally within the gastrointestinal tract on the gut bacterial microbiota. It has no known antifungal activity.
+Currently, detailed mechanism of action data is not available. Rifaximin is known as an oral, non-absorbable antibiotic that acts mainly in the gut. It has no known antifungal activity, so a mechanistic link to oral candidiasis is hard to justify.
 
-This creates a mechanistic mismatch with the predicted indication of oral candidiasis, which is a fungal infection of the oral mucosa. There is no plausible pharmacodynamic pathway by which a gut-restricted, non-absorbed antibacterial agent would treat a mucosal *Candida* infection.
+The only retrieved publication points the opposite way. It reports that rifaximin use was associated with micafungin-resistant *Candida* infections in stem cell transplant recipients. Disrupting the gut microbiome with an antibacterial may favour fungal overgrowth rather than treat it.
 
-More importantly, the single piece of literature evidence associated with this prediction (PMID 34180023) does not support efficacy — it reports that rifaximin use in allogeneic hematopoietic stem cell transplant recipients was associated with a **higher incidence of micafungin-resistant Candida infections**, consistent with a mechanism of bacterial suppression permitting fungal overgrowth (ecological disruption), rather than a therapeutic effect. The same negative-direction pattern repeats for the related prediction "candidiasis" (rank 6), which cites this same paper plus a second study identifying rifaximin/cirrhosis-related risk factors for candidaemia. TxGNN's high similarity score in this case most likely reflects a graph-embedding artifact (co-occurrence of rifaximin and Candida-related terms in adverse-event contexts) rather than a genuine therapeutic signal.
-
----
+The high TxGNN score most likely reflects proximity in the knowledge graph, not a therapeutic rationale. This prediction should not be read as a credible repurposing signal.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for oral candidiasis.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [34180023](https://pubmed.ncbi.nlm.nih.gov/34180023/) | 2021 | Cohort/Case series | Annals of Hematology | In allogeneic HSCT recipients, rifaximin prophylaxis was associated with an increased incidence of micafungin-resistant *Candida* spp. infections — an adverse association, not a therapeutic finding |
-
----
+| [34180023](https://pubmed.ncbi.nlm.nih.gov/34180023/) | 2021 | Cohort | Annals of Hematology | Studied the safety and outcomes of stem cell transplant patients given rifaximin prophylaxis. Rifaximin use was associated with micafungin-resistant *Candida* infections, a potential harm signal and not a benefit. |
 
 ## Singapore Market Information
 
-Rifaximin is not currently registered in the Singapore market (0 licenses on file); no product authorization data is available.
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN14761P | XIFAXAN Film-coated Tablet 550mg (Alfasigma S.p.A.) | Film-coated tablet (oral) |
 
----
+The approved indication text is not available in the registration record.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No key warnings, contraindications, or drug-drug interaction data were available in this evidence pack (all flagged as data gaps: DG001 — TFDA label warnings/contraindications, severity Blocking).
+Please refer to the package insert for safety information.
 
----
+One literature-based note applies to the predicted use. Rifaximin exposure was linked to resistant *Candida* infections in transplant recipients, so using it to treat candidiasis could worsen the condition.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (oral candidiasis, TxGNN score 99.75%) is not supported by clinical trial evidence and is directly contradicted by the only available publication, which reports rifaximin use *increasing* resistant Candida infection risk rather than treating it. Combined with missing MOA data and no Singapore market registration, this candidate does not meet the threshold to advance past S0.
+There is no antifungal mechanism and no supporting trial, and the only publication suggests possible harm. The high model score is likely a knowledge-graph artefact, so this prediction does not justify further investment.
 
 **To proceed, the following is needed:**
-- TFDA/HSA label warnings and contraindications (DG001, Blocking — currently blocks any S1 safety screening)
-- Confirmed mechanism of action data from DrugBank (DG002)
-- Independent re-evaluation of the TxGNN embedding for false-positive risk, given the negative-direction literature signal
-- If further repurposing work is pursued for this drug, note that **HIV infectious disease** (rank 9, TxGNN score 98.2%) reached evidence level L3 with an active "Research Question" stage — it has a directly relevant Phase 4 trial (NCT01654939, withdrawn/0 enrollment) and a pilot RCT (PMID 25214516) showing only a "marginal" effect on microbial translocation. This is a more defensible starting point for further evaluation than oral candidiasis, though still far from Go-level evidence.
+- Singapore package insert (HSA) with approved indication, warnings and contraindications
+- Mechanism of action data from DrugBank, to confirm whether any antifungal activity exists
+- Any in vitro antifungal data, if the question is to be reopened
+- Clarification of the *Candida* resistance signal in the 2021 cohort study, since it points to harm
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

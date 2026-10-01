@@ -29,82 +29,75 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Isoleucine: From Essential Amino Acid Supplementation to Gastroparesis
+# Isoleucine: From Parenteral Amino Acid Nutrition Component to Gastroparesis
 
 ## One-Sentence Summary
 
-Isoleucine is an essential branched-chain amino acid (BCAA) with established roles in protein synthesis, energy metabolism, and gut hormone signalling, used clinically as a nutritional supplement.
-The TxGNN model predicts it may be effective for **Gastroparesis**,
-with **0 clinical trials** and **0 publications** directly supporting this therapeutic direction — making this a hypothesis-only finding at present.
-
----
+Isoleucine is an essential branched-chain amino acid, marketed in Singapore mainly as a component of intravenous amino acid infusions.
+The TxGNN model predicts it may be effective for **gastroparesis**, but the prediction rests on model output alone, with **0 clinical trials** and **0 publications** retrieved for this indication.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Essential amino acid / nutritional supplementation (no formal regulatory indication registered in Singapore) |
+|------|------|
+| Original Indication | Not stated in the registration records; the listed products are parenteral amino acid infusions (nutritional supply) |
 | Predicted New Indication | Gastroparesis |
 | TxGNN Prediction Score | 99.32% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Hold (Research Question) |
-
----
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 19 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for Isoleucine in the context of gastroparesis. Based on known biochemistry, Isoleucine is a branched-chain amino acid (BCAA) — along with leucine and valine — that serves as a structural protein building block and plays a role in energy metabolism and gut endocrine signalling.
+Currently, detailed mechanism of action data is not available. Isoleucine is an essential amino acid, and it is used in parenteral nutrition products as a protein building block. No known mechanism links it to delayed gastric emptying.
 
-The mechanistic rationale proposed by TxGNN centres on the gut hormone axis: BCAAs, including Isoleucine, are known to stimulate intestinal K cells and L cells to secrete cholecystokinin (CCK), glucagon-like peptide-1 (GLP-1), and peptide YY (PYY). These gut hormones directly regulate gastric emptying rate and antral contractility — both of which are impaired in gastroparesis. Isoleucine may therefore modulate gastric motility via intestinal nutrient-sensing mechanisms involving the mTOR and calcium-sensing receptor (CaSR) pathways.
+The prediction most likely reflects proximity in the knowledge graph rather than a demonstrated biological link. Related gut-motility diseases (familial visceral myopathy, intestinal pseudo-obstruction) also scored highly, which points to the same pattern.
 
-However, this mechanistic chain remains indirect and largely speculative. No clinical intervention study has tested Isoleucine as a treatment for gastroparesis, and the causal direction of BCAA–gut motility interactions in disease states has not been established. The prediction plausibility is rated **moderate (indirect)**.
-
----
+The nearest supporting signals are indirect and belong to a neighbouring predicted indication, dyspepsia. Metabonomic studies report altered plasma amino acid profiles in functional dyspepsia, and a rat barostat study found that amino acids influence gastric adaptive relaxation. Neither shows that isoleucine supplementation helps patients, and neither concerns gastroparesis directly.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature directly studying Isoleucine as a treatment for gastroparesis.
-
-> **Note:** Related mechanistic evidence exists for **Dyspepsia** (TxGNN rank #4), a condition with overlapping gastric motility pathophysiology. A 2016 rat model study ([PMID 27558952](https://pubmed.ncbi.nlm.nih.gov/27558952/)) demonstrated that branched-chain amino acids influence gastric adaptive relaxation (accommodation) — a core dyspepsia mechanism potentially shared with gastroparesis. This indirect evidence provides limited but non-zero biological plausibility for the gastroparesis prediction.
-
----
+Currently no related literature available for gastroparesis.
 
 ## Singapore Market Information
 
-Isoleucine (DB00167) has no product registrations with the Health Sciences Authority (HSA) in Singapore. It is not currently marketed as a pharmaceutical product in this jurisdiction.
+19 registrations exist. The 5 main ones are listed below.
 
----
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN16337P | AMINOVEN SOLUTION FOR INFUSION 15% | Infusion, solution | Fresenius Kabi Austria GmbH (Graz) |
+| SIN11682P | AMINOVEN SOLUTION FOR INFUSION 5% | Injection | Fresenius Kabi Austria GmbH |
+| SIN11829P | AMINOVEN SOLUTION FOR INFUSION 10% | Injection | Fresenius Kabi Austria GmbH |
+| SIN06299P | NEPHROSTERIL FOR INTRAVENOUS INFUSION | Injection | Fresenius Kabi Austria GmbH |
+| SIN08352P | AMINOPLASMAL-15% INFUSION | Injection | B. Braun Melsungen AG |
+
+All available forms are injectable or infusion products. Whether an oral or enteral route would be needed for gastroparesis has not been assessed.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
-> **Important safety signal identified from mechanistic analysis:** Patients with methylmalonic acidemia (MMA) or beta-ketothiolase deficiency carry a known contraindication-equivalent risk. Isoleucine catabolism proceeds through Propionyl-CoA → Methylmalonyl-CoA → Succinyl-CoA; in patients with MUT/MMAA/MMAB gene mutations, excess Isoleucine intake accelerates accumulation of toxic methylmalonic acid, which can cause distal renal tubular damage. This population-specific safety concern must be screened for in any future study design.
-
----
+Please refer to the package insert for safety information. No drug interaction records were found.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold (Research Question)**
+**Decision: Hold**
 
 **Rationale:**
-The TxGNN model assigns a high prediction score (99.32%), but there is zero direct clinical or preclinical evidence supporting Isoleucine as a treatment for gastroparesis. The mechanistic hypothesis — gut BCAA sensing → CCK/GLP-1/PYY secretion → improved gastric motility — is biologically plausible but entirely unvalidated in this indication. The evidence level is L5 (model prediction only), which does not support clinical advancement without foundational studies.
+The gastroparesis prediction has a high model score but no trials, no literature and no known mechanism, so the evidence level is L5. The 19 Singapore registrations are all parenteral nutrition products, with no approved use related to gastric motility.
 
 **To proceed, the following is needed:**
+- HSA package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data (for example from the DrugBank API) to test any link to gastric motility
+- A targeted literature search on branched-chain amino acids and gastric emptying or gastroparesis
+- A route-compatibility assessment, since the marketed products are intravenous only
 
-- **Mechanistic proof-of-concept studies:** In vitro and animal studies directly measuring the effect of Isoleucine on gastric emptying rates and antral contractility in gastroparesis models
-- **Biomarker analysis:** Plasma BCAA profiling in gastroparesis patient cohorts to determine whether Isoleucine dysregulation is present and causally relevant
-- **Safety screening protocol:** Identification and exclusion of patients with methylmalonic acidemia or related BCAA catabolic enzyme deficiencies from any future study cohort
-- **Dose-response characterisation:** Determination of pharmacologically active Isoleucine doses that achieve gut hormone effects without systemic metabolic perturbation
-- **Comparison with established GLP-1 pathway agents:** Contextualise potential Isoleucine effects against approved gastroparesis or gastric motility treatments (e.g., metoclopramide, domperidone) to assess whether the BCAA mechanism adds clinical value
+Among the other top-10 predictions, only **dyspepsia** has indirect supporting literature (L4, research question). It is a better candidate for further review than gastroparesis. The obsolete term "vitamin D deficiency" should be remapped to a current ontology term before any review.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

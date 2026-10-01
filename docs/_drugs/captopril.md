@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Captopril
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 203
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 ---
 
 # Captopril
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,83 +29,70 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Captopril: From Hypertension and Heart Failure to Malignant Hypertensive Renal Disease
+# Captopril: From Hypertension to Malignant Hypertensive Renal Disease
 
 ## One-Sentence Summary
 
-Captopril is a well-established angiotensin-converting enzyme (ACE) inhibitor, clinically recognised for treating hypertension and congestive heart failure.
-The TxGNN model predicts it may be effective for **Malignant Hypertensive Renal Disease**,
-with **0 clinical trials** and **1 publication** currently supporting this specific direction — placing confidence primarily in mechanistic plausibility rather than direct clinical evidence.
-
----
+Captopril is an oral ACE inhibitor marketed in Singapore as tablets, and its indication is generally hypertension. The TxGNN model predicts it may be effective for **malignant hypertensive renal disease**. Support is very thin: **0 clinical trials** and **1 publication** (a diagnostic case report, not a treatment study).
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Hypertension, congestive heart failure (established clinical use; no Singapore registration on record) |
-| Predicted New Indication | Malignant Hypertensive Renal Disease |
+|------|------|
+| Original Indication | Not stated in the HSA licence records (captopril is generally used for hypertension) |
+| Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 99.28% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 6 |
 | Recommended Decision | Hold |
 
----
+## Why is This Prediction Reasonable?
 
-## Why Is This Prediction Reasonable?
+Currently, detailed mechanism of action data is not available. Captopril acts on the renin-angiotensin-aldosterone system (RAAS), and blocking this system is an established way to lower blood pressure. Its efficacy in hypertension is well established, and mechanistically it may be applicable to renin-driven malignant hypertension with kidney involvement.
 
-Detailed mechanism of action data was not available in this evidence pack. Based on established pharmacological knowledge, Captopril inhibits angiotensin-converting enzyme (ACE), blocking the conversion of angiotensin I to angiotensin II and suppressing the renin-angiotensin-aldosterone system (RAAS). This reduces systemic vascular resistance, lowers blood pressure, and — critically for renal implications — decreases efferent arteriolar tone, thereby reducing intraglomerular hypertension and proteinuria.
-
-Malignant hypertensive renal disease is a severe end-organ complication driven by extreme hypertension and pathological RAAS hyperactivation, resulting in accelerated glomerular damage, fibrinoid necrosis of arterioles, and rapidly progressive renal failure. The mechanistic rationale is therefore coherent: ACEI-mediated RAAS suppression could attenuate the glomerular hypertensive injury central to this disease, mirroring established renoprotective roles of ACEIs in diabetic nephropathy and hypertensive nephrosclerosis.
-
-However, a critical clinical caveat undermines straightforward application. In the setting of bilateral renal artery stenosis — which may coexist or underlie malignant hypertensive presentations — ACEI use carries a documented risk of precipitating acute renal failure due to loss of angiotensin II-mediated efferent tone needed to maintain GFR. Careful renal imaging and close monitoring of renal function are prerequisites before initiating therapy.
-
----
+The link is plausible, but it is not proven by the evidence retrieved. The only paper found describes captopril renography, a diagnostic test, in a patient with renal cell carcinoma. It does not show that captopril treats this condition. The high TxGNN score likely reflects knowledge-graph proximity between hypertension-related diseases rather than direct clinical support.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Captopril in malignant hypertensive renal disease.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [28902735](https://pubmed.ncbi.nlm.nih.gov/28902735/) | 2017 | Case Report | Clinical Nuclear Medicine | A patient with positive captopril renography found to have chromophobe renal cell carcinoma (not renal artery stenosis); nephrectomy relieved renin-dependent hypertension. Illustrates the diagnostic complexity of renin-mediated renal hypertension in non-atherosclerotic etiologies — tangential to malignant hypertensive renal disease but highlights captopril's role in identifying renin-dependent vascular pathology |
-
----
+|------|-----|------|------|---------|
+| [28902735](https://pubmed.ncbi.nlm.nih.gov/28902735/) | 2017 | Case report | Clinical Nuclear Medicine | A positive captopril renography (a diagnostic test) turned out to be caused by a large renal cell carcinoma rather than renal artery stenosis. Renin-dependent hypertension resolved after nephrectomy. This is diagnostic, not evidence of therapeutic benefit. |
 
 ## Singapore Market Information
 
-Captopril is currently not registered in Singapore. No product authorisations are on file. Physicians wishing to use Captopril would need to access it through special import channels or consider alternative ACE inhibitors with local registration.
+Six licences are registered in total; the five below are the main ones. All are oral tablets. The approved indication text is not listed in the records.
 
----
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN08473P | DEXACAP TABLET 12.5 mg | Tablet | PT Dexa Medica |
+| SIN10401P | CATOPLIN-25 TABLETS 25 mg | Tablet | Beacons Pharmaceuticals Pte. Ltd. |
+| SIN06666P | APO-CAPTO TABLET 25 mg | Tablet | Apotex Inc |
+| SIN06665P | APO-CAPTO TABLET 50 mg | Tablet | Apotex Inc |
+| SIN06667P | APO-CAPTO TABLET 12.5 mg | Tablet | Apotex Inc |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-> **Note from evidence pack:** Full safety data including TFDA package insert warnings, contraindications, and drug interaction records were not retrieved for this analysis. This is flagged as a blocking data gap (DG001) that must be resolved before any clinical safety evaluation can proceed.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite a high TxGNN prediction score (99.28%), direct clinical evidence for Captopril in malignant hypertensive renal disease is limited to a single tangentially relevant case report. The mechanistic rationale is plausible but insufficient on its own to support a repurposing recommendation, particularly given the known risk of acute renal decompensation in bilateral renovascular disease that may accompany malignant hypertensive presentations.
+This prediction has model support only (L5), with no registered trials and no therapeutic studies. The single publication is a diagnostic case report. The HSA package insert safety data are also missing, which blocks safety screening.
+
+Other captopril predictions in this Evidence Pack have more support and may be better candidates to pursue first. These are malignant renovascular hypertension (L4), chronic pulmonary heart disease (L3) and chronic renal failure (L3). Even these rest mainly on small hemodynamic, animal or non-randomized studies.
 
 **To proceed, the following is needed:**
-
-- **Safety data (Blocking):** Obtain and review the full package insert — warnings, contraindications, and renal function monitoring requirements — before any safety assessment can proceed
-- **MOA confirmation:** Query DrugBank API to retrieve formal mechanism of action and pharmacological class data (DG002)
-- **Renal imaging prerequisite:** Any clinical application must first exclude bilateral renal artery stenosis (risk of ACE inhibitor-induced acute kidney injury)
-- **Targeted literature search:** Expand PubMed search to malignant hypertension with renal involvement specifically under ACEI therapy, including hypertensive emergency guidelines
-- **Subpopulation analysis:** Review whether existing large ACEI trials (e.g., SAVE, SOLVD) captured malignant hypertensive renal disease subpopulations as secondary endpoints
-- **Consider higher-priority indications:** The evidence pack identifies **malignant renovascular hypertension** (Rank 2, L3, 20 publications) and **chronic renal failure syndrome** (Rank 10, L3, 18 publications + 2 clinical trials) as better-evidenced repurposing candidates with "Proceed with Guardrails" recommendations — these may warrant prioritisation over Rank 1
+- HSA package insert warnings and contraindications, downloaded and parsed
+- Mechanism of action data from DrugBank
+- Approved indication text for the Singapore licences
+- Any treatment study (clinical or observational) of captopril in malignant hypertensive renal disease
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

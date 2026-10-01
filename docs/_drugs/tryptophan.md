@@ -3,14 +3,14 @@ layout: default
 title: Tryptophan
 parent: Medium Evidence (L3-L4)
 nav_order: 1024
-evidence_level: L3
+evidence_level: L4
 indication_count: 10
 ---
 
 # Tryptophan
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,84 +29,82 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Tryptophan: From Nutritional Amino Acid to Restless Legs Syndrome
+# Tryptophan: From Parenteral Amino Acid Nutrition to Restless Legs Syndrome
 
 ## One-Sentence Summary
 
-Tryptophan is an essential amino acid and metabolic precursor of serotonin; it has no approved drug indication on record in this evidence pack and is not currently marketed in Singapore. The TxGNN model predicts it may be effective for **Restless Legs Syndrome (RLS)**, but this direction is currently supported only by **0 registered clinical trials** and **8 publications**, most of which are decades-old, small, or indirect (associational) rather than confirmatory treatment trials.
-
----
+Tryptophan is an essential amino acid. In Singapore it is registered only as a component of parenteral amino acid infusion products, which suggests nutritional support, though the registry lists no indication text.
+The TxGNN model predicts it may be effective for **Restless Legs Syndrome (RLS)**, but there are **0 registered clinical trials** for this indication.
+Only **8 publications** exist, mostly indirect or mechanistic, plus two small 1986-1987 clinical reports whose designs cannot be verified.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not formally registered as a drug indication; historically used as a nutritional/dietary amino acid supplement |
-| Predicted New Indication | Restless Legs Syndrome |
+| Original Indication | Not stated in the registry. Product types (amino acid infusions) suggest parenteral nutrition support. |
+| Predicted New Indication | Restless legs syndrome |
 | TxGNN Prediction Score | 99.72% |
-| Evidence Level | L3 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 19 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for tryptophan is not available in this evidence pack (Data Gap DG002). Based on general pharmacology, tryptophan is the metabolic precursor of serotonin (5-HT), and downstream of that, melatonin. It has no formally registered therapeutic indication in the source data used here — it is generally used as a dietary/nutritional amino acid rather than an approved drug product, which is also consistent with its "not marketed" status in Singapore.
+Detailed mechanism of action data is not currently available from the source records. Tryptophan is the precursor of serotonin and, via 5-hydroxytryptophan (5-HTP), connects to dopaminergic and sleep-regulating pathways. Those pathways are thought to be involved in RLS and periodic leg movements.
 
-The mechanistic rationale for RLS is that the serotonergic system interacts with the dopaminergic system, and dopaminergic dysfunction is a well-established feature of RLS pathophysiology (dopamine agonists are a mainstay RLS treatment). A small direct treatment study of L-tryptophan in RLS was published as early as 1986, but the evidence base has not been meaningfully updated since — no modern, adequately powered, or controlled trial has re-tested this hypothesis. This makes the biological plausibility reasonable, but the clinical evidence remains dated and thin.
+A report on DNAJC12 deficiency, an inherited disorder of aromatic amino acid metabolism that includes RLS, offers indirect mechanistic support.
 
----
+The direction of effect is uncertain. Reports of antidepressants and lithium inducing or worsening RLS suggest that increased serotonergic activity could aggravate symptoms rather than relieve them.
+
+The registered Singapore products are nutritional infusions. Nothing in the supplied data links that original use to RLS, so the prediction rests on pathway plausibility alone.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered for restless legs syndrome.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [3659737](https://pubmed.ncbi.nlm.nih.gov/3659737/) | 1987 | Comparative study | Sleep | Compared L-dopa, 5-hydroxytryptophan, and L-tryptophan effects on periodic leg movements |
-| [3953904](https://pubmed.ncbi.nlm.nih.gov/3953904/) | 1986 | Open-label/small trial | Am J Psychiatry | Direct treatment study of L-tryptophan in restless legs syndrome |
-| [33836477](https://pubmed.ncbi.nlm.nih.gov/33836477/) | 2021 | Systematic review | Sleep Medicine Reviews | RLS is common in chronic liver disease, potentially linked to elevated tryptophan, histamine, and altered dopamine turnover; associational, not treatment evidence |
-| [1305630](https://pubmed.ncbi.nlm.nih.gov/1305630/) | 1992 | Review | Int J Neuroscience | Reviews serotonin's role across CNS functions, including motor behavior relevant to movement disorders |
-| [2881477](https://pubmed.ncbi.nlm.nih.gov/2881477/) | 1987 | Review | Am Fam Physician | General review of insomnia diagnosis/treatment; not RLS-specific |
-| [32546134](https://pubmed.ncbi.nlm.nih.gov/32546134/) | 2020 | Postmarketing pharmacovigilance | BMC Psychiatry | Evaluates antidepressant-associated movement disorders; not a direct tryptophan study |
-| [1777530](https://pubmed.ncbi.nlm.nih.gov/1777530/) | 1991 | Case report | Biological Psychiatry | Describes lithium-induced RLS; indirect relevance to serotonergic/dopaminergic mechanism |
-| [36897462](https://pubmed.ncbi.nlm.nih.gov/36897462/) | 2023 | Case report | Neurological Sciences | RLS in DNAJC12 deficiency, a genetic disorder impairing dopaminergic/serotoninergic neurotransmission |
-
----
+| [3953904](https://pubmed.ncbi.nlm.nih.gov/3953904/) | 1986 | Clinical study (small, design unverified) | Am J Psychiatry | Directly addresses L-tryptophan in RLS treatment. No abstract is available, so results cannot be confirmed. |
+| [3659737](https://pubmed.ncbi.nlm.nih.gov/3659737/) | 1987 | Clinical study (small, design unverified) | Sleep | Examines periodic leg movement with L-dopa, 5-HTP and L-tryptophan. No abstract is available, so results cannot be confirmed. |
+| [33836477](https://pubmed.ncbi.nlm.nih.gov/33836477/) | 2021 | Systematic review/meta-analysis | Sleep Med Rev | RLS in chronic liver disease. Elevated tryptophan is one proposed contributor. Indirect evidence only. |
+| [1305630](https://pubmed.ncbi.nlm.nih.gov/1305630/) | 1992 | Review | Int J Neurosci | L-tryptophan in neuropsychiatric disorders. Discusses serotonin's role in motor and sleep control. |
+| [2881477](https://pubmed.ncbi.nlm.nih.gov/2881477/) | 1987 | Review | Am Fam Physician | General insomnia diagnosis and treatment. Only indirectly relevant to RLS. |
+| [36897462](https://pubmed.ncbi.nlm.nih.gov/36897462/) | 2023 | Case report/series | Neurol Sci | RLS in DNAJC12 deficiency, with impaired dopaminergic and serotonergic neurotransmission. Mechanistic support only. |
+| [32546134](https://pubmed.ncbi.nlm.nih.gov/32546134/) | 2020 | Pharmacovigilance study | BMC Psychiatry | Antidepressant-associated movement disorders. Not tryptophan-specific, but suggests serotonergic agents may worsen RLS. |
+| [1777530](https://pubmed.ncbi.nlm.nih.gov/1777530/) | 1991 | Case report | Biol Psychiatry | Lithium-induced RLS. Indirect. |
 
 ## Singapore Market Information
 
-Tryptophan currently has **no marketing authorization** on record in Singapore (0 registrations). No product license, dosage form, or approved indication data is available.
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN16337P | AMINOVEN SOLUTION FOR INFUSION 15% | Infusion, solution |
+| SIN11682P | AMINOVEN SOLUTION FOR INFUSION 5% | Injection |
+| SIN11829P | AMINOVEN SOLUTION FOR INFUSION 10% | Injection |
+| SIN06299P | NEPHROSTERIL FOR INTRAVENOUS INFUSION | Injection |
+| SIN08352P | AMINOPLASMAL-15% INFUSION | Injection |
 
----
+Approved indication text is not stated in the registry for these authorizations. The 19 registrations cover injectable, sterile solution and emulsion forms only, with no oral forms listed.
 
 ## Safety Considerations
 
-**Historical Safety Signal:** In 1989, contaminated L-tryptophan dietary supplements were associated with Eosinophilia-Myalgia Syndrome (EMS), a serious systemic illness with reported fatalities, attributed to manufacturing impurities rather than tryptophan itself (documented in registry record NCT00001918). This underscores the importance of pharmaceutical-grade purity and manufacturing quality control for any therapeutic use of tryptophan.
-
-Formal drug interaction, contraindication, and warning data could not be retrieved for this evidence pack (Data Gap DG001). Please refer to the package insert for complete safety information once available.
-
----
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The RLS signal rests on one small, non-randomized 1986 human study and otherwise indirect/associational or case-level literature, with no active or completed modern clinical trials. Evidence level (L3) does not yet support proceeding to development or guardrail-based deployment.
+The only direct evidence is two small 1980s clinical reports with unverified designs. No trials are registered, and the serotonergic mechanism could plausibly worsen RLS rather than help it. Package insert safety data is also missing, which blocks progression to safety screening.
 
 **To proceed, the following is needed:**
-- A modern, adequately powered RCT to re-test L-tryptophan's efficacy in RLS
-- Mechanism of action (MOA) data (DG002)
-- TFDA/HSA-equivalent label warnings and contraindications (DG001)
-- A regulatory pathway assessment, since tryptophan currently has no marketing authorization in Singapore
-- A manufacturing/purity quality plan addressing the 1989 EMS precedent before any clinical use is considered
+- Safety data (warnings and contraindications) from the HSA package inserts
+- Mechanism of action data from DrugBank
+- Full-text review of PMID 3953904 and 3659737 to establish design, dose and outcomes
+- Route compatibility assessment, since current Singapore registrations are parenteral only
+- A controlled trial design (or confirmation that one exists) for RLS
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

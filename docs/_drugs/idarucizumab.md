@@ -33,76 +33,59 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Idarucizumab (Praxbind) is a humanized monoclonal antibody fragment (Fab) specifically designed to reverse the anticoagulant effects of dabigatran in emergency situations such as uncontrolled bleeding or urgent surgery.
-The TxGNN model predicts it may be effective for **Hemoglobinopathy** with a score of 95.66%; however, **no clinical trials and no supporting literature** exist for this direction.
-Across all 10 predicted indications, the evidence level remains at L5, suggesting these predictions are likely knowledge graph artefacts rather than genuine repurposing opportunities.
-
----
+Idarucizumab is an antidote antibody fragment that neutralizes the anticoagulant dabigatran. The TxGNN model predicts it may be effective for **hemoglobinopathy**, but **no clinical trials and no publications** support this prediction. The signal comes from the knowledge graph alone, and the mechanism gives no plausible reason for it.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Reversal of dabigatran anticoagulation (emergency surgery / life-threatening bleeding) |
+|------|------|
+| Original Indication | Not stated in the Singapore registration record. Known use is reversal of dabigatran's anticoagulant effect |
 | Predicted New Indication | Hemoglobinopathy |
 | TxGNN Prediction Score | 95.66% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the Evidence Pack. Based on established pharmacological knowledge, Idarucizumab is a humanized Fab antibody fragment that binds dabigatran (a direct thrombin inhibitor) with extremely high affinity — approximately 350 times greater than dabigatran's own affinity for thrombin. This binding is highly specific and irreversible under physiological conditions, making Idarucizumab a targeted antidote rather than a broad-spectrum therapeutic agent.
+Currently, detailed mechanism of action data is not available in the source record. The available description is that idarucizumab is a humanized Fab fragment that binds dabigatran with high affinity and neutralizes its anticoagulant effect. It acts on one specific drug, not on a biological pathway.
 
-Hemoglobinopathies (such as sickle cell disease and thalassaemia) are diseases of haemoglobin structure or synthesis, entirely unrelated to the coagulation cascade or thrombin inhibition. The TxGNN high score for this indication is most likely attributable to indirect graph connections between haematological disease nodes and coagulation pathway nodes within the knowledge graph — a known source of false-positive predictions in KG-based models, often called "pseudo-path" inflation.
+**The prediction is not mechanistically reasonable.** Idarucizumab has no known action on hemoglobin structure, red cell production, or red cell function. Hemoglobinopathies are inherited disorders of the red cell, so a drug-specific antidote has nothing to act on. The high score (0.957) is a graph-based signal only. It is further weakened because the source record lists no original indications and no mechanism of action.
 
-In summary, there is no recognized biological rationale linking Idarucizumab's mechanism to the treatment of hemoglobinopathy. The same absence of mechanistic plausibility applies to all 10 predicted indications in this Evidence Pack, which span conditions ranging from rare chromosomal deletions to rheumatoid arthritis and gout — none of which intersect with dabigatran reversal pharmacology.
-
----
+The other top-ranked predictions show the same pattern. They include rheumatoid arthritis, beta-thalassemia, pyruvate kinase deficiency, bronchitis, and gout. All have no trials, and all lack a plausible mechanistic link. This suggests the predictions are artifacts of knowledge graph connectivity rather than real repurposing signals.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no relevant literature available for the top predicted indication (hemoglobinopathy).
+Currently no related literature available.
 
-> **Note on the sole identified publication:** One case report (PMID [31381100](https://pubmed.ncbi.nlm.nih.gov/31381100/)) was retrieved in the context of the "gout" prediction (Rank 9). This 2019 *American Journal of Health-System Pharmacy* case report by Sheikh-Taha M describes use of Idarucizumab to reverse dabigatran-associated coagulopathy in a patient who happened to have concurrent acute kidney injury. The patient's gout diagnosis was an incidental comorbidity, not the indication for Idarucizumab. This publication does **not** constitute repurposing evidence for any of the predicted indications.
-
----
+For the other predictions, the only publication retrieved is a 2019 case report (PMID [31381100](https://pubmed.ncbi.nlm.nih.gov/31381100/)), listed under gout. It describes reversal of dabigatran in a patient with acute kidney injury, which is the drug's approved use. It does not test idarucizumab as a treatment for gout, and it is not evidence for repurposing.
 
 ## Singapore Market Information
 
-Idarucizumab has **no registered products** in Singapore as of the data cut-off (2026-04-04). No authorization numbers, product names, or approved indications are available.
-
----
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN15083P | PRAXBIND SOLUTION FOR INJECTION/INFUSION 50 MG/ML | Injection, solution | Boehringer Ingelheim Pharma GmbH & Co KG, Biberach |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction data, key warnings, or contraindication records were retrieved in this Evidence Pack.
-
----
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-All 10 TxGNN-predicted indications are rated L5 (model prediction only, no supporting studies), and the mechanistic analyses consistently confirm the absence of biological plausibility — Idarucizumab's highly specific Fab-dabigatran binding mechanism does not translate to any of the predicted diseases. The top-ranked indication, hemoglobinopathy, has zero clinical trials and zero literature support.
+The prediction is supported only by a graph model score, with no trials, no relevant publications, and no plausible mechanism. Idarucizumab is a single-target antidote and cannot plausibly act on red cell disorders. It should not advance to safety screening.
 
-**To proceed with any future evaluation, the following is needed:**
-
-- **Mechanistic reassessment:** Confirm whether any off-target biological activities of Idarucizumab (beyond dabigatran neutralization) have been reported, which could justify exploring non-coagulation indications.
-- **KG audit:** Review the knowledge graph paths that generated scores for hematological disease nodes; validate whether the high scores reflect genuine mechanistic links or graph topology artefacts (hub-node inflation).
-- **Singapore regulatory pathway:** Obtain official prescribing information from the European Medicines Agency (EMA) or the US FDA (Idarucizumab is approved under brand name Praxbind in both jurisdictions) to complete safety gap DG001.
-- **MOA data retrieval:** Query DrugBank API for full pharmacological profile (gap DG002) before any future indication expansion analysis.
-- **Do not advance** any of the current 10 predicted indications to the next screening stage without first establishing mechanistic rationale and at least exploratory preclinical evidence.
+**To proceed, the following is needed:**
+- HSA package insert warnings and contraindications (a blocking gap for any safety screening)
+- Mechanism of action data from DrugBank
+- Expert review to confirm whether any of the ten predictions merits follow-up. On current information, none does.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

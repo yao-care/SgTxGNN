@@ -29,76 +29,69 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Levocetirizine: From Allergic Rhinitis/Urticaria to Rheumatoid Arthritis
+# Levocetirizine: From Allergic Conditions to Rheumatoid Arthritis
 
 ## One-Sentence Summary
 
-Levocetirizine is a second-generation H1-antihistamine widely used for allergic conditions such as allergic rhinitis and chronic urticaria. The TxGNN model predicts it may be effective for **Rheumatoid Arthritis**, but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a pure model-level signal with no corroborating evidence.
-
----
+Levocetirizine is an H1 antihistamine, a drug class used for allergic conditions. The Singapore registration records do not state an approved indication.
+The TxGNN model predicts it may be effective for **Rheumatoid Arthritis**, but **0 clinical trials** and **0 publications** currently support this direction, so it is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in the evidence pack (drug not registered in Singapore). Generally known as a second-generation H1-antihistamine for allergic rhinitis/chronic urticaria |
-| Predicted New Indication | Rheumatoid Arthritis |
+| Original Indication | Allergic conditions (based on drug class; the registration records contain no indication text) |
+| Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 99.73% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed (Not marketed) |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 6 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available (flagged as a High-severity data gap in this evidence pack). Based on general pharmacological knowledge, Levocetirizine is the active (R)-enantiomer of cetirizine, a second-generation H1-histamine receptor antagonist; its efficacy in allergic rhinitis and chronic urticaria is well established, and mechanistically it acts by blocking histamine-mediated inflammatory signaling.
+Currently, detailed mechanism of action data is not available. Based on known information, levocetirizine is a second-generation H1 receptor antagonist. Its efficacy in allergic conditions is established, and it may mechanistically be relevant to rheumatoid arthritis through histamine signalling.
 
-The proposed link to rheumatoid arthritis (RA) rests on the observation that RA synovial tissue contains mast cell infiltrates, and mast cells release histamine as part of local inflammatory amplification. In theory, an H1-receptor antagonist could dampen this mast-cell-mediated component of synovitis. However, this is a speculative mechanistic bridge rather than an established pharmacological pathway — mast cells and histamine are not considered a primary driver of RA pathophysiology (which is dominated by TNF-α, IL-6, and autoantibody-driven synovitis), and no clinical or preclinical study in this evidence pack demonstrates any antirheumatic activity for Levocetirizine or its class.
+The only proposed link is speculative. Histamine and mast cell activity have been implicated in synovial inflammation, so blocking H1 receptors could in theory affect inflammatory symptoms in the joint. No trial or publication tests this idea for levocetirizine. Because the mechanism data is missing, the link cannot be checked against the knowledge graph.
 
-Despite the very high TxGNN score (99.73%, model rank 4266), the complete absence of clinical trials, ICTRP registrations, or PubMed literature for this drug-disease pair means the prediction cannot currently be distinguished from knowledge-graph noise. This pattern is consistent with the other 9 top predictions in this evidence pack, most of which pair Levocetirizine with rare congenital skeletal/dysplasia syndromes that have no known biological relationship to H1-receptor antagonism and likely reflect sparse graph nodes rather than genuine repurposing signals. The one exception, common cold (rank 5), does have literature hits, but on inspection none of the three retrieved articles (an HPLC analytical method paper, a chronic urticaria review, and a fixed drug eruption case report) directly supports a therapeutic claim for treating the common cold — so it too remains at a hypothesis-generating stage (Evidence Level L4, Research Question) rather than a promising lead.
-
----
+The 99.73% score should be read cautiously. It reflects how the drug is positioned in the knowledge graph, not proof of clinical benefit. The other top-ranked predictions are mostly rare skeletal or developmental disorders with no plausible pharmacological link, which suggests that high scores here often reflect graph structure rather than biology.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Levocetirizine is currently **not marketed** in Singapore under this evidence pack (`market_status: Not marketed`, `total_licenses: 0`). No license records are available to report.
+Six licenses are registered in Singapore, all oral film-coated tablets. The five main ones are listed below. None of the records include approved indication text.
 
----
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN14939P | ALLERZAL F.C. TABLET 5MG | Tablet, film coated |
+| SIN16028P | XYZAL FILM-COATED TABLET 5 MG | Tablet, film coated |
+| SIN16480P | STADELTINE FILM-COATED TABLET 5MG | Tablet, film coated |
+| SIN16312P | ALERINIT FILM-COATED TABLET 5MG | Tablet, film coated |
+| SIN12084P | Zyr-NEX TABLET 5 mg | Tablet, film coated |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-*(Note: this evidence pack flags the absence of TFDA/HSA-equivalent package insert warnings and contraindications as a Blocking data gap — this must be resolved before any safety-related decision can be made, see Next Steps.)*
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The predicted rheumatoid arthritis indication has no clinical trial or literature support and rests only on a speculative mast-cell/H1-receptor mechanistic hypothesis; the TxGNN score alone (Evidence Level L5) is insufficient to justify further investment at this time. Nine of the ten predicted indications in this evidence pack show a similar pattern (no evidence, mechanistically implausible or rare/genetic conditions), suggesting model noise rather than a genuine repurposing opportunity.
+The prediction rests on a model score alone. There are no clinical trials or publications for levocetirizine in rheumatoid arthritis, and the mechanistic link is weak and unverified. It is worth keeping as a research question, not a candidate for development.
 
 **To proceed, the following is needed:**
-- Official package insert warnings and contraindications (Blocking data gap, DG001) — required before any safety evaluation can proceed
-- Confirmed mechanism of action data from DrugBank or equivalent source (High-severity data gap, DG002)
-- Preclinical or mechanistic studies specifically examining H1-receptor/mast-cell involvement in RA synovitis
-- Ongoing monitoring for any future clinical trial registrations or publications directly studying antihistamines (or Levocetirizine specifically) in rheumatoid arthritis
+- Mechanism of action data (for example from DrugBank), to test the histamine and mast cell hypothesis properly
+- Package insert warnings and contraindications from the Singapore regulator (HSA), which are needed before any safety screening
+- Preclinical or observational evidence on H1 antagonism in synovial inflammation
+- Confirmation that antihistamine exposure is relevant to rheumatoid arthritis outcomes, for example from cohort data or a targeted literature review
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -29,51 +29,60 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Doxylamine: From Sleep Aid / Nausea of Pregnancy to Allergic Urticaria
+# Doxylamine: From Antihistamine Use (Original Indication Not Recorded) to Allergic Urticaria
 
 ## One-Sentence Summary
 
-Doxylamine is a first-generation H1 antihistamine with anticholinergic properties, widely used over the counter as a sleep aid and as a first-line treatment for nausea and vomiting of pregnancy (NVP).
-The TxGNN model predicts it may be effective for **Allergic Urticaria** with a score of **99.85%** — while no Doxylamine-specific clinical trials or publications were identified for this indication, this prediction carries strong biological plausibility as H1 antihistamines are the established first-line standard of care for urticaria under international guidelines (WHO/EAACI).
-Doxylamine is **not currently registered** in Singapore.
+Doxylamine is a first-generation H1 antihistamine, and its original approved indication is not recorded in the Singapore registration data provided.
+The TxGNN model predicts it may be effective for **allergic urticaria** with a very high score, but **0 clinical trials** and **0 publications** currently support this specific prediction.
+This is a model-only prediction (L5), so the recommendation is to hold.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Sleep aid (insomnia); Nausea and vomiting of pregnancy |
-| Predicted New Indication | Allergic Urticaria |
+|------|------|
+| Original Indication | Not stated in the registration data (both licenses have empty indication text) |
+| Predicted New Indication | Allergic urticaria |
 | TxGNN Prediction Score | 99.85% |
-| Evidence Level | L4 (Class-level mechanistic evidence) |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Proceed with Guardrails |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Formal mechanism of action data from DrugBank is not yet available for this report. Based on known pharmacology and the evidence pack's repurposing rationale, Doxylamine is a **first-generation H1 receptor antagonist** (antihistamine) with significant anticholinergic and sedative properties. Its efficacy in promoting sleep (via central H1 and muscarinic blockade) and suppressing pregnancy-related nausea (via antihistamine and anticholinergic pathways at the vomiting centre) is well established in international literature.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Doxylamine is a first-generation H1 receptor antagonist with sedative and anticholinergic properties. Histamine released from mast cells drives the wheals and itch of urticaria, so blocking H1 receptors is biologically plausible for this condition.
 
-The mechanistic link between Doxylamine and allergic urticaria is **direct and strong**. Allergic urticaria is driven by IgE-mediated or non-IgE-mediated mast cell degranulation, which releases histamine that triggers the characteristic wheal-and-flare reaction, vasodilation, and pruritus via H1 receptors in the skin. H1 receptor blockade directly suppresses all of these histamine-mediated responses — this is precisely the pharmacological mechanism shared by all H1 antihistamines, which are unanimously recommended as first-line treatment in international urticaria guidelines (EAACI/GA²LEN/EDF/WAO 2022 revision). The TxGNN score of 0.9985 reflects this direct pharmacological class effect rather than a speculative new use.
+The two Singapore products are doxylamine-containing tablets (Bonjesta and Diclectin, both from Duchesnay). Their indication text was not supplied, so the original indication cannot be confirmed from this data. A registered trial in the Evidence Pack describes doxylamine succinate as a first-line treatment for nausea and vomiting in pregnancy, which suggests that is the established use. The link to urticaria rests mainly on the antihistamine class, and the high TxGNN score likely reflects the same class effect.
 
-The primary clinical limitation is Doxylamine's **first-generation sedating profile**. Compared to second-generation antihistamines (cetirizine, fexofenadine, loratadine), Doxylamine crosses the blood-brain barrier readily, leading to substantially greater daytime drowsiness, cognitive impairment, and anticholinergic side effects. This limits its suitability for chronic urticaria management or patients who need to remain alert, though the sedative effect may be advantageous in specific subpopulations (e.g., urticaria with concurrent sleep disturbance or nocturnal itch predominance).
+There is a practical caveat. Second-generation, non-sedating antihistamines are the usual therapy for urticaria, so a sedating first-generation agent is unlikely to be preferred. No study specific to doxylamine and urticaria was retrieved.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Doxylamine specifically in allergic urticaria.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available for Doxylamine specifically in allergic urticaria.
+Currently no related literature available.
 
-> **Note:** The absence of Doxylamine-specific evidence does not undermine the prediction. Class-level evidence for H1 antihistamines in urticaria is extensive; the gap reflects that researchers typically study second-generation agents rather than Doxylamine for this indication.
+---
+
+## Singapore Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN16865P | BONJESTA EXTENDED-RELEASE TABLETS 20 MG/20 MG | Tablet, film coated, extended release | Not stated in the registration data |
+| SIN15301P | DICLECTIN DELAYED RELEASE TABLETS 10MG/10MG | Tablet, delayed release | Not stated in the registration data |
+
+Both products are oral tablets from Duchesnay Inc.
 
 ---
 
@@ -81,25 +90,22 @@ Currently no related literature available for Doxylamine specifically in allergi
 
 Please refer to the package insert for safety information.
 
-> Formal safety data (key warnings, contraindications, and drug-drug interaction data) were not retrievable in this evaluation cycle. Clinically, as a first-generation anticholinergic antihistamine, Doxylamine is known to carry risks of sedation, urinary retention, dry mouth, and constipation; these should be evaluated before clinical use.
-
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Doxylamine's H1 receptor blockade mechanism aligns directly with the pharmacological basis of allergic urticaria treatment — this is a class-level therapeutic effect supported by extensive indirect evidence, not a speculative repurposing hypothesis. The primary guardrails concern its sedating first-generation profile and its current absence from the Singapore market, both of which require active management before deployment.
+The prediction is biologically plausible, but it is supported only by the model score and the antihistamine class. No trials or literature were found for allergic urticaria, and safer non-sedating alternatives are already standard care.
 
 **To proceed, the following is needed:**
+- The Singapore package insert (approved indication, warnings, contraindications), which is currently a blocking gap for safety screening
+- Detailed mechanism of action data from DrugBank
+- Any clinical evidence for doxylamine in urticaria, plus a comparison with second-generation antihistamines
+- Confirmation that the available oral delayed-release and extended-release tablets suit an urticaria use, since route compatibility is still pending
 
-- Retrieve formal MOA and safety data from DrugBank (currently a data gap blocking S1 safety triage)
-- Obtain and parse the package insert (e.g., from TFDA or EMA/FDA sources) to document contraindications and key warnings
-- Assess Singapore HSA registration pathway — Doxylamine is not currently marketed; determine if an existing OTC or Rx registration in a comparable jurisdiction (e.g., FDA, EMA) can support a local application
-- Define target patient subpopulation: identify clinical scenarios where Doxylamine's sedating profile offers a net advantage over second-generation antihistamines (e.g., urticaria with nocturnal symptom predominance or co-existing insomnia)
-- Conduct a structured head-to-head positioning analysis versus cetirizine/loratadine for urticaria — clarify where Doxylamine adds unique value vs. where it is inferior
-- Search for class-level evidence (any H1 antihistamine RCTs in urticaria) to upgrade the evidence grade from L4 toward L2/L3
+Among the other predicted indications, only **headache disorder** (rank 9, TxGNN score 83.2%) has any supporting evidence (L3). That evidence consists of a Phase 1 intranasal PK/PD study and a 1976 trial of a doxylamine-containing analgesic combination in migraine, so it is indirect and dated. It may be a more evidence-supported direction to assess than urticaria.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

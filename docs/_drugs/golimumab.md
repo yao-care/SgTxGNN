@@ -3,14 +3,14 @@ layout: default
 title: Golimumab
 parent: Medium Evidence (L3-L4)
 nav_order: 485
-evidence_level: L3
+evidence_level: L4
 indication_count: 10
 ---
 
 # Golimumab
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,100 +29,74 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Golimumab: From Inflammatory Arthritis to Rheumatoid Vasculitis
+# Golimumab: From Inflammatory Arthritis (RA, PsA, AS) to Rheumatoid Vasculitis
 
 ## One-Sentence Summary
 
-Golimumab (Simponi®) is a fully human anti-TNF-α monoclonal antibody globally approved for rheumatoid arthritis, psoriatic arthritis, and ankylosing spondylitis, though it is not currently registered in Singapore.
-The TxGNN model predicts it may be effective for **Rheumatoid Vasculitis** with a prediction score of **99.73%**,
-supported by **3 clinical trials** and **6 publications** — though none directly evaluate rheumatoid vasculitis as a primary endpoint.
-
----
+Golimumab is an anti-TNF-alpha antibody. The literature in this pack describes it as approved for rheumatoid arthritis, psoriatic arthritis and ankylosing spondylitis. The TxGNN model predicts it may be effective for **rheumatoid vasculitis** with a very high score. However, none of the **3 clinical trials** or **6 publications** retrieved actually test golimumab for this condition, so the prediction is not yet supported by direct evidence.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid Arthritis, Psoriatic Arthritis, Ankylosing Spondylitis (globally; not registered in Singapore) |
-| Predicted New Indication | Rheumatoid Vasculitis |
+| Original Indication | Not listed in the Singapore registration data; literature describes RA, psoriatic arthritis and ankylosing spondylitis |
+| Predicted New Indication | Rheumatoid vasculitis |
 | TxGNN Prediction Score | 99.73% |
-| Evidence Level | L3 |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 4 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Golimumab is a fully human IgG1κ monoclonal antibody that selectively binds both soluble and transmembrane forms of tumour necrosis factor-alpha (TNF-α), blocking its interaction with cell-surface receptors (p55 and p75). By neutralising TNF-α signalling, golimumab suppresses downstream pro-inflammatory cascades — including cytokine production, endothelial cell activation, and leukocyte recruitment — that are central to the pathogenesis of multiple immune-mediated inflammatory diseases. This mechanism has been clinically validated across its approved indications in rheumatoid arthritis, psoriatic arthritis, and ankylosing spondylitis.
+Golimumab blocks TNF-alpha, a central inflammatory cytokine in rheumatoid arthritis (RA). Rheumatoid vasculitis is a severe extra-articular complication of RA, so blocking the same inflammatory pathway is plausible. Literature also notes that rheumatoid vasculitis has become less frequent since anti-TNF biologics were introduced.
 
-Rheumatoid vasculitis is a severe extra-articular complication of long-standing seropositive rheumatoid arthritis, characterised by immune complex deposition and TNF-α-driven chronic vascular wall inflammation leading to necrotising vasculitis of small-to-medium vessels. Because TNF-α is a key mediator in this inflammatory cascade, golimumab's mechanism is scientifically plausible for this indication. It is notable that the clinical introduction of biologic DMARDs — including anti-TNF agents — has been historically associated with a marked reduction in the incidence of rheumatoid vasculitis, suggesting that sustained TNF inhibition may both treat and prevent this complication.
-
-However, existing clinical evidence remains indirect. No completed randomised controlled trial has evaluated golimumab with rheumatoid vasculitis as a primary endpoint. The available data derive from observational studies in broad RA populations, individual case reports, and class-level evidence from other TNF inhibitors. The TxGNN high prediction score most likely reflects the strong topological proximity of RA and its vascular complications within the knowledge graph, rather than direct clinical validation. A formal research question needs to be established before further development is pursued.
-
----
+The evidence does not go beyond this mechanistic argument. Everything retrieved concerns RA joint disease, not vasculitis. Two case reports describe Takayasu's arteritis arising during anti-TNF therapy, which argues against a benefit signal in vasculitis. The 99.73% score most likely reflects the strong golimumab–RA link in the knowledge graph rather than vasculitis-specific evidence.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | N/A | Completed | 184 | Multinational observational study of tocilizumab in RA patients with inadequate response to non-biological DMARDs or one biologic agent; 6-month follow-up in routine clinical practice. Population may include patients with extra-articular RA manifestations, but rheumatoid vasculitis was not a primary or secondary endpoint. Provides safety background for biologic use in this patient group. |
-| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | Unknown | 750,000 | Large epidemiological study examining incident immune-mediated inflammatory diseases (IMIDs) in patients treated with biologics and immunosuppressive drugs; scope is very broad and specificity for rheumatoid vasculitis is low. Relevant only as background contextual data. |
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Not Yet Recruiting | 80 | Perioperative immunosuppressant management in rheumatology patients undergoing elective total shoulder arthroplasty; not related to vasculitis pathology. Minimal relevance to this repurposing question. |
-
----
+| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | N/A | Completed | 184 | Observational study of tocilizumab in RA. Not vasculitis-specific and not golimumab |
+| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | Unknown | 750,000 | Registry-scale study of new immune-mediated disease risk after biologics. Does not test golimumab for vasculitis |
+| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Not yet recruiting | 80 | Perioperative immunosuppressant management in rheumatology patients undergoing shoulder arthroplasty. Unrelated to vasculitis |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31491879](https://pubmed.ncbi.nlm.nih.gov/31491879/) | 2019 | Systematic Review / RCT Analysis | Int J Mol Sci | Network meta-analysis of 36 RCTs comparing five TNF inhibitors (including golimumab) on radiographic joint destruction in RA; confirms class-wide efficacy of TNFi at both standard and high doses. Provides strong indirect support for golimumab's anti-inflammatory potency in the RA spectrum. |
-| [29075910](https://pubmed.ncbi.nlm.nih.gov/29075910/) | 2018 | Case Report | Rheumatology Int | RA patient on golimumab who developed pyoderma gangrenosum and pyogenic arthritis presenting as severe sepsis; the abstract explicitly notes that anti-TNF biologics have reduced the incidence of rheumatoid vasculitis in seropositive RA patients — directly supporting the mechanistic rationale. |
-| [27591827](https://pubmed.ncbi.nlm.nih.gov/27591827/) | 2017 | Cohort | Semin Arthritis Rheum | Analysis of end-stage renal disease frequency and causes in RA patients, with review of RA treatment in this setting; provides context for systemic RA complications including vasculitis-related renal involvement. |
-| [23557513](https://pubmed.ncbi.nlm.nih.gov/23557513/) | 2013 | Narrative Review | BMC Medicine | Broad review of biologic therapies for autoimmune and rheumatologic diseases; contextualises anti-TNF mechanism and discusses limitations including infection risk and administration challenges. |
-| [23252659](https://pubmed.ncbi.nlm.nih.gov/23252659/) | 2013 | Case Report | Ocular Immunol Inflamm | Golimumab successfully treated refractory Behçet disease-associated uveitis (a vasculitis-spectrum condition) off-label; provides indirect evidence that golimumab can suppress vascular inflammatory pathology beyond its approved indications. |
-| [22999907](https://pubmed.ncbi.nlm.nih.gov/22999907/) | 2013 | Case Report | Joint Bone Spine | Two cases of Takayasu's arteritis (large-vessel vasculitis) developing paradoxically under anti-TNF therapy; raises an important safety signal — anti-TNF agents may occasionally induce, rather than suppress, certain vasculitic conditions. This warrants careful patient selection. |
-
----
+| [31491879](https://pubmed.ncbi.nlm.nih.gov/31491879/) | 2019 | Network meta-analysis (36 RCTs) | Int J Mol Sci | Compares TNF inhibitors, including golimumab, on joint destruction in RA. Joint outcomes only |
+| [27591827](https://pubmed.ncbi.nlm.nih.gov/27591827/) | 2017 | Review | Semin Arthritis Rheum | End-stage renal disease in RA patients: frequency, causes and RA treatment |
+| [23557513](https://pubmed.ncbi.nlm.nih.gov/23557513/) | 2013 | Review | BMC Med | Update on biologic therapy for autoimmune diseases, including limits such as cost and adverse events |
+| [29075910](https://pubmed.ncbi.nlm.nih.gov/29075910/) | 2018 | Case report | Rheumatol Int | Pyoderma gangrenosum and pyogenic arthritis with severe sepsis in an RA patient on golimumab. Notes rheumatoid vasculitis is less common in the anti-TNF era |
+| [22999907](https://pubmed.ncbi.nlm.nih.gov/22999907/) | 2013 | Case report | Joint Bone Spine | Two cases of Takayasu's arteritis occurring during anti-TNF therapy |
+| [23252659](https://pubmed.ncbi.nlm.nih.gov/23252659/) | 2013 | Case report | Ocul Immunol Inflamm | Behçet disease-associated uveitis successfully treated with golimumab |
 
 ## Singapore Market Information
 
-Golimumab is not currently registered in Singapore. No product authorisations were identified in the regulatory database (total registrations: 0).
-
-For reference, golimumab is commercially available globally as **Simponi®** (subcutaneous, 50 mg/0.5 mL monthly) and **Simponi Aria®** (intravenous, 2 mg/kg), with approved indications including rheumatoid arthritis, psoriatic arthritis, ankylosing spondylitis, non-radiographic axial spondyloarthritis, and polyarticular-course juvenile idiopathic arthritis across the US, EU, and Japan. Any use in Singapore would require import under the HSA's Special Access Route (SAR) or Conditional Licensing framework.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN14734P | Simponi® I.V. Concentrate for Solution for Infusion 12.5mg/1 ml | Infusion, solution concentrate | Not listed in registry data |
+| SIN16118P | Simponi Solution for Injection in Pre-filled Pen 45mg/0.45ml | Injection, solution | Not listed in registry data |
+| SIN14735P | Simponi Solution for Injection in Pre-filled Syringe 100 mg/1.0 ml (Smartject Injector) | Injection, solution | Not listed in registry data |
+| SIN14105P | Simponi Solution for Injection in Pre-filled Syringe 50 mg/0.5 ml (Smartject Injector) | Injection, solution | Not listed in registry data |
 
 ## Safety Considerations
 
-No local label data (warnings, contraindications) are available for Singapore. The following class-level considerations apply to all anti-TNF monoclonal antibodies including golimumab, based on globally published prescribing information:
-
-- **Serious Infections**: Significant increased risk of serious bacterial, viral, fungal, and opportunistic infections. TNF-α is essential for host defence; inhibition impairs granuloma integrity.
-- **Tuberculosis Reactivation**: Mandatory TB screening (TST and/or IGRA) is required before initiating therapy. Latent TB must be treated prior to golimumab use. The paradoxical case (PMID 22999907) described above underscores this concern.
-- **Paradoxical Vasculitis**: Rare cases of new-onset or worsening vasculitic conditions (including Takayasu's arteritis) have been reported under anti-TNF therapy — a critical safety signal directly relevant to this repurposing question.
-- **Malignancy**: Possible increased risk of lymphoma and other malignancies, particularly with long-term use and concomitant immunosuppressants.
-- **Demyelinating Disorders**: New onset or exacerbation of central or peripheral demyelinating disease has been reported.
-- **Heart Failure**: Use with caution or avoid in patients with NYHA Class III/IV heart failure.
-- **Live Vaccines**: Do not administer live vaccines during treatment.
-
----
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-While the mechanistic basis for golimumab in rheumatoid vasculitis is scientifically plausible — TNF-α is a known driver of the vascular inflammation in this condition, and anti-TNF therapy has been shown epidemiologically to reduce its incidence — the complete absence of direct RCT evidence with rheumatoid vasculitis as a primary endpoint, combined with a critical safety signal (paradoxical anti-TNF-induced vasculitis), means this cannot proceed beyond the hypothesis-generating stage without additional data.
+The mechanism is plausible, but no trial or publication tests golimumab in rheumatoid vasculitis. The only vasculitis-related signal, Takayasu's arteritis arising on anti-TNF therapy, does not support benefit. The high TxGNN score appears to come from the RA relationship rather than vasculitis-specific data.
 
 **To proceed, the following is needed:**
-
-- **Label retrieval**: Obtain full prescribing information (EMA SmPC or FDA label for Simponi®) to confirm formal warnings, contraindications, and dosing — this is currently a blocking data gap
-- **Targeted literature search**: Conduct a systematic search specifically for anti-TNF agents in rheumatoid vasculitis as a confirmed diagnosis, including registry-based data from BSRBR, CORRONA, and other biologics registries
-- **Safety signal resolution**: Critically evaluate the paradoxical vasculitis signal (PMID 22999907) and assess whether rheumatoid vasculitis (small-vessel, immune-complex mediated) is mechanistically distinct from large-vessel vasculitis (TNF-driven granuloma) for purposes of anti-TNF safety profiling
-- **Epidemiological evidence**: Assess historical data on rheumatoid vasculitis incidence before and after widespread anti-TNF adoption as indirect real-world efficacy evidence
-- **Regulatory pathway assessment**: Define the HSA Special Access Route requirements for off-label use of an unregistered biologic in Singapore
-- **Research proposal**: If evidence review supports proceeding, design a prospective observational registry study in seropositive RA patients with active vasculitis receiving golimumab
+- Vasculitis-specific evidence, such as case series or trials of anti-TNF agents in rheumatoid vasculitis
+- The Singapore package insert (warnings, contraindications) and approved indication text
+- Confirmation of the original approved indications and detailed mechanism-of-action data
+- A safety plan for TNF-inhibitor use (TB, hepatitis B, infection screening; vaccination review)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

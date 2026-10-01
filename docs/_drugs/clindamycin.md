@@ -33,76 +33,74 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Clindamycin is a lincosamide antibiotic widely used to treat susceptible bacterial infections, including skin and soft tissue infections, anaerobic infections, bone and joint infections, and as a treatment component for toxoplasmosis.
-The TxGNN model predicts it may be effective for **Punctate Epithelial Keratoconjunctivitis** with a very high prediction score of 99.97%; however, **no clinical trials** and **no directly relevant publications** currently support this direction, and the mechanistic rationale is weak.
-Overall, this candidate package presents an L5-level evidence profile across all top predictions, warranting a firm Hold decision at this stage.
-
----
+Clindamycin is a lincosamide antibiotic used against bacterial infections. The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**, but **0 clinical trials** and **0 publications** currently support this prediction, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Bacterial infections (skin/soft tissue, anaerobic, bone/joint, toxoplasmosis) |
-| Predicted New Indication | Punctate Epithelial Keratoconjunctivitis |
+|------|------|
+| Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 99.97% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | **Hold** |
-
----
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 17 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on well-established pharmacology, Clindamycin is a lincosamide antibiotic that inhibits bacterial protein synthesis by binding to the 50S ribosomal subunit. It is active against many gram-positive aerobic cocci (including *Staphylococcus aureus*), and a broad range of anaerobic organisms. It also has antiparasitic activity relevant to *Toxoplasma gondii* and *Plasmodium* species.
+Clindamycin inhibits bacterial protein synthesis by binding the 50S ribosomal subunit. Its main activity is against Gram-positive bacteria and anaerobes. Detailed mechanism data from DrugBank are not currently available, so this description relies on the known drug class.
 
-Punctate epithelial keratoconjunctivitis (PEK) is a multifactorial condition of the corneal and conjunctival surface epithelium. Its primary causes include dry eye syndrome, viral infection (notably adenovirus), drug toxicity, and chemical exposure — not bacterial infection. The mechanistic link between Clindamycin's antibacterial/antiparasitic action and the dominant pathophysiology of PEK is therefore weak. A secondary bacterial superinfection scenario could theoretically be considered, but no data supports this as a clinically meaningful treatment opportunity.
+The mechanistic link to the predicted indication is weak. Punctate epithelial keratoconjunctivitis is usually viral or toxic/inflammatory rather than bacterial, so an antibacterial rationale is not established. The high score is a knowledge-graph prediction and has not been tested clinically. Clindamycin is also not a standard ocular therapy.
 
-The notably high TxGNN score (0.9997, ranked #780 globally) is most likely an artefact of dense knowledge graph connectivity among corneal disease nodes, rather than true mechanistic signal. This interpretation is consistent with the complete absence of supporting clinical or preclinical evidence, and is explicitly flagged in the model's own repurposing rationale for this candidate.
-
----
+Other top-ranked predictions are also poorly supported:
+- **Exposure keratitis** (score 99.80%, L4) has only indirect literature on bacterial keratitis in general. Clindamycin's Gram-positive activity might matter for secondary infection.
+- **Epidemic keratoconjunctivitis** is caused by adenovirus, and clindamycin has no antiviral activity.
+- **Non-human animal disease** is not a valid human disease target.
+- Most remaining candidates (neurotrophic keratopathy, superior limbic keratoconjunctivitis, keratomalacia, visual snow syndrome, ophthalmia nodosa, atrophic vaginitis) have no plausible mechanism or evidence.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature directly relevant to Clindamycin and punctate epithelial keratoconjunctivitis is available.
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Clindamycin is currently **not registered** in Singapore. No product authorizations are on record, and no approved indication text is available from regulatory sources.
+Clindamycin has 17 registrations in Singapore. The main ones are listed below.
 
----
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN07338P | Dalacin T Lotion 1% | Lotion |
+| SIN10164P | Tidact Capsule 150 mg | Capsule |
+| SIN11955P | T3 Mycin Gel 1% w/w | Gel |
+| SIN15960P | Clidacin Preservative Free Solution for injection or infusion 150 mg/ml | Injection, solution |
+| SIN16907P | Novell-Clindamycin Capsule 150 mg | Capsule |
+
+Available routes are oral, topical, and injectable. No ophthalmic formulation appears in the retrieved data.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: No interaction records were found in the query.
 
-> **Note:** Package insert data (key warnings, contraindications) was identified as a blocking data gap (DG001) in this evidence pack. Retrieval from the HSA/TFDA official website via PDF parsing is required before any safety assessment can proceed.
-
----
+Please refer to the package insert for safety information on warnings and contraindications. Clindamycin is a well-known risk factor for *Clostridioides difficile* infection.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-All top 10 TxGNN predictions for Clindamycin carry L5 evidence (model prediction only), with no clinical trials and only indirect or veterinary literature retrieved. The highest-ranked prediction (punctate epithelial keratoconjunctivitis) lacks both mechanistic plausibility and any empirical support, and the drug is not registered in Singapore, making a regulatory pathway undefined at this time.
+The prediction has no trials or literature (L5), and the antibacterial mechanism does not fit a mostly viral or toxic/inflammatory condition. Route compatibility is also unresolved, since no ophthalmic clindamycin product is registered.
 
 **To proceed, the following is needed:**
+- HSA package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- Direct clinical or preclinical evidence for the predicted indication
+- Route and formulation feasibility assessment for ocular use
+- Consideration of exposure keratitis (secondary bacterial infection) as a more plausible alternative candidate
 
-- **MOA data (DG002 — High):** Retrieve full DrugBank API record for DB01190 to confirm mechanism, categories, and known ophthalmic uses
-- **Regulatory safety data (DG001 — Blocking):** Download and parse the HSA or TFDA package insert PDF for Clindamycin to establish key warnings and contraindications before any S1 safety screening
-- **Singapore registration pathway:** Assess whether Clindamycin (oral, topical, or ophthalmic formulation) could be submitted for HSA registration, and identify any existing international approvals for ocular indications
-- **Mechanistic feasibility review:** Before investing further resources, consider whether any of the 10 predicted indications has a plausible biological rationale — the current analysis suggests the exposure keratitis secondary infection scenario (Rank 2, L4) is the most defensible near-term candidate for further literature review, given known Clindamycin activity against *S. aureus* and *Bacillus cereus*
-- **Ophthalmic formulation feasibility:** Determine whether a suitable topical ophthalmic formulation of Clindamycin exists or could be developed, as route compatibility is currently unresolved for all predicted indications
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

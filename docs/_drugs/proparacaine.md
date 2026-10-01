@@ -29,76 +29,69 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Proparacaine: From Topical Ocular Anesthesia to Cauda Equina Syndrome
+# Proparacaine: From Ocular Surface Anesthesia to Cauda Equina Syndrome
 
 ## One-Sentence Summary
 
-Proparacaine is an ester-type local anaesthetic conventionally used for topical corneal/conjunctival anesthesia in ophthalmic procedures. The TxGNN model assigns its highest score to **Cauda Equina Syndrome**, but this prediction is currently supported by **zero clinical trials and zero publications**, and the evidence pack's own mechanistic review explicitly flags the biological plausibility as weak.
-
----
+Proparacaine is a topical ester-type local anesthetic, used as an ophthalmic solution for surface anesthesia of the eye.
+The TxGNN model predicts it may be effective for **Cauda Equina Syndrome**, but this is a **prediction only, with 0 clinical trials and 0 publications** supporting it.
+The signal most likely reflects a nerve or sodium-channel association in the knowledge graph rather than a real therapeutic role.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Topical ocular (corneal/conjunctival) anesthesia — based on known drug class information; no Singapore-registered indication text is available |
-| Predicted New Indication | Cauda Equina Syndrome |
+| Original Indication | Ocular surface anesthesia (general drug knowledge; the Singapore registration record gives no indication text) |
+| Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 96.90% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Singapore Market Status | ✗ Not marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for Proparacaine (flagged as a High-severity data gap). Based on known pharmacological class information, Proparacaine is an ester-type local anaesthetic that acts by blocking voltage-gated sodium channels on peripheral sensory nerve terminals, producing short-acting surface anesthesia of the cornea and conjunctiva for ophthalmic examinations and minor procedures.
+Currently, detailed mechanism of action data is not available. Based on known information, proparacaine is a topical local anesthetic of the ester type and is thought to act as a sodium channel blocker. Its use in ocular surface anesthesia is established, and mechanistically it could modulate nerve signaling.
 
-Cauda equina syndrome is a neurosurgical emergency caused by compression of the lumbosacral nerve roots, presenting with motor weakness, sensory loss, and bowel/bladder sphincter dysfunction. The evidence pack's own mechanistic rationale for this candidate states there is **no plausible pharmacological connection** between a topically applied peripheral sensory-nerve blocker restricted to the ocular surface and the central nerve-root compression pathology underlying cauda equina syndrome. No clinical trials, literature, or preclinical data were found to support this association — the score appears to be a model artifact rather than a biologically grounded signal.
-
-Given the absence of any corroborating mechanistic, preclinical, or clinical evidence, this candidate should be treated as a low-confidence model output rather than a credible repurposing hypothesis.
-
----
+The link to cauda equina syndrome is weak. Cauda equina syndrome is a compressive neurosurgical emergency of the lumbosacral nerve roots, and its treatment is surgical decompression. A surface ophthalmic anesthetic has no plausible role there. The high score (96.9%) most likely comes from a generic "nerve / sodium-channel" association in the knowledge graph. It should not be read as evidence of benefit.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Proparacaine is currently **not marketed** in Singapore (0 registrations on file), so no product authorization records are available for review.
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN04718P | ALCAINE STERILE OPHTHALMIC SOLUTION 0.5% (Alcon-Couvreur NV) | Solution |
 
----
+The registration record contains no approved-indication text.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-*Note: The TFDA package insert (warnings/contraindications) is flagged as a **Blocking** data gap (DG001) — this must be resolved before any formal safety (S1) evaluation can proceed. Mechanism of action data is also missing (DG002, High severity), limiting the mechanistic plausibility assessment above.*
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (Cauda Equina Syndrome) has an L5 evidence level — no clinical trials, no literature, and the mechanistic review itself concludes there is no plausible pharmacological link. Combined with the drug's absence from the Singapore market and missing safety/MOA data, there is no basis to advance this candidate.
+The prediction rests only on a model score, with no trials, no literature and no plausible mechanism for a compressive neurosurgical condition. The only registered product is an ophthalmic solution, so there is also no route-of-administration fit.
+
+Other predictions for this drug are no stronger. Allergic asthma (rank 2) has a single 2017 mouse study of proparacaine in allergic rhinitis. It is preclinical and indirect, so it is best treated as a research question rather than a candidate. Rank 4, hypotensive disorder, matched only an ocular hypertension laser trial and trigeminal neuralgia reviews, neither of which tests proparacaine for that disease.
 
 **To proceed, the following is needed:**
-- TFDA/official package insert data (warnings, contraindications) — currently blocking safety evaluation (DG001)
-- Confirmed mechanism of action from DrugBank or primary literature (DG002)
-- Any preclinical or case-level evidence specifically linking local anaesthetic sodium-channel blockade to cauda equina pathology, if such a hypothesis is to be pursued further
-- Given the weak signal, consider re-screening lower-ranked candidates in this evidence pack (e.g., allergic asthma, rank 2) which at least have preclinical literature support (L4) for a more tractable next step
+- The HSA package insert, to confirm the approved indication, warnings and contraindications
+- Mechanism of action data (MOA) from DrugBank
+- A documented mechanistic rationale linking local sodium-channel blockade to cauda equina syndrome
+- A route-of-administration assessment, since the product is formulated for ocular use only
+- Checking how the disease terms are labeled in the knowledge graph before further work
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

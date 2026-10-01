@@ -33,76 +33,68 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-> Tramadol is an opioid/SNRI analgesic used for pain management.
-> The TxGNN model assigns a very high score to **Acromesomelic Dysplasia, Hunter-Thompson Type**,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications** —
-> the model's own rationale flags this as a likely graph-proximity artefact rather than a genuine mechanistic signal.
-
----
+Tramadol is an opioid-type analgesic. The Singapore registration records supplied do not state an approved indication, so pain relief here reflects the drug's general use.
+The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunter-Thompson type**, a rare genetic skeletal disorder.
+There are **0 clinical trials** and **0 publications** for this prediction, which comes from the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Pain management (opioid/SNRI analgesic) — no Singapore registration record available |
-| Predicted New Indication | Acromesomelic Dysplasia, Hunter-Thompson Type |
+| Original Indication | Not stated in the registration records (general use: pain management) |
+| Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 13 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action (MOA) data for tramadol is not available in this evidence pack. Based on general pharmacological knowledge, tramadol is a centrally-acting opioid (weak μ-opioid receptor agonist) combined with serotonin-norepinephrine reuptake inhibition (SNRI), and its efficacy in moderate-to-moderately-severe pain is well established.
+Tramadol is a mu-opioid receptor agonist that also inhibits serotonin and norepinephrine reuptake. The mechanism-of-action field in the source data is empty, so this description comes from the evidence review notes.
 
-Acromesomelic dysplasia, Hunter-Thompson type, is a rare genetic skeletal dysplasia (associated with *GDF5* mutations) causing severe limb shortening and joint abnormalities. There is **no disease-modifying mechanistic link** between tramadol and this condition — at most, tramadol could offer symptomatic relief for chronic musculoskeletal pain that may accompany the disorder, not treatment of the underlying skeletal defect.
+The review found no identified link between this mechanism and the predicted disease. Hunter-Thompson type acromesomelic dysplasia arises from the CDMP1/GDF5 pathway, which tramadol does not target. At most, tramadol could give symptomatic pain relief. The very high score (0.9999) is most likely a knowledge-graph proximity artifact rather than a sign of real therapeutic potential.
 
-Notably, the model-generated rationale for this candidate explicitly states that the high TxGNN score likely arises from **knowledge-graph node proximity bias** (tramadol clustering near "skeletal/pain" nodes) rather than a specific, biologically meaningful association. This same pattern of "high score, no mechanistic specificity" repeats across the top 6 ranked candidates in this pack (all rare skeletal/connective-tissue dysplasias), suggesting a systematic bias rather than independent repurposing signals. The only candidate with any literature support is rank 7 (juvenile idiopathic arthritis, L4), and even there the cited publications do not study tramadol directly.
-
----
+The other nine top-ranked predictions show the same pattern. They include brachyolmia, pseudoachondroplasia, myosclerosis and several forms of juvenile arthritis. All are rare skeletal or rheumatic conditions, and none has a mechanistic or clinical rationale. Only juvenile idiopathic arthritis (rank 7) has any literature, at L4. Those two papers cover ketoprofen in children and a sickle cell/JRA case report, and neither evaluates tramadol.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Tramadol is currently **not marketed** in Singapore per this evidence pack (`market_status: Not marketed`, 0 registrations). No authorization records are available to summarize.
+Tramadol has 13 registrations in Singapore, in injectable and oral forms. The main ones are listed below.
 
----
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN10045P | ACUGESIC INJECTION 50 mg/ml (without preservative) | Injection | DUOPHARMA (M) SDN BHD |
+| SIN09131P | ACUGESIC TABLET 50 mg | Tablet | DUOPHARMA (M) SDN BHD |
+| SIN10057P | TRADOL INJECTION 50 mg/ml | Injection | SHIN POONG PHARMACEUTICAL CO LTD |
+| SIN08367P | TRAMADOL STADA INJECTION 100 mg/2 ml | Injection | B.Braun Melsungen AG |
+| SIN15303P | TRACIDOL INJECTION 100mg/2ml | Injection, solution | Y.S.P. Industries (M) Sdn. Bhd. |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-*(Note: This evidence pack has flagged the absence of TFDA/HSA label warnings and contraindications as a **Blocking** data gap — see Conclusion below.)*
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction has no supporting clinical trials or literature, no established mechanistic link to the target disease, and the model's own rationale attributes the high score to a likely knowledge-graph bias artefact rather than a genuine repurposing signal. Combined with the absence of MOA data and the drug's unmarketed status in Singapore, there is insufficient basis to advance beyond S0.
+The prediction rests on the model score alone, with no clinical trials or publications. No plausible mechanism links tramadol to a genetic skeletal dysplasia, and any benefit would be limited to symptomatic pain relief.
 
 **To proceed, the following is needed:**
-- Tramadol's confirmed mechanism of action (query DrugBank API — DG002)
-- TFDA/HSA label warnings and contraindications, required before any S1 safety screening (DG001, Blocking)
-- Disease-specific evidence (preclinical or case-level) linking tramadol to acromesomelic dysplasia or related skeletal dysplasias, beyond generic analgesic use
-- Reassessment of whether rank 1–6 candidates (all rare skeletal dysplasias with identical "no mechanistic link" rationale) represent a systematic KG bias that should be filtered before further evaluation
-- If pursuing rank 7 (juvenile idiopathic arthritis, L4) instead, tramadol-specific pediatric pain-management literature, since current citations do not study tramadol directly
+- The HSA package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism-of-action data from DrugBank
+- Any clinical or preclinical evidence linking tramadol to the CDMP1/GDF5 pathway or to this disease
+- If symptomatic pain relief in rare skeletal disorders is the real goal, a re-framed evaluation of tramadol as a pain-management option rather than as disease-modifying therapy
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

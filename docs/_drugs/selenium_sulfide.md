@@ -29,78 +29,64 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-Using no additional skill — this is a direct content-generation task with an explicit, detailed template already provided; I'll follow it precisely against the supplied Evidence Pack.
-
-# Selenium Sulfide: From Seborrheic Dermatitis/Tinea Versicolor to Vulvar Inverted Follicular Keratosis
+# Selenium Sulfide: From Topical Antifungal/Antiseborrheic Use to Vulvar Inverted Follicular Keratosis
 
 ## One-Sentence Summary
 
-> Selenium sulfide is a topical agent conventionally used for seborrheic dermatitis, dandruff, and tinea versicolor; a specific Taiwan-approved indication is not present in this evidence pack, as the product is currently **not marketed** in Taiwan.
-> The TxGNN model's top-ranked prediction is **Vulvar Inverted Follicular Keratosis**, a rare benign follicular tumor,
-> but this prediction is supported by **0 clinical trials** and **0 publications** — it is a pure model-similarity output with no mechanistic or clinical corroboration.
-
----
+Selenium sulfide is a topical agent (antifungal, antiseborrheic, keratolytic) that is marketed in Singapore as a cleaning lotion.
+The TxGNN model predicts it may be effective for **vulvar inverted follicular keratosis**, but the prediction rests on the model score alone, with **0 clinical trials** and **0 publications** supporting it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in evidence pack (product not marketed in Taiwan); conventionally used for seborrheic dermatitis / tinea versicolor |
-| Predicted New Indication | Vulvar Inverted Follicular Keratosis |
-| TxGNN Prediction Score | 89.52% |
+| Predicted New Indication | Vulvar inverted follicular keratosis |
+| TxGNN Prediction Score | 89.52% (model rank 35,267) |
 | Evidence Level | L5 |
-| Taiwan Market Status | Not marketed (Not marketed) |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for selenium sulfide is not available (flagged as a High-severity data gap, DG002). Based on known pharmacological information, selenium sulfide is a topical antifungal and keratolytic agent, primarily active against *Malassezia* (*Pityrosporum*) species, and its efficacy in seborrheic dermatitis, dandruff, and tinea versicolor is well established through decades of clinical use.
+Currently, detailed mechanism of action data is not available. Selenium sulfide is generally known as a topical antifungal and antiseborrheic agent with activity against Malassezia (Pityrosporum), and it also has cytostatic and keratolytic effects.
 
-Vulvar inverted follicular keratosis, however, is a rare benign follicular epithelial tumor with a pathophysiology unrelated to fungal colonization or excess keratin turnover of the type selenium sulfide targets. Per the evidence pack's own rationale, "no published mechanism literature supports selenium sulfide's keratolytic/antifungal action affecting this pathological process; this is purely a TxGNN embedding-similarity prediction, without any clinical or mechanistic support." There is no plausible pharmacological bridge between the drug's known activity and this candidate indication.
+These actions have no established relevance to vulvar inverted follicular keratosis, a benign follicular neoplasm-like lesion. We found no credible mechanistic link. The score most likely reflects proximity in the knowledge graph rather than biology.
 
-**Note on alternative candidates:** Among the other 9 predictions in this pack, rank 2 — *cutaneous candidiasis* (score 83.86%, evidence level L4, decision stage S1, recommendation "Research Question") — is supported by 2 descriptive review articles discussing selenium sulfide as one of several topical options for superficial fungal skin infections. While still lacking controlled trial data specific to *Candida*, it is mechanistically closer to the drug's established antifungal profile than the top-ranked candidate and may warrant separate evaluation.
-
----
+Applying the drug to vulvar mucosa also raises irritation concerns. Treat this prediction as a model output only, not as a lead worth pursuing.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
+## Singapore Market Information
 
-## Taiwan Market Information
-
-This drug currently has no approved license registrations in Taiwan (market status: Not marketed / Not marketed; total licenses: 0). No dosage form or approved indication text is available from TFDA sources.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN10324P | SELDRON CLEANING LOTION 2.5% w/v (ICM Pharma Pte. Ltd.) | Lotion | Not listed in the registry record |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. (Note: TFDA label warnings/contraindications are flagged as a **Blocking** data gap — DG001 — meaning this candidate cannot yet proceed to the S1 safety pre-assessment stage until label data is obtained.)
-
----
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (vulvar inverted follicular keratosis) has no clinical trial, literature, or mechanistic support — it is evidence level L5 with no explanatory pathway connecting the drug's known antifungal/keratolytic action to this rare tumor. Additionally, a Blocking-severity data gap (missing TFDA label/warnings) prevents any formal safety pre-assessment.
+The prediction has no trials, no literature, and no credible mechanism (Evidence Level L5). A topical agent applied to vulvar mucosa also carries irritation risk.
+
+**Note on other predictions for this drug:** Cutaneous candidiasis (rank 2, score 83.86%) is the most plausible candidate. It is at Evidence Level L4, supported by two narrative reviews of Pityrosporum and Candida skin infections. These are indirect evidence, and azoles and nystatin remain established alternatives. It is best treated as a research question rather than a development lead.
 
 **To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain TFDA label/warnings and contraindications, or equivalent foreign labeling (e.g., US FDA) if the drug remains unmarketed in Taiwan
-- Resolve DG002 (High): confirm mechanism of action via DrugBank/pharmacology reference
-- If pursuing repurposing further, redirect evaluation toward rank 2 (cutaneous candidiasis), which has at minimum descriptive literature support and closer mechanistic plausibility than the current top-ranked candidate
-- Given the rarity of vulvar inverted follicular keratosis, any future evaluation would likely require case-report-level evidence generation rather than large trials
+- The HSA package insert warnings and contraindications (blocking item for any safety screening)
+- Mechanism of action data, for example from DrugBank
+- Direct evidence that selenium sulfide has any effect on this lesion, such as case reports or mechanistic studies
+- A route-compatibility and mucosal-safety assessment for vulvar application
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

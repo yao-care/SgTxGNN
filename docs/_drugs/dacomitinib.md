@@ -29,97 +29,92 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dacomitinib: From Non-Small Cell Lung Cancer to Pulmonary Hypertension
+# Dacomitinib: From Non-Small Cell Lung Cancer to Rheumatoid Arthritis
 
 ## One-Sentence Summary
 
-Dacomitinib (Vizimpro®) is a second-generation, irreversible pan-ErbB tyrosine kinase inhibitor originally approved for EGFR-mutant non-small cell lung cancer (NSCLC).
-The TxGNN model's highest-scored prediction is **rheumatoid arthritis** (97.79%), but **pulmonary hypertension** (rank #4, 96.51%) carries the strongest translational evidence across all 10 candidates.
-Currently **1 direct preclinical study** (PMID 30753867) and **1 related clinical trial** (NCT01121575) support this repurposing direction.
-
----
+Dacomitinib is an oral pan-EGFR/HER inhibitor marketed in Singapore as Vizimpro, and it is used in lung cancer. The TxGNN model ranks **rheumatoid arthritis** as its top new-indication prediction, but **no clinical trials or publications** support it. Among the other predictions, only **pulmonary hypertension** has any supporting evidence, which is one animal study and one unrelated Phase 1 trial.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | EGFR-mutant non-small cell lung cancer (NSCLC) |
-| Predicted New Indication (Best Evidence) | Pulmonary Hypertension (Rank #4 of 10; Top TxGNN prediction: Rheumatoid Arthritis) |
-| TxGNN Prediction Score | 96.51% (Pulmonary Hypertension) / 97.79% (Top-ranked: Rheumatoid Arthritis) |
-| Evidence Level | L3 — 1 preclinical animal study + 1 indirect clinical trial |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+|------|------|
+| Original Indication | Non-small cell lung cancer (inferred from the trial context; the Singapore indication text was not supplied) |
+| Predicted New Indication | Rheumatoid arthritis |
+| TxGNN Prediction Score | 97.79% |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 3 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, formal mechanism of action data is not available from the regulatory dataset. Based on published pharmacology, Dacomitinib is a second-generation, irreversible pan-ErbB (EGFR/HER1, HER2, HER4) tyrosine kinase inhibitor. Unlike first-generation reversible EGFR inhibitors (erlotinib, gefitinib), Dacomitinib covalently binds to the ATP-binding pocket of all catalytically active ErbB family members, resulting in broader and more sustained pathway suppression. Its original clinical indication — EGFR-mutant NSCLC — established robust human safety and pharmacokinetic data at clinically tolerable doses.
+Detailed mechanism of action data is not currently available. Dacomitinib is known as a pan-EGFR/HER tyrosine kinase inhibitor.
 
-In pulmonary arterial hypertension (PAH), EGFR/ErbB signalling drives abnormal proliferation and apoptosis resistance of pulmonary artery smooth muscle cells (PASMCs), a central mechanism in pulmonary vascular remodelling. EGFR ligands such as EGF and TGF-α are overexpressed in the lung tissue of PAH patients, creating a self-sustaining autocrine/paracrine loop that thickens vascular walls and progressively raises pulmonary vascular resistance (PVR). This mechanistic link was directly tested in a dedicated animal study: PMID 30753867 (Yu et al., 2019, *European Journal of Pharmacology*) demonstrated that Dacomitinib attenuated hypoxia- and monocrotaline-induced right ventricular hypertension and vascular remodelling in rats — providing the first direct preclinical proof-of-concept for this repurposing hypothesis.
+**Rheumatoid arthritis:** EGFR/ErbB signaling in synovial fibroblasts is a plausible but unverified link. The prediction is computational only, and the score is not clinical evidence.
 
-One critical caveat warrants emphasis: earlier first-generation EGFR inhibitors (gefitinib, erlotinib, lapatinib) were explored for PAH and failed to produce meaningful clinical benefit. Dacomitinib's pan-ErbB irreversible binding profile may confer mechanistic advantages, but this remains entirely unestablished in human PAH cohorts. The evidence base is preclinical only, and translation to human disease requires a formally designed validation programme.
+**Pulmonary hypertension (rank 4, score 96.51%):** This is the best-supported alternative. EGFR/HER signaling drives pulmonary vascular smooth muscle proliferation and remodeling. A 2019 rat study reported that dacomitinib attenuated pulmonary vascular remodeling. This is animal-model evidence only, and no human pulmonary hypertension data exist. EGFR inhibitors also carry pulmonary toxicity such as interstitial lung disease, so a safety assessment would come first.
 
----
+**Other predictions (ranks 2, 3, 5, 6, 7, 9, 10):** These include homozygous familial hypercholesterolemia, brachydactyly-syndactyly syndrome, nephrogenic syndrome of inappropriate antidiuresis, colobomatous microphthalmia-rhizomelic dysplasia syndrome, kyphoscoliotic heart disease, amyotrophic lateral sclerosis and leprosy. None has an identified mechanistic link or any supporting trial or literature.
 
 ## Clinical Trial Evidence
 
+Rheumatoid arthritis has no registered trials. The trials below come from other predicted indications and are only indirectly relevant.
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01121575](https://clinicaltrials.gov/study/NCT01121575) | Phase 1 | Completed | 70 | Dose-escalation safety, PK, and PD study of combined crizotinib (c-MET/ALK) + dacomitinib (pan-HER) in advanced NSCLC patients who developed acquired resistance to first-generation EGFR inhibitors. Not designed for pulmonary hypertension — no PH-specific endpoints (6MWD, PVR, NT-proBNP). Provides human tolerability and pharmacokinetic baseline data informing dose selection for future PAH-specific trial design. |
-
----
+| [NCT01121575](https://clinicaltrials.gov/study/NCT01121575) | Phase 1 | Completed | 70 | Dacomitinib plus crizotinib dose-escalation study in advanced NSCLC (listed under pulmonary hypertension). It has no pulmonary hypertension population and provides only general human safety and PK data. |
+| [NCT03878524](https://clinicaltrials.gov/study/NCT03878524) | Phase 1 | Terminated | 2 | SMMART PRIME personalized oncology platform (listed under multiple endocrine neoplasia). Only 2 patients were enrolled, and there is no interpretable efficacy or safety signal. |
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|---------|
-| [30753867](https://pubmed.ncbi.nlm.nih.gov/30753867/) | 2019 | Preclinical (in vitro + rodent model) | European Journal of Pharmacology | Dacomitinib significantly attenuated pulmonary vascular remodelling and right ventricular systolic pressure in both hypoxia-induced and monocrotaline-induced PAH rat models. Results indicate pan-EGFR inhibition via Dacomitinib suppresses PASMC proliferation and promotes apoptosis, representing the only direct preclinical study of this drug in PAH to date. |
+Rheumatoid arthritis has no supporting literature. The only publication supplied relates to pulmonary hypertension.
 
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [30753867](https://pubmed.ncbi.nlm.nih.gov/30753867/) | 2019 | Preclinical (animal model) | Eur J Pharmacol | Dacomitinib attenuated pulmonary vascular remodeling and pulmonary hypertension in hypoxia- and monocrotaline-induced rat models. Earlier EGFR inhibitors (gefitinib, erlotinib, lapatinib) had not been effective in this setting. |
 
 ## Singapore Market Information
 
-Dacomitinib is **not registered** with the Health Sciences Authority (HSA) of Singapore. No product licences, authorisation numbers, or approved indications are currently on record. Any clinical use in Singapore would require special access pathways (e.g., Compassionate Use, Clinical Trial Authorisation, or Therapeutic Products import permit).
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN15965P | VIZIMPRO Film-Coated Tablet 45MG | Tablet, film coated |
+| SIN15966P | VIZIMPRO Film-Coated Tablet 15MG | Tablet, film coated |
+| SIN15967P | VIZIMPRO Film-Coated Tablet 30MG | Tablet, film coated |
 
----
+All three are manufactured by Pfizer Manufacturing Deutschland GmbH and are for oral use.
 
 ## Cytotoxicity
 
-Dacomitinib is an antineoplastic targeted therapy (EGFR-mutant NSCLC indication). The following cytotoxicity profile applies:
-
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy — 2nd-generation irreversible pan-ErbB (EGFR/HER2/HER4) tyrosine kinase inhibitor; not a conventional cytotoxic agent |
-| Myelosuppression Risk | Low — TKI class does not directly target haematopoietic progenitor cells; clinically reported myelosuppression is uncommon |
-| Emetogenicity Classification | Low |
-| Monitoring Items | Liver function (ALT, AST, total bilirubin); CBC with differential; renal function; pulmonary function / HRCT for interstitial lung disease (ILD); dermatologic assessment (acneiform rash, paronychia, dry skin); stomatitis; diarrhoea severity grading |
-| Handling Protection | Standard oral antineoplastic handling precautions apply; closed-system transfer recommended during dose preparation; cytotoxic waste disposal per local regulations |
-
----
+|------|------|
+| Cytotoxicity Classification | Targeted therapy (EGFR tyrosine kinase inhibitor) |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert warnings and precautions |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ## Safety Considerations
 
-Singapore-specific regulatory safety data (HSA-approved package insert, local warnings, and contraindications) is currently unavailable as Dacomitinib is not registered with HSA. Please refer to the **FDA-approved Vizimpro® prescribing information** or **EMA SmPC** for complete safety data, including class-specific warnings for ILD/pneumonitis, dermatologic toxicity, embryo-foetal toxicity, and QTc prolongation risk.
+Please refer to the package insert for safety information.
 
----
+- **Pulmonary toxicity:** EGFR TKIs carry a risk of interstitial lung disease. This matters most for any exploration in pulmonary hypertension.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The EGFR/ErbB → PASMC proliferation axis provides a biologically coherent mechanistic link between Dacomitinib and pulmonary arterial hypertension, and the preclinical animal data (PMID 30753867) offers direct proof-of-concept. However, with only one rodent study, no human PAH trial, and a track record of failed earlier-generation EGFR inhibitors in PAH, the evidence base is insufficient to justify clinical translation without a structured validation programme.
+The top prediction, rheumatoid arthritis, rests on the TxGNN score alone (L5) with no trials or literature. Pulmonary hypertension has the most support (L4, preclinical only), and it is best treated as a research question rather than a clinical candidate.
 
 **To proceed, the following is needed:**
+- The Singapore package insert (HSA) with warnings, contraindications and approved indications
+- Detailed mechanism of action data (DrugBank)
+- For rheumatoid arthritis, any preclinical or clinical evidence beyond the model score
+- For pulmonary hypertension, confirmation of the animal findings and a pulmonary safety assessment before any human study
+- Route compatibility and similarity-to-original assessments, which are still pending
 
-- **Preclinical package expansion**: Confirmatory studies across additional PAH models (SuHx rat, large-animal models), dose-response characterisation, right ventricular function as an independent endpoint, and chronic toxicity profiling at PAH-relevant doses
-- **Pharmacokinetic modelling**: Assessment of lung tissue Dacomitinib exposure at clinically tolerable doses relative to EGFR IC₅₀ in PAH-relevant cell types
-- **Mechanism of action data**: Formal retrieval from DrugBank API to support mechanistic rationale documentation (Data Gap DG002)
-- **Singapore safety data**: HSA package insert / TFDA product monograph retrieval to enable S1 safety screening and identify contraindications relevant to PAH patient population (Data Gap DG001 — currently Blocking)
-- **Regulatory pathway scoping**: Evaluate orphan drug designation eligibility (PAH is a rare disease), IND/CTA requirements, and HSA therapeutic product import permit pathway for investigator-initiated trial use
-- **Phase 1b/2a trial design**: If the preclinical package is supportive, design a proof-of-concept study in WHO Group 1 PAH patients (add-on to background therapy), with primary endpoints of PVR and 6-minute walk distance at 12–16 weeks
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

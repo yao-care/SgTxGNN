@@ -29,95 +29,80 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Etoposide: From Small Cell Lung Cancer and Lymphomas to Well-Differentiated Fetal Adenocarcinoma of the Lung
+# Etoposide: From Established Chemotherapy Use to Well-Differentiated Fetal Adenocarcinoma of the Lung
 
 ## One-Sentence Summary
 
-Etoposide is a topoisomerase II inhibitor forming the backbone of combination regimens for small cell lung cancer, germ cell tumors, and lymphomas — though it carries no Singapore regulatory registration.
-The TxGNN model predicts it may be effective for **well-differentiated fetal adenocarcinoma of the lung (WDFAL)**, the adult monophasic subtype of the pulmonary blastoma spectrum.
-At present, this direction is supported by **0 clinical trials** and **1 publication** (a case report), placing it firmly in early exploratory territory.
-
----
+Etoposide is a topoisomerase II inhibitor chemotherapy already used in lung malignancies such as small cell lung cancer.
+The TxGNN model predicts it may be effective for **well-differentiated fetal adenocarcinoma of the lung**, a very rare lung tumour.
+Currently there are **0 clinical trials** and **1 publication** (a case report of a related tumour), so this prediction rests almost entirely on the model score.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Small cell lung cancer, germ cell tumors, and lymphomas (internationally recognized; no Singapore registration) |
+|------|------|
+| Original Indication | Not stated in the Singapore licence record; etoposide is an established anticancer agent (approved for small cell lung cancer, per the prediction rationale) |
 | Predicted New Indication | Well-differentiated fetal adenocarcinoma of the lung |
 | TxGNN Prediction Score | 99.94% |
 | Evidence Level | L4 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known information, etoposide is a semisynthetic epipodophyllotoxin that inhibits topoisomerase II, causing DNA double-strand breaks and arresting cancer cells in the late S / early G2 phase of the cell cycle. Its efficacy in high-proliferation cancers — particularly small cell lung cancer, Ewing sarcoma, and lymphomas — has been established across decades of clinical trials. The mechanistic rationale for extrapolation to lung tumours expressing high levels of topoisomerase II is therefore biologically coherent.
+Detailed mechanism of action data is not available in the record. Etoposide is known as a topoisomerase II inhibitor, which causes DNA strand breaks in rapidly dividing tumour cells. It has established activity in lung malignancies.
 
-Well-differentiated fetal adenocarcinoma of the lung (WDFAL) is the adult monophasic subtype of the pulmonary blastoma spectrum. Its embryonal glandular component structurally resembles fetal lung epithelium in the pseudoglandular stage and is known to exhibit high proliferative activity. Tumours with rapid cell cycling and elevated topoisomerase II expression are generally considered candidates for sensitivity to etoposide — the same mechanistic logic that underpins its use in pleuropulmonary blastoma in children, which represents the paediatric pole of the same disease spectrum.
+Well-differentiated fetal adenocarcinoma is one component of pulmonary blastoma, a very rare malignant lung tumour. Platinum plus etoposide regimens are used in related lung and embryonal tumours, so applying etoposide here is biologically conceivable.
 
-However, critical uncertainty exists. WDFAL is a distinct, adult monophasic entity separate from classic biphasic pulmonary blastoma, and direct extrapolation of mechanistic assumptions between subtypes has not been validated. No standard chemotherapy protocol currently exists for WDFAL; the single case report in the literature (PMID 33107372) describes a biphasic pulmonary blastoma patient who received nedaplatin plus paclitaxel — not etoposide — as first-line adjuvant therapy. The TxGNN prediction is therefore a biologically plausible hypothesis rather than an evidence-supported indication.
-
----
+The only cited paper describes classic biphasic pulmonary blastoma, a related but different entity. A high TxGNN score (0.9994) is a graph-based prediction only, so it does not directly support this indication.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [33107372](https://pubmed.ncbi.nlm.nih.gov/33107372/) | 2020 | Case Report + Review | J Int Med Res | Classic biphasic pulmonary blastoma patient underwent right upper lobe resection; adjuvant nedaplatin + paclitaxel was used (not etoposide); disease recurred. Review covers the full PB spectrum including WDFAL as a distinct monophasic subtype, noting no standard chemotherapy guidelines exist due to rarity |
-
----
+|------|-----|------|------|---------|
+| [33107372](https://pubmed.ncbi.nlm.nih.gov/33107372/) | 2020 | Case report + review | J Int Med Res | Classic biphasic pulmonary blastoma treated with surgery and adjuvant nedaplatin plus paclitaxel. No standard treatment guidelines exist because the tumour is so rare. Etoposide use is not shown in the available abstract. |
 
 ## Singapore Market Information
 
-Etoposide (DB00773) holds no Singapore (HSA) product registrations. There are no licensed products to display.
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN10059P | ETOPOSIDE-TEVA INJECTION 20 mg/ml (manufacturer: Pharmachemie BV) | Injection |
 
----
+The approved indication text is not listed in the registration record.
 
 ## Cytotoxicity
 
-Etoposide is an antineoplastic agent (epipodophyllotoxin class; original indications include small cell lung cancer and lymphomas).
-
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Conventional cytotoxic — Topoisomerase II inhibitor (Epipodophyllotoxin class) |
-| Myelosuppression Risk | High — dose-limiting neutropenia and thrombocytopenia are primary toxicities; nadir typically at days 7–14 |
+|------|------|
+| Cytotoxicity Classification | Conventional cytotoxic (topoisomerase II inhibitor) |
+| Myelosuppression Risk | High (leukopenia and neutropenia are typical dose-limiting effects) |
 | Emetogenicity Classification | Low to moderate |
-| Monitoring Items | CBC with differential (before each cycle and at nadir), liver function tests, renal function (creatinine), blood pressure (hypotension risk during IV infusion) |
-| Handling Protection | Must follow cytotoxic drug handling regulations (closed-system drug transfer, PPE, dedicated disposal) |
+| Monitoring Items | CBC with differential, liver and renal function |
+| Handling Protection | Must follow cytotoxic drug handling regulations |
 
----
+Please refer to the package insert warnings and precautions for product-specific details.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Well-differentiated fetal adenocarcinoma of the lung is an ultra-rare disease with no registered clinical trials involving etoposide, and the mechanistic extrapolation from the broader pulmonary blastoma spectrum — while biologically plausible — remains unvalidated. The sole supporting publication is a case report of a related but distinct histological entity that did not even use etoposide.
+The prediction has a very high model score but no registered trials and only one indirect case report on a related tumour. The disease is extremely rare, so randomized evidence is unlikely. Other predicted indications for etoposide (Ewing sarcoma and rhabdomyosarcoma) have much stronger Phase 3 evidence, but these reflect established use rather than new repurposing.
 
 **To proceed, the following is needed:**
-
-- Histopathological confirmation of topoisomerase II expression in WDFAL tumour samples (to validate the mechanistic premise)
-- Systematic case series or registry data on chemotherapy use in WDFAL (to establish any clinical precedent)
-- Mechanistic similarity analysis between WDFAL and the paediatric pleuropulmonary blastoma / biphasic pulmonary blastoma subtypes where etoposide has been attempted
-- Detailed MOA and pharmacokinetic profile from DrugBank API (to address DG002 data gap)
-- Safety data from the TFDA package insert and Singapore-relevant sources (to address DG001 data gap before any clinical consideration)
-- Given etoposide's absence from the Singapore market, a regulatory pathway assessment (compassionate use or import) would be required prior to any investigational use
+- HSA package insert warnings and contraindications (currently a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- Case series or registry data on etoposide-containing regimens specifically in well-differentiated fetal adenocarcinoma or pulmonary blastoma
+- Confirmation of the approved indication text for the Singapore licence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

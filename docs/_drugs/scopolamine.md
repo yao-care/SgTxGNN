@@ -29,77 +29,80 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Scopolamine: From [No Local Approved Indication] to Cauda Equina Syndrome
+# Scopolamine: From an Unrecorded Original Indication to Cauda Equina Syndrome
 
 ## One-Sentence Summary
 
-> Scopolamine (DrugBank DB00747) is a muscarinic receptor antagonist internationally known for uses such as motion sickness, pre-operative secretion control, and ophthalmic mydriasis/cycloplegia, but it currently holds no marketing registration in Singapore.
-> The TxGNN model predicts a possible association with **Cauda Equina Syndrome**, but this direction is currently supported by **0 clinical trials** and **0 publications**, and the model's own mechanistic note flags a potential pharmacological conflict rather than a supportive one.
-
----
+Scopolamine is a non-selective muscarinic (anticholinergic) drug, and the Singapore registration records do not state its approved indication.
+The TxGNN model predicts it may be effective for **Cauda Equina Syndrome**, but **0 clinical trials** and **0 supporting publications** were found.
+The prediction is model-only (L5), so the recommendation is **Hold**.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not registered in Singapore (market status: Not marketed/Not Marketed); no local approved-indication text is available to extract |
-| Predicted New Indication | Cauda Equina Syndrome |
-| TxGNN Prediction Score | 99.99% (score 0.9999, model rank 346) |
+| Original Indication | Not stated in the registration records |
+| Predicted New Indication | Cauda equina syndrome |
+| TxGNN Prediction Score | 99.99% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 6 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for this drug in the evidence pack (flagged as a High-severity data gap). Based on general pharmacological knowledge, scopolamine is a non-selective muscarinic acetylcholine receptor antagonist, and its established clinical roles (motion sickness, antisialagogue, ophthalmic cycloplegia) all derive from blocking parasympathetic/muscarinic signaling.
+Detailed mechanism-of-action data is not currently available. Scopolamine is a non-selective muscarinic antagonist, and antimuscarinics reduce detrusor (bladder muscle) overactivity. This is general pharmacology, not drug-specific data.
 
-For the top-ranked prediction, **Cauda Equina Syndrome**, the model's own repurposing rationale is notably cautious: it states that scopolamine's anticholinergic action could theoretically *worsen* neurogenic urinary retention rather than treat the syndrome, meaning the mechanistic direction may actually run counter to the disease pathology. This is a pure knowledge-graph statistical association (TxGNN score) with no mechanistic, trial, or literature confirmation.
+The link to cauda equina syndrome is plausible only for the bladder-dysfunction component. Scopolamine would not treat the underlying nerve-root compression, which needs surgical decompression. Its effects on the central nervous system are also a concern.
 
-It is worth noting that among the 10 candidates in this evidence pack, indications further down the list — such as **idiopathic uveal effusion syndrome** (rank 9) and **idiopathic panuveitis** (rank 10) — have a more biologically plausible link, since scopolamine eye drops are an established cycloplegic used adjunctively in uveitis to reduce pain and prevent synechiae. However, these also lack any direct supporting trials or literature in this dataset, so they cannot yet be elevated in priority over the top-ranked candidate.
+The model's other top-ranked predictions are also weak:
 
----
+- **Obsolete neurogenic bladder (score 99.98%):** The mechanism is sound, since antimuscarinics are established for neurogenic detrusor overactivity. However, better-studied agents (oxybutynin, solifenacin, trospium) already exist. Scopolamine's CNS penetration and cognitive side effects make it a poor candidate. The disease term is obsolete in the ontology and should be remapped to a current term.
+- **Conjunctivitis variants (papillary, atopic, rosacea, vernal; 99.08–99.98%):** There is no credible mechanistic rationale. These conditions are driven by mechanical irritation, allergy or gland dysfunction. Anticholinergic drying may worsen dry eye.
+- **Nasal cavity disease and acute laryngopharyngitis (98.87–98.99%):** Reduced secretions are conceivable, but the terms are nonspecific or the disease is mostly self-limiting, and mucosal drying may worsen symptoms.
+- **Idiopathic uveal effusion syndrome and idiopathic panuveitis (98.14–98.30%):** Topical cycloplegics are already used as symptomatic support in uveitis. This is supportive care, not a repurposing signal.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
+Only one publication was retrieved, and it does not support the predicted indications. It is listed under "nasal cavity disease" (score 98.99%, rank 7).
 
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [31183806](https://pubmed.ncbi.nlm.nih.gov/31183806/) | 2019 | Preclinical (animal model) | Molecular Neurobiology | Intranasal melanin-concentrating hormone improved memory in scopolamine-induced memory-impaired and Alzheimer's disease mouse models. Scopolamine appears as the amnesia-inducing agent, not as a treatment. |
 
 ## Singapore Market Information
 
-Scopolamine currently has no marketing authorization registered in Singapore (0 licenses on file). No product-level licensing details are available for reporting.
+Six registrations are on record. The records for the five listed below carry no approved-indication text.
 
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN07796P | FUCON INJECTION 20 mg/ml | Injection | Not recorded |
+| SIN09563P | VACOPAN INJECTION 20 mg/ml | Injection | Not recorded |
+| SIN02854P | HYOMIDE TABLET 10 mg | Tablet, sugar coated | Not recorded |
+| SIN07177P | FUCON CAPSULE 10 mg | Capsule | Not recorded |
+| SIN16636P | YSP HYOSCINE INJECTION 20MG/ML | Injection, solution | Not recorded |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-*Note: Local prescribing-label warnings/contraindications (仿單警語/禁忌) are marked as a Blocking data gap in this evidence pack and must be sourced before any safety assessment can proceed.*
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This is an L5, model-prediction-only signal with zero supporting clinical trials or literature. Moreover, the model's own mechanistic rationale suggests the drug's pharmacology may be directionally inconsistent with treating Cauda Equina Syndrome, so there is currently no basis to advance this candidate.
+All ten predictions are model-only (L5), with no clinical trials. The only retrieved paper is a preclinical study that uses scopolamine as an amnesia-inducing agent, not as a therapy. Mechanistic plausibility is limited to bladder symptoms (and, indirectly, ocular cycloplegia), and CNS adverse effects and better alternatives weigh against it.
 
 **To proceed, the following is needed:**
-- Confirmed mechanism of action (MOA) data from DrugBank or primary literature
-- Local (TFDA/HSA-equivalent) label warnings and contraindications — currently a Blocking data gap
-- Independent mechanistic review of the cauda equina syndrome hypothesis, given the internally flagged directional conflict
-- If pursuing the alternative ophthalmic-route hypotheses (uveal effusion syndrome, panuveitis), targeted literature search on scopolamine's use as an adjunct cycloplegic in uveitic disease
+- The HSA package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism-of-action data from DrugBank
+- The approved indications for the Singapore registrations
+- A remapped current term for "obsolete neurogenic bladder"
+- A targeted search for studies on antimuscarinic use in neurogenic bladder or cauda equina bladder dysfunction, with comparison against existing agents
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -29,78 +29,70 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tezepelumab: From Th2-Driven Inflammatory Disease to Diabetic Cataract
+# Tezepelumab: From Severe Asthma to Diabetic Cataract
 
 ## One-Sentence Summary
 
-Tezepelumab is an anti-TSLP monoclonal antibody that targets epithelial cytokine-driven Th2/inflammatory pathways (the class of disease this mechanism is clinically relevant to, e.g. severe asthma); however, no formal original-indication or regulatory data is on file for Taiwan.
-The TxGNN model predicts it may be effective for **Diabetic Cataract**, but this prediction is supported by **0 clinical trials** and **0 publications**, and the evidence pack itself flags the result as a likely knowledge-graph clustering artifact rather than a genuine mechanistic signal.
-
----
+Tezepelumab is an anti-TSLP monoclonal antibody marketed for severe asthma.
+The TxGNN model predicts it may be effective for **diabetic cataract**,
+but currently **0 clinical trials** and **0 publications** support this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — Tezepelumab is not registered in Taiwan and no license/indication text is on file |
-| Predicted New Indication | Diabetic Cataract |
+| Original Indication | Severe asthma (the HSA records provided do not list indication text) |
+| Predicted New Indication | Diabetic cataract |
 | TxGNN Prediction Score | 98.40% |
-| Evidence Level | L5 (model prediction only, no supporting clinical trials or literature) |
-| Taiwan Market Status | ✗ Not marketed (Not marketed) |
-| Number of Registrations | 0 |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for Tezepelumab is not formally documented in this evidence pack (DG002, High severity gap). Based on the mechanistic rationale attached to the predictions, Tezepelumab is an anti-TSLP (thymic stromal lymphopoietin) monoclonal antibody that blocks an upstream epithelial alarmin driving Th2/type-2 inflammation — the pathway relevant to conditions such as severe asthma. This is fundamentally an immunology/allergy-axis mechanism.
+Currently, detailed mechanism of action data is not available. Based on known information, tezepelumab is an anti-TSLP (thymic stromal lymphopoietin) monoclonal antibody. Its efficacy in severe asthma is established, but the input contains no data on a pathway to diabetic lens opacity.
 
-Diabetic cataract, and the other cataract subtypes ranked #1–9 in this candidate list, are driven by entirely different pathophysiology: the polyol (sorbitol/aldose reductase) pathway, oxidative stress, and lens protein glycation/aggregation. None of these processes have an established link to TSLP or Th2 signaling. The evidence pack's own rationale text explicitly states there is "no known direct association" between the TSLP-Th2 axis and these lens pathologies.
+Diabetic cataract is driven mainly by hyperglycaemia: polyol pathway activation, oxidative stress and protein glycation. Nothing in the provided data connects TSLP blockade to these processes. Any link through inflammatory signalling is speculative.
 
-A further red flag is the score distribution: ranks #2–6 all share an almost identical score (0.983126699924469), and ranks #7–9 cluster within 0.001 of each other. This pattern — a tight cluster of unrelated or loosely related cataract subtypes all scoring nearly identically — is a classic signature of embedding-space node clustering in the knowledge graph rather than a drug-specific mechanistic prediction. In short, the high TxGNN score appears to reflect proximity of "cataract" disease nodes to each other in the graph, not a real biological rationale connecting Tezepelumab to lens disease.
+The ten top predictions are almost all cataract subtypes (diabetic, senile, cortical, nuclear, mature, immature, tetanic, craniostenosis-associated), with scores between 0.981 and 0.984. Such uniformity suggests a knowledge-graph proximity artifact among cataract terms rather than independent biological signals. The prediction should be treated with caution.
 
----
+The most biologically conceivable of the ten is **diabetic retinopathy** (score 98.1%), because it has a substantial inflammatory component and a TSLP or type 2 alarmin hypothesis is plausible. It is still unverified and is worth a literature review, not a recommendation.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
+## Singapore Market Information
 
-## Taiwan Market Information
-
-Tezepelumab is not currently registered or marketed in Taiwan. No license records are available (`total_licenses: 0`).
-
----
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN16815P | TEZSPIRE Solution for Injection 210 mg in Pre-filled Syringe | Injection, solution | Amgen Manufacturing Limited LLC |
+| SIN16817P | TEZSPIRE Solution for Injection 210 mg in Pre-filled Pen | Injection, solution | Amgen Manufacturing Limited LLC |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
-*(Key warnings, contraindications, and drug-drug interaction data are not currently available in this evidence pack — DG001, Blocking severity, pending TFDA label acquisition.)*
-
----
+No drug interaction records were found for this drug.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This is an L5, model-prediction-only candidate with zero supporting clinical trials or literature. The top 10 ranked indications are nearly all cataract subtypes with near-identical scores, which strongly suggests a knowledge-graph clustering artifact rather than a genuine drug-disease mechanistic signal — a concern the evidence pack itself raises repeatedly. There is no plausible mechanistic bridge between the TSLP-Th2 inflammatory axis and lens pathology (polyol pathway, oxidative stress, protein aggregation). Combined with the drug's unregistered status in Taiwan and blocking safety data gaps, this candidate does not meet the bar to advance.
+The prediction is supported only by the TxGNN score, with no trials, no literature and no mechanistic link. The near-identical scores across many cataract subtypes point to a likely model artifact.
 
 **To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain TFDA/international package insert for warnings, contraindications, and DDI data
-- Resolve DG002 (High): confirm formal original indication and MOA via DrugBank API or product label
-- Independent preclinical or mechanistic evidence linking TSLP signaling to lens/cataract pathophysiology before further evaluation
-- Re-run or audit the TxGNN evidence collection for this candidate cluster to rule out embedding-space clustering artifacts across similar disease nodes
-- Continued monitoring for any emerging clinical trials or literature before revisiting this candidate
+- HSA package insert (warnings and contraindications), which currently blocks safety screening
+- Mechanism of action data, for example from DrugBank
+- A literature review of TSLP in lens and retinal disease, prioritising diabetic retinopathy
+- Preclinical or observational evidence, such as TSLP levels in ocular fluids or ocular outcomes in treated asthma patients
+- Route compatibility assessment: the available route is injectable, and the suitability of systemic injection for lens disease is unassessed
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

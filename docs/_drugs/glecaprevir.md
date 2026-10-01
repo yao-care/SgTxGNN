@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Glecaprevir
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 475
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 ---
 
 # Glecaprevir
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,84 +29,92 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Glecaprevir: From Hepatitis C to HIV Infectious Disease
+# Glecaprevir: From Chronic Hepatitis C to HIV Infectious Disease
 
 ## One-Sentence Summary
 
-Glecaprevir is an HCV NS3/4A serine protease inhibitor, co-formulated with pibrentasvir (Mavyret/Maviret), approved globally for the treatment of chronic Hepatitis C virus (HCV) infection across all genotypes.
-The TxGNN model predicts it may be effective for **HIV Infectious Disease**, with **15 clinical trials** and **20 publications** retrieved — however, all trials document HCV treatment in HIV/HCV co-infected patients, not direct anti-HIV antiviral activity, and the mechanistic basis for this prediction is critically weak.
+Glecaprevir is an HCV NS3/4A protease inhibitor, marketed in Singapore in a fixed-dose combination with pibrentasvir (MAVIRET) for chronic hepatitis C.
+The TxGNN model predicts it may be effective for **HIV infectious disease**, and **15 clinical trials** and **20 publications** were retrieved for this prediction.
+However, all of them are hepatitis C studies. None reports an HIV outcome, so the evidence for HIV itself is very weak.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Chronic Hepatitis C virus infection (all genotypes, GT1–6) |
-| Predicted New Indication | HIV Infectious Disease |
+|------|------|
+| Original Indication | Chronic hepatitis C virus (HCV) infection (inferred from the trial and literature evidence; the HSA record has no indication text) |
+| Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 99.87% |
-| Evidence Level | L4 |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 (as assigned in the pack). No study tests HIV efficacy, so the practical level for HIV is close to L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available from the current dataset. Based on known pharmacological information, Glecaprevir is an HCV NS3/4A serine protease inhibitor, combined with pibrentasvir (an NS5A inhibitor) in the fixed-dose combination Mavyret/Maviret. Together, they achieve >97% sustained virological response (SVR12) across HCV genotypes 1–6, including in patients with compensated cirrhosis, severe renal impairment, and HIV/HCV co-infection.
+Glecaprevir inhibits the HCV NS3/4A serine protease and is used together with pibrentasvir, an NS5A inhibitor. Detailed mechanism of action data are not available from DrugBank in this pack, so the mechanism above comes from the pack's own rationale.
 
-The predicted repurposing to HIV infectious disease faces a fundamental mechanistic barrier. HIV-1 replication depends on an **aspartyl protease** — structurally and catalytically distinct from HCV's NS3/4A serine protease. Glecaprevir has no known cross-inhibitory activity against HIV protease, reverse transcriptase, or integrase. The existing evidence base consists entirely of trials treating **HCV** in HIV/HCV co-infected patients, with HIV status as a baseline covariate rather than a therapeutic target.
+The link to HIV is weak. HIV-1 protease is an aspartyl protease with a different structure and substrate specificity from the HCV serine protease, so no direct anti-HIV mechanism is supported. The trials and cohorts retrieved enrolled HIV/HCV-coinfected patients. They show that the drug treats the HCV component (SVR12, safety, interactions with antiretrovirals such as bictegravir/emtricitabine/tenofovir alafenamide). They do not show any effect on HIV disease.
 
-This prediction most likely reflects a knowledge graph artefact: the frequent clinical co-occurrence of HIV and HCV in real-world patient datasets may have created an associative node linkage in TxGNN's training graph, generating a high-confidence but pharmacologically unsupported prediction. The repurposing rationale is assessed as weak.
+The high TxGNN score most likely reflects graph proximity to other antiviral drugs rather than a real HIV indication.
 
 ---
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT02738138](https://clinicaltrials.gov/study/NCT02738138) | Phase 3 | Completed | 153 | EXPEDITION-2: G/P efficacy and safety in adults with chronic HCV (GT1–6) and HIV-1 co-infection; primary endpoint was HCV SVR12, not anti-HIV activity |
-| [NCT02939989](https://clinicaltrials.gov/study/NCT02939989) | Phase 3 | Completed | 33 | MAGELLAN-3: G/P + sofosbuvir + ribavirin in HCV/HIV co-infected patients with prior virologic failure in AbbVie studies; provides G/P safety data in HIV-positive patients |
-| [NCT03823911](https://clinicaltrials.gov/study/NCT03823911) | Phase 4 | Completed | 87 | Cardiovascular risk outcomes after HCV eradication in HIV/HCV co-infected vs. HIV mono-infected controls; indirect safety signal for G/P use in HIV-positive patients |
-| [NCT03222583](https://clinicaltrials.gov/study/NCT03222583) | Phase 3 | Completed | 546 | Large Asian HCV trial (GT1–6) with or without HIV co-infection; evaluated G/P efficacy and safety across both populations |
-| [NCT04042740](https://clinicaltrials.gov/study/NCT04042740) | Phase 2 | Completed | 45 | PURGE-C: 4-week G/P for acute HCV infection with or without HIV-1 co-infection |
-| [NCT03235349](https://clinicaltrials.gov/study/NCT03235349) | Phase 3 | Completed | 160 | G/P in Asian HCV-infected patients (GT1–6) with compensated cirrhosis, with or without HIV co-infection |
-| [NCT04189627](https://clinicaltrials.gov/study/NCT04189627) | N/A | Completed | 99 | DETI-2: Real-world G/P effectiveness in Russian adolescents aged 12–17 with HCV, including HIV/HCV co-infected subgroup |
-| [NCT02634008](https://clinicaltrials.gov/study/NCT02634008) | Phase 3 | Completed | 83 | Pilot study of G/P (and paritaprevir-based regimens) for recently acquired HCV infection with or without HIV co-infection |
-| [NCT07040319](https://clinicaltrials.gov/study/NCT07040319) | Phase 1/2 | Not Yet Recruiting | 30 | Pharmacokinetics and safety of G/P initiated during pregnancy in women with HCV with or without HIV; includes infant safety follow-up |
-| [NCT05108935](https://clinicaltrials.gov/study/NCT05108935) | N/A | Completed | 17 | Telemedicine at needle exchanges: combined HCV treatment, HIV PrEP, and opioid use disorder medication delivered to syringe service program attendees |
+|---------|------|------|------|---------|
+| [NCT02738138](https://clinicaltrials.gov/study/NCT02738138) | Phase 3 | Completed | 153 | EXPEDITION-2: efficacy and safety in HCV genotype 1-6 with HIV-1 coinfection. Measures HCV outcomes only |
+| [NCT03823911](https://clinicaltrials.gov/study/NCT03823911) | Phase 4 | Completed | 87 | Cardiovascular risk after HCV eradication in HIV/HCV-coinfected patients. Outcomes concern HCV cure, not HIV control |
+| [NCT03222583](https://clinicaltrials.gov/study/NCT03222583) | Phase 3 | Completed | 546 | Randomized, placebo-controlled study in non-cirrhotic Asian adults with HCV, with or without HIV coinfection. No HIV-specific endpoint evident |
+| [NCT03235349](https://clinicaltrials.gov/study/NCT03235349) | Phase 3 | Completed | 160 | Asian adults with HCV and compensated cirrhosis, with or without HIV coinfection |
+| [NCT04042740](https://clinicaltrials.gov/study/NCT04042740) | Phase 2 | Completed | 45 | PURGE-C: 4-week glecaprevir/pibrentasvir for acute HCV, with or without HIV-1 coinfection |
+| [NCT02634008](https://clinicaltrials.gov/study/NCT02634008) | Phase 3 | Completed | 83 | Pilot study of DAA regimens, including glecaprevir/pibrentasvir, in recently acquired HCV with or without HIV coinfection |
+| [NCT02939989](https://clinicaltrials.gov/study/NCT02939989) | Phase 3 | Completed | 33 | MAGELLAN-3: glecaprevir/pibrentasvir plus sofosbuvir and ribavirin after prior virologic failure in HCV. The HIV link is a keyword match |
+| [NCT07040319](https://clinicaltrials.gov/study/NCT07040319) | Phase 1/2 | Not yet recruiting | 30 | Pharmacokinetics and safety of glecaprevir/pibrentasvir started in pregnancy in women with HCV, with or without HIV |
+| [NCT04189627](https://clinicaltrials.gov/study/NCT04189627) | N/A | Completed | 99 | Real-world HCV effectiveness in Russian adolescents, including HIV/HCV-coinfected subgroups |
+| [NCT05108935](https://clinicaltrials.gov/study/NCT05108935) | N/A | Completed | 17 | Telemedicine at needle exchanges: opioid use disorder treatment, HIV PrEP and hepatitis C treatment. Not a test of glecaprevir against HIV |
+
+Five further retrieved trials are also HCV studies and are not listed here.
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [39697370](https://pubmed.ncbi.nlm.nih.gov/39697370/) | 2024 | Cohort/Real-world | Clinical and Experimental Hepatology | Real-life G/P efficacy and safety in HIV/HCV co-infected patients receiving bictegravir/emtricitabine/tenofovir alafenamide; confirms ARV compatibility and HCV SVR in HIV-positive patients |
-| [37671831](https://pubmed.ncbi.nlm.nih.gov/37671831/) | 2023 | Cohort/Real-world | Journal of Antimicrobial Chemotherapy | Real-world G/P response in HIV/HCV co-infected patients in clinical practice; HIV status associated with lower SVR rates vs. mono-infected in some DAA regimens |
-| [34664197](https://pubmed.ncbi.nlm.nih.gov/34664197/) | 2021 | Case Report | Clinical Journal of Gastroenterology | Successful G/P treatment of a Japanese hemophilia patient co-infected with HIV and HCV genotype 4a; demonstrates utility in complex HIV/HCV co-infected patients on antiretrovirals |
-| [31284039](https://pubmed.ncbi.nlm.nih.gov/31284039/) | 2019 | Systematic Review | International Journal of Antimicrobial Agents | Meta-analysis of 13 studies (n=3,082): overall SVR12 rate of 97.8% with G/P across HCV GT1–6; includes subgroup data from HIV co-infected populations |
-| [29845496](https://pubmed.ncbi.nlm.nih.gov/29845496/) | 2018 | Review | Hepatology International | G/P expands HCV treatment reach with shorter duration and broader population coverage, including HIV/HCV co-infected patients previously considered difficult to treat |
-| [35877601](https://pubmed.ncbi.nlm.nih.gov/35877601/) | 2022 | Review | PLoS ONE | Comparative analysis of drug approval timelines for TB, HIV, and HCV; contextualizes G/P within the broader DAA development and regulatory landscape |
-| [29595065](https://pubmed.ncbi.nlm.nih.gov/29595065/) | 2018 | Review | Expert Opinion on Pharmacotherapy | HCV NS3/4A protease inhibitor therapy overview; discusses G/P use in HIV co-infected patients and key drug-drug interaction considerations with antiretrovirals |
-| [32754824](https://pubmed.ncbi.nlm.nih.gov/32754824/) | 2020 | Cohort/Real-world | Advances in Therapy | Real-world 8-week G/P in treatment-naïve compensated cirrhosis patients; validates EXPEDITION-8 findings with heterogeneous real-world population |
-| [38367631](https://pubmed.ncbi.nlm.nih.gov/38367631/) | 2024 | Review | The Lancet Gastroenterology & Hepatology | Global registration and reimbursement data for HCV DAA therapies including G/P across 160+ countries; policy and access landscape |
-| [30090878](https://pubmed.ncbi.nlm.nih.gov/30090878/) | 2018 | Review | Drugs of Today | Comprehensive G/P pharmacology, pharmacokinetics, efficacy, and safety review; first approved 8-week pangenotypic HCV regimen for adults |
+|------|-----|------|------|---------|
+| [31284039](https://pubmed.ncbi.nlm.nih.gov/31284039/) | 2019 | Systematic review / meta-analysis | Int J Antimicrob Agents | 13 studies, 3,082 patients: overall SVR12 of 97.8% for glecaprevir/pibrentasvir in HCV genotypes 1-6 |
+| [39697370](https://pubmed.ncbi.nlm.nih.gov/39697370/) | 2024 | Cohort | Clin Exp Hepatol | Real-life efficacy and safety of glecaprevir/pibrentasvir in HIV/HCV patients on bictegravir/emtricitabine/tenofovir alafenamide |
+| [37671831](https://pubmed.ncbi.nlm.nih.gov/37671831/) | 2023 | Cohort | J Antimicrob Chemother | Response to glecaprevir/pibrentasvir in HIV/HCV-coinfected patients in clinical practice. HIV has been linked to lower SVR with DAAs |
+| [29595065](https://pubmed.ncbi.nlm.nih.gov/29595065/) | 2018 | Review | Expert Opin Pharmacother | Protease inhibitor therapy for HCV. Notes that 25-30% of HIV-infected patients in Europe and the US are HCV-coinfected |
+| [30499343](https://pubmed.ncbi.nlm.nih.gov/30499343/) | 2019 | Review | Future Microbiol | Glecaprevir/pibrentasvir for chronic HCV as a simple, short DAA regimen |
+| [31537106](https://pubmed.ncbi.nlm.nih.gov/31537106/) | 2020 | Review | Ann Pharmacother | Pharmacology, efficacy, safety and dosing of the 8-week pangenotypic regimen in HCV patients aged 12 and over |
+| [30671330](https://pubmed.ncbi.nlm.nih.gov/30671330/) | 2017 | Review | GMS Infect Dis | HCV protease inhibitors, with HIV coinfection as background |
+| [35877601](https://pubmed.ncbi.nlm.nih.gov/35877601/) | 2022 | Review | PLoS One | Compares evidence and timelines for new TB, HIV and HCV drug approvals |
+| [29369303](https://pubmed.ncbi.nlm.nih.gov/29369303/) | 2018 | Conference report | AIDS Rev | Viral hepatitis conference report on pangenotypic HCV antivirals |
+| [34664197](https://pubmed.ncbi.nlm.nih.gov/34664197/) | 2021 | Case report | Clin J Gastroenterol | A Japanese hemophilia patient coinfected with HIV and HCV genotype 4a treated successfully for HCV |
 
 ---
 
 ## Singapore Market Information
 
-Glecaprevir (as the fixed-dose combination Mavyret/Maviret with pibrentasvir) is currently **not registered with HSA Singapore**. No product licences are on record in this dataset.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN15603P | MAVIRET FILM-COATED TABLET 100MG/40MG | Film-coated tablet | Not stated in the HSA record retrieved |
 
-> **Note for context**: Glecaprevir/pibrentasvir has received regulatory approval from the US FDA (August 2017), EMA (July 2017), and TGA (Australia) for chronic HCV infection across all genotypes. Singapore market entry has not been confirmed in the current data.
+Manufacturer: AbbVie Deutschland GmbH & Co. KG and Fournier Laboratories Ireland Ltd. Route: oral.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. The HSA package insert has not yet been retrieved, and no drug-interaction records were found.
+
+- **Hepatitis B reactivation**: HBV reactivation after HCV direct-acting antiviral therapy is a known concern in the retrieved literature. This is a monitoring issue and not evidence of efficacy.
+- **Antiretroviral interactions**: Interactions with antiretroviral regimens are discussed in the HIV/HCV cohort literature and need review against the label.
 
 ---
 
@@ -115,17 +123,12 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-Despite a very high TxGNN prediction score (99.87%), the mechanistic foundation for using Glecaprevir against HIV infectious disease is absent. Glecaprevir inhibits HCV NS3/4A **serine protease**, while HIV-1 replication requires an entirely different enzyme class (**aspartyl protease**), with no structural homology or known cross-inhibitory activity. Every trial and publication in this evidence pack documents HCV treatment outcomes in HIV/HCV co-infected patients — not anti-HIV efficacy. This is a likely false-positive prediction driven by clinical co-occurrence in knowledge graph training data.
+The retrieved trials and papers are all about hepatitis C, and HIV appears only as a coinfection context. There is no mechanistic basis for anti-HIV activity, so the high TxGNN score most likely reflects graph proximity to antivirals. The other nine predictions (HBV, feline AIDS, SIV, HEV, animal hepatitis, HAV, Omsk hemorrhagic fever, Kyasanur forest disease, and a rare neurodevelopmental disorder) are also on hold.
 
 **To proceed, the following is needed:**
-- **In vitro anti-HIV activity screen**: Direct testing of Glecaprevir against HIV-1 replication in cell culture (e.g., MT-4 or PBMC assay) and against HIV-1 protease enzyme
-- **Mechanistic data gap resolution**: Obtain full DrugBank MOA entry and structural analysis comparing Glecaprevir binding conformation with HIV protease active site
-- **Singapore HSA registration**: Evaluate feasibility pathway if repurposing evidence ever emerges
-- **Deprioritisation if in vitro negative**: Should no anti-HIV activity be demonstrated in preclinical screening, this indication should be formally removed from the repurposing candidate list and flagged as a knowledge graph artefact
-
----
-
-> ⚠️ **Research Disclaimer**: This report is for research reference only and does not constitute medical advice. All drug repurposing candidates require clinical validation before any therapeutic application.
+- The HSA package insert, to fill the safety gaps (warnings, contraindications, interactions) and confirm the registered HCV indication
+- DrugBank mechanism of action data
+- In vitro anti-HIV activity data for glecaprevir; without a positive result, further investigation of this indication is not justified
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

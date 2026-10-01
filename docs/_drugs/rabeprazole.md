@@ -29,76 +29,69 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Rabeprazole: From Acid-Peptic Disease to Smouldering Systemic Mastocytosis
+# Rabeprazole: From Acid-Related Gastric Disorders to Smouldering Systemic Mastocytosis
 
 ## One-Sentence Summary
 
-> Rabeprazole is a proton pump inhibitor whose established use — based on literature within this evidence pack — is acid-peptic disease (duodenal/gastric ulcer, GERD, *H. pylori* eradication); formal TFDA-equivalent labeling data is currently missing (Blocking Data Gap).
-> The TxGNN model's top-ranked prediction is **Smouldering Systemic Mastocytosis**,
-> but this candidate is supported by **0 clinical trials** and **0 publications** — it is a pure graph-neural-network association with no identified mechanistic basis.
-
----
+Rabeprazole is a proton pump inhibitor (PPI) used to suppress gastric acid. Its registered indication text is not recorded in the data supplied, so "acid-related gastric disorders" here is inferred from the drug class and the published literature.
+The TxGNN model predicts it may be useful in **Smouldering Systemic Mastocytosis**, but this rests on the model score alone, with **0 clinical trials** and **0 publications** retrieved.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available in structured regulatory data (Blocking Data Gap DG001). Literature in this pack confirms rabeprazole as a PPI for acid-peptic disease (duodenal/gastric ulcer, GERD, *H. pylori* eradication), but no formal approved-indication text was retrieved. |
-| Predicted New Indication | Smouldering Systemic Mastocytosis |
+| Original Indication | Not recorded in the registration data (acid-related gastric disorders, inferred from drug class and literature) |
+| Predicted New Indication | Smouldering systemic mastocytosis |
 | TxGNN Prediction Score | 99.44% |
-| Evidence Level | L5 (model prediction only, no supporting studies) |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 4 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism-of-action data is not available (High-severity Data Gap DG002). Based on the literature evidence contained in this pack, rabeprazole is a proton pump inhibitor that irreversibly inhibits gastric H+/K+-ATPase, reducing acid secretion — a mechanism well established for acid-peptic disease.
+Currently, detailed mechanism of action data is not available. Based on known information, rabeprazole belongs to the PPI class. Its efficacy in acid-related gastric disease is well established in the literature, and it may be applicable to mast-cell-driven acid-related symptoms.
 
-For the top-ranked predicted indication, **Smouldering Systemic Mastocytosis**, the evidence pack explicitly states: *"無已知機轉連結 PPI 抑酸作用與肥大細胞增生疾病之病理生理"* — there is no known mechanistic link between PPI-mediated acid suppression and mast cell proliferative disease pathophysiology. Despite the very high TxGNN similarity score (99.44%), this association is not corroborated by any clinical trial or publication.
+The most plausible link is symptomatic. In systemic mastocytosis, mast cells release histamine, which can drive gastric acid hypersecretion. PPIs are used to control the resulting reflux, gastritis and ulcer symptoms. This would be supportive care, not treatment of the mastocytosis itself, and rabeprazole would not be expected to change the course of the disease.
 
-This should be read as a pure knowledge-graph pattern-match rather than a biologically grounded hypothesis. Notably, within the same prediction batch, lower-ranked candidates such as *active peptic ulcer disease* (rank 3) and *gastric ulcer* (rank 9) show much stronger evidence (L1, multiple Phase 2/3 RCTs) — but these largely reflect rabeprazole's already-known pharmacology rather than genuine repurposing opportunities.
-
----
+The high score probably reflects how close the mastocytosis nodes sit to acid-related disease nodes in the knowledge graph, not any direct evidence. The same pattern appears for the neighbouring prediction, lymphadenopathic mastocytosis with eosinophilia (99.35%), which also has no supporting studies.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Rabeprazole currently has no marketing authorization on record in Singapore (0 registrations, market status: Not Marketed).
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN14910P | Acilesol Gastro-Resistant Tablet 20mg | Tablet, enteric coated | Not listed in the data |
+| SIN15259P | Bepraz Gastro Resistant Tablets 20mg | Tablet, delayed release | Not listed in the data |
+| SIN15260P | Bepraz Gastro Resistant Tablets 10mg | Tablet, delayed release | Not listed in the data |
+| SIN14319P | Rabeprazole Sandoz Gastro Resistant Tablet 20mg | Tablet, enteric coated | Not listed in the data |
 
----
+All four products are oral tablets.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (Smouldering Systemic Mastocytosis) has no clinical trials, no literature, and no established mechanistic link — it sits at Evidence Level L5 (model prediction only). Combined with the drug's unmarketed status in Singapore and missing TFDA-equivalent safety labeling, there is no basis to advance this candidate beyond model output at this time.
+The prediction has no trials or literature behind it, and the only mechanistic argument is symptomatic acid control. That would not be disease-modifying in smouldering systemic mastocytosis.
 
 **To proceed, the following is needed:**
-- TFDA/regulatory labeling data — warnings, contraindications, approved indications (Blocking Data Gap DG001)
-- DrugBank mechanism-of-action data (Data Gap DG002)
-- Preclinical or mechanistic studies exploring any biological plausibility between PPI acid suppression and mast cell disease pathophysiology
-- If pursuing repurposing more broadly, prioritize re-evaluating rank 3/9 candidates (active peptic ulcer disease, gastric ulcer) only after confirming they are not simply the drug's existing approved use rather than true new indications
+- Download and parse the HSA package insert (warnings, contraindications, registered indications). Its absence blocks safety screening.
+- Retrieve the mechanism of action from DrugBank.
+- Run a targeted literature search on PPI use for GI symptoms in systemic mastocytosis to see whether the supportive-care role is documented.
+- Confirm the registered indications of the four Singapore products.
+- Review the other predictions in this pack before choosing a lead candidate. Active peptic ulcer disease (98.74%) and gastric ulcer (97.83%) both reach L1 evidence with a "Proceed with Guardrails" recommendation. They are likely existing PPI uses rather than true repurposing, so the labeling should be confirmed first.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

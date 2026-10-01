@@ -29,105 +29,105 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Calcitriol: From Hypoparathyroidism to Hereditary Hypophosphatemic Rickets
-
-> **Multi-Indication Analysis Report** | Candidate ID: TW-DB00136-multi | Data Cutoff: 2026-04-05
-
----
+# Calcitriol: From Active Vitamin D Therapy to Vitamin D Deficiency (Obsolete Ontology Term)
 
 ## One-Sentence Summary
 
-Calcitriol (1,25-dihydroxyvitamin D₃, DrugBank DB00136) is the biologically active terminal metabolite of the vitamin D activation pathway, globally established for managing hypocalcaemia in hypoparathyroidism and renal osteodystrophy, but currently **not registered in Singapore**.
-The TxGNN model identifies **10 predicted indications** spanning genetic rickets syndromes, metabolic bone diseases, and renal tubular disorders — with **Hereditary Hypophosphatemic Rickets** (Rank 7) carrying the strongest actionable evidence: **7 clinical trials** (including a direct Phase 1 calcitriol monotherapy trial and a Phase 4 dosing comparison) and **20 publications** (including 2 Tier-1 clinical guidelines in *The Lancet* and *Calcified Tissue International*).
-The highest TxGNN-scored prediction (Rank 1: **Vitamin D Deficiency**, 99.96%) uses an obsolete ontology term with no corresponding trial evidence, but the underlying clinical concept is inherently supported by calcitriol's mechanism of action.
+Calcitriol is the active hormonal form of vitamin D, but the record does not list its original approved indication.
+The TxGNN model's top-ranked prediction is **obsolete vitamin D deficiency**, an ontology term flagged as obsolete, so the score is likely a knowledge-graph artifact. It has **0 clinical trials** and **0 publications**.
+Better-supported predictions are further down the list, especially **hereditary hypophosphatemic rickets** (6 trials, 20 publications).
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not registered in Singapore; globally established for hypoparathyroidism, renal osteodystrophy (CKD), and vitamin D-dependent rickets type 1A |
-| Predicted New Indication (Top-Ranked) | Vitamin D Deficiency (obsolete ontology term → ICD E55) |
-| TxGNN Prediction Score | 99.96% (Rank 1) |
-| Evidence Level | L4 (Rank 1: no trials or literature); **L2** (Rank 7 — Hereditary Hypophosphatemic Rickets: strongest actionable evidence) |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | **Proceed with Guardrails** (Hereditary Hypophosphatemic Rickets, Ranks 7–8) |
-
----
-
-## Multi-Indication Summary
-
-| Rank | Predicted Disease | TxGNN Score | Evidence Level | Decision |
-|------|------------------|-------------|----------------|----------|
-| 1 | Vitamin D Deficiency (obsolete term → ICD E55) | 99.96% | L4 | Research Question |
-| 2 | Renal Tubular Acidosis | 99.93% | L3 | Research Question |
-| 3 | Familial Isolated Hypoparathyroidism (impaired PTH secretion) | 99.81% | L4 | Research Question |
-| 4 | Acromesomelic Dysplasia, Campailla-Martinelli type | 99.79% | L5 | Hold |
-| 5 | Craniofacial Conodysplasia | 99.78% | L5 | Hold |
-| 6 | Dahlberg-Borer-Newcomer Syndrome (HDR/Barakat) | 99.76% | L4 | Research Question |
-| **7** | **Hereditary Hypophosphatemic Rickets** | **99.28%** | **L2** | **Proceed with Guardrails** |
-| **8** | **Hypophosphatemic Rickets** | **98.08%** | **L2** | **Proceed with Guardrails** |
-| 9 | Osteomalacia | 97.68% | L3 | Proceed with Guardrails |
-| 10 | Vitamin D-Dependent Rickets | 97.42% | L3 | Proceed with Guardrails |
+|------|------|
+| Original Indication | Not stated in the HSA records (approved indication text is empty for all 4 licences) |
+| Predicted New Indication | Obsolete vitamin D deficiency (top-ranked; see caveat below) |
+| TxGNN Prediction Score | 99.96% |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 4 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Calcitriol is the biologically active form of vitamin D, produced in the proximal convoluted tubule of the kidney via CYP27B1 (1α-hydroxylase) acting on 25-hydroxyvitamin D. It binds the vitamin D receptor (VDR), a nuclear transcription factor expressed in intestinal epithelium, bone osteoblasts, renal tubular cells, and parathyroid gland chief cells. Through VDR activation, calcitriol enhances intestinal calcium absorption (from ~15% to 30–40%), promotes distal renal tubular calcium reabsorption, suppresses PTH synthesis, and enables adequate mineralisation of the osteoid bone matrix — making it a master regulator of calcium-phosphate homeostasis.
+Currently, detailed mechanism of action data is not available in this record. Calcitriol is the active 1,25-dihydroxy form of vitamin D and acts as a vitamin D receptor (VDR) agonist, so a link to vitamin D-related disorders is biologically plausible.
 
-The 10 predicted indications cluster around two mechanistically coherent themes. The first is **conditions where endogenous calcitriol synthesis is impaired**: in hereditary hypophosphatemic rickets (particularly X-linked hypophosphataemia, XLH), FGF23 excess from PHEX mutations simultaneously drives renal phosphate wasting and suppresses CYP27B1 activity, creating a state of relative calcitriol deficiency; exogenous calcitriol directly restores VDR signalling and corrects the bone mineralisation deficit. The second theme is **conditions where PTH deficiency reduces CYP27B1 stimulation**: in hypoparathyroid syndromes (familial isolated hypoparathyroidism, HDR/Barakat syndrome), PTH-driven 1α-hydroxylation is lost, and calcitriol substitution functions as a precision enzyme-product replacement therapy.
+The top-ranked term is flagged "obsolete" in the disease ontology. The very high score (99.96%) is therefore probably a knowledge-graph artifact. No trials or literature were retrieved, so this prediction should not be treated as a genuine repurposing signal.
 
-For the top-ranked indication (Rank 1: "obsolete vitamin D deficiency"), the ontology term is marked deprecated in current biomedical databases, which explains the absence of trial registrations under this label. The clinically equivalent current term — Vitamin D Deficiency (ICD E55) — is an area where calcitriol's role is theoretically complete, as it is the deficient product itself. Re-querying evidence databases under ICD E55 terminology is strongly recommended before drawing conclusions about evidence absence.
+The other predictions differ in strength:
+
+| Rank | Predicted Indication | Score | Evidence Level | Decision |
+|------|------|------|------|------|
+| 2 | Renal tubular acidosis | 99.93% | L4 | Research Question |
+| 3 | Familial isolated hypoparathyroidism (impaired PTH secretion) | 99.81% | L5 | Hold |
+| 4 | Acromesomelic dysplasia, Campailla Martinelli type | 99.79% | L5 | Hold |
+| 5 | Craniofacial conodysplasia | 99.78% | L5 | Hold |
+| 6 | Dahlberg-Borer-Newcomer syndrome | 99.76% | L4 | Hold |
+| 7 | Hereditary hypophosphatemic rickets | 99.28% | L3 | Proceed with Guardrails |
+| 8 | Hypophosphatemic rickets | 98.08% | L3 | Proceed with Guardrails |
+| 9 | Osteomalacia | 97.68% | L4 | Research Question |
+| 10 | Vitamin D-dependent rickets | 97.42% | L3 | Research Question |
+
+- **Hypophosphatemic rickets (ranks 7 and 8):** FGF23 excess lowers calcitriol synthesis and causes renal phosphate wasting. Calcitriol plus phosphate is a rational, long-established combination. This is close to existing standard care and is not novel repurposing. Rank 8 is the broader parent term and shares the same trials, so it is not independent evidence.
+- **Vitamin D-dependent rickets (rank 10):** In type 1A, CYP27B1 mutations block conversion of 25-hydroxyvitamin D, so calcitriol bypasses the defect. Support comes from retrospective series, case reports and a systematic review. Response in type 2 (VDR defect) is variable and needs stratification.
+- **Renal tubular acidosis (rank 2):** The rationale rests on correcting associated bone disease (osteomalacia), not on replacing a deficiency. One study reports that RTA does not alter circulating calcitriol.
+- **Ranks 4 and 5:** These are skeletal dysplasias with no evident VDR-dependent mechanism, so they are not supported.
 
 ---
 
 ## Clinical Trial Evidence
 
-*Focus: Hereditary Hypophosphatemic Rickets / Hypophosphatemic Rickets (Ranks 7–8 — highest evidence)*
+Currently no related clinical trials registered for the top-ranked prediction (obsolete vitamin D deficiency).
+
+Trials retrieved for the best-supported candidate, **hereditary hypophosphatemic rickets** (rank 7):
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
-|---|---|---|---|---|
-| [NCT03748966](https://clinicaltrials.gov/study/NCT03748966) | Early Phase 1 | Active, Not Recruiting | 20 | **Direct calcitriol monotherapy for XLH** — dose escalation over 3 months; primary hypothesis: calcitriol alone (without phosphate) will improve serum phosphate levels and skeletal mineralisation in children and adults without increasing kidney calcifications |
-| [NCT03820518](https://clinicaltrials.gov/study/NCT03820518) | Phase 4 | Unknown | 100 | Compares high vs. low dose active vitamin D (calcitriol/alfacalcidol) combined with neutral phosphate in children with XLH; aims to establish evidence-based weight-dependent dosing for routine clinical practice |
-| [NCT04846647](https://clinicaltrials.gov/study/NCT04846647) | N/A (Observational) | Completed | 260 | Study of inappropriate FGF23 hypersecretion in hospitalised hypophosphataemia patients; confirms FGF23's dual role in suppressing renal phosphate reabsorption and inhibiting calcitriol synthesis — mechanistic underpinning for calcitriol supplementation |
-| [NCT06046820](https://clinicaltrials.gov/study/NCT06046820) | Phase 3 | Active, Not Recruiting | 27 | ENERGY 3 Study — evaluates INZ-701 in ENPP1 deficiency; contextualises calcitriol's evolving position within the current treatment landscape of hereditary hypophosphataemia |
-| [NCT01526304](https://clinicaltrials.gov/study/NCT01526304) | N/A (Cross-sectional) | Unknown | 150 | Cross-sectional study of FGF23, Klotho, and Sclerostin in kidney stone formers; provides background data on phosphate metabolism dysregulation relevant to calcitriol's role |
-| [NCT00844740](https://clinicaltrials.gov/study/NCT00844740) | N/A | Withdrawn (n=0) | 0 | Cinacalcet in familial hypophosphatemic rickets — withdrawn; abstract explicitly identifies oral phosphate + 1,25(OH)₂D (calcitriol) as the current standard of care, validating calcitriol's benchmark status |
-| [NCT06921720](https://clinicaltrials.gov/study/NCT06921720) | N/A (Diagnostic) | Not Yet Recruiting | 65 | ATP measurement by ³¹P-spectroscopy in phosphate diabetes (XLH); diagnostic study evaluating intracellular phosphate deficit, indirectly supporting rationale for calcitriol + phosphate supplementation |
+|---------|------|------|------|---------|
+| [NCT03748966](https://clinicaltrials.gov/study/NCT03748966) | Early Phase 1 | Active, not recruiting | 20 | Calcitriol monotherapy (no phosphate) for one year in children and adults with XLH; outcomes are mineral ions, growth and skeletal parameters. Directly tests the drug, but is small and early-phase. |
+| [NCT03820518](https://clinicaltrials.gov/study/NCT03820518) | Phase 4 | Unknown | 100 | High versus low dose of active vitamin D combined with neutral phosphate in children with XLH. Relevant to dosing; no results available. |
+| [NCT06046820](https://clinicaltrials.gov/study/NCT06046820) | Phase 3 | Active, not recruiting | 27 | ENERGY 3 study of INZ-701 in children with ENPP1 deficiency. A different investigational agent, so indirect for calcitriol. |
+| [NCT04846647](https://clinicaltrials.gov/study/NCT04846647) | N/A | Completed | 260 | Observational study of inappropriate FGF23 secretion in hypophosphatemia. Pathophysiologic context only. |
+| [NCT06921720](https://clinicaltrials.gov/study/NCT06921720) | N/A | Not yet recruiting | 65 | Phosphorus-31 spectroscopy of ATP concentration in phosphate diabetes. Mechanistic, no calcitriol intervention. |
+| [NCT01526304](https://clinicaltrials.gov/study/NCT01526304) | N/A | Unknown | 150 | Cross-sectional study of FGF23, Klotho and sclerostin in kidney stone formers. No calcitriol intervention. |
+
+A withdrawn cinacalcet study (NCT00844740, n=0) was also retrieved; it is not about calcitriol and produced no data.
 
 ---
 
 ## Literature Evidence
 
-*Priority: Tier-1 guidelines and direct calcitriol treatment studies; selected from Ranks 7–10 evidence pools*
+Currently no related literature available for the top-ranked prediction (obsolete vitamin D deficiency).
+
+Key publications for **hereditary hypophosphatemic rickets / hypophosphatemic rickets** (ranks 7 and 8):
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [39181153](https://pubmed.ncbi.nlm.nih.gov/39181153/) | 2024 | Systematic Review | *The Lancet* | XLH comprehensive review: PHEX mutation → FGF23 excess → renal phosphate wasting + decreased calcitriol synthesis → hypophosphataemic rickets and osteomalacia; first-line conventional treatment confirmed as phosphate + active vitamin D metabolites |
-| [40295317](https://pubmed.ncbi.nlm.nih.gov/40295317/) | 2025 | Clinical Guideline | *Calcified Tissue International* | Current XLH diagnosis and therapy guideline; calcitriol confirmed as a core treatment component; discusses monitoring for hypercalcaemia and nephrocalcinosis |
-| [2157942](https://pubmed.ncbi.nlm.nih.gov/2157942/) | 1990 | Clinical Trial (non-RCT) | *Metabolism* | **Direct calcitriol treatment evidence**: complete metabolic correction achieved in VDDR type 1 with physiological calcitriol doses; partial improvement in XLH with supraphysiological doses combined with phosphate |
-| [3839245](https://pubmed.ncbi.nlm.nih.gov/3839245/) | 1985 | Clinical Trial (non-RCT) | *J Clin Investigation* | **Key historical study**: high-dose calcitriol (mean 68.2 ng/kg/day) induces and maintains healing of XLH-associated osteomalacia; conventional therapy heals rickets but fails to resolve osteomalacia without calcitriol |
-| [40565034](https://pubmed.ncbi.nlm.nih.gov/40565034/) | 2025 | Review | *Int J Mol Sci* | Renal and extrarenal calcitriol synthesis regulation; low circulating calcitriol documented in nutritional rickets, osteomalacia, obesity, and preeclampsia; outlines clinical implications |
-| [34492747](https://pubmed.ncbi.nlm.nih.gov/34492747/) | 2021 | Systematic Review + Case Series | *J Pediatr Endocrinol Metab* | VDDR1A (CYP27B1 mutations): genotype-phenotype spectrum; calcitriol is the definitive treatment, with complete clinical remission achievable at physiological replacement doses |
-| [32204545](https://pubmed.ncbi.nlm.nih.gov/32204545/) | 2020 | Review | *Metabolites* | Vitamin D's protective role in renal tubulopathies; proximal tubule mitochondria identified as primary site of calcitriol production; documents anti-inflammatory and antioxidative functions relevant to tubular acidosis management |
-| [7970647](https://pubmed.ncbi.nlm.nih.gov/7970647/) | 1994 | Clinical Study (non-RCT) | *Orvosi Hetilap* | Calcitriol improves osteomalacia complicating distal renal tubular acidosis; case report documenting bone disease progression and calcitriol response over 7 years of follow-up |
-| [30454743](https://pubmed.ncbi.nlm.nih.gov/30454743/) | 2019 | Review | *Pediatric Clinics of North America* | Hypophosphatemic rickets: conventional PO₄ + calcitriol treatment reviewed; monitoring protocol for nephrocalcinosis and nephrolithiasis as treatment-emergent complications |
-| [29292875](https://pubmed.ncbi.nlm.nih.gov/29292875/) | 2017 | Cohort Study | *Pediatric Endocrinology Reviews* | Spontaneous growth and effect of early calcitriol + phosphate therapy in 127 XLH patients from 49 centres; highlights importance of early initiation and consistent monitoring |
+|------|-----|------|------|---------|
+| [39181153](https://pubmed.ncbi.nlm.nih.gov/39181153/) | 2024 | Review | Lancet | XLH review: PHEX defect raises FGF23, causing renal phosphate wasting and decreased calcitriol synthesis. |
+| [40295317](https://pubmed.ncbi.nlm.nih.gov/40295317/) | 2025 | Review | Calcif Tissue Int | Diagnosis and therapy of XLH. |
+| [30454743](https://pubmed.ncbi.nlm.nih.gov/30454743/) | 2019 | Review | Pediatr Clin North Am | Conventional treatment is phosphate plus calcitriol, requiring monitoring for adverse effects. |
+| [26813507](https://pubmed.ncbi.nlm.nih.gov/26813507/) | 2016 | Review | Clin Calcium | FGF23-related rickets is treated with active vitamin D and phosphorus; does not target the underlying defect. |
+| [3839245](https://pubmed.ncbi.nlm.nih.gov/3839245/) | 1985 | Clinical study | J Clin Invest | High-dose calcitriol plus phosphorus in five XLH patients, aimed at healing osteomalacia. |
+| [6252463](https://pubmed.ncbi.nlm.nih.gov/6252463/) | 1980 | Clinical study | N Engl J Med | 11 children with vitamin D-resistant rickets; calcitriol raised circulating levels and increased intestinal phosphate absorption. |
+| [29292875](https://pubmed.ncbi.nlm.nih.gov/29292875/) | 2017 | Cohort | Pediatr Endocrinol Rev | Early calcitriol and phosphate therapy in 127 XLH patients from 49 centres. |
+| [9316301](https://pubmed.ncbi.nlm.nih.gov/9316301/) | 1997 | Review | Acta Paediatr Jpn | Combined phosphate and calcitriol is the best current approach; complications include hypercalcemia, nephrocalcinosis and hyperparathyroidism. |
+
+No randomised controlled trials were retrieved.
 
 ---
 
 ## Singapore Market Information
 
-Calcitriol is currently **not registered** in Singapore. No licensed products or approved indication texts are available in the HSA regulatory database.
-
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---|---|---|---|
-| — | Not registered | — | No Singapore regulatory data available |
-
-> **International reference**: Calcitriol is registered and commercially available in multiple markets under brand names including **Rocaltrol®** (Roche) in oral capsule form (0.25 µg, 0.5 µg) and intravenous solution for haemodialysis patients. Registration in Singapore would require a full product registration application to the Health Sciences Authority (HSA) under the Therapeutic Products Regulations.
+|---------|------|------|-----------|
+| SIN13449P | MEDITROL | Capsule, liquid filled | Not listed |
+| SIN12258P | RASPUTIN SOFT CAPSULE 0.25 mcg | Capsule, liquid filled | Not listed |
+| SIN03865P | ROCALTROL CAPSULE 0.25 mcg | Capsule, liquid filled | Not listed |
+| SIN12160P | SILKIS OINTMENT 3 mcg/g | Ointment | Not listed |
 
 ---
 
@@ -135,35 +135,23 @@ Calcitriol is currently **not registered** in Singapore. No licensed products or
 
 Please refer to the package insert for safety information.
 
-> **Supplementary note from published literature** (not from Singapore regulatory records; formal review required):
-> - **Hypercalcaemia**: The principal dose-limiting toxicity of calcitriol; requires routine monitoring of serum total and ionised calcium, especially during dose escalation
-> - **Nephrocalcinosis / Nephrolithiasis**: Particularly relevant in hypophosphatemic rickets treatment contexts; renal ultrasound monitoring recommended every 6–12 months
-> - **PTH over-suppression**: Excess calcitriol may cause adynamic bone disease via oversuppression of PTH; monitor intact PTH periodically
-> - **Drug interaction consideration**: Thiazide diuretics may potentiate hypercalcaemia risk; corticosteroids may partially antagonise calcitriol effects on intestinal calcium absorption
-
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails** (Hereditary Hypophosphatemic Rickets, Ranks 7–8)
+**Decision: Hold**
 
 **Rationale:**
-Calcitriol combined with phosphate supplementation is the established conventional treatment for hereditary hypophosphatemic rickets (particularly XLH), endorsed by multiple Tier-1 clinical guidelines including a 2024 *Lancet* systematic review; an active Phase 1 monotherapy trial (NCT03748966) and a Phase 4 dosing optimisation trial (NCT03820518) both directly evaluate calcitriol in this indication, confirming ongoing clinical relevance even in the era of burosumab.
+The top-ranked prediction is an obsolete ontology term with no trials or literature, so its high score is most likely a graph artifact and cannot support a decision. Calcitriol is already established in hypophosphatemic rickets (L3, Proceed with Guardrails), but this is close to standard care rather than new repurposing. Safety and original-indication data are also missing.
 
 **To proceed, the following is needed:**
+- HSA package insert warnings and contraindications (blocking for safety screening)
+- Original approved indications and the mechanism of action from DrugBank
+- Confirmation that the obsolete-term prediction is a knowledge-graph artifact, and re-prioritisation of the candidate list around rickets and related disorders
+- For hypophosphatemic rickets, results from NCT03748966 and NCT03820518, and monitoring of calcium, phosphate, PTH and urinary calcium, with screening for nephrocalcinosis and hyperparathyroidism
+- For vitamin D-dependent rickets and renal tubular acidosis, prospective data and stratification by disease subtype
 
-- **[Blocking]** Obtain formal HSA-approved package insert data for Singapore market registration, including approved warnings, contraindications, and product monograph (currently absent — identified as a blocking data gap DG001)
-- **[High Priority]** Complete DrugBank MOA documentation query for calcitriol (DB00136) to formally characterise VDR-mediated mechanism for regulatory submissions (data gap DG002)
-- **[Evidence Gap]** Re-query clinical trial and literature databases for Rank 1 indication using current ICD E55 terminology ("Vitamin D deficiency") rather than the obsolete ontology term, to accurately capture existing evidence
-- **[Regulatory]** Initiate HSA product registration application for calcitriol in Singapore (oral capsule and/or IV formulation); currently no locally registered product
-- **[Safety Protocol]** Develop Singapore-specific monitoring protocol: serum calcium and phosphate (monthly during dose titration, then quarterly), intact PTH (every 6 months), renal ultrasound for nephrocalcinosis (every 12 months), 24-hour urinary calcium
-- **[Dose Optimisation]** Await completion of NCT03748966 (calcitriol monotherapy, XLH) and NCT03820518 (dose comparison, Phase 4) results before finalising dosing recommendations for Singapore clinical practice
-
-> **Research Priority Note**: Indications at Ranks 4 and 5 (acromesomelic dysplasia, craniofacial conodysplasia) are rated Hold (L5) and should not be advanced without new mechanistic or clinical evidence. Ranks 3 and 6 (familial isolated hypoparathyroidism, Dahlberg-Borer-Newcomer syndrome) represent mechanistically valid but evidence-sparse applications; these merit targeted literature searches under current disease terminology before further evaluation.
-
----
-
-*This report is generated for research reference purposes only and does not constitute medical advice. Drug repurposing candidates require clinical validation before application.*
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

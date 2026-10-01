@@ -29,78 +29,68 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Zinc Gluconate: From Zinc Supplementation to Anemia Of Prematurity
+# Zinc Gluconate: From a Zinc Infusion Product to Anemia of Prematurity
 
 ## One-Sentence Summary
 
-> Zinc gluconate is a mineral supplement whose formal registered indication is not available in the current Singapore regulatory dataset.
-> The TxGNN model predicts it may be effective for **Anemia of Prematurity**,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications** — it is a pure knowledge-graph signal with no direct evidence.
-
----
+Zinc gluconate is a zinc salt, registered in Singapore as a concentrate for solution for infusion (1 mg/mL).
+The TxGNN model predicts it may be effective for **Anemia of Prematurity**, but this is a model prediction only.
+There are currently **0 clinical trials** and **0 publications** supporting this specific direction.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not available — no Singapore registration record found (drug is not currently marketed) |
-| Predicted New Indication | Anemia of Prematurity |
+|------|------|
+| Predicted New Indication | Anemia of prematurity |
 | TxGNN Prediction Score | 99.94% |
-| Evidence Level | L5 |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available for zinc gluconate. Based on general pharmacological knowledge, zinc is a cofactor for numerous enzymes relevant to red blood cell physiology (e.g., carbonic anhydrase, superoxide dismutase), which could theoretically intersect with pathways involved in erythropoiesis and premature infant hematology.
+Currently, detailed mechanism of action data is not available for this drug. Zinc is an essential trace element. It supports erythropoiesis (red blood cell production) and the function of heme-related enzymes, so a link to anemia is biologically conceivable.
 
-However, per the model's own rationale: *"Zinc is a cofactor for multiple enzymes related to erythropoiesis (e.g., carbonic anhydrase, SOD), and theoretically may influence hematopoietic function, but no clinical trial or literature directly supports zinc gluconate for anemia of prematurity. The high TxGNN score merely reflects topological proximity between zinc and blood-system nodes in the knowledge graph, not mechanistic evidence."*
-
-This candidate should therefore be treated as a hypothesis-generating signal only, not as a mechanistically or clinically substantiated repurposing opportunity.
-
----
+However, this is a general nutritional role, not a mechanism specific to anemia of prematurity. There is also a safety tension. High-dose zinc can impair copper absorption and cause copper-deficiency anemia, which is a particular concern in preterm infants. The high TxGNN score (99.94%) therefore reflects knowledge-graph proximity rather than demonstrated clinical benefit.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Zinc gluconate has no active Singapore registration records (0 licenses on file); the product is currently listed as not marketed.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN16768P | ZINC AGUETTANT CONCENTRATE FOR SOLUTION FOR INFUSION 1 MG/ML (Laboratoire AGUETTANT) | Infusion, solution concentrate | Not listed in the registration record |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Clinical concern for this prediction**: High-dose zinc can reduce copper absorption and lead to copper-deficiency anemia. This is directly relevant to preterm infants.
+- **Drug Interactions**: No interaction records were found in the queried source.
 
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction for anemia of prematurity is evidence level L5 (model prediction only) — there are zero clinical trials and zero publications, and the mechanistic link is acknowledged by the model itself as unsubstantiated topological proximity rather than real biological evidence.
+The prediction has no supporting trials or publications (L5). The general role of zinc in blood formation does not establish efficacy in anemia of prematurity. The copper-deficiency risk in preterm infants could also work against the indication.
 
 **To proceed, the following is needed:**
-- Mechanism of action (MOA) data from DrugBank (currently a blocking data gap, DG002)
-- Regulatory safety label/warnings and contraindications data (blocking data gap DG001 — needed before any S1 safety assessment)
-- Preclinical or clinical studies specifically evaluating zinc supplementation in anemia of prematurity
-- Singapore market/registration data, since the drug is currently not marketed locally
+- The package insert warnings and contraindications from the HSA website (a blocking gap for safety screening)
+- Mechanism of action data for zinc gluconate (for example, from DrugBank)
+- Published or registered human studies of zinc in preterm infants, with copper status and anemia outcomes
+- A route and dose compatibility check, since the registered product is an infusion concentrate
 
-**Note:** Among the 10 candidates generated for this drug, rank #2 ("injury," evidence level L3, decision stage S1, recommendation "Research Question") has substantially more supporting evidence, including an RCT on zinc + vitamin C in COVID-19 patients (NCT04558424) and multiple animal/mechanistic studies on tissue-protective effects. If prioritizing this drug for further review, the "injury" indication is a more evidence-backed starting point than "anemia of prematurity."
+Other predicted indications for this drug (such as "injury" and "cell proliferation disorder") currently have only preclinical or indirect evidence. They are research questions, not decision-ready candidates.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

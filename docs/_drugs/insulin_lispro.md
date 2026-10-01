@@ -33,73 +33,73 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Insulin lispro is a rapid-acting insulin analog widely used for glycemic control in type 1 and type 2 diabetes mellitus.
-The TxGNN model predicts it may be effective for **Autoimmune Oophoritis**,
-with **0 clinical trials** and **0 publications** currently supporting this direction. Evidence support is limited entirely to model prediction.
-
----
+Insulin lispro is a rapid-acting insulin analogue used to control blood glucose in diabetes mellitus.
+The TxGNN model predicts it may be effective for **autoimmune oophoritis**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction.
+It is a graph-based prediction only, with no direct mechanistic rationale.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Diabetes Mellitus (Type 1 & Type 2) |
-| Predicted New Indication | Autoimmune Oophoritis |
+|------|------|
+| Original Indication | Diabetes mellitus (rapid-acting insulin analogue; the Singapore registration records provided contain no indication text) |
+| Predicted New Indication | Autoimmune oophoritis |
 | TxGNN Prediction Score | 99.78% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 3 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on established pharmacological knowledge, Insulin lispro is a rapid-acting analog of human insulin (Lys(B28), Pro(B29) substitution) that binds insulin receptors on target tissues, facilitating glucose uptake in muscle and adipose tissue while suppressing hepatic glucose output. Its altered amino acid sequence at the B-chain terminus reduces self-aggregation, enabling faster absorption compared to regular human insulin.
+Detailed mechanism of action data is not available in the Evidence Pack. Based on known information, insulin lispro is a rapid-acting insulin analogue that acts on the insulin receptor. Its efficacy in glycaemic control in diabetes is well established.
 
-Autoimmune oophoritis is a rare autoimmune endocrinopathy characterised by lymphocytic infiltration of the ovaries, often co-occurring with other organ-specific autoimmune conditions — most notably type 1 diabetes mellitus, Addison's disease, and autoimmune thyroiditis (autoimmune polyglandular syndromes Type I and II). This comorbidity pattern likely explains the high TxGNN score: the model detects shared "autoimmune endocrine organ destruction" network nodes connecting type 1 diabetes (insulin's primary indication) to oophoritis via polyglandular autoimmune pathways.
-
-However, this is a co-occurrence relationship, not a therapeutic one. Insulin itself exerts no known immunomodulatory activity directed at ovarian tissue. The TxGNN prediction appears to reflect disease network topology rather than a direct mechanism of action. Biological plausibility for insulin lispro as a treatment for autoimmune oophoritis is currently absent.
-
----
+The link to autoimmune oophoritis is weak. Autoimmune oophoritis is an autoimmune disease of the ovary, and insulin has no established immunomodulatory role in it. The very high TxGNN score is more likely a knowledge-graph artefact, possibly driven by the co-occurrence of diabetes with autoimmune polyendocrine conditions. This prediction should not be read as a genuine repurposing signal without independent evidence.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Insulin lispro currently has no HSA-registered products in Singapore (0 authorisations on record).
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN13719P | HUMALOG KWIKPEN 100 units/ml | Injection | Lilly France / Eli Lilly Italia S.P.A. |
+| SIN11227P | HUMALOG MIX 25 Suspension for Injection 100 iu/ml | Injection | Lilly France SAS / Eli Lilly Italia S.P.A. |
+| SIN11171P | HUMALOG MIX25 KWIKPEN 100 units/ml | Injection | Lilly France SA / Eli Lilly Italia S.P.A. |
 
----
+## Other Predicted Indications (Context)
+
+None of the other nine top-ranked predictions has any clinical trial. Two of them stand out:
+
+- **Pancreatic agenesis** (score 99.09%, evidence level L4, "Research Question"): This is the most plausible candidate. Absolute insulin deficiency makes exogenous insulin physiologically appropriate, but this is standard replacement therapy rather than a novel repurposing effect. The only literature retrieved covers type 2 diabetes ([11727406](https://pubmed.ncbi.nlm.nih.gov/11727406/), [12150359](https://pubmed.ncbi.nlm.nih.gov/12150359/)), so it supports the indication only indirectly.
+- **Localized lipodystrophy conditions** (drug-induced, centrifugal, pressure-induced, idiopathic): These are likely safety signals rather than therapeutic opportunities. Injection-site lipodystrophy is a recognized adverse effect of subcutaneous insulin.
+
+The remaining predictions (thiamine-responsive dysfunction syndrome, focal and classic stiff person syndrome, opsismodysplasia) reflect comorbid diabetes or indirect pathway links. Insulin would treat the diabetes only, not the underlying disease.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Injection-site lipodystrophy**: Lipoatrophy and lipohypertrophy are recognized adverse effects of subcutaneous insulin, including analogues. This matters for any indication involving localized fat loss.
 
----
+For other safety information, including warnings, contraindications and drug interactions, please refer to the package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score of 99.78% for autoimmune oophoritis reflects autoimmune disease network co-occurrence with type 1 diabetes rather than any direct mechanistic link between insulin lispro and ovarian autoimmune inflammation. With zero clinical trials, zero supporting literature, no approved Singapore registration, and no established biological rationale, this candidate does not meet the threshold for further development at this time.
+The top prediction, autoimmune oophoritis, has no supporting trials or literature and no plausible mechanism, so it is a model output only (L5). Insulin lispro is already marketed in Singapore for its original use, so the Hold applies to the new-indication hypothesis, not to the product itself.
 
 **To proceed, the following is needed:**
-- Mechanism of action data (MOA) for insulin lispro from DrugBank API to confirm or exclude any immunomodulatory properties
-- Review of autoimmune polyglandular syndrome literature to assess whether insulin therapy incidentally influences oophoritis progression
-- Preclinical evidence establishing biological plausibility of insulin signalling in ovarian autoimmune pathology
-- Safety package: full package insert warnings, contraindications, and drug interaction profile (currently unavailable)
-- HSA regulatory assessment if future evidence warrants Singapore market entry
+- HSA package insert data (warnings, contraindications, approved indication text)
+- Detailed mechanism of action data
+- Systematic literature search for autoimmune oophoritis
+- Systematic retrieval of neonatal diabetes and pancreatic agenesis case literature, since this is the only candidate with a plausible, if standard, replacement rationale
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

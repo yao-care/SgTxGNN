@@ -3,14 +3,14 @@ layout: default
 title: Chromium
 parent: Medium Evidence (L3-L4)
 nav_order: 246
-evidence_level: L3
+evidence_level: L4
 indication_count: 10
 ---
 
 # Chromium
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,89 +29,87 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Chromium: From No Established Indication to Osteoarthritis
+# Chromium: From Trace Element Infusion Component to Osteoarthritis
 
 ## One-Sentence Summary
 
-Chromium (DB11136) is an essential trace mineral with no currently registered drug indication in Singapore; as a dietary supplement, it is most commonly associated with supporting insulin sensitivity and glucose metabolism.
-The TxGNN model predicts it may have therapeutic value for **Osteoarthritis**, with **1 terminated Phase 2 trial** and **20 retrieved publications** — the vast majority of which concern chromium as a wear product from metal joint implants rather than as a therapeutic agent.
-This distinction represents a fundamental evidence quality issue, and the overall recommendation is **Hold** pending clarification of the terminated trial and a dedicated mechanistic evidence base.
+Chromium is a trace element that in Singapore is registered as a component of a parenteral (infusion) trace element concentrate, and the record gives no approved indication text.
+The TxGNN model predicts it may be useful for **osteoarthritis**, but the **48 clinical trials** and **20 publications** retrieved are almost all about chromium released from metal joint implants (exposure and toxicity), not chromium as a treatment.
+Evidence for this prediction is therefore weak.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No registered drug indication |
+|------|------|
+| Original Indication | Not stated in the Singapore registration record |
 | Predicted New Indication | Osteoarthritis |
 | TxGNN Prediction Score | 98.68% |
-| Evidence Level | L3 |
-| Singapore Market Status | ✗ Not marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
-## Why Is This Prediction Reasonable?
+## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for Chromium is not available in this Evidence Pack. Based on known pharmacology, trivalent chromium (Cr³⁺) is an essential trace mineral widely studied as a dietary supplement. Its proposed biological activity centres on potentiating insulin receptor tyrosine kinase signalling — an effect attributed to a low-molecular-weight chromium-binding oligopeptide (LMWCr). By improving insulin sensitivity, Cr³⁺ may theoretically dampen systemic low-grade inflammation mediated through NF-κB and downstream pro-inflammatory cytokines (TNF-α, IL-6), which are implicated in cartilage degradation and synovitis in osteoarthritis.
+Currently, detailed mechanism of action data is not available. Chromium is a trace element used in nutrition, and the Singapore product is an infusion concentrate. No therapeutic mechanism for chromium in osteoarthritis is established in the supplied data.
 
-However, there is a critical structural problem with this TxGNN prediction: **the high score likely reflects reverse causation bias in the knowledge graph**. The overwhelming majority of trials and publications linking chromium to osteoarthritis arise from metal-on-metal (MoM) orthopaedic implant research, where cobalt-chromium alloy components release Cr³⁺/Cr⁶⁺ ions as wear debris — causing harm to joint tissue, not treating it. Chromium appears alongside osteoarthritis in the literature primarily as a *contaminant and potential toxin*, not as a beneficial agent.
-
-The only directly relevant therapeutic trial identified (NCT00759993, Phase 2) was terminated before completion. The reason for termination is unknown from available records, which constitutes the most important unanswered question for this indication: whether stopping was due to safety signals, lack of efficacy, or administrative/funding issues will entirely determine the viability of this repurposing hypothesis.
+The high TxGNN score (98.68%) most likely reflects knowledge-graph associations between chromium and joint disease. The retrieved evidence suggests these links come largely from chromium ions released by cobalt-chromium implants in patients who have osteoarthritis, and from chromium measured in bone and cartilage of osteoarthritis patients. That describes exposure, not treatment benefit. The prediction is therefore best treated as a model-generated hypothesis, not a supported therapeutic link.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|-----------|--------------|
-| [NCT00759993](https://clinicaltrials.gov/study/NCT00759993) | Phase 2 | **Terminated** | 60 | Chromium picolinate for prevention of serotonergic medication-induced weight gain in psychiatric inpatients; the only trial directly testing chromium supplementation in a clinical context — terminated early, reason unknown |
-| [NCT00862511](https://clinicaltrials.gov/study/NCT00862511) | N/A | Completed | 120 | Serum chromium ion monitoring after coated vs. uncoated total knee arthroplasty — implant corrosion monitoring study, not chromium therapy |
-| [NCT02196792](https://clinicaltrials.gov/study/NCT02196792) | N/A | Active, not recruiting | 100 | Polyethylene wear and metal ion levels in total hip replacement — monitoring study |
-| [NCT04585022](https://clinicaltrials.gov/study/NCT04585022) | N/A | Terminated | 75 | Cr/Co ion concentrations in MoM hip arthroplasty at 5-year follow-up — terminated |
-| [NCT00561600](https://clinicaltrials.gov/study/NCT00561600) | N/A | Completed | 265 | DePuy ASR-XL vs. Pinnacle hip system — involves voluntarily recalled implant; Cr ions monitored as safety signal |
-| [NCT05357378](https://clinicaltrials.gov/study/NCT05357378) | N/A | Recruiting | 288 | HIT Reverse Hip Replacement System safety and effectiveness — new device safety study |
-| [NCT03382652](https://clinicaltrials.gov/study/NCT03382652) | N/A | Completed | 83 | Continuum Metal Bearing System post-market surveillance — implant survival monitoring |
-| [NCT05815953](https://clinicaltrials.gov/study/NCT05815953) | N/A | Active, not recruiting | 60 | Polarstem vs. Corail femoral stem micromotion comparison using radiostereometry — implant comparison |
-| [NCT00586781](https://clinicaltrials.gov/study/NCT00586781) | Phase 3 | Completed | 21 | STAR ankle replacement bilateral safety study — ankle device trial; chromium present only as implant material |
-| [NCT04058743](https://clinicaltrials.gov/study/NCT04058743) | N/A | Terminated | 8 | Nickel sensitivity and TKA outcomes — metal hypersensitivity study, not chromium supplementation |
+None of the 48 registered trials tests chromium as a treatment for osteoarthritis. Most are orthopaedic device studies (knee and hip implants) that measure chromium and cobalt ion levels as a safety outcome. The most relevant entries are shown below.
 
-> ⚠️ **Evidence quality alert**: With the sole exception of NCT00759993, all trials listed above study chromium as a component of metal implants being monitored for safety — not as a therapeutic intervention. The evidence base for chromium *supplementation* in osteoarthritis is essentially absent.
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT00759993](https://clinicaltrials.gov/study/NCT00759993) | Phase 2 | Terminated | 60 | Chromium picolinate to prevent weight gain from serotonergic medications in psychiatric inpatients. It is the only chromium-intervention trial for this prediction, and it does not target osteoarthritis. |
+| [NCT00862511](https://clinicaltrials.gov/study/NCT00862511) | N/A | Completed | 120 | Serum chromium, cobalt, molybdenum and nickel after coated vs uncoated knee prostheses. Exposure monitoring. |
+| [NCT00962351](https://clinicaltrials.gov/study/NCT00962351) | N/A | Completed | 120 | Blood and urine cobalt, chromium and titanium after metal-on-metal vs metal-on-polyethylene hip replacement. |
+| [NCT04585022](https://clinicaltrials.gov/study/NCT04585022) | N/A | Terminated | 75 | Whole-blood chromium and cobalt after two metal-on-metal hip designs. Exposure monitoring. |
+| [NCT00911599](https://clinicaltrials.gov/study/NCT00911599) | N/A | Completed | 60 | Metal ion levels in an all cobalt-chrome hip vs a metal-on-polyethylene hip. |
+| [NCT00293774](https://clinicaltrials.gov/study/NCT00293774) | N/A | Completed | 1632 | Metal-on-metal hip resurfacing vs conventional total hip replacement for hip joint degeneration. Device comparison. |
+| [NCT01493141](https://clinicaltrials.gov/study/NCT01493141) | N/A | Completed | 46 | Systemic effects of chronic metal ion exposure from metal-on-metal hip resurfacing. |
+| [NCT01437124](https://clinicaltrials.gov/study/NCT01437124) | N/A | Completed | 83 | Metal ion levels and chromosome abnormalities after ceramic-on-metal hip replacement. |
+| [NCT00586781](https://clinicaltrials.gov/study/NCT00586781) | Phase 3 | Completed | 21 | Ankle replacement device safety study. The "Phase 3" label refers to a device, not a chromium drug. |
+| [NCT04058743](https://clinicaltrials.gov/study/NCT04058743) | N/A | Terminated | 8 | Nickel sensitivity and outcomes after knee replacement. Metal hypersensitivity, not chromium therapy. |
 
 ---
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [34628351](https://pubmed.ncbi.nlm.nih.gov/34628351/) | 2021 | Observational | EBioMedicine | Differential synovial fibroblast subsets at painful vs. non-painful sites in knee OA — OA pathophysiology; no chromium link |
-| [34724103](https://pubmed.ncbi.nlm.nih.gov/34724103/) | 2023 | Cohort | Arch Orthop Trauma Surg | Co/Cr ion levels after MoM hip revision with dual-mobility liners — monitoring of harmful ions |
-| [37394959](https://pubmed.ncbi.nlm.nih.gov/37394959/) | 2023 | Cohort | Bone Joint J | Elevated serum Cr associated with worse Harris Hip Score and HOOS in ASR resurfacing patients — high Cr is detrimental |
-| [36945025](https://pubmed.ncbi.nlm.nih.gov/36945025/) | 2023 | Observational | J Orthop Surg Res | Cr/Co ion levels and oxidative stress markers in modular hip arthroplasty — ions linked to oxidative damage |
-| [27294138](https://pubmed.ncbi.nlm.nih.gov/27294138/) | 2016 | Cross-sectional | BioMed Res Int | Environmental Cr concentrations in cartilage and bone of OA patients in NW Poland — environmental exposure context |
-| [33550449](https://pubmed.ncbi.nlm.nih.gov/33550449/) | 2022 | Cohort | Knee Surg Sports Traumatol Arthrosc | Hypoallergenic vs. CoCr unicompartmental knee arthroplasty — return-to-sport outcomes in metal-sensitive patients |
-| [36545926](https://pubmed.ncbi.nlm.nih.gov/36545926/) | 2022 | RCT | Acta Orthop | Cemented vs. cementless dual mobility cups: low Co-Cr serum levels at 6 years — safety finding confirming low ion release |
-| [35926884](https://pubmed.ncbi.nlm.nih.gov/35926884/) | 2022 | Cohort | Can J Surg | Birmingham Hip Resurfacing: whole blood Cr/Co at 1 year vs. 10 years — long-term ion level tracking |
-| [37652450](https://pubmed.ncbi.nlm.nih.gov/37652450/) | 2023 | Registry/Cohort | Bone Joint J | Birmingham Hip Resurfacing 20-year survivorship — long-term implant outcomes |
-| [22325959](https://pubmed.ncbi.nlm.nih.gov/22325959/) | 2012 | Observational | J Arthroplasty | Co/Cr ion release after large-diameter MoM THA — significant serum ion elevation observed post-implantation |
+All retrieved publications are observational or laboratory studies of metal ion release from implants. None reports a therapeutic benefit of chromium in osteoarthritis.
 
-> ⚠️ **Evidence quality alert**: None of the retrieved publications directly investigate trivalent chromium supplementation as a treatment for osteoarthritis. All literature is from the metal implant monitoring domain. The reverse causation problem identified in the clinical trials is equally present in the literature.
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [40090766](https://pubmed.ncbi.nlm.nih.gov/40090766/) | 2025 | Meta-analysis | Orthopaedic Surgery | Compares safety and efficacy of hip resurfacing vs total hip replacement. Implant-focused. |
+| [34724103](https://pubmed.ncbi.nlm.nih.gov/34724103/) | 2023 | Cohort | Arch Orthop Trauma Surg | Whether blood cobalt and chromium levels normalise after revising failed metal-on-metal hips. |
+| [37394959](https://pubmed.ncbi.nlm.nih.gov/37394959/) | 2023 | Cohort | Bone Joint J | Serum cobalt and chromium as predictors of patient-reported outcomes after ASR hip resurfacing. |
+| [36945025](https://pubmed.ncbi.nlm.nih.gov/36945025/) | 2023 | Cohort | J Orthop Surg Res | Chromium and cobalt ions and oxidative stress markers after hip arthroplasty with modular metal heads. |
+| [36545926](https://pubmed.ncbi.nlm.nih.gov/36545926/) | 2022 | Cohort | Acta Orthop | Randomised radiostereometry study of dual mobility cups: low serum cobalt and chromium at 6 years. |
+| [35926884](https://pubmed.ncbi.nlm.nih.gov/35926884/) | 2022 | Cohort | Can J Surg | Whole-blood metal ions at 1 year vs 10 years after Birmingham hip resurfacing for osteoarthritis. |
+| [27294138](https://pubmed.ncbi.nlm.nih.gov/27294138/) | 2016 | Observational | BioMed Res Int | Vanadium, chromium and calcium in cartilage and bone of osteoarthritis patients, and environmental influences. |
+| [22325959](https://pubmed.ncbi.nlm.nih.gov/22325959/) | 2012 | Cohort | J Arthroplasty | Cobalt and chromium release after large-diameter metal-on-metal hip replacement. |
+| [21446789](https://pubmed.ncbi.nlm.nih.gov/21446789/) | 2011 | In vitro | J Immunotoxicol | Effects of chromium and cobalt ions on human lymphocytes. A toxicity signal. |
+| [19483243](https://pubmed.ncbi.nlm.nih.gov/19483243/) | 2009 | Cross-sectional | J Bone Joint Surg Br | Circulating cobalt and chromium from metal-on-metal hips associated with CD8+ T-cell lymphopenia. A harm signal. |
 
 ---
 
 ## Singapore Market Information
 
-Chromium (DB11136) is currently **not registered** as a pharmaceutical product in Singapore. No marketing authorizations or product licences were identified. It may be available as an unregulated dietary supplement, but this is outside the scope of drug registration.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN14341P | Nutritrace Concentrate for solution for infusion (B. Braun Melsungen AG) | Infusion, solution concentrate | Not stated in the record |
 
 ---
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-> **Important valence-state distinction**: Hexavalent chromium (Cr⁶⁺) is a well-established human carcinogen (IARC Group 1) and nephrotoxin. Any repurposing development must unambiguously specify **trivalent chromium (Cr³⁺)**, which has a substantially different and more favourable safety profile. Formulation, dose, and valence state must be clearly defined before any clinical development proceeds.
 
 ---
 
@@ -120,15 +118,17 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-Despite a high TxGNN prediction score (98.68%), the evidence base for chromium supplementation in osteoarthritis is critically undermined by reverse causation bias — the knowledge graph signal is driven by metal implant monitoring data, not therapeutic research. The sole directly relevant clinical trial was terminated early for unknown reasons, and no completed mechanistic or efficacy studies in OA are available.
+The TxGNN score is high, but the supporting evidence is exposure and toxicity data from metal implants, not evidence of chromium benefit in osteoarthritis. No trial tests chromium as an osteoarthritis therapy, and the publications include immune and toxicity signals.
 
 **To proceed, the following is needed:**
-- **Clarify termination reason** for NCT00759993: contact ClinicalTrials.gov, the FDA, or the trial investigators to determine whether termination reflected safety concerns, efficacy failure, or administrative/funding issues
-- **Commission a dedicated systematic review** on trivalent chromium supplementation in musculoskeletal inflammation, clearly excluding metal implant literature
-- **Obtain mechanistic data (MOA)** specifically addressing trivalent chromium's effect on chondrocyte metabolism, cartilage matrix, and synovial inflammation in OA models
-- **Evaluate the Rank 3 indication (Rheumatoid Arthritis)** as a higher-priority entry point: a completed Phase 2/3 RCT comparing trivalent chromium vs. baricitinib (PMID 39030450, NCT05545020) already exists with L2 evidence and a "Proceed with Guardrails" recommendation — this represents a more viable and better-supported repurposing candidate for chromium
-- **Obtain HSA/TFDA prescribing information** to assess formal safety warnings and contraindications for chromium-containing preparations
-- **Define the proposed dosage form and administration route** for any future OA indication, as no Singapore-registered formulations currently exist
+- Package insert warnings and contraindications from HSA, which are required before any safety screening
+- Mechanism of action data (for example from DrugBank) and a plausible pathway linking chromium to osteoarthritis
+- Preclinical or early clinical studies of chromium supplementation in osteoarthritis
+- The approved indication text for the Singapore registration
+
+**A better-supported direction in the same pack:** for **rheumatoid arthritis** (TxGNN rank 3), there is a completed Phase 2/3 trial of trivalent chromium ([NCT05545020](https://clinicaltrials.gov/study/NCT05545020), n=60) with a published report against baricitinib ([PMID 39030450](https://pubmed.ncbi.nlm.nih.gov/39030450/)). A rat study also supports it ([PMID 35829940](https://pubmed.ncbi.nlm.nih.gov/35829940/)). The pack grades this L2 with a "Research Question" recommendation. It is a small, single-group signal that still needs independent replication and long-term safety data, but it is stronger than the osteoarthritis prediction.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -29,100 +29,79 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Desmopressin: From von Willebrand Disease & Mild Haemophilia A to Congenital Prothrombin Deficiency
+# Desmopressin: From Antidiuretic Uses to Congenital Prothrombin Deficiency
 
 ## One-Sentence Summary
 
-Desmopressin (DDAVP) is a synthetic vasopressin analogue approved globally for von Willebrand disease, mild haemophilia A, and diabetes insipidus, though it is not currently registered in Singapore; its haemostatic mechanism centres on releasing von Willebrand factor (vWF) and Factor VIII from vascular endothelial cells.
-The TxGNN model predicts it may have utility in **congenital prothrombin deficiency** with a prediction score of **99.70%**, however no clinically relevant trials exist and only **4 publications** provide highly indirect supporting evidence for this specific indication.
-At this stage, the prediction is best classified as a **research question** requiring mechanistic validation before any clinical consideration.
-
----
+Desmopressin is a synthetic vasopressin analogue marketed in Singapore as Minirin and Nocdurna, and it is also widely used to release von Willebrand factor (VWF) and factor VIII (FVIII) in some bleeding disorders.
+The TxGNN model predicts it may be effective for **congenital prothrombin deficiency**, but only **1 clinical trial** (unrelated to desmopressin) and **4 publications** (reviews and case reports, none showing benefit for this disease) are linked to this prediction.
+The evidence is weak, and the mechanistic link is doubtful.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not registered in Singapore; internationally approved for von Willebrand disease, mild haemophilia A, and central diabetes insipidus |
+|------|------|
+| Original Indication | Not stated in the HSA registry text. Desmopressin is generally used for diabetes insipidus, nocturnal enuresis and nocturia, and mild hemophilia A/von Willebrand disease. |
 | Predicted New Indication | Congenital prothrombin deficiency |
 | TxGNN Prediction Score | 99.70% |
 | Evidence Level | L4 |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Hold (Research Question) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 7 |
+| Recommended Decision | Hold |
 
----
+## Why is This Prediction Reasonable?
 
-## Why Is This Prediction Reasonable?
+Desmopressin acts on V2 receptors to release VWF and FVIII from endothelial stores. This is why it is used in mild hemophilia A and some types of von Willebrand disease. Detailed mechanism-of-action data from DrugBank is not available in this evidence pack, so the description here relies on the pack's mechanistic assessment.
 
-Desmopressin acts on V2 receptors expressed on vascular endothelial cells, triggering exocytosis of Weibel-Palade bodies and releasing large multimeric vWF and co-stored Factor VIII into the circulation. The resulting surge in vWF enhances platelet adhesion to damaged vessel walls (primary haemostasis), while the rise in Factor VIII accelerates the intrinsic coagulation cascade (secondary haemostasis). This dual haemostatic effect has been validated across multiple bleeding disorders — most robustly in von Willebrand disease Type 1 and mild haemophilia A — and gives desmopressin a broad pharmacological footprint in coagulopathies.
-
-Congenital prothrombin deficiency (Factor II deficiency) is a rare autosomal recessive disorder that disrupts the final common coagulation pathway. Prothrombin is cleaved to thrombin by the prothrombinase complex (Factor Xa / Factor Va / Ca²⁺ / phospholipid), and thrombin is indispensable for converting fibrinogen to fibrin and consolidating the platelet plug. Critically, desmopressin has no direct capacity to supplement prothrombin synthesis or compensate for Factor II deficiency — its vWF and FVIII release pathway operates upstream and in a parallel arm of the coagulation cascade, leaving the prothrombin-thrombin axis unaffected.
-
-The TxGNN model's high-ranking prediction most plausibly reflects a network-level similarity: prothrombin deficiency co-clusters with other congenital coagulopathies in the knowledge graph, several of which do respond to desmopressin. One case report (PMID 2607619) documents DDAVP administration in combined Factor V + Factor VIII deficiency, illustrating adjunctive haemostatic value in mixed coagulopathies; however, this does not constitute evidence for isolated prothrombin deficiency. The overall mechanistic connection is indirect and speculative, and should be regarded as a hypothesis-generating signal rather than a therapeutic lead.
-
----
+Prothrombin (factor II) deficiency is a different problem. Desmopressin does not raise prothrombin, so the mechanistic link is weak. The high graph score most likely reflects the drug's many associations with other congenital coagulation factor disorders, which sit close to this disease in the knowledge graph. In short, the prediction looks like a graph-proximity effect rather than a true biological rationale.
 
 ## Clinical Trial Evidence
 
-The only retrieved trial is not relevant to this indication:
-
 | Trial Number | Phase | Status | Enrollment | Key Findings |
-|-------------|-------|--------|------------|--------------|
-| [NCT04567511](https://clinicaltrials.gov/study/NCT04567511) | Phase 4 | Recruiting | 20 | Evaluates **emicizumab** (a bispecific antibody bridging FIXa and FX) in mild haemophilia A with FVIII activity 5–30%. Study drug is not desmopressin; indication is FVIII deficiency, not prothrombin deficiency. Graded irrelevant (Grade C). |
-
-> There are currently **no registered clinical trials** evaluating desmopressin for congenital prothrombin deficiency.
-
----
+|---------|------|------|------|---------|
+| [NCT04567511](https://clinicaltrials.gov/study/NCT04567511) | Phase 4 | Recruiting | 20 | Single-arm study of emicizumab (Hemlibra) in mild hemophilia A. It does not involve desmopressin or prothrombin deficiency (relevance grade C). |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|--------------|
-| [7684674](https://pubmed.ncbi.nlm.nih.gov/7684674/) | 1993 | Narrative Review | *Drugs* | Broad review of congenital bleeding disorder management; affirms desmopressin efficacy in mild haemophilia A and vWD; does not address prothrombin deficiency |
-| [2607619](https://pubmed.ncbi.nlm.nih.gov/2607619/) | 1989 | Case Report | *Rinsho Ketsueki* | DDAVP administered to a patient with combined Factor V + Factor VIII deficiency; prolonged bleeding time partially corrected, suggesting adjunctive haemostatic benefit in mixed coagulopathies — the closest available evidence, though still mechanistically distinct from pure prothrombin deficiency |
-| [1942544](https://pubmed.ncbi.nlm.nih.gov/1942544/) | 1991 | Case Report | *Rinsho Ketsueki* | Caesarean section managed with Factor VIII concentrate replacement in combined Factor V + Factor VIII deficiency; provides clinical context for managing rare combined coagulopathies but offers no direct DDAVP data for prothrombin deficiency |
-| [21115138](https://pubmed.ncbi.nlm.nih.gov/21115138/) | 2011 | Review | *Autoimmunity Reviews* | Acquired haemophilia A due to anti-FVIII autoantibodies; covers pathophysiology and treatment; not related to congenital prothrombin deficiency |
+|------|-----|------|------|---------|
+| [7684674](https://pubmed.ncbi.nlm.nih.gov/7684674/) | 1993 | Review | Drugs | Rational treatment options for inherited bleeding disorders, mainly haemophilia A and von Willebrand disease. |
+| [21115138](https://pubmed.ncbi.nlm.nih.gov/21115138/) | 2011 | Review | Autoimmunity Reviews | Diagnosis, aetiology and treatment of acquired hemophilia A. |
+| [2607619](https://pubmed.ncbi.nlm.nih.gov/2607619/) | 1989 | Case report | Rinsho Ketsueki | DDAVP given to a patient with congenital combined factor V and VIII deficiency. |
+| [1942544](https://pubmed.ncbi.nlm.nih.gov/1942544/) | 1991 | Case report | Rinsho Ketsueki | Cesarean section managed with factor VIII concentrate in a pregnant woman with combined factor V and VIII deficiency. |
 
----
+None of these papers directly studies desmopressin in prothrombin deficiency.
 
 ## Singapore Market Information
 
-Desmopressin is **not currently registered in Singapore**. No marketing authorisations are on record with the Health Sciences Authority (HSA). There are therefore no approved indications, dosage forms, or product-specific safety warnings available through the Singapore regulatory pathway.
+Seven registrations exist in total. Five are shown below. The registry text has no approved-indication wording for these products, so that column is omitted. Other forms on record include spray and injection.
 
-> Clinicians seeking prescribing information should refer to equivalent regulatory agencies (e.g., the US FDA, EMA, or Japan PMDA) or the manufacturer's international package insert.
-
----
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN15461P | NOCDURNA ORAL LYOPHILISATE 25MCG | Orally disintegrating tablet |
+| SIN14261P | MINIRIN Oral Lyophilisate 120 mcg | Orally disintegrating tablet |
+| SIN11656P | MINIRIN TABLET 0.1 mg (Oval) | Tablet |
+| SIN14260P | MINIRIN Oral Lyophilisate 60 mcg | Orally disintegrating tablet |
+| SIN15462P | NOCDURNA ORAL LYOPHILISATE 50MCG | Orally disintegrating tablet |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
-> **Note for reviewers:** Based on the broader evidence pack, desmopressin carries a **procoagulant / pro-thrombotic signal** in specific subpopulations. In particular:
->
-> - **Type 2B von Willebrand disease** and **pseudo-von Willebrand disease (PT-VWD)**: contraindicated — desmopressin-induced release of ultra-large vWF multimers precipitates thrombocytopenia and thrombosis.
-> - **Thrombotic thrombocytopenic purpura (TTP)**: contraindicated — case reports document clinical deterioration (PMID 15499705; PMID 21921792) following DDAVP administration in TTP due to ADAMTS13 deficiency.
-> - **Inherited thrombophilia** (e.g., Factor V Leiden, Protein C/S deficiency): caution warranted — enhanced vWF multimer release may aggravate pre-existing thrombotic risk.
->
-> These signals are not specific to the prothrombin deficiency indication but are relevant to the overall safety profile of desmopressin and must be assessed before any repurposing study is designed.
-
----
-
 ## Conclusion and Next Steps
 
-**Decision: Hold (Research Question)**
+**Decision: Hold**
 
 **Rationale:**
-Despite a high TxGNN score (99.70%), the mechanistic link between desmopressin's vWF/FVIII release action and congenital prothrombin deficiency is indirect and does not address the core Factor II deficiency pathway; no clinical trials or direct literature evidence support this specific indication, and the current evidence base (L4) is insufficient to justify proceeding without foundational mechanistic work.
+The link to prothrombin deficiency is mechanistically weak, and the only trial found tests a different drug. The literature has no supporting efficacy data (evidence level L4). A high model score alone does not justify advancing this candidate.
 
 **To proceed, the following is needed:**
-
-- **Mechanistic clarification**: Determine whether enhanced primary haemostasis (via vWF-GP1b axis) or elevated FVIII could provide a clinically meaningful adjunctive haemostatic benefit in patients with prothrombin deficiency who also have concurrent vWF or FVIII involvement
-- **Literature deep-dive**: Conduct a targeted systematic search for case reports or expert opinions describing DDAVP use in congenital prothrombin deficiency (hypoprothrombinemia), particularly in perioperative or obstetric settings where prothrombin concentrate is unavailable
-- **MOA gap resolution**: Retrieve full DrugBank mechanism-of-action data (DG002) to strengthen the plausibility analysis
-- **Safety baseline**: Download and parse the TFDA/HSA equivalent package insert (DG001) to identify contraindications and warnings relevant to coagulation disorders before any clinical design
-- **Preclinical investigation**: If the mechanistic review is supportive, consider an in vitro or animal-model study in prothrombin-deficient systems to quantify any DDAVP-attributable haemostatic improvement
-- **Expert consultation**: Engage haematologists specialising in rare coagulation factor deficiencies to assess clinical plausibility and unmet need
+- HSA package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism-of-action data from DrugBank
+- Direct clinical data on desmopressin in prothrombin deficiency, if any exists
+- A review of the other predictions from this run:
+  - Primary release disorder of platelets is the most plausible (L3, Research Question), since desmopressin can shorten bleeding time in some platelet release defects.
+  - Thrombotic thrombocytopenic purpura, inherited thrombophilia and pseudo-von Willebrand disease carry harm signals and should be treated as contraindication warnings, not opportunities.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

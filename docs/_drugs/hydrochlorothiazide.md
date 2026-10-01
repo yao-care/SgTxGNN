@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Hydrochlorothiazide
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 499
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 ---
 
 # Hydrochlorothiazide
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,73 +29,76 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Hydrochlorothiazide: From Hypertension to Malignant Hypertensive Renal Disease
+# Hydrochlorothiazide: From Thiazide Diuretic Use to Malignant Hypertensive Renal Disease
 
 ## One-Sentence Summary
 
-Hydrochlorothiazide (HCTZ) is a first-generation thiazide diuretic with a decades-long track record in managing hypertension and oedema by reducing circulating blood volume.
-The TxGNN model predicts it may have utility in **Malignant Hypertensive Renal Disease** with a score of 98.42%,
-however **no clinical trials** and **no publications** currently directly support this specific indication, making the evidence base limited to mechanistic inference.
-
----
+Hydrochlorothiazide (HCTZ) is a thiazide diuretic that lowers blood pressure through salt and water excretion, and it is widely marketed in Singapore.
+The TxGNN model predicts it may be effective for **malignant hypertensive renal disease**, but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction.
+The evidence rests on model prediction alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Hypertension, oedema |
-| Predicted New Indication | Malignant Hypertensive Renal Disease |
+|------|------|
+| Original Indication | Not stated in the HSA records; HCTZ is generally used as a thiazide diuretic for hypertension and oedema |
+| Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 98.42% |
-| Evidence Level | L4 |
-| Singapore Market Status | ✗ Not marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | Research Question |
-
----
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 20 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on established pharmacological knowledge, Hydrochlorothiazide is a thiazide diuretic that inhibits the Na-Cl co-transporter (NCC) in the distal convoluted tubule of the kidney. This reduces sodium and water reabsorption, decreases circulating blood volume, and consequently lowers systemic blood pressure — a well-validated mechanism in the management of essential hypertension.
+Detailed mechanism of action data is not available in the Evidence Pack. Based on known pharmacology, HCTZ is a thiazide diuretic that lowers blood pressure through natriuresis and volume reduction. Its efficacy in ordinary hypertension is well established.
 
-Malignant hypertensive renal disease sits at the severe end of the hypertensive disease spectrum, characterised by accelerated hypertension driving acute kidney injury, fibrinoid necrosis of the renal arterioles, and rapid deterioration of renal function. The TxGNN prediction likely stems from the disease's direct mechanistic proximity to hypertension in the knowledge graph: controlling blood pressure is the cornerstone of preventing further renal damage in this condition.
+The link to malignant hypertensive renal disease is plausible on the surface, since both involve raised blood pressure and kidney effects. The high score may simply reflect HCTZ's existing use in hypertension rather than true repurposing.
 
-However, a critical clinical caveat substantially limits HCTZ's applicability here. In malignant hypertensive renal disease, renal function is typically severely compromised (eGFR often <30 mL/min/1.73 m²), at which point thiazide diuretics lose most of their diuretic and antihypertensive efficacy. Clinical practice guidelines therefore favour loop diuretics (e.g., furosemide) or intravenous agents in this acute context. This prediction represents an indirect extrapolation from hypertension rather than a disease-specific therapeutic rationale, and it carries no direct supporting trial or literature evidence.
-
----
+There are also clinical reasons for caution. Malignant hypertension with renal injury needs rapid, titratable therapy, and thiazides are not a standard agent for it.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
+## Singapore Market Information
+
+There are 20 registrations in total. The first 5 are listed below. The HSA records do not give approved indication text for these products.
+
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN01959P | HYDROZIDE TABLET 50 mg | Tablet | Atlantic Laboratories Corpn Ltd |
+| SIN00108P | DI-ERTRIDE TABLET 25 mg | Tablet | Beacons Pharmaceuticals Pte Ltd |
+| SIN03676P | APO-HYDROCHLOROTHIAZDE TABLET 25 mg | Tablet | Apotex Inc |
+| SIN03675P | APO-HYDROCHLOROTHIAZIDE TABLET 50 mg | Tablet | Apotex Inc |
+| SIN14570P | PRESARTAN H 50/12.5 FILM COATED TABLET | Tablet (film coated) | IPCA Laboratories Limited |
+
+All listed forms are oral.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
----
-
 ## Conclusion and Next Steps
 
-**Decision: Research Question**
+**Decision: Hold**
 
 **Rationale:**
-HCTZ shares a conceptual mechanistic link with malignant hypertensive renal disease through blood pressure reduction, but thiazide diuretics are pharmacologically ineffective in the setting of severely reduced renal function (eGFR <30), which is characteristic of this condition — undermining both the clinical rationale and the practical utility of this repurposing hypothesis.
+This is a prediction-only candidate (L5) with no trials or literature. The score may reflect HCTZ's known antihypertensive use, and thiazides are not a standard treatment for malignant hypertension with renal injury.
 
 **To proceed, the following is needed:**
-- Obtain and review the full package insert (including warnings, contraindications, and renal dosing adjustments) to complete the safety gap (DG001)
-- Retrieve confirmed mechanism of action data from DrugBank API to complete the MOA gap (DG002)
-- Conduct a focused literature search examining HCTZ or thiazide-class agents specifically in malignant hypertension or hypertensive emergency with renal involvement
-- Evaluate whether the prediction score reflects a genuine disease-specific signal or an artefact of the broad hypertension node connectivity in the TxGNN knowledge graph
-- If a research question is to be formalised, define an eGFR threshold for patient eligibility and pre-specify a safety monitoring plan for electrolyte imbalance and worsening renal function
+- HSA package insert warnings and contraindications (blocking for safety screening)
+- Mechanism of action data from DrugBank
+- Confirmation of the approved indications from HSA records, to test whether the prediction is true repurposing
+- Any clinical or mechanistic evidence specific to malignant hypertensive renal disease
 
-> **Disclaimer:** This report is for research reference only and does not constitute medical advice. Drug repurposing candidates require clinical validation before application.
+**Other candidates for this drug:** Two lower-ranked predictions have some indirect support: acute pulmonary heart disease (score 93.2%, L4) and chronic pulmonary heart disease (score 97.8%, L4). The support comes from heart-failure decongestion studies, including a metolazone trial (a thiazide-like drug) and the CLOROTIC add-on analysis. Both are framed as research questions. Neither tests HCTZ directly in these indications.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

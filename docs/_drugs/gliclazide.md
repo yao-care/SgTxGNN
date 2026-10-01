@@ -33,102 +33,77 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Gliclazide is a second-generation sulfonylurea, widely used for Type 2 Diabetes Mellitus by stimulating pancreatic β-cell insulin secretion.
-The TxGNN model predicts it may be effective for **Classic Stiff Person Syndrome (SPS)**,
-with a prediction score of **97.96%** — however, **no clinical trials and no published literature** currently support this direction, making this a pure computational hypothesis at this stage.
-
----
+Gliclazide is a sulfonylurea that stimulates insulin release, and it is used to treat type 2 diabetes. This use comes from the drug's class, because the Singapore licence text provided does not state an indication.
+The TxGNN model predicts it may be effective for **classic stiff person syndrome**, with a high graph score of 97.96%.
+There are currently **0 clinical trials** and **0 publications** supporting this direction, so this is a model prediction only and the mechanistic link looks weak.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Type 2 Diabetes Mellitus (sulfonylurea class oral antidiabetic) |
-| Predicted New Indication | Classic Stiff Person Syndrome |
+|------|------|
+| Original Indication | Type 2 diabetes mellitus (based on drug class; the Singapore licence text provided is empty) |
+| Predicted New Indication | Classic stiff person syndrome |
 | TxGNN Prediction Score | 97.96% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 17 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not formally recorded in this Evidence Pack. Based on established pharmacological knowledge, Gliclazide is a second-generation sulfonylurea that blocks ATP-sensitive potassium channels (KATP / SUR1) on pancreatic β-cells, causing membrane depolarisation and subsequent insulin release. It also possesses antioxidant properties (free radical scavenging via its azabicyclo-octyl ring) not found in first-generation agents.
+Detailed mechanism of action data is not available in the evidence pack. Based on general pharmacology, gliclazide blocks the K-ATP channel (SUR1/Kir6.2) on pancreatic beta cells. This closes the channel and triggers insulin secretion. The drug has no known effect on GABAergic or spinal inhibitory pathways, which are the systems involved in stiff person syndrome.
 
-The scientific rationale for the SPS prediction lies in a shared molecular target. Classic Stiff Person Syndrome is characterised by anti-GAD65 (glutamic acid decarboxylase 65) autoantibodies. GAD65 is expressed not only in pancreatic β-cells — where it participates in GABA synthesis — but also in GABAergic interneurons of the central nervous system. When GAD65 function is impaired, GABA synthesis decreases, leading to disinhibition of motor neurons and the cardinal symptom of muscle rigidity. The hypothesis is that KATP channel blockade by Gliclazide, which is expressed in CNS neurons as well as β-cells, could theoretically modulate GABAergic synaptic transmission and partially compensate for the GAD65-deficient GABA synthesis deficit.
+The most likely reason for the prediction is an indirect association in the knowledge graph. Stiff person syndrome is linked to anti-GAD65 autoimmunity, and it often co-occurs with type 1 diabetes. This is a comorbidity relationship, not a therapeutic target. The related entry "focal stiff limb syndrome" has exactly the same score (97.96%). The two entries therefore look like near-duplicate nodes and should not be counted as independent signals.
 
-It is important to emphasise that this mechanistic link, while scientifically coherent, remains entirely theoretical and has not been tested in preclinical models or clinical settings. The connection is two steps removed: Gliclazide → KATP blockade in neurons → altered GABA transmission → SPS symptom modulation. No peer-reviewed study, animal experiment, or case report has yet explored this pathway for SPS.
-
----
-
-## All Predicted Indications — Summary
-
-The TxGNN model generated 10 candidate indications for Gliclazide. All are L5 (computational prediction only).
-
-| Rank | Disease | Score | Mechanistic Plausibility | Recommendation |
-|------|---------|-------|--------------------------|----------------|
-| 1 | Classic Stiff Person Syndrome | 97.96% | Moderate — GAD65/KATP/GABAergic hypothesis | Research Question |
-| 2 | Focal Stiff Limb Syndrome | 97.96% | Moderate — SPS subtype, same pathway | Research Question |
-| 3 | Thiamine-Responsive Dysfunction Syndrome (TRMA) | 97.79% | Moderate — β-cell dysfunction component; thiamine is primary therapy | Research Question |
-| 4 | Opsismodysplasia | 97.72% | Weak — SHIP2/PI3K pathway is very indirect | Hold |
-| 5 | Pancreatic Agenesis | 96.64% | None — target tissue (β-cells) absent | Hold |
-| 6 | Drug-Induced Localized Lipodystrophy | 96.43% | Indirect — reducing insulin injection frequency + antioxidant effect | Research Question |
-| 7 | Centrifugal Lipodystrophy | 96.23% | Weak — possible clustering artefact in model | Hold |
-| 8 | Pressure-Induced Localized Lipoatrophy | 96.14% | None — mechanical cause, no pharmacological pathway | Hold |
-| 9 | Idiopathic Localized Lipodystrophy | 95.94% | Weak — insufficient mechanistic basis | Hold |
-| 10 | Autoimmune Oophoritis | 88.15% | Weak — antioxidant anti-inflammatory effect is non-specific | Hold |
-
----
+**Conclusion:** the high score reflects graph proximity, not pharmacological plausibility. Nothing in the data supports a clinical benefit.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Gliclazide in any of the 10 predicted indications.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for Gliclazide in any of the 10 predicted indications.
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Gliclazide is **not currently registered** with the Health Sciences Authority (HSA) in Singapore. No product authorisations on record.
+There are 17 registrations in total. The first 5 are listed below. All are oral tablets, and the approved-indication text is blank in the data provided.
 
-> **Note:** Gliclazide is registered and widely marketed in many regional markets including Taiwan, Japan, Europe (e.g., Diamicron®, Diamicron MR®), Australia, and across Southeast Asia. Its absence from Singapore's HSA register is a regulatory gap specific to this jurisdiction and does not reflect the drug's global availability or safety profile.
-
----
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN08529P | Glyclazide Tablet 80 mg | Tablet | Sam Chun Dang Pharm Co Ltd |
+| SIN13468P | Apo-Gliclazide Tablet 80 mg | Tablet | Apotex Inc. |
+| SIN09350P | Sun-Glizide Tablet 80 mg | Tablet | Sunward Pharmaceutical Private Limited |
+| SIN11662P | Melicron Tablet 80 mg | Tablet, film coated | Xepa-Soul Pattinson (Malaysia) Sdn Bhd |
+| SIN14258P | Apo-Gliclazide MR Tablet 30 mg | Tablet, extended release | Apotex Inc. |
 
 ## Safety Considerations
 
-Formal safety data (warnings, contraindications, drug interactions) was not retrievable in this Evidence Pack cycle.
-
-> Please refer to the package insert and current HSA/regulatory guidance for complete safety information. As a sulfonylurea, general class considerations include: hypoglycaemia risk (especially in elderly, renally impaired, or food-restricted patients), avoidance in Type 1 Diabetes and diabetic ketoacidosis, and potential interactions with other antidiabetics, NSAIDs, and CYP2C9 inhibitors/inducers.
-
----
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top TxGNN prediction (Classic Stiff Person Syndrome, score 97.96%) carries a scientifically interesting mechanistic hypothesis linking pancreatic KATP channel pharmacology to GABAergic CNS dysfunction via shared GAD65 biology. However, the evidence base is entirely computational (L5), with zero clinical trials, zero peer-reviewed publications, and zero preclinical data supporting this specific application. Additionally, Gliclazide is not registered in Singapore, creating a significant regulatory barrier. The prediction for Pancreatic Agenesis (Rank 5) is pharmacologically implausible and illustrates the model's limitations in filtering out biologically impossible candidates.
+The prediction has no clinical or preclinical support (L5), and no plausible mechanism links a K-ATP channel blocker to stiff person syndrome. The high score most likely comes from a diabetes and GAD-autoimmunity association in the graph.
+
+**Other predicted candidates (all L5, no trials or literature):**
+
+| Rank | Predicted Indication | Score | Recommendation | Assessment |
+|------|------|------|------|------|
+| 2 | Focal stiff limb syndrome | 97.96% | Hold | Same weak link as rank 1; near-duplicate node |
+| 3 | Thiamine-responsive dysfunction syndrome | 97.79% | Research Question | Most plausible candidate. It involves diabetes from beta-cell dysfunction (SLC19A2 defect), so a secretagogue could be relevant to the diabetic component only, not to the anemia or deafness |
+| 4 | Opsismodysplasia | 97.72% | Hold | No mechanistic connection; likely a graph artifact |
+| 5 | Pancreatic agenesis | 96.64% | Hold | Gliclazide needs functional beta cells, so it is unlikely to work |
+| 6–9 | Localized lipodystrophies (drug-induced, centrifugal, pressure-induced, idiopathic) | 95.93–96.43% | Hold | No action on adipocyte biology; likely a lipodystrophy cluster effect |
+| 10 | Autoimmune oophoritis | 88.15% | Hold | Likely an autoimmune polyglandular syndrome association; no clinical support |
 
 **To proceed, the following is needed:**
-
-- **MOA confirmation:** Obtain complete DrugBank entry for Gliclazide (DB01120) to formally document SUR1/KATP mechanism and off-target CNS effects
-- **Preclinical feasibility study:** Test Gliclazide in a validated GAD65-antibody animal model of SPS (e.g., GAD65 immunised rodents) to confirm CNS KATP engagement
-- **Literature gap analysis:** Systematic review of sulfonylurea effects on GABAergic neurotransmission in any CNS disorder, to establish proof-of-concept
-- **Safety data collection:** Download and parse TFDA and EMA/TGA product monographs to complete the DG001 blocking data gap before any clinical consideration
-- **Singapore regulatory pathway:** If preclinical evidence warrants progression, initiate HSA registration assessment or identify a suitable registered formulation for potential off-label use discussion
-- **Prioritisation decision:** Of the 10 predicted indications, Classic SPS (Rank 1) and Thiamine-Responsive Dysfunction Syndrome (Rank 3) carry the most coherent mechanistic rationale and should be the focus of any exploratory literature mining effort; Pancreatic Agenesis (Rank 5), Pressure-Induced Lipoatrophy (Rank 8), and Centrifugal Lipodystrophy (Rank 7) should be deprioritised due to absent mechanistic plausibility
-
----
-
-*This report is generated for research reference only and does not constitute medical advice. All drug repurposing candidates require clinical validation before any therapeutic application.*
+- The Singapore package insert (HSA warnings and contraindications), which is currently missing and blocks safety screening.
+- Detailed mechanism of action data from DrugBank.
+- A targeted literature search for thiamine-responsive dysfunction syndrome (rank 3), for example reported sulfonylurea responses in diabetes linked to thiamine-responsive megaloblastic anemia (TRMA), before any further staging.
+- No further work is recommended for the stiff person syndrome entries unless new mechanistic or clinical evidence emerges.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

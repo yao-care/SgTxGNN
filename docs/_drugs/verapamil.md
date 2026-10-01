@@ -29,76 +29,71 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Verapamil: From Cardiovascular Disease to Obsolete Bundle Branch Block
+# Verapamil: From a Calcium Channel Blocker to Bundle Branch Block (Obsolete Ontology Term)
 
 ## One-Sentence Summary
 
-Verapamil is a non-dihydropyridine calcium channel blocker generally used for hypertension, angina pectoris, and supraventricular arrhythmias (this evidence pack does not contain registry-level indication text). The TxGNN model's top prediction is **Obsolete Bundle Branch Block**, but this prediction is supported by **zero clinical trials** and **zero publications**, and the pack's own mechanistic review flags it as directionally contradictory. This candidate does not currently warrant advancement.
-
----
+Verapamil is a calcium channel blocker marketed in Singapore as an extended-release tablet, but the registration record does not state its approved indication.
+The TxGNN model predicts it may be effective for **obsolete bundle branch block**, but there are **0 clinical trials** and **0 publications** for this prediction (evidence level L5, model prediction only).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not captured in evidence pack registry data. General pharmacology: hypertension, angina pectoris, supraventricular arrhythmias |
+| Original Indication | Not stated in the registration data |
 | Predicted New Indication | Obsolete bundle branch block |
 | TxGNN Prediction Score | 99.62% |
-| Evidence Level | L5 (model prediction only, no clinical or literature support) |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is flagged as a data gap (DG002) in this evidence pack. Based on the mechanistic notes attached to the prediction itself, verapamil is a non-dihydropyridine calcium channel blocker with a pronounced **negative dromotropic effect** — it slows AV-nodal conduction. This is the opposite of what would be needed to treat a conduction/bundle branch block, which is a defect in impulse propagation rather than a state of pathological over-conduction.
+Detailed mechanism of action data is not currently available. Verapamil is an L-type calcium channel blocker. It slows atrioventricular (AV) nodal conduction and lowers vascular resistance.
 
-The rationale field for this candidate explicitly notes that "obsolete bundle branch block" is an **obsolete ontology term with unclear semantics**, and that the mechanistic direction contradicts the proposed indication — clinically, non-dihydropyridine CCBs like verapamil are typically **contraindicated or used with caution** in patients with AV block or bundle branch block, not indicated for treating it. In other words, this is very likely a knowledge-graph artifact rather than a biologically plausible repurposing signal.
-
-Among the other nine candidates in this pack, rank 9 (arrhythmogenic right ventricular cardiomyopathy) is mechanistically the most coherent: verapamil's Class IV antiarrhythmic action (L-type calcium channel blockade, suppression of triggered activity) has an established, literature-supported role in **verapamil-sensitive idiopathic fascicular ventricular tachycardia**. However, ARVC is a structural cardiomyopathy where VT is usually scar-related re-entry rather than verapamil-sensitive, and structural heart disease is a known risk factor for hemodynamic decompensation with verapamil — so even this better-supported candidate only reaches L3/S1 ("Research Question"), not a "Go."
-
----
+The mechanistic fit with this prediction is doubtful. Slowing AV nodal conduction can worsen conduction disease, so a conduction-block indication is unlikely and raises a safety concern. The disease term is also flagged as obsolete in the ontology, so the high score may be a mapping artifact rather than a real therapeutic signal.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Verapamil currently has **no marketing authorizations registered** in this evidence pack (`total_licenses: 0`, `market_status: Not marketed`). No dosage form or approved-indication data is available to populate a registration table.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN00344P | ISOPTIN SR TABLET 240 mg | Tablet, film coated (oral) | Not stated in registration data |
 
----
+Manufacturer: Famar Anonymous Industrial Single Member Company of Pharmaceuticals and Cosmetics.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Mechanistic concern**: Verapamil slows AV nodal conduction and can worsen conduction disease, which directly conflicts with a conduction-block indication.
+- **Drug Interactions**: No interaction records were found in the queried source.
 
-*(Key warnings, contraindications, and drug-interaction data are all marked as data gaps or "not found" in this evidence pack — notably, DG001 flags missing HSA/regulatory label warnings as a **Blocking** severity gap.)*
-
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction ("obsolete bundle branch block") is built on an ambiguous, obsolete ontology term and is mechanistically contradictory to verapamil's known pharmacology — it has no clinical trial or literature support (L5/S0). Combined with the drug being unmarketed in Singapore (0 registrations) and missing safety label data, there is no basis to advance this candidate.
+The prediction rests on the model score alone, with no trials or literature. The target term is obsolete, and the drug's electrophysiological effect argues against benefit and for possible harm.
 
 **To proceed, the following is needed:**
-- Resolve DG001 (Blocking): obtain HSA/official package insert warnings and contraindications before any safety screening can occur
-- Resolve DG002 (High): confirm verapamil's mechanism of action via DrugBank API to properly evaluate mechanistic plausibility for any candidate indication
-- If repurposing interest continues, redirect evaluation toward rank 9 (arrhythmogenic right ventricular cardiomyopathy / verapamil-sensitive fascicular VT), which has the strongest mechanistic and literature basis in this pack, and requires structural heart disease to be ruled out before consideration
-- Reject or deprioritize rank 1 and other candidates flagged as "obsolete term" or mechanistically contraindicated (ranks 1, 4, 5, 8)
+- Retrieval of the HSA package insert (warnings, contraindications, approved indication), which currently blocks safety screening
+- Mechanism of action data from DrugBank
+- Review of whether the "obsolete bundle branch block" term maps to a current disease entry
+
+**Other candidates worth noting (outside the primary prediction):**
+- **Arrhythmogenic right ventricular cardiomyopathy** (score 98.40%, L4, Research Question): the retrieved literature covers verapamil-sensitive and idiopathic ventricular tachycardia, mostly reviews and case reports. It is indirect evidence and needs a cautious safety assessment because of negative inotropy.
+- **Periodic paralysis with transient compartment-like syndrome** (score 99.08%, L5, Research Question): a hypothesis based on calcium channel (CACNA1S) biology, for expert review only.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

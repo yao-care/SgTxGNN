@@ -29,67 +29,71 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Bezafibrate: From Dyslipidemia to Hypoalphalipoproteinemia
+# Bezafibrate: From Hyperlipidemia to Hypoalphalipoproteinemia
 
 ## One-Sentence Summary
 
-Bezafibrate is a fibrate-class lipid-lowering agent widely used for dyslipidemia and hypertriglyceridemia, acting primarily as a PPARα agonist to lower triglycerides and raise HDL cholesterol.
-The TxGNN model predicts it may be effective for **Hypoalphalipoproteinemia** (isolated low HDL syndrome),
-with **0 clinical trials** and **3 publications** currently supporting this direction. The mechanistic rationale is strong, but available clinical evidence remains limited to small, early-era observational studies.
+Bezafibrate is a fibrate lipid-lowering drug, marketed in Singapore as a 200 mg film-coated tablet.
+The TxGNN model predicts it may help with **hypoalphalipoproteinemia** (persistently low HDL cholesterol).
+No clinical trials are registered for this indication. Support comes from **3 publications**, all small or observational, and none proves benefit.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Dyslipidemia / Hypertriglyceridemia (fibrate class; no Singapore registration on record) |
+|------|------|
+| Original Indication | Hyperlipidemia (established lipid-lowering use). The Singapore licence record does not state an indication. |
 | Predicted New Indication | Hypoalphalipoproteinemia |
 | TxGNN Prediction Score | 98.54% |
 | Evidence Level | L3 |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on established pharmacological knowledge, bezafibrate is a pan-PPAR agonist (primarily PPARα) belonging to the fibrate class. PPARα activation upregulates ApoA-I and ApoA-II gene expression, promoting HDL particle assembly and strengthening reverse cholesterol transport (RCT). This is the most pharmacologically direct pathway for raising plasma HDL-C levels among available lipid-modifying agents.
+Bezafibrate is a pan-PPAR (alpha/gamma/delta) agonist. Activating PPAR-alpha increases production of apolipoproteins A-I and A-II, the main protein components of HDL, and raises HDL cholesterol. It also lowers triglycerides through increased lipoprotein lipase activity and reduced apoC-III. So a link to low HDL states is biologically plausible.
 
-Hypoalphalipoproteinemia is defined as isolated low HDL cholesterol (below 35–40 mg/dL) and is a well-established independent cardiovascular risk factor associated with impaired reverse cholesterol transport and endothelial dysfunction. Because bezafibrate's PPARα-driven mechanism directly addresses the core pathology of this condition — insufficient ApoA-I–mediated HDL production — the TxGNN model's high-confidence prediction (98.54%) is mechanistically coherent and not surprising.
+Both hypoalphalipoproteinemia and the drug's established use are lipoprotein disorders. Low HDL is a recognized risk factor for coronary artery disease, and low HDL commonly accompanies raised triglycerides. Raising HDL, however, has not been shown to improve clinical outcomes in this setting.
 
-Crucially, the most relevant piece of literature (PMID 11483875, 2001) directly tests bezafibrate in patients with both hypoalphalipoproteinemia and coronary artery disease, reporting improved endothelial function as HDL-C levels were raised. This constitutes direct clinical validation of the predicted indication. However, all three supporting publications predate 2002, involve small patient numbers, and none meet the threshold for controlled trial evidence. No clinical trials have been registered for this specific indication.
+The literature is mixed. One small study in coronary artery disease patients with isolated low HDL examined endothelial function during bezafibrate treatment. Two other papers describe *profound* HDL and apoA-I reductions when probucol was combined with a fibrate, which is a caution rather than support.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for bezafibrate in hypoalphalipoproteinemia.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [11483875](https://pubmed.ncbi.nlm.nih.gov/11483875/) | 2001 | Prospective Clinical Study | Journal of Cardiovascular Pharmacology | Bezafibrate raised HDL-C and significantly improved endothelial dysfunction in patients with isolated low HDL (< 0.91 mM) and coronary artery disease |
-| [1575823](https://pubmed.ncbi.nlm.nih.gov/1575823/) | 1992 | Observational Cross-sectional | Atherosclerosis | Characterized the prevalence and TG–HDL relationship in hypertriglyceridemic patients with primary hypoalphalipoproteinemia; established the epidemiological link |
-| [7567762](https://pubmed.ncbi.nlm.nih.gov/7567762/) | 1995 | Case Series | Postgraduate Medical Journal | Reported two cases of iatrogenic profound hypoalphalipoproteinemia from probucol + bezafibrate combination; confirmed that bezafibrate monotherapy raises HDL while co-administration with probucol paradoxically depletes ApoA-I |
+|------|-----|------|------|---------|
+| [11483875](https://pubmed.ncbi.nlm.nih.gov/11483875/) | 2001 | Clinical study (small) | J Cardiovasc Pharmacol | Endothelial dysfunction improved in coronary artery disease patients with isolated low HDL-C (<0.91 mM) treated with bezafibrate. The abstract is truncated, so detailed results are not visible. |
+| [1575823](https://pubmed.ncbi.nlm.nih.gov/1575823/) | 1992 | Observational | Atherosclerosis | Studied how often primary hypoalphalipoproteinemia occurs in hypertriglyceridemic patients. Low HDL is often linked to disordered triglyceride metabolism. |
+| [7567762](https://pubmed.ncbi.nlm.nih.gov/7567762/) | 1995 | Case report | Postgrad Med J | Two cases where probucol plus a fibrate (bezafibrate in one) caused very low HDL-C and apoA-I. This is an iatrogenic cause of low HDL. |
 
 ---
 
 ## Singapore Market Information
 
-Bezafibrate currently has **no registered products in Singapore**. There are no HSA authorizations or licensed products on record. This means any clinical use or repurposing pathway in Singapore would require a new drug application or named-patient/compassionate use arrangement.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN10217P | ZAFIBRAL TABLET 200 mg (MEDOCHEMIE LTD, Central Factory) | Tablet, film coated (oral) | Not stated in the record |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. The HSA package insert warnings and contraindications were not available, and no drug interaction records were found.
 
-> Note: Singapore HSA package insert data and TFDA warning/contraindication data were not retrieved in this evidence pack (Data Gap DG001). As a fibrate-class drug, bezafibrate carries well-known class-level risks including myopathy risk with concomitant statin use, potentiation of anticoagulant effect (particularly warfarin), and renal dose adjustment requirements — these should be verified from the full prescribing information before any clinical consideration.
+Two signals from the retrieved literature and the evidence rationale:
+- **Probucol combination**: Adding a fibrate such as bezafibrate to probucol can profoundly lower HDL-C and apoA-I (PMID 7567762). This works against the intended effect.
+- **Statin combination**: Statin-fibrate combinations carry a myopathy risk.
 
 ---
 
@@ -98,16 +102,16 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-Despite a strong and direct mechanistic basis, the available clinical evidence for bezafibrate in hypoalphalipoproteinemia consists entirely of small observational studies and case reports from 1992–2001, with no registered clinical trials and no RCT-level data specific to this indication. Evidence Level L3 is insufficient to advance without additional prospective data.
+The drug link is biologically plausible, but the evidence is thin: no registered trials, one small clinical study, one observational paper and one case report. HDL elevation has not been shown to improve outcomes, and the HSA safety data needed for screening are missing.
 
 **To proceed, the following is needed:**
+- HSA package insert warnings, contraindications and approved indications (safety screening is blocked without them)
+- Mechanism of action data from DrugBank
+- The full text of PMID 11483875 to confirm the design and results
+- Any interventional trial of bezafibrate in isolated low HDL, with clinical or surrogate outcomes
+- A statin/probucol co-medication risk plan and renal dose-adjustment guidance
 
-- **MOA verification**: Retrieve complete bezafibrate DrugBank entry to formally document PPARα mechanism, toxicity profile, and pharmacokinetics
-- **Safety package**: Obtain HSA/TFDA package insert to fill the blocking Data Gap (DG001) covering key warnings and contraindications — currently prevents entry into formal safety screening (Stage S1)
-- **Drug interaction profile**: Confirm DDI risk with statins (rhabdomyolysis), warfarin (anticoagulation potentiation), and other co-medications relevant to cardiovascular patients
-- **Clinical trial feasibility**: Design or identify a prospective pilot study or registry specifically targeting isolated low HDL patients treated with bezafibrate, with endothelial function or MACE endpoints
-- **Competitive landscape review**: Evaluate unmet need against current standard-of-care options (niacin, CETP inhibitors, high-intensity statins) to determine whether bezafibrate offers a meaningful advantage in this indication
-- **Updated literature search**: Conduct a systematic search for post-2001 publications, particularly given advances in understanding of HDL functionality vs. quantity
+**Note on other predictions:** *Hyperlipoproteinemia* (rank 8) has stronger support (L2, Proceed with Guardrails). It reflects the drug's established lipid-lowering use rather than a novel repurposing. *Familial hypercholesterolemia* (rank 7) is at L3, with add-on studies from the 1980s and 1990s. The remaining predictions have little or no supporting evidence.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

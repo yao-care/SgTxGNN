@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ixekizumab
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 558
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 ---
 
 # Ixekizumab
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,87 +29,67 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Ixekizumab: From Axial Spondyloarthritis to Rheumatoid Vasculitis
+# Ixekizumab: Predicted New Indication — Rheumatoid Vasculitis
 
 ## One-Sentence Summary
 
-Ixekizumab (Taltz) is a high-affinity monoclonal antibody that selectively targets interleukin-17A (IL-17A), globally approved for moderate-to-severe plaque psoriasis, psoriatic arthritis, and axial spondyloarthritis — however, it is currently not registered in Singapore.
-The TxGNN model predicts it may be effective for **Rheumatoid Vasculitis** (TxGNN rank #1, score 97.53%),
-with **1 peripherally related clinical trial** and **no directly supporting publications** available for this specific indication.
-
----
+Ixekizumab is an IL-17A-neutralizing antibody, marketed in Singapore as Taltz, and it is used in immune-mediated inflammatory diseases.
+The TxGNN model predicts it may be effective for **rheumatoid vasculitis** (score 97.5%), but only **1 loosely related clinical trial** and **0 publications** are linked to this prediction, so it rests almost entirely on the model.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not registered in Singapore; globally approved for plaque psoriasis, psoriatic arthritis, and axial spondyloarthritis |
-| Predicted New Indication | Rheumatoid Vasculitis |
+|------|------|
+| Predicted New Indication | Rheumatoid vasculitis |
 | TxGNN Prediction Score | 97.53% |
-| Evidence Level | L4 |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this evidence pack. Based on known clinical and scientific context, Ixekizumab is a high-affinity IgG4 monoclonal antibody that selectively neutralises IL-17A — a key pro-inflammatory cytokine produced primarily by Th17 cells and innate lymphoid cells (ILC3). Its established efficacy across inflammatory arthritis has been confirmed in multiple Phase 3 RCTs including SPIRIT-P1/P2 (psoriatic arthritis) and COAST-V/W/X (radiographic and non-radiographic axial spondyloarthritis).
+Ixekizumab neutralizes IL-17A, a cytokine that drives inflammation in several autoimmune conditions. IL-17 signaling has been implicated in autoimmune vasculitis and rheumatoid-type inflammation, so a link to rheumatoid vasculitis is biologically plausible.
 
-The proposed link to rheumatoid vasculitis carries theoretical biological plausibility: IL-17A promotes vascular endothelial cell activation, neutrophil infiltration, and vessel wall remodelling — all of which contribute to vascular inflammation in ANCA-associated vasculitis and rheumatoid arthritis (RA)-related vasculopathy. Th17-driven vascular wall damage is a recognised contributor to systemic inflammatory vasculopathy in advanced RA.
+However, the plausibility is unproven. The only linked trial studies how to manage immunosuppressants around shoulder surgery in rheumatology patients, and it does not test ixekizumab against vasculitis. No publications support this indication. The high score most likely reflects proximity to related inflammatory-disease nodes in the knowledge graph rather than direct clinical evidence.
 
-However, this mechanistic link remains speculative at present. No clinical trial has been designed specifically to evaluate Ixekizumab in rheumatoid vasculitis, and no published literature directly addresses this indication. The TxGNN model's high prediction score likely reflects topological proximity in the knowledge graph between spondyloarthritis/RA nodes and vasculitis nodes, rather than direct biological evidence supporting this repurposing hypothesis.
-
----
+Detailed mechanism-of-action data was not supplied for this drug. The mechanism described above comes from the analysis of the prediction itself.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Not Yet Recruiting | 80 | Immunosuppressant management in rheumatology patients undergoing elective total shoulder arthroplasty — compares different perioperative hold durations on flare incidence, pain scores (VAS), functional outcomes (PROMIS), and wound complications; not a trial of Ixekizumab for rheumatoid vasculitis treatment |
-
-> ⚠️ The only retrieved trial is Grade C (tangential relevance). It addresses perioperative immunosuppressant logistics in broad rheumatology patients — not the therapeutic efficacy of Ixekizumab in rheumatoid vasculitis. No dedicated clinical trials for this indication are currently registered.
-
----
+| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Not yet recruiting | 80 | Compares stopping vs. briefly holding immunosuppressants before shoulder replacement in rheumatology patients. Not an ixekizumab efficacy study (relevance grade C). |
 
 ## Literature Evidence
 
-Currently no related literature available for Ixekizumab in rheumatoid vasculitis.
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Ixekizumab is currently not registered in Singapore. No product authorizations or license records are available.
-
----
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN15501P | TALTZ Solution for Injection in Pre-filled Pen 80 mg/ml | Injection, solution | Eli Lilly and Company |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite being TxGNN's top-ranked prediction for Ixekizumab (97.53%), rheumatoid vasculitis is supported only by mechanistic inference (L4). There are no dedicated clinical trials and no published literature directly addressing this indication; the single retrieved trial evaluates perioperative immunosuppressant management — not vasculitis efficacy. Proceeding without any clinical anchor point is premature, particularly given that the drug is not yet registered in Singapore even for its well-established indications.
+The prediction is L5, model-only. The single linked trial does not test ixekizumab, and no publications exist for rheumatoid vasculitis. The mechanism is plausible, but nothing yet shows benefit.
+
+Two lower-ranked predictions in the same Evidence Pack look different. Inflammatory spondylopathy (rank 6) and vertebral disease (rank 9, which in this data maps to axial spondyloarthritis) are each supported by multiple completed Phase 3 RCTs and rated L1 with "Proceed with Guardrails". They appear to be established uses of the drug rather than true repurposing, and they should be reviewed separately from this one.
 
 **To proceed, the following is needed:**
-
-- **Establish Singapore registration** for existing globally approved indications (psoriatic arthritis, axial spondyloarthritis) as a prerequisite before exploring rheumatoid vasculitis
-- **Confirm MOA data** from DrugBank or published sources to formally characterise IL-17A's mechanistic role in rheumatoid vasculitis pathogenesis
-- **Preclinical evidence search**: identify any animal models or in vitro studies demonstrating IL-17A inhibition reduces vascular inflammation in RA-associated vasculitis
-- **Case series / off-label use review**: search for any case reports or real-world safety signals of Ixekizumab use in vasculitic RA
-- **Safety data gap closure**: obtain full package insert (TFDA or FDA label) to review warnings, contraindications, and infection risk profile — critical given that rheumatoid vasculitis patients tend to have more severe, immunocompromised disease
-
-> 📌 **Note on related predictions with stronger evidence:** While rheumatoid vasculitis ranks #1 by TxGNN score, two other predicted indications — **Inflammatory Spondylopathy** (rank #6, L1, 26 clinical trials, 20 publications) and **Vertebral Disease** (rank #9, L1, 4 Phase 3 trials including COAST-V/W/X, 20 publications) — have substantially stronger evidence bases and may represent more actionable repurposing or registration pathways for Singapore. These should be evaluated in separate reports.
-
----
-*This report is for research reference only and does not constitute medical advice. All repurposing candidates require clinical validation before application.*
+- Any clinical or observational evidence of IL-17A blockade in rheumatoid vasculitis, such as case series, mechanistic studies or a pilot trial
+- Package insert warnings and contraindications from HSA, which are still missing and block safety screening
+- The Singapore-approved indication text and the drug's original indication, both missing from the input
+- Detailed mechanism-of-action data from DrugBank
+- Route compatibility and similarity-to-original-indication assessments, which are still pending
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

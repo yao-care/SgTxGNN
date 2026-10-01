@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ambroxol
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 79
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 ---
 
 # Ambroxol
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,80 +29,70 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Ambroxol: From Mucolytic Agent to Nasal Cavity Disease
+# Ambroxol: From Respiratory Mucolytic Use to Nasal Cavity Disease
 
 ## One-Sentence Summary
 
-Ambroxol is a well-established mucolytic and secretolytic agent widely used across respiratory tract conditions to promote mucus clearance and improve airway drainage.
-The TxGNN model predicts it may be effective for **Nasal Cavity Disease**, with **0 clinical trials** and **1 publication** currently supporting this specific direction.
-Evidence for this particular repurposing application remains at an early exploratory stage, warranting further investigation before clinical consideration.
-
----
+Ambroxol is a marketed secretolytic/mucolytic used for respiratory tract conditions.
+The TxGNN model predicts it may be effective for **nasal cavity disease**,
+but there are currently **no registered clinical trials** and only **1 indirect publication** (a 2015 article on acute cough) supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Respiratory tract conditions with excessive or viscous mucus (mucolytic/secretolytic use) |
-| Predicted New Indication | Nasal Cavity Disease |
+|------|------|
+| Original Indication | Respiratory tract conditions, as a mucolytic (the registration records list no indication text) |
+| Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 99.91% |
-| Evidence Level | L4 |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 (one indirect narrative article; no trials) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 10 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the Evidence Pack. Based on known pharmacological knowledge, Ambroxol is a mucoactive compound — a metabolite of bromhexine — that stimulates production of serous bronchial secretions, activates mucociliary clearance, and normalises abnormal mucus rheology. It also exhibits anti-inflammatory properties through inhibition of pro-inflammatory mediator release, as well as local anaesthetic effects via blockade of voltage-gated sodium channels (Nav1.7 and Nav1.8).
+Currently, detailed mechanism of action data is not available. Based on known information, ambroxol is a secretolytic/mucolytic agent used in upper and lower respiratory tract conditions. Its effect on mucus is established, and mechanistically it may be applicable to nasal cavity disease.
 
-The connection between Ambroxol and nasal cavity disease is mechanistically plausible. The nasal mucosa relies on the same mucociliary transport mechanisms that Ambroxol enhances in the lower airway. Excessive or abnormally viscous nasal secretions are a cardinal feature of rhinitis, sinusitis, and upper respiratory tract infections — all conditions within the "nasal cavity disease" spectrum. Ambroxol's ability to normalise mucus secretion and reduce hypersecretion of mucins could improve nasal mucosal clearance function. Additionally, its sodium channel blocking action may attenuate the sensation of nasal congestion via an indirect sensory mechanism.
-
-However, it is important to note that the available Evidence Pack contains only one supporting publication (a review commentary on acute cough), and no registered clinical trials for this specific indication were identified. The prediction therefore primarily reflects a mechanistic inference captured by the knowledge graph rather than established clinical data. This limits the interpretability of the TxGNN score and the decision should be treated as a research hypothesis rather than a validated repurposing candidate.
-
----
+Nasal mucus clearance is plausibly related to ambroxol's known action on airway secretions, so the prediction is not implausible. This reasoning rests on general pharmacology, not on supplied mechanism data. The only supporting item is one article on acute cough, which is indirect evidence for nasal disease.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|-------------|
-| [26525480](https://pubmed.ncbi.nlm.nih.gov/26525480/) | 2015 | Review/Commentary | Vestnik otorinolaringologii | Discusses acute cough associated with influenza and ARVI; notes that ARVI-related cough is typically non-productive and resolves within 2–3 weeks, with some cases producing abnormal sputum — context relevant to upper respiratory mucosal conditions including nasal involvement |
-
----
+|------|-----|------|------|---------|
+| [26525480](https://pubmed.ncbi.nlm.nih.gov/26525480/) | 2015 | Narrative article (design not verified) | Vestnik otorinolaringologii | Discusses acute cough in influenza and acute respiratory viral infection. It is usually dry and resolves within 2-3 weeks, but can be productive with abnormal sputum. The available abstract excerpt does not report ambroxol outcomes in nasal disease. |
 
 ## Singapore Market Information
 
-Ambroxol is currently **not marketed** in Singapore. No HSA product authorisations are on record.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN13373P | Mucosolvan 24 Hours Capsule 75mg | Capsule, delayed release | Not stated in the record |
+| SIN10547P | Mucoclear Syrup 30 mg/5 ml | Syrup | Not stated in the record |
+| SIN02696P | Mucosolvan Tablet 30 mg | Tablet | Not stated in the record |
+| SIN02983P | Amxol Tablets 30 mg | Tablet | Not stated in the record |
+| SIN07180P | Shinoxol Tablets 30 mg | Tablet | Not stated in the record |
 
----
+The record shows 10 registrations in total. Other dosage forms on record include elixir, lozenge and solution.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Although the TxGNN prediction score is high (99.91%) and the mechanistic hypothesis is biologically coherent, no clinical trials and only one indirect literature reference were identified for Ambroxol in nasal cavity disease specifically. The evidence grade of L4 is insufficient to support a repurposing recommendation at this time; the prediction is best characterised as a research question.
+The high model score is not backed by any registered trial. The single supporting article is an indirect narrative piece on cough. Package-insert safety data are also missing, which blocks safety screening. The other nine predicted indications (for example acute laryngopharyngitis and the vulvovaginal group) have no trials or literature and are model predictions only.
 
 **To proceed, the following is needed:**
-- Retrieve full MOA data from DrugBank (DB06742) to strengthen the mechanistic rationale
-- Conduct a targeted PubMed search for Ambroxol combined with rhinitis, sinusitis, or nasal congestion to identify any overlooked publications
-- Search ClinicalTrials.gov and ICTRP using broader upper respiratory tract terms to identify relevant trials not captured under "nasal cavity disease"
-- Review HSA records for any off-label or compassionate use precedents of Ambroxol in Singapore
-- Retrieve TFDA or EMA product insert safety warnings and contraindications to complete the safety profile (currently Data Gap)
-- If mechanistic and safety gaps are resolved, consider designing a Phase 2 pilot study or prospective observational cohort to generate L2–L3 level evidence
+- HSA package insert (warnings, contraindications, approved indications)
+- Mechanism of action data (e.g., from DrugBank)
+- A targeted literature search on ambroxol in nasal and upper airway conditions, including rhinitis, sinusitis and sore throat
+- Dosage form and route review for nasal cavity disease, since route compatibility is still pending
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

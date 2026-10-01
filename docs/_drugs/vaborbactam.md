@@ -29,11 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Vaborbactam: From Complicated Urinary Tract Infection to Osteoarthritis
+# Vaborbactam: From Bacterial Infection (Beta-Lactamase Inhibitor) to Osteoarthritis
 
 ## One-Sentence Summary
 
-Vaborbactam is a cyclic boronic acid β-lactamase inhibitor, clinically used in combination with meropenem (as Vabomere) for complicated urinary tract infections and intra-abdominal infections — it has no antineoplastic or immunomodulatory indications on its own. The TxGNN model predicts it may be effective for **Osteoarthritis**, but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the underlying mechanistic rationale explicitly flags this as a likely false positive.
+Vaborbactam is a beta-lactamase inhibitor with no antibacterial activity of its own. It is used only in combination with meropenem to treat bacterial infections.
+The TxGNN model predicts it may be effective for **osteoarthritis**, but there are currently **0 clinical trials** and **0 publications** supporting this direction.
+The prediction is model-only and, in our assessment, most likely a knowledge-graph artifact.
 
 ---
 
@@ -41,47 +43,59 @@ Vaborbactam is a cyclic boronic acid β-lactamase inhibitor, clinically used in 
 
 | Item | Content |
 |------|------|
-| Original Indication | Complicated urinary tract infection / intra-abdominal infection (in combination with meropenem) |
+| Original Indication | Not stated in the Singapore registration text. Used as a beta-lactamase inhibitor with meropenem for bacterial infections |
 | Predicted New Indication | Osteoarthritis |
 | TxGNN Prediction Score | 98.52% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on known pharmacology, Vaborbactam is a Class A serine β-lactamase inhibitor with a cyclic boronic acid structure. It binds only to the active site of bacterial β-lactamase enzymes and is used clinically alongside meropenem to restore antibacterial activity against carbapenem-resistant Enterobacteriaceae. It has no known action on human cartilage metabolism, joint inflammation pathways (IL-1β, TNF-α, MMP), or any other pathway implicated in osteoarthritis pathophysiology.
+Currently, detailed mechanism of action data is not available in the database. Vaborbactam is a cyclic boronic acid serine beta-lactamase inhibitor. It protects a partner antibiotic (meropenem) from enzymatic breakdown and has no intrinsic antibacterial activity.
 
-The mechanistic evidence supplied with this prediction explicitly concludes there is **no biologically plausible link** between Vaborbactam's mode of action and osteoarthritis pathology. The two conditions — bacterial infection requiring β-lactamase inhibition versus degenerative joint disease driven by cartilage breakdown and low-grade inflammation — belong to entirely unrelated therapeutic domains. This prediction, along with the other nine ranked candidates in this evidence pack (which include rheumatoid arthritis, gout, and several rare skeletal dysplasias), most likely reflects a knowledge-graph clustering artifact rather than a genuine drug-repurposing signal.
+**The prediction is not mechanistically supported.** Vaborbactam has no known action on cartilage, synovial inflammation, or joint degradation pathways. Bacterial beta-lactamase inhibition does not connect to the biology of osteoarthritis.
 
-Given the complete absence of supporting clinical trials or literature, and an explicit mechanistic rationale arguing against biological plausibility, this candidate should not be interpreted as a credible repurposing hypothesis without substantial independent validation.
+The very high score (0.985) most likely reflects sparse drug annotation in the knowledge graph. The drug has no recorded mechanism, indications, or drug interactions there. The same pattern appears across the other top predictions:
+
+- Osteoarthritis susceptibility
+- Rheumatoid arthritis
+- Gout
+- Several rare skeletal dysplasias (pseudoachondroplasia, brachyolmia, acromesomelic dysplasia and related syndromes)
+- Hepatic porphyria
+
+All of these look like graph-neighbourhood bias rather than a drug-specific signal. None has any clinical or literature support.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
 
 ---
 
 ## Singapore Market Information
 
-Vaborbactam is not currently registered or marketed in Singapore (0 authorizations on file).
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN17224P | VABOREM POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 1G/1G | Injection, powder, for solution |
+
+The manufacturer is ACS DOBFAR S.P.A. The product is injectable only.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No drug interactions were found in the queried database.
 
 ---
 
@@ -90,13 +104,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction is based solely on a TxGNN knowledge-graph score (L5, no clinical or literature corroboration), and the accompanying mechanistic analysis explicitly identifies no biological plausibility linking Vaborbactam's β-lactamase inhibition activity to osteoarthritis pathophysiology. Combined with the drug's non-marketed status in Singapore and missing MOA/safety documentation, there is insufficient basis to advance this candidate.
+The prediction is model-only (L5), with no clinical trials, no publications, and no plausible mechanism linking a beta-lactamase inhibitor to osteoarthritis. The high score is most likely an artifact of sparse drug annotation in the knowledge graph. The injectable-only presentation is also unlikely to suit a chronic joint condition, although route compatibility has not yet been assessed.
 
 **To proceed, the following is needed:**
-- TFDA/manufacturer package insert with full warnings, contraindications, and drug interaction data (currently a Blocking data gap)
-- Confirmed mechanism of action data from DrugBank or primary literature
-- Independent preclinical or mechanistic evidence connecting β-lactamase inhibition (or any off-target activity) to joint/cartilage biology, before any further investment in this hypothesis
-- Ongoing monitoring for genuine clinical or literature signals, given the current L5 evidence level
+- Mechanism of action data from DrugBank, to reassess any mechanistic link
+- Package insert warnings and contraindications from the HSA website (a blocking gap for safety screening)
+- Any preclinical or clinical evidence that vaborbactam affects joint or cartilage biology. Without it, this candidate should not advance
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

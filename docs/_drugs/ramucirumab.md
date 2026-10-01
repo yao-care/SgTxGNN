@@ -29,110 +29,84 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ramucirumab: From Anti-Angiogenic Oncology Therapy to Uterine Ligament Adenocarcinoma
+# Ramucirumab: From Gastric Cancer to Uterine Ligament Adenocarcinoma
 
 ## One-Sentence Summary
 
-> Ramucirumab is a VEGFR2-targeting anti-angiogenic monoclonal antibody used in oncology; no confirmed original indication is recorded in the current dataset because the drug is not yet registered in Singapore.
-> The TxGNN model predicts potential efficacy for **Uterine Ligament Adenocarcinoma** (top of 10 rare gynecological adenocarcinoma subtypes flagged in this batch),
-> but this prediction is currently supported by **0 clinical trials** and **0 publications** — it rests entirely on mechanistic class-effect reasoning.
-
----
+Ramucirumab is a VEGFR-2 antibody used in gastric and gastroesophageal junction adenocarcinoma.
+The TxGNN model predicts it may be effective for **uterine ligament adenocarcinoma**,
+but **0 clinical trials** and **0 publications** currently support this direction, so it is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not available (drug not registered in Singapore; no license/indication text on file) |
-| Predicted New Indication | Uterine Ligament Adenocarcinoma |
-| TxGNN Prediction Score | 99.95% (rank 1176 of model output) |
+|------|------|
+| Original Indication | Gastric / gastroesophageal junction adenocarcinoma (general pharmacology knowledge; the Singapore registration text does not state an indication) |
+| Predicted New Indication | Uterine ligament adenocarcinoma |
+| TxGNN Prediction Score | 99.95% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for Ramucirumab is not available in structured form (`original_moa` = Data Gap). Based on the repurposing rationale evidence provided, Ramucirumab is described as a **VEGFR2 antagonist** — an anti-angiogenic monoclonal antibody that blocks vascular endothelial growth factor receptor 2 signalling.
+Detailed mechanism-of-action data is not available in the supplied record. Based on general pharmacology, ramucirumab is a monoclonal antibody that blocks VEGFR-2 and thereby inhibits VEGF-driven tumour angiogenesis. Its efficacy in gastric and gastroesophageal junction adenocarcinoma is established, and mechanistically it may be applicable to other adenocarcinomas that depend on angiogenesis.
 
-The mechanistic link to this prediction is a **class-effect argument**: bevacizumab, an anti-VEGF-A antibody with an overlapping anti-angiogenic mechanism, has demonstrated efficacy in metastatic cervical cancer (GOG-240 trial). Since uterine ligament adenocarcinoma and the other candidates listed below are gynecological adenocarcinoma subtypes anatomically and histologically related to cervical/endometrial cancer, the model infers a theoretical basis for VEGFR2 blockade being active in this tissue context. One rationale entry also notes Ramucirumab has approved use in metastatic colorectal cancer, and intestinal-variant cervical mucinous adenocarcinoma shares histological features with colorectal mucinous adenocarcinoma — offering an additional, indirect cross-tumour analogy.
+Uterine ligament adenocarcinoma is an extremely rare gynaecologic tumour. No disease-specific data on VEGFR-2 dependence were provided, so the link is plausible but unsupported.
 
-However, **none of these links are subtype-specific**: uterine ligament adenocarcinoma is an extremely rare anatomic site, and there is no direct molecular pathology, preclinical, or clinical evidence that VEGFR2 is a driver in this specific subtype. This prediction should be read as hypothesis-generating only.
+The model's other top predictions all fall in the same cluster of gynaecologic adenocarcinomas, with scores of about 99.94% to 99.95%:
+- endocervical carcinoma
+- adenoid cystic carcinoma of the cervix
+- several uterine ligament histologies (serous, endometrioid, clear cell, mucinous)
+- rare cervical variants (signet ring, glassy cell, intestinal-type mucinous)
 
----
-
-## Other Predicted Indications (Rank 2–10)
-
-This candidate batch (`TW-DB05578-multi`) flagged 10 related gynecological adenocarcinoma subtypes, all at TxGNN scores >99.9% and all classified L5 / Hold:
-
-| Rank | Disease | Score | Rationale Summary |
-|------|---------|-------|---------|
-| 2 | Endocervical carcinoma | 99.95% | Same VEGFR2 class-effect argument (bevacizumab precedent); no drug-specific evidence |
-| 3 | Adenoid cystic carcinoma of the cervix uteri | 99.95% | Angiogenesis-dependence undefined for this rare histotype |
-| 4 | Uterine ligament serous adenocarcinoma | 99.94% | Serous histology often angiogenesis-active, but no site-specific data |
-| 5 | Signet ring cell variant cervical mucinous adenocarcinoma | 99.94% | No angiogenesis-specific literature for this rare variant |
-| 6 | Cervical adenosquamous carcinoma, glassy cell variant | 99.94% | Aggressive histotype; no VEGFR2 expression/response data |
-| 7 | Uterine ligament endometrioid adenocarcinoma | 99.94% | Indirect analogy to endometrial cancer anti-angiogenic studies |
-| 8 | Uterine ligament clear cell adenocarcinoma | 99.94% | Weak analogy to ovarian/endometrial clear cell angiogenesis markers |
-| 9 | Uterine ligament mucinous adenocarcinoma | 99.94% | General cross-tumour theoretical extension only |
-| 10 | Intestinal variant cervical mucinous adenocarcinoma | 99.94% | Histological analogy to CRC (an approved Ramucirumab indication) |
-
-All 10 candidates share the same limitation: extremely rare anatomic subtypes with no drug-specific clinical or literature evidence.
-
----
+The most reasonable of these is cervical cancer. The VEGF-A antibody bevacizumab has Phase 3 data there, but this is class-level, indirect evidence and not specific to ramucirumab. For the signet ring and intestinal-type variants, there is only a loose histologic analogy to gastrointestinal adenocarcinoma, which does not establish activity at the cervical site.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Ramucirumab currently has **0 authorizations** on file and is **not marketed** in Singapore. No license records are available to summarize.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN15036P | CYRAMZA Concentrate for Solution for Infusion 500mg/50ml | Injection, solution, concentrate | Not stated in the registration record |
+| SIN15035P | CYRAMZA Concentrate for Solution for Infusion 100mg/10ml | Injection, solution, concentrate | Not stated in the registration record |
 
----
+Both products are manufactured by Eli Lilly and Company (with Lilly France-Fegersheim).
 
 ## Cytotoxicity
 
-Ramucirumab is an antineoplastic agent (anti-angiogenic monoclonal antibody targeting VEGFR2), so this section applies.
-
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy (anti-angiogenic monoclonal antibody, VEGFR2 antagonist) — not conventional cytotoxic chemotherapy |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
-
----
+|------|------|
+| Cytotoxicity Classification | Targeted therapy (anti-VEGFR-2 monoclonal antibody), not a conventional cytotoxic |
+| Myelosuppression Risk | Low as a single agent; haematological toxicity is mainly driven by combined chemotherapy |
+| Emetogenicity Classification | Low |
+| Monitoring Items | CBC, blood pressure, urine protein, signs of bleeding or thromboembolism; please refer to the package insert warnings and precautions |
+| Handling Protection | Follow institutional hazardous drug handling policy; please refer to the package insert |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-All 10 predicted indications in this batch are supported only by TxGNN model scores (L5) with zero clinical trials and zero literature evidence; the mechanistic link relies on cross-drug class-effect reasoning (bevacizumab precedent) rather than direct data on Ramucirumab in these subtypes. The drug is also not currently registered in Singapore, and core safety/MOA data are flagged as blocking gaps (DG001, DG002).
+The prediction score is very high (99.95%), but it rests on the model alone. There are no clinical trials or publications for ramucirumab in this indication, and the evidence level is L5. The safety information is also incomplete.
 
 **To proceed, the following is needed:**
-- HSA/package insert data: key warnings, contraindications, and drug-drug interactions (currently blocking — DG001)
-- Confirmed mechanism of action and original approved indication(s) from DrugBank (DG002)
-- Preclinical or case-level evidence of VEGFR2 expression/angiogenesis-dependence in uterine ligament adenocarcinoma and related rare subtypes
-- Any real-world or case-report data on anti-VEGFR2 therapy in these specific rare gynecological histotypes before advancing beyond S0
+- HSA package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism-of-action data, for example from the DrugBank API
+- A targeted search for trials and literature on ramucirumab in cervical and gynaecologic adenocarcinomas, starting with cervical cancer
+- Route compatibility and similarity-to-original assessments, both still pending
+- Preclinical or early-phase evidence of VEGFR-2 dependence in the target histology
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

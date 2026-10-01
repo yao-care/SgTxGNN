@@ -29,65 +29,61 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Bromocriptine: From Parkinson's Disease / Hyperprolactinemia to Congenital Disorder of Glycosylation with Defective Fucosylation
+# Bromocriptine: From Its Original Use (Not Recorded) to Congenital Disorder of Glycosylation with Defective Fucosylation
 
 ## One-Sentence Summary
 
-Bromocriptine is a semisynthetic ergot alkaloid and dopamine D2/D3 receptor agonist, with internationally established indications including Parkinson's disease, hyperprolactinemia, and type 2 diabetes mellitus, though it is not currently marketed in Singapore.
-The TxGNN model's highest-ranked novel prediction is **Congenital Disorder of Glycosylation with Defective Fucosylation** (score 99.83%), with **no clinical trials** and **no publications** directly supporting this specific direction.
-Among all 10 predictions reviewed in this pack, **Retinal Dystrophy with or without Extraocular Anomalies** (rank 3) carries the most plausible mechanistic basis with pre-clinical drug repurposing evidence, while **Schizophrenia** (rank 9) has the largest evidence base (3 clinical trials, 20 publications) but is complicated by a documented signal that Bromocriptine can itself induce psychotic symptoms.
+Bromocriptine is a dopamine D2 receptor agonist, and the Evidence Pack does not record its original indication.
+The TxGNN model predicts it may be effective for **congenital disorder of glycosylation with defective fucosylation**.
+There are **0 clinical trials** and **0 publications** for this prediction, so it rests on the model score alone.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Parkinson's disease, hyperprolactinemia, type 2 diabetes mellitus (internationally established; no Singapore registration) |
-| Predicted New Indication | Congenital Disorder of Glycosylation with Defective Fucosylation |
+|------|------|
+| Original Indication | Not stated in the Singapore licence record |
+| Predicted New Indication | Congenital disorder of glycosylation with defective fucosylation |
 | TxGNN Prediction Score | 99.83% |
-| Evidence Level | L5 |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Mechanism of action data for Bromocriptine is not available in this Evidence Pack; the following draws on established pharmacological literature. Bromocriptine acts principally as a partial agonist at dopamine D2 and D3 receptors in the pituitary, striatum, and hypothalamus. Pituitary D2 agonism suppresses prolactin secretion, underpinning its use in hyperprolactinemia and prolactin-secreting adenomas. Striatal D2/D3 activation compensates for dopamine deficiency in the nigrostriatal pathway, providing symptomatic benefit in Parkinson's disease. A distinct mechanism — modulation of hypothalamic circadian signalling and sympathetic nervous system tone via D2 receptors — supports its FDA-approved use for type 2 diabetes mellitus (brand name Cycloset). Bromocriptine therefore operates at the intersection of neuroendocrine and metabolic regulation, with no established cytotoxic activity.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Bromocriptine is a dopamine D2 receptor agonist. Its role in fucosylation pathways is unknown.
 
-Congenital Disorders of Glycosylation with Defective Fucosylation are rare inherited metabolic diseases affecting the biosynthesis of fucosylated glycoproteins. The best-characterised subtype is CDG-IIc (Leukocyte Adhesion Deficiency Type II, LAD-II), caused by loss-of-function mutations in *SLC35C1*, which encodes the Golgi GDP-fucose transporter. Clinical features include recurrent bacterial infections due to absent selectin ligands, intellectual disability, short stature, and distinctive facies. Partial phenotypic rescue with exogenous fucose supplementation is possible in some patients.
-
-The mechanistic link between Bromocriptine's dopamine receptor pharmacology and CDG fucosylation defects is highly speculative and currently lacks any experimental or clinical basis. Dopamine D2/D3 receptor agonism has no established pathway to enhance GDP-fucose synthesis, transport into the Golgi, or incorporation into glycoproteins. The TxGNN model's high prediction score most likely reflects indirect topological proximity within the disease–gene–drug knowledge graph rather than a direct pharmacological mechanism. This prediction is classified L5 (model prediction only) and requires foundational pre-clinical validation before any resources are committed.
+The prediction is therefore hard to justify. The high score (99.83%) is a graph-based inference and is not supported by any mechanism, trial or publication. No link has been shown between D2 agonism and fucosylation defects, which are inherited metabolic disorders.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Congenital Disorder of Glycosylation with Defective Fucosylation.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available for Congenital Disorder of Glycosylation with Defective Fucosylation.
+Currently no related literature available.
 
 ---
 
 ## Singapore Market Information
 
-Bromocriptine is not currently registered in Singapore. No product authorizations are on record in this dataset.
-
-For reference, bromocriptine is marketed internationally under brand names including **Parlodel** (Novartis) and **Cycloset** (Salix Pharmaceuticals), with approved indications spanning Parkinson's disease, hyperprolactinemia, acromegaly, and type 2 diabetes mellitus. Any future Singapore registration pathway should reference these international reference products.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN09036P | AA PHARMA BROMOCRIPTINE TABLET 2.5 mg (Apotex Inc) | Tablet, film coated (oral) | Not stated in the record |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Key warnings and contraindications data are not available in this Evidence Pack; prescribers should consult the manufacturer's current prescribing information and the Health Sciences Authority (HSA) Therapeutic Products guidance.
-
-**Notable safety signal relevant to CNS repurposing:** Clinical literature associated with the Schizophrenia prediction (rank 9, PMID 8120934) documents a case where low-dose bromocriptine induced schizophrenia-like psychosis in a patient without prior psychiatric history; symptoms resolved fully on discontinuation. This is consistent with the known risk of dopamine agonists precipitating or exacerbating psychotic symptoms via mesolimbic D2 hyperstimulation, and is a critical safety consideration for any proposed CNS repurposing of this drug.
+Please refer to the package insert for safety information. No drug interactions were found in the queried data.
 
 ---
 
@@ -96,15 +92,15 @@ Please refer to the package insert for safety information. Key warnings and cont
 **Decision: Hold**
 
 **Rationale:**
-The top TxGNN prediction — Congenital Disorder of Glycosylation with Defective Fucosylation — is a pure model prediction (L5) with no clinical, pre-clinical, or mechanistic supporting evidence, and the proposed dopaminergic–glycosylation axis lacks any established biological basis.
+The prediction has no clinical trials, no literature and no plausible mechanism, so it stays at evidence level L5. It should not move forward on the model score alone.
 
 **To proceed, the following is needed:**
+- Obtain the HSA package insert to fill the missing warnings, contraindications and approved indications.
+- Retrieve mechanism of action data (for example from DrugBank).
+- Show a biological link between dopamine D2 signalling and fucosylation, or find preclinical data.
+- Consider reprioritising within this candidate. Among the ten predictions, **schizophrenia** (rank 9) has the most evidence: 3 trials and about 20 publications, at evidence level L3. Most of it is small or older studies and case reports. The trials mainly address antipsychotic side effects, not the disease itself. A case report of bromocriptine-induced psychosis is a safety signal that needs to be resolved first.
 
-- **MOA data (DrugBank API):** Retrieve the full receptor binding profile, pharmacodynamics, target affinities (D1, D2, D3, serotonin 5-HT2C, adrenergic), and pharmacokinetics to enable a proper mechanistic plausibility screen
-- **Pre-clinical mechanistic validation:** Cell-based assays in CDG patient-derived fibroblasts or equivalent models testing whether D2 receptor agonism or downstream cAMP/PKA pathway modulation affects GDP-fucose transport or fucosylation capacity
-- **Singapore regulatory pathway:** Confirm whether any compassionate-use, clinical trial importation, or foreign reference product (Parlodel/Cycloset) registration route is applicable before committing to development activities
-- **Prioritise Retinal Dystrophy (rank 3, L4):** Commission a dedicated evaluation; PMID 39009597 (Nature Communications, 2024) reports mutation-agnostic pre-clinical efficacy for a systems pharmacology combination including bromocriptine in inherited retinopathy models — this is the most immediately actionable signal in this pack
-- **Evaluate Schizophrenia signal (rank 9, L3) with full safety risk stratification:** The available literature indicates Bromocriptine acts on negative symptoms as a D2 agonist adjunct, but the same mechanism carries documented psychosis-induction risk; a benefit–risk analysis for adjunctive use in treatment-resistant negative symptoms requires a separate safety-focused evaluation
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

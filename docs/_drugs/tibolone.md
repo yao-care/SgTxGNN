@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Tibolone
-parent: Low Evidence (L5)
+parent: Medium Evidence (L3-L4)
 nav_order: 977
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Tibolone
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,80 +29,69 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tibolone: From Menopausal Hormone Therapy to Migraine with Brainstem Aura
+# Tibolone: From an Unrecorded Original Indication to Migraine with Brainstem Aura
 
 ## One-Sentence Summary
 
-> Tibolone is a synthetic steroid used clinically as hormone therapy for postmenopausal climacteric complaints (based on contextual literature evidence — no formal original indication is recorded in the current regulatory dataset).
-> The TxGNN model predicts it may be effective for **Migraine with Brainstem Aura**,
-> currently supported by **0 clinical trials** and **2 publications**, with no formally documented mechanism of action.
-
----
+Tibolone is an oral hormonal tablet marketed in Singapore as LIVIAL, but the registration record does not state its approved indication.
+The TxGNN model predicts it may be effective for **migraine with brainstem aura**, a prediction that has **no registered clinical trials** and **2 publications** behind it.
+The evidence is indirect, covering hormone-related migraine in general rather than brainstem aura specifically.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not formally documented in regulatory data; literature context suggests use as postmenopausal hormone therapy for climacteric complaints |
-| Predicted New Indication | Migraine with Brainstem Aura |
+| Original Indication | Not stated in the Singapore registration record |
+| Predicted New Indication | Migraine with brainstem aura |
 | TxGNN Prediction Score | 96.31% |
-| Evidence Level | L3 (observational/cohort study + review, no RCT or registered trial) |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, Tibolone is a synthetic steroid whose metabolites exhibit combined estrogenic, progestogenic, and weak androgenic activity, and it has been used as postmenopausal hormone therapy for climacteric complaints. Mechanistically, this hormonal profile could theoretically modulate hypothalamic-pituitary axis fluctuations that are implicated as migraine triggers during the menopausal transition.
+Currently, detailed mechanism of action data is not available. Tibolone's metabolites are estrogenic, progestogenic and androgenic. It has also shown bone-protective activity in postmenopausal osteoporosis. Its efficacy in its original indication cannot be confirmed from the data provided.
 
-However, the mechanistic link is a class-level (HRT-like) extrapolation rather than evidence directly validated for the brainstem-aura migraine subtype specifically. Existing literature (a 2018 review and a 2006 randomized prospective comparison against low-dose estrogen-progestogen therapy) addresses migraine and headache disorders broadly in menopausal women, not this specific migraine subtype. No clinical trials — registered or completed — currently exist for this indication, and the drug's original indication itself is not formally documented in the available regulatory dataset, which limits confidence in the mechanistic rationale.
+Menstrual and menopausal migraine is linked to estrogen fluctuation. Large swings in estradiol during the perimenopausal period are an established migraine trigger. Tibolone's hormonal metabolites could plausibly stabilise hormone levels, which gives the prediction an indirect rationale.
 
----
+The direction of effect is uncertain. The supporting literature covers migraine in general, not brainstem aura. Hormonal therapy can also worsen aura in some patients. The prediction should therefore be treated as a research question, not as a treatment signal.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [29521155](https://pubmed.ncbi.nlm.nih.gov/29521155/) | 2018 | Review | Climacteric | Reviews hormonal fluctuations (especially perimenopausal estradiol changes) as a key migraine trigger; discusses differential effects across migraine subtypes including those with aura |
-| [16894336](https://pubmed.ncbi.nlm.nih.gov/16894336/) | 2006 | Cohort | Menopause (New York, N.Y.) | Randomized prospective comparison of tibolone vs. low-dose estrogen-progestogen therapy on the course of primary headaches in postmenopausal women requesting hormone therapy |
-
----
+| [16894336](https://pubmed.ncbi.nlm.nih.gov/16894336/) | 2006 | Randomized prospective study (design details unclear) | Menopause | Compared tibolone with continuous combined low-dose estrogen-progestogen therapy on the course of primary headaches in postmenopausal women seeking hormone therapy. Only the study aim is available, with no results in the abstract provided. |
+| [29521155](https://pubmed.ncbi.nlm.nih.gov/29521155/) | 2018 | Review | Climacteric | Hormonal fluctuations, especially large estradiol changes in the perimenopause, are an important migraine trigger. Different migraine types, with and without aura, can be influenced differently. |
 
 ## Singapore Market Information
 
-No product registrations found in Singapore market data (0 licenses; drug currently not marketed).
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN05423P | LIVIAL TABLET 2.5 mg (N V Organon) | Tablet (oral) | Not stated in the record |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-> **Note:** TFDA/local product-label warnings and contraindications are currently a documented **Blocking** data gap (DG001), meaning a formal safety pre-assessment (S1) cannot be completed until label data is obtained.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Evidence is currently limited to two non-randomized/observational publications with no registered clinical trials, and a Blocking data gap exists for core safety information (label warnings/contraindications), which prevents completion of the standard S1 safety pre-assessment. The drug is also not currently marketed in Singapore.
+The prediction score is high (96.31%), but there are no registered trials. The literature is limited to one study with no available results and one narrative review, and none of it addresses brainstem aura. Hormonal therapy may worsen aura, so a benefit cannot be assumed.
 
 **To proceed, the following is needed:**
-- TFDA/manufacturer package insert (warnings, contraindications) — resolve Blocking gap DG001
-- Confirmed mechanism of action (DrugBank API query) — resolve High-severity gap DG002
-- Formal documentation of the original approved indication(s)
-- Targeted literature or preclinical search specific to the brainstem-aura migraine subtype (current evidence addresses migraine/headache broadly, not this subtype)
-- Assessment of whether any clinical trials are planned or registered for this indication
+- The HSA package insert warnings and contraindications (a blocking gap for safety screening), plus the approved indication for LIVIAL
+- Detailed mechanism of action data, for example from the DrugBank API
+- The full text and results of the 2006 tibolone vs. low-dose EPT headache study (PMID 16894336)
+- A prospective study design that tests migraine frequency and aura risk, with aura-specific safety monitoring
+
+The other nine predicted indications (ranks 2 to 10) are not assessed in detail here. Seven are also on Hold at L5, with prediction only, no trials and no literature. The other is "migraine disorder", which shares the same indirect hormonal rationale and is rated "Research Question" at L4.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

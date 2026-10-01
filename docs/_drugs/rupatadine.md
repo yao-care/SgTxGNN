@@ -29,85 +29,82 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Rupatadine: From Allergic Rhinitis/Chronic Urticaria to Cold Urticaria
+# Rupatadine: From Allergic Rhinitis and Urticaria to Cold Urticaria
 
 ## One-Sentence Summary
 
-Rupatadine is a second-generation antihistamine with dual H1-receptor and platelet-activating factor (PAF) antagonist activity, historically used for allergic rhinitis and chronic urticaria (based on literature, as no structured original-indication data was available for this dataset). The TxGNN model predicts it may also be effective for **Cold Urticaria** (cold contact urticaria), a physical/inducible urticaria subtype, with **1 completed Phase 2 RCT** and **8 supporting publications**, including a dedicated randomized controlled trial.
-
----
+Rupatadine is a second-generation antihistamine that blocks both histamine H1 and platelet-activating factor (PAF) receptors. Published reviews describe its approved use in allergic rhinitis and urticaria, but the Singapore registration records provided do not state the approved indications.
+The TxGNN model predicts it may be effective for **cold urticaria**, with **1 completed Phase 2 trial** and **8 publications** (including 1 RCT) supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented in Singapore regulatory data (drug not locally registered); literature indicates allergic rhinitis and chronic urticaria as established global uses |
-| Predicted New Indication | Cold Urticaria (Cold Contact Urticaria) |
+| Original Indication | Not stated in the Singapore registration records; published reviews describe allergic rhinitis and urticaria |
+| Predicted New Indication | Cold urticaria |
 | TxGNN Prediction Score | 96.97% |
 | Evidence Level | L2 |
-| Singapore Market Status | ✗ Not marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
 | Recommended Decision | Proceed with Guardrails |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Structured mechanism-of-action data (`original_moa`) is currently a data gap for this drug. However, the supporting literature consistently describes rupatadine as a second-generation, non-sedating H1-antihistamine that also has clinically relevant antagonist activity against platelet-activating factor (PAF) — a dual mechanism distinguishing it from most other antihistamines (PMID 23806068, 25491409).
+A structured mechanism-of-action record is not available for this drug. The published literature describes rupatadine as a long-acting, non-sedating H1 antihistamine with additional PAF antagonist activity.
 
-Cold urticaria (cold contact urticaria) is a mast-cell-mediated physical urticaria in which cold exposure triggers local release of histamine and PAF, producing wheals and pruritus. Since rupatadine's core pharmacology directly targets both of these mediators, the mechanistic rationale for efficacy in cold urticaria is stronger than for a typical "off-target" repurposing candidate — it extends the drug's known antihistamine/anti-PAF activity to a related, mechanistically congruent urticaria subtype rather than an unrelated disease area.
-
-This is reinforced by a dedicated Phase 2 randomized, double-blind, three-way crossover, placebo-controlled trial (NCT01605487) specifically designed to test rupatadine 20 mg and 40 mg in cold contact urticaria using a standardized cold-provocation device (TempTest®), along with a separate published RCT (PMID 26038847) replicating the up-dosing efficacy signal.
-
----
+Cold urticaria is a mast cell-mediated condition in which histamine and PAF both play a role. Second-generation H1 antihistamines are the recommended first-line therapy. Rupatadine's dual action therefore fits the disease mechanism directly. The completed crossover trial and the published studies assessed symptom control and temperature and stimulation-time thresholds, which is consistent with this mechanism.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01605487](https://clinicaltrials.gov/study/NCT01605487) | Phase 2 | Completed | 24 | Double-blind, three-way crossover, placebo-controlled trial evaluating rupatadine 20 mg and 40 mg for cold contact urticaria using a standardized Peltier-based cold-provocation device (TempTest®) to determine symptom and temperature/stimulation-time thresholds |
+| [NCT01605487](https://clinicaltrials.gov/study/NCT01605487) | Phase 2 | Completed | 24 | Double-blind, three-way crossover, placebo-controlled study of rupatadine 20 mg and 40 mg in cold contact urticaria. Efficacy, safety and mechanisms were assessed with a TempTest® provocation device (2012-06 to 2014-10). |
 
----
+The evidence is a single small Phase 2 study. No Phase 3 data are available.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [26038847](https://pubmed.ncbi.nlm.nih.gov/26038847/) | 2016 | RCT | Acta Dermato-Venereologica | Two-centre, randomized, double-blind, 3-way crossover, placebo-controlled study confirming rupatadine 20 mg and 40 mg are effective in reducing symptoms of chronic cold urticaria |
-| [20143651](https://pubmed.ncbi.nlm.nih.gov/20143651/) | 2010 | Clinical Trial | Ann Allergy Asthma Immunol | Rupatadine improved symptom control, stimulation time, and temperature thresholds in patients with acquired cold urticaria |
-| [30708143](https://pubmed.ncbi.nlm.nih.gov/30708143/) | 2019 | Cohort/Mechanistic Study | J Allergy Clin Immunol Pract | Examined H1-antihistamine inhibition of histamine/codeine-induced wheals and its (lack of) predictive value for treatment response in chronic cold urticaria |
-| [24977664](https://pubmed.ncbi.nlm.nih.gov/24977664/) | 2015 | Prospective Cohort | Acta Dermato-Venereologica | One-year prospective study defining temperature thresholds as a tool to assess clinical course of acquired cold contact urticaria |
-| [23806068](https://pubmed.ncbi.nlm.nih.gov/23806068/) | 2013 | Review | Expert Opin Pharmacother | Overview of rupatadine's dual H1/PAF antagonist activity, rapid onset, and long-lasting effect in urticaria treatment |
-| [25491409](https://pubmed.ncbi.nlm.nih.gov/25491409/) | 2015 | Review | Allergy | Update on rupatadine's broadened mechanism of action involving PAF beyond classic H1-antihistamine effects |
-| [41424665](https://pubmed.ncbi.nlm.nih.gov/41424665/) | 2025 | Review | Drugs in Context | Case series review of off-label rupatadine use across allergic and skin disorders, leveraging its antihistamine and anti-PAF effects |
-| [19392988](https://pubmed.ncbi.nlm.nih.gov/19392988/) | 2009 | Case Series | Allergy | Early case series reporting treatment of acquired cold urticaria with rupatadine |
-
----
+| [26038847](https://pubmed.ncbi.nlm.nih.gov/26038847/) | 2016 | RCT | Acta Derm Venereol | Two-centre, randomized, double-blind, 3-way crossover, placebo-controlled study. Rupatadine 20 mg and 40 mg reduced symptoms of chronic cold urticaria. |
+| [20143651](https://pubmed.ncbi.nlm.nih.gov/20143651/) | 2010 | Clinical study | Ann Allergy Asthma Immunol | Assessed rupatadine's effects on symptom control, stimulation time and temperature thresholds in acquired cold urticaria. |
+| [19392988](https://pubmed.ncbi.nlm.nih.gov/19392988/) | 2009 | Clinical study | Allergy | Reports treatment of acquired cold urticaria with rupatadine (no abstract available). |
+| [30708143](https://pubmed.ncbi.nlm.nih.gov/30708143/) | 2019 | Clinical/mechanistic study | J Allergy Clin Immunol Pract | H1-antihistamine inhibition of histamine- and codeine-induced wheals did not predict response in chronic cold urticaria. |
+| [24977664](https://pubmed.ncbi.nlm.nih.gov/24977664/) | 2015 | Prospective observational study | Acta Derm Venereol | One-year study of 19 patients on temperature thresholds for tracking the clinical course of cold contact urticaria. It is not specific to rupatadine. |
+| [23806068](https://pubmed.ncbi.nlm.nih.gov/23806068/) | 2013 | Review | Expert Opin Pharmacother | Reviews rupatadine in urticaria: dual PAF/histamine antagonism, once-daily dosing and good tolerability. |
+| [25491409](https://pubmed.ncbi.nlm.nih.gov/25491409/) | 2015 | Review | Allergy | Update on rupatadine in allergic disorders, covering its broader anti-PAF and anti-inflammatory mechanism. |
+| [41424665](https://pubmed.ncbi.nlm.nih.gov/41424665/) | 2025 | Case series (off-label use) | Drugs Context | Real-world off-label use of rupatadine in allergic and skin disorders, including urticaria of different causes. |
 
 ## Singapore Market Information
 
-Rupatadine is **not currently registered or marketed in Singapore** — the regulatory data pack shows 0 licenses on file. As a result, no product listings, dosage forms, or approved indication text are available for the Singapore market at this time.
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN14868P | RUPAFIN ORAL SOLUTION 1mg/ml | Solution | ITALFARMACO, S.A. |
+| SIN14087P | Rupafin Tablet 10mg | Tablet | Noucor Health S.A. |
 
----
+Approved indication text is not included in the registration records.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-drug interaction data are not currently available in the structured dataset for this drug — flagged as a blocking data gap, DG001.)
-
----
+Please refer to the package insert for safety information. No drug interaction records were found in the data provided.
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-A dedicated completed Phase 2 RCT plus a corroborating published RCT and mechanistic cohort studies support rupatadine's efficacy in cold urticaria, and the dual H1/PAF antagonist mechanism is pharmacologically coherent with this disease's pathophysiology. However, the pivotal trial had a small sample size (n=24), and the drug is not currently registered in Singapore, warranting a guarded, phased approach rather than immediate full endorsement.
+A completed placebo-controlled crossover trial and a published RCT support rupatadine in cold urticaria, and the mechanism fits the disease. The evidence is limited to small Phase 2-level studies, and the safety data are still missing.
+
+Other predictions in this pack are weaker:
+- **Allergic urticaria (L4, Research Question):** this term probably overlaps existing urticaria labeling, so it may not be a true repurposing candidate.
+- **Eight further predictions (L5, Hold):** these are model predictions only, with no trials or literature and little or no mechanistic rationale. Examples are gastric ulcer, C1 inhibitor deficiency and uterine polyp.
 
 **To proceed, the following is needed:**
-- TFDA/HSA package insert data — warnings and contraindications (data gap DG001, blocking; required before any S1 safety assessment can proceed)
-- Confirmed detailed mechanism-of-action data from DrugBank (data gap DG002)
-- A Singapore market-entry/registration pathway assessment, since the drug currently has zero local licenses
-- Larger confirmatory trials in the cold urticaria population to strengthen the evidence base beyond the existing n=24 study
+- The HSA package insert warnings and contraindications. This is currently a blocking gap for safety screening.
+- Confirmation of the approved indications on the Singapore labels, to settle what is truly new.
+- A dosing plan, because the trial tested 20 mg and 40 mg while the Singapore tablet is 10 mg. Up-dosing would be off-label and needs dedicated safety review.
+- A larger or Phase 3 confirmatory study in cold urticaria.
+- A structured mechanism-of-action record from DrugBank.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

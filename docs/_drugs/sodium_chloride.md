@@ -29,88 +29,81 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sodium Chloride: From Undocumented Original Use to Breast Fibrocystic Disease
+# Sodium Chloride: From Intravenous Fluid and Electrolyte Products to Breast Fibrocystic Disease
 
 ## One-Sentence Summary
 
-Sodium chloride (NaCl, DrugBank DB09153) has no documented original indication or market registration in this evidence pack — it is currently **not marketed** in Singapore. The TxGNN model's top-ranked prediction is **Breast Fibrocystic Disease**, but the supporting evidence pack itself flags this link as likely **knowledge-graph noise** rather than a genuine pharmacological signal, with **1 non-treatment clinical trial** and **7 basic-research publications** — none demonstrating therapeutic efficacy.
-
----
+Sodium chloride is a basic electrolyte, marketed in Singapore mainly as saline infusion and injection products. The registration data does not record an approved indication.
+The TxGNN model predicts it may be relevant to **breast fibrocystic disease**, but **no therapeutic evidence** supports this. There is **1 registered clinical trial** (a diagnostic imaging study that does not test sodium chloride) and **7 publications** (all describing cyst fluid composition or unrelated topics, none testing treatment).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not documented (no licenses or filed indication text in evidence pack) |
-| Predicted New Indication | Breast Fibrocystic Disease |
+| Predicted New Indication | Breast fibrocystic disease |
 | TxGNN Prediction Score | 96.79% |
-| Evidence Level | L5 (model prediction only, no supportive treatment studies) |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 (mechanism and biochemical studies only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 20 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for sodium chloride in this evidence pack. Based on known pharmacology, NaCl is an inert electrolyte with no intrinsic pharmacodynamic activity of its own — it functions physiologically as an isotonic/physiological solution used for hydration, irrigation, and as a diluent, rather than acting on a specific disease target.
+Currently, detailed mechanism of action data is not available. Sodium chloride is the main extracellular electrolyte, and its use as a fluid and electrolyte replacement is well established. No pharmacological mechanism links it to treating breast cysts.
 
-For the top-ranked candidate, **Breast Fibrocystic Disease**, the evidence pack explicitly assesses this link as a **knowledge-graph artifact**: the single associated clinical trial (NCT02887937) is a diagnostic contrast-enhanced ultrasound imaging study with no NaCl intervention arm, and the literature consists of basic biochemistry research characterizing sodium/potassium and chloride concentrations in breast cyst fluid — not therapeutic studies. No causal or mechanistic pathway connects NaCl administration to resolution of fibrocystic breast disease.
+The only link in the literature is compositional. Sodium and chloride are the main electrolytes in breast cyst fluid, and studies use the Na+/K+ ratio to classify cysts into types (for example PMID 2140797). This describes what cyst fluid contains. It does not show that sodium chloride treats the condition.
 
-By contrast, two lower-ranked candidates in this pack — **vulvovaginitis** and **vulvitis** (ranks 2–3, TxGNN scores ~96.7% and ~96.3%) — have a more plausible, if weak, mechanistic rationale: saline vaginal irrigation as a non-specific physical/osmotic adjunct (dilution of irritants/pathogens, mucosal moisture support) rather than a pharmacological antimicrobial effect. One directly relevant comparative study (PMID 22301569) examined saline irrigation as an adjunct to antibiotic therapy in infectious vaginitis. These were rated L3 ("Research Question" stage) versus L5 ("Hold") for the top-ranked candidate.
-
----
+The high TxGNN score most likely reflects this co-occurrence in the knowledge graph rather than a therapeutic relationship. It should be treated as a hypothesis-generating signal only.
 
 ## Clinical Trial Evidence
 
-*(For the top-ranked predicted indication: Breast Fibrocystic Disease)*
-
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT02887937](https://clinicaltrials.gov/study/NCT02887937) | N/A | Completed | 135 | Diagnostic imaging study evaluating contrast-enhanced ultrasound to determine whether biopsy is necessary for cystic breast masses; no NaCl treatment arm — classified as low relevance (Grade C) |
-
----
+| [NCT02887937](https://clinicaltrials.gov/study/NCT02887937) | N/A | Completed | 135 | Contrast-enhanced ultrasound to assess cystic breast masses and decide whether biopsy is needed. Diagnostic study; sodium chloride is not the intervention. |
 
 ## Literature Evidence
 
-*(For the top-ranked predicted indication: Breast Fibrocystic Disease)*
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [9375824](https://pubmed.ncbi.nlm.nih.gov/9375824/) | 1997 | Comparative Study | Nephron | Compared amino acid and electrolyte composition of breast cyst fluid vs. polycystic kidney disease cyst fluid |
-| [2140797](https://pubmed.ncbi.nlm.nih.gov/2140797/) | 1990 | Basic Research | Eur J Surg Oncol | Classified breast cysts by intracystic Na⁺/K⁺ ratio, chloride, glucose, and pH — descriptive biochemistry, not treatment |
-| [2015669](https://pubmed.ncbi.nlm.nih.gov/2015669/) | 1991 | Basic Research | Clinical Chemistry | Identified GCDFP-70 protein in cyst fluid as albumin, used for cyst subtype classification |
-| [10797312](https://pubmed.ncbi.nlm.nih.gov/10797312/) | 2000 | Basic Research | J Cell Physiol | Studied intracellular pH regulation in normal vs. malignant breast cell lines; unrelated to NaCl therapy |
-| [3369685](https://pubmed.ncbi.nlm.nih.gov/3369685/) | 1988 | Basic Research | Analytical Biochemistry | Collagen fractionation technique using alkaline potassium chloride, not sodium chloride treatment |
-| [3232934](https://pubmed.ncbi.nlm.nih.gov/3232934/) | 1988 | Case Series | Annals of Plastic Surgery | 9-year experience with saline-inflatable breast implant reconstruction (device, not therapeutic NaCl use) |
-| [23073330](https://pubmed.ncbi.nlm.nih.gov/23073330/) | 2012 | Case Report | Am J Surg Pathol | Rare lymphoma case arising near a saline breast implant — adverse event report, not efficacy evidence |
-
----
+| [2015669](https://pubmed.ncbi.nlm.nih.gov/2015669/) | 1991 | Biochemical analysis | Clinical Chemistry | Cyst fluid protein GCDFP-70 was identified as albumin and used to classify cysts into two types. |
+| [2140797](https://pubmed.ncbi.nlm.nih.gov/2140797/) | 1990 | Biochemical/hormonal analysis | Eur J Surg Oncol | In 88 patients, cysts were classified by Na+/K+ ratio, chloride, glucose, pH and DHAS. Describes composition, not treatment. |
+| [9375824](https://pubmed.ncbi.nlm.nih.gov/9375824/) | 1997 | Comparative fluid analysis | Nephron | Compared electrolytes and amino acids in breast cyst fluid and polycystic kidney cyst fluid. |
+| [3369685](https://pubmed.ncbi.nlm.nih.gov/3369685/) | 1988 | Laboratory study | Anal Biochem | Fractionation method for type V collagen in dysplastic and carcinomatous breast tissue. Laboratory technique only. |
+| [10797312](https://pubmed.ncbi.nlm.nih.gov/10797312/) | 2000 | In vitro cell study | J Cell Physiol | Intracellular pH regulation in nonmalignant and malignant breast cell lines. Not relevant to treatment. |
+| [3232934](https://pubmed.ncbi.nlm.nih.gov/3232934/) | 1988 | Case series | Ann Plast Surg | Breast reconstruction in 98 patients using saline-inflatable implants. Saline is the implant filling, not a treatment. |
+| [23073330](https://pubmed.ncbi.nlm.nih.gov/23073330/) | 2012 | Case report | Am J Surg Pathol | NK/T-cell lymphoma arising in association with a saline breast implant. Not relevant to efficacy. |
 
 ## Singapore Market Information
 
-No registered products found. Sodium chloride has **0 licenses** on file and is currently **not marketed** in Singapore under this evidence pack.
+20 registrations in total. Five main authorizations are listed below.
 
----
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN05951P | Sodium Chloride Intravenous Infusion BP 0.9% | Injection |
+| SIN16603P | Baxter-Sodium Chloride Injection USP 0.9% w/v | Infusion, solution |
+| SIN09481P | Sodium Chloride Injection BP 0.9% | Injection |
+| SIN06865P | Sodium Chloride Injection USP 0.45% | Injection |
+| SIN09858P | Sodium Chloride Injection BP 0.9% w/v | Injection |
+
+Other registered dosage forms include solution, sterile solution and enema.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No key warnings, contraindications, or drug interaction data were available in this evidence pack.
-
----
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (Breast Fibrocystic Disease) is explicitly flagged in the evidence pack as likely knowledge-graph noise — NaCl has no pharmacological activity and no causal mechanism links it to this condition; the only associated trial is a non-interventional imaging study, and all literature is basic cyst-fluid biochemistry rather than treatment evidence. This is insufficient to support any further repurposing action for this indication.
+No study tests sodium chloride as a treatment for breast fibrocystic disease. The linked literature describes cyst fluid composition only, and the single trial is a diagnostic imaging study. The prediction rests on the model score alone.
 
 **To proceed, the following is needed:**
-- Resolve blocking data gap **DG001**: obtain TFDA/HSA label warnings and contraindications (source: regulatory agency label PDF)
-- Resolve high-priority data gap **DG002**: query DrugBank API for formal mechanism-of-action data to support or refute mechanistic plausibility
-- If pursuing repurposing at all, redirect evaluation toward the more evidence-supported candidates in this pack — **vulvovaginitis** and **vulvitis** (L3, "Research Question" stage) — which have at least one directly relevant comparative study (PMID 22301569) on saline irrigation as an antibiotic adjunct
-- Confirm Singapore market/import registration pathway, since NaCl currently has zero licenses on file
+- A therapeutic or mechanistic rationale for sodium chloride in breast cysts, with at least one interventional study
+- Mechanism of action (MOA) data
+- HSA package insert warnings and contraindications, which are currently missing and block safety screening
+- Route compatibility assessment, since the available Singapore forms are mainly intravenous
+- Consider the lower-ranked prediction **vulvovaginitis** as a more promising direction. A clinical study of saline vaginal irrigation in infectious vaginitis (PMID 22301569) exists, but its design and outcome still need confirmation.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

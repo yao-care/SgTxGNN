@@ -33,67 +33,77 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-> Tipiracil is a thymidine phosphorylase inhibitor combined with trifluridine (TAS-102/Lonsurf), originally used to treat metastatic colorectal cancer.
-> The TxGNN model's top prediction suggests possible efficacy for **Cecum Villous Adenoma**,
-> but this direction currently has **0 clinical trials** and **0 publications** supporting it, and the evidence pack itself flags the mechanistic rationale as weak.
+Tipiracil is a component of the trifluridine/tipiracil combination (marketed as LONSURF), used for metastatic colorectal cancer.
+The TxGNN model predicts it may be useful for **cecum villous adenoma**, but there are **0 clinical trials** and **0 publications** for this indication.
+The prediction rests on the model score alone, and the mechanistic review finds no plausible rationale for it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Metastatic colorectal cancer (as part of the trifluridine/tipiracil combination, TAS-102/Lonsurf) — not independently registered in Singapore |
-| Predicted New Indication | Cecum Villous Adenoma |
+| Original Indication | Metastatic colorectal cancer (taken from the mechanistic notes; the Singapore license records contain no indication text) |
+| Predicted New Indication | Cecum villous adenoma |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for tipiracil is not available in this evidence pack (flagged as a High-severity data gap). Based on known pharmacology, tipiracil is a thymidine phosphorylase inhibitor that is co-formulated with trifluridine — trifluridine is the active cytotoxic antimetabolite, and tipiracil's role is to block its degradation, prolonging exposure. This combination (TAS-102/Lonsurf) is an approved cytotoxic chemotherapy for refractory metastatic colorectal cancer.
+Detailed mechanism-of-action data is not available in the source record. Tipiracil is a thymidine phosphorylase inhibitor. In the marketed combination it slows the breakdown of trifluridine, which raises trifluridine exposure. Tipiracil has no cytotoxic activity of its own. The antitumour effect in metastatic colorectal cancer comes from trifluridine.
 
-Cecum villous adenoma, however, is a benign-to-premalignant colonic polyp, standardly managed by endoscopic resection rather than systemic cytotoxic therapy. The evidence pack's own rationale for this prediction states that the high TxGNN score likely reflects anatomical/embedding proximity ("colon" location) rather than genuine pharmacological relevance — there is no biological basis for a DNA-synthesis-targeting antimetabolite to be indicated for a non-proliferative, surgically curable lesion.
-
-Taken together, this is a case where a high model confidence score is not corroborated by mechanistic logic or external evidence. Of the ten candidates in this pack, most (ranks 1, 2, 4, 5, 7, 8, 9, 10) are explicitly annotated as likely false positives (benign/vascular/mesenchymal lesions or genetically distinct tumors like GIST). Rank 3 ("rectosigmoid junction neoplasm") is too non-specific to evaluate, and only rank 6 ("cecal disease") has any supporting literature — four case reports on trifluridine/tipiracil use in colorectal cancer — though none specifically address the named condition.
+A villous adenoma of the cecum is a benign, premalignant lesion in the same part of the bowel as colorectal cancer. It is normally managed by endoscopic resection, not systemic chemotherapy. A cytotoxic nucleoside combination is therefore not a plausible treatment. The high graph score most likely reflects anatomical proximity to colorectal cancer nodes in the knowledge graph, not a real pharmacological link.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Tipiracil (as trifluridine/tipiracil) is not currently registered in Singapore — 0 licenses on record in this evidence pack.
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN15491P | LONSURF FILM-COATED TABLET 15MG/6.14MG | Tablet, film coated |
+| SIN15494P | LONSURF FILM-COATED TABLET 20MG/8.19MG | Tablet, film coated |
+
+Both products are oral tablets made by Taiho Pharmaceutical Co., Ltd. (Kitajima Plant). The registry records provided contain no approved-indication text.
 
 ## Cytotoxicity
 
+Tipiracil itself is not cytotoxic. The section applies because it is part of a combination used in cancer, with trifluridine as the cytotoxic nucleoside.
+
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (antimetabolite/nucleoside-analog combination — trifluridine/tipiracil, TAS-102/Lonsurf) |
-| Myelosuppression Risk | High — leukopenia and neutropenia are reported adverse effects of the trifluridine/tipiracil combination (PMID [30677817](https://pubmed.ncbi.nlm.nih.gov/30677817/)) |
-| Emetogenicity Classification | Low to Moderate |
-| Monitoring Items | CBC with differential, renal function (tipiracil is renally cleared), liver function |
-| Handling Protection | Yes — must be handled per cytotoxic drug handling regulations |
+| Cytotoxicity Classification | Conventional cytotoxic combination (trifluridine, a nucleoside analogue, plus tipiracil as a pharmacokinetic enhancer) |
+| Myelosuppression Risk | Leukopenia and neutropenia are reported adverse effects of the combination (from published case literature). Please refer to the package insert for rates and severity. |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert; blood counts are the key parameter given the reported leukopenia and neutropenia |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. (No structured warnings, contraindications, or DDI data are available in this evidence pack — TFDA/label data is flagged as a Blocking gap, DG001.)
+Please refer to the package insert for safety information. No interactions were found in the interaction query.
+
+Published case reports of the combination (in colorectal and appendiceal cancer) describe leukopenia, neutropenia, fatigue, diarrhea and vomiting. One report describes leukocytoclastic vasculitis with late-onset Henoch-Schönlein purpura. This is indirect context from cancer patients, not evidence about the predicted indication.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top prediction (cecum villous adenoma) has no clinical trial or literature support, and the mechanistic rationale itself identifies the score as a likely embedding-space artifact rather than genuine pharmacological plausibility — a benign, endoscopically-curable lesion is not a rational target for cytotoxic antimetabolite therapy.
+The prediction has no trials or publications behind it and is not mechanistically plausible for a benign, endoscopically treated lesion. Using a cytotoxic combination there would expose patients to toxicity with no expected benefit.
+
+Among the other top-ranked predictions, only "rectosigmoid junction neoplasm" is flagged as a Research Question. It may overlap with the already approved colorectal cancer use. The rest are held at L5, including "cecal disease" at L4. Its literature is case reports of the approved colorectal cancer use, not cecal disease as a separate indication.
 
 **To proceed, the following is needed:**
-- TFDA/regulatory label (warnings, contraindications) — currently Blocking (DG001)
-- Confirmed mechanism of action for tipiracil — currently High severity gap (DG002)
-- If pursuing this indication class further, prioritize rank 6 ("cecal disease") instead, which has L4 evidence (four case reports on trifluridine/tipiracil in colorectal cancer contexts) and a "Research Question" recommendation, rather than rank 1
+- The HSA package insert (warnings and contraindications), which is required before any safety screening
+- Detailed mechanism-of-action data from DrugBank
+- Clarification of whether the predicted disease term refers to a benign or malignant condition
+- Evidence of a plausible clinical rationale for systemic therapy in this lesion (no such evidence was retrieved)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

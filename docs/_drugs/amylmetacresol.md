@@ -29,83 +29,71 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Amylmetacresol: From Throat Antiseptic to Cauda Equina Syndrome
+# Amylmetacresol: From Throat Antiseptic Lozenge to Cauda Equina Syndrome
 
 ## One-Sentence Summary
 
-Amylmetacresol is an antiseptic compound widely used in over-the-counter throat lozenges (e.g., Strepsils) for the relief of sore throat and minor mouth and throat infections.
-The TxGNN model predicts it may be effective for **Cauda Equina Syndrome**, a serious neurological emergency caused by compression of the spinal nerve roots.
-However, this prediction is supported by **0 clinical trials** and **0 publications**, and is currently considered a **model-only signal (L5)** with no corroborating empirical evidence.
-
----
+Amylmetacresol is an antiseptic ingredient in a throat lozenge marketed in Singapore, and no formal original indication is recorded in the registration data.
+The TxGNN model predicts it may be effective for **Cauda Equina Syndrome**, but there are **0 clinical trials** and **0 publications** supporting this direction.
+This is a model-only prediction (evidence level L5), so the recommendation is to hold.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Antiseptic for sore throat and minor mouth/throat infections (throat lozenges) |
-| Predicted New Indication | Cauda Equina Syndrome |
+|------|------|
+| Original Indication | Not recorded in the registration data (product type: throat lozenge) |
+| Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 (model prediction only — no supporting studies) |
-| Singapore Market Status | ✗ Not marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | **Hold** |
-
----
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on known pharmacological information, Amylmetacresol is a phenolic antiseptic compound that exerts its effect by disrupting bacterial and fungal cell membranes, leading to microbial cell death. It is most commonly formulated as an ingredient in throat lozenges (in combination with dichlorobenzyl alcohol) for local antiseptic action in the oropharynx.
+Currently, detailed mechanism of action data is not available. Based on known information, amylmetacresol is a topical antiseptic used in throat lozenges. Its use in sore throat is not documented in the supplied data, and no mechanistic link to cauda equina syndrome can be established.
 
-Cauda equina syndrome is a neurosurgical emergency caused by compression of the bundle of nerve roots at the lower end of the spinal cord. The primary treatment is urgent surgical decompression, and the underlying causes include large disc herniation, spinal stenosis, trauma, or — occasionally — spinal epidural abscess (an infectious aetiology). The evidence pack's mechanistic analysis notes that the TxGNN high score likely arises from an indirect knowledge graph path of the form **"infectious spondylitis → neural compression → cauda equina syndrome"**, rather than any direct drug-disease biological link.
+Cauda equina syndrome is a compressive neurological emergency, and a topical throat antiseptic has no known relevance to it. The high score (0.9999) is a knowledge-graph prediction only. Systemic exposure from lozenge use is also minimal, which weakens plausibility further.
 
-There is no plausible pathophysiological mechanism by which a topically applied oropharyngeal antiseptic could treat or modify cauda equina syndrome. The condition requires structural intervention, and Amylmetacresol lacks systemic bioavailability at therapeutic concentrations, CNS penetration, or any known neurological mechanism. This prediction is best interpreted as a **knowledge graph topological artefact** — a false positive arising from indirect node connections in the graph rather than a genuine biological signal.
-
----
+The other top-ranked predictions show the same pattern:
+- Seven of the top ten are ocular conditions (ciliary body disease, panuveitis, iris disease, infectious anterior uveitis, uveitis, ciliary body cancer, benign neoplasm of ciliary body). They appear to share a graph neighborhood rather than reflect a pharmacological rationale.
+- Rank 2, "obsolete neurogenic bladder", is flagged obsolete in the ontology, so it may reflect a stale node.
+- The only loosely arguable rationale is antiseptic activity for infectious anterior uveitis. No ocular antimicrobial data are available, and intraocular delivery of a lozenge antiseptic is not plausible.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Amylmetacresol in cauda equina syndrome.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for Amylmetacresol in cauda equina syndrome.
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Amylmetacresol has **no registered products** in Singapore (HSA) at the time of this report. No authorisation records are available.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN08806P | STREPSILS MAX PLUS LOZENGES | Lozenge | Not recorded in the registration data |
 
----
+Manufacturer: Reckitt Benckiser Healthcare International Limited; Reckitt Benckiser Healthcare Manufacturing (Thailand) Ltd.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
-> **Note:** Full safety data (key warnings, contraindications, and drug interaction profile) was not available in this evidence pack. Retrieval from the Singapore HSA product database or the manufacturer's Summary of Product Characteristics (SmPC) is recommended before any further evaluation.
-
----
+Please refer to the package insert for safety information. No drug interactions were found in the queried database.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-All 10 TxGNN-predicted indications for Amylmetacresol are rated L5 (model prediction only), with zero supporting clinical trials or published literature across all queried disease–drug pairs. The top-ranked prediction — cauda equina syndrome — has no mechanistic basis linking an oropharyngeal antiseptic to a compressive spinal neurological emergency, and the high TxGNN score is most plausibly explained by knowledge graph topological noise rather than a true therapeutic opportunity.
+The prediction is supported only by a knowledge-graph score. There are no trials or literature, no mechanism of action data, and no plausible mechanistic link for cauda equina syndrome or for any of the other top-ten predictions.
 
 **To proceed, the following is needed:**
-
-- **Establish the drug's known pharmacological profile**: Retrieve the full DrugBank entry for DB13908, including confirmed mechanism of action, pharmacokinetics, and approved indications, to validate or refute the model's predictions.
-- **Obtain Singapore regulatory safety data**: Download and parse the HSA-registered product monograph (if any exist globally, e.g., UK or EU SmPC for Strepsils-type products) to complete the safety profile, including contraindications and key warnings.
-- **Reconsider candidate indication selection**: Given that all 10 predicted indications are L5 with no supporting evidence and several reflect clear KG topological artefacts (ocular disease cluster, neurological cluster), a broader TxGNN candidate list should be reviewed for indications where Amylmetacresol's antiseptic mechanism might have a defensible biological connection — for example, **oral mucositis**, **recurrent aphthous stomatitis**, or **oropharyngeal candidiasis**.
-- **Conduct expert mechanistic review**: A pharmacologist or clinical expert should review whether any of the 10 predicted indications warrants preclinical investigation before committing resources to evidence gathering.
-
----
-
-> ⚠️ **Disclaimer**: This report is for research reference only and does not constitute medical advice. All drug repurposing candidates require clinical validation before application.
+- HSA package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data (for example from DrugBank)
+- The original approved indication for the Singapore registration
+- Any published preclinical or clinical evidence linking amylmetacresol to the predicted condition
+- Confirmation that the predicted disease terms are current in the ontology, since one is flagged obsolete
+- A route-of-administration feasibility assessment, since a lozenge is not an obvious fit for the predicted conditions
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

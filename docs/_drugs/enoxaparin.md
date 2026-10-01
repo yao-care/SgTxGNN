@@ -29,55 +29,66 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Enoxaparin: From Venous Thromboembolism to Thrombophilia due to Protein C Deficiency (Autosomal Recessive)
+# Enoxaparin: Repurposing Prediction for Thrombophilia due to Protein C Deficiency (Autosomal Recessive)
 
 ## One-Sentence Summary
 
-Enoxaparin is a low molecular weight heparin (LMWH) internationally established for the prevention and treatment of venous thromboembolism, deep vein thrombosis, pulmonary embolism, and acute coronary syndromes.
-The TxGNN model predicts it may be effective for **Thrombophilia due to Protein C Deficiency, Autosomal Recessive**, with a prediction score of **99.58%**.
-However, the current dataset contains **zero clinical trials** and **zero published literature** specific to this indication, limiting the evidence to Level 5 (model prediction only) — though it is worth noting that LMWH use in Protein C deficiency is already an internationally recognized clinical practice, making this less a true repurposing than a formalization of existing off-label use.
+Enoxaparin is a low-molecular-weight heparin anticoagulant that is marketed in Singapore as an injection. The TxGNN model predicts it may be useful for **thrombophilia due to protein C deficiency, autosomal recessive**, but this is a model prediction only, with **0 clinical trials** and **0 publications** retrieved for this disease.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Internationally used for VTE prevention and treatment (not registered in Singapore) |
-| Predicted New Indication | Thrombophilia due to Protein C Deficiency, Autosomal Recessive |
+|------|------|
+| Predicted New Indication | Thrombophilia due to protein C deficiency, autosomal recessive |
 | TxGNN Prediction Score | 99.58% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 12 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data was not available in the current data package. Based on established pharmacological knowledge, Enoxaparin is a low molecular weight heparin that acts primarily by binding to antithrombin III, which then accelerates the inactivation of Factor Xa and, to a lesser extent, Factor IIa (thrombin). This interrupts both the intrinsic and extrinsic coagulation cascades, producing a predictable anticoagulant effect without requiring laboratory monitoring in most standard dosing scenarios.
+Detailed mechanism of action data is not available in the source record. Based on the analysis notes, enoxaparin is a low-molecular-weight heparin that inhibits factor Xa and thrombin, acting through antithrombin. Protein C deficiency removes a natural brake on blood clotting, leaving patients in a hypercoagulable state. Blocking clotting factors is therefore biologically plausible in this setting.
 
-Protein C is a critical natural anticoagulant. When activated by the thrombin–thrombomodulin complex on endothelial surfaces, activated Protein C degrades Factors Va and VIIIa, thereby suppressing further thrombin generation. In autosomal recessive Protein C deficiency, both PROC gene copies are non-functional, resulting in near-complete loss of this regulatory pathway. Clinically, this manifests as neonatal purpura fulminans, recurrent venous thromboembolism, and warfarin-induced skin necrosis — a severe, life-threatening phenotype.
-
-The mechanistic rationale for Enoxaparin in this setting is straightforward: by directly suppressing thrombin generation via anti-Xa/IIa inhibition, it compensates upstream for the absent Protein C brake on the coagulation cascade. This approach is already practiced internationally as part of acute thrombosis management and bridge therapy in Protein C-deficient patients. The TxGNN model's high confidence score (99.58%) likely reflects this strong and biologically direct connection. The principal limitation is not mechanistic plausibility, but rather the complete absence of prospective clinical trial data in this specific genetic subtype in the current dataset.
+The record lists no original indications for enoxaparin, so the prediction could not be checked against known labelling. The score of 99.58% is a graph-based prediction and is not backed by any trial or publication for this disease. The prediction should be treated as a hypothesis rather than a finding.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for this specific indication.
+Currently no related clinical trials registered for this disease.
+
+The trials retrieved for other enoxaparin predictions in this record covered general thrombosis prevention, antiplatelet therapy and critical care. None studied protein C deficiency, so they do not count as supporting evidence here.
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available for this specific indication.
+Currently no related literature available for this disease.
+
+---
+
+## Singapore Market Information
+
+Enoxaparin has 12 registrations in Singapore. The registry data provided does not include approved indication text. Five main authorizations are listed below.
+
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN07668P | Clexane Injection 2000 IU (20 mg)/0.2 ml | Injection | Sanofi Winthrop Industrie |
+| SIN14095P | Clexane Injection 4000 IU (40 mg)/0.4 ml | Injection | Sanofi Winthrop Industrie |
+| SIN14096P | Clexane Injection 6000 IU (60 mg)/0.6 ml | Injection | Sanofi Winthrop Industrie |
+| SIN16331P | Inhixa Solution for Injection 8000 Anti-Xa IU (80 mg)/0.8 ml | Injection, solution | Shenzhen Techdow Pharmaceutical Co., Ltd |
+| SIN16999P | Inhixa Solution for Injection 2000 Anti-Xa IU (20 mg)/0.2 ml | Injection, solution | Shenzhen Techdow Pharmaceutical Co., Ltd. |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No warnings, contraindications or drug interaction data were available in the source record.
 
 ---
 
@@ -86,15 +97,18 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-Despite strong mechanistic plausibility and established real-world use of LMWH in Protein C deficiency, the current dataset contains no clinical trials and no publications specific to this genetic indication (L5 evidence), and Enoxaparin is not registered in Singapore — making any formal deployment premature without further evidence gathering and regulatory clarification.
+The prediction has a high model score, but there are no trials or publications for this disease (evidence level L5). Without known original indications or safety data, it cannot be assessed further. Among the other predictions, only thrombotic thrombocytopenic purpura is flagged as a research question (L4). It rests on case reports only.
 
 **To proceed, the following is needed:**
+- A targeted search for trials and literature on enoxaparin or heparins in severe protein C deficiency
+- Package insert warnings and contraindications from the HSA (currently a blocking gap)
+- Mechanism of action data from DrugBank
+- The approved indications for enoxaparin, to compare against the prediction
+- A check that the injectable route suits the target patient population
 
-- **Prescribing information**: Retrieve the HSA-registered or internationally approved Enoxaparin product labelling (SmPC / USPI) to document confirmed indications, key warnings, contraindications, and dosing recommendations
-- **Targeted literature review**: Conduct a dedicated search in PubMed, Orphanet, and ISTH guidelines for LMWH use in autosomal recessive Protein C deficiency — including neonatal purpura fulminans protocols and long-term anticoagulation strategies
-- **Regulatory pathway**: Clarify the applicable pathway in Singapore for use in an ultra-rare inherited thrombophilia — off-label prescribing, compassionate use, or HSA pre-submission consultation
-- **Specialist consultation**: Engage haematologists with expertise in inherited thrombophilias to define clinical positioning of Enoxaparin versus alternatives (Protein C concentrate, fresh frozen plasma, DOACs in older patients)
-- **Paediatric safety plan**: Given that the most severe phenotype presents in neonates, a dedicated safety monitoring protocol for this high-risk population is essential before any clinical use
+---
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -29,101 +29,81 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Fenoterol: From Bronchodilator/Tocolytic to Multiple System Atrophy
+# Fenoterol: From Bronchodilator Use to Multiple System Atrophy
 
 ## One-Sentence Summary
 
-Fenoterol (DB01288) is a selective β2-adrenergic agonist classically used as a bronchodilator for asthma and as a tocolytic agent for preterm labor, though it currently holds no registered product in Singapore.
-The TxGNN model predicts it may have potential relevance in **Multiple System Atrophy (MSA)** — a rare, progressive multisystem neurodegeneration — based on β2-mediated neuroprotective signalling pathways.
-However, this prediction is supported by **no clinical trials and no published literature** specific to this indication, placing confidence at the lowest evidence tier (L5).
-
----
+Fenoterol is a beta2-adrenergic agonist bronchodilator, marketed in Singapore mainly as a component of Berodual and Duovent inhalation products. The registration records supplied contain no indication text.
+The TxGNN model predicts it may be effective for **multiple system atrophy (MSA)**, but **no clinical trials and no publications** support this direction. The prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Not available (no Singapore registration; drug known as bronchodilator/tocolytic by pharmacological class) |
-| Predicted New Indication | Multiple System Atrophy |
+|------|------|
+| Original Indication | Not stated in the registration records (fenoterol is a beta2-agonist bronchodilator) |
+| Predicted New Indication | Multiple system atrophy |
 | TxGNN Prediction Score | 99.70% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 3 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on established pharmacological knowledge, Fenoterol is a selective β2-adrenergic receptor agonist — the same receptor class that includes salbutamol (albuterol) and salmeterol. Its established uses centre on bronchial smooth muscle relaxation (asthma, COPD) and uterine smooth muscle relaxation (tocolysis in preterm labour).
+Currently, detailed mechanism of action data is not available. Based on general pharmacology, fenoterol is a beta2-adrenergic agonist. It relaxes airway smooth muscle and is used to relieve bronchospasm. Its efficacy in airway disease is established, but this does not carry over to MSA.
 
-The connection to Multiple System Atrophy rests on an indirect mechanistic hypothesis: β2 adrenergic receptors are expressed in the central nervous system, and β2 agonism activates the cAMP/PKA signalling pathway, which has been associated with neuroprotective effects in some animal models. Other β2 agonists — notably clenbuterol — have shown disease-modifying signals in preclinical models of neurodegeneration. MSA is driven by α-synuclein aggregation causing multi-system neuronal loss; β2 agonism may theoretically attenuate neuroinflammation or promote autophagy-mediated clearance.
+MSA is a neurodegenerative disease. Beta2-mediated vasodilation could worsen the neurogenic orthostatic hypotension typical of MSA. So the pharmacology does not support a benefit here, and it raises a plausible safety concern. No rationale for disease modification was identified. The high score is best read as a knowledge-graph association, not as evidence of efficacy.
 
-That said, this mechanistic hypothesis is distant and speculative. MSA also features prominent autonomic failure, and β2 agonism might provide short-term symptomatic relief of orthostatic hypotension without addressing disease progression. Critically, there is no preclinical or clinical evidence specifically for Fenoterol in MSA. The TxGNN high score most likely reflects shared nodes in the autonomic nervous system subgraph of the knowledge graph, not validated biological proximity.
+The other top predictions show the same pattern. None has any retrieved trial or publication.
 
----
+- **Postural orthostatic tachycardia syndrome (99.61%)**: beta-agonism would be expected to raise heart rate and could worsen symptoms.
+- **Variably protease-sensitive prionopathy (99.54%)**: no plausible link to prion misfolding or clearance.
+- **Open-angle glaucoma (99.43%), primary hereditary glaucoma (99.37%) and glaucoma 1, open angle (98.16%)**: only a weak adrenergic effect on intraocular pressure. The first and third are near-duplicate ontology terms, and inhaled or systemic exposure differs from topical ocular delivery.
+- **Raynaud disease (99.41%)**: a theoretical vasodilatory rationale, but systemic cardiac effects and better-supported alternatives such as calcium channel blockers.
+- **Sinoatrial block (99.35%) and sinoatrial node disease (99.25%)**: a theoretical chronotropic rationale, but proarrhythmic risk.
+- **Anaphylaxis (98.28%)**: could only help with the bronchospasm component. Epinephrine remains first-line.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Fenoterol has no registered products with the Health Sciences Authority (HSA) of Singapore. It is not marketed and has zero active licences on record.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN07913P | DUOVENT UDVS NEBULISER SOLUTION | Solution | Not stated in registration data |
+| SIN11739P | BERODUAL N METERED DOSE INHALER | Aerosol, spray | Not stated in registration data |
+| SIN02664P | BERODUAL SOLUTION | Solution | Not stated in registration data |
 
----
-
-## All Predicted Indications — Summary
-
-Since the primary indication (Multiple System Atrophy) carries the lowest evidence level with a strong "Hold" recommendation, a brief overview of all 10 predicted indications is provided for completeness:
-
-| Rank | Disease | TxGNN Score | Evidence Level | Recommendation | Key Concern |
-|------|---------|-------------|---------------|---------------|-------------|
-| 1 | Multiple System Atrophy | 99.70% | L5 | Hold | No clinical/preclinical data; mechanistic distance far |
-| 2 | Postural Orthostatic Tachycardia Syndrome | 99.61% | L5 | **Hold** ⚠️ | Mechanistic contradiction — β2 agonism may worsen POTS |
-| 3 | Variably Protease-Sensitive Prionopathy | 99.54% | L5 | Hold | Ultra-rare prion disease; no known drug intersection |
-| 4 | Open-Angle Glaucoma | 99.43% | L5 | Hold | Weak mechanistic basis; standard of care uses β-blockers |
-| 5 | Raynaud Disease | 99.41% | L5 | Research Question | β2 vasodilation plausible; no direct evidence |
-| 6 | Primary Hereditary Glaucoma | 99.37% | L5 | Hold | Structural/genetic cause; pharmacology does not address root defect |
-| 7 | Sinoatrial Block | 99.35% | L4 | Research Question | Class-effect positive chronotropy known; fenoterol-specific data absent |
-| 8 | Sinoatrial Node Disease | 99.25% | L4 | Research Question | Same rationale as sinoatrial block |
-| 9 | Anaphylaxis | 98.28% | L4 | Research Question | Strong class-effect (β2 bronchodilation in anaphylaxis); fenoterol-specific data absent |
-| 10 | Glaucoma 1, Open Angle (OMIM) | 98.16% | L5 | Hold | MYOC/CYP1B1 structural pathology; β2 mechanistically irrelevant |
-
-> **⚠️ Special note on POTS (Rank 2):** β2 agonists cause peripheral vasodilation and reflex tachycardia — directly worsening the defining pathophysiology of POTS. Current standard of care uses β-blockers (propranolol), midodrine (α1 agonist), or ivabradine. This is a mechanistic contradiction, not just a data gap.
-
----
+All three products are inhaled or nebulised forms. Whether these routes suit MSA, glaucoma or any other predicted disease has not been assessed.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No safety data (warnings, contraindications, or drug interactions) was retrievable from the evidence pack for this candidate.
+Please refer to the package insert for safety information.
 
-> Clinically, as a β2 adrenergic agonist, Fenoterol carries class-level risks including tachycardia, hypokalaemia, tremor, and — at high doses — β1 cross-activation leading to arrhythmia. These are important considerations for any cardiac indication (e.g., sinoatrial block) in this prediction list.
-
----
+Pharmacology-based concerns raised in the prediction review:
+- **MSA:** possible worsening of neurogenic orthostatic hypotension through beta2-mediated vasodilation.
+- **POTS:** possible increase in heart rate and symptoms.
+- **Cardiac conduction disorders:** proarrhythmic potential.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-All 10 predicted indications are unsupported by any registered clinical trials or published literature for Fenoterol specifically. The top indication (Multiple System Atrophy) rests on an indirect, speculative mechanistic link with no preclinical validation. Two indications carry active mechanistic concerns (POTS presents a direct pharmacological contraindication; hereditary glaucoma subtypes are structurally determined). The drug is not marketed in Singapore, eliminating any existing regulatory pathway advantage.
+All ten predictions are model-only (L5) with no supporting trials or literature. For the top prediction (MSA) and several others (POTS, sinoatrial disorders), the known pharmacology points toward possible harm rather than benefit.
 
-**To proceed, the following would be needed:**
-
-- **MOA data from DrugBank**: Retrieve full pharmacology profile (receptor binding affinities, β1/β2 selectivity ratio, CNS penetrance) to validate neuroprotective hypothesis
-- **Literature broadening**: Extend PubMed search to include β2-agonist class effects in MSA animal models (clenbuterol, formoterol as analogues) to assess whether class-level evidence justifies a research question designation
-- **Preclinical feasibility assessment**: Determine if Fenoterol crosses the blood-brain barrier at therapeutic doses — a prerequisite for any CNS repurposing hypothesis
-- **Safety package**: Obtain TFDA or EMA package insert to complete contraindication and warning assessment before any clinical pathway discussion
-- **Raynaud / Anaphylaxis / SA node indications (Ranks 5, 7–9)**: These three-to-four "Research Question" candidates with L4 class-effect rationales may be more actionable — consider running targeted literature searches for β2 agonists (not Fenoterol specifically) in these conditions to determine if the class evidence is sufficient to elevate them to a hypothesis-generation stage
+**To proceed, the following is needed:**
+- The Singapore package insert (warnings, contraindications and approved indications), which is currently missing and blocks safety screening
+- Mechanism of action data from DrugBank
+- A targeted literature and trial search for fenoterol or beta2-agonists in the top predicted diseases
+- A safety and direction-of-effect review, especially for MSA, POTS and the cardiac conduction disorders
+- An assessment of route compatibility, since the current products are inhaled or nebulised
+- Merging duplicate glaucoma entries for review
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

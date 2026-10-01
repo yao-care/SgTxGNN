@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Vonoprazan
-parent: High Evidence (L1-L2)
+parent: Low Evidence (L5)
 nav_order: 1065
-evidence_level: L1
+evidence_level: L5
 indication_count: 10
 ---
 
 # Vonoprazan
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,89 +29,90 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Vonoprazan: From Unregistered Status in Singapore to Active Peptic Ulcer Disease
+# Vonoprazan: From Acid Suppression to Active Peptic Ulcer Disease
 
 ## One-Sentence Summary
 
-Vonoprazan is a first-in-class potassium-competitive acid blocker (P-CAB), approved overseas (e.g., Japan, as Takecab®) for gastric/duodenal ulcer, reflux esophagitis, and *H. pylori* eradication, but it currently holds **no registration in Singapore**. The TxGNN model's top-ranked prediction — **Active Peptic Ulcer Disease** — largely reconfirms this drug's core, already-established mechanism of action rather than identifying a genuinely novel use, with **2 clinical trials** and **17 publications** supporting the underlying pharmacology.
-
----
+Vonoprazan is a potassium-competitive acid blocker (P-CAB) that is marketed in Singapore as VOCINTI tablets. The Singapore licence records do not state an approved indication.
+The TxGNN model predicts it may be effective for **active peptic ulcer disease**, supported by **2 registered clinical trials** and **17 retrieved publications**, including published randomized trials and meta-analyses.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not registered in Singapore; approved overseas (Japan) for gastric ulcer, duodenal ulcer, reflux esophagitis, and *H. pylori* eradication (as Takecab®) |
-| Predicted New Indication | Active Peptic Ulcer Disease |
+| Predicted New Indication | Active peptic ulcer disease |
 | TxGNN Prediction Score | 99.97% |
-| Evidence Level | L1 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L1 (see caveat below) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 2 |
 | Recommended Decision | Proceed with Guardrails |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, DrugBank's structured MOA field is not populated for this drug (Data Gap DG002). Based on the evidence pack's own repurposing rationale and the supporting literature, however, Vonoprazan's mechanism is well characterized: it is a **potassium-competitive acid blocker (P-CAB)** that directly and reversibly inhibits the H⁺/K⁺-ATPase proton pump on gastric parietal cells, producing faster, more potent, and more sustained acid suppression than conventional PPIs.
+Currently, detailed mechanism of action data is not available in the structured drug record. The literature describes vonoprazan as a P-CAB that reversibly blocks the gastric H+/K+-ATPase (the proton pump). It gives stronger and faster acid suppression than proton pump inhibitors (PPIs). Gastric and duodenal ulcers are acid-dependent, so suppressing acid promotes healing and prevents recurrence.
 
-Critically, the evidence pack itself flags that this "predicted" indication is **not a speculative repurposing** — active peptic ulcer disease (gastric/duodenal ulcer, reflux esophagitis) is Vonoprazan's core, already-approved indication in markets such as Japan (marketed as Takecab® since 2015). The TxGNN prediction therefore functions less as a discovery of new biology and more as a **confirmation signal**, highlighting that Singapore's market lacks a registration for a mechanism-matched, globally validated indication.
+The prediction fits the known pharmacology. Published sources describe vonoprazan 20 mg once daily for gastroduodenal ulcer in Japan, and 10 mg once daily for secondary prevention of NSAID- or low-dose-aspirin-induced ulcer.
 
-Because acid suppression is the rate-limiting step in both ulcer healing and *H. pylori* eradication, the mechanistic fit between Vonoprazan's pharmacology and peptic ulcer disease is direct and non-inferential — unlike typical TxGNN cross-disease repurposing hypotheses that rely on indirect network relationships.
-
----
+**Caveat:** Because no original indication is recorded, this may not be true repurposing. Peptic ulcer may already be a labeled use in some markets. Check the Singapore label before treating it as a new indication.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT03214952](https://clinicaltrials.gov/study/NCT03214952) | N/A (Post-marketing surveillance) | Completed | 3,183 | Large real-world drug-use surveillance confirming safety and effectiveness of vonoprazan (Takecab) in gastric ulcer, duodenal ulcer, and reflux esophagitis |
-| [NCT03116841](https://clinicaltrials.gov/study/NCT03116841) | Phase 4 | Completed | 3 | Exploratory study on vonoprazan's effect on sleep disturbance in reflux esophagitis patients; small sample, indirect relevance to ulcer disease itself |
-
----
+| [NCT03214952](https://clinicaltrials.gov/study/NCT03214952) | N/A (post-marketing surveillance) | Completed | 3,183 | Real-world safety and effectiveness of vonoprazan (Takecab) in gastric ulcer, duodenal ulcer and reflux esophagitis. Observational with no comparator, so not efficacy-grade evidence. |
+| [NCT03116841](https://clinicaltrials.gov/study/NCT03116841) | Phase 4 | Completed | 3 | Exploratory study of vonoprazan 20 mg on sleep disturbance in reflux esophagitis. The population and endpoint do not match peptic ulcer, and the sample is too small to inform efficacy. |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [28988197](https://pubmed.ncbi.nlm.nih.gov/28988197/) | 2018 | RCT | Gut | Vonoprazan non-inferior to lansoprazole for secondary prevention of NSAID-induced peptic ulcer, with confirmed long-term safety |
-| [28267236](https://pubmed.ncbi.nlm.nih.gov/28267236/) | 2017 | RCT | Dig Endosc | Prospective RCT showing vonoprazan's healing effect on post-ESD artificial gastric ulcers |
-| [39156336](https://pubmed.ncbi.nlm.nih.gov/39156336/) | 2024 | Review | Cureus | Comprehensive review of vonoprazan's efficacy and safety across GERD, peptic ulcer disease, and *H. pylori* infection |
-| [38345252](https://pubmed.ncbi.nlm.nih.gov/38345252/) | 2024 | Systematic Review/Meta-analysis | Am J Gastroenterol | Network meta-analysis showing P-CABs (incl. vonoprazan) outperform PPIs in healing severe (Grade C/D) esophagitis |
-| [26369775](https://pubmed.ncbi.nlm.nih.gov/26369775/) | 2016 | PK/PD Study | Clin Pharmacokinet | Foundational PK/PD profile confirming approved dosing for gastroduodenal ulcer, reflux esophagitis, and NSAID-ulcer prevention |
-| [32998241](https://pubmed.ncbi.nlm.nih.gov/32998241/) | 2020 | Review | Pharmaceuticals (Basel) | Reviews vonoprazan's potential advantages over PPI-based regimens for *H. pylori* eradication and ulcer recurrence prevention |
-| [36660052](https://pubmed.ncbi.nlm.nih.gov/36660052/) | 2023 | Review | JGH Open | Overview of *H. pylori* infection spectrum, from peptic ulcer disease to gastric cancer, and role of eradication therapy |
-| [37066678](https://pubmed.ncbi.nlm.nih.gov/37066678/) | 2023 | PK/PD Study | Aliment Pharmacol Ther | Translational PK/PD analysis supporting optimal vonoprazan dosing for erosive esophagitis and *H. pylori* infection |
-| [41472371](https://pubmed.ncbi.nlm.nih.gov/41472371/) | 2026 | Review | J Gastroenterol Hepatol | Discusses rising *H. pylori* antibiotic resistance in Asia-Pacific, relevant to acid-suppression-based eradication regimens |
-| [41735211](https://pubmed.ncbi.nlm.nih.gov/41735211/) | 2026 | Systematic Review | Curr Top Med Chem | Broader review of peptic ulcer treatment landscape (2018–2024), contextualizing conventional vs. novel acid suppressants |
+| [28988197](https://pubmed.ncbi.nlm.nih.gov/28988197/) | 2018 | RCT | Gut | Randomized, lansoprazole-controlled non-inferiority study of vonoprazan for preventing recurrence of NSAID-induced peptic ulcer, with a single-blind extension on long-term safety. |
+| [28267236](https://pubmed.ncbi.nlm.nih.gov/28267236/) | 2017 | RCT | Digestive Endoscopy | Prospective randomized trial of vonoprazan for healing artificial gastric ulcers after endoscopic submucosal dissection. |
+| [38976448](https://pubmed.ncbi.nlm.nih.gov/38976448/) | 2025 | RCT (indirect) | Am J Gastroenterol | Phase 3 trial of zastaprazan, a different P-CAB, versus esomeprazole in erosive esophagitis. Class-level support only. |
+| [38345252](https://pubmed.ncbi.nlm.nih.gov/38345252/) | 2024 | Network meta-analysis (indirect) | Am J Gastroenterol | Compares P-CABs with PPIs for grade C/D esophagitis. Class-level support, not ulcer-specific. |
+| [39156336](https://pubmed.ncbi.nlm.nih.gov/39156336/) | 2024 | Review | Cureus | Reviews vonoprazan efficacy and safety in GERD, peptic ulcer disease and H. pylori infection. |
+| [26369775](https://pubmed.ncbi.nlm.nih.gov/26369775/) | 2016 | Review (PK/PD) | Clin Pharmacokinet | Describes the pharmacokinetics and pharmacodynamics of the first-in-class P-CAB, including the Japanese dosing for gastroduodenal ulcer. |
+| [37066678](https://pubmed.ncbi.nlm.nih.gov/37066678/) | 2023 | PK/PD analysis | Aliment Pharmacol Ther | Translational PK/PD support for vonoprazan dosing in erosive esophagitis and H. pylori infection. |
+| [32998241](https://pubmed.ncbi.nlm.nih.gov/32998241/) | 2020 | Review | Pharmaceuticals | Potential benefits of vonoprazan in H. pylori eradication, which lowers ulcer recurrence. |
+| [36660052](https://pubmed.ncbi.nlm.nih.gov/36660052/) | 2023 | Guideline/Review | JGH Open | H. pylori management, including testing and treatment in patients with peptic ulcer. |
+| [22512618](https://pubmed.ncbi.nlm.nih.gov/22512618/) | 2012 | Preclinical | J Med Chem | Discovery of TAK-438 (vonoprazan). The compound is more potent and longer-acting than PPIs in vivo. |
 
----
+Several other retrieved publications are unrelated to vonoprazan and were not used.
+
+The evidence packs for other predicted indications also contain directly relevant vonoprazan work:
+- A vonoprazan vs lansoprazole Phase 3 pair in gastric and duodenal ulcer (PMID 27891632).
+- Meta-analyses of vonoprazan vs PPI in ulcer disease (PMIDs 39294424, 39301419).
 
 ## Singapore Market Information
 
-Currently no Singapore (HSA) registrations exist for this drug — `taiwan_regulatory.total_licenses = 0` and no license records are available in the evidence pack.
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN15444P | VOCINTI FILM-COATED TABLET 20MG | Tablet, film coated | Takeda Pharmaceutical Company Limited (Hikari Plant) |
+| SIN15445P | VOCINTI FILM-COATED TABLET 10MG | Tablet, film coated | Takeda Pharmaceutical Company Limited (Hikari Plant) |
 
----
+Both products are oral. The records do not include approved indication text.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. (Key warnings, contraindications, and drug-interaction data are all currently marked as data gaps — notably DG001, a **Blocking** severity gap for local label warnings/contraindications, which must be resolved before any S1 safety pre-assessment can proceed.)
+Please refer to the package insert for safety information.
 
----
+The literature also reports long-term effects of vonoprazan. These include gastric mucosal changes, raised serum gastrin, and a case of severe rebound acid hypersecretion after 6 years of use (PMID 39712905).
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The mechanistic link between Vonoprazan and active peptic ulcer disease is direct rather than speculative — this is the drug's globally established core indication (approved in Japan since 2015), supported by a large post-marketing surveillance study (n=3,183) and multiple RCTs/reviews (Evidence Level L1). However, the drug is **not registered in Singapore**, and critical local safety data (HSA label warnings/contraindications, DG001) is missing, which blocks a full safety pre-assessment.
+The mechanism fits, and published randomized trials in ulcer populations support the indication. L1 rests on these publications, not on the two registered trials, which are observational or off-target. The Singapore label and safety data are not yet confirmed, so the recommendation is conditional.
 
 **To proceed, the following is needed:**
-- Local package insert / HSA label data (warnings, contraindications) — currently a **Blocking** data gap (DG001)
-- Formal DrugBank MOA record retrieval to close the mechanism-of-action data gap (DG002)
-- Drug-drug interaction (DDI) profile — currently "not_found" in the evidence pack
-- A regulatory filing strategy for Singapore market registration, given the drug's already-established efficacy/safety profile abroad
-- For completeness, lower-confidence candidate indications (ranks 2–10, e.g., peptic ulcer perforation, gastrojejunal ulcer) remain at evidence levels L3–L5 and are not ready for action; they are noted here only as lower-priority research questions, not part of this recommendation
+- Download and review the HSA package insert for warnings and contraindications. This is a blocking gap.
+- Confirm the approved indication on the Singapore label to decide whether this is a true new use.
+- Obtain detailed mechanism of action data from DrugBank.
+- Confirm H. pylori status and NSAID/aspirin use in the target population.
+- Plan monitoring for long-term acid-suppression effects, including rebound acid hypersecretion.
+
+The other nine predicted indications are weaker. Most are rated Hold or Research Question, and several rest on the knowledge-graph score alone.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

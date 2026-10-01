@@ -29,86 +29,64 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Piperazine: From Anthelmintic Therapy to Echinococcus granulosus Infection
+# Piperazine: From Roundworm Infections (Anthelmintic Use) to Echinococcus granulosus Infectious Disease
 
 ## One-Sentence Summary
 
-> Piperazine is a classical anthelmintic historically used against intestinal roundworm and pinworm infections (no official Singapore registry indication text is on file for this drug).
-> The TxGNN model predicts it may be effective for **Echinococcus granulosus infectious disease (hydatid disease)**,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications**, and the underlying mechanism is pharmacologically inconsistent with the target parasite.
-
----
+Piperazine is a long-established anthelmintic (worm-expelling) drug that acts on nematodes such as roundworm. The TxGNN model predicts it may be effective for **Echinococcus granulosus infectious disease** (hydatid disease), with a very high score of 97.7%. However, **0 clinical trials** and **0 publications** currently support this prediction, so it is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not on file — no Singapore market authorization exists; piperazine is historically known as an anthelmintic for roundworm/pinworm infections (general pharmacology background, not registry data) |
+| Original Indication | Not stated in the Singapore licence record (general pharmacology: nematode anthelmintic) |
 | Predicted New Indication | Echinococcus granulosus infectious disease |
 | TxGNN Prediction Score | 97.74% |
-| Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L5 (model prediction only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Detailed, registry-confirmed mechanism of action data for piperazine is not available in this evidence pack. Based on general pharmacological literature, piperazine is understood to act as a **GABA-gated chloride channel agonist**, causing flaccid paralysis of the neuromuscular system in nematodes (roundworms, pinworms), which are then expelled by normal intestinal peristalsis.
+Currently, detailed mechanism of action data for this record is not available. Based on general pharmacology, piperazine is a nematode anthelmintic that acts as a GABA-receptor agonist and causes flaccid paralysis of the worm. This should be verified against a primary source.
 
-However, *Echinococcus granulosus* is a **cestode (tapeworm)**, not a nematode. Cestode neuromuscular pharmacology differs substantially from that of nematodes, and piperazine has no established historical efficacy against cestode infections. The evidence pack's own mechanistic assessment explicitly flags this as a weak, indirect analogy rather than a biologically grounded hypothesis — the prediction appears to be driven by graph-level proximity in the knowledge graph (e.g., shared "anthelmintic" or "antiparasitic" category nodes) rather than a validated pharmacological pathway.
-
-No clinical trials or published studies link piperazine directly to *E. granulosus* treatment, and no in vitro or animal data specific to piperazine (as opposed to related anthelmintics) were retrieved. This combination — high model score, but mechanistic inconsistency and a complete absence of supporting evidence — is characteristic of a low-confidence, exploratory-only signal.
-
----
+*Echinococcus granulosus* is a tapeworm (a cestode), not a nematode, so the paralytic mechanism is not established for it. The biological link is therefore weak. The high score most likely reflects the drug's anthelmintic class in the knowledge graph rather than a specific mechanism against this parasite. Treat the prediction as a hypothesis to test, not as support for clinical use.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Piperazine currently holds **no market authorization in Singapore** (total registrations: 0). No licensed products, dosage forms, or approved indication text are on file for review.
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN02935P | MEI-MEI WORM SYRUP 750 mg/5 ml | Syrup | Sunward Pharmaceutical Private Limited |
 
----
+The licence record does not include approved indication text.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: No interaction records were found for piperazine in the queried source.
 
----
-
-## Additional Notes on Other Predicted Indications
-
-This evidence pack is a multi-indication candidate covering 10 TxGNN predictions for piperazine. Two points are worth flagging for anyone reviewing the full candidate set:
-
-- **Cystic echinococcosis (rank 10)** reached a higher evidence tier (**L4, decision stage S1, "Research Question"**) based on decades-old in vitro screening literature testing various agents (including piperazine-related compounds) against hydatid cyst membranes and scolices. This is the only candidate in the set that clears Hold status, though the historical literature requires manual verification to confirm piperazine itself (versus related compounds) was the tested agent.
-- **Malaria (rank 5)** should be disregarded as evidence. The 20 literature entries retrieved for this candidate almost entirely concern **piperaquine**, a structurally distinct bisquinoline antimalarial, not **piperazine**. This is a likely drug-name string-matching artifact in the literature pipeline and should be corrected at the data-cleaning stage rather than treated as repurposing evidence.
-- All remaining candidates (echinococcus granulosus infection, citrullinemia types I, mastocytosis variants, urea cycle disorder) are **L5, Hold**, with no mechanistic rationale, no clinical trials, and literature — where present — unrelated to piperazine specifically.
-
----
+Please refer to the package insert for other safety information (warnings and contraindications).
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high, but there is no clinical, observational, or drug-specific preclinical evidence supporting piperazine's use in *Echinococcus granulosus* infection, and the proposed nematocidal mechanism does not plausibly extend to cestode biology. The drug also has no current market presence in Singapore.
+The prediction has no supporting trials or publications (L5). The proposed mechanism does not clearly extend from nematodes to cestodes. Other predictions in the list (ranks 2 to 10, including alveolar echinococcosis, malaria, mastocytosis and urea cycle disorders) are also L5. Their retrieved literature concerns other agents, for example piperaquine (a different compound) for malaria, and does not evaluate piperazine.
 
 **To proceed, the following is needed:**
-- Confirmed, registry-sourced mechanism of action (MOA) data for piperazine
-- Direct in vitro or in vivo testing of piperazine (not related compounds) against *Echinococcus* species
-- Manual verification of the rank-10 cystic echinococcosis literature (PMID 15269042, 14044745, 24822340, 14183098, 1758368, 4477636) to confirm piperazine was an actual tested agent — this is the more promising lead within the candidate set and warrants prioritized follow-up over the rank-1 prediction
-- TFDA/regulatory safety data (key warnings, contraindications, DDI) currently marked as data gaps in this pack
+- The HSA package insert, to obtain approved indications, warnings and contraindications (a blocking gap for safety screening)
+- Verified mechanism of action data for piperazine, for example from DrugBank
+- Experimental evidence of piperazine activity against *E. granulosus*, such as in vitro scolicidal testing
+- A corrected literature search that separates piperazine from piperaquine and other piperazine-containing compounds, before any re-grading
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -29,81 +29,76 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-Using no additional skill — this is a direct content-generation task following the provided reporting template, not a coding/debugging/build task.
-
-# Valine: From Essential Amino Acid (No Approved Therapeutic Indication) to Sclerosing Cholangitis
+# Valine: From Parenteral Amino Acid Nutrition to Sclerosing Cholangitis
 
 ## One-Sentence Summary
 
-Valine is a branched-chain essential amino acid (BCAA) with no formally registered therapeutic indication or approved mechanism-of-action data in this evidence pack, and it is not currently marketed in Singapore.
-The TxGNN model predicts a possible association with **sclerosing cholangitis**, but this is supported only by **0 clinical trials** and **2 publications** — one indirect Mendelian randomization study and one unrelated cohort study on fatigue.
-Evidence is currently insufficient to support any repurposing action.
-
----
+Valine is an essential branched-chain amino acid (BCAA). In Singapore it is registered as a component of multi-amino-acid infusion products, but the registration data do not state an approved indication.
+The TxGNN model predicts it may be relevant to **sclerosing cholangitis**, but there are **0 clinical trials** and only **2 publications**. Both are observational or genetic-association studies, and neither tests valine as a treatment.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — Valine has no registered therapeutic indication in this dataset; it functions physiologically as an essential amino acid/nutritional component |
-| Predicted New Indication | Sclerosing Cholangitis |
+| Original Indication | Not recorded in the registration data (marketed as a component of amino acid infusion solutions) |
+| Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 99.42% |
-| Evidence Level | L4 (mechanism/observational-level evidence only) |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 (association and mechanism-level studies only) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 19 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for Valine is not available (Data Gap DG002). Based on known biology, Valine is an essential branched-chain amino acid involved in protein synthesis and energy metabolism, but it has no established original therapeutic indication in this dataset and is not marketed in Singapore (0 registrations). This makes the usual "original indication → new indication" mechanistic bridge unavailable for this candidate.
+Currently, detailed mechanism of action data is not available. Based on known information, valine is a branched-chain amino acid supplied in parenteral nutrition solutions. It is mechanistically plausible for chronic liver disease only through indirect amino acid metabolism.
 
-The strongest supporting evidence for the top-ranked prediction (sclerosing cholangitis) comes from a 2024 Mendelian randomization study suggesting that certain blood metabolites — potentially including BCAA pathway components — have a causal relationship with cholestatic liver diseases such as primary sclerosing cholangitis. However, this is population-genetics-level evidence about metabolite pathways in general, not direct evidence that Valine supplementation or administration treats the disease. The second supporting paper (on tyrosine and fatigue in biliary disease) is not directly related to Valine at all.
+Amino acid imbalance, especially between aromatic amino acids and BCAAs, is well described in chronic liver disease. A 2005 cohort study examined plasma amino acid patterns in primary biliary cirrhosis and primary sclerosing cholangitis in relation to fatigue. A 2024 Mendelian randomization study linked circulating metabolites to the risk of cholestatic liver diseases.
 
-**Important caveat on overall candidate quality**: Reviewing the remaining 9 predicted indications in this evidence pack reveals that most literature "hits" (angle-closure glaucoma, hyperthyroidism, resistance to thyroid hormone, hyperthyroxinemia, etc.) are very likely **false positives driven by text-matching artifacts** — many papers describe genetic point mutations abbreviated with "Val" (e.g., V336M, L346V, Val53Ala, Ile568Val), which refer to amino acid substitution codes in disease-causing gene mutations, not Valine as a therapeutic agent. This is a systematic knowledge-graph/literature-mining confounder for this drug and substantially lowers confidence in the TxGNN output across the full candidate list, including the top-ranked sclerosing cholangitis prediction.
+Neither paper tests valine supplementation, and the link between valine and sclerosing cholangitis is indirect. The prediction is best treated as a research question, not a treatment candidate.
 
----
+Other lower-ranked TxGNN predictions for valine (glaucoma subtypes, thyroid hormone resistance, hyperthyroxinemia) mostly match on "Val" gene-variant notation, not on valine as a drug. They are likely knowledge-graph artifacts.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [39015781](https://pubmed.ncbi.nlm.nih.gov/39015781/) | 2024 | Mendelian Randomization | Frontiers in Medicine | Investigates causal relationship between blood metabolites/metabolic pathways and cholestatic liver diseases (PBC and PSC); suggests possible causal link but does not test Valine as an intervention |
-| [15790420](https://pubmed.ncbi.nlm.nih.gov/15790420/) | 2005 | Cohort | BMC Gastroenterology | Examines plasma tyrosine (not valine) concentration and fatigue in PBC/PSC patients; tangential relevance, amino acid pattern abnormalities discussed generally |
-
----
+| [15790420](https://pubmed.ncbi.nlm.nih.gov/15790420/) | 2005 | Cohort | BMC Gastroenterology | Studied plasma amino acid abnormalities, including tyrosine, and their relation to fatigue in primary biliary cirrhosis and primary sclerosing cholangitis |
+| [39015781](https://pubmed.ncbi.nlm.nih.gov/39015781/) | 2024 | Mendelian randomization | Frontiers in Medicine | Examined causal links between blood metabolites and the risk of primary biliary cholangitis and primary sclerosing cholangitis |
 
 ## Singapore Market Information
 
-Valine currently has no registered product license and is not marketed in Singapore (0 registrations on file).
+19 registrations are on record. Five main ones are listed below. The registration data contain no approved-indication text.
 
----
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN16337P | AMINOVEN SOLUTION FOR INFUSION 15% | Infusion, solution |
+| SIN11682P | AMINOVEN SOLUTION FOR INFUSION 5% | Injection |
+| SIN11829P | AMINOVEN SOLUTION FOR INFUSION 10% | Injection |
+| SIN06299P | NEPHROSTERIL FOR INTRAVENOUS INFUSION | Injection |
+| SIN08352P | AMINOPLASMAL-15% INFUSION | Injection |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No specific warnings, contraindications, or drug-interaction data are currently available for this candidate (Data Gap DG001 — regulatory label warnings/contraindications not yet obtained).
-
----
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The candidate lacks basic drug-level data (no original indication, no MOA, not marketed), and the sole indication-specific evidence for sclerosing cholangitis is one indirect genetic-epidemiology study rather than interventional or preclinical data. Additionally, the broader prediction set for this drug shows strong signs of literature-mining false positives due to "Val" amino-acid-code naming collisions with unrelated gene mutations, which undermines confidence in the TxGNN scoring for this molecule as a whole.
+The prediction rests on a high model score and two indirect association studies. There are no clinical trials, no direct evidence that valine affects sclerosing cholangitis, and the package insert safety data are still missing.
 
 **To proceed, the following is needed:**
-- Resolve DG001 (Blocking): Obtain TFDA/HSA label warnings and contraindications before any S1 safety assessment
-- Resolve DG002 (High): Obtain confirmed mechanism-of-action data from DrugBank/primary literature
-- Independent re-screening of all literature hits to exclude gene-nomenclature false positives (e.g., manually verify each "Val" reference refers to the amino acid substance, not a mutation code)
-- Preclinical or interventional evidence directly testing Valine (not general BCAA metabolomics) in cholestatic liver disease before advancing beyond S0
+- HSA package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data for valine
+- Studies or trials that test valine or BCAA supplementation directly in sclerosing cholangitis
+- The registered indication text for valine-containing products, to clarify the original indication
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

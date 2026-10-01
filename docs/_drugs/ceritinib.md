@@ -29,37 +29,35 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ceritinib: From ALK+ Non-Small Cell Lung Cancer to Fibromatosis, Gingival
+# Ceritinib: From ALK-Positive Non-Small Cell Lung Cancer to Gingival Fibromatosis
 
 ## One-Sentence Summary
 
-Ceritinib (Zykadia) is a second-generation ALK (anaplastic lymphoma kinase) inhibitor developed by Novartis, approved globally for the treatment of ALK-rearranged non-small cell lung cancer (NSCLC), though not currently registered in Singapore.
-The TxGNN model predicts it may be effective for **Fibromatosis, Gingival**, with **no clinical trials** and **no publications** directly supporting this indication.
-Although the prediction score is high (99.86%), current mechanistic evidence does not support an ALK-driven role in gingival fibromatosis, and the score likely reflects graph-structural proximity within the knowledge graph rather than true biological relevance.
+Ceritinib is an oral ALK inhibitor used for ALK-positive non-small cell lung cancer (NSCLC). The TxGNN model predicts it may be effective for **gingival fibromatosis** with a very high score, but **0 clinical trials** and **0 publications** support this specific prediction. It is a model-only signal and should be held.
+
+The original indication comes from the retrieved literature (for example the ASCEND-4 Phase 3 trial), not from the Singapore licence record, whose indication text is blank.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | ALK-rearranged Non-Small Cell Lung Cancer (NSCLC) — inferred from global approval history; no Singapore HSA registration on file |
-| Predicted New Indication | Fibromatosis, Gingival |
+|------|------|
+| Original Indication | ALK-positive NSCLC (inferred from the literature, not stated in the licence record) |
+| Predicted New Indication | Fibromatosis, gingival |
 | TxGNN Prediction Score | 99.86% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Ceritinib is a potent, orally bioavailable small-molecule inhibitor of ALK tyrosine kinase, with approximately 20-fold greater potency against ALK than its predecessor crizotinib. It was granted FDA Breakthrough Therapy designation and first approved in 2014 for second-line treatment of ALK-positive metastatic NSCLC. Its known targets include ALK, IGF-1R (insulin-like growth factor 1 receptor), and FAK (focal adhesion kinase). Across its approved indications, the drug's activity is entirely dependent on the presence of an ALK gene rearrangement or activating mutation as the oncogenic driver — without this, no therapeutic rationale exists.
+Currently, detailed mechanism of action data is not available in the record. From the supplied analysis, ceritinib is an ALK/IGF-1R/ROS1 kinase inhibitor. Its efficacy in ALK-rearranged NSCLC is well established.
 
-Fibromatosis, Gingival (gingival fibromatosis) is a rare hereditary or drug-induced condition characterised by abnormal proliferation of gingival fibroblasts, with disease pathogenesis centred on TGF-β/CTGF signalling pathways and extracellular matrix dysregulation. ALK signalling has no established role in this disease process. Gingival fibromatosis is classified as a benign fibrous overgrowth, entirely distinct from the ALK-fusion-driven malignancies for which ceritinib was developed.
-
-The TxGNN model's high prediction score for this indication most likely reflects the spatial proximity of "lung/fibrosis-associated" and "fibromatosis" nodes within the knowledge graph topology, rather than a genuine biological connection. There are no clinical trials, preclinical studies, or case reports supporting ceritinib use in gingival fibromatosis. Without a mechanistic rationale or any supporting evidence, this prediction should be treated as a knowledge-graph false positive.
+**The data do not support a mechanistic link to gingival fibromatosis.** No ALK-driven pathology is established for this condition. The TxGNN score of 99.86% does not discriminate well, because the other top candidates for this drug all score about 0.998. It should be read as a weak knowledge-graph association rather than a meaningful signal.
 
 ---
 
@@ -77,35 +75,35 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Ceritinib is not currently registered with the Health Sciences Authority (HSA) in Singapore. No product authorisations are on file.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN14776P | ZYKADIA CAPSULE 150mg | Capsule | Not stated in the licence record |
 
-> **Note:** Ceritinib (brand name Zykadia) has received marketing approval in the United States (FDA, 2014), the European Union (EMA, 2015), and multiple other jurisdictions for ALK-rearranged NSCLC. Clinicians in Singapore seeking to use ceritinib would need to access it via a Special Access Route (SAR) or clinical trial pathway.
+The manufacturers listed are Novartis Pharma Stein AG and Sandoz S.R.L. The route of administration is oral.
 
 ---
 
 ## Cytotoxicity
 
 | Item | Content |
-|------|---------|
-| Cytotoxicity Classification | Targeted therapy (ALK tyrosine kinase inhibitor — not conventional cytotoxic) |
-| Myelosuppression Risk | Low to Moderate (not primarily myelosuppressive; haematological toxicity less prominent than with conventional chemotherapy, but monitoring recommended) |
-| Emetogenicity Classification | Moderate to High (nausea, vomiting, and diarrhoea are among the most common dose-limiting adverse effects; taking with food at reduced dose [450 mg] significantly improves GI tolerability) |
-| Monitoring Items | Liver function tests (ALT/AST — hepatotoxicity reported), fasting blood glucose (hyperglycaemia), ECG/QTc interval (QT prolongation risk), CBC, renal function, and pulmonary function (interstitial lung disease risk) |
-| Handling Protection | Standard oral targeted therapy precautions apply; classify as cytotoxic for handling per institutional pharmacy policy |
+|------|------|
+| Cytotoxicity Classification | Targeted therapy (kinase inhibitor) |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | ECG/QT interval and respiratory symptoms (from the literature signals below); other parameters per the package insert |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ---
 
 ## Safety Considerations
 
-Formal Singapore HSA package insert data was not retrieved for this report. Based on published regulatory summaries and the literature in this evidence pack, the following key safety concerns are known:
+- **Drug Interactions**: The interaction query returned no records.
+- **Safety signals in the retrieved literature** (background only, not the label):
+  - QT prolongation
+  - Hypersensitivity, including a case report with diffuse infiltrative lung disease, pericarditis and pleural effusion
+  - Gastrointestinal and other adverse events, discussed in ceritinib management reviews and meta-analyses
 
-- **QT Prolongation:** Ceritinib prolongs the QTc interval; ECG monitoring is required, particularly in patients on concomitant QT-prolonging agents (documented in pharmacovigilance analysis, PMID 34864500; QT case report, PMID 29413968).
-- **Hepatotoxicity:** Significant elevations in liver transaminases have been reported; liver function monitoring is mandatory.
-- **Interstitial Lung Disease / Pneumonitis:** Serious and potentially fatal ILD/pneumonitis has been observed, including one published case of diffuse infiltrative lung disease with pericarditis and pleural effusion attributed to ceritinib (PMID 31280988).
-- **Hyperglycaemia:** Fasting blood glucose monitoring required; insulin or oral hypoglycaemic dose adjustment may be needed.
-- **GI Toxicity:** Nausea, diarrhoea, vomiting, and abdominal pain are very common; the 450 mg with-food dosing schedule was developed specifically to address this (PMID 32838488).
-
-> For complete prescribing information including contraindications and full drug interaction data, please refer to the official Zykadia package insert (Novartis) or the EMA/FDA Summary of Product Characteristics.
+Please refer to the package insert for full warnings and contraindications.
 
 ---
 
@@ -114,17 +112,20 @@ Formal Singapore HSA package insert data was not retrieved for this report. Base
 **Decision: Hold**
 
 **Rationale:**
-Fibromatosis, Gingival is a benign fibroblast proliferative disorder driven by TGF-β/CTGF pathways, not ALK signalling. There is no mechanistic basis for ceritinib use in this condition, no clinical trials, and no supporting literature. The TxGNN high prediction score is consistent with a knowledge-graph structural artefact rather than a genuine repurposing signal.
+The top prediction has no trials, no literature and no documented mechanistic link. It is supported only by a non-discriminating model score.
 
-**To proceed, the following would be needed:**
-- Identification of ALK expression or activating ALK mutations in gingival fibromatosis tissue samples (would require molecular pathology investigation — currently no evidence this exists)
-- Preclinical in vitro data demonstrating ceritinib activity in fibroblast or gingival tissue models
-- Re-evaluation of this prediction entry: the evidence pack for **rank 5 (Lung Benign Neoplasm)** contains 20 literature references including a Phase 3 RCT (ASCEND-4, PMID 28126333) and multiple meta-analyses for ALK+ NSCLC, and may represent a more actionable repurposing candidate if reclassified to its correct indication (ALK+ NSCLC). This entry should be reviewed by the clinical team for reclassification.
-- Singapore HSA registration strategy should be evaluated separately if ceritinib is intended for use in ALK+ NSCLC patients in Singapore, independent of repurposing considerations.
+Other candidates for ceritinib have some retrieved evidence, but it is indirect:
+- **Lung benign neoplasm** has 20 publications, all on ALK-positive NSCLC, which is on-label oncology evidence.
+- **Lung germ cell tumor** has one Phase 0/II CNS-penetration study and ALK-related neuroblastoma reports.
 
----
+None of this shows benefit in the predicted diseases.
 
-> ⚠️ **Disclaimer:** This report is for research reference only and does not constitute medical advice. All drug repurposing candidates require clinical validation before any therapeutic application.
+**To proceed, the following is needed:**
+- The HSA package insert warnings and contraindications, which are currently a blocking gap for safety screening
+- Detailed mechanism of action data (DrugBank)
+- Biological evidence that ALK, IGF-1R or ROS1 signalling contributes to gingival fibromatosis
+- A check of the disease mapping and a targeted literature search for the predicted disease
+- Confirmation of route and formulation suitability, since gingival disease may favour a local route and only an oral capsule is registered
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

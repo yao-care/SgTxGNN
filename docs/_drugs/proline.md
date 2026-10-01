@@ -29,76 +29,70 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Proline: From No Registered Indication to Congenital Prothrombin Deficiency
+# Proline: From Parenteral Amino Acid Nutrition to Congenital Prothrombin Deficiency
 
 ## One-Sentence Summary
 
-> Proline is a non-essential amino acid with no registered therapeutic indication in Singapore and no market presence in this evidence pack.
-> The TxGNN model predicts a possible link to **Congenital Prothrombin Deficiency**,
-> but this prediction is currently supported by **0 clinical trials** and **0 publications** — evidence level L5 (prediction only, no supporting studies).
-
----
+Proline is an amino acid supplied in intravenous amino acid infusion products marketed in Singapore. The registration data does not state an approved indication, so its original use is inferred from the product types.
+The TxGNN model predicts it may be effective for **congenital prothrombin deficiency** (score 98.9%), but **0 clinical trials** and **0 publications** support this prediction.
+No plausible mechanism is evident, so the prediction is treated as a model output only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not available — no Singapore registration exists; Proline appears in this dataset as a biochemical/amino-acid entity rather than a registered drug product |
-| Predicted New Indication | Congenital Prothrombin Deficiency |
+| Original Indication | Not stated in registration data (inferred: parenteral amino acid nutrition, based on product types such as Aminoven, Nephrosteril and Aminoplasmal) |
+| Predicted New Indication | Congenital prothrombin deficiency |
 | TxGNN Prediction Score | 98.90% |
 | Evidence Level | L5 |
-| Singapore Market Status | ✗ Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 19 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for Proline, and no original therapeutic indication is on record in this evidence pack. Proline is a non-essential amino acid involved in collagen synthesis and general protein metabolism; it does not have an established pharmacological role in coagulation.
+Currently, detailed mechanism of action data is not available. Based on known information, proline is a proteinogenic amino acid, a nutritional component of intravenous amino acid infusions. Its role as a nutrient is established, but the mechanism cannot be cross-checked against the model score.
 
-The evidence pack's own mechanistic assessment is explicit that this prediction lacks biological plausibility: *"Proline has no known causal mechanism linking it to prothrombin production. The high TxGNN score likely reflects an indirect knowledge-graph connection between amino acid metabolism nodes and coagulation-related genes, rather than a direct pharmacological relationship."* No clinical or literature evidence exists to support the connection.
+Mechanistically, the link to congenital prothrombin deficiency (factor II deficiency) is weak. This condition is a single-protein synthesis defect, and amino acid supplementation would not be expected to correct it. The high score (rank 11,253 in the model's ranking) is therefore best read as a statistical association in the knowledge graph, not a supported therapeutic rationale.
 
-This pattern is consistent across the full candidate list — 9 of the 10 predicted indications for Proline (vitamin D deficiency, Paget's disease of bone, hypophosphatemic rickets, biotin metabolic disease, folic acid deficiency anemia, familial hypoparathyroidism, etc.) show the same characteristic: high TxGNN scores driven by proline appearing incidentally as a metabolic biomarker or urinary breakdown product (e.g., hydroxyproline in bone turnover, glycyl-prolinuria in renal tubular disorders) rather than as a therapeutic intervention. Only "dyspepsia" (rank 4) and "vitamin deficiency disorder" (rank 5) show marginally more direct evidence (L4), but even there the relevant literature treats proline as a metabolomic marker, not a treatment.
-
----
+Among the other top-10 predictions, only **dyspepsia** (score 91.7%) has indirect supporting literature. Several metabolomic studies report altered arginine/proline metabolism in functional dyspepsia, but these are biomarker associations, not evidence that proline treats the condition. The one dyspepsia trial (NCT05876845) tests a pre-/pro-/post-biotic supplement, where "pro" means probiotic, so it does not test proline.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Proline has no registered product license in Singapore (total registrations: 0; market status: Not Marketed). No authorization records are available to summarize.
+Registration data lists 19 licences in total. The five main ones are below. Approved indication text is not recorded for these products.
 
----
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN16337P | AMINOVEN SOLUTION FOR INFUSION 15% | Infusion, solution | Fresenius Kabi Austria GmbH (Graz) |
+| SIN11682P | AMINOVEN SOLUTION FOR INFUSION 5% | Injection | Fresenius Kabi Austria GmbH |
+| SIN11829P | AMINOVEN SOLUTION FOR INFUSION 10% | Injection | Fresenius Kabi Austria GmbH |
+| SIN06299P | NEPHROSTERIL FOR INTRAVENOUS INFUSION | Injection | Fresenius Kabi Austria GmbH |
+| SIN08352P | AMINOPLASMAL-15% INFUSION | Injection | B Braun Melsungen AG |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No key warnings, contraindications, or drug interaction data are currently available for Proline in this evidence pack, and no TFDA/HSA-approved labelling exists given its unregistered status.
-
----
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (Congenital Prothrombin Deficiency) has no clinical trial or literature support and evidence level L5 — the evidence pack itself flags the association as a likely knowledge-graph artifact rather than a genuine pharmacological signal. Across all 10 predicted indications reviewed, none reach a decision stage beyond S0, and all carry a "Hold" recommendation. Proline is also not marketed in Singapore and has no established mechanism of action, so there is no basis to advance this candidate.
+The top prediction rests on the model score alone, with no trials, no literature and no plausible mechanism. The evidence level is L5. Proline's role as a nutritional amino acid does not suggest correction of a congenital coagulation factor deficiency.
 
 **To proceed, the following is needed:**
-- Mechanism of action (MOA) data for Proline (currently a blocking data gap, DG002)
-- TFDA/HSA package insert warnings and contraindications (currently a blocking data gap, DG001) — required before any S1 safety review
-- Direct pharmacological or clinical evidence testing Proline as an intervention (not merely as a metabolic biomarker) for any of the 10 predicted indications
-- If pursuing the higher-evidence candidates (dyspepsia, vitamin deficiency disorder), clarification of whether Proline was the actual tested intervention in the cited trials, as current titles/abstracts do not confirm this
+- HSA package insert warnings and contraindications (a blocking gap for safety screening), plus the approved indication text for the registered products
+- Mechanism of action data for proline (for example from DrugBank), to allow a mechanistic cross-check of the score
+- A review of the "obsolete vitamin D deficiency" mapping (rank 2), which should be redirected to a current vitamin D deficiency term
+- Consideration of dyspepsia as a lower-priority research question (L4), starting with a targeted literature review of proline metabolism in functional dyspepsia
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

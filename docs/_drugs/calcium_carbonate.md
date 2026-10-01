@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Calcium Carbonate
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 194
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
 ---
 
 # Calcium Carbonate
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,37 +29,36 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Calcium Carbonate: From Antacid / Calcium Supplement to Calcium-Alkali Syndrome
+# Calcium carbonate: From Antacid to Calcium-Alkali Syndrome
 
 ## One-Sentence Summary
 
-Calcium carbonate (CaCO₃) is a widely used over-the-counter agent serving as an antacid and calcium supplement, with established use in acid reflux relief and osteoporosis prevention.
-The TxGNN model predicts a strong association with **Calcium-Alkali Syndrome (CAS)**, supported by **1 clinical trial** (indirectly related) and **16 publications** — however, existing evidence consistently identifies CaCO₃ as the **primary causative agent** of CAS, not a therapeutic option.
-This is an **iatrogenic association** rather than a repurposing opportunity, and the prediction score should be interpreted as a pharmacovigilance signal.
+Calcium carbonate is a widely used antacid and calcium supplement. The Singapore products are all marketed as antacids, and the registration data give no approved indication text.
+The TxGNN model predicts a link to **calcium-alkali syndrome** with a high score (93.2%), but this condition is an **adverse effect of excess calcium carbonate intake**, not a treatable disease. The evidence (**1 clinical trial**, an unrelated drug-interaction study, and **16 publications**, mostly reviews and case reports of harm) does not support a therapeutic use. The score most likely reflects a "drug causes disease" association.
 
 ---
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | No registered indications in Singapore (not marketed) |
-| Predicted New Indication | Calcium-Alkali Syndrome |
+|------|------|
+| Original Indication | Antacid (inferred from product names; approved indication text is not provided in the registration data) |
+| Predicted New Indication | Calcium-alkali syndrome |
 | TxGNN Prediction Score | 93.16% |
-| Evidence Level | L3 |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | **Hold** |
+| Evidence Level | L4 (reviews and case reports of harm only; no therapeutic studies) |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 8 |
+| Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Calcium carbonate is a simple inorganic salt that dissolves in stomach acid via the reaction CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂, releasing calcium ions (Ca²⁺) and bicarbonate (HCO₃⁻). Its two primary clinical roles are acid neutralization (antacid) and elemental calcium provision (supplement for bone health). Detailed mechanism of action data from DrugBank was not available in this Evidence Pack; the pharmacology described here reflects established scientific consensus.
+Currently, detailed mechanism of action data is not available. Based on known information, calcium carbonate acts as an acid-neutralizing antacid and calcium source, and its use in acid-related symptoms is long established.
 
-Calcium-Alkali Syndrome is defined by the triad of **hypercalcemia, metabolic alkalosis, and acute kidney injury**. The pathophysiological cascade triggered by excess CaCO₃ ingestion is: elevated calcium intake → hypercalcemia → renal calcium deposition → declining GFR → bicarbonate accumulation → worsening metabolic alkalosis → further impairment of renal calcium excretion. This is a self-reinforcing loop in which CaCO₃ is the **etiological trigger**. The syndrome was historically known as Milk-Alkali Syndrome, first described in patients treated with calcium carbonate for peptic ulcer disease, and has seen a modern resurgence driven by high-dose calcium supplementation for osteoporosis.
+Calcium-alkali syndrome (formerly milk-alkali syndrome) is the triad of hypercalcemia, metabolic alkalosis, and renal impairment. It is caused by ingesting large amounts of calcium carbonate, historically to treat peptic ulcer disease. A knowledge-graph model can score a strong link between a drug and a disease even when the drug causes that disease, and this appears to be the case here.
 
-**Critical Interpretation of the TxGNN Score**: The model's high prediction score (93.16%) reflects a genuine and well-documented mechanistic link between CaCO₃ and CAS in the knowledge graph. However, this link is **causative rather than therapeutic** — the drug produces the disease under conditions of overuse. This prediction does not open a conventional repurposing pathway; rather, it surfaces a high-priority drug safety signal. CAS is currently the third most common cause of hypercalcemia in the United States, after primary hyperparathyroidism and malignancy, and its connection to OTC calcium carbonate remains underappreciated among prescribers and patients alike.
+In short, the link is real but runs in the wrong direction for repurposing. The literature describes the syndrome as a risk of over-the-counter antacid and calcium supplement use, particularly in older adults, in pregnancy, and alongside thiazide diuretics. This is a safety signal to monitor, not a new indication.
 
 ---
 
@@ -67,53 +66,49 @@ Calcium-Alkali Syndrome is defined by the triad of **hypercalcemia, metabolic al
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01622673](https://clinicaltrials.gov/study/NCT01622673) | Phase 1 | Completed | 27 | Evaluated effect of co-administering calcium carbonate antacid on the pharmacokinetics of raltegravir (HIV treatment) — CaCO₃ was studied as an interacting antacid, not as a CAS treatment; no direct relevance to CAS management |
-
-> **Note**: No clinical trials directly investigating the treatment or prevention of Calcium-Alkali Syndrome with calcium carbonate were identified. The single retrieved trial assessed CaCO₃ as a confounding antacid in an HIV drug interaction study.
+| [NCT01622673](https://clinicaltrials.gov/study/NCT01622673) | Phase 1 | Completed | 27 | Effect of calcium carbonate and magnesium/aluminum hydroxide antacids on raltegravir pharmacokinetics in HIV-infected participants. A drug-interaction study that does not address calcium-alkali syndrome. |
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|------|------|---------|---------|
-| [33732556](https://pubmed.ncbi.nlm.nih.gov/33732556/) | 2021 | Review | *Cureus* | Comprehensive historical review and updated pathophysiology of CAS; CaCO₃ identified as the key causative agent; modern incidence driven by calcium supplementation for osteoporosis |
-| [23543983](https://pubmed.ncbi.nlm.nih.gov/23543983/) | 2013 | Review | *Proc (Baylor Univ Med Ctr)* | Documents the resurgence of CAS as a modern counterpart to milk-alkali syndrome; describes clinical features, diagnostic criteria, and management principles |
-| [26260640](https://pubmed.ncbi.nlm.nih.gov/26260640/) | 2015 | Review | *Consult Pharmacist* | Pharmacist-focused guide for identifying geriatric patients at risk for CAS; emphasises prevention strategies and calcium intake monitoring thresholds |
-| [33178509](https://pubmed.ncbi.nlm.nih.gov/33178509/) | 2020 | Review | *Cureus* | Describes Calcium-Alkali-Thiazide Syndrome; co-administration of thiazide diuretics markedly amplifies CAS risk from CaCO₃; CAS accounts for higher proportion of hypercalcaemia than previously estimated |
-| [41444901](https://pubmed.ncbi.nlm.nih.gov/41444901/) | 2025 | Case Report | *Ann Gen Psychiatry* | OTC CaCO₃ overdose in a psychiatric patient causing milk-alkali syndrome; highlights vulnerability of patients with limited health literacy to inadvertent CAS from self-medicated antacids |
-| [38784190](https://pubmed.ncbi.nlm.nih.gov/38784190/) | 2024 | Case Report | *Obstetric Medicine* | Severe CAS at 14-week twin gestation; patient had taken CaCO₃ for pregnancy-related nausea from week 5; presented with severe hypercalcemia, metabolic alkalosis, renal injury; required ICU admission and dialysis |
-| [38404648](https://pubmed.ncbi.nlm.nih.gov/38404648/) | 2024 | Case Report | *Case Rep Endocrinol* | CAS after 15 years of routine CaCO₃ + calcitriol therapy for post-thyroidectomy hypoparathyroidism; undiagnosed hyperaldosteronism acted as a precipitating comorbidity |
-| [36712775](https://pubmed.ncbi.nlm.nih.gov/36712775/) | 2022 | Case Report | *Cureus* | Life-threatening hypercalcaemic crisis directly attributed to CaCO₃ (Tums) ingestion; emphasises that OTC availability does not equate to unlimited safety |
-| [33842126](https://pubmed.ncbi.nlm.nih.gov/33842126/) | 2021 | Case Report | *Cureus* | Hypercalcemia and acute kidney injury from CaCO₃ (Tums) overconsumption; treatment required hemodialysis; highlights under-recognition of CAS in acute settings |
-| [32675162](https://pubmed.ncbi.nlm.nih.gov/32675162/) | 2020 | Case Report | *Clin Med (London)* | Long-standing OTC CaCO₃ antacid use (~1,800 mg elemental calcium/day) causing severe hypercalcaemia, staghorn renal calculus, and renal impairment; concurrent antihypertensive acted as amplifier |
+|------|-----|------|------|---------|
+| [33732556](https://pubmed.ncbi.nlm.nih.gov/33732556/) | 2021 | Review | Cureus | Historical review and update of calcium-alkali syndrome. Incidence fell after H2 blockers and PPIs but has re-emerged with calcium supplement use. |
+| [26260640](https://pubmed.ncbi.nlm.nih.gov/26260640/) | 2015 | Review | The Consultant Pharmacist | Guidance for pharmacists on identifying at-risk geriatric patients and on prevention and monitoring. |
+| [23543983](https://pubmed.ncbi.nlm.nih.gov/23543983/) | 2013 | Review | Proc (Baylor Univ Med Cent) | Milk-alkali syndrome has evolved into calcium-alkali syndrome, now a common cause of hypercalcemia and alkalosis. |
+| [38784190](https://pubmed.ncbi.nlm.nih.gov/38784190/) | 2024 | Case report | Obstetric Medicine | Severe hypercalcemia needing dialysis in an early twin pregnancy after calcium carbonate use for reflux and nausea. |
+| [41444901](https://pubmed.ncbi.nlm.nih.gov/41444901/) | 2025 | Case report | Annals of General Psychiatry | Over-the-counter calcium carbonate overdose causing milk-alkali syndrome in a psychiatric patient. |
+| [36712775](https://pubmed.ncbi.nlm.nih.gov/36712775/) | 2022 | Case report | Cureus | Hypercalcemic crisis associated with calcium carbonate (Tums). |
+| [33842126](https://pubmed.ncbi.nlm.nih.gov/33842126/) | 2021 | Case report | Cureus | Acute kidney injury from overconsumption of calcium carbonate, treated with hemodialysis. |
+| [25874082](https://pubmed.ncbi.nlm.nih.gov/25874082/) | 2012 | Case report | Clinical Kidney Journal | Hypercalcemic crisis in an elderly man on calcium supplements, facilitated by a thiazide diuretic and an ACE inhibitor. |
+| [32675162](https://pubmed.ncbi.nlm.nih.gov/32675162/) | 2020 | Case report | Clinical Medicine (London) | Severe hypercalcaemia, staghorn calculus and renal impairment from long-term over-the-counter calcium carbonate antacids. |
+| [38404648](https://pubmed.ncbi.nlm.nih.gov/38404648/) | 2024 | Case report | Case Reports in Endocrinology | Severe hypercalcemia from calcium-alkali syndrome in a patient with postoperative hypoparathyroidism on calcium carbonate and calcitriol. |
 
 ---
 
 ## Singapore Market Information
 
-Calcium carbonate (DB06724) is currently **not registered or marketed in Singapore**. No HSA drug licenses were identified in the regulatory database.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN05820P | OHTA'S ISAN ANTACID POWDER | Powder | Not stated in registration data |
+| SIN08733P | RENNIE TABLET | Tablet | Not stated in registration data |
+| SIN14016P | GAVISCON DOUBLE ACTION LIQUID, SUSPENSION | Suspension | Not stated in registration data |
+| SIN13738P | GAVISCON LIQUID SACHETS | Suspension | Not stated in registration data |
+| SIN13947P | GAVISCON PEPPERMINT TABLETS | Tablet, chewable | Not stated in registration data |
 
-> For reference to approved formulations, consult regulatory filings in jurisdictions where CaCO₃ products are registered (e.g., US FDA, European Medicines Agency). Standard OTC products include Tums® (calcium carbonate 500–750 mg tablets) and Os-Cal® (calcium carbonate 1,250 mg tablets) in the United States.
+Eight registrations exist in total; five are shown.
 
 ---
 
 ## Safety Considerations
 
-Please refer to standard pharmacological references and package inserts from approved jurisdictions for complete safety information.
+Package insert warnings and contraindications were not available. The points below come from the retrieved literature only.
 
-**Key safety signals identified from this evidence review:**
+- **Hypercalcemia risk with excess intake**: High or prolonged calcium carbonate intake is linked to calcium-alkali syndrome (hypercalcemia, metabolic alkalosis, acute kidney injury). Reported at-risk groups include older adults, pregnant women, and patients with hypoparathyroidism.
+- **Drug interactions**: Case reports describe higher hypercalcemia risk alongside thiazide diuretics and ACE inhibitors. A Phase 1 study examined the effect of calcium carbonate antacids on raltegravir pharmacokinetics.
 
-- **Calcium-Alkali Syndrome risk**: Excessive or prolonged CaCO₃ ingestion can cause the triad of hypercalcaemia, metabolic alkalosis, and acute kidney injury. Populations at elevated risk include:
-  - Postmenopausal women on high-dose calcium supplements for osteoporosis
-  - Patients concurrently using thiazide diuretics (Calcium-Alkali-Thiazide Syndrome)
-  - Patients with pre-existing renal impairment
-  - Pregnant women using CaCO₃ for nausea or reflux
-  - Patients with hypoparathyroidism on long-term CaCO₃ + calcitriol replacement therapy
-
-- **Acid rebound**: CaCO₃ stimulates gastrin secretion via released calcium ions, which can paradoxically increase gastric acid secretion after the initial neutralizing effect — a consideration for long-term antacid use.
-
-- **Drug interactions**: CaCO₃ is a divalent cation antacid that can chelate and reduce absorption of co-administered medications (e.g., fluoroquinolones, tetracyclines, thyroid hormones, integrase inhibitors such as raltegravir).
+Please refer to the package insert for complete safety information.
 
 ---
 
@@ -122,15 +117,12 @@ Please refer to standard pharmacological references and package inserts from app
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN model's high-scoring association between calcium carbonate and Calcium-Alkali Syndrome accurately reflects a mechanistically robust drug-disease relationship, but the direction of that relationship is **causative, not therapeutic** — CaCO₃ induces CAS under conditions of overuse, making this a pharmacovigilance finding rather than a repurposing candidate.
+The predicted indication is an adverse effect of the drug, not a treatable condition, and no study supports therapeutic use. The high TxGNN score should not be read as repurposing potential.
 
-**To proceed productively, the following is recommended:**
-
-- **Reframe the clinical question**: If the intent is to leverage this finding, explore a **safety monitoring protocol** for patients on long-term CaCO₃, rather than a therapeutic repurposing pathway.
-- **Evaluate alternative predicted indications**: Ranks 7 (Gastroduodenitis, L3, *Proceed with Guardrails*) and 9 (Peptic Ulcer Disease, L3, *Proceed with Guardrails*) represent mechanistically sound and clinically actionable repurposing directions consistent with calcium carbonate's established pharmacology as an antacid.
-- **Obtain full MOA data from DrugBank** to support mechanistic rationale for any alternative indication.
-- **Clarify Singapore regulatory pathway**: Since CaCO₃ is not currently registered in Singapore, any clinical application would require an HSA new drug registration or notification submission.
-- **Establish safe upper dosing thresholds**: Define calcium intake ceilings to prevent CAS in populations identified above, drawing on reviewed literature to set evidence-based monitoring parameters.
+**To proceed, the following is needed:**
+- Reclassify this prediction as a safety signal for pharmacovigilance and patient counselling, not as a repurposing candidate.
+- Package insert warnings and contraindications from the HSA, and mechanism of action data.
+- Separately review other predictions with L3 evidence, namely gastroduodenitis, hyperlipidemia, and peptic ulcer disease. Gastroduodenitis and peptic ulcer overlap with existing antacid use. Hyperlipidemia has small older studies, and its trials were nutrition studies that cannot be attributed to calcium carbonate.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

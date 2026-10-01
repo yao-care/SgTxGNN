@@ -33,72 +33,63 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-> Ranolazine is a piperazine derivative used as a second-line treatment for chronic stable angina.
-> The TxGNN model predicts it may be effective for **Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD)**,
-> but this prediction is currently supported by **no clinical trials and no literature** — it is a pure knowledge-graph association with no known mechanistic basis.
-
----
+Ranolazine is an anti-anginal drug, a late sodium current inhibitor used for chronic angina.
+The TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**,
+but there are currently **0 clinical trials** and **0 publications** supporting this direction, so it is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Chronic angina pectoris (per literature; no Singapore license data available) |
-| Predicted New Indication | Nephrogenic Syndrome of Inappropriate Antidiuresis (NSIAD) |
+|------|------|
+| Original Indication | Chronic angina (based on published literature; the HSA indication text is not available) |
+| Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 99.65% |
 | Evidence Level | L5 |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 3 |
 | Recommended Decision | Hold |
-
----
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for ranolazine is not available in this evidence pack (DrugBank query pending). Based on literature identified elsewhere in this pack, ranolazine's known pharmacology involves inhibition of the late cardiac sodium current (late I<sub>Na</sub>), and it is used clinically as second-line therapy for stable, poorly controlled chronic angina.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on known information, ranolazine is an extended-release oral anti-anginal that acts mainly by inhibiting the late sodium current. Its efficacy in chronic angina is established, but no mechanism has been identified that would apply to NSIAD.
 
-NSIAD, by contrast, is caused by a gain-of-function mutation in the renal V2 vasopressin receptor, leading to constitutive receptor activation independent of vasopressin. This pathway has no known overlap with cardiac sodium channel modulation. The model's own rationale field explicitly states there is no known mechanistic path connecting late I<sub>Na</sub> inhibition to V2-receptor-driven antidiuresis.
-
-No clinical trials or publications in this evidence pack address ranolazine in the context of NSIAD or any related water-balance disorder. Taken together, this top-ranked prediction appears to be a knowledge-graph artifact rather than a biologically plausible repurposing candidate, and should not be advanced without independent mechanistic or preclinical validation.
-
----
+NSIAD is a rare disorder caused by activating variants of the vasopressin V2 receptor (AVPR2). Ranolazine has no known action on this receptor or on water handling in the kidney. The very high TxGNN score (0.996) reflects graph-based similarity only. It is not supported by any clinical or literature evidence, so the prediction should be treated as a hypothesis, not a finding.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Ranolazine is not currently registered in Singapore (0 authorizations on file). No product license, dosage form, or approved indication data is available.
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN14861P | Ranexa Prolonged-Release Tablet 375 mg | Film-coated, extended-release tablet |
+| SIN14862P | Ranexa Prolonged-Release Tablet 500 mg | Film-coated, extended-release tablet |
+| SIN14863P | Ranexa Prolonged-Release Tablet 750 mg | Film-coated, extended-release tablet |
 
----
+All three products are made by Menarini - Von Heyden GmbH and are oral formulations.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
----
+Please refer to the package insert for safety information. No drug-interaction records were found in the queried source.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Despite a high TxGNN similarity score (99.65%), the top-ranked prediction (NSIAD) has no supporting clinical trials, no supporting literature, and the model's own rationale confirms no known mechanistic link — this is L5 evidence (model prediction only). Combined with the drug's unregistered status in Singapore, there is no basis to advance this candidate at this time.
+The prediction has no supporting trials or publications (L5), and no plausible mechanistic link to the AVPR2-driven pathology. The score alone is not enough to justify further investment in this indication.
 
 **To proceed, the following is needed:**
-- Confirm ranolazine's mechanism of action via DrugBank API (DG002, High severity)
-- Obtain HSA/regulatory label warnings and contraindications before any safety (S1) review can begin (DG001, Blocking)
-- Independent mechanistic or preclinical evidence linking late I<sub>Na</sub> inhibition to V2-receptor-mediated antidiuresis, if this hypothesis is to be pursued further
-- Consider evaluating lower-ranked candidates with stronger evidence instead — e.g., rank 9 "headache disorder" reached L4 evidence (S1, Research Question) with 3 supporting publications, including a 2025 case report and a 2025 FAERS pharmacovigilance study, and has a plausible sodium-channel-mediated neuronal excitability rationale
+- A plausible mechanistic hypothesis connecting late sodium current inhibition to vasopressin V2 receptor signalling, backed by preclinical data
+- The HSA package insert (warnings, contraindications, approved indication) and the full mechanism of action from DrugBank
+- A reason to prioritise this over other candidates in the same list. Among the ten predicted indications, only **headache disorder (migraine)** reached L4, and that rests on one case report plus sodium-channel pharmacology. It would be the better candidate to review first.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

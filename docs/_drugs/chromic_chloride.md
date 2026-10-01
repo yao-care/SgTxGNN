@@ -29,78 +29,67 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Chromic Chloride: From Trace Element Supplement to Primary Hereditary Glaucoma
+# Chromic Chloride: From Trace-Element Supplementation to Primary Hereditary Glaucoma
 
 ## One-Sentence Summary
 
-Chromic chloride is a chromium(III) inorganic compound, primarily used as a trace element additive in parenteral nutrition to meet chromium requirements in patients receiving total parenteral nutrition (TPN).
-The TxGNN model predicts it may be effective for **Primary Hereditary Glaucoma**, with a prediction score of **95.70%**.
-However, there are currently **no clinical trials and no published literature** supporting this direction — the evidence level is L5 (model prediction only).
-
----
+Chromic chloride is a trivalent chromium trace-element supplement, marketed in Singapore as part of an infusion concentrate.
+The TxGNN model predicts it may be effective for **primary hereditary glaucoma**,
+but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
-|------|---------|
-| Original Indication | Trace element supplementation (parenteral nutrition) |
-| Predicted New Indication | Primary Hereditary Glaucoma |
+|------|------|
+| Original Indication | Trace-element supplementation (indication text not stated in the registration record) |
+| Predicted New Indication | Primary hereditary glaucoma |
 | TxGNN Prediction Score | 95.70% |
-| Evidence Level | L5 — Model prediction only, no supporting studies |
-| Singapore Market Status | ✗ Not marketed |
-| Number of Registrations | 0 |
-| Recommended Decision | **Hold** |
-
----
+| Evidence Level | L5 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 1 |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in this Evidence Pack. Based on known pharmacology, chromic chloride is an inorganic chromium(III) salt serving as a source of the essential trace element chromium. Its established role is in insulin signalling — chromium(III) enhances insulin receptor sensitivity, potentially improving glucose metabolism, reducing insulin resistance, and modulating lipid profiles.
+Currently, detailed mechanism of action data is not available. Based on known information, chromic chloride is a trivalent chromium trace-element supplement, and mechanistically no pathway to intraocular pressure or optic neuropathy is documented.
 
-Primary hereditary glaucoma is a genetically driven disorder characterised by elevated intraocular pressure (IOP) due to dysfunction in trabecular meshwork outflow, often linked to mutations in genes such as *MYOC*, *OPTN*, or *CYP1B1*. There is no established biological connection between chromium(III) and aqueous humour dynamics, trabecular meshwork function, or optic nerve protection. The TxGNN model may have captured indirect multi-hop paths in the knowledge graph — for example, chromium → mitochondrial function → oxidative stress → optic nerve integrity — but these are speculative connections without direct experimental support.
+The high TxGNN score is a knowledge-graph output only. It is probably driven by graph proximity to other glaucoma nodes rather than by known chromium pharmacology. The glaucoma predictions in the top 10 (primary hereditary glaucoma, open-angle glaucoma, and glaucoma 1, open angle) share the same graph-derived signal. They should not be counted as independent corroboration.
 
-In summary, while chromium's metabolic effects are reasonably well-characterised, a plausible mechanistic bridge to primary hereditary glaucoma is currently lacking. The high TxGNN score (95.70%) likely reflects proximity within the knowledge graph rather than a direct pharmacological relationship. This prediction should be regarded with considerable caution.
-
----
+The other top-ranked predictions are similarly unsupported. Amenorrhea and peripheral arterial disease have only an indirect, speculative link through chromium's role in insulin sensitivity and glucose and lipid metabolism. Filariasis, headache disorders, pulmonary hypertension and congenital hypotrichosis milia have no plausible mechanistic link. No trials or literature were retrieved for any of them.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Chromic Chloride in primary hereditary glaucoma.
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for Chromic Chloride in primary hereditary glaucoma.
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
-Chromic chloride is currently **not registered** in Singapore. No authorisation records are available.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN15302P | ADDAVEN CONCENTRATE FOR SOLUTION FOR INFUSION | Infusion, solution concentrate | Not stated in the registration record |
 
----
+Manufacturer: HP Halden Pharma AS. The product is an injectable (infusion) formulation.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction data, key warnings, or contraindication records were retrievable for this evaluation.
-
----
+Please refer to the package insert for safety information. No drug interaction records were found for this drug.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-All 10 predicted indications in this Evidence Pack are rated L5 with an S0 decision stage, meaning the TxGNN model prediction is the sole basis — no clinical trials, no published literature, and no established mechanistic link support chromic chloride's use in primary hereditary glaucoma or any of the other predicted conditions. The drug is also not registered in Singapore, providing no regulatory foundation to build upon.
+The prediction has no supporting trials or publications, no established mechanism, and the local safety documentation is missing. The only basis is a knowledge-graph score, which is not sufficient to justify moving forward.
 
-**To proceed, the following would be needed:**
-
-- **Establish mechanistic plausibility**: Conduct a structured literature review to determine whether any peer-reviewed research connects chromium(III) compounds to intraocular pressure regulation, trabecular meshwork biology, or optic nerve neuroprotection.
-- **Retrieve full safety data**: Obtain and parse the Singapore HSA package insert (if available internationally) or equivalent regulatory documents to assess warnings, contraindications, and drug interactions before any clinical consideration.
-- **Obtain MOA data from DrugBank**: Query DrugBank API for the full pharmacology profile of DB09129 to better characterise mechanism-of-action and pharmacokinetic properties relevant to ocular bioavailability.
-- **Consider alternative chromium forms**: If a mechanistic hypothesis is to be explored, chromium picolinate (which has some PCOS/insulin-resistance literature) may offer a more biologically grounded starting point than chromic chloride specifically.
-- **Re-evaluate predicted indication ranking**: Given that three of the top 10 predictions are glaucoma subtypes and likely represent knowledge-graph clustering artefacts, consider whether the amenorrhea (rank 3) or peripheral arterial disease (rank 7) indications — which carry more plausible metabolic mechanistic links — should be prioritised for deeper exploration instead.
+**To proceed, the following is needed:**
+- HSA package insert (warnings, contraindications and approved indication), which blocks safety screening
+- Mechanism of action data, for example from DrugBank
+- A plausible mechanistic link between chromium and glaucoma, supported by preclinical or observational evidence
+- An assessment of route compatibility, since the only local product is an intravenous trace-element additive and the predicted indication would likely need a different route
+- A literature and trial search targeted at chromium and glaucoma to check whether any evidence exists
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

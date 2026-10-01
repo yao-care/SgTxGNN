@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Voriconazole
-parent: Low Evidence (L5)
+parent: Medium Evidence (L3-L4)
 nav_order: 1066
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Voriconazole
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Voriconazole: From Invasive Fungal Infection to Multidrug-Resistant Tuberculosis
+# Voriconazole: From Antifungal Therapy to Multidrug-Resistant Tuberculosis
 
 ## One-Sentence Summary
 
-> Voriconazole is a triazole antifungal typically used for serious invasive fungal infections; detailed original-indication and mechanism-of-action data were not provided in this evidence pack.
-> The TxGNN model predicts it may be effective for **Multidrug-Resistant Tuberculosis (MDR-TB)**,
-> but this direction is currently supported only by **0 clinical trials** and **3 tangentially related publications** (case reports of fungal/TB co-infection, not evidence of anti-TB efficacy).
+Voriconazole is a triazole antifungal, marketed in Singapore under 11 registrations.
+The TxGNN model predicts it may be effective for **multidrug-resistant tuberculosis (MDR-TB)** with a high score, but there are **0 clinical trials** and **3 publications**, and none of the publications supports anti-tubercular use.
+The prediction currently rests on the model alone.
 
 ---
 
@@ -43,29 +43,30 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Not specified in evidence pack (voriconazole is a triazole antifungal, generally indicated for invasive fungal infections) |
-| Predicted New Indication | Multidrug-Resistant Tuberculosis |
+| Predicted New Indication | Multidrug-resistant tuberculosis |
 | TxGNN Prediction Score | 98.67% |
-| Evidence Level | L5 |
-| Singapore Market Status | Not Marketed |
-| Number of Registrations | 0 |
+| Evidence Level | L4 |
+| Singapore Market Status | ✓ Marketed |
+| Number of Registrations | 11 |
 | Recommended Decision | Hold |
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on general pharmacological knowledge, voriconazole is a second-generation triazole antifungal that inhibits fungal cytochrome P450-dependent 14α-lanosterol demethylase, disrupting ergosterol synthesis in fungal cell membranes. It is not known to have activity against *Mycobacterium tuberculosis*, which has a fundamentally different cell wall (mycolic acid-based) and metabolic machinery than fungi.
+Currently, detailed mechanism of action data is not available in the Evidence Pack. Voriconazole is a triazole antifungal. Triazoles are generally understood to inhibit fungal CYP51 (lanosterol 14-alpha-demethylase), which blocks ergosterol synthesis.
 
-There is no obvious mechanistic overlap between antifungal azole activity and anti-mycobacterial activity, and no original indication data was provided to establish a pharmacological bridge to MDR-TB. The three literature items retrieved for this candidate are case reports and in vitro studies describing **fungal infections (aspergillosis, chromoblastomycosis) that happen to co-occur with or mimic tuberculosis**, not studies demonstrating voriconazole efficacy against *M. tuberculosis* itself. This pattern — high TxGNN score paired with only incidental co-occurrence literature — is consistent with a knowledge-graph embedding artifact rather than a genuine repurposing signal, similar to other low-plausibility candidates in this drug's prediction list (e.g., Ambras-type hypertrichosis, Dandy-Walker malformation syndrome), which show no mechanistic or evidentiary link either.
+*Mycobacterium tuberculosis* encodes several azole-binding cytochrome P450 enzymes (for example CYP121, CYP125 and a CYP51 homolog), so a theoretical mechanistic link exists. However, no data in this pack show that voriconazole has clinically useful anti-tubercular activity. The high TxGNN score reflects a pattern in the knowledge graph, not demonstrated efficacy.
 
-Given the absence of confirmed MOA data, original indication data, and any direct supporting study, this candidate should be treated as a low-confidence model output requiring further validation before any further action.
+The retrieved literature does not strengthen the case.
+- One paper is a case report of MDR-TB co-existing with aspergillosis. There, voriconazole treats the fungal infection, not the TB.
+- The other two papers are unrelated antifungal studies.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
 
 ---
 
@@ -73,17 +74,25 @@ Currently no related clinical trials registered
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [18992166](https://pubmed.ncbi.nlm.nih.gov/18992166/) | 2008 | Case report | Cases Journal | Describes a diabetic patient with MDR-TB co-existing with aspergilloma/invasive aspergillosis — does not evaluate voriconazole for TB treatment, only for the concurrent fungal infection |
-| [37145297](https://pubmed.ncbi.nlm.nih.gov/37145297/) | 2023 | In vitro study | Braz J Microbiol | Evaluates photodynamic therapy (not voriconazole) against multidrug-resistant fungal chromoblastomycosis; unrelated to TB treatment |
-| [39359062](https://pubmed.ncbi.nlm.nih.gov/39359062/) | 2024 | Observational/genetic study | Virulence | Characterizes azole-resistant *Candida krusei* isolates; no TB or voriconazole-TB efficacy data |
-
-**Note:** None of the retrieved literature directly evaluates voriconazole's efficacy against *M. tuberculosis* or MDR-TB.
+| [18992166](https://pubmed.ncbi.nlm.nih.gov/18992166/) | 2008 | Case report | Cases Journal | Diabetic woman with MDR-TB co-existing with aspergilloma and invasive aspergillosis. The antifungal addresses the fungal infection, not the TB. |
+| [37145297](https://pubmed.ncbi.nlm.nih.gov/37145297/) | 2023 | In vitro study | Brazilian Journal of Microbiology | Methylene blue photodynamic inactivation of multidrug-resistant *Fonsecaea nubica* (chromoblastomycosis). Not related to TB. |
+| [39359062](https://pubmed.ncbi.nlm.nih.gov/39359062/) | 2024 | Laboratory/genetic diversity study | Virulence | Biology and genetic diversity of *Candida krusei* isolates from fermented vegetables and clinical samples in China. Not related to TB. |
 
 ---
 
 ## Singapore Market Information
 
-Voriconazole currently has no registered licenses in Singapore (`total_licenses: 0`); no market authorization records were found in the evidence pack.
+The registration records provided do not include approved indication text, so only product details are shown. The 5 listed below are the main authorizations out of 11.
+
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN13033P | Vfend Powder for Oral Suspension 40mg/ml | Powder, for suspension | FAREVA AMBOISE |
+| SIN16906P | Voriconazole – AFT Powder for Injection 200mg/vial | Injection, powder, for solution | ANFARM HELLAS S.A |
+| SIN16417P | Vorica Voriconazole Powder for Solution for Infusion 200mg/vial | Injection, powder, lyophilized, for solution | ASPIRO PHARMA LIMITED |
+| SIN16656P | Voriconazole Mylan Powder for Solution for Injection 200 mg/vial | Injection, powder, lyophilized, for solution | Mylan Laboratories Ltd Hosur Steriles Facility (HSF) |
+| SIN12379P | Vfend Film-Coated Tablet 200 mg | Tablet, film coated | R-Pharm Germany GmbH & Pfizer Italia S.r.l. |
+
+Oral, injectable and suspension forms are all available locally.
 
 ---
 
@@ -98,13 +107,18 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The MDR-TB prediction lacks any direct supporting clinical trial or literature evidence — the three retrieved publications describe incidental fungal/TB co-infection scenarios rather than anti-tuberculosis efficacy of voriconazole, and there is no established mechanistic basis (azole antifungal vs. anti-mycobacterial activity) to support this repurposing signal. Additionally, voriconazole is not currently marketed in Singapore.
+The MDR-TB prediction is supported only by the model score and a theoretical mycobacterial CYP450 hypothesis. No trials exist, and none of the three retrieved papers tests voriconazole against tuberculosis.
+
+The other nine predictions in the pack are also on hold. Most are at evidence level L5, with no mechanistic link evident. The TB-related ones (bovine and avian tuberculosis, tuberculous ascites) rely on the same unproven hypothesis. Tuberculoma has only two case reports of fungal mimics, which are indirect at best.
 
 **To proceed, the following is needed:**
-- Confirmed original indication and mechanism-of-action data (DrugBank/TFDA source)
-- TFDA package insert (warnings, contraindications) — currently a blocking data gap (DG001)
-- A mechanistic or preclinical rationale specifically linking triazole antifungal activity to anti-mycobacterial effect, if such exists
-- Re-screening of literature/clinical trial databases specifically for "voriconazole AND tuberculosis" (direct efficacy studies), rather than co-occurrence hits
+- The HSA package insert warnings and contraindications. Safety screening cannot start without them.
+- Mechanism of action data from DrugBank.
+- In vitro susceptibility data (MIC) for voriconazole against *M. tuberculosis*, including MDR strains.
+- Review of drug-interaction risk with standard TB regimens, since voriconazole is metabolized by and inhibits CYP enzymes.
+- Preclinical or early clinical evidence of anti-mycobacterial activity before any trial is considered.
+
+*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
