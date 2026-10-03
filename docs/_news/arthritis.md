@@ -13,7 +13,15 @@ permalink: /news/arthritis/
 
 ---
 
-**5 articles** related to arthritis.
+**6 articles** related to arthritis.
+
+---
+
+### [Air quality hits unhealthy range in central Singapore](https://www.todayonline.com/singapore/haze-unhealthy-central-air-quality-6428681)
+
+2026-10-03
+
+Source: [TODAY](https://www.todayonline.com/singapore/haze-unhealthy-central-air-quality-6428681)
 
 ---
 
@@ -33,11 +41,11 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/koh-poh-ko
 
 ---
 
-### [What chiropractors can help with – and what patients should know](https://www.channelnewsasia.com/wellness/chiropractors-treatments-6306271)
+### [First dedicated centre for persons living with dementia, caregivers opens in Toa Payoh](https://www.straitstimes.com/singapore/health/first-dedicated-centre-for-persons-living-with-dementia-caregivers-opens-in-toa-payoh)
 
 2026-10-03
 
-Source: [CNA](https://www.channelnewsasia.com/wellness/chiropractors-treatments-6306271)
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/first-dedicated-centre-for-persons-living-with-dementia-caregivers-opens-in-toa-payoh)
 
 ---
 

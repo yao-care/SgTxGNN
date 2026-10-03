@@ -13,15 +13,7 @@ permalink: /news/aging/
 
 ---
 
-**3 articles** related to aging.
-
----
-
-### [Simple handgrip test could help doctors detect early heart ageing in seniors](https://www.straitstimes.com/singapore/health/simple-handgrip-test-could-help-doctors-detect-early-heart-ageing-in-seniors)
-
-2026-10-03
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/simple-handgrip-test-could-help-doctors-detect-early-heart-ageing-in-seniors)
+**2 articles** related to aging.
 
 ---
 
