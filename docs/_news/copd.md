@@ -19,7 +19,7 @@ permalink: /news/copd/
 
 ### [Emergency visits for respiratory cases up even with small spikes in PM2.5 levels: S’pore study](https://www.straitstimes.com/singapore/health/emergency-visits-for-asthma-chronic-respiratory-disease-rise-with-higher-pm2-5-levels-spore-study)
 
-2026-10-02
+2026-10-03
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/emergency-visits-for-asthma-chronic-respiratory-disease-rise-with-higher-pm2-5-levels-spore-study)
 
