@@ -19,7 +19,7 @@ permalink: /news/arthritis/
 
 ### [Emergency visits for respiratory cases up even with small spikes in PM2.5 levels: S’pore study](https://www.straitstimes.com/singapore/health/emergency-visits-for-asthma-chronic-respiratory-disease-rise-with-higher-pm2-5-levels-spore-study)
 
-2026-10-03
+2026-10-04
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/emergency-visits-for-asthma-chronic-respiratory-disease-rise-with-higher-pm2-5-levels-spore-study)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/emergency-
 
 ### [Koh Poh Koon rejoins Singapore General Hospital as colorectal surgeon](https://www.straitstimes.com/singapore/health/koh-poh-koon-rejoins-singapore-general-hospital-as-colorectal-surgeon)
 
-2026-10-03
+2026-10-04
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/koh-poh-koon-rejoins-singapore-general-hospital-as-colorectal-surgeon)
 
@@ -35,7 +35,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/koh-poh-ko
 
 ### [First dedicated centre for persons living with dementia, caregivers opens in Toa Payoh](https://www.straitstimes.com/singapore/health/first-dedicated-centre-for-persons-living-with-dementia-caregivers-opens-in-toa-payoh)
 
-2026-10-03
+2026-10-04
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/first-dedicated-centre-for-persons-living-with-dementia-caregivers-opens-in-toa-payoh)
 
@@ -43,7 +43,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/first-dedi
 
 ### [Always tripping or spraining your ankles? When ‘clumsiness’ could be a genetic nerve disorder](https://www.channelnewsasia.com/wellness/charcot-marie-tooth-tripping-weakness-6323596)
 
-2026-10-03
+2026-10-04
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/charcot-marie-tooth-tripping-weakness-6323596)
 
@@ -51,7 +51,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/charcot-marie-tooth-tripp
 
 ### [Is mouthwash bad for your oral health? Here's what the research found](https://www.channelnewsasia.com/wellness/mouthwash-oral-microbiome-harms-6360641)
 
-2026-10-03
+2026-10-04
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/mouthwash-oral-microbiome-harms-6360641)
 
