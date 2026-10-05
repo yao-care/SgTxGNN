@@ -19,7 +19,7 @@ permalink: /news/multiple-sclerosis/
 
 ### [Protection of healthcare workers from abuse needs to evolve as new harms surface: Workgroup co](https://www.straitstimes.com/singapore/health/protection-of-healthcare-workers-from-abuse-needs-to-evolve-as-new-harms-surface-workgroup-co-chair)
 
-2026-10-04
+2026-10-05
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/protection-of-healthcare-workers-from-abuse-needs-to-evolve-as-new-harms-surface-workgroup-co-chair)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/protection
 
 ### [Always tripping or spraining your ankles? When ‘clumsiness’ could be a genetic nerve disorder](https://www.channelnewsasia.com/wellness/charcot-marie-tooth-tripping-weakness-6323596)
 
-2026-10-04
+2026-10-05
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/charcot-marie-tooth-tripping-weakness-6323596)
 
@@ -35,7 +35,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/charcot-marie-tooth-tripp
 
 ### [How ADHD symptoms change from childhood through adulthood](https://www.channelnewsasia.com/wellness/adhd-symptoms-change-age-6381941)
 
-2026-10-04
+2026-10-05
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/adhd-symptoms-change-age-6381941)
 
