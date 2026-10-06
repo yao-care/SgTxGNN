@@ -13,15 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**4 articles** related to arthritis.
-
----
-
-### [Koh Poh Koon rejoins Singapore General Hospital as colorectal surgeon](https://www.straitstimes.com/singapore/health/koh-poh-koon-rejoins-singapore-general-hospital-as-colorectal-surgeon)
-
-2026-10-06
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/koh-poh-koon-rejoins-singapore-general-hospital-as-colorectal-surgeon)
+**3 articles** related to arthritis.
 
 ---
 
