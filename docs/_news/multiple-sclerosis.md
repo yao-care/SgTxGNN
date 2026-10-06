@@ -13,15 +13,7 @@ permalink: /news/multiple-sclerosis/
 
 ---
 
-**3 articles** related to multiple sclerosis.
-
----
-
-### [Protection of healthcare workers from abuse needs to evolve as new harms surface: Workgroup co](https://www.straitstimes.com/singapore/health/protection-of-healthcare-workers-from-abuse-needs-to-evolve-as-new-harms-surface-workgroup-co-chair)
-
-2026-10-06
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/protection-of-healthcare-workers-from-abuse-needs-to-evolve-as-new-harms-surface-workgroup-co-chair)
+**2 articles** related to multiple sclerosis.
 
 ---
 
