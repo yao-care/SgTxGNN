@@ -19,7 +19,7 @@ permalink: /news/stroke/
 
 ### [First dedicated centre for persons living with dementia, caregivers opens in Toa Payoh](https://www.straitstimes.com/singapore/health/first-dedicated-centre-for-persons-living-with-dementia-caregivers-opens-in-toa-payoh)
 
-2026-10-05
+2026-10-06
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/first-dedicated-centre-for-persons-living-with-dementia-caregivers-opens-in-toa-payoh)
 
