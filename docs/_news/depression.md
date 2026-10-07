@@ -19,7 +19,7 @@ permalink: /news/depression/
 
 ### [New Hougang facility set up for mental health residents as S’pore rethinks long-term psychiatric care](https://www.straitstimes.com/singapore/health/new-hougang-facility-set-up-for-mental-health-residents-as-spore-rethinks-long-term-psychiatric-care)
 
-2026-10-06
+2026-10-07
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-hougang-facility-set-up-for-mental-health-residents-as-spore-rethinks-long-term-psychiatric-care)
 
