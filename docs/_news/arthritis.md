@@ -13,15 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**4 articles** related to arthritis.
-
----
-
-### [Air quality across Singapore remains in unhealthy range](https://www.todayonline.com/singapore/haze-unhealthy-psi-air-quality-oct-8-6441021)
-
-2026-10-08
-
-Source: [TODAY](https://www.todayonline.com/singapore/haze-unhealthy-psi-air-quality-oct-8-6441021)
+**3 articles** related to arthritis.
 
 ---
 
