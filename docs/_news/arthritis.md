@@ -13,13 +13,21 @@ permalink: /news/arthritis/
 
 ---
 
-**3 articles** related to arthritis.
+**4 articles** related to arthritis.
+
+---
+
+### [Air quality across Singapore remains in unhealthy range](https://www.todayonline.com/singapore/haze-unhealthy-psi-air-quality-oct-8-6441021)
+
+2026-10-08
+
+Source: [TODAY](https://www.todayonline.com/singapore/haze-unhealthy-psi-air-quality-oct-8-6441021)
 
 ---
 
 ### [First dedicated centre for persons living with dementia, caregivers opens in Toa Payoh](https://www.straitstimes.com/singapore/health/first-dedicated-centre-for-persons-living-with-dementia-caregivers-opens-in-toa-payoh)
 
-2026-10-07
+2026-10-08
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/first-dedicated-centre-for-persons-living-with-dementia-caregivers-opens-in-toa-payoh)
 
@@ -27,7 +35,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/first-dedi
 
 ### [Always tripping or spraining your ankles? When ‘clumsiness’ could be a genetic nerve disorder](https://www.channelnewsasia.com/wellness/charcot-marie-tooth-tripping-weakness-6323596)
 
-2026-10-07
+2026-10-08
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/charcot-marie-tooth-tripping-weakness-6323596)
 
@@ -35,7 +43,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/charcot-marie-tooth-tripp
 
 ### [Is mouthwash bad for your oral health? Here's what the research found](https://www.channelnewsasia.com/wellness/mouthwash-oral-microbiome-harms-6360641)
 
-2026-10-07
+2026-10-08
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/mouthwash-oral-microbiome-harms-6360641)
 
