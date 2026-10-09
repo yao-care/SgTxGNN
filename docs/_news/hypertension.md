@@ -19,7 +19,7 @@ permalink: /news/hypertension/
 
 ### [Science Talk: 1 in 3 Singaporeans has hypertension. Can cutting salt reverse the trend?](https://www.straitstimes.com/singapore/health/science-talk-1-in-3-singaporeans-have-hypertension-can-cutting-salt-reverse-the-trend)
 
-2026-10-08
+2026-10-09
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/science-talk-1-in-3-singaporeans-have-hypertension-can-cutting-salt-reverse-the-trend)
 
