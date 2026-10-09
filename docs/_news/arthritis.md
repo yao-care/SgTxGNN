@@ -13,7 +13,15 @@ permalink: /news/arthritis/
 
 ---
 
-**3 articles** related to arthritis.
+**4 articles** related to arthritis.
+
+---
+
+### [Singapore haze: Air quality may reach Very Unhealthy range, N95 masks to be distributed if PSI exceeds 200](https://www.todayonline.com/singapore/singapore-haze-air-quality-unhealthy-psi-6445146)
+
+2026-10-09
+
+Source: [TODAY](https://www.todayonline.com/singapore/singapore-haze-air-quality-unhealthy-psi-6445146)
 
 ---
 
