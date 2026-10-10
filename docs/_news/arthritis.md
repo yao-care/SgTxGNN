@@ -13,21 +13,13 @@ permalink: /news/arthritis/
 
 ---
 
-**4 articles** related to arthritis.
-
----
-
-### [Singapore haze as it happened: Air quality may reach Very Unhealthy range as F1 weekend gets underway](https://www.todayonline.com/singapore/singapore-haze-air-quality-unhealthy-psi-live-6445146)
-
-2026-10-09
-
-Source: [TODAY](https://www.todayonline.com/singapore/singapore-haze-air-quality-unhealthy-psi-live-6445146)
+**5 articles** related to arthritis.
 
 ---
 
 ### [First dedicated centre for persons living with dementia, caregivers opens in Toa Payoh](https://www.straitstimes.com/singapore/health/first-dedicated-centre-for-persons-living-with-dementia-caregivers-opens-in-toa-payoh)
 
-2026-10-09
+2026-10-10
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/first-dedicated-centre-for-persons-living-with-dementia-caregivers-opens-in-toa-payoh)
 
@@ -35,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/first-dedi
 
 ### [Always tripping or spraining your ankles? When ‘clumsiness’ could be a genetic nerve disorder](https://www.channelnewsasia.com/wellness/charcot-marie-tooth-tripping-weakness-6323596)
 
-2026-10-09
+2026-10-10
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/charcot-marie-tooth-tripping-weakness-6323596)
 
@@ -43,9 +35,25 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/charcot-marie-tooth-tripp
 
 ### [Is mouthwash bad for your oral health? Here's what the research found](https://www.channelnewsasia.com/wellness/mouthwash-oral-microbiome-harms-6360641)
 
-2026-10-09
+2026-10-10
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/mouthwash-oral-microbiome-harms-6360641)
+
+---
+
+### [Brain fog isn’t just forgetfulness: What causes it? Is it linked to dementia? When should you worry?](https://www.channelnewsasia.com/wellness/brain-fog-causes-symptoms-sleep-stress-menopause-dengue-6420656)
+
+2026-10-10
+
+Source: [CNA](https://www.channelnewsasia.com/wellness/brain-fog-causes-symptoms-sleep-stress-menopause-dengue-6420656)
+
+---
+
+### [How drinking affects your dementia risk – and what studies say about moderate alcohol use](https://www.channelnewsasia.com/wellness/alcohol-dementia-risk-6424581)
+
+2026-10-10
+
+Source: [CNA](https://www.channelnewsasia.com/wellness/alcohol-dementia-risk-6424581)
 
 ---
 
