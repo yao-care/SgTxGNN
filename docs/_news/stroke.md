@@ -13,15 +13,7 @@ permalink: /news/stroke/
 
 ---
 
-**3 articles** related to stroke.
-
----
-
-### [First dedicated centre for persons living with dementia, caregivers opens in Toa Payoh](https://www.straitstimes.com/singapore/health/first-dedicated-centre-for-persons-living-with-dementia-caregivers-opens-in-toa-payoh)
-
-2026-10-10
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/first-dedicated-centre-for-persons-living-with-dementia-caregivers-opens-in-toa-payoh)
+**2 articles** related to stroke.
 
 ---
 

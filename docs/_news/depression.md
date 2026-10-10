@@ -13,7 +13,7 @@ permalink: /news/depression/
 
 ---
 
-**1 articles** related to depression.
+**3 articles** related to depression.
 
 ---
 
@@ -22,6 +22,22 @@ permalink: /news/depression/
 2026-10-10
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-hougang-facility-set-up-for-mental-health-residents-as-spore-rethinks-long-term-psychiatric-care)
+
+---
+
+### [IMH to be redeveloped and expanded, renamed the National Centre for Mental Health Singapore](https://www.straitstimes.com/singapore/health/imh-to-be-redeveloped-and-expanded-renamed-the-national-centre-for-mental-health-singapore)
+
+2026-10-10
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/imh-to-be-redeveloped-and-expanded-renamed-the-national-centre-for-mental-health-singapore)
+
+---
+
+### [ST’s senior health correspondent wins first media excellence award for championing mental health](https://www.straitstimes.com/singapore/health/sts-senior-health-correspondent-wins-first-media-excellence-award-for-championing-mental-health)
+
+2026-10-10
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/sts-senior-health-correspondent-wins-first-media-excellence-award-for-championing-mental-health)
 
 ---
 
