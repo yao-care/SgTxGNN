@@ -19,7 +19,7 @@ permalink: /news/infectious-disease/
 
 ### [Do I have to pay for the Covid-19 vaccine when it becomes part of the national immunisation schedule?](https://www.straitstimes.com/singapore/health/askst-do-i-have-to-pay-for-the-covid-19-vaccine-when-it-becomes-part-of-the-national-immunisation)
 
-2026-10-10
+2026-10-11
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/askst-do-i-have-to-pay-for-the-covid-19-vaccine-when-it-becomes-part-of-the-national-immunisation)
 
