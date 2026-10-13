@@ -19,7 +19,7 @@ permalink: /news/motion-sickness/
 
 ### [Is motion sickness preventable? What works and what doesn't](https://www.channelnewsasia.com/wellness/motion-sickness-prevention-treatment-6345526)
 
-2026-10-12
+2026-10-13
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/motion-sickness-prevention-treatment-6345526)
 
