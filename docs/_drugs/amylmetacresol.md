@@ -29,19 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Amylmetacresol: From Throat Antiseptic Lozenge to Cauda Equina Syndrome
+# Amylmetacresol: From Throat Infection Relief (Lozenge) to Cauda Equina Syndrome
 
 ## One-Sentence Summary
 
-Amylmetacresol is an antiseptic ingredient in a throat lozenge marketed in Singapore, and no formal original indication is recorded in the registration data.
-The TxGNN model predicts it may be effective for **Cauda Equina Syndrome**, but there are **0 clinical trials** and **0 publications** supporting this direction.
-This is a model-only prediction (evidence level L5), so the recommendation is to hold.
+Amylmetacresol is a topical antiseptic used in throat lozenges and is marketed in Singapore as a single-ingredient lozenge product.
+The TxGNN model predicts it may be effective for **cauda equina syndrome**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction.
+It is a model prediction only, with no supporting studies.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the registration data (product type: throat lozenge) |
+| Original Indication | Not stated in the Singapore registration record (the product is a throat lozenge) |
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L5 |
@@ -51,14 +51,11 @@ This is a model-only prediction (evidence level L5), so the recommendation is to
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, amylmetacresol is a topical antiseptic used in throat lozenges. Its use in sore throat is not documented in the supplied data, and no mechanistic link to cauda equina syndrome can be established.
+Currently, detailed mechanism of action data is not available. Amylmetacresol is known as a locally acting antiseptic in throat lozenges, with antibacterial and antiviral activity in the oropharynx. Some related lozenge compounds show weak local anaesthetic-like activity, possibly through sodium channel blockade.
 
-Cauda equina syndrome is a compressive neurological emergency, and a topical throat antiseptic has no known relevance to it. The high score (0.9999) is a knowledge-graph prediction only. Systemic exposure from lozenge use is also minimal, which weakens plausibility further.
+No mechanistic link to cauda equina syndrome has been established. The drug is not used systemically, and cauda equina syndrome is a compressive neurological condition that is managed surgically. The high TxGNN score appears to reflect graph-based association rather than biological or clinical rationale.
 
-The other top-ranked predictions show the same pattern:
-- Seven of the top ten are ocular conditions (ciliary body disease, panuveitis, iris disease, infectious anterior uveitis, uveitis, ciliary body cancer, benign neoplasm of ciliary body). They appear to share a graph neighborhood rather than reflect a pharmacological rationale.
-- Rank 2, "obsolete neurogenic bladder", is flagged obsolete in the ontology, so it may reflect a stale node.
-- The only loosely arguable rationale is antiseptic activity for infectious anterior uveitis. No ocular antimicrobial data are available, and intraocular delivery of a lozenge antiseptic is not plausible.
+Other top-ranked predictions are similarly unsupported: obsolete neurogenic bladder (likely a graph-proximity effect with cauda equina syndrome), irritable bowel syndrome, and several eye conditions (ciliary body disease, panuveitis, iris disease, infectious anterior uveitis, uveitis, ciliary body cancer and benign ciliary body neoplasm). All are L5, with no trials or publications. Infectious anterior uveitis has only a theoretical antimicrobial rationale, with no data on eye delivery or tolerability.
 
 ## Clinical Trial Evidence
 
@@ -72,28 +69,24 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN08806P | STREPSILS MAX PLUS LOZENGES | Lozenge | Not recorded in the registration data |
-
-Manufacturer: Reckitt Benckiser Healthcare International Limited; Reckitt Benckiser Healthcare Manufacturing (Thailand) Ltd.
+| SIN08806P | STREPSILS MAX PLUS LOZENGES | Lozenge | Not stated in the record |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interactions were found in the queried database.
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a knowledge-graph score. There are no trials or literature, no mechanism of action data, and no plausible mechanistic link for cauda equina syndrome or for any of the other top-ten predictions.
+The prediction rests on a model score alone. There are no clinical trials or publications, no plausible mechanism, and no route of administration that could reach the target condition. The drug is a locally acting lozenge antiseptic.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data (for example from DrugBank)
-- The original approved indication for the Singapore registration
-- Any published preclinical or clinical evidence linking amylmetacresol to the predicted condition
-- Confirmation that the predicted disease terms are current in the ontology, since one is flagged obsolete
-- A route-of-administration feasibility assessment, since a lozenge is not an obvious fit for the predicted conditions
+- Package insert warnings and contraindications from the Singapore regulator (HSA), required before any safety screening
+- Mechanism of action data (for example, from DrugBank)
+- Any preclinical or clinical evidence linking amylmetacresol to the predicted conditions
+- An assessment of route compatibility, since a topical oropharyngeal product is unlikely to be suitable for neurological, bowel or ocular targets
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

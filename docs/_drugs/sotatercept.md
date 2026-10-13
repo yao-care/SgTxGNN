@@ -2,7 +2,7 @@
 layout: default
 title: Sotatercept
 parent: Low Evidence (L5)
-nav_order: 923
+nav_order: 933
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,21 +29,18 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sotatercept: From a Marketed Use Not Recorded in the Evidence Pack to Acute Lymphoblastic Leukemia
+# Sotatercept: From Pulmonary Arterial Hypertension (Not Stated in Local Licence Data) to Acute Lymphoblastic Leukemia
 
 ## One-Sentence Summary
 
-Sotatercept is marketed in Singapore as Winrevair, but the supplied record does not state its approved indication.
-The TxGNN model predicts it may be effective for **acute lymphoblastic leukemia**, with a very high score.
-However, there are **0 clinical trials** and **0 publications** behind this prediction, so it is a model output only.
-
----
+Sotatercept is an activin receptor type IIA-Fc fusion protein that is marketed in Singapore as WINREVAIR®. The approved indication text is not available in the data compiled for this report.
+The TxGNN model predicts it may be effective for **acute lymphoblastic leukemia**, but there are currently **0 clinical trials** and **0 publications** supporting this direction, so this is a model-only prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the supplied record |
+| Original Indication | Not available (the approved indication text in the Singapore licences is empty) |
 | Predicted New Indication | Acute lymphoblastic leukemia |
 | TxGNN Prediction Score | 99.78% |
 | Evidence Level | L5 |
@@ -51,70 +48,53 @@ However, there are **0 clinical trials** and **0 publications** behind this pred
 | Number of Registrations | 2 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the Evidence Pack. The supplied analysis describes sotatercept as an activin signaling trap (ActRIIA-Fc), a fusion protein that binds ligands of the TGF-beta/activin family.
+Sotatercept is an activin receptor type IIA-Fc fusion protein. It acts as a ligand trap for activin and growth differentiation factors (GDFs), which helps rebalance BMP/activin signaling. Detailed mechanism of action data is not available in the compiled data, so this description comes from the mechanistic notes prepared for this assessment.
 
-No direct link between this mechanism and lymphoid leukemia biology is evident from the supplied data. The very high score may reflect knowledge-graph artifacts rather than real biology, particularly because the original indication and mechanism fields are missing. The score should be treated as a hypothesis-generating signal, not as support for efficacy.
+No direct mechanistic link between this pathway and the biology of acute lymphoblastic leukemia was identified. The high TxGNN score (0.998) is a graph-based prediction only. A role for activin signaling in blood cell development is a speculative connection at best.
 
-**Other predicted candidates (all L5, prediction only, no supplied trials or literature):**
-
-| Rank | Predicted Indication | Score | Comment |
-|------|------|------|------|
-| 2 | Severe nonproliferative diabetic retinopathy | 99.77% | Speculative link to retinal vascular remodeling. Bleeding-related adverse effects would need careful review. |
-| 3 | Diabetic retinopathy | 99.72% | Parent term of rank 2, so not an independent signal. |
-| 4 | Drug-induced osteoporosis | 99.65% | Activin/ActRII ligand trapping is biologically plausible for bone metabolism. This is the most mechanistically coherent candidate and is flagged as a research question. |
-| 5 | Diabetic cataract | 99.49% | No clear pathway to lens pathology. Likely reflects the diabetic-complication cluster in the graph. |
-| 6 | HER2 positive breast carcinoma | 99.43% | Direction of effect of activin inhibition is uncertain and could be unfavorable. |
-| 7–10 | Urothelial carcinoma variants (transitional cell, prostatic urethra, kidney pelvis sarcomatoid, bladder sarcomatoid) | 99.34–99.39% | Near-identical scores suggest a shared graph neighborhood, not independent evidence. |
-
----
+Other predicted indications are also unsupported by clinical evidence. They include:
+- **Drug-induced osteoporosis** (score 99.65%): the most biologically coherent hypothesis, because activin A inhibition is relevant to bone metabolism. It remains a prediction.
+- **Diabetic retinopathy**, including severe nonproliferative disease (99.77% and 99.72%): a plausible but unvalidated link through retinal vascular remodeling. The two entries overlap and are not independent confirmation.
+- **Urothelial carcinoma subtypes** (ranks 7-10): a cluster of near-identical, graph-propagated predictions that should be treated as one correlated signal.
+- **Diabetic cataract** and **HER2 positive breast carcinoma**: no clear mechanistic rationale. In breast cancer, activin/TGF-beta signaling can be either tumour-suppressive or pro-metastatic depending on context.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN17094P | WINREVAIR® Powder for Solution for Injection 60 mg (vial only) | Injection, powder, lyophilized, for solution |
-| SIN17093P | WINREVAIR® Powder for Solution for Injection 45 mg (vial only) | Injection, powder, lyophilized, for solution |
-
-Both products are manufactured by Patheon Italia S.p.A. The approved indication text is blank in the supplied record. Both forms are injectables.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN17094P | WINREVAIR® Powder for Solution for Injection 60 mg (vial only) | Lyophilized powder for injection | Not stated in the data |
+| SIN17093P | WINREVAIR® Powder for Solution for Injection 45 mg (vial only) | Lyophilized powder for injection | Not stated in the data |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
-The supplied analysis notes that sotatercept's known vascular and bleeding-related adverse effects would need careful review in any retinopathy population.
-
----
+For this class of drug, the mechanistic notes flag possible vascular effects such as bleeding or telangiectasia. These would need careful assessment in any new setting, especially retinal use. In oncology, the uncertain direction of activin/TGF-beta effects is itself a safety concern.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top prediction rests on a model score alone, with no supporting trials or literature and no identifiable mechanistic link to acute lymphoblastic leukemia. The safety information needed for screening is also missing.
+The prediction is supported only by the TxGNN graph score. There are no clinical trials or publications, and no mechanistic link to acute lymphoblastic leukemia was identified. The evidence level is L5.
 
 **To proceed, the following is needed:**
-- The package insert from the Health Sciences Authority (HSA), covering warnings and contraindications, to allow safety screening
-- The approved indication and detailed mechanism of action, to enable a proper mechanistic-link analysis
-- A targeted trial and literature search for each candidate, starting with drug-induced osteoporosis, the most mechanistically coherent
-- A route-compatibility check against the injectable-only formulations marketed in Singapore
+- The Singapore package insert, to establish the approved indication, warnings and contraindications
+- Detailed mechanism of action data
+- A literature and trial search for the top-ranked indications, with drug-induced osteoporosis as the most biologically plausible candidate to examine first
+- Review of bone-related findings in the sotatercept programme from primary sources
+- A safety assessment of vascular effects before any retinal or oncology use
+- An analysis of route and dosage compatibility for any new indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

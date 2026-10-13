@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Apalutamide
-parent: Low Evidence (L5)
+parent: Medium Evidence (L3-L4)
 nav_order: 102
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Apalutamide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,84 +29,111 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Apalutamide: From Prostate Cancer to Prostate Cancer/Brain Cancer Susceptibility
+# Apalutamide: From Prostate Cancer to Benign Neoplasm of Prostate
 
 ## One-Sentence Summary
 
-Apalutamide is an oral androgen receptor (AR) antagonist, marketed in Singapore as ERLEADA and used in prostate cancer. The registration record does not list an approved indication, so this is inferred from the literature.
-The TxGNN model predicts it may be relevant to **prostate cancer/brain cancer susceptibility**, but this is a genetic susceptibility label rather than a treatable disease.
-There are **0 clinical trials** and **0 publications** for this prediction, so it rests on model prediction alone.
+Apalutamide is an androgen receptor inhibitor originally used to treat prostate cancer.
+The TxGNN model predicts it may be effective for **benign neoplasm of prostate** (score 97.5%), but the 20 publications retrieved for this term are about prostate cancer, the approved indication, and **no clinical trials** were found for this term.
+The evidence is therefore indirect, and the prediction should be treated as a **hypothesis, not a validated new indication**.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the registration data (inferred as prostate cancer from the literature) |
-| Predicted New Indication | Prostate cancer/brain cancer susceptibility |
-| TxGNN Prediction Score | 98.43% |
-| Evidence Level | L5 |
+| Original Indication | Prostate cancer (the Singapore licence text is blank; the original indications come from the TxGNN knowledge graph: prostate cancer, familial prostate carcinoma, prostate carcinoma) |
+| Predicted New Indication | Benign neoplasm of prostate (rank 7 in the TxGNN list; see the note below) |
+| TxGNN Prediction Score | 97.45% |
+| Evidence Level | L4 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
+**Note on candidate selection:** The top-ranked prediction, "prostate cancer/brain cancer susceptibility" (98.43%), is a genetic susceptibility label rather than a treatable disease, and it has no supporting evidence. The candidates ranked 2 to 6 and 9 to 10 have no trials or literature. Rank 8, "male reproductive organ cancer", mostly captures the already approved prostate cancer indication. Benign neoplasm of prostate (rank 7) is the highest-ranked candidate that is a genuine disease and has any supporting literature, so this report focuses on it.
+
+---
+
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in the record. Apalutamide is an AR antagonist. It blocks androgen binding, nuclear translocation and AR-mediated transcription, and its efficacy in prostate cancer is well documented.
+Detailed mechanism of action data is not currently available in the data compiled for this report. Based on known information, apalutamide is an oral, selective androgen receptor (AR) inhibitor. Published reviews describe it as binding the ligand-binding domain of the receptor, which blocks androgen-driven signalling. Its efficacy in prostate cancer is well established, including metastatic castration-sensitive disease, non-metastatic castration-resistant disease, and high-risk localized disease.
 
-The predicted entry is a genetic susceptibility label, not a disease state that can be treated. The high score (0.984) most likely reflects the link to prostate cancer in the knowledge graph. That link is the drug's existing use, so it is not a new repurposing opportunity. Nothing in the record supports an AR-antagonist mechanism in the brain cancer component.
+Prostate tissue growth depends on androgen signalling, so blocking the AR gives a plausible mechanistic rationale for benign prostatic neoplasms. However, this link is **theoretical**. The retrieved publications concern malignant disease, not benign prostatic tumours, so they show the drug works in the approved indication and say little about benign disease.
+
+The high TxGNN score probably reflects the closeness of benign and malignant prostate neoplasm nodes in the knowledge graph, rather than a new, independent signal. Whether this prediction overlaps with the approved indication should be checked before treating it as a true repurposing candidate.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials are registered for benign neoplasm of prostate.
+
+For context, the broader category "male reproductive organ cancer" (rank 8) retrieved many apalutamide trials. They all concern prostate cancer, the approved indication, and do not support a benign-prostate indication. Examples include [NCT02489318](https://clinicaltrials.gov/study/NCT02489318) (TITAN, Phase 3, mHSPC) and [NCT02867020](https://clinicaltrials.gov/study/NCT02867020) (Phase 2, completed).
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available.
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [31150574](https://pubmed.ncbi.nlm.nih.gov/31150574/) | 2019 | RCT | N Engl J Med | Apalutamide plus ADT in metastatic castration-sensitive prostate cancer (TITAN) |
+| [33914595](https://pubmed.ncbi.nlm.nih.gov/33914595/) | 2021 | RCT (final analysis) | J Clin Oncol | Final survival analysis of TITAN; improved overall survival and radiographic progression-free survival in mCSPC |
+| [29420164](https://pubmed.ncbi.nlm.nih.gov/29420164/) | 2018 | RCT | N Engl J Med | Apalutamide improved metastasis-free survival in non-metastatic castration-resistant prostate cancer (SPARTAN) |
+| [42223077](https://pubmed.ncbi.nlm.nih.gov/42223077/) | 2026 | RCT | N Engl J Med | Perioperative apalutamide in high-risk localized prostate cancer |
+| [39417629](https://pubmed.ncbi.nlm.nih.gov/39417629/) | 2025 | Comparative study | The Prostate | Real-world comparison of abiraterone, enzalutamide, and apalutamide in metastatic hormone-sensitive prostate cancer |
+| [33480983](https://pubmed.ncbi.nlm.nih.gov/33480983/) | 2021 | Review | Endocr Rev | Overview of hormonal therapy for prostate cancer, including direct AR inhibition |
+| [35750683](https://pubmed.ncbi.nlm.nih.gov/35750683/) | 2022 | Review | Signal Transduct Target Ther | Signalling pathways and clinical trials in prostate cancer, including next-generation AR inhibitors |
+| [32907777](https://pubmed.ncbi.nlm.nih.gov/32907777/) | 2021 | Commentary/Review | Eur Urol | Overall survival data for apalutamide in nmCRPC (SPARTAN) |
 
-## Related Evidence from Other Predicted Entries
+All of these publications address prostate cancer. None evaluates apalutamide in benign prostatic neoplasms.
 
-The Evidence Pack holds the substantive evidence under other, lower-ranked predictions. All of it concerns prostate cancer, the existing use, and none tests a new indication.
-
-| Predicted Entry | Evidence Level | Decision | Notes |
-|---------|------|------|------|
-| Male reproductive organ cancer (rank 8) | L1 | Proceed with Guardrails | Phase 3 trials [NCT02489318](https://clinicaltrials.gov/study/NCT02489318) (TITAN) and [NCT03767244](https://clinicaltrials.gov/study/NCT03767244), plus RCT publications [31150574](https://pubmed.ncbi.nlm.nih.gov/31150574/) (TITAN) and [29420164](https://pubmed.ncbi.nlm.nih.gov/29420164/) (SPARTAN). All are in prostate cancer. Extension to testicular or penile cancer is unsupported. |
-| Benign neoplasm of prostate (rank 7) | L4 | Hold | Only indirect prostate cancer evidence, matched by the word "prostate". |
-| Benign reproductive system neoplasm (rank 4) | L4 | Hold | Only an observational study in metastatic prostate cancer. |
-| Ranks 2, 3, 5, 6, 9, 10 | L5 | Hold | Graph-based prediction only, with no trials or literature. Several are likely knowledge-graph artifacts. |
+---
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN15698P | ERLEADA FILM-COATED TABLET 60MG | Tablet, film coated (oral) | Not provided in the record |
+| SIN15698P | ERLEADA FILM-COATED TABLET 60MG | Tablet, film coated | Not stated in the data compiled for this report |
+
+---
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted hormonal therapy (AR antagonist), not a conventional cytotoxic agent |
+| Cytotoxicity Classification | Targeted hormonal therapy (androgen receptor inhibitor), not a conventional cytotoxic agent |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
 | Monitoring Items | Please refer to the package insert warnings and precautions |
 | Handling Protection | Please refer to the package insert warnings and precautions |
 
+---
+
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: The interaction query returned 100 records in total; 20 are listed in the data compiled for this report, including these notable ones:
+  - **Major**: bupropion, cisapride, dolasetron, eliglustat
+  - **Moderate**: for example famotidine, rabeprazole, esomeprazole, hydrocortisone, clarithromycin, loperamide, dapagliflozin, empagliflozin, glimepiride, glipizide
+
+Package insert warnings and contraindications were not available in the data compiled for this report. Please refer to the package insert for these.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction is a genetic susceptibility label, not a treatable disease, and it has no trials or literature. The strong evidence in the pack (L1) supports the existing prostate cancer use, so it is not evidence for a new indication.
+The prediction rests only on a model score and indirect literature about prostate cancer, the approved indication. No trial or study has tested apalutamide in benign prostatic neoplasms, and the score likely reflects knowledge-graph proximity rather than a new clinical signal.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications (currently a blocking gap)
-- Mechanism of action data from DrugBank
-- Confirmation of the approved indication text against the HSA label
-- Expert review of whether this susceptibility term maps to a real treatable indication
-- Any new-indication evaluation should be re-run on a specific, treatable disease entry rather than this label
+- Clarify whether "benign neoplasm of prostate" is a distinct target disease or overlaps with the approved prostate cancer indication
+- Targeted literature and trial searches for apalutamide in benign prostatic disease
+- Preclinical or early-phase evidence in benign prostatic tumours
+- Detailed mechanism of action data
+- The package insert warnings and contraindications for Singapore (SIN15698P), needed for safety screening
+- A review of the major interactions, especially with bupropion, cisapride, dolasetron, and eliglustat
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

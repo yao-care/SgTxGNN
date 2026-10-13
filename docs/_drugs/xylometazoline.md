@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Xylometazoline
-parent: High Evidence (L1-L2)
-nav_order: 1070
-evidence_level: L2
+parent: Medium Evidence (L3-L4)
+nav_order: 1080
+evidence_level: L3
 indication_count: 10
 ---
 
 # Xylometazoline
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,84 +29,93 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Xylometazoline: From Nasal Decongestant to Nasal Cavity Disease
+# Xylometazoline: From Pharyngitis and Common Cold to Nasal Cavity Disease
 
 ## One-Sentence Summary
 
-Xylometazoline is a topical nasal decongestant already marketed in Singapore. The TxGNN model predicts it may be effective for **Nasal Cavity Disease**, supported by **2 clinical trials** and **7 publications**. The evidence is mostly procedural (nasal preparation for intubation and endoscopy) and is of modest strength.
+Xylometazoline is a topical nasal decongestant, originally used for pharyngitis and the common cold.
+The TxGNN model predicts it may be effective for **nasal cavity disease**, but there are **no registered clinical trials** and only **6 publications** (small clinical and physiological studies) supporting this direction.
+This prediction largely overlaps with the existing use of the drug, so it is an extension of an existing indication rather than a truly novel repurposing.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Pharyngitis, common cold (the Singapore licence records contain no approved-indication text) |
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 99.91% |
-| Evidence Level | L2 |
+| Evidence Level | L3 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 3 |
 | Recommended Decision | Proceed with Guardrails |
 
-The registration records list no approved indication text, so the original indication is not shown here.
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the record. Xylometazoline is known to be an alpha-adrenergic agonist. It constricts blood vessels in the nasal mucosa, which reduces congestion and bleeding and widens the nasal airway.
+Currently, detailed mechanism of action data is not available from the compiled sources. Based on known pharmacology, xylometazoline is a topical alpha-adrenergic agonist. It constricts blood vessels in the nasal mucosa, which reduces swelling and lowers nasal airway resistance. Pharmacology records link it to alpha-2 adrenoceptor subtypes (2A, 2B, 2C) and the alpha-1D adrenoceptor, although affinity data at the human targets are not available, so a primary target has not been confirmed.
 
-This is a direct pharmacological fit for nasal cavity disease. Because the drug is already sold as a nasal decongestant, this prediction is probably a use already covered by the product labels rather than true repurposing. Procedural uses add support: preparing the nose for endoscopy, widening the nasal cavity before nasotracheal intubation, and intranasal analgesia in combination with lidocaine.
+The original indications (common cold and pharyngitis) involve upper airway mucosal congestion. "Nasal cavity disease" is a broad category that covers this same problem. Decongestion, widening of the nasal cavity and preparing the nose for endoscopy all rely on the same vasoconstrictive effect. The prediction is therefore mechanistically reasonable, but it largely restates the drug's current use.
+
+---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT06443255](https://clinicaltrials.gov/study/NCT06443255) | Phase 3 | Completed | 16 | Blinded triple crossover comparing cocaine, lidocaine/xylometazoline and saline for intranasal analgesia before nasotracheal intubation. Xylometazoline was used in combination with lidocaine, and the endpoint was analgesia rather than disease treatment. |
-| [NCT05072392](https://clinicaltrials.gov/study/NCT05072392) | Not applicable | Unknown | 80 | Foley catheter-assisted nasal intubation and nasal bleeding. Xylometazoline is not clearly the tested intervention; the link is vasoconstrictor use to prevent bleeding. |
+Currently no related clinical trials registered.
+
+---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [24158493](https://pubmed.ncbi.nlm.nih.gov/24158493/) | 2013 | RCT | JAMA Otolaryngol Head Neck Surg | Double-blind, placebo-controlled trial in children of a local anaesthetic plus decongestant nasal spray before flexible nasendoscopy. |
-| [24023995](https://pubmed.ncbi.nlm.nih.gov/24023995/) | 2013 | Clinical study | Korean J Anesthesiol | Compared xylometazoline spray with epinephrine gauze packing for expanding the nasal cavity before nasotracheal intubation. |
-| [22427029](https://pubmed.ncbi.nlm.nih.gov/22427029/) | 2013 | Prospective randomized blinded study | Eur Arch Otorhinolaryngol | In 100 patients, compared cotton pledget packing with topical spray for nasal preparation before endoscopy. |
-| [8740084](https://pubmed.ncbi.nlm.nih.gov/8740084/) | 1996 | Double-blind randomized study | Arzneimittel-Forschung | Rhinomanometry in 18 healthy subjects comparing tuaminoheptane/N-acetylcysteine against xylometazoline and placebo. Xylometazoline was the comparator decongestant. |
-| [1281924](https://pubmed.ncbi.nlm.nih.gov/1281924/) | 1992 | Physiological study | Rhinology | Xylometazoline altered the asymmetry of nasal airway resistance in healthy subjects and in people with acute rhinitis from the common cold. |
-| [34783482](https://pubmed.ncbi.nlm.nih.gov/34783482/) | 2021 | Review | Vestn Otorinolaringol | Review of treating inflammatory nasal and sinus disease in elderly patients, including combined nasal sprays containing a decongestant. |
-| [20632242](https://pubmed.ncbi.nlm.nih.gov/20632242/) | 2010 | Animal study (dog) | Pneumologie | Xylometazoline reduced raised nasal airway resistance by about 50% in brachycephalic dogs. |
+| [24158493](https://pubmed.ncbi.nlm.nih.gov/24158493/) | 2013 | RCT (double-blind, placebo-controlled) | JAMA Otolaryngol Head Neck Surg | Children's nasal preparation spray (decongestant plus local anaesthetic) before flexible nasendoscopy compared with placebo |
+| [22427029](https://pubmed.ncbi.nlm.nih.gov/22427029/) | 2013 | Prospective randomised blinded study (100 patients) | Eur Arch Otorhinolaryngol | Cotton pledget packing compared with topical spray for nasal preparation before endoscopy |
+| [24023995](https://pubmed.ncbi.nlm.nih.gov/24023995/) | 2013 | Clinical study | Korean J Anesthesiol | Xylometazoline spray compared with epinephrine gauze packing for expanding the nasal cavity before nasotracheal intubation |
+| [8740084](https://pubmed.ncbi.nlm.nih.gov/8740084/) | 1996 | Double-blind randomised study (18 subjects) | Arzneimittel-Forschung | Rhinomanometric comparison of a tuaminoheptane/N-acetylcysteine decongestant against xylometazoline and placebo |
+| [1281924](https://pubmed.ncbi.nlm.nih.gov/1281924/) | 1992 | Physiological study | Rhinology | Nasal airflow asymmetry in healthy subjects and in people with colds, and how xylometazoline affects it |
+| [34783482](https://pubmed.ncbi.nlm.nih.gov/34783482/) | 2021 | Review | Vestnik Otorinolaringologii | Treatment of inflammatory nasal and sinus diseases in the elderly, including combined decongestant sprays |
+
+Other predicted indications have little or no supporting evidence. For headache disorder, the retrieved literature points toward harm (see Safety Considerations).
+
+---
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN11622P | OTRIVIN NASAL DROPS 0.05% | Solution | Not stated in the record |
-| SIN11624P | OTRIVIN NASAL SPRAY 0.1% | Spray | Not stated in the record |
-| SIN15198P | SNUP STADA® SPRAY 0.1% | Spray | Not stated in the record |
+| SIN11622P | OTRIVIN NASAL DROPS 0.05% | Solution | Not stated in the licence record |
+| SIN11624P | OTRIVIN NASAL SPRAY 0.1% | Spray | Not stated in the licence record |
+| SIN15198P | SNUP STADA® SPRAY 0.1% | Spray | Not stated in the licence record |
+
+---
 
 ## Safety Considerations
 
-- **Drug Interactions**: No interaction records were found in the database query.
+- **Contraindications (from knowledge-graph drug-disease links, not label text):** hypertension and hypertensive disorder, diabetes mellitus, diabetic ketoacidosis, heart disease and cardiovascular disease, hyperthyroidism, Graves disease and thyrotoxicosis.
+- **Rebound congestion:** Prolonged use can cause rhinitis medicamentosa (rebound congestion), so duration of use should be limited.
+- **Neurovascular risk:** A case report (CMAJ, 2020) links recurrent thunderclap headaches from reversible cerebral vasoconstriction syndrome to xylometazoline use together with duloxetine and rhinitis medicamentosa. This is a safety signal, not evidence of benefit for headache.
+- **Drug interactions:** No drug-drug interactions are listed. The interaction query returned only receptor-binding pharmacology records (alpha-1D, alpha-2A, alpha-2B, alpha-2C adrenoceptors and a mouse TAAR4P entry).
 
-Please refer to the package insert for warnings and contraindications.
+Please refer to the package insert for full warnings, as the label text was not available for this report.
 
-The literature retrieved for the headache prediction also describes harms from nasal decongestants. These include reversible cerebral vasoconstriction syndrome with thunderclap headache (associated with xylometazoline, duloxetine and rhinitis medicamentosa) and hypertensive crisis with end-organ damage from over-the-counter nasal decongestant abuse. These are case reports and are relevant to prolonged or excessive use.
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-- The mechanism fits nasal cavity disease well, and the drug is already marketed in Singapore as a nasal product.
-- The supporting evidence is thin: one small Phase 3 crossover trial of a lidocaine/xylometazoline combination, plus procedural studies.
-- The other nine predictions (acute laryngopharyngitis, allergic urticaria, trigeminal autonomic cephalalgia, headache disorder, nasopharyngitis, papillary conjunctivitis, faucial diphtheria, cervical disc degenerative disorder, anorectal stricture) have no supporting trials or are implausible, so they are on **Hold**.
-- Headache disorder has a safety signal that argues against use.
+The nasal cavity disease prediction is mechanistically sound and supported by small clinical and physiological studies, including randomised comparisons in nasal procedure preparation. It overlaps heavily with xylometazoline's existing use for nasal congestion and colds. There are no registered trials, and the evidence is of limited size. The other predicted indications (for example allergic urticaria, faucial diphtheria, cervical disc disorder and anorectal stricture) lack a plausible mechanism or clinical evidence and should stay on hold.
 
 **To proceed, the following is needed:**
-- The HSA package insert warnings and contraindications. This gap is blocking and prevents safety screening.
-- The approved indication text for each Singapore registration, to confirm whether this use is already covered by the label.
-- Detailed mechanism-of-action data from DrugBank.
-- Confirmation of route compatibility between the marketed forms and the proposed use.
-- Guidance limiting duration of use, given the reported rebound congestion and cardiovascular and neurovascular risks with overuse.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Singapore package insert text (warnings, contraindications and approved indications), since the licence records contain no indication text
+- Detailed mechanism of action and human receptor affinity data
+- A defined scope for "nasal cavity disease" (for example procedural decongestion versus symptomatic treatment)
+- A limit on duration of use to prevent rebound congestion
+- Cardiovascular and cerebrovascular safety screening for patients with hypertension, heart disease, diabetes or thyroid disease
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Eperisone
 parent: Medium Evidence (L3-L4)
-nav_order: 378
+nav_order: 382
 evidence_level: L3
 indication_count: 10
 ---
@@ -29,33 +29,31 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Eperisone: From Muscle Spasm (General Use) to Osteoarthritis
+# Eperisone: From Muscle Spasm Relief to Osteoarthritis
 
 ## One-Sentence Summary
 
-Eperisone is a centrally acting muscle relaxant. The Singapore registration record does not state its approved indication.
-The TxGNN model predicts it may be useful for **osteoarthritis**, mainly as an add-on to pain relievers.
-Support is limited: **no registered clinical trials** and **5 publications**, of which only 1 is a directly relevant randomized trial.
+Eperisone is a centrally acting muscle relaxant that is registered and marketed in Singapore as a single-ingredient tablet. The TxGNN model predicts it may be useful for **osteoarthritis**. There are currently **no registered clinical trials** and **4 publications** for this prediction, and only 2 of them (one RCT and one combination-therapy study) address osteoarthritis directly.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the HSA record; generally used as a muscle relaxant for muscle spasm (general knowledge, not from the record) |
+| Original Indication | Not stated in the Singapore licence data compiled for this report (eperisone is generally known as a muscle relaxant) |
 | Predicted New Indication | Osteoarthritis |
 | TxGNN Prediction Score | 94.35% |
 | Evidence Level | L3 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 1 |
-| Recommended Decision | Hold |
+| Recommended Decision | Hold (treat as a research question) |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the Evidence Pack. One included paper describes eperisone hydrochloride as a centrally acting muscle relaxant that works by blocking calcium channels. It is also generally known to have mild vasodilatory effects.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, eperisone is a centrally acting muscle relaxant that relieves vascular and skeletal muscle spasm and has some analgesic effect.
 
-In osteoarthritis, joint pain is often accompanied by protective muscle spasm. A muscle relaxant may therefore ease pain and stiffness when added to an NSAID. This is symptom relief only. There is no evidence that eperisone changes the course of the joint disease itself. The high TxGNN score fits this reasoning but does not prove it.
+In osteoarthritis, muscle spasm around the affected joint and spine can add to pain and stiffness. Eperisone could therefore help as an **adjunct to NSAIDs** by easing this secondary spasm. A direct effect on cartilage or joint pathology (disease modification) has not been established.
 
-The other nine predictions (for example insomnia, headache disorder, and several rare skeletal dysplasias) have no trial or literature support and are Level 5. Most have no plausible mechanism and look like knowledge-graph artifacts, so they are not evaluated further here.
+A 2026 study (PMID 41063709) reported changes in inflammatory markers with glucosamine plus eperisone and exercise, which hints at a possible anti-inflammatory contribution. However, the combination design cannot separate eperisone's own effect, and the study details need verification.
 
 ## Clinical Trial Evidence
 
@@ -65,37 +63,50 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [24194981](https://pubmed.ncbi.nlm.nih.gov/24194981/) | 2013 | RCT | Pain Res Treat | Open-label, parallel-group trial in 60 knee OA patients over 8 weeks. Compared etodolac 600 mg daily alone with etodolac plus eperisone 50 mg three times daily. The provided excerpt is truncated and does not include outcome results. |
-| [41063709](https://pubmed.ncbi.nlm.nih.gov/41063709/) | 2025 | Clinical study (design unconfirmed) | J Drug Target | Glucosamine hydrochloride plus eperisone combined with exercise therapy, assessed for effects on inflammatory markers and knee function in knee OA. Results are not in the excerpt. |
-| [23561916](https://pubmed.ncbi.nlm.nih.gov/23561916/) | 2013 | RCT (indirect) | J Arthroplasty | Double-blind trial of muscle relaxants with or without celecoxib in 150 patients after total knee replacement. Relevant to the postoperative setting rather than OA treatment itself. |
-| [27989618](https://pubmed.ncbi.nlm.nih.gov/27989618/) | 2017 | Phase 1 PK study | Clin Ther | Pharmacokinetic interaction study of pelubiprofen and eperisone in healthy men. It supports co-administration with an NSAID but contains no efficacy data. |
-| [35535532](https://pubmed.ncbi.nlm.nih.gov/35535532/) | 2022 | Clinical observation | Zhongguo Gu Shang | Chiropractic manipulation for degenerative scoliosis. The link to eperisone is unclear. |
+| [24194981](https://pubmed.ncbi.nlm.nih.gov/24194981/) | 2013 | RCT (open label, 60 patients) | Pain Research and Treatment | Compared etodolac 600 mg once daily with etodolac plus eperisone 50 mg three times daily for 8 weeks in knee osteoarthritis. The abstract is truncated, so efficacy results could not be confirmed. |
+| [41063709](https://pubmed.ncbi.nlm.nih.gov/41063709/) | 2026 | Clinical study (design to be verified) | Journal of Drug Targeting | Glucosamine hydrochloride plus eperisone with exercise therapy, assessing inflammatory markers and knee function in knee osteoarthritis. Eperisone's individual contribution cannot be isolated. |
+| [27989618](https://pubmed.ncbi.nlm.nih.gov/27989618/) | 2017 | Pharmacokinetic study (randomized crossover) | Clinical Therapeutics | Pharmacokinetic interaction between pelubiprofen (an NSAID) and eperisone in healthy Korean men. Supports co-administration feasibility but not efficacy. |
+| [35535532](https://pubmed.ncbi.nlm.nih.gov/35535532/) | 2022 | Clinical observation | Zhongguo Gu Shang | Chiropractic manipulation for degenerative scoliosis. Relevance to eperisone is unclear. |
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN06292P | MYONAL TABLET 50 mg (Bushu Pharmaceuticals Ltd.) | Tablet, sugar coated | Not stated in the record |
+| SIN06292P | MYONAL TABLET 50 mg (Bushu Pharmaceuticals Ltd.) | Tablet, sugar coated (oral) | Not stated in the data compiled |
 
 ## Safety Considerations
 
-No safety data is available in the Evidence Pack, and no drug interactions were found in the queried records. Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No drug interaction records were found in the data compiled for this report. Eperisone has central actions, and somnolence is a possible adverse effect.
+
+## Other Predicted Indications
+
+The model produced nine further predictions. None has any clinical trial or literature support, so all are rated L5 and **Hold**.
+
+| Predicted Indication | Score | Assessment |
+|------|------|------|
+| Nephrogenic syndrome of inappropriate antidiuresis | 93.81% | No plausible mechanistic link (V2 receptor/GNAS gain-of-function). Likely a graph artifact. |
+| Insomnia | 93.51% | Speculative only; somnolence as a side effect is not evidence of efficacy. |
+| Headache disorder | 92.75% | Possible indirect relevance via muscle tension in tension-type headache; no evidence. |
+| Pseudoachondroplasia | 92.74% | Genetic skeletal dysplasia (COMP variants); no known link. |
+| Osteoarthritis susceptibility | 92.22% | Genetic susceptibility entity that largely duplicates osteoarthritis; evidence does not transfer. |
+| Trigeminal autonomic cephalalgia | 91.85% | Different mechanism (trigeminal-autonomic/hypothalamic); no relevance evident. |
+| Acromesomelic dysplasia, Hunter-Thompson type | 91.30% | Rare genetic dysplasia (GDF5); likely a graph artifact. |
+| Brachyolmia | 90.89% | Genetic spinal skeletal dysplasia; no known link. |
+| Myosclerosis | 90.68% | Fibrotic myopathy; a spasmolytic is unlikely to help. Speculative. |
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Hold (treat as a research question)**
 
 **Rationale:**
-Only one small, open-label randomized trial directly addresses eperisone in knee osteoarthritis. It has no confirmed results in the pack, and there are no registered trials. The HSA package insert warnings and contraindications are also missing, which blocks safety screening. This is best treated as a research question rather than an actionable repurposing candidate.
+Osteoarthritis is the only prediction with literature support, and that support is limited to one open-label RCT of an add-on to an NSAID and one combination study with exercise. Neither shows an independent benefit of eperisone, and there are no registered trials. The mechanism is plausible only for symptom relief of secondary muscle spasm, not for disease modification.
 
 **To proceed, the following is needed:**
-- HSA package insert (indication, warnings, contraindications), to close the blocking safety gap
-- Mechanism of action data from DrugBank
-- Full text of PMID 24194981 and PMID 41063709 to confirm outcomes, effect sizes, and study design
-- Confirmation of whether the benefit is symptomatic only (muscle spasm and pain) or disease-modifying
-- Definition of the intended role, for example as an adjunct to NSAIDs in knee osteoarthritis
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Full-text review of PMID 24194981 and PMID 41063709 to confirm outcomes, design and eperisone's isolated contribution
+- Mechanism of action data
+- Singapore package insert warnings and contraindications, and the approved indication text for SIN06292P
+- A registered trial (ideally randomized, with an adjunct-to-NSAID design) in osteoarthritis, with pain and function endpoints
+- Safety review for the target population, including sedation risk
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

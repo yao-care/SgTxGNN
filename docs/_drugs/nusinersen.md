@@ -2,7 +2,7 @@
 layout: default
 title: Nusinersen
 parent: Low Evidence (L5)
-nav_order: 719
+nav_order: 727
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,74 +33,60 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Nusinersen is an antisense oligonucleotide given by injection into the spinal fluid, used to treat spinal muscular atrophy (SMA).
-The TxGNN model lists **tendinopathy** as a possible new use, but the score is uninformative (50%).
-There are **no clinical trials** and **no publications** for this indication.
-
----
+Nusinersen is an antisense oligonucleotide originally used to treat spinal muscular atrophy (SMA).
+The TxGNN model predicts it may be effective for **tendinopathy**, but the prediction score is uninformative (50%) and there are **0 clinical trials** and **0 publications** supporting this specific direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Spinal muscular atrophy (the Singapore registration record has no indication text; SMA is taken from the retrieved literature) |
+| Original Indication | Spinal muscular atrophy |
 | Predicted New Indication | Tendinopathy |
-| TxGNN Prediction Score | 50.0% (rank 51,833) |
+| TxGNN Prediction Score | 50.00% |
 | Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-It is not well supported. Nusinersen is an antisense oligonucleotide delivered into the spinal fluid. It changes how the SMN2 gene is spliced (exon 7 inclusion) in the central nervous system, which raises the level of functional SMN protein in SMA. Detailed mechanism-of-action data are not available in the Evidence Pack, so this description comes from the mechanistic assessment in the pack.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, nusinersen is an intrathecally administered antisense oligonucleotide that modulates splicing of the SMN2 gene in motor neurons, and its efficacy in spinal muscular atrophy is established.
 
-Tendinopathy is a peripheral musculoskeletal condition. It has no known link to SMN splicing, and nusinersen is designed to act in the central nervous system. A score of 0.5 carries no ranking information, so the prediction looks like a graph-level artifact rather than a biologically grounded signal.
+No mechanistic link to tendinopathy could be identified. Tendinopathy is a primarily peripheral connective tissue disorder with no known SMN-dependent pathology. A TxGNN score of 0.5 carries no discriminating information, so this prediction should be regarded as a model output without biological support.
 
----
+The other nine top-ranked predictions (CDKL5 disorder, epilepsy of infancy with migrating focal seizures, Rowley-Rosenberg syndrome, myoclonic encephalopathy in non-progressive disorder, febrile seizures plus, ectodermal dysplasia syndrome, ECHS1-related paroxysmal dyskinesia, adolescent/adult-onset epilepsy syndrome, and saccharopinuria) share the same 0.5 score, no clinical trials, and no mechanistic rationale. For several of these (e.g., CDKL5 disorder and KCNT1-related epilepsy), gene-specific antisense oligonucleotides are under investigation, but that would require different, sequence-specific molecules, not nusinersen.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered for tendinopathy.
 
 ## Literature Evidence
 
-Currently no related literature available.
-
----
+Currently no related literature available for tendinopathy.
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN16751P | SPINRAZA Solution for Injection 12mg/5mL | Injection, solution | Not listed in the registration record |
-
-The manufacturers are Patheon Italia S.p.A. and Vetter Pharma-Fertigung GmbH & Co. KG. The only route is injectable.
-
----
+| SIN16751P | SPINRAZA SOLUTION FOR INJECTION 12MG/5ML | Injection, solution | Not stated in the data compiled for this report |
 
 ## Safety Considerations
 
-No warnings, contraindications or drug interaction records were found in the Evidence Pack. Please refer to the package insert for safety information.
-
----
+Please refer to the package insert for safety information. No drug interaction records were found, and no contraindication data were available from the knowledge graph.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There is no clinical or literature evidence for tendinopathy, no plausible mechanism, and the model score is uninformative. The other nine predicted indications also score 0.5 and also lack supporting evidence, so none of them offers a better lead.
+The prediction rests only on an uninformative model score (0.5), with no clinical trials, no literature, and no plausible mechanistic link between SMN2 splice modulation in motor neurons and tendinopathy. Route compatibility has not been assessed, and the package insert safety data remain missing.
 
 **To proceed, the following is needed:**
-- Mechanistic evidence, such as preclinical data, linking SMN2 splice modulation to tendon pathology
-- Evidence that intrathecal delivery could work for a peripheral tendon condition
-- HSA package insert warnings and contraindications, to enable safety screening
-- Drug mechanism-of-action data from DrugBank
+- Mechanism of action data (MOA) from DrugBank
+- Package insert warnings and contraindications from the HSA website
+- A documented biological rationale linking SMN2 splicing to tendon pathology
+- Preclinical evidence in a tendinopathy model
+- Assessment of route compatibility (intrathecal injection versus the needs of a peripheral tendon disorder)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

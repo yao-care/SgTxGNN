@@ -2,7 +2,7 @@
 layout: default
 title: Chlormadinone
 parent: Low Evidence (L5)
-nav_order: 237
+nav_order: 239
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,21 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Chlormadinone: From Hormonal Contraception to Antithrombin Deficiency Type 2 (Prediction Not Supported)
+# Chlormadinone: From Contraception (Oral Hormonal) to Antithrombin Deficiency Type 2
 
 ## One-Sentence Summary
 
-Chlormadinone is a progestin. In Singapore it is registered only as a component of the BELARA film-coated tablet, a hormonal contraceptive product (this use is inferred from the product type, because the registration record lists no indication text).
-The TxGNN model predicts it may be effective for **antithrombin deficiency type 2**, but **0 clinical trials** and **0 publications** support this, and the biology points the other way.
-This is a model-only prediction that is more likely a thrombosis-risk signal than a therapeutic one.
+Chlormadinone is a synthetic progestogen (antigonadotropic and antiandrogenic) that is marketed in Singapore as part of an oral combined contraceptive product.
+The TxGNN model predicts it may be effective for **antithrombin deficiency type 2**, but **no clinical trials** and **no supporting publications** exist for this prediction.
+The prediction is a computational signal only, and the available evidence points more toward a thrombotic safety concern than a therapeutic benefit.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration record (hormonal contraceptive product, inferred) |
+| Original Indication | Not stated in the registration data (the product is a combined oral contraceptive tablet) |
 | Predicted New Indication | Antithrombin deficiency type 2 |
 | TxGNN Prediction Score | 98.71% |
 | Evidence Level | L5 |
@@ -49,48 +51,82 @@ This is a model-only prediction that is more likely a thrombosis-risk signal tha
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Chlormadinone is a progestin, and in the registered product it is combined with an estrogen as a hormonal contraceptive. Its efficacy in any specific original indication cannot be confirmed from the data provided.
+Detailed mechanism of action data is not currently available. Based on known information, chlormadinone is a progestogen with antigonadotropic and antiandrogenic activity. It is used in hormonal contraception, but no established mechanism links it to correcting antithrombin deficiency.
 
-The prediction itself is hard to justify. Antithrombin deficiency type 2 is an inherited defect in a coagulation-inhibitor protein, and no plausible mechanism lets a progestin correct it. Hormonal contraceptives are generally linked to prothrombotic shifts in coagulation, so the high score probably reflects knowledge-graph proximity to thrombosis. That is an adverse-effect relationship, not a therapeutic one.
+Antithrombin deficiency type 2 is a hereditary coagulation disorder that raises the risk of thrombosis. Hormonal agents are generally a thrombotic concern in this population rather than a treatment. The high score most likely reflects proximity to coagulation-related nodes in the knowledge graph, not a real pharmacological relationship.
 
-The same pattern appears in the other high-scoring predictions. Heparin cofactor 2 deficiency and factor 5 excess with spontaneous thrombosis are also prothrombotic conditions. For factor 5, progestogens are associated with thrombotic risk, notably through effects on activated protein C (APC) resistance. Any follow-up should be framed as a safety question, not as repurposing for treatment.
+The other top-ranked predictions show the same pattern:
+
+| Rank | Predicted Indication | Score | Evidence Level | Assessment |
+|---|---|---|---|---|
+| 2 | Heparin cofactor 2 deficiency | 98.67% | L5 | No plausible pathway; likely graph proximity |
+| 3 | Factor 5 excess with spontaneous thrombosis | 98.64% | L5 | Prothrombotic state; not expected to respond to a progestogen |
+| 4 | Candidiasis | 98.62% | L5 | Only a 1967 general review; hormonal contraceptives are if anything linked to higher candidiasis risk |
+| 5 | Plasma cell myeloma | 97.89% | L5 | No established link |
+| 6 | Heart neoplasm | 97.77% | L5 | Only a general 1990 safety review |
+| 7 | Rheumatoid arthritis | 97.72% | L5 | Only a 1971 biomarker observation in healthy women |
+| 8 | Indolent plasma cell myeloma | 97.68% | L5 | Overlaps with the myeloma signal |
+| 9 | Gout | 97.68% | L5 | No established link |
+| 10 | Thrombophilia | 97.66% | L4 | Literature concerns safety of progestogen use, not treatment |
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
-Currently no related literature available.
+For the lead prediction (antithrombin deficiency type 2), currently no related literature is available.
+
+The most relevant publications were found for the related prediction **thrombophilia** (rank 10). They concern the safety of progestogens in women at high thrombotic risk, not therapeutic benefit:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [15541404](https://pubmed.ncbi.nlm.nih.gov/15541404/) | 2004 | Cohort (retrospective) | Contraception | Compared women at high risk of venous thromboembolism using antigonadotropic-dose chlormadinone acetate (n=102) with matched women using no hormonal contraception; assesses the venous impact of progestogen-only contraception |
+| [25961217](https://pubmed.ncbi.nlm.nih.gov/25961217/) | 2010 | Review | Hormone Molecular Biology and Clinical Investigation | Antigonadotropic progestogens as contraceptive options for women who cannot use the combined pill |
+| [15333036](https://pubmed.ncbi.nlm.nih.gov/15333036/) | 2004 | Cohort (cross-sectional) | Journal of Thrombosis and Haemostasis | Assessed the effect of a chlormadinone acetate progestagen-only pill on activated protein C resistance |
+| [1199513](https://pubmed.ncbi.nlm.nih.gov/1199513/) | 1975 | Cohort | Zentralblatt fur Gynakologie | Fibrinolytic split products increased during use of several hormonal contraceptives, including a chlormadinone acetate combination |
+
+Other single references found for lower-ranked predictions are general or biomarker papers that do not show efficacy: candidiasis ([5337087](https://pubmed.ncbi.nlm.nih.gov/5337087/), 1967 review), heart neoplasm ([2170823](https://pubmed.ncbi.nlm.nih.gov/2170823/), 1990 review of estrogen and progestogen risks) and rheumatoid arthritis ([4994393](https://pubmed.ncbi.nlm.nih.gov/4994393/), 1971 cohort of autoantibodies in healthy women using oral contraceptives).
+
+---
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN14870P | BELARA film-coated tablet 0.03mg/2mg (Gedeon Richter Plc.) | Tablet, film coated (oral) | Not listed in the registration record |
+| SIN14870P | BELARA film-coated tablet 0.03mg/2mg (Gedeon Richter Plc.) | Film-coated tablet (oral) | Not stated in the registration data |
+
+---
 
 ## Safety Considerations
 
-- **Thrombotic risk**: The retrieved literature on chlormadinone acetate and related progestogens (the studies listed under the thrombophilia prediction) covers thromboembolism risk, APC resistance, and platelet and fibrinolysis changes under sex steroids. Hormonal agents may worsen prothrombotic states, so use in patients with inherited coagulation disorders needs particular caution.
+Please refer to the package insert for safety information.
 
-Package insert warnings, contraindications and drug interaction data were not retrieved. Please refer to the package insert for full safety information.
+One point from the compiled literature deserves attention: progestogens may influence activated protein C resistance and coagulation markers, which is a thrombotic safety concern for patients with thrombophilia or inherited coagulation disorders. This needs careful evaluation before any use in such populations.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting trials or literature (L5), and no therapeutic mechanism is plausible. The likely direction of effect is adverse, because progestogens are associated with thrombotic risk. All ten predictions in the pack are on Hold or Research Question, and none supports a therapeutic repurposing case. Among them, only thrombophilia reached S1 (Research Question). It is supported by seven papers, but they concern thrombotic safety, not treatment. Candidiasis has three old papers, and they describe it as a side effect of oral contraceptives.
+The prediction rests only on a computational score, with no clinical trials and no publications for antithrombin deficiency type 2. There is no plausible mechanism, and hormonal agents are generally a thrombotic concern in this population. The same applies to the other top-ranked predictions, none of which is supported above L5 (thrombophilia reaches L4, but its literature addresses safety, not efficacy).
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from the HSA (a blocking gap for safety screening)
-- Mechanism of action data for chlormadinone (for example from DrugBank)
-- Reframing the thrombophilia and antithrombin-related questions as a safety and contraception study, such as thrombotic risk of chlormadinone in women with thrombophilia
-- No repurposing work on antithrombin deficiency type 2 unless new mechanistic or clinical evidence appears
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- The package insert warnings and contraindications for the registered product, which are not available and block safety screening
+- Mechanism of action data for chlormadinone
+- Evidence of a biological pathway linking chlormadinone to antithrombin or other coagulation-factor function, if one exists
+- A thrombosis risk assessment specific to patients with hereditary coagulation disorders
+- Review of the thrombophilia literature as a safety question (can chlormadinone be used as a contraceptive in this population) and not as a repurposing opportunity
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

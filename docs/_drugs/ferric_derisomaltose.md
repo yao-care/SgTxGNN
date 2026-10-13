@@ -2,7 +2,7 @@
 layout: default
 title: Ferric Derisomaltose
 parent: Low Evidence (L5)
-nav_order: 422
+nav_order: 426
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,21 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ferric Derisomaltose: From Iron Deficiency to Severe Nonproliferative Diabetic Retinopathy
+# Ferric derisomaltose: From Iron Replacement to Severe Nonproliferative Diabetic Retinopathy
 
 ## One-Sentence Summary
 
-Ferric derisomaltose (Monofer®) is an intravenous iron replacement product used to treat iron deficiency.
-The TxGNN model predicts it may be effective for **severe nonproliferative diabetic retinopathy**, but there are **0 clinical trials** and **0 publications** supporting this prediction.
-It is a model-only prediction, and the available mechanistic reasoning points to possible harm rather than benefit.
-
----
+Ferric derisomaltose is an intravenous iron replacement product, marketed in Singapore as Monofer.
+The TxGNN model predicts it may be effective for **severe nonproliferative diabetic retinopathy**,
+but **no clinical trials and no publications** currently support this direction, so the prediction is based on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Iron deficiency (intravenous iron replacement; the Singapore license record has no indication text) |
+| Original Indication | Not stated in the Singapore licence record (the product is generally known as an intravenous iron replacement) |
 | Predicted New Indication | Severe nonproliferative diabetic retinopathy |
 | TxGNN Prediction Score | 98.49% |
 | Evidence Level | L5 |
@@ -51,60 +49,40 @@ It is a model-only prediction, and the available mechanistic reasoning points to
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Ferric derisomaltose is an intravenous iron product whose efficacy in iron deficiency anaemia is well established, but no data link it to retinal disease.
+Currently, detailed mechanism of action data is not available. Based on known information, ferric derisomaltose is an intravenous iron product used to replace iron in iron deficiency anaemia. Its efficacy in that setting is established, but no mechanism has been identified that would make it applicable to severe nonproliferative diabetic retinopathy.
 
-On the evidence available, this prediction is not mechanistically supported. Excess retinal iron is implicated in oxidative stress and ferroptosis in diabetic retinal injury. Iron supplementation could therefore plausibly be harmful rather than beneficial in this condition. Anaemia is associated with diabetic retinopathy progression, but that association is indirect and does not support iron as a treatment.
+Iron-related oxidative stress is plausibly relevant to retinal disease, but this is speculative. Excess iron is more often linked to retinal oxidative damage than to treatment of it. The high score most likely reflects proximity in the knowledge graph rather than biological rationale. Intravenous iron has no known therapeutic role in diabetic retinopathy.
 
-The high TxGNN score reflects a pattern in the knowledge graph, not clinical or mechanistic support. The other nine predictions in this pack (including diabetic retinopathy, esotropia, dermatitis and filariasis) are also L5, graph-derived only, and rated Hold.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered for severe nonproliferative diabetic retinopathy.
-
-For reference, the second-ranked prediction (diabetic retinopathy) was linked to two completed Phase 3 iron trials, [NCT02940886](https://clinicaltrials.gov/study/NCT02940886) (FERWON-IDA, n=1512) and [NCT02940860](https://clinicaltrials.gov/study/NCT02940860) (FERWON-NEPHRO, n=1538). Both are hematologic safety and efficacy trials versus iron sucrose with no retinopathy endpoints, so they do not support either retinopathy indication.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
-
----
+The other predictions are also unsupported and have no trials or literature. They include diabetic retinopathy (96.73%), esotropia (95.61%), non-syndromic esophageal malformation (94.62%), haemorrhagic disease of the newborn (92.34%), dermatitis (91.44%), acrodermatitis chronica atrophicans (90.60%), filariasis (90.25%), neonatal dermatomyositis (89.81%) and familial hydroa vacciniforme (89.18%). All are rated L5 with a recommendation of Hold. For several of them (for example the newborn conditions), intravenous iron would also raise safety concerns.
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN15855P | MONOFER® Solution for Injection or Infusion 100 mg/ml (Wasserburger Arzneimittelwerk GmbH) | Injection, solution | Not listed in the registry record |
-
----
+| SIN15855P | MONOFER® Solution for Injection or Infusion 100 mg/ml | Injection, solution | Not stated in the licence record |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions** (5 interactions recorded in the interaction database):
+  - **Major:** Dimercaprol
+  - **Moderate:** Iron, ferrous fumarate, ferrous gluconate, chloramphenicol
 
----
+For other safety information, such as warnings and contraindications, please refer to the package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is model-only (L5) with no supporting trials or literature. The available mechanistic reasoning suggests iron could worsen retinal oxidative injury, so this direction should not proceed on the current evidence.
+The prediction rests on a model score alone, with no clinical trials, no literature and no plausible mechanistic link. Iron excess is, if anything, associated with retinal oxidative damage. Evidence is at the lowest level (L5).
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from the HSA website (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- Preclinical evidence on whether iron supplementation helps or harms in diabetic retinal injury
-- An ophthalmology and diabetes safety review of intravenous iron, particularly for patients with existing retinopathy
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Mechanism of action data and a credible biological rationale linking iron replacement to diabetic retinopathy
+- Preclinical or observational evidence supporting a benefit in retinal disease
+- The Singapore package insert, to confirm the approved indication, warnings and contraindications
+- A review of the route of administration and whether intravenous iron is appropriate for an ocular indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

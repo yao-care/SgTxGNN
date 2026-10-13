@@ -2,7 +2,7 @@
 layout: default
 title: Ponatinib
 parent: Low Evidence (L5)
-nav_order: 799
+nav_order: 808
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,31 +29,30 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ponatinib: From Leukemia to Gingival Fibromatosis
+# Ponatinib: From BCR-ABL1-Positive Chronic Myelogenous Leukaemia to Gingival Fibromatosis
 
 ## One-Sentence Summary
 
-Ponatinib is an oral multi-kinase inhibitor, best known as a third-generation BCR-ABL inhibitor for leukemia. The TxGNN model predicts it may be effective for **Gingival Fibromatosis** (a benign overgrowth of gum tissue). **No clinical trials and no publications** currently support this prediction, so it rests on the model score alone.
+Ponatinib is a multi-target tyrosine kinase inhibitor originally used to treat BCR-ABL1-positive chronic myelogenous leukaemia.
+The TxGNN model predicts it may be effective for **gingival fibromatosis** (fibromatosis, gingival), but **no clinical trials and no publications** currently support this specific prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the Singapore registry text; published literature describes use in leukemia (CML / Ph+ ALL) |
+| Original Indication | Chronic myelogenous leukaemia, BCR-ABL1 positive (from the knowledge graph; the Singapore licence records contain no indication text) |
 | Predicted New Indication | Fibromatosis, gingival |
 | TxGNN Prediction Score | 99.04% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not currently available. Ponatinib is a multi-kinase inhibitor, and its efficacy in leukemia has been established. It also acts on kinases such as PDGFR, FGFR and SRC, which are involved in fibroblast proliferation.
+Detailed mechanism of action data is not available. Based on known information, ponatinib is a multi-target tyrosine kinase inhibitor. Its efficacy in BCR-ABL1-positive leukaemia is established, and it is also known to act on FGFR, PDGFR, SRC, VEGFR and KIT.
 
-Gingival fibromatosis is a fibroblast-driven overgrowth, so a link through these pathways is conceivable. This link is speculative: no data here confirm that these kinases drive the condition or that ponatinib affects it.
-
-The predicted disease is benign and the drug has a serious toxicity profile. The evidence package notes arterial occlusive events, venous thromboembolism, heart failure and hepatotoxicity, so a high model score alone does not justify exposure.
+Gingival fibromatosis is a fibroproliferative condition. A link through PDGFR/FGFR signalling is theoretically plausible, but nothing in the data compiled for this report confirms it. The prediction currently rests on the model score alone.
 
 ## Clinical Trial Evidence
 
@@ -65,39 +64,50 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN15581P | ICLUSIG TABLET 15 MG | Tablet, film coated |
-| SIN15582P | ICLUSIG TABLET 45 MG | Tablet, film coated |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN15581P | ICLUSIG TABLET 15 MG | Film-coated tablet | Not stated in the licence record |
+| SIN15582P | ICLUSIG TABLET 45 MG | Film-coated tablet | Not stated in the licence record |
 
-Both products are oral tablets from Patheon Inc. and Takeda Ireland Limited. The registry entries carry no approved-indication text.
+Both licences are single-ingredient products, currently valid, and manufactured by Patheon Inc. and Takeda Ireland Limited.
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (multi-kinase / BCR-ABL tyrosine kinase inhibitor) |
+| Cytotoxicity Classification | Targeted therapy (multi-target tyrosine kinase inhibitor) |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Complete blood count, liver and renal function, and cardiovascular status; confirm the full schedule in the package insert |
-| Handling Protection | Follow institutional handling procedures for oral antineoplastic drugs |
+| Monitoring Items | Please refer to the package insert; at minimum, blood counts and liver and renal function, plus cardiovascular monitoring given the reported cardiotoxicity |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+No package insert warnings or contraindications were available for this report, so please refer to the package insert for these.
+
+**Drug Interactions**: The interaction screen returned 100 interacting drugs. The 20 reviewed here include the following.
+- **Major**: acetylsalicylic acid (aspirin) and clarithromycin.
+- **Moderate**: loperamide, aprepitant, dexamethasone, naldemedine, naltrexone, metronidazole and miconazole.
+- **Minor**: acid-suppressing agents (famotidine, ranitidine, cimetidine, nizatidine, and the proton pump inhibitors omeprazole, lansoprazole, pantoprazole, rabeprazole and dexlansoprazole), magnesium oxide and naloxegol.
+
+Published reviews also describe cardiovascular toxicity and pulmonary complications with ponatinib and related BCR-ABL inhibitors. These risks matter when considering use in a non-life-threatening condition.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting trials or literature (L5), and the target condition is benign. Ponatinib's serious cardiovascular and hepatic toxicity argues against exposure without supporting evidence.
+The prediction rests only on a high model score (Level L5), with no trials or publications for gingival fibromatosis. Ponatinib carries notable cardiovascular and thrombotic risks, which makes it hard to justify for a non-malignant fibroproliferative condition without supporting evidence.
 
 **To proceed, the following is needed:**
-- Singapore package insert warnings and contraindications (blocking for safety screening)
-- Mechanism-of-action data, e.g. from DrugBank
-- Preclinical or case evidence linking ponatinib's kinase targets to gingival fibroblast overgrowth
-- A risk–benefit assessment that justifies systemic kinase-inhibitor exposure for a benign condition
+- Mechanistic data (MOA) and a documented rationale linking PDGFR/FGFR signalling to gingival fibromatosis
+- Preclinical or clinical evidence in this condition
+- Package insert warnings and contraindications from the HSA
+- A benefit-risk assessment that accounts for ponatinib's cardiovascular safety profile
+
+## Other Predicted Indications (for Reference)
+
+Among the other top-ranked predictions, **liposarcoma** has the most relevant supporting evidence, though only preclinical. A 2017 kinase-profiling and drug-screening study identified druggable kinase targets in liposarcoma (PMID 29132397). This study does not name ponatinib, so the link remains unconfirmed. It is suitable as a research question rather than a development candidate. The remaining predictions have no direct supporting evidence; their literature consists mainly of general ponatinib or kinase-inhibitor papers.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

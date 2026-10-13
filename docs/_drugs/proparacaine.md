@@ -2,7 +2,7 @@
 layout: default
 title: Proparacaine
 parent: Low Evidence (L5)
-nav_order: 825
+nav_order: 834
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,15 +33,16 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Proparacaine is a topical ester-type local anesthetic, used as an ophthalmic solution for surface anesthesia of the eye.
-The TxGNN model predicts it may be effective for **Cauda Equina Syndrome**, but this is a **prediction only, with 0 clinical trials and 0 publications** supporting it.
-The signal most likely reflects a nerve or sodium-channel association in the knowledge graph rather than a real therapeutic role.
+Proparacaine is a topical ocular local anesthetic, registered in Singapore as a sterile ophthalmic solution.
+The TxGNN model predicts it may be effective for **cauda equina syndrome**, but this is a computational prediction only, with **no clinical trials** and **no publications** supporting this specific indication.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Ocular surface anesthesia (general drug knowledge; the Singapore registration record gives no indication text) |
+| Original Indication | Not stated in the registration data (ophthalmic topical anaesthetic) |
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 96.90% |
 | Evidence Level | L5 |
@@ -49,49 +50,67 @@ The signal most likely reflects a nerve or sodium-channel association in the kno
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, proparacaine is a topical local anesthetic of the ester type and is thought to act as a sodium channel blocker. Its use in ocular surface anesthesia is established, and mechanistically it could modulate nerve signaling.
+Currently, detailed mechanism of action data is not available. Based on known information, proparacaine is a topical ocular local anaesthetic of the same general class as lidocaine, and local anaesthetics generally work by blocking voltage-gated sodium channels.
 
-The link to cauda equina syndrome is weak. Cauda equina syndrome is a compressive neurosurgical emergency of the lumbosacral nerve roots, and its treatment is surgical decompression. A surface ophthalmic anesthetic has no plausible role there. The high score (96.9%) most likely comes from a generic "nerve / sodium-channel" association in the knowledge graph. It should not be read as evidence of benefit.
+In theory, sodium channel blockade could relate to neuropathic or radicular pain. However, cauda equina syndrome is a compressive surgical emergency, and a topical eye anaesthetic has no plausible disease-modifying role. The high score reflects network-based computational prediction rather than biological or clinical support. The prediction should be treated with considerable caution.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for cauda equina syndrome.
+
+For context, the other predicted indications also have very little support:
+- **Allergic asthma (rank 2):** the only retrieved article ([28449552](https://pubmed.ncbi.nlm.nih.gov/28449552/), 2017, Clin Exp Otorhinolaryngol) is a preclinical mouse study of proparacaine in allergic rhinitis. It is a different disease and an animal model, so it is indirect evidence.
+- **Hypotensive disorder (rank 4):** the retrieved articles are Cochrane reviews on non-antiepileptic drugs for trigeminal neuralgia ([24297506](https://pubmed.ncbi.nlm.nih.gov/24297506/), [21249658](https://pubmed.ncbi.nlm.nih.gov/21249658/), [16856027](https://pubmed.ncbi.nlm.nih.gov/16856027/)). They are off-topic and not relevant evidence for this indication.
+- **Papillary conjunctivitis (rank 6):** the most anatomically plausible candidate, since proparacaine is already used on the ocular surface. It is used for anaesthesia, not for treating inflammation, and no studies support a therapeutic effect.
+- The remaining predictions (intrinsic asthma, obsolete neurogenic bladder, pityriasis simplex, asthma-related traits, lichen disease, benign recurrent vertigo type 2) have no trials or literature.
+
+---
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN04718P | ALCAINE STERILE OPHTHALMIC SOLUTION 0.5% (Alcon-Couvreur NV) | Solution |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN04718P | ALCAINE STERILE OPHTHALMIC SOLUTION 0.5% | Solution | Not listed in the registration data |
 
-The registration record contains no approved-indication text.
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease associations flagged in the knowledge graph (not label text):** The TxGNN knowledge graph links proparacaine to contraindication-type relationships with heart disease, cardiovascular disease, hyperthyroidism, Graves disease, thyrotoxicosis, uveitis, iris disease, ciliary body disease, panuveitis, eye infectious disease and conjunctivitis. These come from a computational knowledge graph rather than a package insert and should be verified against the official label.
+- **Repeated ocular use:** Topical anaesthetics are associated with corneal toxicity on repeated use, which is a major concern for any chronic ocular indication.
+- **Cardiovascular effects:** Local anaesthetics can have systemic cardiovascular effects at high doses, which could worsen hypotension.
+- **Drug interactions:** No interaction records were found.
+
+Please refer to the package insert for complete warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a model score, with no trials, no literature and no plausible mechanism for a compressive neurosurgical condition. The only registered product is an ophthalmic solution, so there is also no route-of-administration fit.
-
-Other predictions for this drug are no stronger. Allergic asthma (rank 2) has a single 2017 mouse study of proparacaine in allergic rhinitis. It is preclinical and indirect, so it is best treated as a research question rather than a candidate. Rank 4, hypotensive disorder, matched only an ocular hypertension laser trial and trigeminal neuralgia reviews, neither of which tests proparacaine for that disease.
+The prediction rests on a computational score alone. There are no clinical trials, and the only related literature is indirect or off-topic. A topical ocular anaesthetic has no credible role in a surgical compressive condition such as cauda equina syndrome. The highest-ranked predictions are also mechanistically implausible, and the route of administration does not match.
 
 **To proceed, the following is needed:**
-- The HSA package insert, to confirm the approved indication, warnings and contraindications
-- Mechanism of action data (MOA) from DrugBank
-- A documented mechanistic rationale linking local sodium-channel blockade to cauda equina syndrome
-- A route-of-administration assessment, since the product is formulated for ocular use only
-- Checking how the disease terms are labeled in the knowledge graph before further work
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Package insert warnings and contraindications from the HSA, which are currently missing
+- Mechanism of action data from DrugBank
+- Approved indication text for the Singapore registration
+- Assessment of route compatibility between the ophthalmic formulation and any proposed indication
+- Clinical or well-designed preclinical evidence specific to a chosen indication
+- If any indication is pursued, a better-fitting candidate such as an ocular-surface condition should be evaluated first, with a corneal safety assessment
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

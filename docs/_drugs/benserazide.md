@@ -29,19 +29,21 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Benserazide: From Parkinson's Disease (Levodopa Combination) to Congenital Hypotrichosis Milia
+# Benserazide: From Parkinsonism to Congenital Hypotrichosis Milia
 
 ## One-Sentence Summary
 
-Benserazide is a peripheral decarboxylase inhibitor. In Singapore it is marketed in the Madopar products, which are known levodopa/benserazide combinations for Parkinson's disease.
-The TxGNN model predicts it may be effective for **congenital hypotrichosis milia**, a rare genetic hair-growth disorder.
-There are **0 clinical trials** and **0 publications** supporting this direction, so it is a model prediction only.
+Benserazide is a peripheral aromatic L-amino acid decarboxylase (AADC) inhibitor, marketed in Singapore as part of the Madopar combination with levodopa, which is used for Parkinsonism and restless legs syndrome.
+The TxGNN model predicts it may be effective for **congenital hypotrichosis milia**, but there are **0 clinical trials** and **0 publications** supporting this direction.
+The prediction rests on knowledge-graph similarity alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Parkinson's disease (as the levodopa combination). The local registration records do not list indication text. |
+| Original Indication | Parkinsonism and restless legs syndrome (from pharmacology reference data; the Singapore licence records carry no indication text) |
 | Predicted New Indication | Congenital hypotrichosis milia |
 | TxGNN Prediction Score | 98.44% |
 | Evidence Level | L5 |
@@ -49,51 +51,71 @@ There are **0 clinical trials** and **0 publications** supporting this direction
 | Number of Registrations | 4 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Benserazide is a peripheral aromatic L-amino acid decarboxylase (DDC) inhibitor. It is used alongside levodopa so that more levodopa reaches the brain.
+Currently, detailed mechanism of action data is not available in the compiled records. Based on known information, benserazide inhibits peripheral AADC (the DDC enzyme). It is paired with levodopa so that more levodopa reaches the brain. The pharmacology data also list cystathionine β-synthase (CBS) as a target.
 
-No plausible link between DDC inhibition and hair follicle development has been identified. Congenital hypotrichosis milia is a developmental defect of the hair follicle. The high score (98.44%) most likely reflects proximity to other nodes in the knowledge graph, such as other hair-loss conditions, and not established pharmacology.
+No mechanistic link has been identified between AADC inhibition and congenital hypotrichosis milia, a rare hereditary hair disorder. The high score (0.984) reflects a graph-based prediction only, so the prediction is **not supported** by mechanism or by clinical evidence.
 
-The same pattern appears in the other hair-related predictions: hypotrichosis simplex of the scalp, diffuse alopecia areata and alopecia. The mechanism therefore cannot be verified.
+Other hair-related predictions show the same pattern:
+- **Hypotrichosis simplex of the scalp** (98.39%): no trials or literature.
+- **Diffuse alopecia areata** (98.12%): this is an autoimmune condition (JAK/STAT, T-cell mediated), unrelated to AADC inhibition.
+- **Alopecia** (97.76%): the single linked paper (PMID 34900390) is a commentary on alopecia areata as an adverse effect of tremor drugs. It is not evidence of benefit.
+
+Among the other top-ranked predictions, headache disorder carries a safety signal. A 1979 clinical observation reported that benserazide induced migraine attacks.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for congenital hypotrichosis milia.
+
+---
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN06121P | MADOPAR 125 CAPSULE 125 mg | Capsule |
-| SIN05195P | MADOPAR HBS 125 CAPSULE | Capsule |
-| SIN11075P | MADOPAR DISPERSIBLE TABLETS 125 mg | Tablet |
-| SIN06119P | MADOPAR 250 TABLET 250 mg | Tablet |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN06121P | MADOPAR 125 CAPSULE 125 mg | Capsule | Not stated in the licence record |
+| SIN05195P | MADOPAR HBS 125 CAPSULE | Capsule | Not stated in the licence record |
+| SIN11075P | MADOPAR DISPERSIBLE TABLETS 125 mg | Tablet | Not stated in the licence record |
+| SIN06119P | MADOPAR 250 TABLET 250 mg | Tablet | Not stated in the licence record |
 
-All four products are oral and are made by Delpharm Milano S.r.l.
+All four licences are valid, held for single-ingredient registrations, and manufactured by Delpharm Milano S.r.l. The available dosage forms are oral capsules and tablets.
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions / Pharmacological Targets**: Benserazide acts on L-aromatic amino-acid decarboxylase (DDC) and also on cystathionine β-synthase (CBS). No drug-drug interaction severity levels are available.
+- **Migraine signal**: A 1979 observational report (PMID 554794) found typical migraine attacks in the 4 migrainous women given benserazide 125 mg. This was preliminary and in a very small group, but it argues against use in headache disorders.
+- **Catecholamine effects**: Because AADC inhibition may alter catecholamine output, use in catecholamine-secreting tumours such as phaeochromocytoma needs caution.
 
-One point from the wider evidence is worth noting. A small 1979 study (PMID 554794) reported that benserazide (125 mg orally) provoked typical migraine attacks in all 4 migrainous women who received it. This is a preliminary finding, but it is a reason for caution in any new use.
+Please refer to the package insert for further safety information, including warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high, but there are no trials, no literature and no plausible mechanism linking DDC inhibition to hair follicle biology. The evidence is model prediction only (L5).
+The prediction for congenital hypotrichosis milia comes from the TxGNN model only (Evidence Level L5). There are no trials or publications, and no plausible mechanistic link to AADC inhibition. The other top-ranked predictions are also unsupported, and some, such as headache disorder, show a safety signal in the opposite direction.
 
 **To proceed, the following is needed:**
-- Mechanism of action data, to test whether any biological pathway connects benserazide to hair follicle development
-- The Singapore package insert warnings and contraindications, which are required before any safety screening
-- Preclinical evidence of an effect in a hair-follicle disease model
-- A closer look at other predictions. Of the top 10, only pheochromocytoma (ranks 8 and 10) has a coherent mechanistic hypothesis, because these tumours make catecholamines through DDC. It is still only a research question, since the only supporting paper is a 1986 enzyme assay.
+- Package insert warnings and contraindications from the HSA website (a blocking gap for safety screening)
+- Mechanism of action data for benserazide
+- A biologically plausible hypothesis linking AADC (or CBS) inhibition to hair follicle development, with preclinical support
+- Approved indication text for the Singapore licences
+- Assessment of route compatibility (oral forms only are currently registered; a topical or other route may be needed for a hair disorder)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

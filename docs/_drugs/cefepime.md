@@ -2,7 +2,7 @@
 layout: default
 title: Cefepime
 parent: Low Evidence (L5)
-nav_order: 220
+nav_order: 221
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,13 +33,14 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Cefepime is a fourth-generation cephalosporin antibiotic used for bacterial infections. The TxGNN model predicts it may be effective for **polyclonal hyperviscosity syndrome**, but this prediction has **0 clinical trials** and **0 publications** behind it. It is a knowledge-graph output only and is not supported by mechanism or clinical data.
+Cefepime is a broad-spectrum cephalosporin antibiotic, originally used for streptococcal infection, bacterial pneumonia, and Pseudomonas aeruginosa and Staphylococcus aureus infections.
+The TxGNN model predicts it may be effective for **polyclonal hyperviscosity syndrome**, but there are **0 clinical trials** and **0 publications** supporting this prediction. It rests on a network-based model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration records; cefepime is a broad-spectrum antibacterial |
+| Original Indication | Streptococcal infection, bacterial pneumonia, Pseudomonas aeruginosa infection, Staphylococcus aureus infection (the Singapore licence records contain no indication text) |
 | Predicted New Indication | Polyclonal hyperviscosity syndrome |
 | TxGNN Prediction Score | 98.69% |
 | Evidence Level | L5 |
@@ -49,57 +50,51 @@ Cefepime is a fourth-generation cephalosporin antibiotic used for bacterial infe
 
 ## Why is This Prediction Reasonable?
 
-Cefepime kills bacteria by binding penicillin-binding proteins and blocking cell wall synthesis. Polyclonal hyperviscosity syndrome is a protein-driven increase in blood viscosity. No plausible mechanism links an antibacterial to this condition.
+Currently, detailed mechanism of action data is not available. Cefepime is a beta-lactam (fourth-generation cephalosporin) antibacterial. Its efficacy against bacterial infections is established, but it has no known effect on serum viscosity or on the raised polyclonal immunoglobulins that characterise this syndrome.
 
-The score of 0.987 (rank 12,900) most likely reflects the topology of the knowledge graph, not a pharmacological relationship. The same score was given to hyperamylasemia, another disease with no mechanistic link to cefepime. The prediction should be treated as a model artifact until independent evidence appears.
+The only conceivable link is indirect: treating infections in patients who have the condition. The high TxGNN score reflects a network-based pattern, not a supporting mechanism. This prediction should be treated as a weak hypothesis.
+
+Other predictions for this drug were also reviewed. Two have mechanistic or preclinical plausibility and may deserve further study:
+- **Septicemic plague** (score 97.32%): Yersinia pestis is a Gram-negative bacterium, so an antibacterial rationale is plausible. The only evidence is one preclinical mouse study (2007), with no human data.
+- **Infectious otitis media** (score 95.02%): cefepime covers Pseudomonas aeruginosa and Staphylococcus aureus, common pathogens in chronic suppurative otitis media. The evidence is limited to case reports and a surveillance study.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for polyclonal hyperviscosity syndrome.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for polyclonal hyperviscosity syndrome.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN14658P | CEFEPIME-AFT POWDER FOR INJECTION 1G/VIAL | Injection, powder, lyophilized, for solution |
-| SIN14156P | Cefevon powder for solution for injection 2g/vial | Injection, powder, for solution |
-| SIN14988P | CEFEPIME KABI POWDER FOR SOLUTION FOR INJECTION OR INFUSION 2 g/vial | Injection, powder, for solution |
-| SIN14987P | CEFEPIME KABI POWDER FOR SOLUTION FOR INJECTION OR INFUSION 1 g/vial | Injection, powder, for solution |
-
-All four products are injectables. Approved indication text is not recorded for any of them.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN14658P | Cefepime-AFT Powder for Injection 1g/vial | Lyophilised powder for injection | Not stated in the compiled records |
+| SIN14156P | Cefevon powder for solution for injection 2g/vial | Powder for injection | Not stated in the compiled records |
+| SIN14988P | Cefepime Kabi powder for solution for injection or infusion 2g/vial | Powder for injection | Not stated in the compiled records |
+| SIN14987P | Cefepime Kabi powder for solution for injection or infusion 1g/vial | Powder for injection | Not stated in the compiled records |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications flagged in the knowledge graph** (these come from network relationships, not label text): epilepsy, blood coagulation disease, Clostridium difficile colitis, colitis, perinatal necrotizing enterocolitis, impaired renal function, brain disease, and several myoclonic or movement disorders (for example familial myoclonic epilepsy, Unverricht-Lundborg syndrome, early myoclonic encephalopathy, opsoclonus-myoclonus syndrome, blepharospasm, focal hand dystonia).
+- **Neurotoxicity and renal considerations**: cefepime is associated with dose-dependent neurotoxicity (encephalopathy), especially in renal impairment, and a published case report describes cefepime-induced acute interstitial nephritis.
+- **Drug Interactions**: 100 interactions were identified. Moderate-level ones include the aminoglycosides kanamycin, neomycin and streptomycin, and picosulfuric acid. Others, such as amphotericin B, mannitol, morphine and metformin, are of unknown severity.
 
-Literature attached to other candidate indications in this pack points to two safety signals:
-- **Neurotoxicity**: cefepime neurotoxicity is dose-dependent and is more likely at high exposure or in renal impairment (PMID 37735762 supports dose individualization).
-- **Kidney injury**: one case report describes biopsy-proven acute interstitial nephritis (PMID 25886295).
+Please refer to the package insert for full safety information, as the label warnings were not available for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is model-only (L5). There is no mechanistic link, no trial and no publication for polyclonal hyperviscosity syndrome, and cefepime's known neurotoxicity gives no reason to prioritize it.
+The prediction has only a model score behind it. There are no clinical trials or literature, and no plausible mechanism linking an antibacterial to polyclonal hyperviscosity syndrome. Cefepime's neurotoxicity and renal risks add caution.
 
 **To proceed, the following is needed:**
-- The HSA package insert warnings and contraindications, which block the safety screening step.
-- Structured mechanism-of-action data from DrugBank (DB01413).
-- Any independent clinical or mechanistic evidence for this disease. Without it, this candidate should not advance.
-
-**Other candidates in this pack:**
-Two other predictions are marked "Research Question" and are more biologically plausible than the top-ranked one:
-- **Septicemic plague**: cefepime showed activity in a mouse model (PMID 20583467), but no human data exist.
-- **Infectious otitis media**: Pseudomonas aeruginosa is a relevant pathogen, but the evidence is limited to case reports and one microbiology-trend study.
-
-Both would need in-vitro or microbiology-guided follow-up before any clinical consideration.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
+- Mechanism of action data and any biological rationale for an effect on serum viscosity or immunoglobulin levels
+- Package insert warnings and contraindications from the Singapore regulator (HSA)
+- Approved indication text for the Singapore licences
+- Consideration of better-supported candidates (septicemic plague, infectious otitis media) as research questions, starting with controlled human data
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

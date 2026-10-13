@@ -2,7 +2,7 @@
 layout: default
 title: Dexamethasone
 parent: High Evidence (L1-L2)
-nav_order: 316
+nav_order: 319
 evidence_level: L2
 indication_count: 10
 ---
@@ -29,18 +29,19 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Dexamethasone: From an Established Systemic Corticosteroid to Alopecia Areata
+# Dexamethasone: From Adrenocortical Insufficiency and Inflammatory Conditions to Alopecia Areata
 
 ## One-Sentence Summary
 
-Dexamethasone is a widely used glucocorticoid with 20 registrations in Singapore, but no approved indication text is available in the supplied data.
-The TxGNN model predicts it may be effective for **alopecia areata**, with a score of 99.99%.
-Support consists of **1 randomized trial, 1 network meta-analysis, several cohort studies and case reports**, all published literature. None of the 12 registered clinical trials retrieved tests dexamethasone for this condition.
+Dexamethasone is a potent glucocorticoid originally used for conditions such as adrenocortical insufficiency, Crohn disease, acute lymphoblastic leukaemia and congenital adrenal hyperplasia.
+The TxGNN model predicts it may be effective for **Alopecia Areata**,
+with **0 registered clinical trials** and **20 publications** (including **1 randomised controlled trial** and a network meta-analysis) currently supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Adrenocortical insufficiency, Crohn disease and inflammatory bowel disease, acute lymphoblastic leukaemia, congenital adrenal hyperplasia, and others (from the knowledge graph; Singapore licence indication text is not available) |
 | Predicted New Indication | Alopecia areata |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L2 |
@@ -48,74 +49,68 @@ Support consists of **1 randomized trial, 1 network meta-analysis, several cohor
 | Number of Registrations | 20 |
 | Recommended Decision | Proceed with Guardrails |
 
-The L2 rating rests on one published open-label RCT in 30 children, not on a registered trial. It is best read as the lower end of L2.
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the record. Based on general pharmacology, dexamethasone is a potent glucocorticoid. In alopecia areata, CD8+ T cells and NKG2D-driven inflammation around the hair follicle break down the follicle's immune privilege. Dexamethasone suppresses this immune attack, consistent with the established use of systemic and intralesional corticosteroids in this disease.
+Detailed mechanism of action data is not currently available. Based on general pharmacology, dexamethasone is a potent glucocorticoid with broad anti-inflammatory and immunosuppressive effects, including suppression of T-cell activation and pro-inflammatory cytokines.
 
-The literature shows dexamethasone in practice for alopecia areata, mostly as **oral mini-pulse** (for example, two consecutive days per week), and also as intravenous pulses. This is consistent with the model's very high score.
+Alopecia areata is a T-cell-mediated autoimmune disease in which cytotoxic CD8+ T cells attack the hair follicle, which normally enjoys immune privilege. Dampening this immune attack is the logical rationale for a glucocorticoid. Oral mini-pulse dexamethasone is an established off-label regimen, and the very high TxGNN score is consistent with the published clinical signal.
 
-The main limitation is that the evidence is mostly observational or small. Current guidance treats JAK inhibitors as the leading option for severe disease, with systemic steroids as an alternative when JAK inhibitors are unavailable or unsuitable.
+Note that the evidence rests on the literature alone, as no registered clinical trials were found.
 
 ## Clinical Trial Evidence
 
-No directly relevant registered trials are currently available. The 12 trials retrieved were mainly oncology studies (myeloma, lung cancer, mesothelioma, glioblastoma and others) in which dexamethasone is a supportive or combination agent, plus one observational bone-health study. None evaluates dexamethasone for alopecia areata, so they are not listed.
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [36086930](https://pubmed.ncbi.nlm.nih.gov/36086930/) | 2022 | RCT | Dermatol Ther | Open-label RCT in 30 children with severe non-progressive alopecia areata, comparing low-dose dexamethasone oral mini-pulse with DPCP contact sensitisation |
-| [39042154](https://pubmed.ncbi.nlm.nih.gov/39042154/) | 2024 | Network meta-analysis | Arch Dermatol Res | Compares systemic steroids, oral JAK inhibitors and contact immunotherapy for severe alopecia areata |
-| [36461625](https://pubmed.ncbi.nlm.nih.gov/36461625/) | 2023 | Review | Pediatr Dermatol | Reviews dosing regimens and side effects of pulse corticosteroid therapy in children with alopecia areata |
-| [35330017](https://pubmed.ncbi.nlm.nih.gov/35330017/) | 2022 | Cohort | J Clin Med | Prospective real-world cohort of dexamethasone mini-pulse, assessing effectiveness, safety and factors linked to response |
-| [36070222](https://pubmed.ncbi.nlm.nih.gov/36070222/) | 2022 | Cohort | Dermatol Ther | Multicentre study of oral dexamethasone mini-pulse in moderate to severe alopecia areata |
-| [31579982](https://pubmed.ncbi.nlm.nih.gov/31579982/) | 2019 | Cohort | Dermatol Ther | 73 children with severe disease; 1-day vs 3-day intravenous dexamethasone pulses plus topical clobetasol |
-| [26179196](https://pubmed.ncbi.nlm.nih.gov/26179196/) | 2015 | Cohort | Dermatol Ther | Long-term follow-up (median 96 months) of 65 children on monthly oral dexamethasone pulse plus topical steroid |
-| [16707886](https://pubmed.ncbi.nlm.nih.gov/16707886/) | 2006 | Comparative study | Dermatology | Compares efficacy, relapse rate and side effects of three systemic corticosteroid regimens |
-| [10535249](https://pubmed.ncbi.nlm.nih.gov/10535249/) | 1999 | Clinical study | J Dermatol | 30 patients with extensive disease given 5 mg dexamethasone oral pulse on two consecutive days weekly |
-| [41243342](https://pubmed.ncbi.nlm.nih.gov/41243342/) | 2025 | Case report | J Dermatolog Treat | Durable remission of severe disease with oral mini-pulse in a patient for whom JAK inhibitors were not an option |
+| [36086930](https://pubmed.ncbi.nlm.nih.gov/36086930/) | 2022 | RCT | Dermatologic Therapy | Open-label randomised study in 30 children with severe non-progressive alopecia areata comparing low-dose oral mini-pulse dexamethasone with DPCP contact sensitisation |
+| [39042154](https://pubmed.ncbi.nlm.nih.gov/39042154/) | 2024 | Systematic review / network meta-analysis | Archives of Dermatological Research | Compared systemic steroids, oral JAK inhibitors and contact immunotherapy in severe alopecia areata |
+| [36461625](https://pubmed.ncbi.nlm.nih.gov/36461625/) | 2023 | Review | Pediatric Dermatology | Reviewed dosing regimens and side effects of pulse corticosteroid therapy in children with alopecia areata |
+| [35330017](https://pubmed.ncbi.nlm.nih.gov/35330017/) | 2022 | Prospective cohort | Journal of Clinical Medicine | Real-world effectiveness and safety of oral mini-pulse corticosteroids, with factors associated with response |
+| [36070222](https://pubmed.ncbi.nlm.nih.gov/36070222/) | 2022 | Clinical study | Dermatologic Therapy | Multicentre study of oral mini-pulse dexamethasone in moderate to severe alopecia areata |
+| [41872082](https://pubmed.ncbi.nlm.nih.gov/41872082/) | 2026 | Clinical study (retrospective chart review) | European Journal of Dermatology | Pulse dexamethasone rescue added to baricitinib plus topical steroids in 19 patients with severe alopecia areata |
+| [31579982](https://pubmed.ncbi.nlm.nih.gov/31579982/) | 2019 | Prospective study | Dermatologic Therapy | 1-day versus 3-day intravenous dexamethasone pulses plus topical clobetasol in 73 children with severe disease |
+| [26179196](https://pubmed.ncbi.nlm.nih.gov/26179196/) | 2015 | Long-term follow-up study | Dermatologic Therapy | Oral dexamethasone pulses plus topical steroid in 65 children, median follow-up of 96 months |
+| [10535249](https://pubmed.ncbi.nlm.nih.gov/10535249/) | 1999 | Clinical study | Journal of Dermatology | Twice-weekly 5 mg oral dexamethasone pulse in 30 patients with extensive alopecia areata |
+| [41243342](https://pubmed.ncbi.nlm.nih.gov/41243342/) | 2025 | Case report/series | Journal of Dermatological Treatment | Durable remission with oral mini-pulse dexamethasone in patients not eligible for JAK inhibitors, with a focused review |
 
 ## Singapore Market Information
 
-There are 20 registrations in total. The main ones are listed below. The supplied data contains no approved indication text for these products.
+The Singapore licence records compiled for this report do not include approved indication text.
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN07155P | Dexamethasone Tablet 4 mg | Tablet |
-| SIN07902P | Decan Tablet 0.75 mg | Tablet |
-| SIN05232P | Dexaltin Oral Paste 1 mg/g | Paste |
-| SIN14058P | Ozurdex Intravitreal Implant 0.7 mg | Implant |
-| SIN17195P | Dextenza Ophthalmic Insert 0.4 mg | Insert, extended release |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN07155P | Dexamethasone Tablet 4 mg | Tablet | Not stated |
+| SIN04238P | Dexamethasone Tablet 0.5 mg | Tablet | Not stated |
+| SIN04295P | Dexamethasone Sodium Phosphate Injection USP | Injection | Not stated |
+| SIN16866P | Dexamethasone Kalceks Solution for Injection/Infusion 4 mg/ml | Infusion, solution | Not stated |
+| SIN14058P | Ozurdex Intravitreal Implant 0.7 mg | Implant | Not stated |
 
-Oral tablets are available, which matches the oral mini-pulse regimens in the literature. Injectable forms are also registered. The ophthalmic implants and inserts are not relevant to this use.
+A total of 20 valid single-ingredient licences exist, covering tablets, elixir, injections, eye drops, ophthalmic ointments, an ocular insert and an oral paste.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications (knowledge-graph associations, not label text)**: hypertension, epilepsy, hyperglycaemia, congestive heart failure, herpes simplex virus keratitis, measles, urea cycle disorders (carbamoyl phosphate synthetase I deficiency, citrullinemia, hyperargininemia), and pituitary hormone deficiency conditions (including hypopituitarism and growth hormone deficiency).
+- **Drug Interactions**: 100 interactions were recorded. Major interactions include **fentanyl** and **adalimumab**. Moderate interactions include paclitaxel, abemaciclib, acalabrutinib, ibuprofen, ketorolac, nifedipine, acetazolamide, acarbose, isotretinoin and zidovudine.
+- **Related safety literature**: Reviews of pulse corticosteroid therapy in children describe associated side effects; dosing and monitoring should follow these sources.
 
-Points from the mechanistic assessment that should be built into any use:
-- **Relapse after tapering**: hair regrowth may not be sustained once treatment stops.
-- **Cumulative steroid toxicity**: repeated or long-term courses carry systemic steroid risks.
-- **Alternatives**: JAK inhibitors are the current standard for severe disease, so dexamethasone should be positioned against them.
+Please refer to the package insert for further safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Alopecia areata has a plausible mechanism and consistent published clinical use, including one small RCT, a network meta-analysis and several cohorts. However, there are no relevant registered trials, most studies are small or observational, and package insert safety data is missing. This supports a guarded approach rather than an unconditional Go.
+One randomised controlled trial, a network meta-analysis and several cohort studies support oral mini-pulse dexamethasone in alopecia areata. However, no registered trials exist, the RCT is small and open-label, and the safety data are incomplete. The other nine predicted indications (alopecia mucinosa, telogen effluvium, folliculitis decalvans and others) have no meaningful supporting evidence and should remain on Hold.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications, which are currently missing and block safety screening.
-- Detailed mechanism of action data from DrugBank.
-- Confirmation of approved indication wording for the Singapore oral products.
-- A relapse and cumulative-toxicity monitoring plan, plus a comparison against JAK inhibitors for severe disease.
-
-**Other predicted indications:** The other nine predictions (alopecia mucinosa, telogen effluvium, folliculitis decalvans, and rare genetic or structural conditions) are prediction-only or lack a credible mechanistic link. All are rated **Hold** at L5, and several look like knowledge-graph artifacts. The alopecia universalis with vitiligo entry is the only one with a plausible autoimmune overlap, and it would need to borrow evidence from alopecia areata.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before application.*
+- Package insert warnings and contraindications from the HSA (currently a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- Larger randomised trials, ideally registered, comparing dexamethasone mini-pulse against JAK inhibitors or other standard care
+- A monitoring plan for blood pressure, glucose and infection risk, particularly in children and patients with the contraindicated conditions listed above
+- Confirmation of the route and formulation to be used (oral mini-pulse), since Singapore licence indication text is not available
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

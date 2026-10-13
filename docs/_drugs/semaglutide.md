@@ -2,7 +2,7 @@
 layout: default
 title: Semaglutide
 parent: Low Evidence (L5)
-nav_order: 896
+nav_order: 906
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,17 +29,18 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Semaglutide: From Weight Management to Focal Stiff Limb Syndrome
+# Semaglutide: From Type 2 Diabetes Mellitus to Focal Stiff Limb Syndrome
 
 ## One-Sentence Summary
 
-Semaglutide is a GLP-1 receptor agonist marketed in Singapore as Wegovy injection pens. The TxGNN model predicts it may be effective for **focal stiff limb syndrome**, a rare neurological disorder. **No clinical trials and no publications** currently support this prediction, so it rests on a graph-based score alone.
+Semaglutide is a GLP-1 receptor agonist originally used to treat type 2 diabetes mellitus.
+The TxGNN model predicts it may be effective for **focal stiff limb syndrome**, but this is a graph-based prediction only, with **0 clinical trials** and **0 publications** currently supporting it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the HSA data supplied. The Wegovy-branded products are generally positioned for chronic weight management. |
+| Original Indication | Type 2 diabetes mellitus (the registration records compiled for this report contain no approved indication text) |
 | Predicted New Indication | Focal stiff limb syndrome |
 | TxGNN Prediction Score | 98.64% |
 | Evidence Level | L5 |
@@ -49,11 +50,11 @@ Semaglutide is a GLP-1 receptor agonist marketed in Singapore as Wegovy injectio
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Semaglutide belongs to the GLP-1 receptor agonist class, which lowers glucose in a glucose-dependent way and reduces body weight. Its efficacy in metabolic indications is well established.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, semaglutide is a GLP-1 receptor agonist that supports glycaemic control and appetite regulation. Its efficacy in type 2 diabetes is established.
 
-Focal stiff limb syndrome is a rare autoimmune/neurological disorder linked to impaired GABAergic signalling. No established GLP-1 receptor pathway connects it to semaglutide. The only speculative bridge is the anti-inflammatory effects sometimes reported for GLP-1 receptor agonists, and nothing retrieved supports it.
+No mechanistic link to focal stiff limb syndrome has been established. This is a rare autoimmune/neurological disorder within the stiff-person spectrum, linked to GABAergic and anti-GAD-related dysfunction. GLP-1 receptor agonism has no known role in this pathophysiology. Any anti-inflammatory or neuromodulatory effect is speculative.
 
-The score of 98.64% is identical to that of classic stiff person syndrome (rank 2). This suggests a shared disease-node artifact in the knowledge graph rather than an independent signal for this disease. The prediction should be treated as a hypothesis for screening, not as evidence of benefit.
+The high score probably reflects graph associations, such as the overlap between anti-GAD autoimmunity and autoimmune diabetes. The same score (98.64%) was given to classic stiff person syndrome, which suggests a shared graph neighbourhood rather than disease-specific evidence.
 
 ## Clinical Trial Evidence
 
@@ -61,37 +62,62 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for focal stiff limb syndrome.
+
+The literature retrieved for the lower-ranked prediction, pancreatic agenesis, is preclinical or safety-focused and shows no benefit in that disease.
+
+## Other Predicted Indications (Ranks 2–10)
+
+All other predictions are also Evidence Level L5 with a Hold recommendation, and none has clinical trial support.
+
+| Rank | Predicted Indication | Score | Assessment |
+|------|------|------|------|
+| 2 | Classic stiff person syndrome | 98.64% | Indirect and speculative; anti-GAD65 autoimmunity overlaps with autoimmune diabetes, but no effect on SPS mechanisms is shown |
+| 3 | Opsismodysplasia | 98.59% | No plausible link; a genetic skeletal dysplasia (INPPL1/SHIP2) |
+| 4 | Thiamine-responsive dysfunction syndrome | 98.58% | No direct link; the shared diabetes feature likely drives the association |
+| 5 | Drug-induced localized lipodystrophy | 97.66% | Weak; fat-loss effects are conceptually opposite, and injection-site reactions are a concern |
+| 6 | Centrifugal lipodystrophy | 97.56% | No established link; may be counterproductive |
+| 7 | Pressure-induced localized lipoatrophy | 97.49% | No rationale; treatment is removing the pressure source |
+| 8 | Idiopathic localized lipodystrophy | 97.35% | No established link; weight loss could be unfavourable |
+| 9 | Pancreatic agenesis | 97.31% | Biologically implausible; efficacy depends on functioning beta cells. Only preclinical or safety literature was retrieved |
+| 10 | Autoimmune oophoritis | 95.05% | Speculative; anti-inflammatory effects are reported, but no specific evidence |
 
 ## Singapore Market Information
 
-The Singapore registrations (15 in total) are all injectable solutions. The oral tablet route is also listed for semaglutide. Approved indication text is not recorded for these licences. The first 5 are shown below.
+There are 15 valid single-ingredient registrations. The records compiled for this report include no approved indication text. Main authorizations:
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN16708P | WEGOVY Solution for Injection in Pre-filled Pen 2.4MG/0.75ML | Injection, solution |
-| SIN16745P | WEGOVY 0.5 MG/DOSE FlexTouch Solution for Injection in Pre-filled Pen 1.34 MG/ML | Injection, solution |
-| SIN16706P | WEGOVY Solution for Injection in Pre-filled Pen 0.25MG/0.5ML | Injection, solution |
-| SIN16705P | WEGOVY Solution for Injection in Pre-filled Pen 0.5MG/0.5ML | Injection, solution |
-| SIN16746P | WEGOVY 1 MG/DOSE FlexTouch Solution for Injection in Pre-filled Pen 1.34 MG/ML | Injection, solution |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN16164P | OZEMPIC 1MG/DOSE Solution for Injection in Pre-filled Pen | Injection, solution | Not available |
+| SIN16165P | OZEMPIC 0.25MG, 0.5MG/DOSE Solution for Injection in Pre-filled Pen | Injection, solution | Not available |
+| SIN16215P | RYBELSUS Tablet 3mg | Tablet | Not available |
+| SIN16216P | RYBELSUS Tablet 7mg | Tablet | Not available |
+| SIN16706P | WEGOVY Solution for Injection in Pre-filled Pen 0.25MG/0.5ML | Injection, solution | Not available |
+
+The remaining registrations are additional RYBELSUS (14 mg) and WEGOVY strengths. Available routes are injectable and oral.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: Interaction screening returned 100 records, of which 20 are listed in the data compiled for this report. Most are Moderate and a few are Minor. Examples include:
+  - Moderate: phenylephrine, pseudoephedrine, epinephrine, salbutamol, formoterol, hydrocortisone, triamcinolone, hydrochlorothiazide, acetazolamide, estradiol, ethinylestradiol, levonorgestrel, norethisterone, aripiprazole, asenapine, alpelisib, asparaginase and ethanol.
+  - Minor: topical hydrocortisone and topical alclometasone.
+
+Package insert warnings and contraindications were not available. Please refer to the package insert for further safety information.
+
+For the lipodystrophy-type predictions, semaglutide's fat- and weight-reducing effects and subcutaneous injection could add safety concerns rather than benefit.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The evidence level is L5, with no trials, no literature, and no plausible mechanistic link. The high score looks like a graph artifact, since it is identical to the score for classic stiff person syndrome. The other nine predicted indications are also L5 and Hold. The only literature retrieved for any of them (pancreatic agenesis) is tangential preclinical or safety material.
+The prediction rests on a graph-based score alone, with no clinical trials, no supporting literature and no plausible mechanistic link. Semaglutide's GLP-1 receptor action has no known role in the GABAergic or autoimmune mechanisms of focal stiff limb syndrome.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications (a blocking gap for safety screening)
-- Approved indication text for the Singapore licences, to confirm the original indication
-- Mechanism of action data from DrugBank
-- A targeted literature search for GLP-1 receptor agonists in stiff person spectrum disorders, covering case reports and mechanistic studies
-- Review of the identical-score pattern across the stiff person disease nodes to rule out a graph artifact
+- Mechanism of action data and a credible biological hypothesis linking GLP-1 receptor agonism to stiff-person spectrum disorders
+- Preclinical or clinical evidence in focal stiff limb syndrome or stiff person syndrome
+- Package insert warnings and contraindications from the HSA website, which is required for safety screening
+- Route compatibility assessment, since this is still pending
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

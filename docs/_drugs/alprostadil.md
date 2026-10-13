@@ -29,18 +29,19 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Alprostadil: From Registered Injectable Use to Aortic Malformation (Ductus-Dependent Lesions)
+# Alprostadil: From Erectile Dysfunction and Ductal-Dependent Congenital Heart Disease to Aortic Malformation
 
 ## One-Sentence Summary
 
-Alprostadil (prostaglandin E1) is a vasodilator marketed in Singapore as injectable products, but the Singapore licence records do not state an approved indication.
-The TxGNN model predicts it may be effective for **aortic malformation**, for example interrupted aortic arch and critical aortic stenosis, where it keeps the ductus arteriosus open until surgery.
-Support consists of **2 clinical trials** (neither a pivotal efficacy trial) and **20 publications**, mostly reviews, cohorts and case reports.
+Alprostadil (prostaglandin E1) was originally used for erectile dysfunction and for keeping the ductus arteriosus open in newborns with certain congenital heart defects.
+The TxGNN model predicts it may be effective for **aortic malformation**, but this is largely an extension of its existing use rather than a true new indication.
+Currently **0 clinical trials** and **8 publications** (mostly case reports, cohort studies and indirect studies) support this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Erectile dysfunction, psychologic dyspareunia, premature ejaculation, tricuspid atresia, coarctation of the aorta, tetralogy of Fallot, and double outlet right ventricle with pulmonary stenosis (from the knowledge-graph indication list; the Singapore licence records contain no indication text) |
 | Predicted New Indication | Aortic malformation |
 | TxGNN Prediction Score | 99.98% |
 | Evidence Level | L3 |
@@ -50,33 +51,30 @@ Support consists of **2 clinical trials** (neither a pivotal efficacy trial) and
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the input. Based on the retrieved literature, alprostadil (PGE1) relaxes ductal smooth muscle and keeps the ductus arteriosus open. In ductus-dependent systemic-flow lesions (interrupted aortic arch, critical aortic stenosis, aortic atresia or hypoplastic left heart), an open duct maintains systemic perfusion until surgery or intervention.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, alprostadil is a prostaglandin E1 (PGE1) that relaxes smooth muscle and dilates blood vessels. In newborns, it keeps the ductus arteriosus open, which maintains blood flow in heart defects that depend on the duct for survival.
 
-The review by Jonas (2015) states that introducing PGE1 in the late 1970s "revolutionized" the management of interrupted aortic arch. The mechanism is well established, and the prediction reflects long-standing neonatal practice rather than a novel pharmacology.
+Coarctation of the aorta is already among the drug's original indications. Aortic malformation, which covers related lesions such as interrupted aortic arch, relies on the same logic: keeping the duct open allows blood to reach the body until surgery can be performed. The prediction is therefore mechanistically sound, though it is better described as an extension of established use than as a new therapeutic direction.
 
-Whether this use is on the Singapore label could not be confirmed, because the licence records have no indication text. Label status should be checked separately. The prediction applies only to ductus-dependent lesions, not to every aortic malformation.
+Secondary effects, such as reducing inflammation and lung injury after cardiopulmonary bypass or protecting tissue from ischaemia-reperfusion injury, are plausible but come from indirect or preclinical studies.
+
+Other predicted indications (rank 2 to 8) are tricuspid and double outlet right ventricle variants. They score very high (above 99.9%), but this reflects closeness to existing indications in the knowledge graph; no direct evidence supports them. Endemic goiter (rank 10) has no plausible mechanistic link and is likely a knowledge-graph artifact.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT04054115](https://clinicaltrials.gov/study/NCT04054115) | Phase 1 | Terminated | 10 | Acute effects of alprostadil on cerebral and pulmonary flow after bidirectional cavopulmonary connection (single-ventricle palliation). Small, underpowered, different lesion context. |
-| [NCT02042092](https://clinicaltrials.gov/study/NCT02042092) | N/A | Completed | 39 | Cross-sectional comparison of Doppler ultrasonography and MR angiography in large-vessel vasculitis. Diagnostic imaging study that does not test alprostadil. |
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|---------|---------|
-| [26686446](https://pubmed.ncbi.nlm.nih.gov/26686446/) | 2015 | Review | Semin Thorac Cardiovasc Surg | PGE1 transformed management of interrupted aortic arch. Resuscitation precedes one-stage neonatal repair. |
-| [25647388](https://pubmed.ncbi.nlm.nih.gov/25647388/) | 2014 | Review | Cardiol Young | Preoperative management of neonates with critical aortic valvar stenosis. |
-| [30347623](https://pubmed.ncbi.nlm.nih.gov/30347623/) | 2019 | Review | J Neonatal Perinatal Med | Enteral feeding and necrotising enterocolitis risk in duct-dependent heart disease on PGE1. |
-| [6763200](https://pubmed.ncbi.nlm.nih.gov/6763200/) | 1982 | Cohort | Pharmacotherapy | Alprostadil dilates the ductus and increases pulmonary blood flow in infants with congenital heart malformations. |
-| [7201134](https://pubmed.ncbi.nlm.nih.gov/7201134/) | 1982 | Case series | Pediatr Cardiol | PGE1 in 7 infants with hypoplastic left ventricle and aortic atresia. Transient improvement in 6, but high early mortality. |
-| [6537955](https://pubmed.ncbi.nlm.nih.gov/6537955/) | 1984 | Case series | J Am Coll Cardiol | Long-term PGE1 infusion (mean 39 days) in 17 neonates, including aortic coarctation. |
-| [32184038](https://pubmed.ncbi.nlm.nih.gov/32184038/) | 2020 | Cohort | Asian J Surg | Staged surgical repair outcomes for infants with interrupted aortic arch. |
-| [16368373](https://pubmed.ncbi.nlm.nih.gov/16368373/) | 2006 | Cohort | Ann Thorac Surg | Outcomes of closed aortic valvotomy for critical aortic stenosis in neonates. |
-| [25263728](https://pubmed.ncbi.nlm.nih.gov/25263728/) | 2014 | Case report | J Perinatol | Transient hypertrophic pyloric stenosis after PGE1 infusion (safety signal). |
-| [28508920](https://pubmed.ncbi.nlm.nih.gov/28508920/) | 2017 | Case report | Pediatr Cardiol | Second- and third-degree AV block during prolonged low-dose PGE1 in a neonate with critical coarctation (safety signal). |
+|------|-----|------|------|---------|
+| [6763200](https://pubmed.ncbi.nlm.nih.gov/6763200/) | 1982 | Cohort | Pharmacotherapy | Evaluation of alprostadil in infants with congenital heart disease; infusion dilates the ductus and increases pulmonary blood flow in lesions with right ventricular outflow obstruction |
+| [19080093](https://pubmed.ncbi.nlm.nih.gov/19080093/) | 2008 | Clinical study (indirect) | Zhonghua Yi Xue Za Zhi | Alprostadil and ulinastatin for inflammatory response and lung injury after cardiopulmonary bypass in children with congenital heart disease |
+| [41167776](https://pubmed.ncbi.nlm.nih.gov/41167776/) | 2025 | Cohort | Zhonghua Fu Chan Ke Za Zhi | Delivery mode and timing in 123 fetuses with complex congenital heart disease |
+| [42469655](https://pubmed.ncbi.nlm.nih.gov/42469655/) | 2026 | Cohort | BMC Pregnancy Childbirth | Integrated pregnancy and perinatal management of complex fetal congenital heart disease |
+| [15362549](https://pubmed.ncbi.nlm.nih.gov/15362549/) | 2004 | Review | Kyobu Geka | Transposition of the great arteries; alprostadil keeps the ductus open to protect left ventricular function before arterial switch surgery |
+| [19068708](https://pubmed.ncbi.nlm.nih.gov/19068708/) | 2008 | Case report | Kyobu Geka | Neonate with interrupted aortic arch type B managed with alprostadil, single-stage repair and haemodiafiltration; survived |
+| [30184041](https://pubmed.ncbi.nlm.nih.gov/30184041/) | 2018 | Case report | Braz J Cardiovasc Surg | Complex aortopulmonary window; milrinone and alprostadil used before surgery to counteract high lung pressure |
+| [20029353](https://pubmed.ncbi.nlm.nih.gov/20029353/) | 2009 | Preclinical (rat) | Minerva Chir | Alprostadil attenuated ischaemia-reperfusion injury in rat skeletal muscle |
 
 ## Singapore Market Information
 
@@ -87,28 +85,31 @@ Whether this use is on the Singapore label could not be confirmed, because the l
 
 ## Safety Considerations
 
-Package insert warnings, contraindications and drug interaction data were not available. Please refer to the package insert for safety information.
+**Contraindications (from the knowledge graph, not label text):** The knowledge graph links alprostadil to contraindications in the following groups. These should be verified against the package insert.
+- **Respiratory:** newborn respiratory distress syndrome, acute respiratory distress syndrome, lung disease
+- **Blood and bone marrow:** blood coagulation disease, sickle cell anaemia and related haemoglobinopathies, polycythaemia, thrombocytosis, leukaemia (including lymphoid and myeloid), plasma cell myeloma
+- **Penile and urinary conditions:** priapism, Peyronie disease, penile fibromatosis, urethral stricture, urethritis, balanitis and balanoposthitis
+- **Other:** hypotensive disorder, pyloric stenosis
 
-Signals from the retrieved literature on prolonged PGE1 infusion in neonates:
-- Hypertrophic pyloric stenosis and gastric outlet changes (PMID 25263728).
-- Atrioventricular block at low doses (PMID 28508920).
-- Other known effects include apnea and fever, so use should be limited to a neonatal ICU with apnea monitoring and titration to the lowest effective dose.
+**Reported adverse effects in the literature:** Prolonged PGE1 infusion in neonates has been linked to hypertrophic pyloric stenosis and gastric outlet obstruction, pseudo-Bartter syndrome (electrolyte disturbance), and, among more common effects, fever, apnoea, flushing and diarrhoea. Monitoring is needed during prolonged infusion.
+
+**Drug Interactions:** 59 interactions were recorded. Moderate-level interactions were found with the SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin, ertugliflozin), lorcaserin and sapropterin. Others, such as morphine, metformin, omeprazole, pantoprazole, vancomycin, atropine and prednisone, are listed with unclassified severity.
+
+For warnings and contraindications from the approved label, please refer to the package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The mechanism is well established and the reviews and case series consistently describe PGE1 as a bridge in ductus-dependent aortic lesions. However, there are no completed randomized trials, the two registered trials are not efficacy studies of this use, and safety data for Singapore are missing.
+The use of alprostadil to keep the ductus arteriosus open in aortic lesions is well established and already covers coarctation of the aorta, so the predicted indication is mainly an extension of existing use. Evidence is limited to cohort studies, case reports and indirect studies, with no registered trials. The other predicted indications (rank 2 to 10) have no direct evidence and should stay on Hold, apart from heart septal defect, which is a research question supported only by case reports.
 
 **To proceed, the following is needed:**
-- Download and parse the HSA package insert (warnings, contraindications, approved indications). This is a blocking gap.
-- Verify whether ductal patency in neonates is already on the Singapore label for PROSTIN VR PAEDIATRIC.
-- Retrieve mechanism-of-action data from DrugBank.
-- Evaluate by lesion type, since only ductus-dependent lesions are plausible. Other predictions were weaker: congenital tricuspid stenosis, tricuspid valve agenesis and heart septal defect are research questions, and the remaining predictions (including non-specific valve anomalies and endemic goiter) are on hold.
-- Define a neonatal ICU monitoring plan for apnea, gastric outlet changes and heart block.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before application.*
+- Package insert warnings and contraindications for the Singapore products (HSA)
+- Detailed mechanism of action data
+- Confirmation of the approved indications on the two Singapore licences; CAVERJECT is likely for erectile dysfunction and PROSTIN VR PAEDIATRIC for ductal patency, but the records contain no indication text
+- A neonatal monitoring plan for prolonged infusion (apnoea, electrolytes, gastric outlet obstruction)
+- Review of the knowledge-graph contraindications against the label
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

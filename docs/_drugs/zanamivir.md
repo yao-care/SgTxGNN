@@ -2,7 +2,7 @@
 layout: default
 title: Zanamivir
 parent: Low Evidence (L5)
-nav_order: 1071
+nav_order: 1081
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,15 +33,15 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Zanamivir is a viral neuraminidase inhibitor, and its only Singapore registration is an inhaled powder (Relenza Rotadisk). The registration record does not list an approved indication. The TxGNN model predicts it may be effective for **pyelonephritis**, but there are **0 clinical trials** and **0 publications** supporting this prediction, so it is a model-only signal.
-
----
+Zanamivir is a neuraminidase inhibitor originally used to treat influenza.
+The TxGNN model predicts it may be effective for **pyelonephritis**,
+but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not listed in the registration record (zanamivir is a viral neuraminidase inhibitor, i.e. an anti-influenza antiviral) |
+| Original Indication | Influenza (the approved indication text on the Singapore licence is blank; the original indication comes from the knowledge graph) |
 | Predicted New Indication | Pyelonephritis |
 | TxGNN Prediction Score | 99.84% |
 | Evidence Level | L5 |
@@ -49,58 +49,47 @@ Zanamivir is a viral neuraminidase inhibitor, and its only Singapore registratio
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Zanamivir is known as a neuraminidase inhibitor that acts on influenza viruses, and it is not an antibacterial agent.
+Currently, detailed mechanism of action data is not available. Based on known information, zanamivir is a viral neuraminidase inhibitor. Its efficacy in influenza is established, but this mechanism does not obviously apply to pyelonephritis.
 
-The link to the predicted indication is weak. Pyelonephritis is usually a bacterial infection of the kidney, and zanamivir has no expected antibacterial activity. The high TxGNN score (0.998) reflects an association in the knowledge graph, not evidence from trials or literature. This prediction should be treated as a graph artifact until independent data show otherwise.
+Pyelonephritis is typically a bacterial infection of the kidney, and zanamivir has no known antibacterial activity. No plausible mechanistic link between the original and the predicted indication is evident. The high score (0.998) is a computational output only. It may reflect an infection-related association in the knowledge graph rather than a therapeutic rationale.
 
-The other top-ranked predictions are also unsupported: tyrosine and phenylalanine metabolism disorders, Pierre Robin syndrome, and several "susceptibility to infection" entries such as Legionnaire disease, dengue, aspergillosis and schistosomiasis. All are rated L5 with a Hold recommendation.
-
----
+Other predictions in the top 10 (tyrosine and phenylalanine metabolism disorders, Pierre Robin syndrome, Legionnaire disease, HIV, dengue, aspergillosis, and schistosomiasis susceptibility) also lack mechanistic support. The few publications retrieved for them concern influenza neuraminidase resistance, not those diseases.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
-
----
+Currently no related literature available for pyelonephritis.
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN11199P | RELENZA ROTADISK 5 mg/dose | Powder, metered | Not listed in the record |
-
-The manufacturer is Glaxo Wellcome Production / GlaxoSmithKline Australia Pty Ltd. Only an inhaled-powder form is registered, so there is no route-compatibility data for a systemic infection such as pyelonephritis.
-
----
+| SIN11199P | RELENZA ROTADISK 5 mg/dose | Powder, metered | Not stated in the registration data |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications (knowledge-graph associations, not label text)**: epilepsy, chronic obstructive pulmonary disease, severe early-onset COPD, bronchial disease, delirium.
+- **Drug Interactions**: 8 interactions were found. One is rated Moderate: inhaled rapid-acting human insulin. The following are of unknown severity: clarithromycin, loratadine, montelukast, ketotifen, fexofenadine, ibuprofen, and diclofenac.
 
----
+Please refer to the package insert for further safety information, including warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a knowledge-graph score. There are no trials or publications for pyelonephritis, and there is no plausible mechanism for a viral neuraminidase inhibitor in a bacterial kidney infection. The only registered form is an inhaled powder, and no safety information is available.
+The prediction has no supporting trials or literature and no plausible mechanism, since zanamivir targets viral neuraminidase and pyelonephritis is bacterial. The evidence level is L5 (model prediction only).
 
 **To proceed, the following is needed:**
-- The HSA package insert (warnings and contraindications), which is currently blocking safety screening
-- Mechanism of action data from DrugBank
-- Any preclinical or clinical evidence of activity in urinary tract or kidney infection
-- An assessment of whether a systemic route of administration would be feasible, given that only an inhaled form is registered in Singapore
+- Mechanism of action data and a credible biological rationale for pyelonephritis
+- Preclinical or clinical evidence supporting this indication
+- Package insert warnings and contraindications, so safety screening can begin
+- Assessment of whether the inhaled powder formulation can reach the target tissue (route compatibility)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

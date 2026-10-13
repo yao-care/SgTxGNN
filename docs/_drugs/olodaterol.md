@@ -2,15 +2,15 @@
 layout: default
 title: Olodaterol
 parent: Medium Evidence (L3-L4)
-nav_order: 729
-evidence_level: L3
+nav_order: 737
+evidence_level: L4
 indication_count: 10
 ---
 
 # Olodaterol
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,72 +29,93 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Olodaterol: From COPD to Bronchitis
+# Olodaterol: From Chronic Obstructive Pulmonary Disease to Bronchitis
 
 ## One-Sentence Summary
 
-Olodaterol is a once-daily long-acting beta2-agonist (LABA) bronchodilator, sold in Singapore as part of the tiotropium/olodaterol inhaler Spiolto Respimat. It is used for chronic obstructive pulmonary disease (COPD).
-The TxGNN model predicts it may be effective for **bronchitis**, with **3 clinical trials** and **2 publications** linked to this prediction. All of them concern COPD, and none tests bronchitis as a separate indication.
+Olodaterol is an inhaled long-acting beta2-agonist (LABA), originally used for the maintenance treatment of chronic obstructive pulmonary disease (COPD).
+The TxGNN model predicts it may be effective for **bronchitis**, but this prediction rests on overlap with the approved COPD indication, and **no clinical trials** and **2 publications** (both about COPD, not bronchitis specifically) are currently available.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | COPD (inferred from the trial evidence; the Singapore registration record has no indication text) |
+| Original Indication | Chronic obstructive pulmonary disease (COPD); COPD, severe early onset |
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 99.84% |
-| Evidence Level | L3 |
+| Evidence Level | L4 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the record. Olodaterol is known to be a long-acting beta2-agonist that relaxes airway smooth muscle and widens the airways. Its efficacy in COPD is well established, and mechanistically it may be applicable to bronchitis.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, olodaterol is a once-daily long-acting beta2-adrenoceptor agonist that relaxes airway smooth muscle and produces sustained bronchodilation. Its efficacy in COPD has been established.
 
-Chronic bronchitis is a clinical form of COPD, which is why the model links the two. The signal is therefore largely COPD-derived. It does not show that olodaterol works for bronchitis as its own condition. No evidence supports acute bronchitis at all.
+Chronic bronchitis is a component of COPD, so the link between the original and predicted indication is mostly a matter of disease classification overlap rather than a new pharmacological finding. The two retrieved publications are a COPD guideline and a COPD drug review. Neither provides bronchitis-specific data.
+
+The high TxGNN score most likely reflects the closeness of bronchitis to COPD in the disease ontology, not new repurposing evidence.
+
+---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT02850978](https://clinicaltrials.gov/study/NCT02850978) | N/A | Completed | 1335 | Japanese post-marketing surveillance of long-term tiotropium/olodaterol in COPD (chronic bronchitis, emphysema). Real-world safety data, not bronchitis efficacy. |
-| [NCT03333018](https://clinicaltrials.gov/study/NCT03333018) | N/A | Completed | 22155 | Drug utilisation safety study of aclidinium bromide in COPD. Olodaterol is not the studied drug, so relevance is indirect. |
-| [NCT05127304](https://clinicaltrials.gov/study/NCT05127304) | N/A | Completed | 11316 | Healthcare resource use and cost in COPD patients starting tiotropium/olodaterol versus a triple inhaler. No efficacy endpoint for bronchitis. |
+Currently no related clinical trials registered for bronchitis.
+
+---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [27354040](https://pubmed.ncbi.nlm.nih.gov/27354040/) | 2016 | Review | Am J Health Syst Pharm | Reviews the pharmacology, pharmacokinetics, efficacy and safety of olodaterol in COPD. |
-| [25515181](https://pubmed.ncbi.nlm.nih.gov/25515181/) | 2015 | Guideline | Basic Clin Pharmacol Toxicol | Finnish national guideline on diagnosis and drug treatment of stable COPD. |
+| [27354040](https://pubmed.ncbi.nlm.nih.gov/27354040/) | 2016 | Review | Am J Health Syst Pharm | Reviews pharmacology, pharmacokinetics, efficacy and safety of once-daily olodaterol in COPD |
+| [25515181](https://pubmed.ncbi.nlm.nih.gov/25515181/) | 2015 | Review (guideline) | Basic Clin Pharmacol Toxicol | Finnish national guideline on diagnosis and pharmacotherapy of stable COPD; no bronchitis-specific data |
+
+---
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN15890P | SPIOLTO® RESPIMAT® Re-usable Solution for Inhalation 2.5 microgram / 2.5 microgram | Solution |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN15890P | SPIOLTO® RESPIMAT® Re-usable Solution for Inhalation 2.5 mcg / 2.5 mcg | Solution | Not stated in the available registration data |
 
-The manufacturer is Boehringer Ingelheim Pharma GmbH & Co. KG.
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+**Drug Interactions**: 100 interactions were identified in the interaction screen. The 20 listed in the data compiled for this report are all rated Moderate, including:
+- Sympathomimetics and stimulants: epinephrine (including ophthalmic and topical forms), ephedrine (including nasal), isometheptene, phentermine, diethylpropion, fenfluramine
+- Drugs affecting QT interval: clarithromycin, cisapride, dolasetron, granisetron, palonosetron
+- Glucose-lowering and related agents: canagliflozin, ertugliflozin, albiglutide, semaglutide
+- Others: famotidine, loperamide
+
+Please refer to the package insert for warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The bronchitis signal comes from COPD studies and does not establish a separate bronchitis indication. The three linked trials are observational or utilisation studies. The Singapore package insert warnings and contraindications are also missing, which blocks safety screening.
-
-Olodaterol's strongest evidence is for COPD itself. That is the existing use, so it is not a repurposing claim. The other TxGNN-predicted conditions (interstitial and compensatory emphysema, tracheal stenosis, and others) have no trials or literature, and their mechanistic links are weak.
+The bronchitis prediction is driven mainly by its overlap with COPD, which is already the approved indication. No bronchitis-specific trials exist and the two publications address COPD only, so this is not a true repurposing signal.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications
-- Mechanism of action data from DrugBank
-- Bronchitis-specific efficacy studies, separating chronic from acute bronchitis
-- Confirmation of the approved indication text for SIN15890P
+- Bronchitis-specific clinical or observational data (for example, chronic bronchitis subgroup analyses from the existing COPD trials)
+- Clarification of whether the prediction represents a genuinely new use or simply a restatement of the COPD indication
+- Mechanism of action data
+- Package insert warnings and contraindications from the HSA, needed for safety screening
+- The approved indication text for the Singapore registration
+
+---
+
+*Other predicted indications for reference:*
+- **Obstructive lung disease** (score 99.57%, evidence level L1, Proceed with Guardrails): essentially the approved COPD indication, supported by multiple completed Phase 3 RCTs. This is an on-label confirmation, not a new repurposing opportunity.
+- **Interstitial emphysema, compensatory emphysema, hyperlucent lung, tracheal stenosis, CD8alpha-related respiratory infection susceptibility, congenital lobar emphysema, tracheal calcification, respiratory malformation**: no supporting clinical evidence and no clear mechanistic rationale (Hold).
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -33,15 +33,14 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Azithromycin is a macrolide antibiotic, marketed in Singapore under 16 registrations. The TxGNN model predicts it may be effective for **hyperamylasemia** (score 99.81%), but there are **0 clinical trials** and **0 publications** supporting this prediction. This is a model-only prediction with no mechanistic rationale, so the evidence is very weak.
-
----
+Azithromycin is a macrolide antibiotic originally used for bacterial infections such as streptococcal infection, bacterial pneumonia, conjunctivitis and several sexually transmitted infections.
+The TxGNN model predicts it may be effective for **hyperamylasemia**, but **no clinical trials and no publications** support this prediction, so it rests on a graph-based score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections (based on drug class; the Singapore registration records provide no indication text) |
+| Original Indication | Streptococcal infection, bacterial pneumonia, staphylococcal infection and other bacterial infections (no approved indication text is available in the Singapore licence records) |
 | Predicted New Indication | Hyperamylasemia |
 | TxGNN Prediction Score | 99.81% |
 | Evidence Level | L5 |
@@ -49,64 +48,59 @@ Azithromycin is a macrolide antibiotic, marketed in Singapore under 16 registrat
 | Number of Registrations | 16 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, azithromycin is a macrolide antibiotic whose efficacy in bacterial infections is well established. Nothing in the evidence pack links that activity to hyperamylasemia.
+Currently, detailed mechanism of action data is not available. Based on known information, azithromycin is a macrolide antibiotic, its efficacy in bacterial infections is well established, and no mechanistic link to hyperamylasemia can be established from the data compiled for this report.
 
-Hyperamylasemia is a laboratory finding (elevated serum amylase), not a disease with a clear therapeutic target. Azithromycin has no documented effect on amylase production or clearance. The high TxGNN score (0.998, model rank 3,229) therefore reflects a statistical pattern in the knowledge graph rather than a demonstrated or plausible pharmacological relationship.
+Hyperamylasemia is a laboratory finding (raised blood amylase) rather than an infection. The data provides no antibacterial or immunomodulatory rationale for treating it. The very high score most likely reflects the structure of the knowledge graph rather than biology, so this prediction should be treated as a hypothesis only.
 
----
+Other predicted indications have somewhat more support and may be better candidates to pursue:
+- **Congenital hematological disorder (sickle cell disease):** Two trials of macrolide or azithromycin therapy for lung complications (NCT02960503 and NCT02630394) were both withdrawn with zero enrollment, so no efficacy data exist. This is the highest evidence level among the predictions (L3).
+- **Monoclonal gammopathy:** A preclinical study (PMID 23546223) showed that macrolides, including azithromycin, block autophagy flux and enhance bortezomib cytotoxicity in myeloma cell lines.
+- **Septicemic plague:** An in vitro study (PMID 8540736) reported poor azithromycin activity against *Yersinia pestis*, which weakens this prediction.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered for hyperamylasemia.
 
 ## Literature Evidence
 
-Currently no related literature available.
-
----
+Currently no related literature available for hyperamylasemia.
 
 ## Singapore Market Information
 
-Showing 5 of 16 registrations. The records contain no approved-indication text.
+The licence records contain no approved indication text. The main authorizations are:
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN14040P | AZmycin Tablet 500mg | Film-coated tablet | Not listed |
-| SIN13976P | Azithromycin Kern Pharma 500mg Film-Coated Tablets | Film-coated tablet | Not listed |
-| SIN14281P | Imexa Film-Coated Tablet 250mg | Film-coated tablet | Not listed |
-| SIN14282P | Imexa Powder for Oral Suspension 200mg/5ml | Powder for suspension | Not listed |
-| SIN16423P | Zynomax Film-Coated Tablet 250mg | Film-coated tablet | Not listed |
+| SIN10911P | ZITHROMAX TABLET 250 mg | Film-coated tablet | Not specified |
+| SIN07863P | ZITHROMAX POWDER FOR ORAL SUSPENSION 200 mg/5 ml | Powder for oral suspension | Not specified |
+| SIN12057P | ZITHROMAX IV POWDER FOR SOLUTION FOR INFUSION 500 mg/vial | Powder for solution for infusion | Not specified |
+| SIN14040P | AZmycin Tablet 500mg | Film-coated tablet | Not specified |
+| SIN16876P | ZITHROTEL POWDER FOR SOLUTION FOR INFUSION 500MG/VIAL | Powder for solution for infusion | Not specified |
 
-Across all registrations, the available dosage forms are oral film-coated tablets, powder for oral suspension, and injectable powders for solution (including lyophilized).
-
----
+All 16 registrations are valid single-ingredient products, available as oral tablets, oral suspension powder and intravenous infusion powder.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. The HSA package insert has not yet been retrieved, and no drug interaction records were found.
+- **Contraindications and risk conditions (from the knowledge graph, not label text):** long QT syndrome, familial long QT syndrome, torsades de pointes, liver disease, gallbladder disease, *Clostridium difficile* colitis, perinatal necrotizing enterocolitis, myasthenia gravis, neuromuscular junction disease, hearing disorder and auditory system disease.
+- **Drug Interactions:** 100 interactions were identified. The major ones are with **cisapride** and **dolasetron**, both related to QT prolongation. Many moderate interactions involve antacids (aluminium hydroxide, magnesium salts), laxatives (bisacodyl, castor oil, lactulose, lactitol, glycerin), famotidine, loperamide, clarithromycin, levofloxacin, granisetron and balsalazide. Amoxicillin and metronidazole interactions are minor.
 
----
+Please refer to the package insert for label warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on the model score alone. There are no trials or publications, and no mechanistic link between azithromycin and hyperamylasemia. Hyperamylasemia is a laboratory finding rather than a treatable disease, so it is unclear what a therapeutic benefit would even mean.
+The prediction rests only on a model score, with no trials, no literature and no plausible mechanism for hyperamylasemia. Evidence level is L5, and the package insert safety information has not yet been obtained.
 
 **To proceed, the following is needed:**
-- Mechanism of action data from DrugBank
-- HSA package insert warnings and contraindications
-- A clear clinical definition of the target (for example, which underlying condition causing hyperamylasemia would be treated, and what outcome would count as benefit)
-- Consideration of other predicted candidates with more supporting evidence, such as **monoclonal gammopathy** (preclinical data on macrolide autophagy blockade in myeloma cells) and **sickle cell disease within congenital hematological disorders** (two withdrawn trials with zero enrollment). Both are still L4 and rated "Research Question", not ready for clinical use.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- A mechanistic rationale or biological hypothesis linking azithromycin to hyperamylasemia
+- Mechanism of action (MOA) data for azithromycin
+- Singapore package insert warnings, contraindications and approved indication text
+- A QT-risk and drug interaction management plan, given the major interactions
+- Consideration of better-supported predicted indications (e.g., sickle cell-related lung complications, or myeloma-related combination research) as alternative candidates
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

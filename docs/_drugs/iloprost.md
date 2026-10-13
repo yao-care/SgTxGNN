@@ -2,7 +2,7 @@
 layout: default
 title: Iloprost
 parent: Low Evidence (L5)
-nav_order: 516
+nav_order: 520
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,67 +29,109 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Iloprost: From Prostacyclin Analog (Original Indication Not Recorded) to Hypotrichosis Simplex of the Scalp
+# Iloprost: From Pulmonary Arterial Hypertension to Pulmonary Arterial Hypertension Associated with Congenital Heart Disease
 
 ## One-Sentence Summary
 
-Iloprost is a prostacyclin (IP receptor) analog. It is marketed in Singapore as an inhalation solution, but the registration record does not state its approved indication.
-The TxGNN model predicts it may be effective for **hypotrichosis simplex of the scalp**, a genetic hair-loss disorder.
-This prediction has **0 clinical trials** and **0 publications** behind it, so it rests on the model score alone.
+Iloprost is a prostacyclin analogue originally used to treat pulmonary arterial hypertension (PAH).
+The TxGNN model's top-ranked prediction is **hypotrichosis simplex of the scalp**, but this has no supporting evidence. The best-supported prediction is **PAH associated with congenital heart disease**, with **0 clinical trials** and **20 publications** (mostly observational studies and reviews).
+
+Note: the top-scoring prediction (rank 1) has no trials or literature. This report therefore also covers the best-supported candidate (rank 3), since the rank 1 prediction cannot be meaningfully evaluated on evidence.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration record |
-| Predicted New Indication | Hypotrichosis simplex of the scalp |
-| TxGNN Prediction Score | 99.45% |
-| Evidence Level | L5 |
+| Original Indication | Pulmonary arterial hypertension (the Singapore licence has no approved indication text on file) |
+| Predicted New Indication | Top-ranked: hypotrichosis simplex of the scalp. Best-supported: PAH associated with congenital heart disease |
+| TxGNN Prediction Score | 99.45% (hypotrichosis simplex of the scalp); 99.32% (PAH associated with congenital heart disease) |
+| Evidence Level | L5 (hypotrichosis simplex of the scalp); L3 (PAH associated with congenital heart disease) |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 1 |
-| Recommended Decision | Hold |
+| Recommended Decision | Hold (rank 1 prediction); Proceed with Guardrails as a research question (PAH-CHD) |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the source record. Iloprost is a prostacyclin analog that acts on the IP receptor, and it is known for vasodilatory and antiproliferative effects. Its original indication could not be confirmed from the registration data.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, iloprost is a prostacyclin analogue that activates IP receptors, producing vasodilation and inhibiting platelet aggregation and vascular smooth muscle proliferation.
 
-The mechanistic link to this new indication is weak. Prostaglandins can either promote or suppress hair growth depending on the receptor subtype, so a connection to hair-follicle biology is speculative. Hypotrichosis simplex is also a genetic disorder. A vasodilator is unlikely to address its underlying cause.
+**Top-ranked prediction (hypotrichosis simplex of the scalp):** The link is only speculative. A possible route is improved perifollicular blood flow, but hypotrichosis simplex is a genetic disorder not expected to respond to vasodilation. The high score likely reflects network proximity in the knowledge graph rather than a real pharmacological relationship. No trials or literature support it.
 
-The high model score (99.45%, rank 6,897) therefore reflects a pattern in the knowledge graph, not a plausible biological explanation. Treat it as a hypothesis-generating signal only.
+**PAH associated with congenital heart disease (PAH-CHD):** This is a subgroup of the approved indication. Iloprost acts on the same pulmonary vascular pathway, so the mechanistic link is strong. The supporting evidence is observational and small-scale (case series, biomarker studies, paediatric acute-response studies). No randomised trial in this subgroup is evident.
+
+Other predictions follow a similar pattern. PAH subgroups (connective tissue disease, HIV, schistosomiasis, chronic haemolytic anaemia) are mechanistically plausible, whereas hair-loss conditions (alopecia, diffuse alopecia areata, congenital hypotrichosis milia) and pulmonary arteriovenous malformation lack a plausible mechanism or evidence.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
-Currently no related literature available.
+Selected publications for PAH associated with congenital heart disease:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [31371115](https://pubmed.ncbi.nlm.nih.gov/31371115/) | 2020 | Randomised, double-blind, placebo-controlled cross-over pilot | Int J Cardiol | Nebulised iloprost in Eisenmenger syndrome; examines safety and efficacy in the most severe CHD-PAH form |
+| [28608969](https://pubmed.ncbi.nlm.nih.gov/28608969/) | 2017 | Cohort | Clin Exp Pharmacol Physiol | Effect of iloprost on biomarkers (NO, ET-1, ADMA, Gal-3, BNP, UA) in CHD-PAH |
+| [27492657](https://pubmed.ncbi.nlm.nih.gov/27492657/) | 2017 | Cohort | J Cardiol | Long-term inhaled iloprost and right ventricular function in Eisenmenger syndrome |
+| [29426959](https://pubmed.ncbi.nlm.nih.gov/29426959/) | 2018 | Cohort | Pediatr Cardiol | Safety and acute haemodynamic effects of inhaled iloprost in children with PAH-CHD |
+| [24729548](https://pubmed.ncbi.nlm.nih.gov/24729548/) | 2015 | Cohort | Pediatr Pulmonol | Long-term effects of inhaled iloprost in children with pulmonary hypertension |
+| [36010107](https://pubmed.ncbi.nlm.nih.gov/36010107/) | 2022 | Case series | Children (Basel) | Add-on sildenafil, bosentan and iloprost in 5 Eisenmenger syndrome patients, followed 2010–2019 |
+| [30719004](https://pubmed.ncbi.nlm.nih.gov/30719004/) | 2018 | Prospective study | Front Pharmacol | Acute inhaled iloprost improves right ventricular function in 69 PAH patients (cardiac MRI) |
+| [19436672](https://pubmed.ncbi.nlm.nih.gov/19436672/) | 2009 | Review | Vasc Health Risk Manag | Review of inhaled iloprost for PAH in children |
+| [22621693](https://pubmed.ncbi.nlm.nih.gov/22621693/) | 2012 | Review | Drugs | Treatment of PAH in connective tissue disease, including congenital heart disease-associated PAH as a subgroup |
+| [21852894](https://pubmed.ncbi.nlm.nih.gov/21852894/) | 2009 | Review | Prog Pediatr Cardiol | Paediatric PAH not associated with congenital heart disease |
+
+Other predictions have little or no direct literature. For connective-tissue-disease PAH there is a long-term cohort of domiciliary intravenous iloprost ([27651181](https://pubmed.ncbi.nlm.nih.gov/27651181/), 2017, Respirology) plus reviews. Schistosomiasis- and HIV-associated PAH have only indirect, general reviews. The hair-loss predictions and pulmonary arteriovenous malformation have no literature.
+
+---
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN13140P | VENTAVIS SOLUTION FOR INHALATION (BERLIMED SA) | Solution | Not stated in the registration record |
+| SIN13140P | VENTAVIS SOLUTION FOR INHALATION | Solution | Not listed in the data compiled for this report |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interactions were found in the queried data.
+- **Contraindications (from knowledge-graph links, not label text):** liver failure, chronic obstructive pulmonary disease (including severe early-onset COPD), hypotensive disorder, pulmonary oedema, bronchial disease.
+- **Drug Interactions:** 100 interactions were identified. Most listed are moderate-level, including:
+  - Epinephrine, ephedrine
+  - Acetylsalicylic acid
+  - SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin, ertugliflozin)
+  - Inhaled human insulin
+  - Mannitol, glycerin
+  - Papaverine
+  - Fenfluramine, dexfenfluramine, sibutramine
+
+  Several others (e.g., calcitriol, pantoprazole, morphine, metformin, omeprazole) have an unknown severity level.
+
+Package insert warnings and contraindications for the Singapore product were not available. Please refer to the package insert for full safety information.
+
+---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Hold (for the top-ranked hair-loss prediction); Proceed with Guardrails as a research question for PAH-CHD**
 
 **Rationale:**
-The prediction has no supporting trials or publications (L5), and no plausible mechanism links prostacyclin signaling to a genetic hair disorder. Safety and label information is also missing, so screening cannot proceed.
-
-Other predictions for iloprost have much stronger support. Pulmonary arterial hypertension associated with congenital heart disease is L3 (one interventional study, NCT01383083, plus cohort studies) and is rated Proceed with Guardrails. Pulmonary arterial hypertension associated with HIV infection is L2 (one linked Phase 3 trial, NCT00709956, whose truncated title still needs verification). Pulmonary arterial hypertension associated with connective tissue disease is L3, rated Research Question. These are better candidates for further evaluation than the hair-related predictions.
+- The top-ranked prediction, hypotrichosis simplex of the scalp, has no trials or literature and no plausible mechanism, so it should not be pursued. The same applies to other hair-loss predictions and pulmonary arteriovenous malformation.
+- PAH-CHD is mechanistically sound and is a subgroup of the approved PAH use, but the evidence (L3) is observational and small-scale. It is best treated as a research question rather than a ready repurposing candidate.
 
 **To proceed, the following is needed:**
-- Approved indication and package insert (warnings and contraindications) from the HSA website
-- Mechanism of action data from DrugBank
-- Any preclinical or clinical evidence linking prostacyclin signaling to hair-follicle biology, before reconsidering this indication
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
+- Singapore package insert warnings and contraindications (currently a blocking gap for safety screening)
+- Detailed mechanism of action data
+- Controlled or randomised data in PAH-CHD / Eisenmenger syndrome, and confirmation of whether the Singapore licence already covers this population
+- Review of the knowledge-graph contraindications (COPD, hypotension, pulmonary oedema, liver failure) against the target patient population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

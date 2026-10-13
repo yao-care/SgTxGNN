@@ -2,7 +2,7 @@
 layout: default
 title: Butylscopolamine
 parent: Medium Evidence (L3-L4)
-nav_order: 186
+nav_order: 187
 evidence_level: L3
 indication_count: 10
 ---
@@ -29,18 +29,17 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Butylscopolamine: From Abdominal Spasm to Irritable Bowel Syndrome
+# Butylscopolamine: From Gastrointestinal Spasm to Irritable Bowel Syndrome
 
 ## One-Sentence Summary
 
-Butylscopolamine (hyoscine butylbromide) is a peripherally acting antispasmodic, widely used for abdominal cramping in many markets.
-The TxGNN model predicts it may be effective for **irritable bowel syndrome (IBS)**.
-There are **no registered clinical trials**, but **13 publications** are linked to this direction, mostly older small studies, reviews and letters, so this is closer to an established or off-label use than a true repurposing.
+Butylscopolamine (hyoscine butylbromide) is a peripherally acting antimuscarinic antispasmodic that is already marketed in Singapore for smooth muscle spasm. The TxGNN model predicts it may be effective for **irritable bowel syndrome (IBS)**. Current support is limited: **no registered clinical trials** and **one narrative review** (2025), plus one drug-utilization study that gives no efficacy evidence.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Not stated in the registration data compiled for this report (general pharmacology: gastrointestinal spasm) |
 | Predicted New Indication | Irritable bowel syndrome |
 | TxGNN Prediction Score | 99.56% |
 | Evidence Level | L3 |
@@ -48,15 +47,13 @@ There are **no registered clinical trials**, but **13 publications** are linked 
 | Number of Registrations | 6 |
 | Recommended Decision | Proceed with Guardrails |
 
-The Singapore registration records provided contain no approved-indication text, so the original indication is not listed. The "abdominal spasm" wording in the title comes from the Evidence Pack's rationale, not from the Singapore labels.
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the record. Butylscopolamine is a quaternary ammonium muscarinic antagonist. It relaxes gastrointestinal smooth muscle and has poor systemic and central nervous system penetration.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, butylscopolamine is a peripherally acting antimuscarinic that relaxes gastrointestinal smooth muscle. Its quaternary ammonium structure limits penetration into the central nervous system.
 
-Cramping and abdominal pain are the main symptoms of IBS. Current clinical guidelines list antispasmodics for abdominal pain in IBS, and a 2025 review names hyoscine butylbromide as an effective option. The mechanism therefore fits the predicted indication well.
+Abdominal pain and cramping are the main symptoms of IBS, and antispasmodics are a standard treatment option for them. A 2025 review (PMID 40237755) discusses hyoscine butylbromide specifically for IBS and notes that Russian and international guidelines regard it as an effective antispasmodic. Because the drug is already used for gastrointestinal spasm, this prediction is close to an existing use rather than true repurposing.
 
-The evidence has limits. The retrieved literature is mostly from 1979-1990 and consists of small studies, letters and reviews. Study grades are provisional because they are based on titles and abstracts only. Benefit is likely limited to pain and spasm rather than global IBS symptoms.
+This rationale rests on general pharmacology and a narrative review. Trial-level data have not been verified.
 
 ## Clinical Trial Evidence
 
@@ -66,52 +63,54 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [2210587](https://pubmed.ncbi.nlm.nih.gov/2210587/) | 1990 | RCT | Fortschritte der Medizin | Double-blind trial in 712 IBS patients over 4 weeks: hyoscine butylbromide 30 mg/day, alone or with paracetamol, vs paracetamol alone vs placebo. Outcome figures are truncated in the available data. |
-| [32949](https://pubmed.ncbi.nlm.nih.gov/32949/) | 1979 | RCT | British Medical Journal | Double-blind factorial trial of lorazepam, hyoscine butylbromide and ispaghula husk. Each agent helped some patients, but only ispaghula differed significantly from dummy. |
-| [40237755](https://pubmed.ncbi.nlm.nih.gov/40237755/) | 2025 | Review | Terapevticheskii Arkhiv | Review of hyoscine butylbromide in IBS. Antispasmodics are guideline-listed for abdominal pain, and hyoscine butylbromide is regarded as effective. |
-| [15579053](https://pubmed.ncbi.nlm.nih.gov/15579053/) | 2004 | Review | Current Pharmaceutical Design | Quaternary ammonium spasmolytics, including n-butyl scopolammonium, show antimuscarinic activity in vitro and in vivo as GI spasmolytics. |
-| [19337628](https://pubmed.ncbi.nlm.nih.gov/19337628/) | 2009 | Physiological study | J Gastrointestin Liver Dis | Compared symptom, motor and visceral sensory responses to two categories of spasmolytics in IBS. |
-| [18418922](https://pubmed.ncbi.nlm.nih.gov/18418922/) | 2007 | Clinical study | Eksp Klin Gastroenterol | Changes in visceral sensitivity indices in IBS patients treated with spasmolytics. |
-| [6526796](https://pubmed.ncbi.nlm.nih.gov/6526796/) | 1984 | Clinical study | J Assoc Physicians India | Comparison of different therapeutic regimens in IBS. |
-| [6144556](https://pubmed.ncbi.nlm.nih.gov/6144556/) | 1983 | Preclinical | Eur J Pharmacol | Eight spasmolytics used in IBS were compared with verapamil on K+-induced rat intestinal contraction. |
-| [435769](https://pubmed.ncbi.nlm.nih.gov/435769/) | 1979 | Letter | British Medical Journal | Correspondence on oral hyoscine butylbromide for IBS. |
+| [40237755](https://pubmed.ncbi.nlm.nih.gov/40237755/) | 2025 | Review | Terapevticheskii arkhiv | Reviews IBS therapy with hyoscine butylbromide. Guidelines list antispasmodics for abdominal pain, the main IBS symptom, and regard hyoscine butylbromide as effective. |
+| [20065398](https://pubmed.ncbi.nlm.nih.gov/20065398/) | 1996 | Drug utilization/economic study | Laeknabladid | Study of drug use and costs for IBS in Iceland compared with other Nordic countries. Provides no efficacy evidence. |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN10096P | COPAN INJECTION 20 mg/ml | Injection |
-| SIN03553P | HYOSCINE BUTYLBROMIDE TABLET 10 mg | Tablet, film coated |
-| SIN03082P | SPASMOLIV TABLET 10 mg | Tablet, film coated |
-| SIN03574P | BUSCOPAN TABLET 10 mg | Tablet, sugar coated |
-| SIN02575P | DHACOPAN TABLET 10 mg | Tablet, film coated |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN10096P | COPAN INJECTION 20 mg/ml | Injection | Not listed |
+| SIN03553P | HYOSCINE BUTYLBROMIDE TABLET 10 mg | Tablet, film coated | Not listed |
+| SIN03082P | SPASMOLIV TABLET 10 mg | Tablet, film coated | Not listed |
+| SIN03574P | BUSCOPAN TABLET 10 mg | Tablet, sugar coated | Not listed |
+| SIN02575P | DHACOPAN TABLET 10 mg | Tablet, film coated | Not listed |
 
-Six licenses are registered in total; the five main ones are shown.
+A sixth authorization, SIN03683P (COSPAN INJ. 20 mg/ml, injection), is also valid. All 6 registrations are valid single-ingredient products.
 
 ## Safety Considerations
 
-- **Anticholinergic cautions (from the Evidence Pack assessment, not the package insert):** narrow-angle glaucoma, urinary retention, ileus and tachyarrhythmia.
-- **Drug Interactions:** No interaction records were found in the queried database.
-
-Please refer to the package insert for full safety information.
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The mechanism fits IBS abdominal pain, and guideline-level support exists for antispasmodics. However, there are no registered trials, the primary studies are old and small, and one classic trial found no significant effect for hyoscine. Use should be scoped to pain and spasm relief, with anticholinergic contraindications screened.
-
-The other nine predicted indications (for example cauda equina syndrome, glaucoma and migraine) have no supporting evidence and are all rated Hold. The glaucoma predictions are likely contraindication-type artifacts and carry a safety concern rather than a benefit.
+The mechanism is plausible and the drug is already marketed in Singapore for a closely related use. Evidence is limited to a narrative review with no registered trials, so confidence in IBS-specific efficacy is moderate.
 
 **To proceed, the following is needed:**
-- Singapore package insert warnings and contraindications from HSA (blocking for safety screening)
-- Approved-indication text for the Singapore licenses, to confirm whether IBS or abdominal spasm is already covered
+- Package insert warnings and contraindications from the HSA, which are currently missing and block safety screening
 - Mechanism of action data from DrugBank
-- Full-text review of the 1990 (712 patients) and 1979 trials to verify design and effect sizes
-- A search for recent randomized trials with modern IBS endpoints, particularly abdominal pain
+- The approved indication text for each Singapore registration, to confirm the original indication
+- Randomized controlled trial or systematic review data on hyoscine butylbromide in IBS, since the review's trial-level content has not been verified
+- Confirmation of oral dosage forms for IBS use
 
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before application.*
+## Other Predicted Indications (All on Hold)
+
+The other nine predicted indications have no clinical trials and no supporting evidence. All are rated L5, and the recommendation for each is **Hold**.
+
+| Predicted Indication | TxGNN Score | Comment |
+|------|------|------|
+| Cauda equina syndrome | 98.75% | No direct mechanistic rationale. It is a compressive neurosurgical emergency. |
+| Neurocirculatory asthenia | 98.28% | Speculative. Anticholinergic effects such as tachycardia could worsen symptoms. |
+| Obsolete neurogenic bladder (disease) | 97.92% | Antimuscarinics are an established class for this use, but no butylscopolamine-specific evidence was supplied. The disease term is obsolete and needs mapping to a current ontology term. Urinary retention is a risk. |
+| Autonomic nervous system disease | 96.93% | Term is broad. The two supplied papers (a colitis animal model and an observational peptic ulcer study) do not support a therapeutic link. |
+| Open-angle glaucoma | 96.71% | Not supported mechanistically. Antimuscarinics raise an intraocular pressure safety concern. |
+| Primary hereditary glaucoma | 96.48% | No plausible rationale, with the same intraocular pressure concern. |
+| Dysautonomia | 96.30% | The only paper is observational and does not test butylscopolamine. Anticholinergic effects could worsen some presentations. |
+| Migraine disorder | 95.97% | No clear mechanism, and poor CNS penetration weakens the rationale. |
+| Migraine with brainstem aura | 95.68% | No supporting mechanism. A peripherally restricted antimuscarinic is unlikely to act on brainstem aura. |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

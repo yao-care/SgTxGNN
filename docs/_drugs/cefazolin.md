@@ -2,7 +2,7 @@
 layout: default
 title: Cefazolin
 parent: Medium Evidence (L3-L4)
-nav_order: 219
+nav_order: 220
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,17 +29,18 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Cefazolin: From Bacterial Infections to Infectious Otitis Media
+# Cefazolin: From Bacterial Pneumonia and Other Bacterial Infections to Infectious Otitis Media
 
 ## One-Sentence Summary
 
-Cefazolin is a first-generation cephalosporin antibiotic given by injection, and it is marketed in Singapore. The TxGNN model predicts it may be effective for **infectious otitis media**. The support is thin: **1 clinical trial** and **3 publications** were retrieved, and none directly shows cefazolin treating this condition.
+Cefazolin is a first-generation cephalosporin antibiotic, originally used for bacterial infections such as pneumonia, endocarditis, bacterial arthritis and cholangitis.
+The TxGNN model predicts it may be effective for **infectious otitis media**, but **no clinical trials** are registered and only **2 publications** (a case report and an unrelated review) touch on this direction, so the prediction rests mainly on the model score.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration records provided (cefazolin is a first-generation cephalosporin antibacterial) |
+| Original Indication | Bacterial pneumonia, endocarditis, bacterial arthritis, cholangitis (from the knowledge graph; the approved indication text on the Singapore licences is blank) |
 | Predicted New Indication | Infectious otitis media |
 | TxGNN Prediction Score | 99.44% |
 | Evidence Level | L4 |
@@ -49,55 +50,74 @@ Cefazolin is a first-generation cephalosporin antibiotic given by injection, and
 
 ## Why is This Prediction Reasonable?
 
-Cefazolin inhibits bacterial cell-wall synthesis, so activity against gram-positive bacteria is plausible. Detailed mechanism-of-action data is not available in the current record. The link to otitis media rests on this general antibacterial activity, since otitis media is often a bacterial infection.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, cefazolin is a first-generation cephalosporin that inhibits bacterial cell wall synthesis by binding penicillin-binding proteins. It is active against Gram-positive cocci such as *Staphylococcus aureus* and streptococci, and mechanistically may be applicable to otitis media caused by these organisms.
 
-The mechanistic fit is weak. Cefazolin has poor activity against *Haemophilus influenzae* and *Moraxella catarrhalis*, the main otitis media pathogens. It is also available only as an injection, which is impractical for a condition usually treated as an outpatient.
+The original indications (staphylococcal and streptococcal pneumonia, endocarditis, bacterial arthritis) are Gram-positive-driven infections. Some otitis media pathogens overlap with these. However, cefazolin has limited activity against *Haemophilus influenzae* and *Moraxella catarrhalis*, the most common causes of acute otitis media. This weakens the link.
 
-The very high TxGNN score (0.994) reflects how close cefazolin sits to other cephalosporins in the knowledge graph. It is not clinical evidence of benefit.
+The only supporting literature is indirect: a 2025 case report of ceftazidime-cefazolin empiric therapy for pediatric Gradenigo syndrome (a complication of otitis media). The other retrieved paper, on Stevens-Johnson syndrome management (1986), is not relevant.
+
+Other related predictions show a similar pattern:
+- **Suppurative otitis media** has a 1982 comparative study (cefmetazole vs cefazolin, 172 evaluable patients) in which cefazolin was only the comparator.
+- **Urinary tract infection** is mechanistically credible, because cefazolin is excreted in urine and active against many Enterobacterales. There is still no direct randomized evidence.
+- **Bronchitis** is plausible for bacterial cases only, and the evidence is old (1975–1988).
 
 ## Clinical Trial Evidence
 
+Currently no related clinical trials registered for infectious otitis media.
+
+For reference, the only trial linked to any of the top-ranked predictions is for urinary tract infection:
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01511107](https://clinicaltrials.gov/study/NCT01511107) | Phase 2 | Terminated | 520 | Randomized, double-blind, placebo-controlled trial comparing 5-day and 10-day antibiotic courses in children aged 6–23 months with acute otitis media. Cefazolin is not confirmed as the intervention, so this is not direct evidence. |
+| [NCT01349738](https://clinicaltrials.gov/study/NCT01349738) | N/A | Unknown | 200 | Observational study of asymptomatic bacteriuria and UTI risk in renal transplant patients; does not test cefazolin efficacy |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [3742953](https://pubmed.ncbi.nlm.nih.gov/3742953/) | 1986 | Review | Clinical Pharmacy | Case and literature review of Stevens-Johnson syndrome. It mentions otitis media only as background, so it is of limited relevance. |
-| [877649](https://pubmed.ncbi.nlm.nih.gov/877649/) | 1977 | Review | Southern Medical Journal | Overview of cephalosporins in pediatric practice. Notes their activity against gram-positive cocci and some gram-negative bacilli, and their usefulness in penicillin hypersensitivity. |
-| [39567876](https://pubmed.ncbi.nlm.nih.gov/39567876/) | 2025 | Case series | Annals of Otology, Rhinology, and Laryngology | Ceftazidime-cefazolin empiric therapy for pediatric Gradenigo syndrome, a rare complication of acute otitis media. This is a complication setting, not routine otitis media. |
+| [39567876](https://pubmed.ncbi.nlm.nih.gov/39567876/) | 2025 | Case report | Ann Otol Rhinol Laryngol | Ceftazidime-cefazolin empiric therapy for pediatric Gradenigo syndrome, a complication of acute otitis media |
+| [3742953](https://pubmed.ncbi.nlm.nih.gov/3742953/) | 1986 | Review | Clin Pharm | Management of Stevens-Johnson syndrome; otitis media appears only as the context of the case. Not relevant to efficacy |
+
+Related evidence for other predicted indications:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [6752467](https://pubmed.ncbi.nlm.nih.gov/6752467/) | 1982 | Comparative clinical study | Jpn J Antibiot | Cefmetazole vs cefazolin in suppurative otitis media (172 patients analysed); cefazolin was the comparator |
+| [6352642](https://pubmed.ncbi.nlm.nih.gov/6352642/) | 1983 | Comparative clinical study | J Antimicrob Chemother | Ceftazidime vs cefazolin plus tobramycin in acute exacerbations of chronic bronchitis (59 patients) |
+| [1117117](https://pubmed.ncbi.nlm.nih.gov/1117117/) | 1975 | Cohort/Clinical study | J Am Geriatr Soc | Cefazolin in 15 elderly patients with respiratory infections; 13 had excellent to good results |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN14846P | Cefazolin Mevon Powder for Solution for Injection or Infusion 1g/vial | Injection, powder, for solution |
-| SIN12471P | Cezolin Injection 1 gm/vial | Injection, powder, for solution |
-| SIN07879P | Cefazolin Sandoz 1 g/vial | Injection, powder, for solution |
-| SIN14304P | Zepilen Powder for Injection 1g/vial | Injection, powder, for solution |
-| SIN15018P | Cefazolin-AFT Powder for Injection 500mg/VIAL | Injection, powder, lyophilized, for solution |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN14846P | Cefazolin Mevon Powder for Solution for Injection or Infusion 1g/vial | Injection, powder, for solution | Not stated |
+| SIN12471P | Cezolin Injection 1 gm/vial | Injection, powder, for solution | Not stated |
+| SIN07879P | Cefazolin Sandoz 1 g/vial | Injection, powder, for solution | Not stated |
+| SIN14304P | Zepilen Powder for Injection 1g/vial | Injection, powder, for solution | Not stated |
+| SIN15018P | Cefazolin-AFT Powder for Injection 500mg/vial | Injection, powder, lyophilized, for solution | Not stated |
 
-All registered products are injectable.
+A sixth licence, SIN14480P (Cefazolin-AFT 1g/vial), is also valid. All six are single-ingredient injectable products and none has been cancelled.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications (from knowledge graph, not label text)**: blood coagulation disease, *Clostridium difficile* colitis, perinatal necrotizing enterocolitis, congenital prothrombin deficiency.
+- **Drug Interactions**: 100 interactions were found in total. The main moderate-level ones are with aminoglycosides (kanamycin, neomycin, streptomycin) and picosulfuric acid. Many others (e.g. amphotericin B, aspirin, metformin, morphine, omeprazole) are of unknown severity.
+
+Please refer to the package insert for full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by graph proximity to other cephalosporins. The single retrieved trial is terminated and does not confirm cefazolin as the intervention. Cefazolin has weak coverage of key otitis media pathogens and is injectable only. HSA package insert data is also missing, so safety screening cannot proceed.
+The prediction for infectious otitis media rests almost entirely on the model score. No clinical trials exist, and the only relevant literature is a single case report. Cefazolin's weak coverage of *H. influenzae* and *M. catarrhalis*, the main otitis media pathogens, further reduces the likelihood of benefit. Among the top-ranked predictions, suppurative otitis media (L3) and urinary tract infection (L4) have somewhat stronger rationale, and both are marked as research questions rather than candidates for adoption.
 
 **To proceed, the following is needed:**
-- The HSA package insert (indications, warnings, contraindications)
-- Mechanism-of-action data from DrugBank
-- Confirmation of whether cefazolin was the intervention in NCT01511107
-- A review of cefazolin's coverage of the main otitis media pathogens and whether an injection-only route is workable
-- Of the other predicted indications, suppurative otitis media and urinary tract infection are flagged "Research Question", but both overlap cefazolin's established antibacterial use and may not be true repurposing.
+- Package insert warnings and contraindications from the Singapore regulator, as the safety review cannot move forward without them
+- Mechanism of action data from DrugBank
+- Local otitis media pathogen and susceptibility data to test whether cefazolin coverage is adequate
+- Direct comparative human studies of cefazolin in otitis media (none currently exist)
+- Consideration of suppurative otitis media or urinary tract infection as better-supported alternative directions
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

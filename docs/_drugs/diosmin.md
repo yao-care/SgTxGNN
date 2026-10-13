@@ -2,7 +2,7 @@
 layout: default
 title: Diosmin
 parent: Low Evidence (L5)
-nav_order: 332
+nav_order: 336
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,18 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Diosmin: From Venous Vascular Use (Registry Indication Not Recorded) to Amenorrhea
+# Diosmin: From Chronic Venous Disease (Inferred) to Amenorrhea
 
 ## One-Sentence Summary
 
-Diosmin is a venoactive flavonoid marketed in Singapore as oral tablets, but the registry data provided does not record its approved indication.
-The TxGNN model predicts it may be effective for **Amenorrhea** with a very high score, but **0 clinical trials** and **0 publications** currently support this prediction.
-This is a model-only signal with no plausible mechanism identified, so it should be held.
+Diosmin is a venoactive flavonoid that is marketed in Singapore as an oral tablet. The registration records compiled for this report do not state an approved indication.
+The TxGNN model predicts it may be effective for **amenorrhea**, but **no clinical trials and no publications** currently support this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded (all approved indication fields are empty) |
+| Original Indication | Not stated in the Singapore registration records (diosmin is generally used for venous insufficiency) |
 | Predicted New Indication | Amenorrhea |
 | TxGNN Prediction Score | 99.42% |
 | Evidence Level | L5 |
@@ -51,11 +50,11 @@ This is a model-only signal with no plausible mechanism identified, so it should
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Diosmin is generally described as a venoactive flavonoid. The Singapore registry entries provided contain no approved indication text, so the relationship between the original and new indication cannot be established from this data.
+Currently, detailed mechanism of action data is not available. Based on known information, diosmin is a venoactive flavonoid used to support vascular tone, venous and lymphatic function, and to reduce inflammation and oxidative stress.
 
-Amenorrhea is a gynecological and endocrine symptom. Nothing in the supplied data links diosmin to menstrual regulation, hormonal pathways, or uterine physiology. Despite the high score, the prediction is best read as a statistical association from the knowledge graph, not a demonstrated pharmacological rationale. The mechanistic link cannot be assessed until the mechanism of action is obtained.
+Amenorrhea is a condition of the endocrine and reproductive axis. There is no evident mechanistic path from diosmin's vascular and anti-inflammatory effects to the restoration of menstruation. The high TxGNN score most likely reflects network proximity in the knowledge graph rather than a real pharmacological link, so the prediction should be treated as a probable artifact until tested.
 
-Other predictions for this drug are also weak. Nine of the top ten are L5 (model prediction only). The exception is thrombophilia (rank 7), which has three indirectly related publications (L4). None of those publications has a title mentioning diosmin.
+Other predictions for this drug (for example, platelet disorders, coagulation factor deficiencies, Paget disease of bone and esophageal malformation) are also not supported by a plausible mechanism. The one with a partial indirect link is thrombophilia, discussed below.
 
 ## Clinical Trial Evidence
 
@@ -63,38 +62,44 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for amenorrhea.
+
+For reference, the seventh-ranked prediction, thrombophilia (score 92.94%, evidence level L4), returned two papers. Neither tests diosmin for thrombophilia:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [33496999](https://pubmed.ncbi.nlm.nih.gov/33496999/) | 2021 | Cohort | Dermatologic Therapy | Single-centre series of 75 Brazilian patients with livedoid vasculopathy, a thrombo-occlusive skin condition; describes clinical, histopathological and treatment data |
+| [24214586](https://pubmed.ncbi.nlm.nih.gov/24214586/) | 2013 | Observational | Georgian Medical News | Preeclamptic women had thrombophilia with increased platelet aggregation; fetal heart rate variability was altered |
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN17191P | Vessosmin Film Coated Tablet 500mg | Tablet, film coated | Not recorded |
-| SIN16068P | Ruventin Film Coated Tablet 500mg | Tablet, film coated | Not recorded |
-| SIN01067P | Daflon Tablet 500 mg | Tablet, sugar coated | Not recorded |
-| SIN15669P | Daflon Film-Coated Tablet 1000 mg | Tablet, film coated | Not recorded |
-| SIN16960P | Davmorid Film Coated Tablet | Tablet, film coated | Not recorded |
+| SIN17191P | Vessosmin Film Coated Tablet 500mg | Tablet, film coated | Not stated |
+| SIN16068P | Ruventin Film Coated Tablet 500mg | Tablet, film coated | Not stated |
+| SIN01067P | Daflon Tablet 500 mg | Tablet, sugar coated | Not stated |
+| SIN15669P | Daflon Film-Coated Tablet 1000 mg | Tablet, film coated | Not stated |
+| SIN16960P | Davmorid Film Coated Tablet | Tablet, film coated | Not stated |
 
-All listed products are oral. The registry reports 6 licenses in total; the first five are shown here.
+A sixth registration, Diosper Film Coated Tablet (SIN11942P), is also valid. All six are single-ingredient oral products.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found in the queried source.
+Please refer to the package insert for safety information. No interaction records were found for diosmin in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The amenorrhea prediction has the highest TxGNN score, but there are no trials or publications, no known mechanism, and no recorded approved indication to compare against. Safety documentation is also missing, so the candidate cannot advance to safety screening.
+The amenorrhea prediction has no supporting trials or literature, and no plausible mechanism connects a venoactive flavonoid to an endocrine and reproductive condition. The high model score alone is not enough to justify further investment.
 
 **To proceed, the following is needed:**
-- HSA package insert (warnings, contraindications, approved indications). This is a blocking gap.
-- Mechanism of action data from DrugBank
-- A targeted literature search on diosmin and menstrual or gynecological outcomes
-- Full-text review of the thrombophilia-related papers, to see whether diosmin is discussed at all, if that secondary prediction is pursued
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Mechanism of action data for diosmin, to test any link to reproductive endocrine pathways
+- Package insert warnings and contraindications from the Singapore regulator, to complete the safety screening
+- The approved indication text for the Singapore registrations
+- Any preclinical or clinical evidence on diosmin in amenorrhea, which does not exist in the compiled data
+- If a lead is wanted, a focused literature review of thrombophilia, the only prediction with an indirect link, though it also lacks direct evidence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

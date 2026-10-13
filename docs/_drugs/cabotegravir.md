@@ -2,7 +2,7 @@
 layout: default
 title: Cabotegravir
 parent: Low Evidence (L5)
-nav_order: 189
+nav_order: 190
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,33 +29,33 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cabotegravir: From HIV-1 Infection to Rheumatoid Arthritis
+# Cabotegravir: From HIV-1 Infection (Antiretroviral Use) to Rheumatoid Arthritis
 
 ## One-Sentence Summary
 
-Cabotegravir is an HIV integrase strand transfer inhibitor, sold in Singapore as oral tablets and long-acting injectable suspensions under the brand name Vocabria.
-The TxGNN model predicts it may be effective for **rheumatoid arthritis**, with a very high score (99.45%).
-However, there are currently **0 clinical trials** and **0 publications** supporting this prediction, so it rests on the model alone.
+Cabotegravir is an HIV-1 integrase strand transfer inhibitor, marketed in Singapore as oral tablets and long-acting injectable suspensions.
+The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but **no clinical trials and no publications** currently support this prediction.
+The prediction rests on computational output alone, so it should be treated as a hypothesis only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV-1 infection (inferred from its drug class; the Singapore registration records provide no indication text) |
+| Original Indication | HIV-1 infection (antiretroviral; the approved indication text is not recorded in the Singapore licence data) |
 | Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 99.45% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the input. Based on known information, cabotegravir is an HIV integrase strand transfer inhibitor. Its role is to block a viral enzyme needed for HIV to integrate into host DNA.
+Currently, detailed mechanism of action data for this drug is not available in the data compiled for this report. Cabotegravir is known as an HIV-1 integrase strand transfer inhibitor. It blocks viral DNA from integrating into the host genome, which is an antiviral mechanism.
 
-No established link exists between this mechanism and rheumatoid arthritis, which is an autoimmune inflammatory joint disease. Integrase inhibition targets a viral enzyme and has no known role in the immune pathways that drive the disease. The high TxGNN score reflects a pattern in the knowledge graph, not a documented biological rationale.
+Rheumatoid arthritis is driven by autoimmune inflammation involving pathways such as TNF, IL-6 and JAK-STAT signalling. No plausible link between integrase inhibition and these pathways has been established. The high TxGNN score most likely reflects the structure of the knowledge graph rather than demonstrated biology, and no supporting trial, publication or mechanistic study was found.
 
-Route compatibility and similarity to the original indication have not yet been assessed.
+Other top-ranked predictions are similarly unsupported. They include sclerosing cholangitis, bronchitis, diabetic retinopathy (including the severe non-proliferative form) and several ultra-rare genetic disorders. All of them are L5 (model prediction only), with scores of about 97.8% to 99.2%, and all carry a Hold recommendation.
 
 ## Clinical Trial Evidence
 
@@ -69,31 +69,38 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN16541P | Vocabria Film-Coated Tablets 30 mg | Film-coated tablet | Not provided in registry data |
-| SIN16543P | Vocabria Prolonged-Release Suspension for Injection 400 mg/2 mL | Suspension for injection | Not provided in registry data |
-| SIN16542P | Vocabria Prolonged-Release Suspension for Injection 600 mg/3 mL | Suspension for injection | Not provided in registry data |
+| SIN16541P | VOCABRIA Film-Coated Tablets 30 mg | Tablet, film coated | Not recorded in the licence data |
+| SIN16543P | VOCABRIA Prolonged-Release Suspension for Injection 400 mg/2 mL | Injection, suspension | Not recorded in the licence data |
+| SIN16542P | VOCABRIA Prolonged-Release Suspension for Injection 600 mg/3 mL | Injection, suspension | Not recorded in the licence data |
+
+All three licences are valid single-ingredient products. Available routes are oral and injectable.
 
 ## Safety Considerations
 
-- **Drug Interactions**: The interaction query returned no records, so this is not evidence that no interactions exist.
+- **Drug Interactions**: Seven moderate-level interactions were identified, all with polyvalent-cation antacids and buffering agents:
+  - Calcium carbonate
+  - Aluminium hydroxide
+  - Magnesium carbonate
+  - Magnesium hydroxide
+  - Magnesium oxide
+  - Sodium bicarbonate
+  - Sodium citrate
 
-Please refer to the package insert for warnings and contraindications.
+For other safety information, including warnings and contraindications, please refer to the package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the model score. No trials or drug-specific publications link cabotegravir to rheumatoid arthritis, and there is no plausible mechanistic connection. The other top-ranked predictions (for example sclerosing cholangitis, bronchitis and diabetic retinopathy) are equally unsupported. The 18 papers retrieved for the tenth-ranked prediction are background reviews of congenital eye anomalies and do not mention cabotegravir, so they do not count as evidence.
+The prediction for rheumatoid arthritis is supported only by a computational score (L5). There are no clinical trials, no publications and no established mechanistic link to rheumatoid arthritis pathophysiology. Cabotegravir's antiviral mechanism gives no obvious reason to expect an effect on autoimmune joint inflammation.
 
 **To proceed, the following is needed:**
-- Mechanism of action data for cabotegravir (for example from DrugBank)
-- A documented biological rationale linking integrase inhibition, or any secondary pharmacology, to rheumatoid arthritis
-- Preclinical or early clinical evidence in rheumatoid arthritis
-- The HSA package insert, to obtain approved indications, warnings and contraindications
-- An assessment of whether long-acting injectable dosing suits rheumatoid arthritis
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
+- Mechanism of action data (DrugBank) and an analysis of any plausible link to rheumatoid arthritis pathways
+- Package insert warnings and contraindications from the HSA website, to allow safety screening
+- Preclinical or in vitro evidence (for example, effects on inflammatory signalling in relevant models)
+- A literature and trial registry search specific to cabotegravir and rheumatoid arthritis
+- Assessment of route compatibility. Long-acting injectable and oral forms are available, but the required route for rheumatoid arthritis has not been defined.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

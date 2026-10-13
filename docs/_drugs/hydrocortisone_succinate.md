@@ -2,7 +2,7 @@
 layout: default
 title: Hydrocortisone Succinate
 parent: Medium Evidence (L3-L4)
-nav_order: 503
+nav_order: 507
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Hydrocortisone Succinate: From Systemic Corticosteroid Use to Allergic Asthma
+# Hydrocortisone Succinate: From Corticosteroid-Responsive Conditions to Allergic Asthma
 
 ## One-Sentence Summary
 
-Hydrocortisone succinate is an injectable corticosteroid (Solu-Cortef), but the Singapore registration record does not state its approved indication.
-The TxGNN model predicts it may be effective for **Allergic Asthma**, but only **2 clinical trials** and **4 publications** were retrieved, and none of them shows efficacy for this indication.
-The literature mostly reports **bronchospasm and hypersensitivity reactions** to this drug in asthma patients, so it is a safety signal rather than support.
+Hydrocortisone succinate is an injectable glucocorticoid marketed in Singapore as Solu-Cortef, but the approved indication text is not available in the data compiled for this report.
+The TxGNN model predicts it may be effective for **allergic asthma**, with **0 registered clinical trials** and **1 publication**, a general review that gives no efficacy data.
+The prediction is biologically plausible because systemic corticosteroids are already used in acute asthma, but direct evidence for this specific indication is lacking.
 
 ---
 
@@ -43,7 +43,7 @@ The literature mostly reports **bronchospasm and hypersensitivity reactions** to
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the HSA registration record |
+| Original Indication | Not available (the licence record has no approved indication text) |
 | Predicted New Indication | Allergic asthma |
 | TxGNN Prediction Score | 97.04% |
 | Evidence Level | L4 |
@@ -55,20 +55,25 @@ The literature mostly reports **bronchospasm and hypersensitivity reactions** to
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, hydrocortisone succinate is a corticosteroid ester. Corticosteroids as a class have anti-inflammatory and immunosuppressive effects, so mechanistically it may be applicable to allergic airway inflammation. The high TxGNN score most likely reflects this class-level link.
+Detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, hydrocortisone is a glucocorticoid with broad anti-inflammatory and immunosuppressive effects. These act through the glucocorticoid receptor and include suppression of Th2 cytokines, reduced eosinophil recruitment, and dampening of airway inflammation.
 
-The retrieved evidence does not confirm the link. Corticosteroids are a foundation of asthma treatment, but none of the retrieved studies tests hydrocortisone succinate for efficacy in allergic asthma. Several reports describe the opposite: allergic reactions to hydrocortisone hemisuccinate in asthma patients, including skin allergy and bronchospasm.
+Allergic asthma is driven by this type of Th2 and eosinophilic inflammation. Systemic corticosteroids, including intravenous hydrocortisone, are already used in acute asthma exacerbations, so the predicted link is plausible. The high TxGNN score is probably driven by this known class effect rather than by new evidence.
+
+The only supporting publication is a general review of cross-reacting drugs and chemicals, which touches on corticosteroid hypersensitivity. It does not show that hydrocortisone succinate works in allergic asthma.
+
+Other predicted indications in the data (ranked by score) are intrinsic asthma, gout, migraine disorder, migraine with brainstem aura, uterine polyp, vocal cord polyp, middle ear polyp, epulis, and frontal sinus polyp. Most have no trial or literature support and are prediction-only signals. Several, such as epulis and uterine polyp, have no clear mechanistic rationale and are likely artifacts of the knowledge graph.
 
 ---
 
 ## Clinical Trial Evidence
 
+Currently no related clinical trials registered for allergic asthma.
+
+For the second-ranked prediction, intrinsic asthma, one trial is linked:
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT05607901](https://clinicaltrials.gov/study/NCT05607901) | Phase 2 | Completed | 100 | Tacrolimus vs hydrocortisone in children with atopic dermatitis. This is a skin condition, and hydrocortisone appears to be the comparator. It gives no asthma efficacy evidence. |
-| [NCT03742414](https://clinicaltrials.gov/study/NCT03742414) | Phase 2 | Active, not recruiting | 398 | SEAL study of skin-barrier care to prevent the allergic march in infants with eczema. Hydrocortisone is at most background therapy, and asthma is not tested. |
-
-Both trials were graded as low relevance (Grade C).
+| [NCT04278404](https://clinicaltrials.gov/study/NCT04278404) | Phase N/A | Recruiting | 5000 | Pharmacokinetics and safety study of understudied drugs given to children. It is not designed to test efficacy, so it gives only indirect dosing and safety context. |
 
 ---
 
@@ -76,10 +81,7 @@ Both trials were graded as low relevance (Grade C).
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [12668895](https://pubmed.ncbi.nlm.nih.gov/12668895/) | 2003 | Review | Clin Rev Allergy Immunol | Cross-reacting drugs and chemicals, drawing on aspirin-exacerbated respiratory disease in asthmatics. It is not efficacy evidence for hydrocortisone. |
-| [1938768](https://pubmed.ncbi.nlm.nih.gov/1938768/) | 1991 | Review and case reports | J Asthma | Systemic allergic reactions to corticosteroids. Two patients had anaphylaxis after corticosteroid injections, and one was sensitive to carboxymethylcellulose in the preparations. |
-| [15226693](https://pubmed.ncbi.nlm.nih.gov/15226693/) | 2004 | Case report | Presse Med | Skin allergy to hydrocortisone hemisuccinate in a patient with asthma. |
-| [8230880](https://pubmed.ncbi.nlm.nih.gov/8230880/) | 1993 | Case report | Nihon Kyobu Shikkan Gakkai Zasshi | Bronchospasm after IV Solu-Cortef 200 mg in an aspirin-sensitive asthmatic. Skin tests were positive for Solu-Cortef and other corticosteroids. |
+| [12668895](https://pubmed.ncbi.nlm.nih.gov/12668895/) | 2003 | Review | Clin Rev Allergy Immunol | General review of cross-reacting drugs and chemicals, with a focus on aspirin and NSAIDs in aspirin-exacerbated respiratory disease. It gives no efficacy evidence for hydrocortisone in allergic asthma. |
 
 ---
 
@@ -87,15 +89,15 @@ Both trials were graded as low relevance (Grade C).
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN04791P | SOLU-CORTEF FOR INJECTION 100 mg/vial (Pfizer Manufacturing Belgium NV) | Injection, powder, for solution | Not listed in the record |
+| SIN04791P | SOLU-CORTEF FOR INJECTION 100 mg/vial | Injection, powder, for solution | Not stated in the licence record |
+
+The product is manufactured by Pfizer Manufacturing Belgium NV. It is the only registration, and it is valid and single-ingredient.
 
 ---
 
 ## Safety Considerations
 
-- **Hypersensitivity and bronchospasm in asthma (from literature):** Case reports show that IV hydrocortisone sodium succinate can trigger severe bronchospasm or anaphylaxis-like reactions in some aspirin-sensitive asthmatics. In one challenge series, 3 of 11 patients with intrinsic asthma reacted, and the reaction was reversed with epinephrine ([PMID 7264102](https://pubmed.ncbi.nlm.nih.gov/7264102/)). Reactions may involve the drug itself or a preparation excipient.
-
-Formal warnings, contraindications and drug interaction data were not available. Please refer to the package insert for full safety information.
+Please refer to the package insert for safety information.
 
 ---
 
@@ -104,15 +106,14 @@ Formal warnings, contraindications and drug interaction data were not available.
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high (97.04%), but it rests only on a class-level corticosteroid link. Neither trial tests hydrocortisone succinate in asthma, and the literature shows a hypersensitivity risk in the target population. The other nine predicted indications (intrinsic asthma, gout, migraine and others) are also at L4 or L5 with a Hold recommendation.
+The prediction is mechanistically plausible, and systemic corticosteroids are already part of acute asthma care. However, no registered trials and only one non-specific review support hydrocortisone succinate in allergic asthma. Safety label data are also missing, so the evidence stays at L4 and the candidate cannot move beyond initial screening.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications, which are currently a blocking gap
-- Mechanism of action data (for example from DrugBank)
-- The approved indication for the Singapore registration
-- Controlled efficacy data for hydrocortisone succinate in allergic asthma
-- A hypersensitivity risk assessment for aspirin-sensitive asthmatics, including excipient effects
-- Route and formulation compatibility for the intended use
+- The package insert warnings and contraindications from HSA, which are the blocking gap for safety screening
+- The approved indications from the Singapore licence or package insert, to establish the original indication
+- Mechanism of action data from DrugBank
+- Indication-specific efficacy evidence, such as RCTs or guideline-level support for intravenous hydrocortisone in allergic asthma
+- A route and dose compatibility assessment, since the injectable form must be matched to the intended asthma setting (for example acute exacerbation)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

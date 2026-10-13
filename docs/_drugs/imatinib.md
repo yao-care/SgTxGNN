@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Imatinib
-parent: Low Evidence (L5)
-nav_order: 517
-evidence_level: L5
+parent: Medium Evidence (L3-L4)
+nav_order: 521
+evidence_level: L4
 indication_count: 10
 ---
 
 # Imatinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,83 +29,121 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Imatinib: From Chronic Myeloid Leukaemia and Gastrointestinal Stromal Tumours to Heart Fibrosarcoma
+# Imatinib: From Chronic Myelogenous Leukaemia and GIST to Heart Fibrosarcoma
 
 ## One-Sentence Summary
 
-Imatinib is a tyrosine kinase inhibitor first marketed for chronic myeloid leukaemia and some gastrointestinal stromal tumours (GIST), as described in the supplied literature. The TxGNN model predicts it may be effective for **Heart Fibrosarcoma**, with a very high graph score. However, there are **0 clinical trials** and only **1 publication** (a drug-bulletin commentary that does not address cardiac tumours), so the prediction is essentially unsupported by disease-specific evidence.
+Imatinib is a tyrosine kinase inhibitor originally used for BCR-ABL1-positive chronic myelogenous leukaemia, gastrointestinal stromal tumour (GIST), dermatofibrosarcoma protuberans and related conditions.
+The TxGNN model predicts it may be effective for **heart fibrosarcoma**, but the evidence is thin: **0 clinical trials** and **1 publication** (a general review) currently support this specific prediction.
+Among the other top-ranked predictions, only liposarcoma has relevant Phase 2 trial data, and that evidence comes from mixed-histology sarcoma studies.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Chronic myeloid leukaemia and GIST (from the literature; the Singapore licence records supplied contain no indication text) |
+| Original Indication | Not stated in the Singapore licence records. The knowledge graph lists chronic myelogenous leukaemia (BCR-ABL1 positive), GIST, dermatofibrosarcoma protuberans, systemic mastocytosis, and hypereosinophilic syndromes |
 | Predicted New Indication | Heart fibrosarcoma |
 | TxGNN Prediction Score | 99.94% |
-| Evidence Level | L5 (the pack's preliminary L4 rests on mechanistic extrapolation from DFSP, not on any heart-specific study) |
+| Evidence Level | L4 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 13 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on known information, imatinib inhibits the PDGFR, KIT and ABL kinases. Its efficacy in chronic myeloid leukaemia and GIST is established, and it is also used in dermatofibrosarcoma protuberans (DFSP). DFSP is driven by a COL1A1-PDGFB fusion that constitutively activates PDGFR signalling.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on published literature, imatinib inhibits the tyrosine kinases BCR-ABL, KIT and PDGFR. Its efficacy in GIST (KIT-driven) and dermatofibrosarcoma protuberans (DFSP, driven by the COL1A1-PDGFB fusion that activates PDGFRB) is established.
 
-The predicted link is therefore an extrapolation. Fibrosarcoma is a fibroblast-derived sarcoma, and the model may be drawing on similarity to DFSP. No cardiac-specific data exist in the supplied evidence, and no evidence shows that heart fibrosarcoma depends on PDGFR or KIT signalling. The high graph score is not backed by disease-specific findings and should be read with caution.
+Fibrosarcoma is a fibroblast-derived sarcoma, which is biologically close to DFSP. In DFSP, the fibrosarcomatous variant is driven by the same PDGFB/PDGFRB signalling that imatinib blocks. This offers a plausible but **indirect** link to fibrosarcoma at other sites.
+
+There are important limits. Conventional fibrosarcoma generally lacks the COL1A1-PDGFB fusion, so any benefit would likely apply only to a molecularly defined subset. No cardiac-specific data exist for imatinib. The prediction should be read as a hypothesis, not as evidence of benefit.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials are registered for heart fibrosarcoma.
+
+For context, trials linked to other top-ranked predictions are listed below. They are mixed-histology studies and do not show disease-specific results.
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT00154388](https://clinicaltrials.gov/study/NCT00154388) | Phase 2 | Completed | 185 | Basket study of imatinib in life-threatening rare malignancies; linked to kidney fibrosarcoma and liposarcoma, with no organ- or subtype-specific results shown |
+| [NCT00031915](https://clinicaltrials.gov/study/NCT00031915) | Phase 2 | Completed | Not reported | Imatinib in metastatic or unresectable soft tissue and bone sarcomas; liposarcoma may be among the histologies |
+| [NCT00006357](https://clinicaltrials.gov/study/NCT00006357) | Phase 1/2 | Completed | 91 | Dose-finding and efficacy study in advanced soft tissue sarcoma; subtype efficacy not shown |
+
+---
 
 ## Literature Evidence
 
+For heart fibrosarcoma, only one publication is available. Key publications for the related predictions are also shown.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [18623899](https://pubmed.ncbi.nlm.nih.gov/18623899/) | 2008 | Commentary / drug bulletin | Prescrire International | Reviews imatinib's expanding indications and concludes the evidence for the new ones is not robust. It cites a 55-patient trial in Philadelphia-positive acute lymphoblastic leukaemia in which imatinib gave a higher haematological response rate than chemotherapy. It concerns DFSP, not cardiac tumours. |
+| [18623899](https://pubmed.ncbi.nlm.nih.gov/18623899/) | 2008 | Review | Prescrire International | Heart fibrosarcoma: review of imatinib's expanded indications, concluding the evidence for the new indications is not robust |
+| [39904126](https://pubmed.ncbi.nlm.nih.gov/39904126/) | 2025 | Guideline | European Journal of Cancer | Fibroblastic neoplasm / DFSP: European guideline supports imatinib for unresectable or metastatic DFSP, an existing indication |
+| [19451433](https://pubmed.ncbi.nlm.nih.gov/19451433/) | 2009 | Phase 2 trial | Journal of Clinical Oncology | Liposarcoma: multicentre Phase 2 trial of imatinib across 10 sarcoma subtypes |
+| [25852058](https://pubmed.ncbi.nlm.nih.gov/25852058/) | 2015 | Preclinical | Molecular Cancer Therapeutics | Conventional fibrosarcoma: CDKN2A/p16 loss and CDK4 dependence as a resistance mechanism in imatinib-resistant DFSP |
+| [30901500](https://pubmed.ncbi.nlm.nih.gov/30901500/) | 2019 | Preclinical | Drug Development Research | Conventional fibrosarcoma: liposomal and nanocochleate imatinib plus dexketoprofen tested against fibrosarcoma |
+| [42062942](https://pubmed.ncbi.nlm.nih.gov/42062942/) | 2026 | Cohort study | BMC Cancer | Conventional fibrosarcoma: 153 Chinese DFSP patients treated with Mohs surgery and postoperative imatinib |
+| [40558511](https://pubmed.ncbi.nlm.nih.gov/40558511/) | 2025 | Preclinical | Cells | Fibroblastic neoplasm: patient-derived cell lines used to predict imatinib sensitivity in DFSP |
+
+---
 
 ## Singapore Market Information
 
-There are 13 registrations in total; the five main ones are listed below. The supplied records contain no approved-indication text.
+Imatinib has 13 valid single-ingredient registrations in Singapore, with no cancelled licences. Approved indication text is not recorded in the licence data. The main authorisations are:
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN16281P | Hetero Imatinib Film Coated Tablets 400 mg | Film-coated tablet |
-| SIN16282P | Hetero Imatinib Film Coated Tablets 100 mg | Film-coated tablet |
-| SIN13279P | Glivec Film Coated Tablet 100 mg | Film-coated tablet |
-| SIN15307P | Veenat Film Coated Tablets 100 mg | Film-coated tablet |
-| SIN15357P | Vativio Film Coated Tablet 400 mg | Film-coated tablet |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN13279P | Glivec Film Coated Tablet 100mg | Film-coated tablet | Not recorded |
+| SIN13280P | Glivec Film Coated Tablet 400mg | Film-coated tablet | Not recorded |
+| SIN15356P | Vativio Film Coated Tablet 100mg | Film-coated tablet | Not recorded |
+| SIN15357P | Vativio Film Coated Tablet 400mg | Film-coated tablet | Not recorded |
+| SIN15107P | Imatinib-AFT Capsules 100mg | Capsule | Not recorded |
+
+Other registered products include Veenat (100 mg and 400 mg), Hetero Imatinib (100 mg and 400 mg), Imatiqual (100 mg and 400 mg), Neopax 400 mg and Imatinib-AFT 400 mg capsules. All are oral formulations.
+
+---
 
 ## Cytotoxicity
-
-The Evidence Pack contains no toxicity data. The entries below reflect general knowledge of the drug class and should be checked against the package insert.
 
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Targeted therapy (tyrosine kinase inhibitor) |
-| Myelosuppression Risk | Medium (neutropenia and thrombocytopenia are recognised with this class) |
-| Emetogenicity Classification | Low to moderate |
-| Monitoring Items | CBC with differential, liver function, renal function, fluid retention and body weight |
-| Handling Protection | Please refer to the package insert warnings and precautions, and follow local hazardous drug handling regulations |
+| Myelosuppression Risk | Medium. The knowledge graph flags neutropenia, thrombocytopenia, anaemia and agranulocytosis as cautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | CBC with differential, liver function, renal function, fluid retention and cardiac status |
+| Handling Protection | Please refer to the package insert warnings and precautions |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Key Warnings and Contraindications (label)**: Label-based data were not available. Please refer to the package insert.
+- **Conditions flagged as cautions in the knowledge graph** (not label text): liver failure and liver disease, kidney disease, congestive heart failure and other heart failure, heart valve disease, pericardial effusion, congenital heart disease, coronary artery disease, hypertension, thrombocytopenia, neutropenia, agranulocytosis, anaemia, hyperbilirubinaemia (including Gilbert syndrome), pulmonary edema, brain edema, diabetes mellitus, diabetic ketoacidosis, obesity, active peptic ulcer disease and hypophosphataemia. The cardiac items deserve particular attention for any cardiac tumour use.
+- **Drug Interactions**: 100 interactions were found. Major-level interactions include **eliglustat** and **naloxegol**. Moderate-level interactions include corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide), **clarithromycin**, **cimetidine**, **aprepitant**, **morphine**, proton pump inhibitors (lansoprazole, dexlansoprazole), and the antidiabetic drugs pioglitazone, glimepiride and saxagliptin.
+- **Reported adverse event**: A case report describes imatinib-induced DRESS (drug reaction with eosinophilia and systemic symptoms) in a patient with DFSP, who was successfully managed with desensitisation.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There are no trials and no heart-specific literature. The only linked paper is a commentary on a different tumour (DFSP), and the mechanistic link is extrapolated. The pack also flags missing HSA package insert safety data as a blocking gap.
+The heart fibrosarcoma prediction has a very high model score, but it rests on one general review and no clinical trials. The mechanistic link (PDGFRB activation) applies mainly to DFSP, which is already an existing imatinib indication, so it does not amount to new repurposing evidence. Among the other predictions, liposarcoma has the most trial activity (three Phase 1/2 or Phase 2 studies), but these are mixed-histology studies and liposarcoma is typically driven by MDM2/CDK4 rather than KIT/PDGFR.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications, to unblock safety screening
-- Mechanism of action data, for example from DrugBank
-- Evidence specific to cardiac or primary heart sarcomas, such as case series or molecular profiling showing PDGFR/KIT dependence
-- Approved indication text for the Singapore licences
-- Consider the related prediction "fibroblastic neoplasm" instead. It has stronger support, including a 2025 European DFSP guideline, and is a better-defined use of imatinib, though it is already an approved indication and so not novel repurposing.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Package insert warnings and contraindications from HSA (currently a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- Molecular profiling (for example PDGFB/PDGFRB fusion or KIT/PDGFRA status) of any fibrosarcoma subset considered for treatment
+- Subtype-level results from the mixed-histology sarcoma trials (NCT00031915, NCT00006357, NCT00154388)
+- A cardiac safety assessment, given the cardiac cautions listed above
+- Registration and approved-indication wording for the Singapore licences, which is not recorded in the current data
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

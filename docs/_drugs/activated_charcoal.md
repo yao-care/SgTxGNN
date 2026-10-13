@@ -29,33 +29,34 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Activated Charcoal: From Gastrointestinal Adsorbent to Jeune Syndrome Situs Inversus
+# Activated Charcoal: From Gastrointestinal Adsorbent Use to Jeune Syndrome Situs Inversus
 
 ## One-Sentence Summary
 
-Activated charcoal is an oral, non-absorbed gastrointestinal adsorbent, used mainly to decontaminate the gut after overdose or poisoning.
-The TxGNN model predicts it may be relevant to **Jeune syndrome situs inversus**, a rare ciliopathy.
-This prediction has **0 clinical trials** and **0 publications** behind it. It is a knowledge-graph score only.
+Activated charcoal is a non-absorbed oral adsorbent. It is marketed in Singapore as single-ingredient capsules and tablets, but none of the three registrations lists an approved indication.
+The TxGNN model predicts it may be effective for **Jeune syndrome situs inversus**, but there are **0 clinical trials** and **0 publications** for this disease, so the prediction rests on the model alone and has no clinical support.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration records; known use is gastrointestinal adsorption (poisoning and overdose decontamination) |
+| Original Indication | Not stated in the Singapore registration records |
 | Predicted New Indication | Jeune syndrome situs inversus |
 | TxGNN Prediction Score | 89.94% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, activated charcoal is a non-absorbed oral adsorbent that binds toxins and drugs in the gut. Its established role is in poisoning and overdose management, and it is not a treatment for a specific disease process.
+Currently, detailed mechanism of action data is not available. Based on known information, activated charcoal is a non-absorbed gastrointestinal adsorbent. It binds substances in the gut and limits their absorption, which is why it is used for overdose and poisoning decontamination.
 
-There is no plausible mechanistic link to the predicted indication. Jeune syndrome situs inversus is a ciliopathy (a genetic developmental disorder), and adsorption of substances in the gut has no known bearing on it. The score reflects a pattern in the knowledge graph, not a biological rationale, and no supporting trials or literature exist.
+Jeune syndrome is a genetic ciliopathy with skeletal and thoracic abnormalities. There is no plausible mechanistic link between the two conditions. The high TxGNN score looks like an artifact of the network-based prediction rather than a clinically meaningful signal.
 
-The other nine top-ranked predictions (scores 89.1–89.6%) are also Hold. Most are chromosomal or developmental syndromes with no plausible link. "Heart disease" (rank 8) is the only one with retrieved trials, but those are inhaled-drug PK studies, air-filtration studies and tobacco studies, and none tests charcoal as a cardiac treatment.
+The other top-ranked predictions show the same pattern. Most are congenital or chromosomal conditions (orofacial clefting syndrome, Pierre Robin syndrome variants, chromosome 22q and 7q partial deletions, Laubry-Pezzi syndrome) with no trials, no literature and no mechanistic rationale. Two have some literature, but it does not support a treatment role:
+- **Heart disease**: the articles describe charcoal as GI decontamination in cardiotoxic overdoses (calcium channel blockers, beta-blockers, cardiac glycosides, tricyclic antidepressants). Charcoal limits absorption of the toxic drug and does not treat heart disease itself.
+- **Disorder of fucoglycosan synthesis**: the articles cover overdose, uremic toxin adsorption in chronic kidney disease and pharmacokinetics. None addresses glycosylation disorders.
 
 ## Clinical Trial Evidence
 
@@ -63,34 +64,40 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for the top-ranked predicted indication, Jeune syndrome situs inversus.
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN05799P | NORIT CAPSULE 200 mg | Capsule | Not stated in registration record |
-| SIN10625P | CHARCOAL TABLET 200 mg | Tablet | Not stated in registration record |
-| SIN06063P | NORIT TABLET 125 mg | Tablet | Not stated in registration record |
+| SIN05799P | NORIT CAPSULE 200 mg | Capsule | Not stated |
+| SIN10625P | CHARCOAL TABLET 200 mg | Tablet | Not stated |
+| SIN06063P | NORIT TABLET 125 mg | Tablet | Not stated |
 
-All three products are oral formulations.
+All three are valid, single-ingredient oral products.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. A search for drug interactions returned no records.
+- **Drug Interactions**: 76 interactions were recorded. Most of those reviewed are rated Moderate, with Acetylcysteine rated Minor. Charcoal can adsorb co-administered oral drugs and reduce their absorption. Examples include:
+  - Analgesics: acetaminophen, acetylsalicylic acid, choline salicylate
+  - Tetracycline antibiotics: doxycycline, minocycline, tetracycline
+  - Tricyclic antidepressants: amitriptyline, clomipramine, desipramine, doxepin
+  - Others: digoxin, carbamazepine, valproic acid, theophylline, dyphylline, acarbose, chlorpropamide, amobarbital, prochlorperazine
+
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical trials or publications and no plausible mechanistic link between a non-absorbed GI adsorbent and a ciliopathy. It is a model score only (L5) and does not justify further investment at this stage.
+The prediction has no supporting clinical trials or disease-specific literature (Evidence Level L5), and there is no plausible mechanistic link between a non-absorbed GI adsorbent and a genetic ciliopathy. The other nine top-ranked predictions are equally unsupported.
 
 **To proceed, the following is needed:**
-- A credible biological hypothesis linking gut adsorption to Jeune syndrome situs inversus
-- Mechanism of action data (MOA)
-- The HSA package insert, to confirm approved indications, warnings and contraindications
-- Any preclinical or clinical evidence in this condition; none currently exists
+- Package insert warnings and contraindications from the HSA, since safety screening cannot proceed without them
+- Mechanism of action data from DrugBank
+- Approved indication text for the Singapore registrations
+- Any direct preclinical or clinical evidence linking activated charcoal to the predicted disease. Without it, further investment is not recommended.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

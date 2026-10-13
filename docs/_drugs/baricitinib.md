@@ -29,18 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Baricitinib: From an Approved Oral JAK Inhibitor to Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome
+# Baricitinib: From Rheumatoid Arthritis to Colobomatous Microphthalmia-Rhizomelic Dysplasia Syndrome
 
 ## One-Sentence Summary
 
-Baricitinib is an oral JAK1/2 inhibitor marketed in Singapore as Olumiant tablets.
-The TxGNN model predicts it may be effective for **colobomatous microphthalmia-rhizomelic dysplasia syndrome**, an ultra-rare developmental syndrome.
-There are currently **0 clinical trials** and **0 publications** supporting this prediction, so it is a model prediction only.
+Baricitinib is a JAK1/JAK2 inhibitor originally used to treat rheumatoid arthritis.
+The TxGNN model predicts it may be effective for **colobomatous microphthalmia-rhizomelic dysplasia syndrome**, a rare developmental malformation syndrome,
+but **no clinical trials and no publications** currently support this prediction. It rests on a model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Rheumatoid arthritis |
 | Predicted New Indication | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
 | TxGNN Prediction Score | 99.94% |
 | Evidence Level | L5 |
@@ -48,47 +49,52 @@ There are currently **0 clinical trials** and **0 publications** supporting this
 | Number of Registrations | 2 |
 | Recommended Decision | Hold |
 
-The registered indication text is empty in the data provided, so the original indication is not listed here.
-
 ## Why is This Prediction Reasonable?
 
-Baricitinib inhibits JAK1 and JAK2, key enzymes in the JAK/STAT signalling pathway. Detailed mechanism-of-action data are not available in the DrugBank record provided.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, baricitinib is a Janus kinase (JAK1/JAK2) inhibitor. Its efficacy in rheumatoid arthritis is established, where it dampens inflammatory cytokine signaling through the JAK-STAT pathway.
 
-The prediction is **not** mechanistically convincing. This syndrome is a congenital developmental disorder, and no identifiable link to JAK/STAT signalling has been established. The very high score (99.94%) has no trial or publication behind it. It most likely reflects knowledge-graph topology rather than biology.
+For the predicted indication, no plausible JAK-inhibition rationale is evident. Colobomatous microphthalmia-rhizomelic dysplasia syndrome is a rare developmental malformation syndrome that is likely driven by structural or developmental genetics rather than inflammatory signaling. The very high score (0.999) is a knowledge-graph prediction only, and it should be treated with caution.
+
+Other predictions in the same list include indolent plasma cell myeloma, plasma cell myeloma and myeloid leukemia. They have a more credible link through IL-6/JAK/STAT3 signaling, but their supporting evidence is also limited (see the conclusion).
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for the predicted indication.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for the predicted indication.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN15505P | OLUMIANT FILM-COATED TABLET 4MG | Tablet, film coated |
-| SIN15504P | OLUMIANT FILM-COATED TABLET 2MG | Tablet, film coated |
-
-Both products are oral tablets from Lilly del Caribe, Inc. and Lilly, S.A. (primary and secondary packager).
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN15505P | OLUMIANT FILM-COATED TABLET 4MG | Tablet, film coated | Not stated in the data compiled |
+| SIN15504P | OLUMIANT FILM-COATED TABLET 2MG | Tablet, film coated | Not stated in the data compiled |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found for this drug.
+- **Drug Interactions**: The interaction screening completed and returned 100 interactions in total. The main ones listed here are:
+  - **Major**: systemic and ophthalmic corticosteroids (hydrocortisone, triamcinolone, betamethasone, budesonide, dexamethasone, prednisolone, prednisone), deferiprone, and radiopharmaceuticals or radioimmunotherapies (ibritumomab tiuxetan, iobenguane I-131, tositumomab I-131)
+  - **Moderate**: morphine (including liposomal), opium, acetylsalicylic acid, nitisinone
+  - **Minor**: zinc salts (acetate, gluconate, sulfate)
+- **Other note**: For heparin cofactor 2 deficiency (a lower-ranked prediction), the rationale notes that baricitinib carries a thrombosis warning, which would be unfavorable there.
+
+Please refer to the package insert for warnings and contraindications, as this information was not available in the data compiled.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction rests only on a model score, with no clinical or literature support and no plausible JAK-related mechanism. It is not suitable for advancing.
+The prediction for colobomatous microphthalmia-rhizomelic dysplasia syndrome is supported only by a model score, with no trials, no literature and no evident biological link to JAK-STAT signaling. The evidence level is L5. Of the other predictions, plasma cell myeloma and myeloid leukemia have only indirect evidence (a COVID-19 case report and a graft-versus-host disease prevention trial, respectively), and are better viewed as research questions than as ready candidates.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications, which are required before any safety screening
-- Detailed mechanism-of-action data from DrugBank
-- A biological rationale linking JAK1/2 inhibition to this syndrome, with any supporting preclinical data
-- A review of other candidates in the same prediction list. **Plasma cell myeloma** (one 2021 case report, which cannot isolate a baricitinib effect) and **myeloid leukemia** (a Phase 2/3 graft-versus-host disease prevention trial, NCT06475820) currently have more evidence, though both are still L4 "Research Question".
+- Package insert warnings and contraindications from the HSA, which are currently missing and block safety screening
+- Detailed mechanism of action data (MOA)
+- A biological rationale linking JAK1/2 inhibition to the predicted syndrome (for example, preclinical or genetic evidence)
+- Approved indication text for the Singapore registrations
+- If the team wants to pursue this drug further, a re-prioritisation toward candidates with a plausible mechanism (such as plasma cell myeloma) and targeted trial or literature searches for them
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

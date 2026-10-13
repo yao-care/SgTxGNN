@@ -2,7 +2,7 @@
 layout: default
 title: Testosterone Propionate
 parent: Low Evidence (L5)
-nav_order: 963
+nav_order: 973
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,70 +29,89 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Testosterone Propionate: From Androgen Therapy to Urethral Obstruction Sequence
+# Testosterone Propionate: From Male Hypogonadism to Urethral Obstruction Sequence
 
 ## One-Sentence Summary
 
-Testosterone propionate is an androgen (male sex hormone) ester, and no approved indication is recorded in the Singapore registration data.
-The TxGNN model predicts it may be effective for **urethral obstruction sequence**, a congenital obstructive uropathy.
-This prediction has **0 clinical trials** and **0 publications** behind it, so it is a model output only.
+Testosterone propionate is an esterified form of testosterone, originally used for androgen replacement in conditions such as male hypogonadism, eunuchism and Klinefelter syndrome.
+The TxGNN model predicts it may be effective for **urethral obstruction sequence**, but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction.
+This is a model-only prediction, and the biological rationale is weak.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Male hypogonadism (other listed indications: eunuchism, premature menopause, androgen insensitivity syndrome, cryptorchidism, Klinefelter syndrome, trisomy 13). The Singapore licence text for the approved indication is blank. |
 | Predicted New Indication | Urethral obstruction sequence |
 | TxGNN Prediction Score | 93.26% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Testosterone propionate is generally understood as an androgen receptor agonist, so its effects would come from androgen signalling.
+Detailed mechanism of action data is not available from the data compiled for this report. Based on known information, testosterone propionate is a testosterone ester that acts on the androgen receptor (AR). It is one component of the multi-ester product Sustanon, designed to give sustained testosterone release. Its efficacy in androgen deficiency states is established.
 
-The link to the predicted indication is weak. Urethral obstruction sequence is a congenital obstruction of the urinary outflow tract, and its treatment is mainly surgical or drainage-based. No clear androgen-mediated mechanism connects the drug to this condition. The high graph score probably reflects proximity to other genitourinary and gonadal disorders in the knowledge graph, not a real therapeutic rationale. Similarity to the original indication has not been assessed, because no original indication is recorded.
+Urethral obstruction sequence is a congenital structural anomaly, often overlapping with prune belly syndrome. It is not expected to respond to androgen therapy. Any link would be indirect, for example through genital and urogenital development, and no supporting mechanism is documented. The high score most likely reflects proximity in the knowledge graph rather than a demonstrated biological effect.
+
+Other predictions in the list are more plausible, though still mostly unsupported:
+- **Testicular regression syndrome (anorchia)** is the most biologically credible. Testosterone replacement is standard for inducing virilisation, so this is largely an extension of existing indications. The only supporting paper is a 1980 case series of two brothers.
+- **Penile/testicular agenesis** and **polysomy of X chromosome** have an indirect link through hypogonadism and Klinefelter-like features, but no direct evidence was found.
+- **Freemartinism** is a bovine condition. The retrieved papers are animal studies and do not support human use.
+- The epilepsy-related and neurodevelopmental predictions have only speculative or no mechanistic support.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for urethral obstruction sequence.
+
+For reference, the literature retrieved for other predicted indications is limited to a single 1980 case series (anorchia) and three animal studies (freemartinism). None of it addresses the top-ranked prediction.
+
+---
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN04555P | SUSTANON 250 INJECTION | Injection | Not specified in registration data |
+| SIN04555P | SUSTANON 250 INJECTION | Injection | Not stated in the data compiled |
 
-The manufacturer is EVER Pharma Jena GmbH. The only available route is injectable.
+The product is a valid single-ingredient registration, manufactured by EVER Pharma Jena GmbH.
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No warnings or contraindications were provided, and the drug-interaction query returned no records.
+- **Contraindication-related conditions (from the drug-disease knowledge graph, not label text)**: kidney disease, liver disease, gallbladder disease, congestive heart failure, heart and cardiovascular disease, diabetes mellitus, diabetic ketoacidosis, humoral hypercalcemia of malignancy, benign prostatic hyperplasia, prostate cancer, gynecomastia, breast hypertrophy, obesity, and sleep apnoea syndromes.
+- **Drug Interactions**: The interaction query returned only one entry, the pharmacological target (androgen receptor). No drug-drug interactions were identified.
+
+Please refer to the package insert for full warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top prediction has no trials or literature, and its mechanistic link is weak, since the condition is managed surgically. Safety data are also missing, so the candidate cannot move to safety screening.
+The prediction rests only on a model score, with no trials or literature. The condition is a structural congenital anomaly with no plausible androgen-responsive mechanism. The drug's knowledge-graph contraindications (such as cardiovascular, renal and hepatic disease) also warrant caution.
 
 **To proceed, the following is needed:**
-- The HSA package insert (warnings, contraindications, approved indications), which is currently blocking
-- Mechanism of action data from DrugBank
-- Any supporting trials or literature for urethral obstruction sequence, or a decision to drop this prediction
-- Route compatibility assessment (not yet done)
-
-**Other predictions worth noting:**
-- **Testicular regression syndrome** (rank 3, score 87.67%, L4, "Research Question") is the only prediction with a plausible rationale. Androgen replacement for the resulting androgen deficiency is mechanistically coherent. The single supporting paper is a 1980 case-level report on anorchia (PMID [6775612](https://pubmed.ncbi.nlm.nih.gov/6775612/)). Its design could not be confirmed, so this is indirect evidence at best.
-- **Freemartinism** (rank 5, score 87.26%, L4, "Hold") is supported only by three animal studies (PMIDs [8349280](https://pubmed.ncbi.nlm.nih.gov/8349280/), [658891](https://pubmed.ncbi.nlm.nih.gov/658891/), [2229590](https://pubmed.ncbi.nlm.nih.gov/2229590/)). It is a bovine condition with no human therapeutic target.
-- The remaining seven predictions are L5 with no evidence provided, and several look like knowledge-graph artifacts (for example tetragametic chimerism and polysomy of X chromosome).
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Package insert warnings and contraindications from the Singapore regulator (HSA)
+- Mechanism of action data
+- Any clinical or preclinical evidence linking androgen therapy to urethral obstruction sequence
+- If a more credible direction is wanted, re-evaluate **testicular regression syndrome** as a research question, since it is closest to the existing hypogonadism indications
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

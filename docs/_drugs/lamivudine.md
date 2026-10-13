@@ -2,7 +2,7 @@
 layout: default
 title: Lamivudine
 parent: Medium Evidence (L3-L4)
-nav_order: 569
+nav_order: 575
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Lamivudine: From HIV-1 Infection to Simian Immunodeficiency Virus Infection
+# Lamivudine: From HIV/Hepatitis B to Simian Immunodeficiency Virus Infection
 
 ## One-Sentence Summary
 
-Lamivudine is a nucleoside reverse transcriptase inhibitor (NRTI) already established for HIV-1 (and, in the same evidence pack, hepatitis B). The TxGNN model predicts it may be effective for **simian immunodeficiency virus (SIV) infection**. Support is preclinical only: **0 clinical trials** and **20 publications**, mostly macaque and in vitro studies. SIV in macaques is a research model of HIV rather than a human disease, so this prediction adds no new human repurposing opportunity.
+Lamivudine is a nucleoside reverse transcriptase inhibitor (NRTI) originally used to treat chronic hepatitis B and HIV/AIDS.
+The TxGNN model predicts it may be effective for **simian immunodeficiency virus (SIV) infection**, but the support is limited to **15 publications, mostly preclinical (macaque) studies, and no registered clinical trials**.
+This is an animal-model indication that overlaps with the already-approved HIV use, so it does not represent a new human therapeutic indication.
 
 ---
 
@@ -41,7 +43,7 @@ Lamivudine is a nucleoside reverse transcriptase inhibitor (NRTI) already establ
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV-1 infection (taken from the pack's rationale text; HSA indication text was not provided) |
+| Original Indication | Chronic hepatitis B virus infection; HIV infection / AIDS (the licence records compiled for this report contain no approved indication text) |
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 99.93% |
 | Evidence Level | L4 |
@@ -53,34 +55,34 @@ Lamivudine is a nucleoside reverse transcriptase inhibitor (NRTI) already establ
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in the DrugBank record. Lamivudine is an NRTI. After intracellular conversion to its triphosphate form, it terminates viral DNA chain elongation, and this action is well characterised for HIV-1 and HBV.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, lamivudine is a nucleoside analogue that inhibits reverse transcriptase, and its efficacy in HIV and hepatitis B is established.
 
-SIV is a close relative of HIV, and its reverse transcriptase is sensitive to lamivudine. The M184V resistance mutation has been studied in SIV and behaves as it does in HIV-1. In macaque studies, lamivudine-containing combinations (with zidovudine, indinavir, tenofovir or efavirenz) reduced viral load or prevented transmission.
+SIV is a lentivirus closely related to HIV and also replicates through reverse transcriptase, so lamivudine activity is mechanistically plausible. Macaque studies of the M184V resistance mutation in SIV reverse transcriptase support this target relationship. The macaque studies also show that the animal model mimics the rapid emergence of lamivudine resistance seen in human HIV-1 therapy.
 
-The prediction is therefore biologically plausible, but it mainly reflects the fact that SIV is used as an animal model of HIV. It does not point to a new patient population.
+However, SIV infection is an animal-model disease, not a human therapeutic indication, and it overlaps with the already-approved HIV indication. The prediction is therefore best read as a confirmation of the drug's anti-retroviral mechanism rather than a true repurposing opportunity.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for simian immunodeficiency virus infection.
 
 ---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|---------|---------|
-| [19240457](https://pubmed.ncbi.nlm.nih.gov/19240457/) | 2009 | Animal study | AIDS | Post-exposure prophylaxis with zidovudine, lamivudine and indinavir prevented vaginal SIV transmission in macaques |
-| [15919889](https://pubmed.ncbi.nlm.nih.gov/15919889/) | 2005 | Animal study | J Virol | Efavirenz, lamivudine and tenofovir suppressed viral load in RT-SHIV-infected rhesus macaques |
-| [16973590](https://pubmed.ncbi.nlm.nih.gov/16973590/) | 2006 | Animal study | J Virol | Quadruple antiretroviral therapy produced rapid viral decay in SIV-infected macaques |
-| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | In vitro study | Antivir Ther | Antiviral activity of 16 approved drugs was tested against HIV-2, SIV and SHIV, with implications for treatment and post-exposure prophylaxis |
-| [12021341](https://pubmed.ncbi.nlm.nih.gov/12021341/) | 2002 | Preclinical (virology) | J Virol | M184V mutants emerged within 5 weeks of lamivudine or emtricitabine therapy in SIV-infected newborn macaques, mimicking HIV-1 |
-| [12502828](https://pubmed.ncbi.nlm.nih.gov/12502828/) | 2003 | Preclinical (virology) | J Virol | Tenofovir selected for reversion of M184V in SIV even in the presence of lamivudine |
-| [14610172](https://pubmed.ncbi.nlm.nih.gov/14610172/) | 2003 | Animal study | J Virol | Early post-exposure antiviral therapy affected lymphocyte proliferation kinetics in SIVmac251-infected macaques (preliminary report) |
-| [11689641](https://pubmed.ncbi.nlm.nih.gov/11689641/) | 2001 | Animal study | J Virol | Bone marrow hematopoiesis defects persisted in SHIV-infected macaques despite viremia reduction by HAART |
-| [20868521](https://pubmed.ncbi.nlm.nih.gov/20868521/) | 2010 | Animal study | Retrovirology | Effect of short-term HAART on tissue SIV load depended on time of initiation and antiviral diffusion |
-| [31658118](https://pubmed.ncbi.nlm.nih.gov/31658118/) | 2020 | Review | Curr Opin HIV AIDS | Discusses islatravir, a related reverse transcriptase translocation inhibitor, for HIV-1 treatment and prevention (not lamivudine itself) |
+|------|-----|------|------|---------|
+| [12021341](https://pubmed.ncbi.nlm.nih.gov/12021341/) | 2002 | Preclinical (macaque) | J Virol | In newborn macaques treated with lamivudine or emtricitabine, M184V resistance mutants emerged within 5 weeks, mimicking human HIV-1 therapy |
+| [12502828](https://pubmed.ncbi.nlm.nih.gov/12502828/) | 2003 | Preclinical (macaque) | J Virol | Tenofovir selects for reversion of the M184V mutation in SIV, even in the presence of lamivudine |
+| [15919889](https://pubmed.ncbi.nlm.nih.gov/15919889/) | 2005 | Preclinical (macaque) | J Virol | Efavirenz + lamivudine + tenofovir suppressed viral load in macaques infected with RT-SHIV |
+| [16973590](https://pubmed.ncbi.nlm.nih.gov/16973590/) | 2006 | Preclinical (macaque) | J Virol | Rapid viral decay in SIV-infected macaques on quadruple antiretroviral therapy |
+| [19240457](https://pubmed.ncbi.nlm.nih.gov/19240457/) | 2009 | Preclinical (macaque) | AIDS | Post-exposure prophylaxis with zidovudine, lamivudine and indinavir was evaluated against vaginal SIV transmission |
+| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | In vitro | Antivir Ther | Susceptibility of HIV-2, SIV and SHIV to 16 approved anti-HIV drugs, with implications for treatment and prophylaxis |
+| [14610172](https://pubmed.ncbi.nlm.nih.gov/14610172/) | 2003 | Preclinical (macaque) | J Virol | Effect of early short-term HAART on lymphocyte proliferation in SIVmac251 infection |
+| [12163615](https://pubmed.ncbi.nlm.nih.gov/12163615/) | 2002 | Preclinical | J Virol | The M184V mutation can delay reversion of attenuated SIV variants |
+| [12804006](https://pubmed.ncbi.nlm.nih.gov/12804006/) | 2003 | Preclinical (macaque) | AIDS Res Hum Retroviruses | HAART and infection modulate P-glycoprotein and cellular kinase expression in a primate AIDS model |
+| [31658118](https://pubmed.ncbi.nlm.nih.gov/31658118/) | 2020 | Review | Curr Opin HIV AIDS | Islatravir for HIV-1 treatment and prevention (indirect relevance) |
 
 ---
 
@@ -88,17 +90,22 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN09134P | EPIVIR TABLET 150 mg | Film-coated tablet | Not provided |
-| SIN11152P | ZEFFIX TABLETS 100 mg | Film-coated tablet | Not provided |
-| SIN09135P | EPIVIR ORAL SOLUTION 10 mg/ml | Solution | Not provided |
-| SIN15204P | LAVUDIN STANDARD F.C. TABLET 100 mg | Film-coated tablet | Not provided |
-| SIN15989P | DOVATO FILM-COATED TABLET 50MG/300MG | Film-coated tablet | Not provided |
+| SIN09134P | EPIVIR TABLET 150 mg | Film-coated tablet | Not specified in the records |
+| SIN11152P | ZEFFIX TABLETS 100 mg | Film-coated tablet | Not specified in the records |
+| SIN09135P | EPIVIR ORAL SOLUTION 10 mg/ml | Solution | Not specified in the records |
+| SIN15204P | LAVUDIN STANDARD F.C. TABLET 100 mg | Film-coated tablet | Not specified in the records |
+| SIN15989P | DOVATO FILM-COATED TABLET 50MG/300MG | Film-coated tablet | Not specified in the records |
+
+Ten valid registrations are on record in total. The others include COMBIVIR, ABALAM, Kivexa, DELSTRIGO and TRIUMEQ, which are fixed-dose combinations containing lamivudine.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindication-related conditions from the knowledge graph (not label text):** liver failure, liver disease, kidney disease, pancreatitis, neutropenia, agranulocytosis, anaemia, lactic acidosis, myopathy/myositis, hypertriglyceridaemia, fatty liver disease and non-alcoholic steatohepatitis, among others. These should be verified against the package insert.
+- **Drug interactions:** 100 interactions were found. Moderate-level ones include lactitol, mannitol, sorbitol, naltrexone and orlistat. Others, such as metformin, cimetidine, omeprazole, pantoprazole and vancomycin, are of unknown severity.
+
+Please refer to the package insert for authoritative warnings and contraindications.
 
 ---
 
@@ -107,18 +114,15 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (SIV infection) is supported only by preclinical macaque and in vitro data, with no registered clinical trials. It is not a human disease, so there is no actionable new indication. The pack's own scoring also holds this candidate at L4 (stage S0).
-
-Other predictions in the pack are more informative:
-- **Hepatitis B virus infection** (rank 6) reaches L1 and "Proceed with Guardrails", but it is already an established lamivudine use (Zeffix is registered in Singapore). It should be treated as label confirmation, not new repurposing.
-- **Hepatitis C virus infection** has no expected direct antiviral mechanism.
-- **Feline immunodeficiency and the remaining lower-ranked predictions** have no supporting human evidence.
+The only evidence for SIV infection is preclinical (macaque) work with no registered clinical trials. SIV is an animal-model disease and overlaps with lamivudine's already-approved HIV indication, so it offers no new human therapeutic opportunity.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications, currently a blocking gap that prevents safety screening
+- A clear decision on whether an animal-model indication has any translational value, since the HIV indication is already covered
 - Mechanism of action data from DrugBank
-- Approved indication text for the Singapore licences, to confirm the original indication and any existing HBV label
-- Reassessment of the hepatitis B result as label confirmation, with the empty original-indication field corrected
+- HSA package insert warnings and contraindications
+- Review of the other predicted indications for any more actionable direction
+
+**Note on other predictions:** Hepatitis B virus infection (rank 6) is an already-approved indication and is not a true repurposing candidate. It has the strongest evidence (L1, with several Phase 3 trials), but lamivudine has a high resistance rate and guidelines favour entecavir or tenofovir. The remaining predictions (chronic hepatitis C, feline AIDS and several rare liver or neurodevelopmental disorders) have no supporting mechanism or only veterinary evidence, and are also rated Hold.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

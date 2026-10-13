@@ -2,7 +2,7 @@
 layout: default
 title: Carmustine
 parent: Low Evidence (L5)
-nav_order: 214
+nav_order: 215
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,106 +29,117 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Carmustine: From Registered Alkylating Chemotherapy to Lymph Node Cancer
+# Carmustine: From Lymphoma and Brain Tumours to Lymph Node Cancer
 
 ## One-Sentence Summary
 
-Carmustine is a nitrosourea alkylating chemotherapy, marketed in Singapore as an injectable and as an implantable wafer (Gliadel). The registration records supplied contain no approved-indication text.
-The TxGNN model predicts it may be effective for **lymph node cancer**, with **7 clinical trials** and **20 publications** attached to this prediction.
-Most of that evidence is high-dose combination regimens with stem cell rescue, and the "lymph node cancer" label is ambiguous.
+Carmustine is a DNA-alkylating nitrosourea chemotherapy drug, originally used for lymphomas (Hodgkin and non-Hodgkin), brain tumours such as glioblastoma, and multiple myeloma.
+The TxGNN model predicts it may be effective for **lymph node cancer**, but the supporting evidence is weak: **1 clinical trial** and **20 publications** were found, and almost all of them concern high-dose chemotherapy in **breast cancer with lymph node involvement**, not a lymph node cancer. Carmustine is already used in established lymphoma regimens, so this is not a genuinely new use.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration data |
+| Original Indication | Lymphomas (Hodgkin and non-Hodgkin), glioblastoma and other brain cancers, multiple myeloma. The Singapore registration data give no indication text, so this list comes from the TxGNN knowledge graph. |
 | Predicted New Indication | Lymph node cancer |
 | TxGNN Prediction Score | 98.49% |
-| Evidence Level | L2 (see caveat under Clinical Trial Evidence) |
+| Evidence Level | L3. The one Phase 3 trial was terminated and studied breast cancer, so the L1 criterion is not met. |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 2 |
-| Recommended Decision | Proceed with Guardrails |
+| Recommended Decision | Hold |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the source record. Based on known information, carmustine is a lipophilic nitrosourea that cross-links DNA strands. In lymphoma it is a component of the BEAM (carmustine, etoposide, cytarabine, melphalan) and CBV high-dose conditioning regimens given before autologous stem cell transplant.
+Detailed mechanism of action data is not available for this drug. Carmustine belongs to the nitrosourea class of alkylating agents. Its efficacy in lymphoma and brain tumours is established, and mechanistically it may apply to cancers of lymphoid tissue.
 
-The label "lymph node cancer" is broad. The only Phase 3 trial attached (NCT00002772) is in node-positive breast cancer, not lymphoma. The lymphoma-relevant support comes from Phase 2 BEAM and transplant trials, plus Hodgkin lymphoma literature. Carmustine is rarely the single variable tested in these studies, so its individual contribution is hard to separate.
+Carmustine is a core component of high-dose conditioning regimens given before autologous stem cell transplantation in lymphoma, such as BEAM and CBV. This is likely why the model links it to "lymph node cancer".
+
+However, the label "lymph node cancer" is ambiguous. The evidence compiled for this prediction mostly concerns breast cancer patients with 4 to 10 or more involved axillary lymph nodes, treated with high-dose cyclophosphamide, cisplatin and carmustine plus stem cell rescue. That is a different disease. Only one paper (PMID 18988286) deals with a true lymph node malignancy, Hodgkin lymphoma, and it did not test carmustine as the variable. Any lymphoma use is largely already covered by existing labelled and established indications.
+
+---
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01141712](https://clinicaltrials.gov/study/NCT01141712) | Phase 2 | Completed | 43 | BEAM (with carmustine) plus autologous transplant in HIV-associated aggressive B-cell and Hodgkin lymphoma; the primary endpoint is overall survival. |
-| [NCT00345865](https://clinicaltrials.gov/study/NCT00345865) | Phase 2 | Completed | 473 | Autologous stem cell transplant for lymphoma with ICE-type chemotherapy and rituximab. Carmustine-based conditioning is likely but not confirmed from the title. |
-| [NCT01008462](https://clinicaltrials.gov/study/NCT01008462) | Phase 2 | Completed | 16 | Sequential autologous then haploidentical transplant in high-risk lymphoma, myeloma or CLL. Small, and carmustine's role is not isolated. |
-| [NCT01702961](https://clinicaltrials.gov/study/NCT01702961) | N/A | Completed | 75 | Practice study of rituximab with BEAM and autologous transplant in high-risk lymphoma or Hodgkin's disease. |
-| [NCT01468311](https://clinicaltrials.gov/study/NCT01468311) | Phase 1/2 | Terminated | 6 | Radiolabelled anti-CD25 with BEAM in refractory Hodgkin lymphoma. Too small to be informative. |
-| [NCT00002772](https://clinicaltrials.gov/study/NCT00002772) | Phase 3 | Terminated | 602 | Intensive chemotherapy vs high-dose chemotherapy with stem cell support in breast cancer with 4-9 involved axillary nodes. Not a lymphoma study. |
-| [NCT02788201](https://clinicaltrials.gov/study/NCT02788201) | Phase 2 | Completed | 8 | Genomic-guided therapy in advanced urothelial carcinoma. Not relevant to lymphoma. |
+| [NCT00002772](https://clinicaltrials.gov/study/NCT00002772) | Phase 3 | Terminated | 602 | Intensive sequential chemotherapy (doxorubicin, paclitaxel, cyclophosphamide) vs high-dose chemotherapy with stem cell support in women with primary breast cancer and 4–9 involved axillary lymph nodes. Carmustine is not clearly an isolated variable, and the disease is not a lymphoma. |
 
-**Caveat on the evidence level:** the L2 grade comes from the supplied scoring. The lymphoma-relevant trials are mostly single-arm Phase 2 studies, and the only Phase 3 is in breast cancer. Strictly, no completed Phase 3 or randomised lymphoma trial isolates carmustine.
+---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [15767638](https://pubmed.ncbi.nlm.nih.gov/15767638/) | 2005 | RCT | J Clin Oncol | CALGB 9082, SWOG 9114 and NCIC MA-13: high-dose chemotherapy with stem cell support vs intermediate-dose chemotherapy in high-risk primary breast cancer with multiple involved axillary nodes. |
-| [7577204](https://pubmed.ncbi.nlm.nih.gov/7577204/) | 1995 | RCT | J Natl Cancer Inst Monogr | CALGB 9082: high-dose vs low-dose cyclophosphamide, cisplatin and carmustine as consolidation in breast cancer with ≥10 involved nodes. |
-| [18988286](https://pubmed.ncbi.nlm.nih.gov/18988286/) | 2008 | Randomised Phase 2 | Cancer | GOELAMS trial in 158 high-risk Hodgkin lymphoma patients: early intensification vs ABVD followed by myeloablative chemotherapy and autologous transplant. The supplied excerpt does not name carmustine. |
-| [2642573](https://pubmed.ncbi.nlm.nih.gov/2642573/) | 1989 | Clinical study | Leukemia | 23 patients with advanced Hodgkin's disease received BCNU (carmustine), etoposide and cyclophosphamide with autologous marrow. 19 had progressive disease on prior chemotherapy. |
-| [15505610](https://pubmed.ncbi.nlm.nih.gov/15505610/) | 2004 | Clinical study | Biol Blood Marrow Transplant | 5-year results of high-dose cyclophosphamide, carmustine and thiotepa with autologous transplant in high-risk breast cancer with nodal involvement. |
-| [11895898](https://pubmed.ncbi.nlm.nih.gov/11895898/) | 2002 | PK/clinical study | Clin Cancer Res | Pharmacokinetics of high-dose cyclophosphamide, cisplatin and carmustine in 85 breast cancer patients with ≥10 nodes, related to survival and toxicity. |
-| [12523579](https://pubmed.ncbi.nlm.nih.gov/12523579/) | 2002 | Phase 2 | Biol Blood Marrow Transplant | High-dose chemotherapy with hematopoietic support in 61 breast cancer patients with 4-9 involved nodes. |
-| [11063378](https://pubmed.ncbi.nlm.nih.gov/11063378/) | 2000 | Registry analysis | Biol Blood Marrow Transplant | 1,111 breast cancer patients given high-dose chemotherapy with stem cell rescue; overall treatment-related mortality was 2.3%. |
-| [10473086](https://pubmed.ncbi.nlm.nih.gov/10473086/) | 1999 | Mechanistic study | Clin Cancer Res | O6-alkylguanine-DNA alkyltransferase in cutaneous T-cell lymphoma, and what it implies for alkylating agents such as carmustine. |
-| [1642408](https://pubmed.ncbi.nlm.nih.gov/1642408/) | 1992 | Non-randomised trial | Ann Plast Surg | Adjuvant dacarbazine, carmustine, cisplatin and tamoxifen in melanoma with ≥4 positive nodes. |
+| [7577204](https://pubmed.ncbi.nlm.nih.gov/7577204/) | 1995 | RCT | J Natl Cancer Inst Monogr | CALGB 9082: high-dose vs low-dose cyclophosphamide, cisplatin and carmustine as consolidation in breast cancer with ≥10 involved axillary nodes |
+| [15767638](https://pubmed.ncbi.nlm.nih.gov/15767638/) | 2005 | Randomized comparison | J Clin Oncol | High-dose chemotherapy with stem cell support vs intermediate-dose chemotherapy in high-risk primary breast cancer (CALGB 9082, SWOG 9114, NCIC MA-13) |
+| [18988286](https://pubmed.ncbi.nlm.nih.gov/18988286/) | 2008 | Randomized phase 2 | Cancer | Early vs late intensification in high-risk Hodgkin lymphoma. Five-year results of intensive chemotherapy plus low-dose lymph node radiotherapy vs ABVD plus autologous transplant. |
+| [16118805](https://pubmed.ncbi.nlm.nih.gov/16118805/) | 2005 | Randomized trial (QoL analysis) | Cancer | Quality of life after high-dose vs intermediate-dose chemotherapy in breast cancer with multiple positive nodes |
+| [12523579](https://pubmed.ncbi.nlm.nih.gov/12523579/) | 2002 | Phase II | Biol Blood Marrow Transplant | High-dose chemotherapy with hematopoietic support in breast cancer with 4–9 involved nodes |
+| [15505610](https://pubmed.ncbi.nlm.nih.gov/15505610/) | 2004 | Cohort | Biol Blood Marrow Transplant | Five-year results of high-dose cyclophosphamide, carmustine and thiotepa with stem cell transplant in high-risk breast cancer |
+| [11895898](https://pubmed.ncbi.nlm.nih.gov/11895898/) | 2002 | Cohort (pharmacokinetics) | Clin Cancer Res | Pharmacokinetics of high-dose cyclophosphamide, cisplatin and carmustine in relation to survival and toxicity in breast cancer |
+| [2642573](https://pubmed.ncbi.nlm.nih.gov/2642573/) | 1989 | Cohort | Leukemia | BCNU, etoposide and cyclophosphamide with autologous marrow transplant in 23 patients with advanced Hodgkin's disease |
+| [36213836](https://pubmed.ncbi.nlm.nih.gov/36213836/) | 2022 | Retrospective review | J Oncol | High-dose adjuvant chemotherapy with autologous transplant in locally advanced triple-negative breast cancer |
+| [8484641](https://pubmed.ncbi.nlm.nih.gov/8484641/) | 1993 | Clinical series | Am Rev Respir Dis | Pulmonary drug toxicity in 39% (23 of 59) of breast cancer patients after high-dose alkylator chemotherapy and marrow transplant |
 
-Most of these papers concern breast cancer with nodal involvement, not lymphoma. They support the "lymph node" wording of the label rather than a lymphoma indication.
+---
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
-|---------|------|------|-----------|
-| SIN15502P | BiCNU-100MG (Carmustine for Injection USP 100 mg) with Dehydrated Alcohol Injection USP, combipack | Injection, powder, for solution | Emcure Pharmaceuticals Limited (OSD and Potent Injectables) |
-| SIN13348P | Gliadel Wafer | Implant | Eisai Inc |
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN15502P | BiCNU-100MG (Carmustine for Injection USP 100 mg) and Dehydrated Alcohol Injection USP, combipack | Injection, powder, for solution |
+| SIN13348P | Gliadel Wafer | Implant |
 
-The record has no approved-indication text for either licence.
+---
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (nitrosourea alkylating agent, DNA cross-linker) |
-| Myelosuppression Risk | High. Delayed myelosuppression is a recognised feature of nitrosoureas and should be confirmed against the package insert. |
-| Emetogenicity Classification | High at high-dose conditioning doses. Please refer to the package insert. |
-| Monitoring Items | CBC with differential, pulmonary function (lung injury after BCNU-containing conditioning is reported), liver and renal function |
-| Handling Protection | Must follow cytotoxic drug handling regulations (applies to both the injection and the wafer) |
+| Cytotoxicity Classification | Conventional cytotoxic (nitrosourea alkylating agent) |
+| Myelosuppression Risk | High. Myelosuppression is delayed and cumulative, with leukopenia and thrombocytopenia a major concern. |
+| Emetogenicity Classification | High for intravenous dosing. Not applicable to the local wafer implant. |
+| Monitoring Items | CBC with differential, pulmonary function (dose-related lung toxicity), liver and renal function |
+| Handling Protection | Must follow cytotoxic drug handling regulations |
 
-The myelosuppression and emetogenicity ratings are general drug-class knowledge and are not drawn from the Evidence Pack.
+Please also refer to the package insert warnings and precautions.
+
+---
 
 ## Safety Considerations
 
-- **Pulmonary toxicity:** a registered trial summary (NCT02278796) notes that BCNU is a common cause of lung injury after high-dose BEAM.
-- **Drug interactions:** the drug-interaction query returned no records.
+- **Contraindications / conditions of concern (from the knowledge graph, not label text):** The TxGNN knowledge graph links carmustine to these conditions. Key examples are:
+  - Blood and marrow: thrombocytopenia, leukopenia, anaemia, acute leukaemias
+  - Lung: lung disease, pulmonary fibrosis
+  - Organs: kidney disease, liver disease, gallbladder disease
+  - Infection: infectious disease, fungal infection, meningitis, intracranial abscess
+  - Central nervous system: epilepsy, brain oedema, hydrocephalus, arachnoiditis
+- **Drug Interactions:** 100 interactions were identified. Those with a graded severity are:
+  - **Cimetidine** (Major)
+  - **Naltrexone** (Moderate)
+  - **Levofloxacin** (Minor)
 
-Please refer to the package insert for warnings and contraindications. The Singapore package insert has not yet been obtained.
+  The remaining interactions have no graded severity. They include proton pump inhibitors, H2 blockers, corticosteroids, ondansetron, aprepitant, vancomycin and morphine.
+
+---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Carmustine-containing high-dose regimens (BEAM/CBV) have a long track record in Hodgkin and non-Hodgkin lymphoma, backed by multiple completed Phase 2 trials. However, no randomised trial isolates carmustine, and the Phase 3 evidence is in breast cancer. This is a plausible repurposing signal, not a confirmed indication.
+The evidence does not support lymph node cancer as a distinct new indication for carmustine. The single Phase 3 trial was terminated and studied breast cancer. The 20 papers mostly address high-dose regimens in breast cancer. Carmustine's role in true lymphoma (BEAM, CBV conditioning) is already established, so this prediction adds little beyond existing use.
 
 **To proceed, the following is needed:**
-- The Singapore package insert (warnings, contraindications, approved indications). This blocks the safety screening.
-- Mechanism of action data from DrugBank.
-- A defined target: which lymphoma subtype or nodal disease is meant, and whether it is already covered by existing labels.
-- Confirmation that carmustine is part of the conditioning regimen in trials such as NCT00345865.
-- A safety monitoring plan for myelosuppression and pulmonary toxicity, with supply and cytotoxic-handling arrangements. Carmustine-free alternatives to BEAM (BeEAM, cisplatin substitution) are being studied because of supply and toxicity issues.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
+- A precise definition of "lymph node cancer" (lymphoma subtype or nodal metastasis) to remove the ambiguity
+- Lymphoma-specific trial and literature evidence in which carmustine is the tested variable
+- Package insert warnings and contraindications for the Singapore-registered products, to enable a safety screen
+- Mechanism of action data
+- A safety plan covering pulmonary toxicity, myelosuppression and transplant-centre-only use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

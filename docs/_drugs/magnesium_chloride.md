@@ -2,7 +2,7 @@
 layout: default
 title: Magnesium Chloride
 parent: Medium Evidence (L3-L4)
-nav_order: 622
+nav_order: 628
 evidence_level: L3
 indication_count: 10
 ---
@@ -29,19 +29,19 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Magnesium Chloride: From Electrolyte and Dialysis Solution Component to Congestive Heart Failure
+# Magnesium Chloride: From Electrolyte/Dialysis Solution Component to Congestive Heart Failure
 
 ## One-Sentence Summary
 
-Magnesium chloride is an electrolyte that appears in Singapore-registered dialysis and infusion solutions. The registration data do not state an approved indication.
-The TxGNN model predicts it may be useful for **congestive heart failure**, mainly by correcting magnesium loss caused by diuretics.
-Evidence is thin: **15 registered trials** were retrieved, none of which tests magnesium chloride in heart failure, and **19 publications**, of which only two small crossover studies (1989 and 1993) are directly relevant.
+Magnesium chloride is a magnesium salt used in Singapore as a component of dialysis, haemofiltration and electrolyte replacement solutions.
+The TxGNN model predicts it may be useful for **congestive heart failure**,
+with **no registered clinical trials** and **8 retrieved publications** (about 4 of them directly relevant, mostly small studies from 1988-1995).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration data (registered products are dialysis and electrolyte solutions) |
+| Original Indication | Not stated in the Singapore licence records (products are dialysis, haemofiltration and electrolyte solutions) |
 | Predicted New Indication | Congestive heart failure |
 | TxGNN Prediction Score | 97.07% |
 | Evidence Level | L3 |
@@ -51,72 +51,62 @@ Evidence is thin: **15 registered trials** were retrieved, none of which tests m
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, magnesium chloride is a magnesium salt used for electrolyte replacement and as a component of dialysis and infusion solutions. Any mechanistic link to heart failure is therefore inferred from the literature only.
+Detailed mechanism of action data is not currently available. Based on known information, magnesium chloride is a magnesium salt, mainly supplied in Singapore as a component of dialysis and electrolyte solutions. Magnesium acts as a cofactor for Na+/K+-ATPase and modulates calcium handling and vascular tone.
 
-The plausible link is deficiency repletion, not a new pharmacological effect. Loop and thiazide diuretics, the mainstay of heart failure treatment, increase urinary loss of magnesium and potassium. Magnesium deficiency is associated with arrhythmia and worse cardiovascular outcomes. A mouse study (PMID 34096318) reported that magnesium deficiency alone can cause a reversible diastolic cardiomyopathy. Reviews also describe possible antiarrhythmic benefit from magnesium in heart failure.
+Magnesium depletion is common in heart failure, often related to loop diuretic use, and is associated with ventricular arrhythmia. Correcting the deficiency could plausibly provide antiarrhythmic and haemodynamic benefit. This is the main link between the drug and the predicted indication.
 
-The evidence supports monitoring and correcting low magnesium in patients on diuretics. It does not yet support magnesium chloride as a disease-modifying heart failure therapy. The TxGNN score is high, but the supporting human data are small, old and not conclusive.
+The supporting studies are small and old (1988-1995), and no registered trials were available. The prediction is therefore best viewed as a research question, not an established benefit.
 
 ## Clinical Trial Evidence
 
-None of the retrieved trials tests magnesium chloride in heart failure. The most relevant are listed below.
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT03980574](https://clinicaltrials.gov/study/NCT03980574) | N/A | Completed | 10 | Pilot crossover of a dietary supplement drink vs placebo in heart failure. Composition is unconfirmed and the study is too small to show efficacy |
-| [NCT07163936](https://clinicaltrials.gov/study/NCT07163936) | N/A | Not yet recruiting | 80 | Citrate dialysate with added magnesium vs acetate dialysate for vascular calcification in hemodialysis. Different population and endpoint |
-| [NCT03982693](https://clinicaltrials.gov/study/NCT03982693) | Phase 3 | Recruiting | 50 | EDTA chelation in critical limb ischemia. Not heart failure |
-| [NCT02560519](https://clinicaltrials.gov/study/NCT02560519) | Phase 4 | Completed | 1386 | Albumin vs Ringer solution in cardiac surgery. Fluid comparison, not magnesium |
-| [NCT06021860](https://clinicaltrials.gov/study/NCT06021860) | Phase 4 | Unknown | 96 | Spironolactone oral suspension in pediatric edema due to heart failure or cirrhosis. Different drug |
-| [NCT04393493](https://clinicaltrials.gov/study/NCT04393493) | Phase 2 | Completed | 80 | Two furosemide strategies in type 1 cardiorenal syndrome. Different drug |
-| [NCT03439514](https://clinicaltrials.gov/study/NCT03439514) | Phase 3 | Terminated | 77 | ARRY-371797 in LMNA-related dilated cardiomyopathy. Unrelated intervention |
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
+Only the publications relevant to heart failure are listed below. One retrieved paper (PMID 24831644, on sodium replacement in fish) is a false match and was excluded.
+
 | PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|---------|---------|
-| [8237806](https://pubmed.ncbi.nlm.nih.gov/8237806/) | 1993 | Randomized double-blind crossover trial | Am J Cardiol | Long-term oral magnesium chloride replacement in 21 patients with stable heart failure due to coronary artery disease on loop diuretics |
-| [2755214](https://pubmed.ncbi.nlm.nih.gov/2755214/) | 1989 | Randomized double-blind crossover trial | Magnesium | Potassium alone vs potassium plus magnesium in 10 heart failure patients on hydrochlorothiazide. Potassium chloride alone did not efficiently correct serum potassium |
-| [8861138](https://pubmed.ncbi.nlm.nih.gov/8861138/) | 1995 | Review | Magnesium Research | Critical review of the antiarrhythmic action of magnesium in heart failure |
-| [40530753](https://pubmed.ncbi.nlm.nih.gov/40530753/) | 2025 | Review | Eur J Heart Fail | Water and electrolyte homeostasis during decongestion. Heart failure requires excretion of cations including magnesium |
-| [2650515](https://pubmed.ncbi.nlm.nih.gov/2650515/) | 1989 | Review | Am J Cardiol | Cardiovascular consequences of magnesium deficiency and loss |
-| [2436474](https://pubmed.ncbi.nlm.nih.gov/2436474/) | 1987 | Review | Am J Med | Magnesium depletion, diuretics and arrhythmias. Serum levels may be normal despite tissue depletion |
-| [2309624](https://pubmed.ncbi.nlm.nih.gov/2309624/) | 1990 | Review | Am J Cardiol | Interaction of diuretics and electrolytes in heart failure |
-| [4091044](https://pubmed.ncbi.nlm.nih.gov/4091044/) | 1985 | Observational | Acta Med Scand | Electrolyte excretion in 108 patients on long-term diuretics. Diuretics impaired conservation of potassium and magnesium |
-| [34096318](https://pubmed.ncbi.nlm.nih.gov/34096318/) | 2021 | Animal study | J Am Heart Assoc | Magnesium deficiency alone caused a reversible diastolic cardiomyopathy in mice |
-| [25660927](https://pubmed.ncbi.nlm.nih.gov/25660927/) | 2015 | Review | J Am Coll Cardiol | Hyponatremia in acute decompensated heart failure. Potassium and magnesium replacement may help if plasma levels are low |
+|------|-----|------|------|---------|
+| [8237806](https://pubmed.ncbi.nlm.nih.gov/8237806/) | 1993 | Randomised, double-blind crossover trial (n=21) | Am J Cardiol | Long-term oral magnesium chloride replacement in stable heart failure from coronary artery disease on loop diuretics |
+| [7508827](https://pubmed.ncbi.nlm.nih.gov/7508827/) | 1994 | Clinical study | Circulation | Effect of acute magnesium administration on ventricular arrhythmia frequency in heart failure |
+| [8861138](https://pubmed.ncbi.nlm.nih.gov/8861138/) | 1995 | Review | Magnes Res | Critical review of the antiarrhythmic action of magnesium in heart failure |
+| [3233812](https://pubmed.ncbi.nlm.nih.gov/3233812/) | 1988 | Haemodynamic study (n=15) | Clin Cardiol | IV magnesium chloride raised serum magnesium and lowered mean arterial pressure (~10%) and pulmonary artery pressure (~7%) in ischaemic heart disease with heart failure |
+| [8230658](https://pubmed.ncbi.nlm.nih.gov/8230658/) | 1993 | Clinical study (indirect) | JPMA | Magnesium chloride 10 mmol/day for 4 months lowered blood pressure in 22 diuretic-treated patients (mostly hypertension) |
+| [2111681](https://pubmed.ncbi.nlm.nih.gov/2111681/) | 1990 | Case report | Arch Mal Coeur Vaiss | Theophylline-induced ventricular tachycardia reversed with IV magnesium chloride |
+| [576067](https://pubmed.ncbi.nlm.nih.gov/576067/) | 1979 | Physiological study | Int J Chronobiol | Diurnal rhythms of renal electrolyte excretion in heart failure (indirect) |
 
 ## Singapore Market Information
+
+All 20 licences are valid single-ingredient products, and none lists an approved indication text. Five main authorisations are shown.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
 | SIN07943P | Haemodialysis Concentrate NKFS-02 (Acid) for Bicarbonate Dialysis | Solution | Not stated |
-| SIN13265P | Balance 1.5% Glucose 1.25 mmol/L Calcium Peritoneal Dialysis Solution (CAPD 17 Formulation) | Solution, sterile | Not stated |
-| SIN13264P | Balance 4.25% Glucose 1.25 mmol/L Calcium Peritoneal Dialysis Solution (CAPD 18 Formulation) | Solution, sterile | Not stated |
+| SIN13265P | Balance 1.5% Glucose 1.25 mmol/L Calcium Peritoneal Dialysis Solution | Solution, sterile | Not stated |
 | SIN06523P | Plasma-Lyte A Injection | Injection | Not stated |
-| SIN11220P | Extraneal Peritoneal Dialysis Solution 75 g/l | Solution, sterile | Not stated |
-
-Twenty registrations exist in total. The first five are shown. All registered products are dialysis or infusion solutions. Heart failure is not a registered use, and none of these products is intended as heart failure therapy.
+| SIN11635P | Prismasol BO Solution | Solution | Not stated |
+| SIN13890P | Sterofundin ISO Solution for Infusion | Infusion, solution | Not stated |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for label warnings and contraindications, which are not available in the data compiled for this report.
 
-One indirect signal appears in the literature. Excess magnesium is a concern in renal impairment, which is common in heart failure. This was not retrieved from a label, so dose and monitoring should be confirmed from the package insert.
+- **Contraindication signals (from a knowledge graph, not label text)**: kidney disease (including chronic and end-stage renal failure), anuria, hypercalcaemia, nephrocalcinosis, nephrolithiasis, heart disease and cardiovascular disease, atrioventricular block, digitalis poisoning, ventricular fibrillation, myotonia congenita, hyperkalaemic periodic paralysis, hypoaldosteronism, sarcoidosis and phenylketonuria. The heart disease and atrioventricular block signals deserve particular attention for a cardiac indication.
+- **Drug Interactions**: 58 interactions were recorded. Major interactions include **dolutegravir** and **bictegravir**, probably through chelation that reduces absorption of the antiviral. Moderate interactions include tetracyclines (doxycycline, tetracycline, minocycline, omadacycline), fluoroquinolones (ciprofloxacin, delafloxacin), bisphosphonates (alendronic acid, risedronic acid, ibandronate), vitamin D analogues (cholecalciferol, calcifediol, calcitriol, doxercalciferol), cisatracurium, deferiprone, eltrombopag, baloxavir marboxil and magnesium oxide.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The link between diuretic-induced magnesium loss and heart failure is plausible. However, the only direct human data are two small, old crossover studies, and no registered trial tests magnesium chloride in heart failure. The safety review is also blocked because the Singapore package insert data are missing. The model's own staging classifies this as a research question.
+The evidence consists only of small, older studies with no registered trials, and TxGNN's score is a model prediction. Magnesium deficiency in heart failure is a plausible link, but the benefit would come mainly from correcting deficiency. Safety data from the product label is missing, and the knowledge graph flags renal and cardiac conduction contraindications.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications (blocking), especially for renal impairment
-- Mechanism of action data from DrugBank
-- A full read of the 1993 crossover trial (PMID 8237806) for outcomes and effect size
-- A properly powered RCT, or a registered trial, of magnesium supplementation in heart failure patients on diuretics
-- A route and formulation decision, since no registered product is designed for oral or chronic heart failure use
+- Package insert warnings and contraindications from the HSA records
+- Detailed mechanism of action data
+- Current randomised trial evidence on magnesium supplementation in heart failure, with clinical endpoints such as arrhythmia and hospitalisation
+- A defined route and formulation (oral or IV), since the licensed Singapore products are dialysis and infusion solutions
+- A safety plan for patients with renal impairment, conduction block or on interacting drugs
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

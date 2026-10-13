@@ -2,7 +2,7 @@
 layout: default
 title: Pembrolizumab
 parent: Low Evidence (L5)
-nav_order: 763
+nav_order: 771
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,12 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pembrolizumab: From PD-1 Cancer Immunotherapy to Gingival Fibromatosis
+# Pembrolizumab: From Non-Small Cell Lung Cancer to Gingival Fibromatosis
 
 ## One-Sentence Summary
 
-Pembrolizumab is a PD-1 checkpoint-blocking antibody used in cancer immunotherapy. The Singapore registration records do not state its approved indications.
-The TxGNN model predicts it may be effective for **Fibromatosis, Gingival** (gum overgrowth), but there are **0 clinical trials** and **0 publications** supporting this direction. This is a model prediction only.
+Pembrolizumab is a PD-1 immune checkpoint inhibitor, originally used for non-small cell lung cancer, lung cancer and metastatic melanoma.
+The TxGNN model predicts it may be effective for **gingival fibromatosis** with a very high score, but **no clinical trials and no publications** support this prediction, so it is a computational signal only.
 
 ---
 
@@ -42,9 +42,10 @@ The TxGNN model predicts it may be effective for **Fibromatosis, Gingival** (gum
 
 | Item | Content |
 |------|------|
+| Original Indication | Non-small cell lung cancer, lung cancer, metastatic melanoma (from the TxGNN knowledge graph; the Singapore licence records contain no indication text) |
 | Predicted New Indication | Fibromatosis, gingival |
 | TxGNN Prediction Score | 99.40% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 2 |
 | Recommended Decision | Hold |
@@ -53,32 +54,38 @@ The TxGNN model predicts it may be effective for **Fibromatosis, Gingival** (gum
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the record. Pembrolizumab blocks PD-1, which releases the brake on T cells so they can attack tumours. Its established role is in oncology, for example in non-small cell lung cancer.
+Pembrolizumab is a humanized antibody that blocks the PD-1 receptor (PDCD1, CD279) on T cells. This releases the brake on tumour-specific immune responses. It is approved internationally for many cancers, including melanoma and non-small cell lung cancer. Detailed mechanism of action data were not available in the data compiled for this report, but the target is well documented.
 
-This prediction is not mechanistically plausible. Gingival fibromatosis is a fibroblast-driven overgrowth of gum tissue, and PD-1 blockade has no known role in fibroblast proliferation. The high score (0.994) comes from patterns in the knowledge graph, not from clinical or literature support. It should be treated as a graph artifact until independent evidence appears.
+The link between the original indications and gingival fibromatosis is weak. Gingival fibromatosis is a benign, non-neoplastic fibrotic overgrowth of the gums, and there is no established rationale for PD-1 blockade in it. The high score appears to be a computational prediction only. Immune checkpoint inhibitors can also cause immune-related adverse events, so potential harm in a benign condition must be weighed carefully.
+
+Other predictions in the list are noted below for context. None has strong supporting evidence:
+
+- **Lung hilum carcinoma (rank 4):** it lies within the lung cancer spectrum where pembrolizumab is already approved. Evidence is limited to three case reports, so it is largely an extension of the existing indication.
+- **Lung benign neoplasm (rank 6):** the retrieved literature is almost entirely about malignant lung cancer, including several phase 3 RCTs. This is likely a term-mapping artifact and should not be credited to benign neoplasms.
+- **Lung germ cell tumour (rank 9):** the trials found were broad thoracic and solid tumour studies, not germ cell tumour studies. A trial-level eligibility check is needed.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for the predicted indication (gingival fibromatosis).
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for the predicted indication.
 
 ---
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN14881P | KEYTRUDA Solution for Infusion 25mg/mL | Infusion, solution concentrate |
-| SIN16677P | Pembrolizumab Solution for Infusion 25mg/mL | Infusion, solution concentrate |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN14881P | KEYTRUDA Solution for Infusion 25mg/mL | Infusion, solution concentrate | Not stated in the licence record |
+| SIN16677P | Pembrolizumab Solution for Infusion 25mg/mL | Infusion, solution concentrate | Not stated in the licence record |
 
-Both registrations are intravenous infusion products from MSD. The approved indication text is not stated in the registration records.
+Both licences are valid single-ingredient products, and both are injectable (intravenous infusion) only.
 
 ---
 
@@ -86,17 +93,23 @@ Both registrations are intravenous infusion products from MSD. The approved indi
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Immunotherapy (anti-PD-1 monoclonal antibody), not a conventional cytotoxic |
+| Cytotoxicity Classification | Immunotherapy (PD-1 checkpoint inhibitor), not a conventional cytotoxic |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert; immune-related adverse events (endocrine, hepatic, pulmonary, skin, neurologic, muscle) are the main concern |
 | Handling Protection | Please refer to the package insert warnings and precautions |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug-interaction records were found.
+- **Drug Interactions:** 13 interaction records were found.
+  - **Major (3):** lenalidomide, pomalidomide, thalidomide.
+  - **Moderate (9):** the corticosteroids hydrocortisone, triamcinolone, dexamethasone, betamethasone, budesonide, prednisolone, prednisone, methylprednisolone and deflazacort.
+  - The remaining record is the pharmacological target entry (PD-1), not an interacting drug.
+- **Immune-related adverse events:** the literature retrieved for this report describes events such as endocrinopathies, myositis, myocarditis, myasthenia gravis and neurologic toxicity. This is a particular concern for muscle or neurologic predicted indications.
+
+Please refer to the package insert for warnings and contraindications.
 
 ---
 
@@ -105,13 +118,14 @@ Please refer to the package insert for safety information. No drug-interaction r
 **Decision: Hold**
 
 **Rationale:**
-The indication rests on a graph score alone, with no trials, no literature and no mechanistic rationale. Giving an immune-activating cancer drug to treat a benign fibrotic condition is not supported by anything in the current record.
+The top-ranked prediction, gingival fibromatosis, has no clinical trials, no literature and no plausible mechanism. The score of 99.40% is a model output only (L5). Pembrolizumab's strong evidence lies in its existing cancer indications, not in this prediction.
 
 **To proceed, the following is needed:**
-- The HSA package insert (warnings and contraindications), which is currently blocking any safety screening
-- Detailed mechanism of action data from DrugBank
-- Any disease-specific preclinical or clinical evidence linking PD-1 blockade to gingival fibromatosis
-- Among the other ranked predictions, only the oncology-related ones (e.g., lung hilum carcinoma) have a plausible link and may deserve review separately
+- Mechanistic data (MOA) and a biological rationale for PD-1 blockade in gingival fibromatosis
+- Package insert warnings and contraindications from the HSA, which are currently missing and block safety screening
+- Singapore approved indication text for the two licences
+- A trial-level review of the lung germ cell tumour trial list (44 trials) for germ cell tumour eligibility, and a review of the hilum carcinoma case reports, if a lung-related candidate is to be pursued instead
+- A risk-benefit assessment for a benign condition, given immune-related adverse events
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

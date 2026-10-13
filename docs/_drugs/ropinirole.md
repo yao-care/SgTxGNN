@@ -2,15 +2,15 @@
 layout: default
 title: Ropinirole
 parent: Medium Evidence (L3-L4)
-nav_order: 874
-evidence_level: L4
+nav_order: 883
+evidence_level: L3
 indication_count: 10
 ---
 
 # Ropinirole
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,33 +29,33 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Ropinirole: From Parkinson's Disease and Restless Legs Syndrome to Attention Deficit-Hyperactivity Disorder
+# Ropinirole: From Restless Legs Syndrome and Parkinson Disease to Attention Deficit-Hyperactivity Disorder
 
 ## One-Sentence Summary
 
-Ropinirole is a dopamine agonist used for restless legs syndrome (RLS) and Parkinson's disease. The Singapore licence records provided do not state an approved indication.
-The TxGNN model predicts it may be effective for **attention deficit-hyperactivity disorder (ADHD)**, but there are **0 registered clinical trials**.
-Only **1 case report** and **1 narrative review** bear directly on this link, so the evidence is weak.
+Ropinirole is a dopamine agonist originally used to treat restless legs syndrome and Parkinson disease.
+The TxGNN model predicts it may be effective for **attention deficit-hyperactivity disorder (ADHD)**,
+with **no registered clinical trials** but **8 publications** in the compiled data, including one case report in a child and one 2026 study of ropinirole added to methylphenidate that is still awaiting verification.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore licence records. Ropinirole is generally known for Parkinson's disease and RLS. |
-| Predicted New Indication | Attention deficit-hyperactivity disorder (ADHD) |
+| Original Indication | Restless legs syndrome, Parkinson disease (the Singapore licence records contain no approved-indication text) |
+| Predicted New Indication | Attention deficit-hyperactivity disorder |
 | TxGNN Prediction Score | 99.99% |
-| Evidence Level | L4 |
+| Evidence Level | L3 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 5 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Ropinirole is a D2/D3 dopamine receptor agonist. Dopaminergic dysfunction is central to ADHD, which gives the prediction a plausible pharmacological basis. A detailed mechanism-of-action record is not currently available for this drug, so this reasoning rests on its known drug class.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Ropinirole is known to be a D2/D3 dopamine receptor agonist, and it has established use in restless legs syndrome and Parkinson disease.
 
-The main link between the original and new indications is that ADHD and RLS often occur together. A 2005 review (PMID 16218085) examined this association and discussed the case for treating both conditions with common drugs. The only direct clinical observation is a single case report (PMID 15866437). A 6-year-old boy had ADHD and probable RLS and responded poorly to methylphenidate. Ropinirole improved both his ADHD symptoms and his sleep.
+ADHD involves dysregulation of dopamine signalling, and it often occurs together with restless legs syndrome. Because restless legs syndrome is an approved use of ropinirole, the two conditions may share a dopaminergic pathway. A published review (Cortese et al., 2005) discusses this association and the potential for common treatments.
 
-This evidence has clear limits. Any ADHD benefit may be secondary to better RLS control and sleep. One case cannot show a direct effect on ADHD, and no trials exist. Pediatric safety also needs separate assessment, particularly impulse-control effects and sleepiness.
+The direct clinical support is thin. One case report describes a 6-year-old boy with ADHD and restless legs/periodic limb movements, in whom ropinirole improved both ADHD symptoms and sleep. A 2026 publication (PMID 42640474) appears to be a randomized, double-blind, placebo-controlled trial of ropinirole added to methylphenidate in 66 children and adolescents aged 6–17. Its results are not available in the compiled data. If its design is confirmed, the evidence level could be raised after full-text review.
 
 ## Clinical Trial Evidence
 
@@ -65,54 +65,44 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [16218085](https://pubmed.ncbi.nlm.nih.gov/16218085/) | 2005 | Review | Sleep | Reviews the association between RLS and ADHD, possible shared mechanisms, and the potential value of common pharmacologic treatments when both occur. |
-| [18656214](https://pubmed.ncbi.nlm.nih.gov/18656214/) | 2008 | Review | Revue neurologique | General review of RLS clinical features and prevalence (2–3% in Western populations). Not specific to ADHD or ropinirole. |
-| [15866437](https://pubmed.ncbi.nlm.nih.gov/15866437/) | 2005 | Case report | Pediatric neurology | A child with ADHD and RLS had a significant improvement in both ADHD symptoms and sleep problems on ropinirole after limited benefit from methylphenidate. |
-| [34182128](https://pubmed.ncbi.nlm.nih.gov/34182128/) | 2021 | Preclinical | Pharmacological research | In vitro study of dopamine D4 receptor variants and α2A adrenoceptors, both linked to ADHD. Supports the dopamine-ADHD mechanism but does not test ropinirole. |
-| [17483695](https://pubmed.ncbi.nlm.nih.gov/17483695/) | 2007 | Preclinical | J Neuropathol Exp Neurol | Mouse model of RLS (A11 lesion plus iron deprivation). Indirect relevance only. |
-| [24992083](https://pubmed.ncbi.nlm.nih.gov/24992083/) | 2014 | Clinical study (RCT-type comparison) | Clin Neuropharmacol | 11-week comparison of piribedil with pramipexole and ropinirole on vigilance in Parkinson's patients with daytime sleepiness. Not an ADHD study. |
-| [30950895](https://pubmed.ncbi.nlm.nih.gov/30950895/) | 2019 | Case series (adverse event) | Cornea | Corneal edema in 3 patients exposed to dopaminergic agents. A safety signal, not efficacy evidence. |
-| [30460371](https://pubmed.ncbi.nlm.nih.gov/30460371/) | 2019 | Case report (adverse event) | Acta Derm Venereol | Treatment-induced delusions of infestation linked to increased brain dopamine levels. No abstract available. A safety signal, not efficacy evidence. |
+| [42640474](https://pubmed.ncbi.nlm.nih.gov/42640474/) | 2026 | RCT (suspected from title; needs verification) | Eur Child Adolesc Psychiatry | 8-week, double-blind study in 66 outpatients aged 6–17 comparing ropinirole plus methylphenidate with placebo plus methylphenidate; results not available in the data |
+| [16218085](https://pubmed.ncbi.nlm.nih.gov/16218085/) | 2005 | Review | Sleep | Reviews the association between restless legs syndrome and ADHD and the possibility of shared treatments |
+| [18656214](https://pubmed.ncbi.nlm.nih.gov/18656214/) | 2008 | Review | Rev Neurol | General review of restless legs syndrome (a sensorimotor disorder affecting 2–3% of people in Western countries) |
+| [15866437](https://pubmed.ncbi.nlm.nih.gov/15866437/) | 2005 | Case report | Pediatr Neurol | A 6-year-old with ADHD and restless legs had a significant improvement in ADHD symptoms and sleep with ropinirole |
+| [34182128](https://pubmed.ncbi.nlm.nih.gov/34182128/) | 2021 | Preclinical | Pharmacol Res | Receptor heteromerization between α2A adrenoceptors and dopamine D4 variants, relevant to ADHD and impulse control |
+| [30950895](https://pubmed.ncbi.nlm.nih.gov/30950895/) | 2019 | Safety report | Cornea | Corneal edema in 3 patients exposed to dopaminergic agents |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN13763P | Requip PD 24 Hour Prolonged Release Tablets (2mg) | Film-coated extended-release tablet |
-| SIN13764P | Requip PD 24 Hour Prolonged Release Tablets (4mg) | Film-coated extended-release tablet |
-| SIN10975P | REQUIP TABLET 2 mg | Film-coated tablet |
-| SIN10976P | REQUIP TABLET 0.25 mg | Film-coated tablet |
-| SIN11018P | REQUIP TABLET 1 mg | Film-coated tablet |
-
-All five products are oral, and the manufacturer is Glaxo Wellcome S.A. The records provided contain no approved-indication text.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN13763P | Requip PD 24 Hour Prolonged Release Tablets (2mg) | Film-coated extended-release tablet | Not stated in the available records |
+| SIN13764P | Requip PD 24 Hour Prolonged Release Tablets (4mg) | Film-coated extended-release tablet | Not stated in the available records |
+| SIN10975P | REQUIP TABLET 2 mg | Film-coated tablet | Not stated in the available records |
+| SIN10976P | REQUIP TABLET 0.25 mg | Film-coated tablet | Not stated in the available records |
+| SIN11018P | REQUIP TABLET 1 mg | Film-coated tablet | Not stated in the available records |
 
 ## Safety Considerations
 
-No package insert warnings, contraindications, or drug interaction data are available. Please refer to the package insert for safety information.
+- **Disease-level cautions (from a knowledge graph, not label text)**: Ropinirole is flagged as contraindicated or to be used with caution in multiple system atrophy, postural orthostatic tachycardia syndrome, orthostatic hypotension and other hypotensive disorders, drug-induced dyskinesia, liver failure, and psychotic disorders (including schizophreniform and schizoaffective disorders and mental disorders in general).
+- **Drug Interactions**: 100 interactions were found. The ones rated Moderate are morphine (including liposomal morphine), cimetidine, dronabinol, obeticholic acid, metoclopramide, nabilone and opium. Several others are rated Unknown, including calcitriol, phentermine, pantoprazole and glimepiride.
+- **Other signals in the literature**: A Swedish register study found an increased risk of gambling disorder with ropinirole, pramipexole, and aripiprazole. Corneal edema has been reported with dopaminergic agents. These are relevant for a paediatric population.
 
-The retrieved literature raises these signals for dopamine agonists, including ropinirole:
-- **Impulse-control problems**: a Swedish nationwide register study (PMID 34061895) linked ropinirole, pramipexole and aripiprazole to a higher risk of gambling disorder.
-- **Psychiatric effects**: delusions and psychosis-like symptoms have been reported with dopaminergic treatment (PMIDs 30460371, 20620094).
-- **Sleepiness**: excessive daytime sleepiness is described in Parkinson's patients on ropinirole or pramipexole (PMID 24992083).
-- **Eye effects**: corneal edema has been reported with systemic dopaminergic agents (PMID 30950895).
-
-These matter especially for a pediatric ADHD population.
+Please refer to the package insert for the full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The only direct evidence for ADHD is a single pediatric case report in a child who also had RLS. No clinical trials exist, and the model score alone is not enough to justify moving forward. The package insert safety review is still missing, which blocks the safety screening step.
-
-Nine other predicted indications (for example schizophrenia, X-linked myopia, and Charcot-Marie-Tooth disease type 1G) are also on hold. They have no meaningful supporting evidence or a plausible mechanistic link. For schizophrenia, safety concerns outweigh the indirect evidence.
+The prediction score is very high, and there is a plausible dopaminergic link through restless legs syndrome. However, there are no registered trials, and the only direct evidence is a single case report plus one 2026 study whose design and results have not been verified. Package insert safety data are also missing, and the population would be children.
 
 **To proceed, the following is needed:**
-- The HSA package insert, to extract warnings and contraindications.
-- Mechanism of action data from DrugBank.
-- A pediatric safety assessment covering impulse-control effects, sleepiness, and psychiatric adverse events.
-- Controlled studies in children with ADHD, ideally separating the ADHD effect from the effect of treating RLS.
-- Review of ADHD-specific trial registries beyond ClinicalTrials.gov.
+- Full-text review of PMID 42640474 to confirm its design, results, and safety findings; if it is a sound RCT, the evidence level and decision can be reconsidered
+- Package insert warnings and contraindications from the HSA, and the approved indication text for the Singapore licences
+- Detailed mechanism of action data
+- Paediatric safety review, including impulse control, psychiatric effects, and low blood pressure
+- Confirmation of any registered or ongoing ADHD trials
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

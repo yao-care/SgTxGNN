@@ -2,7 +2,7 @@
 layout: default
 title: Eribulin
 parent: Low Evidence (L5)
-nav_order: 391
+nav_order: 395
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,21 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Eribulin: From Cancer Chemotherapy to Autosomal Recessive Familial Mediterranean Fever
+# Eribulin: From Liposarcoma to Autosomal Recessive Familial Mediterranean Fever
 
 ## One-Sentence Summary
 
-Eribulin is a cytotoxic microtubule-targeting drug given by injection. It is generally known as a cancer chemotherapy, but the supplied HSA record does not state its approved indication.
+Eribulin is a cytotoxic chemotherapy originally used to treat liposarcoma.
 The TxGNN model predicts it may be effective for **autosomal recessive familial Mediterranean fever (FMF)**, with a very high score.
-There are **0 clinical trials** and **0 publications** supporting this specific prediction, so it is a model prediction only.
+However, **no clinical trials and no publications** currently support this prediction, so it rests on the model output alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the supplied HSA record (generally known as a cancer chemotherapy) |
+| Original Indication | Liposarcoma |
 | Predicted New Indication | Autosomal recessive familial Mediterranean fever |
 | TxGNN Prediction Score | 99.82% |
 | Evidence Level | L5 |
@@ -49,54 +51,84 @@ There are **0 clinical trials** and **0 publications** supporting this specific 
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the supplied record. Based on the information available, eribulin is a cytotoxic tubulin-polymerization inhibitor, and its antitumour activity is generally recognised in cancer settings.
+Eribulin inhibits microtubule dynamics, which blocks cell division. This makes it useful against rapidly proliferating tumours such as soft tissue sarcoma. Detailed mechanism-of-action data were not available in the data compiled for this report, so this description is based on the drug's known pharmacology.
 
-The likely reason for the prediction is microtubule (tubulin) biology. Colchicine, the standard therapy for FMF, also acts on microtubules, so the knowledge graph probably links the two drugs through this shared target class.
+FMF is a hereditary autoinflammatory disease. It is driven by dysregulation of the MEFV/pyrin inflammasome, not by uncontrolled cell growth. The only loose conceptual link is that colchicine, the standard FMF therapy, also acts on microtubules. That is a weak parallel. A cytotoxic chemotherapy is not a plausible treatment for a chronic, non-malignant inflammatory condition. The high TxGNN score (0.998) is most likely an artifact of the knowledge graph structure and not a real biological signal.
 
-That link is weak as a clinical rationale. FMF is a chronic autoinflammatory disease that needs long-term, well-tolerated treatment. Eribulin carries significant myelosuppression and neuropathy risk, which makes it an unlikely fit. The high score probably reflects graph proximity rather than a true therapeutic signal.
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
+
+---
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN13917P | Halaven Solution for Injection 0.5mg/mL | Injection, solution | Not listed in the supplied record |
+| SIN13917P | Halaven Solution for Injection 0.5mg/mL | Injection, solution | Not stated in the registration record |
+
+The product is a valid single-ingredient registration.
+
+---
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (microtubule inhibitor) |
-| Myelosuppression Risk | High (significant myelosuppression noted; neuropathy is also a key concern) |
-| Emetogenicity Classification | Low to moderate (general class expectation; confirm against the label) |
-| Monitoring Items | CBC with differential, liver and renal function, neuropathy assessment |
+| Cytotoxicity Classification | Conventional cytotoxic (microtubule dynamics inhibitor) |
+| Myelosuppression Risk | High (neutropenia and thrombocytopenia are listed among the drug's contraindicated conditions in the knowledge graph) |
+| Emetogenicity Classification | Low to moderate |
+| Monitoring Items | CBC with differential, liver and renal function, electrolytes (potassium, magnesium), ECG for QT interval, neurological assessment for peripheral neuropathy |
 | Handling Protection | Must follow cytotoxic drug handling regulations |
+
+Please also refer to the package insert warnings and precautions.
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug-interaction records were found in the supplied data.
+- **Disease-level contraindication signals (from the knowledge graph, not label text)**: long QT syndrome (including familial), thrombocytopenia, neutropenia, agranulocytosis, potassium deficiency, peripheral nervous system disease and peripheral neuropathy, and constipation disorder.
+- **Drug Interactions**: 100 interactions were identified in total. The two rated **Major** are:
+  - Dolasetron
+  - Cisapride
+
+  Both are likely related to QT prolongation. Many **Moderate** interactions were also found, including:
+  - Antiemetics: ondansetron, palonosetron
+  - Antibiotics: clarithromycin, levofloxacin, metronidazole, tinidazole
+  - Statins: simvastatin, rosuvastatin
+  - Laxatives and bowel-preparation agents: bisacodyl, lactulose, polyethylene glycol
+  - Others: famotidine, loperamide
+
+For full warnings and contraindications, please refer to the package insert.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no trial or literature support, and its only apparent basis is a shared tubulin target with colchicine. A myelosuppressive, neurotoxic cytotoxic drug is a poor fit for a chronic autoinflammatory disease.
+The prediction is supported only by the model score. There are no trials or publications, and the biological rationale is weak. FMF is a non-malignant inflammatory disease, and eribulin is a toxic cytotoxic drug with significant myelosuppression, neuropathy and QT risks. The risk-benefit balance is unfavourable, and well-established, safer FMF therapies exist.
 
 **To proceed, the following is needed:**
-- The HSA package insert (warnings, contraindications, approved indication), which is currently a blocking gap for safety screening
-- Detailed mechanism-of-action data (for example, from DrugBank)
-- An independent literature and trial search for eribulin in FMF, including colchicine-resistant disease
-- Consideration of better-supported candidates from the same prediction list. The strongest is **fibroblastic neoplasm**, backed by a completed Phase 2 trial in advanced solitary fibrous tumour ([NCT03840772](https://clinicaltrials.gov/study/NCT03840772), n=16), where the pack assigns evidence level L2 and a "Research Question" status. The published results should be confirmed first.
+- Detailed mechanism of action data and a credible mechanistic link to pyrin/inflammasome biology
+- Preclinical evidence in an FMF-relevant model
+- Package insert warnings and contraindications from the Singapore regulator
+- Approved indication text for the Singapore registration
+
+**Note on other candidates:** Among the other predicted indications, **fibroblastic neoplasm** (rank 8) has the strongest support. It has a completed Phase 2 trial in advanced solitary fibrous tumour ([NCT03840772](https://clinicaltrials.gov/study/NCT03840772), n=16, no results in the data compiled), plus supporting preclinical literature. This direction is a more sensible research question than FMF and may deserve priority review.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

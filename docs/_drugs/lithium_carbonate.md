@@ -2,7 +2,7 @@
 layout: default
 title: Lithium Carbonate
 parent: Low Evidence (L5)
-nav_order: 602
+nav_order: 608
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,20 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Lithium Carbonate: From an Unrecorded Local Indication to Pseudoachondroplasia
+# Lithium Carbonate: From Bipolar Disorder to Pseudoachondroplasia
 
 ## One-Sentence Summary
 
-Lithium carbonate is registered and marketed in Singapore as CAMCOLIT-400, but the Evidence Pack does not record its approved indication.
-The TxGNN model predicts it may be effective for **Pseudoachondroplasia**, yet there are **0 clinical trials** and **0 publications** for this pair, so the prediction rests on the model score alone.
-
----
+Lithium carbonate is a long-established mood stabiliser, originally used for bipolar disorder and related affective disorders, and it is also linked to several joint conditions in the knowledge graph.
+The TxGNN model predicts it may be effective for **pseudoachondroplasia**, a rare genetic skeletal disorder.
+This prediction is supported by **0 clinical trials** and **0 publications**, so it is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded (the Singapore licence has no indication text) |
+| Original Indication | Bipolar disorder (the Singapore licence has no indication text; the original indications come from the knowledge graph, which also lists major affective disorder, manic bipolar affective disorder, rheumatoid arthritis, osteoarthritis and juvenile idiopathic arthritis) |
 | Predicted New Indication | Pseudoachondroplasia |
 | TxGNN Prediction Score | 99.98% |
 | Evidence Level | L5 |
@@ -50,61 +49,62 @@ The TxGNN model predicts it may be effective for **Pseudoachondroplasia**, yet t
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Lithium is generally known as a mood-stabilising drug, but this comes from general knowledge, not from the Evidence Pack. The Singapore licence lists no approved indication, so the link between the original and new indication cannot be assessed.
+Detailed mechanism-of-action data are not available for this report. Lithium is generally known to modulate GSK-3 and Wnt signalling, and these pathways take part in chondrocyte function and cartilage biology. That is background knowledge, not something shown by the data compiled for this report.
 
-A speculative mechanistic link exists. Pseudoachondroplasia is caused by COMP gene mutations that produce endoplasmic reticulum stress in chondrocytes (cartilage cells). Lithium inhibits GSK3 and modulates autophagy, which could theoretically affect this process. No study supports the idea, and it should be read as a hypothesis only.
+Pseudoachondroplasia is caused by COMP gene mutations, which lead to endoplasmic reticulum stress in chondrocytes and a defective cartilage matrix. The data compiled for this report do not support a direct link between lithium and this COMP-related pathology. The high score most likely reflects proximity in the knowledge graph to lithium's skeletal and joint indications (osteoarthritis, arthropathy, juvenile arthritis), not demonstrated biology.
 
-The score is very high (rank 621 in the model), but it probably reflects proximity in the knowledge graph, not proven biology. Lithium's narrow therapeutic index and its possible effects on growing skeletal tissue are unresolved safety concerns.
-
----
+The other top-ranked predictions follow the same pattern. They are rare skeletal dysplasias (for example acromesomelic dysplasia Hunter-Thompson type, brachyolmia and brachydactyly-syndactyly syndrome), and all have scores of about 99.95% to 99.98% but no clinical evidence. Lower-ranked predictions such as Behr syndrome, WHIM syndrome and moesin-deficiency immunodeficiency have plausible but untested hypotheses (neuroprotection, effects on neutrophil counts). Their evidence level is also L5.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature is available for pseudoachondroplasia.
 
----
+For context, one general review is linked to a lower-ranked prediction, brachyolmia-amelogenesis imperfecta syndrome. It does not show that lithium has been tested for that syndrome.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [31888683](https://pubmed.ncbi.nlm.nih.gov/31888683/) | 2019 | Review | Orphanet J Rare Dis | Overview of the evolving therapeutic landscape for genetic skeletal disorders; not specific to lithium |
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN01305P | CAMCOLIT-400 TABLET 400 mg | Tablet, film coated (oral) | Not stated in the licence record |
-
----
+| SIN01305P | CAMCOLIT-400 TABLET 400 mg | Film-coated tablet (oral) | Not stated in the data compiled for this report |
 
 ## Safety Considerations
 
-- **Narrow therapeutic index**: lithium's narrow therapeutic index makes safety a concern in any new use.
-- **Growing skeletal tissue**: effects on growing bone are unresolved, and pseudoachondroplasia patients are often children.
-- **Drug Interactions**: no interaction records were found in the queried source, which is not evidence that none exist.
+- **Disease-level contraindication signals (from the knowledge graph, not label text)**: kidney disease, hypothyroidism, myxedema, congenital hypothyroidism, diabetes insipidus (including neurohypophyseal and central types), cognitive disorder, psoriasis, parapsoriasis, sudden cardiac arrest, heart conduction disease and pyoureter.
+- **Drug Interactions**: The data compiled for this report list 100 interactions, of which 20 are shown. Major-level interactions are:
+  - Bupropion
+  - Lorcaserin
 
-Please refer to the package insert for full warnings and contraindications.
+  Moderate-level interactions include:
+  - Antidiabetic agents: acarbose, albiglutide, alogliptin, metformin, pioglitazone, canagliflozin, chlorpropamide
+  - Others: famotidine, loperamide, mesalazine, balsalazide, morphine, metronidazole, clarithromycin, potassium citrate
 
----
+  Minor-level interactions include doxycycline, epinephrine and acetylsalicylic acid.
+
+Package-insert warnings and contraindications are not available. Please refer to the package insert for full safety information. Lithium has a narrow therapeutic index, so this should be reviewed before any new use is considered.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no trials or publications behind it and only a speculative mechanism. The safety concerns are significant, and the Singapore licence record has no indication, warnings or contraindications to work from.
+The prediction rests only on a very high model score (99.98%). No clinical trials or publications support it, and no mechanistic link to COMP-related pseudoachondroplasia is shown. The same holds for the other nine predictions, all of which are at evidence level L5.
 
 **To proceed, the following is needed:**
-- The HSA package insert (approved indication, warnings, contraindications), which blocks any safety screening
-- Detailed mechanism of action data, for example from DrugBank
-- Preclinical evidence that lithium acts on COMP-related chondrocyte stress or growth-plate biology
-- A paediatric and skeletal safety assessment
-- A note on other predictions: for the 9 lower-ranked predictions, only brachyolmia-amelogenesis imperfecta syndrome has any literature (one 2019 general review, PMID 31888683, not yet checked for lithium content). WHIM syndrome (rank 9) is flagged as a research question because lithium raises neutrophil counts, though it does not target the underlying CXCR4 defect.
+- Package insert warnings and contraindications from the HSA, which currently block safety screening
+- Mechanism-of-action data (for example from DrugBank)
+- Preclinical evidence (cell or animal models of COMP-related chondrocyte stress) showing a benefit for lithium
+- A literature and trial search aimed specifically at lithium in skeletal dysplasias
+- A benefit-risk assessment for a narrow-therapeutic-index drug in a rare, mostly paediatric genetic condition, including renal, thyroid and cardiac monitoring
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

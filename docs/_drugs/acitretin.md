@@ -3,14 +3,14 @@ layout: default
 title: Acitretin
 parent: Medium Evidence (L3-L4)
 nav_order: 35
-evidence_level: L4
+evidence_level: L3
 indication_count: 10
 ---
 
 # Acitretin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,108 +29,94 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Acitretin: From Severe Keratinization Disorders (Psoriasis) to Acne
+# Acitretin: From Severe Keratinisation Disorders to Acne (Disease)
 
 ## One-Sentence Summary
 
-Acitretin is an oral retinoid. The literature in this Evidence Pack describes it as mainly used for psoriasis and inherited keratinization disorders, but the Singapore registration records list no approved indication.
-The TxGNN model predicts it may be effective for **acne**, but there are **0 relevant clinical trials** and only **1 acitretin-specific case report** (a patient with nodulocystic acne and hidradenitis suppurativa).
-Evidence is limited to the model prediction plus indirect retinoid-class literature.
-
----
+Acitretin is a second-generation oral retinoid. The Singapore licence records compiled for this report do not state an approved indication.
+The TxGNN model predicts it may be effective for **acne (disease)**, with **1 clinical trial** and **17 publications** retrieved.
+Most of this evidence concerns hidradenitis suppurativa (also called "acne inversa"), not acne vulgaris, so the support is indirect.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the Singapore license data. Literature indicates psoriasis and inherited keratinization disorders |
+| Original Indication | Not stated in the Singapore licence data compiled for this report |
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 99.94% |
-| Evidence Level | L4 |
+| Evidence Level | L3 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 6 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, acitretin is a second-generation oral retinoid (a vitamin A derivative). Retinoids as a class act on nuclear retinoid receptors and influence keratinocyte differentiation and sebaceous gland activity (PMID 8573927, 11586072). Acitretin's efficacy in psoriasis and keratinization disorders is documented (PMID 1617858, 8763418), and mechanistically it may be applicable to acne.
+Currently, detailed mechanism of action data is not available. Based on known information, acitretin is a second-generation oral retinoid. It normalises keratinocyte differentiation and reduces follicular hyperkeratinisation. These effects give plausible biological support for a role in follicular disorders.
 
-The link to acne is indirect. The established systemic retinoid for acne is **isotretinoin**, whose efficacy is attributed to suppression of sebaceous gland activity. Most of the retrieved "acne" literature is about isotretinoin or about hidradenitis suppurativa (acne inversa), which is a different disease from acne vulgaris. The only acitretin-specific item is a 2002 case report of a patient with severe nodulocystic acne and hidradenitis suppurativa, who had been treated with isotretinoin first. The prediction is biologically plausible but not supported by direct clinical evidence.
+Retinoids as a class reduce sebaceous gland activity, and isotretinoin is highly effective in acne. Acitretin has weaker direct sebosuppressive effects than isotretinoin. Its main clinical success has historically been in psoriasis and inherited keratinisation disorders.
 
----
+The match with the TxGNN "acne" label is partly a nomenclature artefact. The clinical evidence found concerns hidradenitis suppurativa (acne inversa), a different follicular occlusion disorder. It is not acne vulgaris. Teratogenicity with a very long washout (up to 3 years for women of childbearing potential) is a major safety constraint.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT04663906](https://clinicaltrials.gov/study/NCT04663906) | N/A | Unknown | 300 | Studies whether oral **isotretinoin** raises the risk of Covid-19 infection and complications. It does not test acitretin and does not assess acne efficacy (relevance grade C) |
-
-This is the only trial retrieved, and it provides no efficacy evidence for acitretin in acne.
-
----
+| [NCT07708480](https://clinicaltrials.gov/study/NCT07708480) | Phase 4 | Completed | 70 | Randomised comparison of apremilast (30 mg twice daily) vs acitretin (25 mg twice daily) for 12 weeks in moderate-to-severe hidradenitis suppurativa. The primary outcome was IHS4 score. Results are not available, and the condition is not acne vulgaris. |
 
 ## Literature Evidence
 
-No RCTs were found. The entries below are the most relevant items, ordered by study type. Only PMID 12080949 and PMID 20874789 concern acitretin directly.
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [25640693](https://pubmed.ncbi.nlm.nih.gov/25640693/) | 2015 | Guideline | J Eur Acad Dermatol Venereol | European S1 guideline for hidradenitis suppurativa/acne inversa (a different disease from acne vulgaris) |
-| [28476075](https://pubmed.ncbi.nlm.nih.gov/28476075/) | 2017 | Systematic Review | Cochrane Database Syst Rev | Review of drugs for discoid lupus erythematosus. Relevant to the lupus prediction, not acne |
-| [8573927](https://pubmed.ncbi.nlm.nih.gov/8573927/) | 1995 | Review | Dermatology | Isotretinoin's anti-acne effect is attributed to inhibition of sebaceous gland activity. Asks whether newer oral retinoids can be predicted to work the same way |
-| [1617858](https://pubmed.ncbi.nlm.nih.gov/1617858/) | 1992 | Review | Clin Pharmacokinet | Isotretinoin helps severe acne. Etretinate and acitretin have had their main success in psoriasis |
-| [9074840](https://pubmed.ncbi.nlm.nih.gov/9074840/) | 1997 | Review | Drugs | Overview of retinoid use in psoriasis, keratinization disorders, severe acne, and skin cancer chemoprevention |
-| [41692081](https://pubmed.ncbi.nlm.nih.gov/41692081/) | 2026 | Review | Clin Dermatol | Vitamin A and retinoids in dermatology. Lists acitretin among the oral retinoids |
-| [26617362](https://pubmed.ncbi.nlm.nih.gov/26617362/) | 2016 | Review | Dermatol Clin | Medical treatments for hidradenitis suppurativa: more options but low levels of evidence |
-| [33036809](https://pubmed.ncbi.nlm.nih.gov/33036809/) | 2020 | Consensus | An Bras Dermatol | Consensus on oral isotretinoin. Effective for acne, and the most serious risk is dose-independent teratogenicity |
-| [12080949](https://pubmed.ncbi.nlm.nih.gov/12080949/) | 2002 | Case report | Cutis | Patient with severe nodulocystic acne and hidradenitis suppurativa. Two isotretinoin courses gave improvement, but some draining cysts persisted (the abstract is truncated, so the acitretin outcome is not visible here) |
-| [20874789](https://pubmed.ncbi.nlm.nih.gov/20874789/) | 2011 | Clinical report | Br J Dermatol | Long-term results of acitretin for hidradenitis suppurativa. Notes that isotretinoin has limited effect in this disease and that scattered case reports describe promising results with acitretin |
-
----
+| [25640693](https://pubmed.ncbi.nlm.nih.gov/25640693/) | 2015 | Guideline | J Eur Acad Dermatol Venereol | European S1 guideline for hidradenitis suppurativa/acne inversa |
+| [20874789](https://pubmed.ncbi.nlm.nih.gov/20874789/) | 2011 | Clinical study | Br J Dermatol | Long-term results of acitretin in hidradenitis suppurativa. Earlier case reports described promising results. |
+| [12080949](https://pubmed.ncbi.nlm.nih.gov/12080949/) | 2002 | Case report | Cutis | Patient with nodulocystic acne and hidradenitis suppurativa treated with acitretin |
+| [41692081](https://pubmed.ncbi.nlm.nih.gov/41692081/) | 2026 | Review | Clin Dermatol | Vitamin A and retinoids in dermatology, including oral acitretin |
+| [29234829](https://pubmed.ncbi.nlm.nih.gov/29234829/) | 2018 | Review | Hautarzt | Drug therapy of acne inversa: antibiotics, TNF-α inhibitors |
+| [9074840](https://pubmed.ncbi.nlm.nih.gov/9074840/) | 1997 | Review | Drugs | Retinoids in psoriasis, severe acne and related dermatoses, and skin cancer chemoprevention |
+| [8573927](https://pubmed.ncbi.nlm.nih.gov/8573927/) | 1995 | Review | Dermatology | Retinoids and sebaceous gland activity. Isotretinoin's anti-acne effect is linked to sebaceous inhibition. |
+| [1617858](https://pubmed.ncbi.nlm.nih.gov/1617858/) | 1992 | Review | Clin Pharmacokinet | Pharmacokinetics and efficacy of retinoids in skin diseases. Acitretin is mainly successful in psoriasis. |
+| [11586072](https://pubmed.ncbi.nlm.nih.gov/11586072/) | 2001 | Review | Skin Pharmacol Appl Skin Physiol | Mechanisms of retinoid action and future dermatological indications |
+| [2112772](https://pubmed.ncbi.nlm.nih.gov/2112772/) | 1990 | Laboratory study | Prostaglandins | Retinoids, including acitretin, inhibit eosinophil LTC4 release, which may contribute to anti-inflammatory effects |
 
 ## Singapore Market Information
 
-The record reports 6 registrations in total, but only 5 are itemized in the data provided. None of them states an approved indication.
+The approved indication text is not recorded for any of the licences.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN16829P | ACITRET CAPSULE 25MG | Capsule | Not stated in the record |
-| SIN08392P | NEOTIGASON CAPSULE 25 mg | Capsule | Not stated in the record |
-| SIN15271P | NOVATRETIN CAPSULE 10MG | Capsule | Not stated in the record |
-| SIN16830P | ACITRET CAPSULE 10MG | Capsule | Not stated in the record |
-| SIN08391P | NEOTIGASON CAPSULE 10 mg | Capsule | Not stated in the record |
+| SIN16829P | ACITRET CAPSULE 25MG | Capsule | Not recorded |
+| SIN08392P | NEOTIGASON CAPSULE 25 mg | Capsule | Not recorded |
+| SIN15271P | NOVATRETIN CAPSULE 10MG | Capsule | Not recorded |
+| SIN16830P | ACITRET CAPSULE 10MG | Capsule | Not recorded |
+| SIN08391P | NEOTIGASON CAPSULE 10 mg | Capsule | Not recorded |
 
-All products are oral capsules.
-
----
+A sixth licence, SIN15270P (NOVATRETIN CAPSULE 25MG), is also valid. All six licences are for oral capsules.
 
 ## Safety Considerations
 
-- **Teratogenicity**: Acitretin is a known teratogen and is contraindicated in pregnancy. This is a serious limitation for any expansion of use, including in women of childbearing potential.
-- **Other class concerns noted in the pack**: Pediatric bone and growth safety concerns, and dry eye and ocular surface adverse effects, are typical of systemic retinoids.
-- **Drug Interactions**: No interaction records were found in the queried source.
+- **Contraindications flagged by the knowledge graph (not label text)**: liver failure, drug-induced liver injury, pancreatitis, hypertriglyceridemia, diabetes mellitus, diabetic ketoacidosis, obesity, pseudotumor cerebri/intracranial hypertension, vision disorders including night blindness and blindness, hypoalphalipoproteinemia, hyperostosis, substance abuse/dependence, anxiety, neurotic and dysthymic disorders.
+- **Pregnancy**: Acitretin is strongly teratogenic and has a very long washout (up to 3 years for women of childbearing potential).
+- **Drug Interactions** (100 interactions recorded; the main ones are listed):
+  - **Major**: doxycycline, minocycline, tetracycline, vitamin A.
+  - **Moderate**: sulfonylureas (acetohexamide, chlorpropamide, glimepiride, glipizide, glyburide, tolazamide, tolbutamide) and naltrexone.
 
-Please refer to the package insert for complete warnings and contraindications. The package insert has not yet been retrieved.
-
----
+The package insert warnings and contraindications were not available for this report. Please refer to the package insert for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The high TxGNN score (99.94%) is not backed by acitretin-specific clinical evidence. The only trial concerns isotretinoin and Covid-19, and the only acitretin-specific item is a single case report in a mixed acne and hidradenitis suppurativa patient. Isotretinoin is already the established systemic retinoid for acne, and the package insert safety data has not been retrieved (a blocking data gap).
-
-The other 9 predicted indications (for example pediatric systemic lupus erythematosus, fetal erythroblastosis, subacute bacterial endocarditis) have no supporting evidence and are also on Hold.
-The Sjögren syndrome prediction appears to be a disease-name mapping error. The retrieved literature concerns Sjögren-Larsson syndrome, an inherited ichthyosis, and should be tracked under that entity.
+The only trial is a Phase 4 study in hidradenitis suppurativa, with no results available, and nearly all the literature concerns that condition or other retinoids rather than acne vulgaris. Acitretin's weaker sebosuppressive effect, the teratogenicity risk and the long washout make it an unlikely choice over isotretinoin without direct evidence.
 
 **To proceed, the following is needed:**
-- Retrieve the HSA package insert warnings and contraindications, which is the blocking gap.
-- Retrieve mechanism of action data from DrugBank.
-- Search for acitretin-specific, acne-specific studies, and consider whether the real signal is hidradenitis suppurativa or Sjögren-Larsson syndrome.
-- Assess the benefit-risk balance against isotretinoin, including the teratogenicity risk-management requirements in women of childbearing potential.
+- Package insert warnings and contraindications from HSA, and approved indication text for the Singapore licences
+- Mechanism of action data
+- Direct controlled evidence in acne vulgaris, or a clear decision to treat hidradenitis suppurativa as a separate indication
+- Results of NCT07708480
+- A pregnancy-prevention and monitoring plan covering liver function, lipids and ocular effects
+
+**Other predicted indications:** The remaining nine predictions (ranks 2–10) have no direct evidence and should be held. These are pediatric systemic lupus erythematosus, fetal erythroblastosis, familial cutaneous telangiectasia with oropharyngeal cancer predisposition, complement component 4a deficiency, subacute bacterial endocarditis, familial acanthosis nigricans, prolapse of lacrimal gland, familial localised heat urticaria and Sjögren syndrome. Several are implausible: fetal erythroblastosis (teratogenic risk), endocarditis (no antimicrobial activity) and lacrimal gland prolapse (acitretin causes dry eye). The Sjögren syndrome literature concerns Sjögren-Larsson syndrome, a different inherited ichthyosis disorder.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

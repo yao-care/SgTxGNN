@@ -2,7 +2,7 @@
 layout: default
 title: Ocrelizumab
 parent: Low Evidence (L5)
-nav_order: 722
+nav_order: 730
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,18 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ocrelizumab: From Multiple Sclerosis to HER2-Positive Breast Carcinoma
+# Ocrelizumab: From Progressive Multiple Sclerosis to HER2-Positive Breast Carcinoma
 
 ## One-Sentence Summary
 
-Ocrelizumab is an anti-CD20 antibody that depletes B cells and is marketed in Singapore as OCREVUS. The registration record does not state its approved indication; multiple sclerosis is inferred from the pack's safety notes. The TxGNN model ranks **HER2-positive breast carcinoma** as its top new prediction, but there are **0 clinical trials** and **0 publications** supporting it, so this is a model prediction only.
+Ocrelizumab is an anti-CD20 antibody originally used to treat progressive multiple sclerosis.
+The TxGNN model predicts it may be effective for **HER2-positive breast carcinoma**, but there are currently **0 clinical trials** and **0 publications** supporting this specific indication. This is a computational prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Multiple sclerosis (inferred from the pack's safety notes; the registration text is blank) |
-| Predicted New Indication | HER2 positive breast carcinoma |
+| Original Indication | Progressive multiple sclerosis |
+| Predicted New Indication | HER2-positive breast carcinoma |
 | TxGNN Prediction Score | 99.89% |
 | Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
@@ -49,14 +50,11 @@ Ocrelizumab is an anti-CD20 antibody that depletes B cells and is marketed in Si
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the Evidence Pack. Ocrelizumab is known to be an anti-CD20 antibody that depletes B cells.
+Currently, detailed mechanism of action data is not available in the compiled data. Based on known information, ocrelizumab is a humanized monoclonal antibody that selectively depletes CD20-positive B cells. Its efficacy in multiple sclerosis is well documented (the OPERA I/II and ORATORIO trials).
 
-The mechanistic case for breast cancer is weak. Breast carcinoma cells do not express CD20, so the drug has no direct target on the tumour. The only speculative link is an indirect one, through tumour-infiltrating B cells in the HER2-positive microenvironment, and nothing in this pack supports it. The high score is more likely a knowledge-graph artifact from shared breast-cancer neighbours than independent evidence.
+No direct link to HER2-driven breast cancer biology was identified. A possible connection, such as B cells within the tumour microenvironment, is speculative, and B-cell depletion could be neutral or even unfavourable for anti-tumour immunity.
 
-The nine lower-ranked predictions share this profile:
-- **Other breast cancer subtypes** (progesterone-receptor positive, progesterone-receptor negative, normal breast-like, luminal A/B): no supporting trials or literature. The first two share an identical score (0.99813), which suggests an inherited graph signal.
-- **Benign neoplasms** (tongue, hypopharynx, buccal mucosa): no biological rationale for anti-CD20 therapy.
-- **Neural-crest and nerve-sheath tumours** (cervical neuroblastoma, jugular foramen schwannoma): these tumours do not express CD20, so there is no mechanistic basis.
+Several other breast-related predictions (progesterone-receptor positive, normal breast-like subtype, progesterone-receptor negative, luminal A or B) have nearly identical scores of about 0.998. This suggests the model is propagating a shared breast-cancer signal rather than indication-specific evidence. The lower-ranked predictions (benign tongue, hypopharynx and buccal mucosa neoplasms, cervical neuroblastoma, jugular foramen schwannoma) also lack any supporting evidence or plausible rationale.
 
 ## Clinical Trial Evidence
 
@@ -66,37 +64,31 @@ Currently no related clinical trials registered.
 
 Currently no related literature available for HER2-positive breast carcinoma.
 
-The 19 papers retrieved for the luminal A/B prediction (rank 4) are false positives from keyword matching on "B". They cover B-cell biology, hepatitis B vaccines and B-cell lymphoma, and none addresses ocrelizumab or breast cancer. They were not counted as evidence.
-
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN16871P | OCREVUS CONCENTRATE FOR SOLUTION FOR INFUSION 300MG/10ML | Injection, solution, concentrate |
-
-Manufacturer: Roche Diagnostics GmbH & F. Hoffmann-La Roche Ltd. The only available route is injectable.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN16871P | OCREVUS Concentrate for Solution for Infusion 300mg/10mL | Injection, solution, concentrate | Not listed in the compiled data |
 
 ## Safety Considerations
 
-- **Key Warnings**: The label carries a malignancy warning. In MS trials, breast cancer was numerically more frequent in treated patients. This argues against a therapeutic benefit in breast cancer without new evidence.
-- **Drug Interactions**: No interaction records were found.
+- **Drug Interactions**: 100 interactions were identified. The main ones are **moderate**, involving corticosteroids (hydrocortisone, prednisolone, prednisone, dexamethasone, betamethasone, triamcinolone, budesonide), radiopharmaceuticals and radioimmunotherapies (iobenguane I-131, ibritumomab tiuxetan, tositumomab, samarium-153 lexidronam), and albendazole, pentamidine and levamisole. **Minor** interactions involve zinc salts (sulfate, acetate, gluconate, chloride).
+- **Other Considerations**: Prolonged B-cell depletion carries a risk of secondary hypogammaglobulinaemia, as discussed in an AAAAI work group report.
 
-Please refer to the package insert for the full safety information.
+For other safety information, including warnings and contraindications, please refer to the package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone (L5), with no trials or relevant literature. The tumour cells lack the drug's target (CD20), and the drug's own malignancy warning points in the opposite direction.
+The prediction rests only on a model score, with no clinical trials or literature for this indication. Mechanistically, there is no supported link between anti-CD20 B-cell depletion and HER2-positive breast cancer, and the near-identical scores across breast-cancer subtypes point to a non-specific model signal.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications. The pack flags this as a blocking gap that prevents safety screening.
-- Mechanism of action data from DrugBank.
-- Evidence that tumour-infiltrating B cells in HER2-positive breast cancer are a valid target for B-cell depletion.
-- Any preclinical or clinical study of anti-CD20 therapy in breast cancer.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Preclinical or mechanistic evidence for B-cell or CD20 involvement in HER2-positive breast cancer
+- Detailed mechanism of action data
+- Package insert warnings and contraindications from the HSA
+- Evidence that benefit outweighs the immunosuppression risk in an oncology setting
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

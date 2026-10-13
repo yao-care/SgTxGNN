@@ -29,21 +29,17 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Alverine: From Smooth-Muscle Antispasmodic Use to Dysthymic Disorder
+# Alverine: From Smooth Muscle Spasm to Dysthymic Disorder
 
 ## One-Sentence Summary
 
-Alverine is an oral smooth-muscle antispasmodic, and its registered indication text is not included in the Singapore data supplied.
-The TxGNN model predicts it may be effective for **Dysthymic Disorder** (chronic low-grade depression), but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction.
-This is a model-only prediction that should be held pending further evidence.
-
----
+Alverine is a smooth muscle relaxant used in some countries for gastrointestinal spasm and cramps. The TxGNN model predicts it may be effective for **dysthymic disorder**, but this is a model prediction only, with **0 clinical trials** and **0 publications** specific to this indication. The nearest supporting evidence is for related mood and anxiety conditions: one preclinical mouse study on anxiety and one computational repositioning study on depression.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the supplied registration data (alverine is generally described as a smooth-muscle antispasmodic) |
+| Original Indication | Not stated in the Singapore licence records. Reference sources describe symptomatic relief of gastrointestinal smooth muscle spasm and cramps associated with dysmenorrhoea. |
 | Predicted New Indication | Dysthymic disorder |
 | TxGNN Prediction Score | 99.83% |
 | Evidence Level | L5 |
@@ -51,59 +47,59 @@ This is a model-only prediction that should be held pending further evidence.
 | Number of Registrations | 2 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the supplied dataset. Alverine is generally described as an antispasmodic that acts on smooth muscle, with reported 5-HT1A receptor antagonist activity. This background pharmacology is not confirmed by the supplied data.
+Detailed mechanism of action data is not currently available. Based on the information compiled for this report, alverine is a synthetic smooth muscle relaxant with reported 5-HT1A receptor antagonist activity. Its pharmacology record also lists an interaction with the HNF4A transcription factor, but this has no clear link to mood disorders.
 
-The link to dysthymic disorder is speculative. If the serotonergic activity is real, it could plausibly relate to chronic depressive symptoms, because the serotonin system is implicated in mood regulation. However, the original use (gut smooth-muscle spasm) and dysthymic disorder are different disease areas, and no data bridge them.
+The serotonin system plays a recognised role in mood and anxiety disorders, so a link between alverine and dysthymia is plausible. However, no direct evidence supports it. The prediction rests on the model's graph-based inference alone.
 
-The TxGNN score of 99.83% reflects proximity in a knowledge graph, not clinical proof. Several other top-ranked predictions for alverine are also psychiatric or neurological (neurotic disorder, anxiety disorder, neurotic depression, melancholia, migraine). This suggests the model is picking up a serotonergic-type signal. That pattern is consistent, but it is not independent verification.
+Other predicted indications are mostly in the same mood and anxiety group, which gives the signal some internal consistency:
 
----
+- **Anxiety disorder (rank 3):** A 2014 mouse study reported anxiolytic-like effects of alverine citrate, consistent with 5-HT1A antagonism (L4).
+- **Neurotic depression and melancholia (ranks 5 and 6):** A 2018 network-based repositioning study nominated alverine as a potential antidepressant candidate (L4).
+- **Other predictions:** Migraine, infantile torticollis and congenital ACTH deficiency have no supporting evidence. The ACTH deficiency prediction is likely a graph artifact.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered for dysthymic disorder, nor for any of the other top-10 predicted indications.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature is available for dysthymic disorder itself. The following publications relate to neighbouring predicted indications and offer only indirect support:
 
-*For context, the closest signal across all predictions is under **anxiety disorder** (rank 3). A 2014 mouse study ([PMID 25199966](https://pubmed.ncbi.nlm.nih.gov/25199966/), *European Journal of Pharmacology*) reported anxiolytic-like effects of alverine citrate in experimental anxiety models. This is preclinical and does not apply directly to dysthymic disorder.*
-
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [25199966](https://pubmed.ncbi.nlm.nih.gov/25199966/) | 2014 | Preclinical (animal model) | European Journal of Pharmacology | Alverine citrate showed anxiolytic-like effects in mouse anxiety models, consistent with 5-HT1A antagonism. |
+| [30087074](https://pubmed.ncbi.nlm.nih.gov/30087074/) | 2018 | Computational repositioning study | European Neuropsychopharmacology | A network-based repositioning approach nominated alverine as a potential antidepressant, with possible experimental validation. |
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN17214P | ALMET CAPSULES (XL Laboratories Private Limited) | Capsule, liquid filled (oral) | Not listed in the supplied data |
-| SIN16773P | ALVERSIME SOFT CAPSULES (Phil Inter Pharma Co., Ltd.) | Capsule (oral) | Not listed in the supplied data |
+| SIN17214P | ALMET CAPSULES | Capsule, liquid filled (oral) | Not recorded in the licence data |
+| SIN16773P | ALVERSIME SOFT CAPSULES | Capsule (oral) | Not recorded in the licence data |
 
----
+Both licences are valid single-ingredient products. None are cancelled.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interactions were found in the supplied query.
+- **Drug Interactions:** The only entry compiled is a pharmacological target interaction with hepatocyte nuclear factor-4-alpha (HNF4A). It is not a drug-drug interaction and has no assigned severity level.
 
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The dysthymic disorder prediction rests on a knowledge-graph score alone. There are no trials, no literature, and no confirmed mechanism in the supplied data (Evidence Level L5). Safety data are also unavailable, so the candidate cannot move beyond the initial screening stage.
+The prediction for dysthymic disorder is supported only by a high model score (99.83%), with no trials or literature for this indication. The related evidence is limited to one mouse study and one computational study, so the indication stays at L5. The safety package is also incomplete, because package insert warnings and contraindications are unavailable.
 
 **To proceed, the following is needed:**
-- Singapore package insert warnings and contraindications (from the HSA website), which currently block safety screening
-- Verified mechanism of action data (for example, from DrugBank) to test the serotonergic rationale
-- Human clinical evidence in chronic depressive disorders. A targeted literature search is a reasonable first step.
-- Consideration of prioritizing **anxiety disorder** over dysthymic disorder for follow-up, since it is the only prediction with any direct (preclinical) support
+- Package insert warnings and contraindications from HSA, which is a blocking gap for safety screening
+- Detailed mechanism of action data, for example from DrugBank
+- Confirmation of the approved indications for the two Singapore licences
+- Human clinical or mechanistic evidence for dysthymia. A more promising near-term direction is anxiety disorder, where preclinical data exist, and this could be framed as a research question.
+- Assessment of whether the doses and formulations used in gastrointestinal care are suitable for a psychiatric indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Epoprostenol
-parent: Medium Evidence (L3-L4)
-nav_order: 382
-evidence_level: L4
+parent: Low Evidence (L5)
+nav_order: 386
+evidence_level: L5
 indication_count: 10
 ---
 
 # Epoprostenol
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,8 +33,9 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Epoprostenol is a synthetic prostacyclin (PGI2), a potent vasodilator and platelet inhibitor, used as an infusion for pulmonary arterial hypertension (PAH).
-The TxGNN model predicts it may be effective for **trigeminal autonomic cephalalgia** (for example, cluster headache) with a very high score. However, there are **0 clinical trials** and only **2 old publications**, and the available evidence suggests prostacyclin *provokes* headache rather than relieving it.
+Epoprostenol is a prostacyclin (PGI2) vasodilator, originally used mainly for pulmonary arterial hypertension.
+The TxGNN model predicts it may be effective for **trigeminal autonomic cephalalgia**, but **0 clinical trials** and **0 publications** support this prediction.
+The related migraine literature suggests epoprostenol may *provoke* headache rather than relieve it.
 
 ---
 
@@ -42,10 +43,10 @@ The TxGNN model predicts it may be effective for **trigeminal autonomic cephalal
 
 | Item | Content |
 |------|------|
-| Original Indication | Pulmonary arterial hypertension (from general drug knowledge; the Singapore licence records provided contain no indication text) |
+| Original Indication | Pulmonary arterial hypertension (taken from the knowledge-graph indication list, because the Singapore licence records do not state an indication) |
 | Predicted New Indication | Trigeminal autonomic cephalalgia |
 | TxGNN Prediction Score | 98.41% |
-| Evidence Level | L4 |
+| Evidence Level | L5 (model prediction only) |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 3 |
 | Recommended Decision | Hold |
@@ -54,48 +55,52 @@ The TxGNN model predicts it may be effective for **trigeminal autonomic cephalal
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the record. Based on known pharmacology, epoprostenol is a prostacyclin that acts on IP receptors, raising cAMP, which causes vasodilation and inhibits platelet aggregation. Its efficacy in pulmonary arterial hypertension is established.
+Currently, detailed mechanism of action data is not available. Based on known information, epoprostenol is a synthetic form of prostacyclin (PGI2). It is a potent vasodilator, and its efficacy in pulmonary arterial hypertension is established. Cranial vasodilation has been implicated in trigeminal autonomic cephalalgias, which is a possible reason the model links the drug to this condition.
 
-The high TxGNN score most likely reflects closeness in the knowledge graph: shared vasodilator and prostaglandin pathways link prostacyclin to headache biology. That closeness does not mean benefit.
-
-The direction of effect points the wrong way. The retrieved papers link prostacyclin to headache mechanisms and attack provocation, not relief. Vasodilators and prostanoids tend to trigger attacks in headache disorders, so this prediction is unlikely to be therapeutic.
+On closer inspection, the biological reasoning points the other way. A study of intravenous epoprostenol in people with migraine (PMID 19614689) reported that it **triggered migraine-like attacks**. PGI2 is also known to activate and sensitise meningeal sensory nerve fibres. A therapeutic effect in headache disorders is therefore biologically implausible, and a safety signal is more likely. The high score probably reflects network proximity to PGI2 vasodilatory pathways, not evidence of benefit.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for trigeminal autonomic cephalalgia.
-
-Trials registered for the broader "headache disorder" prediction are provocation studies (PGI2 induces headache), not treatment studies.
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [7026501](https://pubmed.ncbi.nlm.nih.gov/7026501/) | 1981 | Small interventional study | Headache | Effect of infused prostacyclin in migraine and cluster headache. No abstract available, so no outcome can be confirmed. |
-| [3937967](https://pubmed.ncbi.nlm.nih.gov/3937967/) | 1985 | Narrative review | Neurologia i Neurochirurgia Polska | Pathomechanisms of cluster headache attacks. Nitroglycerin provoked attacks in 9 patients, and the study probed the role of the arachidonic acid cyclooxygenase pathway with indomethacin. It does not show a benefit of prostacyclin. |
+Currently no related literature available for this specific indication.
+
+The closest related work concerns headache in general. A 2010 provocation study (Cephalalgia, PMID [19614689](https://pubmed.ncbi.nlm.nih.gov/19614689/)) found that epoprostenol triggers migraine-like attacks in migraineurs. This is evidence of harm potential, not of therapeutic benefit.
 
 ---
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN02241P | Flolan for Infusion 0.5 mg/vial | Powder for solution for injection | Not stated in the record |
-| SIN15405P | Veletri Powder for Solution for Infusion 0.5 mg/vial | Powder for solution for injection | Not stated in the record |
-| SIN15406P | Veletri Powder for Solution for Infusion 1.5 mg/vial | Powder for solution for injection | Not stated in the record |
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN15405P | VELETRI Powder for Solution for Infusion 0.5 mg/vial | Injection, powder, for solution |
+| SIN02241P | FLOLAN for Infusion 0.5 mg/vial | Injection, powder, for solution |
+| SIN15406P | VELETRI Powder for Solution for Infusion 1.5 mg/vial | Injection, powder, for solution |
 
-All three products are injectable only. No route suited to chronic headache prophylaxis is registered.
+All three licences are valid single-ingredient products, and none has been cancelled. The approved indication text is not listed in the registration records. All products are injectable only, so the route may be a limitation for any new indication.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. The HSA warnings and contraindications were not retrieved, and no drug interaction data were found.
+- **Contraindications flagged in the knowledge graph** (not taken from label text): blood coagulation disease and pulmonary edema.
+- **Drug Interactions**: 100 interactions were identified. The 20 reviewed include these moderate-level ones:
+  - Epinephrine and ephedrine (including nasal ephedrine)
+  - Acetylsalicylic acid (aspirin)
+  - SGLT2 inhibitors: canagliflozin, dapagliflozin, empagliflozin and ertugliflozin
+  - Mannitol and glycerin
+  - Papaverine
+  - Fenfluramine, dexfenfluramine and sibutramine
+- Interactions with pantoprazole, glimepiride, mesalazine, morphine, metformin and omeprazole are listed with an unknown severity level.
+- Headache provocation by epoprostenol is a specific safety concern for this proposed use.
 
-One signal from the literature is directly relevant here: intravenous epoprostenol triggered headache in healthy volunteers and migraine-like attacks in migraineurs in a randomized, double-blind crossover study (PMID 19614689). This argues against use in headache disorders.
+For label warnings, please refer to the package insert.
 
 ---
 
@@ -104,14 +109,14 @@ One signal from the literature is directly relevant here: intravenous epoprosten
 **Decision: Hold**
 
 **Rationale:**
-The high model score is not backed by any treatment evidence. There are no clinical trials, only two old, low-tier publications, and the broader literature shows prostacyclin provokes headache attacks. The evidence level is L4, and a therapeutic role is mechanistically unlikely.
+The prediction rests on a model score alone, with no trials or publications. The available mechanistic data suggest epoprostenol induces headache, so a benefit in trigeminal autonomic cephalalgia is unlikely and a safety signal is more plausible.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications (blocking for safety screening)
-- Mechanism of action data from DrugBank
-- Any human data showing symptom relief (none found so far)
+- Mechanism of action data and the package insert warnings and contraindications
+- Preclinical or clinical evidence that prostacyclin agonism relieves, rather than provokes, trigeminal autonomic headache
+- An assessment of whether an injectable-only product is practical for this condition
 
-**Note on other predictions:** In this evidence pack, the most substantial signal is for **respiratory failure** (rank 9). Inhaled epoprostenol has a completed Phase 2 double-blind placebo-controlled trial in ventilated COVID-19 patients (NCT04452669, n=11, underpowered), Phase 4 studies and observational cohorts. It is graded L2 and flagged as a research question. It merits a separate evaluation, though outcome benefit (mortality, ventilator-free days) is not established.
+**Note on other predictions:** Among the other predicted indications, **respiratory failure** (score 77.7%, evidence level L3) has the most support. It is backed by one small completed Phase 4 study (n=14, inhaled prostacyclin after cardiac surgery) and several observational studies of inhaled epoprostenol. Its recommendation is "Research Question". It would be a more evidence-supported candidate for further evaluation, although no Phase 3 RCT evidence was identified and severe bronchospasm has been reported with inhaled prostacyclin.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

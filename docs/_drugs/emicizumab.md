@@ -2,7 +2,7 @@
 layout: default
 title: Emicizumab
 parent: Low Evidence (L5)
-nav_order: 366
+nav_order: 370
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,11 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Emicizumab: From Congenital Hemophilia A to Acquired Coagulation Factor Deficiency (Acquired Hemophilia A)
+# Emicizumab: From Hemophilia to Acquired Coagulation Factor Deficiency (Acquired Hemophilia A)
 
 ## One-Sentence Summary
 
-Emicizumab (HEMLIBRA) is a bispecific antibody that substitutes for activated factor VIII and is established for congenital hemophilia A. The TxGNN model predicts benefit in **acquired coagulation factor deficiency**, and the evidence centres on **acquired hemophilia A (AHA)**. This report leads with that indication because it is the only one of 10 predictions with real supporting evidence, even though it is not the highest-scoring one. It has **1 registered observational study** and **20 publications**, including **2 Phase 3 and 1 Phase 2 single-arm trials**.
+Emicizumab is a bispecific antibody originally used to treat hemophilia (hemophilia A). The TxGNN model predicts it may be effective for **acquired coagulation factor deficiency**, which in practice means **acquired hemophilia A**. The literature compiled for this report includes **2 prospective Phase 2/3 studies** and **20 publications** in total, although no clinical trials are registered in the data compiled.
 
 ---
 
@@ -41,50 +41,52 @@ Emicizumab (HEMLIBRA) is a bispecific antibody that substitutes for activated fa
 
 | Item | Content |
 |------|------|
-| Original Indication | Congenital hemophilia A (taken from the evidence review; the Singapore licence records contain no indication text) |
-| Predicted New Indication | Acquired coagulation factor deficiency (evidence is specific to acquired hemophilia A) |
-| TxGNN Prediction Score | 99.90% (rank 1979) |
-| Evidence Level | L2 (no randomized controlled trial identified; support comes from single-arm Phase 2/3 trials) |
+| Original Indication | Hemophilia; symptomatic form of hemophilia in female carriers (the Singapore licence records contain no indication text) |
+| Predicted New Indication | Acquired coagulation factor deficiency (best interpreted as acquired hemophilia A) |
+| TxGNN Prediction Score | 99.91% (the top-ranked prediction, pseudo-von Willebrand disease, scored 99.99% but has no supporting evidence and no mechanistic rationale) |
+| Evidence Level | L1 (see note in the conclusion) |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 2 |
 | Recommended Decision | Proceed with Guardrails |
+
+> Note: The report focuses on the 5th-ranked prediction, acquired coagulation factor deficiency, because it is the only one of the 10 predictions with substantial evidence and a plausible mechanism. The other nine predictions are summarised at the end of the report.
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the database record. From the evidence review, emicizumab bridges activated factor IX and factor X, taking over the role of activated factor VIII in the clotting cascade.
+Emicizumab is a bispecific antibody that bridges activated factor IX and factor X. In this way it takes over the role of missing activated factor VIII. Detailed mechanism-of-action data was not available in the data compiled for this report, but the pharmacology records confirm that it binds factor IXa and factor Xa (affinity constants of about 1.52 µM and 0.98 µM, respectively).
 
-Acquired hemophilia A is caused by autoantibodies that neutralize the patient's own factor VIII. Because emicizumab acts independently of factor VIII, these autoantibodies do not block it. It can therefore protect against bleeding while immunosuppressive therapy (the standard way to eliminate the autoantibodies) takes effect. This is the same mechanism that makes it useful in congenital hemophilia A, so the link is strong.
+In acquired hemophilia A, autoantibodies neutralise the patient's own factor VIII. Because emicizumab mimics factor VIII rather than being factor VIII, it is not affected by these inhibitors. The same property is why it is already used in congenital hemophilia A with inhibitors. The mechanistic link is therefore direct.
 
-The term "acquired coagulation factor deficiency" is broader than AHA. The evidence does not support other acquired factor deficiencies.
+The prediction should be read narrowly. It applies to acquired hemophilia A only, and should not be extended to acquired deficiencies of other factors (such as factor V, factor X, or von Willebrand factor).
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT04398628](https://clinicaltrials.gov/study/NCT04398628) | N/A | Recruiting | 3000 | ATHN Transcends natural-history cohort of non-neoplastic blood disorders. It is not specific to AHA or emicizumab, so it is supportive context only. |
+Currently no related clinical trials registered in the data compiled for this report.
 
-The main evidence comes from published studies (AGEHA, GTH-AHA-EMI) that were not supplied as trial registry records.
+Note that the literature below describes several prospective studies (AGEHA, GTH-AHA-EMI). The records for these studies were not linked to registry entries in the data compiled.
 
 ---
 
 ## Literature Evidence
 
+Of 20 publications, the 10 most relevant are listed. Prospective studies are listed first, followed by comparative and cohort studies, consensus statements and reviews.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [39134043](https://pubmed.ncbi.nlm.nih.gov/39134043/) | 2025 | Phase 3 single-arm (AGEHA final analysis) | Thromb Haemost | Extends the primary analysis to patients ineligible for immunosuppression (Cohort 2) and to long-term prophylaxis. The primary analysis suggested a favorable benefit-risk profile. |
-| [36696195](https://pubmed.ncbi.nlm.nih.gov/36696195/) | 2023 | Phase 3 single-arm | J Thromb Haemost | First prospective, multicenter, open-label study of emicizumab prophylaxis in AHA. |
-| [37858328](https://pubmed.ncbi.nlm.nih.gov/37858328/) | 2023 | Phase 2 single-arm (GTH-AHA-EMI) | Lancet Haematol | Tested whether emicizumab protects against bleeding and allows deferral of immunosuppression during the first 12 weeks. |
-| [38049124](https://pubmed.ncbi.nlm.nih.gov/38049124/) | 2024 | Consensus recommendations | Hamostaseologie | GTH working group guidance. Notes that GTH-AHA-EMI showed emicizumab prevents bleeds and allows immunosuppression to be postponed. |
-| [39361769](https://pubmed.ncbi.nlm.nih.gov/39361769/) | 2024 | Multicenter cohort | Blood Adv | Retrospective US data on 62 AHA patients treated off-label with emicizumab (median 10 weeks) at 12 hemophilia treatment centers. |
-| [40795229](https://pubmed.ncbi.nlm.nih.gov/40795229/) | 2025 | Cohort | Blood Adv | Two-year follow-up of GTH-AHA-EMI patients, reporting a sustained survival benefit with postponed immunosuppression. |
-| [38936699](https://pubmed.ncbi.nlm.nih.gov/38936699/) | 2024 | Comparative analysis | J Thromb Haemost | Compares emicizumab with immunosuppressive therapy for managing AHA. |
-| [39536818](https://pubmed.ncbi.nlm.nih.gov/39536818/) | 2025 | Narrative review | J Thromb Haemost | Management approach for AHA in the emicizumab era. |
-| [36795341](https://pubmed.ncbi.nlm.nih.gov/36795341/) | 2023 | Review | Blood Transfus | Pros and cons of emicizumab for preventing and treating bleeding in AHA. |
-| [40683780](https://pubmed.ncbi.nlm.nih.gov/40683780/) | 2025 | Review | Blood Rev | Current trends and advances in AHA management. |
+| [36696195](https://pubmed.ncbi.nlm.nih.gov/36696195/) | 2023 | Phase 3 prospective study (AGEHA) | J Thromb Haemost | First prospective multicentre, open-label study of emicizumab prophylaxis in acquired hemophilia A |
+| [39134043](https://pubmed.ncbi.nlm.nih.gov/39134043/) | 2025 | Phase 3 final analysis (AGEHA) | Thromb Haemost | Final results including patients ineligible for immunosuppression and long-term prophylaxis |
+| [37858328](https://pubmed.ncbi.nlm.nih.gov/37858328/) | 2023 | Phase 2 single-arm study (GTH-AHA-EMI) | Lancet Haematol | Emicizumab protected against bleeding and allowed immunosuppression to be deferred during the first 12 weeks |
+| [40795229](https://pubmed.ncbi.nlm.nih.gov/40795229/) | 2025 | Cohort / survival analysis | Blood Adv | Two-year follow-up of GTH-AHA-EMI patients on survival benefit with postponed immunosuppression |
+| [38936699](https://pubmed.ncbi.nlm.nih.gov/38936699/) | 2024 | Comparative study | J Thromb Haemost | Emicizumab compared with immunosuppressive therapy for managing acquired hemophilia A |
+| [39361769](https://pubmed.ncbi.nlm.nih.gov/39361769/) | 2024 | Real-world cohort | Blood Adv | 62 US patients treated off-label with emicizumab (median 10 weeks) at 12 centres |
+| [38049124](https://pubmed.ncbi.nlm.nih.gov/38049124/) | 2024 | Consensus recommendations | Hamostaseologie | GTH-AHA working group recommendations on emicizumab use |
+| [37276345](https://pubmed.ncbi.nlm.nih.gov/37276345/) | 2023 | Case series | Haemophilia | Emicizumab in acquired hemophilia A, noting the absence of randomised trials |
+| [39536818](https://pubmed.ncbi.nlm.nih.gov/39536818/) | 2025 | Narrative review | J Thromb Haemost | Management approach to acquired hemophilia A in the emicizumab era |
+| [40683780](https://pubmed.ncbi.nlm.nih.gov/40683780/) | 2025 | Review | Blood Rev | Current trends in managing acquired hemophilia A |
 
 ---
 
@@ -92,56 +94,57 @@ The main evidence comes from published studies (AGEHA, GTH-AHA-EMI) that were no
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN15576P | HEMLIBRA Solution for Injection 150mg/ml | Injection, solution | Indication text not provided in the record |
-| SIN15577P | HEMLIBRA Solution for Injection 30mg/ml | Injection, solution | Indication text not provided in the record |
+| SIN15576P | HEMLIBRA SOLUTION FOR INJECTION 150MG/ML | Injection, solution | Not recorded |
+| SIN15577P | HEMLIBRA SOLUTION FOR INJECTION 30MG/ML | Injection, solution | Not recorded |
 
-Both products are manufactured by Chugai Pharma Manufacturing (bulk manufacturing and primary packaging) and Samsung Biologics.
+Both products are valid single-ingredient registrations, manufactured by Chugai Pharma Manufacturing and Samsung Biologics.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interactions were found in the queried database.
+- **Drug Interactions** (5 records):
+  - **Anti-inhibitor coagulant complex (aPCC): Major.** Combining it with emicizumab is associated with a thrombotic microangiopathy warning.
+  - **Recombinant antihemophilic factor (factor VIII): Moderate.**
+  - **Recombinant coagulation factor VIIa: Moderate.**
+  - Pharmacology records also list the targets coagulation factor IX and factor X, which reflect the mechanism rather than clinical interactions.
 
-Points raised in the evidence review:
-- **Thrombotic events and thrombotic microangiopathy** have been reported with emicizumab, especially alongside activated prothrombin complex concentrate (aPCC).
-- **FVIII and inhibitor monitoring** is needed during treatment.
-
----
-
-## Other Predicted Indications
-
-None of the other nine predictions has supporting clinical evidence. All are graded L5 with a recommendation of Hold.
-
-| Predicted Indication | Score | Reason for Hold |
-|------|------|------|
-| Pseudo-von Willebrand disease | 99.99% | The defect is excess platelet-VWF binding, which emicizumab does not address. |
-| Primary release disorder of platelets | 99.99% | The defect is in platelet granule secretion, separate from the step emicizumab supports. |
-| Glanzmann thrombasthenia | 99.98% | The defect is in platelet aggregation. The linked literature concerns rFVIIa, not emicizumab. |
-| Scott syndrome | 99.92% | Impaired phosphatidylserine exposure may limit the surface emicizumab depends on. |
-| Bleeding diathesis due to a collagen receptor defect | 99.86% | The platelet adhesion defect is not corrected by the bridging mechanism. |
-| Hemorrhagic disorder due to constitutional thrombocytopenia | 99.85% | The problem is platelet number, which emicizumab does not address. |
-| Thrombotic thrombocytopenic purpura | 99.61% | A pro-coagulant agent is mechanistically counterproductive, and thrombotic microangiopathy has been reported with emicizumab. Do not pursue. |
-| Fetal and neonatal alloimmune thrombocytopenia | 99.52% | The mechanism is unrelated, and pregnancy or neonatal use raises separate safety issues. |
-| "Flood factor deficiency" | 99.40% | Not a standard clinical entity, probably an ontology naming artifact. It needs curation first. |
+For warnings and contraindications, please refer to the package insert for safety information.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails** (for acquired hemophilia A only; Hold for all other predicted indications)
+**Decision: Proceed with Guardrails**
 
 **Rationale:**
-The mechanism is sound and closely related to the established use. Two prospective Phase 3 studies, one Phase 2 study, multicenter real-world cohorts and consensus recommendations all support emicizumab in AHA. The level stays at L2 because none of these is a randomized controlled trial.
+Two prospective studies (the Phase 3 AGEHA study and the Phase 2 GTH-AHA-EMI study), plus cohort data and consensus recommendations, support emicizumab in acquired hemophilia A, and the mechanism is directly relevant. The L1 label reflects the strength of the published prospective evidence. Strictly, it is not met by the usual criterion of two completed Phase 3 RCTs, because the studies are single-arm and no registered trials were linked. The Singapore licences also carry no acquired hemophilia A indication, so use would be off-label.
 
 **To proceed, the following is needed:**
-- Singapore package insert warnings and contraindications from HSA (currently missing)
-- Detailed mechanism-of-action data from DrugBank
-- Confirmation of the regulatory status of AHA use in Singapore, since it is off-label unless the licence covers it
-- A safety plan covering thrombotic events and thrombotic microangiopathy, especially with aPCC, plus FVIII and inhibitor monitoring
-- Curation of the broad term "acquired coagulation factor deficiency" so it is limited to AHA
+- Package insert warnings and contraindications (not yet obtained)
+- Mechanism-of-action data from DrugBank
+- Linking of the AGEHA and GTH-AHA-EMI studies to their registry entries
+- Confirmation of the approved indication text for the Singapore licences
+- A safety plan covering thrombotic events, especially avoiding concurrent aPCC use
+- Clinical judgement on how emicizumab fits alongside immunosuppression
 
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+---
+
+## Other Predictions (All Hold)
+
+The other nine predictions are not supported and should be held.
+
+| Predicted Indication | Score | Reason |
+|------|------|------|
+| Pseudo-von Willebrand disease | 99.99% | Platelet disorder; no mechanistic link; no evidence |
+| Primary release disorder of platelets | 99.99% | Platelet secretion defect; no mechanistic link |
+| Glanzmann thrombasthenia | 99.98% | Platelet aggregation defect; the only article concerns a different drug (rFVIIa); likely a graph artefact |
+| Scott syndrome | 99.92% | Impaired phosphatidylserine exposure may limit emicizumab's action |
+| Bleeding diathesis due to a collagen receptor defect | 99.86% | Primary haemostasis defect, unrelated to the target step |
+| Hemorrhagic disorder due to constitutional thrombocytopenia | 99.85% | Does not correct platelet number |
+| Thrombotic thrombocytopenic purpura | 99.61% | Prothrombotic condition; mechanistically a safety concern |
+| Fetal and neonatal alloimmune thrombocytopenia | 99.52% | Different pathway |
+| "Flood factor deficiency" | 99.40% | Ambiguous name, possibly a data-entry error |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

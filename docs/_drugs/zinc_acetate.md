@@ -2,7 +2,7 @@
 layout: default
 title: Zinc Acetate
 parent: Low Evidence (L5)
-nav_order: 1074
+nav_order: 1084
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Zinc Acetate: From Parenteral Nutrition Ingredient to Severe Nonproliferative Diabetic Retinopathy
+# Zinc Acetate: From Wilson Disease and Dermatologic Conditions to Severe Nonproliferative Diabetic Retinopathy
 
 ## One-Sentence Summary
 
-Zinc acetate is registered in Singapore as an ingredient of Nutriflex Omega parenteral nutrition emulsions, and the HSA records give no approved-indication text.
-The TxGNN model predicts it may be effective for **severe nonproliferative diabetic retinopathy**.
-This is a model prediction only: **0 clinical trials** and **0 publications** were retrieved for this indication.
+Zinc acetate is a zinc salt used for conditions such as Wilson disease, dermatitis, burns and iron metabolism disorders.
+The TxGNN model predicts it may be effective for **severe nonproliferative diabetic retinopathy**,
+but there are currently **0 clinical trials** and **0 publications** supporting this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in HSA records (registered in parenteral nutrition emulsion products) |
+| Original Indication | Wilson disease, dermatitis, exanthem, otitis externa, hemorrhoid, burn, hereditary hemochromatosis and others (from the knowledge graph; the Singapore licences list no approved indication text) |
 | Predicted New Indication | Severe nonproliferative diabetic retinopathy |
 | TxGNN Prediction Score | 99.97% |
 | Evidence Level | L5 |
@@ -51,9 +51,11 @@ This is a model prediction only: **0 clinical trials** and **0 publications** we
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, zinc acetate is a zinc source used in nutrition and supplementation products. Its role as an essential trace element is well established, but its efficacy in a specific original indication cannot be confirmed from the HSA records.
+Detailed mechanism of action data is not available for this report. Zinc is an essential trace element that serves as a cofactor for many enzymes, including superoxide dismutase (an antioxidant enzyme), and it plays roles in immune function, wound healing and epithelial integrity. These are the likely reasons for its existing dermatologic and tissue-repair indications.
 
-Zinc is a cofactor for antioxidant enzymes such as superoxide dismutase (SOD), so it may plausibly relate to oxidative stress in the retina, which is one component of diabetic retinopathy. This link is speculative. The TxGNN score reflects knowledge-graph associations, and no study of this drug and disease pair was found. The scores for diabetic retinopathy (99.92%) and its severe nonproliferative form are consistent with each other, but they come from the same graph neighborhood and are not independent confirmation.
+A possible link to diabetic retinopathy is zinc's antioxidant and anti-inflammatory activity in diabetic microvascular disease and in retinal metabolism. This link is speculative: the data compiled for this report contain no trials or publications to support it. The related prediction for diabetic retinopathy (score 99.92%) carries the same signal and is not independent evidence.
+
+Other top predictions (bronchitis, acrodermatitis chronica atrophicans, dermatomyositis variants, acne keloid, hydroa vacciniforme, childhood interstitial lung disease, urinary tract infection) also have no supporting clinical evidence. Several likely reflect dermatologic or autoimmune similarity in the knowledge graph rather than a true mechanism. For bronchitis, the only publication is a zinc oxide nanoparticle materials study. For urinary tract infection, the only publication is a 1999 study of zinc supplementation and infections in sickle cell disease, which is indirect evidence.
 
 ## Clinical Trial Evidence
 
@@ -61,40 +63,40 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for severe nonproliferative diabetic retinopathy.
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN16734P | NUTRIFLEX® OMEGA SPECIAL B. BRAUN EMULSION FOR INFUSION | Injection, emulsion | Not listed in the record |
-| SIN15468P | NUTRIFLEX® OMEGA PLUS EMULSION FOR INFUSION | Injection, emulsion | Not listed in the record |
-| SIN15469P | NUTRIFLEX® OMEGA SPECIAL EMULSION FOR INFUSION | Injection, emulsion | Not listed in the record |
+| SIN16734P | NUTRIFLEX® OMEGA SPECIAL B. BRAUN EMULSION FOR INFUSION | Injection, emulsion | Not stated |
+| SIN15468P | NUTRIFLEX® OMEGA PLUS EMULSION FOR INFUSION | Injection, emulsion | Not stated |
+| SIN15469P | NUTRIFLEX® OMEGA SPECIAL EMULSION FOR INFUSION | Injection, emulsion | Not stated |
 
-All three are manufactured by B. Braun Melsungen AG and are injectable only. No oral or ophthalmic zinc acetate formulation appears in the Singapore records, so route compatibility with a retinal indication has not been assessed.
+All three are single-ingredient registrations by B. Braun Melsungen AG and are valid. They are parenteral nutrition emulsions for infusion, not oral or topical zinc acetate products. No ophthalmic route is available.
 
 ## Safety Considerations
 
-- **Drug Interactions**: The DDI query returned no records for this drug.
+- **Contraindications (knowledge graph, not label text)**: Porphyria, inherited porphyria and porphyrin metabolism disease.
+- **Drug Interactions**: 100 interactions were identified. Examples include:
+  - Moderate: alendronic acid, risedronic acid, ibandronate, tetracycline, baloxavir marboxil. These are likely chelation or absorption interactions, so dosing should be separated.
+  - Minor: abatacept, adalimumab, hydrocortisone, dexamethasone, betamethasone, triamcinolone, azathioprine, baricitinib, belimumab and other immunomodulators.
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for further safety information, including warnings and label contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has a high model score but no supporting clinical trials or literature (L5). The mechanism is speculative, and the package insert warnings and contraindications have not been obtained.
+The prediction score is very high (99.97%), but it is a model output only. No clinical trials or publications support zinc acetate in severe nonproliferative diabetic retinopathy, and the Singapore products are infusion emulsions with no suitable route for this use. Label-based safety data are also missing.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from the HSA website (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- A literature search on zinc status or supplementation in diabetic retinopathy
-- Route and formulation assessment, since the only registered products are parenteral nutrition emulsions
-
-**Other predictions to consider:** For the same drug, **bronchitis** (rank 2, L4) has one completed randomized trial of zinc acetate lozenges in the common cold (NCT03309995, n=87). That is indirect evidence, and no bronchitis study was found. Treat it as a research question, not as support for the retinopathy prediction.
-
-*These results are for research reference only and do not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Package insert warnings and contraindications from the HSA (a blocking gap for safety screening)
+- Mechanism of action data (for example from DrugBank) to support the retinal link
+- A systematic literature and trial search on zinc and diabetic retinopathy, including preclinical and observational studies
+- Route and formulation assessment (oral zinc acetate vs. the available infusion products)
+- Review of the zinc-porphyria contraindication signal and the chelation interactions
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Choline Salicylate
 parent: Low Evidence (L5)
-nav_order: 243
+nav_order: 245
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,71 +33,79 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Choline salicylate is a salicylate anti-inflammatory and analgesic, marketed in Singapore only as topical oral gels (the registration records do not state the approved indications).
-The TxGNN model predicts it may be effective for **Prinzmetal angina**, but **no clinical trials and no publications** support this direction.
-This is a model-only prediction with a safety concern, so it is not ready for further development.
+Choline salicylate is a non-acetylated salicylate marketed in Singapore as topical gels. The TxGNN model's top prediction is **Prinzmetal angina**, but **no clinical trials and no publications** support this direction. The only prediction with any published literature is **rheumatoid arthritis** (3 historical reports from 1977–1980), which is the more credible repurposing candidate.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration records (the products are labelled as oral gels for pain relief) |
-| Predicted New Indication | Prinzmetal angina |
-| TxGNN Prediction Score | 99.84% (rank 2863) |
-| Evidence Level | L5 |
+| Original Indication | Not stated in the Singapore licence records (all three licences list no approved indication text; products are oral/topical pain-relieving gels) |
+| Predicted New Indication | Prinzmetal angina (top-ranked prediction); rheumatoid arthritis is the only prediction with literature support |
+| TxGNN Prediction Score | 99.84% |
+| Evidence Level | L5 (model prediction only) |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, choline salicylate is a non-acetylated salicylate with weak COX inhibition. It is not known to have any meaningful irreversible antiplatelet effect.
+Currently, detailed mechanism of action data is not available. Based on known information, choline salicylate is a non-acetylated salicylate with cyclooxygenase (COX)-inhibitory, anti-inflammatory and analgesic activity.
 
-The link between the original use (topical pain relief) and coronary vasospasm is weak. Nothing in the evidence explains how a salicylate would relieve vasospasm. The TxGNN score of 0.998 is near saturation and does not separate this candidate from the others, so it should be read as a graph-neighbourhood signal, not evidence of efficacy. Aspirin-class drugs have also been reported to worsen vasospastic angina at some doses, which raises a possible safety concern.
+For Prinzmetal angina, a plausible but unproven link is the effect of salicylates on prostanoid pathways involved in vasospasm. However, high-dose aspirin has been reported to potentially worsen vasospastic angina, so the rationale is uncertain. Non-acetylated salicylates also have minimal antiplatelet activity, which weakens the link further. The score of 99.84% reflects a graph-based inference, not clinical evidence.
+
+Among the other top-10 predictions, rheumatoid arthritis is the best fit mechanistically, because anti-inflammatory and analgesic activity is consistent with symptomatic control of inflammatory joint disease. The hypertension-related predictions (hypertensive disorder, malignant hypertensive renal disease, malignant renovascular hypertension) run against known salicylate and NSAID effects, which can raise blood pressure and reduce renal perfusion. Several pulmonary hypertension predictions share identical scores, suggesting one shared inference rather than independent signals.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for Prinzmetal angina or any of the other top-10 predicted indications.
 
 ## Literature Evidence
 
-Currently no related literature available.
+No literature was found for Prinzmetal angina. The only literature in the compiled data relates to the rank-2 prediction, rheumatoid arthritis:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [377958](https://pubmed.ncbi.nlm.nih.gov/377958/) | 1979 | Review | American Journal of Hospital Pharmacy | Review of antirheumatic drugs, including choline salicylate and choline magnesium salicylate among the salicylates |
+| [897386](https://pubmed.ncbi.nlm.nih.gov/897386/) | 1977 | Clinical study (likely uncontrolled/observational) | Reumatologia | Usefulness of choline salicylate in children with rheumatoid arthritis (no abstract available) |
+| [7188920](https://pubmed.ncbi.nlm.nih.gov/7188920/) | 1980 | Review/Clinical report | Fysiatricky a reumatologicky vestnik | Choline salicylate as an antirheumatic agent (no abstract available) |
+
+These reports are old, low-tier and unregistered. They support symptomatic relief rather than disease modification, and none compares choline salicylate with current standards of care.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN10428P | SORAGEL ANTISEPTIC PAIN RELIEVING ORAL GEL | Gel | ICM Pharma Pte. Ltd. |
-| SIN04948P | ORA-SED JEL | Gel | Hamilton Pharmaceutical Pty Ltd |
-| SIN04303P | BONJELA GEL | Gel | Reckitt Benckiser Healthcare (UK) Ltd |
+| SIN10428P | Soragel Antiseptic Pain Relieving Oral Gel | Gel | Not stated |
+| SIN04948P | Ora-Sed Jel | Gel | Not stated |
+| SIN04303P | Bonjela Gel | Gel | Not stated |
 
-All three registered products are topical gels, and the registration records list no approved indication text. Topical oral gels are unlikely to give the systemic exposure a cardiovascular indication would need. Route compatibility has not yet been assessed.
+All three licences are valid single-ingredient products, and all are topical gels. Any systemic indication (such as rheumatoid arthritis or angina) would therefore need a different formulation or route.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: 100 interactions were identified in the interaction databases. The first 20 reviewed include mostly Moderate-level and a few Minor-level interactions. Main groups:
+  - **Corticosteroids** (hydrocortisone, triamcinolone, dexamethasone, betamethasone, budesonide): Moderate
+  - **Sulfonylurea antidiabetics** (chlorpropamide, acetohexamide, glimepiride, glipizide, glyburide): Moderate
+  - **Insulins** (human insulin, insulin aspart): Moderate
+  - **Antacids and adsorbents** (aluminium hydroxide, calcium carbonate, activated charcoal): Moderate
+  - **Fenfluramine and dexfenfluramine**: Moderate
+  - **Proton pump inhibitors** (rabeprazole, dexlansoprazole): Minor
+- **Class-level concerns relevant to the predictions**: Salicylates and NSAIDs can raise blood pressure, blunt antihypertensive therapy, and impair renal perfusion. This is a particular concern for the hypertension and renal predictions.
 
-Concerns from the prediction analysis:
-- Salicylates and aspirin-class drugs may worsen vasospastic angina at some doses.
-- A published case report describes urticarial and bronchospastic reactions to non-acetylated salicylates in a patient with asthma, nasal polyps and rheumatoid arthritis. Caution applies to patients with asthma, nasal polyps or NSAID hypersensitivity.
+Package insert warnings and contraindications were not available for this report. Please refer to the package insert for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a saturated model score alone, with no supporting trials or literature and no plausible mechanism. There is also a possible safety concern in vasospastic angina.
-
-**Other candidates from the same run:** Rheumatoid arthritis is the only candidate with any published support. Four papers from 1977 to 1986 were retrieved (Evidence Level L3, Research Question). Their study designs are unverified, no trials were retrieved, and the original indications are empty in the pack, so on-label status should be checked first. The remaining candidates (hypertensive disorder, migraine, pulmonary hypertension, Raynaud disease and the malignant hypertensive renal entries) have no trial or literature evidence that tests choline salicylate. For several of them, salicylate or NSAID effects on blood pressure and renal perfusion argue against use.
+The top prediction, Prinzmetal angina, rests on model score alone (L5), with no trials or literature, and the mechanistic rationale is doubtful because salicylates may worsen vasospasm. The rheumatoid arthritis prediction has limited historical support (L3) but is symptomatic only and is not compared with modern therapy. Only topical gel products are registered in Singapore.
 
 **To proceed, the following is needed:**
-- The HSA package insert warnings and contraindications (blocking for safety screening)
-- Mechanism of action data (from DrugBank)
-- Confirmed approved indications for the three Singapore products
-- Any direct clinical or mechanistic evidence for coronary vasospasm, and an assessment of whether a topical gel could deliver the exposure required
-- Consider redirecting review to the rheumatoid arthritis candidate
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
+- HSA package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- For rheumatoid arthritis: a structured literature review and comparison with current standard NSAID or DMARD therapy, plus a check of route and formulation compatibility (existing products are topical only)
+- For Prinzmetal angina and the hypertension, renal and pulmonary hypertension predictions: no further work is recommended unless new supporting evidence emerges, given the safety and mechanistic concerns
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

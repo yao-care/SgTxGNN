@@ -2,7 +2,7 @@
 layout: default
 title: Esketamine
 parent: Low Evidence (L5)
-nav_order: 396
+nav_order: 400
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Esketamine: From Treatment-Resistant Depression to Agoraphobia
+# Esketamine: From Anxiety Disorder to Agoraphobia
 
 ## One-Sentence Summary
 
-Esketamine (nasal spray, brand Spravato) is an NMDA receptor antagonist. The literature describes it as approved for treatment-resistant depression, although the Singapore record does not state an approved indication.
-The TxGNN model predicts it may be effective for **agoraphobia**, but **0 clinical trials** and **0 publications** currently support this prediction.
-The very high model score is therefore not backed by any real-world evidence.
+Esketamine is the S-enantiomer of ketamine, delivered as a nasal spray, and its original indications in the knowledge graph are anxiety disorder, neurotic disorder and dysthymic disorder.
+The TxGNN model's top-ranked prediction is **agoraphobia**, but this prediction has **0 clinical trials** and **0 publications** behind it.
+Better-supported alternatives among the other predictions are neurotic depression and melancholia (both L1), insomnia (L2) and obsessive-compulsive disorder (L3), described below.
 
 ---
 
@@ -43,10 +43,10 @@ The very high model score is therefore not backed by any real-world evidence.
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration record. The literature describes intranasal esketamine as approved for treatment-resistant depression. |
+| Original Indication | Anxiety disorder, neurotic disorder, dysthymic disorder (knowledge-graph indications; the Singapore licence has no approved indication text) |
 | Predicted New Indication | Agoraphobia |
 | TxGNN Prediction Score | 99.57% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
@@ -55,23 +55,89 @@ The very high model score is therefore not backed by any real-world evidence.
 
 ## Why is This Prediction Reasonable?
 
-Esketamine is an NMDA receptor antagonist that modulates glutamate signaling. Detailed mechanism of action data is not available from DrugBank in this record. The accepted rapid-antidepressant pathway is a glutamate surge, AMPA receptor activation, and BDNF/mTOR-mediated synaptic plasticity.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Esketamine is generally known as an NMDA receptor antagonist. Agoraphobia is an anxiety-related condition and is conceptually close to the anxiety disorders listed as esketamine's original indications. However, this link is indirect, and no trials or publications were retrieved to support it.
 
-The link to agoraphobia is weak. Any relevance would be indirect, through anxiety that often accompanies depression. No direct mechanistic connection has been identified between esketamine and agoraphobia.
+The top prediction should therefore be treated as a model output only. The data show that other predictions have much stronger support:
 
-The score of 99.57% (model rank 5,863) is a statistical output of the knowledge graph. There are no supporting trials or literature, so the score alone should not drive a decision.
+| Predicted Indication | TxGNN Score | Evidence Level | Decision |
+|------|------|------|------|
+| Agoraphobia | 99.57% | L5 | Hold |
+| Neurotic depression | 97.83% | L1 | Proceed with Guardrails |
+| Melancholia | 97.74% | L1 | Proceed with Guardrails |
+| Obsessive-compulsive disorder | 97.31% | L3 | Research Question |
+| Insomnia | 96.39% | L2 | Research Question |
+
+**Neurotic depression and melancholia.** Esketamine's NMDA antagonism and downstream glutamatergic and synaptic plasticity effects underlie its rapid antidepressant action in treatment-resistant depression (TRD). These two predictions largely overlap with depressive disorders for which esketamine is already approved elsewhere, so they are closer to on-label use than true repurposing. Evidence is not specific to the melancholic subtype.
+
+**Obsessive-compulsive disorder (OCD).** Glutamatergic dysfunction in cortico-striato-thalamo-cortical circuits provides a rationale, but the evidence is limited to a retrospective chart review, case reports and reviews.
+
+**Insomnia.** The evidence comes from perioperative settings, often combined with dexmedetomidine, not from primary insomnia disorder.
+
+Several other predictions (benign paroxysmal torticollis of infancy, vitamin B12-responsive methylmalonic acidemia, Keppen-Lubinsky syndrome, congenital isolated ACTH deficiency, autosomal dominant slowed nerve conduction velocity) have no evidence and no identifiable mechanistic basis. They are likely graph-model artifacts.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+No clinical trials are registered for agoraphobia, the top-ranked prediction. Currently no related clinical trials registered.
+
+For reference, the trials found for the next-best-supported predictions are:
+
+**Insomnia (L2)**
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT05715671](https://clinicaltrials.gov/study/NCT05715671) | N/A | Completed | 138 | Subanesthetic esketamine alone on sleep quality after laparoscopic uterine surgery |
+| [NCT06773143](https://clinicaltrials.gov/study/NCT06773143) | N/A | Recruiting | 184 | Subanesthetic esketamine alone on sleep quality in breast cancer patients after chemotherapy-related surgery |
+| [NCT05718024](https://clinicaltrials.gov/study/NCT05718024) | Phase 4 | Completed | 174 | Night-time dexmedetomidine-esketamine on sleep in ICU patients on ventilation or high-flow oxygen |
+| [NCT05732064](https://clinicaltrials.gov/study/NCT05732064) | Phase 4 | Completed | 180 | Nasal dexmedetomidine-esketamine at night, perioperative sleep in breast cancer patients |
+| [NCT05950646](https://clinicaltrials.gov/study/NCT05950646) | Phase 4 | Completed | 154 | Mini-dose dexmedetomidine-esketamine on sleep in older patients after knee or hip replacement |
+| [NCT06414941](https://clinicaltrials.gov/study/NCT06414941) | N/A | Unknown | 105 | Dexmedetomidine plus esketamine on sleep quality after mastectomy |
+| [NCT06566482](https://clinicaltrials.gov/study/NCT06566482) | Phase 4 | Completed | 100 | Mini-dose dexmedetomidine-esketamine for postoperative sleep in patients at high risk of obstructive sleep apnea |
+| [NCT06300944](https://clinicaltrials.gov/study/NCT06300944) | N/A | Completed | 100 | Low-dose ketamine on postoperative pain and sleep quality (related compound) |
+| [NCT07610343](https://clinicaltrials.gov/study/NCT07610343) | Phase 4 | Not yet recruiting | 60 | Intranasal dexmedetomidine-esketamine in older adults with mild-to-moderate cognitive impairment |
+
+**Obsessive-compulsive disorder (L3)**
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT04480918](https://clinicaltrials.gov/study/NCT04480918) | N/A | Recruiting | 1000 | Interventional psychiatry patient registry (ECT, TMS, ketamine, esketamine) for TRD and OCD. Observational, so it gives only indirect data |
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available.
+No publications were retrieved for agoraphobia. Currently no related literature available.
+
+For reference, key publications for the better-supported predictions:
+
+**Neurotic depression / melancholia (TRD evidence)**
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [31109201](https://pubmed.ncbi.nlm.nih.gov/31109201/) | 2019 | RCT | Am J Psychiatry | Flexibly dosed esketamine nasal spray plus a new oral antidepressant vs active comparator in TRD |
+| [40601310](https://pubmed.ncbi.nlm.nih.gov/40601310/) | 2025 | RCT | JAMA Psychiatry | Esketamine monotherapy in adults with TRD |
+| [31166571](https://pubmed.ncbi.nlm.nih.gov/31166571/) | 2019 | RCT | JAMA Psychiatry | Esketamine plus oral antidepressant for relapse prevention in TRD |
+| [39876682](https://pubmed.ncbi.nlm.nih.gov/39876682/) | 2025 | Meta-analysis | Am J Psychiatry | PRISMA systematic review of esketamine for depression and suicidality, including side effects |
+| [33726522](https://pubmed.ncbi.nlm.nih.gov/33726522/) | 2021 | Systematic review | Am J Psychiatry | International expert synthesis of ketamine and esketamine evidence in TRD |
+| [40319349](https://pubmed.ncbi.nlm.nih.gov/40319349/) | 2025 | Long-term extension | Int J Neuropsychopharmacol | Long-term safety and efficacy of esketamine in TRD |
+
+**Obsessive-compulsive disorder**
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [38194244](https://pubmed.ncbi.nlm.nih.gov/38194244/) | 2024 | Retrospective chart review | Clin Neuropharmacol | Esketamine augmentation in treatment-resistant OCD |
+| [42075883](https://pubmed.ncbi.nlm.nih.gov/42075883/) | 2026 | Scoping review | Pharmaceuticals | Clinical and mechanistic evidence for ketamine and esketamine in OCD |
+| [34530843](https://pubmed.ncbi.nlm.nih.gov/34530843/) | 2021 | Case report | Ann Gen Psychiatry | Esketamine in comorbid TRD and OCD |
+
+**Insomnia**
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [36454569](https://pubmed.ncbi.nlm.nih.gov/36454569/) | 2022 | RCT | JAMA Netw Open | Intraoperative esketamine infusion on postoperative sleep disturbance after gynecological laparoscopy |
+| [40523523](https://pubmed.ncbi.nlm.nih.gov/40523523/) | 2025 | RCT | Anaesth Crit Care Pain Med | Sub-anesthetic esketamine on postoperative sleep disturbance and pain after lumbar fusion |
+| [41285735](https://pubmed.ncbi.nlm.nih.gov/41285735/) | 2025 | RCT | Transl Psychiatry | Esketamine prevents postoperative sleep disturbance in patients with preoperative sleep disorders |
+| [40732353](https://pubmed.ncbi.nlm.nih.gov/40732353/) | 2025 | Cohort / post hoc | Pharmaceuticals | Insomnia and esketamine add-on therapy in TRD (pilot study) |
 
 ---
 
@@ -79,28 +145,35 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN16033P | SPRAVATO NASAL SPRAY 28MG/VIAL (Renaissance Lakewood LLC) | Spray | Not listed in the record |
+| SIN16033P | SPRAVATO NASAL SPRAY 28MG/VIAL | Spray | Not specified in the data compiled for this report |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Knowledge-graph contraindications** (from drug-disease graph edges, not label text): vascular disease; arteriovenous hemangioma/malformation.
+- **Drug Interactions**: 70 known interactions were identified. Examples:
+  - **Major**: diethylpropion, phentermine, fenfluramine, mazindol, caffeine
+  - **Moderate**: opioids (morphine, liposomal morphine, opium, loperamide, difenoxin, diphenoxylate), cannabinoids (dronabinol, nabilone), metoclopramide, scopolamine, and nasal corticosteroids and decongestants (beclomethasone, budesonide, triamcinolone, dexamethasone, ephedrine)
+- **Class-level monitoring** raised in the literature: dissociation, blood pressure changes, abuse potential, and DDI management.
+
+Package insert warnings and contraindications were not available. Please refer to the package insert for full safety information.
 
 ---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Hold** (for the top-ranked prediction, agoraphobia)
 
 **Rationale:**
-The prediction rests only on a model score, with no trials, no literature and no plausible direct mechanism. The drug is marketed in Singapore, but nothing supports moving agoraphobia forward.
+Agoraphobia has a high model score but no trials or literature, so it is supported by prediction only. Within the same prediction list, neurotic depression and melancholia (both Proceed with Guardrails) are better-supported directions, though they largely overlap with depression indications esketamine already has elsewhere. OCD and insomnia are research questions.
 
 **To proceed, the following is needed:**
-- Any clinical or observational evidence for esketamine in agoraphobia or panic and anxiety disorders
-- The HSA package insert (approved indication, warnings, contraindications)
-- Mechanism of action data from DrugBank
-- If the goal is a genuinely evidence-backed candidate, review the other predicted indications from this drug. The depression-related ones (neurotic depression, melancholia) have strong evidence but overlap with the existing use, so they are not novel repurposing. Obsessive-compulsive disorder and insomnia have only limited or indirect evidence.
+- Mechanism of action data and package insert warnings and contraindications (both currently missing)
+- For agoraphobia: any clinical or literature evidence in anxiety or phobic disorders, ideally controlled trials
+- For OCD: controlled trials, since current evidence is only a registry, a chart review and case reports
+- For insomnia: trials in primary insomnia using esketamine alone, since current trials are perioperative and mostly combined with dexmedetomidine
+- A safety monitoring plan covering blood pressure, dissociation, abuse potential and interaction management, plus a check of the Singapore licence's approved indication wording
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

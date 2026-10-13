@@ -2,7 +2,7 @@
 layout: default
 title: Cabergoline
 parent: Medium Evidence (L3-L4)
-nav_order: 188
+nav_order: 189
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,19 +29,19 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Cabergoline: From Hyperprolactinaemic Pituitary Tumours to Pituitary Adenocarcinoma
+# Cabergoline: From Hyperprolactinemia to Pituitary Adenocarcinoma
 
 ## One-Sentence Summary
 
-Cabergoline is a dopamine D2 receptor agonist, originally used for hyperprolactinaemia and prolactin-secreting pituitary adenomas (prolactinoma).
-The TxGNN model predicts it may be effective for **pituitary adenocarcinoma**, but the direct evidence is thin: **0 clinical trials** and **3 publications** (all case reports).
-The closely related entry "pituitary cancer" (rank 3) has more evidence, but almost all of it concerns pituitary adenomas, not carcinoma.
+Cabergoline is a dopamine agonist originally used to treat hyperprolactinemia and prolactin-producing pituitary tumours.
+The TxGNN model predicts it may be effective for **pituitary adenocarcinoma**, but this specific prediction is supported by **0 clinical trials** and only **3 case reports or loosely related papers**.
+Stronger evidence exists for a closely related prediction, "pituitary cancer", but that evidence concerns mostly benign adenomas (see the conclusion).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hyperprolactinaemia / prolactin-secreting pituitary adenoma (not stated in the Singapore licence record; taken from the trial and literature context) |
+| Original Indication | Hyperprolactinemia, including prolactin-producing pituitary tumours (the Singapore licence text is blank, so this comes from the knowledge-graph indication list) |
 | Predicted New Indication | Pituitary adenocarcinoma |
 | TxGNN Prediction Score | 99.06% |
 | Evidence Level | L4 |
@@ -51,57 +51,59 @@ The closely related entry "pituitary cancer" (rank 3) has more evidence, but alm
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the record. Based on known information, cabergoline is a D2 dopamine receptor agonist. D2 receptors are expressed on many pituitary tumours, so the drug could plausibly act on them indirectly.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Cabergoline is, however, a well-known D2 dopamine receptor agonist. D2 stimulation suppresses prolactin and, in some tumours, ACTH secretion. It can also shrink tumours that express D2 receptors.
 
-Cabergoline is already established for prolactin-secreting pituitary adenomas, where it suppresses hormone secretion and shrinks tumours. The prediction extends this to a malignant pituitary tumour, which is a plausible link but an unproven one.
+Hyperprolactinemia and prolactin-secreting pituitary tumours are the original indications. A pituitary carcinoma arises from the same tissue, so a graph-based model links the two. The mechanistic argument is that D2 receptors are expressed on some pituitary tumour cells.
 
-The three publications supplied for this exact disease name are case reports and do not show efficacy in pituitary carcinoma. One describes a MEN1 patient with an atypical course. Another describes ectopic (non-pituitary) ACTH secretion. The third describes a patient with a pituitary adenoma on cabergoline who developed pancreatic adenocarcinoma.
+The direct evidence is thin, however. The only clearly relevant paper is a case report of long-term octreotide or cabergoline use in ectopic ACTH hypersecretion. The other two retrieved papers do not study cabergoline treatment of pituitary carcinoma. The prediction is therefore mostly a model signal with limited supporting data.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for this exact disease name.
-
-Trials registered under the related entry "pituitary cancer" (rank 3) are all in adenomas, not carcinoma. The most relevant are two completed Phase 3 trials:
-
-- [NCT03271918](https://clinicaltrials.gov/study/NCT03271918) (n=140): cabergoline in residual nonfunctioning pituitary adenoma after surgery.
-- [NCT00889525](https://clinicaltrials.gov/study/NCT00889525): cabergoline in corticotroph pituitary tumour (Cushing's disease). Enrollment is not reported.
+Currently no related clinical trials registered for this exact predicted indication.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [41760078](https://pubmed.ncbi.nlm.nih.gov/41760078/) | 2026 | Case report | Medicine | MEN1 with an atypical clinical course and a variant of uncertain pathogenicity; does not address cabergoline efficacy |
-| [20497940](https://pubmed.ncbi.nlm.nih.gov/20497940/) | 2010 | Case report | Endocrine Practice | Long-term octreotide or cabergoline in ectopic ACTH secretion after adrenalectomy; not a pituitary primary |
-| [33569966](https://pubmed.ncbi.nlm.nih.gov/33569966/) | 2021 | Case report | Rev Esp Enferm Dig | Duodenal lymphangiectasia as the first sign of pancreatic adenocarcinoma in a patient on cabergoline for pituitary adenoma; no efficacy data |
+| [20497940](https://pubmed.ncbi.nlm.nih.gov/20497940/) | 2010 | Case report | Endocrine Practice | Describes the corticotropin response to long-term octreotide or cabergoline in a patient with ectopic ACTH secretion after adrenalectomy. This is the only directly relevant report. |
+| [33569966](https://pubmed.ncbi.nlm.nih.gov/33569966/) | 2021 | Case report | Revista Española de Enfermedades Digestivas | A patient with a pituitary adenoma on cabergoline was found to have duodenal lymphangiectasia as the first sign of pancreatic adenocarcinoma. It does not address cabergoline efficacy. |
+| [41760078](https://pubmed.ncbi.nlm.nih.gov/41760078/) | 2026 | Case report | Medicine | Multiple endocrine neoplasia (MEN1) with an atypical course and a variant of uncertain significance. It does not address cabergoline treatment of pituitary carcinoma. |
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN09545P | DOSTINEX TABLET 0.5 mg (Pfizer Italia S.r.l.) | Tablet (oral) | — |
+| SIN09545P | DOSTINEX TABLET 0.5 mg (Pfizer Italia S.r.l.) | Tablet | — (not stated in the data compiled) |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No warnings, contraindications or drug interaction records were retrieved for this product.
+- **Contraindications (knowledge-graph associations, not label text)**: liver disease, gallbladder disease, heart valve disease, pulmonary fibrosis (including postinflammatory pulmonary fibrosis), IgG4-related retroperitoneal fibrosis, and pre-eclampsia (including severe pre-eclampsia).
+- **Drug Interactions**: 60 interactions were identified.
+  - **Major**: lorcaserin and clarithromycin.
+  - **Moderate**: metoclopramide.
+  - The remaining entries are of unclassified severity (examples: pantoprazole, omeprazole, metformin, simvastatin, prednisone).
+- **Safety signals in the retrieved literature (from other predicted indications)**:
+  - Impulse control disorders (pathological gambling, compulsive shopping, hypersexuality) have been reported repeatedly in patients on cabergoline.
+  - Cardiac valve disease is a debated risk, mainly at high doses.
+  - A case of bilateral angle-closure glaucoma has been reported.
 
-The supplied literature also flags these cabergoline-related signals:
-- **Cardiac valve disorders**: most studies found no significant valvulopathy, but the question is still debated (PMID 25732645).
-- **Impulse control disorders**: pathological gambling and hypersexuality are reported in prolactinoma and Cushing's disease patients, with prevalence up to 59.8% in one study (PMID 41619686).
-- **Angle-closure glaucoma**: a case report of bilateral angle-closure glaucoma in a patient on cabergoline (PMID 21347189).
+Please refer to the package insert for the official warnings, as these were not available for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-For pituitary adenocarcinoma itself there are no clinical trials and only three unrelated case reports, so the prediction rests on the D2 receptor mechanism and the model score alone. The stronger evidence (two completed Phase 3 trials in nonfunctioning and corticotroph adenomas) belongs to the "pituitary cancer" entry (rank 3, L2). It supports a research question in adenomas, not a carcinoma indication.
+For pituitary adenocarcinoma specifically, there are no registered clinical trials and the literature consists of three case reports, only one of which is relevant. The prediction currently rests mainly on the model score and a plausible D2-receptor mechanism.
+
+A closely related prediction in the same data, "pituitary cancer", has a stronger evidence base. It includes completed Phase 3 trials of cabergoline in corticotroph pituitary tumours (NCT00889525) and in residual non-functioning pituitary adenoma (NCT03271918, n=140). That evidence, however, concerns benign adenomas rather than true metastatic pituitary carcinoma. It should be assessed as a separate question and not treated as support for the carcinoma prediction.
 
 **To proceed, the following is needed:**
-- The HSA package insert, to obtain approved indications, warnings and contraindications
-- Retrieval of the remaining trials and publications (only 10 of 19 trials and 10 of 20 publications were supplied for the rank 3 entry)
-- Confirmation of randomization design and results for NCT03271918 and NCT00889525
-- Case series or trial data specifically in pituitary carcinoma or aggressive pituitary tumours
-- A safety monitoring plan covering cardiac valves and impulse control disorders
+- Detailed mechanism of action data (MOA), especially D2 receptor expression in pituitary carcinoma.
+- Clinical data in confirmed pituitary carcinoma or aggressive tumours, such as case series or prospective studies.
+- The package insert warnings and contraindications from HSA, which are currently missing.
+- A safety monitoring plan covering echocardiographic valve surveillance, impulse control disorder screening, and the major drug interactions.
+- A clear decision on whether to pursue the benign-adenoma indications (corticotroph tumours, non-functioning adenoma) separately, since those have more mature evidence.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

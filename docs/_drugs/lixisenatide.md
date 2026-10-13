@@ -2,7 +2,7 @@
 layout: default
 title: Lixisenatide
 parent: Low Evidence (L5)
-nav_order: 603
+nav_order: 609
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,32 +29,32 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Lixisenatide: From Type 2 Diabetes to Opsismodysplasia
+# Lixisenatide: From Type 2 Diabetes Mellitus to Opsismodysplasia
 
 ## One-Sentence Summary
 
-Lixisenatide is a GLP-1 receptor agonist used to treat type 2 diabetes. In Singapore it is registered only as a component of the SOLIQUA insulin combination pens.
-The TxGNN model predicts it may be effective for **opsismodysplasia**, a rare skeletal dysplasia, but there are **0 clinical trials** and **0 publications** for this indication, so the prediction is model-only.
+Lixisenatide is a GLP-1 receptor agonist originally used to treat type 2 diabetes mellitus.
+The TxGNN model predicts it may be effective for **opsismodysplasia**, a rare skeletal dysplasia, but **no clinical trials and no publications** currently support this direction. The prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Type 2 diabetes mellitus (from published literature; no approved-indication text is available in the Singapore records) |
+| Original Indication | Type 2 diabetes mellitus (the licence records list no approved indication text, so this comes from the knowledge graph) |
 | Predicted New Indication | Opsismodysplasia |
 | TxGNN Prediction Score | 97.56% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Lixisenatide is known as a GLP-1 receptor agonist that acts on glucose homeostasis, mainly by increasing insulin secretion. It is used clinically in type 2 diabetes.
+Currently, detailed mechanism of action data is not available. Based on known information, lixisenatide is a GLP-1 receptor agonist that acts on incretin signalling. Its efficacy in type 2 diabetes mellitus is established, but no mechanistic link to opsismodysplasia has been shown.
 
-We could not find a plausible mechanistic link to opsismodysplasia. This is a skeletal dysplasia related to the *INPPL1* gene, and it is not a disorder of glucose metabolism. The high score (0.976) most likely reflects patterns in the knowledge graph, not biological evidence. The pack has no clinical or literature support for this pairing.
+Opsismodysplasia is a rare skeletal dysplasia caused by INPPL1 mutations, which affect SHIP2 signalling and growth plate development. Incretin signalling is not known to act on this pathway. The high score (0.976) is a knowledge-graph prediction only, so it should be read as a hypothesis-generating signal rather than evidence of benefit.
 
-The other nine predictions for lixisenatide have the same weakness: no clinical trials and no disease-relevant publications. They include stiff-person spectrum disorders, several localized lipodystrophies, pancreatic agenesis and autoimmune oophoritis. The one paper retrieved (PMID 32911572, for pancreatic agenesis) is a rat cachexia study and does not address that disease.
+Other top-ranked predictions show the same pattern. These include focal stiff limb syndrome, classic stiff person syndrome, thiamine-responsive dysfunction syndrome and several localized lipodystrophies. Their links to lixisenatide look driven by shared diabetes or metabolic neighbours in the graph, not by pharmacology. None has supporting trials or literature.
 
 ## Clinical Trial Evidence
 
@@ -62,39 +62,41 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for opsismodysplasia.
 
 ## Singapore Market Information
 
-Lixisenatide is registered in Singapore only as part of the SOLIQUA pens, which pair it with insulin glargine. Both are made by Sanofi-Aventis Deutschland GmbH.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN15540P | SOLIQUA Solution for Injection in a Pre-filled Pen 100 units/mL + 50 mcg/mL | Injection, solution | Not stated in the data compiled |
+| SIN15542P | SOLIQUA Solution for Injection in a Pre-filled Pen 100 units/mL + 33 mcg/mL | Injection, solution | Not stated in the data compiled |
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN15540P | SOLIQUA Solution for Injection in a Pre-filled Pen 100 units/mL + 50 mcg/mL | Injection, solution |
-| SIN15542P | SOLIQUA Solution for Injection in a Pre-filled Pen 100 units/mL + 33 mcg/mL | Injection, solution |
+Both licences are held by Sanofi-Aventis Deutschland GmbH and are currently valid. The route of administration is injectable.
 
 ## Safety Considerations
 
-- **Drug Interactions**: The interaction query returned no records.
+- **Drug Interactions**: The interaction screen returned 100 potential interactions. The first 20 reviewed are mostly Moderate, with a few Minor. Notable Moderate examples include:
+  - Sympathomimetics and bronchodilators: phenylephrine, pseudoephedrine, epinephrine, salbutamol, formoterol
+  - Corticosteroids: hydrocortisone, triamcinolone
+  - Hormonal agents: ethinylestradiol, estradiol, norethisterone, desogestrel
+  - Others: acetazolamide, hydrochlorothiazide, ethanol, alpelisib, aripiprazole, asenapine, asparaginase
 
-Please refer to the package insert for safety information (warnings and contraindications). The insert has not yet been obtained.
+  Minor examples are topical hydrocortisone and topical alclometasone.
 
-One safety point specific to this prediction concerns drug-induced localized lipodystrophy (rank 5). Injectable peptide therapies can themselves be associated with injection-site lipodystrophy. That prediction may therefore reflect a safety association, not a treatment opportunity.
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting trials or publications (L5) and no plausible mechanism linking GLP-1 receptor agonism to opsismodysplasia. Across the whole candidate set, the evidence does not justify further investment.
+The prediction is supported only by a model score. There are no trials, no literature and no plausible mechanistic link between GLP-1 receptor agonism and INPPL1/SHIP2-driven skeletal dysplasia. Evidence is at level L5.
 
 **To proceed, the following is needed:**
-- The HSA package insert (warnings and contraindications). This is a blocking gap and must be filled before safety screening.
-- Mechanism of action data from DrugBank, to allow a proper mechanistic-link analysis.
-- Any disease-specific evidence (preclinical or clinical) for opsismodysplasia. Without it, the candidate should not advance.
-- Clarification of whether the lipodystrophy predictions reflect a safety signal from injection-site effects.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Package insert warnings and contraindications from the Singapore regulator (HSA), which are needed for safety screening
+- Mechanism of action data for lixisenatide
+- Preclinical or mechanistic evidence connecting GLP-1 signalling to growth plate biology or SHIP2 pathways
+- A review of whether any other predicted indication has a stronger rationale; all ten in this set are currently at L4 or L5 with a Hold recommendation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

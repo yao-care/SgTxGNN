@@ -2,7 +2,7 @@
 layout: default
 title: Omidenepag Isopropyl
 parent: Low Evidence (L5)
-nav_order: 733
+nav_order: 741
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Omidenepag isopropyl: From Glaucoma / Ocular Hypertension to Pancreatitis
+# Omidenepag Isopropyl: From Ocular Hypertension and Glaucoma to Pancreatitis
 
 ## One-Sentence Summary
 
-Omidenepag isopropyl is a topical eye drop that selectively activates the EP2 prostanoid receptor. It is marketed in Singapore as EYBELIS, and its original use is glaucoma / ocular hypertension (general pharmacology knowledge, since the Singapore registration records contain no indication text).
-The TxGNN model predicts it may be effective for **pancreatitis**, but there are **0 clinical trials** and **0 publications** supporting this direction.
-This is a model-only prediction with no supporting evidence.
+Omidenepag isopropyl is an ophthalmic drug originally used to treat ocular hypertension and glaucoma.
+The TxGNN model predicts it may be effective for **pancreatitis**, but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the computational model alone.
 
 ---
 
@@ -43,7 +42,7 @@ This is a model-only prediction with no supporting evidence.
 
 | Item | Content |
 |------|------|
-| Original Indication | Glaucoma / ocular hypertension (not stated in the registration records) |
+| Original Indication | Ocular hypertension, glaucoma (from the knowledge graph; the Singapore licence records contain no indication text) |
 | Predicted New Indication | Pancreatitis |
 | TxGNN Prediction Score | 99.76% |
 | Evidence Level | L5 |
@@ -55,11 +54,11 @@ This is a model-only prediction with no supporting evidence.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known pharmacology, omidenepag isopropyl is a topical selective EP2 prostanoid receptor agonist. It is used in the eye, and its efficacy in its original indication rests on that ocular activity.
+Currently, detailed mechanism of action data is not available in the compiled data. Omidenepag isopropyl is understood to be a selective prostanoid EP2 receptor agonist applied to the eye. Its efficacy in lowering intraocular pressure is the basis of its use in ocular hypertension and glaucoma.
 
-There is no established mechanistic link between EP2 agonism and pancreatitis. The high score (99.76%) comes from the graph structure of the TxGNN knowledge graph, not from any trial or literature finding. Systemic exposure after eye-drop dosing is also low, which further weakens the plausibility of an effect on the pancreas.
+No direct mechanistic link between EP2 receptor agonism and pancreatitis is established in the data compiled for this report. The high TxGNN score (99.76%) is a knowledge-graph prediction only, and it likely reflects shared network neighbours rather than biological evidence. In addition, the eye-drop form gives minimal systemic exposure, which makes a pancreatic effect even less plausible without a different formulation or route.
 
-The other nine top-ranked predictions (scores 98.96% to 99.73%) are also L5, with no trials or literature. They include hyperphosphatemia, esophageal varices, blepharospasm, familial visceral myopathy, alcoholic cardiomyopathy, combined lipase deficiency, varicose disease and hiatus hernia. Only loose links through smooth muscle relaxation or vasodilation could be proposed for a few of them. For esophageal varices with bleeding, systemic vasodilation could plausibly worsen the condition.
+Other top-ranked predictions (for example hyperphosphatemia, esophageal varices, blepharospasm and familial visceral myopathy) also have scores above 99% with no supporting trials or publications. This suggests the score alone does not discriminate well among them.
 
 ---
 
@@ -77,22 +76,18 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-The registration records contain no approved-indication text, so that column is omitted.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN16150P | EYBELIS OPHTHALMIC SOLUTION 0.002% | Sterile solution | Not stated in the licence record |
+| SIN16951P | EYBELIS-S OPHTHALMIC SOLUTION 0.002% w/v | Sterile solution | Not stated in the licence record |
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN16150P | EYBELIS OPHTHALMIC SOLUTION 0.002% | Sterile solution |
-| SIN16951P | EYBELIS-S OPHTHALMIC SOLUTION 0.002% w/v | Sterile solution |
-
-Both products are manufactured by Santen Pharmaceutical Co., Ltd. (Shiga Plant and Noto Plant respectively).
+Both licences are valid single-ingredient products manufactured by Santen Pharmaceutical Co., Ltd. (Shiga Plant and Noto Plant respectively).
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
-The drug-interaction query returned no records.
+Please refer to the package insert for safety information. No interaction records were found for this drug, and no contraindicated diseases were identified in the knowledge graph.
 
 ---
 
@@ -101,16 +96,14 @@ The drug-interaction query returned no records.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on the model score alone, with no clinical trials, no literature and no plausible mechanism. Topical ocular dosing gives minimal systemic exposure, so it is a poor route for pancreatic disease. Evidence is L5 and the case is not ready for further investment.
+The prediction has no clinical trials or publications behind it (Evidence Level L5), and no plausible mechanistic link between EP2 agonism and pancreatitis. The ocular-only formulation also limits systemic exposure. The remaining top predictions are similarly unsupported.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- Any preclinical or clinical evidence linking EP2 agonism to pancreatitis
-- A route-compatibility assessment, since the only available form is an ophthalmic solution
-- A similarity assessment between the original and predicted indications
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Package insert warnings and contraindications from the HSA website, which are currently missing and block safety screening
+- Detailed mechanism of action data from DrugBank
+- Preclinical or mechanistic evidence linking EP2 signalling to pancreatic inflammation
+- An assessment of whether a non-ocular formulation or route would be needed to reach relevant tissue
+- A literature and trial search specific to pancreatitis, and a comparison with the other predicted indications to find any with real supporting evidence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

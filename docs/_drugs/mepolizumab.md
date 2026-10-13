@@ -2,7 +2,7 @@
 layout: default
 title: Mepolizumab
 parent: Medium Evidence (L3-L4)
-nav_order: 644
+nav_order: 650
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,20 +29,19 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Mepolizumab: From Anti-IL-5 Eosinophil Therapy to Thrombocytopenia Due to Immune Destruction
+# Mepolizumab: From Eosinophilic Pneumonia to Thrombocytopenia Due to Immune Destruction
 
 ## One-Sentence Summary
 
-Mepolizumab is an anti-IL-5 antibody that depletes eosinophils, and it is marketed in Singapore as NUCALA injection.
-The TxGNN model predicts it may help with **thrombocytopenia due to immune destruction**, but so far there are **0 clinical trials** and only **1 publication**, a case report.
-The high score is not backed by direct evidence, so this prediction should be treated as a hypothesis only.
-
----
+Mepolizumab was originally used for eosinophil-driven lung conditions (eosinophilic pneumonia and pulmonary eosinophilia).
+The TxGNN model predicts it may be effective for **thrombocytopenia due to immune destruction**,
+but the supporting evidence is thin: **0 clinical trials** and **1 publication** (a single case report).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Eosinophilic pneumonia; pulmonary eosinophilia (from the knowledge graph; no approved-indication text in the Singapore licence records) |
 | Predicted New Indication | Thrombocytopenia due to immune destruction |
 | TxGNN Prediction Score | 99.66% |
 | Evidence Level | L4 |
@@ -50,62 +49,56 @@ The high score is not backed by direct evidence, so this prediction should be tr
 | Number of Registrations | 3 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Mepolizumab blocks interleukin-5 (IL-5), the main signal that keeps eosinophils alive and active. Detailed mechanism-of-action data from DrugBank is not currently available, so this description rests on its known class.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Mepolizumab is known to be an anti-IL-5 antibody that depletes eosinophils, which is why it fits eosinophil-driven diseases such as eosinophilic pneumonia and pulmonary eosinophilia.
 
-The link to immune thrombocytopenia is weak and indirect. Immune platelet destruction is driven mainly by autoantibodies and T cells, not by IL-5-dependent eosinophils. Any benefit would be limited to rare cases where eosinophil-driven immune dysregulation contributes. No direct platelet-destruction mechanism has been shown for mepolizumab.
+The link to immune thrombocytopenia is indirect. A single case report describes a patient with a steroid-resistant hypereosinophilic immune disorder and a mixed thrombotic microangiopathy who improved on mepolizumab. The benefit is plausibly due to controlling eosinophil-driven immune dysregulation, not to a direct effect on platelet autoimmunity (anti-platelet autoantibodies and Fc-gamma receptor-mediated platelet clearance). The high TxGNN score is a computational prediction and does not replace clinical evidence.
 
-The high TxGNN score probably reflects closeness in the knowledge graph rather than a proven biological link. The other top predictions (for example Glanzmann thrombasthenia, pseudo-von Willebrand disease and neonatal thrombocytopenia) also lack a plausible IL-5 connection. Filariasis is a special case: IL-5 blockade could weaken anti-parasite defence, so it is a potential safety concern rather than a benefit.
-
----
+Most other top-ranked predictions (inherited platelet disorders such as Glanzmann thrombasthenia and pseudo-von Willebrand disease) have no plausible IL-5-related mechanism and likely reflect proximity in the knowledge graph. Filariasis has a loose eosinophil link, but depleting eosinophils could impair parasite defence.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [28648630](https://pubmed.ncbi.nlm.nih.gov/28648630/) | 2018 | Case report | Blood Cells Mol Dis | A steroid-resistant hypereosinophilic immune disorder resolved with mepolizumab, with improvement of a coexisting mixed thrombotic microangiopathy (atypical HUS context). It does not directly address immune thrombocytopenia. |
+| [28648630](https://pubmed.ncbi.nlm.nih.gov/28648630/) | 2018 | Case report | Blood Cells, Molecules & Diseases | Steroid-resistant hypereosinophilic immune disorder resolved with mepolizumab, with improvement in a mixed thrombotic microangiopathy |
 
----
+A review of hypereosinophilic syndrome management including mepolizumab ([PMID 20565230](https://pubmed.ncbi.nlm.nih.gov/20565230/), 2010) was linked to the second-ranked prediction (primary release disorder of platelets), but it does not address platelet disorders directly.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN16811P | NUCALA solution for injection in pre-filled syringe 40 mg/0.4 mL | Injection, solution | Glaxo Operations UK Ltd |
-| SIN16172P | NUCALA solution for injection in pre-filled pen 100 mg/mL | Injection, solution | Glaxo Operations UK Ltd |
-| SIN16171P | NUCALA solution for injection in pre-filled syringe 100 mg/mL | Injection, solution | Glaxo Operations UK Ltd |
+| SIN16811P | NUCALA Solution for Injection in Pre-filled Syringe 40mg/0.4mL | Injection, solution | Not stated in the compiled data |
+| SIN16172P | NUCALA Solution for Injection in Pre-filled Pen 100mg/mL | Injection, solution | Not stated in the compiled data |
+| SIN16171P | NUCALA Solution for Injection in Pre-filled Syringe 100mg/mL | Injection, solution | Not stated in the compiled data |
 
----
+All three licences are valid single-ingredient products from Glaxo Operations UK Ltd.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No drug interactions were found in the data compiled for this report, and no knowledge-graph contraindications were recorded.
 
----
+Specific concerns for the predicted uses:
+- **Filariasis:** eosinophil depletion could impair host defence against parasites.
+- **Neonatal thrombocytopenia:** no safety or pharmacokinetic data exist for mepolizumab in neonates.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The only supporting evidence is a single case report in a different condition (hypereosinophilic disorder with thrombotic microangiopathy), and there are no trials. The mechanism is not plausible for antibody-mediated platelet destruction, and the prediction is probably a knowledge-graph artifact.
+The top prediction rests on a single case report in a different condition (hypereosinophilic syndrome with thrombotic microangiopathy), with no trials and no established mechanism for IL-5 blockade in immune platelet destruction. The model score alone is not enough to proceed.
 
 **To proceed, the following is needed:**
-- The HSA package insert (warnings and contraindications), which blocks any safety screening
-- Mechanism-of-action data from DrugBank
-- Direct clinical or mechanistic evidence for mepolizumab in immune thrombocytopenia, for example a subgroup with eosinophil-associated disease
-- Review of the case report to confirm whether platelet counts improved
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
+- Mechanism of action data and a clearer mechanistic hypothesis, for example whether an eosinophilic or Th2-skewed ITP subset exists
+- Package insert warnings and contraindications from the HSA, so safety screening can be done
+- Controlled or at least larger observational data in immune thrombocytopenia
+- Approved indication text for the Singapore licences, to confirm the original-indication link
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

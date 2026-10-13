@@ -2,7 +2,7 @@
 layout: default
 title: Tamsulosin
 parent: Low Evidence (L5)
-nav_order: 945
+nav_order: 955
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,14 +33,15 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Tamsulosin is an alpha-1 adrenergic blocker, a urological drug generally used for benign prostatic hyperplasia (BPH). The Singapore registration records in this pack do not state its approved indication.
-The TxGNN model predicts it may be effective for **Ambras type hypertrichosis universalis congenita**, but there are **0 clinical trials** and **0 publications** supporting this prediction, so it rests on the model score alone.
+Tamsulosin is an alpha-1 adrenergic blocker originally used to treat benign prostatic hyperplasia (BPH).
+The TxGNN model predicts it may be effective for **Ambras type hypertrichosis universalis congenita**,
+but **no clinical trials and no supporting publications** currently back this prediction. It is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration records (BPH per general pharmacological knowledge) |
+| Original Indication | Benign prostatic hyperplasia |
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
 | TxGNN Prediction Score | 99.996% |
 | Evidence Level | L5 |
@@ -50,11 +51,11 @@ The TxGNN model predicts it may be effective for **Ambras type hypertrichosis un
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Tamsulosin is known to be an alpha-1A/1D adrenergic antagonist, used for urological conditions.
+Currently, detailed mechanism of action data is not available. Based on known information, tamsulosin is an alpha-1A/1D adrenergic receptor antagonist. Its efficacy in BPH is established, where it relaxes smooth muscle in the prostate and bladder neck. No mechanistic link to the new indication has been established.
 
-We could not identify a plausible link between this mechanism and the predicted indication. Ambras syndrome is a rare congenital disorder associated with a genomic rearrangement near the *TRPS1* gene. Its cause is developmental and genetic, and alpha-1 adrenergic blockade is not expected to affect it.
+Ambras syndrome is a rare congenital condition involving excessive hair growth, with a genetic basis. The data compiled for this report show no established connection between alpha-1 adrenergic blockade and that genetic basis. The high TxGNN score (99.996%, rank 168) likely reflects proximity in the knowledge graph rather than a demonstrated biological mechanism.
 
-The very high score (99.996%) is therefore best read as a knowledge-graph artefact, probably from proximity to related hair phenotypes. It is not a sign of real efficacy. The other nine top-ranked predictions are also unsupported (all L5, all Hold), and most are hair or congenital disorders.
+Other top predictions are also in hair and congenital disorders, including hypertrichosis, hair shaft abnormalities, hypotrichosis, and alopecia. None has clinical trial or supportive literature evidence. This prediction should be treated as a hypothesis only.
 
 ## Clinical Trial Evidence
 
@@ -62,38 +63,41 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for the predicted indication.
 
 ## Singapore Market Information
 
-Showing 5 of 8 registrations. None of the records includes approved-indication text.
+Eight valid single-ingredient registrations are listed. The approved indication text is not recorded in the data compiled for this report. Five are shown below.
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN15476P | TAMSIN Prolonged Release Tablet 0.4mg | Film-coated extended-release tablet |
-| SIN15573P | TASULOSE Prolonged-Release Film-coated Tablets 400 mcg | Film-coated extended-release tablet |
-| SIN16191P | TAMSULOSIN-TEVA Prolonged Release Film-coated Tablet 400mcg | Film-coated extended-release tablet |
-| SIN13696P | Harnal OCAS Prolonged Release Film-coated Tablet 400mcg | Film-coated extended-release tablet |
-| SIN16678P | LOTUFLO-D Capsules 0.5 mg/0.4 mg (dutasteride/tamsulosin combination) | Capsule |
-
-All listed forms are oral.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN15476P | TAMSIN Prolonged Release Tablet 0.4mg | Film-coated extended-release tablet | Not recorded |
+| SIN15573P | TASULOSE Prolonged-Release Film-Coated Tablets 400 mcg | Film-coated extended-release tablet | Not recorded |
+| SIN16191P | TAMSULOSIN-TEVA Prolonged Release Film-Coated Tablet 400mcg | Film-coated extended-release tablet | Not recorded |
+| SIN13696P | Harnal OCAS Prolonged Release Film-coated Tablet 400mcg | Film-coated extended-release tablet | Not recorded |
+| SIN16678P | LOTUFLO-D Capsules 0.5 mg/0.4 mg | Capsule | Not recorded |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease-related cautions (from knowledge graph, not label text)**: Contraindication links exist for multiple system atrophy, postural orthostatic tachycardia syndrome, orthostatic hypotension, liver disease, gallbladder disease, priapism, and intraoperative floppy iris syndrome.
+- **Drug Interactions**: 100 interactions were found. Main ones:
+  - **Major**: Clarithromycin
+  - **Moderate**: Bupropion, Aprepitant, Morphine, Lorcaserin, Cimetidine, Clotrimazole, Miconazole, and SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin, ertugliflozin)
+
+For label-based warnings and contraindications, please refer to the package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical trials or literature behind it and no plausible mechanism. The target is a rare congenital genetic disorder that an alpha-1 blocker is not expected to affect. Evidence is at the lowest level (L5).
+The prediction has a very high model score, but there are no clinical trials or publications and no plausible mechanism. The evidence level is L5 (model prediction only). Label-based safety data are also missing.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- A mechanistic rationale, or preclinical evidence, linking alpha-1 adrenergic blockade to hair-follicle or *TRPS1*-related biology
-- A review of the lower-ranked predictions for any with real supporting evidence, since none of the current top ten has any
+- Mechanism of action data and a plausible biological link between alpha-1 blockade and the genetic basis of Ambras syndrome
+- Preclinical or mechanistic studies supporting the prediction
+- Package insert warnings and contraindications from HSA for safety screening
+- A review of whether other predicted indications, such as hypertrichosis and alopecia, have stronger supporting evidence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

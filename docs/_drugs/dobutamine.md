@@ -2,7 +2,7 @@
 layout: default
 title: Dobutamine
 parent: Low Evidence (L5)
-nav_order: 337
+nav_order: 341
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,16 +29,21 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dobutamine: From Intravenous Inotropic Support to Alopecia
+# Dobutamine: From Acute Cardiac Inotropic Support to Alopecia
 
 ## One-Sentence Summary
 
-Dobutamine is a beta-1 adrenergic inotrope given by injection for cardiac support. The TxGNN model predicts it may be effective for **alopecia**, but **0 clinical trials** and only **2 off-topic case reports** exist for this indication, and neither supports it. The prediction rests on the model score alone and is not backed by any evidence.
+Dobutamine is an injectable beta-1 adrenergic inotrope. The HSA licence text on file gives no approved indication wording, so the original use is inferred from its known pharmacology rather than taken from the licence.
+The TxGNN model predicts it may be effective for **alopecia**, but there are **0 clinical trials** and only **1 publication** (a veterinary case report that does not test dobutamine as a treatment).
+The prediction is therefore model-only, with no credible supporting evidence.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Not stated in the HSA licence data (injectable inotrope, cardiac support) |
 | Predicted New Indication | Alopecia |
 | TxGNN Prediction Score | 99.85% |
 | Evidence Level | L5 |
@@ -46,58 +51,74 @@ Dobutamine is a beta-1 adrenergic inotrope given by injection for cardiac suppor
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data and the registered original indication are not available in the Evidence Pack. Based on known pharmacology, dobutamine is a beta-1 adrenergic agonist used as an intravenous inotrope. It has no known effect on hair follicle biology.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, dobutamine is a beta-1 adrenergic agonist given intravenously to increase cardiac contractility, for example in acute heart failure or low-output states.
 
-The high score (0.9985) is most likely a knowledge-graph artifact. Dobutamine probably shares graph neighbors with cardiovascular drugs such as minoxidil. Minoxidil is a vasodilator known for its hair-growth effect, and that link does not carry over to dobutamine. Because the original mechanism and indications are missing, the prediction cannot be cross-checked.
+The prediction has no credible mechanistic basis. Dobutamine has no known action on hair follicles. The high score is most likely an artefact of the knowledge graph, which links cardiovascular drugs to hair-growth conditions through shared associations such as minoxidil, a vasodilator used for hair growth. The only retrieved paper describes heart failure caused by minoxidil poisoning in a cat, in which dobutamine was used only to treat low blood pressure. It does not evaluate dobutamine for alopecia.
 
-The other top predictions show the same pattern:
-- **Hair disorders:** hypotrichosis simplex of the scalp, congenital hypotrichosis milia, diffuse alopecia areata and hypertrichosis. All are prediction-only, with no trials or literature.
-- **Glaucoma:** beta-adrenergic signaling touches aqueous humor dynamics, but an intravenous inotrope has no established pressure-lowering role.
-- **Raynaud disease:** vasodilation is theoretically relevant, but no therapeutic data exist.
-- **Headache and migraine:** the retrieved literature describes headache as an adverse effect of inotropes, and the one migraine paper is a preclinical study that does not confirm dobutamine was tested.
+Other top-ranked predictions (hypotrichosis, diffuse alopecia areata, hypertrichosis, glaucoma, Raynaud disease, headache, migraine) show the same pattern: high scores with no trials and no supporting literature. Headache in particular is more likely an adverse-effect signal than a treatment indication.
 
-All of these are Level L5 with a Hold recommendation.
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for alopecia.
+Currently no related clinical trials registered.
+
+---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [41046802](https://pubmed.ncbi.nlm.nih.gov/41046802/) | 2025 | Case report (veterinary) | Journal of Veterinary Cardiology | A cat with heart failure after minoxidil intoxication received dobutamine for hypotension. This is not evidence for treating alopecia. |
-| [17505274](https://pubmed.ncbi.nlm.nih.gov/17505274/) | 2007 | Case report | Pediatric Emergency Care | Acute colchicine poisoning in a child, with hair loss as a recovery-phase feature. Dobutamine is not evaluated as a treatment. |
+| [41046802](https://pubmed.ncbi.nlm.nih.gov/41046802/) | 2025 | Case report (veterinary) | J Vet Cardiol | Heart failure from minoxidil poisoning in a cat; dobutamine was used only for hypotension, not for hair loss |
 
-Both papers mention alopecia-related settings only incidentally, and neither tests dobutamine for hair loss.
+This is the only publication retrieved for alopecia, and it does not support dobutamine as a treatment.
+
+---
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN08702P | DOBUTAMINE INJECTION 12.5 mg/ml | Injection | Hospira, Inc. |
+| SIN08702P | Dobutamine Injection 12.5 mg/ml (Hospira, Inc.) | Injection | Not stated in the licence data |
 
-The registry entry does not provide approved indication text.
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications suggested by the knowledge graph** (from the TxGNN knowledge graph, not from label text):
+  - Hypertension and hypertensive disorders
+  - Atrial fibrillation
+  - Aortic stenosis (including aortic valve disease and supravalvular aortic stenosis)
+  - Myocardial infarction and coronary thrombosis
+  - Hypertrophic cardiomyopathy (including the familial form)
+  - Potassium deficiency
+  - Hemoglobinopathy
+- **Drug Interactions**: The database lists 100 interactions. The 20 retrieved are all rated Moderate. They are mainly:
+  - Antidiabetic agents: acarbose, metformin, pioglitazone, repaglinide, chlorpropamide, and the DPP-4 inhibitors (alogliptin, linagliptin), SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin), GLP-1 agonists (albiglutide, dulaglutide, liraglutide, semaglutide), and insulins (aspart, degludec)
+  - Sympathomimetic anorectics: phentermine and diethylpropion
+  - Others: cimetidine and vancomycin
+
+Please refer to the package insert for label warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical trials, no supportive literature and no plausible mechanistic link. Dobutamine is also a systemically active intravenous inotrope, which makes hemodynamic risk a concern for any non-cardiac use. The high TxGNN score alone does not justify further investment.
+The prediction rests only on a model score. There are no clinical trials, no supporting literature, and no plausible mechanism linking a beta-1 inotrope to hair-follicle biology. Dobutamine is an intravenous hospital drug with cardiovascular contraindications, so a systemic route for a non-life-threatening cosmetic or dermatological condition would be hard to justify.
 
 **To proceed, the following is needed:**
-- The HSA package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action and original indication data from DrugBank
-- Evidence of a specific mechanistic link between beta-1 agonism and hair follicle biology
-- Confirmation of whether a topical route is feasible, since an injectable-only product is unlikely to suit a dermatologic use
-- Re-review of the migraine preclinical paper's abstract only if that indication is reconsidered
+- Package insert warnings and contraindications from HSA, and the approved indication text for the licence
+- Mechanism of action data from DrugBank
+- Preclinical evidence of an effect on hair follicles or hair growth
+- Assessment of whether a topical route is feasible, since only an injectable form is registered in Singapore
+- Re-examination of whether the alopecia prediction is a minoxidil-related knowledge-graph artefact
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

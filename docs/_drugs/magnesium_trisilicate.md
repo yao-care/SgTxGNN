@@ -2,7 +2,7 @@
 layout: default
 title: Magnesium Trisilicate
 parent: Medium Evidence (L3-L4)
-nav_order: 626
+nav_order: 632
 evidence_level: L3
 indication_count: 10
 ---
@@ -29,19 +29,19 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Magnesium Trisilicate: From Antacid Use to Active Peptic Ulcer Disease
+# Magnesium Trisilicate: From Peptic Ulcer Disease to Active Peptic Ulcer Disease
 
 ## One-Sentence Summary
 
-Magnesium trisilicate is an insoluble antacid sold in Singapore, mainly in combination tablets. No approved indication text is recorded for it in the retrieved registration data.
-The TxGNN model predicts it may be useful for **active peptic ulcer disease**. No clinical trials are registered for this exact condition, and only **4 publications** are attached, mostly indirect.
-Direct evidence sits under related entries (gastrojejunal ulcer, stomach disease), where the literature is largely historical (1938-1965).
+Magnesium trisilicate is a non-systemic antacid, originally used for peptic ulcer disease, reflux disease, esophagitis and dyspepsia.
+The TxGNN model predicts it may be effective for **active peptic ulcer disease**, but this is essentially a restatement of an existing use rather than a new one.
+Evidence is limited to **0 clinical trials** and **2 publications** for this exact indication, and the publications are old or only loosely relevant.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration records (antacid use presumed) |
+| Original Indication | Peptic ulcer disease, gastroesophageal reflux disease, esophagitis, dyspepsia (the registration records compiled for this report contain no approved indication text) |
 | Predicted New Indication | Active peptic ulcer disease |
 | TxGNN Prediction Score | 99.86% |
 | Evidence Level | L3 |
@@ -51,68 +51,76 @@ Direct evidence sits under related entries (gastrojejunal ulcer, stomach disease
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the source record. Based on known pharmacology, magnesium trisilicate is an insoluble antacid. It neutralises gastric hydrochloric acid and forms a protective silica gel over the mucosa. That is a plausible symptomatic and adjunctive mechanism in acid-related ulcer disease.
+Detailed mechanism of action data is not available. Based on known information, magnesium trisilicate is a non-systemic antacid. It neutralizes gastric acid and can adsorb pepsin, so it may relieve symptoms of acid-related disease.
 
-Because the original indication field is empty, this prediction may reflect a historical on-label use rather than true repurposing. The registration label needs to be checked to settle this.
+The predicted indication, active peptic ulcer disease, is very close to the drug's original indications (peptic ulcer disease, reflux disease, dyspepsia). It is effectively an on-label use, not true repurposing. The high TxGNN score probably reflects this closeness in the knowledge graph.
 
-The four publications attached to this indication are mostly indirect: sucralfate/alginate, a carbenoxolone-type product, a GERD review, and an unrelated contraceptive paper. The more direct magnesium trisilicate ulcer literature appears under related entries, such as:
-- A 1965 double-blind trial of bismuth aluminate vs magnesium trisilicate in peptic ulceration ([14248445](https://pubmed.ncbi.nlm.nih.gov/14248445/)).
-- Historical clinical series from 1938 to 1950 ([20321118](https://pubmed.ncbi.nlm.nih.gov/20321118/), [15425465](https://pubmed.ncbi.nlm.nih.gov/15425465/)).
-- A 4-week antacid vs ranitidine healing comparison using an aluminium hydroxide/magnesium trisilicate product ([6328685](https://pubmed.ncbi.nlm.nih.gov/6328685/)).
-
-Most of this evidence involves combination products, so effects cannot be attributed to magnesium trisilicate alone.
+Other predictions from the model are less convincing. Peptic ulcer perforation and duodenal obstruction are surgical or mechanical problems that an antacid would not treat. Gastroparesis is a delayed-emptying disorder that antacids do not address. For these, the score appears to reflect only graph proximity to ulcer disease.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered for active peptic ulcer disease.
 
-For context, trials found under the related "stomach disease" entry include two completed device studies of a hyaluronic acid/chondroitin sulphate/magnesium trisilicate formulation in GERD ([NCT03883074](https://clinicaltrials.gov/study/NCT03883074), n=21; [NCT04202692](https://clinicaltrials.gov/study/NCT04202692), n=40). These are small non-drug-phase studies in reflux, not ulcer disease, so they do not support this indication directly.
+For the broader category "stomach disease", two completed trials tested a combination product that contains magnesium trisilicate. They are listed here as context only, because the effect of magnesium trisilicate cannot be isolated:
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT03883074](https://clinicaltrials.gov/study/NCT03883074) | N/A | Completed | 21 | Double-blind crossover study of an oral hyaluronic acid, chondroitin sulphate and magnesium trisilicate formulation on mucosal integrity and reflux exposure in GERD patients not on a PPI |
+| [NCT04202692](https://clinicaltrials.gov/study/NCT04202692) | N/A | Completed | 40 | Double-blind crossover study of the same type of combination (GERDOff Plus) added to PPI treatment in GERD patients not fully satisfied with their PPI |
 
 ## Literature Evidence
 
+Publications retrieved for active peptic ulcer disease, plus the most relevant items for related ulcer conditions:
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [2986275](https://pubmed.ncbi.nlm.nih.gov/2986275/) | 1985 | Randomised double-blind trial (indirect) | Scand J Gastroenterol | Sucralfate vs alginate/antacid in reflux esophagitis (n=68). About 70% improved or became symptom-free. Does not test magnesium trisilicate directly. |
-| [4909818](https://pubmed.ncbi.nlm.nih.gov/4909818/) | 1970 | Double-blind clinical study (indirect) | Gut | Duogastrone in duodenal ulcer (n=28). Magnesium trisilicate was used only as the placebo control. |
-| [2877526](https://pubmed.ncbi.nlm.nih.gov/2877526/) | 1986 | Review | Z Gastroenterol | Overview of GERD therapy. Antacids and alginates are phase I therapy. |
+| [4909818](https://pubmed.ncbi.nlm.nih.gov/4909818/) | 1970 | Clinical study (double-blind) | Gut | Duogastrone (a different drug) controlled duodenal ulcer symptoms and appeared to hasten healing. The control group received a magnesium trisilicate placebo |
+| [14248445](https://pubmed.ncbi.nlm.nih.gov/14248445/) | 1965 | RCT | British Medical Journal | Double-blind trial of bismuth aluminate and magnesium trisilicate in peptic ulceration, with simultaneous gastric analysis (combination product) |
+| [6328685](https://pubmed.ncbi.nlm.nih.gov/6328685/) | 1984 | Comparative trial | S Afr Med J | In 88 patients, 4-week duodenal ulcer healing was 74% with ranitidine and 63% with an aluminium hydroxide and magnesium trisilicate antacid (Gelusil) |
+| [6368445](https://pubmed.ncbi.nlm.nih.gov/6368445/) | 1983 | Controlled trial | Int J Tissue React | De-Nol compared with an antacid mixture that includes magnesium trisilicate in 40 gastric ulcer outpatients over 4 weeks |
+| [15425465](https://pubmed.ncbi.nlm.nih.gov/15425465/) | 1950 | Case series | Am J Dig Dis | Aluminium hydroxide and magnesium trisilicate plus mucin in 125 peptic ulcer patients |
+| [6547921](https://pubmed.ncbi.nlm.nih.gov/6547921/) | 1984 | Physiological study | Fortschr Med | Local effects of sucralfate, aluminium hydroxide and magnesium trisilicate on transmural potential difference in gastric ulcer (6 patients per group) |
+| [20321118](https://pubmed.ncbi.nlm.nih.gov/20321118/) | 1938 | Clinical report | Can Med Assoc J | Magnesium trisilicate in the treatment of peptic ulcer |
+| [9789728](https://pubmed.ncbi.nlm.nih.gov/9789728/) | 1998 | Review | Drugs Aging | Mechanisms of drug-induced diarrhoea in the elderly (safety context) |
+| [15688172](https://pubmed.ncbi.nlm.nih.gov/15688172/) | 2005 | Review / case-based | Urologe A | Silica-containing urinary stones (safety signal) |
 
-One further retrieved paper (PMID 432256, on contraceptive tablet dissolution) is unrelated to this indication and is excluded.
+Two retrieved papers on norethisterone and phenytoin availability concern drug interactions, not efficacy. Most of the evidence is decades old, involves combination products and does not isolate magnesium trisilicate.
 
 ## Singapore Market Information
 
-Nine registrations are on record. The five below are shown. The retrieved records list no approved indication text for any of them, and a separate suspension form is also recorded.
-
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN03314P | SEMOR STOMACH TABLET | Tablet | Not stated in retrieved record |
-| SIN06599P | MAGNESIUM TRISILICATE COMPOUND TABLET BP | Tablet | Not stated in retrieved record |
-| SIN03159P | ALUMAG TABLETS | Tablet | Not stated in retrieved record |
-| SIN05336P | WELUSIL TABLET | Tablet | Not stated in retrieved record |
-| SIN09499P | ALLUMAG M TABLET | Tablet | Not stated in retrieved record |
+| SIN03314P | SEMOR STOMACH TABLET | Tablet | Not stated in the compiled records |
+| SIN06599P | MAGNESIUM TRISILICATE COMPOUND TABLET BP | Tablet | Not stated in the compiled records |
+| SIN03159P | ALUMAG TABLETS | Tablet | Not stated in the compiled records |
+| SIN05336P | WELUSIL TABLET | Tablet | Not stated in the compiled records |
+| SIN08786P | MAGTASIL ANTACID MIXTURE | Suspension | Not stated in the compiled records |
+
+A further 4 valid licences exist (9 in total, all single-ingredient and valid, none cancelled).
 
 ## Safety Considerations
 
-Package insert warnings, contraindications and drug-interaction records were not available. Please refer to the package insert for safety information.
+The data compiled for this report do not include package insert warnings or contraindications. The knowledge graph links the drug to possible contraindications in the following conditions:
 
-Literature-reported signals for antacids and silicate-containing products include:
-- **Mineral metabolism**: Antacid use can alter mineral balance, with aluminium-containing products linked to phosphate depletion ([6293043](https://pubmed.ncbi.nlm.nih.gov/6293043/)).
-- **Silica-containing urinary stones**: Rare silicate stones have been reported ([15688172](https://pubmed.ncbi.nlm.nih.gov/15688172/)).
-- **Reduced drug availability**: Antacids reduced norethisterone acetate dissolution in vitro ([432256](https://pubmed.ncbi.nlm.nih.gov/432256/)). Antacid combinations, including aluminium hydroxide-magnesium trisilicate, altered phenytoin bioavailability in healthy subjects ([7336470](https://pubmed.ncbi.nlm.nih.gov/7336470/)). Dosing should be separated from other oral drugs.
+- **Possible contraindicated conditions (knowledge graph, not label text)**: kidney disease, congestive heart failure, diarrhoeal disease (acute and chronic), constipation, intestinal impaction, hypophosphatemia, haemorrhoids, pyoureter.
+- **Literature safety signals**: drug-induced diarrhoea in the elderly, and silica-containing urinary stones.
+- **Absorption interactions**: antacids containing magnesium trisilicate reduced the availability of norethisterone acetate in vitro, and the effect on phenytoin bioavailability has been studied. Dosing should be separated from other oral drugs.
+
+No drug interaction records were found in the database queried. Please refer to the package insert for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high (99.86%), but there are no registered trials for this indication. The available evidence is historical, mostly indirect, and largely based on combination products. Package insert data, the key safety and label information, is also missing, so the case cannot advance to safety screening.
+The predicted indication is essentially already covered by the drug's existing use, so it is not a true repurposing opportunity. Supporting evidence is old, mostly uncontrolled, and based on combination products, with no modern controlled trial. Other high-scoring predictions (perforation, obstruction, gastroparesis) are mechanistically implausible.
 
 **To proceed, the following is needed:**
-- HSA package insert (indications, warnings, contraindications), which will also show whether peptic ulcer is already an on-label use.
-- Mechanism of action data from DrugBank.
-- Full-text review of the direct magnesium trisilicate ulcer studies (1938-1965) to confirm the effect of magnesium trisilicate itself.
-- Drug interaction and dosing-separation guidance for co-administered oral drugs.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
+- Package insert warnings and contraindications from the HSA (currently a blocking gap for safety screening)
+- Approved indication text for the Singapore licences
+- Detailed mechanism of action data
+- Modern controlled evidence for magnesium trisilicate alone, if a formal claim is desired
+- A review of renal function and magnesium accumulation risk in vulnerable patients
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

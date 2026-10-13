@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Vincristine
-parent: Low Evidence (L5)
-nav_order: 1059
-evidence_level: L5
+parent: Medium Evidence (L3-L4)
+nav_order: 1069
+evidence_level: L3
 indication_count: 10
 ---
 
 # Vincristine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,92 +29,101 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Vincristine: From Antineoplastic Chemotherapy to Ganglioneuroblastoma
+# Vincristine: From Acute Lymphoblastic Leukaemia and Lymphoma to Ganglioneuroblastoma
 
 ## One-Sentence Summary
 
-Vincristine is an antimitotic chemotherapy drug. The Singapore registry record does not state its approved indication.
-The TxGNN model predicts it may be effective for **Ganglioneuroblastoma**, a tumour on the neuroblastic tumour spectrum.
-Support is indirect: **4 clinical trials** (vincristine is part of the background chemotherapy, not the tested variable) and **6 publications** (mostly case reports).
+Vincristine is a vinca alkaloid chemotherapy drug, originally used for acute lymphoblastic leukaemia, Hodgkin and non-Hodgkin lymphoma, mantle cell lymphoma and Langerhans cell histiocytosis.
+The TxGNN model predicts it may be effective for **Ganglioneuroblastoma**.
+Currently there are **no registered clinical trials** and **6 publications** (mostly case reports, plus one prospective cohort), so the evidence is limited.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Acute lymphoblastic leukaemia, Hodgkin lymphoma, non-Hodgkin lymphoma, mantle cell lymphoma, Langerhans cell histiocytosis (the Singapore licence lists no approved indication text) |
 | Predicted New Indication | Ganglioneuroblastoma |
 | TxGNN Prediction Score | 99.31% |
-| Evidence Level | L3 (see note below) |
+| Evidence Level | L3 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 1 |
-| Recommended Decision | Proceed with Guardrails |
+| Recommended Decision | Hold |
 
-*Note on evidence level:* The upstream pack assigned L2. By the L1–L5 rules, L2 requires a completed Phase 2/3 RCT, and none exists here. The only completed trial is a Phase 1 pilot. The Phase 2 trial is single-arm and still active, and the Phase 3 trials are recruiting without results. The supporting literature is case-level or observational, so I rate it L3.
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the record. From general pharmacology, vincristine binds tubulin, blocks microtubule polymerization and arrests dividing cells in metaphase. This makes it active against rapidly proliferating tumours.
+Vincristine binds tubulin and disrupts mitotic spindle formation, arresting dividing cells in metaphase. Detailed mechanism-of-action data was not available in the data compiled for this report, but this antimitotic action is well established for the vinca alkaloid class.
 
-Ganglioneuroblastoma belongs to the same neuroblastic tumour family as neuroblastoma. Vincristine is a standard backbone drug in neuroblastoma induction regimens. The mechanistic link is therefore plausible.
+Ganglioneuroblastoma belongs to the same neuroblastic tumour spectrum as neuroblastoma, where vincristine is a backbone of standard chemotherapy regimens. Because both tumours are proliferative and arise from the same cell lineage, the prediction is biologically plausible. The published reports describe vincristine used inside multi-drug regimens, so its individual contribution cannot be separated out.
 
-However, most of the evidence concerns neuroblastoma in general, not ganglioneuroblastoma specifically. No study isolates vincristine's own contribution. The TxGNN score is a graph-based prediction and does not replace clinical evidence.
+Other predicted indications (for context) include retroperitoneal neoplasm, nasal cavity lymphoma, ovarian lymphoma, AIDS-related primary CNS lymphoma and composite lymphoma. Most rest on indirect or combination-regimen evidence. Several others (for example, vertebral anomalies with endocrine and T-cell dysfunction, progressive transformation of germinal centres, and CLL/SLL subtypes) have no supporting studies and appear to be graph-based predictions only.
+
+---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT03786783](https://clinicaltrials.gov/study/NCT03786783) | Phase 2 | Active, not recruiting | 42 | Single-arm pilot adding dinutuximab and sargramostim to induction chemotherapy in newly diagnosed high-risk neuroblastoma. Supports feasibility and safety of the combination, not a vincristine-specific effect. |
-| [NCT03126916](https://clinicaltrials.gov/study/NCT03126916) | Phase 3 | Recruiting | 750 | Tests adding 131I-MIBG or lorlatinib to intensive therapy in high-risk neuroblastoma or ganglioneuroblastoma. Vincristine-based induction is the backbone. No results yet. |
-| [NCT06172296](https://clinicaltrials.gov/study/NCT06172296) | Phase 3 | Recruiting | 478 | Tests adding dinutuximab to intensive multimodal therapy in newly diagnosed high-risk neuroblastoma. Vincristine is in the background chemotherapy. No results yet. |
-| [NCT01798004](https://clinicaltrials.gov/study/NCT01798004) | Phase 1 | Completed | 150 | Pilot of busulfan/melphalan consolidation after induction chemotherapy. Vincristine appears only in the preceding induction, so relevance is indirect. |
+Currently no related clinical trials registered for ganglioneuroblastoma.
+
+---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31342649](https://pubmed.ncbi.nlm.nih.gov/31342649/) | 2019 | Prospective clinical trial | Pediatric Blood & Cancer | Japanese trial (JN-L-10) using image-defined risk factors to time surgery in low-risk neuroblastoma. Concerns surgical decisions, not vincristine. |
-| [8255850](https://pubmed.ncbi.nlm.nih.gov/8255850/) | 1993 | Case report | Postgraduate Medical Journal | Unresectable spinal ganglioneuroblastoma in a 21-year-old. A regimen including doxorubicin, vincristine, cyclophosphamide, etoposide, ifosfamide and cisplatin gave histologically proven complete remission. |
-| [15701990](https://pubmed.ncbi.nlm.nih.gov/15701990/) | 2005 | Case report | J Pediatr Hematol Oncol | Ganglioneuroblastoma presenting with obstructive jaundice, treated with a regimen containing cisplatin, pirarubicin/doxorubicin, cyclophosphamide and vincristine. |
-| [7421294](https://pubmed.ncbi.nlm.nih.gov/7421294/) | 1980 | Case report/Review | J Thorac Cardiovasc Surg | 31 patients with intrathoracic ganglioneuroblastoma treated with surgery, radiation or chemotherapy. 27 survived, with follow-up up to 25 years. Vincristine's role is not specified. |
-| [8888754](https://pubmed.ncbi.nlm.nih.gov/8888754/) | 1996 | Case report | J Pediatr Hematol Oncol | Infant with stage 4 multifocal ganglioneuroblastoma and gastric involvement. |
-| [3071124](https://pubmed.ncbi.nlm.nih.gov/3071124/) | 1988 | Case report | Hinyokika Kiyo | Adult adrenal ganglioneuroblastoma with giant regional lymph node metastasis, treated with multimodality therapy. |
+| [31342649](https://pubmed.ncbi.nlm.nih.gov/31342649/) | 2019 | Prospective clinical trial (cohort) | Pediatric Blood & Cancer | JN-L-10 study using image-defined risk factors to guide surgical timing in low-risk neuroblastoma; aimed to reduce treatment complications |
+| [7421294](https://pubmed.ncbi.nlm.nih.gov/7421294/) | 1980 | Case report | J Thorac Cardiovasc Surg | 31 patients with intrathoracic ganglioneuroblastoma treated by resection, radiotherapy or chemotherapy; 27 survived, up to 25 years of follow-up |
+| [8255850](https://pubmed.ncbi.nlm.nih.gov/8255850/) | 1993 | Case report | Postgrad Med J | Unresectable spinal ganglioneuroblastoma achieved histologically proven complete remission with combination chemotherapy including vincristine |
+| [15701990](https://pubmed.ncbi.nlm.nih.gov/15701990/) | 2005 | Case report | J Pediatr Hematol Oncol | Ganglioneuroblastoma presenting with obstructive jaundice, treated with cisplatin, pirarubicin/doxorubicin, cyclophosphamide and vincristine |
+| [8888754](https://pubmed.ncbi.nlm.nih.gov/8888754/) | 1996 | Case report | J Pediatr Hematol Oncol | Infant with stage 4 multifocal ganglioneuroblastoma with gastric involvement |
+| [3071124](https://pubmed.ncbi.nlm.nih.gov/3071124/) | 1988 | Case report | Hinyokika Kiyo | Adult adrenal ganglioneuroblastoma with giant regional lymph node metastasis treated with multimodality therapy |
+
+---
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN10319P | VINRACINE INJ. 1 mg/ml (Korea United Pharmaceutical Inc) | Injection | Not stated in the registry record |
+| SIN10319P | VINRACINE INJ. 1 mg/ml | Injection | Not stated in the available record |
+
+---
 
 ## Cytotoxicity
-
-The registry record has no toxicity data. The entries below reflect general knowledge of the vinca alkaloid class and must be confirmed against the package insert.
 
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Conventional cytotoxic (vinca alkaloid, antimitotic) |
-| Myelosuppression Risk | Generally low to moderate. Neurotoxicity is the dose-limiting concern. |
-| Emetogenicity Classification | Low |
-| Monitoring Items | CBC, liver function, neurological assessment, bowel function (constipation/ileus) |
-| Handling Protection | Must follow cytotoxic drug handling regulations. Intravenous use only; it is a vesicant, so avoid extravasation. |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Blood counts (CBC with differential), liver function (including bilirubin), neurological assessment |
+| Handling Protection | Must follow cytotoxic drug handling regulations |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications (from knowledge-graph associations, not label text)**: liver failure, hyperbilirubinaemia and cholestasis (including Gilbert syndrome and familial intrahepatic cholestasis), leukopenia, peripheral neuropathy and other neuromuscular disease (including Charcot-Marie-Tooth disease, motor neuropathy and neuritis), acute urate nephropathy, and fungal, dermatophyte and other infectious disease.
+- **Drug Interactions**: 100 interactions were identified. The one rated Major is **clarithromycin**. Moderate interactions include aprepitant, dexamethasone, metronidazole, eliglustat, naltrexone, glycerol phenylbutyrate, miconazole, rolapitant, rosuvastatin, simvastatin, tinidazole and troglitazone. Levofloxacin is rated Minor.
+
+Please also refer to the package insert for full safety information, as label warnings were not available in the compiled data.
+
+---
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-Vincristine is already a backbone drug in neuroblastoma induction regimens, and ganglioneuroblastoma lies on the same tumour spectrum. This makes the prediction plausible. However, no study tests vincristine specifically in ganglioneuroblastoma. Direct evidence is limited to case reports, and the larger trials use vincristine only as background therapy.
+The biological link to neuroblastic tumours is plausible and vincristine is already standard in neuroblastoma regimens. However, evidence for ganglioneuroblastoma specifically is limited to old case reports and one neuroblastoma-focused cohort, with no registered trials. Package insert safety data is also missing, which blocks safety screening.
 
 **To proceed, the following is needed:**
-- The Singapore package insert (warnings, contraindications, interactions). This is a blocking gap for safety screening.
-- The approved indication text for SIN10319P.
-- Detailed mechanism-of-action data from DrugBank.
-- Review of disease-specific data from the ongoing Phase 3 neuroblastoma/ganglioneuroblastoma trials (NCT03126916, NCT06172296) once results are available.
-- Pediatric oncology specialist oversight of any use, with dosing and neurotoxicity monitoring protocols.
-
-*This report is for research reference only and does not constitute medical advice. Predicted indications require clinical validation before any clinical use.*
+- Singapore package insert warnings and contraindications (download and review the HSA label)
+- Mechanism of action data from DrugBank
+- The approved indication text for licence SIN10319P
+- A focused review of neuroblastoma and ganglioneuroblastoma protocols (for example, paediatric oncology group regimens) to confirm vincristine's role in this tumour type
+- Dose, neurotoxicity and hepatic-impairment guidance, given the knowledge-graph contraindications and the major clarithromycin interaction
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

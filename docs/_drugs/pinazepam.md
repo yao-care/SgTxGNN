@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Pinazepam
-parent: Medium Evidence (L3-L4)
-nav_order: 785
-evidence_level: L4
+parent: Low Evidence (L5)
+nav_order: 794
+evidence_level: L5
 indication_count: 10
 ---
 
 # Pinazepam
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,73 +29,90 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Pinazepam: From Anxiety to Insomnia
+# Pinazepam: From Anxiety (Benzodiazepine Anxiolytic) to Insomnia
 
 ## One-Sentence Summary
 
-Pinazepam is a benzodiazepine anxiolytic. Its literature describes anxiety control, and the Singapore registration record does not state an approved indication.
-The TxGNN model predicts it may be effective for **Insomnia**, but the evidence is very thin: **1 registered clinical trial** (unrelated to the drug) and **0 publications** specific to insomnia.
+Pinazepam is a benzodiazepine that the body converts into N-desmethyldiazepam (nordazepam), and it is marketed in Singapore as an oral capsule. No approved indication text is recorded for it in the data compiled for this report.
+The TxGNN model predicts it may be effective for **insomnia** (top-ranked prediction), but there are currently **no clinical trials and no publications** directly supporting this indication.
+The evidence is a computational prediction only (Level L5).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Anxiety (from the pinazepam literature; not stated in the HSA record) |
+| Original Indication | Not recorded in the Singapore licence data (literature suggests anxiety) |
 | Predicted New Indication | Insomnia |
 | TxGNN Prediction Score | 99.95% |
-| Evidence Level | L4 |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the database. Pinazepam is a 1,4-benzodiazepine with a propargyl group at the N1 position. It acts largely as a prodrug: it is converted to N-desmethyldiazepam (nordazepam), an active GABA-A positive allosteric modulator. Benzodiazepines as a class have sedative-hypnotic effects, so the prediction is biologically plausible at class level.
+Currently, detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, pinazepam is a 1,4-benzodiazepine prodrug. It is converted mainly by N-dealkylation into N-desmethyldiazepam (nordazepam), a long-acting positive allosteric modulator of the GABA-A receptor. This class produces sedative, hypnotic and anxiolytic effects.
 
-The prediction rests on class-level reasoning only. The 1984 pharmacology review notes that pinazepam has a particularly low hypnotic effect and limited impairment of motor coordination in animals. This runs against its use as a sleep aid. Nordazepam also has a long half-life, which raises concern about next-day sedation.
+Because GABA-A potentiation underlies the sedative-hypnotic action of benzodiazepines, the link to insomnia is mechanistically plausible. A 1984 review, however, describes pinazepam as having a comparatively low hypnotic effect and limited motor impairment in animals. This weakens the case for insomnia specifically. The high TxGNN score is a graph-based association, not clinical evidence.
+
+**Other predictions for context:**
+- **Sleep disorder (initiating and maintaining sleep):** essentially the same entity as insomnia, with no supporting studies.
+- **Anxiety and anxiety disorder:** the only predictions with literature (L3), but these likely overlap with the drug's original use, so they are closer to on-label use than true repurposing.
+- **Alcohol withdrawal and alcohol withdrawal delirium:** benzodiazepines are standard of care, but no pinazepam-specific evidence exists and established agents are available.
+- **Antidepressant, barbiturate and hallucinogen abuse:** identical scores across these terms suggest a generic graph artifact with weak or no rationale.
+- **Dysthymic disorder:** no strong mechanistic rationale, and no evidence.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT04151485](https://clinicaltrials.gov/study/NCT04151485) | N/A | Unknown | 177 | Mind/Body psychological program for women in fertility treatment. No drug is tested and insomnia is not targeted (relevance grade C). |
-
-No registered trial tests pinazepam or any benzodiazepine for insomnia.
+Currently no related clinical trials registered for insomnia.
 
 ## Literature Evidence
 
 Currently no related literature available for insomnia.
 
-Pinazepam-specific literature exists only for anxiety and pharmacokinetics (for example, a 1984 review, PMID 6147192). None of it addresses insomnia.
+For the related predicted indication **anxiety / anxiety disorder**, the following publications were found (most relevant first):
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [6147192](https://pubmed.ncbi.nlm.nih.gov/6147192/) | 1984 | Review | Clinical Therapeutics | Review of pinazepam's pharmacology and therapeutic efficacy. Controls anxiety and aggression in animals, with low hypnotic effect and less toxicity than diazepam |
+| [12907](https://pubmed.ncbi.nlm.nih.gov/12907/) | 1976 | Open-label trial | La Clinica Terapeutica | Open clinical trial of pinazepam (no abstract available) |
+| [7006888](https://pubmed.ncbi.nlm.nih.gov/7006888/) | 1980 | Clinical study | La Clinica Terapeutica | Clinical research in gastrointestinal psychosomatic diseases (no abstract available) |
+| [28903606](https://pubmed.ncbi.nlm.nih.gov/28903606/) | 2017 | Review | Drug Metabolism Reviews | Metabolic profile of oxazepam and related benzodiazepines, including pinazepam, with clinical and forensic aspects |
+| [6809477](https://pubmed.ncbi.nlm.nih.gov/6809477/) | 1982 | Pharmacokinetic | Eur J Clin Pharmacol | Pinazepam acts as a prodrug; its metabolite reaches higher plasma levels than the parent shortly after a 10 mg oral dose |
+| [6147314](https://pubmed.ncbi.nlm.nih.gov/6147314/) | 1983 | Pharmacokinetic | Int J Clin Pharmacol Res | Kinetics in six healthy volunteers after a single 10 mg oral dose |
+| [6150857](https://pubmed.ncbi.nlm.nih.gov/6150857/) | 1984 | Pharmacokinetic | Eur J Clin Pharmacol | Placental transfer of pinazepam and its metabolite in 25 women at term |
+| [26359](https://pubmed.ncbi.nlm.nih.gov/26359/) | 1978 | Preclinical | Arzneimittel-Forschung | In rats, pinazepam was more than twice as active as diazepam in reducing conditioned emotional response |
+| [240369](https://pubmed.ncbi.nlm.nih.gov/240369/) | 1975 | Preclinical/Toxicology | Arzneimittel-Forschung | Lower toxicity, hypnotic and muscle-relaxant activity than diazepam |
+| [6124406](https://pubmed.ncbi.nlm.nih.gov/6124406/) | 1982 | Preclinical PK | Drug Metab Dispos | Rapid absorption and conversion to N-desmethyldiazepam in rats, with a liver first-pass effect |
+
+These studies are mostly pharmacokinetic or preclinical, dated, and not randomized controlled trials.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN01038P | DOMAR CAPSULE 5 mg | Capsule | POLIPHARM CO LTD |
+| SIN01038P | DOMAR CAPSULE 5 mg (Polipharm Co Ltd) | Capsule (oral) | Not recorded |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No warnings, contraindications or drug interaction records are available in the current data.
+- **Drug Interactions:** No interaction records were found for this drug.
+- **Knowledge-graph contraindications:** No drug-disease contraindication edges were found.
 
-Class-level guardrails noted in the evidence review:
-- **Next-day sedation**: the active metabolite nordazepam has a long half-life.
-- **Dependence and abuse liability**: these apply to benzodiazepines generally.
-- **Placental transfer**: documented for pinazepam and nordazepam in pregnant women at term.
+Please refer to the package insert for warnings and contraindications. As a benzodiazepine, dependence, abuse liability, sedation and fetal exposure are class concerns, and placental transfer has been documented for pinazepam and its metabolite (PMID 6150857).
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The insomnia prediction has a high model score but no pinazepam-specific trials or publications. Its only support is class-level mechanism, and the pinazepam literature points to a low hypnotic effect. Benzodiazepine risks (residual sedation, dependence) also weigh against it.
+The insomnia prediction rests only on a model score, with no trials or literature, and early animal data suggest pinazepam has a relatively low hypnotic effect. The better-supported indications (anxiety) are probably the drug's original use rather than true repurposing.
 
 **To proceed, the following is needed:**
-- The HSA package insert (warnings, contraindications, approved indication)
-- Detailed mechanism of action data (MOA), for example from DrugBank
-- Pinazepam-specific clinical evidence in insomnia, ideally a controlled trial
-- A comparison against established hypnotics, including residual sedation and dependence risk
-- If anxiety is the most defensible direction, review it separately: two of the studies in that literature are older uncontrolled clinical studies
+- The HSA package insert (warnings, contraindications, approved indication), which is a blocking gap for safety screening
+- Mechanism of action data from DrugBank
+- Clinical efficacy data for pinazepam in insomnia, such as sleep studies or comparisons with established hypnotics
+- A comparison against existing benzodiazepines and other hypnotics already marketed in Singapore
+- A dependence and abuse-risk assessment for any sleep-related use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

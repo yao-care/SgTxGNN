@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Zidovudine
-parent: Low Evidence (L5)
-nav_order: 1073
-evidence_level: L5
+parent: Medium Evidence (L3-L4)
+nav_order: 1083
+evidence_level: L4
 indication_count: 10
 ---
 
 # Zidovudine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Zidovudine: From HIV Infection to Feline Acquired Immunodeficiency Syndrome
+# Zidovudine: From HIV Infection and AIDS to Feline Acquired Immunodeficiency Syndrome
 
 ## One-Sentence Summary
 
-Zidovudine is a nucleoside reverse transcriptase inhibitor, an antiretroviral drug used against HIV. The TxGNN model predicts it may be effective for **feline acquired immunodeficiency syndrome (FIV/FeLV-related disease in cats)**. This direction is supported by **0 clinical trials** and **20 publications**, all of them animal or laboratory studies.
+Zidovudine (AZT) is a nucleoside reverse transcriptase inhibitor originally used to treat HIV infection and AIDS in humans.
+The TxGNN model predicts it may be effective for **feline acquired immunodeficiency syndrome**, a veterinary indication.
+Support is limited to **19 publications**, mostly animal studies, with **no registered clinical trials**.
 
 ---
 
@@ -41,22 +43,23 @@ Zidovudine is a nucleoside reverse transcriptase inhibitor, an antiretroviral dr
 
 | Item | Content |
 |------|------|
+| Original Indication | HIV infection, AIDS (taken from the knowledge-graph indication data; the Singapore registration records contain no indication text) |
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 99.96% |
-| Evidence Level | L4 (preclinical/animal studies only) |
+| Evidence Level | L4 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 3 |
 | Recommended Decision | Hold |
-
-The Singapore labels in the data do not state an approved indication. The "HIV infection" in the title reflects the drug's antiretroviral class and products such as Retrovir and Combivir, not label text.
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the record. Zidovudine is known to act on viral reverse transcriptase, the enzyme HIV uses to copy its genome. Feline immunodeficiency virus (FIV) is a lentivirus with a closely related reverse transcriptase, and it causes an AIDS-like disease in cats. The cat is therefore a long-standing animal model for testing HIV drugs, and a reverse transcriptase inhibitor is a natural fit.
+Detailed mechanism of action data is not available in the data compiled for this report. Zidovudine is a nucleoside reverse transcriptase inhibitor, and its efficacy against HIV is well established. Mechanistically, it may be applicable to feline immunodeficiency virus (FIV) as well.
 
-The high TxGNN score most likely reflects this shared mechanism with the HIV indication. The evidence is veterinary and preclinical. It does not point to a new human use. The same literature includes a toxicity study in cats infected with feline leukemia virus, which is a safety caution.
+FIV is a lentivirus closely related to HIV-1, and its reverse transcriptase is similar enough that many HIV reverse transcriptase inhibitors also work against it. This is why FIV-infected cats are widely used as an animal model of HIV. Veterinary studies report lower plasma virus levels, reduced provirus burden and better immune function in treated animals.
+
+This is a veterinary indication, not a new human use. The related feline leukaemia virus studies also noted zidovudine toxicity, so the benefit-risk balance in cats is not settled.
 
 ---
 
@@ -68,38 +71,45 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-All entries below are preclinical animal or laboratory studies. Findings are summarized from the abstracts available in the record, some of which are truncated.
+The 10 most relevant of the 19 publications are listed below. None is a randomized controlled trial in humans.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [2475068](https://pubmed.ncbi.nlm.nih.gov/2475068/) | 1989 | Preclinical animal model | Antimicrob Agents Chemother | FIV reverse transcriptase examined for similarity to HIV-1's, supporting FIV as a model for reverse transcriptase-targeted chemotherapy |
-| [2163339](https://pubmed.ncbi.nlm.nih.gov/2163339/) | 1990 | Preclinical toxicity study | Fundam Appl Toxicol | Toxicity of oral zidovudine at 7.5–60 mg/kg/day in FeLV-infected cats |
-| [2178336](https://pubmed.ncbi.nlm.nih.gov/2178336/) | 1990 | Preclinical animal study | Antimicrob Agents Chemother | Alpha interferon with or without zidovudine in presymptomatic FeLV-induced immunodeficiency in cats |
-| [2164083](https://pubmed.ncbi.nlm.nih.gov/2164083/) | 1990 | Preclinical animal study | J Acquir Immune Defic Syndr | Zidovudine inhibited FeLV-FAIDS replication in vitro, with an added 25–30% effect when combined with alpha interferon; tested with interferon and IL-2 as prophylaxis in cats |
-| [8381867](https://pubmed.ncbi.nlm.nih.gov/8381867/) | 1993 | Preclinical animal study | J Acquir Immune Defic Syndr | Prophylactic zidovudine prevented early viremia and lymphocyte decline in FIV-inoculated cats but did not prevent primary infection |
-| [7688949](https://pubmed.ncbi.nlm.nih.gov/7688949/) | 1993 | Preclinical animal study | Arch Virol | Zidovudine lowered plasma FIV titers at 2 weeks, but the effect was not maintained, and it did not prevent infection |
-| [7618256](https://pubmed.ncbi.nlm.nih.gov/7618256/) | 1995 | Preclinical animal study | Vet Immunol Immunopathol | AZT-treated SCID-feline mice showed reduced provirus burden after FIV inoculation |
-| [11943320](https://pubmed.ncbi.nlm.nih.gov/11943320/) | 2002 | Preclinical (in vitro and in vivo) | Vet Immunol Immunopathol | AZT/3TC combination tested against FIV; additive to synergistic in primary cells but not in chronically infected cells |
-| [11684314](https://pubmed.ncbi.nlm.nih.gov/11684314/) | 2002 | In vitro study | Antiviral Res | Zidovudine, lamivudine and abacavir combination tested for suppression of FIV replication in vitro |
-| [25855689](https://pubmed.ncbi.nlm.nih.gov/25855689/) | 2016 | Follow-up of treated cats | J Feline Med Surg | Long-term (5–6 years) antiretroviral therapy in FIV-infected domestic cats, starting with zidovudine |
+| [22816032](https://pubmed.ncbi.nlm.nih.gov/22816032/) | 2012 | Veterinary clinical study | Viruses | One-year comparison of zidovudine alone and in combination with interferon-α, lamivudine or valproic acid in naturally FIV-infected cats |
+| [7495172](https://pubmed.ncbi.nlm.nih.gov/7495172/) | 1995 | Veterinary clinical study | Zentralblatt fur Veterinarmedizin A | Long-term oral AZT (5 mg/kg three times daily) versus symptomatic therapy in diseased FIV-positive field cats |
+| [1363008](https://pubmed.ncbi.nlm.nih.gov/1363008/) | 1992 | Veterinary clinical study | Vet Immunol Immunopathol | Efficacy and side effects of AZT and PMEA in naturally infected FIV and FeLV cats with symptoms |
+| [25855689](https://pubmed.ncbi.nlm.nih.gov/25855689/) | 2016 | Follow-up study | J Feline Med Surg | Effects of 5–6 years of antiretroviral therapy starting with AZT in FIV-infected cats |
+| [7688949](https://pubmed.ncbi.nlm.nih.gov/7688949/) | 1993 | Animal study | Arch Virol | AZT lowered plasma virus titres at 2 weeks but did not prevent infection in experimentally infected cats |
+| [8381867](https://pubmed.ncbi.nlm.nih.gov/8381867/) | 1993 | Animal study | J Acquir Immune Defic Syndr | Prophylactic AZT prevented early viremia and lymphocyte decline but not primary infection |
+| [7749786](https://pubmed.ncbi.nlm.nih.gov/7749786/) | 1995 | Animal study | J Acquir Immune Defic Syndr Hum Retrovirol | Early suppression of viremia by AZT did not alter the spread of FIV infection; CD4 counts stayed higher in treated cats |
+| [7618256](https://pubmed.ncbi.nlm.nih.gov/7618256/) | 1995 | Animal model | Vet Immunol Immunopathol | Reduced provirus burden and enhanced humoral immune function in AZT-treated SCID-feline mice inoculated with FIV |
+| [2178336](https://pubmed.ncbi.nlm.nih.gov/2178336/) | 1990 | Animal study (FeLV) | Antimicrob Agents Chemother | Interferon-α plus AZT in presymptomatic FeLV-induced immunodeficiency |
+| [2163339](https://pubmed.ncbi.nlm.nih.gov/2163339/) | 1990 | Animal toxicity study (FeLV) | Fundam Appl Toxicol | AZT toxicity in FeLV-infected cats across doses of 7.5–60 mg/kg/day |
 
 ---
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN07438P | APO-ZIDOVUDINE CAPSULE 100 mg | Capsule |
-| SIN07527P | RETROVIR ORAL SOLUTION 10 mg/ml | Syrup |
-| SIN10795P | COMBIVIR TABLETS | Tablet, film coated |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN07438P | APO-ZIDOVUDINE CAPSULE 100 mg | Capsule | Not stated in the registration data |
+| SIN07527P | RETROVIR ORAL SOLUTION 10 mg/ml | Syrup (oral solution) | Not stated in the registration data |
+| SIN10795P | COMBIVIR TABLETS | Film-coated tablet | Not stated in the registration data |
+
+All three registrations are currently valid. They are human medicines, and no veterinary registration appears in the data.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. The Singapore package insert warnings and contraindications have not been retrieved, and no drug interaction records were found.
+- **Contraindications suggested by the knowledge graph** (disease associations, not package-insert text): liver failure, liver disease, fatty liver disease, non-alcoholic steatohepatitis, kidney disease, pancreatitis, gallbladder disease, myopathy and other muscle diseases (including myositis and dermatomyositis), neutropenia, agranulocytosis, anaemia (including macrocytic anaemia), lactic acidosis, hypertriglyceridemia, obesity disorders, familial periodic paralysis and pyoureter.
+- **Drug Interactions** (100 interactions recorded; 20 reviewed):
+  - Moderate: amphotericin B (including the cholesteryl sulfate and lipid complex formulations), corticosteroids (betamethasone, budesonide, dexamethasone, hydrocortisone, prednisolone, prednisone, triamcinolone), statins (rosuvastatin, simvastatin), naltrexone and orlistat.
+  - Minor: cimetidine and clarithromycin.
+  - Interaction level not classified: pantoprazole, omeprazole, morphine and metformin.
+- **Animal toxicity**: zidovudine toxicity has been reported in FeLV-infected cats.
 
-The cat toxicity study (PMID 2163339) reports dose-related toxicity evaluation of zidovudine in FeLV-infected cats. This is a caution for any animal use.
+Please refer to the package insert for warnings and contraindications, which are not available in the data compiled for this report.
 
 ---
 
@@ -108,14 +118,14 @@ The cat toxicity study (PMID 2163339) reports dose-related toxicity evaluation o
 **Decision: Hold**
 
 **Rationale:**
-- The prediction rests on animal and laboratory studies only, with no clinical trials for this indication.
-- The disease is a veterinary condition, so it offers little value as a repurposing opportunity for human medicine in Singapore.
+The prediction score is very high, and the mechanistic link through reverse transcriptase inhibition is plausible. However, the evidence is entirely preclinical or veterinary, with no registered trials. The indication is for cats, so it does not extend the human use of a drug already marketed in Singapore, and zidovudine toxicity has been noted in related feline studies.
 
 **To proceed, the following is needed:**
-- A decision on whether a veterinary indication is within the scope of this evaluation.
-- Mechanism-of-action data for the record.
-- The HSA package insert, to confirm approved indications and safety warnings.
-- If a human repurposing opportunity is the goal, a review of the other predicted indications. Congenital HIV and AIDS-related complex have Phase 3 trial evidence (Evidence Pack scoring: Proceed with Guardrails), but they are established uses of zidovudine rather than new ones.
+- Clarification of whether a veterinary indication is within the scope of this repurposing programme
+- Controlled veterinary clinical trials with safety and dose data in cats
+- Package-insert warnings and contraindications from the Singapore regulator
+- Detailed mechanism of action data
+- Safety information on haematological toxicity (anaemia, neutropenia) and on liver and kidney function
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

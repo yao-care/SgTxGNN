@@ -29,18 +29,18 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Aminacrine: From Topical Antiseptic to Paratyphoid Fever
+# Aminacrine: From Topical Antisepsis to Paratyphoid Fever
 
 ## One-Sentence Summary
 
-Aminacrine is registered in Singapore only as a topical gel (MEDIJEL GEL), and the registration record does not state an approved indication. Background knowledge suggests it is an acridine antiseptic, but this is not confirmed by the input data.
-The TxGNN model predicts it may be effective for **paratyphoid fever**, but there are **0 clinical trials** and **0 publications** supporting this direction, so it is a model prediction only.
+Aminacrine (9-aminoacridine) is a topical antiseptic acridine compound, marketed in Singapore as a gel.
+The TxGNN model predicts it may be effective for **paratyphoid fever**, but the prediction rests on a computational score alone, with **0 clinical trials** and **0 publications** supporting it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration record (generally known as a topical antiseptic, unverified) |
+| Original Indication | Not stated in the Singapore licence record (topical antiseptic use is inferred from the drug class) |
 | Predicted New Indication | Paratyphoid fever |
 | TxGNN Prediction Score | 98.26% |
 | Evidence Level | L5 |
@@ -50,14 +50,17 @@ The TxGNN model predicts it may be effective for **paratyphoid fever**, but ther
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Aminacrine is generally known as a topical acridine antiseptic, but this comes from background knowledge and not from the supplied data. Acridine compounds are also known DNA intercalators, which is likewise unverified here.
+Currently, detailed mechanism of action data is not available. Based on known information, aminacrine is a topical antiseptic acridine dye with broad antibacterial activity. Mechanistically, antibacterial activity could apply to a bacterial infection such as paratyphoid fever (*Salmonella* Paratyphi).
 
-Paratyphoid fever is a systemic *Salmonella* infection. A topical antiseptic gel is unlikely to reach the infection site at therapeutic levels, and no mechanistic link is supported. The high score (98.26%) most likely reflects the knowledge-graph structure rather than a pharmacological rationale.
+There is an important limitation. Paratyphoid fever is a systemic enteric infection. A topical antiseptic is unlikely to reach adequate systemic or intestinal-tissue exposure, and the only registered product is a gel. The prediction should therefore be treated as a computational hypothesis, not a supported therapeutic direction.
 
-The other top-ranked predictions are also model output only, with no trials or literature:
-- **Plausible if Aminacrine is a topical antimicrobial:** sinusitis, chronic ethmoidal sinusitis, apical periodontitis, periapical granuloma and suppurative periapical periodontitis. The last two share an identical score of 95.12%, which suggests a shared graph neighborhood rather than independent signals.
-- **Weak fit:** chronic rhinosinusitis, which is mainly inflammatory.
-- **Not credible:** epiglottitis, an airway-threatening infection that needs systemic antibiotics; diffuse scleroderma, likely a knowledge-graph artifact; and paranasal sinus neoplasm, where the only rationale is theoretical DNA intercalation.
+Other predictions, in order of score, show the same pattern:
+
+- **Bacterial or local infections** (sinusitis, chronic ethmoidal sinusitis, apical periodontitis, periapical granuloma, suppurative periapical periodontitis): a local antiseptic effect is conceivable, but none has trial or literature support. Established agents already exist for the dental indications.
+- **Epiglottitis:** an acute, potentially life-threatening infection that needs systemic antibiotics and airway management. A topical antiseptic is not appropriate.
+- **Chronic rhinosinusitis:** largely an inflammatory disease, so the rationale is weak and indirect.
+- **Diffuse scleroderma:** no clear mechanistic link, as it is an autoimmune fibrotic disease.
+- **Paranasal sinus neoplasm:** DNA intercalation by acridines gives only a speculative antiproliferative rationale.
 
 ## Clinical Trial Evidence
 
@@ -71,25 +74,36 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN04748P | MEDIJEL GEL (DDD LTD) | Gel | Not stated in the registration record |
+| SIN04748P | MEDIJEL GEL | Gel | Not stated in the licence record |
+
+Aminacrine is available in Singapore only as a topical gel (single-ingredient product, valid licence).
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease associations flagged in the knowledge graph:** The TxGNN knowledge graph links aminacrine to contraindications in the following conditions. These come from graph relationships, not from label text, and should be verified against the package insert:
+  - Inherited porphyria, porphyrin metabolism disease, and porphyria
+  - Kidney disease and liver disease
+  - Hematologic disease
+  - G6PD deficiency
+  - Pyoureter and gallbladder disease
+  - Glycogen storage disease, cystinuria, and galactosemia
+- **Drug Interactions:** No interaction records were found.
+
+Please refer to the package insert for further safety information. Safety data for intranasal, mucosal, intracanal, or systemic use is not available.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a model score, with no clinical trials, no literature and no mechanism data. The only registered product is a topical gel, which is a poor route match for a systemic infection like paratyphoid fever.
+All ten predicted indications have only model-based support (L5), with no registered trials or literature. For paratyphoid fever and epiglottitis in particular, a topical antiseptic is unlikely to be appropriate. The mechanism of action and package insert safety data are also missing.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from the HSA (currently a blocking gap for safety screening)
-- Mechanism of action data (for example, from DrugBank)
-- The approved indication of the registered product
-- Route-compatibility assessment (topical gel versus the route needed for the predicted indication)
-- Any preclinical or clinical evidence for the predicted indication. Local-infection candidates such as sinusitis or apical periodontitis may be more worth reviewing than paratyphoid fever.
+- Package insert warnings and contraindications from the Singapore regulator (HSA), which currently block safety screening
+- Mechanism of action data from DrugBank
+- Route-compatibility assessment, since the only registered form is a topical gel and the predicted indications mostly require systemic or deep-tissue exposure
+- Literature and trial searches on antiseptic use in the localised infections (sinus and endodontic), which are the most plausible of the predictions
+- Safety and tolerability data for any mucosal or intracanal use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

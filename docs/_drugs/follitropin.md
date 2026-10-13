@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Follitropin
-parent: Medium Evidence (L3-L4)
-nav_order: 446
-evidence_level: L4
+parent: Low Evidence (L5)
+nav_order: 450
+evidence_level: L5
 indication_count: 10
 ---
 
 # Follitropin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,88 +33,71 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Follitropin is recombinant follicle-stimulating hormone (FSH). The Singapore licence data give no approved indication text, but the retrieved literature places it in infertility and assisted reproduction.
-The TxGNN model predicts it may be effective for **allergic asthma**, but there are **0 clinical trials** and only **4 publications** on the topic. None of those publications tests follitropin in asthma, so this is a model-only hypothesis.
-
----
+Follitropin is a recombinant follicle-stimulating hormone (FSH) used in fertility treatment. The TxGNN model predicts it may be effective for **allergic asthma**, but this is a computational prediction only, with **0 clinical trials** and **0 publications** supporting it. The evidence is at the model-prediction level.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Infertility / assisted reproduction (inferred from the literature; licence indication text is blank) |
+| Original Indication | Not listed in the Singapore registration data. Published literature and pharmacology data describe use in female infertility and ovulation induction. |
 | Predicted New Indication | Allergic asthma |
 | TxGNN Prediction Score | 96.32% |
-| Evidence Level | L4 |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 11 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, follitropin is a recombinant form of the endogenous gonadotrophin FSH. Its use in infertility is documented in the literature (for example, a 1998 review of follitropin alpha in infertility). Any mechanistic link to allergic asthma is indirect.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Follitropin is a recombinant form of FSH. It acts on FSH receptors (FSHR) in gonadal tissue and is used in assisted reproduction and ovulation induction.
 
-No direct FSH-asthma mechanism has been established. The literature points to two indirect threads:
-- **Activin A.** This TGF-β family cytokine was first identified as an inducer of FSH release. Reviews describe it as a regulator of asthmatic airway inflammation and remodelling (fibrosis). It is a related signalling molecule, not FSH itself, so it does not show that giving FSH would help.
-- **Sex hormones.** A Japanese birth cohort examined sex steroids and childhood allergic disease. An older study looked at pituitary and gonadal hormone profiles in women who developed asthma after menopause. Both are associations, not treatment evidence.
+No established mechanistic link connects FSH receptor signalling to allergic airway inflammation. The high TxGNN score is a knowledge-graph prediction and is not backed by any trial or publication. Other top predictions (intrinsic asthma, Prinzmetal angina, chromosomal deletion syndromes, orofacial clefting syndrome and others) also have no plausible mechanism and no supporting evidence. They likely reflect graph-structure artefacts rather than true therapeutic potential.
 
-The link is speculative. The high TxGNN score reflects a network-based prediction, not demonstrated efficacy.
-
----
+Among all ten predicted indications, only "headache disorder" has a related article. That article is a case report of migraine-like symptoms after follitropin beta injection, which points to a possible side effect rather than a therapeutic effect.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [25962695](https://pubmed.ncbi.nlm.nih.gov/25962695/) | 2015 | Review | Clin Exp Allergy | Activin A, first identified as an inducer of FSH release, regulates asthmatic inflammation and airway remodelling. |
-| [31416681](https://pubmed.ncbi.nlm.nih.gov/31416681/) | 2019 | Review | J Autoimmun | Activin-A, a TGF-β family member, regulates immune responses in allergy, autoimmunity and cancer. |
-| [37735641](https://pubmed.ncbi.nlm.nih.gov/37735641/) | 2023 | Cohort | BMC Pediatr | Pilot birth cohort (Japan Environment and Children's Study) examining sex steroid hormones and allergic disease in children. |
-| [3081834](https://pubmed.ncbi.nlm.nih.gov/3081834/) | 1986 | Cohort | Minerva Med | Compared pituitary and gonadal hormone levels (including FSH and LH) in women with asthma onset after menopause versus allergic asthma. |
-
-None of these studies involved follitropin treatment.
-
----
+Currently no related literature available for allergic asthma.
 
 ## Singapore Market Information
 
-Eleven licences are registered; five are shown below. The approved indication text is blank in the source data for all of them.
-
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN13023P | Gonal-f 300 iu/0.48 ml pre-filled pen | Injection, solution | Merck Serono S.p.A. (Italy) |
-| SIN13022P | Gonal-f 450 iu/0.72 ml pre-filled pen | Injection, solution | Merck Serono S.p.A. (Italy) |
-| SIN14474P | Puregon 900 IU/1.08 ml | Injection | Vetter Pharma-Fertigung GmbH & Co. KG |
-| SIN14473P | Puregon 600 IU/0.72 ml | Injection | Vetter Pharma-Fertigung GmbH & Co. KG |
-| SIN12185P | Puregon 300 iu/0.36 ml | Injection | Vetter Pharma-Fertigung GmbH & Co. KG |
+| SIN13023P | Gonal-f 300 iu/0.48 ml pre-filled pen | Solution for injection | Not specified |
+| SIN13022P | Gonal-f 450 iu/0.72 ml pre-filled pen | Solution for injection | Not specified |
+| SIN14474P | Puregon solution for injection 900IU/1.08ml | Injection | Not specified |
+| SIN14473P | Puregon solution for injection 600IU/0.72ml | Injection | Not specified |
+| SIN12185P | Puregon solution for injection 300 iu/0.36 ml | Injection | Not specified |
 
----
+The data lists 11 valid registrations in total, all single-ingredient. Six are Gonal-f and Puregon products, and five are Pergoveris products. Only the first five are shown here.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interactions were found in the queried data.
+- **Drug Interactions**:
+  - Ganirelix: Moderate interaction (DDInter).
+  - FSH receptor: this is a pharmacological target relationship, not a drug interaction.
+- **Case report signal**: One case report (PMID 29734531) describes migraine-like symptoms immediately after recombinant follitropin beta injection.
+- **Other literature**: Published reviews note that ovarian hyperstimulation syndrome and multiple pregnancy are risks of FSH-based ovulation induction.
 
----
+Please refer to the package insert for full warnings and contraindications. These were not available in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The asthma prediction has no clinical trials, and the four supporting papers concern activin A biology and hormone associations rather than follitropin therapy. It is a hypothesis with no supporting evidence for treatment.
+The prediction rests only on a knowledge-graph score. There are no clinical trials or publications, and no plausible mechanism linking FSH signalling to allergic airway disease. The other nine predicted indications are equally unsupported. The package insert safety data are also missing.
 
 **To proceed, the following is needed:**
-- Original indication and mechanism of action data (DrugBank), plus the HSA package insert warnings and contraindications
-- Preclinical or mechanistic studies showing that FSH or FSH-receptor signalling affects allergic airway inflammation
-- A direct-effect assessment: whether exogenous FSH could worsen hormone-sensitive conditions
-- Route and formulation compatibility review (currently pending)
+- Package insert warnings and contraindications from the HSA website
+- Detailed mechanism of action data (e.g. from DrugBank)
+- Any mechanistic or preclinical evidence linking FSH signalling to airway inflammation
+- Confirmation of the approved indications for each Singapore registration
+- A route and dosage-form compatibility assessment, as the current data show injectable forms only
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

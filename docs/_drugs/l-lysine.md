@@ -2,7 +2,7 @@
 layout: default
 title: L-Lysine
 parent: Low Evidence (L5)
-nav_order: 564
+nav_order: 570
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,21 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# L-Lysine: From Parenteral Amino Acid Nutrition to Gastroparesis
+# L-Lysine: From Parenteral Nutrition (Amino Acid Supply) to Gastroparesis
 
 ## One-Sentence Summary
 
-L-Lysine is an essential amino acid. In Singapore it is registered as an ingredient in amino acid infusion and dialysis solutions, but the records do not state a specific approved indication.
-The TxGNN model predicts it may be effective for **Gastroparesis**, but there are currently **0 clinical trials** and only **1 publication** (a preclinical stem-cell study that does not involve lysine).
-This is a model-only prediction with no supporting biological rationale.
+L-Lysine is an essential amino acid used as a component of intravenous amino acid and parenteral nutrition products in Singapore.
+The TxGNN model predicts it may be effective for **gastroparesis**, but there are **0 clinical trials** and only **1 publication** (a preclinical stem-cell delivery study that does not involve L-lysine as a treatment).
+This prediction rests on the model score alone and should be treated as a hypothesis, not as supported evidence.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration records (the Singapore products are amino acid infusion and peritoneal dialysis solutions) |
+| Original Indication | Not stated in the licence records compiled for this report. The products are amino acid infusion and nutrition solutions. |
 | Predicted New Indication | Gastroparesis |
 | TxGNN Prediction Score | 99.77% |
 | Evidence Level | L5 |
@@ -49,56 +51,79 @@ This is a model-only prediction with no supporting biological rationale.
 | Number of Registrations | 7 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. L-Lysine is an essential amino acid used in parenteral nutrition and amino acid-containing solutions. Its established role is nutritional supplementation, not treatment of a specific disease.
+Currently, detailed mechanism of action data is not available. L-lysine is an essential amino acid. It is part of parenteral nutrition and amino acid infusion products, and its role in protein supply is well established. Any mechanistic link to gastric motility is unproven.
 
-No mechanistic link between L-lysine and gastric motility was identified. Gastroparesis involves loss of interstitial cells of Cajal and enteric neurons, leading to delayed gastric emptying. Nothing in the evidence connects lysine supplementation to that process.
+The only retrieved paper concerns delivery of mesenchymal stem cells from gelatin-alginate hydrogels into the stomach lumen. It does not test L-lysine. The high TxGNN score is a computational prediction only, and no direct link between L-lysine and gastric emptying, interstitial cells of Cajal, or enteric neurons has been identified.
 
-The 99.77% score is a computational output only. The one linked paper is about mesenchymal stem cell delivery and is unrelated to lysine, so the prediction should be treated as a hypothesis, not as supported evidence.
+The other nine predicted indications were also reviewed. None has clinical trial support. Gastroparesis, vitamin deficiency disorder, renal tubular acidosis and biotin metabolic disease have some retrieved literature, but all of it is preclinical, case-report or indirect:
+
+- **Vitamin deficiency disorder** (score 98.2%): the papers are basic biochemistry and animal studies on carnitine synthesis and biotinidase. They do not show that lysine treats deficiency. This is the only other candidate at evidence level L4.
+- **Renal tubular acidosis** (score 97.8%): a case report describes a transient proximal tubulopathy after lysine-containing amino acid infusion. This is a safety signal, not support for repurposing.
+- **Biotin metabolic disease** (score 97.8%): lysine is a product of the biotinidase reaction, but standard care is biotin, and the other papers are unrelated metabolomics studies.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [29414870](https://pubmed.ncbi.nlm.nih.gov/29414870/) | 2018 | Preclinical | Bioengineering (Basel) | Gelatin-alginate hydrogels for delivering mesenchymal stem cells to the stomach lumen as a potential gastroparesis therapy. It does not test lysine. |
+| [29414870](https://pubmed.ncbi.nlm.nih.gov/29414870/) | 2018 | Preclinical | Bioengineering (Basel) | Mesenchymal stem cells delivered from gelatin-alginate hydrogels to the stomach lumen as a potential gastroparesis treatment. L-lysine is not the therapeutic agent. |
+
+---
 
 ## Singapore Market Information
 
-Showing 5 of 7 registrations. The records contain no approved indication text.
+The approved indication text is not available in the licence records for any of these products.
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN16003P | LYSAKARE SOLUTION FOR INFUSION 25G / 25G | Infusion, solution | Laboratoire Bioluz |
-| SIN11682P | AMINOVEN SOLUTION FOR INFUSION 5% | Injection | Fresenius Kabi Austria GmbH |
-| SIN11829P | AMINOVEN SOLUTION FOR INFUSION 10% | Injection | Fresenius Kabi Austria GmbH |
-| SIN06299P | NEPHROSTERIL FOR INTRAVENOUS INFUSION | Injection | Fresenius Kabi Austria GmbH |
-| SIN09353P | NUTRINEAL PD4 WITH 1.1% AMINO ACID SOLUTION | Solution, sterile | Baxter Healthcare SA / Vantive Manufacturing Pte. Ltd. |
+| SIN16003P | LYSAKARE Solution for Infusion 25G/25G | Infusion, solution | Not stated |
+| SIN11682P | AMINOVEN Solution for Infusion 5% | Injection | Not stated |
+| SIN11829P | AMINOVEN Solution for Infusion 10% | Injection | Not stated |
+| SIN06299P | NEPHROSTERIL for Intravenous Infusion | Injection | Not stated |
+| SIN09353P | NUTRINEAL PD4 with 1.1% Amino Acid Solution | Solution, sterile | Not stated |
+
+All seven registrations are valid single-ingredient licences. Two further products are OLICLINOMEL N7-1000 E and N4-550 E emulsions for infusion.
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. The drug interaction query returned no records.
+- **Disease associations from the knowledge graph (not label text)**: The TxGNN knowledge graph links L-lysine to contraindication-type relationships with the following conditions:
+  - Kidney: kidney disease, chronic kidney disease, chronic renal failure syndrome, end-stage renal failure, acute urate nephropathy, nephrolithiasis, nephrocalcinosis
+  - Calcium and phosphorus: hypercalcemia disease, humoral hypercalcemia of malignancy, sarcoidosis, phosphorus metabolism disease
+  - Cardiac: heart disease, cardiovascular disease, digitalis poisoning, ventricular fibrillation
+  - Metabolic: phenylketonuria, disorder of phenylalanine metabolism
+- **Renal signal in the literature**: One case report (PMID 31876733) describes a transient proximal tubulopathy after amino acid infusion.
+
+No drug interaction records were found. Please refer to the package insert for label warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on model output alone (L5). There are no clinical trials, and the only linked paper is unrelated to lysine. The registered Singapore products are all injectable or dialysis solutions, and their suitability for gastroparesis has not been assessed.
+The prediction is supported only by a model score. There are no clinical trials, and the single retrieved paper does not involve L-lysine as a treatment. The knowledge graph also flags kidney and cardiac contraindication associations, which raise caution for a new use.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications (blocking for safety screening)
-- Mechanism of action data from DrugBank
-- A plausible mechanistic rationale linking lysine to gastric motility, supported by direct preclinical or clinical studies
-- Route compatibility assessment, since the available products are injectable or dialysis solutions
-
-The other nine predicted indications for this drug are also weakly supported (mostly L5, two at L4). None currently has direct evidence for lysine as a treatment.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- HSA package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data for L-lysine (for example from DrugBank)
+- Approved indication text for the Singapore licences
+- Direct preclinical or clinical evidence that L-lysine affects gastric motility or gastroparesis
+- Route compatibility assessment: current products are intravenous or parenteral, and the suitability of this route for gastroparesis has not been evaluated
+- Review of the renal and cardiac contraindication associations before any further work
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

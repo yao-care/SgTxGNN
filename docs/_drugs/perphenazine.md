@@ -2,7 +2,7 @@
 layout: default
 title: Perphenazine
 parent: Low Evidence (L5)
-nav_order: 772
+nav_order: 781
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,18 +29,20 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Perphenazine: From Antipsychotic Use to Retinal Dystrophy
+# Perphenazine: From Schizophrenia to Retinal Dystrophy (with or without Extraocular Anomalies)
 
 ## One-Sentence Summary
 
-Perphenazine is a high-potency phenothiazine antipsychotic marketed in Singapore as oral tablets.
-The TxGNN model predicts it may be effective for **retinal dystrophy with or without extraocular anomalies**, but this is a graph-based prediction only, with **0 clinical trials** and **0 relevant publications** supporting it.
-The 15 retrieved papers are general eye-disease reviews and case reports that never mention perphenazine.
+Perphenazine is a phenothiazine antipsychotic, originally used for schizophrenia and mixed anxiety and depressive disorder.
+The TxGNN model predicts it may be effective for **retinal dystrophy with or without extraocular anomalies**, but there are **0 clinical trials** and only **1 publication** (a 1964 case report of drug-induced retinal toxicity from a related drug), so the evidence does not support this prediction.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Schizophrenia; mixed anxiety and depressive disorder (the local licence records carry no indication text, so this comes from the knowledge graph) |
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
 | TxGNN Prediction Score | 99.96% |
 | Evidence Level | L5 |
@@ -48,32 +50,31 @@ The 15 retrieved papers are general eye-disease reviews and case reports that ne
 | Number of Registrations | 2 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-It is not, based on current evidence. Detailed mechanism-of-action data for perphenazine is not available in this record. Perphenazine is a phenothiazine that blocks dopamine D2, serotonin 5-HT2A, histamine H1 and alpha-1 receptors. None of these targets has a known link to the pathology of inherited retinal dystrophies.
+Currently, detailed mechanism of action data is not available. Perphenazine is a phenothiazine antipsychotic that is generally understood to act mainly as a dopamine D2 receptor antagonist. Its efficacy in schizophrenia is established.
 
-The very high TxGNN score reflects patterns in the knowledge graph rather than biological or clinical evidence. The safety signal also points the wrong way. Phenothiazines are associated with pigmentary retinopathy, so a retinal indication would need to overcome a known retinal toxicity concern.
+**No credible mechanistic link to retinal dystrophy was identified.** The only literature item is a 1964 case report of pigmentary retinopathy caused by thioridazine, a related phenothiazine. That report describes drug-induced retinal toxicity, not therapeutic benefit. If anything, it is a safety signal against using this drug class in retinal disease. The very high TxGNN score is most likely an artifact of the knowledge graph rather than a true biological signal.
+
+**A more plausible lower-ranked prediction:** Among the other predictions, **anxiety disorder** (score 99.53%, evidence level L3) is biologically plausible. Perphenazine combined with amitriptyline has historically been used for mixed anxiety and depression, and reviews note some efficacy of typical antipsychotics on anxiety symptoms. However, benefit is confounded by the antidepressant combination, and sedation and extrapyramidal effects limit use. Because it overlaps with the existing mixed anxiety/depression indication, it is closer to a label extension than a true repurposing.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
-The publications below were retrieved for this prediction. All are general ophthalmology papers on orbital, extraocular-muscle or congenital eye conditions. None studies perphenazine, and their relevance has not been assessed.
-
 | PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|---------|---------|
-| [9416661](https://pubmed.ncbi.nlm.nih.gov/9416661/) | 1997 | Review | Semin Ultrasound CT MR | Overview of orbital infections; sinusitis is the most common cause |
-| [20127583](https://pubmed.ncbi.nlm.nih.gov/20127583/) | 2010 | Review | Semin Neurol | Systematic approach to evaluating diplopia |
-| [22241537](https://pubmed.ncbi.nlm.nih.gov/22241537/) | 2012 | Review | Klin Monbl Augenheilkd | Congenital ptosis: forms, associated eye problems, examination |
-| [38249493](https://pubmed.ncbi.nlm.nih.gov/38249493/) | 2023 | Review | Taiwan J Ophthalmol | Congenital anomalies of lens shape |
-| [7035111](https://pubmed.ncbi.nlm.nih.gov/7035111/) | 1981 | Review | Doc Ophthalmol | Wagner-Stickler syndrome complex (vitreoretinal degeneration) |
-| [38321238](https://pubmed.ncbi.nlm.nih.gov/38321238/) | 2024 | Review | Pediatr Radiol | Imaging of pediatric ocular pathologies |
-| [33447730](https://pubmed.ncbi.nlm.nih.gov/33447730/) | 2020 | Review | Ther Adv Ophthalmol | Eye involvement in inherited metabolic disorders |
-| [109006](https://pubmed.ncbi.nlm.nih.gov/109006/) | 1979 | Case report | Am J Ophthalmol | Two cases of unilateral cryptophthalmia |
-| [24413161](https://pubmed.ncbi.nlm.nih.gov/24413161/) | 2014 | Case report | J Neuroophthalmol | Trochlear-oculomotor synkinesis in a 6-year-old boy |
-| [19826317](https://pubmed.ncbi.nlm.nih.gov/19826317/) | 2009 | Case report | Optom Vis Sci | Synergistic divergence in congenital fibrosis of extraocular muscles |
+|------|-----|------|------|---------|
+| [14129300](https://pubmed.ncbi.nlm.nih.gov/14129300/) | 1964 | Case report | The American Journal of Psychiatry | Pigmentary retinopathy associated with thioridazine (a related phenothiazine) at a maximum daily dose of 1400 mg. This is a toxicity report, not evidence of benefit. |
+
+---
 
 ## Singapore Market Information
 
@@ -82,30 +83,40 @@ The publications below were retrieved for this prediction. All are general ophth
 | SIN00437P | APO-PERPHENAZINE TABLET 8 mg (Apotex Inc) | Film-coated tablet |
 | SIN00444P | APO-PERPHENAZINE TABLET 4 mg (Apotex Inc) | Film-coated tablet |
 
-Both products are oral. The approved indication text is not recorded for either license.
+Both licences are valid single-ingredient oral products. Approved indication text is not recorded for either.
+
+---
 
 ## Safety Considerations
 
-- **Retinal toxicity**: Phenothiazines are associated with pigmentary retinopathy, which is a concern for any retinal use.
-- **Drug interactions**: No interaction records were found.
+- **Contraindications suggested by the knowledge graph (not from label text):**
+  - Cardiovascular and QT: long QT syndrome (including familial), torsades de pointes, sudden cardiac arrest, myocardial infarction, coronary thrombosis, orthostatic hypotension, postural orthostatic tachycardia syndrome, multiple system atrophy.
+  - Neurological: epilepsy, basal ganglia disease, focal hand dystonia, blepharospasm.
+  - Psychiatric: manic bipolar affective disorder, substance abuse/dependence.
+  - Haematological: neutropenia, agranulocytosis, thrombocytopenia, anaemia (including macrocytic), hemoglobinopathy.
+  - Metabolic and other: hyperglycaemia, obesity disorders, liver disease, gallbladder disease, open-angle glaucoma, benign prostatic hyperplasia, female breast carcinoma.
+- **Drug Interactions:** 100 interaction records were identified. The **Major** ones in the listed subset are **bupropion**, **morphine** and **potassium citrate**. Many **Moderate** interactions were also listed, including:
+  - Antidiabetic agents: acarbose, metformin, pioglitazone, alogliptin, canagliflozin, chlorpropamide, albiglutide.
+  - Anticholinergic agents: atropine, hyoscyamine, glycopyrronium.
+  - Others: epinephrine, famotidine, clarithromycin, loperamide, lorcaserin, bisacodyl, picosulfuric acid.
+- **Retinal safety:** The only retrieved publication on this indication reports retinal toxicity from a related phenothiazine, which is directly relevant to the proposed use.
 
-For other safety information, please refer to the package insert.
+Please also refer to the package insert for full safety information, as label warnings and contraindications were not available for this report.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone (L5), with no trials, no perphenazine-specific literature and no plausible mechanism. The known retinal toxicity of phenothiazines argues against benefit.
+The prediction rests only on a model score. There are no clinical trials, and the sole publication describes retinal toxicity from a related drug rather than benefit. No plausible mechanism supports use in retinal dystrophy, and the available data point toward a safety concern.
 
 **To proceed, the following is needed:**
-- Perphenazine-specific preclinical or clinical evidence in retinal dystrophy, which does not currently exist
-- The HSA package insert, to complete the safety review
-- Mechanism-of-action data from DrugBank
-
-**Note on other candidates:** The other predictions in this pack (ranks 2-9, mostly rare genetic conditions) are also L5 with no mechanistic rationale, and are also on Hold. The exception is **anxiety disorder** (rank 10, score 99.53%). It has L3 evidence from a systematic review of antipsychotics in anxiety and several 1959-1969 controlled studies of perphenazine alone or with amitriptyline. It is flagged as a research question, limited by old study designs, sedation and extrapyramidal risk. It would be the better candidate to evaluate first.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Detailed mechanism of action data, and any preclinical rationale linking perphenazine to retinal pathology
+- Package insert warnings and contraindications from the Singapore regulator (HSA)
+- Review of phenothiazine-associated retinopathy risk before any ocular indication is considered
+- Consideration of redirecting effort to the lower-ranked anxiety disorder prediction, which has more supporting literature and overlaps with the existing label
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -29,42 +29,52 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Azacitidine: From an Established Hypomethylating Agent to Bulbar Polio (Top-Ranked Prediction)
+# Azacitidine: From Acute Myeloid Leukemia to Bulbar Polio
 
 ## One-Sentence Summary
 
-Azacitidine is a hypomethylating nucleoside analog that is already marketed in Singapore in injectable and oral forms. The TxGNN model ranks **bulbar polio** as its top predicted new indication, but this prediction has **0 clinical trials** and **0 publications** behind it. It is most likely a knowledge-graph artifact rather than a real biological signal.
+Azacitidine is a hypomethylating nucleoside analog originally used for myeloid malignancies such as acute myeloid leukemia (AML) and myelodysplastic syndromes.
+The TxGNN model predicts it may be effective for **bulbar polio**, but **0 clinical trials** and **0 publications** currently support this direction. The prediction is purely graph-derived and has no known biological rationale.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Myeloid leukemia / acute myeloid leukemia (the registration records list no indication text, so this comes from the knowledge-graph indication data) |
 | Predicted New Indication | Bulbar polio |
 | TxGNN Prediction Score | 98.59% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 7 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Azacitidine is a DNA hypomethylating nucleoside analog, and its use is centred on blood cancers and related bone marrow disorders.
+Detailed mechanism-of-action data is not available for this report. Azacitidine is known as a hypomethylating nucleoside analog. Its efficacy in myeloid malignancies is established, and it works by altering DNA methylation and by cytotoxic incorporation into nucleic acids in rapidly dividing cells.
 
-Bulbar polio is a viral infection of the motor neurons in the brainstem. Azacitidine has no known antiviral or neuroprotective activity against poliovirus, so there is no plausible mechanistic bridge from its known biology to this disease. The high score (0.986) is most likely a knowledge-graph association artifact.
+Bulbar polio is a viral infection of motor neurons caused by poliovirus. Azacitidine has no known antiviral activity against poliovirus, and no mechanistic pathway linking it to this disease was identified. The high score (0.986) reflects proximity in the knowledge graph rather than a plausible therapeutic effect. Azacitidine's cytotoxic and myelosuppressive profile would also be a serious concern in an infectious neurological disease. This prediction should be regarded as a model artefact unless independent evidence emerges.
 
-Other indications from the same run (see the Conclusion) have a much more credible link, mainly in myelodysplastic disorders.
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
 
+---
+
 ## Singapore Market Information
 
-The approved indication text is not available in the supplied registration records, so it is omitted from the table.
+Azacitidine is marketed in Singapore under 7 valid single-ingredient registrations (injectable and oral forms). The registration records do not include approved indication text, so that column is omitted. The first 5 registrations are shown below.
 
 | Authorization Number | Product Name | Dosage Form | Manufacturer |
 |---------|------|------|------|
@@ -74,45 +84,41 @@ The approved indication text is not available in the supplied registration recor
 | SIN16572P | Onureg film-coated tablets 200 mg | Tablet, film coated | Excella GmbH & Co. KG |
 | SIN15118P | Xpreza 100 injection 100 mg/vial | Injection | Natco Pharma Limited / Panacea Biotec Pharma Ltd. |
 
-Two more registrations exist beyond the five listed. Both injectable and oral routes are available.
+---
 
 ## Cytotoxicity
-
-The classification below is based on the drug class, not on DrugBank toxicity data. Please confirm against the HSA package insert.
 
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Conventional cytotoxic (hypomethylating nucleoside analog) |
-| Myelosuppression Risk | High (neutropenia and thrombocytopenia are expected) |
+| Myelosuppression Risk | High (neutropenia and thrombocytopenia are expected; the knowledge graph also flags these as contraindication-related conditions) |
 | Emetogenicity Classification | Low to moderate |
-| Monitoring Items | CBC with differential, liver and renal function |
+| Monitoring Items | CBC with differential, liver function, renal function |
 | Handling Protection | Must follow cytotoxic drug handling regulations |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindication-related conditions (from the knowledge graph, not label text)**: liver failure, kidney disease, pyoureter, thrombocytopenia, neutropenia, agranulocytosis.
+- **Drug Interactions**: 85 interactions were recorded. Major-level examples include deferiprone, samarium (153Sm) lexidronam, adalimumab, baricitinib and live BCG vaccine. Moderate-level examples include zidovudine, ganciclovir, azathioprine, alemtuzumab, chloramphenicol and several vaccines.
+
+Please refer to the package insert for label warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Bulbar polio has no trials and no literature, and there is no biological rationale for azacitidine in poliovirus infection. This candidate should not advance.
-
-**Other candidates from the same run:**
-
-| Predicted Indication | Score | Evidence Level | Note |
-|------|------|------|------|
-| Refractory cytopenia of childhood | 98.20% | L3 | Retrospective pediatric MDS series (EWOG-MDS) and one Phase 2 trial terminated with 3 patients; worth a research question |
-| Unclassified myelodysplastic syndrome | 98.10% | L3 | Registry and retrospective evidence only; the one linked trial is a colorectal cancer study and is irrelevant |
-| Aregenerative anemia | 97.88% | L2 | Many azacitidine combination trials in MDS/AML, but few with anemia-specific endpoints; disease-term mapping needs confirmation |
-| Partial deletion of the long arm of chromosome 5; severe congenital hypochromic anemia with ringed sideroblasts; 5q35 microduplication syndrome; neuralgic amyotrophy; amyotrophic neuralgia; familial thrombocytosis | 93.09–97.88% | L5 | No trials or literature; hold. Neuralgic amyotrophy and amyotrophic neuralgia appear to be duplicate nodes and should be merged |
+The prediction has no clinical trials, no literature and no plausible mechanism, and azacitidine's toxicity profile is unfavourable for this infectious neurological disease. The high model score alone does not justify further investment.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings, contraindications, and labeled indications (currently blocking any safety screening)
-- Detailed mechanism of action data from DrugBank
-- Confirmation of the labeled MDS subtypes before treating any myelodysplastic entry as a new indication
-- Dedicated evidence review of the myelodysplastic and anemia entries, which are the only credible repurposing directions in this set
+- Any independent biological or clinical evidence linking azacitidine to poliovirus infection or motor neuron protection (none was identified)
+- Detailed mechanism-of-action data and the HSA package insert warnings and contraindications
+
+**Note on other predictions:** Other candidates for this drug have far better support. Unclassified myelodysplastic syndrome (L2, Proceed with Guardrails) has a Phase 2 final analysis, a registry and supporting reports. Aregenerative anemia (L2, Proceed with Guardrails) has MDS-focused trials and a lower-risk MDS meta-analysis. Both are closer to azacitidine's existing MDS use and are more sensible to evaluate first.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

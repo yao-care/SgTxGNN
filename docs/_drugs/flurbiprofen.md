@@ -2,7 +2,7 @@
 layout: default
 title: Flurbiprofen
 parent: Low Evidence (L5)
-nav_order: 441
+nav_order: 445
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,101 +29,109 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Flurbiprofen: From NSAID Pain Relief to Acromesomelic Dysplasia, Hunter-Thompson Type
+# Flurbiprofen: From Rheumatoid Arthritis and Osteoarthritis to Ankylosing Spondylitis
 
 ## One-Sentence Summary
 
-Flurbiprofen is a non-steroidal anti-inflammatory drug (NSAID). In Singapore it is registered as a throat lozenge, a throat spray and a pain-relief patch.
-The TxGNN model ranks **acromesomelic dysplasia, Hunter-Thompson type** first, but **no clinical trials and no publications** support this prediction, and it is most likely a knowledge-graph artifact.
-Among the top 10 predictions, only **ankylosing spondylitis** (rank 8) has real evidence, with **about 20 publications**, including several randomized double-blind trials.
+Flurbiprofen is a non-steroidal anti-inflammatory drug (NSAID) originally used for rheumatoid arthritis, osteoarthritis and other joint disorders.
+The TxGNN model predicts it may be useful for **ankylosing spondylitis**, the best-supported of its top ten predictions.
+There are **no registered clinical trials**, but the data compiled for this report include **20 publications**, many of them older double-blind comparison studies.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration data (registered products are a sore-throat lozenge, a throat spray and a pain patch) |
-| Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
-| TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 (model prediction only) |
+| Original Indication | Rheumatoid arthritis, osteoarthritis, arthropathy (the Singapore licence records contain no indication text) |
+| Predicted New Indication | Ankylosing spondylitis (the report focuses on this candidate; the model's top-ranked prediction, acromesomelic dysplasia, Hunter-Thompson type, has no supporting evidence) |
+| TxGNN Prediction Score | 99.97% (ankylosing spondylitis); 99.99% (top-ranked prediction) |
+| Evidence Level | L3 (older comparative studies and reviews, no registered trials) |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 3 |
-| Recommended Decision | Hold |
+| Recommended Decision | Proceed with Guardrails |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the source record. From general pharmacology, flurbiprofen is a non-selective COX-1/COX-2 inhibitor that reduces prostaglandin-mediated pain and inflammation.
+Detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, flurbiprofen is an NSAID that inhibits COX-1 and COX-2, which reduces prostaglandin-mediated inflammation and pain. This is the established mechanism of symptomatic relief in axial spondyloarthritis.
 
-For the top-ranked prediction, the mechanistic case is weak. Acromesomelic dysplasia, Hunter-Thompson type, is a genetic skeletal dysplasia caused by defects in the CDMP1/GDF5 pathway. COX inhibition does not correct that defect, and the high score most likely reflects shared skeletal-phenotype nodes in the knowledge graph rather than a real pharmacological link.
+Ankylosing spondylitis is an inflammatory rheumatic disease whose symptoms (pain, stiffness, tenderness of the joints) are the same ones flurbiprofen is already used to relieve in rheumatoid arthritis and osteoarthritis. This is therefore closer to an extension within the same therapeutic class than a true repurposing. NSAIDs are established first-line therapy for this condition.
 
-The picture is different for ankylosing spondylitis. This condition responds to NSAIDs as a class, so flurbiprofen's use there is class-consistent symptom relief rather than a novel mechanism. It is the only predicted indication in this pack with a credible evidence base.
+The other top-ranked predictions are mostly rare genetic skeletal or developmental syndromes (for example brachydactyly-syndactyly syndrome, brachyolmia and pseudoachondroplasia). No plausible mechanistic link was identified for them, and they have no trials or literature. They remain model predictions only (L5, Hold). Spondyloarthropathy susceptibility (L4) overlaps with ankylosing spondylitis, and its support is inferred from the same evidence.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for the top-ranked prediction, or for any of the 10 predicted indications.
+Currently no related clinical trials registered.
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available for the top-ranked prediction.
-
-Literature exists only for the rank 8 prediction, **ankylosing spondylitis**, so it is shown below as the strongest lead:
+Most of the literature predates 2000. The study types below were inferred largely from titles and abstracts.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [3963018](https://pubmed.ncbi.nlm.nih.gov/3963018/) | 1986 | RCT (double-blind) | Am J Med | 57 patients, 26 weeks: flurbiprofen 200 mg/day controlled pain and symptoms, comparable to indomethacin |
-| [3963017](https://pubmed.ncbi.nlm.nih.gov/3963017/) | 1986 | RCT (double-blind) | Am J Med | 90 patients, 26 weeks: flurbiprofen 200 mg/day as effective as phenylbutazone 300 mg/day |
-| [71969](https://pubmed.ncbi.nlm.nih.gov/71969/) | 1977 | RCT (double-blind) | Curr Med Res Opin | 26 patients, 6 weeks: flurbiprofen and indomethacin equally effective for pain and tenderness |
-| [329422](https://pubmed.ncbi.nlm.nih.gov/329422/) | 1977 | RCT (double-blind) | South Med J | Same design and 26-patient cohort as PMID 71969, apparently a duplicate report |
-| [324773](https://pubmed.ncbi.nlm.nih.gov/324773/) | 1977 | RCT (double-blind) | Eur J Clin Pharmacol | 27 patients, 6 weeks: flurbiprofen and phenylbutazone equally effective; the patient/investigator preference for phenylbutazone was not significant |
-| [4611579](https://pubmed.ncbi.nlm.nih.gov/4611579/) | 1974 | Double-blind crossover | Br Med J | 35 patients, 4 weeks: flurbiprofen 150 mg/day was well tolerated, with efficacy approaching phenylbutazone |
-| [7003449](https://pubmed.ncbi.nlm.nih.gov/7003449/) | 1980 | Double-blind crossover | N Z Med J | 30 patients: flurbiprofen 200 mg/day and naproxen 750 mg/day both effective; side effects were more frequent with flurbiprofen |
-| [4595274](https://pubmed.ncbi.nlm.nih.gov/4595274/) | 1974 | Double-blind crossover | Ann Rheum Dis | Flurbiprofen compared with indomethacin and placebo (no abstract available) |
-| [3963024](https://pubmed.ncbi.nlm.nih.gov/3963024/) | 1986 | Pooled safety analysis | Am J Med | 1,677 patients across nine Phase III trials (ankylosing spondylitis, osteoarthritis, rheumatoid arthritis): no clinically significant liver or kidney effects reported in the abstract |
-| [391529](https://pubmed.ncbi.nlm.nih.gov/391529/) | 1979 | Review | Drugs | Flurbiprofen is comparable to other NSAIDs in rheumatic diseases, including ankylosing spondylitis |
+| [3963017](https://pubmed.ncbi.nlm.nih.gov/3963017/) | 1986 | Double-blind randomized comparison | Am J Med | Flurbiprofen 200 mg/day vs phenylbutazone in 90 patients over 26 weeks: equally effective in controlling pain and symptoms |
+| [3963018](https://pubmed.ncbi.nlm.nih.gov/3963018/) | 1986 | Double-blind randomized comparison | Am J Med | Flurbiprofen vs indomethacin in 57 patients over 26 weeks: effective in controlling pain and associated symptoms |
+| [71969](https://pubmed.ncbi.nlm.nih.gov/71969/) | 1977 | Double-blind randomized comparison | Curr Med Res Opin | Flurbiprofen vs indomethacin in 26 patients over 6 weeks: equally effective for pain and tenderness |
+| [329422](https://pubmed.ncbi.nlm.nih.gov/329422/) | 1977 | Double-blind randomized comparison | South Med J | Flurbiprofen vs indomethacin in 26 patients: equal relief of joint pain and tenderness |
+| [324773](https://pubmed.ncbi.nlm.nih.gov/324773/) | 1977 | Double-blind randomized comparison | Eur J Clin Pharmacol | Flurbiprofen vs phenylbutazone in 27 patients: equally effective; overall improvement favoured phenylbutazone but not significantly |
+| [4611579](https://pubmed.ncbi.nlm.nih.gov/4611579/) | 1974 | Double-blind cross-over trial | Br Med J | Flurbiprofen vs phenylbutazone in 35 patients: well tolerated, efficacy approaching phenylbutazone |
+| [7003449](https://pubmed.ncbi.nlm.nih.gov/7003449/) | 1980 | Double-blind cross-over comparison | N Z Med J | Flurbiprofen vs naproxen in 30 patients: no significant efficacy difference; side effects more frequent with flurbiprofen |
+| [4595274](https://pubmed.ncbi.nlm.nih.gov/4595274/) | 1974 | Double-blind cross-over comparison | Ann Rheum Dis | Indomethacin, flurbiprofen and placebo compared in ankylosing spondylitis (no abstract available) |
+| [391529](https://pubmed.ncbi.nlm.nih.gov/391529/) | 1979 | Review | Drugs | Pharmacology and therapeutic use of flurbiprofen in rheumatic diseases, including ankylosing spondylitis |
+| [3963024](https://pubmed.ncbi.nlm.nih.gov/3963024/) | 1986 | Pooled safety analysis | Am J Med | Liver and kidney data pooled from nine phase III trials (1,677 patients) in ankylosing spondylitis, osteoarthritis and rheumatoid arthritis |
 
-All of these studies are small and 27 to 50 years old. They compare flurbiprofen with older NSAIDs, not with modern standards of care or biologics.
-
-## Other Predicted Indications (Ranks 2-10)
-
-| Rank | Predicted Indication | Score | Evidence Level | Decision | Note |
-|------|------|------|------|------|------|
-| 2 | Brachydactyly-syndactyly syndrome | 99.99% | L5 | Hold | Congenital malformation, no mechanistic rationale |
-| 3 | Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 99.99% | L5 | Hold | Ultra-rare developmental syndrome, no plausible link |
-| 4 | Brachyolmia-amelogenesis imperfecta syndrome | 99.99% | L5 | Hold | Only symptomatic pain relief is conceivable |
-| 5 | Myosclerosis | 99.98% | L5 | Hold | Speculative link, no evidence |
-| 6 | Brachyolmia | 99.98% | L5 | Hold | Genetic spinal dysplasia, no evidence |
-| 7 | Spondyloarthropathy, susceptibility to | 99.97% | L5 | Hold | Genetic susceptibility entity, not a treatable condition |
-| 8 | **Ankylosing spondylitis** | 99.97% | **L2** | **Proceed with Guardrails** | Multiple comparative trials of flurbiprofen |
-| 9 | Pseudoachondroplasia | 99.96% | L5 | Hold | At most symptomatic joint-pain relief |
-| 10 | Hypermobility of coccyx | 99.95% | L5 | Hold | Analgesic rationale plausible, no evidence |
+---
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN14364P | Strepsils MaxPro Honey and Lemon lozenges 8.75mg | Lozenge | Not provided in registry data |
-| SIN15370P | Strepsils Max Pro Direct Spray 8.75mg per dose | Spray | Not provided in registry data |
-| SIN12090P | Acustop Cataplasma Plaster 40 mg/sheet | Patch | Not provided in registry data |
+| SIN14364P | Strepsils MaxPro Honey and Lemon lozenges 8.75mg | Lozenge | Not stated in the licence record |
+| SIN15370P | Strepsils Max Pro Direct Spray 8.75mg per dose | Spray | Not stated in the licence record |
+| SIN12090P | Acustop Cataplasma Plaster 40 mg/sheet | Patch | Not stated in the licence record |
 
-All three local products are topical or local-use forms. The ankylosing spondylitis trials used oral flurbiprofen at 100-200 mg/day, so none of the locally registered products matches the studied route. Route compatibility is still pending.
+All three licences are valid single-ingredient products. They are a lozenge, a spray and a patch (topical or local routes), not the systemic oral forms used in the ankylosing spondylitis studies above. Route compatibility for the predicted indication has not been assessed.
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found for this drug.
+- **Contraindications (from the knowledge graph, not label text)**: hypertension, kidney disease, liver disease, gallbladder disease, peptic ulcer disease (including active), blood coagulation disease, myocardial infarction, coronary thrombosis, cardiovascular and heart disease, hemoglobinopathy, substance abuse/dependence, and pyoureter.
+- **Drug Interactions**: 100 interactions were found in the interaction databases; the 20 reviewed include mostly moderate ones:
+  - Corticosteroids: hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide
+  - Aspirin (acetylsalicylic acid)
+  - Mesalazine and balsalazide
+  - Antidiabetics: metformin, glimepiride, chlorpropamide
+  - Aprepitant
+  - Potassium citrate and potassium bicarbonate
+  - Bowel preparations: picosulfuric acid, sodium sulfate, polyethylene glycol with electrolytes
+  - Minor interactions: famotidine, cimetidine, linaclotide
+- One study in the literature set (PMID 7003449) noted more frequent side effects with flurbiprofen than naproxen. The pooled phase III analysis (PMID 3963024) examined liver and kidney assay data.
+
+Package insert warnings were not available, so please refer to the package insert for complete safety information.
+
+---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Proceed with Guardrails** (for ankylosing spondylitis only; the other nine predictions remain on Hold)
 
 **Rationale:**
-The top-ranked prediction, acromesomelic dysplasia, Hunter-Thompson type, has no clinical or literature support and no plausible mechanism, so it should not be pursued. The only credible lead in the top 10 is ankylosing spondylitis. It is a class-consistent NSAID use supported by several older comparative trials (evidence level L2), but the safety data and registered forms are not yet sufficient to move it forward.
+- Several double-blind comparison studies show flurbiprofen relieves ankylosing spondylitis symptoms about as well as indomethacin, phenylbutazone and naproxen. NSAIDs are also an established treatment class for this condition. However, the evidence is old, small and not registered, and there are no trials of recent design.
+- The Singapore-registered products are topical or local forms, and the top-ranked rare skeletal disease predictions have no supporting evidence.
 
 **To proceed, the following is needed:**
-- The HSA package insert warnings and contraindications (a blocking gap for safety screening)
+- HSA package insert warnings and contraindications (a blocking gap for safety screening)
 - Mechanism of action data from DrugBank
-- For ankylosing spondylitis: a check of the current guidelines and a route/dose feasibility review, since the local products are not oral forms
-- Removal or deprioritization of the rank 1-7 and rank 9 predictions, which look like knowledge-graph artifacts
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Confirmation of the study designs and outcomes of the older comparison studies, with a review of newer evidence for NSAIDs in axial spondyloarthritis
+- Assessment of whether a systemic oral formulation is registered or needed in Singapore
+- A safety plan for patients with cardiovascular, renal, hepatic, gastrointestinal bleeding or coagulation risk, and a review of interactions with corticosteroids, aspirin and antidiabetic drugs
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

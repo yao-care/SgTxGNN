@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Lemborexant
-parent: High Evidence (L1-L2)
-nav_order: 579
-evidence_level: L1
+parent: Low Evidence (L5)
+nav_order: 585
+evidence_level: L5
 indication_count: 10
 ---
 
 # Lemborexant
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,81 +29,108 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Lemborexant: From Insomnia to Sleep Disorder, Initiating and Maintaining Sleep
+# Lemborexant: From Insomnia to Sleep Disorder (Initiating and Maintaining Sleep)
 
 ## One-Sentence Summary
 
-Lemborexant is a dual orexin receptor antagonist sold in Singapore as DAYVIGO for insomnia. The TxGNN model predicts it will work for **sleep disorder, initiating and maintaining sleep**, with a score of 99.75%. This prediction mostly restates the drug's known approved use rather than a true repurposing, and it is supported by **1 registered trial** (Phase 2, not yet recruiting) and **many publications**, including two Phase 3 randomized trials.
+Lemborexant is a dual orexin receptor antagonist originally used to treat insomnia.
+The TxGNN model predicts it may be effective for **sleep disorder, initiating and maintaining sleep**, which is closely related to its existing indication.
+This direction is supported by **19 publications** (including several network meta-analyses and a Phase 3 randomised trial), but **no registered clinical trials** were found in the data compiled for this report.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the Singapore licence data; the literature describes lemborexant as an insomnia treatment |
+| Original Indication | Insomnia (the Singapore licence records contain no indication text; the original indication comes from the knowledge graph) |
 | Predicted New Indication | Sleep disorder, initiating and maintaining sleep |
 | TxGNN Prediction Score | 99.75% |
-| Evidence Level | L1 |
+| Evidence Level | L1 (as assigned in the compiled data; see the note below) |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 2 |
 | Recommended Decision | Proceed with Guardrails |
 
+> **Note:** This is not a true repurposing case. "Sleep disorder, initiating and maintaining sleep" is essentially another name for insomnia, the drug's existing indication. The L1 grade rests on the strength of the published literature (network meta-analyses and Phase 3 trials). No completed Phase 3 trials were registered in the data compiled here, so the level should be read with that caveat.
+
 ## Why is This Prediction Reasonable?
 
-Lemborexant is an orally administered dual orexin receptor antagonist. It reversibly and competitively blocks OX1R and OX2R, with higher affinity for OX2R. Orexin is a key wake-promoting signal, so blocking it reduces arousal and helps with both falling asleep and staying asleep.
+Currently, detailed mechanism of action data is not available in the compiled data. The literature, however, consistently describes lemborexant as an orally administered dual orexin receptor antagonist. It competitively and reversibly blocks OX1R and OX2R, with higher affinity for OX2R.
 
-The predicted indication describes the same problem as insomnia: difficulty initiating and maintaining sleep. The prediction therefore reflects a known, approved use, and the high score is expected. Reviews in the evidence set state that lemborexant is approved for adult insomnia in the United States, Japan and Canada.
+Orexin is a key neuropeptide that promotes wakefulness and arousal. Insomnia is associated with a state of hyperarousal. Blocking orexin signalling reduces this wake drive, which helps patients fall asleep and stay asleep. This matches the predicted indication of difficulty initiating and maintaining sleep.
 
-The other model predictions for this drug (for example agoraphobia, ADHD and several rare genetic or pediatric conditions) have little or no supporting evidence. Only anxiety disorder shows indirect signals, from insomnia trials in patients with comorbid anxiety or depression, and it is best treated as a research question.
+The predicted disease is a description of the same clinical problem as the original indication. The prediction is therefore highly plausible, but it adds little new information. Lemborexant was first approved in the USA in December 2019 for adults with difficulty with sleep onset and/or sleep maintenance.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT06928766](https://clinicaltrials.gov/study/NCT06928766) | Phase 2 | Not yet recruiting | 15 | Double-blind, placebo-controlled comparison of eszopiclone and lemborexant in obstructive sleep apnoea with a low arousal threshold and difficulty falling or staying asleep. No results yet. |
+Currently no related clinical trials are registered in the data compiled for this report.
 
-This trial covers only a sub-population. The core evidence comes from the published Phase 3 trials in the literature table below.
+The publications below report completed or ongoing trials:
+- **SUNRISE 2** (PMID 32585700): Phase 3 randomised trial of long-term efficacy and tolerability versus placebo.
+- **Older adults study** (PMID 31880796): Phase 3 randomised trial versus placebo and zolpidem extended release.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31880796](https://pubmed.ncbi.nlm.nih.gov/31880796/) | 2019 | RCT (Phase 3) | JAMA Netw Open | Lemborexant vs placebo and zolpidem extended-release in older adults with insomnia disorder |
-| [32585700](https://pubmed.ncbi.nlm.nih.gov/32585700/) | 2020 | RCT (Phase 3) | Sleep | SUNRISE 2: long-term efficacy and tolerability vs placebo in adults with insomnia disorder |
-| [33636648](https://pubmed.ncbi.nlm.nih.gov/33636648/) | 2021 | Phase 3 clinical study | Sleep Med | SUNRISE-2: effectiveness and safety over up to 12 months of continuous treatment |
-| [35843245](https://pubmed.ncbi.nlm.nih.gov/35843245/) | 2022 | Systematic review / network meta-analysis | Lancet | Comparative effects of drug treatments for acute and long-term insomnia in adults |
-| [40555730](https://pubmed.ncbi.nlm.nih.gov/40555730/) | 2025 | Systematic review / network meta-analysis | Transl Psychiatry | Efficacy and safety of the three marketed dual orexin antagonists (daridorexant, lemborexant, suvorexant) |
-| [36701954](https://pubmed.ncbi.nlm.nih.gov/36701954/) | 2023 | Systematic review / network meta-analysis | Sleep Med Rev | Efficacy and tolerability ranking of 20 insomnia drugs in adults |
-| [32531478](https://pubmed.ncbi.nlm.nih.gov/32531478/) | 2020 | Network meta-analysis | J Psychiatr Res | Lemborexant vs suvorexant, using four double-blind RCTs (n = 3,237) |
+| [32585700](https://pubmed.ncbi.nlm.nih.gov/32585700/) | 2020 | Phase 3 RCT (SUNRISE 2) | Sleep | Long-term efficacy and tolerability of lemborexant versus placebo in adults with insomnia disorder |
+| [31880796](https://pubmed.ncbi.nlm.nih.gov/31880796/) | 2019 | Phase 3 RCT | JAMA Netw Open | Lemborexant compared with placebo and zolpidem extended release in older adults with insomnia |
+| [40555730](https://pubmed.ncbi.nlm.nih.gov/40555730/) | 2025 | Network meta-analysis | Transl Psychiatry | Efficacy and safety of daridorexant, lemborexant and suvorexant compared |
+| [35843245](https://pubmed.ncbi.nlm.nih.gov/35843245/) | 2022 | Network meta-analysis | Lancet | Comparative effects of drugs for acute and long-term insomnia management in adults |
+| [36701954](https://pubmed.ncbi.nlm.nih.gov/36701954/) | 2023 | Network meta-analysis | Sleep Med Rev | Efficacy and tolerability ranking of 20 insomnia drugs in adults |
+| [36947394](https://pubmed.ncbi.nlm.nih.gov/36947394/) | 2023 | Network meta-analysis | Drugs | Comparative effectiveness and safety of insomnia drugs across 153 randomised trials |
 | [34121443](https://pubmed.ncbi.nlm.nih.gov/34121443/) | 2021 | Network meta-analysis | J Manag Care Spec Pharm | Efficacy and safety of lemborexant compared with other insomnia treatments |
-| [39879708](https://pubmed.ncbi.nlm.nih.gov/39879708/) | 2025 | Post-hoc analysis | Sleep Med | Effect of lemborexant on sleep architecture in insomnia with mild obstructive sleep apnea |
-| [32096020](https://pubmed.ncbi.nlm.nih.gov/32096020/) | 2020 | Review | Drugs | First approval of lemborexant (DAYVIGO) in the USA, December 2019, for adult insomnia |
+| [37950346](https://pubmed.ncbi.nlm.nih.gov/37950346/) | 2024 | Meta-analysis | Sleep | Clinical safety of DORAs, with a focus on narcolepsy-like symptoms |
+| [41071053](https://pubmed.ncbi.nlm.nih.gov/41071053/) | 2025 | Review | Expert Rev Clin Pharmacol | Comprehensive overview of lemborexant in insomnia treatment |
+| [32096020](https://pubmed.ncbi.nlm.nih.gov/32096020/) | 2020 | Drug profile | Drugs | Lemborexant (Dayvigo) first approval summary and pharmacology |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN16320P | DAYVIGO FILM-COATED TABLET 5MG | Tablet, film coated | Eisai Manufacturing Limited |
-| SIN16321P | DAYVIGO FILM-COATED TABLET 10MG | Tablet, film coated | Eisai Manufacturing Limited |
+| SIN16320P | DAYVIGO Film-Coated Tablet 5 mg | Film-coated tablet | Not listed in the licence record |
+| SIN16321P | DAYVIGO Film-Coated Tablet 10 mg | Film-coated tablet | Not listed in the licence record |
 
-Both products are oral tablets. The registered indication text is not available in the data provided.
+Both licences are valid single-ingredient products from Eisai Manufacturing Limited, for oral use.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Knowledge-graph contraindication signals** (from the knowledge graph, not from label text): narcolepsy, narcolepsy-cataplexy syndrome, central nervous system disease, Balo concentric sclerosis, and X-linked adrenoleukodystrophy. The narcolepsy signal fits the drug's mechanism, and a meta-analysis (PMID 37950346) specifically examined narcolepsy-like symptoms with DORAs.
+- **Drug Interactions**: The interaction screen returned 100 interactions in total. Major-level examples include:
+  - Clarithromycin, clotrimazole and aprepitant
+  - Cimetidine and ranitidine
+  - Morphine, including the liposomal form
+
+  Moderate-level examples include bupropion, dexamethasone, pioglitazone, metoclopramide, dronabinol and nabilone. Combining this drug with other CNS depressants, such as opioids and cannabinoids, deserves particular attention. Several of the Major interactors are also enzyme-pathway inhibitors, so exposure may rise when they are co-administered.
+
+For warnings and contraindications from the label, please refer to the package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Two Phase 3 randomized trials and several network meta-analyses support lemborexant for insomnia, and the drug is already marketed in Singapore with two registrations. The main gap is that safety information from the Singapore package insert has not been reviewed, so the drug should proceed only with safety guardrails.
+The predicted indication is effectively the drug's existing indication, and it is supported by Phase 3 randomised trials and multiple network meta-analyses. Lemborexant is already marketed in Singapore with two valid licences. Because the Singapore licence records do not show an indication, and the label safety information is missing, the decision carries guardrails.
 
 **To proceed, the following is needed:**
-- The Singapore package insert, to obtain warnings and contraindications (a blocking gap)
-- Confirmation that the approved indication in the Singapore licences matches the predicted indication
-- Formal mechanism-of-action data from DrugBank
-- A safety monitoring plan covering next-day somnolence, interactions with other CNS depressants, and fall risk in elderly patients
-- For the anxiety disorder prediction, a study or secondary analysis with an anxiety-specific primary endpoint
+- Obtain the HSA package insert to confirm the approved indication, warnings and contraindications (this is a blocking gap for safety screening)
+- Obtain detailed mechanism of action data from DrugBank
+- Confirm that the Singapore approved indication matches the predicted indication
+- Establish a monitoring plan for patients on CYP-inhibiting drugs or other CNS depressants, and for patients with narcolepsy-related conditions
+
+---
+
+### Other Predictions Reviewed (Not Recommended for Advancement)
+
+| Predicted Indication | TxGNN Score | Evidence Level | Decision | Comment |
+|------|------|------|------|------|
+| Anxiety disorder | 79.34% | L4 | Research Question | Only preclinical work (PMID 42532180) and insomnia-population studies with comorbid anxiety or depression. No proven anxiety indication. |
+| Acute encephalopathy with biphasic seizures and late reduced diffusion | 97.38% | L5 | Hold | Model prediction only; no mechanistic link |
+| Agoraphobia | 88.27% | L5 | Hold | Prediction only; no studies |
+| Childhood absence epilepsy | 86.66% | L5 | Hold | No supporting evidence; seizure safety would need assessment |
+| Faciodigitogenital syndrome | 86.19% | L5 | Hold | Likely a knowledge-graph artefact |
+| Wernicke-Korsakoff syndrome | 86.16% | L5 | Hold | No evidence; sedative safety concerns |
+| Benign paroxysmal torticollis of infancy | 85.98% | L5 | Hold | No evidence; no paediatric use established |
+| Inherited prion disease | 85.71% | L5 | Hold | No evidence of any benefit |
+| Attention deficit-hyperactivity disorder | 83.04% | L5 | Hold | No evidence; mechanism not expected to treat core symptoms |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

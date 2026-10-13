@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Aminolevulinic Acid
-parent: Low Evidence (L5)
+parent: High Evidence (L1-L2)
 nav_order: 87
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Aminolevulinic Acid
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,88 +29,87 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Aminolevulinic Acid: From Fluorescence-Guided Glioma Surgery to Pre-malignant Neoplasm
+# Aminolevulinic Acid: From Actinic Keratosis to Pre-malignant Neoplasm
 
 ## One-Sentence Summary
 
-Aminolevulinic acid (ALA) is a photosensitizer prodrug. Its Singapore product, Gliolan, is an oral powder, and trial records describe it as approved for visualizing malignant glioma (WHO grade III/IV) during surgery. The TxGNN model predicts it may be useful for **pre-malignant neoplasm**, and the search returned **40 clinical trials** and **20 publications**. Only a small subset concerns pre-malignant lesions, and the strongest human evidence involves topical or light-activated use rather than the oral Singapore product.
+Aminolevulinic acid (ALA) is a photosensitizer precursor, originally used for actinic keratosis and related skin conditions.
+The TxGNN model predicts it may be effective for **pre-malignant neoplasm**,
+with **no registered clinical trials** but **13 publications** (including a systematic review and a 10-year randomized follow-up) currently supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the Singapore registration data. Trial records describe Gliolan as approved for fluorescence-guided resection of malignant glioma (inferred from the trial records, not confirmed against the label) |
+| Original Indication | Actinic keratosis and related skin disease (knowledge-graph indications; the Singapore licence text lists no approved indication) |
 | Predicted New Indication | Pre-malignant neoplasm |
 | TxGNN Prediction Score | 96.01% |
-| Evidence Level | L2 (one completed Phase 3 RCT in pre-malignant oral lesions; the photosensitizer used is not stated in the summary) |
+| Evidence Level | L2 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 1 |
-| Recommended Decision | Hold |
+| Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the record. From the literature, ALA is a natural precursor in the heme pathway. Cells convert it to protoporphyrin IX (PpIX), which builds up preferentially in dysplastic and neoplastic cells. Blue or red light then makes PpIX fluoresce, which supports lesion detection. Light of a suitable wavelength also triggers a photodynamic reaction that destroys the sensitized cells, which supports treatment (photodynamic therapy, PDT).
+Detailed mechanism of action data is not available in the compiled data. Based on known information, ALA is metabolized to protoporphyrin IX (PpIX), which accumulates preferentially in dysplastic and neoplastic cells. When activated by light, PpIX generates reactive oxygen species that selectively destroy these cells.
 
-This links the original use (marking tumour tissue during glioma surgery) to pre-malignant lesions, because the same PpIX accumulation has been shown in pre-malignant and malignant tissue. Supporting data include PpIX binding and enrichment in cancer cells (PMID 27150264) and a patient study of the biochemical basis of PpIX accumulation in (pre)malignant oesophageal lesions (PMID 9744510). Reviews also list ALA-PDT for superficial (pre)malignant lesions in several specialties.
+Actinic keratosis is itself a pre-malignant skin lesion. The new prediction, pre-malignant neoplasm, is therefore largely an extension of the same mechanism to other tissue sites. The literature covers pre-malignant lesions of the skin, oral mucosa, vulva and Barrett's oesophagus.
 
-This signal may partly reflect an already established use of ALA-based PDT rather than a true repurposing. The original indication is not recorded, and topical ALA-type products are already approved for actinic keratoses in some markets, according to a 2008 review (PMID 18389144). The finding should be checked against the label before it is treated as novel.
-
-Other predictions for this drug are weaker. Benign neoplasm of buccal mucosa (L3) and benign neoplasm of tongue (L4) are supported mainly by oral leukoplakia and dysplasia studies. Odontogenic cyst (L4) is supported only indirectly through Gorlin syndrome BCC studies. The remaining predictions have no retrieved evidence.
+The evidence is heterogeneous across sites. Much of it consists of case reports, preclinical studies and diagnostic fluorescence studies rather than controlled trials.
 
 ## Clinical Trial Evidence
 
-The 40 retrieved trials are dominated by fluorescence-guided glioma surgery. The table lists the trials most relevant to pre-malignant disease, plus two glioma trials that illustrate the original use.
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01497951](https://clinicaltrials.gov/study/NCT01497951) | Phase 3 | Completed | 28 | Randomized, placebo-controlled photodynamic therapy for pre-malignant oral mucosal lesions. The summary does not name the photosensitizer |
-| [NCT03638622](https://clinicaltrials.gov/study/NCT03638622) | Phase 1/2 | Completed | 30 | Low-cost, image-guided PDT for oral lesions in India. The title is truncated, so the pre-malignant versus cancer split is unconfirmed |
-| [NCT06876038](https://clinicaltrials.gov/study/NCT06876038) | Phase 2 | Not yet recruiting | 65 | Handheld screen-and-treat PDT device for high-risk oral lesions, pre-malignant and malignant |
-| [NCT02698293](https://clinicaltrials.gov/study/NCT02698293) | Phase 1 | Withdrawn | 0 | Oral ALA (40 mg/kg) plus red light and vitamin D3 for high-grade anal dysplasia. No data because 0 patients were enrolled |
-| [NCT00285701](https://clinicaltrials.gov/study/NCT00285701) | Phase 1/2 | Completed | 38 | Hexaminolevulinate (an ALA ester) fluorescence endoscopy for detecting pre-malignant and malignant colon lesions |
-| [NCT06507644](https://clinicaltrials.gov/study/NCT06507644) | NA | Not yet recruiting | 144 | Methyl aminolevulinate (MAL, an ALA ester) with red light for facial actinic keratoses. Supports the mechanism class only |
-| [NCT00472459](https://clinicaltrials.gov/study/NCT00472459) | Phase 3 | Completed | 82 | MAL-PDT in immunocompromised patients with non-melanoma skin cancer, including actinic keratosis and warts |
-| [NCT01167322](https://clinicaltrials.gov/study/NCT01167322) | Phase 3 | Completed | 45 | Oral 5-ALA fluorescence in malignant glioma, WHO grade III/IV (original use) |
-| [NCT00241670](https://clinicaltrials.gov/study/NCT00241670) | Phase 3 | Completed | 415 | 5-ALA fluorescence-guided resection versus conventional resection in malignant glioma (original use) |
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [25315968](https://pubmed.ncbi.nlm.nih.gov/25315968/) | 2015 | Systematic review | Photodiagn Photodyn Ther | Reviews the efficacy of PDT for oral pre-malignant lesions (abstract gives only the aim) |
-| [18389144](https://pubmed.ncbi.nlm.nih.gov/18389144/) | 2008 | Review | Photochem Photobiol Sci | ALA-PDT is used for superficial (pre)malignant lesions in several specialties. Levulan and Metvix are approved for actinic keratoses |
-| [39566196](https://pubmed.ncbi.nlm.nih.gov/39566196/) | 2024 | Review | Photodiagn Photodyn Ther | PDT for early and recurrent oral cancers and pre-malignant lesions in India |
+| [40614840](https://pubmed.ncbi.nlm.nih.gov/40614840/) | 2025 | RCT (10-year follow-up) | Photodiagn Photodyn Ther | Compared ALA-PDT, methyl aminolevulinate-PDT and surgery for nodular basal cell carcinoma |
+| [25315968](https://pubmed.ncbi.nlm.nih.gov/25315968/) | 2015 | Systematic review | Photodiagn Photodyn Ther | Efficacy of PDT in oral premalignant lesions |
 | [26516853](https://pubmed.ncbi.nlm.nih.gov/26516853/) | 2015 | Review | Int J Mol Sci | Combined PDT treatments for non-melanoma skin cancer |
-| [40614840](https://pubmed.ncbi.nlm.nih.gov/40614840/) | 2025 | RCT | Photodiagn Photodyn Ther | 10-year follow-up comparing ALA-PDT, MAL-PDT and surgery in nodular BCC. The abstract describes PDT as effective for BCC and pre-malignant lesions |
-| [22594985](https://pubmed.ncbi.nlm.nih.gov/22594985/) | 2012 | Comparative clinical study | Photodiagn Photodyn Ther | ALA-PDT (48 patients) versus cryotherapy (37 patients) for oral leukoplakia, a pre-malignant lesion |
-| [32628053](https://pubmed.ncbi.nlm.nih.gov/32628053/) | 2022 | Case series (30 cases) | J Dermatol Treat | Daylight PDT for field cancerization and actinic keratosis (pre-malignant lesions), with clinical, histological and immunohistochemical evaluation |
-| [11843215](https://pubmed.ncbi.nlm.nih.gov/11843215/) | 2001 | Clinical study | J Eur Acad Dermatol Venereol | Violet-light PDT with topical ALA for actinic keratosis, Bowen's disease and BCC |
-| [9744510](https://pubmed.ncbi.nlm.nih.gov/9744510/) | 1998 | Clinical biochemical study | Br J Cancer | Enzyme activities explaining ALA-induced PpIX accumulation in (pre)malignant oesophageal lesions |
-| [27150264](https://pubmed.ncbi.nlm.nih.gov/27150264/) | 2016 | Preclinical | Sci Rep | eEF1A1 binds and enriches PpIX in cancer cells in ALA-based PDT |
+| [18031503](https://pubmed.ncbi.nlm.nih.gov/18031503/) | 2008 | Clinical study | J Eur Acad Dermatol Venereol | Fractionated ALA-PDT supports PDT use for non-melanoma skin cancer |
+| [22594985](https://pubmed.ncbi.nlm.nih.gov/22594985/) | 2012 | Comparative study | Photodiagn Photodyn Ther | ALA-PDT (48 patients) versus cryotherapy (37 patients) for oral leukoplakia |
+| [12787039](https://pubmed.ncbi.nlm.nih.gov/12787039/) | 2003 | Clinical study | J Oral Pathol Med | Topical ALA-PDT for oral leukoplakia |
+| [31364444](https://pubmed.ncbi.nlm.nih.gov/31364444/) | 2019 | Case report and review | J Int Med Res | PDT for vulvar intraepithelial neoplasia |
+| [21035351](https://pubmed.ncbi.nlm.nih.gov/21035351/) | 2011 | Animal study | J Photochem Photobiol B | Hypericin-PDT compared with methyl-ALA in a mouse actinic keratosis model |
+| [19226578](https://pubmed.ncbi.nlm.nih.gov/19226578/) | 2009 | Diagnostic study | Lasers Surg Med | Fluorescence detection of early non-melanoma skin cancer, including actinic keratosis |
+| [19106058](https://pubmed.ncbi.nlm.nih.gov/19106058/) | 2009 | Diagnostic study | Eur J Dermatol | ALA-induced fluorescence in 98 patients with skin and mucosal lesions |
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN15244P | GLIOLAN, powder for oral solution, 30 mg/ml (LyoContract GmbH) | Powder, for solution | Not recorded in the registration data |
+| SIN15244P | GLIOLAN, powder for oral solution, 30 mg/ml (LyoContract GmbH) | Powder, for solution | Not stated in the compiled data |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. The HSA package insert warnings and contraindications have not yet been retrieved, and the drug-interaction query returned no results.
+- **Knowledge-graph contraindication signals**: photosensitivity disease and photoparoxysmal response. These come from a knowledge graph, not from label text.
+- **Drug Interactions**: 94 interactions were identified. The major-level interactions listed in the compiled data include:
+  - Tetracyclines: doxycycline, tetracycline, minocycline (including topical)
+  - Sulfonylureas: chlorpropamide, glimepiride, glipizide, glyburide, tolazamide, tolbutamide
+  - Levofloxacin and sulfasalazine
+  - Promethazine
+  - NSAIDs: ibuprofen, flurbiprofen
+  - Retinoids: isotretinoin, acitretin, adapalene (topical), alitretinoin (topical), tretinoin (topical)
+
+  Many of these are likely photosensitizing agents, so additive phototoxicity is a plausible concern.
+
+Please refer to the package insert for further safety information.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Proceed with Guardrails**
 
 **Rationale:**
-The mechanism is plausible, and human data exist for topical or light-activated ALA-type therapy in oral leukoplakia and actinic keratosis. However, the safety review is blocked because no package insert information has been retrieved. The only registered Singapore product is an oral solution for glioma imaging, while the pre-malignant evidence comes mostly from topical PDT. The prediction may also reflect an established use rather than a new one.
+The mechanism is the same as in the approved actinic keratosis use, and the literature includes a systematic review and a long-term randomized follow-up. There are no registered trials, and the evidence varies widely across tissue sites. The only Singapore licence (Gliolan, an oral-solution product) is not a topical PDT product, so route and product compatibility is unresolved.
 
 **To proceed, the following is needed:**
-- The HSA package insert (warnings, contraindications, approved indication), which is a blocking gap for safety screening
-- Confirmation of the label indication, to decide whether the signal is a true repurposing
-- Confirmation of which photosensitizer NCT01497951 tested, and whether it was ALA itself or an ester
-- A route and formulation assessment: the Singapore product is oral, but most pre-malignant evidence is topical PDT requiring a light source
-- Mechanism of action data from DrugBank
+- The package insert warnings and contraindications (HSA label), which are currently missing and block safety screening
+- Detailed mechanism of action data (MOA)
+- Definition of the specific pre-malignant lesion types and sites to target
+- Confirmation of a suitable formulation and route for the target site, since the licensed product is not topical
+- A photosensitivity management plan, including a review of interacting photosensitizing drugs
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

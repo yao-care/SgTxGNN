@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Trabectedin
-parent: High Evidence (L1-L2)
-nav_order: 998
-evidence_level: L2
+parent: Low Evidence (L5)
+nav_order: 1008
+evidence_level: L5
 indication_count: 10
 ---
 
 # Trabectedin
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,93 +29,95 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Trabectedin: From Soft Tissue Sarcoma to Female Breast Carcinoma
+# Trabectedin: From Ovarian Cancer to Female Breast Carcinoma
 
 ## One-Sentence Summary
 
-Trabectedin is a marine-derived anticancer drug. The literature in the Evidence Pack describes it as registered for soft tissue sarcoma and for relapsed ovarian cancer (in combination with pegylated liposomal doxorubicin).
-The TxGNN model predicts it may be effective for **female breast carcinoma**.
-The evidence is **2 clinical trials** (neither is a breast cancer efficacy trial) and **20 publications**, including three Phase 2 breast cancer studies.
+Trabectedin is a marine-derived cytotoxic agent, originally used to treat ovarian cancer (in combination with pegylated liposomal doxorubicin for relapsed, platinum-sensitive disease).
+The TxGNN model predicts it may be effective for **female breast carcinoma**,
+with **1 clinical trial** (a QT-interval safety study, not an efficacy trial) and **20 publications** currently associated with this direction. Phase 2 breast cancer data show limited single-agent activity.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Soft tissue sarcoma (from the literature; the Singapore licence text is blank in the record) |
+| Original Indication | Ovarian cancer (the approved indication text in the Singapore licence record is blank; the original indication comes from the knowledge graph) |
 | Predicted New Indication | Female breast carcinoma |
 | TxGNN Prediction Score | 99.73% |
-| Evidence Level | L2 |
+| Evidence Level | L2 (as scored in the compiled data; see the note under Clinical Trial Evidence) |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 1 |
-| Recommended Decision | Hold |
+| Recommended Decision | Hold (research question; consider a biomarker-selected study) |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the record. The publications describe trabectedin as binding the DNA minor groove and interfering with DNA-repair and transcription machinery. It is reported to be most active in cells with homologous-recombination deficiency (BRCA-related "BRCAness"). It also reduces tumour-associated macrophages in the tumour microenvironment.
+Detailed mechanism of action data is not available in the compiled data. The following comes from the literature compiled for this report. Trabectedin binds the DNA minor groove and causes DNA double-strand breaks that depend on transcription-coupled nucleotide excision repair. Tumours with BRCA or other homologous recombination deficiencies are therefore especially sensitive. It also reduces tumour-associated macrophages, which changes the tumour microenvironment.
 
-Up to 25% of sporadic breast tumours show homologous-recombination repair inactivation, and BRCA1/2-mutated breast cancers are a recognised subgroup. This gives a plausible link to trabectedin's activity in sarcoma and ovarian cancer. A 2025 preclinical study also found that trabectedin enhanced the antitumour effect of IL-12 in triple-negative breast cancer.
+Ovarian and breast cancers share a biological link through BRCA1/2 deficiency. A phase 2 study in germline BRCA1/2-mutated metastatic breast cancer was built on this reasoning. Preclinical work also shows that trabectedin enhances IL-12 antitumour effects in triple-negative breast cancer.
 
-The clinical signal is modest, however. The Phase 2 data show only limited single-agent activity, and no Phase 3 evidence is available.
+Clinical results, however, are modest. Phase 2 data in anthracycline- and taxane-pretreated advanced breast cancer show limited single-agent activity. Any benefit is likely restricted to molecularly selected subgroups, such as BRCA-deficient disease.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT03470805](https://clinicaltrials.gov/study/NCT03470805) | Phase 2 | Completed | 9 | Olaparib maintenance after response to trabectedin plus pegylated liposomal doxorubicin in recurrent ovarian carcinoma. Relevant to BRCA-deficient disease, but the population is ovarian, not breast. |
-| [NCT00786838](https://clinicaltrials.gov/study/NCT00786838) | Phase 2 | Completed | 76 | Placebo-controlled study of a single trabectedin dose on the QT interval in advanced solid tumours. This is a cardiac safety study, with no breast cancer efficacy data. |
+| [NCT00786838](https://clinicaltrials.gov/study/NCT00786838) | Phase 2 | Completed | 76 | Single-blind, placebo-controlled study of the effect of a single trabectedin dose on the ECG QT interval in advanced solid tumours. This is a safety/pharmacology study and gives only indirect support. The title in the record is truncated and should be checked against the registry entry. |
+
+The registered trial does not test efficacy in breast cancer. The "L2" score therefore overstates the direct evidence, and the evidence base for efficacy is better described as small phase 2 studies.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [25239225](https://pubmed.ncbi.nlm.nih.gov/25239225/) | 2014 | Randomized Phase 2 | Clin Breast Cancer | Compared two trabectedin regimens as single-agent therapy in advanced breast cancer after anthracycline and taxane treatment. |
-| [27266804](https://pubmed.ncbi.nlm.nih.gov/27266804/) | 2016 | Phase 2 | Clin Breast Cancer | Trabectedin 1.3 mg/m² every 3 weeks in HR-positive, HER2-negative advanced breast cancer, stratified by tumour XPG expression. |
-| [24692579](https://pubmed.ncbi.nlm.nih.gov/24692579/) | 2014 | Phase 2 | Ann Oncol | First-in-class study of trabectedin in germline BRCA1/2-mutated metastatic breast cancer. |
-| [19114300](https://pubmed.ncbi.nlm.nih.gov/19114300/) | 2009 | Phase 1 | Eur J Cancer | Trabectedin plus doxorubicin in 38 patients (29 sarcoma, 9 advanced breast cancer); feasibility and activity. |
-| [26592307](https://pubmed.ncbi.nlm.nih.gov/26592307/) | 2016 | Review | Expert Opin Investig Drugs | Review of trabectedin in breast cancer, covering its transcription-regulation and macrophage-modulating mechanisms. |
-| [27710871](https://pubmed.ncbi.nlm.nih.gov/27710871/) | 2016 | Review | Cancer Treat Rev | Trabectedin as a chemotherapy option in BRCA-deficient patients. |
-| [31994460](https://pubmed.ncbi.nlm.nih.gov/31994460/) | 2020 | Review | Curr Drug Targets | Mechanisms, clinical activity and genomic predictors of response in gynecological cancers. |
-| [39777457](https://pubmed.ncbi.nlm.nih.gov/39777457/) | 2025 | Preclinical | Cancer Immunol Res | Trabectedin enhanced IL-12 antitumour effects in triple-negative breast cancer models. |
-| [23364677](https://pubmed.ncbi.nlm.nih.gov/23364677/) | 2013 | Preclinical/biomarker | Mol Cancer Ther | CUL4A proposed as a biomarker of trabectedin response in breast cancer cell lines. |
-| [38366738](https://pubmed.ncbi.nlm.nih.gov/38366738/) | 2024 | Case report | J Dermatol | Trabectedin in radiation-induced angiosarcoma of the breast. |
+| [25239225](https://pubmed.ncbi.nlm.nih.gov/25239225/) | 2014 | Phase 2 randomized (2 regimens) | Clin Breast Cancer | Single-agent trabectedin in advanced breast cancer after anthracycline and taxane; compared 2 administration regimens |
+| [24692579](https://pubmed.ncbi.nlm.nih.gov/24692579/) | 2014 | Phase 2 | Ann Oncol | First-in-class phase 2 trial in germline BRCA1/2-mutated metastatic breast cancer, based on the hypersensitivity of homologous recombination-defective tumours |
+| [27266804](https://pubmed.ncbi.nlm.nih.gov/27266804/) | 2016 | Phase 2 | Clin Breast Cancer | Trabectedin 1.3 mg/m² in HR-positive, HER2-negative advanced breast cancer, stratified by XPG expression |
+| [19114300](https://pubmed.ncbi.nlm.nih.gov/19114300/) | 2009 | Phase 1 | Eur J Cancer | Trabectedin plus doxorubicin in advanced soft tissue sarcoma and breast cancer (9 breast patients) |
+| [26592307](https://pubmed.ncbi.nlm.nih.gov/26592307/) | 2016 | Review | Expert Opin Investig Drugs | Overview of trabectedin in breast cancer, including effects on tumour-associated macrophages |
+| [27710871](https://pubmed.ncbi.nlm.nih.gov/27710871/) | 2016 | Review | Cancer Treat Rev | Trabectedin as a chemotherapy option in BRCA-deficient patients |
+| [39777457](https://pubmed.ncbi.nlm.nih.gov/39777457/) | 2025 | Preclinical | Cancer Immunol Res | Trabectedin enhances the antitumour effects of IL-12 in triple-negative breast cancer |
+| [24941346](https://pubmed.ncbi.nlm.nih.gov/24941346/) | 2014 | Preclinical | Eur Cytokine Netw | Anti-angiogenic effects of trabectedin on breast cancer cells |
+| [23792433](https://pubmed.ncbi.nlm.nih.gov/23792433/) | 2013 | Preclinical | Toxicol Lett | Apoptosis induction in MCF-7 and MDA-MB-453 breast cancer cells |
+| [18410797](https://pubmed.ncbi.nlm.nih.gov/18410797/) | 2008 | Review | Semin Oncol | Emerging agents for anthracycline- and taxane-refractory metastatic breast cancer |
+
+The abstracts compiled for this report do not report efficacy figures for these studies, so the table does not state response rates.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN13661P | YONDELIS Powder for Injection 1mg/vial (Baxter Oncology GmbH) | Injection, powder, for solution |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN13661P | YONDELIS Powder for Injection 1mg/vial (Baxter Oncology GmbH) | Injection, powder, for solution | Not stated in the compiled licence record |
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic agent (DNA minor groove binder) |
-| Myelosuppression Risk | High. The literature reports grade 3-4 neutropenia in about 50% and thrombocytopenia in about 20% of patients. |
+| Cytotoxicity Classification | Conventional cytotoxic (marine-derived DNA minor-groove binder) |
+| Myelosuppression Risk | High. The literature reports grade 3-4 neutropenia in about 50% and thrombocytopenia in about 20% of patients; hepatic toxicity is also common |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | CBC with differential and liver function (haematological and hepatic toxicity are the main reported toxicities) |
-| Handling Protection | Must follow cytotoxic drug handling regulations |
+| Monitoring Items | Complete blood count with differential, liver function tests, renal function. A dedicated study assessed QT effects (see the trial above) |
+| Handling Protection | Follow institutional cytotoxic drug handling regulations |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: The compiled data list 100 interacting drugs. Most are Moderate, and Clarithromycin is rated **Major** (the list reviewed here covers 20 entries). Moderate examples include dexamethasone, aprepitant, cimetidine, metronidazole, levofloxacin, miconazole, simvastatin and rosuvastatin. Clarithromycin and cimetidine are often discussed as CYP3A4-related interactions, and this would need confirming against the label.
 
-- **Reported toxicities:** The publications describe mainly haematological and hepatic toxicity (reversible transaminitis).
-- **Cardiac safety:** A dedicated QT-interval study (NCT00786838) has been conducted.
-- **Drug interactions:** No interaction records were found.
+Warnings and contraindications from the package insert are not available in the compiled data. Please refer to the package insert for these safety details.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The evidence for breast cancer is Phase 2 only, with modest single-agent activity and no Phase 3 data. The key gaps are the missing Singapore package insert safety information and mechanism-of-action data. Of the other nine predicted indications, mostly ovarian-related, only the BRCA-associated ovarian cancer entity has literature support (reviews, L4). Bilateral breast carcinoma has no entity-specific evidence, and the rest are prediction only (L5).
+The only registered trial is a QT safety study, and published phase 2 breast cancer studies show limited single-agent activity. A plausible mechanistic link exists in BRCA/homologous recombination-deficient disease, but the evidence is not strong enough to support broader use. The other predicted indications (rank 2-10) have no or only preclinical evidence and also stay on Hold. The Singapore licence text does not list an approved indication, and package insert safety data are not yet available.
 
 **To proceed, the following is needed:**
-- Singapore package insert warnings and contraindications (a blocking gap for safety screening)
-- Detailed mechanism-of-action data
-- Full efficacy results from the Phase 2 breast cancer studies, with the BRCA-deficient and triple-negative subgroups as priority populations
-- Phase 3 or comparative evidence against standard breast cancer therapy
-- A safety monitoring plan covering myelosuppression and hepatotoxicity
+- Package insert warnings and contraindications from HSA (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- Full review of the three phase 2 breast cancer studies (efficacy results, BRCA/XPG subgroup outcomes)
+- Verification of NCT00786838 against the registry record
+- A biomarker-selected study design (for example, BRCA-deficient breast cancer) before any further development
+- A DDI management plan, particularly for strong CYP3A4 inhibitors such as clarithromycin
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

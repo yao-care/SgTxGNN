@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Neomycin
-parent: High Evidence (L1-L2)
-nav_order: 697
-evidence_level: L2
+parent: Medium Evidence (L3-L4)
+nav_order: 705
+evidence_level: L3
 indication_count: 10
 ---
 
 # Neomycin
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Neomycin: From Antibacterial Use to Irritable Bowel Syndrome
+# Neomycin: From Topical and Gut-Luminal Antibacterial Use to Irritable Bowel Syndrome
 
 ## One-Sentence Summary
 
-Neomycin is an aminoglycoside antibiotic. In Singapore it is registered in several products, including topical creams, a powder and eye/ear drops.
-The TxGNN model predicts it may be useful for **irritable bowel syndrome (IBS)**, particularly the constipation-predominant type with methane on breath testing.
-Currently **2 clinical trials** and **14 publications** support this direction, but the trials are small and the safety data for this use are incomplete.
+Neomycin is a poorly absorbed aminoglycoside antibiotic, marketed in Singapore mainly in topical, eye/ear and vaginal products.
+The TxGNN model predicts it may be effective for **irritable bowel syndrome (IBS)**,
+with **1 clinical trial** and **14 publications** currently supporting this direction. The evidence is small and mostly observational or review-level.
 
 ---
 
@@ -43,9 +43,10 @@ Currently **2 clinical trials** and **14 publications** support this direction, 
 
 | Item | Content |
 |------|------|
+| Original Indication | Not specified in the Singapore registration data (indication text is blank for all licences) |
 | Predicted New Indication | Irritable bowel syndrome |
 | TxGNN Prediction Score | 98.55% |
-| Evidence Level | L2 |
+| Evidence Level | L3 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 9 |
 | Recommended Decision | Hold |
@@ -54,14 +55,11 @@ Currently **2 clinical trials** and **14 publications** support this direction, 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the Evidence Pack. Neomycin is a poorly absorbed antibiotic that stays in the gut when taken by mouth. Its antibacterial effect there is well established.
+Currently, detailed mechanism of action data is not available. Based on known information, neomycin is an aminoglycoside antibiotic that is poorly absorbed and acts mainly in the gut lumen when taken orally. In the registered products it is mostly combined with other agents, such as corticosteroids or polymyxin B, and applied topically or to the eye or ear.
 
-One theory holds that IBS, especially the constipation-predominant type (C-IBS), is linked to small intestinal bacterial overgrowth (SIBO). It is also linked to methane- and hydrogen-producing gut flora. Reducing these bacteria could ease symptoms, and this is a biologically coherent mechanism. Several neomycin studies fit it. Neomycin improved C-IBS in a way that depended on methane being present on breath testing. A combination of rifaximin and neomycin worked best in methane-positive patients.
+The proposed link to IBS runs through the gut microbiome. Neomycin may reduce methane-producing microbes and small intestinal bacterial overgrowth (SIBO), both of which have been associated with IBS, especially constipation-predominant IBS (C-IBS). Published work on neomycin combined with rifaximin supports this idea. In methane-positive patients, a combination of the two appeared more effective than either alone.
 
-Important limits:
-- The evidence comes from small trials.
-- The evidence level is L2 rather than L1 because there is no Phase 3 RCT, and the neomycin-specific trial is not labelled Phase 2.
-- Concerns include antibiotic resistance and possible symptom relapse after a short course.
+Note that the registered Singapore products are topical, ophthalmic, otic and vaginal. None is an oral formulation for gut use, so the route needed for IBS is not currently available locally.
 
 ---
 
@@ -69,8 +67,9 @@ Important limits:
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00945334](https://clinicaltrials.gov/study/NCT00945334) | Not applicable | Completed | 37 | Double-blind, placebo-controlled trial of neomycin vs rifaximin plus neomycin in methane-positive C-IBS. It tests the drug directly in the target disease but is small. |
-| [NCT00259155](https://clinicaltrials.gov/study/NCT00259155) | Phase 2 | Completed | 92 | Randomized, double-blind trial of rifaximin (not neomycin) in SIBO and IBS. It supports the antibiotic-modulation idea only indirectly. |
+| [NCT00945334](https://clinicaltrials.gov/study/NCT00945334) | Not specified (NA) | Completed | 37 | Double-blind, placebo-controlled trial comparing neomycin with rifaximin plus neomycin in methane-positive patients with constipation-predominant IBS |
+
+The trial is small and its phase is not specified, so it cannot support a higher evidence level.
 
 ---
 
@@ -78,43 +77,39 @@ Important limits:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [19996983](https://pubmed.ncbi.nlm.nih.gov/19996983/) | 2010 | RCT | J Clin Gastroenterol | Compared 3 antibiotic regimens in methane-positive IBS patients. Rifaximin plus neomycin was the most effective. |
-| [16832617](https://pubmed.ncbi.nlm.nih.gov/16832617/) | 2006 | RCT (subanalysis) | Dig Dis Sci | In a double-blind RCT, neomycin improved C-IBS in a way that depended on methane being present. |
-| [12591062](https://pubmed.ncbi.nlm.nih.gov/12591062/) | 2003 | Double-blind RCT | Am J Gastroenterol | Normalization of the lactulose breath test after antibiotic treatment correlated with symptom improvement. |
-| [40240267](https://pubmed.ncbi.nlm.nih.gov/40240267/) | 2025 | Cohort | Rev Gastroenterol Mex | Prospective comparison of three antibiotic regimens for SIBO in Chilean IBS patients. Neomycin is among the drugs used for SIBO. |
-| [24788320](https://pubmed.ncbi.nlm.nih.gov/24788320/) | 2014 | Study (classified as Review) | Dig Dis Sci | Antibiotic treatment of C-IBS. A prior retrospective study suggested rifaximin plus neomycin beat neomycin alone in methane-positive subjects. |
-| [22298980](https://pubmed.ncbi.nlm.nih.gov/22298980/) | 2011 | Review | Gastroenterol Hepatol | Reviews the role of gut flora and SIBO in IBS and antibiotic treatment. |
-| [26819502](https://pubmed.ncbi.nlm.nih.gov/26819502/) | 2016 | Review | World J Gastroenterol | Proposes that underlying infection, including SIBO, may unify the symptoms of IBS. |
-| [31363445](https://pubmed.ncbi.nlm.nih.gov/31363445/) | 2019 | Review | Cureus | Discusses dysbiosis and methane production as factors in C-IBS. |
-| [30288076](https://pubmed.ncbi.nlm.nih.gov/30288076/) | 2018 | Review | Clin Exp Gastroenterol | Mechanism, gut microbiota effects and safety of rifaximin in diarrhea-predominant IBS. |
-| [38700306](https://pubmed.ncbi.nlm.nih.gov/38700306/) | 2023 | Review | J Assoc Physicians India | Reviews dysbiosis in IBS, including antibiotics and SIBO as contributors. |
+| [12591062](https://pubmed.ncbi.nlm.nih.gov/12591062/) | 2003 | Double-blind RCT | Am J Gastroenterol | Antibiotic treatment that normalised lactulose breath test results correlated with IBS symptom improvement |
+| [16832617](https://pubmed.ncbi.nlm.nih.gov/16832617/) | 2006 | RCT subanalysis | Dig Dis Sci | Neomycin improved constipation in C-IBS, dependent on the presence of methane |
+| [19996983](https://pubmed.ncbi.nlm.nih.gov/19996983/) | 2010 | Clinical study | J Clin Gastroenterol | Rifaximin plus neomycin was most effective in IBS patients with methane on breath testing |
+| [24788320](https://pubmed.ncbi.nlm.nih.gov/24788320/) | 2014 | Clinical study | Dig Dis Sci | Antibiotic treatment of C-IBS, comparing neomycin with rifaximin plus neomycin in methane-positive subjects |
+| [40240267](https://pubmed.ncbi.nlm.nih.gov/40240267/) | 2025 | Cohort | Rev Gastroenterol Mex | Compared three antibiotic regimens for SIBO in IBS patients, including symptom response and eradication |
+| [22298980](https://pubmed.ncbi.nlm.nih.gov/22298980/) | 2011 | Review | Gastroenterol Hepatol | Role of gut flora and antibiotics in IBS |
+| [24666019](https://pubmed.ncbi.nlm.nih.gov/24666019/) | 2014 | Review | Curr Med Res Opin | Probiotics and antimicrobials in IBS management |
+| [31363445](https://pubmed.ncbi.nlm.nih.gov/31363445/) | 2019 | Review | Cureus | Methane and constipation-predominant IBS |
+| [26819502](https://pubmed.ncbi.nlm.nih.gov/26819502/) | 2016 | Review | World J Gastroenterol | Hypothesis that infectious mechanisms may underlie IBS |
+| [38700306](https://pubmed.ncbi.nlm.nih.gov/38700306/) | 2023 | Review | J Assoc Physicians India | Dysbiosis in IBS |
 
 ---
 
 ## Singapore Market Information
 
-Nine products are registered. The main five are listed below. The Evidence Pack has no approved-indication text for these products.
-
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN04129P | Neo-Betasone Cream | Cream | Hovid Bhd |
-| SIN04113P | Neo-Cortisone Cream | Cream | Hovid Bhd |
-| SIN00678P | Baneocin Powder | Powder | Pharmazeutische Fabrik Montavit GmbH |
-| SIN01930P | Uniflex-N Cream | Cream | Xepa-Soul Pattinson (Malaysia) Sdn Bhd |
-| SIN00959P | Dextracin Eye/Ear Drops | Solution | Xepa-Soul Pattinson (Malaysia) Sdn Bhd |
+| SIN04129P | NEO-BETASONE CREAM | Cream | Not stated |
+| SIN04113P | NEO-CORTISONE CREAM | Cream | Not stated |
+| SIN00678P | BANEOCIN POWDER | Powder | Not stated |
+| SIN01930P | UNIFLEX-N CREAM | Cream | Not stated |
+| SIN00959P | DEXTRACIN EYE/EAR DROPS | Solution | Not stated |
 
-The five listed products are topical or ophthalmic/otic. The IBS rationale depends on oral, gut-acting neomycin. An oral capsule form appears in the route summary, but its product details are not in the list above. Route compatibility for the new indication still needs to be confirmed.
+Nine valid single-ingredient registrations exist in total. The other four are POLYGYNAX VAGINAL CAPSULE, MAXITROL STERILE OPHTHALMIC SUSPENSION, POLYDEXA EAR DROPS and POLYBAMYCIN OINT.
 
 ---
 
 ## Safety Considerations
 
-Drug interaction data were not found for this record. Please refer to the package insert for warnings and contraindications.
+- **Drug Interactions**: The interaction screening found 100 potential interactions. Major-level examples include botulinum toxin type A, intravenous human immunoglobulin G, bacitracin, bumetanide and capreomycin. Moderate-level examples include amikacin, amphotericin B, omeprazole, rabeprazole, mesalazine, alendronic acid and estradiol.
+- **Contact allergy**: Literature compiled for related indications identifies neomycin as a frequent contact allergen. It can cause allergic contact dermatitis, with cross-sensitivity to tobramycin.
 
-Concerns raised in the evidence review:
-- **Ototoxicity and nephrotoxicity** are risks if systemic absorption increases.
-- **Antibiotic resistance** and possible symptom relapse after a short course.
-- **Contact sensitization**: neomycin is a well-documented contact allergen, with cross-reactivity to other aminoglycosides. This mainly concerns topical use.
+Please refer to the package insert for warnings and contraindications.
 
 ---
 
@@ -123,15 +118,14 @@ Concerns raised in the evidence review:
 **Decision: Hold**
 
 **Rationale:**
-IBS is the only predicted indication with a plausible mechanism and randomized trial evidence (L2). That evidence comes from small studies, and the neomycin trial is not labelled Phase 2 or 3. The Singapore package insert warnings and contraindications are missing, which blocks safety screening. IBS is best treated as a research question until these gaps are closed.
+The IBS prediction is the best-supported of the ten predicted indications, with a completed placebo-controlled trial and several clinical studies in methane-positive C-IBS. However, the trial is small (n=37) with no specified phase, the rest of the evidence is observational or review-level, and no oral gut-directed neomycin product is registered in Singapore. Package insert safety data is also missing.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications (download and review the insert)
+- Package insert warnings and contraindications from the HSA, since safety screening cannot proceed without them
 - Mechanism of action data from DrugBank
-- Confirmation of an oral neomycin product and its route compatibility in Singapore
-- A larger, well-powered RCT in methane-positive C-IBS, with a plan for resistance, relapse and ototoxicity/nephrotoxicity monitoring
-
-*These results are for research reference only and do not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- A larger, well-designed Phase 2/3 trial in a defined IBS subgroup (such as methane-positive C-IBS)
+- Assessment of an oral, minimally absorbed formulation and its availability in Singapore
+- A safety plan covering aminoglycoside risks with repeated oral courses, and interactions with other nephrotoxic or ototoxic drugs
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

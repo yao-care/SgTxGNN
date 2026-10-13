@@ -29,17 +29,21 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Avelumab: From Urothelial Carcinoma to Human Herpesvirus 8-Related Tumor
+# Avelumab: From Cutaneous Neuroendocrine Carcinoma to Human Herpesvirus 8-Related Tumor
 
 ## One-Sentence Summary
 
-Avelumab is a PD-L1 immune checkpoint antibody marketed in Singapore as Bavencio. The Evidence Pack links it to urothelial carcinoma, though the local registration record itself gives no indication text. The TxGNN model predicts it may be effective for **human herpesvirus 8-related tumor**, but **no clinical trials and no publications** were found for this prediction, so it rests on model output alone.
+Avelumab was originally used to treat cutaneous neuroendocrine carcinoma (Merkel cell carcinoma).
+The TxGNN model predicts it may be effective for **human herpesvirus 8-related tumor**,
+but **no clinical trials and no publications** were found in the data compiled for this report, so the prediction rests on the model alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the local registration record (the Evidence Pack elsewhere refers to urothelial carcinoma) |
+| Original Indication | Cutaneous neuroendocrine carcinoma (taken from the knowledge-graph indication record; the Singapore licence has no indication text) |
 | Predicted New Indication | Human herpesvirus 8-related tumor |
 | TxGNN Prediction Score | 99.97% |
 | Evidence Level | L5 |
@@ -47,60 +51,93 @@ Avelumab is a PD-L1 immune checkpoint antibody marketed in Singapore as Bavencio
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on known information, avelumab blocks PD-L1 and is marketed for urothelial carcinoma. Mechanistically, it may be applicable to virus-driven tumors.
+Detailed mechanism of action data is not available. Avelumab is known to be an immune checkpoint inhibitor that blocks PD-L1. This is general background and not drawn from the compiled data.
 
-The reasoning is by analogy. PD-L1 blockade could restore T-cell responses against a tumor driven by a virus. Merkel cell carcinoma, which is driven by a different virus, is the precedent. This is a plausible hypothesis, not an established link. No trial or publication on HHV-8-related tumors was provided, and the similarity to the original indication has not yet been assessed.
+Human herpesvirus 8 (HHV-8)-related tumors, such as Kaposi sarcoma, are virus-driven and may express PD-L1. Blocking PD-L1 is therefore biologically plausible. Merkel cell carcinoma is also a virus-associated tumor in many cases, which may partly explain the model's link between the two. However, no trials or literature were provided to test this idea, so it remains a hypothesis.
+
+### Other Predictions in the Top 10
+
+All ten predictions have scores above 99.9% and none has clinical trial or literature support. They differ greatly in plausibility:
+
+| Rank | Predicted Disease | Score | Assessment |
+|------|------|------|------|
+| 1 | Human herpesvirus 8-related tumor | 99.97% | Plausible (virus-driven, may express PD-L1); no evidence |
+| 2 | Middle ear neuroendocrine tumor | 99.97% | Extrapolated from another neuroendocrine tumor; uncertain |
+| 3 | Malignant cutaneous granular cell skin tumor | 99.97% | Only shares the cutaneous tumor context; no checkpoint rationale |
+| 4 | Ectomesenchymoma | 99.97% | No clear mechanistic rationale |
+| 5 | Adenosine deaminase deficiency | 99.95% | Metabolic immunodeficiency; likely a model artifact |
+| 6 | Reticular dysgenesis | 99.94% | No plausible link; likely a model artifact |
+| 7 | Immunoerythromyeloid hypoplasia | 99.94% | No evident link; likely a model artifact |
+| 8 | Non-severe combined immunodeficiency | 99.92% | No rationale; immune-related adverse events are a safety concern |
+| 9 | Prostatic urethra urothelial carcinoma | 99.92% | Better grounded: avelumab is approved as maintenance therapy for urothelial carcinoma; site-specific evidence needed |
+| 10 | Kidney pelvis sarcomatoid transitional cell carcinoma | 99.91% | Better grounded: upper-tract urothelial variant, often PD-L1 positive; variant-specific evidence needed |
+
+Ranks 9 and 10 (the urothelial carcinoma subsites) are the best-grounded candidates and are marked "Research Question", meaning a targeted search is warranted. Ranks 5 to 8 are immunodeficiencies, where the high scores most likely reflect network proximity rather than real biology.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
+
+---
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN15672P | BAVENCIO CONCENTRATE FOR SOLUTION FOR INFUSION 200MG/10ML (MERCK SERONO SA, Aubonne) | Injection, solution, concentrate | Not stated in the registration record |
+| SIN15672P | BAVENCIO Concentrate for Solution for Infusion 200mg/10mL (MERCK SERONO SA) | Injection, solution, concentrate | Not stated in the data compiled for this report |
 
-Only an injectable (infusion) form is registered.
+This is the only licence on record, and it is a valid single-ingredient product. It is an injectable form.
+
+---
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Immunotherapy (PD-L1 checkpoint inhibitor), not a conventional cytotoxic |
+| Cytotoxicity Classification | Immunotherapy (PD-L1 inhibitor), not a conventional cytotoxic agent |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
 | Monitoring Items | Please refer to the package insert warnings and precautions |
 | Handling Protection | Please refer to the package insert warnings and precautions |
 
+---
+
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: Three Major-level interactions were identified, all with immunomodulatory agents:
+  - Lenalidomide
+  - Pomalidomide
+  - Thalidomide
+
+For warnings and contraindications, please refer to the package insert. The package insert has not yet been retrieved.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The high score (99.97%) comes from the model alone. There are no trials, no literature, and no completed mechanism or route assessment, so this is Evidence Level L5. The blocking data gap is the missing package insert safety information.
+The prediction for human herpesvirus 8-related tumor is based only on the TxGNN model score (L5), with no registered trials or publications. Several other top predictions, especially the immunodeficiency diseases, appear to be model artifacts.
 
 **To proceed, the following is needed:**
-- The HSA package insert (warnings, contraindications, approved indications), which is currently blocking safety screening
-- Mechanism of action data, for example from DrugBank
-- A literature and trial search specific to HHV-8-related tumors, such as Kaposi sarcoma
-- Similarity and route compatibility assessment against the original indication
-
-**Other candidates in the same pack:**
-- Rank 9 (prostatic urethra urothelial carcinoma) and rank 10 (kidney pelvis sarcomatoid transitional cell carcinoma) are urothelial subsites. They have a stronger mechanistic rationale. Rank 10 has one retrospective observational study (NCT05431777, n=79, avelumab maintenance in Japan), which is indirect evidence.
-- Ranks 5–8 are primary immunodeficiencies, with no plausible link to a checkpoint inhibitor. They are probable false positives.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Retrieve the HSA package insert to obtain warnings, contraindications and the approved indication (currently a blocking gap for safety screening)
+- Obtain mechanism of action data from DrugBank
+- Search for trials and literature on avelumab in HHV-8-related tumors, such as Kaposi sarcoma
+- Run targeted searches for the urothelial carcinoma subsites (prostatic urethra, kidney pelvis sarcomatoid), which are the best-grounded alternatives
+- Assess route compatibility and similarity to the original indication, both currently pending
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

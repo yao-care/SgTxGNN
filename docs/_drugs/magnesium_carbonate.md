@@ -2,7 +2,7 @@
 layout: default
 title: Magnesium Carbonate
 parent: Medium Evidence (L3-L4)
-nav_order: 621
+nav_order: 627
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,13 +29,12 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Magnesium Carbonate: From Antacid Use (Original Indication Not Recorded) to Active Peptic Ulcer Disease
+# Magnesium Carbonate: From Peptic Ulcer Disease and Dyspepsia to Active Peptic Ulcer Disease
 
 ## One-Sentence Summary
 
-Magnesium carbonate is a non-systemic antacid that neutralizes stomach acid, but no original indication is recorded in the available regulatory data.
-The TxGNN model predicts it may be effective for **active peptic ulcer disease**, but there are **0 registered clinical trials** and only **4 publications** for this indication.
-The publications are mostly older studies of combination antacids, or laboratory work, so the evidence for magnesium carbonate itself is indirect.
+Magnesium carbonate is an antacid originally used for acid-related stomach conditions such as peptic ulcer disease, gastroesophageal reflux disease and dyspepsia.
+The TxGNN model predicts it may be effective for **active peptic ulcer disease**, but this overlaps with its existing use, and the support is limited to **0 clinical trials** and **1 laboratory-based publication**.
 
 ---
 
@@ -43,7 +42,7 @@ The publications are mostly older studies of combination antacids, or laboratory
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration record (drug class: antacid) |
+| Original Indication | Peptic ulcer disease, gastroesophageal reflux disease, esophagitis, constipation, dyspepsia (the Singapore licence has no approved indication text on file) |
 | Predicted New Indication | Active peptic ulcer disease |
 | TxGNN Prediction Score | 99.96% |
 | Evidence Level | L4 |
@@ -55,11 +54,11 @@ The publications are mostly older studies of combination antacids, or laboratory
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known class pharmacology, magnesium carbonate is a non-systemic antacid. It neutralizes gastric hydrochloric acid and raises intragastric pH. A higher pH lowers the activity of pepsin, which contributes to ulcer injury, and this may support ulcer healing.
+Detailed mechanism of action data is not currently available. Based on known information, magnesium carbonate is an antacid that neutralises gastric hydrochloric acid. This is a plausible way to relieve symptoms of acid-related ulcer disease.
 
-The link between an acid-neutralizing drug and peptic ulcer disease is biologically plausible, and it is the classic rationale for antacids. The original indication is not recorded, so the connection is inferred from the antacid class rather than from documented use of this specific drug.
+Active peptic ulcer disease is closely related to the drug's original indication of peptic ulcer disease, so this is not a true repurposing candidate. The prediction mostly restates a use the drug already has. The only literature retrieved is a laboratory study of the acid-neutralising capacity of marketed antacids, which is indirect evidence with no patient outcome data.
 
-Several 1980s controlled trials of high-dose antacid regimens in duodenal ulcer support the antacid class. Most of them used combination or multi-component products, so the effect of magnesium carbonate alone cannot be isolated. Modern acid suppression (proton pump inhibitors) and *H. pylori* eradication now largely replace antacid monotherapy. Any repurposing question is therefore mainly about adjunct or symptomatic use.
+Other predicted indications in the data follow the same pattern. Gastric ulcer, duodenal ulcer and stomach disease overlap with the labelled uses. Gastrojejunal ulcer, gastroduodenitis and duodenogastric reflux are mechanistically plausible but rest only on laboratory or small mucosal-protection studies. Peptic ulcer perforation, gastroparesis and duodenal obstruction have no clear mechanistic rationale for an antacid and no supporting studies.
 
 ---
 
@@ -73,10 +72,7 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [7034155](https://pubmed.ncbi.nlm.nih.gov/7034155/) | 1981 | RCT | Scand J Gastroenterol | 72 patients with duodenal or prepyloric ulcer. Cimetidine 1 g/day healed 67% at 3 weeks (p<0.005 vs placebo). The antacid/anticholinergic combination healed 50%. The placebo rate is truncated in the source. |
-| [6755656](https://pubmed.ncbi.nlm.nih.gov/6755656/) | 1982 | RCT | Scand J Gastroenterol Suppl | Report on the same antacid/anticholinergic vs cimetidine vs placebo comparison. No abstract available. |
-| [3003883](https://pubmed.ncbi.nlm.nih.gov/3003883/) | 1985 | Clinical trial | Scand J Gastroenterol | 80 patients with active duodenal ulcer, all given an antacid tablet, randomized to high- or low-fiber diet. Healing was 67.5% vs 60%. The trial tests diet, not the antacid. |
-| [35720246](https://pubmed.ncbi.nlm.nih.gov/35720246/) | 2022 | In vitro study | Med Pharm Rep | Laboratory measurement of the acid-neutralizing capacity of antacids marketed in Morocco. No patient data. |
+| [35720246](https://pubmed.ncbi.nlm.nih.gov/35720246/) | 2022 | In vitro / product quality study | Medicine and Pharmacy Reports | Evaluated the acid-neutralising capacity and other properties of antacids marketed in Morocco |
 
 ---
 
@@ -84,13 +80,30 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN03440P | INON GRANULES (Sato Pharmaceutical Co Ltd) | Granule | Not stated in the registration record |
+| SIN03440P | INON GRANULES (SATO Pharmaceutical Co Ltd) | Granule | Not stated |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No warnings, contraindications or drug interaction data were available for this drug.
+- **Contraindications (from a knowledge graph, not product label text)**: The knowledge graph links the drug to a number of conditions, including:
+  - Kidney disease and nephrocalcinosis
+  - Liver disease, liver failure and hepatic encephalopathy
+  - Hypercalcaemia and hyperparathyroidism
+  - Porphyria
+  - Blood disorders (anaemia, neutropenia, agranulocytosis, thrombocytopenia)
+  - Sleep apnoea syndromes
+  - Diarrhoeal disease
+
+  These associations have not been checked against the Singapore package insert and should be verified before use.
+- **Drug Interactions**: The compiled data lists 100 interactions, of which 20 are shown here.
+  - **Major**: Dolutegravir.
+  - **Moderate**: Acalabrutinib, doxycycline, alendronic acid, risedronic acid, cholecalciferol, amphetamine, acetylsalicylic acid, atazanavir, atropine, azithromycin, baloxavir marboxil, benzphetamine.
+  - **Minor**: Acebutolol, famotidine, ranitidine, alprazolam, atenolol, axitinib, benazepril.
+
+  Antacids containing magnesium commonly reduce absorption of other drugs by binding them, so dose timing matters.
+
+Please refer to the package insert for warnings and formal contraindications.
 
 ---
 
@@ -99,14 +112,14 @@ Please refer to the package insert for safety information. No warnings, contrain
 **Decision: Hold**
 
 **Rationale:**
-The mechanism is plausible and the score is high. However, there are no registered trials, and the literature is old, indirect, and mostly on combination antacids. Safety data is missing entirely, and current standard care (PPIs, *H. pylori* eradication) reduces the need for an antacid-based option.
+The top prediction largely overlaps with the drug's existing use in peptic ulcer disease. The only supporting evidence is a laboratory study with no clinical outcomes. There are no registered trials, so this is not a strong new repurposing opportunity at this stage.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from the HSA website, which is a blocking gap for safety screening
-- Mechanism of action data from DrugBank
-- The approved indication and full ingredient list for SIN03440P, to confirm the registered product's composition
-- Evidence specific to magnesium carbonate, separate from combination products such as Caved-S
-- A defined use case (adjunct or symptomatic therapy) that can be compared against current standard care
+- The Singapore package insert, including its warnings, contraindications and approved indication text. This is a blocking gap for safety screening.
+- Mechanism of action data, such as from DrugBank.
+- Clinical studies of magnesium carbonate itself in peptic ulcer or related conditions such as gastrojejunal ulcer or duodenogastric reflux.
+- A review of the interaction profile, especially the major interaction with dolutegravir, and guidance on dose spacing.
+- Confirmation of which predicted indications are genuinely new rather than part of the existing labelled use.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

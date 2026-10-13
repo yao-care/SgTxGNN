@@ -2,7 +2,7 @@
 layout: default
 title: Clascoterone
 parent: Low Evidence (L5)
-nav_order: 258
+nav_order: 260
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,21 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Clascoterone: From Acne to Candidiasis
+# Clascoterone: From Acne Vulgaris to Candidiasis
 
 ## One-Sentence Summary
 
-Clascoterone is a topical androgen receptor inhibitor, marketed in Singapore as Winlevi Cream 1% and known as an acne treatment.
-The TxGNN model predicts it may be effective for **candidiasis**,
-but **no clinical trials and no publications** currently support this direction, so it is a model prediction only.
+Clascoterone is a topical androgen receptor antagonist, marketed in Singapore as a 1% cream and used for acne vulgaris.
+The TxGNN model predicts it may be effective for **candidiasis**, but **no clinical trials and no publications** currently support this direction.
+The prediction rests only on a graph-based model score.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Acne (the Singapore registration record does not state an indication) |
+| Original Indication | Not stated in the Singapore licence text (the approved indication is blank). Acne vulgaris, based on the drug's known clinical use |
 | Predicted New Indication | Candidiasis |
 | TxGNN Prediction Score | 94.82% |
 | Evidence Level | L5 |
@@ -49,49 +51,60 @@ but **no clinical trials and no publications** currently support this direction,
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Clascoterone is a topical androgen receptor inhibitor that acts on the pilosebaceous unit, and its efficacy in acne is the basis for its marketing.
+Detailed mechanism of action data is not available in the data compiled for this report. From pharmacology data, clascoterone (cortexolone 17α-propionate) is a steroid that acts on the androgen receptor (AR). It is applied topically to reduce androgen signalling in sebaceous glands and hair follicles, which is how it treats acne. It is also being evaluated for androgenetic alopecia.
 
-Androgen receptor inhibition has no known antifungal activity. No mechanistic link between clascoterone and *Candida* infection could be established. The high TxGNN score (94.82%) is most likely an artifact of the knowledge graph rather than a real pharmacological signal. Oral candidiasis, a subtype of the same disease, is also predicted (86.71%) and likely shares the same artifact.
+The link to candidiasis is weak. Clascoterone has no known antifungal activity, and no plausible connection between androgen receptor inhibition and *Candida* infection was identified. Local immunosuppressive or barrier effects have been suggested, but these are speculative. The high TxGNN score of 94.82% most likely reflects proximity in a knowledge graph, not biological or clinical rationale.
 
-The other top-10 predictions are migraine-related conditions, leprosy, atrophoderma vermiculata, adrenal gland hyperfunction and others. All are also L5 with no trials or literature. Among them, skin conditions such as atrophoderma vermiculata are biologically closest to clascoterone's tissue target, but they remain speculative.
+Other top predictions show the same pattern. They include oral candidiasis, several migraine entries, leprosy, atrophoderma vermiculata, adrenal gland hyperfunction and multiple endocrine neoplasia. All are at evidence level L5, with no trials or literature. The only weak steroid-pathway rationale applies to adrenal gland hyperfunction, and it is speculative.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
+
+---
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN17072P | Winlevi Cream 1% w/w | Cream | Not stated in the registration record |
+| SIN17072P | Winlevi Cream 1% w/w (Cosmo S.p.A.) | Cream (topical) | Indication text not recorded in the licence data |
 
-Manufacturer: Cosmo S.p.A. Route: topical only.
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug-interaction records were found.
+- **Drug Interactions**: The only interaction record is a pharmacological one: clascoterone's target is the **androgen receptor** (AR). It is not a drug-drug interaction. No clinically graded interactions with other drugs were identified.
+- **Other**: HPA axis suppression has been noted as a safety consideration for this steroid-derived topical drug, though systemic exposure is low.
 
-As a topical agent, clascoterone has minimal systemic exposure. It may suppress the HPA axis at high exposure, so its use for systemic conditions would need careful safety review.
+Please refer to the package insert for warnings and contraindications, as these were not available in the data compiled for this report.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The candidate has only a model prediction (L5), with no trials, no literature and no plausible antifungal mechanism. The prediction is likely a knowledge-graph artifact.
+The prediction is supported only by a model score (evidence level L5). There are no clinical trials or publications, no plausible antifungal mechanism, and the approved route (topical skin application) does not match the mucosal or systemic needs of many candidiasis presentations. There is not enough evidence to justify development.
 
 **To proceed, the following is needed:**
-- Mechanism of action data (from DrugBank) and any evidence of antifungal activity, for example in vitro susceptibility of *Candida* species
-- The HSA package insert, to complete warnings and contraindications (a blocking gap for safety screening)
-- Confirmation of the approved indication text for SIN17072P
-- Route compatibility assessment for any proposed use (the product is a topical cream only)
-- Any published or registered studies of clascoterone in candidiasis or other candidate indications
+- Package insert warnings and contraindications from the HSA, since the safety review cannot proceed without them
+- Detailed mechanism of action data (for example, from DrugBank)
+- Preclinical evidence, such as in vitro antifungal activity against *Candida* species or an effect on host skin immunity
+- A clear definition of the target population and route (for example, cutaneous candidiasis versus oral candidiasis)
+- Confirmation of the approved acne indication in the Singapore licence record
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

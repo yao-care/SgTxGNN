@@ -2,7 +2,7 @@
 layout: default
 title: Prochlorperazine
 parent: Low Evidence (L5)
-nav_order: 819
+nav_order: 828
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,87 +29,93 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Prochlorperazine: From Phenothiazine Antipsychotic to Retinal Dystrophy
+# Prochlorperazine: From Schizophrenia to Retinal Dystrophy (with or without Extraocular Anomalies)
 
 ## One-Sentence Summary
 
-Prochlorperazine is a phenothiazine D2-receptor antagonist, marketed in Singapore as injectable and oral products.
-The TxGNN model predicts it may be effective for **retinal dystrophy with or without extraocular anomalies**, but this rests on knowledge-graph proximity alone.
-There are **0 clinical trials** and **15 publications**, none of which study prochlorperazine as a treatment for this condition.
+Prochlorperazine is a phenothiazine antipsychotic, originally used for schizophrenia.
+The TxGNN model's top-ranked prediction is **retinal dystrophy with or without extraocular anomalies**, but **no clinical trials and no publications** currently support it.
+The best-supported lead among the predicted indications is **manic bipolar affective disorder** (7 publications, all indirect or historical, and no trials).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Schizophrenia (from the knowledge graph; the Singapore licence records contain no indication text) |
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
-| TxGNN Prediction Score | 99.998% (model rank 85) |
-| Evidence Level | L5 (model prediction only) |
+| TxGNN Prediction Score | 99.998% |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the record. Prochlorperazine is a phenothiazine and a D2 antagonist. I could not identify a plausible mechanism linking dopamine blockade to inherited retinal degeneration.
+Detailed mechanism of action data is not available for this drug. Based on known information, prochlorperazine is a phenothiazine that blocks dopamine D2 receptors, and it also acts on histamine and muscarinic receptors. Its efficacy in schizophrenia and psychosis is established.
 
-The high score of 0.99998 appears to reflect proximity in the knowledge graph, not a drug-specific mechanism. The 15 retrieved papers are general reviews and case reports on orbital disease, congenital eye-muscle disorders and ocular malformations. None mention prochlorperazine as a treatment.
+For the top-ranked prediction, retinal dystrophy, no mechanistic link has been identified. The very high score (0.99998) reflects graph-based prediction only. Retinal dystrophies are inherited disorders, and a D2 antagonist has no known disease-modifying role. The other top-ranked predictions are similar: hydranencephaly, congenital glycosylation disorders, X-linked myopia subtypes, Charcot-Marie-Tooth disease type 1G, polymicrogyria and atypical glycine encephalopathy. All are rare congenital or monogenic conditions with no plausible pharmacological rationale. These predictions are probably driven by graph topology rather than biology.
 
-The class-level evidence points the other way. Phenothiazines carry a known retinal toxicity signal (pigmentary retinopathy, mainly with thioridazine and chlorpromazine). This argues against using the drug for a retinal condition.
+The exception is **manic bipolar affective disorder** (score 99.98%, rank 10). It is biologically plausible, because phenothiazine D2 antagonists are used in acute mania and agitation, and the condition is close to the original psychiatric indication. However, newer antipsychotics have much stronger evidence in mania.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered, for the top-ranked prediction or for manic bipolar affective disorder.
 
 ## Literature Evidence
 
-None of the publications below evaluates prochlorperazine. They are background reviews and case reports retrieved by disease keywords. The 15 retrieved records include 5 further items that are untyped or lower priority and are not listed here.
+No literature is available for the top-ranked prediction (retinal dystrophy). The following publications relate to the most plausible alternative, manic bipolar affective disorder. All are indirect or anecdotal:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [9416661](https://pubmed.ncbi.nlm.nih.gov/9416661/) | 1997 | Review | Seminars in Ultrasound, CT, and MR | Orbital infections: sinusitis is the most common cause; imaging and staging overview |
-| [20127583](https://pubmed.ncbi.nlm.nih.gov/20127583/) | 2010 | Review | Seminars in Neurology | Systematic approach to evaluating diplopia |
-| [22241537](https://pubmed.ncbi.nlm.nih.gov/22241537/) | 2012 | Review | Klinische Monatsblätter für Augenheilkunde | Congenital ptosis: forms, associated eye problems and management |
-| [38249493](https://pubmed.ncbi.nlm.nih.gov/38249493/) | 2023 | Review | Taiwan Journal of Ophthalmology | Congenital anomalies of lens size, shape and position |
-| [7035111](https://pubmed.ncbi.nlm.nih.gov/7035111/) | 1981 | Review | Documenta Ophthalmologica | Wagner-Stickler syndrome complex: vitreoretinal degeneration with systemic features |
-| [38321238](https://pubmed.ncbi.nlm.nih.gov/38321238/) | 2024 | Review | Pediatric Radiology | Imaging features of pediatric ocular pathologies |
-| [33447730](https://pubmed.ncbi.nlm.nih.gov/33447730/) | 2020 | Review | Therapeutic Advances in Ophthalmology | Eye involvement in inherited metabolic disorders |
-| [109006](https://pubmed.ncbi.nlm.nih.gov/109006/) | 1979 | Case report | American Journal of Ophthalmology | Two patients with unilateral cryptophthalmia |
-| [24413161](https://pubmed.ncbi.nlm.nih.gov/24413161/) | 2014 | Case report | Journal of Neuro-Ophthalmology | Trochlear-oculomotor synkinesis in a 6-year-old boy |
-| [19826317](https://pubmed.ncbi.nlm.nih.gov/19826317/) | 2009 | Case report | Optometry and Vision Science | Synergistic divergence in congenital fibrosis of the extraocular muscles |
+| [19461391](https://pubmed.ncbi.nlm.nih.gov/19461391/) | 2009 | Review | J Psychiatr Pract | Use and safety of antipsychotics in pregnancy; indirect relevance |
+| [26819726](https://pubmed.ncbi.nlm.nih.gov/26819726/) | 2015 | Pharmacovigilance | J Pharm Health Care Sci | Hyperglycaemic adverse events with antipsychotics in spontaneous reports (FAERS) |
+| [13617778](https://pubmed.ncbi.nlm.nih.gov/13617778/) | 1959 | Case report | Ann Med Psychol | Confusional dream-like attack caused by prochlorperazine in a mild manic-depressive patient |
+| [14242542](https://pubmed.ncbi.nlm.nih.gov/14242542/) | 1965 | Review | Obstet Gynecol | Approach to severe psychological disorders of the puerperium |
+| [14233737](https://pubmed.ncbi.nlm.nih.gov/14233737/) | 1964 | Survey/Case series | Am J Psychiatry | Electroshock therapy combined with phenothiazines and reserpine |
+| [14062306](https://pubmed.ncbi.nlm.nih.gov/14062306/) | 1963 | Review | Tunis Med | Agitation and its emergency management |
+| [14222730](https://pubmed.ncbi.nlm.nih.gov/14222730/) | 1964 | Case series | L'Encephale | Psychodysleptic manifestations during treatment with psycholeptics |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN01382P | STEMETIL INJECTION 12.5 mg/ml | Injection | Aventis Pharma, Dagenham / Sanofi S.r.L. |
-| SIN02049P | PROCHLOR TABLETS 5 mg | Tablet | Beacons Pharmaceuticals Pte. Ltd. |
-| SIN03002P | PROPERAZINE TABLET 5 mg | Tablet | Sunward Pharmaceutical Private Limited |
+| SIN01382P | STEMETIL INJECTION 12.5 mg/ml | Injection | Not available |
+| SIN02049P | PROCHLOR TABLETS 5 mg | Tablet | Not available |
+| SIN03002P | PROPERAZINE TABLET 5 mg | Tablet | Not available |
+
+## Cytotoxicity
+
+Not applicable. Prochlorperazine is not an antineoplastic drug, so this section is omitted.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug-interaction records were found in the database query.
-
-Class-level concerns noted in the evaluation:
-- **Retinal toxicity:** pigmentary retinopathy is described for phenothiazines, which is directly relevant to a retinal indication.
-- **Neurological effects:** extrapyramidal effects, tardive dyskinesia and seizures are reported with phenothiazines and would need review before any new neurological use.
+- **Contraindications flagged in the knowledge graph** (graph-derived associations, not package insert text):
+  - Cardiovascular: hypertension, orthostatic hypotension, postural orthostatic tachycardia syndrome, multiple system atrophy, long QT syndrome (including familial), torsades de pointes, coronary artery disease, myocardial infarction, coronary thrombosis.
+  - Neurological: epilepsy, basal ganglia disease, focal hand dystonia, blepharospasm.
+  - Haematological: thrombocytopenia, neutropenia, agranulocytosis.
+  - Organ disease: kidney disease, liver disease, gallbladder disease, pyoureter, gastric ulcer.
+  - Metabolic and other: hyperglycaemia, obesity disorders, benign prostatic hyperplasia, substance abuse/dependence, female breast carcinoma.
+- **Drug Interactions**: 100 interactions were found in total; the 20 retrieved are mostly Moderate.
+  - **Major**: bupropion and potassium citrate.
+  - **Moderate**, in these groups:
+    - Antidiabetics (acarbose, alogliptin, metformin, pioglitazone, canagliflozin, chlorpropamide, albiglutide).
+    - Anticholinergics (atropine, hyoscyamine, glycopyrronium).
+    - Other agents (epinephrine, morphine, loperamide, clarithromycin, famotidine, lorcaserin, and the laxatives bisacodyl and picosulfuric acid).
+- Package insert warnings and contraindications from the Singapore regulator could not be retrieved. Please refer to the package insert for authoritative safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is model-only (L5). There are no trials, and the literature does not address prochlorperazine. The phenothiazine retinal toxicity signal argues against this indication.
-
-The other top-ranked predictions were also assessed as L5 and Hold, because none has a plausible mechanism and none has trials or literature. The one exception is manic bipolar affective disorder (rank 10, L4). D2 antagonism is a plausible class-level link there, but the only prochlorperazine-specific paper is a 1959 case report of a confusional attack. It is best framed as a research question, since modern antipsychotics with Phase 3 mania data already exist.
+The top-ranked prediction (retinal dystrophy) rests solely on a graph-based score. It has no trials, no literature and no plausible mechanism, which gives an evidence level of L5. The only credible lead, manic bipolar affective disorder (L4), is supported only by indirect or historical reports and should be treated as a research question rather than a candidate for action.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications, which currently block safety screening
-- Mechanism of action data from DrugBank
-- Approved indication text for the three Singapore registrations
-- A targeted literature search on prochlorperazine in retinal disease, including retinal toxicity
-- If the bipolar/agitation question is pursued, a review of the adverse-event literature (seizures, tardive dyskinesia, hyperglycemia, confusion)
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Mechanism of action data, to allow proper mechanistic-link analysis.
+- Singapore package insert warnings and contraindications (a blocking gap for safety screening).
+- For manic bipolar disorder, a modern comparative evidence review against established antipsychotics.
+- For the rare-disease predictions, a biological rationale before any further investment.
+- Route compatibility assessment (injectable and oral forms are available in Singapore).
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

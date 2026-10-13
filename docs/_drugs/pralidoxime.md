@@ -2,7 +2,7 @@
 layout: default
 title: Pralidoxime
 parent: Low Evidence (L5)
-nav_order: 807
+nav_order: 816
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,13 +33,14 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Pralidoxime is an acetylcholinesterase reactivator, generally used as an antidote in organophosphate poisoning. The TxGNN model predicts it may be effective for **bronchitis**. Currently **0 clinical trials** and **0 publications** support this direction, so it is a model prediction only.
+Pralidoxime is a cholinesterase reactivator, used clinically to treat organophosphate poisoning (usually together with atropine).
+The TxGNN model predicts it may be effective for **bronchitis**, but **no clinical trials and no publications** currently support this direction, so it is a computational prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration record (generally known use: organophosphate poisoning) |
+| Original Indication | Organophosphate poisoning (per the known clinical use of pralidoxime; the Singapore licence text for the registered product does not state an indication) |
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 95.70% |
 | Evidence Level | L5 |
@@ -49,16 +50,11 @@ Pralidoxime is an acetylcholinesterase reactivator, generally used as an antidot
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the supplied record. Based on general knowledge, pralidoxime reactivates acetylcholinesterase inhibited by organophosphates. Its efficacy in organophosphate poisoning is established, but the record lists no approved indication.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, pralidoxime reactivates acetylcholinesterase (ACHE) that has been inhibited by organophosphates, restoring the breakdown of acetylcholine at nerve synapses.
 
-A link to bronchitis, such as modulation of cholinergic airway tone, is possible in principle but speculative. Neither the mechanism data nor any trial or publication supports it. The high score most likely reflects proximity in the knowledge graph rather than a drug-specific mechanism.
+There is a theoretical overlap: organophosphate exposure causes excess cholinergic stimulation, which can lead to bronchorrhea (excess airway secretions) and bronchospasm. However, this applies to poisoning, not to bronchitis, and does not support using pralidoxime to treat bronchitis. The high score most likely reflects associations in the knowledge graph rather than a proven therapeutic link.
 
-Other top-ranked predictions are also unsupported by evidence:
-- Female breast carcinoma (88.3%)
-- Seborrheic dermatitis (83.8%)
-- Plasma cell myeloma (83.7%)
-
-Several of these appear correlated with each other. Examples are bronchial neoplasm with bronchitis, and the two myeloma entries. They should not be counted as independent evidence.
+Other predictions in the top 10 (female breast carcinoma, seborrheic dermatitis, plasma cell myeloma, indolent plasma cell myeloma, seborrheic keratosis, bronchial neoplasm, genital herpes, vulvar inverted follicular keratosis, headache disorder) also have no identified mechanistic rationale and no supporting trials or literature. Headache is a reported adverse effect of pralidoxime, so that association may reflect adverse-event annotations rather than benefit.
 
 ## Clinical Trial Evidence
 
@@ -72,26 +68,31 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN05412P | PAM-A INJECTION 500 mg/ampoule (ILDONG PHARMACEUTICAL CO., LTD) | Injection, powder, lyophilized, for solution | Not stated in the record |
+| SIN05412P | PAM-A INJECTION 500 mg/ampoule (Ildong Pharmaceutical Co., Ltd) | Injection, powder, lyophilized, for solution | Not stated in the licence record |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found.
+- **Drug Interactions** (4 entries found):
+  - **Moderate**: Mivacurium, Succinylcholine. Both are neuromuscular blockers whose breakdown depends on cholinesterase, so this interaction needs attention.
+  - **Minor**: Atropine. This is a combination commonly used together with pralidoxime in organophosphate poisoning.
+  - **Target**: Acetylcholinesterase (ACHE), the pharmacological target of pralidoxime.
+- **Known adverse effect**: Headache is reported as an adverse effect of pralidoxime.
+
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on the model score alone. No trials, no literature, no mechanism data and no safety data are available. The only registered product is an injectable, and the route requirements for bronchitis have not been assessed.
+The prediction for bronchitis (and for all other top-ranked predictions) is supported only by a computational score. There are no registered trials, no publications, and no plausible mechanistic link. Evidence level is L5.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from HSA (blocking for safety screening)
-- Mechanism of action data, for example from DrugBank
-- A literature and trial search focused on cholinergic mechanisms in bronchitis
-- A route-compatibility assessment, since only an injectable form is registered
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
+- Package insert warnings and contraindications from the HSA (currently a blocking gap for safety screening)
+- Mechanism of action data (e.g. from DrugBank)
+- Preclinical or mechanistic evidence showing pralidoxime has any effect in bronchitis
+- Assessment of route compatibility (the only licensed product is an injection) and of similarity to the original indication
+- Literature and trial searches to confirm no relevant studies exist
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

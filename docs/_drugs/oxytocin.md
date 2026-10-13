@@ -2,7 +2,7 @@
 layout: default
 title: Oxytocin
 parent: Low Evidence (L5)
-nav_order: 745
+nav_order: 753
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Oxytocin: From Obstetric Use to Allergic Urticaria
+# Oxytocin: From Pregnancy Disorder with Abortive Outcome to Allergic Urticaria
 
 ## One-Sentence Summary
 
-Oxytocin is a peptide hormone. HSA registration records do not state its approved indication, though it is generally used in obstetrics.
-The TxGNN model predicts it may be effective for **allergic urticaria**, but **0 clinical trials** and **0 publications** currently support this direction.
-This is a model prediction only (Evidence Level L5).
+Oxytocin was originally used for pregnancy disorders with abortive outcome.
+The TxGNN model predicts it may be effective for **allergic urticaria**,
+but **no clinical trials and no publications** currently support this direction, so it is a computational prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in HSA records (oxytocin is generally used in obstetrics) |
+| Original Indication | Pregnancy disorder with abortive outcome (the Singapore licence records contain no approved indication text) |
 | Predicted New Indication | Allergic urticaria |
 | TxGNN Prediction Score | 95.97% |
 | Evidence Level | L5 |
@@ -51,11 +51,25 @@ This is a model prediction only (Evidence Level L5).
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Oxytocin is a neurohypophyseal peptide that acts on oxytocin receptors. Preclinical reports of anti-inflammatory or mast-cell-modulating effects exist, but they are speculative here and were not supported by any data in this evidence pack.
+Currently, detailed mechanism of action data is not available. Based on known information, oxytocin is a peptide hormone used in obstetric care, and its efficacy in pregnancy-related conditions is established. Whether this carries over to allergic urticaria cannot be judged from the data compiled for this report.
 
-The link between the original use and allergic urticaria is unclear. The high graph score most likely reflects shared neighbours in the knowledge graph rather than a demonstrated pharmacological relationship. Other predictions for this drug cluster in the same allergic and atopic space (cold urticaria, atopic dermatitis, atopic and papillary conjunctivitis, aquagenic urticaria). This suggests one shared graph signal rather than independent support.
+Oxytocin receptor signalling has been proposed to influence inflammation and mast cell activity, which could in theory relate to urticaria. This idea is speculative and is not supported by any trial or publication in the data compiled for this report. The high TxGNN score reflects a knowledge-graph pattern, not demonstrated clinical benefit.
 
-A high model score without clinical data is not enough to advance this candidate. The route question (a systemic injectable peptide against a skin or ocular allergic condition) has also not been addressed.
+**Other predicted indications (all L5, all Hold):**
+
+| Rank | Predicted Indication | TxGNN Score | Notes |
+|------|------|------|------|
+| 2 | Nasopharyngitis | 94.70% | No trials or literature |
+| 3 | Papillary conjunctivitis | 93.17% | No trials or literature |
+| 4 | Recalcitrant atopic dermatitis | 82.88% | No trials or literature |
+| 5 | Atopic conjunctivitis | 79.19% | No trials or literature |
+| 6 | IgE responsiveness, atopic | 77.43% | A trait rather than a treatable indication |
+| 7 | Cold urticaria | 77.20% | No trials or literature |
+| 8 | Esotropia | 77.10% | One retrieved paper, likely a keyword mismatch (see below) |
+| 9 | Rosacea conjunctivitis | 75.20% | No trials or literature |
+| 10 | Aquagenic urticaria | 63.88% | No trials or literature |
+
+Most of the predictions fall within allergic or atopic conditions, which suggests a shared pattern in the model. None has been validated.
 
 ## Clinical Trial Evidence
 
@@ -63,36 +77,47 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+For the top prediction (allergic urticaria), currently no related literature is available.
+
+For the rank 8 prediction (esotropia), one publication was retrieved. It is not direct evidence:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [37597111](https://pubmed.ncbi.nlm.nih.gov/37597111/) | 2024 | Cohort | Graefe's Archive for Clinical and Experimental Ophthalmology | Retrospective case series and review on work-up of infants with isolated congenital sixth nerve palsy. It does not appear to evaluate oxytocin, so it is likely a spurious keyword match. |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN17068P | Oxytocin Grindeks Solution for Injection and Infusion 10 IU/mL | Injection, solution |
-| SIN02496P | Syntocinon Injection 10 IU/mL | Injection |
-| SIN03588P | Syntometrine Injection | Injection |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN17068P | Oxytocin Grindeks Solution for Injection and Infusion 10 IU/mL | Injection, solution | Not stated in the available records |
+| SIN02496P | Syntocinon Injection 10 IU/mL | Injection | Not stated in the available records |
+| SIN03588P | Syntometrine Injection | Injection | Not stated in the available records |
 
-Approved indication text is not recorded for any of these licences. All three products are injectables.
+All three are valid single-ingredient licences, and all are injectable. No cancelled licences were found.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found for this drug.
+- **Contraindications suggested by the knowledge graph (not from label text):** hypertensive disorder, hypertension, placenta praevia, asphyxia neonatorum.
+- **Drug Interactions:** 100 interactions were found. Examples of the main ones:
+  - **Major:** dolasetron, cisapride
+  - **Moderate:** epinephrine, ephedrine, clarithromycin, levofloxacin, ondansetron, palonosetron, famotidine, isometheptene, loperamide, and several laxatives (bisacodyl, lactulose, lactitol, castor oil, glycerin, polyethylene glycol)
+  - **Minor:** metronidazole
+
+Package insert warnings and contraindications were not available. Please refer to the package insert for the full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the TxGNN score. It has no trials, no literature, no documented mechanism, and no route compatibility assessment. All ten predicted indications for oxytocin are at L5 and Hold. The single paper retrieved for another prediction (esotropia, PMID 37597111) is unrelated to oxytocin therapy and does not change this.
+The prediction for allergic urticaria rests only on a computational score. There are no clinical trials, no supporting literature and no established mechanistic link. All ten predicted indications are at evidence level L5.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings, contraindications and approved indication text (currently blocking safety screening)
-- Mechanism of action data (for example from DrugBank)
-- Published or registered evidence linking oxytocin to allergic urticaria
-- A route compatibility assessment (systemic injectable vs. the target condition)
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Package insert warnings and contraindications from the HSA, which block safety screening
+- Mechanism of action data for oxytocin
+- A literature and trial search aimed at oxytocin in urticaria or allergic disease, including preclinical mast cell studies
+- Assessment of route and formulation fit, since all Singapore products are injectables and the predicted indications may need other routes
+- Approved indication text for the Singapore licences, to confirm the original indication locally
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

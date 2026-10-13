@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Pseudoephedrine
-parent: High Evidence (L1-L2)
-nav_order: 832
-evidence_level: L2
+parent: Medium Evidence (L3-L4)
+nav_order: 841
+evidence_level: L3
 indication_count: 10
 ---
 
 # Pseudoephedrine
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,87 +29,97 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Pseudoephedrine: From Nasal Decongestant to Nasal Cavity Disease
+# Pseudoephedrine: From Rhinitis and the Common Cold to Nasal Cavity Disease
 
 ## One-Sentence Summary
 
-Pseudoephedrine is an oral sympathomimetic decongestant that is already marketed in Singapore. The TxGNN model predicts it may be effective for **nasal cavity disease**, with **19 retrieved clinical trials** and **6 publications**. Only 2 of the trials are graded as moderately relevant, and neither has confirmed pseudoephedrine results. This prediction most likely reflects an existing labeled use rather than true repurposing.
+Pseudoephedrine is a nasal decongestant, originally used for allergic rhinitis, the common cold and related upper airway conditions.
+The TxGNN model predicts it may be effective for **nasal cavity disease**, supported by **no registered clinical trials** and **7 publications** (reviews, a comparative pharmacology study and animal models).
+This prediction largely overlaps with existing uses, so it is not a true repurposing opportunity.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, nasopharyngitis, conjunctivitis (atopic, papillary, vernal), headache disorder (from the knowledge graph; no approved indication text is available in the Singapore licence records) |
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 99.75% |
-| Evidence Level | L2 |
+| Evidence Level | L3 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 20 |
 | Recommended Decision | Proceed with Guardrails |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Pseudoephedrine is an indirect sympathomimetic with alpha-adrenergic activity. It constricts blood vessels in the nasal mucosa and reduces swelling and congestion. That mechanism fits nasal cavity disease well. Detailed mechanism-of-action data is not yet available in the Evidence Pack, so this explanation rests on the known pharmacology of the drug.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, pseudoephedrine is an indirect sympathomimetic with alpha-adrenergic activity. It constricts blood vessels in the nasal mucosa and reduces swelling and congestion. This is the basis of its existing use in rhinitis and the common cold.
 
-The registration records do not list an original approved indication. Nasal decongestion is already a well-established use of pseudoephedrine. The prediction is therefore probably a recovery of a labeled use, not a new discovery. Check the current labeling before treating it as a repurposing candidate.
+"Nasal cavity disease" is a broad category that covers the conditions pseudoephedrine already treats. The supporting literature includes a comparative study of oral and topical decongestant effects (pseudoephedrine versus phenylpropanolamine, measured by acoustic rhinometry), a review of nonallergic rhinitis, and several animal models of nasal congestion. The mechanism fits well, but the new indication adds little beyond what is already established.
+
+Other predictions for this drug (for example acute laryngopharyngitis, allergic urticaria, trigeminal autonomic cephalalgia, rosacea conjunctivitis, cold urticaria, faucial diphtheria, cervical disc degenerative disorder, massive neonatal aspiration syndrome and bronchial disease) have weak or no supporting evidence and are rated Hold or Research Question. Many appear to be artefacts of graph proximity to the approved indications.
+
+---
 
 ## Clinical Trial Evidence
 
-The table shows the 10 most relevant of the 19 retrieved trials. None reports efficacy results for pseudoephedrine in the retrieved data, so the findings below describe study designs only.
+Currently no related clinical trials registered for nasal cavity disease.
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00804687](https://clinicaltrials.gov/study/NCT00804687) | Phase 2 | Completed | 53 | Randomized, double-blind, placebo-controlled three-way crossover comparing JNJ-39220675, pseudoephedrine and placebo in allergic rhinitis, using an environmental exposure chamber |
-| [NCT00562120](https://clinicaltrials.gov/study/NCT00562120) | Phase 2 | Completed | 21 | Four-way crossover of an H3 antagonist on nasal congestion after allergen challenge in seasonal allergic rhinitis. The pseudoephedrine arm is unconfirmed |
-| [NCT03620513](https://clinicaltrials.gov/study/NCT03620513) | Phase 4 | Completed | 160 | Topical anesthesia versus decongestant for discomfort during fiberoptic nasopharyngoscopy. The decongestant agent is not specified |
-| [NCT01886768](https://clinicaltrials.gov/study/NCT01886768) | N/A | Unknown | 212 | Double versus single pledget nasal anesthesia for transnasal endoscopy. This is a procedural study with no disease-efficacy signal |
-| [NCT00517946](https://clinicaltrials.gov/study/NCT00517946) | N/A | Completed | 21 | MRI as a method for measuring anti-allergy drug effects on nasal anatomy. This is a technique evaluation, and pseudoephedrine involvement is unconfirmed |
-| [NCT05494346](https://clinicaltrials.gov/study/NCT05494346) | N/A | Recruiting | 101 | Decongestant seawater spray with essential oils for acute rhinitis with nasal obstruction. It is a non-drug comparator |
-| [NCT06580210](https://clinicaltrials.gov/study/NCT06580210) | N/A | Recruiting | 114 | Post-market study of a mechanical decongestant seawater spray for acute rhinitis. It is a non-drug comparator |
-| [NCT05177445](https://clinicaltrials.gov/study/NCT05177445) | N/A | Unknown | 40 | Phototherapy plus olfactory training and corticoids for post-COVID smell loss |
-| [NCT04048174](https://clinicaltrials.gov/study/NCT04048174) | N/A | Completed | 27 | Lactococcus lactis probiotic for refractory chronic rhinosinusitis |
-| [NCT00015795](https://clinicaltrials.gov/study/NCT00015795) | Phase 1 | Completed | 30 | Laryngeal resistance in abductor spasmodic dysphonia. The indication differs and the link to nasal disease is weak |
+---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [11345158](https://pubmed.ncbi.nlm.nih.gov/11345158/) | 2001 | Clinical comparative study | Am J Rhinol | Compared oral and topical decongestant effects of phenylpropanolamine and d-pseudoephedrine using acoustic rhinometry to measure nasal cavity dimensions |
-| [22794679](https://pubmed.ncbi.nlm.nih.gov/22794679/) | 2012 | Review | Allergy Asthma Proc | Overview of nonallergic rhinitis, which shares symptoms of nasal congestion and rhinorrhea |
-| [19769798](https://pubmed.ncbi.nlm.nih.gov/19769798/) | 2009 | Preclinical (feline model) | Am J Rhinol Allergy | Loratadine and montelukast produced decongestion in a feline model. d-Pseudoephedrine was also studied with and without desloratadine |
-| [12387934](https://pubmed.ncbi.nlm.nih.gov/12387934/) | 2002 | Preclinical (dog model) | J Pharmacol Toxicol Methods | Characterized a chronic dog model of nasal congestion for studying decongestant mechanisms |
-| [11895194](https://pubmed.ncbi.nlm.nih.gov/11895194/) | 2002 | Preclinical (dog model) | Am J Rhinol | Developed a dog model of nasal congestion measured by acoustic rhinometry |
-| [12962193](https://pubmed.ncbi.nlm.nih.gov/12962193/) | 2003 | Preclinical (dog model) | Am J Rhinol | Model of allergic nasal congestion in ragweed-sensitized dogs |
+| [22794679](https://pubmed.ncbi.nlm.nih.gov/22794679/) | 2012 | Review | Allergy Asthma Proc | Nonallergic rhinitis: inflammatory and noninflammatory causes, sharing congestion, rhinorrhoea and sneezing |
+| [11345158](https://pubmed.ncbi.nlm.nih.gov/11345158/) | 2001 | Clinical pharmacology study | Am J Rhinol | Compared oral and topical decongestant effects of phenylpropanolamine and d-pseudoephedrine on nasal cavity dimensions using acoustic rhinometry |
+| [19769798](https://pubmed.ncbi.nlm.nih.gov/19769798/) | 2009 | Preclinical (cat model) | Am J Rhinol Allergy | Loratadine and montelukast combination produced decongestion; d-pseudoephedrine also studied as an alpha-agonist decongestant |
+| [24492651](https://pubmed.ncbi.nlm.nih.gov/24492651/) | 2014 | Preclinical (animal models) | J Pharmacol Exp Ther | Selective alpha2c-adrenergic agonists evaluated in nasal congestion models |
+| [12962193](https://pubmed.ncbi.nlm.nih.gov/12962193/) | 2003 | Preclinical (dog model) | Am J Rhinol | Model of allergic nasal congestion in ragweed-sensitised dogs, using acoustic rhinometry |
+| [12387934](https://pubmed.ncbi.nlm.nih.gov/12387934/) | 2002 | Preclinical (dog model) | J Pharmacol Toxicol Methods | Pharmacological characterisation of a chronic dog model of nasal congestion |
+| [11895194](https://pubmed.ncbi.nlm.nih.gov/11895194/) | 2002 | Preclinical (dog model) | Am J Rhinol | Acoustic rhinometry developed as a large-animal model of nasal congestion |
+
+---
 
 ## Singapore Market Information
 
-There are 20 registrations in total. The registration records contain no approved-indication text. The table shows 5 of them.
+Pseudoephedrine has 20 valid single-ingredient registrations in Singapore, with no cancelled licences. The approved indication text is not available in the licence records. Examples:
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN03178P | PSEUDORINE TABLETS 60 mg | Tablet | Sunward Pharmaceutical Private Limited |
-| SIN09453P | DECONDINE TABLET | Tablet, film coated | Sunward Pharmaceutical Private Limited |
-| SIN12470P | DE-COLD S.R.F.C TABLETS | Tablet, film coated | China Chemical & Pharmaceutical Co Ltd |
-| SIN07964P | BECAME TABLET | Tablet | Y S P Industries (M) Sdn Bhd |
-| SIN03116P | FEDAC TABLET | Tablet | PT Actavis Indonesia |
+| SIN03178P | PSEUDORINE TABLETS 60 mg | Tablet | Not stated in the records |
+| SIN09453P | DECONDINE TABLET | Film-coated tablet | Not stated in the records |
+| SIN07282P | CLARITYN-D 12HOUR REPETABS | Sugar-coated tablet | Not stated in the records |
+| SIN13139P | ZYRTEC-D | Film-coated tablet | Not stated in the records |
+| SIN12071P | TELFAST D TABLET | Film-coated tablet | Not stated in the records |
 
-Registered forms across all licenses include tablets, film-coated tablets, sugar-coated tablets, capsules and syrup.
+Available forms include tablets, film-coated tablets, sugar-coated tablets, capsules and syrups.
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Package insert warnings and contraindications have not been retrieved for this drug, and no drug interaction records were found.
+- **Contraindications flagged in the knowledge graph (not label text):** hypertension, coronary artery disease, stroke and cerebrovascular disorder, congestive heart failure, diabetes mellitus and diabetic ketoacidosis, hypothyroidism, benign prostatic hyperplasia, liver and kidney disease, epilepsy, COPD, peptic ulcer disease, inflammatory bowel disease, blood coagulation disease and substance abuse or dependence, among others.
+- **Drug Interactions:** 100 interactions were identified. The ones listed are mostly moderate and involve antidiabetic agents, including acarbose, acetohexamide, alogliptin, canagliflozin, chlorpropamide, dapagliflozin, empagliflozin, exenatide, glimepiride, glipizide, glyburide and several insulins. Diethylpropion (moderate) and ascorbic acid (minor) are also listed.
+- **Case reports in the literature:** posterior reversible encephalopathy syndrome after a pseudoephedrine-containing cold medicine, and myocardial infarction from coronary vasospasm linked to pseudoephedrine use.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The mechanism clearly fits nasal congestion, and two completed Phase 2 randomized crossover studies are in the allergic rhinitis setting. However, pseudoephedrine's role in the retrieved trials is unconfirmed, and the prediction is probably an existing labeled use. Other predicted indications (for example allergic urticaria and bronchial disease) have weaker or no support and are on Hold.
+The predicted indication, nasal cavity disease, is essentially the same as pseudoephedrine's established use as a nasal decongestant, and the mechanism is well understood. The supplied evidence, however, is limited to reviews, one pharmacology study and animal models, with no registered trials. The cardiovascular and metabolic cautions are significant, so any expansion should be tightly bounded.
 
 **To proceed, the following is needed:**
-- Singapore package insert warnings and contraindications (a blocking gap for safety screening)
-- Confirmation of the currently approved indication, to decide whether this is a true repurposing candidate
-- Confirmation of the pseudoephedrine arms and endpoints in NCT00804687 and NCT00562120
-- Detailed mechanism-of-action data from DrugBank
+- Package insert warnings and contraindications from the Singapore regulator (HSA), since the current safety information comes only from the knowledge graph
+- Mechanism of action data from DrugBank
+- Approved indication text for the Singapore licences
+- Clinical (ideally randomised) evidence for specific nasal conditions beyond those already labelled
+- A cardiovascular and drug-interaction risk review for patients with hypertension, heart disease or diabetes
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

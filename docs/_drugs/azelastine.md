@@ -33,15 +33,16 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Azelastine is an antihistamine that is marketed in Singapore as nasal sprays, and the trials in this pack studied it in allergic rhinitis. The TxGNN model predicts it may be effective for **rosacea conjunctivitis**, but **0 clinical trials** and **0 publications** currently support this. It is a model-only prediction.
+Azelastine is an antihistamine nasal spray originally used for allergic and vasomotor rhinitis and for allergic forms of conjunctivitis.
+The TxGNN model predicts it may be effective for **rosacea conjunctivitis**, but **no clinical trials and no publications** currently support this specific prediction, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic rhinitis (inferred: the HSA records supplied have no indication text, so this comes from the nasal spray products and the rhinitis trials in the pack) |
+| Original Indication | Allergic rhinitis, vasomotor rhinitis, atopic / papillary / vernal conjunctivitis (from the knowledge graph, because the Singapore licence records contain no indication text) |
 | Predicted New Indication | Rosacea conjunctivitis |
-| TxGNN Prediction Score | 98.60% |
+| TxGNN Prediction Score | 98.6% |
 | Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 2 |
@@ -49,9 +50,9 @@ Azelastine is an antihistamine that is marketed in Singapore as nasal sprays, an
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in DrugBank for this pack. Azelastine is known as an H1-receptor antagonist that also stabilises mast cells and inhibits mediator release. The high score most likely comes from the model's graph proximity to allergic conjunctivitis, where azelastine is well studied.
+Detailed mechanism-of-action data for azelastine is not available in the data compiled for this report. Azelastine is generally known as an H1-receptor antagonist with mast cell-stabilizing and anti-inflammatory effects. These properties could plausibly relieve ocular surface inflammation, which is why the model links it to conjunctivitis-type diseases.
 
-This link is weak for rosacea conjunctivitis. Ocular disease in rosacea is driven mainly by meibomian gland dysfunction and inflammation, not histamine. Antihistamine activity would therefore be expected to help at most with an allergic component or with symptoms, and no study confirms even that.
+The relationship to the original indications is only partial. Azelastine is already used for allergic conjunctivitis, so a high graph-based score for a related eye condition is not surprising. Rosacea-associated conjunctivitis, however, is driven mainly by meibomian gland dysfunction, innate immune activation and microbial factors rather than by histamine. An antihistamine may relieve symptoms at most, and there is no direct evidence that it modifies this disease. The mechanistic link is therefore unsupported.
 
 ## Clinical Trial Evidence
 
@@ -63,34 +64,40 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15255P | DYMISTA NASAL SPRAY (Cipla Limited) | Spray, metered | Not stated in the record |
-| SIN15256P | SYNAZE NASAL SPRAY (Cipla Limited) | Spray, metered | Not stated in the record |
+Both registrations are valid, single-ingredient products from the same manufacturer. No approved indication text is recorded for either.
 
-Both products are nasal sprays. No ophthalmic azelastine product appears in the Singapore records supplied.
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN15255P | DYMISTA NASAL SPRAY | Spray, metered | Cipla Limited |
+| SIN15256P | SYNAZE NASAL SPRAY | Spray, metered | Cipla Limited |
+
+Both products are nasal sprays. No ophthalmic formulation is registered in Singapore, so there is currently no local product suited to an eye indication.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interactions were found in the queried data.
+- **Contraindication signals from the knowledge graph** (not taken from product label text): kidney disease and pyoureter.
+- **Drug Interactions**: 87 potential interacting drugs were identified, but none has a severity grading. Examples include epinephrine, acetylsalicylic acid, omeprazole, pantoprazole, metformin, simvastatin, rosuvastatin, clarithromycin, prednisone, dexamethasone, budesonide and bupropion.
+
+Please refer to the package insert for label warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical trials, no literature and only a model score, and the mechanism does not fit rosacea-related ocular disease well. Singapore has only nasal spray products, so there is no matching route of administration.
+The prediction score is high (98.6%), but there are no trials, no literature and no convincing mechanistic link between a histamine-blocking drug and rosacea conjunctivitis. Evidence is at L5 (model prediction only). Neither registered Singapore product is an eye formulation.
+
+Other predictions for this drug:
+- **Allergic urticaria** (L4, Hold): the evidence is only class-level reviews of H1 antihistamines. No azelastine-specific efficacy was shown, and systemic exposure from a topical product is uncertain.
+- **Conjunctivitis, unspecified** (L1 by trial count): this is not a true repurposing signal. The supporting Phase 3 trial (NCT06212973) and several RCTs concern allergic conjunctivitis, which is already an approved indication. Azelastine may also have been only the active comparator in that Phase 3 trial.
+- **Other conjunctivitis subtypes** (viral, parasitic, pseudomembranous, follicular, serous, Angelucci syndrome): prediction only, with poor mechanistic fit and no evidence.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- Any clinical or preclinical evidence of azelastine in rosacea-associated ocular disease
-- A route assessment, since ocular use would need an ophthalmic formulation that is not registered in Singapore
-
-**Other predictions in this pack (for context):**
-- **Conjunctivitis (rank 10, score 91.15%, L2, Proceed with Guardrails):** This has direct randomised evidence for topical azelastine in allergic conjunctivitis (PMIDs 12841925, 12841924, 12658084) and a Cochrane review (PMID 26028608). It is most likely an existing labeled use rather than a new finding. The claim should be limited to allergic conjunctivitis and the labeled ophthalmic indication confirmed.
-- **Allergic urticaria (rank 2, score 96.23%, L4, Research Question):** The rationale is biologically strong, but all 10 trials listed are in allergic rhinitis, not urticaria.
-- **Ranks 3 to 9 (other conjunctivitis subtypes):** All are L5 with no evidence, and several are infectious rather than histamine-driven.
+- Detailed mechanism of action data (MOA)
+- Evidence that histamine or mast cells contribute to rosacea conjunctivitis, for example preclinical or small exploratory clinical studies
+- Information on ophthalmic formulation and route compatibility, since only nasal sprays are registered in Singapore
+- Label-based warnings and contraindications from the package insert
+- Severity grading of the identified drug interactions
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

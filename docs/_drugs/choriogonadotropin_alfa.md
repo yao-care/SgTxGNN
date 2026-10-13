@@ -2,7 +2,7 @@
 layout: default
 title: Choriogonadotropin Alfa
 parent: Low Evidence (L5)
-nav_order: 244
+nav_order: 246
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,18 +29,18 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Choriogonadotropin alfa: From an Unrecorded Original Indication to Peptic Esophagitis
+# Choriogonadotropin alfa: From an Unspecified Original Indication to Peptic Esophagitis
 
 ## One-Sentence Summary
 
-Choriogonadotropin alfa is a recombinant human chorionic gonadotropin (hCG) that acts as an LH/CG receptor agonist, and it is marketed in Singapore as Ovidrel. The evidence pack does not record its original approved indication.
-The TxGNN model predicts it may be effective for **peptic esophagitis**, but **0 clinical trials** and **0 publications** currently support this prediction, so it is a model-only signal.
+Choriogonadotropin alfa is a recombinant human chorionic gonadotropin (hCG) marketed in Singapore as an injectable (Ovidrel), and the registration record compiled for this report does not list an approved indication.
+The TxGNN model predicts it may be effective for **peptic esophagitis**, but **0 clinical trials** and **0 publications** currently support this direction, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded (the registration record has no indication text) |
+| Original Indication | Not stated in the registration data |
 | Predicted New Indication | Peptic esophagitis |
 | TxGNN Prediction Score | 98.44% |
 | Evidence Level | L5 |
@@ -50,11 +50,11 @@ The TxGNN model predicts it may be effective for **peptic esophagitis**, but **0
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Choriogonadotropin alfa is a recombinant hCG that acts on the LH/CG receptor. Because the original indication is also missing, the relationship between the original and predicted indications cannot be assessed.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. From general pharmacology, choriogonadotropin alfa is a recombinant hCG that activates the LH/hCG receptor (LHCGR) to trigger ovulation and support gonadal steroid production.
 
-No mechanistic link between LH/CG receptor signalling and peptic esophagitis has been established. The score of 0.984 (rank 14,584) is a graph-based prediction only, with no supporting trial or literature data.
+No plausible mechanistic link to peptic esophagitis was identified. Esophageal inflammation from acid reflux is not known to involve LHCGR signaling. The high score (0.984) is a knowledge-graph prediction and most likely reflects graph proximity rather than a biological rationale. No trials or publications back it up.
 
-The other top-10 predictions fall into two clusters: esophageal conditions (esophageal disease, esophageal ulcer, esophageal malformation) and cardiac conduction or vascular conditions (sinoatrial block, His bundle tachycardia, Raynaud disease, and others). The clustering suggests a shared graph-neighbourhood signal rather than independent support. None of these predictions has trial or literature evidence either.
+The other top predictions show the same pattern. They include postural orthostatic tachycardia syndrome, esophageal disease, Raynaud disease, esophageal ulcer and malformation, and several cardiac conduction disorders (sinoatrial block, sinoatrial node disease, His bundle tachycardia, progressive familial heart block). All of them have no clinical or literature evidence and no identified mechanism. The esophageal and conduction-disorder predictions appear to cluster in the knowledge graph rather than provide independent signals.
 
 ## Clinical Trial Evidence
 
@@ -68,25 +68,27 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN13015P | Ovidrel Solution for Injection 250 mcg (Merck Serono S.p.A.) | Injection, solution | Not listed in the registration record |
+| SIN13015P | Ovidrel Solution for Injection 250 mcg (Merck Serono S.p.A.) | Injection, solution | Not stated in the registration data |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
+
+No drug-interaction records were found, and no disease contraindications were identified from the knowledge graph. The absence of records does not demonstrate safety. For the cardiac conduction predictions in particular, a gonadotropin has no known antiarrhythmic effect, so any use there would raise safety questions.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the model score, with no clinical trials, no literature, and no verifiable mechanism (Evidence Level L5, stage S0). Safety data are also missing, so the candidate cannot advance to safety screening.
+The prediction is computational only (L5). No trials or publications support it, and no mechanistic link between LHCGR agonism and esophageal disease was identified. The package insert warnings and contraindications are also unavailable, so safety screening cannot proceed.
 
 **To proceed, the following is needed:**
-- The HSA package insert (warnings and contraindications), which is currently the blocking gap
-- The mechanism of action and the original approved indication, for example from DrugBank
-- A targeted search for trials and literature on peptic esophagitis and related esophageal conditions
-- A safety review before any cardiac-related prediction is considered
-- Route compatibility assessment, since only an injectable form is registered
+- The Singapore package insert, to obtain the approved indication, warnings and contraindications
+- Mechanism of action data
+- A plausible biological rationale for LHCGR involvement in esophageal mucosal disease, supported by preclinical or literature evidence
+- A route and formulation compatibility assessment, since the available product is an injectable
+- A re-review of the remaining predicted indications if new evidence emerges
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

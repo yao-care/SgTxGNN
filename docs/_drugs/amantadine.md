@@ -29,13 +29,14 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Amantadine: From Original Indication Not Recorded to Rasmussen Subacute Encephalitis
+# Amantadine: From Parkinson Disease to Rasmussen Subacute Encephalitis
 
 ## One-Sentence Summary
 
-Amantadine is an oral capsule marketed in Singapore as SYMMETREL 100, but the supplied HSA record does not state its approved indication.
-The TxGNN model predicts it may be effective for **Rasmussen subacute encephalitis** (score 99.48%),
-but **0 clinical trials** and **0 publications** were retrieved, so this is a model prediction only.
+Amantadine is an oral medicine originally used for Parkinson disease and related parkinsonian and movement disorders.
+The TxGNN model predicts it may be effective for **Rasmussen subacute encephalitis**,
+but **no clinical trials and no publications** currently support this specific prediction (it is prediction-only evidence).
+Among the other top-ranked predictions, **myelitis** (post-polio fatigue) and **Lewy body dementia** have the most supporting literature.
 
 ---
 
@@ -43,10 +44,10 @@ but **0 clinical trials** and **0 publications** were retrieved, so this is a mo
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the supplied HSA record |
+| Original Indication | Parkinson disease and related parkinsonian disorders (the Singapore licence record contains no indication text) |
 | Predicted New Indication | Rasmussen subacute encephalitis |
 | TxGNN Prediction Score | 99.48% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
@@ -55,23 +56,64 @@ but **0 clinical trials** and **0 publications** were retrieved, so this is a mo
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Amantadine's known pharmacology, as noted elsewhere in the evidence pack, includes NMDA-receptor antagonism, dopaminergic modulation and M2 ion channel inhibition.
+Currently, detailed mechanism of action data is not available. Based on known information, amantadine is an oral agent used in Parkinson disease and related movement disorders. Its effects are generally attributed to dopaminergic modulation and NMDA (glutamate) receptor antagonism.
 
-The only mechanistic link on file is speculative. NMDA-receptor antagonism might protect against excitotoxic or immune-mediated neuronal injury, which is the kind of damage seen in Rasmussen encephalitis. No trial, case report or study in the retrieved data supports this. The relationship to the drug's original indication cannot be assessed because that indication is not recorded.
+Rasmussen encephalitis is a rare inflammatory brain disease in which glutamate receptor-mediated excitotoxicity and autoimmunity have been discussed. A theoretical link through NMDA antagonism therefore exists. However, the data compiled for this report contain no trials or publications to support it, so this remains a model-derived hypothesis.
 
-The high TxGNN score reflects knowledge-graph similarity, not clinical evidence, and it should not be read as evidence of efficacy.
+**Other high-ranking predictions (for context)**
+
+| Predicted Indication | Score | Evidence Level | Comment |
+|------|------|------|------|
+| Myelitis | 99.24% | L3 | Literature is mostly on post-polio syndrome fatigue; indirect for myelitis in general |
+| PLA2G6-associated neurodegeneration | 99.23% | L4 | Only a case report in a related disorder (PKAN) |
+| Lewy body dementia | 97.83% | L3 | Shares parkinsonism with the approved use; direct amantadine evidence is limited |
+| Progressive supranuclear palsy-corticobasal syndrome | 97.77% | L4 | One review and one peripheral gait-analysis study |
+| Juvenile parkinsonism (Hunt type) | 97.86% | L5 | Overlaps with existing parkinsonian indications, so likely label extension rather than true repurposing |
+| Transaldolase deficiency, fructose-1,6-bisphosphatase deficiency, two X-linked intellectual disability syndromes | 97.0–99.3% | L5 | Prediction-only; no plausible mechanistic link, likely knowledge-graph artefacts |
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for Rasmussen subacute encephalitis.
+
+For reference, the only registered study found among the top 10 predictions relates to progressive supranuclear palsy-corticobasal syndrome:
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT02994719](https://clinicaltrials.gov/study/NCT02994719) | N/A | Active, not recruiting | 120 | Observational gait-pattern analysis in neurological disease, particularly parkinsonian disorders; does not test amantadine efficacy |
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for Rasmussen subacute encephalitis.
+
+For reference, the most relevant publications for the next-ranked predictions:
+
+**Myelitis (post-polio syndrome)**
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [7611638](https://pubmed.ncbi.nlm.nih.gov/7611638/) | 1995 | RCT | Ann N Y Acad Sci | Double-blind, placebo-controlled trial of amantadine for fatigue in post-polio syndrome; 23 patients completed 6 weeks |
+| [25984923](https://pubmed.ncbi.nlm.nih.gov/25984923/) | 2015 | Systematic review | Cochrane Database Syst Rev | Treatment for post-polio syndrome; effectiveness of drug treatment not yet established |
+| [16879288](https://pubmed.ncbi.nlm.nih.gov/16879288/) | 2006 | Guideline | Eur J Neurol | EFNS guideline on diagnosis and management of post-polio syndrome |
+| [2039376](https://pubmed.ncbi.nlm.nih.gov/2039376/) | 1991 | Case series | Arch Neurol | Post-polio fatigue treated with amantadine |
+
+**Lewy body dementia**
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [26085043](https://pubmed.ncbi.nlm.nih.gov/26085043/) | 2015 | Systematic review/meta-analysis | Am J Psychiatry | Pharmacological management of Lewy body dementia; amantadine-specific findings not available |
+| [18644910](https://pubmed.ncbi.nlm.nih.gov/18644910/) | 2008 | Review | Pract Neurol | Hallucinations in Parkinson disease; amantadine and anticholinergics can trigger hallucinosis |
+| [26689073](https://pubmed.ncbi.nlm.nih.gov/26689073/) | 2015 | Case report | Masui | Neuroleptic malignant syndrome in undiagnosed Lewy body dementia in a patient on amantadine |
+
+**PLA2G6-associated neurodegeneration and atypical parkinsonism**
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [31366412](https://pubmed.ncbi.nlm.nih.gov/31366412/) | 2019 | Case report/small series | Can J Neurol Sci | Amantadine for gait dysfunction in PKAN (a related, but different, disorder) |
+| [30051337](https://pubmed.ncbi.nlm.nih.gov/30051337/) | 2018 | Review | CNS Drugs | Therapeutic management of overlapping atypical parkinsonism syndromes |
 
 ---
 
@@ -79,13 +121,20 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN01481P | SYMMETREL 100 CAPSULE 100 mg (Catalent Germany Eberbach GmbH) | Capsule (oral) | Not stated in the supplied record |
+| SIN01481P | SYMMETREL 100 CAPSULE 100 mg (Catalent Germany Eberbach GmbH) | Capsule (oral) | Not stated in the available record |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No warnings, contraindications or drug interaction data were available in the supplied records.
+- **Contraindications flagged in the knowledge graph (not label text):** multiple system atrophy, postural orthostatic tachycardia syndrome, orthostatic hypotension, epilepsy, kidney disease, pyoureter, congestive heart failure, psychotic and related disorders (schizophreniform, schizoaffective, mental disorder), melanoma, angle-closure glaucoma, substance-related disorders, and atopic eczema/dermatitis. These should be verified against the official package insert.
+- **Drug Interactions:** 93 interactions were identified. Main ones listed:
+  - **Major:** Bupropion
+  - **Moderate:** anticholinergic agents (atropine, clidinium, dicyclomine, glycopyrronium, hyoscyamine, mepenzolate, methscopolamine, propantheline, scopolamine, trospium), metoclopramide, polyethylene glycol (3350 with electrolytes), picosulfuric acid, sodium sulfate
+  - **Unknown severity:** calcitriol, pantoprazole, glimepiride, doxycycline, metformin
+- **Population caution (from the literature):** amantadine can worsen hallucinations and confusion in susceptible older patients, which is particularly relevant for Lewy body dementia.
+
+Please refer to the package insert for the official warnings, as these were not available in the data compiled for this report.
 
 ---
 
@@ -94,16 +143,14 @@ Please refer to the package insert for safety information. No warnings, contrain
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on the TxGNN score alone (L5). No trials or publications were found for Rasmussen subacute encephalitis, no plausible mechanistic support is documented, and the HSA safety and indication information is missing. This is a blocking gap for safety screening.
+The top-ranked prediction, Rasmussen subacute encephalitis, has a very high model score but no trials or literature, so it is evidence level L5. Several lower-ranked predictions (myelitis/post-polio fatigue, Lewy body dementia) have more evidence (L3) and may be better research questions. Even so, that evidence is indirect, mostly reviews or small studies.
 
 **To proceed, the following is needed:**
-- Download and parse the HSA package insert (approved indication, warnings, contraindications).
-- Retrieve the mechanism of action and original indications from DrugBank (DB00915).
-- Run a targeted search for amantadine and Rasmussen encephalitis, including case series and preclinical work.
-- Consider prioritising other candidates from the same run that have more supporting evidence:
-  - Lewy body dementia (rank 7): class-level memantine evidence only.
-  - PLA2G6-associated neurodegeneration (rank 4): one related amantadine paper in a different NBIA subtype.
-  - Progressive supranuclear palsy-corticobasal syndrome (rank 9): amantadine appears in an atypical parkinsonism management review.
+- Package insert warnings and contraindications from HSA (a blocking gap for safety screening)
+- Mechanism of action data (e.g. from DrugBank)
+- A targeted literature search on amantadine in Rasmussen encephalitis
+- For Lewy body dementia and post-polio fatigue: extraction of amantadine-specific findings from the existing reviews and the 1995 RCT
+- A review of safety risks (hallucinations, confusion) for older or cognitively impaired populations
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

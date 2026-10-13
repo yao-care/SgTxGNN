@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Misoprostol
-parent: Low Evidence (L5)
-nav_order: 674
-evidence_level: L5
+parent: Medium Evidence (L3-L4)
+nav_order: 681
+evidence_level: L4
 indication_count: 10
 ---
 
 # Misoprostol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,89 +29,84 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Misoprostol: From an Unlisted Original Indication to Amenorrhea
+# Misoprostol: From Gastric Ulcer Prevention to Amenorrhea
 
 ## One-Sentence Summary
 
-Misoprostol is a prostaglandin E1 analog marketed in Singapore as Cytotec 200 mcg tablets. The approved indication text is not recorded in the source data.
-The TxGNN model predicts it may be effective for **amenorrhea**, but the retrieved evidence is only indirect: **0 clinical trials** and **7 publications**, none of which tests misoprostol as a treatment for amenorrhea.
-
----
+Misoprostol is a prostaglandin E1 analogue, marketed in Singapore as Cytotec tablets, and it is best known for protecting the stomach lining. The TxGNN model predicts it may be effective for **amenorrhea**, with **0 registered clinical trials** and **7 publications** currently retrieved. Those publications mainly cover medical abortion and do not test misoprostol as a treatment for amenorrhea, so the evidence is weak.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not listed in the Singapore licence record |
+| Original Indication | Not stated in the Singapore licence data compiled for this report |
 | Predicted New Indication | Amenorrhea |
 | TxGNN Prediction Score | 99.64% |
-| Evidence Level | L4 (indirect, mechanism-level and off-target clinical data only) |
+| Evidence Level | L4 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Misoprostol is a prostaglandin E1 analog that causes uterine contraction and cervical ripening. Its known effects on the uterus explain why the model links it to gynaecological conditions.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, misoprostol is a prostaglandin E1 analogue. It causes uterine contraction and cervical ripening, and it also protects the gastric mucosa.
 
-The retrieved papers all concern medical abortion or missed abortion, where misoprostol is used to induce bleeding and expel pregnancy tissue. In those studies "amenorrhea" is only a gestational-age criterion (for example, "amenorrhea ≤35 days"), not a disease being treated. No study evaluates misoprostol for treating amenorrhea.
+The retrieved literature concerns medical abortion (mifepristone plus misoprostol), missed abortion and abnormal uterine bleeding. Amenorrhea appears in these papers mostly as a description of gestational age (for example "amenorrhea ≤35 days"), not as a condition being treated. Misoprostol acts on the uterus and may help with retained products or pregnancy-related causes of absent menses. It has no established role in treating amenorrhea itself.
 
-The high TxGNN score is therefore probably driven by the shared uterine and pregnancy-related neighborhood in the knowledge graph, not by therapeutic evidence. There is also a directional concern: misoprostol induces uterine bleeding and pregnancy loss, and it is not known to restore menstrual function.
-
----
+The very high TxGNN score is a computational prediction. No clinical evidence in the data supports it for this indication.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [27678099](https://pubmed.ncbi.nlm.nih.gov/27678099/) | 2017 | RCT | Reproductive Sciences | 744 women with ultra-early pregnancy (amenorrhea ≤35 days) received low-dose mifepristone plus hospital-administered or self-administered misoprostol for medical abortion. Off-topic for amenorrhea treatment. |
-| [25394644](https://pubmed.ncbi.nlm.nih.gov/25394644/) | 2015 | RCT | Reproductive Sciences | Dose-ranging trial in 2,500 women. Mifepristone 50–150 mg followed by misoprostol 200 µg was tested for ultra-early pregnancy termination. Off-topic for amenorrhea treatment. |
-| [26405260](https://pubmed.ncbi.nlm.nih.gov/26405260/) | 2015 | Clinical study | Human Reproduction | Low-dose mifepristone plus misoprostol before expected menstruation to prevent unintended pregnancy. Design not confirmed. |
-| [29974571](https://pubmed.ncbi.nlm.nih.gov/29974571/) | 2018 | Clinical study | J Obstet Gynaecol Res | Safety and efficacy of self-administered misoprostol with low-dose mifepristone for early pregnancy termination. |
-| [1486304](https://pubmed.ncbi.nlm.nih.gov/1486304/) | 1992 | Clinical study / review | BMJ | Medical management of missed abortion and anembryonic pregnancy. No abstract available. |
-| [26001691](https://pubmed.ncbi.nlm.nih.gov/26001691/) | 2015 | Review | J Obstet Gynaecol Can | Endometrial ablation for abnormal uterine bleeding. Off-topic. |
-| [37113350](https://pubmed.ncbi.nlm.nih.gov/37113350/) | 2023 | Case report | Cureus | Acute fatty liver of pregnancy presenting with amenorrhea. Off-topic. |
+| [25394644](https://pubmed.ncbi.nlm.nih.gov/25394644/) | 2015 | Dose-ranging RCT | Reprod Sci | Lower doses of mifepristone (150 to 50 mg) followed by 200 µg oral misoprostol in 2,500 women with ultra-early pregnancy (amenorrhea ≤35 days); primary endpoint was complete abortion |
+| [27678099](https://pubmed.ncbi.nlm.nih.gov/27678099/) | 2017 | RCT | Reprod Sci | Low-dose mifepristone with self-administered misoprostol for ultra-early medical abortion; 744 women compared hospital vs self-administration |
+| [26405260](https://pubmed.ncbi.nlm.nih.gov/26405260/) | 2015 | Cohort | Hum Reprod | Low-dose mifepristone plus misoprostol before expected menstruation to maintain or restore non-pregnant status |
+| [29974571](https://pubmed.ncbi.nlm.nih.gov/29974571/) | 2018 | Cohort | J Obstet Gynaecol Res | Safety and efficacy of low-dose mifepristone with self-administered misoprostol for early pregnancy termination |
+| [1486304](https://pubmed.ncbi.nlm.nih.gov/1486304/) | 1992 | Review | BMJ | Medical management of missed abortion and anembryonic pregnancy |
+| [26001691](https://pubmed.ncbi.nlm.nih.gov/26001691/) | 2015 | Review | J Obstet Gynaecol Can | Endometrial ablation in the management of abnormal uterine bleeding |
+| [37113350](https://pubmed.ncbi.nlm.nih.gov/37113350/) | 2023 | Case report | Cureus | Acute fatty liver of pregnancy presenting with amenorrhea; not a misoprostol efficacy study |
 
----
+All of these papers concern pregnancy termination or related conditions. None shows that misoprostol treats amenorrhea.
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN03501P | CYTOTEC TABLET 200 mcg (Piramal Healthcare UK Limited) | Tablet (oral) | — |
-
----
+| SIN03501P | CYTOTEC TABLET 200 mcg | Tablet (oral) | Not specified in the data compiled |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No warnings, contraindications, or drug-interaction records were retrieved (the interaction query returned no results).
+- **Contraindication signals from the knowledge graph** (these come from drug-disease relationship data, not from the package insert): hypertension, liver failure or liver disease, gallbladder disease, congestive heart failure, inflammatory bowel disease, asthma, substance abuse/dependence, blood coagulation disease, stroke and cerebrovascular disorders, myocardial infarction and other cardiovascular disease, anaemia and haemoglobinopathy, drug-induced liver injury, active peptic ulcer disease, and non-infectious meningitis.
+- **Drug interactions:** 100 interactions were found in total. The first 20 reviewed include:
+  - **Major:** dinoprostone (topical)
+  - **Moderate:** magnesium-containing antacids (magnesium oxide, magnesium carbonate, magnesium hydroxide, magaldrate) and quinapril
+  - **Minor:** sodium citrate, aluminium hydroxide, calcium carbonate, sodium bicarbonate and naproxen
+  - **Unclassified:** goserelin, cyclosporine, cyanocobalamin, calcitriol, folic acid, pravastatin, valsartan, ramipril and lorazepam
+- **Pregnancy-related concern:** Prenatal misoprostol exposure has been associated with vascular disruption defects. Any use in women of reproductive age needs careful pregnancy exclusion.
 
-Misoprostol is a uterotonic with a recognised pregnancy-related risk, so any repurposing in women of reproductive age would need explicit pregnancy guardrails.
-
----
+Please refer to the package insert for the full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high, but no trial or publication tests misoprostol for amenorrhea. The retrieved literature concerns pregnancy termination, and the pharmacology (inducing uterine bleeding) does not point toward treating amenorrhea. The score appears to reflect graph proximity, not therapeutic evidence.
+The TxGNN score for amenorrhea is very high (99.64%), but no clinical trials exist and the retrieved literature is about medical abortion, not amenorrhea treatment. The package insert safety data and the mechanism of action are also missing, so the evidence is too weak to support further development for this indication.
 
 **To proceed, the following is needed:**
-- The HSA package insert (warnings, contraindications, approved indication), which is a blocking gap for safety screening
-- Mechanism of action data from DrugBank
-- Evidence that misoprostol treats or restores menstruation in amenorrhea, or a rationale for a specific amenorrhea subtype
-- Attention to other predictions in the same pack: esophageal disease (rank 6, L4) is the only one with a biologically coherent rationale. It rests on preclinical EP2 receptor work (PMID 25059824) and one case report (PMID 9820375), and no controlled trials exist.
+- Singapore package insert warnings, contraindications and approved indication text
+- Detailed mechanism of action data
+- Clinical evidence showing that misoprostol treats amenorrhea itself
+- A safety assessment for women of reproductive age, including pregnancy exclusion
 
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+**Other predicted indications:**
+- **Esophageal disease** (score 96.55%, L4, "Research Question") is the more plausible candidate. Misoprostol's mucosal protective action gives a biological link, and a retrospective report describes treating idiopathic esophageal ulceration in AIDS (PMID 9820375). However, the evidence is mainly reviews plus that case-level report, and proton pump inhibitors are the standard of care.
+- The remaining predictions have no clinical or literature support: atypical coarctation of aorta, aortic malformation, esophageal malformation, acne, primary hereditary glaucoma, open-angle glaucoma, congenital hypotrichosis milia, and a complex congenital heart defect. All remain at Hold.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

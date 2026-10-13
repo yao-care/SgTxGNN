@@ -33,13 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Alfentanil is a short-acting mu-opioid agonist injection used in anaesthesia and analgesia. The TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**, but there are currently **0 clinical trials** and **0 publications** supporting this direction. The prediction rests on the graph model alone.
+Alfentanil is a short-acting mu-opioid agonist given by injection, and it is marketed in Singapore. The TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis**, which is the top-ranked prediction. However, **no clinical trials and no publications** support this prediction, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration data (alfentanil is a short-acting opioid used for anaesthesia and analgesia) |
+| Original Indication | Not stated in the Singapore licence records (alfentanil is a mu-opioid agonist used as an injectable analgesic/anaesthetic) |
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 99.51% |
 | Evidence Level | L5 |
@@ -49,46 +49,72 @@ Alfentanil is a short-acting mu-opioid agonist injection used in anaesthesia and
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, alfentanil is a mu-opioid receptor agonist. Its efficacy for anaesthesia and analgesia is established, but no mechanistic link to NSIAD has been identified.
+Currently, detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, alfentanil is a mu-opioid receptor agonist that modulates central pain pathways.
 
-NSIAD is a rare disorder caused by gain-of-function variants of the vasopressin V2 receptor, which lead to excessive water retention. Alfentanil acts on opioid receptors, not on the V2 receptor or the vasopressin pathway. The high TxGNN score (99.51%) is a graph-based prediction only, and it is not supported by any biological or clinical reasoning found so far. Model rank 6,411 also suggests the score alone should not be treated as a strong signal.
+For the top prediction, no convincing mechanistic rationale is evident. Opioids can influence vasopressin release. Nephrogenic SIAD, however, is caused by gain-of-function mutations in the vasopressin V2 receptor gene (*AVPR2*). This is a defect in the kidney receptor itself, independent of vasopressin secretion. An opioid would therefore not be expected to correct it. The high model score is not backed by any trial or literature evidence.
+
+Other predictions from the model are also weakly supported:
+- **Migraine disorder** (99.76% rank list position 2, score 98.76%): only a 1988 preclinical review of spreading depression, plus a general paediatric pharmacokinetics study that is probably incidental. Opioids are generally not recommended for migraine because of medication-overuse headache, dependence and poor efficacy.
+- **Headache disorder** (score 98.20%): a single case report of propofol plus alfentanil in episodic cluster headache. This is hypothesis-generating only, as it is one case and confounded by propofol.
+- **Other predictions** (hypertrichosis, Dandy-Walker syndrome, hair shaft abnormalities, leprosy and others): no plausible mechanism and no evidence.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+For the top-ranked prediction (nephrogenic syndrome of inappropriate antidiuresis), currently no related clinical trials are registered.
+
+The only trial linked to related predictions (migraine disorder and headache disorder) is shown below. It was graded as having low relevance.
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT01431326](https://clinicaltrials.gov/study/NCT01431326) | N/A | Completed | 3,520 | General paediatric pharmacokinetics study of understudied drugs given per standard of care. It was not designed to test migraine or headache efficacy, and the match is probably incidental. |
 
 ## Literature Evidence
 
-Currently no related literature available.
+For the top-ranked prediction, currently no related literature is available. The publications below are linked to the migraine and headache predictions only.
 
-**Other predicted indications:** Of the other top-10 predictions, only **headache disorder** has drug-specific evidence, a single case report of propofol plus alfentanil in episodic cluster headache (PMID [24910816](https://pubmed.ncbi.nlm.nih.gov/24910816/)). It is classed as a research question for acute or procedural settings, because opioids carry a medication-overuse headache risk. Migraine predictions are supported only by an indirect mechanistic review and an anaesthesia case report, and the remaining predictions are model output only.
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [24910816](https://pubmed.ncbi.nlm.nih.gov/24910816/) | 2014 | Case report | Anesthesiology and Pain Medicine | Propofol plus alfentanil used in a patient with episodic cluster headache. A single case confounded by propofol. |
+| [2896809](https://pubmed.ncbi.nlm.nih.gov/2896809/) | 1988 | Review | Journal of Pharmacological Methods | Spreading depression (a proposed migraine aura mechanism) studied in alfentanil-anaesthetised rats. Preclinical and indirect, and does not show therapeutic efficacy. |
+| [19181514](https://pubmed.ncbi.nlm.nih.gov/19181514/) | 2009 | Case series | International Journal of Obstetric Anesthesia | Spinal catheter anaesthesia for caesarean section in 34 women with complex cardiac disease. Not related to headache treatment. |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN17055P | ALFENTANIL KALCEKS SOLUTION FOR INJECTION/ INFUSION 0.5MG/ML | Injection, solution |
-| SIN04326P | RAPIFEN INJECTION 0.5 mg/ml | Injection |
-
-Approved indication text is not recorded for either licence.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN17055P | Alfentanil Kalceks Solution for Injection/Infusion 0.5 mg/ml | Injection, solution | Not stated in the licence record |
+| SIN04326P | Rapifen Injection 0.5 mg/ml | Injection | Not stated in the licence record |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease associations from the knowledge graph (not label text)**: the TxGNN knowledge graph records contraindication links between alfentanil and kidney disease, pyoureter, liver disease, gallbladder disease, hypotensive disorder, pseudotumor cerebri and intracranial hypertension. These links need confirmation against the package insert.
+- **Drug Interactions**: 100 interactions were found in total. Examples of the major-level interactions among those listed are:
+  - Aprepitant
+  - Bupropion
+  - Clarithromycin
+  - Clotrimazole
+  - Dexfenfluramine
+  - Dolasetron
+  - Fenfluramine
+  - Granisetron
+  - Lorcaserin
+
+  Moderate-level examples include atropine, cimetidine, clidinium, dexamethasone, dicyclomine, dronabinol, eluxadoline, glycopyrronium, hyoscyamine and mazindol.
+
+Please refer to the package insert for the full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting trials or literature, and it conflicts with the known pharmacology, since NSIAD is a V2 receptor gain-of-function disorder and alfentanil is a mu-opioid agonist. The high model score alone is not enough to justify further investment.
+The top prediction has no trial or literature support and no plausible mechanism, since nephrogenic SIAD is a renal V2 receptor defect that an opioid would not be expected to fix. The only weak signal is a single confounded case report in headache disorder, which is at most a research question. Opioids also carry significant risks in headache conditions.
 
 **To proceed, the following is needed:**
-- A plausible mechanistic hypothesis linking mu-opioid activity to vasopressin or V2 receptor signalling
-- Detailed mechanism of action data for alfentanil
-- Singapore package insert warnings and contraindications, and the approved indication text
-- Preclinical or case-level evidence in NSIAD
-- Consideration of headache disorder as a better-supported research question
+- Package insert warnings and contraindications from the Singapore regulator (HSA), which are required before any safety screening
+- Detailed mechanism of action data (for example, from DrugBank)
+- Any direct mechanistic or clinical evidence linking alfentanil to the predicted indication
+- If pursued at all, a focused review of opioid use in refractory headache, given the safety concerns
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

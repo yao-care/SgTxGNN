@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Desloratadine
-parent: Low Evidence (L5)
-nav_order: 311
-evidence_level: L5
+parent: High Evidence (L1-L2)
+nav_order: 314
+evidence_level: L2
 indication_count: 10
 ---
 
 # Desloratadine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,86 +29,103 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Desloratadine: From Registered Antihistamine Use to Cold Urticaria
+# Desloratadine: From Allergic Rhinitis to Cold Urticaria
 
 ## One-Sentence Summary
 
-Desloratadine is a second-generation H1 antihistamine that is already registered and marketed in Singapore, although the registration records do not state an approved indication.
-The TxGNN model predicts it may be effective for **cold urticaria**.
-**3 clinical trials** and **7 publications**, including 3 randomized controlled trials, are currently linked to this direction.
+Desloratadine is a second-generation oral antihistamine, originally used for allergic rhinitis, allergic conjunctivitis and urticaria.
+The TxGNN model predicts it may be effective for **cold urticaria**,
+with **2 clinical trials** and **6 publications** (2 of them RCTs) currently supporting this direction.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the Singapore registration data (approved indication text is empty) |
+| Original Indication | Allergic rhinitis, vasomotor rhinitis, allergic and other conjunctivitis, idiopathic and allergic urticaria (per the knowledge graph; the Singapore licences carry no indication text) |
 | Predicted New Indication | Cold urticaria |
 | TxGNN Prediction Score | 99.94% |
-| Evidence Level | L1 (as assigned in the Evidence Pack; the supporting trials are small Phase 4 randomized studies, not Phase 3) |
+| Evidence Level | L2 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 6 |
 | Recommended Decision | Proceed with Guardrails |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Desloratadine is a selective peripheral H1 inverse agonist. A formal mechanism-of-action record is not available, but this pharmacology is well established. Cold urticaria is driven by mast cell histamine release, so blocking H1 receptors is a direct mechanistic fit.
+Detailed mechanism of action data is not available in the data compiled for this report. Desloratadine is a selective peripheral H1-receptor antagonist (inverse agonist). Its efficacy in histamine-mediated allergic conditions, including idiopathic and allergic urticaria, is already established.
 
-Non-sedating second-generation antihistamines are the standard symptomatic treatment for urticaria. Increasing the dose above the standard is the recognised approach for cold urticaria patients who respond poorly to the standard dose. The trials and randomized studies below test this idea with desloratadine at 5, 10 and 20 mg.
+Cold urticaria is a physical urticaria in which cold exposure triggers mast cell degranulation and histamine release. Blocking H1 receptors therefore targets the main effector pathway directly. Raising second-generation H1 antihistamines above the standard dose is also supported by guidelines for patients who do not respond to the standard dose.
 
-Because the registration data list no approved indication, the labelled-use status in Singapore should be confirmed. This matters because the evidence relies on doses above the standard 5 mg.
+Cold urticaria is closely related to the urticaria indications desloratadine already holds, so this is a mechanistically coherent extension. The main question is the dose needed, which in the studies below goes beyond the standard 5 mg.
+
+---
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01444196](https://clinicaltrials.gov/study/NCT01444196) | Phase 4 | Completed | 30 | Multi-center, double-blind, dose-escalating comparison of desloratadine 5, 10 and 20 mg in acquired cold urticaria. It aims to find the dose sufficient to inhibit symptoms. |
-| [NCT00600847](https://clinicaltrials.gov/study/NCT00600847) | Phase 4 | Completed | 33 | Randomized, double-blind, placebo-controlled crossover of 5 mg vs. 20 mg desloratadine. It measures experimentally induced cold urticaria lesions using thermography, volumetry and time-lapse photography. |
-| [NCT01940393](https://clinicaltrials.gov/study/NCT01940393) | Phase 4 | Completed | 150 | Compares the inhibitory effect of 5 antihistamines in urticaria. It is larger, but the population may not be limited to cold urticaria and the desloratadine arm needs confirmation. |
+| [NCT01444196](https://clinicaltrials.gov/study/NCT01444196) | Phase 4 | Completed | 30 | Multi-centre, double-blind dose-escalation study of 5, 10 and 20 mg desloratadine in acquired cold urticaria, aiming to find the dose that suppresses symptoms |
+| [NCT00600847](https://clinicaltrials.gov/study/NCT00600847) | Phase 4 | Completed | 33 | Randomised, double-blind, placebo-controlled crossover study comparing 5 mg vs 20 mg desloratadine on experimentally induced cold urticaria lesions (thermography, volumetry, photography) |
+
+Both trials are small, and neither is a Phase 3 study.
+
+---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [19201016](https://pubmed.ncbi.nlm.nih.gov/19201016/) | 2009 | RCT | J Allergy Clin Immunol | Randomized, placebo-controlled crossover study. High-dose desloratadine decreased wheal volume and improved cold provocation thresholds compared with standard dose in acquired cold urticaria. |
-| [22242678](https://pubmed.ncbi.nlm.nih.gov/22242678/) | 2012 | RCT | Br J Dermatol | Randomized trial of H1-antihistamine dose escalation using critical temperature threshold measurement. The supplied abstract does not name the drug. |
-| [14754651](https://pubmed.ncbi.nlm.nih.gov/14754651/) | 2004 | RCT | J Dermatol Treat | 5 mg desloratadine for 4 days, tested with ice cubes before and after treatment in 12 cold urticaria patients. |
-| [15516152](https://pubmed.ncbi.nlm.nih.gov/15516152/) | 2004 | Review | Drugs | Overview of the causes, management and current and future treatments of chronic urticaria. |
-| [38025339](https://pubmed.ncbi.nlm.nih.gov/38025339/) | 2023 | Case report | Qatar Med J | Cold-induced urticaria after black ant bite anaphylaxis. Background on the condition, not evidence for desloratadine. |
-| [29698807](https://pubmed.ncbi.nlm.nih.gov/29698807/) | 2018 | Case report | J Allergy Clin Immunol Pract | Food-dependent cold urticaria described as a new variant of physical urticaria. Background only. |
+| [19201016](https://pubmed.ncbi.nlm.nih.gov/19201016/) | 2009 | RCT | J Allergy Clin Immunol | Randomised, placebo-controlled crossover study: high-dose desloratadine reduced wheal volume and improved cold provocation thresholds compared with standard dose in acquired cold urticaria |
+| [22242678](https://pubmed.ncbi.nlm.nih.gov/22242678/) | 2012 | RCT | Br J Dermatol | Randomised trial of H1-antihistamine dose escalation using critical temperature threshold measurement in cold urticaria |
+| [14754651](https://pubmed.ncbi.nlm.nih.gov/14754651/) | 2004 | Clinical study | J Dermatolog Treat | 5 mg desloratadine for 4 days, tested with ice cubes before and after treatment in 12 cold urticaria patients |
+| [15516152](https://pubmed.ncbi.nlm.nih.gov/15516152/) | 2004 | Review | Drugs | Aetiology, management and treatment options for chronic urticaria |
+| [19032340](https://pubmed.ncbi.nlm.nih.gov/19032340/) | 2008 | Review | Allergy | Ebastine in allergic rhinitis and chronic idiopathic urticaria (a different antihistamine; indirect relevance) |
+| [38025339](https://pubmed.ncbi.nlm.nih.gov/38025339/) | 2023 | Case report | Qatar Med J | Cold-induced urticaria after black ant bite anaphylaxis (background on the condition only) |
+
+---
 
 ## Singapore Market Information
 
-Desloratadine has 6 registrations in Singapore, and 5 are listed below. All are oral tablets, and none records an approved indication text.
-
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN15773P | Desloratadine Sandoz Film Coated Tablet 5mg | Tablet, film coated | — |
-| SIN16298P | Destavell Film-Coated Tablet 5 mg | Tablet, film coated | — |
-| SIN16170P | Alrinast Film-Coated Tablet 5mg | Tablet, film coated | — |
-| SIN16670P | Glendes Tablet 5 mg | Tablet | — |
-| SIN15938P | Airistar Film-Coated Tablet 5mg | Tablet, film coated | — |
+| SIN15773P | Desloratadine Sandoz Film Coated Tablet 5 mg | Film-coated tablet | Not stated in the data compiled |
+| SIN16298P | Destavell Film-Coated Tablet 5 mg | Film-coated tablet | Not stated in the data compiled |
+| SIN16170P | Alrinast Film-Coated Tablet 5 mg | Film-coated tablet | Not stated in the data compiled |
+| SIN16670P | Glendes Tablet 5 mg | Tablet | Not stated in the data compiled |
+| SIN15938P | Airistar Film-Coated Tablet 5 mg | Film-coated tablet | Not stated in the data compiled |
+
+A sixth licence, SIN11743P (Aerius Tablet 5 mg, film-coated), is also valid. All six are single-ingredient oral products, and all are currently valid.
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+The package insert warnings and contraindications were not available in the data compiled for this report. Please refer to the package insert for safety information.
+
+- **Knowledge-graph contraindication signals (not label text):** hypertension and other hypertensive disorders, kidney disease, liver disease, gallbladder disease, diabetes mellitus and diabetic ketoacidosis, benign prostatic hyperplasia, coronary artery disease and atherosclerosis, angle-closure glaucoma, and hyperthyroidism (Graves disease, thyrotoxicosis). These should be verified against the approved label before being relied on.
+- **Drug Interactions:** The interaction screen returned 100 potential interacting drugs, none with a severity grade. Examples include calcitriol, phentermine, pantoprazole, omeprazole, metformin, morphine, cimetidine, simvastatin, prednisone and epinephrine. Severity should be confirmed from a clinical interaction reference.
+- **Higher-dose use:** The supporting studies use up to 20 mg, which is four times the standard 5 mg dose. Safety at these doses, including sedation and psychomotor effects, needs specific review. One psychomotor study at 7.5 mg with alcohol is in the retrieved literature.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-The mechanism is direct, and three randomized studies plus three completed Phase 4 trials support desloratadine, including dose escalation, in cold urticaria. The trials are small (n=30 and n=33 for the two directly relevant ones), and the best-supported benefit comes from doses above the standard 5 mg. The drug is already marketed in Singapore, so the remaining questions are labelling and safety at higher doses.
+Two randomised, controlled studies in cold urticaria (PMIDs 19201016 and 22242678) and two completed Phase 4 trials directly test desloratadine or H1 antihistamine up-dosing in this condition, and the mechanism is coherent. The evidence is limited by small sample sizes and the absence of Phase 3 trials, so the level is L2 rather than L1.
+
+Other predicted indications (nasal cavity disease, acute laryngopharyngitis, recalcitrant atopic dermatitis, atopic IgE responsiveness, rosacea conjunctivitis, headache disorder, trigeminal autonomic cephalalgia, punctate epithelial keratoconjunctivitis, Angelucci syndrome) lack supporting clinical evidence, or largely overlap existing indications, and are on **Hold**.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from the HSA website, which are currently missing and block safety screening.
-- Confirmation of the approved indications and labelled dose in Singapore, since the registration records are blank.
-- A safety review of dosing above 5 mg, using the completed trials' safety data and the package insert.
-- Confirmation of the desloratadine arm and the cold urticaria subgroup in NCT01940393, and of the exact comparator in NCT00600847.
-- A formal mechanism-of-action record from DrugBank.
-
-**Other predicted indications:** The nine lower-ranked predictions do not warrant follow-up now. Nasal cavity disease is a research question only, because its literature is animal work and uses other agents. The other eight are Hold, with prediction only or no relevant desloratadine evidence: acute laryngopharyngitis, recalcitrant atopic dermatitis, atopic IgE responsiveness, rosacea conjunctivitis, headache disorder, trigeminal autonomic cephalalgia, punctate epithelial keratoconjunctivitis and Angelucci syndrome.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
+- Package insert warnings and contraindications from the HSA website
+- Detailed mechanism of action data from DrugBank
+- Confirmation of the approved indication text for the Singapore licences
+- A safety review of off-label dosing above 5 mg, with attention to the knowledge-graph contraindication signals
+- Severity grading of the potential drug interactions
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

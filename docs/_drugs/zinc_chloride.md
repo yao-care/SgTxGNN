@@ -2,7 +2,7 @@
 layout: default
 title: Zinc Chloride
 parent: Low Evidence (L5)
-nav_order: 1075
+nav_order: 1085
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,17 +29,18 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Zinc Chloride: From Parenteral Trace Element Supplementation to Severe Nonproliferative Diabetic Retinopathy
+# Zinc Chloride: From Trace Element Supplementation to Severe Nonproliferative Diabetic Retinopathy
 
 ## One-Sentence Summary
 
-Zinc chloride is a trace element ingredient in intravenous nutrition products marketed in Singapore. The TxGNN model predicts it may be effective for **severe nonproliferative diabetic retinopathy**, but **no clinical trials and no publications** currently support this specific prediction.
+Zinc chloride is a trace element used in parenteral nutrition products, and it is registered in Singapore in three infusion concentrates.
+The TxGNN model predicts it may be effective for **severe nonproliferative diabetic retinopathy**, but **no clinical trials and no publications** currently support this specific prediction. The evidence rests on model prediction alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registry records. The three registered products are trace element concentrates for intravenous infusion, which suggests parenteral nutrition supplementation. |
+| Original Indication | Not stated in the registration records (the products are infusion concentrates containing zinc) |
 | Predicted New Indication | Severe nonproliferative diabetic retinopathy |
 | TxGNN Prediction Score | 99.34% |
 | Evidence Level | L5 |
@@ -49,11 +50,11 @@ Zinc chloride is a trace element ingredient in intravenous nutrition products ma
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, zinc chloride is a zinc salt supplied in trace element infusion products. Zinc is an essential mineral that serves as a cofactor for antioxidant enzymes such as superoxide dismutase.
+Detailed mechanism of action data is not available. Based on known information, zinc chloride is a source of zinc, an essential trace element, and it is used in infusion concentrates. Zinc is a cofactor of antioxidant enzymes such as Cu/Zn-superoxide dismutase, so it may plausibly protect the retina against oxidative stress.
 
-Oxidative stress is a recognised driver of diabetic retinal injury, so a supporting role for zinc is biologically plausible. However, this reasoning applies to diabetic retinopathy in general and is not specific to the severe nonproliferative stage. The predicted link is therefore weak and indirect.
+Oxidative stress is a recognised driver of diabetic retinopathy. This gives a plausible but unproven link between zinc and the predicted disease. No clinical evidence was compiled for this specific stage (severe nonproliferative disease), so the link remains speculative.
 
-The only nearby support is a 2004 diabetic rat study, which is listed under the broader diabetic retinopathy prediction rather than this one. All registered Singapore products are intravenous infusion concentrates, and no ocular or oral route has been confirmed for this use. Route compatibility is still pending.
+The next-ranked prediction, **diabetic retinopathy** (score 98.89%), has one supporting animal study, described below.
 
 ## Clinical Trial Evidence
 
@@ -61,35 +62,44 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+No literature was compiled for the top-ranked prediction. For the closely related prediction of general diabetic retinopathy, one preclinical study was found:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [15541754](https://pubmed.ncbi.nlm.nih.gov/15541754/) | 2004 | Preclinical animal study | Toxicology and Applied Pharmacology | In alloxan-induced diabetic rats, zinc chloride may protect against oxidative changes in the retina and pancreas at an early stage of diabetes. |
+
+This is animal data only. No human studies were compiled.
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN08899P | PEDITRACE CONCENTRATE FOR PARENTERAL INFUSION | Injection | Not stated in registry record |
-| SIN15302P | ADDAVEN CONCENTRATE FOR SOLUTION FOR INFUSION | Infusion, solution concentrate | Not stated in registry record |
-| SIN14341P | Nutritrace Concentrate for solution for infusion | Infusion, solution concentrate | Not stated in registry record |
+| SIN08899P | Peditrace Concentrate for Parenteral Infusion | Injection | Not stated |
+| SIN15302P | Addaven Concentrate for Solution for Infusion | Infusion, solution concentrate | Not stated |
+| SIN14341P | Nutritrace Concentrate for Solution for Infusion | Infusion, solution concentrate | Not stated |
+
+All three registrations are valid single-ingredient licences, and none has been cancelled. All are injectable forms.
 
 ## Safety Considerations
 
-- **Drug Interactions**: No interaction records were found for this drug.
+- **Contraindication signals from the knowledge graph (not label text):** methemoglobinemia, sulfhemoglobinemia, G6PD deficiency, glycogen storage disease, cystinuria, galactosemia, pyruvate dehydrogenase E3 deficiency, methemoglobinemia due to methemoglobin reductase deficiency, Wilson disease, iron metabolism disease, and hereditary hemochromatosis. These come from model-derived drug-disease edges and need confirmation against the package insert.
+- **Drug Interactions:** 76 interactions were identified. Most are minor, including corticosteroids (hydrocortisone, prednisone, dexamethasone, budesonide and others) and several immunosuppressants and biologics. Moderate interactions were found with the **tetracyclines (tetracycline, minocycline)** and **levofloxacin**, likely through reduced absorption when chelated by zinc. This matters mainly for oral co-administration.
 
-Please refer to the package insert for other safety information, including warnings and contraindications.
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has the highest model score in this set, but it has no trials, no literature and no specific mechanistic rationale beyond general oxidative stress. The evidence level is L5 (model prediction only), so it does not justify further investment yet.
+The prediction score is high, but there are no clinical trials and no human literature for severe nonproliferative diabetic retinopathy. The only related evidence is a single rat study for general diabetic retinopathy. The package insert warnings and indications are also unavailable, so safety screening cannot proceed.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from the HSA website, which is currently a blocking gap for safety screening
+- Package insert warnings and contraindications from the HSA website (blocking gap)
 - Mechanism of action data from DrugBank
-- Confirmation of the approved indications for the three Singapore registrations
-- A feasibility check of delivery routes, since all registered forms are intravenous
-- Consideration of related predictions with more support. For example, dry eye syndrome (rank 3) has two small completed trials of zinc-containing ophthalmic products and an L3 rating. Those trials do not test zinc chloride itself.
+- A systematic literature search for zinc and diabetic retinopathy in humans
+- A route compatibility assessment: the registered products are intravenous infusions, while the predicted eye conditions might need other routes, such as oral or topical delivery
+- A review of the other predictions with a more plausible rationale, such as diabetic retinopathy (preclinical evidence), dry eye syndrome and acne. Several others, such as prolapse of lacrimal gland and brain aneurysm, have no clear mechanistic rationale and appear to be model artifacts.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

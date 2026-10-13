@@ -2,7 +2,7 @@
 layout: default
 title: Clobazam
 parent: Medium Evidence (L3-L4)
-nav_order: 263
+nav_order: 265
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,17 +29,19 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Clobazam: From Seizure Disorders to Febrile Infection-Related Epilepsy Syndrome (FIRES)
+# Clobazam: From Lennox-Gastaut Syndrome to Febrile Infection-Related Epilepsy Syndrome
 
 ## One-Sentence Summary
 
-Clobazam is a 1,5-benzodiazepine anticonvulsant, used mainly as add-on therapy for seizure disorders. The TxGNN model predicts it may be useful for **febrile infection-related epilepsy syndrome (FIRES)**, a severe, drug-resistant seizure condition. There are currently **0 clinical trials** and **2 case-level publications** for this indication, and neither publication studies clobazam itself.
+Clobazam is a benzodiazepine antiseizure medication, originally used for Lennox-Gastaut syndrome.
+The TxGNN model predicts it may be effective for **febrile infection-related epilepsy syndrome (FIRES)**,
+but there are **0 registered clinical trials** and only **2 publications** (a case series and a case report, neither studying clobazam directly), so this remains an early research question.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration record (the drug is generally known as an antiseizure medication) |
+| Original Indication | Lennox-Gastaut syndrome (the Singapore licence record contains no indication text) |
 | Predicted New Indication | Febrile infection-related epilepsy syndrome |
 | TxGNN Prediction Score | 99.82% |
 | Evidence Level | L4 |
@@ -49,11 +51,11 @@ Clobazam is a 1,5-benzodiazepine anticonvulsant, used mainly as add-on therapy f
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the dataset. From class knowledge, clobazam is a positive allosteric modulator of the GABA-A receptor. It enhances the brain's main inhibitory signalling, which helps suppress seizure activity.
+Detailed mechanism of action data is not currently available. Based on known information, clobazam is a benzodiazepine that enhances GABA-A receptor signalling. Its efficacy in Lennox-Gastaut syndrome, a severe drug-resistant epilepsy, is established, and mechanistically it may be applicable to FIRES.
 
-FIRES is a form of new-onset refractory status epilepticus. It occurs in previously healthy children after a febrile illness and often does not respond to conventional antiseizure drugs. Enhancing GABA-A signalling is a plausible way to control such seizures, and benzodiazepines are already central to managing prolonged seizures.
+FIRES is a refractory epileptic encephalopathy that occurs in previously healthy children after a febrile illness. Seizures are often controlled only with GABAergic agents such as midazolam or barbiturates. This provides a class-level rationale for a GABA-A modulator like clobazam.
 
-The current literature does not test clobazam directly in FIRES. The two retrieved reports describe other agents: enteral lorazepam as a weaning strategy in midazolam-responsive FIRES, and perampanel for reducing barbiturate dependency. They show that the drug class is relevant, but they do not confirm clobazam's efficacy or safety here.
+The link is indirect, however. The retrieved papers describe enteral lorazepam as a weaning strategy and perampanel for reducing barbiturate dependency. Neither studies clobazam. No clobazam-specific data in FIRES were found.
 
 ## Clinical Trial Evidence
 
@@ -63,34 +65,45 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [35770765](https://pubmed.ncbi.nlm.nih.gov/35770765/) | 2022 | Case series | Epileptic Disorders | Enteral lorazepam was an effective weaning substitute in midazolam-dependent FIRES patients (lorazepam, not clobazam) |
-| [39958143](https://pubmed.ncbi.nlm.nih.gov/39958143/) | 2025 | Case report | Cureus | Perampanel may help reduce barbiturate dependency in a 13-year-old with FIRES (perampanel, not clobazam) |
+| [35770765](https://pubmed.ncbi.nlm.nih.gov/35770765/) | 2022 | Case series | Epileptic Disorders | Enteral lorazepam was an effective weaning substitute for midazolam-dependent FIRES patients |
+| [39958143](https://pubmed.ncbi.nlm.nih.gov/39958143/) | 2025 | Case report | Cureus | Perampanel may reduce barbiturate dependency in a 13-year-old boy with FIRES |
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN01591P | FRISIUM 10 TABLET 10 mg (Opella Healthcare International SAS) | Tablet | Not stated in the record |
+| SIN01591P | FRISIUM 10 TABLET 10 mg (Opella Healthcare International SAS) | Tablet | Indication text not recorded |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug-interaction records were found in the dataset.
+- **Drug Interactions**: 100 interactions were identified in the interaction database. The examples reviewed include:
+  - **Major**: morphine (including liposomal morphine) and eliglustat.
+  - **Moderate**: bupropion, aprepitant, omeprazole, esomeprazole, lansoprazole, cimetidine, clarithromycin, metoclopramide, fenfluramine, dexfenfluramine and dronabinol.
+  - **Minor**: antacids such as magnesium oxide, aluminium hydroxide and calcium carbonate.
+
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic rationale is plausible, but the evidence is limited to two case-level reports on other drugs. There are no clobazam-specific studies or registered trials in FIRES, and the Singapore package insert data has not been obtained.
+The prediction score is very high, but there are no clinical trials and only two small FIRES reports, neither on clobazam. The mechanistic link is class-level and indirect, so the idea is best treated as a research question rather than a candidate for action.
 
 **To proceed, the following is needed:**
-- Singapore (HSA) package insert warnings, contraindications, and approved indication text
-- Detailed mechanism-of-action data from DrugBank
-- Clobazam-specific clinical evidence in FIRES, such as case series or registered trials
-- Assessment of route compatibility (oral tablet only in Singapore), since FIRES patients often need enteral or intravenous options
-- Drug-interaction review, especially with concurrent anaesthetics and antiseizure medications
+- Clobazam-specific data in FIRES, such as case series or a retrospective cohort
+- Detailed mechanism of action data
+- Package insert warnings and contraindications from the HSA, which are needed before any safety screening
+- A safety plan covering the major interactions, especially with opioids such as morphine, and with additional CNS depressants
 
-*This report is for research reference only and does not constitute medical advice. Predicted candidates require clinical validation before any use.*
+### Other Predicted Indications (for Reference)
+
+| Rank | Predicted Indication | Score | Evidence Level | Note |
+|------|------|------|------|------|
+| 6 | Childhood onset epileptic encephalopathy | 99.59% | L1 | Largely an on-label use (Lennox-Gastaut syndrome), supported by guidelines and reviews. This is not true repurposing, and other encephalopathies (e.g., STXBP1, Angelman, Dravet) need syndrome-specific confirmation. This is the strongest candidate, at Proceed with Guardrails. |
+| 7 | Benign occipital epilepsy | 99.58% | L4 | A Cochrane review covers clobazam monotherapy in focal or generalized seizures, but nothing is specific to this syndrome. |
+| 3, 4, 5 | Cryptogenic late-onset epileptic spasms; atypical childhood epilepsy with centrotemporal spikes; photosensitive occipital lobe epilepsy | 99.77% each | L4 | Indirect and weak literature only. |
+| 2, 8, 9, 10 | Perioral myoclonia with absences; GRIN2A-related epileptic encephalopathy; restless legs syndrome; polymicrogyria with optic nerve hypoplasia | 99.07–99.79% | L5 | Prediction score only, with no trials or literature. Hold. |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

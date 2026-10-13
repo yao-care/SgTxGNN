@@ -29,100 +29,78 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Alectinib: From ALK-Positive Lung Cancer to Gingival Fibromatosis
+# Alectinib: From ALK-Positive Non-Small Cell Lung Cancer to Gingival Fibromatosis
 
 ## One-Sentence Summary
 
-Alectinib is an ALK/RET tyrosine kinase inhibitor used to treat ALK-positive lung cancer.
-The TxGNN model predicts it may be effective for **gingival fibromatosis**, but there are **0 clinical trials** and **0 publications** supporting this prediction.
-It is a model-only signal with no mechanistic link, so it should be treated as a hypothesis, not a lead.
-
----
+Alectinib is an oral ALK inhibitor originally used to treat non-small cell lung cancer (NSCLC).
+The TxGNN model predicts it may be effective for **hereditary gingival fibromatosis**,
+but **no clinical trials and no publications** currently support this prediction, so it is a model-only signal.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore licence record (alectinib is used for ALK-positive non-small-cell lung cancer, per the retrieved literature) |
+| Original Indication | Non-small cell lung carcinoma / lung cancer (the Singapore licence text does not state an approved indication) |
 | Predicted New Indication | Fibromatosis, gingival |
 | TxGNN Prediction Score | 99.97% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the record. Alectinib is a targeted ALK/RET kinase inhibitor, and its efficacy is established in ALK-driven lung cancer (Phase 3 trials such as ALEX and J-ALEX).
+Detailed mechanism-of-action data are not available in the data compiled for this report. Based on known information, alectinib is a selective inhibitor of anaplastic lymphoma kinase (ALK), and its efficacy in ALK-positive NSCLC is well established. The published literature also describes activity against RET.
 
-The prediction is hard to justify mechanistically. Gingival fibromatosis is a benign overgrowth of gum tissue, and no ALK-driven pathology is documented in it. The score (0.9997) is close to saturation, so it does not rank candidates meaningfully. It reflects graph-based proximity only.
-
-For that reason the prediction should not be read as evidence of therapeutic potential.
-
----
+For gingival fibromatosis, the plausibility is weak. No known ALK-driven mechanism links alectinib to hereditary gingival fibromatosis, and no ALK alteration has been described in this condition. The very high score (99.97%) is therefore best read as a pattern from the knowledge-graph network, not as evidence of a biological link. Many other diseases received almost identical scores (>99.95%), including conditions with no plausible ALK link, which suggests that these scores do not discriminate well between candidates.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
-
----
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN15220P | ALECENSA HARD CAPSULE 150MG | Capsule | Not stated in the record |
-
----
+| SIN15220P | ALECENSA HARD CAPSULE 150MG | Capsule (oral) | Not stated in the available licence record |
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (ALK/RET tyrosine kinase inhibitor) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Cytotoxicity Classification | Targeted therapy (ALK tyrosine kinase inhibitor), not a conventional cytotoxic |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions (published case reports describe haemolytic anaemia, and anaemia is generally mild) |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert; typically blood counts, liver function and creatine phosphokinase, plus lipid levels, weight and heart rate, based on published adverse-event reports |
 | Handling Protection | Please refer to the package insert warnings and precautions |
-
----
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Package-insert warnings and contraindications were not available in the data compiled for this report, so please refer to the package insert for safety information.
 
-Literature retrieved for other predicted indications reports these alectinib adverse events, mostly as case reports:
-- Hypertriglyceridemia-induced pancreatitis
-- Drug reaction with eosinophilia and systemic symptoms (DRESS)
-- Erythema multiforme
-- Weight gain
-- QTc and bradycardia effects, assessed in an ECG monitoring analysis
-
-No drug interaction data was found.
-
----
+- **Drug Interactions**: 92 interactions are recorded (DDInter). Examples at **Major** level: aminolevulinic acid. Examples at **Moderate** level: dolasetron, naltrexone, mefloquine, quinine, atazanavir, bedaquiline, and the beta-blockers atenolol, bisoprolol, acebutolol and betaxolol. Several of these relate to QT prolongation or bradycardia, which is consistent with published alectinib electrophysiology data. Cholinesterase-related agents (edrophonium, physostigmine, ambenonium) are also listed.
+- **Adverse events reported in the literature**: hypertriglyceridaemia-induced pancreatitis, haemolytic anaemia, DRESS syndrome, erythema multiforme, weight gain, and QT/cardiac effects (case reports and pharmacovigilance analyses).
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction has no trials, no literature and no plausible ALK/RET link, and the evidence level is L5. It looks like a graph artifact, so there is no basis to advance it.
+The prediction rests only on the TxGNN model score. There are no clinical trials or publications for gingival fibromatosis, and no plausible ALK-related mechanism. The strong evidence for alectinib (ALEX, J-ALEX, ALINA) applies to its existing NSCLC indication, not to this one.
 
 **To proceed, the following is needed:**
-- Any biological evidence that ALK or RET signalling contributes to gingival fibromatosis
-- Mechanism of action data for alectinib (currently missing)
-- The HSA package insert, for warnings, contraindications and approved indication text (currently missing)
+- Evidence of any ALK or ALK-pathway involvement in gingival fibromatosis (genetic or expression data)
+- Preclinical data supporting efficacy in this condition
+- Mechanism-of-action data for alectinib
+- Package-insert warnings and contraindications from HSA, which are required before any safety screening
+- A risk-benefit assessment, since a systemic kinase inhibitor with a notable adverse-event profile would be used for a benign condition
 
-**Note on other candidates:** Among the 10 predictions, only **lung germ cell tumor** reached stage S1 ("Research Question"). It is supported by a recruiting Phase 2/3 basket trial (NCT05770037) and case reports in ALK-rearranged lung neuroendocrine tumors. Its link to alectinib is still indirect and unverified, but it is a better candidate for follow-up than the top-ranked one.
+**Note on other predictions:** The other top-ranked predictions do not change the overall picture. Most (fibroma of lung, hamartoma of lung, pulmonary sulcus neoplasm, and several rare genetic disorders) have no trials or literature. The lung benign neoplasm match reflects evidence for the already-approved NSCLC indication, not benign tumours. The most biologically interesting candidate is **lung germ cell tumor** (indirect support from case reports of alectinib in ALK-rearranged neuroendocrine and other rare tumours), but its single trial (NCT04644315, Phase 2, terminated, 1 participant) is uninformative. All were assigned Hold.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

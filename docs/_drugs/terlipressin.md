@@ -2,7 +2,7 @@
 layout: default
 title: Terlipressin
 parent: Low Evidence (L5)
-nav_order: 960
+nav_order: 970
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,100 +29,106 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Terlipressin: From Vasopressor Use (Original Indication Not Recorded in the Evidence Pack) to Open-Angle Glaucoma
+# Terlipressin: From Its Registered Use to Open-Angle Glaucoma
 
 ## One-Sentence Summary
 
-Terlipressin is a vasopressin analogue and V1a-receptor agonist with strong vasoconstrictor activity. The Singapore licence records in the Evidence Pack do not state its approved indication.
-The TxGNN model's top-ranked prediction is **open-angle glaucoma**, but it has **0 clinical trials and 0 publications** behind it, and the mechanism is speculative. Among the top 10 predictions, **pulmonary hypertension** (rank 3) is the only one with a plausible link, supported by **4 registered trials (none on this indication)** and several small hemodynamic studies and case reports.
+Terlipressin is a vasopressin analogue (a prodrug of lysine-vasopressin) that is marketed in Singapore as an injectable. The registration records compiled for this report do not state its approved indication.
+The TxGNN model predicts it may be effective for **open-angle glaucoma**, but this rests on the model score alone, with **0 clinical trials** and **0 relevant publications**.
+Among the other top-10 predictions, only **pulmonary hypertension** has any supporting literature (small hemodynamic studies and case reports).
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded (both Singapore licences have blank indication text) |
-| Predicted New Indication | Open-angle glaucoma (rank 1) |
+| Original Indication | Not stated in the Singapore registration records compiled |
+| Predicted New Indication | Open-angle glaucoma |
 | TxGNN Prediction Score | 99.78% |
 | Evidence Level | L5 (model prediction only) |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 2 |
 | Recommended Decision | Hold |
 
-For comparison, the best-supported candidate is pulmonary hypertension (rank 3, score 99.56%, evidence level L3). It is a research question rather than a Go decision, so it is also treated as **Hold**.
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the Evidence Pack. Terlipressin is known to be a V1a-receptor vasopressin analogue with relatively selective splanchnic and systemic vasoconstrictor effects.
+Terlipressin is a vasopressin V1 receptor agonist and a prodrug of lysine-vasopressin. Its main pharmacological effect is vasoconstriction, notably in the splanchnic circulation, which lowers portal pressure.
 
-**Open-angle glaucoma (rank 1):** No established mechanistic link exists. Any ocular effect would be speculative, and systemic vasoconstriction could plausibly worsen ocular perfusion. The high score is a model output only. The same applies to the related glaucoma predictions (primary hereditary glaucoma, "glaucoma 1, open angle", and "glaucoma"), and to esotropia, headache disorder, hyperthyroidism and trigeminal autonomic cephalalgia. The "glaucoma 1, open angle" entry is an ontology duplicate of rank 1. The one paper linked to "glaucoma" concerns terlipressin's cardiorenal effects in cirrhosis and is a keyword-matching artifact. The two trials linked to "headache disorder" study cirrhosis and hepatectomy, and neither involves headache.
+The data compiled for this report do not support a plausible route from this mechanism to lower intraocular pressure. The high TxGNN score (0.998) is a statistical prediction from the knowledge graph. No trials, mechanistic studies, or relevant papers back it. Systemic vasoconstriction could, in principle, be a concern for ocular perfusion, so the prediction needs careful scrutiny.
 
-**Pulmonary hypertension (rank 3):** This is a plausible but unproven hypothesis. Small human studies in cirrhotic patients with pulmonary hypertension report that terlipressin lowered pulmonary pressures or vascular resistance while acting as a systemic vasoconstrictor. Neonatal case reports describe rescue use in persistent pulmonary hypertension with refractory shock. The key safety concern is that terlipressin carries a respiratory-failure warning in hepatorenal syndrome, and its pulmonary effects may depend on the clinical context. Evidence grading here relied mostly on titles and truncated abstracts.
+Several other top predictions are also unsupported: primary hereditary glaucoma, "glaucoma 1, open angle" (a near-duplicate of the first prediction), and the generic "glaucoma". The same applies to esotropia, hyperthyroidism, kyphoscoliotic heart disease, headache disorder, and trigeminal autonomic cephalalgia. Headache is a recognised adverse effect of terlipressin, which argues for caution in headache-related indications.
 
-**Kyphoscoliotic heart disease (rank 4):** The link is only indirect, through the overlap with pulmonary hypertension physiology.
+---
 
 ## Clinical Trial Evidence
 
-**Open-angle glaucoma (rank 1):** Currently no related clinical trials registered.
+Currently no related clinical trials registered.
 
-**Best-supported alternative, pulmonary hypertension (rank 3):** All four linked trials are graded C (weak relevance). None tests terlipressin in pulmonary hypertension.
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT03584087](https://clinicaltrials.gov/study/NCT03584087) | Phase 4 | Completed | 74 | Terlipressin after endoscopic variceal ligation in acute variceal haemorrhage (portal hypertension, not pulmonary) |
-| [NCT06027970](https://clinicaltrials.gov/study/NCT06027970) | Phase 3 | Unknown | 165 | Continuous terlipressin after variceal ligation in acute variceal haemorrhage; no pulmonary hypertension endpoint |
-| [NCT06256432](https://clinicaltrials.gov/study/NCT06256432) | Phase 2 | Recruiting | 54 | Ambrisentan in hepatorenal syndrome; terlipressin likely background or comparator |
-| [NCT05315557](https://clinicaltrials.gov/study/NCT05315557) | N/A | Unknown | 100 | Vasopressin vs terlipressin as second vasopressor in cirrhotic septic shock; indirect hemodynamic context only |
+---
 
 ## Literature Evidence
 
-**Open-angle glaucoma (rank 1):** Currently no related literature available.
+Currently no related literature available for open-angle glaucoma.
 
-**Best-supported alternative, pulmonary hypertension (rank 3):**
+The only paper retrieved for the generic "glaucoma" prediction (PMID [31841026](https://pubmed.ncbi.nlm.nih.gov/31841026/), 2020) is a randomized trial on dobutamine reversing terlipressin's cardio-suppressive effects in cirrhosis. It is not about glaucoma and was treated as a false-positive match.
+
+---
+
+## Other Prediction with Supporting Literature: Pulmonary Hypertension
+
+Pulmonary hypertension (TxGNN score 99.56%) is the only prediction in the top 10 with relevant literature. It reaches **L3** evidence, with a "Research Question" recommendation. No registered clinical trials were found.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [22893473](https://pubmed.ncbi.nlm.nih.gov/22893473/) | 2012 | Small clinical hemodynamic study | Hepatobiliary Pancreat Dis Int | First 2 mg dose lowered pulmonary vascular resistance in 7 cirrhotic patients with pulmonary hypertension |
-| [21733953](https://pubmed.ncbi.nlm.nih.gov/21733953/) | 2012 | Clinical echo study | Angiology | Compared pulmonary and systemic hemodynamic effects in cirrhosis with and without pulmonary hypertension; differential effects reported |
-| [18280605](https://pubmed.ncbi.nlm.nih.gov/18280605/) | 2008 | Case report | J Hepatol | Significant fall in pulmonary arterial pressure after 1 week of terlipressin in portopulmonary hypertension |
-| [15259082](https://pubmed.ncbi.nlm.nih.gov/15259082/) | 2004 | Echo assessment | World J Gastroenterol | Examined effect on systolic pulmonary artery pressure in cirrhosis |
-| [30971593](https://pubmed.ncbi.nlm.nih.gov/30971593/) | 2019 | Comparative clinical study | Ann Card Anaesth | Terlipressin vs norepinephrine for milrinone-induced hypotension in cardiac surgery with pulmonary hypertension; aimed to avoid raising pulmonary pressures |
-| [32999121](https://pubmed.ncbi.nlm.nih.gov/32999121/) | 2020 | Case report | Indian Pediatr | Rescue treatment of persistent pulmonary hypertension with refractory shock in a preterm infant |
-| [21292065](https://pubmed.ncbi.nlm.nih.gov/21292065/) | 2011 | Case report | J Pediatr Surg | Rescue therapy for refractory pulmonary hypertension in a neonate with congenital diaphragmatic hernia |
-| [19624374](https://pubmed.ncbi.nlm.nih.gov/19624374/) | 2009 | Not classified | Paediatr Anaesth | Role of terlipressin in severe pulmonary hypertension in congenital diaphragmatic hernia |
-| [23128058](https://pubmed.ncbi.nlm.nih.gov/23128058/) | 2012 | Case report | J Perinatol | Echo assessment of pulmonary artery pressure in a septic cooled infant with pulmonary hypertension |
-| [34179513](https://pubmed.ncbi.nlm.nih.gov/34179513/) | 2021 | Review protocol | BMJ Paediatr Open | Planned systematic review of vasopressin and terlipressin in preterm neonates; no results yet |
+| [22893473](https://pubmed.ncbi.nlm.nih.gov/22893473/) | 2012 | Small cohort | Hepatobiliary Pancreat Dis Int | In 7 cirrhotic patients with pulmonary hypertension, the first terlipressin dose (2 mg) decreased pulmonary vascular resistance |
+| [21733953](https://pubmed.ncbi.nlm.nih.gov/21733953/) | 2012 | Small cohort | Angiology | Echo study comparing terlipressin's effects on pulmonary and systemic hemodynamics in cirrhosis with and without pulmonary hypertension |
+| [18280605](https://pubmed.ncbi.nlm.nih.gov/18280605/) | 2008 | Case report | J Hepatol | Significant reduction in pulmonary arterial pressure after 1 week of terlipressin in portopulmonary hypertension |
+| [15259082](https://pubmed.ncbi.nlm.nih.gov/15259082/) | 2004 | Echo study | World J Gastroenterol | Assessed terlipressin's effect on systolic pulmonary artery pressure in cirrhosis |
+| [32999121](https://pubmed.ncbi.nlm.nih.gov/32999121/) | 2020 | Case report | Indian Pediatr | Rescue treatment of persistent pulmonary hypertension and refractory shock in a preterm infant |
+
+**Caveats:**
+- V1 agonism can also raise pulmonary vascular resistance in other settings, so effects are context-dependent.
+- Much of the retrieved literature concerns portal hypertension, a different condition, and should not be counted as direct evidence.
+- Some study designs could not be confirmed because titles and abstracts were truncated.
+
+---
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN17190P | Terlipressin-AFT Solution for Injection 0.85 mg/8.5 mL (Hainan Poly Pharm.) | Injection, solution |
-| SIN14244P | Glypressin Solution for Injection, 1 mg/8.5 mL (Zentiva k.s. / Ferring Pharmaceuticals (China)) | Injection, solution |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN17190P | TERLIPRESSIN-AFT Solution for Injection 0.85 mg/8.5 mL | Injection, solution | Not listed in the record |
+| SIN14244P | GLYPRESSIN Solution for Injection 1 mg/8.5 mL | Injection, solution | Not listed in the record |
 
-The approved indication text is not recorded for either licence. Only injectable forms are registered.
+Both are valid single-ingredient licences, and neither is cancelled. They are injectable products only; no ophthalmic (eye-drop) formulation is registered, which is a further barrier for a glaucoma indication.
+
+---
 
 ## Safety Considerations
 
-- **Respiratory failure:** The Evidence Pack notes that terlipressin carries a respiratory-failure warning in hepatorenal syndrome. This matters for any pulmonary indication.
-- **Ocular perfusion:** Systemic vasoconstriction could plausibly impair ocular perfusion, which is relevant to the glaucoma prediction. This is a theoretical concern from the Evidence Pack and not a documented finding.
+- **Drug Interactions**: No interaction records were found in the data compiled.
+- **Theoretical concern**: Systemic vasoconstriction could, in principle, compromise ocular perfusion.
+- **Adverse effect**: Headache is a recognised adverse effect of terlipressin.
 
-Please refer to the package insert for full safety information.
+Please refer to the package insert for full warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction, open-angle glaucoma, has no trials or literature and no plausible mechanism, and vasoconstriction could be harmful in the eye. The best-supported candidate, pulmonary hypertension, has only small hemodynamic studies and case reports. No registered trial tests it directly, and the respiratory-failure warning raises a safety concern. It merits further research but not a Go decision.
+The glaucoma predictions rest solely on a model score. There are no trials or relevant publications, no plausible mechanism, and no ophthalmic formulation, and there is a theoretical ocular perfusion concern. Pulmonary hypertension is the only prediction with any supporting data, and even that is small, mostly observational, and context-dependent.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings, contraindications and approved indication text, which is a blocking gap for safety screening
-- Mechanism-of-action data from DrugBank
-- Full-text review of the pulmonary hypertension studies, since grading relied on titles and truncated abstracts
-- For pulmonary hypertension, a dedicated trial or protocol that addresses respiratory risk and pulmonary-versus-systemic selectivity
-- Route compatibility and similarity-to-original assessments, both still pending
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
+- Package insert warnings and contraindications, and the approved indications for the two Singapore licences
+- Detailed mechanism-of-action data (for example, from DrugBank)
+- A mechanistic or preclinical rationale linking V1 agonism to intraocular pressure, if glaucoma is to be pursued
+- For pulmonary hypertension: a systematic review and well-designed prospective studies that separate pulmonary from portal hypertension populations, plus a safety assessment of pulmonary vascular resistance effects
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

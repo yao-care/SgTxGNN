@@ -2,7 +2,7 @@
 layout: default
 title: Desonide
 parent: Low Evidence (L5)
-nav_order: 314
+nav_order: 317
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,32 +29,44 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Desonide: From Topical Corticosteroid Therapy to Polyp of Vocal Cord
+# Desonide: From Inflammatory Skin and Allergic Conditions to Polyp of Vocal Cord
 
 ## One-Sentence Summary
 
-Desonide is a low-potency topical glucocorticoid, marketed in Singapore as a cream and a lotion.
-The TxGNN model predicts it may be effective for **polyp of vocal cord**, but there are **0 clinical trials** and **0 publications** supporting this direction.
-The prediction rests on the model score alone, so it is a hypothesis and not yet a viable candidate.
+Desonide is a low-potency topical corticosteroid, originally used for inflammatory and allergic conditions such as atopic and seborrheic dermatitis.
+The TxGNN model predicts it may be effective for **polyp of vocal cord**, but **no clinical trials and no publications** currently support this prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Not stated in the Singapore licence records. The knowledge graph lists inflammatory skin conditions (e.g. atopic dermatitis, contact dermatitis, seborrheic dermatitis) and several allergic or inflammatory conditions (e.g. asthma, allergic rhinitis, inflammatory bowel disease) |
 | Predicted New Indication | Polyp of vocal cord |
 | TxGNN Prediction Score | 99.91% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the supplied record. Based on general knowledge of the drug class, desonide is a low-potency topical corticosteroid with anti-inflammatory action. Its established use is in inflammatory skin conditions, though no approved indication text was supplied.
+Detailed mechanism of action data is not available. Based on known information, desonide is a low-potency topical glucocorticoid with anti-inflammatory activity. Its efficacy in inflammatory skin disease is established, and mechanistically an anti-inflammatory effect could reduce swelling in inflammatory lesions.
 
-The link to vocal cord polyps is weak. These lesions are mainly mechanical or phonotrauma-related and are usually managed with voice therapy or surgery. A topical skin steroid cannot practically reach the larynx, and the Singapore products are a cream and a lotion for the skin.
+The link to vocal cord polyps is weak, however. These lesions are mainly mechanical or related to voice trauma, and are typically managed by voice therapy or surgery. A topical dermatologic cream or lotion has no established route of delivery to the larynx. The prediction therefore rests only on the model score.
 
-The other top-ranked predictions show the same pattern. All 10 are polyp or polyp-like lesions with scores between 99.90% and 99.91%. Examples include middle ear polyp, ear canal polyp, frontal sinus polyp, uterine polyp and epulis. Several are structural lesions treated by excision, and the uniformly high scores probably reflect the proximity of the "polyp" disease cluster in the knowledge graph rather than a drug-specific signal. Ear canal polyps are the most anatomically plausible for a topical product, but otic steroid products already exist and would be the more logical comparators. For sinonasal polyps, approved intranasal corticosteroids are the appropriate agents.
+The other top predictions follow the same pattern, and all share the same limitations:
+
+| Rank | Predicted Indication | Score | Evidence Level | Comment |
+|------|------|------|------|------|
+| 2 | Polyp of middle ear | 99.91% | L5 | Corticosteroids are used in ear inflammation, but treatment is surgical or targets the underlying disease |
+| 3 | Polyp of external auditory canal | 99.91% | L5 | Skin-lined canal makes topical delivery plausible, but no evidence for effect on polyp tissue |
+| 4 | Polyp of frontal sinus | 99.91% | L5 | Class-level rationale from sinonasal polyposis, but desonide is not designed for sinus delivery |
+| 5 | Polyp of ureter | 99.90% | L5 | No plausible mechanism or delivery route |
+| 6 | Polyp of vulva | 99.90% | L5 | Topical delivery feasible, but these lesions are treated by excision |
+| 7 | Fibroepithelial polyp | 99.90% | L5 | Benign overgrowth treated by excision |
+| 8 | Neoplastic polyp | 99.90% | L5 | No known antineoplastic action; speculative |
+| 9 | Epulis | 99.90% | L5 | Product not formulated for oral mucosa |
+| 10 | Uterine polyp | 99.90% | L5 | No delivery route or known mechanism |
 
 ## Clinical Trial Evidence
 
@@ -68,28 +80,30 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN08252P | DESOWEN CREAM 0.05% | Cream | Not listed in the registration record |
-| SIN08572P | DESOWEN LOTION 0.05% | Lotion | Not listed in the registration record |
+| SIN08252P | DESOWEN CREAM 0.05% | Cream | Not stated in the data compiled |
+| SIN08572P | DESOWEN LOTION 0.05% | Lotion | Not stated in the data compiled |
 
-Both products are made by Laboratoires Galderma.
+Both licences are valid single-ingredient products from Laboratoires Galderma. The available formulations are topical (cream and lotion).
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interactions were found in the queried data.
+- **Knowledge-graph contraindication signals** (from drug-disease associations, not label text): hypertension, congestive heart failure, epilepsy, liver disease, gallbladder disease, hyperglycaemia, measles, herpes simplex virus keratitis, urea cycle disorders (carbamoyl phosphate synthetase I deficiency, hyperargininemia, citrullinemia), and pituitary or growth hormone deficiency disorders (including hypopituitarism, hypogonadotropic hypogonadism and Kallmann syndrome). Many of these reflect systemic corticosteroid class effects and may be less relevant for low-potency topical use. They should be verified against the package insert.
+- **Drug Interactions**: No interaction records were found.
+
+Please refer to the package insert for further safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical trials or literature behind it, and the mechanistic link is speculative. Desonide's topical skin formulations also cannot practically reach the predicted sites, such as the larynx, middle ear or ureter.
+The prediction is supported only by the model score, with no clinical trials or literature. There is also no plausible delivery route from a topical dermatologic product to the larynx. The same applies to the other top-ranked polyp predictions.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications, needed for safety screening
+- Package insert warnings and contraindications from the HSA, which are required before safety screening
 - Detailed mechanism of action data (MOA)
-- A route and formulation compatibility assessment for the target site
-- Any preclinical or clinical evidence linking desonide to the predicted condition
-- Comparison against existing corticosteroid options, such as otic or intranasal products for the ear and sinus polyps
+- Route-of-administration compatibility assessment for the target site, and a clear rationale for why a corticosteroid would act on polyp tissue
+- Any preclinical or clinical studies of desonide or related corticosteroids in polypoid lesions, to move beyond L5
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

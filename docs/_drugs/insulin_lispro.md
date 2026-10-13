@@ -2,7 +2,7 @@
 layout: default
 title: Insulin Lispro
 parent: Low Evidence (L5)
-nav_order: 535
+nav_order: 539
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,15 +33,15 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Insulin lispro is a rapid-acting insulin analogue used to control blood glucose in diabetes mellitus.
-The TxGNN model predicts it may be effective for **autoimmune oophoritis**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction.
-It is a graph-based prediction only, with no direct mechanistic rationale.
+Insulin lispro is a rapid-acting insulin analogue, originally used to control blood glucose in type 1 and type 2 diabetes mellitus and to treat diabetic ketoacidosis.
+The TxGNN model predicts it may be effective for **autoimmune oophoritis**, but **no clinical trials and no publications** currently support this prediction.
+The prediction is best regarded as a model-derived hypothesis rather than a therapeutic lead.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Diabetes mellitus (rapid-acting insulin analogue; the Singapore registration records provided contain no indication text) |
+| Original Indication | Type 1 and type 2 diabetes mellitus, diabetic ketoacidosis (from the knowledge graph; the Singapore licence records contain no indication text) |
 | Predicted New Indication | Autoimmune oophoritis |
 | TxGNN Prediction Score | 99.78% |
 | Evidence Level | L5 |
@@ -51,9 +51,25 @@ It is a graph-based prediction only, with no direct mechanistic rationale.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the Evidence Pack. Based on known information, insulin lispro is a rapid-acting insulin analogue that acts on the insulin receptor. Its efficacy in glycaemic control in diabetes is well established.
+Detailed mechanism of action data is not available for this report. Based on general knowledge, insulin lispro is a rapid-acting insulin analogue that binds the insulin receptor to regulate glucose metabolism. Its efficacy in diabetes is well established.
 
-The link to autoimmune oophoritis is weak. Autoimmune oophoritis is an autoimmune disease of the ovary, and insulin has no established immunomodulatory role in it. The very high TxGNN score is more likely a knowledge-graph artefact, possibly driven by the co-occurrence of diabetes with autoimmune polyendocrine conditions. This prediction should not be read as a genuine repurposing signal without independent evidence.
+Autoimmune oophoritis is an immune-mediated ovarian disorder. It often occurs within autoimmune polyendocrine syndromes, which can include type 1 diabetes. No direct mechanistic link between insulin lispro and this condition has been established. The high score most likely reflects proximity in the knowledge graph through shared autoimmune endocrine comorbidity, not a therapeutic effect.
+
+**Other predictions (ranks 2–10)** were also reviewed. None has clinical trial support:
+
+| Rank | Predicted Indication | Score | Assessment |
+|------|------|------|------|
+| 2 | Thiamine-responsive dysfunction syndrome | 99.37% | Insulin would treat only the accompanying diabetes, not the underlying defect |
+| 3 | Focal stiff limb syndrome | 99.36% | Link through shared anti-GAD65 autoimmunity; no action on the neuromuscular pathology |
+| 4 | Classic stiff person syndrome | 99.36% | Same as above; insulin would treat only comorbid diabetes |
+| 5 | Opsismodysplasia | 99.34% | Biologically plausible link via INPPL1/SHIP2 in insulin signalling; direction of effect unproven |
+| 6 | Drug-induced localized lipodystrophy | 99.09% | Insulin is a known cause, not a treatment; use would be inappropriate |
+| 7 | Pancreatic agenesis | 99.09% | Insulin replacement is physiologically rational; the only linked paper is an indirect review (L4) |
+| 8 | Centrifugal lipodystrophy | 99.04% | No established mechanism |
+| 9 | Pressure-induced localized lipoatrophy | 99.03% | Likely a knowledge-graph artefact; injection-site lipoatrophy is a known insulin adverse effect |
+| 10 | Idiopathic localized lipodystrophy | 98.97% | Association more likely adverse than therapeutic |
+
+Pancreatic agenesis is the most biologically coherent of these, because insulin replacement for an insulin-deficient state is consistent with the drug's existing use. It would be an extension of the current indication rather than true repurposing.
 
 ## Clinical Trial Evidence
 
@@ -61,45 +77,48 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+No literature is available for the top-ranked prediction (autoimmune oophoritis). One publication is linked to the rank 7 prediction (pancreatic agenesis):
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [12150359](https://pubmed.ncbi.nlm.nih.gov/12150359/) | 2002 | Review | J Am Pharm Assoc | General review of insulin therapy in type 2 diabetes and practical aspects of starting it; indirect evidence only |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN13719P | HUMALOG KWIKPEN 100 units/ml | Injection | Lilly France / Eli Lilly Italia S.P.A. |
-| SIN11227P | HUMALOG MIX 25 Suspension for Injection 100 iu/ml | Injection | Lilly France SAS / Eli Lilly Italia S.P.A. |
-| SIN11171P | HUMALOG MIX25 KWIKPEN 100 units/ml | Injection | Lilly France SA / Eli Lilly Italia S.P.A. |
+| SIN13719P | HUMALOG KWIKPEN 100 units/ml | Injection | Not stated in the data compiled |
+| SIN11227P | HUMALOG MIX 25 Suspension for Injection 100 iu/ml | Injection | Not stated in the data compiled |
+| SIN11171P | HUMALOG MIX25 KWIKPEN 100 units/ml | Injection | Not stated in the data compiled |
 
-## Other Predicted Indications (Context)
-
-None of the other nine top-ranked predictions has any clinical trial. Two of them stand out:
-
-- **Pancreatic agenesis** (score 99.09%, evidence level L4, "Research Question"): This is the most plausible candidate. Absolute insulin deficiency makes exogenous insulin physiologically appropriate, but this is standard replacement therapy rather than a novel repurposing effect. The only literature retrieved covers type 2 diabetes ([11727406](https://pubmed.ncbi.nlm.nih.gov/11727406/), [12150359](https://pubmed.ncbi.nlm.nih.gov/12150359/)), so it supports the indication only indirectly.
-- **Localized lipodystrophy conditions** (drug-induced, centrifugal, pressure-induced, idiopathic): These are likely safety signals rather than therapeutic opportunities. Injection-site lipodystrophy is a recognized adverse effect of subcutaneous insulin.
-
-The remaining predictions (thiamine-responsive dysfunction syndrome, focal and classic stiff person syndrome, opsismodysplasia) reflect comorbid diabetes or indirect pathway links. Insulin would treat the diabetes only, not the underlying disease.
+All three registrations are valid single-ingredient products, available as injectables only.
 
 ## Safety Considerations
 
-- **Injection-site lipodystrophy**: Lipoatrophy and lipohypertrophy are recognized adverse effects of subcutaneous insulin, including analogues. This matters for any indication involving localized fat loss.
+**Drug Interactions**: The interaction screening returned 100 records. Most of the 20 listed were Moderate, with a few Minor. The main ones are:
+- **Glucose-lowering agents (additive hypoglycaemia risk or altered glycaemic control)**: metformin, alogliptin, albiglutide, alpelisib
+- **Sympathomimetics and beta-agonists (may reduce glucose-lowering effect)**: epinephrine, phenylephrine, pseudoephedrine, salbutamol, formoterol
+- **Beta-blocker**: acebutolol (may mask hypoglycaemia symptoms)
+- **Hormonal agents and corticosteroids**: estradiol, ethinylestradiol, levonorgestrel, hydrocortisone (Minor for topical forms)
+- **Others**: acetazolamide, hydrochlorothiazide, doxycycline, ethanol
 
-For other safety information, including warnings, contraindications and drug interactions, please refer to the package insert.
+Injection-site lipodystrophy and lipoatrophy are known adverse effects of insulin therapy. This matters directly for the predicted lipodystrophy indications (ranks 6, 8, 9 and 10).
+
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top prediction, autoimmune oophoritis, has no supporting trials or literature and no plausible mechanism, so it is a model output only (L5). Insulin lispro is already marketed in Singapore for its original use, so the Hold applies to the new-indication hypothesis, not to the product itself.
+The top prediction, autoimmune oophoritis, has no clinical trials or literature, no mechanistic link, and a score that likely reflects comorbidity proximity in the knowledge graph. Evidence is L5 (model prediction only).
 
 **To proceed, the following is needed:**
-- HSA package insert data (warnings, contraindications, approved indication text)
-- Detailed mechanism of action data
-- Systematic literature search for autoimmune oophoritis
-- Systematic retrieval of neonatal diabetes and pancreatic agenesis case literature, since this is the only candidate with a plausible, if standard, replacement rationale
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Package insert warnings and contraindications from the HSA, and approved indication text for the three Singapore licences
+- Mechanism of action data from DrugBank
+- A targeted literature search on insulin and autoimmune ovarian disease
+- Consideration of pancreatic agenesis (L4) as a separate research question, given the physiological rationale for insulin replacement
+- Exclusion of the lipodystrophy-related predictions, since insulin can cause these conditions
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

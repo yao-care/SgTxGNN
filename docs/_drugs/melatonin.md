@@ -2,7 +2,7 @@
 layout: default
 title: Melatonin
 parent: Medium Evidence (L3-L4)
-nav_order: 637
+nav_order: 643
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,16 +29,21 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Melatonin: Repurposing Prediction for Migraine with Brainstem Aura
+# Melatonin: From Insomnia to Migraine with Brainstem Aura
 
 ## One-Sentence Summary
 
-Melatonin is a marketed oral drug in Singapore (one registration, an extended-release tablet). The TxGNN model predicts it may be effective for **Migraine with Brainstem Aura**, a rare migraine subtype. There are **0 clinical trials** and no subtype-specific publications for this exact indication. The supporting literature is about migraine in general.
+Melatonin is a sleep-regulating hormone, originally used to treat insomnia and sleep-initiation and sleep-maintenance disorders.
+The TxGNN model predicts it may be useful for **migraine with brainstem aura**.
+However, there are **0 clinical trials** for this specific subtype and only **19 publications** (mostly reviews and observational studies), so this is an early-stage hypothesis.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Insomnia; sleep initiation and maintenance disorders (the Singapore licence text is blank, so this comes from the knowledge graph) |
 | Predicted New Indication | Migraine with brainstem aura |
 | TxGNN Prediction Score | 87.90% |
 | Evidence Level | L4 |
@@ -46,57 +51,81 @@ Melatonin is a marketed oral drug in Singapore (one registration, an extended-re
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for this drug in the Evidence Pack. The original approved indication is also not recorded, so the comparison with the new indication cannot be drawn from the pack.
+Detailed mechanism-of-action data are not available in the data compiled for this report. Pharmacology records show that melatonin acts on the **MT1 and MT2 melatonin receptors** and also has recorded activity at the **5-HT2B serotonin receptor**. Through these receptors it regulates circadian rhythm and sleep timing.
 
-The published literature links melatonin to migraine in general. Several small studies report lower nocturnal melatonin excretion in women with migraine without aura, including menstrually related migraine. Sleep and circadian disruption are also closely tied to migraine attacks. Melatonin has plausible roles in circadian regulation, anti-inflammatory and antioxidant effects, and modulation of serotonergic and pain pathways.
+Migraine and sleep are closely linked. Both poor sleep and excess sleep can trigger attacks. Several studies found lower nocturnal melatonin excretion in people with migraine. Melatonin also has antioxidant and anti-inflammatory effects and may modulate serotonergic and pain pathways. This gives a plausible mechanistic bridge from insomnia to migraine.
 
-The important caveat is that the literature concerns migraine overall, mostly migraine without aura and pediatric migraine, not the brainstem aura subtype. Any benefit here would be inferred from shared migraine mechanisms. No subtype-specific trials or data exist.
+There are important limits:
+- No trial or study targets the **brainstem aura subtype**. The support is extrapolated from general migraine research.
+- Mechanistic evidence is mixed. A study in children and adolescents with episodic migraine found that urinary melatonin metabolite levels were **not** a useful biomarker for predicting attacks.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered for migraine with brainstem aura.
 
-## Literature Evidence
+For context, the broader indication "migraine disorder" does have registered trials, including a completed Phase 3 trial comparing melatonin, amitriptyline and placebo (NCT01357031, n=192). Those trials do not directly test the brainstem aura subtype.
 
-None of these publications studies the brainstem aura subtype specifically.
+---
+
+## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [27165014](https://pubmed.ncbi.nlm.nih.gov/27165014/) | 2016 | RCT | J Neurol Neurosurg Psychiatry | Melatonin 3 mg vs amitriptyline 25 mg vs placebo for migraine prevention |
-| [38166859](https://pubmed.ncbi.nlm.nih.gov/38166859/) | 2024 | RCT | BMC Neurol | Agomelatine, a melatonin-system drug (not melatonin itself), for headache severity and frequency in episodic migraine without aura |
-| [24909684](https://pubmed.ncbi.nlm.nih.gov/24909684/) | 2015 | Cohort | Curr Drug Saf | Safety and efficacy of melatonin for pediatric migraine prophylaxis |
-| [18810607](https://pubmed.ncbi.nlm.nih.gov/18810607/) | 2008 | Open-label trial | Neurol Sci | 3-month melatonin 3 mg at bedtime in 22 children with primary headache (mostly migraine without aura) |
-| [9595871](https://pubmed.ncbi.nlm.nih.gov/9595871/) | 1998 | Preliminary observations | Headache | Melatonin 5 mg in 30 patients with delayed sleep phase syndrome; headache resolved in the tension-type cases, and one man with disabling migraine without aura was also reported |
-| [31054199](https://pubmed.ncbi.nlm.nih.gov/31054199/) | 2019 | Cohort | Headache | Urinary melatonin metabolite levels as a migraine predictor in children and adolescents; the title concludes melatonin is not a biomarker |
-| [7641249](https://pubmed.ncbi.nlm.nih.gov/7641249/) | 1995 | Cohort | Cephalalgia | Nocturnal melatonin excretion significantly lower in women with menstrually associated migraine without aura |
-| [7954740](https://pubmed.ncbi.nlm.nih.gov/7954740/) | 1994 | Cohort | Cephalalgia | Reduced urinary melatonin excretion across the ovarian cycle in migraine without aura, indicating impaired pineal function |
-| [30906963](https://pubmed.ncbi.nlm.nih.gov/30906963/) | 2019 | Review | Neurol Sci | Sleep disorders and headache disorders, including migraine with and without aura, are intrinsically related |
-| [24437268](https://pubmed.ncbi.nlm.nih.gov/24437268/) | 2013 | Review | Nihon Rinsho | Circadian rhythm in primary headache disorders; seasonal variation of attacks in migraine with aura |
+| [27165014](https://pubmed.ncbi.nlm.nih.gov/27165014/) | 2016 | RCT (general migraine) | J Neurol Neurosurg Psychiatry | Randomised comparison of melatonin 3 mg, amitriptyline 25 mg and placebo for migraine prevention |
+| [24909684](https://pubmed.ncbi.nlm.nih.gov/24909684/) | 2015 | Clinical study (pediatric) | Curr Drug Saf | Safety and efficacy of melatonin for migraine prophylaxis in children |
+| [38166859](https://pubmed.ncbi.nlm.nih.gov/38166859/) | 2024 | RCT (related agent) | BMC Neurol | Agomelatine, a melatonergic agent, for headache severity and frequency in episodic migraine without aura |
+| [18810607](https://pubmed.ncbi.nlm.nih.gov/18810607/) | 2008 | Open-label trial | Neurol Sci | 3-month open-label melatonin 3 mg in 22 children with migraine or tension-type headache |
+| [31054199](https://pubmed.ncbi.nlm.nih.gov/31054199/) | 2019 | Cohort (biomarker) | Headache | Evening urinary melatonin metabolite did not predict next-day migraine in children and adolescents |
+| [7641249](https://pubmed.ncbi.nlm.nih.gov/7641249/) | 1995 | Observational | Cephalalgia | Lower nocturnal melatonin excretion in women with menstrual migraine without aura |
+| [7954740](https://pubmed.ncbi.nlm.nih.gov/7954740/) | 1994 | Observational | Cephalalgia | Decreased urinary melatonin across the ovarian cycle in migraine without aura, suggesting impaired pineal function |
+| [28194570](https://pubmed.ncbi.nlm.nih.gov/28194570/) | 2017 | Review | J Headache Pain | Genetic and biochemical changes of the serotonergic system in migraine |
+| [30906963](https://pubmed.ncbi.nlm.nih.gov/30906963/) | 2019 | Review | Neurol Sci | Migraine, including with aura, is intrinsically related to sleep; sleep disorders and migraine form a vicious cycle |
+| [24437268](https://pubmed.ncbi.nlm.nih.gov/24437268/) | 2013 | Review | Nihon Rinsho | Circadian rhythm in primary headache; seasonal variation in attack frequency in migraine with aura |
+
+---
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN13954P | CIRCADIN™ PROLONGED RELEASE TABLETS 2MG | Tablet, extended release (oral) |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN13954P | CIRCADIN™ Prolonged Release Tablets 2 mg | Tablet, extended release (oral) | — (no indication text on record) |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications (knowledge-graph associations, not label text):** The knowledge graph links melatonin to caution in the following conditions. Verify them against the package insert.
+  - Liver and kidney disease, including liver failure
+  - Autoimmune disease, including systemic lupus erythematosus, psoriasis and sarcoidosis
+  - Psychiatric conditions: anxiety, dysthymic disorder, schizophrenia and substance abuse/dependence
+  - Calcium and phosphorus disorders, including hypercalcemia, nephrocalcinosis and kidney stones
+  - Others: gallbladder disease, constipation, acute urate nephropathy, paracetamol poisoning, digitalis poisoning and eosinophilia-myalgia syndrome
+- **Drug Interactions:** 18 drug-drug interactions were recorded, mostly from DDInter.
+  - **Moderate:** warfarin, deferasirox, alpelisib, anagrelide, lorlatinib, olaparib, osimertinib, rucaparib, teriflunomide, vemurafenib and ifosfamide.
+  - **Minor:** cimetidine, caffeine, obeticholic acid, osilodrostat, ethinylestradiol and diethylstilbestrol.
+
+Package insert warnings and contraindications were not available for this report. Please refer to the package insert.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This prediction rests on model score and indirect migraine-wide evidence only (L4). There are no trials or publications for the brainstem aura subtype, and no safety data have been reviewed.
+The prediction score is high (87.90%) and the biological link between melatonin, circadian rhythm and migraine is plausible. However, no trial and no direct clinical evidence exists for the brainstem aura subtype. The supporting studies are reviews, observational work and general-migraine studies, with mixed pediatric results. The related broader indication, migraine disorder, has stronger evidence and would be the more practical starting point.
 
 **To proceed, the following is needed:**
-- Singapore package insert warnings and contraindications for safety screening
-- Detailed mechanism of action data
-- Subtype-specific evidence for migraine with brainstem aura
-- Consider prioritizing the broader "migraine disorder" prediction (TxGNN rank 4). It has L1 evidence, including a completed Phase 3 RCT ([NCT01357031](https://clinicaltrials.gov/study/NCT01357031)) and an adult meta-analysis ([36445912](https://pubmed.ncbi.nlm.nih.gov/36445912/)), and is a stronger repurposing lead.
+- Mechanism-of-action data for melatonin from DrugBank
+- The Singapore package insert, to confirm warnings, contraindications and approved indication text
+- Evidence that the effect of melatonin in general migraine applies to the brainstem aura subtype, or a pilot study in that population
+- A review of the knowledge-graph contraindications and the moderate drug interactions against the label before any use beyond the current indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

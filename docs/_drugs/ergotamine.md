@@ -2,7 +2,7 @@
 layout: default
 title: Ergotamine
 parent: Medium Evidence (L3-L4)
-nav_order: 390
+nav_order: 394
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,17 +29,19 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Ergotamine: From Acute Migraine to Migraine with Brainstem Aura
+# Ergotamine: From Migraine to Migraine with Brainstem Aura
 
 ## One-Sentence Summary
 
-Ergotamine is an ergot alkaloid used for the acute treatment of migraine and cluster headache. The TxGNN model predicts it may be effective for **migraine with brainstem aura**, but only **1 clinical trial** (of a different drug, topiramate) and **20 publications** were retrieved, and none address ergotamine in this subtype. The literature also points to a safety concern: ergot products are conventionally cautioned against in brainstem-type aura.
+Ergotamine is an ergot alkaloid originally used to treat migraine and cluster headache.
+The TxGNN model predicts it may be effective for **migraine with brainstem aura**,
+but there are currently **no registered clinical trials**, and the **20 publications** retrieved are mostly general migraine reviews and guidelines rather than studies specific to this subtype.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Acute migraine (from the literature; the Singapore licence text is blank) |
+| Original Indication | Migraine disorder, cluster headache, paroxysmal hemicrania, hemicrania continua (from the knowledge graph; the Singapore licence has no indication text) |
 | Predicted New Indication | Migraine with brainstem aura |
 | TxGNN Prediction Score | 98.93% |
 | Evidence Level | L4 |
@@ -49,69 +51,81 @@ Ergotamine is an ergot alkaloid used for the acute treatment of migraine and clu
 
 ## Why is This Prediction Reasonable?
 
-DrugBank mechanism data is not available in the Evidence Pack. The literature describes ergotamine as highly potent at the 5-HT1B and 5-HT1D receptors (PMID 12558771). These receptors mediate cranial vasoconstriction and inhibit release of pain-related neuropeptides. Ergotamine also acts on adrenergic and dopaminergic receptors. Migraine with brainstem aura is a subtype of migraine, so the model's high score reflects the drug's network proximity to migraine.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on the analysis available, ergotamine is an established antimigraine agent. It acts as a 5-HT1B/1D agonist, with additional activity at alpha-adrenergic and dopamine receptors. This causes cranial vasoconstriction and inhibits the release of neuropeptides from the trigeminal nerve.
 
-The prediction is weak for this specific subtype, for three reasons:
+Migraine with brainstem aura is a subtype of migraine, which is already an established indication for ergotamine. The mechanistic link is therefore strong, and the model's high score is understandable.
 
-- No evidence in the pack is specific to brainstem aura.
-- A report on dihydroergotamine (a close relative) states that it is currently contraindicated in hemiplegic and basilar-type migraine (PMID 20533960).
-- Vasoconstrictor drugs raise concern in aura patients because migraine is an independent stroke risk factor (PMID 16097850).
-
-In short, the target is plausible, but the safety signal argues against use.
+However, there is an important caution. Vasoconstrictors are traditionally used with caution, or avoided, in brainstem aura and hemiplegic-type migraines, because of a theoretical vascular risk. No studies specific to this subtype were found, so this concern cannot be resolved with current evidence.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01799590](https://clinicaltrials.gov/study/NCT01799590) | Phase 2 | Completed | 296 | Long-term safety and efficacy of topiramate (a preventive drug) in Japanese migraine patients. It does not involve ergotamine and does not address brainstem aura (relevance grade C). |
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
+The publications are mainly reviews. The most relevant ones are shown below.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Guideline / evidence assessment | Headache | American Headache Society update on the evidence for acute migraine drugs. General context, not subtype-specific. |
-| [20533960](https://pubmed.ncbi.nlm.nih.gov/20533960/) | 2010 | Clinical report | Headache | Dihydroergotamine in migraine with posterior fossa symptoms. It notes the drug is currently contraindicated in hemiplegic and basilar-type migraine. |
-| [16097850](https://pubmed.ncbi.nlm.nih.gov/16097850/) | 2005 | Review | CNS Drugs | Migraine is an independent risk factor for stroke, with implications for migraine treatment. |
-| [25841032](https://pubmed.ncbi.nlm.nih.gov/25841032/) | 2015 | Cohort / analysis | Neurology | Examines whether acute treatment outcome differs in migraine with aura versus without aura, using sumatriptan. |
-| [25841027](https://pubmed.ncbi.nlm.nih.gov/25841027/) | 2015 | Cohort / analysis | Neurology | Asks whether aura informs migraine severity and treatment response (no abstract available). |
-| [1602293](https://pubmed.ncbi.nlm.nih.gov/1602293/) | 1992 | Double-blind crossover trial | J Intern Med | Ergotamine 2 mg suppository versus ketoprofen 100 mg in migraine **without** aura (50 patients). Ketoprofen was found more efficacious. |
-| [31213753](https://pubmed.ncbi.nlm.nih.gov/31213753/) | 2018 | Double-blind comparative trial | Hippokratia | Ergotamine-based five-component combination versus sumatriptan in migraine **without** aura. |
-| [22211870](https://pubmed.ncbi.nlm.nih.gov/22211870/) | 2012 | Review | Headache | Rescue therapy with triptans, dihydroergotamine and magnesium in emergency and headache clinic settings. |
-| [19006559](https://pubmed.ncbi.nlm.nih.gov/19006559/) | 2008 | Review | Headache | Neurogenic basis of migraine. Vasoconstriction may not be the most important mechanism of ergotamines and triptans. |
-| [20187861](https://pubmed.ncbi.nlm.nih.gov/20187861/) | 2010 | Review | Expert Rev Neurother | Management of sporadic and familial hemiplegic migraine, a related aura subtype. Clinical trials have not been conducted. |
+| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Review | Headache | American Headache Society evidence assessment of drugs for acute migraine treatment in adults |
+| [9009471](https://pubmed.ncbi.nlm.nih.gov/9009471/) | 1997 | Review | Headache | Dosing and administration of ergotamine tartrate and dihydroergotamine; oral ergotamine suits slowly evolving migraine without early nausea or vomiting |
+| [1602293](https://pubmed.ncbi.nlm.nih.gov/1602293/) | 1992 | Double-blind crossover trial | J Intern Med | Ketoprofen vs ergotamine suppositories in acute migraine without aura (50 patients); ketoprofen was found more effective |
+| [31213753](https://pubmed.ncbi.nlm.nih.gov/31213753/) | 2018 | Double-blind trial | Hippokratia | Ergotamine-based five-component combination compared with sumatriptan in migraine without aura |
+| [20187861](https://pubmed.ncbi.nlm.nih.gov/20187861/) | 2010 | Review | Expert Rev Neurother | Management of sporadic and familial hemiplegic migraine; no clinical trials have been conducted in these forms |
+| [7551126](https://pubmed.ncbi.nlm.nih.gov/7551126/) | 1995 | Review | Curr Opin Neurol | Acute treatment of migraine attacks, including ergotamine and dihydroergotamine |
+| [12917936](https://pubmed.ncbi.nlm.nih.gov/12917936/) | 2003 | Review | Cochrane Database Syst Rev | Oral sumatriptan for acute migraine (a different drug) |
+| [7816788](https://pubmed.ncbi.nlm.nih.gov/7816788/) | 1994 | Review | Pharmacol Toxicol | Migraine diagnosis and pathophysiology |
+| [38043968](https://pubmed.ncbi.nlm.nih.gov/38043968/) | 2023 | Review | Handb Clin Neurol | History of migraine |
+| [41833043](https://pubmed.ncbi.nlm.nih.gov/41833043/) | 2026 | Review | CNS Neurol Disord Drug Targets | Pharmacology and pharmacogenomics of anti-migraine drugs |
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN11746P | CAFFOX TABLET (manufacturer: T O Pharma Co Ltd) | Tablet (oral) | Not listed in the source data |
+| SIN11746P | CAFFOX TABLET | Tablet | Not stated |
 
 ## Safety Considerations
 
-The package insert data (warnings and contraindications) is not available. Please refer to the package insert for safety information.
+**Contraindications flagged by the knowledge graph** (these come from network relationships, not from package insert text):
+- Cardiovascular: hypertension, coronary artery disease, thrombophlebitis
+- Liver and kidney: liver failure, liver disease, hepatic coma and encephalopathy, kidney disease, gallbladder disease
+- Blood: thrombocytopenia, neutropenia, agranulocytosis
+- Gastrointestinal: gastric ulcer, peptic ulcer disease
+- Neurological and psychiatric: epilepsy, insomnia, anxiety disorder, neurotic disorder, dysthymic disorder, substance abuse/dependence
+- Respiratory: chronic obstructive pulmonary disease, obstructive sleep apnoea
+- Metabolic and other: porphyria, benign prostatic hyperplasia, pyoureter
 
-The following signals come from the retrieved literature and should not be read as label content:
+**Drug Interactions** (100 interactions recorded; selected examples):
+- **Major**: isometheptene, epinephrine, ephedrine, lorcaserin, clarithromycin, fenfluramine, dexfenfluramine
+- **Moderate**: doxycycline, tetracycline, minocycline, aprepitant, dexamethasone, cimetidine, miconazole, clotrimazole
 
-- **Brainstem/hemiplegic aura**: the dihydroergotamine report (PMID 20533960) states that the drug is currently contraindicated in hemiplegic and basilar-type migraine.
-- **Vascular risk**: migraine is an independent stroke risk factor (PMID 16097850). Ergotamine side effects reported in the literature include myocardial infarction, limb ischaemia and fibrotic changes (PMID 8825693).
-- **Medication-overuse headache**: ergotamine overuse is a recognised cause of chronic daily headache (PMID 41039192).
+The literature also records serious ergotamine adverse effects, including myocardial infarction, limb ischaemia, gangrene, fibrotic valvular heart disease, and medication-overuse headache.
+
+Please refer to the package insert for authoritative warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The only supporting signal is the model score. No trial or paper tests ergotamine in brainstem aura, and the available safety literature argues against vasoconstrictor use in this subtype. Ergotamine is already used for migraine generally, so this is not a strong repurposing signal.
+The mechanistic link is strong because the predicted condition is a subtype of an existing indication. However, the evidence is only at L4, with no clinical trials and no ergotamine studies specific to this subtype. The theoretical vascular risk in brainstem aura and the broad list of flagged contraindications and major interactions add further caution.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications (a blocking gap). Confirm whether brainstem or hemiplegic aura is a labelled contraindication.
-- DrugBank mechanism-of-action data.
-- Any subtype-specific clinical data on ergotamine in brainstem aura, plus a stroke and vascular risk assessment.
+- Package insert warnings and contraindications from the Singapore regulator (HSA), which are currently missing
+- Detailed mechanism of action data (MOA) from DrugBank
+- Clinical or observational evidence on the vascular safety of ergotamine in brainstem aura and hemiplegic-type migraine
+- Review of the approved indication and formulation of the single Singapore licence (a tablet whose indication text is blank)
 
-Other predicted indications in the pack:
-- **Trigeminal autonomic cephalalgia (cluster headache)**: has historical ergotamine use and reviews but no controlled trial (L3, research question).
-- **SUNCT**: shows a negative signal, since dihydroergotamine exacerbated attacks (PMID 25667300).
-- **Remaining predictions**: L4–L5 evidence only.
+### Other predicted indications (for reference)
+
+| Predicted Indication | Score | Evidence Level | Assessment |
+|------|------|------|------|
+| Trigeminal autonomic cephalalgia | 91.67% | L4 | Mostly overlaps with the existing cluster headache indication; literature is narrative reviews |
+| Headache disorder | 93.06% | L4 | Broad parent category with little new information |
+| Neuralgia | 87.79% | L4 | Evidence is mainly historical reports of migrainous neuralgia |
+| Hypnic headache | 92.87% | L5 | Speculative; safety concerns in older patients |
+| SUNCT syndrome | 93.00% | L5 | Attacks are too brief for ergotamine; lamotrigine is typically used |
+| Atrophoderma vermiculata, sciatic neuropathy, glossodynia, coccygodynia | 89.6–92.3% | L5 | No plausible mechanistic link; likely computational artefacts |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

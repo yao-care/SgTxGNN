@@ -2,7 +2,7 @@
 layout: default
 title: Norfloxacin
 parent: Low Evidence (L5)
-nav_order: 715
+nav_order: 723
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,17 +29,21 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Norfloxacin: From Antibacterial Use to Hyperamylasemia
+# Norfloxacin: From Bacterial Infections to Hyperamylasemia
 
 ## One-Sentence Summary
 
-Norfloxacin is a fluoroquinolone antibacterial. The TxGNN model predicts it may be effective for **hyperamylasemia**, a raised blood amylase level. There are currently **0 clinical trials** and **0 publications** supporting this prediction, so it rests on the model score alone.
+Norfloxacin is a fluoroquinolone antibiotic originally used for urinary tract infections, gastrointestinal infections (dysentery, diarrhoeal disease, typhoid and paratyphoid fever, salmonellosis) and respiratory and other bacterial infections.
+The TxGNN model predicts it may be effective for **hyperamylasemia**, with a very high score but **0 clinical trials** and **0 publications** supporting this direction.
+The prediction rests on knowledge-graph proximity alone and should be treated as a computational hypothesis.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration record (norfloxacin is a fluoroquinolone antibacterial) |
+| Original Indication | Typhoid fever, salmonellosis, paratyphoid fever, urinary tract infection, bronchitis, bacterial pneumonia, dysentery and other bacterial infections (the Singapore licence text lists no approved indication, so these come from the knowledge graph) |
 | Predicted New Indication | Hyperamylasemia |
 | TxGNN Prediction Score | 99.70% |
 | Evidence Level | L5 |
@@ -47,50 +51,66 @@ Norfloxacin is a fluoroquinolone antibacterial. The TxGNN model predicts it may 
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Norfloxacin belongs to the fluoroquinolone class of antibacterials. Fluoroquinolones inhibit bacterial DNA gyrase, and norfloxacin is used mainly for urinary and gut infections.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, norfloxacin is a fluoroquinolone that inhibits bacterial DNA gyrase and topoisomerase IV. This explains its efficacy against bacterial infections of the urinary and gastrointestinal tracts.
 
-No mechanistic link to the predicted indication has been identified. Hyperamylasemia is a biochemical finding, not an infection, so an antibacterial would not be expected to treat it. The high score (rank 4,563 in the model's ranking) is a graph-based association with no trials or literature behind it. It should be read as a hypothesis-generating signal, not as evidence of efficacy.
+No identifiable mechanistic link connects this action to hyperamylasemia. Hyperamylasemia is a laboratory finding with varied causes (pancreatic, salivary, renal), not an infection. The high TxGNN score comes from graph-based prediction only, and no trials or literature support it.
 
-Other predictions for this drug include some with limited indirect evidence:
-- **Punctate epithelial keratoconjunctivitis** (score 99.54%) has two case-series papers on microsporidial keratoconjunctivitis. Neither shows that norfloxacin was used.
-- **Septicemic plague** (score 99.37%) has two experimental fluoroquinolone studies in mice. Neither evaluates norfloxacin in plague, and norfloxacin's limited systemic exposure makes septicemia an unlikely fit.
+**Other predictions reviewed** (all with no clinical trials):
+- **Septicemic plague (rank 10, L4, "Research Question")**: the only biologically plausible candidate. *Yersinia pestis* is within the fluoroquinolone antibacterial spectrum, and other fluoroquinolones are used for plague. The retrieved papers are preclinical and do not show norfloxacin-specific efficacy. Norfloxacin's limited serum and tissue levels also make it unsuitable for septicaemia.
+- **Punctate epithelial keratoconjunctivitis (rank 5, L4)**: only microsporidial keratoconjunctivitis case series were found, with no demonstrated norfloxacin benefit.
+- **Remaining predictions** (polyclonal hyperviscosity syndrome, congenital analbuminemia, blood group incompatibility, diffuse scleroderma, monoclonal gammopathy and others): no plausible mechanism and no supporting evidence. For diffuse scleroderma and neuropathy-related conditions, fluoroquinolone safety warnings argue for caution.
 
-Both are classed as research questions, not actionable candidates.
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for hyperamylasemia.
+
+---
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN08998P | LOXONE-400 TABLET 400 mg (Micro Labs Ltd) | Tablet, film coated | Not listed in the registration record |
+| SIN08998P | LOXONE-400 TABLET 400 mg (Micro Labs Ltd) | Film-coated tablet | Not stated in the licence data |
 
-Available route: oral only.
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found for this drug in the queried source.
+- **Contraindications / risk conditions (from knowledge-graph drug-disease edges, not label text)**: long QT syndrome, torsades de pointes, epilepsy, liver failure and liver disease, kidney disease, tendinitis, peripheral neuropathy, rhabdomyolysis, diabetes mellitus, thrombocytopenia, psychotic and other mental disorders, and potassium deficiency.
+- **Drug Interactions**: 100 interactions were recorded. Major-level examples include:
+  - Corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone), which raise tendon-injury risk
+  - Bupropion
+  - Chlorpropamide
+- **Moderate-level interactions** include antidiabetic agents (metformin, pioglitazone, acarbose, alogliptin, canagliflozin, albiglutide), calcium salts, famotidine, loperamide and aspirin. Several antidiabetic agents appear here, so blood-glucose monitoring is relevant.
+
+Please refer to the package insert for authoritative warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting trials or literature and no plausible mechanism. It is evidence level L5, a model score only. The package insert data needed for safety screening is also missing.
+The hyperamylasemia prediction has no clinical trials, no literature and no plausible mechanism (Evidence Level L5). The safety profile also includes many risk conditions and major interactions. Of the predictions reviewed, only septicemic plague has a plausible class-level rationale, and it is limited by norfloxacin's poor systemic exposure.
 
 **To proceed, the following is needed:**
-- The HSA package insert (warnings, contraindications and approved indication text) for SIN08998P
-- Mechanism of action data from DrugBank, to test for any biological link to hyperamylasemia
-- A literature review of whether fluoroquinolones affect amylase levels, in either direction
-- Route compatibility assessment (currently pending)
+- Package insert warnings and contraindications from HSA (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- Any clinical or mechanistic evidence linking norfloxacin to hyperamylasemia, or norfloxacin-specific data for plague, before reconsidering
+- A review of the other predicted indications if a broader repurposing assessment is wanted
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

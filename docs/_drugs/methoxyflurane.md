@@ -2,7 +2,7 @@
 layout: default
 title: Methoxyflurane
 parent: Low Evidence (L5)
-nav_order: 653
+nav_order: 659
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,110 +29,100 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Methoxyflurane: From Acute Pain to Insomnia
+# Methoxyflurane: From Inhaled Acute Pain Relief to Insomnia
 
 ## One-Sentence Summary
 
-Methoxyflurane is an inhaled analgesic (marketed in Singapore as Penthrox) used for short-term relief of acute trauma pain.
-The TxGNN model ranks **insomnia** as its top predicted new indication, with a high score of 98.0%. This prediction rests on the graph model alone, with **0 clinical trials** and **0 publications** supporting it.
-Among the 10 predicted indications, only **anxiety** has meaningful supporting data (5 trials, 20 publications), and that data mostly concerns procedural anxiety.
+Methoxyflurane is a volatile inhaled agent, marketed in Singapore as Penthrox, and published studies describe it mainly as a short-acting analgesic and sedative for procedural and acute pain.
+The TxGNN model predicts it may be effective for **insomnia**, but **no clinical trials and no publications** were found for this indication, so the prediction rests on the model score alone.
+Among the other predictions, **anxiety** has the most supporting literature (17 publications, none of them registered trials).
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Acute pain (inhaled analgesic). The Singapore licence record does not state an indication text. |
+| Original Indication | Not stated in the Singapore registration data. Published literature describes use as an inhaled analgesic for acute and procedural pain. |
 | Predicted New Indication | Insomnia |
 | TxGNN Prediction Score | 98.01% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the source record. Based on general class pharmacology, methoxyflurane is a halogenated ether anaesthetic that enhances GABA-A and glycine receptor activity. That makes a sedative effect plausible, which is the likely basis for the model linking it to insomnia.
+Detailed mechanism-of-action data are not available in the data compiled for this report. Methoxyflurane is a volatile central nervous system (CNS) depressant with anaesthetic and analgesic properties. A sedative effect is therefore plausible, which could loosely connect it to sleep.
 
-The link is weak in practice. Anaesthetic-induced unconsciousness is not physiological sleep. A short-acting inhaled agent with dose-related kidney toxicity is also a poor fit for a chronic condition like insomnia. Nothing in the retrieved data (no trials, no literature) supports the prediction, so the score reflects graph proximity only.
+The link is weak, however. Methoxyflurane is an acute, short-acting inhaled agent used for brief procedures. Insomnia is usually a chronic condition needing repeated, convenient dosing, and nothing in the data supports chronic or repeated use of an inhaled anaesthetic for sleep. The high score most likely reflects similarity to other sedating drugs in the model's knowledge graph, not direct evidence.
+
+For context, the other predicted indications are mostly migraine variants, mood and anxiety disorders, and two rare skin conditions. The skin conditions have no plausible mechanistic link and are likely artefacts of the graph. The only prediction with meaningful supporting literature is anxiety. There, mouse studies show diazepam-like effects of methoxyflurane, and several procedural studies report anxiety relief alongside pain relief. That benefit appears to be secondary to analgesia and sedation, not a primary indication.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for insomnia.
+Currently no related clinical trials registered.
+
+---
 
 ## Literature Evidence
 
 Currently no related literature available for insomnia.
 
-## Other Predicted Indications
-
-Nine other predicted indications were scored, all at 94–98%. Only anxiety has usable evidence.
-
-| Predicted Indication | Score | Evidence Level | Comment |
-|------|------|------|------|
-| Migraine disorder | 97.96% | L5 | Extension from acute pain is conceivable, but no supporting trials or literature |
-| Migraine with brainstem aura | 97.62% | L5 | Likely reflects graph proximity to the parent migraine node |
-| Dysthymic disorder | 97.16% | L5 | No plausible mechanism for a chronic mood disorder; repeated exposure raises safety concerns |
-| Migraine with or without aura, susceptibility to | 96.51% | L5 | The 20 retrieved papers are about epilepsy/migraine genetics, and none involve methoxyflurane |
-| Atrophoderma vermiculata | 95.71% | L5 | Rare skin condition; likely a graph artifact |
-| Neurotic disorder | 94.95% | L5 | Broad legacy category overlapping with anxiety; no term-specific evidence |
-| Ulerythema ophryogenesis | 94.95% | L5 | Rare skin condition; likely a graph artifact |
-| **Anxiety disorder** | 94.42% | L4 | Preclinical and case-level data plus procedural trials, described below |
-| **Anxiety** | 94.40% | **L3** | Strongest signal, described below |
-
-### Anxiety (strongest signal)
-
-Methoxyflurane shows diazepam-like and anxiolytic-like effects in mouse studies. Clinically, procedural anxiety relief has been documented alongside analgesia. The signal is best framed as **procedural anxiolysis**, not treatment of an anxiety disorder, because no trial has anxiety as its primary endpoint.
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT07192198](https://clinicaltrials.gov/study/NCT07192198) | Phase 2 | Completed | 40 | Penthrox as an adjunct to local anaesthetic in urologic procedures; assesses pain tolerance and anxiety. No results available. |
-| [NCT07017452](https://clinicaltrials.gov/study/NCT07017452) | Phase 3 | Not yet recruiting | 48 | Methoxyflurane + lorazepam + oral opioid vs deep IV sedation during Rezum therapy for BPH (non-inferiority) |
-| [NCT04618497](https://clinicaltrials.gov/study/NCT04618497) | Phase 3 | Completed | 40 | Pilot of methoxyflurane for pain control after musculoskeletal injury in the emergency department |
-| [NCT06495372](https://clinicaltrials.gov/study/NCT06495372) | Phase 3 | Recruiting | 192 | Methoxyflurane vs placebo for pain in oral and dental emergencies |
-| [NCT06750302](https://clinicaltrials.gov/study/NCT06750302) | Phase 1/2 | Recruiting | 100 | Methoxyflurane vs placebo for pain in coblation and sinus procedures |
-| [NCT07295054](https://clinicaltrials.gov/study/NCT07295054) | Phase 4 | Not yet recruiting | 110 | 3 mL inhaled methoxyflurane vs placebo for IUD insertion pain |
+For reference, the strongest evidence among the other predictions concerns anxiety in procedural settings. This is indirect evidence, and anxiety was not clearly the primary endpoint in these studies.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [40769179](https://pubmed.ncbi.nlm.nih.gov/40769179/) | 2025 | RCT | Can Urol Assoc J | Methoxyflurane as an adjunct to local anaesthesia for pain and anxiety in scrotal surgery |
-| [38923825](https://pubmed.ncbi.nlm.nih.gov/38923825/) | 2024 | RCT | J Med Imaging Radiat Oncol | MONITOR trial: methoxyflurane for procedural sedation and pain in interventional radiology |
-| [24644183](https://pubmed.ncbi.nlm.nih.gov/24644183/) | 2014 | RCT | BMJ Support Palliat Care | Double-blind placebo-controlled study for bone marrow biopsy pain |
-| [21884146](https://pubmed.ncbi.nlm.nih.gov/21884146/) | 2011 | Clinical study | Aust Dent J | Methoxyflurane vs nitrous oxide for dental anxiety in third molar extraction |
-| [40170612](https://pubmed.ncbi.nlm.nih.gov/40170612/) | 2025 | Review | Curr Opin Support Palliat Care | Use in cancer patients for procedures causing anxiety, discomfort and pain |
-| [36970443](https://pubmed.ncbi.nlm.nih.gov/36970443/) | 2023 | Cohort | J Contemp Brachytherapy | Pain and symptom relief for gynaecologic brachytherapy applicator removal |
-| [22925206](https://pubmed.ncbi.nlm.nih.gov/22925206/) | 2014 | Case series | Int Wound J | Pain and anxiety relief during burn wound care |
-| [10036607](https://pubmed.ncbi.nlm.nih.gov/10036607/) | 1999 | Preclinical (mouse) | Exp Clin Psychopharmacol | Methoxyflurane fully substituted for diazepam in discrimination tests |
-| [8894586](https://pubmed.ncbi.nlm.nih.gov/8894586/) | 1996 | Preclinical (mouse) | Eur J Pharmacol | Effects of abused inhalants in the elevated plus-maze, an anxiety model |
-| [5143658](https://pubmed.ncbi.nlm.nih.gov/5143658/) | 1971 | Case report | Br J Psychiatry | Report of dependence on a related agent (Pentrane) |
+| [38923825](https://pubmed.ncbi.nlm.nih.gov/38923825/) | 2024 | RCT | Journal of Medical Imaging and Radiation Oncology | MONITOR trial: methoxyflurane for procedural sedation and pain in interventional radiology |
+| [40769179](https://pubmed.ncbi.nlm.nih.gov/40769179/) | 2025 | RCT | Canadian Urological Association Journal | Methoxyflurane added to local anaesthesia for pain and anxiety in scrotal surgery |
+| [24644183](https://pubmed.ncbi.nlm.nih.gov/24644183/) | 2014 | RCT | BMJ Supportive & Palliative Care | Randomised, double-blind, placebo-controlled study of procedural pain in bone marrow biopsy |
+| [23810328](https://pubmed.ncbi.nlm.nih.gov/23810328/) | 2013 | RCT | Gastrointestinal Endoscopy | Patient-controlled methoxyflurane vs. endoscopist-provided sedation for colonoscopy |
+| [22925206](https://pubmed.ncbi.nlm.nih.gov/22925206/) | 2014 | Case series | International Wound Journal | Pain and anxiety relief during burn wound care |
+| [40170612](https://pubmed.ncbi.nlm.nih.gov/40170612/) | 2025 | Review | Current Opinion in Supportive and Palliative Care | Applications of inhaled methoxyflurane in patients with cancer |
+| [8894586](https://pubmed.ncbi.nlm.nih.gov/8894586/) | 1996 | Preclinical | European Journal of Pharmacology | Inhalants including methoxyflurane showed anxiety-modulating effects in a mouse elevated plus-maze |
+
+---
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN14854P | PENTHROX INHALATION LIQUID 99.9% (Medical Developments International Limited) | Inhalant | Not stated in the licence record |
+| SIN14854P | PENTHROX INHALATION LIQUID 99.9% (Medical Developments International Limited) | Inhalant | Not listed in the registration data |
+
+---
 
 ## Safety Considerations
 
-- **Drug Interactions**: No interactions were found in the database query.
-- **Risk considerations noted in the prediction rationale**: dose-related kidney toxicity, liver toxicity, and abuse/dependence potential. These weigh against repeated or chronic use.
+- **Drug Interactions**: The interaction screening found 51 interacting drugs. The 20 listed in the data compiled for this report are:
+  - **Major**: doxycycline, tetracycline, minocycline, epinephrine, and iothalamic acid.
+  - **Moderate**:
+    - Amphotericin B (including the lipid complex, cholesteryl sulfate and liposomal forms).
+    - Aminosalicylates: mesalazine, balsalazide, olsalazine and sulfasalazine.
+    - Opioids: morphine and opium.
+    - Antibiotics: vancomycin, neomycin and streptomycin.
+    - Others: exenatide and ethanol.
+- **Renal toxicity**: Nephrotoxicity at high doses is a known concern with methoxyflurane. It matters most for repeated exposure, which a chronic condition such as insomnia would involve.
 
-Please refer to the package insert for full warnings and contraindications.
+Please refer to the package insert for the full warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (insomnia) has no trial or literature support, and the drug's profile (short-acting, organ toxicity, dependence risk) does not suit a chronic sleep disorder. The anxiety signal (L3) is more promising, but it reflects procedural anxiolysis alongside pain relief, not treatment of an anxiety disorder.
+The insomnia prediction has no clinical trials or publications behind it (Evidence Level L5). Methoxyflurane is an acute inhaled agent, and repeated or chronic exposure raises renal safety concerns. The mechanistic link is plausible only in a general sense.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from the HSA (this blocks safety screening)
-- Mechanism-of-action data from DrugBank
-- For anxiety: confirmation of whether the completed and ongoing trials measured anxiety prospectively, especially NCT07192198
-- A safety assessment for repeated dosing
-- For insomnia: no evidence at present, so a preclinical or pilot rationale would be needed before any further evaluation
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Mechanism-of-action data for methoxyflurane
+- The package insert warnings and contraindications from the Singapore regulator (HSA). Their absence currently blocks any safety screening.
+- Preclinical or early clinical studies of sedation or sleep outcomes, with a clear rationale for a route and dosing schedule suited to sleep
+- If the team wants to pursue a better-supported direction, a separate review of **anxiety (procedural anxiety)**. This would need studies that treat anxiety as a primary endpoint and a repeated-exposure safety assessment.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

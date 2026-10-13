@@ -2,7 +2,7 @@
 layout: default
 title: Fentanyl
 parent: Low Evidence (L5)
-nav_order: 421
+nav_order: 425
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,72 +29,106 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Fentanyl: From Severe Pain to Nephrogenic Syndrome of Inappropriate Antidiuresis
+# Fentanyl: From Opioid Analgesia to Nephrogenic Syndrome of Inappropriate Antidiuresis
 
 ## One-Sentence Summary
 
-Fentanyl is a potent opioid analgesic, marketed in Singapore as a transdermal patch and a sublingual tablet for severe pain. The TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**. However, **no clinical trials and no publications** currently support this direction, and the mechanism argues against it.
+Fentanyl is a potent mu-opioid analgesic marketed in Singapore as transdermal patches, sublingual tablets and injections.
+The TxGNN model's top-ranked prediction is **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**, but this rests on computation alone, with **0 clinical trials** and **0 publications** supporting it.
+Among the other predictions, only myofascial pain syndrome (1 Phase 3 trial, 1 review) and tendinitis (perioperative pain literature) have any meaningful supporting data, and even these support symptom relief rather than treatment of the underlying disease.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Severe pain (analgesia). The registration records provided contain no indication text. |
+| Original Indication | Not stated in the available registration data (fentanyl is a mu-opioid analgesic used for moderate-to-severe pain, anaesthesia and breakthrough pain) |
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
-| TxGNN Prediction Score | 99.46% (rank 6,786) |
+| TxGNN Prediction Score | 99.46% |
 | Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 18 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the source data. Fentanyl is a mu-opioid receptor agonist, and its efficacy in pain relief is well established.
+Detailed mechanism of action data is not available in the data compiled for this report. Fentanyl is known to be a potent mu-opioid receptor agonist. It is used for analgesia and anaesthesia, and its effect in pain has been established clinically.
 
-The predicted disease is caused by gain-of-function variants in the AVPR2 gene. These variants make the kidney concentrate urine inappropriately, leading to low blood sodium. Mu-opioid agonism has no plausible way to correct this defect, and opioids can even promote antidiuresis. The very high graph score appears to be an artifact of the knowledge graph rather than a real pharmacological signal, so the prediction should not be considered credible on mechanistic grounds.
+For the top prediction, NSIAD, the mechanistic link is weak. NSIAD is caused by gain-of-function mutations in the vasopressin V2 receptor (AVPR2). Opioids can influence vasopressin release, but this does not address a receptor-level defect. There is no plausible therapeutic rationale, and the high score should be read as a computational artefact.
+
+Predictions with some mechanistic plausibility are those tied to pain:
+- **Myofascial pain syndrome (rank 4, score 98.09%)**: Fentanyl's analgesic activity in chronic pain makes this plausible. However, long-term opioid use in musculoskeletal pain carries significant risks.
+- **Tendinitis (rank 10, score 97.04%)**: Evidence supports perioperative analgesia (e.g., after rotator cuff surgery), not treatment of tendon pathology.
+
+Other predictions (Tourette syndrome, trichotillomania, manic bipolar disorder, migraine with brainstem aura, methemoglobinemia, myositis fibrosa, idiopathic granulomatous myositis) lack a credible therapeutic rationale. For trichotillomania, opioid antagonists such as naltrexone, not agonists, are the logical direction.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Trials are shown for the predicted indication where any exist. For the top prediction (NSIAD), none are registered. The only trial found across the predictions is for myofascial pain syndrome.
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT00343733](https://clinicaltrials.gov/study/NCT00343733) | Phase 3 | Completed | 120 | 12-week open-label study with three within-patient double-blind placebo-controlled periods of OraVescent fentanyl citrate for breakthrough pain in opioid-tolerant patients with non-cancer chronic pain. Its relevance to myofascial pain specifically is unverified. |
+
+For NSIAD, currently no related clinical trials are registered.
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available.
+For NSIAD, currently no related literature is available. The most relevant publications found for other predicted indications are listed below.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [23809446](https://pubmed.ncbi.nlm.nih.gov/23809446/) | 2013 | RCT | Arthroscopy | Postoperative fentanyl patch versus subacromial bupivacaine infusion for pain after arthroscopic shoulder surgery (tendinitis prediction) |
+| [21419546](https://pubmed.ncbi.nlm.nih.gov/21419546/) | 2011 | Review | J Oral Maxillofac Surg | Long-term opioid use in temporomandibular joint dysfunction; evidence neither supports nor refutes long-term use in this condition (myofascial pain prediction) |
+| [37871953](https://pubmed.ncbi.nlm.nih.gov/37871953/) | 2023 | Systematic review | CMAJ | Predictors of fatal and nonfatal overdose after opioid prescription for chronic pain (retrieved for manic bipolar disorder; a safety finding, not evidence of benefit) |
+| [12369265](https://pubmed.ncbi.nlm.nih.gov/12369265/) | 2002 | Small experimental study | Prog Neuropsychopharmacol Biol Psychiatry | Fentanyl-induced prolactin response used as an opiate sensitivity test in stereotypic movement disorder and trichotillomania; a diagnostic probe, not a therapeutic trial |
+| [15102255](https://pubmed.ncbi.nlm.nih.gov/15102255/) | 2001 | Case report | Pain Medicine | Limited transdermal fentanyl absorption in two patients with systemic sclerosis, one treated for deltoid tendinitis |
+
+Much of the remaining retrieved literature consists of keyword matches (e.g., methemoglobinemia caused by other agents, unrelated nerve block studies, a veterinary study) and does not support any therapeutic use.
+
+---
 
 ## Singapore Market Information
 
-18 registrations are listed. The five main ones are shown below. The provided records contain no approved-indication text.
+Fentanyl holds 18 valid single-ingredient registrations in Singapore. The approved indication text is not available in the registration data. Main authorizations:
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN08332P | DUROGESIC TRANSDERMAL SYSTEM 75 mcg/hr | Patch |
-| SIN08335P | DUROGESIC TRANSDERMAL SYSTEM 50 mcg/hr | Patch |
-| SIN08334P | DUROGESIC TRANSDERMAL SYSTEM 25 mcg/hr | Patch |
-| SIN15148P | ABSTRAL SUBLINGUAL TABLET 200 mcg | Tablet |
-| SIN15147P | ABSTRAL SUBLINGUAL TABLET 100 mcg | Tablet |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN08332P | DUROGESIC Transdermal System 75 mcg/hr | Patch | Not available |
+| SIN15148P | ABSTRAL Sublingual Tablet 200 mcg | Tablet | Not available |
+| SIN13621P | FANTAMAX TTS MATRIX 50 μg/h | Patch | Not available |
+| SIN15802P | Fentanyl Kalceks Solution for Injection 0.05 mg/ml | Injection, solution | Not available |
+| SIN01113P | Fentanyl Injection 0.1 mg/2 ml | Injection | Not available |
 
-Other dosage forms recorded for fentanyl are injection and injection solution.
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease contraindication signals (knowledge graph, not label text)**: The TxGNN knowledge graph links fentanyl to contraindications in cardiovascular conditions (hypertension, orthostatic hypotension, long QT syndrome, torsades de pointes), hepatic and renal disease, COPD and asthma, pancreatitis, gallbladder disease, inflammatory bowel disease, benign prostatic hyperplasia, anxiety and neurotic disorders, and substance abuse/dependence.
+- **Drug Interactions**: 100 interactions were identified. Major interactions include alvimopan, aprepitant, bupropion, clarithromycin, clotrimazole, dexamethasone, dolasetron, fenfluramine, dexfenfluramine, granisetron and lorcaserin. Moderate interactions include atropine, cimetidine, clidinium, dicyclomine, dronabinol, eluxadoline, glycopyrronium and hyoscyamine.
+- **Class risks relevant to the predictions**: Fentanyl is a potent mu-opioid with high abuse potential and a risk of respiratory depression and overdose. These risks are particularly unfavourable for chronic or psychiatric indications. Please refer to the package insert for full warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no trials or literature behind it (L5), and the disease mechanism (AVPR2 gain-of-function) is not something a mu-opioid agonist could correct. The high score most likely reflects a knowledge-graph artifact. Fentanyl also carries dependence and respiratory-depression risks that cannot be justified without supporting evidence.
-
-**Other predicted candidates:**
-- Among the other predictions, only **myofascial pain syndrome** reached the next screening stage (Research Question). It would be a symptomatic extension of fentanyl's analgesic use, not true repurposing.
-- Its one Phase 3 trial (NCT00343733) needs its study population checked against the registry record.
-- Long-term opioid use for chronic musculoskeletal pain carries significant safety concerns.
+The top prediction (NSIAD) is purely computational, with no trials, no literature and no plausible mechanism. The two predictions with some support (myofascial pain syndrome and tendinitis) reflect fentanyl's known analgesic effect rather than a new disease-modifying indication, and carry substantial opioid-related risks. These two could be considered further as research questions only.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications
-- Mechanism of action data (for example, from DrugBank)
-- Any direct clinical or preclinical evidence linking fentanyl to NSIAD, which is unlikely to exist
+- Package insert warnings and contraindications from HSA, and the approved indication text for the Singapore registrations
+- Detailed mechanism of action data
+- For myofascial pain: confirmation of the condition and intervention in NCT00343733, and a risk-benefit assessment of long-term opioid use
+- For NSIAD and the other predictions: no action recommended unless new mechanistic or clinical evidence emerges
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

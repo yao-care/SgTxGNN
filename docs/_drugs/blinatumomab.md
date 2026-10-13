@@ -2,7 +2,7 @@
 layout: default
 title: Blinatumomab
 parent: Low Evidence (L5)
-nav_order: 166
+nav_order: 167
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,101 +29,105 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Blinatumomab: From B-cell Precursor Acute Lymphoblastic Leukemia to Primary Release Disorder of Platelets
+# Blinatumomab: From B-Cell Leukaemia Treatment to Primary Release Disorder of Platelets
 
 ## One-Sentence Summary
 
-Blinatumomab is a CD19×CD3 bispecific T-cell engager, developed for B-cell precursor acute lymphoblastic leukemia (ALL).
-The TxGNN model predicts it may be effective for **primary release disorder of platelets**, but the evidence is weak: **2 clinical trials** were linked, both in ALL and not in platelet disorders, and **0 publications** were found.
-The high score is most likely a knowledge-graph artifact, and the prediction may even be harmful.
-
----
+Blinatumomab is a bispecific T-cell engager (CD19 x CD3) registered in Singapore as BLINCYTO, and the HSA licence record compiled for this report does not list an approved indication.
+The TxGNN model predicts it may be effective for **primary release disorder of platelets**, but **0 clinical trials** and **0 publications** currently support this direction.
+This is a model-only prediction with no supporting evidence, and no plausible mechanistic link has been identified.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | B-cell precursor acute lymphoblastic leukemia (the Singapore license record gives no indication text; this is inferred from the linked trials) |
+| Original Indication | Not stated in the Singapore licence record |
 | Predicted New Indication | Primary release disorder of platelets |
 | TxGNN Prediction Score | 95.20% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the record. Blinatumomab is a CD19×CD3 bispecific T-cell engager: it redirects T cells to kill CD19-positive B cells. Its use in B-cell leukemia follows directly from this mechanism.
+Currently, detailed mechanism of action data is not available in the compiled records. Based on known pharmacology, blinatumomab is a bispecific T-cell engager that binds CD19 on B cells and CD3 on T cells. This brings T cells to B cells and triggers their destruction.
 
-The predicted indication does not follow from it. Primary release disorder of platelets is a defect in platelet granule secretion. Platelets do not express CD19, so there is no plausible pathway by which B-cell depletion or T-cell redirection would correct it. Cytopenias, including thrombocytopenia, are labeled adverse effects of blinatumomab, so use in a platelet disorder could be harmful.
+The predicted conditions, platelet release disorders, are caused by defects in platelet granules or signalling. They are not caused by B-cell disease. The review of this prediction found no mechanistic link. The high score (0.952) reflects the model's network-based inference only. Blinatumomab's own risks, including cytopenias and cytokine release syndrome, could worsen the haematological status of these patients.
 
-The other nine top-ranked predictions also lack support:
-- **Platelet and bleeding disorders** (Glanzmann thrombasthenia, pseudo-von Willebrand disease, constitutional thrombocytopenia, collagen receptor defect): each involves a defect that blinatumomab does not act on.
-- **Other conditions** (drug-induced osteoporosis, diabetic retinopathy, psoriasis, Ledderhose disease, penile fibromatosis): no supporting mechanism or evidence was found.
+Other top-ranked predictions are also hard to justify mechanistically:
 
----
+| Rank | Predicted Disease | Score | Assessment |
+|------|------|------|------|
+| 2 | Glanzmann thrombasthenia | 95.02% | Inherited platelet integrin defect, unrelated to B cells |
+| 3 | Pseudo-von Willebrand disease | 94.13% | Gain-of-function platelet receptor variant, no link to CD19/CD3 |
+| 4 | Drug-induced osteoporosis | 92.70% | Direction of B-cell effect on bone is uncertain; co-administered corticosteroids are a confounder |
+| 5 | Severe nonproliferative diabetic retinopathy | 89.25% | Microvascular disease, and T-cell activation is a concern in a chronic non-cancer setting |
+| 6 | Psoriasis | 88.92% | T-cell driven, so strong T-cell activation could theoretically worsen it |
+| 7 | Ledderhose disease | 88.41% | Fibroproliferative disorder, no link to CD19 |
+| 8 | Haemorrhagic disorder due to constitutional thrombocytopenia | 87.88% | Blinatumomab-related cytopenias could worsen bleeding |
+| 9 | Penile fibromatosis | 87.80% | Likely reflects shared fibromatosis network features, not a drug-specific mechanism |
+| 10 | Bleeding diathesis due to a collagen receptor defect | 87.72% | No known activity on these receptors, and haematological toxicity could aggravate bleeding |
+
+All ten predictions are L5 with no registered trials or literature.
 
 ## Clinical Trial Evidence
 
-Both linked trials were graded "C" (not direct evidence for this indication). Neither studied a platelet disorder.
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT04524455](https://clinicaltrials.gov/study/NCT04524455) | Phase 1 | Completed | 17 | Safety, tolerability and MTD/RP2D of blinatumomab plus AMG 404 in adults with relapsed/refractory B-ALL. No platelet disorder population. |
-| [NCT03476239](https://clinicaltrials.gov/study/NCT03476239) | Phase 3 | Completed | 121 | Open-label study of the hematological response (CR/CRh*) to blinatumomab in Chinese adults with relapsed/refractory B-precursor ALL. Leukemia endpoints only, so it does not support the predicted indication. |
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN15103P | BLINCYTO POWDER FOR INFUSION 35 MCG/VIAL | Injection, powder, lyophilized, for solution | Not provided in the registry record |
-
-Manufacturers: Boehringer Ingelheim Pharma GmbH & Co. KG and Amgen Technology (Ireland) Unlimited Company. The only route is injectable.
-
----
+| SIN15103P | BLINCYTO POWDER FOR INFUSION 35 MCG/VIAL | Injection, powder, lyophilized, for solution | Not stated in the licence record |
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Immunotherapy (bispecific T-cell engager), not a conventional cytotoxic |
-| Myelosuppression Risk | Cytopenias, including thrombocytopenia, are labeled adverse effects. Please refer to the package insert for grading. |
+| Cytotoxicity Classification | Immunotherapy (bispecific T-cell engager) |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions. Cytopenias are a recognised concern. |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | CBC (with platelet count) is essential given the cytopenia risk. Please refer to the package insert for the full monitoring schedule. |
+| Monitoring Items | Complete blood count, liver and renal function, and monitoring for cytokine release syndrome |
 | Handling Protection | Please refer to the package insert warnings and precautions |
-
----
 
 ## Safety Considerations
 
-- **Key Warnings**: Cytopenias, including thrombocytopenia, are labeled adverse effects. Blinatumomab's T-cell activation carries a risk of cytokine release syndrome. Both are relevant to the predicted platelet and autoimmune-type indications.
+- **Drug Interactions**: The interaction screening returned 100 potential interactions. Examples of those rated **Major**:
+  - Bupropion
+  - Deferiprone
+  - Iohexol
+  - Iopamidol
+  - Samarium (153Sm) lexidronam
 
-No DDI records were found, and structured warnings and contraindications are unavailable. Please refer to the package insert for full safety information.
+  Examples of those rated **Moderate**:
+  - Warfarin
+  - Dicoumarol
+  - Naltrexone
+  - Theophylline
+  - Hydrocodone
+  - Chloramphenicol
 
----
+  Warfarin and dicoumarol deserve particular attention if bleeding-related conditions were ever considered.
+
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone (L5). The two linked trials are in ALL, and no literature exists. The mechanism has no plausible link to platelet release disorders, and thrombocytopenia is a known adverse effect, so the prediction may be harmful. The same holds for the other nine top-ranked predictions.
+The predictions rest only on model scores, with no clinical trials or literature. No credible mechanistic link to platelet disorders exists. Blinatumomab's cytopenia and cytokine release risks could worsen these conditions.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications (currently blocking safety screening)
-- Mechanism-of-action data from DrugBank
-- A credible biological rationale linking CD19-directed T-cell redirection to platelet granule secretion, plus any preclinical or clinical evidence in this population
-- A safety assessment of thrombocytopenia and cytokine release syndrome risk in non-oncology patients
+- The package insert from HSA, covering warnings, contraindications and the approved indication
+- Mechanism of action data from DrugBank
+- A plausible biological rationale and preclinical evidence linking CD19/CD3 engagement to the predicted condition
+- A benefit-risk assessment for non-cancer use, including cytokine release syndrome and cytopenias
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

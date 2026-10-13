@@ -2,7 +2,7 @@
 layout: default
 title: Tyrothricin
 parent: Low Evidence (L5)
-nav_order: 1028
+nav_order: 1038
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tyrothricin: From a Topical Antibacterial to Insomnia (Top Prediction), with Gastroenteritis as the Only Evidence-Backed Lead
+# Tyrothricin: From a Topical Throat Antibacterial to Insomnia (Top-Ranked Prediction)
 
 ## One-Sentence Summary
 
-Tyrothricin is a topical antibacterial peptide mixture (gramicidin + tyrocidine), marketed in Singapore as a throat lozenge.
-The TxGNN model's top prediction is **insomnia** (score 91.5%), but it has **0 clinical trials and 0 publications** behind it and is most likely a knowledge-graph artifact.
-The only predicted indication with any supporting literature is **gastroenteritis** (rank 4), with **6 historical reports from 1946-1954** and no modern controlled evidence.
+Tyrothricin is a topical antibiotic mixture (gramicidin and tyrocidine) that is marketed in Singapore as a throat lozenge.
+The TxGNN model ranks **insomnia** as its top predicted new indication, but **no clinical trials and no publications** support this prediction.
+The evidence is model prediction only, and no plausible mechanistic link has been identified.
 
 ---
 
@@ -43,10 +43,10 @@ The only predicted indication with any supporting literature is **gastroenteriti
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration data (marketed as a throat lozenge) |
-| Predicted New Indication | Insomnia (rank 1); gastroenteritis (rank 4) is the only one with literature |
-| TxGNN Prediction Score | 91.5% (insomnia); 77.5% (gastroenteritis) |
-| Evidence Level | L5 (insomnia); L3 (gastroenteritis) |
+| Original Indication | Not stated in the Singapore licence data (the lozenge is a throat product) |
+| Predicted New Indication | Insomnia |
+| TxGNN Prediction Score | 91.52% |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
@@ -55,55 +55,50 @@ The only predicted indication with any supporting literature is **gastroenteriti
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the Evidence Pack. Tyrothricin is a mixture of gramicidin and tyrocidine, which disrupt bacterial cell membranes. It is used locally and acts mainly against Gram-positive organisms.
+Detailed mechanism of action data is not available from the data compiled for this report. Based on known information, tyrothricin is a mixture of gramicidin and tyrocidine that disrupts bacterial cell membranes. Because of haemolytic and systemic toxicity, its use is limited to local or topical application, such as in lozenges for the mouth and throat.
 
-**Insomnia (rank 1):** There is no plausible mechanistic link. The drug has no known central nervous system or sleep-related target, so the high score is likely a graph-proximity artifact.
+For insomnia, **no plausible mechanistic link was identified**. An antibacterial peptide mixture has no recognised action on sleep regulation, and the high score most likely reflects a computational association in the knowledge graph rather than a biological rationale.
 
-**Gastroenteritis / enterocolitis (ranks 4 and 2):** These are the only predictions with a plausible rationale. Local antibacterial action in the gut could matter in infectious diarrhoea. However:
-- Dysentery is mainly caused by Gram-negative organisms (Shigella), so the mechanistic fit is imperfect.
-- Most historical reports concern gramicidin, one component, rather than the full tyrothricin mixture.
-- Systemic exposure carries a hemolysis risk, which limits non-topical use.
-
-**Other predictions (ranks 3 and 5-10):** The neuromuscular and congenital myasthenic syndromes, osteoarthritis, irritable bowel syndrome and small intestine disease have no credible or only speculative mechanisms, and no evidence. Gramicidin forms cation channels in membranes, which superficially suggests an ion-channel link to neuromuscular disease. This is not a validated rationale, and its non-selective membrane toxicity argues against use.
+The other top-ranked predictions are also weak:
+- **Enterocolitis and gastroenteritis:** Antibacterial activity against Gram-positive gut flora is conceptually plausible, but tyrothricin is not used orally or systemically because of toxicity. The only retrieved record is a 1946 preliminary report on oral tyrothricin in chronic ulcerative colitis, which is a different disease and is of low methodological quality.
+- **Congenital myasthenic syndromes and neuromuscular junction disease:** There is no credible mechanism. The signal is likely a knowledge-graph artefact.
+- **Irritable bowel syndrome, osteoarthritis and small intestine disease:** No established mechanism and no clinical evidence.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for insomnia or for any of the other nine predicted indications.
 
 ---
 
 ## Literature Evidence
 
-No literature was found for insomnia. The table below lists the literature found for **gastroenteritis**, the only predicted indication with publications. No abstracts were available, so the findings are summarised from the titles.
+Currently no related literature available for insomnia.
+
+For the fourth-ranked prediction (gastroenteritis), one historical record was retrieved:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [20248574](https://pubmed.ncbi.nlm.nih.gov/20248574/) | 1946 | Clinical study (uncontrolled, preliminary) | Proc Annu Meet Cent Soc Clin Res | Oral tyrothricin in chronic ulcerative colitis, with clinical and bacteriologic evaluation |
-| [14787677](https://pubmed.ncbi.nlm.nih.gov/14787677/) | 1950 | Clinical report (historical) | Sovetskaia meditsina | Gramicidin therapy of acute dysentery |
-| [14876589](https://pubmed.ncbi.nlm.nih.gov/14876589/) | 1951 | Clinical report (combination therapy) | Sovetskaia meditsina | Dysentery treated with gramicidin and sulfidin |
-| [14359103](https://pubmed.ncbi.nlm.nih.gov/14359103/) | 1954 | Clinical report (pediatric) | Suvremenna meditsina | Gramicidin C in complex therapy of acute dysentery in children |
-| [13170681](https://pubmed.ncbi.nlm.nih.gov/13170681/) | 1954 | Clinical report (chronic dysentery) | Zh Mikrobiol Epidemiol Immunobiol | Results of gramicidin treatment of chronic bacillary dysentery |
-| [13187005](https://pubmed.ncbi.nlm.nih.gov/13187005/) | 1954 | Clinical report (combination therapy) | Sovetskaia meditsina | Chronic dysentery treated by Bilibin's method with gramicidin and nicotinic acid |
+| [20248574](https://pubmed.ncbi.nlm.nih.gov/20248574/) | 1946 | Preliminary clinical report (likely uncontrolled) | Proceedings of the Central Society for Clinical Research | Clinical and bacteriologic evaluation of oral tyrothricin in chronic ulcerative colitis. No abstract is available, and the disease differs from infectious gastroenteritis, so this gives only indirect support. |
 
 ---
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN04392P | DORITHRICIN THROAT LOZENGES (Medice Arzneimittel Pütter GmbH & Co. KG) | Lozenge |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN04392P | DORITHRICIN THROAT LOZENGES | Lozenge | Not stated in the licence data |
 
-The registration data does not include an approved indication text.
+Manufacturer: Medice Arzneimittel Pütter GmbH & Co. KG.
 
 ---
 
 ## Safety Considerations
 
-- **Systemic toxicity**: The Evidence Pack rationale notes that hemolysis limits non-topical use, so oral or systemic exposure would need re-evaluation.
+Please refer to the package insert for safety information.
 
-Please refer to the package insert for full warnings, contraindications and drug interaction information.
+Tyrothricin is limited to topical or local use because of haemolytic and systemic toxicity. Oral or systemic use for any predicted new indication would raise significant safety concerns. No drug interaction records were found.
 
 ---
 
@@ -112,16 +107,14 @@ Please refer to the package insert for full warnings, contraindications and drug
 **Decision: Hold**
 
 **Rationale:**
-- The top-ranked prediction (insomnia) has no mechanistic rationale and no trials or literature, and is likely a knowledge-graph artifact. The same applies to the neuromuscular, osteoarthritis and IBS predictions.
-- Gastroenteritis is the only direction worth a research question. It rests only on six uncontrolled reports from 1946-1954, mostly on gramicidin rather than the full mixture, and carries unresolved oral safety concerns.
+The predictions rest on model scores alone (Evidence Level L5 for insomnia). There is no clinical or literature support and no plausible mechanism. Tyrothricin's systemic toxicity also makes use outside topical or local application unlikely to be viable.
 
 **To proceed, the following is needed:**
-- The Singapore package insert (warnings, contraindications, approved indication), which is a blocking gap for safety screening
-- Detailed mechanism of action data from DrugBank
-- A safety and feasibility review of oral or enteric exposure (hemolysis and absorption) before any trial design for gastroenteritis
-- A route compatibility assessment, since the only registered form is a lozenge
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Package insert warnings and contraindications from the Singapore Health Sciences Authority (HSA)
+- Mechanism of action data from DrugBank
+- The approved indication text for the Singapore licence
+- A credible mechanistic hypothesis for insomnia, or a switch to a topical or local-use indication that fits the drug's known profile
+- Preclinical or other supporting evidence before any clinical consideration
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Exemestane
-parent: Low Evidence (L5)
-nav_order: 410
-evidence_level: L5
+parent: Medium Evidence (L3-L4)
+nav_order: 414
+evidence_level: L4
 indication_count: 10
 ---
 
 # Exemestane
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,82 +29,111 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Exemestane: From Breast Cancer to Antithrombin Deficiency Type 2
+# Exemestane: From Breast Cancer to Amenorrhea
 
 ## One-Sentence Summary
 
-Exemestane is a steroidal aromatase inhibitor, a hormonal therapy used in hormone-receptor-positive breast cancer. The Singapore registry entries do not state an approved indication, so this original use is taken from the drug class and the retrieved literature. The TxGNN model predicts it may be effective for **antithrombin deficiency type 2**, but there are **0 clinical trials** and **0 publications** behind this prediction, so it is most likely a knowledge-graph artifact.
+Exemestane is a steroidal aromatase inhibitor that lowers estrogen levels. It is marketed in Singapore as a 25 mg tablet, but the registered indication text is not available in the data compiled for this report.
+The TxGNN model ranks **amenorrhea** as its second-highest prediction, but this is an expected pharmacological effect of estrogen suppression rather than a therapeutic goal.
+Evidence is limited to **0 clinical trials** and **5 indirect publications**, so this is a weak repurposing signal.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Breast cancer (inferred from drug class and literature; registry indication text is empty) |
-| Predicted New Indication | Antithrombin deficiency type 2 |
-| TxGNN Prediction Score | 99.83% |
-| Evidence Level | L5 (model prediction only) |
+| Original Indication | Not available in the registration data (the drug is an aromatase inhibitor) |
+| Predicted New Indication | Amenorrhea (disease) |
+| TxGNN Prediction Score | 99.82% |
+| Evidence Level | L4 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 5 |
 | Recommended Decision | Hold |
 
+The top-ranked prediction was antithrombin deficiency type 2 (99.83%). It has no supporting evidence and no plausible mechanism, so this report focuses on the second-ranked prediction, amenorrhea, which is the first with any literature. The other predictions are summarised at the end.
+
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Exemestane is known as a steroidal aromatase inhibitor. It blocks the conversion of androgens into estrogens and lowers circulating estrogen. This is the standard endocrine approach for estrogen-receptor-positive breast cancer in postmenopausal women.
+Detailed mechanism of action data is not available in the data compiled for this report. Exemestane is known to be a steroidal aromatase inhibitor. It blocks the conversion of androgens to estrogens, which lowers circulating estradiol.
 
-Antithrombin deficiency type 2 is an inherited defect of the *SERPINC1* gene that impairs the body's natural inhibition of blood clotting. Exemestane does not act on the coagulation cascade. The only conceivable link runs through estrogen-modulated hemostasis, which is speculative. The high TxGNN score therefore looks like a knowledge-graph artifact, not a real therapeutic signal.
+Amenorrhea (absence of menstruation) can follow when estrogen is suppressed. In this sense the prediction reflects a real pharmacological effect of the drug. However, this is an expected or adverse effect, not a therapeutic benefit. Amenorrhea is a symptom of many underlying conditions, and inducing it is not a treatment goal. The prediction most likely reflects the drug's estrogen-lowering action rather than a true repurposing opportunity.
 
-Other top predictions show the same pattern. Thrombophilia, factor 5 excess and heparin cofactor 2 deficiency have no supporting evidence. Migraine and acne could plausibly worsen with exemestane. Amenorrhea appears in the literature only as a context or outcome in breast cancer patients, not as something exemestane treats. Breast fibrocystic disease is the most mechanistically coherent of the ten predictions, since it is estrogen-driven, but it also has no trials or literature.
+The retrieved papers concern ovarian suppression and recovery of ovarian function in breast cancer patients. They are indirect context only.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
-Currently no related literature available.
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [23108951](https://pubmed.ncbi.nlm.nih.gov/23108951/) | 2013 | Cohort | Ann Oncol | Incidence and predictors of ovarian function recovery in breast cancer patients with chemotherapy-induced amenorrhea who switched from tamoxifen to exemestane |
+| [26178334](https://pubmed.ncbi.nlm.nih.gov/26178334/) | 2015 | Review | Oncology (Williston Park) | Role of ovarian suppression in premenopausal women with hormone receptor-positive early breast cancer; chemotherapy-induced amenorrhea linked to better survival |
+| [31379370](https://pubmed.ncbi.nlm.nih.gov/31379370/) | 2019 | Review | Recenti Prog Med | Current role of LHRH analogues in early and advanced breast cancer in premenopausal patients |
+| [28118723](https://pubmed.ncbi.nlm.nih.gov/28118723/) | 2016 | Review | Klin Onkol | Aromatase inhibitor treatment in postmenopausal breast cancer and management of side effects; AIs are contraindicated in women with functional ovaries |
+| [26951320](https://pubmed.ncbi.nlm.nih.gov/26951320/) | 2016 | Review / clinical commentary | J Clin Oncol | Whether estradiol monitoring is needed in women receiving ovarian suppression for breast cancer |
+
+---
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN11398P | AROMASIN TABLET 25mg (Pfizer Italia S.r.l.) | Tablet, sugar coated | Not listed in registry |
-| SIN15232P | AROMASTAN F.C. TABLET 25MG (S.C. Sindan-Pharma S.R.L.) | Tablet, film coated | Not listed in registry |
-| SIN14757P | EXEMESTANE STADA FILM COATED TABLET 25mg (EirGen Pharma Ltd.) | Tablet, film coated | Not listed in registry |
-| SIN16646P | EXEDRAL 25 FILM-COATED TABLET 25MG (Remedica Ltd) | Tablet, film coated | Not listed in registry |
-| SIN16062P | EXACCORD 25 FILM COATED TABLET 25 MG (Intas Pharmaceuticals Limited) | Tablet, film coated | Not listed in registry |
+| SIN11398P | AROMASIN TABLET 25mg (Pfizer Italia S.r.l.) | Tablet, sugar coated | Not available |
+| SIN15232P | AROMASTAN F.C. TABLET 25MG (S.C. Sindan-Pharma S.R.L.) | Tablet, film coated | Not available |
+| SIN14757P | EXEMESTANE STADA FILM COATED TABLET 25mg (EirGen Pharma Ltd.) | Tablet, film coated | Not available |
+| SIN16646P | EXEDRAL 25 FILM-COATED TABLET 25MG (Remedica Ltd) | Tablet, film coated | Not available |
+| SIN16062P | EXACCORD 25 FILM COATED TABLET 25 MG (Intas Pharmaceuticals Limited) | Tablet, film coated | Not available |
 
-All registered products are oral tablets.
+All five licences are valid single-ingredient oral products.
+
+---
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Hormonal (endocrine) therapy, aromatase inhibitor; not a conventional cytotoxic agent |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert and local handling policy |
+| Cytotoxicity Classification | Hormonal therapy (steroidal aromatase inhibitor), not a conventional cytotoxic agent |
+| Myelosuppression Risk | Low; please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Low |
+| Monitoring Items | Please refer to the package insert warnings and precautions (bone density and lipids are commonly considered for aromatase inhibitors) |
+| Handling Protection | Please refer to the package insert warnings and precautions |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: A screen found 100 potential interactions. The only ones graded Moderate are **dexamethasone** and **troglitazone**. Other listed drugs, including pantoprazole, morphine, metformin, omeprazole, simvastatin, rosuvastatin and aspirin, have no assigned severity level.
 
-Aromatase inhibitors carry their own cardiovascular and thromboembolic safety considerations. Any exploration in a thrombosis-related condition would need a separate safety review first.
+For warnings and contraindications, please refer to the package insert, since this information was not available in the data compiled for this report.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone (L5). There are no trials or literature, and no plausible mechanism links an aromatase inhibitor to a inherited coagulation-inhibitor defect. The prediction should not advance.
+The amenorrhea prediction has a high model score but no clinical trials, and the literature is indirect. Amenorrhea is an expected effect of estrogen suppression, not a treatable condition, so it is not a meaningful repurposing target. The other nine predictions have no evidence (L5). Several are thrombophilia-related genetic disorders with no plausible mechanistic link, such as antithrombin deficiency type 2, factor 5 excess and heparin cofactor 2 deficiency. Estrogen lowering could plausibly worsen migraine, and acne is a recognised side effect of the drug class.
+
+**Other predictions in brief:**
+- **Breast fibrocystic disease** (rank 10, 95.7%) is the most biologically plausible candidate because it is estrogen-responsive, but menopausal-range estrogen suppression is a poor fit for a benign condition. It is worth a literature review as a research question.
+- **Thrombophilia** has only a theoretical link through estrogen and thrombotic risk.
 
 **To proceed, the following is needed:**
-- Singapore package insert warnings and contraindications (currently a blocking gap for safety screening)
+- Package insert warnings and contraindications from the HSA website (a blocking gap for safety screening)
 - Mechanism of action data from DrugBank
-- Approved indication text for the Singapore registrations
-- A targeted literature search for breast fibrocystic disease, the most mechanistically coherent prediction, as a possible alternative research question
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Registered indication text for the Singapore licences
+- A targeted literature review of aromatase inhibitors in fibrocystic breast disease
+- Clinical rationale for any therapeutic use of amenorrhea, or confirmation that this prediction should be dismissed
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

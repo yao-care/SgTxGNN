@@ -2,7 +2,7 @@
 layout: default
 title: Umeclidinium
 parent: Low Evidence (L5)
-nav_order: 1030
+nav_order: 1040
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,17 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Umeclidinium: From COPD to Migraine Disorder
+# Umeclidinium: From Respiratory Disease (COPD) to Migraine Disorder
 
 ## One-Sentence Summary
 
-Umeclidinium is an inhaled long-acting muscarinic antagonist (LAMA) marketed for chronic obstructive pulmonary disease (COPD).
-The TxGNN model predicts it may be effective for **migraine disorder**, but there are currently **0 clinical trials** and **0 publications** supporting this direction.
-This is a model-only prediction with no supporting evidence.
+Umeclidinium is an inhaled long-acting muscarinic antagonist (LAMA) marketed in Singapore as a single-ingredient product and as a component of two combination inhalers. The TxGNN model predicts it may be effective for **migraine disorder**, but **no clinical trials and no supporting publications** were found for this direction, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | COPD (inhaled maintenance bronchodilator; the HSA licence text was not provided) |
+| Original Indication | Not stated in the Singapore licence records (the products are inhaled LAMA-containing inhalers) |
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 96.36% |
 | Evidence Level | L5 |
@@ -51,11 +49,11 @@ This is a model-only prediction with no supporting evidence.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, umeclidinium is an inhaled long-acting muscarinic antagonist. Its efficacy in COPD is established, but there is no established role for muscarinic antagonism in migraine.
+Currently, detailed mechanism of action data is not available. Based on known information, umeclidinium is an inhaled long-acting muscarinic antagonist, used alone or in combination with other inhaled agents. It blocks muscarinic receptors in the airways.
 
-The TxGNN score is high (96.36%), but the model's rank for this pair is 23,263. The score reflects the model's knowledge-graph similarity, not clinical evidence. Inhaled dosing also gives low systemic exposure, which makes a central or neurovascular effect in migraine less plausible.
+Muscarinic signalling has been loosely discussed in central pain and neurovascular pathways, which may explain why the model links the drug to migraine. However, the mechanistic route is weak. Inhaled umeclidinium has low systemic exposure and limited central nervous system penetration, so it is unlikely to reach the sites relevant to migraine. The high score is a graph-based prediction only.
 
-The prediction is best treated as a hypothesis-generating signal. The second-ranked prediction, migraine with brainstem aura, is a subtype of the same disease. Its high score (95.83%) probably reflects ontology proximity rather than independent evidence.
+The other top predictions point the same way. Migraine with brainstem aura is a subtype of the same condition. Glaucoma predictions are more likely to reflect a safety concern than a therapeutic opportunity, because anticholinergics can precipitate angle-closure glaucoma. Gastric conditions (gastroduodenitis, peptic ulcer disease) have a class-level rationale, but low systemic exposure after inhalation makes an effect unlikely. The remaining predictions (nephrogenic syndrome of inappropriate antidiuresis, atrophoderma vermiculata, allergic urticaria, common cold) have no plausible mechanistic support.
 
 ## Clinical Trial Evidence
 
@@ -63,36 +61,45 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for migraine disorder.
+
+For reference, the only publication linked to any of the top 10 predictions is a general COPD review, linked to the common cold prediction:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [29583021](https://pubmed.ncbi.nlm.nih.gov/29583021/) | 2018 | Review | COPD | Annual review of COPD studies, including fluticasone furoate/vilanterol/umeclidinium in severe COPD. It does not study umeclidinium in the common cold. |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Active Components |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN14853P | INCRUSE ELLIPTA Inhalation Powder 62.5 mcg/dose | Powder, metered | Umeclidinium |
-| SIN15806P | TRELEGY ELLIPTA Inhalation Powder 100/62.5/25 mcg | Powder, metered | Fluticasone furoate / umeclidinium / vilanterol |
-| SIN14838P | ANORO ELLIPTA Inhalation Powder 62.5/25 mcg | Powder, metered | Umeclidinium / vilanterol |
-
-All three products are inhalation powders, so only an inhaled route is currently available. The approved indication text was not available in the input.
+| SIN14853P | INCRUSE ELLIPTA Inhalation Powder 62.5 mcg/dose | Powder, metered | Not stated in the records |
+| SIN15806P | TRELEGY ELLIPTA Inhalation Powder 100 mcg/62.5 mcg/25 mcg | Powder, metered | Not stated in the records |
+| SIN14838P | ANORO ELLIPTA Inhalation Powder 62.5 mcg/25 mcg | Powder, metered | Not stated in the records |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: The interaction screening returned 100 interacting drugs. The 20 shown in the data compiled for this report were all rated **Moderate**. Most are other anticholinergic or antimuscarinic agents, where additive anticholinergic effects are the concern:
+  - Hyoscyamine, atropine, glycopyrronium (including topical), clidinium, dicyclomine, trospium, mepenzolate, methscopolamine, propantheline, scopolamine, aclidinium
+  - Antihistamines with anticholinergic activity: promethazine, chlorpheniramine, acrivastine
+  - Others: eluxadoline, prucalopride, inhaled human insulin, ophthalmic physostigmine, acetylcholine
+- **Class-level caution (from the prediction rationale)**: Anticholinergics can precipitate or worsen angle-closure glaucoma, and the umeclidinium label carries a narrow-angle glaucoma warning. They can also cause urinary retention. This matters particularly for the glaucoma predictions, which are a potential safety concern rather than a therapeutic opportunity.
+
+Please refer to the package insert for warnings and contraindications, which were not available in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical trials or literature behind it (L5). There is no recognised link between muscarinic blockade and migraine, and the inhaled route limits systemic exposure. The other nine predicted indications are also L5 and Hold. Open-angle glaucoma and primary hereditary glaucoma carry an additional class-level ocular safety concern with antimuscarinics.
+The migraine prediction has a high model score but no clinical trials or literature behind it, and the mechanism is weak because inhaled umeclidinium has low systemic and central nervous system exposure. The other top predictions are also unsupported, and the glaucoma predictions point to a safety risk.
 
 **To proceed, the following is needed:**
-- Mechanism of action data (MOA) from DrugBank, to assess any plausible link to migraine pathophysiology
-- The HSA package insert, including warnings and contraindications, to complete the safety screening
+- Official package insert warnings and contraindications from the HSA website, and the approved indication text for the three licences
+- Mechanism of action data from DrugBank
 - Preclinical or mechanistic evidence for muscarinic antagonism in migraine
-- Assessment of whether an inhaled formulation can reach relevant exposure, or whether a different route would be required
-
-*These results are for research reference only and do not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Evidence that a route and dose could achieve relevant exposure, since route compatibility has not been assessed
+- Review of the safety profile, particularly narrow-angle glaucoma and urinary retention, before any repurposing study
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

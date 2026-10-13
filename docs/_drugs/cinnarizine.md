@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Cinnarizine
-parent: Low Evidence (L5)
-nav_order: 251
-evidence_level: L5
+parent: High Evidence (L1-L2)
+nav_order: 253
+evidence_level: L1
 indication_count: 10
 ---
 
 # Cinnarizine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,30 +29,31 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cinnarizine: From Vestibular Disorders to Migraine Disorder
+# Cinnarizine: From Vertigo and Motion Sickness to Migraine Disorder
 
 ## One-Sentence Summary
 
-Cinnarizine is an oral calcium channel blocker and H1-antihistamine, generally used for vertigo and vestibular symptoms. The Singapore registration records do not state an approved indication.
-The TxGNN model predicts it may be effective for **migraine disorder** (prophylaxis), with **no registered clinical trials** but **20 publications**, including several randomized controlled trials and a systematic review.
+Cinnarizine was originally used to treat vertigo of central nervous system origin and motion sickness.
+The TxGNN model predicts it may be effective for **migraine disorder**.
+No clinical trials are registered in the data compiled for this report, but **20 publications** support this direction, including several randomized controlled trials (RCTs) and a systematic review/meta-analysis.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration records (general use: vertigo/vestibular disorders, not confirmed by the record) |
+| Original Indication | Central nervous system origin vertigo; motion sickness (from the knowledge graph, as the Singapore licence records contain no indication text) |
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 97.69% |
-| Evidence Level | L2 (based on published randomized trials, mostly in children; no registered trials) |
+| Evidence Level | L1 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 3 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the DrugBank record. From the published literature, cinnarizine is a calcium channel blocker and H1-antihistamine, and it also has antidopaminergic and antiserotonergic activity. Its rationale for migraine prophylaxis rests on inhibiting calcium-dependent vascular and neuronal excitability and on modulating histaminergic pathways. A review of histamine in migraine (PMID 24433203) supports the histamine link. This mechanism is inferred from the literature, not from the drug record.
+Detailed mechanism of action data for cinnarizine is not available in the data compiled for this report. Based on the published literature, cinnarizine is a calcium channel blocker (L-/T-type) with H1 antihistamine and antivestibular activity. Calcium channel blockade may reduce cortical spreading depression and neurovascular excitability. Histamine is also thought to contribute to migraine pathophysiology (PMID 24433203).
 
-Calcium channel blockers have long been studied for migraine prevention, and a related agent, flunarizine, is discussed alongside cinnarizine in the migraine literature. Vertigo and migraine also frequently overlap (vestibular migraine, migraine-associated vertigo). This fits a drug that is already used for vestibular symptoms. The high TxGNN score is consistent with this published evidence.
+Vertigo and migraine often occur together, and vestibular symptoms are common in migraine. A related compound, flunarizine, is an established migraine preventive, which supports a class-level mechanistic link (PMID 31955597). This link is drawn from literature rather than from the drug's own record, so it should be read with that in mind.
 
 ## Clinical Trial Evidence
 
@@ -60,49 +61,49 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-The 20 retrieved publications include randomized trials, meta-analyses and reviews. The 10 most relevant are listed below. Most randomized evidence is in children and adolescents.
+The 10 most relevant publications, with higher-level evidence first:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31707814](https://pubmed.ncbi.nlm.nih.gov/31707814/) | 2020 | RCT (double-blind, placebo-controlled) | Cephalalgia | Evaluated safety and efficacy of cinnarizine and sodium valproate for migraine prophylaxis in children and adolescents |
-| [25023977](https://pubmed.ncbi.nlm.nih.gov/25023977/) | 2014 | RCT (double-blind, placebo-controlled) | Pediatric Neurology | Placebo-controlled trial of cinnarizine efficacy and safety for migraine prophylaxis in children, following an earlier open-label study |
-| [38641932](https://pubmed.ncbi.nlm.nih.gov/38641932/) | 2024 | RCT (double-blind, comparative) | Cephalalgia | Compared cinnarizine with amitriptyline for pediatric migraine prophylaxis |
-| [18286231](https://pubmed.ncbi.nlm.nih.gov/18286231/) | 2008 | Double-blind trial | J Headache Pain | 125 patients refractory to propranolol and tricyclic antidepressants; cinnarizine compared with sodium valproate over 12 weeks |
-| [22427290](https://pubmed.ncbi.nlm.nih.gov/22427290/) | 2012 | Open randomized trial | Acta Neurol Belg | Compared cinnarizine with propranolol in 120 children with migraine |
-| [37114310](https://pubmed.ncbi.nlm.nih.gov/37114310/) | 2022 | Comparative study | Cell Mol Biol | Adult migraine patients (n=120) given propranolol plus cinnarizine or propranolol plus placebo |
-| [36148684](https://pubmed.ncbi.nlm.nih.gov/36148684/) | 2022 | Systematic review / meta-analysis | Pain Pract | Analysed available data on the prophylactic effectiveness of cinnarizine in migraine |
-| [39388181](https://pubmed.ncbi.nlm.nih.gov/39388181/) | 2024 | Network meta-analysis | JAMA Netw Open | Efficacy and safety of preventive medications in pediatric migraine |
-| [32597267](https://pubmed.ncbi.nlm.nih.gov/32597267/) | 2020 | Narrative review | Expert Rev Neurother | Reviewed the preventive role of cinnarizine in migraine as an alternative recommendation |
-| [31413170](https://pubmed.ncbi.nlm.nih.gov/31413170/) | 2019 | Guideline | Neurology | AAN/AHS update on pharmacologic prevention of pediatric migraine |
+| [36148684](https://pubmed.ncbi.nlm.nih.gov/36148684/) | 2022 | Systematic review / meta-analysis | Pain Pract | Analysis of the prophylactic effectiveness of cinnarizine in migraine |
+| [31707814](https://pubmed.ncbi.nlm.nih.gov/31707814/) | 2020 | RCT (double-blind, placebo-controlled) | Cephalalgia | Cinnarizine and sodium valproate for migraine prevention in children and adolescents |
+| [25023977](https://pubmed.ncbi.nlm.nih.gov/25023977/) | 2014 | RCT (double-blind, placebo-controlled) | Pediatr Neurol | Efficacy and safety of cinnarizine for migraine prophylaxis in children |
+| [38641932](https://pubmed.ncbi.nlm.nih.gov/38641932/) | 2024 | RCT (double-blind) | Cephalalgia | Cinnarizine vs. amitriptyline in childhood migraine prophylaxis |
+| [42106656](https://pubmed.ncbi.nlm.nih.gov/42106656/) | 2026 | RCT (double-blind) | BMC Neurol | Cinnarizine vs. topiramate for migraine prophylaxis in children |
+| [18286231](https://pubmed.ncbi.nlm.nih.gov/18286231/) | 2008 | Double-blind trial | J Headache Pain | In 125 patients refractory to propranolol and tricyclic antidepressants, cinnarizine was compared with sodium valproate |
+| [22427290](https://pubmed.ncbi.nlm.nih.gov/22427290/) | 2012 | Open randomized trial | Acta Neurol Belg | Cinnarizine vs. propranolol for migraine prophylaxis in 120 children |
+| [39388181](https://pubmed.ncbi.nlm.nih.gov/39388181/) | 2024 | Network meta-analysis | JAMA Netw Open | Comparison of preventive medications in pediatric migraine |
+| [40978493](https://pubmed.ncbi.nlm.nih.gov/40978493/) | 2025 | Network meta-analysis | Front Pharmacol | Comparative efficacy and safety of oral preventive medications for migraine in adults |
+| [32597267](https://pubmed.ncbi.nlm.nih.gov/32597267/) | 2020 | Narrative review | Expert Rev Neurother | Review of cinnarizine as an alternative option for migraine prophylaxis |
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN10935P | AXCEL CINNARIZINE TABLETS 25 mg | Tablet | Not stated in the record |
-| SIN02924P | Cinnaron Tablets 25mg | Tablet | Not stated in the record |
-| SIN08482P | CINNA TABLET 25 mg | Tablet | Not stated in the record |
+| SIN10935P | AXCEL CINNARIZINE TABLETS 25 mg | Tablet | Not stated in the available records |
+| SIN02924P | Cinnaron Tablets 25mg | Tablet | Not stated in the available records |
+| SIN08482P | CINNA TABLET 25 mg | Tablet | Not stated in the available records |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: The interaction query completed, but it returned only pharmacology target records (dopamine D2 receptor and Cav1.3 calcium channel binding, from animal data), not drug-drug interactions. No clinically defined interacting drugs were identified.
+- **Other literature signals**: A case series reported weight gain associated with cinnarizine (PMID 1504403). Literature on migraine drugs during breastfeeding is also available (PMID 25217187).
+
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Published randomized trials and a systematic review support cinnarizine for migraine prophylaxis, and the drug is already marketed in Singapore as an oral tablet. However, there are no registered clinical trials and the randomized evidence is mostly pediatric. Safety and mechanism data are also incomplete.
+Multiple RCTs and a systematic review/meta-analysis support cinnarizine for migraine prophylaxis, especially in children. However, no registered clinical trials were found, and the safety and mechanism data are incomplete.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism-of-action data from DrugBank
-- Confirmation of the currently approved indications in Singapore
-- Evidence in adults, since most of the randomized data are pediatric
-
-Among the other model predictions, only migraine with brainstem aura and headache disorder have some supporting literature, and both remain research questions. The remaining predictions are on Hold because there is no evidence or only indirect evidence.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
+- Package insert warnings and contraindications from the Health Sciences Authority (HSA), which is a blocking gap for safety screening
+- Mechanism of action data from DrugBank
+- Confirmation of the approved indications for the three Singapore licences, since none are recorded
+- Clarification that the recommendation applies to migraine prophylaxis; evidence for other headache types and for the brainstem aura subtype is not established
+- A review of the evidence in adults, as most RCTs were conducted in children
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

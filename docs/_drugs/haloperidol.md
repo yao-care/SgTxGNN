@@ -2,7 +2,7 @@
 layout: default
 title: Haloperidol
 parent: Low Evidence (L5)
-nav_order: 491
+nav_order: 495
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,18 +29,21 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Haloperidol: From Antipsychotic Use to Congenital Disorder of Glycosylation with Defective Fucosylation
+# Haloperidol: From Schizophrenia to Congenital Disorder of Glycosylation with Defective Fucosylation
 
 ## One-Sentence Summary
 
-Haloperidol is a dopamine D2 antagonist antipsychotic. No original indication text is recorded in the Singapore licence data.
-The TxGNN model predicts it may be effective for **congenital disorder of glycosylation with defective fucosylation**, but there are **0 clinical trials** and **0 publications** supporting this prediction.
+> Haloperidol is a long-established antipsychotic, originally used for psychotic disorders, schizophrenia and Tourette syndrome.
+> The TxGNN model predicts it may be effective for **congenital disorder of glycosylation with defective fucosylation**,
+> but currently there are **0 clinical trials** and **0 publications** supporting this direction, so it is a model prediction only.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the licence data (haloperidol is a D2-antagonist antipsychotic) |
+| Original Indication | Psychotic disorder, schizophrenia, schizophreniform and schizoaffective disorder, Tourette syndrome (taken from the knowledge graph, because the Singapore licence records contain no indication text) |
 | Predicted New Indication | Congenital disorder of glycosylation with defective fucosylation |
 | TxGNN Prediction Score | 99.91% |
 | Evidence Level | L5 |
@@ -48,51 +51,68 @@ The TxGNN model predicts it may be effective for **congenital disorder of glycos
 | Number of Registrations | 4 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the source record. Haloperidol is a high-affinity dopamine D2 receptor antagonist and is used as an antipsychotic.
+Detailed mechanism of action data is not available in the compiled data. Haloperidol is generally known as a dopamine D2 receptor antagonist, and its efficacy in psychosis and schizophrenia is well established.
 
-There is no known link between D2 antagonism and defects in fucosylation. The predicted condition is a rare inherited disorder of glycosylation, which is a metabolic pathway problem rather than a dopaminergic one. The high TxGNN score is therefore a model output only, and this report finds no biological or clinical reasoning that supports it.
+The compiled data shows **no mechanistic link** between D2 antagonism and fucosylation or glycosylation pathways. The very high TxGNN score reflects a pattern in the knowledge graph, not biological or clinical evidence. This prediction should be treated as a hypothesis only, and it is not recommended for further investment without supporting data.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
 
+---
+
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN11076P | MANACE INJECTION 5 mg/ml | Injection |
-| SIN12245P | MYUNG IN HALOPERIDOL TABLET 1.5 mg | Tablet |
-| SIN11225P | MYUNG IN HALOPERIDOL INJECTION 5 mg/ml | Injection |
-| SIN09918P | HALOXEN 5 TABLET 5 mg | Tablet |
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN11076P | MANACE INJECTION 5 mg/ml | Injection | Duopharma (M) Sdn Bhd |
+| SIN12245P | MYUNG IN HALOPERIDOL TABLET 1.5 mg | Tablet | Myung In Pharm Co Ltd |
+| SIN11225P | MYUNG IN HALOPERIDOL INJECTION 5 mg/ml | Injection | Myung In Pharm Co Ltd |
+| SIN09918P | HALOXEN 5 TABLET 5 mg | Tablet | Remedica Ltd |
 
-Approved indication text is blank for all four licences in the source data.
+All four registrations are valid single-ingredient products, available as oral tablets and injections.
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindication-related conditions (from the knowledge graph, not label text)**:
+  - Cardiac rhythm: long QT syndrome (including familial), torsades de pointes
+  - Neurological: epilepsy, basal ganglia disease, focal hand dystonia, blepharospasm, neuroleptic malignant syndrome
+  - Haematological: neutropenia (including congenital forms), agranulocytosis, leukopenia
+  - Endocrine and metabolic: hypothyroidism, myxedema, potassium deficiency
+  - Other: liver disease, gallbladder disease, hypotensive disorder, female breast carcinoma
+- **Drug Interactions**: 100 interactions are recorded. The listed examples include **Major** interactions with bupropion, morphine, clarithromycin and dolasetron, and many **Moderate** interactions, such as famotidine, epinephrine, hydrocortisone, amphotericin B, atropine and loperamide.
+- Please refer to the package insert for official warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone (L5). There are no trials, no literature and no plausible mechanism linking haloperidol to this glycosylation disorder.
-
-Of the ten predicted indications in this pack, only **manic bipolar affective disorder** (rank 10) has real supporting evidence. It has several completed Phase 3 trials in which haloperidol was an active comparator and a network meta-analysis of RCTs. That use is closer to established antipsychotic practice than to repurposing, and it would need its own evaluation with guardrails for QT prolongation, extrapyramidal symptoms, tardive dyskinesia and drug interactions.
+- The prediction rests only on a graph-based score. There are no trials, no publications and no plausible mechanistic link to glycosylation biology. Haloperidol also carries a substantial safety and interaction burden.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from the HSA (currently blocking any safety screening)
-- Detailed mechanism of action data from DrugBank
-- Approved indication text for the Singapore licences, to confirm the original indication
-- Any preclinical or mechanistic evidence linking haloperidol to fucosylation defects, without which this candidate should not advance
+- A mechanistic hypothesis linking haloperidol pharmacology to fucosylation pathways, with preclinical support
+- Detailed mechanism of action data for haloperidol
+- Official Singapore package insert warnings and contraindications
+- An assessment of route and dosing feasibility for this rare genetic disorder
 
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
+**Note on other predictions:** Among the other predicted indications, **manic bipolar affective disorder** has the strongest support (L1). It has a Phase 3 placebo- and haloperidol-controlled trial (NCT00129220, n=224) and network meta-analyses. It lies within haloperidol's existing psychiatric area, so it is better seen as an extension than as novel repurposing. It could proceed with guardrails: monitoring for extrapyramidal symptoms, QT prolongation and tardive dyskinesia, and managing the high interaction burden.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

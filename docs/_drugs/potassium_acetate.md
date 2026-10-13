@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Potassium Acetate
-parent: Low Evidence (L5)
-nav_order: 801
-evidence_level: L5
+parent: Medium Evidence (L3-L4)
+nav_order: 810
+evidence_level: L4
 indication_count: 10
 ---
 
 # Potassium Acetate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,85 +29,76 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Potassium Acetate: From an Unlisted Original Indication to Renal Tubular Acidosis
+# Potassium Acetate: From Potassium Deficiency to Renal Tubular Acidosis
 
 ## One-Sentence Summary
 
-Potassium acetate is an electrolyte salt. In Singapore it is registered as an injectable concentrate and as a component of parenteral nutrition products, but the registration records do not state an approved indication.
-The TxGNN model predicts it may be useful for **renal tubular acidosis**, but **0 clinical trials** and **0 publications** currently support this direction, so it is a model prediction only.
-
----
+Potassium acetate is a potassium and acetate salt, originally used to correct potassium deficiency.
+The TxGNN model predicts it may be useful for **renal tubular acidosis**,
+but **no clinical trials and no publications** were found for this drug in this indication, so the prediction rests on mechanistic reasoning alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration records |
+| Original Indication | Potassium deficiency disease |
 | Predicted New Indication | Renal tubular acidosis |
 | TxGNN Prediction Score | 99.90% |
-| Evidence Level | L5 |
+| Evidence Level | L4 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 5 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Potassium acetate is an electrolyte salt that supplies potassium and acetate. Acetate is metabolised in the body to bicarbonate, which gives an alkalinising effect. This is the basis for the prediction, but it is not supported by retrieved evidence.
+Currently, detailed mechanism of action data is not available. Based on known information, potassium acetate supplies potassium, and its acetate component is metabolised to bicarbonate. Its use in potassium deficiency is established, and mechanistically it may be applicable to renal tubular acidosis.
 
-Renal tubular acidosis involves impaired acid handling by the kidney, and distal forms commonly cause low blood potassium. Acetate-derived bicarbonate could help correct the acidosis, and the potassium could help correct the hypokalaemia. This is the same reasoning behind potassium citrate, the standard agent for this condition.
+In distal renal tubular acidosis, low potassium and metabolic acidosis often occur together. The potassium-repleting and alkalinising effects of potassium acetate therefore fit this picture. Alkali therapy, such as potassium citrate or bicarbonate, is already standard care. The link is therefore indirect and by analogy to those agents.
 
-The TxGNN score is very high (99.90%), but it is a graph-based prediction only. No trials or publications were found to confirm it. The route of administration is also unresolved: all Singapore products are injectable, while chronic management of this condition usually relies on oral alkali therapy.
-
----
+No studies of potassium acetate itself in this condition were found. The very high TxGNN score is a model prediction and does not replace clinical evidence.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-The registration records do not include approved indication text for any of these products. Most are parenteral nutrition products in which potassium acetate is one of several components.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN05868P | DBL Potassium Acetate Concentrated Injection 2.45 g/5 ml | Injection | Not stated in the data compiled |
+| SIN15411P | Aminoplasmal B.Braun 10% E Solution for Infusion | Infusion, solution | Not stated in the data compiled |
+| SIN16734P | Nutriflex Omega Special B. Braun Emulsion for Infusion | Injection, emulsion | Not stated in the data compiled |
+| SIN15469P | Nutriflex Omega Special Emulsion for Infusion | Injection, emulsion | Not stated in the data compiled |
+| SIN15468P | Nutriflex Omega Plus Emulsion for Infusion | Injection, emulsion | Not stated in the data compiled |
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN05868P | DBL Potassium Acetate Concentrated Injection 2.45 g/5 ml | Injection |
-| SIN15411P | Aminoplasmal B.Braun 10% E Solution for Infusion | Infusion, solution |
-| SIN16734P | Nutriflex Omega Special B. Braun Emulsion for Infusion | Injection, emulsion |
-| SIN15469P | Nutriflex Omega Special Emulsion for Infusion | Injection, emulsion |
-| SIN15468P | Nutriflex Omega Plus Emulsion for Infusion | Injection, emulsion |
-
----
+All five registrations are injectable or infusion products. Oral forms were not identified.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: 40 interactions were identified in total. The main ones among those reviewed:
+  - **Major**: amiloride, benazepril, olmesartan, valsartan and azilsartan medoxomil. These potassium-sparing diuretics, ACE inhibitors and angiotensin receptor blockers can raise potassium levels, so hyperkalaemia is the main concern.
+  - **Moderate**: aliskiren.
+  - **Minor**: multiple insulin products (aspart, degludec, detemir, glargine, glulisine, lispro, human insulin and others).
 
----
+Please refer to the package insert for warnings and contraindications, which were not available in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a model score and a plausible but unverified alkalinising mechanism, with no supporting trials or publications. Safety information and the original indication are also missing, so the candidate should remain a research question for now.
-
-The other nine predicted indications also have no supporting evidence. These include Alstrom syndrome, pseudo-von Willebrand disease and peptic ulcer disease. The few trials and articles retrieved for them involve unrelated compounds and do not support potassium acetate.
+The mechanistic rationale is plausible, but it is indirect and no trials or literature support potassium acetate in renal tubular acidosis. The registered products are injectable and do not list an approved indication in the data compiled. Route compatibility with the new indication has not been assessed. Key interactions with potassium-raising drugs also need attention.
 
 **To proceed, the following is needed:**
-- The HSA package insert, to obtain warnings, contraindications and approved indications (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- A targeted literature and trial search on acetate or potassium therapy in renal tubular acidosis
-- An assessment of whether the injectable-only products in Singapore can serve this use, compared with oral potassium citrate
+- Package insert warnings and contraindications from the HSA website
+- Detailed mechanism of action data
+- A targeted literature search on potassium and alkali therapy in renal tubular acidosis
+- Assessment of route and formulation suitability, since the registered products are injectable
+- A potassium and acid-base monitoring plan, including for patients on potassium-raising drugs
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

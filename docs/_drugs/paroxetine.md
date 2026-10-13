@@ -2,7 +2,7 @@
 layout: default
 title: Paroxetine
 parent: Low Evidence (L5)
-nav_order: 757
+nav_order: 765
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,21 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Paroxetine: From Depression to Ohdo Syndrome and Variants
+# Paroxetine: From Depression and Anxiety Disorders to Ohdo Syndrome and Variants
 
 ## One-Sentence Summary
 
-Paroxetine is an SSRI antidepressant. The Singapore license record does not state an indication, so depression is inferred from the drug class.
-The TxGNN model predicts it may be effective for **Ohdo syndrome and variants**, a rare genetic developmental disorder.
-**No clinical trials** and **no publications** support this prediction, and no plausible biological link has been identified.
+Paroxetine is a selective serotonin reuptake inhibitor (SSRI), originally used for depression and anxiety-related disorders.
+The TxGNN model predicts it may be effective for **Ohdo syndrome and variants**, a rare genetic disorder.
+This prediction currently has **0 clinical trials** and **0 publications** behind it, so it rests on the model score alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Depression (inferred from SSRI class; not stated on the Singapore license record) |
+| Original Indication | Not stated in the Singapore licence record. Per the knowledge graph: anxiety disorder, major depressive disorder, obsessive-compulsive disorder, post-traumatic stress disorder, social phobia and related conditions |
 | Predicted New Indication | Ohdo syndrome and variants |
 | TxGNN Prediction Score | 99.11% |
 | Evidence Level | L5 |
@@ -49,45 +51,57 @@ The TxGNN model predicts it may be effective for **Ohdo syndrome and variants**,
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Paroxetine is a selective serotonin reuptake inhibitor (SSRI) that blocks the serotonin transporter (SERT), and its efficacy in depression is well established.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, paroxetine is a potent and selective serotonin reuptake inhibitor. Its efficacy in depression and anxiety disorders is well established.
 
-Ohdo syndrome is a rare genetic developmental disorder linked to KAT6B. Its cause is unrelated to serotonin reuptake, so there is no plausible mechanistic link to paroxetine.
+For Ohdo syndrome, **no mechanistic link has been established**. Ohdo syndrome is a rare genetic disorder, typically associated with KAT6B, and has no known serotonergic pathway that would justify using paroxetine. The high score (0.991) is a graph-based prediction only. It likely reflects the structure of the knowledge graph rather than biological or clinical evidence.
 
-The high score of 0.991 most likely reflects proximity within the knowledge graph rather than biology. This prediction should be treated as a model artifact unless independent evidence emerges.
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
+
+---
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN13485P | Apo-Paroxetine 20mg Tablet (Apotex Inc) | Tablet, film coated (oral) | Not stated in the license record |
+| SIN13485P | Apo-Paroxetine 20mg Tablet (Apotex Inc) | Tablet, film coated (oral) | Not listed in the licence record |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications (knowledge-graph based, not label text)**: The knowledge graph links paroxetine to the following conditions: epilepsy, bipolar disorder, major affective disorder, liver disease, gallbladder disease, blood coagulation disease, neuroleptic malignant syndrome, inappropriate ADH syndrome (including the nephrogenic form), serotonin syndrome and drug-induced akathisia.
+- **Drug Interactions**: 100 interactions are recorded. Major-level interactions include bupropion, lorcaserin, diethylpropion, phentermine, dolasetron, palonosetron and eliglustat. Moderate-level interactions include morphine, acetylsalicylic acid, cimetidine, clarithromycin, chlorpropamide, glimepiride and repaglinide.
+
+Please refer to the package insert for label warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical trials, no literature, and no plausible mechanism (L5, model prediction only). The high score most likely reflects knowledge-graph proximity, so it does not justify moving forward.
+The prediction has no clinical trials, no literature and no plausible mechanistic link to paroxetine. Evidence is at L5 (model prediction only), so it does not justify further investment at present.
 
 **To proceed, the following is needed:**
-- Any mechanistic or preclinical evidence linking serotonin reuptake inhibition to KAT6B-related pathophysiology
-- The HSA package insert warnings and contraindications, and the approved indication text for SIN13485P
-- Detailed mechanism of action data (MOA) from DrugBank
-
-**Note on other predictions in the Evidence Pack:** The other predictions with direct evidence (melancholia, neurotic depression, agoraphobia and panic disorder) are already rated L2 and "Proceed with Guardrails". They are essentially established SSRI uses rather than true repurposing, so they should be evaluated in their own reports.
+- A biological rationale connecting serotonin reuptake inhibition to KAT6B-related or Ohdo-type pathology
+- Preclinical or case-level evidence of any benefit
+- Mechanism of action data and the package insert warnings and contraindications for the Singapore-registered product
+- Note that the closely related TxGNN predictions for the same drug, **melancholia** (L1) and **agoraphobia** (L1), are supported by clinical trials and literature. They are better candidates for further evaluation.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

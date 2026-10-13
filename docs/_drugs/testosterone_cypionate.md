@@ -2,7 +2,7 @@
 layout: default
 title: Testosterone Cypionate
 parent: Low Evidence (L5)
-nav_order: 962
+nav_order: 972
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,18 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Testosterone cypionate: From an Unrecorded Original Indication to Urethral Obstruction Sequence
+# Testosterone Cypionate: From Male Hypogonadism to Urethral Obstruction Sequence
 
 ## One-Sentence Summary
 
-Testosterone cypionate is an injectable androgen (DrugBank DB13943), but the source data records no original approved indication for it.
-The TxGNN model predicts it may be effective for **urethral obstruction sequence** with a score of 98.3%, yet **0 clinical trials** and **0 publications** support this specific prediction.
-This is a graph-based prediction only, and the data shows no biological link to the condition.
+Testosterone cypionate is an injectable androgen originally used to treat male hypogonadism and related androgen-deficiency conditions.
+The TxGNN model predicts it may be effective for **urethral obstruction sequence**, but **no clinical trials** and **no publications directly addressing this condition** were found, so this is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not listed in the source data (the registry indication text is blank) |
+| Original Indication | Male hypogonadism, eunuchism, premature menopause, androgen insensitivity syndrome, cryptorchidism, Klinefelter syndrome, trisomy 13 (from the knowledge graph; the Singapore licence text lists no indication) |
 | Predicted New Indication | Urethral obstruction sequence |
 | TxGNN Prediction Score | 98.30% |
 | Evidence Level | L5 |
@@ -51,17 +50,11 @@ This is a graph-based prediction only, and the data shows no biological link to 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Testosterone cypionate is a testosterone ester that acts as an androgen receptor agonist, and it is used as androgen replacement. This general pharmacology is not drawn from the Evidence Pack. The original indication is also not recorded in the source data, so no original-to-new indication comparison is possible.
+Currently, detailed mechanism of action data is not available. Based on known information, testosterone cypionate is a long-acting ester of testosterone given by intramuscular injection. Its efficacy in androgen-deficiency states such as male hypogonadism is established, and mechanistically it may be relevant to conditions in which androgen status matters.
 
-The evidence review finds **no clear mechanistic link**. Urethral obstruction sequence is a fetal obstructive uropathy, and androgen receptor agonism does not address a physical obstruction. The high score (0.983) comes from graph proximity, not from any trial, publication, or biological rationale.
+The only link suggested by the data is that urethral obstruction sequence belongs to the spectrum of congenital genitourinary malformations, where androgen status can be relevant. No mechanism specific to this condition is supported by the data, and no trial or publication addresses it. The prediction should be treated as a hypothesis only.
 
-The top ten predictions are mostly rare congenital or developmental conditions. Three have a plausible indirect rationale through androgen deficiency, but none has retrieved evidence:
-
-| Rank | Condition | Rationale |
-|------|------|------|
-| 3 | Polysomy of X chromosome | Associated hypogonadism, where androgen replacement is established practice |
-| 4 | Testicular regression syndrome | Androgen deficiency; replacement would be symptomatic |
-| 5 | Penile/testicular agenesis | Androgen replacement could substitute for missing production, but cannot restore absent structures |
+Other predicted indications (ranks 2–10) are also prediction-only with the same L5/Hold status, except rank 9, which has some literature. Some have a plausible link to the original indications. Examples are testicular regression syndrome and penile/testicular agenesis (androgen deficiency), polysomy of X chromosome (similar to Klinefelter syndrome), and prune belly syndrome (includes cryptorchidism). Others, such as freemartinism (primarily a bovine condition) and arthrogryposis with epileptic seizures and migrational brain disorder, have no evident link.
 
 ## Clinical Trial Evidence
 
@@ -69,33 +62,50 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for urethral obstruction sequence.
+
+The literature retrieved for another predicted indication, dyschondrosteosis-nephritis syndrome (rank 9), is not specific to that disease. It appears to have been retrieved by drug name and covers testosterone in other contexts, so it is not evidence for this prediction. Examples:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [39711709](https://pubmed.ncbi.nlm.nih.gov/39711709/) | 2025 | RCT (preprint) | medRxiv | TESTO trial of testosterone in infants with 47,XXY/Klinefelter syndrome |
+| [40177735](https://pubmed.ncbi.nlm.nih.gov/40177735/) | 2025 | Clinical study | J Clin Endocrinol Metab | Short-term physical, hormonal and neurodevelopmental outcomes of testosterone in 47,XXY infants |
+| [31737857](https://pubmed.ncbi.nlm.nih.gov/31737857/) | 2019 | Clinical study | J Endocr Soc | Effects of testosterone on body composition in 47,XXY infants |
+| [23962431](https://pubmed.ncbi.nlm.nih.gov/23962431/) | 2014 | Clinical study | J Pediatr Urol | Testosterone stimulation revealed androgen insensitivity in proximal hypospadias |
+| [16185098](https://pubmed.ncbi.nlm.nih.gov/16185098/) | 2005 | Review | Treat Endocrinol | Update on diagnosis and treatment of male hypogonadism |
+| [15232328](https://pubmed.ncbi.nlm.nih.gov/15232328/) | 2004 | RCT | J Clin Psychopharmacol | Testosterone vs fluoxetine for depression and fatigue in HIV/AIDS (unrelated indication) |
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN04518P | DEPO-TESTOSTERONE STERILE SOLUTION 100 mg/ml (Pharmacia & Upjohn Company LLC) | Injection | Not stated in registry data |
+| SIN04518P | DEPO-TESTOSTERONE STERILE SOLUTION 100 mg/ml (Pharmacia & Upjohn Company LLC) | Injection | Not stated in the licence data |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+The package insert warnings and contraindications were not available in the data compiled for this report, and no drug interaction data were found. Please refer to the package insert for safety information.
+
+The knowledge graph lists conditions associated with contraindication for this drug. These come from graph relationships, not label text, and should be verified against the package insert:
+
+- **Cardiovascular and metabolic:** hypertension, congestive heart failure, diabetes mellitus, diabetic ketoacidosis, hypertriglyceridemia
+- **Organ disease:** kidney disease, liver disease, gallbladder disease
+- **Hormone-sensitive conditions:** female breast carcinoma, benign prostatic hyperplasia, gynecomastia, uterine leiomyoma
+- **Calcium and phosphorus disorders:** hypercalcemia, humoral hypercalcemia of malignancy, nephrocalcinosis, phosphorus metabolism disease
+- **Other:** epilepsy, asthma, hypothyroidism and myxedema, systemic lupus erythematosus, thrombophlebitis, pyoureter
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction has no trials or literature (L5) and no credible mechanistic link. A physical obstruction in the fetal urinary tract is not an androgen-responsive target. The prediction looks like a graph artifact, so it should not be pursued.
+The prediction rests on the model score alone (L5). No clinical trials or disease-specific literature support testosterone cypionate in urethral obstruction sequence, and no mechanism specific to this condition is documented. The package insert safety data are also missing.
 
 **To proceed, the following is needed:**
-- The original approved indication, taken from the HSA package insert
-- The package insert warnings and contraindications, which are blocking for any safety screening
-- Mechanism of action data from DrugBank
-- A targeted evidence search for the more plausible androgen-deficiency candidates (ranks 3 to 5), using specific karyotype and hypogonadism terms. The literature retrieved under rank 9 includes two 2025 publications of the TESTO trial (testosterone in infants with 47,XXY). They may be relevant to rank 3, polysomy of X chromosome, although they were not matched to it.
-- Route compatibility and similarity-to-original assessments, both currently pending
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Package insert warnings and contraindications from the HSA, to allow safety screening
+- Mechanism of action data (e.g. from DrugBank)
+- A disease-specific literature and trial search for urethral obstruction sequence
+- Clinical review of whether androgen therapy is biologically meaningful in this congenital condition, including the paediatric population
+- Assessment of the approved indication text and route compatibility for the Singapore licence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

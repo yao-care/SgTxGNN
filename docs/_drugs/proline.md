@@ -2,7 +2,7 @@
 layout: default
 title: Proline
 parent: Low Evidence (L5)
-nav_order: 822
+nav_order: 831
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Proline: From Parenteral Amino Acid Nutrition to Congenital Prothrombin Deficiency
+# Proline: From Nutritional Amino Acid Supply to Congenital Prothrombin Deficiency
 
 ## One-Sentence Summary
 
-Proline is an amino acid supplied in intravenous amino acid infusion products marketed in Singapore. The registration data does not state an approved indication, so its original use is inferred from the product types.
-The TxGNN model predicts it may be effective for **congenital prothrombin deficiency** (score 98.9%), but **0 clinical trials** and **0 publications** support this prediction.
-No plausible mechanism is evident, so the prediction is treated as a model output only.
+Proline is an amino acid used in parenteral nutrition solutions, where it is a component of amino acid infusions and nutrition emulsions.
+The TxGNN model predicts it may be effective for **congenital prothrombin deficiency**, but this rests on a model score alone.
+There are currently **0 clinical trials** and **0 publications** supporting this specific prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in registration data (inferred: parenteral amino acid nutrition, based on product types such as Aminoven, Nephrosteril and Aminoplasmal) |
+| Original Indication | Not available in the registration data (the approved indication text is empty for all licences). Marketed products are amino acid and parenteral nutrition infusions. |
 | Predicted New Indication | Congenital prothrombin deficiency |
 | TxGNN Prediction Score | 98.90% |
 | Evidence Level | L5 |
@@ -51,11 +51,11 @@ No plausible mechanism is evident, so the prediction is treated as a model outpu
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, proline is a proteinogenic amino acid, a nutritional component of intravenous amino acid infusions. Its role as a nutrient is established, but the mechanism cannot be cross-checked against the model score.
+Currently, detailed mechanism of action data is not available. Proline is a proteinogenic amino acid supplied as part of parenteral nutrition and amino acid solutions. Its role there is nutritional (a building block for protein synthesis), not a targeted pharmacological effect.
 
-Mechanistically, the link to congenital prothrombin deficiency (factor II deficiency) is weak. This condition is a single-protein synthesis defect, and amino acid supplementation would not be expected to correct it. The high score (rank 11,253 in the model's ranking) is therefore best read as a statistical association in the knowledge graph, not a supported therapeutic rationale.
+For congenital prothrombin deficiency, no mechanistic rationale is supported by the data compiled for this report. The condition is a genetic coagulation factor disorder, and proline has no established role in correcting it. The high score (0.989) is a model output only, with no trials or literature behind it.
 
-Among the other top-10 predictions, only **dyspepsia** (score 91.7%) has indirect supporting literature. Several metabolomic studies report altered arginine/proline metabolism in functional dyspepsia, but these are biomarker associations, not evidence that proline treats the condition. The one dyspepsia trial (NCT05876845) tests a pre-/pro-/post-biotic supplement, where "pro" means probiotic, so it does not test proline.
+Other top-ranked predictions show the same pattern. Gastroparesis, obsolete vitamin D deficiency, folic acid deficiency anemia and familial hypoparathyroidism have no supporting trials or literature. For dyspepsia, vitamin deficiency, Paget disease, hypophosphatemic rickets and biotin metabolic disease, the retrieved papers mostly report proline as a metabolic marker or as a residue in mutated proteins. They do not show proline acting as a treatment.
 
 ## Clinical Trial Evidence
 
@@ -63,36 +63,57 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for congenital prothrombin deficiency.
+
+For reference, literature was retrieved for some lower-ranked predictions, but none shows a therapeutic effect of proline:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [35687195](https://pubmed.ncbi.nlm.nih.gov/35687195/) | 2022 | Metabolomic observational study | Metabolomics | Arginine and proline metabolism differs in blood plasma between functional dyspepsia and IBS (biomarker signal, dyspepsia) |
+| [17173758](https://pubmed.ncbi.nlm.nih.gov/17173758/) | 2006 | Review | Actas Dermo-Sifiliograficas | Vitamin C is required for hydroxylation of proline in collagen (vitamin deficiency) |
+| [862347](https://pubmed.ncbi.nlm.nih.gov/862347/) | 1977 | Human observational | Clin Sci Mol Med | Urinary proline and hydroxyproline excretion and vitamin C status in elderly people (vitamin deficiency) |
+| [24787057](https://pubmed.ncbi.nlm.nih.gov/24787057/) | 2014 | Epidemiological analysis | Schizophr Res | Vitamin D insufficiency, proline dehydrogenase and hyperprolinemia in schizophrenia risk (vitamin deficiency) |
+| [6220191](https://pubmed.ncbi.nlm.nih.gov/6220191/) | 1981 | Biomarker study | Metab Bone Dis Relat Res | Hydroxyproline and alkaline phosphatase as bone turnover markers (Paget disease) |
+| [2711157](https://pubmed.ncbi.nlm.nih.gov/2711157/) | 1989 | Clinical study | Schweiz Med Wochenschr | Single pamidronate infusion in Paget disease; not a proline study |
+| [10588840](https://pubmed.ncbi.nlm.nih.gov/10588840/) | 1999 | Case report | Am J Med Genet | Citrate and aspartate for pyruvate carboxylase deficiency; proline was only elevated as a metabolite (biotin metabolic disease) |
 
 ## Singapore Market Information
 
-Registration data lists 19 licences in total. The five main ones are below. Approved indication text is not recorded for these products.
-
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN16337P | AMINOVEN SOLUTION FOR INFUSION 15% | Infusion, solution | Fresenius Kabi Austria GmbH (Graz) |
-| SIN11682P | AMINOVEN SOLUTION FOR INFUSION 5% | Injection | Fresenius Kabi Austria GmbH |
-| SIN11829P | AMINOVEN SOLUTION FOR INFUSION 10% | Injection | Fresenius Kabi Austria GmbH |
-| SIN06299P | NEPHROSTERIL FOR INTRAVENOUS INFUSION | Injection | Fresenius Kabi Austria GmbH |
-| SIN08352P | AMINOPLASMAL-15% INFUSION | Injection | B Braun Melsungen AG |
+| SIN16337P | AMINOVEN SOLUTION FOR INFUSION 15% | Infusion, solution | Not stated |
+| SIN11682P | AMINOVEN SOLUTION FOR INFUSION 5% | Injection | Not stated |
+| SIN06299P | NEPHROSTERIL FOR INTRAVENOUS INFUSION | Injection | Not stated |
+| SIN08352P | AMINOPLASMAL-15% INFUSION | Injection | Not stated |
+| SIN14286P | SmofKabiven Emulsion for Infusion | Injection, emulsion | Not stated |
+
+Showing 5 of 19 valid single-ingredient licences. The others include further Aminoven, Aminoplasmal, Trophamine, Nutrineal PD4, Vaminolact, Oliclinomel, SmofKabiven and Nutriflex Omega products.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+The knowledge graph links proline to the following contraindication-type conditions. These come from knowledge graph edges, not from label text, and should be verified against product labelling:
+
+- **Kidney disease:** kidney disease, chronic kidney disease, chronic renal failure, end stage renal failure, acute urate nephropathy
+- **Kidney stones and calcium:** nephrolithiasis, nephrocalcinosis, hypercalcemia, humoral hypercalcemia of malignancy, sarcoidosis
+- **Cardiac:** heart disease, cardiovascular disease, digitalis poisoning, ventricular fibrillation
+- **Metabolic:** phenylketonuria, disorders of phenylalanine metabolism, phosphorus metabolism disease
+- **Other:** pyoureter
+
+No drug interaction records were found. Please refer to the package insert for key warnings and labelled contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top prediction rests on the model score alone, with no trials, no literature and no plausible mechanism. The evidence level is L5. Proline's role as a nutritional amino acid does not suggest correction of a congenital coagulation factor deficiency.
+The prediction for congenital prothrombin deficiency has no clinical trials and no literature, and there is no plausible mechanism linking proline to correcting a genetic coagulation factor deficiency. The evidence level is L5, so the TxGNN score is the only support. The literature retrieved for other predicted indications reflects proline as a biomarker, not as a therapy.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications (a blocking gap for safety screening), plus the approved indication text for the registered products
-- Mechanism of action data for proline (for example from DrugBank), to allow a mechanistic cross-check of the score
-- A review of the "obsolete vitamin D deficiency" mapping (rank 2), which should be redirected to a current vitamin D deficiency term
-- Consideration of dyspepsia as a lower-priority research question (L4), starting with a targeted literature review of proline metabolism in functional dyspepsia
+- Package insert warnings and contraindications from the HSA website, which are needed for safety screening
+- Mechanism of action data
+- Any preclinical or clinical evidence that proline affects prothrombin synthesis or the coagulation cascade
+- A review of the kidney, cardiac and phenylketonuria-related contraindication signals before any new use is considered
+- Consideration of other predicted indications only if intervention evidence appears. At present none of the ten has it.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

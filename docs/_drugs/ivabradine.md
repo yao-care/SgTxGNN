@@ -2,7 +2,7 @@
 layout: default
 title: Ivabradine
 parent: Low Evidence (L5)
-nav_order: 555
+nav_order: 560
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,20 +29,20 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ivabradine: From Angina and Heart Rate Control to Hypertrichosis
+# Ivabradine: From Heart Rate Control to Hypertrichosis
 
 ## One-Sentence Summary
 
-Ivabradine is a heart-rate-lowering drug that inhibits the HCN (If) channel. A trial summary in the pack notes it is licensed for angina, and it is marketed in Singapore.
-The TxGNN model predicts it may be effective for **hypertrichosis** with a very high score, but there are **0 clinical trials** and **0 publications** for this indication.
-The prediction is a knowledge-graph signal only and is not supported by any clinical evidence.
+Ivabradine is a heart-rate-lowering medicine that works on the sinoatrial node, and it is marketed in Singapore as film-coated tablets.
+The TxGNN model predicts it may be effective for **hypertrichosis** (excessive hair growth), with a very high model score.
+However, there are **0 clinical trials** and **0 publications** supporting this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Angina (from a trial summary in the pack; the Singapore licence records contain no indication text) |
-| Predicted New Indication | Hypertrichosis |
+| Original Indication | Not stated in the Singapore registration records. Ivabradine is generally known as a heart-rate-lowering drug. |
+| Predicted New Indication | Hypertrichosis (disease) |
 | TxGNN Prediction Score | 99.79% |
 | Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
@@ -51,11 +51,9 @@ The prediction is a knowledge-graph signal only and is not supported by any clin
 
 ## Why is This Prediction Reasonable?
 
-Ivabradine slows heart rate by inhibiting HCN (If) channels in the pacemaker cells of the sinus node. Detailed mechanism data was not retrieved from DrugBank, so this description comes only from the pack's rationale text.
+Ivabradine inhibits the HCN channel (the "If" current) in the sinoatrial node, which slows the heart rate. Detailed mechanism data was not available in the data compiled for this report, so this description is based on general pharmacology.
 
-The pack finds no established pathway from HCN channel inhibition to hair growth. Hypertrichosis is a hair-growth disorder, while ivabradine's known actions are cardiac. The very high score (rank 3,572 in the model) most likely reflects graph proximity rather than biology. The other hair-related predictions (Ambras syndrome, hair shaft abnormality, trichomegaly) appear to be neighbours of the same artifact.
-
-In short, this prediction should be treated as a hypothesis-generating signal and not as a credible repurposing direction.
+The review found no plausible mechanistic link between this action and hair follicle biology. The high score appears to be a network-based prediction artifact. It likely reflects shared neighbours with other hair-related conditions in the knowledge graph, not a real pharmacological relationship. Without trials or literature, there is no support for the prediction beyond the model itself.
 
 ## Clinical Trial Evidence
 
@@ -67,37 +65,50 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Six licences are registered. Five are listed below. No approved-indication text is recorded for any of them.
+Six single-ingredient oral products hold valid registrations. The approved indication text is not listed in the registration records.
 
 | Authorization Number | Product Name | Dosage Form | Manufacturer |
 |---------|------|------|-----------|
-| SIN16202P | IVASWIFT Film-Coated Tablet 5 mg | Film-coated tablet | Ind-Swift Limited |
-| SIN16201P | IVASWIFT Film-Coated Tablet 7.5 mg | Film-coated tablet | Ind-Swift Limited |
-| SIN17220P | VARADIN Film-Coated Tablets 7.5 mg | Film-coated tablet | Genepharm S.A |
-| SIN17221P | VARADIN Film-Coated Tablets 5 mg | Film-coated tablet | Genepharm S.A |
+| SIN13408P | CORALAN Tablet 5mg | Film-coated tablet | Les Laboratoires Servier Industrie |
 | SIN13409P | CORALAN Tablet 7.5 mg | Film-coated tablet | Les Laboratoires Servier Industrie |
+| SIN16202P | IVASWIFT Film-Coated Tablet 5MG | Film-coated tablet | Ind-Swift Limited |
+| SIN16201P | IVASWIFT Film-Coated Tablet 7.5MG | Film-coated tablet | Ind-Swift Limited |
+| SIN17221P | VARADIN Film-Coated Tablets 5MG | Film-coated tablet | GENEPHARM S.A |
 
-All available products are oral formulations.
+A sixth registration, SIN17220P (VARADIN 7.5MG, GENEPHARM S.A), is also valid.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: 100 interactions were identified, and the first 20 were reviewed. The main **Major**-level ones are:
+  - Aprepitant
+  - Clarithromycin
+  - Clotrimazole
+  - Cobicistat
+  - Cisapride
+  - Levofloxacin
+  - Papaverine
+  - The setron antiemetics (dolasetron, palonosetron, granisetron, ondansetron)
+- **Moderate**-level interactions include the H2 blockers (famotidine, ranitidine, cimetidine, nizatidine), dexamethasone, miconazole, metreleptin and troglitazone.
+
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on the model score alone. There are no trials or literature for hypertrichosis, and no plausible mechanistic link between HCN inhibition and hair growth. The evidence level is L5.
-
-**A better-supported alternative in the same output:**
-- Among the model's other predictions, **pulmonary hypertension** (score 98.50%) has the strongest support at L3. It has rodent studies showing improved right ventricular function and fibrosis, plus small human studies in systemic-sclerosis PAH and COPD-associated PH suggesting tolerability. There are no Phase 3 or adequately powered randomized trials, and the registered trials listed do not test PH directly. It is best treated as a research question, not a decision-ready candidate.
+The prediction has no clinical trials or literature behind it, and no plausible mechanism links HCN channel inhibition to hair growth. It should be treated as a likely model artifact, not a repurposing lead.
 
 **To proceed, the following is needed:**
-- Approved indication text and safety information (warnings, contraindications) from the HSA package insert
-- Mechanism of action data from DrugBank to allow a proper mechanistic assessment
-- Any experimental or clinical rationale linking HCN channels to hair follicle biology, before further work on hypertrichosis
-- If pulmonary hypertension is pursued, a dedicated evidence review, with a controlled trial as the eventual requirement
+- Any mechanistic or preclinical evidence linking HCN channels to hair follicle biology
+- Package insert warnings and contraindications from the Singapore regulator
+- Approved indication text for the Singapore registrations
+
+**Note on other predictions:** Among the other predictions for ivabradine, **pulmonary hypertension** (score 98.50%) has by far the most supporting data, at evidence level L3. It has 20 publications:
+- animal studies showing improved right ventricular function and less fibrosis
+- small clinical studies in pulmonary arterial hypertension and in COPD-associated pulmonary hypertension
+
+No registered trials exist, and the safety of heart rate reduction in patients whose cardiac output depends on the right ventricle remains uncertain. It is best framed as a research question that needs randomized, adequately powered confirmation. If the team wants to pursue a repurposing direction for ivabradine, this indication is a more sensible starting point than hypertrichosis.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

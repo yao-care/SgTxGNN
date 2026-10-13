@@ -2,7 +2,7 @@
 layout: default
 title: Panitumumab
 parent: Low Evidence (L5)
-nav_order: 752
+nav_order: 760
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Panitumumab: From an Anti-EGFR Oncology Antibody to Drug-Induced Osteoporosis
+# Panitumumab: From Metastatic Colon Cancer to Drug-Induced Osteoporosis
 
 ## One-Sentence Summary
 
-Panitumumab is an anti-EGFR monoclonal antibody marketed in Singapore as Vectibix, and the registration record supplied does not list its approved indication.
-The TxGNN model predicts it may be relevant to **drug-induced osteoporosis**, but there are **0 clinical trials** and **0 publications** supporting this direction.
-This is a model-only hypothesis (Evidence Level L5) and should be treated as such.
+Panitumumab is an anti-EGFR monoclonal antibody originally used for metastatic colon cancer.
+The TxGNN model predicts it may be effective for **drug-induced osteoporosis**,
+but **no clinical trials and no publications** currently support this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not listed in the registration record supplied |
+| Original Indication | Metastatic malignant neoplasm of the colon (from the knowledge graph; the Singapore licence record contains no indication text) |
 | Predicted New Indication | Drug-induced osteoporosis |
 | TxGNN Prediction Score | 99.13% |
 | Evidence Level | L5 |
@@ -51,11 +51,11 @@ This is a model-only hypothesis (Evidence Level L5) and should be treated as suc
 
 ## Why is This Prediction Reasonable?
 
-Panitumumab is an anti-EGFR monoclonal antibody. Detailed mechanism-of-action data is not available in the source record, so the mechanistic analysis is limited.
+Detailed mechanism of action data is not available in the data compiled for this report. Panitumumab is known to be an anti-EGFR monoclonal antibody, and its efficacy in metastatic colon cancer is the basis of its original use.
 
-EGFR signalling has been discussed in the context of bone remodelling. Nothing in the supplied data shows which direction the effect goes, and EGFR blockade could plausibly be neutral or even harmful to bone. The link between the original use and this new indication therefore rests only on a TxGNN graph prediction (score 0.991), and is speculative.
+EGFR signalling plays a role in osteoblast differentiation and bone remodelling, so a theoretical link to bone metabolism exists. However, the likely direction of effect is unfavourable: EGFR blockade is more likely to impair bone formation. Panitumumab is also associated with hypomagnesaemia and hypocalcaemia, which could worsen bone health. The high TxGNN score is a graph-based prediction only, and the mechanism does not clearly support benefit.
 
-The other top-ranked predictions are diabetic retinopathy (including severe non-proliferative disease) and several cataract subtypes, all with scores around 0.988 to 0.990. Several cataract entries share identical scores, which suggests a shared graph-derived signal rather than disease-specific evidence. None has supporting trials or literature.
+Other top-ranked predictions are mostly eye conditions (diabetic retinopathy and several types of cataract), all at L5 with no trials or literature. Their rationale is weak or contradictory. For example, tetanic cataract is caused by low calcium, which panitumumab can itself lower. Anti-EGFR antibodies also cause known ocular toxicities (keratitis, conjunctivitis), and a large intravenous antibody is not expected to penetrate the eye well.
 
 ## Clinical Trial Evidence
 
@@ -69,9 +69,7 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN14498P | Vectibix Concentrate for Solution for Infusion 100 mg/vial | Infusion, solution concentrate | Not listed in the registration record |
-
-The manufacturer is Amgen Manufacturing Limited LLC. The only registered route is injectable.
+| SIN14498P | Vectibix Concentrate for Solution for Infusion 100 mg/vial (Amgen Manufacturing Limited LLC) | Infusion, solution concentrate | Not stated in the licence record |
 
 ## Cytotoxicity
 
@@ -80,31 +78,30 @@ The manufacturer is Amgen Manufacturing Limited LLC. The only registered route i
 | Cytotoxicity Classification | Targeted therapy (anti-EGFR monoclonal antibody) |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Electrolytes, especially magnesium and calcium (anti-EGFR antibodies are known to cause hypomagnesemia); other items per the package insert |
-| Handling Protection | Please refer to the package insert and local institutional handling policy |
+| Monitoring Items | Electrolytes (magnesium, calcium) are relevant given the known effects; please refer to the package insert for the full list |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ## Safety Considerations
 
-- **Electrolyte disturbance (caution flag):** Anti-EGFR antibodies are known to cause hypomagnesemia. This could be counterproductive in bone-related conditions and in cataract subtypes secondary to hypocalcaemia. It is a caution and not evidence of benefit.
-- **Systemic use in new populations:** Panitumumab is a systemic oncology antibody, and its safety in patients with diabetic eye disease, cataract or osteoporosis has not been assessed.
+- **Drug Interactions**: 27 interactions were identified in total. Those listed include:
+  - **Major**: amiodarone, arsenic trioxide, bevacizumab, dofetilide, dronedarone, droperidol, irinotecan (including liposomal), levacetylmethadol, aminolevulinic acid
+  - **Moderate**: proton pump inhibitors (rabeprazole, omeprazole, dexlansoprazole, esomeprazole, lansoprazole, pantoprazole), methoxsalen, topical aminolevulinic acid, disopyramide, idelalisib
+- **Class-related effects noted in the mechanistic review**: hypomagnesaemia, hypocalcaemia, and ocular toxicities (keratitis, ulcerative keratitis, conjunctivitis).
 
-Please refer to the package insert for complete safety information.
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a TxGNN score, with no clinical trials, no literature, and no established mechanism. The direction of EGFR blockade on bone is unclear and may be harmful, and the safety profile of a systemic oncology antibody in these populations is unassessed.
+The prediction is supported only by a model score, with no trials or literature (L5). The mechanistic review suggests EGFR blockade and panitumumab's calcium and magnesium effects could worsen rather than improve bone health. The same applies to the other predicted indications.
 
 **To proceed, the following is needed:**
-- The HSA package insert (warnings, contraindications and approved indication), which is currently blocking safety screening
-- Mechanism-of-action data from DrugBank
-- A literature review of EGFR signalling in bone remodelling to establish the direction of effect
-- Preclinical or mechanistic evidence for the predicted indication
-- A risk-benefit assessment of systemic anti-EGFR therapy in non-oncology populations
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Package insert warnings and contraindications from the HSA, so safety screening can be done
+- Mechanism of action data from DrugBank
+- Preclinical or observational evidence on EGFR inhibition and bone metabolism, including the direction of effect
+- Review of the benefit-risk balance of a systemic oncology biologic for a non-oncology bone indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

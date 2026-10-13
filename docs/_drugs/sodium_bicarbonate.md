@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Sodium Bicarbonate
-parent: Medium Evidence (L3-L4)
-nav_order: 908
-evidence_level: L4
+parent: Low Evidence (L5)
+nav_order: 918
+evidence_level: L5
 indication_count: 10
 ---
 
 # Sodium Bicarbonate
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Sodium Bicarbonate: From Approved Dialysis and Infusion Products to Bronchitis
+# Sodium Bicarbonate: From Antacid and Acid-Base Correction to Bronchitis (Top TxGNN Prediction)
 
 ## One-Sentence Summary
 
-Sodium bicarbonate is marketed in Singapore as haemodialysis powders and intravenous infusions, and the registry data supplied does not list an approved indication.
-The TxGNN model predicts it may be effective for **bronchitis**, but the **4 clinical trials** and **5 publications** retrieved give no direct support for this.
-The prediction rests mainly on a plausible airway-mucus mechanism.
+Sodium bicarbonate is an alkalinising agent and antacid, marketed in Singapore as injections, haemodialysis powders, capsules and antacid products.
+The TxGNN model's top prediction is **bronchitis**, but there are **no clinical trials** and only **1 publication** (a 1976 physiology study that does not address bronchitis treatment) behind it.
+The best-supported signals are in the lower-ranked **anaphylaxis (exercise-induced)** predictions, which rest on two small, old case-level reports.
 
 ---
 
@@ -43,10 +43,10 @@ The prediction rests mainly on a plausible airway-mucus mechanism.
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registry data (products are haemodialysis powders and IV infusions) |
+| Original Indication | Not stated in the available licence data (products are listed as injection, haemodialysis powder, capsule, antacid suspension/powder/tablet and granule) |
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 97.91% |
-| Evidence Level | L4 |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 20 |
 | Recommended Decision | Hold |
@@ -55,60 +55,74 @@ The prediction rests mainly on a plausible airway-mucus mechanism.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available for this drug. Sodium bicarbonate is an alkalinising agent and bicarbonate source. Its Singapore products are used in haemodialysis and as intravenous infusions.
+Currently, detailed mechanism of action data is not available. Based on known information, sodium bicarbonate is a bicarbonate buffer used to neutralise acid (gastric acid in antacid products, metabolic acid in intravenous use, and as a dialysis buffer).
 
-The proposed link to bronchitis runs through airway surface liquid. Bicarbonate secretion via CFTR affects airway pH, mucus hydration and viscosity. Cigarette-smoke-induced CFTR dysfunction has been implicated in chronic bronchitis and COPD (PMID 23934925). If bicarbonate handling is impaired in these patients, supplying bicarbonate could in theory improve mucus clearance.
+For **bronchitis**, no clear mechanistic link was found. The only retrieved paper (PMID 778960, 1976) examines pulmonary vascular responses to hypercapnic ventilation, not bronchitis treatment. The high score is a model prediction without clinical support.
 
-This is a mechanistic hypothesis only. The retrieved papers do not test sodium bicarbonate as a bronchitis treatment. Two Soviet reports from 1988 on endobronchial expectorant therapy in chronic bronchitis may involve alkaline agents, but their abstracts were unavailable, so this could not be confirmed.
+Other predictions have somewhat more context:
+- **Anaphylaxis / food-dependent exercise-induced anaphylaxis**: Two small clinical reports (1986, 1992) describe sodium bicarbonate pretreatment inhibiting exercise-induced and wheat-dependent exercise-induced anaphylaxis. A proposed explanation is that bicarbonate buffers exercise-related acid-base shifts that favour mast cell activation. This is not established, and the evidence is limited to this subtype. In other anaphylaxis papers, bicarbonate is only supportive care for shock or resuscitation.
+- **Open-angle glaucoma**: The link is genetic only (the bicarbonate cotransporter gene SLC4A10 and AQP1 as candidate genes). It does not show that systemic sodium bicarbonate is therapeutic.
+- **Irritable bowel syndrome**: Speculative, based on possible effects on luminal pH and ion transport.
+- **Hyperthyroidism**: Bicarbonate appears only as supportive care for complications such as metabolic acidosis and rhabdomyolysis.
+- **Resistance to thyroid hormone, primary hereditary glaucoma, hyperthyroxinemia, esotropia**: No mechanistic rationale or clinical evidence found.
 
 ---
 
 ## Clinical Trial Evidence
 
-All four retrieved trials were graded C (low relevance). None tests sodium bicarbonate in bronchitis, and they are probably retrieval artifacts.
+For the top prediction (bronchitis): Currently no related clinical trials registered.
+
+For lower-ranked predictions, only one trial was found, for irritable bowel syndrome:
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT02981602](https://clinicaltrials.gov/study/NCT02981602) | Phase 2 | Completed | 31 | ISIS 505358 in chronic hepatitis B; unrelated to the drug or to bronchitis |
-| [NCT01163253](https://clinicaltrials.gov/study/NCT01163253) | Phase 3 | Terminated | 2867 | Long-term safety of oral CP-690,550 in plaque psoriasis; unrelated |
-| [NCT02469298](https://clinicaltrials.gov/study/NCT02469298) | Phase 2 | Completed | 45 | Danirixin in acute uncomplicated influenza; unrelated |
-| [NCT01421160](https://clinicaltrials.gov/study/NCT01421160) | Phase 1 | Withdrawn | 0 | Urine pH regulation (alkalinisation) for chronic joint pain; no participants enrolled, no data |
+| [NCT00796354](https://clinicaltrials.gov/study/NCT00796354) | Phase 3 | Completed | 210 | Multi-centre, double-blind, placebo-controlled study of Movicol® in constipation associated with IBS. Nothing confirms that sodium bicarbonate is the intervention, so it should not be counted as supporting evidence until verified. |
 
 ---
 
 ## Literature Evidence
 
-No RCTs were retrieved. All five items are tier 3 and none directly tests sodium bicarbonate in bronchitis.
+For bronchitis (rank 1):
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [23934925](https://pubmed.ncbi.nlm.nih.gov/23934925/) | 2013 | Review (mechanistic) | Am J Physiol Lung Cell Mol Physiol | Cigarette smoke impairs CFTR, which is implicated in COPD/chronic bronchitis; the most relevant mechanistic paper |
-| [2838916](https://pubmed.ncbi.nlm.nih.gov/2838916/) | 1988 | Clinical report (non-English) | Sovetskaia meditsina | Endobronchial expectorant therapy in chronic bronchitis; no abstract, agent not confirmed |
-| [2846955](https://pubmed.ncbi.nlm.nih.gov/2846955/) | 1988 | Clinical report (non-English) | Klinicheskaia meditsina | Endobronchial therapy in chronic bronchitis; no abstract, agent not confirmed |
-| [16424422](https://pubmed.ncbi.nlm.nih.gov/16424422/) | 2006 | Clinical study | Chest | Racemic vs single-enantiomer albuterol and saline on airway secretions in long-term intubated patients; no bicarbonate data |
-| [778960](https://pubmed.ncbi.nlm.nih.gov/778960/) | 1976 | Physiology study | Respiration | Pulmonary vascular response to hypercapnia; indirect relevance only |
+| [778960](https://pubmed.ncbi.nlm.nih.gov/778960/) | 1976 | Physiology study | Respiration | Hypercapnic ventilation (5% CO2) raised pulmonary artery pressure and vascular resistance. Not a study of bronchitis treatment. |
+
+Most relevant literature for other predicted indications (for context):
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [3024520](https://pubmed.ncbi.nlm.nih.gov/3024520/) | 1986 | Clinical study / case report | Allergy | Exercise-induced anaphylaxis inhibited with sodium bicarbonate |
+| [1310835](https://pubmed.ncbi.nlm.nih.gov/1310835/) | 1992 | Case report | Annals of Allergy | Bicarbonate pretreatment prevented recurrence of wheat-dependent exercise-induced anaphylaxis and blunted the pH drop |
+| [22233286](https://pubmed.ncbi.nlm.nih.gov/22233286/) | 2012 | Review | BJU International | In interstitial cystitis, questionnaire data suggest sodium bicarbonate may improve symptoms (not IBS) |
+| [20101282](https://pubmed.ncbi.nlm.nih.gov/20101282/) | 2010 | Genetic association | Molecular Vision | SLC4A10 (bicarbonate transporter) and AQP1 as candidate genes for primary open-angle glaucoma |
+| [34239739](https://pubmed.ncbi.nlm.nih.gov/34239739/) | 2021 | Case report | Case Reports in Endocrinology | Hypokalaemic periodic paralysis with thyrotoxicosis and renal tubular acidosis |
 
 ---
 
 ## Singapore Market Information
 
-Five of 20 registrations are listed. The registry data does not provide approved indication text for these products.
+There are 20 valid licences, all single-ingredient. The approved indication text is not available in the licence data. Main authorisations:
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN13822P | BIBAG (5008 DESIGN) Powder for Haemodialysis | Powder, for solution |
-| SIN09226P | Sodium Bicarbonate Intravenous Infusion 8.4% w/v | Injection |
-| SIN09851P | Sodium Bicarbonate Intravenous Infusion BP 4.2% w/v | Injection |
-| SIN06382P | BICART Powder for Haemodialysis | Powder, for solution |
-| SIN10583P | BIBAG Powder for Haemodialysis | Powder, for solution |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN09226P | Sodium Bicarbonate Intravenous Infusion 8.4% w/v | Injection | Not stated |
+| SIN09851P | Sodium Bicarbonate Intravenous Infusion BP 4.2% w/v | Injection | Not stated |
+| SIN05414P | Sodium Bicarbonate Capsule 500 mg | Capsule | Not stated |
+| SIN13822P | BIBAG (5008 Design) Powder for Haemodialysis | Powder, for solution | Not stated |
+| SIN14016P | Gaviscon Double Action Liquid | Suspension | Not stated |
 
-Other registered dosage forms include capsule, chewable tablet, granule, effervescent granule, powder and suspension.
+Other products include Bicart and BIBAG haemodialysis powders, further Gaviscon products, Aromag, Magtasil and Kaomix antacid mixtures, Ohta's Isan antacid powder, E-Z-Gas II granules, Inon granules, Gascovid liquid and Ural effervescent granules.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug-interaction records were found.
+**Drug Interactions** (100 interactions recorded; examples):
+- **Moderate**: doxycycline, tetracycline, minocycline, acetylsalicylic acid, atropine, bisacodyl, chlorpropamide, acetohexamide, glipizide, ephedrine, pancrelipase
+- **Minor**: famotidine, ranitidine, cimetidine, hydrocortisone, dexamethasone, betamethasone, triamcinolone, misoprostol
+
+Please refer to the package insert for warnings and contraindications.
 
 ---
 
@@ -117,18 +131,15 @@ Please refer to the package insert for safety information. No drug-interaction r
 **Decision: Hold**
 
 **Rationale:**
-The 97.91% TxGNN score is not backed by direct clinical evidence. The four retrieved trials are unrelated, and the literature offers only mechanistic and indirect support. The safety data is also missing, which blocks progression to safety screening.
+The top-ranked prediction (bronchitis) has no clinical trials and no supporting literature, so it rests on a model score alone (L5). The most plausible signals are for exercise-induced anaphylaxis, but they come from two small, old, non-randomised reports in a narrow subtype and are best treated as a research question rather than a repurposing recommendation.
 
 **To proceed, the following is needed:**
-- The HSA package insert warnings and contraindications (blocking gap)
-- Detailed mechanism of action data (e.g., from DrugBank)
-- The full text of the two 1988 chronic bronchitis reports, to see whether an alkaline agent was used
-- Route compatibility assessment: the registered forms are mainly intravenous and dialysis products, and an inhaled or endobronchial route would need separate evaluation
-- Any controlled or observational study of bicarbonate in airway disease
-
-**Note on other predictions:** The evidence is stronger for **food-dependent exercise-induced anaphylaxis** and general **anaphylaxis**. Two small case reports from 1986 and 1992 describe sodium bicarbonate inhibiting exercise-induced anaphylaxis. Both are rated "Research Question" and may be worth prioritising over bronchitis.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
+- Mechanism of action data (currently unavailable)
+- Package insert warnings and contraindications (currently unavailable), required before any safety screening
+- Approved indication text for the Singapore licences
+- Manual verification of whether NCT00796354 involves sodium bicarbonate
+- Confirmatory study design for exercise-induced anaphylaxis if that direction is pursued
+- Route and formulation compatibility assessment for any proposed new indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

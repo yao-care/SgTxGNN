@@ -2,7 +2,7 @@
 layout: default
 title: Potassium Citrate
 parent: High Evidence (L1-L2)
-nav_order: 804
+nav_order: 813
 evidence_level: L2
 indication_count: 10
 ---
@@ -29,98 +29,117 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Potassium Citrate: From an Unrecorded Original Indication to Nephrolithiasis
-
-> **Note on indication selection:** The rank-1 TxGNN prediction (familial visceral myopathy) has no trials, no literature and no plausible mechanism, so it is most likely a knowledge-graph artifact. This report therefore focuses on the best-supported prediction, **nephrolithiasis** (rank 4).
+# Potassium Citrate: From Potassium Deficiency and Renal Tubular Acidosis to Nephrolithiasis
 
 ## One-Sentence Summary
 
-Potassium citrate is an oral urinary alkalinizer and citrate supplement. The Singapore registration records do not state its approved indication.
-The TxGNN model predicts it may be effective for **nephrolithiasis (kidney stones)**.
-In the evidence pack, **35 clinical trials** and **19 publications** relate to this direction, and the strongest trials are Phase 2 to Phase 4.
+Potassium citrate is a potassium and alkali supplement, originally used for potassium deficiency, renal tubular acidosis and acute urate nephropathy.
+The TxGNN model predicts it may be effective for **Nephrolithiasis (kidney stones)**, the top-ranked prediction with meaningful supporting data, with **15 clinical trials** and **16 publications** currently supporting this direction.
+Note that nephrolithiasis is largely an on-label or closely related use, so this is not a true repurposing.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration records |
-| Predicted New Indication | Nephrolithiasis |
+| Original Indication | Potassium deficiency disease; renal tubular acidosis; acute urate nephropathy |
+| Predicted New Indication | Nephrolithiasis (see note below) |
 | TxGNN Prediction Score | 99.75% |
 | Evidence Level | L2 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 3 |
 | Recommended Decision | Proceed with Guardrails |
 
+**Note on prediction selection:** The highest-scoring prediction (rank 1, familial visceral myopathy, 99.95%) has no trials, no literature and no plausible mechanism, so it is only a computational signal. This report focuses on nephrolithiasis (rank 4), the highest-ranked prediction with substantial clinical evidence. The other predictions (for example Pendred syndrome, cystinosis and exocrine pancreatic insufficiency) have no or only indirect evidence and are on Hold or Research Question status.
+
+---
+
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the Evidence Pack. The following is based on established pharmacology.
+Detailed mechanism of action data is not available from the data compiled for this report. Based on known pharmacology, potassium citrate is an alkalinizing potassium salt. It raises urinary pH and urinary citrate.
 
-Potassium citrate raises urinary pH and urinary citrate. Citrate binds calcium and inhibits the crystallization of calcium oxalate and calcium phosphate. Alkalinization also dissolves uric acid stones.
+Citrate binds calcium in urine and inhibits the nucleation and growth of calcium oxalate and calcium phosphate crystals. Alkalinization also helps dissolve uric acid stones. This is closely related to the drug's original renal indications (renal tubular acidosis and urate nephropathy), where low urinary citrate and acidic urine are also central problems.
 
-This is already an established stone-prevention use, so the missing original-indication field is probably a data gap rather than a true absence. The "new" indication is therefore better read as confirming a known use than as a novel repurposing.
+There are caveats. Over-alkalinization may promote calcium phosphate stones, so urinary pH should be monitored. In addition, the potassium load poses a hyperkalaemia risk in patients with impaired kidney function.
 
-Other lower-ranked predictions have only indirect links:
-- Cystinosis (rank 5) and exocrine pancreatic insufficiency (rank 9) are supportive or complication-level uses, with case reports only.
-- SLC26A1-related stone susceptibility (rank 7) is inferred from the parent nephrolithiasis evidence.
+---
 
 ## Clinical Trial Evidence
 
+The table lists the 10 most relevant of the 15 trials identified.
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00004284](https://clinicaltrials.gov/study/NCT00004284) | Phase 3 | Completed | 300 | Potassium phosphate vs potassium citrate for absorptive hypercalciuria and stone recurrence |
-| [NCT04021381](https://clinicaltrials.gov/study/NCT04021381) | Phase 3 | Unknown | 262 | Citrate salts vs placebo for stone-free rate after flexible ureterorenoscopy |
-| [NCT01329042](https://clinicaltrials.gov/study/NCT01329042) | Phase 4 | Completed | 80 | Potassium sodium hydrogen citrate for recurrence and residual fragments after SWL/PCNL in calcium oxalate stones |
-| [NCT05365477](https://clinicaltrials.gov/study/NCT05365477) | Phase 4 | Completed | 56 | Empiric vs selective prevention strategies for kidney stones |
-| [NCT03258190](https://clinicaltrials.gov/study/NCT03258190) | Phase 2 | Completed | 137 | Citrate- and potassium-rich lime powder regimen to prevent urolithiasis recurrence |
-| [NCT01754779](https://clinicaltrials.gov/study/NCT01754779) | Phase 2 | Completed | 13 | Citric acid or potassium citrate to lower calcium phosphate saturation in urine |
-| [NCT06819553](https://clinicaltrials.gov/study/NCT06819553) | Phase 2/3 | Active, not recruiting | 48 | Oral potassium citrate to reduce ureteral stent encrustation after ureteroscopy for uric acid stones |
-| [NCT01980004](https://clinicaltrials.gov/study/NCT01980004) | Phase 2 | Withdrawn | 0 | Potassium citrate for stone recurrence in calcium phosphate stone formers (no participants enrolled) |
-| [NCT07162974](https://clinicaltrials.gov/study/NCT07162974) | N/A | Completed | 49 | Citrate mixtures for litholytic therapy of coral urate stones |
-| [NCT06966635](https://clinicaltrials.gov/study/NCT06966635) | Phase 4 | Recruiting | 312 | Potassium citrate sustained-release tablets in gout, with relevance to urate stone biology |
+| [NCT00004284](https://clinicaltrials.gov/study/NCT00004284) | Phase 3 | Completed | 300 | Randomized, double-blind comparison of potassium phosphate vs potassium citrate for absorptive hypercalciuria; no results are summarized in the data |
+| [NCT02373384](https://clinicaltrials.gov/study/NCT02373384) | Phase 4 | Completed | 182 | Predictors of success of oral dissolution (alkalinization) therapy in radiolucent renal stones |
+| [NCT06819553](https://clinicaltrials.gov/study/NCT06819553) | Phase 2/3 | Unknown | 48 | Randomized trial of oral potassium citrate to reduce ureteral stent encrustation after ureteroscopy for uric acid stones |
+| [NCT06966635](https://clinicaltrials.gov/study/NCT06966635) | Phase 4 | Recruiting | 312 | Potassium citrate sustained-release tablets vs sodium bicarbonate vs control in gout; effect on uric acid, flares and stones |
+| [NCT01754779](https://clinicaltrials.gov/study/NCT01754779) | Phase 2 | Completed | 13 | Citric acid or potassium citrate to reduce calcium phosphate saturation in urine; very small |
+| [NCT03836144](https://clinicaltrials.gov/study/NCT03836144) | N/A | Completed | 63 | Effect of urine alkalinization on urinary inflammatory markers in cystinuria; biomarker study |
+| [NCT03984409](https://clinicaltrials.gov/study/NCT03984409) | N/A | Completed | 22 | Dietary potassium citrate source (orange juice) for hypocitraturia and aciduria in stone formers |
+| [NCT03281928](https://clinicaltrials.gov/study/NCT03281928) | N/A | Terminated | 30 | Dietary sodium and potassium citrate effects on renal mineral handling; ended early |
+| [NCT05389995](https://clinicaltrials.gov/study/NCT05389995) | N/A | Active, not recruiting | 10 | Lemonade beverage vs potassium citrate on urinary stone risk factors |
+| [NCT01980004](https://clinicaltrials.gov/study/NCT01980004) | Phase 2 | Withdrawn | 0 | Potassium citrate for calcium phosphate stone recurrence; withdrawn, so no evidence |
+
+---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [27915395](https://pubmed.ncbi.nlm.nih.gov/27915395/) | 2017 | Systematic review / meta-analysis | Urolithiasis | Citrate supplementation and stone recurrence after shock wave lithotripsy |
-| [39206631](https://pubmed.ncbi.nlm.nih.gov/39206631/) | 2024 | Phase II clinical study | Urologia | Probiotics, potassium citrate and magnesium to reduce crystalluria in stone formers |
-| [40978115](https://pubmed.ncbi.nlm.nih.gov/40978115/) | 2025 | Review | Clin Kidney J | Citrate as a urinary base and calcium stone inhibitor; hypocitraturia as a continuum |
-| [40583613](https://pubmed.ncbi.nlm.nih.gov/40583613/) | 2025 | Expert consensus / guideline | Arch Ital Urol Androl | Expert recommendations for urinary stone management (ESD 2025) |
-| [30531474](https://pubmed.ncbi.nlm.nih.gov/30531474/) | 2019 | Review | Curr Opin Nephrol Hypertens | Citrate therapy for calcium phosphate stones; results have been inconsistent |
-| [28762682](https://pubmed.ncbi.nlm.nih.gov/28762682/) | 2017 | Review | G Ital Nefrol | Citrate physiology and its use in nephrolithiasis |
-| [16443041](https://pubmed.ncbi.nlm.nih.gov/16443041/) | 2006 | Review | Lancet | Kidney stone pathophysiology and medical management |
-| [3306318](https://pubmed.ncbi.nlm.nih.gov/3306318/) | 1987 | Review | Miner Electrolyte Metab | Potassium citrate in renal tubular acidosis with calcium stones, hypocitraturic calcium oxalate stones and uric acid lithiasis |
-| [33417997](https://pubmed.ncbi.nlm.nih.gov/33417997/) | 2021 | Animal study | Kidney Int | Chlorthalidone plus potassium citrate reduced calcium oxalate stones in hypercalciuric rats |
-| [35874289](https://pubmed.ncbi.nlm.nih.gov/35874289/) | 2022 | Clinical study | Am J Clin Exp Urol | Fasting vs 24-hour urine pH in urolithiasis patients using potassium citrate |
+| [27915395](https://pubmed.ncbi.nlm.nih.gov/27915395/) | 2017 | Systematic review / meta-analysis | Urolithiasis | Summarizes randomized trials on citrate supplementation to prevent stone recurrence after shock wave lithotripsy |
+| [40978115](https://pubmed.ncbi.nlm.nih.gov/40978115/) | 2025 | Review | Clin Kidney J | Citrate acts as a urinary base equivalent and a potent inhibitor of calcium stone formation; hypocitraturia is a continuum |
+| [40583613](https://pubmed.ncbi.nlm.nih.gov/40583613/) | 2025 | Review | Arch Ital Urol Androl | Expert update on urinary stone management |
+| [30531474](https://pubmed.ncbi.nlm.nih.gov/30531474/) | 2019 | Review | Curr Opin Nephrol Hypertens | Citrate therapy for calcium phosphate stones; strategies enhancing citrate excretion have not consistently reduced recurrence |
+| [30478476](https://pubmed.ncbi.nlm.nih.gov/30478476/) | 2019 | Review | Urolithiasis | Empiric therapy for kidney stones |
+| [26977089](https://pubmed.ncbi.nlm.nih.gov/26977089/) | 2016 | Review | BMJ | Medical management of renal stones, including diet and drug prevention |
+| [23924538](https://pubmed.ncbi.nlm.nih.gov/23924538/) | 2013 | Review | Medicina | Citrate is a powerful inhibitor of calcium salt crystallization; acid pH is the main determinant of citrate excretion |
+| [11475849](https://pubmed.ncbi.nlm.nih.gov/11475849/) | 2001 | Review | Przegl Lek | Therapeutic uses of potassium citrate, including stone disease and distal renal tubular acidosis |
+| [18518781](https://pubmed.ncbi.nlm.nih.gov/18518781/) | 2008 | Review | Expert Opin Pharmacother | Pharmacotherapy of kidney stones |
+| [1988724](https://pubmed.ncbi.nlm.nih.gov/1988724/) | 1991 | Clinical study | J Urol | Bioavailability and citraturic response of potassium-magnesium citrate vs potassium citrate in 14 volunteers |
+
+---
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN08734P | UROCIT-K TABLET 1080 mg | Tablet | Mission Pharmacal Company |
-| SIN05148P | POTCIT MIXTURE | Solution | Beacons Pharmaceuticals Pte Ltd |
-| SIN06732P | POTASSIUM CITRATE MIXTURE BP | Solution | ICM Pharma Pte. Ltd. |
+| SIN08734P | UROCIT-K TABLET 1080 mg | Tablet | Not listed in the data |
+| SIN05148P | POTCIT MIXTURE | Solution | Not listed in the data |
+| SIN06732P | POTASSIUM CITRATE MIXTURE BP | Solution | Not listed in the data |
 
-Approved indication text is not recorded for any of these registrations.
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No warnings, contraindications or drug interaction records were found in the Evidence Pack.
+- **Contraindications (from knowledge-graph associations, not label text):** The drug is associated with contraindication links to kidney disease and impaired renal function, anuria, adrenal insufficiency (including Addison disease), hypertension, coronary artery disease and myocardial infarction, peptic ulcer disease, pancreatitis, diarrhoeal disease, metabolic acidosis, hypercalcaemia, rhabdomyolysis, nephrocalcinosis and benign prostatic hyperplasia, among others. These need confirmation against the package insert.
+- **Drug Interactions:** 100 interactions are recorded. Major interactions include:
+  - ACE inhibitors and ARBs (benazepril, olmesartan, valsartan)
+  - Potassium-sparing diuretics (amiloride)
+  - Anticholinergics and antihistamines (atropine, hyoscyamine, homatropine, methscopolamine, chlorpheniramine, acrivastine, phenyltoloxamine)
+  - Amitriptyline
+
+  Moderate interactions include NSAIDs (ibuprofen, ketorolac), aspirin, aliskiren, doxycycline, amphetamines and pseudoephedrine.
+- **Key concern:** Hyperkalaemia, especially with renal impairment or potassium-raising drugs.
+
+Please also refer to the package insert for full warnings, as label text was not available for this report.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Nephrolithiasis is supported by one completed Phase 3 trial, several Phase 2 and Phase 4 trials, and a meta-analysis, which gives L2 evidence. Package-insert safety data is missing, so proceeding must come with safety guardrails.
+The mechanism (raising urinary pH and citrate) is well established, and there is a completed Phase 3 trial (compared against potassium phosphate), a completed Phase 4 study, a systematic review and several reviews. However, no Phase 3 RCT result is documented in the data, the Phase 2/3 trial status is unknown, and the other Phase 2 trials are very small or withdrawn. Evidence is therefore L2. The use is also largely on-label rather than a true repurposing.
 
 **To proceed, the following is needed:**
-- The HSA package insert warnings and contraindications (blocking data gap).
-- The approved indication text for the Singapore registrations.
-- Mechanism-of-action data from DrugBank.
-- Review of the unconfirmed trial interventions and the withdrawn or unknown-status trials.
-- A monitoring plan for serum potassium, renal function and urinary pH, with caution in hyperkalemia, advanced chronic kidney disease and use with potassium-sparing drugs.
-- No further action for the Hold-level predictions (familial visceral myopathy and the other predictions with no evidence).
+- Package insert warnings, contraindications and approved indications for the three Singapore registrations
+- Mechanism of action data
+- Results of the key trials, in particular NCT00004284, NCT06819553 and NCT06966635
+- Monitoring plan: urinary pH, serum potassium and renal function, with caution in patients on ACE inhibitors, ARBs or potassium-sparing diuretics
+- Other predictions (for example SLC26A1-related nephrolithiasis and exocrine pancreatic insufficiency with enteric hyperoxaluria) are research questions only. The remaining top-ranked predictions with no data should stay on Hold.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

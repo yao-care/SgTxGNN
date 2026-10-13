@@ -2,7 +2,7 @@
 layout: default
 title: Methyl Salicylate
 parent: Low Evidence (L5)
-nav_order: 654
+nav_order: 661
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,17 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Methyl Salicylate: From Topical Analgesic Use to Gout
+# Methyl Salicylate: From an Unspecified Topical Indication to Gout
 
 ## One-Sentence Summary
 
-Methyl salicylate is a topical salicylate used in rubs and lotions. The TxGNN model predicts it may be effective for **gout**, but **0 clinical trials** and only **1 publication** (an unrelated grapevine study) support this. The prediction rests on the model score alone.
+Methyl salicylate is a topical salicylate counter-irritant. It is registered in Singapore as a lotion, but no approved indication text was recorded.
+The TxGNN model ranks **gout** as its top predicted new indication, with **no registered clinical trials** and only **1 publication**, which is a plant biology study unrelated to gout in humans.
+This prediction is model-based only. The better-supported alternative among the top 10 predictions is osteoarthritis (symptomatic topical use), but the evidence there is also limited and partly indirect.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the registration data. The one Singapore product is a lotion named "Robinson Ringworm and Whitespot Lotion" |
+| Original Indication | Not specified (the approved indication text on the Singapore licence is blank) |
 | Predicted New Indication | Gout |
 | TxGNN Prediction Score | 98.86% |
 | Evidence Level | L5 |
@@ -49,11 +51,11 @@ Methyl salicylate is a topical salicylate used in rubs and lotions. The TxGNN mo
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Methyl salicylate is a salicylate, and topical products use it as a counter-irritant that delivers salicylate locally for muscle and joint pain. A link to gout could come from the anti-inflammatory and uricosuric effects of salicylates.
+Currently, detailed mechanism of action data is not available. Based on known information, methyl salicylate is a salicylate that is hydrolysed to salicylic acid after dermal absorption. Salicylic acid inhibits COX enzymes and has anti-inflammatory activity, so in principle it could relieve inflammatory pain such as gouty inflammation.
 
-That link is weak here. Those effects occur at systemic doses, and topical methyl salicylate does not reach comparable levels. The single retrieved paper is a plant science study and says nothing about human gout. The high score most likely reflects proximity in the knowledge graph rather than a real therapeutic signal.
+However, the single publication retrieved for gout (PMID 26042139) is a study of volatile compounds in grapevine and has no bearing on human gout. The high TxGNN score therefore reflects a knowledge-graph association only, with no clinical support.
 
-For context, other predicted indications are better supported. **Osteoarthritis** has the strongest support (evidence level L3), with a 1956 uncontrolled topical evaluation, a plaster RCT whose composition is unverified, reviews of topical therapy, and safety reports. **Rheumatoid arthritis** has preclinical support only (L4), and that work used methyl salicylate glycosides rather than the marketed compound. Both mostly overlap with the drug's existing use as a topical pain reliever, so they are weak repurposing signals.
+For context, the other nine top predictions are also weak. Osteoarthritis (rank 6) and rheumatoid arthritis (rank 9) are biologically plausible for symptomatic relief, but their evidence is mostly indirect or preclinical. Several predictions (exostosis, pseudoachondroplasia, multiple exostoses, acute pulmonary heart disease) have no evidence or plausible mechanism. For congestive heart failure, salicylates and NSAIDs may cause fluid retention and worsen the condition, so the direction of effect is potentially harmful.
 
 ## Clinical Trial Evidence
 
@@ -63,33 +65,44 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [26042139](https://pubmed.ncbi.nlm.nih.gov/26042139/) | 2015 | Basic plant science | Front Plant Sci | Volatile compounds as markers of elicitor response in grapevine. Not relevant to gout or human use |
+| [26042139](https://pubmed.ncbi.nlm.nih.gov/26042139/) | 2015 | Plant biology (not clinical) | Frontiers in Plant Science | Volatile compounds as markers of defence elicitation in grapevine. Not relevant to gout. |
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN08677P | Robinson Ringworm and Whitespot Lotion | Lotion | Not stated in the registration data |
+| SIN08677P | Robinson Ringworm and Whitespot Lotion | Lotion | Not recorded |
 
 ## Safety Considerations
 
-- **Drug Interactions**: The interaction query returned no records. Published literature does report that topical methyl salicylate can potentiate warfarin (PMID 2778785, case-level), and that topical salicylate products can cause toxicity (PMID 18091121).
-- **Heart failure**: Salicylates and NSAIDs can cause fluid retention, which matters if the drug were used in patients with heart failure.
+- **Disease associations flagged in the knowledge graph (not label text):** The TxGNN knowledge graph links methyl salicylate with contraindications in the following conditions. These are not drawn from the package insert and should be verified against it:
+  - Liver and kidney disease, including liver failure
+  - Gastrointestinal disease, such as gastritis, active peptic ulcer disease, gastroesophageal reflux disease and esophagitis
+  - Bleeding and blood disorders, such as blood coagulation disease, haemophilia, anaemia and thrombocytopenic purpura
+  - Cardiovascular disease, including heart disease, heart conduction disease and sudden cardiac arrest
+  - Respiratory failure
+  - Diabetes mellitus and diabetic ketoacidosis
+  - Thyroid disease, such as hyperthyroidism, thyrotoxicosis and Graves disease
+  - Epilepsy
+  - Skin conditions, such as skin disease, actinic keratosis and seborrheic keratosis
+  - Others: gallbladder disease, pyoureter and nasal cavity polyp
+- **Drug interactions:** No interaction records were found. One review (PMID 8672833) discusses warfarin–NSAID interactions, which is a class-level concern for salicylates.
 
-Please refer to the package insert for warnings and contraindications.
+For label-based warnings and contraindications, please refer to the package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The gout prediction has no clinical trials and no relevant literature, and the systemic mechanism that might link salicylates to gout does not apply to a topical lotion. The drug stays at evidence level L5 and at the first screening stage.
+The gout prediction rests entirely on the model score. No trials exist, and the only retrieved paper is unrelated plant research. Salicylate anti-inflammatory activity makes a symptomatic benefit conceivable, but nothing supports it.
 
 **To proceed, the following is needed:**
-- The HSA package insert, for warnings and contraindications. This gap currently blocks safety screening.
-- Mechanism of action data from DrugBank.
-- A stated approved indication for the Singapore product.
-- If a topical joint-pain indication is pursued, review osteoarthritis rather than gout. That would need a controlled trial with guardrails for anticoagulant (warfarin) interaction and salicylate toxicity.
+- The package insert for the Singapore product, to confirm approved indications, warnings and contraindications
+- Mechanism of action data from DrugBank
+- A targeted literature search on topical salicylates in gout, with human clinical data
+- Consideration of osteoarthritis (symptomatic topical use) as a more evidence-supported research question than gout. It currently sits at L3 with limited, partly indirect evidence.
+- Confirmation that the route of administration (topical lotion) suits the target condition
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

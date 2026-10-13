@@ -2,7 +2,7 @@
 layout: default
 title: Propafenone
 parent: Low Evidence (L5)
-nav_order: 824
+nav_order: 833
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Propafenone: From Cardiac Arrhythmia to Manic Bipolar Affective Disorder
+# Propafenone: From Atrial Fibrillation and Ventricular Tachycardia to Manic Bipolar Affective Disorder
 
 ## One-Sentence Summary
 
-Propafenone is a class IC antiarrhythmic drug. The registration record in this pack does not state an approved indication, so this is inferred from its drug class.
-The TxGNN model predicts it may be effective for **manic bipolar affective disorder**, but **0 clinical trials** and **3 publications** support this, and none of the three shows a therapeutic benefit.
-The literature points the opposite way: it describes propafenone *causing* mania and a psychiatric drug interaction, so this prediction should be treated as a safety signal rather than a repurposing lead.
+Propafenone is a class IC antiarrhythmic originally used for atrial fibrillation and ventricular tachycardia.
+The TxGNN model predicts it may be effective for **manic bipolar affective disorder** (top-ranked prediction), but **no clinical trials** exist and the **3 publications** found are reviews and case reports that point to a neuropsychiatric *adverse effect* (mania, psychosis), not a benefit.
+The most credible repurposing direction in this prediction set is instead **catecholaminergic polymorphic ventricular tachycardia (CPVT)**, covered below.
 
 ---
 
@@ -43,10 +43,10 @@ The literature points the opposite way: it describes propafenone *causing* mania
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration record (class IC antiarrhythmic) |
+| Original Indication | Atrial fibrillation; ventricular tachycardia (the Singapore licence text for the registered product is blank) |
 | Predicted New Indication | Manic bipolar affective disorder |
 | TxGNN Prediction Score | 99.80% |
-| Evidence Level | L5 (no study supports a therapeutic effect; the pack labels this L4, but the retrieved papers are adverse-event reports and a drug-interaction review) |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
@@ -55,11 +55,19 @@ The literature points the opposite way: it describes propafenone *causing* mania
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, propafenone is a class IC sodium channel blocker used for heart rhythm disorders. No plausible therapeutic mechanism for mania has been demonstrated.
+Currently, detailed mechanism of action data is not available. Based on known information, propafenone is a class IC sodium channel blocker. Its efficacy in atrial fibrillation and ventricular tachycardia is established.
 
-The retrieved literature does not support a treatment effect. A 1985 case report describes mania that developed secondary to propafenone. The authors speculated that its chemical similarity to bupropion might give it antidepressant-like activity and cause affective side effects. A 2001 case report describes an organic psychosis from a venlafaxine–propafenone interaction in a patient with bipolar disorder.
+For manic bipolar affective disorder, **no plausible therapeutic mechanism is established**. The literature describes propafenone as a *cause* of mania (a 1985 case report) and of psychosis through a venlafaxine interaction (2001). The high TxGNN score is likely a knowledge-graph artifact and conflicts with the safety evidence. This prediction should not be pursued as a treatment.
 
-The very high TxGNN score is most likely an artifact of proximity in the knowledge graph, not a real pharmacological link. The more promising predicted indication for this drug is catecholaminergic polymorphic ventricular tachycardia (CPVT), which is ranked second. It is discussed in the conclusion.
+**Other predictions in the set (for context):**
+
+| Rank | Predicted Indication | Score | Evidence Level | Assessment |
+|---|---|---|---|---|
+| 2 | Catecholaminergic polymorphic ventricular tachycardia (CPVT) | 99.79% | L3 | Most credible. Preclinical work shows class I antiarrhythmics, including propafenone, inhibit RyR2 and suppress Ca²⁺ waves, the core CPVT mechanism. A 35-year effective treatment case report exists. Flecainide is the established add-on therapy, so propafenone would be an alternative or second-line option. No trials or RCTs. |
+| 5 | Incessant infant ventricular tachycardia | 99.44% | L3 | Close to the labelled indication (a population and subtype extension). Small, mostly old paediatric series. Proarrhythmia risk in children needs attention. |
+| 6 | Arrhythmogenic right ventricular cardiomyopathy | 99.42% | L4 | Indirect or case-level evidence with safety signals (QRS widening, drug-induced incessant VT). Structural heart disease is a caution for class IC agents. |
+| 3, 4, 7, 8, 9 | Periodic paralysis with transient compartment-like syndrome; Prinzmetal angina; nephrogenic syndrome of inappropriate antidiuresis; trichotillomania; Tourette syndrome | 98.5–99.7% | L5 | Prediction only; no trials, no literature, no supported rationale. |
+| 10 | Hyperthyroidism | 96.93% | L5 | No therapeutic link. Papers concern atrial fibrillation and thyroid status as comorbidity or risk factor. |
 
 ---
 
@@ -71,11 +79,26 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
+For the top-ranked prediction (manic bipolar affective disorder):
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [32124390](https://pubmed.ncbi.nlm.nih.gov/32124390/) | 2020 | Review | Pharmacological Reports | Evaluates harmful drug interactions between antipsychotics and cardiovascular drugs in patients with bipolar disorder or schizophrenia and comorbid cardiovascular disease. It is not evidence of benefit. |
-| [2579063](https://pubmed.ncbi.nlm.nih.gov/2579063/) | 1985 | Case report | J Clin Psychiatry | Mania developed secondary to propafenone. The authors described it as a previously unrecognized complication. |
-| [11949740](https://pubmed.ncbi.nlm.nih.gov/11949740/) | 2001 | Case report | Int J Psychiatry Med | Organic psychosis from a venlafaxine–propafenone interaction in a patient with bipolar disorder. |
+| [32124390](https://pubmed.ncbi.nlm.nih.gov/32124390/) | 2020 | Review | Pharmacological Reports | Evaluates harmful interactions between antipsychotics and cardiovascular medicines in patients with bipolar disorder or schizophrenia and comorbid cardiovascular disease |
+| [11949740](https://pubmed.ncbi.nlm.nih.gov/11949740/) | 2001 | Case report | Int J Psychiatry Med | Organic psychosis from a venlafaxine–propafenone interaction in a patient with bipolar disorder |
+| [2579063](https://pubmed.ncbi.nlm.nih.gov/2579063/) | 1985 | Case report | J Clin Psychiatry | Mania secondary to propafenone; a possible neuropsychiatric adverse effect |
+
+None of these supports a therapeutic benefit in mania.
+
+**Supporting literature for the more credible CPVT direction:**
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [30820400](https://pubmed.ncbi.nlm.nih.gov/30820400/) | 2019 | Case report | HeartRhythm Case Rep | 35-year effective treatment of CPVT with propafenone |
+| [21270101](https://pubmed.ncbi.nlm.nih.gov/21270101/) | 2011 | Preclinical (mechanistic) | Circ Arrhythm Electrophysiol | RyR2 channel inhibition determines the efficacy of class I antiarrhythmics in CPVT |
+| [26121139](https://pubmed.ncbi.nlm.nih.gov/26121139/) | 2015 | Preclinical (mechanistic) | PLoS One | RyR2 activity determines potency of flecainide and R-propafenone against arrhythmogenic Ca²⁺ waves |
+| [21798265](https://pubmed.ncbi.nlm.nih.gov/21798265/) | 2011 | Preclinical (mechanistic) | J Mol Cell Cardiol | Screening of class I antiarrhythmics for suppression of Ca²⁺ waves in CPVT-model myocytes |
+| [39564160](https://pubmed.ncbi.nlm.nih.gov/39564160/) | 2024 | Cohort | Ann Pediatr Cardiol | More than 10-year follow-up of CPVT patients |
+| [35892906](https://pubmed.ncbi.nlm.nih.gov/35892906/) | 2022 | Systematic review | Life (Basel) | Clinical characteristics, genetics and outcomes of CPVT patients from China |
 
 ---
 
@@ -83,16 +106,20 @@ Currently no related clinical trials registered.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN00395P | RYTMONORM TABLET 150 mg | Film-coated tablet (oral) | Not stated in the record |
+| SIN00395P | RYTMONORM TABLET 150 mg | Film-coated tablet (oral) | Indication text not recorded in the data compiled for this report |
 
 ---
 
 ## Safety Considerations
 
-- **Psychiatric adverse effects**: Case reports describe propafenone-associated mania (1985) and a neuropsychiatric interaction with venlafaxine (2001). Both are single cases and do not establish incidence.
-- **Drug interactions**: The interaction database query returned no entries. This should not be read as an absence of interactions. See the venlafaxine report above.
+- **Contraindication-related conditions (from the knowledge graph, not package insert text):** long QT syndrome, torsades de pointes, myocardial infarction, coronary artery disease and atherosclerosis, hypotensive disorder, kidney disease, liver disease, gallbladder disease, potassium deficiency, myasthenia gravis, and neutropenia or agranulocytosis (including congenital forms).
+- **Drug interactions (100 recorded; examples):**
+  - **Major:** dolasetron, eliglustat
+  - **Moderate:** cimetidine, clarithromycin, levofloxacin, ondansetron, palonosetron, bupropion, aprepitant, famotidine, loperamide, alosetron, lorcaserin
+  - **Minor:** metronidazole
+- **Literature safety signals:** mania and psychosis (case reports); QRS widening and incessant ventricular tachycardia in structural heart disease such as ARVC; severe adverse effects in CYP2D6 poor metabolisers; torsade de pointes in a hypothyroid patient.
 
-Please refer to the package insert for warnings and contraindications.
+Please also refer to the package insert for full safety information.
 
 ---
 
@@ -101,17 +128,14 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone, and the available literature shows psychiatric harm rather than benefit. No clinical trials exist and no plausible mechanism is supported.
+The top-ranked prediction (manic bipolar affective disorder) is supported only by case reports of propafenone *causing* mania and psychosis, so it should not be pursued. The high score is likely a knowledge-graph artifact. Among the other predictions, CPVT has a coherent mechanism (RyR2 inhibition) and a long-term case report, but still has no trials or RCTs and sits behind flecainide as the established therapy.
 
 **To proceed, the following is needed:**
-- No further work on this indication is recommended unless new supporting evidence appears.
-- Obtain the HSA package insert warnings and contraindications, which are currently missing and block safety screening.
-- Obtain the mechanism of action data from DrugBank.
-- Redirect effort to the rank 2 prediction, **catecholaminergic polymorphic ventricular tachycardia** (score 99.79%, Research Question stage).
-  - Preclinical studies show propafenone inhibits RyR2 channels and suppresses calcium waves, similar to flecainide.
-  - Clinical support is limited to one 35-year case report (PMID 30820400).
-  - A propafenone-specific retrospective series would be needed to move the evidence level up.
-  - Class IC proarrhythmia cautions apply.
+- Retrieve and review the HSA package insert for warnings, contraindications and approved indications (the registered licence has no indication text)
+- Obtain detailed mechanism of action data from DrugBank
+- For CPVT (the most promising direction): a structured literature review and, ideally, a prospective study or registry comparing propafenone with flecainide
+- For incessant infant VT and ARVC: dedicated paediatric and structural-heart-disease safety assessment given proarrhythmia signals
+- Consider deprioritising the lowest-ranked predictions (L5, no supporting evidence) for further work
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

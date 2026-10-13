@@ -2,7 +2,7 @@
 layout: default
 title: Sennosides
 parent: Low Evidence (L5)
-nav_order: 897
+nav_order: 907
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,17 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sennosides: From Stimulant Laxative to Hypotrichosis Simplex of the Scalp
+# Sennosides: From Constipation Treatment to Hypotrichosis Simplex of the Scalp
 
 ## One-Sentence Summary
 
-Sennosides are a stimulant laxative, and the registration records give no approved indication text.
-The TxGNN model predicts they may be effective for **hypotrichosis simplex of the scalp** with a very high score, but **no clinical trials and no publications** support this prediction.
-It is a model output only, with no identified mechanism, and the recommendation is **Hold**.
+Sennosides are stimulant laxatives that are registered and marketed in Singapore as single-ingredient tablets. The TxGNN model predicts they may be effective for **hypotrichosis simplex of the scalp**, but **no clinical trials and no publications** currently support this prediction. It is a model-generated signal only, and no plausible mechanism has been identified.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration records; classed as a stimulant laxative |
+| Original Indication | Not stated in the registration data (sennosides are generally used as stimulant laxatives for constipation) |
 | Predicted New Indication | Hypotrichosis simplex of the scalp |
 | TxGNN Prediction Score | 99.29% |
 | Evidence Level | L5 |
@@ -51,17 +49,19 @@ It is a model output only, with no identified mechanism, and the recommendation 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Sennosides are anthraquinone glycosides that act on colonic motility and secretion. They act mainly in the gut with minimal systemic absorption.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, sennosides are stimulant laxatives. Their active metabolite, rheinanthrone, acts on the colonic mucosa to increase motility and fluid secretion. This is thought to occur through macrophage-derived PGE2 and reduced aquaporin-3 expression.
 
-No plausible link to hair follicle biology has been identified. The high score is a computational prediction, and because the drug's original mechanism is missing, the knowledge-graph path behind it cannot be checked.
+Nothing in this pathway plausibly connects to hair follicle biology or to a genetic hair-growth disorder. The high TxGNN score reflects graph-based proximity only, and no trial or publication supports it.
 
-The other top predictions are also unsupported. They are hair-related terms (congenital hypotrichosis milia, diffuse alopecia areata, alopecia), glaucoma terms (open-angle and primary hereditary glaucoma, plus duplicate entries), and esophageal varices. Many of these look like related or duplicate ontology entries that share the same graph neighbourhood, so they are probably not independent signals. None has a plausible mechanism or supporting publications. For esophageal varices, laxatives are sometimes used as supportive care in cirrhosis, but that is not treatment of the varices.
+The other top predictions show the same pattern:
+
+- **Hair-related conditions** (congenital hypotrichosis milia, diffuse alopecia areata, alopecia): These overlap heavily and likely represent one correlated signal rather than independent corroboration. Alopecia areata is a T-cell-mediated, JAK/STAT-dependent autoimmune disease, and sennosides have no known activity in that pathway.
+- **Glaucoma entries** (open-angle, primary hereditary, glaucoma 1, and a duplicate open-angle label): These are near-duplicates. Glaucoma management targets intraocular pressure and neuroprotection, and sennosides act locally in the colon with minimal systemic absorption. Chronic laxative use can also cause electrolyte disturbance, which is not beneficial here.
+- **Esophageal varices** (with and without bleeding): The two entries have identical scores, which indicates a duplicated prediction. Varices arise from portal hypertension and are managed with beta-blockers, band ligation, or vasoactive agents.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for hypotrichosis simplex of the scalp.
-
-Two trials were matched to the broader term "alopecia" (NCT03082560, a lichen planopilaris assessment-tool study, and NCT05348343, a platelet-rich plasma pilot). Neither tests sennosides or any related laxative, so they provide no support for this repurposing idea.
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
@@ -71,29 +71,28 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN04731P | SENOKOT TABLET 7.5 mg (Reckitt Benckiser Healthcare (UK) Ltd) | Tablet | Not listed in the record |
-| SIN02550P | SENNA TABLET 7.5 mg (Remedica Ltd) | Tablet | Not listed in the record |
+| SIN04731P | SENOKOT TABLET 7.5 mg | Tablet | Not stated in registration data |
+| SIN02550P | SENNA TABLET 7.5 mg | Tablet | Not stated in registration data |
 
-Both products are oral tablets. No topical formulation is registered, which would also matter for any scalp indication.
+Both registrations are valid single-ingredient oral products.
 
 ## Safety Considerations
 
-- **Drug Interactions**: No interaction records were found for this drug.
-
-Please refer to the package insert for warnings and contraindications.
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the model score (L5). No trial or publication tests sennosides for this condition, and there is no plausible mechanism. The registered oral tablets also do not match a scalp indication.
+The prediction is supported only by a graph-based model score. There are no clinical trials or publications, and no plausible biological link between a colonic stimulant laxative and hair growth, glaucoma, or esophageal varices. The overlapping predictions look like correlated false positives rather than independent evidence.
 
 **To proceed, the following is needed:**
-- Mechanism of action data, to check the knowledge-graph path behind the prediction
-- Package insert warnings and contraindications, which block safety screening
+- The package insert (warnings and contraindications) from the HSA website, which is a blocking gap for safety screening
+- Mechanism of action data for sennosides from DrugBank
 - Any preclinical or clinical evidence linking sennosides to hair follicle biology
-- A route-compatibility assessment, since only oral tablets are registered
+- Confirmation of the approved indication text for the two Singapore registrations
+- Route compatibility analysis (the available oral route versus the likely topical or other route needed for hair or eye conditions)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

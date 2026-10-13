@@ -2,7 +2,7 @@
 layout: default
 title: Cyproterone Acetate
 parent: Medium Evidence (L3-L4)
-nav_order: 286
+nav_order: 289
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,17 +29,19 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Cyproterone Acetate: From Hormonal Antiandrogen Therapy to Migraine Disorder
+# Cyproterone Acetate: From Androgen-Dependent Conditions to Migraine Disorder
 
 ## One-Sentence Summary
 
-Cyproterone acetate (CPA) is an antiandrogen and progestin, marketed in Singapore alone and in combination with ethinylestradiol.
-The TxGNN model predicts it may be effective for **migraine disorder**, but there are **0 clinical trials** and only **3 indirect publications** (none testing CPA as a migraine treatment), so evidence is weak.
+Cyproterone acetate is a synthetic progestin with antiandrogen activity. It is used for androgen-dependent conditions (such as prostate cancer, acne, and hirsutism) and as a component of combined oral contraceptives.
+The TxGNN model predicts it may be effective for **migraine disorder**, but **no clinical trials** and only **3 publications** (reviews and a cohort study, none showing that the drug treats migraine) are available.
+This prediction is computational only and is not supported by direct evidence.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Not stated in the Singapore licence records. Published pharmacology describes androgen-dependent diseases (prostate cancer, benign prostatic hyperplasia), acne and hirsutism in women, menopausal hot flushes, and use in combined oral contraceptives |
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 99.66% |
 | Evidence Level | L4 |
@@ -49,55 +51,67 @@ The TxGNN model predicts it may be effective for **migraine disorder**, but ther
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the source database. Based on the retrieved literature, CPA blocks androgen receptors and acts as a progestin that suppresses gonadotropins. Its efficacy in hormone-driven conditions such as hyperandrogenism, hirsutism and PCOS is documented in the literature.
+Detailed mechanism of action data is not available in the data compiled for this report. Pharmacology data show that cyproterone acetate binds the androgen receptor. It is also a progestin with antiandrogen activity, and it is used as a form of chemical castration and in contraceptive pills.
 
-Hormonal fluctuation is a recognised migraine trigger, and progestins can influence central nervous system excitability. A 2003 review notes that progestins interact with GABA-A receptors and dopamine and opioid systems, and that CPA increases dopaminergic responses and binds opiate receptors independently of its classical hormonal effects. This offers a plausible but unproven link to migraine.
+The link to migraine is indirect and hormonal. Migraine is modulated by hormonal changes such as estrogen withdrawal, and progestins can affect central nervous system excitability. A 2003 review notes that progestins interact with GABA-A receptors and with dopamine and opioid systems, and that cyproterone acetate increases dopaminergic responses and binds opiate receptors independently of its classical effects. This makes a link plausible in theory.
 
-The retrieved papers cover hormonal effects on the brain, hormone replacement and migraine, and CPA long-term side effects. None studies CPA as a migraine treatment. The high TxGNN score is a graph-based prediction without supporting clinical data.
+However, none of the retrieved papers shows that cyproterone acetate treats migraine. The hormone-therapy literature suggests hormonal agents can aggravate or alter migraine. The high TxGNN score reflects a knowledge-graph prediction, not clinical proof.
+
+Other predictions for this drug point to a safety signal rather than a therapeutic one. Several (migraine with brainstem aura, thrombophilia, antithrombin deficiency, factor V excess) most likely reflect the known thrombosis risk of cyproterone acetate-containing combined contraceptives.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for migraine disorder.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [14670648](https://pubmed.ncbi.nlm.nih.gov/14670648/) | 2003 | Review | Maturitas | Progestins interact with GABA-A receptors and dopamine, GnRH and opioid systems. CPA increases dopaminergic responses and binds opiate receptors. Mechanistic background only. |
-| [12390622](https://pubmed.ncbi.nlm.nih.gov/12390622/) | 2002 | Clinical study | Headache | Compared three oral hormone replacement schemes for their effect on migraine in postmenopausal women. The abstract states only the aim, so CPA-specific findings are unconfirmed. |
-| [10857213](https://pubmed.ncbi.nlm.nih.gov/10857213/) | 2000 | Cohort | Zentralblatt fur Gynakologie | Long-term side effects of CPA-containing gynaecological therapy. It discusses mutagenicity concerns, and a multicentre study of 2,506 patients did not find a signal (abstract truncated). Safety context, not migraine efficacy. |
+| [14670648](https://pubmed.ncbi.nlm.nih.gov/14670648/) | 2003 | Review | Maturitas | Progestins interact with GABA-A, dopamine, and opioid systems. Cyproterone acetate increases dopaminergic responses and binds opiate receptors |
+| [12390622](https://pubmed.ncbi.nlm.nih.gov/12390622/) | 2002 | Cohort | Headache | Three oral hormone replacement regimens had differing effects on migraine course in postmenopausal women. This is not specific to cyproterone acetate |
+| [10857213](https://pubmed.ncbi.nlm.nih.gov/10857213/) | 2000 | Review | Zentralblatt fur Gynakologie | Long-term side effects of cyproterone acetate-containing gynaecological therapy, including a discussion of mutagenic potential. Not about migraine |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN13545P | PROCUR TABLETS 50MG | Tablet |
-| SIN04784P | DIANE-35 TABLET | Tablet, sugar coated |
-| SIN12117P | ESTELLE-35 TABLET | Tablet, film coated |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN13545P | PROCUR TABLETS 50MG | Tablet | Not stated in licence record |
+| SIN04784P | DIANE-35 TABLET | Tablet, sugar coated | Not stated in licence record |
+| SIN12117P | ESTELLE-35 TABLET | Tablet, film coated | Not stated in licence record |
+
+## Cytotoxicity
+
+| Item | Content |
+|------|------|
+| Cytotoxicity Classification | Hormonal antiandrogen (not a conventional cytotoxic agent). It is used in prostate cancer |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert warnings and precautions |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ## Safety Considerations
 
-- **Thromboembolic risk (from literature)**: Studies of CPA and ethinylestradiol products consistently report increased venous thromboembolism risk, especially in women with factor V Leiden, along with prothrombotic changes such as activated protein C resistance (e.g., [24634164](https://pubmed.ncbi.nlm.nih.gov/24634164/), [29614525](https://pubmed.ncbi.nlm.nih.gov/29614525/), [15550051](https://pubmed.ncbi.nlm.nih.gov/15550051/)).
-- **Relevance to migraine**: Migraine with aura is itself a stroke-risk marker that limits combined hormonal contraceptive use. Vascular risk of hormonal contraception is reviewed in [30389542](https://pubmed.ncbi.nlm.nih.gov/30389542/).
-- **Other long-term concerns**: Hepatotoxicity and meningioma with long-term high-dose use.
+- **Drug Interactions**: The only interaction entry is a pharmacological target relationship (androgen receptor), not a drug-drug interaction with a graded severity level.
+- **Thrombosis risk (from the literature)**: Multiple cohort and case-control studies and guidelines associate cyproterone acetate-containing combined oral contraceptives with higher venous thromboembolism risk, prothrombotic changes such as activated protein C resistance, and greater risk with factor V Leiden. Reviews also note that migraine with aura is a risk factor for ischaemic stroke with combined hormonal contraceptives, which is relevant for any use in migraine patients.
+- **Long-term safety**: A review discusses a possible mutagenic potential of the drug, although a large multicentre study did not find an increase in the events examined.
 
-Please refer to the package insert for full warnings, contraindications and drug interactions.
+Please refer to the package insert for further safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The migraine prediction rests on a graph score alone. There are no clinical trials, and the retrieved literature is indirect and does not show CPA benefit. The known vascular and thrombotic risk of CPA-containing products argues against use in migraine, particularly migraine with aura.
-
-Among the other predicted indications, only amenorrhea (rank 8) has clinical data, including a Phase 4 trial of ethinylestradiol/CPA in hyperandrogenic irregular cycles (NCT01103518, status unknown). Thrombophilia (rank 10) is better read as a safety flag than as an opportunity.
+The prediction rests on a computational score alone. There are no clinical trials, and the literature gives no evidence of benefit in migraine. The hormone-therapy and thrombosis literature points toward caution, especially in patients with aura.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications (blocking for safety screening)
-- Mechanism of action data from DrugBank
-- HSA-approved indication text for the three registered products
-- Any controlled or observational data on CPA in migraine, with attention to aura status and thrombotic risk
-- Consider re-prioritising the amenorrhea/PCOS indication, which has actual clinical data, after checking novelty against existing labelling
+- Package insert warnings and contraindications from the HSA, which are currently missing and block safety screening
+- Detailed mechanism of action data
+- Original approved indication text for the three Singapore licences
+- Evidence of efficacy in migraine from controlled studies, and a benefit-risk assessment addressing thromboembolic and stroke risk
+- Route compatibility assessment (not yet completed)
+
+**Note on other predictions:** Amenorrhea (L3) is the only other prediction with a clinical trial: NCT01103518, a Phase 4 trial of ethinyl estradiol and cyproterone acetate preparations in irregular menstruation of hyperandrogenic origin (n=100, status unknown, no results). It is better supported mechanistically and is worth pursuing as a research question. Thrombophilia and related coagulation predictions should be treated as safety signals and excluded from repurposing consideration.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

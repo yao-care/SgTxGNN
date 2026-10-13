@@ -2,7 +2,7 @@
 layout: default
 title: Plerixafor
 parent: Low Evidence (L5)
-nav_order: 794
+nav_order: 803
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,67 +29,82 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Plerixafor: From Stem Cell Mobilization to Indolent Plasma Cell Myeloma
+# Plerixafor: From Plasma Cell Myeloma to Indolent Plasma Cell Myeloma
 
 ## One-Sentence Summary
 
-Plerixafor is an injectable drug marketed in Singapore, and its known use in myeloma is stem cell mobilization rather than treating the disease itself.
-The TxGNN model predicts it may be effective for **indolent plasma cell myeloma**, with a very high score (99.97%).
-However, **0 clinical trials** and **0 publications** support this specific prediction, so it is a model output only.
+Plerixafor was originally used in plasma cell myeloma, where it mobilises stem cells for autologous transplant.
+The TxGNN model predicts it may be effective for **indolent plasma cell myeloma**, but **no clinical trials and no publications** specific to this subtype were found, so the prediction rests on the model alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Plasma cell myeloma (stem cell mobilisation for autologous transplant) |
 | Predicted New Indication | Indolent plasma cell myeloma |
 | TxGNN Prediction Score | 99.97% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 3 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, plerixafor blocks CXCR4, a chemokine receptor. CXCR4 and its ligand CXCL12 help plasma cells home to and stay in the bone marrow, so blocking this axis is biologically plausible for a plasma cell disease.
+Plerixafor is a CXCR4 antagonist, and it also acts on ACKR3. CXCR4/CXCL12 signalling anchors myeloma cells in the bone marrow. Blocking this axis releases cells from the marrow niche. This is how plerixafor works as a stem cell mobiliser, given together with G-CSF before autologous transplant. Detailed mechanism-of-action data are not otherwise available in the compiled data.
 
-There is an important caveat. Plerixafor's established role in myeloma is mobilizing stem cells for collection, not treating the disease. The original indication and mechanism fields are missing from the input, so this link cannot be verified from the data provided.
+The original and predicted indications are closely related, since both are plasma cell disorders. The high TxGNN score most likely reflects this proximity rather than independent evidence. Plerixafor's established myeloma use is stem cell mobilisation, not treatment of the disease itself. In indolent disease, which is usually observed or treated lightly, a mobilising agent has no clear therapeutic role.
 
-**A better-supported direction appears in the same prediction list.** Myeloid leukemia (rank 7, TxGNN score 99.02%) has multiple Phase 1 and Phase 1/2 trials and about 20 publications. These trials test plerixafor with chemotherapy or hypomethylating agents in acute myeloid leukemia, and the input records them as supporting feasibility and safety. There is no randomized efficacy evidence there either, and several trials were terminated or withdrawn.
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered
+Currently no related clinical trials registered.
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available
+Currently no related literature available.
+
+---
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN13894P | Mozobil Solution for Injection 20mg/ml | Injection, solution | Genzyme Corporation |
-| SIN16879P | Pleristem Solution for Injection 20mg/ml | Injection, solution | Eugia Pharma Specialities Limited |
-| SIN17147P | Plerixafor-AFT Solution for Injection 24 mg/1.2 mL | Injection, solution | Sichuan Huiyu Pharmaceutical Co., Ltd. |
+| SIN13894P | Mozobil Solution for Injection 20mg/ml (Genzyme Corporation) | Injection, solution | Not stated in the registration record |
+| SIN16879P | Pleristem Solution for Injection 20mg/ml (Eugia Pharma Specialities Limited) | Injection, solution | Not stated in the registration record |
+| SIN17147P | Plerixafor-AFT Solution for Injection 24 mg/1.2 mL (Sichuan Huiyu Pharmaceutical Co., Ltd.) | Injection, solution | Not stated in the registration record |
 
-The approved indication text is not recorded for any of these licences in the input.
+All three licences are valid single-ingredient products.
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindication-related conditions (knowledge-graph level, not label text)**: thrombocytopenia, impaired renal function and leukaemia. These come from drug-disease relationships in the TxGNN knowledge graph and should be checked against the approved package insert.
+
+Please refer to the package insert for further safety information, including warnings and drug interactions.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction for indolent plasma cell myeloma scores very high but has no trials or literature behind it (L5). The package insert data needed for safety screening is also missing. The mechanism is plausible, but plerixafor's known myeloma use is mobilization, not disease treatment.
+The prediction for indolent plasma cell myeloma is supported only by the model score and a general CXCR4 mechanism. There are no trials or publications for this subtype, and plerixafor's role in myeloma is mobilisation rather than disease treatment.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from the HSA website (this blocks safety screening)
-- Mechanism of action and original indication data from DrugBank
-- Any indication-specific preclinical or clinical evidence for indolent plasma cell myeloma
-- Consideration of the better-supported myeloid leukemia direction as a separate research question
+- Clinical or literature evidence specific to indolent or smouldering myeloma, such as a rationale for a therapeutic role beyond mobilisation
+- Full package insert warnings and contraindications from HSA, and mechanism-of-action data
+- A clear clinical question defining the intended use, population and dosing
+
+**Note on other predictions:** The same analysis ranks **myeloid leukaemia** (score 99.02%) with 25 registered trials and 20 publications. These are mostly Phase 1 and Phase 1/2 studies of plerixafor as a chemosensitiser in acute myeloid leukaemia (for example NCT00512252 and NCT00906945, plus the Blood 2012 Phase 1/2 study, PMID 22308295). That evidence is graded L2 and flagged as a research question, but it lacks randomised or Phase 3 data. If the aim is to find the best-supported repurposing direction for plerixafor, this indication is a more productive area to evaluate. Note that the knowledge graph also lists leukaemia among contraindication-related conditions, which would need to be resolved first.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Ibrutinib
 parent: Low Evidence (L5)
-nav_order: 509
+nav_order: 513
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,13 +33,17 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Ibrutinib is a Bruton's tyrosine kinase (BTK) inhibitor used to treat B-cell malignancies. The TxGNN model predicts it may be effective for **polyclonal hypergammaglobulinemia**, but **no clinical trials or publications** currently support this specific prediction. It is a model-only prediction (Evidence Level L5), and ibrutinib is known to cause low immunoglobulin levels rather than treat high ones.
+> Ibrutinib is an oral BTK inhibitor, originally used for B-cell cancers such as mantle cell lymphoma, Waldenström macroglobulinemia and acute lymphoblastic leukemia, and for graft versus host disease.
+> The TxGNN model predicts it may be effective for **polyclonal hypergammaglobulinemia**,
+> but currently there are **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | B-cell malignancies (inferred from the trial and literature evidence; the Singapore registration text is empty) |
+| Original Indication | B-cell malignancies and graft versus host disease (Singapore label text is not available; this is taken from the knowledge-graph indication list, which includes mantle cell lymphoma, Waldenström macroglobulinemia, B-cell neoplasm and acute lymphoblastic leukemia) |
 | Predicted New Indication | Polyclonal hypergammaglobulinemia |
 | TxGNN Prediction Score | 91.75% |
 | Evidence Level | L5 |
@@ -47,63 +51,81 @@ Ibrutinib is a Bruton's tyrosine kinase (BTK) inhibitor used to treat B-cell mal
 | Number of Registrations | 4 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the record. From the general literature, BTK is a central kinase in B-cell receptor signalling and is needed for B-cell development, maturation and plasma-cell differentiation. Ibrutinib blocks this pathway, which is why it works in B-cell malignancies.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, ibrutinib inhibits Bruton's tyrosine kinase (BTK), which is central to B-cell receptor signaling, B-cell survival and antibody production.
 
-The model's reasoning is that if BTK drives plasma-cell differentiation, blocking it could lower immunoglobulin output. That could in principle help a condition with excess polyclonal immunoglobulin.
+Polyclonal hypergammaglobulinemia is a raised level of immunoglobulins produced by many B-cell clones. Because BTK drives antibody-producing B-cell activity, reduced BTK signaling could plausibly lower immunoglobulin levels.
 
-This reasoning is weak. No trials or publications test it, and ibrutinib is known to cause **hypogammaglobulinemia**, meaning low immunoglobulin levels. That is a side effect to manage, not a proven treatment effect for high levels. The mechanistic link is plausible but unconfirmed.
+This reasoning has an important limit. Low immunoglobulin levels (hypogammaglobulinemia) are a known effect of BTK inhibition, not a therapeutic goal. Polyclonal hypergammaglobulinemia is also usually a laboratory finding that reflects an underlying condition, so it is not a typical treatment target. No clinical or published evidence in the compiled data supports this use.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
+
+---
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form |
 |---------|------|------|
-| SIN16218P | IMBRUVICA FILM-COATED TABLETS 140MG | Tablet, film coated |
-| SIN16219P | IMBRUVICA FILM-COATED TABLETS 280MG | Tablet, film coated |
-| SIN16220P | IMBRUVICA FILM-COATED TABLETS 420MG | Tablet, film coated |
-| SIN16221P | IMBRUVICA FILM-COATED TABLETS 560MG | Tablet, film coated |
+| SIN16221P | IMBRUVICA Film-Coated Tablets 560 mg | Tablet, film coated |
+| SIN16218P | IMBRUVICA Film-Coated Tablets 140 mg | Tablet, film coated |
+| SIN16219P | IMBRUVICA Film-Coated Tablets 280 mg | Tablet, film coated |
+| SIN16220P | IMBRUVICA Film-Coated Tablets 420 mg | Tablet, film coated |
 
-All four are oral products. The approved indication text was not provided in the record.
+All four licences are valid single-ingredient oral products. Approved indication text is not available in the compiled data.
+
+---
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (BTK inhibitor) |
+| Cytotoxicity Classification | Targeted therapy (BTK inhibitor), not a conventional cytotoxic agent |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Atrial fibrillation, bleeding and infection (identified as key risks in the evidence for other indications); immunoglobulin levels; also CBC and liver and renal function, per the package insert |
+| Monitoring Items | Cardiac status (atrial fibrillation, blood pressure) and bleeding risk are the main concerns noted for this drug; for other parameters, please refer to the package insert warnings and precautions |
 | Handling Protection | Please refer to the package insert warnings and precautions |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Package insert warnings and contraindications for Singapore are not yet available.
+- **Drug Interactions**: The interaction screen returned 100 interacting drugs. The main ones include:
+  - **Major**: aprepitant, acetylsalicylic acid (aspirin), clarithromycin, cobicistat, deferasirox
+  - **Moderate**: dexamethasone, cimetidine, miconazole, clotrimazole, rifaximin, loperamide, and the DPP-4 inhibitors sitagliptin, saxagliptin and linagliptin
+- **Other concerns**: Many of the interactions involve CYP3A4. Cardiac toxicity (atrial fibrillation, hypertension) and bleeding risk are also recognised concerns for ibrutinib.
+
+For warnings and contraindications, please refer to the package insert.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This is a model-only prediction with no supporting trials or literature (L5). The mechanism also points the wrong way, because ibrutinib is known to reduce immunoglobulin levels. There is no basis to advance this indication.
+The prediction is supported only by the TxGNN score (91.75%). There are no clinical trials or publications, and the main expected effect of BTK inhibition on immunoglobulins (lowering them) is a side effect, not a treatment benefit. The condition is also not a typical stand-alone treatment target.
 
 **To proceed, the following is needed:**
-- Any preclinical or clinical evidence that ibrutinib benefits polyclonal hypergammaglobulinemia
-- Package insert warnings and contraindications from the Singapore Health Sciences Authority (HSA), which are currently blocking safety screening
-- Detailed mechanism of action data (MOA)
-- The approved indication text for the four Singapore registrations
+- Clinical or preclinical evidence that ibrutinib benefits patients with polyclonal hypergammaglobulinemia
+- Clarification of which underlying disease would be treated, since this is generally a secondary finding
+- Detailed mechanism of action data
+- Singapore package insert warnings and contraindications for a full safety review
+- A DDI management plan (CYP3A4) and a cardiac and bleeding monitoring plan, if development continues
 
-**Other candidates in this evidence pack:** Other predicted indications have much stronger evidence, including **monoclonal paraproteinemia disease** (Waldenström macroglobulinemia, L1, Proceed with Guardrails). They should be evaluated as separate reports. Waldenström macroglobulinemia is largely an existing on-label use rather than new repurposing.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
+**Other predictions with stronger support:** Among the other predictions for ibrutinib, marginal zone lymphoma (L1, including the Phase 3 SELENE trial) and neoplasm of mature B-cells (L1) have far stronger evidence. Both overlap closely with existing indications, so they are largely confirmatory rather than new repurposing. They may be better candidates for further evaluation than polyclonal hypergammaglobulinemia.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Levofloxacin
-parent: Medium Evidence (L3-L4)
-nav_order: 591
-evidence_level: L4
+parent: Low Evidence (L5)
+nav_order: 597
+evidence_level: L5
 indication_count: 10
 ---
 
 # Levofloxacin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,29 +33,26 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Levofloxacin is a fluoroquinolone antibacterial marketed in Singapore as oral tablets and injectable forms.
-The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**,
-but only **1 publication** (an outbreak report) and **no clinical trials** currently relate to this direction, so the prediction is mostly unsupported.
+Levofloxacin is a broad-spectrum fluoroquinolone antibiotic, originally used for bacterial infections such as pneumonia, sinusitis, pyelonephritis and conjunctivitis.
+The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**, but there are **0 clinical trials** and only **1 publication**, and that publication does not support efficacy.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections (general fluoroquinolone use; the Singapore registration data list no indication text) |
+| Original Indication | Bacterial infections (pneumonia, sinusitis, pyelonephritis, conjunctivitis, anthrax and others) |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 99.92% |
-| Evidence Level | L4 |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 12 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the Evidence Pack. Levofloxacin belongs to the fluoroquinolone class, which inhibits bacterial DNA gyrase and topoisomerase IV. Its efficacy against bacterial infections is well established.
+Detailed mechanism of action data is not available in the data compiled for this report. Levofloxacin belongs to the fluoroquinolone class, which generally acts by inhibiting bacterial DNA gyrase and topoisomerase IV. It has an established role in bacterial infections, including bacterial conjunctivitis. That gives a plausible link to infections of the ocular surface.
 
-The link to punctate epithelial keratoconjunctivitis is weak. The only supporting publication reports an outbreak of **microsporidial** keratoconjunctivitis linked to swimming-pool water in Taiwan. Microsporidia are not a typical fluoroquinolone target. At most, levofloxacin might serve as empiric or prophylactic cover against secondary bacterial infection of the eye. The high TxGNN score is a model prediction, not evidence.
-
-Levofloxacin is registered in Singapore only as tablets and as infusion/injection. No ophthalmic (topical eye) form is listed, so route compatibility for an ocular indication is also unresolved.
+The prediction is weaker than the score suggests. Punctate epithelial keratoconjunctivitis is not only a bacterial disease. It is often associated with viral or other non-bacterial causes, and an antibacterial would help only if a susceptible bacterial pathogen were involved. The single retrieved paper describes microsporidial keratoconjunctivitis. Microsporidia are not targeted by fluoroquinolones, so this paper gives no support for efficacy. The high TxGNN score is therefore not backed by clinical evidence.
 
 ## Clinical Trial Evidence
 
@@ -65,38 +62,50 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [30055152](https://pubmed.ncbi.nlm.nih.gov/30055152/) | 2018 | Outbreak report | American Journal of Ophthalmology | Outbreak of microsporidial keratoconjunctivitis linked to water contamination in swimming pools in Taiwan; no evidence about levofloxacin efficacy |
+| [30055152](https://pubmed.ncbi.nlm.nih.gov/30055152/) | 2018 | Outbreak report | American Journal of Ophthalmology | Outbreak of microsporidial keratoconjunctivitis linked to contaminated swimming pool water in Taiwan. It does not evaluate levofloxacin efficacy. |
 
 ## Singapore Market Information
 
+There are 12 valid single-ingredient registrations. The five below are representative. Approved indication text is not recorded for these registrations in the data compiled for this report.
+
 | Authorization Number | Product Name | Dosage Form | Manufacturer |
 |---------|------|------|-----------|
-| SIN15341P | AVATAC Film Coated Tablet 500 mg | Tablet, film coated | Meditop Pharmaceutical Ltd |
-| SIN15956P | LEVIN 250 Levofloxacin Film Coated Tablets 250 mg | Tablet, film coated | Hetero Labs Limited |
-| SIN15342P | AVATAC Film Coated Tablet 250 mg | Tablet, film coated | Meditop Pharmaceutical Ltd |
-| SIN15180P | LEVORES Film-Coated Tablet 500 mg | Tablet, film coated | PT Novell Pharmaceutical Laboratories |
-| SIN13953P | LOCIKLINE Tablets 500 mg | Tablet, film coated | Dr. Reddy's Laboratories Limited |
+| SIN15341P | AVATAC Film Coated Tablet 500 mg | Film-coated tablet | Meditop Pharmaceutical Ltd |
+| SIN13953P | LOCIKLINE Tablets 500 mg | Film-coated tablet | Dr. Reddy's Laboratories Limited |
+| SIN11632P | CRAVIT Tablet 500 mg | Film-coated tablet | PT Kalbe Farma Tbk |
+| SIN16966P | LEVORES Solution for Infusion 5 mg/ml | Infusion solution | PT Novell Pharmaceutical Laboratories |
+| SIN11883P | CRAVIT I.V. for Infusion 5 mg/ml | Injection | OLIC (Thailand) Limited |
 
-The full registration set (12 licenses) also covers infusion solution and injection forms.
+Available routes are oral (film-coated tablets) and injectable (infusion solution and injection). No ophthalmic formulation appears among the registrations.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease associations flagged in the knowledge graph (not package insert text):** Levofloxacin is linked to caution or contraindication in these conditions:
+  - Cardiac: long QT syndrome (including familial), torsades de pointes, myocardial ischemia, coronary artery disease.
+  - Neurological and muscular: epilepsy, peripheral neuropathy and other peripheral nervous system disease, myasthenia gravis and neuromuscular junction disease, rhabdomyolysis.
+  - Tendon and joint: tendinitis, periarthritis.
+  - Liver and kidney: liver disease, drug-induced liver injury, impaired renal function, gallbladder disease.
+  - Blood: thrombocytopenia, leukopenia, anemia, pancytopenia.
+  - Metabolic: diabetes mellitus, diabetic ketoacidosis, potassium deficiency.
+  - Gastrointestinal: Clostridium difficile colitis.
+- **Drug Interactions:** 100 interaction records were found. Major-level interactions include **tramadol** and **hydrocortisone**. Moderate-level interactions include abiraterone, acarbose, famotidine, formoterol, ketorolac, ibuprofen, metformin, pioglitazone and several others.
+
+Please refer to the package insert for full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a single outbreak report about a non-bacterial pathogen, with no trials and no plausible mechanistic link. No ophthalmic formulation is registered locally.
+The prediction rests on a model score alone (L5). No clinical trials exist, and the only publication concerns a non-bacterial (microsporidial) outbreak that fluoroquinolones do not target. The drug is widely marketed in Singapore, but no registered formulation is ophthalmic.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from HSA (blocking for any safety screening)
-- Mechanism of action data from DrugBank
-- Clinical evidence that levofloxacin benefits punctate epithelial keratoconjunctivitis, such as bacterial or prophylactic use
-- Assessment of a topical ophthalmic route, since only oral and injectable forms are registered
+- Clinical or microbiological evidence that levofloxacin helps in punctate epithelial keratoconjunctivitis, including evidence on the causative pathogens.
+- Detailed mechanism of action data (MOA).
+- Package insert warnings and contraindications from the HSA, to complete safety screening.
+- An assessment of route and formulation, since an ophthalmic preparation would be needed for ocular use.
 
-**Note on other predictions in this Evidence Pack:** the same drug has stronger support for other predicted indications. **Monoclonal gammopathy** is supported by the TEAMM Phase 3 RCT (PMID 31668592) of levofloxacin infection prophylaxis in newly diagnosed myeloma. It was rated L2 and Proceed with Guardrails, but it is supportive care and not disease modification. **Septicemic plague** has animal-model evidence only (L4, Research Question), and current label status should be checked first. These candidates may merit separate evaluation.
+**Note on other candidates:** Among the other predictions, **septicemic plague** has the strongest support (L3). It rests on animal-model evidence, including cure of experimental pneumonic plague in African green monkeys, and no human RCTs exist. It may be a better lead to evaluate, with guardrails such as confirming local susceptibility, monitoring for resistance and using expert infectious disease guidance.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

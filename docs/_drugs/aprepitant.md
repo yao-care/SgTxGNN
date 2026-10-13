@@ -29,18 +29,18 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Aprepitant: From Nausea and Vomiting Prevention to Nephrogenic Syndrome of Inappropriate Antidiuresis
+# Aprepitant: From Chemotherapy-Related Nausea and Vomiting to Nephrogenic Syndrome of Inappropriate Antidiuresis
 
 ## One-Sentence Summary
 
-Aprepitant is a substance P/NK1 receptor antagonist, generally used to prevent nausea and vomiting. The Singapore registration data in the pack do not state the approved indication, so this is based on general pharmacology.
-The TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**, but there are **0 clinical trials** and **0 publications** supporting this direction. The prediction is model output only.
+Aprepitant is an NK1 receptor antagonist and is marketed in Singapore as an oral capsule. The approved indication text is not available in the data compiled for this report.
+The TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**, but there are currently **0 clinical trials** and **0 relevant publications** supporting this direction. This is a model-only prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration data (generally used for nausea and vomiting prevention) |
+| Original Indication | Not available (no approved indication text in the Singapore licence records) |
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 99.97% |
 | Evidence Level | L5 |
@@ -50,11 +50,13 @@ The TxGNN model predicts it may be effective for **nephrogenic syndrome of inapp
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the input. Based on general pharmacology, aprepitant blocks the NK1 receptor, the target of substance P. It is an oral capsule product in Singapore.
+Detailed mechanism of action data is not available in the data compiled for this report. Aprepitant is known to be a substance P/neurokinin-1 (NK1) receptor antagonist, and it penetrates the central nervous system.
 
-The mechanistic link to NSIAD is weak. NSIAD is caused by gain-of-function variants of the renal V2 vasopressin receptor. These act downstream of vasopressin release, in the kidney. Central NK1 blockade therefore has no clear rationale for this disease. The high TxGNN score reflects a knowledge-graph pattern, not a demonstrated biological link.
+NSIAD is caused by a gain-of-function change in the vasopressin V2 receptor, which leads to water retention and low blood sodium. No established link connects NK1 antagonism to this V2 receptor mechanism. The only argument is speculative: substance P might modulate water balance through the vasopressin axis, and no data supports it.
 
-Nine other predictions were also generated (for example pulmonary hypertension, subarachnoid haemorrhage and hypertrichosis). All are L5 and Hold, with only speculative preclinical links. The few papers retrieved for them, such as a pazopanib and cisplatin Phase I trial and general periodontitis literature, do not study aprepitant and are not counted as evidence.
+The high TxGNN score therefore most likely reflects similarity in the knowledge-graph network, not a demonstrated pharmacological rationale. The prediction should be treated as a hypothesis only.
+
+Other high-ranking predictions have the same limitation. Hypertrichosis, leprosy, pulmonary hypertension, subarachnoid haemorrhage and several rare congenital disorders were also predicted, and none has supporting trials or relevant literature. Subarachnoid haemorrhage and pulmonary hypertension have only weak, indirect preclinical hypotheses involving substance P/NK1 signalling.
 
 ## Clinical Trial Evidence
 
@@ -62,32 +64,44 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for nephrogenic syndrome of inappropriate antidiuresis.
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN12369P | EMEND CAPSULE 80 mg | Capsule | Not stated in registration data |
-| SIN12371P | EMEND TRI-PACK CAPSULE | Capsule | Not stated in registration data |
-| SIN16363P | INAPITANT TRI-PACK CAPSULE | Capsule | Not stated in registration data |
+| SIN12369P | EMEND CAPSULE 80 mg | Capsule | Not stated |
+| SIN12371P | EMEND TRI-PACK CAPSULE | Capsule | Not stated |
+| SIN16363P | INAPITANT TRI-PACK CAPSULE | Capsule | Not stated |
+
+All three licences are valid single-ingredient products, and none is cancelled. The only route of administration is oral.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications (knowledge-graph signal, not label text)**: The TxGNN knowledge graph records a contraindication link with **liver failure**. This should be verified against the official package insert.
+- **Drug Interactions**: The interaction query returned 100 records, and the first 20 are in the data compiled for this report. Several are rated **Major**:
+  - Fentanyl
+  - Alfentanil
+  - Acalabrutinib
+
+  Examples rated **Moderate** include paclitaxel, abemaciclib, nifedipine, ibuprofen, hydrocortisone, fluvoxamine, fosphenytoin, gefitinib, rabeprazole, lidocaine and levonorgestrel. Dolutegravir is rated Minor. Aprepitant is metabolised through CYP3A4, which is a likely reason for many of these interactions. A full interaction review would be needed before any new use.
+
+Warnings and contraindications from the package insert are not available. Please refer to the package insert for complete safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on the model score alone. There are no trials or literature, and the biology of NSIAD (a renal V2 receptor defect) does not fit NK1 antagonism.
+The prediction score is high, but the evidence level is L5. There are no clinical trials and no relevant literature. There is also no plausible mechanistic link between NK1 antagonism and the V2 receptor gain-of-function that causes NSIAD. Package insert safety data are also missing, which blocks safety screening.
 
 **To proceed, the following is needed:**
-- Approved indication text and safety information from the HSA package insert
-- Mechanism of action data from DrugBank
-- Preclinical or clinical evidence linking NK1 antagonism to V2 receptor-driven antidiuresis
-- If none is found, consider moving to a higher-ranked candidate with a more plausible mechanism
+- Package insert warnings and contraindications from the HSA website, to enable safety screening
+- Mechanism of action data from DrugBank, and a mechanistic assessment of any substance P and vasopressin link
+- Approved indication text for the Singapore licences, to confirm the original indication
+- Preclinical or literature evidence showing NK1 antagonism affects water balance or V2 receptor signalling
+- A review of the major drug interactions (opioids, CYP3A4-related drugs) and of the liver failure signal for the target population
+- Route compatibility and similarity-to-original assessments, which are still pending
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Luspatercept
 parent: Low Evidence (L5)
-nav_order: 617
+nav_order: 623
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,18 +29,18 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Luspatercept: From Anemia in Beta-Thalassemia to Monosomy X
+# Luspatercept: From Beta-Thalassemia to Monosomy X
 
 ## One-Sentence Summary
 
-Luspatercept (brand name Reblozyl) is an injectable activin receptor ligand trap that promotes late-stage red blood cell maturation. It is marketed for anemia in beta-thalassemia.
-The TxGNN model predicts it may be effective for **monosomy X (Turner syndrome)**, but there are currently **0 clinical trials** and **0 publications** supporting this direction, so this is a model-only prediction.
+Luspatercept was originally used to treat beta-thalassemia and related hemoglobin disorders.
+The TxGNN model predicts it may be effective for **monosomy X** (Turner syndrome), but there are currently **0 clinical trials** and **0 publications** supporting this direction. The prediction is a computational signal only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration text; anemia in beta-thalassemia, based on the mechanism notes in the Evidence Pack |
+| Original Indication | Beta-thalassemia and related hemoglobinopathies (the Singapore licence text is blank, so this comes from the knowledge-graph indication edges) |
 | Predicted New Indication | Monosomy X |
 | TxGNN Prediction Score | 96.00% |
 | Evidence Level | L5 |
@@ -50,13 +50,15 @@ The TxGNN model predicts it may be effective for **monosomy X (Turner syndrome)*
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the source record. Based on the mechanism notes, luspatercept is a fusion protein that traps TGF-beta superfamily ligands such as GDF11 and activins. This improves late-stage erythroid maturation, which is why it helps in anemias caused by ineffective red cell production.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, luspatercept is an activin receptor type IIB ligand trap. It acts on the TGF-beta superfamily (SMAD2/3 signalling) and promotes late-stage red blood cell maturation. This explains its use in beta-thalassemia, where ineffective erythropoiesis drives anaemia and transfusion dependence.
 
-The predicted link to monosomy X is weak. Monosomy X is a chromosomal disorder with no defined erythropoiesis target, so there is no clear mechanistic bridge from the original indication. The high score of 0.96 (rank 24,290) comes from graph-based similarity only, with no supporting trial or publication.
+No clear mechanistic link to monosomy X (Turner syndrome) is evident. Turner syndrome is a chromosomal disorder, mainly characterised by ovarian insufficiency, short stature and cardiovascular features. It is not primarily a disorder of erythroid maturation. The high score is therefore most likely a network-level artefact of the knowledge graph rather than a therapeutic rationale.
 
-Other candidates in the same prediction list have more biological plausibility:
-- **Thalassemia, beta+, silent allele** is closest to the marketed use. Silent carriers are usually asymptomatic, so clinical need is doubtful.
-- **Pyruvate kinase deficiency of red cells** involves a component of ineffective erythropoiesis. It is a hypothesis for preclinical or early clinical exploration.
+Other top-ranked predictions are also weakly supported. Most (hepatic infarction, hepatic veno-occlusive disease, peliosis hepatis, combined immunodeficiency, familial apolipoprotein C-II deficiency, adenosine deaminase deficiency, Hb Bart's hydrops fetalis) have no plausible mechanism. Several carry potential safety concerns, such as thromboembolic risk in hepatic vascular conditions and embryo-fetal toxicity for Hb Bart's hydrops fetalis.
+
+Two lower-ranked predictions are biologically more plausible as research questions:
+- **Pyruvate kinase deficiency of red cells** (score 93.8%): a hereditary haemolytic anaemia with ineffective erythropoiesis, which is mechanistically close to the approved use.
+- **Thalassemia, beta+, silent allele** (score 93.3%): largely a rediscovery of the existing indication. Silent carriers are typically asymptomatic, so there is little rationale for treatment.
 
 ## Clinical Trial Evidence
 
@@ -70,31 +72,27 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN16470P | REBLOZYL POWDER FOR SOLUTION FOR INJECTION 25 MG/VIAL | Injection, powder, for solution | Not specified in registration data |
-| SIN16471P | REBLOZYL POWDER FOR SOLUTION FOR INJECTION 75 MG/VIAL | Injection, powder, for solution | Not specified in registration data |
-
-Both products are manufactured by Patheon Italia S.p.A.
+| SIN16470P | REBLOZYL Powder for Solution for Injection 25 mg/vial | Injection, powder, for solution | Not stated in the data compiled |
+| SIN16471P | REBLOZYL Powder for Solution for Injection 75 mg/vial | Injection, powder, for solution | Not stated in the data compiled |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: No interactions were found in the data compiled for this report.
 
-- **Drug Interactions**: No interaction records were found in the queried source.
-- **Thromboembolic events**: The mechanism notes flag these as a known safety consideration for luspatercept. This matters mainly for vascular or hepatic-vascular candidates.
+Please refer to the package insert for other safety information. Based on the label, luspatercept carries a thromboembolic risk and embryo-fetal toxicity warnings. Both are relevant to the hepatic and fetal-related predictions above.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a graph-based score. There is no clinical trial or literature support and no plausible mechanism linking luspatercept to monosomy X, so the evidence level is L5.
+The prediction for monosomy X rests only on a model score, with no trials, no literature and no plausible mechanistic link. The Singapore licence data also lack approved-indication text and package insert warnings, so safety screening cannot proceed.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from the HSA (a blocking gap for safety screening)
-- Mechanism-of-action data from DrugBank
-- The approved indication text for the Singapore registrations
-- A mechanistic rationale, or preclinical or clinical evidence, linking luspatercept to monosomy X
-- If the team wants to pursue this drug, review the higher-plausibility candidates (pyruvate kinase deficiency, beta-thalassemia variants) before this one
+- Package insert warnings and contraindications from the HSA website
+- Detailed mechanism of action data (for example, from DrugBank)
+- A dedicated literature and trial search for monosomy X
+- A separate literature and trial search for pyruvate kinase deficiency, which is the most biologically plausible research question among the predictions
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

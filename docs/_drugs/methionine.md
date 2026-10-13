@@ -2,7 +2,7 @@
 layout: default
 title: Methionine
 parent: Low Evidence (L5)
-nav_order: 650
+nav_order: 656
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,29 +29,30 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Methionine: From Amino Acid Infusion Component to Acne
+# Methionine: From Parenteral Nutrition Amino Acid to Acne
 
 ## One-Sentence Summary
 
-Methionine is an essential amino acid. In Singapore it is registered as an ingredient of parenteral nutrition amino acid infusion solutions. The TxGNN model predicts it may be effective for **acne**, but there are **0 clinical trials** and only **4 publications**. None of the publications tests methionine as an acne treatment, so this is a model prediction without clinical support.
+Methionine is an essential amino acid used as a component of parenteral nutrition (amino acid infusion) products in Singapore.
+The TxGNN model predicts it may be effective for **acne**, with a very high computational score but **0 clinical trials** and only **2 publications**, neither of which tests methionine as a treatment.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration records (the registered products are amino acid infusion solutions for intravenous use) |
-| Predicted New Indication | Acne |
-| TxGNN Prediction Score | 99.9996% |
-| Evidence Level | L4 (weak: association and laboratory reports only, no intervention data) |
+| Original Indication | Not stated in the licence data (marketed as a component of amino acid and parenteral nutrition products) |
+| Predicted New Indication | Acne (disease) |
+| TxGNN Prediction Score | 99.99% |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 19 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, methionine is a component of multi-amino-acid infusion products (for example Aminoven, Nephrosteril and Aminoplasmal). It serves as a nutritional amino acid and a precursor in the homocysteine and cysteine pathways. The registration records do not list an approved indication text, so the relationship between the original use and acne cannot be described from official data.
+Currently, detailed mechanism of action data is not available. Based on known information, methionine is a sulfur-containing essential amino acid and part of multi-component amino acid infusions. It is a precursor in homocysteine and cysteine metabolism, and its role in nutrition support is established. Mechanistically, it may be relevant to acne only through indirect metabolic pathways.
 
-The retrieved literature does not establish a mechanistic link to acne. One study reports elevated plasma homocysteine in patients taking isotretinoin for cystic acne. Homocysteine belongs to the methionine cycle, but this is an association with another drug and not a therapeutic signal for methionine. The other papers concern neutrophil function in inflammatory skin disease in general. The very high score (~1.0) is likely to reflect proximity in the knowledge graph rather than validated biology.
+The data compiled for this report do not support a direct link. The only acne-related paper reports raised plasma homocysteine in patients taking isotretinoin. That is a side effect of another drug on methionine/homocysteine metabolism, not a therapeutic effect of methionine. The second paper describes a neonatal genetic disorder (MTHFR mutation) in which acne was only one of several skin findings. The very high TxGNN score is therefore a computational prediction without clinical support.
 
 ## Clinical Trial Evidence
 
@@ -61,44 +62,45 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [11277950](https://pubmed.ncbi.nlm.nih.gov/11277950/) | 2001 | Cohort | Int J Dermatol | Plasma homocysteine was elevated in cystic acne patients on isotretinoin. This is a drug-related side-effect finding and does not test methionine as a treatment. |
-| [39357918](https://pubmed.ncbi.nlm.nih.gov/39357918/) | 2024 | Case report | BMJ Case Reports | A neonate with an MTHFR mutation had encephalopathy, hair loss and neonatal acne. This is a rare genetic disorder of the methionine cycle. |
-| [3859500](https://pubmed.ncbi.nlm.nih.gov/3859500/) | 1985 | Case-control/Lab study | J Am Acad Dermatol | Neutrophil chemotaxis was studied in a patient with Sweet's syndrome and cystonodular acne. Chemotaxis was slightly reduced during isotretinoin therapy. |
-| [3161955](https://pubmed.ncbi.nlm.nih.gov/3161955/) | 1985 | Lab study | J Invest Dermatol | Neutrophil C5a-specific function was transiently absent across 135 patients with inflammatory skin diseases, including acne conglobata. |
+| [11277950](https://pubmed.ncbi.nlm.nih.gov/11277950/) | 2001 | Cohort | International Journal of Dermatology | Plasma homocysteine was elevated in patients taking isotretinoin for cystic acne. This concerns a drug side effect, not a benefit of methionine. |
+| [39357918](https://pubmed.ncbi.nlm.nih.gov/39357918/) | 2024 | Case report | BMJ Case Reports | A neonate with a novel MTHFR mutation had encephalopathy, hair loss, marfanoid features and neonatal acne. Not relevant to acne treatment. |
 
 ## Singapore Market Information
 
-The registration records do not include approved indication text. Showing 5 of 19 registrations:
+All 19 licences are valid single-ingredient registrations. No approved indication text is recorded for them. Five main authorisations are listed.
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN16337P | AMINOVEN SOLUTION FOR INFUSION 15% | Infusion, solution |
-| SIN11682P | AMINOVEN SOLUTION FOR INFUSION 5% | Injection |
-| SIN11829P | AMINOVEN SOLUTION FOR INFUSION 10% | Injection |
-| SIN06299P | NEPHROSTERIL FOR INTRAVENOUS INFUSION | Injection |
-| SIN08352P | AMINOPLASMAL-15% INFUSION | Injection |
-
-All listed products are intravenous amino acid solutions. No oral or topical methionine product appears among these five, so a route change would be needed for acne.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN16337P | AMINOVEN SOLUTION FOR INFUSION 15% | Infusion, solution | Not recorded |
+| SIN11682P | AMINOVEN SOLUTION FOR INFUSION 5% | Injection | Not recorded |
+| SIN11829P | AMINOVEN SOLUTION FOR INFUSION 10% | Injection | Not recorded |
+| SIN06299P | NEPHROSTERIL FOR INTRAVENOUS INFUSION | Injection | Not recorded |
+| SIN08352P | AMINOPLASMAL-15% INFUSION | Injection | Not recorded |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found.
+- **Disease associations flagged in the knowledge graph (not label text):** The TxGNN knowledge graph links methionine to contraindications in several disease groups. These include kidney disease (chronic kidney disease, end-stage renal failure, nephrolithiasis, nephrocalcinosis), cardiovascular disease (hypertension, heart disease, ventricular fibrillation, digitalis poisoning), metabolic disorders (diabetes mellitus, diabetic ketoacidosis, hyperlipidaemia, phenylketonuria and other phenylalanine metabolism disorders, phosphorus metabolism disease), and calcium-related conditions (hypercalcaemia, sarcoidosis). These are knowledge-graph edges and need confirmation against the product labels.
+- **Drug Interactions (5 recorded):**
+  - Moderate: activated charcoal
+  - Minor: ephedrine, pseudoephedrine, mexiletine, flecainide
+
+Please refer to the package insert for full safety information. Warnings and contraindications from the label were not available.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone. There are no clinical trials, and the few publications are associations or case-level observations that do not test methionine in acne. The registered products are intravenous nutrition solutions, so no route-compatible product exists for acne.
+The prediction rests on a computational score alone. There are no clinical trials, and the two papers do not test methionine for acne. The acne-related paper points to a possible harm signal (homocysteine) rather than benefit.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from the HSA website (this is blocking for any safety screening)
-- Mechanism of action data, for example from DrugBank
-- Evidence of a mechanistic or clinical link between methionine and acne, and of the direction of effect
-- An assessment of whether a suitable topical or oral formulation would be available
-- Note: the same pack lists several cataract-related predictions (cortical, nuclear senile and diabetic cataract) with biochemical and preclinical support. These are flagged as research questions and are a better starting point than acne, although the direction of effect (benefit or harm) is unknown.
+- Package insert warnings and contraindications from the HSA, since safety screening cannot proceed without them
+- Mechanism of action data for methionine
+- Preclinical or clinical evidence that methionine has a therapeutic effect in acne
+- Clarification of the direction of effect (whether methionine or homocysteine changes help or harm)
+- Assessment of route compatibility, since the registered forms are all parenteral and acne would likely need a different route
 
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
+**Other predicted indications (for reference):** Diabetic cataract is the most plausible of the ten predicted indications. It has indirect support from homocysteine and methionine sulfoxide reductase B1 research (evidence level L4, research question stage). The remaining predicted indications, including severe nonproliferative diabetic retinopathy and several cataract types, are held at L4–L5 without direct evidence.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

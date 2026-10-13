@@ -2,7 +2,7 @@
 layout: default
 title: Crotamiton
 parent: Low Evidence (L5)
-nav_order: 279
+nav_order: 282
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Crotamiton: From Topical Antipruritic to Trombiculiasis
+# Crotamiton: From Scabies to Trombiculiasis
 
 ## One-Sentence Summary
 
-Crotamiton is a topical skin product (lotion and cream) marketed in Singapore, and it is generally known as a scabicide and anti-itch agent.
-The TxGNN model predicts it may be useful for **Trombiculiasis** (chigger bites), with a score of 96.2%.
-Currently **0 clinical trials** and **0 publications** support this prediction, so it rests on the model alone.
+Crotamiton is a topical scabicide and antipruritic (anti-itch) agent, originally used to treat scabies and relieve itching.
+The TxGNN model predicts it may be effective for **trombiculiasis** (chigger mite dermatitis), but **no clinical trials or publications** currently support this direction, so the prediction rests on model output and indication similarity alone.
 
 ---
 
@@ -43,23 +42,25 @@ Currently **0 clinical trials** and **0 publications** support this prediction, 
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration records (the approved indication text is blank for all 3 licences) |
+| Original Indication | Scabies (including Norwegian scabies) and mite infestation; itch relief (the Singapore licence records contain no indication text) |
 | Predicted New Indication | Trombiculiasis |
 | TxGNN Prediction Score | 96.24% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 (model prediction only, no actual studies) |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 3 |
 | Recommended Decision | Hold |
+
+*Note: The data compiled for this report labels this candidate L4 with a "Research Question" recommendation, based on indirect pharmacological reasoning. Under the standard evidence rules (no clinical trials, no literature), it falls at L5. The Hold decision reflects that gap, while the biological plausibility justifies keeping it as a research question.*
 
 ---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for crotamiton. Based on general pharmacological knowledge rather than the supplied data, crotamiton is a topical scabicide and antipruritic. Its use against scabies and itching has been established, but this could not be confirmed from the registration records provided.
+Crotamiton is a scabicidal agent whose exact mechanism of action against mites is unknown. Its general antipruritic effect has been linked to inhibition of the TRPV4 (transient receptor potential vanilloid 4) channel, which is expressed in the skin and in primary sensory neurons. Detailed mechanism of action data are otherwise not available.
 
-Trombiculiasis is caused by chigger mites and produces an intensely itchy skin reaction. It is an ectoparasitic skin condition with pruritus, which resembles scabies. This overlap makes the prediction plausible on the surface. The link is still unconfirmed, because no trials or literature were supplied to support it.
+Trombiculiasis is a mite-induced itchy skin condition caused by chigger larvae. It shares two features with crotamiton's established uses: a mite-related cause (as in scabies, caused by *Sarcoptes scabiei*) and intense itching. Crotamiton is also already used for itching from insect bites and stings, which are clinically similar to chigger bites. This makes the extension biologically plausible, and it likely explains the high TxGNN score.
 
-The other nine top-ranked predictions are not credible. They include lymph node palisaded myofibroblastoma, abdominal ectopic pregnancy, celiac trunk compression syndrome, sacrum chordoma and hordeolum. No mechanistic link connects any of them to a topical skin agent. Several have near-identical scores (about 0.9566), which suggests artifacts of the knowledge graph rather than drug-specific signals. Only trombiculiasis is worth further consideration.
+However, this reasoning is indirect. It is based on similarity of indication and pharmacological class, not on clinical data in trombiculiasis. Antipruritic benefit may be achievable even where mite-killing activity is not relevant, since chigger larvae do not burrow and live in the skin as scabies mites do.
 
 ---
 
@@ -77,21 +78,22 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN04958P | Crotamiton Lotion 10% v/v | Lotion | Sunward Pharmaceutical Private Limited |
-| SIN04689P | Crotamiton Cream 10% v/w | Cream | Sunward Pharmaceutical Private Limited |
-| SIN08812P | Guardian Anti-Itch Cream | Cream | Sunward Pharmaceutical Private Limited |
+| SIN04958P | Crotamiton Lotion 10% v/v | Lotion | Not stated in the licence record |
+| SIN04689P | Crotamiton Cream 10% v/w | Cream | Not stated in the licence record |
+| SIN08812P | Guardian Anti-Itch Cream | Cream | Not stated in the licence record |
 
-The approved indication text is blank in the registration records, so it is not shown here. Both forms are topical, which is the likely route for a skin condition such as trombiculiasis. Formal route compatibility has not yet been assessed.
+All three licences are valid, single-ingredient products from Sunward Pharmaceutical Private Limited. Both products are topical (lotion and cream).
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found for crotamiton.
+- **Contraindications (from the knowledge graph, not label text)**: Dermatitis is recorded as a contraindication-linked disease in the TxGNN knowledge graph. This should be verified against the official label, because crotamiton is also used for itchy dermatitis according to pharmacology sources.
+- **Drug Interactions**: No conventional drug-drug interactions were identified. The only entry is a pharmacological target relationship: crotamiton inhibits the TRPV4 channel, which is the proposed basis of its anti-itch effect.
 
-Crotamiton is a skin product and is generally not intended for use near the eyes. This matters for the lower-ranked hordeolum (eyelid) prediction, but not for trombiculiasis.
+For other safety information, please refer to the package insert.
 
 ---
 
@@ -100,13 +102,14 @@ Crotamiton is a skin product and is generally not intended for use near the eyes
 **Decision: Hold**
 
 **Rationale:**
-The trombiculiasis prediction is biologically plausible, since crotamiton is a topical antipruritic and scabicide and chigger bites cause similar itching. However, there are no trials, no literature and no confirmed mechanism data, so the evidence is limited to the model score (L5). The other nine predictions have no plausible link and should not be pursued.
+Trombiculiasis is the only one of the ten predictions with a plausible mechanistic link, but there are no trials or publications to support it. The other nine predictions (for example, sacrum chordoma, abdominal ectopic pregnancy, and hordeolum) have no mechanistic rationale and look like graph-based artifacts. They should not be pursued.
 
 **To proceed, the following is needed:**
-- The Singapore package insert (warnings, contraindications and approved indications) from HSA, since the indication text is blank in the records
-- Mechanism of action data for crotamiton, for example from DrugBank
-- A literature and trial search specifically for crotamiton in chigger bites or trombiculiasis
-- A route and dosage-form compatibility review of the marketed lotion and cream for this use
+- A literature and trial search specific to crotamiton in trombiculiasis (chigger bites)
+- Package insert warnings and contraindications from the HSA website, to enable safety screening
+- Detailed mechanism of action data, especially whether crotamiton has any activity against chigger larvae or acts only as an antipruritic
+- Clarification of the approved indication wording for the three Singapore licences
+- Confirmation that the existing topical cream and lotion are suitable for the intended use (route compatibility is still pending)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

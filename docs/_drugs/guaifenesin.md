@@ -2,15 +2,15 @@
 layout: default
 title: Guaifenesin
 parent: Medium Evidence (L3-L4)
-nav_order: 489
-evidence_level: L3
+nav_order: 493
+evidence_level: L4
 indication_count: 10
 ---
 
 # Guaifenesin
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,77 +29,90 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Guaifenesin: From Cough and Mucus Congestion to Nasal Cavity Disease
+# Guaifenesin: From Upper Respiratory Tract Conditions (Rhinitis, Common Cold) to Nasal Cavity Disease
 
 ## One-Sentence Summary
 
-Guaifenesin is an oral expectorant that thins airway mucus. In Singapore it is sold mainly as cough syrups and an extended-release tablet.
-The TxGNN model predicts it may be effective for **nasal cavity disease**, and support so far is limited to **1 completed Phase 2 pilot trial** and **2 older narrative reviews**.
+Guaifenesin is an expectorant originally used for upper respiratory conditions such as allergic rhinitis, common cold, pharyngitis and nasopharyngitis.
+The TxGNN model predicts it may be effective for **nasal cavity disease**,
+but there are currently **0 clinical trials** and only **1 publication** (a narrative review), so the evidence is indirect.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration records. Product names (cough syrups) suggest cough and chest congestion. |
+| Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, rhinitis, nasopharyngitis, headache disorder (from the knowledge graph; Singapore licence records contain no approved indication text) |
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 99.98% |
-| Evidence Level | L3 |
+| Evidence Level | L4 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 18 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from DrugBank. Guaifenesin is known as an expectorant that thins and loosens airway mucus. Its efficacy for chest congestion is the basis of its market use, and it may be mechanistically applicable to mucus-driven upper airway conditions.
+Detailed mechanism of action data is not available. Based on known information, guaifenesin is an expectorant that thins and loosens airway mucus. Its efficacy in respiratory tract conditions is the basis of its current use, and mechanistically it may be applicable to nasal cavity disease with mucus hypersecretion or congestion.
 
-Nasal cavity diseases such as chronic rhinitis and sinusitis involve thick or excess secretions. Reducing mucus viscosity could plausibly ease symptoms there. The link is indirect, however. It rests on general mucus-clearing action, not on a demonstrated effect in nasal tissue.
+Nasal cavity disease is closely related to guaifenesin's existing indications (allergic rhinitis, vasomotor rhinitis, rhinitis, nasopharyngitis). The prediction is therefore largely an extension of existing uses rather than a true repurposing to a new disease area.
 
-Other predictions in the pack show the range of signal quality. Tracheal disease has in vitro support, in which guaifenesin modulated MUC5AC mucin and mucociliary transport in human airway cells (PMID 23113953). Several other high-scoring predictions have no plausible mechanism and no evidence, and look like knowledge-graph artifacts. Faucial diphtheria and papillary conjunctivitis are examples.
+The only supporting paper is a narrative article on respiratory allergies in voice users. It mentions decongestants containing guaifenesin as potentially useful, which is indirect evidence only.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01364467](https://clinicaltrials.gov/study/NCT01364467) | Phase 2 | Completed | 30 | 14-day placebo-controlled pilot of oral guaifenesin in children aged 7–18 with chronic rhinitis. Outcomes are symptom score (SN-5), nasal airway volume and nasal secretion properties. No results are provided in the record. |
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [9065342](https://pubmed.ncbi.nlm.nih.gov/9065342/) | 1997 | Review | American Journal of Rhinology | Management of chronic sinusitis in 22 adults with cystic fibrosis, with management recommendations. Guaifenesin's role is not established by this report. |
-| [12487405](https://pubmed.ncbi.nlm.nih.gov/12487405/) | 2002 | Review | Logopedics, Phoniatrics, Vocology | Treatment strategies for allergic voice users. It notes that decongestants containing guaifenesin may be useful. |
+| [12487405](https://pubmed.ncbi.nlm.nih.gov/12487405/) | 2002 | Review | Logopedics, Phoniatrics, Vocology | Treatment strategies for allergic voice patients. Antihistamines are generally avoided, while decongestants with guaifenesin may be useful. Steroids help in perennial allergic symptoms. |
 
 ## Singapore Market Information
 
-18 registrations in total. The registration records do not include approved indication text. The five main ones are:
+All 18 licences are valid single-ingredient registrations, with none cancelled. The licence records contain no approved indication text. Five main authorisations are listed below.
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
-|---------|------|------|------|
-| SIN08969P | Cough Relief Syrup 100 mg/5 ml | Syrup | Syarikat Wen Ken Drug Sdn Bhd |
-| SIN08411P | Breacol Cough Syrup 100 mg/5 ml | Syrup | PT. Menarini Indria Laboratories |
-| SIN06725P | Woods' Peppermint Cough Syrup 100 mg/5 ml | Syrup | DCH Contract Manufacturing Sdn. Bhd. |
-| SIN14588P | Mucinex Extended Release Tablets 600 mg | Tablet, extended release | Reckitt Benckiser Healthcare International Limited |
-| SIN15653P | Woods' Peppermint Cough Syrup for Children 50 mg/5 ml | Liquid | DCH Contract Manufacturing Sdn Bhd |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN08969P | Cough Relief Syrup 100 mg/5 ml | Syrup | Not stated in the licence record |
+| SIN08411P | Breacol Cough Syrup 100 mg/5 ml | Syrup | Not stated in the licence record |
+| SIN14588P | Mucinex Extended Release Tablets 600 mg | Tablet, extended release | Not stated in the licence record |
+| SIN14659P | Mucinex Extended Release Tablets 1200 mg | Tablet, multilayer, extended release | Not stated in the licence record |
+| SIN12140P | Robitussin EX Syrup 200 mg/10 ml | Syrup | Not stated in the licence record |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Contraindication information from the knowledge graph is not label text and should be interpreted with caution. It lists many conditions, including hypertension, liver failure, liver disease, cirrhosis, kidney disease, epilepsy, COPD, peptic and gastric ulcer, inflammatory bowel disease, pancreatitis, porphyria, hypothyroidism, adrenocortical insufficiency (Addison disease), thrombocytopenia, anxiety disorders, insomnia and psychotic disorders. Several of these probably reflect the co-formulated ingredients in combination cough and cold products rather than guaifenesin itself.
+
+No drug interaction records were found.
+
+For label warnings and contraindications, please refer to the package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The model score is very high, and the mechanism is biologically plausible for mucus-related nasal conditions. The direct clinical evidence is one small, completed pilot trial with no posted results, plus two narrative reviews. Package insert safety information has not been obtained, which blocks safety screening. The evidence supports keeping this as a research question and not a treatment recommendation.
+The prediction score is high, but the evidence is limited to a single narrative review with no clinical trials. Nasal cavity disease largely overlaps with guaifenesin's existing uses, so it adds little as a new repurposing direction. Package insert safety information has not been obtained.
 
 **To proceed, the following is needed:**
-- Results of NCT01364467 (from the registry or publication). Confirm the randomization and blinding design, and the enrollment figure, since the record lists 30 participants while the summary text mentions 36 children. If it proves to be a randomized trial with reported outcomes, the evidence level could be reassessed toward L2.
-- Package insert warnings and contraindications from the HSA website.
-- Mechanism of action data from DrugBank.
-- Confirmation of the Singapore approved indications, which are missing from the registration records.
-- Dose and duration in children and adults, and a check of route compatibility (oral) for the target condition.
+- Package insert warnings and contraindications from the HSA website
+- Mechanism of action data from DrugBank
+- Clearer definition of which nasal cavity conditions are targeted
+- Controlled clinical evidence in nasal or sinonasal conditions
 
-*These results are for research reference only and do not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+### Other Predicted Indications (for reference)
+
+| Rank | Predicted Indication | Score | Evidence Level | Comment |
+|------|------|------|------|------|
+| 2 | Acute laryngopharyngitis | 99.98% | L5 | Driven by similarity to existing indications; no studies supplied |
+| 3 | Faucial diphtheria | 99.54% | L5 | No plausible mechanism; likely a false positive |
+| 4 | Cervical disc degenerative disorder | 99.50% | L5 | No plausible mechanism; likely a model artifact |
+| 5 | Papillary conjunctivitis | 99.27% | L5 | No known anti-allergic mechanism |
+| 6 | Tracheal disease | 98.83% | L3 | In vitro data on MUC5AC and mucociliary transport ([PMID 23113953](https://pubmed.ncbi.nlm.nih.gov/23113953/)); the other paper is a case report with no efficacy evidence |
+| 7 | Trigeminal autonomic cephalalgia | 98.70% | L5 | No established mechanism |
+| 8 | Anorectal stricture | 98.63% | L5 | No plausible mechanism |
+| 9 | Anal polyp | 98.61% | L5 | No biological rationale |
+| 10 | Punctate epithelial keratoconjunctivitis | 98.48% | L5 | No established mechanism |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

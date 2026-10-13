@@ -29,17 +29,17 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Alanine: From Parenteral Nutrition Amino Acid to Gastroparesis
+# Alanine: From Nutritional Amino Acid Supplementation to Gastroparesis
 
 ## One-Sentence Summary
 
-Alanine is a nutritional amino acid. In Singapore it is marketed as a component of intravenous amino acid infusion products; the registration records give no approved-indication text, so this use is inferred from the product names. The TxGNN model predicts it may be effective for **gastroparesis**, but the 7 clinical trials and 3 publications retrieved for this disease are keyword matches that do not test alanine. Evidence is at **L5 (model prediction only)**.
+Alanine is an amino acid used as a component of parenteral nutrition and amino acid infusion products. The TxGNN model predicts it may be effective for **gastroparesis**, but this rests on a graph-based prediction alone: **no clinical trials** are registered and none of the **3 retrieved publications** studies alanine as a treatment for the condition.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration records; likely amino acid supply in parenteral nutrition (inferred from product names) |
+| Original Indication | Not stated in the Singapore licence records (used in parenteral nutrition and amino acid infusion products) |
 | Predicted New Indication | Gastroparesis |
 | TxGNN Prediction Score | 99.37% |
 | Evidence Level | L5 |
@@ -49,62 +49,60 @@ Alanine is a nutritional amino acid. In Singapore it is marketed as a component 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, alanine is a non-essential amino acid supplied as part of multi-amino-acid infusion solutions (for example Aminoven, Nephrosteril and Aminoplasmal). Its role there is nutritional, not therapeutic for a specific disease.
+Currently, detailed mechanism of action data is not available. Based on known information, alanine is a component of multi-amino-acid infusion and parenteral nutrition products, where it serves as a nutritional substrate. No specific pharmacological action on gastric motility is documented in the data compiled for this report.
 
-The review of this prediction found no plausible alanine-specific mechanism for improving gastric motility. The high score (0.994) comes from graph-based similarity in the knowledge graph, not from clinical data. None of the retrieved trials tests alanine; they cover motilin agonists, cannabidiol, buspirone, aprepitant, traditional Chinese medicine and enteral feeding schedules. Some appear only because they mention gastroparesis or critical-care feeding.
-
-The other nine ranked predictions (vitamin D deficiency, dyspepsia, prothrombin deficiency, and others) are also L5, except renal tubular acidosis at L4. The L4 rating rests on physiological studies of renal alanine and glutamine handling, which is context rather than treatment evidence.
+The relationship between the original use (nutritional support) and gastroparesis (delayed gastric emptying) is not supported by the data. The three retrieved papers concern hepatic and gastrointestinal complications of end-stage renal disease and diabetes. They do not study alanine or gastric motility. The high TxGNN score is a graph-based statistical signal only, and no credible mechanistic link was identified.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT06452966](https://clinicaltrials.gov/study/NCT06452966) | N/A | Recruiting | 350 | Traditional Chinese medicine for organ failure in ICU patients; not an alanine study |
-| [NCT02793154](https://clinicaltrials.gov/study/NCT02793154) | Phase 4 | Terminated | 4 | Albiglutide vs exenatide on gastric emptying in type 2 diabetes; not an alanine study |
-| [NCT01602549](https://clinicaltrials.gov/study/NCT01602549) | Phase 2 | Completed | 58 | Motilin agonist GSK962040 on L-DOPA pharmacokinetics in Parkinson's disease with delayed gastric emptying; matched on disease term only |
-| [NCT03941288](https://clinicaltrials.gov/study/NCT03941288) | Phase 2 | Completed | 92 | Cannabidiol for gastroparesis and functional dyspepsia; not an alanine study |
-| [NCT01262898](https://clinicaltrials.gov/study/NCT01262898) | Phase 2 | Completed | 79 | Oral motilin agonist GSK962040 in diabetic gastroparesis; not an alanine study |
-| [NCT03587142](https://clinicaltrials.gov/study/NCT03587142) | Phase 2 | Completed | 96 | Buspirone for early satiety and gastroparesis symptoms; different drug, no alanine link |
-| [NCT01934192](https://clinicaltrials.gov/study/NCT01934192) | Phase 2 | Terminated | 91 | GSK962040 for enteral feed delivery in critically ill patients; alanine not involved |
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [10926110](https://pubmed.ncbi.nlm.nih.gov/10926110/) | 2000 | Review | Advances in Renal Replacement Therapy | GI and hepatic disorders in end-stage renal disease; notes gastroparesis is more common in chronic renal failure. No alanine data |
-| [26315331](https://pubmed.ncbi.nlm.nih.gov/26315331/) | 2016 | Review | Diabetic Medicine | Diabetic hepatosclerosis as a possible microvascular complication. Not related to alanine treatment |
-| [33763324](https://pubmed.ncbi.nlm.nih.gov/33763324/) | 2021 | Case report | Cureus | Glycogen hepatopathy in a type 1 diabetic patient whose history included gastroparesis. Incidental mention only |
+| [10926110](https://pubmed.ncbi.nlm.nih.gov/10926110/) | 2000 | Review | Advances in Renal Replacement Therapy | Reviews GI and hepatic disorders in end-stage renal disease; notes gastroparesis is more common in chronic renal failure. Does not study alanine. |
+| [26315331](https://pubmed.ncbi.nlm.nih.gov/26315331/) | 2016 | Review | Diabetic Medicine | Describes diabetic hepatosclerosis as a possible microvascular complication of diabetes. Not related to alanine. |
+| [33763324](https://pubmed.ncbi.nlm.nih.gov/33763324/) | 2021 | Case report | Cureus | Glycogen hepatopathy in a type 1 diabetic patient who also had gastroparesis. Not related to alanine therapy. |
 
 ## Singapore Market Information
 
-19 registrations exist. The five main ones are listed below.
+All 19 licences are valid single-ingredient registrations; the approved indication text is not available in the licence records. Five main authorisations:
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN16337P | AMINOVEN SOLUTION FOR INFUSION 15% | Infusion, solution | Not listed in record |
-| SIN11682P | AMINOVEN SOLUTION FOR INFUSION 5% | Injection | Not listed in record |
-| SIN11829P | AMINOVEN SOLUTION FOR INFUSION 10% | Injection | Not listed in record |
-| SIN06299P | NEPHROSTERIL FOR INTRAVENOUS INFUSION | Injection | Not listed in record |
-| SIN08352P | AMINOPLASMAL-15% INFUSION | Injection | Not listed in record |
+| SIN16337P | AMINOVEN Solution for Infusion 15% | Infusion, solution | Not stated |
+| SIN11682P | AMINOVEN Solution for Infusion 5% | Injection | Not stated |
+| SIN11829P | AMINOVEN Solution for Infusion 10% | Injection | Not stated |
+| SIN06299P | NEPHROSTERIL for Intravenous Infusion | Injection | Not stated |
+| SIN08352P | AMINOPLASMAL-15% Infusion | Injection | Not stated |
+
+Other registered products include Trophamine, Nutrineal PD4, Vaminolact, Aminoplasmal B.Braun 10% E, OliClinomel, SmofKabiven (several variants) and Nutriflex Omega (several variants).
 
 ## Safety Considerations
 
-- **Drug Interactions**: No interaction records were found in the database query.
+The TxGNN knowledge graph (not label text) links alanine to contraindication edges for the following conditions:
 
-Please refer to the package insert for other safety information.
+- **Renal:** kidney disease, chronic kidney disease, chronic renal failure syndrome, end stage renal failure, nephrolithiasis, nephrocalcinosis, acute urate nephropathy, pyoureter
+- **Calcium and phosphorus disorders:** hypercalcemia, humoral hypercalcemia of malignancy, sarcoidosis, phosphorus metabolism disease
+- **Cardiac:** heart disease, cardiovascular disease, digitalis poisoning, ventricular fibrillation
+- **Metabolic:** phenylketonuria, disorder of phenylalanine metabolism
+
+These are graph-derived signals and must be verified against the product labels. No drug-interaction records were found. For label-based safety information, please refer to the package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is model output only. No retrieved study tests alanine in gastroparesis, and there is no plausible mechanism linking alanine to gastric motility. Alanine is already marketed in Singapore as a nutritional component, so there is no market barrier, but there is also no evidence to justify pursuing gastroparesis.
+The prediction rests only on a model score. There are no clinical trials, the retrieved literature does not evaluate alanine for gastroparesis, and no mechanistic link was identified. Alanine is also an amino acid nutrient with no established prokinetic action, and the knowledge graph flags several renal and metabolic contraindications.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- A specific, testable hypothesis for how alanine or amino acid infusion could affect gastric emptying, backed by preclinical or clinical data
-- If a lead is wanted from this candidate set, consider reviewing renal tubular acidosis (L4), whose physiological rationale is the only indirect biological signal
+- Mechanism of action data and a plausible biological link between alanine and gastric motility
+- Package insert warnings and contraindications for the Singapore-registered products
+- Preclinical or early clinical data on alanine in gastroparesis
+- Assessment of route and formulation suitability, since current products are intravenous nutrition solutions
+- Review of the other nine predicted indications; only renal tubular acidosis and postmenopausal osteoporosis have indirect (L4) physiological or observational evidence, and all remain at Hold
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

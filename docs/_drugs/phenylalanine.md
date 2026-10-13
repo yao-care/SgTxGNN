@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Phenylalanine
-parent: Medium Evidence (L3-L4)
-nav_order: 778
-evidence_level: L4
+parent: Low Evidence (L5)
+nav_order: 787
+evidence_level: L5
 indication_count: 10
 ---
 
 # Phenylalanine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,33 +29,33 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Phenylalanine: From Parenteral Amino Acid Nutrition to Sclerosing Cholangitis
+# Phenylalanine: From Parenteral Nutrition Amino Acid to Sclerosing Cholangitis
 
 ## One-Sentence Summary
 
-Phenylalanine is an essential amino acid. In Singapore it is registered as a component of amino acid infusion solutions for parenteral nutrition (inferred from product names, because the registry gives no indication text).
-The TxGNN model predicts it may be relevant to **sclerosing cholangitis**, but there are **0 clinical trials** and only **4 publications**, none of which show a treatment effect.
-This is a model-only signal that clinical data do not support.
+Phenylalanine is an essential amino acid used as a component of parenteral nutrition and amino acid infusion products.
+The TxGNN model predicts it may be effective for **sclerosing cholangitis**, but there are **no registered clinical trials** and only **3 publications**, none of which show a therapeutic effect.
+The prediction currently rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in registry data (registered products are amino acid infusion solutions) |
+| Original Indication | Not stated in the Singapore licence records (marketed in amino acid and parenteral nutrition infusion products) |
 | Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 99.43% |
-| Evidence Level | L4 |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 19 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, phenylalanine is part of multi-amino-acid infusion formulations, and it is an essential amino acid used for nutritional support. Any mechanistic link to sclerosing cholangitis is therefore speculative.
+Currently, detailed mechanism of action data is not available. Based on known information, phenylalanine is an essential amino acid supplied as part of multi-component amino acid infusions for parenteral nutrition. Its role as a nutrient is well established, but a mechanistic link to sclerosing cholangitis has not been identified.
 
-The literature does not support a treatment link. The most relevant paper (PMID 15790420) is an observational study relating plasma tyrosine, a phenylalanine metabolite, to fatigue in primary biliary cirrhosis and primary sclerosing cholangitis. That is a symptom-biomarker association, not evidence that giving phenylalanine helps. The other hits concern a bacterial chemotactic peptide (fMLP or fMLT) that contains phenylalanine or related residues. They are not about phenylalanine supplementation.
+The only relevant literature is an observational study of plasma tyrosine and fatigue in primary biliary cirrhosis and primary sclerosing cholangitis. It suggests aromatic amino acid metabolism is altered in cholestatic liver disease. This describes a disease-associated metabolic marker, not a therapeutic rationale. The other two papers (a cholangiocarcinoma serum metabolic signature and a bacterial peptide radioimmunoassay) do not address phenylalanine therapy.
 
-The high TxGNN score most likely reflects knowledge-graph connections through amino acid metabolism and liver or biliary pathways. It should be treated as a hypothesis-generating signal only.
+Other predicted indications are also weakly supported. These include congenital prothrombin deficiency, epiglottitis, hypophosphatemic rickets, laryngitis, cholecystolithiasis and diabetic nephropathy. For diabetic nephropathy, which has the most literature, elevated phenylalanine and altered phenylalanine/tyrosine metabolism are associated with worse outcomes. That signal points toward risk rather than benefit.
 
 ## Clinical Trial Evidence
 
@@ -65,39 +65,48 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [15790420](https://pubmed.ncbi.nlm.nih.gov/15790420/) | 2005 | Cohort | BMC Gastroenterology | Examined amino acid patterns and plasma tyrosine in relation to fatigue in PBC and PSC. This is a symptom-biomarker study, not a treatment study. |
-| [32025163](https://pubmed.ncbi.nlm.nih.gov/32025163/) | 2020 | Cohort | Journal of Clinical and Experimental Hepatology | Serum metabolomic profiling in cholangiocarcinoma versus benign hepatobiliary disease, aimed at early biomarkers. No therapeutic role for phenylalanine. |
-| [8000512](https://pubmed.ncbi.nlm.nih.gov/8000512/) | 1994 | Preclinical | Journal of Gastroenterology | Rectal fMLT induced small duct cholangitis in colitic rats, a PSC pathogenesis model. The peptide is not phenylalanine. |
-| [2103382](https://pubmed.ncbi.nlm.nih.gov/2103382/) | 1990 | Preclinical | Journal of Gastroenterology and Hepatology | Radioimmunoassay showing enterohepatic circulation of bacterial chemotactic peptides in humans. Unrelated to phenylalanine as a therapy. |
+| [15790420](https://pubmed.ncbi.nlm.nih.gov/15790420/) | 2005 | Cohort | BMC Gastroenterology | Examined the relation between plasma tyrosine and fatigue in primary biliary cirrhosis and primary sclerosing cholangitis; abnormal amino acid patterns were investigated as a marker of fatigue |
+| [32025163](https://pubmed.ncbi.nlm.nih.gov/32025163/) | 2020 | Cohort (metabolomic) | J Clin Exp Hepatol | Serum metabolic signature of cholangiocarcinoma versus benign hepatobiliary disease; a biomarker study, not a treatment study |
+| [2103382](https://pubmed.ncbi.nlm.nih.gov/2103382/) | 1990 | Basic research | J Gastroenterol Hepatol | Radioimmunoassay for a bacterial chemotactic peptide (fMLP) and its enterohepatic circulation; not about phenylalanine therapy |
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN16337P | Aminoven Solution for Infusion 15% | Infusion, solution | Not stated in registry data |
-| SIN11682P | Aminoven Solution for Infusion 5% | Injection | Not stated in registry data |
-| SIN11829P | Aminoven Solution for Infusion 10% | Injection | Not stated in registry data |
-| SIN06299P | Nephrosteril for Intravenous Infusion | Injection | Not stated in registry data |
-| SIN08352P | Aminoplasmal-15% Infusion | Injection | Not stated in registry data |
+| SIN16337P | AMINOVEN Solution for Infusion 15% | Infusion, solution | Not stated |
+| SIN11682P | AMINOVEN Solution for Infusion 5% | Injection | Not stated |
+| SIN11829P | AMINOVEN Solution for Infusion 10% | Injection | Not stated |
+| SIN06299P | NEPHROSTERIL for Intravenous Infusion | Injection | Not stated |
+| SIN08352P | AMINOPLASMAL-15% Infusion | Injection | Not stated |
+
+All 19 registrations are valid single-ingredient licences, mainly amino acid infusions and parenteral nutrition emulsions. Only the first five are listed here.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Package insert warnings and contraindications were not available for this report. Please refer to the package insert for safety information.
+
+- **Knowledge-graph contraindication signals (not label text)**: The TxGNN knowledge graph links phenylalanine to contraindications in several disease areas:
+  - Phenylketonuria and other disorders of phenylalanine metabolism
+  - Kidney disease, including chronic kidney disease, end-stage renal failure, nephrolithiasis and nephrocalcinosis
+  - Heart and cardiovascular disease, digitalis poisoning and ventricular fibrillation
+  - Hypercalcaemia (including humoral hypercalcaemia of malignancy), sarcoidosis and phosphorus metabolism disease
+
+  These signals need to be confirmed against official labelling.
+- **Drug interactions**: No interaction records were found.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The only support for sclerosing cholangitis is a high model score. No clinical trials exist, and the available papers are observational or preclinical and do not involve phenylalanine as a treatment. Evidence sits at L4 at best.
+The prediction has no clinical trials and no literature showing a therapeutic effect, so the evidence level is L5 (model prediction only). In diabetic nephropathy, the indication with the most literature, phenylalanine is associated with worse outcomes. Phenylalanine is also flagged in the knowledge graph as contraindicated in kidney disease, which may overlap with some of the predicted indications.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications, which are needed before any safety screening
-- Mechanism of action data (for example from DrugBank) to test whether a biological link to biliary disease exists
-- Registered indication text for the Singapore products, to confirm the original use
-- Preclinical or early clinical evidence that phenylalanine supplementation, rather than its level as a biomarker, affects cholestatic liver disease
-
-Of the other nine predictions, only diabetic nephropathy (rank 10) reaches L4. There, phenylalanine appears as a biomarker, and elevated levels may indicate risk, so it is a biomarker research question rather than a treatment candidate.
+- Package insert warnings and contraindications from the HSA website, required before any safety screening
+- Mechanism of action data (for example from DrugBank)
+- A plausible biological rationale linking phenylalanine to sclerosing cholangitis, supported by preclinical or mechanistic studies
+- Review of the knowledge-graph contraindications (especially renal and cardiac) against official labelling
+- Confirmation of the approved indications for the Singapore products, as the licence records contain none
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

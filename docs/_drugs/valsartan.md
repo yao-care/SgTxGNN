@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Valsartan
-parent: Low Evidence (L5)
-nav_order: 1044
-evidence_level: L5
+parent: Medium Evidence (L3-L4)
+nav_order: 1054
+evidence_level: L4
 indication_count: 10
 ---
 
 # Valsartan
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,73 +29,93 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Valsartan: From Its Registered Use to Malignant Hypertensive Renal Disease
+# Valsartan: From Hypertension to Malignant Hypertensive Renal Disease
 
 ## One-Sentence Summary
 
-Valsartan is an angiotensin II receptor blocker marketed in Singapore as film-coated tablets. The HSA records provided do not state its approved indication text.
-The TxGNN model predicts it may be effective for **malignant hypertensive renal disease**.
-Support is thin: **0 clinical trials** and **1 publication**, which tests a different drug class (avosentan, an endothelin antagonist) in rats.
+Valsartan is an angiotensin II receptor blocker originally used to treat hypertension.
+The TxGNN model predicts it may be effective for **malignant hypertensive renal disease**,
+but **no clinical trials** and only **1 indirect publication** (a preclinical study of a different drug) currently support this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Hypertension (hypertensive disorder) |
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 99.97% |
-| Evidence Level | L4 (preclinical only, not Valsartan-specific) |
+| Evidence Level | L4 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 20 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Valsartan is known to be an AT1 receptor blocker, so it blocks the renin-angiotensin-aldosterone system (RAAS). Blocking angiotensin II signalling is plausible in kidney injury caused by severe hypertension.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, valsartan belongs to the angiotensin II type 1 (AT1) receptor blocker class. Its efficacy in hypertension is established, and it is also known to lower blood pressure and protect the kidney.
 
-Angiotensin II is elevated in malignant hypertension. A related 2001 Circulation paper (PMID 11560862) reported that AT1 receptor blockade prevented lethal malignant hypertension, with a kidney inflammation component. That evidence is class-level and preclinical, and it is not specific to Valsartan. It has not been confirmed in humans. It was retrieved for a neighbouring prediction (malignant renovascular hypertension), not for this one.
+Malignant hypertension and its kidney injury are strongly driven by the renin-angiotensin system. Blocking the AT1 receptor is therefore mechanistically on target. The same reasoning applies to the second-ranked prediction, malignant renovascular hypertension, where preclinical work (PMID 11560862) suggests AT1 blockade can prevent lethal malignant hypertension in an animal model.
 
-The only paper retrieved for this indication studies avosentan, so it does not test Valsartan. The mechanistic link is therefore plausible but unproven for this drug and this disease.
+However, the only paper retrieved for the top prediction (PMID 24368192) studies avosentan, an endothelin antagonist, in rats. It does not test valsartan. The prediction is therefore biologically plausible but not directly supported by valsartan-specific data.
+
+Other predictions in the list are weaker. Chronic pulmonary heart disease (rank 6) has some indirect clinical data, mostly on the sacubitril/valsartan combination in heart failure. Pulmonary hypertension, Braddock syndrome, Prinzmetal angina, and the remaining predictions rest on prediction alone or on off-topic literature.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for malignant hypertensive renal disease.
+
+For reference, the only trial linked to any of the top-ranked predictions is for chronic pulmonary heart disease (rank 6), and it is only loosely relevant:
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT02966665](https://clinicaltrials.gov/study/NCT02966665) | Phase 1 | Recruiting | 420 | Exercise rehabilitation and vascular function in hypertension; does not directly test valsartan |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [24368192](https://pubmed.ncbi.nlm.nih.gov/24368192/) | 2014 | Preclinical (different drug class) | Pharmacological Research | Avosentan, an endothelin antagonist, protected against hypertensive nephropathy in double transgenic rats (human renin and angiotensinogen genes) at doses below those that cause fluid retention. It does not test Valsartan. |
+| [24368192](https://pubmed.ncbi.nlm.nih.gov/24368192/) | 2014 | Preclinical | Pharmacological Research | Avosentan (not valsartan) protected against hypertensive nephropathy in transgenic rats at doses that did not cause fluid retention |
+
+Related indirect evidence for the second-ranked prediction, malignant renovascular hypertension:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [11560862](https://pubmed.ncbi.nlm.nih.gov/11560862/) | 2001 | Preclinical | Circulation | AT1 receptor blockade prevented lethal malignant hypertension in an animal model, linked to reduced kidney inflammation |
 
 ## Singapore Market Information
 
-Showing 5 of 20 registrations.
+All 20 registrations are valid single-ingredient licences in oral film-coated tablet form. The approved indication text was not available for these licences. Five main authorizations:
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN11555P | DIOVAN TABLET 80 mg | Film-coated tablet | Siegfried Barbera S.L & Novartis Farma S.p.A |
-| SIN14139P | Valsartan Sandoz film coated tablet 80mg | Film-coated tablet | Siegfried Barbera S.L, Sandoz Private Limited (SPL) & Novartis Farma S.p.A |
-| SIN11554P | DIOVAN TABLET 160 mg | Film-coated tablet | Siegfried Barbera S.L. & Novartis Farma S.p.A. |
-| SIN17170P | CUBEREC 80 FILM-COATED TABLETS 80 MG | Film-coated tablet | Dr. Reddy's Laboratories Ltd. |
-| SIN16405P | VYTAN FILM-COATED TABLET 80 MG | Film-coated tablet | Duopharma Manufacturing (Bangi) Sdn. Bhd. |
-
-All registrations are oral film-coated tablets. The approved indication text is blank in the records provided.
+| SIN11555P | DIOVAN TABLET 80 mg | Film-coated tablet | Not available |
+| SIN11554P | DIOVAN TABLET 160 mg | Film-coated tablet | Not available |
+| SIN14139P | Valsartan Sandoz film coated tablet 80mg | Film-coated tablet | Not available |
+| SIN14140P | Valsartan Sandoz film coated tablet 160mg | Film-coated tablet | Not available |
+| SIN12011P | CO-DIOVAN 160/25 TABLET | Film-coated tablet | Not available |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindication-related conditions (from the knowledge graph, not label text)**: Conditions linked to valsartan as cautions include angioedema (including hereditary and RAAS-blocker-induced forms), liver disease and liver failure, hepatic encephalopathy, impaired renal function, anuria, renal artery obstruction, hypotensive disorder, diabetes mellitus and diabetic ketoacidosis, potassium deficiency disease, gout, hypercalcemia, hyperparathyroidism, neutropenia and agranulocytosis, systemic lupus erythematosus, pancreatitis, gallbladder disease, and neonatal jaundice. Of particular relevance to the predicted use, renal artery obstruction and impaired renal function are listed, so kidney safety needs careful evaluation.
+- **Drug Interactions**: 100 interactions were recorded. The main ones include:
+  - **Major**: potassium chloride and potassium bicarbonate (risk of raised potassium).
+  - **Moderate**: many insulin products, exenatide, hydrocortisone, eluxadoline, and polyethylene glycol 3350 with electrolytes.
+
+Please also refer to the package insert for the full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high, but no clinical trials exist and the single supporting paper tests a different drug in rats. Package insert safety data is also missing, which blocks safety screening. At this stage it is a research question, not an actionable candidate.
+The TxGNN score is very high (99.97%), and blocking the renin-angiotensin system is biologically sensible for malignant hypertensive kidney injury. However, no clinical trials exist, and the only retrieved paper tests a different drug in animals. Evidence is limited to L4 (mechanistic and preclinical). Valsartan's kidney-related cautions also require a safety evaluation.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications (download and parse the PDF from the HSA website)
-- Mechanism of action data from DrugBank
-- Valsartan-specific or ARB-class evidence in malignant hypertensive nephropathy, preclinical or clinical
-- Approved indication text for the Singapore registrations, to define the original indication and the gap to the new one
+- Valsartan-specific preclinical or clinical data in malignant hypertensive nephropathy
+- Detailed mechanism of action data
+- Package insert warnings and contraindications from the HSA, to enable safety screening
+- Approved indication text for the Singapore licences
+- A renal safety assessment (renal artery stenosis, impaired renal function, hyperkalaemia risk)
+- Consideration of chronic pulmonary heart disease as a secondary research question, since it has the most indirect clinical data (largely from sacubitril/valsartan)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

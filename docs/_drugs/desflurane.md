@@ -2,7 +2,7 @@
 layout: default
 title: Desflurane
 parent: Low Evidence (L5)
-nav_order: 310
+nav_order: 313
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,18 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Desflurane: From Inhalational General Anaesthesia to Nephrogenic Syndrome of Inappropriate Antidiuresis
+# Desflurane: From General Anaesthesia to Nephrogenic Syndrome of Inappropriate Antidiuresis
 
 ## One-Sentence Summary
 
-Desflurane is an inhalational anaesthetic, marketed in Singapore as Suprane, and used for general anaesthesia during procedures.
-The TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**,
-but **0 clinical trials** and **0 publications** currently support this direction, so it is a model prediction only.
+Desflurane is an inhaled volatile anaesthetic used to induce and maintain general anaesthesia (the approved indication text is not recorded in the Singapore licence data compiled for this report).
+The TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**, but there are **0 clinical trials** and **0 publications** supporting this prediction. The prediction is purely computational.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Inhalational general anaesthesia (drug class; the registration record has no indication text) |
+| Original Indication | Not recorded in the licence data (desflurane is a general inhalational anaesthetic) |
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 98.90% |
 | Evidence Level | L5 |
@@ -51,25 +50,11 @@ but **0 clinical trials** and **0 publications** currently support this directio
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on known pharmacology, desflurane is an inhalational anaesthetic that acts mainly on GABA-A, glycine, NMDA and K2P channels. Its efficacy in producing general anaesthesia is established.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, desflurane is a volatile anaesthetic that acts mainly by enhancing GABA-A receptor activity and modulating NMDA and K2P channels.
 
-NSIAD is a rare genetic condition caused by gain-of-function mutations in the AVPR2 gene. These mutations make the vasopressin V2 receptor constitutively active. Desflurane has no known effect on the vasopressin V2 pathway, so **no plausible mechanistic link was identified**.
+NSIAD is caused by gain-of-function mutations in the vasopressin V2 receptor (AVPR2), leading to inappropriate water retention and low blood sodium. Desflurane has no known activity at the V2 receptor, so there is no established mechanistic link between the drug and this disease. The high TxGNN score appears to be a graph-based association without supporting biology. The prediction should be treated as a hypothesis only.
 
-The high score (0.989, rank 11,286) reflects a graph-based association in the knowledge graph, not independent clinical or literature evidence. Desflurane is also a short-term, procedure-only agent, so chronic use for a chronic genetic disease is not practical.
-
-The other nine predictions in the top 10 are also L5, each with a Hold recommendation and no clinical trials:
-
-- Prinzmetal angina
-- Manic bipolar affective disorder
-- Tourette syndrome
-- Myositis fibrosa
-- Idiopathic granulomatous myositis
-- Trichotillomania
-- Tendinitis
-- Fibromyalgia
-- Myofascial pain syndrome
-
-Only tendinitis has a retrieved paper, and that paper is not relevant to it. Fibromyalgia has a weak theoretical link through NMDA receptor modulation.
+Other top-ranked predictions (Prinzmetal angina, manic bipolar disorder, Tourette syndrome, myositis, trichotillomania, tendinitis, fibromyalgia, myofascial pain syndrome) also have no supporting trials. For several of them, the nature of desflurane raises concerns rather than support: it is a short-acting, inhaled, hospital-only agent unsuited to chronic conditions, and it is a known trigger of malignant hyperthermia in susceptible muscle disease patients.
 
 ## Clinical Trial Evidence
 
@@ -77,41 +62,45 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-No literature directly supports the predicted indication. The only retrieved paper was attached to a different prediction (tendinitis, rank 8) and does not concern desflurane therapy.
+No literature was found for the top predicted indication (NSIAD). For the second-ranked prediction, Prinzmetal angina, one publication was retrieved, but it does not support a therapeutic benefit:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [18835973](https://pubmed.ncbi.nlm.nih.gov/18835973/) | 2008 | Case report | Canadian Journal of Anaesthesia | Peripheral nerve blockade in a patient with Charcot-Marie-Tooth disease. It concerns regional anaesthesia, not desflurane, and does not support any predicted indication. |
+| [20502771](https://pubmed.ncbi.nlm.nih.gov/20502771/) | 2010 | Case report | Rhinology | A patient with variant angina under desflurane anaesthesia developed ventricular tachycardia and cardiac arrest after submucosal epinephrine injection. This is a safety event, not evidence of benefit. |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN08818P | SUPRANE INHALATION ANAESTHETIC | Solution | Baxter Healthcare Corporation |
+| SIN08818P | SUPRANE INHALATION ANAESTHETIC (Baxter Healthcare Corporation) | Solution | Not recorded |
 
 ## Safety Considerations
 
-- **Malignant hyperthermia**: Desflurane is a known trigger, and caution is needed in patients with muscle disorders.
-- **Cardiovascular effects**: It can cause sympathetic activation and tachycardia, especially with rapid concentration increases. This is undesirable in ischaemic heart disease.
-- **Airway irritation**: This limits use outside supervised anaesthetic settings.
-- **Drug Interactions**: No records were found in the interaction query.
+- **Knowledge-graph contraindication signals** (from drug-disease links in the TxGNN knowledge graph, not from label text):
+  - Liver and biliary: liver disease, cirrhosis of liver, gallbladder disease, hepatitis B virus infection, hepatitis C virus infection
+  - Cardiovascular: coronary artery disease
+  - Neuromuscular and muscle: myasthenia gravis (including adult-onset), neuromuscular junction disease, neuromuscular disease, myopathy, Duchenne muscular dystrophy, Becker muscular dystrophy, muscular dystrophy, familial periodic paralysis, hypokalaemic periodic paralysis, periodic paralysis
+  - Anaesthesia-related: malignant hyperthermia of anaesthesia, exercise-induced malignant hyperthermia
+  - Neurological: pseudotumor cerebri, intracranial hypertension
+- **Drug Interactions** (10 recorded; main ones):
+  - **Major**: Epinephrine
+  - **Moderate**: Morphine, Opium, Codeine, Hydrocodone
+  - Interaction severity not classified: Omeprazole, Atropine, Ondansetron, Heparin, Lidocaine
 
-For warnings and contraindications, please refer to the package insert.
+For warnings and contraindications from the approved label, please refer to the package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a knowledge-graph score. No clinical trials or supportive literature exist, and there is no plausible link between desflurane and the AVPR2 gain-of-function mechanism. A short-term anaesthetic also cannot serve as a chronic treatment.
+The prediction rests only on a model score. There are no clinical trials or literature, and no biological link between desflurane and the vasopressin V2 receptor. Desflurane is also an inhaled, hospital-administered anaesthetic, which makes it impractical for a chronic condition such as NSIAD. Knowledge-graph contraindications (including malignant hyperthermia and muscle disease) add safety concerns for several other predicted indications.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- Preclinical or mechanistic evidence linking desflurane to the vasopressin V2 pathway
-- A feasible route and dosing concept for chronic use, which has not yet been assessed
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Mechanism of action data for desflurane, and any experimental evidence of effects on AVPR2 or renal water handling
+- Preclinical or mechanistic studies supporting a benefit in NSIAD
+- The approved indication and the package insert warnings and contraindications from the Singapore regulator (HSA)
+- Assessment of whether a practical route and dosing regimen could exist for any predicted chronic indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

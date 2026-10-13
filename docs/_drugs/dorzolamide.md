@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Dorzolamide
-parent: High Evidence (L1-L2)
-nav_order: 344
-evidence_level: L2
+parent: Low Evidence (L5)
+nav_order: 348
+evidence_level: L5
 indication_count: 10
 ---
 
 # Dorzolamide
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,12 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Dorzolamide: From Glaucoma / Ocular Hypertension to Primary Hereditary Glaucoma
+# Dorzolamide: From Open-Angle Glaucoma to Primary Hereditary Glaucoma
 
 ## One-Sentence Summary
 
-Dorzolamide is a topical carbonic anhydrase inhibitor eye drop used to lower intraocular pressure (IOP) in glaucoma, and it is also available in fixed combinations with timolol.
-The TxGNN model predicts it may be effective for **primary hereditary glaucoma**, with **1 clinical trial** and **0 publications** currently supporting this direction.
-The one trial studies paediatric glaucoma, so the prediction is best read as an extension within the glaucoma family, not a new disease area.
+Dorzolamide is a topical carbonic anhydrase inhibitor originally used to lower eye pressure in open-angle glaucoma and ocular hypertension.
+The TxGNN model predicts it may be effective for **primary hereditary glaucoma**, but there are currently **0 clinical trials** and **0 publications** for this specific condition, so the prediction rests on the model score and mechanistic reasoning alone.
 
 ---
 
@@ -43,10 +42,10 @@ The one trial studies paediatric glaucoma, so the prediction is best read as an 
 
 | Item | Content |
 |------|------|
-| Original Indication | Glaucoma / ocular hypertension (the Singapore licence records carry no indication text; this is inferred from the evidence pack's mechanism notes) |
+| Original Indication | Open-angle glaucoma; ocular hypertension |
 | Predicted New Indication | Primary hereditary glaucoma |
 | TxGNN Prediction Score | 99.99% |
-| Evidence Level | L2 |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 5 |
 | Recommended Decision | Hold |
@@ -55,23 +54,17 @@ The one trial studies paediatric glaucoma, so the prediction is best read as an 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the record. Based on known information, dorzolamide is a carbonic anhydrase inhibitor. It acts on carbonic anhydrase II in the ciliary body, reducing aqueous humour production and lowering IOP. Its efficacy in open-angle glaucoma and ocular hypertension is well established, and mechanistically it may be applicable to hereditary glaucoma.
+Detailed mechanism-of-action data for dorzolamide were not available in the data compiled for this report. Based on known pharmacology, dorzolamide inhibits carbonic anhydrase II in the ciliary body. This reduces aqueous humor secretion and lowers intraocular pressure (IOP). Pharmacology data also list carbonic anhydrase 1, 7, 12 and 14 as targets.
 
-Primary hereditary glaucoma is also a disease of raised eye pressure, so an IOP-lowering drop is a plausible fit. The ontology node overlaps with the approved glaucoma indication, which likely explains the very high score.
+Primary hereditary glaucoma is a genetically determined form of glaucoma in which elevated IOP drives optic nerve damage. Because the drug lowers IOP by reducing aqueous humor production, it is mechanistically plausible for this condition. The link is theoretical: the underlying cause of the hereditary form may differ from that of common open-angle glaucoma, and no study specific to this condition was found.
 
-The registered trial (NCT01527682) enrols children whose glaucoma was refractory to surgery. Children may differ from adults in systemic absorption, acidosis risk and response, so adult glaucoma data cannot simply be carried over.
-
-Other predictions in the list are weaker:
-- Open-angle glaucoma appears twice as separate ontology nodes. It is the on-label benchmark, supported by many Phase 3/4 trials, and should not be counted as a novel repurposing finding.
-- The hair-loss, heart failure, pulmonary heart disease and respiratory failure predictions have no plausible mechanism and no therapeutic evidence. They are probably graph artefacts and should be held.
+The model's other top-ranked predictions are not well supported. Most are hair-loss disorders (hypotrichosis, alopecia, alopecia areata), where no mechanistic link to carbonic anhydrase inhibition was identified. The two open-angle glaucoma predictions simply restate the drug's existing approved use. Of all the predictions, primary hereditary glaucoma is the most biologically coherent new indication.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01527682](https://clinicaltrials.gov/study/NCT01527682) | Phase 2 | Completed | 37 | Assesses the IOP-lowering effect and safety of latanoprost and dorzolamide in primary paediatric glaucoma refractory to surgery. Enrolment target was reduced during the study. No results are provided in the record. |
+Currently no related clinical trials registered.
 
 ---
 
@@ -83,21 +76,23 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN08880P | Trusopt Ophthalmic Solution 2% | Solution |
-| SIN14985P | Zolichek Eye Drops Solution 2% | Solution, sterile |
-| SIN14556P | Dorzolamide and Timolol Stada Eye Drops 20mg/5mg | Solution, sterile |
-| SIN15435P | Cosopt-S Ophthalmic Solution | Solution, sterile |
-| SIN14984P | Zolichek-T Eye Drops Solution | Solution, sterile |
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN08880P | TRUSOPT OPHTHALMIC SOLUTION 2% | Solution | Santen Pharmaceutical Co., Ltd. Noto Plant |
+| SIN14985P | ZOLICHEK EYE DROPS SOLUTION 2% | Solution, sterile | Indoco Remedies Limited |
+| SIN14556P | DORZOLAMIDE AND TIMOLOL STADA EYE DROPS 20MG/5MG | Solution, sterile | Famar S.A. |
+| SIN15435P | COSOPT-S OPHTHALMIC SOLUTION | Solution, sterile | Santen Pharmaceutical Co., Ltd. Noto Plant |
+| SIN14984P | ZOLICHEK-T EYE DROPS SOLUTION | Solution, sterile | Indoco Remedies Limited |
+
+All five registrations are currently valid. Approved indication text was not available for these products.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease associations flagged in the knowledge graph (not label text):** diabetes mellitus, diabetic ketoacidosis, myasthenia gravis and other neuromuscular junction diseases, hyperthyroidism (Graves disease, thyrotoxicosis), hypoglycemia, atrioventricular block, pulmonary emphysema and other bronchial disease, and anaphylaxis. Several of these are typical of beta-blocker components such as timolol in the combination products, so they may not apply to dorzolamide alone. They should be checked against the package insert.
 
-Consideration for this prediction: the target population is paediatric. Systemic absorption and acidosis with carbonic anhydrase inhibitors should be reviewed before any use in children.
+Please refer to the package insert for the authoritative warnings, contraindications and drug interaction information.
 
 ---
 
@@ -106,14 +101,14 @@ Consideration for this prediction: the target population is paediatric. Systemic
 **Decision: Hold**
 
 **Rationale:**
-Only one completed Phase 2 trial supports this prediction. It has no published results and no supporting literature, and it studies paediatric glaucoma, which may not match "primary hereditary glaucoma". The safety data gap (package insert warnings and contraindications) is a blocking item.
+The prediction score is high and the IOP-lowering mechanism is plausible for hereditary glaucoma. However, no trials or publications support this specific indication, so it is a model prediction only (L5). Dorzolamide is already marketed in Singapore for open-angle glaucoma and ocular hypertension, so the new indication adds value only if evidence shows benefit in hereditary forms.
 
 **To proceed, the following is needed:**
-- The HSA package insert, with warnings, contraindications and approved indication text
-- Published results of NCT01527682, and confirmation of whether its population is congenital or hereditary glaucoma
-- Paediatric safety review (systemic absorption, acidosis)
-- Mechanism of action data from DrugBank
-- Merging of the duplicate open-angle glaucoma ontology nodes and treating them as on-label benchmarks
+- A targeted literature search for dorzolamide or carbonic anhydrase inhibitors in primary congenital and juvenile hereditary glaucoma, including pediatric studies
+- The HSA package insert, to confirm warnings, contraindications and approved indications
+- Detailed mechanism of action data (MOA)
+- Clinical input on whether hereditary glaucoma subtypes respond to aqueous suppressants, and on pediatric safety
+- A prospective study design, if the clinical rationale holds
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

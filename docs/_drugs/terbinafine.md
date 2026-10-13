@@ -2,7 +2,7 @@
 layout: default
 title: Terbinafine
 parent: Low Evidence (L5)
-nav_order: 956
+nav_order: 966
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,36 +29,31 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Terbinafine: From Fungal Skin Infections to Creeping Myiasis
+# Terbinafine: From Tinea (Dermatophyte Skin Infections) to Creeping Myiasis
 
 ## One-Sentence Summary
 
-Terbinafine is an antifungal drug that works by blocking fungal ergosterol synthesis. The TxGNN model ranks **creeping myiasis**, a fly-larva skin infestation, as its top predicted new indication.
-This prediction has **0 clinical trials** and **0 publications** behind it, so it rests on the graph score alone.
+Terbinafine is an antifungal originally used for tinea infections such as tinea pedis, tinea corporis, tinea unguium and pityriasis versicolor.
+The TxGNN model predicts it may be effective for **creeping myiasis**, a skin infestation by fly larvae.
+**No clinical trials** and **no publications** currently support this prediction, and the plausibility of a real drug effect is very low.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the HSA licence records provided (terbinafine's established use is dermatophyte infections) |
+| Original Indication | Tinea pedis, tinea corporis, tinea unguium, pityriasis versicolor and other dermatophyte infections (the Singapore registry entries do not state approved indication text) |
 | Predicted New Indication | Creeping myiasis |
 | TxGNN Prediction Score | 96.74% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 8 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the record. Terbinafine inhibits fungal squalene epoxidase, which blocks ergosterol synthesis and kills susceptible fungi, mainly dermatophytes.
+It is not, based on the data compiled for this report. Detailed mechanism data is not available in the source record, but terbinafine is known to inhibit fungal squalene epoxidase, an enzyme in ergosterol synthesis. This depletes ergosterol and causes squalene to accumulate, which kills dermatophytes.
 
-Myiasis is an infestation by fly larvae, not a fungal infection. No plausible target or pathway links an antifungal to this disease. The score of 0.967 is not supported by any trial or literature record, so on mechanistic grounds this prediction is **not credible**.
-
-The same score (0.967) is shared by the related predictions furuncular myiasis and wound myiasis. The few papers linked to the myiasis predictions are not efficacy evidence:
-- One is a case report of a furuncle that did not respond to several drugs, terbinafine among them.
-- Others describe fungal infections (chromoblastomycosis) that happened to occur together with myiasis.
-
-These links are probably text-mining artifacts.
+Creeping myiasis is a parasitic infestation by fly larvae, which are arthropods. They have no ergosterol pathway and no relevant drug target. The two conditions are both skin diseases, which probably explains the graph similarity. The high score looks like an artifact of the knowledge graph, where myiasis subtypes score almost identically (96.74% for creeping, furuncular and wound myiasis). It is unlikely to be a real pharmacological signal.
 
 ## Clinical Trial Evidence
 
@@ -68,38 +63,49 @@ Currently no related clinical trials registered.
 
 Currently no related literature available.
 
+For context, the closely related myiasis predictions in the same output retrieved only two papers:
+- A diagnostic case report of furuncular myiasis in a boy whose lesion did not respond to several drugs, including terbinafine (PMID 25016125).
+- A case report of chromoblastomycosis with concurrent myiasis in a kidney transplant recipient (PMID 39081689).
+
+Neither shows a terbinafine benefit against myiasis.
+
 ## Singapore Market Information
 
-The record lists 8 registrations in total; 5 are shown below. None of the records include approved-indication text.
+Terbinafine has 8 valid single-ingredient registrations in Singapore (oral tablets, creams, a gel and a spray). The registry entries do not state approved indication text. Five main authorizations are listed below.
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
-|---------|------|------|-----------|
-| SIN06932P | LAMISIL TABLET 250 mg | Tablet, film coated | Novartis Pharma Produktions GmbH / Lek d.d. |
-| SIN16925P | FUNGIFEX TABLET 250MG | Tablet | Remedica Ltd |
-| SIN15413P | DERMAFIN CREAM 10MG/G | Cream | Y.S.P. Industries (M) Sdn. Bhd. |
-| SIN16896P | FINAB CREAM 1% W/W | Cream | Hovid Bhd. |
-| SIN15295P | SOLVEASY TINEA SPRAY 1% w/w | Spray | Ego Pharmaceuticals Pty Ltd |
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN06932P | Lamisil Tablet 250 mg | Tablet, film coated |
+| SIN16925P | Fungifex Tablet 250 mg | Tablet |
+| SIN07623P | Lamisil Cream 1% | Cream |
+| SIN10617P | Lamisil Dermgel 1% | Gel |
+| SIN15413P | Dermafin Cream 10 mg/g | Cream |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: 100 interactions are listed. The main ones are:
+  - Major: eliglustat.
+  - Moderate: morphine, naltrexone, ondansetron, dexfenfluramine, fenfluramine.
+  - Minor: cimetidine.
+  - The remaining entries have unclassified severity.
+- **Conditions flagged in the knowledge graph** (not taken from package insert text): kidney disease, liver disease, gallbladder disease, systemic lupus erythematosus (including pediatric), pyoureter and substance abuse/dependence. These need confirmation against the official package insert.
+
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top prediction (creeping myiasis) has no trials, no supporting literature and no plausible mechanism. The evidence level is L5 and the score alone does not justify further work.
-
-Other predictions in the same pack look stronger, but they appear to fall within terbinafine's existing antifungal use rather than being true repurposing:
-- **Tinea manuum** (L3, "Proceed with Guardrails"): a 1991 placebo-controlled clinical study of a 2-week oral course, plus case reports.
-- **Superficial mycosis** (L3, "Proceed with Guardrails"): one completed comparison with itraconazole in onychomycosis (NCT05578950, n=100, registry-labelled Phase 1), plus reviews.
-- **Cutaneous candidiasis** and **blastomycosis** (L4, "Research Question"): in vitro data, reviews and case reports only, with no trials.
+- There is no plausible mechanism, no trials and no supportive literature. The only retrieved papers are case reports that do not show efficacy.
+- The score of 96.74% reflects similarity within the knowledge graph rather than evidence of benefit. It does not justify moving this indication forward.
 
 **To proceed, the following is needed:**
-- The HSA package insert, to confirm approved indications, warnings and contraindications. Without it, safety screening cannot start, and it would also show whether tinea manuum and superficial mycosis are already on-label.
-- Detailed mechanism of action data (MOA) from DrugBank.
-- For any dermatophyte-related candidate: terbinafine-resistance awareness (resistant *T. indotineae* and Japanese isolates are reported) and liver-function monitoring.
+- Any direct experimental evidence (in vitro or in vivo) that terbinafine acts on fly larvae.
+- The package insert warnings and contraindications from the Singapore regulator, which were not available for this report.
+- Detailed mechanism of action data.
+
+**Alternative directions:** Other predictions from the same model have a much stronger rationale and are better candidates for further evaluation. These are tinea manuum and superficial mycosis, both at evidence level L3 and recommended "Proceed with Guardrails". They largely extend or restate terbinafine's existing antifungal use. Guardrails would include susceptibility testing because of emerging terbinafine-resistant dermatophytes, hepatic monitoring, and management of drug interactions.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

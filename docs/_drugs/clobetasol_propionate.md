@@ -2,7 +2,7 @@
 layout: default
 title: Clobetasol Propionate
 parent: Low Evidence (L5)
-nav_order: 265
+nav_order: 267
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,68 +29,79 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Clobetasol Propionate: From Corticosteroid-Responsive Dermatoses to Vulvar Inverted Follicular Keratosis
+# Clobetasol Propionate: From Atopic Eczema and Contact Dermatitis to Vulvar Inverted Follicular Keratosis
 
 ## One-Sentence Summary
 
-Clobetasol propionate is a super-potent topical corticosteroid. The Singapore registration records do not state its approved indications. The TxGNN model predicts it may be effective for **vulvar inverted follicular keratosis**, but there are currently **0 clinical trials** and **0 publications** supporting this direction, so it rests on model prediction alone.
+Clobetasol propionate is a super-potent topical corticosteroid, originally used for inflammatory skin conditions such as atopic eczema, contact dermatitis and seborrheic dermatitis.
+The TxGNN model predicts it may be effective for **vulvar inverted follicular keratosis**, but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration records (general use: corticosteroid-responsive skin conditions) |
+| Original Indication | Atopic eczema, contact dermatitis, seborrheic dermatitis and related inflammatory dermatoses (taken from the knowledge-graph indications, because the Singapore licence records carry no indication text) |
 | Predicted New Indication | Vulvar inverted follicular keratosis |
 | TxGNN Prediction Score | 99.46% |
-| Evidence Level | L5 |
+| Evidence Level | L5 (model prediction only) |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 13 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the source record. Based on general pharmacology, clobetasol is a potent glucocorticoid receptor agonist with anti-inflammatory, antiproliferative and vasoconstrictive effects. Its efficacy in inflammatory skin diseases is well established.
+Detailed mechanism-of-action text is not available for this report. The pharmacology data show that clobetasol propionate acts on the glucocorticoid receptor (NR3C1). Through this receptor, topical corticosteroids suppress inflammation, itching and cell proliferation in the skin, which is why clobetasol works in eczema and dermatitis.
 
-Potent topical steroids are commonly used for vulvar skin conditions, which may explain why the model links clobetasol to a vulvar lesion. However, inverted follicular keratosis is a benign keratinocytic lesion and is not primarily inflammatory. The mechanistic fit is therefore weak. The high score (0.995) most likely reflects a knowledge-graph association rather than a proven clinical link.
+The model likely links the new indication to seborrheic keratosis, one of the original indications. Inverted follicular keratosis is a benign epithelial lesion closely related to seborrheic keratosis. However, the link is weak mechanistically. Inverted follicular keratosis is a benign proliferation of keratinocytes, not an inflammatory disease, so an anti-inflammatory steroid has no clear reason to treat it. No trials or publications support topical clobetasol for the vulvar form. The high score therefore reflects similarity in the knowledge graph rather than demonstrated benefit.
+
+**Other predictions with more support (for context):**
+- **Psoriasis** (score 96.3%) has the strongest evidence, with many Phase 3 and Phase 4 trials and many reviews across spray, foam, shampoo, ointment and cream. However, psoriasis is already a labelled use of clobetasol products, so it is an established indication, not new repurposing.
+- **Exanthem** (score 99.3%) is supported mostly by trials in oral lichen planus, including one completed Phase 3 trial in vulvar lichen sclerosus. These do not directly cover exanthem.
+- **Acne keloidalis** (score 99.2%) has one small open-label study (20 patients, 2005) of clobetasol foam. This is limited but directly relevant.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for vulvar inverted follicular keratosis.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for vulvar inverted follicular keratosis.
 
 ## Singapore Market Information
 
-There are 13 registrations in total. The registration records do not include approved-indication text, so that column is omitted. Five main authorizations:
+There are 13 valid single-ingredient registrations and no cancelled ones. The licence records contain no approved-indication text. The main authorizations are listed below.
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
-|---------|------|------|-----------|
-| SIN13239P | CLOBEX SHAMPOO 0.05% | Shampoo | Laboratoires Galderma |
-| SIN06530P | MEDODERMONE OINTMENT 0.05% | Ointment | Medochemie Ltd |
-| SIN04933P | DERMOVATE OINTMENT 0.05% w/w | Ointment | Glaxo Wellcome Operations / Delpharm Poznan S.A. |
-| SIN07548P | UNIVATE CREAM 0.05% w/w | Cream | Xepa-Soul Pattinson (Malaysia) Sdn Bhd |
-| SIN08390P | TEMPOVATE CREAM 0.05% w/w | Cream | PT Tempo Scan Pacific |
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN13239P | Clobex Shampoo 0.05% | Shampoo |
+| SIN04933P | Dermovate Ointment 0.05% w/w | Ointment |
+| SIN04934P | Dermovate Cream 0.05% w/w | Cream |
+| SIN04499P | Dermovate Scalp Application 0.05% w/w | Lotion |
+| SIN07548P | Univate Cream 0.05% w/w | Cream |
+
+Other registered products include Medodermone (ointment and cream), Tempovate, Steriderm-S, Lobesol, Univate ointment, Clonovate and Dermosol. Topical dosage forms are therefore already available in Singapore.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Package insert warnings and contraindications were not available for this report. Please refer to the package insert for full safety information.
+
+**Contraindication signals from the knowledge graph (not label text):** hyperglycaemia, diabetes mellitus, diabetic ketoacidosis, adrenocortical insufficiency, Addison disease, glaucoma, skin atrophy, folliculitis, seborrheic dermatitis, and peripheral vascular or arterial disease (including intermittent claudication).
+
+Trial data from other indications point to two class concerns for a super-potent steroid. One is suppression of the adrenal (HPA) axis with prolonged or wide-area use, including in children. The other is skin atrophy, which matters on thin vulvar skin.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting trials or literature (L5), and the mechanistic fit for a non-inflammatory benign lesion is weak. The package insert safety data is also missing, so safety screening cannot start.
+The prediction rests on a model score alone (L5). It has no clinical trials or literature, and the mechanism is not convincing for a benign keratinocytic proliferation. The vulvar site also raises the risk of atrophy and systemic absorption with a super-potent steroid.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications (a blocking gap for safety screening)
-- Approved indications for the Singapore registrations, and detailed MOA data from DrugBank
-- A dermatology or gynaecology expert review of whether steroid therapy is clinically meaningful for this lesion
-- Any case-level or observational evidence for this specific disease
-
-**Note:** Among the other predictions for this drug, **psoriasis** (rank 10) has the strongest evidence, with many completed clobetasol trials including Phase 3 and Phase 4 studies. It is likely an existing use rather than true repurposing and should be verified against the label. It is worth evaluating separately.
+- Case series or clinical studies of topical clobetasol in biopsy-confirmed inverted follicular keratosis, or an expert dermatology and gynaecology review of whether treatment is warranted at all, since the lesion is benign
+- Package insert warnings and contraindications from the HSA records
+- Detailed mechanism-of-action data
+- Safety limits for vulvar use, such as duration, area and HPA-axis monitoring
+- Consideration of redirecting effort to better-supported candidates, such as acne keloidalis, where a small open-label study exists
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

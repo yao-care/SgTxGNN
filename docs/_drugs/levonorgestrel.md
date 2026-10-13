@@ -2,15 +2,15 @@
 layout: default
 title: Levonorgestrel
 parent: Medium Evidence (L3-L4)
-nav_order: 592
-evidence_level: L3
+nav_order: 598
+evidence_level: L4
 indication_count: 10
 ---
 
 # Levonorgestrel
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,86 +29,92 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Levonorgestrel: From Hormonal Contraception to Acne
+# Levonorgestrel: From Osteoporosis to Acne
 
 ## One-Sentence Summary
 
-Levonorgestrel is a progestin used in contraceptive products, and its three Singapore registrations are an emergency pill, a hormonal intrauterine system and a combined oral contraceptive. The TxGNN model predicts it may be effective for **acne**, with **5 clinical trials** and **20 publications** linked to this prediction. However, only one trial-type paper (a 2002 randomized study of an ethinyl estradiol/levonorgestrel pill) and a handful of reviews address acne directly. The evidence is also confounded, because the acne benefit of these pills probably comes from the estrogen component.
+Levonorgestrel is a progestin, best known as a contraceptive, and the knowledge graph lists postmenopausal osteoporosis and osteoporosis as its original indications.
+The TxGNN model predicts it may be effective for **acne**, but the **0 clinical trials** and **19 publications** compiled for this report (mostly narrative reviews) do not directly support this direction.
+This is a model-generated hypothesis only.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Contraception (inferred from the registered product types; the registration data supplies no indication text) |
-| Predicted New Indication | Acne |
+| Original Indication | Postmenopausal osteoporosis / osteoporosis (from the knowledge graph; the Singapore licence records contain no indication text) |
+| Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 99.88% |
-| Evidence Level | L3 |
+| Evidence Level | L4 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 3 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, levonorgestrel is a synthetic progestin used alone (emergency pill, intrauterine system) and in combination with ethinyl estradiol (combined oral contraceptive). Its efficacy in contraception is well established, and mechanistically it may be relevant to acne through hormonal effects on the skin's oil glands.
+Detailed mechanism of action data is not currently available. Levonorgestrel is a progestin used in oral contraceptives, emergency contraception, implants and intrauterine systems. Sex steroids influence bone turnover, which is the only link to the original osteoporosis indication.
 
-Acne is driven partly by androgens. Combined oral contraceptives can lower ovarian androgen production and raise sex hormone-binding globulin (SHBG), which reduces free androgens. This is why some contraceptive pills are used for acne in women.
+The mechanistic link to acne is weak. Levonorgestrel is derived from the 19-nortestosterone family and retains some androgenic activity, which could in principle worsen acne rather than treat it. Documented dermatological benefit comes mainly from combined contraceptives containing anti-androgenic progestins, such as chlormadinone acetate. One randomized, placebo-controlled trial (2002) tested a low-dose pill combining 20 µg ethinyl estradiol with 100 µg levonorgestrel in moderate acne. Any benefit there may come from the estrogen component and the combination, not from levonorgestrel alone. The high TxGNN score is therefore not supported by a plausible direct mechanism.
 
-The link to levonorgestrel specifically is weak. Any acne benefit from levonorgestrel-containing pills most likely comes from the ethinyl estradiol component. Levonorgestrel itself is a relatively androgenic progestin (PMID 7825629) and could worsen acne if given alone. The benefit is therefore probably a combination or class effect, not a levonorgestrel-specific one.
+---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00480532](https://clinicaltrials.gov/study/NCT00480532) | Not applicable | Completed | 131 | Continuous combined oral contraceptive plus doxycycline. The aim is to reduce unplanned bleeding; acne is mentioned only as another use of doxycycline. Whether levonorgestrel was the progestin is not confirmed, and no results are shown. |
-| [NCT05570786](https://clinicaltrials.gov/study/NCT05570786) | Phase 2 | Completed | 100 | Placebo-controlled study of a gestrinone implant for endometriosis pelvic pain. It shows no link to levonorgestrel and cannot count as evidence. |
-| [NCT00161226](https://clinicaltrials.gov/study/NCT00161226) | Not applicable | Terminated | 44 | Levonorgestrel intrauterine system for preventing endometrial cancer in women with high BMI. Acne is only mentioned as a side effect of oral progestins. |
-| [NCT05492487](https://clinicaltrials.gov/study/NCT05492487) | Phase 2 | Unknown | 60 | Mirena vs megestrol for fertility-sparing treatment of atypical endometrial hyperplasia in Singapore. Not an acne study. |
-| [NCT01650168](https://clinicaltrials.gov/study/NCT01650168) | Not applicable | Completed | 101,498 | Safety cohort comparing a nomegestrol/estradiol pill with levonorgestrel-containing pills. It is a safety outcome study, not an acne study. |
+Currently no related clinical trials registered for acne.
 
-None of these trials tests levonorgestrel for acne. The closest (NCT00480532) is graded only partially relevant.
+---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [12196750](https://pubmed.ncbi.nlm.nih.gov/12196750/) | 2002 | RCT | J Am Acad Dermatol | Randomized, placebo-controlled trial of a low-dose pill (20 µg ethinyl estradiol + 100 µg levonorgestrel) in moderate acne. The available abstract excerpt gives the rationale (lowering bioavailable androgens) but not the outcome. |
-| [15025547](https://pubmed.ncbi.nlm.nih.gov/15025547/) | 2004 | Drug review | Drugs | Ethinylestradiol/chlormadinone acetate was significantly more effective than ethinylestradiol/levonorgestrel 0.03/0.15 mg in mild-to-moderate papulopustular acne. Levonorgestrel was the weaker comparator. |
-| [6084924](https://pubmed.ncbi.nlm.nih.gov/6084924/) | 1984 | Clinical study | Acta Derm Venereol | 54 women with acne treated with ethinyl estradiol plus either desogestrel or levonorgestrel. The study tracked testosterone and SHBG changes over 6 months. |
-| [21895044](https://pubmed.ncbi.nlm.nih.gov/21895044/) | 2011 | Review | Am J Clin Dermatol | Dermatological benefits of ethinylestradiol/chlormadinone acetate in acne and other androgen-related skin conditions. It concerns a different progestin. |
-| [16796485](https://pubmed.ncbi.nlm.nih.gov/16796485/) | 2006 | Review | J Womens Health | Drospirenone's antiandrogenic properties may reduce acne and hirsutism, in contrast to progestins such as levonorgestrel. |
-| [7825629](https://pubmed.ncbi.nlm.nih.gov/7825629/) | 1995 | Review | Am J Med | Reviews the androgenicity of progestins. Levonorgestrel is a 19-carbon (androgen-derived) progestin, which argues against a levonorgestrel-specific acne benefit. |
+| [12196750](https://pubmed.ncbi.nlm.nih.gov/12196750/) | 2002 | Randomized, placebo-controlled trial | J Am Acad Dermatol | Tested an ethinyl estradiol 20 µg / levonorgestrel 100 µg pill in moderate acne; the abstract provided does not report the results, and the effect cannot be attributed to levonorgestrel alone |
+| [15025547](https://pubmed.ncbi.nlm.nih.gov/15025547/) | 2004 | Review | Drugs | Ethinylestradiol/chlormadinone acetate was significantly more effective than ethinylestradiol/levonorgestrel in mild-to-moderate papulopustular acne |
+| [21895044](https://pubmed.ncbi.nlm.nih.gov/21895044/) | 2011 | Review | Am J Clin Dermatol | Dermatological benefits of an anti-androgenic progestin combination for acne, hirsutism, seborrhea and hair loss |
+| [30088446](https://pubmed.ncbi.nlm.nih.gov/30088446/) | 2018 | Review | Curr Drug Targets | Molecular interactions of steroids in sebum production |
+| [7825629](https://pubmed.ncbi.nlm.nih.gov/7825629/) | 1995 | Review | Am J Med | Androgenicity of progestins, including 19-carbon progestins such as levonorgestrel |
+| [32909630](https://pubmed.ncbi.nlm.nih.gov/32909630/) | 2020 | Systematic review | Cochrane Database Syst Rev | Levonorgestrel-releasing intrauterine system for endometrial hyperplasia (not acne-related) |
+| [14688179](https://pubmed.ncbi.nlm.nih.gov/14688179/) | 2004 | Clinical study | Hum Reprod | Intrauterine levonorgestrel for symptomatic treatment of endometriosis (not acne-related) |
+| [11727177](https://pubmed.ncbi.nlm.nih.gov/11727177/) | 2001 | Review | Semin Reprod Med | Progestin-releasing intrauterine systems for contraception |
 
-The other papers linked to this prediction are general reviews of contraception, intrauterine systems and implants, and do not address acne.
+The remaining retrieved publications are general reviews of contraception (implants, IUDs, oral contraceptives) and are not specific to acne.
+
+---
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN11836P | Postinor 2 Tablet 0.75 mg | Tablet | Chemical Works of Gedeon Richter Plc |
-| SIN07915P | Mirena Levonorgestrel Intrauterine System 20 mcg/24 hr | Intrauterine device | Bayer Oy |
-| SIN04834P | Microgynon 30 Tablet | Tablet, sugar coated | Bayer Weimar GmbH & Co. KG |
+| SIN11836P | POSTINOR 2 TABLET 0.75 mg | Tablet | Not stated in the data compiled |
+| SIN07915P | MIRENA Levonorgestrel Intrauterine System 20 mcg/24 hr | Intrauterine device | Not stated in the data compiled |
+| SIN04834P | MICROGYNON 30 TABLET | Sugar-coated tablet | Not stated in the data compiled |
 
-The registration data does not include approved indication text.
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications (from the knowledge graph, not label text):** hypertension, epilepsy, anxiety and neurotic disorders, dysthymic disorder, porphyria, kidney disease, liver disease, gallbladder disease, hyperglycemia, diabetes mellitus and diabetic ketoacidosis, hypothyroidism, systemic lupus erythematosus, asthma, blood coagulation disease, hypertriglyceridemia, and hypercalcemia-related conditions.
+- **Drug Interactions:** 100 interactions were found. The 20 listed are all moderate severity. Main groups: glucose-lowering drugs (acarbose, canagliflozin, dapagliflozin, ertugliflozin, exenatide, liraglutide, linagliptin, nateglinide, and multiple insulins), plus aprepitant, clotrimazole, glycerol phenylbutyrate and linaclotide.
+- Package insert warnings were not available. Please refer to the package insert for full safety information.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-No trial tests levonorgestrel for acne, and the best supporting study (a 2002 randomized trial of an ethinyl estradiol/levonorgestrel pill) has no outcome shown in the available abstract. Any benefit is probably driven by ethinyl estradiol, and levonorgestrel is itself androgenic. The pack also lacks safety information from the Singapore package inserts, so the candidate cannot pass safety screening yet. Acne is the only prediction with real supporting literature.
-
-Among the other nine predictions, eight have no supporting trials or literature and are Hold at evidence level L5. The tenth, lactation disease, reaches L4 but reflects contraception studies in breastfeeding women, not a treatment benefit.
+The prediction rests on model output with no registered trials. The retrieved literature is mostly narrative reviews. Levonorgestrel's residual androgenicity argues against a direct anti-acne effect, and the only acne-specific evidence involves combination pills. Other predicted indications (ranks 2–10) have no efficacy evidence either. The lactation disease prediction is supported only by a contraceptive safety study, not by evidence of therapeutic benefit.
 
 **To proceed, the following is needed:**
-- Singapore package insert warnings and contraindications
-- Approved indication text for the three registrations
-- Mechanism of action data (for example from DrugBank)
-- The full results of the 2002 randomized trial (PMID 12196750), to check whether levonorgestrel-containing pills reduced acne lesions compared with placebo
-- A comparison against other pills for acne, to separate the ethinyl estradiol effect from any levonorgestrel effect
+- Package insert warnings and contraindications from the Singapore Health Sciences Authority (HSA), which are required for safety screening
+- Mechanism of action data
+- Review of the 2002 EE/levonorgestrel acne trial to separate the effect of levonorgestrel from that of ethinyl estradiol
+- Comparison with established anti-androgenic hormonal options for acne
+- Evidence that benefits outweigh the contraindications and interaction risks listed above
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

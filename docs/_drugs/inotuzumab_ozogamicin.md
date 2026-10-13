@@ -2,7 +2,7 @@
 layout: default
 title: Inotuzumab Ozogamicin
 parent: Low Evidence (L5)
-nav_order: 528
+nav_order: 532
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,17 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Inotuzumab ozogamicin: From Relapsed/Refractory B-Cell Leukaemia to Drug-Induced Osteoporosis
+# Inotuzumab ozogamicin: From B-Cell Acute Lymphoblastic Leukaemia to Drug-Induced Osteoporosis
 
 ## One-Sentence Summary
 
-Inotuzumab ozogamicin is a CD22-directed antibody-drug conjugate with a calicheamicin DNA-cleaving payload. It is a B-cell-targeted cancer drug, and the local record does not state its approved indication.
-The TxGNN model predicts it may be effective for **drug-induced osteoporosis**, but there are **0 clinical trials** and **0 publications** supporting this prediction.
-This is a model-only prediction with no plausible biological rationale.
+Inotuzumab ozogamicin is a CD22-directed antibody-drug conjugate (calicheamicin payload), marketed in Singapore as Besponsa. The TxGNN model predicts it may be effective for **drug-induced osteoporosis**, but **0 clinical trials** and **0 publications** specifically support this direction. The prediction rests on model output alone and has no plausible mechanistic link.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the local HSA data. The drug is a CD22-directed agent for B-cell malignancy (relapsed/refractory CD22-positive B-cell precursor acute lymphoblastic leukaemia, from general knowledge, not from the Evidence Pack) |
+| Original Indication | Relapsed or refractory CD22-positive B-cell precursor acute lymphoblastic leukaemia (from published literature; the Singapore licence record contains no indication text) |
 | Predicted New Indication | Drug-induced osteoporosis |
 | TxGNN Prediction Score | 98.24% |
 | Evidence Level | L5 |
@@ -51,11 +49,11 @@ This is a model-only prediction with no plausible biological rationale.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the record. Inotuzumab ozogamicin is a CD22-directed antibody-drug conjugate. CD22 is expressed on B-lineage cells, and the calicheamicin payload cleaves DNA to kill the targeted cells.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacological knowledge, inotuzumab ozogamicin is an anti-CD22 antibody linked to calicheamicin. After binding CD22 on B-cells, the complex is internalised and releases the payload, which causes double-strand DNA breaks and cell death.
 
-The prediction is **not** mechanistically supported. Bone-forming or anti-resorptive activity has no support for this drug. A cytotoxic agent would more likely harm bone marrow and bone health than protect it. The high TxGNN score reflects graph proximity in the knowledge graph, not a biological mechanism.
+The original indication is a B-cell malignancy that expresses CD22. Drug-induced osteoporosis is a bone-remodelling disorder with no connection to CD22-expressing cells. No mechanistic link could be identified.
 
-The other top-ranked predictions show the same pattern. They include several breast cancer subtypes, diabetic retinopathy, platelet and von Willebrand-type bleeding disorders, and a veterinary disease (infectious bovine rhinotracheitis). None has clinical trials, and none has a CD22-based rationale. Some are also unsafe for this drug: its cytopenias could worsen bleeding disorders, and its hepatotoxicity is a poor trade-off in a non-life-threatening eye condition. The breast cancer subtypes lack CD22 expression. Overall, the predictions look like knowledge-graph artefacts.
+The high score is most likely an artefact of the knowledge graph. The other top-10 predictions (several breast carcinoma subtypes, diabetic retinopathy, platelet and von Willebrand disorders, and a veterinary viral disease) are equally unsupported, which reinforces this conclusion. The drug's myelosuppression and thrombocytopenia would also argue against use in platelet-related conditions.
 
 ## Clinical Trial Evidence
 
@@ -63,44 +61,55 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for drug-induced osteoporosis.
 
-For the lower-ranked prediction "breast tumor luminal A or B", 19 publications were retrieved. All were keyword false positives on "B" (B-cell biology, hepatitis B vaccines, B-cell lymphoma). None concerns breast cancer or bone health, and they do not support any predicted indication.
+Note: the literature retrieved by drug name for a lower-ranked prediction (luminal A/B breast tumour) concerned inotuzumab ozogamicin in B-cell acute lymphoblastic leukaemia, not breast cancer. These papers support the approved indication only. Examples include:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [30920645](https://pubmed.ncbi.nlm.nih.gov/30920645/) | 2019 | Phase 3 RCT | Cancer | Final INO-VATE results: inotuzumab ozogamicin vs standard-of-care chemotherapy in relapsed/refractory B-ALL, with long-term survival follow-up |
+| [41026957](https://pubmed.ncbi.nlm.nih.gov/41026957/) | 2025 | Clinical trial | J Clin Oncol | Inotuzumab followed by blinatumomab in older adults with newly diagnosed B-ALL (chemotherapy-free regimen) |
+| [37187201](https://pubmed.ncbi.nlm.nih.gov/37187201/) | 2023 | Phase 2 | Lancet Haematol | Mini-hyper-CVD plus inotuzumab, with or without blinatumomab, in older patients with Ph-negative B-ALL |
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN15747P | BESPONSA Powder for Concentrate for Solution for Infusion 1 mg/vial (Wyeth Pharmaceutical Division of Wyeth Holding LLC) | Powder, for solution | Not stated in the local record |
+| SIN15747P | BESPONSA Powder for Concentrate for Solution for Infusion 1 mg/vial | Powder, for solution | Not stated in the licence record |
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Antibody-drug conjugate with a cytotoxic payload (calicheamicin, a DNA-cleaving agent) |
-| Myelosuppression Risk | Cytopenias and thrombocytopenia are recognised main toxicities. Please refer to the package insert for incidence details |
+| Cytotoxicity Classification | Antibody-drug conjugate with a cytotoxic calicheamicin payload (targeted cytotoxic therapy) |
+| Myelosuppression Risk | High (myelosuppression and thrombocytopenia are expected with this class) |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Complete blood count with platelets, liver function (hepatotoxicity including veno-occlusive disease is a known risk) |
-| Handling Protection | Follow local cytotoxic drug handling regulations |
+| Monitoring Items | CBC (with differential and platelets), liver function (hepatotoxicity, including veno-occlusive disease, is a recognised risk) |
+| Handling Protection | Handle according to cytotoxic drug handling regulations |
 
 ## Safety Considerations
 
-- **Drug Interactions**: No interaction records were found in the queried database.
-- **Other risks**: Known risks include hepatotoxicity (including veno-occlusive disease), cytopenias and thrombocytopenia.
+- **Drug Interactions**: The interaction screen returned 100 interacting drugs in total; 20 are listed in the data compiled for this report. Most are Moderate and a few are Major:
+  - **Major**: dolasetron, cisapride
+  - **Moderate** (examples): famotidine, loperamide, clarithromycin, levofloxacin, granisetron, palonosetron, bisacodyl, lactulose, polyethylene glycol, magnesium citrate and magnesium hydroxide
+  - **Minor**: metronidazole
 
-Please refer to the package insert for warnings and contraindications.
+  Several of these (for example dolasetron, cisapride, clarithromycin, levofloxacin and the 5-HT3 antagonists) are commonly associated with QT prolongation, so the interaction list should be reviewed against the full label.
+
+For warnings and contraindications, please refer to the package insert, as the data compiled for this report did not include label text.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a graph-based model score. There are no clinical trials or literature, and no plausible mechanism links a CD22-directed cytotoxic conjugate to osteoporosis. The drug's toxicity profile makes benefit-risk unfavourable for this indication.
+The prediction is computational only (L5), with no clinical trials or literature, and no biological link between a CD22-targeted cytotoxic conjugate and bone remodelling. The drug's toxicity profile (myelosuppression, hepatotoxicity) also makes repurposing for a non-malignant condition unattractive.
 
 **To proceed, the following is needed:**
-- HSA package insert (warnings, contraindications, approved indication), which is required before any safety screening
-- Mechanism of action data from DrugBank
-- Any preclinical or clinical signal linking the drug to bone metabolism. Without one, this candidate should not advance.
+- Package insert warnings and contraindications from the HSA record (currently missing, and a blocking gap for safety screening)
+- Mechanism of action data confirmed from a primary source
+- Any mechanistic or preclinical evidence linking CD22 biology or calicheamicin to bone metabolism (none identified so far)
+- Review of other predictions, as none of the top 10 has supporting evidence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

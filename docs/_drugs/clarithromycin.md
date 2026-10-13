@@ -2,7 +2,7 @@
 layout: default
 title: Clarithromycin
 parent: Low Evidence (L5)
-nav_order: 257
+nav_order: 259
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,21 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Clarithromycin: From Antibacterial Use (Registered Indication Not Listed) to Polyclonal Hyperviscosity Syndrome
+# Clarithromycin: From Respiratory and Bacterial Infections to Polyclonal Hyperviscosity Syndrome
 
 ## One-Sentence Summary
 
-Clarithromycin is a macrolide antibiotic that is marketed in Singapore, but the supplied registration records do not list an approved indication.
-The TxGNN model predicts it may be effective for **polyclonal hyperviscosity syndrome**,
-but there are currently **0 clinical trials** and **0 publications** for this disease, so the prediction rests on the model alone.
+Clarithromycin is a macrolide antibiotic, originally used for bacterial infections such as pneumonia, sinusitis, otitis media and staphylococcal or streptococcal infections.
+The TxGNN model predicts it may be effective for **polyclonal hyperviscosity syndrome**, with a very high score.
+However, there are currently **0 clinical trials** and **0 publications** supporting this specific prediction, so it rests on model output alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not listed in the supplied registration data |
+| Original Indication | Bacterial infections (otitis media, pneumonia, sinusitis, staphylococcal and streptococcal infections, Mycoplasma and Chlamydia pneumonia). The registration records contain no indication text, so this comes from the knowledge graph used by the model. |
 | Predicted New Indication | Polyclonal hyperviscosity syndrome |
 | TxGNN Prediction Score | 99.35% |
 | Evidence Level | L5 |
@@ -49,53 +51,79 @@ but there are currently **0 clinical trials** and **0 publications** for this di
 | Number of Registrations | 20 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Clarithromycin is a macrolide antibiotic, and its efficacy in bacterial infections is well established. However, no mechanism linking it to polyclonal hyperviscosity syndrome can be identified from the data provided.
+Currently, detailed mechanism of action data is not available. Clarithromycin is a macrolide antibiotic whose efficacy in bacterial infections is well established. Mechanistically, any benefit in polyclonal hyperviscosity syndrome would be speculative and might relate to immunomodulation.
 
-The graph-derived link behind the 99.35% score cannot be interpreted from the available data. No trials or publications support it. It should be treated as a model signal only, not as a mechanistic argument.
+No trial, publication or plausible mechanism links clarithromycin to this condition. The high score alone is not enough to support a clinical hypothesis.
+
+**Better-supported alternative in the same prediction list:** among the other predictions, **monoclonal gammopathy** (score 98.81%, evidence level L2) has the strongest support.
+- A completed Phase II trial tested clarithromycin (Biaxin) plus DHEA in monoclonal gammopathy of undetermined significance.
+- Many publications describe clarithromycin combined with lenalidomide, thalidomide or pomalidomide and dexamethasone in multiple myeloma and Waldenström's macroglobulinemia.
+- Proposed mechanisms include autophagy inhibition and immunomodulation.
+- Most of these data come from combination regimens in symptomatic myeloma, so clarithromycin's independent contribution is hard to separate.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for polyclonal hyperviscosity syndrome.
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for polyclonal hyperviscosity syndrome.
+
+---
 
 ## Singapore Market Information
 
-There are 20 registrations in total; the 5 main ones are listed below. Dosage forms across all registrations also include injection powder for solution and extended-release tablets.
+Clarithromycin has 20 valid single-ingredient registrations in Singapore and none are cancelled. Five main ones are listed below. The registration records contain no approved-indication text, so that column is omitted.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN12333P | CLARI TABLET 500 mg | Film-coated tablet | Not listed in supplied data |
-| SIN11756P | K-MYCIN F.C. TABLET 250 mg | Film-coated tablet | Not listed in supplied data |
-| SIN15535P | CLARIMYCIN FILM COATED TABLET 500MG | Film-coated tablet | Not listed in supplied data |
-| SIN15756P | CLARIWIN 500 FILM COATED TABLET 500MG | Film-coated tablet | Not listed in supplied data |
-| SIN09354P | KLACID GRANULES FOR ORAL SUSPENSION 125 mg/5 ml | Granules for oral suspension | Not listed in supplied data |
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN07085P | KLACID TABLET 250 mg | Film-coated tablet |
+| SIN09193P | KLACID FORTE TABLET 500 mg | Film-coated tablet |
+| SIN09884P | KLACID MR TABLET 500 mg | Extended-release tablet |
+| SIN09119P | KLACID IV FOR INJECTION 500 mg/vial | Powder for solution for injection |
+| SIN09354P | KLACID GRANULES FOR ORAL SUSPENSION 125 mg/5 ml | Granules for suspension |
+
+Oral tablets, extended-release tablets, oral suspension granules and an intravenous injection are all available.
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindication-related conditions (from the knowledge graph, not label text):**
+  - Cardiac: long QT syndrome, torsades de pointes, ventricular tachycardia (including catecholaminergic and infant forms)
+  - Liver and biliary: liver failure, liver disease, cholestasis (including benign recurrent and familial intrahepatic forms), gallbladder disease
+  - Metabolic: inherited porphyria and other porphyrias
+  - Neuromuscular: myasthenia gravis and neuromuscular junction disease
+  - Other: kidney disease, *Clostridium difficile* colitis, perinatal necrotizing enterocolitis, osteoporosis and bone fracture, infectious mononucleosis and chronic Epstein-Barr virus infection syndrome
+- **Drug interactions:** 100 interactions are recorded and 20 are reviewed here.
+  - **Major:** abemaciclib, fentanyl, acalabrutinib
+  - **Moderate:** paclitaxel, tramadol, nifedipine, adenosine, afatinib, ethinylestradiol, hydrocortisone, formoterol, famotidine, acarbose, flunisolide, abametapir (topical), abiraterone, trastuzumab emtansine
+  - **Minor:** dolutegravir, zidovudine, loratadine
+
+Please refer to the package insert for official warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction for polyclonal hyperviscosity syndrome is model-only (L5), with no trials, no literature and no identified mechanism.
-
-Among the other predicted indications, **monoclonal gammopathy** (rank 7, L2) has the most supporting evidence. It has a completed Phase 2 trial (NCT00006219, clarithromycin plus DHEA) and many studies in multiple myeloma and Waldenström macroglobulinemia. These studies used clarithromycin combined with thalidomide, lenalidomide or pomalidomide plus dexamethasone. Its standalone effect is therefore uncertain. One Phase 3 randomized trial (PMID 34021118) tested adding clarithromycin to lenalidomide and dexamethasone. Its abstract, as supplied, is truncated at the point where results begin ("no significant dif…"). That evidence concerns symptomatic myeloma, not the polyclonal hyperviscosity syndrome assessed here, and it should not be transferred to this indication. Punctate epithelial keratoconjunctivitis (rank 4) has one indirect 2024 paper. The other candidates are prediction-only or coincidental case reports.
+The predicted indication of polyclonal hyperviscosity syndrome has a high model score, but no clinical trials, no literature and no identifiable mechanism. Clarithromycin is widely marketed in Singapore, but market availability does not support efficacy for this condition.
 
 **To proceed, the following is needed:**
-- Disease-specific evidence (trials or literature) for polyclonal hyperviscosity syndrome
-- Mechanism of action data for clarithromycin and a plausible link to this condition
-- Singapore package insert (warnings, contraindications and approved indications), which the supplied data lack
-- A CYP3A4 drug-interaction review, since the interaction query returned no results, which likely reflects a data gap rather than absence of interactions
-- If the team wants to pursue the best-supported direction, a separate evaluation of monoclonal gammopathy (rank 7)
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Mechanism of action data and a plausible biological link to hyperviscosity syndrome
+- Any preclinical or clinical evidence specific to this condition
+- The package insert warnings and contraindications for Singapore-registered products
+- A review of monoclonal gammopathy as a priority candidate, including the results of the completed Phase II trial [NCT00006219](https://clinicaltrials.gov/study/NCT00006219). Its enrollment and outcomes are not available in the data compiled for this report.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

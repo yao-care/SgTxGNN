@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Chloramphenicol
-parent: Low Evidence (L5)
-nav_order: 234
-evidence_level: L5
+parent: Medium Evidence (L3-L4)
+nav_order: 236
+evidence_level: L3
 indication_count: 10
 ---
 
 # Chloramphenicol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,83 +29,92 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Chloramphenicol: Conjunctivitis as a Predicted Indication (Largely Confirmation of Existing Use)
+# Chloramphenicol: From Typhoid Fever to Conjunctivitis
 
 ## One-Sentence Summary
 
-Chloramphenicol is a broad-spectrum antibiotic already marketed in Singapore as ear drops and eye drops.
-The TxGNN model predicts it may be effective for **conjunctivitis**, which is closer to confirming an established topical use than to true repurposing.
-Support comes from **0 registered clinical trials** and **18 publications**, including **3 randomised controlled trials**.
+Chloramphenicol is a broad-spectrum antibiotic originally used for systemic bacterial and rickettsial infections such as typhoid fever, meningitis and typhus.
+The TxGNN model predicts it may be effective for **conjunctivitis**, with **no registered clinical trials** and **20 publications** (mostly reviews and older comparative studies) currently supporting this direction.
+Topical chloramphenicol for bacterial conjunctivitis is already established clinical practice in some countries, so this is closer to an existing use than true repurposing.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Typhoid fever, salmonellosis, paratyphoid fever, meningococcal infection, streptococcal meningitis, and other infections (the Singapore licence records contain no indication text) |
 | Predicted New Indication | Conjunctivitis |
 | TxGNN Prediction Score | 99.66% |
-| Evidence Level | L1 (based on published RCTs only; no registered trials) |
+| Evidence Level | L3 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 3 |
 | Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
 
-Chloramphenicol is a bacteriostatic antibiotic that inhibits the bacterial 50S ribosomal peptidyl transferase, which blocks protein synthesis. Bacterial conjunctivitis is a superficial eye infection, so the drug's mechanism fits the disease directly.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, chloramphenicol is a broad-spectrum, bacteriostatic antibiotic that inhibits bacterial protein synthesis by binding the 50S ribosomal subunit.
 
-Topical ophthalmic chloramphenicol is a long-established use. It is widely prescribed for conjunctivitis in the UK but rarely in the U.S. (PMID 8800624). The prediction therefore mostly confirms an existing use.
+Its original indications are bacterial and rickettsial infections, including several that involve mucosal and ear/skin sites (otitis externa, skin infections). Bacterial conjunctivitis is a superficial infection of the eye, so the same antibacterial activity is directly relevant. The supplied literature notes that topical chloramphenicol is widely used for conjunctivitis in the UK, though rarely prescribed for it in the U.S.
 
-Because the registry records list no approved indications, the drug's original indication cannot be stated from this data. Two Singapore products are eye drops or ear drops, consistent with topical use.
+The Singapore registrations are for ear drops and an eye drop product (0.5%), which means a topical ocular form is already available locally.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for conjunctivitis.
 
 ## Literature Evidence
 
+Selected publications (no RCTs were identified; reviews and comparative studies are prioritised):
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [3300139](https://pubmed.ncbi.nlm.nih.gov/3300139/) | 1987 | RCT | Acta Ophthalmol | Bacterial conjunctivitis in Tanzania: success rate 93% for fusidic acid, 74% for framycetin and 48% for chloramphenicol. In vitro resistance was higher for chloramphenicol. |
-| [3554881](https://pubmed.ncbi.nlm.nih.gov/3554881/) | 1987 | RCT | Acta Ophthalmol | Clinical success 84% for fusidic acid vs 81% for chloramphenicol. Trivial side effects such as stinging occurred in 14% vs 5%. |
-| [17947266](https://pubmed.ncbi.nlm.nih.gov/17947266/) | 2007 | RCT | Br J Ophthalmol | Equivalency trial of 2.5% povidone-iodine drops vs chloramphenicol for preventing neonatal conjunctivitis in a trachoma-endemic area of Mexico. |
-| [6188739](https://pubmed.ncbi.nlm.nih.gov/6188739/) | 1983 | Randomised double-blind trial | J Antimicrob Chemother | 230 patients with presumptive bacterial conjunctivitis. All preparations, including chloramphenicol, were effective with very few adverse effects. |
-| [8333258](https://pubmed.ncbi.nlm.nih.gov/8333258/) | 1993 | Comparative clinical study | Acta Ophthalmol | Fusidic acid drops vs chloramphenicol in acute conjunctivitis. No significant difference in response or bacteriological findings. |
-| [11952486](https://pubmed.ncbi.nlm.nih.gov/11952486/) | 2002 | Comparative clinical study | Acta Ophthalmol Scand | Fusidic acid vs chloramphenicol drops in neonates with suspected bacterial conjunctivitis. |
-| [38511104](https://pubmed.ncbi.nlm.nih.gov/38511104/) | 2024 | Comparative clinical study | Curr Ther Res | Moxifloxacin vs chloramphenicol for bacterial eye infections. Chloramphenicol is used mainly topically because of its known toxicity. |
-| [16378567](https://pubmed.ncbi.nlm.nih.gov/16378567/) | 2005 | Systematic review / meta-analysis | Br J Gen Pract | Cochrane update on topical antibiotics for acute bacterial conjunctivitis, testing whether earlier findings apply in primary care. |
-| [32959365](https://pubmed.ncbi.nlm.nih.gov/32959365/) | 2020 | Systematic review | Cochrane Database Syst Rev | Interventions for preventing ophthalmia neonatorum (neonatal conjunctivitis). |
-| [8800624](https://pubmed.ncbi.nlm.nih.gov/8800624/) | 1996 | Review | Drug Saf | Whether topical ocular chloramphenicol is linked to aplastic anaemia remains controversial. |
+| [32959365](https://pubmed.ncbi.nlm.nih.gov/32959365/) | 2020 | Review (Cochrane) | Cochrane Database Syst Rev | Interventions for preventing ophthalmia neonatorum (neonatal conjunctivitis) |
+| [11270936](https://pubmed.ncbi.nlm.nih.gov/11270936/) | 2001 | Review | Drugs | Comparative review of 16 topical ophthalmic antibacterial preparations |
+| [38511104](https://pubmed.ncbi.nlm.nih.gov/38511104/) | 2024 | Comparative study | Curr Ther Res | Moxifloxacin compared with chloramphenicol for bacterial eye infections |
+| [8800624](https://pubmed.ncbi.nlm.nih.gov/8800624/) | 1996 | Review | Drug Safety | Debate over a possible link between ocular chloramphenicol and aplastic anaemia |
+| [7498557](https://pubmed.ncbi.nlm.nih.gov/7498557/) | 1995 | Review | Eye | Appropriate use and misuse of topical chloramphenicol |
+| [25833086](https://pubmed.ncbi.nlm.nih.gov/25833086/) | 2015 | Review | Clin Exp Ophthalmol | Concerns about over-the-counter chloramphenicol |
+| [3300139](https://pubmed.ncbi.nlm.nih.gov/3300139/) | 1987 | Randomized comparison (open) | Acta Ophthalmol | In Tanzania, fusidic acid had a higher clinical success rate (93%) than chloramphenicol (48%) and framycetin (74%) in acute conjunctivitis |
+| [3554881](https://pubmed.ncbi.nlm.nih.gov/3554881/) | 1987 | Randomized comparison (single-blind) | Acta Ophthalmol | Clinical success of 81% with chloramphenicol vs 84% with fusidic acid in purulent conjunctivitis; more trivial local side effects with chloramphenicol |
+| [7153511](https://pubmed.ncbi.nlm.nih.gov/7153511/) | 1982 | Clinical/laboratory study | J Hyg | Chloramphenicol drops delayed and reduced signs of chlamydial neonatal conjunctivitis, but 85% of treated infants remained culture-positive |
+| [22186318](https://pubmed.ncbi.nlm.nih.gov/22186318/) | 2012 | Experimental | Pak J Pharm Sci | Chloramphenicol niosomes compared with 0.5% eye drops in experimental conjunctivitis in rabbits |
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN00230P | CHLORAMPHENICOL EAR DROPS 5% w/v | Solution | Not listed in registry record |
-| SIN04574P | CHLORAMPHENICOL EAR DROPS 5% w/v | Solution | Not listed in registry record |
-| SIN00231P | XEPANICOL EYE DROPS 0.5% | Solution | Not listed in registry record |
+| SIN00230P | Chloramphenicol Ear Drops 5% w/v | Solution | Not stated in the licence record |
+| SIN04574P | Chloramphenicol Ear Drops 5% w/v | Solution | Not stated in the licence record |
+| SIN00231P | Xepanicol Eye Drops 0.5% | Solution | Not stated in the licence record |
+
+## Cytotoxicity
+
+Chloramphenicol is an antibacterial, not an antineoplastic drug, so this section does not apply.
 
 ## Safety Considerations
 
-- **Haematological risk (from literature)**: A possible link between topical ocular chloramphenicol and aplastic anaemia has been debated for decades (PMID 8800624) and needs safety review.
-- **Local tolerability (from literature)**: Stinging and local discomfort were reported more often with chloramphenicol than with fusidic acid (14% vs 5%, PMID 3554881).
-- **Drug interactions**: No interactions were found in the queried database.
+- **Contraindications / conditions of concern** (from the drug-disease knowledge graph, not from label text): kidney disease, liver disease, gallbladder disease, peripheral neuropathy, optic neuritis, acute intermittent porphyria, and a range of blood disorders, namely anaemia, aplastic anaemia, thrombocytopenia, agranulocytosis, neutropenia (including congenital forms), and paroxysmal nocturnal haemoglobinuria.
+- **Literature-based concerns**: the possible link between ocular chloramphenicol and aplastic anaemia remains debated, and over-the-counter misuse has been raised as a concern.
+- **Drug Interactions** (100 interactions recorded; examples):
+  - **Major**: cisapride, naloxegol
+  - **Moderate**: sulfonylurea antidiabetics (glimepiride, glipizide, glyburide, chlorpropamide, acetohexamide), repaglinide, saxagliptin, simvastatin, rosuvastatin, metronidazole, aprepitant, budesonide, iron, eliglustat, nitisinone, balsalazide, naldemedine
 
-Please refer to the package insert for warnings and contraindications.
+Package insert warnings were not available for this review; please refer to the package insert for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Several published RCTs and comparative studies support chloramphenicol drops for bacterial conjunctivitis, and the mechanism fits directly. However, there are no registered trials, newer comparators such as moxifloxacin exist, and the aplastic anaemia concern remains unresolved.
-
-The other nine TxGNN predictions (diffuse scleroderma, chronic rhinosinusitis and others) have no credible mechanistic or clinical support. The literature hits for scleroderma and rhinosinusitis are probably artefacts of chloramphenicol's use as a laboratory reporter or culture reagent. These remain on **Hold**.
+Topical chloramphenicol for bacterial conjunctivitis is established practice, and the Singapore market already has an eye drop product. The evidence is limited to reviews and older comparative studies (L3), with no registered trials, and efficacy in some studies was equal or inferior to alternatives. Haematological safety concerns call for guardrails.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications, which are currently missing and are a blocking gap for safety screening
-- Confirmation of the approved indications for the eye-drop product (SIN00231P)
-- A formal safety review of the aplastic anaemia signal for topical ocular use
-- Local antibiotic-resistance surveillance data to guide use
-- Detailed mechanism-of-action data from DrugBank
+- Singapore package insert warnings and contraindications for the eye drop product, plus the approved indication text, which is missing from the licence records
+- Mechanism of action data from DrugBank
+- Confirmation of the approved ocular indication for SIN00231P
+- Guardrails for use: topical-only use, short courses, and a screening for history of blood disorders or bone marrow suppression
+- Review of current local resistance patterns and comparison with alternative topical antibiotics
+
+**Other predicted indications (not recommended at this time, Hold):** diffuse scleroderma, postinfectious vasculitis, post-bacterial disorder, post-infectious syndrome, infective urethral stricture, Chagas cardiomyopathy, infection-related haemolytic uraemic syndrome, punctate epithelial keratoconjunctivitis and chronic rhinosinusitis. These are supported only by model prediction or by literature that does not evaluate chloramphenicol as a treatment (for example, the scleroderma papers use chloramphenicol only as a laboratory reporter assay tool).
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

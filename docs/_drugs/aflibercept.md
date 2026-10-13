@@ -29,66 +29,85 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Aflibercept: From Anti-VEGF Therapy to Esotropia
+# Aflibercept: From Metastatic Colorectal Cancer and Retinal Vascular Disease to Esotropia
 
 ## One-Sentence Summary
 
-Aflibercept is a VEGF-trap protein marketed in Singapore as Eylea (intravitreal injection) and Zaltrap (intravenous infusion). The TxGNN model predicts it may be effective for **esotropia** (a form of strabismus), but the pack contains **0 clinical trials** and **0 publications** for this indication. The prediction is a model output only and no plausible biological link was identified.
+Aflibercept is a VEGF-trap protein originally used for retinal vascular diseases (macular degeneration, diabetic macular edema, retinal artery occlusion) and, in its intravenous form, for metastatic colorectal cancer.
+The TxGNN model predicts it may be effective for **esotropia**, but there are **0 clinical trials** and **0 publications** supporting this direction.
+The prediction is model-based only and has no supporting evidence in the data compiled for this report.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the Evidence Pack (approved indication text is empty for all 4 licences) |
+| Original Indication | Metastatic colorectal cancer, macular degeneration, retinal artery occlusion, diabetic macular edema (from the knowledge graph; the Singapore licence records list no indication text) |
 | Predicted New Indication | Esotropia |
 | TxGNN Prediction Score | 99.38% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 4 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Aflibercept is known to act as a VEGF trap, meaning it binds vascular endothelial growth factor and blocks VEGF-driven blood vessel growth and leakage. Its approved indications could not be confirmed from the supplied data, because the licence records carry no indication text.
+Aflibercept is a recombinant fusion protein that traps VEGF-A, VEGF-B and placental growth factor (PlGF). It is given by intravitreal injection for retinal vascular diseases and, as the product Zaltrap, by intravenous infusion for metastatic colorectal cancer. Detailed mechanism-of-action data from DrugBank are not currently available.
 
-The case for the prediction is weak. Esotropia is an extraocular muscle alignment disorder, and the review found no plausible link between VEGF blockade and it. The high score (0.994) most likely reflects the knowledge-graph structure rather than real biology, and no trials or literature back it. This prediction should be treated as a hypothesis with no mechanistic support.
+Esotropia is a disorder of ocular alignment, driven by neuromuscular or refractive factors. No plausible mechanistic link between VEGF blockade and esotropia has been identified. The two conditions share only the eye as an anatomical location. The very high TxGNN score is likely a knowledge-graph artifact, not a pharmacological signal.
+
+Other top-ranked predictions are similarly weak. Examples include esophageal varices, urethral calculus, adenosine deaminase deficiency and hemorrhagic disease of the newborn. Several of these carry added safety concern, because anti-VEGF therapy is associated with bleeding risk. Some predicted tumours, such as ectomesenchymoma and middle ear neuroendocrine tumour, have a generic anti-angiogenic rationale, but no tumour-specific data were found.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for esotropia.
+
+---
 
 ## Literature Evidence
 
 Currently no related literature available.
 
+---
+
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN17040P | EYLEA Solution for Injection in Vial 8 mg | Injection, solution |
-| SIN14380P | EYLEA Solution for Injection in Prefilled Syringe 40 mg/ml | Injection, solution |
-| SIN14345P | EYLEA Solution for Injection in Vial 2 mg | Injection, solution |
-| SIN14592P | ZALTRAP Concentrate for Solution for Infusion 25 mg/ml | Infusion, solution concentrate |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN17040P | EYLEA Solution for Injection in Vial 8 mg | Injection, solution | Not listed in the data |
+| SIN14380P | EYLEA Solution for Injection in Prefilled Syringe 40 mg/ml | Injection, solution | Not listed in the data |
+| SIN14592P | ZALTRAP Concentrate for Solution for Infusion 25 mg/ml | Infusion, solution concentrate | Not listed in the data |
+| SIN14345P | EYLEA Solution for Injection in Vial 2 mg | Injection, solution | Not listed in the data |
 
-Approved indication text is not available in the supplied licence records.
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: 78 interactions were identified. Major-level examples include deferiprone, samarium (153Sm) lexidronam, adalimumab, baricitinib, certolizumab pegol, cladribine and clozapine. Moderate-level examples include strontium chloride Sr-89, roflumilast, chloramphenicol, zidovudine, azathioprine, alemtuzumab and anakinra.
+- **Bleeding risk**: Systemic anti-VEGF therapy is associated with bleeding and hemorrhage risk. This is particularly relevant to the bleeding-related predicted conditions.
+
+Please refer to the package insert for warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The only support is a model score. There are no trials or publications for esotropia, and no mechanistic link to VEGF inhibition. The pack also lacks package insert safety data, and route compatibility has not been assessed. The other nine predictions in the pack are also L5 and on Hold.
+The prediction for esotropia rests only on the model score. There are no clinical trials or literature, and no plausible mechanism links VEGF inhibition to ocular misalignment. Evidence is at level L5.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from HSA (currently a blocking gap)
-- Mechanism of action data from DrugBank
-- Confirmed approved indications for each Singapore licence
-- Any disease-specific preclinical or clinical evidence linking VEGF blockade to esotropia
-- Route compatibility assessment (available routes are injectable only)
+- A credible mechanistic hypothesis linking VEGF signalling to esotropia, supported by preclinical or observational data
+- Detailed mechanism of action data (MOA)
+- Package insert warnings and contraindications from the Singapore regulator (HSA) for the safety review
+- Approved indication text for the Singapore registrations
+- Review of the other top-ranked predictions, in particular the oncology candidates (ectomesenchymoma, malignant cutaneous granular cell tumour, middle ear neuroendocrine tumour), which have a more plausible anti-angiogenic rationale, and the bleeding-related conditions, which carry safety concerns
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

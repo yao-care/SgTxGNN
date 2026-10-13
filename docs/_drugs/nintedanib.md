@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Nintedanib
-parent: Low Evidence (L5)
-nav_order: 707
-evidence_level: L5
+parent: Medium Evidence (L3-L4)
+nav_order: 715
+evidence_level: L4
 indication_count: 10
 ---
 
 # Nintedanib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,85 +29,83 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Nintedanib: From Its Singapore-Registered Use to Dermatofibrosarcoma Protuberans
+# Nintedanib: From Non-Small Cell Lung Carcinoma and Idiopathic Pulmonary Fibrosis to Dermatofibrosarcoma Protuberans
 
 ## One-Sentence Summary
 
-Nintedanib is an oral kinase inhibitor marketed in Singapore as OFEV soft capsules, but the supplied data does not state its approved indication.
-The TxGNN model predicts it may be effective for **dermatofibrosarcoma protuberans (DFSP)**, a rare soft-tissue sarcoma.
-So far this is a computational prediction only, with **0 clinical trials** and **0 publications** in the evidence pack.
-
----
+Nintedanib was originally used for lung diseases, including non-small cell lung carcinoma and idiopathic pulmonary fibrosis.
+The TxGNN model predicts it may be effective for **Dermatofibrosarcoma Protuberans (DFSP)**,
+but there are currently **0 clinical trials** and only **1 publication** (an indirect review) supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Non-small cell lung carcinoma, lung cancer, idiopathic pulmonary fibrosis, acute interstitial pneumonia, idiopathic interstitial pneumonia (the Singapore licence records contain no approved indication text) |
 | Predicted New Indication | Dermatofibrosarcoma protuberans |
 | TxGNN Prediction Score | 99.15% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L4 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 2 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on general pharmacology, nintedanib inhibits several receptor tyrosine kinases: PDGFR, VEGFR and FGFR. These pathways drive fibroblast proliferation, migration and angiogenesis. This mechanistic reasoning comes from general knowledge, not from the supplied data.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, nintedanib is an oral multi-kinase inhibitor that blocks PDGFR alpha/beta, VEGFR and FGFR. It is used in fibrosing lung disease and lung cancer, and mechanistically may be applicable to DFSP.
 
-DFSP is typically driven by a COL1A1-PDGFB gene fusion, which causes constant PDGFR-beta signalling. A drug that blocks PDGFR could therefore plausibly act on this tumour. Even so, the link is only a hypothesis. No trial or publication was supplied to support it, and the very high TxGNN score is a computational output, not clinical proof.
+DFSP is driven by the COL1A1-PDGFB fusion, which causes constitutive PDGFR-beta signalling. Because nintedanib inhibits PDGFR, there is a plausible mechanistic rationale. Its anti-fibroblast activity, the basis of its use in pulmonary fibrosis, is also consistent with a fibroblastic tumour.
 
-The other top predictions form two groups:
-- **Sarcoma and fibroblastic tumours** (liposarcoma, conventional fibrosarcoma, fibroblastic neoplasm, and organ-specific fibrosarcoma or liposarcoma subtypes). Their rationale is inherited from the same kinase-inhibitor hypothesis, and it is indirect for the rare organ-specific subtypes.
-- **Genetic skeletal and ALS-related entries** (axial spondylometaphyseal dysplasia, ALS type 22, ALS susceptibility). No credible mechanistic link is apparent, and these scores likely reflect knowledge-graph artefacts. The source name "amyotrohpic lateral sclerosis type 22" also contains a spelling error, which may hamper entity matching in later searches.
-
----
+However, the link is indirect. Imatinib is the established PDGFR-targeted agent for this disease, and no nintedanib-specific clinical data are available. The prediction should therefore be treated as a research question rather than a clinical recommendation.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
-
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [29408302](https://pubmed.ncbi.nlm.nih.gov/29408302/) | 2018 | Review | Pharmacological Research | Reviews small-molecule PDGFR inhibitors in neoplastic disorders. This is indirect evidence and does not report nintedanib-specific data in DFSP. |
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN14922P | OFEV Soft Capsules 150mg | Capsule, liquid filled (oral) | Not provided in the supplied data |
-| SIN14921P | OFEV Soft Capsules 100mg | Capsule, liquid filled (oral) | Not provided in the supplied data |
+| SIN14922P | OFEV Soft Capsules 150 mg | Capsule, liquid filled | Not available |
+| SIN14921P | OFEV Soft Capsules 100 mg | Capsule, liquid filled | Not available |
 
-Both products are packaged by Catalent Germany Eberbach GmbH and Boehringer Ingelheim Pharma GmbH & Co. KG.
+## Cytotoxicity
 
----
+| Item | Content |
+|------|------|
+| Cytotoxicity Classification | Targeted therapy (multi-kinase inhibitor: VEGFR, FGFR, PDGFR) |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert warnings and precautions |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: 100 interactions were identified in the interaction screening. The main ones listed include:
+  - **Major**: Dexamethasone
+  - **Moderate, antithrombotic and anticoagulant agents (possible additive bleeding risk)**: acetylsalicylic acid, abciximab, alteplase, antithrombin III human, apixaban, betrixaban, bivalirudin, cangrelor, caplacizumab, cilostazol, clopidogrel, dalteparin, defibrotide, desirudin, dipyridamole
+  - **Moderate, other**: clarithromycin, cobicistat, naltrexone, rolapitant
 
----
+Please refer to the package insert for other safety information, including warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The evidence is at level L5: the only support is a model score, with no trials, no literature and no mechanism data in the pack. DFSP has a plausible PDGFR-based rationale and could be kept as a research question. The safety data is also missing, so the candidate cannot move to safety screening yet.
+The prediction score is high (99.15%), and the PDGFR-driven biology of DFSP gives a plausible mechanistic rationale. However, there are no clinical trials and the only literature is an indirect review. Imatinib is already the established PDGFR-targeted option, and the package insert safety data are missing.
 
 **To proceed, the following is needed:**
-- The HSA package insert (warnings, contraindications and the approved indication), which currently blocks safety screening
-- Mechanism of action data from DrugBank (DB09079)
-- Targeted searches for trials and publications on nintedanib or PDGFR inhibitors in DFSP and soft-tissue sarcoma
-- Resolution of broad or misspelled disease terms (for example "fibroblastic neoplasm" and "amyotrohpic") into specific entities
-- Assessment of route compatibility, since only an oral capsule is registered in Singapore
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Package insert warnings and contraindications from the HSA (a blocking data gap for safety screening)
+- Detailed mechanism of action data (MOA)
+- Preclinical data (for example, DFSP cell lines or models) or case-level clinical data on nintedanib in DFSP
+- A comparison against imatinib to define where nintedanib could add value, such as imatinib-resistant disease
+- A review of the bleeding-risk interactions with anticoagulants and antiplatelet agents, which matter in a tumour setting
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

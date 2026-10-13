@@ -2,7 +2,7 @@
 layout: default
 title: Liraglutide
 parent: Low Evidence (L5)
-nav_order: 599
+nav_order: 605
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,17 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Liraglutide: From Type 2 Diabetes and Weight Management to Opsismodysplasia
+# Liraglutide: From Type 2 Diabetes Mellitus to Opsismodysplasia
 
 ## One-Sentence Summary
 
-Liraglutide is a GLP-1 receptor agonist injection, marketed in Singapore as Victoza and Saxenda. The TxGNN model predicts it may be effective for **opsismodysplasia**, a rare skeletal dysplasia, with a very high score. There are currently **0 clinical trials** and **0 publications** for this indication, so the prediction rests on the model alone.
+Liraglutide is a GLP-1 receptor agonist injection, originally used to treat type 2 diabetes mellitus.
+The TxGNN model predicts it may be effective for **opsismodysplasia**, a rare skeletal dysplasia, but **no clinical trials and no publications** currently support this prediction.
+The high score is a model output only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not listed in the registration data (the Victoza and Saxenda brand names indicate diabetes and weight management) |
+| Original Indication | Type 2 diabetes mellitus (from the knowledge-graph indication record; the registration entries list no indication text) |
 | Predicted New Indication | Opsismodysplasia |
 | TxGNN Prediction Score | 96.12% |
 | Evidence Level | L5 |
@@ -49,9 +51,9 @@ Liraglutide is a GLP-1 receptor agonist injection, marketed in Singapore as Vict
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the record. Based on general pharmacology, liraglutide is a GLP-1 receptor agonist. It suppresses glucagon, delays gastric emptying, and reduces appetite and body weight, which is why it is used for diabetes and weight management.
+Currently, detailed mechanism of action data is not available. Based on known information, liraglutide is a GLP-1 receptor agonist whose efficacy in type 2 diabetes has been established.
 
-There is no credible mechanistic link to the predicted indication. Opsismodysplasia is caused by loss of function of INPPL1 (SHIP2), and GLP-1 receptor agonism has no established connection to this pathway. The high score most likely reflects proximity in the knowledge graph, not biology. It should be read as a hypothesis-generating signal only.
+Opsismodysplasia is a rare skeletal dysplasia caused by mutations in *INPPL1* (SHIP2), a gene involved in insulin and PI3K signaling. This is the only conceivable connection to a diabetes drug. Any link to GLP-1 receptor signaling is highly speculative, and no mechanistic link has been established. The high TxGNN score most likely reflects network-level associations in the knowledge graph rather than biological evidence.
 
 ## Clinical Trial Evidence
 
@@ -63,29 +65,40 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN13905P | Victoza® solution for injection in pre-filled pen 6mg/ml | Injection, solution | Novo Nordisk A/S; Novo Nordisk Pharmaceutical Industries, LP |
-| SIN15338P | Saxenda® solution for injection in pre-filled pen 6mg/ml | Injection, solution | Novo Nordisk A/S; Novo Nordisk Pharmaceutical Industries, LP |
+| SIN13905P | Victoza® solution for injection in pre-filled pen 6mg/ml | Injection, solution | — |
+| SIN15338P | SAXENDA® solution for injection in pre-filled pen 6mg/ml | Injection, solution | — |
+
+Both authorizations are valid single-ingredient products, and neither has been cancelled. Both are manufactured by Novo Nordisk. The data compiled for this report contain no approved-indication text for either.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications and risk conditions (from knowledge-graph drug–disease records, not label text)**: hypoglycaemia, medullary thyroid carcinoma, multiple endocrine neoplasia, pancreatitis, thyroid disease, goitre, C-cell hyperplasia. Preclinical work also shows that GLP-1 receptor agonists can activate rodent thyroid C-cells, causing calcitonin release and C-cell proliferation.
+- **Drug Interactions**: 100 interactions were identified. Those shown here are mostly moderate-level:
+  - Sympathomimetics and bronchodilators: phenylephrine, pseudoephedrine, epinephrine, formoterol, salbutamol
+  - Corticosteroids: hydrocortisone, triamcinolone
+  - Hormonal agents: estradiol, ethinylestradiol, levonorgestrel, desogestrel
+  - Antipsychotics: aripiprazole, asenapine
+  - Others: acetazolamide, hydrochlorothiazide, alpelisib, ethanol
+  - Minor-level examples: acetaminophen and topical corticosteroids
+
+Please also refer to the package insert for full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The opsismodysplasia prediction has no clinical trials, no literature, and no plausible mechanism (L5, model prediction only). There is no basis to advance it.
-
-**Other predictions in the same run:** The nine other candidates are also weak and stay on Hold. The exception is **type 1 diabetes mellitus** (rank 6, score 92.27%). It has direct clinical evidence: the Phase 3 ADJUNCT ONE trial (n=835, PMID 27506222) and the NewLira RCT (PMID 39192527). It is graded L1 and rated **Proceed with Guardrails**. Guardrails are needed because of higher rates of symptomatic hypoglycaemia and hyperglycaemia with ketosis. The benefit-risk balance was also not judged sufficient for regulatory approval in T1D. Use would be limited to selected patients, such as those with overweight or obesity, under specialist supervision with ketone monitoring and insulin dose adjustment. It merits its own dedicated evaluation.
+The prediction has no supporting trials or literature (L5, model prediction only), and the mechanistic link between GLP-1 receptor agonism and *INPPL1*-related skeletal dysplasia is speculative. Liraglutide is marketed in Singapore, but only for its existing indications, so there is no basis to advance this new use.
 
 **To proceed, the following is needed:**
-- Any preclinical or mechanistic evidence linking GLP-1 receptor agonism to INPPL1/SHIP2 biology or skeletal dysplasia
-- Detailed mechanism of action data (MOA)
-- Package insert warnings and contraindications from the Singapore regulator (HSA)
-- Approved indication text for the two Singapore registrations
+- Preclinical or mechanistic evidence connecting GLP-1 receptor signaling to SHIP2/INPPL1 biology or skeletal development
+- Detailed mechanism of action data
+- Package insert warnings and contraindications for a full safety review
+- Any case reports or registered studies in opsismodysplasia
+
+**Note:** Among the model's other predictions for liraglutide, **type 1 diabetes mellitus** (score 92.3%) has far stronger support, including multiple Phase 3 trials such as ADJUNCT ONE and ADJUNCT TWO. It may be a better candidate for a separate evaluation. The main concerns there are modest efficacy and the risks of hypoglycaemia, ketosis and gastrointestinal adverse events.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

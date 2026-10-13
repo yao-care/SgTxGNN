@@ -2,7 +2,7 @@
 layout: default
 title: Remdesivir
 parent: Low Evidence (L5)
-nav_order: 850
+nav_order: 859
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,17 +29,21 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Remdesivir: From COVID-19 to Multiple Endocrine Neoplasia
+# Remdesivir: From an Antiviral Injection to Multiple Endocrine Neoplasia
 
 ## One-Sentence Summary
 
-Remdesivir is an intravenous antiviral, and the trials in this evidence pack show it being used mainly for COVID-19. The TxGNN model predicts it may be effective for **multiple endocrine neoplasia** (a hereditary tumour syndrome). This prediction is **model-only: no clinical trials and no publications** support it.
+Remdesivir is a nucleotide analogue antiviral that inhibits viral RNA polymerase. It is marketed in Singapore as an intravenous infusion, and the approved indication text is not available in the data compiled for this report.
+The TxGNN model predicts it may be effective for **multiple endocrine neoplasia** (score 99.5%), but there are **0 clinical trials** and **0 publications** supporting this prediction.
+This is a model prediction only, with no identifiable mechanistic link.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | COVID-19 (inferred from the trial evidence; the Singapore approved-indication text is not on file) |
+| Original Indication | Not available (the Singapore licence does not list indication text) |
 | Predicted New Indication | Multiple endocrine neoplasia |
 | TxGNN Prediction Score | 99.50% |
 | Evidence Level | L5 |
@@ -47,44 +51,71 @@ Remdesivir is an intravenous antiviral, and the trials in this evidence pack sho
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from DrugBank. Based on known information, remdesivir is a nucleotide-analogue inhibitor of viral RNA-dependent RNA polymerase, with antiviral activity against RNA viruses such as SARS-CoV-2.
+Detailed mechanism-of-action data is not available in the data compiled for this report. From general knowledge, remdesivir is a nucleotide analogue prodrug that inhibits viral RNA-dependent RNA polymerase, which is the basis of its antiviral activity.
 
-The review of this prediction found **no plausible mechanistic link** to multiple endocrine neoplasia. This condition is a hereditary tumour syndrome, and an antiviral polymerase inhibitor has no known role in its biology. The high TxGNN score (0.995, rank 6,448) most likely reflects relationships in the knowledge graph rather than a real pharmacological connection. Without trials or literature, the prediction cannot be considered mechanistically supported.
+Multiple endocrine neoplasia is a hereditary tumour syndrome (for example, MEN1 or RET mutations). Its biology has no connection to viral RNA polymerase inhibition. The high TxGNN score is therefore best read as a statistical artefact of the knowledge-graph model, not a mechanistically grounded signal.
+
+For context, the other top predictions are also weakly supported:
+- **HIV infection** (score 99.3%, evidence L4): the only prediction with a clinical trial, but that trial (NCT04385719) is a pharmacokinetic drug-interaction study in healthy volunteers, not an efficacy study. The literature is almost entirely about COVID-19.
+- **Cytomegalovirus infection** (score 97.1%, evidence L4): the literature covers CMV co-infection in COVID-19 patients and does not show remdesivir efficacy against CMV.
+- **Leprosy**, simian and feline immunodeficiency, and several genetic or cardiovascular conditions: no plausible mechanistic link, with prediction-only or reverse-direction evidence.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials are registered for multiple endocrine neoplasia.
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for multiple endocrine neoplasia.
+
+---
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN15950P | VEKLURY® Lyophilized Powder for IV Infusion 100mg/vial | Injection, powder, lyophilized, for solution |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN15950P | VEKLURY® Lyophilized Powder for IV Infusion 100 mg/vial | Injection, powder, lyophilized, for solution | Not listed |
 
-The registration record contains no approved-indication text.
+---
+
+## Cytotoxicity
+
+Remdesivir is an antiviral, not an antineoplastic agent, so this assessment does not apply.
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: The interaction screen returned 100 interacting drugs. The 20 shown to the report are all rated Moderate. Examples include:
+  - Antibiotics: doxycycline, minocycline, tetracycline, clarithromycin, levofloxacin, vancomycin, kanamycin, neomycin
+  - Antifungals: amphotericin B, including the lipid complex formulation
+  - Diabetes drugs: acarbose, pioglitazone
+  - Others: bupropion, naltrexone, mesalazine, balsalazide, olsalazine, chenodeoxycholic acid, oxandrolone, oxymetholone
+
+Please refer to the package insert for warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has only a graph-based score. It has no trials, no publications and no mechanistic rationale, so it stays at evidence level L5. The other top-ranked predictions are also weak. For example, the HIV prediction drew 23 retrieved trials, but all concern COVID-19, not HIV, so the trial count is not informative. The other predictions (SIV, feline immunodeficiency, cytomegalovirus, leprosy, and several unrelated genetic or vascular conditions) have no supporting clinical evidence either.
+The prediction rests on model output alone (evidence level L5). There are no trials or publications, and remdesivir's antiviral mechanism has no plausible link to a hereditary endocrine tumour syndrome. Prediction scores this high do not substitute for biological rationale.
 
 **To proceed, the following is needed:**
-- Singapore package insert warnings and contraindications from the HSA (a blocking gap for safety screening)
-- Detailed mechanism of action data from DrugBank
-- Any preclinical or mechanistic evidence linking remdesivir to multiple endocrine neoplasia
-- A review of whether a more biologically plausible predicted indication should replace this one as the lead candidate
+- A plausible mechanistic hypothesis connecting remdesivir to multiple endocrine neoplasia, plus preclinical data
+- The mechanism-of-action data for remdesivir from DrugBank
+- The HSA package insert (warnings, contraindications, approved indication), which is needed before any safety screening
+- If antiviral repurposing is of interest, reviewing better-supported directions first (for example, the HIV-related pharmacokinetic work), noting that these also lack efficacy evidence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

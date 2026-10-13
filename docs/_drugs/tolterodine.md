@@ -2,7 +2,7 @@
 layout: default
 title: Tolterodine
 parent: Medium Evidence (L3-L4)
-nav_order: 994
+nav_order: 1004
 evidence_level: L3
 indication_count: 10
 ---
@@ -33,83 +33,95 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Tolterodine is an antimuscarinic bladder drug, used for overactive bladder and neurogenic detrusor overactivity.
+Tolterodine is an antimuscarinic drug originally used to treat overactive bladder.
 The TxGNN model predicts it may be effective for **low compliance bladder**.
-Support is limited: **1 small clinical trial** (which tests a different drug) and **9 publications**, mostly reviews and small studies.
+No clinical trials are registered for this use, but **9 publications** were found, of which 1 is a randomised study in neurogenic bladder, so the evidence is limited.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Overactive bladder / neurogenic detrusor overactivity (HSA registry entries carry no indication text) |
+| Original Indication | Overactive bladder (the Singapore licence records contain no approved indication text; this comes from the knowledge graph) |
 | Predicted New Indication | Low compliance bladder |
 | TxGNN Prediction Score | 96.31% |
 | Evidence Level | L3 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 10 |
-| Recommended Decision | Hold |
+| Recommended Decision | Proceed with Guardrails |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Tolterodine blocks M2/M3 muscarinic receptors in the bladder detrusor muscle. This suppresses involuntary contractions, which can lower storage pressure and raise bladder capacity. Low bladder compliance mostly occurs in neurogenic bladder, where detrusor overactivity is often the driver. In that setting the drug's mechanism applies directly.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, tolterodine is a competitive antimuscarinic (M2/M3) agent. It relaxes the detrusor muscle, reduces overactivity and can increase bladder capacity.
 
-The new indication is close to the drug's existing use, so the repurposing novelty is low. The mechanism should work less well where compliance is lost to fibrosis or structural change, such as the malacoplakia case in the literature. A detailed mechanism record is not available in the current database entry. The reasoning above rests on tolterodine's known class pharmacology.
+Low bladder compliance, especially in neurogenic bladder, means the bladder wall stores urine at high pressure. Antimuscarinics are commonly used to lower this storage pressure, so the mechanism is plausible and clinically coherent with the original indication.
+
+There are caveats. Most evidence comes from neurogenic detrusor overactivity populations, not from studies using compliance as the primary endpoint. The spina bifida data come from a small pilot crossover study. Patients who do not respond to anticholinergics may need add-on therapy such as mirabegron.
+
+---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT05745584](https://clinicaltrials.gov/study/NCT05745584) | NA | Unknown | 15 | Prospective paired comparison of mirabegron versus anticholinergics in patients with low bladder compliance. The listing does not confirm that tolterodine is the comparator, and no results are posted. |
+Currently no related clinical trials registered.
 
-This is a small, non-phased trial with no results, so it carries limited weight.
+---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [20969642](https://pubmed.ncbi.nlm.nih.gov/20969642/) | 2010 | Clinical study | Int J Urol | Assessed extended-release tolterodine 4 mg/day in neurogenic detrusor overactivity and/or low-compliance bladder, using urodynamic parameters. The most directly relevant paper; the abstract excerpt does not give results. |
-| [26676394](https://pubmed.ncbi.nlm.nih.gov/26676394/) | 2011 | Pilot crossover trial | Lower Urin Tract Symptoms | Compared oxybutynin and tolterodine in spina bifida patients with neurogenic bladder. |
-| [25656013](https://pubmed.ncbi.nlm.nih.gov/25656013/) | 2015 | Retrospective clinical study | Hinyokika Kiyo | Mirabegron added to anticholinergics in 7 neurogenic bladder patients with detrusor overactivity or low compliance despite treatment. Videourodynamic evaluation; indirect for tolterodine. |
-| [26149965](https://pubmed.ncbi.nlm.nih.gov/26149965/) | 2015 | Review | Curr Urol Rep | Tolterodine in male storage LUTS; antimuscarinics are the gold-standard drug class for OAB/storage symptoms. |
-| [16465186](https://pubmed.ncbi.nlm.nih.gov/16465186/) | 2006 | Review | Br J Pharmacol | Muscarinic receptors (M2/M3) in the bladder detrusor and their role in antimuscarinic therapy for OAB. |
-| [17594185](https://pubmed.ncbi.nlm.nih.gov/17594185/) | 2007 | Review | Expert Opin Investig Drugs | Overview of OAB treatments in early-phase trials. |
-| [15978301](https://pubmed.ncbi.nlm.nih.gov/15978301/) | 2005 | Review | Clin Ther | Trospium (a related drug) for OAB with urge incontinence. |
-| [24703195](https://pubmed.ncbi.nlm.nih.gov/24703195/) | 2014 | Clinical safety study | Int J Clin Pract | Pooled safety analysis of mirabegron in OAB; indirect for tolterodine. |
-| [32590783](https://pubmed.ncbi.nlm.nih.gov/32590783/) | 2020 | Case report | Medicine | Poor bladder compliance due to malacoplakia with xanthogranulomatous cystitis; not specific to tolterodine. |
+| [20969642](https://pubmed.ncbi.nlm.nih.gov/20969642/) | 2010 | RCT | Int J Urol | Evaluated extended-release tolterodine 4 mg/day for neurogenic detrusor overactivity and/or low-compliance bladder using urodynamic parameters |
+| [26676394](https://pubmed.ncbi.nlm.nih.gov/26676394/) | 2011 | Crossover pilot study | Lower Urin Tract Symptoms | Compared oxybutynin and tolterodine in neurogenic bladder patients with spina bifida |
+| [25656013](https://pubmed.ncbi.nlm.nih.gov/25656013/) | 2015 | Clinical study (retrospective, 7 patients) | Hinyokika Kiyo | Adding mirabegron in anticholinergic-resistant neurogenic bladder with detrusor overactivity or low compliance, assessed by videourodynamics |
+| [26149965](https://pubmed.ncbi.nlm.nih.gov/26149965/) | 2015 | Review | Curr Urol Rep | Tolterodine for storage lower urinary tract symptoms in men; antimuscarinics are the pharmacological gold standard |
+| [16465186](https://pubmed.ncbi.nlm.nih.gov/16465186/) | 2006 | Review | Br J Pharmacol | Role of M2/M3 muscarinic receptors in the bladder and antimuscarinic therapy |
+| [17594185](https://pubmed.ncbi.nlm.nih.gov/17594185/) | 2007 | Review | Expert Opin Investig Drugs | Overactive bladder treatments in early phase trials |
+| [15978301](https://pubmed.ncbi.nlm.nih.gov/15978301/) | 2005 | Review (trospium, related drug) | Clin Ther | Trospium for overactive bladder with urge incontinence |
+
+---
 
 ## Singapore Market Information
 
-The registry shows 10 registrations in total; five are listed here. No approved-indication text is recorded for these entries.
-
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN09912P | DETRUSITOL TABLET 2 mg | Tablet, film coated | Pfizer Italia S.r.L. |
-| SIN16313P | TOLTERODINE MEVON IR FILM-COATED TABLET 2 MG | Tablet, film coated | Pharmathen S.A. |
-| SIN16433P | TOLTERODINE MEVON SR CAPSULE 2 MG | Capsule, extended release | Pharmathen International S.A. |
-| SIN16597P | TOLCORD 2 FILM COATED TABLET 2 MG | Tablet, film coated | Intas Pharmaceuticals Limited |
-| SIN16598P | TOLCORD 1 FILM COATED TABLET 1 MG | Tablet, film coated | Intas Pharmaceuticals Limited |
+| SIN09911P | Detrusitol Tablet 1 mg | Film-coated tablet | Not stated in the licence record |
+| SIN09912P | Detrusitol Tablet 2 mg | Film-coated tablet | Not stated in the licence record |
+| SIN11857P | Detrusitol SR Capsule 4 mg | Extended-release capsule | Not stated in the licence record |
+| SIN11859P | Detrusitol SR Capsule 2 mg | Extended-release capsule | Not stated in the licence record |
+| SIN16313P | Tolterodine Mevon IR Film-Coated Tablet 2 mg | Film-coated tablet | Not stated in the licence record |
 
-All listed products are oral formulations.
+Ten single-ingredient licences are valid in total; the five above are the main ones. The others include Tolcord 1 mg and 2 mg, Tolterodine Mevon IR 1 mg and Tolterodine Mevon SR 2 mg and 4 mg.
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug-interaction records were found for this drug.
+Package insert warnings and contraindications were not available in the data compiled for this report. Please refer to the package insert for safety information.
+
+- **Conditions linked to contraindication in the knowledge graph** (not label text): long QT syndrome (including familial), torsades de pointes, liver failure, dementia, angle-closure glaucoma, myasthenia gravis and other neuromuscular junction disease, pyloric stenosis, and bladder neck obstruction.
+- **Drug Interactions**: 100 interactions were recorded. The most notable:
+  - **Major**: potassium citrate.
+  - **Moderate**: other anticholinergics and antimuscarinics (hyoscyamine, atropine, glycopyrronium, clidinium, dicyclomine, trospium, mepenzolate, methscopolamine), loperamide, morphine, aprepitant, cimetidine, clarithromycin, eluxadoline, metoclopramide and miconazole.
+  - **Minor**: bupropion, lorcaserin and eliglustat.
+
+---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Proceed with Guardrails**
 
 **Rationale:**
-The mechanism is plausible and sits close to the drug's established use. However, the supporting evidence is thin: one small trial with no results (which may not even involve tolterodine) and a few small clinical studies. The package insert safety review has not been done, so the candidate cannot yet pass safety screening. It is best treated as a research question rather than a deployment candidate.
-
-The other nine predictions (ranks 2-10, such as polycystic kidney disease and thoracic malformation) have no plausible mechanism and no trial evidence. They rest only on knowledge-graph proximity and should stay on hold.
+The mechanism is coherent, and one randomised study and some small clinical studies in neurogenic bladder support it. However, there are no registered trials, and the evidence rests on neurogenic detrusor overactivity populations rather than compliance as the primary endpoint. The other nine predicted indications (for example polycystic kidney disease and thoracic malformation) have only model scores, with no mechanistic link or evidence, and should remain on Hold.
 
 **To proceed, the following is needed:**
-- Download and review the HSA package insert (warnings and contraindications)
-- Detailed mechanism of action data from DrugBank
-- Full-text review of PMID 20969642 and PMID 26676394 for urodynamic outcomes, especially bladder compliance
-- Confirmation of whether tolterodine is the anticholinergic comparator in NCT05745584
-- A comparison against current guideline therapy for low compliance bladder in neurogenic patients
+- Package insert warnings and contraindications from the Singapore regulator, which are currently missing
+- Mechanism of action data
+- Studies using bladder compliance or detrusor storage pressure as the primary endpoint
+- Confirmation of the approved indication wording on the Singapore licences
+- A safety plan for patients with the contraindicated conditions listed above and for those taking other anticholinergics
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

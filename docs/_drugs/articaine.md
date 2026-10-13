@@ -33,15 +33,15 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Articaine is an amide local anaesthetic, marketed in Singapore as dental injection products (the registered indication text is not available in the data).
-The TxGNN model predicts it may be effective for **Gout**, but there are **0 clinical trials** and **0 publications** supporting this direction.
-The prediction rests on the model score alone, and no plausible mechanistic link has been identified.
+Articaine is an amide-type local anaesthetic, marketed in Singapore as an injectable (the product names point to dental use, but no approved indication text is on file).
+The TxGNN model predicts it may be effective for **gout**, but **no clinical trials and no supporting publications** exist for this prediction.
+The high score appears to be a graph-based artefact rather than a biologically grounded signal.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Local anaesthesia (inferred from drug class; registered indication text is not available) |
+| Original Indication | Not available (no approved indication text in the registrations; drug class is local anaesthetic) |
 | Predicted New Indication | Gout |
 | TxGNN Prediction Score | 99.58% |
 | Evidence Level | L5 |
@@ -51,9 +51,11 @@ The prediction rests on the model score alone, and no plausible mechanistic link
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available from the source record. Based on its drug class, articaine blocks voltage-gated sodium channels, which stops nerve conduction and produces local anaesthesia.
+Currently, detailed mechanism of action data is not available in the compiled data. Articaine is known to be an amide local anaesthetic that blocks voltage-gated sodium channels, producing reversible loss of nerve conduction.
 
-Gout is driven by urate crystal deposition and the resulting inflammation. Nothing in sodium-channel blockade connects to urate metabolism or gouty inflammation. The 99.58% score is a knowledge-graph prediction (rank 5775) and should not be read as evidence of benefit. The same is true of the other nine candidates: none has a plausible mechanism or supporting clinical evidence.
+Gout, in contrast, is driven by monosodium urate crystal deposition and NLRP3 inflammasome-mediated inflammation. No clear mechanistic link between sodium channel blockade and urate-driven inflammation was identified. The high TxGNN score is best read as a pattern from the knowledge graph, not as evidence of therapeutic benefit.
+
+Other top-ranked predictions (exostosis, asthma subtypes, alopecia and rare COL4A1-related disorders) likewise lack plausible mechanisms or supporting data. The only publications found for any of them concern local anaesthetic allergy (under allergic asthma), which describes an adverse-reaction context rather than a treatment.
 
 ## Clinical Trial Evidence
 
@@ -61,59 +63,40 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
-
-## Other Predicted Candidates (for Context)
-
-| Rank | Predicted Indication | TxGNN Score | Evidence Level | Decision |
-|------|------|------|------|------|
-| 1 | Gout | 99.58% | L5 | Hold |
-| 2 | Exostosis | 99.42% | L5 | Hold |
-| 3 | Allergic asthma | 99.38% | L5 | Hold |
-| 4 | Intrinsic asthma | 99.34% | L5 | Hold |
-| 5 | Exostoses, multiple | 98.90% | L5 | Hold |
-| 6 | Hypotrichosis simplex of the scalp | 98.62% | L5 | Hold |
-| 7 | Alopecia | 98.58% | L5 | Hold |
-| 8 | Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome | 98.49% | L5 | Hold |
-| 9 | Brain small vessel disease 1 with or without ocular anomalies | 98.48% | L5 | Hold |
-| 10 | Congenital hypotrichosis milia | 98.44% | L5 | Hold |
-
-Two of these candidates had literature retrieved, and neither is evidence of benefit:
-- **Allergic asthma:** The three papers concern hypersensitivity to local anaesthetics (paediatric diagnostic testing, dental allergy, prilocaine compartment allergy). They raise a caution for atopic patients rather than support efficacy.
-- **Brain small vessel disease:** The papers cover congenital ocular anomalies and do not mention articaine or local anaesthetics. They appear to be matched on disease terms only.
+Currently no related literature available for gout.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN05504P | UBISTESIN INJECTION | Injection | 3M Deutschland GmbH |
-| SIN05505P | UBISTESIN FORTE INJECTION | Injection | 3M Deutschland GmbH |
-| SIN12648P | CITOCARTIN 100 INJECTION 1.7 ml/cartridge | Injection | Laboratorios Normon, S.A. |
-| SIN15913P | ARTINIBSA 4% WITH EPINEPHRINE SOLUTION FOR INJECTION 1:100000 | Injection, solution | Laboratorios Inibsa, S.A. |
-| SIN14537P | Posicaine-100 Injection | Injection, solution | Novocol Pharmaceutical of Canada Inc. |
+| SIN05504P | UBISTESIN INJECTION | Injection | Not stated |
+| SIN12648P | CITOCARTIN 100 INJECTION 1.7 ml/cartridge | Injection | Not stated |
+| SIN05505P | UBISTESIN FORTE INJECTION | Injection | Not stated |
+| SIN15913P | ARTINIBSA 4% WITH EPINEPHRINE SOLUTION FOR INJECTION 1:100000 | Injection, solution | Not stated |
+| SIN14537P | Posicaine-100 Injection | Injection, solution | Not stated |
 
-All five products are injectable only. Approved indication text is not recorded for any of them.
+All five registrations are valid single-ingredient products.
 
 ## Safety Considerations
 
-- **Drug Interactions**: No interaction records were found in the queried source.
-- **Hypersensitivity**: The allergy literature retrieved for the asthma candidates indicates local anaesthetic hypersensitivity reactions are a recognised concern, so caution applies in atopic patients.
+- **Drug Interactions**: 10 interactions were identified. The most significant is **Major** with nitrous acid. Hyaluronidase is **Minor**. The remainder are **Moderate**: liposomal morphine and other local anaesthetics (topical benzocaine, lidocaine, cinchocaine and tetracaine; ophthalmic lidocaine, oxybuprocaine and tetracaine).
+- **Knowledge-graph contraindication signals** (from drug-disease links, not label text): hypertension and other cardiovascular disease (including coronary artery disease, myocardial infarction, heart conduction disease, sudden cardiac arrest and dilated cardiomyopathy), kidney disease, liver disease, gallbladder disease, diabetes mellitus and diabetic ketoacidosis, angle-closure glaucoma, myasthenia gravis and other neuromuscular junction disease, butyrylcholinesterase deficiency, hyperthyroidism (Graves disease, thyrotoxicosis), Parkinson disease and hemoglobinopathy. These should be verified against the official label.
 
-Please refer to the package insert for other safety information.
+Please refer to the package insert for the approved warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-All ten predictions are L5, model-only, with no clinical trials and no drug-specific literature. For the top candidate, gout, there is no plausible mechanistic link. Articaine's route (injectable, local) is also not compatible with the systemic use gout would require, though route compatibility has not yet been assessed.
+The prediction rests on model output alone (L5). There are no clinical trials or supportive publications, and no plausible biological link between sodium channel blockade and gout. Route compatibility and similarity to the original indication have not been assessed.
 
 **To proceed, the following is needed:**
-- HSA package insert (warnings and contraindications), which is required before any safety screening
-- Mechanism of action data from DrugBank, to allow a proper mechanistic-link analysis
-- The registered indication text for the Singapore licences
-- A drug-specific literature and trial search for articaine in gout, since none has been retrieved
-- Route-compatibility assessment for any candidate indication
+- Mechanism of action data and a credible mechanistic rationale linking articaine to gout pathophysiology
+- Preclinical or clinical evidence in gout or urate-crystal inflammation
+- Approved indication text and package insert warnings and contraindications from the Singapore regulator
+- Route-of-administration compatibility assessment, since all registered products are injectables for local anaesthesia
+- Review of the knowledge-graph contraindication signals, particularly cardiovascular, renal and hepatic conditions, which are common in gout patients
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

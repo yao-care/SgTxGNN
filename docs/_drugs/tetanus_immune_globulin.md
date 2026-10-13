@@ -2,7 +2,7 @@
 layout: default
 title: Tetanus Immune Globulin
 parent: Low Evidence (L5)
-nav_order: 965
+nav_order: 975
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,15 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Tetanus Immune Globulin is a human antibody product that neutralizes tetanus toxin, used for passive protection against tetanus.
-The TxGNN model predicts it may be effective for **diabetic cataract**, but **no clinical trials and no publications** currently support this prediction.
-The model scored the top 10 predictions between 98.3% and 98.6%, and they are almost all cataract or diabetic eye conditions.
+Tetanus Immune Globulin is a human-derived passive-immunity product that neutralizes tetanus toxin. The TxGNN model predicts it may be effective for **diabetic cataract**, but **no clinical trials and no publications** currently support this direction. The prediction rests on model output alone and has no identifiable biological support.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Tetanus prophylaxis and treatment (general pharmacological use; the registration record does not list an indication) |
+| Original Indication | Not stated in the Singapore licence record (the product is known as tetanus antitoxin immunoglobulin) |
 | Predicted New Indication | Diabetic cataract |
 | TxGNN Prediction Score | 98.61% |
 | Evidence Level | L5 |
@@ -51,21 +49,11 @@ The model scored the top 10 predictions between 98.3% and 98.6%, and they are al
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the database. Tetanus Immune Globulin is a human polyclonal IgG preparation that gives passive immunity by binding and neutralizing tetanus toxin.
+Currently, detailed mechanism of action data is not available. Based on general knowledge, Tetanus Immune Globulin supplies pre-formed antibodies that neutralize the toxin produced by *Clostridium tetani*. It provides short-term passive protection and does not act on human tissue pathways.
 
-The predicted condition has no pharmacological connection to this mechanism. Diabetic cataract comes from high blood sugar, polyol pathway activity and oxidative stress in the eye lens. An anti-toxin antibody does not act on any of these.
+Diabetic cataract is driven by polyol pathway activation, osmotic stress, oxidative damage and advanced glycation end products in the lens. A toxin-neutralizing antibody has no known action on any of these processes. A systemic immunoglobulin is also unlikely to reach the avascular lens at meaningful concentrations.
 
-The high score is most likely an artifact of the knowledge graph:
-- The drug has no recorded original indications or mechanism, so the model had little to anchor on.
-- The score appears to come from graph proximity to cataract-related nodes.
-- Seven of the top 10 predictions share almost identical scores (98.54%). They look like one shared signal, not independent findings.
-- "Tetanic cataract" is linked to low blood calcium (hypocalcaemic tetany), not to *Clostridium tetani*. Its inclusion is probably a name-similarity artifact.
-
-The other predictions are also without mechanistic support. They include:
-- Mature, immature, cortical, senile and nuclear senile cataract
-- Craniostenosis cataract
-- Type 2 diabetes-associated cataract
-- Diabetic retinopathy, where anti-VEGF therapy, laser treatment and glycaemic control are already established
+The high score (0.986) most likely reflects proximity within the knowledge graph rather than biological rationale. The same pattern appears in the other top predictions, which are all cataract subtypes (tetanic, craniostenosis, immature, mature, type 2 diabetes-associated, cortical, nuclear senile and senile cataract) plus diabetic retinopathy. The score is nearly identical across them, which suggests a disease-cluster effect. "Tetanic cataract" is linked to hypocalcaemia and hypoparathyroidism, not to tetanus infection, so it is likely a false positive caused by the shared word "tetanic". None of these predictions has trials or literature behind it.
 
 ## Clinical Trial Evidence
 
@@ -79,24 +67,24 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN09656P | HyperTET S/D Injection 250 units (Grifols Therapeutics LLC) | Injection | Not listed in the available record |
+| SIN09656P | HyperTET S/D Injection 250 units (Grifols Therapeutics LLC) | Injection | Not listed in the licence record |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found.
+Please refer to the package insert for safety information. No drug interaction records were found for this product.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is computational only (L5), with no trials, no literature and no plausible mechanism linking a passive anti-toxin antibody to lens opacity. The near-identical scores across many cataract terms point to a graph artifact, not a real signal.
+The prediction has no clinical trials or publications, and no plausible mechanism links tetanus toxin neutralization to lens pathology. The high score appears to be a graph-based artifact, so there is no basis to advance this indication.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications for the Singapore-registered product
-- Mechanism of action data and original indication records for the drug
-- A credible mechanistic hypothesis, plus any preclinical or clinical evidence, linking the drug to lens or retinal disease
-- A route and formulation compatibility assessment, only if such evidence emerges
+- The package insert warnings and contraindications from HSA, which are a blocking gap for safety screening
+- Mechanism of action data from DrugBank
+- Any preclinical or clinical evidence that links tetanus immune globulin to lens or diabetic eye disease
+- An assessment of whether a systemic or ocular route could deliver the product to the target tissue
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

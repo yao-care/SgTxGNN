@@ -33,13 +33,17 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Amorolfine is a topical antifungal, sold in Singapore as a 5% nail lacquer. The TxGNN model predicts it may be effective for **drug-induced osteoporosis**, but there are currently **0 clinical trials** and **0 publications** supporting this. It rests on a model score alone, with no known biological link.
+> Amorolfine is a topical morpholine antifungal, marketed in Singapore as a nail lacquer for fungal nail infections (onychomycosis).
+> The TxGNN model predicts it may be effective for **drug-induced osteoporosis**,
+> but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registry text. The products are antifungal nail lacquers, so fungal nail infection is the likely use. |
+| Original Indication | Fungal nail infection (onychomycosis) (the Singapore licence records contain no indication text; this is based on the drug's known clinical use) |
 | Predicted New Indication | Drug-induced osteoporosis |
 | TxGNN Prediction Score | 99.998% |
 | Evidence Level | L5 |
@@ -47,45 +51,62 @@ Amorolfine is a topical antifungal, sold in Singapore as a 5% nail lacquer. The 
 | Number of Registrations | 2 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-It is not well supported. Amorolfine is a topical morpholine antifungal. It inhibits fungal sterol Δ14-reductase and Δ7-Δ8 isomerase, which blocks ergosterol synthesis. The DrugBank mechanism field is not populated, so this description comes from the analysis notes rather than a structured source. No bone-metabolism pathway is documented for the drug.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, amorolfine is a morpholine antifungal that inhibits fungal sterol delta-14 reductase and delta-7,8 isomerase, which disrupts ergosterol synthesis in the fungal cell membrane.
 
-Fungal nail infection and drug-induced osteoporosis are unrelated conditions. Topical use also implies minimal systemic exposure, so a systemic bone effect is unlikely. The very high score (0.99998) most likely reflects knowledge-graph topology rather than a biological rationale.
+No established mechanism links this action to bone metabolism. Amorolfine is applied topically to the nail, so systemic exposure is minimal, which further weakens the biological plausibility of an effect on osteoporosis. The high TxGNN score reflects connectivity in the knowledge graph and is not backed by any trial or publication.
 
-The other nine top-ranked predictions have the same problem. They include retroperitoneal disease, lumbar spinal stenosis, sacrum chordoma and abdominal ectopic pregnancy. All are L5 with no trials or literature, and none has a plausible mechanistic link to a topical antifungal.
+The other top-ranked predictions (for example disease of retroperitoneum, lumbar spinal stenosis, sacrum chordoma and urethral disease) show the same pattern. Several are broad anatomical categories or conditions with no pharmacological connection to an antifungal. Their scores are all very close (99.996% to 99.998%), and none has supporting clinical or literature evidence.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
+
+---
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN07506P | LOCERYL NAIL LACQUER 5% (Laboratoires Galderma) | Solution | Not listed in the registry extract |
-| SIN14604P | AMOROLFINE NAIL LACQUER 5% W/V (Chanelle Medical Unlimited Company) | Solution | Not listed in the registry extract |
+| SIN07506P | LOCERYL NAIL LACQUER 5% | Solution | Not stated in licence record (nail lacquer for fungal nail infection) |
+| SIN14604P | AMOROLFINE NAIL LACQUER 5% W/V | Solution | Not stated in licence record (nail lacquer for fungal nail infection) |
+
+Both licences are valid single-ingredient products, and no licences have been cancelled.
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: The data compiled for this report show only a pharmacology record, not a clinical drug-drug interaction. It lists the voltage-gated sodium channel Nav1.7 (SCN9A) as a target of amorolfine. No interaction severity level is given.
+
+For warnings and contraindications, please refer to the package insert for safety information.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is model-only (L5), with no trials, no literature and no supported mechanism. The drug is topical-only with minimal systemic exposure, and the predicted condition is systemic and unrelated to its known pharmacology.
+The prediction of drug-induced osteoporosis is supported only by a graph-based model score. There are no clinical trials or publications, no plausible mechanism, and minimal systemic exposure after topical nail application. Evidence is at the lowest level (L5).
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications, currently a blocking gap for safety screening
-- Structured mechanism of action data from DrugBank
-- Any preclinical or clinical evidence linking sterol-synthesis inhibition to bone metabolism
-- Evidence that a non-topical route or a systemic exposure level relevant to the predicted indication is feasible
+- Package insert warnings and contraindications from the HSA website (a blocking gap for safety screening)
+- Mechanism of action data confirmed from DrugBank
+- A mechanistic or preclinical rationale linking amorolfine to bone metabolism
+- An assessment of whether a topical nail formulation can reach the exposure needed for a systemic bone indication, since route compatibility has not been evaluated
+- Any trial or literature evidence for the predicted indication; otherwise the prediction should not advance beyond screening
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

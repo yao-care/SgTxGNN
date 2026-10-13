@@ -2,7 +2,7 @@
 layout: default
 title: Digoxin
 parent: Low Evidence (L5)
-nav_order: 326
+nav_order: 330
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,71 +29,94 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Digoxin: From Heart Failure and Atrial Fibrillation to Prinzmetal Angina
+# Digoxin: From Atrial Fibrillation to Prinzmetal Angina
 
 ## One-Sentence Summary
 
-Digoxin is a cardiac glycoside, generally used for heart failure and atrial fibrillation rate control. The TxGNN model predicts it may be effective for **Prinzmetal angina** (coronary vasospasm), but there are **0 clinical trials** and only **2 publications** (reviews with no digoxin-specific findings), so support is essentially limited to the model score.
+Digoxin is a cardiac glycoside originally used to treat atrial fibrillation and digitalis poisoning.
+The TxGNN model predicts it may be effective for **Prinzmetal angina**, but this is a model prediction only, with **0 clinical trials** and **1 publication** (an unrelated review), so supporting evidence is very weak.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Heart failure and atrial fibrillation (general pharmacological knowledge; the Singapore registration records give no indication text) |
+| Original Indication | Atrial fibrillation; digitalis poisoning (the Singapore licence records list no approved indication text) |
 | Predicted New Indication | Prinzmetal angina |
 | TxGNN Prediction Score | 99.81% |
-| Evidence Level | L4 (as graded in the Evidence Pack; the two publications are indirect and do not test digoxin for this condition) |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 5 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Digoxin inhibits the Na+/K+-ATPase pump. In the heart this increases contractility and slows atrioventricular conduction, which is why it is used in heart failure and atrial fibrillation.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Digoxin is generally known as a Na+/K+-ATPase inhibitor. This raises intracellular calcium and produces a vagotonic effect, which is the basis of its use for rate control in atrial fibrillation.
 
-The link to Prinzmetal angina is weak. The pump is also present in vascular smooth muscle, and inhibiting it may raise vascular tone. Prinzmetal angina is caused by coronary vasospasm, so a benefit is implausible and harm is possible. The very high TxGNN score (0.998) reflects graph-based similarity between the drug and the disease, not clinical data.
+The link to Prinzmetal (vasospastic) angina is weak. Standard therapy for vasospastic angina relies on calcium channel blockers and nitrates. Digoxin raises intracellular calcium, which could in theory promote vasospasm rather than relieve it. The high TxGNN score therefore appears to reflect knowledge-graph proximity between cardiovascular conditions, not a pharmacological rationale.
+
+The only retrieved publication is a 1999 review on chronopharmacology of antihypertensive treatment. It does not show that digoxin is useful in vasospastic angina.
+
+Other top-ranked predictions are also unsupported. These include duodenal obstruction, duodenal ulcer, duodenogastric reflux, hypoalphalipoproteinemia, homozygous familial hypercholesterolemia and nephrogenic syndrome of inappropriate antidiuresis. Thrombotic disease and stroke disorder have only indirect literature, mostly reviews of atrial fibrillation and heart failure in which digoxin is a rate-control agent. None provides a plausible repurposing signal.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [10736610](https://pubmed.ncbi.nlm.nih.gov/10736610/) | 1999 | Review | Acta Physiol Pharmacol Bulg | Chronopharmacology and its impact on antihypertensive treatment. Concerns circadian rhythms in blood pressure therapy; the provided abstract excerpt does not mention digoxin. |
-| [9206110](https://pubmed.ncbi.nlm.nih.gov/9206110/) | 1996 | Review | Chin Med Sci J | Study of 30 patients with angina decubitus, who had severe coronary obstruction and raised myocardial oxygen consumption. It is about effort-type angina, not Prinzmetal angina, and the provided abstract excerpt does not mention digoxin. |
+| [10736610](https://pubmed.ncbi.nlm.nih.gov/10736610/) | 1999 | Review | Acta Physiol Pharmacol Bulg | Chronopharmacology and its impact on antihypertensive treatment; no direct evidence for digoxin in Prinzmetal angina |
+
+---
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN01198P | LANOXIN TABLET 0.25 mg | Tablet | Not stated in registry record |
-| SIN17078P | DIGOKERN TABLETS 0.25MG | Tablet | Not stated in registry record |
-| SIN00544P | LANOXIN PAEDIATRIC/GERIATRIC ELIXIR 0.05 mg/ml | Elixir | Not stated in registry record |
-| SIN01203P | LANOXIN-PG PAEDIATRIC/GERIATRIC TABLET 0.0625 mg | Tablet | Not stated in registry record |
-| SIN00547P | LANOXIN INJECTION 0.5 mg/2 ml | Injection | Not stated in registry record |
+| SIN01198P | LANOXIN TABLET 0.25 mg | Tablet | Not stated in the licence record |
+| SIN17078P | DIGOKERN TABLETS 0.25MG | Tablet | Not stated in the licence record |
+| SIN00544P | LANOXIN PAEDIATRIC/GERIATRIC ELIXIR 0.05 mg/ml | Elixir | Not stated in the licence record |
+| SIN01203P | LANOXIN-PG PAEDIATRIC/GERIATRIC TABLET 0.0625 mg | Tablet | Not stated in the licence record |
+| SIN00547P | LANOXIN INJECTION 0.5 mg/2 ml | Injection | Not stated in the licence record |
 
 Available routes: oral (tablet), other (elixir), injectable.
 
+---
+
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications flagged in the drug-disease knowledge graph** (not label text): kidney disease, potassium deficiency, hypercalcemia, nephrocalcinosis, phosphorus metabolism disease, myocardial infarction, coronary thrombosis, hemoglobinopathy, cor pulmonale, Wolff-Parkinson-White syndrome, sick sinus syndrome, ventricular fibrillation, hypertrophic cardiomyopathy, atrioventricular block, myxedema/hypothyroidism, myocarditis, constrictive pericarditis and restrictive cardiomyopathy.
+  - Several of these are cardiac conditions that overlap with the predicted new indication population, such as myocardial infarction and coronary thrombosis.
+- **Drug Interactions**: 100 interactions were recorded. The main ones listed include:
+  - Moderate: acarbose, rabeprazole, doxycycline, tetracycline, epinephrine, hydrocortisone, dexamethasone, betamethasone, triamcinolone, cholecalciferol, calcium phosphate, metformin, amphotericin B, bupropion, acetylsalicylic acid.
+  - Minor: albiglutide, hyoscyamine, atropine, glycopyrronium.
+- Digoxin has a narrow therapeutic index, and observational registry data in atrial fibrillation raise safety questions.
 
-One theoretical concern applies to this prediction. Na+/K+-ATPase inhibition can raise vascular tone, so digoxin could worsen coronary vasospasm.
+Please also refer to the package insert for full warnings and precautions.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on the model score alone. No trials exist, the two publications are unrelated to digoxin in Prinzmetal angina, and the pharmacology argues against benefit and raises a possible safety concern.
+The Prinzmetal angina prediction rests only on a high model score (L5). There are no clinical trials, no supporting literature, and no plausible mechanism. Digoxin may even theoretically worsen vasospasm through increased intracellular calcium. The drug's narrow therapeutic index and the many knowledge-graph contraindications in cardiac disease add further concern.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications (a blocking gap for safety screening)
-- Confirmed Singapore approved-indication text and mechanism-of-action data from DrugBank
-- Any direct evidence of digoxin's effect on coronary vasospasm, such as case series or mechanistic studies
-- Review of the other predicted indications; among the top 10, only stroke disorder was staged as a research question (still L4), and it is driven by atrial fibrillation evidence
+- Package insert warnings and contraindications from the HSA (currently missing and blocking for safety screening)
+- Mechanism of action data (e.g., from DrugBank) to support a mechanistic analysis
+- Preclinical or clinical data showing a benefit of digoxin in vasospastic angina
+- A comparison against standard therapy (calcium channel blockers, nitrates) and a safety assessment for coronary disease populations
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

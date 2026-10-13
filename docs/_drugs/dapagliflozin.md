@@ -2,7 +2,7 @@
 layout: default
 title: Dapagliflozin
 parent: Low Evidence (L5)
-nav_order: 297
+nav_order: 300
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,18 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dapagliflozin: From SGLT2 Inhibition to Focal Stiff Limb Syndrome
+# Dapagliflozin: From Type 2 Diabetes Mellitus to Focal Stiff Limb Syndrome
 
 ## One-Sentence Summary
 
-Dapagliflozin is an SGLT2 inhibitor, an oral glucose-lowering drug that is marketed in Singapore.
-The TxGNN model predicts it may be effective for **Focal Stiff Limb Syndrome**,
-but **0 clinical trials** and **0 publications** currently support this direction, so the prediction rests on the model alone.
+Dapagliflozin is an SGLT2 inhibitor originally used to treat type 2 diabetes mellitus.
+The TxGNN model predicts it may be effective for **focal stiff limb syndrome**,
+but there are currently **no clinical trials** and **no publications** supporting this prediction, which rests on the model's computation alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Type 2 diabetes mellitus |
 | Predicted New Indication | Focal stiff limb syndrome |
 | TxGNN Prediction Score | 98.20% |
 | Evidence Level | L5 |
@@ -50,11 +51,13 @@ but **0 clinical trials** and **0 publications** currently support this directio
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the input. Dapagliflozin belongs to the SGLT2 inhibitor class. These drugs lower blood glucose by promoting urinary glucose excretion, and they have general metabolic and anti-inflammatory effects.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, dapagliflozin is an SGLT2 inhibitor that lowers blood glucose by reducing renal glucose reabsorption, independent of insulin. Its efficacy in type 2 diabetes is established.
 
-No direct mechanistic link to focal stiff limb syndrome was identified. This is a neurological condition, and nothing in the provided data connects SGLT2 inhibition to it. The high score (98.20%) is a knowledge-graph prediction only and is not backed by any clinical or literature evidence. The registered indication text was also empty in the data, so the relationship between the original and predicted indications cannot be assessed.
+For focal stiff limb syndrome, no plausible mechanistic link has been identified. This condition belongs to the stiff-person spectrum, which involves impaired GABAergic inhibition and is often associated with anti-GAD65 autoimmunity. Dapagliflozin acts on renal glucose handling and has no known effect on this pathway. The high score most likely reflects network proximity: GAD65 autoimmunity is shared with diabetes-related nodes in the knowledge graph, rather than a pharmacological rationale.
 
-The other nine predictions in the pack are equally unsupported. The closely related classic stiff person syndrome received the same score (98.20%). For that condition, coexisting type 1 or autoimmune diabetes is common, so ketoacidosis risk with SGLT2 inhibitors would be a safety concern.
+The same pattern appears in the other top predictions, such as classic stiff person syndrome (98.20%), opsismodysplasia (98.06%), thiamine-responsive dysfunction syndrome (98.03%), and several localized lipodystrophies (about 97%). Most of these are linked to diabetes or metabolic-disease nodes in the graph. None has clinical or literature support.
+
+Among the ten predictions in this set, pancreatic agenesis (96.59%) is the only one with any retrieved literature. This consists of a preclinical rat study on pancreatic injury and AMPK/mTOR signalling (PMID 33559163) and a case report series on HNF1B-MODY (PMID 42369057). Both are indirect and do not show dapagliflozin efficacy in pancreatic agenesis. Because that condition involves severe insulin deficiency, an SGLT2 inhibitor would carry a substantial risk of diabetic ketoacidosis.
 
 ## Clinical Trial Evidence
 
@@ -62,39 +65,46 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for focal stiff limb syndrome.
 
 ## Singapore Market Information
 
-Eight licenses are registered; the five main ones are listed below. Approved indication text was not provided for any of them.
+Eight valid licences cover products containing dapagliflozin. The data compiled for this report does not include approved indication text for any of them. The five main authorizations are listed below.
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN17199P | Dapagliflozin Sandoz Film Coated Tablet 10mg | Film-coated tablet |
-| SIN14542P | Forxiga Tablet 10mg | Film-coated tablet |
-| SIN14541P | Forxiga Tablet 5mg | Film-coated tablet |
-| SIN15079P | Xigduo XR Tablets 10mg/1000mg | Film-coated extended-release tablet |
-| SIN15078P | Xigduo XR Tablets 10mg/500mg | Film-coated extended-release tablet |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN14542P | FORXIGA TABLET 10mg | Film-coated tablet | Not available in the compiled data |
+| SIN14541P | FORXIGA TABLET 5MG | Film-coated tablet | Not available in the compiled data |
+| SIN17199P | DAPAGLIFLOZIN SANDOZ FILM COATED TABLET 10MG | Film-coated tablet | Not available in the compiled data |
+| SIN15079P | XIGDUO XR TABLETS 10MG/1000MG | Film-coated extended-release tablet | Not available in the compiled data |
+| SIN16958P | SIDAPVIA FIXED DOSE COMBINATION TABLET 10 MG/100 MG | Film-coated tablet | Not available in the compiled data |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: The interaction query returned 100 records. The 20 retrieved are mostly Moderate, with a few Minor. Examples of Moderate interactions include:
+  - Furosemide and hydrochlorothiazide (diuretics)
+  - Fosinopril and aliskiren (renin-angiotensin agents)
+  - Nifedipine and acebutolol (cardiovascular agents)
+  - Salbutamol, formoterol, epinephrine, phenylephrine and pseudoephedrine (sympathomimetics)
+  - Hydrocortisone and ethanol
+  - Topical hydrocortisone and topical alclometasone are Minor interactions.
+- **Disease-specific consideration**: In conditions with insulin deficiency (such as pancreatic agenesis or thiamine-responsive dysfunction syndrome), SGLT2 inhibitors carry a ketoacidosis risk that would need careful evaluation.
+
+For warnings and contraindications, please refer to the package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting trials or literature (Evidence Level L5) and no identified mechanistic link. The package insert safety data and mechanism of action are also missing, so the candidate cannot proceed to safety screening.
+The prediction for focal stiff limb syndrome is supported only by the model score. There are no trials or publications, and no plausible mechanistic link to SGLT2 inhibition. The score likely reflects diabetes-related network proximity. The other nine predictions in this set are likewise unsupported.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications (blocking gap; download and parse the PDF from the HSA website)
-- Mechanism of action data (query the DrugBank API)
-- Registered indication text for the Singapore licenses
-- Any preclinical or clinical evidence linking SGLT2 inhibition to focal stiff limb syndrome
-- A ketoacidosis risk assessment for patients with insulin deficiency or autoimmune diabetes
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Detailed mechanism of action data for dapagliflozin
+- Package insert warnings and contraindications from the Health Sciences Authority (HSA), which are required before any safety screening
+- Approved indication text for the Singapore licences
+- Any preclinical or clinical evidence linking SGLT2 inhibition to GABAergic or stiff-person-spectrum pathology; without it, this candidate should not advance
+- A review of the remaining nine predictions for a candidate with stronger evidence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

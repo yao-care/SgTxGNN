@@ -2,7 +2,7 @@
 layout: default
 title: Mebeverine
 parent: Low Evidence (L5)
-nav_order: 632
+nav_order: 638
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,17 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Mebeverine: From Spasm-Related Gastrointestinal Symptoms to Cauda Equina Syndrome
+# Mebeverine: From Irritable Bowel Syndrome to Cauda Equina Syndrome
 
 ## One-Sentence Summary
 
-Mebeverine is a musculotropic antispasmodic used for spasm-related gastrointestinal symptoms. The TxGNN model predicts it may be effective for **cauda equina syndrome**, but this is a **model prediction only**, with **0 clinical trials** and **0 publications** supporting it.
+Mebeverine is an antispasmodic originally used for irritable bowel syndrome, and the knowledge graph also lists Clostridium difficile colitis and neurocirculatory asthenia as original indications.
+The TxGNN model predicts it may be effective for **cauda equina syndrome**.
+Currently there are **0 clinical trials** and **0 publications** supporting this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Spasm-related gastrointestinal symptoms (general pharmacological use; the Singapore licence records contain no indication text) |
+| Original Indication | Irritable bowel syndrome (knowledge graph; no approved indication text is listed in the Singapore licences) |
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 98.01% |
 | Evidence Level | L5 |
@@ -49,16 +51,11 @@ Mebeverine is a musculotropic antispasmodic used for spasm-related gastrointesti
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on general pharmacology, mebeverine is a musculotropic antispasmodic that relaxes smooth muscle. Its efficacy in gastrointestinal spasm is the basis for the theory that it could apply to other smooth-muscle problems.
+Currently, detailed mechanism of action data is not available. Based on known information, mebeverine is a gastrointestinal antispasmodic that acts on gut smooth muscle. Its use in irritable bowel syndrome is established, and mechanistically it may relieve smooth muscle spasm in some settings.
 
-Cauda equina syndrome involves bowel and bladder sphincter and detrusor dysfunction. A smooth-muscle relaxant could in theory ease some of these symptoms. It would not treat the underlying nerve compression, which is a surgical emergency, so any benefit would be symptomatic at most.
+Cauda equina syndrome is a neurological emergency caused by compression of the lumbosacral nerve roots. One plausible but unverified link is neurogenic bowel or bladder dysfunction, where smooth muscle spasm could be a symptom. Mebeverine would not address the underlying nerve injury, so at most it could offer symptom relief.
 
-The link rests on general pharmacology alone. No trials or publications support it, and the high score may reflect knowledge-graph proximity rather than real clinical signal.
-
-Other predictions from the model, all also L5 except one:
-- **Neurogenic bladder (score 96.8%):** biologically plausible through smooth-muscle relaxation, but the disease term is flagged obsolete in the ontology. It is classed as a Research Question, and the mapping should be checked first.
-- **Gastroduodenitis (score 81.1%):** the only candidate with any literature (L4). It is a single 2009 review on gastroesophageal reflux treatment that does not mention mebeverine, so it is at most indirect context.
-- **Insomnia, rhinitis, and the mitral valve prolapse entries:** no plausible mechanism, likely knowledge-graph artifacts.
+The score may also reflect proximity in the knowledge graph rather than biological relevance. Other predictions for this drug (such as insomnia, rhinitis and mitral valve prolapse) have no clear mechanistic rationale, which suggests caution about the model's output as a whole. Among the ten predictions, gastroduodenitis (score 81.1%) is the closest to mebeverine's current clinical use, but it also has no clinical support.
 
 ## Clinical Trial Evidence
 
@@ -70,28 +67,30 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN09873P | MEBETIN TABLET 135 mg | Tablet, sugar coated (oral) | Sam Chun Dang Pharm Co Ltd |
-| SIN07666P | DUSPATALIN RETARD CAPSULE 200 mg | Capsule (oral) | Abbott Biologicals B.V. / Mylan Laboratories SAS / Abbott Laboratories GmbH |
+| SIN09873P | MEBETIN TABLET 135 mg | Tablet, sugar coated | Not listed in the data compiled for this report |
+| SIN07666P | DUSPATALIN RETARD CAPSULE 200 mg | Capsule | Not listed in the data compiled for this report |
+
+Both licences are valid single-ingredient products for oral use. Mebetin is made by Sam Chun Dang Pharm Co Ltd. Duspatalin Retard is made by Abbott Biologicals B.V., Mylan Laboratories SAS and Abbott Laboratories GmbH.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No drug interaction records were found for mebeverine in the data compiled for this report, and no contraindicated diseases were identified from the knowledge graph.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is scored high (98.01%) but has no trials or literature behind it, so it is L5. The proposed mechanism is theoretical, and mebeverine would not address the cause of cauda equina syndrome, which needs urgent surgery.
+The prediction for cauda equina syndrome is supported only by a model score of 0.98, with no clinical trials or literature. The proposed mechanism is speculative, and mebeverine could at most relieve symptoms without treating the nerve compression. All ten predicted indications are at evidence level L5.
 
 **To proceed, the following is needed:**
-- Mechanism of action data for mebeverine (for example, from DrugBank)
-- Package insert warnings and contraindications from HSA, needed for safety screening
-- Approved indication text for the Singapore licences
-- A literature and trial search targeted at mebeverine in bladder or bowel dysfunction from neurological causes
-- Resolution of the obsolete "neurogenic bladder" ontology mapping, if that candidate is pursued instead
+- Mechanism of action data for mebeverine (for example from DrugBank)
+- Package insert warnings and contraindications from the HSA website, which are needed before any safety screening
+- A literature and trial search specific to mebeverine in neurogenic bowel or bladder dysfunction, and in cauda equina syndrome
+- Clarification of the approved indication wording on the two Singapore licences
+- Assessment of route compatibility and the clinical need, since cauda equina syndrome is a surgical emergency and any role for mebeverine would be adjunctive symptom control
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Levodopa
 parent: Low Evidence (L5)
-nav_order: 590
+nav_order: 596
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,67 +29,137 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Levodopa: From Parkinson's Disease to Rasmussen Subacute Encephalitis
+# Levodopa: From Parkinson Disease to PLA2G6-Associated Neurodegeneration
 
 ## One-Sentence Summary
 
-Levodopa is a dopamine precursor. It is a mainstay treatment for Parkinson's disease, though the Singapore registration records supplied here do not state an indication.
-The TxGNN model predicts it may be effective for **Rasmussen subacute encephalitis**, but this is a graph-based inference only, with **0 clinical trials** and **0 publications** supporting it.
+Levodopa is a dopamine precursor, originally used to treat Parkinson disease and related parkinsonian disorders.
+The TxGNN model's top-ranked prediction is Rasmussen subacute encephalitis, but that prediction has no supporting studies. The best-supported candidate is **PLA2G6-associated neurodegeneration**, with **no clinical trials** and **20 publications** (mostly case series and reviews) currently supporting this direction.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the supplied registration data (Parkinson's disease is levodopa's well-known use, from general knowledge rather than the Evidence Pack) |
-| Predicted New Indication | Rasmussen subacute encephalitis |
-| TxGNN Prediction Score | 99.06% |
-| Evidence Level | L5 (model prediction only) |
+| Original Indication | Parkinson disease and related parkinsonian disorders (the Singapore licence records contain no indication text) |
+| Predicted New Indication | Rasmussen subacute encephalitis (rank 1, no evidence); PLA2G6-associated neurodegeneration (rank 2) is the best-supported candidate |
+| TxGNN Prediction Score | 99.06% (Rasmussen subacute encephalitis); 98.75% (PLA2G6-associated neurodegeneration) |
+| Evidence Level | L5 (rank 1); L3 (PLA2G6-associated neurodegeneration) |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 13 |
-| Recommended Decision | Hold |
+| Recommended Decision | Hold (rank 1); Research Question for PLA2G6-associated neurodegeneration |
+
+The rank-1 prediction has no trials or literature, so the sections below cover the top-ranked prediction and the best-supported alternative, PLA2G6-associated neurodegeneration.
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on general pharmacology, levodopa is converted to dopamine in the brain and replaces the neurotransmitter lost in Parkinson's disease. Its efficacy there is well established.
+Detailed mechanism of action data is not available in the data compiled for this report. Levodopa is widely known as the metabolic precursor of dopamine. It is converted to dopamine in the brain and replaces the dopamine lost when nigrostriatal neurons degenerate. It is the most established symptomatic therapy for parkinsonian disorders.
 
-For Rasmussen encephalitis, the data do not support a mechanistic link. Rasmussen encephalitis is an immune-mediated epilepsy syndrome, and dopamine replacement has no established rationale in it. The 99.06% score reflects graph proximity in the knowledge graph, not biological or clinical evidence, so this prediction should not be treated as credible without independent support.
+**Rank 1, Rasmussen subacute encephalitis:** This is a chronic, likely T-cell-mediated inflammatory epileptic encephalopathy affecting one hemisphere. No mechanistic link to dopamine replacement can be supported from the available data. The high score may reflect network proximity to parkinsonian or basal ganglia phenotypes in the knowledge graph. No trials or literature were retrieved.
+
+**Rank 2, PLA2G6-associated neurodegeneration (PLAN):** This is a more plausible candidate. PLA2G6-related disease, including dystonia-parkinsonism and adult-onset parkinsonism, involves nigrostriatal dopaminergic dysfunction and Lewy body pathology. Case series and genotype-phenotype studies describe parkinsonism with a variable levodopa response. The response is often initially good but transient, and motor complications and dyskinesias are reported. Levodopa is therefore a reasonable symptomatic option for the parkinsonian phenotype, not a disease-modifying therapy.
+
+**Other candidates with a plausible dopaminergic basis:**
+- Multiple system atrophy, parkinsonian type, is treated with levodopa as first-line symptomatic therapy. The response is present in a subset of patients and often wanes.
+- Lewy body dementia shares alpha-synuclein pathology and nigrostriatal loss with Parkinson disease. Levodopa gives modest motor benefit but may worsen psychosis or hallucinations.
+- Progressive supranuclear palsy-corticobasal syndrome is usually trialled with levodopa, but responses are limited and short-lived.
+- X-linked intellectual disability-ataxia-apraxia syndrome: reports in MCT8 deficiency (Allan-Herndon-Dudley syndrome) describe parkinsonism-like features and a levodopa/carbidopa response. The mapping to the listed disease name is imprecise.
+
+**Weak or unsupported predictions:**
+- Myelitis: the literature consists of case reports of parkinsonism occurring with or after myelitis or infection. These support levodopa for secondary parkinsonian symptoms, not for myelitis itself.
+- Transaldolase deficiency and fructose-1,6-bisphosphatase deficiency: metabolic disorders with no evident dopaminergic mechanism and no supporting data.
+- Paralysis agitans, juvenile, of Hunt: a historical term for juvenile parkinsonism that overlaps with the existing indications. It is probably not a true repurposing candidate.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+For the best-supported candidate, PLA2G6-associated neurodegeneration, and for the rank-1 prediction, no clinical trials are currently registered. Trials were found only for two lower-ranked candidates:
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT06831500](https://clinicaltrials.gov/study/NCT06831500) | Phase 1/2 | Recruiting | 36 | Randomised, double-blind feasibility study of the carbidopa/levodopa ratio and orthostatic hypotension in MSA-parkinsonian type and Parkinson disease (multiple system atrophy, parkinsonian type) |
+| [NCT02994719](https://clinicaltrials.gov/study/NCT02994719) | N/A | Active, not recruiting | 120 | Observational gait pattern analysis in neurological disease, mainly parkinsonian disorders; does not test levodopa efficacy (PSP-corticobasal syndrome and MSA-P) |
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available.
+**PLA2G6-associated neurodegeneration (rank 2)**
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [34622992](https://pubmed.ncbi.nlm.nih.gov/34622992/) | 2022 | Review/Case series | Mov Disord | Complex parkinsonism is the commonest phenotype in late-onset PLAN |
+| [32183746](https://pubmed.ncbi.nlm.nih.gov/32183746/) | 2020 | Case series | BMC Neurol | Genotype-phenotype correlations in adult-onset PLAN |
+| [20669327](https://pubmed.ncbi.nlm.nih.gov/20669327/) | 2010 | Case series/Cohort | Mov Disord | Early-onset levodopa-responsive parkinsonism with pyramidal signs due to ATP13A2, PLA2G6, FBXO7 and spatacsin mutations |
+| [18570303](https://pubmed.ncbi.nlm.nih.gov/18570303/) | 2009 | Genetic/Case series | Ann Neurol | PLA2G6 characterised as a locus for dystonia-parkinsonism |
+| [39184971](https://pubmed.ncbi.nlm.nih.gov/39184971/) | 2024 | Retrospective cohort | Tremor Other Hyperkinet Mov | Clinical, radiological and genetic spectrum of PLAN at a tertiary centre in India |
+
+**Other candidates (selected)**
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [26085043](https://pubmed.ncbi.nlm.nih.gov/26085043/) | 2015 | Systematic review/Meta-analysis | Am J Psychiatry | Pharmacological management of Lewy body dementia (Lewy body dementia) |
+| [36402160](https://pubmed.ncbi.nlm.nih.gov/36402160/) | 2022 | Phase 3 RCT | Lancet Neurol | Foslevodopa-foscarbidopa in advanced Parkinson disease; indirect evidence only (Lewy body dementia) |
+| [27787721](https://pubmed.ncbi.nlm.nih.gov/27787721/) | 2016 | Review | Curr Treat Options Neurol | MSA treatment is purely symptomatic (MSA-P) |
+| [34776506](https://pubmed.ncbi.nlm.nih.gov/34776506/) | 2021 | Case report | Am J Case Rep | Dopamine-responsive MSA cerebellar type (MSA) |
+| [41144879](https://pubmed.ncbi.nlm.nih.gov/41144879/) | 2026 | Case series | Mov Disord | Altered dopamine metabolism and response to levodopa/carbidopa in MCT8 deficiency |
+| [40088079](https://pubmed.ncbi.nlm.nih.gov/40088079/) | 2025 | Case series | Mov Disord | Allan-Herndon-Dudley syndrome patients show parkinsonism and respond to levodopa/carbidopa |
+| [31356287](https://pubmed.ncbi.nlm.nih.gov/31356287/) | 2019 | Review | Continuum | PSP, CBD and MSA are usually poorly levodopa-responsive (PSP-corticobasal syndrome) |
+| [9302666](https://pubmed.ncbi.nlm.nih.gov/9302666/) | 1997 | Case report | Lupus | Levodopa effective for parkinsonian symptoms after transverse myelitis in SLE (myelitis) |
+
+---
 
 ## Singapore Market Information
 
-Levodopa has 13 registrations in Singapore. Five main ones are listed below. None of the registration records include approved indication text.
+There are 13 valid single-ingredient registrations. The licence records contain no approved indication text. The main five are:
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN06119P | MADOPAR 250 TABLET 250 mg | Tablet | Not stated in record |
-| SIN06121P | MADOPAR 125 CAPSULE 125 mg | Capsule | Not stated in record |
-| SIN10286P | CREDANIL 25/250 TABLET | Tablet | Not stated in record |
-| SIN05195P | MADOPAR HBS 125 CAPSULE | Capsule | Not stated in record |
-| SIN11075P | MADOPAR DISPERSIBLE TABLETS 125 mg | Tablet | Not stated in record |
+| SIN06119P | MADOPAR 250 TABLET 250 mg | Tablet | Not stated in the licence record |
+| SIN06121P | MADOPAR 125 CAPSULE 125 mg | Capsule | Not stated in the licence record |
+| SIN05195P | MADOPAR HBS 125 CAPSULE | Capsule | Not stated in the licence record |
+| SIN11075P | MADOPAR DISPERSIBLE TABLETS 125 mg | Tablet | Not stated in the licence record |
+| SIN13142P | Stalevo Film Coated Tablets 100/25/200 mg | Film-coated tablet | Not stated in the licence record |
+
+All available forms are oral (tablet, capsule, film-coated tablet).
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. The HSA package insert has not yet been retrieved, and no drug interaction records were found.
+**Contraindications (from knowledge graph drug-disease edges, not package insert text):**
+Disease associations recorded as contraindications include:
+- Neurological and psychiatric: multiple system atrophy, drug-induced dyskinesia, epilepsy, psychotic disorder, schizophreniform disorder, schizoaffective disorder, mental disorder, anxiety disorder, neurotic disorder, dysthymic disorder
+- Cardiovascular: orthostatic hypotension, postural orthostatic tachycardia syndrome, myocardial infarction, coronary thrombosis, sudden cardiac arrest, heart conduction disease
+- Eye: open-angle glaucoma, angle-closure glaucoma
+- Gastrointestinal, hepatic and renal: gastric ulcer, peptic ulcer disease, liver disease, kidney disease, gallbladder disease, diarrheal disease, pyoureter
+- Metabolic, blood and other: diabetes mellitus, diabetic ketoacidosis, hemoglobinopathy, melanoma
+
+**Drug Interactions:** 100 interactions were found; the first 20 are summarised here.
+- Moderate: epinephrine, ephedrine, bupropion, metronidazole, pyridoxine, iron, metoclopramide, and anticholinergics (atropine, hyoscyamine, methscopolamine, glycopyrronium, clidinium, dicyclomine, mepenzolate)
+- Minor: antacids (aluminum hydroxide, calcium carbonate, magaldrate, magnesium carbonate, magnesium hydroxide, magnesium oxide)
+
+Please refer to the package insert for the official warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a graph score alone. There are no trials or publications, and the rationale points away from a mechanistic link, since Rasmussen encephalitis is immune-mediated.
+The top-ranked prediction, Rasmussen subacute encephalitis, has a high model score (99.06%) but no trials, no literature and no supportable mechanism (Evidence Level L5). The strongest alternative, PLA2G6-associated neurodegeneration, has only retrospective and case-level evidence (L3) with no trials. The data support levodopa as symptomatic treatment of the parkinsonian phenotype, not as disease-modifying therapy. It is best treated as a research question rather than a repurposing candidate ready to proceed. Lewy body dementia and MSA-P are also research questions. Myelitis, transaldolase deficiency and fructose-1,6-bisphosphatase deficiency are not supported by the data.
 
 **To proceed, the following is needed:**
-- A targeted literature search on levodopa in Rasmussen encephalitis, to confirm whether any evidence exists
-- Mechanism of action data (e.g., from DrugBank)
-- HSA package insert warnings and contraindications, to allow safety screening
-- Consider other indications in the same prediction list that have stronger supporting evidence than this one. Lewy body dementia and multiple system atrophy (parkinsonian type) are both at L3, and PLA2G6-associated neurodegeneration is at L4. Their evidence is mostly reviews and case reports, with no levodopa-specific RCT supplied.
+- Package insert warnings and contraindications from the Singapore regulator (HSA), which are currently missing and are a blocking gap for safety screening
+- Mechanism of action data for levodopa
+- Prospective or registry data on levodopa response in PLA2G6-associated neurodegeneration, including the duration of benefit and the rate of dyskinesia
+- Confirmation of the tested intervention in NCT06831500 and evidence on levodopa in MSA-P and Lewy body dementia
+- Review of the knowledge graph contraindications (psychosis, cardiovascular disease, glaucoma) for the target populations
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

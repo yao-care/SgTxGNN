@@ -2,7 +2,7 @@
 layout: default
 title: Ceftolozane
 parent: Low Evidence (L5)
-nav_order: 224
+nav_order: 225
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,18 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ceftolozane: From Bacterial Infection Treatment to Gonococcal Urethritis
+# Ceftolozane: From Urinary Tract Infection to Gonococcal Urethritis
 
 ## One-Sentence Summary
 
-Ceftolozane is a cephalosporin antibacterial, marketed in Singapore as an injectable (Zerbaxa, combined with tazobactam).
+Ceftolozane is a cephalosporin antibiotic originally used to treat urinary tract infection.
 The TxGNN model predicts it may be effective for **gonococcal urethritis**,
-but currently there are **0 clinical trials** and **0 publications** supporting this specific prediction.
+but **no clinical trials and no publications** currently support this prediction, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Urinary tract infection (the Singapore licence record contains no approved indication text) |
 | Predicted New Indication | Gonococcal urethritis |
 | TxGNN Prediction Score | 99.89% |
 | Evidence Level | L5 |
@@ -50,16 +51,16 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the source record. Ceftolozane belongs to the cephalosporin class, which inhibits bacterial penicillin-binding proteins and blocks cell wall synthesis. Ceftolozane covers Enterobacterales and *Pseudomonas aeruginosa*.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, ceftolozane is a cephalosporin that inhibits bacterial cell wall synthesis by binding penicillin-binding proteins. Its activity is mainly against *Pseudomonas aeruginosa* and Enterobacterales.
 
-Other cephalosporins, such as ceftriaxone, are standard therapy for *Neisseria gonorrhoeae*, so the mechanism is plausible. However, no ceftolozane-specific gonococcal data were found, and the drug is not positioned for this use. The high score most likely reflects class-level antibacterial similarity rather than drug-specific evidence.
+Urinary tract infection and gonococcal urethritis are both infections of the urogenital tract, and other beta-lactams (for example ceftriaxone) are used for gonorrhoea. The high TxGNN score probably reflects this class-level similarity rather than drug-specific evidence. Ceftolozane has limited activity against *Neisseria gonorrhoeae*, so the rationale is weak and unproven.
 
-The other top predictions are weaker or less plausible:
-- **Xanthogranulomatous pyelonephritis** (99.88%) has the strongest biological link, because ceftolozane/tazobactam is already used for complicated urinary tract infections. It is a chronic, obstructive condition managed mainly by surgery, and the only literature is a general review of febrile UTI (PMID 26658652). Evidence level is L4.
-- **Uterine inflammatory disease** (99.88%) is plausible for Gram-negative coverage, but ceftolozane alone lacks anaerobic and atypical pathogen coverage.
-- **Ureaplasma urethritis** is mechanistically implausible, because *Ureaplasma* has no cell wall and beta-lactams are expected to be inactive.
-- **Urogenital tuberculosis** is implausible, because *M. tuberculosis* produces a beta-lactamase and is generally not susceptible to standard cephalosporins.
-- The remaining candidates (polyclonal hyperviscosity syndrome, hyperamylasemia, congenital analbuminemia, blood group incompatibility, premalignant hematological system disease) have no plausible mechanism and are likely knowledge-graph artifacts.
+The other top-ranked predictions are also not well supported:
+- **Ureaplasma urethritis**: *Ureaplasma* has no cell wall, so beta-lactams are mechanistically unlikely to work.
+- **Uterine inflammatory disease**: Plausible for polymicrobial pelvic infection, but unproven.
+- **Xanthogranulomatous pyelonephritis**: The most plausible candidate, since the drug (usually with tazobactam) is used for complicated UTI and pyelonephritis. This chronic destructive condition is usually linked to obstruction and stones and often needs surgery, so antibiotics alone are unlikely to be enough. One general review is available (indirect support only; evidence level L4).
+- **Urogenital tuberculosis**: Mycobacteria are intrinsically resistant to most beta-lactams.
+- **Non-infectious conditions** (polyclonal hyperviscosity syndrome, hyperamylasemia, congenital analbuminemia, blood group incompatibility, premalignant haematological disease): No plausible antibacterial mechanism; these are likely model artifacts.
 
 ## Clinical Trial Evidence
 
@@ -67,35 +68,41 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+For the top-ranked prediction (gonococcal urethritis), currently no related literature is available.
+
+The only publication retrieved across the top-ten predictions relates to the rank 4 prediction (xanthogranulomatous pyelonephritis):
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [26658652](https://pubmed.ncbi.nlm.nih.gov/26658652/) | 2016 | Review | Current Opinion in Infectious Diseases | General review of febrile urinary tract infections, including pyelonephritis and urosepsis; indirect support only |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN15317P | ZERBAXA POWDER FOR SOLUTION FOR INJECTION 1G/0.5G | Injection, powder, for solution | Steri-Pharma, LLC; ACS Dobfar, S.p.A (ceftolozane drug product intermediate) |
-
-The only available route is injectable.
+| SIN15317P | ZERBAXA POWDER FOR SOLUTION FOR INJECTION 1G/0.5G | Injection, powder, for solution | Not recorded in the compiled data |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: 11 interactions were identified, all rated Moderate:
+  - Aminoglycosides: kanamycin, neomycin, streptomycin, amikacin (including liposomal), gentamicin
+  - Anticoagulants: warfarin, dicoumarol
+  - Others: chloramphenicol, ethinylestradiol, mycophenolic acid
+
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a model score (L5), with no trials or literature and no ceftolozane-specific gonococcal data. Gonorrhoea already has established cephalosporin therapy, and safety information from the package insert has not been reviewed.
+The prediction for gonococcal urethritis is supported only by the model score, with no clinical trials or literature. Ceftolozane has limited activity against *N. gonorrhoeae*, and established alternatives already exist. Several other top predictions are biologically implausible.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from the HSA record (required before any safety screening)
-- Mechanism of action data (e.g., from DrugBank)
-- In vitro susceptibility data for *N. gonorrhoeae* against ceftolozane, including resistance patterns
-- A comparison against current standard gonorrhoea therapy to establish whether there is any added value
-- If a urinary tract direction is preferred, a targeted literature review for xanthogranulomatous pyelonephritis, which has the most plausible link
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Package insert warnings and contraindications from the HSA, and the approved indication text for the Singapore licence
+- Detailed mechanism of action data
+- In vitro susceptibility data for *N. gonorrhoeae* and relevant clinical isolates
+- If any indication is pursued, xanthogranulomatous pyelonephritis is the most plausible lead, but it needs targeted literature review and clinical input on the role of surgery
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

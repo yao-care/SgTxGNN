@@ -29,19 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Agalsidase Beta: From Fabry Disease to Cervical Neuroblastoma
+# Agalsidase beta: From Fabry Disease to Cervical Neuroblastoma
 
 ## One-Sentence Summary
 
-Agalsidase beta is a recombinant alpha-galactosidase A used as enzyme replacement therapy in Fabry disease.
-The TxGNN model predicts it may be effective for **Cervical Neuroblastoma**, but there are currently **0 clinical trials** and **0 publications** supporting this direction.
-The prediction rests on the model score alone.
+Agalsidase beta is a recombinant human alpha-galactosidase A enzyme replacement therapy, marketed in Singapore as Fabrazyme and used for Fabry disease.
+The TxGNN model predicts it may be effective for **cervical neuroblastoma**, but **no clinical trials and no publications** currently support this direction.
+The prediction is purely computational and has no biological or clinical backing in the data compiled for this report.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Fabry disease (enzyme replacement; the HSA license text in the data is blank) |
+| Original Indication | Fabry disease (based on the drug's known use; the Singapore licence records contain no indication text) |
 | Predicted New Indication | Cervical neuroblastoma |
 | TxGNN Prediction Score | 98.37% |
 | Evidence Level | L5 |
@@ -51,45 +51,52 @@ The prediction rests on the model score alone.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Agalsidase beta is a recombinant human alpha-galactosidase A. It replaces the deficient enzyme in Fabry disease and clears the accumulated glycosphingolipid Gb3.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, agalsidase beta replaces the deficient lysosomal enzyme alpha-galactosidase A in Fabry disease, helping to clear globotriaosylceramide (Gb3) that builds up in tissues.
 
-Cervical neuroblastoma is a neural crest malignancy, and no plausible mechanistic link to enzyme replacement was identified. Nothing in the data suggests that clearing Gb3 has an antitumour effect. The high score (rank 14,961 in the model's list) most likely reflects graph proximity between Fabry-related nodes and neoplasm nodes rather than disease-specific biology.
+No plausible mechanistic link between this enzyme replacement and neuroblastoma was identified. Gangliosides and Gb3 metabolism have only a tenuous, speculative connection to neural crest tumours. The high score (98.37%) most likely reflects the structure of the knowledge graph rather than biological evidence.
 
-The other nine top predictions are similar: schwannoma of the jugular foramen, epiglottis neoplasm, several benign head and neck neoplasms, nasal inverting papilloma, vestibulocochlear nerve neoplasm and jugular foramen meningioma. Their scores are nearly identical (98.28–98.37%) and none has trial or literature support. This clustering points to a model artifact.
+The other top predictions show the same pattern. They are mostly head and neck or nerve-related neoplasms:
 
-## Clinical Trial Evidence
+- Schwannoma of jugular foramen (98.35%)
+- Epiglottis neoplasm (98.32%)
+- Benign neoplasm of tongue (98.31%)
+- Benign neoplasm of floor of mouth (98.31%)
+- Benign neoplasm of buccal mucosa (98.31%)
+- Benign neoplasm of hypopharynx (98.30%)
+- Nasal cavity inverting papilloma (98.29%)
+- Vestibulocochlear nerve neoplasm (98.28%)
+- Jugular foramen meningioma (98.28%)
 
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available.
+For each of these, no mechanistic link was found. The scores likely reflect clustering of neighbouring tumour nodes in the graph, or Fabry disease features such as neuropathy and hearing loss, which are not tumour biology.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN13609P | Fabrazyme® 35 mg (agalsidase beta) | Powder for solution for injection |
-| SIN13610P | Fabrazyme® 5 mg (agalsidase beta) | Powder for solution for injection |
-
-Both licenses are held by Genzyme Ireland Limited (SIN13610P is the fill-finish site). The approved indication text is blank in the data provided.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN13609P | Fabrazyme 35mg (agalsidase beta) | Injection, powder, for solution | Not recorded in the licence data |
+| SIN13610P | Fabrazyme 5mg (agalsidase beta) | Injection, powder, for solution | Not recorded in the licence data |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions** (4 recorded):
+  - **Major**: Amiodarone, Chloroquine, Gentamicin
+  - **Moderate**: Migalastat
+
+Please refer to the package insert for other safety information, including warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is model-only (L5), with no trials, no literature and no plausible mechanistic link. Enzyme replacement for a lysosomal storage disorder has no known antitumour role in neural crest tumours.
+The prediction rests on a model score alone. There are no registered clinical trials or publications, and no plausible mechanism links enzyme replacement for Fabry disease to neuroblastoma. The same holds for the other top-ranked predictions.
 
 **To proceed, the following is needed:**
-- A biological rationale linking alpha-galactosidase A or Gb3 to neuroblastoma, supported by preclinical evidence
-- Detailed mechanism of action data (MOA)
-- The HSA package insert, to confirm the approved indication and safety information
-- Independent corroboration that the prediction is not an artifact of the head and neck neoplasm cluster
+- Mechanism of action data (MOA) for agalsidase beta
+- Package insert warnings and contraindications from the Singapore regulator
+- Evidence of a biological link between Gb3/alpha-galactosidase A and neuroblastoma, such as preclinical studies
+- Review of the high-scoring predictions as a group, to judge whether graph proximity explains the scores
+- Confirmation that an injectable enzyme therapy is feasible for the target tumour site
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

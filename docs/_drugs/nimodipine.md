@@ -2,7 +2,7 @@
 layout: default
 title: Nimodipine
 parent: Low Evidence (L5)
-nav_order: 706
+nav_order: 714
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Nimodipine: From Its Registered Indication to Homozygous Familial Hypercholesterolemia
+# Nimodipine: From Subarachnoid Hemorrhage to Homozygous Familial Hypercholesterolemia
 
 ## One-Sentence Summary
 
-Nimodipine is an L-type calcium channel blocker marketed in Singapore as an infusion and as a tablet; the registration records do not state its approved indication.
-The TxGNN model predicts it may be effective for **homozygous familial hypercholesterolemia**, but there are currently **0 clinical trials** and **0 publications** supporting this direction.
-This is a model-only prediction (Evidence Level L5), and no biological link has been identified.
+Nimodipine is a calcium channel blocker originally used for aneurysmal subarachnoid hemorrhage.
+The TxGNN model predicts it may be effective for **homozygous familial hypercholesterolemia**,
+but **no clinical trials and no publications** currently support this prediction, so it is a computational prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration records |
+| Original Indication | Subarachnoid hemorrhage (acquired aneurysmal subarachnoid hemorrhage), based on the knowledge graph; the Singapore licence records contain no indication text |
 | Predicted New Indication | Homozygous familial hypercholesterolemia |
 | TxGNN Prediction Score | 99.29% |
 | Evidence Level | L5 |
@@ -51,11 +51,11 @@ This is a model-only prediction (Evidence Level L5), and no biological link has 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the database. Based on the review of the prediction, nimodipine is a vasoselective dihydropyridine calcium channel blocker, and its known cerebrovascular activity is the basis for its use in vasospasm after subarachnoid hemorrhage.
+Currently, detailed mechanism of action data is not available. Based on known information, nimodipine is an L-type calcium channel blocker with selectivity for cerebral blood vessels. Its efficacy in subarachnoid hemorrhage (preventing vasospasm and delayed cerebral ischemia) is established.
 
-Homozygous familial hypercholesterolemia is a genetic disorder of LDL receptor function and lipid metabolism. Nimodipine has no established effect on the LDL receptor or on lipid metabolism, so no plausible mechanistic link exists between the two. The very high TxGNN score reflects proximity in the knowledge graph, not a demonstrated pharmacological rationale.
+For homozygous familial hypercholesterolemia, the data compiled for this report identify **no plausible mechanistic link**. The condition is caused by defects in LDL receptor pathways, and calcium channel blockade has no established role in lipid metabolism. The high TxGNN score is therefore best treated as a model output that needs independent validation rather than as supporting evidence.
 
-The prediction should therefore be treated as a hypothesis only. Nimodipine's approved use is unrelated to lipid disorders, and no clinical or literature support was found.
+Other top-ranked predictions show a similar pattern. Most also have no trials or literature. Two are somewhat more plausible mechanistically, congestive heart failure (indirect cardiovascular literature, but calcium channel blockers are generally not beneficial in heart failure with reduced ejection fraction) and Moyamoya angiopathy (cerebrovascular rationale, with a caution that lowering blood pressure could reduce cerebral perfusion). Neither has direct clinical evidence.
 
 ## Clinical Trial Evidence
 
@@ -63,35 +63,37 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for homozygous familial hypercholesterolemia.
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN06931P | NIMOTOP FOR INFUSION 0.02% | Injection | Not listed in the record |
-| SIN09111P | NIMOTOP TABLET 30 mg | Tablet, film coated | Not listed in the record |
+| SIN06931P | NIMOTOP FOR INFUSION 0.02% | Injection | Not stated in the available record |
+| SIN09111P | NIMOTOP TABLET 30 mg | Film-coated tablet | Not stated in the available record |
 
-Both products are manufactured by Bayer AG. Two routes are available: injectable and oral.
+Both are valid single-ingredient products (manufacturer: Bayer AG). Routes available: injectable and oral.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease contraindications (knowledge graph, not label text)**: liver disease, gallbladder disease, hypotensive disorder.
+- **Drug Interactions**: 100 interactions were identified in total. Major-level interactions in the listed sample include **clarithromycin** and **dolasetron**. Moderate-level interactions include bupropion, aprepitant, morphine, acetylsalicylic acid, cimetidine, miconazole, magnesium sulfate, canagliflozin, dapagliflozin, empagliflozin, aminoglycosides (kanamycin, neomycin), and several calcium salts.
+- Literature in the data also notes that grapefruit juice can raise the oral bioavailability of dihydropyridine calcium channel blockers through CYP3A4 inhibition.
+
+Please refer to the package insert for warnings and label contraindications, which were not available for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on the model score alone. There are no trials or publications, and the mechanism of nimodipine does not connect to LDL receptor function or lipid metabolism. Established lipid-lowering therapies address this disease directly, so there is no basis to advance this candidate.
+The prediction rests on a model score alone (Evidence Level L5). There are no trials or publications, and no plausible mechanistic link between L-type calcium channel blockade and the LDL receptor pathway. Nimodipine is marketed in Singapore, but its safety profile in a lipid-disorder population has not been examined.
 
 **To proceed, the following is needed:**
-- The Singapore package insert (warnings, contraindications and approved indication), which is currently missing and blocks safety screening
-- Detailed mechanism of action data from DrugBank
-- A credible mechanistic or preclinical rationale linking nimodipine to LDL receptor or lipid pathways
-- A review of lower-ranked predictions with a plausible mechanistic link, such as Moyamoya angiopathy (cerebrovascular activity). None of them has supporting evidence yet either, and the decision for each is currently also Hold.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Package insert warnings and contraindications from HSA (currently a blocking gap for safety screening)
+- Mechanism of action data (e.g., from DrugBank)
+- Preclinical or mechanistic evidence linking calcium channel blockade to lipid metabolism or LDL receptor function
+- If pursuing other predictions, consider prioritising Moyamoya angiopathy as a research question, given its cerebrovascular rationale. This would still require a literature search and a hemodynamic safety assessment.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

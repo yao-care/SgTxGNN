@@ -2,7 +2,7 @@
 layout: default
 title: Orlistat
 parent: Low Evidence (L5)
-nav_order: 735
+nav_order: 743
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,106 +29,69 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Orlistat: From Obesity Management to Hypervitaminosis
+# Orlistat: From Obesity to Hypervitaminosis
 
 ## One-Sentence Summary
 
-Orlistat is a gastrointestinal lipase inhibitor marketed as an anti-obesity drug. The Singapore licence records provided contain no approved-indication text, so obesity is inferred from the drug's mechanism and its trial history.
-The TxGNN model gives its top-ranked prediction, **hypervitaminosis**, a score of 99.42%, but **0 clinical trials** and **0 publications** support it.
-Of the ten predicted indications, only fatty liver disease has meaningful evidence (6 trials, 20 publications), so it is discussed below as the most credible signal.
-
----
+Orlistat is a gastrointestinal lipase inhibitor, originally used to treat obesity.
+The TxGNN model predicts it may be effective for **hypervitaminosis**, but there are **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore licence data (inferred: obesity, as a lipase inhibitor) |
+| Original Indication | Obesity (including monogenic obesity); the Singapore registry entries contain no indication text, so this comes from the knowledge graph |
 | Predicted New Indication | Hypervitaminosis |
 | TxGNN Prediction Score | 99.42% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 2 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the record. Orlistat is known to inhibit gastrointestinal lipases, which reduces dietary fat absorption. It also lowers absorption of fat-soluble vitamins (A, D, E, K).
+Detailed mechanism of action data is not available in the data compiled for this report. Orlistat is, however, a well-known inhibitor of gastrointestinal lipases. By blocking the breakdown of dietary fat, it reduces fat absorption, and with it the absorption of fat-soluble vitamins (A, D, E and K).
 
-This is the only conceivable link to hypervitaminosis. In routine use, reduced vitamin absorption is a documented adverse effect. In theory, that effect could lower vitamin levels in fat-soluble hypervitaminosis. No trial or publication tests this idea. The high TxGNN score is not backed by any clinical rationale, and the link is weak.
-
-Of the other nine predictions, most are likely knowledge-graph artifacts or indirect associations. Examples are obsolete ontology terms, craniofacial phenotypes, and ABri amyloidosis. Fatty liver disease is the exception. Orlistat-driven weight loss and reduced fat absorption plausibly improve hepatic steatosis in patients with obesity.
-
----
+This gives a purely theoretical rationale: if less vitamin is absorbed, vitamin excess could in principle be lowered. But this is the opposite of orlistat's known adverse effect, vitamin deficiency, and vitamin deficiency disorder is even listed among its knowledge-graph contraindications. Most hypervitaminosis cases come from over-supplementation and are managed by stopping the supplement. No clinical data support using a lipase inhibitor as a treatment. The high TxGNN score should therefore be treated as a computational signal only.
 
 ## Clinical Trial Evidence
 
-**Hypervitaminosis (top-ranked prediction):** Currently no related clinical trials registered.
-
-**Fatty liver disease (best-supported alternative prediction, TxGNN score 85.26%):**
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00160407](https://clinicaltrials.gov/study/NCT00160407) | Phase 4 | Completed | 50 | Orlistat in overweight NASH patients; tests weight loss and improvement in necroinflammatory and fibrotic changes (most direct trial) |
-| [NCT00207311](https://clinicaltrials.gov/study/NCT00207311) | Phase 4 | Completed | 30 | Randomized, placebo-controlled trial of Xenical for steatosis/NASH before hepatitis C treatment |
-| [NCT00001723](https://clinicaltrials.gov/study/NCT00001723) | Phase 2 | Completed | 200 | Orlistat safety and efficacy in obese children and adolescents with obesity-related comorbidities; not liver-specific |
-| [NCT05934110](https://clinicaltrials.gov/study/NCT05934110) | Phase 2 | Unknown | 320 | 26-week study in overweight or obesity with orlistat comparator arms; indirect link to fatty liver |
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-**Hypervitaminosis (top-ranked prediction):** Currently no related literature available.
-
-**Fatty liver disease (best-supported alternative prediction):**
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [36781126](https://pubmed.ncbi.nlm.nih.gov/36781126/) | 2023 | RCT | Am J Clin Nutr | Diet versus orlistat in obesity with metabolic-associated fatty liver disease |
-| [38081992](https://pubmed.ncbi.nlm.nih.gov/38081992/) | 2024 | RCT | Eur J Pediatr | Orlistat in 53 adolescents with overweight/obesity and NAFLD |
-| [38910819](https://pubmed.ncbi.nlm.nih.gov/38910819/) | 2024 | Meta-analysis | Proc (Bayl Univ Med Cent) | Systematic review of RCTs on orlistat in obese NAFLD patients |
-| [41768122](https://pubmed.ncbi.nlm.nih.gov/41768122/) | 2026 | Meta-analysis | Curr Ther Res | Effect of orlistat on cardiometabolic indices in MASLD, GRADE-assessed |
-| [41069538](https://pubmed.ncbi.nlm.nih.gov/41069538/) | 2024 | Clinical study | Acta Endocrinol | Early effect of orlistat on NASH and atherogenicity indices in obese NAFLD |
-| [35501557](https://pubmed.ncbi.nlm.nih.gov/35501557/) | 2022 | Review | Curr Obes Rep | Anti-obesity medications for NAFLD, focusing on hepatic histology |
-| [18095746](https://pubmed.ncbi.nlm.nih.gov/18095746/) | 2008 | Review | Drug Saf | Orlistat adverse effects and drug interactions |
-
----
+Currently no related literature available.
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN13046P | XENICAL CAPSULE 120MG | Capsule | Not listed in the record |
-| SIN15312P | OBELIT 120 CAPSULE 120MG | Capsule, gelatin coated | Not listed in the record |
+| SIN15312P | OBELIT 120 CAPSULE 120MG (Intas Pharmaceuticals Limited) | Capsule, gelatin coated | Not specified in registry data |
+| SIN13046P | XENICAL CAPSULE 120MG (F. Hoffmann-La Roche Ltd / Delpharm Milano S.R.L.) | Capsule | Not specified in registry data |
 
-Both products are oral capsules.
-
----
+Both products are single-ingredient, valid, oral formulations.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
-The record shows no drug-interaction entries. The published review (PMID 18095746) notes that orlistat commonly causes mild-to-moderate gastrointestinal adverse effects, such as oily stools, diarrhoea and abdominal pain. It also reduces absorption of fat-soluble vitamins, which is relevant to any use in vitamin-related conditions.
-
----
+- **Contraindications flagged in the knowledge graph** (these are graph relationships, not package insert text): liver failure, primary hyperoxaluria, anorexia nervosa, bulimia nervosa, vitamin deficiency disorder, cholestasis, benign recurrent intrahepatic cholestasis, familial intrahepatic cholestasis, and drug-induced liver injury.
+- **Drug Interactions**: 100 interactions were identified. The main ones, based on the first 20 entries retrieved, are:
+  - **Moderate**: abacavir, lamivudine, emtricitabine, atazanavir, acarbose, metformin, albiglutide, alogliptin, canagliflozin, chlorpropamide, amiodarone, cannabidiol, asparaginase (E. coli and Erwinia forms), calaspargase pegol, brentuximab vedotin, clofarabine.
+  - **Minor**: cholecalciferol, calcifediol, calcitriol. These are vitamin D agents, which is relevant because orlistat reduces fat-soluble vitamin absorption.
+- Package insert warnings were not available in the data compiled for this report. Please refer to the package insert for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction, hypervitaminosis, rests on a model score alone. It has no trials, no literature and a weak clinical rationale. Only fatty liver disease has real support (L2 in the record), and even that is limited to small Phase 4 studies, a few RCTs and meta-analyses, with no Phase 3 RCT using hepatic histology endpoints. The other eight predictions are L5 or L4 and should also be held.
+The prediction has no clinical trials or literature behind it (L5). Its only mechanistic rationale conflicts with orlistat's known effect of causing vitamin deficiency, so the benefit-risk balance is unfavourable. Hypervitaminosis is also better managed by stopping the excess vitamin intake.
 
 **To proceed, the following is needed:**
-- Singapore package insert warnings, contraindications and approved-indication text (currently missing)
-- Mechanism-of-action data from DrugBank
-- For fatty liver disease, as the more promising direction: a Phase 3 RCT with liver histology endpoints, plus a plan to monitor fat-soluble vitamins and GI adverse effects
-- For hypervitaminosis: a literature and mechanism review to decide whether the prediction merits any study
+- Package insert warnings and contraindications from the HSA website (a blocking data gap for safety screening)
+- Mechanism of action data from DrugBank
+- Any preclinical or clinical signal that orlistat can lower vitamin levels in a therapeutic setting, together with a plan for managing vitamin depletion
 
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+**Note on other predictions:** Among the other predicted indications, **fatty liver disease** (TxGNN score 85.3%, rank 8) has the strongest support. It has two small completed Phase 4 trials (NCT00160407, n=50; NCT00207311, n=30), a 2023 randomized trial of diet versus orlistat in obesity with MAFLD (PMID 36781126), and a 2024 meta-analysis of randomized trials (PMID 38910819). This is graded L3 and flagged as a research question. Any follow-up effort would be better directed there. The benefit appears to be largely weight-mediated, so larger trials with histology endpoints are needed.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

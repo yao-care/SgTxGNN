@@ -2,7 +2,7 @@
 layout: default
 title: Galcanezumab
 parent: Low Evidence (L5)
-nav_order: 461
+nav_order: 465
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Galcanezumab: From Migraine Prevention to Heparin Cofactor 2 Deficiency
+# Galcanezumab: From Migraine to Heparin Cofactor 2 Deficiency
 
 ## One-Sentence Summary
 
-Galcanezumab is a monoclonal antibody against calcitonin gene-related peptide (CGRP), marketed for migraine prevention.
-The TxGNN model predicts it may be effective for **Heparin Cofactor 2 Deficiency**, but there are **0 clinical trials** and **0 publications** supporting this direction.
-The high score is most likely a knowledge-graph artifact rather than a true signal.
+Galcanezumab (Emgality) is an injectable monoclonal antibody originally used to prevent migraine.
+The TxGNN model predicts it may be effective for **heparin cofactor 2 deficiency**, but there are **0 clinical trials** and **0 publications** supporting this direction.
+The high prediction score is most likely a network-prediction artifact rather than a real therapeutic signal.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration data. Published literature describes migraine prevention and episodic cluster headache. |
+| Original Indication | Migraine disorder (the registration records for Singapore do not state indication text, so this comes from the knowledge-graph indication data) |
 | Predicted New Indication | Heparin cofactor 2 deficiency |
 | TxGNN Prediction Score | 99.50% |
 | Evidence Level | L5 |
@@ -51,11 +51,11 @@ The high score is most likely a knowledge-graph artifact rather than a true sign
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the record. Based on known information, galcanezumab is a humanized antibody that binds CGRP and blocks its activity. CGRP is a key mediator in migraine pathophysiology, which is why the drug is used for migraine prevention.
+Currently, detailed mechanism of action data is not available in the compiled data. Based on known information, galcanezumab is a humanized monoclonal antibody that neutralizes calcitonin gene-related peptide (CGRP), a key mediator in migraine. Its efficacy in migraine prevention is well established.
 
-Heparin cofactor 2 deficiency is an inherited defect of a serpin (serine protease inhibitor) in the coagulation system. CGRP blockade is not known to act on the coagulation cascade, so there is no plausible mechanistic link between the drug's action and this disease.
+Heparin cofactor 2 deficiency is a hereditary coagulation-inhibitor disorder involving impaired regulation of thrombin. There is no plausible mechanistic link between CGRP blockade and thrombin regulation. The very high TxGNN score most likely reflects patterns in the knowledge graph rather than biology. No trials or publications support the prediction.
 
-The very high TxGNN score (0.995) is therefore likely a knowledge-graph propagation artifact. No trials or publications support the prediction, and it should not be treated as a credible repurposing signal without independent evidence.
+Note that the same drug's prediction list also includes several other coagulation-related conditions (antithrombin deficiency type 2, factor V excess, thrombophilia, and others). These share the same lack of mechanistic support and look like a clustering artifact in the model.
 
 ## Clinical Trial Evidence
 
@@ -67,33 +67,29 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN15919P | EMGALITY Solution for Injection in Pre-filled Pen 120 mg/ml | Injection, solution |
-| SIN16063P | EMGALITY Solution for Injection in Pre-filled Syringe 100 mg/ml | Injection, solution |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN15919P | EMGALITY Solution for Injection in Pre-filled Pen 120 mg/mL | Injection, solution | — |
+| SIN16063P | EMGALITY Solution for Injection in Pre-filled Syringe 100 mg/mL | Injection, solution | — |
 
-Both authorizations are held by Eli Lilly and Company, and both are injectable products.
+Both licenses are valid single-ingredient products from Eli Lilly and Company. The registration data compiled for this report do not include the approved indication text.
 
 ## Safety Considerations
 
-- **Drug Interactions**: No interaction records were found in the queried database.
-
-Please refer to the package insert for warnings and contraindications.
+Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There is no plausible mechanism linking CGRP blockade to a serpin-mediated coagulation defect, and there is no clinical or published evidence. The high model score alone does not justify progressing this candidate.
-
-Among the ten predictions for this drug, only *migraine with brainstem aura* has literature support. That support is graded L1 but rests on evidence from the broader migraine population, and it is a more credible direction to evaluate. The other eight predictions have no trials or literature and are likewise on Hold.
+The prediction has no clinical trials, no literature, and no plausible mechanistic link between CGRP neutralization and heparin cofactor 2 deficiency. Evidence is at L5 (model prediction only), so the drug should not be advanced for this indication.
 
 **To proceed, the following is needed:**
-- The Singapore package insert (HSA), covering approved indications, warnings and contraindications
-- Mechanism of action data from DrugBank
-- A mechanistic rationale showing how CGRP blockade could affect heparin cofactor 2 activity, or independent evidence of benefit
-- Preclinical or case-level evidence before any clinical evaluation
+- A credible mechanistic hypothesis connecting CGRP signalling to heparin cofactor 2 or thrombin regulation, supported by preclinical data
+- Mechanism of action (MOA) data to be added to the drug record
+- Package insert warnings and contraindications from the HSA, which are currently missing and block safety screening
+- Review of other predictions for this drug. The prediction for **migraine with brainstem aura** (score 98.33%) has the strongest support, at evidence level L3. It is essentially an extension within the approved migraine indication rather than true repurposing, and it carries a glaucoma risk signal for CGRP inhibitors that warrants safety monitoring.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

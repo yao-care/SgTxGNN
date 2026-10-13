@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Dimenhydrinate
-parent: Medium Evidence (L3-L4)
-nav_order: 328
-evidence_level: L4
+parent: Low Evidence (L5)
+nav_order: 332
+evidence_level: L5
 indication_count: 10
 ---
 
 # Dimenhydrinate
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,71 +29,78 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Dimenhydrinate: From Motion Sickness to Allergic Urticaria
+# Dimenhydrinate: From Motion Sickness and Central Vertigo to Allergic Urticaria
 
 ## One-Sentence Summary
 
-Dimenhydrinate is an oral antihistamine-type drug that is generally known for nausea and motion sickness, although the Singapore registration records do not state an indication.
-The TxGNN model predicts it may be effective for **allergic urticaria**, but **0 clinical trials** and only **1 publication** (a dog pharmacokinetic study with no efficacy data) currently relate to this direction.
+Dimenhydrinate was originally used to treat motion sickness and vertigo of central nervous system origin.
+The TxGNN model predicts it may be effective for **allergic urticaria**,
+but currently there are **0 clinical trials** and only **1 publication** (a pharmacokinetic study in dogs) linked to this direction, so the support is mostly model prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not specified in Singapore registration records (motion sickness/nausea is the drug's general known use) |
+| Original Indication | Motion sickness; vertigo of central nervous system origin (from the knowledge graph, as no approved indication text is recorded in the Singapore licences) |
 | Predicted New Indication | Allergic urticaria |
 | TxGNN Prediction Score | 99.74% |
-| Evidence Level | L4 |
+| Evidence Level | L4 (indirect, pharmacokinetic data only) |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 8 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Dimenhydrinate is a salt of diphenhydramine and 8-chlorotheophylline. Diphenhydramine is a first-generation H1 antagonist. Blocking H1 receptors should reduce the wheal-and-flare reaction that histamine causes in urticaria. The high TxGNN score is consistent with this H1-antagonist class effect.
+Currently, detailed mechanism of action data is not available. Based on known information, dimenhydrinate is a salt of diphenhydramine and 8-chlorotheophylline. Diphenhydramine is a first-generation H1 receptor antagonist with anticholinergic and sedating properties. These properties underlie its use in motion sickness and vertigo.
 
-Detailed mechanism-of-action data for dimenhydrinate are not available in this record. The link to urticaria therefore rests on class-level reasoning about diphenhydramine, not on dimenhydrinate-specific data.
+Allergic urticaria is driven largely by histamine release acting on H1 receptors in the skin. Blocking H1 receptors is therefore a mechanistically plausible approach, which explains the high model score.
 
-The only supporting paper is a pharmacokinetic study in healthy dogs. It shows diphenhydramine exposure after dimenhydrinate dosing, and it measured the effect on histamine-induced wheals. It provides no efficacy data in patients with urticaria, so the evidence is indirect.
+However, the case for repurposing is limited. The only linked publication is a pilot pharmacokinetic study in dogs, which shows drug exposure and the effect on histamine-induced wheals, but does not show clinical efficacy in people with urticaria. In addition, second-generation antihistamines are the usual first-line choice for urticaria and are less sedating, so dimenhydrinate has little room to add value.
+
+Other predictions from the model (cold urticaria, nasal cavity disease, common cold, pharyngitis, acute laryngopharyngitis, urticaria, recalcitrant atopic dermatitis, angioedema, atopic IgE responsiveness) rest on model scores only, with no trials and no efficacy literature.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for allergic urticaria.
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [30779257](https://pubmed.ncbi.nlm.nih.gov/30779257/) | 2019 | Pharmacokinetic study (dogs) | Veterinary Dermatology | Pilot study comparing diphenhydramine exposure after oral or IV diphenhydramine and oral dimenhydrinate in healthy dogs, with a pharmacodynamic look at histamine-induced wheal formation. Dimenhydrinate has been reported to give better oral absorption of diphenhydramine. |
+| [30779257](https://pubmed.ncbi.nlm.nih.gov/30779257/) | 2019 | Pharmacokinetic study (pilot, in dogs) | Veterinary Dermatology | Compared diphenhydramine blood levels after oral and intravenous diphenhydramine and oral dimenhydrinate in healthy dogs, and looked at the effect on histamine-induced wheal formation. Supports exposure data, not clinical efficacy in human urticaria. |
 
 ## Singapore Market Information
 
-Eight registrations exist. Five are listed below, and none has an approved indication text in the record.
-
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN03013P | DIMENATE TABLET 50 mg | Tablet | Not stated in record |
-| SIN03403P | NOVOMIN TABLET 50 mg | Tablet | Not stated in record |
-| SIN02765P | DIMENHYDRINATE TABLETS 50 mg | Tablet | Not stated in record |
-| SIN03550P | NOVOMIN SYRUP 15 mg/5 ml | Syrup | Not stated in record |
-| SIN02519P | APO-DIMENHYDRINATE TABLET 50 mg | Tablet | Not stated in record |
+| SIN03013P | Dimenate Tablet 50 mg | Tablet | Not recorded |
+| SIN03403P | Novomin Tablet 50 mg | Tablet | Not recorded |
+| SIN02765P | Dimenhydrinate Tablets 50 mg (Beacons) | Tablet | Not recorded |
+| SIN03550P | Novomin Syrup 15 mg/5 ml | Syrup | Not recorded |
+| SIN02519P | Apo-Dimenhydrinate Tablet 50 mg | Tablet | Not recorded |
+
+There are 8 valid single-ingredient registrations in total (tablets, syrups and one injection, Votmine 50 mg/ml). The table lists the first 5.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found for this drug.
+- **Contraindications / cautions (from the knowledge graph, not label text)**: The model's knowledge graph links the drug with caution or contraindication in conditions including angle-closure glaucoma, benign prostatic hyperplasia and bladder neck obstruction, pyloric stenosis, peptic ulcer disease, hyperthyroidism, hypertension and coronary artery disease or myocardial infarction, diabetes and hyperglycaemia, liver disease, gallbladder disease, thrombocytopenia and blood coagulation disease, gout, substance abuse/dependence, and others. These should be checked against the official package insert.
+- **Drug Interactions**: 67 interactions were identified. Two are rated Major: **potassium chloride** and **potassium citrate**. Many Moderate interactions involve anticholinergic agents (atropine, hyoscyamine, scopolamine, glycopyrronium, dicyclomine, trospium, propantheline and others), as well as opioids and related agents (morphine, loperamide, opium, eluxadoline), nabilone, metoclopramide and prucalopride.
+- **Misuse potential**: One linked paper describes over-the-counter misuse of dimenhydrinate-containing products by adolescents.
+
+Package insert warnings were not available for this report. Please refer to the package insert for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high and the H1-blockade rationale is plausible. However, the evidence is only a pharmacokinetic study in dogs, with no human efficacy data, and the Singapore package insert safety data have not yet been obtained. The other nine predictions (cold urticaria, nasal cavity disease, common cold, pharyngitis, acute laryngopharyngitis, generic urticaria, recalcitrant atopic dermatitis, angioedema, atopic IgE responsiveness) rest on model output alone. The few linked trials and papers are unrelated to dimenhydrinate or the predicted indication.
+The mechanism (H1 blockade) is plausible, but the only supporting study is a veterinary pharmacokinetic pilot with no human efficacy data and no registered trials. Well-established, less sedating second-generation antihistamines already serve as first-line therapy in urticaria. The anticholinergic and sedative profile, the many interactions, and the long list of cautioned conditions add further reasons for caution.
 
 **To proceed, the following is needed:**
-- The HSA package insert (warnings and contraindications), which is a blocking item for safety screening
-- Detailed mechanism-of-action data from DrugBank
-- Human clinical evidence of dimenhydrinate or diphenhydramine in urticaria, such as a literature search for RCTs or systematic reviews
-- Confirmation of the approved indications and available routes for the registered Singapore products
+- Package insert warnings and contraindications from the HSA (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- Human clinical evidence (trials or comparative studies) of dimenhydrinate or diphenhydramine in urticaria, compared against second-generation antihistamines
+- Assessment of whether any approved indication for urticaria would add value beyond existing options in Singapore
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

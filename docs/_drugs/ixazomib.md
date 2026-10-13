@@ -2,7 +2,7 @@
 layout: default
 title: Ixazomib
 parent: Medium Evidence (L3-L4)
-nav_order: 557
+nav_order: 562
 evidence_level: L3
 indication_count: 10
 ---
@@ -29,18 +29,19 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Ixazomib: From Multiple Myeloma to Indolent Plasma Cell Myeloma
+# Ixazomib: From Plasma Cell Myeloma to Indolent Plasma Cell Myeloma
 
 ## One-Sentence Summary
 
-Ixazomib is an oral proteasome inhibitor, marketed for relapsed/refractory multiple myeloma (RRMM) in combination with lenalidomide and dexamethasone.
-The TxGNN model predicts it may be effective for **indolent plasma cell myeloma**, but there are **0 clinical trials** and **2 publications** (both real-world cohort studies in RRMM, not in indolent disease), so the evidence is indirect.
+Ixazomib is an oral proteasome inhibitor originally used to treat plasma cell myeloma (multiple myeloma).
+The TxGNN model predicts it may be effective for **indolent plasma cell myeloma**.
+Currently there are **0 registered clinical trials** and **3 publications** (two real-world studies and one case report), none of which studies an indolent or smoldering population specifically.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Relapsed/refractory multiple myeloma (per the cited literature; the Singapore licence records list no indication text) |
+| Original Indication | Plasma cell myeloma (taken from the knowledge-graph indication data, as the Singapore licence records contain no indication text) |
 | Predicted New Indication | Indolent plasma cell myeloma |
 | TxGNN Prediction Score | 96.17% |
 | Evidence Level | L3 |
@@ -50,11 +51,11 @@ The TxGNN model predicts it may be effective for **indolent plasma cell myeloma*
 
 ## Why is This Prediction Reasonable?
 
-Ixazomib is an oral, reversible proteasome inhibitor that targets the 20S β5 subunit. Plasma cells produce large amounts of immunoglobulin and rely heavily on proteasome activity to clear misfolded protein. Blocking the proteasome is therefore a plausible way to stress and kill abnormal plasma cells.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on the known drug class, ixazomib is an oral proteasome inhibitor that targets the beta-5 subunit of the 20S proteasome. Its efficacy in relapsed/refractory multiple myeloma is established through the TOURMALINE-MM1 phase 3 trial, in combination with lenalidomide and dexamethasone.
 
-Indolent (smoldering) plasma cell myeloma is a slower-growing form of the same plasma cell disease that ixazomib already treats in its active, relapsed form. The biological rationale carries over, and the drug's safety profile in myeloma is reasonably well characterized.
+Indolent (smoldering) myeloma is an earlier-stage plasma cell neoplasm. It is biologically related to multiple myeloma and relies on the same proteasome-mediated protein homeostasis pathway, so the mechanistic rationale is plausible.
 
-There are important caveats. Detailed mechanism-of-action data was not supplied in the Evidence Pack, so the above rests on general knowledge of the drug class. The supporting studies are in active, relapsed disease, where the risk-benefit balance differs from an indolent condition that may not need immediate treatment.
+However, the link is indirect. The available literature studies relapsed/refractory multiple myeloma, not indolent or smoldering disease. This mechanistic reasoning relies on class knowledge, not on supplied mechanism data.
 
 ## Clinical Trial Evidence
 
@@ -64,20 +65,17 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [38558233](https://pubmed.ncbi.nlm.nih.gov/38558233/) | 2024 | Cohort | Cancer Medicine | Real-world retrospective-prospective analysis from northern Italy of ixazomib + lenalidomide + dexamethasone (IRd) in RRMM, assessing efficacy and safety beyond the TOURMALINE-MM1 trial |
-| [32193630](https://pubmed.ncbi.nlm.nih.gov/32193630/) | 2020 | Cohort | Annals of Hematology | Multi-site Israeli registry study testing whether real-world outcomes of ixazomib-based regimens in RRMM match the TOURMALINE-MM1 phase 3 results |
-
-Both studies address relapsed/refractory disease. Neither studies indolent myeloma.
+| [38558233](https://pubmed.ncbi.nlm.nih.gov/38558233/) | 2024 | Cohort | Cancer Medicine | Real-world retrospective-prospective analysis of ixazomib, lenalidomide and dexamethasone (IRd) in relapsed/refractory multiple myeloma in northern Italy |
+| [32193630](https://pubmed.ncbi.nlm.nih.gov/32193630/) | 2020 | Registry study (classified as Review) | Annals of Hematology | Multi-site Israeli registry assessing whether real-world outcomes of ixazomib-based regimens match the TOURMALINE-MM1 trial |
+| [42719364](https://pubmed.ncbi.nlm.nih.gov/42719364/) | 2026 | Case report | Therapeutic Advances in Hematology | Fulminant extramedullary relapse of multiple myeloma with cardiac, vascular and multivisceral involvement |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN15162P | NINLARO Capsule 2.3 mg | Capsule |
-| SIN15163P | NINLARO Capsule 3 mg | Capsule |
-| SIN15164P | NINLARO Capsule 4 mg | Capsule |
-
-All three are oral capsules, with Takeda Ireland Ltd. among the manufacturers listed.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN15163P | NINLARO CAPSULE 3mg | Capsule | Not stated in the licence record |
+| SIN15162P | NINLARO CAPSULE 2.3mg | Capsule | Not stated in the licence record |
+| SIN15164P | NINLARO CAPSULE 4mg | Capsule | Not stated in the licence record |
 
 ## Cytotoxicity
 
@@ -86,28 +84,33 @@ All three are oral capsules, with Takeda Ireland Ltd. among the manufacturers li
 | Cytotoxicity Classification | Targeted therapy (proteasome inhibitor) |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Complete blood count (with differential) is the minimum; also liver and renal function. Confirm the full schedule against the package insert |
+| Monitoring Items | Please refer to the package insert; blood counts and liver and renal function are generally monitored with antineoplastic therapy |
 | Handling Protection | Please refer to the package insert warnings and precautions |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No warnings, contraindications, or drug interaction records were available in the Evidence Pack.
+- **Drug Interactions**: The interaction screening returned 100 interacting drugs in total; 20 are listed in the data compiled for this report. Most are of Moderate severity. The **Major** interactions listed are:
+  - Deferiprone
+  - Samarium (153Sm) lexidronam
+  - Lumacaftor
+
+  Examples of Moderate interactions include metronidazole, simvastatin, rosuvastatin, naltrexone, chloroquine, hydroxychloroquine and disulfiram.
+
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The 96.17% model score and the biological rationale are encouraging, but no trial has tested ixazomib in indolent myeloma. The only human data are real-world cohorts in relapsed/refractory disease. The package insert, which is needed for safety screening, is also missing.
+The TxGNN score is high (96.17%), and the mechanism is plausible given ixazomib's established role in multiple myeloma. However, no trials are registered, and the supplied literature does not study indolent or smoldering myeloma. Package insert safety information is also missing, which blocks safety screening.
 
 **To proceed, the following is needed:**
-- Singapore (HSA) package insert warnings and contraindications (blocking gap)
-- Mechanism-of-action data, for example from DrugBank
-- Confirmation of the approved indication text on the Singapore licences
-- Clinical evidence in smoldering or indolent myeloma, or a decision to frame this as a research question rather than a treatment proposal
-- A benefit-risk assessment for treating a slow-growing condition with a cytotoxic-class oral agent
-
-**Note on other predictions:** Melanoma (rank 7) has only preclinical support (ixazomib with interferon-alpha, in vitro and in vivo). The remaining predictions are model-only and should stay on hold.
+- Package insert warnings and contraindications from the HSA website
+- Mechanism of action data from DrugBank
+- Searches for clinical studies, and any registered trials, of ixazomib in smoldering or indolent myeloma
+- A review of the Major drug interactions, including those with deferiprone, samarium lexidronam and lumacaftor
+- Confirmation of the approved indication wording on the Singapore licences
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

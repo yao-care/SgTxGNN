@@ -2,7 +2,7 @@
 layout: default
 title: Bifonazole
 parent: Low Evidence (L5)
-nav_order: 158
+nav_order: 159
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,43 +33,34 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Bifonazole is an imidazole antifungal, registered in Singapore as a 1% topical cream.
-The TxGNN model predicts it may be effective for **pulmonary hypertension**, but this is a computational prediction only, with **0 clinical trials** and **0 drug-specific publications** supporting it.
+Bifonazole is a topical imidazole antifungal, marketed in Singapore as a 1% cream.
+The TxGNN model predicts it may be effective for **pulmonary hypertension**, but this is a model prediction only, with **no clinical trials** and **no relevant publications** currently supporting it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Not stated in the Singapore registration data (the approved indication text is empty) |
 | Predicted New Indication | Pulmonary hypertension |
 | TxGNN Prediction Score | 96.30% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, bifonazole is an imidazole antifungal that inhibits fungal ergosterol synthesis. Its established use is in topical antifungal treatment.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Bifonazole is an imidazole-class antifungal that is generally understood to inhibit ergosterol synthesis in fungi by blocking the enzyme CYP51. The Singapore registration lists only a topical cream, and no approved indication text is recorded.
 
-No mechanistic link to pulmonary hypertension is established. Ergosterol synthesis inhibition has no known connection to pulmonary vascular remodelling. The high score (96.30%) most likely reflects proximity in the knowledge graph rather than a demonstrated pharmacological rationale. The prediction should be treated as a hypothesis only.
+A link between bifonazole and pulmonary hypertension would be speculative. One possible explanation is off-target effects of imidazole compounds on CYP enzymes or vascular signalling, but nothing in the compiled data supports this. The high score (96.30%) most likely reflects relationships in the knowledge graph and not independent biological or clinical evidence.
 
-Among the other top-ranked predictions, **mycotic corneal ulcer** (score 93.29%) is the most biologically coherent. It is a fungal eye infection, which fits an antifungal mechanism. However, no trials or literature were provided, and ocular safety, corneal penetration and suitability of the cream formulation for the eye are undocumented. It is a possible topic for preclinical or pharmacokinetic review, not a clinical recommendation.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available for pulmonary hypertension.
+The other top-ranked predictions are similarly unsupported: kyphoscoliotic heart disease, female breast carcinoma, leprosy, migraine disorders, coronary artery disease, and anomalous left coronary artery from the pulmonary artery. Several of these (such as kyphoscoliotic heart disease and the migraine subtypes) likely score highly because of their proximity to other terms in the graph. The most biologically plausible prediction is **mycotic corneal ulcer** (score 93.29%), since bifonazole is an antifungal and this is a fungal infection. It also has no supporting trials or literature. Ocular penetration, corneal tolerability, and the fact that the product is formulated for skin use remain unaddressed. This is the one prediction that merits a targeted literature search and in vitro susceptibility testing.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN15415P | CANESPRO ONCE DAILY CREAM 1% | Cream | GP Grenzach Produktions GmbH; Kern Pharma, S.L. |
-
-Only a topical cream is registered. Whether this route could reach the target tissue in pulmonary hypertension has not been assessed.
+| SIN15415P | CANESPRO ONCE DAILY CREAM 1% | Cream (topical) | Not stated in registration data |
 
 ## Safety Considerations
 
@@ -80,16 +71,15 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone (L5). There are no trials, no drug-specific literature and no plausible mechanistic link, and the only registered product is a topical cream.
+The prediction for pulmonary hypertension rests only on a knowledge-graph score. There are no clinical trials or relevant publications, no mechanism is established, and the only available product is a topical cream with no plausible route to a cardiopulmonary target.
 
 **To proceed, the following is needed:**
-- Mechanism of action data for bifonazole
-- Package insert warnings and contraindications from the HSA
-- Any preclinical or clinical evidence specific to bifonazole in pulmonary hypertension
-- An assessment of route compatibility, since a topical cream is unlikely to suit a systemic cardiopulmonary indication
-- Optionally, a separate preclinical and pharmacokinetic review of the mycotic corneal ulcer hypothesis
-
-*These findings are for research reference only and do not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Mechanism of action data for bifonazole and a credible mechanistic link to pulmonary hypertension
+- Package insert warnings and contraindications from the Singapore regulator, to enable safety screening
+- The approved indication text for the registered product
+- A targeted literature search for any bifonazole evidence in the predicted indications. Priority should go to mycotic corneal ulcer, the most plausible candidate, with in vitro susceptibility work and assessment of ocular delivery
+- Review of the one linked publication for leprosy (PMID 42405403). Based on its title, it is a review of generic topical formulations and does not appear to show any bifonazole activity against leprosy
+- Assessment of route compatibility, since only a topical formulation is available and systemic or ocular use would need a different formulation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

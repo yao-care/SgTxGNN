@@ -2,7 +2,7 @@
 layout: default
 title: Idarubicin
 parent: Low Evidence (L5)
-nav_order: 512
+nav_order: 516
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Idarubicin: From Cytotoxic Anthracycline Chemotherapy to Bulbar Polio
+# Idarubicin: From Acute Myeloid Leukaemia to Bulbar Polio
 
 ## One-Sentence Summary
 
-Idarubicin is a cytotoxic anthracycline chemotherapy injection that is marketed in Singapore as ZAVEDOS.
-The TxGNN model predicts it may be effective for **bulbar polio**, but there are **0 clinical trials** and **0 publications** supporting this prediction.
-This looks like a graph artifact rather than a real repurposing signal.
+Idarubicin is an anthracycline chemotherapy drug originally used to treat acute myeloid leukaemia (AML) and related myeloid conditions.
+The TxGNN model predicts it may be effective for **bulbar polio**, but **no clinical trials and no publications** currently support this prediction.
+The prediction is purely computational, and the mechanism makes it biologically implausible.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration records |
+| Original Indication | Acute myeloid leukaemia (AML) and related subtypes (the Singapore licence entries carry no indication text; this indication comes from the knowledge graph) |
 | Predicted New Indication | Bulbar polio |
 | TxGNN Prediction Score | 97.05% |
 | Evidence Level | L5 |
@@ -51,11 +51,11 @@ This looks like a graph artifact rather than a real repurposing signal.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the source record. Idarubicin is an anthracycline that intercalates into DNA and inhibits topoisomerase II, which kills rapidly dividing cells.
+Currently, detailed mechanism of action data is not available in the compiled data. Based on general pharmacological knowledge, idarubicin is a topoisomerase II inhibitor and DNA intercalator. Its efficacy in AML comes from cytotoxic damage to rapidly dividing leukaemic cells.
 
-This mechanism gives no plausible link to bulbar polio, which is an infection of motor neurons by poliovirus. Idarubicin has no known antiviral or neuroprotective action, and polio is prevented by vaccination. The high score (97.05%) most likely reflects proximity in the knowledge graph rather than real biology, so this prediction is not considered reasonable.
+Bulbar polio is an acute viral infection of the nervous system caused by poliovirus. Idarubicin has no known antiviral activity against poliovirus, and giving a cytotoxic anthracycline for an acute viral neurological infection is biologically implausible. The high TxGNN score (rank 21,090 among all predictions) most likely reflects a network-based artefact rather than a real therapeutic link.
 
-Other predictions for this drug are more coherent. The most notable are ganglioneuroblastoma (score 78.4%), where anthracyclines are part of multi-agent neuroblastoma regimens, and retroperitoneal neoplasm (77.4%). Both still need idarubicin-specific evidence.
+Other top-ranked predictions show the same pattern. Most (e.g., 5q35 microduplication syndrome, neuralgic amyotrophy, reactive thrombocytosis) have no supporting evidence and no plausible mechanism. A few have class-level plausibility only, based on anthracyclines in general rather than idarubicin: ganglioneuroblastoma and Hodgkin lymphoma (listed as the obsolete term "Hodgkin's granuloma"). Retroperitoneal neoplasm (rank 8) has one weakly linked case report on myeloid sarcoma.
 
 ## Clinical Trial Evidence
 
@@ -63,45 +63,48 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for bulbar polio.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN12455P | ZAVEDOS Solution for Injection 10 mg/10 ml | Injection |
-| SIN12456P | ZAVEDOS Solution for Injection 5 mg/5 ml | Injection |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN12455P | ZAVEDOS SOLUTION FOR INJECTION 10 mg/10 ml | Injection | Not stated in the licence data |
+| SIN12456P | ZAVEDOS SOLUTION FOR INJECTION 5 mg/5 ml | Injection | Not stated in the licence data |
 
-Both products are made by Bridgewest Perth Pharma Pty Ltd and Zydus Hospira Oncology Private Limited.
+Both are valid single-ingredient licences. The manufacturers are Bridgewest Perth Pharma Pty Ltd and Zydus Hospira Oncology Private Limited.
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (anthracycline; DNA intercalator and topoisomerase II inhibitor) |
-| Myelosuppression Risk | High (anthracyclines are myelosuppressive) |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | CBC with differential, liver and renal function; cardiac function assessment is also typical for anthracyclines |
+| Cytotoxicity Classification | Conventional cytotoxic (anthracycline; topoisomerase II inhibitor and DNA intercalator) |
+| Myelosuppression Risk | High (severe myelosuppression is expected with anthracycline therapy) |
+| Emetogenicity Classification | Moderate |
+| Monitoring Items | CBC with differential, liver and renal function, cardiac function (e.g., LVEF), electrolytes |
 | Handling Protection | Must follow cytotoxic drug handling regulations |
+
+Please also refer to the package insert warnings and precautions.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease-level cautions (from the knowledge graph, not label text)**: The following conditions are linked to idarubicin as contraindications: kidney disease, liver disease, gallbladder disease, anaemia (including macrocytic anaemia), sudden cardiac arrest, heart conduction disease, cardiomyopathy (including hypertrophic), endomyocardial fibrosis, myocardial disorders, myocarditis, pericarditis, enterocolitis and gastroenteritis. Cardiac and haematological risks are especially relevant to anthracyclines.
+- **Drug Interactions**: 100 interactions were identified in total; 20 are listed in the compiled data. Major-level interactions include **dolasetron, cisapride, papaverine, deferiprone and macimorelin**. Moderate-level interactions include famotidine, loperamide, clarithromycin, levofloxacin, ondansetron, granisetron, palonosetron, promethazine, rolapitant, eliglustat, palifermin and several bowel-preparation agents (picosulfuric acid, sodium sulfate, polyethylene glycol). Metronidazole is a minor interaction.
+
+Please refer to the package insert for the full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on model score alone, with no trials or literature, and there is no credible mechanism linking a cytotoxic anthracycline to poliovirus infection. Using a myelosuppressive, cardiotoxic drug for this condition would carry risk without a plausible benefit.
+The prediction rests on a graph-based score alone, with no trials or publications. Idarubicin has no known antiviral action, and its toxicity (myelosuppression, cardiotoxicity) is unacceptable for an acute viral infection. Evidence is at the lowest level (L5).
 
 **To proceed, the following is needed:**
-- The approved indications and safety information from the HSA package insert, which are missing from the Singapore records
-- Mechanism of action data from DrugBank
-- A shift in focus to the more biologically plausible predictions (ganglioneuroblastoma, retroperitoneal neoplasm), starting with a literature search for idarubicin-specific data
-- Remapping of the obsolete "Hodgkin's granuloma" term to current Hodgkin lymphoma before any evidence search
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Mechanism of action data, and evidence of any activity against poliovirus or neuroprotective effect
+- Package insert warnings and contraindications from the HSA
+- Preclinical (in vitro or in vivo) data supporting a link to bulbar polio
+- If repurposing is pursued, a better-supported prediction such as ganglioneuroblastoma or Hodgkin lymphoma should be reviewed, with idarubicin-specific evidence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

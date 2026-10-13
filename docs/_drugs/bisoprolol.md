@@ -2,7 +2,7 @@
 layout: default
 title: Bisoprolol
 parent: Low Evidence (L5)
-nav_order: 164
+nav_order: 165
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,18 +29,20 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Bisoprolol: From Its Established Cardiovascular Use to Malignant Renovascular Hypertension
+# Bisoprolol: From Hypertension to Malignant Renovascular Hypertension
 
 ## One-Sentence Summary
 
-Bisoprolol is a beta-blocker that is currently marketed in Singapore, and the record supplied here does not state its approved indication text.
-The TxGNN model predicts it may be effective for **malignant renovascular hypertension**,
-but **0 clinical trials** and **0 publications** currently support this specific prediction, so it is a model output only.
+Bisoprolol is a beta-1 selective blocker, originally used to treat hypertension.
+The TxGNN model predicts it may be effective for **malignant renovascular hypertension**, but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction. The signal is computational only.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Hypertension (taken from the knowledge-graph indication record, as no approved indication text is listed for the Singapore licences) |
 | Predicted New Indication | Malignant renovascular hypertension |
 | TxGNN Prediction Score | 99.94% |
 | Evidence Level | L5 |
@@ -48,72 +50,63 @@ but **0 clinical trials** and **0 publications** currently support this specific
 | Number of Registrations | 20 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Bisoprolol is a cardioselective beta-1 blocker. Beta-1 blockade lowers renin release, and renin-driven blood pressure elevation is central to renovascular hypertension. This makes the prediction mechanistically plausible, but only in a generic way.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, bisoprolol is a beta-1 selective blocker. It lowers heart rate and cardiac output and reduces renin release. Its efficacy in hypertension is established, and renin suppression could plausibly help in renovascular hypertension, where the renin-angiotensin system is often overactive.
 
-The prediction should be read with caution for three reasons:
-- Malignant hypertension is a hypertensive emergency, usually managed with parenteral agents, and no trial or publication supports bisoprolol in this setting.
-- The original-indication and mechanism fields are empty in the input, so the link cannot be checked against approved-use data.
-- The closely related prediction, malignant hypertensive renal disease, has an identical score (99.94%). This suggests both come from the same ontology neighbourhood rather than independent signals. A high graph score is not clinical evidence.
+This is a class-level inference only. Malignant renovascular hypertension is closely related to the existing hypertension indication, so the prediction is closer to an extension of the current label than true repurposing. The high TxGNN score reflects model confidence, not clinical proof. Malignant hypertension is also usually managed with other first-line agents.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
 
+---
+
 ## Singapore Market Information
 
-There are 20 registrations in total. Five main ones are listed below. The approved indication text is not provided in the record.
+Bisoprolol has 20 valid single-ingredient registrations, all oral tablets (film-coated or plain). No approved indication text is listed for these products. Main authorisations:
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN16300P | BISODAC 2.5 Film-Coated Tablets 2.5MG | Tablet, film coated |
-| SIN11349P | CONCOR Tablet 2.5 mg | Tablet, film coated |
-| SIN15804P | BLOKBIS Tablet 2.5MG | Tablet |
-| SIN15866P | BISOZEN Film Coated Tablet 5MG | Tablet, film coated |
-| SIN15865P | BISOZEN Film Coated Tablet 10MG | Tablet, film coated |
+| Authorization Number | Product Name | Dosage Form | Strength |
+|---------|------|------|-----------|
+| SIN01039P | CONCOR 5 Tablet | Film-coated tablet | 5 mg |
+| SIN11349P | CONCOR Tablet | Film-coated tablet | 2.5 mg |
+| SIN12568P | BISOHEXAL Tablet | Film-coated tablet | 5 mg |
+| SIN15399P | COSYREL Film-coated Tablet | Film-coated tablet | 5 mg / 10 mg |
+| SIN16300P | BISODAC 2.5 Film-coated Tablets | Film-coated tablet | 2.5 mg |
 
-All listed products are oral formulations.
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No interaction records were found in the supplied data.
+- **Conditions flagged in the knowledge graph (not label text):** The knowledge graph links bisoprolol with the following conditions as contraindication-related. They include asthma, diabetes mellitus and diabetic ketoacidosis, liver disease, kidney disease and anuria, pancreatitis, gout, psoriasis, systemic lupus erythematosus, myasthenia gravis, hepatic encephalopathy, anxiety and related mood disorders, and several metabolic disorders (potassium deficiency, hypercalcaemia, hyperparathyroidism). These are not confirmed by the package insert and should be checked against it.
+- **Drug Interactions:** The interaction screen returned 100 interacting drugs. Examples of moderate-level interactions include epinephrine, corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide), anticholinergics (atropine, hyoscyamine, methscopolamine), bupropion, morphine, acetohexamide and calcium salts. Minor-level examples include aspirin and aluminium hydroxide.
 
-Candidate-specific concerns noted in the evidence pack:
-- **Pulmonary hypertension**: beta-blockers are generally used with caution because of the risk of reduced right ventricular output.
-- **Prinzmetal (vasospastic) angina**: beta-blockade may leave alpha-mediated coronary vasoconstriction unopposed.
+Please refer to the package insert for authoritative warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top prediction is supported only by a model score, with no trials, no literature and no verified mechanism. Bisoprolol is not established therapy for hypertensive emergencies.
-
-**Other predicted indications, for context:**
-
-| Predicted Indication | Score | Evidence Level | Status |
-|------|------|------|------|
-| Chronic pulmonary heart disease | 98.63% | L4 | Research question |
-| Prinzmetal angina | 94.42% | L4 | Hold |
-| Cerebrovascular disorder | 68.13% | L4 | Hold |
-| Other entries (malignant hypertensive renal disease, two pulmonary hypertension entries, Braddock syndrome, obsolete ischemic stroke susceptibility, brain stem infarction) | 68.17%–99.94% | L5 | Hold |
-
-- **Chronic pulmonary heart disease** is the most promising secondary candidate. It has 16 trials and 20 publications, but all are indirect, mostly in COPD or heart failure with COPD. This includes a completed Phase 3 RCT in COPD ([NCT03917914](https://clinicaltrials.gov/study/NCT03917914), n=280). No trial enrols patients with the target disease itself.
-- **Prinzmetal angina** has one Phase 4 trial ([NCT05294887](https://clinicaltrials.gov/study/NCT05294887), n=132, status unknown, no results). It is not confirmed that bisoprolol is an arm or that vasospastic angina is the population.
-- **Cerebrovascular disorder** has only animal studies (PMIDs 33106920, 23441690).
-- The 20 publications retrieved for the pulmonary hypertension due to lung disease/hypoxia entry cover general hypoxia biology. They are a keyword-matching artifact and do not count as evidence.
+The prediction rests only on a model score, with no trials or publications. The condition largely overlaps with bisoprolol's existing hypertension use, so it adds little as a repurposing opportunity. Malignant hypertension is also typically treated with other agents.
 
 **To proceed, the following is needed:**
-- The Singapore package insert (HSA) with warnings and contraindications, and confirmation of the approved indications
-- Detailed mechanism of action data (MOA) from DrugBank
-- A review of the COPD trial outcomes and safety data (e.g., PMIDs 38762800, 40386836) to judge whether chronic pulmonary heart disease deserves advancement
-- The NCT05294887 protocol and arms, to confirm bisoprolol's role and the population
-- Mapping of the obsolete stroke-susceptibility term to a current concept before any evaluation
+- Parsed package insert warnings and contraindications from the HSA website
+- Detailed mechanism of action data from DrugBank
+- Any clinical or observational evidence in renovascular or malignant hypertension
+- Review of other predictions: of the other predicted indications, **chronic pulmonary heart disease** has the strongest support. It has a completed Phase 3 trial of bisoprolol in COPD (NCT03917914, n=280) and randomised trial reports (BICS, 2024–2025). That evidence is in COPD rather than cor pulmonale itself, so trial outcomes should be reviewed directly. Several other predictions (pulmonary hypertension, Prinzmetal angina, cerebrovascular disorder) have only preclinical or indirect evidence, and beta-blockers may be unsuitable in pulmonary arterial hypertension.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

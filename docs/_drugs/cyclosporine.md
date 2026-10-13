@@ -2,7 +2,7 @@
 layout: default
 title: Cyclosporine
 parent: Medium Evidence (L3-L4)
-nav_order: 284
+nav_order: 287
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,19 +29,21 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Cyclosporine: From Transplant Immunosuppression to Chronic Granulomatous Disease (Autosomal Recessive)
+# Cyclosporine: From Rheumatoid Arthritis and Dry Eye to Chronic Granulomatous Disease (Autosomal Recessive)
 
 ## One-Sentence Summary
 
-Cyclosporine is a calcineurin-inhibitor immunosuppressant, marketed in Singapore as oral capsules and an infusion concentrate.
-The TxGNN model predicts it may be effective for **autosomal recessive chronic granulomatous disease (CGD)**, with **1 clinical trial** and **1 publication** linked to this prediction.
-Both are indirect: they concern stem cell transplantation for CGD, and neither tests cyclosporine as a treatment for CGD itself.
+Cyclosporine is a calcineurin-inhibitor immunosuppressant, originally used for rheumatoid arthritis and for dry eye and Sjögren syndrome.
+The TxGNN model predicts it may be effective for **autosomal recessive chronic granulomatous disease (CGD)**.
+Evidence for this prediction is very thin: **0 clinical trials** and **1 publication**, and that publication does not test cyclosporine as a treatment for CGD.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the Singapore licence data. Cyclosporine is a T-cell-suppressing immunosuppressant used around transplantation |
+| Original Indication | Rheumatoid arthritis, dry eye syndrome, xerophthalmia, Sjögren syndrome (from the knowledge graph, because the Singapore licence records contain no indication text) |
 | Predicted New Indication | Granulomatous disease, chronic, autosomal recessive |
 | TxGNN Prediction Score | 99.68% |
 | Evidence Level | L4 |
@@ -49,60 +51,73 @@ Both are indirect: they concern stem cell transplantation for CGD, and neither t
 | Number of Registrations | 10 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Cyclosporine is a calcineurin inhibitor that suppresses T-cell activation by reducing IL-2 signalling. Detailed mechanism-of-action data is not available in the source record.
+Detailed mechanism-of-action data were not available in the data compiled for this report. Cyclosporine is generally known as a calcineurin inhibitor that suppresses T-cell activation, which explains its use in autoimmune and inflammatory conditions such as rheumatoid arthritis and dry eye.
 
-CGD is an inherited defect of the phagocyte NADPH oxidase enzyme, and cyclosporine does not act on it. In CGD, cyclosporine appears only as graft-versus-host disease (GVHD) prophylaxis around allogeneic stem cell transplantation, which is the curative approach for the disease. The high TxGNN score most likely reflects this transplant-context association rather than a disease-modifying effect.
+The link to CGD is weak. CGD is an inherited defect of the NADPH oxidase enzyme in phagocytes, which leaves patients prone to severe infections and granulomas. Cyclosporine does not correct this defect. Its only plausible role is indirect, as part of graft-versus-host disease (GVHD) prophylaxis after hematopoietic stem cell transplantation (HSCT), which is a curative option for CGD. The very high TxGNN score is therefore not backed by a direct mechanism and probably reflects network proximity in the knowledge graph.
 
-The prediction should therefore be read as a knowledge-graph association, not as evidence that cyclosporine treats CGD.
+---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01917708](https://clinicaltrials.gov/study/NCT01917708) | Phase 1 | Completed | 10 | Abatacept added to cyclosporine and mycophenolate mofetil as GVHD prophylaxis in children receiving unrelated donor stem cell transplants for non-malignant diseases. It is not CGD-specific, and cyclosporine is only background therapy |
+Currently no related clinical trials registered.
+
+---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [22078471](https://pubmed.ncbi.nlm.nih.gov/22078471/) | 2012 | Cohort | J Allergy Clin Immunol | Excellent survival after sibling or unrelated donor stem cell transplantation for CGD. It supports transplantation, not cyclosporine itself |
+| [22078471](https://pubmed.ncbi.nlm.nih.gov/22078471/) | 2012 | Cohort | J Allergy Clin Immunol | Reports excellent survival after sibling or unrelated donor stem cell transplantation for CGD. The available abstract does not assess cyclosporine as a treatment for CGD. |
+
+---
 
 ## Singapore Market Information
 
-Approved indication text is not recorded for these licences. The pack lists 10 registrations in total; the table shows the 5 provided.
+Cyclosporine has 10 valid single-ingredient registrations in Singapore, with no cancelled licences. The licence records do not include approved-indication text. The main authorisations are listed below.
 
 | Authorization Number | Product Name | Dosage Form |
 |---------|------|------|
-| SIN08179P | SANDIMMUN NEORAL CAPSULE 25 mg | Capsule, liquid filled |
-| SIN08177P | SANDIMMUN NEORAL CAPSULE 100 mg | Capsule, liquid filled |
-| SIN14048P | DEXIMUNE CAPSULES 50MG | Capsule, liquid filled |
-| SIN14049P | DEXIMUNE CAPSULES 100MG | Capsule, liquid filled |
-| SIN00520P | SANDIMMUN CONCENTRATE FOR INFUSION 50 mg/ml | Injection |
+| SIN08179P | Sandimmun Neoral Capsule 25 mg | Capsule, liquid filled |
+| SIN08177P | Sandimmun Neoral Capsule 100 mg | Capsule, liquid filled |
+| SIN08176P | Sandimmun Neoral Drink Solution 100 mg/ml | Solution |
+| SIN00520P | Sandimmun Concentrate for Infusion 50 mg/ml | Injection |
+| SIN15216P | Ikervis Eye Drops, Emulsion 1 mg/ml | Emulsion |
+
+The other five registrations are Sandimmun Neoral Capsules 10 mg and 50 mg, and Deximune Capsules 25 mg, 50 mg and 100 mg. Oral, injectable and ophthalmic forms are all available.
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications flagged in the knowledge graph** (drug-disease edges, not package insert text): hypertension, epilepsy, kidney disease, liver disease, gallbladder disease, infectious disease (including eye infections and conjunctivitis), hyperuricaemia, hypertriglyceridaemia, hyperbilirubinaemia (including Gilbert syndrome), thrombocytopenic purpura, pseudotumor cerebri and intracranial hypertension, and cancer and lymphoma (including primary CNS lymphoma).
+- **Drug interactions**: 100 interactions were found in total; the 20 retrieved are listed below.
+  - **Major**: loperamide.
+  - **Moderate**: rabeprazole, hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide (oral and nasal), amphotericin B (including lipid complex), bupropion, aprepitant, mesalazine, balsalazide, acetylsalicylic acid, metronidazole, chlorpropamide and cholic acid.
+  - **Minor**: ranitidine and doxycycline.
+
+Please refer to the package insert for label warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The only supporting evidence is a Phase 1 trial and a cohort study on stem cell transplantation. Cyclosporine appears there as background GVHD prophylaxis, and neither study tests it against the underlying NADPH oxidase defect. The high score is most likely a transplant-context artefact.
+- The prediction is based on the model score alone, with no registered clinical trials.
+- The single publication concerns stem cell transplantation outcomes in CGD and does not show a benefit from cyclosporine.
+- Cyclosporine cannot plausibly treat the underlying enzyme defect, and its safety profile (kidney, liver, blood pressure, infection and malignancy risks) calls for caution.
 
 **To proceed, the following is needed:**
-- Singapore package insert warnings and contraindications (a blocking gap for safety screening)
-- Approved indication text from the Singapore licences
-- Detailed mechanism of action data from DrugBank
-- Any direct clinical evidence of cyclosporine benefit in CGD beyond GVHD prophylaxis
+- Evidence that cyclosporine-containing regimens add value specifically in CGD, for example transplant GVHD-prophylaxis data, rather than as a treatment for CGD itself.
+- Complete package insert warnings and contraindications from the Singapore regulator, as the current safety data are incomplete.
+- Mechanism-of-action data to support any mechanistic argument.
 
-Other predictions in this pack have stronger evidence and may deserve review first:
-- **Bronchitis (rank 9):** the trials are for bronchiolitis obliterans syndrome after lung transplant (inhaled or liposomal cyclosporine), not bronchitis, so the mapping needs review. Evidence level L2.
-- **Nasolacrimal duct disease (rank 10):** evidence comes from topical 0.05% cyclosporine for punctal stenosis. Evidence level L3.
-
-This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.
+For reference, among the other predicted indications for cyclosporine, "bronchitis" has the strongest evidence (L1). That label appears to capture bronchiolitis obliterans syndrome after lung transplantation, where Phase 3 trials of inhaled cyclosporine exist. It is a separate question from CGD and should not be extrapolated to infectious or chronic bronchitis.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

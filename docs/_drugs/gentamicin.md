@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Gentamicin
-parent: Medium Evidence (L3-L4)
-nav_order: 472
-evidence_level: L4
+parent: Low Evidence (L5)
+nav_order: 476
+evidence_level: L5
 indication_count: 10
 ---
 
 # Gentamicin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,8 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Gentamicin is an aminoglycoside antibacterial used to treat bacterial infections.
-The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but the supporting evidence is weak: **1 clinical trial** (which does not test RA efficacy) and **20 publications** (all about infections in RA patients, not treatment of RA itself).
+Gentamicin is an aminoglycoside antibiotic marketed in Singapore as injections, creams, eye drops and eye ointment.
+The TxGNN model predicts it may be effective for **Rheumatoid Arthritis**, but there are **0 clinical trials** and no publications showing that gentamicin treats this disease. The retrieved papers mention rheumatoid arthritis only incidentally, so this is a **model-only prediction** and the recommendation is **Hold**.
 
 ---
 
@@ -42,10 +42,10 @@ The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but t
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections (the Singapore licence records contain no approved-indication text; this is based on gentamicin's known drug class) |
+| Original Indication | Not available (the Singapore licence records contain no approved indication text) |
 | Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 97.76% |
-| Evidence Level | L4 |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 20 |
 | Recommended Decision | Hold |
@@ -54,58 +54,73 @@ The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but t
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, gentamicin is an aminoglycoside antibacterial that inhibits the bacterial 30S ribosome. Its efficacy in bacterial infections is well established.
+Currently, detailed mechanism of action data is not available from the compiled data. Gentamicin is known to be an aminoglycoside antibiotic that inhibits protein synthesis by binding the bacterial 30S ribosomal subunit. It is used to treat bacterial infections.
 
-The high TxGNN score is hard to justify mechanistically. The literature links gentamicin to RA only through infections that occur in RA patients, such as prosthetic joint infection, septic arthritis and bacteraemia, or through antibiotic-loaded bone cement. That is infection management in an RA population, not treatment of RA itself. The score most likely reflects knowledge-graph co-occurrence rather than a real disease-modifying effect.
+This mechanism has **no credible link to rheumatoid arthritis**. Gentamicin has no known immunomodulatory activity relevant to the disease. In the retrieved literature, rheumatoid arthritis appears only as background, for example in patients who developed infections while on immunosuppressive treatment. Gentamicin is used there as an antibacterial for the infection, not as a disease-modifying treatment. The high TxGNN score (0.978) is a computational prediction without clinical support.
+
+Other predicted indications were also reviewed. None has direct clinical support:
+- **Sclerosing cholangitis**: Oral vancomycin plus gentamicin has been reported in very early onset inflammatory bowel disease, suggesting a possible gut-microbiome rationale. There is no direct evidence in sclerosing cholangitis itself (evidence level L4).
+- **Diabetic nephropathy**: Gentamicin is nephrotoxic, so this prediction is mechanistically doubtful.
+- **Other predictions** (rare genetic syndromes, osteoarthritis susceptibility, myelodysplastic syndrome, and others): no supporting trials or relevant studies.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00872066](https://clinicaltrials.gov/study/NCT00872066) | Phase 4 | Completed | 243 | Single-centre post-market surveillance of two bone cements (SmartSet® HV and GHV) in total hip arthroplasty. It does not test RA efficacy and has no comparator. Relevance grade: C. |
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
-No randomised controlled trials were found. All of the 20 retrieved publications are case reports, reviews, infection-related clinical studies or preclinical work. The 10 most relevant are listed below.
+None of the retrieved papers tests gentamicin as a treatment for rheumatoid arthritis. The table lists the most relevant ones; the first three are case reports or reviews, and the rest are preclinical or pharmacokinetic papers.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [14649677](https://pubmed.ncbi.nlm.nih.gov/14649677/) | 2003 | Clinical study | J Chin Med Assoc | Systemic antibiotics plus antibiotic-impregnated cement to prevent deep infection in 60 primary knee replacements in RA patients |
-| [11233881](https://pubmed.ncbi.nlm.nih.gov/11233881/) | 2001 | Cohort/monitoring | Dtsch Med Wochenschr | Microbiological and immunological monitoring in polyarticular RA after joint replacement |
-| [41221316](https://pubmed.ncbi.nlm.nih.gov/41221316/) | 2025 | Review | Acta Ortop Bras | Risk factors, prevention and treatment of infections after total hip arthroplasty |
-| [4579913](https://pubmed.ncbi.nlm.nih.gov/4579913/) | 1973 | Case report | JAMA | Medical eradication of Serratia arthritis in an RA patient |
-| [832090](https://pubmed.ncbi.nlm.nih.gov/832090/) | 1977 | Not classified | Br Med J | Septic arthritis in rheumatoid disease |
-| [7019786](https://pubmed.ncbi.nlm.nih.gov/7019786/) | 1981 | Not classified | N Z Med J | Acute tubular necrosis in an RA patient treated with gentamicin and cefoxitin |
-| [32751547](https://pubmed.ncbi.nlm.nih.gov/32751547/) | 2020 | Preclinical (rat) | Pharmaceutics | Tofacitinib elimination is slower in gentamicin-induced acute renal failure rats |
-| [33812255](https://pubmed.ncbi.nlm.nih.gov/33812255/) | 2021 | Preclinical (mouse) | Int Immunopharmacol | Daphnetin, a coumarin used for RA, reduces gentamicin-induced kidney injury |
-| [33827581](https://pubmed.ncbi.nlm.nih.gov/33827581/) | 2021 | Case report | Ann Clin Microbiol Antimicrob | Helicobacter canis bacteraemia in an RA patient on tofacitinib |
-| [36074653](https://pubmed.ncbi.nlm.nih.gov/36074653/) | 2023 | Not classified | Ocul Immunol Inflamm | Acinetobacter-associated orbital cellulitis in an RA patient |
+| [33827581](https://pubmed.ncbi.nlm.nih.gov/33827581/) | 2021 | Case report | Ann Clin Microbiol Antimicrob | Helicobacter canis bacteraemia in an RA patient treated with tofacitinib; infection case, not RA treatment |
+| [40293759](https://pubmed.ncbi.nlm.nih.gov/40293759/) | 2025 | Review | JAMA | Review of non-cystic fibrosis bronchiectasis in adults; not related to gentamicin treating RA |
+| [41221316](https://pubmed.ncbi.nlm.nih.gov/41221316/) | 2025 | Review | Acta Ortop Bras | Infection risk factors, prevention and treatment after total hip arthroplasty |
+| [42618450](https://pubmed.ncbi.nlm.nih.gov/42618450/) | 2026 | Preclinical/Mechanistic | Gut | Intestinal flagellin drives multisystem inflammation; RA mentioned as one example of systemic inflammatory disease |
+| [7019786](https://pubmed.ncbi.nlm.nih.gov/7019786/) | 1981 | Case report | N Z Med J | Acute tubular necrosis in an RA patient after gentamicin and cefoxitin; a safety signal |
+| [32751547](https://pubmed.ncbi.nlm.nih.gov/32751547/) | 2020 | Preclinical (rat) | Pharmaceutics | Tofacitinib elimination is slower in gentamicin-induced renal failure rats |
+| [33812255](https://pubmed.ncbi.nlm.nih.gov/33812255/) | 2021 | Preclinical (mouse) | Int Immunopharmacol | Daphnetin reduced gentamicin-induced kidney injury; gentamicin used as a toxicity model |
+| [2487744](https://pubmed.ncbi.nlm.nih.gov/2487744/) | 1989 | Case report | Medicina | Anaerobic meningitis in an RA patient on intensive treatment |
+| [36074653](https://pubmed.ncbi.nlm.nih.gov/36074653/) | 2023 | Case report | Ocul Immunol Inflamm | Orbital cellulitis in a patient with a history of RA |
+| [42291967](https://pubmed.ncbi.nlm.nih.gov/42291967/) | 2026 | Case report | Cureus | S. aureus spondylodiscitis in an RA patient receiving rituximab |
 
 ---
 
 ## Singapore Market Information
 
-The Singapore records list no approved-indication text, so that column is omitted. Five of the 20 registrations are shown.
+Gentamicin has 20 valid single-ingredient registrations in Singapore (no cancelled licences). Forms include cream, injection, eye drops (solution) and eye ointment. The licence records contain no approved indication text. The table lists five of them.
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN01544P | Gentamicin Sulfate Cream 1 mg/g | Cream |
-| SIN10243P | HOE Gentamicin Cream 0.1% w/w | Cream |
-| SIN01849P | Miramycin Injection 80 mg/2 ml | Injection |
-| SIN01848P | Miramycin Injection 280 mg/2 ml | Injection |
-| SIN05260P | Gentamicin Injection BP 80 mg/2 ml | Injection |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN05260P | Gentamicin Injection BP 80 mg/2 ml (Pfizer) | Injection | Not stated in licence record |
+| SIN09941P | Gentamicin Injection 80 mg/2 ml (Shin Poong) | Injection | Not stated in licence record |
+| SIN01544P | Gentamicin Sulfate Cream 1 mg/g | Cream | Not stated in licence record |
+| SIN09799P | Gentamicin-POS Eye Drops 3 mg/ml | Solution | Not stated in licence record |
+| SIN09755P | Dexa-Gentamicin Eye Ointment | Ointment | Not stated in licence record |
 
 ---
 
 ## Safety Considerations
 
-Package insert warnings, contraindications and drug-interaction data are not available. Please refer to the package insert for safety information.
+- **Drug Interactions**: The interaction query returned 100 records. Those shown are from the DDInter database. Major-level interactions include:
+  - Agalsidase beta
+  - Magnesium sulfate
+  - Mannitol
 
-The evidence review does flag gentamicin's nephrotoxicity and ototoxicity as concerns for any chronic-use scenario. This is especially relevant because RA patients often take other renally cleared or nephrotoxic drugs.
+  Moderate-level interactions include:
+  - Other aminoglycosides and nephrotoxic or ototoxic antibiotics (kanamycin, neomycin, vancomycin)
+  - Amphotericin B
+  - Aspirin
+  - Proton pump inhibitors (omeprazole, pantoprazole, lansoprazole and others)
+  - Aminosalicylates (mesalazine, sulfasalazine, balsalazide, olsalazine)
+  - Picosulfuric acid
+- **Literature safety signals**: The retrieved papers describe gentamicin-related nephrotoxicity and vestibulotoxicity (vestibular and balance damage). These are particularly relevant to kidney-related predictions such as diabetic nephropathy.
+
+Please refer to the package insert for formal warnings and contraindications.
 
 ---
 
@@ -114,17 +129,14 @@ The evidence review does flag gentamicin's nephrotoxicity and ototoxicity as con
 **Decision: Hold**
 
 **Rationale:**
-The only supporting evidence concerns infections in RA patients and antibiotic-loaded cement, not treatment of RA itself. There is no plausible disease-modifying mechanism, and the score most likely reflects knowledge-graph co-occurrence. Long-term use carries a nephrotoxicity and ototoxicity risk. The other top-10 predictions (for example diabetic nephropathy, sclerosing cholangitis and several rare syndromes) also show no credible therapeutic support.
+The prediction rests only on a model score. There are no clinical trials, no supportive studies, and no plausible mechanism linking an antibacterial aminoglycoside to rheumatoid arthritis. Gentamicin's known nephrotoxicity and ototoxicity add further concern.
 
 **To proceed, the following is needed:**
-- Mechanism of action data (from DrugBank)
-- Singapore package insert warnings and contraindications (from the HSA website), which are required before any safety screening
-- Any direct evidence of gentamicin efficacy in RA (for example preclinical or controlled clinical data), rather than infection-related studies
-- A clear reason to prefer gentamicin over established RA therapies, together with a nephrotoxicity and ototoxicity risk assessment
-
----
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- A credible mechanistic hypothesis, and mechanism of action data from DrugBank
+- Preclinical evidence in RA models showing a benefit beyond antibacterial activity
+- Package insert warnings and contraindications from the HSA, to allow safety screening
+- Confirmation of the approved indications for the Singapore licences
+- If the sclerosing cholangitis direction is of interest, it would be better to start with a focused review of antibiotic and gut-microbiome evidence in that disease
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

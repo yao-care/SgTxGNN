@@ -2,7 +2,7 @@
 layout: default
 title: Somatotropin
 parent: Low Evidence (L5)
-nav_order: 919
+nav_order: 929
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Somatotropin: From Growth Hormone Therapy to Middle Ear Neuroendocrine Tumor
+# Somatotropin: From Growth Hormone Deficiency and Turner Syndrome to Middle Ear Neuroendocrine Tumor
 
 ## One-Sentence Summary
 
-Somatotropin is recombinant human growth hormone, marketed in Singapore under several brands, though the supplied registration records do not list its approved indications.
-The TxGNN model predicts it may be effective for **middle ear neuroendocrine tumor**, but this rests on a graph-based score alone, with **0 clinical trials** and **2 loosely related publications**.
-The literature does not test somatotropin as a treatment for this tumor, and growth hormone's growth-promoting activity raises a theoretical safety concern in tumors.
+Somatotropin (recombinant human growth hormone) was originally used to treat growth disorders such as pituitary dwarfism, isolated congenital growth hormone deficiency, Turner syndrome, Prader-Willi syndrome and Noonan syndrome.
+The TxGNN model's top-ranked prediction is **middle ear neuroendocrine tumor**, but there are **0 clinical trials** and **0 publications** supporting it, so this is a model prediction only.
+Among the other top-10 predictions, the three Turner-spectrum entities (mixed gonadal dysgenesis, mosaic monosomy X, and Turner syndrome due to structural X chromosome anomalies) are the most credible, because they sit close to existing approved indications.
 
 ---
 
@@ -43,7 +43,7 @@ The literature does not test somatotropin as a treatment for this tumor, and gro
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the supplied HSA records |
+| Original Indication | Pituitary dwarfism, isolated congenital growth hormone deficiency, Turner syndrome, monosomy X, gonadal dysgenesis, Prader-Willi syndrome, Noonan syndrome (the Singapore licence records list no indication text) |
 | Predicted New Indication | Middle ear neuroendocrine tumor |
 | TxGNN Prediction Score | 96.82% |
 | Evidence Level | L5 |
@@ -55,48 +55,57 @@ The literature does not test somatotropin as a treatment for this tumor, and gro
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Somatotropin is a growth hormone product that acts through the GH/IGF-1 axis. The registration records do not state its approved indications, so the link to the predicted tumor cannot be traced.
+Detailed mechanism of action data is not currently available. Somatotropin is a growth hormone product, and its efficacy in growth-related conditions such as growth hormone deficiency and Turner syndrome is established. Its action is generally understood to run through the GH/IGF-1 axis, which drives growth and cell proliferation.
 
-The prediction comes only from the knowledge-graph model. The two retrieved papers study stress hormones in Ménière's disease and acoustic neuroma, and growth factors in vestibular schwannoma. Neither examines somatotropin as a treatment, so there is no direct mechanistic support.
+For the top prediction, **middle ear neuroendocrine tumor**, no credible therapeutic link can be established from the data compiled for this report. A GH/IGF-1 connection to neuroendocrine cell proliferation is speculative. It also raises a safety concern, because stimulating this axis could promote tumor growth rather than inhibit it. The same concern applies to the other tumor predictions in the top 10 (malignant cutaneous granular cell skin tumor, ectomesenchymoma, human herpesvirus 8-related tumor, rhabdoid tumor). The scores for these, and for familial generalized lentiginosis and gastrocutaneous syndrome, most likely reflect knowledge-graph proximity rather than a validated mechanism.
 
-Growth hormone and IGF-1 signalling promotes cell growth. In a tumor indication this is a theoretical safety concern rather than a therapeutic rationale.
+By contrast, three lower-ranked predictions are biologically plausible because they overlap with existing indications:
+
+- **Mixed gonadal dysgenesis** (score 95.58%): shares short stature and a similar karyotype spectrum with Turner syndrome and gonadal dysgenesis. Gonadoblastoma risk in Y-containing karyotypes needs to be considered.
+- **Mosaic monosomy X** (score 95.06%): a variant of monosomy X/Turner syndrome. This is likely a re-discovery of an existing indication rather than true repurposing.
+- **Turner syndrome due to structural X chromosome anomalies** (score 95.02%): a subtype of Turner syndrome. Evidence is inferred from the parent indication.
+
+These three are classified at evidence level L4 (indirect evidence) and are best treated as research questions.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for the top-ranked prediction, or for any of the other nine predictions.
 
 ---
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [15925138](https://pubmed.ncbi.nlm.nih.gov/15925138/) | 2005 | Cohort | Brain Research Bulletin | Measured stress hormones (ACTH, cortisol, growth hormone, prolactin) in patients with Ménière's disease and acoustic neuroma against facial spasm controls. It is not a treatment study. |
-| [11200590](https://pubmed.ncbi.nlm.nih.gov/11200590/) | 2000 | Cohort | Acta Oto-Laryngologica | Retrospective study of 69 vestibular schwannomas examining whether vessel count, blood cell extravasation and inflammation predict tumor growth. It does not involve somatotropin. |
+Currently no related literature available for the top-ranked prediction, or for any of the other nine predictions.
 
 ---
 
 ## Singapore Market Information
 
-The registration records supplied do not state approved indications. Only 5 of the 6 registrations were provided in detail.
-
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN14362P | ZOMACTON Powder and Solvent for Solution for Injection 4 mg | Injection, powder, for solution | Not stated |
-| SIN12215P | NORDITROPIN FLEXPRO Injection 10 mg/1.5 ml | Injection | Not stated |
-| SIN14432P | Saizen solution for injection 5.83 mg/ml (6 mg in 1.03 ml) | Injection, solution | Not stated |
-| SIN14433P | Saizen solution for injection 8.00 mg/ml (20 mg in 2.50 ml) | Injection, solution | Not stated |
-| SIN14425P | Saizen solution for injection 8.00 mg/ml (12 mg in 1.50 ml) | Injection, solution | Not stated |
+| SIN14362P | ZOMACTON Powder and Solvent for Solution for Injection 4 mg | Injection, powder, for solution | Not listed in the registration record |
+| SIN12215P | NORDITROPIN FLEXPRO Injection 10 mg/1.5 ml | Injection | Not listed in the registration record |
+| SIN14432P | Saizen solution for injection 5.83 mg/ml (6 mg in 1.03 ml) | Injection, solution | Not listed in the registration record |
+| SIN14433P | Saizen solution for injection 8.00 mg/ml (20 mg in 2.50 ml) | Injection, solution | Not listed in the registration record |
+| SIN14425P | Saizen solution for injection 8.00 mg/ml (12 mg in 1.50 ml) | Injection, solution | Not listed in the registration record |
+
+A sixth licence, SIN12219P (NORDITROPIN FLEXPRO Injection 5 mg/1.5 ml), is also valid. All six registrations are single-ingredient products, and none is cancelled.
 
 ---
 
 ## Safety Considerations
 
-- **Theoretical tumor-growth concern**: GH/IGF-1 signalling promotes cell growth, so use in neoplastic disease needs particular caution.
+- **Oncologic concern**: Somatotropin stimulates the GH/IGF-1 axis, which theoretically carries a risk of promoting tumor growth. This is especially relevant to the malignant and neoplastic predicted indications.
+- **Gonadal tumor risk**: In mixed gonadal dysgenesis with Y-containing karyotypes, gonadoblastoma risk should be considered in any evaluation.
+- **Drug Interactions**: The interaction screen returned 100 interactions, all rated Moderate in the part reviewed. Main ones include:
+  - Glucose-lowering drugs: acarbose, albiglutide, alogliptin, pioglitazone, canagliflozin, metformin, chlorpropamide, dapagliflozin, dulaglutide
+  - Corticosteroids: hydrocortisone, triamcinolone, dexamethasone, betamethasone, budesonide
+  - Acid suppressants: rabeprazole, omeprazole
+  - Others: aprepitant, clarithromycin, dolasetron, dronabinol
 
-No interaction data were found. Please refer to the package insert for further safety information.
+Please refer to the package insert for warnings and contraindications.
 
 ---
 
@@ -105,13 +114,14 @@ No interaction data were found. Please refer to the package insert for further s
 **Decision: Hold**
 
 **Rationale:**
-The prediction is model-only (L5), with no trials and no literature testing somatotropin in this tumor. The theoretical safety concern argues against pursuing it without further evidence.
+The top-ranked prediction, middle ear neuroendocrine tumor, rests only on a model score (evidence level L5) with no trials or publications. Stimulating the GH/IGF-1 axis in a neoplasm also raises a theoretical safety concern. The Turner-spectrum predictions (mixed gonadal dysgenesis, mosaic monosomy X, Turner syndrome due to structural X chromosome anomalies) are more plausible, but they largely overlap with already approved indications and are best handled as research questions.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings, contraindications and approved indications
-- Mechanism of action data (for example from DrugBank)
-- Any direct preclinical or clinical evidence of somatotropin in neuroendocrine tumors, together with a tumor-safety assessment
-- Consider redirecting effort to other predicted candidates in the same pack with stronger support. Mosaic monosomy X (L3) and mixed gonadal dysgenesis (L3) are the clearest, both with a plausible short-stature and GH rationale. The Phase 3 Turner syndrome trial NCT00191113 is related but not direct evidence.
+- Mechanism of action (MOA) data
+- Package insert warnings and contraindications from the HSA, so safety screening can be completed
+- Any clinical or literature evidence specific to the predicted indications
+- A dedicated oncologic safety assessment before any tumor indication is considered
+- For the Turner-spectrum predictions, a check of whether they are already covered by existing approved indications, plus gonadoblastoma risk assessment for Y-containing karyotypes
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

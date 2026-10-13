@@ -2,7 +2,7 @@
 layout: default
 title: Corifollitropin Alfa
 parent: Low Evidence (L5)
-nav_order: 276
+nav_order: 279
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,18 +29,17 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Corifollitropin alfa: From Controlled Ovarian Stimulation to Gastroduodenitis
+# Corifollitropin alfa: From Assisted Reproduction to Gastroduodenitis
 
 ## One-Sentence Summary
 
-Corifollitropin alfa is a long-acting FSH-receptor agonist used for controlled ovarian stimulation in fertility treatment.
-The TxGNN model predicts it may be effective for **gastroduodenitis**, but this is a graph-based prediction only, with **0 clinical trials** and **0 publications** supporting it.
+Corifollitropin alfa is a long-acting recombinant follicle-stimulating hormone (FSH) analogue marketed in Singapore as Elonva. The TxGNN model predicts it may be effective for **gastroduodenitis**, but **no clinical trials and no publications** currently support this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Controlled ovarian stimulation (the Singapore registration records do not state an indication) |
+| Original Indication | Not stated in the Singapore licence records |
 | Predicted New Indication | Gastroduodenitis |
 | TxGNN Prediction Score | 99.65% |
 | Evidence Level | L5 |
@@ -50,42 +49,38 @@ The TxGNN model predicts it may be effective for **gastroduodenitis**, but this 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Corifollitropin alfa is a long-acting FSH-receptor agonist, and its established use is stimulating the ovaries in fertility treatment.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on general pharmacology, corifollitropin alfa is a long-acting FSH analogue (an FSH beta-subunit fused with the C-terminal peptide of hCG). It acts on FSH receptors in the gonads.
 
-The evidence review found no plausible link between FSH-receptor agonism and inflammation of the stomach or duodenal lining. The high score most likely reflects patterns in the knowledge graph rather than a real biological connection. Other high-ranked predictions for this drug (peptic ulcer disease, peptic esophagitis) are equally unsupported, so this prediction should not be treated as a lead without independent evidence.
+No plausible mechanistic link to inflammation of the stomach and duodenal lining is evident. FSH receptor agonism has no known effect on gastric mucosal defence or acid-related injury. The high score (0.9965) appears to be a network-based prediction without clinical or literature support. It is probably an artefact of knowledge-graph proximity rather than independent biology.
 
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available.
+Other top-ranked predictions show the same pattern. They include migraine disorders, peptic ulcer disease, Raynaud disease, pulmonary hypertension, and others. None has any trial or publication evidence, and none has a credible mechanistic rationale. Some are more concerning than promising. For example, ovarian stimulation changes oestradiol levels, which may trigger migraine rather than treat it, and ovarian hyperstimulation carries fluid-shift and thromboembolic risks relevant to pulmonary hypertension.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN13940P | Elonva Solution for Injection 150mcg/0.5ml | Injection, solution |
-| SIN13939P | Elonva Solution for Injection 100mcg/0.5ml | Injection, solution |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN13940P | Elonva Solution for Injection 150mcg/0.5ml | Injection, solution | Not listed in the licence record |
+| SIN13939P | Elonva Solution for Injection 100mcg/0.5ml | Injection, solution | Not listed in the licence record |
 
-Both products are manufactured by Vetter Pharma-Fertigung GmbH & Co. KG.
+Both licences are valid single-ingredient products from Vetter Pharma-Fertigung GmbH & Co. KG.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No drug-interaction records were found for this drug in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on the model score alone. There are no trials or publications, and no mechanistic link between FSH-receptor agonism and gastroduodenal disease. All nine other top-ranked predictions for this drug are also L5 and on Hold. For the migraine-susceptibility prediction, the 20 retrieved papers are about epilepsy genetics and never mention this drug, so they are keyword matches and not supporting evidence.
+The prediction is supported only by a model score. There are no clinical trials or publications, and the proposed indication has no plausible mechanistic link to an FSH receptor agonist. Safety information from the package insert is also missing.
 
 **To proceed, the following is needed:**
-- Mechanism of action data from DrugBank, to allow a proper mechanistic assessment
-- Package insert warnings and contraindications from HSA, which are required before any safety screening
-- Any preclinical or clinical study linking FSH-receptor agonism to gastroduodenal disease; without this, there is no basis to advance beyond Hold
+- Package insert warnings and contraindications from the HSA website, which are required for any safety screening
+- Mechanism of action data (for example from DrugBank)
+- The approved indication text for the Singapore licences
+- Any preclinical or clinical evidence linking FSH receptor signalling to gastroduodenal disease
+- A route and formulation compatibility assessment, since the product is an injectable intended for reproductive use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

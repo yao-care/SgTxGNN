@@ -2,7 +2,7 @@
 layout: default
 title: Glycine
 parent: Low Evidence (L5)
-nav_order: 483
+nav_order: 487
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,18 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Glycine: From Unspecified Approved Use to Nasal Cavity Disease
+# Glycine: From Allergic Rhinitis and Related Upper Airway Conditions to Nasal Cavity Disease
 
 ## One-Sentence Summary
 
-Glycine is a simple amino acid marketed in Singapore as an oral dispersible tablet and as amino acid infusion solutions, but the registration records provided do not state an approved indication.
-The TxGNN model predicts it may be relevant to **nasal cavity disease**, but this is a model prediction only.
-The single linked clinical trial (**1**) and the two linked publications (**2**) are unrelated to glycine and do not support the prediction.
+Glycine is an amino acid that is widely marketed in Singapore, mainly in parenteral nutrition products. In the knowledge graph used for this report, its original indications are allergic rhinitis, vasomotor rhinitis, pharyngitis, the common cold, rhinitis and nasopharyngitis.
+The TxGNN model predicts it may be effective for **nasal cavity disease**, but only **1 clinical trial** (an unrelated imaging study) and **2 publications** (basic research) are linked, so there is effectively no supporting evidence beyond the model prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration records |
+| Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, rhinitis, nasopharyngitis (from the knowledge graph; Singapore licence records contain no indication text) |
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 99.85% |
 | Evidence Level | L5 |
@@ -51,52 +50,58 @@ The single linked clinical trial (**1**) and the two linked publications (**2**)
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, glycine is a small amino acid used in oral products and in parenteral nutrition amino acid solutions. Its approved use cannot be confirmed from the data provided, so it cannot be linked mechanistically to nasal cavity disease.
+Currently, detailed mechanism of action data is not available. Based on known information, glycine is an amino acid used as a nutritional component and as an inhibitory neurotransmitter. Its listed original indications are all upper airway and nasal conditions, and nasal cavity disease is a closely related category.
 
-The high TxGNN score (99.85%) reflects a pattern in the knowledge graph, not clinical or mechanistic evidence. None of the retrieved studies tests glycine in nasal disease. None of the registered forms (tablet, infusion, injection, emulsion) is a nasal formulation, so route compatibility would also need to be established.
+The very high score (99.85%) most likely reflects overlap with those original indications, since rhinitis is itself a nasal cavity disease. It is not evidence of a new mechanism. No mechanistic rationale can be confirmed, and the linked trial and papers do not show that glycine is effective in nasal disease.
+
+Other predictions for this drug are also computational only. The closest is acute laryngopharyngitis (99.84%), which is similar to the original indications. Dyspepsia (96.4%) has only indirect animal-study evidence.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01806675](https://clinicaltrials.gov/study/NCT01806675) | Phase 1/2 | Completed | 25 | PET imaging of a new radiotracer (18F-FPPRGD2) in glioblastoma, gynaecological cancers and renal cell carcinoma. No glycine intervention and no nasal disease link (relevance grade C). |
+| [NCT01806675](https://clinicaltrials.gov/study/NCT01806675) | Phase 1/2 | Completed | 25 | PET imaging of angiogenesis (αvβ3 integrin) in glioblastoma, gynaecological cancer and renal cell carcinoma. It is a diagnostic study that does not test glycine as a therapy, and the link is likely incidental. |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [29607903](https://pubmed.ncbi.nlm.nih.gov/29607903/) | 2018 | Preclinical (drug delivery) | Chem Pharm Bull | Oligoarginine-linked polymers as a nasal mucosal vaccine adjuvant in mice. Not about glycine as a treatment. |
-| [7771054](https://pubmed.ncbi.nlm.nih.gov/7771054/) | 1995 | Preclinical (animal tissue) | Vet Pathol | Lectin staining of normal and herpesvirus-infected bovine nasal mucosa. Not about glycine as a treatment. |
+| [7771054](https://pubmed.ncbi.nlm.nih.gov/7771054/) | 1995 | Basic research | Veterinary Pathology | Lectin histochemistry of normal and herpesvirus-infected bovine nasal mucosa. It does not test glycine. |
+| [29607903](https://pubmed.ncbi.nlm.nih.gov/29607903/) | 2018 | Basic research | Chemical & Pharmaceutical Bulletin | Oligoarginine-polymer conjugates as a nasal mucosal vaccine adjuvant in mice. It does not test glycine as a treatment. |
 
 ## Singapore Market Information
 
-The registration records list 19 licences. The five main ones are below. Approved indication text was not provided for any of them.
+Glycine has 19 valid single-ingredient registrations, with no cancelled ones. No approved indication text is recorded for these products. Most are parenteral nutrition or amino acid infusion products. Five representative authorizations:
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN12172P | GLYPRIN DISPERSIBLE TABLET | Tablet |
-| SIN16337P | AMINOVEN SOLUTION FOR INFUSION 15% | Infusion, solution |
-| SIN11682P | AMINOVEN SOLUTION FOR INFUSION 5% | Injection |
-| SIN11829P | AMINOVEN SOLUTION FOR INFUSION 10% | Injection |
-| SIN08352P | AMINOPLASMAL-15% INFUSION | Injection |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN12172P | Glyprin Dispersible Tablet | Tablet | Not recorded |
+| SIN16337P | Aminoven Solution for Infusion 15% | Infusion, solution | Not recorded |
+| SIN11682P | Aminoven Solution for Infusion 5% | Injection | Not recorded |
+| SIN08352P | Aminoplasmal-15% Infusion | Injection | Not recorded |
+| SIN09353P | Nutrineal PD4 with 1.1% Amino Acid Solution | Solution, sterile | Not recorded |
+
+The registered dosage forms are an oral tablet, injectables, a sterile solution and emulsions. No nasal or topical formulation appears among them, so route compatibility with a nasal indication has not been established.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications (from the knowledge graph, not label text):** The graph links glycine to conditions including kidney disease (chronic kidney disease, end-stage renal failure), heart and cardiovascular disease, hypercalcaemia and hyperparathyroidism, nephrolithiasis, hyperphosphatemia, phenylketonuria and other disorders of phenylalanine metabolism, sarcoidosis, digitalis poisoning and ventricular fibrillation. These are database associations and should be checked against the package insert.
+- **Drug Interactions:** No interaction records were found.
+
+Please refer to the package insert for complete safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The nasal cavity disease prediction rests on the model score alone (L5). The one linked trial and both linked publications do not involve glycine, and neither mechanism nor safety data is available.
+The prediction rests on a model score that mostly reflects overlap with glycine's existing rhinitis-related indications. The one linked trial and two papers do not test glycine in nasal disease, and no mechanism has been established. This is evidence level L5.
 
 **To proceed, the following is needed:**
-- The HSA package insert (warnings, contraindications, approved indications), which is a blocking gap for safety screening
-- Mechanism of action data for glycine (for example from DrugBank)
-- Glycine-specific clinical or preclinical evidence in nasal disease
-- An assessment of whether a suitable nasal formulation exists
-- Among the other predictions, dyspepsia (rank 5) is the only one with weak indirect support: one rat study on amino acids and gastric accommodation, which does not confirm glycine was tested. It could be treated as a research question rather than a candidate.
+- Package insert warnings and contraindications from the Singapore regulator (HSA), which are currently missing and block safety screening
+- Mechanism of action data (for example from DrugBank) to assess biological plausibility
+- Clarification of the approved indications for the registered products
+- Direct preclinical or clinical studies of glycine in nasal cavity disease, plus a feasibility assessment of a nasal or topical route, since current formulations are oral and parenteral
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

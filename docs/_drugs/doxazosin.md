@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Doxazosin
-parent: Medium Evidence (L3-L4)
-nav_order: 347
-evidence_level: L4
+parent: Low Evidence (L5)
+nav_order: 351
+evidence_level: L5
 indication_count: 10
 ---
 
 # Doxazosin
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,30 +29,32 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Doxazosin: From Alpha-1 Blocker Therapy to Migraine Disorder
+# Doxazosin: From Hypertension and Benign Prostatic Hyperplasia to Migraine Disorder
 
 ## One-Sentence Summary
 
-Doxazosin is an alpha-1 adrenergic antagonist marketed in Singapore as Cardura tablets. The TxGNN model predicts it may be effective for **migraine disorder**, with a very high score. Support is thin: **no clinical trials** and **1 publication**, a 1997 report on alpha-1 blockers in migraine prophylaxis.
+Doxazosin is an alpha-1 adrenergic blocker originally used to treat hypertension and benign prostatic hyperplasia.
+The TxGNN model predicts it may be effective for **migraine disorder**, but there are **no registered clinical trials** and only **1 publication** (a small case series) supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Hypertension; benign prostatic hyperplasia (the approved indication text on the Singapore licence is not available, so these come from the knowledge graph) |
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 99.20% |
-| Evidence Level | L4 |
+| Evidence Level | L5 (model prediction with only a small uncontrolled case series; no trials) |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Doxazosin blocks alpha-1 adrenergic receptors. Detailed mechanism-of-action data is not available in the current record, so this rationale rests on its drug class. Adrenergic modulation of cranial vascular tone and sympathetic activity is a plausible route to migraine prophylaxis, and related alpha-blocking agents have been discussed for this use.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, doxazosin is an alpha-1 adrenergic receptor antagonist. It relaxes vascular smooth muscle (lowering blood pressure) and prostatic smooth muscle (easing urinary symptoms).
 
-The only supporting literature is a 1997 report on alpha-1 blockers in migraine prophylaxis. This is indirect, class-level support with no doxazosin-specific controlled data. The 99.20% score is a computational prediction only and does not replace clinical evidence.
+The link to migraine is plausible but indirect. Adrenergic signalling and vascular tone regulation have been proposed to contribute to migraine, and other agents acting on the adrenergic system (for example propranolol and clonidine) are used for prophylaxis. The very high TxGNN score is a computational prediction only and is not backed by trial data. Mechanistic similarity between the original and new indications has not yet been assessed.
 
-The other top-ranked predictions are much weaker. They include a migraine subtype (migraine with brainstem aura), several hair-growth and congenital malformation disorders, and kyphoscoliotic heart disease. None has trials or drug-specific literature, and most look like knowledge-graph artifacts. The rank 4 prediction (a malformation syndrome with a periodontal component) has 20 associated publications, but these concern periodontitis in general and none evaluates doxazosin.
+Other predictions from the model, such as migraine with brainstem aura, are likely inherited from the general migraine node. Predictions in hair disorders, congenital malformation syndromes and kyphoscoliotic heart disease have no identifiable mechanistic link and appear to be knowledge-graph artefacts. They are not pursued in this report.
 
 ## Clinical Trial Evidence
 
@@ -62,34 +64,49 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [9074296](https://pubmed.ncbi.nlm.nih.gov/9074296/) | 1997 | Review | Headache | Ten migraine patients in a general neurology practice received terazosin or doxazosin. Migraine frequency, severity, or both decreased in all but 1 patient. Five patients stopped the drug because of side effects, and no serious adverse reactions were reported. |
+| [9074296](https://pubmed.ncbi.nlm.nih.gov/9074296/) | 1997 | Review (small case series) | Headache | Ten migraine patients in a neurology practice were given terazosin or doxazosin. Nearly all had fewer or milder migraines, but 5 stopped the drug because of side effects. No serious adverse reactions were reported. |
 
-This is an uncontrolled, small-sample experience report. The doxazosin-specific signal cannot be separated from terazosin.
+This is a single, very small, uncontrolled report. It is hypothesis-generating only.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN05014P | CARDURA TABLET 2 mg | Tablet | Pfizer Manufacturing Deutschland GmbH |
+| SIN05014P | CARDURA TABLET 2 mg | Tablet (oral) | Not available in the data compiled |
 
-Route: oral only.
+Manufacturer: Pfizer Manufacturing Deutschland GmbH. This is the only valid single-ingredient registration.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+**Contraindications / cautions from the drug–disease knowledge graph** (these come from the knowledge graph, not from the package insert): multiple system atrophy, postural orthostatic tachycardia syndrome, orthostatic hypotension, hypotensive disorder, liver failure, liver disease, gallbladder disease, pyloric stenosis, intestinal obstruction, priapism, and intraoperative floppy iris syndrome.
+
+Of particular relevance to a migraine population:
+- Orthostatic and general hypotension are a concern, since blood pressure lowering is the main pharmacological effect.
+- In the one small case series, 5 of 10 patients stopped treatment because of side effects.
+
+**Drug Interactions**: The interaction query found 100 interacting drugs. Most of those shown are Moderate-level:
+- Corticosteroids: hydrocortisone, dexamethasone, betamethasone, budesonide, prednisolone, prednisone, triamcinolone
+- SGLT2 inhibitors: canagliflozin, dapagliflozin, empagliflozin, ertugliflozin
+- Central nervous system (CNS) agents: morphine, opium, bupropion, dronabinol, nabilone
+- Clarithromycin
+
+Interactions with calcitriol, clotrimazole and cimetidine are of unknown severity.
+
+The package insert warnings and contraindications for the Singapore-registered product have not been reviewed. Please refer to the package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The high TxGNN score is not backed by any registered trial. The only literature is a small 1997 uncontrolled report, and half of its patients stopped the drug because of side effects. This is best treated as a research question rather than an actionable repurposing candidate.
+The prediction rests mainly on a computational score and a single small, uncontrolled 1997 case series. There are no registered trials, and the mechanistic rationale is indirect. Doxazosin is already marketed in Singapore, which lowers access barriers, but the evidence is not yet sufficient to move forward. The migraine hypothesis may be kept as a research question.
 
 **To proceed, the following is needed:**
-- Singapore package insert warnings and contraindications, which are required before any safety screening
-- Detailed mechanism-of-action data for doxazosin
-- A systematic search for doxazosin-specific migraine studies, including controlled trials and international trial registries
-- A tolerability assessment for migraine prophylaxis, since hypotension is a known concern with alpha-1 blockade
+- Singapore package insert warnings and contraindications (a blocking gap for safety screening)
+- Detailed mechanism of action data
+- A systematic literature search for alpha-1 blockers (e.g., prazosin, terazosin) in migraine prophylaxis, and a check of international trial registries
+- Assessment of tolerability, especially hypotension, in migraine patients
+- A controlled study (for example, a small randomised pilot) if the literature review supports the hypothesis
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Sildenafil
 parent: Low Evidence (L5)
-nav_order: 902
+nav_order: 912
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,107 +29,80 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sildenafil: From Erectile Dysfunction to Genetic Alopecia
+# Sildenafil: From Pulmonary Arterial Hypertension and Erectile Dysfunction to Ambras Type Hypertrichosis Universalis Congenita
 
 ## One-Sentence Summary
 
-Sildenafil is an oral PDE5 inhibitor sold in Singapore under brands such as Viagra. The registration records supplied do not state its approved indication, so the "erectile dysfunction" in the title comes from general pharmacology, not the Evidence Pack. The TxGNN model ranks **Genetic Alopecia** as the best-supported of its 10 predictions, with **2 clinical trials** and **1 publication** behind it. The model's top-scoring predictions have no supporting evidence at all.
-
-> **Note on scope:** The top-ranked prediction (Ambras-type hypertrichosis universalis congenita, 98.4%) has no trials or literature. This report therefore focuses on genetic alopecia, the only prediction with direct sildenafil evidence. All 10 predictions are summarised below.
-
----
+Sildenafil is a PDE5 inhibitor originally used for pulmonary arterial hypertension, erectile dysfunction, psychologic dyspareunia and premature ejaculation.
+The TxGNN model predicts it may be effective for **Ambras type hypertrichosis universalis congenita**, but there are **0 clinical trials** and **0 publications** supporting this prediction, so it is a model prediction only.
+Among the other top-10 predictions, genetic alopecia has the most (still preliminary) support: a single 2018 publication on sildenafil and hair growth.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration records (general knowledge: erectile dysfunction) |
-| Predicted New Indication | Genetic alopecia (model rank 9 of 10) |
-| TxGNN Prediction Score | 75.03% |
-| Evidence Level | L3 as scored in the pack; the supporting studies are small and early-phase, so this is borderline L3/L4 |
+| Original Indication | Pulmonary arterial hypertension; erectile dysfunction; psychologic dyspareunia; premature ejaculation (the Singapore licence records contain no approved-indication text) |
+| Predicted New Indication | Ambras type hypertrichosis universalis congenita |
+| TxGNN Prediction Score | 98.41% |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 20 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. From general pharmacology (not from the pack), sildenafil inhibits PDE5 and raises intracellular cGMP, which causes vasodilation. Sildenafil is already marketed in Singapore as an oral drug.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on general knowledge, sildenafil inhibits phosphodiesterase type 5 (PDE5), which raises intracellular cGMP and causes vasodilation. This underlies its efficacy in pulmonary arterial hypertension and erectile dysfunction.
 
-The link to hair loss is plausible. The proposed mechanism is better blood flow around the hair follicle. A 2018 laboratory study (PMID 30292404) reported a hair-growth effect on human hair follicles. Two trials test topical sildenafil for hair loss, one in alopecia areata and one in male androgenetic alopecia. These are not exactly the "genetic alopecia" category the model predicted.
+The link to Ambras syndrome is weak. One hypothesis is that raised cGMP could affect hair follicle blood supply and signalling. However, Ambras-type hypertrichosis is driven by genetic and developmental dysregulation of hair growth. There is no established rationale for benefit, and sildenafil could plausibly worsen hair overgrowth rather than treat it. The high score should be read as a knowledge-graph prediction, not as evidence of efficacy.
 
-The evidence is small, early-phase and topical, so it does not yet show benefit.
-
-**Other model predictions:** The other nine predictions are weak or unsupported:
-
-| Rank | Predicted Indication | Score | Evidence |
-|------|------|------|------|
-| 1 | Ambras-type hypertrichosis universalis congenita | 98.4% | None. Sildenafil's hair-growth signal could worsen a hair-overgrowth disorder. |
-| 2 | Malformation syndrome with odontal/periodontal component | 98.2% | Retrieved papers are generic periodontitis literature and do not involve sildenafil. They appear to be keyword noise. |
-| 3 | Syndrome with Dandy-Walker malformation | 98.0% | None |
-| 4 | Isolated genetic hair shaft abnormality | 97.9% | None |
-| 5 | Hypertrichosis | 97.8% | One case report on glibenclamide in Cantú syndrome, not sildenafil |
-| 6 | Homozygous familial hypercholesterolemia | 93.8% | None |
-| 7 | Hypoalphalipoproteinemia | 90.1% | None |
-| 8 | Familial isolated trichomegaly | 79.8% | None. Same worsening-direction concern as rank 1. |
-| 10 | Obsolete patella aplasia, coxa vara, and tarsal synostosis | 70.0% | None. The disease entry is obsolete. |
-
----
+For context, none of the other top-10 predictions has clinical trial support either. Of these, **genetic alopecia** (rank 9, score 75.0%) is the only one with a directly relevant publication: a 2018 paper reporting a novel effect of sildenafil on hair growth in human hair follicles. It is rated L4 and labelled a research question. Its study type is not specified, so it should be treated as preliminary.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT06527729](https://clinicaltrials.gov/study/NCT06527729) | Early Phase 1 | Completed | 28 | Randomized study of a sildenafil-loaded lipid nanocarrier in alopecia areata (an autoimmune alopecia). No results in the pack. |
-| [NCT05369481](https://clinicaltrials.gov/study/NCT05369481) | Not applicable | Unknown | 50 | Topical sildenafil 2% vs topical minoxidil 5% in male androgenetic alopecia. No results in the pack. |
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
+For the top-ranked prediction (Ambras type hypertrichosis universalis congenita), currently no related literature is available.
+
+For reference, the literature found for other predicted indications:
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [30292404](https://pubmed.ncbi.nlm.nih.gov/30292404/) | 2018 | Preclinical (inferred from title; verify) | Biochem Biophys Res Commun | Examines the effect of sildenafil on human hair follicles, which was previously unknown. The supplied abstract is truncated and the results are not visible. |
-
----
+| [30292404](https://pubmed.ncbi.nlm.nih.gov/30292404/) | 2018 | Unspecified (likely preclinical or observational) | Biochem Biophys Res Commun | Investigates the effect of sildenafil on human hair follicles. Linked to genetic alopecia (rank 9). |
+| [31175705](https://pubmed.ncbi.nlm.nih.gov/31175705/) | 2019 | Case report | Am J Med Genet A | Glibenclamide treatment in a neonate with Cantú syndrome (ABCC9 gain-of-function variant). Does not involve sildenafil. Linked to hypertrichosis (rank 5). |
 
 ## Singapore Market Information
 
+There are 20 valid single-ingredient licences. Five main ones are shown. The licence records contain no approved-indication text.
+
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN10805P | VIAGRA TABLET 50 mg | Film-coated tablet | Not stated in the record |
-| SIN16024P | SILCAP® 50 CAPSULE 50MG | Capsule | Not stated in the record |
-| SIN15090P | SILDENAFIL STADA® FILM COATED TABLET 100MG | Film-coated tablet | Not stated in the record |
-| SIN14151P | Ernafil Tablet 100 mg | Film-coated tablet | Not stated in the record |
-| SIN15367P | VIVIC TABLET 100MG | Film-coated tablet | Not stated in the record |
-
-All listed products are oral. There are 20 registrations in total, and only 5 are shown.
-
----
+| SIN10805P | VIAGRA TABLET 50 mg | Film-coated tablet | Not stated in the records |
+| SIN10804P | VIAGRA TABLET 25 mg | Film-coated tablet | Not stated in the records |
+| SIN10806P | VIAGRA TABLET 100 mg | Film-coated tablet | Not stated in the records |
+| SIN13244P | Revatio Film-Coated Tablets 20mg | Film-coated tablet | Not stated in the records |
+| SIN16024P | SILCAP® 50 CAPSULE 50MG | Capsule | Not stated in the records |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug-interaction records were found in the pack.
+Package insert warnings and contraindications were not available, so please refer to the package insert for them.
 
----
+- **Contraindication-related conditions (knowledge graph, not label text)**: The knowledge graph links sildenafil with caution or contraindication in conditions including liver failure, aortic stenosis, hypotensive disorder, acute coronary syndrome, myocardial infarction, stroke and cerebrovascular disorders, hypertrophic cardiomyopathy, sickle cell anaemia and other haemoglobinopathies, plasma cell myeloma, leukaemia, priapism, Peyronie disease, anterior ischaemic optic neuropathy, hearing loss disorders, oesophageal dyskinesia and pulmonary veno-occlusive disease.
+- **Drug Interactions**: 100 interactions were identified. The only major one among those listed is **clarithromycin**. Moderate interactions include aprepitant, morphine, dexamethasone, cimetidine, miconazole, clotrimazole, papaverine, opium, lorcaserin and several SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin, ertugliflozin).
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Genetic alopecia has a plausible mechanism and two small early-phase topical trials, but no demonstrated benefit. The package-insert safety data needed for screening are missing. The highest-scoring predictions are unsupported and some may point in the wrong direction (worsening hypertrichosis).
+The prediction for Ambras-type hypertrichosis rests on model score alone, with no trials or literature, and there is no credible mechanism for benefit (possible worsening of hair overgrowth). The wider top-10 list is also entirely L5 apart from genetic alopecia (L4, a research question).
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications (a blocking gap)
-- Mechanism of action data from DrugBank
-- Results of NCT06527729 and NCT05369481, and a full read of PMID 30292404
-- Confirmation of whether genetic alopecia is the right target (androgenetic vs alopecia areata) and whether a topical formulation is intended, since only oral forms are registered in Singapore
-- Review of the direction of effect (benefit vs worsening) for the hypertrichosis-type predictions
-- Removal of the keyword-matched periodontitis papers from the evidence set
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
+- Package insert warnings and contraindications (from the HSA website)
+- Mechanism of action data (from DrugBank)
+- For genetic alopecia: review of the full text of PMID 30292404 to establish study type, followed by controlled human studies
+- Specialist clinical review before any further work on Ambras syndrome, including whether the safety profile is acceptable in this population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

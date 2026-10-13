@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Bictegravir
-parent: Low Evidence (L5)
-nav_order: 157
-evidence_level: L5
+parent: Medium Evidence (L3-L4)
+nav_order: 158
+evidence_level: L4
 indication_count: 10
 ---
 
 # Bictegravir
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,68 +29,70 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Bictegravir: From HIV-1 Infection to Simian Immunodeficiency Virus Infection
+# Bictegravir: From HIV Infection to Simian Immunodeficiency Virus Infection
 
 ## One-Sentence Summary
 
-Bictegravir is an HIV-1 integrase inhibitor, marketed in Singapore as part of the Biktarvy combination tablet for HIV-1 treatment.
-The TxGNN model predicts it may be effective against **simian immunodeficiency virus (SIV) infection**, a non-human primate model of HIV, and the support is preclinical only: **0 clinical trials** and **3 publications** (in vitro, structural review, and animal model).
+Bictegravir is an integrase inhibitor originally used to treat HIV infection and AIDS.
+The TxGNN model predicts it may be effective for **simian immunodeficiency virus (SIV) infection**, but there are **no registered clinical trials** and only **3 publications** (in vitro, structural and animal-model work), so this is essentially a preclinical model of the already-approved HIV indication rather than a new human use.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV-1 infection (inferred from known pharmacology; the Singapore registration record lists no indication text) |
+| Original Indication | HIV infectious disease; AIDS (the Singapore licence record contains no indication text) |
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 99.82% |
-| Evidence Level | L4 (preclinical and mechanistic studies only) |
+| Evidence Level | L4 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in DrugBank. Based on known pharmacology, bictegravir is an integrase strand-transfer inhibitor (INSTI). It blocks the step in which viral DNA is inserted into the host genome. Its efficacy in HIV-1 infection is established, and it is used with emtricitabine and tenofovir alafenamide in Biktarvy.
+Detailed mechanism-of-action data are not available in the data compiled for this report. Bictegravir is known to be an integrase strand transfer inhibitor (INSTI) used against HIV-1. SIV is a lentivirus closely related to HIV, and its integrase is structurally similar to the HIV enzyme.
 
-SIV and HIV-1 are closely related lentiviruses, and their integrase enzymes are structurally similar. This is why an INSTI would be expected to act on SIV as well. The literature supports this: bictegravir was tested in vitro against integrase-inhibitor-resistant SIVmac239, and structural work shows that HIV and SIV integrase share inhibitor-binding features.
+Laboratory work shows that bictegravir is active against SIVmac239, including some INSTI-resistant variants. Structural studies of HIV and SIV integrase complexes support a shared inhibitor binding mode. This explains the very high prediction score.
 
-SIV infection is a research model in non-human primates, not a human disease. This prediction is therefore best read as support for using SIV models to test antiviral strategies, not as a new treatment for patients. No human clinical benefit can follow from it.
+However, SIV infection is a primate model of the approved HIV indication, not a distinct human disease. Its value lies in preclinical testing of antiviral strategies, not in expanding the human label. Other high-scoring predictions (feline AIDS, hepatitis A/C/E, Omsk hemorrhagic fever and a rare neurodevelopmental disorder) lack a plausible integrase-based rationale and are likely knowledge-graph artifacts.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for SIV infection.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [28923862](https://pubmed.ncbi.nlm.nih.gov/28923862/) | 2017 | In vitro antiviral study | Antimicrob Agents Chemother | Tested bictegravir and cabotegravir against integrase-inhibitor-resistant SIVmac239 and HIV-1. Bictegravir has a higher genetic barrier to resistance than raltegravir and elvitegravir. |
-| [32506843](https://pubmed.ncbi.nlm.nih.gov/32506843/) | 2021 | Review (structural) | FEBS J | HIV/SIV intasome structures explain how INSTIs, including second-generation bictegravir and dolutegravir, bind integrase and how resistance arises. |
-| [39559349](https://pubmed.ncbi.nlm.nih.gov/39559349/) | 2024 | Preclinical animal model | Front Immunol | A humanized mouse model for testing antiviral regimens against both SIV and HIV, intended for evaluating new drug combinations in cure studies. |
+| [28923862](https://pubmed.ncbi.nlm.nih.gov/28923862/) | 2017 | In vitro study | Antimicrob Agents Chemother | Antiviral activity of bictegravir and cabotegravir against INSTI-resistant SIVmac239 and HIV-1 |
+| [39559349](https://pubmed.ncbi.nlm.nih.gov/39559349/) | 2024 | Preclinical animal model | Front Immunol | Dual-purpose humanized mouse model for testing antiviral strategies against both SIV and HIV |
+| [32506843](https://pubmed.ncbi.nlm.nih.gov/32506843/) | 2021 | Review (structural biology) | FEBS J | HIV/SIV intasome structures clarify integrase inhibitor binding and viral escape mechanisms |
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN15604P | BIKTARVY FILM-COATED TABLETS 50MG/200MG/25MG | Tablet, film coated (oral) | Not listed in the registration record |
-
-Manufacturers: Rottendorf Pharma GmbH; Gilead Sciences Ireland UC.
+| SIN15604P | BIKTARVY FILM-COATED TABLETS 50MG/200MG/25MG | Film-coated tablet | Not stated in the licence record |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: 81 interactions were identified in total; the main ones are listed below.
+  - **Major**: polyvalent cation-containing products, including aluminum hydroxide, magnesium salts (carbonate, chloride, citrate), magaldrate, calcium salts (acetate, carbonate, citrate, glubionate, gluconate, lactate, phosphate), iron, kaolin and attapulgite. These are generally expected to reduce integrase inhibitor absorption, so dose timing should be reviewed.
+  - **Moderate**: aprepitant, clarithromycin, dexamethasone, eliglustat and glycerol phenylbutyrate.
+
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high, but the evidence is limited to in vitro, structural, and animal-model work. SIV is a non-human research model with no human patient population, so there is no clinical repurposing opportunity here. The other high-scoring predictions for bictegravir either duplicate its existing HIV-1 use or lack a plausible mechanistic link (for example, hepatitis A, C and E, which have no integrase target).
+SIV infection is a veterinary/preclinical model of the approved HIV indication, so it offers little human repurposing value. Evidence is limited to in vitro, structural and animal-model work, with no clinical trials. Bictegravir is already marketed in Singapore for its original HIV use.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications
-- Mechanism of action data from DrugBank
-- A decision on whether SIV or humanized-mouse models are a valid research use case, given that no human indication is involved
+- Detailed mechanism-of-action data
+- Package insert warnings and contraindications from the HSA record
+- A defined human or translational research question; the more meaningful lead in this candidate list is perinatal HIV (pregnancy exposure cohort data, L3), which merits separate assessment
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

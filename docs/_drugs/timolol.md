@@ -2,7 +2,7 @@
 layout: default
 title: Timolol
 parent: Low Evidence (L5)
-nav_order: 982
+nav_order: 992
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,17 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Timolol: From Glaucoma (Ophthalmic Use) to Primary Hereditary Glaucoma
+# Timolol: From Hypertension and Open-Angle Glaucoma to Primary Hereditary Glaucoma
 
 ## One-Sentence Summary
 
-Timolol is a non-selective beta-blocker marketed in Singapore mainly as eye drops. The Singapore records do not list an approved indication, but its established ophthalmic use is lowering eye pressure in glaucoma. The TxGNN model predicts it may be effective for **primary hereditary glaucoma** with a high score, but this prediction has **no supporting evidence**: the only clinical trial retrieved (**1 trial**) concerns nosebleeds in a different disease, and **0 publications** were found.
+> Timolol is a beta-blocker originally used for hypertension, open-angle glaucoma and ocular hypertension.
+> The TxGNN model predicts it may be effective for **primary hereditary glaucoma** (score 98.6%),
+> but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Glaucoma / ocular hypertension (inferred from the ophthalmic products; no indication text in the Singapore records) |
+| Original Indication | Hypertension, open-angle glaucoma, ocular hypertension (from the knowledge graph, because the Singapore licence records contain no indication text) |
 | Predicted New Indication | Primary hereditary glaucoma |
 | TxGNN Prediction Score | 98.64% |
 | Evidence Level | L5 |
@@ -49,15 +51,15 @@ Timolol is a non-selective beta-blocker marketed in Singapore mainly as eye drop
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the source record. Based on the evidence pack's analysis, timolol is a non-selective beta-blocker that lowers intraocular pressure (IOP) by reducing aqueous humor production. That is plausible for glaucoma in general.
+Detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, timolol is a non-selective beta-adrenergic blocker. In the eye it lowers intraocular pressure (IOP) by reducing aqueous humour production in the ciliary body.
 
-Primary hereditary (congenital) glaucoma is a glaucoma subtype, so the prediction is not a large conceptual jump. However, it is usually managed surgically, and a topical IOP-lowering mechanism has not been shown to be relevant. The high TxGNN score is a model output only and is not backed by clinical data.
+Its efficacy in open-angle glaucoma and ocular hypertension is established. Primary hereditary glaucoma is also a pressure-driven optic neuropathy, so an IOP-lowering drug is mechanistically plausible.
+
+However, the high score is a computational prediction only. It most likely reflects similarity to the already-approved glaucoma indications rather than independent evidence in hereditary forms. No trials or publications were found for this specific condition.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT02484716](https://clinicaltrials.gov/study/NCT02484716) | Phase 2 | Completed | 58 | Randomized, placebo-controlled test of timolol nasal spray for nosebleeds in Hereditary Hemorrhagic Telangiectasia (HHT). Unrelated to glaucoma; it matches only the word "hereditary" and is likely a keyword-matching artifact. |
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
@@ -65,38 +67,41 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN11054P | TIMABAK EYEDROPS 0.5% | Solution | Not specified |
-| SIN08619P | TIMOPTOL-XE OPHTHALMIC SOLUTION 0.5% | Solution | Not specified |
-| SIN04135P | TIMOPTOL OPHTHALMIC SOLUTION 0.5% | Solution | Not specified |
-| SIN09709P | TIMOLOL-POS EYE DROPS 0.5% | Solution | Not specified |
-| SIN13744P | TIMO-COMOD 0.5% EYE DROPS | Solution | Not specified |
+Timolol has 20 valid registrations in Singapore, all ophthalmic solutions or suspensions and none cancelled. Five are shown below. The remaining 15 are mostly fixed-dose combinations with other glaucoma drugs, such as latanoprost, travoprost, bimatoprost, brimonidine, dorzolamide and brinzolamide. Approved indication text is not recorded in the licence data.
 
-Showing 5 of 20 registrations.
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN11054P | Timabak Eyedrops 0.5% | Solution | Excelvision |
+| SIN08619P | Timoptol-XE Ophthalmic Solution 0.5% | Solution | Santen Pharmaceutical |
+| SIN04135P | Timoptol Ophthalmic Solution 0.5% | Solution | Santen Pharmaceutical |
+| SIN09709P | Timolol-POS Eye Drops 0.5% | Solution | Ursapharm |
+| SIN13744P | Timo-Comod 0.5% Eye Drops | Solution | Ursapharm |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Conditions flagged in the knowledge graph as contraindications** (not label text): orthostatic hypotension, anxiety and neurotic disorders, kidney disease, liver disease, pancreatitis, gallbladder disease, systemic lupus erythematosus, diabetes mellitus and diabetic ketoacidosis, gout, hypercalcaemia, myasthenia gravis and other neuromuscular junction disorders, among others.
+- **Drug Interactions**: 100 interactions are recorded.
+  - Major: epinephrine.
+  - Moderate: corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone), anticholinergics (atropine, hyoscyamine, dicyclomine), bupropion, morphine, cimetidine, canagliflozin, dapagliflozin, chlorpropamide, lorcaserin, and calcium salts.
+  - Minor: acetylsalicylic acid and magnesium oxide.
+- Standard beta-blocker precautions apply even with topical use, because of systemic absorption. These cover asthma/COPD, bradycardia, heart block and heart failure. The literature also includes a case report of timolol eye drops associated with interstitial lung disease.
 
-For general context, the evidence pack's analyses of other timolol indications flag caution in asthma, severe COPD, bradycardia and heart block. They also advise monitoring for systemic absorption of the eye drops.
+Please refer to the package insert for label warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone. The only retrieved trial is an unrelated HHT nosebleed study, no literature was found, and the evidence level is L5. Congenital glaucoma is mainly treated surgically, so topical timolol has no demonstrated role.
-
-For context, other predictions for this drug are better supported:
-- **Angle-closure glaucoma** reached L2 (Proceed with Guardrails), as an adjunct to definitive treatment only.
-- **Open-angle glaucoma** reached L1, but this is confirmation of established use rather than new repurposing.
+The prediction rests on the model score alone, with no trials or literature for primary hereditary glaucoma. The score likely reflects similarity to timolol's existing glaucoma indications. Timolol is already marketed in Singapore for glaucoma, so this prediction adds little beyond the current use.
 
 **To proceed, the following is needed:**
-- Clinical or observational data on timolol in primary hereditary (congenital) glaucoma
-- Approved indication text and safety information from the HSA package inserts
-- Mechanism-of-action data from DrugBank
-- A confirmed original indication for the record
+- Clinical or observational evidence of timolol's IOP-lowering effect in hereditary or developmental glaucoma, including paediatric safety data
+- Detailed mechanism of action data
+- HSA package insert warnings and contraindications
+- Confirmation of approved indication wording for the Singapore licences
+
+**Note:** The second-ranked prediction, closed-angle glaucoma (score 97.2%), has stronger support: several randomised comparisons of timolol versus latanoprost in chronic angle-closure glaucoma, plus meta-analyses (evidence level L2). It may be a better candidate for further research. Timolol would be an adjunct to procedures that open the angle, not a standalone treatment.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

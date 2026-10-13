@@ -29,11 +29,12 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Ampicillin: From Bacterial Infections (Indication Not Stated in HSA Records) to Laryngitis
+# Ampicillin: From Bacterial Infections to Laryngitis
 
 ## One-Sentence Summary
 
-Ampicillin is a beta-lactam antibiotic marketed in Singapore as injectable powder, alone (Standacillin) and with sulbactam (Unasyn). The TxGNN model predicts it may be effective for **laryngitis**, but only **1 loosely related clinical trial** and **20 publications** were retrieved. None of them tests ampicillin for laryngitis directly, so the evidence is weak.
+Ampicillin is a beta-lactam antibiotic originally used for urinary tract infection, otitis media, bacterial pneumonia, meningitis and other bacterial infections.
+The TxGNN model predicts it may be effective for **laryngitis** (score 99.97%), but **no clinical trials** are registered and the **20 publications** retrieved are mostly about epiglottitis, laryngeal abscess and neck infections rather than laryngitis itself, so evidence is weak.
 
 ---
 
@@ -41,7 +42,7 @@ Ampicillin is a beta-lactam antibiotic marketed in Singapore as injectable powde
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the HSA licence records provided (approved indication text is blank) |
+| Original Indication | Urinary tract infection, infectious otitis media, bacterial pneumonia, bacterial meningitis and other bacterial infections (the Singapore licence records contain no indication text, so this comes from the knowledge-graph indication list) |
 | Predicted New Indication | Laryngitis |
 | TxGNN Prediction Score | 99.97% |
 | Evidence Level | L4 |
@@ -53,52 +54,63 @@ Ampicillin is a beta-lactam antibiotic marketed in Singapore as injectable powde
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the record. Ampicillin is a beta-lactam that inhibits bacterial cell wall synthesis by binding penicillin-binding proteins. It would therefore be expected to work only where laryngeal or epiglottic infection is bacterial and the organism is susceptible.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Ampicillin is known to be a beta-lactam antibiotic that inhibits bacterial cell wall synthesis, and its efficacy in many bacterial respiratory and ear infections is established.
 
-The link to laryngitis is plausible for bacterial infections such as epiglottitis, laryngeal abscess or laryngeal actinomycosis. The retrieved literature is mostly case reports and small reviews on these conditions. However, most laryngitis is viral and does not respond to antibiotics. The very high TxGNN score reflects graph proximity, not proven clinical benefit. The one related trial studies a different drug (amoxicillin/clavulanate).
+Bacterial infections of the larynx and supraglottis, such as epiglottitis caused by *Haemophilus influenzae* and deep neck abscess, are plausibly susceptible to this mechanism. That is the basis of the prediction.
+
+There is an important caveat. Uncomplicated laryngitis is usually viral, and antibiotics do not help viral infections. The retrieved literature concerns bacterial supraglottic and neck infections, not laryngitis. The high TxGNN score is therefore not backed by direct clinical evidence for this indication.
 
 ---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01406275](https://clinicaltrials.gov/study/NCT01406275) | N/A (post-marketing surveillance) | Completed | 363 | Japanese pediatric surveillance of amoxicillin/clavulanate (CLAVAMOX) dry syrup across infections including laryngitis. It is a different drug, and no efficacy results are reported in the record. |
+Currently no related clinical trials registered.
 
 ---
 
 ## Literature Evidence
 
+The 20 retrieved publications are mostly case series, reviews and case reports. Those most relevant to ampicillin are listed below.
+
 | PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|---------|---------|
-| [39879424](https://pubmed.ncbi.nlm.nih.gov/39879424/) | 2025 | Review | CoDAS | Assessed the quality of clinical guidelines for laryngitis and pharyngitis using AGREE II. It is background only, with no ampicillin data. |
-| [35923122](https://pubmed.ncbi.nlm.nih.gov/35923122/) | 2023 | Case report | Ann Otol Rhinol Laryngol | Spontaneous laryngeal abscess in a patient with uncontrolled diabetes, with a review of modern cases. Laryngeal abscesses are rare in the antibiotic era. |
-| [3977063](https://pubmed.ncbi.nlm.nih.gov/3977063/) | 1985 | Review | Anaesth Intensive Care | 161 children with acute epiglottitis, with complications in 34 and 5 deaths. It focuses on airway management, not antibiotic efficacy. |
-| [5314768](https://pubmed.ncbi.nlm.nih.gov/5314768/) | 1971 | Review | Br Med J | Epiglottitis in adults, with no abstract available. |
-| [12402494](https://pubmed.ncbi.nlm.nih.gov/12402494/) | 2002 | Case report | Acta Otorrinolaringol Esp | Two cases of paraglottic laryngeal abscess with a literature review. It stresses the need for prompt diagnosis. |
-| [24930374](https://pubmed.ncbi.nlm.nih.gov/24930374/) | 2014 | Case report | J Voice | Laryngeal actinomycosis in a neutropenic patient, resolved after a prolonged penicillin course. |
-| [30579693](https://pubmed.ncbi.nlm.nih.gov/30579693/) | 2019 | Case report | Auris Nasus Larynx | Laryngeal actinomycosis after bone marrow transplantation in a 14-year-old. |
-| [6465636](https://pubmed.ncbi.nlm.nih.gov/6465636/) | 1984 | Case report | Ann Emerg Med | Three adults with epiglottitis. Diagnosis is often missed and airway obstruction can occur. |
-| [25944348](https://pubmed.ncbi.nlm.nih.gov/25944348/) | 2015 | Observational | Otolaryngol Head Neck Surg | Perioperative antibiotic choice was associated with laryngectomy complications. It is not laryngitis-specific. |
+|------|-----|------|------|---------|
+| [3977063](https://pubmed.ncbi.nlm.nih.gov/3977063/) | 1985 | Review | Anaesth Intensive Care | 161 children with acute epiglottitis; airway management by intubation is the priority, with five deaths |
+| [3026014](https://pubmed.ncbi.nlm.nih.gov/3026014/) | 1986 | Review | Rev Infect Dis | Sulbactam/ampicillin for acute epiglottitis in children, as beta-lactamase-producing *H. influenzae* type b became more common |
+| [3322611](https://pubmed.ncbi.nlm.nih.gov/3322611/) | 1987 | Case series | Clin Otolaryngol | 19 adult epiglottitis cases; bacteriology and therapeutic principles |
+| [6881564](https://pubmed.ncbi.nlm.nih.gov/6881564/) | 1983 | Case series | Anesth Analg | 23 children with epiglottitis treated with ampicillin or chloramphenicol; duration of intubation reviewed |
+| [3290661](https://pubmed.ncbi.nlm.nih.gov/3290661/) | 1988 | Case series | Monatsschr Kinderheilkd | Ampicillin-resistant *H. influenzae* type b changed the treatment of epiglottitis |
+| [2603419](https://pubmed.ncbi.nlm.nih.gov/2603419/) | 1989 | Review | West J Med | 9 adults with epiglottitis; intubation needed in 4 |
+| [35923122](https://pubmed.ncbi.nlm.nih.gov/35923122/) | 2023 | Case report/Review | Ann Otol Rhinol Laryngol | Historical review and a modern case of spontaneous laryngeal abscess |
+| [25944348](https://pubmed.ncbi.nlm.nih.gov/25944348/) | 2015 | Cohort | Otolaryngol Head Neck Surg | Perioperative antibiotic choice and complications after laryngectomy |
+| [38145982](https://pubmed.ncbi.nlm.nih.gov/38145982/) | 2024 | Cohort | Eur Arch Otorhinolaryngol | Microbiology and antibiotic selection in neck abscesses in diabetic patients |
+| [39879424](https://pubmed.ncbi.nlm.nih.gov/39879424/) | 2025 | Guideline appraisal | CoDAS | Quality assessment of clinical guidelines for laryngitis and pharyngitis (AGREE II) |
+
+No randomized trial of ampicillin in laryngitis was found.
 
 ---
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN00680P | Standacillin for Injection 0.5 g/vial | Injection, powder, for solution | Sandoz GmbH |
-| SIN01949P | Unasyn 3000 for Injection | Injection, powder, for solution | Haupt Pharma Latina S.r.L |
-| SIN01948P | Unasyn 1500 for Injection | Injection, powder, for solution | Haupt Pharma Latina S.r.L |
-| SIN01950P | Unasyn 750 for Injection | Injection, powder, for solution | Haupt Pharma Latina S.r.L |
+| SIN00680P | STANDACILLIN FOR INJECTION 0.5 g/vial | Powder for solution for injection | Not recorded |
+| SIN01949P | UNASYN 3000 FOR INJECTION | Powder for solution for injection | Not recorded |
+| SIN01948P | UNASYN 1500 FOR INJECTION | Powder for solution for injection | Not recorded |
+| SIN01950P | UNASYN 750 FOR INJECTION | Powder for solution for injection | Not recorded |
 
-The approved indication text is blank in the records provided. All registered forms are injectable.
+All four licences are valid single-ingredient registrations, and all are injectable.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications and warnings from knowledge-graph associations (not label text)**: Kidney disease and impaired renal function, hematologic disease, peptic ulcer disease, *Clostridium difficile* colitis, perinatal necrotizing enterocolitis, infectious mononucleosis, chronic Epstein-Barr virus infection syndrome, acute urate nephropathy and pyoureter.
+- **Drug Interactions**: 61 interactions were identified. The main ones are:
+  - **Moderate**: doxycycline, minocycline, tetracycline, kanamycin, balsalazide, lansoprazole, dexlansoprazole, picosulfuric acid.
+  - **Minor**: clarithromycin.
+  - **Level not graded**: pantoprazole, omeprazole, ranitidine, vancomycin, morphine, prednisone, prednisolone, hydrocortisone, potassium chloride, nystatin, lactulose.
+
+For label warnings and contraindications, please refer to the package insert.
 
 ---
 
@@ -107,13 +119,15 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is very high, but no trial or publication tests ampicillin for laryngitis. Most laryngitis is viral, and the only related trial involves a different drug. Evidence is limited to L4, meaning mechanistic plausibility for bacterial subtypes only.
+Ampicillin has a plausible antibacterial link to bacterial supraglottic infections, but there are no registered trials, and the literature covers epiglottitis and neck abscess rather than laryngitis, which is usually viral. Ampicillin is also used less in epiglottitis now because of beta-lactamase-producing *H. influenzae*. The TxGNN score alone does not justify progressing.
 
 **To proceed, the following is needed:**
-- HSA package insert (approved indications, warnings, contraindications), which is currently missing
-- Mechanism of action data from DrugBank
-- Ampicillin-specific clinical data for bacterial laryngeal infections (epiglottitis, laryngeal abscess), separated from viral laryngitis
-- Local resistance data (beta-lactamase producers) to judge whether plain ampicillin is still appropriate
+- Clear separation of bacterial supraglottic infections (e.g., epiglottitis) from viral laryngitis, to define whether a bacterial laryngitis subgroup exists
+- Current local susceptibility data for *H. influenzae* and other relevant pathogens in Singapore
+- Comparison against current first-line therapy, including ampicillin-sulbactam
+- Package insert warnings and contraindications from the HSA
+- Mechanism-of-action data from DrugBank
+- Approved indication text for the Singapore licences
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

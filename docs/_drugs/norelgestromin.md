@@ -2,7 +2,7 @@
 layout: default
 title: Norelgestromin
 parent: Low Evidence (L5)
-nav_order: 712
+nav_order: 720
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,14 +33,15 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Norelgestromin is a progestin, the active metabolite of norgestimate. In Singapore it is registered only as a component of the EVRA transdermal patch, a combined hormonal product.
-The TxGNN model predicts it may be effective for **amenorrhea**, but there are currently **0 clinical trials** and **0 publications** supporting this. The prediction is based on the model alone.
+Norelgestromin is a progestin (the active metabolite of norgestimate), delivered in a transdermal contraceptive patch together with ethinyl estradiol.
+The TxGNN model predicts it may be effective for **amenorrhea**, but **no clinical trials and no publications** were found to support this direction.
+The prediction is based on computation alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration record (the product is a combined contraceptive patch) |
+| Original Indication | Not stated in the Singapore registration data (the approved indication text is blank) |
 | Predicted New Indication | Amenorrhea |
 | TxGNN Prediction Score | 99.51% |
 | Evidence Level | L5 |
@@ -50,11 +51,15 @@ The TxGNN model predicts it may be effective for **amenorrhea**, but there are c
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Norelgestromin is a progestin that suppresses gonadotropins and acts on the endometrium. Hormonal agents can plausibly change menstrual bleeding patterns.
+Detailed mechanism of action data is not available. Based on known information, norelgestromin is a progestin used in a combined hormonal contraceptive patch with ethinyl estradiol. It supplies exogenous hormonal support to the endometrium, so it may plausibly be applicable to functional amenorrhea or cycle regulation.
 
-The direction of benefit is unclear, because progestins are known to cause amenorrhea as an effect. The model may be picking up this association rather than a therapeutic one. The prediction therefore rests only on the model score.
+There are important caveats. Amenorrhea is also a recognised side effect of hormonal contraceptives, so the direction of effect (treating versus causing it) needs clarification. No studies of norelgestromin itself were retrieved, and the high score (0.995) is a computational prediction only.
 
-The other top predictions (rank 2–10) fall mostly into a breast-disease cluster, such as fibrocystic disease, adenosis and benign mammary dysplasia. Several share identical scores, which suggests a shared graph neighbourhood rather than independent evidence. Some, such as breast abscess and fat necrosis of breast, have low biological plausibility.
+Other predicted indications follow the same pattern of weak support:
+- **Acne (98.5%)**: combined hormonal contraceptives lower androgen output and sebum production. Norgestimate-containing products have acne data, but this is class-level, indirect support only.
+- **Benign breast conditions** (fibrocystic disease, apocrine adenosis, blunt duct adenosis, benign mammary dysplasia): the link is speculative and likely reflects knowledge-graph proximity.
+- **Primary ovarian failure (95.1%)**: hormone replacement is the standard of care, but contraceptive patch doses are not designed for replacement therapy.
+- **Fat necrosis of breast, breast abscess, lactation disease**: no plausible therapeutic link. These are likely graph artefacts, and the lactation link suggests an adverse effect rather than a benefit.
 
 ## Clinical Trial Evidence
 
@@ -68,24 +73,34 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN12423P | EVRA TRANSDERMAL PATCH (6 mg/600 mcg), LTS Lohmann Therapie-Systeme AG | Patch | Not listed in the registration record |
+| SIN12423P | EVRA TRANSDERMAL PATCH (6 mg/600 mcg) | Patch | Not stated |
+
+Manufacturer: LTS Lohmann Therapie-Systeme AG. The registration is valid and is a single-ingredient listing.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found.
+- **Drug Interactions**: One major interaction was identified, with **sugammadex** (source: DDInter).
+- **Knowledge-graph contraindication signals**: These come from the TxGNN knowledge graph, not from label text, and should be verified against the package insert. Associated conditions include:
+  - Cardiovascular and metabolic: hypertension, coronary artery disease, thrombophlebitis, diabetes mellitus and diabetic ketoacidosis, hyperglycaemia, hyperlipidaemia (including familial), hypertriglyceridaemia
+  - Hepatic, renal and biliary: liver disease, kidney disease, gallbladder disease, pyoureter
+  - Neurological and psychiatric: migraine, epilepsy, anxiety disorder, neurotic disorder, dysthymic disorder
+  - Other: female breast carcinoma, porphyria (including inherited forms), systemic lupus erythematosus (including paediatric), asthma (including intrinsic and allergic), obsolete functional visual loss
+
+Please refer to the package insert for the full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting trials or literature (L5), and no mechanism data. The direction of effect is ambiguous, since progestins can cause amenorrhea as well as treat it.
+The predicted indication is supported only by a model score. There are no clinical trials or publications for norelgestromin, the mechanism data is missing, and the direction of effect for amenorrhea is unclear. The knowledge-graph contraindication signals are also extensive.
 
 **To proceed, the following is needed:**
-- The HSA package insert warnings and contraindications (blocking for safety screening)
-- Mechanism of action data, for example from the DrugBank API
-- A targeted literature and trial search on progestin or norgestimate-containing contraceptives in amenorrhea, to clarify the direction of effect
-- Confirmation of the approved indication text and route compatibility (transdermal patch versus the routes needed for the new indication)
+- The package insert from the Health Sciences Authority (HSA), covering approved indications, warnings and contraindications
+- Mechanism of action data (for example, from DrugBank)
+- A literature and trial search for norelgestromin, norgestimate and combined hormonal contraceptives in amenorrhea, and in acne as a possible alternative lead
+- Clarification of whether the prediction means treating or causing amenorrhea
+- A route and formulation compatibility assessment, since the available product is a transdermal patch with a fixed dose combination
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

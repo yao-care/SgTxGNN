@@ -2,7 +2,7 @@
 layout: default
 title: Cholecalciferol
 parent: Low Evidence (L5)
-nav_order: 242
+nav_order: 244
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cholecalciferol: From Vitamin D Supplementation to Familial Isolated Hypoparathyroidism (Impaired PTH Secretion)
+# Cholecalciferol: From Osteoporosis and Vitamin D Deficiency to Familial Isolated Hypoparathyroidism
 
 ## One-Sentence Summary
 
-Cholecalciferol (vitamin D3) is a widely used vitamin D supplement. The HSA records supplied here do not state an approved indication.
+Cholecalciferol (vitamin D3) is a long-established treatment for vitamin D deficiency, rickets, osteomalacia, osteoporosis and hypoparathyroidism.
 The TxGNN model predicts it may be effective for **familial isolated hypoparathyroidism due to impaired PTH secretion**.
-There are currently **0 clinical trials** and **0 publications** supporting this specific prediction, so it rests on the model score alone.
+There are currently **0 clinical trials** and **0 publications** supporting this specific prediction, and hypoparathyroidism is already an existing indication, so this is not a true repurposing candidate.
 
 ---
 
@@ -43,10 +43,10 @@ There are currently **0 clinical trials** and **0 publications** supporting this
 
 | Item | Content |
 |------|------|
-| Original Indication | Not listed in the HSA records supplied (general use: vitamin D3 supplementation) |
+| Original Indication | Osteoporosis, vitamin D deficiency, rickets, osteomalacia, hypoparathyroidism, and related calcium and phosphate disorders (from the knowledge graph; the Singapore licence records carry no indication text) |
 | Predicted New Indication | Familial isolated hypoparathyroidism due to impaired PTH secretion |
 | TxGNN Prediction Score | 99.79% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 3 |
 | Recommended Decision | Hold |
@@ -55,11 +55,9 @@ There are currently **0 clinical trials** and **0 publications** supporting this
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for cholecalciferol is not available in the input. Based on general pharmacology, vitamin D metabolites regulate calcium and phosphate balance. Active vitamin D analogs such as calcitriol and alfacalcidol are already used to manage hypoparathyroidism. This gives the prediction some biological plausibility.
+Detailed mechanism of action data is not available in the data compiled for this report. Cholecalciferol is a vitamin D pro-hormone. It is converted in the liver and kidney to the active form, calcitriol, which raises calcium and phosphate absorption and supports bone mineralisation. Its efficacy in correcting vitamin D deficiency and rickets is well established.
 
-There is an important caveat. Cholecalciferol is a precursor and must be converted to its active form by renal 1-alpha-hydroxylation, a step that depends on parathyroid hormone (PTH). In this disease PTH secretion is impaired, so conversion is likely reduced. Its expected efficacy is therefore lower than that of calcitriol or alfacalcidol, which bypass this step.
-
-The high TxGNN score is a graph-based prediction only. No trial or publication was retrieved to confirm it.
+Hypoparathyroidism is already listed among cholecalciferol's original indications. In this condition, low parathyroid hormone (PTH) leads to low calcium, and vitamin D metabolites are used to help restore calcium balance. The familial isolated form is a genetic subtype of the same problem, so the model's high score likely reflects this overlap rather than a new therapeutic discovery. Native cholecalciferol also depends on PTH-driven kidney activation, so active analogues such as calcitriol or alfacalcidol are usually preferred when PTH is deficient. This point has not been verified in the data compiled here.
 
 ---
 
@@ -77,17 +75,34 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15254P | D-CURE ORAL SOLUTION 25000IU | Solution | Not listed in the data supplied |
-| SIN17171P | GP CHOLECALCIFEROL SOFTGEL CAPSULE 25,000 IU | Capsule, liquid filled | Not listed in the data supplied |
-| SIN11975P | CERNEVIT FOR INJECTION | Injection, powder, for solution | Not listed in the data supplied |
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN15254P | D-CURE ORAL SOLUTION 25000IU | Solution |
+| SIN17171P | GP CHOLECALCIFEROL SOFTGEL CAPSULE 25,000 IU | Capsule, liquid filled |
+| SIN11975P | CERNEVIT FOR INJECTION | Injection, powder, for solution |
+
+All three licences are valid single-ingredient registrations with no cancellations. Approved indication text is not available in the registration records.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications (knowledge-graph associations, not label text):** Conditions linked to cholecalciferol include:
+  - hypercalcaemia, nephrocalcinosis and phosphorus metabolism disorders;
+  - hyperparathyroidism and osteitis fibrosa;
+  - kidney, liver and gallbladder disease;
+  - sarcoidosis;
+  - hypertension and atrial fibrillation;
+  - diabetes and diabetic ketoacidosis;
+  - several iron-overload and other metabolic disorders (e.g. hemochromatosis, Wilson disease);
+  - hyperlipidaemia;
+  - breast and prostate cancers.
+- **Drug Interactions:** 56 interactions were identified. Among those shown:
+  - **Major:** other vitamin D agents (calcifediol, calcitriol, dihydrotachysterol, doxercalciferol), with a risk of additive hypercalcaemia.
+  - **Moderate:** thiazide diuretics, barbiturates, carbamazepine, bile-acid sequestrants (cholestyramine, colestipol, colesevelam), and digoxin and digitoxin.
+  - **Minor:** cimetidine.
+
+Please refer to the package insert for key warnings and formal contraindications.
 
 ---
 
@@ -96,14 +111,18 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting trials or literature (L5). The mechanism is also unfavourable: cholecalciferol needs PTH-dependent activation, which is impaired in this disease. Active vitamin D analogs are the more logical option.
+The prediction rests on the model score alone. No trials or literature were found for this form of hypoparathyroidism. The indication already overlaps with cholecalciferol's existing labelled use, so it adds no real new indication.
+
+Two other predicted indications in the same analysis have much stronger support:
+- **Renal osteodystrophy** has a Phase 3 trial (NCT00752401, status unknown) and was graded L1 with "Proceed with Guardrails".
+- **Impaired renal function (chronic kidney disease)** has 15 trials, including a completed Phase 3 trial (NCT00968877). It was also graded L1 with "Proceed with Guardrails".
+
+In both, benefit for biochemical correction (25(OH)D, PTH) is plausible, but clinical outcome benefit is not shown in the data compiled here. These two are better candidates for further evaluation.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications, which are currently missing and block safety screening
-- Detailed mechanism of action data (MOA), for example from the DrugBank API
-- Confirmation of the approved indications for the three Singapore registrations
-- Any clinical evidence on native vitamin D3 in PTH-deficient hypoparathyroidism, including a comparison with calcitriol or alfacalcidol
-- A review of the other predicted indications. Impaired renal function disease (L3) has published cholecalciferol studies in chronic kidney disease and may be a stronger candidate, although repletion of deficiency may already fall under existing vitamin D use.
+- Mechanism of action data and the Singapore package insert warnings and contraindications.
+- Evidence specific to familial isolated hypoparathyroidism, or confirmation that it falls under the existing hypoparathyroidism indication.
+- For the kidney-related candidates, verified trial outcomes and a monitoring plan for calcium, phosphate and PTH, with hypercalcaemia avoidance.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

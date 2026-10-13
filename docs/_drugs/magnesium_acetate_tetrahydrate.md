@@ -2,7 +2,7 @@
 layout: default
 title: Magnesium Acetate Tetrahydrate
 parent: Low Evidence (L5)
-nav_order: 620
+nav_order: 626
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,14 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Magnesium acetate tetrahydrate is a magnesium electrolyte source. In Singapore it is registered only as a component of B. Braun's Nutriflex Omega intravenous nutrition emulsions.
-The TxGNN model predicts it may be effective for **migraine disorder**, but **no clinical trials and no publications** were supplied to support this. The prediction is model-only (evidence level L5).
+Magnesium acetate tetrahydrate is an electrolyte component of parenteral nutrition emulsions (Nutriflex Omega products) marketed in Singapore. The TxGNN model predicts it may be effective for **migraine disorder**, but **no clinical trials and no publications** were found in the data compiled for this report. The prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration records; the registered products are parenteral nutrition emulsions |
+| Original Indication | Not specified in the Singapore registration data (indication text is blank for all licences) |
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 95.28% |
 | Evidence Level | L5 |
@@ -50,47 +49,40 @@ The TxGNN model predicts it may be effective for **migraine disorder**, but **no
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, magnesium acetate tetrahydrate is a magnesium salt used as an electrolyte in multi-component parenteral nutrition products. It has no approved indication of its own in the supplied records.
+Currently, detailed mechanism of action data is not available. Based on known information, magnesium acetate tetrahydrate is a magnesium salt used as an electrolyte source in intravenous nutrition emulsions, where it supplies magnesium to patients who cannot take nutrition orally. Its use there is to replace a nutrient, not to treat a specific disease.
 
-Biologically, magnesium is plausibly linked to migraine through NMDA receptor modulation, cortical spreading depression and vascular tone. This is general background knowledge, not evidence from the supplied dataset. It also applies to magnesium as an ion, not specifically to the acetate salt.
+Magnesium is biologically plausible for migraine. It modulates NMDA receptors and cortical spreading depression, and it influences serotonin signalling and vascular tone. This is general background knowledge and is not supported by any trial or publication in the data compiled for this report. There is also no migraine-specific evidence for the acetate salt itself. The prediction should therefore be treated as a hypothesis for further research, not as a finding.
 
-The other top predictions are closely related headache conditions: migraine with brainstem aura (94.46%), headache disorder (92.64%) and trigeminal autonomic cephalalgia (91.55%). They likely share the same knowledge-graph neighbourhood and should be assessed together with migraine. Lower-ranked predictions (glaucoma, nephrogenic syndrome of inappropriate antidiuresis and several ultra-rare skin conditions) have no evident mechanism and are probably graph artefacts.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available.
+Other predictions follow the same pattern. Migraine with brainstem aura, headache disorder and trigeminal autonomic cephalalgia (scores 91.5–94.5%) likely reflect the parent migraine association. The glaucoma predictions (open-angle and primary hereditary, about 92%) have only a hypothetical vascular or neuroprotective link. The rare skin disorders and nephrogenic syndrome of inappropriate antidiuresis (scores 84.8–87.9%) have no apparent mechanistic connection and look like knowledge-graph artefacts.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN16734P | Nutriflex Omega Special B. Braun Emulsion for Infusion | Injection, emulsion |
-| SIN15468P | Nutriflex Omega Plus Emulsion for Infusion | Injection, emulsion |
-| SIN15469P | Nutriflex Omega Special Emulsion for Infusion | Injection, emulsion |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN16734P | Nutriflex Omega Special B. Braun Emulsion for Infusion | Injection, emulsion | Not stated |
+| SIN15468P | Nutriflex Omega Plus Emulsion for Infusion | Injection, emulsion | Not stated |
+| SIN15469P | Nutriflex Omega Special Emulsion for Infusion | Injection, emulsion | Not stated |
 
-All three are manufactured by B. Braun Melsungen AG. The registration records supplied contain no approved indication text.
+All three are valid single-ingredient registrations held by B. Braun Melsungen AG, and all are injectable.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No warnings, contraindications or drug interaction records were available in the data compiled for this report. Magnesium is cleared by the kidneys, so renal function is a general consideration for any magnesium-containing product.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The high TxGNN score is not backed by any trial or publication, and the mechanism of action and safety data are missing. The only Singapore products are multi-component intravenous nutrition emulsions, so route and formulation fit for migraine is unestablished.
+The migraine prediction has a high model score (95.3%) and a plausible biological story. However, there are no clinical trials or publications in the data compiled for this report, and the evidence level is L5 (model prediction only). Safety information is also missing, so the case cannot advance to safety screening.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from HSA, which are required before any safety screening
-- Mechanism of action data (for example, from DrugBank)
-- A targeted literature and trial search on magnesium in migraine, checking whether the evidence applies to the acetate salt
-- Route and formulation compatibility assessment against the intravenous-only products registered in Singapore
-- Evaluation of migraine with brainstem aura and headache disorder together with the parent migraine indication
+- Package insert warnings and contraindications from the HSA website
+- Mechanism of action data for the compound
+- A literature and trial search on magnesium (including other salts) for migraine, to see whether existing evidence transfers to the acetate salt
+- Confirmation of the approved indications for the three Nutriflex Omega registrations
+- Route compatibility assessment: the registered products are intravenous nutrition emulsions, and the route and formulation suited to migraine use have not been assessed
+- Subtype-specific data before any action on migraine with brainstem aura, headache disorder or the other lower-ranked predictions
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

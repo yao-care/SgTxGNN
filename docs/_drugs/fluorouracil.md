@@ -2,7 +2,7 @@
 layout: default
 title: Fluorouracil
 parent: Low Evidence (L5)
-nav_order: 438
+nav_order: 442
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,20 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Fluorouracil: From Established Cancer Chemotherapy to Botryoid-Type Embryonal Rhabdomyosarcoma of the Vagina
+# Fluorouracil: From Gastric Cancer and Skin Conditions to Rhabdomyosarcoma (Botryoid-Type Embryonal Rhabdomyosarcoma of the Vagina)
 
 ## One-Sentence Summary
 
-Fluorouracil is a fluoropyrimidine chemotherapy drug that is marketed in Singapore as injections and a topical solution.
-The TxGNN model predicts it may be effective for **botryoid-type embryonal rhabdomyosarcoma of the vagina**, but **no clinical trials and no publications** currently support this specific prediction. It is a model-only signal.
-
----
+Fluorouracil is an antimetabolite chemotherapy originally used for gastrointestinal cancers (such as gastric, colon and pancreatic cancer) and for skin conditions such as actinic keratosis and superficial basal cell carcinoma.
+The TxGNN model predicts it may be effective for **botryoid-type embryonal rhabdomyosarcoma of the vagina**, with a very high score but **no clinical trials and no publications** specific to this subtype.
+The prediction therefore rests on the model alone; the closest supporting material is a small set of indirect papers on rhabdomyosarcoma in general.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the Singapore registration data (all approved-indication fields are blank) |
+| Original Indication | Gastric cancer, colorectal metastasis, pancreatic adenocarcinoma, actinic keratosis, superficial basal cell carcinoma (the Singapore licence records contain no indication text) |
 | Predicted New Indication | Botryoid-type embryonal rhabdomyosarcoma of the vagina |
 | TxGNN Prediction Score | 99.75% |
 | Evidence Level | L5 |
@@ -50,79 +49,69 @@ The TxGNN model predicts it may be effective for **botryoid-type embryonal rhabd
 | Number of Registrations | 3 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the source record. Fluorouracil is a fluoropyrimidine antimetabolite. It inhibits thymidylate synthase and is incorporated into RNA and DNA, so it acts on rapidly dividing tumour cells.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Based on general knowledge, fluorouracil is a thymidylate synthase inhibitor and antimetabolite. It interferes with DNA and RNA synthesis in rapidly dividing cells, which is why it works in fast-growing tumours.
 
-Rhabdomyosarcoma is a fast-growing soft tissue sarcoma, mostly seen in children. A cytotoxic antimetabolite therefore has a plausible biological rationale.
+Rhabdomyosarcoma is a fast-growing soft-tissue sarcoma, mostly in children, so a general antimetabolite rationale is plausible. However, standard rhabdomyosarcoma regimens (for example vincristine, actinomycin D and cyclophosphamide) do not centre on fluorouracil. No trials or papers were found for this specific vaginal subtype. The high score should be read as a model-based hypothesis, not as evidence of benefit.
 
-The very high score most likely comes from graph propagation from the parent disease node (rhabdomyosarcoma) rather than from data specific to this vaginal subtype. Fluorouracil is also not a standard agent in rhabdomyosarcoma regimens. The rationale is theoretical only.
-
----
+Other rhabdomyosarcoma-related predictions (general rhabdomyosarcoma, parameningeal, bile duct, prostate and liver sarcoma forms) have similar scores and similarly limited evidence. Three sickle cell syndromes also appear in the model's top ten, but they have no supporting data. Fluorouracil's toxicity makes it an unlikely choice for chronic non-malignant conditions.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
+No publications were retrieved for the vaginal subtype itself. For the closely related broader indication, **rhabdomyosarcoma**, the following indirect material was found:
 
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [3884137](https://pubmed.ncbi.nlm.nih.gov/3884137/) | 1985 | Review | Cancer | Value of adjuvant chemotherapy in childhood sarcomas; no fluorouracil-specific finding confirmed |
+| [6277228](https://pubmed.ncbi.nlm.nih.gov/6277228/) | 1981 | Review | Ann Acad Med Singapore | General review of cancers curable with chemotherapy, including childhood rhabdomyosarcoma |
+| [42483493](https://pubmed.ncbi.nlm.nih.gov/42483493/) | 2026 | Case report | Case Rep Oncol Med | Adult lingual rhabdomyosarcoma; cisplatin plus 5-fluorouracil was followed by disease progression |
+| [3951398](https://pubmed.ncbi.nlm.nih.gov/3951398/) | 1986 | Cohort | Med Pediatr Oncol | Childhood nasopharyngeal carcinoma; likely off-target |
+
+These sources are old, indirect or anecdotal. None shows that fluorouracil contributes benefit in rhabdomyosarcoma, and the one case report describes progression on a fluorouracil-containing regimen.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN05050P | DBL Fluorouracil Injection BP 50mg/mL | Injection | Hospira Australia Pty Ltd |
-| SIN09904P | Fluorouracil Injection 50 mg/ml | Injection | Pharmachemie BV |
-| SIN04266P | Verrumal Solution | Solution | Almirall Hermal GmbH |
-
-The registration records do not include approved-indication text.
-
----
+| SIN05050P | DBL Fluorouracil Injection BP 50mg/mL (Hospira Australia) | Injection | Not recorded |
+| SIN09904P | Fluorouracil Injection 50 mg/ml (Pharmachemie BV) | Injection | Not recorded |
+| SIN04266P | Verrumal Solution (Almirall Hermal GmbH) | Solution | Not recorded |
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Conventional cytotoxic (fluoropyrimidine antimetabolite) |
-| Myelosuppression Risk | Medium (neutropenia, thrombocytopenia and mucositis are recognised toxicities of systemic use) |
-| Emetogenicity Classification | Low to moderate for the injectable form |
-| Monitoring Items | CBC with differential, liver and renal function, electrolytes. Consider DPD deficiency risk before systemic use |
-| Handling Protection | Injectable products must follow cytotoxic drug handling regulations |
-
-Please refer to the package insert warnings and precautions for full details.
-
----
+| Myelosuppression Risk | Medium to high for the injectable form; neutropenia, leukopenia and thrombocytopenia are listed among its known risk conditions |
+| Emetogenicity Classification | Low to moderate |
+| Monitoring Items | Complete blood count with differential, liver and renal function, electrolytes; consider DPD deficiency assessment before systemic use |
+| Handling Protection | Injectable products must be handled according to cytotoxic drug handling regulations |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindication-related conditions (from the knowledge graph, not from label text)**: kidney disease, liver disease, gallbladder disease, thrombocytopenia, neutropenia, agranulocytosis, leukopenia, diarrhoeal disease, active peptic ulcer disease, pharyngitis, stomatitis, pyoureter, and dihydropyrimidine dehydrogenase (DPD) deficiency.
+- **Drug Interactions**: 100 interactions were found in total. The highest-rated shown are **moderate**: metronidazole and tinidazole. Minor interactions include cimetidine and levofloxacin. Many others (for example omeprazole, pantoprazole, metformin, morphine) have an unrated severity.
 
----
+Package insert warnings and contraindications for the Singapore products were not available; please refer to the package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on model score alone (L5). There are no trials or publications for this subtype, and fluorouracil is not a standard agent in rhabdomyosarcoma. Extrapolation from the parent disease node is weak for a rare vaginal subtype.
+The prediction is supported only by the model score (L5). There are no trials or publications for this subtype, standard rhabdomyosarcoma treatment does not rely on fluorouracil, and the only related case report showed progression. The safety profile, including myelosuppression and DPD-deficiency risk, requires a clear efficacy signal before further investment.
 
 **To proceed, the following is needed:**
-- Subtype-specific or rhabdomyosarcoma-specific clinical evidence for fluorouracil
-- HSA package insert warnings and contraindications for a safety screen
-- Detailed mechanism of action data from DrugBank
-- Approved-indication text for the Singapore licences
-- Assessment of route compatibility (injectable versus topical) for the target disease
-
-The parent condition, **rhabdomyosarcoma**, is a somewhat better-supported research question (L4). It has only indirect, old (1973–1991) general chemotherapy literature and no fluorouracil-specific trials, so it is best treated as a research question rather than an actionable candidate.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Subtype-specific preclinical data (for example, cell-line sensitivity of embryonal rhabdomyosarcoma to fluorouracil)
+- A systematic literature search for fluorouracil in rhabdomyosarcoma regimens, with full-text verification
+- Mechanism-of-action data and the Singapore package insert warnings and contraindications
+- Confirmation of the approved indications for the three Singapore licences
+- A safety and dosing plan for paediatric patients, including DPD deficiency screening
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

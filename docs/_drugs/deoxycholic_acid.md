@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Deoxycholic Acid
-parent: Low Evidence (L5)
-nav_order: 309
-evidence_level: L5
+parent: Medium Evidence (L3-L4)
+nav_order: 312
+evidence_level: L4
 indication_count: 10
 ---
 
 # Deoxycholic Acid
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,31 +29,33 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Deoxycholic Acid: From Submental Fat to Autosomal Dominant Familial Hematuria-Retinal Arteriolar Tortuosity-Contractures Syndrome
+# Deoxycholic Acid: From Submental Fat Reduction to Diabetic Nephropathy
 
 ## One-Sentence Summary
 
-Deoxycholic acid is a secondary bile acid. In Singapore it is registered as an injection (BELKYRA), and the evidence pack describes its marketed use as local injection for submental fat.
-The TxGNN model ranks **autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome**, an ultra-rare disease, as its top prediction.
-This prediction has **no clinical trials** and **no publications** behind it, so it rests on the model score alone.
+Deoxycholic acid is a secondary bile acid, marketed in Singapore as an injectable (BELKYRA) and known for its cell-membrane-disrupting (cytolytic) action in fat reduction. The TxGNN model predicts it may be effective for **diabetic nephropathy**, the highest-ranked prediction that has any literature support. This direction is supported by **0 clinical trials** and **4 publications**, all indirect (preclinical or observational bile acid studies).
+
+Note: the top-ranked TxGNN predictions (a COL4A1-related syndrome and brain small vessel disease) have no supporting evidence of any kind. Diabetic nephropathy is featured here because it is the highest-ranked prediction with any supporting literature.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Submental fat (local injection). The HSA record contains no approved indication text. |
-| Predicted New Indication | Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome |
-| TxGNN Prediction Score | 99.49% |
-| Evidence Level | L5 |
+| Original Indication | Not stated in the registration data compiled for this report (the approved indication text is blank) |
+| Predicted New Indication | Diabetic nephropathy (rank 3; ranks 1 and 2 have no supporting data) |
+| TxGNN Prediction Score | 99.32% |
+| Evidence Level | L4 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 1 |
-| Recommended Decision | Hold |
+| Recommended Decision | Hold (treat as a research question) |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Deoxycholic acid is a secondary bile acid, and it is registered in Singapore only as an injection solution. Its efficacy in its original indication is established, but no mechanistic link to this syndrome has been identified.
+Detailed mechanism-of-action data for deoxycholic acid is not available in the data compiled for this report. Based on general knowledge, it is a secondary bile acid produced by gut bacteria. As an injectable, it destroys fat cells by disrupting their membranes.
 
-The score is high (0.995), but the syndrome is an ultra-rare disease. No trials or publications connect deoxycholic acid to it. Until a plausible biological rationale appears, this prediction is best treated as a possible model artifact rather than a real repurposing lead.
+The link to diabetic nephropathy is indirect. The retrieved papers show that bile acid metabolism and profiles are altered in diabetic kidney disease. One metabolomic study in patients showed step-wise changes, and animal studies showed that interventions such as relaxin or a herbal granule changed bile acid levels alongside kidney protection. Deoxycholic acid could therefore be a biomarker or mediator, possibly through FXR/TGR5 receptor signalling.
+
+None of this shows that giving deoxycholic acid treats the disease. The nanoparticle paper concerns intestinal absorption for oxidative stress and vasoconstriction, and its connection to deoxycholic acid is unclear from the information available. This assessment is provisional.
 
 ## Clinical Trial Evidence
 
@@ -61,40 +63,40 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [39384774](https://pubmed.ncbi.nlm.nih.gov/39384774/) | 2024 | Clinical metabolomic profiling (observational) | Nutrition & Diabetes | Bile acid metabolism shows step-wise alteration in patients with diabetic kidney disease, linked to disease progression |
+| [36996678](https://pubmed.ncbi.nlm.nih.gov/36996678/) | 2023 | Preclinical (mouse model) | Biomedicine & Pharmacotherapy | Relaxin was renoprotective in diabetic mice and raised bile acid levels |
+| [33378964](https://pubmed.ncbi.nlm.nih.gov/33378964/) | 2021 | Preclinical (mouse model) | Biomedicine & Pharmacotherapy | A herbal granule (QiDiTangShen) altered gut microbiota and improved bile acid profiles in diabetic nephropathy mice |
+| [38377553](https://pubmed.ncbi.nlm.nih.gov/38377553/) | 2024 | Preclinical (nanoparticle delivery) | ACS Biomaterials Science & Engineering | Intestinally absorbed nanoparticles aimed to reduce oxidative stress and vasoconstriction in diabetic nephropathy |
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN15509P | BELKYRA INJECTION 10 MG/ML (Hospira, Inc.) | Injection, solution | Not recorded in the HSA data received |
+| SIN15509P | BELKYRA INJECTION 10 MG/ML | Injection, solution | Not stated in the registration data |
+
+The manufacturer is Hospira, Inc. This is a single-ingredient product with valid status.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: 67 interactions were identified, and the 20 listed in the data compiled for this report are all rated Moderate. They are mainly with antiplatelet agents, anticoagulants and thrombolytics, so bleeding risk is the main concern. Examples include acetylsalicylic acid, clopidogrel, cilostazol, abciximab, alteplase, apixaban, fondaparinux, dalteparin, argatroban and bivalirudin. Radiolabelled antibodies (ibritumomab tiuxetan, tositumomab) are also listed.
+
+Please refer to the package insert for warnings and contraindications, which were not available for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction is an L5 candidate with no trials, no literature and no mechanistic link. The HSA package insert and the mechanism of action are both missing, and the missing package insert blocks safety screening.
-
-**Other candidates in the prediction list:**
-Two lower-ranked indications have some supporting evidence, both rated L4 and both "Research Question". Neither has evidence for deoxycholic acid itself.
-
-| Indication | TxGNN Score | Supporting Evidence |
-|------|------|------|
-| Diabetic nephropathy | 99.32% | Animal studies of bile acid receptor (FXR/TGR5) agonism and ursodeoxycholic acid. Patient studies show altered bile acid metabolism. |
-| Rheumatoid arthritis | 96.09% | Two completed Phase 2 trials of ursodeoxycholic acid (NCT05973370, NCT04834557), plus old small reports of chenodeoxycholic acid. |
-
-For both, the evidence comes from other bile acids, and systemic exposure after a local submental injection is not established.
+The 99.32% score is a graph-based prediction only. The supporting literature shows that bile acid metabolism changes in diabetic kidney disease, not that deoxycholic acid is beneficial. There are no clinical trials. The product is a locally injected cytolytic agent, so systemic or renal use is not supported by any route-compatibility data. The other nine predictions have no supporting evidence; the exception is rheumatoid arthritis (L4), where deoxycholic acid served only as a drug-delivery carrier in preclinical work.
 
 **To proceed, the following is needed:**
-- The HSA package insert (warnings, contraindications, approved indication), which is a blocking gap
-- Mechanism of action data from DrugBank
-- A documented mechanistic rationale, if the top-ranked syndrome is to be pursued at all
-- A decision on whether to redirect effort to diabetic nephropathy or rheumatoid arthritis, including a check of route compatibility (local injection vs. systemic exposure)
+- Package insert warnings and contraindications from the HSA, which block any safety screening
+- Mechanism of action data, for example from DrugBank
+- Mechanistic studies testing whether deoxycholic acid acts through FXR/TGR5 in kidney disease models
+- Assessment of route and dosage-form feasibility for a systemic or renal indication
+- Preclinical efficacy data in a diabetic nephropathy model before any clinical trial is considered
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

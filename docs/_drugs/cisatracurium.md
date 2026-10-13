@@ -2,7 +2,7 @@
 layout: default
 title: Cisatracurium
 parent: Low Evidence (L5)
-nav_order: 253
+nav_order: 255
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cisatracurium: From Anaesthesia Muscle Relaxation to Cauda Equina Syndrome
+# Cisatracurium: From Neuromuscular Blockade in Anaesthesia to Cauda Equina Syndrome
 
 ## One-Sentence Summary
 
-Cisatracurium is a neuromuscular blocking agent, used as a skeletal muscle relaxant during general anaesthesia.
-The TxGNN model predicts it may be effective for **cauda equina syndrome**, but there are currently **0 clinical trials** and **0 publications** supporting this direction.
-The prediction is a model output only, with no supporting studies.
+Cisatracurium is a non-depolarising neuromuscular blocker, marketed in Singapore as an injectable (Nimbex), and used as a muscle relaxant during anaesthesia.
+The TxGNN model predicts it may be effective for **cauda equina syndrome** with a very high score, but **no clinical trials and no publications** support this prediction.
+The prediction rests on knowledge-graph proximity only and has no plausible mechanistic basis.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the local registration records (known use: muscle relaxation as an adjunct to general anaesthesia) |
+| Original Indication | Not stated in the Singapore registration data compiled for this report (the drug is known as a neuromuscular blocker used in anaesthesia) |
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L5 |
@@ -51,11 +51,16 @@ The prediction is a model output only, with no supporting studies.
 
 ## Why is This Prediction Reasonable?
 
-Cisatracurium is a non-depolarising nicotinic antagonist at the skeletal neuromuscular junction. It relaxes skeletal muscle for intubation, surgery and mechanical ventilation. Detailed mechanism data beyond this is not available.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known pharmacology, cisatracurium is a non-depolarising neuromuscular blocker. It antagonises nicotinic acetylcholine receptors at the neuromuscular junction, producing skeletal muscle relaxation during surgery and mechanical ventilation.
 
-**The mechanistic link to cauda equina syndrome is weak.** Cauda equina syndrome is caused by compression of the lumbosacral nerve roots. It produces sphincter and motor deficits, and treatment is surgical decompression. Blocking the neuromuscular junction does not address nerve-root compression and would worsen motor weakness. The very high graph score (0.99993) most likely reflects network proximity to neuromuscular or neurogenic terms, not therapeutic plausibility.
+Cauda equina syndrome is a compressive neurological emergency that requires surgical decompression. No plausible mechanistic link between neuromuscular blockade and treating this condition is evident. The high TxGNN score is a graph-based prediction only, so this prediction should be regarded as **weak and unsupported**.
 
-The other top-ranked predictions show the same pattern. Migraine, irritable bowel syndrome, neurogenic bladder and thrombotic disease have no supported mechanism. Preeclampsia appears only in an anaesthetic co-management context, where cisatracurium interacts with magnesium sulfate. None of these is a repurposing signal.
+Other top-ranked predictions are similarly unsupported:
+
+- **Preeclampsia (mild and severe forms):** Neuromuscular blockade does not address placental or endothelial pathology. The two publications retrieved concern anaesthesia for caesarean section, where cisatracurium is at most an incidental adjunct.
+- **Thrombotic disease:** The single retrieved paper describes anaesthetic care in paediatric liver transplantation. Thrombosis is peri-operative context, not a therapeutic target.
+- **Migraine disorder and migraine with brainstem aura:** Botulinum toxin works at the same junction but acts presynaptically, so the analogy is weak.
+- **Obsolete neurogenic bladder, irritable bowel syndrome and neurocirculatory asthenia:** No credible mechanism, and no clinical data. The neurogenic bladder term is also flagged as obsolete in the ontology.
 
 ## Clinical Trial Evidence
 
@@ -63,35 +68,48 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+No literature is available for the top-ranked prediction, cauda equina syndrome.
+
+For other predicted indications, a few publications were retrieved. None shows therapeutic efficacy of cisatracurium:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [41103680](https://pubmed.ncbi.nlm.nih.gov/41103680/) | 2025 | Cohort/comparative | Anesthesiology and Pain Medicine | Serum IL-6, leptin and adiponectin after caesarean section under general vs spinal anaesthesia (related to preeclampsia prediction) |
+| [18383970](https://pubmed.ncbi.nlm.nih.gov/18383970/) | 2008 | Case series (12 cases) | Rev Esp Anestesiol Reanim | Remifentanil bolus for haemodynamic control in high-risk caesarean patients ineligible for spinal anaesthesia (related to preeclampsia prediction) |
+| [12565113](https://pubmed.ncbi.nlm.nih.gov/12565113/) | 2002 | Clinical experience report | J Clin Anesth | Anaesthetic care in paediatric living-related liver transplantation (related to thrombotic disease prediction) |
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN14310P | Nimbex Forte Injection 150 mg/30 ml | Injection, solution | Not stated in the registration record |
-| SIN14309P | Nimbex Injection 2 mg/ml | Injection, solution | Not stated in the registration record |
+| SIN14310P | Nimbex Forte Injection 150 mg/30 ml | Injection, solution | Not stated in the data compiled |
+| SIN14309P | Nimbex Injection 2 mg/ml | Injection, solution | Not stated in the data compiled |
 
-Both products are made by GlaxoSmithKline Manufacturing S.p.A. Only injectable forms are registered, so cisatracurium is available as a hospital-administered agent only.
+Both products are valid single-ingredient registrations, manufactured by GlaxoSmithKline Manufacturing S.p.A.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions:** 61 interactions were recorded. The following are the main ones in the data compiled:
+  - **Major:** kanamycin, neomycin, paromomycin, polymyxin B, streptomycin (aminoglycoside and polymyxin antibiotics, which may potentiate neuromuscular blockade)
+  - **Moderate:** amphotericin B (including lipid complex, cholesteryl sulfate and liposomal forms), neomycin (topical), tetracycline, doxycycline, minocycline, vancomycin, magnesium chloride, magnesium sulfate, mannitol, metoclopramide
+  - **Minor:** ranitidine, ranitidine (bismuth citrate)
+- **Clinical note:** Magnesium sulfate, used in severe preeclampsia, potentiates non-depolarising blockers. This is a relevant safety concern for any obstetric use.
+
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical trials or literature behind it (L5), and the mechanism does not support a benefit in nerve-root compression. Neuromuscular blockade would not treat this condition and could cause harm. The high model score is likely a graph artefact.
+The TxGNN score is very high, but it is not backed by any clinical trial or relevant publication, and there is no credible mechanism linking neuromuscular blockade to cauda equina syndrome or to the other top predictions. The evidence level is L5 (model prediction only).
 
 **To proceed, the following is needed:**
-- A plausible pharmacological mechanism linking neuromuscular blockade to cauda equina syndrome
-- Any preclinical or clinical study that directly evaluates cisatracurium in this condition
-- Package insert warnings and contraindications from HSA, to complete safety screening
-- Approved indication text from the registration records, to confirm the original use
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Package insert warnings and contraindications from the HSA, as safety screening cannot proceed without them
+- Approved indication text for the Singapore registrations
+- Detailed mechanism-of-action data and a pharmacological rationale for the predicted indication
+- Any preclinical or clinical studies of cisatracurium in the predicted conditions
+- A review of route and setting compatibility, since the drug is an injectable used under anaesthetic supervision
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

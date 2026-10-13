@@ -2,7 +2,7 @@
 layout: default
 title: Omeprazole
 parent: Medium Evidence (L3-L4)
-nav_order: 732
+nav_order: 740
 evidence_level: L3
 indication_count: 10
 ---
@@ -29,17 +29,21 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Omeprazole: From Acid-Related Gastric Disorders to Duodenogastric Reflux
+# Omeprazole: From Acid-Related Gastric and Duodenal Disorders to Duodenogastric Reflux
 
 ## One-Sentence Summary
 
-Omeprazole is a proton pump inhibitor widely used for acid-related disorders such as peptic ulcer. The TxGNN model predicts it may be useful for **duodenogastric reflux**. The support is thin: **1 registered trial (not testing omeprazole)** and **20 publications**, mostly small physiological studies plus two rat studies that raise a safety concern.
+Omeprazole is a proton pump inhibitor originally used for gastric and duodenal ulcers, gastroesophageal reflux disease (GERD), esophagitis and Zollinger-Ellison syndrome.
+The TxGNN model predicts it may be effective for **duodenogastric reflux**, but the supporting evidence is thin: **1 clinical trial** (a diagnostic imaging study, not a treatment trial) and **15 publications**, mostly small human studies, animal experiments and reviews.
+Animal data also raise a safety signal, so this is best treated as a research question rather than a ready candidate.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Acid-related gastric disorders, e.g. peptic ulcer (from general drug knowledge; the Singapore registration records supplied contain no indication text) |
+| Original Indication | Gastric ulcer, peptic ulcer disease, GERD, esophagitis, duodenal ulcer, Zollinger-Ellison syndrome |
 | Predicted New Indication | Duodenogastric reflux |
 | TxGNN Prediction Score | 99.64% |
 | Evidence Level | L3 |
@@ -47,70 +51,80 @@ Omeprazole is a proton pump inhibitor widely used for acid-related disorders suc
 | Number of Registrations | 20 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the input. Omeprazole is a known proton pump inhibitor. It blocks the gastric H+/K+ ATPase and lowers acid output, and its efficacy in acid-related disease is well established.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Omeprazole belongs to the proton pump inhibitor class, which suppresses gastric acid. Its efficacy in acid-related diseases such as ulcers and reflux disease is well established.
 
-Duodenogastric reflux is the backflow of bile-containing duodenal contents into the stomach. Omeprazole may reduce the volume of refluxed material and the acid part of mixed reflux. However, it does not act directly on bile or duodenal motility, so the mechanistic link is only partial.
+Duodenogastric reflux is the backflow of bile and duodenal contents into the stomach. It is closely related to the approved reflux and ulcer indications and can damage the mucosa. Acid suppression may ease acid-related injury and symptoms. However, omeprazole does not stop bile or duodenal contents from refluxing, so any benefit would be indirect.
 
-Small clinical studies in Barrett's oesophagus (PMID 10994616, 9824338) examined whether omeprazole changes duodenogastric reflux. A pediatric prospective study (PMID 16641575) looked at bile reflux with omeprazole. The abstracts supplied do not state the results, so a benefit is not confirmed here. Two rat studies (PMID 10389684, 33027361) suggest that acid suppression may promote gastric carcinogenesis under duodenogastric reflux. This needs to be resolved before any recommendation.
+Small human studies in Barrett's oesophagus and a paediatric prospective study of oesophageal bile reflux suggest omeprazole may affect bile reflux measures. Animal studies point the other way: acid blockade combined with duodenogastric reflux promoted gastric mucosal growth and carcinogenesis in rats. This is a genuine safety question that must be resolved before any repurposing.
+
+---
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT02685150](https://clinicaltrials.gov/study/NCT02685150) | N/A | Completed | 157 | Endoscopic tri-modal imaging to distinguish functional dyspepsia from reflux disease. It is an imaging study and does not test omeprazole. |
+| [NCT02685150](https://clinicaltrials.gov/study/NCT02685150) | N/A | Completed | 157 | Endoscopic tri-modal imaging (narrow-band, autofluorescence and white-light) to tell reflux disease, including acid or bile reflux, from functional dyspepsia. This is a diagnostic study and does not test omeprazole efficacy. |
+
+---
 
 ## Literature Evidence
 
+No randomised controlled trials were found for this indication.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [10994616](https://pubmed.ncbi.nlm.nih.gov/10994616/) | 2000 | Clinical physiologic study | Scand J Gastroenterol | Effect of omeprazole on antral duodenogastric reflux in Barrett oesophagus |
-| [9824338](https://pubmed.ncbi.nlm.nih.gov/9824338/) | 1998 | Clinical physiologic study | Gut | Omeprazole 20 mg twice daily and its effect on duodenogastric and gastro-oesophageal bile reflux in Barrett's oesophagus |
-| [16641575](https://pubmed.ncbi.nlm.nih.gov/16641575/) | 2006 | Prospective cohort | J Pediatr Gastroenterol Nutr | Effect of omeprazole on oesophageal bile reflux in children |
-| [11232672](https://pubmed.ncbi.nlm.nih.gov/11232672/) | 2001 | Clinical study | Am J Gastroenterol | Acid and bile reflux in Barrett's oesophagus versus reflux esophagitis, and the effect of PPI therapy |
-| [19491829](https://pubmed.ncbi.nlm.nih.gov/19491829/) | 2009 | Clinical study | Am J Gastroenterol | Duodenogastroesophageal reflux and acid reflux in patients who did or did not respond to once-daily PPI |
-| [9841990](https://pubmed.ncbi.nlm.nih.gov/9841990/) | 1998 | Clinical study | J Gastrointest Surg | Bile reflux in benign and malignant Barrett's oesophagus, and the effect of acid suppression and Nissen fundoplication |
-| [12970129](https://pubmed.ncbi.nlm.nih.gov/12970129/) | 2003 | Clinical study | Gut | Baclofen for patients with symptoms and duodeno-gastro-oesophageal reflux refractory to PPIs |
-| [18679668](https://pubmed.ncbi.nlm.nih.gov/18679668/) | 2008 | Review | Eur J Clin Pharmacol | Update on clinical use and pharmacokinetics of PPIs |
-| [10389684](https://pubmed.ncbi.nlm.nih.gov/10389684/) | 1999 | Animal study (safety signal) | Dig Dis Sci | In rats with duodenogastric reflux, omeprazole acid blockade promoted gastric carcinogenesis |
-| [33027361](https://pubmed.ncbi.nlm.nih.gov/33027361/) | 2020 | Animal study (safety signal) | Acta Cir Bras | Investigated whether omeprazole protects against gastric adenocarcinoma in rats with duodenogastric reflux |
+| [10994616](https://pubmed.ncbi.nlm.nih.gov/10994616/) | 2000 | Clinical study | Scand J Gastroenterol | Examined the effect of omeprazole on antral duodenogastric reflux in Barrett's oesophagus, building on reports that it may reduce reflux. |
+| [9824338](https://pubmed.ncbi.nlm.nih.gov/9824338/) | 1998 | Clinical study | Gut | Examined omeprazole 20 mg twice daily on duodenogastric and gastro-oesophageal bile reflux in Barrett's oesophagus. |
+| [16641575](https://pubmed.ncbi.nlm.nih.gov/16641575/) | 2006 | Prospective study | J Pediatr Gastroenterol Nutr | Studied the effect of proton pump inhibitor therapy on oesophageal bile reflux in children. |
+| [12836018](https://pubmed.ncbi.nlm.nih.gov/12836018/) | 2003 | Clinical study | Eur J Pediatr | Describes primary duodenogastric reflux in six children and adolescents with atypical reflux symptoms unresponsive to antacids. |
+| [8076761](https://pubmed.ncbi.nlm.nih.gov/8076761/) | 1994 | Clinical study | Gastroenterology | Studied how pH relates to duodenogastroesophageal reflux and oesophageal damage in Barrett's oesophagus. |
+| [18679668](https://pubmed.ncbi.nlm.nih.gov/18679668/) | 2008 | Review | Eur J Clin Pharmacol | Reviews clinical use and pharmacokinetics of PPIs, which are first choice for ulcer, reflux disease and Zollinger-Ellison syndrome. |
+| [10389684](https://pubmed.ncbi.nlm.nih.gov/10389684/) | 1999 | Animal study | Dig Dis Sci | In rats, acid blockade with omeprazole promoted gastric carcinogenesis induced by duodenogastric reflux (safety signal). |
+| [8943968](https://pubmed.ncbi.nlm.nih.gov/8943968/) | 1996 | Animal study | Dig Dis Sci | In rats, duodenogastric reflux stimulated foregut mucosal growth, potentiated by gastric acid blockade. |
+| [33027361](https://pubmed.ncbi.nlm.nih.gov/33027361/) | 2020 | Animal study | Acta Cir Bras | Investigated whether omeprazole protects against gastric adenocarcinoma in rats with induced duodenogastric reflux. |
+
+---
 
 ## Singapore Market Information
 
-There are 20 registrations in total. Five are listed below. The records supplied contain no approved-indication text.
+Omeprazole has 20 valid single-ingredient registrations in Singapore, covering oral capsules and tablets and lyophilised powder for injection. The table shows 5 of them.
 
 | Authorization Number | Product Name | Dosage Form |
 |---------|------|------|
-| SIN11747P | PENRAZOL ENTERIC COATED CAPSULE 20 mg | Capsule |
-| SIN15522P | PROMESEC GASTRO-RESISTANT CAPSULES 20 MG | Capsule, enteric coated |
-| SIN11634P | OMENOLE CAPSULE 20 mg | Capsule |
-| SIN15725P | ZENPRO CAPSULE 20MG (PHARMACY ONLY) | Capsule |
-| SIN14003P | Probitor Gastro Resistant Capsule 20mg | Capsule, delayed release |
+| SIN10700P | LOSEC MUPS Tablet 20 mg | Tablet, film coated |
+| SIN14003P | Probitor Gastro-Resistant Capsule 20 mg | Capsule, delayed release |
+| SIN13358P | Omezol Lyo-Injection | Injection, powder, lyophilised, for solution |
+| SIN16330P | OMEPRO Powder for Solution for Injection 40 mg/vial | Injection, powder, lyophilised, for solution |
+| SIN14019P | OMEPRADEX EC Tablet 20 mg | Tablet, enteric coated |
 
-Available forms across registrations include oral capsules and tablets, and a lyophilised powder for injection.
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Animal safety signal**: In rats, omeprazole-induced acid blockade combined with duodenogastric reflux promoted gastric mucosal growth and carcinogenesis. Human relevance is unknown.
+- **Possible contraindication signals (from a knowledge graph, not label text)**: liver failure, liver disease, gallbladder disease, congestive heart failure, osteoporosis, postmenopausal osteoporosis, bone fracture and chronic atrophic gastritis.
+- **Drug interactions**: 100 interactions were recorded. Major ones include **acalabrutinib** and **atazanavir**. Moderate ones include hydrochlorothiazide, alprazolam, amphotericin B (several formulations), amikacin, amphetamine, anagrelide, fenofibrate, apalutamide, armodafinil and atorvastatin. Minor ones include lidocaine, nifedipine, ambrisentan and acetylsalicylic acid.
 
-The literature does contain one signal. Two rat studies suggest that gastric acid blockade with omeprazole may promote gastric carcinogenesis in the presence of duodenogastric reflux. Human relevance is unknown.
+Please refer to the package insert for official warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high, but there is no trial testing omeprazole for duodenogastric reflux. Human evidence is limited to small physiological studies, and animal data suggest acid suppression may increase carcinogenesis risk under reflux.
+The prediction score is high, but the only trial is a non-interventional diagnostic study. Human data are limited to small studies, mostly in Barrett's oesophagus or children. Omeprazole does not block bile reflux itself, and animal studies suggest acid blockade may worsen reflux-related mucosal injury. This is a research question, not a candidate ready for clinical development.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from HSA
-- Detailed mechanism of action data
-- A review of the human evidence on omeprazole's effect on bile reflux, since the abstracts supplied do not show its results
-- An assessment of the rat carcinogenesis signal and its human relevance
-- Confirmation of the original indication, since the registration records supplied contain none
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
+- Controlled human studies of omeprazole on bile or duodenogastric reflux outcomes, with clear endpoints such as bilimetry, symptoms and mucosal histology
+- Safety evaluation of long-term acid suppression in patients with duodenogastric reflux, given the carcinogenesis signal in animals
+- Detailed mechanism-of-action data and the Singapore package insert warnings and contraindications
+- Assessment of the knowledge-graph contraindication signals (liver, bone, heart failure and atrophic gastritis) in the target population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

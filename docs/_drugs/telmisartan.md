@@ -2,7 +2,7 @@
 layout: default
 title: Telmisartan
 parent: Low Evidence (L5)
-nav_order: 950
+nav_order: 960
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,18 +29,20 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Telmisartan: From Hypertension to Prinzmetal Angina
+# Telmisartan: From Hypertension and Stroke Prevention to Prinzmetal Angina
 
 ## One-Sentence Summary
 
-Telmisartan is an angiotensin receptor blocker (ARB), used mainly to lower blood pressure.
-The TxGNN model predicts it may be effective for **Prinzmetal angina** (vasospastic angina) with a very high score, but **0 clinical trials** and **0 publications** currently support this specific prediction.
+Telmisartan is an oral angiotensin receptor blocker, originally used for **hypertension** and for conditions related to **stroke and cerebral infarction**.
+The TxGNN model predicts it may be effective for **Prinzmetal angina**, but **no clinical trials and no publications** were found for this specific prediction, so it rests on the model score alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration data (telmisartan is an ARB, generally used for hypertension) |
+| Original Indication | Hypertension; stroke and cerebral infarction (including susceptibility to ischemic stroke) |
 | Predicted New Indication | Prinzmetal angina |
 | TxGNN Prediction Score | 99.98% |
 | Evidence Level | L5 |
@@ -48,54 +50,72 @@ The TxGNN model predicts it may be effective for **Prinzmetal angina** (vasospas
 | Number of Registrations | 20 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the dataset. Telmisartan is an ARB, and its efficacy in blood pressure control is established. Its AT1 receptor blockade and its additional PPARγ activity could plausibly affect vasospasm and endothelial function, and that is the only mechanistic route to Prinzmetal angina.
+Detailed mechanism of action data are not available in the data compiled for this report. Telmisartan belongs to the angiotensin receptor blocker class. Its efficacy in hypertension and stroke-related conditions is established, and mechanistically it may be applicable to Prinzmetal angina.
 
-This link is speculative. No trial or publication in the dataset connects telmisartan to vasospastic angina. Calcium channel blockers and nitrates remain the standard approach for this condition. The high score reflects a pattern in the knowledge graph, not clinical proof.
+Prinzmetal (vasospastic) angina is caused by episodic spasm of the coronary arteries. The plausible links are blockade of the renin-angiotensin system, vasodilation, and the partial PPAR-gamma-mediated effects on the vascular lining described for telmisartan. These links are theoretical. No trials or publications were found to show that they translate into benefit in this condition.
+
+The very high score (99.98%) shows the model finds the drug closely connected to this disease in its knowledge graph. It is not evidence of clinical efficacy.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
 
+---
+
 ## Singapore Market Information
 
-20 telmisartan products are registered in Singapore. Five main ones are shown below. Approved indication text is not listed in the registration data.
+All 20 registrations are valid single-ingredient oral tablets (40 mg or 80 mg). Approved indication text was not available for these licences. The five below are examples:
 
 | Authorization Number | Product Name | Dosage Form | Manufacturer |
 |---------|------|------|-----------|
-| SIN15447P | JUBITEL 40 TABLET 40MG | Tablet | Jubilant Generics Limited |
-| SIN16850P | CORXEVA TABLET 40 MG | Tablet | Laboratorios Liconsa S.A. |
-| SIN16587P | TELFOCUS 80 TABLETS 80MG | Tablet | Aurobindo Pharma Limited - Unit VII |
-| SIN16640P | TELCORD 40 TABLET 40 MG | Tablet | Intas Pharmaceuticals Limited |
-| SIN14807P | ACTELSAR TABLET 40 MG | Tablet | Actavis Ltd. |
+| SIN15447P | JUBITEL 40 Tablet 40 mg | Tablet | Jubilant Generics Limited |
+| SIN16850P | CORXEVA Tablet 40 mg | Tablet | Laboratorios Liconsa S.A. |
+| SIN16587P | TELFOCUS 80 Tablets 80 mg | Tablet | Aurobindo Pharma Limited - Unit VII |
+| SIN16640P | TELCORD 40 Tablet 40 mg | Tablet | Intas Pharmaceuticals Limited |
+| SIN14807P | ACTELSAR Tablet 40 mg | Tablet | Actavis Ltd. |
 
-All listed products are oral tablets.
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindication-related conditions (from the knowledge graph, not label text):**
+  - Liver and biliary: liver failure, liver disease, hepatic coma and encephalopathy, cholestasis (including benign recurrent and familial intrahepatic forms), gallbladder disease, pancreatitis, neonatal jaundice.
+  - Kidney and urinary: kidney disease, anuria, renal artery obstruction, pyoureter, nephrocalcinosis.
+  - Metabolic and electrolyte: diabetes mellitus, diabetic ketoacidosis, potassium deficiency, hypercalcemia, hyperparathyroidism and osteitis fibrosa, phosphorus metabolism disease, hyperuricemia, gout.
+  - Other: hypotensive disorder, systemic lupus erythematosus (including paediatric).
+- **Drug Interactions** (100 interactions recorded; the 20 reviewed include):
+  - **Major:** potassium citrate and potassium bicarbonate (risk of raised blood potassium).
+  - **Moderate:** corticosteroids (hydrocortisone, dexamethasone, betamethasone, budesonide, triamcinolone), acetylsalicylic acid, SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin), insulin and exenatide, morphine, bupropion, dronabinol, and several bowel-preparation products.
+
+Package insert warnings and contraindications were not available. Please refer to the package insert for the authoritative safety information.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The Prinzmetal angina prediction rests on the model score alone (Evidence Level L5). There are no trials or publications for it, and established treatments already exist.
-
-Other predicted indications for telmisartan have more support and may deserve review first:
-- **Intracerebral hemorrhage (L2):** the completed Phase 3 TRIDENT trial (NCT02699645, n=1671) tests a triple low-dose blood-pressure pill that includes telmisartan. Results were not provided, and any effect cannot be attributed to telmisartan alone.
-- **Cerebral artery occlusion (L3):** supported mainly by animal studies, plus a large completed Phase 4 cardiovascular prevention trial (NCT01075698) whose relevance is unconfirmed.
+The prediction for Prinzmetal angina is supported only by the model score (L5), with no trials or publications. The mechanistic argument is plausible but untested.
 
 **To proceed, the following is needed:**
-- Any clinical or mechanistic study linking telmisartan to vasospastic angina, compared against calcium channel blockers and nitrates
-- The HSA package insert, to complete the warnings and contraindications review
-- Detailed mechanism of action data (MOA)
-- Results from the TRIDENT trial, if the stroke-related indications are to be pursued instead
+- A systematic literature search specifically for telmisartan or ARBs in vasospastic angina, plus clinical trial registry checks
+- Mechanism of action data and package insert warnings and contraindications
+- A review of the comparison with standard vasospastic angina therapy (e.g., calcium channel blockers) and of safety in patients with low blood pressure, kidney disease or electrolyte disturbances
+
+**Note on other predictions:** Among the other predicted indications for telmisartan, **intracerebral hemorrhage** has the strongest support. It rests on a completed Phase 3 trial (TRIDENT, NCT02699645, n=1671) of a triple low-dose antihypertensive pill that includes telmisartan. It is rated L1 with a "Proceed with Guardrails" recommendation. The benefit cannot be attributed to telmisartan alone, and the trial results should be verified. This indication may merit its own evaluation.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

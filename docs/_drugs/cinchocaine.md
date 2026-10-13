@@ -2,7 +2,7 @@
 layout: default
 title: Cinchocaine
 parent: Low Evidence (L5)
-nav_order: 250
+nav_order: 252
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,20 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cinchocaine: From Topical Local Anaesthesia to Bronchitis
+# Cinchocaine: From Dermatitis to Bronchitis
 
 ## One-Sentence Summary
 
-Cinchocaine is an amide local anaesthetic, registered in Singapore as a topical ointment (Proctosedyl).
-The TxGNN model predicts it may be effective for **bronchitis**, with a very high graph score.
-However, there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
+Cinchocaine (dibucaine) is an amide-type local anaesthetic, originally used for dermatitis and marketed in Singapore as a topical ointment.
+The TxGNN model predicts it may be effective for **bronchitis**, but **no clinical trials and no publications** currently support this direction, so the prediction rests on computation alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Topical local anaesthesia (the approved indication text is not listed in the Singapore registration record) |
+| Original Indication | Dermatitis (from the knowledge graph; the Singapore registration lists no approved indication text) |
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 99.77% |
 | Evidence Level | L5 |
@@ -49,53 +50,61 @@ However, there are currently **0 clinical trials** and **0 publications** suppor
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available from the database. Cinchocaine is known as an amide local anaesthetic that blocks voltage-gated sodium channels. Its efficacy as a topical anaesthetic is established, but that does not by itself establish any effect on bronchitis.
+Detailed mechanism of action data is not available. Based on general class pharmacology, cinchocaine is an amide-type local anaesthetic that blocks voltage-gated sodium channels. Its established use is topical symptom relief of pain and itch.
 
-The only plausible link is indirect and symptomatic. Airway topical anaesthetics such as lidocaine have been explored for cough suppression, so a similar symptomatic effect is conceivable. There is no evidence that cinchocaine affects the infectious or inflammatory course of bronchitis.
+The link to bronchitis is weak. A surface anaesthetic effect might in theory dampen airway irritation or the cough reflex, but this would only relieve symptoms and would not treat the underlying disease. Systemic or inhaled use also raises concerns about cardiac and central nervous system toxicity. The high score most likely reflects proximity in the knowledge graph rather than a proven biological connection.
 
-The high score most likely reflects proximity in the knowledge graph, not proven pharmacology. Airway use would also raise safety concerns, such as loss of protective reflexes and bronchospasm. The other nine top-ranked predictions are also L5 with no supporting trials or literature, and several of them (acrodermatitis chronica atrophicans, dermatomyositis subtypes, connective-tissue-disease interstitial lung disease, acne keloid) have no plausible mechanistic link either. Three are myasthenia-related, where sodium channel blockade may worsen the condition.
+The other nine predictions share this weakness. They include acrodermatitis chronica atrophicans, neonatal dermatomyositis, childhood connective-tissue-disease-associated interstitial lung disease, acne keloid, familial hydroa vacciniforme, amyopathic dermatomyositis, and several myasthenia-related or autoimmune neurological conditions. Most are infectious or immune-mediated diseases that a sodium channel blocker is not expected to modify. At best, topical symptom relief might apply to skin conditions such as acne keloid. For the myasthenia gravis predictions (neonatal myasthenia gravis and myasthenia gravis with thymus hyperplasia), the expected direction of effect is potentially harmful, since sodium channel-blocking anaesthetics can worsen neuromuscular transmission. These should be treated as likely false positives with a safety concern.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
+
+---
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN01718P | PROCTOSEDYL OINTMENT (Bausch Health Companies Inc.) | Ointment | Not listed in the registration record |
+| SIN01718P | PROCTOSEDYL OINTMENT (Bausch Health Companies Inc.) | Ointment | Not listed in the registration data |
 
-The only registered dosage form is a topical ointment. No airway or inhaled formulation is registered in Singapore.
+---
 
 ## Safety Considerations
 
-- **Drug Interactions**: No interactions were found in the queried database.
-- **Route and population concerns** (from the mechanistic review, not from the package insert):
-  - Systemic exposure of an amide anaesthetic raises neurotoxicity and cardiotoxicity concerns.
-  - Neonatal use raises concerns about systemic absorption and toxicity.
-  - Sodium channel blockers may impair neuromuscular transmission and worsen myasthenic weakness.
+- **Disease associations flagged in the knowledge graph** (these are not label text): epilepsy, kidney disease, pyoureter, liver disease, gallbladder disease, sudden cardiac arrest, heart conduction disease, respiratory failure, myasthenia gravis (including adult-onset), neuromuscular junction disease, butyrylcholinesterase deficiency, cardiovascular disease and heart disease.
+- The myasthenia gravis and neuromuscular junction flags matter most for the predicted neuromuscular indications. The cardiac and respiratory flags matter for any systemic or inhaled use in bronchitis.
 
-Please refer to the package insert for warnings and contraindications.
+Please refer to the package insert for the official warnings, contraindications and drug interactions. No such label data were available for this report.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the model score (L5), with no trials or literature. The only plausible benefit is symptomatic, and the available formulation is a topical ointment that does not match the airway route needed for bronchitis.
+The prediction is supported only by a model score, with no trials or literature. The mechanism offers at most symptomatic relief, and the only registered product is a topical ointment, which does not fit the predicted indication. For the myasthenia-related predictions, there is a possible safety hazard.
 
 **To proceed, the following is needed:**
-- The Singapore package insert warnings and contraindications (a blocking gap for safety screening)
-- Detailed mechanism of action data, for example from DrugBank
-- A literature and trial search for local anaesthetics in cough or bronchitis symptom control
-- An assessment of whether a suitable airway route or formulation exists
-- A safety review of systemic exposure, neonatal use and neuromuscular effects before any efficacy work
+- The package insert warnings and contraindications from HSA, which are a blocking gap for safety screening
+- Detailed mechanism of action data from DrugBank
+- A route-of-administration compatibility assessment for the predicted indications (topical ointment versus airway delivery)
+- A literature and trial search to find any real-world evidence for bronchitis or acne keloid
+- A safety assessment for any systemic, inhaled or paediatric use
+- If any prediction is pursued, acne keloid is the most plausible candidate, as a topical symptomatic use. The myasthenia gravis predictions should be deprioritised.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

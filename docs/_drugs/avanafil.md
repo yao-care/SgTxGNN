@@ -33,14 +33,15 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Avanafil is an oral PDE5 inhibitor marketed in Singapore as Spedra. The Singapore registry data supplied here does not record its approved indication; it is generally used for erectile dysfunction.
-The TxGNN model predicts it may be effective for **amenorrhea**, but **no clinical trials and no relevant publications** support this prediction, so it rests on the model score alone.
+Avanafil is an oral PDE5 inhibitor originally used to treat erectile dysfunction.
+The TxGNN model predicts it may be effective for **amenorrhea**,
+but **no clinical trials and no publications** currently support this direction, so it is a computational prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the supplied registry data (PDE5 inhibitors are generally used for erectile dysfunction; not verified from this pack) |
+| Original Indication | Erectile dysfunction (also psychologic dyspareunia and premature ejaculation, per the knowledge graph; the Singapore licence records contain no indication text) |
 | Predicted New Indication | Amenorrhea |
 | TxGNN Prediction Score | 94.59% |
 | Evidence Level | L5 |
@@ -50,9 +51,25 @@ The TxGNN model predicts it may be effective for **amenorrhea**, but **no clinic
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the supplied record. Avanafil is a PDE5 inhibitor, which raises cGMP and promotes vasodilation.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, avanafil is a PDE5 inhibitor. It raises cGMP levels and promotes smooth muscle relaxation and vasodilation, which underlies its effect in erectile dysfunction.
 
-Amenorrhea is mainly a disorder of the hypothalamic-pituitary-ovarian axis, and no clear link to the cGMP/vasodilation pathway was identified. The high score (0.946) is not supported by any trial or literature. Treat it as an unexplained model output, not a mechanistic lead.
+A hypothetical link to uterine or pelvic blood flow exists. However, amenorrhea is mainly driven by dysfunction of the hypothalamic-pituitary-ovarian axis, so the connection to PDE5 inhibition is weak. The high TxGNN score is a computational output without clinical or literature support, and it should be treated as a hypothesis rather than a finding.
+
+**Other predictions reviewed (all L5, no trials or publications):**
+
+| Rank | Predicted Disease | Score | Assessment |
+|------|------|------|------|
+| 2 | Hypoalphalipoproteinemia | 91.54% | No clear link between PDE5 inhibition and HDL metabolism |
+| 3 | Malignant catarrh | 90.62% | Veterinary viral disease in ruminants; likely a knowledge-graph artifact |
+| 4 | Infectious bovine rhinotracheitis | 90.62% | Cattle herpesvirus infection; likely a knowledge-graph artifact |
+| 5 | Raynaud disease | 88.54% | Biologically the most plausible; sildenafil and tadalafil have been studied, but there is no avanafil-specific evidence |
+| 6 | Ambras type hypertrichosis universalis congenita | 87.79% | Rare hair-follicle development disorder; no link to the PDE5/cGMP pathway |
+| 7 | Obsolete susceptibility to ischemic stroke | 87.28% | Obsolete ontology term; not a suitable clinical target |
+| 8 | Malformation syndrome with odontal and/or periodontal component | 80.46% | Heterogeneous congenital syndromes; not mechanistically interpretable |
+| 9 | Stroke disorder | 79.21% | Plausible but indirect preclinical rationale for the class |
+| 10 | Adrenal gland hyperfunction | 79.06% | No established link |
+
+Raynaud disease is the only alternative flagged as a research question. Any further work would first require a separate review of class-level PDE5 inhibitor evidence.
 
 ## Clinical Trial Evidence
 
@@ -66,15 +83,18 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN15880P | SPEDRA TABLET 50MG | Tablet | Not stated in registry data |
-| SIN15879P | SPEDRA TABLET 100MG | Tablet | Not stated in registry data |
-| SIN15881P | SPEDRA TABLET 200MG | Tablet | Not stated in registry data |
+| SIN15880P | SPEDRA TABLET 50MG | Tablet | Not listed in the data |
+| SIN15879P | SPEDRA TABLET 100MG | Tablet | Not listed in the data |
+| SIN15881P | SPEDRA TABLET 200MG | Tablet | Not listed in the data |
 
-All three are held by MENARINI VON HEYDEN GmbH and are oral tablets.
+All three are single-ingredient products from MENARINI VON HEYDEN GmbH, and all are currently valid. Only the oral route is available.
 
 ## Safety Considerations
 
-- **Drug Interactions**: The interaction query returned no records. This means nothing was found, not that no interactions exist.
+- **Drug Interactions**: 53 known interactions were identified. Examples by severity:
+  - **Major**: Aprepitant, Clarithromycin, Amyl Nitrite, Cobicistat
+  - **Moderate**: Canagliflozin, Dapagliflozin, Empagliflozin, Ertugliflozin, Dexamethasone, Lorcaserin, Papaverine, Troglitazone, Ethanol, Deferasirox, Diazoxide, Phentolamine, Nitrous acid, Fostamatinib, Epoprostenol, Iloprost
+- Cardiovascular safety (hypotension, interactions with nitrates and antihypertensives) would need review in any new patient population, particularly stroke.
 
 Please refer to the package insert for warnings and contraindications.
 
@@ -83,16 +103,14 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction is model-only (L5), with no trials, no relevant literature and no plausible mechanistic link between PDE5 inhibition and amenorrhea. Safety data (warnings and contraindications) is also missing, so safety screening cannot proceed.
+The amenorrhea prediction has a high model score but no clinical trials or publications behind it, and the mechanistic link is weak. Evidence is L5 (model prediction only), so there is not enough support to move forward.
 
 **To proceed, the following is needed:**
-- The HSA package insert (warnings, contraindications, approved indication)
-- Mechanism of action data from DrugBank
-- A targeted trial and literature search for avanafil or PDE5 inhibitors in amenorrhea, and an expert view on whether a rationale exists
-
-**Other candidates in this run:** Raynaud disease (score 88.5%, also L5) is the most biologically plausible, since PDE5-mediated vasodilation is relevant to vasospasm. It is flagged as a "Research Question" and merits a targeted search before this amenorrhea prediction does. The remaining candidates are Hold. Several are veterinary or obsolete ontology terms (malignant catarrh, infectious bovine rhinotracheitis, obsolete susceptibility to ischemic stroke), which look like knowledge-graph artifacts.
-
-*This report is for research reference only and is not medical advice. Repurposing candidates require clinical validation before any application.*
+- Package insert warnings and contraindications from the HSA website (needed before any safety screening)
+- Detailed mechanism of action data from DrugBank
+- Clinical or mechanistic evidence specific to avanafil in amenorrhea
+- If a more plausible direction is wanted, a separate review of PDE5 inhibitor class evidence for Raynaud disease
+- A safety plan for the cardiovascular and drug-interaction risks in any new target population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

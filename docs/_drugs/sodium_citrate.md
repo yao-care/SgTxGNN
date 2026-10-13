@@ -2,7 +2,7 @@
 layout: default
 title: Sodium Citrate
 parent: Low Evidence (L5)
-nav_order: 911
+nav_order: 921
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,20 +29,18 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sodium Citrate: From Expectorant and Haemofiltration Products to Papillary Conjunctivitis
+# Sodium Citrate: From Acid-Related Gastric and Upper-Airway Conditions to Papillary Conjunctivitis
 
 ## One-Sentence Summary
 
-Sodium citrate is a long-established ingredient in Singapore-registered cough expectorant syrups and a haemofiltration solution.
-The TxGNN model predicts it may be useful for **papillary conjunctivitis**, but there are **0 clinical trials** and **0 publications** supporting this prediction, so it is a model output only.
-
----
+Sodium citrate is an alkalinizing agent and buffer, originally used for acid-related stomach conditions (peptic ulcer, reflux, dyspepsia) and upper-airway symptoms (common cold, pharyngitis, rhinitis).
+The TxGNN model predicts it may be effective for **papillary conjunctivitis**, but the evidence is **model prediction only, with 0 clinical trials and 0 publications**.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration records (registered products are expectorant/cough syrups and a haemofiltration solution) |
+| Original Indication | Peptic ulcer disease, gastroesophageal reflux disease, esophagitis, dyspepsia, pharyngitis, common cold, rhinitis, nasopharyngitis (from the knowledge graph; no approved indication text was available in the Singapore licence records) |
 | Predicted New Indication | Papillary conjunctivitis |
 | TxGNN Prediction Score | 99.95% |
 | Evidence Level | L5 |
@@ -50,61 +48,67 @@ The TxGNN model predicts it may be useful for **papillary conjunctivitis**, but 
 | Number of Registrations | 7 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Sodium citrate is generally known as a buffering/alkalinizing agent and a calcium chelator. Its efficacy in its registered uses is established, but no mechanism has been documented that would link it to an eye condition.
+Currently, detailed mechanism of action data is not available. Based on known information, sodium citrate is an alkalinizing agent and buffer. It is used as an antacid for acid-related gastric conditions and appears in expectorant and cough syrups, as well as in a haemofiltration solution (as an anticoagulant/buffer) and an effervescent granule product.
 
-No identifiable mechanistic link exists between sodium citrate and papillary conjunctivitis. The very high score (99.95%, rank 1,200) reflects knowledge-graph similarity only. No trials or literature were found, and the route compatibility check is still pending. Registered forms are syrups and a sterile haemofiltration solution, not an ophthalmic preparation.
+The relationship between these uses and papillary conjunctivitis is not clear. The original indications are gastric acid conditions and upper-airway complaints; papillary conjunctivitis is an inflammatory eye condition. The model may be drawing on loosely related inflammatory or mucosal conditions in the knowledge graph, but the data compiled for this report do not support a plausible mechanism. The high score should therefore be treated as a hypothesis-generating signal only.
 
----
+For context, other predictions for this drug are more plausible. Several (nasal cavity disease, acute laryngopharyngitis) largely overlap with existing upper-airway indications, and stomach disease and gastroduodenitis are consistent with its antacid and buffering activity. These are not the focus of this report but may be better candidates for follow-up.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
 
----
-
 ## Singapore Market Information
 
-Five of the 7 registrations are listed below. The registry does not state an approved indication for any of them.
+Seven valid single-ingredient licences are registered. Approved indication text was not available in the records.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN15513P | REGIOCIT Solution for Haemofiltration | Solution, sterile | Not stated in registry |
-| SIN03335P | XSP-BENA Expectorant | Syrup | Not stated in registry |
-| SIN07609P | SW-BENA Paediatric Expectorant | Syrup | Not stated in registry |
-| SIN03251P | HOVA Expectorant | Syrup | Not stated in registry |
-| SIN03526P | Semerin Cough Syrup | Syrup | Not stated in registry |
+| SIN15513P | REGIOCIT SOLUTION FOR HAEMOFILTRATION | Solution, sterile | Not available |
+| SIN03335P | XSP-BENA EXPECTORANT | Syrup | Not available |
+| SIN07609P | SW-BENA PAEDIATRIC EXPECTORANT | Syrup | Not available |
+| SIN03251P | HOVA EXPECTORANT | Syrup | Not available |
+| SIN03526P | SEMERIN COUGH SYRUP | Syrup | Not available |
 
----
+Two further licences are also valid: SW BENA-EXPECTORANT (SIN02911P, syrup) and Ural Effervescent Granules (SIN14374P, effervescent granule).
+
+No eye-drop or ophthalmic formulation is registered, so route compatibility with a conjunctival indication has not been established.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found.
+**Contraindications suggested by the knowledge graph** (these are graph associations, not label text):
+- Cardiovascular: hypertension, coronary artery disease, myocardial infarction, coronary thrombosis
+- Renal and metabolic: impaired renal function, anuria, metabolic acidosis, hypercalcaemia, nephrocalcinosis, phosphorus metabolism disorders, rhabdomyolysis
+- Endocrine: adrenal insufficiency (including Addison disease and congenital adrenal hyperplasia)
+- Other: pancreatitis, benign prostatic hyperplasia, angle-closure glaucoma, ocular hypertension, haemoglobinopathy
 
----
+**Drug Interactions:** The interaction screen returned 100 records. Examples from the 20 entries shown:
+- **Major:** aluminium hydroxide
+- **Moderate:** doxycycline, minocycline, tetracycline, levofloxacin, acetylsalicylic acid, iron, rosuvastatin, acalabrutinib, ephedrine, pseudoephedrine
+- **Minor:** sulfonylureas (glipizide, glyburide, chlorpropamide, tolbutamide, tolazamide, acetohexamide), lactulose, misoprostol
+
+Of note for an ocular indication, the graph lists angle-closure glaucoma and ocular hypertension as contraindication associations, which would need careful review.
+
+Please refer to the package insert for label warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on the model score. There are no trials, no literature, no mechanistic rationale, and no ophthalmic formulation. The other top-10 predictions are also weak. Stomach disease (L4) has only in vitro gastric cancer studies using sodium citrate with 3-bromopyruvate. The trials retrieved for nasal cavity disease and intestinal obstruction do not test sodium citrate.
+The prediction rests only on a knowledge-graph score. There are no clinical trials or publications, and no plausible mechanism linking sodium citrate to papillary conjunctivitis. Graph-based contraindication signals involving glaucoma and ocular hypertension add further caution.
 
 **To proceed, the following is needed:**
-- Mechanism of action data (DrugBank) and a plausible biological link to conjunctival inflammation
-- Package insert warnings and contraindications from the HSA website (currently a blocking gap for safety screening)
-- Approved indication text for the Singapore registrations
-- Any preclinical or clinical study of sodium citrate in conjunctivitis
-- An ophthalmic formulation and route-compatibility assessment
+- Mechanism of action data for sodium citrate and a plausible biological rationale for conjunctival disease
+- Package insert warnings and contraindications from the HSA records
+- Preclinical or clinical evidence in conjunctivitis, and an ophthalmic formulation and route assessment
+- Consideration of the better-supported predictions (stomach disease, gastroduodenitis) as alternative research questions
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

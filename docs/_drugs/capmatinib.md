@@ -2,7 +2,7 @@
 layout: default
 title: Capmatinib
 parent: Low Evidence (L5)
-nav_order: 202
+nav_order: 203
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,18 +29,17 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Capmatinib: From MET Exon 14-Mutated Non-Small Cell Lung Cancer to Rheumatoid Arthritis
+# Capmatinib: From Its Approved Oncology Use to Rheumatoid Arthritis
 
 ## One-Sentence Summary
 
-Capmatinib is an oral MET kinase inhibitor, marketed in Singapore as Tabrecta. It is generally used for MET-dysregulated non-small cell lung cancer, but the registration data supplied here do not state the approved indication.
-The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but **no clinical trials** and only **1 general review** support this direction, so the prediction rests on the model alone.
+Capmatinib is a selective MET tyrosine kinase inhibitor, marketed in Singapore as an oral film-coated tablet (Tabrecta). The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but this is currently a computational prediction only, with **0 clinical trials** and **1 general review article** that contains no RA-specific data.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration data. Non-small cell lung cancer with MET alterations is the usual use (general knowledge, not from the Evidence Pack) |
+| Original Indication | Not stated in the Singapore licence records compiled for this report |
 | Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 99.45% |
 | Evidence Level | L5 |
@@ -50,11 +49,11 @@ The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but *
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Based on general knowledge, capmatinib is a selective MET (c-Met) kinase inhibitor. Its efficacy in MET-driven cancer is established, and mechanistically it may be applicable to rheumatoid arthritis.
+Capmatinib is a selective inhibitor of the MET receptor tyrosine kinase. Detailed mechanism-of-action data was not available in the data compiled for this report, so the following is based on general knowledge of the drug class.
 
-The proposed link is biological. HGF/MET signalling is thought to contribute to synovial inflammation and fibroblast activity, which are central to rheumatoid arthritis. This is a plausible hypothesis, not a demonstrated effect.
+MET signalling has been implicated in synovial inflammation and angiogenesis in rheumatoid arthritis. This gives the prediction a plausible biological rationale: blocking MET could, in theory, dampen processes that drive joint inflammation.
 
-The evidence does not go further than that. No RA-specific data were provided, and the high score (0.994, rank 6,947) is a model output only. The one supporting publication is a general review of kinase inhibitors, not a study of capmatinib in RA.
+However, the only linked publication is a general review of FDA-approved kinase inhibitors, with no RA-specific data. The high TxGNN score reflects a computational prediction, not clinical support. The link between the drug's original use (a MET-driven cancer setting) and RA is therefore hypothetical at this stage.
 
 ## Clinical Trial Evidence
 
@@ -64,47 +63,49 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [33513356](https://pubmed.ncbi.nlm.nih.gov/33513356/) | 2021 | Review | Pharmacological Research | 2021 update on FDA-approved small-molecule protein kinase inhibitors. It is general background on kinase inhibitors and does not study capmatinib in rheumatoid arthritis. |
+| [33513356](https://pubmed.ncbi.nlm.nih.gov/33513356/) | 2021 | Review | Pharmacological Research | General update on FDA-approved small-molecule protein kinase inhibitors; contains no RA-specific data on capmatinib |
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN16351P | TABRECTA FILM-COATED TABLET 200mg | Film-coated tablet | Not stated in the registration data |
-| SIN16350P | TABRECTA FILM-COATED TABLET 150mg | Film-coated tablet | Not stated in the registration data |
-
-Both products are oral tablets.
+| SIN16351P | TABRECTA FILM-COATED TABLET 200mg | Film-coated tablet | Not available |
+| SIN16350P | TABRECTA FILM-COATED TABLET 150mg | Film-coated tablet | Not available |
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (MET kinase inhibitor), not a conventional cytotoxic |
+| Cytotoxicity Classification | Targeted therapy (MET tyrosine kinase inhibitor) |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions (typically liver function and other routine laboratory parameters) |
+| Monitoring Items | Please refer to the package insert warnings and precautions (typically including liver function tests and a blood count) |
 | Handling Protection | Please refer to the package insert warnings and precautions |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: The interaction screen returned 100 potential interactions. Examples from the listed results:
+  - **Major**: dexamethasone, clarithromycin
+  - **Moderate**: metformin, empagliflozin, alosetron, loperamide, aprepitant, naltrexone, methylnaltrexone, naldemedine, metreleptin, glycerol phenylbutyrate
+  - **Minor**: proton pump inhibitors (omeprazole, esomeprazole, lansoprazole, dexlansoprazole, pantoprazole, rabeprazole), fidaxomicin, naloxegol
+
+  Common RA co-medications such as corticosteroids would need particular attention given the major interaction with dexamethasone.
+
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The RA prediction has a high model score but no trials, no RA-specific literature and no confirmed mechanism data, so it stays at evidence level L5. The safety documents needed for screening are also missing.
+The prediction rests on a model score alone. There are no clinical trials, and the single linked publication is a general kinase inhibitor review with no RA data. The drug also has a large interaction burden, and its package-insert safety information has not yet been reviewed.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank, to support the HGF/MET–synovium hypothesis
-- Preclinical or translational evidence for MET inhibition in RA
-- A safety review for use in a chronic inflammatory disease, given that this is an oncology kinase inhibitor
-
-**Other predictions of note:** heart disease (rank 4) has one preclinical study (PMID 32333917) in which capmatinib offset doxorubicin cardiotoxicity in mice. It is graded L4, "Research Question", and is indirect evidence with no human efficacy data. The remaining predictions are rare syndromes or structural conditions with no supporting data (L5, Hold).
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
+- Package insert warnings and contraindications from HSA (a blocking gap for safety screening)
+- Approved indication text for the Singapore licences
+- Detailed mechanism-of-action data
+- Preclinical evidence (for example, in arthritis models) that MET inhibition by capmatinib reduces synovial inflammation
+- A risk-benefit assessment of long-term kinase inhibition in a chronic, non-cancer population, including a review of the interaction profile with common RA therapies
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

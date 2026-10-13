@@ -2,7 +2,7 @@
 layout: default
 title: Tranexamic Acid
 parent: Medium Evidence (L3-L4)
-nav_order: 1001
+nav_order: 1011
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Tranexamic Acid: From Heavy Menstrual Bleeding to Amenorrhea
+# Tranexamic Acid: From Endometriosis to Amenorrhea
 
 ## One-Sentence Summary
 
-Tranexamic acid is an antifibrinolytic that reduces bleeding, and it is an established treatment for heavy menstrual bleeding.
-The TxGNN model predicts it may be effective for **amenorrhea**, but there are **0 clinical trials** and only **2 indirect review articles** behind this prediction.
-The signal is better read as a link to menstrual disorders in general (heavy bleeding, menses suppression) than as a true amenorrhea indication.
+Tranexamic acid is an antifibrinolytic agent, originally associated with endometriosis (as recorded in the knowledge graph) and widely used to reduce bleeding.
+The TxGNN model predicts it may be effective for **Amenorrhea**, but this is supported by **0 clinical trials** and only **2 indirect reviews**.
+The prediction is best treated as a research question rather than an actionable repurposing candidate.
 
 ---
 
@@ -43,7 +43,7 @@ The signal is better read as a link to menstrual disorders in general (heavy ble
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration records; known use is bleeding control, including heavy menstrual bleeding |
+| Original Indication | Endometriosis (per the knowledge graph; no approved indication text is available for the Singapore licences) |
 | Predicted New Indication | Amenorrhea |
 | TxGNN Prediction Score | 99.19% |
 | Evidence Level | L4 |
@@ -55,13 +55,11 @@ The signal is better read as a link to menstrual disorders in general (heavy ble
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, tranexamic acid is an antifibrinolytic, and its efficacy in reducing menstrual blood loss is established. Mechanistically it may be relevant to menstrual disorders, but that does not support an amenorrhea indication.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, tranexamic acid is a lysine analogue that blocks plasminogen binding to fibrin, which reduces fibrinolysis. It is established for heavy menstrual bleeding.
 
-Amenorrhea is the absence of menstrual bleeding, while tranexamic acid reduces bleeding. The two retrieved papers concern abnormal uterine bleeding and menses suppression in women with hematologic cancer. The high graph score therefore most likely reflects a general menstrual-disorder association, not a real treatment effect for amenorrhea.
+The high TxGNN score for amenorrhea probably reflects the drug's close association with menstrual disorders. However, amenorrhea means the absence of menses, so a drug that reduces bleeding does not treat it. The biological link is indirect. At most, tranexamic acid might play a role in menstrual suppression or prophylaxis, for example in women with haematological cancers, but that is not treatment of amenorrhea as a condition.
 
-A more defensible research question would be **heavy menstrual bleeding or menses suppression** (for example in women with cytopenias), which would need its own evaluation.
-
-The other top predictions are not supported either. Heparin cofactor 2 deficiency, factor 5 excess with spontaneous thrombosis and antithrombin deficiency type 2 are thrombophilic conditions. An antifibrinolytic may add thrombotic risk there, so these are safety concerns rather than treatment candidates. Predictions ranked 5 to 10 (for example triphalangeal thumb, hypospadias, glaucoma with elevated episcleral venous pressure) have no plausible mechanism and no evidence, and they look like graph artifacts.
+The other predicted indications weaken confidence in the model's output further. Several high-scoring predictions are thrombophilic conditions (heparin cofactor 2 deficiency, factor 5 excess with spontaneous thrombosis, antithrombin deficiency type 2). In these, an antifibrinolytic would be expected to increase thrombotic risk. This suggests the scores reflect pathway associations rather than therapeutic benefit.
 
 ---
 
@@ -75,31 +73,36 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [21701432](https://pubmed.ncbi.nlm.nih.gov/21701432/) | 2011 | Review | Menopause | Evidence-based overview of drug therapy for abnormal uterine bleeding. Treatments are generally effective and well tolerated, and the choice depends on cause, amount of bleeding, contraception or fertility needs, and side effects. Nonhormonal options include NSAIDs and antifibrinolytics. Indirect to amenorrhea. |
-| [39043214](https://pubmed.ncbi.nlm.nih.gov/39043214/) | 2024 | Review | J Oncol Pharm Pract | Systematic approach to menses prophylaxis and suppression in premenopausal women with hematologic cancer. Several agents exist, but comparative data are scarce, especially in cancer patients. Indirect to amenorrhea. |
+| [21701432](https://pubmed.ncbi.nlm.nih.gov/21701432/) | 2011 | Review | Menopause | Evidence-based review of pharmacological therapy for abnormal uterine bleeding; nonhormonal options are effective and generally well tolerated. Indirect evidence only |
+| [39043214](https://pubmed.ncbi.nlm.nih.gov/39043214/) | 2024 | Review | J Oncol Pharm Pract | Systematic approach to menses prophylaxis and suppression in pre-menopausal women with haematological cancer; few comparative data. Indirect evidence only |
+
+Neither article studies tranexamic acid for treating amenorrhea.
 
 ---
 
 ## Singapore Market Information
 
-Six registrations are on record; the five main ones are listed. All are injectable solutions. An oral film-coated tablet form also appears in the dosage-form data.
-
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN16551P | TAFIXYL SOLUTION FOR INJECTION 100 MG/ML | Injection, solution | Not stated in registration record |
-| SIN15167P | MEDSAMIC SOLUTION FOR INJECTION 100MG/ML | Injection, solution | Not stated in registration record |
-| SIN15715P | XAMILUX INJECTION 100MG/ML | Injection, solution | Not stated in registration record |
-| SIN02488P | CYKLOKAPRON INJECTION 100 mg/ml | Injection | Not stated in registration record |
-| SIN15052P | HAEMOSTOP INJECTION 100MG/ML | Injection, solution | Not stated in registration record |
+| SIN16551P | Tafixyl Solution for Injection 100 mg/ml | Injection, solution | Not available |
+| SIN15167P | Medsamic Solution for Injection 100 mg/ml | Injection, solution | Not available |
+| SIN15715P | Xamilux Injection 100 mg/ml | Injection, solution | Not available |
+| SIN02488P | Cyklokapron Injection 100 mg/ml | Injection | Not available |
+| SIN15052P | Haemostop Injection 100 mg/ml | Injection, solution | Not available |
+
+A sixth licence, Cyklokapron Tablet 500 mg (SIN02487P, film-coated tablet), is also valid. All six licences are single-ingredient products. Both injectable and oral forms are available.
 
 ---
 
 ## Safety Considerations
 
-- **Thrombotic risk**: As an antifibrinolytic, tranexamic acid may add thrombotic risk in patients with thrombophilic conditions. A 1991 paper (PMID 1782339) describes drug-triggered thrombosis in congenital coagulation-inhibitor defects.
-- **Drug Interactions**: No interaction records were found in the queried data.
+- **Contraindications flagged in the knowledge graph** (these come from the model's knowledge graph, not from label text): hypertension, anxiety and neurotic disorders, porphyria, liver disease, gallbladder disease, diabetes mellitus and related hyperglycaemia or ketoacidosis, brain oedema, hypertriglyceridaemia and hyperlipidaemia, female breast carcinoma, endometrial cancer, thrombophlebitis, migraine, coronary artery disease, obesity, stroke and cerebrovascular disorders.
+- **Drug Interactions**: 35 interactions were identified; 20 are listed in the data compiled for this report.
+  - **Major**: oestrogens and hormonal contraceptives (ethinylestradiol, estradiol, conjugated estrogens, esterified estrogens, estrone, diethylstilbestrol, estramustine), progestogens (norethisterone, drospirenone, etonogestrel), carfilzomib, anti-inhibitor coagulant complex, and Factor IX complex (human).
+  - **Moderate**: thrombolytics (alteplase, anistreplase).
+- **Thrombosis concern**: In principle, an antifibrinolytic could raise thrombotic risk in thrombophilic patients. The only retrieved article for heparin cofactor 2 deficiency (1991) describes drugs, particularly oral contraceptives, triggering thrombosis in congenital coagulation-inhibitor defects. That is a safety signal, not evidence of efficacy.
 
-Please refer to the package insert for full safety information, including warnings and contraindications.
+Package insert warnings and contraindications were not available, so please refer to the package insert for authoritative safety information.
 
 ---
 
@@ -108,13 +111,14 @@ Please refer to the package insert for full safety information, including warnin
 **Decision: Hold**
 
 **Rationale:**
-The amenorrhea prediction has no clinical trials and only two indirect reviews, and it conflicts with the drug's known action of reducing menstrual bleeding. The evidence level is L4 and the prediction is best treated as a research question, not a repurposing candidate.
+The prediction rests on model score alone plus two indirect reviews, and there are no clinical trials. Biologically, a drug that reduces bleeding does not address absent menses, and the other top predictions point to thrombotic safety concerns rather than benefit.
 
 **To proceed, the following is needed:**
-- Reframe the question to heavy menstrual bleeding or menses suppression, and run a targeted search of trials and literature for it
-- Singapore package insert warnings, contraindications and approved indications (HSA)
-- Mechanism of action data (DrugBank)
-- A thrombotic-risk review for any population with coagulation disorders
+- Package insert warnings, contraindications and approved indications from the HSA, which are currently missing and block safety screening
+- Detailed mechanism of action data (for example from DrugBank)
+- Clarification of the clinical question: whether the goal is menstrual suppression or prophylaxis (a plausible but different use) rather than treatment of amenorrhea
+- Direct clinical evidence, such as trials or comparative studies, in the relevant population
+- A thrombotic risk assessment, especially for patients on oestrogen or progestogen therapy
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Etomidate
 parent: Low Evidence (L5)
-nav_order: 404
+nav_order: 408
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,14 +33,14 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Etomidate is an injectable anesthetic used to induce anesthesia. The Singapore registration record does not state an approved indication.
-The TxGNN model predicts it may be effective for **headache disorder**, but this is a model prediction only, with **0 clinical trials** and **0 publications** supporting it.
+Etomidate is an injectable anesthetic agent used to induce general anesthesia, and it is currently marketed in Singapore.
+The TxGNN model predicts it may be effective for **headache disorder**, but this is a computational prediction only, with **0 clinical trials** and **0 publications** supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore record (etomidate is generally known as an anesthetic induction agent) |
+| Original Indication | Not stated in the Singapore license text. Anesthetic induction is inferred from the known use of the drug. |
 | Predicted New Indication | Headache disorder |
 | TxGNN Prediction Score | 98.39% |
 | Evidence Level | L5 |
@@ -50,46 +50,51 @@ The TxGNN model predicts it may be effective for **headache disorder**, but this
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the record. The evidence pack's own assessment describes etomidate as a GABA-A positive allosteric modulator and an 11β-hydroxylase inhibitor. Neither mechanism has an established link to treating headache.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Etomidate is known as a GABA-A receptor positive allosteric modulator (beta2/beta3 subunit-selective) and is used for anesthetic induction. It is also known to inhibit 11β-hydroxylase, which suppresses adrenal steroid production.
 
-GABAergic modulation is a speculative connection to headache pathophysiology. The same weak rationale applies to the related prediction of trigeminal autonomic cephalalgia. The prediction may simply reflect proximity between anesthetic and headache nodes in the knowledge graph.
+GABAergic modulation is a speculative link to headache pathophysiology, but no mechanistic or clinical study was found to support it. The high TxGNN score (0.984) is a graph-based association only. Etomidate is given only by injection for anesthesia, so chronic or outpatient use for headache would be impractical.
 
-With no trials, no literature and no preclinical data, the prediction cannot be checked against source data. It should be treated as a hypothesis-generating signal only.
+Other top-ranked predictions are also computational only and lack a plausible rationale. They include mild and severe pre-eclampsia, trigeminal autonomic cephalalgia, alopecia, common cold, diffuse alopecia areata, congenital hypotrichosis milia, hypotrichosis simplex of the scalp, and exercise-induced malignant hyperthermia. For exercise-induced malignant hyperthermia, etomidate is generally regarded as a non-triggering anesthetic. That is a safety-compatibility point, not evidence of treatment.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for headache disorder.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for headache disorder.
+
+Two articles were retrieved for lower-ranked predictions. Neither supports repurposing:
+- [PMID 39569044](https://pubmed.ncbi.nlm.nih.gov/39569044/) (2024, JCEM Case Reports, case report): inhaled etomidate and its analogues from electronic cigarettes caused acquired 11β-hydroxylase deficiency that mimicked congenital adrenal hyperplasia. It documents an adverse endocrine effect, not a benefit for alopecia.
+- [PMID 39993848](https://pubmed.ncbi.nlm.nih.gov/39993848/) (2025, Air Medical Journal, stability study): droplet formation in emergency drugs under extreme cold. It is a handling topic with no relevance to treating the common cold.
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN08849P | ETOMIDATE-LIPURO INJECTION 20 mg/10 ml (B. Braun Melsungen AG) | Injection | Not stated in record |
+| SIN08849P | ETOMIDATE-LIPURO INJECTION 20 mg/10 ml (B. Braun Melsungen AG) | Injection | Not stated in the available record |
 
 ## Safety Considerations
 
-No package insert warnings, contraindications or drug interaction records are available in the evidence pack. Please refer to the package insert for safety information.
+- **Disease associations flagged in the knowledge graph (not label text)**: adrenocortical insufficiency, Addison disease and hypotensive disorder are listed as contraindication-type associations.
+- **Known adrenal effect**: Etomidate inhibits 11β-hydroxylase and can suppress adrenal steroid production. This is a particular concern in critically ill patients, including obstetric patients, which matters for the pre-eclampsia predictions.
+- **Drug Interactions**: 39 potential interactions were identified, but their severity levels are unclassified. Those listed include morphine, dexamethasone, hydrocortisone, prednisolone, epinephrine, atropine, metoclopramide, ondansetron and several proton pump inhibitors (omeprazole, pantoprazole, lansoprazole).
 
-One safety point comes from the evidence pack's mechanism review. Etomidate inhibits 11β-hydroxylase, which suppresses cortisol production. A 2024 case report (PMID 39569044) described acquired 11β-hydroxylase deficiency after inhaled etomidate and its analogues. This is a safety concern, not evidence of benefit.
+Please refer to the package insert for the full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is model-only (L5). It has no trials, no supporting literature and no plausible mechanism. The known endocrine risk from cortisol suppression adds a safety concern for any non-anesthetic use. The other top-10 predictions, such as pre-eclampsia, alopecia and common cold, are also L5. The only two papers retrieved for them are an adverse-effect report and a drug-stability study, and neither supports a therapeutic use.
+The prediction rests only on a graph-based score. There are no clinical trials or supporting literature, and no mechanistic link to headache disorder has been shown. Etomidate's injection-only anesthetic use and its adrenal suppression liability make repurposing unattractive without new evidence.
 
 **To proceed, the following is needed:**
-- The HSA package insert, to obtain warnings, contraindications and the approved indication (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank, to assess any mechanistic link to headache
-- Preclinical or clinical evidence for etomidate in headache disorders
-- A safety review of adrenal suppression, and of whether an injectable anesthetic is a feasible route for headache treatment
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
+- Singapore package insert warnings and contraindications (safety screening cannot proceed without them)
+- Detailed mechanism of action data (MOA)
+- Preclinical or mechanistic evidence linking GABA-A modulation to headache disorder
+- A route and dosing feasibility assessment, since current use is injectable and anesthetic only
+- A risk assessment for adrenal suppression in any proposed new population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

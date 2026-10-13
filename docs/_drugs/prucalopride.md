@@ -2,7 +2,7 @@
 layout: default
 title: Prucalopride
 parent: Low Evidence (L5)
-nav_order: 831
+nav_order: 840
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,106 +29,79 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Prucalopride: From Gastrointestinal Motility Disorders to Hypoalphalipoproteinemia
+# Prucalopride: From Constipation to Hypoalphalipoproteinemia
 
 ## One-Sentence Summary
 
-Prucalopride is a selective 5-HT4 receptor agonist with gastrointestinal prokinetic activity, and it is marketed in Singapore as Resolor tablets.
-The TxGNN model ranks **hypoalphalipoproteinemia** (low HDL cholesterol) as its top prediction, but **no clinical trials and no publications** support it, and no biological link is known.
-Of the 10 predicted indications, only the amyloidosis-related ones have any literature, and that literature is indirect.
-
----
+Prucalopride is a selective 5-HT4 receptor agonist (a gut prokinetic) originally used to treat chronic constipation.
+The TxGNN model predicts it may be effective for **hypoalphalipoproteinemia** (low HDL cholesterol), but **no clinical trials and no publications** currently support this prediction, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration records (approved-indication text is empty); pharmacologically a GI prokinetic |
+| Original Indication | Constipation disorder (from the knowledge graph; the Singapore licence records contain no indication text) |
 | Predicted New Indication | Hypoalphalipoproteinemia |
 | TxGNN Prediction Score | 99.82% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 2 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the input. Prucalopride is known as a selective 5-HT4 receptor agonist that stimulates gastrointestinal motility.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, prucalopride is a selective 5-HT4 receptor agonist that promotes gut motility, and its efficacy in constipation is established.
 
-For hypoalphalipoproteinemia, **no plausible link was identified**. Prucalopride has no known role in HDL metabolism. The high score (0.998) is a graph-based prediction only, with no trial or literature support.
+For hypoalphalipoproteinemia, no mechanistic link can be established from the available data. No known pathway connects gut 5-HT4 agonism to HDL metabolism. The high score (99.82%) is a knowledge-graph prediction only and should be treated as a hypothesis, not evidence.
 
-The same applies to the next four predictions. There is no known connection to LDL receptor function in homozygous familial hypercholesterolemia. There is no effect on acid secretion or mucosal defence in duodenal ulcer. There is no antifungal mechanism in oral candidiasis. And there is no link to lipid metabolism in the familial combined hyperlipidemia entry, which is flagged **obsolete** in the ontology and may map to a deprecated node.
-
-The only candidates with a partial rationale are the amyloidosis-related ones (amyloidosis, primary amyloidosis, acquired amyloid peripheral neuropathy). Amyloid infiltration of the gut wall or autonomic nerves can cause intestinal dysmotility or pseudo-obstruction, and a prokinetic might relieve those symptoms. This would be symptom management only and would not modify the underlying amyloid disease.
-
----
+Other top-ranked predictions are similarly unsupported (for example homozygous familial hypercholesterolemia, duodenal ulcer, oral candidiasis, strongyloidiasis and HIV infection). The only predictions with any related literature are amyloidosis and primary amyloidosis. There, a prokinetic might relieve gut dysmotility symptoms such as pseudo-obstruction, but this would not treat the underlying disease. Those two are better framed as research questions.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered (for hypoalphalipoproteinemia or any of the other 9 predicted indications).
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 Currently no related literature available for hypoalphalipoproteinemia.
 
-Two papers were retrieved for the amyloidosis-related predictions. Neither tests prucalopride:
+For reference, the two papers retrieved for the amyloidosis predictions (rank 6 and rank 9) are listed below. Neither shows prucalopride efficacy.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [34231480](https://pubmed.ncbi.nlm.nih.gov/34231480/) | 2021 | Cohort | Turk J Gastroenterol | Specific GI motility disorders (gastroparesis, chronic intestinal pseudo-obstruction, colonic inertia) are often misdiagnosed as functional GI disorders by community physicians. This is a diagnostic study, not a prucalopride treatment study. |
-| [40376135](https://pubmed.ncbi.nlm.nih.gov/40376135/) | 2025 | Case report | Cureus | A 61-year-old man with amyloidosis presenting as chronic intestinal pseudo-obstruction. It shows amyloidosis as a cause of dysmotility, not prucalopride efficacy. |
-
----
-
-## Other Predicted Indications (Ranks 2–10)
-
-| Rank | Indication | Score | Evidence Level | Recommendation |
-|------|------|------|------|------|
-| 2 | Homozygous familial hypercholesterolemia | 99.67% | L5 | Hold |
-| 3 | Duodenal ulcer | 99.65% | L5 | Hold |
-| 4 | Oral candidiasis | 99.64% | L5 | Hold |
-| 5 | Familial combined hyperlipidemia (obsolete term) | 99.62% | L5 | Hold |
-| 6 | Amyloidosis | 99.62% | L4 | Research Question |
-| 7 | Strongyloidiasis | 99.60% | L5 | Hold |
-| 8 | HIV infectious disease | 99.60% | L5 | Hold |
-| 9 | Primary amyloidosis | 99.56% | L4 | Research Question |
-| 10 | Acquired amyloid peripheral neuropathy | 99.55% | L5 | Hold |
-
----
+| [40376135](https://pubmed.ncbi.nlm.nih.gov/40376135/) | 2025 | Case report | Cureus | Amyloidosis presenting as chronic intestinal pseudo-obstruction in a 61-year-old man after multiple unrevealing laparotomies |
+| [34231480](https://pubmed.ncbi.nlm.nih.gov/34231480/) | 2021 | Cohort | Turk J Gastroenterol | Specific GI motility disorders (gastroparesis, CIPO, colonic inertia) are often misdiagnosed as functional GI disorders in the early stage |
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN14103P | Resolor Film-coated Tablet 1 mg | Tablet, film coated | Not listed in registration record |
-| SIN14104P | Resolor Film-coated Tablet 2 mg | Tablet, film coated | Not listed in registration record |
+| SIN14103P | Resolor Film-coated Tablet 1 mg | Tablet, film coated | Not available in the compiled data |
+| SIN14104P | Resolor Film-coated Tablet 2 mg | Tablet, film coated | Not available in the compiled data |
 
-Both products are manufactured by Janssen Cilag S.p.A. and are oral formulations.
-
----
+Both licences are valid single-ingredient oral products from Janssen Cilag S.p.A.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease-level contraindications (knowledge graph, not label text)**: ulcerative colitis, inflammatory bowel disease, intestinal perforation.
+- **Drug Interactions**: 98 interactions were identified in total. The listed examples include:
+  - **Moderate**: anticholinergic or antimuscarinic agents (aclidinium, atropine, benztropine, biperiden, clidinium, glycopyrronium, hyoscyamine) and hormonal contraceptive components (levonorgestrel, norethisterone, ethinylestradiol).
+  - **Minor**: nifedipine, afatinib, alpelisib, amiodarone, cobicistat, captopril, diltiazem, spironolactone, carvedilol, conivaptan.
 
----
+Please refer to the package insert for full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction (hypoalphalipoproteinemia) has no clinical trials, no literature, and no plausible mechanism. The amyloidosis-related candidates have an indirect, symptom-level rationale only, and their retrieved papers do not test prucalopride. Nothing here currently justifies moving forward.
+The prediction for hypoalphalipoproteinemia has no clinical trials, no literature and no plausible mechanistic link (Evidence Level L5). A high model score alone is not enough to justify moving forward.
 
 **To proceed, the following is needed:**
-- HSA package insert (warnings, contraindications, approved indication), which is required before any safety screening
-- Mechanism of action data from DrugBank
-- Reconciliation of the obsolete familial combined hyperlipidemia term with its current ontology node
-- For the amyloidosis-related candidates, a targeted search for prucalopride use in amyloid-associated GI dysmotility, framed as symptom management rather than disease modification
+- A plausible mechanistic rationale connecting 5-HT4 agonism to HDL/lipid metabolism, plus mechanism of action data
+- Preclinical or clinical evidence in hypoalphalipoproteinemia
+- Package insert warnings and contraindications from HSA, which are required for safety screening
+- Approved indication text for the Singapore licences
+- Optionally, a separate evaluation of the amyloidosis-related GI dysmotility question as a symptom-management research question
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

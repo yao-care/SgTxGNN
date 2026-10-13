@@ -2,7 +2,7 @@
 layout: default
 title: Inclisiran
 parent: Low Evidence (L5)
-nav_order: 523
+nav_order: 527
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,21 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Inclisiran: From LDL-C Lowering to Potassium Deficiency Disease
+# Inclisiran: From Lipid Lowering to Potassium Deficiency Disease
 
 ## One-Sentence Summary
 
-Inclisiran is a PCSK9-targeting siRNA that lowers LDL cholesterol, and it is marketed in Singapore as LEQVIO.
-The TxGNN model predicts it may be effective for **potassium deficiency disease**, but this is a model output only.
-There are **0 clinical trials** and **0 publications** supporting this direction.
+Inclisiran is a small interfering RNA (siRNA) drug marketed in Singapore as LEQVIO, which silences PCSK9 in the liver to lower LDL cholesterol.
+The TxGNN model predicts it may be effective for **potassium deficiency disease**, but **no clinical trials and no publications** currently support this prediction.
+The model score is very high, yet it appears to be a model artifact rather than a real biological signal.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore licence record; mechanistically, LDL-C lowering |
+| Original Indication | Not stated in the Singapore licence data (the approved indication text is empty). Mechanistically, it is an LDL-C-lowering drug. |
 | Predicted New Indication | Potassium deficiency disease |
 | TxGNN Prediction Score | 99.93% |
 | Evidence Level | L5 |
@@ -49,44 +51,72 @@ There are **0 clinical trials** and **0 publications** supporting this direction
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the DrugBank record. Based on the candidate assessment, inclisiran is a small interfering RNA that silences hepatic PCSK9. This raises LDL receptor expression on hepatocytes and lowers circulating LDL-C.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, inclisiran is an siRNA that targets PCSK9 mRNA in hepatocytes, which increases LDL receptor availability and lowers LDL-C.
 
-We found **no plausible link** between this mechanism and potassium homeostasis. PCSK9 silencing has no known role in potassium handling, and the drug is not known to affect renal or gastrointestinal potassium balance. The very high TxGNN score (99.93%) most likely reflects graph-level associations rather than biology, and it is not backed by any trial or publication. This prediction should be treated as a hypothesis with no supporting evidence.
+This mechanism has no known role in potassium homeostasis. No plausible mechanistic link between the original use and potassium deficiency disease was identified. The high TxGNN score appears to be a model artifact, and there are no trials or publications to back it.
+
+**Other predictions reviewed:** The nine other top-ranked predictions are also weak. All are scored at the same L5 level, except aortic malformation (L4, see below).
+
+| Rank | Predicted Disease | Score | Assessment |
+|------|------|------|------|
+| 2 | Esophageal disease | 99.87% | No established link; prediction only |
+| 3 | Atypical coarctation of aorta | 99.86% | Congenital structural anomaly; LDL-C lowering would not correct it |
+| 4 | Migraine disorder | 99.83% | Speculative vascular or lipid link only |
+| 5 | Non-syndromic esophageal malformation | 99.83% | Developmental malformation; no plausible link |
+| 6 | Migraine with brainstem aura | 99.78% | Neurological/channelopathy etiology; no link |
+| 7 | Migraine with or without aura, susceptibility to | 99.78% | Redundant with other migraine entries, likely a shared-graph-neighbourhood effect |
+| 8 | Aortic malformation | 99.76% | Related trials are not about this condition (see below) |
+| 9 | Esophageal ulcer | 99.73% | No plausible mechanism |
+| 10 | Raynaud disease | 99.73% | Only a speculative endothelial link |
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials are registered for potassium deficiency disease.
+
+---
 
 ## Literature Evidence
 
 Currently no related literature available.
 
+---
+
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN16295P | LEQVIO Solution for Injection in Prefilled Syringe 284 mg/1.5 mL | Injection, solution | Not listed in the registration record |
+| SIN16295P | LEQVIO Solution for Injection in Prefilled Syringe 284 mg/1.5 mL | Injection, solution | Not available |
 
-The product is an injectable, manufactured by Corden Pharma S.p.A and Novartis Pharmaceutical Manufacturing GmbH.
+---
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
+
+No drug interaction records were found for inclisiran in the data compiled for this report.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone. It has no clinical trials, no literature, and no plausible mechanism linking PCSK9 silencing to potassium deficiency. The evidence level is L5, and the candidate has not passed the initial (S0) screening stage.
+The prediction is supported only by the model score. There are no trials or publications, and no plausible mechanistic link between PCSK9 silencing and potassium homeostasis. The same applies to the other nine top-ranked predictions.
+
+For aortic malformation (rank 8), two Phase 3 pediatric inclisiran trials were matched (NCT06597019 and NCT06597006). Both study familial hypercholesterolemia in children, not aortic malformation, so they do not support that indication.
 
 **To proceed, the following is needed:**
-- Any mechanistic or clinical rationale connecting inclisiran to potassium homeostasis; without one, this candidate should be deprioritised
-- Detailed mechanism of action data (MOA) from DrugBank
-- The HSA package insert, including approved indication, warnings and contraindications, before any safety screening
-- A check of other top-ranked predictions. For example, the two Phase 3 trials listed under "aortic malformation" (NCT06597019, NCT06597006) are inclisiran studies in children with familial hypercholesterolaemia, and appear to be condition-field mismatches rather than evidence.
+- Package insert warnings and contraindications from the HSA, which are currently missing and block safety screening
+- Detailed mechanism of action data from DrugBank
+- The approved indication text for the Singapore licence
+- Any mechanistic or clinical rationale linking PCSK9 silencing to potassium deficiency disease, before further evaluation is considered
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

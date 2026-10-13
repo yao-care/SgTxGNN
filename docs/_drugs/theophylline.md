@@ -2,7 +2,7 @@
 layout: default
 title: Theophylline
 parent: Low Evidence (L5)
-nav_order: 970
+nav_order: 980
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,31 +29,32 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Theophylline: From Asthma and COPD (Bronchodilator Use) to Thrombotic Disease
+# Theophylline: From Asthma and Chronic Lung Disease to Thrombotic Disease
 
 ## One-Sentence Summary
 
-Theophylline is a long-established bronchodilator used for airway diseases such as asthma and COPD.
-The TxGNN model predicts it may be effective for **thrombotic disease**, but this rests on the model score alone: there are **no registered clinical trials** and no publications showing theophylline treats thrombosis.
+Theophylline is a long-established bronchodilator, originally used for asthma, bronchitis, emphysema and other chronic airway diseases.
+The TxGNN model predicts it may be effective for **thrombotic disease**, but **no clinical trials** and **no literature that tests theophylline as an antithrombotic** were found, so the prediction currently rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Asthma, bronchitis, emphysema and other chronic lung diseases (the registry lists no approved-indication text, so these come from the knowledge-graph indication list) |
 | Predicted New Indication | Thrombotic disease |
 | TxGNN Prediction Score | 99.62% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 8 |
 | Recommended Decision | Hold |
 
-The Singapore licence records provided carry no approved-indication text, so the original indication is not listed here. The bronchodilator use above comes from the retrieved literature.
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in this Evidence Pack. Theophylline is known to be a phosphodiesterase (PDE) inhibitor and an adenosine receptor antagonist. Its efficacy in airway disease is well established.
+Detailed mechanism-of-action data are not available in the compiled data. Theophylline is generally described as a non-selective phosphodiesterase (PDE) inhibitor and adenosine receptor antagonist. Its efficacy in airway disease is well established.
 
-The two actions point in opposite directions for thrombosis. PDE inhibition can raise cAMP in platelets, which in theory reduces aggregation. Adenosine antagonism could blunt the antiplatelet effect of adenosine. No supporting data were provided, so the net direction is unclear. The very high TxGNN score (0.996) is a graph-based association and not evidence of clinical benefit.
+The mechanistic link to thrombosis is plausible but weak. PDE inhibition raises cAMP in platelets, which could in theory reduce platelet aggregation. However, adenosine itself inhibits platelets, so blocking adenosine receptors could counteract this effect. The two actions may therefore cancel each other.
+
+The retrieved literature does not resolve this question. Most papers concern platelet biomarkers, blood-sample handling, pharmacokinetics of another drug (ticlopidine), or a theophylline detection sensor. None tests theophylline as a treatment for thrombosis. The high TxGNN score is a prediction only.
 
 ## Clinical Trial Evidence
 
@@ -61,53 +62,61 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-No RCTs were found. The retrieved papers are mostly platelet biology, assay methods, or unrelated conditions. None shows theophylline treating thrombosis. The most relevant items are listed below.
+None of the retrieved publications is an RCT or tests theophylline for thrombosis. The most relevant items are listed below.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [6771102](https://pubmed.ncbi.nlm.nih.gov/6771102/) | 1980 | Review | CRC Crit Rev Biochem | Thromboxane A2 and prostacyclin act oppositely on platelets; prostacyclin stimulates adenylate cyclase to inhibit aggregation (the cAMP rationale) |
-| [8981060](https://pubmed.ncbi.nlm.nih.gov/8981060/) | 1996 | Not classified | Gen Pharmacol | Milrinone, a PDE inhibitor, reduces platelet aggregation and raises cAMP, and interacts with adenosine effects (a related drug, not theophylline) |
-| [8055680](https://pubmed.ncbi.nlm.nih.gov/8055680/) | 1994 | Review | Clin Pharmacokinet | Pharmacokinetics of ticlopidine, an antiplatelet agent (not theophylline) |
-| [6241135](https://pubmed.ncbi.nlm.nih.gov/6241135/) | 1984 | Not classified | Cor Vasa | T-lymphocyte subsets in patients with myocardial infarction and thrombophlebitis; theophylline was used only as a cell-subset marker |
-| [26764324](https://pubmed.ncbi.nlm.nih.gov/26764324/) | 2016 | Not classified | J Nutr | Aged garlic extract inhibits platelet aggregation via cAMP and cGMP signalling (not theophylline) |
-| [25856065](https://pubmed.ncbi.nlm.nih.gov/25856065/) | 2015 | Not classified | Platelets | Soluble CLEC-2 as a platelet-activation marker for thrombotic risk (not theophylline) |
-| [749930](https://pubmed.ncbi.nlm.nih.gov/749930/) | 1978 | Not classified | Br J Haematol | Platelet factor 4 assay; theophylline appears only as a sample additive to prevent platelet activation |
-| [14231672](https://pubmed.ncbi.nlm.nih.gov/14231672/) | 1964 | Not classified | Z Gesamte Inn Med | Chronic cor pulmonale after thromboembolic disease (no abstract available) |
+| [8055680](https://pubmed.ncbi.nlm.nih.gov/8055680/) | 1994 | Review | Clin Pharmacokinet | Pharmacokinetics of ticlopidine, an antiplatelet drug. Does not involve theophylline. |
+| [6771102](https://pubmed.ncbi.nlm.nih.gov/6771102/) | 1980 | Review | CRC Crit Rev Biochem | Role of prostaglandins and platelets in atherosclerosis. Prostacyclin acts by raising platelet cAMP, the pathway PDE inhibitors also influence. |
+| [8981060](https://pubmed.ncbi.nlm.nih.gov/8981060/) | 1996 | Laboratory study | Gen Pharmacol | Milrinone, another PDE inhibitor, reduced human platelet aggregation and interacted with adenosine. Does not test theophylline. |
+| [4776567](https://pubmed.ncbi.nlm.nih.gov/4776567/) | 1973 | Not classified | Minerva Cardioangiol | Theophylline-nicotinate derivative in chronic obliterating peripheral arteriopathy. No abstract available. |
+| [5136470](https://pubmed.ncbi.nlm.nih.gov/5136470/) | 1971 | Not classified | Cardiologia Pratica | Cardiocirculatory effects of a theophylline nicotinate ester in cerebral and peripheral angiopathies. No abstract available. |
+| [749930](https://pubmed.ncbi.nlm.nih.gov/749930/) | 1978 | Assay method | Br J Haematol | Platelet factor 4 radioimmunoassay. Theophylline is only an additive in the anticoagulant used for sample collection. |
+| [29220362](https://pubmed.ncbi.nlm.nih.gov/29220362/) | 2017 | Laboratory method | PLoS One | Optimized plasma preparation for platelet-stored molecules. Not a treatment study. |
+| [29254574](https://pubmed.ncbi.nlm.nih.gov/29254574/) | 2018 | Analytical method (sensor) | Anal Chim Acta | Electrochemical sensor for detecting theophylline. Unrelated to thrombosis. |
 
 ## Singapore Market Information
 
-Eight registrations are on record; the five main ones are shown. Approved-indication text is not recorded in the data.
+There are 8 valid single-ingredient registrations in Singapore (no combination products, none cancelled). The registry provides no approved-indication text for any of them. The first 5 are shown below.
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
-|---------|------|------|-----------|
-| SIN11399P | NUELIN-SR 125 TABLET | Tablet | Adcock Ingram Limited |
-| SIN10679P | NUELIN-SR 250 TABLET | Tablet | Adcock Ingram Limited |
-| SIN03139P | THEOPHYLLINE TABLETS 100 mg | Tablet | Beacons Pharmaceuticals Pte. Ltd. |
-| SIN09668P | APO-THEO LA TABLET 200 mg | Tablet | Apotex Inc |
-| SIN10158P | APO-THEO LA TABLET 100 mg | Tablet | Apotex Inc |
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN11399P | NUELIN-SR 125 TABLET | Tablet |
+| SIN10679P | NUELIN-SR 250 TABLET | Tablet |
+| SIN03139P | THEOPHYLLINE TABLETS 100 mg | Tablet |
+| SIN09668P | APO-THEO LA TABLET 200 mg | Tablet |
+| SIN10158P | APO-THEO LA TABLET 100 mg | Tablet |
 
-Forms across all registrations are oral tablets (including film-coated) and syrup.
+Other registered forms include a film-coated tablet (THEOLIN SR 250 mg), a syrup (NUELIN SYRUP) and APO-THEO LA 300 mg tablets.
 
 ## Safety Considerations
 
-- **Narrow therapeutic index**: serum level monitoring is needed. CYP1A2-related and other drug interactions require review.
-- **Drug Interactions**: the interaction query returned no records, which is likely a data gap and not evidence of no interactions.
-- **Carcinogenicity**: an NTP carcinogenesis study in rodents is in the literature and should be reviewed.
+- **Contraindication-related conditions (from the knowledge graph, not package-insert text)**: hypertension, liver failure and liver disease, epilepsy, anxiety and other mental disorders, porphyria, kidney disease, gallbladder disease, thrombocytopenia, neutropenia and agranulocytosis, hypothyroidism, peptic ulcer disease, open-angle glaucoma, diabetes mellitus and diabetic ketoacidosis, and benign prostatic hyperplasia. Thrombocytopenia is relevant to any thrombosis use.
+- **Drug Interactions**: 100 interactions were identified. The only **Major** interaction among those displayed is with **bupropion**. **Moderate** interactions include:
+  - H2 blockers and proton-pump inhibitors: famotidine, ranitidine, cimetidine, omeprazole and rabeprazole
+  - Corticosteroids: hydrocortisone, dexamethasone, betamethasone, budesonide and triamcinolone
+  - Antibiotics: clarithromycin, doxycycline, tetracycline and minocycline
+  - Bowel-preparation agents and activated charcoal
+  
+  Ephedrine is a **Minor** interaction.
+- **Additional note**: Theophylline has a narrow therapeutic index and needs drug-level monitoring in its established uses.
 
-Please refer to the package insert for further safety information.
+Please refer to the package insert for key warnings and formal contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the TxGNN score. No trials exist, and the retrieved literature contains no data on theophylline in thrombosis. The two main mechanisms may oppose each other for platelet function.
+The prediction has a very high model score but no supporting trials or relevant studies. The mechanism is conflicting, since PDE inhibition may reduce platelet aggregation while adenosine antagonism may oppose it. Theophylline's narrow therapeutic index and extensive interactions add risk without any demonstrated benefit.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications, which block safety screening
-- Mechanism-of-action data from DrugBank
-- A targeted literature search on theophylline, platelet aggregation and thrombosis
-- Consideration of better-supported candidates in the same pack, namely nasal cavity disease (L2, a completed Phase 2 trial of nasal theophylline irrigation for post-viral olfactory dysfunction, n=27) and obstructive lung disease (L1, but this is the existing approved use and not true repurposing)
+- Mechanistic data on whether theophylline's net effect on platelet function is antithrombotic, such as in-vitro platelet aggregation studies
+- Preclinical or early clinical evidence testing theophylline against thrombosis
+- Detailed mechanism-of-action data and package-insert warnings and contraindications
+- A safety plan covering therapeutic drug monitoring, thrombocytopenia and interactions with antiplatelet or anticoagulant drugs
+
+Among the other predicted indications for theophylline, allergic rhinitis (a Phase 2 trial and a nasal challenge study) and obstructive lung disease have more supporting evidence. Obstructive lung disease overlaps the drug's existing uses, so it is not true repurposing. These may be better priorities for further evaluation.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

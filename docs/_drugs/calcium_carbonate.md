@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Calcium Carbonate
-parent: Low Evidence (L5)
-nav_order: 194
-evidence_level: L5
+parent: Medium Evidence (L3-L4)
+nav_order: 195
+evidence_level: L4
 indication_count: 10
 ---
 
 # Calcium Carbonate
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,100 +29,92 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Calcium carbonate: From Antacid to Calcium-Alkali Syndrome
+# Calcium Carbonate: From Hypercalcemia/Dyspepsia to Calcium-Alkali Syndrome
 
 ## One-Sentence Summary
 
-Calcium carbonate is a widely used antacid and calcium supplement. The Singapore products are all marketed as antacids, and the registration data give no approved indication text.
-The TxGNN model predicts a link to **calcium-alkali syndrome** with a high score (93.2%), but this condition is an **adverse effect of excess calcium carbonate intake**, not a treatable disease. The evidence (**1 clinical trial**, an unrelated drug-interaction study, and **16 publications**, mostly reviews and case reports of harm) does not support a therapeutic use. The score most likely reflects a "drug causes disease" association.
-
----
+Calcium carbonate is a widely used antacid and calcium supplement, originally linked to dyspepsia, hypercalcemia, nephrocalcinosis and phosphorus metabolism disorders.
+The TxGNN model's top prediction is **calcium-alkali syndrome**, but this is a **drug-induced harm** rather than a treatment opportunity. There are **no registered clinical trials** and **13 publications**, almost all reviews and case reports of toxicity.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Antacid (inferred from product names; approved indication text is not provided in the registration data) |
+| Original Indication | Dyspepsia (antacid use). The Singapore approved-indication text is not available in the data compiled for this report; the knowledge graph lists hypercalcemia disease, nephrocalcinosis, phosphorus metabolism disease and dyspepsia. |
 | Predicted New Indication | Calcium-alkali syndrome |
 | TxGNN Prediction Score | 93.16% |
-| Evidence Level | L4 (reviews and case reports of harm only; no therapeutic studies) |
+| Evidence Level | L4 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 8 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, calcium carbonate acts as an acid-neutralizing antacid and calcium source, and its use in acid-related symptoms is long established.
+Detailed mechanism of action data is not available. Based on known information, calcium carbonate is a calcium salt that neutralizes gastric acid and binds phosphate in the gut. Its efficacy as an antacid is established.
 
-Calcium-alkali syndrome (formerly milk-alkali syndrome) is the triad of hypercalcemia, metabolic alkalosis, and renal impairment. It is caused by ingesting large amounts of calcium carbonate, historically to treat peptic ulcer disease. A knowledge-graph model can score a strong link between a drug and a disease even when the drug causes that disease, and this appears to be the case here.
+The high TxGNN score for calcium-alkali syndrome most likely reflects a strong drug-disease association, not a therapeutic one. Calcium-alkali syndrome (hypercalcemia, metabolic alkalosis and renal impairment) is **caused** by excess intake of calcium carbonate and absorbable alkali. The literature describes harm from the drug. It does not show benefit. This should therefore not be treated as a repurposing opportunity.
 
-In short, the link is real but runs in the wrong direction for repurposing. The literature describes the syndrome as a risk of over-the-counter antacid and calcium supplement use, particularly in older adults, in pregnancy, and alongside thiazide diuretics. This is a safety signal to monitor, not a new indication.
-
----
+Other predictions were also reviewed:
+- **Gastroduodenitis, peptic ulcer disease, duodenogastric reflux:** Acid neutralization is mechanistically plausible, but these largely overlap with the existing antacid use. Modern acid suppression (PPIs, H. pylori eradication) has displaced antacids, and no trials are registered. Gastroduodenitis and peptic ulcer disease are best framed as research questions.
+- **Hyperlipidemia:** Small, older studies suggest a modest cholesterol-lowering effect (for example PMID 1456855), but many involve clofibrate combinations, and the effect is small compared with standard therapy.
+- **Hypophosphatemia, digitalis poisoning:** The mechanism points the wrong way. Calcium carbonate binds phosphate and may worsen hypophosphatemia, and calcium can aggravate arrhythmias in digitalis toxicity.
+- **Primary bone dysplasia, gout, potassium deficiency:** No credible mechanistic link or supporting evidence.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT01622673](https://clinicaltrials.gov/study/NCT01622673) | Phase 1 | Completed | 27 | Effect of calcium carbonate and magnesium/aluminum hydroxide antacids on raltegravir pharmacokinetics in HIV-infected participants. A drug-interaction study that does not address calcium-alkali syndrome. |
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
+Selected publications for calcium-alkali syndrome (all describe harm caused by the drug):
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [33732556](https://pubmed.ncbi.nlm.nih.gov/33732556/) | 2021 | Review | Cureus | Historical review and update of calcium-alkali syndrome. Incidence fell after H2 blockers and PPIs but has re-emerged with calcium supplement use. |
-| [26260640](https://pubmed.ncbi.nlm.nih.gov/26260640/) | 2015 | Review | The Consultant Pharmacist | Guidance for pharmacists on identifying at-risk geriatric patients and on prevention and monitoring. |
-| [23543983](https://pubmed.ncbi.nlm.nih.gov/23543983/) | 2013 | Review | Proc (Baylor Univ Med Cent) | Milk-alkali syndrome has evolved into calcium-alkali syndrome, now a common cause of hypercalcemia and alkalosis. |
-| [38784190](https://pubmed.ncbi.nlm.nih.gov/38784190/) | 2024 | Case report | Obstetric Medicine | Severe hypercalcemia needing dialysis in an early twin pregnancy after calcium carbonate use for reflux and nausea. |
-| [41444901](https://pubmed.ncbi.nlm.nih.gov/41444901/) | 2025 | Case report | Annals of General Psychiatry | Over-the-counter calcium carbonate overdose causing milk-alkali syndrome in a psychiatric patient. |
-| [36712775](https://pubmed.ncbi.nlm.nih.gov/36712775/) | 2022 | Case report | Cureus | Hypercalcemic crisis associated with calcium carbonate (Tums). |
-| [33842126](https://pubmed.ncbi.nlm.nih.gov/33842126/) | 2021 | Case report | Cureus | Acute kidney injury from overconsumption of calcium carbonate, treated with hemodialysis. |
-| [25874082](https://pubmed.ncbi.nlm.nih.gov/25874082/) | 2012 | Case report | Clinical Kidney Journal | Hypercalcemic crisis in an elderly man on calcium supplements, facilitated by a thiazide diuretic and an ACE inhibitor. |
-| [32675162](https://pubmed.ncbi.nlm.nih.gov/32675162/) | 2020 | Case report | Clinical Medicine (London) | Severe hypercalcaemia, staghorn calculus and renal impairment from long-term over-the-counter calcium carbonate antacids. |
-| [38404648](https://pubmed.ncbi.nlm.nih.gov/38404648/) | 2024 | Case report | Case Reports in Endocrinology | Severe hypercalcemia from calcium-alkali syndrome in a patient with postoperative hypoparathyroidism on calcium carbonate and calcitriol. |
-
----
+| [23543983](https://pubmed.ncbi.nlm.nih.gov/23543983/) | 2013 | Review | Proc (Baylor Univ Med Cent) | Calcium-alkali syndrome has re-emerged as a common cause of hypercalcemia and alkalosis |
+| [33732556](https://pubmed.ncbi.nlm.nih.gov/33732556/) | 2021 | Review | Cureus | Historical and pathophysiological update; linked to high calcium carbonate intake |
+| [33178509](https://pubmed.ncbi.nlm.nih.gov/33178509/) | 2020 | Review | Cureus | Calcium-alkali syndrome is the third most common cause of hypercalcemia; thiazide association |
+| [26260640](https://pubmed.ncbi.nlm.nih.gov/26260640/) | 2015 | Review | Consult Pharm | Guidance for identifying, monitoring and preventing the syndrome in elderly patients |
+| [36712775](https://pubmed.ncbi.nlm.nih.gov/36712775/) | 2022 | Case report | Cureus | Hypercalcemic crisis associated with calcium carbonate (Tums) |
+| [38784190](https://pubmed.ncbi.nlm.nih.gov/38784190/) | 2024 | Case report | Obstetric Medicine | Severe hypercalcemia requiring dialysis in early twin pregnancy |
+| [33842126](https://pubmed.ncbi.nlm.nih.gov/33842126/) | 2021 | Case report | Cureus | Acute kidney injury from calcium carbonate overuse treated with hemodialysis |
+| [41444901](https://pubmed.ncbi.nlm.nih.gov/41444901/) | 2025 | Case report | Ann Gen Psychiatry | Over-the-counter calcium carbonate overdose causing the syndrome in a psychiatric patient |
+| [25874082](https://pubmed.ncbi.nlm.nih.gov/25874082/) | 2012 | Case report | Clin Kidney J | Hypercalcemic crisis with thiazide and ACE inhibitor, requiring hemodialysis |
+| [32675162](https://pubmed.ncbi.nlm.nih.gov/32675162/) | 2020 | Clinical lesson | Clin Med (London) | Over-the-counter antacids causing hypercalcemia, staghorn calculus and renal impairment |
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN05820P | OHTA'S ISAN ANTACID POWDER | Powder | Not stated in registration data |
-| SIN08733P | RENNIE TABLET | Tablet | Not stated in registration data |
-| SIN14016P | GAVISCON DOUBLE ACTION LIQUID, SUSPENSION | Suspension | Not stated in registration data |
-| SIN13738P | GAVISCON LIQUID SACHETS | Suspension | Not stated in registration data |
-| SIN13947P | GAVISCON PEPPERMINT TABLETS | Tablet, chewable | Not stated in registration data |
+| SIN05820P | OHTA'S ISAN ANTACID POWDER | Powder | Not stated |
+| SIN08733P | RENNIE TABLET | Tablet | Not stated |
+| SIN14016P | GAVISCON DOUBLE ACTION LIQUID, SUSPENSION | Suspension | Not stated |
+| SIN13738P | GAVISCON LIQUID SACHETS | Suspension | Not stated |
+| SIN13947P | GAVISCON PEPPERMINT TABLETS | Chewable tablet | Not stated |
 
-Eight registrations exist in total; five are shown.
-
----
+Three further single-ingredient registrations (SIN14194P, SIN09494P, SIN16041P) are also valid, for 8 in total.
 
 ## Safety Considerations
 
-Package insert warnings and contraindications were not available. The points below come from the retrieved literature only.
+- **Key risk (from the literature):** Excess intake can cause calcium-alkali syndrome (hypercalcemia, metabolic alkalosis, acute kidney injury), including hypercalcemic crisis requiring dialysis. Risk is higher in elderly patients, in pregnancy, and with concurrent thiazide diuretics or ACE inhibitors. Acid rebound has also been discussed for calcium-based antacids.
+- **Drug Interactions:** 100 interactions were identified. Main ones include:
+  - **Major:** Dolutegravir
+  - **Moderate:** Doxycycline, alendronic acid, risedronic acid, hydrochlorothiazide, nifedipine, amlodipine, atenolol, acetylsalicylic acid, atazanavir, acalabrutinib, acebutolol, amphetamine, proguanil, atropine
+  - **Minor:** Famotidine, ranitidine, hydrocortisone, triamcinolone, alprazolam
 
-- **Hypercalcemia risk with excess intake**: High or prolonged calcium carbonate intake is linked to calcium-alkali syndrome (hypercalcemia, metabolic alkalosis, acute kidney injury). Reported at-risk groups include older adults, pregnant women, and patients with hypoparathyroidism.
-- **Drug interactions**: Case reports describe higher hypercalcemia risk alongside thiazide diuretics and ACE inhibitors. A Phase 1 study examined the effect of calcium carbonate antacids on raltegravir pharmacokinetics.
-
-Please refer to the package insert for complete safety information.
-
----
+Please refer to the package insert for label warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The predicted indication is an adverse effect of the drug, not a treatable condition, and no study supports therapeutic use. The high TxGNN score should not be read as repurposing potential.
+The top-ranked prediction, calcium-alkali syndrome, is an adverse effect of calcium carbonate, not a therapeutic target. No registered trials support any predicted indication. The most plausible candidates (gastroduodenitis, peptic ulcer disease) largely duplicate the existing antacid use.
 
 **To proceed, the following is needed:**
-- Reclassify this prediction as a safety signal for pharmacovigilance and patient counselling, not as a repurposing candidate.
-- Package insert warnings and contraindications from the HSA, and mechanism of action data.
-- Separately review other predictions with L3 evidence, namely gastroduodenitis, hyperlipidemia, and peptic ulcer disease. Gastroduodenitis and peptic ulcer overlap with existing antacid use. Hyperlipidemia has small older studies, and its trials were nutrition studies that cannot be attributed to calcium carbonate.
+- Package insert warnings and contraindications from HSA, which are blocking for safety screening
+- Mechanism of action data
+- If pursuing gastric indications, a defined adjunctive symptomatic use with dose limits and hypercalcemia monitoring guardrails
+- Controlled studies, as no trial evidence currently exists for any predicted indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

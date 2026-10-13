@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Dexketoprofen
-parent: Medium Evidence (L3-L4)
-nav_order: 318
-evidence_level: L4
+parent: Low Evidence (L5)
+nav_order: 321
+evidence_level: L5
 indication_count: 10
 ---
 
 # Dexketoprofen
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,28 +29,31 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Dexketoprofen: From Its Current NSAID Use to Tendinitis
+# Dexketoprofen: From Acute Pain to Tendinitis
 
 ## One-Sentence Summary
 
-Dexketoprofen is a nonsteroidal anti-inflammatory drug (NSAID) that is marketed in Singapore as an oral tablet. The TxGNN model predicts it may be effective for **tendinitis**, but only **0 clinical trials** and **1 indirect publication** support this direction, so it remains a research question.
+Dexketoprofen is a non-steroidal anti-inflammatory drug (NSAID) generally used for short-term relief of mild to moderate acute pain.
+The TxGNN model predicts it may be effective for **tendinitis**, but there are **0 clinical trials** and only **1 indirect publication** (a study of general musculoskeletal pain) supporting this specific direction.
+Note that the same model output shows much stronger evidence for **migraine** (see the conclusion).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Not stated in the Singapore registration record; generally used for acute mild to moderate pain |
 | Predicted New Indication | Tendinitis |
 | TxGNN Prediction Score | 99.90% |
-| Evidence Level | L4 |
+| Evidence Level | L5 (no tendinitis-specific study; one indirect study in related musculoskeletal pain) |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available in the record. Dexketoprofen is the active S(+) enantiomer of ketoprofen, and as an NSAID it inhibits cyclooxygenase (COX). This reduces prostaglandin-driven inflammation and pain.
+Currently, detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, dexketoprofen is the active S-(+) form of ketoprofen and acts as a non-selective COX-1/COX-2 inhibitor. Its efficacy in acute pain is established, and mechanistically it may be applicable to tendinitis.
 
-Tendinitis is an inflammatory, painful tendon condition, and NSAIDs are commonly used for musculoskeletal pain, so the prediction is mechanistically plausible. However, the only study found addresses non-traumatic musculoskeletal pain in general, not tendinitis specifically. The support is therefore indirect, and the high graph score has not been confirmed by tendon-specific clinical data.
+Prostaglandin-driven inflammation and pain are involved in tendon disorders, so an NSAID is a plausible treatment. However, the only supporting paper is an emergency department trial in non-traumatic musculoskeletal pain in general, where tendinitis is mentioned as one possible cause. The link to tendinitis is therefore indirect and unproven.
 
 ## Clinical Trial Evidence
 
@@ -60,36 +63,32 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [30744914](https://pubmed.ncbi.nlm.nih.gov/30744914/) | 2019 | RCT (indirect) | The American Journal of Emergency Medicine | Compared intravenous dexketoprofen with paracetamol for non-traumatic musculoskeletal pain in the emergency department. Tendinitis is named only as one possible cause of such pain. The retrieved abstract does not report results. |
+| [30744914](https://pubmed.ncbi.nlm.nih.gov/30744914/) | 2019 | RCT | Am J Emerg Med | Compared IV dexketoprofen with paracetamol for non-traumatic musculoskeletal pain in the emergency department. Tendinitis is cited as one possible cause, but the study is not specific to tendinitis. |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN12650P | KETESSE TABLET 25 mg | Tablet, film coated |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN12650P | KETESSE TABLET 25 mg | Film-coated tablet (oral) | Not stated in the registration record |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
-
-As a general NSAID class caution, gastrointestinal, cardiovascular and renal risks should be screened before any use.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high, but no tendinitis-specific trial exists, and the single retrieved study is an indirect RCT in general musculoskeletal pain. The evidence does not yet justify moving forward.
+For tendinitis, support is limited to a model prediction plus one indirect study in general musculoskeletal pain, with no tendinitis-specific trials. This is a research question, not a ready candidate.
 
 **To proceed, the following is needed:**
-- The HSA package insert, to review warnings, contraindications and the approved indication
-- Detailed mechanism of action data (MOA), for example from DrugBank
-- Tendinitis-specific clinical evidence, such as a randomized trial in tendon pain
-- Confirmation of local labeling and regulatory status before any use
+- Tendinitis-specific clinical studies, such as an RCT of oral dexketoprofen against another NSAID or placebo
+- Mechanism of action (MOA) data
+- The registered indication text and safety information (warnings, contraindications) from the HSA package insert
+- Confirmation of route and formulation. The only registered product in Singapore is an oral tablet, while the supporting study used an intravenous form.
 
-**Note:** In the same prediction list, **migraine disorder** has much stronger support (7 clinical trials, including a placebo-controlled Phase 4 trial, plus a meta-analysis of RCTs). It is worth evaluating as a separate candidate.
-
-*This report is for research reference only and does not constitute medical advice. Predicted candidates require clinical validation before any application.*
+**Note on a better-supported candidate:** Among the other predictions for this drug, **migraine** has much stronger evidence: 5 clinical trials (mostly Phase 4, in emergency department acute migraine, including a placebo-controlled trial of 224 patients), a meta-analysis of randomized trials, and several RCTs. This is rated L1 and **Proceed with Guardrails**. Headache disorder also rates L1, but its supporting trials are almost all in migraine. Evaluating migraine first is recommended. Fibromyalgia, rheumatoid arthritis, myositis fibrosa, idiopathic granulomatous myositis, exostosis and congenital hypotrichosis milia are model predictions only (L5) and should stay on Hold.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

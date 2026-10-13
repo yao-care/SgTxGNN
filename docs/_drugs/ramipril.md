@@ -2,7 +2,7 @@
 layout: default
 title: Ramipril
 parent: Low Evidence (L5)
-nav_order: 841
+nav_order: 850
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,31 +29,34 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ramipril: From a Marketed ACE Inhibitor to Pulmonary Hypertension (Unclear Multifactorial Mechanism)
+# Ramipril: From Hypertension to Pulmonary Hypertension (Owing to Lung Disease and/or Hypoxia)
 
 ## One-Sentence Summary
 
-Ramipril is an angiotensin-converting enzyme (ACE) inhibitor marketed in Singapore under 5 registrations. The package data do not list its approved indications.
-The TxGNN model predicts it may be effective for **pulmonary hypertension with unclear multifactorial mechanism**, but there are **0 clinical trials** and **0 publications** supporting this direction. This is a model prediction only.
+Ramipril is an ACE inhibitor originally used for hypertension and stroke-related conditions.
+The TxGNN model ranks **pulmonary hypertension** as its top predicted new use. Rank 1 is the unspecified-mechanism form, and the form owing to lung disease and/or hypoxia is rank 2, which is the one with literature. Currently there are **0 clinical trials**, and the closest literature is **1 directly relevant animal study** among 11 retrieved publications.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Predicted New Indication | Pulmonary hypertension with unclear multifactorial mechanism |
+| Original Indication | Hypertensive disorder / hypertension, stroke disorder, cerebrovascular disorder, cerebral infarction (the Singapore licence records contain no indication text, so these come from the TxGNN knowledge graph) |
+| Predicted New Indication | Pulmonary hypertension with unclear multifactorial mechanism (rank 1); the best-supported related prediction is pulmonary hypertension owing to lung disease and/or hypoxia (rank 2) |
 | TxGNN Prediction Score | 99.93% |
-| Evidence Level | L5 |
+| Evidence Level | L5 for rank 1 (prediction only); L4 for rank 2 (preclinical) |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 5 |
-| Recommended Decision | Hold |
+| Recommended Decision | Hold (rank 1); Research Question (rank 2) |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the Evidence Pack. Ramipril belongs to the ACE inhibitor class, which acts on the renin-angiotensin-aldosterone system (RAAS). The approved indication text is also blank in all five Singapore registrations, so the relationship between the original and new indications cannot be assessed from this data.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, ramipril is an ACE inhibitor: it reduces angiotensin II formation, which lowers vascular tone and limits vascular remodelling. This is the basis of its efficacy in hypertension and in stroke risk reduction.
 
-A RAAS-mediated effect on vascular remodeling is plausible for pulmonary hypertension. However, no trials or literature were retrieved to support it, and the similarity to the original indication is still pending. The mechanistic link is therefore speculative.
+The renin-angiotensin system also acts on the pulmonary circulation. Reduced angiotensin II signalling could plausibly lessen hypoxia-induced pulmonary vasoconstriction and vessel remodelling. The one directly relevant item is a 1996 rat study (PMID 9200213), in which ramipril given during three weeks of chronic hypoxia lowered baseline pulmonary perfusion pressure and attenuated the effects of hypoxia on pulmonary vessels.
 
-For context, the second-ranked prediction (pulmonary hypertension owing to lung disease and/or hypoxia) returned 20 papers. They are general hypoxia-biology reviews (brain aging, cancer, immunity) and none involves ramipril or pulmonary hypertension. That count is a keyword-matching artifact and should not be read as evidence.
+This remains a hypothesis. The rat study is the only direct support, there is no human data, and the other retrieved papers address cardiac, renal or unrelated topics.
+
+Other top predictions are mostly extensions of the existing indication, such as malignant renovascular hypertension, malignant hypertensive renal disease and brain stem infarction. They are mechanistically coherent but have no trials or literature in the compiled data. Some, such as Braddock syndrome and ABri amyloidosis, have no evident mechanistic rationale.
 
 ## Clinical Trial Evidence
 
@@ -61,43 +64,51 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+The table covers the rank 2 prediction (pulmonary hypertension owing to lung disease and/or hypoxia). Most items are indirect; no human studies for this indication were retrieved.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [9200213](https://pubmed.ncbi.nlm.nih.gov/9200213/) | 1996 | Preclinical (animal) | Physiological Research | Ramipril (10 mg/kg daily) in rats exposed to chronic hypoxia lowered baseline lung perfusion pressure and attenuated hypoxic pulmonary vascular effects |
+| [15671045](https://pubmed.ncbi.nlm.nih.gov/15671045/) | 2005 | Preclinical / human tissue | European Heart Journal | ACE2 expression increases after myocardial infarction in rats and in human failing hearts (indirect) |
+| [12069940](https://pubmed.ncbi.nlm.nih.gov/12069940/) | 2002 | Preclinical (transgenic rat) | Am J Physiol Regul Integr Comp Physiol | Cardiac contractility during hypoxia-reoxygenation in renin-angiotensinogen transgenic rats (indirect) |
+| [19380417](https://pubmed.ncbi.nlm.nih.gov/19380417/) | 2009 | Preclinical | Cardiovascular Research | ACE inhibition upregulates endothelial progenitor cells in cardiac pressure overload (indirect) |
+| [24907870](https://pubmed.ncbi.nlm.nih.gov/24907870/) | 2014 | Preclinical | Basic Research in Cardiology | sGC activation after myocardial infarction compared with ACE inhibition (indirect) |
+| [18464162](https://pubmed.ncbi.nlm.nih.gov/18464162/) | 2008 | Preclinical | Microcirculation | Ramipril or valsartan reduces peritubular capillary loss (renal; indirect) |
+| [32822951](https://pubmed.ncbi.nlm.nih.gov/32822951/) | 2020 | Preclinical | World Neurosurgery | Ramipril versus bevacizumab for radiation-induced brain necrosis (off-topic) |
+
+The remaining retrieved papers (an etomidate case report in Cushing's disease, a toxoplasmosis case report, a retinal microangiopathy case and others) are not relevant to this indication.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN09592P | TRITACE 5 TABLET 5 mg | Tablet | SANOFI S.r.l. |
-| SIN09591P | TRITACE 2.5 TABLET 2.5 mg | Tablet | SANOFI S.r.l. |
-| SIN15646P | TRINOMIA HARD CAPSULES 100mg/ 20mg/ 10mg | Capsule | Ferrer Internacional S.A. |
-| SIN15647P | TRINOMIA HARD CAPSULES 100mg/ 20mg/ 2.5mg | Capsule | Ferrer Internacional S.A. |
-| SIN15648P | TRINOMIA HARD CAPSULES 100mg/ 20mg/ 5mg | Capsule | Ferrer Internacional S.A. |
-
-All products are oral forms (tablet and capsule).
+| SIN09592P | TRITACE 5 TABLET 5 mg | Tablet | Not listed in the compiled data |
+| SIN09591P | TRITACE 2.5 TABLET 2.5 mg | Tablet | Not listed in the compiled data |
+| SIN15646P | TRINOMIA HARD CAPSULES 100mg/20mg/10mg | Capsule | Not listed in the compiled data |
+| SIN15647P | TRINOMIA HARD CAPSULES 100mg/20mg/2.5mg | Capsule | Not listed in the compiled data |
+| SIN15648P | TRINOMIA HARD CAPSULES 100mg/20mg/5mg | Capsule | Not listed in the compiled data |
 
 ## Safety Considerations
 
-- **Drug Interactions**: No interaction records were found in the queried source.
+- **Contraindication signals from the knowledge graph** (not label text): kidney disease, liver disease, gallbladder disease, systemic lupus erythematosus (including paediatric), neutropenia, agranulocytosis, hereditary angioedema, hypotensive disorder, connective tissue disease, scleroderma and systemic sclerosis, bone and cartilage disease, renal artery obstruction, and pyoureter.
+- **Drug interactions**: 100 interactions were recorded. The most important are two **Major** interactions, with **potassium citrate** and **potassium bicarbonate** (hyperkalaemia risk). Moderate interactions include corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide), aspirin, morphine, bupropion, and glucose-lowering drugs (metformin, glimepiride, chlorpropamide, alogliptin, and the SGLT2 inhibitors canagliflozin, dapagliflozin, empagliflozin).
+- **Relevance to the predicted indications**: ACE inhibitors carry a risk of acute renal function decline in bilateral renal artery stenosis, which is directly relevant to the renovascular hypertension prediction.
 
-Please refer to the package insert for warnings and contraindications.
+Package insert warnings and contraindications were not available. Please refer to the package insert for full safety information.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Hold** (for pulmonary hypertension with unclear multifactorial mechanism; Research Question for pulmonary hypertension owing to lung disease and/or hypoxia)
 
 **Rationale:**
-The prediction score is high (99.93%), but there are no trials and no relevant publications, so the evidence level is L5. Package insert safety information is also missing, which blocks progression to safety screening.
-
-For reference, two other ramipril predictions have limited preclinical or indirect evidence (L4, "Research Question"): intracerebral hemorrhage and cerebral artery occlusion. The cerebral artery occlusion entry includes one completed Phase 2 trial (NCT00005928, n=25) on vascular inflammation and compliance. Neither involves pulmonary hypertension.
+The TxGNN score is very high (99.93%), but there are no clinical trials and the only directly relevant literature is a single 1996 rat study. Ramipril is already marketed in Singapore, which lowers access barriers, but the evidence does not yet justify clinical development. Predictions close to the existing hypertension or stroke indications (malignant renovascular hypertension, malignant hypertensive renal disease, brain stem infarction) are the most mechanistically coherent, but they also lack supporting studies.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications (blocking gap)
-- Mechanism of action data (e.g., from DrugBank)
-- Approved indication text for the Singapore registrations
-- A targeted search for ramipril or ACE inhibitor studies specific to pulmonary hypertension
-- Evidence of a pulmonary-vascular mechanistic link, and a route-compatibility assessment
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Package insert warnings and contraindications from the HSA (currently a blocking gap for safety screening)
+- Detailed mechanism of action data from DrugBank
+- Confirmation of approved indications for each Singapore licence
+- Human or confirmatory preclinical evidence in pulmonary hypertension, such as a systematic literature search and a pilot study
+- A renal and potassium monitoring plan, given the knowledge-graph contraindication signals and the major potassium interactions
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

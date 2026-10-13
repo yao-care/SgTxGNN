@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ethambutol
-parent: Low Evidence (L5)
-nav_order: 402
-evidence_level: L5
+parent: Medium Evidence (L3-L4)
+nav_order: 406
+evidence_level: L4
 indication_count: 10
 ---
 
 # Ethambutol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,82 +29,73 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ethambutol: From Tuberculosis to Epiglottitis
+# Ethambutol: From Pulmonary Tuberculosis to Epiglottitis
 
 ## One-Sentence Summary
 
-Ethambutol is an anti-tuberculosis drug that acts on the mycobacterial cell wall. The TxGNN model predicts it may be effective for **epiglottitis**, but no clinical trials support this, and only **2 publications** touch on it, both about laryngeal tuberculosis rather than classic epiglottitis. The evidence is weak and indirect.
-
----
+Ethambutol is an anti-tuberculosis drug originally used to treat pulmonary tuberculosis.
+The TxGNN model predicts it may be effective for **epiglottitis**, but there are currently **0 clinical trials** and only **1 publication** (a case series on laryngeal tuberculosis), so the supporting evidence is very weak.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Tuberculosis (the Singapore registration records provide no indication text, so this is based on the drug's known use) |
+| Original Indication | Pulmonary tuberculosis |
 | Predicted New Indication | Epiglottitis |
 | TxGNN Prediction Score | 99.90% |
-| Evidence Level | L4 (indirect literature only; no trials) |
+| Evidence Level | L4 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 2 |
 | Recommended Decision | Hold |
 
----
+*Note: The registered Singapore product labels in the data compiled for this report have no approved-indication text. The original indication is therefore taken from the drug's knowledge-graph indication record (pulmonary tuberculosis).*
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the input record. Ethambutol is known to inhibit mycobacterial arabinosyltransferase (EmbB), which blocks arabinogalactan synthesis in the mycobacterial cell wall. It is active only against mycobacteria and is a standard component of multidrug TB regimens.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Ethambutol is a well-established anti-mycobacterial agent. Its efficacy in pulmonary tuberculosis is proven, and it is generally understood to act on mycobacterial cell wall synthesis (arabinosyl transferase inhibition).
 
-Classic epiglottitis is usually caused by *Haemophilus influenzae* or other bacteria, which ethambutol does not act on. The mechanism therefore does not support this prediction.
+The only retrieved paper describes laryngeal tuberculosis. In that series, the epiglottis was one of the affected sites, and patients were treated with multi-drug anti-TB regimens that included ethambutol. This is the existing anti-TB indication applied to a specific anatomical site, not a genuine repurposing signal. Epiglottitis is typically bacterial (for example, *Haemophilus influenzae*), and ethambutol has no known activity against these organisms. The high TxGNN score most likely reflects a graph association between tuberculosis and the upper airway.
 
-The high score most likely reflects a knowledge-graph link between TB and laryngeal sites. Laryngeal TB can involve the epiglottis, and one case series (41 patients) lists the epiglottis as the second most frequently affected site. That describes tuberculous laryngitis, not epiglottitis in the usual sense. At best, the prediction could apply to epiglottic involvement in laryngeal TB, which is an extension of an existing TB use rather than a new mechanism.
-
----
+Other top-ranked predictions show the same pattern. Laryngitis, peritonitis, endocarditis and middle ear disease are supported only by reports of tuberculous or other mycobacterial involvement. Meningococcal infection, infectious otitis media, endocardial fibroelastosis, middle ear cholesterol granuloma and otosalpingitis are prediction-only, with no literature.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [2806495](https://pubmed.ncbi.nlm.nih.gov/2806495/) | 1989 | Retrospective case series | Eur Respir J | 41 laryngeal TB cases (1975-1985), all with current or prior pulmonary TB. The epiglottis was the second most common site after the true vocal cords. Patients were usually treated with isoniazid, rifampicin and ethambutol. |
-| [14720571](https://pubmed.ncbi.nlm.nih.gov/14720571/) | 2004 | Review | Lancet Infect Dis | Review of laryngeal tuberculosis. No abstract is available, so the details of its findings could not be summarised. |
-
----
+| [2806495](https://pubmed.ncbi.nlm.nih.gov/2806495/) | 1989 | Case series | European Respiratory Journal | 41 cases of laryngeal tuberculosis. All had current or earlier pulmonary TB. The epiglottis was the second most frequently affected site after the true vocal cords. Patients were usually treated with isoniazid, rifampicin and ethambutol. |
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN03004P | EBUTOL-100 Tablet 100 mg (Sunward Pharmaceutical) | Tablet, film coated | — |
-| SIN03005P | EBUTOL-400 Tablet 400 mg (Sunward Pharmaceutical) | Tablet, film coated | — |
+| SIN03004P | EBUTOL-100 TABLET 100 mg | Film-coated tablet | Not stated in available data |
+| SIN03005P | EBUTOL-400 TABLET 400 mg | Film-coated tablet | Not stated in available data |
 
-Both products are oral tablets. The registration records provide no approved-indication text.
-
----
+Both products are single-ingredient, currently valid, oral tablets made by Sunward Pharmaceutical Private Limited.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease associations from the knowledge graph** (not label text): the drug is linked to kidney disease, pyoureter, gout, diabetic retinopathy, diabetic cataract and optic neuritis. These should be checked against the package insert, since ethambutol is known to affect the optic nerve.
+- **Drug Interactions**: 100 interactions were recorded. Moderate-level ones include metronidazole, picosulfuric acid, naltrexone, rosuvastatin, simvastatin, tinidazole and aluminium hydroxide. Other interactions are of unknown severity, including proton pump inhibitors (omeprazole, pantoprazole, lansoprazole), corticosteroids (prednisone, prednisolone, hydrocortisone), morphine, vancomycin, sulfasalazine, ranitidine, clotrimazole, nystatin and potassium chloride.
 
----
+Please refer to the package insert for the full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There are no clinical trials, and the only literature concerns tuberculous involvement of the larynx, not bacterial epiglottitis, where ethambutol has no activity. The high TxGNN score is likely a knowledge-graph artifact. Other predictions for this drug (for example tubercular laryngitis and tuberculous peritonitis) have more literature (L3), but that evidence is still case-based and combination-therapy-dependent.
+Epiglottitis has no registered trials and only one case series, which concerns tuberculous laryngeal disease where ethambutol is part of standard anti-TB therapy. The mechanism does not plausibly extend to typical bacterial epiglottitis, and the high score is likely a graph artifact. This is not a repurposing opportunity.
 
 **To proceed, the following is needed:**
-- Clarify whether the target is classic epiglottitis (not supported) or tuberculous epiglottic/laryngeal involvement (an extension of the existing TB use)
-- Obtain the HSA package insert to confirm the approved indications, warnings and contraindications (this blocks safety screening)
-- Obtain confirmed mechanism of action data from DrugBank
-- Review the full text of the laryngeal TB literature to assess the contribution of ethambutol within multidrug regimens
+- Package insert warnings and contraindications from the HSA, which are currently missing and block safety screening
+- Confirmed mechanism of action data
+- Evidence that ethambutol has activity in a non-tuberculous form of epiglottitis, or a narrower focus on tuberculous laryngeal and epiglottic disease, which falls under the existing anti-TB indication
+- A review of the other predicted indications for any with genuine non-TB evidence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

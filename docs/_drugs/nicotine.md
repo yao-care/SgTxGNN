@@ -2,7 +2,7 @@
 layout: default
 title: Nicotine
 parent: Low Evidence (L5)
-nav_order: 703
+nav_order: 711
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,17 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Nicotine: From Nicotine Replacement Therapy to Exercise-Induced Malignant Hyperthermia
+# Nicotine: From Nicotine Dependence to Exercise-Induced Malignant Hyperthermia
 
 ## One-Sentence Summary
 
-Nicotine is marketed in Singapore as nicotine-replacement products (lozenge, spray, patch, chewing gum). The TxGNN model predicts it may be effective for **exercise-induced malignant hyperthermia**, but **no clinical trials and no publications** support this link. The prediction rests on the model score alone.
+Nicotine is used in nicotine replacement therapy and is originally indicated for nicotine dependence (the knowledge graph also lists pellagra and beriberi).
+The TxGNN model predicts it may be effective for **exercise-induced malignant hyperthermia**, but **no clinical trials and no publications** support this prediction.
+It is a model-only prediction and does not appear to be biologically plausible.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the licence records; the registered products are nicotine-replacement forms |
+| Original Indication | Nicotine dependence (per the knowledge graph; the Singapore licence records contain no indication text) |
 | Predicted New Indication | Exercise-induced malignant hyperthermia |
 | TxGNN Prediction Score | 83.91% |
 | Evidence Level | L5 |
@@ -49,9 +51,11 @@ Nicotine is marketed in Singapore as nicotine-replacement products (lozenge, spr
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, nicotine is a nicotinic acetylcholine receptor (nAChR) agonist. Mechanistically, it could in theory affect neuromuscular signalling.
+Currently, detailed mechanism of action data is not available. Based on known information, nicotine is an agonist of nicotinic acetylcholine receptors, and its efficacy in nicotine dependence (as replacement therapy) is established. Mechanistically, it is not clear that it applies to exercise-induced malignant hyperthermia.
 
-Exercise-induced malignant hyperthermia is a disorder of calcium handling in skeletal muscle, typically involving the ryanodine receptor. The evidence pack contains no data linking nicotine to this pathway, so the mechanistic link is unsupported. The model score (rank 39,900 overall) reflects a knowledge-graph association, not independent evidence.
+Malignant hyperthermia involves dysregulated calcium release through ryanodine receptors in skeletal muscle. Nicotine acts on nicotinic receptors at the neuromuscular junction and activates the sympathetic system, so it is more likely to be a risk than a benefit in this condition. The model score appears to reflect graph-based inference rather than a therapeutic link supported by data.
+
+For context, the other predictions were reviewed. Only **blepharospasm** (rank 5) has direct human studies: two small pilot studies of nicotine nasal spray. They gave mixed results that lean negative, and botulinum toxin remains the standard of care. Predictions for migraine, oppositional defiant disorder, communication disorder and developmental mental health disorder rest mainly on epidemiologic literature that treats nicotine or smoking as a risk factor, not a treatment.
 
 ## Clinical Trial Evidence
 
@@ -63,37 +67,36 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-Of 10 registrations, the 5 main ones are listed below. The approved-indication text is blank in all of these records.
-
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN11732P | Nicotinell Mint Lozenge 1 mg | Lozenge | Swissco Services AG |
-| SIN16567P | Nicorette QuickMist Mouthspray 1 mg/spray | Spray | McNeil AB |
-| SIN14296P | Nicorette Invisi Transdermal Patch 25 mg/16 hours | Extended-release patch | LTS Lohmann Therapie-Systeme AG |
-| SIN06529P | Nicotinell TTS 30 Transdermal Therapeutic System 21 mg/24 hrs | Patch | LTS Lohmann Therapie-Systeme AG |
-| SIN12570P | Nicotinell Mint 4 mg Chewing Gum | Chewing gum | Fertin Pharma A/S |
+| SIN11732P | NICOTINELL MINT LOZENGE 1 mg | Lozenge | Not stated |
+| SIN16567P | NICORETTE QUICKMIST MOUTHSPRAY 1MG/SPRAY | Spray | Not stated |
+| SIN14296P | Nicorette Invisi Transdermal Patch 25mg/16 hours | Extended-release patch | Not stated |
+| SIN06529P | NICOTINELL TTS 30 TRANSDERMAL THERAPEUTIC SYSTEM 21 mg/24 hrs | Patch | Not stated |
+| SIN12570P | NICOTINELL MINT 4MG CHEWING GUM | Chewing gum | Not stated |
+
+Ten valid single-ingredient licences are registered in total; the five above are shown.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications flagged in the knowledge graph** (not taken from label text): cardiovascular disease (coronary artery disease, acute coronary syndrome, myocardial infarction, Prinzmetal angina), phaeochromocytoma and related adrenal/paraganglioma tumours, hyperthyroidism and Graves disease, diabetes mellitus and diabetic ketoacidosis, hyperglycaemia, peptic ulcer disease, liver disease, gallbladder disease, thrombocytopenia, blood coagulation disease, hypotensive disorders, gout, hemoglobinopathy, and substance abuse/dependence.
+- **Drug Interactions**: 100 interactions were found. The notable one is **bupropion** (Moderate). Several H2 blockers are Minor: famotidine, ranitidine, cimetidine and nizatidine. Other listed interactions (for example pantoprazole, omeprazole, metformin, glimepiride, morphine and prednisone) have no severity grading.
+- **Theoretical concern for this prediction**: nicotine's sympathetic activation and depolarising effect on neuromuscular receptors could worsen a hypermetabolic muscle crisis.
+
+For package insert warnings, please refer to the product label.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no trial or literature support (L5), and no plausible mechanism is documented for this condition. The package-insert safety review is also incomplete, which the evidence pack flags as a blocking data gap.
-
-Among the other nine predictions in the pack, blepharospasm (rank 5) is the only one with direct human data. It rests on two small pilot studies of nicotine nasal spray from 1996 and 1998. The later study concluded that the spray is not a reliable treatment, so this signal is inconsistent. The migraine, oppositional defiant disorder, communication disorder and developmental disorder predictions are supported only by literature on smoking, nicotine exposure or addiction, which shows association or risk rather than benefit.
+The prediction has only a model score (83.9%), with no trials or publications. The known pharmacology suggests potential harm rather than benefit in malignant hyperthermia.
 
 **To proceed, the following is needed:**
-- HSA package-insert warnings and contraindications (blocking)
-- Mechanism of action data from DrugBank, and a documented link to calcium handling or ryanodine receptor biology
-- Any preclinical or clinical study of nicotine in exercise-induced malignant hyperthermia
-- Route and formulation compatibility assessment
-- Safety review before any new-indication work
-
-*This report is for research reference only and does not constitute medical advice. Predicted indications require clinical validation before any application.*
+- Mechanism of action data and a documented biological rationale linking nicotine to ryanodine receptor or calcium dysregulation
+- Preclinical evidence (for example muscle or animal models) showing benefit rather than a trigger effect
+- Package insert warnings and contraindications from the Singapore regulator
+- If a different indication is preferred, consider re-evaluating blepharospasm (the only prediction with direct human data) as a research question, noting that its evidence is old, small and leans negative
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Rocuronium
 parent: Low Evidence (L5)
-nav_order: 871
+nav_order: 880
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,21 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Rocuronium: From Neuromuscular Blockade in Anesthesia to Migraine Disorder
+# Rocuronium: From Neuromuscular Blockade in Anaesthesia to Migraine Disorder
 
 ## One-Sentence Summary
 
-Rocuronium is a non-depolarizing neuromuscular blocker given by injection, used as an adjunct in anesthesia.
-The TxGNN model predicts it may be effective for **migraine disorder**, but only **1 clinical trial** (unrelated to migraine efficacy) and **0 publications** are linked to this prediction.
-The prediction is model output only, and the evidence does not support it.
+Rocuronium is a non-depolarising neuromuscular blocker used as an anaesthetic adjunct (for example, to facilitate intubation and skeletal muscle relaxation during surgery).
+The TxGNN model predicts it may be effective for **migraine disorder**, but only **1 clinical trial** (an incidental, non-efficacy pharmacokinetics study) and **no directly relevant publications** are linked to this prediction.
+The evidence is essentially model prediction only, and the prediction is not supported mechanistically.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration records (rocuronium is generally used as a neuromuscular blocker in anesthesia) |
+| Original Indication | Not stated in the Singapore licence records (the approved indication text is empty) |
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 99.90% |
 | Evidence Level | L5 |
@@ -49,46 +51,75 @@ The prediction is model output only, and the evidence does not support it.
 | Number of Registrations | 4 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-It is not well supported. Detailed mechanism of action data is not available in the input. Rocuronium is known to block nicotinic acetylcholine receptors at the neuromuscular junction, causing skeletal muscle relaxation. It has no known action on migraine pathways such as CGRP, the trigeminovascular system, or cortical spreading depression.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, rocuronium is a non-depolarising neuromuscular blocker. It competitively antagonises nicotinic acetylcholine receptors at the neuromuscular junction, producing temporary skeletal muscle paralysis.
 
-Its original use (skeletal muscle paralysis during surgery) is pharmacologically unrelated to migraine, which is a neurovascular headache disorder. The very high TxGNN score (about 99.9%) is most likely an artifact of how the knowledge graph propagates scores, not a real therapeutic signal.
+The review of this prediction found **no credible mechanistic link** to migraine. Migraine involves CGRP signalling, trigeminovascular activation and cortical spreading depression, which are central and neurovascular processes. Peripheral muscle relaxation does not address them. The very high TxGNN score most likely reflects proximity in the knowledge graph rather than a pharmacological rationale.
+
+The other top predictions point the same way: related migraine subtypes, cauda equina syndrome, rare follicular skin disorders, irritable bowel syndrome and sciatic neuropathy. These are either inherited from the parent migraine node or have no plausible mechanism. This prediction should be treated as a probable knowledge-graph artefact.
+
+---
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01431326](https://clinicaltrials.gov/study/NCT01431326) | N/A | Completed | 3520 | Pharmacokinetics of understudied drugs given to children as standard of care. No migraine endpoint; relevance grade C. |
+| [NCT01431326](https://clinicaltrials.gov/study/NCT01431326) | N/A | Completed | 3520 | Pharmacokinetics of understudied drugs given to children as standard of care. It has no migraine-specific efficacy endpoint, and rocuronium appears only because of its use as an anaesthetic adjunct. Relevance grade: C. |
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available.
+No publications were found for the migraine prediction itself. The only literature comes from the related prediction "headache disorder", and it is contextual rather than supportive:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [23812022](https://pubmed.ncbi.nlm.nih.gov/23812022/) | 2014 | Clinical study | The Journal of ECT | Compared succinylcholine with rocuronium-sugammadex for myalgia and headache after electroconvulsive therapy. Headache is an adverse perioperative outcome here, not a treatment target. |
+| [24196089](https://pubmed.ncbi.nlm.nih.gov/24196089/) | 2013 | Case report | Pediatric Emergency Care | Rapid sequence intubation with propofol and remifentanil in a child with raised intracranial pressure. It is not related to headache treatment. |
+
+---
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN17025P | NOVERON SOLUTION FOR INJECTION 10MG/ML | Injection, solution | Not listed in record |
-| SIN15106P | ROCURONIUM KABI SOLUTION FOR INJECTION/INFUSION 10MG/ML | Injection, solution | Not listed in record |
-| SIN09479P | ESMERON INJECTION 50 mg/5ml | Injection | Not listed in record |
-| SIN15237P | ROCURONIUM-HAMELN INJECTION 10MG/ML | Injection, solution | Not listed in record |
+| SIN17025P | NOVERON SOLUTION FOR INJECTION 10MG/ML | Injection, solution | Not stated |
+| SIN15106P | ROCURONIUM KABI SOLUTION FOR INJECTION/INFUSION 10MG/ML | Injection, solution | Not stated |
+| SIN09479P | ESMERON INJECTION 50 mg/5ml | Injection | Not stated |
+| SIN15237P | ROCURONIUM-HAMELN INJECTION 10MG/ML | Injection, solution | Not stated |
+
+All four registrations are valid, single-ingredient injectable products.
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: 73 interactions were recorded. Examples from the data compiled for this report:
+  - **Major**: paromomycin, kanamycin, neomycin (aminoglycosides, which may potentiate neuromuscular blockade)
+  - **Moderate**: magnesium sulfate, magnesium chloride, vancomycin, amphotericin B, tetracyclines (doxycycline, minocycline, tetracycline), corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone, prednisone), mannitol, metoclopramide
+  - **Minor**: ranitidine
+
+Please refer to the package insert for warnings and contraindications.
+
+Rocuronium causes skeletal muscle paralysis, including the respiratory muscles. It is restricted to controlled settings with airway and ventilation support. Chronic or outpatient use for a condition such as migraine is not practical or safe.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The migraine prediction rests on model score alone, with no efficacy trials, no relevant literature, and no plausible mechanism. The other nine ranked predictions (for example migraine with brainstem aura, cauda equina syndrome, irritable bowel syndrome, and sciatic neuropathy) are also at L5 with no mechanistic rationale. Headache disorder has some anesthesia-related trials and publications, but headache appears there only as a perioperative side effect or secondary outcome, not as a treatment target.
+The prediction rests only on a high model score. There is no mechanistic link, no efficacy trial and no supporting literature for migraine. The only linked trial is a general pediatric pharmacokinetics study. The risk profile of a paralysing agent also makes migraine use unrealistic.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications, which are currently missing and block safety screening
-- Mechanism of action data from DrugBank, to allow a proper mechanistic-link assessment
-- Any preclinical or clinical evidence that neuromuscular blockade benefits migraine. Without it, this candidate should not advance.
+- A plausible mechanistic hypothesis connecting nicotinic receptor blockade to migraine pathophysiology
+- Preclinical or clinical efficacy data specific to migraine
+- Full mechanism of action data and package insert warnings and contraindications
+- Evaluation of safe routes and settings of administration, since the current use is limited to supervised anaesthesia
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

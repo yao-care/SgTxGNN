@@ -2,7 +2,7 @@
 layout: default
 title: Rabeprazole
 parent: Low Evidence (L5)
-nav_order: 837
+nav_order: 846
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,32 +29,32 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Rabeprazole: From Acid-Related Gastric Disorders to Smouldering Systemic Mastocytosis
+# Rabeprazole: From Peptic Ulcer Disease and Reflux Disease to Smouldering Systemic Mastocytosis
 
 ## One-Sentence Summary
 
-Rabeprazole is a proton pump inhibitor (PPI) used to suppress gastric acid. Its registered indication text is not recorded in the data supplied, so "acid-related gastric disorders" here is inferred from the drug class and the published literature.
-The TxGNN model predicts it may be useful in **Smouldering Systemic Mastocytosis**, but this rests on the model score alone, with **0 clinical trials** and **0 publications** retrieved.
+Rabeprazole is a proton pump inhibitor, originally used for peptic ulcer disease, gastroesophageal reflux disease and acid hypersecretory conditions such as Zollinger-Ellison syndrome.
+The TxGNN model predicts it may be useful for **Smouldering systemic mastocytosis**, but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the registration data (acid-related gastric disorders, inferred from drug class and literature) |
+| Original Indication | Peptic ulcer disease, gastroesophageal reflux disease, duodenal ulcer, Zollinger-Ellison syndrome (the Singapore licence records contain no indication text, so these come from the knowledge-graph indication list) |
 | Predicted New Indication | Smouldering systemic mastocytosis |
 | TxGNN Prediction Score | 99.44% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, rabeprazole belongs to the PPI class. Its efficacy in acid-related gastric disease is well established in the literature, and it may be applicable to mast-cell-driven acid-related symptoms.
+Detailed mechanism of action data is not available in the data compiled for this report. Rabeprazole belongs to the proton pump inhibitor class. These drugs block the gastric H+/K+-ATPase (the proton pump) and so reduce stomach acid. Their efficacy in acid-related disease is well established.
 
-The most plausible link is symptomatic. In systemic mastocytosis, mast cells release histamine, which can drive gastric acid hypersecretion. PPIs are used to control the resulting reflux, gastritis and ulcer symptoms. This would be supportive care, not treatment of the mastocytosis itself, and rabeprazole would not be expected to change the course of the disease.
+Systemic mastocytosis is already linked to rabeprazole through its acid hypersecretory uses. In this disease, mast cells release large amounts of histamine, which can drive excess stomach acid. The high TxGNN score most likely reflects this symptomatic link.
 
-The high score probably reflects how close the mastocytosis nodes sit to acid-related disease nodes in the knowledge graph, not any direct evidence. The same pattern appears for the neighbouring prediction, lymphadenopathic mastocytosis with eosinophilia (99.35%), which also has no supporting studies.
+Rabeprazole does not act on the underlying clonal mast-cell disease, such as KIT-driven proliferation. The data do not support any disease-modifying mechanism. At best, the drug would manage acid-related symptoms, not treat smouldering systemic mastocytosis itself.
 
 ## Clinical Trial Evidence
 
@@ -66,32 +66,42 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN14910P | Acilesol Gastro-Resistant Tablet 20mg | Tablet, enteric coated | Not listed in the data |
-| SIN15259P | Bepraz Gastro Resistant Tablets 20mg | Tablet, delayed release | Not listed in the data |
-| SIN15260P | Bepraz Gastro Resistant Tablets 10mg | Tablet, delayed release | Not listed in the data |
-| SIN14319P | Rabeprazole Sandoz Gastro Resistant Tablet 20mg | Tablet, enteric coated | Not listed in the data |
+All four licences are valid single-ingredient products, and none has been cancelled. The records contain no approved indication text.
 
-All four products are oral tablets.
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
+|---------|------|------|-----------|
+| SIN14910P | Acilesol Gastro-Resistant Tablet 20mg | Tablet, enteric coated | Balkanpharma Dupnitsa AD |
+| SIN15259P | Bepraz Gastro Resistant Tablets 20mg | Tablet, delayed release | Sun Pharmaceutical Industries Limited |
+| SIN15260P | Bepraz Gastro Resistant Tablets 10mg | Tablet, delayed release | Sun Pharmaceutical Industries Limited |
+| SIN14319P | Rabeprazole Sandoz Gastro Resistant Tablet 20mg | Tablet, enteric coated | Novartis Pharmaceutical Manufacturing LLC |
+
+All products are oral formulations.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Conditions flagged in the knowledge graph (not label text):** liver disease, gallbladder disease, osteoporosis, postmenopausal osteoporosis, bone fracture.
+- **Drug Interactions:** The interaction search returned 100 interactions in total.
+  - **Major:** acalabrutinib and atazanavir.
+  - **Moderate (examples):** amikacin, amphetamine, amphotericin B (several formulations), apalutamide, aprepitant, armodafinil, bosutinib, and thiazide diuretics such as bendroflumethiazide.
+  - **Minor (examples):** acetylsalicylic acid and axitinib.
+
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no trials or literature behind it, and the only mechanistic argument is symptomatic acid control. That would not be disease-modifying in smouldering systemic mastocytosis.
+The prediction rests on the model score and a symptomatic acid-suppression link alone. No trials or publications exist for smouldering systemic mastocytosis, and rabeprazole has no proposed effect on the mast-cell disease itself. The indication also largely overlaps with existing acid-hypersecretion uses, so it is not a true new indication.
+
+For context, other predicted terms for this drug have more evidence. Gastric ulcer has 17 registered trials and was rated L1, but it overlaps the existing labeled ulcer use.
 
 **To proceed, the following is needed:**
-- Download and parse the HSA package insert (warnings, contraindications, registered indications). Its absence blocks safety screening.
-- Retrieve the mechanism of action from DrugBank.
-- Run a targeted literature search on PPI use for GI symptoms in systemic mastocytosis to see whether the supportive-care role is documented.
-- Confirm the registered indications of the four Singapore products.
-- Review the other predictions in this pack before choosing a lead candidate. Active peptic ulcer disease (98.74%) and gastric ulcer (97.83%) both reach L1 evidence with a "Proceed with Guardrails" recommendation. They are likely existing PPI uses rather than true repurposing, so the labeling should be confirmed first.
+- Mechanism of action data, to assess any link beyond acid suppression
+- Evidence of a clinical benefit from rabeprazole in smouldering systemic mastocytosis, such as registered trials or published studies
+- A clear definition of the intended use, either symptom control of mediator-related acid hypersecretion or disease modification
+- Local package insert warnings and contraindications for the Singapore products
+- Review of the major interactions (acalabrutinib, atazanavir) and of the liver, gallbladder and bone-related flags, especially for long-term use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

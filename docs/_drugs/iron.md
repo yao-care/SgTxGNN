@@ -2,7 +2,7 @@
 layout: default
 title: Iron
 parent: Low Evidence (L5)
-nav_order: 545
+nav_order: 549
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,43 +29,51 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Iron: From an Unrecorded Original Indication to Vitamin B12- and Folate-Independent Constitutional Megaloblastic Anemia
+# Iron: From Iron Deficiency Anemia to Vitamin B12- and Folate-Independent Constitutional Megaloblastic Anemia
 
 ## One-Sentence Summary
 
-Iron is a mineral with six registered products in Singapore, but the registration records do not state an approved indication.
-The TxGNN model ranks **vitamin B12- and folate-independent constitutional megaloblastic anemia** as its top prediction, with a very high score.
-**No clinical trials and no publications** support this prediction, and the available analysis suggests it is a graph-proximity artifact rather than a real therapeutic signal.
+Iron is an established treatment for iron deficiency anemia and related nutritional anemias.
+The TxGNN model predicts it may be effective for **vitamin B12- and folate-independent constitutional megaloblastic anemia**,
+but **0 clinical trials** and **0 publications** currently support this direction, so the prediction rests on the model alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the Singapore licence data |
+| Original Indication | Iron deficiency anemia (also folic acid deficiency anemia, anemia of prematurity, hypochromic anemia, microcytic anemia, deficiency anemia) |
 | Predicted New Indication | Vitamin B12- and folate-independent constitutional megaloblastic anemia |
 | TxGNN Prediction Score | 99.89% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 6 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for iron. The original indication is also missing from the local licence records, so the link between the original and new indication cannot be assessed directly.
+Currently, detailed mechanism of action data is not available. Based on known information, iron is an essential mineral that supports haemoglobin synthesis. Its efficacy in iron deficiency anemia is well established. The original indications are all anemias, and the predicted indication is also an anemia, which likely explains the model's output.
 
-The prediction is probably not clinically meaningful. Megaloblastic anemia arises from impaired DNA synthesis, not from iron deficiency. The high TxGNN score most likely reflects the disease's proximity to other anemia nodes in the knowledge graph, not a causal mechanism. Giving iron without a confirmed iron deficit could worsen the picture.
+The data compiled for this report argues against a true mechanistic link. Megaloblastic anemia is driven by impaired DNA synthesis. This particular form is defined as independent of vitamin B12 and folate, and it is not caused by iron deficiency. The high score most likely reflects the closeness of the anemia nodes in the knowledge graph rather than a real pharmacological relationship. No trials or publications were found to test the prediction.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
 
-## Singapore Market Information
+---
 
-Six registrations are on file. Five are shown below. The licence records do not include approved indication text.
+## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form |
 |---------|------|------|
@@ -75,33 +83,38 @@ Six registrations are on file. Five are shown below. The licence records do not 
 | SIN05699P | Maltofer Drops 50 mg/ml | Solution |
 | SIN14727P | Velphoro® Chewable Tablets 500mg | Tablet, chewable |
 
-Available routes: oral and injectable.
+A sixth authorization, SIN14341P (Nutritrace Concentrate for solution for infusion), is also valid. All 6 are valid single-ingredient registrations, and none is cancelled. Approved indication text was not available for these products. The list covers oral and injectable routes, and some products (for example Velphoro and Nutritrace) are likely to serve purposes other than treating iron deficiency anemia.
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug-interaction records were found.
+- **Conditions flagged in the knowledge graph (not label text):** Iron has recorded contraindication links with peptic ulcer disease, hereditary hemochromatosis, hemosiderosis, iron metabolism disease, Wilson disease, ulcerative colitis, inflammatory bowel disease, hemolytic anemia and gastroenteritis.
+- **Drug Interactions:** 79 interactions were identified.
+  - **Major:** dolutegravir and bictegravir.
+  - **Moderate:** tetracycline and doxycycline, ciprofloxacin and delafloxacin, omeprazole and rabeprazole, alendronic acid, risedronic acid and ibandronate, levodopa, cefdinir, chloramphenicol, deferiprone, magnesium oxide, sodium citrate, pancrelipase and baloxavir marboxil.
+  - **Minor:** cimetidine.
+  - Most of these involve reduced absorption through chelation or altered gastric acidity. Dose separation or alternative therapy may be needed.
+
+Please refer to the package insert for label warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction has no trials or literature behind it and no plausible mechanism. It is best treated as a model artifact.
-
-Other predicted indications for iron have more support:
-
-| Rank | Predicted Indication | Evidence Level | Note |
-|------|------|------|------|
-| 2 | Plummer-Vinson syndrome | L4 | 20 publications (reviews and case reports) describe iron repletion as first-line care. No trials or controlled data exist. It is a reasonable research question. |
-| 5 | Vitamin deficiency disorder | L2 | Trials mostly test iron deficiency, not the exact mapped term. |
-| 10 | Perinatal disease | L2 | Iron-folic acid trials exist in pregnancy. Many test multiple micronutrients, so iron is not isolated. |
-| 7 | Injury | L4 | Mixed signal. Iron drives ferroptosis in brain and spinal cord injury, which is a safety concern for neurotrauma. |
+The prediction has no supporting trials or literature (L5). Megaloblastic anemia that is independent of B12 and folate is not driven by iron deficiency, so a real mechanism is implausible. Iron is already marketed in Singapore for its established anemia uses, but nothing here supports a new indication.
 
 **To proceed, the following is needed:**
-- Download and parse the HSA package insert to obtain the approved indications, warnings and contraindications (blocking gap).
-- Mechanism of action data from DrugBank.
-- Confirmation of iron-deficiency status before any iron use for this or any anemia-related indication.
-- Consider redirecting the evaluation to Plummer-Vinson syndrome, which has the most credible evidence.
+- A plausible mechanism, together with detailed mechanism of action data for iron
+- Any clinical or case-level evidence of iron benefit in this specific form of megaloblastic anemia
+- Package insert warnings and contraindications from the HSA labels
+
+**Other predicted indications in the same analysis:**
+- **Plummer-Vinson syndrome** (L4) has substantial literature, mostly reviews and case reports. It is essentially an on-label use of iron for iron deficiency anemia, so it is not a true repurposing candidate.
+- **Injury** and **perinatal disease** reached L1 through Phase 3 and Phase 4 trials. These trials largely address anemia in trauma, hip fracture or pregnancy, or test multi-nutrient supplements, so they overlap with the original anemia indication. They would be better framed as extensions of anemia treatment than as new disease indications.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

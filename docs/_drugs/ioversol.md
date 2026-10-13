@@ -2,7 +2,7 @@
 layout: default
 title: Ioversol
 parent: Low Evidence (L5)
-nav_order: 540
+nav_order: 544
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,21 +29,17 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ioversol: From Diagnostic Contrast Imaging to Osteoarthritis Susceptibility
+# Ioversol: From Radiographic Contrast Imaging to Osteoarthritis Susceptibility
 
 ## One-Sentence Summary
 
-Ioversol is an iodinated radiopaque contrast agent used for diagnostic imaging, and its registered indication text is not recorded in the Singapore data.
-The TxGNN model predicts it may be effective for **osteoarthritis susceptibility**, but **0 clinical trials** and **0 publications** support this specific prediction.
-The high score is likely a knowledge-graph artifact, not a real therapeutic signal.
-
----
+Ioversol is an iodinated, non-ionic radiographic contrast agent used to enhance imaging. The TxGNN model predicts it may be relevant to **osteoarthritis susceptibility**, but **no clinical trials and no publications** directly support this prediction. It is a computational prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration data (iodinated radiopaque contrast agent for imaging) |
+| Original Indication | Not stated in the Singapore licence data (iodinated contrast agent for diagnostic imaging) |
 | Predicted New Indication | Osteoarthritis susceptibility |
 | TxGNN Prediction Score | 99.67% |
 | Evidence Level | L5 |
@@ -51,71 +47,58 @@ The high score is likely a knowledge-graph artifact, not a real therapeutic sign
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Ioversol is an iodinated contrast agent that makes tissues visible on X-ray and CT imaging. It has no known disease-modifying pharmacology.
+Currently, detailed mechanism of action data is not available. Based on known information, ioversol is an iodinated, non-ionic contrast agent. It works by attenuating X-rays during imaging, not by acting on disease biology.
 
-No mechanistic link to osteoarthritis susceptibility could be identified. A diagnostic contrast agent is not expected to change the biology of joint disease. The 99.67% score reflects only the model's ranking. It is not backed by any trial or publication, so it should be treated as a hypothesis-generation output only.
+No mechanistic link to osteoarthritis susceptibility was identified. Susceptibility to osteoarthritis is a genetic and predisposition concept, and ioversol has no known pharmacologic action on it. The high TxGNN score reflects a graph-based computational association only.
 
----
+Other top-ranked predictions show the same pattern. Osteoarthritis, rheumatoid arthritis, several rare skeletal dysplasias (brachyolmia, acromesomelic dysplasia), hemoglobinopathy, myosclerosis and alopecia all have scores above 99%. None has a plausible mechanism, and these scores are likely artifacts of the graph structure.
+
+For osteoarthritis (rank 2), one publication exists (PMID 38102013). It studies genicular artery embolization with an ethiodized oil-based agent, not ioversol. Ioversol's only plausible role would be as an imaging aid for such a procedure, which is not a therapeutic effect.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials are registered for "osteoarthritis susceptibility".
-
-For context, the closely related indication **osteoarthritis** (rank 2) has four linked trials. All four test arterial embolization procedures, not ioversol as a treatment. Three use Lipiodol (ethiodized oil), and the fourth is a sham-controlled embolization trial. Ioversol appears at most as an imaging contrast agent, and its role is inferred from the trial titles and should be confirmed in the protocols.
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT04733092](https://clinicaltrials.gov/study/NCT04733092) | Phase 1 | Completed | 22 | Safety and efficacy of Lipiodol emulsion embolization for inflammatory hypervascularization in knee pain |
-| [NCT06497140](https://clinicaltrials.gov/study/NCT06497140) | Phase 3 | Recruiting | 130 | Sham-controlled trial of genicular artery embolization in symptomatic knee osteoarthritis |
-| [NCT06611007](https://clinicaltrials.gov/study/NCT06611007) | Phase 1/2 | Recruiting | 15 | Safety pilot of Lipiodol embolization in refractory hand osteoarthritis |
-| [NCT06859164](https://clinicaltrials.gov/study/NCT06859164) | Phase 2 | Recruiting | 50 | Pilot sham-controlled genicular artery embolization for knee osteoarthritis pain |
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature is available for "osteoarthritis susceptibility".
-
-For the related indication osteoarthritis, one publication was retrieved. It is the LipioJoint-1 trial of genicular artery embolization using an ethiodized oil emulsion, not ioversol.
+No literature directly supports the top prediction (osteoarthritis susceptibility). The only indirectly related publication, found under the osteoarthritis prediction, is listed below.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [38102013](https://pubmed.ncbi.nlm.nih.gov/38102013/) | 2024 | Clinical trial | Diagnostic and Interventional Imaging | Safety and efficacy of transient genicular artery embolization with ethiodized oil in knee osteoarthritis |
-
----
+| [38102013](https://pubmed.ncbi.nlm.nih.gov/38102013/) | 2024 | Single-arm clinical trial | Diagnostic and Interventional Imaging | LipioJoint-1: safety and efficacy of transient genicular artery embolization using an ethiodized oil-based emulsion for knee osteoarthritis. It does not study ioversol. |
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN07748P | OPTIRAY 350 INJECTION 74% | Injection | Not recorded in the registration data |
-
----
+| SIN07748P | OPTIRAY 350 INJECTION 74% | Injection | Not available in licence record |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: The interaction screen returned 100 interactions in total. Many of the listed ones are rated Major. Main examples:
+  - **Metformin** (Major)
+  - **Amphotericin B**, including lipid complex, cholesteryl sulfate and liposomal forms (Major)
+  - **Aminoglycosides and related antibiotics**: kanamycin, neomycin, streptomycin, and also vancomycin and polymyxin B (Major)
+  - **Aminosalicylates**: mesalazine, balsalazide, olsalazine, sulfasalazine (Major)
+  - **Mannitol** (Moderate)
 
----
+Please refer to the package insert for key warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on the model score alone. There are no trials or literature for this indication, and no plausible pharmacological link. The nearby osteoarthritis trials test embolization procedures, not ioversol.
+The prediction rests on a model score alone. There are no trials, no supporting literature, and no plausible mechanism linking a diagnostic contrast agent to osteoarthritis susceptibility. The one related publication does not involve ioversol.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications (blocking gap; safety screening cannot proceed without them)
-- Mechanism of action data from DrugBank
-- Protocol review of the embolization trials to confirm whether ioversol is used, and in what role
-- Any direct evidence that ioversol itself, rather than the embolic procedure, has a therapeutic effect
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Mechanism of action data for ioversol, and any biological rationale for the predicted indication
+- Package insert warnings and contraindications from the Singapore regulator
+- Approved indication text for the Singapore licence
+- Any direct preclinical or clinical study of ioversol in osteoarthritis
+- Confirmation of route and formulation compatibility (ioversol is available only as an injection)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

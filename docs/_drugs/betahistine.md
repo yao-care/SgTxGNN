@@ -2,7 +2,7 @@
 layout: default
 title: Betahistine
 parent: Low Evidence (L5)
-nav_order: 151
+nav_order: 152
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,17 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Betahistine: From Vertigo and Ménière's Disease to Restless Legs Syndrome
+# Betahistine: From Meniere Disease to Restless Legs Syndrome
 
 ## One-Sentence Summary
 
-Betahistine is an oral histamine-analogue tablet, registered in Singapore and widely used for vertigo and Ménière's disease. The TxGNN model predicts it may be effective for **restless legs syndrome**. **No clinical trials and no publications** currently support this prediction, so it remains a model-only hypothesis.
+Betahistine is an oral histamine-analogue tablet, originally used to treat Meniere disease and endolymphatic hydrops.
+The TxGNN model's top-ranked new prediction is **restless legs syndrome**, but it rests on model output alone, with **0 clinical trials** and **0 publications** supporting it.
+The better-supported predictions are vestibular conditions close to the original indication, such as **peripheral vertigo** (20 publications) and **vertigo, benign recurrent, 2** (about 20 publications). These are largely confirmations of existing use, not new repurposing.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore licence records. Betahistine is widely labelled for Ménière's disease and vertigo elsewhere. |
+| Original Indication | Meniere disease, endolymphatic hydrops (the Singapore licence records contain no indication text) |
 | Predicted New Indication | Restless legs syndrome |
 | TxGNN Prediction Score | 98.51% |
 | Evidence Level | L5 |
@@ -49,60 +51,66 @@ Betahistine is an oral histamine-analogue tablet, registered in Singapore and wi
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the Evidence Pack. From the literature attached to other predictions, betahistine is a weak histamine H1 receptor agonist and an H3 receptor antagonist/inverse agonist. Blocking H3 receptors is thought to raise histamine release in the brain.
+Detailed mechanism-of-action data is not available in the data compiled for this report. From the literature, betahistine is a weak histamine H1 receptor agonist and a more potent H3 receptor antagonist/inverse agonist. This raises histamine turnover and central histaminergic tone. In the inner ear it is thought to improve cochlear and labyrinthine microcirculation, and in the brain it promotes vestibular compensation.
 
-The link to restless legs syndrome is speculative. Increased central histamine could modulate dopaminergic and iron-related pathways, both implicated in the condition. No clinical data support this, and the mechanism cannot be checked against annotated drug targets. The prediction score is high (98.51%), but the model rank is only 14,114, and a score alone is not evidence of efficacy.
+For restless legs syndrome, the link is plausible but unsupported. It would run through histaminergic and dopaminergic modulation in the central nervous system. No trials or publications were found for this pairing, so the prediction should be treated as a hypothesis.
+
+The other predictions fall into three groups:
+- **Same disease family as the original indication:** active cochleovestibular, vestibular and cochlear Meniere disease. The supporting evidence is indirect, through the approved Meniere indication and sibling entries.
+- **Closely related vestibular conditions:** peripheral vertigo and benign recurrent vertigo, which have the largest bodies of literature.
+- **Weak or likely artifact predictions:** otosclerosis, age-related hearing impairment, and the two hyperinsulinism conditions. No plausible mechanism links betahistine to Kir6.2/KATP channel deficiency.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for any of the top 10 predicted indications.
 
 ## Literature Evidence
 
-Currently no related literature available.
+There is no literature for restless legs syndrome. The table below shows the strongest evidence for the closest-related predictions, peripheral vertigo and the vestibular and cochlear Meniere entries.
 
-## Other Predicted Indications with Stronger Evidence
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [26797774](https://pubmed.ncbi.nlm.nih.gov/26797774/) | 2016 | RCT (BEMED) | BMJ | Long-term, multicentre, double-blind, placebo-controlled, dose-defining trial in Meniere disease. A 2017 commentary (PMID 28850992) notes that betahistine did not reduce vertigo attacks significantly better than placebo. |
+| [36827524](https://pubmed.ncbi.nlm.nih.gov/36827524/) | 2023 | Systematic review | Cochrane Database Syst Rev | Systemic pharmacological interventions for Meniere disease, including betahistine, diuretics, antivirals and corticosteroids |
+| [27327415](https://pubmed.ncbi.nlm.nih.gov/27327415/) | 2016 | Systematic review | Cochrane Database Syst Rev | Betahistine versus placebo for vertigo symptoms of various causes |
+| [23778722](https://pubmed.ncbi.nlm.nih.gov/23778722/) | 2014 | Meta-analysis | Eur Arch Otorhinolaryngol | 12 double-blind placebo-controlled studies in Meniere disease and vestibular vertigo |
+| [12582782](https://pubmed.ncbi.nlm.nih.gov/12582782/) | 2003 | RCT | Eur Arch Otorhinolaryngol | Betahistine versus placebo in 144 patients with Meniere disease or paroxysmal positional vertigo |
+| [6363584](https://pubmed.ncbi.nlm.nih.gov/6363584/) | 1984 | RCT (crossover) | J Laryngol Otol | Betahistine 12 mg three times daily versus placebo in 24 patients with peripheral vestibular vertigo |
+| [20940335](https://pubmed.ncbi.nlm.nih.gov/20940335/) | 2011 | RCT | J Clin Pharmacol | Betahistine improved recovery of static symptoms after unilateral vestibular neurotomy in Meniere patients |
+| [26245698](https://pubmed.ncbi.nlm.nih.gov/26245698/) | 2015 | Review | Acta Otolaryngol | Betahistine reported as effective and safe in Meniere disease, BPPV and vestibular neuronitis |
+| [26139562](https://pubmed.ncbi.nlm.nih.gov/26139562/) | 2015 | Preclinical | Audiol Neurootol | H3 heteroreceptors as a possible mediator of the betahistine-induced rise in cochlear blood flow |
+| [28818391](https://pubmed.ncbi.nlm.nih.gov/28818391/) | 2017 | Preclinical | Life Sci | Roles of capillary pericytes and precapillary arterioles in betahistine's vascular mechanism (guinea pig) |
 
-The top-ranked prediction has the weakest support. Other predictions for betahistine have more evidence, and most concern the drug's established vestibular use, so they may not be true repurposing.
-
-| Predicted Indication | Score | Evidence Level | Summary |
-|------|------|------|------|
-| Peripheral vertigo | 98.07% | L1 | Phase 2 RCT of an intranasal betahistine formulation (AM-125, NCT03908567, n=124); post-marketing programme (NCT01759251, n=309); meta-analysis of 12 placebo-controlled studies ([23778722](https://pubmed.ncbi.nlm.nih.gov/23778722/)); 2023 Cochrane review rating certainty as low ([36827524](https://pubmed.ncbi.nlm.nih.gov/36827524/)). The large BEMED RCT ([26797774](https://pubmed.ncbi.nlm.nih.gov/26797774/)) found no significant benefit on attack frequency in Ménière's disease. |
-| Ménière's disease (vestibular and cochlear forms) | 98.34% | L1 / L4 | Mostly narrative reviews, uncontrolled series and preclinical cochlear blood-flow studies. Efficacy evidence is conflicting and of low certainty. |
-| Benign recurrent vertigo, 2 | 97.78% | L2 | The retrieved evidence concerns BPPV, a different condition, so the disease mapping needs manual review. Betahistine is mainly an add-on to repositioning manoeuvres or a comparator. |
-| Otosclerosis | 98.19% | L4 | Indirect evidence only. Any benefit would be symptomatic, not disease-modifying. |
-| Age-related hearing impairment | 97.93% | L5 | Prediction only. |
-| Hyperinsulinism (Kir6.2 deficiency; familial) | 97.77%, 97.32% | L5 | Prediction only, with no plausible mechanism. Not appropriate for use. |
+Overall, the evidence for Meniere disease is described in the literature as mixed. Some small controlled studies and meta-analyses favour betahistine, while the large BEMED trial did not show a significant benefit over placebo.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN11365P | BETASERC TABLETS 16 mg | Tablet | Mylan Laboratories SAS |
-| SIN12235P | BETASERC 24 TABLET 24 mg | Tablet | Mylan Laboratories SAS |
-| SIN16812P | GP-BETAHISTINE TABLETS 24MG | Tablet | GPAX Pharmaceuticals Private Ltd |
-| SIN03047P | MERISLON TABLET 6 mg | Tablet | Eisai Co Ltd (Kawashima Plant) |
+| SIN11365P | BETASERC TABLETS 16 mg | Tablet | Not stated in the data |
+| SIN12235P | BETASERC 24 TABLET 24 mg | Tablet | Not stated in the data |
+| SIN16812P | GP-BETAHISTINE TABLETS 24MG | Tablet | Not stated in the data |
+| SIN03047P | MERISLON TABLET 6 mg | Tablet | Not stated in the data |
 
-All four products are oral tablets.
+All four authorizations are valid single-ingredient oral tablets.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No warnings, contraindications or interaction data were retrieved. The evidence summary for peripheral vertigo suggests caution in patients with asthma, peptic ulcer or pheochromocytoma. This should be confirmed against the approved Singapore labelling.
+Please refer to the package insert for safety information. No drug interactions were found in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The restless legs syndrome prediction rests on the model score alone (Evidence Level L5). There are no trials or publications, and the proposed mechanism is speculative. It should not advance to safety screening on this basis.
+The top prediction, restless legs syndrome, has no supporting trials or literature, so it is a model output only (L5). The better-evidenced predictions, such as peripheral vertigo and benign recurrent vertigo, are mostly on-label or near-label vestibular uses (L3). Those could proceed with guardrails, but they are confirmation of existing use and not true repurposing. The mixed efficacy evidence, including the BEMED trial, argues for caution.
 
 **To proceed, the following is needed:**
-- Approved indication text and package insert (warnings and contraindications) from the Singapore HSA records
-- Mechanism-of-action data for betahistine (for example, from DrugBank)
-- A targeted literature and trial search on histaminergic (H3) modulation in restless legs syndrome
-- If the vestibular indications are of interest, a separate review of the peripheral vertigo evidence (L1, mixed results, low certainty), with confirmation of whether these are already labelled uses
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- A literature search and mechanistic review on histaminergic/dopaminergic links to restless legs syndrome, followed by a pilot study if the link holds up
+- The Singapore package insert, to obtain approved indications, warnings and contraindications
+- Mechanism of action data to support the mechanistic analysis
+- For the vestibular predictions, a focused appraisal of the BEMED trial against the positive meta-analyses to settle the efficacy question
+- Dismissal of the Kir6.2 and familial hyperinsulinism predictions unless a plausible mechanism emerges
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Rasburicase
 parent: Low Evidence (L5)
-nav_order: 847
+nav_order: 856
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,80 +29,70 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Rasburicase: From Tumor-Lysis-Related Hyperuricemia to Renal Hypouricemia
+# Rasburicase: From Hyperuricemia to Renal Hypouricemia
 
 ## One-Sentence Summary
 
-Rasburicase is a recombinant urate oxidase enzyme that lowers serum uric acid. It is approved for acute hyperuricemia related to tumor lysis, though the Singapore license record supplied has no indication text.
-The TxGNN model predicts it may be effective for **renal hypouricemia**, a condition in which uric acid is already low.
-There are **0 clinical trials** and **0 publications** supporting this prediction, and the mechanism points the opposite way, so it is most likely a model artifact.
-
----
+Rasburicase is a recombinant urate oxidase originally used to lower uric acid in hyperuricemia.
+The TxGNN model predicts it may be effective for **renal hypouricemia**, but **no clinical trials and no publications** support this prediction.
+The mechanism also points the wrong way: the condition already involves low uric acid, so this prediction is most likely a model artifact.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore license record (the pack's rationale describes acute tumor-lysis-related hyperuricemia) |
+| Original Indication | Hyperuricemia (approved indication text is not listed in the Singapore registration) |
 | Predicted New Indication | Hypouricemia, renal |
 | TxGNN Prediction Score | 99.99% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data from DrugBank is not available. Rasburicase is a recombinant urate oxidase. It converts uric acid to allantoin and lowers serum uric acid.
+Currently, detailed mechanism of action data is not available in the compiled data. Based on known information, rasburicase is a recombinant urate oxidase. It converts uric acid to allantoin and lowers serum urate, which is why it is used for hyperuricemia.
 
-The predicted indication works against this mechanism. Renal hypouricemia is already a state of low uric acid, so further lowering is not therapeutic and could be harmful. The high TxGNN score is most likely a graph-proximity artifact, caused by shared uric acid and urate pathway nodes, and is not evidence of benefit.
+Renal hypouricemia is a condition in which serum urate is already low, for example from loss-of-function variants in URAT1 (SLC22A12) or GLUT9 (SLC2A9). Lowering urate further would be mechanistically counterproductive and could raise risk, for example exercise-induced acute kidney injury. The high TxGNN score appears to reflect proximity in the uric acid pathway of the knowledge graph rather than a plausible therapeutic link.
 
-Among the other nine predictions, only **partial HPRT deficiency** (Kelley-Seegmiller variant) has a plausible biological link, because it involves purine overproduction and hyperuricemia. Even there, rasburicase is an infused enzyme for acute use and is poorly suited to chronic management. It also does not address xanthine and hypoxanthine accumulation. The remaining predictions (hepatic porphyria, portal and hepatic vascular conditions, renal tubular acidosis, phenylalanine metabolism disorders) have no identifiable mechanistic link.
-
----
+Other top-ranked predictions are also weak. Several hepatic and portal conditions share an identical score, which suggests a non-specific graph artifact. The one biologically plausible candidate is partial HPRT deficiency, where purine overproduction causes hyperuricemia. Even there, rasburicase is an injectable biologic with a short course and immunogenicity that limits repeat use, so it is unsuitable for chronic management. Allopurinol and febuxostat are already standard care.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
-
----
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN12055P | FASTURTEC POWDER FOR SOLUTION FOR INFUSION 1.5 mg/vial | Injection, powder, for solution | Not listed in the record |
-
----
+| SIN12055P | FASTURTEC Powder for Solution for Infusion 1.5 mg/vial | Injection, powder, for solution | Not stated in the registration data |
 
 ## Safety Considerations
 
-- **Mechanistic concern**: Further lowering of urate in a patient who already has low uric acid (renal hypouricemia) could be harmful.
+- **Drug Interactions**: 13 interactions were identified. Two are rated Major:
+  - Prilocaine (Major)
+  - Nitrous acid (Major)
+- The other 11 are rated Moderate. They mainly involve local anaesthetics (tetracaine, lidocaine, benzocaine, cocaine, proparacaine, oxybuprocaine, cinchocaine) in topical, ophthalmic or nasal forms, plus idelalisib.
+- **Screening point**: G6PD deficiency, hemolysis and methemoglobinemia are safety concerns that would need screening before any use.
 
-Please refer to the package insert for all other safety information, including warnings, contraindications, and drug interactions.
-
----
+Please refer to the package insert for further safety information, including warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on model output alone (L5), with no trials or publications. The drug's urate-lowering mechanism runs opposite to the condition's pathophysiology, so the predicted benefit is implausible and there is a potential for harm.
+The prediction rests on model score alone (L5). Renal hypouricemia is already a low-urate state, so further urate lowering is mechanistically counterproductive and potentially harmful. No trials or publications support it.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications (a blocking gap for safety screening)
-- Detailed mechanism-of-action data from DrugBank
-- The approved indication text for SIN12055P
-- A mechanistic and clinical review of partial HPRT deficiency, the most plausible of the ten predictions, if a repurposing direction is still wanted
+- A mechanistic justification that explains why lowering urate would benefit renal hypouricemia (none is currently apparent)
+- Mechanism of action data for rasburicase from DrugBank
+- Package insert warnings and contraindications from the HSA
+- If a more plausible indication (such as acute severe hyperuricemia in partial HPRT deficiency) is pursued, a comparison against standard therapy and a G6PD screening plan
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

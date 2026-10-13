@@ -2,7 +2,7 @@
 layout: default
 title: Pamidronic Acid
 parent: Low Evidence (L5)
-nav_order: 751
+nav_order: 759
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,31 +29,37 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pamidronic Acid: From Bone Disorders to HIV Infection
+# Pamidronic Acid: From Humoral Hypercalcemia of Malignancy to HIV Infectious Disease
 
 ## One-Sentence Summary
 
-Pamidronic acid is an intravenous bisphosphonate, used clinically for bone conditions such as hypercalcaemia of malignancy, osteolytic lesions and Paget's disease of bone. The TxGNN model predicts it may be effective for **HIV infectious disease**, but there are **0 clinical trials** and only **1 preclinical study** directly supporting this. The remaining papers are reviews and adverse-event case reports.
+Pamidronic acid is a bisphosphonate originally used for humoral hypercalcemia of malignancy and Paget disease of bone (including juvenile Paget disease).
+The TxGNN model predicts it may be effective for **HIV infectious disease**, with a very high model score but **0 clinical trials** and **0 publications** currently supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration record. Literature describes hypercalcaemia of malignancy, osteolytic lesions and Paget's disease of bone |
+| Original Indication | Humoral hypercalcemia of malignancy; Paget disease of bone; juvenile Paget disease (the Singapore licence record contains no indication text) |
 | Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 99.73% |
-| Evidence Level | L4 (preclinical / mechanistic only) |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Pamidronic acid is a nitrogen-containing bisphosphonate. This class inhibits farnesyl pyrophosphate synthase, so isopentenyl pyrophosphate accumulates inside cells. This accumulation activates Vγ9Vδ2 γδ T cells, a kind of immune cell that can find and kill virus-infected cells. A 2023 laboratory study reported that aminobisphosphonates can reactivate the latent HIV-1 reservoir in cells from people living with HIV.
+Currently, detailed mechanism of action data is not available. Based on known information, pamidronic acid is a nitrogen-containing bisphosphonate that inhibits osteoclast-mediated bone resorption. This is why it works in hypercalcemia of malignancy and Paget disease.
 
-This fits the "shock and kill" HIV cure strategy. Latent virus is first woken up, then the immune system eliminates the infected cells. A 2018 review supports the role of γδ T cells in this approach. The prediction is therefore mechanistically plausible, but it rests on laboratory and ex vivo work only. No study has tested pamidronate for HIV in patients.
+A possible but unverified link is that nitrogen-containing bisphosphonates inhibit farnesyl pyrophosphate synthase. This may affect prenylation-dependent pathways and gamma-delta T cell activity. HIV-associated bone loss is a separate, bone-related context. The data compiled for this report do not confirm any of these links.
 
-Other papers linking pamidronate and HIV are case reports of harm, not efficacy. These include collapsing focal segmental glomerulosclerosis (a kidney lesion) and bone problems in HIV patients.
+The high TxGNN score is a model prediction only. Related predictions (feline AIDS and simian immunodeficiency virus infection) most likely mirror the HIV prediction through shared disease-ontology neighbours. They are not independent support.
+
+**Other predicted indications in the data:**
+- **Paget disease of bone** (score 96.64%): this is already an original indication, so it is not a true repurposing candidate. Five publications were supplied, all reviews, a drug news note or a case report, with no Phase 3 RCT. The evidence is graded L4 and the stage is "Research Question".
+- **Paget disease of bone 2, early-onset** (score 92.96%): a genetic subtype with the same high-turnover bone pathology, so antiresorptive therapy is mechanistically plausible. No subtype-specific evidence was supplied (L5, Research Question).
+- **Other predictions** (neurodevelopmental disorder, obsolete familial combined hyperlipidemia, osteomesopyknosis, cholelithiasis, GNE myopathy): no mechanistic support and no evidence. Antiresorptive therapy would be expected to worsen osteomesopyknosis, a high-bone-density disorder.
 
 ## Clinical Trial Evidence
 
@@ -61,48 +67,54 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
+Currently no related literature available for HIV infectious disease.
+
+For reference, the following publications relate to the Paget disease of bone prediction, which is already an approved-use context:
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [37744358](https://pubmed.ncbi.nlm.nih.gov/37744358/) | 2023 | Preclinical / ex vivo study | Front Immunol | Aminobisphosphonates reactivated latent HIV-1 in cellular reservoirs, supporting a shock-and-kill approach |
-| [29925697](https://pubmed.ncbi.nlm.nih.gov/29925697/) | 2018 | Review | JCI Insight | γδ T cells as an immunotherapy approach for HIV cure strategies |
-| [11983250](https://pubmed.ncbi.nlm.nih.gov/11983250/) | 2002 | Review | Vaccine | Innate T cell immunity in HIV infection and immunotherapy with phosphocarbohydrates as a concept |
-| [16761013](https://pubmed.ncbi.nlm.nih.gov/16761013/) | 2006 | Case report (adverse event) | Kidney Int | Collapsing focal segmental glomerulosclerosis associated with HIV and pamidronate. This is a safety signal, not efficacy |
-| [20713349](https://pubmed.ncbi.nlm.nih.gov/20713349/) | 2011 | Case report (adverse event) | Endocr Pract | Osteoporosis and hip osteonecrosis in an HIV-infected man on inhaled corticosteroids and ritonavir-boosted therapy. Not efficacy evidence |
-| [9302445](https://pubmed.ncbi.nlm.nih.gov/9302445/) | 1997 | Case report | AIDS | Hypercalcaemia in an AIDS patient given growth hormone. Not relevant to efficacy |
+| [11503825](https://pubmed.ncbi.nlm.nih.gov/11503825/) | 1999 | Review / drug news | Prescrire International | Short-course IV pamidronic acid (180-210 mg total) approved in France for Paget disease. Only non-comparative data, with clinical benefit and biochemical improvement. |
+| [2078998](https://pubmed.ncbi.nlm.nih.gov/2078998/) | 1990 | Review | Drugs | Potent bisphosphonates can restore and maintain normal bone turnover in Paget disease. Discusses treatment indications and disease-activity markers. |
+| [15799218](https://pubmed.ncbi.nlm.nih.gov/15799218/) | 2002 | Review | Treatments in Endocrinology | Overview of how Paget disease therapy has evolved, with a focus on bisphosphonates. |
+| [7858370](https://pubmed.ncbi.nlm.nih.gov/7858370/) | 1994 | Review (etidronic acid, a different bisphosphonate) | Drugs & Aging | Etidronic acid rapidly lowers bone turnover markers in Paget disease. Not specific to pamidronic acid. |
+| [14750233](https://pubmed.ncbi.nlm.nih.gov/14750233/) | 2003 | Case report (adverse effect) | Bulletin de la Société belge d'ophtalmologie | Two cases of posterior uveitis with pamidronate. Ocular adverse effects are rare but documented. |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN11543P | PAMISOL CONCENTRATED INJECTION 30 mg/10 ml | Injection | Hospira Australia Pty Ltd |
+| SIN11543P | PAMISOL CONCENTRATED INJECTION 30 mg/10 ml (Hospira Australia Pty Ltd) | Injection | Not stated in the licence record |
+
+## Cytotoxicity
+
+Pamidronic acid is a bisphosphonate and is not an antineoplastic drug. It is used as supportive care for hypercalcemia of malignancy. This section does not apply.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found for this drug.
+**Contraindication-related conditions from the knowledge graph** (these are model-graph associations, not package insert text):
+kidney disease, pyoureter, potassium deficiency disease, hypercalcemia disease, nephrocalcinosis, phosphorus metabolism disease, periodontitis, osteonecrosis of the jaw, hypophosphatemia.
 
-Points from the supplied literature:
-- **Kidney**: pamidronate-associated collapsing focal segmental glomerulosclerosis was reported in an HIV patient (PMID 16761013), so renal function monitoring is important in this population.
-- **Bone**: osteonecrosis is a recognised bisphosphonate-class concern. Monitor calcium and the risk of osteonecrosis of the jaw.
+**Drug Interactions**: 100 interactions were identified. The 20 shown in the data include the following.
+- **Moderate**: amphotericin B (including lipid complex, cholesteryl sulfate and liposomal forms), mesalazine, acetylsalicylic acid, balsalazide, olsalazine, sulfasalazine, vancomycin, kanamycin, neomycin, streptomycin, polymyxin B, exenatide.
+- **Unknown severity**: calcitriol, doxycycline, clotrimazole, pantoprazole, sucralfate.
+
+Several of the moderate-level agents are nephrotoxic or ototoxic, so renal function monitoring is advisable when they are combined.
+
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The high TxGNN score is not backed by clinical data. The only direct support is a preclinical study, and there are no registered trials of pamidronate for HIV. The HIV-related case reports describe harm, not benefit.
-
-**Other predictions from the same run:**
-- **Paget disease of bone** (score 96.6%) is an established use of pamidronate, supported by a Cochrane review of bisphosphonates. It is not a true repurposing candidate, but it could proceed with guardrails after checking the indication against the local label.
-- **Paget disease of bone 2, early-onset** is an extrapolation from classic Paget disease with no disease-specific evidence.
-- The other predictions (e.g. cholelithiasis, GNE myopathy, obsolete familial combined hyperlipidemia, osteomesopyknosis, feline and simian immunodeficiency) have no trials or literature and no plausible mechanism. Most appear to be knowledge-graph artifacts.
+The HIV prediction has a high model score but no clinical trials, no literature and no established mechanism (L5). The related animal-virus predictions appear to be artifacts of the same ontology neighbourhood. The Paget disease predictions overlap with existing indications and are not new repurposing opportunities.
 
 **To proceed, the following is needed:**
-- The HSA package insert, including approved indications, warnings and contraindications
-- Confirmed mechanism of action data from DrugBank
-- Replication of the latent-reservoir reactivation findings, then a proof-of-concept study in people living with HIV
-- A renal and bone safety plan for HIV patients, who are often on antiretrovirals that affect the kidney and bone
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
+- Mechanism of action data, to assess the proposed link to HIV
+- Package insert warnings and contraindications from HSA (a blocking gap for safety screening)
+- A targeted literature and trial search on bisphosphonates in HIV, particularly HIV-associated bone loss and gamma-delta T cell effects
+- Approved indication text for the Singapore licence SIN11543P
+- Evaluation of the kidney disease and osteonecrosis of the jaw associations in people living with HIV, who often take nephrotoxic antiretrovirals
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

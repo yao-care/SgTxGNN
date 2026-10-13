@@ -2,7 +2,7 @@
 layout: default
 title: Etoricoxib
 parent: Low Evidence (L5)
-nav_order: 406
+nav_order: 410
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,17 +29,17 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Etoricoxib: From a COX-2 Inhibitor NSAID to Migraine Disorder
+# Etoricoxib: From Pain and Inflammatory Conditions to Migraine Disorder
 
 ## One-Sentence Summary
 
-Etoricoxib is a selective COX-2 inhibitor (an NSAID) marketed in Singapore as oral film-coated tablets. The TxGNN model predicts it may be effective for **migraine disorder**, but there are currently **0 clinical trials** and **0 publications** linked to this prediction. The evidence is model prediction only.
+Etoricoxib is a selective COX-2 inhibitor marketed in Singapore as a painkiller and anti-inflammatory drug. The TxGNN model predicts it may be effective for **migraine disorder**, but there are **0 clinical trials** and only **1 publication** (a scoping review that does not test etoricoxib in migraine), so the prediction currently rests on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the supplied registration records (all listed licences have blank indication text) |
+| Original Indication | Not stated in the Singapore licence records. Published pharmacology sources list rheumatoid arthritis, osteoarthritis, chronic lower back pain, ankylosing spondylitis, acute pain and gout. |
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 99.90% |
 | Evidence Level | L5 |
@@ -49,11 +49,11 @@ Etoricoxib is a selective COX-2 inhibitor (an NSAID) marketed in Singapore as or
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the supplied records. Etoricoxib is a selective COX-2 inhibitor. COX-2 drives prostaglandin production, and prostaglandin-mediated neurogenic inflammation and pain sensitisation are relevant to migraine. This makes the prediction plausible in principle, but the link is unverified here.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known pharmacology, etoricoxib is a selective COX-2 inhibitor (target: PTGS2). It reduces the synthesis of prostaglandin E2 (PGE2), a mediator of pain and inflammation.
 
-The 99.90% score is a model output, not clinical proof. Several other high-scoring predictions for this drug (a rare migraine subtype, skin disorders, kyphoscoliotic heart disease) look like knowledge-graph proximity artefacts, so the score should be read with caution.
+PGE2 and neurogenic inflammation are thought to contribute to migraine, so the link is biologically plausible. NSAIDs are already widely used for migraine. However, the only publication retrieved for migraine disorder is a scoping review of fasting-induced headache during Ramadan, which does not test etoricoxib. The high score is therefore a computational prediction, not a clinical finding.
 
-The evidence is stronger for **headache disorder** and **trigeminal autonomic cephalalgia**, which are related predictions. Case reports and small series describe etoricoxib or COX-2 inhibitor responses in primary stabbing headache, cough headache and indomethacin-responsive headaches (for example, PMID 35277974). These are case-level only (L4), with no controlled trials. They are not evidence for migraine itself.
+Other predictions in the same list are closer to existing evidence. For the broader **headache disorder** category, several case reports and small series describe etoricoxib helping primary stabbing headache, indomethacin-responsive headaches and secondary cough headache. For **trigeminal autonomic cephalalgia**, one observational report suggests that some indomethacin-responsive headaches respond to etoricoxib. These are low-level, uncontrolled observations.
 
 ## Clinical Trial Evidence
 
@@ -61,44 +61,53 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [42841395](https://pubmed.ncbi.nlm.nih.gov/42841395/) | 2026 | Review | Pain management | Scoping review of headache attributed to fasting during Ramadan. It does not test etoricoxib in migraine. |
+
+For context, publications retrieved for related headache predictions (not for migraine disorder itself):
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [35277974](https://pubmed.ncbi.nlm.nih.gov/35277974/) | 2022 | Case series | Headache | Etoricoxib- and celecoxib-sensitive indomethacin-responsive headache disorders. |
+| [29209105](https://pubmed.ncbi.nlm.nih.gov/29209105/) | 2017 | Preclinical | Mediators of Inflammation | NSAIDs including etoricoxib affected CGRP and PGE2 release in rat trigeminal ganglia. |
+| [36893522](https://pubmed.ncbi.nlm.nih.gov/36893522/) | 2023 | Case report | Clin Neurol Neurosurg | Two patients with secondary cough headache responded to etoricoxib. |
+| [17883876](https://pubmed.ncbi.nlm.nih.gov/17883876/) | 2007 | Case report | J Med Case Reports | Etoricoxib used for idiopathic stabbing headache. |
+| [18171381](https://pubmed.ncbi.nlm.nih.gov/18171381/) | 2008 | Case report/series | Eur J Neurol | Primary stabbing headache can respond to etoricoxib. |
+| [25229174](https://pubmed.ncbi.nlm.nih.gov/25229174/) | 2014 | Case report (adverse event) | Clin Neuropharmacol | Reversible cerebral vasoconstriction syndrome possibly induced by etoricoxib. |
 
 ## Singapore Market Information
 
-20 licences are registered in total. The 5 main ones are listed below. The records contain no approved-indication text.
+Twenty valid single-ingredient licences are registered, all oral film-coated tablets. The licence records do not include approved indication text. Five examples:
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN16515P | ETOHOPE FILM-COATED TABLET 120 mg | Film-coated tablet |
-| SIN16756P | PANNEXIA FILM-COATED TABLETS 90MG | Film-coated tablet |
-| SIN16246P | ETORIDEX FILM-COATED TABLETS 60MG | Film-coated tablet |
-| SIN16168P | INTORICOXIB FILM COATED TABLET 60MG | Film-coated tablet |
-| SIN15999P | ETROBAX 120 FILM COATED TABLETS 120 MG | Film-coated tablet |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN14943P | EXINEF TABLET 60 MG | Film-coated tablet | Not stated in the record |
+| SIN14944P | EXINEF TABLET 90 MG | Film-coated tablet | Not stated in the record |
+| SIN16426P | Arcoxib F.C. Tablet 60 mg | Film-coated tablet | Not stated in the record |
+| SIN16515P | ETOHOPE FILM-COATED TABLET 120 mg | Film-coated tablet | Not stated in the record |
+| SIN16234P | ETOSHINE FILM COATED TABLETS 90MG | Film-coated tablet | Not stated in the record |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No warnings, contraindications or drug interaction data were available in the supplied records.
+- **Drug Interactions**: The only interaction record is the pharmacological target (COX-2), with no graded interaction level. A published case describes life-threatening hyperkalaemia and acute kidney dysfunction when etoricoxib was taken with telmisartan and a potassium-rich low-sodium diet.
+- **Cardiovascular and renal risk**: COX-2 inhibitors carry cardiovascular and renal risks, including fluid retention and hypertension. A case report links etoricoxib to reversible cerebral vasoconstriction syndrome, which is relevant in patients with headache.
 
-Signals from the related evidence that should be weighed before any repurposing:
-- **Cardiovascular risk**: coxibs carry cardiovascular risk warnings and are associated with hypertension and fluid retention.
-- **Cerebral vasoconstriction**: one case report (PMID 25229174) describes reversible cerebral vasoconstriction syndrome possibly induced by etoricoxib. This matters for any headache or migraine use.
-- **Hyperkalaemia and kidney injury**: one case report (PMID 21373319) describes life-threatening hyperkalaemia and acute kidney dysfunction with etoricoxib in a patient taking telmisartan.
+Please refer to the package insert for full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The migraine disorder prediction has no linked trials or publications (L5), and the mechanism is plausible but unverified. The related headache evidence is limited to case reports, and it comes with a cerebrovascular safety signal.
+The migraine prediction is supported only by a model score and a mechanistic argument. No trials exist, and the one retrieved publication does not evaluate etoricoxib for migraine. Related headache disorders (headache disorder, trigeminal autonomic cephalalgia) have somewhat more support, but only from case-level observations, so the evidence level is at most L4 there.
 
 **To proceed, the following is needed:**
-- Singapore package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data, for example from DrugBank
-- A targeted search for controlled trials or systematic reviews of COX-2 inhibitors in migraine
-- Evaluation of the RCVS, cardiovascular and renal safety signals for a migraine population
-- Consideration of headache disorder or trigeminal autonomic cephalalgia as a more evidence-supported research question
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
+- Package insert warnings and contraindications from the HSA, which is a blocking gap for safety screening
+- Detailed mechanism-of-action data
+- Controlled clinical evidence of etoricoxib in migraine, or a systematic review of COX-2 inhibitors in migraine
+- A cardiovascular, renal and cerebrovascular risk assessment for headache patients
+- Consideration of a narrower, better-supported target such as indomethacin-responsive headache disorders
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

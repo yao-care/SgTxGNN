@@ -2,7 +2,7 @@
 layout: default
 title: Carbetocin
 parent: Low Evidence (L5)
-nav_order: 205
+nav_order: 206
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Carbetocin: From an Unlisted Original Indication to Isotretinoin-like Syndrome
+# Carbetocin: From Prader-Willi Syndrome to Isotretinoin-like Syndrome
 
 ## One-Sentence Summary
 
-Carbetocin is a long-acting oxytocin receptor agonist, but the Singapore registration record does not state its original approved indication.
-The TxGNN model predicts it may be relevant to **isotretinoin-like syndrome**, a rare teratogenic-phenotype condition.
-Currently there are **0 clinical trials** and **0 publications** for this pair, so it is a graph-based prediction only.
+Carbetocin is an oxytocin receptor agonist. It is registered in Singapore as an injectable and is used to prevent postpartum haemorrhage due to uterine atony. Its knowledge-graph indications are Prader-Willi syndrome and Noonan syndrome.
+The TxGNN model predicts it may be effective for **isotretinoin-like syndrome**, but **no clinical trials and no relevant publications** currently support this prediction.
+This is a model-only prediction (Evidence Level L5).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration record |
+| Original Indication | Prader-Willi syndrome, Noonan syndrome (knowledge-graph indications; the Singapore licence has no approved indication text recorded) |
 | Predicted New Indication | Isotretinoin-like syndrome |
 | TxGNN Prediction Score | 99.15% |
 | Evidence Level | L5 |
@@ -51,9 +51,15 @@ Currently there are **0 clinical trials** and **0 publications** for this pair, 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Carbetocin is generally known as a long-acting synthetic oxytocin receptor agonist. Nothing in the data links that mechanism to isotretinoin-like syndrome.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Pharmacology data identifies carbetocin as a peptide agonist of the oxytocin receptor (OXTR). It is used to prevent postpartum haemorrhage due to uterine atony. An intranasal formulation (LV-101) has been in development for hyperphagia in Prader-Willi syndrome.
 
-The high score reflects proximity in the knowledge graph, not biological or clinical evidence. The record lists no original indication to compare against, so the similarity between original and new indication cannot be assessed. No mechanistic link is established, and the prediction should not be treated as actionable in its current form.
+No plausible link between oxytocin receptor agonism and isotretinoin-like syndrome, a congenital malformation syndrome, could be verified from the available data. The high score (0.991) most likely reflects graph-based similarity to other congenital syndromes rather than a validated biological mechanism. The model ranked this prediction 9,415th overall, so the score should be interpreted cautiously.
+
+Among the other top-ranked predictions, two have a more coherent rationale and are flagged as research questions:
+- **Prader-Willi syndrome due to paternal deletion of 15q11q13** (score 99.0%): a molecular subtype of an existing indication. The oxytocin system is plausibly involved, since oxytocin-producing neurons in the hypothalamus are reduced in this condition.
+- **Partial deletion of the long arm of chromosome 15** (score 98.9%): this may overlap the 15q11-q13 region, but the phenotype depends on the exact deleted region.
+
+The remaining top-10 predictions (Goodman syndrome, brachymorphism-onychodysplasia-dysphalangism syndrome, Mietens syndrome, hydrocephalus-costovertebral dysplasia-Sprengel anomaly syndrome, lethal faciocardiomelic dysplasia, symptomatic Coffin-Lowry syndrome in female carriers, and hypoglossia-hypodactyly syndrome) have no clinical or literature support and no verifiable mechanism.
 
 ## Clinical Trial Evidence
 
@@ -61,36 +67,34 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for isotretinoin-like syndrome.
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN15173P | Duratocin RTS Solution for Injection 100 mcg/ml (Ferring GmbH) | Injection, solution | Not stated in the registry record |
+| SIN15173P | DURATOCIN RTS SOLUTION FOR INJECTION 100 MCG/ML (Ferring GmbH) | Injection, solution | Not recorded in the data compiled for this report |
 
 ## Safety Considerations
 
-- **Drug Interactions**: The interaction query returned no records for carbetocin.
+- **Drug Interactions**: The interaction query found only a pharmacological target relationship (oxytocin receptor, OXTR), not a drug-drug interaction. No interacting drugs were identified.
+- **Cardiac signal (from a case report on a different topic)**: One retrieved case report described chest pain and electrocardiographic signs of myocardial ischaemia right after carbetocin was given during a caesarean delivery, in a patient with an anomalous right coronary artery. It is a single case, but it suggests cardiovascular caution.
 
-Please refer to the package insert for warnings and contraindications. These were not available in the Evidence Pack.
+Package insert warnings and contraindications were not available. Please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting trials or publications, no mechanistic link, and no stated original indication to compare against. Safety screening also cannot proceed without the package insert.
+The prediction for isotretinoin-like syndrome rests only on a graph-based score. There are no trials, no relevant publications, and no verifiable mechanism linking oxytocin receptor agonism to this condition. The three publications retrieved for the sixth-ranked prediction are keyword-matched noise (a bioinformatics study, an obstetric case report, a veterinary study). They do not support any new indication.
 
 **To proceed, the following is needed:**
-- The HSA package insert (warnings, contraindications, approved indication)
-- Mechanism of action data from DrugBank
-- Registry searches (ClinicalTrials.gov, ICTRP) and a PubMed search specific to this drug–disease pair
-- Route compatibility assessment (currently pending)
-
-Among the other top-10 candidates, **Prader-Willi syndrome due to paternal deletion of 15q11q13** (score 98.99%) is flagged as a Research Question. It has a plausible oxytocin-system rationale but also no supporting studies in the package. Partial deletion of the long arm of chromosome 15 overlaps that region and should be handled together with it.
-
-This report is for research reference only and does not constitute medical advice. Any repurposing candidate requires clinical validation before use.
+- Package insert warnings and contraindications from the HSA website, which block safety screening
+- Mechanism of action data for carbetocin (for example, from DrugBank)
+- A literature review specific to isotretinoin-like syndrome and the oxytocin pathway
+- Route compatibility assessment, since the Singapore product is injectable and any new use may need a different route
+- Consideration of the Prader-Willi 15q11q13 deletion subtype and 15q deletions as research questions, using evidence from the parent Prader-Willi indication and external sources
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

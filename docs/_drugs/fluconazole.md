@@ -2,7 +2,7 @@
 layout: default
 title: Fluconazole
 parent: Low Evidence (L5)
-nav_order: 431
+nav_order: 435
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,69 +29,91 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Fluconazole: From Antifungal Therapy to Punctate Epithelial Keratoconjunctivitis
+# Fluconazole: From Candidiasis to Punctate Epithelial Keratoconjunctivitis
 
 ## One-Sentence Summary
 
-Fluconazole is an established azole antifungal that is marketed in Singapore.
-The TxGNN model predicts it may be effective for **Punctate Epithelial Keratoconjunctivitis**, but this rests on a model score alone, with **0 clinical trials** and **0 publications** supporting this direction.
+Fluconazole is an azole antifungal originally used to treat candidiasis (oral, oesophageal, vaginal and invasive forms) and cryptococcal meningitis.
+The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**, but **no clinical trials and no publications** currently support this prediction, so it remains a model-only signal.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Oral candidiasis, candidiasis, vulvovaginal candidiasis, oesophageal candidiasis, cryptococcal meningitis, candidaemia, disseminated candidiasis (the Singapore licence records contain no indication text, so these come from the knowledge graph) |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 99.24% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 9 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Fluconazole is a systemic azole antifungal. Its known mechanism is inhibition of fungal CYP51, the enzyme needed to make ergosterol for the fungal cell membrane.
+Currently, detailed mechanism of action data is not available. Based on known information, fluconazole is an azole antifungal that is generally understood to inhibit fungal ergosterol synthesis. Its efficacy in superficial and invasive fungal infections is established, but this general knowledge is not supported by mechanism data compiled for this report.
 
-This mechanism does not fit the predicted condition. Punctate epithelial keratoconjunctivitis is usually viral (adenoviral) or immune-mediated (for example, Thygeson type), not fungal. Fluconazole has no established target in either process.
+The link to the predicted indication is weak. Punctate epithelial keratoconjunctivitis is often viral or inflammatory in origin, so an antifungal rationale is not apparent. The high score (99.24%, rank 8,703) most likely reflects patterns in the knowledge graph rather than a demonstrated biological connection. This should be treated as a model prediction only.
 
-The high score (0.992) is a knowledge-graph prediction, and nothing in the evidence supports it. The prediction should be treated as a probable graph artifact until independent evidence appears.
+For context, the other top-ranked predictions are also weakly supported. Plasmodium falciparum malaria has only in vitro evidence. Pneumocystosis has no fluconazole-specific trial, and Pneumocystis is not reliably susceptible to azoles. The remaining predictions have no supporting evidence.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
 
+---
+
 ## Singapore Market Information
 
-Fluconazole has 9 registrations in Singapore. The 5 main ones are listed below.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN06804P | DIFLUCAN CAPSULE 100 mg | Capsule | Not stated in licence record |
+| SIN04460P | DIFLUCAN CAPSULE 150 mg | Capsule | Not stated in licence record |
+| SIN05770P | DIFLUCAN FOR INFUSION 2 mg/ml | Injection | Not stated in licence record |
+| SIN15044P | FLUCONAZOLE KABI SOLUTION FOR INFUSION 2MG/ML | Infusion solution | Not stated in licence record |
+| SIN14781P | FLUCONAZOLE B.BRAUN SOLUTION FOR INFUSION 2MG/ML | Infusion solution | Not stated in licence record |
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN06804P | DIFLUCAN CAPSULE 100 mg | Capsule |
-| SIN15044P | FLUCONAZOLE KABI SOLUTION FOR INFUSION 2MG/ML | Infusion, solution |
-| SIN04460P | DIFLUCAN CAPSULE 150 mg | Capsule |
-| SIN14781P | FLUCONAZOLE B.BRAUN SOLUTION FOR INFUSION 2MG/ML | Infusion, solution |
-| SIN13329P | Apo-Fluconazole 150mg Capsule | Capsule |
+Nine valid single-ingredient licences exist in total. The remaining four are Apo-Fluconazole 150 mg (SIN13329P), Medoflucon 150 (SIN12599P), Medoflucon 50 (SIN12600P) and Omastin 50 mg (SIN13067P), all capsules. Available forms are oral (capsule) and injectable (infusion solution, injection). No topical or ophthalmic product is registered.
 
-Available routes are oral (capsule) and injectable (infusion solution, injection).
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindication signals from the knowledge graph** (not label text): long QT syndrome, familial long QT syndrome, kidney disease, pyoureter, liver disease, gallbladder disease.
+- **Drug Interactions**: 100 interactions were identified. The main ones are:
+  - **Major**: chlorpropamide.
+  - **Moderate**: famotidine, rabeprazole, omeprazole, dexlansoprazole, hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide, loperamide, aprepitant, saxagliptin, bisacodyl, picosulfuric acid, and polyethylene glycol with electrolytes.
+  - **Minor**: amphotericin B and clarithromycin.
+- Published reports also describe fluconazole raising tacrolimus trough levels in kidney transplant recipients (a CYP3A4-related interaction), which warrants monitoring.
+
+Please refer to the package insert for the full warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no trials and no publications behind it. The mechanistic link is implausible, because this eye condition is not fungal and fluconazole's antifungal mechanism has no target in it. None of the other nine predictions has credible support either. The two with any evidence are Plasmodium falciparum malaria (one in vitro screen) and pneumocystosis (antifungal prophylaxis trials that do not show efficacy against *Pneumocystis*).
+The prediction rests on the model score alone. There are no trials or publications, and no plausible antifungal mechanism for this largely viral or inflammatory eye condition. Evidence is at the lowest level (L5). No other predicted indication reaches a level that would justify advancing.
 
 **To proceed, the following is needed:**
-- The package insert warnings and contraindications from the HSA website, which are required before any safety screening
-- Detailed mechanism of action data from DrugBank
-- Any independent preclinical or clinical evidence of fluconazole activity in punctate epithelial keratoconjunctivitis, followed by an assessment of whether an ocular route is feasible
+- Mechanism of action data, and a mechanistic rationale linking fluconazole to this ocular condition
+- A literature and trial search specific to fluconazole in keratoconjunctivitis, including any ophthalmic use
+- Package insert warnings and contraindications from the Singapore regulator (HSA)
+- Assessment of route feasibility, since no ophthalmic or topical fluconazole product is registered in Singapore
+- Review of the QT-prolongation and hepatic or renal safety signals, and of the interaction burden, for the target population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

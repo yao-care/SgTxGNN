@@ -29,18 +29,21 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ammonium Chloride: From Expectorant Use to Acute Laryngopharyngitis
+# Ammonium Chloride: From Pharyngitis and Common Cold to Acute Laryngopharyngitis
 
 ## One-Sentence Summary
 
-Ammonium chloride is a classic oral expectorant. In Singapore it is registered mainly in cough and expectorant syrups and solutions.
-The TxGNN model predicts it may be effective for **acute laryngopharyngitis**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction. It is a model-only signal.
+Ammonium chloride is a traditional expectorant, originally used for pharyngitis, common cold and nasopharyngitis.
+The TxGNN model predicts it may be effective for **acute laryngopharyngitis**, but **0 clinical trials** and **0 publications** currently support this prediction.
+It is essentially an extension of the existing label, not a true repurposing finding.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Expectorant (inferred from product names such as "Expectorant"; no approved indication text is on file) |
+| Original Indication | Pharyngitis, common cold, nasopharyngitis (the Singapore licence records contain no indication text) |
 | Predicted New Indication | Acute laryngopharyngitis |
 | TxGNN Prediction Score | 99.94% |
 | Evidence Level | L5 |
@@ -48,49 +51,90 @@ The TxGNN model predicts it may be effective for **acute laryngopharyngitis**, b
 | Number of Registrations | 17 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, ammonium chloride is a classic oral expectorant. It is thought to increase respiratory tract fluid secretion and loosen mucus. Its efficacy in this role is long established, and mechanistically it may be applicable to inflammation of the upper airway.
+Currently, detailed mechanism of action data is not available. Based on known information, ammonium chloride is a long-established expectorant, usually found in combination cough syrups. Its efficacy in upper respiratory conditions such as pharyngitis and the common cold is part of its traditional use, and mechanistically it may be applicable to acute laryngopharyngitis.
 
-The link between cough and expectoration and acute laryngopharyngitis is plausible, since both involve upper respiratory secretions and irritation. However, this reasoning is speculative. The TxGNN score is very high (0.999), but no trial or paper corroborates it. Expectorants may ease symptoms, but there is no evidence that ammonium chloride treats laryngopharyngitis itself.
+Acute laryngopharyngitis is anatomically and clinically very close to the approved indications (pharyngitis, nasopharyngitis, common cold). The high TxGNN score most likely reflects this proximity in the knowledge graph. It does not reflect new biological evidence.
+
+Other predicted indications are much weaker. Examples are faucial diphtheria, cervical disc degenerative disorder and gonococcal urethritis, which have no plausible link to the drug's pharmacology. The top-ranked prediction is therefore the most reasonable, but it remains unvalidated.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for acute laryngopharyngitis.
+
+---
 
 ## Singapore Market Information
 
+All 17 licences are valid single-ingredient registrations. The licence records contain no approved indication text. The table shows 5 of them.
+
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN02839P | BEANAMINE EXPECTORANT | Solution | — |
-| SIN08782P | DIPHEN 5 EXPECTORANT | Syrup | — |
-| SIN08799P | DIPHEN 10 EXPECTORANT | Syrup | — |
-| SIN09014P | PHENEXPECT SYRUP | Syrup | — |
-| SIN03335P | XSP-BENA EXPECTORANT | Syrup | — |
+| SIN02839P | BEANAMINE EXPECTORANT | Solution | Not stated in the data |
+| SIN08782P | DIPHEN 5 EXPECTORANT | Syrup | Not stated in the data |
+| SIN08799P | DIPHEN 10 EXPECTORANT | Syrup | Not stated in the data |
+| SIN09014P | PHENEXPECT SYRUP | Syrup | Not stated in the data |
+| SIN03335P | XSP-BENA EXPECTORANT | Syrup | Not stated in the data |
 
-Showing 5 of 17 registrations. Registered dosage forms include solution, syrup and elixir, all oral liquids.
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindication signals from the knowledge graph (not label text)**: The graph links ammonium chloride to several conditions where use is a concern. The main ones are:
+  - Liver failure and impaired renal function
+  - Anuria
+  - Adrenocortical insufficiency and Addison disease
+  - Hypertension
+  - Pulmonary edema
+  - Coronary artery disease and myocardial ischemia
+  - Epilepsy
+  - Peptic ulcer disease
+  - Hyperthyroidism
+  - Angle-closure glaucoma
+  - Others (e.g., benign prostatic hyperplasia, anxiety disorders, necrotizing enterocolitis)
+- **Drug Interactions**: 21 interactions are recorded. None is major.
+  - **Moderate**: amphetamine, dextroamphetamine, lisdexamfetamine, metamfetamine, benzphetamine
+  - **Minor**: ephedrine, pseudoephedrine, tricyclic antidepressants (amitriptyline, clomipramine, desipramine, doxepin, imipramine, nortriptyline, protriptyline, trimipramine), methadone, mexiletine, flecainide
+
+Package insert warnings and contraindications have not been retrieved. Please refer to the package insert for authoritative safety information.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on model score alone, with no trials or literature and no verified mechanism, so evidence is at L5. Retrieved items for other predicted indications do not change this.
+The prediction score is very high, but there are no trials and no literature, and the evidence level is L5. The prediction mostly restates the existing label for pharyngitis and the common cold, so it adds little new repurposing value. The knowledge-graph contraindication signals also remain unreviewed against the label.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications, which are currently a blocking gap for safety screening
-- Mechanism of action data and the approved indication text (for example from DrugBank)
-- Route and formulation compatibility assessment for a throat or upper airway indication
-- Any clinical or preclinical evidence of ammonium chloride in laryngopharyngitis
-- Optional side lead: the **headache disorder** prediction (rank 7, L4) has five historical papers from 1955 to 1982 on ammonium chloride in chronic migraine and headache. These appear to be uncontrolled clinical series, so they are only hypothesis-generating. That lead could be reviewed separately as a research question.
+- Singapore package insert warnings, contraindications and approved indication text for the 17 licences
+- Mechanism of action data
+- Confirmation of whether acute laryngopharyngitis is already covered by the current labelled indications, since this would make the prediction a label clarification and not a repurposing project
+- Review of the knowledge-graph contraindications (especially renal, hepatic, and acid-base risks) against the label
+
+---
+
+## Other Predicted Indications Worth Noting
+
+Only one other prediction has any supporting literature, and it is weak.
+
+- **Headache disorder (rank 7, score 97.99%, evidence level L4)**: Four 1950s reports describe ammonium chloride in chronic migraine and chronic headache.
+  - They are historical and likely uncontrolled, and their abstracts were not available.
+  - They are hypothesis-generating at best (PMIDs [13254186](https://pubmed.ncbi.nlm.nih.gov/13254186/), [13345397](https://pubmed.ncbi.nlm.nih.gov/13345397/), [13317850](https://pubmed.ncbi.nlm.nih.gov/13317850/), [13466764](https://pubmed.ncbi.nlm.nih.gov/13466764/)).
+  - Any follow-up would need a modern controlled design and a safety review (metabolic acidosis, hepatic or renal impairment).
+- **Allergic urticaria and tracheal disease**: The retrieved articles are spurious matches (occupational epoxy dermatitis, and a plant extract study), so they provide no support.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

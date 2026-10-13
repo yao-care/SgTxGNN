@@ -2,7 +2,7 @@
 layout: default
 title: Doravirine
 parent: Low Evidence (L5)
-nav_order: 343
+nav_order: 347
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Doravirine: From HIV-1 Infection to Feline Acquired Immunodeficiency Syndrome
+# Doravirine: From HIV Infection to Feline Acquired Immunodeficiency Syndrome
 
 ## One-Sentence Summary
 
-Doravirine is a non-nucleoside reverse transcriptase inhibitor (NNRTI) used against HIV-1 infection.
-The TxGNN model predicts it may be effective for **feline acquired immunodeficiency syndrome (FIV)**, a veterinary indication.
-There are currently **0 clinical trials** and **0 publications** supporting this specific prediction, so it rests on model output alone.
+Doravirine is an HIV-1 non-nucleoside reverse transcriptase inhibitor (NNRTI), originally used to treat HIV infection and AIDS.
+The TxGNN model predicts it may be effective for **feline acquired immunodeficiency syndrome**, but there are currently **0 clinical trials** and **0 directly relevant publications** supporting this prediction.
+The high score most likely reflects ontology proximity to HIV rather than independent evidence, and this is a veterinary indication.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV-1 infection (inferred from drug class; the Singapore registration data do not state an indication) |
+| Original Indication | HIV infectious disease; AIDS (the Singapore licence records contain no approved indication text) |
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 99.93% |
 | Evidence Level | L5 |
@@ -51,9 +51,14 @@ There are currently **0 clinical trials** and **0 publications** supporting this
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the Evidence Pack. Doravirine is known to be an HIV-1 NNRTI, so mechanistically it acts by blocking viral reverse transcriptase.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, doravirine is an HIV-1 NNRTI. It binds to HIV-1 reverse transcriptase and blocks viral replication. Its efficacy in HIV infection is the basis of its existing approvals.
 
-Feline immunodeficiency virus (FIV) is a lentivirus related to HIV, which is the likely reason the model links the two. The high score (0.999) is probably driven by proximity between lentivirus and HIV nodes in the knowledge graph rather than by real antiviral activity. FIV reverse transcriptase is generally insensitive to NNRTIs, which weakens the mechanistic case. FIV is also an animal disease, not a human clinical target.
+Feline immunodeficiency virus (FIV) is a lentivirus related to HIV, which is likely why the model scored this indication highly. However, NNRTIs generally have poor activity against FIV because the reverse transcriptase binding pocket differs. The high score therefore most likely reflects closeness to HIV/AIDS in the knowledge graph rather than independent evidence. Feline AIDS is also a veterinary indication, so it is not a human repurposing target.
+
+Other predicted indications were reviewed as well:
+- **Simian immunodeficiency virus infection** (99.93%): SIV, like HIV-2, is generally not susceptible to NNRTIs, so the mechanistic rationale is weak. It is primarily an animal-model indication.
+- **Congenital HIV** and **AIDS related complex** (both 98.75%): These fall within the approved HIV-1 indication, so they are population or terminology extensions rather than true repurposing.
+- Predictions for rare neurodevelopmental disorders and benign or malignant reproductive-system tumours have no plausible mechanistic link and look like knowledge-graph artifacts.
 
 ## Clinical Trial Evidence
 
@@ -61,18 +66,28 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+No literature directly supports the top prediction. The only publications linked to the lower-ranked predictions are indirect:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [31658118](https://pubmed.ncbi.nlm.nih.gov/31658118/) | 2020 | Review | Current Opinion in HIV and AIDS | Islatravir (a different drug) for HIV-1 treatment and prevention; linked to the SIV prediction but not about doravirine |
+| [34459470](https://pubmed.ncbi.nlm.nih.gov/34459470/) | 2021 | Review | Current Opinion in HIV and AIDS | Drug interactions and adverse reactions in contemporary antiretroviral therapy; indirect context for safety and DDI |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN15869P | PIFELTRO FILM-COATED TABLET 100MG | Film-coated tablet |
-| SIN15909P | DELSTRIGO FILM COATED TABLET 100MG/300MG/300MG | Film-coated tablet |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN15869P | PIFELTRO FILM-COATED TABLET 100MG | Tablet, film coated | Not stated in the available records |
+| SIN15909P | DELSTRIGO FILM COATED TABLET 100MG/300MG/300MG | Tablet, film coated | Not stated in the available records |
 
 ## Safety Considerations
 
-- **Drug Interactions**: No interaction records were found in the queried source.
+**Drug Interactions**: 59 interactions were identified. Examples of the more significant ones include:
+- **Major**: Dexamethasone, Lumacaftor
+- **Moderate**: Glycerol phenylbutyrate, Metreleptin, Troglitazone, Deferasirox, Praziquantel, Griseofulvin
+- **Minor**: Aprepitant, Cimetidine, Clarithromycin, Clotrimazole, Miconazole, Cobicistat, Ticagrelor, Ivacaftor, Zafirlukast, Chloramphenicol, Erythromycin, Fluconazole
+
+Doravirine has a CYP3A-related interaction profile, so co-medications that induce or inhibit CYP3A need careful review.
 
 Please refer to the package insert for warnings and contraindications.
 
@@ -81,16 +96,13 @@ Please refer to the package insert for warnings and contraindications.
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical or literature support, and the mechanistic rationale is weak because FIV reverse transcriptase is generally insensitive to NNRTIs. It is also a veterinary indication and likely a graph-proximity artifact.
+The prediction rests on model score alone. There are no trials or directly relevant literature, the mechanistic link is weak because NNRTIs generally lack FIV activity, and feline AIDS is a veterinary rather than human indication. The remaining predictions are either extensions of the existing HIV indication or lack any plausible mechanism.
 
 **To proceed, the following is needed:**
-- In vitro data showing doravirine activity against FIV reverse transcriptase
-- A decision on whether a veterinary indication is within scope
-- The mechanism of action from DrugBank and the HSA package insert (warnings and contraindications)
-
-**Note on other predictions in this pack:** The "congenital human immunodeficiency virus" prediction (rank 5) has Phase 3 RCT support (NCT02275780, NCT02397096) in adult HIV-1. This is essentially the on-label disease family, not true repurposing. Congenital, perinatal, or pediatric use is not established, so it would need its own evaluation with dedicated pediatric and pregnancy PK/safety data.
-
-*This report is for research reference only and does not constitute medical advice. Predicted candidates require clinical validation before any application.*
+- Package insert warnings and contraindications from HSA (a blocking gap for safety screening)
+- Detailed mechanism of action data
+- In vitro evidence of doravirine activity against FIV, if the veterinary direction is of interest
+- For congenital HIV, which is the most clinically plausible item, pediatric and neonatal dosing, safety and efficacy data, to be evaluated as a population extension of the approved indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

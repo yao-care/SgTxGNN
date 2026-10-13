@@ -2,7 +2,7 @@
 layout: default
 title: Nandrolone Decanoate
 parent: Low Evidence (L5)
-nav_order: 689
+nav_order: 697
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,33 +29,46 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Nandrolone Decanoate: From an Unspecified Registered Indication to Brain Small Vessel Disease 1 (With or Without Ocular Anomalies)
+# Nandrolone Decanoate: From an Unspecified Original Indication to Brain Small Vessel Disease (COL4A1-related)
 
 ## One-Sentence Summary
 
-Nandrolone decanoate is an injectable anabolic androgen, but the Singapore registration record does not state an approved indication.
-The TxGNN model ranks **brain small vessel disease 1 with or without ocular anomalies** as its top prediction, but this rests on a graph-based score alone.
-There are **0 clinical trials** and **16 publications** linked to this prediction, and the publications are general reviews of ocular or congenital anomalies that do not evaluate nandrolone.
+Nandrolone decanoate is an injectable anabolic androgen steroid marketed in Singapore, but the approved indication text is not recorded in the data compiled for this report.
+The TxGNN model predicts it may be effective for **brain small vessel disease 1 with or without ocular anomalies**, but there are **0 clinical trials** and **0 publications** supporting this top prediction.
+The overall evidence is very weak, and the only related literature concerns other predicted diseases (diabetic nephropathy and type 1 diabetes).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration record |
+| Original Indication | Not available (the approved indication text on the Singapore licence is empty) |
 | Predicted New Indication | Brain small vessel disease 1 with or without ocular anomalies |
 | TxGNN Prediction Score | 88.55% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the source record. Based on known information, nandrolone decanoate is an anabolic steroid that acts as an androgen receptor agonist. The registration record gives no approved indication, so its original therapeutic use cannot be confirmed from this data.
+Currently, detailed mechanism of action data is not available. Nandrolone decanoate is a long-acting ester of nandrolone, an anabolic steroid that acts as an androgen receptor agonist. Its original approved indication is not recorded in the compiled data.
 
-The predicted disease is a COL4A1-related monogenic disorder caused by defects in the collagen IV basement membrane. No credible mechanism links androgen receptor activation to correcting such a defect. The score most likely reflects shared neighbours in the knowledge graph, not a biological rationale.
+For the top prediction, no mechanistic link is established. Brain small vessel disease 1 is a monogenic disorder caused by COL4A1 mutations that affect basement membrane integrity. Nandrolone has no known action on collagen IV biology. The high TxGNN score (88.55%) is a graph-based computational prediction only.
 
-The related COL4A1 phenotype ranked second (autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome, score 88.35%) has no trials or literature and the same problem. Overall, this prediction should be treated as a model artefact until proven otherwise.
+The same is true of the second-ranked prediction, autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome (score 88.35%), another COL4A1-related basement membrane disorder. A few lower-ranked predictions have a weak or speculative rationale, noted below.
+
+### Other Predicted Indications (for reference)
+
+| Rank | Predicted Disease | Score | Evidence Level | Comment |
+|---|---|---|---|---|
+| 3 | Autoimmune oophoritis | 87.16% | L5 | Speculative link via sex-steroid modulation of the immune and gonadal axis. Effect is unclear and could be harmful. |
+| 4 | Diabetic nephropathy | 86.90% | L4 | Indirect link (anabolic effect on catabolism and renal anaemia). Only one 1970 case-level report. |
+| 5 | Type 1 diabetes mellitus | 85.52% | L4 | Only a 1986 rat study, with inconsistent results across experiments. |
+| 6 | Cholecystolithiasis | 83.62% | L5 | Anabolic androgens are associated with cholestasis, which may worsen rather than help. |
+| 7 | Hyperuricemia (obsolete term) | 83.08% | L5 | Androgens are generally associated with higher uric acid, so benefit is implausible. |
+| 8 | Resistance to thyroid hormone (THRB) | 81.90% | L5 | No known cross-regulation to correct THRB dysfunction. |
+| 9 | Scalp dermatosis | 81.31% | L5 | Androgens can aggravate some scalp conditions. |
+| 10 | Hyperthyroidism | 79.63% | L5 | Androgens alter thyroid hormone measurements but do not treat the disease. |
 
 ## Clinical Trial Evidence
 
@@ -63,46 +76,42 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-The 16 retrieved publications concern congenital ocular and craniofacial anomalies in general. None of the abstracts examines nandrolone or any androgen treatment. The 10 below are the review-type items; they show only that the search matched on disease terms.
+Currently no related literature available for the top-ranked prediction. For other predicted indications, the following were found:
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [35882526](https://pubmed.ncbi.nlm.nih.gov/35882526/) | 2023 | Review | Journal of Medical Genetics | Axenfeld-Rieger syndrome: anterior segment anomalies with or without systemic features; subtypes with distinct phenotypes |
-| [6782689](https://pubmed.ncbi.nlm.nih.gov/6782689/) | 1981 | Review | Survey of Ophthalmology | Ocular coloboma is a heterogeneous malformation, usually inherited, ranging from iris coloboma to anophthalmos |
-| [30182440](https://pubmed.ncbi.nlm.nih.gov/30182440/) | 2018 | Review | American Journal of Medical Genetics Part C | Neuropathology spectrum of holoprosencephaly, a forebrain patterning disorder |
-| [33870948](https://pubmed.ncbi.nlm.nih.gov/33870948/) | 2022 | Review | Journal of Neuro-Ophthalmology | Ophthalmologic, systemic and genetic findings in optic nerve aplasia |
-| [11941259](https://pubmed.ncbi.nlm.nih.gov/11941259/) | 2002 | Review | Journal Français d'Ophtalmologie | Congenital megalocornea: genetics, association with glaucoma, diagnosis |
-| [10498002](https://pubmed.ncbi.nlm.nih.gov/10498002/) | 1999 | Review | Optometry and Vision Science | Tilted disc syndrome: appearance, visual deficits and how to distinguish it from acquired optic nerve disease |
-| [6390155](https://pubmed.ncbi.nlm.nih.gov/6390155/) | 1983 | Review | Neurologic Clinics | Optic disk abnormalities may be congenital, acquired ocular, or signs of intracranial disease |
-| [1458324](https://pubmed.ncbi.nlm.nih.gov/1458324/) | 1992 | Review | Veterinary Clinics of North America: Equine Practice | Congenital ocular conditions in horses (veterinary, not human) |
-| [16848213](https://pubmed.ncbi.nlm.nih.gov/16848213/) | 2006 | Review | Acta Medica Croatica | Distichiasis: case in a 9-year-old girl treated with lid splitting and cryotherapy |
-| [22963965](https://pubmed.ncbi.nlm.nih.gov/22963965/) | 2012 | Review | Annales de Dermatologie et de Vénéréologie | Branchio-oculo-facial syndrome (TFAP2A mutations): atypical case report |
+| [5430111](https://pubmed.ncbi.nlm.nih.gov/5430111/) | 1970 | Case series / clinical observation | Ophthalmologica | Reported favourable effects of nandrolone decanoate on the eye and kidney in a few cases of Kimmelstiel-Wilson syndrome (diabetic nephropathy). Old and uncontrolled. |
+| [3708906](https://pubmed.ncbi.nlm.nih.gov/3708906/) | 1986 | Preclinical animal study | Clin Exp Immunol | In BB rats, nandrolone decanoate significantly lowered diabetes incidence in males in one experiment but not in a second. Sex, gonadectomy and other steroids had no effect. |
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN04300P | DECA-DURABOLIN INJECTION 25 mg/ml | Injection | Not stated in the registration record |
+| SIN04300P | DECA-DURABOLIN INJECTION 25 mg/ml | Injection | Not recorded |
+
+## Cytotoxicity
+
+Not applicable. Nandrolone decanoate is not an antineoplastic drug, so this section is omitted from the assessment.
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
 
-No drug interaction records were found in the queried source.
-
-Class-level concerns from the rationale notes for other candidates apply to any repurposing effort: virilisation in women, suppression of gonadotropins, fluid retention and adverse lipid effects.
+No drug-drug interaction records were found in the data compiled for this report. Based on general knowledge of androgens (not on the compiled data), fluid retention, cardiovascular effects and cholestasis are relevant concerns for some of the predicted populations.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical trials, no nandrolone-specific literature and no plausible mechanism, so it is a model output without supporting evidence. The safety information also cannot be confirmed, because the package insert data is missing.
+All predictions are model-based, and the top two are for rare COL4A1-related disorders with no plausible mechanistic link and no trials or literature. The only supporting studies (a 1970 case series and a 1986 rat study) are weak and relate to other diseases. Safety data and the original indication are also missing.
 
 **To proceed, the following is needed:**
-- The HSA package insert (warnings, contraindications, approved indication). This is a blocking gap for any safety screening.
-- Mechanism of action data from DrugBank, to allow a proper mechanistic-link analysis.
-- A check of other predicted candidates. The only one with any direct nandrolone evidence is **diabetic nephropathy** (score 86.90%, evidence level L4), supported by a single 1970 case series (PMID 5430111) with no modern validation. It could be logged as a research question, not a development candidate.
+- The package insert from HSA (warnings, contraindications, approved indication), which is currently a blocking gap
+- Mechanism of action data (for example from DrugBank)
+- Preclinical evidence on whether androgen receptor agonism can affect COL4A1-related basement membrane pathology
+- A reassessment of lower-ranked predictions with some indirect rationale (diabetic nephropathy, type 1 diabetes) using modern controlled data
+- Confirmation of route and formulation compatibility for any proposed new indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

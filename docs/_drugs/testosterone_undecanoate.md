@@ -2,7 +2,7 @@
 layout: default
 title: Testosterone Undecanoate
 parent: Low Evidence (L5)
-nav_order: 964
+nav_order: 974
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Testosterone Undecanoate: From Androgen Replacement to Homozygous Familial Hypercholesterolemia
+# Testosterone Undecanoate: From Hypogonadism to Homozygous Familial Hypercholesterolemia
 
 ## One-Sentence Summary
 
-Testosterone undecanoate is an androgen (testosterone ester) marketed in Singapore as NEBIDO, a sterile solution product.
-The TxGNN model predicts it may be effective for **homozygous familial hypercholesterolemia (HoFH)**,
-but **0 clinical trials** and **0 publications** currently support this prediction, so it is a model output only.
+Testosterone undecanoate is an androgen replacement therapy originally used for hypogonadism (including primary ovarian failure and hypogonadotropic hypogonadism).
+The TxGNN model predicts it may be effective for **homozygous familial hypercholesterolemia**, but there are **0 clinical trials** and **0 publications** supporting this prediction, so it rests on model output alone.
+A better-supported alternative among the other predictions is **androgen insensitivity syndrome**, with **2 publications** (low-level clinical evidence).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration record (testosterone undecanoate is generally used for testosterone replacement) |
+| Original Indication | Hypogonadism (including primary ovarian failure and hypogonadotropic hypogonadism); the Singapore licence text is blank, so this comes from the knowledge graph |
 | Predicted New Indication | Homozygous familial hypercholesterolemia |
 | TxGNN Prediction Score | 98.73% |
 | Evidence Level | L5 |
@@ -51,9 +51,15 @@ but **0 clinical trials** and **0 publications** currently support this predicti
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, testosterone undecanoate is an androgen ester used for testosterone replacement. Its efficacy in androgen deficiency is established, but this does not extend to cholesterol disorders.
+Detailed mechanism of action data is not currently available. Based on known information, testosterone undecanoate is an ester prodrug of testosterone that replaces deficient androgens in hypogonadal states.
 
-The mechanistic link to HoFH is weak. HoFH is caused by defects in the LDL receptor pathway. Androgens generally lower HDL cholesterol and have no established LDL-lowering role. The high score of 98.73% is a knowledge-graph prediction with no trial or literature backing, so it should not be read as evidence of efficacy.
+For the top-ranked prediction, **no documented mechanistic link was found**. Homozygous familial hypercholesterolemia is caused by defects in the LDL receptor pathway, and testosterone undecanoate has no known activity that restores LDL receptor function. Androgens can lower HDL cholesterol and have variable effects on lipids, which could be unfavourable. The high score appears to be a graph-based artefact rather than a pharmacologically grounded signal.
+
+Among the other predicted indications, several have a more plausible rationale:
+
+- **Androgen insensitivity syndrome (score 95.72%)**: Androgen replacement is biologically plausible in partial androgen insensitivity, where residual receptor function may respond to supraphysiologic testosterone. In complete androgen insensitivity the receptor is nonfunctional, so benefit is expected to be limited.
+- **Leydig cell hypoplasia due to LH resistance (94.50%)** and **46,XY disorder of sex development due to impaired androgen production (93.67%)**: Both involve deficient testosterone production, and replacement addresses the downstream deficiency. This is indirect reasoning from standard practice, with no trials or literature in the compiled data.
+- The remaining predictions (fragile X carrier symptoms, blepharophimosis-related conditions, telecanthus, ovarian hyperstimulation syndrome, and a chromosome 5p dosage disorder) have weak or no mechanistic support and likely reflect ontology proximity in the knowledge graph.
 
 ## Clinical Trial Evidence
 
@@ -61,32 +67,37 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+No literature is available for homozygous familial hypercholesterolemia. The following publications relate to the second-ranked prediction, androgen insensitivity syndrome:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [39039878](https://pubmed.ncbi.nlm.nih.gov/39039878/) | 2024 | Clinical study (self-controlled; likely small cohort or case series) | Zhonghua Er Ke Za Zhi (Chinese Journal of Pediatrics) | Evaluated efficacy and safety of oral testosterone undecanoate in genetically diagnosed children with androgen insensitivity syndrome at Beijing Children's Hospital (2009–2021) |
+| [8246276](https://pubmed.ncbi.nlm.nih.gov/8246276/) | 1993 | Double-blind crossover study (observational outcomes) | Journal of Sex & Marital Therapy | In four gonadectomised women with complete testicular feminization, oral testosterone undecanoate (120 mg/day) vs placebo for four weeks was assessed for hormone levels, mood, sociosexual functioning and body self-image |
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN13281P | NEBIDO Solution | Solution, sterile | Not stated in registration record |
-
-Manufacturer: Bayer AG (Berlin, Müllerstraße).
+| SIN13281P | NEBIDO Solution (Bayer AG) | Solution, sterile | Not specified in the data compiled for this report |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. No drug interaction records were found in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting trials or publications (L5), and the mechanism is implausible: androgens do not address the LDL receptor defect in HoFH. Safety data are also incomplete.
+The top prediction, homozygous familial hypercholesterolemia, has no supporting trials or literature and no plausible mechanism. Androgens may also worsen lipid profiles. The evidence level is L5 (model prediction only). Androgen insensitivity syndrome (L3, two small studies) is a more reasonable candidate and is better framed as a research question than a repurposing recommendation.
 
 **To proceed, the following is needed:**
-- The HSA package insert, to obtain approved indications, warnings and contraindications
-- Detailed mechanism of action data (MOA)
-- A targeted literature search on androgens and LDL receptor-deficient hypercholesterolemia
-- Consideration of the rank 2 prediction, androgen insensitivity syndrome (score 95.72%), which has two publications (a 2024 cohort study and a 1993 double-blind crossover study) and is a more evidence-supported lead (L3). Full-text review is needed to confirm the AIS subtype (partial vs complete), sample size and endpoints.
+- Singapore package insert warnings and contraindications (currently missing; this blocks safety screening)
+- Mechanism of action data for testosterone undecanoate
+- For homozygous familial hypercholesterolemia: mechanistic or preclinical evidence, and a review of androgen effects on lipids, before any further consideration
+- For androgen insensitivity syndrome: confirmation of the design and sample size of the 2024 study, and separate assessment of partial vs complete forms
+- For Leydig cell hypoplasia and 46,XY disorders of sex development: a literature search for existing clinical evidence
+- Route and formulation compatibility assessment (the licensed Singapore product is a sterile solution)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

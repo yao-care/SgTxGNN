@@ -2,7 +2,7 @@
 layout: default
 title: Glycerin
 parent: Low Evidence (L5)
-nav_order: 482
+nav_order: 486
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,17 +29,21 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Glycerin: From Constipation Relief to Cauda Equina Syndrome
+# Glycerin: From Constipation to Cauda Equina Syndrome
 
 ## One-Sentence Summary
 
-Glycerin is marketed in Singapore as an osmotic laxative in syrup and enema products, so its original use appears to be constipation relief. The registrations carry no approved-indication text, so this is inferred from product type. The TxGNN model predicts it may be effective for **cauda equina syndrome**, but there are **0 clinical trials** and **0 publications** supporting this prediction, and no plausible pharmacological link was found.
+Glycerin is an osmotic agent originally used to treat constipation.
+The TxGNN model predicts it may be effective for **cauda equina syndrome**, but **no clinical trials and no publications** currently support this direction.
+This is a model-only prediction. Among the other top-ranked predictions, only open-angle glaucoma and irritable bowel syndrome have a plausible, though weakly supported, mechanistic link.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in registrations (inferred: constipation, from syrup/enema products) |
+| Original Indication | Constipation disorder (from the TxGNN knowledge graph; no approved indication text in the Singapore licences) |
 | Predicted New Indication | Cauda equina syndrome |
 | TxGNN Prediction Score | 99.60% |
 | Evidence Level | L5 |
@@ -47,50 +51,82 @@ Glycerin is marketed in Singapore as an osmotic laxative in syrup and enema prod
 | Number of Registrations | 3 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, glycerin is an osmotic agent used as a laxative, and its use for constipation is well established. Mechanistically, there is no evident route by which it would help cauda equina syndrome.
+Currently, detailed mechanism of action data is not available. Based on known information, glycerin is an osmotic agent. Its efficacy in constipation is established, but there is no recognised mechanistic link to compressive or inflammatory disease of the cauda equina.
 
-Cauda equina syndrome is a compressive injury to the lumbosacral nerve roots. Osmotic dehydration is not a recognised treatment for it, and the supplied data identified no pharmacological link, trials or literature. The high score (rank 5,615 in the model's ranking) is best read as a statistical artefact of the knowledge graph rather than a mechanistic signal.
+The high score for cauda equina syndrome is a graph-based prediction only. No trials or literature were found to support it, so the prediction should be treated as a hypothesis, not a finding.
 
-Other predictions for glycerin have somewhat more plausible rationales, though all are still weak:
-- **Open-angle glaucoma** (score 99.59%, L4): osmotic lowering of intraocular pressure is established mainly for acute angle-closure episodes, so the link to chronic open-angle disease is indirect. The supplied literature does not show glycerin acting as a therapeutic agent there.
-- **Irritable bowel syndrome** (score 99.49%, L4): plausible only for constipation-predominant IBS, with no IBS-specific evidence supplied.
+Other predictions have somewhat more plausible rationales:
+- **Open-angle glaucoma (score 99.59%, L4):** Oral or intravenous glycerin lowers intraocular pressure by raising plasma osmolarity. This is used mainly as a short-term rescue measure in acute angle-closure glaucoma. It is not a chronic therapy for open-angle disease, and systemic risks such as hyperglycaemia, dehydration and nausea limit long-term use.
+- **Irritable bowel syndrome (score 99.49%, L4):** Glycerin's laxative action may relieve constipation-predominant symptoms. The link rests on symptom overlap with the existing indication, and there is no controlled evidence in this condition.
+- **Alopecia, hypotrichosis, alopecia areata, migraine and primary hereditary glaucoma:** No supporting mechanism or clinical evidence was found.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for cauda equina syndrome. None were found for the other nine top-ranked predictions either.
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available.
+For cauda equina syndrome, currently no related literature is available. Because the other predicted indications also have little or no evidence, the publications retrieved for them are summarised below; none provides direct efficacy evidence.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [1614157](https://pubmed.ncbi.nlm.nih.gov/1614157/) | 1992 | Review | Klin Monbl Augenheilkd | Pathogenesis and treatment of primary angle-closure glaucoma; not open-angle disease (open-angle glaucoma) |
+| [32890110](https://pubmed.ncbi.nlm.nih.gov/32890110/) | 2020 | Case series | J Glaucoma | Glycerin-preserved donor corneoscleral patch grafts for glaucoma drainage devices; a tissue-preservation use, not a drug effect (open-angle glaucoma) |
+| [20872359](https://pubmed.ncbi.nlm.nih.gov/20872359/) | 2011 | Clinical study | Eur J Ophthalmol | Artificial tears with osmoprotection for ocular surface damage from glaucoma therapy (open-angle glaucoma) |
+| [3896179](https://pubmed.ncbi.nlm.nih.gov/3896179/) | 1985 | Double-blind trial | Arch Intern Med | Polysorbate 60 was ineffective for male pattern baldness; glycerin was used as the control (alopecia) |
+| [14555416](https://pubmed.ncbi.nlm.nih.gov/14555416/) | 2003 | Safety review | Int J Toxicol | Safety assessment of triacetin as a cosmetic ingredient (alopecia) |
+| [32227767](https://pubmed.ncbi.nlm.nih.gov/32227767/) | 2020 | Safety study | J Tradit Chin Med | Skin and eye safety of a bee venom hair essence in rabbits (alopecia) |
+| [14215532](https://pubmed.ncbi.nlm.nih.gov/14215532/) | 1964 | Historical review | JAMA | Commentary on irritable colon; no glycerin-specific data (irritable bowel syndrome) |
+| [29191058](https://pubmed.ncbi.nlm.nih.gov/29191058/) | 2017 | Preclinical | Drug Deliv | Berberine nanoemulsion formulation study; not a clinical IBS study (irritable bowel syndrome) |
+| [4666940](https://pubmed.ncbi.nlm.nih.gov/4666940/) | 1972 | Case series | Trans Am Acad Ophthalmol Otolaryngol | Glycerin injection for posterior epistaxis; not related to migraine (migraine disorder) |
+
+---
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN02748P | LEMON SWEET PURGATIVE SYRUP | Syrup | Syarikat Wen Ken Drug Sdn Bhd |
-| SIN02959P | HUACHI ENEMA | Enema | Jen Sheng Pharmaceutical Co Ltd |
-| SIN03514P | MINICA S ENEMA | Enema | Yukinomoto Honten Co., Ltd |
+| SIN02748P | Lemon Sweet Purgative Syrup | Syrup | Not stated in the data compiled for this report |
+| SIN02959P | Huachi Enema | Enema | Not stated in the data compiled for this report |
+| SIN03514P | Minica S Enema | Enema | Not stated in the data compiled for this report |
+
+All three licences are valid single-ingredient products. Only syrup and enema forms are registered in Singapore.
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug-interaction records were found for glycerin in the queried source.
+**Drug Interactions:** The interaction screening returned 100 interacting drugs; 20 are shown in the data compiled for this report. Nearly all are rated Moderate, with one rated Minor (doxycycline). Examples include:
+- Abiraterone, tramadol, acetazolamide, hydrocortisone, salbutamol
+- Alfuzosin, hydrochlorothiazide, amiloride, amiodarone, amisulpride
+- Benazepril, anagrelide, propofol, apalutamide, apomorphine
+- Triamcinolone, arsenic trioxide, lumefantrine, asenapine
+
+Please refer to the package insert for warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on the model score alone (L5), with no trials, no literature and no plausible mechanism for cauda equina syndrome. Package insert safety data are also missing, which blocks safety screening.
+The top prediction, cauda equina syndrome, has no clinical trials, no literature and no recognised mechanistic link, so the high score reflects only the graph model. The more plausible ideas, osmotic lowering of intraocular pressure and constipation-predominant IBS, are also unsupported by direct evidence and face practical limits.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from HSA (blocking gap)
-- Mechanism of action data, for example from DrugBank
-- Approved-indication text for the three Singapore registrations, to confirm the original indication
-- A documented mechanistic rationale for cauda equina syndrome; otherwise consider redirecting effort to the glaucoma or constipation-predominant IBS candidates
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Package insert warnings and contraindications from the Singapore regulator (HSA), which are currently missing and block safety screening
+- Mechanism of action data for glycerin
+- Controlled clinical evidence in a prioritised indication (for example, constipation-predominant IBS or short-term intraocular pressure control)
+- Assessment of route compatibility, since only syrup and enema forms are registered in Singapore
+- Review of the drug interactions and systemic risks (hyperglycaemia, dehydration) for any proposed new use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

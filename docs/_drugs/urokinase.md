@@ -2,7 +2,7 @@
 layout: default
 title: Urokinase
 parent: Low Evidence (L5)
-nav_order: 1035
+nav_order: 1045
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,91 +29,77 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Urokinase: From Thrombolytic Therapy (Original Indication Not Recorded) to Primary Release Disorder of Platelets
+# Urokinase: From Pulmonary Embolism to Primary Release Disorder of Platelets
 
 ## One-Sentence Summary
 
-Urokinase is a plasminogen activator that dissolves blood clots (fibrinolysis). It is marketed in Singapore as an injectable powder.
-The TxGNN model predicts it may be effective for **primary release disorder of platelets**, but this is a model prediction only. There is **1 clinical trial** and **3 publications** retrieved, and none of them tests urokinase for this disease.
-
----
+Urokinase is a fibrinolytic (clot-dissolving) drug originally used for pulmonary embolism.
+The TxGNN model predicts it may be effective for **primary release disorder of platelets**, but there are **0 clinical trials** and only **3 loosely related publications**, none of which supports this use.
+This prediction rests on the model score alone, and the mechanism argues against it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Pulmonary embolism |
 | Predicted New Indication | Primary release disorder of platelets |
 | TxGNN Prediction Score | 98.63% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, urokinase is a plasminogen activator that converts plasminogen to plasmin and drives clot breakdown. Its approved indication is not recorded in the Singapore data, so the link to the new indication cannot be traced.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, urokinase is a plasminogen activator. It converts plasminogen to plasmin, which breaks down fibrin clots, and this is why it is used in pulmonary embolism.
 
-On mechanism, the prediction is hard to support. A primary platelet release (secretion) disorder is a bleeding disorder caused by impaired granule release. A fibrinolytic offers no clear pathway to correct this defect. Because urokinase increases bleeding risk, it could worsen the condition.
+Primary release disorder of platelets is a defect of platelet function (granule secretion), not an excess of fibrin clot. Thrombolysis does not address this underlying defect, and a fibrinolytic would be expected to increase bleeding risk. The high score (98.63%) is a network-based prediction and most likely reflects the closeness of platelet and coagulation pathways in the knowledge graph rather than real therapeutic benefit.
 
-The high score (98.63%) most likely reflects proximity in the knowledge graph rather than a real therapeutic relationship. The other platelet and bleeding disorders predicted for this drug (Glanzmann thrombasthenia, pseudo-von Willebrand disease, Scott syndrome and others) show the same pattern: all are bleeding disorders where a fibrinolytic would be expected to be counterproductive.
+The retrieved publications concern cholesterol crystal embolism, coronary thrombosis, and plasma uPA levels in leukaemia. None of them supports this indication.
 
----
+**Other predicted indications:**
+- **Thrombotic thrombocytopenic purpura (TTP)** is the only prediction with a plausible mechanistic rationale (evidence level L4, "Research Question"). Two case reports from the early 1980s describe urokinase use, and preclinical work supports targeted thrombolysis. However, one study suggests plasmin may inactivate ADAMTS13, which could worsen the disease. No trials are registered, and standard care (plasma exchange, immunosuppression, caplacizumab, recombinant ADAMTS13) is well established.
+- **Glanzmann thrombasthenia, pseudo-von Willebrand disease, constitutional thrombocytopenia, collagen receptor defects and Scott syndrome** are bleeding disorders. A fibrinolytic is expected to aggravate bleeding in these conditions, and there is no supporting evidence.
+- **Ledderhose disease, palmar fibromatosis and infantile digital fibromatosis** are fibrotic conditions. A link through plasmin-mediated matrix remodelling is only speculative, and there is no supporting evidence.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT06101667](https://clinicaltrials.gov/study/NCT06101667) | N/A (procedure) | Recruiting | 224 | Endovascular treatment vs medical management in acute basilar artery occlusion at 24–72 hours (ANGEL-BAO). A stroke population, not a platelet function disorder, and it does not test urokinase. Relevance grade: C. |
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|---------|---------|
-| [9173723](https://pubmed.ncbi.nlm.nih.gov/9173723/) | 1997 | Review | Z Kardiol | Role of coronary thrombosis in chronic myocardial ischemia. Not about platelet release disorders. |
-| [1414164](https://pubmed.ncbi.nlm.nih.gov/1414164/) | 1992 | Observational | Acta Haematol | High plasma urokinase-type plasminogen activator levels in acute non-lymphoblastic leukemia. Not about platelet release disorders. |
-| [32089086](https://pubmed.ncbi.nlm.nih.gov/32089086/) | 2020 | Unclassified | Circ Res | Crystal clots as a therapeutic target in cholesterol crystal embolism. Not about platelet release disorders. |
-
-None of these papers addresses the predicted disease.
-
----
+|------|-----|------|------|---------|
+| [32089086](https://pubmed.ncbi.nlm.nih.gov/32089086/) | 2020 | Review | Circulation Research | Cholesterol crystal embolism pathophysiology and therapeutic targets; not specific to this indication |
+| [9173723](https://pubmed.ncbi.nlm.nih.gov/9173723/) | 1997 | Review | Zeitschrift fur Kardiologie | Role of coronary thrombosis in chronic myocardial ischaemia; not specific to this indication |
+| [1414164](https://pubmed.ncbi.nlm.nih.gov/1414164/) | 1992 | Cohort | Acta Haematologica | High plasma uPA levels in acute non-lymphoblastic leukaemia; not specific to this indication |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN11140P | UROKINASE-GREEN CROSS INJ. 60,000 iu/vial | Injection, powder, for solution | China Chemical & Pharmaceutical Co., Ltd. |
-
-The approved indication text is not available in the registration record.
-
----
+| SIN11140P | UROKINASE-GREEN CROSS INJ. 60,000 iu/vial | Powder for solution for injection | Not stated in the data compiled for this report |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: 100 interactions were identified, and 20 are listed in the data compiled for this report. Many involve agents that raise bleeding risk. Examples:
+  - **Major**: abciximab, apixaban, betrixaban, bivalirudin, acalabrutinib, avapritinib, deferasirox, ibritumomab tiuxetan, tositumomab (I-131)
+  - **Moderate**: acetylsalicylic acid, ibuprofen, ketorolac, celecoxib, diclofenac (topical), aminocaproic acid, omega-3 fatty acids, ginger, fenfluramine, sibutramine
 
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on the model score alone, with no supporting trials or literature. The mechanism points the wrong way: a fibrinolytic would be expected to aggravate bleeding in a platelet function disorder.
-
-Among the other predictions for this drug, only **thrombotic thrombocytopenic purpura (TTP)** has some biological plausibility (evidence level L4, "Research Question"):
-- **Supporting:** Preclinical work (Microlyse) and a 1981 case report of urokinase for severe neurological complications in TTP.
-- **Against:** Plasmin can inactivate ADAMTS13, and fibrinogenolysis and bleeding are concerns in thrombocytopenic patients.
-- **Standard of care:** Plasma exchange, immunosuppression and caplacizumab are not displaced by this evidence.
+The prediction rests on the model score alone, with no registered trials and no supporting literature. Urokinase dissolves clots, whereas platelet release disorders are defects of platelet function, so a fibrinolytic is mechanistically unlikely to help and may increase bleeding.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from the HSA website (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- The approved indication in Singapore, to define the original-to-new indication link
-- Any direct preclinical or clinical evidence of urokinase in the predicted disease. Without it, the evaluation should not advance beyond S0.
+- Package insert warnings and contraindications from HSA, which are currently missing and block safety screening
+- Detailed mechanism of action data (MOA)
+- Any clinical or mechanistic evidence for urokinase in platelet release disorders, which is unlikely to exist given the mechanism
+- If a thrombolytic repurposing direction is pursued, TTP (L4, "Research Question") is the more plausible candidate. It would need mechanistic work on the plasmin–ADAMTS13 concern and controlled data before any clinical consideration.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

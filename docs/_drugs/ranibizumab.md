@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ranibizumab
-parent: High Evidence (L1-L2)
-nav_order: 843
-evidence_level: L1
+parent: Medium Evidence (L3-L4)
+nav_order: 852
+evidence_level: L4
 indication_count: 10
 ---
 
 # Ranibizumab
 {: .fs-9 }
 
-Evidence Level: **L1** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,91 +29,92 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Ranibizumab: From Intravitreal Anti-VEGF Therapy to Severe Nonproliferative Diabetic Retinopathy
+# Ranibizumab: From Diabetic Retinopathy and Macular Degeneration to Severe Nonproliferative Diabetic Retinopathy
 
 ## One-Sentence Summary
 
-Ranibizumab is an anti-VEGF antibody fragment given by injection into the eye, and it is marketed in Singapore as Lucentis. The TxGNN model predicts it may be effective for **severe nonproliferative diabetic retinopathy**. The prediction is supported by **6 clinical trials** (3 of them Phase 3 studies in diabetic retinopathy or diabetic macular edema) and **20 publications**, including the 2025 PAVILION randomized trial.
+Ranibizumab is an anti-VEGF antibody fragment, originally used for retinal diseases such as macular degeneration, diabetic macular edema and diabetic retinopathy.
+The TxGNN model predicts it may be effective for **severe nonproliferative diabetic retinopathy**, supported by **18 publications** (including post hoc analyses of Phase 3 RCTs and a recent randomized trial of a ranibizumab port delivery system), but **no registered clinical trials** for this indication in the data compiled for this report.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Diabetic retinopathy, diabetic macular edema, macular degeneration, retinal artery occlusion, retinopathy of prematurity (from the knowledge graph; Singapore label text is not available) |
 | Predicted New Indication | Severe nonproliferative diabetic retinopathy |
 | TxGNN Prediction Score | 99.99% |
-| Evidence Level | L1 |
+| Evidence Level | L1 (based on literature only; should be confirmed against the primary trial publications) |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 2 |
 | Recommended Decision | Proceed with Guardrails |
 
-The Singapore licence records contain no approved-indication text, so the original indication is not shown here.
-
 ## Why is This Prediction Reasonable?
 
-Ranibizumab is an anti-VEGF Fab fragment. In diabetic retinopathy, VEGF-A is upregulated in the eye. It drives retinal vascular leakage, areas of poor blood flow and abnormal new vessel growth. Blocking VEGF therefore targets a core disease process.
+Ranibizumab is an antibody fragment that blocks VEGF. Detailed mechanism-of-action data from DrugBank are not available in the data compiled for this report. In diabetic retinopathy, VEGF drives retinal vascular permeability and new vessel growth, so blocking it plausibly slows disease progression and improves retinopathy severity.
 
-Detailed mechanism-of-action data is not available in the source record. The evidence still points the same way. Post hoc analyses of the RIDE/RISE trials, run in patients with diabetic macular edema, examined diabetic retinopathy severity under ranibizumab. The PAVILION randomized trial tested ranibizumab delivered by a refillable implant, the Port Delivery System, against monitoring in nonproliferative disease without macular edema. This is more than a model-only prediction.
+Diabetic retinopathy and diabetic macular edema are already among the drug's known indications. Severe nonproliferative diabetic retinopathy is an earlier stage of the same disease, so this prediction is a close extension rather than a leap to an unrelated condition.
+
+The literature supports this link. Post hoc analyses of the Phase 3 RIDE/RISE trials (PMID 32606578, 36774994) report diabetic retinopathy regression with ranibizumab. A randomized trial of a ranibizumab port delivery system versus monitoring in nonproliferative diabetic retinopathy (PMID 40048178) directly addresses this patient group.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT04503551](https://clinicaltrials.gov/study/NCT04503551) | Phase 3 | Active, not recruiting | 174 | Port Delivery System with ranibizumab vs comparator in diabetic retinopathy without center-involved DME. Directly tests the target indication |
-| [NCT03452657](https://clinicaltrials.gov/study/NCT03452657) | Phase 3 | Unknown | 118 | Intravitreous ranibizumab vs sham injections to prevent high-risk diabetic retinopathy |
-| [NCT02634333](https://clinicaltrials.gov/study/NCT02634333) | Phase 3 | Completed | 399 | Anti-VEGF to prevent vision-threatening complications in high-risk eyes. The agent tested is likely not ranibizumab |
-| [NCT00444600](https://clinicaltrials.gov/study/NCT00444600) | Phase 3 | Completed | 691 | Ranibizumab or triamcinolone with laser in diabetic macular edema. Same disease family, but the endpoint is DME |
-| [NCT02834663](https://clinicaltrials.gov/study/NCT02834663) | Phase 4 | Completed | 25 | Six-month pilot of ranibizumab in macular edema with NPDR, looking at microaneurysm turnover |
-| [NCT05222633](https://clinicaltrials.gov/study/NCT05222633) | N/A | Unknown | 1000 | Real-world observation of anti-VEGF drugs across several retinal diseases |
+Currently no related clinical trials registered for this indication. The RIDE/RISE trials (NCT00473382 / NCT00473330) appear only through post hoc literature, not as registered records for this prediction.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [40048178](https://pubmed.ncbi.nlm.nih.gov/40048178/) | 2025 | RCT | JAMA Ophthalmol | PAVILION: Port Delivery System with ranibizumab vs monitoring in NPDR without macular edema |
-| [36774994](https://pubmed.ncbi.nlm.nih.gov/36774994/) | 2023 | Post hoc RCT analysis | Ophthalmol Retina | Baseline retinopathy severity and time to DME resolution with ranibizumab in Phase III trials |
-| [32606578](https://pubmed.ncbi.nlm.nih.gov/32606578/) | 2020 | Post hoc RCT analysis | Clin Ophthalmol | Predictors of early retinopathy improvement with ranibizumab in RIDE/RISE |
-| [36161830](https://pubmed.ncbi.nlm.nih.gov/36161830/) | 2022 | RCT extension analysis | BMJ Open Ophthalmol | Retinopathy severity scale changes with less frequent ranibizumab after induction (RIDE/RISE extension) |
-| [28448655](https://pubmed.ncbi.nlm.nih.gov/28448655/) | 2017 | Secondary analysis of RCT | JAMA Ophthalmol | Retinopathy change over 2 years, comparing aflibercept, bevacizumab and ranibizumab |
-| [39673354](https://pubmed.ncbi.nlm.nih.gov/39673354/) | 2024 | Systematic review | Health Technol Assess | Anti-VEGF drugs vs laser photocoagulation for diabetic retinopathy |
-| [40347224](https://pubmed.ncbi.nlm.nih.gov/40347224/) | 2025 | Systematic review | Health Technol Assess | Companion economic analysis of anti-VEGF vs laser |
-| [33966556](https://pubmed.ncbi.nlm.nih.gov/33966556/) | 2021 | Review | Expert Opin Biol Ther | Overview of ranibizumab for diabetic retinopathy |
-| [31669065](https://pubmed.ncbi.nlm.nih.gov/31669065/) | 2019 | Review | J Diabetes Complications | Advances in diabetic retinopathy treatment, with VEGF-A as a key target |
-| [37278412](https://pubmed.ncbi.nlm.nih.gov/37278412/) | 2023 | Simulation model | BMJ Open Ophthalmol | Long-term impact of proactive anti-VEGF therapy in severe NPDR vs waiting until PDR develops |
+| [40048178](https://pubmed.ncbi.nlm.nih.gov/40048178/) | 2025 | RCT | JAMA Ophthalmol | Pavilion trial: ranibizumab port delivery system vs monitoring in NPDR without macular edema |
+| [36774994](https://pubmed.ncbi.nlm.nih.gov/36774994/) | 2023 | Post hoc analysis of RCT (RIDE/RISE) | Ophthalmol Retina | Meta-analysis of how baseline DR severity affects time to DME resolution with ranibizumab |
+| [32606578](https://pubmed.ncbi.nlm.nih.gov/32606578/) | 2020 | Post hoc analysis of RCT (RIDE/RISE) | Clin Ophthalmol | Predictors of early diabetic retinopathy regression with ranibizumab |
+| [36161830](https://pubmed.ncbi.nlm.nih.gov/36161830/) | 2022 | Open-label extension analysis | BMJ Open Ophthalmol | Effect of less frequent ranibizumab on DR severity scale scores after induction therapy |
+| [28448655](https://pubmed.ncbi.nlm.nih.gov/28448655/) | 2017 | Secondary analysis of RCT | JAMA Ophthalmol | Two-year change in DR with aflibercept, bevacizumab and ranibizumab |
+| [30234859](https://pubmed.ncbi.nlm.nih.gov/30234859/) | 2018 | RCT follow-up (DRCR.net Protocol I) | Retina | Five-year changes in DR severity in eyes treated with ranibizumab for DME |
+| [39673354](https://pubmed.ncbi.nlm.nih.gov/39673354/) | 2025 | Systematic review / meta-analysis | Health Technol Assess | Anti-VEGF drugs compared with laser photocoagulation for diabetic retinopathy |
+| [42219053](https://pubmed.ncbi.nlm.nih.gov/42219053/) | 2026 | Systematic review / meta-analysis | Eur J Pharmacol | Sustained ranibizumab port delivery in DR and DME |
+| [33966556](https://pubmed.ncbi.nlm.nih.gov/33966556/) | 2021 | Review | Expert Opin Biol Ther | Review of ranibizumab for diabetic retinopathy |
+| [40969370](https://pubmed.ncbi.nlm.nih.gov/40969370/) | 2025 | Cohort | Front Endocrinol | Nomogram of predictors of response to anti-VEGF plus laser in severe NPDR |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN14772P | Lucentis Solution for Injection in Pre-filled Syringe 1.65mg/0.165ml | Injection, solution |
-| SIN13411P | Lucentis 10mg/ml Solution for Injection | Injection, solution |
-
-Manufacturers are Novartis Pharma Stein AG (SIN13411P) and Vetter Pharma-Fertigung with Novartis Manufacturing NV (SIN14772P).
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN14772P | LUCENTIS Solution for Injection in Pre-filled Syringe 1.65mg/0.165ml | Injection, solution | Not available |
+| SIN13411P | Lucentis 10mg/ml Solution for Injection | Injection, solution | Not available |
 
 ## Safety Considerations
 
-Safety data in the record is limited, so please refer to the package insert for warnings, contraindications and interactions. No drug interactions were found in the queried database.
+- **Contraindications (knowledge graph, not label text)**: eye infectious disease, conjunctivitis.
+- **Drug Interactions**: no interactions were found in the queried data.
 
-The literature does raise two eye-related safety topics:
-- **Lens effects**: A small completed study (NCT01330797, 13 patients) examined lens opacity after repeated ranibizumab injections. A case report (PMID 38476863) describes capsular block syndrome after an injection.
-- **Procedure risks**: The injection is given into the eye. Endophthalmitis and raised intraocular pressure are known concerns with this route, and the dosing should be supervised by an ophthalmologist.
+Please refer to the package insert for full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Ranibizumab targets VEGF, a recognized driver of diabetic retinopathy. Phase 3 and randomized evidence exists, including the PAVILION RCT and the RIDE/RISE analyses. The directly relevant Phase 3 trial (NCT04503551) is still listed as active and not yet completed, and two of the other Phase 3 trials are in diabetic macular edema or likely tested a different anti-VEGF agent, so the L1 level is best read as moderate.
-
-The other predictions are on Hold. These are the cataract subtypes (immature, tetanic, type 2 diabetes–associated, craniostenosis, mature, cortical, nuclear senile and senile) and hemorrhagic disease of the newborn. They have no plausible link to VEGF inhibition or only indirect evidence. The cataract evidence is mostly about eye surgery in diabetic patients or lens safety, not treatment of the cataract.
+The mechanism is plausible, and the literature includes post hoc analyses of Phase 3 RCTs and a recent randomized trial in nonproliferative diabetic retinopathy. The L1 grade rests on literature alone, with no registered trials for this indication, so it needs confirmation. The drug is already marketed in Singapore under two registrations.
 
 **To proceed, the following is needed:**
-- Confirm the approved indications on the Singapore Lucentis licences, since the indication text is missing
-- Retrieve the package insert (warnings and contraindications) from the Singapore Health Sciences Authority (HSA)
-- Obtain detailed mechanism-of-action data, for example from DrugBank
-- Await the final results of NCT04503551, and check whether NCT03452657 and NCT02634333 involved ranibizumab
-- Set up a monitoring plan for endophthalmitis, intraocular pressure rise and lens changes, plus attention to systemic VEGF-inhibition effects
+- Review of the primary RIDE/RISE and Pavilion publications to confirm the L1 grade
+- Package insert warnings and contraindications from the HSA website (a blocking gap for safety screening)
+- Mechanism-of-action data from DrugBank
+- Confirmation of the approved indication text for the two Singapore registrations, and whether severe NPDR is covered
+- An infection-screening plan (active ocular or periocular infection) before intravitreal use
 
-*This report is for research reference only and is not medical advice. Repurposing candidates require clinical validation before use.*
+## Other Predicted Indications (Not Recommended)
+
+The other nine predictions all have a **Hold** recommendation.
+
+| Predicted Indication | Evidence Level | Assessment |
+|------|------|------|
+| Immature, tetanic, craniostenosis, nuclear senile cataract | L5 | No mechanistic rationale, trials or literature; likely graph-proximity artifacts |
+| Type 2 diabetes-associated cataract | L4 | Literature concerns diabetic macular edema, not cataract |
+| Mature cataract | L4 | Literature concerns combined surgery with ranibizumab for coexisting retinal disease, not treatment of the cataract |
+| Cortical cataract | L4 | Literature concerns macular edema; one case report of capsular block syndrome after injection (an adverse event) |
+| Senile cataract | L4 | Studies of aqueous cytokines and anti-VEGF response; indirect |
+| Hemorrhagic disease of newborn | L4 | Two trials found, neither relevant (one withdrawn with 0 enrolled in hereditary hemorrhagic telangiectasia, one Phase 1/2 in chorioretinal disease); likely a name-similarity artifact |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

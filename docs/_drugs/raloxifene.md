@@ -2,7 +2,7 @@
 layout: default
 title: Raloxifene
 parent: Low Evidence (L5)
-nav_order: 839
+nav_order: 848
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,15 +33,14 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Raloxifene is a selective estrogen receptor modulator (SERM), used for postmenopausal osteoporosis.
-The TxGNN model predicts it may be effective for **duodenal ulcer**, but there are currently **0 clinical trials** and **0 publications** supporting this direction.
-The prediction is model-only and is not supported by biology we could identify.
+Raloxifene is a selective estrogen receptor modulator (SERM), originally used to treat and prevent postmenopausal osteoporosis.
+The TxGNN model predicts it may be effective for **duodenal ulcer**, but this is a computational prediction only, with **0 clinical trials** and **0 publications** currently supporting it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Postmenopausal osteoporosis (taken from the prediction rationale text; the Singapore license records contain no indication text) |
+| Original Indication | Postmenopausal osteoporosis (the Singapore licence records contain no indication text) |
 | Predicted New Indication | Duodenal ulcer |
 | TxGNN Prediction Score | 99.72% |
 | Evidence Level | L5 |
@@ -51,11 +50,9 @@ The prediction is model-only and is not supported by biology we could identify.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on known information, raloxifene is a SERM that acts on estrogen receptors in bone, and its efficacy in postmenopausal osteoporosis is established.
+Currently, detailed mechanism of action data is not available. Based on known information, raloxifene is a selective estrogen receptor modulator. Its efficacy in postmenopausal osteoporosis is established, mainly through reducing bone resorption.
 
-We found no clear mechanistic link to duodenal ulcer. Raloxifene has no established gastric acid-suppressing or mucosal-protective action. The high score most likely reflects proximity in the knowledge graph rather than pharmacology, and the lack of MOA data means the rationale cannot be cross-checked.
-
-The same applies to the other top-ranked predictions, such as hypoalphalipoproteinemia, duodenal obstruction and duodenogastric reflux. All are L5 and none has a supporting trial or publication.
+The data compiled for this report do not establish a plausible mechanistic link between estrogen receptor modulation and duodenal ulcer. The high score (99.72%) is a computational output only. Several of the other top predictions are also duodenal or gastrointestinal terms (duodenal obstruction, duodenogastric reflux), which suggests the prediction may reflect a knowledge-graph neighbourhood effect rather than true biological relevance. This prediction should be treated as a hypothesis only.
 
 ## Clinical Trial Evidence
 
@@ -67,32 +64,31 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN14013P | Raloxon Film-coated Tablets 60 mg | Film-coated tablet |
-| SIN10872P | EVISTA TABLET 60 mg | Film-coated tablet |
-
-Both products are oral film-coated tablets. The approved indication text is not recorded for either license.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN14013P | Raloxon Film-coated Tablets 60 mg | Film-coated tablet | Not stated in the available records |
+| SIN10872P | EVISTA Tablet 60 mg | Film-coated tablet | Not stated in the available records |
 
 ## Safety Considerations
 
-- **Key Warnings** (noted in the prediction rationale, not from the Singapore package insert): raloxifene carries a boxed warning for venous thromboembolism and for increased risk of death from stroke in women with coronary heart disease or at high risk of cardiovascular events.
-- **Contraindications** (also from the rationale text): contraindicated in pregnancy, and not indicated for premenopausal women.
+- **Contraindications (from knowledge-graph associations, not label text)**: The knowledge graph links raloxifene with the following conditions: hypertension, liver disease, gallbladder disease, atrial fibrillation, hypertriglyceridemia, thrombophlebitis, coronary artery disease, stroke and cerebrovascular disorders (including cerebral infarction and transient ischaemic attack), pulmonary embolism, retinal artery occlusion, thrombophilia, impaired renal function, vertebrobasilar insufficiency and antiphospholipid syndrome. These should be verified against the official package insert.
+- **Drug Interactions**: The interaction query returned 100 records, but all those listed have an unclassified severity level. Examples include calcitriol, pantoprazole, glimepiride, mesalazine, doxycycline, metformin, omeprazole, simvastatin and tetracycline. Clinical significance cannot be judged from the available data.
 
-No drug interaction records were found. Please refer to the package insert for complete safety information.
+Please refer to the package insert for the official warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a graph-based score alone (L5). No trials or literature support it, and there is no plausible mechanism linking a SERM to duodenal ulcer.
+The prediction is supported only by the model score, with no clinical trials, no relevant literature and no established mechanistic link. Official safety information from the package insert has also not been reviewed. Evidence is at the lowest level (L5).
 
 **To proceed, the following is needed:**
-- The Singapore HSA package insert (warnings, contraindications, approved indication), which is required before any safety screening
-- Mechanism of action data from DrugBank, to allow a proper mechanistic-link analysis
-- A targeted search of trials and literature for raloxifene in duodenal ulcer and peptic ulcer disease
-- A safety review of the thromboembolic and stroke warnings before any further consideration
+- The HSA package insert, to obtain warnings, contraindications and approved indications
+- Mechanism of action data (for example from DrugBank)
+- A literature search and trial registry search specific to raloxifene and peptic or duodenal ulcer disease
+- A biological rationale connecting estrogen receptor modulation to duodenal ulcer, or a decision to deprioritise this prediction
+- A review of other predictions for stronger evidence. Pregnancy-associated osteoporosis has some literature, but it is not supportive, and raloxifene is contraindicated in pregnancy.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

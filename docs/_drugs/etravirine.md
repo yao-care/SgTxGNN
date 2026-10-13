@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Etravirine
-parent: Low Evidence (L5)
-nav_order: 407
-evidence_level: L5
+parent: Medium Evidence (L3-L4)
+nav_order: 411
+evidence_level: L4
 indication_count: 10
 ---
 
 # Etravirine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,67 +29,93 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Etravirine: From HIV-1 Infection to Simian Immunodeficiency Virus Infection
+# Etravirine: From HIV Infection to Simian Immunodeficiency Virus Infection
 
 ## One-Sentence Summary
 
-Etravirine is an oral non-nucleoside reverse transcriptase inhibitor (NNRTI) used to treat HIV-1 infection.
-The TxGNN model predicts it may be effective for **simian immunodeficiency virus (SIV) infection**, with a very high score.
-Evidence is thin: **0 clinical trials** and **1 publication** (an in vitro HIV study), and SIV is generally reported to be poorly susceptible to NNRTIs, so the prediction is not supported by mechanism.
+Etravirine is a non-nucleoside reverse transcriptase inhibitor (NNRTI), originally used to treat HIV infection and AIDS.
+The TxGNN model predicts it may be effective for **simian immunodeficiency virus infection**, but there are **0 clinical trials** and only **1 indirect publication** (an in vitro HIV study) supporting this direction.
+The prediction is best treated as a research question, not an actionable repurposing candidate.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV-1 infection (the Singapore licence record contains no indication text) |
+| Original Indication | HIV infectious disease; AIDS (the Singapore licence text lists no approved indication) |
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 99.98% |
-| Evidence Level | L4 (preclinical/in vitro only) |
+| Evidence Level | L4 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Etravirine is an HIV-1 NNRTI that binds reverse transcriptase. It is active against many strains resistant to first-generation NNRTIs. Detailed mechanism-of-action data was not available in the source record, so this description comes from the candidate's mechanistic assessment.
+Detailed mechanism of action data is not available. Based on known information, etravirine is an NNRTI that inhibits HIV-1 reverse transcriptase, and its efficacy in HIV infection is established. Simian immunodeficiency virus (SIV) is a closely related lentivirus, which is why the model places it close to HIV in the knowledge graph.
 
-The graph link to SIV is probably driven by shared lentiviral biology, since HIV and SIV are related retroviruses. However, SIV (especially SIVmac) is generally reported to have reduced susceptibility to NNRTIs. The high graph score is therefore not backed by mechanism, and it should be treated as a likely graph-inference artifact. SIV infection is also an animal-model disease with no direct human clinical use.
+However, the mechanistic link is weak. SIV and HIV-2 are intrinsically resistant to most NNRTIs, so activity of etravirine against SIV is not expected from its class mechanism. The high TxGNN score most likely reflects network proximity to the HIV indication rather than a demonstrated pharmacological effect.
+
+Also note that SIV infection is an animal (non-human primate) disease. Any value would be as a research model rather than a human therapeutic indication.
+
+Other predictions in the top 10 are not better supported:
+- **Feline acquired immunodeficiency syndrome** (score 99.98%): veterinary, no evidence, and NNRTI activity against FIV is generally poor.
+- **AIDS related complex** and **congenital HIV**: these largely overlap with the existing HIV indication, so they are effectively on-label use rather than true repurposing. Evidence is observational or virologic only (Evidence Level L3).
+- **Rare neurodevelopmental disorder, benign prostate and reproductive neoplasms, Brenner tumor, obsolete familial combined hyperlipidemia**: no plausible mechanism and no evidence. These look like graph artifacts.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [26529558](https://pubmed.ncbi.nlm.nih.gov/26529558/) | 2015 | In vitro study | Molecular Pharmaceutics | Nanoparticle-based antiretroviral drug combinations showed synergistic inhibition of cell-free and cell-cell **HIV** transmission. It did not study SIV directly. |
+| [26529558](https://pubmed.ncbi.nlm.nih.gov/26529558/) | 2015 | Preclinical (in vitro) | Molecular Pharmaceutics | Nanoparticle-based antiretroviral combinations for synergistic inhibition of cell-free and cell-cell HIV transmission. This concerns HIV, not SIV, so it is indirect evidence only. |
+
+---
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN14535P | INTELENCE TABLET 200 MG | Tablet | Janssen Pharmaceutica NV (Spray Dried Powder) / Janssen Cilag S.p.A |
+| SIN14535P | INTELENCE TABLET 200 MG | Tablet (oral) | Not stated in the data compiled for this report |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Knowledge-graph contraindication signals** (not label text): chronic hepatitis C virus infection, hepatitis C virus infection, chronic hepatitis B virus infection, peripheral nervous system disease, and peripheral neuropathy.
+- **Drug Interactions**: 100 interactions were identified in total. The list reviewed contains mostly Moderate-level entries and one Minor entry. Notable examples include:
+  - Acid-suppressing drugs: omeprazole, rabeprazole, cimetidine, ranitidine (minor)
+  - Corticosteroids: dexamethasone, betamethasone, hydrocortisone, triamcinolone
+  - Antidiabetic drugs: pioglitazone, glimepiride, chlorpropamide, saxagliptin, linagliptin
+  - Others: clarithromycin, metronidazole, aprepitant, eliglustat, dronabinol, naloxegol, naldemedine
+
+Please refer to the package insert for the full warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The score is very high, but there are no clinical trials and only one in vitro HIV paper. SIV is reported to be poorly susceptible to NNRTIs, and the disease has no direct human relevance. The prediction is best treated as a model artifact.
+The prediction rests on network proximity to the HIV indication. There are no clinical trials and only one indirect in vitro HIV paper. SIV is intrinsically resistant to most NNRTIs, and it is a non-human disease outside the human repurposing scope.
 
 **To proceed, the following is needed:**
-- Direct evidence on etravirine susceptibility of SIV isolates (in vitro or animal model)
-- Detailed mechanism of action data (MOA)
-- Package insert warnings and contraindications from the Singapore Health Sciences Authority (HSA), which are currently missing
-
-**Other predictions for this drug:**
-- **Overlap with the HIV label:** "AIDS related complex" and "congenital human immunodeficiency virus" rank higher in evidence (L3), but they overlap with the approved HIV-1 use and are not true repurposing.
-- **Separate signal:** a completed Phase 2 etravirine trial in Friedreich ataxia (NCT04273165, n=30) was found under another indication, and it may merit its own review.
+- Mechanism of action data for etravirine
+- Package insert warnings and contraindications from HSA (needed before any safety screening)
+- Direct in vitro or animal data on etravirine activity against SIV
+- A decision on whether a non-human indication is within the scope of this programme
+- For HIV-related labels (AIDS related complex, congenital HIV), treat them as existing on-label use and assess them within the current HIV indication, with dedicated pregnancy safety data where relevant
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

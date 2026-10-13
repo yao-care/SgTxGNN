@@ -2,7 +2,7 @@
 layout: default
 title: Clioquinol
 parent: Medium Evidence (L3-L4)
-nav_order: 262
+nav_order: 264
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,20 +29,19 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Clioquinol: From Topical Anti-infective Use to Cutaneous Candidiasis
+# Clioquinol: From Tinea Infections to Cutaneous Candidiasis
 
 ## One-Sentence Summary
 
-Clioquinol is a topical hydroxyquinoline sold in Singapore as creams, but the registration records do not state an approved indication.
-The TxGNN model predicts it may be effective for **cutaneous candidiasis** (99.84% score), but there are **no registered clinical trials** and only **6 publications**, mostly old studies of steroid-antimicrobial combination creams.
-
----
+Clioquinol is a topical halogenated hydroxyquinoline originally used for fungal skin infections such as tinea pedis, tinea corporis and groin dermatophytosis.
+The TxGNN model predicts it may be effective for **cutaneous candidiasis**, but there are currently **no registered clinical trials** and only **1 publication** (a 1988 in vitro report on soap additives, not a clinical evaluation of clioquinol) linked to this prediction.
+This is a computational prediction with very limited supporting evidence.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration records |
+| Original Indication | Tinea pedis, tinea corporis, tinea infection, dermatophytosis of groin and perianal area (from the knowledge graph; the Singapore licence records contain no indication text) |
 | Predicted New Indication | Cutaneous candidiasis |
 | TxGNN Prediction Score | 99.84% |
 | Evidence Level | L4 |
@@ -50,71 +49,59 @@ The TxGNN model predicts it may be effective for **cutaneous candidiasis** (99.8
 | Number of Registrations | 4 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this drug. Clioquinol is a hydroxyquinoline metal chelator with known topical antifungal and antibacterial activity. This general pharmacology suggests it could act against *Candida*, but that link is not documented in the supplied data.
+Currently, detailed mechanism of action data is not available. Based on known information, clioquinol is a halogenated hydroxyquinoline with metal-chelating (copper and zinc) antifungal and antibacterial activity. Its efficacy in superficial dermatophyte infections is the basis of its original use, and mechanistically it may be applicable to Candida infections of the skin.
 
-Cutaneous candidiasis is a superficial yeast infection of the skin. That fits a topical anti-infective, and all four Singapore products are creams. The literature is weak support, though. The studies are from 1965 to 1988, and most test corticosteroid-antimicrobial combination creams. Clioquinol's effect cannot be separated from the steroid or the other antimicrobials. Some of the products, such as halcinonide-neomycin-amphotericin, may not contain clioquinol at all.
-
-Other predictions follow the same theme. Superficial mycosis has one 2021 preclinical study of clioquinol combined with ciclopirox and terbinafine, which supports a combination-therapy hypothesis. Deep or hair-shaft infections (Majocchi granuloma, endothrix, ectothrix, tinea profunda) are poorly suited to a topical agent. Granuloma annulare is a non-infectious inflammatory disease, so an antimicrobial mechanism does not clearly apply. None of these has clinical or literature support.
-
----
+Both dermatophytosis and cutaneous candidiasis are superficial fungal skin infections that are treated topically, which makes the extrapolation plausible. However, Candida is a yeast, not a dermatophyte, so activity cannot be assumed without direct data. The only linked paper (PMID 2978600, 1988) studied additives to toilet soaps against *Candida albicans* in vitro. Judging from its title and abstract, it is not a controlled clinical evaluation of clioquinol. The very high TxGNN score (0.998) is a computational output and not clinical evidence.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [6459255](https://pubmed.ncbi.nlm.nih.gov/6459255/) | 1981 | Randomized comparative study | J Int Med Res | 154 patients (67 with cutaneous candidiasis) treated with either a halcinonide-neomycin-nystatin cream or a betamethasone-gentamicin-iodochlorhydroxyquin-tolnaftate cream. Responses were equivalent, but this is a comparison of two combinations. |
-| [128475](https://pubmed.ncbi.nlm.nih.gov/128475/) | 1975 | Double-blind study | Dermatologica | 430 patients with secondary bacterial infection of dermatoses. Locacorten (0.02%)-Vioform (3%) cream beat each component alone and placebo. The study concerns bacterial infection, not candidiasis. |
-| [155507](https://pubmed.ncbi.nlm.nih.gov/155507/) | 1979 | Clinical evaluation | Curr Med Res Opin | A halcinonide-neomycin-amphotericin cream gave an excellent response in 95% (38/40) of patients, versus 43% (17/40) for the iodochlorhydroxyquin-hydrocortisone comparator. The clioquinol-containing comparator was the weaker arm. |
-| [136333](https://pubmed.ncbi.nlm.nih.gov/136333/) | 1976 | Clinical evaluation | Curr Ther Res | Evaluation of a halcinonide-antifungal combination. No abstract available, and the product may not contain clioquinol. |
-| [4220930](https://pubmed.ncbi.nlm.nih.gov/4220930/) | 1965 | Etiology/observational | Z Haut Geschlechtskr | Role of yeasts in acrodermatitis enteropathica. No abstract available, and only indirectly related. |
-| [2978600](https://pubmed.ncbi.nlm.nih.gov/2978600/) | 1988 | In vitro/prevention | Przegl Dermatol | Effects of soap additives on *Candida albicans* strains from patients. Occupational prevention rather than treatment. |
-
----
+| [2978600](https://pubmed.ncbi.nlm.nih.gov/2978600/) | 1988 | Other (occupational prevention report) | Przeglad dermatologiczny | In vitro study of toilet soap additives against *C. albicans* strains from patients; soap foam properties and heat resistance were also assessed. Not a controlled clinical study of clioquinol. |
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN08790P | HYDRODERM-C CREAM 1% | Cream | Not stated in record |
-| SIN08795P | DERMANOL-C CREAM 0.1% | Cream | Not stated in record |
-| SIN08793P | DERMANOL-C CREAM 0.025% | Cream | Not stated in record |
-| SIN08796P | DERMANOL-C CREAM 0.05% | Cream | Not stated in record |
+| SIN08790P | HYDRODERM-C CREAM 1% | Cream | Not stated in the data compiled for this report |
+| SIN08795P | DERMANOL-C CREAM 0.1% | Cream | Not stated in the data compiled for this report |
+| SIN08793P | DERMANOL-C CREAM 0.025% | Cream | Not stated in the data compiled for this report |
+| SIN08796P | DERMANOL-C CREAM 0.05% | Cream | Not stated in the data compiled for this report |
 
-All four products are topical creams from ICM PHARMA PTE. LTD.
-
----
+All four are valid single-ingredient topical cream licences held by ICM Pharma Pte. Ltd.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interactions were found in the queried database.
+No package insert warnings, contraindications or drug interaction data were available. Please refer to the package insert for safety information.
 
----
+The following contraindication-related associations come from a knowledge graph, not from label text, and should be verified against the official label:
+- Adrenocortical insufficiency and Addison disease
+- Skin atrophy
+- Telangiectasis, capillary disease and hereditary hemorrhagic telangiectasia
+- Peripheral vascular disease, intermittent vascular claudication and peripheral arterial disease
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high, but the supporting evidence is thin. There are no registered trials, and the 1965–1988 literature mostly tests combination products, so clioquinol's own contribution cannot be isolated. The mechanism data and the safety information from the package insert are also missing, so the drug cannot yet move past early screening.
+The prediction score is very high, but the only linked paper is an old in vitro report that does not evaluate clioquinol clinically, and no trials exist. Safety label data are also missing, so the prediction is not yet actionable.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications, which block safety screening
-- Mechanism of action data, for example from DrugBank
-- Confirmation of the approved indications of the four Singapore products
-- Evidence isolating clioquinol's activity against *Candida*, such as in vitro susceptibility data or a controlled trial of a clioquinol-only cream
-- Manual review of the literature for the scalp/beard dermatophytosis prediction, where the retrieved papers were keyword noise (beard transplantation, zebrafish cells, aviator masks) and none concern clioquinol
+- Package insert warnings and contraindications from the HSA (a blocking gap for safety screening)
+- Mechanism of action data for clioquinol
+- Direct evidence of clioquinol activity against *Candida* species (in vitro susceptibility, then controlled clinical studies in cutaneous candidiasis)
+- Confirmation of the approved indication wording on the Singapore licences
 
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
+## Other Predicted Indications (Context)
+
+Other predictions are mostly dermatophyte or related skin conditions. Closest to the approved use are **superficial mycosis** (L4; a 2021 preclinical study combining clioquinol with ciclopirox and terbinafine, PMID [33772895](https://pubmed.ncbi.nlm.nih.gov/33772895/); Research Question) and **tinea manuum** (L5; Research Question). **Pityriasis versicolor** (L5) is also a Research Question. Deep or hair-associated infections (Majocchi granuloma, ectothrix and endothrix infections, scalp or beard dermatophytosis, tinea profunda) are unlikely to respond to topical therapy and remain on Hold. **Granuloma annulare** is a non-infectious condition with no clear rationale and may be an artifact of the model.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

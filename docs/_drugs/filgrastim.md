@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Filgrastim
-parent: Medium Evidence (L3-L4)
-nav_order: 425
-evidence_level: L4
+parent: Low Evidence (L5)
+nav_order: 429
+evidence_level: L5
 indication_count: 10
 ---
 
 # Filgrastim
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,84 +29,78 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Filgrastim: From Neutropenia Support (G-CSF) to Primary Release Disorder of Platelets
+# Filgrastim: From Severe Congenital Neutropenia to Primary Release Disorder of Platelets
 
 ## One-Sentence Summary
 
-Filgrastim is a granulocyte colony-stimulating factor (G-CSF) that stimulates neutrophil production and mobilizes blood stem cells.
-The TxGNN model predicts it may be effective for **primary release disorder of platelets**, but the score comes from knowledge-graph proximity only.
-The **24 retrieved clinical trials** and **1 publication** are mostly stem cell transplant studies, and none tests filgrastim for this disorder.
+Filgrastim (recombinant G-CSF) was originally used to treat constitutional and severe congenital neutropenia, cyclic hematopoiesis, and chronic familial neutropenia.
+The TxGNN model predicts it may be effective for **primary release disorder of platelets**, but **no clinical trials or publications** currently support this prediction.
+This is a computational prediction only, with a weak mechanistic rationale.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration records. Filgrastim (G-CSF) is generally used for neutropenia and stem cell mobilization. |
+| Original Indication | Constitutional neutropenia; severe congenital neutropenia; cyclic hematopoiesis; chronic familial neutropenia |
 | Predicted New Indication | Primary release disorder of platelets |
 | TxGNN Prediction Score | 99.998% |
-| Evidence Level | L4 |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 4 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the record. Based on general pharmacology, filgrastim acts through the G-CSF receptor to drive neutrophil lineage proliferation and to mobilize hematopoietic stem cells.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. From general knowledge, filgrastim is a G-CSF that binds the G-CSF receptor and stimulates the proliferation and differentiation of neutrophil progenitors. This explains its efficacy in neutropenic conditions.
 
-Primary release disorder of platelets is a defect in platelet granule release and function. Filgrastim has no known effect on platelet granule release or platelet function. The only plausible link is indirect: filgrastim supports stem cell mobilization and engraftment in hematopoietic stem cell transplantation (HSCT), which can cure some severe inherited platelet function disorders.
+Primary platelet release disorders are qualitative platelet function defects (impaired granule secretion). No established mechanistic link exists between G-CSF signaling and platelet granule release. The high TxGNN score likely reflects network proximity in the knowledge graph rather than a validated biological mechanism, so the prediction should be treated with caution.
 
-The very high TxGNN score (0.99998) reflects proximity in the knowledge graph. It is not supported by disease-specific clinical data, so it should be read as a hypothesis, not as evidence of efficacy.
+Other top-ranked predictions are also platelet or coagulation-related conditions (pseudo-von Willebrand disease, Glanzmann thrombasthenia, Scott syndrome, and others). All are L5 with no supporting studies and no plausible mechanistic link to G-CSF. The only prediction with any linked trials is platelet-type bleeding disorder (rank 10), where the connection is indirect, via stem cell mobilization and transplant support.
 
 ## Clinical Trial Evidence
 
-The predicted indication returned 24 matched trials; the 10 most relevant are shown. None studies filgrastim as the tested treatment for a platelet release disorder. Most are HSCT or oncology studies in which G-CSF is at most supportive care.
+Currently no related clinical trials are registered for primary release disorder of platelets.
+
+For reference, the only predicted indication with linked trials is platelet-type bleeding disorder (rank 10). These seven trials are general stem cell transplant studies, mostly in hematologic malignancies, where filgrastim is a supportive component rather than the studied treatment. All were graded low relevance.
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00245037](https://clinicaltrials.gov/study/NCT00245037) | Phase 1/2 | Completed | 147 | Non-myeloablative allogeneic HSCT for hematologic malignancies. The most relevant match, but the target population is unclear and filgrastim is not the tested agent. |
-| [NCT05170828](https://clinicaltrials.gov/study/NCT05170828) | Phase 1 | Withdrawn | 0 | Banked HLA-mismatched donor marrow transplant. Withdrawn, so no data. |
-| [NCT00043979](https://clinicaltrials.gov/study/NCT00043979) | Phase 2 | Completed | 60 | Allogeneic/syngeneic stem cell transplant in high-risk pediatric sarcomas. Different disease. |
-| [NCT01335932](https://clinicaltrials.gov/study/NCT01335932) | Phase 2 | Completed | 160 | Ganciclovir for CMV reactivation prevention in lung injury. Unrelated. |
-| [NCT01503918](https://clinicaltrials.gov/study/NCT01503918) | Phase 2 | Completed | 124 | Antiviral prophylaxis for CMV reactivation in critical care. Unrelated. |
-| [NCT00076752](https://clinicaltrials.gov/study/NCT00076752) | Phase 2 | Completed | 9 | Intensified lymphodepletion with autologous HSCT in severe lupus. Small pilot, unrelated disease. |
-| [NCT04540120](https://clinicaltrials.gov/study/NCT04540120) | Phase 2 | Terminated | 49 | Oral dapansutrile in COVID-19 with early cytokine release syndrome. Not a filgrastim study. |
-| [NCT00281879](https://clinicaltrials.gov/study/NCT00281879) | Phase 2 | Terminated | 200 | Unrelated-donor HSCT for hematological malignancies. Filgrastim at most supportive. |
-| [NCT00923364](https://clinicaltrials.gov/study/NCT00923364) | Phase 2 | Completed | 19 | Reduced-intensity HSCT pilot for GATA2 mutations. Indirect transplant context only. |
-| [NCT04047628](https://clinicaltrials.gov/study/NCT04047628) | Phase 3 | Recruiting | 156 | Autologous HSCT versus best available therapy in multiple sclerosis. Filgrastim would serve only for mobilization. |
-
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [29770133](https://pubmed.ncbi.nlm.nih.gov/29770133/) | 2018 | Cohort | Frontiers in Immunology | G-CSF mobilization of stem cells in healthy donors preferentially mobilizes lymphocyte subsets. It concerns transplant immunology, not platelet disorders. |
+| [NCT00296023](https://clinicaltrials.gov/study/NCT00296023) | NA | Completed | 25 | Low-dose allogeneic stem cell transplant for high-risk low-grade hematologic malignancies |
+| [NCT00004232](https://clinicaltrials.gov/study/NCT00004232) | Phase 1 | Completed | Not reported | CD34-enriched stem cells to augment bone marrow in allogeneic transplant |
+| [NCT00054236](https://clinicaltrials.gov/study/NCT00054236) | Phase 1 | Completed | 55 | Multiple cord blood unit transplant after non-myeloablative conditioning |
+| [NCT00301912](https://clinicaltrials.gov/study/NCT00301912) | Phase 2 | Withdrawn | 0 | Busulfan/fludarabine preparative regimen before matched unrelated donor transplant; no data |
+| [NCT00295997](https://clinicaltrials.gov/study/NCT00295997) | NA | Unknown | 35 | Non-myeloablative matched unrelated donor transplant |
+| [NCT00080925](https://clinicaltrials.gov/study/NCT00080925) | Phase 1 | Completed | 20 | T-cell depleted haploidentical transplant |
+| [NCT00004904](https://clinicaltrials.gov/study/NCT00004904) | Phase 1 | Completed | Not reported | T-cell depleted partially matched donor transplant with CD34 "veto" cells |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN16267P | ACCOFIL 48 Solution for Injection or Infusion in a Pre-filled Syringe, 48 MU/0.5 mL | Injection, solution |
-| SIN16268P | ACCOFIL 30 Solution for Injection or Infusion in a Pre-filled Syringe, 30 MU/0.5 mL | Injection, solution |
-| SIN14196P | Nivestim 300 mcg/0.5 mL Solution for Injection/Infusion | Infusion, solution |
-| SIN10780P | NEUPOGEN Pre-filled Syringe 30 MU/0.5 mL | Injection |
-
-All products are injectable formulations.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN16267P | ACCOFIL 48 Solution for Injection or Infusion in a Pre-filled Syringe 48 MU/0.5 mL | Injection, solution | Not specified |
+| SIN14196P | Nivestim 300mcg/0.5mL Solution for Injection/Infusion | Infusion, solution | Not specified |
+| SIN10780P | NEUPOGEN Pre-filled Syringe 30 MU/0.5 mL | Injection | Not specified |
+| SIN16268P | ACCOFIL 30 Solution for Injection or Infusion in a Pre-filled Syringe 30 MU/0.5 mL | Injection, solution | Not specified |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: 100 interactions were identified in the interaction database. The examples reviewed were all rated Moderate, and most are antineoplastic or radiopharmaceutical agents, including paclitaxel, mercaptopurine, azacitidine, bendamustine, alemtuzumab, arsenic trioxide, abemaciclib, ibritumomab tiuxetan, and iobenguane (I-131). The full list should be reviewed before any new use.
+
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The high TxGNN score is not backed by disease-specific evidence. Filgrastim has no known effect on platelet function, no retrieved trial tests it for this condition, and the only literature is an unrelated stem cell mobilization cohort study. The other top-ranked predictions (pseudo-von Willebrand disease, Glanzmann thrombasthenia and Scott syndrome, among others) also have no supporting studies, so the whole prediction set looks like graph-proximity noise.
+The prediction is supported only by the model score. There are no clinical trials or publications for primary release disorder of platelets, and no plausible link between G-CSF signaling and platelet granule release. Filgrastim is not a thrombopoietic agent.
 
 **To proceed, the following is needed:**
-- Mechanism of action data linking G-CSF to platelet release or function
-- Package insert warnings and contraindications for the Singapore-registered products, which are needed for safety screening
-- Disease-specific clinical or preclinical evidence, such as case series of filgrastim-supported HSCT in inherited platelet function disorders
-- Manual review of the 24 matched trials to confirm whether any include platelet function disorder patients
+- Mechanism of action data and a biologically plausible rationale linking G-CSF to platelet secretion
+- Preclinical or clinical evidence in platelet function disorders
+- Package insert warnings and contraindications from the HSA, to allow safety screening
+- Approved indication text for the Singapore registrations
+- If transplant-based strategies are of interest, a separate assessment of filgrastim's supportive role in stem cell mobilization for inherited platelet disorders
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

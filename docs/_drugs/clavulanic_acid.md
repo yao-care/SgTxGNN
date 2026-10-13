@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Clavulanic Acid
-parent: Medium Evidence (L3-L4)
-nav_order: 259
-evidence_level: L4
+parent: Low Evidence (L5)
+nav_order: 261
+evidence_level: L5
 indication_count: 10
 ---
 
 # Clavulanic Acid
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,77 +29,117 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Clavulanic Acid: From Bacterial Infections (Beta-Lactamase Inhibitor Combination) to Ureaplasma Urethritis
+# Clavulanic Acid: From Bacterial Infections to Ureaplasma Urethritis
 
 ## One-Sentence Summary
 
-Clavulanic acid is a beta-lactamase inhibitor, used together with amoxicillin to treat bacterial infections.
-The TxGNN model predicts it may be effective for **Ureaplasma urethritis**, but there are **0 registered clinical trials** and **4 publications**, none of which reports clavulanate activity against Ureaplasma.
-The prediction is mechanistically implausible and is most likely a graph-proximity artifact.
+Clavulanic acid is a beta-lactamase inhibitor, originally used together with amoxicillin to treat bacterial infections such as urinary tract infection and bacterial pneumonia.
+The TxGNN model's top-ranked prediction is **Ureaplasma urethritis**, but **no clinical trials** and **no relevant literature** support it, and the mechanism is biologically implausible.
+The strongest signal among the predictions is for **gonococcal urethritis** (9 publications, including several 1980s clinical studies), although this is a historical use rather than a new opportunity.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections, as a beta-lactamase inhibitor partner for amoxicillin (general pharmacology; label indication text is not available in the Singapore record) |
-| Predicted New Indication | Ureaplasma urethritis |
+| Original Indication | Bacterial infections (urinary tract infection, bacterial pneumonia, staphylococcal infection, and others). The approved indication text in the Singapore licences is blank, so this comes from the knowledge graph. |
+| Predicted New Indication | Ureaplasma urethritis (rank 1) |
 | TxGNN Prediction Score | 99.93% |
-| Evidence Level | L4 |
+| Evidence Level | L5 (rank 1 has only general urethritis literature and no studies of clavulanate in Ureaplasma; the "L4" label in the compiled data is not supported by the data, so it is treated as model prediction only). Best of the other predictions: L3 (gonococcal urethritis). |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 12 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Clavulanic acid inhibits bacterial beta-lactamase enzymes, which protects amoxicillin from degradation. On its own it adds little antibacterial activity. It widens amoxicillin's spectrum to beta-lactamase-producing organisms.
+Detailed mechanism of action data is not available in the compiled data. From general knowledge, clavulanic acid is a beta-lactamase inhibitor. It has little antibacterial activity of its own, but it protects partner penicillins such as amoxicillin from enzymatic breakdown, which widens their spectrum.
 
-The prediction does not hold up mechanistically. *Ureaplasma* has no cell wall, so beta-lactam antibiotics are intrinsically inactive against it, and a beta-lactamase inhibitor cannot fix that. The four retrieved papers concern urethritis or prostatitis in general and never report clavulanate efficacy against *Ureaplasma*. The very high TxGNN score most likely reflects the drug's proximity to other urethritis terms in the knowledge graph, not a real therapeutic signal.
+For the top prediction, **Ureaplasma urethritis**, the rationale is weak. Ureaplasma has no cell wall, so beta-lactam antibiotics are expected to be ineffective, and clavulanate adds nothing against it. The retrieved papers cover general urethritis (a *Pasteurella bettyae* report, diagnostic reviews, empirical treatment) and do not test clavulanate against Ureaplasma. The high score most likely reflects the model's network proximity to other urethritis indications, not a real mechanism.
 
-For context, another urethritis prediction in the same output, **gonococcal urethritis** (rank 2, same TxGNN score, L3), has a real rationale. Clavulanate restores amoxicillin activity against penicillinase-producing *Neisseria gonorrhoeae*, and 1980s single-dose amoxicillin/clavulanate studies exist, including one from Singapore (PMID 3898395). That use is historical and has been superseded by cephalosporin-based regimens, so it is not a new repurposing opportunity.
+Other predictions fall into three groups:
+
+- **Gonococcal urethritis (rank 2):** Biologically plausible. Clavulanate restores amoxicillin activity against penicillinase-producing *Neisseria gonorrhoeae*. Several 1980s studies of single-dose and two-dose amoxicillin/clavulanate in men reported cure rates of roughly 90% or higher, and in some studies the combination beat kanamycin or procaine penicillin. However, current resistance is mostly chromosomal, and guideline therapy is now ceftriaxone-based, so this is historical use.
+- **Infection-related conditions (ranks 3-5):** Uterine inflammatory disease, xanthogranulomatous pyelonephritis and urogenital tuberculosis have indirect or very weak rationale. For tuberculosis, clavulanate does inhibit the mycobacterial beta-lactamase BlaC, but it is not a standard agent for urogenital TB.
+- **Non-infectious conditions (ranks 6-10):** Abdominal ectopic pregnancy, celiac trunk compression syndrome, abdominal cystic lymphangioma, lymph node palisaded myofibroblastoma and disease of the uterine broad ligament have no plausible antibacterial mechanism and are likely knowledge-graph artifacts.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for the top-ranked prediction (Ureaplasma urethritis), and none for any of the other nine predictions.
+
+---
 
 ## Literature Evidence
 
+**Ureaplasma urethritis (top-ranked prediction).** None of the retrieved papers evaluates clavulanate in Ureaplasma infection.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [34366085](https://pubmed.ncbi.nlm.nih.gov/34366085/) | 2021 | Case report/series | Infectious Diseases Now | First reported association of *Pasteurella bettyae* with urethritis and balanitis in men who have sex with men; no clavulanate efficacy data |
-| [21947096](https://pubmed.ncbi.nlm.nih.gov/21947096/) | 2011 | Review | Rev Esp Quimioter | Discusses the best empirical treatment of urethritis in a Madrid city-centre population; no Ureaplasma-specific clavulanate data |
-| [19544099](https://pubmed.ncbi.nlm.nih.gov/19544099/) | 2009 | Retrospective review | Rev Esp Quimioter | 3-year review of the prevalence and trends of microorganisms causing male urethritis in Madrid |
-| [9669200](https://pubmed.ncbi.nlm.nih.gov/9669200/) | 1998 | Observational | Int J Androl | Examines the possible role of anaerobic bacteria in chronic prostatitis in 50 patients; not about clavulanate treatment of Ureaplasma |
+| [21947096](https://pubmed.ncbi.nlm.nih.gov/21947096/) | 2011 | Review | Rev Esp Quimioter | Best empirical treatment for urethritis in Madrid (general urethritis; no Ureaplasma-specific clavulanate data) |
+| [19544099](https://pubmed.ncbi.nlm.nih.gov/19544099/) | 2009 | Review | Rev Esp Quimioter | Three-year review of the microorganisms causing male urethritis |
+| [34366085](https://pubmed.ncbi.nlm.nih.gov/34366085/) | 2021 | Case report | Infect Dis Now | First association of *Pasteurella bettyae* with urethritis and balanitis in men who have sex with men |
+| [9669200](https://pubmed.ncbi.nlm.nih.gov/9669200/) | 1998 | Review | Int J Androl | Possible role of anaerobic bacteria in chronic prostatitis |
+
+**Gonococcal urethritis (best-supported alternative prediction, rank 2).**
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [3533755](https://pubmed.ncbi.nlm.nih.gov/3533755/) | 1986 | Randomised comparative trial | Genitourin Med | Cefuroxime axetil vs amoxicillin 3 g + clavulanic acid 0.25 g (with probenecid) in 500 patients with uncomplicated gonorrhoea |
+| [6365235](https://pubmed.ncbi.nlm.nih.gov/6365235/) | 1984 | Comparative trial | Br J Vener Dis | In 121 men, single-dose amoxicillin/clavulanate left 9.4% culture-positive at 7 days vs 26.3% with procaine penicillin |
+| [6428699](https://pubmed.ncbi.nlm.nih.gov/6428699/) | 1984 | Clinical study | Br J Vener Dis | Two-dose Augmentin cured 95.9% vs 87.4% with kanamycin in 192 men; equally effective against penicillinase-producing strains |
+| [4007860](https://pubmed.ncbi.nlm.nih.gov/4007860/) | 1985 | Clinical study | Genitourin Med | Amoxicillin 3 g + clavulanic acid 125 mg cured 97 of 100 patients with anogenital gonorrhoea, including 85% of penicillinase-producing strain infections |
+| [3004176](https://pubmed.ncbi.nlm.nih.gov/3004176/) | 1985 | Clinical study | Afr J Med Med Sci | Single-dose Augmentin in Ibadan, Nigeria, where about 80% of gonococcal strains were penicillinase-producing |
+| [6757686](https://pubmed.ncbi.nlm.nih.gov/6757686/) | 1982 | Clinical study | Med J Malaysia | Single-dose oral amoxicillin/clavulanic acid in males with gonococcal urethritis |
+| [3147528](https://pubmed.ncbi.nlm.nih.gov/3147528/) | 1988 | Clinical study/Review | Sex Transm Dis | Options for antibiotic-resistant gonorrhoea, including clavulanic acid added to penicillin or amoxicillin |
+| [3132029](https://pubmed.ncbi.nlm.nih.gov/3132029/) | 1988 | Laboratory study | Hinyokika Kiyo | Penicillinase production and antibiotic susceptibility of gonococcal isolates, including amoxicillin/clavulanate |
+| [21947096](https://pubmed.ncbi.nlm.nih.gov/21947096/) | 2011 | Review | Rev Esp Quimioter | Empirical treatment of urethritis |
+
+**Other predictions:** Uterine inflammatory disease has only indirect support (a postpartum endometritis guideline, veterinary studies, a murine *Chlamydia* model and a case report). Urogenital tuberculosis has a single case report (PMID [26847806](https://pubmed.ncbi.nlm.nih.gov/26847806/)) in which amoxicillin/clavulanate was given but not evaluated. The remaining predictions have no literature.
+
+---
 
 ## Singapore Market Information
 
-12 registrations are recorded. Five main ones are listed below (approved indication text is not available in the record).
+Clavulanic acid has 12 valid single-ingredient registrations in Singapore (none cancelled), across film-coated tablets, powder for oral suspension and powder for injection. The approved indication text is not available in the compiled data. Five main registrations are listed:
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN08956P | AUGMENTIN TABLET 1 g | Film-coated tablet |
-| SIN16749P | CLAMOX FILM-COATED TABLETS 1G | Film-coated tablet |
-| SIN11027P | ENHANCIN TABLETS 625 mg | Film-coated tablet |
-| SIN15043P | SALACLAV POWDER FOR SOLUTION FOR INJECTION 1.2G/VIAL | Powder for solution for injection |
-| SIN11219P | AMOCLA TABLETS 625 mg | Film-coated tablet |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN08956P | AUGMENTIN TABLET 1 g | Film-coated tablet | Not available |
+| SIN09827P | AUGMENTIN TABLET 625 mg | Film-coated tablet | Not available |
+| SIN09831P | AUGMENTIN FOR ORAL SUSPENSION 228 mg/5 ml | Powder for suspension | Not available |
+| SIN15043P | SALACLAV POWDER FOR SOLUTION FOR INJECTION 1.2G/VIAL | Powder for solution for injection | Not available |
+| SIN10599P | CURAM FILM-COATED TABLET 625 mg | Film-coated tablet | Not available |
 
-Available routes are oral (film-coated tablets), injectable (powder for solution) and other (powder for suspension).
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Package insert warnings and contraindications were not available in the compiled data, so please refer to the package insert for them.
+
+- **Disease-level contraindications (knowledge graph, not label text):** kidney disease, pyoureter, liver disease, gallbladder disease, cholestasis (including benign recurrent and familial intrahepatic forms), *Clostridium difficile* colitis, perinatal necrotizing enterocolitis, infectious mononucleosis and chronic Epstein-Barr virus infection syndrome. These should be verified against the label.
+- **Drug interactions:** 16 interactions were identified.
+  - **Major (2):** leflunomide and teriflunomide.
+  - **Moderate (14):** naltrexone, balsalazide, asparaginase *Escherichia coli*, pegaspargase, brentuximab vedotin, clofarabine, epirubicin, idelalisib, interferon beta-1a, interferon beta-1b, peginterferon beta-1a, tioguanine, trabectedin and methotrexate.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-*Ureaplasma* lacks a cell wall, so beta-lactams and their inhibitors are not expected to work against it. There are no clinical trials, and the literature contains no clavulanate-specific evidence. The high TxGNN score alone does not justify progressing this candidate.
+The top-ranked prediction, Ureaplasma urethritis, has no trials, no relevant literature and an implausible mechanism (Ureaplasma lacks a cell wall), so its high TxGNN score should not be taken at face value. The only prediction with real clinical evidence is gonococcal urethritis, but those studies are from the 1980s and current guidelines use ceftriaxone, so it is a historical use rather than a new repurposing opportunity. Mechanism of action data and package insert safety data are also missing.
 
 **To proceed, the following is needed:**
-- Direct in vitro or clinical evidence of clavulanate-containing regimens against *Ureaplasma* (none expected given the mechanism)
-- Retrieval of the Singapore package insert (approved indications, warnings, contraindications), which is currently missing and blocks safety screening
-- Detailed mechanism of action data from DrugBank
-- If urethritis remains of interest, redirect review to the gonococcal urethritis prediction, and assess whether it adds anything beyond current guideline-preferred therapy
+- Package insert warnings and contraindications from the HSA (a blocking gap for safety screening)
+- Mechanism of action data
+- Approved indication text for the Singapore licences
+- For gonococcal urethritis: current local resistance surveillance data and a comparison with guideline-recommended regimens
+- For Ureaplasma urethritis: in vitro susceptibility data, if any, before any further consideration
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

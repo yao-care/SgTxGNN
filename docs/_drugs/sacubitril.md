@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Sacubitril
-parent: Low Evidence (L5)
-nav_order: 882
-evidence_level: L5
+parent: Medium Evidence (L3-L4)
+nav_order: 891
+evidence_level: L3
 indication_count: 10
 ---
 
 # Sacubitril
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,81 +29,99 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sacubitril: From Heart Failure (Not Listed in Singapore Records) to Brain Small Vessel Disease 1 With or Without Ocular Anomalies
+# Sacubitril: From Heart Failure Therapy to Diabetic Nephropathy
 
 ## One-Sentence Summary
 
-Sacubitril is a neprilysin inhibitor, used in combination with valsartan. The Singapore registration records provided do not state its approved indication; the supporting literature describes it as used for heart failure.
-The TxGNN model predicts it may be effective for **brain small vessel disease 1 with or without ocular anomalies** (a rare COL4A1-related genetic disorder), but there are **0 clinical trials** and **18 publications**. None of these publications mention sacubitril; they only cover congenital eye anomalies. The prediction is therefore a model signal only.
+Sacubitril is a neprilysin inhibitor, marketed in Singapore as a single-ingredient film-coated tablet. The approved indication text is not available in the data compiled for this report.
+The TxGNN model predicts it may be effective for **diabetic nephropathy** (the top-ranked prediction with meaningful supporting evidence), with **1 clinical trial** (Phase 4, status unknown) and **15 publications** currently supporting this direction. Most of the publications are preclinical studies or reviews.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore records. The literature in the pack describes sacubitril/valsartan as used for heart failure with reduced ejection fraction. |
-| Predicted New Indication | Brain small vessel disease 1 with or without ocular anomalies |
-| TxGNN Prediction Score | 99.58% |
-| Evidence Level | L5 |
+| Original Indication | Not available (approved indication text is empty in the Singapore licence records) |
+| Predicted New Indication | Diabetic nephropathy (the top-ranked prediction, brain small vessel disease, has almost no support; see the note below) |
+| TxGNN Prediction Score | 99.50% (diabetic nephropathy); the rank 1 prediction scored 99.58% |
+| Evidence Level | L3 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 3 |
-| Recommended Decision | Hold |
+| Recommended Decision | Proceed with Guardrails (research-question stage) |
+
+**Note on prediction selection:** The rank 1 prediction (brain small vessel disease 1 with or without ocular anomalies) and the other top-10 predictions, except diabetic nephropathy, have no clinical trials and either no literature or only unrelated literature (evidence level L5, Hold). This report therefore focuses on diabetic nephropathy, the only prediction with substantive supporting evidence.
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Sacubitril is a neprilysin inhibitor. Neprilysin breaks down natriuretic peptides, so blocking it raises their levels. In the marketed combination, sacubitril is paired with the angiotensin receptor blocker valsartan.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, sacubitril is a prodrug whose active metabolite inhibits neprilysin, an enzyme that breaks down natriuretic peptides. It is used together with valsartan, an angiotensin II receptor blocker (AT1 blocker).
 
-This prediction is hard to justify mechanistically. The target disease is a rare monogenic disorder (COL4A1-related), and neprilysin inhibition has no known role in its pathogenesis. The high score (rank 5,779 in the model's overall ranking) is a graph-based association only. The 18 retrieved publications match the disease terms (congenital ocular anomalies, holoprosencephaly) rather than the drug, so they do not count as drug-specific evidence.
+Blocking the renin-angiotensin system is already a cornerstone of diabetic kidney disease management. Adding neprilysin inhibition raises natriuretic peptide levels, which may further reduce glomerular hypertension, oxidative stress, NF-κB-mediated inflammation and fibrosis. Several rodent studies (diabetic rat, db/db mouse and Zucker obese rat models) report renoprotective effects, and a secondary analysis of the PARADIGM-HF trial examined renal function in patients with type 2 diabetes and heart failure.
+
+The mechanistic link is therefore biologically plausible, but renal outcomes in diabetic kidney disease in humans remain unconfirmed.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT06501651](https://clinicaltrials.gov/study/NCT06501651) | Phase 4 | Unknown | 297 | Randomized, controlled, multicenter study (Hyper-Save) comparing sacubitril/valsartan with valsartan over 12 weeks in patients with essential hypertension and type 2 diabetic nephropathy (2:1 randomization). No results reported. |
+
+---
 
 ## Literature Evidence
 
-All 18 retrieved papers are about the disease area, not sacubitril. The 10 reviews below are listed for context only.
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [35882526](https://pubmed.ncbi.nlm.nih.gov/35882526/) | 2023 | Review | J Med Genet | Axenfeld-Rieger syndrome: anterior segment anomalies with systemic features; genetic subtypes are still incompletely understood |
-| [6782689](https://pubmed.ncbi.nlm.nih.gov/6782689/) | 1981 | Review | Surv Ophthalmol | Ocular coloboma: a spectrum from iris coloboma to anophthalmos; etiologically heterogeneous |
-| [30182440](https://pubmed.ncbi.nlm.nih.gov/30182440/) | 2018 | Review | Am J Med Genet C | Neuropathology of holoprosencephaly, a forebrain patterning disorder with a broad severity range |
-| [33870948](https://pubmed.ncbi.nlm.nih.gov/33870948/) | 2022 | Review | J Neuroophthalmol | Optic nerve aplasia: ophthalmologic, systemic and genetic findings |
-| [11941259](https://pubmed.ncbi.nlm.nih.gov/11941259/) | 2002 | Review | J Fr Ophtalmol | Congenital megalocornea: genetics, association with glaucoma, diagnosis |
-| [10498002](https://pubmed.ncbi.nlm.nih.gov/10498002/) | 1999 | Review | Optom Vis Sci | Tilted disc syndrome: appearance, visual deficits and complications |
-| [6390155](https://pubmed.ncbi.nlm.nih.gov/6390155/) | 1983 | Review | Neurol Clin | Optic disk abnormalities: congenital versus acquired causes |
-| [1458324](https://pubmed.ncbi.nlm.nih.gov/1458324/) | 1992 | Review | Vet Clin North Am Equine Pract | Congenital ocular anomalies in horses (veterinary, not human) |
-| [16848213](https://pubmed.ncbi.nlm.nih.gov/16848213/) | 2006 | Review | Acta Med Croatica | Distichiasis: a case in a 9-year-old girl treated with lid splitting and cryotherapy |
-| [22963965](https://pubmed.ncbi.nlm.nih.gov/22963965/) | 2012 | Review | Ann Dermatol Venereol | Branchio-oculo-facial syndrome: a case with TFAP2A-related features |
+| [37549515](https://pubmed.ncbi.nlm.nih.gov/37549515/) | 2023 | Clinical study (randomized, n=112) | Int Immunopharmacol | Nifedipine controlled-release plus sacubitril/valsartan compared with nifedipine plus valsartan in diabetic nephropathy patients with hypertension |
+| [29661699](https://pubmed.ncbi.nlm.nih.gov/29661699/) | 2018 | Secondary analysis of RCT | Lancet Diabetes Endocrinol | PARADIGM-HF secondary analysis of neprilysin inhibition and renal function in type 2 diabetes with chronic heart failure |
+| [40416927](https://pubmed.ncbi.nlm.nih.gov/40416927/) | 2025 | Clinical study | Diabetes Metab Syndr Obes | BOLD-MRI evaluation of sacubitril/valsartan renal protection in diabetic nephropathy patients |
+| [34734359](https://pubmed.ncbi.nlm.nih.gov/34734359/) | 2023 | Cohort/Observational | Heart Fail Rev | Disease-modifying drugs in diabetic patients with heart failure with reduced ejection fraction |
+| [37625003](https://pubmed.ncbi.nlm.nih.gov/37625003/) | 2023 | Review | Diabetes Care | Update on the pillars of therapy slowing diabetic nephropathy progression |
+| [35165832](https://pubmed.ncbi.nlm.nih.gov/35165832/) | 2022 | Review | Curr Hypertens Rep | Newer drugs lowering blood pressure and mitigating hypertensive target organ damage |
+| [35992034](https://pubmed.ncbi.nlm.nih.gov/35992034/) | 2022 | Preclinical (rat) | Diabetes Metab Syndr Obes | Sacubitril/valsartan slowed early diabetic nephropathy progression via NLRP3 inflammasome inhibition |
+| [30909895](https://pubmed.ncbi.nlm.nih.gov/30909895/) | 2019 | Preclinical (rat) | Cardiovasc Diabetol | Sacubitril plus valsartan attenuated glomerular and tubular injury in the Zucker obese rat |
+| [32596035](https://pubmed.ncbi.nlm.nih.gov/32596035/) | 2020 | Preclinical (rat) | PeerJ | LCZ696 reduced oxidative stress, NF-κB inflammation and glomerulosclerosis in diabetic rats |
+| [33870733](https://pubmed.ncbi.nlm.nih.gov/33870733/) | 2021 | Preclinical (mouse) | Am J Physiol Renal Physiol | Effects differed between db/db and KKAy mice compared with valsartan |
+
+---
 
 ## Singapore Market Information
 
-All three products are film-coated tablets from BIOCON PHARMA LIMITED. The registration records provided do not include approved indication text.
-
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN16872P | MERAVO FILM-COATED TABLETS 50MG | Tablet, film coated | Biocon Pharma Limited |
-| SIN16873P | MERAVO FILM-COATED TABLETS 100MG | Tablet, film coated | Biocon Pharma Limited |
-| SIN16874P | MERAVO FILM-COATED TABLETS 200MG | Tablet, film coated | Biocon Pharma Limited |
+| SIN16872P | MERAVO Film-Coated Tablets 50MG | Film-coated tablet | Not available |
+| SIN16873P | MERAVO Film-Coated Tablets 100MG | Film-coated tablet | Not available |
+| SIN16874P | MERAVO Film-Coated Tablets 200MG | Film-coated tablet | Not available |
+
+All three licences are valid single-ingredient products (manufacturer: Biocon Pharma Limited), and none has been cancelled.
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found for this drug.
+- **Drug Interactions:** Six moderate-level interactions were identified: nitisinone, rosuvastatin, simvastatin, cobicistat, revefenacin and alpelisib.
+
+Please refer to the package insert for warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Proceed with Guardrails**
 
 **Rationale:**
-The prediction has no trials, no drug-specific literature and no plausible mechanism, so it is supported by the model score alone (L5).
+Diabetic nephropathy is the only predicted indication with a plausible mechanism, a registered randomized trial, and consistent preclinical and early clinical signals. However, the only trial has unknown status and no results, and no completed Phase 2/3 RCT is available, so the evidence level is capped at L3 and the finding should be treated as a research question. All other top-10 predictions (including rank 1) lack supporting data and should stay on Hold.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- Any drug-specific evidence linking neprilysin inhibition to COL4A1-related disease; none exists in the pack
-
-**Alternative lead:** The third-ranked prediction, **diabetic nephropathy** (score 99.50%), has stronger support at evidence level L3, with a recommendation of "Research Question". It has a Phase 4 trial of sacubitril/valsartan (NCT06501651, not yet recruiting), several rodent studies reporting renoprotection, and a small human BOLD MRI renal study in type 2 diabetes. Any renal effect is hard to attribute to sacubitril alone because the combination contains an ARB. Hyperkalemia and renal function monitoring would be essential in any further study.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Results or status confirmation for NCT06501651, and ideally completed Phase 2/3 RCTs with renal outcomes (e.g., albuminuria, eGFR decline)
+- Package insert warnings and contraindications (a blocking gap for safety screening)
+- Detailed mechanism of action data
+- Approved indication text for the Singapore licences
+- A safety monitoring plan (e.g., blood pressure, renal function, potassium) for diabetic patients with renal impairment, and a review of the listed drug interactions (notably statins)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

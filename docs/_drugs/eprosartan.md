@@ -2,7 +2,7 @@
 layout: default
 title: Eprosartan
 parent: Low Evidence (L5)
-nav_order: 383
+nav_order: 387
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,79 +33,66 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Eprosartan is an angiotensin II AT1 receptor blocker (ARB), a drug class used for hypertension. The TxGNN model predicts it may be effective for **malignant renovascular hypertension**, but the prediction has **0 clinical trials** and **0 publications** behind it. It currently rests on the model score and class pharmacology alone.
-
----
+Eprosartan is an angiotensin II receptor blocker (ARB), originally used to treat hypertension.
+The TxGNN model predicts it may be effective for **malignant renovascular hypertension**, but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction. The evidence is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (inferred from the ARB drug class; the Singapore registration record has no indication text) |
+| Original Indication | Hypertension (hypertensive disorder) |
 | Predicted New Indication | Malignant renovascular hypertension |
-| TxGNN Prediction Score | 93.7% |
-| Evidence Level | L5 (model prediction only; the pack pre-labelled it L4 on class-pharmacology reasoning, but no study was supplied) |
+| TxGNN Prediction Score | 93.69% |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data for eprosartan is not currently available. Based on known information, eprosartan is an angiotensin II AT1 receptor blocker, and this class works by blocking the renin-angiotensin-aldosterone system (RAAS). In renovascular hypertension, reduced blood flow to the kidney activates RAAS, which drives blood pressure up. Blocking the AT1 receptor is therefore biologically plausible for this condition.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, eprosartan is an angiotensin II type 1 (AT1) receptor blocker. Its efficacy in hypertension is established, and mechanistically it may be applicable to renovascular hypertension.
 
-The new indication is a subtype of hypertension, not a new disease area. However, the link is indirect. It comes from class pharmacology, not from eprosartan-specific data.
+Renovascular hypertension depends strongly on the renin-angiotensin system (RAS), so blocking the AT1 receptor is biologically plausible. However, this prediction is essentially an extension of the approved hypertension indication rather than a distinct repurposing opportunity. ARBs are also generally used with caution in bilateral renal artery stenosis because of the risk of acute decline in renal function.
 
-There are also practical limits. Malignant hypertension usually needs fast, titratable intravenous drugs for acute blood pressure control, so an oral ARB is unlikely to be first-line. ARBs can also cause acute kidney injury in patients with bilateral renal artery stenosis or a single functioning kidney, which are common settings for renovascular hypertension.
-
----
+Other predicted indications are weaker still. The next-ranked prediction, malignant hypertensive renal disease (score 93.69%), overlaps with the original indication, and malignant hypertension is an acute emergency usually managed with intravenous agents rather than an oral ARB. The pulmonary hypertension predictions (score 93.01%) rest only on a theoretical role of RAS in pulmonary vascular remodelling. Several lower-ranked predictions, such as Braddock syndrome and ocular tuberculosis, show no identifiable mechanistic link and are likely network artifacts.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
+No literature is available for the top-ranked prediction. For the third-ranked prediction (pulmonary hypertension owing to lung disease and/or hypoxia), one publication was retrieved, but it does not address pulmonary hypertension:
 
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [33942446](https://pubmed.ncbi.nlm.nih.gov/33942446/) | 2021 | Preclinical (animal study) | J Biochem Mol Toxicol | Eprosartan showed neuroprotective activity in rats with focal cerebral ischemia-reperfusion injury (MCAO model) |
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN11807P | TEVETEN TABLET 600 mg | Tablet, film coated (oral) | Not stated in the registration record |
-
----
+| SIN11807P | TEVETEN TABLET 600 mg | Tablet, film coated (oral) | Not specified in the available data |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications flagged in the knowledge graph (not label text):** pancreatitis, systemic lupus erythematosus (including paediatric), potassium deficiency, diabetes mellitus, diabetic ketoacidosis, hyperuricaemia, hypotensive disorder, hyperparathyroidism, osteitis fibrosa, hepatic coma/encephalopathy, neonatal jaundice, anuria, gout, hypercalcaemia, nephrocalcinosis, phosphorus metabolism disease, and renal artery obstruction. These come from drug-disease network edges and should be verified against the package insert.
+- **Drug Interactions:** 84 interactions were recorded. Major-level interactions include **potassium citrate** and **potassium bicarbonate** (risk of hyperkalaemia is the expected concern). Moderate-level interactions include corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide), SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin), insulins (aspart, degludec, detemir), acetylsalicylic acid, morphine, bupropion, dronabinol, and bowel-preparation products (picosulfuric acid, sodium sulfate, polyethylene glycol with electrolytes).
 
-Points specific to the predicted use, from class pharmacology:
-- **Renal risk**: ARBs can precipitate acute kidney injury in bilateral renal artery stenosis or a solitary kidney.
-- **Monitoring**: renal function and potassium monitoring would be required.
-
-No drug interaction records were found.
-
----
+Package insert warnings and contraindications were not available; please refer to the package insert for the full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has a high model score but no supporting trials or publications. The mechanism is plausible only at the drug-class level. There is a real renal safety concern in the likely target population, and oral therapy is unlikely to be first-line in the malignant phase.
+The prediction is supported only by the TxGNN score, with no clinical trials or linked literature. It also largely overlaps with the already approved hypertension indication, so it offers little new repurposing value. The renal artery obstruction contraindication flag is directly relevant to renovascular disease and needs careful review.
 
 **To proceed, the following is needed:**
-- The Singapore package insert (warnings, contraindications and approved indication), which is currently missing.
-- Mechanism of action data from DrugBank.
-- A literature search on ARBs, and eprosartan specifically, in renovascular hypertension and hypertensive nephropathy.
-- A renal safety and monitoring plan for patients with renal artery stenosis.
-- Clarification of whether an oral ARB has any role in the malignant phase, or only in long-term control after acute stabilisation.
+- Package insert warnings and contraindications from the HSA website (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- Clinical or observational evidence of eprosartan in renovascular hypertension, including renal safety in renal artery stenosis
+- Confirmation of the approved indication text for SIN11807P
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

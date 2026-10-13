@@ -2,7 +2,7 @@
 layout: default
 title: Pemigatinib
 parent: Low Evidence (L5)
-nav_order: 765
+nav_order: 773
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,20 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pemigatinib: From FGFR-Targeted Cancer Therapy to Multiple Endocrine Neoplasia
+# Pemigatinib: From an Unspecified Original Indication to Multiple Endocrine Neoplasia
 
 ## One-Sentence Summary
 
-Pemigatinib is an oral, selective FGFR1-3 inhibitor marketed in Singapore as Pemazyre tablets.
-The TxGNN model predicts it may be effective for **multiple endocrine neoplasia (MEN)**, but **no clinical trials and no publications** support this prediction, so it rests on the model score alone.
-
----
+Pemigatinib is a selective FGFR1-3 inhibitor, and its original approved indication is not recorded in the data compiled for this report.
+The TxGNN model predicts it may be effective for **multiple endocrine neoplasia**, but there are **0 clinical trials** and **0 publications** supporting this direction.
+This prediction is based on the model score alone and is not supported by known biology.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration records |
+| Original Indication | Not available (the Singapore licence records contain no indication text) |
 | Predicted New Indication | Multiple endocrine neoplasia |
 | TxGNN Prediction Score | 99.71% |
 | Evidence Level | L5 |
@@ -50,83 +49,75 @@ The TxGNN model predicts it may be effective for **multiple endocrine neoplasia 
 | Number of Registrations | 3 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Pemigatinib is a selective inhibitor of FGFR1, FGFR2 and FGFR3. Detailed mechanism-of-action data is not available in the source data. The FGFR-inhibitor description comes from the mechanistic assessment in the Evidence Pack.
+Pemigatinib is a selective inhibitor of FGFR1-3 (fibroblast growth factor receptors). Detailed mechanism of action data from DrugBank is not available for this report, and the original indication could not be confirmed from the Singapore licence records.
 
-The link to the predicted indication is weak. MEN syndromes are driven mainly by MEN1 and RET alterations, and no direct FGFR-driven mechanism is established for them. The high score (0.997, model rank 4529) is a statistical output of the knowledge graph. It has not been confirmed by any trial, publication or preclinical study.
+The link to the predicted indication is weak. Multiple endocrine neoplasia syndromes are driven mainly by MEN1 loss-of-function and RET gain-of-function mutations, not FGFR signalling. The high score (0.997) most likely reflects relationships within the knowledge graph rather than a documented biological mechanism. The prediction is therefore not supported by known biology.
 
-Other high-scoring predictions for this drug raise further doubts about the model output:
-- **Veterinary diseases** (infectious bovine rhinotracheitis, malignant catarrhal fever) are likely knowledge-graph artifacts and are not human indications.
-- **Three overlapping ALS entries** should be read as a single signal. FGF signalling is generally neurotrophic, so FGFR inhibition could be neutral or harmful.
-- **Amenorrhea** appears to have the opposite direction of effect. FGFR1 signalling supports GnRH neuron development, so FGFR inhibition is more likely to disturb the reproductive axis than to treat amenorrhea.
-- **HER2-positive breast carcinoma** is the only prediction with a plausible mechanism, because FGFR pathway alterations have been discussed as resistance or co-drivers. The one retrieved paper is a general kinase-inhibitor review with no pemigatinib efficacy data, so this remains a research question.
+Other predicted indications were also reviewed. Their scores are all similarly high (99.2%-99.5%), but none has clinical trial evidence:
 
----
+- **HER2-positive breast carcinoma** is the only one with a biologically plausible rationale, because FGFR signalling can contribute to resistance to HER2-targeted therapy. The one linked publication is a general review of kinase inhibitors, not evidence specific to pemigatinib.
+- **Amenorrhoea, cytomegalovirus infection, amyotrophic lateral sclerosis (and related entries) and axial spondylometaphyseal dysplasia** have no plausible FGFR-inhibition mechanism.
+- **Infectious bovine rhinotracheitis and malignant catarrh** are veterinary diseases with no human relevance. They are likely artefacts of the knowledge graph.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
-
----
+Currently no related literature available for the predicted indication, multiple endocrine neoplasia.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN17042P | PEMAZYRE TABLETS 4.5 MG | Tablet | Lonza Tampa LLC |
-| SIN17043P | PEMAZYRE TABLETS 9 MG | Tablet | Lonza Tampa LLC |
-| SIN17044P | PEMAZYRE TABLETS 13.5 MG | Tablet | Lonza Tampa LLC |
+| SIN17044P | PEMAZYRE TABLETS 13.5 MG | Tablet | Not stated in licence record |
+| SIN17042P | PEMAZYRE TABLETS 4.5 MG | Tablet | Not stated in licence record |
+| SIN17043P | PEMAZYRE TABLETS 9 MG | Tablet | Not stated in licence record |
 
-The registration records do not include approved indication text. All three products are oral tablets.
-
----
+All three licences are valid single-ingredient products (oral tablets) from Lonza Tampa LLC.
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (FGFR kinase inhibitor), not a conventional cytotoxic agent |
+| Cytotoxicity Classification | Targeted therapy (FGFR kinase inhibitor) |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
 | Monitoring Items | Please refer to the package insert warnings and precautions |
 | Handling Protection | Please refer to the package insert warnings and precautions |
 
-The classification is inferred from the drug class. The Evidence Pack contains no DrugBank toxicity data.
-
----
-
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: The interaction check returned 50 interacting drugs, 20 of which are shown in the data compiled for this report. Several are rated **Major**, including:
+  - Aprepitant
+  - Dexamethasone
+  - Clarithromycin
+  - Cobicistat
+  - Lumacaftor
+  - Chloramphenicol
+  - Erythromycin
+  - Ketoconazole
+  - Fluconazole
 
-The drug-interaction query returned no records. This means no data was found, not that no interactions exist.
+  Many of these are CYP3A-related, so co-medication should be reviewed carefully. Moderate interactions include cimetidine, clotrimazole, deferasirox, ivacaftor, zafirlukast, griseofulvin, elagolix and osilodrostat, among others.
 
----
+Please refer to the package insert for warnings and contraindications. These were not available in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The 99.71% TxGNN score for multiple endocrine neoplasia is not supported by any trial, publication or established mechanism. MEN is driven mainly by MEN1 and RET, not FGFR. The evidence level is L5 (model prediction only), and the safety package is incomplete.
+The prediction rests on the model score only (evidence level L5). There are no clinical trials or indication-specific publications, and the known biology of multiple endocrine neoplasia does not involve FGFR signalling. The package insert warnings and contraindications are also missing, so safety screening cannot proceed.
 
 **To proceed, the following is needed:**
-- Preclinical or mechanistic evidence linking FGFR signalling to MEN pathology
+- The package insert (warnings, contraindications and approved indication) from the HSA website
 - Mechanism of action data from DrugBank
-- HSA package insert warnings and contraindications, which block safety screening
-- Approved indication text for the Singapore registrations
-- Separate follow-up on HER2-positive breast carcinoma (FGFR as a resistance pathway) as a more plausible research question
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Preclinical or mechanistic evidence linking FGFR inhibition to multiple endocrine neoplasia
+- If a repurposing direction is still wanted, a review of HER2-positive breast carcinoma, the only predicted indication with a plausible, though unvalidated, FGFR rationale
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

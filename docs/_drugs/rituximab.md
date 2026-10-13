@@ -2,7 +2,7 @@
 layout: default
 title: Rituximab
 parent: High Evidence (L1-L2)
-nav_order: 868
+nav_order: 877
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,21 +29,19 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Rituximab: From an Unrecorded Original Indication to Follicular Lymphoma
+# Rituximab: From Rheumatoid Arthritis and B-Cell Lymphomas to Follicular Lymphoma
 
 ## One-Sentence Summary
 
-Rituximab is an anti-CD20 monoclonal antibody that is marketed in Singapore. The licence records supplied do not state its original approved indication.
-The TxGNN model predicts it may be effective for **Follicular Lymphoma**, with **50 clinical trials** and **20 publications** retrieved for this direction.
-Follicular lymphoma is a long-established use of rituximab, so the high score reflects known practice and is not a novel repurposing signal.
-
----
+Rituximab is an anti-CD20 monoclonal antibody, originally used for B-cell non-Hodgkin lymphoma and rheumatoid arthritis.
+The TxGNN model predicts it may be effective for **Follicular Lymphoma**, which is close to an on-label use.
+The data compiled for this report include **43 clinical trials** (several Phase 3) and **20 publications**, including a 2025 randomized Phase 3 trial.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the supplied Singapore licence data |
+| Original Indication | Rheumatoid arthritis, non-Hodgkin lymphoma, mantle cell lymphoma and other B-cell neoplasms (from the knowledge graph; the Singapore licence records contain no indication text) |
 | Predicted New Indication | Follicular lymphoma |
 | TxGNN Prediction Score | 96.08% |
 | Evidence Level | L1 |
@@ -51,98 +49,89 @@ Follicular lymphoma is a long-established use of rituximab, so the high score re
 | Number of Registrations | 8 |
 | Recommended Decision | Proceed with Guardrails |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Rituximab is an anti-CD20 monoclonal antibody. Follicular lymphoma cells are CD20-positive B cells, so the antibody can act through antibody-dependent cellular cytotoxicity (ADCC), complement-dependent cytotoxicity (CDC) and direct induction of apoptosis. The DrugBank mechanism field was not populated in the input, so this description comes from the evidence analysis rather than the drug record.
+Detailed mechanism of action data are not available in the data compiled for this report. Based on known pharmacology, rituximab binds the CD20 antigen on B cells. It is understood to act through antibody-dependent cellular cytotoxicity, complement-dependent cytotoxicity and direct induction of apoptosis.
 
-The input lists no original indications, so the relationship between the original and new indication cannot be shown from the data. Follicular lymphoma is nonetheless a well-established use of rituximab, supported by guidelines and reviews. The ESMO guideline and the long-term randomised trial of early rituximab monotherapy are in the literature table below. The high TxGNN score is consistent with that history and should not be read as a newly discovered use.
+Follicular lymphoma is a B-cell non-Hodgkin lymphoma, and its malignant cells express CD20. It therefore falls within a disease class where rituximab is already used. This is closer to on-label or near-label use than to true repurposing. The prediction is supported by Phase 3 trials and a 2025 randomized trial of early rituximab monotherapy versus watchful waiting.
 
----
+Other predicted indications in the data (ranks 2-10) vary widely. Some are CD20-positive B-cell neoplasms with plausible rationale, such as mature B-cell neoplasms, MALT lymphomas and Burkitt lymphoma. Others lack any mechanistic basis, such as "metastatic neoplasm" and malignant spiradenoma, a sweat gland carcinoma. The "metastatic neoplasm" score likely reflects a broad ontology term.
 
 ## Clinical Trial Evidence
 
+The table lists the most relevant trials for follicular lymphoma, prioritising trials with rituximab as the direct subject.
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01476787](https://clinicaltrials.gov/study/NCT01476787) | Phase 3 | Completed | 1030 | Rituximab + lenalidomide vs rituximab + chemotherapy in untreated follicular lymphoma. Rituximab is a core component. |
-| [NCT01650701](https://clinicaltrials.gov/study/NCT01650701) | Phase 3 | Completed | 1030 | RELEVANCE trial. This is the companion registration of the same rituximab + lenalidomide vs rituximab + chemotherapy study. |
-| [NCT01938001](https://clinicaltrials.gov/study/NCT01938001) | Phase 3 | Completed | 358 | Double-blind trial of rituximab + lenalidomide vs rituximab + placebo in relapsed/refractory follicular or marginal zone lymphoma. |
-| [NCT01701232](https://clinicaltrials.gov/study/NCT01701232) | Phase 3 | Completed | 174 | Biosimilar BCD-020 vs MabThera monotherapy in indolent non-Hodgkin lymphoma. |
-| [NCT00003204](https://clinicaltrials.gov/study/NCT00003204) | Phase 3 | Completed | 515 | Maintenance anti-CD20 antibody vs observation after induction in low-grade lymphoma. |
-| [NCT00006721](https://clinicaltrials.gov/study/NCT00006721) | Phase 3 | Active, not recruiting | 571 | CHOP + rituximab vs CHOP + iodine-131 tositumomab in newly diagnosed follicular lymphoma. |
-| [NCT06097364](https://clinicaltrials.gov/study/NCT06097364) | Phase 3 | Active, not recruiting | 733 | Odronextamab + chemotherapy vs rituximab + chemotherapy in untreated follicular lymphoma. Rituximab is the comparator, so the evidence is indirect. |
-| [NCT05409066](https://clinicaltrials.gov/study/NCT05409066) | Phase 3 | Active, not recruiting | 549 | Epcoritamab + rituximab + lenalidomide vs rituximab + lenalidomide in relapsed/refractory follicular lymphoma. |
-| [NCT04224493](https://clinicaltrials.gov/study/NCT04224493) | Phase 3 | Recruiting | 612 | Tazemetostat or placebo + lenalidomide + rituximab in relapsed/refractory follicular lymphoma. |
-| [NCT00363636](https://clinicaltrials.gov/study/NCT00363636) | Phase 3 | Terminated | 340 | Galiximab + rituximab vs placebo + rituximab in relapsed/refractory follicular lymphoma. |
-
----
+| [NCT00078598](https://clinicaltrials.gov/study/NCT00078598) | Phase 3 | Unknown | 506 | Rituximab vs iodine-131 tositumomab in relapsed follicular NHL; status unknown, so reliability is uncertain |
+| [NCT01724021](https://clinicaltrials.gov/study/NCT01724021) | Phase 3 | Completed | 743 | Subcutaneous vs intravenous rituximab in DLBCL or follicular NHL; addresses route and patient preference rather than efficacy |
+| [NCT02303119](https://clinicaltrials.gov/study/NCT02303119) | Phase 3 | Completed | 221 | Two rituximab administration strategies (IV/SC) in first-line, low tumour burden follicular lymphoma |
+| [NCT02569996](https://clinicaltrials.gov/study/NCT02569996) | Phase 3 | Completed | 124 | Long-term rituximab maintenance in advanced follicular lymphoma after response to first-line therapy |
+| [NCT00991211](https://clinicaltrials.gov/study/NCT00991211) | Phase 3 | Completed | 549 | Bendamustine plus rituximab vs CHOP plus rituximab, first-line indolent and mantle cell lymphoma |
+| [NCT00012051](https://clinicaltrials.gov/study/NCT00012051) | Phase 3 | Completed | 340 | Rituximab with sequential chemotherapy and autologous transplant in relapsed B-cell NHL |
+| [NCT05100862](https://clinicaltrials.gov/study/NCT05100862) | Phase 3 | Active, not recruiting | 799 | Zanubrutinib plus anti-CD20 vs lenalidomide plus rituximab in relapsed/refractory follicular or marginal zone lymphoma |
+| [NCT00238238](https://clinicaltrials.gov/study/NCT00238238) | Phase 2 | Completed | 97 | Rituximab vs lenalidomide vs the combination in recurrent follicular NHL |
+| [NCT05783609](https://clinicaltrials.gov/study/NCT05783609) | Phase 2 | Recruiting | 100 | Epcoritamab plus rituximab, first-line follicular lymphoma; rituximab is a combination backbone |
+| [NCT05371093](https://clinicaltrials.gov/study/NCT05371093) | Phase 3 | Active, not recruiting | 231 | Axicabtagene ciloleucel vs standard care in relapsed/refractory follicular lymphoma; rituximab is likely part of the comparator |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [40306831](https://pubmed.ncbi.nlm.nih.gov/40306831/) | 2025 | RCT (Phase 3, long-term follow-up) | Lancet Haematol | Early rituximab monotherapy vs watchful waiting in asymptomatic, low-tumour-burden advanced follicular lymphoma. The earlier report showed improved time to new treatment, and this report gives mature follow-up. |
-| [33249059](https://pubmed.ncbi.nlm.nih.gov/33249059/) | 2021 | Guideline | Ann Oncol | ESMO Clinical Practice Guidelines for newly diagnosed and relapsed follicular lymphoma. |
-| [36345167](https://pubmed.ncbi.nlm.nih.gov/36345167/) | 2022 | Meta-analysis | J Clin Pharm Ther | Efficacy and safety of rituximab biosimilars vs the reference product as first-line treatment in low-tumour-burden follicular lymphoma. |
-| [39374535](https://pubmed.ncbi.nlm.nih.gov/39374535/) | 2024 | Molecular subtyping study | Blood | Follicular lymphoma has germinal centre-like and memory-like subtypes with prognostic significance. Samples came from the RELEVANCE trial (rituximab-chemotherapy or rituximab-lenalidomide). |
-| [28628883](https://pubmed.ncbi.nlm.nih.gov/28628883/) | 2017 | Review | Cancer Treat Rev | Pros and cons of rituximab maintenance in follicular lymphoma. |
-| [29120553](https://pubmed.ncbi.nlm.nih.gov/29120553/) | 2017 | Review | Acta Clin Croat | Rituximab maintenance in first- and second-line treatment of advanced follicular lymphoma, with improved progression-free survival. |
-| [36255040](https://pubmed.ncbi.nlm.nih.gov/36255040/) | 2022 | Review | Am J Hematol | 2023 update on diagnosis and management of follicular lymphoma. |
-| [31831752](https://pubmed.ncbi.nlm.nih.gov/31831752/) | 2019 | Review | Nat Rev Dis Primers | Overview of follicular lymphoma biology and disease features. |
-| [12857561](https://pubmed.ncbi.nlm.nih.gov/12857561/) | 2003 | Review | Haematologica | Rituximab as primary treatment, treatment of relapsed disease, re-treatment and maintenance in follicular lymphoma. |
-| [32683839](https://pubmed.ncbi.nlm.nih.gov/32683839/) | 2020 | Case report (adverse event) | Cancer Res Treat | Crohn's disease following rituximab induction and maintenance for follicular lymphoma. |
-
----
+| [40306831](https://pubmed.ncbi.nlm.nih.gov/40306831/) | 2025 | Randomized Phase 3 | Lancet Haematol | Long-term results: early rituximab monotherapy vs watchful waiting in asymptomatic, low tumour burden advanced follicular lymphoma; earlier results showed improved time to new treatment |
+| [38041532](https://pubmed.ncbi.nlm.nih.gov/38041532/) | 2024 | Systematic review / network meta-analysis | Cancer | Maintenance and consolidation strategies in untreated advanced follicular lymphoma |
+| [40884311](https://pubmed.ncbi.nlm.nih.gov/40884311/) | 2025 | Review | Br J Haematol | Chemo-free approaches; rituximab-lenalidomide supported from second line |
+| [28628883](https://pubmed.ncbi.nlm.nih.gov/28628883/) | 2017 | Review | Cancer Treat Rev | Pros and cons of rituximab maintenance in follicular lymphoma |
+| [32236519](https://pubmed.ncbi.nlm.nih.gov/32236519/) | 2020 | Review | Blood | Lenalidomide plus rituximab as an effective chemo-free option in first-line and relapsed disease |
+| [31814159](https://pubmed.ncbi.nlm.nih.gov/31814159/) | 2020 | Review | Am J Hematol | 2020 update on diagnosis and management of follicular lymphoma |
+| [31346132](https://pubmed.ncbi.nlm.nih.gov/31346132/) | 2019 | Review | Oncologist | Recent and emerging therapies and unmet needs |
+| [34105813](https://pubmed.ncbi.nlm.nih.gov/34105813/) | 2021 | Review | Hematol Oncol | High-risk follicular lymphoma; rituximab chemotherapy improved survival and maintenance improved PFS |
+| [21958083](https://pubmed.ncbi.nlm.nih.gov/21958083/) | 2012 | Review | Leuk Lymphoma | Facts and controversies of maintenance rituximab |
+| [29542329](https://pubmed.ncbi.nlm.nih.gov/29542329/) | 2018 | Review | Expert Rev Hematol | Treatment of relapsed follicular lymphoma in the rituximab era |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN15969P | Rixathon Concentrate for Solution for Infusion 500mg/50ml | Infusion, solution concentrate |
-| SIN15970P | Rixathon Concentrate for Solution for Infusion 100mg/10ml | Infusion, solution concentrate |
-| SIN09946P | MabThera Concentrate for Solution for Infusion 500mg/50ml | Injection |
-| SIN15671P | Truxima Concentrate for Solution for Infusion 10mg/ml | Infusion, solution concentrate |
-| SIN16452P | Ruxience Concentrate for Solution for Infusion 500mg/50ml | Infusion, solution concentrate |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN09946P | MabThera Concentrate for Solution for Infusion 500 mg/50 ml | Injection | Not stated in the licence data |
+| SIN13718P | MabThera Concentrate for Solution for Infusion 100 mg/10 ml | Infusion, solution concentrate | Not stated in the licence data |
+| SIN15023P | MabThera Solution for Subcutaneous Injection 1400 mg | Injection, solution | Not stated in the licence data |
+| SIN15671P | Truxima Concentrate for Solution for Infusion 10 mg/ml | Infusion, solution concentrate | Not stated in the licence data |
+| SIN15969P | Rixathon Concentrate for Solution for Infusion 500 mg/50 ml | Infusion, solution concentrate | Not stated in the licence data |
 
-Of the 8 registrations, 5 are shown here. Approved-indication text is empty in the supplied licence records, so it is not listed.
-
----
+Three further registrations exist: Rixathon 100 mg/10 ml (SIN15970P) and Ruxience 500 mg/50 mL and 100 mg/10 mL (SIN16452P, SIN16451P). All 8 licences are valid single-ingredient products, and none has been cancelled. Both intravenous and subcutaneous formulations are available.
 
 ## Cytotoxicity
 
+Rituximab is a targeted monoclonal antibody (anti-CD20 immunotherapy), not a conventional cytotoxic chemotherapy.
+
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted immunotherapy (anti-CD20 monoclonal antibody) |
+| Cytotoxicity Classification | Targeted therapy (anti-CD20 monoclonal antibody) |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
-
----
+| Monitoring Items | CBC with differential and B-cell counts; hepatitis B screening before treatment is generally advised (a literature report in the data notes viral reactivation, including HCV flares, after rituximab-based treatment) |
+| Handling Protection | Please refer to the package insert and local institutional policy |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: The interaction query returned 90 entries (first 20 reviewed here). Major interactions include **adalimumab**, **baricitinib**, **deferiprone** and **samarium (153Sm) lexidronam**. Moderate interactions include other immunosuppressive or biologic agents (alemtuzumab, azathioprine, anakinra, alefacept), chloramphenicol, zidovudine, roflumilast, palifermin and strontium-89 chloride. Moderate interactions with the tetanus toxoid and anthrax vaccines are also listed. Zinc salts are minor. Combining rituximab with other immunosuppressants raises infection concerns, and vaccine response may be blunted.
 
-The literature includes one case report of Crohn's disease after rituximab induction and maintenance for follicular lymphoma (PMID 32683839). This is a single-case signal.
-
----
+Label warnings and contraindications are not available in the compiled data. Please refer to the package insert for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Several completed Phase 3 trials (RELEVANCE and its companion registration, a double-blind rituximab + lenalidomide trial, and a biosimilar trial), together with guidelines and a long-term randomised trial, support rituximab in follicular lymphoma. Follicular lymphoma is an established use, so this should not be treated as a new repurposing finding until the local label is confirmed.
-
-Of the other predicted indications, only "neoplasm of mature B-cells" reached L1/Proceed with Guardrails, on paediatric Phase 3 evidence. The CLL/SLL subtype, Burkitt lymphoma and MALT lymphoma sites are at "Research Question", based on case-level or mechanistic evidence. "Metastatic neoplasm", pregerminal-centre CLL/SLL and malignant spiradenoma are at "Hold". Malignant spiradenoma is likely a false-positive graph artefact.
+Follicular lymphoma is a CD20-positive B-cell lymphoma, a class in which rituximab is already established. Multiple Phase 3 trials and a 2025 randomized trial support its use. Because this is near on-label use, the main gaps concern the Singapore labelling and safety documentation, not efficacy.
 
 **To proceed, the following is needed:**
-- The Singapore package insert and approved-indication text for each of the 8 registrations, to confirm whether follicular lymphoma is already a labelled indication. Warnings and contraindications are also missing from the input.
-- Detailed mechanism of action data from DrugBank, which was not populated in the input.
-- A safety monitoring plan, including haematological parameters and infusion-reaction management.
-- Confirmation of approved routes (intravenous infusion or subcutaneous) for any new use. Route compatibility is still pending.
+- The HSA package insert, to confirm the approved indications and obtain warnings and contraindications. This is currently a blocking data gap.
+- Detailed mechanism of action data from DrugBank.
+- Confirmation of follicular lymphoma as a labelled indication for each Singapore product.
+- A monitoring plan covering infusion reactions, hepatitis B screening, infections and immunosuppressant co-medication.
+- Subtype-specific review for other B-cell categories. Mature B-cell neoplasms, Burkitt lymphoma and MALT lymphomas have supportive rationale, while "metastatic neoplasm" and malignant spiradenoma lack a rationale and should be held.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

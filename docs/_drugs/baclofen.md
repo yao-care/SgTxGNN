@@ -29,94 +29,88 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Baclofen: From Antispastic Muscle Relaxant to Attention Deficit Hyperactivity Disorder
+# Baclofen: From Spasticity (Original Indication Not Listed in Local Records) to Attention Deficit-Hyperactivity Disorder
 
 ## One-Sentence Summary
 
-Baclofen is an oral GABA-B agonist muscle relaxant, established for spasticity. The TxGNN model predicts it may be effective for **attention deficit hyperactivity disorder (ADHD)**, but there are **0 clinical trials** and **10 publications** for this indication, and none of them tests baclofen in ADHD. This is a model prediction with indirect support only.
-
----
+Baclofen is a GABA-B receptor agonist, and the Singapore licence records compiled for this report do not list an approved indication text.
+The TxGNN model's top-ranked prediction is **attention deficit-hyperactivity disorder (ADHD)**, but there are **0 clinical trials** and **9 publications** (mostly Tourette syndrome reviews and rodent studies, none testing baclofen in ADHD patients).
+The evidence is weak for this top-ranked indication. The better-supported alternative is **nicotine dependence** (3 Phase 2 trials, 20 publications).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore licence records; baclofen is established as an antispastic/muscle relaxant |
-| Predicted New Indication | Attention deficit hyperactivity disorder |
+| Original Indication | Not available (all 4 Singapore licences have an empty approved indication text) |
+| Predicted New Indication | Attention deficit-hyperactivity disorder |
 | TxGNN Prediction Score | 99.32% |
 | Evidence Level | L4 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 4 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Baclofen is a GABA-B receptor agonist that reduces muscle tone and spinal reflex hyperexcitability, and its efficacy in spasticity is established.
+Detailed mechanism of action data is not available in the compiled data. From known pharmacology, baclofen is a GABA-B receptor agonist. GABAergic modulation of cortico-striatal circuits, and of dopaminergic and noradrenergic tone, could plausibly influence impulsivity and hyperactivity.
 
-The link to ADHD is plausible but indirect. GABA-B agonism may modulate the dopaminergic and noradrenergic circuits involved in impulsivity and tics. The retrieved papers concern tic and Tourette syndrome management (where ADHD is a common comorbidity), alpha-2 agonists such as guanfacine, and rodent impulsivity models. None of them tests baclofen in ADHD.
+The link is indirect and extrapolated. The retrieved literature mainly covers Tourette syndrome and tic treatment, which often co-occurs with ADHD, plus rodent studies of impulsivity, hippocampal EEG and social play. None of it tests baclofen in people with ADHD.
 
-The high score therefore probably reflects proximity in the knowledge graph rather than direct clinical evidence.
-
----
+The second-ranked prediction, **nicotine dependence** (score 99.19%), has a clearer rationale. Baclofen dampens mesolimbic dopamine release, and animal studies show it reduces nicotine reward and withdrawal signs. It is covered in more detail below as the more promising lead.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for ADHD.
 
----
+For reference, the trials found for the better-supported alternative, nicotine dependence:
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT01821560](https://clinicaltrials.gov/study/NCT01821560) | Phase 2 | Completed | 44 | Baclofen effects on brain (fMRI) and behavior in smokers responding to smoking cues |
+| [NCT00257894](https://clinicaltrials.gov/study/NCT00257894) | Phase 2 | Terminated | 41 | Baclofen effect on smoking urge, withdrawal and reinforcement; early termination limits conclusions |
+| [NCT01228994](https://clinicaltrials.gov/study/NCT01228994) | Phase 2 | Terminated | 6 | Placebo-controlled test of baclofen for smoking abstinence; too small to inform efficacy |
 
 ## Literature Evidence
 
+Publications retrieved for ADHD (none test baclofen in ADHD patients):
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [35345730](https://pubmed.ncbi.nlm.nih.gov/35345730/) | 2022 | Systematic review/Meta-analysis | Cureus | Behavioural, antipsychotic and alpha-agonist treatments for tics in Tourette syndrome; ADHD noted as a common comorbidity; not about baclofen in ADHD |
-| [26366961](https://pubmed.ncbi.nlm.nih.gov/26366961/) | 2015 | Review | Clin Neuropharmacol | Mood stabilisers for behavioural symptoms (irritability, inattention) in autism spectrum disorders |
-| [24295630](https://pubmed.ncbi.nlm.nih.gov/24295630/) | 2013 | Review | Int Rev Neurobiol | Emerging Tourette syndrome treatments; ADHD listed as a common comorbidity |
-| [11393328](https://pubmed.ncbi.nlm.nih.gov/11393328/) | 2001 | Review | Paediatr Drugs | Tourette syndrome characteristics and management, including comorbid psychiatric conditions |
-| [10342599](https://pubmed.ncbi.nlm.nih.gov/10342599/) | 1999 | Review | J Child Neurol | Reports 450 patients with tics/Tourette treated with baclofen and botulinum toxin A; tic outcome, not ADHD |
-| [30122296](https://pubmed.ncbi.nlm.nih.gov/30122296/) | 2019 | Observational | L'Encephale | Supervised off-label methylphenidate in adult ADHD; not about baclofen |
-| [24062084](https://pubmed.ncbi.nlm.nih.gov/24062084/) | 2014 | Preclinical (rodent) | Psychopharmacology | Alpha-2A stimulation in the ventral hippocampus reduces impulsive choice (guanfacine) |
-| [21300040](https://pubmed.ncbi.nlm.nih.gov/21300040/) | 2011 | Preclinical (rodent) | Brain Res | EEG effects of neurotransmitter agonists in an ADHD rat model |
-| [24496320](https://pubmed.ncbi.nlm.nih.gov/24496320/) | 2014 | Preclinical (rodent) | Neuropsychopharmacology | Brain regions involved in effortful decision-making, a deficit seen in ADHD |
-| [24103016](https://pubmed.ncbi.nlm.nih.gov/24103016/) | 2013 | Preclinical (rodent) | Eur J Neurosci | Habenula function and social play behaviour in rats |
-
----
+| [35345730](https://pubmed.ncbi.nlm.nih.gov/35345730/) | 2022 | Review | Cureus | Behavioural, antipsychotic and alpha-agonist treatments for tics in Tourette syndrome, which often co-occurs with ADHD |
+| [24295630](https://pubmed.ncbi.nlm.nih.gov/24295630/) | 2013 | Review | International Review of Neurobiology | Emerging treatment strategies in Tourette syndrome |
+| [11393328](https://pubmed.ncbi.nlm.nih.gov/11393328/) | 2001 | Review | Paediatric Drugs | Clinical features and management of Tourette syndrome |
+| [10342599](https://pubmed.ncbi.nlm.nih.gov/10342599/) | 1999 | Review | Journal of Child Neurology | 450 patients with tics/Tourette syndrome treated with baclofen/botulinum toxin A |
+| [21300040](https://pubmed.ncbi.nlm.nih.gov/21300040/) | 2011 | Preclinical (animal) | Brain Research | EEG responses to neurotransmitter agonists in a rat model of ADHD and epilepsy |
+| [24062084](https://pubmed.ncbi.nlm.nih.gov/24062084/) | 2014 | Preclinical (animal) | Psychopharmacology | α2A-adrenergic stimulation in the ventral hippocampus reduces impulsive decision-making (guanfacine) |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN05330P | LIORESAL 10 TABLET 10 mg | Tablet | Novartis Farma S.p.A. |
-| SIN06831P | COLMIFEN 10 TABLET 10 mg | Tablet | Remedica Ltd |
-| SIN09087P | APO-BACLOFEN TABLET 10 mg | Tablet | Apotex Inc. |
-| SIN10026P | PMS-BACLOFEN TABLET 10 mg | Tablet | Pharmascience Inc. |
-
-All four products are oral tablets. No approved indication text is recorded for them.
-
----
+| SIN10026P | PMS-BACLOFEN TABLET 10 mg | Tablet | Not listed |
+| SIN06831P | COLMIFEN 10 TABLET 10 mg | Tablet | Not listed |
+| SIN05330P | LIORESAL 10 TABLET 10 mg | Tablet | Not listed |
+| SIN09087P | APO-BACLOFEN TABLET 10 mg | Tablet | Not listed |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No interaction records were found for baclofen in the evidence pack.
+- **Disease associations flagged in the TxGNN knowledge graph (not label text)**: epilepsy, kidney disease, psychotic and related disorders (schizophrenia, schizoaffective disorder, schizophreniform disorder, mental disorder), stroke and cerebrovascular disorders (including cerebral infarction), autonomic nervous system disease (including autonomic dysreflexia and Horner syndrome), pyoureter, and disease of the neck of the urinary bladder. These should be verified against the official package insert.
+- **Drug Interactions**: The interaction query returned 100 records. The main **Major** interactions are with **morphine** (including liposomal morphine). **Moderate** interactions include dronabinol, nabilone, metoclopramide, opium, sibutramine, difenoxin and diphenoxylate. Most of the CNS-depressant combinations call for caution.
 
----
+Please refer to the package insert for label warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The ADHD prediction has a very high model score but no registered trials and no publication testing baclofen in ADHD. The supporting papers cover Tourette syndrome, other drugs and rodent models, so the evidence is indirect (L4).
+The ADHD prediction rests on a high model score only. There are no clinical trials, and the literature does not test baclofen in ADHD. The mechanistic link is speculative. Several nervous system and psychiatric conditions also appear in the knowledge-graph contraindication list, which calls for caution in a population that often has psychiatric comorbidity.
 
 **To proceed, the following is needed:**
-- Any clinical or controlled preclinical study of baclofen specifically in ADHD
-- Confirmation of baclofen's mechanism of action data and its link to ADHD-relevant circuits
-- The HSA package insert, to review warnings, contraindications and the registered indications
-- A safety review for paediatric use, given that ADHD is mainly a childhood-onset condition
-
-**Other predicted indications worth separate review:** The pack ranks **nicotine dependence** higher in evidence terms (L2). It has three Phase 2 baclofen trials, of which one is completed (n=44) and two were terminated early (n=41 and n=6), plus supporting rodent data and reviews. **Myofascial pain syndrome** (L3) also has a small baclofen study and a plausible muscle-relaxant mechanism. Both would be better candidates to assess first than ADHD.
+- Package insert warnings and contraindications from the HSA, to complete safety screening
+- Approved indication text for the Singapore licences
+- Mechanism of action data
+- Preclinical or early clinical evidence of baclofen in ADHD
+- A decision on whether to prioritise **nicotine dependence** (L2, three Phase 2 trials, two terminated) or **myofascial pain syndrome** (an oral baclofen vs botulinum toxin A study, n=52, no results) as better-supported candidates
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

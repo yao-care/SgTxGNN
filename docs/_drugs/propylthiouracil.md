@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Propylthiouracil
-parent: Medium Evidence (L3-L4)
-nav_order: 828
-evidence_level: L4
+parent: Low Evidence (L5)
+nav_order: 837
+evidence_level: L5
 indication_count: 10
 ---
 
 # Propylthiouracil
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,68 +33,112 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Propylthiouracil (PTU) is an antithyroid drug that lowers thyroid hormone production. The TxGNN model predicts it may be effective for **resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta**, with a very high score (99.66%). However, there are **0 clinical trials** and only **6 publications** (case reports and mouse studies), and the mechanism points the wrong way. This prediction should be put on hold.
+Propylthiouracil (PTU) is an antithyroid drug originally used for hyperthyroidism, Graves' disease, thyrotoxicosis and thyroid crisis.
+The TxGNN model's top-ranked prediction is **resistance to thyroid hormone due to a THRB mutation**, but there are **no clinical trials** and only **4 publications** (case reports and mouse models), and none show a therapeutic benefit.
+The only prediction with substantive supporting evidence is **autoimmune thyroid disease** (rank 5), which largely overlaps with the already approved Graves' disease indication.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hyperthyroidism (inferred from the drug's mechanism; the Singapore registrations list no indication text) |
-| Predicted New Indication | Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta |
+| Original Indication | Hyperthyroidism, Graves' disease, thyrotoxicosis, thyroid crisis (the Singapore licence records contain no indication text) |
+| Predicted New Indication | Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta (rank 1) |
 | TxGNN Prediction Score | 99.66% |
-| Evidence Level | L4 |
+| Evidence Level | L4 (rank 1); the highest-ranked evidence is L1 for autoimmune thyroid disease (rank 5), which is largely an on-label overlap |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 2 |
-| Recommended Decision | Hold |
+| Recommended Decision | Hold (rank 1); Proceed with Guardrails for autoimmune thyroid disease (rank 5) |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in DrugBank for this record. Based on known pharmacology, PTU inhibits thyroid peroxidase and so reduces thyroid hormone synthesis. Its efficacy in hyperthyroidism is well established.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on established pharmacology, PTU inhibits thyroid peroxidase, which reduces thyroid hormone synthesis, and also reduces peripheral conversion of T4 to T3. This makes it directly relevant to states of true thyroid hormone excess.
 
-In resistance to thyroid hormone (RTH), the defect is in the thyroid hormone receptor beta, not in hormone production. Lowering hormone levels therefore does not correct the problem. It may also push TSH higher and enlarge the goiter. The published cases support this concern: a Thai patient with a de novo L330S mutation was treated with PTU for suspected thyrotoxicosis, and her goiter became more enlarged (PMID 10724359). The high TxGNN score probably reflects proximity to thyroid-hormone nodes in the knowledge graph rather than a true therapeutic link.
+For the top-ranked prediction, the rationale is weak. In resistance to thyroid hormone (THRB mutation), tissues are insensitive to hormone and levels are already elevated. Lowering them further with an antithyroid drug could raise TSH and drive goiter or thyroid hyperplasia. Consistent with this, the retrieved case reports describe patients whose goiter enlarged during PTU treatment. The high TxGNN score probably reflects network proximity to thyroid hormone biology, not a validated treatment rationale.
+
+Among the other predictions, only a few have a plausible link:
+- **Autoimmune thyroid disease** includes Graves' disease, a labelled PTU indication, so this is an on-label overlap rather than new repurposing.
+- **Neonatal thyrotoxicosis** is mechanistically relevant, but the literature concerns maternal treatment in pregnancy. PTU's liver toxicity limits direct use in neonates.
+- **Hyperthyroxinemia, Hashimoto thyroiditis and Prinzmetal angina** are relevant only when true thyrotoxicosis is present.
+- **Rare vascular disorders, diabetic nephropathy and primary hereditary glaucoma** have no supporting evidence.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+For the top-ranked prediction (resistance to thyroid hormone), currently no related clinical trials are registered.
+
+Trials found for the related prediction **autoimmune thyroid disease** (rank 5):
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT05118542](https://clinicaltrials.gov/study/NCT05118542) | Phase 3 | Completed | 36 | PTU vs methimazole in Graves' disease; effect on early atherosclerosis markers |
+| [NCT03066076](https://clinicaltrials.gov/study/NCT03066076) | Phase 3 | Unknown | 60 | Total thyroidectomy vs thionamides in Graves' ophthalmopathy |
+| [NCT01056419](https://clinicaltrials.gov/study/NCT01056419) | Phase 4 | Unknown | 40 | Early total thyroidectomy vs antithyroid drugs in Graves' orbitopathy |
+| [NCT03433352](https://clinicaltrials.gov/study/NCT03433352) | N/A | Unknown | 90 | Gut microbiota and methimazole response in Graves' disease (observational) |
+| [NCT03447093](https://clinicaltrials.gov/study/NCT03447093) | N/A | Unknown | 120 | Oral microbiota in autoimmune thyroiditis (observational, no PTU intervention) |
+
+---
 
 ## Literature Evidence
 
+Publications for the top-ranked prediction (resistance to thyroid hormone):
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [18561095](https://pubmed.ncbi.nlm.nih.gov/18561095/) | 2009 | Case report (family) | Exp Clin Endocrinol Diabetes | P453A THRB mutation in a Turkish mother and son with RTH-pattern thyroid tests |
-| [14684607](https://pubmed.ncbi.nlm.nih.gov/14684607/) | 2004 | Review/Preclinical | Endocrinology | Mutant TR-beta in the heart and its role in tissue resistance to thyroid hormone |
-| [22919057](https://pubmed.ncbi.nlm.nih.gov/22919057/) | 2012 | Animal study (mouse) | Endocrinology | Role of TSH in thyroid carcinoma in mice carrying a THRB mutation |
-| [12201835](https://pubmed.ncbi.nlm.nih.gov/12201835/) | 2002 | Case report | Clin Endocrinol | M313T THRB mutation: neonatal thyrotoxicosis and maternal infertility in one family |
-| [10724359](https://pubmed.ncbi.nlm.nih.gov/10724359/) | 1999 | Case report | Endocr J | De novo L330S mutation in a Thai woman; her goiter enlarged after 9 months of PTU given for presumed thyrotoxicosis |
-| [21909131](https://pubmed.ncbi.nlm.nih.gov/21909131/) | 2012 | Animal study (mouse) | Oncogene | Thyroid hormone drives tumor cell proliferation in a follicular thyroid carcinoma mouse model |
+| [12201835](https://pubmed.ncbi.nlm.nih.gov/12201835/) | 2002 | Case report | Clin Endocrinol | Neonatal thyrotoxicosis and maternal infertility in a family with a TRβ mutation (M313T) |
+| [10724359](https://pubmed.ncbi.nlm.nih.gov/10724359/) | 1999 | Case report | Endocr J | Thai woman with a de novo TRβ mutation; goiter enlarged after 9 months of PTU given for presumed thyrotoxicosis |
+| [22919057](https://pubmed.ncbi.nlm.nih.gov/22919057/) | 2012 | Mouse model | Endocrinology | Role of TSH in thyroid carcinoma in TRβ-mutant mice |
+| [21909131](https://pubmed.ncbi.nlm.nih.gov/21909131/) | 2012 | Mouse model | Oncogene | Thyroid hormone activates tumour cell proliferation in a mouse model of follicular thyroid carcinoma |
+
+Selected publications for autoimmune thyroid disease (rank 5):
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [30283735](https://pubmed.ncbi.nlm.nih.gov/30283735/) | 2018 | Guideline | Eur Thyroid J | European Thyroid Association guideline for Graves' hyperthyroidism |
+| [32929476](https://pubmed.ncbi.nlm.nih.gov/32929476/) | 2020 | Review | J Clin Endocrinol Metab | Update on management of Graves' thyroidal and extrathyroidal disease |
+| [26321810](https://pubmed.ncbi.nlm.nih.gov/26321810/) | 2015 | Review (adverse effects) | Indian J Crit Care Med | PTU-induced autoimmune disease |
+| [24622372](https://pubmed.ncbi.nlm.nih.gov/24622372/) | 2013 | Review | Lancet Diabetes Endocrinol | Hyperthyroidism in pregnancy |
+
+---
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN00772P | PROPYLTHIOURACIL TABLETS BP 50 mg | Tablet | PT Actavis Indonesia |
-| SIN11695P | PROPYL TABLET 50 mg | Tablet | Sriprasit Pharma Co Ltd |
+| SIN00772P | PROPYLTHIOURACIL TABLETS BP 50 mg | Tablet | Not stated in the licence record |
+| SIN11695P | PROPYL TABLET 50 mg | Tablet | Not stated in the licence record |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No warnings, contraindications or drug interaction records were retrieved for this drug.
+- **Contraindication-related conditions (from the knowledge graph, not label text)**: thrombocytopenia, leukopenia, pancytopenia, agranulocytosis, neutropenia (including congenital forms), hypothyroidism, myxedema, congenital hypothyroidism, hyperbilirubinemia, Gilbert syndrome, drug-induced liver injury, and interstitial lung disease.
+- **Drug Interactions**: 83 interactions were identified. Notable ones include:
+  - Major: deferiprone.
+  - Moderate: warfarin, dicoumarol, theophylline, aminophylline, oxtriphylline, naltrexone, macimorelin, radioactive iodine (I-131, I-123).
+- **Additional points from the literature**: PTU carries a risk of severe liver injury (it is reserved for first-trimester pregnancy or methimazole intolerance), and of ANCA-associated vasculitis and PTU-induced autoimmune disease. Liver function monitoring is needed.
 
-The literature collected for other predicted indications also reports PTU-associated ANCA vasculitis and agranulocytosis (PMID 31917676, 15163328) and neonatal hepatitis after placental transfer (PMID 2090674). These come from case reports and cohorts, not from the safety dataset, and should be checked against the full label.
+Please refer to the package insert for the full warnings and contraindications, as these were not available in the data compiled for this report.
+
+---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Hold** (for the top-ranked prediction, resistance to thyroid hormone)
 
 **Rationale:**
-The evidence is limited to case reports and mouse studies (L4). The mechanism is weak and potentially counterproductive, because RTH is a receptor defect and PTU lowers hormone levels. The high TxGNN score likely reflects knowledge-graph proximity.
-
-Among the other ten predictions in this pack, "autoimmune thyroid disease" (rank 5) carries the strongest evidence (L1, Phase 3 trials). It includes Graves' disease, which is probably an existing PTU indication rather than a true repurposing finding. The Phase 3 trials there study thionamides as a class, and the PTU-specific arms are unconfirmed.
+- The high TxGNN score is not supported by evidence. There are no trials, the literature is limited to case reports and mouse models, and PTU may worsen goiter in this condition by raising TSH.
+- Of the ten predictions, only autoimmune thyroid disease could proceed with guardrails (Proceed with Guardrails), and that is essentially the already approved Graves' indication, not new repurposing.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications (a blocking gap for safety screening)
-- Approved indication text for the two Singapore registrations, and the original indication record
-- Mechanism of action data from DrugBank
-- For any further pursuit of this indication, an expert assessment of whether lowering thyroid hormone could ever be appropriate in RTH
+- HSA package insert warnings and contraindications, which block the safety screening.
+- Mechanism of action data (for example from DrugBank).
+- For autoimmune thyroid disease: larger PTU-specific trials, and a liver and vasculitis monitoring plan.
+- For other predictions: any direct clinical or mechanistic evidence before further consideration.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

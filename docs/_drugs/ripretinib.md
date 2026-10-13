@@ -2,7 +2,7 @@
 layout: default
 title: Ripretinib
 parent: Low Evidence (L5)
-nav_order: 863
+nav_order: 872
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,41 +33,51 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Ripretinib is an oral kinase inhibitor approved for gastrointestinal stromal tumour (GIST).
-The TxGNN model predicts it may be effective for **multiple endocrine neoplasia**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction.
-It rests on model output alone, so it should be treated as a hypothesis rather than a lead.
+Ripretinib is an oral switch-control tyrosine kinase inhibitor that targets KIT and PDGFRA, and it is used in advanced gastrointestinal stromal tumour (GIST).
+The TxGNN model predicts it may be effective for **multiple endocrine neoplasia**, but there are **0 clinical trials** and **0 publications** directly supporting this prediction.
+This is a model prediction only, and the mechanistic link is speculative.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Gastrointestinal stromal tumour (GIST). The Singapore licence record carries no indication text, so this comes from the evidence pack's mechanistic notes. |
+| Original Indication | Advanced gastrointestinal stromal tumour (GIST). The Singapore licence record contains no indication text, so this is based on the published literature compiled for this report. |
 | Predicted New Indication | Multiple endocrine neoplasia |
 | TxGNN Prediction Score | 98.84% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the database. From the evidence pack's analysis, ripretinib is a switch-control inhibitor of the KIT and PDGFRA kinases, and its efficacy in GIST is established.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. From the literature, ripretinib is a broad KIT/PDGFRA switch-control kinase inhibitor. It blocks both primary and secondary activating mutations, and it is used in advanced GIST. It also inhibits other receptor tyrosine kinases, such as VEGFR2 and TIE2.
 
-The link to multiple endocrine neoplasia is weak. MEN syndromes are driven mainly by RET activation (MEN2) or loss of the MEN1 gene, and ripretinib has no established RET activity. The high score reflects proximity in the knowledge graph, not a demonstrated biological connection.
+Multiple endocrine neoplasia (MEN) syndromes are driven mainly by RET gain-of-function (MEN2) or MEN1 loss-of-function. No direct ripretinib activity against RET or the menin pathway is documented in the data compiled for this report. The connection between GIST and MEN is therefore speculative. It rests on the general idea that kinase inhibition might affect neoplastic signalling, not on specific evidence.
 
-Any plausibility is therefore at the level of "kinase inhibitor for a tumour syndrome". It is not a target-based rationale.
+The score is high, but it should be read as a hypothesis to test, not as evidence of efficacy.
+
+## Clinical Trial Evidence
+
+Currently no related clinical trials registered.
+
+## Literature Evidence
+
+Currently no related literature available for multiple endocrine neoplasia.
+
+Note: Publications on ripretinib in GIST exist (for example, the Phase 3 INTRIGUE trial, PMID 38182785). They concern a different disease and do not support this predicted indication.
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN16769P | QINLOCK TABLET 50 MG | Tablet (oral) | Not stated in the licence record |
+| SIN16769P | QINLOCK TABLET 50 MG | Tablet | Not listed in the licence record |
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (kinase inhibitor), not a conventional cytotoxic agent |
+| Cytotoxicity Classification | Targeted therapy (tyrosine kinase inhibitor), not a conventional cytotoxic |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
 | Monitoring Items | Please refer to the package insert warnings and precautions |
@@ -75,26 +85,39 @@ Any plausibility is therefore at the level of "kinase inhibitor for a tumour syn
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found for this drug in the queried source.
+- **Drug Interactions**: The interaction screening identified 90 potential interacting drugs. Examples of major-level interactions are:
+  - Clarithromycin
+  - Cobicistat
+
+  Both are CYP3A4-related inhibitors. Examples of moderate-level interactions include:
+  - Aprepitant
+  - Dexamethasone
+  - Cimetidine
+  - Miconazole
+  - Clotrimazole
+  - Pioglitazone
+  - Rosiglitazone
+  - Repaglinide
+  - Canagliflozin
+  - Deferasirox
+
+  Pharmacokinetic studies in the literature also indicate that ripretinib exposure is sensitive to CYP3A4 and P-glycoprotein modulators.
+
+For warnings and contraindications, please refer to the package insert for safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting trials or literature, and no mechanistic link to ripretinib's known targets. The package insert safety data are also still missing, so the candidate cannot move past the initial screening stage.
-
-Other predicted indications for this drug fare no better:
-- **HER2-positive breast carcinoma:** only a general review of kinase inhibitors is linked, with no indication-specific data (L4, Research Question).
-- **Luminal A/B breast tumour:** the 19 retrieved papers are off-topic keyword matches (B-cell biology, hepatitis B vaccines) and should not be counted as evidence.
-- **Other breast cancer subtypes:** no supporting evidence for any of them.
-- **Veterinary herpesvirus diseases, cytomegalovirus infection and amenorrhea:** likely knowledge-graph artifacts.
+The prediction rests on model score alone (Evidence Level L5). There are no clinical trials or relevant publications, and the mechanistic link to the RET and MEN1 drivers of MEN is speculative. The package insert safety data has not been obtained.
 
 **To proceed, the following is needed:**
-- The HSA package insert (warnings and contraindications), which is currently a blocking gap.
-- Mechanism of action data from DrugBank.
-- Preclinical evidence on ripretinib in RET-driven or MEN1-deficient models, or other direct data for this indication.
-- A targeted search for ripretinib trials and literature in MEN, replacing the keyword-matched results.
+- Preclinical data showing ripretinib activity against RET or other MEN-relevant targets in appropriate cell or animal models
+- Detailed mechanism of action data (MOA)
+- The HSA package insert, including warnings and contraindications, for safety screening
+- A literature and trial search specific to MEN
+- A review of the other predicted indications, most of which have even weaker plausibility (for example, veterinary viral diseases and amenorrhea)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

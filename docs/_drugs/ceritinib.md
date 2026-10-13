@@ -2,7 +2,7 @@
 layout: default
 title: Ceritinib
 parent: Low Evidence (L5)
-nav_order: 229
+nav_order: 230
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,17 +33,15 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Ceritinib is an oral ALK inhibitor used for ALK-positive non-small cell lung cancer (NSCLC). The TxGNN model predicts it may be effective for **gingival fibromatosis** with a very high score, but **0 clinical trials** and **0 publications** support this specific prediction. It is a model-only signal and should be held.
-
-The original indication comes from the retrieved literature (for example the ASCEND-4 Phase 3 trial), not from the Singapore licence record, whose indication text is blank.
-
----
+> Ceritinib is an oral ALK inhibitor, originally used to treat non-small cell lung cancer (NSCLC) and lung cancer.
+> The TxGNN model predicts it may be effective for **Gingival Fibromatosis**,
+> but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | ALK-positive NSCLC (inferred from the literature, not stated in the licence record) |
+| Original Indication | Non-small cell lung cancer; lung cancer (the Singapore registration record contains no indication text) |
 | Predicted New Indication | Fibromatosis, gingival |
 | TxGNN Prediction Score | 99.86% |
 | Evidence Level | L5 |
@@ -51,81 +49,58 @@ The original indication comes from the retrieved literature (for example the ASC
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the record. From the supplied analysis, ceritinib is an ALK/IGF-1R/ROS1 kinase inhibitor. Its efficacy in ALK-rearranged NSCLC is well established.
+Currently, detailed mechanism of action data is not available. Based on known information, ceritinib is an anaplastic lymphoma kinase (ALK) inhibitor, its efficacy in ALK-rearranged NSCLC has been established, and the published literature describes it as a potent ALK inhibitor.
 
-**The data do not support a mechanistic link to gingival fibromatosis.** No ALK-driven pathology is established for this condition. The TxGNN score of 99.86% does not discriminate well, because the other top candidates for this drug all score about 0.998. It should be read as a weak knowledge-graph association rather than a meaningful signal.
+For gingival fibromatosis, however, no mechanistic link to ALK inhibition has been identified. The high score appears to be a knowledge-graph artifact rather than a biological rationale. Gingival fibromatosis is a benign overgrowth of gum tissue, and no trial or publication in the data compiled for this report connects it to ceritinib or ALK signalling.
 
----
+Other top-ranked predictions show the same pattern. Several are lung-related (fibroma of lung, hamartoma of lung, lung hilum carcinoma, pulmonary sulcus neoplasm), likely reflecting proximity to lung cancer nodes in the graph. Others (e.g. junctional epidermolysis bullosa, a VCP-related myopathy syndrome) have no identified biological link. Of these, only lung hilum carcinoma and pulmonary sulcus neoplasm are plausibly ALK-relevant, and only if ALK-rearranged.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
-
----
+Currently no related literature available for gingival fibromatosis.
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN14776P | ZYKADIA CAPSULE 150mg | Capsule | Not stated in the licence record |
-
-The manufacturers listed are Novartis Pharma Stein AG and Sandoz S.R.L. The route of administration is oral.
-
----
+| SIN14776P | ZYKADIA CAPSULE 150mg | Capsule (oral) | Not stated in the registration record |
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (kinase inhibitor) |
+| Cytotoxicity Classification | Targeted therapy (ALK tyrosine kinase inhibitor) |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | ECG/QT interval and respiratory symptoms (from the literature signals below); other parameters per the package insert |
+| Monitoring Items | Please refer to the package insert; the literature also points to monitoring of renal function (ALK inhibitors raise serum creatinine), QT interval, and pulmonary symptoms (organizing pneumonia has been reported) |
 | Handling Protection | Please refer to the package insert warnings and precautions |
-
----
 
 ## Safety Considerations
 
-- **Drug Interactions**: The interaction query returned no records.
-- **Safety signals in the retrieved literature** (background only, not the label):
-  - QT prolongation
-  - Hypersensitivity, including a case report with diffuse infiltrative lung disease, pericarditis and pleural effusion
-  - Gastrointestinal and other adverse events, discussed in ceritinib management reviews and meta-analyses
+- **Drug Interactions**: 100 interactions were identified in the interaction screening. Of the 20 listed in the data compiled for this report, most are Moderate. Major-level interactions are listed with **triamcinolone** and **budesonide**. Moderate-level examples include acid-reducing agents (famotidine, ranitidine, rabeprazole, omeprazole), other corticosteroids (hydrocortisone, dexamethasone, betamethasone), antidiabetic agents (metformin, pioglitazone, alogliptin, canagliflozin, acarbose, albiglutide), loperamide, aprepitant, and bisacodyl.
+- **Literature-based safety signals** (from ceritinib and ALK inhibitor publications): organizing pneumonia, QT prolongation, hypersensitivity reactions, and kidney function effects.
 
-Please refer to the package insert for full warnings and contraindications.
-
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top prediction has no trials, no literature and no documented mechanistic link. It is supported only by a non-discriminating model score.
-
-Other candidates for ceritinib have some retrieved evidence, but it is indirect:
-- **Lung benign neoplasm** has 20 publications, all on ALK-positive NSCLC, which is on-label oncology evidence.
-- **Lung germ cell tumor** has one Phase 0/II CNS-penetration study and ALK-related neuroblastoma reports.
-
-None of this shows benefit in the predicted diseases.
+The prediction for gingival fibromatosis is based only on a graph model score, with no clinical trials, no supporting literature, and no identified mechanistic link to ALK inhibition. The evidence level is L5. In addition, the safety profile of ceritinib, including a large number of drug interactions, makes use in a benign condition hard to justify without supporting data.
 
 **To proceed, the following is needed:**
-- The HSA package insert warnings and contraindications, which are currently a blocking gap for safety screening
-- Detailed mechanism of action data (DrugBank)
-- Biological evidence that ALK, IGF-1R or ROS1 signalling contributes to gingival fibromatosis
-- A check of the disease mapping and a targeted literature search for the predicted disease
-- Confirmation of route and formulation suitability, since gingival disease may favour a local route and only an oral capsule is registered
+- Mechanism of action data and a biological rationale connecting ALK (or ceritinib's other targets) to gingival fibromatosis
+- Preclinical or case-level evidence in the predicted indication
+- Package insert warnings and contraindications from the Singapore regulator
+- A benefit-risk assessment against existing treatments for benign gingival overgrowth
+- If a lung-related prediction is pursued instead (e.g. lung hilum carcinoma or pulmonary sulcus neoplasm), confirmation of ALK rearrangement status and entity-specific evidence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Anagrelide
-parent: Low Evidence (L5)
+parent: Medium Evidence (L3-L4)
 nav_order: 99
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Anagrelide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Anagrelide: From Essential Thrombocythemia to Reactive Thrombocytosis
+# Anagrelide: From Thrombocythemia to Reactive Thrombocytosis
 
 ## One-Sentence Summary
 
-Anagrelide is an oral platelet-lowering drug, used mainly for essential thrombocythemia (a clonal platelet disorder), and it is marketed in Singapore.
-The TxGNN model predicts it may be effective for **reactive thrombocytosis**, but there are **0 clinical trials** and **10 publications** retrieved, and none of these tests anagrelide in reactive thrombocytosis.
-This is a model-driven research question, not an evidence-backed candidate.
+Anagrelide is a platelet-lowering drug, originally used to treat thrombocythemia and familial thrombocytosis.
+The TxGNN model predicts it may be effective for **reactive thrombocytosis**, but there are **no registered clinical trials** and the **10 publications** retrieved are mostly reviews and case reports, largely about essential thrombocythemia rather than reactive thrombocytosis.
 
 ---
 
@@ -43,10 +42,10 @@ This is a model-driven research question, not an evidence-backed candidate.
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in Singapore records; the literature describes use in essential thrombocythemia |
+| Original Indication | Thrombocythemia; familial thrombocytosis (taken from the knowledge-graph indication data, because the Singapore licence records contain no approved indication text) |
 | Predicted New Indication | Reactive thrombocytosis |
 | TxGNN Prediction Score | 99.83% |
-| Evidence Level | L4 (mechanism and review literature only; no trials) |
+| Evidence Level | L4 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 2 |
 | Recommended Decision | Hold |
@@ -55,11 +54,9 @@ This is a model-driven research question, not an evidence-backed candidate.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the source record. From the literature, anagrelide lowers platelet counts by inhibiting megakaryocyte maturation (PDE3 inhibition and reduced megakaryocyte differentiation). This action does not depend on why platelets are elevated, which plausibly explains the high TxGNN score.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, anagrelide lowers platelet counts by inhibiting megakaryocyte maturation. It is thought to disrupt post-mitotic megakaryocyte differentiation and so reduce platelet production. Its efficacy in essential thrombocythemia and familial thrombocytosis is established.
 
-However, the two conditions differ in an important way. Essential thrombocythemia is a clonal disorder in which cytoreduction prevents thrombotic and bleeding complications. Reactive thrombocytosis is driven by cytokines (IL-6, TPO) and is normally managed by treating the underlying cause. It carries a low thrombotic risk, so cytoreduction is rarely needed. Possible exceptions are post-splenectomy or refractory cases.
-
-The retrieved papers concern essential thrombocythemia, which is the labeled use. Several only mention reactive thrombocytosis as a differential diagnosis. No trial or comparative data support anagrelide use in the reactive setting.
+The high TxGNN score probably reflects the close phenotypic overlap between these primary thrombocytosis conditions and reactive thrombocytosis. The clinical fit is weak, however. Reactive (secondary) thrombocytosis is driven by an underlying cause such as inflammation, iron deficiency or splenectomy, and it is generally managed by treating that cause. Platelet-lowering therapy is rarely needed. The mechanistic fit therefore does not translate into a clear clinical rationale.
 
 ---
 
@@ -71,37 +68,46 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-No RCTs were found. Reviews are listed first, then cohort and case reports.
-
 | PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|---------|---------|
-| [15270658](https://pubmed.ncbi.nlm.nih.gov/15270658/) | 2004 | Review | Expert Rev Anticancer Ther | Update on anagrelide's mechanisms and therapeutic potential; notes reactive thrombocytosis needs no therapy, while clonal thrombocytosis may need cytoreduction |
-| [16019501](https://pubmed.ncbi.nlm.nih.gov/16019501/) | 2005 | Review | Leuk Lymphoma | Critical review of anagrelide in essential thrombocythemia; reactive thrombocytosis is often inconsequential |
-| [1994734](https://pubmed.ncbi.nlm.nih.gov/1994734/) | 1991 | Review | Am J Med Sci | Clinical spectrum of thrombocytosis and thrombocythemia; cytokine regulation of platelet production |
-| [10494240](https://pubmed.ncbi.nlm.nih.gov/10494240/) | 1999 | Review | Med J Aust | Essential thrombocythaemia is diagnosed by excluding other myeloproliferative disorders and reactive thrombocytosis; platelet-lowering therapy is advised above 1000 x 10⁹/L |
-| [7783354](https://pubmed.ncbi.nlm.nih.gov/7783354/) | 1995 | Review | Rinsho Ketsueki | Differential diagnosis and treatment of essential thrombocythemia; anagrelide is one of the platelet-suppressing options |
-| [28380402](https://pubmed.ncbi.nlm.nih.gov/28380402/) | 2017 | Review | Leuk Res | Thrombocytapheresis for hyperthrombocytosis in myeloproliferative neoplasms; medical cytoreduction remains the mainstay |
-| [17171694](https://pubmed.ncbi.nlm.nih.gov/17171694/) | 2007 | Cohort | Pediatr Blood Cancer | Retrospective analysis of 12 children comparing essential and reactive thrombocythemia |
+|------|-----|------|------|---------|
+| [15270658](https://pubmed.ncbi.nlm.nih.gov/15270658/) | 2004 | Review | Expert Rev Anticancer Ther | Update on anagrelide's mechanisms of action and therapeutic potential in clonal thrombocytosis; notes that reactive thrombocytosis does not require therapy |
+| [16019501](https://pubmed.ncbi.nlm.nih.gov/16019501/) | 2005 | Review | Leuk Lymphoma | Critical review of anagrelide in essential thrombocythemia and related disorders; clonal thrombocytosis may need cytoreduction, while reactive thrombocytosis is often inconsequential |
+| [10494240](https://pubmed.ncbi.nlm.nih.gov/10494240/) | 1999 | Review | Med J Aust | Essential thrombocythaemia review; diagnosis requires excluding reactive thrombocytosis |
+| [28380402](https://pubmed.ncbi.nlm.nih.gov/28380402/) | 2017 | Review | Leuk Res | Case-based review of thrombocytapheresis for extreme thrombocytosis in myeloproliferative neoplasms |
+| [1994734](https://pubmed.ncbi.nlm.nih.gov/1994734/) | 1991 | Review | Am J Med Sci | Clinical spectrum of thrombocytosis and thrombocythemia |
+| [7783354](https://pubmed.ncbi.nlm.nih.gov/7783354/) | 1995 | Review | Rinsho Ketsueki | Diagnosis and treatment of essential thrombocythemia, including anagrelide among platelet-suppressing drugs |
+| [17171694](https://pubmed.ncbi.nlm.nih.gov/17171694/) | 2007 | Retrospective case series | Pediatr Blood Cancer | 12 paediatric cases comparing essential and reactive thrombocythemia |
 | [38455691](https://pubmed.ncbi.nlm.nih.gov/38455691/) | 2024 | Case report | Eur J Case Rep Intern Med | Acute myocardial infarction in a patient with essential thrombocythaemia treated with anagrelide |
 | [27276864](https://pubmed.ncbi.nlm.nih.gov/27276864/) | 2016 | Case report | Srp Arh Celok Lek | Essential thrombocythemia with ankylosing spondylitis treated with anagrelide, DMARDs and etanercept |
-| [29851840](https://pubmed.ncbi.nlm.nih.gov/29851840/) | 2018 | Case report | Medicine | Digit replantation in a patient with thrombocytosis after splenectomy; guidance on thrombosis risk |
+| [29851840](https://pubmed.ncbi.nlm.nih.gov/29851840/) | 2018 | Case report | Medicine | Digit replantation in a patient with thrombocytosis after splenectomy |
+
+No randomised controlled trial of anagrelide in reactive thrombocytosis was found.
 
 ---
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN12525P | AGRYLIN CAPSULE 0.5 mg | Capsule |
-| SIN17118P | ANAGRELIDE MEVON CAPSULES 0.5 MG | Capsule |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN12525P | AGRYLIN CAPSULE 0.5 mg | Capsule | Not stated in the licence record |
+| SIN17118P | ANAGRELIDE MEVON CAPSULES 0.5 MG | Capsule | Not stated in the licence record |
 
-Both products are oral capsules. The approved indication text is not recorded for either license.
+Both licences are valid single-ingredient oral products.
+
+---
+
+## Cytotoxicity
+
+Anagrelide is not a conventional cytotoxic agent, so this section is not applicable.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease associations flagged in the knowledge graph (not package insert text):** liver failure, liver disease, kidney disease, gallbladder disease, thrombocytopenia, blood coagulation disease, heart disease, cardiovascular disease, anaemia, macrocytic anaemia, interstitial lung disease, eosinophilic pneumonia, pulmonary eosinophilia, high output heart failure. These are model-derived signals and need confirmation against the package insert.
+- **Drug Interactions:** 100 interactions were found. Of the 20 listed, the following are rated **Major**: cisapride, clarithromycin, dolasetron, granisetron and levofloxacin. Many of these are QT-prolonging agents, so the concern is likely cardiac. This reading is an inference and should be confirmed against the source data. Moderate interactions include acetylsalicylic acid, famotidine, cimetidine, aprepitant, alosetron, loperamide, fenfluramine and several laxatives.
+
+The package insert warnings and contraindications were not available, so please refer to the package insert for the full safety information.
 
 ---
 
@@ -110,13 +116,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high, but no trials exist and the retrieved literature covers essential thrombocythemia, not reactive thrombocytosis. Reactive thrombocytosis is usually low-risk and treated by addressing its cause, so the case for cytoreductive drug therapy is weak. The other nine predicted indications (for example, rheumatoid arthritis and juvenile idiopathic arthritis) have no supporting trials and little or no literature, and are also on Hold.
+The prediction is driven mainly by similarity to anagrelide's established use in primary thrombocytosis. Reactive thrombocytosis is normally managed by treating its cause, with platelet-lowering therapy rarely needed. No clinical trials exist, and the literature is mostly reviews and case reports. The cardiovascular signals in the safety data add further caution.
 
 **To proceed, the following is needed:**
-- Singapore package insert warnings and contraindications, which are currently missing and block safety screening
-- Detailed mechanism of action data (for example from DrugBank)
-- Published evidence on anagrelide in post-splenectomy or refractory reactive thrombocytosis
-- A defined patient subgroup where cytoreduction is clinically justified, and a comparison against standard care (treating the underlying cause)
+- Package insert warnings and contraindications from HSA (currently a blocking gap for safety screening)
+- Detailed mechanism of action data (MOA)
+- Evidence that a defined reactive thrombocytosis subgroup (for example, extreme or refractory thrombocytosis with thrombotic risk) would benefit from platelet-lowering therapy
+- A cardiovascular risk assessment, given the knowledge-graph flags and QT-related interactions
+- Confirmation of the approved indication wording on the Singapore licences
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

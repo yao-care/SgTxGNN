@@ -2,7 +2,7 @@
 layout: default
 title: Octreotide
 parent: Low Evidence (L5)
-nav_order: 723
+nav_order: 731
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,17 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Octreotide: From Hormone Suppression (Somatostatin Analogue) to Vulvar Inverted Follicular Keratosis
+# Octreotide: From Acromegaly to Vulvar Inverted Follicular Keratosis
 
 ## One-Sentence Summary
 
-Octreotide is a somatostatin analogue that suppresses hormone secretion and is marketed in Singapore as injectable products (Sandostatin and Sandostatin LAR).
-The TxGNN model ranks **vulvar inverted follicular keratosis** as its top predicted new indication, but this is a model prediction only, with **0 clinical trials** and **0 publications** behind it.
+Octreotide is a somatostatin analogue originally used for acromegaly, hyperpituitarism and carcinoid syndrome.
+The TxGNN model predicts it may be effective for **vulvar inverted follicular keratosis**,
+but **no clinical trials and no publications** currently support this prediction, so it rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Acromegaly, hyperpituitarism, carcinoid syndrome (the Singapore licence records contain no indication text) |
 | Predicted New Indication | Vulvar inverted follicular keratosis |
 | TxGNN Prediction Score | 99.58% |
 | Evidence Level | L5 |
@@ -49,9 +51,11 @@ The TxGNN model ranks **vulvar inverted follicular keratosis** as its top predic
 
 ## Why is This Prediction Reasonable?
 
-Octreotide is a somatostatin analogue that acts on somatostatin receptors (mainly SSTR2 and SSTR5) to suppress hormone secretion. Detailed mechanism data were not supplied with this evidence pack, and the Singapore registration records provide no approved-indication text.
+Currently, detailed mechanism of action data is not available. Octreotide is a somatostatin analogue, and its efficacy in acromegaly and carcinoid syndrome is established. Its known effects are mediated through somatostatin receptors, mainly in pituitary and neuroendocrine tissue.
 
-We could not identify a plausible biological link between somatostatin receptor signalling and vulvar inverted follicular keratosis, a benign follicular skin lesion. The high score (99.58%) most likely reflects proximity in the knowledge graph rather than independent biological or clinical support. The second-ranked prediction, seborrheic keratosis (99.55%), also has no mechanism or clinical data, and the two appear to share a graph neighbourhood.
+The data compiled for this report show no plausible link between somatostatin-receptor activity and vulvar inverted follicular keratosis. The very high TxGNN score (0.996) is not backed by any trial or publication. The adjacent prediction, seborrheic keratosis (score 0.995), is similarly unsupported, which suggests the score may reflect a knowledge-graph neighbourhood effect rather than true biological evidence.
+
+Other top predictions also lack support. Addison disease (rank 4) and adrenocortical insufficiency (rank 8) have only indirect, low-tier literature (a case report, a small negative physiological study, and a pituitary case series). These do not show that octreotide treats adrenal insufficiency.
 
 ## Clinical Trial Evidence
 
@@ -59,34 +63,41 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for the leading prediction, vulvar inverted follicular keratosis.
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN11638P | Sandostatin LAR for Injection 30 mg | Injection | Not listed in registration data |
-| SIN03808P | Sandostatin Injection 0.1 mg/ml | Injection | Not listed in registration data |
-| SIN11637P | Sandostatin LAR for Injection 20 mg | Injection | Not listed in registration data |
+| SIN11638P | SANDOSTATIN LAR FOR INJECTION 30 mg | Injection | Not stated in the registration record |
+| SIN03808P | SANDOSTATIN INJECTION 0.1 mg/ml | Injection | Not stated in the registration record |
+| SIN11637P | SANDOSTATIN LAR FOR INJECTION 20 mg | Injection | Not stated in the registration record |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No warnings, contraindications or drug interactions were available in this evidence pack.
+**Contraindications / cautions suggested by the knowledge graph (not label text):** hyperglycaemia, diabetes mellitus, diabetic ketoacidosis, hypoglycaemia, hypothyroidism (including myxedema and congenital hypothyroidism), liver disease and cirrhosis, gallbladder disease and gallstones (cholelithiasis, cholecystolithiasis, choledocholithiasis), ileus and intestinal obstruction, sudden cardiac arrest, heart conduction disease, kidney failure, uremia, and vitamin B12 deficiency. These are model-derived associations and must be verified against the package insert.
+
+**Drug Interactions:** 100 interactions were found, all of Moderate level among those listed. The main ones involve glucose-lowering drugs, so blood glucose should be monitored when combined with them:
+- Insulins (aspart, degludec, detemir, glargine, glulisine, human regular/isophane/inhaled)
+- Metformin, acarbose, chlorpropamide, glimepiride
+- GLP-1 agonists (albiglutide, dulaglutide, semaglutide)
+- DPP-4 inhibitors (alogliptin, linagliptin)
+- SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin)
+
+Please refer to the package insert for the full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting trials or literature (L5), and no plausible mechanistic link to a benign follicular skin lesion. It is likely a knowledge-graph artefact.
-
-Among the other top-10 predictions, Addison disease (L4) has some literature, but that literature does not support treatment. It consists of one case report of a corticotropic adenoma, one study showing no acute effect of octreotide on pituitary-adrenal function, and two papers unrelated to octreotide treatment. Adrenocortical insufficiency (L5) has one paper with no octreotide-specific data. Neither prediction offers a therapeutic rationale, because lowering ACTH would not correct adrenal failure.
+The prediction is supported only by the model score, with no trials, no literature, and no identifiable mechanistic link. Octreotide has a notable safety profile in glucose, gallbladder, thyroid and cardiac conduction disorders, so no action is justified without further evidence.
 
 **To proceed, the following is needed:**
-- Any preclinical or clinical signal linking somatostatin receptor signalling to follicular keratinocyte lesions
-- Package insert warnings and contraindications from HSA
-- Confirmed approved-indication text and mechanism of action data
-- A route-compatibility assessment: octreotide is available only as an injection in Singapore, and the target lesion would likely need a different route
+- Package insert warnings and contraindications from HSA (currently a blocking gap for safety screening)
+- Mechanism of action data (e.g. from DrugBank) to assess any somatostatin-receptor link to the predicted condition
+- Any preclinical or clinical evidence on somatostatin-receptor expression or octreotide activity in the predicted skin condition
+- Review of the other top-ranked predictions for better-supported candidates, since none currently has trial support
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

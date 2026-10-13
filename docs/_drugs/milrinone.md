@@ -2,7 +2,7 @@
 layout: default
 title: Milrinone
 parent: Low Evidence (L5)
-nav_order: 669
+nav_order: 676
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,11 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Milrinone: From Heart Failure to Alopecia
+# Milrinone: From Congestive Heart Failure to Alopecia
 
 ## One-Sentence Summary
 
-Milrinone is an injectable PDE3 inhibitor. It is known for short-term intravenous use in acute decompensated heart failure, although the Singapore license text supplied here does not state an indication.
-The TxGNN model predicts it may be effective for **alopecia**, but **0 clinical trials** and **0 publications** support this direction.
-The prediction rests on network-based scoring alone.
+Milrinone is an injectable PDE3 inhibitor used for congestive heart failure. The TxGNN model predicts it may be effective for **alopecia**, but **no clinical trials and no publications** currently support this direction. The prediction rests on model output alone.
 
 ---
 
@@ -43,9 +41,9 @@ The prediction rests on network-based scoring alone.
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore license data. The heart-failure use comes from the pack's mechanistic notes on other predictions. |
+| Original Indication | Congestive heart failure (from pharmacology reference data; the Singapore licence record has no indication text) |
 | Predicted New Indication | Alopecia |
-| TxGNN Prediction Score | 99.91% (model rank 1864) |
+| TxGNN Prediction Score | 99.91% |
 | Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 1 |
@@ -55,11 +53,9 @@ The prediction rests on network-based scoring alone.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the pack. Milrinone is a PDE3 inhibitor, so it raises cAMP and produces inotropy and vasodilation. Its efficacy in heart failure is established.
+Detailed mechanism-of-action text is not available in the data compiled for this report. Pharmacology records, however, list milrinone as acting on phosphodiesterase 3A and 3B, and also on PDE2A and PDE5A. Inhibiting PDE3 raises cAMP. In the heart this increases contractility, and in vascular smooth muscle it causes vasodilation. That profile explains its use in decompensated heart failure.
 
-One speculative link to alopecia is that cAMP-driven vasodilation might improve blood flow around hair follicles, by analogy with minoxidil. No trial, publication or preclinical data supplied here supports this. The high score most likely reflects proximity to other hair-loss nodes in the knowledge graph.
-
-The route also does not fit. The only Singapore product is an intravenous concentrate. Systemic milrinone carries arrhythmia and hypotension risk, which is hard to justify for a cosmetic or dermatologic condition.
+The link to alopecia is speculative. One could argue that vasodilation might improve hair follicle perfusion, or that cAMP signalling might influence follicle biology. No study in the compiled data tests either idea. The very high score most likely reflects proximity in the knowledge graph rather than biological evidence. Milrinone is not an established treatment for any hair disorder.
 
 ---
 
@@ -79,15 +75,18 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN15249P | MILRINONE-BAXTER CONCENTRATED SOLUTION FOR INJECTION 10MG/10ML (Baxter Pharmaceuticals India Private Limited) | Injection, solution, concentrate | Not stated in supplied data |
+| SIN15249P | Milrinone-Baxter Concentrated Solution for Injection 10mg/10ml (Baxter Pharmaceuticals India Private Limited) | Injection, solution, concentrate | Not listed in the licence record |
+
+The only registered product is an injectable. A systemic injection is a poor fit for a non-life-threatening condition like alopecia, so route compatibility would need to be addressed if this direction were pursued.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Knowledge-graph contraindication signals** (these come from drug-disease relationships in the knowledge graph, not from package insert text): kidney disease, pyoureter, hypotensive disorder, myocardial infarction, coronary thrombosis, hemoglobinopathy, sudden cardiac arrest, heart conduction disease, pulmonary valve stenosis, hypertrophic cardiomyopathy (including the familial form).
+- **Drug Interactions**: Five moderate-level interactions were identified: amifostine, diatrizoate, anagrelide, ozanimod and procarbazine.
 
-The pack's rationale notes that systemic IV milrinone carries arrhythmia and hypotension risk. No drug-interaction records were found.
+For label-based warnings and contraindications, please refer to the package insert.
 
 ---
 
@@ -96,15 +95,15 @@ The pack's rationale notes that systemic IV milrinone carries arrhythmia and hyp
 **Decision: Hold**
 
 **Rationale:**
-The alopecia prediction is model-only (L5). No trials or literature were found, and the plausible mechanism is speculative. The injectable-only product also does not suit a dermatologic use. The related hair-disorder predictions (hypotrichosis, diffuse alopecia areata) are likewise L5 with no supporting evidence.
+The alopecia prediction has a very high model score but no supporting trials, literature or plausible mechanism. The safety profile of a systemic cardiac inotrope (hypotension, arrhythmia, cardiovascular contraindication signals) is hard to justify for a non-life-threatening condition.
 
 **To proceed, the following is needed:**
-- Any preclinical or clinical evidence linking PDE3 inhibition to hair growth
-- A feasible route of administration, such as a topical formulation, since only an injectable is registered in Singapore
-- The HSA package insert, to obtain warnings, contraindications and the approved indication
+- Preclinical or mechanistic evidence linking PDE3 inhibition or cAMP signalling to hair follicle biology
+- Package insert warnings and contraindications from the HSA, to complete the safety screening
 - Mechanism-of-action data from DrugBank
+- An assessment of route compatibility, since only an injectable form is registered in Singapore
 
-For context, the pack's better-supported milrinone predictions are congestive heart failure (L2, Proceed with Guardrails) and acute pulmonary heart disease (L4, Research Question). Only part of the trial list was supplied for them.
+**Note on other predictions:** Among the other predicted indications compiled for milrinone, **congestive heart failure** and **acute pulmonary heart disease** have much stronger support (L2, Proceed with Guardrails). They are better candidates for further evaluation than alopecia. However, congestive heart failure is already milrinone's established use, so it is not a repurposing opportunity. The pulmonary heart disease support comes mainly from acute heart failure studies and one Phase 4 comparison with dobutamine.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Pentetic Acid
 parent: Low Evidence (L5)
-nav_order: 767
+nav_order: 776
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,18 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pentetic Acid: From Diagnostic Imaging Agent (Approved Indication Not Recorded) to Thrombocytopenic Purpura
+# Pentetic Acid: From Diagnostic Imaging Agent to Thrombocytopenic Purpura
 
 ## One-Sentence Summary
 
-Pentetic acid (DTPA) is a metal-chelating agent. In Singapore it is registered as a Technescan DTPA injection kit, which appears to be a diagnostic imaging product, though the registration data do not state the approved indication.
-The TxGNN model predicts it may be effective for **thrombocytopenic purpura**, but the supporting evidence is essentially absent: **1 clinical trial (an incidental match)** and **0 publications**.
+Pentetic acid (DTPA) is a metal-chelating agent, registered in Singapore as a kit for preparing radiopharmaceuticals (Technescan DTPA for Injection). The TxGNN model predicts it may be effective for **thrombocytopenic purpura**, but **no clinical trials and no publications** currently support this prediction. It is a model-only signal at this stage.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration data (the product is a DTPA injection kit) |
+| Original Indication | Not stated in the Singapore registration data |
 | Predicted New Indication | Thrombocytopenic purpura |
 | TxGNN Prediction Score | 97.25% |
 | Evidence Level | L5 |
@@ -48,48 +49,62 @@ The TxGNN model predicts it may be effective for **thrombocytopenic purpura**, b
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, pentetic acid is a metal chelator and a ligand used in imaging agents. It has no known effect on platelet production, platelet destruction, or the immune and ADAMTS13 pathways involved in thrombocytopenic purpura.
+Currently, detailed mechanism of action data is not available. Based on known information, pentetic acid (DTPA) is a chelating agent used mainly as a carrier for radiopharmaceuticals (for example, Tc-99m DTPA renal and lung imaging) and for metal decorporation. Its approved use is diagnostic rather than therapeutic.
 
-The high score (0.972) comes only from patterns in the TxGNN knowledge graph. No plausible mechanistic link between DTPA and thrombocytopenic purpura was identified, and the similarity to the original indication has not been assessed. This prediction should be treated as a model output, not a mechanism-based hypothesis.
+No plausible mechanism links DTPA to platelet disorders. The score of 0.972 is a network-based model prediction without supporting trial or literature data, so it should not be read as evidence of efficacy.
+
+Other predictions for this drug (all with scores of about 0.956–0.967 and no supporting studies) were also reviewed:
+
+- **Idiopathic copper-associated cirrhosis (score 96.0%)** is the most biologically plausible candidate. DTPA binds polyvalent metals, and copper chelation is the established principle in copper overload disorders such as Wilson disease. However, DTPA is not a standard copper chelator (penicillamine and trientine are). A preclinical copper-binding and hepatic safety assessment would be a reasonable first step.
+- **Hepatic porphyria (96.7%)** has only a speculative link through metal effects on heme synthesis.
+- **The remaining candidates** (benign recurrent intrahepatic cholestasis, early-onset familial noncirrhotic portal hypertension, hepatopulmonary syndrome, primitive portal vein thrombosis, hepatoportal sclerosis, peliosis hepatis, hepatic infarction) have no identifiable mechanistic rationale. Many scores appear to reflect network proximity among liver disorders rather than pharmacology.
+
+---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT03784898](https://clinicaltrials.gov/study/NCT03784898) | Phase 4 | Completed | 13 | Blood-sample collection in relapsing multiple sclerosis patients who developed immune thrombocytopenic purpura after LEMTRADA treatment, for DNA biomarker analysis. It does not test pentetic acid, and the match appears incidental (relevance grade C). |
+Currently no related clinical trials registered.
+
+---
 
 ## Literature Evidence
 
 Currently no related literature available.
 
+---
+
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN12150P | TECHNESCAN DTPA FOR INJECTION 20.8 mg/vial (Curium Netherlands B.V.) | Injection, powder, for solution | Not stated in the data |
+| SIN12150P | Technescan DTPA for Injection 20.8 mg/vial (Curium Netherlands B.V.) | Injection, powder, for solution | Not stated in the registration data |
+
+---
 
 ## Safety Considerations
 
-- **Drug Interactions**: No interaction records were found in the DDI query.
+Please refer to the package insert for safety information.
 
-Please refer to the package insert for other safety information, including warnings and contraindications.
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on model score alone (L5). The only trial found is unrelated to pentetic acid, there is no literature, and no mechanistic link to thrombocytopenic purpura exists. The safety review also cannot start without the package insert.
+The prediction rests only on the TxGNN model (Level L5). There are no clinical trials or publications, and no plausible mechanism links DTPA to thrombocytopenic purpura. The current product is a diagnostic kit, not a therapeutic agent.
 
 **To proceed, the following is needed:**
-- The HSA package insert (warnings, contraindications, approved indication). This is a blocking gap for safety screening.
-- Mechanism of action data from DrugBank.
-- Any direct preclinical or clinical evidence of pentetic acid in thrombocytopenic purpura. Without it, this candidate should not advance.
-- Consider other predictions from the same list:
-  - **Idiopathic copper-associated cirrhosis** is the most biologically plausible, since DTPA chelates copper. It is still only a hypothesis, and DTPA also depletes zinc, manganese and other essential metals.
-  - **Hepatic infarction** has preclinical papers (L4), but these support a diagnostic imaging role, not a therapeutic one.
+- Package insert warnings and contraindications from the HSA, which are required before any safety screening
+- Mechanism of action data, to allow a proper mechanistic analysis
+- Confirmation of the approved indication for the Singapore registration
+- A literature and trial search specific to the predicted indications
+- For the copper-associated cirrhosis lead, preclinical or in vitro copper-binding and hepatic safety assessment, as a research question rather than a development decision
+- Assessment of route compatibility, since the only available form is injectable
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

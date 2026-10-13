@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Chlorhexidine
-parent: Medium Evidence (L3-L4)
-nav_order: 236
-evidence_level: L4
+parent: Low Evidence (L5)
+nav_order: 238
+evidence_level: L5
 indication_count: 10
 ---
 
 # Chlorhexidine
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,78 +29,98 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Chlorhexidine: From Topical Antiseptic to Chronic Ethmoidal Sinusitis
+# Chlorhexidine: From Gingivitis to Chronic Ethmoidal Sinusitis
 
 ## One-Sentence Summary
 
-Chlorhexidine is a broad-spectrum antiseptic, marketed in Singapore as a mouthwash, lozenge, cream and lotion.
-The TxGNN model predicts it may be useful for **chronic ethmoidal sinusitis**,
-but for this prediction there are **0 clinical trials** and only **1 publication**, so the evidence is weak.
+Chlorhexidine is a broad-spectrum antiseptic, originally used to treat gingivitis.
+The TxGNN model predicts it may be effective for **chronic ethmoidal sinusitis**,
+but **no clinical trials and no publications** currently support this specific prediction. It rests on model prediction alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Topical antiseptic (inferred from the product types; no approved indication text is on file) |
+| Original Indication | Gingivitis |
 | Predicted New Indication | Chronic ethmoidal sinusitis |
 | TxGNN Prediction Score | 95.46% |
-| Evidence Level | L4 |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 4 |
 | Recommended Decision | Hold |
 
+*Note: The Singapore registrations list no approved indication text. Gingivitis is taken from the knowledge-graph indication data used for the prediction.*
+
+---
+
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the source record. Chlorhexidine is a cationic biguanide antiseptic that disrupts bacterial cell membranes. Its efficacy as a topical antiseptic is well established.
+Currently, detailed mechanism of action data is not available. Based on known information, chlorhexidine is a broad-spectrum antiseptic. Its use in gingivitis rests on reducing the bacterial burden in the mouth, so it may plausibly reduce bacterial load in sinus disease too.
 
-Chronic sinusitis involves bacterial colonisation and biofilm in the sinonasal cavity. Lowering the bacterial load in the nasal cavity could therefore plausibly influence the condition. The one supporting study looked at how nasal cavity disinfection affects the bacteriology of the ethmoid bulla in chronic sinusitis patients.
+The link between the original and predicted indications is indirect. Gingivitis is a bacterial-plaque-driven inflammation of the oral cavity, while chronic ethmoidal sinusitis is a chronic inflammatory condition of the sinonasal cavity. The prediction probably reflects network proximity in the knowledge graph rather than a demonstrated mechanism, and no direct supporting link has been established.
 
-The link is indirect, however. There are no ethmoid-specific clinical data, and topical antisepsis is not an established treatment for chronic sinus inflammation. A 2024 ENT review of antiseptics also advises using chlorhexidine only as a mouth and body wash for MRSA decolonisation. It notes that clinical efficacy is lacking for many other throat antiseptics.
+Other predictions for this drug have somewhat better indirect support. For **chronic rhinosinusitis** (score 95.22%, Evidence Level L4), an in vitro study of a sinonasal stent coated with slow-release chlorhexidine varnish showed sustained protection against bacterial biofilm. A 2024 review also summarizes antiseptics in otorhinolaryngology. This is indirect, preclinical-level evidence with no patient trials. **Sinusitis** (score 95.30%, L3) has only peripheral literature.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for chronic ethmoidal sinusitis.
+Currently no related clinical trials registered.
 
-For the closely related prediction "sinusitis", one completed trial exists, but it tests infection prophylaxis rather than sinusitis treatment:
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT06313281](https://clinicaltrials.gov/study/NCT06313281) | Not applicable | Completed | 142 | Randomised three-arm trial of preoperative antiseptic preparation in transnasal skull base surgery. The endpoint is postoperative infection, not sinusitis. |
+---
 
 ## Literature Evidence
 
+Currently no related literature available for chronic ethmoidal sinusitis.
+
+For reference, the closest related predictions have the following indirect evidence:
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [16008068](https://pubmed.ncbi.nlm.nih.gov/16008068/) | 2005 | Clinical bacteriology study | Rhinology | Examined the role of nasal cavity disinfection in the bacteriology of the ethmoid bulla in chronic sinusitis patients. The abstract does not report treatment outcomes. |
+| [34834197](https://pubmed.ncbi.nlm.nih.gov/34834197/) | 2021 | In vitro study | Pharmaceutics | Sinonasal stent coated with slow-release chlorhexidine varnish gave sustained protection against bacterial biofilm (chronic rhinosinusitis) |
+| [38592477](https://pubmed.ncbi.nlm.nih.gov/38592477/) | 2024 | Review | HNO | Overview of antiseptics in otorhinolaryngology; chlorhexidine is advised only as a mouth and body wash for MRSA decolonization, and evidence of clinical efficacy is lacking for many throat antiseptics (chronic rhinosinusitis) |
+| [41140432](https://pubmed.ncbi.nlm.nih.gov/41140432/) | 2025 | RCT | J Neurol Surg B Skull Base | Randomized three-arm trial of preoperative antiseptic preparation in transnasal skull base surgery; this is a prophylaxis setting, not sinusitis treatment (sinusitis) |
+
+---
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN08671P | DIFFLAM-C Anti-Inflammatory Antiseptic Solution | Mouthwash | Ensign Laboratories Pty Ltd |
-| SIN08535P | HORF Lozenges | Lozenge | Y S P Industries (M) Sdn Bhd |
-| SIN08901P | SOOV Cream | Cream | Ego Pharmaceuticals Pty Ltd |
-| SIN04696P | Oral Aid Lotion | Lotion | Beacons Pharmaceuticals Pte Ltd |
+| SIN08671P | DIFFLAM-C ANTI-INFLAMMATORY ANTISEPTIC SOLUTION | Mouthwash | Not stated |
+| SIN08535P | HORF LOZENGES | Lozenge | Not stated |
+| SIN08901P | SOOV CREAM | Cream | Not stated |
+| SIN04696P | ORAL AID LOTION | Lotion | Not stated |
 
-None of the registered forms is a nasal or sinus irrigation product, so route compatibility with the predicted indication is unconfirmed.
+All four are valid single-ingredient registrations. No sinonasal formulation is registered.
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications (knowledge-graph data, not label text)**: The knowledge graph records periodontitis as a contraindication-linked disease for chlorhexidine. This needs clarification, because it sits oddly with the drug's oral use.
+- **Drug Interactions**: The interaction screen returned 100 potential interacting drugs, but none has a severity level assigned. Examples include acetaminophen, atenolol, amlodipine, alprazolam, chloramphenicol, levothyroxine, celecoxib and erythromycin. These cannot be used for risk judgement until severity is classified.
+
+For all other safety information, please refer to the package insert.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high, but the evidence is limited to one bacteriology study and no trials. No controlled data show clinical benefit in chronic sinusitis. The other top-ranked predictions are equally weak: most rest on the model alone or on veterinary and unrelated literature.
+The prediction for chronic ethmoidal sinusitis rests on model score alone (Evidence Level L5), with no trials or literature. Mechanistic plausibility is only general antiseptic activity, and no sinonasal formulation is registered in Singapore. Package insert warnings and contraindications are also missing, so safety screening cannot proceed.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from HSA
-- Mechanism-of-action data from DrugBank
-- Full-text review of the 2005 bacteriology study and its outcomes
-- A dosage form and route suitable for sinonasal use, plus sinonasal safety and tolerability data
-- Controlled clinical evidence in chronic rhinosinusitis, which is where the literature is thickest
+- Package insert warnings and contraindications from the HSA, to enable safety screening
+- Mechanism of action data from DrugBank
+- A targeted literature search on chlorhexidine in chronic sinusitis, covering irrigation or topical sinonasal use and mucosal and ciliary tolerability
+- Review of the chronic rhinosinusitis prediction as a more evidence-supported research question, starting with the biofilm data
+- Confirmation of a suitable route and formulation for sinonasal use
+- Severity classification of the interaction screen results
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

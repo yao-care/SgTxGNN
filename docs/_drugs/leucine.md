@@ -2,7 +2,7 @@
 layout: default
 title: Leucine
 parent: Low Evidence (L5)
-nav_order: 584
+nav_order: 590
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,85 +29,88 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Leucine: From Amino Acid Nutrition Support to Congenital Prothrombin Deficiency
+# Leucine: From Parenteral Nutrition Amino Acid to Congenital Prothrombin Deficiency
 
 ## One-Sentence Summary
 
-Leucine is an essential amino acid. In Singapore it is registered as a component of amino acid infusion products (e.g., Aminoven, Nephrosteril, Aminoplasmal).
-The TxGNN model predicts it may be effective for **congenital prothrombin deficiency** with a high score (99.0%), but there are **0 clinical trials** and **0 publications** supporting this direction, so it is a model prediction only.
-
----
+Leucine is an essential amino acid used as a component of parenteral nutrition and amino acid infusion products in Singapore.
+The TxGNN model predicts it may be effective for **congenital prothrombin deficiency**, but there are currently **0 clinical trials** and **0 publications** supporting this direction.
+The prediction is purely computational, and its mechanistic basis is weak.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the registration data; the products are amino acid infusion solutions (parenteral nutrition) |
+| Original Indication | Not stated in the registration records (all 19 licences list no approved indication text); the products are amino acid infusion and parenteral nutrition formulations |
 | Predicted New Indication | Congenital prothrombin deficiency |
-| TxGNN Prediction Score | 99.0% |
-| Evidence Level | L5 (model prediction only) |
+| TxGNN Prediction Score | 98.999% |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 19 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, leucine is a branched-chain amino acid. It is supplied as a nutritional component of intravenous amino acid solutions, and its role in protein and nutrient supply is well established. This is different from a disease-specific therapeutic effect.
+Currently, detailed mechanism of action data is not available. Based on known information, leucine is a branched-chain essential amino acid, mainly supplied as part of amino acid infusions and combined parenteral nutrition products. Its role is nutritional support.
 
-The available data do not show a plausible link between leucine and congenital prothrombin deficiency. Prothrombin deficiency is an inherited clotting factor disorder. Leucine has no known role in prothrombin synthesis or the coagulation cascade. The high score of 99.0% therefore reflects a knowledge-graph pattern only. It should not be read as evidence of benefit.
-
----
+Congenital prothrombin deficiency is a monogenic disorder caused by variants in the F2 gene. We found no identifiable mechanistic link between leucine and prothrombin (Factor II) synthesis, and leucine supplementation is not expected to correct a genetic defect in this clotting factor. The high TxGNN score therefore looks like a computational artefact rather than a biologically grounded signal.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered for congenital prothrombin deficiency.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for congenital prothrombin deficiency.
 
----
+### Other Predicted Indications Reviewed
+
+The other top-ranked predictions were also reviewed. None shows convincing evidence of benefit.
+
+| Predicted Indication | Score | Evidence Level | Assessment |
+|------|------|------|------|
+| Gastroparesis | 98.85% | L5 | No supporting data; amino acids would more likely slow gastric emptying |
+| Acne | 98.42% | L4 | Likely the opposite direction: leucine activates mTORC1, which is implicated in acne. The one matching trial (NCT07277075) studies a different protein (LRG1) and matches by name only |
+| Bone Paget disease | 98.00% | L5 | Literature concerns SQSTM1 mutations, not leucine therapy |
+| Obsolete vitamin D deficiency | 97.67% | L5 | No data; the disease term is obsolete |
+| Postmenopausal osteoporosis | 97.42% | L4 | Most plausible but still indirect (see below) |
+| Sclerosing cholangitis | 97.18% | L5 | Incidental literature; a leucine-containing peptide causes cholangitis in rats |
+| Pregnancy associated osteoporosis | 96.57% | L5 | Only an animal study of the leucine metabolite HMB |
+| Albinism-deafness syndrome | 96.43% | L5 | No data |
+| Worth syndrome | 96.33% | L5 | No data |
+
+**Postmenopausal osteoporosis** is the most plausible secondary lead. Its related trial is [NCT01757340](https://clinicaltrials.gov/study/NCT01757340), a completed, non-phased study with 43 obese postmenopausal women. It tested calorie restriction with leucine supplementation and measured insulin sensitivity, muscle mass and function, and bone mineral density. It did not enrol patients with diagnosed osteoporosis. The literature consists mainly of metabolomic associations and preclinical studies. These show that amino acid profiles are linked to low bone density but not that leucine treats it. This direction is worth treating as a research question only.
 
 ## Singapore Market Information
 
-Of 19 registrations, the 5 main authorizations are listed below. Approved indication text is not recorded in the data for these entries.
+Leucine is registered in Singapore as a single-ingredient component of 19 valid licences. All are infusion or emulsion products, and none has approved indication text on record. Five main licences:
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN16337P | AMINOVEN SOLUTION FOR INFUSION 15% | Infusion, solution | Fresenius Kabi Austria GmbH (Graz) |
-| SIN11682P | AMINOVEN SOLUTION FOR INFUSION 5% | Injection | Fresenius Kabi Austria GmbH |
-| SIN11829P | AMINOVEN SOLUTION FOR INFUSION 10% | Injection | Fresenius Kabi Austria GmbH |
-| SIN06299P | NEPHROSTERIL FOR INTRAVENOUS INFUSION | Injection | Fresenius Kabi Austria GmbH |
-| SIN08352P | AMINOPLASMAL-15% INFUSION | Injection | B. Braun Melsungen AG |
-
----
+| SIN16337P | AMINOVEN SOLUTION FOR INFUSION 15% | Infusion, solution | Not stated |
+| SIN11682P | AMINOVEN SOLUTION FOR INFUSION 5% | Injection | Not stated |
+| SIN06299P | NEPHROSTERIL FOR INTRAVENOUS INFUSION | Injection | Not stated |
+| SIN08352P | AMINOPLASMAL-15% INFUSION | Injection | Not stated |
+| SIN14286P | SmofKabiven Emulsion for Infusion | Injection, emulsion | Not stated |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease associations flagged by the knowledge graph (not label text)**: Leucine is linked to contraindication edges for several conditions. These include kidney disease (chronic kidney disease, end-stage renal failure, chronic renal failure syndrome), nephrolithiasis and nephrocalcinosis, hypercalcemia and sarcoidosis, heart disease and cardiovascular disease, ventricular fibrillation, digitalis poisoning, phenylketonuria and other phenylalanine metabolism disorders, and acute urate nephropathy. These are model-derived signals and need to be verified against the product labels.
 
----
+Please refer to the package insert for further safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting trials or literature and no identifiable mechanistic link, so it stays at L5 (model prediction only). The score alone is not enough to justify further investment.
+The top prediction, congenital prothrombin deficiency, is a monogenic clotting factor disorder with no mechanistic link to leucine and no trials or literature. The other predictions are also unsupported, and some may point in the opposite direction, such as acne. Postmenopausal osteoporosis is the only direction with partial, indirect support.
 
 **To proceed, the following is needed:**
-- The HSA package insert (warnings and contraindications), which is required before any safety screening
-- Detailed mechanism of action data for leucine (e.g., from DrugBank)
-- A documented biological rationale connecting leucine to the coagulation pathway, or a check of why the model produced this prediction
-
-**Other predicted candidates for this drug (for reference):**
-- **Postmenopausal osteoporosis** (score 97.4%, L4): One completed leucine supplementation trial in postmenopausal women exists (NCT01757340, 43 participants, phase not applicable), and observational metabolomic studies link amino acid metabolism to bone density. It is the most promising direction, but it remains a research question rather than an actionable candidate.
-- **Acne** (score 98.4%, L4): Leucine activates mTORC1, and nutrient-signalling reviews link mTORC1 to acne. This suggests leucine could aggravate acne rather than treat it, so the direction of effect is unfavourable.
-- **Obsolete vitamin D deficiency** (rank 5): The disease term is obsolete in the ontology and should be remapped to a current term before any review.
+- Package insert warnings and contraindications from HSA, so that safety screening can begin
+- Mechanism of action data for leucine (for example from DrugBank)
+- For osteoporosis as a secondary lead, a focused review or trial in patients with diagnosed osteoporosis, with bone endpoints
+- A renal and metabolic safety assessment for the target populations, given the knowledge graph signals
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

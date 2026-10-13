@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Lisdexamfetamine
-parent: Low Evidence (L5)
-nav_order: 600
-evidence_level: L5
+parent: Medium Evidence (L3-L4)
+nav_order: 606
+evidence_level: L4
 indication_count: 10
 ---
 
 # Lisdexamfetamine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,77 +29,101 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Lisdexamfetamine: From ADHD to Specific Developmental Disorder
+# Lisdexamfetamine: From Attention Deficit Hyperactivity Disorder to Specific Developmental Disorder
 
 ## One-Sentence Summary
 
-Lisdexamfetamine is a prodrug of d-amphetamine. It is marketed in Singapore as Vyvanse, and the literature shows its established use is attention-deficit/hyperactivity disorder (ADHD).
-The TxGNN model predicts it may be effective for **specific developmental disorder** (a label covering learning, speech and motor disorders), with **1 clinical trial** and **2 publications** linked to this prediction.
-Both sources concern ADHD, and no direct evidence was found for the labelled disorders themselves.
+Lisdexamfetamine is a prodrug of d-amphetamine, originally used to treat attention deficit hyperactivity disorder (ADHD) and binge eating disorder.
+The TxGNN model predicts it may be effective for **specific developmental disorder**, but there are **no registered clinical trials** and only **2 publications** (one case report and one ADHD trial that does not address this new indication).
+The high prediction score most likely reflects the clinical closeness of this condition to ADHD rather than independent evidence.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | ADHD (the Singapore registration records do not state the approved indication; ADHD is taken from the literature) |
+| Original Indication | Attention deficit hyperactivity disorder; binge eating disorder (Singapore licence text is not available) |
 | Predicted New Indication | Specific developmental disorder |
-| TxGNN Prediction Score | 99.99999% |
-| Evidence Level | L2 (based on ADHD evidence only, not direct evidence for the predicted term) |
+| TxGNN Prediction Score | 99.99% |
+| Evidence Level | L4 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 6 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-The formal mechanism-of-action field is not populated for this drug. Based on known information, lisdexamfetamine is a d-amphetamine prodrug that raises dopamine and norepinephrine signalling in prefrontal-striatal circuits. Its efficacy in ADHD has been shown in a randomised, placebo-controlled Phase II/III study in Japanese children and adolescents.
+Currently, detailed mechanism of action data is not available. Based on known information, lisdexamfetamine is an inactive prodrug that is converted in the body to d-amphetamine. d-Amphetamine increases dopamine and norepinephrine signalling, and its efficacy in ADHD has been established. Mechanistically, it may be applicable to attention-related symptoms in other neurodevelopmental conditions.
 
-ADHD is a neurodevelopmental condition, so it is close to the "specific developmental disorder" label in the TxGNN graph. This closeness is probably what drives the very high score.
+Specific developmental disorders (for example, learning or attention-related neurodevelopmental conditions) overlap clinically with ADHD. The very high TxGNN score is therefore probably driven by this proximity to the approved indication, not by independent evidence for the new condition.
 
-However, ADHD is already an approved use and only loosely overlaps with learning, speech and motor developmental disorders. No study of lisdexamfetamine in those specific conditions was found. The applicability of the ADHD evidence to the labelled term needs manual confirmation.
+The one Phase II/III study identified (Japanese paediatric patients, 76 participants aged 6-17 years) concerns ADHD itself, which is an existing indication, and does not demonstrate benefit in a distinct developmental disorder.
+
+---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00573859](https://clinicaltrials.gov/study/NCT00573859) | Phase 1/2 | Completed | 27 | Reinforcing mechanisms of smoking in adult ADHD. The focus is smoking reinforcement and its potentiation by stimulant medication, so the endpoint is not the predicted disorder. |
+Currently no related clinical trials registered.
+
+---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31718254](https://pubmed.ncbi.nlm.nih.gov/31718254/) | 2020 | RCT | Journal of Child and Adolescent Psychopharmacology | Phase II/III, multicentre, randomised, double-blind, placebo-controlled study of lisdexamfetamine 30, 50 or 70 mg/day for 4 weeks in 76 Japanese patients aged 6-17 with ADHD. The primary endpoint was the change in ADHD-RS-IV total score. |
-| [37849578](https://pubmed.ncbi.nlm.nih.gov/37849578/) | 2023 | Case report | Cureus | An 18-year-old woman with Hao-Fountain syndrome, a rare neurodevelopmental disorder that mimicked fragile X syndrome. She had intellectual disability, ADHD and dysmorphic facies. It gives no treatment evidence for lisdexamfetamine. |
+| [31718254](https://pubmed.ncbi.nlm.nih.gov/31718254/) | 2020 | RCT (Phase II/III) | J Child Adolesc Psychopharmacol | Randomised, double-blind, placebo-controlled study of lisdexamfetamine 30, 50 or 70 mg/day for 4 weeks in 76 Japanese children and adolescents with ADHD; the primary endpoint was change in ADHD-RS-IV total score. This is an existing indication, not the predicted one. |
+| [37849578](https://pubmed.ncbi.nlm.nih.gov/37849578/) | 2023 | Case report | Cureus | Hao-Fountain syndrome (a rare neurodevelopmental disorder) in an 18-year-old with intellectual disability and ADHD, mimicking fragile X syndrome; it does not assess lisdexamfetamine efficacy. |
+
+---
 
 ## Singapore Market Information
 
-Six registrations are on record; five are listed below. The records do not include approved-indication text.
-
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN15841P | VYVANSE CAPSULES 30 mg | Capsule | Patheon Pharmaceuticals Inc. (Bulk Production) / Takeda GmbH |
-| SIN15842P | VYVANSE CAPSULES 40 mg | Capsule | Patheon Pharmaceuticals Inc. (Bulk Production) / Takeda GmbH |
-| SIN15843P | VYVANSE CAPSULES 50 mg | Capsule | Patheon Pharmaceuticals Inc. (Bulk Production) / Takeda GmbH |
-| SIN15844P | VYVANSE CAPSULES 60 mg | Capsule | Patheon Pharmaceuticals Inc. (Bulk Production) / Takeda GmbH |
-| SIN15845P | VYVANSE CAPSULES 70 mg | Capsule | Patheon Pharmaceuticals Inc. (Bulk Production) / Takeda GmbH |
+| SIN15840P | VYVANSE CAPSULES 20 mg | Capsule | Not available |
+| SIN15841P | VYVANSE CAPSULES 30 mg | Capsule | Not available |
+| SIN15842P | VYVANSE CAPSULES 40 mg | Capsule | Not available |
+| SIN15843P | VYVANSE CAPSULES 50 mg | Capsule | Not available |
+| SIN15844P | VYVANSE CAPSULES 60 mg | Capsule | Not available |
+
+A sixth licence, SIN15845P (70 mg), is also valid. All six are single-ingredient oral capsules, made by Patheon Pharmaceuticals Inc. (bulk production) and Takeda GmbH.
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Conditions flagged in the knowledge graph as contraindicated** (from the TxGNN knowledge graph, not from label text):
+  - Cardiovascular: hypertension, coronary artery disease, atherosclerosis, myocardial infarction, stroke and cerebrovascular disorders, sudden cardiac arrest, heart conduction disease
+  - Psychiatric and neurological: bipolar disorder, psychotic and schizophrenia-spectrum disorders, mental disorders in general, epilepsy, substance-related disorders and dependence
+  - Other: glaucoma, hyperthyroidism (including Graves disease), hemoglobinopathy, vision disorders
+- **Drug Interactions**: 100 interactions were recorded. Those rated **Major** among the first 20 listed are:
+  - Bupropion
+  - Dolasetron
+  - Cisapride
+  - Dexfenfluramine
+
+  Many others are rated Moderate (for example epinephrine, clarithromycin, levofloxacin, famotidine, and antacids such as aluminium hydroxide and calcium carbonate).
+- **Signals from related predictions**: case reports link lisdexamfetamine and other stimulants to new-onset trichotillomania, and stimulants are generally cautioned in tic disorders. These do not apply directly to specific developmental disorder, but they show that neuropsychiatric adverse effects need attention in paediatric neurodevelopmental populations.
+
+Please refer to the package insert for the full warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The only evidence tied to this prediction is in ADHD, which is already an approved use, and none of it directly addresses learning, speech or motor developmental disorders. The safety data from the package insert is also missing, which blocks the safety screening step.
+The prediction has no registered trials and no literature that tests lisdexamfetamine in a specific developmental disorder. The only trial relates to ADHD, which is already an indication. The score seems to reflect clinical overlap with ADHD, and the evidence is at L4 at best.
 
 **To proceed, the following is needed:**
-- Confirm which conditions the "specific developmental disorder" label is meant to cover, and whether ADHD evidence can be counted toward it
-- Obtain the HSA package insert warnings and contraindications
-- Obtain the mechanism-of-action data from DrugBank
-- Search for trials or studies of lisdexamfetamine in specific learning, speech or motor developmental disorders
-
-Note: in the same Evidence Pack, **narcolepsy** (rank 9) has a stronger mechanistic link. It is supported by two small Phase 1/2 crossover studies and a case series, and it may be a better candidate to review first.
+- A precise definition of which developmental disorder (for example, a learning disorder versus an attention-related condition) is targeted, and how it differs from the existing ADHD indication
+- Controlled clinical data in that population
+- Detailed mechanism of action data (MOA)
+- The Singapore package insert warnings and contraindications, and the approved indication text for the local licences
+- A cardiovascular, psychiatric and abuse-liability risk review, especially for paediatric use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

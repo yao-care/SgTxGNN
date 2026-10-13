@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Alpelisib
-parent: Low Evidence (L5)
+parent: Medium Evidence (L3-L4)
 nav_order: 67
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Alpelisib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,88 +29,87 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Alpelisib: From HR+/HER2− Breast Cancer to Pulmonary Hypertension
+# Alpelisib: From Breast Cancer (Indication Text Not Recorded in Local Licences) to Pulmonary Hypertension
 
 ## One-Sentence Summary
 
-Alpelisib is an oral PI3Kα inhibitor. The evidence pack does not list a registered indication for it, but the clinical trials retrieved are in PIK3CA-mutated breast cancer.
-The TxGNN model predicts it may be effective for **pulmonary hypertension**, but this is a model prediction only. The one trial retrieved is a breast cancer study unrelated to the condition, and the two publications are a preclinical cardiac study and a lung-toxicity case report.
+Alpelisib is an oral PI3K-alpha inhibitor marketed in Singapore as Piqray. The clinical trials in the data compiled for this report are all in breast or ovarian cancer.
+The TxGNN model predicts it may be effective for **pulmonary hypertension**, but there are **0 clinical trials** and only **1 publication** (a case report of alpelisib-induced lung disease), so this prediction rests almost entirely on the model.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration records. The trials retrieved are in HR+/HER2−, PIK3CA-mutated advanced breast cancer |
+| Original Indication | Not recorded in the Singapore licence data (the trials compiled point to HR+/HER2- PIK3CA-mutated advanced breast cancer) |
 | Predicted New Indication | Pulmonary hypertension |
 | TxGNN Prediction Score | 99.03% |
-| Evidence Level | L4 (preclinical/mechanistic only) |
+| Evidence Level | L4 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Based on the literature retrieved, alpelisib inhibits PI3Kα (phosphoinositide 3-kinase alpha), a signalling node that drives cell growth. This is the basis of its use in breast cancer.
+Detailed mechanism of action data is not available in the data compiled for this report. Alpelisib is known to be a selective PI3K-alpha inhibitor. Its efficacy in PIK3CA-mutated advanced breast cancer was shown in the Phase 3 SOLAR-1 trial (NCT02437318).
 
-PI3K signalling has been implicated in pulmonary vascular remodelling, which is the process that narrows the lung arteries in pulmonary hypertension. That gives the prediction a plausible biological rationale. However, no alpelisib-specific efficacy data exist for this condition, and the original indication (a cancer) has no direct pathophysiological overlap with pulmonary hypertension.
+PI3K/AKT signalling has been implicated in pulmonary vascular remodelling and smooth muscle proliferation. Inhibiting PI3K-alpha is therefore theoretically plausible for pulmonary hypertension.
 
-The available literature also points the other way. One preclinical study found that PI3Kα inhibition combined with doxorubicin caused heart atrophy and right ventricular dysfunction. Right ventricular function is central to pulmonary hypertension outcomes, so this is a concern. A case report describes alpelisib-induced interstitial lung disease, which is a pulmonary safety signal. Both findings argue for caution.
+However, the only publication linked to this prediction reports **alpelisib-induced interstitial lung disease**. That is a pulmonary safety signal, not evidence of benefit. The high model score is not backed by clinical data, and the pulmonary toxicity signal argues for caution.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT06705504](https://clinicaltrials.gov/study/NCT06705504) | N/A (observational) | Completed | 435 | Retrospective European real-world study of ribociclib or alpelisib in HR+/HER2− advanced breast cancer. Not relevant to pulmonary hypertension (relevance grade C) |
-
-No trial studies alpelisib in pulmonary hypertension.
+Currently no related clinical trials registered for pulmonary hypertension.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31039672](https://pubmed.ncbi.nlm.nih.gov/31039672/) | 2019 | Preclinical | J Am Heart Assoc | PI3Kα inhibition with doxorubicin caused biventricular atrophy and right ventricular dysfunction. This is a cardiac safety signal, not evidence of benefit |
-| [35730191](https://pubmed.ncbi.nlm.nih.gov/35730191/) | 2023 | Case report | J Oncol Pharm Pract | Alpelisib-induced interstitial lung disease in a patient with advanced breast cancer. This is a pulmonary safety signal |
+| [35730191](https://pubmed.ncbi.nlm.nih.gov/35730191/) | 2023 | Case report | J Oncol Pharm Pract | Alpelisib-induced interstitial lung disease in a patient with advanced breast cancer; a safety signal, not efficacy evidence |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN15917P | PIQRAY 300MG DAILY DOSE PACK (150mg + 150mg) | Film-coated tablet | Novartis Pharma Stein AG |
-| SIN15918P | PIQRAY 200MG DAILY DOSE PACK | Film-coated tablet | Novartis Pharma Stein AG |
-| SIN15916P | PIQRAY 250MG DAILY DOSE PACK (200mg + 50mg) | Film-coated tablet | Novartis Pharma Stein AG |
+| SIN15917P | PIQRAY 300MG DAILY DOSE PACK (150mg + 150mg) | Film-coated tablet | Not recorded |
+| SIN15918P | PIQRAY 200MG DAILY DOSE PACK | Film-coated tablet | Not recorded |
+| SIN15916P | PIQRAY 250MG DAILY DOSE PACK (200mg + 50mg) | Film-coated tablet | Not recorded |
 
-The registry records provide no approved-indication text for these products.
+All three licences are held by Novartis Pharma Stein AG and are currently valid.
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (PI3Kα inhibitor), not a conventional cytotoxic agent |
+| Cytotoxicity Classification | Targeted therapy (PI3K-alpha inhibitor), not a conventional cytotoxic |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Blood glucose (a metformin study in the evidence pack targets alpelisib-induced hyperglycaemia); respiratory symptoms, given the interstitial lung disease report. Full monitoring requirements: refer to the package insert |
+| Monitoring Items | Blood glucose (hyperglycaemia is a recognised effect; a Phase 2 study, NCT04300790, tested metformin for prevention), plus respiratory symptoms given the reported interstitial lung disease |
 | Handling Protection | Please refer to the package insert warnings and precautions |
 
 ## Safety Considerations
 
-- **Interstitial lung disease**: A published case report links alpelisib to this condition. This matters for any use in a lung disease population.
-- **Cardiac effects**: Preclinical data show right ventricular dysfunction with PI3Kα inhibition plus doxorubicin. Relevance to humans without doxorubicin is unknown.
-- **Drug interactions**: No interaction records were found in the database query.
+- **Drug Interactions**: 100 interactions were found, and the 20 listed in the compiled data are all rated Moderate. Most involve antidiabetic drugs, including acarbose, metformin, pioglitazone, glimepiride, glipizide, alogliptin, and the SGLT2 inhibitors canagliflozin, dapagliflozin, empagliflozin and ertugliflozin. GLP-1 agonists (albiglutide, dulaglutide, exenatide) are also listed. Other interacting drugs include dexamethasone, bupropion, alosetron, dronabinol and fidaxomicin.
+- **Pulmonary signal**: A published case report describes alpelisib-induced interstitial lung disease (PMID 35730191).
 
-Please refer to the package insert for full warnings and contraindications. The package insert data have not yet been retrieved, and this gap blocks progression to safety screening.
+Please refer to the package insert for key warnings and contraindications, which were not available in the compiled data.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score and an indirect mechanistic argument. No trial or publication supports efficacy in pulmonary hypertension. The only pulmonary and cardiac findings retrieved are safety concerns.
+The TxGNN score is high (99.03%), but there are no clinical trials in pulmonary hypertension. The only linked publication is a case report of drug-induced lung disease, which is a safety concern. The mechanistic link through PI3K/AKT is plausible but unproven.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications (a blocking gap)
+- Package insert warnings and contraindications from the HSA, which block safety screening
 - Mechanism of action data from DrugBank
-- Preclinical evidence that PI3Kα inhibition improves pulmonary vascular remodelling, and evidence on how it affects right ventricular function
-- A pulmonary and cardiac safety assessment that addresses the interstitial lung disease signal
+- Preclinical evidence of PI3K-alpha inhibition in pulmonary vascular remodelling models
+- An assessment of the interstitial lung disease risk in patients with pulmonary vascular disease
+- The approved indication text for the Singapore licences
+
+---
+
+*Other predictions, all on hold: migraine variants, kyphoscoliotic heart disease, leprosy, amyotrophic lateral sclerosis, rheumatoid arthritis, thrombotic disease and multiple endocrine neoplasia. Their evidence is either absent or indirect: reviews on PI3K-driven vascular anomalies for thrombotic disease, and breast and ovarian cancer trials that do not enrol patients with multiple endocrine neoplasia.*
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

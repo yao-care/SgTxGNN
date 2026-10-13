@@ -2,7 +2,7 @@
 layout: default
 title: Topiramate
 parent: Low Evidence (L5)
-nav_order: 996
+nav_order: 1006
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,13 +33,16 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Topiramate is a marketed antiseizure drug, and the Evidence Pack describes it as an antiepileptic. The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm**, but there are currently **0 clinical trials** and **0 publications** supporting this direction. The prediction rests on the model score alone and is likely a graph-proximity artifact rather than an anti-tumour signal.
+Topiramate is an antiseizure medication, originally used for epilepsy, including generalized tonic-clonic seizures, partial epilepsy and Lennox-Gastaut syndrome.
+The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm**, but there are currently **0 clinical trials** and **0 publications** supporting this specific direction, so the prediction rests on the model alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Epilepsy (the Singapore licence records in the pack carry no indication text; this is taken from the pack's description of topiramate as a marketed antiepileptic) |
+| Original Indication | Epilepsy (generalized tonic-clonic seizures, partial epilepsy, Lennox-Gastaut syndrome), per the knowledge-graph indication data. The Singapore licence records contain no indication text. |
 | Predicted New Indication | Trigeminal nerve neoplasm |
 | TxGNN Prediction Score | 99.70% |
 | Evidence Level | L5 (model prediction only) |
@@ -47,52 +50,72 @@ Topiramate is a marketed antiseizure drug, and the Evidence Pack describes it as
 | Number of Registrations | 10 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the Evidence Pack. From the pack's rationale text, topiramate acts on neuronal targets: voltage-gated sodium channels, GABA-A receptors, AMPA/kainate receptors and carbonic anhydrase. These actions explain its antiseizure effect.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Topiramate is a broad-spectrum antiseizure drug. It is generally understood to act on voltage-gated sodium channels, enhance GABA-A activity, antagonize AMPA/kainate glutamate receptors and inhibit carbonic anhydrase. Its efficacy in epilepsy is well established.
 
-The high score most likely reflects graph proximity between trigeminal-region disorders, such as trigeminal neuralgia, and topiramate's neuro-active targets. It does not reflect an anti-tumour mechanism. Nothing retrieved shows that sodium-channel blockade, GABAergic enhancement or glutamate antagonism would shrink or control a nerve-sheath or cranial-nerve tumour. At best, topiramate might relieve neurological symptoms such as pain or seizures, which is a different goal from treating the tumour.
+The link to a tumour of the trigeminal nerve is weak. These mechanisms control neuronal hyperexcitability and do not act against tumour growth. The high score is therefore probably a graph-based artefact. The model may be picking up network proximity between topiramate and trigeminal-related nodes, such as trigeminal neuralgia, rather than any anti-neoplastic activity.
+
+No plausible mechanistic link between topiramate and tumour control has been established in the data compiled for this report.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
 
+---
+
 ## Singapore Market Information
 
-Ten authorizations are registered. The five main ones are listed below. The approved indication text is not provided in the available data.
+Topiramate has 10 valid single-ingredient registrations and none cancelled. The five main authorizations are below.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16662P | TROKENDI XR® Extended-Release Capsule 25mg | Capsule, extended release | Not listed |
-| SIN09689P | TOPAMAX 50 Tablet 50 mg | Tablet, film coated | Not listed |
-| SIN09687P | TOPAMAX 100 Tablet 100 mg | Tablet, film coated | Not listed |
-| SIN16665P | TROKENDI XR® Extended-Release Capsule 200mg | Capsule, extended release | Not listed |
-| SIN16664P | TROKENDI XR® Extended-Release Capsule 100mg | Capsule, extended release | Not listed |
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN09689P | TOPAMAX 50 Tablet 50 mg | Film-coated tablet |
+| SIN09687P | TOPAMAX 100 Tablet 100 mg | Film-coated tablet |
+| SIN09688P | TOPAMAX 25 Tablet 25 mg | Film-coated tablet |
+| SIN16662P | TROKENDI XR Extended-Release Capsule 25 mg | Extended-release capsule |
+| SIN14131P | Topiron film-coated tablets 50 mg | Film-coated tablet |
+
+The other five registrations are further strengths of Trokendi XR (50, 100 and 200 mg) and Topiron (25 and 100 mg). All forms are oral.
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications flagged in the knowledge graph** (these are graph-derived associations, not label text): kidney disease, nephrolithiasis (including SLC26A1-related susceptibility), acute urate nephropathy, pyoureter, liver disease, gallbladder disease, diarrheal disease, ocular hypertension, metabolic acidosis and acidosis disorders, anxiety disorder, neurotic disorder, dysthymic disorder, amnestic disorder and retrograde amnesia.
+- **Drug Interactions** (100 interactions recorded; the first 20 retrieved are summarised here):
+  - **Major**: metformin, and anticholinergic agents including hyoscyamine, atropine, scopolamine, glycopyrronium, clidinium, dicyclomine, mepenzolate, methscopolamine, propantheline and trospium.
+  - **Moderate**: pioglitazone, glyburide, morphine, dronabinol, nabilone, phentermine, metoclopramide, phenylbutyric acid and glycerol phenylbutyrate.
+
+Please refer to the package insert for the full warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This is a prediction-only signal (L5) with no trials or literature, and the plausible mechanism is neurological rather than anti-tumour. The Singapore package-insert safety data has not been obtained, and that gap blocks progression to safety screening.
+The prediction for trigeminal nerve neoplasm is supported only by a graph-based score. There are no trials or literature, and no mechanistic basis for anti-tumour activity. Topiramate is well established and widely registered in Singapore, but that does not support this indication.
 
-Other candidates in the same pack have more support:
-- Trigeminal neuralgia is L2, with a Phase 2 trial and a small randomized crossover pilot.
-- Visual epilepsy is L1 but label-adjacent, since the evidence is for epilepsy broadly.
+Other predictions for topiramate have more support. Trigeminal neuralgia (score 98.92%) is rated L2 with a recommendation of Proceed with Guardrails. Its evidence is a small randomized, placebo-controlled crossover pilot study and a meta-analysis against carbamazepine. The predicted seizure-related indications, such as audiogenic seizures and thinking seizures, are rated L3-L4. These may be better candidates for further evaluation.
 
 **To proceed, the following is needed:**
-- The HSA package insert, to extract warnings and contraindications (blocking)
-- Mechanism of action from DrugBank
-- Confirmation that the "trigeminal nerve neoplasm" mapping is correct, and any direct evidence of topiramate in nerve or cranial tumours
-- Singapore approved-indication text for the registered products
+- Mechanism of action (MOA) data
+- Evidence of anti-neoplastic activity of topiramate, for example preclinical studies in trigeminal nerve tumour models
+- Confirmation of whether the prediction reflects trigeminal neuralgia rather than a true neoplasm
+- Package insert warnings and contraindications from the HSA website, to complete safety screening
+- Route and formulation compatibility assessment for the proposed use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,15 +2,15 @@
 layout: default
 title: Erenumab
 parent: Medium Evidence (L3-L4)
-nav_order: 388
-evidence_level: L4
+nav_order: 392
+evidence_level: L3
 indication_count: 10
 ---
 
 # Erenumab
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,80 +29,83 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Erenumab: From Migraine Prevention to Migraine with Brainstem Aura
+# Erenumab: From Migraine to Migraine with Brainstem Aura
 
 ## One-Sentence Summary
 
-Erenumab is a CGRP-receptor monoclonal antibody marketed for migraine prevention. The TxGNN model predicts it may be effective for **migraine with brainstem aura**, a subtype of migraine. No clinical trials are registered for this subtype, and **20 publications** were retrieved. None of them addresses brainstem aura specifically, so this is a subtype extension of an existing indication rather than true repurposing.
+Erenumab is a monoclonal antibody against the CGRP receptor, originally used to prevent migraine.
+The TxGNN model predicts it may be effective for **migraine with brainstem aura**, a migraine subtype with aura.
+Support is indirect: **no registered clinical trials** and **20 publications** were compiled, mostly covering migraine with and without aura in general, and none specific to the brainstem aura subtype.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Migraine prevention (the supplied HSA records list no indication text, so this baseline is unconfirmed) |
+| Original Indication | Migraine disorder (migraine prevention). The Singapore licence records contain no indication text, so this comes from the knowledge graph. |
 | Predicted New Indication | Migraine with brainstem aura |
 | TxGNN Prediction Score | 99.89% |
-| Evidence Level | L4 |
+| Evidence Level | L3 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 4 |
-| Recommended Decision | Hold |
+| Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
 
-Erenumab is a monoclonal antibody that targets the CGRP receptor. CGRP is a pro-inflammatory peptide implicated in migraine, and blocking its receptor reduces migraine frequency. Detailed DrugBank mechanism-of-action data was not available in this evidence pack. The mechanism described here comes from the literature and the pack's rationale notes.
+Detailed mechanism-of-action data was not available in the data compiled for this report. Based on known information, erenumab is a human monoclonal antibody that blocks the CGRP receptor. In cell-based assays it abolishes CGRP-stimulated cAMP production (IC50 about 2.3 nM) and is about 5000-fold selective for the CGRP receptor over other human calcitonin-family receptors. CGRP signalling is central to migraine pathophysiology, and erenumab is already used for migraine prevention.
 
-Brainstem aura (formerly basilar-type migraine) is a migraine subtype. The mechanism therefore plausibly applies. The literature covers general migraine and aura versus non-aura subgroups, so it is indirectly relevant. None of it studies brainstem aura patients specifically. A large secondary analysis of randomized trials (JAMA Neurology, 2022) compared erenumab in patients with and without aura, which is the closest available evidence.
+Brainstem aura is a migraine subtype with aura, so it sits very close to the original indication. Secondary analyses of erenumab randomised trials in patients with and without aura (JAMA Neurology, 2022) suggest that erenumab is effective and safe in people with aura. A 2026 REFORM study also examined how erenumab affects aura frequency.
 
-The main caution is that any benefit or safety finding in general migraine or typical aura cannot be assumed for brainstem aura. Brainstem aura symptoms include vertigo, dysarthria and reduced consciousness, and no supplied study evaluates them.
+An important limit: no data specific to brainstem aura were identified. The link rests on extending the evidence from migraine with aura to this subtype, not on direct proof.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for this predicted indication.
 
 ## Literature Evidence
 
-Ten of the 20 retrieved publications are shown below, prioritizing RCTs and reviews.
+The most relevant publications compiled for this report are listed below. The first six relate to aura or to systematic evidence; the last four are supportive migraine studies.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [30360965](https://pubmed.ncbi.nlm.nih.gov/30360965/) | 2018 | RCT (Phase 3b) | Lancet | Randomised, placebo-controlled study of erenumab efficacy and tolerability in episodic migraine after 2–4 failed preventives |
-| [34928306](https://pubmed.ncbi.nlm.nih.gov/34928306/) | 2022 | RCT (secondary analysis) | JAMA Neurology | Compared erenumab safety and efficacy in migraine with versus without aura, including vascular safety |
-| [37012858](https://pubmed.ncbi.nlm.nih.gov/37012858/) | 2023 | Systematic review | Int Immunopharmacol | Reviews erenumab efficacy for preventing episodic and chronic migraine |
-| [36942409](https://pubmed.ncbi.nlm.nih.gov/36942409/) | 2023 | Cohort (post hoc) | Headache | Pooled long-term trial data assessing cardiovascular safety of erenumab by vascular risk, with and without aura |
-| [40275185](https://pubmed.ncbi.nlm.nih.gov/40275185/) | 2025 | Cohort | J Headache Pain | Tested whether plasma suPAR, a systemic inflammation marker elevated in migraine with aura, relates to erenumab response |
-| [32867533](https://pubmed.ncbi.nlm.nih.gov/32867533/) | 2021 | Interventional physiological study | Cephalalgia | Erenumab did not alter cerebral hemodynamics or endothelial function in migraine without aura |
-| [35151970](https://pubmed.ncbi.nlm.nih.gov/35151970/) | 2022 | Cohort (real-world) | Clin Neurol Neurosurg | 6-month real-world effectiveness and safety in treatment-resistant chronic migraine |
-| [35538414](https://pubmed.ncbi.nlm.nih.gov/35538414/) | 2022 | Retrospective real-world study | J Headache Pain | 12-month safety, tolerability and adverse-event susceptibility of erenumab |
-| [33125303](https://pubmed.ncbi.nlm.nih.gov/33125303/) | 2021 | Case series | J Pain Palliat Care Pharmacother | Retrospective review of 78 patients adding erenumab to onabotulinumtoxinA in chronic migraine |
-| [38850034](https://pubmed.ncbi.nlm.nih.gov/38850034/) | 2024 | Experimental study | Cephalalgia | Tested whether sildenafil induces migraine attacks in patients pre-treated with erenumab |
+| [34928306](https://pubmed.ncbi.nlm.nih.gov/34928306/) | 2022 | Post-hoc analysis of RCTs | JAMA Neurology | Safety and efficacy of erenumab in patients with migraine with and without aura, given the higher vascular risk in the aura group |
+| [36942409](https://pubmed.ncbi.nlm.nih.gov/36942409/) | 2023 | Pooled post-hoc analysis | Headache | Vascular risk in patients with and without aura treated with erenumab, using pooled long-term trial data |
+| [41888647](https://pubmed.ncbi.nlm.nih.gov/41888647/) | 2026 | Clinical study (REFORM) | J Headache Pain | Changes in migraine aura frequency during and after erenumab treatment in adults with frequent aura |
+| [37012858](https://pubmed.ncbi.nlm.nih.gov/37012858/) | 2023 | Systematic review | Int Immunopharmacol | Efficacy of erenumab in preventing episodic and chronic migraine |
+| [32867533](https://pubmed.ncbi.nlm.nih.gov/32867533/) | 2021 | Mechanistic clinical study | Cephalalgia | Erenumab did not alter cerebral hemodynamics or endothelial function in migraine without aura |
+| [35230406](https://pubmed.ncbi.nlm.nih.gov/35230406/) | 2022 | News/commentary | JAMA | Commentary: erenumab safe and effective in migraine with aura |
+| [30360965](https://pubmed.ncbi.nlm.nih.gov/30360965/) | 2018 | Phase 3b RCT | Lancet | Efficacy and tolerability in episodic migraine after 2–4 failed preventive treatments |
+| [30725283](https://pubmed.ncbi.nlm.nih.gov/30725283/) | 2019 | Review | Handb Exp Pharmacol | Role of CGRP in migraine pathophysiology |
+| [35538414](https://pubmed.ncbi.nlm.nih.gov/35538414/) | 2022 | Retrospective real-world study | J Headache Pain | 12-month safety and tolerability of erenumab in practice |
+| [35151970](https://pubmed.ncbi.nlm.nih.gov/35151970/) | 2022 | Real-world study | Clin Neurol Neurosurg | Effectiveness and safety in treatment-resistant chronic migraine |
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN15925P | AIMOVIG Solution for Injection in Pre-filled Pen 140mg/ml | Injection, solution | Not listed in the supplied record |
-| SIN15543P | AIMOVIG Solution for Injection in Pre-filled Pen 70mg/ml | Injection, solution | Not listed in the supplied record |
-| SIN15926P | AIMOVIG Solution for Injection in Pre-filled Syringe 140mg/ml | Injection, solution | Not listed in the supplied record |
-| SIN15545P | AIMOVIG Solution for Injection in Pre-filled Syringe 70mg/ml | Injection, solution | Not listed in the supplied record |
+| SIN15925P | AIMOVIG Solution for Injection in Pre-filled Pen 140 mg/ml | Injection, solution | Not stated in the records |
+| SIN15543P | AIMOVIG Solution for Injection in Pre-filled Pen 70 mg/ml | Injection, solution | Not stated in the records |
+| SIN15926P | AIMOVIG Solution for Injection in Pre-filled Syringe 140 mg/ml | Injection, solution | Not stated in the records |
+| SIN15545P | AIMOVIG Solution for Injection in Pre-filled Syringe 70 mg/ml | Injection, solution | Not stated in the records |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug-interaction records were found.
+- **Drug Interactions**: The interaction query found no drug–drug interactions; the only entry is the drug's own pharmacological target, the CGRP receptor.
+- **Vascular safety**: CGRP is a vasodilator. Patients with aura have elevated vascular risk, and post-hoc analyses of erenumab trial data (JAMA Neurology 2022; Headache 2023) specifically examined this. Vascular risk should be monitored in any aura population.
 
-The literature includes vascular-risk analyses in patients with and without aura (PMIDs 34928306, 36942409). These are relevant when considering use in aura subtypes.
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Proceed with Guardrails**
 
 **Rationale:**
-The mechanism is plausible and the drug is marketed in Singapore. However, no trial or publication addresses brainstem aura specifically, and the HSA package insert warnings and contraindications have not been reviewed. The other nine TxGNN predictions (ranks 2–10) have no supporting evidence and appear to be knowledge-graph artifacts.
+Brainstem aura is a close subtype of the approved migraine indication. Existing systematic review and post-hoc trial evidence supports erenumab in migraine with aura, and the TxGNN score is high. However, there is no subtype-specific trial or study, so this remains an extension by subtype and should be treated as a research question rather than a ready indication.
 
 **To proceed, the following is needed:**
-- HSA package insert (approved indication, warnings and contraindications), to complete the safety screen
-- DrugBank mechanism-of-action data
-- Targeted literature and trial searches for erenumab in brainstem aura or basilar-type migraine
-- A review of vascular and neurological safety in patients with brainstem aura symptoms
+- Data on patients with brainstem aura specifically (subgroup analysis, case series or a dedicated trial)
+- Package insert warnings and contraindications from the Singapore regulator (HSA), plus the approved indication text for the four licences
+- Detailed mechanism-of-action data from DrugBank
+- A vascular safety monitoring plan for patients with aura
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Icodextrin
 parent: Low Evidence (L5)
-nav_order: 511
+nav_order: 515
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,14 +33,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Icodextrin is a high-molecular-weight glucose polymer used as an osmotic agent in peritoneal dialysis solutions.
-The TxGNN model predicts it may be effective for **irritable bowel syndrome**, but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
+Icodextrin is a high-molecular-weight glucose polymer used as an osmotic agent in peritoneal dialysis solutions. The TxGNN model predicts it may be effective for **irritable bowel syndrome**, but this is a model prediction only, with **0 clinical trials** and **0 publications** currently supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore licence record (product is a peritoneal dialysis solution) |
+| Original Indication | Not stated in the Singapore license data (the product is a peritoneal dialysis solution) |
 | Predicted New Indication | Irritable bowel syndrome |
 | TxGNN Prediction Score | 98.53% |
 | Evidence Level | L5 |
@@ -50,11 +49,11 @@ The TxGNN model predicts it may be effective for **irritable bowel syndrome**, b
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, icodextrin is a glucose polymer used as an osmotic agent in peritoneal dialysis. It is minimally absorbed from the peritoneal cavity, and its role in dialysis is established. No pathway linking it to irritable bowel syndrome (gut motility, visceral hypersensitivity, microbiome) is documented.
+Currently, detailed mechanism of action data is not available. Based on known information, icodextrin is a glucose polymer that acts as a colloid osmotic agent in peritoneal dialysis, and it is minimally absorbed from the gut.
 
-The high score (98.53%) is a graph-based prediction only. Because the original mechanism data is missing, the prediction cannot be cross-checked. On current information the link looks like knowledge-graph topology rather than biology.
+The data compiled for this report show no clear mechanistic link between this action and irritable bowel syndrome. The high score (0.985) reflects a knowledge-graph prediction, and no biological rationale for this indication is supported by the available data. The model ranked this prediction 14,036th overall, so the score alone should be interpreted with caution.
 
-The other top-10 predictions are also L5 with no trials or literature. They include esophageal malformation, C1 inhibitor deficiency, hereditary angioedema, serpinopathy, potassium deficiency, familial visceral myopathy, renal tubular acidosis and vitamin deficiency. Several fall into the same disease cluster (C1 inhibitor deficiency, hereditary angioedema, serpinopathy), so they are not independent evidence. Renal tubular acidosis is the only one with a kidney-related association, but icodextrin does not correct tubular acid-base defects.
+Other top-ranked predictions (for example C1 inhibitor deficiency, serpinopathy, hereditary angioedema, familial visceral myopathy, and renal tubular acidosis) also lack any supported mechanism, no clinical trials and no publications. They appear to reflect graph structure rather than biology. For hereditary angioedema, documented hypersensitivity reactions to icodextrin argue for caution rather than benefit.
 
 ## Clinical Trial Evidence
 
@@ -68,26 +67,27 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN11220P | EXTRANEAL PERITONEAL DIALYSIS SOLUTION 75 g/l | Sterile solution | Not specified in the record |
+| SIN11220P | EXTRANEAL Peritoneal Dialysis Solution 75 g/l | Sterile solution | Not stated in the license data |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interactions were found in the queried data.
+Please refer to the package insert for safety information.
+
+Documented hypersensitivity reactions to icodextrin warrant caution in any new use.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting trials or literature (L5) and no plausible mechanism linking icodextrin to irritable bowel syndrome. The high model score alone is not enough to justify moving forward.
+The prediction rests only on the model score. There are no clinical trials, no publications, and no plausible mechanism linking an osmotic peritoneal dialysis agent to irritable bowel syndrome, so the evidence level is L5.
 
 **To proceed, the following is needed:**
-- The Singapore (HSA) package insert, for approved indication and safety review
-- Mechanism of action data (for example from DrugBank) to test any plausible link to gut function
-- Evidence of a biological pathway or preclinical or clinical studies in irritable bowel syndrome
-- A review of route compatibility, since the current product is a peritoneal dialysis solution, not an oral or gastrointestinal formulation
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
+- Mechanism of action data for icodextrin, and a biological rationale for irritable bowel syndrome
+- Package insert warnings and contraindications from the Health Sciences Authority (HSA), as the safety screening cannot proceed without them
+- The approved indication text for the Singapore license
+- Preclinical or observational evidence supporting a benefit in irritable bowel syndrome
+- Assessment of route compatibility, since the current product is a peritoneal dialysis solution
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

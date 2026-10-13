@@ -2,7 +2,7 @@
 layout: default
 title: Pilocarpine
 parent: Low Evidence (L5)
-nav_order: 783
+nav_order: 792
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,21 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pilocarpine: From Unrecorded Original Indication to Primary Hereditary Glaucoma
+# Pilocarpine: From Open-Angle Glaucoma to Primary Hereditary Glaucoma
 
 ## One-Sentence Summary
 
-Pilocarpine is a muscarinic agonist marketed in Singapore as an oral tablet and an ophthalmic solution, but the registration data does not record its approved indications.
-The TxGNN model predicts it may be effective for **primary hereditary glaucoma** with a very high score, yet **no clinical trials and no publications** currently support this specific prediction.
-Pilocarpine is a long-established glaucoma miotic, so this may be a rediscovery of a known use rather than true repurposing.
+> Pilocarpine is a muscarinic agonist originally used to lower eye pressure in open-angle glaucoma and ocular hypertension.
+> The TxGNN model predicts it may be effective for **primary hereditary glaucoma**,
+> but there are currently **0 clinical trials** and **0 publications** for this specific condition, so the prediction rests on the model score and general pharmacology alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the Singapore registration data |
+| Original Indication | Open-angle glaucoma; ocular hypertension |
 | Predicted New Indication | Primary hereditary glaucoma |
 | TxGNN Prediction Score | 99.83% |
 | Evidence Level | L5 |
@@ -49,46 +51,67 @@ Pilocarpine is a long-established glaucoma miotic, so this may be a rediscovery 
 | Number of Registrations | 2 |
 | Recommended Decision | Hold |
 
+*The Singapore licence records contain no approved-indication text, so the original indications come from the TxGNN knowledge graph.*
+
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the source record. Pilocarpine is known to be a muscarinic (M3) agonist. It contracts the ciliary muscle and increases trabecular outflow of aqueous humour, which lowers intraocular pressure. This gives a plausible biological link to glaucoma.
+Currently, detailed mechanism of action data is not available. Based on general pharmacology, pilocarpine is a muscarinic agonist. It contracts the ciliary muscle and increases outflow of aqueous humour through the trabecular meshwork, which lowers intraocular pressure (IOP). Its efficacy in open-angle glaucoma has been established over decades of clinical use.
 
-Pilocarpine has long been used as a miotic in glaucoma, so the model may simply be rediscovering an existing use. Because the original indication and MOA fields are empty, we cannot yet tell whether this is a genuinely new candidate. The label indications must be verified before it is treated as repurposing.
+Primary hereditary glaucoma is also a disease of raised IOP caused by impaired aqueous outflow. A drug that opens the outflow pathway could therefore plausibly help. This is a mechanistic inference only. No studies for this specific condition were found, and the high score is a model prediction rather than clinical evidence.
 
-For context, the related predictions "open angle glaucoma" and "glaucoma 1, open angle" have more evidence (Evidence Level L2). Those supporting studies are not attributed to primary hereditary glaucoma and are not counted here.
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
+
+---
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN11683P | SALAGEN TABLET 5 mg | Tablet, film coated | Not stated in registration data |
-| SIN04712P | ISOPTO CARPINE STERILE OPHTHALMIC SOLUTION 2% | Solution | Not stated in registration data |
+| SIN11683P | SALAGEN TABLET 5 mg | Film-coated tablet (oral) | — |
+| SIN04712P | ISOPTO CARPINE STERILE OPHTHALMIC SOLUTION 2% | Solution (ophthalmic) | — |
+
+Both licences are valid single-ingredient products, and none are cancelled. Only the ophthalmic solution matches the eye-related prediction. The oral tablet is a different route and would not be a like-for-like fit.
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindication signals from the knowledge graph** (disease-level associations, not package insert text):
+  - Eye: angle-closure (closed-angle) glaucoma, uveitis, iritis, iridocyclitis, keratitis, keratoconjunctivitis, retinal detachment.
+  - Respiratory: asthma, COPD, bronchial disease.
+  - Biliary and liver: cholelithiasis, cholecystitis, biliary tract disease, obstructive jaundice, liver failure.
+  - Kidney: nephrolithiasis, acute urate nephropathy.
+- **Drug interactions**: 100 interactions were recorded. The ones rated Moderate are mostly other anticholinergic agents, which may blunt pilocarpine's effect. They include atropine, hyoscyamine, scopolamine, glycopyrronium, dicyclomine, clidinium, mepenzolate, methscopolamine, propantheline and trospium. Some others, such as pantoprazole, omeprazole, lansoprazole, metformin, morphine and epinephrine, are listed with an unknown severity level.
+
+Please refer to the package insert for authoritative warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high, but there are no trials or publications for primary hereditary glaucoma (Evidence Level L5). It is also unclear whether this is a new use or an already-recognised one.
+- No trials or publications support primary hereditary glaucoma specifically, so the prediction is based on the model score and general pharmacology alone (L5).
+- Pilocarpine's established glaucoma use is already a labelled indication, so it adds little as a new repurposing signal. The related open-angle glaucoma entry has four linked trials, but they are small or non-efficacy studies, and none is a completed Phase 3 RCT.
 
 **To proceed, the following is needed:**
-- Confirm the approved indications of both Singapore registrations, especially the ophthalmic solution
-- Obtain the HSA package insert warnings and contraindications
-- Obtain mechanism of action data (for example via DrugBank)
-- Search for pilocarpine studies specific to primary hereditary glaucoma (congenital or juvenile forms), including paediatric safety
-- Consider whether the open angle glaucoma predictions, which have more evidence, are a better focus for assessment
+- Package insert warnings and contraindications from the HSA, which are currently missing and block safety screening.
+- Mechanism of action data, for example from DrugBank.
+- A targeted literature search for pilocarpine in primary congenital or hereditary glaucoma, including case series and paediatric use.
+- Confirmation of whether this is a genuinely new use or falls under the existing glaucoma indication, and whether the ophthalmic solution is the appropriate route.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Granisetron
 parent: Low Evidence (L5)
-nav_order: 487
+nav_order: 491
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,89 +29,67 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Granisetron: From Chemotherapy-Induced Nausea and Vomiting to Manic Bipolar Affective Disorder
+# Granisetron: From Chemotherapy-Related Nausea and Vomiting to Manic Bipolar Affective Disorder
 
 ## One-Sentence Summary
 
-Granisetron is a 5-HT3 receptor antagonist, and its established use is as an antiemetic (the HSA records supplied do not state an approved indication).
-The TxGNN model predicts it may be effective for **manic bipolar affective disorder**, with a very high score of 99.62%.
-Currently there are **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model alone.
-
----
+Granisetron is a selective 5-HT3 receptor antagonist. It is marketed in Singapore as an injectable and oral product, but the data compiled for this report contain no approved indication text.
+The TxGNN model predicts it may be effective for **manic bipolar affective disorder**, but **no clinical trials and no publications** currently support this prediction.
+It rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the supplied HSA records. Granisetron is generally known as an antiemetic for chemotherapy-induced nausea and vomiting. |
+| Original Indication | Not listed in the Singapore licence records |
 | Predicted New Indication | Manic bipolar affective disorder |
 | TxGNN Prediction Score | 99.62% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 7 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Granisetron is a selective 5-HT3 receptor antagonist. Detailed mechanism-of-action data is not available in the Evidence Pack, so this description comes from the pack's own rationale text.
+Granisetron is a selective 5-HT3 receptor antagonist. Detailed mechanism of action data are not available in the data compiled for this report, and the licence records give no approved indication text. Granisetron's established use, as a 5-HT3 antagonist anti-emetic, is general knowledge and is not confirmed by the compiled data.
 
-A hypothetical link is that 5-HT3 blockade could modulate serotonergic and dopaminergic signalling in limbic circuits, which are involved in mood regulation. That would be the bridge between an antiemetic and a mood disorder.
+The proposed link to mood disorders is speculative. 5-HT3 modulation has been hypothesised to influence dopaminergic and serotonergic signalling relevant to mood regulation. The high TxGNN score (0.996) is a model prediction only. It does not show clinical benefit.
 
-This link is speculative. No trial or publication was supplied, and the case rests only on the TxGNN score. The original indication and the new one are also not obviously related, and the pack marks their similarity as pending.
-
-The model produced other high-scoring predictions for granisetron. These include Tourette syndrome and trichotillomania, which have a similar serotonergic and dopaminergic rationale. Several others, such as conjunctivitis, bronchitis and nephrogenic syndrome of inappropriate antidiuresis, have no plausible mechanistic link and likely reflect knowledge-graph proximity rather than biology.
-
----
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
----
-
-## Literature Evidence
-
-Currently no related literature available.
-
----
+Other lower-ranked predictions include Tourette syndrome, trichotillomania, angioedema, allergic urticaria, cold urticaria, bronchitis, conjunctivitis, acute contagious conjunctivitis and nephrogenic syndrome of inappropriate antidiuresis. Some have loose class-level rationale, for example the serotonergic and dopaminergic involvement in Tourette syndrome and trichotillomania. Others, such as nephrogenic syndrome of inappropriate antidiuresis and infectious conjunctivitis, have no plausible mechanistic link and are likely graph-based artefacts.
 
 ## Singapore Market Information
 
-Granisetron has 7 registrations in Singapore, in both injectable and oral forms. The five main ones are below. Approved indication text was not provided for any of them.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN16589P | Granodex Solution for Injection 1 mg/ml | Injection, solution | Not specified |
+| SIN07800P | Kytril Tablet 1 mg | Tablet, film coated | Not specified |
+| SIN15174P | Emenat Tablets 1 mg | Tablet | Not specified |
+| SIN14612P | Granisetron-AFT Solution for Injection 1 mg/ml | Injection, solution | Not specified |
+| SIN07089P | Kytril for Infusion 3 mg/3 ml | Injection | Not specified |
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN16589P | Granodex Solution for Injection 1 mg/ml | Injection, solution |
-| SIN07800P | Kytril Tablet 1 mg | Tablet, film coated |
-| SIN15174P | Emenat Tablets 1 mg | Tablet |
-| SIN14612P | Granisetron-AFT Solution for Injection 1 mg/ml | Injection, solution |
-| SIN07089P | Kytril for Infusion 3 mg/3 ml | Injection |
-
----
+Seven valid single-ingredient licences exist in total. Both injectable and oral forms are available.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interactions were found in the supplied query.
+- **Knowledge-graph contraindication signals** (from drug-disease network edges, not label text): long QT syndrome, familial long QT syndrome, potassium deficiency disease, sudden cardiac arrest and heart conduction disease. These point to a QT-prolongation concern.
+- **Drug Interactions**: 100 interactions were identified. Examples of **Major** interactions include fentanyl, dextromethorphan, tramadol, alfentanil, almotriptan, sumatriptan, amiodarone, amisulpride, amitriptyline and anagrelide. These involve serotonergic and QT-prolonging combinations. Examples of **Moderate** interactions include abametapir, abiraterone, dihydrocodeine, codeine, famotidine, formoterol, adenosine, salbutamol, alfuzosin and propofol.
 
----
+Please refer to the package insert for label warnings and contraindications, as these were not available.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has a very high model score, but no clinical trials or literature support it, and the mechanistic link to mania is only hypothetical. Safety data has also not been reviewed, so the candidate cannot advance beyond the initial screening stage.
+The prediction has Evidence Level L5, with no clinical trials or literature. The mechanistic rationale is speculative. Safety signals around QT prolongation and serotonergic interactions matter in a psychiatric population, where co-medications are common.
 
 **To proceed, the following is needed:**
-- The HSA package insert, to obtain the approved indication, warnings and contraindications
-- Detailed mechanism of action data, for example from DrugBank
-- A systematic search of PubMed and trial registries (including ICTRP) for granisetron in bipolar mania, and in Tourette syndrome and trichotillomania, which have more plausible rationales
-- Preclinical or mechanistic evidence for 5-HT3 antagonism in mood disorders
-- A route and dose compatibility assessment for the new indication
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
+- Package insert warnings and contraindications from HSA, which are currently missing and block safety screening
+- Detailed mechanism of action data from DrugBank
+- A literature and trial search for granisetron or 5-HT3 antagonists in bipolar mania
+- Preclinical or mechanistic evidence supporting a role in mood regulation
+- A QT and drug-interaction risk assessment for the target population
+- Route and dosage compatibility assessment, which is currently pending
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

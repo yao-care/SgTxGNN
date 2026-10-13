@@ -2,7 +2,7 @@
 layout: default
 title: Fimasartan
 parent: Low Evidence (L5)
-nav_order: 426
+nav_order: 430
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,18 +29,21 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Fimasartan: From Hypertension to Pulmonary Hypertension (with Unclear Multifactorial Mechanism)
+# Fimasartan: From Hypertension to Pulmonary Hypertension
+
+The first-ranked prediction (pulmonary hypertension) rests on model score alone, with no trials or literature behind it. This report therefore also reviews the better-supported candidate, cerebrovascular disorder, in the evidence sections below.
 
 ## One-Sentence Summary
 
-Fimasartan is an angiotensin II receptor blocker (ARB) used to lower blood pressure.
-The TxGNN model predicts it may be effective for **pulmonary hypertension with unclear multifactorial mechanism**, but this prediction currently has **0 clinical trials** and **0 relevant publications** behind it. It rests on a model score alone.
+Fimasartan is an angiotensin II receptor blocker (ARB) originally used to treat hypertension.
+The TxGNN model predicts it may be effective for **pulmonary hypertension with unclear multifactorial mechanism**, but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction.
+The best-supported alternative is **cerebrovascular disorder**, with **1 clinical trial** and **7 publications**, mostly preclinical or surrogate-endpoint studies.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (based on its ARB drug class; the Singapore registration records list no indication text) |
+| Original Indication | Hypertension (the Singapore licence records contain no approved indication text) |
 | Predicted New Indication | Pulmonary hypertension with unclear multifactorial mechanism |
 | TxGNN Prediction Score | 99.20% |
 | Evidence Level | L5 |
@@ -50,60 +53,68 @@ The TxGNN model predicts it may be effective for **pulmonary hypertension with u
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not currently available. Based on known information, fimasartan belongs to the ARB class, which blocks the angiotensin II type 1 receptor. Its efficacy in systemic hypertension is the basis of its use.
+Detailed mechanism of action data is not available for this report. Based on known information, fimasartan is an angiotensin II type 1 (AT1) receptor blocker. Its efficacy in hypertension has been established, and mechanistically it may be applicable to vascular conditions driven by the renin-angiotensin system.
 
-Renin-angiotensin system (RAS) signalling is a plausible contributor to pulmonary vascular remodelling. That makes an ARB conceptually applicable to pulmonary hypertension. However, the score of 0.992 is a graph-based model output, not clinical evidence. No trial or fimasartan-specific paper supports this link.
+For pulmonary hypertension, the link is speculative. AT1 blockade could plausibly affect vascular remodelling, but this has not been tested for fimasartan in this disease. The prediction is based only on a high model score.
 
-Note that the model also produced a second, near-identical prediction (pulmonary hypertension owing to lung disease and/or hypoxia). Its 20 retrieved papers came from keyword matching on "hypoxia". They cover brain, cancer and immunity biology, and none mention fimasartan or ARBs in pulmonary hypertension. They are not relevant evidence.
+Other predictions are closer to the original indication:
+- **Malignant hypertensive renal disease and malignant renovascular hypertension** (score 99.16%): renin-angiotensin blockade is biologically plausible, but no trials or literature exist. In renovascular disease, ARBs can harm kidney function in bilateral renal artery stenosis, so safety is a concern.
+- **Cerebrovascular disorder** (score 91.80%): preclinical work shows reduced NLRP3 inflammasome-mediated neuroinflammation, less neointimal formation after carotid injury, and benefit in rat focal ischaemia. Clinical studies in ischaemic stroke report haemodynamic and plaque-inflammation endpoints rather than hard outcomes. Blood pressure lowering itself confounds attribution to a stroke-specific mechanism.
+- **Intracerebral haemorrhage** (score 87.21%): two preclinical papers report anti-inflammatory effects, which is indirect evidence only.
+- **Braddock syndrome, chronic pulmonary heart disease, obsolete susceptibility to ischaemic stroke, and brain stem infarction**: prediction only, with no supporting studies.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+No clinical trials are registered for the top-ranked prediction (pulmonary hypertension). The only registered trial is for the cerebrovascular disorder prediction:
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT02403349](https://clinicaltrials.gov/study/NCT02403349) | Phase 4 | Unknown | 105 | Fimasartan vs valsartan vs atenolol: central blood pressure and peripheral/cerebral arterial flow in hypertensive patients with acute ischaemic stroke (surrogate haemodynamic endpoints) |
 
 ## Literature Evidence
 
-Currently no related literature available.
+Literature for the top-ranked prediction (pulmonary hypertension with unclear mechanism) is absent. The table below covers the best-supported prediction, cerebrovascular disorder, and the related intracerebral haemorrhage prediction.
 
-## Other Predicted Indications Worth Noting
-
-Among the model's other predictions, only cerebrovascular disorder has any real supporting evidence.
-
-| Predicted Indication | Score | Evidence Level | Supporting Evidence |
-|------|------|------|------|
-| Cerebrovascular disorder | 91.80% | L3 | 2 trials: [NCT03231293](https://clinicaltrials.gov/study/NCT03231293) (observational, 1,035 patients, completed) and [NCT02403349](https://clinicaltrials.gov/study/NCT02403349) (Phase 4, 105 patients, status unknown). Human studies (e.g. [31772615](https://pubmed.ncbi.nlm.nih.gov/31772615/), [29367614](https://pubmed.ncbi.nlm.nih.gov/29367614/)) compared fimasartan with valsartan on blood pressure variability and cerebral haemodynamics in ischaemic stroke. Endpoints are surrogate only, with no hard stroke outcomes. |
-| Intracerebral haemorrhage | 87.21% | L4 | Animal and in vitro studies only ([30171865](https://pubmed.ncbi.nlm.nih.gov/30171865/), [26608500](https://pubmed.ncbi.nlm.nih.gov/26608500/)), showing reduced NLRP3-mediated neuroinflammation. |
-| Malignant hypertensive renal disease, malignant renovascular hypertension, Braddock syndrome, chronic pulmonary heart disease, obsolete susceptibility to ischemic stroke, brain stem infarction | 81.37%–99.16% | L5 | None retrieved. |
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [31772615](https://pubmed.ncbi.nlm.nih.gov/31772615/) | 2019 | RCT (double-blind) | Cardiovasc Ther | Fimasartan vs valsartan on blood pressure variability in 80 acute ischaemic stroke patients over 8 weeks |
+| [29367614](https://pubmed.ncbi.nlm.nih.gov/29367614/) | 2018 | RCT (double-blind, FAVOR) | Sci Rep | Central and cerebral haemodynamics with atenolol, valsartan or fimasartan in 105 hypertensive ischaemic stroke patients over 12 weeks |
+| [30537083](https://pubmed.ncbi.nlm.nih.gov/30537083/) | 2019 | Clinical comparative study | Clin Cardiol | Fimasartan vs amlodipine on carotid atherosclerotic plaque inflammation |
+| [37365730](https://pubmed.ncbi.nlm.nih.gov/37365730/) | 2023 | Cohort | J Korean Med Sci | Fimasartan vs other ARBs in heart failure after acute myocardial infarction |
+| [30171865](https://pubmed.ncbi.nlm.nih.gov/30171865/) | 2018 | Preclinical | Exp Neurol | Low-dose fimasartan pretreatment reduced NLRP3 inflammasome-mediated neuroinflammation and brain injury after intracerebral haemorrhage |
+| [26448932](https://pubmed.ncbi.nlm.nih.gov/26448932/) | 2015 | Preclinical | Biomed Res Int | Long-term low-dose fimasartan in rat transient focal brain ischaemia |
+| [31307370](https://pubmed.ncbi.nlm.nih.gov/31307370/) | 2019 | Preclinical | Mol Med | Fimasartan reduced neointimal formation and inflammation after carotid injury in ApoE knockout mice |
+| [26608500](https://pubmed.ncbi.nlm.nih.gov/26608500/) | 2016 | In vitro | Inflamm Res | Anti-inflammatory effects via Akt, ERK and NFκB pathways in hemolysate-stimulated astrocytes |
+| [23642815](https://pubmed.ncbi.nlm.nih.gov/23642815/) | 2013 | Preclinical | Int J Cardiol | Cardioprotective effect in myocardial ischaemia/reperfusion injury (does not address pulmonary hypertension; linked to the hypoxia-related lung disease prediction) |
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN15221P | KANARB TABLET 60MG | Tablet | Not listed in the registration record |
-| SIN15222P | KANARB TABLET 120MG | Tablet | Not listed in the registration record |
+| SIN15221P | KANARB TABLET 60MG | Tablet | Not stated in the available records |
+| SIN15222P | KANARB TABLET 120MG | Tablet | Not stated in the available records |
 
-Both products are made by Boryung Corporation and are oral tablets.
+Both licences are valid single-ingredient products from Boryung Corporation, and there are no cancelled registrations.
 
 ## Safety Considerations
 
-- **Class-level concern**: ARBs carry a risk of acute renal function decline in bilateral renal artery stenosis or a solitary functioning kidney. This must be resolved before considering renovascular indications.
-- **Acute settings**: For malignant hypertension, an oral ARB is not an obvious fit because rapid, titratable therapy is needed. For acute stroke or haemorrhage, the safety of blood pressure lowering in the acute phase is untested.
+Please refer to the package insert for safety information.
 
-Please refer to the package insert for full safety information (warnings, contraindications). No drug interaction records were found.
+One point from the prediction analysis: ARBs can harm kidney function in bilateral renal artery stenosis, which matters for any renovascular hypertension use. No drug interaction records were found.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top prediction (pulmonary hypertension) is supported only by a model score of 99.20%. It has no trials and no relevant literature, so it sits at L5. The mechanistic link is plausible but untested.
+The top-ranked pulmonary hypertension prediction has a high model score (99.20%) but no trials or literature, and the mechanistic link is speculative (Evidence Level L5). The most promising direction is cerebrovascular disorder (L3), but its evidence is mostly preclinical or based on surrogate endpoints, so it remains a research question rather than a candidate for action.
 
 **To proceed, the following is needed:**
-- The HSA package insert (warnings, contraindications), which is currently missing and blocks safety screening
-- Fimasartan mechanism-of-action data from DrugBank
-- A targeted literature search for ARBs or fimasartan in pulmonary hypertension
-- Verification of the study designs of the stroke studies. If resources are limited, cerebrovascular disorder is the more evidence-backed candidate to investigate first.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data
+- For pulmonary hypertension: preclinical or early clinical data showing an effect in pulmonary vascular disease
+- For cerebrovascular disorder: outcome-based clinical trials (not just haemodynamic surrogates) that separate stroke-specific benefit from blood pressure lowering
+- Renal safety assessment for renovascular hypertension indications
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

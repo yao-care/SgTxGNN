@@ -2,7 +2,7 @@
 layout: default
 title: Proguanil
 parent: Low Evidence (L5)
-nav_order: 821
+nav_order: 830
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,15 +33,15 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Proguanil is an antimalarial. In Singapore it is registered as a component of the combination product Malarone (atovaquone/proguanil).
-The TxGNN model predicts it may be effective for **Smouldering Systemic Mastocytosis**,
-but there are currently **0 clinical trials** and **0 publications** supporting this prediction, so it rests on the model score alone.
+Proguanil is an antimalarial, originally used to treat and prevent *Plasmodium falciparum* malaria.
+The TxGNN model predicts it may be effective for **Smouldering systemic mastocytosis**,
+but there are currently **0 clinical trials** and **0 publications** supporting this prediction, so it is a model-based hypothesis only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Malaria (antimalarial; the Singapore licence record has no indication text) |
+| Original Indication | Plasmodium falciparum malaria / malaria |
 | Predicted New Indication | Smouldering systemic mastocytosis |
 | TxGNN Prediction Score | 92.12% |
 | Evidence Level | L5 |
@@ -51,9 +51,11 @@ but there are currently **0 clinical trials** and **0 publications** supporting 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, proguanil is an antimalarial that is marketed in Singapore as part of a combination product. Its efficacy in malaria is established, but the evidence provided gives no mechanistic reason for it to apply to smouldering systemic mastocytosis.
+Currently, detailed mechanism of action data is not available. Based on known information, proguanil is a prodrug whose metabolite, cycloguanil, inhibits dihydrofolate reductase in the malaria parasite. Proguanil itself has also been reported to have mitochondrial effects. Its efficacy in malaria is established.
 
-The high score (0.92) comes from knowledge-graph proximity to related mastocytosis entities. It does not reflect any documented link between proguanil and the KIT/mast-cell pathway that drives this disease. The same pattern appears in the other mastocytosis predictions, which are largely redundant with one another. The prediction should be treated as a hypothesis for investigation, not as evidence of efficacy.
+However, neither of these mechanisms has a documented connection to KIT-driven mast cell proliferation, which underlies mastocytosis. The data compiled for this report show no mechanistic link between proguanil and this disease.
+
+The high score (0.92) is a knowledge-graph prediction only. The other top predictions include related mastocytosis conditions (lymphoadenopathic mastocytosis with eosinophilia, 0.90; systemic mastocytosis, 0.86). They likely share the same graph-derived signal rather than reflecting biology. The remaining predictions are mainly renal and ciliopathy-related disorders (such as polycystic kidney disease and Joubert syndrome with renal defect), and none has trial or literature support.
 
 ## Clinical Trial Evidence
 
@@ -61,35 +63,42 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for smouldering systemic mastocytosis.
-
-A search for the lower-ranked prediction "polycystic kidney disease 3 with or without polycystic liver disease" returned about 20 publications (guidelines and reviews). None of the titles shown mention proguanil, so they are disease background only and are not counted as evidence for this drug.
+Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN09761P | MALARONE TABLET | Tablet, film coated (oral) |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN09761P | MALARONE TABLET | Tablet, film coated | Not stated in the data compiled for this report |
 
-The licence record does not list an approved indication.
+Proguanil is registered in Singapore under one single-ingredient licence, valid, for oral use.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications (from knowledge-graph associations, not label text)**: liver failure, liver disease, gallbladder disease, hyperglycemia, chronic diarrheal disease.
+- **Drug Interactions**: 33 interactions were identified; the 20 listed in the data are summarised below.
+  - **Major (2)**: auranofin, aurothioglucose.
+  - **Moderate (17)**:
+    - Antacids and adsorbents: aluminum hydroxide, calcium carbonate, kaolin, magaldrate, magnesium hydroxide, sodium bicarbonate.
+    - Anticoagulants: warfarin, dicoumarol, anisindione.
+    - Others: sapropterin, glucarpidase, iodide I-131, iodide I-123, fenofibrate, apalutamide, armodafinil, artemether.
+  - **Minor (1)**: brivaracetam.
+
+Package insert warnings and contraindications were not available for this report. Please refer to the package insert for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is computational only (L5), with no trials, no drug-specific literature, and no documented mechanism. All 10 predicted indications for proguanil are at L5 with a Hold recommendation, and the lowest score is 0.71 (polycystic kidney disease).
+The prediction rests only on a knowledge-graph score. There are no clinical trials, no literature, and no supported mechanistic link between proguanil and mast cell disease. The evidence level is L5.
 
 **To proceed, the following is needed:**
-- Singapore package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data for proguanil, for example from DrugBank
-- A mechanistic rationale linking proguanil to mast-cell or KIT biology, or to another disease target
-- Preclinical or clinical evidence specific to proguanil in mastocytosis
-- Assessment of whether the oral combination product is suitable for the intended use, since proguanil is marketed here only as part of Malarone
+- Mechanism of action data for proguanil and its metabolite, and an assessment of any plausible link to mast cell biology (such as KIT signalling)
+- Preclinical or literature evidence for mastocytosis
+- The Singapore package insert, for warnings, contraindications and the approved indication
+- A route and formulation compatibility assessment for the new indication
+- A safety review covering the hepatic and gallbladder associations and the interactions listed above
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

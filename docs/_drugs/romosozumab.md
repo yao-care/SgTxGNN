@@ -2,7 +2,7 @@
 layout: default
 title: Romosozumab
 parent: Low Evidence (L5)
-nav_order: 872
+nav_order: 881
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Romosozumab: From Postmenopausal Osteoporosis to Vitamin D Deficiency (Obsolete Term)
+# Romosozumab: From Postmenopausal Osteoporosis to Obsolete Vitamin D Deficiency
 
 ## One-Sentence Summary
 
-Romosozumab is a sclerostin-inhibiting antibody, labeled for postmenopausal women with osteoporosis at high fracture risk.
-The TxGNN model predicts it may be effective for **obsolete vitamin D deficiency**, but **0 clinical trials** and **0 publications** support this prediction.
-It is a model-only signal and is not mechanistically credible.
+Romosozumab is a sclerostin-inhibiting antibody originally used to treat postmenopausal osteoporosis.
+The TxGNN model predicts it may be effective for **obsolete vitamin D deficiency**, but there are currently **0 clinical trials** and **0 publications** supporting this direction.
+The prediction rests on model output alone, and the disease term is flagged as obsolete.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Osteoporosis in postmenopausal women at high fracture risk (taken from the pack's rationale text; the Singapore license record has no indication text) |
+| Original Indication | Postmenopausal osteoporosis / osteoporosis |
 | Predicted New Indication | Obsolete vitamin D deficiency |
 | TxGNN Prediction Score | 97.83% |
 | Evidence Level | L5 |
@@ -51,9 +51,11 @@ It is a model-only signal and is not mechanistically credible.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the structured record. Romosozumab is known to block sclerostin, which increases bone formation. Sclerostin inhibition does not correct vitamin D status, so it does not address the cause of vitamin D deficiency.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Romosozumab is an anti-sclerostin monoclonal antibody. By blocking sclerostin, it releases the brake on Wnt signalling in bone, which supports bone formation. Its efficacy in postmenopausal osteoporosis is established.
 
-Osteoporosis and vitamin D deficiency are both bone-metabolism problems, and this closeness in the knowledge graph probably produced the high score. The drug can also lower serum calcium. In a patient who has not been vitamin D-replete, that is a safety concern, not a benefit. This prediction looks like a graph association, not a therapeutic rationale.
+The high score is most likely driven by network proximity between osteoporosis and other bone and mineral metabolism disorders in the knowledge graph. Mechanistically, the link is weak. Romosozumab does not correct vitamin D status. In practice, vitamin D and calcium repletion is a prerequisite for using it, not something it treats. The disease term is also flagged as obsolete, which further weakens the prediction.
+
+Other predictions in this set have more support than this one. The strongest is **osteoporosis treatment in patients with impaired renal function**, which has a Phase 1 trial and several publications (see Conclusion).
 
 ## Clinical Trial Evidence
 
@@ -69,28 +71,39 @@ Currently no related literature available.
 |---------|------|------|
 | SIN16208P | EVENITY Solution for Injection in Pre-filled Syringe 105 mg/1.17 mL | Injection, solution |
 
-The manufacturer is Patheon Italia S.p.A. The only route is injectable.
+The product is a single-ingredient injectable (1 valid registration, none cancelled). The manufacturer is Patheon Italia S.p.A.
 
 ## Safety Considerations
 
-- **Key Warnings**: The evidence pack's rationale text notes a boxed warning for myocardial infarction and stroke. It also notes a risk of lowering serum calcium (hypocalcemia). Neither was verified against the HSA package insert.
-- **Drug Interactions**: No interactions were found in the DDI query.
+- **Contraindication signals from the knowledge graph** (not label text): hypercalcaemia, nephrocalcinosis, and phosphorus metabolism disease.
+- **Drug interactions**: 29 interactions were identified, and 20 are detailed in the data compiled for this report.
+  - **Major**: etelcalcetide.
+  - **Moderate, corticosteroids**: hydrocortisone, triamcinolone, dexamethasone, betamethasone, budesonide, prednisone, prednisolone, methylprednisolone, deflazacort, fludrocortisone.
+  - **Moderate, other agents**: axitinib, bevacizumab, cabozantinib, dasatinib, lenalidomide, pazopanib, pomalidomide, ramucirumab, regorafenib.
+- **Other points raised in the evidence review** for related predictions: romosozumab carries a cardiovascular warning (myocardial infarction, stroke) and can cause hypocalcaemia.
 
-Please refer to the package insert for complete safety information.
+For full warnings and contraindications, please refer to the package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on model score alone (L5). It has no trials or literature, and no credible mechanism. Using romosozumab in an unrepleted vitamin D-deficient patient could worsen hypocalcemia.
+The prediction has no trials or literature behind it, and the mechanism does not fit. Romosozumab does not treat vitamin D deficiency, and the disease term is obsolete. The score most likely reflects graph proximity, not a real therapeutic signal.
+
+**Context from other predictions in this set:**
+- **Impaired renal function (osteoporosis treatment in renal impairment)** is the strongest signal, at Evidence Level L2 and "Proceed with Guardrails".
+  - Support comes from a Phase 1 study (NCT01833754, n=24) and post hoc analyses of the FRAME and ARCH Phase 3 trials.
+  - It would need to be framed as osteoporosis treatment in patients with renal impairment, not treatment of kidney disease.
+  - Use should be restricted to mild-to-moderate impairment, with calcium and vitamin D monitoring and cardiovascular risk screening.
+- **Renal osteodystrophy** and **pregnancy-associated osteoporosis** are at L4 ("Research Question"). They are supported only by reviews and case reports.
+- The remaining predictions have no supporting evidence and should stay on Hold.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism-of-action data from DrugBank
-- Any direct clinical or mechanistic evidence for this indication, which is unlikely to exist
-
-**Note on other predictions:** Other candidates in the same pack have much stronger support and should be assessed separately. The best-supported are osteoporosis in renal impairment (L3: one Phase 1 study, NCT01833754, plus post hoc analyses) and pregnancy- and lactation-associated osteoporosis (L4, case reports only). Both are marked "Research Question" and carry open safety issues (hypocalcemia, cardiovascular risk, and use outside the labeled population).
+- Review of this prediction's relevance, or replacement with the better-supported renal impairment indication
+- Detailed mechanism of action data (MOA)
+- Package insert warnings and contraindications from the Health Sciences Authority (HSA), which are required before any safety screening
+- Approved indication text for the Singapore registration
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

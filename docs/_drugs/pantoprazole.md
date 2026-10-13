@@ -2,7 +2,7 @@
 layout: default
 title: Pantoprazole
 parent: Low Evidence (L5)
-nav_order: 753
+nav_order: 761
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,99 +29,91 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pantoprazole: From Gastric Acid Suppression to Active Peptic Ulcer Disease
+# Pantoprazole: From Peptic Ulcer Disease to Active Peptic Ulcer Disease
 
 ## One-Sentence Summary
 
-Pantoprazole is a proton pump inhibitor (PPI) that reduces stomach acid. The TxGNN model predicts it may be effective for **active peptic ulcer disease**. This prediction is supported by **3 registered clinical trials** and **19 publications**, including several randomized trials. Ulcer treatment is an established use of the drug class, so this is closer to confirming a known use than to discovering a new one.
-
----
+Pantoprazole is a proton pump inhibitor originally used for peptic ulcer disease, gastroesophageal reflux disease, esophagitis and Zollinger-Ellison syndrome.
+The TxGNN model predicts it for **active peptic ulcer disease**, which is essentially an on-label indication rather than true repurposing.
+Support comes from **1 completed Phase 3 trial specific to this indication** (plus several related ulcer trials) and **18 publications** in the data compiled for this report.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Peptic ulcer disease, gastroesophageal reflux disease, esophagitis, Zollinger-Ellison syndrome (the Singapore licence records contain no indication text) |
 | Predicted New Indication | Active peptic ulcer disease |
 | TxGNN Prediction Score | 99.69% |
-| Evidence Level | L2 by the rules applied to the trials listed here (the source scoring lists L1) |
+| Evidence Level | L2 (see note below) |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 14 |
 | Recommended Decision | Proceed with Guardrails |
 
-The record has no registered original-indication text, so that row is omitted. Only one completed Phase 3 randomized trial is listed for this indication, which gives L2 under the level rules. The source scoring assigned L1, probably counting the additional RCTs in the literature.
-
----
+*Evidence level note: the compiled data labels this prediction L1. Within the evidence listed for the top prediction, only one completed Phase 3 randomized trial (NCT02084420) appears, which by the rules in this report fits L2. The closely related duodenal ulcer prediction (rank 6) does reach L1, with several Phase 3 trials and double-blind randomized comparisons.*
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the record. The literature describes pantoprazole as an irreversible proton pump inhibitor. It accumulates in the acidic compartment of the stomach's parietal cells and is activated by acid there. It then binds the H+/K+-ATPase (the "proton pump"), which is the final step of acid secretion (PMIDs 8930575, 19938880).
+Detailed mechanism of action data is not available in the compiled data. Based on the literature retrieved, pantoprazole irreversibly inhibits the gastric H+/K+ ATPase (the "proton pump") in parietal cells. This blocks the final step of acid secretion. The drug accumulates in the acidic compartment of the parietal cell and must be acid-activated before it acts, which gives it selectivity.
 
-Ulcers in the stomach and duodenum are acid-dependent. Lowering acid lets the ulcer heal and helps prevent rebleeding after endoscopic treatment. Pantoprazole is also used in *H. pylori* eradication regimens, where ulcer healing is a key outcome. The mechanism therefore fits the predicted indication well.
-
----
+Peptic ulcers form when acid overwhelms the protective mucosal barrier. Reducing acid lets the ulcer heal. This directly matches pantoprazole's known uses in peptic ulcer disease and reflux disease. The prediction is therefore consistent with existing practice and is not a new therapeutic direction.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT02084420](https://clinicaltrials.gov/study/NCT02084420) | Phase 3 | Completed | 323 | Randomized, double-blind trial of ilaprazole vs pantoprazole in 7-day triple therapy for *H. pylori*-positive gastric/duodenal ulcer. Most direct evidence. |
-| [NCT02197039](https://clinicaltrials.gov/study/NCT02197039) | N/A | Completed | 316 | Risk factors for deciding who needs second-look endoscopy in bleeding peptic ulcers after endoscopic hemostasis and high-dose PPI infusion. Same clinical setting, but it does not test pantoprazole efficacy. |
-| [NCT00930670](https://clinicaltrials.gov/study/NCT00930670) | Phase 4 | Completed | 320 | Effect of PPIs and statins on clopidogrel's antiplatelet action after coronary stenting. This is a drug-interaction question, not ulcer treatment. |
+| [NCT02084420](https://clinicaltrials.gov/study/NCT02084420) | Phase 3 | Completed | 323 | Randomized, double-blind, active-controlled trial of ilaprazole vs pantoprazole triple therapy for 7 days in H. pylori-positive gastric/duodenal ulcer |
 
----
+Other pantoprazole ulcer trials were found under related predictions (for example duodenal and gastric ulcer): NCT02551744 (pantoprazole vs famotidine for ulcer recurrence prevention, n=101), NCT00843063 (famotidine vs pantoprazole for aspirin-related ulcers, n=161) and NCT00374101 (PPI doses in bleeding peptic ulcers, Phase 3, n=450).
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [18824852](https://pubmed.ncbi.nlm.nih.gov/18824852/) | 2008 | RCT | Digestion | Intermittent vs continuous pantoprazole infusion for preventing rebleeding after endoscopic therapy of peptic ulcer bleeding |
-| [16677158](https://pubmed.ncbi.nlm.nih.gov/16677158/) | 2006 | RCT (per title) | J Gastroenterol Hepatol | Pantoprazole infusion added to endoscopic treatment of ulcer bleeding, testing whether it improves outcome |
-| [10632647](https://pubmed.ncbi.nlm.nih.gov/10632647/) | 2000 | RCT | Aliment Pharmacol Ther | Pantoprazole and amoxicillin plus azithromycin or clarithromycin for *H. pylori* eradication in duodenal ulcer |
-| [11802510](https://pubmed.ncbi.nlm.nih.gov/11802510/) | 2001 | RCT (per title) | Wien Klin Wochenschr | Amoxicillin and clarithromycin with either sucralfate or pantoprazole for *H. pylori* eradication in duodenal ulcer |
-| [12752349](https://pubmed.ncbi.nlm.nih.gov/12752349/) | 2003 | Clinical trial (per title) | Aliment Pharmacol Ther | Three pantoprazole-based triple therapies compared for *H. pylori* eradication and gastric ulcer healing |
-| [22919877](https://pubmed.ncbi.nlm.nih.gov/22919877/) | 2012 | Clinical study | Med Arch | PPI efficacy after endoscopic hemostasis in bleeding peptic ulcer. The authors note controlled pantoprazole data are few. |
-| [38345252](https://pubmed.ncbi.nlm.nih.gov/38345252/) | 2024 | Systematic review / network meta-analysis | Am J Gastroenterol | P-CAB vs PPI for severe (grade C/D) esophagitis. Related acid disease, not ulcer. |
-| [19938880](https://pubmed.ncbi.nlm.nih.gov/19938880/) | 2009 | Review | Clin Drug Investig | Pantoprazole irreversibly inhibits the proton pump. No drug-drug interactions were identified in numerous interaction studies. |
-| [8930575](https://pubmed.ncbi.nlm.nih.gov/8930575/) | 1996 | Pharmacology study | Eur J Gastroenterol Hepatol | Describes the acid-activated, selective mechanism of pantoprazole at the parietal cell |
-| [38652367](https://pubmed.ncbi.nlm.nih.gov/38652367/) | 2024 | Preclinical (rat) | Inflammopharmacology | Pantoprazole plus mesenchymal stem cells in experimental gastric ulcer in rats |
-
----
+| [38345252](https://pubmed.ncbi.nlm.nih.gov/38345252/) | 2024 | Systematic review / network meta-analysis | Am J Gastroenterol | P-CAB vs PPI for healing severe (grade C/D) esophagitis |
+| [38384180](https://pubmed.ncbi.nlm.nih.gov/38384180/) | 2024 | RCT | Gut Liver | Tegoprazan vs active control for endoscopic resection-induced ulcers |
+| [19938880](https://pubmed.ncbi.nlm.nih.gov/19938880/) | 2009 | Review | Clin Drug Investig | Pantoprazole irreversibly binds the proton pump; no drug interactions identified in numerous studies |
+| [21534455](https://pubmed.ncbi.nlm.nih.gov/21534455/) | 2011 | Review | Med Arh | PPIs in the management of GERD |
+| [10450061](https://pubmed.ncbi.nlm.nih.gov/10450061/) | 1999 | Review | Pharmacology | PPIs show similar dose-response relationships at equal milligram doses |
+| [10638560](https://pubmed.ncbi.nlm.nih.gov/10638560/) | 2000 | Clinical trial | Am J Gastroenterol | Pantoprazole vs ranitidine in duodenal ulcer, Brazilian multicenter study |
+| [15244210](https://pubmed.ncbi.nlm.nih.gov/15244210/) | 2003 | Comparative study | Hepatogastroenterology | Lansoprazole vs pantoprazole in active duodenal ulcer and H. pylori eradication |
+| [38652367](https://pubmed.ncbi.nlm.nih.gov/38652367/) | 2024 | Preclinical | Inflammopharmacology | Pantoprazole plus stem cells in experimental gastric ulcer in rats |
 
 ## Singapore Market Information
 
-Approved-indication text is not recorded for these licenses. Five of the 14 registrations are shown.
-
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN15041P | PANTIN 40 Pantoprazole Gastro-Resistant Tablets 40 mg | Enteric-coated tablet | Hetero Labs Limited |
-| SIN14775P | Pantoprazole Sandoz Gastro-Resistant Tablets 40 mg | Enteric-coated tablet | Genveon Ilac / Sandoz Grup / Lek S.A. |
-| SIN14467P | PANTONEX DR-40 Tablet 40 mg | Delayed-release tablet | Ipca Laboratories Limited |
-| SIN11165P | CONTROLOC IV Injection 40 mg/vial | Injection | Takeda GmbH / Wasserburger Arzneimittelwerk GmbH |
-| SIN15863P | PANTOTAB Gastro-Resistant Tablets 40 mg | Enteric-coated tablet | Micro Labs Limited |
+| SIN08843P | Controloc Tablet 40 mg | Enteric coated tablet | Not stated in the licence record |
+| SIN11170P | Controloc Tablet 20 mg | Enteric coated tablet | Not stated in the licence record |
+| SIN11165P | Controloc IV Injection 40 mg/vial | Injection | Not stated in the licence record |
+| SIN14775P | Pantoprazole Sandoz Gastro Resistant Tablets 40 mg | Enteric coated tablet | Not stated in the licence record |
+| SIN16905P | Pantoprazole-AFT Powder for Injection 40 mg/vial | Lyophilized powder for injection | Not stated in the licence record |
 
-Both oral and injectable forms are registered. This matters for ulcer bleeding, where intravenous use is common.
-
----
+A total of 14 valid single-ingredient licences exist, covering oral enteric-coated or delayed-release tablets (20 mg and 40 mg) and intravenous injection.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease associations from the knowledge graph (not label text)**: osteoporosis, postmenopausal osteoporosis, bone fracture and pernicious anemia are flagged. Bone health and vitamin B12 status deserve attention in long-term use.
+- **Drug Interactions**: 100 interactions were found in total. Major-level interactions in the sample reviewed include **acalabrutinib** and **atazanavir**. Moderate interactions include hydrochlorothiazide, atorvastatin, bosutinib, fenofibrate, amphotericin B, amikacin, alpelisib, apalutamide, amphetamine and bumetanide.
 
----
+Please refer to the package insert for full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Acid suppression for ulcer healing is well established, and pantoprazole has a completed Phase 3 randomized trial, several RCTs in the literature, and 14 Singapore registrations in oral and IV forms. The remaining gaps are about documentation and safety review rather than efficacy.
+Pantoprazole is already marketed in Singapore with 14 licences, and active peptic ulcer disease is essentially an on-label use. Phase 3 evidence and double-blind comparisons support acid suppression for ulcer healing.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from HSA, which is a blocking gap for safety screening.
-- Registered indication text for the Singapore licenses, to confirm the ulcer indication is already on-label.
-- Mechanism of action data from DrugBank.
-- Review of the PPI-clopidogrel interaction question (NCT00930670) for patients on dual antiplatelet therapy.
-- Removal of trials that do not test pantoprazole in ulcers from the evidence set.
+- Package insert warnings and contraindications, including the indication text for each Singapore licence (currently missing)
+- Detailed mechanism of action data
+- A long-term monitoring plan for bone health and vitamin B12 status
+- Review of major interactions (acalabrutinib, atazanavir) before co-prescribing
+
+**Other predictions in the data (for reference):**
+- Duodenal ulcer and gastric ulcer: on-label, L1, Proceed with Guardrails.
+- Peptic ulcer perforation, gastrojejunal ulcer and duodenogastric reflux: only indirect or limited evidence, so research questions at most.
+- Duodenal obstruction, acne, smouldering systemic mastocytosis and lymphoadenopathic mastocytosis with eosinophilia: model prediction only, with no supporting evidence, so Hold.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

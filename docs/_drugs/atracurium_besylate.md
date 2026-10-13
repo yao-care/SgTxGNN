@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Atracurium Besylate
-parent: Medium Evidence (L3-L4)
+parent: Low Evidence (L5)
 nav_order: 121
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 ---
 
 # Atracurium Besylate
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,33 +29,46 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Atracurium Besylate: From Neuromuscular Blockade in Anaesthesia to Preeclampsia
+# Atracurium Besylate: From Neuromuscular Blockade to Preeclampsia
 
 ## One-Sentence Summary
 
-Atracurium besylate is a non-depolarizing neuromuscular blocker, used as an adjunct in anaesthesia.
-The TxGNN model predicts it may be effective for **preeclampsia**, but there are **0 clinical trials** and only **4 publications**, none of which tests it as a treatment for the disease.
-The high score most likely reflects the drug appearing alongside preeclampsia in anaesthesia literature, not a therapeutic effect.
+Atracurium besylate is a non-depolarizing neuromuscular blocker, used as an adjunct in anaesthesia. The TxGNN model predicts it may be effective for **preeclampsia**, but **no clinical trials and no publications** in the data compiled for this report support this prediction. It rests on a graph-based model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration data. Used as a neuromuscular blocker in anaesthesia |
+| Original Indication | Not stated in the Singapore licence records (the mechanism points to use as a neuromuscular blocker in anaesthesia) |
 | Predicted New Indication | Preeclampsia |
 | TxGNN Prediction Score | 99.97% |
-| Evidence Level | L4 |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Atracurium is a short-acting intravenous neuromuscular blocker that acts at skeletal muscle nicotinic receptors. Nothing in this mechanism addresses the pathophysiology of preeclampsia, a pregnancy-related hypertensive disorder.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Atracurium is known to be a non-depolarizing neuromuscular blocker that acts at nicotinic acetylcholine receptors at the motor endplate. This is the basis of its use for muscle relaxation during surgery and ventilation.
 
-The literature links the two only through anaesthesia care. Atracurium has been used in preeclamptic patients who need general anaesthesia, for example for caesarean section. Studies cover dosing, its pharmacokinetics in pregnancy and interactions with magnesium. They do not show that atracurium treats the disease.
+There is no established link between this mechanism and preeclampsia. Preeclampsia involves placental dysfunction, endothelial injury and angiogenic imbalance, none of which atracurium targets. The standard agent for seizure prevention in preeclampsia is magnesium sulfate, not atracurium. The high score is most likely a pattern in the knowledge graph rather than a pharmacological signal.
 
-I therefore judge the prediction to be a likely artefact of co-occurrence in the knowledge graph, not a plausible repurposing lead. The same applies to the subtypes "severe pre-eclampsia" and "mild pre-eclampsia" (rank 8 and 9), which have no direct evidence.
+The other top-ranked predictions show the same weakness. The ten highest-scoring predictions each have no supporting trials or literature:
+
+| Rank | Predicted Disease | Score | Assessment |
+|------|------|------|------|
+| 1 | Preeclampsia | 99.97% | No mechanistic link |
+| 2 | Cauda equina syndrome | 99.95% | Surgical compressive emergency; no direct mechanism |
+| 3 | Blepharospasm | 99.92% | Conceptually plausible, but atracurium is systemic and short-acting; botulinum toxin is the established treatment |
+| 4 | Migraine disorder | 99.91% | No link to trigeminovascular or CGRP pathways |
+| 5 | Obsolete neurogenic bladder | 99.91% | Ontology term is obsolete, which lowers interpretability |
+| 6 | Thrombotic disease | 99.89% | No antithrombotic activity |
+| 7 | Migraine with brainstem aura | 99.88% | Same as migraine disorder |
+| 8 | Severe pre-eclampsia | 99.86% | Same as preeclampsia |
+| 9 | Mild pre-eclampsia | 99.86% | Same as preeclampsia |
+| 10 | Irritable bowel syndrome | 99.84% | Acts on skeletal, not smooth, muscle |
+
+Of these, blepharospasm is the only one with a conceptually plausible link, through reduced involuntary muscle contraction.
 
 ## Clinical Trial Evidence
 
@@ -63,37 +76,36 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|---------|---------|
-| [9646009](https://pubmed.ncbi.nlm.nih.gov/9646009/) | 1998 | Review | Clin Pharmacokinet | Volume of distribution and clearance of atracurium appear unchanged in pregnancy. Its elimination does not depend on renal, hepatic or enzymatic function |
-| [3778800](https://pubmed.ncbi.nlm.nih.gov/3778800/) | 1986 | Case series | Br J Anaesth | Reports use of atracurium in pre-eclamptic patients as an anaesthetic agent. The abstract is not available |
-| [18383970](https://pubmed.ncbi.nlm.nih.gov/18383970/) | 2008 | Case series | Rev Esp Anestesiol Reanim | Remifentanil bolus for haemodynamic control during caesarean section in 12 high-risk patients. Atracurium is not the focus |
-| [41103680](https://pubmed.ncbi.nlm.nih.gov/41103680/) | 2025 | Cohort | Anesth Pain Med | Compares inflammatory markers after caesarean section under general versus spinal anaesthesia. Not a test of atracurium for preeclampsia |
-
-None of these publications evaluates atracurium as a treatment for preeclampsia.
+Currently no related literature available.
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN06058P | TRACRIUM INJECTION 10 mg/ml | Injection | Not stated in registration data |
-| SIN14836P | ATRACURIUM LABATEC IV SOLUTION FOR INJECTION 10MG/ML | Injection, solution | Not stated in registration data |
+| SIN06058P | TRACRIUM INJECTION 10 mg/ml | Injection | Not stated in the licence record |
+| SIN14836P | ATRACURIUM LABATEC IV SOLUTION FOR INJECTION 10MG/ML | Injection, solution | Not stated in the licence record |
+
+Both are valid single-ingredient licences and both are injectable products.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Histamine release and hypotension**: Atracurium can release histamine, which may cause hypotension. This is a concern in a pregnant population with hypertensive disease.
+- **Interaction with magnesium sulfate**: Magnesium sulfate potentiates neuromuscular blockade. In obstetric anaesthesia, such as caesarean section under general anaesthesia, this is a safety consideration.
+
+Please refer to the package insert for further safety information, including formal warnings and contraindications. No drug interaction records were found in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical trials and no therapeutic rationale, and the retrieved literature covers only anaesthesia use in preeclamptic patients. All nine other predicted indications are also model-only (rank 2 to 10), and the rank 6 thrombotic disease trial is unrelated.
+The prediction has no clinical trials, no literature and no mechanistic basis. Its Evidence Level is L5, so it rests on model output only. In preeclampsia there is also a safety concern from histamine-related hypotension and potentiation by magnesium sulfate.
 
 **To proceed, the following is needed:**
-- Mechanism of action data from DrugBank, to confirm there is no plausible link
-- The HSA package insert, for approved indications, warnings and contraindications
-- Any direct evidence that atracurium treats preeclampsia. Without it, this candidate should not advance to safety screening
+- The package insert from the Health Sciences Authority (HSA), covering warnings, contraindications and approved indications. This is a blocking gap for safety screening.
+- Mechanism of action data from DrugBank.
+- Any preclinical or clinical evidence linking atracurium to the predicted disease. If the evaluation is redirected, blepharospasm is the only candidate with a plausible mechanism, but it would need to be compared against botulinum toxin.
+- Route and formulation compatibility assessment for the predicted indication.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

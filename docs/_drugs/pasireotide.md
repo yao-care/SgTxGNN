@@ -2,7 +2,7 @@
 layout: default
 title: Pasireotide
 parent: Low Evidence (L5)
-nav_order: 758
+nav_order: 766
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,30 +29,33 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pasireotide: From Somatostatin Analog Therapy to Nephrogenic Syndrome of Inappropriate Antidiuresis
+# Pasireotide: From Cushing Syndrome to Nephrogenic Syndrome of Inappropriate Antidiuresis
 
 ## One-Sentence Summary
 
-Pasireotide is a multi-receptor somatostatin analog (SSTR1/2/3/5) that is marketed in Singapore as an injectable long-acting formulation. The original approved indication is not recorded in the Singapore registration data.
-The TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**.
-No clinical trials or publications currently support this direction, so it is a model-only hypothesis.
+Pasireotide is a somatostatin analogue originally used to treat Cushing syndrome (adrenal gland hyperfunction).
+The TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**,
+but **no clinical trials and no publications** currently support this prediction. It is a computational prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis (NSIAD) |
+| Original Indication | Adrenal gland hyperfunction; Cushing syndrome (the Singapore licence records contain no approved indication text) |
+| Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 96.12% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data for pasireotide is not available in the Evidence Pack. Pasireotide is known to bind several somatostatin receptor subtypes (SSTR1, 2, 3 and 5). Somatostatin signalling can blunt vasopressin-stimulated cAMP in the kidney collecting duct. That gives a biologically plausible link to a disorder of water handling.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, pasireotide is a multi-receptor somatostatin analogue (acting on SSTR1, 2, 3 and 5). It suppresses ACTH, growth hormone and IGF-1, which is why it works in Cushing syndrome.
 
-The link is unproven and has an important weakness. NSIAD is caused by gain-of-function variants in the vasopressin V2 receptor (AVPR2) that activate the receptor without vasopressin. A somatostatin analog acts upstream of, or alongside, vasopressin signalling. It may therefore not affect this constitutively active receptor. The high score most likely reflects network proximity in the knowledge graph rather than demonstrated biology.
+NSIAD is caused by gain-of-function variants in the vasopressin V2 receptor (AVPR2), which leads to inappropriate water retention. A link between somatostatin receptor agonism and water balance could only be indirect, for example through modulation of vasopressin or cAMP signalling. No direct mechanism has been established.
+
+The high score (96.12%) should therefore be treated as a hypothesis from network proximity in the knowledge graph, not as biological confirmation. The other nine predictions in the ranking (for example Ambras-type hypertrichosis, hyperargininemia and tinea nigra) also have no supporting evidence and no credible mechanism.
 
 ## Clinical Trial Evidence
 
@@ -64,32 +67,38 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN15168P | SIGNIFOR LAR Powder and Solvent for Suspension for Injection 20 mg | Injection, powder, for suspension |
-| SIN15169P | SIGNIFOR LAR Powder and Solvent for Suspension for Injection 40 mg | Injection, powder, for suspension |
-| SIN15170P | SIGNIFOR LAR Powder and Solvent for Suspension for Injection 60 mg | Injection, powder, for suspension |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN15168P | SIGNIFOR LAR 20 mg powder and solvent for suspension for injection | Injection, powder, for suspension | Not stated in licence records |
+| SIN15169P | SIGNIFOR LAR 40 mg powder and solvent for suspension for injection | Injection, powder, for suspension | Not stated in licence records |
+| SIN15170P | SIGNIFOR LAR 60 mg powder and solvent for suspension for injection | Injection, powder, for suspension | Not stated in licence records |
 
-All three registrations are injectable, and the registration records do not include approved indication text.
+All three licences are valid single-ingredient products, and none has been cancelled. Pasireotide is available only as an injectable in Singapore.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found for this drug.
+- **Drug Interactions**: 100 interactions were identified. Those listed below are the **Major** ones among the 20 interactions reviewed for this report:
+  - Clarithromycin
+  - Dolasetron
+  - Palonosetron
+
+  Most of the other interactions reviewed are Moderate. They include antidiabetic agents (acarbose, metformin, pioglitazone, alogliptin, saxagliptin, linagliptin, canagliflozin, dapagliflozin, empagliflozin, chlorpropamide, albiglutide, dulaglutide), laxatives (bisacodyl, picosulfuric acid, polyethylene glycol), loperamide and famotidine. Co-administration with antidiabetic drugs needs attention because pasireotide can affect glucose control.
+
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has a high model score but no supporting trials or literature (L5). The proposed mechanism is doubtful, because NSIAD stems from constitutively active AVPR2 variants. The other nine predicted indications, including hair and urea cycle disorders, are also L5 with no clinical support. The periodontal literature attached to the third-ranked prediction concerns the disease topic, not pasireotide.
+The prediction is supported only by a model score. There are no clinical trials or publications, and no plausible mechanism links somatostatin receptor agonism to NSIAD, which is driven by AVPR2 gain-of-function. Because the evidence level is L5, the project should not advance.
 
 **To proceed, the following is needed:**
-- The Singapore package insert (warnings, contraindications and approved indications) for safety screening
-- Mechanism-of-action data for pasireotide from DrugBank
-- Preclinical evidence that somatostatin-receptor agonism affects cAMP signalling from constitutively active AVPR2 variants
-- A literature search for case reports or mechanistic studies of somatostatin analogs in NSIAD or related water-balance disorders
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
+- Detailed mechanism of action data for pasireotide, and an analysis of any link to vasopressin or cAMP signalling
+- Preclinical or case-level evidence for NSIAD (for example, in vitro AVPR2 gain-of-function models)
+- Approved indication text, warnings and contraindications from the HSA package inserts
+- Review of route and formulation compatibility (only a long-acting injectable is registered in Singapore)
+- A safety assessment covering hyperglycaemia, hepatic effects and the major drug interactions listed above
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

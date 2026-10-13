@@ -2,7 +2,7 @@
 layout: default
 title: Bortezomib
 parent: Low Evidence (L5)
-nav_order: 167
+nav_order: 168
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,20 +29,21 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Bortezomib: From Multiple Myeloma to Vertebral Anomalies and Variable Endocrine and T-Cell Dysfunction
+# Bortezomib: From Plasma Cell Myeloma to Vertebral Anomalies and Variable Endocrine and T-Cell Dysfunction
 
 ## One-Sentence Summary
 
-Bortezomib is a proteasome inhibitor used in blood cancers such as multiple myeloma and mantle cell lymphoma. The HSA licence records supplied do not state its approved indication.
-The TxGNN model predicts it may be effective for **vertebral anomalies and variable endocrine and T-cell dysfunction**, but this is a **model prediction only**, with **0 clinical trials** and **0 publications** supporting it.
+Bortezomib is a proteasome inhibitor originally used to treat blood cancers: plasma cell myeloma, mantle cell lymphoma, B-cell neoplasm and lymphosarcoma.
+The TxGNN model predicts it may be effective for **vertebral anomalies and variable endocrine and T-cell dysfunction**, a rare congenital syndrome.
+This is a prediction only, with **0 clinical trials** and **0 publications** currently supporting it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Multiple myeloma (taken from the literature in the pack; the HSA indication text is blank) |
+| Original Indication | Plasma cell myeloma, mantle cell lymphoma, B-cell neoplasm, lymphosarcoma |
 | Predicted New Indication | Vertebral anomalies and variable endocrine and T-cell dysfunction |
-| TxGNN Prediction Score | 96.10% |
+| TxGNN Prediction Score | 96.1% |
 | Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 12 |
@@ -50,9 +51,9 @@ The TxGNN model predicts it may be effective for **vertebral anomalies and varia
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the supplied record. Based on the literature in the pack, bortezomib is a first-in-class proteasome inhibitor. Its efficacy in multiple myeloma and mantle cell lymphoma is established, and it works mainly by blocking NF-kB signalling and inducing endoplasmic reticulum stress and apoptosis in malignant cells.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Bortezomib belongs to the proteasome inhibitor class. Its efficacy in blood cancers is established, and these cancers depend heavily on protein-degradation pathways.
 
-The predicted condition is a rare syndrome involving skeletal, endocrine and T-cell abnormalities. It is not a cancer, so it has no obvious biological link to the drug's antitumour mechanism. The model score is high (96.10%), but no trials or publications were retrieved, and no mechanistic rationale can be drawn from the supplied data. The prediction should be treated as a hypothesis-generating signal only.
+The predicted condition is a rare congenital syndrome combining skeletal, endocrine and T-cell abnormalities. It is not a cancer, and no plausible link between proteasome inhibition and this condition can be drawn from the available data. The high score reflects a pattern in the knowledge graph, not a known biological or clinical connection. Treat it as a hypothesis-generating signal only.
 
 ## Clinical Trial Evidence
 
@@ -64,50 +65,60 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-There are 12 registrations in total. Five are listed below.
+Twelve single-ingredient registrations are valid, and none has been cancelled. All are injectable powders for solution (3.5 mg/vial). Approved indication text was not provided for any of them. The five main authorizations are listed below.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16586P | BORTEZOMIB-AFT Powder for Solution for Injection 3.5mg/vial | Injection, powder, for solution | Not listed |
-| SIN15243P | BORACTIB Powder for Solution for Injection 3.5mg/vial | Injection, powder, lyophilized, for solution | Not listed |
-| SIN16421P | VELTEZOM Powder for Solution for Injection 3.5mg | Injection, powder, lyophilized, for solution | Not listed |
-| SIN16409P | BORTEBIN Powder for Solution for Injection 3.5mg/vial | Injection, powder, lyophilized, for solution | Not listed |
-| SIN16892P | MIBZO Powder for Solution for Injection 3.5mg/vial | Injection, powder, for solution | Not listed |
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN13064P | Velcade 3.5 mg for Injection (BSP Pharmaceuticals) | Injection, powder, for solution |
+| SIN15900P | Pfizer Bortezomib Powder for Injection 3.5 mg (Gland Pharma) | Injection, powder, for solution |
+| SIN15594P | Bortesun Powder for Solution for Injection 3.5 mg/vial (Sun Pharmaceutical) | Injection, powder, lyophilized, for solution |
+| SIN16732P | Bortezomib-Teva Powder for Solution for Injection 3.5 mg/vial | Injection, powder, lyophilized, for solution |
+| SIN16472P | Bortezomib Kabi Powder for Solution for Injection 3.5 mg/vial (Fresenius Kabi Oncology) | Injection, powder, lyophilized, for solution |
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Targeted therapy (proteasome inhibitor) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| Myelosuppression Risk | Medium (thrombocytopenia and neutropenia are flagged as concerns in the knowledge graph) |
+| Emetogenicity Classification | Low |
+| Monitoring Items | CBC with platelets and differential, liver and renal function, peripheral neuropathy assessment |
+| Handling Protection | Follow cytotoxic drug handling regulations |
+
+Please also refer to the package insert warnings and precautions.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindication signals (knowledge graph, not label text)**:
+  - Blood and liver: thrombocytopenia, neutropenia, agranulocytosis, liver disease, gallbladder disease.
+  - Nerve and blood pressure: peripheral neuropathy and peripheral nervous system disease, orthostatic hypotension, hypotensive disorder, multiple system atrophy, postural orthostatic tachycardia syndrome.
+  - Heart and lung: long QT syndrome, cardiovascular and heart disease, pulmonary hypertension, interstitial lung disease, pneumonia, acute respiratory distress syndromes.
+  - Gut and metabolic: ileus, intestinal obstruction, diabetes mellitus, diabetic ketoacidosis.
+  - Brain: posterior leukoencephalopathy syndrome.
+- **Drug Interactions**: 100 interactions were found, mostly Moderate.
+  - Antidiabetic agents are the largest group, including metformin, pioglitazone, acarbose, alogliptin, canagliflozin, dapagliflozin, empagliflozin, exenatide and dulaglutide. Glucose monitoring is advisable.
+  - Other moderate interactions include aprepitant, clarithromycin, metronidazole, clotrimazole and ascorbic acid.
+  - Dexamethasone and esomeprazole are Minor.
+
+Label-based warnings and contraindications were not available. Please refer to the package insert for the authoritative safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This candidate is supported only by the model score (L5). There are no trials, no publications and no plausible mechanistic link to a non-malignant syndrome. The HSA package insert is also missing, so safety screening cannot start.
+The prediction rests only on a model score, with no trials, no literature and no plausible mechanism for this rare congenital syndrome. A cytotoxic-class drug with notable haematological and neurological risks is hard to justify for a non-cancer syndrome without supporting evidence.
+
+Other predicted indications for bortezomib in the same dataset have stronger support and merit prioritisation instead:
+- **Neuroblastoma**: three completed Phase 1 or 1/2 trials plus extensive preclinical data.
+- **Hodgkin lymphoma**: Phase 2 trials.
+- **Myeloid leukaemia**: Phase 2 trials.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications (a blocking gap)
-- Drug mechanism-of-action data from DrugBank
-- Any mechanistic or clinical evidence linking proteasome inhibition to this syndrome
-
-**Other candidates for this drug**
-
-The pack contains lower-ranked predictions with more evidence. They are outside this report's primary indication but may be worth evaluating separately:
-- **Neuroblastoma** (score 95.11%, L2): several completed Phase 1 and Phase 1/2 paediatric trials plus extensive preclinical work.
-- **Hodgkin's lymphoma** (score 85.09%, L2): a randomized Phase 2 (BICE vs ICE) and other Phase 2 studies.
-- **Non-Hodgkin lymphoma, familial** (score 83.59%, L1): Phase 3 support comes from mantle cell lymphoma (VR-CAP), which is already an approved use. That support is not a repurposing finding, and the mapped term does not match the evidence.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Detailed mechanism of action data and a biological rationale linking proteasome inhibition to this syndrome
+- Any preclinical or case-level evidence in this condition
+- Package insert warnings and contraindications from the HSA
+- A risk-benefit assessment for a non-oncology, likely paediatric population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Revefenacin
-parent: High Evidence (L1-L2)
-nav_order: 854
-evidence_level: L2
+parent: Low Evidence (L5)
+nav_order: 863
+evidence_level: L5
 indication_count: 10
 ---
 
 # Revefenacin
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,12 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Revefenacin: From COPD Maintenance Therapy to Bronchitis
+# Revefenacin: From Chronic Obstructive Pulmonary Disease to Bronchitis
 
 ## One-Sentence Summary
 
-Revefenacin is a once-daily nebulized long-acting muscarinic antagonist (LAMA), used for maintenance treatment of chronic obstructive pulmonary disease (COPD).
-The TxGNN model predicts it may be effective for **Bronchitis**, but only **1 clinical trial** is linked to this term (a Phase 2 study in COPD patients, not bronchitis patients) and **no publications**.
-The evidence supports the COPD-associated (chronic bronchitis) form only. The strongest evidence in this pack sits under "obstructive lung disease", which is the drug's existing use rather than a true repurposing.
+Revefenacin is a once-daily nebulized long-acting muscarinic antagonist (LAMA), originally used for maintenance treatment of chronic obstructive pulmonary disease (COPD).
+The TxGNN model predicts it may be effective for **bronchitis**, but only **1 clinical trial** is linked to this prediction. That trial was run in COPD patients, not a bronchitis-specific population, and **no publications** are linked to it.
 
 ---
 
@@ -43,10 +42,10 @@ The evidence supports the COPD-associated (chronic bronchitis) form only. The st
 
 | Item | Content |
 |------|------|
-| Original Indication | COPD maintenance treatment (from published literature; the HSA record contains no indication text) |
+| Original Indication | Chronic obstructive pulmonary disease (COPD) |
 | Predicted New Indication | Bronchitis |
 | TxGNN Prediction Score | 99.61% |
-| Evidence Level | L2 |
+| Evidence Level | L3 (as scored; the supporting evidence is indirect, see below) |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
@@ -55,11 +54,11 @@ The evidence supports the COPD-associated (chronic bronchitis) form only. The st
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the record. Based on known information, revefenacin is a lung-selective LAMA. It blocks muscarinic M3 receptors on airway smooth muscle, which relaxes the airway and produces bronchodilation. Its efficacy in COPD is well established.
+Revefenacin is a lung-selective LAMA. By blocking M3 muscarinic receptors, it reduces cholinergic bronchoconstriction and mucus secretion. Both are plausibly relevant to chronic bronchitis.
 
-Chronic bronchitis is a clinical phenotype within COPD, so LAMA-mediated bronchodilation is mechanistically plausible there. Acute bronchitis is mostly infectious and self-limiting, and there is no rationale for a LAMA in that setting.
+Chronic bronchitis and COPD overlap clinically, and chronic bronchitis is one of the main COPD phenotypes. The high TxGNN score (0.996) most likely reflects this overlap in the knowledge graph rather than independent evidence for bronchitis. The one linked trial (NCT01704404) enrolled COPD patients, so it does not show efficacy in a bronchitis-specific population.
 
-"Bronchitis" is therefore an ambiguous term. The prediction is reasonable only for the COPD-associated form. The linked trial enrolled COPD patients, not a bronchitis-specific population.
+Detailed mechanism-of-action data from DrugBank is currently unavailable. The mechanistic reasoning above is therefore based on the drug's known pharmacological class.
 
 ---
 
@@ -67,15 +66,13 @@ Chronic bronchitis is a clinical phenotype within COPD, so LAMA-mediated broncho
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01704404](https://clinicaltrials.gov/study/NCT01704404) | Phase 2 | Completed | 62 | 7-day multiple-dose study characterizing the dose response of revefenacin (TD-4208) in COPD patients. No results summary is provided. |
-
-This is a single small Phase 2 trial. The enrolled population is COPD, not bronchitis specifically.
+| [NCT01704404](https://clinicaltrials.gov/study/NCT01704404) | Phase 2 | Completed | 62 | 7-day multiple-dose study of TD-4208 (revefenacin) characterizing dose response, safety and pharmacokinetics in COPD. It is a dose-finding study that does not target bronchitis specifically, so it gives only indirect support. |
 
 ---
 
 ## Literature Evidence
 
-Currently no related literature available for this predicted indication.
+Currently no related literature available for bronchitis.
 
 ---
 
@@ -83,15 +80,22 @@ Currently no related literature available for this predicted indication.
 
 | Authorization Number | Product Name | Dosage Form |
 |---------|------|------|
-| SIN16336P | YUPELRI® Inhalation Solution 175mcg/3mL | Solution |
+| SIN16336P | YUPELRI® Inhalation Solution 175mcg/3ml (The Ritedose Corporation) | Solution |
 
-The manufacturer is The Ritedose Corporation (TRC).
+The registration is a valid single-ingredient product. No approved indication text is recorded for it in the data compiled for this report.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: The interaction screen returned 100 interactions in total. The 20 reviewed were all rated Moderate. Most are other anticholinergic or antimuscarinic agents, where additive anticholinergic effects would be expected:
+  - Atropine, hyoscyamine, scopolamine
+  - Glycopyrronium (including topical), trospium
+  - Clidinium, dicyclomine, mepenzolate
+  - Methscopolamine, propantheline
+  - Other moderate-level interactions include promethazine, cobicistat, eluxadoline, obeticholic acid, prucalopride, eltrombopag, artesunate and abiraterone.
+
+Please refer to the package insert for warnings and contraindications.
 
 ---
 
@@ -100,14 +104,13 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-For bronchitis as a standalone indication, the evidence is weak. There is one small Phase 2 trial in a COPD population, no literature, and a mechanistic rationale limited to chronic bronchitis within COPD. The model's other, stronger prediction, "obstructive lung disease", is backed by multiple completed Phase 3 trials. However, it appears to be the drug's labeled COPD use, so it should not be presented as a novel repurposing candidate.
+The bronchitis prediction rests on one early-phase trial in COPD patients, with no bronchitis-specific trials or publications. The high model score most likely reflects the overlap between chronic bronchitis and COPD. Revefenacin's strong evidence is for COPD, which is already its approved use.
 
 **To proceed, the following is needed:**
-- Confirm the approved indication against the HSA label, since the registry record has no indication text
-- Clarify whether "bronchitis" means chronic bronchitis within COPD or acute bronchitis
-- Trials or studies in a bronchitis-specific population, if a distinct indication is pursued
-- Mechanism of action data from DrugBank
-- HSA package insert warnings and contraindications, which are needed before any safety screening
+- Bronchitis-specific clinical or observational data, for example a trial in a chronic bronchitis phenotype
+- Package insert warnings and contraindications from the HSA record, to enable safety screening
+- Detailed mechanism-of-action data (MOA)
+- Confirmation of the approved indication wording for the Singapore registration (SIN16336P)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

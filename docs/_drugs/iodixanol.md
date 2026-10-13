@@ -2,7 +2,7 @@
 layout: default
 title: Iodixanol
 parent: Low Evidence (L5)
-nav_order: 538
+nav_order: 542
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,18 +29,18 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Iodixanol: From Diagnostic Imaging (Iodinated Contrast Agent) to Osteoarthritis Susceptibility
+# Iodixanol: From Radiographic Contrast Imaging to Osteoarthritis Susceptibility
 
 ## One-Sentence Summary
 
-Iodixanol is an iso-osmolar iodinated contrast agent, marketed in Singapore as Visipaque injection.
-The TxGNN model predicts it may be relevant to **osteoarthritis susceptibility**, but currently there are **0 clinical trials** and **0 publications** supporting this specific prediction, so it rests on the model score alone.
+Iodixanol is an iodinated, iso-osmolar radiographic contrast agent, marketed in Singapore as Visipaque injection.
+The TxGNN model predicts it may be relevant to **osteoarthritis susceptibility** (and to osteoarthritis itself), but **no clinical trials** and **no therapeutic publications** support this. The 5 osteoarthritis-related publications describe iodixanol only as an imaging tool.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the HSA registration records (iodinated contrast agent for diagnostic imaging) |
+| Original Indication | Not available (the registered indication text is blank in the Singapore licences; the drug is a radiographic contrast agent) |
 | Predicted New Indication | Osteoarthritis susceptibility |
 | TxGNN Prediction Score | 99.16% |
 | Evidence Level | L5 |
@@ -50,11 +50,11 @@ The TxGNN model predicts it may be relevant to **osteoarthritis susceptibility**
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Iodixanol is an iodinated contrast agent used to visualise tissues on X-ray and CT imaging. It is not known to act on any disease-modifying or genetic-susceptibility pathway.
+Currently, detailed mechanism of action data is not available. Iodixanol is an iodinated, iso-osmolar contrast agent that attenuates X-rays to enhance imaging. It has no known pharmacological action on the genetic susceptibility to osteoarthritis.
 
-The link to osteoarthritis susceptibility is therefore weak. The high score (99.16%) most likely reflects proximity in the knowledge graph rather than a therapeutic signal. Nothing in the evidence supports a mechanism by which the drug would treat or prevent this condition.
+The high TxGNN score is a graph-based prediction only. For osteoarthritis (rank 2, score 99.07%), the retrieved publications cover contrast-enhanced CT of cartilage, solute diffusion across the osteochondral interface, and compatibility with platelet-rich plasma. They show that iodixanol is used to *visualise* cartilage, not to treat disease. The link most likely reflects co-occurrence of the drug and the disease in the imaging literature.
 
-Other predictions for this drug show the same pattern. Its literature for **osteoarthritis** (rank 2) describes iodixanol as an imaging or tracer probe for cartilage, in CT arthrography and solute-transport studies. None of those papers tests a treatment effect. If this drug is relevant to osteoarthritis, the relevance is diagnostic rather than therapeutic.
+The other top predictions (rheumatoid arthritis, hemoglobinopathy, brachyolmia, Hunter-Thompson acromesomelic dysplasia, pseudoachondroplasia and other rare skeletal syndromes) have no plausible mechanism and no clinical evidence. Their scores likely reflect proximity to cartilage and skeletal disorders in the knowledge graph.
 
 ## Clinical Trial Evidence
 
@@ -62,35 +62,53 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+No literature exists for the top-ranked prediction (osteoarthritis susceptibility). The table below lists publications for the related prediction, osteoarthritis. None of them demonstrates a therapeutic effect.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [39012563](https://pubmed.ncbi.nlm.nih.gov/39012563/) | 2024 | Imaging/diagnostic method study | Annals of Biomedical Engineering | CT and finite element study of nanoparticle diffusion to reveal cartilage function |
+| [27793406](https://pubmed.ncbi.nlm.nih.gov/27793406/) | 2016 | Computational modelling | Journal of Biomechanics | Finite element model of neutral solute transport across the osteochondral interface |
+| [28063646](https://pubmed.ncbi.nlm.nih.gov/28063646/) | 2017 | Experimental transport study | Journal of Biomechanics | Iodixanol used as a CT contrast agent to study permeability of the cartilage and subchondral bone interface |
+| [30374787](https://pubmed.ncbi.nlm.nih.gov/30374787/) | 2018 | In vitro study | Journal of Experimental Orthopaedics | Iodine contrast agents did not affect platelet-rich plasma function at an early time point |
+| [40155520](https://pubmed.ncbi.nlm.nih.gov/40155520/) | 2025 | Imaging/diagnostic method study | Annals of Biomedical Engineering | Dual-contrast agent in photon-counting CT for assessing articular cartilage health |
+
+For rheumatoid arthritis, the only publication ([36628042](https://pubmed.ncbi.nlm.nih.gov/36628042/), 2022, Cureus) is a case report of desensitisation to a different contrast agent (iohexol). It is not evidence for iodixanol.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN08883P | VISIPAQUE INJECTION 320 mgI/ml | Injection |
-| SIN08882P | VISIPAQUE INJECTION 270 mgI/ml | Injection |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN08883P | VISIPAQUE INJECTION 320 mgI/ml | Injection | Not stated in the licence data |
+| SIN08882P | VISIPAQUE INJECTION 270 mgI/ml | Injection | Not stated in the licence data |
 
-Both products are manufactured by GE Healthcare. The approved indication text is not recorded in the available registration data.
+Both are valid single-ingredient licences. The manufacturers are GE Healthcare Ireland Limited, GE Healthcare AS and GE Healthcare (Shanghai) Co., Ltd.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: The interaction screen returned 100 interacting drugs. Most of the listed ones are Major-level, mainly with:
+  - Metformin
+  - Amphotericin B (including lipid complex, cholesteryl sulfate and liposomal forms)
+  - Aminosalicylates: mesalazine, balsalazide, olsalazine, sulfasalazine
+  - Nephrotoxic antibiotics: vancomycin, kanamycin, neomycin, streptomycin, polymyxin B
+- Mannitol is rated Moderate.
+- Famotidine, acetylsalicylic acid, morphine, omeprazole and prednisone are of unknown severity.
+- **Disease-specific note**: For hemoglobinopathy, iodinated contrast agents are used with caution in sickle cell disease. Any safety concerns would need separate consideration.
+
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical trials and no supporting literature (L5), and there is no plausible therapeutic mechanism for an inert contrast agent in osteoarthritis susceptibility. The related osteoarthritis literature concerns diagnostic imaging use only.
+The predictions rest on graph-based scores alone (Evidence Level L5). There are no clinical trials, and the publications describe iodixanol as an imaging agent, not a treatment. A contrast agent has no known mechanism to modify osteoarthritis susceptibility or the other predicted conditions.
 
 **To proceed, the following is needed:**
-- HSA package insert (approved indications, warnings, contraindications)
-- Mechanism of action data from DrugBank
-- A defined therapeutic hypothesis; otherwise, treat the osteoarthritis findings as diagnostic-imaging use rather than repurposing
-- Route compatibility assessment, which is currently pending
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Package insert warnings and contraindications from the Singapore Health Sciences Authority (HSA), which are currently missing and block safety screening
+- Mechanism of action data, for example from DrugBank
+- Any preclinical or clinical evidence of a therapeutic effect (not imaging use) in osteoarthritis
+- Registered indication text for the Singapore licences
+- A route and formulation compatibility assessment (for example, intra-articular use versus the current intravascular injection)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

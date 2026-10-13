@@ -2,7 +2,7 @@
 layout: default
 title: Ezetimibe
 parent: High Evidence (L1-L2)
-nav_order: 411
+nav_order: 415
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,17 +29,21 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Ezetimibe: From Lipid Lowering (Label Indication Not Recorded) to Hyperlipoproteinemia
+# Ezetimibe: From Hyperlipidemia to Hyperlipoproteinemia
 
 ## One-Sentence Summary
 
-Ezetimibe is an oral cholesterol absorption inhibitor, marketed in Singapore under 20 registrations. The TxGNN model predicts it may be effective for **hyperlipoproteinemia**, with over **40 registered clinical trials** (including several completed Phase 3 trials) and **19 publications** in the evidence pack. The source data does not record an original indication, so this is most likely an existing on-label use rather than true repurposing. The approved label should be checked before treating it as a novel candidate.
+Ezetimibe is a cholesterol-absorption inhibitor originally used for hyperlipidemia, including familial and homozygous familial hypercholesterolemia and sitosterolemia.
+The TxGNN model predicts it may be effective for **hyperlipoproteinemia**, with **40 clinical trials** and **20 publications** currently supporting this direction.
+Because this predicted indication largely overlaps with the drug's established lipid-lowering use, it is effectively an on-label or near-label use rather than a true repurposing candidate.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the source data |
+| Original Indication | Hyperlipidemia (including familial hypercholesterolemia and sitosterolemia). The Singapore licence records contain no indication text, so this comes from the knowledge-graph indication data. |
 | Predicted New Indication | Hyperlipoproteinemia |
 | TxGNN Prediction Score | 99.63% |
 | Evidence Level | L1 |
@@ -47,70 +51,95 @@ Ezetimibe is an oral cholesterol absorption inhibitor, marketed in Singapore und
 | Number of Registrations | 20 |
 | Recommended Decision | Proceed with Guardrails |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Ezetimibe blocks NPC1L1-mediated absorption of cholesterol in the intestine, which lowers LDL cholesterol. This is a direct mechanistic match for hyperlipoproteinemia. Detailed mechanism-of-action data is not available in the source record, so this description reflects the known pharmacology of the drug class.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known pharmacology, ezetimibe inhibits NPC1L1-mediated absorption of cholesterol in the intestine, which lowers LDL cholesterol. This is the drug's core mechanism and is the same one behind its use in hyperlipidemia.
 
-The completed Phase 3 trials support use as an add-on to statins and in combination products, such as ezetimibe/simvastatin and ezetimibe with atorvastatin or rosuvastatin. Because the original-indication field is empty in the source data, the model's prediction probably reflects a standard lipid-lowering use that is missing from the data.
+Hyperlipoproteinemia is a disorder of elevated lipoproteins, closely related to the hyperlipidemia conditions ezetimibe is already used for. The mechanism therefore applies directly, and the prediction is well supported. It does not represent a new therapeutic area.
 
-Several other predictions in the pack are weak. Familial hypercholesterolemia largely overlaps this indication and has the same mechanistic rationale. The HIV prediction actually reflects HIV-associated dyslipidemia, a metabolic use. The rare metabolic, neurodevelopmental and veterinary predictions have no clinical evidence.
+Other predictions in the same list fall into three groups:
+- **Established or near-label lipid uses:** familial hypercholesterolemia and autosomal dominant hypercholesterolemia, both supported by Phase 3 trials.
+- **A secondary-indication question:** HIV-associated dyslipidemia. Ezetimibe is not an antiviral. The benefit is in treating the metabolic complication, and ezetimibe has minimal CYP450 interaction with antiretrovirals.
+- **Unsupported or irrelevant predictions:** CETP deficiency, feline and simian immunodeficiency, and an unrelated neurodevelopmental disorder. These have little or no evidence and appear to be graph-based artifacts.
+
+---
 
 ## Clinical Trial Evidence
 
+Trials most relevant to the predicted indication (hyperlipoproteinemia / hypercholesterolemia):
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00271817](https://clinicaltrials.gov/study/NCT00271817) | Phase 3 | Completed | 1220 | Randomized, double-blind study of ezetimibe/simvastatin with niacin ER in Type IIa/IIb hyperlipidemia |
-| [NCT00093899](https://clinicaltrials.gov/study/NCT00093899) | Phase 3 | Completed | 611 | Ezetimibe/simvastatin with fenofibrate in mixed hyperlipidemia |
-| [NCT00092560](https://clinicaltrials.gov/study/NCT00092560) | Phase 3 | Completed | 587 | Fenofibrate and ezetimibe co-administration in mixed hyperlipidemia |
-| [NCT02451098](https://clinicaltrials.gov/study/NCT02451098) | Phase 3 | Completed | 385 | Atorvastatin + ezetimibe vs atorvastatin alone in primary hypercholesterolemia (factorial design) |
-| [NCT00195793](https://clinicaltrials.gov/study/NCT00195793) | Phase 3 | Completed | 174 | Fenofibrate or ezetimibe added to atorvastatin in combined hyperlipidemia |
-| [NCT00651560](https://clinicaltrials.gov/study/NCT00651560) | Phase 3 | Completed | 167 | Vytorin (ezetimibe/simvastatin) vs atorvastatin for dyslipidemia in adults |
-| [NCT02748057](https://clinicaltrials.gov/study/NCT02748057) | Phase 3 | Completed | 135 | 52-week safety and tolerability of ezetimibe + rosuvastatin in Japanese patients |
-| [NCT03884452](https://clinicaltrials.gov/study/NCT03884452) | Phase 3 | Completed | 50 | Ezetimibe 10 mg added to atorvastatin or simvastatin in homozygous familial hypercholesterolemia |
-| [NCT01043380](https://clinicaltrials.gov/study/NCT01043380) | Phase 4 | Completed | 245 | Coronary plaque regression on IVUS with a cholesterol absorption inhibitor vs a synthesis inhibitor |
-| [NCT00704535](https://clinicaltrials.gov/study/NCT00704535) | N/A | Completed | 4105 | Post-marketing surveillance of ezetimibe safety and efficacy in Filipino patients |
+| [NCT00753883](https://clinicaltrials.gov/study/NCT00753883) | Phase 4 | Completed | 40 | Randomized comparison of ezetimibe versus statin in hypercholesterolemia |
+| [NCT01984424](https://clinicaltrials.gov/study/NCT01984424) | Phase 3 | Completed | 511 | Evolocumab versus ezetimibe in statin-intolerant patients (ezetimibe as comparator) |
+| [NCT03847506](https://clinicaltrials.gov/study/NCT03847506) | Phase 4 | Completed | 127 | Ezetimibe/rosuvastatin plus candesartan/amlodipine in hypertension with hyperlipidemia |
+| [NCT00092833](https://clinicaltrials.gov/study/NCT00092833) | Phase 3 | Terminated | 49 | Open-label ezetimibe 10 mg/day in homozygous FH or sitosterolemia |
+| [NCT03884452](https://clinicaltrials.gov/study/NCT03884452) | Phase 3 | Completed | 50 | Ezetimibe added to atorvastatin or simvastatin in homozygous FH |
+| [NCT00271817](https://clinicaltrials.gov/study/NCT00271817) | Phase 3 | Completed | 1,220 | Ezetimibe/simvastatin plus niacin in type IIa/IIb hyperlipidemia |
+| [NCT00092573](https://clinicaltrials.gov/study/NCT00092573) | Phase 3 | Completed | 576 | Fenofibrate plus ezetimibe in mixed hyperlipidemia |
+| [NCT00093899](https://clinicaltrials.gov/study/NCT00093899) | Phase 3 | Completed | 611 | Ezetimibe/simvastatin plus fenofibrate in mixed hyperlipidemia |
+| [NCT00552097](https://clinicaltrials.gov/study/NCT00552097) | Phase 3 | Completed | 720 | ENHANCE: ezetimibe plus high-dose simvastatin versus simvastatin alone in heterozygous FH |
+| [NCT00704535](https://clinicaltrials.gov/study/NCT00704535) | N/A (post-marketing) | Completed | 4,105 | Safety, tolerability and efficacy of ezetimibe in Filipino patients |
+
+Several other trials (for example NCT06005597 and NCT01763905) use ezetimibe as a comparator or background therapy, so they give only indirect support. NCT06789432 was withdrawn with no participants and provides no evidence.
+
+---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [40347969](https://pubmed.ncbi.nlm.nih.gov/40347969/) | 2025 | RCT | Lancet | TANDEM Phase 3 trial of an obicetrapib + ezetimibe fixed-dose combination for LDL-C reduction |
-| [41206969](https://pubmed.ncbi.nlm.nih.gov/41206969/) | 2026 | RCT | JAMA | Oral PCSK9 inhibitor enlicitide in heterozygous familial hypercholesterolemia, where ezetimibe is background therapy |
-| [35101175](https://pubmed.ncbi.nlm.nih.gov/35101175/) | 2022 | Cohort | Lancet | Worldwide retrospective cohort of homozygous familial hypercholesterolemia patients |
-| [19654419](https://pubmed.ncbi.nlm.nih.gov/19654419/) | 2009 | Drug review | Drug Ther Bull | Ezetimibe lowers LDL-C alone or with a statin, but cardiovascular outcome evidence was still limited |
-| [25939291](https://pubmed.ncbi.nlm.nih.gov/25939291/) | 2015 | Review | Cardiol Clin | Familial hypercholesterolemia treatments, including ezetimibe alongside statins and other agents |
-| [33766264](https://pubmed.ncbi.nlm.nih.gov/33766264/) | 2021 | Review | J Am Coll Cardiol | New LDL-C-lowering therapies built on statins, ezetimibe and PCSK9 inhibitors |
-| [30702994](https://pubmed.ncbi.nlm.nih.gov/30702994/) | 2019 | Review | Circ Res | Overview of cholesterol-lowering agents and the safety of markedly lowering LDL-C |
-| [37762244](https://pubmed.ncbi.nlm.nih.gov/37762244/) | 2023 | Review | Int J Mol Sci | Pathophysiology, diagnosis and treatment of postprandial hyperlipidemia |
-| [23956253](https://pubmed.ncbi.nlm.nih.gov/23956253/) | 2013 | Consensus statement | Eur Heart J | European Atherosclerosis Society guidance on screening and treating familial hypercholesterolemia |
-| [18638604](https://pubmed.ncbi.nlm.nih.gov/18638604/) | 2008 | Commentary | Am J Cardiol | Critique of the ENHANCE trial (ezetimibe + high-dose simvastatin), arguing the surrogate endpoint was limited |
+| [41206969](https://pubmed.ncbi.nlm.nih.gov/41206969/) | 2026 | RCT | JAMA | Oral PCSK9 inhibitor enlicitide in heterozygous FH (indirect; ezetimibe is background therapy) |
+| [40347969](https://pubmed.ncbi.nlm.nih.gov/40347969/) | 2025 | Phase 3 RCT | Lancet | TANDEM: obicetrapib/ezetimibe fixed-dose combination for LDL-C reduction |
+| [25282519](https://pubmed.ncbi.nlm.nih.gov/25282519/) | 2015 | RCT | Lancet | RUTHERFORD-2: evolocumab in heterozygous FH despite statin with or without ezetimibe |
+| [40682836](https://pubmed.ncbi.nlm.nih.gov/40682836/) | 2025 | Review | Mol Med Rep | Research advances in drugs targeting hyperlipidemia |
+| [33766264](https://pubmed.ncbi.nlm.nih.gov/33766264/) | 2021 | Review | J Am Coll Cardiol | New and emerging LDL-C and apoB lowering therapies on top of statins and ezetimibe |
+| [35593194](https://pubmed.ncbi.nlm.nih.gov/35593194/) | 2022 | Review | J Cardiovasc Pharmacol Ther | Comprehensive review of PCSK9 inhibitors |
+| [19654419](https://pubmed.ncbi.nlm.nih.gov/19654419/) | 2009 | Drug bulletin | Drug Ther Bull | Ezetimibe update: lowers LDL-C alone or with a statin |
+| [35101175](https://pubmed.ncbi.nlm.nih.gov/35101175/) | 2022 | Cohort | Lancet | Worldwide retrospective cohort of homozygous FH |
+| [25939291](https://pubmed.ncbi.nlm.nih.gov/25939291/) | 2015 | Review | Cardiol Clin | FH review listing ezetimibe among LDL-lowering treatments |
+| [23956253](https://pubmed.ncbi.nlm.nih.gov/23956253/) | 2013 | Consensus statement | Eur Heart J | European Atherosclerosis Society guidance on FH screening and treatment |
+
+---
 
 ## Singapore Market Information
 
+Ezetimibe has 20 valid licences in Singapore (single-entry records, including combination products such as ezetimibe with statins). The records contain no approved-indication text. The main ones are:
+
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN12375P | EZETROL TABLET 10 mg | Tablet | Not stated in source data |
-| SIN15183P | ZIMIEX TABLET 10MG | Tablet | Not stated in source data |
-| SIN15179P | EZETIMIBE SANDOZ TABLET 10MG | Tablet | Not stated in source data |
-| SIN16441P | EZETIMIBE MEVON TABLET 10 MG | Tablet | Not stated in source data |
-| SIN16422P | EZOLETA TABLETS 10MG | Tablet | Not stated in source data |
+| SIN12375P | EZETROL TABLET 10 mg | Tablet | Not stated in the records |
+| SIN15179P | EZETIMIBE SANDOZ TABLET 10MG | Tablet | Not stated in the records |
+| SIN15183P | ZIMIEX TABLET 10MG | Tablet | Not stated in the records |
+| SIN15114P | ATOZET TABLET 10MG/20MG | Film-coated tablet | Not stated in the records |
+| SIN13011P | VYTORIN 10/10 TABLET | Tablet | Not stated in the records |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindication-related conditions (knowledge-graph data, not label text):** pancreatitis, liver disease, gallbladder disease, myopathy, muscular disease, skeletal muscle disease, familial periodic paralysis, substance abuse/dependence, rhabdomyolysis and nodular fasciitis. Several of these are likely to reflect combination products with statins.
+- **Drug interactions:** 100 interactions were identified in total. Moderate-level ones include chenodeoxycholic acid, eluxadoline, rosuvastatin and simvastatin. Others, such as pantoprazole, metformin and omeprazole, are of unknown severity.
+
+Please refer to the package insert for warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Multiple completed Phase 3 trials support ezetimibe for hyperlipidemia, and it is widely marketed in Singapore. However, the source data has no original indication, no mechanism-of-action record and no safety data. The candidate therefore cannot be treated as a true repurposing finding until the label is confirmed.
+Multiple completed Phase 3 trials, together with large post-marketing studies, support ezetimibe's lipid-lowering efficacy, and the drug is already marketed in Singapore. The indication is essentially an extension of existing hyperlipidemia use, so the main risk is label scope and safety, not efficacy.
 
 **To proceed, the following is needed:**
-- The HSA package insert, to confirm the approved indications (including hyperlipidemia), warnings and contraindications
-- Detailed mechanism-of-action data from DrugBank
-- A drug-interaction review, especially if the HIV-associated dyslipidemia use is pursued with antiretrovirals, since the interaction query returned no results
-- Consideration of a repurposing case only for non-lipid indications, since this one is likely already on-label
+- Singapore package-insert warnings and contraindications (currently unavailable)
+- Mechanism-of-action data from DrugBank
+- Confirmation of the approved-indication wording on each Singapore licence
+- Safety review of statin-combination products, given the muscle and liver signals
+- A decision on whether HIV-associated dyslipidemia should be handled as a separate research question
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

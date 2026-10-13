@@ -2,7 +2,7 @@
 layout: default
 title: Tetracaine
 parent: Low Evidence (L5)
-nav_order: 966
+nav_order: 976
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,18 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tetracaine: From Local Anaesthesia to Acrodermatitis Chronica Atrophicans
+# Tetracaine: From Dermatitis to Acrodermatitis Chronica Atrophicans
 
 ## One-Sentence Summary
 
-Tetracaine is a local anaesthetic that blocks sodium channels, and it is marketed in Singapore as eye drops and a topical cream.
-The TxGNN model predicts it may be effective for **acrodermatitis chronica atrophicans**, a late-stage skin manifestation of Borrelia infection.
-This prediction has **0 clinical trials** and **0 publications** behind it, so it rests on the model score alone.
+Tetracaine is an ester-type local anaesthetic, listed in the knowledge graph with dermatitis as its original indication and marketed in Singapore as eye drops and a topical cream.
+The TxGNN model predicts it may be effective for **acrodermatitis chronica atrophicans**, but there are **0 clinical trials** and **0 publications** supporting this specific prediction, so it is a model-only signal.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Local anaesthesia (the Singapore licence records contain no indication text) |
+| Original Indication | Dermatitis (from the knowledge graph; the Singapore licence records contain no approved indication text) |
 | Predicted New Indication | Acrodermatitis chronica atrophicans |
 | TxGNN Prediction Score | 99.93% |
 | Evidence Level | L5 |
@@ -51,53 +50,75 @@ This prediction has **0 clinical trials** and **0 publications** behind it, so i
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the Evidence Pack. Tetracaine is a sodium channel blocker with local anaesthetic action, and its efficacy as a topical and spinal anaesthetic is well established.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Tetracaine is known as an ester local anaesthetic that blocks sodium channels, which produces local numbness. It has no recognised antimicrobial or anti-inflammatory activity.
 
-The reviewed mechanistic assessment finds no plausible link to the predicted disease. Acrodermatitis chronica atrophicans is a chronic skin condition caused by Borrelia infection. Tetracaine has no anti-infective or anti-fibrotic action, so nothing in its pharmacology addresses the cause of the disease. The high score (rank 1,466 in the model) most likely reflects patterns in the knowledge graph rather than a drug-specific signal, and it should not be read as evidence of efficacy.
+Acrodermatitis chronica atrophicans is a late-stage skin manifestation of Borrelia infection and is treated with antibiotics. No mechanistic link to tetracaine could be identified. The high score most likely reflects the model's network proximity to dermatological indications rather than real biology, so the prediction should be treated as a hypothesis only.
 
-The other top-ranked predictions are also weak:
-- **Acne keloid** is the only one with any trial activity, but the evidence concerns pain relief during laser treatment, not treatment of the disease. It could at most support a question about topical anaesthesia as an adjunct to dermatologic procedures.
-- **Cauda equina syndrome** is supported only by reports that tetracaine caused the condition after spinal anaesthesia. It is a safety signal, not a therapeutic candidate.
-- **Neonatal dermatomyositis, amyopathic dermatomyositis, bronchitis, interstitial lung disease, hydroa vacciniforme, irritable bowel syndrome and pityriasis simplex** have no plausible mechanistic link and no supporting studies.
+Other top-ranked predictions show the same pattern. Neonatal dermatomyositis, amyopathic dermatomyositis, hydroa vacciniforme, pediatric connective-tissue-disease-associated interstitial lung disease, bronchitis, irritable bowel syndrome and pityriasis simplex all have no supporting trials or literature and no plausible disease-modifying mechanism. Two predictions have some linked evidence:
+- **Acne keloid (rank 5):** the evidence concerns procedural pain relief only, not treatment of the disease.
+- **Cauda equina syndrome (rank 8):** the literature shows tetracaine can cause this condition after spinal use, so this is a safety signal rather than a repurposing opportunity.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for acrodermatitis chronica atrophicans.
+Currently no related clinical trials are registered for the top predicted indication (acrodermatitis chronica atrophicans).
+
+For reference, one trial was found for the rank-5 prediction, acne keloid:
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT02372786](https://clinicaltrials.gov/study/NCT02372786) | Phase 4 | Completed | 30 | Randomized, double-blind comparison of 7% lidocaine/7% tetracaine cream vs 2.5% lidocaine/2.5% prilocaine cream for pain during laser treatment of acne keloidalis nuchae and tattoo removal. It tests procedural anaesthesia, not disease treatment. |
 
 ## Literature Evidence
 
-Currently no related literature available for acrodermatitis chronica atrophicans.
+Currently no related literature is available for the top predicted indication (acrodermatitis chronica atrophicans).
+
+For reference, selected publications for other predictions:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [27377616](https://pubmed.ncbi.nlm.nih.gov/27377616/) | 2017 | RCT | Br J Dermatol | Lidocaine/tetracaine cream vs lidocaine/prilocaine cream for anaesthesia during laser treatment of acne keloidalis nuchae and tattoo removal (two randomized trials). Procedural pain relief only. |
+| [9033758](https://pubmed.ncbi.nlm.nih.gov/9033758/) | 1996 | Review | Ann Fr Anesth Reanim | Neurotoxicity of intrathecally administered agents, including spinal cord and nerve root lesions. |
+| [10876464](https://pubmed.ncbi.nlm.nih.gov/10876464/) | 2000 | Review | AANA J | Transient neurologic symptoms associated with spinal anaesthesia. |
+| [30625770](https://pubmed.ncbi.nlm.nih.gov/30625770/) | 2009 | Case report | Korean J Anesthesiol | Cauda equina syndrome after spinal anaesthesia with 0.5% hyperbaric tetracaine plus epinephrine. |
+| [11685003](https://pubmed.ncbi.nlm.nih.gov/11685003/) | 2001 | Case report | Anesthesiology | Cauda equina syndrome after spinal tetracaine, with 20-year electromyographic follow-up. |
+| [8017646](https://pubmed.ncbi.nlm.nih.gov/8017646/) | 1994 | Preclinical (in vitro) | Anesthesiology | High concentrations of local anaesthetics caused irreversible conduction block in isolated nerve. |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN04204P | Minims Tetracaine Hydrochloride Eye Drops 1% w/v | Solution |
-| SIN04188P | Minims Tetracaine Hydrochloride Eye Drops 0.5% w/v | Solution |
-| SIN14793P | Pliaglis Cream 70mg/g + 70mg/g | Cream |
-
-The eye drops are made by Laboratoire Chauvin SA, and the cream by Laboratoires Galderma. Approved indication text is not recorded for any of the three licences.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN04204P | Minims Tetracaine Hydrochloride Eye Drops 1% w/v | Solution | Not stated in the registration record |
+| SIN04188P | Minims Tetracaine Hydrochloride Eye Drops 0.5% w/v | Solution | Not stated in the registration record |
+| SIN14793P | Pliaglis Cream 70mg/g + 70mg/g | Cream | Not stated in the registration record |
 
 ## Safety Considerations
 
-- **Neurotoxicity with spinal use**: Published case reports describe cauda equina syndrome after spinal anaesthesia with tetracaine, including a 20-year follow-up. Preclinical studies show irreversible nerve conduction block at high concentrations. This applies to intrathecal use, not to the registered eye drop and cream formulations.
-- **Drug interactions**: No interaction records were found.
+- **Contraindications (knowledge-graph associations, not label text):** The knowledge graph links tetracaine to the following conditions, which should be checked against the package insert:
+  - Neurological and neuromuscular: epilepsy, myasthenia gravis (including adult-onset), neuromuscular junction disease, butyrylcholinesterase deficiency
+  - Cardiac and respiratory: heart disease, cardiovascular disease, sudden cardiac arrest, heart conduction disease, respiratory failure
+  - Organ function and metabolic: kidney disease, liver disease, gallbladder disease, pyoureter, hyperthyroidism, Graves disease, thyrotoxicosis
+  - Eye: uveitis, panuveitis, iris disease, ciliary body disease, eye infectious disease, conjunctivitis
+- **Drug Interactions:** 32 interactions were recorded in total. Examples from the 20 listed:
+  - **Major:** nitrous acid, liposomal bupivacaine
+  - **Moderate:** other local anaesthetics (lidocaine, benzocaine, cocaine, proparacaine, oxybuprocaine, cinchocaine); benzodiazepines (alprazolam, chlordiazepoxide, clobazam, clonazepam, diazepam, estazolam); sulfonamides (sulfasalazine, sulfamethoxazole)
+  - **Minor:** hyaluronidase
+- **Neurotoxicity signal:** Published case reports and preclinical studies link intrathecal tetracaine to cauda equina syndrome and persistent nerve deficits.
 
-For other warnings and contraindications, please refer to the package insert. The HSA package insert has not yet been retrieved.
+Package insert warnings were not available in the data compiled for this report. Please refer to the package insert for the full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical or literature support, and tetracaine has no plausible mechanism against a Borrelia-driven skin disease. The evidence level is L5, so the result should not be treated as a repurposing lead.
+The prediction rests on a model score alone, with no clinical trials or literature for acrodermatitis chronica atrophicans and no plausible mechanism, since the disease is infectious and antibiotic-treated. The same holds for most other top predictions, and the cauda equina syndrome result is a safety signal rather than a therapeutic one.
 
 **To proceed, the following is needed:**
-- Retrieve the HSA package insert to confirm approved indications, warnings and contraindications
-- Obtain mechanism of action data from DrugBank
-- Show a credible biological rationale for tetracaine in acrodermatitis chronica atrophicans, followed by supporting preclinical or clinical data
-- If a dermatology direction is pursued, consider the acne keloid question (topical anaesthesia during laser procedures) as a separate, narrowly framed research question, as it is a procedural-analgesia use rather than disease treatment
-- Exclude cauda equina syndrome from therapeutic candidates and record it as a safety signal
+- Mechanism of action data, to allow a proper mechanistic-link analysis
+- Package insert warnings and contraindications from the Singapore regulator (HSA), which are needed before safety screening
+- Approved indication text for the three Singapore licences
+- Any preclinical or clinical evidence for a disease-relevant effect, if a new indication is to be pursued
+- Review of whether the original dermatitis indication is supported, since it comes only from the knowledge graph
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

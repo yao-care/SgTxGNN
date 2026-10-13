@@ -2,7 +2,7 @@
 layout: default
 title: Triptorelin
 parent: Low Evidence (L5)
-nav_order: 1021
+nav_order: 1031
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,15 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Triptorelin: Repurposing Evaluation for Hypertrichosis
+# Triptorelin: From Gonadal Hormone Suppression (GnRH Agonist Therapy) to Hypertrichosis
 
 ## One-Sentence Summary
 
-Triptorelin is a GnRH (gonadotropin-releasing hormone) agonist marketed in Singapore, but its approved indications are not recorded in the data supplied.
-The TxGNN model predicts it may be effective for **hypertrichosis**.
-**No clinical trials and no publications** currently support this prediction, so it rests on the knowledge-graph score alone.
+Triptorelin is a GnRH (gonadotropin-releasing hormone) agonist that suppresses sex hormones, and it is marketed in Singapore as injectable depot products.
+The TxGNN model predicts it may be effective for **hypertrichosis** with a very high score, but there are **0 clinical trials** and only **1 publication**, a case report that does not support this use.
+This prediction rests on the model alone, so the evidence is very weak.
+
+---
 
 ## Quick Overview
 
@@ -48,51 +50,84 @@ The TxGNN model predicts it may be effective for **hypertrichosis**.
 | Number of Registrations | 6 |
 | Recommended Decision | Hold |
 
+The Singapore licence records compiled for this report do not include approved indication text, so the original indication is not listed here.
+
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the record. Triptorelin is a GnRH receptor agonist. Continuous dosing desensitizes the pituitary and suppresses sex hormones, which is the basis of its established hormone-related uses.
+Detailed mechanism of action data is not available in the data compiled for this report. Triptorelin is a GnRH agonist. Continuous stimulation desensitises pituitary GnRH receptors and suppresses LH and FSH, which in turn lowers gonadal sex steroids.
 
-One plausible but unproven route to hypertrichosis is androgen modulation through gonadal suppression. This could matter only if the excess hair growth were androgen-driven. It would not apply to congenital or non-androgenic forms.
+**This prediction is not mechanistically convincing.** Hypertrichosis is excessive hair growth that is not androgen-dependent. It is often drug-induced (for example by ciclosporin) or congenital. No credible pathway links GnRH agonism to treating it. Suppressing sex hormones would not be expected to reverse it.
 
-The TxGNN score is very high (rank 129 in the model's ordering), but a graph-based score is not clinical evidence. No study links triptorelin to hypertrichosis.
+The only publication retrieved is a case report of ciclosporin-induced hypertrichosis in a transgender woman who was also taking estradiol and triptorelin. The hypertrichosis was attributed to ciclosporin, and the report shows that it occurred despite androgen suppression. This is not evidence that triptorelin treats the condition. The high TxGNN score is a statistical prediction only.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
-Currently no related literature available.
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [41822646](https://pubmed.ncbi.nlm.nih.gov/41822646/) | 2026 | Case report | Cureus | Generalised hypertrichosis caused by ciclosporin in a 25-year-old transgender woman with psoriasis. She was also on estradiol and triptorelin, so the report shows hypertrichosis arising despite androgen suppression. It does not show a treatment benefit. |
+
+---
 
 ## Singapore Market Information
 
+Six valid single-ingredient licences are registered. The first five are listed below, and approved indication text is not available for them.
+
 | Authorization Number | Product Name | Dosage Form |
 |---------|------|------|
-| SIN14323P | Pamorelin Powder for Suspension for Injection 3.75 mg per vial | Injection, powder, lyophilized, for suspension |
-| SIN14324P | Pamorelin Powder for Suspension for Injection 11.25 mg per vial | Injection, powder, lyophilized, for suspension |
-| SIN14325P | Pamorelin Powder for Suspension for Injection 22.5 mg per vial | Injection, powder, lyophilized, for suspension |
-| SIN14634P | DIPHERELINE P.R. Powder and Solvent for Suspension for Injection 3.75 mg/vial | Injection, powder, for suspension, extended release |
-| SIN08697P | DECAPEPTYL Injection 0.1 mg/ml | Injection |
+| SIN14323P | Pamorelin Powder for Suspension for Injection 3.75 mg per vial | Injection, lyophilised powder for suspension |
+| SIN14324P | Pamorelin Powder for Suspension for Injection 11.25 mg per vial | Injection, lyophilised powder for suspension |
+| SIN14325P | Pamorelin Powder for Suspension for Injection 22.5 mg per vial | Injection, lyophilised powder for suspension |
+| SIN14634P | Diphereline P.R. Powder and Solvent for Suspension for Injection 3.75 mg/vial | Injection, extended-release powder for suspension |
+| SIN08697P | Decapeptyl Injection 0.1 mg/ml | Injection |
 
-All registered products are injectables. Approved indication text was not available for these registrations.
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for key warnings and contraindications.
+
+- **Disease associations from the knowledge graph (not label text):** The TxGNN knowledge graph links triptorelin to the following conditions as potential contraindications. These should be checked against the official label before any use:
+  - hypertension
+  - kidney disease
+  - liver disease
+  - gallbladder disease
+  - hyperglycaemia
+  - diabetes mellitus
+  - diabetic ketoacidosis
+  - obesity
+  - urinary tract obstruction
+  - spinal cord disease
+  - pyoureter
+- **Drug interactions:** 100 interactions were identified.
+  - **Major:** dolasetron.
+  - **Moderate (examples):** antidiabetic agents such as metformin, pioglitazone, glimepiride, acarbose, dapagliflozin, empagliflozin, canagliflozin, alogliptin, saxagliptin, dulaglutide and albiglutide.
+  - **Moderate (others):** clarithromycin, famotidine, palonosetron, loperamide, bisacodyl and bowel-preparation agents.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting trials or publications (L5). The only plausible mechanism, androgen suppression, would not apply to congenital or non-androgenic hypertrichosis.
+The prediction has no clinical trials, a single irrelevant case report, and no plausible mechanism for GnRH agonism to treat hypertrichosis. The high TxGNN score alone does not justify further development for this indication.
 
 **To proceed, the following is needed:**
-- The HSA package insert, to confirm approved indications, warnings and contraindications
-- Mechanism of action data from DrugBank
-- A defined hypertrichosis subtype with a documented androgen-driven mechanism, plus any triptorelin-specific case or trial evidence
+- A credible mechanistic hypothesis linking GnRH agonism to the type of hypertrichosis targeted
+- Preclinical or clinical data in hypertrichosis patients
+- Full package insert warnings and contraindications for triptorelin
 
-**Note on other predictions for this drug:** Among the other predicted indications, **precocious puberty** (rank 8, score 99.89%) is far better supported. It has multiple completed Phase 3 triptorelin trials (for example NCT04736602, NCT00909844, NCT00564850, NCT01467882, NCT05029622) and several publications. It is likely an on-label use rather than true repurposing, so it should be assessed separately against the Singapore regulatory record.
+**Note on other predictions:** Among the other predicted indications, **precocious puberty** (rank 8, TxGNN score 99.89%) has much stronger support. It has several completed Phase 3 trials of triptorelin in central precocious puberty and extensive supporting literature, and the mechanism is consistent. This is most likely a confirmation of existing use rather than true repurposing, and it would warrant a separate evaluation.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

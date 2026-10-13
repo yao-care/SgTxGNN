@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Rivastigmine
-parent: Low Evidence (L5)
-nav_order: 870
-evidence_level: L5
+parent: Medium Evidence (L3-L4)
+nav_order: 879
+evidence_level: L3
 indication_count: 10
 ---
 
 # Rivastigmine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,31 +29,33 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Rivastigmine: From Alzheimer's Dementia to Glaucoma
+# Rivastigmine: From Alzheimer's Disease to Glaucoma
 
 ## One-Sentence Summary
 
-Rivastigmine is a cholinesterase inhibitor used for dementia, and the literature in this pack describes it as established treatment for Alzheimer's disease and Parkinson's disease dementia. The TxGNN model predicts it may help with **glaucoma**. The support is **no clinical trials** and **3 publications**, only one of which is an actual study (in rabbits), so this is an early-stage research question.
+Rivastigmine is a cholinesterase inhibitor originally used to treat Alzheimer's disease and related dementias.
+The TxGNN model predicts it may be effective for **glaucoma**,
+but the support is limited to **0 clinical trials** and **3 publications** (one animal study and two reviews).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore licence records; literature describes Alzheimer's disease and Parkinson's disease dementia |
+| Original Indication | Alzheimer's disease (the approved indication text is not available in the Singapore licence records; this is taken from the drug's known indication list) |
 | Predicted New Indication | Glaucoma |
 | TxGNN Prediction Score | 99.27% |
-| Evidence Level | L4 (preclinical/mechanism evidence only) |
+| Evidence Level | L3 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 7 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the record. From the literature, rivastigmine inhibits acetylcholinesterase and butyrylcholinesterase, which raises acetylcholine levels. This is why it is used in Alzheimer's disease and Parkinson's disease dementia.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, rivastigmine inhibits both acetylcholinesterase and butyrylcholinesterase. This raises acetylcholine levels and strengthens cholinergic signalling, which is how it helps cognition in Alzheimer's disease and Parkinson's disease dementia.
 
-In the eye, higher acetylcholine acts on the ciliary muscle and trabecular meshwork. This increases aqueous humour outflow and lowers intraocular pressure (IOP), the same logic as cholinergic agents such as pilocarpine. A 2000 rabbit study found that topical rivastigmine lowered IOP in normotensive animals.
+Glaucoma is a different kind of disease, but cholinergic tone in the eye matters. Stronger cholinergic activity at the ciliary muscle and trabecular meshwork can increase aqueous humour outflow and lower intraocular pressure (IOP). Cholinergic agents such as pilocarpine already work this way. A 2000 rabbit study found that topical rivastigmine lowered IOP, and a 2024 review of cholinergic agents for IOP reduction supports the idea that this approach is plausible.
 
-There is a gap between the original and new use. The only human evidence is indirect, and no clinical trials exist. Oral or transdermal use is not a validated route for glaucoma, so any move forward would need a topical ocular formulation with its own safety and tolerability work.
+The evidence is preclinical only, and no human trials have been identified. Any move toward use in the eye would need an ocular safety assessment, covering miosis, effects on the ocular surface and cholinergic side effects.
 
 ## Clinical Trial Evidence
 
@@ -63,44 +65,47 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [10673128](https://pubmed.ncbi.nlm.nih.gov/10673128/) | 2000 | Preclinical animal study (rabbit) | J Ocul Pharmacol Ther | Topical rivastigmine, a selective carbamate-type AChE inhibitor, lowered intraocular pressure in normotensive rabbits |
-| [39130374](https://pubmed.ncbi.nlm.nih.gov/39130374/) | 2024 | Systems genetics analysis and review | Front Mol Biosci | Reviews cholinergic agents for IOP reduction. Approved M3 agonists lower IOP but cause systemic cholinergic adverse effects, so understanding the eye's cholinergic system matters |
-| [27967267](https://pubmed.ncbi.nlm.nih.gov/27967267/) | 2017 | Review (patent literature) | Expert Opin Ther Pat | Notes that mild AChE inhibition has therapeutic relevance in Alzheimer's disease, myasthenia gravis and glaucoma |
+| [10673128](https://pubmed.ncbi.nlm.nih.gov/10673128/) | 2000 | Preclinical animal study | J Ocul Pharmacol Ther | Topical rivastigmine lowered intraocular pressure in normotensive rabbits |
+| [39130374](https://pubmed.ncbi.nlm.nih.gov/39130374/) | 2024 | Review | Front Mol Biosci | Systems genetics and molecular review of cholinergic agents for IOP reduction; supports the plausibility of the cholinergic approach |
+| [27967267](https://pubmed.ncbi.nlm.nih.gov/27967267/) | 2017 | Review | Expert Opin Ther Pat | Patent review of AChE inhibitors and reactivators; notes that mild AChE inhibition has therapeutic relevance in Alzheimer's disease, myasthenia gravis and glaucoma |
 
 ## Singapore Market Information
 
-Seven registrations exist; five are shown below. Approved indication text is not recorded in these licence entries.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN10035P | EXELON CAPSULE 1.5 mg | Capsule | Not stated in the records |
+| SIN10036P | EXELON CAPSULE 3 mg | Capsule | Not stated in the records |
+| SIN10037P | EXELON CAPSULE 4.5 mg | Capsule | Not stated in the records |
+| SIN10038P | EXELON CAPSULE 6 mg | Capsule | Not stated in the records |
+| SIN13450P | Exelon Patch 5 (4.6mg/24hr) | Patch, extended release | Not stated in the records |
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN13450P | Exelon Patch 5 (4.6mg/24hr) | Patch, extended release |
-| SIN13451P | Exelon Patch 10 (9.5mg/24hr) | Patch, extended release |
-| SIN10036P | Exelon Capsule 3 mg | Capsule |
-| SIN10037P | Exelon Capsule 4.5 mg | Capsule |
-| SIN10038P | Exelon Capsule 6 mg | Capsule |
+Two further registrations are also valid: SIN13451P (Exelon Patch 10, 9.5 mg/24 hr) and SIN14500P (Exelon Patch 15, 13.3 mg/24 hr). All 7 registrations are valid single-ingredient products, with no cancelled licences. Only oral capsule and transdermal patch forms are registered, with no ophthalmic formulation.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Conditions flagged as potential contraindications or cautions (from the knowledge graph, not label text):** epilepsy, asthma and COPD, Parkinson disease and other parkinsonian disorders, basal ganglia disease, focal hand dystonia, blepharospasm, sick sinus syndrome, atrioventricular block and other heart conduction disease, sudden cardiac arrest, active peptic ulcer disease, diarrhoeal disease, anorexia nervosa and urinary tract obstruction.
+- **Drug Interactions:** 100 interactions were found. One is rated Major: **bupropion**. Most of the others are Moderate, including anticholinergic agents (atropine, hyoscyamine, glycopyrronium, dicyclomine, trospium, clidinium, mepenzolate), acid suppressants (famotidine, ranitidine, cimetidine), loperamide, metronidazole, clarithromycin, levofloxacin, dolasetron, palonosetron and bowel-preparation products.
+- **Movement-related signals:** The retrieved literature, including a 2025 systematic review and a case report of dyskinesia with the 13.3 mg/24 hr patch, shows that cholinesterase inhibitors can cause or worsen movement disorders.
 
-- Systemic oral or transdermal use is not a validated route for glaucoma.
-- A topical ocular formulation would need its own safety and tolerability assessment.
+Please refer to the package insert for full warnings and contraindications.
+
+## Other Predicted Indications (Context)
+
+Of the other nine predictions, only extrapyramidal and movement disease has any literature. That literature is indirect and mainly records safety concerns. The rest (acute intermittent porphyria, psychogenic movement disorders, primary orthostatic tremor, tremor-nystagmus-duodenal ulcer syndrome, benign shuddering attacks, benign paroxysmal tonic upgaze of childhood with ataxia, chronic tic disorder and primary hereditary glaucoma) have no trials or literature and rest on computation alone. Primary hereditary glaucoma should be considered under the general glaucoma indication.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The high model score is backed only by one rabbit study and two general reviews. There are no clinical trials, no human efficacy data, and no suitable ocular formulation. Package insert safety data are also missing, which blocks the safety screening step.
+Glaucoma is the best-supported prediction, but the evidence is one rabbit study and two reviews, with no human data. No ophthalmic formulation is registered in Singapore. Package insert safety data is also missing, and the knowledge graph flags several cardiac, respiratory, gastrointestinal and neurological cautions.
 
 **To proceed, the following is needed:**
-- Singapore package insert warnings and contraindications (download and parse from the HSA website)
-- Detailed mechanism of action data (query the DrugBank API)
-- Confirmation of the original approved indication in the Singapore licence records
-- Human or further preclinical evidence of IOP lowering, plus a feasibility and ocular safety assessment for a topical formulation
-- Evaluation of primary hereditary glaucoma (also predicted) only after the general glaucoma question is resolved
-
-The other nine predictions (including acute intermittent porphyria and several movement disorders) have no supporting evidence and are all on Hold. For the movement disorders, the available literature points to a possible adverse-effect signal rather than benefit.
+- The package insert warnings and contraindications from the HSA, so that safety screening can be completed
+- Detailed mechanism of action data (from DrugBank)
+- Confirmation of the approved indication text for the Singapore registrations
+- Further preclinical work on IOP lowering (for example, other species and dose-response), followed by an ocular safety assessment for a topical formulation (miosis, ocular surface effects, systemic cholinergic effects)
+- A plan for early-phase human studies, if the preclinical work is supportive
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Noscapine
 parent: Low Evidence (L5)
-nav_order: 718
+nav_order: 726
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,12 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Noscapine: From Cough (Antitussive) to Scalp Dermatosis
+# Noscapine: From Cough Suppression to Scalp Dermatosis
 
 ## One-Sentence Summary
 
-Noscapine is marketed in Singapore in cough syrup and lozenge products, so it is presumably used as a cough suppressant. The approved indication text is not supplied in the record.
-The TxGNN model predicts it may be effective for **scalp dermatosis**, but **no clinical trials and no publications** support this prediction, so it is a model signal only.
+Noscapine is an antitussive (cough suppressant) marketed in Singapore as a single-ingredient cough syrup and lozenge.
+The TxGNN model predicts it may be effective for **scalp dermatosis**,
+but currently there are **0 clinical trials** and **0 publications** supporting this specific prediction, so it rests on computational prediction alone.
 
 ---
 
@@ -42,10 +43,10 @@ The TxGNN model predicts it may be effective for **scalp dermatosis**, but **no 
 
 | Item | Content |
 |------|------|
-| Original Indication | Cough (inferred from the product names; no approved indication text in the record) |
+| Original Indication | Cough (antitussive use; the registered indication text is blank in the licence records) |
 | Predicted New Indication | Scalp dermatosis |
 | TxGNN Prediction Score | 98.52% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 2 |
 | Recommended Decision | Hold |
@@ -54,11 +55,25 @@ The TxGNN model predicts it may be effective for **scalp dermatosis**, but **no 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available for noscapine. Based on known information, noscapine is a cough-suppressant ingredient in oral syrup and lozenge products. No link between that use and scalp dermatosis can be drawn from the supplied data.
+Detailed mechanism of action data is not available in the data compiled for this report. Noscapine is generally known as an antitussive acting through sigma-receptors, and it also has tubulin-binding, antimitotic properties. However, nothing in the compiled data connects these properties to scalp dermatosis.
 
-The high score should not be read as a finding. The retrieved data contain no trials, no literature, no mechanistic pathway and no route-compatibility assessment. A topical or scalp-directed use would also be a very different route from the oral products registered in Singapore. Until a mechanism is established, this prediction is a hypothesis to test, not a supported repurposing direction.
+The link between a symptomatic cough medicine and a skin condition of the scalp is not obvious. The high TxGNN score is a computational prediction, likely reflecting proximity in the knowledge graph rather than a demonstrated biological relationship. Further biological rationale would be needed before this prediction can be considered credible.
 
-Among the other nine predictions, the only retrieved literature belongs to "eye disease". It is indirect at best: a sigma-receptor review, a 1962 antitussive comparison and a 1956 chromatography paper. None of it supports scalp dermatosis.
+Other predicted indications were also reviewed, and all share the same evidence level (L5):
+
+| Rank | Predicted Indication | Score | Evidence |
+|------|------|------|------|
+| 2 | RAAS-blocker-induced angioedema | 98.44% | No trials or literature |
+| 3 | Rheumatoid arthritis | 97.13% | No trials or literature |
+| 4 | Atopic eczema | 96.20% | No trials or literature |
+| 5 | Colobomatous microphthalmia-rhizomelic dysplasia syndrome | 95.57% | No trials or literature |
+| 6 | Nephrotic syndrome | 95.41% | No trials or literature |
+| 7 | Brachydactyly-syndactyly syndrome | 95.37% | No trials or literature |
+| 8 | Eye disease | 95.19% | 2 publications, neither providing clinical evidence |
+| 9 | Autoimmune haemolytic anaemia | 95.05% | No trials or literature |
+| 10 | Recurrent idiopathic neuroretinitis | 95.04% | No trials or literature |
+
+For eye disease, a 1999 review discusses sigma-receptors in cough, gastrointestinal and retinal function. This offers only a hypothetical mechanistic link. The other retrieved paper is a 1962 antitussive comparison and is not relevant to eye disease.
 
 ---
 
@@ -70,24 +85,37 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+No literature is available for the top predicted indication (scalp dermatosis). The only publications retrieved relate to the rank 8 prediction (eye disease):
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [10562963](https://pubmed.ncbi.nlm.nih.gov/10562963/) | 1999 | Review | Nihon Yakurigaku Zasshi | Overview of sigma-receptor roles in cough reflex, gastrointestinal and retinal function; sigma-receptor ligands reduced cough in a dose-dependent manner |
+| [13864787](https://pubmed.ncbi.nlm.nih.gov/13864787/) | 1962 | Experimental/Preclinical | Praxis | Double-blind comparison of the antitussive effects of noscapine hydrochloride and dihydrocodeine bitartrate; not relevant to eye disease |
 
 ---
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN09666P | TONIN COUGH SYRUP S | Syrup | Sato Pharmaceutical Co Ltd |
-| SIN04537P | NEW TONIN TROCHE L | Lozenge | Sato Pharmaceutical Co Ltd |
+| SIN09666P | TONIN COUGH SYRUP S | Syrup | Not stated in the licence record |
+| SIN04537P | NEW TONIN TROCHE L | Lozenge | Not stated in the licence record |
 
-The approved indication text is blank for both licences in the record.
+Both licences are valid single-ingredient products from Sato Pharmaceutical Co Ltd.
 
 ---
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
+
+The knowledge graph (not label text) links noscapine to contraindication edges for the following conditions. These are not confirmed label contraindications and should be verified against the package insert:
+
+- **Cardiovascular:** hypertension, myocardial infarction, coronary thrombosis, pulmonary oedema, cor pulmonale
+- **Endocrine and metabolic:** hypothyroidism, myxoedema, congenital hypothyroidism, hyperthyroidism, Graves disease, thyrotoxicosis, diabetes mellitus, diabetic ketoacidosis
+- **Hepatic, gastrointestinal and other:** liver disease, gallbladder disease, peptic ulcer disease, epilepsy, substance abuse/dependence, haemoglobinopathy, multiple organ dysfunction syndrome, cystic fibrosis
+
+No drug interaction records were found.
 
 ---
 
@@ -96,13 +124,14 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone, with no trials, no literature and no supported mechanism. The safety documentation is also missing, which blocks any further safety screening.
+The prediction for scalp dermatosis is supported only by a model score, with no clinical trials, no publications and no identified mechanistic link. Label safety data are also missing, so the evidence is insufficient to advance.
 
 **To proceed, the following is needed:**
-- HSA package insert (warnings, contraindications and approved indication text), which is currently blocking safety screening
-- Mechanism of action data from DrugBank, to test whether any plausible link to scalp dermatosis exists
-- A targeted literature and trial search for noscapine in scalp or inflammatory skin conditions
-- A route-compatibility assessment, since the registered products are oral syrup and lozenge and none is a topical or scalp formulation
+- Mechanism of action data for noscapine, and a plausible biological rationale linking it to scalp dermatosis
+- Preclinical or clinical evidence (literature and trial searches targeted at the predicted indication)
+- Package insert warnings and contraindications from HSA, to allow safety screening
+- Route compatibility assessment, since the available oral forms (syrup, lozenge) may not suit a scalp condition
+- Review of the knowledge-graph contraindication signals against the label
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

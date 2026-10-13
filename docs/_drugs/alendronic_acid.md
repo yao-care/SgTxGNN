@@ -29,74 +29,73 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Alendronic Acid: From Osteoporosis to HIV Infectious Disease (HIV-Associated Bone Loss)
+# Alendronic Acid: From Postmenopausal Osteoporosis to HIV Infectious Disease
 
 ## One-Sentence Summary
 
-Alendronic acid (alendronate) is a bisphosphonate known for treating bone loss and osteoporosis. The Singapore registration records in the data do not state the approved indication text.
-The TxGNN model predicts it for **HIV infectious disease**, but the supporting evidence concerns **bone loss in people with HIV**, not the virus itself. **4 clinical trials** and **2 publications** support this direction.
+Alendronic acid (alendronate) is a bisphosphonate originally used to treat osteoporosis, including postmenopausal osteoporosis, and Paget disease of bone.
+The TxGNN model predicts it may be effective for **HIV infectious disease**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction. It is a model-only prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Predicted New Indication | HIV infectious disease (evidence supports HIV-associated low bone mineral density / osteoporosis only) |
+| Original Indication | Postmenopausal osteoporosis, osteoporosis, bone Paget disease, juvenile Paget disease (from the knowledge graph; no approved indication text is available in the Singapore licence records) |
+| Predicted New Indication | HIV infectious disease |
 | TxGNN Prediction Score | 96.78% |
-| Evidence Level | L2 (only one completed Phase 3 RCT; the source pack labelled it L1, but L1 requires at least 2) |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 3 |
-| Recommended Decision | Proceed with Guardrails |
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Alendronate is a nitrogen-containing bisphosphonate. It inhibits farnesyl pyrophosphate synthase in osteoclasts and reduces bone resorption.
+Currently, detailed mechanism of action data is not available. Based on known information, alendronic acid is a nitrogen-containing bisphosphonate, a class that inhibits bone resorption, and its efficacy in osteoporosis and Paget disease is well established.
 
-People with HIV often have low bone mineral density and a higher fracture risk. This is a comorbidity of HIV and of starting antiretroviral therapy. The trials in this report test alendronate as a treatment for that bone loss, which is its established use applied to an HIV population.
+A plausible but unverified mechanistic link is that nitrogen-containing bisphosphonates inhibit farnesyl pyrophosphate synthase and the prenylation of small GTPases, which could affect immune cell function. Bisphosphonates are also used for HIV-associated bone loss, but that concerns bone density and is not evidence of antiviral or disease-modifying activity against HIV itself.
 
-Alendronate has no antiviral activity, so it does not treat HIV infection itself. Any label or claim should be scoped to **HIV-associated bone loss**, not HIV infection.
-
-## Clinical Trial Evidence
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00120757](https://clinicaltrials.gov/study/NCT00120757) | Phase 3 | Completed | 140 | Placebo-controlled RCT (ANRS 120 Fosivir) of alendronate for HIV-1 associated osteoporosis, with calcium and vitamin D. This is the main Phase 3 evidence. |
-| [NCT00061256](https://clinicaltrials.gov/study/NCT00061256) | Phase 2 | Completed | 80 | Randomized, double-blind, placebo-controlled trial of once-weekly alendronate plus calcium and vitamin D in HIV-infected people with reduced bone density. |
-| [NCT00921557](https://clinicaltrials.gov/study/NCT00921557) | Phase 2 | Completed | 52 | Oral alendronate in HIV-infected children and adolescents with low bone density. It measured lumbar spine bone density changes at 24 and 48 weeks. |
-| [NCT02322099](https://clinicaltrials.gov/study/NCT02322099) | Phase 4 | Terminated | 53 | Short-course alendronate versus placebo to limit bone loss when antiretroviral therapy is started. Early termination reduces the weight of the results. |
-
-## Literature Evidence
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [25300622](https://pubmed.ncbi.nlm.nih.gov/25300622/) | 2014 | Systematic review and meta-analysis | AIDS Reviews | Pooled 8 RCTs of bisphosphonates in HIV-infected adults. Outcomes were bone density changes at the lumbar spine, femoral neck and total hip, plus adverse events. |
-| [26890207](https://pubmed.ncbi.nlm.nih.gov/26890207/) | 2016 | Review | Current Opinion in HIV and AIDS | Reviews drug approaches to preventing and managing low bone density in people living with HIV, given their fracture risk. |
-
-## Singapore Market Information
-
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN15268P | Buffered Binosto Effervescent Tablet 70 mg | Effervescent tablet |
-| SIN11446P | Fosamax Tablet 70 mg | Film-coated tablet |
-| SIN13152P | Fosamax Plus™ 70 mg/2800 IU Tablet | Tablet |
-
-All three are oral products. The approved indication text is not available in the source data.
+The high score is therefore best read as a model-derived signal, not as verified evidence. Other top-ranked predictions (feline immunodeficiency syndrome and simian immunodeficiency virus infection, both at 94.8%) appear to come from the same HIV-related signal in the knowledge graph. Several lower-ranked predictions, such as deficiency anemia, megaloblastic anemia, biotin metabolic disease and a neurodevelopmental disorder, have no apparent mechanistic connection to bone-resorption inhibition.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+**Knowledge-graph contraindication signals** (these come from model-derived drug-disease links, not from package insert text). Main groups:
+- **Upper gastrointestinal / oesophageal conditions**: oesophagitis, oesophageal ulcer, achalasia, oesophageal dyskinesia, gastritis, duodenitis, gastro-oesophageal reflux disease
+- **Mineral and bone metabolism**: hypercalcaemia, vitamin D deficiency, osteomalacia, rickets, hyperphosphataemia, nephrocalcinosis
+- **Renal conditions**: kidney disease, nephrolithiasis
+- **Other**: osteonecrosis of the jaw, atrial fibrillation
+
+**Drug Interactions**: 100 interactions were recorded in total; the data compiled for this report list 20. Most are Moderate. The main ones are:
+- Calcium salts (acetate, carbonate, citrate, gluconate, lactate, phosphate, and others), iron, and magnesium and aluminium-containing antacids (aluminium hydroxide, magaldrate, magnesium carbonate/chloride/citrate), kaolin and attapulgite: **Moderate**, likely reduced absorption of the oral bisphosphonate
+- Acetylsalicylic acid and kanamycin: **Moderate**
+- H2 blockers (famotidine, ranitidine, cimetidine): **Minor**
+
+For the predicted indications, deficiency anemia raises a potential interaction concern with iron supplements. Plummer-Vinson syndrome (dysphagia with oesophageal webs) is clinically implausible and raises a safety concern, because oral alendronate can irritate the oesophagus.
+
+Please refer to the package insert for the full warnings and contraindications.
+
+## Singapore Market Information
+
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN15268P | Buffered Binosto Effervescent Tablet 70 mg | Tablet, effervescent | Not available in the data compiled for this report |
+| SIN11446P | Fosamax Tablet 70 mg | Tablet, film coated | Not available in the data compiled for this report |
+| SIN13152P | Fosamax Plus 70 mg/2800 IU Tablet | Tablet | Not available in the data compiled for this report |
+
+All three licences are valid, single-ingredient registrations and are oral forms.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-One completed Phase 3 RCT, two completed Phase 2 trials and a meta-analysis of 8 RCTs support alendronate for bone loss in people with HIV. The evidence does not support any antiviral use, so the claim must stay limited to HIV-associated bone loss. The other predicted indications (ranks 2–10) have no or only indirect evidence and are on Hold.
+The HIV prediction rests only on a model score. No clinical trials or publications were found, so it sits at evidence level L5. The suggested mechanism is unverified, and bone benefit in HIV-associated bone loss is not evidence of an effect on HIV itself. The drug is marketed in Singapore only for bone-related use, so any HIV application would be a new use.
 
 **To proceed, the following is needed:**
-- The HSA package insert warnings and contraindications (currently blocking safety screening)
-- The approved indication text for the three Singapore registrations
-- A review of the full trial results (bone density outcomes and adverse events), including the terminated trial
-- A decision on how the indication is worded, restricted to HIV-associated low bone density or osteoporosis
+- Package insert warnings and contraindications from the Singapore regulator (HSA)
+- Mechanism of action data to test the proposed link between prenylation inhibition and immune or antiviral effects
+- A systematic literature and trial search for bisphosphonates in HIV beyond bone density outcomes
+- Preclinical evidence of antiviral or immunomodulatory activity, if the hypothesis is to be pursued
+- Review of the interaction and oesophageal safety profile for any target population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

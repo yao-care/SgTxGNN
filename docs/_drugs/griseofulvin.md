@@ -2,7 +2,7 @@
 layout: default
 title: Griseofulvin
 parent: Low Evidence (L5)
-nav_order: 488
+nav_order: 492
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,18 +29,21 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Griseofulvin: From Dermatophyte (Tinea) Infections to Myiasis
+# Griseofulvin: From Tinea (Dermatophyte) Infections to Myiasis
 
 ## One-Sentence Summary
 
-Griseofulvin is an oral antifungal used mainly for dermatophyte skin infections.
-The TxGNN model predicts it may be effective for **myiasis** (fly-larva infestation) with a very high score, but **no clinical trials** and only **1 publication** (a 1970 veterinary review that does not show efficacy) are linked to this prediction.
+Griseofulvin is an oral antifungal originally used to treat dermatophyte infections such as tinea pedis, tinea corporis, tinea unguium and tinea barbae.
+The TxGNN model predicts it may be effective for **myiasis** (score 99.41%), but **no clinical trials and no publications** currently support this prediction.
+It is a model-only signal (evidence level L5), and the mechanistic rationale is weak.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Dermatophyte (tinea) infections (from general drug knowledge; the local registrations do not state an indication) |
+| Original Indication | Dermatophyte infections (tinea pedis, tinea corporis, tinea unguium, tinea barbae, scalp or beard dermatophytosis, groin and perianal dermatophytosis). Singapore licence records contain no approved-indication text, so these come from the knowledge-graph indication data. |
 | Predicted New Indication | Myiasis |
 | TxGNN Prediction Score | 99.41% |
 | Evidence Level | L5 |
@@ -48,54 +51,77 @@ The TxGNN model predicts it may be effective for **myiasis** (fly-larva infestat
 | Number of Registrations | 3 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the source record. Griseofulvin is known as an antifungal that disrupts fungal microtubules and mitosis and is deposited in keratin. That is why it works in superficial skin, hair and nail fungal infections.
+Detailed mechanism of action data is not currently available in the data compiled for this report. Based on general knowledge, griseofulvin is a fungistatic agent that disrupts fungal microtubules and mitosis. Its efficacy is established in dermatophyte infections of skin, hair and nails.
 
-Myiasis is an infestation by fly larvae, not a fungal disease, so this mechanism has no plausible link to it. The high score most likely reflects the drug's position in the knowledge graph, close to other skin-infection and parasitic-disease terms. The same pattern applies to the related terms creeping, wound and furuncular myiasis, all scoring about 99.3% with no trials or literature.
+Myiasis is an infestation of tissue by fly larvae. Larvae are arthropods, so there is no plausible shared target with a fungal-specific agent. The high TxGNN score is a graph-based prediction only. The closely related subtypes (creeping, wound and furuncular myiasis) share an identical score of 99.34%, which suggests a shared ontology-derived signal rather than independent evidence.
 
-Other predicted indications are also weak:
-- **Cutaneous candidiasis (98.7%, L4):** Griseofulvin is generally considered inactive against *Candida*. The 20 retrieved records are general reviews of skin fungal infections and other antifungals, and none shows griseofulvin efficacy in candidiasis. Azole and allylamine alternatives are well established.
-- **Blastomycosis (97.1%, L4):** This is a systemic fungal infection. Griseofulvin is a superficial-infection agent, and standard treatment is itraconazole or amphotericin B.
-- **Echinococcosis (98.4-99.3%, L5):** The only rationale is a speculative tubulin analogy to benzimidazoles such as albendazole, with no experimental data.
-- **Toxoplasmosis and Bacteroidaceae infections (L5):** No mechanism or data support them.
+Other predicted indications are similarly weak:
+- **Echinococcosis (E. granulosus and alveolar)**: a speculative parallel exists, because benzimidazoles also act on tubulin. No data show that griseofulvin affects helminth tubulin.
+- **Cutaneous candidiasis** (score 98.71%): the only prediction with literature, but griseofulvin is generally considered ineffective against Candida. The 20 retrieved publications are mostly reviews of superficial mycoses and other antifungals (terbinafine, itraconazole, ketoconazole, tolnaftate). They are indirect evidence at best (evidence level L4).
+- **Blastomycosis** (score 97.08%): a systemic fungal infection, so class plausibility is higher. Azoles and amphotericin B are the standard treatments, and the three retrieved publications (1963–1994) are general reviews with only indirect support (L4).
+- **Toxoplasmosis and Bacteroidaceae infection**: no plausible mechanism, and no evidence.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [4098614](https://pubmed.ncbi.nlm.nih.gov/4098614/) | 1970 | Review | The Veterinary Record | Review of parasitic skin diseases of dogs and cats. No abstract is available, and it does not show griseofulvin efficacy against myiasis. |
+Currently no related literature available for myiasis.
+
+---
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN00899P | HEXENE-FORTE TABLET 500 mg (Sunward Pharmaceutical) | Tablet |
-| SIN07993P | HOVID-GRISEOFULVIN 500 TABLET B.P. 500mg (Hovid Bhd.) | Film-coated tablet |
-| SIN00896P | HEXENE TABLET 125 mg (Sunward Pharmaceutical) | Tablet |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN00899P | HEXENE-FORTE TABLET 500 mg | Tablet | Not stated in registration record |
+| SIN07993P | HOVID-GRISEOFULVIN 500 TABLET B.P. 500mg | Tablet, film coated | Not stated in registration record |
+| SIN00896P | HEXENE TABLET 125 mg | Tablet | Not stated in registration record |
 
-All three products are oral tablets.
+All three licences are valid single-ingredient oral products. No topical formulation is registered.
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found in the queried source.
+- **Contraindications (from knowledge-graph drug-disease links, not package insert text)**:
+  - Liver failure
+  - Porphyria (inherited porphyria and porphyrin metabolism disease)
+  - Systemic lupus erythematosus (including paediatric)
+  - Substance abuse/dependence
+  - Agranulocytosis and neutropenia (including cyclic hematopoiesis and several congenital neutropenia syndromes)
+- **Drug Interactions**: 100 interactions were identified. Most listed are Moderate, and a few are Minor. Notable examples:
+  - Anticoagulants and antiplatelets: warfarin, apixaban, rivaroxaban, ticagrelor, dicoumarol (Moderate)
+  - Antidiabetic agents: repaglinide, saxagliptin, linagliptin (Moderate); liraglutide (Minor)
+  - Antiemetics: aprepitant, rolapitant (Moderate)
+  - Antimalarials and antiparasitics: artemether, mefloquine, praziquantel (Moderate)
+  - Others: eliglustat, naloxegol, nitisinone, macimorelin, fostamatinib (Moderate); acetylsalicylic acid (Minor)
+
+Please refer to the package insert for key warnings, as label-based warnings and contraindications were not available.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone (L5). There are no clinical trials, and the only publication is a 1970 veterinary review that does not support efficacy. The antifungal mechanism has no plausible link to fly-larva infestation, and established treatments exist for the other predicted indications.
+The prediction rests on model output alone. There are no clinical trials or publications for myiasis, and no plausible mechanism links an antifungal to fly-larvae infestation. The near-identical scores across the myiasis subtypes suggest an ontology artifact rather than real signal.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications. This is a blocking gap for safety screening.
-- Detailed mechanism of action data from DrugBank.
-- Any experimental (in vitro or in vivo) evidence of griseofulvin activity against the predicted target organisms. If none is found, the myiasis prediction is unlikely to justify further work.
-- For the fungal predictions (cutaneous candidiasis, blastomycosis), direct comparative data showing an advantage over current standard therapy.
+- Package insert warnings and contraindications from the HSA, as the safety screening cannot proceed without them
+- Mechanism of action data
+- Any in vitro, animal or clinical evidence of griseofulvin activity against fly larvae (or, alternatively, a review of other predicted indications with more plausible links, such as systemic fungal infections)
+- Confirmation of route compatibility, since only oral tablets are registered in Singapore
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

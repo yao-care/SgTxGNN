@@ -2,7 +2,7 @@
 layout: default
 title: Clindamycin
 parent: Low Evidence (L5)
-nav_order: 261
+nav_order: 263
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,34 +29,33 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Clindamycin: From Bacterial Infections to Punctate Epithelial Keratoconjunctivitis
+# Clindamycin: From Bacterial Infections and Acne to Punctate Epithelial Keratoconjunctivitis
 
 ## One-Sentence Summary
 
-Clindamycin is a lincosamide antibiotic used against bacterial infections. The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**, but **0 clinical trials** and **0 publications** currently support this prediction, so it rests on the model score alone.
+Clindamycin is a lincosamide antibiotic originally used for bacterial infections (streptococcal, staphylococcal, anaerobic and aspiration pneumonia), bacterial vaginosis and acne.
+The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**,
+but there are currently **no clinical trials** and **no publications** supporting this specific prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Bacterial infections (streptococcal, staphylococcal, anaerobic), acne, bacterial vaginosis (the Singapore licence records contain no approved indication text) |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 99.97% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 17 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Clindamycin inhibits bacterial protein synthesis by binding the 50S ribosomal subunit. Its main activity is against Gram-positive bacteria and anaerobes. Detailed mechanism data from DrugBank are not currently available, so this description relies on the known drug class.
+Clindamycin is an antibacterial lincosamide. It inhibits bacterial protein synthesis by binding the 50S ribosomal subunit. Detailed mechanism-of-action data are not available in the data compiled for this report, so this description is based on general knowledge of the drug class.
 
-The mechanistic link to the predicted indication is weak. Punctate epithelial keratoconjunctivitis is usually viral or toxic/inflammatory rather than bacterial, so an antibacterial rationale is not established. The high score is a knowledge-graph prediction and has not been tested clinically. Clindamycin is also not a standard ocular therapy.
+Its established uses are against Gram-positive and anaerobic bacterial infections, acne and vaginal infections. Punctate epithelial keratoconjunctivitis is often viral or toxic/inflammatory in origin, so a direct antibacterial mechanism is not clearly relevant. The high score probably reflects network proximity to ocular surface infections rather than a validated mechanism.
 
-Other top-ranked predictions are also poorly supported:
-- **Exposure keratitis** (score 99.80%, L4) has only indirect literature on bacterial keratitis in general. Clindamycin's Gram-positive activity might matter for secondary infection.
-- **Epidemic keratoconjunctivitis** is caused by adenovirus, and clindamycin has no antiviral activity.
-- **Non-human animal disease** is not a valid human disease target.
-- Most remaining candidates (neurotrophic keratopathy, superior limbic keratoconjunctivitis, keratomalacia, visual snow syndrome, ophthalmia nodosa, atrophic vaginitis) have no plausible mechanism or evidence.
+For context, the other top-ranked predictions are mostly eye-surface conditions (exposure keratitis, neurotrophic keratopathy, epidemic keratoconjunctivitis and others). Only exposure keratitis has any related literature, and that literature concerns infectious keratitis, not clindamycin treatment of the predicted condition. The remaining predictions have no supporting evidence or a weak mechanistic rationale.
 
 ## Clinical Trial Evidence
 
@@ -64,43 +63,45 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for punctate epithelial keratoconjunctivitis.
 
 ## Singapore Market Information
 
-Clindamycin has 17 registrations in Singapore. The main ones are listed below.
+Seventeen valid single-ingredient licences are listed. The five main ones are shown below. Approved indication text is not recorded for any of them.
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN07338P | Dalacin T Lotion 1% | Lotion |
-| SIN10164P | Tidact Capsule 150 mg | Capsule |
-| SIN11955P | T3 Mycin Gel 1% w/w | Gel |
-| SIN15960P | Clidacin Preservative Free Solution for injection or infusion 150 mg/ml | Injection, solution |
-| SIN16907P | Novell-Clindamycin Capsule 150 mg | Capsule |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN02170P | DALACIN C CAPSULE 150 mg | Capsule | Not recorded |
+| SIN09496P | DALACIN C CAPSULE 300 mg | Capsule | Not recorded |
+| SIN01502P | DALACIN C INJECTION 150 mg/ml | Injection | Not recorded |
+| SIN09700P | DALACIN T TOPICAL GEL 1% | Gel | Not recorded |
+| SIN07338P | DALACIN T LOTION 1% | Lotion | Not recorded |
 
-Available routes are oral, topical, and injectable. No ophthalmic formulation appears in the retrieved data.
+Available forms across all licences are oral capsules, injections and solutions for injection, topical gels and lotions. No ophthalmic formulation is listed.
 
 ## Safety Considerations
 
-- **Drug Interactions**: No interaction records were found in the query.
+**Contraindication signals from the knowledge graph (not label text):** liver failure, Crohn disease, inflammatory bowel disease, ulcerative colitis, *Clostridium difficile* colitis, diarrhoeal disease, perinatal necrotizing enterocolitis, atopic and exfoliative dermatitis, sunburn, and vulvovaginal candidiasis.
 
-Please refer to the package insert for safety information on warnings and contraindications. Clindamycin is a well-known risk factor for *Clostridioides difficile* infection.
+**Drug Interactions:** 100 interactions were found. Those graded Moderate include balsalazide, clarithromycin, picosulfuric acid, attapulgite and kaolin. Others are of unknown severity (for example amphotericin B, aspirin, amoxicillin, vancomycin, morphine, metformin and several proton pump inhibitors).
+
+**Additional concern:** Clindamycin is a recognized risk factor for *C. difficile* infection, consistent with the contraindication signals above.
+
+Please refer to the package insert for full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no trials or literature (L5), and the antibacterial mechanism does not fit a mostly viral or toxic/inflammatory condition. Route compatibility is also unresolved, since no ophthalmic clindamycin product is registered.
+The prediction has no clinical trials or literature behind it (L5), and the mechanistic link is weak because the condition is usually viral or inflammatory rather than bacterial. There is also no ophthalmic clindamycin product in Singapore.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- Direct clinical or preclinical evidence for the predicted indication
-- Route and formulation feasibility assessment for ocular use
-- Consideration of exposure keratitis (secondary bacterial infection) as a more plausible alternative candidate
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
+- Package insert warnings and contraindications from the HSA (a blocking gap for safety screening)
+- Detailed mechanism-of-action data
+- Evidence that bacterial infection plays a role in punctate epithelial keratoconjunctivitis, or any clinical data on clindamycin in this condition
+- An assessment of route and formulation feasibility, since only systemic and dermatological products are marketed
+- A review of whether another prediction, such as exposure keratitis with secondary bacterial infection, is more tractable
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

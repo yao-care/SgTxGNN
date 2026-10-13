@@ -2,7 +2,7 @@
 layout: default
 title: Meloxicam
 parent: Low Evidence (L5)
-nav_order: 639
+nav_order: 645
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Meloxicam: From an Established NSAID to Acromesomelic Dysplasia, Hunter-Thompson Type
+# Meloxicam: From Rheumatoid Arthritis and Osteoarthritis to Acromesomelic Dysplasia, Hunter-Thompson Type
 
 ## One-Sentence Summary
 
-Meloxicam is an oral nonsteroidal anti-inflammatory drug (NSAID) that is marketed in Singapore. The registration data do not state its approved indication.
-The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunter-Thompson type**, a genetic skeletal disorder.
-This prediction has **0 clinical trials** and **0 publications** behind it, so it rests on the model score alone.
+Meloxicam is a COX-2-preferential NSAID, originally used for rheumatoid arthritis, osteoarthritis and juvenile idiopathic arthritis.
+The TxGNN model predicts it may be effective for **acromesomelic dysplasia, Hunter-Thompson type**, a rare genetic skeletal disorder,
+but there are currently **0 clinical trials** and **0 publications** supporting this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration data (all approved-indication fields are empty) |
+| Original Indication | Rheumatoid arthritis, osteoarthritis, juvenile idiopathic arthritis, spondyloarthropathy (the Singapore licence records contain no indication text) |
 | Predicted New Indication | Acromesomelic dysplasia, Hunter-Thompson type |
 | TxGNN Prediction Score | 99.92% |
 | Evidence Level | L5 |
@@ -51,11 +51,11 @@ This prediction has **0 clinical trials** and **0 publications** behind it, so i
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available for meloxicam. It is known to be a COX-2-preferential NSAID that reduces prostaglandin-mediated inflammation and pain.
+Currently, detailed mechanism of action data is not available from the compiled data. Meloxicam is a COX-2-preferential NSAID that reduces prostaglandin-mediated inflammation and pain. Its efficacy in inflammatory and degenerative joint diseases is well established.
 
-Acromesomelic dysplasia, Hunter-Thompson type is a genetic skeletal dysplasia caused by disruption of the CDMP1/GDF5 pathway, which controls bone and cartilage growth. COX-2 inhibition does not act on this pathway. At most, meloxicam might ease pain, and there is no basis for expecting it to change the course of the disease.
+Acromesomelic dysplasia, Hunter-Thompson type, is a genetic skeletal dysplasia caused by loss-of-function variants in CDMP1/GDF5, which affect chondrogenesis. Meloxicam has no known effect on the GDF5/BMP signalling pathway. The very high TxGNN score probably reflects the disease's proximity to musculoskeletal and arthropathy terms in the knowledge graph rather than a true therapeutic relationship. At most, an NSAID might relieve secondary joint pain, and this has not been studied.
 
-The very high score (0.999) comes from a graph-based prediction only. It reflects network patterns in the knowledge graph, not biological or clinical support. The mechanistic link is therefore assessed as **not credible**.
+Other top-ranked predictions show the same pattern. Most are rare genetic skeletal or developmental disorders (brachyolmia, pseudoachondroplasia, WHIM syndrome and others) with no plausible mechanistic link. The only entries with a credible connection overlap with meloxicam's existing indications. These are spondyloarthropathy susceptibility, rheumatoid nodulosis and rheumatoid factor-positive polyarticular juvenile idiopathic arthritis. Rheumatoid factor-positive polyarticular JIA is the only prediction with any supporting literature, and that is a general NSAID safety registry rather than evidence of efficacy.
 
 ## Clinical Trial Evidence
 
@@ -63,41 +63,41 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for the lead prediction.
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN14305P | Arrox Tablet 7.5mg | Tablet | Not stated in registration data |
-| SIN12127P | MELOX TABLET 7.5 mg | Tablet | Not stated in registration data |
-| SIN09554P | MOBIC TABLET 7.5 mg | Tablet | Not stated in registration data |
+| SIN14305P | Arrox Tablet 7.5mg | Tablet | Not stated in the available records |
+| SIN12127P | MELOX TABLET 7.5 mg | Tablet | Not stated in the available records |
+| SIN09554P | MOBIC TABLET 7.5 mg | Tablet | Not stated in the available records |
 
-All three products are oral tablets.
+All three licences are valid single-ingredient oral tablets.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications (from the TxGNN knowledge graph, not package insert text)**: hypertension and hypertensive disorders, congestive heart failure, heart disease and cardiovascular disease, myocardial infarction and coronary thrombosis, stroke and cerebrovascular disorders, kidney disease and impaired renal function, active peptic ulcer disease, gastritis, blood coagulation disease, anaemia and hemoglobinopathy, diabetes mellitus and diabetic ketoacidosis, hyperlipidaemia (including familial), and substance abuse/dependence.
+- **Drug Interactions**: The interaction query returned 100 records. Most are of Moderate severity, and one (linaclotide) is Minor. Examples include:
+  - Corticosteroids: hydrocortisone, dexamethasone, betamethasone, triamcinolone, budesonide.
+  - Other anti-inflammatory drugs: acetylsalicylic acid, mesalazine, balsalazide.
+  - Antidiabetic agents: metformin, glimepiride, chlorpropamide.
+  - Others: aprepitant, vancomycin, kanamycin, potassium citrate, potassium bicarbonate, and bowel-preparation products.
+
+Please refer to the package insert for the official warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting trials or publications and no credible mechanistic link. It is a Level L5 (model-only) result, and the drug's own safety and mechanism data are still incomplete.
-
-**Other candidates in this run:**
-- The rheumatoid factor-positive polyarticular juvenile idiopathic arthritis prediction (rank 8, score 99.44%) is the only one with any literature. It has one non-randomized safety publication (PMID [25057265](https://pubmed.ncbi.nlm.nih.gov/25057265/)) on NSAIDs in JIA, which gives it Level L3 and a "Research Question" status.
-- Meloxicam may already be labeled for JIA in some jurisdictions, so local labeling should be checked before any further work.
-- Spondyloarthropathy (rank 6) is biologically plausible because NSAIDs are a recognized symptomatic therapy class. However, no meloxicam-specific evidence was found in this dataset.
+The prediction has no supporting clinical trials or literature (Evidence Level L5). There is also no plausible mechanistic link between COX inhibition and a GDF5-related skeletal dysplasia. It is most likely a knowledge-graph artefact. Meloxicam's safety profile, with cardiovascular, renal and gastrointestinal cautions, adds further risk to any speculative use.
 
 **To proceed, the following is needed:**
-- The HSA package insert (warnings, contraindications, approved indications). This is currently blocking safety screening.
-- Detailed mechanism of action data (for example, from DrugBank).
-- A targeted literature search for meloxicam in the higher-plausibility candidates (JIA, spondyloarthropathy) before any reassessment.
-- Confirmation of the original approved indication, since the registration text is empty.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Singapore package insert warnings and contraindications (HSA), which are required before any safety screening.
+- Mechanism of action data from DrugBank.
+- Any preclinical or clinical evidence linking COX inhibition to GDF5/BMP-related skeletal disease.
+- If a lower-risk lead is wanted, review the rheumatoid factor-positive polyarticular JIA prediction. It overlaps with the existing indication and has one supporting safety paper, so it would be an extension of current use rather than true repurposing.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

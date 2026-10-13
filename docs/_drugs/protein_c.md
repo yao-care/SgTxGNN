@@ -2,7 +2,7 @@
 layout: default
 title: Protein C
 parent: Low Evidence (L5)
-nav_order: 830
+nav_order: 839
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,72 +29,89 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Protein C: From an Unrecorded Approved Use to Glanzmann Thrombasthenia
+# Protein C: From Unspecified Original Indication to Glanzmann Thrombasthenia (Top Prediction) — Best-Supported Use: Inherited Thrombophilia
 
 ## One-Sentence Summary
 
-Protein C is a vitamin K-dependent natural anticoagulant, and its original approved indication is not recorded in the Singapore registry data.
-The TxGNN model predicts it may be effective for **Glanzmann thrombasthenia** with a very high score, but there are **0 clinical trials** and only **2 publications** (both general reviews with no protein C treatment data).
-This top-ranked prediction looks like a knowledge-graph artifact and is not supported by mechanism.
+Protein C is a plasma-derived natural anticoagulant protein. The data compiled for this report do not list an approved indication text for the Singapore licence, but it is used clinically to replace the missing protein in severe congenital Protein C deficiency.
+The TxGNN model's highest-scoring prediction is **Glanzmann thrombasthenia** (score 98.6%), but this is biologically implausible: the drug is an anticoagulant and the disease is a bleeding disorder, and no trials or relevant literature support it.
+The only prediction with real support is **inherited thrombophilia** (rank 8), backed by **3 relevant clinical studies** (1 Phase 2/3, 1 retrospective study and 1 registry) and several review articles. This is essentially the drug's on-label use, not true repurposing.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the HSA licence data |
-| Predicted New Indication | Glanzmann thrombasthenia |
-| TxGNN Prediction Score | 98.60% |
-| Evidence Level | L5 |
+| Original Indication | Not stated in the licence data (approved indication text is empty) |
+| Predicted New Indication | Glanzmann thrombasthenia (rank 1); best-supported prediction: inherited thrombophilia (rank 8) |
+| TxGNN Prediction Score | 98.60% (Glanzmann thrombasthenia); 90.01% (inherited thrombophilia) |
+| Evidence Level | L5 (Glanzmann thrombasthenia); L2 (inherited thrombophilia) |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 1 |
-| Recommended Decision | Hold |
+| Recommended Decision | Hold (Glanzmann thrombasthenia); Proceed with Guardrails (inherited thrombophilia, restricted to severe Protein C deficiency) |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from the source database. Protein C is known as the body's own anticoagulant: once activated, it inactivates clotting factors Va and VIIIa and so limits clot formation.
+Detailed mechanism of action data is not available from the compiled data. Based on known information, Protein C is a vitamin K-dependent anticoagulant. Its activated form (APC) inactivates coagulation factors Va and VIIIa, which limits clot formation.
 
-Glanzmann thrombasthenia is the opposite kind of problem. It is a bleeding disorder caused by a defect in the platelet GPIIb/IIIa receptor. An anticoagulant would be expected to worsen bleeding, not treat it. The high score (0.986) therefore most likely reflects a link in the knowledge graph rather than a real therapeutic relationship. The two supporting papers are a veterinary diagnostic review and a coagulation physiology review, and neither contains protein C therapy data.
+**Glanzmann thrombasthenia (top-ranked prediction):** This is a bleeding disorder caused by a defect in platelet integrin alphaIIb/beta3. Giving an anticoagulant would be expected to worsen bleeding, not relieve it. The high score (0.986) most likely reflects closeness within the haemostasis network of the knowledge graph rather than a real treatment rationale. The same reasoning applies to the other bleeding or platelet disorders in the top 10 (primary release disorder of platelets, pseudo-von Willebrand disease, constitutional thrombocytopenia, collagen receptor defect, Scott syndrome, platelet-type bleeding disorder, fetal and neonatal alloimmune thrombocytopenia). The tenth entry, "flood factor deficiency", appears to be a malformed term that cannot be mapped to a clinical entity.
 
-This does not mean the drug has no credible new use. Among the other ten predictions, **inherited thrombophilia** (rank 8, score 90.0%) is the only one with real support. Protein C concentrate is studied in severe congenital protein C deficiency, and the logic is direct: replacing the missing anticoagulant protein. That is closer to an established use than to true repurposing (see the conclusion below).
+**Inherited thrombophilia (best-supported prediction):** Severe congenital Protein C deficiency causes purpura fulminans and venous thromboembolism through loss of the Protein C anticoagulant pathway. Protein C concentrate (Ceprotin) directly replaces the missing protein, so the mechanism is coherent. This is the drug's on-label use, i.e. replacement of the deficient protein rather than repurposing in the strict sense.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for Glanzmann thrombasthenia.
+No clinical trials are registered for the top-ranked prediction (Glanzmann thrombasthenia). The table below covers the best-supported prediction, inherited thrombophilia. Only trials directly involving Protein C concentrate are included.
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT00157118](https://clinicaltrials.gov/study/NCT00157118) | Phase 2/3 | Completed | 18 | Efficacy and safety of Protein C concentrate in severe congenital Protein C deficiency (acute episodes, short-term and long-term prophylaxis) |
+| [NCT00161720](https://clinicaltrials.gov/study/NCT00161720) | N/A | Completed | 11 | Retrospective dosing and outcome data for patients treated under an emergency use IND; supports clinical use but is not a controlled trial |
+| [NCT01127529](https://clinicaltrials.gov/study/NCT01127529) | N/A | Completed | 43 | Ceprotin treatment registry; real-world safety and effectiveness data |
+| [NCT06590974](https://clinicaltrials.gov/study/NCT06590974) | N/A | Recruiting | 7 | Post-marketing surveillance of Ceprotin 1000 IU in Japan; no results available yet |
+| [NCT04180657](https://clinicaltrials.gov/study/NCT04180657) | N/A | Unknown | 60 | Observational study of ghrelin levels in Protein C deficiency; not an intervention study with Protein C |
 
 ## Literature Evidence
 
+No relevant literature supports Protein C for Glanzmann thrombasthenia. The two retrieved papers (a veterinary review of equine haemostatic disorders and a review of platelet coagulation) are only general background. The table below covers inherited thrombophilia; all are reviews or guidelines, and none is an RCT.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [32368218](https://pubmed.ncbi.nlm.nih.gov/32368218/) | 2020 | Review | Iranian Journal of Veterinary Research | Describes how hemostatic disorders are diagnosed in horses. No protein C treatment data. |
-| [10494034](https://pubmed.ncbi.nlm.nih.gov/10494034/) | 1999 | Review | Haemostasis | Explains thrombin generation and platelet interaction in platelet-rich plasma. No protein C treatment data. |
+| [39233011](https://pubmed.ncbi.nlm.nih.gov/39233011/) | 2024 | Review (ISTH communication) | J Thromb Haemost | Use of direct oral anticoagulants in severe thrombophilia; evidence limited to cohort and single-centre studies |
+| [38733983](https://pubmed.ncbi.nlm.nih.gov/38733983/) | 2024 | Review | Semin Thromb Hemost | Thrombophilia screening should be selective; thrombophilia does not always predict recurrence |
+| [24739277](https://pubmed.ncbi.nlm.nih.gov/24739277/) | 2014 | Review | J Pharm Pract | Inherited thrombophilias, including rare natural anticoagulant deficiencies (antithrombin, Protein C, Protein S) |
+| [23986205](https://pubmed.ncbi.nlm.nih.gov/23986205/) | 2013 | Review | Adv Clin Exp Med | Practical diagnostic issues in Protein C and Protein S deficiency |
+| [29518638](https://pubmed.ncbi.nlm.nih.gov/29518638/) | 2018 | Review | Thromb Res | Thrombophilia testing in children, including Protein C deficiency |
+| [37334488](https://pubmed.ncbi.nlm.nih.gov/37334488/) | 2023 | Guideline | BJOG | Recurrent miscarriage guideline; testing for acquired thrombophilia |
+| [24365371](https://pubmed.ncbi.nlm.nih.gov/24365371/) | 2014 | Review | Handb Clin Neurol | Thrombophilic states and cerebral venous sinus thrombosis |
+| [32204642](https://pubmed.ncbi.nlm.nih.gov/32204642/) | 2022 | Review | J Matern Fetal Neonatal Med | Neonatal thrombosis and its risk factors |
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN14933P | OCTAPLEX POWDER AND SOLVENT FOR SOLUTION FOR INJECTION 500 IU | Injection, powder, for solution | Not stated in the registry entry |
+| SIN14933P | OCTAPLEX Powder and Solvent for Solution for Injection 500 IU | Injection, powder, for solution | Not stated in the licence data |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions:** 32 interactions were identified in total. The only one rated Major is **caplacizumab**. The others are mostly rated Moderate and involve other anticoagulants and thrombolytics, such as warfarin, apixaban, edoxaban, enoxaparin, dalteparin, fondaparinux, argatroban, bivalirudin, alteplase, antithrombin III human and drotrecogin alfa, as well as celecoxib. Concurrent use with these agents needs close monitoring for bleeding.
+- **Mechanism-related concern:** For the bleeding and platelet disorders predicted by the model, an anticoagulant would be expected to worsen bleeding.
+
+Please refer to the package insert for further safety information, including warnings and contraindications.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Hold (Glanzmann thrombasthenia and the other bleeding or platelet disorders); Proceed with Guardrails (inherited thrombophilia, limited to severe congenital Protein C deficiency)**
 
 **Rationale:**
-The top-ranked prediction (Glanzmann thrombasthenia) has no clinical trials, no relevant literature and a mechanism that points the wrong way, so it should not be pursued. Safety data are also missing, because the package insert has not been retrieved, and this blocks progression to safety screening.
-
-**Other predictions (summary):**
-- **Inherited thrombophilia (rank 8)** is the only candidate with real evidence. It is graded L2 and rated "Proceed with Guardrails". The support is a Phase 2/3 open-label, single-arm study of protein C concentrate in severe congenital protein C deficiency (NCT00157118, n=18, not an RCT), plus a treatment registry and a Japanese post-marketing surveillance study. Any recommendation should be limited to **severe congenital protein C deficiency**, under hematology supervision with thrombosis and bleeding monitoring. Other inherited thrombophilias (for example factor V Leiden) are not supported.
-- **Ranks 2–7, 9 and 10** (platelet and coagulation-factor bleeding disorders) have no mechanistic rationale and only L5 evidence. Rank 10, "flood factor deficiency", may be a mislabelled ontology term.
+- The top-ranked prediction, Glanzmann thrombasthenia, has no trials, no relevant literature and an unfavourable mechanism (an anticoagulant for a bleeding disorder). It should be treated as a graph-proximity artefact.
+- For inherited thrombophilia, a completed Phase 2/3 study (n=18), a retrospective study and a registry support Protein C replacement in severe congenital deficiency. Evidence is limited to small rare-disease studies and there is no controlled Phase 3 RCT, so the level is L2 rather than L1.
 
 **To proceed, the following is needed:**
-- The HSA package insert (warnings, contraindications) to complete safety screening. This is a blocking gap.
-- The approved indication for SIN14933P, to define the original indication.
-- Mechanism of action data from DrugBank.
-- A decision on whether to re-scope the evaluation to severe congenital protein C deficiency, which is closer to an established use than to repurposing.
-- Verification of the ontology mapping for "flood factor deficiency".
+- Package insert warnings and contraindications from the HSA (currently missing and blocking for safety screening)
+- Approved indication text for the Singapore licence
+- Detailed mechanism of action data
+- Clarification of whether the Singapore product (a product listed under the Octaplex name) matches the Protein C concentrate used in the trials
+- Restriction to documented severe Protein C deficiency (not general thrombophilia), with monitoring of Protein C activity and bleeding; the broader thrombophilia literature does not support Protein C supplementation in non-deficient patients
+- Verification of the term "flood factor deficiency" before any further assessment
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Resorcinol
-parent: Low Evidence (L5)
-nav_order: 853
-evidence_level: L5
+parent: Medium Evidence (L3-L4)
+nav_order: 862
+evidence_level: L4
 indication_count: 10
 ---
 
 # Resorcinol
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,78 +29,76 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Resorcinol: From Topical Keratolytic/Antiseptic Use to Acne Keloid
+# Resorcinol: From Acne and Dermatitis to Acne Keloid
 
 ## One-Sentence Summary
 
-Resorcinol is a topical keratolytic and antiseptic agent, historically used for acne and other follicular skin conditions.
-The TxGNN model predicts it may be effective for **acne keloid**, but there are currently **0 clinical trials** and **0 publications** supporting this direction.
-The prediction is a model-generated hypothesis only (Evidence Level L5).
-
----
+Resorcinol is a topical keratolytic and antiseptic agent, originally used for acne, dermatitis and acneiform dermatitis.
+The TxGNN model predicts it may be effective for **acne keloid** (acne keloidalis nuchae), but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on the model score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration records; historically used as a topical keratolytic/antiseptic for acne and follicular skin conditions |
+| Original Indication | Acne, dermatitis, acneiform dermatitis (from the knowledge graph; the Singapore licences list no indication text) |
 | Predicted New Indication | Acne keloid |
 | TxGNN Prediction Score | 99.83% |
-| Evidence Level | L5 |
+| Evidence Level | L4 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 2 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, resorcinol is a topical phenolic keratolytic and antiseptic. It has long been used in skin products for acne and other follicular conditions. Mechanistically, it may be applicable to acne keloid, which is an inflammatory follicular condition of the skin.
+Currently, detailed mechanism of action data is not available. Based on known information, resorcinol is a topical keratolytic agent used in acne and related inflammatory skin conditions. Its keratolytic and antiseptic effects are established in those settings, and mechanistically they may be applicable to acne keloid.
 
-Acne keloid is a follicular and dermal disorder, so a dermatologic link to resorcinol's historical uses is plausible. However, no disease-specific trial or publication was found. The high TxGNN score (0.998) is a computational association, not proof of efficacy, and should be treated as a research question rather than a clinical conclusion.
+Acne keloid is a chronic follicular inflammatory disorder with scarring. Because it involves follicular inflammation, the keratolytic and antiseptic effects of resorcinol are plausibly relevant. This link is indirect and inferred from the original acne indication; it has not been tested in this condition.
 
----
+The other nine predictions in the top ten have even weaker support (see the note below). They include amyopathic dermatomyositis, neonatal dermatomyositis, childhood connective-tissue-disease-associated interstitial lung disease, acrodermatitis chronica atrophicans, familial hydroa vacciniforme, rheumatoid vasculitis, hypermobility of coccyx, polyarticular juvenile rheumatoid arthritis and ankylosing spondylitis. All are rated L5 (model prediction only) and Hold. Most are systemic autoimmune, infectious or mechanical conditions that a topical keratolytic would not be expected to affect.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
 Currently no related literature available.
-
----
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN06396P | WILISAN RINGWORM COMPOUND LOTION | Lotion | Not listed in registration record |
-| SIN03372P | CASTELLANI'S PAINT (STAINLESS) | Liquid | Not listed in registration record |
+| SIN06396P | WILISAN RINGWORM COMPOUND LOTION | Lotion | Not stated |
+| SIN03372P | CASTELLANI'S PAINT (STAINLESS) | Liquid | Not stated |
 
----
+Both licences are valid single-ingredient products for topical use.
+
+## Cytotoxicity
+
+Not applicable: resorcinol is not an antineoplastic drug, so this section is omitted.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Knowledge-graph contraindication signals** (from drug-disease contraindication links, not from label text): epilepsy, kidney disease, diabetes mellitus, diabetic ketoacidosis, methemoglobinemia (including methemoglobin reductase deficiency), sulfhemoglobinemia, G6PD deficiency, sudden cardiac arrest, heart conduction disease, respiratory failure, peripheral vascular disease and peripheral arterial disease, intermittent claudication, glycogen storage disease, cystinuria, galactosemia, pyruvate dehydrogenase E3 deficiency, anogenital human papillomavirus infection, common wart, pyoureter, exanthem, folliculitis, seborrheic dermatitis and dermatitis.
+- **Absorption concerns**: the percutaneous absorption of resorcinol and its associated toxicity (for example methemoglobinemia and thyroid effects) make use in neonates and children particularly inadvisable.
+- **Drug interactions**: no interaction records were found.
 
----
+Package insert warnings and contraindications have not been obtained. Please refer to the package insert for authoritative safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The only support is a model prediction, with no clinical trials or literature, and the mechanism of action is unavailable. The dermatologic link to acne keloid is plausible but unverified. The other nine predicted indications (for example amyopathic dermatomyositis, ankylosing spondylitis, rheumatoid vasculitis) have no mechanistic rationale and are also on Hold.
+The prediction score for acne keloid is very high (99.83%), but no clinical trials or publications support it. The mechanistic link is indirect and inferred from the acne indication. The knowledge graph also flags many contraindication signals, and the package insert safety data are missing. This makes it a research question rather than a candidate ready to move forward.
 
 **To proceed, the following is needed:**
-- Mechanism of action data, for example from DrugBank
-- Package insert warnings and contraindications from the HSA website, which are required before any safety screening
-- Targeted literature and trial searches for resorcinol in acne keloid and related keloidal or follicular conditions
-- Approved indication text for the two Singapore registrations
-- Assessment of topical route suitability and local tolerability, including systemic absorption of phenolic compounds
+- Package insert warnings and contraindications from the HSA website (a blocking gap for safety screening)
+- Mechanism of action data for resorcinol (for example from DrugBank)
+- A literature and trial search for resorcinol or keratolytics in acne keloidalis nuchae
+- Confirmation of the approved indications for the two Singapore licences
+- Route and formulation compatibility review (topical lotion or liquid for follicular scalp and neck lesions)
+- A systemic absorption and safety assessment, especially for patients with G6PD deficiency, methemoglobinemia or renal disease, and for paediatric use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Indacaterol
 parent: Low Evidence (L5)
-nav_order: 524
+nav_order: 528
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,18 +29,20 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Indacaterol: From COPD to Nephrogenic Syndrome of Inappropriate Antidiuresis
+# Indacaterol: From Obstructive Airway Disease to Nephrogenic Syndrome of Inappropriate Antidiuresis
 
 ## One-Sentence Summary
 
-Indacaterol is an ultra-long-acting inhaled beta-2 agonist bronchodilator, used in Singapore-registered combination inhalers for obstructive airway disease.
-The TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**, but there are currently **0 clinical trials** and **0 publications** supporting this direction, so it is a model prediction only.
+Indacaterol is an ultra-long-acting inhaled beta2-agonist bronchodilator, registered in Singapore in several inhaler products.
+The TxGNN model predicts it may be effective for **nephrogenic syndrome of inappropriate antidiuresis (NSIAD)**, but **no clinical trials and no publications** currently support this prediction.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Obstructive airway disease (COPD; asthma in triple-combination products). No indication text appears in the Singapore registration records provided |
+| Original Indication | Not stated in the Singapore registration records; indacaterol is a long-acting beta2-agonist bronchodilator used for obstructive airway disease |
 | Predicted New Indication | Nephrogenic syndrome of inappropriate antidiuresis |
 | TxGNN Prediction Score | 99.54% |
 | Evidence Level | L5 |
@@ -48,52 +50,68 @@ The TxGNN model predicts it may be effective for **nephrogenic syndrome of inapp
 | Number of Registrations | 5 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the records. Indacaterol is a long-acting beta-2 agonist that relaxes airway smooth muscle through Gs/cAMP signalling. It is marketed in fixed-dose combinations with glycopyrronium and/or mometasone.
+Detailed mechanism of action data are not available in the data compiled for this report. Indacaterol is known to be an ultra-long-acting beta2-adrenergic agonist. It activates a Gs-coupled receptor and raises intracellular cAMP.
 
-NSIAD is caused by gain-of-function mutations in the vasopressin V2 receptor (AVPR2), which leave the receptor constitutively active. Indacaterol acts on a different Gs-coupled receptor, and no established pathway connects beta-2 agonism to suppressing constitutive V2 receptor signalling. Its bronchodilator use has no clear link to a renal water-handling disorder.
+NSIAD is caused by gain-of-function variants in the vasopressin V2 receptor (AVPR2). The V2 receptor is also Gs-coupled and raises cAMP. This shared signalling pathway is the only conceivable link, and no direct connection between beta2-agonism and this disease has been established. Beta2-agonism would, if anything, be expected to add to cAMP signalling rather than counteract the overactive V2 receptor.
 
-The high score therefore reflects graph-based similarity in the TxGNN knowledge graph, not a demonstrated or plausible therapeutic mechanism. The link should be treated as speculative.
+The high score therefore appears to be a network-level prediction without a supporting mechanism. The prediction is not mechanistically supported.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
 
-## Singapore Market Information
+---
 
-All five registrations are combination products containing indacaterol. The registration records provided do not state approved indications.
+## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN14539P | Ultibro Breezhaler Inhalation Powder Hard Capsule 110/50 mcg | Capsule | Not stated in the record |
-| SIN16148P | Atectura Breezhaler Inhalation Powder, Hard Capsule 150/160 mcg | Powder, metered | Not stated in the record |
-| SIN16149P | Atectura Breezhaler Inhalation Powder, Hard Capsule 150/80 mcg | Powder, metered | Not stated in the record |
-| SIN16147P | Atectura Breezhaler Inhalation Powder, Hard Capsule 150/320 mcg | Powder, metered | Not stated in the record |
-| SIN16153P | Enerzair Breezhaler Inhalation Powder, Hard Capsule 150/50/160 mcg | Powder, metered | Not stated in the record |
+| SIN14539P | Ultibro Breezhaler Inhalation Powder Hard Capsule 110/50 mcg | Capsule | Not listed in the registration record |
+| SIN16148P | Atectura Breezhaler Inhalation Powder, Hard Capsule 150/160 mcg | Powder, metered | Not listed in the registration record |
+| SIN16149P | Atectura Breezhaler Inhalation Powder, Hard Capsule 150/80 mcg | Powder, metered | Not listed in the registration record |
+| SIN16147P | Atectura Breezhaler Inhalation Powder, Hard Capsule 150/320 mcg | Powder, metered | Not listed in the registration record |
+| SIN16153P | Enerzair Breezhaler Inhalation Powder, Hard Capsule 150/50/160 mcg | Powder, metered | Not listed in the registration record |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. Warnings, contraindications and interaction data have not yet been obtained from the HSA package insert.
+- **Disease associations flagged in the knowledge graph (not label text):** hypertension and hypertensive disorders, long QT syndrome (including familial), sudden cardiac arrest, heart conduction disease, coronary artery disease, epilepsy, hyperglycaemia, diabetes mellitus, diabetic ketoacidosis, potassium deficiency, and thyrotoxicosis, hyperthyroidism and Graves disease. These are consistent with the known cardiovascular, metabolic and hypokalaemic effects of beta2-agonists.
+- **Drug interactions:** 100 interactions were identified. Examples:
+  - **Moderate:** antidiabetic agents (acarbose, metformin, pioglitazone, alogliptin, saxagliptin, albiglutide, canagliflozin, dapagliflozin, chlorpropamide), epinephrine, isometheptene, famotidine and clarithromycin.
+  - **Minor:** corticosteroids (hydrocortisone, dexamethasone, budesonide, beclomethasone, betamethasone, triamcinolone) and aprepitant.
+
+Please refer to the package insert for label warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The NSIAD prediction has no trials, no literature and no credible mechanism, so it rests on a graph score alone (Evidence Level L5). Safety data have not been retrieved, which blocks safety screening.
-
-Among the other top-10 predictions, only "bronchial disease" has substantial evidence (multiple Phase 3 asthma trials and an RCT). That mostly reflects indacaterol's existing bronchodilator use rather than true repurposing, and the asthma evidence applies to the triple combination rather than to indacaterol alone.
+The NSIAD prediction has only a model score. There are no trials or publications, and no plausible mechanism has been identified. It should not be pursued further on current evidence.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from the HSA website
-- Mechanism of action data from DrugBank
-- Preclinical or mechanistic evidence linking beta-2 agonism to V2 receptor signalling, if this direction is to be pursued
-- Correction of the empty original-indication field so that existing labelled uses are separated from true repurposing candidates
+- A credible mechanistic hypothesis and preclinical data linking beta2-agonism to AVPR2-driven antidiuresis
+- Detailed mechanism of action data and the indications and safety warnings from the Singapore package inserts
+
+**Note on other predictions from the same analysis:**
+- **Bronchial disease (rank 7, score 99.18%):** This prediction has the strongest evidence in this analysis (Evidence Level L1, "Proceed with Guardrails"). It is supported by several completed Phase 3 trials in asthma, including NCT02554786 (n=2,216), NCT00529529 (n=805) and NCT01079130 (n=511), and by the IRIDIUM RCT (PMID 32653074, *Lancet Respir Med*, 2020).
+- **Caveat:** This is largely an existing drug class use rather than true repurposing. Stand-alone LABA use in asthma carries a safety concern, so use should be restricted to combinations with an inhaled corticosteroid.
+- **Other predictions (ranks 2–6 and 8–10):** headache disorder, trigeminal autonomic cephalalgia, paratenonitis, calcific tendinitis, hypertrichosis, myositis, anaphylaxis and Ambras-type hypertrichosis. All have no supporting evidence and are rated "Hold".
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Tenofovir Alafenamide
-parent: Low Evidence (L5)
-nav_order: 953
-evidence_level: L5
+parent: Medium Evidence (L3-L4)
+nav_order: 963
+evidence_level: L4
 indication_count: 10
 ---
 
 # Tenofovir Alafenamide
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,75 +29,92 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tenofovir Alafenamide: From HIV/HBV Antiviral Therapy to Simian Immunodeficiency Virus Infection
+# Tenofovir Alafenamide: From HIV Infection to Simian Immunodeficiency Virus Infection
 
 ## One-Sentence Summary
 
-Tenofovir alafenamide (TAF) is a tenofovir prodrug already marketed in Singapore in HIV and hepatitis B products.
-The TxGNN model predicts it may be effective for **simian immunodeficiency virus (SIV) infection**, a non-human disease used as a preclinical stand-in for HIV.
-Support is thin and indirect: **1 clinical trial** (an HIV study that does not test TAF against SIV) and **8 publications**, all preclinical animal or model studies.
+Tenofovir alafenamide (TAF) was originally developed for HIV infection and AIDS.
+The TxGNN model predicts it may be effective for **simian immunodeficiency virus (SIV) infection**, but the evidence is limited to **8 preclinical publications** (mostly macaque studies) and **no registered clinical trials**.
+SIV infection is an animal-model disease, not a human clinical target, so this prediction is better read as a confirmation of TAF's anti-retroviral activity than as a new human indication.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | HIV infection / AIDS |
 | Predicted New Indication | Simian immunodeficiency virus infection |
 | TxGNN Prediction Score | 99.89% |
-| Evidence Level | L4 (preclinical studies) |
+| Evidence Level | L4 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 5 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the source record. TAF is a prodrug of tenofovir. Its active metabolite, tenofovir diphosphate, inhibits the reverse transcriptase of lentiviruses such as HIV and terminates the viral DNA chain. SIV is a close relative of HIV and uses the same enzyme, so activity against it is biologically plausible.
+Detailed mechanism of action data is not available in the compiled data. TAF is known to be a prodrug of tenofovir and a nucleotide reverse transcriptase inhibitor. It is used in HIV treatment and in several fixed-dose combinations. SIV and the chimeric SHIV viruses are close relatives of HIV that also depend on reverse transcription, so activity against them is mechanistically coherent.
 
-SIV infection is not a human disease. Macaque SIV/SHIV (simian-human immunodeficiency virus) models are mainly used to test HIV treatment and prevention strategies. A positive result there therefore supports TAF's existing HIV use and does not create a new human indication. The high model score probably reflects this HIV–SIV similarity.
+The original indication (HIV) and the predicted indication (SIV) are essentially the same virus family studied in a different host. Macaque SIV/SHIV models are widely used to test HIV prevention (PrEP, PEP) and cure strategies. The prediction therefore mostly reflects the drug's use as a research tool in these models, not a new treatment opportunity for patients.
+
+---
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT03577782](https://clinicaltrials.gov/study/NCT03577782) | Phase 1/2 | Unknown | 12 | Vedolizumab plus antiretroviral therapy in HIV-infected people, aiming for remission without ART. It does not test TAF efficacy and does not involve SIV. |
+Currently no related clinical trials registered.
+
+---
 
 ## Literature Evidence
 
+All retrieved publications are preclinical. No randomised human trials exist for this indication.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [38134382](https://pubmed.ncbi.nlm.nih.gov/38134382/) | 2024 | Preclinical (macaque) | J Infect Dis | TAF/elvitegravir vaginal inserts gave extended post-exposure protection against SHIV |
-| [39632836](https://pubmed.ncbi.nlm.nih.gov/39632836/) | 2024 | Preclinical (macaque) | Nat Commun | Oral emtricitabine/TAF plus long-acting cabotegravir/rilpivirine for SHIV remission with early treatment |
+| [27465645](https://pubmed.ncbi.nlm.nih.gov/27465645/) | 2016 | Preclinical (macaque) | J Infect Dis | Oral emtricitabine + TAF protected macaques from repeated rectal SHIV exposure, supporting TAF for PrEP |
+| [31362305](https://pubmed.ncbi.nlm.nih.gov/31362305/) | 2019 | Preclinical (macaque) | J Infect Dis | Tested oral TAF/emtricitabine and TAF alone against repeated vaginal SHIV exposure |
+| [35913838](https://pubmed.ncbi.nlm.nih.gov/35913838/) | 2022 | Preclinical (implant, animal) | J Antimicrob Chemother | Biodegradable TAF-releasing implant evaluated for safety and vaginal protection in macaques |
+| [38134382](https://pubmed.ncbi.nlm.nih.gov/38134382/) | 2024 | Preclinical (macaque) | J Infect Dis | TAF/elvitegravir vaginal inserts gave extended post-exposure protection (earlier work: 93% protection before and 100% after exposure) |
+| [39632836](https://pubmed.ncbi.nlm.nih.gov/39632836/) | 2024 | Preclinical (macaque) | Nat Commun | Early treatment with oral emtricitabine/TAF plus long-acting cabotegravir/rilpivirine, with or without an immune agent, aimed at SHIV remission |
+| [41342257](https://pubmed.ncbi.nlm.nih.gov/41342257/) | 2026 | Preclinical (macaque, topical insert) | J Infect Dis | TAF/elvitegravir rectal inserts gave partial post-exposure protection (82.9%) |
 | [39559349](https://pubmed.ncbi.nlm.nih.gov/39559349/) | 2024 | Preclinical (humanized mouse) | Front Immunol | Dual-purpose mouse model for testing antivirals against both SIV and HIV |
-| [35913838](https://pubmed.ncbi.nlm.nih.gov/35913838/) | 2022 | Preclinical (macaque) | J Antimicrob Chemother | Biodegradable TAF implant for vaginal protection in macaques |
-| [31362305](https://pubmed.ncbi.nlm.nih.gov/31362305/) | 2019 | Preclinical (macaque) | J Infect Dis | Oral TAF/emtricitabine or TAF alone against vaginal SHIV infection |
-| [31730629](https://pubmed.ncbi.nlm.nih.gov/31730629/) | 2019 | Preclinical (methods) | PLoS One | Protocol for training macaques to take daily oral antiretrovirals |
-| [27465645](https://pubmed.ncbi.nlm.nih.gov/27465645/) | 2016 | Preclinical (macaque) | J Infect Dis | Oral emtricitabine/TAF protected macaques from rectal SHIV infection |
-| [22740713](https://pubmed.ncbi.nlm.nih.gov/22740713/) | 2012 | Preclinical (macaque) | J Infect Dis | Oral PrEP reduced inflammation and CD4 loss in breakthrough acute SHIV infection |
+| [31730629](https://pubmed.ncbi.nlm.nih.gov/31730629/) | 2019 | Preclinical (methods) | PLoS One | Protocol for training macaques to take daily oral antiretrovirals, for HIV prevention and treatment research |
+
+---
 
 ## Singapore Market Information
 
+TAF is registered in Singapore in 5 valid single-ingredient-listed licences, all oral film-coated tablets. The registration records do not include approved-indication text.
+
 | Authorization Number | Product Name | Dosage Form |
 |---------|------|------|
-| SIN15392P | VEMLIDY Film Coated Tablet 25 mg | Film-coated tablet |
-| SIN15322P | DESCOVY Film Coated Tablet 200 mg/25 mg | Film-coated tablet |
-| SIN15321P | DESCOVY Film Coated Tablet 200 mg/10 mg | Film-coated tablet |
-| SIN16015P | ODEFSEY Film-Coated Tablet 200 mg/25 mg/25 mg | Film-coated tablet |
-| SIN15604P | BIKTARVY Film-Coated Tablets 50 mg/200 mg/25 mg | Film-coated tablet |
+| SIN15392P | VEMLIDY 25 mg | Film-coated tablet |
+| SIN15322P | DESCOVY 200 mg/25 mg | Film-coated tablet |
+| SIN15321P | DESCOVY 200 mg/10 mg | Film-coated tablet |
+| SIN16015P | ODEFSEY 200 mg/25 mg/25 mg | Film-coated tablet |
+| SIN15604P | BIKTARVY 50 mg/200 mg/25 mg | Film-coated tablet |
+
+---
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The evidence is preclinical only (L4). SIV is a non-human disease, so these results do not support a new human indication. The relevant human uses of TAF (HIV and hepatitis B) are already established and covered by the marketed products.
+The supporting evidence is entirely preclinical (macaque and mouse studies) and there are no registered trials. SIV infection is an animal-model disease, so there is no human repurposing opportunity. The prediction mainly confirms TAF's anti-retroviral activity, which is already established in its approved HIV use.
 
 **To proceed, the following is needed:**
-- Singapore package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- A clear human target indication: SIV is not one, and the established HIV and HBV uses are not novel repurposing
+- A clinically relevant human target. The data compiled for this report suggest chronic hepatitis B virus infection (lower-ranked in the model, but with Phase 3 evidence, L1) is a far stronger candidate to evaluate.
+- Detailed mechanism of action data (MOA).
+- Package insert warnings and contraindications from the Singapore regulator (HSA) to support safety screening.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

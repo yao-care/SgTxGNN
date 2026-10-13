@@ -2,7 +2,7 @@
 layout: default
 title: Tretinoin
 parent: Low Evidence (L5)
-nav_order: 1009
+nav_order: 1019
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,92 +29,103 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tretinoin: From Retinoid Therapy (Acne and Leukaemia Formulations) to Rheumatoid Nodulosis
+# Tretinoin: From Acne and Acute Promyelocytic Leukemia to Rheumatoid Nodulosis
 
 ## One-Sentence Summary
 
-Tretinoin is a retinoid marketed in Singapore as topical creams and an oral capsule. The registry records do not state a formal indication.
-The TxGNN model ranks **rheumatoid nodulosis** as its top prediction, but this prediction is **model-only**, with **0 clinical trials** and **0 publications**.
-Among the ten predictions, only **osteoarthritis** has any supporting literature. That literature is preclinical and conflicting, with no human trials of tretinoin.
+Tretinoin (all-trans retinoic acid) is originally used for acne, acute promyelocytic leukemia, acquired keratosis and palmoplantar keratoderma.
+The TxGNN model predicts it may be effective for **rheumatoid nodulosis**, but there are currently **0 clinical trials** and **0 relevant publications** supporting this direction.
+This is a computational prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registry records. The products are a topical cream and an oral capsule (Vesanoid), which are typically used for acne and acute promyelocytic leukaemia. This is general knowledge, not taken from the registry. |
+| Original Indication | Acne, acute promyelocytic leukemia, acquired keratosis, palmoplantar keratoderma (from the TxGNN knowledge graph; no approved indication text is available from Singapore licences) |
 | Predicted New Indication | Rheumatoid nodulosis |
 | TxGNN Prediction Score | 99.84% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
-| Number of Registrations | 6 (5 listed in the data) |
+| Number of Registrations | 6 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Tretinoin is a retinoic acid receptor (RAR) agonist, and retinoids affect cell differentiation and immune modulation. This is the only mechanistic basis available. Nothing in the supplied data links it to the biology of rheumatoid nodules.
+Currently, detailed mechanism of action data is not available. Based on known information, tretinoin is a retinoid that acts through retinoic acid receptor (RAR) signaling. Its efficacy in acne, keratinization disorders and acute promyelocytic leukemia is established. Retinoids are also reported to have immunomodulatory effects, such as influencing the Th17/Treg balance, which could plausibly relate to rheumatoid disease.
 
-The top ten predictions are mostly inflammatory arthritis and skeletal conditions. Several are near-synonyms of one another, such as the juvenile idiopathic arthritis entries. The high scores (about 99.3–99.8%) likely reflect closeness within the same disease cluster of the knowledge graph. They do not reflect independent evidence. One entry is a genetic susceptibility node rather than a treatable condition.
+This link is a general hypothesis and is not supported by the data compiled for this report. The high TxGNN score reflects a graph-based computational association, not clinical evidence.
 
-Osteoarthritis (score 99.44%) is the only prediction with a mechanistic story, and the evidence points in conflicting directions:
-- Genetic and GWAS-derived work suggests retinoic acid signalling may be anti-inflammatory and protective in cartilage.
-- A 2025 study of retinoic acid-induced osteoarthritis suggests a possible harm signal at high exposure.
-
-Dose, route (topical or systemic) and direction of effect remain unresolved.
+The other top predictions are mostly juvenile arthritis entities (ranks 2-4 and 6) and skeletal conditions (ranks 5, 7-9). The juvenile arthritis entries are likely related to one another and do not represent independent signals. Systemic retinoids are known to cause skeletal toxicity, which argues for caution in these areas. Among the top 10, Quinquaud's folliculitis decalvans (rank 10, score 99.30%) is the most biologically plausible, since tretinoin is established in dermatology. It is still an inference rather than evidence.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for rheumatoid nodulosis, or for any of the other nine predicted indications.
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-No related literature is available for rheumatoid nodulosis.
+Currently no related literature available for rheumatoid nodulosis.
 
-The table below shows the most relevant publications for the **osteoarthritis** prediction (rank 7). These are preclinical or genetic studies, and none is a tretinoin trial. Only 10 of the 20 retrieved publications were visible for review, and the other 10 should be screened before any evidence upgrade.
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [36542696](https://pubmed.ncbi.nlm.nih.gov/36542696/) | 2022 | Genetic association with preclinical validation | Sci Transl Med | ALDH1A2 variants (the retinoic acid synthesis enzyme) are linked to severe hand osteoarthritis. This supports an anti-inflammatory role for retinoic acid. |
-| [37418291](https://pubmed.ncbi.nlm.nih.gov/37418291/) | 2023 | Genetic / in silico analysis | DNA Cell Biol | Proposes retinoic acid metabolism blocking agents to suppress mechanoflammation in osteoarthritis. |
-| [40564983](https://pubmed.ncbi.nlm.nih.gov/40564983/) | 2025 | Preclinical (RNA-seq, network pharmacology, docking) | Int J Mol Sci | Models retinoic acid-induced osteoarthritis, so it is a possible harm signal. |
-| [38302538](https://pubmed.ncbi.nlm.nih.gov/38302538/) | 2024 | In vitro | Sci Rep | Tests a retinoic acid analogue on BMP-driven stem cell chondrogenesis. |
-| [15946654](https://pubmed.ncbi.nlm.nih.gov/15946654/) | 2005 | In vitro | Biochem Pharmacol | All-trans retinoic acid blocks cytokine-induced MMP production in human chondrocytes via JNK-AP-1 signalling. |
-| [12505482](https://pubmed.ncbi.nlm.nih.gov/12505482/) | 2003 | In vitro | Osteoarthritis Cartilage | Runx2 expression in chondrocytes is regulated by retinoid signalling and PTHrP. |
-
-For folliculitis decalvans (rank 10), the single retrieved paper ([PMID 27814407](https://pubmed.ncbi.nlm.nih.gov/27814407/), 2016, *Cutis*) is a case report on a related but distinct condition. It does not mention tretinoin, so it is not counted as evidence.
+For osteoarthritis (rank 7), two items were retrieved, but neither supports tretinoin use. One concerns platelet-rich plasma injections for knee osteoarthritis. The other is a case report of adverse events after arsenic trioxide treatment for acute promyelocytic leukemia. These are likely retrieval artifacts.
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN08057P | VESANOID CAPSULE 10 mg | Capsule | Not stated in registry record |
-| SIN16390P | TRETINON CREAM 0.05% W/W | Cream | Not stated in registry record |
-| SIN12368P | RETRIEVE CREAM 0.05% w/w | Cream | Not stated in registry record |
-| SIN08095P | RETACNYL 0.025 CREAM 0.025% | Cream | Not stated in registry record |
-| SIN08098P | RETACNYL 0.05 CREAM 0.05% | Cream | Not stated in registry record |
+| SIN16390P | Tretinon Cream 0.05% w/w | Cream | Not specified |
+| SIN08057P | Vesanoid Capsule 10 mg | Capsule | Not specified |
+| SIN12368P | Retrieve Cream 0.05% w/w | Cream | Not specified |
+| SIN08095P | Retacnyl 0.025 Cream 0.025% | Cream | Not specified |
+| SIN08098P | Retacnyl 0.05 Cream 0.05% | Cream | Not specified |
+
+A sixth licence, Tri-Luma Cream (SIN12607P), is also valid. All 6 registrations are single-ingredient and valid. Five are topical creams and one is an oral capsule (Vesanoid).
+
+## Cytotoxicity
+
+| Item | Content |
+|------|------|
+| Cytotoxicity Classification | Differentiation-inducing agent (retinoid) used in acute promyelocytic leukemia, not a conventional cytotoxic |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert warnings and precautions |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ## Safety Considerations
 
-- **Paediatric concern**: For the juvenile arthritis predictions, the evidence review notes that systemic retinoids carry skeletal toxicity risks in children.
-- **Possible harm signal**: One 2025 preclinical study models retinoic acid-induced osteoarthritis, which suggests possible harm at high exposure.
+- **Contraindications (knowledge graph, not label text)**: The TxGNN knowledge graph lists contraindication links with the following conditions:
+  - Liver, kidney, pancreatic and gallbladder disease
+  - Congestive heart failure
+  - Diabetes mellitus and diabetic ketoacidosis
+  - Adrenocortical insufficiency and Addison disease
+  - Osteoporosis, including postmenopausal osteoporosis
+  - Crohn disease and inflammatory bowel disease
+  - Atopic eczema
+  - Sunburn
+  - Psychiatric disorders: anxiety, neurotic, dysthymic, psychotic and schizoaffective disorders
+  - Mycosis fungoides and related cutaneous T-cell lymphomas
+- **Drug Interactions**: 100 interactions were found. The main **Major** interactions are:
+  - Doxycycline
+  - Tetracycline
+  - Minocycline
+  - Vitamin A
 
-Please refer to the package insert for warnings, contraindications and drug interaction information.
+  **Moderate** interactions include aprepitant, clarithromycin and naltrexone. Levofloxacin is a minor interaction.
+- **Other considerations**: Systemic tretinoin carries concerns of teratogenicity and bone and mucocutaneous toxicity. These are especially relevant for the pediatric and skeletal predictions.
+
+Package insert warnings and contraindications could not be obtained for this report. Please refer to the package insert for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-All ten predictions rest on model scores alone or on indirect preclinical evidence, and there are no human interventional data for tretinoin in any of them. Osteoarthritis is the only candidate worth keeping as a research question (evidence level L4), and its direction of effect is still unclear.
+The prediction rests only on a model score, with no clinical trials or relevant literature (Evidence Level L5). The mechanistic link is speculative. The top predictions also overlap with known retinoid skeletal toxicity and with several knowledge graph contraindications.
 
 **To proceed, the following is needed:**
-- The package insert warnings and contraindications from the HSA website
-- Mechanism of action data (for example from the DrugBank API)
-- Screening of the other 10 osteoarthritis publications that were not visible for review
-- A decision on route and dose (topical versus systemic) and on the direction of effect in cartilage
-- Approved indication text for the Singapore licences
-- Paediatric skeletal safety assessment before any juvenile arthritis candidate is considered
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Package insert warnings and contraindications from the HSA website (a blocking gap for safety screening)
+- Mechanism of action data from DrugBank
+- A targeted literature search on retinoids in rheumatoid nodulosis and related arthritis
+- Consideration of dermatological predictions, such as folliculitis decalvans, which may be more plausible than the arthritis and skeletal ones
+- Evaluation of route compatibility (topical vs oral) and a risk assessment for systemic exposure
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

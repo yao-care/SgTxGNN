@@ -2,7 +2,7 @@
 layout: default
 title: Potassium Iodide
 parent: Medium Evidence (L3-L4)
-nav_order: 805
+nav_order: 814
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,12 +29,13 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Potassium Iodide: From Parenteral Trace-Element Products to Nasal Cavity Disease
+# Potassium Iodide: From Allergic Rhinitis and Upper Respiratory Inflammation to Nasal Cavity Disease
 
 ## One-Sentence Summary
 
-> Potassium iodide is registered in Singapore as an ingredient of three intravenous trace-element infusion concentrates; the supplied records do not state an approved indication.
-> The TxGNN model predicts it may be effective for **nasal cavity disease**, but there are **0 clinical trials** and only **4 case reports** (3 of them veterinary) behind this direction, all involving fungal or fungus-like nasal infections.
+Potassium iodide was originally used for upper respiratory conditions such as allergic rhinitis, vasomotor rhinitis, pharyngitis, the common cold and nasopharyngitis.
+The TxGNN model predicts it may be effective for **nasal cavity disease**, but there are **no registered clinical trials** and only **4 publications**, all case reports (mostly veterinary).
+The prediction therefore rests mainly on the model score and indirect antifungal-related evidence.
 
 ---
 
@@ -42,7 +43,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration records (the products are parenteral trace-element infusions) |
+| Original Indication | Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold, nasopharyngitis (from the knowledge graph; Singapore licence indication text is not available) |
 | Predicted New Indication | Nasal cavity disease |
 | TxGNN Prediction Score | 99.95% |
 | Evidence Level | L4 |
@@ -54,9 +55,11 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Potassium iodide is a long-established treatment for some fungal and fungus-like infections, notably sporotrichosis and entomophthoromycosis. The retrieved reports describe rhinofacial pythiosis, mycotic rhinitis and nasofacial zygomycosis, so the link is plausible for an **infectious (fungal) subset** of nasal disease.
+Currently, detailed mechanism of action data is not available. Based on known information, potassium iodide is an established treatment for certain fungal and oomycete infections (for example sporotrichosis, and in veterinary medicine rhinofacial pythiosis and zygomycosis). It is also traditionally used as an expectorant for upper respiratory secretions, and mechanistically it may be applicable to nasal cavity disease.
 
-This does not support "nasal cavity disease" as a whole. The high TxGNN score is a model output, not clinical proof. Also, the Singapore-registered products are intravenous multi-trace-element concentrates. The literature uses oral or saturated-solution potassium iodide, so a registered product with a matching route is not currently available.
+The retrieved papers describe nasal or rhinofacial mycotic infections in sheep and horses, plus a single human case of nasofacial zygomycosis that responded rapidly to potassium iodide. This offers plausible, indirect support. However, it does not come from controlled human studies of nasal cavity disease in general. The very high TxGNN score is a model prediction only and is not proof of benefit.
+
+Other predicted indications (for example acute laryngopharyngitis, laryngitis and tracheal disease) are closer to the original upper respiratory uses, but they have even less supporting evidence. Several lower-ranked predictions, such as faucial diphtheria, cervical disc degenerative disorder and headache disorder, have no identifiable mechanistic basis and are likely model artefacts.
 
 ---
 
@@ -70,33 +73,44 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [7997795](https://pubmed.ncbi.nlm.nih.gov/7997795/) | 1994 | Case report (human) | Rev Inst Med Trop Sao Paulo | Nasofacial zygomycosis in a 64-year-old woman in Brazil; rapid response to potassium iodide therapy |
-| [34902797](https://pubmed.ncbi.nlm.nih.gov/34902797/) | 2022 | Case report (veterinary, sheep) | J Mycol Med | Rhinofacial pythiosis in sheep; reported as successfully treated with potassium iodide |
-| [39576399](https://pubmed.ncbi.nlm.nih.gov/39576399/) | 2024 | Case report (veterinary, horse) | Vet Res Commun | *Aspergillus* mycotic rhinitis in a mare treated with topical clotrimazole plus oral potassium iodide; the combination makes the contribution of KI unclear |
-| [10976304](https://pubmed.ncbi.nlm.nih.gov/10976304/) | 2000 | Case report (veterinary, horse) | J Am Vet Med Assoc | *Pseudallescheria boydii* infection of the nasal cavity; treated with intranasal miconazole, intravenous sodium iodide and other measures |
+| [34902797](https://pubmed.ncbi.nlm.nih.gov/34902797/) | 2022 | Case report (veterinary, sheep) | Journal de mycologie medicale | Successful potassium iodide treatment of rhinofacial pythiosis, an oomycete infection of the nasal cavity and hard palate |
+| [39576399](https://pubmed.ncbi.nlm.nih.gov/39576399/) | 2024 | Case report (veterinary, horse) | Veterinary research communications | Mycotic rhinitis caused by *Aspergillus fumigatus* treated with topical clotrimazole plus oral potassium iodide |
+| [10976304](https://pubmed.ncbi.nlm.nih.gov/10976304/) | 2000 | Case report (veterinary, horse) | Journal of the American Veterinary Medical Association | *Pseudallescheria boydii* infection of the nasal cavity; treatment included intranasal miconazole and intravenous sodium iodide |
+| [7997795](https://pubmed.ncbi.nlm.nih.gov/7997795/) | 1994 | Case report (human) | Revista do Instituto de Medicina Tropical de Sao Paulo | Nasofacial zygomycosis in a 64-year-old woman, with rapid response to potassium iodide |
 
-All four are single-case reports, and the abstracts supplied are truncated. They cannot establish efficacy.
+All four are case reports. None is a controlled study.
 
 ---
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN08899P | PEDITRACE Concentrate for Parenteral Infusion | Injection |
-| SIN15302P | ADDAVEN Concentrate for Solution for Infusion | Infusion, solution concentrate |
-| SIN14341P | Nutritrace Concentrate for solution for infusion | Infusion, solution concentrate |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN08899P | PEDITRACE CONCENTRATE FOR PARENTERAL INFUSION | Injection | Not available |
+| SIN15302P | ADDAVEN CONCENTRATE FOR SOLUTION FOR INFUSION | Infusion, solution concentrate | Not available |
+| SIN14341P | Nutritrace Concentrate for solution for infusion | Infusion, solution concentrate | Not available |
 
-Approved indication text is not recorded for any of these licenses. All three are injectable products.
+The three registered products are injectable or infusion concentrates. Their forms are not suited to treating nasal disease, so route compatibility for the predicted indication has not been established.
 
 ---
 
 ## Safety Considerations
 
-- **Drug Interactions**: No interactions were found in the queried database.
-- **Literature-derived signals (not label data)**: A 1972 case report links maternal iodide ingestion to congenital goiter (PMID 5068335). A 1909 report describes laryngeal crisis from potassium iodide poisoning (iodism; PMID 29815838). Iodide excess can affect thyroid function, which matters for any new use at higher doses.
+**Contraindication signals from the knowledge graph** (these are graph associations, not package insert text). The listed conditions include:
+- Thyroid: hypothyroidism, myxedema, congenital hypothyroidism
+- Cardiovascular and renal: hypertension, kidney disease
+- Liver and digestive: liver failure, liver disease, gallbladder disease, pancreatitis, peptic ulcer disease, inflammatory bowel disease
+- Respiratory: chronic obstructive pulmonary disease
+- Neuropsychiatric: epilepsy, anxiety disorder, psychotic disorder, schizoaffective disorder
+- Metabolic and other: diabetes mellitus, diabetic ketoacidosis, porphyria, thrombocytopenia, dermatitis herpetiformis
 
-For label warnings and contraindications, please refer to the package insert.
+**Drug interactions:** 45 interactions were identified; the 20 listed in the data are summarised here.
+- **Major:** ACE inhibitors (benazepril, captopril, enalapril, lisinopril, moexipril, perindopril, quinapril), angiotensin receptor blockers (olmesartan, valsartan, azilsartan medoxomil, losartan, telmisartan), and trimethoprim. These are likely linked to a risk of raised potassium.
+- **Moderate:** NSAIDs (ketorolac, ibuprofen, diclofenac, oxaprozin, naproxen), aliskiren and tolvaptan.
+
+**Other signals from the literature:** one historical report describes potassium iodide poisoning presenting as a laryngeal crisis. Iodides can also cause hypersensitivity or urticarial reactions, and thyroid function effects are a recognised concern.
+
+Package insert warnings and contraindications for the Singapore products were not available. Please refer to the package insert for authoritative safety information.
 
 ---
 
@@ -105,15 +119,14 @@ For label warnings and contraindications, please refer to the package insert.
 **Decision: Hold**
 
 **Rationale:**
-The evidence is limited to four case reports, three of them veterinary, and covers only fungal nasal infections. There are no trials, and the registered Singapore products are intravenous trace-element formulations that do not match the oral use in the literature. The remaining nine predicted indications, including acute laryngopharyngitis and faucial diphtheria, have no supporting evidence or documented mechanism beyond the model score, so they do not change this decision.
+The evidence is limited to a few case reports, mostly in animals, with no registered trials and no controlled human data. The high TxGNN score is a prediction only. The registered Singapore products are parenteral trace-element or nutrition concentrates and are not suitable for treating nasal disease. The drug also has a notable interaction and contraindication profile.
 
 **To proceed, the following is needed:**
-- Narrow the question to fungal or fungus-like rhinitis (for example entomophthoromycosis or pythiosis) rather than nasal cavity disease in general
-- A systematic literature search for human case series and trials in that subset
-- Package insert warnings and contraindications from the HSA, which are currently missing and block safety screening
-- Mechanism of action data from DrugBank
-- A feasibility check of whether any oral potassium iodide product is available in Singapore, since the registered products are all injectable
-- A thyroid safety assessment (iodide-induced goiter and iodism) for the intended dose and population
+- Mechanism of action data for potassium iodide
+- Package insert warnings and contraindications for the Singapore products (currently a blocking gap for safety screening)
+- Controlled human studies, or at least larger human case series, in a defined nasal condition such as fungal rhinosinusitis
+- A route and formulation assessment, since no nasal or oral product is currently registered
+- A safety plan covering thyroid function, potassium monitoring and hypersensitivity, especially with ACE inhibitors and angiotensin receptor blockers
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

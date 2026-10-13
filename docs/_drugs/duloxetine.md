@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Duloxetine
-parent: Low Evidence (L5)
-nav_order: 354
-evidence_level: L5
+parent: High Evidence (L1-L2)
+nav_order: 358
+evidence_level: L2
 indication_count: 10
 ---
 
 # Duloxetine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,69 +29,93 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Duloxetine: From Major Depressive Disorder to Benign Paroxysmal Torticollis of Infancy
+# Duloxetine: From Major Depressive Disorder to Obsessive-Compulsive Disorder
+
+*Note on scope: the top-ranked TxGNN prediction (benign paroxysmal torticollis of infancy) has no trials or literature behind it. This report therefore centres on the best-supported prediction, obsessive-compulsive disorder (OCD, rank 3). The other predictions are summarised briefly in the conclusion.*
 
 ## One-Sentence Summary
 
-Duloxetine is a serotonin-norepinephrine reuptake inhibitor (SNRI), an antidepressant class used for depression, generalized anxiety disorder and chronic pain conditions.
-The TxGNN model predicts it may be effective for **benign paroxysmal torticollis of infancy**, but **0 clinical trials** and **0 publications** currently support this prediction, so it rests on the model score alone.
+Duloxetine is a serotonin-norepinephrine reuptake inhibitor (SNRI) originally used for depression and anxiety, and also for fibromyalgia and stress urinary incontinence in women.
+The TxGNN model predicts it may be effective for **obsessive-compulsive disorder**, with **3 clinical trials** (1 directly on duloxetine) and **19 publications**, including one double-blind controlled trial, supporting this direction.
+The evidence is mostly small studies, with no Phase 3 trial.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Major depressive disorder, generalized anxiety disorder, diabetic peripheral neuropathic pain, fibromyalgia, chronic musculoskeletal pain (from the literature; the Singapore licence records list no indication text) |
-| Predicted New Indication | Benign paroxysmal torticollis of infancy |
-| TxGNN Prediction Score | 99.85% |
-| Evidence Level | L5 |
+| Original Indication | Major depressive disorder (also anxiety disorder, fibromyalgia, myofascial pain syndrome, female stress incontinence; from knowledge-graph indication links, as the registration records give no indication text) |
+| Predicted New Indication | Obsessive-compulsive disorder |
+| TxGNN Prediction Score | 99.84% |
+| Evidence Level | L2 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 2 |
-| Recommended Decision | Hold |
+| Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, duloxetine is an SNRI, its efficacy in depression and anxiety is established, and it is mechanistically unclear whether it applies to benign paroxysmal torticollis of infancy.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Based on known information, duloxetine is a serotonin-norepinephrine reuptake inhibitor. Its efficacy in depression and anxiety is established, and serotonin reuptake inhibition is also the core mechanism of OCD pharmacotherapy. SSRIs and clomipramine are first-line treatments.
 
-Benign paroxysmal torticollis of infancy is a pediatric episodic movement disorder. It is often associated with CACNA1A variants and sits within the migraine spectrum. No plausible SNRI mechanism is supported by the data, so the high TxGNN score is best read as a graph-based association only.
+OCD is closely related to the anxiety and mood disorders for which duloxetine is already used. Reviews of SNRIs in OCD (including venlafaxine) suggest they may be an alternative when first-line drugs fail. Duloxetine also adds noradrenergic activity, which may help some patients who do not respond to SSRIs.
+
+The evidence is weaker than for SSRIs. The available studies are small, and a meta-analysis shows OCD responds less to antidepressants and placebo than other anxiety disorders do.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT00464698](https://clinicaltrials.gov/study/NCT00464698) | Phase 4 | Completed | 20 | Directly assesses duloxetine efficacy in OCD; small and likely open-label |
+| [NCT01404871](https://clinicaltrials.gov/study/NCT01404871) | N/A | Completed | 26 | Predicting medication response in OCD (clomipramine vs escitalopram); duloxetine offered to patients who had already tried those drugs |
+| [NCT02476136](https://clinicaltrials.gov/study/NCT02476136) | N/A | Unknown | 8800 | Individual patient data meta-analysis of initial severity and antidepressant efficacy in anxiety disorders; indirect evidence |
 
 ## Literature Evidence
 
-Currently no related literature available.
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [27811556](https://pubmed.ncbi.nlm.nih.gov/27811556/) | 2016 | RCT (double-blind) | J Clin Psychopharmacol | Duloxetine augmentation in resistant OCD, a controlled trial (results not in the available abstract excerpt) |
+| [25637377](https://pubmed.ncbi.nlm.nih.gov/25637377/) | 2015 | Open-label study | Int J Neuropsychopharmacol | Open-label study of duloxetine efficacy in DSM-IV OCD |
+| [31749717](https://pubmed.ncbi.nlm.nih.gov/31749717/) | 2019 | Systematic review | Front Psychiatry | Review of duloxetine in psychiatric disorders beyond depression and generalized anxiety disorder |
+| [16669725](https://pubmed.ncbi.nlm.nih.gov/16669725/) | 2006 | Review | J Clin Psychiatry | Critical review of SNRIs (venlafaxine, clomipramine) in OCD as an alternative to SSRIs |
+| [24766145](https://pubmed.ncbi.nlm.nih.gov/24766145/) | 2014 | Review | Expert Opin Pharmacother | Review of double-blind studies of serotonergic antidepressants in OCD |
+| [21779536](https://pubmed.ncbi.nlm.nih.gov/21779536/) | 2011 | Review | Innov Clin Neurosci | Discusses SNRIs as pharmacological alternatives in OCD |
+| [28477500](https://pubmed.ncbi.nlm.nih.gov/28477500/) | 2017 | Meta-analysis | J Affect Disord | OCD shows a reduced placebo and antidepressant response compared with other anxiety disorders |
+| [18208931](https://pubmed.ncbi.nlm.nih.gov/18208931/) | 2008 | Case series | J Psychopharmacol | Switching from serotonin reuptake inhibitors to duloxetine in resistant OCD |
+| [22567604](https://pubmed.ncbi.nlm.nih.gov/22567604/) | 2012 | Case report | Innov Clin Neurosci | Higher-than-usual duloxetine dose in treatment-resistant depression, anorexia nervosa and OCD |
+| [39735048](https://pubmed.ncbi.nlm.nih.gov/39735048/) | 2024 | Case report | Cureus | High-dose duloxetine plus CBT in severe treatment-resistant OCD with comorbid depression |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN15282P | Hovid Duloxetine Delayed Release Capsule 60mg | Capsule, delayed release |
-| SIN15281P | Hovid Duloxetine Delayed Release Capsule 30mg | Capsule, delayed release |
-
-Both products are oral. The manufacturers are Nosch Labs Private Limited (bulk) and Natco Pharma Ltd (encapsulation). The approved indication text is not recorded for either licence.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN15282P | HOVID DULOXETINE DELAYED RELEASE CAPSULE 60MG | Capsule, delayed release | Not stated in the registration data |
+| SIN15281P | HOVID DULOXETINE DELAYED RELEASE CAPSULE 30MG | Capsule, delayed release | Not stated in the registration data |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications / cautions (from knowledge-graph links, not label text)**: hypertension, orthostatic hypotension and related autonomic conditions, epilepsy, bipolar disorder, liver disease (including cirrhosis, fatty liver and hepatitis), gallbladder disease, hyperglycaemia, substance abuse/dependence, blood coagulation disorders, angle-closure glaucoma, neuroleptic malignant syndrome, serotonin syndrome, and inappropriate ADH secretion syndromes.
+- **Drug Interactions** (100 recorded; the first 20 are reviewed here):
+  - **Major**: bupropion, lorcaserin, diethylpropion, dolasetron, dexfenfluramine
+  - **Moderate**: epinephrine, morphine, acetylsalicylic acid, cimetidine, picosulfuric acid, polyethylene glycol (3350 with electrolytes), difenoxin, diphenoxylate, dronabinol
+  - **Minor**: famotidine, ranitidine, rabeprazole, dexlansoprazole, aluminium hydroxide, calcium carbonate
+
+Please refer to the package insert for the official warnings and contraindications.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Proceed with Guardrails**
 
 **Rationale:**
-The prediction has no clinical trials, no literature and no mechanistic support. It is likely a knowledge-graph artifact, and the target is a pediatric condition, so caution is warranted.
+OCD has the strongest support among the predictions. It has one double-blind controlled augmentation trial, a Phase 4 trial, an open-label study, several reviews and many case reports. Sample sizes are small and there is no Phase 3 RCT, so this is best treated as a research question rather than a ready-to-use indication. The drug is already marketed in Singapore, which lowers the access barrier.
 
-**Other predicted indications for this drug:**
-- **Obsessive-compulsive disorder** (rank 3, score 99.84%) has the strongest support, at evidence level L2. It rests on one small double-blind augmentation RCT (PMID 27811556), several open-label studies and case reports, and a completed Phase 4 study (NCT00464698, N=20). There is no Phase 3 confirmation, and SSRIs remain the standard. It is the most reasonable candidate to evaluate further.
-- **Agoraphobia** (rank 2) has only indirect evidence from panic disorder and generalized anxiety disorder studies (L4).
+The other predictions are weaker:
+- **Agoraphobia** (L3): only indirect panic-disorder data, so it remains a research question.
+- **Benign paroxysmal torticollis of infancy, histrionic, schizotypal, schizoid and paranoid personality disorders, Ohdo syndrome and variants, ligneous conjunctivitis**: model prediction only (L5), so Hold.
 
 **To proceed, the following is needed:**
-- The HSA package insert warnings and contraindications, which are currently missing and block safety screening
-- Detailed mechanism of action data (for example from DrugBank)
-- For this specific indication, any disease-specific clinical or mechanistic evidence. Otherwise, prioritize the obsessive-compulsive disorder candidate.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- The full results of the double-blind augmentation trial (PMID 27811556) and the Phase 4 trial (NCT00464698)
+- An adequately powered, controlled trial in OCD, ideally against SSRI standard care
+- Detailed mechanism-of-action data
+- Package insert warnings and contraindications (not yet in the compiled data), plus a safety monitoring plan covering serotonin syndrome risk, blood pressure, liver function, and the major drug interactions above
+- Confirmation of the approved indications for the registered Singapore products, since the registration records give no indication text
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

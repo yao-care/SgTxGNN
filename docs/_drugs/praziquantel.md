@@ -2,7 +2,7 @@
 layout: default
 title: Praziquantel
 parent: Low Evidence (L5)
-nav_order: 810
+nav_order: 819
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,72 +29,107 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Praziquantel: From Anthelmintic Use to Uterine Corpus Epithelioid Leiomyosarcoma
+# Praziquantel: From Schistosomiasis to Plasmodium falciparum Malaria
 
 ## One-Sentence Summary
 
-Praziquantel is an anthelmintic (anti-parasitic) drug, but the Singapore registration record does not state an approved indication.
-The TxGNN model predicts it may be effective for **uterine corpus epithelioid leiomyosarcoma**, but **0 clinical trials** and **0 publications** currently support this prediction, so it rests on model output alone.
+Praziquantel is an anthelmintic originally used to treat parasitic worm infections such as schistosomiasis, opisthorchiasis, enterobiasis and trichinosis.
+The TxGNN model's top-ranked prediction is uterine corpus epithelioid leiomyosarcoma, but it has no supporting studies. The best-supported prediction in this set is **Plasmodium falciparum malaria**, with **2 clinical trials** (neither tests praziquantel as a treatment) and **20 publications**, including one placebo-controlled randomised trial.
+This report covers the top-ranked prediction, then discusses malaria as the best-supported alternative.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration record (praziquantel is generally used as an anthelmintic) |
-| Predicted New Indication | Uterine corpus epithelioid leiomyosarcoma |
-| TxGNN Prediction Score | 97.28% |
-| Evidence Level | L5 |
+| Original Indication | Opisthorchiasis, schistosomiasis, enterobiasis, trichinosis (from the knowledge graph; the Singapore licence text is blank) |
+| Predicted New Indication | Uterine corpus epithelioid leiomyosarcoma (rank 1); best-supported alternative: Plasmodium falciparum malaria (rank 2) |
+| TxGNN Prediction Score | 97.28% (rank 1); 97.22% (malaria) |
+| Evidence Level | L5 (rank 1); L3 (malaria) |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 1 |
-| Recommended Decision | Hold |
+| Recommended Decision | Hold (rank 1); malaria: Hold, as a research question |
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, praziquantel is a single-agent anthelmintic, and its efficacy against parasitic infections is established.
+Detailed mechanism-of-action data are not available in the data compiled for this report. Praziquantel is generally understood to act on schistosome calcium channels (TRPM_PZQ) and to disrupt the worm's outer surface (tegument). It is used against trematodes (flukes) and cestodes (tapeworms).
 
-No mechanistic link to uterine leiomyosarcoma is supported by the available data. The high score (0.973) reflects proximity in the knowledge graph only. Several other sarcoma types also appear in the top 10 predictions (retroperitoneal, uterine myxoid, anal, small intestinal, and others). This looks like a model-level pattern and not independent evidence. The prediction should be treated as a hypothesis to examine, not a finding.
+**Rank 1, uterine corpus epithelioid leiomyosarcoma:** No mechanistic link has been identified. Praziquantel's actions in helminths have no established counterpart in smooth muscle sarcoma. The high score is a graph-based prediction only, with no trials or literature behind it. The same applies to the other sarcoma predictions (retroperitoneal sarcoma, uterine myxoid leiomyosarcoma, anus leiomyosarcoma, small intestinal sarcoma, leiomyosarcoma, dermatofibrosarcoma protuberans).
+
+**Malaria:** No direct antiplasmodial mechanism has been established. Most observations are epidemiological: schistosome co-infection alters malaria susceptibility and immune responses, so treating schistosomiasis may change malaria outcomes indirectly. A 2026 double-blind, placebo-controlled randomised trial (PMID 41159886) tested praziquantel against *P. falciparum* infection in asymptomatic Gabonese adults. Only the title was available, so its results need confirmation.
+
+**Other parasitic predictions:** Gnathostomiasis (a nematode) and fascioliasis (a trematode) are biologically plausible targets for an antiparasitic. However, the evidence is weak. For gnathostomiasis it is anecdotal, and for fascioliasis reports indicate poor efficacy, with triclabendazole as the standard treatment.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+No clinical trials are registered for the rank 1 prediction (uterine corpus epithelioid leiomyosarcoma).
+
+For the malaria prediction:
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT02769013](https://clinicaltrials.gov/study/NCT02769013) | N/A | Completed | 380 | Effect of neglected tropical disease control on *P. falciparum* transmission in a co-endemic area; not a test of praziquantel as an antimalarial |
+| [NCT00347113](https://clinicaltrials.gov/study/NCT00347113) | N/A | Completed | 620 | Effect of schistosome and soil-transmitted helminth infections, and of anthelmintic treatment, on malaria and anaemia in Tanzanian children; addresses co-infection, not praziquantel efficacy against malaria |
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available.
+No literature is available for the rank 1 prediction. The table below shows the most relevant publications for malaria.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [41159886](https://pubmed.ncbi.nlm.nih.gov/41159886/) | 2026 | Randomised controlled trial | J Infect Dis | Double-blind, placebo-controlled trial of praziquantel against *P. falciparum* infection in asymptomatic Gabonese adults; results need confirmation |
+| [10531774](https://pubmed.ncbi.nlm.nih.gov/10531774/) | 1998 | Small clinical report | JPMA | 10 patients (9 *P. falciparum*, 1 *P. vivax*) given praziquantel; 8 were cured within 4-6 days, 2 with severe disease did not respond |
+| [37957702](https://pubmed.ncbi.nlm.nih.gov/37957702/) | 2023 | RCT | Malar J | Feasibility and safety of combining helminth mass drug administration with seasonal malaria chemoprevention in Senegalese children |
+| [25887977](https://pubmed.ncbi.nlm.nih.gov/25887977/) | 2015 | Randomised intervention trial | BMC Infect Dis | Impact of anthelmintic treatment on malaria infection and anaemia in Tanzanian children |
+| [38265982](https://pubmed.ncbi.nlm.nih.gov/38265982/) | 2024 | Review | PLoS Negl Trop Dis | Scoping review of efforts to integrate malaria and schistosomiasis control |
+| [21696629](https://pubmed.ncbi.nlm.nih.gov/21696629/) | 2011 | Intervention study | BMC Int Health Hum Rights | School-based de-worming with prompt malaria treatment in Zimbabwe, 33-month follow-up |
+| [25210876](https://pubmed.ncbi.nlm.nih.gov/25210876/) | 2014 | Cohort study | PLoS Negl Trop Dis | In Mali, *S. haematobium* co-infection was linked to protection from febrile malaria |
+| [17568947](https://pubmed.ncbi.nlm.nih.gov/17568947/) | 2007 | Cohort/immunological | Mem Inst Oswaldo Cruz | Anti-malaria antibody responses in children exposed to both *P. falciparum* and *S. haematobium* |
+| [37808169](https://pubmed.ncbi.nlm.nih.gov/37808169/) | 2023 | Cohort/cross-sectional | J Parasitol Res | Malaria, urogenital schistosomiasis and anaemia in pregnant Ghanaian women |
+| [37446846](https://pubmed.ncbi.nlm.nih.gov/37446846/) | 2023 | Preclinical (chemistry) | Molecules | Design and testing of praziquantel analogues as potential antimalarial and anti-schistosomal agents |
+
+---
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN06822P | DISTOCIDE TABLET 600 mg (Shin Poong Pharmaceutical) | Tablet, film coated | Not provided in the registration record |
+| SIN06822P | DISTOCIDE TABLET 600 mg | Film-coated tablet (oral) | Not stated in the licence data |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications flagged in the knowledge graph (not label text):** epilepsy, liver disease, gallbladder disease, heart disease, cardiovascular disease.
+- **Drug interactions:** 83 interactions were identified. The listed ones include:
+  - **Major:** apalutamide, phenobarbital, carbamazepine (enzyme-inducing drugs, which may lower praziquantel exposure).
+  - **Moderate:** dexamethasone, amobarbital, armodafinil, bexarotene, bosentan, brigatinib, butalbital, deferasirox, fostamatinib, and others.
+  - **Minor:** cimetidine, albendazole.
 
-## Other Predicted Indications With Evidence
+Please refer to the package insert for full warnings and contraindications.
 
-The top-ranked prediction has no evidence, but other predictions in the same Evidence Pack do. They are listed here for reference only. The headline decision above is unchanged.
-
-| Predicted Indication | Score | Evidence Level | Trials | Publications | Comment |
-|------|------|------|------|------|------|
-| Plasmodium falciparum malaria | 97.22% | L3 | 5 | 20 | A 1998 uncontrolled report treated 10 patients (8 reported cured). A 2025 double-blind, placebo-controlled phase IIb trial in asymptomatic Gabonese adults ([PMID 41159886](https://pubmed.ncbi.nlm.nih.gov/41159886/)) tested praziquantel directly, but its outcome was not visible in the supplied abstract. None of the 5 registered trials clearly tests praziquantel as an antimalarial. Recommended stage: Research Question |
-| Gnathomiasis (gnathostomiasis) | 96.47% | L4 | 0 | 3 | Reviews and case reports only. One case report describes the parasite emerging through the skin after praziquantel treatment, which is a possible safety concern |
-| Fascioliasis | 96.26% | L4 | 0 | 18 | Case reports, reviews and a small comparison with bithionol. One case report states praziquantel was ineffective, and another source says it is the drug of choice except in fascioliasis. Triclabendazole is the established therapy |
-| Six sarcoma types (retroperitoneal, uterine myxoid and epithelioid leiomyosarcoma, anal, small intestinal, general leiomyosarcoma, dermatofibrosarcoma protuberans) | 95.7–97.3% | L5 | 0 | 0 | Model prediction only |
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top prediction (uterine corpus epithelioid leiomyosarcoma) has no trials, no literature and no supported mechanism. This is Level L5, model prediction only. Among the other predictions, malaria has the strongest signal and is worth a closer look as a research question.
+- The top-ranked prediction (uterine corpus epithelioid leiomyosarcoma) is a model output only. There is no mechanism, trial or literature support, and the other sarcoma predictions are in the same position.
+- Malaria has the most evidence (L3), but the registered trials are co-infection studies rather than tests of praziquantel's efficacy, so it is best treated as a research question. Praziquantel's activity against fascioliasis and gnathostomiasis is poorly supported compared with the standard treatments.
 
 **To proceed, the following is needed:**
-- Singapore HSA package insert warnings and contraindications (blocking for safety screening)
-- Mechanism of action data from DrugBank
-- For malaria: confirm the design and results of the 2025 Gabon phase IIb trial and the 1998 report. If they are not efficacy studies, downgrade the evidence to L4
-- For the sarcoma predictions: preclinical or mechanistic evidence before any further consideration
+- The full design and results of the 2026 Gabon randomised trial (PMID 41159886), and independent replication.
+- Mechanism of action data for praziquantel, and a plausible mechanism for any non-helminth indication.
+- The Singapore package insert (warnings, contraindications and approved indications), which is needed before safety screening.
+- A safety review for use in patients with epilepsy, liver disease, gallbladder disease or cardiovascular disease, and a plan for managing interactions with enzyme-inducing drugs.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

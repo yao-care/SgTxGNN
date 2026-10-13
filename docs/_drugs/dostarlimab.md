@@ -2,7 +2,7 @@
 layout: default
 title: Dostarlimab
 parent: Low Evidence (L5)
-nav_order: 345
+nav_order: 349
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,78 +29,96 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dostarlimab: From Cancer Immunotherapy (PD-1 Blockade) to Tendinopathy
+# Dostarlimab: From Mismatch Repair-Deficient Solid Tumours to Tendinopathy
 
 ## One-Sentence Summary
 
-Dostarlimab is a PD-1 blocking antibody, a cancer immunotherapy, and is marketed in Singapore as an intravenous infusion.
-The TxGNN model predicts it may be effective for **tendinopathy**, but the score is an uninformative 0.5.
-There are **0 clinical trials** and **0 publications** supporting this direction, so the evidence is model prediction only.
+Dostarlimab is an anti-PD-1 monoclonal antibody (Jemperli) used in cancer immunotherapy, mainly for mismatch repair deficient (dMMR) endometrial cancer and other dMMR solid tumours.
+The TxGNN model lists **tendinopathy** as its top predicted new indication, but the score is neutral (0.5) and **no clinical trials or publications** support it.
+The evidence level is therefore **L5 (model prediction only)**, and the recommendation is **Hold**.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore licence record (PD-1 blocking antibody used in cancer immunotherapy) |
+| Original Indication | The Singapore licence record contains no approved indication text. Other drug reference data describe dMMR recurrent/advanced endometrial cancer and other dMMR solid tumours. |
 | Predicted New Indication | Tendinopathy |
-| TxGNN Prediction Score | 50% (rank 51,903) |
+| TxGNN Prediction Score | 50.0% (neutral, uninformative) |
 | Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the record. Dostarlimab blocks PD-1, which releases the brake on T cells so the immune system can attack tumour cells.
+Detailed mechanism-of-action data are not available in the data compiled for this report. Based on pharmacology data, dostarlimab binds human PD-1 with high affinity and blocks its interaction with both PD-L1 and PD-L2. This releases the brake on T cells and enhances anti-tumour immune activity.
 
-Tendinopathy is mainly a degenerative or overuse condition with only a minor inflammatory component. There is no known therapeutic rationale for immune checkpoint blockade here. A score of exactly 0.5 carries almost no information, and it is most likely a knowledge-graph artefact rather than a real signal.
+Honestly, the link to tendinopathy is weak. Chronic tendinopathy is a degenerative and inflammatory-remodelling condition. PD-1 blockade is more likely to worsen immune-mediated musculoskeletal inflammation than relieve it, and checkpoint inhibitors are known to cause immune-related adverse events such as arthralgia and tendinitis. The score of 0.5 carries no discriminating signal, so this prediction should be treated as a model artifact, not a biological finding.
 
-The other nine top predictions, which include autoimmune retinopathy, several anaphylaxis types, metabolic epilepsy and other epilepsy syndromes, and a branched-chain amino acid disorder, share the same 0.5 score, L5 level and Hold status. For autoimmune retinopathy the direction is likely adverse, because checkpoint inhibitors can trigger autoimmune retinopathies. For the anaphylaxis and epilepsy predictions, safety concerns (hypersensitivity reactions, immune-mediated encephalitis and seizures) outweigh any prediction signal.
+The other nine predictions (autoimmune retinopathy, anaphylaxis and its subtypes, hypervalinemia/hyperleucine-isoleucinemia, and several epilepsy syndromes) have the same neutral score and no supporting studies. Several are mechanistically counterproductive: immune activation would be undesirable in autoimmune retinopathy, and dostarlimab itself carries hypersensitivity warnings.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
+
+---
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN16623P | JEMPERLI Concentrate for Solution for Infusion 500 mg/10 mL | Infusion, solution concentrate | Not stated in the record |
+| SIN16623P | JEMPERLI Concentrate for Solution for Infusion 500mg/10mL | Infusion, solution concentrate | Not stated in the licence record |
+
+The product is an injectable (intravenous infusion) and is currently valid.
+
+---
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Immunotherapy (PD-1 checkpoint inhibitor), not a conventional cytotoxic |
-| Myelosuppression Risk | Low (not a typical effect of this class); please refer to the package insert |
-| Emetogenicity Classification | Low |
-| Monitoring Items | Please refer to the package insert; immune-related adverse events (for example liver, thyroid, and other organ function) are the usual focus for this class |
+| Cytotoxicity Classification | Immunotherapy (anti-PD-1 monoclonal antibody), not a conventional cytotoxic agent |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert warnings and precautions. Immune-related adverse events are generally monitored through liver, thyroid and renal function. |
 | Handling Protection | Please refer to the package insert warnings and precautions |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Class-related risks**: Checkpoint inhibitors have been associated with immune-related adverse events, including arthralgia, tendinitis, autoimmune/paraneoplastic retinopathy and uveitis. Dostarlimab also carries infusion-related and hypersensitivity reaction warnings.
+- **Drug Interactions**: The only interaction record is its pharmacological target, PD-1 (PDCD1). No drug-drug interaction data are available.
 
-Class-level concerns noted in the prediction rationale:
-- Monoclonal antibodies such as dostarlimab can cause infusion or hypersensitivity reactions.
-- PD-1 blockade can trigger immune-mediated adverse events, including autoimmune retinopathy and neurological events such as encephalitis and seizures.
+For full safety information, please refer to the package insert.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no mechanistic support, no trials, and no literature, and the TxGNN score of 0.5 is uninformative. Immune checkpoint blockade also carries safety risks in several of the predicted conditions.
+The predicted indication rests only on a neutral model score (0.5), with no clinical trials or literature. The biological reasoning suggests PD-1 blockade could worsen tendon inflammation rather than treat it. The licence record also lacks approved-indication text and package insert safety data.
 
 **To proceed, the following is needed:**
-- The HSA package insert warnings and contraindications (currently blocking safety screening)
-- The approved indication text for SIN16623P
-- Mechanism of action data from DrugBank
-- Any supporting preclinical or clinical evidence linking PD-1 blockade to tendinopathy
+- The package insert (warnings and contraindications) from the HSA website, which is a blocking gap for safety screening
+- Detailed mechanism-of-action data from DrugBank
+- Approved indication text for the Singapore licence
+- Preclinical or mechanistic evidence for a PD-1 role in tendinopathy; without it, repurposing is not justified
+- Re-ranking of predictions to find candidates with a score above neutral and a plausible immune-mediated mechanism
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

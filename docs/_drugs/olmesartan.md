@@ -2,7 +2,7 @@
 layout: default
 title: Olmesartan
 parent: Low Evidence (L5)
-nav_order: 728
+nav_order: 736
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,37 +33,75 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Olmesartan is an angiotensin II receptor blocker (ARB) that is marketed in Singapore as a single agent (Olmetec, Olmezen) and in combination with amlodipine (Azoren). The approved indication text is not recorded in the evidence pack, so hypertension is inferred from the drug class. The TxGNN model predicts it may be effective for **Prinzmetal angina**, but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction.
+Olmesartan is an angiotensin II receptor blocker (ARB). The data compiled for this report do not list an approved indication text for it in Singapore.
+The TxGNN model predicts it may be effective for **Prinzmetal angina**, but **no clinical trials and no publications** currently support this prediction. It is a model prediction only.
+The most evidence-supported alternative candidate in this analysis is **migraine disorder**, with **3 publications** and no registered trials.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the evidence pack (hypertension inferred from ARB class) |
+| Original Indication | Not available in the Singapore license data (the drug class is ARB, generally used for hypertension) |
 | Predicted New Indication | Prinzmetal angina |
 | TxGNN Prediction Score | 99.84% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 7 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Olmesartan belongs to the ARB class, which blocks the angiotensin II type 1 (AT1) receptor. Its efficacy in blood pressure control is well established, and mechanistically it may be applicable to Prinzmetal angina.
+Detailed mechanism of action data is not available. Based on known information, olmesartan is an angiotensin II type 1 (AT1) receptor antagonist. Blocking this receptor reduces vascular tone and endothelial dysfunction, which may in theory be relevant to vascular spasm.
 
-Prinzmetal (vasospastic) angina is caused by coronary artery vasospasm. Blocking the renin-angiotensin system could plausibly affect vascular tone, which is the basis for the model's prediction. However, no trial or publication has tested this for olmesartan. The prediction rests on the model's score alone, and the mechanistic link is a hypothesis.
+However, Prinzmetal (vasospastic) angina is mainly managed with calcium channel blockers and nitrates. The high TxGNN score (99.84%) is not supported by any clinical data retrieved, so this prediction should be treated as a hypothesis only.
+
+**Other candidates reviewed:**
+- **Migraine disorder (score 99.64%, L3):** Modulating the renin-angiotensin system may reduce migraine frequency through effects on vascular tone, sympathetic activity and neuroinflammation. Olmesartan-specific reports from 2006 in hypertensive or prehypertensive patients suggest a possible benefit, and a 2019 systematic review covers ACE inhibitors and ARBs for prevention. The evidence is small, comes from hypertensive populations or is class-level, and study designs are inferred from titles and need verification. This is the best-supported candidate and is framed as a research question.
+- **Pulmonary hypertension (score 99.61%, L4):** Angiotensin II drives pulmonary vascular remodelling. Rat models show olmesartan effects, supporting biological plausibility, but there is no human efficacy evidence.
+- **Open-angle glaucoma (score 99.40%, L4):** The renin-angiotensin system exists in ocular tissue, but the only item retrieved is a general glaucoma review that is not specific to olmesartan.
+- **Hair disorders (hypotrichosis simplex of the scalp, alopecia, congenital hypotrichosis milia, diffuse alopecia areata), migraine with brainstem aura, and kyphoscoliotic heart disease:** Prediction only, with no known mechanistic link or retrieved evidence. These likely reflect knowledge-graph proximity rather than biology.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for Prinzmetal angina.
+
+For reference, the only trial retrieved across the candidates was for pulmonary hypertension and is not directly relevant:
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT04330300](https://clinicaltrials.gov/study/NCT04330300) | Phase 4 | Suspended | 2414 | CORONACION: ACE inhibitor/ARB continuation in COVID-19. It does not study pulmonary hypertension, so the link is incidental. |
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for Prinzmetal angina.
+
+For reference, the most relevant publications for the best-supported alternative (migraine disorder):
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [16618270](https://pubmed.ncbi.nlm.nih.gov/16618270/) | 2006 | Clinical study (design to be verified) | Headache | Effects of olmesartan on migraine frequency and severity in patients with hypertension or prehypertension |
+| [31515634](https://pubmed.ncbi.nlm.nih.gov/31515634/) | 2019 | Systematic review | Current Pain and Headache Reports | ACE inhibitors and ARBs for preventing episodic migraine in adults (class-level); aims to identify research gaps |
+| [16942482](https://pubmed.ncbi.nlm.nih.gov/16942482/) | 2006 | Commentary/Letter | Headache | Commentary on olmesartan, migraine and blood pressure |
+
+Preclinical publications for pulmonary hypertension:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [18209564](https://pubmed.ncbi.nlm.nih.gov/18209564/) | 2008 | Preclinical | J Cardiovasc Pharmacol | Olmesartan medoxomil tested in the rat monocrotaline model of pulmonary hypertension |
+| [16336959](https://pubmed.ncbi.nlm.nih.gov/16336959/) | 2005 | Preclinical | Eur J Pharmacol | Olmesartan medoxomil in chronic hypoxic rats, evaluating efficacy against hypoxic pulmonary hypertension |
+| [17089097](https://pubmed.ncbi.nlm.nih.gov/17089097/) | 2006 | Preclinical | Naunyn-Schmiedeberg's Arch Pharmacol | Olmesartan effects on hypoxia-induced ERK1/2 activation and pro-inflammatory signals in mouse lung |
+
+---
 
 ## Singapore Market Information
-
-The approved indication text is not listed for any of the licenses in the evidence pack.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
@@ -73,29 +111,31 @@ The approved indication text is not listed for any of the licenses in the eviden
 | SIN15530P | OLMEZEN Film-Coated Tablet 20mg | Film-coated tablet | Not listed |
 | SIN13964P | Azoren Film-Coated Tablet 20mg/5mg | Film-coated tablet | Not listed |
 
+All 7 licenses are valid (oral film-coated tablets). Two more Azoren strengths (SIN13966P, SIN13965P) are not shown here.
+
+---
+
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions:** 94 interactions were identified. Major interactions include **potassium bicarbonate** and **potassium chloride**, which carry a hyperkalaemia risk. Moderate interactions include hydrocortisone, eluxadoline, exenatide, polyethylene glycol (3350 with electrolytes) and many insulin products (human, aspart, degludec, detemir, glargine, glulisine, lispro and others).
+
+Please refer to the package insert for warnings and contraindications. A case report in the retrieved literature also notes that ARBs are contraindicated in pregnancy because of fetal renin-angiotensin system suppression.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-Prinzmetal angina is supported only by the TxGNN score (L5). There are no trials, no literature and no established mechanism for olmesartan in this condition. The safety data needed for screening are also missing.
+The top prediction, Prinzmetal angina, rests on a model score alone, with no trials or publications, and vasospastic angina already has established first-line therapies. Among the other candidates, migraine disorder has the most supportive literature (L3), but it is limited and mostly based on hypertensive or class-level data, so it is best handled as a separate research question.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from HSA (currently a blocking gap)
-- Mechanism of action data from DrugBank
-- Any clinical or observational evidence for ARBs in vasospastic angina
-- The approved indication text for the Singapore licenses
-
-**Other candidates in the same prediction set (for separate evaluation):**
-- **Migraine disorder** is the best-supported candidate (L3, Research Question). It has an ACEi/ARB systematic review (2019) and a small olmesartan study in hypertensive patients (2006). Any benefit may be confounded by blood pressure lowering, and study designs are inferred from titles only.
-- **Pulmonary hypertension** has preclinical rat and mouse evidence only (L4, Research Question), with no human efficacy data.
-- The remaining candidates (hair-loss disorders, open-angle glaucoma and others) have no meaningful supporting evidence.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Package insert warnings and contraindications from HSA (currently a blocking gap for safety screening)
+- Detailed mechanism of action data (e.g., from DrugBank)
+- Approved indication text for the Singapore licenses
+- For migraine: verification of the study designs of the 2006 reports and a review of olmesartan-specific data, followed by a controlled trial design in the relevant population
+- For Prinzmetal angina: any mechanistic or clinical evidence beyond the model prediction, and comparison against calcium channel blockers and nitrates
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

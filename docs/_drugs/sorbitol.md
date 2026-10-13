@@ -2,7 +2,7 @@
 layout: default
 title: Sorbitol
 parent: Low Evidence (L5)
-nav_order: 921
+nav_order: 931
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,17 +29,21 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sorbitol: From a Marketed Injectable Product to Exercise-Induced Malignant Hyperthermia
+# Sorbitol: From an Osmotic Agent and Excipient to Exercise-Induced Malignant Hyperthermia
 
 ## One-Sentence Summary
 
-Sorbitol is a sugar alcohol (polyol) marketed in Singapore as an injectable product, OSMOFUNDIN INJECTION 20%. The registry record does not state an approved indication.
-The TxGNN model predicts it may be effective for **exercise-induced malignant hyperthermia**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction. It is a model prediction only.
+Sorbitol is a sugar alcohol used in injectable form (osmotic and fluid-replacement use) and as a pharmaceutical excipient.
+The TxGNN model predicts it may be effective for **exercise-induced malignant hyperthermia**, but there are currently **0 clinical trials** and **0 publications** supporting this direction.
+The prediction is a computational output only and has no clinical backing.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Not stated in the Singapore licence record |
 | Predicted New Indication | Exercise-induced malignant hyperthermia |
 | TxGNN Prediction Score | 99.40% |
 | Evidence Level | L5 |
@@ -47,42 +51,64 @@ The TxGNN model predicts it may be effective for **exercise-induced malignant hy
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. The Singapore registration record also lists no approved indication, so the original use cannot be compared with the predicted one.
+Currently, detailed mechanism of action data is not available. Sorbitol is a sugar alcohol used as an osmotic agent and as a formulation excipient. Its pharmacology has no known link to the predicted disease.
 
-The high TxGNN score (99.40%) comes from the knowledge-graph model alone. No trials or literature were retrieved for this indication, and no mechanistic rationale can be verified. Until a plausible biological link is established, the prediction should be treated as a hypothesis only.
+Exercise-induced malignant hyperthermia is associated with dysregulated calcium handling in skeletal muscle (ryanodine receptor dysfunction). Sorbitol has no known action on this pathway. The high score (0.994) most likely reflects proximity in the knowledge graph rather than pharmacology, so the prediction should be treated as a likely knowledge-graph artefact.
+
+Other top-ranked predictions were also reviewed. None has trial evidence, and only two have any indirect literature:
+- **Congestive heart failure**: the literature shows only an association between raised myocardial sorbitol and diastolic dysfunction in diabetes. This suggests possible harm rather than benefit.
+- **Infectious otitis media**: the only relevant paper is a trial of xylitol, a different sugar alcohol, which cannot be extrapolated to sorbitol.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for exercise-induced malignant hyperthermia.
+
+---
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN05957P | OSMOFUNDIN INJECTION 20% (B Braun Medical Industries Sdn Bhd) | Injection | Not listed in the registry record |
+| SIN05957P | OSMOFUNDIN INJECTION 20% (B Braun Medical Industries Sdn Bhd) | Injection | Not stated in the licence record |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found for sorbitol in the queried source.
+- **Contraindications (knowledge-graph signal, not label text)**: Active peptic ulcer disease is listed as a contraindication in the TxGNN knowledge graph.
+- **Drug Interactions** (2 found):
+  - **Tolevamer**: Major
+  - **Lamivudine**: Moderate
+
+Package insert warnings and contraindications were not available. Please refer to the package insert for further safety information.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction has no clinical trials, no literature and no known mechanism, so it is supported by the model score alone (Evidence Level L5). Safety information from the package insert is also missing.
+The prediction has a high model score but no clinical trials, no literature and no plausible mechanism. The evidence level is L5. Alternative predictions (heart failure, otitis media) have only indirect or unfavourable evidence. Sorbitol also carries a major interaction signal, and the package insert safety data have not been reviewed.
 
 **To proceed, the following is needed:**
-- Mechanism of action data for sorbitol (e.g., from DrugBank), and an assessment of whether it plausibly relates to malignant hyperthermia
-- HSA package insert warnings and contraindications, and the approved indication for OSMOFUNDIN INJECTION 20%
-- A targeted literature and trial search for sorbitol in malignant hyperthermia
-- Review of other predictions as alternatives. Infectious otitis media (rank 4) has one RCT and one publication, but both test xylitol, a related polyol, not sorbitol, so the evidence is indirect (L4). The heart failure and pulmonary heart disease evidence (ranks 3 and 6) concerns isosorbide dinitrate and other nitrates, not sorbitol. It looks like a name-similarity mismatch and should not be counted as supporting evidence.
+- Mechanism of action data for sorbitol, and any rationale linking it to calcium handling in skeletal muscle
+- Package insert warnings and contraindications from the Singapore regulator
+- Any preclinical or clinical evidence specific to sorbitol in the predicted disease
+- Review of the Major interaction with tolevamer and the Moderate interaction with lamivudine
+- Clarification of the approved indication for the registered product
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

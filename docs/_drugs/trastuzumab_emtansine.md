@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Trastuzumab Emtansine
-parent: High Evidence (L1-L2)
-nav_order: 1004
-evidence_level: L2
+parent: Medium Evidence (L3-L4)
+nav_order: 1014
+evidence_level: L4
 indication_count: 10
 ---
 
 # Trastuzumab Emtansine
 {: .fs-9 }
 
-Evidence Level: **L2** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,106 +29,101 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Trastuzumab Emtansine: From HER2-Positive Breast Cancer to Progesterone-Receptor Positive Breast Cancer
+# Trastuzumab emtansine: From HER2-Positive Breast Cancer to Progesterone-Receptor Positive Breast Cancer
 
 ## One-Sentence Summary
 
-Trastuzumab emtansine (T-DM1, marketed in Singapore as Kadcyla) is a HER2-targeted antibody-drug conjugate. The TxGNN model predicts it may be effective for **progesterone-receptor positive breast cancer**. Currently **4 clinical trials** and **15 publications** are linked to this prediction, but none of them is a completed randomized trial specific to this subtype.
-
----
+Trastuzumab emtansine (T-DM1) is an antibody-drug conjugate originally used to treat HER2-positive breast cancer.
+The TxGNN model predicts it may be effective for **progesterone-receptor positive breast cancer**, but **no clinical trials** are registered for this entry. The **15 publications** retrieved are mostly guidelines, reviews and case reports, and this prediction largely overlaps with the drug's existing approved indication rather than representing a true new use.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore licence text. HER2-positive breast cancer is inferred from the drug's mechanism and should be confirmed against the label. |
+| Original Indication | HER2-positive breast carcinoma (the Singapore licence records contain no approved indication text, so this comes from the knowledge graph) |
 | Predicted New Indication | Progesterone-receptor positive breast cancer |
 | TxGNN Prediction Score | 99.82% |
-| Evidence Level | L2 |
+| Evidence Level | L4 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 2 |
-| Recommended Decision | Proceed with Guardrails |
-
----
+| Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the Evidence Pack. T-DM1 is a HER2-directed antibody-drug conjugate that combines trastuzumab with the microtubule inhibitor DM1. The antibody binds HER2 on tumour cells, and DM1 is delivered inside the cell after the receptor is internalized.
+Detailed mechanism-of-action data are not available in the data compiled for this report. Based on known information, T-DM1 combines the antibody trastuzumab, which binds HER2, with DM1, a microtubule-inhibiting cytotoxic payload released after the conjugate is internalised by the cell. Its activity depends on HER2 expression, not on hormone receptor status.
 
-Its activity depends on **HER2 expression, not progesterone-receptor (PR) status**. "PR-positive breast cancer" is therefore best read as a hormone-receptor subtype of HER2-positive breast cancer, not as a new disease. This is likely why the TxGNN score is so high. The prediction applies to patients whose PR-positive tumours are also HER2-positive. It does not support use in HER2-negative, PR-positive (luminal A-type) disease.
+Many tumours that are both progesterone-receptor positive and HER2-positive (HR+/HER2+ breast cancer) are therefore already within the scope of the approved HER2-positive indication. The prediction is largely an overlap with the original indication, not a true repurposing signal. Tumours that are progesterone-receptor positive but HER2-negative would not be expected to respond through this mechanism.
 
-Evidence in HR+/HER2+ disease comes mainly from Phase 2 de-escalation and combination studies. One example is the WSG-ADAPT-TP trial (PMID 36809046), which tested neoadjuvant T-DM1 with or without endocrine therapy. It is indexed under a related prediction (breast tumour luminal A or B), not this one. Because the label text is missing, the overlap with the approved indication should be confirmed.
-
----
+For context, the other predicted indications range from reasonable to unsupported:
+- **Progesterone-receptor negative breast cancer** (score 99.82%): within the HER2-driven mechanism. One terminated Phase 2 trial is listed (see below).
+- **Breast tumour, luminal A or B** (score 99.81%): plausible only for HER2-positive luminal B tumours. Luminal A tumours are generally HER2-negative.
+- **Normal breast-like subtype, synovium cancer, tenosynovial giant cell tumour (including the localised type), malignant giant cell tumour, HHV-8-related tumour and ectomesenchymoma**: no HER2-dependent mechanism and no supporting clinical evidence. These are computational predictions only and are recommended to be held.
 
 ## Clinical Trial Evidence
 
+Currently no related clinical trials registered for progesterone-receptor positive breast cancer.
+
+For the related prediction of progesterone-receptor negative breast cancer, one trial is listed:
+
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT03726879](https://clinicaltrials.gov/study/NCT03726879) | Phase 3 | Completed | 454 | IMpassion050: atezolizumab vs placebo added to neoadjuvant ddAC followed by paclitaxel + trastuzumab + pertuzumab in early HER2-positive breast cancer. T-DM1's role and the HR-positive population are unconfirmed. |
-| [NCT02326974](https://clinicaltrials.gov/study/NCT02326974) | Phase 2 | Active, not recruiting | 164 | Neoadjuvant T-DM1 + pertuzumab in early HER2-positive breast cancer, studying the impact of HER2 heterogeneity. Results are not yet reported. |
-| [NCT04675827](https://clinicaltrials.gov/study/NCT04675827) | Phase 2 | Terminated | 139 | DECRESCENDO: chemotherapy de-escalation with dual HER2 blockade, restricted to ER-negative disease. Limited relevance to PR-positive tumours. |
-| [NCT06131424](https://clinicaltrials.gov/study/NCT06131424) | N/A | Completed | 1151 | Retrospective study of HER2-low prevalence and outcomes. It gives no efficacy evidence for T-DM1. |
-
----
+| [NCT04675827](https://clinicaltrials.gov/study/NCT04675827) | Phase 2 | Terminated | 139 | DECRESCENDO: single-arm de-escalation study in HER2-positive, ER-negative, node-negative early breast cancer after neoadjuvant chemotherapy with dual HER2 blockade. Terminated, so unlikely to give conclusive efficacy evidence. |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [33726508](https://pubmed.ncbi.nlm.nih.gov/33726508/) | 2021 | Review | Future Oncol | Current treatment of HR+/HER2+ breast cancer. Hormone plus anti-HER2 approaches without chemotherapy may control disease long term in some patients. Trastuzumab emtansine is among the agents discussed. |
-| [35640077](https://pubmed.ncbi.nlm.nih.gov/35640077/) | 2022 | Guideline | J Clin Oncol | ASCO guideline update on systemic therapy for advanced HER2-positive breast cancer. |
-| [29939838](https://pubmed.ncbi.nlm.nih.gov/29939838/) | 2018 | Guideline | J Clin Oncol | Earlier ASCO guideline update, based on a systematic review of 622 articles. |
-| [24799465](https://pubmed.ncbi.nlm.nih.gov/24799465/) | 2014 | Guideline | J Clin Oncol | Original ASCO guideline on systemic therapy for advanced HER2-positive breast cancer. |
-| [28259011](https://pubmed.ncbi.nlm.nih.gov/28259011/) | 2017 | Guideline | Eur J Cancer | EGTM biomarker guidelines. ER and PR should be measured in all invasive breast cancers. HER2 status is mandatory for selecting any anti-HER2 therapy, including ado-trastuzumab emtansine. |
-| [39631485](https://pubmed.ncbi.nlm.nih.gov/39631485/) | 2024 | Review | Pharmacol Res | Targeted and cytotoxic inhibitors in breast cancer. Management is driven largely by HER2, HR, ER and PR status. |
-| [34215766](https://pubmed.ncbi.nlm.nih.gov/34215766/) | 2021 | Cohort | Sci Rep | ChangeHER real-world data: prognostic relevance of gaining HER2 positivity in metastatic disease, in patients treated with pertuzumab and/or T-DM1. |
-| [25873876](https://pubmed.ncbi.nlm.nih.gov/25873876/) | 2015 | Case report | Case Rep Oncol | Dose-reduced T-DM1 was active and safe in a patient with acute hepatic dysfunction. |
+| [35640077](https://pubmed.ncbi.nlm.nih.gov/35640077/) | 2022 | Guideline | J Clin Oncol | ASCO guideline update on systemic therapy for advanced HER2-positive breast cancer |
+| [24799465](https://pubmed.ncbi.nlm.nih.gov/24799465/) | 2014 | Guideline | J Clin Oncol | ASCO clinical practice guideline on systemic therapy for advanced HER2-positive breast cancer |
+| [29939838](https://pubmed.ncbi.nlm.nih.gov/29939838/) | 2018 | Guideline | J Clin Oncol | ASCO guideline update, 2018, based on a systematic review of 622 articles |
+| [28259011](https://pubmed.ncbi.nlm.nih.gov/28259011/) | 2017 | Guideline | Eur J Cancer | EGTM biomarker guidelines. HER2 testing is mandatory to select patients for anti-HER2 therapy, including T-DM1. ER and PR testing guides endocrine therapy. |
+| [33726508](https://pubmed.ncbi.nlm.nih.gov/33726508/) | 2021 | Review | Future Oncol | Trends in HR+/HER2+ breast cancer. Hormone plus anti-HER2 combinations without chemotherapy give long-term control in some patients. Neratinib and T-DM1 are discussed. |
+| [39631485](https://pubmed.ncbi.nlm.nih.gov/39631485/) | 2024 | Review | Pharmacol Res | Targeted and cytotoxic inhibitors in breast cancer, organised by HER2, HR, ER and PR status |
+| [24892840](https://pubmed.ncbi.nlm.nih.gov/24892840/) | 2013 | Review | Clin Adv Hematol Oncol | Metastatic breast cancer developments, by receptor subtype |
+| [34215766](https://pubmed.ncbi.nlm.nih.gov/34215766/) | 2021 | Cohort (real-world) | Sci Rep | ChangeHER: prognostic relevance of gaining HER2 positivity in metastatic disease, in patients treated with pertuzumab and/or T-DM1 |
+| [25873876](https://pubmed.ncbi.nlm.nih.gov/25873876/) | 2015 | Case report | Case Rep Oncol | Dose-reduced T-DM1 was active and safe in a patient with acute hepatic dysfunction |
+| [33482449](https://pubmed.ncbi.nlm.nih.gov/33482449/) | 2021 | Case report | Int J Surg Case Rep | Metastatic breast cancer in a patient on haemodialysis |
 
----
+None of these is a randomised trial of T-DM1 in progesterone-receptor positive disease. All are indirect evidence.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN14497P | KADCYLA Powder for Concentrate for Solution for Infusion 100 mg/vial | Injection, powder, for solution |
-| SIN14496P | KADCYLA Powder for Concentrate for Solution for Infusion 160 mg/vial | Injection, powder, for solution |
-
-Both licences list F. Hoffmann-La Roche Ltd as the manufacturer (bulk production and primary packaging).
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN14497P | KADCYLA powder for concentrate for solution for infusion 100 mg/vial | Injection, powder, for solution | Not stated in the licence record |
+| SIN14496P | KADCYLA powder for concentrate for solution for infusion 160 mg/vial | Injection, powder, for solution | Not stated in the licence record |
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy: HER2-directed antibody-drug conjugate carrying a cytotoxic microtubule inhibitor (DM1) |
+| Cytotoxicity Classification | Antibody-drug conjugate (HER2-targeted antibody linked to a microtubule-inhibiting cytotoxic payload, DM1) |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Please refer to the package insert and local cytotoxic drug handling regulations |
-
----
+| Monitoring Items | Please refer to the package insert. Haematological parameters, liver function and renal function are standard for cytotoxic therapy. |
+| Handling Protection | Follow institutional cytotoxic drug handling regulations |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No interaction records were found in the DDI query.
+- **Drug Interactions**: The interaction screen returned 100 interacting drugs in total. Examples include:
+  - **Major**: acetylsalicylic acid, deferasirox, and several antithrombotic or anticoagulant agents (abciximab, apixaban, argatroban, betrixaban, bivalirudin, cangrelor, caplacizumab, cilostazol). These are consistent with a bleeding-risk concern when combined with agents that affect clotting.
+  - **Moderate**: clarithromycin, metronomidazole, tinidazole, naltrexone, rosuvastatin, simvastatin, cobicistat, and the appetite-suppressant agents fenfluramine, dexfenfluramine and sibutramine.
 
----
+Package insert warnings and contraindications were not available for this report. Please refer to the package insert for further safety information.
 
 ## Conclusion and Next Steps
 
-**Decision: Proceed with Guardrails**
+**Decision: Hold**
 
 **Rationale:**
-The prediction is mechanistically consistent. T-DM1 acts through HER2, so benefit in PR-positive disease applies only where the tumour is also HER2-positive. The Evidence Pack contains no completed randomized trial with T-DM1 specific to PR-positive disease, so evidence stays at L2.
+The model score is high (99.82%), but there are no registered trials for this indication, and the supporting literature consists of guidelines, reviews and case reports. The plausible use is HR+/HER2+ disease, which falls inside the already approved HER2-positive indication, so this is not a new-use finding. Several other predictions (synovium cancer, tenosynovial giant cell tumours, HHV-8-related tumours, ectomesenchymoma) have no mechanistic or clinical support.
 
 **To proceed, the following is needed:**
-- The Singapore package insert, to confirm the approved indication and obtain warnings and contraindications
-- Detailed mechanism of action data (MOA)
-- HR+/HER2+ efficacy data for T-DM1, such as the full WSG-ADAPT-TP results, with confirmation of T-DM1's role in the Phase 3 trial above
-- A requirement that HER2 status be confirmed before any use in PR-positive disease
-- A safety monitoring plan, based on the package insert
+- Confirmation of the approved indication wording from the Singapore package insert, to check whether HR+/HER2+ disease is already covered
+- Package insert warnings and contraindications, which are currently missing and block safety screening
+- Detailed mechanism-of-action data
+- Direct clinical data (trial results or subgroup analyses) for T-DM1 in HR+/HER2+ breast cancer
+- Re-framing of the question toward a genuinely new setting, for example HER2-low or HER2-mutant disease, rather than hormone receptor subtypes
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

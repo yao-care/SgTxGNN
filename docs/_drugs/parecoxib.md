@@ -2,7 +2,7 @@
 layout: default
 title: Parecoxib
 parent: Medium Evidence (L3-L4)
-nav_order: 756
+nav_order: 764
 evidence_level: L3
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Parecoxib: From Perioperative Pain to Migraine Disorder
+# Parecoxib: From Perioperative Pain Management to Migraine Disorder
 
 ## One-Sentence Summary
 
-Parecoxib is an injectable selective COX-2 inhibitor (a prodrug of valdecoxib) that is marketed in Singapore as a lyophilised powder for injection.
+Parecoxib is an injectable COX-2 inhibitor (a prodrug of valdecoxib), marketed in Singapore with 6 valid registrations.
 The TxGNN model predicts it may be effective for **migraine disorder**.
-Support is thin: **0 registered clinical trials** and **1 directly relevant publication**, a small pilot comparison in acute migraine.
+Support is limited: **no registered clinical trials** and **1 small pilot clinical comparison study** (with supporting preclinical papers) are currently available.
 
 ---
 
@@ -43,7 +43,7 @@ Support is thin: **0 registered clinical trials** and **1 directly relevant publ
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore licence records provided (parecoxib is generally used for short-term perioperative pain) |
+| Original Indication | Not stated in the Singapore licence records compiled for this report (parecoxib is generally known as a short-term injectable analgesic in the perioperative setting) |
 | Predicted New Indication | Migraine disorder |
 | TxGNN Prediction Score | 99.55% |
 | Evidence Level | L3 |
@@ -55,17 +55,17 @@ Support is thin: **0 registered clinical trials** and **1 directly relevant publ
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the source record. Based on known information, parecoxib is a prodrug of valdecoxib, a selective COX-2 inhibitor. It reduces prostaglandin production, which gives it analgesic and anti-inflammatory effects.
+Parecoxib is a prodrug of valdecoxib, a selective COX-2 inhibitor. Detailed mechanism-of-action data was not available in the data compiled for this report, but the class mechanism is well known: blocking COX-2 reduces prostaglandin (PGE2) production, which drives inflammation and pain.
 
-Migraine pain involves prostaglandin-mediated neurogenic inflammation and sensitisation of the trigeminovascular pathway. A COX-2 inhibitor could plausibly dampen this process. The very high TxGNN score is consistent with this link.
+Migraine is not a distant concept from this mechanism. Preclinical work shows that COX-2-dependent PGE2 synthesis is linked to CGRP release in rat trigeminal ganglia cells (PMID 21394197), and parecoxib affected plasma protein extravasation and c-fos expression in a rat model of trigeminovascular activation (PMID 16492237). These pathways are involved in migraine pain.
 
-The clinical support is limited to one pilot study of acute migraine attacks, which compared intravenous parecoxib with sumatriptan and rizatriptan. No trial registered for migraine was found.
+A small pilot clinical study (PMID 21996647) compared intravenous parecoxib with sumatriptan and rizatriptan in acute migraine attacks. However, its design and the strength of its findings cannot be confirmed from the information available, so it should be treated as hypothesis-generating only.
 
 ---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for migraine disorder.
+Currently no related clinical trials registered.
 
 ---
 
@@ -73,31 +73,34 @@ Currently no related clinical trials registered for migraine disorder.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [21996647](https://pubmed.ncbi.nlm.nih.gov/21996647/) | 2011 | Pilot clinical comparative study | Clinical Neuropharmacology | Compared oral rizatriptan 10 mg, intravenous parecoxib 40 mg and subcutaneous sumatriptan in acute migraine attacks. The available abstract excerpt is truncated, so the results could not be confirmed. |
+| [21996647](https://pubmed.ncbi.nlm.nih.gov/21996647/) | 2011 | Clinical comparative (pilot) study | Clinical Neuropharmacology | Compared IV parecoxib 40 mg, oral rizatriptan 10 mg and subcutaneous sumatriptan in acute migraine attacks; design details and results not confirmed |
+| [21394197](https://pubmed.ncbi.nlm.nih.gov/21394197/) | 2011 | Preclinical (in vitro) | PLoS One | IL-1β stimulates COX-2-dependent PGE2 synthesis and CGRP release in rat trigeminal ganglia cells |
+| [16492237](https://pubmed.ncbi.nlm.nih.gov/16492237/) | 2006 | Preclinical (rat) | Headache | Effects of parecoxib on meningeal plasma protein extravasation and c-fos expression in a trigeminovascular model |
 
 ---
 
 ## Singapore Market Information
 
-Six registrations are on record. Five are listed below. The records provided contain no approved-indication text.
-
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN17079P | Paracox Powder for Solution for Injection 40mg/vial | Lyophilised powder for injection | Anfarm Hellas S.A. |
-| SIN16913P | Parecoxib WB Powder for Solution for Injection 40 mg/vial | Lyophilised powder for injection | Wanbang Biopharmaceuticals |
-| SIN16721P | Parecoxib Sandoz Powder for Solution for Injection 40mg | Lyophilised powder for injection | Immacule Lifesciences Private Limited |
-| SIN17012P | Parecoxib-AFT Powder for Solution for Injection 40mg | Lyophilised powder for injection | Qilu Pharmaceutical (Hainan) Co., Ltd. |
-| SIN16666P | Parecoxib Mylan Powder for Solution for Injection 40mg/vial | Lyophilised powder for injection | Mylan Laboratories Ltd (Hosur Steriles Facility) |
+| SIN14149P | Dynastat Powder and Solvent for Solution for Injection 40mg | Lyophilised powder for injection | Not listed in the records |
+| SIN17079P | Paracox Powder for Solution for Injection 40mg/vial | Lyophilised powder for injection | Not listed in the records |
+| SIN16913P | Parecoxib WB Powder for Solution for Injection 40mg/vial | Lyophilised powder for injection | Not listed in the records |
+| SIN16721P | Parecoxib Sandoz Powder for Solution for Injection 40mg | Lyophilised powder for injection | Not listed in the records |
+| SIN17012P | Parecoxib-AFT Powder for Solution for Injection 40mg | Lyophilised powder for injection | Not listed in the records |
+
+One further valid registration (SIN16666P, Parecoxib Mylan 40mg/vial) is also held, bringing the total to 6. All are single-ingredient injectable products.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No warnings, contraindications or drug interaction data were available in the source record.
+Please refer to the package insert for safety information.
 
-The retrieved literature raises class-level concerns for selective COX-2 inhibitors:
-- **Cardiovascular and thrombotic risk**: documented for coxibs as a class.
-- **Skin reactions**: valdecoxib, the active metabolite, was associated with potentially life-threatening skin reactions and was withdrawn.
+The following concerns come from the literature compiled for this report rather than from label text:
+- COX-2 inhibitors as a class carry cardiovascular and thrombotic risks (PMIDs 18516356, 34592918).
+- Valdecoxib has been associated with potentially life-threatening skin reactions (PMID 16393277).
+- Parecoxib is available only as an injection, which limits its practicality for repeated or outpatient migraine treatment.
 
 ---
 
@@ -106,14 +109,19 @@ The retrieved literature raises class-level concerns for selective COX-2 inhibit
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic rationale is plausible and the TxGNN score is very high. However, the only direct evidence is one small pilot study whose results could not be confirmed here, and no trials are registered. The Singapore package insert safety data is also missing, and this blocks safety screening.
+The model score is high and the COX-2/CGRP mechanism is biologically plausible, but the clinical evidence is a single small pilot comparison with unconfirmed design and results, and no registered trials exist. Together with class cardiovascular safety concerns and the injection-only route, this supports a research question rather than a move to development.
 
 **To proceed, the following is needed:**
-- Singapore (HSA) package insert warnings and contraindications
-- Full text and results of the 2011 pilot study (PMID 21996647), and a search for further parecoxib migraine studies
-- Detailed mechanism of action data from DrugBank
-- Assessment of whether a single-dose intravenous injection suits migraine treatment, and of cardiovascular risk in migraine populations
-- Other high-ranking predictions (headache disorder, trigeminal autonomic cephalalgia) currently rest on the same migraine evidence or on model prediction alone. The remaining top-10 predictions have no supporting evidence and are not recommended for follow-up.
+- Full-text review of PMID 21996647 to confirm design, sample size, endpoints and results
+- Package insert warnings, contraindications and approved indications from HSA (not available in the data compiled for this report)
+- Mechanism-of-action data from DrugBank
+- Drug interaction data (none found in the compiled data)
+- Assessment of route compatibility: whether an injectable is suitable for acute migraine care
+- A registered, adequately powered randomised trial in acute migraine, with a cardiovascular risk assessment
+
+---
+
+**Other predicted indications (for reference):** Headache disorder and rheumatoid arthritis have only indirect or class-level literature and remain research questions. Migraine with brainstem aura, trigeminal autonomic cephalalgia, kyphoscoliotic heart disease, atrophoderma vermiculata and ulerythema ophryogenesis have no supporting evidence. Pulmonary hypertension is supported only by a piglet sepsis study in which parecoxib did not suppress thromboxane synthesis. These are not recommended for advancement at this time.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Neratinib
-parent: Low Evidence (L5)
-nav_order: 699
-evidence_level: L5
+parent: High Evidence (L1-L2)
+nav_order: 707
+evidence_level: L2
 indication_count: 10
 ---
 
 # Neratinib
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,95 +33,92 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Neratinib is an oral, irreversible pan-HER tyrosine kinase inhibitor. It is established in HER2-positive breast cancer as extended adjuvant therapy after trastuzumab.
-The TxGNN model predicts it may be effective for **progesterone-receptor positive breast cancer**, with **5 clinical trials** and **10 publications** currently supporting this direction.
-This is largely an existing HER2-positive population rather than a true repurposing case, because the benefit is driven by HER2 status, not PR status.
+Neratinib is an irreversible pan-HER tyrosine kinase inhibitor, originally used to treat HER2-positive breast cancer.
+The TxGNN model predicts it may be effective for **progesterone-receptor positive breast cancer**, with **2 clinical trials** (1 recruiting Phase 2, 1 withdrawn) and **12 publications** currently supporting this direction.
+Much of this prediction overlaps with the already approved HER2-positive population, so it is largely an extension of the existing indication rather than a true repurposing.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration record. Literature places neratinib in HER2-positive breast cancer (extended adjuvant use). |
+| Original Indication | HER2-positive breast carcinoma |
 | Predicted New Indication | Progesterone-receptor positive breast cancer |
 | TxGNN Prediction Score | 99.68% |
-| Evidence Level | L2 (see note below) |
+| Evidence Level | L2 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 1 |
 | Recommended Decision | Proceed with Guardrails |
 
-*Note on evidence level:* The ExteNET Phase 3 RCT is the only completed Phase 3 RCT among the evidence for this indication, so the strict rule gives L2 rather than L1. The upstream pack labels this indication L1, but the listed trials do not include two completed Phase 3 RCTs for it.
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data for the drug record is not available. From the literature, neratinib is an irreversible inhibitor of HER1 (EGFR), HER2 and HER4. Its benefit comes from HER2 amplification, not from progesterone-receptor status.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, neratinib is an irreversible tyrosine kinase inhibitor of HER1, HER2 and HER4. Its efficacy in HER2-positive breast cancer has been demonstrated, including as extended adjuvant therapy in the hormone receptor-positive subset.
 
-Many HER2-positive breast tumours are also hormone-receptor positive, so a PR-positive label largely overlaps with HER2-positive disease that neratinib already treats. The pivotal ExteNET Phase 3 trial (extended adjuvant use after trastuzumab) included HR-positive patients, and a subgroup benefit was reported in that population.
+Progesterone-receptor positive tumours overlap heavily with the HR-positive/HER2-positive population already covered by the approved use. The ExteNET Phase 3 trial tested 12 months of neratinib after trastuzumab-based adjuvant therapy in early-stage HER2-positive breast cancer. Real-world studies of adjuvant neratinib in HR+/HER2+ disease (2024 and 2026) also support this use. Two Phase 2 trials test neratinib with endocrine therapy, which reflects the biological cross-talk between HER2 and hormone receptor signalling.
 
-Cross-talk between HER2 and ER/PR signalling also supports combining neratinib with endocrine therapy in HR+/HER2+ disease. The recruiting Phase 2 trial NCT04886531 tests exactly this combination. For HER2-negative, PR-positive tumours, the rationale is weaker and rests on small, mostly terminated or withdrawn Phase 2 studies.
+Two cautions apply. The ExteNET publication is available only as a title and short abstract in the data compiled, so the evidence level has been set conservatively at L2 rather than L1. Neratinib is also well known for diarrhoea, which requires prophylaxis.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT04886531](https://clinicaltrials.gov/study/NCT04886531) | Phase 2 | Recruiting | 30 | Pre-operative neratinib + aromatase inhibitor + trastuzumab for 24 weeks in ER+/HER2+ cancers. Directly tests the HR+/HER2+ combination. |
-| [NCT04460430](https://clinicaltrials.gov/study/NCT04460430) | Phase 2 | Terminated | 12 | Neratinib in HR+/HER2-negative, HER2-enriched advanced breast cancer. Mechanistically relevant but underpowered. |
-| [NCT05599334](https://clinicaltrials.gov/study/NCT05599334) | N/A (observational) | Completed | 111 | Retrospective real-world study of extended adjuvant neratinib in early-stage HER2+ breast cancer (European Early Access Program). |
-| [NCT04901299](https://clinicaltrials.gov/study/NCT04901299) | Phase 2 | Withdrawn | 0 | Neratinib + fulvestrant in HR+/HER2-negative metastatic disease. No patients enrolled, so no data. |
-| [NCT06131424](https://clinicaltrials.gov/study/NCT06131424) | N/A (observational) | Completed | 1151 | Retrospective HER2-low prevalence study. Does not evaluate neratinib efficacy. |
+| [NCT04886531](https://clinicaltrials.gov/study/NCT04886531) | Phase 2 | Recruiting | 30 | Pre-operative neratinib + aromatase inhibitor + trastuzumab for 24 weeks in ER-positive/HER2-positive early breast cancer; no results yet |
+| [NCT04901299](https://clinicaltrials.gov/study/NCT04901299) | Phase 2 | Withdrawn | 0 | Neratinib + fulvestrant in previously treated HR-positive/HER2-negative metastatic breast cancer; no participants enrolled, so no evidence |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [26874901](https://pubmed.ncbi.nlm.nih.gov/26874901/) | 2016 | RCT (Phase 3) | Lancet Oncol | ExteNET: 12 months of neratinib after trastuzumab-based adjuvant therapy in early-stage HER2+ breast cancer. |
-| [27406346](https://pubmed.ncbi.nlm.nih.gov/27406346/) | 2016 | RCT (Phase 2) | N Engl J Med | I-SPY 2 adaptive trial of neoadjuvant neratinib added to standard chemotherapy in high-risk early breast cancer. |
-| [35640077](https://pubmed.ncbi.nlm.nih.gov/35640077/) | 2022 | Guideline | J Clin Oncol | ASCO guideline update on systemic therapy for advanced HER2-positive breast cancer. |
-| [33726508](https://pubmed.ncbi.nlm.nih.gov/33726508/) | 2021 | Review | Future Oncol | Current treatment trends in HR+/HER2+ breast cancer. Hormone plus anti-HER2 approaches, including neratinib, can give long-term disease control in some patients. |
-| [32139271](https://pubmed.ncbi.nlm.nih.gov/32139271/) | 2020 | Review | Clin Breast Cancer | Expert roundtable on HER2+ breast cancer. Neratinib is listed among the TKIs that changed prognosis. |
-| [29784737](https://pubmed.ncbi.nlm.nih.gov/29784737/) | 2018 | Guideline | J Natl Compr Canc Netw | NCCN breast cancer guideline update, including extended adjuvant therapy and CDK4/6 inhibitors in ER+ disease. |
-| [24892840](https://pubmed.ncbi.nlm.nih.gov/24892840/) | 2013 | Review | Clin Adv Hematol Oncol | Overview of metastatic breast cancer by receptor subtype, including HER2+ with ER/PR positive or negative status. |
-| [39153126](https://pubmed.ncbi.nlm.nih.gov/39153126/) | 2024 | Cohort | Breast Cancer Res Treat | Adjuvant neratinib in HR+/HER2+ early-stage disease. Gastrointestinal side effects often lead to treatment discontinuation. |
-| [32782013](https://pubmed.ncbi.nlm.nih.gov/32782013/) | 2020 | Cohort | Breast Cancer Res | In silico analysis: targetable ERBB2 mutations are a marker of adverse prognosis in ER+, ERBB2 non-amplified lobular carcinoma. |
-| [35251981](https://pubmed.ncbi.nlm.nih.gov/35251981/) | 2022 | Case report | Front Oncol | Pyrotinib plus vinorelbine in HER2+ breast cancer with leptomeningeal disease. Not neratinib-specific. |
+| [26874901](https://pubmed.ncbi.nlm.nih.gov/26874901/) | 2016 | RCT | Lancet Oncology | ExteNET: 12 months of neratinib after trastuzumab-based adjuvant therapy in early-stage HER2-positive breast cancer |
+| [35640077](https://pubmed.ncbi.nlm.nih.gov/35640077/) | 2022 | Guideline | J Clin Oncol | ASCO guideline update on systemic therapy for advanced HER2-positive breast cancer |
+| [29784737](https://pubmed.ncbi.nlm.nih.gov/29784737/) | 2018 | Guideline | J Natl Compr Canc Netw | NCCN breast cancer updates, including CDK4/6 inhibitors in ER-positive disease |
+| [27406346](https://pubmed.ncbi.nlm.nih.gov/27406346/) | 2016 | Adaptive Phase 2 trial | N Engl J Med | I-SPY 2: neratinib added to standard neoadjuvant chemotherapy in high-risk early breast cancer |
+| [39153126](https://pubmed.ncbi.nlm.nih.gov/39153126/) | 2024 | Cohort | Breast Cancer Res Treat | Use and tolerance of adjuvant neratinib in HR+/HER2+ early breast cancer; GI side effects often lead to discontinuation |
+| [41499317](https://pubmed.ncbi.nlm.nih.gov/41499317/) | 2026 | Cohort | Oncology | Current prescribing trends of adjuvant neratinib in HR+/HER2+ breast cancer |
+| [33726508](https://pubmed.ncbi.nlm.nih.gov/33726508/) | 2021 | Review | Future Oncol | Current trends in treating HR+/HER2+ breast cancer, including neratinib |
+| [32139271](https://pubmed.ncbi.nlm.nih.gov/32139271/) | 2020 | Review | Clin Breast Cancer | Expert roundtable on practice guidance for HER2-positive breast cancer |
+| [41886605](https://pubmed.ncbi.nlm.nih.gov/41886605/) | 2026 | Preclinical | Cancer Research | BRD8/EP400 chromatin module mediates anti-HER2 response in HR+/HER2+ breast cancer |
+| [35251981](https://pubmed.ncbi.nlm.nih.gov/35251981/) | 2022 | Case report | Front Oncol | Pyrotinib plus vinorelbine in HER2-positive breast cancer with leptomeningeal disease (not neratinib) |
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN15861P | NERLYNX FILM-COATED TABLETS 40 MG (Excella GmbH & Co. KG) | Tablet, film coated | — |
+| SIN15861P | NERLYNX FILM-COATED TABLETS 40 MG | Film-coated tablet | Not stated in the data compiled |
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (irreversible pan-HER tyrosine kinase inhibitor), not a conventional cytotoxic |
+| Cytotoxicity Classification | Targeted therapy (irreversible pan-HER tyrosine kinase inhibitor) |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert. Gastrointestinal tolerability is a recognised practical limitation (PMID 39153126). |
-| Handling Protection | Oral film-coated tablet. Follow local hazardous-drug handling policy and the package insert. |
+| Monitoring Items | Liver function and diarrhoea/hydration status; please also refer to the package insert |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Known toxicity**: Diarrhoea is a well-recognised toxicity and requires prophylaxis. Gastrointestinal side effects often lead to treatment discontinuation (PMID 39153126).
+- **Drug Interactions**: 100 interactions were identified in the data compiled; the first 20 are reviewed here. Most are Major, including:
+  - Acid-suppressing agents: famotidine, ranitidine, cimetidine, and the proton pump inhibitors rabeprazole, omeprazole, esomeprazole, lansoprazole and dexlansoprazole
+  - Aprepitant, dexamethasone, clarithromycin and clotrimazole
+  - Moderate interactions include loperamide, antacids (magnesium oxide, aluminium hydroxide, calcium carbonate), empagliflozin and naldemedine. Naloxegol and fidaxomicin are Minor.
+  - Loperamide is the usual antidiarrhoeal prophylaxis, so its interaction deserves attention when planning prophylaxis.
 
-From the literature, gastrointestinal side effects of neratinib often lead to treatment discontinuation (PMID 39153126).
+For full warnings and contraindications, please refer to the package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Neratinib has strong evidence in HER2-positive breast cancer, including a Phase 3 RCT (ExteNET) that covered HR-positive patients, and neratinib plus endocrine therapy is being tested in HR+/HER2+ disease. However, the benefit is driven by HER2 status rather than PR status. Evidence for PR-positive, HER2-negative disease is limited to small, terminated or withdrawn Phase 2 studies.
+Neratinib is already approved for HER2-positive breast cancer, and the PR-positive population largely falls within the HR+/HER2+ group studied in ExteNET. Direct evidence is limited to one small recruiting Phase 2 trial with no results, so the strength of evidence is moderate (L2).
 
 **To proceed, the following is needed:**
-- Singapore package insert (warnings, contraindications, approved indication), which blocks safety screening
-- Mechanism of action data from DrugBank
-- Confirmation of HR-subgroup results from ExteNET, and results from NCT04886531 when available
-- Restriction of any use to HER2-positive, HR-positive disease, with a gastrointestinal toxicity management plan
-
-**Other predicted indications from the same pack:** PR-negative breast cancer (rank 3) is also supported by the HER2+ evidence base and is likewise Proceed with Guardrails. The remaining candidates (luminal A/B, synovium cancer, giant cell tumours, fibroblastic neoplasm, kidney fibrosarcoma) are on Hold because there is little or no supporting evidence. The tenosynovial giant cell tumour link appears to be a knowledge-graph artifact, since that disease is driven by CSF1/CSF1R, which neratinib does not target.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
+- Package insert warnings, contraindications and the approved indication text for SIN15861P (not available in the data compiled)
+- Detailed mechanism of action data
+- Full ExteNET results (including HR-positive subgroup) and results from NCT04886531
+- A diarrhoea prophylaxis plan that accounts for the acid-suppressant and loperamide interactions
+- Clarification that the use is limited to HER2-positive (or HER2-mutant) disease, as there is no evidence for HER2-negative PR-positive tumours
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

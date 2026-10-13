@@ -2,7 +2,7 @@
 layout: default
 title: Taliglucerase Alfa
 parent: Low Evidence (L5)
-nav_order: 943
+nav_order: 953
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,13 +33,16 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Taliglucerase alfa is a recombinant enzyme replacement therapy that is marketed in Singapore as ELELYSO and appears to be used for Gaucher disease. The TxGNN model predicts it may be effective for **Hurler syndrome** (MPS I), but there are **0 clinical trials** and **0 publications** supporting this prediction. The prediction rests on model output alone, and the mechanism does not support it.
+Taliglucerase alfa is an enzyme replacement therapy originally used to treat Gaucher disease.
+The TxGNN model predicts it may be effective for **Hurler syndrome**, but there are currently **0 clinical trials** and **0 publications** supporting this specific direction. The prediction rests on model output alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Gaucher disease (inferred from the literature; the Singapore registration record gives no indication text) |
+| Original Indication | Gaucher disease |
 | Predicted New Indication | Hurler syndrome |
 | TxGNN Prediction Score | 99.52% |
 | Evidence Level | L5 |
@@ -47,48 +50,64 @@ Taliglucerase alfa is a recombinant enzyme replacement therapy that is marketed 
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the input. Taliglucerase alfa is a recombinant glucocerebrosidase that breaks down glucosylceramide. Its on-label use is replacing this deficient enzyme in Gaucher disease.
+Currently, detailed mechanism of action data is not available. Based on known information, taliglucerase alfa is a plant-cell-expressed recombinant glucocerebrosidase (beta-glucosidase) that targets macrophage mannose receptors. Its efficacy in Gaucher disease, a lysosomal storage disorder, has been established.
 
-Hurler syndrome is caused by a different deficiency, alpha-L-iduronidase, which leads to accumulation of glycosaminoglycans. Glucocerebrosidase does not act on these substances, so there is no direct mechanistic link. The high score most likely reflects the two diseases sitting close together in the knowledge graph as lysosomal storage diseases, not a shared pathway. This should be read as a model artifact, not a repurposing signal.
+Hurler syndrome (MPS I) is also a lysosomal storage disease, but it is caused by a deficiency of alpha-L-iduronidase, leading to accumulation of glycosaminoglycans. The missing enzyme and the accumulated substrate both differ from those in Gaucher disease, so glucocerebrosidase replacement would not be expected to address the underlying defect.
 
-The other top-ranked predictions show the same pattern. These include Scheie syndrome, Wolman disease and cholesteryl ester storage disease, none of which has a plausible mechanistic link. The one exception is rank 6, "lysosomal storage disease with skeletal involvement". Its supporting papers concern Gaucher disease, the drug's known use, so they are not repurposing evidence.
+The high TxGNN score (0.995) most likely reflects shared lysosomal storage disease associations in the knowledge graph rather than a validated therapeutic link. The same is true for the other top-ranked predictions: Scheie syndrome (an attenuated form of MPS I), cholesteryl ester storage disease and Wolman disease (both lysosomal acid lipase deficiencies, for which sebelipase alfa is the specific therapy). Several other predictions, such as benign neoplasm of adrenal gland, proximal myopathy with extrapyramidal signs, and a STAT5B-related growth hormone insensitivity syndrome, have no plausible mechanistic connection and appear to be knowledge-graph artifacts.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
-Currently no related literature available.
+No literature directly evaluates taliglucerase alfa in Hurler syndrome. The only publications retrieved relate to a broader category ("lysosomal storage disease with skeletal involvement", rank 6) and concern the approved Gaucher indication:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [41096096](https://pubmed.ncbi.nlm.nih.gov/41096096/) | 2025 | Cohort (real-world, 10-year follow-up) | Journal of Clinical Medicine | Long-term efficacy and safety of taliglucerase alfa in treatment-naïve and previously treated type 1 Gaucher disease patients in Albania |
+| [22916340](https://pubmed.ncbi.nlm.nih.gov/22916340/) | 2012 | Review | Drugs of Today | Overview of taliglucerase alfa in Gaucher disease, a disorder caused by glucocerebrosidase (GBA) deficiency and glucocerebroside accumulation |
+
+These papers support the drug in its approved indication only. They do not provide evidence for Hurler syndrome.
+
+---
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN16770P | ELELYSO Powder for Concentrate for Solution for Infusion 200 units/vial (Pharmacia and Upjohn Company LLC) | Lyophilized powder for injection |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN16770P | ELELYSO POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 200 UNITS/ VIAL | Injection, powder, lyophilized, for solution | Not stated in the registration data |
 
-The registration record does not include approved indication text.
+---
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The Hurler syndrome prediction has no trials, no literature and no mechanistic link, so it stays at evidence level L5. The enzyme and substrate differ from the disease defect, and a dedicated therapy (iduronidase replacement) already exists for this condition.
+The prediction is supported only by the model score. The enzyme and the substrate differ between Gaucher disease and Hurler syndrome, and no trials or literature support use in this condition. Other lysosomal disorders in the prediction list have their own targeted enzyme therapies.
 
 **To proceed, the following is needed:**
-- Singapore package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- A documented original indication for the drug record
-- Any preclinical or clinical evidence linking glucocerebrosidase replacement to MPS I, without which the prediction should not advance
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
+- Detailed mechanism of action data (MOA)
+- Package insert warnings and contraindications from the HSA website
+- Preclinical or mechanistic evidence that glucocerebrosidase replacement can affect glycosaminoglycan accumulation in MPS I
+- Clear definition of the target disease entity for any broader categories (e.g., "lysosomal storage disease with skeletal involvement")
+- Evaluation of whether other predicted indications have any plausible biological rationale
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

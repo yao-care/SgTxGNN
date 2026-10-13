@@ -2,7 +2,7 @@
 layout: default
 title: Mesterolone
 parent: Low Evidence (L5)
-nav_order: 648
+nav_order: 654
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,18 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Mesterolone: From an Unrecorded Original Indication to Gout
+# Mesterolone: From Androgen Deficiency Therapy to Gout
 
 ## One-Sentence Summary
 
-Mesterolone is a synthetic androgen (a dihydrotestosterone derivative) marketed in Singapore as an oral tablet, but its approved indication is not recorded in the available data.
-The TxGNN model predicts it may be effective for **gout**, but **0 clinical trials** and **0 publications** currently support this prediction.
+Mesterolone is an oral androgen (a derivative of dihydrotestosterone) that is registered in Singapore, but the registration record does not state an approved indication.
+The TxGNN model predicts it may be effective for **gout**, but **no clinical trials and no relevant publications** currently support this direction.
+The prediction rests on the knowledge-graph model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration record |
+| Original Indication | Not stated in the Singapore registration record |
 | Predicted New Indication | Gout |
 | TxGNN Prediction Score | 98.20% |
 | Evidence Level | L5 |
@@ -50,11 +51,11 @@ The TxGNN model predicts it may be effective for **gout**, but **0 clinical tria
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, mesterolone is a synthetic androgen (a DHT derivative). The registration record does not state an original indication, so the relationship between its original use and gout cannot be assessed.
+Currently, detailed mechanism of action data is not available. Based on known information, mesterolone is an oral androgen derived from dihydrotestosterone. Its original use is not documented in the data compiled for this report, so its link to gout cannot be assessed directly.
 
-The only support for this prediction is the model score. No mechanism is documented that links androgen signalling to gout, and androgens are not an established treatment pathway for the disease. The high score should be read as a computational hypothesis, not as evidence of efficacy.
+A connection between sex hormones and uric acid handling is conceivable, but this is speculation. The data compiled for this report contains no mechanistic or clinical support. The high score (0.982) is a knowledge-graph prediction only and should not be read as evidence of efficacy.
 
-Other high-scoring predictions for this drug (type 1 diabetes, asthma, diabetic nephropathy, rare congenital syndromes) also lack drug-specific evidence. This suggests the ranking reflects general model behaviour rather than a drug-specific signal.
+Other predicted indications were also reviewed (type 1 diabetes, allergic and intrinsic asthma, diabetic nephropathy, autoimmune oophoritis, heart disease and several rare genetic syndromes). None has clinical trial support. The only linked literature is a preclinical study suggesting possible harm to the heart (see Safety Considerations).
 
 ## Clinical Trial Evidence
 
@@ -62,33 +63,40 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for gout.
+
+For context, the literature linked to other predicted indications is of little help:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [15025811](https://pubmed.ncbi.nlm.nih.gov/15025811/) | 2004 | Review | Ann Clin Biochem | Case on diagnosing pituitary apoplexy in a patient with type 1 diabetes. Does not address mesterolone, so it is irrelevant. |
+| [18808528](https://pubmed.ncbi.nlm.nih.gov/18808528/) | 2008 | Preclinical (mouse) | Int J Exp Pathol | Mesterolone had adverse effects on cardiac remodelling and lipoprotein profile; aerobic exercise attenuated them. |
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN10249P | RESTORE TABLET 25 mg (Micro Labs Limited) | Tablet | Not stated in registration record |
+| SIN10249P | RESTORE TABLET 25 mg | Tablet | Not stated in the registration record |
 
 ## Safety Considerations
 
-- **Adverse cardiac signal (from a lower-ranked prediction)**: A 2008 study (PMID 18808528, likely preclinical) reported that mesterolone worsened cardiac remodelling and lipoprotein profile. Aerobic exercise attenuated the effect. The study population is unconfirmed because the title is truncated. This is a safety signal, not evidence of benefit.
-- **Drug Interactions**: The interaction query returned no records. This means no data were found, not that the drug is free of interactions.
+- **Cardiovascular signal**: A mouse study (PMID 18808528) reported adverse effects of mesterolone on cardiac remodelling and lipoprotein profile. This is preclinical and indirect, but it is a caution for any long-term repurposing use.
 
-Please refer to the package insert for warnings and contraindications.
+Please refer to the package insert for other safety information, including warnings, contraindications and drug interactions.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The gout prediction rests on the model score alone (L5), with no trials, no literature and no plausible mechanism. The only mesterolone-specific paper found for any predicted indication reports a cardiac adverse effect.
+The gout prediction is supported only by a model score, with no clinical trials, no relevant literature and no documented mechanism. The only drug-specific literature found points to a possible cardiac safety concern rather than a benefit.
 
 **To proceed, the following is needed:**
-- HSA package insert (warnings, contraindications, approved indication). This is a blocking gap for safety screening.
-- Mechanism of action data, for example from DrugBank
-- A literature search specific to mesterolone and gout, or to androgens and urate metabolism, to test whether any biological link exists
-- A cardiovascular and lipid safety assessment before any further consideration
+- The package insert (warnings, contraindications) from the Health Sciences Authority (HSA), as safety screening cannot proceed without it
+- Mechanism of action data for mesterolone
+- The approved indication for the Singapore registration
+- A literature search specific to mesterolone and gout or urate metabolism
+- A review of the cardiovascular and metabolic safety signal before any further evaluation
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

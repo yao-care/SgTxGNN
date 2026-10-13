@@ -29,17 +29,18 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Alirocumab: From LDL-C Lowering (Hypercholesterolaemia) to X-linked Ichthyosis without Steroid Sulfatase Deficiency
+# Alirocumab: From Dyslipidaemia and Atherosclerosis to X-linked Ichthyosis (without Steroid Sulfatase Deficiency)
 
 ## One-Sentence Summary
 
-Alirocumab is a PCSK9 monoclonal antibody that lowers LDL cholesterol. The TxGNN model predicts it may be effective for **X-linked ichthyosis without steroid sulfatase deficiency**, but **0 clinical trials** and **0 publications** currently support this prediction. It is a model output only.
+Alirocumab is a monoclonal antibody against PCSK9, used to lower LDL cholesterol in dyslipidaemia and atherosclerotic cardiovascular disease.
+The TxGNN model predicts it may be effective for **X-linked ichthyosis without steroid sulfatase deficiency**, but this is a **model prediction only**, with **0 clinical trials** and **0 publications** supporting it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration record; the drug is a PCSK9 antibody used to lower LDL-C |
+| Original Indication | Dyslipidaemia and atherosclerosis-related disorders (arteriosclerosis, atherosclerosis, arteriolosclerosis), per the knowledge graph; the Singapore licence records do not state an indication |
 | Predicted New Indication | Ichthyosis, X-linked, without steroid sulfatase deficiency |
 | TxGNN Prediction Score | 99.43% |
 | Evidence Level | L5 |
@@ -49,9 +50,9 @@ Alirocumab is a PCSK9 monoclonal antibody that lowers LDL cholesterol. The TxGNN
 
 ## Why is This Prediction Reasonable?
 
-Alirocumab binds circulating PCSK9 and prevents it from degrading hepatic LDL receptors. This increases LDL receptor recycling and lowers LDL-C.
+Alirocumab is a fully human antibody that binds PCSK9 (proprotein convertase subtilisin/kexin type 9). PCSK9 normally promotes degradation of the LDL receptor. Blocking it lets more LDL receptors recycle to the liver cell surface, so more LDL cholesterol is cleared from the blood. The data compiled for this report did not include a detailed mechanism-of-action entry, but this target and mechanism are well established.
 
-There is no clear link between this mechanism and X-linked ichthyosis, a genetic skin-scaling disorder. The high graph score is a model prediction only. No trials or literature support it, and the mechanistic rationale is weak.
+The link to X-linked ichthyosis is weak and speculative. This skin condition is associated with cholesterol sulfate accumulation and disrupted skin-barrier lipids. That is only loosely related to LDL-receptor-mediated cholesterol clearance, and there is no direct evidence that PCSK9 inhibition changes skin barrier lipids or ichthyosis. The high score (99.43%) most likely reflects proximity in the knowledge graph's lipid-metabolism network rather than a validated mechanism.
 
 ## Clinical Trial Evidence
 
@@ -63,30 +64,29 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN15229P | PRALUENT Solution for Injection in a Pre-filled Pen 150 mg/mL | Injection, solution | Not stated in the record |
-| SIN15228P | PRALUENT Solution for Injection in a Pre-filled Pen 75 mg/mL | Injection, solution | Not stated in the record |
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN15229P | Praluent solution for injection in a pre-filled pen 150 mg/ml | Injection, solution |
+| SIN15228P | Praluent solution for injection in a pre-filled pen 75 mg/ml | Injection, solution |
+
+Both registrations are valid single-ingredient products. The approved indication text is not recorded in the licence data.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for safety information. The only interaction data compiled is the drug's pharmacological target (PCSK9), not drug-drug interactions, and no label warnings or contraindications were available.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no trials, no literature and no plausible mechanism, so it stays at L5 (model prediction only).
+The prediction rests on the model score alone. There are no trials or publications, and the mechanistic link between PCSK9 inhibition and X-linked ichthyosis is speculative. Alirocumab is already marketed in Singapore, so access is not a barrier, but there is no evidence yet to justify further investment in this indication.
 
 **To proceed, the following is needed:**
-- The HSA package insert (warnings and contraindications), which currently blocks safety screening.
-- Approved-indication text for the two Singapore registrations, which is currently empty.
-- Any mechanistic or clinical rationale linking PCSK9 inhibition to this disorder.
-
-**Other candidates in this pack that merit attention:**
-- **Cholesterol catabolic process disease (rank 5):** The pack grades it L1, but only one completed Phase 3 trial was found (NCT03207945, PCSK9 inhibition in treated HIV, n=118). Under the L1 rule (at least 2 completed Phase 3 RCTs) it does not qualify. That trial's record also does not confirm that the agent was alirocumab. The mechanism is direct and the literature is mostly class-level reviews, so a downgrade to L2 or lower is likely unless the intervention is verified.
-- **Xanthomatosis (rank 3):** Two case reports (PMIDs 31538826, 32713907) support it, and the mechanism is plausible. It is rated L4 and is best treated as a research question. Whether alirocumab was actually used in these cases still needs verification.
+- Preclinical or mechanistic evidence that PCSK9 inhibition affects skin barrier lipids or cholesterol sulfate handling in X-linked ichthyosis
+- A literature and trial search specific to this condition, which currently returns nothing
+- The Singapore package insert, to confirm warnings, contraindications and approved indications
+- A comparison with other predictions for this drug that have more plausible lipid-related links, such as xanthomatosis (supported only by case reports) and cholesterol catabolic process disease (largely an extension of existing indications)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

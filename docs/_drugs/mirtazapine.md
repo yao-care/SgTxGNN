@@ -2,7 +2,7 @@
 layout: default
 title: Mirtazapine
 parent: Low Evidence (L5)
-nav_order: 673
+nav_order: 680
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Mirtazapine: From Depression (Antidepressant Use) to Ohdo Syndrome and Variants
+# Mirtazapine: From Depression to Ohdo Syndrome and Variants
 
 ## One-Sentence Summary
 
-Mirtazapine is an antidepressant marketed in Singapore in several oral tablet forms. The TxGNN model predicts it may be effective for **Ohdo syndrome and variants**, a rare genetic developmental syndrome. There are **0 clinical trials** and **0 publications** supporting this prediction, so it is a model output only.
+Mirtazapine is an antidepressant originally used for depression (including major depressive disorder and anxiety-related conditions).
+The TxGNN model predicts it may be effective for **Ohdo syndrome and variants**, a rare genetic neurodevelopmental disorder, but there are currently **0 clinical trials** and **0 publications** supporting this prediction. It is a computational signal only.
 
 ---
 
@@ -41,7 +42,7 @@ Mirtazapine is an antidepressant marketed in Singapore in several oral tablet fo
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the HSA registration records. Mirtazapine's established use is depression. |
+| Original Indication | Unipolar depression / major depressive disorder (the Singapore licence records contain no approved-indication text) |
 | Predicted New Indication | Ohdo syndrome and variants |
 | TxGNN Prediction Score | 99.42% |
 | Evidence Level | L5 |
@@ -53,11 +54,9 @@ Mirtazapine is an antidepressant marketed in Singapore in several oral tablet fo
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the source record. Based on the supporting literature in the pack, mirtazapine is a noradrenergic and specific serotonergic antidepressant. It blocks alpha-2 adrenergic receptors, 5-HT2 and 5-HT3 receptors, and histamine H1 receptors.
+Currently, detailed mechanism of action data is not available in the compiled data. Mirtazapine is a monoaminergic antidepressant. It is generally understood to act through alpha-2 adrenergic antagonism and 5-HT2/5-HT3/H1 receptor blockade, which enhances noradrenergic and serotonergic transmission.
 
-The prediction is **not mechanistically plausible**. Ohdo syndrome is a genetic developmental syndrome linked to KAT6B. Mirtazapine's noradrenergic and serotonergic activity has no apparent connection to that gene or to the developmental pathways involved. The high score (99.42%) is most likely an artifact of the knowledge graph rather than a real signal.
-
-The second-ranked prediction, blepharophimosis-intellectual disability syndrome (Ohdo type), belongs to the same disease family. It is not an independent signal.
+Ohdo syndrome is a rare genetic neurodevelopmental disorder (KAT6B-related). Its biology has no plausible connection to this mechanism, and no mechanistic link has been established. The high TxGNN score reflects patterns in a knowledge graph, not biological or clinical reasoning. The prediction should be treated as a hypothesis without support.
 
 ---
 
@@ -77,19 +76,33 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN14012P | APO-MIRTAZAPINE TABLET 30MG | Film-coated tablet | Not listed in registry data |
-| SIN13644P | Mirtazapine Sandoz Orodispersible Tablets 30mg | Orally disintegrating tablet | Not listed in registry data |
-| SIN13643P | Mirtazapine Sandoz Orodispersible Tablets 15mg | Orally disintegrating tablet | Not listed in registry data |
-| SIN12527P | REMERON SOLTAB 30 mg | Tablet | Not listed in registry data |
-| SIN12526P | REMERON SOLTAB 15 mg | Tablet | Not listed in registry data |
+| SIN14012P | APO-Mirtazapine Tablet 30 mg | Film-coated tablet | Not listed |
+| SIN13644P | Mirtazapine Sandoz Orodispersible Tablets 30 mg | Orally disintegrating tablet | Not listed |
+| SIN13643P | Mirtazapine Sandoz Orodispersible Tablets 15 mg | Orally disintegrating tablet | Not listed |
+| SIN12527P | Remeron SolTab 30 mg | Tablet | Not listed |
+| SIN12526P | Remeron SolTab 15 mg | Tablet | Not listed |
 
-All available forms are oral.
+All five licences are valid single-ingredient oral products.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Package insert warnings and contraindications were not available in the compiled data. Please refer to the package insert for full safety information.
+
+- **Drug Interactions**: 100 interactions are recorded. The 20 reviewed include these major-level ones:
+  - Bupropion
+  - Lorcaserin
+  - Dolasetron
+  - Palonosetron
+
+  Many others are moderate-level (e.g., clarithromycin, cimetidine, morphine, levofloxacin).
+- **Knowledge-graph contraindication associations** (not label text; they need verification against the package insert):
+  - Neurological and psychiatric: epilepsy, manic bipolar disorder, serotonin syndrome, drug-induced akathisia, multiple system atrophy
+  - Haematological: neutropenia, agranulocytosis, hemoglobinopathy
+  - Cardiovascular and cerebrovascular: orthostatic hypotension, postural orthostatic tachycardia syndrome, hypotensive disorder, stroke and cerebrovascular disorders, myocardial infarction
+  - Hepatic, renal and metabolic: liver disease, gallbladder disease, impaired renal function, hypertriglyceridemia, obesity
+- The predicted use would likely involve paediatric or infant patients, which raises additional safety concerns.
 
 ---
 
@@ -98,22 +111,18 @@ Please refer to the package insert for safety information.
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction rests on a model score alone. There are no trials or publications, and no plausible mechanistic link between mirtazapine and a KAT6B-related developmental syndrome.
+The prediction rests only on a knowledge-graph score. There are no trials or publications, and no biological rationale links a monoaminergic antidepressant to a KAT6B-related genetic disorder. The same applies to the closely related entries in the model's list, such as the Ohdo-type blepharophimosis syndrome.
 
 **To proceed, the following is needed:**
-- Any independent experimental or clinical evidence linking mirtazapine to Ohdo syndrome. Without it, this candidate should not advance.
-- The HSA package insert warnings and contraindications, which are still missing.
-- Mechanism-of-action data from DrugBank.
+- Mechanism-of-action data and a credible biological hypothesis connecting mirtazapine to Ohdo syndrome
+- Preclinical or case-level evidence of benefit
+- Package insert warnings and contraindications (not yet obtained)
+- A paediatric safety assessment
 
-**Other predictions in the pack worth noting:**
-Lower-ranked predictions have more supporting evidence and may be better research questions.
-- **Phobic disorder** (Evidence Level L2): small randomized placebo-controlled trials in social anxiety disorder, with inconsistent results.
-- **Dysthymic disorder** and **agoraphobia** (both L3): small open-label studies and reviews only.
-- **Melancholia** and **neurotic depression** (both L1): these map to depression, mirtazapine's core use. They appear to be on-label uses rather than true repurposing.
-
----
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+**Note on other candidates:** Other predictions for this drug have stronger evidence and may be better directions to pursue:
+- **Social phobia and phobic disorder**: two randomized, placebo-controlled trials (small, with mixed results)
+- **Dysthymic disorder**: one completed Phase 2/3 trial and class-level meta-analysis support
+- **Melancholia and neurotic depression**: largely overlap with the existing depression indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

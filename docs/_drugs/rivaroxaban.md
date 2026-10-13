@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Rivaroxaban
-parent: Medium Evidence (L3-L4)
-nav_order: 869
-evidence_level: L4
+parent: Low Evidence (L5)
+nav_order: 878
+evidence_level: L5
 indication_count: 10
 ---
 
 # Rivaroxaban
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,78 +29,82 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Rivaroxaban: From Anticoagulation to Rheumatoid Arthritis
+# Rivaroxaban: From Thromboembolic Disease to Rheumatoid Arthritis
 
 ## One-Sentence Summary
 
-Rivaroxaban is a direct factor Xa inhibitor (an oral anticoagulant). The Singapore registration records provided do not list its approved indications.
-The TxGNN model predicts it may be effective for **Rheumatoid Arthritis**, but there are **0 clinical trials** and **3 publications** that only indirectly touch the topic, so the prediction rests almost entirely on the model.
+Rivaroxaban is an oral direct Factor Xa inhibitor, an anticoagulant used to prevent and treat blood clots (the approved indication wording was not available in the data compiled for this report).
+The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but this is a computational prediction only, with **0 clinical trials** and **no publications** that test rivaroxaban for this purpose.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not listed in the Singapore registration records provided (rivaroxaban is a factor Xa inhibitor anticoagulant) |
+| Original Indication | Not available in the Singapore licence records (anticoagulant; the retrieved literature concerns venous thromboembolism and atrial fibrillation) |
 | Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 99.57% |
-| Evidence Level | L4 |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 11 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the source record. Based on known information, rivaroxaban is a direct factor Xa inhibitor, so it blocks a key step in blood clot formation. Its efficacy in clotting disorders is established, but no study has tested it for rheumatoid arthritis (RA).
+Detailed mechanism of action data is not available in the compiled data. Based on known pharmacology, rivaroxaban is a direct Factor Xa inhibitor, and its efficacy in preventing and treating thrombosis is well established.
 
-The possible link is indirect. RA involves chronic inflammation, a hypercoagulable state and a raised risk of venous thromboembolism. A review of thrombin generation assays in autoimmune disease (PMID 34175144) supports a connection between coagulation and inflammation. Factor Xa and thrombin signal through PAR receptors, which is a plausible pro-inflammatory pathway.
+A plausible link to rheumatoid arthritis is the crosstalk between coagulation and inflammation. Factor Xa and thrombin signal through PAR-1/PAR-2 receptors in synovial tissue, and thrombin generation is elevated in autoimmune disease. This is a hypothesis only. No retrieved study evaluates rivaroxaban for controlling rheumatoid arthritis, and the high TxGNN score should be read as a computational signal, not clinical evidence.
 
-This reasoning is speculative. Nothing retrieved shows that rivaroxaban modifies RA disease activity, and the very high score (0.996) is a model output, not evidence of benefit.
+Other predicted indications (gout, HIV infection, rare syndromes, mastocytosis and others) have even weaker support. Several appear to be knowledge-graph artefacts. The HIV literature concerns drug interactions and bleeding risk, not treatment of HIV.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for rheumatoid arthritis.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [34175144](https://pubmed.ncbi.nlm.nih.gov/34175144/) | 2021 | Review | La Revue de médecine interne | Thrombin generation assay can assess hypercoagulability and cardiovascular risk in autoimmune diseases such as antiphospholipid syndrome. It supports a coagulation-inflammation link but does not test rivaroxaban. |
-| [33141212](https://pubmed.ncbi.nlm.nih.gov/33141212/) | 2020 | Review | JAMA | Review of lower extremity venous thromboembolism. Gives incidence and recurrence rates but is not specific to RA or to rivaroxaban as RA therapy. |
-| [29621248](https://pubmed.ncbi.nlm.nih.gov/29621248/) | 2018 | Cohort | PLoS One | Compares adherence to rivaroxaban versus apixaban in non-valvular atrial fibrillation. It is not related to RA. |
+| [33141212](https://pubmed.ncbi.nlm.nih.gov/33141212/) | 2020 | Review | JAMA | Review of lower-limb venous thromboembolism diagnosis and treatment; background on the original use, not RA |
+| [34175144](https://pubmed.ncbi.nlm.nih.gov/34175144/) | 2021 | Review | La Revue de médecine interne | Thrombin generation assay reveals hypercoagulability in autoimmune disease; indirect mechanistic context |
+| [29621248](https://pubmed.ncbi.nlm.nih.gov/29621248/) | 2018 | Cohort | PLoS One | Adherence to rivaroxaban vs apixaban in atrial fibrillation; not RA |
+| [41918541](https://pubmed.ncbi.nlm.nih.gov/41918541/) | 2026 | Case report | Cureus | Embolic events despite anticoagulation in an 88-year-old on oral steroids for RA; incidental RA mention |
 
-None of these papers evaluates rivaroxaban for RA.
+None of these studies tests rivaroxaban for rheumatoid arthritis disease control.
 
 ## Singapore Market Information
 
-Showing 5 of 11 registrations. The indication text is not provided in these records.
-
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN16977P | INVAROX FILM COATED TABLET 15MG | Film-coated tablet | Not provided |
-| SIN16487P | XARELTO GRANULES FOR ORAL SUSPENSION 1MG/ML | Granules for oral suspension | Not provided |
-| SIN16979P | INVAROX FILM COATED TABLET 2.5MG | Film-coated tablet | Not provided |
-| SIN14118P | Xarelto Film-Coated Tablet 15 mg | Film-coated tablet | Not provided |
-| SIN16975P | INVAROX FILM COATED TABLET 20MG | Film-coated tablet | Not provided |
+| SIN14118P | Xarelto Film-Coated Tablet 15 mg | Film-coated tablet | Not available |
+| SIN14119P | Xarelto Film-Coated Tablet 20 mg | Film-coated tablet | Not available |
+| SIN13567P | Xarelto Film-Coated Tablet 10 mg | Film-coated tablet | Not available |
+| SIN14455P | Xarelto Film-Coated Tablet 2.5 mg | Film-coated tablet | Not available |
+| SIN16487P | Xarelto Granules for Oral Suspension 1 mg/ml | Granules for suspension | Not available |
+
+Six further licences cover generic or alternative brands (Invarox 2.5/10/15/20 mg and Rivason 15/20 mg). All 11 licences are valid single-ingredient products.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease associations flagged in the knowledge graph** (not label text): liver failure, kidney disease, pyoureter, liver disease, gallbladder disease, blood coagulation disease.
+- **Drug Interactions**: 100 interactions were found. Notable **major** interactions include acetylsalicylic acid, cobicistat, deferasirox, ibritumomab tiuxetan and tositumomab (I-131). **Moderate** interactions include aprepitant, dexamethasone, cimetidine, clarithromycin, miconazole, clotrimazole and rolapitant, among others.
+- The HIV-related literature highlights that CYP3A4/P-gp inhibitors such as ritonavir and cobicistat can raise rivaroxaban exposure and bleeding risk.
+- Bleeding risk is the central concern for any new indication, particularly in patients with RA who take NSAIDs or corticosteroids (this is a clinical inference, not from the retrieved data).
+
+Please refer to the package insert for full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The RA prediction has no clinical trials and no literature testing rivaroxaban in RA. The only support is an indirect coagulation-inflammation rationale plus the model score. This is a research question, not a candidate ready for development.
-The other nine predictions in the top 10 (gout, HIV, rare syndromes, mastocytosis, sclerosing cholangitis, and animal-model immunodeficiency entities) are also Hold at L4 or L5.
+The prediction rests only on a computational score (L5). No trials or studies test rivaroxaban in rheumatoid arthritis, and the mechanistic link is speculative. The safety profile (bleeding risk, many major drug interactions) means a new indication needs real supporting data first.
 
 **To proceed, the following is needed:**
-- The HSA package insert (warnings, contraindications and approved indications), which is currently a blocking gap for safety screening
-- Detailed mechanism of action data from DrugBank
-- Preclinical or exploratory clinical evidence that factor Xa inhibition affects RA disease activity, such as synovial inflammation models or an RA cohort with anticoagulant exposure
-- A risk-benefit assessment of bleeding risk in RA patients, who often take NSAIDs or corticosteroids
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Preclinical or translational evidence that Factor Xa inhibition affects synovial inflammation or RA disease activity
+- Retrieval of the HSA package insert (approved indications, warnings, contraindications)
+- Detailed mechanism of action data
+- A bleeding-risk assessment for RA patients using NSAIDs, corticosteroids or DMARDs
+- If evidence emerges, a small exploratory trial design
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

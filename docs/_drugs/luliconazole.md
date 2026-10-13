@@ -2,7 +2,7 @@
 layout: default
 title: Luliconazole
 parent: Medium Evidence (L3-L4)
-nav_order: 614
+nav_order: 620
 evidence_level: L3
 indication_count: 10
 ---
@@ -29,73 +29,80 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Luliconazole: From Topical Antifungal Use (Nail Solution) to Pityriasis Versicolor
+# Luliconazole: From Tinea Infections to Pityriasis Versicolor
 
 ## One-Sentence Summary
 
-Luliconazole is a topical imidazole antifungal. Its only Singapore product is a 5% nail solution, and the HSA record lists no approved indication text.
-The TxGNN model predicts it may be effective for **pityriasis versicolor**, a Malassezia yeast skin infection.
-Evidence is early: **1 registered clinical trial** (not yet recruiting), **1 published randomized trial** whose results could not be verified, and **2 in vitro studies**.
+Luliconazole is a topical imidazole antifungal, originally used for tinea pedis, tinea corporis and other dermatophyte infections.
+The TxGNN model predicts it may be effective for **pityriasis versicolor**,
+with **1 registered clinical trial** (not yet recruiting) and **2 publications** currently supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the HSA record. The registered product is a 5% nail solution, which is consistent with onychomycosis (inferred, not confirmed). |
+| Original Indication | Tinea pedis, tinea corporis, tinea infection, dermatophytosis of groin and perianal area (the Singapore licence has no indication text on file) |
 | Predicted New Indication | Pityriasis versicolor |
 | TxGNN Prediction Score | 99.13% |
 | Evidence Level | L3 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 1 |
-| Recommended Decision | Hold |
+| Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in this dataset. Based on known class pharmacology, luliconazole is a topical imidazole. It inhibits lanosterol 14-alpha-demethylase (CYP51), which depletes ergosterol and disrupts the fungal cell membrane.
+Currently, detailed mechanism of action data is not available for this report. Based on known information, luliconazole is a topical imidazole antifungal. Imidazoles inhibit lanosterol 14-alpha-demethylase, an enzyme needed to make ergosterol, a key component of the fungal cell membrane. Its efficacy in dermatophyte infections has been established, and mechanistically it may be applicable to pityriasis versicolor.
 
-Pityriasis versicolor is caused by Malassezia yeasts, which are azole-susceptible. An in vitro study of NND-502, the development code for luliconazole, showed activity against the three major Malassezia species (PMID 12636984). Another paper notes luliconazole has been used clinically for pityriasis versicolor (PMID 29198426), though that paper is an in vitro study on Candida.
-
-The link between the original and new indication is therefore fungal infection of the skin and nails. This is a reasonable extension, but it rests on class pharmacology and laboratory data rather than on confirmed human efficacy data in the pack.
+Pityriasis versicolor is a superficial skin infection caused by *Malassezia* yeasts, which are also susceptible to azole antifungals. Published in vitro work describes luliconazole as active against dermatophytes, *Candida* and *Malassezia*. The link is therefore biologically consistent. Note that this reasoning is inferred from the drug class rather than from confirmed mechanism data compiled for this report.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT07333170](https://clinicaltrials.gov/study/NCT07333170) | Phase 4 | Not yet recruiting | 86 | Randomized head-to-head comparison of luliconazole 2% cream vs ketoconazole 1% cream in pityriasis versicolor (planned 2026-02 to 2026-11). No results yet. |
-
-This trial tests a **2% cream**, not the 5% nail solution registered in Singapore.
+| [NCT07333170](https://clinicaltrials.gov/study/NCT07333170) | Phase 4 | Not yet recruiting | 86 | Head-to-head comparison of luliconazole 2% cream vs ketoconazole 1% cream in pityriasis versicolor. Planned for 2026-02 to 2026-11. No results yet. |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [27559523](https://pubmed.ncbi.nlm.nih.gov/27559523/) | 2016 | Prospective open RCT (per title) | Indian Dermatol Online J | Compared topical ketoconazole and topical luliconazole in pityriasis versicolor at an Indian hospital. No abstract was available, so results, phase and design could not be verified. |
-| [12636984](https://pubmed.ncbi.nlm.nih.gov/12636984/) | 2003 | In vitro | Int J Antimicrob Agents | NND-502 (luliconazole) was tested against M. furfur, M. sympodialis and M. slooffiae. Geometric mean MICs were about 1.4, 0.1 and 1.0 mg/l respectively. |
-| [29198426](https://pubmed.ncbi.nlm.nih.gov/29198426/) | 2018 | In vitro | J Mycol Med | Luliconazole activity against Candida strains. The paper states that luliconazole has been used clinically for pityriasis versicolor, but it does not test Malassezia. |
+| [27559523](https://pubmed.ncbi.nlm.nih.gov/27559523/) | 2016 | Comparative clinical study (described as a prospective, open, randomized controlled trial in the title) | Indian Dermatology Online Journal | Compared topical ketoconazole with topical luliconazole in pityriasis versicolor at a tertiary hospital in eastern India. No abstract was available, so results could not be summarised. |
+| [29198426](https://pubmed.ncbi.nlm.nih.gov/29198426/) | 2018 | In vitro study | Journal de Mycologie Médicale | Luliconazole inhibits sterol 14-α-demethylase and has broad antifungal activity, including against *Malassezia*. The study itself tested *Candida* strains. |
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN16428P | LUCONAC EXTERNAL SOLUTION FOR NAILS 5% w/w (Sato Pharmaceutical) | Solution | Not listed in the record |
+| SIN16428P | LUCONAC EXTERNAL SOLUTION FOR NAILS 5% w/w | Solution | Not listed |
+
+Note: the only registered product is a 5% nail solution (manufacturer: Sato Pharmaceutical Co., Ltd.). It is not a cream formulation like the one being tested in the pityriasis versicolor trial.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interactions were found in the queried data.
+Please refer to the package insert for safety information.
+
+No drug-interaction records were found for luliconazole.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Proceed with Guardrails**
 
 **Rationale:**
-The prediction is biologically plausible, and one comparative RCT has been published. However, the only registered trial has not started, the published RCT could not be verified, and the pack has no safety data. The pack labels this a "Research Question" at stage S1. The Singapore product (5% nail solution) also differs from the formulation being studied (2% cream).
+The mechanism is consistent with *Malassezia* susceptibility to azoles, and a head-to-head trial against ketoconazole is registered. The only published comparative study has no abstract available and its design is not confirmed, and the registered trial has no results yet. Evidence is therefore moderate rather than strong.
 
 **To proceed, the following is needed:**
-- The HSA package insert warnings and contraindications, which are a blocking gap for safety screening
-- Confirmation of the design and efficacy results of PMID 27559523
-- Results from NCT07333170, expected after its planned 2026-11 completion
-- A decision on formulation and route, since a cream or other skin-applied form for pityriasis versicolor is not in the Singapore registration
-- Detailed mechanism of action data from DrugBank
+- Obtain the results of PMID 27559523 and confirm its design and outcomes
+- Follow the results of NCT07333170 once completed
+- Detailed mechanism of action data (MOA)
+- Package insert warnings and contraindications from the HSA website
+- Confirm that a cream formulation suitable for this indication is available in Singapore, since the only registered product is a nail solution
+
+## Other Predicted Indications (Brief Note)
+
+- **Superficial mycosis** (L3) overlaps heavily with the existing dermatophyte indications. It is better viewed as an extension within the same disease family than as true repurposing. No registered trials were found.
+- **Cutaneous candidiasis** (L4) has only preclinical support (in vitro and rat model data). No human trials were found.
+- **Majocchi granuloma, tinea profunda, and dermatophytosis of scalp or beard** (L4) have only case-level or indirect evidence. Topical penetration into hair follicles and deep tissue is a limiting factor.
+- **Endothrix and ectothrix infectious disease** (L5) are supported by model prediction only.
+- **Echinococcus granulosus infection and ophthalmic herpes zoster** (L5) are likely network artifacts. Luliconazole has no known antiparasitic or antiviral mechanism.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

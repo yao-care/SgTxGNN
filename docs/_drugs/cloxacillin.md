@@ -2,7 +2,7 @@
 layout: default
 title: Cloxacillin
 parent: Low Evidence (L5)
-nav_order: 271
+nav_order: 273
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,17 +29,18 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cloxacillin: From Antibacterial Therapy to Chronic Rhinosinusitis
+# Cloxacillin: From Staphylococcal Infections to Chronic Rhinosinusitis
 
 ## One-Sentence Summary
 
-Cloxacillin is a penicillinase-resistant beta-lactam antibiotic that acts against methicillin-susceptible *Staphylococcus aureus*. The TxGNN model predicts it may be effective for **chronic rhinosinusitis**, but **0 clinical trials** and **0 publications** support this specific prediction. It is a model prediction only.
+Cloxacillin is a penicillinase-resistant penicillin, originally used for staphylococcal infections such as *Staphylococcus aureus* infection, pharyngitis, staphylococcal pneumonia and sinusitis.
+The TxGNN model predicts it may be effective for **chronic rhinosinusitis**, but **no clinical trials and no publications** currently support this specific prediction, so it rests on model prediction alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration data (antibacterial, anti-staphylococcal) |
+| Original Indication | Staphylococcus aureus infection, staphylococcal infection, pharyngitis, staphylococcal pneumonia, sinusitis (the approved indication text in the Singapore licences is blank, so these come from the knowledge graph) |
 | Predicted New Indication | Chronic rhinosinusitis |
 | TxGNN Prediction Score | 98.31% |
 | Evidence Level | L5 |
@@ -49,49 +50,74 @@ Cloxacillin is a penicillinase-resistant beta-lactam antibiotic that acts agains
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available. Cloxacillin is a penicillinase-resistant beta-lactam. It is active against methicillin-susceptible *S. aureus*, which can colonise the sinuses. This gives a possible biological link to sinus disease.
+Currently, detailed mechanism of action data is not available. Based on known information, cloxacillin is a beta-lactamase-stable penicillin with an established role against staphylococcal infections, and mechanistically it may be applicable to staphylococcus-associated sinus disease.
 
-The plausibility is limited. Chronic rhinosinusitis is often non-infectious or polymicrobial, and a narrow anti-staphylococcal agent would cover only part of the picture. The high score (0.983) is a graph-based prediction, not clinical proof. The second-ranked prediction, chronic ethmoidal sinusitis, has a nearly identical score (0.983). This suggests the two share a graph neighbourhood rather than independent evidence.
+Sinusitis is already one of cloxacillin's listed indications, so the prediction for the chronic form largely reflects closeness to that known use in the knowledge graph. The link is weak. Chronic rhinosinusitis is often polymicrobial and driven by inflammation, and cloxacillin has a narrow spectrum, so it would cover only the staphylococcal component.
+
+Other predictions fall into three groups:
+- **Closely related to existing uses:** chronic ethmoidal sinusitis, pneumonia, laryngitis and epiglottitis. Support is theoretical or indirect.
+- **Biologically implausible, likely false positives:** paranasal sinus neoplasm, celiac trunk compression syndrome, abdominal cystic lymphangioma and abdominal ectopic pregnancy.
+- **Most evidence among the predictions:** bacterial arthritis (rank 5). It is the only one with a clinical trial, and it has an animal study and a pharmacokinetic study of cloxacillin. It is mostly an extension of the existing staphylococcal infection indication.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials are registered for chronic rhinosinusitis.
+
+For reference, the only trial found among the predicted indications concerns bacterial arthritis (rank 5):
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT04141787](https://clinicaltrials.gov/study/NCT04141787) | Phase 4 | Unknown | 310 | Randomized non-inferiority trial of home IV ceftriaxone for deep-seated staphylococcal infections, including bone and joint. Ceftriaxone is the experimental arm and cloxacillin is probably the comparator, so it does not test cloxacillin as a repurposed drug. |
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature is available for chronic rhinosinusitis.
+
+For reference, the most relevant publications for the other predicted indications are:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [26695535](https://pubmed.ncbi.nlm.nih.gov/26695535/) | 2016 | Animal study | Cellular Microbiology | Cloxacillin controlled experimental *S. aureus* arthritis and was associated with lower local and systemic cytokines (bacterial arthritis) |
+| [10350394](https://pubmed.ncbi.nlm.nih.gov/10350394/) | 1999 | Pharmacokinetic study | J Antimicrob Chemother | Cloxacillin 2 g IV reached bactericidal activity in synovial fluid against *S. aureus* isolates (bacterial arthritis) |
+| [30772469](https://pubmed.ncbi.nlm.nih.gov/30772469/) | 2019 | Review | Int J Infect Dis | Review of antibiotic penetration into bone and joint tissue (bacterial arthritis) |
+| [3209935](https://pubmed.ncbi.nlm.nih.gov/3209935/) | 1988 | Case series | J Laryngol Otol | 42 adults with acute epiglottitis in Singapore; indirect evidence only (epiglottitis) |
+| [35228218](https://pubmed.ncbi.nlm.nih.gov/35228218/) | 2022 | Case report | BMJ Case Reports | Glottic *S. aureus* infection in a patient with lupus (laryngitis) |
+| [7102917](https://pubmed.ncbi.nlm.nih.gov/7102917/) | 1982 | Case report | Am J Trop Med Hyg | Severe staphylococcal pneumonia treated with high-dose cloxacillin that still progressed to respiratory failure (pneumonia) |
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN15834P | MEIXAM Powder for Solution for Injection 500mg/vial | Injection, powder, for solution | Not stated in registration data |
-| SIN09934P | OXACIL Granules 125mg/5ml | Granule, for suspension | Not stated in registration data |
-| SIN05036P | CLOXACAP 250 Capsule 250 mg | Capsule | Not stated in registration data |
-| SIN07168P | Cloxacillin Panpharma for Injection 500 mg/vial | Injection, powder, for solution | Not stated in registration data |
-| SIN08889P | CLOXACAP 500 Capsule 500 mg | Capsule | Not stated in registration data |
+| SIN15834P | MEIXAM POWDER FOR SOLUTION FOR INJECTION 500MG/VIAL | Powder for solution for injection | Not stated |
+| SIN09934P | OXACIL GRANULES 125MG/5ML | Granule for suspension | Not stated |
+| SIN05036P | CLOXACAP 250 CAPSULE 250 mg | Capsule | Not stated |
+| SIN07168P | CLOXACILLIN PANPHARMA FOR INJECTION 500 mg/vial | Powder for solution for injection | Not stated |
+| SIN08889P | CLOXACAP 500 CAPSULE 500 mg | Capsule | Not stated |
 
-Injectable, oral and suspension forms are all available in Singapore.
+All five licences are valid single-ingredient products, available as injectable, oral capsule and granule forms.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindication-related diseases (from the knowledge graph, not label text):** kidney disease, pyoureter, *Clostridium difficile* colitis, perinatal necrotizing enterocolitis, infectious mononucleosis, and chronic Epstein-Barr virus infection syndrome.
+- **Drug Interactions:** 17 interactions were identified.
+  - **Major:** methotrexate.
+  - **Moderate:** doxycycline, tetracycline, minocycline, demeclocycline, balsalazide, picosulfuric acid, iodide I-131, iodide I-123, warfarin, proguanil, chloramphenicol, ethinylestradiol, mycophenolic acid and pemetrexed.
+  - **Minor:** clarithromycin and erythromycin.
+
+Please refer to the package insert for warnings and label contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting trials or publications (L5). The mechanistic link is weak, because chronic rhinosinusitis is frequently non-infectious or polymicrobial. The package insert safety data has not yet been reviewed.
+The prediction for chronic rhinosinusitis is supported only by model scoring (L5), with no trials or literature. It largely duplicates the existing sinusitis indication, and cloxacillin's narrow spectrum fits poorly with the polymicrobial, inflammatory nature of chronic disease. Bacterial arthritis is the most plausible lead, but it is mostly an extension of the existing staphylococcal infection indication and has no direct clinical trial of cloxacillin.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from HSA, which are currently blocking safety screening
-- Mechanism of action data from DrugBank
-- Evidence that cloxacillin is effective in chronic rhinosinusitis, for example culture-proven *S. aureus* sinus infection
-
-**Other candidates in this pack:** Bacterial arthritis (rank 5) is far better supported than the top-ranked prediction. It is rated L2 and Proceed with Guardrails, with two Phase 4 trials, a preclinical cloxacillin arthritis study (PMID 26695535) and a fitting mechanism. It would be the better candidate to evaluate first. The guardrails are to confirm trial arms, susceptibility testing and bone/joint penetration. Several other predictions (paranasal sinus neoplasm, celiac trunk compression syndrome, abdominal cystic lymphangioma, abdominal ectopic pregnancy) have no plausible mechanism and look like prediction artifacts.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Package insert warnings and contraindications from HSA, which are needed before safety screening
+- Mechanism of action data (for example from DrugBank)
+- Clinical studies of cloxacillin in chronic rhinosinusitis, or a decision to prioritise the better-supported bacterial arthritis question
+- The approved indication text for the Singapore licences, which is currently blank
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

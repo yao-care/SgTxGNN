@@ -2,7 +2,7 @@
 layout: default
 title: Toripalimab
 parent: Low Evidence (L5)
-nav_order: 997
+nav_order: 1007
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,18 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Toripalimab: From Cancer Immunotherapy to Mixed-Type Autoimmune Hemolytic Anemia
+# Toripalimab: From Nasopharyngeal Carcinoma (Oncology) to Mixed-Type Autoimmune Hemolytic Anemia
 
 ## One-Sentence Summary
 
-Toripalimab is a PD-1 antibody used in cancer immunotherapy. The HSA record does not list an approved indication, but the linked trials and publications are all oncology studies.
-The TxGNN model predicts it may be effective for **mixed-type autoimmune hemolytic anemia**, but there are **0 clinical trials** and **0 publications** for this indication. The mechanism also points toward possible harm rather than benefit.
+Toripalimab is an anti-PD-1 monoclonal antibody used in cancer immunotherapy; it is registered in Singapore, but the approved indication text is not available in the data compiled for this report.
+The TxGNN model predicts it may be effective for **mixed-type autoimmune hemolytic anemia**, with **0 clinical trials** and **0 publications** supporting this direction.
+This is a model prediction only, and PD-1 blockade is more often reported to trigger autoimmune hemolysis than to treat it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not listed in the HSA record (the supporting trials and literature are in oncology) |
+| Original Indication | Not available in the Singapore licence record. Public information indicates nasopharyngeal carcinoma (FDA approval, October 2023). |
 | Predicted New Indication | Mixed-type autoimmune hemolytic anemia |
 | TxGNN Prediction Score | 93.76% |
 | Evidence Level | L5 |
@@ -50,11 +51,9 @@ The TxGNN model predicts it may be effective for **mixed-type autoimmune hemolyt
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the DrugBank record. Toripalimab blocks PD-1 and enhances T-cell activity.
+Currently, detailed mechanism of action data is not available in the compiled record. Toripalimab is a humanized antibody that blocks PD-1 from binding to its ligands PD-L1 and PD-L2 (IC50 about 3.0 nM). This releases the brake on T-cell activity against tumours.
 
-That mechanism does not support the prediction. Mixed-type autoimmune hemolytic anemia is an antibody-mediated autoimmune disease. Removing the PD-1 checkpoint would be expected to worsen it, not treat it. PD-1 inhibitors are also reported as a cause of immune-related hemolytic anemia.
-
-The TxGNN score is high (93.76%), but this is a model prediction only. No trials or literature were found, so the mechanistic direction is unsupported and may be adverse.
+The mechanistic rationale for autoimmune hemolytic anemia is weak. Enhancing immune activity would be expected to worsen autoimmune hemolysis rather than relieve it. Checkpoint inhibitors are themselves reported to cause immune-mediated hemolysis. The high TxGNN score therefore likely reflects network associations in the knowledge graph rather than a plausible therapeutic mechanism, and the prediction should be treated with caution.
 
 ## Clinical Trial Evidence
 
@@ -68,38 +67,27 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN17212P | LOQTORZI Concentrate for Solution for Infusion 240mg/6mL (Suzhou Union Biopharm Co., Ltd) | Infusion, solution concentrate | Not stated in the record |
-
-## Cytotoxicity
-
-| Item | Content |
-|------|------|
-| Cytotoxicity Classification | Immunotherapy (PD-1 immune checkpoint inhibitor), not a conventional cytotoxic |
-| Myelosuppression Risk | Low as a class; however, immune-mediated hemolysis has been reported with PD-1 inhibitors |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | CBC (including hemolysis markers if anemia develops), liver and renal function; see package insert for full schedule |
-| Handling Protection | Please refer to the package insert warnings and precautions |
+| SIN17212P | LOQTORZI Concentrate for Solution for Infusion 240mg/6ml | Infusion, solution concentrate | Not stated in the licence record |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. The HSA package insert has not yet been obtained.
+- **Drug Interactions**: The interaction search returned one pharmacology entry, which is the drug's own target (PD-1, PDCD1) rather than a drug-drug interaction. No clinically relevant interacting drugs were identified.
+- **Class concern**: PD-1 inhibitors are associated with immune-related adverse events, including hemolysis and severe skin reactions, which makes use in autoimmune haematological disease potentially harmful.
 
-No drug interactions were found in the available data.
-
-One class-level concern applies to this prediction. PD-1 inhibitors are reported as possible causes of immune-mediated hemolysis, so toripalimab could cause rather than treat this condition. The same applies to the related prediction of drug-induced autoimmune hemolytic anemia.
+Please refer to the package insert for further safety information, including warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the model score (Evidence Level L5, no trials or literature). PD-1 blockade is mechanistically counter-intuitive in an antibody-mediated autoimmune disease and may worsen it.
+The prediction rests on a model score alone, with no clinical trials or literature. The biological direction (immune activation in an autoimmune disease) is unfavourable and may be harmful.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications (currently blocking safety screening)
-- Detailed mechanism of action data (MOA) from DrugBank
-- Any clinical or preclinical evidence of benefit in autoimmune hemolytic anemia, which is currently absent
-- Review of the other top predictions: the remaining nine are Hold, and the two with literature (dermatitis, proteinuria) reflect adverse-event associations, not therapeutic signals
+- Package insert warnings and contraindications from the HSA record
+- Mechanism of action data from DrugBank
+- Any preclinical or clinical evidence that PD-1 blockade benefits autoimmune hemolytic anemia
+- A safety assessment of immune-mediated hemolysis risk with checkpoint inhibitors
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

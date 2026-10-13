@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Oteracil
-parent: Low Evidence (L5)
-nav_order: 739
-evidence_level: L5
+parent: High Evidence (L1-L2)
+nav_order: 747
+evidence_level: L1
 indication_count: 10
 ---
 
 # Oteracil
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L1** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,101 +29,115 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Oteracil: From S-1 Combination Component to Colonic Neoplasm
+# Oteracil: From Gastric Cancer to Colonic Neoplasm
 
 ## One-Sentence Summary
 
-Oteracil (potassium oxonate) is a component of the S-1 fixed-dose combination (tegafur/gimeracil/oteracil). Its role is to reduce gastrointestinal toxicity, not to kill tumour cells.
-The TxGNN model predicts it may be relevant to **Colonic Neoplasm**, with **8 clinical trials** and **20 publications** in the Evidence Pack.
-Almost all of this evidence tests the S-1 combination, not oteracil alone.
+Oteracil is a component of the S-1 combination (tegafur/gimeracil/oteracil), originally used for gastric cancer treatment.
+The TxGNN model predicts it may be effective for **Colonic Neoplasm**,
+with **6 clinical trials** and **10 publications** currently supporting this direction. The evidence applies to S-1 as a combination, not to oteracil as a standalone agent.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration data (marketed as a component of S-1) |
+| Original Indication | Gastric cancer (the licence records contain no approved indication text; this comes from the knowledge-graph indication data) |
 | Predicted New Indication | Colonic neoplasm |
 | TxGNN Prediction Score | 99.99% |
-| Evidence Level | L1 (2 completed Phase 3 RCTs, both of S-1 regimens) |
+| Evidence Level | L1 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 2 |
 | Recommended Decision | Proceed with Guardrails |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Oteracil is not an antitumour agent itself. In S-1, the antitumour effect comes from tegafur (a 5-FU prodrug) together with gimeracil (a DPD inhibitor that keeps 5-FU levels up). Oteracil inhibits orotate phosphoribosyltransferase (OPRT) in the gut mucosa. This limits local activation of 5-FU there and reduces diarrhoea and mucositis. A rat study (PMID 10997934) found that oteracil concentrates inside small-intestinal cells, which fits this role.
+Currently, detailed mechanism of action data is not available from the source records. Based on general pharmacology, oteracil is one of three components of S-1 (tegafur + gimeracil + oteracil). It is not an antitumour agent by itself. Tegafur, a 5-FU prodrug, provides the antitumour activity. Oteracil inhibits orotate phosphoribosyltransferase (OPRT) in the gastrointestinal mucosa, which reduces local activation of 5-FU and therefore its gastrointestinal toxicity.
 
-The prediction is reasonable because S-1 has been tested extensively in colorectal cancer, including adjuvant trials in stage III colon cancer and metastatic disease. The high TxGNN score most likely reflects the knowledge-graph association between the S-1 combination and colorectal cancer. The score does not show that oteracil acts on colon tumours by itself.
+Gastric cancer and colonic neoplasm are both gastrointestinal tumours that respond to fluoropyrimidine therapy. Several trials of S-1 regimens in colorectal cancer, including two Phase 3 trials, are consistent with the model's prediction.
 
-Detailed original-indication and mechanism records for oteracil are not available in the registration data. The mechanism above comes from the repurposing rationale and the literature. Any use must therefore stay within S-1 or S-1-based regimens, never oteracil as a single agent.
+The very high TxGNN score likely reflects the drug's association with fluoropyrimidine-treated gastrointestinal cancers. The evidence supports S-1 as a combination product, not oteracil alone.
+
+---
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00660894](https://clinicaltrials.gov/study/NCT00660894) | Phase 3 | Completed | 1535 | UFT+leucovorin vs TS-1 (S-1) as adjuvant therapy for stage III colon cancer |
-| [NCT03448549](https://clinicaltrials.gov/study/NCT03448549) | Phase 3 | Unknown | 1191 | SOX (S-1 + oxaliplatin) vs XELOX as adjuvant therapy for stage III colorectal cancer |
-| [NCT01918852](https://clinicaltrials.gov/study/NCT01918852) | Phase 3 | Completed | 161 | S-1 vs capecitabine as first-line treatment of metastatic colorectal cancer (SALTO) |
-| [NCT02618356](https://clinicaltrials.gov/study/NCT02618356) | Phase 2 | Unknown | 82 | Raltitrexed + S-1 in metastatic colorectal cancer after failure of standard chemotherapy |
-| [NCT06255379](https://clinicaltrials.gov/study/NCT06255379) | Phase 2 | Not yet recruiting | 52 | Single-arm fruquintinib + tegafur/gimeracil/oteracil, third-line advanced colorectal cancer |
-| [NCT00524706](https://clinicaltrials.gov/study/NCT00524706) | Phase 1/2 | Unknown | 42 | S-1 + oral leucovorin + oxaliplatin (SOL) in untreated metastatic colorectal cancer |
-| [NCT00974389](https://clinicaltrials.gov/study/NCT00974389) | Phase 2 | Unknown | 40 | S-1 + bevacizumab after failure of irinotecan- and oxaliplatin-based chemotherapy |
-| [NCT02216149](https://clinicaltrials.gov/study/NCT02216149) | Phase 2 | Terminated | 20 | Coronary blood flow effects of S-1 vs capecitabine plus oxaliplatin (cardiac safety, ended early) |
+| [NCT00660894](https://clinicaltrials.gov/study/NCT00660894) | Phase 3 | Completed | 1535 | UFT + leucovorin vs TS-1 (S-1) as adjuvant treatment for stage III colon cancer |
+| [NCT03448549](https://clinicaltrials.gov/study/NCT03448549) | Phase 3 | Unknown | 1191 | SOX (oxaliplatin + S-1) vs XELOX as adjuvant chemotherapy for stage III colorectal cancer; aims to reduce hand-foot syndrome seen with capecitabine |
+| [NCT00974389](https://clinicaltrials.gov/study/NCT00974389) | Phase 2 | Unknown | 40 | S-1 + bevacizumab in unresectable or recurrent colorectal cancer after prior chemotherapy failure |
+| [NCT02618356](https://clinicaltrials.gov/study/NCT02618356) | Phase 2 | Unknown | 82 | Raltitrexed + S-1 in metastatic colorectal cancer after standard chemotherapy failure; primary endpoint is progression-free survival |
+| [NCT06255379](https://clinicaltrials.gov/study/NCT06255379) | Phase 2 | Not yet recruiting | 52 | Single-arm study of fruquintinib + tegafur/gimeracil/oteracil as third-line treatment of advanced metastatic colorectal cancer |
+| [NCT02216149](https://clinicaltrials.gov/study/NCT02216149) | Phase 2 | Terminated | 20 | Cardiac safety study (coronary blood flow) of S-1 vs capecitabine with oxaliplatin; not an efficacy study |
+
+---
 
 ## Literature Evidence
 
+The retrieved literature consists mainly of case reports and one preclinical study. No randomised trials were retrieved.
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [24942277](https://pubmed.ncbi.nlm.nih.gov/24942277/) | 2014 | RCT | Ann Oncol | ACTS-CC: S-1 vs UFT/LV as adjuvant chemotherapy for stage III colon cancer, testing non-inferiority |
-| [31917122](https://pubmed.ncbi.nlm.nih.gov/31917122/) | 2020 | RCT | Clin Colorectal Cancer | ACTS-CC 02: SOX vs UFT/LV in high-risk stage III colon cancer, testing superiority |
-| [27056996](https://pubmed.ncbi.nlm.nih.gov/27056996/) | 2016 | RCT | Ann Oncol | ACTS-RC: S-1 vs UFT as adjuvant chemotherapy for stage II/III rectal cancer (rectal, not colon) |
-| [26036466](https://pubmed.ncbi.nlm.nih.gov/26036466/) | 2015 | Randomized phase II | BMC Cancer | S-1 dosing schedule for resected colorectal cancer, following a 76.5% 6-month completion rate in ACTS-CC |
-| [22415232](https://pubmed.ncbi.nlm.nih.gov/22415232/) | 2012 | Safety analysis of RCT | Br J Cancer | Planned safety analysis of UFT/LV and S-1 in ACTS-CC |
-| [32189156](https://pubmed.ncbi.nlm.nih.gov/32189156/) | 2020 | Clinical study | Int J Clin Oncol | KSCC1303: efficacy and feasibility of S-1 + oxaliplatin (C-SOX) in stage III colon cancer, final 3-year DFS analysis |
-| [26976971](https://pubmed.ncbi.nlm.nih.gov/26976971/) | 2016 | Translational analysis of RCT | Anticancer Res | DNA copy-number biomarker study within ACTS-CC |
-| [25209093](https://pubmed.ncbi.nlm.nih.gov/25209093/) | 2014 | Consensus guideline | Clin Colorectal Cancer | Asian consensus adapting international guidelines for metastatic colorectal cancer |
-| [10897209](https://pubmed.ncbi.nlm.nih.gov/10897209/) | 2000 | Review | Gan To Kagaku Ryoho | Design concept of S-1: enhanced 5-FU activity with reduced GI toxicity |
-| [20500514](https://pubmed.ncbi.nlm.nih.gov/20500514/) | 2010 | Preclinical | Cancer Sci | Lymph node metastasis model comparing anti-metastatic efficacy of S-1 and UFT/LV |
+| [21084813](https://pubmed.ncbi.nlm.nih.gov/21084813/) | 2010 | Retrospective cohort | Gan To Kagaku Ryoho | Risk factors for grade 3-4 haematological toxicity (16.1%) in 87 patients with advanced or recurrent colonic cancer receiving S-1 + irinotecan |
+| [20811661](https://pubmed.ncbi.nlm.nih.gov/20811661/) | 2010 | Preclinical (xenograft) | Oncology Reports | Irinotecan combined with S-1 augmented antitumour activity in 5-FU-resistant human colon cancer xenografts |
+| [18630468](https://pubmed.ncbi.nlm.nih.gov/18630468/) | 2008 | Case report | Anticancer Research | Complete response maintained with S-1 + CPT-11 in hepatic metastases of colon cancer |
+| [29394831](https://pubmed.ncbi.nlm.nih.gov/29394831/) | 2017 | Case report | Gan To Kagaku Ryoho | SOX plus panitumumab downstaged unresectable colorectal liver metastases, allowing two-stage hepatectomy |
+| [32936722](https://pubmed.ncbi.nlm.nih.gov/32936722/) | 2021 | Case report (adverse event) | J Oncol Pharm Pract | Hypertriglyceridaemia induced by S-1 in a colorectal cancer patient, with literature review |
+| [28414195](https://pubmed.ncbi.nlm.nih.gov/28414195/) | 2017 | Case report (adverse event) | Eur J Dermatol | TS-1-induced erythroderma with extensive mucosal involvement and hand-foot syndrome |
+| [41253353](https://pubmed.ncbi.nlm.nih.gov/41253353/) | 2025 | Case report (adverse event) | Gan To Kagaku Ryoho | Urinary retention from oxaliplatin-induced acute peripheral neuropathy in a patient previously treated with tegafur/gimeracil/oteracil |
+| [35444144](https://pubmed.ncbi.nlm.nih.gov/35444144/) | 2022 | Case report | Gan To Kagaku Ryoho | Repeated laparoscopic resection of peritoneal recurrences after colorectal cancer resection |
+| [30692384](https://pubmed.ncbi.nlm.nih.gov/30692384/) | 2018 | Case report | Gan To Kagaku Ryoho | CT-guided celiac plexus neurolysis for pain from postoperative recurrence of colon cancer, after oral adjuvant chemotherapy |
+
+---
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN13672P | TS-ONE Capsule 20 | Capsule (oral) | Taiho Pharmaceutical Co., Ltd. (Tokushima Plant) |
-| SIN13673P | TS-ONE Capsule 25 | Capsule (oral) | Taiho Pharmaceutical Co., Ltd. (Tokushima Plant) |
+| SIN13672P | TS-ONE Capsule 20 | Capsule | Not recorded in the compiled data |
+| SIN13673P | TS-ONE Capsule 25 | Capsule | Not recorded in the compiled data |
 
-The registration records do not include approved indication text.
+Both licences are valid, single-ingredient registrations held by Taiho Pharmaceutical Co., Ltd. (Tokushima Plant). Both products are oral capsules.
+
+---
 
 ## Cytotoxicity
 
-Oteracil itself is not cytotoxic. The section applies because it is only used as part of the S-1 regimen, which contains a fluoropyrimidine.
-
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Conventional cytotoxic (fluoropyrimidine class: tegafur, a 5-FU prodrug). Oteracil acts as a GI-toxicity modulator. |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Complete blood count, liver and renal function (general fluoropyrimidine practice; confirm against the package insert) |
-| Handling Protection | Follow local cytotoxic drug handling regulations |
+| Cytotoxicity Classification | Conventional cytotoxic (fluoropyrimidine class; oteracil is a modulating component of S-1) |
+| Myelosuppression Risk | Moderate; one retrospective study of S-1 + irinotecan found grade 3-4 haematological toxicity in 16.1% of patients |
+| Emetogenicity Classification | Low to moderate (general class estimate) |
+| Monitoring Items | CBC with differential, liver and renal function, electrolytes |
+| Handling Protection | Follow cytotoxic drug handling regulations |
+
+Reported adverse events with S-1 regimens include hand-foot syndrome, erythroderma with mucosal involvement and hypertriglyceridaemia (case reports).
+
+---
 
 ## Safety Considerations
 
-- **Adverse events reported in the literature (S-1 containing oteracil):** case reports describe erythroderma with mucosal involvement and hand-foot syndrome (PMID 28414195), hypertriglyceridaemia (PMID 32936722), grade 3 anorexia at 80 mg/day that was managed with dose reduction (PMID 17431353), and diarrhoea leading to interruption (PMID 26805106). The Phase 2 trial NCT02216149 also examined subclinical cardiac (coronary blood flow) effects of fluoropyrimidines.
+Please refer to the package insert for safety information.
 
-Please refer to the package insert for warnings, contraindications and drug interaction information.
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Proceed with Guardrails**
 
 **Rationale:**
-Two completed Phase 3 RCTs (NCT00660894, NCT01918852) and several published Phase 3 adjuvant trials support S-1 regimens in colon and colorectal cancer. This evidence applies to the S-1 combination, not to oteracil alone. The other nine predicted indications, including cecal and other benign colon lesions, have only prediction-level or indirect evidence and should stay on Hold.
+Two Phase 3 trials, one of them completed with 1535 patients, test S-1 regimens in colon and colorectal cancer. However, the evidence concerns the S-1 combination, not oteracil alone, and the literature is mostly case reports. The other predicted indications (benign or non-specific colonic conditions) have no supporting evidence and should stay on hold.
 
 **To proceed, the following is needed:**
-- The HSA package insert, to obtain warnings and contraindications. This is a blocking gap for safety screening.
-- Confirmation of the approved indications for TS-ONE in Singapore, including whether colorectal cancer is covered, since the registration records contain no indication text.
-- Detailed mechanism-of-action data for oteracil from DrugBank.
-- A guardrail that limits use to S-1 or S-1-based regimens, with no single-agent oteracil use.
+- Package insert warnings and contraindications from the HSA, which are currently missing and block safety screening
+- Mechanism of action data confirmed from DrugBank
+- Published results of the completed Phase 3 trial (NCT00660894) and of the Phase 3 SOX trial (NCT03448549), whose status is unknown
+- Confirmation of the approved indications on the Singapore TS-ONE licences, to establish whether colorectal cancer is covered
+- A safety monitoring plan, including haematological and skin toxicity surveillance
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

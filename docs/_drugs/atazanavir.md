@@ -29,19 +29,21 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Atazanavir: From HIV-1 Infection to Feline Acquired Immunodeficiency Syndrome
+# Atazanavir: From HIV Infection to Feline Acquired Immunodeficiency Syndrome
 
 ## One-Sentence Summary
 
-Atazanavir is an HIV-1 protease inhibitor used to treat HIV infection.
-The TxGNN model predicts it may be effective for **feline acquired immunodeficiency syndrome (FIV)**, a veterinary condition,
-but currently there are **0 clinical trials** and **0 publications** supporting this specific prediction.
+Atazanavir is an HIV-1 protease inhibitor, originally used to treat HIV infection and AIDS.
+The TxGNN model's top-ranked prediction is **feline acquired immunodeficiency syndrome**, but **no clinical trials and no publications** support this prediction.
+Among the other predictions, only **congenital HIV** has meaningful observational evidence (**7 publications**), and it is largely an extension of the approved HIV use.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | HIV-1 infection (based on the drug's known class; the local licence records supplied contain no indication text) |
+| Original Indication | HIV infectious disease; AIDS (the Singapore licence records contain no indication text) |
 | Predicted New Indication | Feline acquired immunodeficiency syndrome |
 | TxGNN Prediction Score | 99.98% |
 | Evidence Level | L5 |
@@ -49,47 +51,80 @@ but currently there are **0 clinical trials** and **0 publications** supporting 
 | Number of Registrations | 2 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the source record. Based on known information, atazanavir is an HIV-1 protease inhibitor. It blocks the maturation of viral particles, and its efficacy in HIV-1 infection is well established.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known information, atazanavir is an HIV-1 protease inhibitor. Its efficacy in HIV infection and AIDS is established, and mechanistically it could be relevant to related lentiviral diseases.
 
-Feline immunodeficiency virus (FIV) is a lentivirus related to HIV and has a homologous protease. So the prediction is plausible only by analogy. The very high score most likely reflects the closeness of FIV to HIV in the knowledge graph, not independent evidence. This is a veterinary indication with no human clinical relevance, and no trials or publications were found to support it.
+Feline immunodeficiency virus (FIV) is a lentivirus related to HIV, but its protease differs in structure and in sensitivity to inhibitors. The high TxGNN score most likely reflects similarity between disease terms in the knowledge graph (the link to HIV), not direct evidence. This is also a veterinary condition, which falls outside the scope of human drug repurposing.
+
+Two other predictions deserve mention:
+- **Simian immunodeficiency virus infection** (rank 2): this is the primate counterpart of HIV. One 2010 macaque study supports it only indirectly, and it is an animal model, not a human indication.
+- **Congenital HIV** (rank 6): this is the most credible prediction. It lies within atazanavir's mechanism and extends the approved HIV use to pregnancy and neonates. However, most of the evidence concerns safety in exposed, uninfected infants or maternal pharmacokinetics, not treatment of infected infants.
+
+The remaining predictions (a rare neurodevelopmental disorder, benign tumours of the prostate and reproductive system, Brenner tumour, and an obsolete hyperlipidaemia term) have no plausible mechanistic link and look like knowledge-graph artefacts.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
-Currently no related literature available.
+No literature is available for the top-ranked prediction. The table below shows the most relevant publications for the next two predictions, simian immunodeficiency virus infection and congenital HIV.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [24992294](https://pubmed.ncbi.nlm.nih.gov/24992294/) | 2015 | Cohort / pharmacokinetic | Antiviral Therapy | Atazanavir exposure in pregnancy is effective regardless of tenofovir use (congenital HIV) |
+| [25383770](https://pubmed.ncbi.nlm.nih.gov/25383770/) | 2015 | Cohort | JAMA Pediatrics | Congenital anomalies and in utero antiretroviral exposure in HIV-exposed uninfected infants |
+| [27242802](https://pubmed.ncbi.nlm.nih.gov/27242802/) | 2016 | Cohort | Frontiers in Immunology | PHACS SMARTT study: safety of in utero antiretroviral exposure |
+| [40011239](https://pubmed.ncbi.nlm.nih.gov/40011239/) | 2025 | Case/non-case pharmacovigilance | European Journal of Clinical Pharmacology | Risk of congenital anomalies after fetal exposure to antiretrovirals in European registry data |
+| [28459118](https://pubmed.ncbi.nlm.nih.gov/28459118/) | 2016 | Cohort | Journal of AIDS and Immune Research | Newborn hearing screening in HIV-exposed uninfected infants |
+| [29859254](https://pubmed.ncbi.nlm.nih.gov/29859254/) | 2018 | Preclinical (rat) | Reproductive Toxicology | Atazanavir and ritonavir interact with placental ABC transporters, affecting transplacental passage |
+| [20497048](https://pubmed.ncbi.nlm.nih.gov/20497048/) | 2010 | Preclinical (macaque) | Journal of Infectious Diseases | Antiretroviral therapy in SIV-infected macaques reduced CNS viral replication and inflammation, but viral DNA persisted |
+| [31595301](https://pubmed.ncbi.nlm.nih.gov/31595301/) | 2020 | Pharmacovigilance | Clinical Infectious Diseases | Dolutegravir safety in pregnancy (not atazanavir) |
+
+---
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN12520P | REYATAZ CAPSULE 200 mg | Capsule | — |
-| SIN13560P | REYATAZ CAPSULE 300MG | Capsule | — |
+| SIN12520P | REYATAZ CAPSULE 200 mg | Capsule | Not stated in the licence record |
+| SIN13560P | REYATAZ CAPSULE 300MG | Capsule | Not stated in the licence record |
 
-Both products are oral capsules.
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease-level cautions from the knowledge graph (not label text)**: Liver failure and liver disease, gallbladder disease, hyperglycaemia, diabetes mellitus, diabetic ketoacidosis, chronic hepatitis B or C virus infection, hemophilia, hyperbilirubinaemia (including hereditary forms and Gilbert syndrome), nephrolithiasis, acute urate nephropathy, atrioventricular block, and lactic acidosis.
+- **Drug Interactions**: 100 interactions were identified. Major interactions include:
+  - Acid-reducing agents: famotidine, ranitidine, rabeprazole, omeprazole
+  - Corticosteroids: triamcinolone, budesonide
+  - Loperamide
+
+  Moderate interactions include antidiabetic agents (acarbose, metformin, pioglitazone, alogliptin, albiglutide, acetohexamide), hydrocortisone, betamethasone, aprepitant, alosetron, and the antacids aluminium hydroxide and calcium carbonate.
+
+Package insert warnings and contraindications were not available. Please refer to the package insert for the full safety information.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting trials or literature and rests only on a homologous-protease analogy. It is a veterinary indication with no human clinical relevance, so it is not actionable for human drug repurposing.
-
-Other predictions for atazanavir have far stronger support. "AIDS related complex" (L1) is effectively the already-marketed HIV indication, and "congenital human immunodeficiency virus" (L2) has many HIV trials, though most are not specific to perinatal infection. Both should be reviewed instead of this one.
+The top-ranked prediction (feline AIDS) is veterinary, has no trials or literature, and rests on disease-ontology similarity. The evidence level is L5. Simian immunodeficiency virus infection reaches only L4 (animal data). Congenital HIV (L3) is more promising, but it is mainly an extension of the approved HIV indication and is better handled as a research question than as a repurposing candidate.
 
 **To proceed, the following is needed:**
-- Any veterinary or preclinical study of atazanavir or related protease inhibitors in FIV
-- The HSA package insert (warnings, contraindications and the labelled indication), which is currently missing
-- Detailed mechanism of action data from DrugBank
-- A decision on whether a veterinary indication is in scope at all
+- The Singapore package insert (warnings, contraindications, approved indication text), which is a blocking gap for safety screening
+- Mechanism of action data
+- For congenital HIV: studies directly assessing atazanavir treatment in infected neonates and infants, and clarification of the safety signals for in utero exposure
+- Review of the 100 identified drug interactions, with the major ones prioritised
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

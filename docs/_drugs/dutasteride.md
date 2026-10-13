@@ -2,7 +2,7 @@
 layout: default
 title: Dutasteride
 parent: Low Evidence (L5)
-nav_order: 357
+nav_order: 361
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,91 +29,83 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dutasteride: From a 5-Alpha Reductase Inhibitor (Original Indication Not Listed) to Ambras Type Hypertrichosis Universalis Congenita
+# Dutasteride: From Benign Prostatic Hyperplasia to Ambras Type Hypertrichosis Universalis Congenita
 
 ## One-Sentence Summary
 
-Dutasteride is a 5-alpha reductase inhibitor that lowers dihydrotestosterone (DHT), and its registered indication text is blank in the Singapore records provided.
-The TxGNN model predicts it may be effective for **Ambras type hypertrichosis universalis congenita**, but **0 clinical trials** and **0 publications** support this prediction. It rests on the model score alone, and the mechanistic link is weak.
-
----
+Dutasteride is a 5-alpha-reductase inhibitor originally used to treat benign prostatic hyperplasia (BPH).
+The TxGNN model predicts it may be effective for **Ambras type hypertrichosis universalis congenita**,
+but there are currently **0 clinical trials** and **0 publications** directly supporting this prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated (all approved indication fields in the Singapore registration records are blank) |
+| Original Indication | Benign prostatic hyperplasia (the approved indication text is not available in the Singapore registration records; this is taken from the knowledge-graph indication) |
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
 | TxGNN Prediction Score | 99.998% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 10 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from DrugBank in this dataset. The candidate-level analysis notes that dutasteride inhibits 5-alpha reductase types 1 and 2, which lowers DHT. That mechanism is relevant to androgen-driven hair conditions.
+Detailed mechanism of action data is not available in the data compiled for this report. From known pharmacology, dutasteride inhibits type 1 and type 2 5-alpha-reductase and lowers dihydrotestosterone (DHT). This is how it shrinks the prostate in BPH.
 
-The link to the predicted indication is weak. Ambras syndrome is a congenital condition caused by chromosomal rearrangements affecting *TRPS1* regulation, and it is not driven by androgens. Blocking DHT has no established rationale for it. The high score most likely reflects hair-phenotype proximity in the knowledge graph rather than a therapeutic rationale.
+The link to the predicted indication is weak. Ambras syndrome is a congenital hypertrichosis caused by genomic rearrangements that alter TRPS1 regulation, so it is not primarily DHT-driven. The very high TxGNN score is a model output reflecting network proximity in the knowledge graph. It is not clinical evidence.
 
-Other top-ranked predictions show the same pattern:
-- **Hair-related conditions** (hypertrichosis, hair shaft abnormality, hypotrichosis simplex, congenital hypotrichosis milia, trichomegaly): these are mostly genetic, non-androgen-mediated disorders, and there is no supporting evidence for any of them.
-- **Diffuse alopecia areata (rank 8)**: this is the only prediction with any indirect signal (Evidence Level L4, "Research Question"). The one retrieved item is a review of androgenetic alopecia in women, a different alopecia type. Alopecia areata is autoimmune, so the mechanism does not transfer directly.
-- **Unrelated developmental or neurological conditions** (Dandy-Walker syndrome, migraine with brainstem aura, odontal/periodontal malformation): no plausible mechanism. The 20 periodontitis papers retrieved for the periodontal malformation prediction never mention dutasteride, so they are a keyword match and not evidence.
-
----
+Other top-ranked predictions are also mostly speculative. These include generalised hypertrichosis, hair shaft abnormalities, hypotrichosis simplex of the scalp, and several developmental malformation syndromes. Hair-related predictions are somewhat more plausible because dutasteride is used off-label for androgenetic alopecia. However, the genetic hair disorders listed are generally not androgen-mediated. The malformation syndromes (dental/periodontal, Dandy-Walker) have no credible mechanistic link.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
+For the top prediction, no related literature is available.
 
----
+Across the other ten predictions, one paper was retrieved. It relates to diffuse alopecia areata (rank 8) and offers only indirect support:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [41714473](https://pubmed.ncbi.nlm.nih.gov/41714473/) | 2026 | Review | American Journal of Clinical Dermatology | Narrative review of pathophysiology, evaluation and treatment of androgenetic alopecia in women. It concerns a different hair-loss disorder, not alopecia areata. |
 
 ## Singapore Market Information
 
-The table lists 5 of the 10 registrations. The other 5 were not provided in the Evidence Pack.
+All 10 licences are valid single-ingredient registrations. The approved indication text is not recorded in the registration data. Product names containing "0.5/0.4" or "0.5mg/0.4mg" are dutasteride combined with tamsulosin pellets in the same capsule.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN16448P | DUTABIT 0.5 SOFT CAPSULES 0.5MG | Capsule, liquid filled | Not stated in registration record |
-| SIN15882P | RAFUSTER SOFT CAPSULES 0.5 MG | Capsule, liquid filled | Not stated in registration record |
-| SIN15563P | INTASTERIDE SOFT CAPSULE 0.5MG | Capsule, liquid filled | Not stated in registration record |
-| SIN16476P | ARIPSA SOFT CAPSULES 0.5MG | Capsule, liquid filled | Not stated in registration record |
-| SIN15590P | DUTASVITAE SOFT CAPSULE 0.5MG | Capsule, liquid filled | Not stated in registration record |
+| SIN12434P | Avodart Soft Capsule 0.5 mg | Capsule, liquid filled | Not recorded |
+| SIN14181P | Duodart Capsules 0.5mg/0.4mg | Capsule | Not recorded |
+| SIN16448P | Dutabit 0.5 Soft Capsules 0.5mg | Capsule, liquid filled | Not recorded |
+| SIN16633P | Dutabit Plus 0.5/0.4 Capsules 0.5mg/0.4mg | Capsule | Not recorded |
+| SIN15882P | Rafuster Soft Capsules 0.5 mg | Capsule, liquid filled | Not recorded |
 
-All listed products are oral formulations.
-
----
+Five further registrations are not listed here: Intasteride, Aripsa, Dutasvitae, Lotuflo-D, and Duoflow.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications (from the knowledge graph, not label text)**: multiple system atrophy, postural orthostatic tachycardia syndrome, orthostatic hypotension, liver disease, gallbladder disease, priapism, intraoperative floppy iris syndrome. Several of these probably relate to the tamsulosin component of the combination products rather than dutasteride alone, so they should be verified against the package insert.
+- **Drug Interactions**: 100 interactions were found. The moderate-level ones are aprepitant, cimetidine, clarithromycin, clotrimazole and miconazole. These are plausibly CYP3A4-related. Other interactions in the list, such as pantoprazole, metformin, simvastatin and prednisone, have an unknown severity level.
+- **Developmental concern**: 5-alpha-reductase inhibitors can affect the external genitalia of a male fetus. This matters particularly for the predicted congenital and developmental conditions, and for any use in women of childbearing potential or children.
 
----
+The package insert warnings and contraindications were not available and should be reviewed.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has a very high model score, but no clinical trials or literature support it. The mechanism (DHT suppression) does not fit a congenital, non-androgen-dependent condition. Safety and indication data from the Singapore package inserts are also missing.
+The prediction has no supporting trials or literature (evidence level L5). The mechanism is speculative because Ambras syndrome is not DHT-driven. The drug carries fetal developmental concerns. Singapore registration shows the drug is available, but that does not support the new indication.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings, contraindications and approved indications (currently blocking any safety screening)
-- Mechanism of action data from DrugBank to support mechanistic-link analysis
-- Genetic and mechanistic review of Ambras syndrome (*TRPS1*-related) to test whether any androgen-pathway role exists
-- Evaluation of diffuse alopecia areata (rank 8) as a separate research question, with differential diagnosis and immune-mediated pathways reviewed first
-- Route compatibility and similarity-to-original assessments, which are still pending
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Package insert warnings and contraindications from the HSA website
+- Mechanism of action data from DrugBank
+- Preclinical or case-level evidence connecting 5-alpha-reductase inhibition to TRPS1-related hair growth
+- Consideration of whether a better-supported hair-related prediction (such as hypotrichosis simplex of the scalp) should be prioritised instead
+- A safety plan for the pregnancy and pediatric exposure risk if any developmental or congenital condition is pursued
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

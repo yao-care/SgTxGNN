@@ -2,7 +2,7 @@
 layout: default
 title: Etanercept
 parent: Medium Evidence (L3-L4)
-nav_order: 400
+nav_order: 404
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,18 +29,19 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Etanercept: From Rheumatoid Arthritis to Rheumatoid Vasculitis
+# Etanercept: From Rheumatoid Arthritis and Spondyloarthritis to Rheumatoid Vasculitis
 
 ## One-Sentence Summary
 
-Etanercept is a TNF-blocking biologic, marketed in Singapore under 7 registrations. Its indication text is missing from the registration records, but it is widely known for rheumatoid arthritis.
-The TxGNN model predicts it may be effective for **rheumatoid vasculitis**. The supporting evidence is weak: **6 related clinical trials** and **20 publications**, none showing direct efficacy in this disease. Several publications instead report etanercept-associated vasculitis as a paradoxical adverse event.
+Etanercept is a TNF-blocking fusion protein, originally used for rheumatoid arthritis, psoriatic arthritis, ankylosing spondylitis and juvenile idiopathic arthritis.
+The TxGNN model predicts it may be effective for **rheumatoid vasculitis** (top-ranked prediction), but this prediction has only **1 clinical trial** (which does not test etanercept for this condition) and **20 publications**, several of which report etanercept *causing* vasculitis.
+Evidence for this top prediction is weak. Other predictions (inflammatory spondylopathy, polyarticular JIA) are much better supported, but they largely overlap with already-approved uses.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Rheumatoid arthritis (general drug knowledge; not stated in the Singapore registration records) |
+| Original Indication | Psoriatic arthritis, rheumatoid arthritis, ankylosing spondylitis, juvenile idiopathic arthritis (from the knowledge graph; Singapore licence indication text is not available) |
 | Predicted New Indication | Rheumatoid vasculitis |
 | TxGNN Prediction Score | 99.71% |
 | Evidence Level | L4 |
@@ -50,71 +51,70 @@ The TxGNN model predicts it may be effective for **rheumatoid vasculitis**. The 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Etanercept is a soluble TNF-receptor blocker, and its efficacy in rheumatoid arthritis is well established. Mechanistically, blocking TNF-alpha may be applicable to rheumatoid vasculitis, a severe extra-articular complication of rheumatoid arthritis.
+Detailed mechanism of action data is not available in the compiled data. Based on known information, etanercept is a soluble TNF receptor–Fc fusion protein that binds TNF-alpha and blocks its inflammatory activity. Its efficacy in rheumatoid arthritis is well established.
 
-The link is plausible but clinically contradictory. A systematic review of biologic therapy in rheumatoid vasculitis exists, but it covers biologics as a class rather than etanercept specifically. The only interventional etanercept trial retrieved was in Wegener's granulomatosis, a different vasculitis. Multiple case reports and cohort data describe vasculitis and lupus-like events appearing during etanercept treatment. The high model score therefore reflects network similarity rather than proven clinical benefit.
+Rheumatoid vasculitis is a severe extra-articular complication of rheumatoid arthritis, so TNF blockade is mechanistically plausible. However, the literature also contains reports of etanercept-associated cutaneous vasculitis, leukocytoclastic vasculitis and nephropathy. This suggests etanercept may paradoxically induce vasculitis in some patients, which weakens the therapeutic hypothesis.
+
+The only listed trial concerns perioperative immunosuppressant management in rheumatology patients and does not test etanercept against rheumatoid vasculitis. A systematic review of biological therapy in rheumatoid vasculitis exists, but the data compiled for this report do not show etanercept-specific efficacy.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00001901](https://clinicaltrials.gov/study/NCT00001901) | Phase 2 | Completed | 60 | Etanercept in Wegener's granulomatosis, a different vasculitis, so the evidence is indirect |
-| [NCT01557322](https://clinicaltrials.gov/study/NCT01557322) | N/A | Completed | 1754 | Real-world registry of moderate rheumatoid arthritis, etanercept vs non-biologic therapy; no vasculitis endpoint |
-| [NCT02590562](https://clinicaltrials.gov/study/NCT02590562) | N/A | Completed | 808 | Cross-sectional treatment-pattern study of biologic DMARDs in Chinese RA patients; no efficacy data for vasculitis |
-| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | N/A | Completed | 184 | Non-interventional study of tocilizumab in RA; indirect only |
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Not yet recruiting | 80 | Perioperative immunosuppressant management before shoulder arthroplasty; unrelated to vasculitis treatment |
-| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | Unknown | 750000 | Risk of new immune-mediated inflammatory diseases in patients on biologics; not a treatment trial |
+| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Phase 2 | Recruiting | 80 | Compares stopping immunosuppressants for different durations before shoulder replacement in rheumatology patients; addresses perioperative drug handling, not etanercept efficacy in vasculitis |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [33058033](https://pubmed.ncbi.nlm.nih.gov/33058033/) | 2021 | Systematic review | Clin Rheumatol | Reviews biologic drugs in rheumatoid vasculitis, a severe extra-articular RA manifestation |
-| [28391344](https://pubmed.ncbi.nlm.nih.gov/28391344/) | 2017 | Review | Nephrol Dial Transplant | Asks whether TNFα blockade has a role in ANCA-associated vasculitis, citing pathophysiological evidence for TNFα |
-| [28123776](https://pubmed.ncbi.nlm.nih.gov/28123776/) | 2017 | Cohort | RMD Open | BSRBR-RA data comparing drug-specific risk of lupus-like and vasculitis-like events on TNF inhibitors vs conventional DMARDs |
-| [15468348](https://pubmed.ncbi.nlm.nih.gov/15468348/) | 2004 | Commentary | J Rheumatol | Discusses TNF-alpha blockade and the risk of vasculitis (no abstract available) |
-| [12209493](https://pubmed.ncbi.nlm.nih.gov/12209493/) | 2002 | Case report | Arthritis Rheum | Accelerated nodulosis and vasculitis after etanercept for RA |
-| [11792895](https://pubmed.ncbi.nlm.nih.gov/11792895/) | 2002 | Case report | Rheumatology (Oxford) | Cutaneous vasculitis associated with etanercept and infliximab |
-| [15801034](https://pubmed.ncbi.nlm.nih.gov/15801034/) | 2005 | Case report | J Rheumatol | Proliferative lupus nephritis and leukocytoclastic vasculitis during etanercept treatment |
-| [15853915](https://pubmed.ncbi.nlm.nih.gov/15853915/) | 2005 | Immunology study | Scand J Immunol | Immunological mechanisms of cutaneous vasculitis associated with etanercept and infliximab |
-| [25544845](https://pubmed.ncbi.nlm.nih.gov/25544845/) | 2014 | Case report | Case Rep Med | Large vessel vasculitis in an RA patient on anti-TNF therapy |
-| [19648728](https://pubmed.ncbi.nlm.nih.gov/19648728/) | 2009 | Case report | Dermatology | Disseminated herpes zoster mimicking rheumatoid vasculitis in an RA patient on etanercept |
+| [33058033](https://pubmed.ncbi.nlm.nih.gov/33058033/) | 2021 | Systematic Review | Clin Rheumatol | Systematic review (PRISMA) of biological drugs in rheumatoid vasculitis, a severe extra-articular RA manifestation |
+| [28391344](https://pubmed.ncbi.nlm.nih.gov/28391344/) | 2017 | Review | Nephrol Dial Transplant | Discusses the role of TNFα blockade in ANCA-associated vasculitis and glomerulonephritis |
+| [16624928](https://pubmed.ncbi.nlm.nih.gov/16624928/) | 2006 | Review | J Am Soc Nephrol | Examines TNF-alpha in ANCA-associated vasculitis, drawing lessons from other chronic inflammatory diseases |
+| [15853915](https://pubmed.ncbi.nlm.nih.gov/15853915/) | 2005 | Review | Scand J Immunol | Immunology of cutaneous vasculitis associated with etanercept and infliximab |
+| [28123776](https://pubmed.ncbi.nlm.nih.gov/28123776/) | 2017 | Cohort (BSRBR-RA) | RMD Open | Compares lupus-like and vasculitis-like events in TNFi-treated vs. non-biological DMARD-treated RA patients |
+| [31632872](https://pubmed.ncbi.nlm.nih.gov/31632872/) | 2019 | Case Report | Cureus | Etanercept-associated nephropathy |
+| [10955351](https://pubmed.ncbi.nlm.nih.gov/10955351/) | 2000 | Case Report | J Rheumatol | First reported case of leukocytoclastic vasculitis due to etanercept in severe RA |
+| [12209493](https://pubmed.ncbi.nlm.nih.gov/12209493/) | 2002 | Case Report | Arthritis Rheum | Accelerated nodulosis and vasculitis following etanercept for RA |
+| [25544845](https://pubmed.ncbi.nlm.nih.gov/25544845/) | 2014 | Case Report | Case Rep Med | Large vessel vasculitis in an RA patient on anti-TNF therapy |
+| [19648728](https://pubmed.ncbi.nlm.nih.gov/19648728/) | 2009 | Case Report | Dermatology | Disseminated herpes zoster mimicking rheumatoid vasculitis in an RA patient on etanercept |
 
 ## Singapore Market Information
 
-The registration records supplied contain no approved indication text. Seven registrations are recorded in total; five are listed below.
-
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN14440P | Enbrel Solution for Injection in a Pre-filled Pen 50mg | Injection, solution | Pfizer Manufacturing Belgium NV |
-| SIN13834P | Enbrel Solution for Injection in a Pre-Filled Syringe 25mg | Injection, solution | Pfizer Manufacturing Belgium NV |
-| SIN13835P | Enbrel Solution for Injection in a Pre-filled Syringe 50mg | Injection, solution | Pfizer Manufacturing Belgium NV |
-| SIN16532P | Nepexto Solution for Injection in Pre-filled Syringe 50 mg/ml | Injection, solution | Lupin Limited |
-| SIN16533P | Nepexto Solution for Injection in Pre-filled Pen 50mg/ml | Injection, solution | Lupin Limited |
+| SIN14440P | Enbrel Solution for Injection in a Pre-filled Pen 50mg | Injection, solution | Not available |
+| SIN13834P | Enbrel Solution for Injection in a Pre-Filled Syringe 25mg | Injection, solution | Not available |
+| SIN13835P | Enbrel Solution for Injection in a Pre-filled Syringe 50mg | Injection, solution | Not available |
+| SIN16532P | Nepexto Solution for Injection in Pre-filled Syringe 50 mg/ml | Injection, solution | Not available |
+| SIN16533P | Nepexto Solution for Injection in Pre-filled Pen 50mg/ml | Injection, solution | Not available |
+
+Two further licences are also valid: SIN16531P (Nepexto 25 mg/0.5 ml pre-filled syringe) and SIN11854P (Enbrel for Injection 25 mg/vial). All 7 are single-ingredient products with valid status.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No interaction records were found in the database.
+- **Drug Interactions**: 100 interactions were identified. The major ones involve corticosteroids (hydrocortisone, prednisone, prednisolone, dexamethasone, betamethasone, triamcinolone, budesonide). Other major interactions include deferiprone and radiopharmaceuticals/radioimmunotherapies (iobenguane I-131, ibritumomab tiuxetan, tositumomab). Moderate interactions include metronidazole, tinidazole, rosuvastatin and simvastatin. Zinc salts are minor.
+- **Class safety concerns from the literature**: TNF inhibitors carry risks of infection (including tuberculosis reactivation and herpes zoster), possible malignancy, and paradoxical autoimmune events such as vasculitis, nodulosis and nephropathy.
 
-The retrieved literature adds the following signals:
-- **Paradoxical vasculitis**: cutaneous, large-vessel and lupus-like events are repeatedly reported during etanercept treatment.
-- **Other adverse events**: accelerated nodulosis, drug-associated nephropathy, and infections (such as disseminated herpes zoster) that can mimic vasculitis.
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-No trial tests etanercept in rheumatoid vasculitis, and the only interventional study is in a different vasculitis. The literature is dominated by reports of etanercept-associated vasculitis, which runs against the prediction. The high model score alone does not justify moving forward.
+No trial tests etanercept in rheumatoid vasculitis, and the literature includes multiple reports of etanercept causing vasculitis and nodulosis. The high TxGNN score is not backed by direct evidence, and the safety signal runs against the hypothesis.
+
+**Other predictions from the model (for context):**
+- **Inflammatory spondylopathy** (99.57%, L1, Proceed with Guardrails): overlaps with approved ankylosing spondylitis and axial spondyloarthritis uses, supported by Phase 3 RCTs (e.g., NCT00421915, NCT00434044, NCT00317499). It is effectively an existing indication, not true repurposing.
+- **Polyarticular juvenile rheumatoid arthritis** (99.50%, L1, Proceed with Guardrails): an approved JIA use with Phase 3 data. Guardrails are standard paediatric TNF-inhibitor monitoring.
+- **Juvenile chronic polyarthritis** (L2) and **RF-positive polyarticular JIA** (L3): overlap with approved JIA use.
+- **Hold (L4/L5)**: rheumatoid nodulosis (literature indicates harm), vertebral disease (only indirect support), hypermobility of coccyx, Kummell disease and WHIM syndrome (no trials or literature, no plausible TNF mechanism).
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from the HSA (currently blocking safety screening)
-- Mechanism of action data from DrugBank
-- Direct efficacy evidence for etanercept in rheumatoid vasculitis, such as a prospective study or a drug-specific analysis of the systematic review
-- A risk assessment addressing paradoxical vasculitis
-- Clarification of the original indication, which is empty in the registration data
-
-For reference, the same pack ranks the already-marketed indications inflammatory spondylopathy (axial spondyloarthritis) and polyarticular juvenile rheumatoid arthritis at evidence level L1.
+- Etanercept-specific efficacy and safety data in rheumatoid vasculitis (e.g., a controlled trial or well-designed cohort), with attention to paradoxical vasculitis risk
+- The package insert warnings, contraindications and approved-indication text from the Singapore licences
+- Detailed mechanism of action data
+- Clarification of whether the better-supported predictions (spondyloarthritis, JIA) are already covered by existing Singapore labelling, since they would then not be new indications
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

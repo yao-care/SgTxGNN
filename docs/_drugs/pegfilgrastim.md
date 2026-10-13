@@ -2,7 +2,7 @@
 layout: default
 title: Pegfilgrastim
 parent: Low Evidence (L5)
-nav_order: 761
+nav_order: 769
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,17 +29,18 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pegfilgrastim: From Neutropenia Prevention to Severe Nonproliferative Diabetic Retinopathy
+# Pegfilgrastim: From Neutropenia Prophylaxis to Severe Nonproliferative Diabetic Retinopathy
 
 ## One-Sentence Summary
 
-Pegfilgrastim is a long-acting (PEGylated) G-CSF, generally used to reduce neutropenia in patients receiving chemotherapy. The TxGNN model predicts it may be effective for **severe nonproliferative diabetic retinopathy**, but **0 clinical trials** and **0 publications** currently support this direction. It is a model prediction only.
+Pegfilgrastim is a long-acting G-CSF (granulocyte colony-stimulating factor) that stimulates neutrophil production. It is marketed in Singapore as three products, but the data compiled for this report do not list an approved indication text.
+The TxGNN model predicts it may be effective for **severe nonproliferative diabetic retinopathy**, but currently there are **0 clinical trials** and **0 publications** supporting this direction. The prediction is based on the model alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration data (generally used to reduce chemotherapy-associated neutropenia) |
+| Original Indication | Not listed in the Singapore licence records |
 | Predicted New Indication | Severe nonproliferative diabetic retinopathy |
 | TxGNN Prediction Score | 99.89% |
 | Evidence Level | L5 |
@@ -49,15 +50,11 @@ Pegfilgrastim is a long-acting (PEGylated) G-CSF, generally used to reduce neutr
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on general knowledge, pegfilgrastim is a PEGylated G-CSF that stimulates neutrophil production. Its mechanistic link to diabetic retinopathy is only hypothetical.
+Currently, detailed mechanism of action data is not available. Based on general knowledge, pegfilgrastim is a pegylated G-CSF that stimulates neutrophil production, and it is generally used to reduce neutropenia in patients receiving myelosuppressive chemotherapy. It has no established connection to retinal microvascular disease.
 
-One possible link is that G-CSF mobilizes bone-marrow endothelial progenitor cells, which are impaired in diabetes, and this could support vascular repair. However, the same mechanism could also drive pathological neovascularization in the retina. The direction of effect is therefore uncertain, and there is a real safety concern.
+A theoretical link exists: G-CSF can mobilise haematopoietic and endothelial progenitor cells, which might influence vascular repair. This is speculative. Neutrophil activation could also worsen retinal inflammation, so the direction of effect is uncertain.
 
-The other top predictions are also unsupported by clinical evidence:
-- **Diabetic retinopathy (99.73%)** rests on the same hypothesis and carries the same pro-angiogenic concern.
-- **Cataract subtypes (diabetic, senile, nuclear, cortical)** have no plausible mechanism. The scores likely reflect graph-neighborhood similarity.
-- **Platelet disorders (primary release disorder, pseudo-von Willebrand disease, Glanzmann thrombasthenia)** have no clear link to a neutrophil-directed growth factor.
-- **Drug-induced osteoporosis (96.75%)** may point in the wrong direction. Preclinical reports suggest G-CSF mobilizes osteoclast precursors and suppresses osteoblast activity, which would worsen bone loss.
+The high score (0.999) is a model prediction only. Other predictions for this drug (for example diabetic retinopathy, diabetic cataract and several cataract subtypes) appear to reflect network proximity to diabetic and eye-related conditions rather than biological rationale.
 
 ## Clinical Trial Evidence
 
@@ -69,32 +66,34 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN13200P | Neulastim Pre-filled Syringe 6mg/0.6ml | Injection, solution | Amgen Manufacturing Limited LLC |
-| SIN16012P | Fulphila Solution for Injection in Prefilled Syringe 6mg/0.6ml | Injection, solution | Biocon Biologics Limited |
-| SIN16249P | Pelgraz Solution for Injection in pre-filled syringe 6mg/0.6ml | Injection, solution | Intas Pharmaceuticals Limited Biopharma Division |
-
-Approved indication text was not provided in the registration data. All three products are injectables, and route compatibility with the predicted indication has not been assessed.
+| SIN13200P | Neulastim Pre-filled Syringe 6mg/0.6ml | Injection, solution | Not listed |
+| SIN16012P | Fulphila Solution for Injection in Prefilled Syringe 6mg/0.6ml | Injection, solution | Not listed |
+| SIN16249P | Pelgraz Solution for Injection in pre-filled syringe 6mg/0.6mL | Injection, solution | Not listed |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: 100 interactions were found, and all of the 20 itemised entries are rated Moderate. They include:
+  - Antineoplastic and cytotoxic agents: paclitaxel, mercaptopurine, azacitidine, arsenic trioxide, trimetrexate, altretamine
+  - Targeted and biologic agents: abemaciclib, acalabrutinib, avapritinib, alemtuzumab, aldesleukin, belantamab mafodotin, asparaginase
+  - Radiopharmaceuticals: iobenguane (I-131), ibritumomab tiuxetan, tositumomab (with and without I-131), fludeoxyglucose (18F)
+  - Others: pegvaliase, levamisole
+
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has a very high model score (99.89%), but no clinical trials or publications support it (L5). The plausible mechanism (progenitor-cell mobilization) could equally promote retinal neovascularization, so the direction of effect is uncertain and a safety concern exists.
+The prediction rests only on the TxGNN model score. No clinical trials or literature support it, and no established mechanism links pegfilgrastim to diabetic retinopathy. The possible pro-inflammatory effect of neutrophil stimulation on the retina is an unaddressed concern.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from the HSA website, which is a blocking gap for safety screening
-- Detailed mechanism of action data (MOA) from DrugBank
-- Systematic literature and trial searches for pegfilgrastim/G-CSF in diabetic retinopathy, with attention to retinal neovascularization risk
-- Assessment of route compatibility, since the approved forms are subcutaneous injectables and ocular disease may need a different route
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Mechanism of action data and a mechanistic rationale for retinal vascular disease
+- Preclinical or observational evidence on G-CSF in diabetic retinopathy, including the risk of retinal inflammation
+- The approved indications, warnings and contraindications from the Singapore package inserts
+- A route compatibility assessment (the current products are systemic injections, and the required route for this indication has not been defined)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

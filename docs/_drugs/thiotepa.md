@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Thiotepa
-parent: Medium Evidence (L3-L4)
-nav_order: 972
-evidence_level: L3
+parent: High Evidence (L1-L2)
+nav_order: 982
+evidence_level: L2
 indication_count: 10
 ---
 
 # Thiotepa
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L2** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,111 +29,107 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Thiotepa: From Registered Cytotoxic Use to Adult Germ Cell Tumor
+# Thiotepa: From Lymphoma and Breast/Ovarian Cancer to Adult Germ Cell Tumor
 
 ## One-Sentence Summary
 
-Thiotepa is an alkylating chemotherapy agent that is marketed in Singapore. The registration records do not state its approved indication.
-The TxGNN model predicts it may be effective for **adult germ cell tumor**. The search returned **17 clinical trials** and **20 publications**, but only a few are specific to germ cell tumors, and none is a randomized trial in this disease.
-Evidence is limited to a small single-arm Phase 2 trial and retrospective or cohort studies of high-dose thiotepa regimens.
+Thiotepa is an alkylating chemotherapy drug, originally used for lymphomas (including Hodgkin and non-Hodgkin lymphoma), breast cancer and ovarian cancer.
+The TxGNN model predicts it may be effective for **adult germ cell tumor**,
+with **14 clinical trials** and **20 publications** compiled for this direction. Most of this evidence comes from single-arm Phase 2 studies of high-dose regimens with stem cell rescue.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration records |
+| Original Indication | Lymphomas (Hodgkin and non-Hodgkin, mantle cell), B-cell neoplasm, breast cancer, ovarian cancer (the Singapore licence records contain no approved-indication text) |
 | Predicted New Indication | Adult germ cell tumor |
 | TxGNN Prediction Score | 98.51% |
-| Evidence Level | L3 |
+| Evidence Level | L2 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 5 |
-| Recommended Decision | Hold |
+| Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the record. Thiotepa is a well-known alkylating agent that crosslinks DNA and kills dividing cells. This is general pharmacology, not drawn from the record.
+Detailed mechanism of action data is not available in the data compiled for this report. Thiotepa is known to be a polyfunctional alkylating agent that cross-links DNA. At high doses it is myeloablative, which is why it is used in conditioning regimens before autologous stem cell transplant.
 
-Germ cell tumors are highly chemosensitive. Even metastatic disease can often be cured, and relapsed or poor-risk patients may be salvaged with high-dose chemotherapy and autologous stem cell transplant. Thiotepa is a recurring component of these high-dose regimens, for example carboplatin–etoposide–thiotepa and cyclophosphamide–thiotepa–carboplatin. This fits the model's prediction.
+Germ cell tumors are highly chemosensitive, and even relapsed or poor-risk patients can sometimes be salvaged with high-dose chemotherapy and stem cell rescue. High-dose regimens containing thiotepa (often with carboplatin and etoposide) take advantage of the dose-response relationship of alkylator/platinum cytotoxicity. This is consistent with thiotepa's established use in other blood and solid cancers.
 
-The same logic applies to the other predicted indications. Eight histologic patterns of testicular yolk sac tumor have no trials or literature, so only the prediction score supports them. Childhood ovarian yolk sac tumor has one indirect multi-histology transplant trial. These are not evaluated further here.
+The evidence is mainly from single-arm Phase 2 studies and cohort reports. No Phase 3 RCT directly supporting thiotepa in this indication was found in the data compiled for this report.
 
 ## Clinical Trial Evidence
 
-Only NCT00432094 targets germ cell tumors directly. The other trials are mixed solid tumor or CNS tumor studies in which thiotepa-based high-dose regimens are used, and they give indirect support at best. The table lists the 10 most relevant of the 17 retrieved trials.
+Fourteen trials were identified. The ten most relevant are listed below.
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT00432094](https://clinicaltrials.gov/study/NCT00432094) | Phase 2 | Completed | 23 | Autologous stem cell transplant specifically for germ cell tumors. This is the most direct trial, but it is small and has no randomized comparator. The thiotepa component is not confirmed. |
-| [NCT00536601](https://clinicaltrials.gov/study/NCT00536601) | NA | Completed | 174 | High-dose chemotherapy regimens with or without total-body irradiation before autologous transplant in hematologic cancers and selected solid tumors. Germ cell tumor inclusion is uncertain. |
-| [NCT00060255](https://clinicaltrials.gov/study/NCT00060255) | Phase 2 | Completed | 451 | Eight high-dose chemotherapy regimens with autologous transplant in hematologic malignancy and selected solid tumors. The population is mixed. |
-| [NCT04684368](https://clinicaltrials.gov/study/NCT04684368) | Phase 2 | Recruiting | 160 | Chemotherapy followed by response-based whole ventricular and spinal irradiation in localized non-germinomatous CNS germ cell tumor. This is a different anatomic site and likely a different age group. |
-| [NCT00025324](https://clinicaltrials.gov/study/NCT00025324) | Phase 2 | Unknown | N/A | Chemotherapy, surgery, radiotherapy and stem cell transplant in primary CNS germ cell tumors. |
-| [NCT00003173](https://clinicaltrials.gov/study/NCT00003173) | Phase 2 | Completed | 36 | High-dose thiotepa with autologous stem cell rescue in refractory solid tumors. Not germ cell specific. |
-| [NCT00623077](https://clinicaltrials.gov/study/NCT00623077) | Phase 1 | Terminated | 23 | Total marrow irradiation added to an alkylator-intense conditioning regimen in high-risk or relapsed solid tumors. |
-| [NCT04530487](https://clinicaltrials.gov/study/NCT04530487) | Phase 2 | Terminated | 1 | Allogeneic transplant, with thiotepa among the conditioning drugs, in pediatric and young adult high-risk solid tumors. Too small to be informative. |
-| [NCT00336024](https://clinicaltrials.gov/study/NCT00336024) | Phase 3 | Completed | 91 | Randomized trial in young children with supratentorial PNET or high-risk medulloblastoma. It is not a germ cell tumor, so it does not raise the evidence level. |
-| [NCT00003081](https://clinicaltrials.gov/study/NCT00003081) | Phase 1 | Completed | 16 | Busulfan, thiotepa and melphalan with autologous transplant in high-risk Ewing's sarcoma, PNET or rhabdomyosarcoma. |
+| [NCT00432094](https://clinicaltrials.gov/study/NCT00432094) | Phase 2 | Completed | 23 | Autologous peripheral blood stem cell transplant specifically for germ cell tumors; small single-arm study supporting feasibility |
+| [NCT00003173](https://clinicaltrials.gov/study/NCT00003173) | Phase 2 | Completed | 36 | High-dose thiotepa with autologous stem cell rescue in malignancies refractory to conventional chemotherapy; germ cell results cannot be separated out |
+| [NCT00007982](https://clinicaltrials.gov/study/NCT00007982) | Phase 2 | Completed | 30 | Intensive chemotherapy (BET) with stem cell transplant for selected malignant CNS tumors |
+| [NCT00025558](https://clinicaltrials.gov/study/NCT00025558) | Phase 1 | Completed | N/A | Temozolomide dose escalation with thiotepa and carboplatin plus autologous stem cell rescue in malignant brain tumors; combination safety data |
+| [NCT00002619](https://clinicaltrials.gov/study/NCT00002619) | Phase 2 | Completed | 60 | Intensive chemotherapy with autologous stem cell reconstitution in glioblastoma or brainstem tumors |
+| [NCT00003101](https://clinicaltrials.gov/study/NCT00003101) | Phase 2 | Completed | 60 | Intensive chemotherapy and autotransplantation in newly diagnosed anaplastic oligodendroglioma |
+| [NCT04684368](https://clinicaltrials.gov/study/NCT04684368) | Phase 2 | Recruiting | 160 | Chemotherapy followed by response-based irradiation in localized non-germinomatous CNS germ cell tumor; thiotepa's role unconfirmed |
+| [NCT00060255](https://clinicaltrials.gov/study/NCT00060255) | Phase 2 | Completed | 451 | Autologous transplant with eight high-dose regimens for blood cancers and selected solid tumors; indirect |
+| [NCT00536601](https://clinicaltrials.gov/study/NCT00536601) | N/A | Completed | 174 | Autologous transplant for blood cancers and selected solid tumors; heterogeneous and indirect |
+| [NCT04530487](https://clinicaltrials.gov/study/NCT04530487) | Phase 2 | Terminated | 1 | Allogeneic stem cell transplant in pediatric and young adult high-risk solid tumors; terminated early, not informative |
 
 ## Literature Evidence
 
-The table lists 10 of the 20 retrieved publications, chosen for relevance to germ cell tumors. The one RCT is included because of its design, but it is in neuroblastoma.
-
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31454045](https://pubmed.ncbi.nlm.nih.gov/31454045/) | 2019 | RCT | JAMA | Tandem versus single autologous transplant in high-risk neuroblastoma. Not germ cell tumor, so it is design context only. |
-| [11801470](https://pubmed.ncbi.nlm.nih.gov/11801470/) | 2002 | Review | Haematologica | Update on high-dose chemotherapy with stem cell transplant as salvage or first-line therapy in poor-prognosis germ cell tumors. |
-| [15803005](https://pubmed.ncbi.nlm.nih.gov/15803005/) | 2005 | Cohort | Am J Clin Oncol | Phase I/II of high-dose etoposide, thiotepa and dose-adjusted carboplatin (TVCa) with stem cell rescue in relapsed or refractory germ cell cancer. |
-| [15143087](https://pubmed.ncbi.nlm.nih.gov/15143087/) | 2004 | Not classified | J Clin Oncol | Thiotepa-based high-dose chemotherapy with stem cell rescue in recurrent or progressive CNS germ cell tumors. |
-| [28463397](https://pubmed.ncbi.nlm.nih.gov/28463397/) | 2017 | Cohort | Int J Cancer | Retrospective UK and German series of 58 relapsed intracranial germ cell tumors, assessing high-dose chemotherapy with stem cell rescue and re-irradiation. |
-| [8622061](https://pubmed.ncbi.nlm.nih.gov/8622061/) | 1996 | Cohort | J Clin Oncol | Feasibility and safety of repeated high-dose cyclophosphamide, thiotepa and carboplatin with progenitor cell support in breast or germ cell cancer. |
-| [16503505](https://pubmed.ncbi.nlm.nih.gov/16503505/) | 2006 | Case series | Biol Blood Marrow Transplant | 64 patients with germ cell tumor treated with intensive chemotherapy and autologous transplant over 10 years. |
-| [15659420](https://pubmed.ncbi.nlm.nih.gov/15659420/) | 2005 | Phase II trial | Ann Oncol | TAXIF multicentre trial of sequential high-dose chemotherapy in relapsed poor-prognosis germ cell tumors. |
-| [23824533](https://pubmed.ncbi.nlm.nih.gov/23824533/) | 2013 | Not classified | J Neurooncol | Korean study of myeloablative chemotherapy and autologous transplant in relapsed or progressed CNS germ cell tumors. |
-| [11583199](https://pubmed.ncbi.nlm.nih.gov/11583199/) | 2001 | Not classified | Ann Oncol | Amifostine as protection from toxicity after conventional-dose and high-dose (carboplatin, etoposide, thiotepa) chemotherapy in germ cell tumor. This is supportive care, not efficacy. |
+| [15143087](https://pubmed.ncbi.nlm.nih.gov/15143087/) | 2004 | Clinical study | J Clin Oncol | Thiotepa-based high-dose chemotherapy with autologous stem cell rescue in recurrent or progressive CNS germ cell tumors |
+| [15803005](https://pubmed.ncbi.nlm.nih.gov/15803005/) | 2005 | Cohort (Phase I/II) | Am J Clin Oncol | High-dose etoposide, thiotepa and carboplatin with stem cell rescue in relapsed or refractory germ cell cancer |
+| [8622061](https://pubmed.ncbi.nlm.nih.gov/8622061/) | 1996 | Cohort | J Clin Oncol | Feasibility of multiple courses of high-dose cyclophosphamide, thiotepa and carboplatin for breast or germ cell cancer |
+| [28463397](https://pubmed.ncbi.nlm.nih.gov/28463397/) | 2017 | Retrospective cohort | Int J Cancer | Outcomes in relapsed intracranial germ cell tumors, including the value of high-dose chemotherapy with stem cell rescue |
+| [11583199](https://pubmed.ncbi.nlm.nih.gov/11583199/) | 2001 | Cohort | Ann Oncol | Amifostine protection against toxicity from high-dose carboplatin, etoposide and thiotepa in germ cell tumor |
+| [12483368](https://pubmed.ncbi.nlm.nih.gov/12483368/) | 2002 | Clinical study | Ann Hematol | Amifostine and immune reconstitution after high-dose carboplatin, etoposide and thiotepa in 40 germ cell tumor patients |
+| [31454045](https://pubmed.ncbi.nlm.nih.gov/31454045/) | 2019 | RCT | JAMA | Tandem vs single autologous transplant in high-risk neuroblastoma; indirect (different disease) |
+| [11996467](https://pubmed.ncbi.nlm.nih.gov/11996467/) | 2002 | Pharmacokinetic study | Ann Oncol | Exposure-toxicity relationship of high-dose cyclophosphamide, thiotepa and carboplatin |
+| [11157041](https://pubmed.ncbi.nlm.nih.gov/11157041/) | 2001 | Review | J Clin Oncol | Dose-intensive/myeloablative therapy in metastatic Ewing sarcoma/PNET; indirect |
+| [15701281](https://pubmed.ncbi.nlm.nih.gov/15701281/) | 2005 | Cohort | Neuro-oncology | Sequential chemotherapy and high-dose thiotepa for childhood high-grade glioma; indirect |
 
 ## Singapore Market Information
 
-The registration records do not include approved indication text, so that column is omitted.
-
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN16553P | TEPADINA Powder for Concentrate for Solution for Infusion 15mg/vial | Lyophilized powder for injection | BSP Pharmaceuticals S.p.A |
-| SIN16552P | TEPADINA Powder for Concentrate for Solution for Infusion 100mg/vial | Lyophilized powder for injection | BSP Pharmaceuticals S.p.A |
-| SIN17095P | TEPADINA Powder and Solvent for Solution for Infusion 400mg | Powder for solution | Nerpharma S.R.L. / ADIENNE S.r.l. S.U. |
-| SIN17027P | THIOTEPA RIEMSER Powder for Concentrate for Solution for Infusion 15mg/vial | Lyophilized powder for injection | Thymoorgan Pharmazie GmbH |
-| SIN17028P | THIOTEPA RIEMSER Powder for Concentrate for Solution for Infusion 100mg/vial | Lyophilized powder for injection | Thymoorgan Pharmazie GmbH |
-
-All registered products are injectable or infusion powders.
+| SIN16553P | TEPADINA 15 mg/vial | Lyophilised powder for injection | Not recorded |
+| SIN16552P | TEPADINA 100 mg/vial | Lyophilised powder for injection | Not recorded |
+| SIN17095P | TEPADINA 400 mg | Powder for solution for infusion | Not recorded |
+| SIN17028P | THIOTEPA RIEMSER 100 mg/vial | Lyophilised powder for injection | Not recorded |
+| SIN17027P | THIOTEPA RIEMSER 15 mg/vial | Lyophilised powder for injection | Not recorded |
 
 ## Cytotoxicity
-
-The Evidence Pack contains no toxicity data. The entries below come from general pharmacology and should be confirmed against the package insert.
 
 | Item | Content |
 |------|------|
 | Cytotoxicity Classification | Conventional cytotoxic (alkylating agent) |
-| Myelosuppression Risk | High, especially at the high doses used before stem cell transplant |
-| Emetogenicity Classification | Low to moderate; may be higher in high-dose conditioning regimens |
-| Monitoring Items | CBC with differential, liver and renal function |
+| Myelosuppression Risk | High (myeloablative at high doses; stem cell rescue is required) |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | CBC with differential, platelets, liver and renal function |
 | Handling Protection | Must follow cytotoxic drug handling regulations |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease-level cautions (from the knowledge graph, not label text)**: kidney disease, liver disease, gallbladder disease, thrombocytopenia, blood coagulation disease, anemia, macrocytic anemia, leukopenia, pyoureter.
+- **Drug Interactions**: 100 interactions were found in total. The main ones rated Major are **deferiprone** and **samarium (153Sm) lexidronam**. Moderate ones include bupropion, palifermin, strontium chloride Sr-89 and fostamatinib. Most others (such as morphine, omeprazole, prednisone, dexamethasone, heparin and warfarin) have no severity rating.
+
+Package insert warnings and contraindications were not available in the data compiled for this report. Please refer to the package insert for full safety information.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Proceed with Guardrails**
 
 **Rationale:**
-The biological rationale is plausible, and a direct Phase 2 trial plus retrospective studies show thiotepa-containing high-dose regimens are used in germ cell tumors. However, there is no randomized evidence in this disease, and the thiotepa contribution cannot be separated from the combination regimens. The Singapore package insert warnings and approved indication are also not available, so a safety screen cannot be done yet.
+Thiotepa is already marketed in Singapore as an injectable. Several Phase 2 studies and cohort reports support high-dose thiotepa-containing regimens with stem cell rescue in germ cell tumors, including relapsed disease. However, the studies are small and single-arm, and no Phase 3 RCT is available. The other predicted subtypes (testicular yolk sac tumor histologic patterns) have no clinical evidence and should stay on Hold. Childhood ovarian yolk sac tumor is a research question only, supported by one small non-specific Phase 2 study.
 
 **To proceed, the following is needed:**
-- The HSA package insert, to obtain warnings, contraindications and the approved indication
-- DrugBank mechanism of action data
-- Confirmation of the thiotepa component and results of NCT00432094
-- Review of the germ cell tumor cohort and Phase 2 studies for thiotepa-specific efficacy and toxicity
-- A dosing and monitoring plan for myelosuppressive high-dose use
+- Package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism of action data
+- Approved-indication text for the Singapore licences, to confirm the original indications
+- Germ cell tumor-specific results from the multi-disease trials
+- A safety and monitoring plan for high-dose use (myelosuppression, organ function, interaction screening)
+- Confirmation of the thiotepa regimen and dose in the ongoing CNS germ cell tumor trial (NCT04684368)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

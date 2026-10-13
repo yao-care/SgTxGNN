@@ -2,7 +2,7 @@
 layout: default
 title: Imipenem
 parent: Low Evidence (L5)
-nav_order: 520
+nav_order: 524
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,70 +33,83 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Imipenem is a carbapenem beta-lactam antibiotic, marketed in Singapore as a fixed combination with cilastatin for injection.
-The TxGNN model predicts it may be effective for **diffuse scleroderma**, but **0 clinical trials** and **0 publications** support this prediction.
-The score looks like a knowledge-graph artifact rather than a real therapeutic signal.
+Imipenem is a carbapenem antibiotic, originally used for serious bacterial infections such as bacterial pneumonia, peritonitis and endocarditis.
+The TxGNN model predicts it may be effective for **diffuse scleroderma**, an autoimmune fibrotic disease.
+There are currently **0 clinical trials** and **0 publications** supporting this prediction, so it rests on the computational score alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Bacterial infections (general carbapenem antibiotic use; the Singapore licence records provided do not include indication text) |
+| Original Indication | Bacterial pneumonia, peritonitis, endocarditis and other bacterial infections (the Singapore licence records contain no indication text, so this comes from the TxGNN knowledge graph) |
 | Predicted New Indication | Diffuse scleroderma |
-| TxGNN Prediction Score | 99.99% |
+| TxGNN Prediction Score | 99.99% (ranked 260th overall) |
 | Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 4 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the record. Imipenem is a carbapenem antibiotic that inhibits bacterial cell wall synthesis. Its efficacy in bacterial infections is established.
+Detailed mechanism of action data is not available in the data compiled for this report. Imipenem is a carbapenem beta-lactam antibiotic. Its efficacy in bacterial infections is well established, and it acts by binding penicillin-binding proteins to disrupt bacterial cell-wall synthesis.
 
-That mechanism has no plausible link to diffuse scleroderma. Diffuse scleroderma is an autoimmune fibrotic disease, and an antibacterial mechanism does not address immune dysregulation or fibrosis. The very high TxGNN score (0.9999, rank 260) has no trial or literature support. It probably reflects graph proximity in the knowledge graph rather than a biological rationale.
+Diffuse scleroderma is an autoimmune, fibrotic connective-tissue disease, not an infection. No plausible antibacterial mechanism links imipenem to it, and no immunomodulatory or antifibrotic mechanism for imipenem is documented in the data compiled for this report. The high TxGNN score is a computational association from the knowledge graph. It is not supported by any trial or publication, and it should not be read as a therapeutic signal.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
 
+---
+
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
-|---------|------|------|-----------|
-| SIN14329P | Imipenem + Cilastatin Mevon Powder for solution for Injection 500 mg + 500 mg | Powder for solution for injection | ACS Dobfar S.p.A |
-| SIN14589P | Imipenem/Cilastatin Labatec IV powder for Injection 500mg/500mg | Powder for solution for injection | ACS Dobfar S.p.A |
-| SIN16280P | IMCIL Powder for Solution for Injection or Infusion 500mg/500mg per vial | Powder for solution for injection | Anfarm Hellas S.A. |
-| SIN14765P | Imipenem/Cilastatin Kabi Powder for Solution for Infusion 500mg/500mg | Powder for solution for injection | ACS Dobfar S.p.A |
+Imipenem is marketed in Singapore as an injectable imipenem/cilastatin combination. All 4 registrations are valid single-entry licences, and none has been cancelled. Indication text is not recorded for any of them.
 
-All four products are injectable only. The provided records do not include approved indication text.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN14329P | Imipenem + Cilastatin Mevon Powder for Solution for Injection 500 mg + 500 mg | Powder for solution for injection | Not specified in the records |
+| SIN14589P | Imipenem/Cilastatin Labatec IV Powder for Injection 500 mg/500 mg | Powder for solution for injection | Not specified in the records |
+| SIN16280P | IMCIL Powder for Solution for Injection or Infusion 500 mg/500 mg per vial | Powder for solution for injection | Not specified in the records |
+| SIN14765P | Imipenem/Cilastatin Kabi Powder for Solution for Infusion 500 mg/500 mg | Powder for solution for infusion | Not specified in the records |
+
+All products are injectable only.
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Please refer to the package insert for key warnings and contraindications. Label-based safety text was not available for this report.
+
+- **Contraindication-related conditions (knowledge graph, not label text)**: epilepsy, kidney disease, pyoureter, *Clostridium difficile* colitis, perinatal necrotizing enterocolitis.
+- **Drug Interactions**: 15 interactions were identified.
+  - **Major**: bupropion, iohexol, iopamidol.
+  - **Moderate**: warfarin, dicoumarol, theophylline, aminophylline, dyphylline, oxtriphylline, cyclosporine, mycophenolic acid, ethinylestradiol, pemetrexed, lindane, polyethylene glycol (3350 with electrolytes).
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical trials, no literature and no plausible mechanistic link. Imipenem is an antibacterial, and diffuse scleroderma is an autoimmune fibrotic disease. Evidence is model-only (L5).
-
-Other predicted indications for imipenem are more plausible than this one:
-- **Typhoid fever** (L3): observational data describe carbapenems as a last-line option for extensively drug-resistant strains.
-- ***Staphylococcus aureus* infection** (L3): two small Phase 4 trials of imipenem or carbapenem combinations in MRSA are registered.
-
-Both are extensions of the antibacterial spectrum rather than true repurposing, and both remain research questions.
+The prediction for diffuse scleroderma has no clinical trials or literature behind it and no plausible mechanism. Imipenem's known antibacterial action does not address an autoimmune fibrotic disease. Repurposing efforts are better directed at other predicted indications with actual data. These include typhoid fever, where carbapenems are a last-line option for extensively drug-resistant disease, and *Staphylococcus aureus* infection (MRSA), which has two small Phase 4 trials of imipenem-containing combinations.
 
 **To proceed, the following is needed:**
-- The HSA package insert, to obtain approved indications, warnings and contraindications (blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- A decision on whether to pursue the higher-ranked evidence candidates (typhoid fever, *S. aureus* infection) instead of diffuse scleroderma
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- A credible biological rationale for imipenem in diffuse scleroderma, supported by mechanism data (MOA)
+- Preclinical or clinical studies of any kind in this disease
+- Package insert warnings and contraindications for Singapore-registered products, to enable safety screening
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

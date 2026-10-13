@@ -2,15 +2,15 @@
 layout: default
 title: Etelcalcetide
 parent: Medium Evidence (L3-L4)
-nav_order: 401
-evidence_level: L4
+nav_order: 405
+evidence_level: L3
 indication_count: 10
 ---
 
 # Etelcalcetide
 {: .fs-9 }
 
-Evidence Level: **L4** | Predicted Indications: **10** 
+Evidence Level: **L3** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,89 +29,82 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Etelcalcetide: From Secondary Hyperparathyroidism to Hyperphosphatemia
+# Etelcalcetide: From Hyperparathyroidism to Hyperphosphatemia
 
 ## One-Sentence Summary
 
-Etelcalcetide is an intravenous calcimimetic used to control secondary hyperparathyroidism (SHPT) in patients on hemodialysis.
-The TxGNN model predicts it may be useful for **hyperphosphatemia**, but only **1 clinical trial** and **3 publications** are available. None of them measures phosphate control directly, so the evidence is indirect.
-
----
+Etelcalcetide is an intravenous calcimimetic, originally used to treat hyperparathyroidism (secondary hyperparathyroidism in dialysis patients).
+The TxGNN model predicts it may be effective for **hyperphosphatemia**,
+but there are currently **no registered clinical trials** and only **6 publications** (1 RCT in the original indication, plus reviews, a preclinical study and case reports) in the data compiled for this report.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Secondary hyperparathyroidism in hemodialysis patients (based on the literature; the registered indication text was not provided) |
+| Original Indication | Hyperparathyroidism (the Singapore licence records contain no approved indication text) |
 | Predicted New Indication | Hyperphosphatemia |
 | TxGNN Prediction Score | 99.42% |
-| Evidence Level | L4 |
+| Evidence Level | L3 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 3 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Etelcalcetide is a calcium-sensing receptor (CaSR) agonist. It lowers parathyroid hormone (PTH) and is given intravenously at the end of a hemodialysis session. Detailed mechanism data were not available in the source record, but this class effect is described in the supplied rationale and literature.
+Currently, detailed mechanism of action data is not available from the compiled data. Based on known pharmacology, etelcalcetide is a calcimimetic that activates the calcium-sensing receptor (CaSR) and lowers parathyroid hormone (PTH). Its efficacy in secondary hyperparathyroidism of chronic kidney disease is established, and mechanistically it may be applicable to hyperphosphatemia.
 
-Hyperphosphatemia and SHPT are two linked parts of chronic kidney disease–mineral and bone disorder (CKD-MBD). Lowering PTH and changing bone turnover may indirectly affect serum phosphate and calcium. However, the data show no direct phosphate-lowering effect. The available studies target SHPT, not phosphate endpoints, so the link is plausible but unconfirmed.
+Hyperphosphatemia and secondary hyperparathyroidism are closely linked in dialysis patients. Phosphate retention drives PTH secretion, and lowering PTH can indirectly improve mineral metabolism (calcium, phosphate, FGF23). The effect is therefore likely indirect and secondary to PTH suppression, not a direct phosphate-lowering action.
 
-The other nine TxGNN predictions (esophageal varices, varicose disease, glaucoma, pancreatitis, primary hyperoxaluria, and others) have no trials or literature and no clear mechanism. They rest on knowledge-graph proximity alone and are on hold.
-
----
+A 2026 preclinical report (PMID 42044867) suggests that etelcalcetide may restore cardiac function in chronic hyperphosphatemia through CaSR-cAMP activation. This adds biological plausibility but is not clinical evidence of phosphate control.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT03527511](https://clinicaltrials.gov/study/NCT03527511) | N/A | Completed | 21 | Mechanistic study of active vitamin D and etelcalcetide effects on human osteoclasts in CKD patients. Phosphate control was not an endpoint, so it is indirect support only (relevance grade C). |
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [33305109](https://pubmed.ncbi.nlm.nih.gov/33305109/) | 2020 | RCT | Kidney Int Rep | DUET trial: prospective randomized trial of etelcalcetide for SHPT in hemodialysis patients. It targets SHPT, not hyperphosphatemia. |
-| [29440923](https://pubmed.ncbi.nlm.nih.gov/29440923/) | 2018 | Review | Int J Nephrol Renovasc Dis | Reviews etelcalcetide for SHPT in hemodialysis. It notes that phosphate is currently managed with oral binders, and PTH with vitamin D analogs and calcimimetics. |
-| [33211001](https://pubmed.ncbi.nlm.nih.gov/33211001/) | 2021 | Case report | Clin Nephrol | Temporary metastatic pulmonary calcification in a peritoneal dialysis patient with hyperparathyroidism. |
-
----
+| [33305109](https://pubmed.ncbi.nlm.nih.gov/33305109/) | 2020 | RCT | Kidney Int Rep | DUET trial: prospective randomized trial of etelcalcetide in hemodialysis patients with secondary hyperparathyroidism (original indication) |
+| [29440923](https://pubmed.ncbi.nlm.nih.gov/29440923/) | 2018 | Review | Int J Nephrol Renovasc Dis | Role of etelcalcetide in managing hyperparathyroidism in hemodialysis; reduces PTH when given thrice weekly after dialysis |
+| [42495460](https://pubmed.ncbi.nlm.nih.gov/42495460/) | 2026 | Review | Cureus | Narrative review of calcimimetics, vitamin D analogs and phosphate binders for secondary hyperparathyroidism in dialysis |
+| [42044867](https://pubmed.ncbi.nlm.nih.gov/42044867/) | 2026 | Preclinical | Kidney Int | Etelcalcetide restores cardiac function in chronic hyperphosphatemia via CaSR-cAMP activation |
+| [42853437](https://pubmed.ncbi.nlm.nih.gov/42853437/) | 2026 | Case report | CEN Case Rep | Regression of uremic tumoral calcinosis after switching from cinacalcet to etelcalcetide in a hemodialysis patient without severe hyperphosphatemia |
+| [33211001](https://pubmed.ncbi.nlm.nih.gov/33211001/) | 2021 | Case report | Clin Nephrol | Temporary metastatic pulmonary calcification in a peritoneal dialysis patient with hyperparathyroidism |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN15450P | PARSABIV Solution for Injection 2.5 mg/0.5 mL | Injection, solution |
-| SIN15451P | PARSABIV Solution for Injection 5 mg/mL | Injection, solution |
-| SIN15452P | PARSABIV Solution for Injection 10 mg/2 mL | Injection, solution |
-
-The approved indication text was not included in the record for these authorizations. All three are injectable only, with no oral or topical form.
-
----
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN15450P | PARSABIV Solution for Injection 2.5 mg/0.5 mL | Injection, solution | Not recorded |
+| SIN15452P | PARSABIV Solution for Injection 10 mg/2 mL | Injection, solution | Not recorded |
+| SIN15451P | PARSABIV Solution for Injection 5 mg/mL | Injection, solution | Not recorded |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: 21 interactions were found, mostly rated Major. Main ones include:
+  - Other calcimimetics: cinacalcet
+  - Bisphosphonates: alendronic acid, risedronic acid, ibandronate, pamidronic acid, zoledronic acid, etidronic acid, tiludronic acid
+  - Other bone and calcium-lowering agents: denosumab, romosozumab, salmon calcitonin
+  - Loop diuretics: furosemide, bumetanide, torasemide, etacrynic acid
+  - Others: amifostine, pentamidine, cisplatin, foscarnet (Major); burosumab (Moderate)
 
-No drug interaction records were found. Hypocalcemia is a known concern with calcimimetics and should be monitored in any new use.
+Many of these combinations may add to calcium-lowering effects, so hypocalcemia is the likely concern.
 
----
+For other safety information (warnings and contraindications), please refer to the package insert.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The 99.42% model score is high, but the supporting evidence is indirect. The only trial is a mechanistic study of bone cells, and the RCT addresses SHPT rather than phosphate. Nothing in the supplied data shows etelcalcetide lowers serum phosphate.
+The prediction has a plausible but indirect mechanism, since any phosphate benefit would come from PTH suppression. There are no registered trials, and the only RCT addresses the original indication, not hyperphosphatemia. Package insert safety data has also not been reviewed, which blocks safety screening.
 
 **To proceed, the following is needed:**
-- Phosphate and calcium outcome data from existing etelcalcetide trials, such as the DUET trial, to see whether serum phosphate changed
-- The Singapore package insert, to confirm the approved indication and obtain warnings and contraindications
+- Package insert warnings and contraindications from the HSA, to complete safety screening
 - Detailed mechanism of action data (MOA)
-- A hypocalcemia monitoring plan if a phosphate-focused study is considered
+- Evidence that etelcalcetide lowers serum phosphate or improves clinical outcomes in hyperphosphatemia, for example from the existing SHPT trial data or a new study
+- A hypocalcemia monitoring plan, given the many interacting calcium-lowering drugs
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

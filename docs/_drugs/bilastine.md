@@ -2,7 +2,7 @@
 layout: default
 title: Bilastine
 parent: Low Evidence (L5)
-nav_order: 159
+nav_order: 160
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,18 +29,18 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Bilastine: From Allergic Conditions (H1 Antihistamine Use) to Duodenal Obstruction
+# Bilastine: From Allergic Rhinitis to Duodenal Obstruction
 
 ## One-Sentence Summary
 
-Bilastine is a non-sedating H1 antihistamine, used for allergic rhinoconjunctivitis and urticaria.
-The TxGNN model predicts it may be effective for **duodenal obstruction**, but there are **0 clinical trials** and **0 publications** supporting this direction, and the pharmacology does not support it either.
+Bilastine is a second-generation antihistamine, originally used for allergic rhinitis and urticaria.
+The TxGNN model predicts it may be effective for **duodenal obstruction**, but **0 clinical trials** and **0 publications** currently support this direction. The prediction is a graph-based inference only, and it has no plausible mechanism.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore licence records. Published literature describes allergic rhinoconjunctivitis and urticaria. |
+| Original Indication | Allergic rhinitis, vasomotor rhinitis, urticaria, angioedema (from the knowledge graph; Singapore licence records contain no indication text) |
 | Predicted New Indication | Duodenal obstruction |
 | TxGNN Prediction Score | 97.73% |
 | Evidence Level | L5 |
@@ -50,11 +50,9 @@ The TxGNN model predicts it may be effective for **duodenal obstruction**, but t
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the record. Bilastine is described as a selective, peripherally restricted H1-receptor antagonist. Its efficacy in allergic rhinitis and urticaria is well established.
+Bilastine is a selective H1 histamine receptor antagonist. Its action is on H1-mediated allergic responses such as wheal, flare and itch. Detailed mechanism of action data is not available beyond this H1 target.
 
-Duodenal obstruction is a mechanical or structural condition, and H1 blockade has no plausible effect on it. The high score (0.977) appears to come from proximity in the knowledge graph, not from pharmacology.
-
-The prediction is therefore best read as a model artifact, not a credible repurposing lead. The same applies to the other gastrointestinal predictions for this drug (duodenal ulcer, gastric ulcer, duodenogastric reflux, duodenitis). Histamine-driven acid secretion works through H2 receptors, not H1.
+On closer review, the prediction is hard to justify. Duodenal obstruction is a mechanical condition, and no H1-mediated mechanism is known to relieve it. Bilastine also has minimal effect on gastric acid secretion, which is an H2-mediated process. The high score most likely reflects shared histamine-pathway neighbours in the knowledge graph rather than real pharmacology. The score should be read as a hypothesis-generating signal only.
 
 ## Clinical Trial Evidence
 
@@ -66,34 +64,35 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN17104P | BILAXTEN TABLET 20 MG (PHARMACY ONLY) | Tablet |
-| SIN14661P | BILAXTEN TABLET 20 mg | Tablet |
-| SIN15963P | BILAXTEN ORAL SOLUTION 2.5MG/ML | Solution |
-| SIN15874P | BILAXTEN ORODISPERSIBLE TABLET 10MG | Orally disintegrating tablet |
-| SIN16474P | ALIGRIN TABLET 20MG | Tablet |
-
-Approved indication text is not recorded for any of these licences.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN17104P | BILAXTEN Tablet 20 mg (Pharmacy Only) | Tablet | Not stated in the licence record |
+| SIN14661P | BILAXTEN Tablet 20 mg | Tablet | Not stated in the licence record |
+| SIN15963P | BILAXTEN Oral Solution 2.5 mg/mL | Solution | Not stated in the licence record |
+| SIN15874P | BILAXTEN Orodispersible Tablet 10 mg | Orally disintegrating tablet | Not stated in the licence record |
+| SIN16474P | ALIGRIN Tablet 20 mg | Tablet | Not stated in the licence record |
 
 ## Safety Considerations
 
 Please refer to the package insert for safety information.
+
+The drug-interaction query returned no drug-drug interactions. It returned only a pharmacology record identifying the H1 receptor as bilastine's target.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-There is no mechanism, trial or publication behind the duodenal obstruction prediction. The score reflects graph proximity only.
+The prediction for duodenal obstruction rests only on a model score. There are no trials or publications, and there is no plausible H1-mediated mechanism for a mechanical obstruction. No further investment is justified at this time.
 
 **To proceed, the following is needed:**
-- Any mechanistic or clinical rationale for H1 antagonism in duodenal obstruction. Without one, the candidate should not advance.
-- The HSA package insert (warnings, contraindications and approved indications) and DrugBank mechanism data, both currently missing.
+- A credible mechanistic hypothesis linking H1 antagonism to duodenal obstruction, with preclinical support
+- Any clinical or observational evidence, which does not currently exist
+- The package insert (warnings, contraindications and approved indications) for the Singapore licences, to complete safety screening
 
-**Better-supported candidates for the same drug (not the primary prediction):**
-- **Allergic urticaria** (score 86.4%, L1): a Phase 3 RCT (NCT00421109, n=522) and meta-analyses in chronic urticaria. This largely confirms existing labelled use and is not a new repurposing finding. Proceed with Guardrails.
-- **Cold urticaria** (score 90.2%, L2): a completed Phase 2/3 placebo-controlled crossover study (NCT01271075, n=20) and one RCT publication (PMID 23742030). Up-dosing to 40–80 mg is off-label and the sample is small. Proceed with Guardrails.
+**Note on other predictions in the same analysis:** Two lower-ranked predictions have real clinical support, but both are extensions of the already-approved urticaria indication.
+- **Cold urticaria** has one completed Phase 2/3 placebo-controlled crossover trial (NCT01271075, n=20) and a supporting publication (PMID 23742030). It is rated L2 and treated as a research question.
+- **Allergic urticaria** has a completed Phase 3 RCT (NCT00421109, n=522) and a 2023 meta-analysis (PMID 36380619). It is rated L1 and "Proceed with Guardrails", but it largely confirms the existing label rather than representing true repurposing.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

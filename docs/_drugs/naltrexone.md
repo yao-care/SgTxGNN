@@ -2,7 +2,7 @@
 layout: default
 title: Naltrexone
 parent: Low Evidence (L5)
-nav_order: 688
+nav_order: 696
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,18 +29,18 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Naltrexone: From Opioid and Alcohol Dependence to Hypervitaminosis
+# Naltrexone: From Substance Dependence and Obesity to Hypervitaminosis
 
 ## One-Sentence Summary
 
-Naltrexone is an opioid-receptor antagonist. It is generally known for treating opioid and alcohol dependence, and in combination with bupropion (Contrave) for weight management.
-The TxGNN model predicts it may be effective for **hypervitaminosis** with a high score, but there are **0 clinical trials** and **0 publications** supporting this direction. This is a model prediction only.
+Naltrexone is an opioid receptor antagonist originally used for substance abuse/dependence and obesity (including monogenic obesity).
+The TxGNN model predicts it may be effective for **hypervitaminosis**, but this is a model prediction only, with **0 clinical trials** and **0 publications** supporting this direction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Opioid and alcohol dependence (general pharmacological knowledge; not stated in the local registration data) |
+| Original Indication | Substance abuse/dependence, obesity disorder, monogenic obesity (the Singapore licence records contain no approved indication text) |
 | Predicted New Indication | Hypervitaminosis |
 | TxGNN Prediction Score | 98.66% |
 | Evidence Level | L5 |
@@ -50,11 +50,13 @@ The TxGNN model predicts it may be effective for **hypervitaminosis** with a hig
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available for this report. Naltrexone is generally known as an opioid-receptor antagonist. Its efficacy is established in dependence-related conditions, and it is also marketed in a fixed-dose combination with bupropion in Singapore.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, naltrexone is a mu-opioid receptor antagonist. It is used for substance dependence and, in combination with bupropion, for obesity.
 
-No mechanistic link between opioid-receptor antagonism and vitamin excess can be identified from the provided data. The high score (0.987) is a knowledge-graph prediction only. It is not backed by any trial, publication or pathway evidence.
+For hypervitaminosis, no mechanistic link was identified. Naltrexone has no known relationship to vitamin metabolism or toxicity, and no trials or literature support this indication. The high score (98.66%) should be read as a model output only, not as evidence of benefit. The rank of 13,132 for this prediction also indicates the score alone is not very discriminating.
 
-Hypervitaminosis is typically managed by stopping the offending vitamin and giving supportive care. There is no recognised role for opioid antagonism. The prediction should be treated as a likely knowledge-graph artefact until proven otherwise.
+Other predictions for this drug were reviewed. Most (for example craniofacial malformations, hypospadias and bridged sella turcica) have no plausible mechanism. Two have a weak indirect rationale:
+- **Proximal 16p11.2 microdeletion syndrome** (score 98.13%): the deletion is linked to hyperphagia and severe obesity, which overlaps with naltrexone's obesity use. This is speculative, and no specific data exist.
+- **Restless legs syndrome** (score 92.20%): the opioid system is implicated, but opioid antagonism would be expected to worsen rather than improve symptoms. The retrieved literature does not evaluate naltrexone for this condition.
 
 ## Clinical Trial Evidence
 
@@ -62,38 +64,36 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for hypervitaminosis.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN10002P | NARPAN TABLET 50 mg | Tablet | Duopharma (M) Sdn Bhd |
-| SIN16411P | CONTRAVE PROLONGED RELEASE TABLET 8MG/90MG | Tablet, film coated, extended release | Patheon Inc. |
-
-Both products are oral tablets. Approved indication text was not available in the registration data.
+| SIN10002P | NARPAN TABLET 50 mg | Tablet | Not stated in the licence record |
+| SIN16411P | CONTRAVE PROLONGED RELEASE TABLET 8MG/90MG | Film-coated extended-release tablet | Not stated in the licence record |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found for this drug.
+- **Contraindication signals from the knowledge graph (not label text)**: liver failure, acute liver failure, hepatitis and liver disease; impaired renal function; respiratory failure and COPD; epilepsy; pancreatitis; gallbladder disease; hypothyroidism and myxedema; adrenal insufficiency (including Addison disease and congenital adrenal hyperplasia); anxiety and dysthymic disorders; benign prostatic hyperplasia; hypotension; chronic diarrhoeal disease; paralytic ileus.
+- **Drug Interactions**: 100 interactions were found in total. The main ones listed are:
+  - **Major**: fentanyl, codeine, dihydrocodeine, tramadol (opioid drugs, whose effects are blocked by naltrexone).
+  - **Moderate** examples: abacavir, lamivudine, zidovudine, isotretinoin, acitretin, acetaminophen, ibuprofen, ketorolac, ethanol, abemaciclib, abiraterone and afatinib.
+
+Please also refer to the package insert for label-based warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone, with no trials, no literature and no plausible mechanism. It is also likely a knowledge-graph artefact rather than a real therapeutic signal. The evidence level is L5.
+The prediction rests on a model score alone. There are no trials or publications, and no plausible mechanism links an opioid antagonist to hypervitaminosis (evidence level L5).
 
 **To proceed, the following is needed:**
-- A mechanistic rationale linking opioid-receptor antagonism to vitamin excess, together with any supporting preclinical data
-- The Singapore package insert (HSA) warnings and contraindications, which is a blocking gap for safety screening
-- Detailed mechanism of action data from DrugBank
-- Approved indication text for the two Singapore registrations
-- Confirmation that "hypervitaminosis" is a clinically actionable target, since the term is broad
-
-**Note on other predictions:** Among the other nine predictions, restless legs syndrome (score 92.2%) is the only one with any retrieved literature. That literature is indirect, and none of it is an interventional naltrexone study. Opioid agonists are used for refractory restless legs syndrome, so an antagonist could plausibly worsen symptoms. It is not recommended for advancement on current evidence either.
-
-*These results are for research reference only and do not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- A mechanistic rationale showing how naltrexone could affect vitamin handling or toxicity
+- Detailed mechanism of action data (MOA)
+- Package insert warnings and contraindications from the HSA website, plus approved indication text for the Singapore licences
+- If a lead candidate is wanted, evaluate better-supported predictions first (such as 16p11.2 microdeletion syndrome, which overlaps with the obesity use) through preclinical or literature review
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

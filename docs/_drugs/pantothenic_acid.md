@@ -2,7 +2,7 @@
 layout: default
 title: Pantothenic Acid
 parent: Low Evidence (L5)
-nav_order: 754
+nav_order: 762
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,18 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pantothenic Acid: From Vitamin Supplementation to Congenital Prothrombin Deficiency
+# Pantothenic Acid: From Ascorbic Acid Deficiency / Scurvy to Congenital Prothrombin Deficiency
 
 ## One-Sentence Summary
 
-Pantothenic acid (vitamin B5) is a nutrient, and in Singapore it is registered as a component of a multivitamin injection.
-The TxGNN model predicts it may be effective for **congenital prothrombin deficiency**, but there is **1 clinical trial** (unrelated to this condition) and **no publications** supporting this direction.
-The high score looks like a graph artifact rather than a real signal.
+Pantothenic acid (vitamin B5) is a vitamin used for nutritional deficiency states, and in the knowledge graph it is linked to ascorbic acid deficiency and scurvy.
+The TxGNN model predicts it may be effective for **congenital prothrombin deficiency**, with a very high score. However, there are **0 clinical trials** and **0 publications** supporting this prediction, and no plausible mechanistic link has been identified.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Vitamin supplementation (inferred from the registered product, a multivitamin injection; no approved indication text is listed) |
+| Original Indication | Ascorbic acid deficiency, scurvy (from the knowledge graph; no approved indication text is available in the Singapore licence record) |
 | Predicted New Indication | Congenital prothrombin deficiency |
 | TxGNN Prediction Score | 99.96% |
 | Evidence Level | L5 |
@@ -51,43 +50,60 @@ The high score looks like a graph artifact rather than a real signal.
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, pantothenic acid is a precursor of coenzyme A (CoA) and is supplied as part of a multivitamin product. Its role in general metabolism is well established.
+Currently, detailed mechanism of action data is not available. Based on known information, pantothenic acid is a vitamin and a precursor of coenzyme A, which participates broadly in lipid and energy metabolism. It is supplied in Singapore as part of a multivitamin injection.
 
-Congenital prothrombin deficiency is a genetic defect of a coagulation factor. Pantothenic acid has no known role in prothrombin synthesis, so the mechanistic link is not plausible. The TxGNN score appears to reflect network proximity in the knowledge graph rather than biological rationale.
+For the top-ranked prediction, the connection is weak. Congenital prothrombin deficiency is a genetic coagulation factor disorder (F2 gene), and pantothenic acid has no known role in prothrombin synthesis or function. The high TxGNN score is a model output only and is not backed by any trial or publication. The original indications (vitamin deficiency states) are nutritional, while the predicted one is a genetic bleeding disorder, so the two do not share an obvious pathway.
 
-Two other predictions for this drug have more support than this one. Folic acid deficiency anemia (L4) is indirectly supported by multi-micronutrient trials and historical deficiency reports. Uterine inflammatory disease (L4) is supported by a single 2026 mouse study. Neither has direct human evidence for pantothenic acid alone.
+Among the other predictions in the list, some have a more plausible, though still limited, rationale:
+
+- **Folic acid deficiency anemia (score 99.60%, L4):** B-vitamin deficiencies often co-occur, and historical animal work links pantothenic acid and folic acid deficiencies to anemia and granulocytopenia. Folate repletion remains the standard treatment, and no human trial supports pantothenic acid for this condition.
+- **Uterine inflammatory disease (score 99.14%, L4):** A 2026 mouse study reports that pantothenic acid alleviates vagotomy-induced endometrial injury. This is a single preclinical model and is hypothesis-generating only.
+
+The remaining predictions (ochronosis, glycerol metabolism disease, xanthogranulomatous pyelonephritis, urinary tract infection, gonococcal urethritis, Ureaplasma urethritis, Keshan disease) have no supportive evidence.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT02392767](https://clinicaltrials.gov/study/NCT02392767) | Not applicable | Completed | 25 | A multi-ingredient dietary supplement (L-arginine, Pycnogenol, vitamin K2, lipoic acid, B vitamins) was tested against placebo for endothelial function in mild-to-moderate hypertension. It is unrelated to coagulation disorders and gives no support for this indication (relevance grade C). |
+Currently no related clinical trials registered for congenital prothrombin deficiency, or for any of the other top-10 predicted indications.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for congenital prothrombin deficiency.
+
+For reference, literature retrieved for lower-ranked predictions is summarised below. None of it supports the top prediction.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [41223999](https://pubmed.ncbi.nlm.nih.gov/41223999/) | 2026 | Preclinical (mouse) | Mucosal Immunology | Pantothenic acid alleviated vagotomy-induced endometrial injury (uterine inflammatory disease) |
+| [21021037](https://pubmed.ncbi.nlm.nih.gov/21021037/) | 1946 | Historical report | Nutrition Reviews | Anemia and granulocytopenia in relation to pantothenic acid and folic acid deficiencies (folic acid deficiency anemia) |
+| [21929634](https://pubmed.ncbi.nlm.nih.gov/21929634/) | 2011 | Review | Maternal & Child Nutrition | Fortified foods for pregnant and lactating women and their effect on nutritional status (folic acid deficiency anemia) |
+| [3724048](https://pubmed.ncbi.nlm.nih.gov/3724048/) | 1986 | Review | Laboratory Animal Science | Nutritional deficiency anemias in nonhuman primates, including pantothenic acid and folic acid (folic acid deficiency anemia) |
+| [20505214](https://pubmed.ncbi.nlm.nih.gov/20505214/) | 2010 | Observational metabolomics | Science Translational Medicine | Plasma metabolic signatures of exercise; pantothenate appears only as one detected metabolite (glycerol metabolism disease) |
+| [22380686](https://pubmed.ncbi.nlm.nih.gov/22380686/) | 2012 | Preclinical metabolomics | Journal of Proteome Research | Liver metabolomics in aged rats; not a pantothenic acid treatment study (glycerol metabolism disease) |
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN11975P | CERNEVIT FOR INJECTION | Injection, powder, for solution | Not specified in the registration data |
+| SIN11975P | CERNEVIT FOR INJECTION | Injection, powder, for solution | Not stated in the available record |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Disease associations flagged in the knowledge graph (not label text):** kidney disease, pyoureter, sickle cell anemia, hereditary persistence of fetal hemoglobin, primary hyperoxaluria, hereditary hemochromatosis, hemosiderosis, iron metabolism disease, Wilson disease. These come from model-graph contraindication edges and should be verified against the product label.
+
+Please refer to the package insert for other safety information, including warnings and drug interactions.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no mechanistic plausibility and no supporting trials or publications. The only retrieved trial is a multi-ingredient supplement study in hypertension, which is unrelated to this condition.
+The top-ranked prediction, congenital prothrombin deficiency, rests on a model score alone. There are no trials or publications, and pantothenic acid has no known role in prothrombin biology. The Singapore product is a multivitamin injection, and the available safety data are incomplete.
 
 **To proceed, the following is needed:**
-- Singapore HSA package insert warnings and contraindications, which currently block safety screening
-- Detailed mechanism of action data (MOA) from DrugBank
-- A reassessment of folic acid deficiency anemia, the better-supported candidate (L4), using trials that isolate pantothenic acid
+- Package insert warnings and contraindications for the registered product (currently missing and blocking safety screening)
+- Mechanism of action data for pantothenic acid
+- A defined biological hypothesis linking coenzyme A metabolism to prothrombin synthesis, if this prediction is to be pursued at all
+- Consideration of folic acid deficiency anemia and uterine inflammatory disease as better-supported research questions (L4), starting with human observational data or well-designed preclinical work
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

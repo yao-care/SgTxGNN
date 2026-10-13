@@ -33,13 +33,16 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Amlodipine is a dihydropyridine calcium channel blocker, a widely used blood pressure-lowering drug. The TxGNN model predicts it may help with **brain stem infarction** (score 99.94%), but **no clinical trials and no publications** are linked to this specific prediction. This is a model-only signal (Evidence Level L5), and the stronger clues in this pack point to other stroke-related indications.
+Amlodipine is an oral blood-pressure-lowering drug, originally used for hypertension, with listed uses in stroke and cerebrovascular disorders and in Prinzmetal angina.
+The TxGNN model predicts it may be effective for **brain stem infarction**, but **no clinical trials and no publications** specific to this condition were found, so the prediction currently rests on the model score alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Hypertension (from the pack's rationale text; the HSA licence records have no indication text) |
+| Original Indication | Hypertension (also stroke and cerebrovascular disorders, Prinzmetal angina, per the knowledge graph; Singapore label wording is not available in the compiled data) |
 | Predicted New Indication | Brain stem infarction |
 | TxGNN Prediction Score | 99.94% |
 | Evidence Level | L5 |
@@ -47,84 +50,78 @@ Amlodipine is a dihydropyridine calcium channel blocker, a widely used blood pre
 | Number of Registrations | 20 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the record. Based on the pack's rationale text, amlodipine is a dihydropyridine calcium channel blocker. It lowers blood pressure by relaxing blood vessels and reducing systemic vascular resistance.
+Currently, detailed mechanism of action data is not available. Based on known information, amlodipine is a blood-pressure-lowering drug with established efficacy in hypertension. Its effect on blood pressure is the most plausible route to a benefit in stroke.
 
-Lowering blood pressure is a plausible route to preventing a secondary stroke. However, brain stem infarction is defined by where the infarct sits, not by a distinct treatment target. Nothing in the data shows amlodipine acting differently for this location. The link therefore rests on general pharmacology and the model score alone.
+Brain stem infarction is a type of ischaemic stroke. Amlodipine is already linked to stroke, cerebral infarction and cerebrovascular disorders in the knowledge graph, so a link through secondary stroke prevention is reasonable. This also means the high score probably reflects overlap with existing indications rather than a new repurposing signal. No data specific to brain stem infarction were found to test this.
 
-Similarity between the original and predicted indications has not been assessed (marked pending in the pack).
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for brain stem infarction.
+Currently no related clinical trials registered.
 
-The pack does contain trials for related stroke indications. The most relevant is for **intracerebral hemorrhage** (rank 10 candidate, evidence level L2, the strongest in this pack):
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT02699645](https://clinicaltrials.gov/study/NCT02699645) | Phase 3 | Completed | 1671 | TRIDENT: triple-combination blood pressure pill vs placebo to prevent recurrent stroke after intracerebral hemorrhage. Results are not in the pack, and the regimen is understood to include amlodipine (unverified). |
-| [NCT00134160](https://clinicaltrials.gov/study/NCT00134160) | Phase 4 | Completed | 1000 | High-dose ARB alone vs ARB plus calcium channel blocker in elderly Japanese hypertensive patients. Amlodipine as the partner drug is unverified. |
-| [NCT03264352](https://clinicaltrials.gov/study/NCT03264352) | Phase 4 | Recruiting | 11414 | Treating high-normal blood pressure in type 2 diabetes. Amlodipine is not specified. |
-| [NCT03785067](https://clinicaltrials.gov/study/NCT03785067) | Phase 3 | Terminated | 1 | TRIDENT cognitive sub-study. Too small to interpret. |
-| [NCT03783754](https://clinicaltrials.gov/study/NCT03783754) | Phase NA | Terminated | 4 | TRIDENT MRI sub-study. Too small to interpret. |
+---
 
 ## Literature Evidence
 
-Currently no related literature available for brain stem infarction.
+Currently no related literature available.
 
-For the intracerebral hemorrhage candidate, the pack lists mostly off-target papers. The two most relevant are:
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [34994269](https://pubmed.ncbi.nlm.nih.gov/34994269/) | 2022 | Trial design/rationale | Int J Stroke | TRIDENT rationale: a single-pill combination of blood pressure drugs as secondary prevention after intracerebral hemorrhage. |
-| [19299323](https://pubmed.ncbi.nlm.nih.gov/19299323/) | 2009 | Case report | Ann Pharmacother | Probable amlodipine-induced angioedema in a patient with a thalamic hemorrhagic stroke (a safety signal). |
+---
 
 ## Singapore Market Information
 
-Showing 5 of 20 registrations. The HSA records provided have no approved-indication text.
+Amlodipine has 20 valid single-ingredient tablet registrations in Singapore, and none are cancelled. The registration records do not include approved-indication text. Five of them are listed below.
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
+| Authorization Number | Product Name | Dosage Form | Manufacturer |
 |---------|------|------|-----------|
-| SIN14529P | AMCAD 5 TABLET 5 mg | Tablet | Not stated in record |
-| SIN15498P | AMLOPIN TABLET 5MG | Tablet | Not stated in record |
-| SIN13538P | ACTAPIN TABLET 10MG | Tablet | Not stated in record |
-| SIN14548P | Tenox tablets 5 mg | Tablet | Not stated in record |
-| SIN13537P | ACTAPIN TABLET 5MG | Tablet | Not stated in record |
+| SIN05277P | Norvasc Tablet 5 mg | Tablet | Viatris Pharmaceuticals LLC / Pfizer Manufacturing Deutschland GmbH |
+| SIN14756P | Amlodipine Sandoz Tablets 5 mg | Tablet | Novartis Pharmaceutical Manufacturing LLC / Sandoz (Gebze 2) |
+| SIN14159P | Apo-Amlodipine Tablet 5 mg | Tablet | Apotex Inc. |
+| SIN14548P | Tenox Tablets 5 mg | Tablet | Krka, d.d., Novo mesto |
+| SIN14529P | Amcad 5 Tablet 5 mg | Tablet | Cadila Pharmaceuticals Limited |
 
-All registered forms are oral tablets.
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No warnings, contraindications or drug interaction data were retrieved.
+**Contraindication-related conditions (from the knowledge graph, not label text):** The knowledge graph links amlodipine to the following conditions. These should be checked against the Singapore package insert.
+- Liver and biliary: liver failure, liver disease, gallbladder disease, pancreatitis
+- Kidney and urinary: kidney disease, pyoureter
+- Cardiovascular: hypotensive disorder
+- Endocrine and metabolic: hypothyroidism (including myxedema and congenital hypothyroidism), diabetes mellitus, diabetic ketoacidosis, hyperuricemia, hyperparathyroidism, osteitis fibrosa, potassium deficiency
+- Angioedema (several forms, including hereditary and renin-angiotensin-aldosterone system-blocker-induced)
+- Autoimmune and haematological: systemic lupus erythematosus (including paediatric), neutropenia, agranulocytosis
+- Neuromuscular: myopathy, muscular and skeletal muscle disease, familial periodic paralysis
 
-Two signals appear in the pack's evidence review:
-- A case report of probable amlodipine-induced angioedema (PMID 19299323).
-- For the hypoxia-related pulmonary hypertension prediction (rank 2), the rationale notes that calcium channel blockers may blunt hypoxic pulmonary vasoconstriction and worsen ventilation-perfusion matching in lung disease. This is a potential harm signal.
+**Drug interactions:** The interaction screen returned 100 interacting drugs. The 20 shown in the compiled data are all rated Moderate:
+- Corticosteroids: hydrocortisone, betamethasone, budesonide, dexamethasone
+- Calcium salts: acetate, carbonate, chloride, citrate, gluconate, lactate and others
+- Others: aprepitant, aspirin, bupropion, canagliflozin, dapagliflozin, clarithromycin, clotrimazole
+
+The full interaction list and the package insert warnings should be reviewed before any new use is considered.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The brain stem infarction prediction has a very high model score but no linked trials or literature (L5), and the mechanism is only generic blood pressure lowering. The best-supported direction in this pack is intracerebral hemorrhage (L2, driven by TRIDENT), and it is still a combination-regimen signal with no results in the record.
-
-**Other candidates in the pack (for triage):**
-
-| Predicted Indication | Score | Evidence Level | Recommendation |
-|------|------|------|------|
-| Intracerebral hemorrhage | 99.79% | L2 | Research Question |
-| Cerebral artery occlusion | 99.89% | L4 (animal data only) | Research Question |
-| Malignant renovascular hypertension | 99.90% | L4 | Research Question |
-| MRI defined brain infarct | 99.86% | L4 | Research Question |
-| Pulmonary hypertension due to lung disease/hypoxia | 99.91% | L5 (literature is off-target keyword matches) | Hold, possible harm signal |
-| Other 4 candidates (including the multifactorial pulmonary hypertension and malignant hypertensive renal disease predictions) | 99.85–99.91% | L5 | Hold |
+The prediction for brain stem infarction has a very high model score but no supporting trials or literature (L5). It also largely overlaps with amlodipine's existing stroke and cerebrovascular indications, so it adds little as a new repurposing opportunity.
 
 **To proceed, the following is needed:**
-- Retrieve the TRIDENT (NCT02699645) primary results, confirm amlodipine is in the regimen, and check whether the effect can be attributed to it.
-- Package insert warnings and contraindications from HSA (currently missing).
-- Mechanism of action data from DrugBank.
-- Expert review of the pulmonary hypertension links, given the potential harm signal.
+- Disease-specific evidence, such as trials or observational studies in brain stem or posterior circulation infarction
+- Singapore package insert warnings and contraindications, and approved-indication text
+- Mechanism of action data
+- Clarification of whether this prediction adds anything beyond existing stroke prevention use
+
+**Note on other predictions in the data:** Two other predicted indications have more support than brain stem infarction.
+- **Intracerebral haemorrhage (secondary prevention):** This has the strongest evidence, at L2. It includes the completed Phase 3 TRIDENT trial ([NCT02699645](https://clinicaltrials.gov/study/NCT02699645), N=1671) and a 2026 NEJM publication ([PMID 42019018](https://pubmed.ncbi.nlm.nih.gov/42019018/)). Amlodipine was tested only as one part of a three-drug low-dose pill, so its own contribution cannot be isolated. The data compiled for this report did not include outcome results, and these should be checked before upgrading the evidence level.
+- **Cerebral artery occlusion:** This rests mainly on animal studies (L3). The human trials found were terminated with very small enrolment.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

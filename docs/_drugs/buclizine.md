@@ -2,7 +2,7 @@
 layout: default
 title: Buclizine
 parent: Medium Evidence (L3-L4)
-nav_order: 179
+nav_order: 180
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,19 +29,21 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Buclizine: From Antihistamine Use (Original Indication Not Recorded) to Allergic Urticaria
+# Buclizine: From Motion Sickness to Allergic Urticaria
 
 ## One-Sentence Summary
 
-Buclizine is a piperazine-class H1 antihistamine, and no original indication is recorded in the Singapore registration data.
-The TxGNN model predicts it may be effective for **allergic urticaria**, but only **0 clinical trials** and **1 publication** (a 1956 clinical appraisal of unverified design) support this direction.
-This is likely a rediscovery of a class-typical use rather than true repurposing.
+Buclizine is a piperazine-class antihistamine, originally used to treat motion sickness.
+The TxGNN model predicts it may be effective for **allergic urticaria**,
+but only **1 historical publication (1956)** and **no registered clinical trials** currently support this direction.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded (the Singapore licence has no indication text) |
+| Original Indication | Motion sickness (the Singapore licence has no approved indication text recorded) |
 | Predicted New Indication | Allergic urticaria |
 | TxGNN Prediction Score | 98.08% |
 | Evidence Level | L4 |
@@ -49,47 +51,63 @@ This is likely a rediscovery of a class-typical use rather than true repurposing
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available from DrugBank. Based on known information, buclizine is a piperazine-class H1 antihistamine. Blocking H1 receptors is mechanistically plausible in histamine-mediated conditions such as allergic urticaria. This link is inferred from drug class, not from drug-specific mechanism data.
+Currently, detailed mechanism of action data is not available. Based on known information, buclizine is a piperazine-class first-generation antihistamine (H1 receptor antagonist). Its use in motion sickness is consistent with central H1 and anticholinergic activity, and mechanistically it may be applicable to histamine-mediated conditions such as allergic urticaria.
 
-No original indication is on record, so the relationship between the original and new indication cannot be assessed. Allergic urticaria is a standard use for H1 antihistamines, so the prediction may simply restate a class-typical use.
+Allergic urticaria is driven largely by histamine release, and H1 blockade is the standard symptomatic approach. This makes the prediction biologically plausible at the class level. However, the rationale rests on class pharmacology rather than buclizine-specific data.
 
-The only human evidence is a 1956 report on buclizine as a "new antihistaminic compound". Its design cannot be verified from the title alone, and it predates modern trial standards.
+Several caveats weaken the case. The only supporting document is a 1956 appraisal. Modern second-generation H1 antihistamines are already the established standard of care, so the added value of buclizine is doubtful.
+
+The other predicted indications are weaker still. Cold urticaria (score 96.7%), common cold, nasal cavity disease, pharyngitis and acute laryngopharyngitis have only a class-level symptomatic rationale. Schizophrenia, retinal dystrophy, perisylvian polymicrogyria and X-linked myopia have no plausible mechanistic link and are likely knowledge-graph artifacts. None of these has any trial or literature support.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [13294975](https://pubmed.ncbi.nlm.nih.gov/13294975/) | 1956 | Clinical appraisal (uncontrolled or design unverified) | The Journal of Allergy | Toxicologic and clinical appraisal of buclizine as a new antihistaminic compound. No abstract is available, so findings cannot be summarised beyond the title. |
+| [13294975](https://pubmed.ncbi.nlm.nih.gov/13294975/) | 1956 | Other (historical toxicologic and clinical appraisal; design unclear) | The Journal of Allergy | Toxicologic and clinical appraisal of buclizine as a new antihistaminic compound; no abstract available, and the design cannot be verified |
+
+---
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN02652P | Buclizine Tablet 25 mg (Beacons Pharmaceuticals Pte. Ltd.) | Tablet (oral) | Not recorded in the available data |
+| SIN02652P | BUCLIZINE TABLET 25 mg (Beacons Pharmaceuticals Pte. Ltd.) | Tablet | Not recorded |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interactions were found in the DDI query.
+Please refer to the package insert for safety information.
+
+No drug-drug interaction records were found in the data compiled for this report. As a first-generation antihistamine, sedation and anticholinergic effects are class concerns that should be confirmed against the label.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is high (98.08%), but evidence is thin. It consists of one 1956 report of unverifiable design, no registered trials, and a class-inferred mechanism. Safety data is also missing, which blocks progression to safety screening. The other nine predicted indications are model-only (L5) and were also assigned Hold.
+The prediction is mechanistically plausible for allergic urticaria, but the only supporting evidence is a single 1956 paper with no verifiable design, and there are no registered trials. Established second-generation antihistamines already serve this need, so the incremental value of buclizine is unclear.
 
 **To proceed, the following is needed:**
-- The HSA package insert (warnings, contraindications, approved indication), which is a blocking gap
-- Mechanism of action data for buclizine from DrugBank
-- The full text of the 1956 report to check its design and findings
-- Confirmation of whether allergic urticaria is already a labelled use, which would make this a rediscovery rather than repurposing
-- Any modern controlled evidence for buclizine in urticaria
+- Package insert warnings and contraindications from the HSA (currently a blocking gap for safety screening)
+- Detailed mechanism of action data (DrugBank)
+- A systematic literature search for modern, controlled evidence of buclizine in urticaria
+- A comparison against second-generation H1 antihistamines to show a clear benefit
+- The approved indication text for the Singapore licence SIN02652P
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

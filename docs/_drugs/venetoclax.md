@@ -2,7 +2,7 @@
 layout: default
 title: Venetoclax
 parent: Low Evidence (L5)
-nav_order: 1051
+nav_order: 1061
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,75 +29,100 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Venetoclax: Repurposing Assessment for CLL/SLL with IGHV Somatic Hypermutation
+# Venetoclax: From Acute Lymphoblastic Leukemia and Richter Syndrome to CLL/SLL with IGHV Somatic Hypermutation
 
 ## One-Sentence Summary
 
-Venetoclax is an oral BCL-2 inhibitor marketed in Singapore as VENCLEXTA, and the registered indication text is not available in the data provided.
+Venetoclax is an oral BCL-2 inhibitor. The knowledge graph used for prediction lists acute lymphoblastic leukemia and Richter syndrome as its original indications.
 The TxGNN model predicts it may be effective for **chronic lymphocytic leukemia/small lymphocytic lymphoma (CLL/SLL) with immunoglobulin heavy chain variable-region gene somatic hypermutation**.
-Currently **0 clinical trials** and **0 publications** support this specific subtype, so the prediction is not yet backed by subtype-specific evidence.
+For this specific subtype there are currently **0 clinical trials** and **0 publications** supporting the prediction, so it rests on model output alone.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Predicted New Indication | CLL/SLL with IGHV somatic hypermutation |
+| Original Indication | Acute lymphoblastic/lymphocytic leukemia; Richter syndrome (from the prediction knowledge graph; no indication text is recorded on the Singapore licences) |
+| Predicted New Indication | CLL/SLL with immunoglobulin heavy chain variable-region gene somatic hypermutation (IGHV-mutated CLL/SLL) |
 | TxGNN Prediction Score | 99.55% |
-| Evidence Level | L4 (mechanistic rationale only; no trials or publications) |
+| Evidence Level | L5 (model prediction only) |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 3 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Venetoclax is a selective BCL-2 inhibitor. CLL/SLL cells depend on BCL-2 for survival, so blocking BCL-2 restores apoptosis in these cells. The mechanism therefore fits this disease.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Venetoclax is nonetheless a well-known selective BCL-2 inhibitor. BCL-2 is an anti-apoptotic protein that many B-cell malignancies depend on, and blocking it restores programmed cell death in the cancer cells. CLL/SLL cells characteristically overexpress BCL-2, so the mechanism is biologically plausible for this subtype.
 
-The predicted indication is a molecular subtype (mutated IGHV) of CLL/SLL, a disease in which venetoclax is already used. Any support for this subtype comes only from the parent CLL/SLL disease, so it is not a distinct repurposing signal. The package has no subtype-specific data on efficacy or resistance. The high TxGNN score is a model prediction only.
+This prediction is not a true repurposing case. Venetoclax is already established in CLL generally, and IGHV-mutated CLL/SLL is a molecular subtype of that disease. The model's high score probably reflects this close relationship to indications venetoclax already has. It is not evidence of a newly discovered use.
+
+The data compiled for this report also contain no subtype-specific trials or publications. The plausibility is therefore mechanistic and by analogy to CLL as a whole, not demonstrated for the IGHV-mutated subtype.
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for this specific indication.
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for this specific indication.
+
+---
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form |
 |---------|------|------|
-| SIN15267P | VENCLEXTA FILM-COATED TABLET 100MG | Tablet, film coated |
-| SIN15266P | VENCLEXTA FILM-COATED TABLET 50MG | Tablet, film coated |
-| SIN15265P | VENCLEXTA FILM-COATED TABLET 10MG | Tablet, film coated |
+| SIN15267P | VENCLEXTA film-coated tablet 100 mg | Tablet, film coated |
+| SIN15266P | VENCLEXTA film-coated tablet 50 mg | Tablet, film coated |
+| SIN15265P | VENCLEXTA film-coated tablet 10 mg | Tablet, film coated |
 
-All three products are oral tablets from AbbVie. The approved indication text was not available for any of them.
+All three licences are valid single-ingredient products (oral route) held by AbbVie. Approved indication text is not recorded for these licences.
+
+---
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy (BCL-2 inhibitor) |
-| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
-| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
+| Cytotoxicity Classification | Targeted therapy (BCL-2 inhibitor), not a conventional cytotoxic agent |
+| Myelosuppression Risk | Medium. Published reviews describe tumour lysis syndrome and myelosuppression as the most common toxicities, especially in combination regimens. |
+| Emetogenicity Classification | Low (general class expectation; please confirm against the package insert) |
+| Monitoring Items | CBC with differential, tumour lysis syndrome labs (electrolytes, uric acid, creatinine), liver and renal function |
 | Handling Protection | Please refer to the package insert warnings and precautions |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: The interaction screen returned 100 potential interactions, and 20 are detailed here.
+  - **Major**: aprepitant, dexamethasone, clarithromycin, eliglustat, rolapitant, fidaxomicin, cobicistat, deferiprone, samarium (153Sm) lexidronam.
+  - **Moderate**: for example alvimopan, loperamide, cimetidine, miconazole, clotrimazole, rifaximin, deferasirox.
+  - **Minor**: naloxegol.
+  - Venetoclax is a CYP3A substrate. A published study of the strong CYP3A inhibitor posaconazole (PMID 28161120) showed that dose adjustment is needed when they are co-administered.
+
+Please refer to the package insert for warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The BCL-2 mechanism is plausible for CLL/SLL, but the package contains no trials or publications for this subtype. The score is a model prediction only. Support from the parent CLL/SLL disease does not constitute a separate repurposing signal.
+The prediction is mechanistically plausible but has no trials or publications specific to IGHV-mutated CLL/SLL. It is also a subtype of an already established CLL use rather than a new repurposing opportunity. Within the same prediction list, acute myeloid leukemia has far stronger evidence (L1) and is the more productive direction to evaluate.
 
 **To proceed, the following is needed:**
-- The HSA package insert, to confirm the registered indication, warnings and contraindications. Safety screening cannot proceed without it.
-- Subtype-specific data for mutated-IGHV CLL/SLL, such as trial subgroup analyses or biomarker studies.
-- DrugBank mechanism-of-action data, to complete the mechanistic-link analysis.
-- A decision on whether to assess this subtype within the broader CLL/SLL indication instead of as a separate candidate.
+- Subtype-specific clinical data (trials or publications) for IGHV-mutated CLL/SLL
+- Confirmation of the Singapore-approved indications and the full warnings and contraindications from the HSA package insert
+- Detailed mechanism-of-action data
+- A drug-interaction management plan, particularly for CYP3A inhibitors, and a tumour lysis syndrome and myelosuppression monitoring plan
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

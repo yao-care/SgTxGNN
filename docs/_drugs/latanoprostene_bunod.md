@@ -2,7 +2,7 @@
 layout: default
 title: Latanoprostene Bunod
 parent: Low Evidence (L5)
-nav_order: 576
+nav_order: 582
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,17 +29,18 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Latanoprostene Bunod: From Ocular Hypertension and Open-Angle Glaucoma to Visceral Calciphylaxis
+# Latanoprostene Bunod: From Open-Angle Glaucoma to Visceral Calciphylaxis
 
 ## One-Sentence Summary
 
-Latanoprostene bunod is an eye drop that lowers eye pressure, and it is marketed in Singapore as VYZULTA 0.024%. The TxGNN model predicts it may be effective for **visceral calciphylaxis** with a score of 99.76%. This prediction rests on the model alone: **0 clinical trials** and **0 publications** support it.
+Latanoprostene bunod is an eye-drop medicine originally used to lower eye pressure in open-angle glaucoma and ocular hypertension.
+The TxGNN model predicts it may be effective for **visceral calciphylaxis**, but there are currently **no clinical trials and no publications** supporting this specific prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration record. The drug is known as an eye-pressure-lowering agent for ocular hypertension and open-angle glaucoma. |
+| Original Indication | Open-angle glaucoma; ocular hypertension (the Singapore licence record contains no indication text, so these are taken from the knowledge-graph indication data) |
 | Predicted New Indication | Visceral calciphylaxis |
 | TxGNN Prediction Score | 99.76% |
 | Evidence Level | L5 |
@@ -49,44 +50,59 @@ Latanoprostene bunod is an eye drop that lowers eye pressure, and it is marketed
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data are not available in the supplied record. Latanoprostene bunod is described as an ocular prostaglandin F2-alpha analog that also donates nitric oxide. It is understood to lower eye pressure by increasing fluid outflow through both the uveoscleral and trabecular pathways.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, latanoprostene bunod is converted into two active parts: latanoprost acid (a prostaglandin F2-alpha analogue acting on the FP receptor) and nitric oxide (NO). Together these increase fluid drainage from the eye and lower intraocular pressure. Laboratory data also show that it increases guanylyl cyclase activity (NO-mediated cGMP formation).
 
-No plausible mechanistic link to visceral calciphylaxis (calcific uremic arteriolopathy) is apparent. Nitric oxide and prostaglandin effects on blood vessels are a theoretical bridge, but no data connect them to this disease. The high score most likely reflects a pattern in the knowledge graph rather than biological or clinical evidence. This prediction should not be treated as a credible repurposing lead.
+The link to visceral calciphylaxis is weak. NO-mediated vasodilation could theoretically relate to calcific vasculopathy. However, calciphylaxis involves widespread vascular calcification and clotting, and an eye drop gives minimal systemic exposure. The prediction is therefore best viewed as a hypothesis from the model, not a mechanistically supported finding.
 
-Two other predictions for this drug look more useful:
-- **Primary hereditary glaucoma** is biologically plausible, but it may overlap with the labeled use, so it may not count as repurposing. No trials or literature were supplied for this subtype.
-- **Vascular disease** (rank 6) has two completed human studies of blood-flow effects. These are physiological studies, not efficacy trials, and the term is too broad to support any clinical claim.
+For context, the other top-ranked predictions are mostly vascular or thoracic outlet conditions with similarly weak rationale. The one exception is **primary hereditary glaucoma** (score 99.71%), which is mechanistically plausible but closely mirrors the existing glaucoma labelling, so it is not a novel repurposing signal. Efficacy in paediatric or developmental glaucoma, where drainage-pathway malformations may limit response, is unestablished.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for visceral calciphylaxis.
+
+For reference, one trial was retrieved for the broader prediction "vascular disease" (rank 6):
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT03931317](https://clinicaltrials.gov/study/NCT03931317) | Not applicable | Completed | 70 | Crossover comparison of latanoprostene bunod and timolol on eye pressure and retinal blood vessel density in ocular hypertension or primary open-angle glaucoma; addresses ocular blood vessels, not systemic vascular disease |
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for visceral calciphylaxis.
+
+For reference, publications retrieved for other predictions:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [38113361](https://pubmed.ncbi.nlm.nih.gov/38113361/) | 2023 | Case report | Ophthalmic Surg Lasers Imaging Retina | An 11-year-old with a port-wine birthmark, choroidal hemangioma and glaucoma developed serous retinal detachment on prostaglandin analogue therapy including latanoprostene bunod; it improved after stopping. This is a safety signal, not evidence of benefit (hemangioendothelioma prediction). |
+| [30028313](https://pubmed.ncbi.nlm.nih.gov/30028313/) | 2018 | Review | Neural Regen Res | Overview of treatment options for glaucomatous optic neuropathy; not direct evidence for vascular disease |
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN16214P | VYZULTA (Latanoprostene Bunod Ophthalmic Solution) 0.024% (Bausch & Lomb, Incorporated) | Sterile solution | — |
+| SIN16214P | VYZULTA (Latanoprostene Bunod Ophthalmic Solution) 0.024% | Sterile solution | Not stated in the registration record |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: No drug-drug interactions were identified. The only entry is the drug's own pharmacological target, the prostanoid FP receptor.
+- **Case report signal**: A paediatric patient with a port-wine birthmark and choroidal hemangioma developed serous retinal detachment on prostaglandin analogue therapy, so caution is warranted in patients with vascular malformations of the eye.
+
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical trials, no literature and no plausible mechanism, and an ocular drug has no evident role in a systemic calcific vascular disease. The score alone is not enough to justify further investment.
+The prediction for visceral calciphylaxis is supported only by the model score (evidence level L5). There are no trials or publications, and the mechanism is implausible given minimal systemic exposure from topical eye dosing. The most credible prediction, primary hereditary glaucoma, is largely an extension of the existing label.
 
 **To proceed, the following is needed:**
-- The Singapore package insert, covering warnings, contraindications and the approved indication text
-- Detailed mechanism-of-action data
-- Preclinical or mechanistic evidence linking nitric oxide or prostaglandin pathways to vascular calcification
-- If the goal is a lead worth pursuing, review the primary hereditary glaucoma and vascular disease predictions instead, after checking overlap with the labeled indication
+- Package insert warnings and contraindications from the Singapore regulator (HSA)
+- Detailed mechanism of action data
+- Evidence that clinically relevant systemic or local exposure can be reached by a suitable route and formulation
+- Preclinical or mechanistic studies linking NO or FP-receptor signalling to calcific vasculopathy
+- For primary hereditary glaucoma, targeted studies in paediatric or developmental glaucoma, which could be pursued as a separate research question
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

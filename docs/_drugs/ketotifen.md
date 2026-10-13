@@ -2,7 +2,7 @@
 layout: default
 title: Ketotifen
 parent: Medium Evidence (L3-L4)
-nav_order: 563
+nav_order: 569
 evidence_level: L3
 indication_count: 10
 ---
@@ -29,33 +29,33 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Ketotifen: From Asthma and Allergic Disorder Prophylaxis to Allergic Urticaria
+# Ketotifen: From Atopic Conjunctivitis to Allergic Urticaria
 
 ## One-Sentence Summary
 
-Ketotifen is an oral H1-antihistamine and mast cell stabilizer. The literature describes it as prophylaxis for asthma and allergic disorders, but the Singapore licence records list no approved indication text.
-The TxGNN model predicts it may be effective for **allergic urticaria**.
-No clinical trials are registered, and **20 publications** were retrieved, only some of which study ketotifen in urticaria directly.
+Ketotifen is an H1-antihistamine and mast cell stabilizer, originally used for allergic eye conditions such as atopic, papillary and vernal conjunctivitis.
+The TxGNN model predicts it may be effective for **allergic urticaria** (top-ranked prediction), supported by **0 registered clinical trials** and **20 publications**, most of which are general reviews.
+The strongest ketotifen-specific signal is in the closely related **cold urticaria** (the third-ranked prediction), which has 14 publications, several of them small clinical studies.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore licence records (literature: asthma and allergic disorders) |
+| Original Indication | Atopic conjunctivitis, papillary conjunctivitis, vernal conjunctivitis (the Singapore licence records contain no approved indication text) |
 | Predicted New Indication | Allergic urticaria |
 | TxGNN Prediction Score | 98.60% |
 | Evidence Level | L3 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 6 |
-| Recommended Decision | Hold |
+| Recommended Decision | Proceed with Guardrails |
 
 ## Why is This Prediction Reasonable?
 
-Structured mechanism-of-action data is not available for this drug. The literature and the pack's rationale describe ketotifen as an H1-receptor antagonist and mast cell stabilizer. Older pharmacology work also reports that it inhibits mediator release from mast cells and basophils.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on the literature, ketotifen is an H1-antihistamine and mast cell stabilizer. Its efficacy in allergic conjunctivitis has been established, and mechanistically it may be applicable to urticaria.
 
-Urticaria is driven by mast cell degranulation and histamine release, so blocking H1 receptors and stabilizing mast cells addresses the core pathway. This makes the prediction biologically coherent and consistent with the very high score.
+Urticaria is driven by mast cell degranulation and histamine release. Allergic conjunctivitis is also a mast cell and histamine-mediated condition, so a drug that blocks histamine receptors and stabilizes mast cells fits both diseases. Older studies report that ketotifen reduces histamine release in physical urticarias (for example PMID 2420246).
 
-Ketotifen has also been used in urticaria for decades. Several small older studies from 1983 to 1995 evaluate it in cold urticaria, a physical urticaria subtype. These include a double-blind, placebo-controlled crossover study with 11 patients. It reported delayed reaction times to a cold stimulus in 10 of the 11 patients on ketotifen and no effect on placebo. A 1986 study in patients with physical urticarias reported marked reductions in plasma histamine after provocation during ketotifen therapy. This suggests the association may already be an accepted use in some markets rather than a true repurposing candidate. It should be checked against local labelling.
+Other predicted indications are less well supported. Atopic dermatitis is plausible mechanistically (mast cells and histamine contribute to itch), but there is no trial or literature support. Infectious conjunctivitis types (viral, parasitic, pseudomembranous, follicular), rosacea conjunctivitis and nasopharyngitis have weak mechanistic links and no clinical evidence.
 
 ## Clinical Trial Evidence
 
@@ -63,52 +63,54 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Study designs below are taken from titles and abstracts and are mostly unverified. Many retrieved papers are reviews or only indirectly related.
+The table lists the most relevant publications for allergic urticaria and its closest subtype, cold urticaria. Most reports are small, older studies.
 
 | PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|---------|---------|
-| [24267353](https://pubmed.ncbi.nlm.nih.gov/24267353/) | 2013 | Article (abstract unavailable) | Ann Allergy Asthma Immunol | "Ketotifen in the management of chronic urticaria: resurrection of an old drug" |
-| [7488341](https://pubmed.ncbi.nlm.nih.gov/7488341/) | 1995 | Double-blind crossover | Asian Pac J Allergy Immunol | Cyproheptadine vs ketotifen in 6 Thai children with cold urticaria. The result is not visible in the excerpt provided. |
-| [19753736](https://pubmed.ncbi.nlm.nih.gov/19753736/) | 2002 | Clinical comparison (design unverified) | J Dermatolog Treat | Levothyroxine vs ketotifen in chronic urticaria with thyroid autoimmunity. Results are not in the provided excerpt. |
-| [9487221](https://pubmed.ncbi.nlm.nih.gov/9487221/) | 1998 | Clinical study/commentary (unverified) | Arch Dermatol | "Ketotifen and chronic urticaria". No abstract available. |
-| [22731986](https://pubmed.ncbi.nlm.nih.gov/22731986/) | 2013 | Case report | Clin Exp Dermatol | Vibratory angio-oedema in which omalizumab failed and ketotifen achieved control. |
-| [2226222](https://pubmed.ncbi.nlm.nih.gov/2226222/) | 1990 | Review | Drugs | Ketotifen pharmacology and use in asthma and allergic disorders. It has pronounced antihistaminic and antianaphylactic properties. |
-| [16278258](https://pubmed.ncbi.nlm.nih.gov/16278258/) | 2005 | Review | Ann Pharmacother | Oral antihistamines for allergic rhinitis and chronic idiopathic urticaria. |
-| [9951950](https://pubmed.ncbi.nlm.nih.gov/9951950/) | 1999 | Review | Drugs | Comparative review of second-generation antihistamines, including ketotifen. |
-| [7530629](https://pubmed.ncbi.nlm.nih.gov/7530629/) | 1994 | Review | Drugs | Urticaria causes and treatment. Non-sedating antihistamines are the mainstay for chronic idiopathic urticaria. |
-| [3688573](https://pubmed.ncbi.nlm.nih.gov/3688573/) | 1987 | Case series | Ann Allergy | Ketotifen 1 mg twice daily in 20 patients with food allergy or intolerance, including some with urticaria or angio-oedema. |
+|------|-----|------|------|---------|
+| [3907425](https://pubmed.ncbi.nlm.nih.gov/3907425/) | 1985 | Double-blind crossover trial | Annals of Allergy | In 11 patients with cold-induced urticaria, ketotifen 1 mg twice daily delayed reaction time to a cold stimulus in 10 of 11; placebo had no effect |
+| [6209972](https://pubmed.ncbi.nlm.nih.gov/6209972/) | 1984 | Clinical study | Allergologia et Immunopathologia | Ketotifen was compared with clemastine (double-blind crossover) in 87 patients with idiopathic cold urticaria |
+| [7488341](https://pubmed.ncbi.nlm.nih.gov/7488341/) | 1995 | Comparative study | Asian Pac J Allergy Immunol | Double-blind crossover comparison of cyproheptadine and ketotifen in 6 Thai children with cold urticaria |
+| [2420246](https://pubmed.ncbi.nlm.nih.gov/2420246/) | 1986 | Clinical study | Annals of Internal Medicine | Ketotifen was associated with marked reductions in plasma histamine after provocation in physical urticarias |
+| [6198811](https://pubmed.ncbi.nlm.nih.gov/6198811/) | 1983 | Clinical/mechanistic study | Z Hautkr | Ketotifen and oxatomide inhibited cold-induced histamine release in 4 patients; the effect was stronger with oxatomide |
+| [1364168](https://pubmed.ncbi.nlm.nih.gov/1364168/) | 1992 | Randomized crossover study | J Investig Allergol Clin Immunol | Loratadine, cetirizine, cyproheptadine and ketotifen were compared in 7 patients with acquired cold urticaria |
+| [2899435](https://pubmed.ncbi.nlm.nih.gov/2899435/) | 1986 | Clinical study | Allergie et Immunologie | In 36 patients with chronic urticaria given ketotifen 2 mg/day, 12 healed, 11 had good results and 12 failed; best results were in cold and food-related urticaria |
+| [19753736](https://pubmed.ncbi.nlm.nih.gov/19753736/) | 2002 | Comparative study | J Dermatol Treat | Levothyroxine versus ketotifen in chronic urticaria with thyroid autoimmunity |
+| [2226222](https://pubmed.ncbi.nlm.nih.gov/2226222/) | 1990 | Review | Drugs | Pharmacology and therapeutic use of ketotifen in asthma and allergic disorders |
+| [9487221](https://pubmed.ncbi.nlm.nih.gov/9487221/) | 1998 | Clinical report | Arch Dermatol | Report on ketotifen in chronic urticaria |
 
 ## Singapore Market Information
 
-Six licences are registered. The five main ones are listed below. None carries approved indication text in the record.
+All six registrations are valid single-ingredient products. The licence records contain no approved indication text.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN07601P | DHATIFEN TABLET 1 mg | Tablet | Not stated in record |
-| SIN08054P | SUNTOTIFEN TABLET 1 mg | Tablet | Not stated in record |
-| SIN08053P | SUNTOTIFEN SYRUP 1 mg/5 ml | Syrup | Not stated in record |
-| SIN09651P | TOFEN TABLET 1 mg | Tablet | Not stated in record |
-| SIN10107P | ASUMALIFE SYRUP 1 mg/5 ml | Syrup | Not stated in record |
+| SIN07601P | DHATIFEN TABLET 1 mg | Tablet | Not stated |
+| SIN08054P | SUNTOTIFEN TABLET 1 mg | Tablet | Not stated |
+| SIN08053P | SUNTOTIFEN SYRUP 1 mg/5 ml | Syrup | Not stated |
+| SIN09651P | TOFEN TABLET 1 mg | Tablet | Not stated |
+| SIN10107P | ASUMALIFE SYRUP 1 mg/5 ml | Syrup | Not stated |
+
+A sixth licence, SIN08766P (KETOTIFEN SYRUP 1 mg/5 ml, Hovid), is also valid. Available forms are oral tablets and syrup.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: The interaction screen identified 86 potentially interacting drugs, but none has a severity level assigned. Examples include doxycycline, pantoprazole, metformin, omeprazole, simvastatin, prednisolone, dexamethasone, clopidogrel, acetylsalicylic acid and cromoglicic acid.
+
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Proceed with Guardrails**
 
 **Rationale:**
-The mechanism is a direct fit, and small older studies support ketotifen in urticaria, especially cold urticaria. However, the evidence is L3 with no registered trials, and the package-insert safety data needed for screening is missing. The urticaria use may also already be covered by existing labelling.
+Ketotifen is already marketed in Singapore as oral tablets and syrup, and the mechanism fits urticaria. Ketotifen-specific clinical studies exist, mainly for cold urticaria, including several double-blind crossover studies. However, they are old, small and of variable quality, there are no registered trials, and the overall evidence level is L3. Proceeding should be limited to a research question rather than a clinical claim.
 
 **To proceed, the following is needed:**
-- HSA package insert (warnings and contraindications), which currently blocks safety screening
-- Approved indication text for the six Singapore licences, to confirm whether urticaria is already labelled
-- Structured mechanism-of-action data from DrugBank
-- Verification of study designs and outcomes for the key urticaria papers (7488341, 19753736, 9487221, 24267353)
-- A safety and dosing plan for special populations, such as children and sedation-sensitive patients
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before use.*
+- Package insert warnings and contraindications from HSA, which are currently missing and block safety screening
+- Detailed mechanism of action data (for example from DrugBank)
+- Modern, adequately powered randomized trials of ketotifen in allergic or chronic urticaria, with comparison against current second-generation antihistamines
+- Review of the approved indications for the Singapore products, as the licence records do not state them
+- Severity grading and clinical review of the 86 flagged drug interactions
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

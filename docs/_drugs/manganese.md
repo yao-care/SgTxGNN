@@ -2,7 +2,7 @@
 layout: default
 title: Manganese
 parent: Medium Evidence (L3-L4)
-nav_order: 628
+nav_order: 634
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,19 +29,21 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Manganese: From Trace Element Supplementation (Parenteral Nutrition) to Sclerosing Cholangitis
+# Manganese: From Trace-Element Parenteral Nutrition to Sclerosing Cholangitis
 
 ## One-Sentence Summary
 
-Manganese is an essential trace element. In Singapore it is registered as a component of an intravenous trace-element concentrate (Nutritrace), and the registration data do not state an approved indication.
-The TxGNN model predicts it may be relevant to **sclerosing cholangitis**, but there are **0 clinical trials** and **6 publications**, and the publications point to accumulation and toxicity risk rather than benefit.
-The prediction is best read as a disease-association signal, not a therapeutic one.
+Manganese is an essential trace element, marketed in Singapore as a concentrate for infusion (a parenteral nutrition additive).
+The TxGNN model predicts it may be relevant to **sclerosing cholangitis**, but the **0 clinical trials** and **6 publications** compiled for this report mostly describe manganese *accumulating because of* the disease, not treating it.
+The prediction is best read as a disease-association signal rather than a therapeutic lead.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration data (product is a trace-element concentrate for infusion) |
+| Original Indication | Not stated in the registration data (the approved indication text is empty; the product is a trace-element concentrate for infusion) |
 | Predicted New Indication | Sclerosing cholangitis |
 | TxGNN Prediction Score | 85.41% |
 | Evidence Level | L4 |
@@ -49,52 +51,73 @@ The prediction is best read as a disease-association signal, not a therapeutic o
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, manganese is an essential trace element supplied in parenteral nutrition products, and it acts as a cofactor for several enzymes. No mechanistic route to a benefit in sclerosing cholangitis is described in the retrieved evidence.
+Detailed mechanism-of-action data is not available for this drug. Manganese is an essential micronutrient and a cofactor for metalloenzymes, including manganese superoxide dismutase (MnSOD). It is excreted mainly through the liver and bile.
 
-The literature shows an opposing relationship. The liver and biliary tree are the main excretory route for manganese, so impaired bile flow leads to retention and accumulation. In a reported case of sclerosing cholangitis due to Langerhans cell histiocytosis, manganese overload was a co-factor of neurological symptoms. Cohort data in primary biliary cirrhosis and primary sclerosing cholangitis also examine manganese and copper accumulation in blood.
+The link to sclerosing cholangitis appears to be an association, not a therapeutic effect. When bile flow is impaired, manganese is retained. Studies in cholestatic patients report raised blood manganese, and a case report describes neurological symptoms from manganese overload in a patient with sclerosing cholangitis (PMID 39815815). Giving additional manganese could worsen this toxicity. The high TxGNN score most likely reflects this disease-causation or biomarker relationship.
 
-The high TxGNN score most likely reflects that biological association, not a therapeutic one. Nothing in the evidence supports manganese supplementation as a treatment for sclerosing cholangitis.
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [33428478](https://pubmed.ncbi.nlm.nih.gov/33428478/) | 2021 | Cohort | Scand J Clin Lab Invest | Long-term cholestasis can cause manganese and copper to accumulate. Blood levels were compared in patients with primary biliary cirrhosis (n=20) and primary sclerosing cholangitis |
-| [39815815](https://pubmed.ncbi.nlm.nih.gov/39815815/) | 2025 | Case report | Haematologica | Manganese overload was a co-factor of neurological symptoms in a patient with sclerosing cholangitis due to Langerhans cell histiocytosis |
-| [7944963](https://pubmed.ncbi.nlm.nih.gov/7944963/) | 1993 | Histological/EM study | Arkhiv Patologii | Nine male patients with primary sclerosing cholangitis were studied clinically and morphologically. The abstract describes mild intralobular cholestasis with a marked rise in copper |
-| [10499363](https://pubmed.ncbi.nlm.nih.gov/10499363/) | 1999 | Cohort | Neurotoxicology | In 21 patients with chronic liver disease, the study examined iron and manganese status against pallidal T1 MR signal hyperintensity, which is thought to reflect manganese deposition |
-| [23917144](https://pubmed.ncbi.nlm.nih.gov/23917144/) | 2013 | Cohort | Free Radic Biol Med | Inflammation-related DNA damage in cholangiocarcinoma. Sclerosing cholangitis is mentioned only as a risk factor, so this paper is tangential |
-| [12612912](https://pubmed.ncbi.nlm.nih.gov/12612912/) | 2003 | Preclinical | Gastroenterology | Cytokine-stimulated nitric oxide production inhibits cAMP-dependent secretion in cholangiocytes. It is not specific to manganese |
+| [33428478](https://pubmed.ncbi.nlm.nih.gov/33428478/) | 2021 | Cohort | Scand J Clin Lab Invest | Manganese and copper blood levels in patients with primary biliary cirrhosis and primary sclerosing cholangitis; long-term cholestasis can lead to accumulation of both elements |
+| [10499363](https://pubmed.ncbi.nlm.nih.gov/10499363/) | 1999 | Cohort | Neurotoxicology | Iron and manganese homeostasis in chronic liver disease, related to pallidal MRI signal hyperintensity |
+| [39815815](https://pubmed.ncbi.nlm.nih.gov/39815815/) | 2025 | Case report | Haematologica | Manganese overload as a co-factor of neurological symptoms in a patient with sclerosing cholangitis due to Langerhans cell histiocytosis |
+| [7944963](https://pubmed.ncbi.nlm.nih.gov/7944963/) | 1993 | Histology study | Arkhiv Patologii | Liver morphology in 9 men with primary sclerosing cholangitis; mild cholestasis with a marked rise in copper |
+| [12612912](https://pubmed.ncbi.nlm.nih.gov/12612912/) | 2003 | Preclinical | Gastroenterology | Cytokine-stimulated nitric oxide inhibits cAMP-dependent secretion in cholangiocytes (indirect relevance) |
+| [23917144](https://pubmed.ncbi.nlm.nih.gov/23917144/) | 2013 | Cohort | Free Radic Biol Med | Inflammation-related DNA damage in cholangiocarcinoma; sclerosing cholangitis noted as a risk factor (indirect relevance) |
+
+None of these studies tests manganese as a treatment.
+
+---
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN14341P | Nutritrace Concentrate for solution for infusion (B. Braun Melsungen AG) | Infusion, solution concentrate | Not stated in registration data |
+| SIN14341P | Nutritrace Concentrate for solution for infusion (B. Braun Melsungen AG) | Infusion, solution concentrate | Not stated in the registration data |
+
+---
 
 ## Safety Considerations
 
-- **Key Warnings and Contraindications**: Package insert data have not been retrieved. Please refer to the package insert for safety information.
-- **Literature-derived signal (not a label warning)**: Manganese is eliminated mainly through bile, so cholestatic liver disease can lead to accumulation and brain deposition. Neurological symptoms from manganese overload have been reported in a patient with sclerosing cholangitis. Manganese in parenteral nutrition is a recognised toxicity and biomonitoring concern.
+- **Toxicity in cholestasis:** The literature compiled for this report consistently identifies manganese retention and overload when biliary excretion is impaired. Reported consequences include neurological symptoms and brain accumulation visible on MRI. Parenteral nutrition guidelines cited in the literature recommend reducing or monitoring manganese supplementation in cholestatic patients.
+
+No drug interaction records were found. For other safety information, please refer to the package insert.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-- The evidence is model prediction plus toxicological literature, with no trials and no therapeutic data. The literature suggests that manganese exposure in cholestatic patients carries risk, so the score does not support repurposing.
+No clinical trials exist, and the literature shows manganese as a consequence or possible aggravating factor of sclerosing cholangitis, not as a therapy. Because impaired biliary excretion causes manganese retention, giving more manganese to these patients carries a real toxicity risk.
+
+**Other predictions reviewed (all Hold):**
+- Dry eye syndrome (L4): only animal and in vitro studies using manganese-based SOD mimetics or bacterial MnSOD, not elemental manganese.
+- Drug-induced osteoporosis (L4): a single general review of trace elements.
+- Cholestasis (L4) and intrahepatic biliary atresia (L4): the evidence points toward toxicity, not benefit.
+- Vitamin deficiency disorder (L4): broad nutrition and toxicity literature, not a repurposing indication.
+- Biotin metabolic disease (L4): the one relevant study shows biotin rescuing manganese toxicity, the reverse of the predicted direction.
+- Respiratory syncytial virus infection, esotropia, and non-syndromic visceral malformation (L5): prediction only, with no trials or literature.
 
 **To proceed, the following is needed:**
-- The HSA package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data for manganese
-- Any evidence of therapeutic benefit, since none is currently retrieved
-- Other predicted indications are also unsupported. Dry eye syndrome, drug-induced osteoporosis and vitamin deficiency disorder are flagged as research questions, based on preclinical or non-specific evidence only. Cholestasis and biliary atresia reflect toxicity or accumulation risk. Esotropia and non-syndromic visceral malformation have no supporting evidence.
+- Package insert warnings and contraindications from the HSA, which are currently unavailable
+- Detailed mechanism-of-action data
+- Evidence that manganese has therapeutic benefit, rather than merely accumulating, in cholestatic or biliary disease
+- A toxicity risk assessment and a manganese blood-level monitoring plan for patients with impaired biliary excretion
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Rifampicin
 parent: Medium Evidence (L3-L4)
-nav_order: 857
+nav_order: 866
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,21 +29,19 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Rifampicin: From Bacterial Infections (Tuberculosis) to Conjunctivitis
+# Rifampicin: From Pulmonary Tuberculosis to Conjunctivitis
 
 ## One-Sentence Summary
 
-Rifampicin is an oral rifamycin antibiotic. The literature in this pack shows it used mainly in tuberculosis and leprosy regimens, and the Singapore licence records do not state an indication.
-The TxGNN model predicts it may be useful for **conjunctivitis**.
-This direction currently has **0 registered clinical trials** and **20 publications**, mostly susceptibility surveys, case reports and older trachoma studies.
-
----
+Rifampicin is an RNA polymerase-inhibiting antibiotic, originally used to treat pulmonary tuberculosis.
+The TxGNN model predicts it may be effective for **conjunctivitis** (the top-ranked prediction),
+but there are **no registered clinical trials** and the literature (**19 publications**) consists mainly of microbiology susceptibility surveys, case reports and old trachoma and chlamydial eye infection studies from the 1970s.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore licence records; the literature shows use in tuberculosis and leprosy regimens |
+| Original Indication | Pulmonary tuberculosis (from the TxGNN knowledge graph; the Singapore licence records contain no indication text) |
 | Predicted New Indication | Conjunctivitis |
 | TxGNN Prediction Score | 99.95% |
 | Evidence Level | L4 |
@@ -51,77 +49,77 @@ This direction currently has **0 registered clinical trials** and **20 publicati
 | Number of Registrations | 2 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available from DrugBank for this record. Rifampicin is known to inhibit bacterial DNA-dependent RNA polymerase. It is active against organisms that can infect the conjunctiva, including *Staphylococcus aureus* and *Chlamydia*. Its efficacy in its established antibacterial uses is well documented, so a role in bacterial eye infection is mechanistically plausible.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, rifampicin is a broad-spectrum antibiotic that inhibits bacterial RNA polymerase. It is active against Gram-positive bacteria, *Chlamydia* and some other ocular pathogens.
 
-The supporting literature is indirect:
-- A 1983 review reports that rifampin is as effective as tetracyclines for topical treatment of trachoma.
-- A 1975 controlled trial in Tunisia compared 1% rifampicin ointment, 1% tetracycline ointment and a boric acid control in schoolchildren with active trachoma.
-- Case reports describe systemic rifampin used in meningococcal conjunctivitis.
+Infectious conjunctivitis is commonly caused by bacteria such as *Staphylococcus*, *Streptococcus* and *Chlamydia trachomatis*. Because rifampicin acts against several of these organisms, antibacterial activity in infectious conjunctivitis is plausible. The old trials used **topical 1% rifampicin ointment**, whereas the Singapore products are oral capsules, so route compatibility has not been established.
 
-There is no evidence that rifampicin works better than standard topical agents for common conjunctivitis. Most conjunctivitis is self-limiting, and the surveys only show organism susceptibility. The Singapore products are oral capsules only, and the older studies used topical ointment.
-
----
+The other predictions are weaker:
+- **Hidradenitis suppurativa / acne inversa** (listed under acne): guidelines mention rifampicin combined with clindamycin. This is indirect evidence, because it concerns a different disease from acne vulgaris. There is also a prospective European cohort study (PMID 33484766).
+- **Rheumatoid arthritis**: small clinical studies from 1988 to 1993 showed modest or inconsistent benefit. The only registered trial is a Phase 1 drug interaction study.
+- **HIV infection** (and the feline and simian immunodeficiency entries): rifampicin has no known direct anti-HIV activity. The trials concern HIV-TB co-infection, where rifampicin treats tuberculosis.
+- **Multiple endocrine neoplasia, a rare neurodevelopmental disorder and acute contagious conjunctivitis**: no trials or literature, so these are model predictions only.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for conjunctivitis.
 
----
+For reference, trials registered under lower-ranked predictions do not test the predicted indication directly:
+
+| Trial Number | Phase | Status | Enrollment | Key Findings |
+|---------|------|------|------|---------|
+| [NCT00933790](https://clinicaltrials.gov/study/NCT00933790) | Phase 3 | Completed | 331 | Daily vs intermittent TB chemotherapy in HIV-TB patients (tests TB, not HIV) |
+| [NCT00495326](https://clinicaltrials.gov/study/NCT00495326) | Phase 2/3 | Completed | 570 | Nevirapine- vs efavirenz-based ART in HIV-TB patients on rifampicin |
+| [NCT03927313](https://clinicaltrials.gov/study/NCT03927313) | Phase 2 | Completed | 52 | High-dose rifampicin plus linezolid in HIV-associated TB meningitis (safety) |
+| [NCT01336218](https://clinicaltrials.gov/study/NCT01336218) | Phase 1 | Completed | 15 | Fostamatinib and rifampicin drug interaction in healthy subjects; no efficacy data for rheumatoid arthritis |
 
 ## Literature Evidence
 
+Literature for the top prediction (conjunctivitis), prioritised by study design:
+
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [1096630](https://pubmed.ncbi.nlm.nih.gov/1096630/) | 1975 | Controlled clinical study | Am J Ophthalmol | Compared 1% rifampicin ointment (76 patients), 1% tetracycline ointment (79) and boric acid ointment (79) in Tunisian schoolchildren with active trachoma. Applied twice daily for 10 weeks, with follow-up up to 39 weeks. The abstract provided is truncated, so outcomes are not confirmed. |
-| [6635446](https://pubmed.ncbi.nlm.nih.gov/6635446/) | 1983 | Review | Rev Infect Dis | Rifampin is the most active antibiotic against *C. trachomatis* by weight. In the few clinical studies, it was as effective as tetracyclines for topical trachoma treatment. Concern remains about resistance emerging in vitro. |
-| [19941479](https://pubmed.ncbi.nlm.nih.gov/19941479/) | 2010 | Review | Curr Med Chem | Review of neglected bacterial diseases, including trachoma and Buruli ulcer. |
-| [10537781](https://pubmed.ncbi.nlm.nih.gov/10537781/) | 1999 | Review | Curr Opin Ophthalmol | Ocular manifestations of cat-scratch disease, including Parinaud's oculoglandular syndrome. It is indirect evidence and does not establish a rifampicin effect. |
-| [33457332](https://pubmed.ncbi.nlm.nih.gov/33457332/) | 2020 | Cohort | Adv Biomed Res | Bacterial causes and antibiotic susceptibility of conjunctivitis isolates in Kashan, Iran. |
-| [14686993](https://pubmed.ncbi.nlm.nih.gov/14686993/) | 2003 | Case report | Clin Microbiol Infect | Primary meningococcal conjunctivitis in a 6-year-old boy, treated with topical antibiotics and then systemic rifampin. No ocular or systemic complications followed. |
-| [7806886](https://pubmed.ncbi.nlm.nih.gov/7806886/) | 1994 | Not classified | J Infect | Three cases of primary meningococcal conjunctivitis with sepsis. Management should combine topical and parenteral therapy plus chemoprophylaxis for close contacts. |
-| [5411121](https://pubmed.ncbi.nlm.nih.gov/5411121/) | 1970 | Not classified | Nature | Anti-trachoma activity of rifampicin and rifamycin SV derivatives. Summarised from the title only; no abstract is available. |
-| [4250391](https://pubmed.ncbi.nlm.nih.gov/4250391/) | 1970 | Not classified | Arch Ophtalmol | Use of rifampicin in ophthalmology. Summarised from the title only; no abstract is available. |
-| [5005929](https://pubmed.ncbi.nlm.nih.gov/5005929/) | 1971 | Review | Ann Ophthalmol | Rifampicin overview in an ophthalmology journal. Summarised from the title only; no abstract is available. |
-
----
+| [1096630](https://pubmed.ncbi.nlm.nih.gov/1096630/) | 1975 | Controlled clinical trial | Am J Ophthalmol | 1% rifampicin vs 1% tetracycline ointment vs boric acid control in endemic trachoma in Tunisian schoolchildren (twice daily, 10 weeks) |
+| [322700](https://pubmed.ncbi.nlm.nih.gov/322700/) | 1977 | Open trial | Br J Ophthalmol | 63 patients with chlamydial eye infection: 1% rifampicin ointment vs chloramphenicol; 3 weeks was insufficient, but 6 to 7 weeks gave about 90% clinical and microbiological cure |
+| [33457332](https://pubmed.ncbi.nlm.nih.gov/33457332/) | 2020 | Susceptibility study | Adv Biomed Res | Bacterial causes and antibiotic susceptibility in conjunctivitis patients in Iran |
+| [8363150](https://pubmed.ncbi.nlm.nih.gov/8363150/) | 1993 | Microbiology study | An Esp Pediatr | Neonatal conjunctivitis pathogens and antibiotic sensitivity |
+| [21191558](https://pubmed.ncbi.nlm.nih.gov/21191558/) | 2010 | Susceptibility study | Rev Esp Quimioter | Antibiotic susceptibility of *Corynebacterium macginleyi* strains causing conjunctivitis |
+| [3191080](https://pubmed.ncbi.nlm.nih.gov/3191080/) | 1988 | Case report | Br J Ophthalmol | Marginal corneal abscess in adult chlamydial ophthalmia |
+| [39336466](https://pubmed.ncbi.nlm.nih.gov/39336466/) | 2024 | Case report | Medicina (Kaunas) | Parinaud oculoglandular syndrome with Bartonella DNA detected in cornea and conjunctiva |
+| [5005929](https://pubmed.ncbi.nlm.nih.gov/5005929/) | 1971 | Review | Ann Ophthalmol | Overview of rifampicin (no abstract available) |
+| [1247775](https://pubmed.ncbi.nlm.nih.gov/1247775/) | 1976 | Report | Br Med J | Ocular toxicity due to rifampicin |
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN16652P | ROYCE RIFAMPICIN CAPSULE 150MG | Capsule | Not stated in the records |
-| SIN16653P | ROYCE RIFAMPICIN CAPSULE 300MG | Capsule | Not stated in the records |
+| SIN16652P | ROYCE RIFAMPICIN CAPSULE 150MG | Capsule | Not stated in the registration record |
+| SIN16653P | ROYCE RIFAMPICIN CAPSULE 300MG | Capsule | Not stated in the registration record |
 
-Both products are oral capsules made by Royce Pharma Manufacturing Sdn. Bhd. No ophthalmic or topical formulation is registered.
-
----
+Both are valid single-ingredient oral products from Royce Pharma Manufacturing Sdn. Bhd. No topical or ophthalmic formulation is registered.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications and disease associations (from the knowledge graph, not label text)**: liver failure, acute liver failure, hepatitis and other liver disease; porphyria; gallbladder disease; blood disorders (thrombocytopenia, neutropenia, agranulocytosis, pancytopenia, aplastic anaemia, anaemia); diabetes mellitus and diabetic ketoacidosis; gout; peripheral neuropathy; substance abuse/dependence; slow acetylator status; non-infectious meningitis; and anxiety, neurotic and dysthymic disorders.
+- **Drug Interactions**: 100 interactions were found, and the 20 listed in the data are all moderate. They include rabeprazole, omeprazole, doxycycline, clarithromycin, metronidazole, metformin, pioglitazone, canagliflozin, chlorpropamide, bupropion, aprepitant, morphine, and corticosteroids (hydrocortisone, dexamethasone, betamethasone, triamcinolone) and vitamin D analogues (cholecalciferol, calcifediol, calcitriol). Rifampicin is a potent enzyme inducer and lowers the exposure of many co-administered drugs, including antiretrovirals and corticosteroids.
+- **Ocular toxicity**: the literature includes reports of ocular toxicity due to rifampicin (PMID 1247775, 1260294).
 
-The DDI query returned no results for this record. Other entries in this pack note that rifampicin induces CYP3A4 and UGT1A1 and can lower exposure to co-administered drugs, such as antiretrovirals. This is a general safety constraint to review before any new use.
-
----
+Please refer to the package insert for warnings and precautions; label warning text was not available in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The TxGNN score is high, and rifampicin has plausible activity against relevant eye pathogens. However, there are no registered trials, and the literature is mostly surveys, case reports and old trachoma studies. Safety data are also missing, which blocks safety screening. Nothing shows an advantage over standard topical treatment, and the only locally registered form is an oral capsule.
+The conjunctivitis prediction is biologically plausible, but the evidence is limited to old topical-ointment studies, susceptibility surveys and case reports (L4), with no registered or modern controlled trials. The available Singapore products are oral only. Other predictions have either no evidence or only indirect evidence (HIV-TB co-infection, hidradenitis suppurativa, rheumatoid arthritis). RA and HIV are flagged as research questions rather than repurposing candidates.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications
+- HSA package insert warnings and contraindications (currently a blocking data gap for safety screening)
 - Mechanism of action data from DrugBank
-- Review of the original 1975 trachoma trial and the 1983 review for actual outcome data
-- Clean-up of the overlapping disease labels ("conjunctivitis", "conjunctivitis (disease)", "acute contagious conjunctivitis") into a single entry
-- Assessment of whether an ophthalmic formulation exists and is feasible, and of the rationale for use over standard topical agents
-- A DDI review, especially of CYP-inducing effects on co-medications
+- A comparison against current standard topical antibiotics for bacterial conjunctivitis and trachoma
+- Assessment of whether an ophthalmic formulation is feasible, since only oral capsules are registered in Singapore
+- A modern, controlled trial or a systematic review of rifampicin in chlamydial and other bacterial eye infections
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

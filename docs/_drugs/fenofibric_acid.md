@@ -2,7 +2,7 @@
 layout: default
 title: Fenofibric Acid
 parent: Low Evidence (L5)
-nav_order: 419
+nav_order: 423
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,102 +29,86 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Fenofibric Acid: From Its Registered Use (Indication Not Recorded) to Cholesterol-Ester Transfer Protein Deficiency
+# Fenofibric Acid: From Hyperlipidemia to Hyperlipoproteinemia
 
 ## One-Sentence Summary
 
-Fenofibric acid is the active form of fenofibrate, a lipid-lowering fibrate. It is marketed in Singapore as Trilipix, but the record does not state the approved indication.
-The TxGNN model ranks **cholesterol-ester transfer protein (CETP) deficiency** first (97.85%), yet **no clinical trials or publications** support this prediction. Among the other predictions, **hyperlipoproteinemia** has the most support (1 trial, 20 publications), but this is likely close to the drug's existing use.
+Fenofibric acid is a lipid-lowering drug originally used for hypertriglyceridemia and hyperlipidemia.
+The TxGNN model predicts it may be effective for **hyperlipoproteinemia** (the top-ranked prediction, cholesterol-ester transfer protein deficiency, has no supporting evidence, so the best-supported candidate, hyperlipoproteinemia, is evaluated here).
+Evidence is limited to **1 clinical trial** (non-phase, status unknown) and **3 publications**, and this indication largely overlaps with the already-approved use.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the available data |
-| Predicted New Indication | Cholesterol-ester transfer protein deficiency |
-| TxGNN Prediction Score | 97.85% |
-| Evidence Level | L5 (model prediction only) |
+| Original Indication | Hypertriglyceridemia, hyperlipidemia, familial hyperlipidemia, familial combined hyperlipidemia, hypoalphalipoproteinemia (approved indication text is not available in the Singapore licence records) |
+| Predicted New Indication | Top-ranked by TxGNN: cholesterol-ester transfer protein deficiency (evaluated in detail: hyperlipoproteinemia, rank 2) |
+| TxGNN Prediction Score | 97.85% (cholesterol-ester transfer protein deficiency); 97.73% (hyperlipoproteinemia) |
+| Evidence Level | L5 (cholesterol-ester transfer protein deficiency); L4 (hyperlipoproteinemia) |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 2 |
-| Recommended Decision | Hold |
+| Recommended Decision | Hold (top-ranked indication); Hyperlipoproteinemia: Research Question, better regarded as a label-scope extension |
 
 ## Why is This Prediction Reasonable?
 
-Fenofibric acid is a PPAR-alpha agonist. It increases lipoprotein lipase activity, lowers triglycerides and VLDL, modestly lowers LDL-C and raises HDL-C. Detailed mechanism-of-action data are not available in the drug record, so this description comes from the candidate analysis.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, fenofibric acid is a PPAR-alpha agonist. PPAR-alpha activation increases lipoprotein lipase activity and reduces hepatic VLDL production, which lowers triglycerides and modestly raises HDL-C.
 
-The link to CETP deficiency is weak. CETP deficiency is already a high-HDL, low-LDL state, so lowering lipids is not an obvious treatment goal. The prediction appears to come from shared lipid-metabolism neighbours in the knowledge graph, not from a treatment rationale. It should be treated as a model artefact until shown otherwise.
+**Hyperlipoproteinemia (rank 2)** is closely related to the approved indications (hyperlipidemia, hypertriglyceridemia, mixed dyslipidemia), so the mechanism plausibly applies. Because the overlap with the marketed use is large, this is better viewed as a label-scope extension than as true repurposing.
 
-## Other Predicted Indications
+**Cholesterol-ester transfer protein deficiency (rank 1)** is a poor mechanistic fit. This condition is characterized by markedly elevated HDL-C, so a drug that mainly lowers triglycerides is not an obvious treatment. The high score likely reflects proximity to lipid-metabolism nodes in the knowledge graph rather than a defined mechanism.
 
-| Rank | Disease | Score | Evidence Level | Decision | Comment |
-|---|---|---|---|---|---|
-| 2 | Hyperlipoproteinemia | 97.73% | L3 | Proceed with Guardrails | Best supported, but the label may already cover it. Verify before calling it repurposing. |
-| 3 | Hyperlipidemia due to hepatic triglyceride lipase deficiency | 97.03% | L5 | Hold | No evidence that fibrates correct hepatic lipase deficiency. |
-| 4 | Familial hypercholesterolemia | 96.99% | L3 | Research Question | Small, old fenofibrate studies with surrogate lipid endpoints only. |
-| 5 | Homozygous familial hypercholesterolemia | 96.67% | L4 | Hold | One indirect study. PPAR-alpha effects are unlikely to help in severe LDL-receptor deficiency. |
-| 6 | Hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency | 96.58% | L5 | Hold | Fibrates increase biliary cholesterol saturation, a theoretical concern in this bile acid defect. |
-| 7 | Hypercholesterolemia, autosomal dominant | 94.49% | L3 | Research Question | Largely the same evidence as familial hypercholesterolemia, not independent support. |
-| 8 | Hypolipoproteinemia | 88.24% | L5 | Hold | Lowering lipoproteins further has no therapeutic rationale and may be counterproductive. |
-| 9 | Hepatopulmonary syndrome | 87.22% | L5 | Hold | Speculative anti-inflammatory and vascular rationale only. |
-| 10 | Idiopathic copper-associated cirrhosis | 87.22% | L5 | Hold | Speculative link, and fibrate hepatotoxicity in cirrhosis is a concern. |
+Other predicted indications were also reviewed:
+- **Familial hypercholesterolemia and autosomal dominant hypercholesterolemia:** Fibrates have only modest LDL-C effects. A preclinical study suggests fibrates repress PCSK9, which could theoretically help, but this is indirect. Any use would be adjunctive to statins, ezetimibe or PCSK9 inhibitors.
+- **Homozygous familial hypercholesterolemia:** LDL receptor function is absent or severely reduced, so benefit is unlikely.
+- **Hypolipoproteinemia:** The drug's direction of effect is opposite to a plausible benefit, so this is likely a graph artifact.
+- **Hepatic lipase deficiency hyperlipidemia, CYP7A1 deficiency, hepatopulmonary syndrome and idiopathic copper-associated cirrhosis:** Mechanisms are speculative, with no supporting evidence. The last two are also concerning given hepatic safety considerations.
 
 ## Clinical Trial Evidence
 
-For the headline prediction (CETP deficiency): Currently no related clinical trials registered.
-
-For the best-supported prediction (hyperlipoproteinemia):
+Evidence for hyperlipoproteinemia (rank 2). No clinical trials are registered for the top-ranked indication, cholesterol-ester transfer protein deficiency.
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT01974297](https://clinicaltrials.gov/study/NCT01974297) | NA | Unknown | 194 | Atorvastatin 20 mg alone vs atorvastatin/fenofibric acid 10/135 mg in mixed hyperlipidemia not at goal on atorvastatin 10 mg. No results available. |
+| [NCT01974297](https://clinicaltrials.gov/study/NCT01974297) | NA | Unknown | 194 | Compared atorvastatin/fenofibric acid 10/135 mg combination with atorvastatin 20 mg monotherapy in mixed hyperlipidemia not at lipid goals on atorvastatin 10 mg. No results provided. |
 
 ## Literature Evidence
 
-For the headline prediction (CETP deficiency): Currently no related literature available.
-
-For hyperlipoproteinemia, the 10 most relevant of 20 publications are listed below. All studied fenofibrate (the prodrug), not fenofibric acid itself, and none is a Phase 2/3 RCT.
+Evidence for hyperlipoproteinemia (rank 2). The same papers also support the familial and autosomal dominant hypercholesterolemia predictions. No literature is available for cholesterol-ester transfer protein deficiency.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [9174678](https://pubmed.ncbi.nlm.nih.gov/9174678/) | 1997 | Clinical study (PK/PD) | Eur J Clin Pharmacol | Examined how plasma fenofibric acid levels relate to lipid changes in type IIA/IIB hyperlipoproteinemia. |
-| [3436157](https://pubmed.ncbi.nlm.nih.gov/3436157/) | 1987 | Double-blind study | Curr Med Res Opin | Bezafibrate vs fenofibrate in 64 type II diabetics with hyperlipoproteinemia over 4 months. |
-| [3902379](https://pubmed.ncbi.nlm.nih.gov/3902379/) | 1985 | Randomised comparative study | Curr Med Res Opin | Bezafibrate vs fenofibrate in 40 patients with primary hyperlipoproteinemia over 4 months. |
-| [3994783](https://pubmed.ncbi.nlm.nih.gov/3994783/) | 1985 | Double-blind comparative study | Atherosclerosis | Ciprofibrate and fenofibrate both lowered total, LDL and VLDL cholesterol and apoB, and raised HDL. |
-| [7225166](https://pubmed.ncbi.nlm.nih.gov/7225166/) | 1981 | Clinical study | Atherosclerosis | Dose-response study in 56 patients, with comparison against clofibrate. Elevated lipoproteins fell in each type. |
-| [3282894](https://pubmed.ncbi.nlm.nih.gov/3282894/) | 1988 | Clinical study | Eur J Clin Pharmacol | Single daily 200 mg dose was effective and well tolerated in 12 type IIB patients. |
-| [6428905](https://pubmed.ncbi.nlm.nih.gov/6428905/) | 1984 | Clinical study | Eur J Clin Invest | Serum lipids fell, but the lithogenic index of bile rose, a gallstone-related signal. |
-| [18245819](https://pubmed.ncbi.nlm.nih.gov/18245819/) | 2008 | Preclinical mechanistic | J Biol Chem | Fibrates repress PCSK9 through dual mechanisms, and PPAR-alpha activation counteracts statin-induced PCSK9. |
-| [7208345](https://pubmed.ncbi.nlm.nih.gov/7208345/) | 1980 | Review | Nouv Presse Med | Pharmacology overview. Fenofibrate is active against types IIa, IIb and IV hyperlipoproteinemia. |
-| [9666952](https://pubmed.ncbi.nlm.nih.gov/9666952/) | 1998 | Clinical study (indirect) | QJM | Atorvastatin compared with simvastatin-fenofibrate and simvastatin-cholestyramine in familial hypercholesterolaemia. |
+| [9174678](https://pubmed.ncbi.nlm.nih.gov/9174678/) | 1997 | Cohort | Eur J Clin Pharmacol | Relationship between plasma fenofibric acid levels and lipid changes (cholesterol, LDL-C, apoB) in patients with primary type IIA/IIB hyperlipoproteinemia |
+| [7208345](https://pubmed.ncbi.nlm.nih.gov/7208345/) | 1980 | Review | La Nouvelle Presse Medicale | Pharmacology of fenofibrate. Active against the main types of hyperlipoproteinemia (IIa, IIb, IV), with sustained activity over 20 months in one study |
+| [18245819](https://pubmed.ncbi.nlm.nih.gov/18245819/) | 2008 | Preclinical/Mechanistic | J Biol Chem | PPAR-alpha activation counteracts statin-induced PCSK9 induction (dual mechanisms of fibrate-mediated PCSK9 repression) |
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN14375P | Trilipix Modified Release Capsules 45mg | Capsule, delayed release pellets | Not listed in the record |
-| SIN14376P | Trilipix Modified Release Capsules 135mg | Capsule, delayed release pellets | Not listed in the record |
-
-Both products are oral and made by Fournier Laboratories Ireland Limited and Mylan Laboratories SAS.
+| SIN14375P | Trilipix Modified Release Capsules 45mg | Capsule, delayed release pellets (oral) | Not available in the records |
+| SIN14376P | Trilipix Modified Release Capsules 135mg | Capsule, delayed release pellets (oral) | Not available in the records |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications suggested by the knowledge graph (not label text):** liver failure and liver disease, pancreatitis, gallbladder disease, thrombocytopenia, hypothyroidism, myopathy and other muscle disease, rhabdomyolysis, diabetes mellitus and diabetic ketoacidosis, anemia, impaired renal function, and leukopenia and neutropenia (including several congenital forms).
+- **Drug Interactions:** 43 interactions were identified.
+  - **Major:** rosuvastatin, simvastatin.
+  - **Moderate (examples):** insulins (aspart, degludec, detemir, glargine, glulisine, human), sulfonylureas (chlorpropamide, glimepiride, glipizide, glyburide, tolazamide, acetohexamide), meglitinides (nateglinide, repaglinide), chenodeoxycholic acid, naltrexone.
 
-Two points from the literature and candidate analysis are worth noting. Fibrates can increase the lithogenic index of bile (PMID 6428905). Hepatotoxicity is a concern in cirrhosis.
+Please refer to the package insert for the official warnings and contraindications.
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Hold** (for the top-ranked prediction, cholesterol-ester transfer protein deficiency). Hyperlipoproteinemia may be carried forward as a **Research Question** (label-scope extension).
 
 **Rationale:**
-The headline prediction, CETP deficiency, rests on model score alone (L5). It has no trials or literature, and the biology argues against a therapeutic benefit. The related prediction of hyperlipoproteinemia has more support, but it consists of small, old fenofibrate studies and one trial with unknown status and no results. This is probably not true repurposing.
+- The top-ranked prediction has no trials or literature, and its mechanism does not fit, since the condition already involves high HDL-C. For hyperlipoproteinemia, the evidence is one non-phase trial with unknown status plus pharmacology literature, with no Phase 2/3 RCT. Because it overlaps with the marketed use, true repurposing value is limited.
 
 **To proceed, the following is needed:**
-- The Singapore package insert, to confirm approved indications, warnings and contraindications
-- Confirmation of whether hyperlipoproteinemia is already on the label
-- Detailed mechanism-of-action data from DrugBank
-- Any fenofibric acid-specific efficacy data, if hyperlipoproteinemia or familial hypercholesterolemia is pursued
-- A clinical rationale, if CETP deficiency is to be considered further
+- Singapore package insert warnings and contraindications (a blocking gap for safety screening) and the approved indication text for both licences
+- Detailed mechanism of action data from DrugBank
+- Phase 2/3 RCT evidence for fenofibric acid alone (not only combinations) in hyperlipoproteinemia
+- A review of the major interactions with statins (rosuvastatin, simvastatin) and with glucose-lowering drugs, plus a risk plan for patients with liver, renal or muscle disease
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

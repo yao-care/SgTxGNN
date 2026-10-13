@@ -29,17 +29,18 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Artesunate: From Antiparasitic Use to Acne (Disease)
+# Artesunate: From Malaria to Acne (Disease)
 
 ## One-Sentence Summary
 
-Artesunate is an artemisinin-derivative antiparasitic, and it is marketed in Singapore as an injectable powder. The TxGNN model predicts it may be effective for **acne (disease)**, but this is a computational signal only. There are **0 clinical trials** and **0 publications** supporting this direction.
+Artesunate was originally used to treat malaria, including *Plasmodium falciparum* and *Plasmodium vivax* infections.
+The TxGNN model predicts it may be effective for **acne**, but there are currently **0 clinical trials** and **0 publications** supporting this prediction. It is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the Singapore license data (drug is an antiparasitic artemisinin derivative) |
+| Original Indication | Malaria (*Plasmodium falciparum* and *Plasmodium vivax* malaria) |
 | Predicted New Indication | Acne (disease) |
 | TxGNN Prediction Score | 79.21% |
 | Evidence Level | L5 |
@@ -49,45 +50,39 @@ Artesunate is an artemisinin-derivative antiparasitic, and it is marketed in Sin
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Artesunate is an artemisinin-class antiparasitic. The Singapore license record does not state an approved indication, so the link between its original use and acne cannot be assessed from the supplied data.
+Currently, detailed mechanism of action data is not available. Based on known information, artesunate is an artemisinin derivative whose efficacy in malaria is established, and it may mechanistically be applicable to acne through anti-inflammatory effects, though this link is unverified.
 
-The only mechanistic idea is that artesunate is reported to have general anti-inflammatory activity, which could relate to inflammatory skin disease. This was not verified against the supplied data. No mechanism can be tied to acne at this stage, and the prediction rests on the TxGNN score alone.
+Artemisinin derivatives have been reported to suppress inflammatory signalling (for example NF-κB and cytokine pathways). Because acne has an inflammatory component, this could explain the prediction. However, no trials or literature were compiled to support it, and the link between an antimalarial and a skin condition remains speculative.
 
-The other top predictions show the same limits. The mastocytosis entities (ranks 2, 3 and 5) cluster together, which suggests a shared knowledge-graph neighborhood signal rather than independent support. Diffuse cutaneous leishmaniasis (rank 6, score 66.16%) has the most coherent biology, since it is a protozoal disease and artesunate is an antiparasitic. That point is also unverified and needs a targeted literature search.
-
-## Clinical Trial Evidence
-
-Currently no related clinical trials registered.
-
-## Literature Evidence
-
-Currently no related literature available.
+Other predictions in the list are also unverified. Among them, diffuse cutaneous leishmaniasis (score 66.16%) is biologically the most plausible, since *Leishmania* is a protozoan parasite like *Plasmodium*. Several predictions (smouldering systemic mastocytosis, systemic mastocytosis, lymphoadenopathic mastocytosis with eosinophilia) form a cluster of related mastocytosis entities, which suggests the scores may reflect similarity within the knowledge graph rather than a biological rationale.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN17135P | Artesunate Amivas Powder and Solvent for Solution for Injection 110mg/vial | Injection, powder, for solution |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN17135P | Artesunate Amivas Powder and Solvent for Solution for Injection 110mg/vial | Injection, powder, for solution | Not stated in the compiled data |
 
-The manufacturer is Dalton Chemical Laboratories Inc. (operating as Dalton Pharma Services). Only an injectable form is registered, and no topical form is registered.
+The only registered product is an injectable formulation, so any use in acne would need a route-compatibility assessment (for example, a topical or oral product).
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. The drug interaction query returned no records.
+- **Drug Interactions**: 74 interactions were identified. Among those listed, one is classified as **Major**: eluxadoline. The others shown are Moderate, including eliglustat, rolapitant, cobicistat, eltrombopag, fostamatinib, alpelisib, valsartan, apalutamide, atazanavir, axitinib, brigatinib, cabozantinib, diclofenac, capmatinib, carbamazepine, ceritinib, crizotinib, daclatasvir and darolutamide.
+
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The acne prediction is model output only (L5), with no trials, no literature and no verified mechanism. The only registered product is an injectable, so route compatibility with a skin indication is also unresolved.
+The prediction rests only on the TxGNN model score (Evidence Level L5). No clinical trials or literature support it, mechanism of action data is missing, and the only Singapore product is an injectable.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from the HSA website (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- A targeted literature search on artesunate in acne and inflammatory skin disease
-- A route compatibility assessment (injectable only vs. any topical or oral need)
-- A separate literature check on artesunate against *Leishmania*, since diffuse cutaneous leishmaniasis (rank 6) is flagged as a research question
+- A targeted literature and clinical trial search for artesunate or artemisinin derivatives in acne and inflammatory skin disease
+- Mechanism of action data
+- Package insert warnings and contraindications for the registered product
+- A route-compatibility assessment, since the registered product is injectable
+- A comparison of acne with diffuse cutaneous leishmaniasis, which is biologically more plausible and may deserve priority
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Daratumumab
-parent: Low Evidence (L5)
-nav_order: 300
-evidence_level: L5
+parent: Medium Evidence (L3-L4)
+nav_order: 303
+evidence_level: L4
 indication_count: 10
 ---
 
 # Daratumumab
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,91 +29,88 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Daratumumab: From Multiple Myeloma to Indolent Plasma Cell Myeloma
+# Daratumumab: From Plasma Cell Myeloma to Indolent Plasma Cell Myeloma
 
 ## One-Sentence Summary
 
-Daratumumab is an anti-CD38 antibody already marketed for multiple myeloma.
-The TxGNN model predicts it may be effective for **indolent plasma cell myeloma** (smouldering myeloma), an early precursor stage of the disease.
-Only **1 clinical trial** (Phase 1, indirect) and **5 publications** (1 review, 1 preclinical study, 2 case reports, and 1 unrelated case report) support this direction, and none tests daratumumab directly in this setting.
+Daratumumab is an anti-CD38 monoclonal antibody, originally used to treat plasma cell myeloma (multiple myeloma).
+The TxGNN model predicts it may be effective for **indolent plasma cell myeloma**, but only **1 clinical trial** (which does not test daratumumab as the investigational drug) and **5 publications** (mostly mechanistic or case reports) are linked to this direction.
+Direct clinical evidence is therefore very limited.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Multiple myeloma (taken from the evidence pack rationale; no HSA indication text was provided) |
+| Original Indication | Plasma cell myeloma (the Singapore licence records contain no approved indication text) |
 | Predicted New Indication | Indolent plasma cell myeloma |
 | TxGNN Prediction Score | 98.13% |
-| Evidence Level | L3 (indirect evidence only) |
+| Evidence Level | L4 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not available in the evidence pack. Daratumumab is an anti-CD38 monoclonal antibody, and CD38 is highly expressed on clonal plasma cells, including in the myeloma bone niche (PMID 28915615). That preclinical work also suggests CD38 targeting may affect bone cells.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Based on general knowledge, daratumumab is an antibody that targets CD38, a protein expressed at high levels on myeloma cells. Its efficacy in plasma cell myeloma is established, and mechanistically it may be applicable to indolent myeloma.
 
-Smouldering myeloma is the asymptomatic precursor state from which active multiple myeloma always develops (PMID 41571958). Both stages involve the same clonal plasma cells, so a CD38-directed drug has a coherent biological rationale in the early stage. Because the drug is already marketed for myeloma, its safety is well characterized in the parent disease.
+Indolent (smoldering) myeloma sits on the same disease spectrum as active myeloma. A 2017 study (PMID 28915615) showed that CD38 is expressed in the myeloma bone marrow niche, including in patients with indolent disease, which gives a biological rationale for anti-CD38 therapy.
 
-The main limitation is that the package contains no trial of daratumumab in smouldering myeloma. The only trial is a Phase 1 study in relapsed/refractory myeloma, so the evidence is indirect on both population and setting.
+However, the rationale is mostly mechanistic. The only linked clinical trial tests a different drug, and the literature contains no interventional data on daratumumab in this indication.
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT04136756](https://clinicaltrials.gov/study/NCT04136756) | Phase 1 | Completed | 30 | Dose escalation and expansion of NKTR-255 in relapsed/refractory hematological malignancies. Daratumumab SC is a combination partner, not the studied agent. The population is not indolent disease, so it gives only indirect safety and feasibility support, not efficacy evidence. |
+| [NCT04136756](https://clinicaltrials.gov/study/NCT04136756) | Phase 1 | Completed | 30 | Dose-escalation and expansion study of NKTR-255 in relapsed/refractory haematological malignancies. Daratumumab (subcutaneous) is only a combination partner in one arm. Not an indolent myeloma study and offers no direct evidence of daratumumab efficacy. |
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [41571958](https://pubmed.ncbi.nlm.nih.gov/41571958/) | 2026 | Review | Nature Reviews Clinical Oncology | Covers diagnosis, risk stratification and management of smouldering myeloma. Low-risk disease often follows an indolent course, and progression to active myeloma carries substantial, irreversible morbidity. |
-| [28915615](https://pubmed.ncbi.nlm.nih.gov/28915615/) | 2017 | Preclinical | Oncotarget | CD38 is expressed in the myeloma bone niche. This supports using anti-CD38 therapy such as daratumumab to inhibit osteoclast formation. |
-| [40257478](https://pubmed.ncbi.nlm.nih.gov/40257478/) | 2025 | Case Report | Annals of Hematology | Paraneoplastic leukocytoclastic vasculitis as the initial presentation of smouldering IgG kappa myeloma. |
-| [32736600](https://pubmed.ncbi.nlm.nih.gov/32736600/) | 2020 | Case Report | BMC Gastroenterology | Disseminated crystal storing histiocytosis secondary to indolent multiple myeloma, presenting as a colonic mass. |
-| [34514307](https://pubmed.ncbi.nlm.nih.gov/34514307/) | 2021 | Case Report | European Heart Journal Case Reports | Aortic valve papillary fibroelastoma with cardiac AL amyloidosis. Peripheral relevance to this indication. |
+| [28915615](https://pubmed.ncbi.nlm.nih.gov/28915615/) | 2017 | Preclinical/Translational | Oncotarget | CD38 is expressed in the myeloma bone niche, including in indolent monoclonal gammopathy. Supports a rationale for anti-CD38 therapy, including inhibition of osteoclast formation. |
+| [42488083](https://pubmed.ncbi.nlm.nih.gov/42488083/) | 2026 | Review | American Journal of Blood Research | Review of the multiple roles of CD38 in B-cell lymphomas; background on CD38 as a therapeutic target. |
+| [34514307](https://pubmed.ncbi.nlm.nih.gov/34514307/) | 2021 | Case report | European Heart Journal: Case Reports | Imaging in a patient with aortic valve papillary fibroelastoma and cardiac AL amyloidosis. Not directly relevant. |
+| [32736600](https://pubmed.ncbi.nlm.nih.gov/32736600/) | 2020 | Case report | BMC Gastroenterology | Disseminated crystal storing histiocytosis presenting as a colonic mass, secondary to indolent myeloma. |
+| [40257478](https://pubmed.ncbi.nlm.nih.gov/40257478/) | 2025 | Case report | Annals of Hematology | Paraneoplastic leukocytoclastic vasculitis as the first sign of smoldering IgG kappa myeloma. |
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN16032P | DARZALEX SC Solution for Injection 1800MG/15ML | Injection, solution |
-| SIN15111P | DARZALEX Concentrate for Solution for Infusion 400MG/20ML | Infusion, solution concentrate |
-| SIN15110P | DARZALEX Concentrate for Solution for Infusion 100MG/5ML | Infusion, solution concentrate |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN16032P | DARZALEX SC Solution for Injection 1800MG/15ML | Injection, solution | Not recorded in the licence data |
+| SIN15111P | DARZALEX Concentrate for Solution for Infusion 400MG/20ML | Infusion, solution concentrate | Not recorded in the licence data |
+| SIN15110P | DARZALEX Concentrate for Solution for Infusion 100MG/5ML | Infusion, solution concentrate | Not recorded in the licence data |
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Immunotherapy (anti-CD38 monoclonal antibody), not a conventional cytotoxic |
-| Myelosuppression Risk | Medium (neutropenia and thrombocytopenia are commonly reported for this drug class; confirm against the package insert) |
-| Emetogenicity Classification | Low |
-| Monitoring Items | CBC with differential, infusion-related reactions, signs of infection |
-| Handling Protection | Please refer to the package insert warnings and precautions, and follow local institutional policy for biologic antineoplastic agents |
+| Cytotoxicity Classification | Targeted therapy / immunotherapy (anti-CD38 monoclonal antibody), not a conventional cytotoxic agent |
+| Myelosuppression Risk | Please refer to the package insert warnings and precautions |
+| Emetogenicity Classification | Please refer to the package insert warnings and precautions |
+| Monitoring Items | Please refer to the package insert; typically CBC and infusion-reaction monitoring |
+| Handling Protection | Please refer to the package insert warnings and precautions |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. The Singapore package insert warnings and contraindications were not available in the evidence pack, and no drug-interaction records were found.
+- **Drug Interactions**: The interaction screening found 81 recorded interactions. Examples classed as **Major** include deferiprone, samarium (153Sm) lexidronam, adalimumab, baricitinib, certolizumab pegol and cladribine. **Moderate** examples include zidovudine, azathioprine, ganciclovir, alemtuzumab, anakinra, chloramphenicol, roflumilast and strontium chloride Sr-89, as well as several vaccines (anthrax, tetanus toxoid, live cholera).
+- **Practical concerns noted in the prediction analysis**: Anti-CD38 therapy is known to interfere with red cell serology (blood typing and cross-matching), and it may increase infection risk through immune suppression.
 
-The evidence pack notes two practical concerns:
-- **Red cell serology interference**: CD38 is present on red blood cells, so daratumumab can interfere with transfusion compatibility testing.
-- **Infection risk**: Daratumumab is immunosuppressive.
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The mechanistic rationale is sound and the TxGNN score is high. However, the package contains no direct trial of daratumumab in smouldering myeloma, only one indirect Phase 1 trial and mostly review or case-level literature. The package insert safety data is also missing, which blocks safety screening.
+The TxGNN score is high (98.13%) and the biological rationale is plausible, since indolent myeloma is on the same disease spectrum as the approved indication. However, the evidence is L4: the only linked trial tests a different drug, and the literature is mechanistic or case-report only. There is no direct clinical evidence of daratumumab efficacy or safety in indolent myeloma that would justify advancing.
 
 **To proceed, the following is needed:**
-- Search for and verify any Phase 2/3 trials of daratumumab in high-risk smouldering myeloma (none are in this package), and raise the evidence level only if they are confirmed.
-- Download and parse the Singapore package insert for warnings, contraindications and approved indication text.
-- Obtain detailed mechanism of action data from DrugBank.
-- Define a risk-stratification approach for smouldering myeloma, since low-risk patients often follow an indolent course.
-- Plan a monitoring strategy covering infection risk and red cell serology interference.
-
-The other nine predicted indications (ranks 2–10) have no trials or literature and no supported mechanism. All are L5 and Hold.
+- Review of the package insert (warnings, contraindications and approved indications) for the Singapore licences
+- Detailed mechanism of action data (MOA)
+- Searches for interventional studies and trials of daratumumab specifically in smoldering/indolent myeloma, and a review of their results
+- A risk-benefit assessment for early-stage disease, including infection risk and red cell serology interference
+- Confirmation of the original approved indication text on the Singapore licences
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

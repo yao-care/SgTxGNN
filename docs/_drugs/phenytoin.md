@@ -2,7 +2,7 @@
 layout: default
 title: Phenytoin
 parent: Low Evidence (L5)
-nav_order: 781
+nav_order: 790
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Phenytoin: From Seizure Control to Trigeminal Nerve Neoplasm
+# Phenytoin: From Epilepsy to Trigeminal Nerve Neoplasm
 
 ## One-Sentence Summary
 
-Phenytoin is an established antiseizure medicine, and the Singapore licence records list no approved indication text.
-The TxGNN model predicts it may be effective for **trigeminal nerve neoplasm**, but there are **0 clinical trials** and only **5 publications**, none of which studies a neoplasm.
-The prediction is model-only and should be treated as a graph artefact rather than a real signal.
+Phenytoin is a long-established antiseizure drug, originally used for epilepsy, including generalized tonic-clonic seizures, partial seizures, status epilepticus and Lennox-Gastaut syndrome.
+The TxGNN model's top-ranked prediction is **trigeminal nerve neoplasm** (score 99.99%), but there are **no registered clinical trials** and only **2 loosely related publications**, neither of which addresses a neoplasm.
+The prediction is most likely an artifact of the knowledge graph's link to trigeminal neuralgia, so the evidence is essentially model prediction only.
 
 ---
 
@@ -43,7 +43,7 @@ The prediction is model-only and should be treated as a graph artefact rather th
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore licence records (phenytoin is a known antiseizure drug) |
+| Original Indication | Epilepsy (the approved indication text in the Singapore licences is blank; the original indications come from the knowledge graph) |
 | Predicted New Indication | Trigeminal nerve neoplasm |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L5 |
@@ -55,11 +55,9 @@ The prediction is model-only and should be treated as a graph artefact rather th
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the evidence pack. Phenytoin is a sodium-channel blocker that limits repetitive neuronal firing, and it is used for seizures. That mechanism could relieve nerve pain or seizures, but it has no known antitumour effect.
+Detailed mechanism of action data is not available in the data compiled for this report. Phenytoin is generally known as an antiseizure drug that blocks voltage-gated sodium channels, which reduces repetitive high-frequency neuronal firing. This general pharmacology is not drawn from the compiled data, so it should be verified.
 
-The high graph score most likely reflects that the predicted disease sits close to trigeminal neuralgia and Sturge-Weber syndrome in the knowledge graph. Phenytoin has real links to both conditions. The five retrieved papers cover neuralgia and neurocutaneous syndromes, not neoplasm.
-
-This prediction is therefore not mechanistically supported. Among the model's other predictions, **trigeminal neuralgia** (rank 9) has the strongest support, at L3, and is a much more plausible target than a tumour.
+The link between epilepsy and a trigeminal nerve neoplasm is weak. The retrieved literature concerns trigeminal neuralgia (a pain syndrome) and Sturge-Weber syndrome, not tumours. Sodium channel blockade might relieve neoplasm-associated neuropathic pain or seizures, but that would be symptomatic relief, not an anti-tumour effect. The prediction is probably explained by the ontology's proximity to trigeminal neuralgia, where phenytoin has genuine, though second-line, use.
 
 ---
 
@@ -73,31 +71,45 @@ Currently no related clinical trials registered.
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [17997704](https://pubmed.ncbi.nlm.nih.gov/17997704/) | 2007 | Review | Expert Rev Neurother | Overview of medical and surgical treatments for trigeminal neuralgia. It is about neuralgia, not neoplasm. |
-| [21751615](https://pubmed.ncbi.nlm.nih.gov/21751615/) | 2011 | Review / case report | J Assoc Physicians India | Sturge-Weber syndrome, a neurocutaneous condition with facial port-wine stain and seizures. Not a neoplasm. |
-| [9157801](https://pubmed.ncbi.nlm.nih.gov/9157801/) | 1997 | Case series (unclassified) | An Esp Pediatr | Experience with 14 Sturge-Weber cases over 25 years, covering clinical course and treatment response. |
-| [4155965](https://pubmed.ncbi.nlm.nih.gov/4155965/) | 1971 | Not classified | Birth Defects Orig Artic Ser | Skin disorders in institutionalised people with intellectual disability, including drug-induced skin effects. Not relevant to this prediction. |
-| [5514358](https://pubmed.ncbi.nlm.nih.gov/5514358/) | 1970 | Not classified | Trans Am Neurol Assoc | Nerve fibre size and pain conduction in the trigeminal root, and analgesia in trigeminal neuralgia. No abstract available. |
+| [17997704](https://pubmed.ncbi.nlm.nih.gov/17997704/) | 2007 | Review | Expert Rev Neurother | Overview of medical and surgical treatments for trigeminal neuralgia; concerns a pain syndrome, not a neoplasm |
+| [9157801](https://pubmed.ncbi.nlm.nih.gov/9157801/) | 1997 | Case series | An Esp Pediatr | Experience with 14 cases of Sturge-Weber syndrome (clinical features, course, treatment response); not about neoplasm |
 
 ---
 
 ## Singapore Market Information
 
-Five authorisations are on record. The approved indication text is blank in all of them.
-
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN09208P | DILANTIN CAPSULE 100 mg | Capsule | Viatris Pharmaceuticals LLC |
-| SIN13114P | Dilantin 125 (Phenytoin Oral Suspension, USP) 125mg/5ml | Suspension | Pharmacia and Upjohn Company LLC |
-| SIN16560P | PHARMANIAGA PHENYTOIN SODIUM SOLUTION FOR INJECTION 250MG/5ML | Injection, solution | Pharmaniaga LifeScience Sdn. Bhd. |
-| SIN08183P | DBL PHENYTOIN INJECTION BP 50 mg/ml | Injection | Siegfried Hameln GmbH |
-| SIN06056P | DILANTIN CAPSULE 30 mg | Capsule | Viatris Pharmaceuticals LLC |
+| SIN09208P | DILANTIN CAPSULE 100 mg | Capsule | Not stated in the compiled data |
+| SIN13114P | Dilantin 125 (Phenytoin Oral Suspension, USP) 125mg/5ml | Suspension | Not stated in the compiled data |
+| SIN16560P | PHARMANIAGA PHENYTOIN SODIUM SOLUTION FOR INJECTION 250MG/5ML | Injection, solution | Not stated in the compiled data |
+| SIN08183P | DBL PHENYTOIN INJECTION BP 50 mg/ml | Injection | Not stated in the compiled data |
+| SIN06056P | DILANTIN CAPSULE 30 mg | Capsule | Not stated in the compiled data |
+
+All five licences are valid single-ingredient products, covering oral and injectable routes.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found in the evidence pack.
+**Contraindication signals from the knowledge graph** (these are graph-derived associations, not package insert text):
+- Cardiac: long QT syndrome (including familial), torsades de pointes
+- Liver: liver failure, liver disease, hepatic coma, hepatic encephalopathy, gallbladder disease
+- Kidney: kidney disease
+- Blood: thrombocytopenia, neutropenia, agranulocytosis
+- Metabolic: hyperglycemia, diabetes mellitus, diabetic ketoacidosis, porphyria and other porphyrin metabolism diseases
+- Autoimmune: systemic lupus erythematosus (including paediatric)
+- Other: hypotensive disorder, anxiety and neurotic disorders, dysthymic disorder, substance abuse/dependence, sleep apnea syndromes, congenital central hypoventilation syndrome
+
+**Drug Interactions:** 100 interactions were found. The 20 shown in the data are mostly Moderate, with one Minor (acetylsalicylic acid). Moderate-level examples include:
+- Antidiabetic drugs: acarbose, metformin, pioglitazone, alogliptin, albiglutide
+- Acid suppressants: omeprazole, famotidine, ranitidine
+- Corticosteroids: dexamethasone, hydrocortisone, betamethasone, triamcinolone
+- Others: doxycycline, metronidazole, bupropion, aprepitant, morphine, cholecalciferol, calcifediol
+
+Literature reports also describe phenytoin-related thrombocytopenia, hyperglycemia/diabetic ketoacidosis, and the EMPACT syndrome (erythema multiforme with cranial radiation), which matters for patients with brain tumours.
+
+Please refer to the package insert for label warnings and contraindications.
 
 ---
 
@@ -106,17 +118,26 @@ Please refer to the package insert for safety information. No drug interaction r
 **Decision: Hold**
 
 **Rationale:**
-The prediction has a very high model score but no trials and no neoplasm-specific literature. Phenytoin has no known antitumour mechanism, so the score most likely reflects proximity to neuralgia and neurocutaneous nodes in the graph.
+The score is very high, but there are no clinical trials, no neoplasm-specific literature, and no mechanistic basis for an anti-tumour effect. The prediction looks like a knowledge-graph artifact. Evidence level is L5.
 
 **To proceed, the following is needed:**
-- Any preclinical or clinical evidence that phenytoin acts on trigeminal nerve tumours (none exists in the current pack).
-- The HSA package insert, to confirm the registered indications, warnings and contraindications.
-- Mechanism of action data from DrugBank.
-- Redirecting effort to **trigeminal neuralgia**, which is a better-supported candidate:
-  - It is rated L3 and Proceed with Guardrails.
-  - It has one completed small prospective study, [NCT03712254](https://clinicaltrials.gov/study/NCT03712254) (n=15).
-  - It has retrospective IV phenytoin series (PMIDs 35469475 and 32981076).
-  - Phenytoin would be a rescue option for acute exacerbations, not first-line therapy.
+- Mechanism of action data (MOA)
+- Package insert warnings and contraindications from the HSA
+- Any evidence of phenytoin anti-tumour activity in trigeminal nerve tumours (none found so far)
+
+---
+
+## Other Predicted Indications Worth Noting
+
+The other predictions offer a more credible path than the top-ranked one:
+
+| Rank | Indication | Score | Evidence Level | Assessment |
+|---|---|---|---|---|
+| 9 | Trigeminal neuralgia | 99.97% | L4 | Most clinically credible. Phenytoin acts on the same sodium channel mechanism as carbamazepine (first-line). Evidence includes IV phenytoin retrospective cohorts (PMID 32981076, PMID 35469475) and a Cochrane review on neuropathic pain (PMID 22592741). Guidelines favour carbamazepine/oxcarbazepine, so it is at best second-line or rescue. Suggested as a research question. |
+| 2 | Micturition-induced seizures | 99.98% | L4 | Mechanistically compatible; only indirect case-report support, no specific trials. Research question. |
+| 3, 8 | Startle epilepsy, reading seizures | 99.98%, 99.97% | L4 | Case reports only; the drug-specific clinical report for startle epilepsy favours lamotrigine. Hold. |
+| 4–7 | Audiogenic, eating, orgasm-induced, thinking seizures | 99.98% | L5 | Mostly animal or unrelated literature. Hold. |
+| 10 | Beta-ketothiolase deficiency | 99.95% | L5 | No mechanistic rationale or literature. Hold. |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

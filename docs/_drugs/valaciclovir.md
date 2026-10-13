@@ -2,7 +2,7 @@
 layout: default
 title: Valaciclovir
 parent: Low Evidence (L5)
-nav_order: 1039
+nav_order: 1049
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,89 +29,80 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Valaciclovir: From Herpesvirus Infections to Rheumatoid Arthritis
+# Valaciclovir: From Herpesvirus Infection to Rheumatoid Arthritis
 
 ## One-Sentence Summary
 
-Valaciclovir is an oral antiviral prodrug of acyclovir, active against herpes simplex virus (HSV) and varicella-zoster virus (VZV).
-The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but no trial tests this use.
-The 2 retrieved clinical trials are unrelated, and the **13 publications** are mostly case reports of herpesvirus infections in RA patients on immunosuppressants.
+Valaciclovir is an oral antiviral prodrug of acyclovir, and it is marketed in Singapore under three registrations. The TxGNN model predicts it may be effective for **rheumatoid arthritis**, but **no clinical trials** are registered and the **5 publications** retrieved are case reports and cohort studies. These describe herpes infections occurring in RA patients on immunosuppressants and do not test valaciclovir as a treatment for RA.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Not available in the Singapore licence records (approved indication text is empty) |
 | Predicted New Indication | Rheumatoid arthritis |
 | TxGNN Prediction Score | 98.95% |
-| Evidence Level | L5 (model prediction only; the source data's own scoring lists L4, but it contains no preclinical or mechanism study) |
+| Evidence Level | L4 (assigned in the compiled data; the literature found is only case reports and a cohort study, so it is not direct evidence of efficacy) |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 3 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Valaciclovir is a nucleoside analogue prodrug that is converted to acyclovir and acts against HSV and VZV.
+Detailed mechanism of action data is not available in the data compiled for this report. Valaciclovir is generally known as a prodrug of acyclovir, which inhibits herpesvirus DNA polymerase. It is used against herpes simplex and herpes zoster infections.
 
-No direct mechanism links it to rheumatoid arthritis pathology. The literature that mentions both is about **managing herpesvirus reactivation in RA patients** on TNF inhibitors, tofacitinib or methotrexate. That is treatment of an infectious complication, not disease-modifying activity in RA.
+There is **no direct mechanistic rationale** for valaciclovir treating rheumatoid arthritis. RA is an autoimmune joint disease, and valaciclovir has no known anti-inflammatory or immunomodulatory action against it. The retrieved literature reports herpes zoster or herpes simplex infections in RA patients receiving tofacitinib, infliximab or methotrexate. This supports using valaciclovir for infectious complications in RA patients, not for RA itself.
 
-The high TxGNN score is probably driven by RA and herpes infections appearing together in the literature. It should be treated as a statistical association, not evidence of efficacy.
+The high TxGNN score most likely reflects network proximity or co-occurrence in the knowledge graph rather than a true therapeutic effect. The prediction should be treated as a weak hypothesis.
 
 ## Clinical Trial Evidence
 
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT05111743](https://clinicaltrials.gov/study/NCT05111743) | N/A | Completed | 9261 | Real-world safety of brolucizumab in wet age-related macular degeneration. Unrelated to valaciclovir or RA. |
-| [NCT00195624](https://clinicaltrials.gov/study/NCT00195624) | Phase 2 | Completed | 47 | Alemtuzumab pilot in severe aplastic anemia. Unrelated to valaciclovir or RA. |
-
-Both trials were graded as irrelevant. No trial tests valaciclovir in rheumatoid arthritis.
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [34579250](https://pubmed.ncbi.nlm.nih.gov/34579250/) | 2021 | Systematic Review | Vaccines | VZV reactivation after COVID-19 vaccination. Not specific to RA or valaciclovir treatment. |
-| [18674945](https://pubmed.ncbi.nlm.nih.gov/18674945/) | 2008 | Cohort | Joint Bone Spine | Rate and outcomes of herpes zoster in patients on TNF-alpha antagonists for chronic inflammatory joint disease. |
-| [35249916](https://pubmed.ncbi.nlm.nih.gov/35249916/) | 2022 | Case report | Internal Medicine | RA patient on methotrexate developed VZV pneumonia and meningoencephalitis despite oral valacyclovir. |
-| [24660085](https://pubmed.ncbi.nlm.nih.gov/24660085/) | 2014 | Case report | Case Reports in Rheumatology | Ramsay Hunt syndrome after infliximab in RA. Recovered after valaciclovir and hydrocortisone. |
-| [35236687](https://pubmed.ncbi.nlm.nih.gov/35236687/) | 2022 | Case report | BMJ Case Reports | Herpes zoster meningitis in an RA patient on tofacitinib. |
-| [19648728](https://pubmed.ncbi.nlm.nih.gov/19648728/) | 2009 | Case report | Dermatology | Disseminated zoster mimicking rheumatoid vasculitis in an RA patient on etanercept. |
-| [32274443](https://pubmed.ncbi.nlm.nih.gov/32274443/) | 2020 | Case report | Am J Ophthalmol Case Rep | Four cases of concomitant herpes simplex keratitis and ulcerative keratitis in RA. |
-| [34540433](https://pubmed.ncbi.nlm.nih.gov/34540433/) | 2021 | Case report | Cureus | Felty syndrome presenting with genital herpes and neutropenia. |
-| [23211260](https://pubmed.ncbi.nlm.nih.gov/23211260/) | 2012 | Not classified | Br J Gen Pract | Who receives antiviral therapy after herpes zoster in general practice. |
-| [14600805](https://pubmed.ncbi.nlm.nih.gov/14600805/) | 2003 | Not classified | Intensive Care Med | Tuberculosis, aspergillosis and herpes simplex in an RA patient on infliximab and methotrexate. |
+| [24660085](https://pubmed.ncbi.nlm.nih.gov/24660085/) | 2014 | Case report | Case Reports in Rheumatology | Ramsay Hunt syndrome (varicella zoster reactivation) in an RA patient after infliximab, treated with valaciclovir and hydrocortisone, with full recovery at 6 months |
+| [35236687](https://pubmed.ncbi.nlm.nih.gov/35236687/) | 2022 | Case report | BMJ Case Reports | Herpes zoster meningitis in an RA patient taking tofacitinib; the drug was discontinued and the infection treated |
+| [14600805](https://pubmed.ncbi.nlm.nih.gov/14600805/) | 2003 | Case report | Intensive Care Medicine | Disseminated tuberculosis, aspergillosis and cutaneous herpes simplex in an RA patient on infliximab and methotrexate |
+| [10220730](https://pubmed.ncbi.nlm.nih.gov/10220730/) | 1999 | Case report | Klinische Monatsblätter für Augenheilkunde | Bilateral neuroretinitis with zoster infection, with a suspected autoimmune inflammatory reaction |
+| [23211260](https://pubmed.ncbi.nlm.nih.gov/23211260/) | 2012 | Cohort | British Journal of General Practice | Antiviral prescribing patterns after herpes zoster in general practice |
 
-These are 10 of the 15 publications retrieved. None shows that valaciclovir improves RA itself.
+None of these papers evaluates valaciclovir as a treatment for RA.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN08229P | VALTREX TABLET 500 mg (GLAXO WELLCOME SA) | Film-coated tablet |
-| SIN14207P | Vaciclor Tablet 500 mg (BALKANPHARMA - DUPNITSA AD) | Film-coated tablet |
-| SIN14878P | VALOVIR 500 VALACYCLOVIR TABLETS 500 mg (Hetero Labs Limited) | Tablet |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN08229P | VALTREX TABLET 500 mg | Film-coated tablet | Not specified in the licence records |
+| SIN14207P | Vaciclor Tablet 500 mg | Film-coated tablet | Not specified in the licence records |
+| SIN14878P | VALOVIR 500 VALACYCLOVIR TABLETS 500 mg | Tablet | Not specified in the licence records |
 
-All three products are oral tablets.
+All three are valid single-ingredient oral products.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug-interaction records were found for this drug in the data provided.
+- **Drug Interactions**: 100 interactions were found in the DDInter database. The main ones are listed below.
+  - Moderate: mesalazine, balsalazide, olsalazine, sulfasalazine, paromomycin, neomycin, streptomycin, trospium
+  - Minor: cimetidine
+  - Level not classified: calcitriol, pantoprazole, omeprazole, lansoprazole, metformin, glimepiride, doxycycline, clotrimazole, morphine, atropine, acarbose
+- **Renal consideration**: Valaciclovir is cleared by the kidney, so dose adjustment is needed in renal impairment. This is general pharmacological knowledge, not taken from the licence data.
 
-One retrieved case report (PMID 24368610) describes valaciclovir/acyclovir neurotoxicity with status epilepticus in a patient with end-stage renal disease. This suggests extra caution with renal impairment, which also applies to patients with diabetic kidney disease.
+Warnings and contraindications from the package insert were not available. Please refer to the package insert for these.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on model output alone. The retrieved trials are unrelated, and the literature shows valaciclovir treating herpes infections in RA patients, not RA itself. No mechanism links an antiviral to RA pathology.
+The prediction rests only on a model score. There are no clinical trials, and the literature describes treating herpes infections in RA patients rather than treating RA. No plausible mechanism links valaciclovir to RA.
 
 **To proceed, the following is needed:**
-- The HSA package insert, to complete the warnings and contraindications review
-- Mechanism of action data from DrugBank
-- A plausible RA-specific mechanism, supported by preclinical or clinical studies of valaciclovir in RA
-- Review of the remaining 5 publications not provided for this report
-
-Of the other nine predictions, only congestive heart failure and peripheral arterial disease have any retrieved literature (a few case reports), and it does not support efficacy. All of them are also on Hold.
+- Detailed mechanism of action data (MOA)
+- Package insert warnings and contraindications from the HSA, and the approved indications for the Singapore licences
+- Any preclinical or clinical evidence that valaciclovir affects RA disease activity (for example, a viral-trigger hypothesis such as EBV)
+- A clear separation between use for infectious complications and a true new-indication claim
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

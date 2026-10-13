@@ -2,7 +2,7 @@
 layout: default
 title: Kanamycin
 parent: Low Evidence (L5)
-nav_order: 559
+nav_order: 564
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,31 +29,34 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Kanamycin: From Bacterial Infections to Hyperamylasemia
+# Kanamycin: From Urinary Tract Infection to Gonococcal Urethritis
 
 ## One-Sentence Summary
 
-Kanamycin is an aminoglycoside antibiotic that acts on bacterial ribosomes and is used against bacterial infections. The TxGNN model predicts it may be effective for **hyperamylasemia**, a laboratory finding of raised amylase. There are **0 clinical trials** and **0 publications** supporting this prediction, so it rests on the model score alone.
+Kanamycin is an aminoglycoside antibiotic, originally used for bacterial infections such as urinary tract infection, bacterial pneumonia and meningitis.
+For this report, the top-scoring TxGNN prediction (hyperamylasemia) has no supporting evidence, so we also assessed the best-supported prediction, **gonococcal urethritis**. It has **no registered clinical trials** and **19 publications**, mostly historical (1958-2018), and several are indirect (susceptibility surveillance or other drugs).
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore licence records; kanamycin is an aminoglycoside antibacterial |
-| Predicted New Indication | Hyperamylasemia |
-| TxGNN Prediction Score | 94.53% |
-| Evidence Level | L5 |
+| Original Indication | Urinary tract infection, bacterial pneumonia, cholangitis, bacterial arthritis, meningitis (from the knowledge graph; the Singapore licence records contain no indication text) |
+| Predicted New Indication | Top-ranked prediction: hyperamylasemia (no evidence). Best-supported prediction: gonococcal urethritis (rank 5) |
+| TxGNN Prediction Score | Hyperamylasemia 94.53%; gonococcal urethritis 92.88% |
+| Evidence Level | Hyperamylasemia L5; gonococcal urethritis L3 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 2 |
-| Recommended Decision | Hold |
+| Recommended Decision | Hold (overall); gonococcal urethritis is a research question only |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the record. Kanamycin is an aminoglycoside that binds the bacterial 30S ribosomal subunit and blocks protein synthesis. Its antibacterial use is well established.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Kanamycin is known to be an aminoglycoside that inhibits bacterial protein synthesis through the 30S ribosomal subunit, which is bactericidal against susceptible organisms.
 
-Hyperamylasemia is a laboratory abnormality, not an infection. It has many possible causes, such as pancreatic or salivary gland disease, and an antibacterial has no clear way to treat it. The review found no plausible mechanistic link between kanamycin's action and this condition.
+**Top-ranked predictions.** Most of the top 10 predictions have no plausible mechanistic link to an antibacterial drug. These are hyperamylasemia, polyclonal hyperviscosity syndrome, congenital analbuminemia, premalignant hematological system disease and monoclonal gammopathy. Their high scores appear to be knowledge-graph artefacts. "Blood group incompatibility" matched only an unrelated paper on bacterial plasmid incompatibility, a keyword false positive.
 
-The score of 94.53% comes from patterns in a knowledge graph. No trials or publications back it up, and it should not be read as clinical support.
+**Gonococcal urethritis.** This is the only prediction with a credible rationale and a meaningful body of literature. Kanamycin is active against *Neisseria gonorrhoeae*, and the indication is close to the original urinary tract infection use, so it is not a truly novel repurposing target. Current gonorrhoea management favours ceftriaxone-based regimens because of widespread resistance, so any renewed interest is limited to niche, resistance-guided or resource-limited settings.
+
+**Other infectious predictions.** Ureaplasma urethritis, uterine inflammatory disease and xanthogranulomatous pyelonephritis have theoretical antibacterial rationales but weak or no evidence. Ureaplasma lacks a cell wall and is generally poorly susceptible to aminoglycosides. Xanthogranulomatous pyelonephritis is usually managed surgically.
 
 ## Clinical Trial Evidence
 
@@ -61,35 +64,60 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Gonococcal urethritis (selected from 19 publications; evidence is based on titles and abstracts, and full texts were not reviewed):
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [3890228](https://pubmed.ncbi.nlm.nih.gov/3890228/) | 1985 | Open clinical trial | Sex Transm Dis | Single-dose gentamicin (280 mg) vs kanamycin (2 g) IM in uncomplicated gonococcal urethritis in Zambia, during a rise in penicillinase-producing gonococci |
+| [6428699](https://pubmed.ncbi.nlm.nih.gov/6428699/) | 1984 | Clinical study | Br J Vener Dis | Two-dose Augmentin cured 95.9% vs 87.4% with single-dose kanamycin 2 g IM in 192 men |
+| [6672557](https://pubmed.ncbi.nlm.nih.gov/6672557/) | 1983 | Clinical study | Med J Malaysia | Kanamycin in male gonococcal urethritis (no abstract available) |
+| [813568](https://pubmed.ncbi.nlm.nih.gov/813568/) | 1975 | Clinical study | Antibiotiki | Kanamycin and vibramycin in gonorrhoea in 112 and 86 men; recovery 85.6% and 92.9% respectively |
+| [19556927](https://pubmed.ncbi.nlm.nih.gov/19556927/) | 2009 | Susceptibility study | Sex Transm Dis | Susceptibility of gonococcal isolates in Maputo, aimed at assessing kanamycin effectiveness |
+| [2672256](https://pubmed.ncbi.nlm.nih.gov/2672256/) | 1989 | Review | Rev Infect Dis | Notes emerging bacterial resistance to kanamycin in Hong Kong; quinolones then replaced older agents |
+| [13637839](https://pubmed.ncbi.nlm.nih.gov/13637839/) | 1958 | Preliminary report | Antibiotics Annual | IM kanamycin in acute male gonococcal urethritis (no abstract available) |
+
+Ureaplasma urethritis:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [34136](https://pubmed.ncbi.nlm.nih.gov/34136/) | 1978 | Antibiogram article | Pathol Biol | Kanamycin among the antibiotics active in vitro, but ranked below minocycline, pristinamycin and erythromycin; susceptibility data only |
+
+No literature was found for the other top-ranked predictions.
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN02356P | KANAMYCIN MEIJI FOR INJECTION 1 g/vial | Injection, powder, for solution | Not stated in the record |
-| SIN01963P | KANAMYCIN SULFATE INJECTION 1 g/3 ml | Injection | Not stated in the record |
+| SIN02356P | KANAMYCIN MEIJI FOR INJECTION 1 g/vial | Injection, powder, for solution | Not stated in the available records |
+| SIN01963P | KANAMYCIN SULFATE INJECTION 1 g/3 ml | Injection | Not stated in the available records |
 
-Both products are made by Thai Meiji Pharmaceutical Co., Ltd and are injectables.
+Both licences are valid single-ingredient injectable products from Thai Meiji Pharmaceutical.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+Package insert warnings and contraindications were not available. Please refer to the package insert for safety information.
+
+- **Contraindication signals from the knowledge graph (not label text):** kidney disease, pyoureter, hypercalcemia, nephrocalcinosis, phosphorus metabolism disease, central nervous system origin vertigo, myasthenia gravis, neuromuscular junction disease, and Parkinson disease or parkinsonian disorders.
+- **Drug interactions (100 recorded; selected):**
+  - Major: botulinum toxin type A, intravenous human immunoglobulin G, bacitracin.
+  - Moderate: amphotericin B (including lipid complex), amikacin, neomycin (topical), ampicillin, NSAIDs (ketorolac, ibuprofen, celecoxib, aspirin), bisphosphonates (alendronic acid, risedronic acid), oestrogens, rabeprazole, and mesalazine and balsalazide.
+  - Minor: lidocaine.
+  
+  Combinations with other nephrotoxic, ototoxic or neuromuscular-blocking agents warrant particular care.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no trials, no literature and no plausible mechanism, so it stays at evidence level L5 (model prediction only). Hyperamylasemia is a laboratory finding that an antibacterial would not be expected to treat.
+The top-ranked predictions lack any mechanistic or clinical support and appear to be graph artefacts. The best-supported candidate, gonococcal urethritis, rests on old, small, non-modern studies. It overlaps with the original anti-infective use, and resistance and current guidelines favour other agents. It is a research question rather than a repurposing opportunity ready to proceed.
 
 **To proceed, the following is needed:**
-- The HSA package insert, including warnings and contraindications. This is a blocking gap for any safety screening.
-- Mechanism of action data from DrugBank.
-- A check of whether hyperamylasemia is a meaningful clinical target. If it is not, this candidate should be dropped.
-- For the same drug, **gonococcal urethritis** (rank 5) has much stronger support: about 10 historical clinical reports from 1958 to 1985 (evidence level L3). Modern use is limited by resistance and by cephalosporin-based first-line regimens. It is a better candidate for a follow-up review than hyperamylasemia.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Package insert warnings and contraindications from the HSA (a blocking gap for safety screening)
+- Mechanism-of-action data from DrugBank
+- Current local gonococcal resistance data to kanamycin, and comparison with guideline regimens
+- Full-text review of the key gonococcal urethritis studies
+- A renal, auditory and neuromuscular safety assessment for any new use
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

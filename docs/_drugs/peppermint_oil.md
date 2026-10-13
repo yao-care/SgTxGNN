@@ -2,7 +2,7 @@
 layout: default
 title: Peppermint Oil
 parent: Low Evidence (L5)
-nav_order: 769
+nav_order: 778
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,21 +29,18 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Peppermint Oil: From a Marketed Oral Capsule to Leprosy (Prediction Only)
+# Peppermint Oil: From an Oral Enteric-Coated Capsule to Leprosy (Predicted)
 
 ## One-Sentence Summary
 
-Peppermint oil is marketed in Singapore as an enteric-coated oral capsule (Colpermin), but no approved indication is recorded in the data provided.
-The TxGNN model predicts it may be effective for **leprosy**, with a very high score, but there are **0 clinical trials** and **0 publications** supporting this link.
-This is a model-only prediction and should be treated as a hypothesis, not a repurposing candidate.
-
----
+Peppermint oil is marketed in Singapore as an enteric-coated oral capsule, but no approved indication is recorded for it in the registration data.
+The TxGNN model predicts it may be effective for **leprosy**, with a very high score.
+However, there are **0 clinical trials** and **0 publications** supporting this specific prediction, so it rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration record |
 | Predicted New Indication | Leprosy |
 | TxGNN Prediction Score | 99.80% |
 | Evidence Level | L5 (model prediction only) |
@@ -51,60 +48,49 @@ This is a model-only prediction and should be treated as a hypothesis, not a rep
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Peppermint oil is an essential oil whose main constituent is menthol, and it is already used in an oral capsule form. Its original indication is not recorded in the Singapore registration data.
+Currently, detailed mechanism of action data is not available. Peppermint oil is a plant-derived oil rich in menthol, and it is registered in Singapore as a single-ingredient oral product. The registration record does not state an approved indication, so the link between an "original indication" and leprosy cannot be drawn from the available data.
 
-Peppermint oil shows generic in vitro antimicrobial activity, but nothing links it to *Mycobacterium leprae*, the bacterium that causes leprosy. Leprosy also needs prolonged multidrug antibiotic treatment, and no evidence suggests that peppermint oil could replace or add to it. The high TxGNN score (99.80%, model rank 3,433) reflects a pattern in the knowledge graph and is not backed by any laboratory or clinical result. The score should not be read as evidence of efficacy.
-
----
+The high score is a graph-based computational prediction. No mechanistic link to leprosy has been established. Laboratory antimicrobial activity of essential oils does not show efficacy against *Mycobacterium leprae*. This prediction should be treated as a hypothesis only.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered for leprosy.
 
 ## Literature Evidence
 
-Currently no related literature available.
-
----
+Currently no related literature available for leprosy.
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN13034P | COLPERMIN CAPSULE 187mg | Capsule, enteric coated (oral) | Not listed in the record |
+| SIN13034P | COLPERMIN CAPSULE 187mg | Capsule, enteric coated (oral) | Not stated in the registration record |
 
-Manufacturers: Tillotts Pharma AG (including the capsule coating step) and SwissCo Services AG (capsule coating step only).
-
----
+The product is a single-ingredient, currently valid registration. It is manufactured by Tillotts Pharma AG, with the capsule coating step also handled by SwissCo Services AG.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
-
----
+Please refer to the package insert for safety information. No drug interaction records were found for this drug in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The leprosy prediction has a high model score but no trials, no literature and no plausible mechanism, so it stays at evidence level L5. Safety screening cannot proceed until the package insert data are obtained.
+The leprosy prediction has no supporting trials, no literature, and no plausible mechanism in the available data. It is a computational signal only (L5).
 
-Among the top 10 predictions, only cardiovascular disease (rank 9) has any supporting studies. It is at L3 and rated "Research Question": two small completed trials of peppermint on cardiometabolic parameters and blood pressure, using surrogate endpoints only. It is a more realistic follow-up than leprosy, though efficacy is still unproven.
+**Other predictions:** Among the other top-ranked predictions, only **cardiovascular disease** (TxGNN score 99.13%) has supporting human evidence (L3, "Research Question"):
+- One completed trial, [NCT05561543](https://clinicaltrials.gov/study/NCT05561543), tested peppermint oil on cardiometabolic outcomes in mild-to-moderate hypertension. It is small (40 participants) and has no assigned phase.
+- A placebo-controlled randomized trial report ([PMID 42024666](https://pubmed.ncbi.nlm.nih.gov/42024666/), PLoS One, 2026) and its protocol ([PMID 40333716](https://pubmed.ncbi.nlm.nih.gov/40333716/), 2025) cover the same question.
+- These results rely on surrogate endpoints and are not confirmatory. If the team wants to pursue a direction with evidence, this one is a better candidate than leprosy.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications (currently blocking safety screening)
-- Mechanism of action data for peppermint oil and menthol
-- Any in vitro activity data against *M. leprae*, before any clinical consideration
-- A decision on whether to redirect effort to the cardiovascular prediction, where a safety-focused next step is feasible
-
-*This report is for research reference only and does not constitute medical advice. Predicted indications require clinical validation before any application.*
+- Package insert warnings and contraindications from the HSA, because safety screening cannot start without them
+- Mechanism of action data, retrievable from DrugBank
+- For leprosy: any preclinical or clinical evidence showing activity against *M. leprae*; without it, the prediction should stay on hold
+- For cardiovascular disease: the full results of the hypertension trial, and a larger confirmatory study if the signal holds
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -29,79 +29,89 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Acetic Acid: From Haemodialysis Concentrate Component to Post-Bacterial Disorder
+# Acetic Acid: From Otitis Externa to Post-Bacterial Disorder
 
 ## One-Sentence Summary
 
-In Singapore, acetic acid is registered only as an ingredient of acid haemodialysis concentrates. The registration records state no approved indication.
-The TxGNN model predicts it may be useful for **post-bacterial disorder**, a vague disease category, with a very high model score.
-No completed study tests acetic acid for this condition. The **18 trials** retrieved are only loosely related, and **0 publications** were found.
+Acetic acid was originally used as a topical antibacterial and acidifying agent for **otitis externa** and external ear disease.
+The TxGNN model predicts it may be effective for **post-bacterial disorder**, but **no clinical trials** and **no directly relevant publications** currently support this prediction.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration records (both licences are haemodialysis acid concentrates for bicarbonate dialysis) |
+| Original Indication | Otitis externa; external ear disease (from the knowledge graph; the Singapore licences list no indication text) |
 | Predicted New Indication | Post-bacterial disorder |
 | TxGNN Prediction Score | 99.98% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Acetic acid is a simple organic acid, and in Singapore it is registered as a component of haemodialysis concentrates. The mechanism behind that use is not documented in the data provided.
+Detailed mechanism of action data is not available. Acetic acid is generally known as a topical antibacterial and acidifying agent. Its efficacy in otitis externa rests on lowering local pH and inhibiting microbial growth.
 
-Acetic acid is generally known to have antibacterial activity, mainly through low pH and disruption of microbial membranes. That is the only plausible bridge to a "post-bacterial" condition. However, the predicted disease is a broad, post-infectious category, and there is no clear link between acetic acid and any specific post-infectious disease process. A possible indirect route through short-chain fatty acids or the gut microbiome is speculative and not supported by the retrieved records. The 99.98% score is a model output, not clinical evidence.
+"Post-bacterial disorder" is a vague category. It covers conditions that arise after an infection, and these are often immune-mediated or involve tissue damage rather than active infection. A topical agent that acts locally on microbes has no clear mechanism for such conditions. The high score most likely reflects the disease's proximity to infection-related conditions in the knowledge graph rather than a true pharmacological link.
+
+The other top-ranked predictions have the same weakness. They include postinfectious vasculitis, post-infectious syndrome, Chagas cardiomyopathy, infective urethral stricture and infection-related haemolytic uraemic syndrome. All are L5, and none has supporting trials or literature.
+
+The only prediction with some supporting literature is **tinea corporis** (rank 9, score 99.25%, L4). It is described below as a possible research question.
 
 ## Clinical Trial Evidence
 
-None of the trials below tests acetic acid for post-bacterial disorder. They surfaced through loose keyword or theme matching. The reviewer graded most as low relevance (grade C), and several are still ungraded.
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT04120259](https://clinicaltrials.gov/study/NCT04120259) | Not applicable | Completed | 126 | Apple cider vinegar plus metformin vs metformin alone in newly diagnosed type 2 diabetes. Vinegar is an acetic acid source, but the indication is metabolic. |
-| [NCT07386795](https://clinicaltrials.gov/study/NCT07386795) | Not applicable | Not yet recruiting | 19 | Microbiota transplantation plus prebiotics for functional constipation. No acetic acid arm. |
-| [NCT07048028](https://clinicaltrials.gov/study/NCT07048028) | Not applicable | Recruiting | 90 | Chitosan vs sodium hypochlorite combinations as root-canal irrigants. Different agent, dental setting. |
-| [NCT04824261](https://clinicaltrials.gov/study/NCT04824261) | Not applicable | Unknown | 100 | 4% boric acid vs clotrimazole solution in otomycosis (ear fungal infection). Acetic acid is not tested. |
-| [NCT04434365](https://clinicaltrials.gov/study/NCT04434365) | Phase 1/2 | Unknown | 24 | Berberine and gut microbiota in coronary artery disease. Unrelated to acetic acid. |
-| [NCT05710094](https://clinicaltrials.gov/study/NCT05710094) | Phase 1 | Completed | 28 | Safety of topical SoftOx Biofilm Eradicator in chronic leg wounds (not graded). |
-| [NCT04036318](https://clinicaltrials.gov/study/NCT04036318) | Not applicable | Completed | 3,022 | Presumptive periodic treatment of sexually transmitted infections in high-risk groups in Tanzania. Unrelated to acetic acid. |
-| [NCT04657757](https://clinicaltrials.gov/study/NCT04657757) | Not applicable | Completed | 16 | Ex vivo bacterial adhesion and bactericidal effect on implant restoration materials (not graded). |
-| [NCT03619161](https://clinicaltrials.gov/study/NCT03619161) | Not applicable | Completed | 58 | Effect of bathroom cleaning on eczema severity, related to bleach baths (not graded). |
-| [NCT02872675](https://clinicaltrials.gov/study/NCT02872675) | Not applicable | Completed | 17 | Prebiotic supplementation and gut bacterial metabolites in adults with and without exercise-induced bronchoconstriction (not graded). |
+Currently no related clinical trials registered for post-bacterial disorder. No trials were found for any of the other predicted indications either.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for post-bacterial disorder.
+
+For reference, the only literature retrieved for the top predictions is a 2011 review of animal models of post-infectious irritable bowel syndrome (PMID 20848144, listed under post-infectious syndrome). It does not study acetic acid, so it is not evidence for this drug.
+
+### Related Finding: Tinea Corporis (Rank 9, L4)
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [20996178](https://pubmed.ncbi.nlm.nih.gov/20996178/) | 1946 | Historical clinical report | JAMA | Tinea capitis treated with iodine and dilute acetic acid |
+| [20983383](https://pubmed.ncbi.nlm.nih.gov/20983383/) | 1946 | Historical clinical report | Arch Dermatol Syphilol | Same treatment approach for tinea capitis |
+| [20256868](https://pubmed.ncbi.nlm.nih.gov/20256868/) | 1947 | Historical case series | Urol Cutaneous Rev | Results in a larger series of tinea capitis patients |
+| [13616002](https://pubmed.ncbi.nlm.nih.gov/13616002/) | 1958 | Historical clinical report | Vestn Dermatol Venerol | Foot epidermophytosis treated with increasing acetic acid concentrations |
+| [31049344](https://pubmed.ncbi.nlm.nih.gov/31049344/) | 2019 | Case series | Skin Appendage Disord | Chemical peeling as an alternative to oral antifungals for onychomycosis (indirect) |
+| [26857689](https://pubmed.ncbi.nlm.nih.gov/26857689/) | 2016 | In vitro | Mycoses | Topical antifungal products tested in an onychomycosis model (indirect) |
+| [16233325](https://pubmed.ncbi.nlm.nih.gov/16233325/) | 2002 | In vitro | J Biosci Bioeng | Organic acids at low pH inhibited the tinea dermatophyte (indirect) |
+| [37256034](https://pubmed.ncbi.nlm.nih.gov/37256034/) | 2023 | Case series | Arch Plast Surg | Burns caused by Korean folk remedies (a skin-injury safety signal) |
+
+These studies are old and uncontrolled, or only indirectly related. No modern controlled study in tinea corporis was identified.
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN11034P | Haemodialysis Concentrate NKFS-04 (Acid) for Bicarbonate Dialysis (B. Braun Medical Industries Sdn Bhd) | Solution | Not stated in registration record |
-| SIN11033P | Haemodialysis Concentrate NKFS-03 (Acid) for Bicarbonate Dialysis (B. Braun Medical Industries Sdn Bhd) | Solution | Not stated in registration record |
+| SIN11034P | Haemodialysis Concentrate NKFS-04 (Acid) for Bicarbonate Dialysis | Solution | Not stated |
+| SIN11033P | Haemodialysis Concentrate NKFS-03 (Acid) for Bicarbonate Dialysis | Solution | Not stated |
+
+Both registered products are haemodialysis concentrates, not otic or topical products. The local registrations therefore do not cover the original ear indication or any of the predicted new indications.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications (knowledge graph, not label text)**: inherited porphyria, porphyrin metabolism disease, porphyria, herpes simplex infection, and geniculate herpes zoster.
+- **Skin injury**: a case series reported burns from folk remedies, which signals a risk of skin damage with improper use. Acetic acid is also an irritant and is unsuitable for periocular or ocular use at antimicrobial concentrations.
+- **Drug Interactions**: no interactions were found in the queried data.
+
+Please refer to the package insert for the full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on the model score alone. There are no supporting publications, and no trial tests acetic acid for this vague disease category. The only registered Singapore products are haemodialysis concentrates, which do not match any plausible route for an anti-infective use.
-
-Among the other predictions for this drug, **tinea corporis** has the most supporting material (L4, "Research Question"). That material is limited to 1946–47 uncontrolled reports where acetic acid was combined with iodine, plus recent vinegar-based reports in tinea pedis and onychomycosis. A literature report of burns from folk remedies is also a safety signal, so concentration control would be essential. It would be a better candidate to evaluate first.
+The prediction rests on model score alone (L5). There are no clinical trials or relevant literature, and the mechanism is implausible for a post-infectious sequela. The registered Singapore products are dialysis concentrates, so there is no matching local product.
 
 **To proceed, the following is needed:**
+- Package insert warnings and contraindications from HSA, which block safety screening
 - Mechanism of action data from DrugBank
-- Package insert warnings and contraindications from the HSA website (currently blocking safety screening)
-- A precise definition of "post-bacterial disorder", or a switch to a better-supported indication such as tinea corporis
-- Route and formulation compatibility assessment, since the registered products are dialysis solutions
-- Controlled clinical evidence in the target condition
+- A clearer, more specific definition of the target disease. If the project continues, tinea corporis (rank 9, L4) is the more credible research question, and it would need modern controlled evidence.
+- Confirmation of a suitable topical product and route, since route compatibility has not been assessed
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Fenoterol
 parent: Low Evidence (L5)
-nav_order: 420
+nav_order: 424
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,14 +33,15 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Fenoterol is a beta2-adrenergic agonist bronchodilator, marketed in Singapore mainly as a component of Berodual and Duovent inhalation products. The registration records supplied contain no indication text.
-The TxGNN model predicts it may be effective for **multiple system atrophy (MSA)**, but **no clinical trials and no publications** support this direction. The prediction rests on the model score alone.
+Fenoterol is a beta-2 adrenergic agonist marketed in Singapore as an inhaled or nebulised bronchodilator.
+The TxGNN model predicts it may be effective for **multiple system atrophy**, but there are **0 clinical trials** and **0 publications** supporting this prediction.
+The prediction rests on the model score alone (evidence level L5), and the pharmacology argues against it.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration records (fenoterol is a beta2-agonist bronchodilator) |
+| Original Indication | Not stated in the Singapore licence records. Fenoterol is used as a bronchodilator, and marketed products are inhaled or nebulised forms. |
 | Predicted New Indication | Multiple system atrophy |
 | TxGNN Prediction Score | 99.70% |
 | Evidence Level | L5 |
@@ -50,60 +51,65 @@ The TxGNN model predicts it may be effective for **multiple system atrophy (MSA)
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on general pharmacology, fenoterol is a beta2-adrenergic agonist. It relaxes airway smooth muscle and is used to relieve bronchospasm. Its efficacy in airway disease is established, but this does not carry over to MSA.
+Detailed mechanism of action data is not available in the data compiled for this report. Pharmacology data show that fenoterol binds beta-1, beta-2 and beta-3 adrenoceptors. It is described as a beta-2 agonist used as a bronchodilator and, in some countries, to suppress premature labour.
 
-MSA is a neurodegenerative disease. Beta2-mediated vasodilation could worsen the neurogenic orthostatic hypotension typical of MSA. So the pharmacology does not support a benefit here, and it raises a plausible safety concern. No rationale for disease modification was identified. The high score is best read as a knowledge-graph association, not as evidence of efficacy.
+A plausible link would be symptomatic modulation of autonomic dysfunction. However, beta-2 agonism has no established disease-modifying role in alpha-synucleinopathy. Vasodilation could also worsen the orthostatic hypotension that is common in multiple system atrophy. The high TxGNN score therefore looks like a network-based association rather than a therapeutic rationale.
 
-The other top predictions show the same pattern. None has any retrieved trial or publication.
+The other top-ranked predictions have similar problems:
+- **Postural orthostatic tachycardia syndrome:** Fenoterol is expected to aggravate this condition through tachycardia and vasodilation.
+- **Variably protease-sensitive prionopathy:** No mechanistic link to prion misfolding can be identified.
+- **Open-angle and primary hereditary glaucoma:** The link is theoretical and there is no fenoterol-specific evidence.
+- **Raynaud disease:** Vasodilation is a plausible rationale, but systemic side effects limit practicality.
+- **Sinoatrial block and sinoatrial node disease:** Chronotropic effects are theoretically helpful, but fenoterol is beta-2 selective and carries proarrhythmic risk.
 
-- **Postural orthostatic tachycardia syndrome (99.61%)**: beta-agonism would be expected to raise heart rate and could worsen symptoms.
-- **Variably protease-sensitive prionopathy (99.54%)**: no plausible link to prion misfolding or clearance.
-- **Open-angle glaucoma (99.43%), primary hereditary glaucoma (99.37%) and glaucoma 1, open angle (98.16%)**: only a weak adrenergic effect on intraocular pressure. The first and third are near-duplicate ontology terms, and inhaled or systemic exposure differs from topical ocular delivery.
-- **Raynaud disease (99.41%)**: a theoretical vasodilatory rationale, but systemic cardiac effects and better-supported alternatives such as calcium channel blockers.
-- **Sinoatrial block (99.35%) and sinoatrial node disease (99.25%)**: a theoretical chronotropic rationale, but proarrhythmic risk.
-- **Anaphylaxis (98.28%)**: could only help with the bronchospasm component. Epinephrine remains first-line.
+The only prediction with any literature support is **anaphylaxis** (score 98.3%, evidence level L4). The literature there is entirely preclinical, which is why the sections below cover it.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for multiple system atrophy or any other predicted indication.
 
 ## Literature Evidence
 
-Currently no related literature available.
+No literature is available for multiple system atrophy. The only supporting literature relates to the lower-ranked anaphylaxis prediction. All of it is animal or tissue work from 1977 to 1987, and none is human clinical data.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [68010](https://pubmed.ncbi.nlm.nih.gov/68010/) | 1977 | Preclinical (rat) | Int Arch Allergy Appl Immunol | Fenoterol was the most potent of the beta-agonists tested at inhibiting IgE-mediated histamine release in passive anaphylaxis in rats. It was more potent than salbutamol and isoproterenol. |
+| [6199956](https://pubmed.ncbi.nlm.nih.gov/6199956/) | 1984 | Preclinical (guinea pig) | Agents Actions | Fenoterol attenuated antigen-induced bronchospasm and changes in tissue histamine in sensitised guinea pigs. |
+| [2889607](https://pubmed.ncbi.nlm.nih.gov/2889607/) | 1987 | Preclinical (rat) | Eur J Pharmacol | Fenoterol and sodium cromoglycate acted synergistically against anaphylactic bronchoconstriction in rats. |
+| [2864902](https://pubmed.ncbi.nlm.nih.gov/2864902/) | 1985 | Preclinical (guinea pig lung) | Arch Int Pharmacodyn Ther | Proposed a mechanism for the anti-anaphylactic effect of beta-agonists, involving thromboxane A2 release. |
+| [6203772](https://pubmed.ncbi.nlm.nih.gov/6203772/) | 1984 | Preclinical (human and guinea pig airway tissue) | Eur J Respir Dis Suppl | Characterised the beta-adrenoceptor subtypes mediating airway relaxation and inhibition of antigen-induced histamine release. |
+| [98295](https://pubmed.ncbi.nlm.nih.gov/98295/) | 1978 | Preclinical (rat) | Chest | Compared the effects of fenoterol on passive cutaneous anaphylaxis and the histamine skin test in rats. |
 
 ## Singapore Market Information
 
+The licence records do not list approved indication text. The products are inhaled or nebulised forms.
+
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN07913P | DUOVENT UDVS NEBULISER SOLUTION | Solution | Not stated in registration data |
-| SIN11739P | BERODUAL N METERED DOSE INHALER | Aerosol, spray | Not stated in registration data |
-| SIN02664P | BERODUAL SOLUTION | Solution | Not stated in registration data |
-
-All three products are inhaled or nebulised forms. Whether these routes suit MSA, glaucoma or any other predicted disease has not been assessed.
+| SIN07913P | DUOVENT UDVS NEBULISER SOLUTION | Solution | Not stated |
+| SIN11739P | BERODUAL N METERED DOSE INHALER | Aerosol, spray | Not stated |
+| SIN02664P | BERODUAL SOLUTION | Solution | Not stated |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions:** No specific drug-drug interactions were identified. The available data only show fenoterol binding to beta-1, beta-2 and beta-3 adrenoceptors (ADRB1, ADRB2, ADRB3).
+- **Predicted-indication concerns:** Beta-2 agonism can cause tachycardia, tremor and vasodilation. These effects could worsen orthostatic hypotension (relevant to multiple system atrophy) and postural orthostatic tachycardia syndrome. They also carry proarrhythmic risk in sinoatrial disease.
 
-Pharmacology-based concerns raised in the prediction review:
-- **MSA:** possible worsening of neurogenic orthostatic hypotension through beta2-mediated vasodilation.
-- **POTS:** possible increase in heart rate and symptoms.
-- **Cardiac conduction disorders:** proarrhythmic potential.
+Please refer to the package insert for warnings and contraindications. These were not available in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-All ten predictions are model-only (L5) with no supporting trials or literature. For the top prediction (MSA) and several others (POTS, sinoatrial disorders), the known pharmacology points toward possible harm rather than benefit.
+The prediction for multiple system atrophy is supported only by a model score, with no trials or literature. Fenoterol's vasodilatory and chronotropic effects may also be harmful in autonomic disorders. Among the predicted indications, only anaphylaxis has even preclinical support, and epinephrine remains its standard of care.
 
 **To proceed, the following is needed:**
-- The Singapore package insert (warnings, contraindications and approved indications), which is currently missing and blocks safety screening
-- Mechanism of action data from DrugBank
-- A targeted literature and trial search for fenoterol or beta2-agonists in the top predicted diseases
-- A safety and direction-of-effect review, especially for MSA, POTS and the cardiac conduction disorders
-- An assessment of route compatibility, since the current products are inhaled or nebulised
-- Merging duplicate glaucoma entries for review
+- Package insert warnings and contraindications from the Health Sciences Authority (HSA), which is a blocking gap for safety screening
+- Detailed mechanism of action data
+- Any human evidence for multiple system atrophy. Without it, the prediction should not progress.
+- If the anaphylaxis direction is of interest, a research question on fenoterol as an adjunct for bronchospasm, starting with a review of human data
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

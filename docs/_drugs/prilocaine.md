@@ -2,7 +2,7 @@
 layout: default
 title: Prilocaine
 parent: Low Evidence (L5)
-nav_order: 816
+nav_order: 825
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,70 +29,98 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Prilocaine: From Local Anesthesia to Papillary Conjunctivitis
+# Prilocaine: From Premature Ejaculation to Papillary Conjunctivitis
 
 ## One-Sentence Summary
 
-Prilocaine is an amide local anesthetic, used as an injection and in topical products. The Singapore registration records do not list an approved indication text.
-The TxGNN model predicts it may be effective for **papillary conjunctivitis**, but there are currently **0 clinical trials** and **0 publications** supporting this direction. The prediction is model-only.
+Prilocaine is an amide-type local anaesthetic. The knowledge-graph records link it to premature ejaculation and psychologic dyspareunia, and it is marketed in Singapore in injectable, cream and spray forms.
+The TxGNN model predicts it may be effective for **papillary conjunctivitis**, with a very high score (99.78%).
+Currently **0 clinical trials** and **0 publications** support this specific prediction, so it is a model prediction only.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration data (known as a local anesthetic) |
+| Original Indication | Premature ejaculation; psychologic dyspareunia (from knowledge-graph indication records; the Singapore licence entries do not state an indication text) |
 | Predicted New Indication | Papillary conjunctivitis |
 | TxGNN Prediction Score | 99.78% |
-| Evidence Level | L5 |
+| Evidence Level | L5 (model prediction only) |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 5 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Prilocaine blocks voltage-gated sodium channels in nerve fibres, which stops pain signals from being transmitted. Surface anesthesia of the eye is therefore plausible in principle.
+Detailed mechanism-of-action data is not available in the data compiled for this report. Prilocaine is known as a sodium channel-blocking amide local anaesthetic. By blocking nerve conduction, it produces surface or local anaesthesia. Its established uses are in dermal, dental and procedural anaesthesia, and its knowledge-graph indications relate to genital sensitivity and pain.
 
-Papillary conjunctivitis, however, is an allergic or mechanical inflammatory condition. Anesthesia could at most relieve symptoms and would not treat the underlying inflammation. No clinical or literature evidence was retrieved, so the high score (0.998) should be read as a model prediction only. The mechanistic link to the original use is weak.
+A surface anaesthetic effect on ocular discomfort is conceivable. However, papillary conjunctivitis is mainly an allergic or mechanical inflammatory condition, for example from contact lens wear or allergy. Anaesthesia would at most relieve symptoms and would not treat the underlying inflammation. The link to the original indications is therefore weak. No trial or publication supports prilocaine in this condition, and the high model score should not be read as clinical evidence.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
 
+---
+
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN16326P | TAKIPRIL SOLUTION FOR INJECTION 20MG/ML | Injection, solution | Not listed in registration data |
-| SIN16538P | FORTACIN CUTANEOUS SPRAY SOLUTION 7.5MG/dose + 2.5MG/dose | Metered spray | Not listed in registration data |
-| SIN14852P | RACSER CREAM 5% | Cream | Not listed in registration data |
-| SIN06443P | EMLA CREAM 5% | Cream | Not listed in registration data |
-| SIN06175P | CITANEST OCTAPRESSIN INJECTION | Injection | Not listed in registration data |
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN16326P | TAKIPRIL Solution for Injection 20 mg/ml | Injection, solution |
+| SIN16538P | FORTACIN Cutaneous Spray Solution 7.5 mg/dose + 2.5 mg/dose | Spray, metered |
+| SIN14852P | RACSER Cream 5% | Cream |
+| SIN06443P | EMLA Cream 5% | Cream |
+| SIN06175P | CITANEST OCTAPRESSIN Injection | Injection |
 
-All registered forms are injectable, topical cream or skin spray. No ophthalmic formulation is registered.
+All five licences are valid single-ingredient registrations, and none has been cancelled. No licence is for an ophthalmic dosage form.
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Conditions flagged in the knowledge graph as contraindicated or to be avoided** (these come from drug–disease relationship records, not package insert text):
+  - Cardiovascular: hypertension, coronary artery disease, myocardial infarction, heart conduction disease, atrioventricular block, sudden cardiac arrest
+  - Neurological and neuromuscular: epilepsy, myasthenia gravis and other neuromuscular junction diseases
+  - Metabolic and endocrine: diabetes mellitus, diabetic ketoacidosis, hyperthyroidism and Graves disease
+  - Organ disease: kidney, liver and gallbladder disease, and respiratory failure
+  - Blood and enzyme disorders: hemoglobinopathy, butyrylcholinesterase deficiency
+  - Eye: angle-closure glaucoma
+- **Drug interactions:** 22 interactions are recorded. Most of the listed ones are rated Major.
+  - Major interactions include metoclopramide, sulfasalazine, amyl nitrite, rasburicase, nitrous acid, nitric oxide, chloroquine, primaquine, quinine, tafenoquine, dapsone (systemic and topical), other local anaesthetics (lidocaine, topical lidocaine, topical benzocaine, topical cinchocaine), and topical silver nitrate and silver sulfadiazine.
+  - Morphine (liposomal) is rated Moderate, and hyaluronidase is rated Minor.
+  - Many of these agents are associated with methemoglobinaemia, so combined use warrants caution.
+- **Ocular use:** none of the Singapore products is an ophthalmic formulation, and no ocular safety data were compiled. Any eye use would need a dedicated safety assessment.
 
-Systemic absorption of prilocaine carries a recognised risk of methemoglobinemia. This should be weighed in any new use, particularly on inflamed or barrier-compromised tissue.
+Please also refer to the package insert for the full warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-This indication has no trials and no literature, and only a weak mechanistic link. Anesthesia would not address the cause of papillary conjunctivitis, and no ophthalmic product is registered in Singapore.
+The prediction rests only on a model score. No clinical trials or publications were found, no ocular formulation is registered, and the mechanistic link to an allergic or mechanical inflammatory eye condition is weak.
+
+Among the other predictions in the same analysis, **neuralgia** (including postherpetic neuralgia) has the most supporting evidence. It has small, older studies of lidocaine/prilocaine cream, graded L2, and could be a better candidate to explore first. These studies are mostly uncontrolled and the lidocaine combination confounds them.
 
 **To proceed, the following is needed:**
-- Any clinical or preclinical evidence of benefit in papillary conjunctivitis
-- An ophthalmic-compatible formulation and route assessment
-- HSA package insert warnings and contraindications
-- Original indication text and mechanism of action data from DrugBank
-- Consideration of other predicted indications for prilocaine that have more supporting evidence, such as neuralgia (older clinical reports, mainly of the lidocaine/prilocaine combination in postherpetic neuralgia)
+- Any preclinical or clinical evidence of benefit in papillary conjunctivitis
+- Detailed mechanism-of-action data
+- Package insert warnings and contraindications from the Singapore regulator
+- An ophthalmic formulation and its ocular safety and tolerability data
+- A comparison against existing treatments for papillary conjunctivitis, such as antihistamines and mast-cell stabilisers
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

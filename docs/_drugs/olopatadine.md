@@ -2,7 +2,7 @@
 layout: default
 title: Olopatadine
 parent: Low Evidence (L5)
-nav_order: 730
+nav_order: 738
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Olopatadine: From Allergic Conjunctivitis to Rosacea Conjunctivitis
+# Olopatadine: From Allergic Conjunctivitis and Rhinitis to Rosacea Conjunctivitis
 
 ## One-Sentence Summary
 
-Olopatadine is an antihistamine and mast cell stabilizer, marketed in Singapore as eye drops and used for allergic conjunctivitis.
+Olopatadine is an antihistamine and mast cell stabiliser, originally used for allergic rhinitis, vasomotor rhinitis, and atopic, papillary and vernal conjunctivitis.
 The TxGNN model predicts it may be effective for **rosacea conjunctivitis**, but there are currently **0 clinical trials** and **0 publications** supporting this specific prediction.
-The high score is best read as a knowledge-graph signal, not clinical evidence.
+The score is a model prediction only.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Allergic conjunctivitis (the Singapore registration records have no indication text, so this comes from the evidence pack's rationale notes) |
+| Original Indication | Allergic rhinitis, vasomotor rhinitis, atopic conjunctivitis, papillary conjunctivitis, vernal conjunctivitis |
 | Predicted New Indication | Rosacea conjunctivitis |
 | TxGNN Prediction Score | 99.41% |
 | Evidence Level | L5 |
@@ -51,9 +51,13 @@ The high score is best read as a knowledge-graph signal, not clinical evidence.
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data from DrugBank is not available. Based on the evidence pack's rationale, olopatadine blocks the histamine H1 receptor and stabilizes mast cells. This can relieve itch and allergic-type inflammation on the ocular surface, which is why it is used for allergic conjunctivitis.
+Currently, detailed mechanism of action data is not available from the data compiled for this report. Based on known information, olopatadine is an H1 antagonist and mast cell stabiliser. Its efficacy in allergic conjunctivitis is established, and it is marketed in Singapore as eye drops and as a nasal spray combination.
 
-The link to rosacea-related eye disease is weak. Ocular rosacea is driven mainly by meibomian gland dysfunction, innate immune activation, and microbial or Demodex factors, not primarily by mast cell or histamine pathways. The high TxGNN score most likely reflects the disease's proximity to other conjunctivitis nodes in the knowledge graph. Any benefit would probably be limited to symptomatic itch relief in patients with an allergic component.
+The link to rosacea conjunctivitis is weak. Ocular rosacea is driven mainly by meibomian gland dysfunction, inflammation and *Demodex* mites, with only a limited allergic or histaminergic component. Any benefit from olopatadine would therefore be indirect, for example relieving a coexisting allergic component.
+
+The very high TxGNN score (0.994) most likely reflects similarity to the approved conjunctivitis indications rather than a distinct mechanistic signal.
+
+Other predictions in the same ranking show the same pattern. Examples are punctate epithelial keratoconjunctivitis, conjunctival folliculosis, chronic follicular conjunctivitis and blepharoconjunctivitis. Only their allergic subsets are plausible targets. Viral or infectious forms (acute hemorrhagic conjunctivitis, pseudomembranous conjunctivitis) have little mechanistic rationale. All of these are at L4–L5 and are on Hold.
 
 ## Clinical Trial Evidence
 
@@ -61,43 +65,42 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for rosacea conjunctivitis.
+
+For the second-ranked prediction, punctate epithelial keratoconjunctivitis, one case report is linked. It is PMID [22606467](https://pubmed.ncbi.nlm.nih.gov/22606467/) (2011, *Case Reports in Ophthalmological Medicine*), on limbitis secondary to autologous serum eye drops in atopic keratoconjunctivitis. Olopatadine appears only as part of the background treatment, so this is not evidence of efficacy.
 
 ## Singapore Market Information
 
-Showing 5 of 7 registrations. The registration records contain no approved indication text.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN13961P | Pataday® Sterile Ophthalmic Solution 0.2% | Solution, sterile | Not specified in the data |
+| SIN15242P | PAZEO Ophthalmic Solution 0.7% | Solution, sterile | Not specified in the data |
+| SIN16569P | OLOPAN Ophthalmic Solution 0.1% w/v | Solution | Not specified in the data |
+| SIN15526P | ALERCHEK Ophthalmic Solution 0.2% | Solution, sterile | Not specified in the data |
+| SIN15527P | ALERCHEK Ophthalmic Solution 0.1% | Solution, sterile | Not specified in the data |
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN13961P | Pataday® Sterile Ophthalmic Solution 0.2% | Solution, sterile |
-| SIN15242P | PAZEO Ophthalmic Solution 0.7% | Solution, sterile |
-| SIN16569P | OLOPAN Ophthalmic Solution 0.1% w/v | Solution |
-| SIN15526P | ALERCHEK Ophthalmic Solution 0.2% | Solution, sterile |
-| SIN15527P | ALERCHEK Ophthalmic Solution 0.1% | Solution, sterile |
+Seven valid single-ingredient licences are registered, and none are cancelled. The two others are PATANOL Sterile Ophthalmic Solution 0.1% (SIN10485P) and RYALTRIS Nasal Spray 600/25 mcg (SIN16523P).
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. The drug interaction query returned no records.
+Package insert warnings and contraindications were not available in the data compiled for this report. Please refer to the package insert for safety information.
+
+- **Knowledge-graph contraindication signals** (not label text): lower respiratory tract disease, paranasal sinus disease, nasal cavity disease, upper respiratory tract disease. These should be verified against the product labels.
+- **Drug Interactions**: The interaction query returned 100 records, all with severity "Unknown". Examples include pantoprazole, doxycycline, clotrimazole, metformin, omeprazole, cimetidine, prednisone, epinephrine and simvastatin. Clinical significance cannot be judged from this data.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical trials or literature behind it, and the mechanistic fit with rosacea-related eye disease is weak. Only a possible symptomatic benefit remains.
-
-Among the other predictions, the following are closer to olopatadine's existing anti-allergic use. Each has no direct evidence, so they are research questions rather than candidates for action:
-- Angelucci syndrome (a vernal-type allergic conjunctivitis)
-- Serous conjunctivitis except viral
-- Chronic allergic blepharoconjunctivitis (only indirect literature)
+The prediction rests only on model similarity (L5). There are no trials or literature on olopatadine in rosacea conjunctivitis, and the disease is driven mainly by non-histaminergic mechanisms. Olopatadine is already marketed in Singapore, but no label indication supports this use.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications (currently blocking any safety screening)
-- Mechanism-of-action data from DrugBank
-- A targeted literature search for olopatadine in ocular rosacea, or for the subgroup with a documented allergic component
-- Confirmation of the approved indications in the Singapore registrations
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
+- Package insert warnings and contraindications from the HSA website (a blocking gap for safety screening)
+- Detailed mechanism of action data (e.g. from DrugBank)
+- Clinical or observational evidence of olopatadine in ocular rosacea, ideally in patients with a coexisting allergic component
+- Confirmation of the approved indication text for each Singapore licence
+- Review of whether any of the other predicted conjunctival conditions with an allergic subset has stronger support
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

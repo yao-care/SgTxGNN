@@ -2,7 +2,7 @@
 layout: default
 title: Lorlatinib
 parent: Low Evidence (L5)
-nav_order: 610
+nav_order: 616
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,20 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Lorlatinib: From ALK-Positive NSCLC to Gingival Fibromatosis
+# Lorlatinib: From Non-Small Cell Lung Cancer to Gingival Fibromatosis
 
 ## One-Sentence Summary
 
-Lorlatinib is an oral ALK/ROS1 tyrosine kinase inhibitor. It is used for ALK-positive non-small cell lung cancer (NSCLC); this comes from the literature, since the Singapore registration records list no indication text.
-The TxGNN model predicts it may be effective for **gingival fibromatosis** with a high score, but there are **0 clinical trials** and **0 publications** supporting this prediction. It is a knowledge-graph prediction only.
-
----
+Lorlatinib is a third-generation ALK/ROS1 tyrosine kinase inhibitor, originally used to treat ALK-positive non-small cell lung cancer (NSCLC).
+The TxGNN model's top-ranked prediction is **gingival fibromatosis**, but it rests on a computational score alone: **0 clinical trials** and **0 publications** support it.
+The evidence is at the model-prediction level only, and the recommendation is to hold.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | ALK-positive advanced NSCLC (from literature; the Singapore registration text is blank) |
+| Original Indication | Non-small cell lung cancer / lung cancer (from the knowledge graph; the Singapore licence text is blank) |
 | Predicted New Indication | Fibromatosis, gingival |
 | TxGNN Prediction Score | 99.81% |
 | Evidence Level | L5 |
@@ -50,40 +49,48 @@ The TxGNN model predicts it may be effective for **gingival fibromatosis** with 
 | Number of Registrations | 2 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the Evidence Pack. Lorlatinib is described in the literature as a brain-penetrant, third-generation ALK/ROS1 inhibitor. Its efficacy in ALK-positive NSCLC is well established, including the Phase 3 CROWN trial.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. From the literature, lorlatinib is a brain-penetrant, third-generation inhibitor of ALK and ROS1 tyrosine kinases. Its efficacy in ALK-positive NSCLC is well established, including in the Phase 3 CROWN study.
 
-The prediction is hard to justify mechanistically. No established role for ALK or ROS1 signalling in gingival fibromatosis was identified in the supplied data. Gingival fibromatosis is a benign overgrowth of gum tissue, and lorlatinib's activity depends on ALK/ROS1-driven tumours. The high score (99.81%) is best read as a pattern from the knowledge graph, not as biological evidence. A high score does not by itself indicate real efficacy.
+For gingival fibromatosis, **no mechanistic link has been identified**. No ALK/ROS1 involvement in this condition is established in the data, and the score of 0.998 is a computational output only. The other top predictions follow a similar pattern:
 
-The other top-ranked predictions show the same weakness. Most are benign or genetic conditions with no kinase-inhibitor rationale. The lung-related predictions likely reflect lorlatinib's existing lung cancer use, not a benign-tumour mechanism.
-
----
+- **Lung-related benign or rare tumours** (fibroma of lung, hamartoma of lung, pulmonary sulcus neoplasm, lung benign neoplasm): these probably reflect the drug's association with lung disease rather than a disease-specific mechanism. Pancoast tumours are usually NSCLC, so ALK-positive cases might respond, but the data do not support this.
+- **Lung hilum carcinoma**: this is essentially a variant of the approved ALK-positive lung cancer setting. It is supported by a single 2023 case report of pathological complete response after neoadjuvant lorlatinib.
+- **Lung germ cell tumour**: the retrieved literature is mostly about ALK-driven neuroblastoma, a different disease. A Phase 1 trial there showed activity and could be assessed as a separate indication.
+- **Genetic or skin disorders** (inclusion body myopathy with Paget disease, junctional epidermolysis bullosa, and a rare syndrome with leukomelanoderma): there is no plausible ALK/ROS1 mechanism. The literature retrieved for the syndrome consists of lorlatinib adverse-event reports, not therapeutic evidence.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
-
----
+Currently no related clinical trials registered for gingival fibromatosis. No clinical trials are registered for any of the top 10 predicted indications either.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for gingival fibromatosis.
 
----
+The literature found for lower-ranked predictions does not support them as new indications. The most relevant items are listed below for context (the CROWN trial concerns the approved NSCLC indication, not a benign lung neoplasm):
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [33207094](https://pubmed.ncbi.nlm.nih.gov/33207094/) | 2020 | RCT (Phase 3 CROWN) | N Engl J Med | First-line lorlatinib vs crizotinib in advanced ALK-positive NSCLC |
+| [38819031](https://pubmed.ncbi.nlm.nih.gov/38819031/) | 2024 | RCT (5-year follow-up) | J Clin Oncol | Long-term progression-free survival and intracranial benefit of lorlatinib over crizotinib |
+| [42217582](https://pubmed.ncbi.nlm.nih.gov/42217582/) | 2026 | RCT update | Ann Oncol | 7-year update from CROWN; sustained long-term outcomes |
+| [36535300](https://pubmed.ncbi.nlm.nih.gov/36535300/) | 2023 | RCT (3-year update) | Lancet Respir Med | Updated efficacy and intracranial activity in CROWN |
+| [39368244](https://pubmed.ncbi.nlm.nih.gov/39368244/) | 2024 | Network meta-analysis | Lung Cancer | Lorlatinib compared with other ALK inhibitors as first-line therapy |
+| [37012551](https://pubmed.ncbi.nlm.nih.gov/37012551/) | 2023 | Phase 1 trial | Nat Med | Lorlatinib with or without chemotherapy in ALK-driven relapsed/refractory neuroblastoma (a different disease) |
+| [37934724](https://pubmed.ncbi.nlm.nih.gov/37934724/) | 2023 | Case report | Am J Case Rep | Neoadjuvant lorlatinib gave a pathological complete response in advanced ALK-positive lung cancer |
+| [38554546](https://pubmed.ncbi.nlm.nih.gov/38554546/) | 2024 | Review | Lung Cancer | Practical guide to managing lorlatinib adverse events |
+| [40287137](https://pubmed.ncbi.nlm.nih.gov/40287137/) | 2025 | Pharmacovigilance analysis | Endocr Pract | Lorlatinib-associated metabolic effects in the FAERS database |
+| [40551396](https://pubmed.ncbi.nlm.nih.gov/40551396/) | 2025 | Case report | Pediatr Blood Cancer | Pulmonary toxicity when lorlatinib is given with anti-GD2 antibody in neuroblastoma |
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN15830P | LORVIQUA FILM-COATED TABLET 25MG | Film-coated tablet | Not provided in the registration record |
-| SIN15831P | LORVIQUA FILM-COATED TABLET 100MG | Film-coated tablet | Not provided in the registration record |
+| SIN15830P | LORVIQUA FILM-COATED TABLET 25MG | Film-coated tablet | Not available in the compiled data |
+| SIN15831P | LORVIQUA FILM-COATED TABLET 100MG | Film-coated tablet | Not available in the compiled data |
 
-Both products are manufactured by Pfizer Manufacturing Deutschland GmbH, and the only route is oral.
-
----
+Both registrations are valid single-agent licences held by Pfizer Manufacturing Deutschland GmbH, and the route is oral.
 
 ## Cytotoxicity
 
@@ -92,32 +99,31 @@ Both products are manufactured by Pfizer Manufacturing Deutschland GmbH, and the
 | Cytotoxicity Classification | Targeted therapy (ALK/ROS1 tyrosine kinase inhibitor) |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Lipid profile, weight, and CNS and pulmonary symptoms, based on adverse events reported in the literature; also liver and renal function and CBC per the package insert |
+| Monitoring Items | Please refer to the package insert. The literature highlights lipid levels (hyperlipidemia and dyslipidemia), CNS effects, and pulmonary toxicity as reported adverse events. |
 | Handling Protection | Please refer to the package insert warnings and precautions |
-
----
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: 100 interactions were found in the DDInter database. Those listed here are the major ones; the remainder are moderate-level.
+  - **Major**: dexamethasone, clarithromycin
+  - **Moderate (examples)**: hydrocortisone, triamcinolone, betamethasone, bupropion, aprepitant, morphine, cimetidine, alosetron, and several antidiabetic agents (dapagliflozin, empagliflozin, saxagliptin, linagliptin, glimepiride, chlorpropamide)
+- **Adverse events reported in the literature**: hyperlipidemia and dyslipidemia, acute respiratory distress syndrome, drug-induced Sweet syndrome, metabolic effects (including weight gain), and pulmonary toxicity when combined with anti-GD2 antibody. These come from case reports and pharmacovigilance data, not label text.
 
-The supplied literature reports lorlatinib-associated hypercholesterolemia, hypertriglyceridemia, weight gain, nephrotic syndrome and acute respiratory distress syndrome (case-level reports). These are drug-level safety signals, not evidence for the predicted indication.
-
----
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests only on a knowledge-graph score, with no clinical trials, no literature and no mechanistic link to ALK/ROS1 biology. The evidence level is L5. Lorlatinib's proven efficacy in ALK-positive NSCLC does not carry over to gingival fibromatosis.
+The top prediction, gingival fibromatosis, has a high model score but no clinical trials, no literature, and no plausible ALK/ROS1 mechanism (evidence level L5). The strong Phase 3 evidence for lorlatinib belongs to its approved ALK-positive NSCLC indication and cannot be credited to the predicted indications.
 
 **To proceed, the following is needed:**
-- The HSA package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data from DrugBank
-- A biological rationale linking ALK/ROS1 signalling to gingival fibromatosis, for example preclinical or tissue-level evidence
-- Any case reports or early clinical signals in gingival fibromatosis
-- A review of other predicted indications with stronger indirect support, such as ALK-driven tumours, before spending effort on this one
+- Mechanism of action data and any biological rationale linking ALK/ROS1 signalling to gingival fibromatosis
+- Package insert warnings and contraindications from the HSA website (a blocking gap for safety screening)
+- Approved indication text for the Singapore licences
+- Preclinical or observational evidence for the predicted indication
+- Separate assessment of ALK-driven neuroblastoma, which has Phase 1 clinical data, as a distinct candidate indication
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

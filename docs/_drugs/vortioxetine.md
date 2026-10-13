@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Vortioxetine
-parent: Medium Evidence (L3-L4)
-nav_order: 1067
-evidence_level: L3
+parent: Low Evidence (L5)
+nav_order: 1077
+evidence_level: L5
 indication_count: 10
 ---
 
 # Vortioxetine
 {: .fs-9 }
 
-Evidence Level: **L3** | Predicted Indications: **10** 
+Evidence Level: **L5** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,76 +29,125 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Vortioxetine: From Major Depressive Disorder to Neurotic Disorder
+# Vortioxetine: From Depression to Melancholia
 
 ## One-Sentence Summary
 
-Vortioxetine is a multimodal antidepressant, marketed for major depressive disorder (MDD), though the Singapore licence records in this pack carry no indication text.
-The TxGNN model's top-ranked prediction is **Neurotic Disorder**, a broad legacy label that overlaps with depressive and anxiety disorders.
-Only **1 clinical trial** (a retrospective database study) and **1 publication** (a Russian-language review) support this specific label, so the evidence is weak.
+Vortioxetine is a multimodal serotonergic antidepressant, originally used for major depressive disorder and anxiety disorders.
+The TxGNN model predicts it may be effective for **melancholia** (a severe subtype of depression), supported by **6 clinical trials** and **20 publications**.
+However, this evidence comes mainly from the general major depressive disorder (MDD) population, so this is closer to an on-label or near-label use than a true repurposing opportunity.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Major depressive disorder (from the literature; the Singapore licence records contain no indication text) |
-| Predicted New Indication | Neurotic disorder |
-| TxGNN Prediction Score | 99.24% |
-| Evidence Level | L3 |
+| Original Indication | Unipolar depression, endogenous depression, major depressive disorder, anxiety disorder (from the knowledge graph; the Singapore licences carry no indication text) |
+| Predicted New Indication | Melancholia (the top-ranked prediction by TxGNN score is neurotic disorder, which is a legacy category; see the note below) |
+| TxGNN Prediction Score | 99.08% (melancholia); the top-ranked prediction, neurotic disorder, scores 99.24% |
+| Evidence Level | L1 (melancholia) |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 7 |
-| Recommended Decision | Hold |
+| Recommended Decision | Proceed with Guardrails |
+
+> **Note on candidate selection:** The highest-scoring prediction (neurotic disorder) is a broad, outdated category with only one narrative article and no vortioxetine-specific data (L4, Hold). This report focuses on melancholia, the prediction with the strongest supporting evidence. The other predictions are summarised in the final section.
+
+---
 
 ## Why is This Prediction Reasonable?
 
-Vortioxetine inhibits the serotonin transporter (SERT) and also modulates several serotonin receptors. It is a 5-HT1A agonist, a 5-HT1B partial agonist, and a 5-HT3/5-HT7 antagonist. Together these actions raise serotonin and other monoamine signalling in the brain. The mechanism-of-action field in the pack is empty, so this description comes from the pack's rationale text and the cited literature.
+Detailed mechanism-of-action data is not available in the data compiled for this report. From the published literature, vortioxetine inhibits the serotonin transporter (SERT), agonises 5-HT1A receptors, partially agonises 5-HT1B receptors, and antagonises 5-HT3, 5-HT7 and 5-HT1D receptors. This increases serotonergic, noradrenergic, dopaminergic, cholinergic, histaminergic and glutamatergic neurotransmission in brain regions linked to mood and cognition.
 
-"Neurotic disorder" is an outdated umbrella category that includes depressive and anxiety conditions. A serotonergic antidepressant could plausibly act on it, but the plausibility is not specific to this label. The label is too imprecise to support a distinct recommendation, and no study was found that tests vortioxetine in "neurotic disorder" as such.
+Melancholia is a severe subtype of major depressive disorder, the condition for which vortioxetine is already established. The prediction is therefore mechanistically sensible. Note, however, that the supporting trials were run in general MDD populations, not specifically in patients with melancholic features. Subtype-specific efficacy has not been shown in the data compiled here.
 
-A more concrete picture appears in the lower-ranked predictions. "Neurotic depression" (rank 2) maps to depressive disorder, which is already an approved use. "Melancholia" (rank 3) is a severe depressive subtype and is backed by several completed Phase 3 MDD trials. Both are overlaps with the approved indication, not true repurposing.
+---
 
 ## Clinical Trial Evidence
 
 | Trial Number | Phase | Status | Enrollment | Key Findings |
 |---------|------|------|------|---------|
-| [NCT04446039](https://clinicaltrials.gov/study/NCT04446039) | N/A (observational) | Completed | 370,212 | Retrospective nationwide claims-database cohort comparing commonly used antidepressants for utilisation patterns and adverse outcomes. Observational and not specific to this label. |
+| [NCT01163266](https://clinicaltrials.gov/study/NCT01163266) | Phase 3 | Completed | 462 | Randomised, double-blind, placebo-controlled study of 10 and 20 mg in acute MDD |
+| [NCT01153009](https://clinicaltrials.gov/study/NCT01153009) | Phase 3 | Completed | 614 | Placebo-controlled, duloxetine-referenced study of 15 and 20 mg in acute MDD |
+| [NCT00735709](https://clinicaltrials.gov/study/NCT00735709) | Phase 3 | Completed | 560 | Placebo-controlled, fixed-dose study of 3 doses in acute MDD |
+| [NCT01255787](https://clinicaltrials.gov/study/NCT01255787) | Phase 2/3 | Completed | 600 | Placebo-controlled dose-ranging study in MDD |
+| [NCT01152996](https://clinicaltrials.gov/study/NCT01152996) | Phase 3 | Completed | 1075 | Long-term open-label extension (15 and 20 mg); safety and tolerability |
+| [NCT00707980](https://clinicaltrials.gov/study/NCT00707980) | Phase 3 | Completed | 836 | Long-term open-label flexible-dose extension; safety and tolerability |
+
+---
 
 ## Literature Evidence
 
 | PMID | Year | Type | Journal | Key Findings |
 |------|-----|------|------|---------|
-| [31006795](https://pubmed.ncbi.nlm.nih.gov/31006795/) | 2019 | Review / case report | Zhurnal nevrologii i psikhiatrii imeni S.S. Korsakova | Describes a patient with neurotic depression. It favours combined treatment with antidepressants and cognitive behavioural therapy. It is not specific to vortioxetine. |
+| [29477251](https://pubmed.ncbi.nlm.nih.gov/29477251/) | 2018 | Network meta-analysis | Lancet | Compared efficacy and acceptability of 21 antidepressants in acute adult MDD |
+| [38957929](https://pubmed.ncbi.nlm.nih.gov/38957929/) | 2024 | Meta-analysis of RCTs | Psychiatry Clin Neurosci | Dose-response relationship of vortioxetine in adult depression |
+| [36253442](https://pubmed.ncbi.nlm.nih.gov/36253442/) | 2023 | Network meta-analysis | Mol Psychiatry | Antidepressants in the maintenance phase of MDD |
+| [34029378](https://pubmed.ncbi.nlm.nih.gov/34029378/) | 2021 | Network meta-analysis | Cochrane Database Syst Rev | New-generation antidepressants in children and adolescents |
+| [25016186](https://pubmed.ncbi.nlm.nih.gov/25016186/) | 2015 | Review | Pharmacol Ther | Preclinical and clinical review of vortioxetine's multimodal activity |
+| [29189941](https://pubmed.ncbi.nlm.nih.gov/29189941/) | 2018 | Review | Clin Pharmacokinet | Pharmacokinetics (half-life about 66 h, bioavailability 75%) and drug interactions |
+| [37032427](https://pubmed.ncbi.nlm.nih.gov/37032427/) | 2023 | Clinical guideline | Clin Pharmacol Ther | CPIC pharmacogenetic guidance (CYP2D6 and others) for serotonin reuptake inhibitor antidepressants |
+| [37424409](https://pubmed.ncbi.nlm.nih.gov/37424409/) | 2023 | Review | Clin Psychopharmacol Neurosci | Anhedonia as a core symptom of depressive disorders |
+| [28881483](https://pubmed.ncbi.nlm.nih.gov/28881483/) | 2017 | Meta-analysis | Depress Anxiety | Hyperhidrosis risk with second-generation antidepressants |
+| [33549697](https://pubmed.ncbi.nlm.nih.gov/33549697/) | 2021 | Meta-analysis | Prog Neuropsychopharmacol Biol Psychiatry | Gastrointestinal side effects of antidepressants in MDD |
+
+---
 
 ## Singapore Market Information
 
-The pack lists 7 registrations in total and details 5 of them. All 5 are film-coated tablets from H. Lundbeck A/S, and none has approved-indication text in the record.
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN14665P | BRINTELLIX Film-Coated Tablets 5 mg | Film-coated tablet | Not stated in the data |
+| SIN14666P | BRINTELLIX Film-Coated Tablets 10 mg | Film-coated tablet | Not stated in the data |
+| SIN14667P | BRINTELLIX Film-Coated Tablets 20 mg | Film-coated tablet | Not stated in the data |
+| SIN16577P | BRINTELLIX Oral Drops, Solution 20 mg/ml | Solution | Not stated in the data |
+| SIN16556P | VORTIOSON Film-Coated Tablet 10 mg | Film-coated tablet | Not stated in the data |
 
-| Authorization Number | Product Name | Dosage Form |
-|---------|------|------|
-| SIN14666P | BRINTELLIX Film-Coated Tablets 10mg | Tablet, film coated |
-| SIN14665P | BRINTELLIX Film-Coated Tablets 5mg | Tablet, film coated |
-| SIN16557P | VORTIOSON Film-Coated Tablet 5mg | Tablet, film coated |
-| SIN16555P | VORTIOSON Film-Coated Tablet 20mg | Tablet, film coated |
-| SIN16556P | VORTIOSON Film-Coated Tablet 10mg | Tablet, film coated |
+Two further VORTIOSON licences (5 mg, SIN16557P; 20 mg, SIN16555P) are also valid, for 7 valid single-ingredient registrations in total, all held by H. Lundbeck A/S.
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No interaction records were returned for this drug.
+Package-insert warnings and contraindications were not available for this report. Please refer to the package insert for safety information.
+
+**Drug interactions** (100 interactions were found; examples of major-level ones):
+- Bupropion
+- Lorcaserin
+- Diethylpropion
+- Phentermine
+- Dolasetron
+- Palonosetron
+
+Moderate-level examples include morphine, acetylsalicylic acid, dexamethasone, several insulins, and sulfonylureas such as glimepiride and chlorpropamide.
+
+Published literature also points to pharmacogenetic dosing considerations for CYP2D6 poor metabolisers (CPIC guidance), and to class-wide adverse effects such as gastrointestinal symptoms, hyperhidrosis and sexual dysfunction. Antidepressants also carry a boxed warning for suicidality in young patients, which matters for any paediatric use.
+
+---
 
 ## Conclusion and Next Steps
 
-**Decision: Hold**
+**Decision: Proceed with Guardrails**
 
 **Rationale:**
-"Neurotic disorder" is too broad and outdated to support a distinct recommendation. The only linked evidence is an observational antidepressant comparison and a non-vortioxetine review. The pack's more credible depression-related predictions are approved-indication overlaps, not new uses. The lower-ranked predictions (ranks 4 and 7–10) have no mechanistic link or supporting evidence.
+Several completed Phase 3 placebo-controlled RCTs and multiple meta-analyses support vortioxetine in MDD, and melancholia is a severe subtype of MDD. The evidence is strong but indirect for melancholia specifically, and the safety data for this report are incomplete.
 
 **To proceed, the following is needed:**
-- Singapore package insert (HSA) with approved indications, warnings, and contraindications. The pack lists this as a blocking gap.
-- DrugBank mechanism-of-action data to complete the mechanistic analysis.
-- A decision on whether to re-focus the assessment on "neurotic depression" (rank 2) or "melancholia" (rank 3). Both are on-label overlaps, and for melancholia the melancholic-feature subgroup of the MDD trials should be verified.
-- Dysthymic disorder (rank 5) and agoraphobia (rank 6) are research questions only. They rest on indirect MDD trial data and a single open-label panic disorder study, respectively.
+- Subtype-specific efficacy confirmation (post hoc or subgroup analyses in melancholic patients)
+- Singapore package-insert warnings, contraindications and approved indication text (currently missing)
+- Mechanism-of-action data from DrugBank
+- CYP2D6 poor-metabolizer dosing guidance and a DDI management plan, especially for bupropion and other serotonergic agents
 
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+### Other Predictions at a Glance
+
+| Predicted Indication | Score | Evidence Level | Recommendation | Comment |
+|------|------|------|------|------|
+| Neurotic disorder | 99.24% | L4 | Hold | Legacy broad category; one narrative article, no vortioxetine-specific data |
+| Neurotic depression | 99.09% | L4 | Research Question | Maps to depressive disorders already covered by MDD evidence; no trials under this term |
+| Dysthymic disorder | 99.02% | L3 | Research Question | Only an MDD open-label extension is linked; dedicated controlled trials are needed |
+| Agoraphobia | 98.98% | L3 | Research Question | One open-label study in anxiety-spectrum subjects (panic disorder); controlled evidence needed |
+| Benign paroxysmal torticollis of infancy | 99.07% | L5 | Hold | No mechanistic rationale; paediatric safety concerns |
+| Ohdo syndrome and variants, Keppen-Lubinsky syndrome, congenital isolated ACTH deficiency | 97.9–98.7% | L5 | Hold | Rare genetic or endocrine disorders; computational prediction only, no supporting data |
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

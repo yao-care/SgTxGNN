@@ -2,7 +2,7 @@
 layout: default
 title: Isotretinoin
 parent: Low Evidence (L5)
-nav_order: 553
+nav_order: 558
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,21 +29,17 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Isotretinoin: From an Unrecorded Original Indication to Malignant Renovascular Hypertension
+# Isotretinoin: From Hypertensive Disorder to Malignant Renovascular Hypertension
 
 ## One-Sentence Summary
 
-Isotretinoin is an oral retinoid capsule marketed in Singapore, but the supplied licence records do not state its approved indication.
-The TxGNN model predicts it may be effective for **malignant renovascular hypertension**.
-Currently **0 clinical trials** and **0 publications** support this specific prediction, so it rests on the model score alone.
-
----
+Isotretinoin is listed in the source knowledge graph with an original indication of hypertensive disorder. This listing is questionable, because isotretinoin is a retinoid marketed in Singapore as an oral capsule, and a hypertension indication should be verified. The TxGNN model predicts it may be effective for **malignant renovascular hypertension**, but there are **0 clinical trials** and **0 publications** supporting this prediction, so it rests on model prediction alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated (all licence records have empty indication text) |
+| Original Indication | Hypertensive disorder / hypertension (from the knowledge graph; the Singapore licence records contain no indication text, and this listing needs verification) |
 | Predicted New Indication | Malignant renovascular hypertension |
 | TxGNN Prediction Score | 99.01% |
 | Evidence Level | L5 |
@@ -51,75 +47,71 @@ Currently **0 clinical trials** and **0 publications** support this specific pre
 | Number of Registrations | 8 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, isotretinoin belongs to the retinoid class and is marketed as oral capsules in Singapore. Its original indication is not recorded in the supplied data, so the link between the original and new indications cannot be assessed.
+Currently, detailed mechanism of action data is not available. Isotretinoin is a retinoid (a vitamin A–related compound). Nothing in the data compiled for this report establishes a link between retinoid activity and blood pressure control, and isotretinoin is not a recognised antihypertensive.
 
-The score of 99.01% is high, but it is identical to that of the second-ranked prediction, malignant hypertensive renal disease. This suggests both come from the same neighbourhood of the knowledge graph rather than from independent signals. No trial, publication or mechanism supports a link between isotretinoin and malignant renovascular hypertension, so the prediction should be treated as a hypothesis only.
+The high score (0.990) is a graph-based prediction. The next-ranked prediction, malignant hypertensive renal disease, has an identical score. This suggests the two share a neighbourhood in the ontology rather than representing independent signals. Retinoid effects on the renin-angiotensin system or on renal fibrosis are hypothetical and unsupported by the data compiled here.
 
-Other predictions have somewhat more context:
-- **Chronic pulmonary heart disease** (score 88.70%, Evidence Level L4) has one completed Phase 2 retinoid trial in emphysema, an upstream lung disease. It is only indirect evidence.
-- **Pulmonary hypertension due to lung disease and/or hypoxia** (score 98.89%) has 20 retrieved publications. They appear to be generic "hypoxia" keyword matches, and none concern isotretinoin or pulmonary hypertension.
-- The remaining candidates have no supporting evidence. Several are poorly defined targets, such as "susceptibility to" terms and an ontology term flagged as obsolete.
-
----
+Other predicted indications are similarly unsupported:
+- **Pulmonary hypertension (two entries, score 0.989):** retinoid signalling has been discussed in pulmonary vascular remodelling, but no supporting evidence was found. Isotretinoin's teratogenicity and possible effects on the pulmonary vasculature argue for caution.
+- **Braddock syndrome (0.987) and chronic pulmonary heart disease (0.887):** no evidence, and any link is indirect or unsupported.
+- **Cholangiocarcinoma susceptibility (0.619):** retinoids have antiproliferative effects in some cancers, but this entry describes genetic susceptibility rather than a treatable disease.
+- **Obsolete functional visual loss (0.592), myxomatous mitral valve prolapse (0.591) and ocular tuberculosis (0.587):** low scores with no supporting rationale. Isotretinoin is associated with visual adverse effects, which runs opposite to a therapeutic rationale.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered for malignant renovascular hypertension.
-
-For context, one trial was found for a lower-ranked prediction, chronic pulmonary heart disease:
-
-| Trial Number | Phase | Status | Enrollment | Key Findings |
-|---------|------|------|------|---------|
-| [NCT00000621](https://clinicaltrials.gov/study/NCT00000621) | Phase 2 | Completed | Not reported | Feasibility of retinoic acid in emphysema (FORTE). It tested retinoids in an upstream lung disease, not cor pulmonale. No outcome data were provided, and the agent may not be isotretinoin itself. |
-
----
+Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for malignant renovascular hypertension.
+No literature was found for the top-ranked prediction. The only publications retrieved were for the fourth-ranked prediction (pulmonary hypertension owing to lung disease and/or hypoxia), and they do not address that condition. They appear to be keyword matches on hypoxia or oxygenation.
 
----
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [10030263](https://pubmed.ncbi.nlm.nih.gov/10030263/) | 1999 | Clinical study | Int J Radiat Oncol Biol Phys | Tumour oxygenation in cervical cancer during radiotherapy, with and without 13-cis-retinoic acid/interferon-alpha-2a |
+| [9830438](https://pubmed.ncbi.nlm.nih.gov/9830438/) | 1998 | Clinical study | Strahlenther Onkol | A 2-week pretreatment with 13-cis-retinoic acid plus interferon-alpha-2a before radiation improved tumour oxygenation in cervical cancer |
+| [16549710](https://pubmed.ncbi.nlm.nih.gov/16549710/) | 2006 | Case report | Arch Dermatol | Diffuse dermal angiomatosis of the breast, a rare dermatological condition |
 
 ## Singapore Market Information
 
-Eight registrations are on record; the five below are the main ones supplied.
-
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN13051P | ACNOTIN 20 | Capsule | Not stated in the record |
-| SIN14628P | ORATANE CAPSULE 5 mg | Capsule | Not stated in the record |
-| SIN11781P | ORATANE CAPSULE 20 mg | Capsule | Not stated in the record |
-| SIN13333P | ACNOTIN 10 | Capsule | Not stated in the record |
-| SIN11782P | ORATANE CAPSULE 10 mg | Capsule | Not stated in the record |
+| SIN13051P | ACNOTIN 20 | Capsule | Not stated in the data |
+| SIN14628P | ORATANE CAPSULE 5 mg | Capsule | Not stated in the data |
+| SIN11781P | ORATANE CAPSULE 20 mg | Capsule | Not stated in the data |
+| SIN13333P | ACNOTIN 10 | Capsule | Not stated in the data |
+| SIN11782P | ORATANE CAPSULE 10 mg | Capsule | Not stated in the data |
 
-All products are oral (capsule, including liquid-filled capsule).
-
----
+Eight licences are valid in total (all single-ingredient oral capsules). The remaining three are ROACCUTANE 20 mg (SIN04921P), ROACCUTANE 10 mg (SIN04920P) and NIMEGEN SOFT CAP. 10 mg (SIN10767P).
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interactions were found in the queried data.
+The package insert warnings and contraindications were not available for this report, so please refer to the package insert for them.
 
----
+- **Contraindication signals from the knowledge graph (not label text):** these include liver disease, kidney disease, pancreatitis, gallbladder disease, inflammatory bowel disease, osteoporosis, diabetes mellitus and diabetic ketoacidosis, psychotic and other mental disorders, anxiety disorder, systemic lupus erythematosus, neutropenia, agranulocytosis, angioedema (several forms) and hypotensive disorder.
+- **Drug interactions:** 98 interactions were recorded. The **Major** ones are:
+  - Doxycycline
+  - Minocycline
+  - Tetracycline
+  - Vitamin A
+
+  **Moderate** ones include systemic corticosteroids (betamethasone, budesonide, dexamethasone, hydrocortisone, prednisolone, prednisone, triamcinolone), warfarin, dicoumarol, naltrexone, ethanol, nitisinone, fostamatinib, ivacaftor, lumacaftor and topical abametapir.
+- **Teratogenicity and ocular effects:** isotretinoin's known teratogenicity and visual adverse effects (such as impaired night vision) are important concerns for any new use.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by the model score (Evidence Level L5). There are no trials or literature for this indication, the mechanism of action is not available, and the original indication is not documented. Safety screening cannot start without the package insert.
+The prediction rests on a graph-based score alone, with no clinical trials or relevant publications (Evidence Level L5). The stated original indication of hypertension is doubtful, no mechanism of action is available, and safety data are incomplete. The knowledge graph also flags a hypotensive disorder contraindication.
 
 **To proceed, the following is needed:**
-- The HSA package insert (warnings and contraindications), which is currently blocking safety screening
-- Mechanism of action data, for example from the DrugBank API
-- The approved indication text for the Singapore licences
-- A targeted search for trials and literature on isotretinoin or retinoids in renovascular or malignant hypertension
-- A route-compatibility assessment, which is still pending
-- Optionally, verification that the FORTE trial agent is isotretinoin and a review of its results, if chronic pulmonary heart disease is pursued as a research question
+- Verification of the original indication, since the Singapore licence records contain no indication text
+- Mechanism of action data, for example from DrugBank
+- HSA package insert warnings and contraindications, which block safety screening
+- Preclinical or mechanistic evidence linking retinoid activity to blood pressure regulation or renal and pulmonary vascular disease
+- A teratogenicity risk assessment and a review of the knowledge graph contraindications against the target population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Promethazine
 parent: Low Evidence (L5)
-nav_order: 823
+nav_order: 832
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,73 +29,104 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Promethazine: From H1-Antihistamine Use to Rosacea Conjunctivitis
+# Promethazine: From Allergic Rhinitis and Urticaria to Rosacea Conjunctivitis
 
 ## One-Sentence Summary
 
-Promethazine is a first-generation H1 antihistamine with anticholinergic activity, marketed in Singapore as syrups and an injection.
-The TxGNN model predicts it may be effective for **rosacea conjunctivitis**, but **no clinical trials and no publications** were found for this indication, so the prediction rests on the model score alone.
+Promethazine is a first-generation H1 antihistamine, originally used for allergic conditions such as allergic and vasomotor rhinitis, allergic and other forms of conjunctivitis, urticaria and angioedema.
+The TxGNN model predicts it may be effective for **rosacea conjunctivitis**, but the data compiled for this report contain **0 clinical trials** and **0 publications** for this indication.
+This prediction rests on model output alone and its mechanistic link is weak.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration data (the approved-indication text is blank for all listed products) |
+| Original Indication | Vasomotor rhinitis, allergic rhinitis, atopic/papillary/vernal conjunctivitis, urticaria, angioedema (the Singapore licence records contain no indication text, so these come from the knowledge graph) |
 | Predicted New Indication | Rosacea conjunctivitis |
 | TxGNN Prediction Score | 98.94% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 20 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the record. Based on known information, promethazine is an H1 receptor antagonist with anticholinergic activity. Mechanistically, blocking histamine could reduce histamine-mediated inflammation on the ocular surface.
+Detailed mechanism-of-action data are not available in the data compiled for this report. Promethazine is known to be an H1 antihistamine with anticholinergic activity. It is already used for allergic conjunctival disease, and this is the most likely source of the high model score: the prediction probably reflects network proximity to atopic and allergic conjunctivitis in the knowledge graph.
 
-The link to rosacea conjunctivitis is weak. This condition is mainly driven by meibomian gland dysfunction and surface inflammation, not by histamine. The high model score is therefore not backed by a clear biological rationale.
+The link to rosacea conjunctivitis is weak. Rosacea-related eye disease is driven mainly by meibomian gland dysfunction, ocular surface inflammation and Demodex, not by histamine. Antihistamine action would therefore be expected to offer little beyond possible symptomatic itch relief. No trials or literature were found to support the prediction.
 
-Several other conjunctivitis predictions (parasitic, chronic follicular, serous non-viral) have almost identical scores (about 0.929). This suggests a class-level pattern in the model rather than a promethazine-specific signal.
+**Other predictions in the list (for context):**
+
+| Rank | Predicted Indication | Score | Evidence Level | Comment |
+|---|---|---|---|---|
+| 2 | Allergic urticaria | 98.13% | L4 | Largely restates an existing labelled use; retrieved literature is indirect |
+| 3 | Cold urticaria | 96.87% | L5 | Plausible by H1-antagonist class reasoning; no promethazine-specific evidence |
+| 4 | Rhinitis | 94.16% | L3 | Overlaps existing indications; sedation limits use versus newer agents |
+| 5 | Recalcitrant atopic dermatitis | 93.24% | L5 | Benefit mainly sedative; guidelines do not support antihistamines for recalcitrant disease |
+| 6–10 | Angelucci syndrome, acute hemorrhagic conjunctivitis, parasitic conjunctivitis, chronic follicular conjunctivitis, serous conjunctivitis except viral | 92.9–93.2% | L5 | Model proximity only; no clinical evidence |
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for rosacea conjunctivitis.
+
+---
 
 ## Singapore Market Information
 
-Five of the 20 registrations are shown below. The approved-indication text is blank in all of them, so no indication column is shown.
+There are 20 valid single-ingredient registrations, all syrup, elixir or injection forms. The licence records contain no approved-indication text. The main authorisations are:
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
-|---------|------|------|------|
-| SIN16065P | PROMEZINE SYRUP 5MG/5ML | Syrup | Y.S.P. Industries (M) Sdn. Bhd. |
-| SIN10539P | AXCEL PROMETHAZINE-5 SYRUP 5 mg/5 ml | Syrup | KOTRA PHARMA (M) SDN BHD |
-| SIN02481P | PROZINE SYRUP 5 mg/5 ml | Syrup | SUNWARD PHARMACEUTICAL PRIVATE LIMITED |
-| SIN09073P | PROMAGEN 10 ORAL MIXTURE 10 mg/5 ml | Syrup | ICM PHARMA PTE. LTD. |
-| SIN02707P | DBL PROMETHAZINE HYDROCHLORIDE INJECTION BP 50 mg/2 ml | Injection | Siegfried Hameln GmbH |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
+|---------|------|------|-----------|
+| SIN16065P | Promezine Syrup 5 mg/5 ml | Syrup | Not recorded |
+| SIN10539P | Axcel Promethazine-5 Syrup 5 mg/5 ml | Syrup | Not recorded |
+| SIN02481P | Prozine Syrup 5 mg/5 ml | Syrup | Not recorded |
+| SIN02707P | DBL Promethazine Hydrochloride Injection BP 50 mg/2 ml | Injection | Not recorded |
+| SIN03294P | Xepagan Elixir 10 mg/5 ml | Elixir | Not recorded |
 
-The available forms are syrup, elixir and injection. No ophthalmic or topical ocular form is listed, which matters for a conjunctival indication.
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+**Drug Interactions:** A total of 100 interactions were identified. Among those listed, the major-level interactions are:
+- **Bupropion** (Major)
+- **Potassium citrate** (Major)
+
+Moderate-level interactions include:
+- Anticholinergics: atropine, hyoscyamine, glycopyrronium
+- Opioids and antidiarrhoeals: morphine, loperamide
+- Antidiabetic agents: metformin, acarbose, alogliptin, canagliflozin, dapagliflozin, chlorpropamide, albiglutide
+- Others: epinephrine, famotidine, clarithromycin, lorcaserin, picosulfuric acid, polyethylene glycol with electrolytes
+
+Literature retrieved for other indications also points to sedation and psychomotor impairment as a practical limitation compared with second-generation antihistamines.
+
+Please refer to the package insert for warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no supporting trials or literature, and the mechanistic link is weak because rosacea conjunctivitis is not primarily histamine-driven. No ophthalmic formulation is registered in Singapore, and safety data are missing.
+The prediction for rosacea conjunctivitis is supported only by the model score. There are no trials or publications, and the mechanism (histamine blockade) does not match the main drivers of the disease. Other top-ranked predictions mostly restate existing allergic indications or lack evidence.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications (a blocking gap for safety screening)
-- Mechanism of action data and the confirmed original indications
-- Route compatibility assessment (ocular delivery versus the registered oral and injectable forms)
-- Any clinical or preclinical evidence in rosacea conjunctivitis
-
-**Other predictions to consider:** Allergic urticaria (score 98.1%, evidence level L4) and rhinitis (score 94.2%, evidence level L4) have more supporting evidence, though it is mostly class-level or indirect. They may already be labeled uses of promethazine and are better candidates for further review.
+- Singapore package insert warnings and contraindications (a blocking gap for safety screening)
+- Mechanism-of-action data
+- Evidence that histamine contributes to rosacea-related ocular disease, and any clinical or preclinical studies of antihistamines in this setting
+- If a repurposing question is still pursued, reassess the allergic urticaria and rhinitis predictions first, since these have the most (though indirect) literature. They largely restate existing uses, so they would need to be framed as label-extension questions rather than new repurposing.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

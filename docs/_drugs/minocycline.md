@@ -2,7 +2,7 @@
 layout: default
 title: Minocycline
 parent: Low Evidence (L5)
-nav_order: 670
+nav_order: 677
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,73 +29,78 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Minocycline: From Bacterial Infections to Punctate Epithelial Keratoconjunctivitis
+# Minocycline: From Bacterial Infections and Acne to Punctate Epithelial Keratoconjunctivitis
 
 ## One-Sentence Summary
 
-Minocycline is a tetracycline antibiotic. The Singapore licence records provided do not state its approved indications, so "bacterial infections" is inferred from its drug class.
-The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**, a surface inflammation of the eye.
-This prediction has **no clinical trials** and **no publications** supporting it, so it rests on the model score alone.
+Minocycline is a tetracycline-class antibiotic, originally used for bacterial infections such as urinary tract infection, bronchitis, acne, periodontitis, and gonorrhea.
+The TxGNN model predicts it may be effective for **punctate epithelial keratoconjunctivitis**,
+but **no clinical trials or publications** currently support this specific prediction, so it rests on model prediction alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore licence data (inferred from drug class: bacterial infections) |
+| Original Indication | Urinary tract infection, bronchitis, acne, anthrax infection, periodontitis, gonorrhea, pharyngitis and other bacterial infections (from the knowledge graph; the Singapore licence records contain no indication text) |
 | Predicted New Indication | Punctate epithelial keratoconjunctivitis |
 | TxGNN Prediction Score | 99.63% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 5 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Minocycline belongs to the tetracycline class, and its efficacy against bacterial infections is well established. Mechanistically, it may also apply to eye surface inflammation.
+Detailed mechanism of action data is not available for this report. Based on known information, minocycline is a tetracycline-class antibiotic whose efficacy in bacterial infections and acne is established. Mechanistically, it may be applicable to inflammatory conditions of the ocular surface.
 
-Tetracyclines have two properties beyond killing bacteria: they are anti-inflammatory and they inhibit matrix metalloproteinases (MMPs), enzymes that break down tissue. Both are plausible for inflammation of the ocular surface. Doxycycline, a close relative, is already used in ocular surface disease, which makes the link more credible.
+A plausible link is the anti-inflammatory and matrix metalloproteinase (MMP)-inhibiting activity of tetracyclines on the ocular surface. This class is used in meibomian gland dysfunction and blepharitis. This reasoning is inferred and is not supported by any trial or publication compiled for this report.
 
-This is still a hypothesis. No minocycline-specific trials or publications were retrieved for this condition. The relationship between the original and new indication has not been assessed, and neither has whether the available formulations can reach the eye.
+Other predictions in the top 10 (for example exposure keratitis, neurotrophic keratopathy, chronic rhinosinusitis) follow similar speculative reasoning. Otitis externa is the only one with indirect literature, and none of it is controlled clinical evidence.
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for punctate epithelial keratoconjunctivitis.
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for punctate epithelial keratoconjunctivitis.
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN15432P | Borymycin Capsule 50 mg | Capsule | Not listed in the data |
-| SIN10160P | AA Pharma Minocycline Capsule 50 mg | Capsule | Not listed in the data |
-| SIN10266P | Borymycin Capsule 100 mg | Capsule | Not listed in the data |
-| SIN10155P | AA Pharma Minocycline Capsule 100 mg | Capsule | Not listed in the data |
-| SIN15172P | Periocline Periodontal Ointment 2% w/w | Ointment | Not listed in the data |
+| SIN15432P | BORYMYCIN CAPSULE 50MG | Capsule | Not stated in the data |
+| SIN10160P | AA PHARMA MINOCYCLINE CAPSULE 50 mg | Capsule | Not stated in the data |
+| SIN10266P | BORYMYCIN CAPSULE 100 mg | Capsule | Not stated in the data |
+| SIN10155P | AA PHARMA MINOCYCLINE CAPSULE 100 mg | Capsule | Not stated in the data |
+| SIN15172P | PERIOCLINE PERIODONTAL OINTMENT 2% W/W | Ointment | Not stated in the data |
 
-None of the registered products is an ophthalmic formulation. Four are oral capsules and one is a periodontal ointment.
+All five registrations are valid single-ingredient products. Four are oral capsules, and one is a periodontal ointment. No ophthalmic formulation is registered, so a new route of administration would likely be needed for an eye indication.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindication-related conditions (from the knowledge graph, not package insert text)**: kidney disease, liver disease, gallbladder disease, Clostridium difficile colitis, perinatal necrotizing enterocolitis, pseudotumor cerebri, intracranial hypertension, pyoureter, dyskinesia of esophagus.
+- **Drug Interactions**: 100 interactions were identified. Main ones include:
+  - **Major**: isotretinoin and acitretin (retinoids; the risk of raised intracranial pressure is a known concern with tetracyclines).
+  - **Moderate**: ethinylestradiol, amoxicillin, ampicillin, aminolevulinic acid (topical), calcium phosphate, calcium acetate, sodium citrate, bismuth subcitrate potassium, balsalazide, cannabidiol, brentuximab vedotin, and asparaginase products.
+  - **Minor**: acetazolamide, hydrochlorothiazide, amiloride, bumetanide.
+- **Other signals from the prediction review**: Minocycline has been associated with drug-induced vasculitis, so the predicted "postinfectious vasculitis" indication raises a safety concern rather than supporting use. A 2023 in vitro study also suggests a cytotoxicity signal for tetracyclines in tympanic membrane fibroblasts, relevant to any topical otic use.
+
+Package insert warnings and contraindications were not available for this report. Please refer to the package insert for full safety information.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction score is very high (99.63%), but no trial or publication supports it, and the evidence level is L5. No available Singapore product is designed for the eye.
+The prediction is supported only by a high model score (99.63%) and a plausible but unverified anti-inflammatory mechanism. No trials or publications address punctate epithelial keratoconjunctivitis, and no ophthalmic minocycline product is registered in Singapore. The evidence level is L5, so there is not enough basis to advance.
 
 **To proceed, the following is needed:**
-- Retrieve the HSA package insert to obtain approved indications, warnings and contraindications. This is a blocking data gap for safety screening.
-- Obtain mechanism of action data from DrugBank.
-- Run a targeted literature search on minocycline or tetracyclines in punctate epithelial keratoconjunctivitis and other ocular surface disease.
-- Assess whether oral minocycline can reach the ocular surface at useful levels, since no ophthalmic product is registered.
-- Among the other predicted indications, post-infectious syndrome is the most advanced (L4). Its supporting evidence is the RECLAIM platform trial in post-COVID condition (NCT07280572), where a minocycline arm is expected but not confirmed. It could be reviewed first.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Package insert warnings and contraindications from the Health Sciences Authority (HSA), which are required for safety screening
+- Detailed mechanism of action data (for example from DrugBank)
+- Literature search for tetracycline or minocycline in ocular surface inflammation, and any preclinical data in keratoconjunctivitis models
+- Assessment of route compatibility, since an ophthalmic or topical ocular formulation would be needed and none is currently registered
+- Review of the alternative predictions (for example chronic rhinosinusitis, otitis externa) if the ocular prediction is not pursued, noting that all currently remain at L4–L5 evidence
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

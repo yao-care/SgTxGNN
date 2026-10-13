@@ -2,7 +2,7 @@
 layout: default
 title: Donepezil
 parent: Low Evidence (L5)
-nav_order: 341
+nav_order: 345
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,89 +29,115 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Donepezil: From Alzheimer's Disease to Psychogenic Movement Disorders
+# Donepezil: From Alzheimer Disease to Psychogenic Movement Disorders
 
 ## One-Sentence Summary
 
-Donepezil is a reversible acetylcholinesterase inhibitor, widely used for Alzheimer's disease. The TxGNN model predicts it may be effective for **psychogenic movement disorders**, but **no clinical trials and no publications** were retrieved for this prediction. It is a model-only signal (Evidence Level L5).
+Donepezil is an acetylcholinesterase inhibitor originally used to treat Alzheimer disease.
+The TxGNN model predicts it may be effective for **psychogenic movement disorders**, but **no clinical trials and no publications** currently support this specific prediction.
+The next-ranked prediction, chronic tic disorder, has more support (5 publications, no registered trials), and is discussed below as a more tractable research direction.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
+| Original Indication | Alzheimer disease (the approved-indication text is blank on the local licences; this is taken from the knowledge-graph indication list) |
 | Predicted New Indication | Psychogenic movement disorders |
-| TxGNN Prediction Score | 99.23% (rank 8,800) |
+| TxGNN Prediction Score | 99.23% |
 | Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 13 |
 | Recommended Decision | Hold |
 
-The Singapore records supplied carry no approved-indication text, so no original indication is listed in the table. The title uses Alzheimer's disease as the drug's well-established use, which the supplied literature describes as the standard therapy for cholinesterase inhibitors.
+---
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the dataset. Donepezil is a reversible acetylcholinesterase inhibitor. Its efficacy in Alzheimer's disease is established, and cholinergic signalling is involved in basal ganglia circuits, so a role in movement disorders is conceivable.
+Detailed mechanism of action data is not available for this report. Based on known information, donepezil is a cholinesterase inhibitor, and its efficacy in Alzheimer disease is established. Mechanistically, raising cholinergic tone may influence motor-control circuits in the basal ganglia.
 
-For psychogenic (functional) movement disorders, however, no established mechanistic rationale exists in the supplied data. The high score should be read with caution. All top-10 predictions for this drug fall within a narrow band of 0.98 to 0.99, so the score alone does not separate strong candidates from weak ones. Increased cholinergic tone can also worsen tremor and extrapyramidal symptoms, so the direction of effect is unclear.
+A cholinergic mechanism is plausible for movement disorders in general. However, there is no direct rationale for psychogenic movement disorders, which are functional rather than degenerative conditions. The prediction rests on the model score alone.
+
+**Other predicted indications** (for context):
+
+| Rank | Predicted Indication | Score | Evidence Level | Assessment |
+|------|------|------|------|------|
+| 2 | Chronic tic disorder | 99.19% | L3 (provisional) | Research Question. Small clinical reports and mouse work support a cholinergic role in tics. |
+| 4 | Extrapyramidal and movement disease | 99.16% | L4 | Research Question. A 2025 systematic review also flags a safety signal, as cholinesterase inhibitors can worsen parkinsonism or tremor. |
+| 8 | Lingual-facial-buccal dyskinesia (tardive dyskinesia) | 99.02% | L3 | Research Question. Cochrane reviews of cholinergic drugs exist, but they do not establish clear efficacy for donepezil. |
+| 10 | Glaucoma | 98.28% | L4 | Hold. Evidence is mixed, and there are safety signals. |
+| 3, 5, 6, 7, 9 | Primary orthostatic tremor, benign shuddering attacks, tremor-nystagmus-duodenal ulcer syndrome, benign paroxysmal tonic upgaze of childhood with ataxia, acute intermittent porphyria | 98.7%–99.2% | L5 | Hold. Prediction only, with no supporting evidence. |
+
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for psychogenic movement disorders (nor for any of the other top-ranked predicted indications).
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for psychogenic movement disorders.
 
-## Other Predicted Indications with Evidence
+For reference, the most relevant publications for the second-ranked prediction (chronic tic disorder) are:
 
-Some lower-ranked predictions have more supporting evidence than the top-ranked one. All rows below are research questions at best, and none is supported by a registered trial or RCT.
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [18343255](https://pubmed.ncbi.nlm.nih.gov/18343255/) | 2008 | Clinical study (likely open-label, design to be verified) | Clinical Therapeutics | 18-week dose-escalating study of donepezil in children and adolescents with tics and ADHD, based on the idea that striatal cholinergic dysfunction contributes to both |
+| [10440471](https://pubmed.ncbi.nlm.nih.gov/10440471/) | 1999 | Case report | J Clin Psychopharmacol | Donepezil for Tourette's disorder and ADHD |
+| [16986157](https://pubmed.ncbi.nlm.nih.gov/16986157/) | 2006 | Commentary | Mov Disord | Discussion of donepezil's possible effectiveness in Tourette's syndrome |
+| [16045972](https://pubmed.ncbi.nlm.nih.gov/16045972/) | 2005 | Preclinical (mouse) | Pharmacol Biochem Behav | Donepezil, nicotine and haloperidol effects on serotonergic tic-like behaviour in mice |
+| [14643839](https://pubmed.ncbi.nlm.nih.gov/14643839/) | 2003 | Preclinical (mouse) | Pharmacol Biochem Behav | Donepezil reduced DOI-induced head twitches, a model of tics |
 
-| Rank | Predicted Indication | Score | Evidence Level | Recommendation | Evidence Summary |
-|------|------|------|------|------|------|
-| 2 | Chronic tic disorder | 99.19% | L3 | Research Question | An 18-week open-label pediatric study ([18343255](https://pubmed.ncbi.nlm.nih.gov/18343255/), 2008, Clin Ther) in children with tics and ADHD, plus a case report ([10440471](https://pubmed.ncbi.nlm.nih.gov/10440471/)) and a commentary ([16986157](https://pubmed.ncbi.nlm.nih.gov/16986157/)). Mouse head-twitch studies ([14643839](https://pubmed.ncbi.nlm.nih.gov/14643839/), [16045972](https://pubmed.ncbi.nlm.nih.gov/16045972/)) suggest serotonergic effects. |
-| 10 | Glaucoma | 98.28% | L3 | Research Question | A pilot study in normal-tension glaucoma ([20415624](https://pubmed.ncbi.nlm.nih.gov/20415624/), 2010) on cerebral and optic nerve head blood flow, and a rat retinal neuroprotection study ([20197638](https://pubmed.ncbi.nlm.nih.gov/20197638/)). |
-| 8 | Lingual-facial-buccal dyskinesia | 99.02% | L4 | Research Question | Mostly a short report ([15689723](https://pubmed.ncbi.nlm.nih.gov/15689723/)) and drug-class Cochrane reviews ([29553158](https://pubmed.ncbi.nlm.nih.gov/29553158/), [12137608](https://pubmed.ncbi.nlm.nih.gov/12137608/)). One case of donepezil-induced jaw tremor ([18321753](https://pubmed.ncbi.nlm.nih.gov/18321753/)) points the other way. |
-| 4 | Extrapyramidal and movement disease | 99.16% | L4 | Hold | Mixed evidence. A 2025 systematic review ([40224553](https://pubmed.ncbi.nlm.nih.gov/40224553/)) points to movement disorders as an adverse effect of cholinesterase inhibitors. A small tardive-movement report ([15669896](https://pubmed.ncbi.nlm.nih.gov/15669896/)) suggests benefit. |
-| 3, 5, 7, 9 | Primary orthostatic tremor, benign shuddering attacks, benign paroxysmal tonic upgaze of childhood with ataxia, acute intermittent porphyria | 98.75–99.17% | L5 | Hold | Prediction only. No trials or literature. |
-| 6 | Tremor-nystagmus-duodenal ulcer syndrome | 99.15% | L5 | Hold | The only retrieved paper ([41362004](https://pubmed.ncbi.nlm.nih.gov/41362004/)) concerns Behçet disease and is likely a keyword mismatch. |
+---
 
 ## Singapore Market Information
 
-Donepezil has 13 registrations in Singapore. The five listed below are the main ones; none of the records supplied includes approved-indication text.
-
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN13645P | Aricept Evess 5mg orodispersible tablet | Orally disintegrating tablet | Bushu Pharmaceuticals Ltd. |
-| SIN15565P | Jubdozil film coated tablet 5mg | Film-coated tablet | Jubilant Generics Limited |
-| SIN16006P | Alzer 10 (donepezil hydrochloride tablets USP 10 mg) | Film-coated tablet | Hetero Labs Limited |
-| SIN15251P | Torpezil tablets 10 mg | Film-coated tablet | Torrent Pharmaceuticals Ltd |
-| SIN14389P | Dopezil tablets 10mg | Film-coated tablet | Sun Pharmaceutical Industries Limited |
+| SIN13645P | Aricept Evess 5mg orodispersible tablet | Orally disintegrating tablet | Not stated in the data |
+| SIN13646P | Aricept Evess 10mg orodispersible tablet | Orally disintegrating tablet | Not stated in the data |
+| SIN14575P | Aricept Film-coated Tablets 23mg | Film-coated tablet | Not stated in the data |
+| SIN15565P | Jubdozil Film Coated Tablet 5mg | Film-coated tablet | Not stated in the data |
+| SIN16006P | Alzer 10 Donepezil Hydrochloride Tablets USP 10 mg | Film-coated tablet | Not stated in the data |
 
-All listed products are oral formulations.
+There are 13 valid single-ingredient registrations in total, all oral, with no cancelled licences. No topical or injectable forms are registered.
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No warnings, contraindications, or drug interaction records were available in the evidence pack.
+**Knowledge-graph contraindication signals** (from the knowledge graph, not from label text): epilepsy, asthma (including intrinsic and allergic asthma), bladder neck obstruction, active peptic ulcer disease, sick sinus syndrome (including the familial form), and atrioventricular block.
 
-The retrieved literature raises signals relevant to the predicted uses:
-- **Movement-related adverse effects**: A 2025 systematic review ([40224553](https://pubmed.ncbi.nlm.nih.gov/40224553/)) and a case report of donepezil-induced jaw tremor ([18321753](https://pubmed.ncbi.nlm.nih.gov/18321753/)) suggest cholinesterase inhibitors can cause or worsen movement disorders. A pharmacovigilance study ([24127392](https://pubmed.ncbi.nlm.nih.gov/24127392/)) examined Pisa syndrome.
-- **Ocular**: A case report describes angle-closure glaucoma after donepezil discontinuation ([16127117](https://pubmed.ncbi.nlm.nih.gov/16127117/)).
-- **Pediatric use**: Any use in children (for example, for tics) would need a controlled design and safety monitoring.
+**Drug Interactions**: 100 interactions were identified, of which 20 are listed in the data compiled for this report. The most notable:
+- **Major**: Bupropion
+- **Moderate**: anticholinergic agents (atropine, hyoscyamine, glycopyrronium, clidinium, dicyclomine), acid suppressants (famotidine, ranitidine, cimetidine), loperamide, dexamethasone, metronidazole, dolasetron, and bowel-preparation agents (picosulfuric acid, polyethylene glycol with electrolytes)
+- **Minor**: aprepitant, acetylsalicylic acid, lorcaserin, clarithromycin
+
+**Indication-specific signals from the literature:**
+- A 2025 systematic review reports that cholinesterase inhibitors can be associated with movement disorders (including worsened parkinsonism or tremor), which is directly relevant to any movement-disorder use.
+- Case reports describe donepezil-associated Pisa syndrome and jaw tremor.
+- A case report describes angle-closure glaucoma after donepezil was stopped.
+
+Package insert warnings and contraindications were not available. Please refer to the package insert for full safety information.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The top-ranked prediction, psychogenic movement disorders, is supported only by the model score. No trials or publications were retrieved, no mechanistic rationale is evident, and the literature for related movement disorders includes a possible harm signal. The 99.23% score does not distinguish it from other predictions in the same narrow score band.
+The psychogenic movement disorders prediction rests on a high model score alone, with no trials, no literature, and no mechanistic support specific to the condition. Donepezil is well established and widely registered in Singapore, but that does not support this new use. The literature also shows donepezil can cause or worsen some movement disorders.
 
 **To proceed, the following is needed:**
-- Mechanism of action data (for example, from DrugBank), to assess a link to functional movement disorders
-- Package insert warnings and contraindications from HSA, which are currently missing
-- A targeted literature and trial search for psychogenic movement disorders
-- If resources are limited, consider prioritising chronic tic disorder and glaucoma (both L3), each starting with a controlled study design and a full review of the retrieved records
-
-*This report is for research reference only and does not constitute medical advice. Predicted repurposing candidates require clinical validation before any application.*
+- Package insert warnings and contraindications from the HSA, which are a blocking gap for safety screening
+- Mechanism of action data for donepezil
+- A targeted literature search on cholinergic mechanisms in functional or psychogenic movement disorders
+- If a movement-disorder direction is pursued, consider **chronic tic disorder** first. It has the strongest direct clinical signal (a pediatric open-label study and case reports), but the study designs should be verified and a controlled trial would be needed.
+- A safety review of donepezil in patients with movement disorders, given the reported tremor, dystonia, and parkinsonism signals
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Phenyltoloxamine
-parent: Low Evidence (L5)
-nav_order: 780
-evidence_level: L5
+parent: Medium Evidence (L3-L4)
+nav_order: 789
+evidence_level: L4
 indication_count: 10
 ---
 
 # Phenyltoloxamine
 {: .fs-9 }
 
-Evidence Level: **L5** | Predicted Indications: **10** 
+Evidence Level: **L4** | Predicted Indications: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,69 +29,109 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Phenyltoloxamine: From an Unspecified Original Indication to Allergic Urticaria
+# Phenyltoloxamine: From Allergic Rhinitis and Urticaria to Allergic Urticaria
 
 ## One-Sentence Summary
 
-Phenyltoloxamine is marketed in Singapore in one registered product (Codipront Capsule), but the registration record does not state its original indication.
-The TxGNN model predicts it may be effective for **allergic urticaria**, with a score of 96.2%.
-Currently there are **0 clinical trials** and **0 publications** supporting this specific prediction, so it rests on model output and class-level pharmacology alone.
+Phenyltoloxamine is a first-generation H1-antihistamine, originally used for allergic and vasomotor rhinitis, the common cold, allergic conjunctivitis and urticaria or angioedema.
+The TxGNN model predicts it may be effective for **allergic urticaria**, but there are currently **0 clinical trials** and **0 publications** supporting this direction.
+The prediction is largely an extension of an existing indication, supported by drug-class reasoning only.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration record |
+| Original Indication | Allergic rhinitis, vasomotor rhinitis, common cold, allergic/atopic conjunctivitis, urticaria, angioedema (the Singapore licence has no indication text recorded) |
 | Predicted New Indication | Allergic urticaria |
 | TxGNN Prediction Score | 96.24% |
-| Evidence Level | L5 |
+| Evidence Level | L4 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the supplied record. From general background knowledge (not supplied evidence), phenyltoloxamine is a first-generation H1 antihistamine of the ethanolamine class. Blocking H1 receptors is mechanistically consistent with histamine-mediated conditions such as urticaria, and this is likely why the model scored the prediction highly.
+Detailed mechanism of action data is not available from the data compiled for this report. Based on known information, phenyltoloxamine is a first-generation H1-antihistamine. Blocking the H1 receptor reduces histamine-driven itching, swelling and redness.
 
-The prediction is probably a class-effect rediscovery of a use typical for antihistamines, not a true repurposing finding. The original indication cannot be compared with the new one, because the registration record gives no indication text. The same class-level logic applies to cold urticaria, which ranks third among the predictions.
+Urticaria and angioedema are already among its original indications, and allergic urticaria is a subtype of urticaria. The high TxGNN score is therefore mechanistically consistent. However, this is largely an on-label extension rather than true repurposing. No phenyltoloxamine-specific trials or literature were available, so the rationale rests on drug-class reasoning only.
 
-Newer non-sedating antihistamines are the usual choice for urticaria. Any advantage of phenyltoloxamine over them would need to be demonstrated.
+**Other top predictions (all Hold, no clinical evidence):**
+
+| Rank | Predicted Indication | Score | Evidence Level | Assessment |
+|---|---|---|---|---|
+| 2 | Rosacea conjunctivitis | 95.19% | L5 | Antihistamine benefit is speculative, since the disease is driven mainly by meibomian gland dysfunction, inflammation and Demodex |
+| 3 | Cold urticaria | 93.25% | L4 | Plausible, since H1-antihistamines are first-line as a class, but second-generation agents are preferred in practice |
+| 4 | Anorectal stricture | 91.83% | L5 | No clear mechanistic link |
+| 5 | Acute laryngopharyngitis | 91.76% | L5 | Possible symptomatic relief only. Drying effects may worsen throat irritation |
+| 6 | Pharyngitis | 90.91% | L5 | Possible relief of rhinorrhoea and postnasal drip only, with no effect on the underlying infection |
+| 7 | Anal polyp | 90.75% | L5 | No plausible link, likely a knowledge-graph artifact |
+| 8 | Proctitis | 89.66% | L5 | Not an established treatment. Anticholinergic effects may be undesirable |
+| 9 | Nasal cavity disease | 89.13% | L4 | Too broad. Partly explained by the approved rhinitis indications |
+| 10 | Recalcitrant atopic dermatitis | 88.39% | L5 | Histamine is not the main driver, and guidelines do not support antihistamines for disease control |
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
+
+---
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN13319P | Codipront Capsule (CTS Chemical Industries Ltd) | Capsule, extended release (oral) | Not stated in the registration record |
+| SIN13319P | Codipront Capsule (CTS Chemical Industries Ltd) | Capsule, extended release (oral) | Not recorded |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Contraindications (from the TxGNN knowledge graph, not label text):** The graph links the drug to contraindications in the following conditions.
+  - Cardiovascular: hypertension, coronary artery disease, myocardial infarction, coronary thrombosis
+  - Hepatic and renal: liver failure, liver disease, kidney disease, impaired renal function, gallbladder disease
+  - Respiratory: COPD (including severe early-onset)
+  - Neurological and psychiatric: epilepsy, insomnia, substance abuse or dependence
+  - Gastrointestinal: pancreatitis, peptic ulcer disease, gastritis
+  - Metabolic: diabetes mellitus, diabetic ketoacidosis, gout
+  - Haematological: thrombocytopenia, blood coagulation disease, haemophilia, haemoglobinopathy, anaemia (including macrocytic)
+  - Urological: benign prostatic hyperplasia, pyoureter
+- **Drug Interactions:** 72 interactions were identified in total.
+  - **Major:** potassium chloride and potassium citrate.
+  - **Moderate (examples):**
+    - Anticholinergics: atropine, hyoscyamine, scopolamine, glycopyrronium, dicyclomine, clidinium, propantheline, methscopolamine, mepenzolate
+    - Opioids and antidiarrhoeals: morphine, opium, loperamide, eluxadoline
+    - Cannabinoids: dronabinol, nabilone
+    - Others: metoclopramide
+
+Label-based warnings and contraindications were not available. Please refer to the package insert for full safety information.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is Level L5, meaning model output only, with no trials or publications for this drug and indication. The Singapore package insert warnings and contraindications are also missing, which blocks safety screening. The mechanistic rationale is plausible but class-level, and non-sedating alternatives already exist.
+The top prediction, allergic urticaria, is mechanistically sensible but largely overlaps with an existing indication. No trials or literature specific to phenyltoloxamine support it. The remaining predictions are speculative or lack a plausible mechanism. Safety screening cannot proceed without the package insert.
 
 **To proceed, the following is needed:**
-- The HSA package insert (warnings, contraindications, approved indication) for SIN13319P
-- Mechanism of action data, for example from DrugBank
-- A literature and trial search specific to phenyltoloxamine in urticaria
-- A comparison against non-sedating H1 antihistamines
-- A check of route and dosage form compatibility (the current product is an oral extended-release capsule)
-
-Other predictions are weaker. Pharyngitis has one Phase 4 trial of a branded combination product, but nothing in the input shows it contains phenyltoloxamine. That trial is graded C (indirect) and is not usable as evidence. The remaining predictions are L5 and mostly lack a plausible mechanism.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- Package insert warnings and contraindications from the HSA, since this is a blocking gap
+- Detailed mechanism of action data (for example, from DrugBank)
+- Phenyltoloxamine-specific clinical or literature evidence for allergic urticaria and cold urticaria
+- Confirmation of the approved indication text for SIN13319P, which appears to be a combination product (Codipront) listed as a single-ingredient licence
+- Route and formulation compatibility assessment, since only an oral extended-release capsule is registered
+- A clear comparison against second-generation antihistamines, given their preferred role and the anticholinergic burden of this drug
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

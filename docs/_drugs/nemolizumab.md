@@ -2,7 +2,7 @@
 layout: default
 title: Nemolizumab
 parent: Low Evidence (L5)
-nav_order: 696
+nav_order: 704
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,31 +29,33 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Nemolizumab: From Anti-IL-31 Receptor A Therapy to Diabetic Cataract
+# Nemolizumab: From Atopic Dermatitis / Prurigo Nodularis Pruritus to Diabetic Cataract
 
 ## One-Sentence Summary
 
-Nemolizumab is an anti-IL-31 receptor A antibody that is already marketed in Singapore as an injectable. The TxGNN model predicts it may be effective for **diabetic cataract**, and nine other eye-related conditions follow closely. This prediction currently has **no clinical trials and no publications** behind it, so it rests on the model score alone.
+Nemolizumab is an anti-IL-31 receptor A monoclonal antibody, used for itch associated with atopic dermatitis and prurigo nodularis.
+The TxGNN model predicts it may be effective for **diabetic cataract**,
+but there are currently **0 clinical trials** and **0 publications** supporting this direction, so the prediction rests on model output alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the supplied registration data (approved-indication text is empty on both licences) |
+| Original Indication | Not stated in the Singapore licence data. Per pharmacology data, approved elsewhere for pruritus in atopic dermatitis (Japan) and prurigo nodularis (FDA) |
 | Predicted New Indication | Diabetic cataract |
 | TxGNN Prediction Score | 98.55% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 2 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the knowledge graph. What is known is that nemolizumab blocks the IL-31 receptor A, which is the signalling pathway for IL-31, a cytokine linked to itch and skin inflammation.
+Nemolizumab blocks the interleukin-31 receptor alpha subunit (IL31RA), which dampens IL-31 signalling that drives itch and skin inflammation. Detailed mechanism of action data is not available in the data compiled for this report. The mechanism above comes from the drug's target pharmacology.
 
-No established link between IL-31 signalling and diabetic lens opacity was found in the supplied data. Cataract in diabetes is driven mainly by high blood sugar, including polyol pathway activity and oxidative stress, which is unrelated to IL-31 blockade. The same is true for the other cataract subtypes that were predicted.
+A plausible link between this mechanism and diabetic cataract has not been identified. Cataract formation in diabetes is mainly metabolic: high glucose, sorbitol accumulation through the polyol pathway, oxidative stress and protein aggregation in the lens. IL-31 signalling is not an established part of this process.
 
-The top nine predictions are all cataract types, and six of them have the identical score of 0.9849. This pattern suggests the score comes from a shared parent disease node in the knowledge graph rather than from biology specific to each subtype. Diabetic retinopathy ranks tenth (score 98.24%). Inflammatory cytokines play a general role in that disease, but no role for IL-31 has been established, and anti-VEGF treatments already exist. **Overall, the prediction is not biologically supported by the data provided.**
+The high score (0.986) is most likely a graph-based signal. Several cataract subtypes (immature, mature, tetanic, craniostenosis-associated, type 2 diabetes-associated, nuclear senile, cortical and senile) received nearly identical scores of about 98.4% to 98.5%. This suggests one shared network signal rather than independent evidence. The most biologically conceivable prediction on the list is diabetic retinopathy (score 98.24%), where inflammation plays a role. Even there, IL-31/IL-31RA has no established role in the retina, and the link is speculative.
 
 ## Clinical Trial Evidence
 
@@ -67,27 +69,28 @@ Currently no related literature available.
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN17206P | NEMLUVIO Powder and Solvent for Solution for Injection in Pre-filled Pen 30 mg | Injection, powder, lyophilized, for solution | Not stated in the supplied data |
-| SIN17207P | NEMLUVIO Powder and Solvent for Solution for Injection in Pre-filled Syringe 30 mg | Injection, powder, lyophilized, for solution | Not stated in the supplied data |
+| SIN17206P | NEMLUVIO powder and solvent for solution for injection in pre-filled pen 30 mg | Lyophilised powder for injection | Not available in licence data |
+| SIN17207P | NEMLUVIO powder and solvent for solution for injection in pre-filled syringe 30 mg | Lyophilised powder for injection | Not available in licence data |
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interactions were found in the queried data.
+- **Drug Interactions**: The only interaction record is a pharmacological target entry (IL-31 receptor alpha subunit), which is the drug's intended target. It is not a drug–drug interaction. Nemolizumab is an antibody. A Phase 1 study of it reported no serious adverse events.
+
+Please refer to the package insert for warnings and contraindications, which were not available in the data compiled for this report.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has only a model score and no trials or publications. There is also no plausible mechanistic link between IL-31 receptor blockade and cataract, and the near-identical scores across cataract subtypes point to a graph artifact.
+The prediction has no clinical, preclinical or mechanistic support. The score appears to come from graph similarity across the cataract disease cluster. Nothing biologically links IL-31 receptor blockade to lens opacification. Warnings and contraindications from the package insert are also missing, so safety screening cannot proceed.
 
 **To proceed, the following is needed:**
-- The Singapore package insert (warnings, contraindications and approved indications), which is currently missing and blocks safety screening
-- Detailed mechanism-of-action data from DrugBank
-- Preclinical or mechanistic evidence that IL-31 signalling plays a role in lens or retinal disease
-- A check for any published or registered studies on nemolizumab in eye disease
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any use.*
+- Package insert warnings and contraindications from HSA, to allow safety screening
+- Detailed mechanism of action data
+- Preclinical evidence that IL-31 signalling contributes to lens opacification, or to diabetic eye disease
+- A safety rationale for systemic biologic exposure in an ocular indication
+- Consider re-examining diabetic retinopathy as a more biologically plausible candidate, though it is still prediction-only
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

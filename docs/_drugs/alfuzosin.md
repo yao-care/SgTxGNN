@@ -33,64 +33,88 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Alfuzosin is an alpha-1 adrenergic blocker. The Singapore registration records do not state its approved indication, but the drug class is generally used for urinary symptoms of benign prostatic hyperplasia (BPH). The TxGNN model predicts it may be effective for **Ambras type hypertrichosis universalis congenita**, but this is a model prediction only, with **0 clinical trials** and **0 publications** supporting it.
+Alfuzosin is an alpha-1 adrenergic blocker originally used to treat benign prostatic hyperplasia (BPH).
+The TxGNN model predicts it may be effective for **Ambras type hypertrichosis universalis congenita**,
+but **no clinical trials and no publications** currently support this direction. It is a model prediction only.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in registration data (drug class is generally used for BPH) |
+| Original Indication | Benign prostatic hyperplasia (from the knowledge graph; the Singapore licence records contain no indication text) |
 | Predicted New Indication | Ambras type hypertrichosis universalis congenita |
-| TxGNN Prediction Score | 99.999% (model rank 34) |
+| TxGNN Prediction Score | 99.99% |
 | Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 4 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, alfuzosin is an alpha-1 adrenergic antagonist. Its approved use in Singapore is not recorded in the data received.
+Currently, detailed mechanism of action data is not available. Alfuzosin is known as an alpha-1A-selective adrenergic antagonist, and its efficacy in BPH is established. This relaxes smooth muscle in the prostate and bladder neck and eases urinary symptoms.
 
-Ambras syndrome is a rare genetic disorder of hair development. No credible mechanistic link to alpha-1 blockade has been identified, so the high graph score is a model output with no biological or clinical support.
+The predicted indication is a different kind of disease. Ambras syndrome is a rare congenital hypertrichosis linked to chromosome 8q22 rearrangements that affect TRPS1 regulation. No plausible pathway connects alpha-1 blockade to this genetic hair-growth disorder. The very high score (99.99%) reflects knowledge-graph inference only, and it is probably driven by shared neighbours among hair-related nodes.
 
-The other top predictions show the same pattern. Most are hair-related conditions, and the list includes both hypertrichosis and hypotrichosis, which are opposite phenotypes. This suggests the scores reflect graph-proximity artifacts rather than real biology. Vasodilators such as minoxidil are known to cause hypertrichosis, so even the direction of any effect is unclear.
+The other top predictions show the same pattern. Most are rare hair disorders or congenital malformation syndromes (hypertrichosis, trichomegaly, hypotrichosis, hair shaft abnormalities, Dandy-Walker and dental/periodontal malformation syndromes). Allergic urticaria and persistent fetal circulation syndrome are also predicted. None has trial or literature support, and none has a credible mechanistic link. Persistent fetal circulation syndrome is conceptually related to vasodilation, but alfuzosin has no neonatal safety data and carries a risk of hypotension.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
-Currently no related literature available for this indication.
+Currently no related literature available.
+
+---
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN09546P | XATRAL SR TABLET 5 mg | Extended-release tablet | Sanofi Winthrop Industrie |
-| SIN11579P | XATRAL XL TABLET 10 mg | Tablet | Sanofi Winthrop Industrie |
-| SIN13984P | RANFUZOSIN MODIFIED RELEASE TABLETS 10MG | Extended-release tablet | Sun Pharmaceutical Industries Limited |
-| SIN15512P | APO-ALFUZOSIN PROLONGED RELEASE TABLET 10mg | Extended-release tablet | Apotex Inc |
+| SIN09546P | XATRAL SR TABLET 5 mg | Extended-release tablet | Not stated in the licence record |
+| SIN13984P | RANFUZOSIN MODIFIED RELEASE TABLETS 10MG | Extended-release tablet | Not stated in the licence record |
+| SIN15512P | APO-ALFUZOSIN PROLONGED RELEASE TABLET 10mg | Extended-release tablet | Not stated in the licence record |
+| SIN11579P | XATRAL XL TABLET 10 mg | Tablet | Not stated in the licence record |
 
-All products are oral.
+All four registrations are valid single-ingredient oral products.
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found in the data received.
+- **Contraindication-related conditions (from the knowledge graph, not label text)**: multiple system atrophy, postural orthostatic tachycardia syndrome, orthostatic hypotension, hypotensive disorder, long QT syndrome (including familial), torsades de pointes, liver failure, liver disease, gallbladder disease, and intraoperative floppy iris syndrome.
+- **Drug Interactions**: 100 interactions were identified. Of those reviewed, the **Major** ones are:
+  - Cisapride
+  - Clarithromycin
+  - Dolasetron
+
+  Most other reviewed interactions are Moderate, including famotidine, aprepitant, bupropion, levofloxacin, granisetron, several SGLT2 inhibitors (canagliflozin, dapagliflozin, empagliflozin, ertugliflozin) and several laxatives. Cimetidine is Minor. The QT-related and CYP3A4-related interactions need particular attention.
+
+Please refer to the package insert for the official warnings and contraindications.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on the model score alone (L5). No trials or drug-specific literature exist, and no mechanism links alpha-1 blockade to hair development disorders. Predictions for opposite hair phenotypes point to a graph artifact.
+The prediction rests only on a knowledge-graph score. There are no clinical trials or publications, and no plausible mechanism links alpha-1A blockade to Ambras syndrome or to the other predicted conditions. The evidence level is L5.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from the HSA (blocking for safety screening)
-- Mechanism of action data from DrugBank
-- Approved indication text for the Singapore registrations
-- Any drug-specific preclinical or clinical evidence for this indication; without it, the candidate should not advance
-- Consideration of higher-ranked candidates with plausible mechanisms, such as persistent fetal circulation syndrome, though this has major safety concerns (systemic hypotension, no neonatal data)
+- Mechanism of action data (MOA) for alfuzosin
+- Package insert warnings and contraindications from HSA, which are needed for safety screening
+- Preclinical or mechanistic evidence linking alpha-1 blockade to hair-follicle biology or TRPS1-related pathways
+- Evidence on whether any of the lower-ranked predictions (for example allergic urticaria) have better scientific support
+- A route-of-administration and formulation compatibility assessment. Current products are oral only.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

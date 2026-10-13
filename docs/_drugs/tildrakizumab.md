@@ -2,7 +2,7 @@
 layout: default
 title: Tildrakizumab
 parent: Low Evidence (L5)
-nav_order: 981
+nav_order: 991
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,35 +29,51 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tildrakizumab: From an Anti-IL-23 Antibody to Severe Nonproliferative Diabetic Retinopathy
+# Tildrakizumab: From an Anti-IL-23 Biologic (Approved Indication Not Listed) to Severe Nonproliferative Diabetic Retinopathy
 
 ## One-Sentence Summary
 
-Tildrakizumab is an anti-IL-23 p19 monoclonal antibody that is marketed in Singapore as an injectable (ILUMYA). The record provided does not state its approved indication.
-The TxGNN model predicts it may be effective for **severe nonproliferative diabetic retinopathy**, with **0 clinical trials** and **0 publications** currently supporting this direction. This is a model prediction only.
+Tildrakizumab is an anti-IL-23 p19 monoclonal antibody that is registered and marketed in Singapore as ILUMYA, but the registration record compiled for this report does not list an approved indication.
+The TxGNN model predicts it may be effective for **severe nonproliferative diabetic retinopathy**.
+Currently there are **0 clinical trials** and **0 publications** supporting this prediction, so it rests on the computational score alone.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration record |
+| Original Indication | Not listed in the Singapore registration data |
 | Predicted New Indication | Severe nonproliferative diabetic retinopathy |
 | TxGNN Prediction Score | 99.63% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism-of-action data is not available in the Evidence Pack. Tildrakizumab is characterised as an anti-IL-23 p19 monoclonal antibody, so it blocks IL-23, a cytokine that drives Th17-mediated inflammation.
+Currently, detailed mechanism of action data is not available in the compiled data. Based on its drug class, tildrakizumab is an anti-IL-23 p19 monoclonal antibody. It blocks the IL-23/IL-17 inflammatory axis.
 
-Chronic inflammation, including IL-23/IL-17 signalling, has been proposed as a contributor to retinal vascular damage in diabetic retinopathy. This gives a mechanistic hypothesis, but no trial or publication supports it. Intravitreal anti-VEGF therapy is the established standard, and systemic IL-23 blockade has no demonstrated ocular benefit. The original indication is also not recorded, so the link could not be checked against it.
+Chronic low-grade inflammation contributes to diabetic retinopathy, and IL-23/Th17 signalling is a hypothetical contributor. The link is speculative. There is no direct or indirect clinical evidence for tildrakizumab in this setting. Standard therapies (anti-VEGF, laser, corticosteroids) act on different pathways.
 
-The high score (0.996) is a graph-based prediction, not clinical evidence. The parent term **diabetic retinopathy** (score 99.53%) is also predicted, but the two are not independent. The other eight predictions are not credible candidates:
+The high TxGNN score (99.63%, rank 5263) is a computational prediction only. It should not be read as evidence of efficacy.
 
-- **Cataract predictions:** There are seven (diabetic, cortical, nuclear senile, senile, mature, immature, and type 2 diabetes-associated). No plausible IL-23 mechanism links to lens opacity, and several share identical scores (0.98913 for cortical and nuclear senile; 0.98863 for mature, immature, and type 2 diabetes-associated). This suggests score propagation through shared ontology nodes rather than independent signal.
-- **Drug-induced osteoporosis:** There is only a weak, indirect rationale, through IL-23/Th17 involvement in bone resorption. Nothing ties IL-23 blockade to preventing or treating this condition.
+### Other Predicted Indications
+
+The other top-ranked predictions also have no clinical trials or literature, and all are at evidence level L5 with a Hold recommendation.
+
+| Rank | Predicted Indication | TxGNN Score | Mechanistic Plausibility |
+|------|------|------|------|
+| 2 | Diabetic retinopathy | 99.53% | Hypothetical; inflammation and IL-23/Th17 signalling |
+| 3 | Diabetic cataract | 99.21% | Low; likely a knowledge-graph artefact |
+| 4 | Drug-induced osteoporosis | 99.20% | Tenuous; IL-23/IL-17 influences bone remodelling in inflammatory arthritis |
+| 5 | Cortical cataract | 98.91% | Low |
+| 6 | Nuclear senile cataract | 98.91% | Low |
+| 7 | Senile cataract | 98.89% | Low |
+| 8 | Mature cataract | 98.86% | Very low; managed surgically |
+| 9 | Immature cataract | 98.86% | Low |
+| 10 | Type 2 diabetes-associated cataract | 98.86% | Low |
+
+The cataract predictions share near-identical scores. This suggests a graph-proximity artefact rather than a disease-specific signal.
 
 ## Clinical Trial Evidence
 
@@ -69,30 +85,35 @@ Currently no related literature available.
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN17076P | ILUMYA Solution for Injection in Pre-filled Syringe 100mg/ml | Injection, solution | Vetter Pharma-Fertigung GmbH & Co. KG |
+| SIN17076P | ILUMYA Solution for Injection in Pre-filled Syringe 100 mg/mL | Injection, solution | Not listed in the registration data |
 
-Tildrakizumab is available only as a systemic injection. No intravitreal or ocular formulation is registered, and the route-compatibility assessment for the predicted indication is still pending.
+The manufacturer is Vetter Pharma-Fertigung GmbH & Co. KG. The product is an injectable only, and the licence is valid.
 
 ## Safety Considerations
 
-No drug-interaction records were found for tildrakizumab. Please refer to the package insert for safety information.
+- **Drug Interactions**: 78 interactions were identified. The 20 listed below are the ones retrieved in detail.
+  - **Major**: adalimumab, baricitinib, certolizumab pegol, cladribine. These are mostly immunosuppressive combinations with additive immunosuppression and infection risk.
+  - **Moderate**: roflumilast, tacrolimus, azathioprine, cyclosporine, alefacept, alemtuzumab, anakinra, canakinumab, denosumab, tetanus toxoid vaccine, anthrax vaccine, and live oral cholera vaccine. Live-vaccine combinations need particular attention.
+  - **Minor**: zinc sulfate, zinc acetate, zinc gluconate, zinc chloride.
+
+Please refer to the package insert for warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone. There are no clinical trials or publications, the mechanistic link is hypothetical, and the systemic injectable has no demonstrated ocular benefit. Established treatments already exist for diabetic retinopathy. The cataract and osteoporosis predictions have no mechanistic support and look like knowledge-graph artefacts.
+The prediction is supported only by a model score. There are no clinical trials or publications, and the mechanistic link to diabetic retinopathy is speculative. The approved indication and mechanism data are also missing from the compiled data.
 
 **To proceed, the following is needed:**
-- Package insert warnings and contraindications from the HSA website (a blocking gap for safety screening)
-- The original approved indication and mechanism-of-action data, for example from DrugBank
-- Preclinical or biomarker evidence that IL-23 blockade affects retinal vascular inflammation
-- A route-compatibility assessment, since only a systemic injection is registered and the predicted indication is ocular
-
-*These results are for research reference only and do not constitute medical advice. Repurposing candidates require clinical validation before any application.*
+- The package insert from the Singapore Health Sciences Authority (HSA), covering the approved indication, warnings, and contraindications. This is a blocking gap for safety screening.
+- Mechanism of action data from DrugBank.
+- Preclinical or mechanistic evidence for IL-23/Th17 involvement in diabetic retinopathy, such as vitreous or retinal cytokine studies and animal models.
+- A literature and trial registry search for IL-23 inhibition in retinal disease.
+- An assessment of route compatibility. The current product is a subcutaneous injection, while retinal disease might require intravitreal delivery.
+- A review of the interaction profile with immunosuppressants and live vaccines in diabetic patients.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

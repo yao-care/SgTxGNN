@@ -2,7 +2,7 @@
 layout: default
 title: Gemeprost
 parent: Low Evidence (L5)
-nav_order: 469
+nav_order: 473
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,20 +29,19 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Gemeprost: From Obstetric Use (Pregnancy Termination) to Atypical Coarctation of Aorta
+# Gemeprost: From Obstetric Use (Cervical Softening and Pregnancy Termination) to Atypical Coarctation of Aorta
 
 ## One-Sentence Summary
 
-Gemeprost is a prostaglandin E1 (PGE1) analogue given as a vaginal pessary, and the literature in the Evidence Pack describes it for cervical preparation and early pregnancy termination.
-The TxGNN model predicts it may be effective for **atypical coarctation of aorta**, but **0 clinical trials** and **0 publications** support this prediction, so it is most likely a knowledge-graph artifact.
-
----
+Gemeprost is a prostaglandin E1 (PGE1) analogue, supplied in Singapore as a vaginal pessary for obstetric use.
+The TxGNN model predicts it may be effective for **atypical coarctation of aorta**, but **no clinical trials and no publications** currently support this prediction.
+The top-ranked prediction is a network-based score only, and the evidence points to a recommendation to **hold**.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore registration record. The literature describes obstetric use (cervical preparation, termination of early pregnancy). |
+| Original Indication | Not stated in the Singapore licence record. The published literature describes use for medical termination of early pregnancy and cervical preparation. |
 | Predicted New Indication | Atypical coarctation of aorta |
 | TxGNN Prediction Score | 99.53% |
 | Evidence Level | L5 |
@@ -50,63 +49,65 @@ The TxGNN model predicts it may be effective for **atypical coarctation of aorta
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
----
-
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Based on known information, gemeprost is a PGE1 analogue (a uterotonic that promotes cervical ripening), and its efficacy in obstetric use is documented. There is no evident mechanistic route to atypical coarctation of aorta.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, gemeprost is a PGE1 analogue that acts on prostaglandin E (EP) receptors. It causes smooth muscle contraction, cervical ripening and uterine contractions.
 
-Atypical coarctation of aorta is a congenital structural vascular anomaly. A uterine-acting prostaglandin pessary would not be expected to correct a structural defect of this kind. The high TxGNN score (98th-plus percentile, but rank 6,254 overall) most likely reflects graph connectivity rather than real pharmacology.
+The predicted indication is a structural defect of the aorta. PGE1 is used in newborns to keep the ductus arteriosus open in ductal-dependent heart lesions. That is a different use from treating structural coarctation, and it does not provide a mechanistic basis for gemeprost. Gemeprost is also an intravaginal pessary for obstetric use, so no plausible route or use case is evident.
 
-The other top-ranked predictions show the same pattern:
-
-- Several are congenital structural defects (aortic malformation, esophageal malformation), with no evidence found.
-- Amenorrhea appears in the literature only as gestational age in abortion studies, not as a disease being treated.
-- For vascular indications, the available literature points to harm rather than benefit (see Safety Considerations).
-
----
+The high TxGNN score therefore reflects a network-based association only. It should not be read as evidence of therapeutic benefit.
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
----
-
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for the top-ranked prediction (atypical coarctation of aorta).
 
----
+The literature found for other predictions is context only. The most relevant items are listed below.
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [1525104](https://pubmed.ncbi.nlm.nih.gov/1525104/) | 1992 | RCT / comparative study | Br J Obstet Gynaecol | Gemeprost alone vs mifepristone plus gemeprost for medical abortion up to 56 days of amenorrhoea |
+| [1751434](https://pubmed.ncbi.nlm.nih.gov/1751434/) | 1991 | RCT | Br J Obstet Gynaecol | Cervical preparation before first-trimester vacuum aspiration: gemeprost vs mifepristone |
+| [1322621](https://pubmed.ncbi.nlm.nih.gov/1322621/) | 1992 | Clinical study | Acta Obstet Gynecol Scand | Mifepristone followed by a prostaglandin analogue in 16,369 women; overall success rate 95.3% |
+| [18185889](https://pubmed.ncbi.nlm.nih.gov/18185889/) | 2007 | Case report | Ann Acad Med Singapore | Acute myocardial infarction after insertion of a gemeprost vaginal pessary |
+| [10904996](https://pubmed.ncbi.nlm.nih.gov/10904996/) | 2000 | Case report / series | Zentralbl Gynakol | Severe cardiovascular complications (cardiogenic shock due to vasospasm, stroke) after gemeprost |
+| [11187221](https://pubmed.ncbi.nlm.nih.gov/11187221/) | 2000 | Case report | Ugeskr Laeger | Vasospastic angina after medical abortion with mifepristone and gemeprost |
+| [7834185](https://pubmed.ncbi.nlm.nih.gov/7834185/) | 1994 | Preclinical (human tissue) | Br J Pharmacol | EP3-receptor agonists cause potent contraction of human isolated pulmonary artery |
+
+These studies concern pregnancy termination or cardiovascular adverse events. They do not support a new indication. The amenorrhoea literature refers to gestational age in early pregnancy, not amenorrhea as a disease.
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN02475P | CERVAGEM VAGINAL PESSARY 1 mg (Ono Pharmaceutical Co Ltd) | Suppository | Not stated in the registration record |
+| SIN02475P | CERVAGEM VAGINAL PESSARY 1 mg | Suppository (vaginal pessary) | Not stated in the licence record |
 
----
+Manufacturer: Ono Pharmaceutical Co Ltd.
 
 ## Safety Considerations
 
-- **Cardiovascular signals in the literature**: Case reports describe acute myocardial infarction, coronary vasospasm, cardiogenic shock and stroke after gemeprost or related PGE analogues (PMIDs 18185889, 10904996, 10826591, 11187221, 20224253). These signals argue against any vascular use.
-- **Pulmonary artery effects**: In vitro work shows EP3-receptor agonists contract human pulmonary artery (PMID 7834185). This is unfavorable for any pulmonary vascular indication.
+- **Cardiovascular events**: Published case reports link gemeprost to acute myocardial infarction, coronary vasospasm, vasospastic angina, cardiogenic shock and stroke. These reports are a signal of concern for any vascular or cardiac indication.
+- **Vascular effects**: EP3-receptor agonists cause contraction of human pulmonary artery in vitro, which suggests a potentially adverse effect in pulmonary hypertension.
+- **Other**: A case of uterine artery pseudoaneurysm with postpartum haemorrhage has been reported after second-trimester termination with gemeprost.
 
 Please refer to the package insert for formal warnings, contraindications and drug interaction information.
-
----
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a model score alone (L5), with no trials or literature, and no plausible mechanism for treating a congenital aortic anomaly. The related vascular literature shows safety concerns rather than benefit.
+The top prediction, atypical coarctation of aorta, has no trials or literature and no plausible mechanism. Gemeprost is an obstetric vaginal pessary with reported vasospastic and cardiovascular adverse events. The other nine predictions in the ranked list are mostly L5 and also rated Hold. The amenorrhea and vascular disease entries show literature, but it reflects existing obstetric use or safety concerns, not repurposing potential.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications (currently a blocking gap for safety screening)
+- Package insert warnings and contraindications from the HSA website
 - Mechanism of action data from DrugBank
-- A plausible mechanistic rationale and any preclinical evidence for the predicted indication
-- Consideration of higher-ranked predictions only if they show real supporting evidence; none of the other top-10 predictions currently do
+- Any preclinical or clinical evidence specific to the predicted indication
+- A route and formulation rationale, since a vaginal pessary is not suited to a cardiovascular indication
+- A cardiovascular safety assessment before any vascular indication is considered
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

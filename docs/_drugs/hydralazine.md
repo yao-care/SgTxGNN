@@ -2,7 +2,7 @@
 layout: default
 title: Hydralazine
 parent: Low Evidence (L5)
-nav_order: 498
+nav_order: 502
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,12 +29,12 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Hydralazine: From Vasodilator Antihypertensive to Malignant Hypertensive Renal Disease
+# Hydralazine: From Hypertension to Malignant Hypertensive Renal Disease
 
 ## One-Sentence Summary
 
-Hydralazine is a direct arterial vasodilator marketed in Singapore as oral tablets, but the Evidence Pack records no original indication for it.
-The TxGNN model predicts it may be effective for **malignant hypertensive renal disease**, but this is a model prediction only, with **0 clinical trials** and **0 publications** retrieved for this pair.
+Hydralazine is a direct-acting vasodilator, originally used to treat hypertension.
+The TxGNN model predicts it may be effective for **malignant hypertensive renal disease**, but **no clinical trials and no directly relevant publications** currently support this prediction, so it rests on model prediction alone. It is also essentially an extension of the original hypertension indication rather than true repurposing.
 
 ---
 
@@ -42,10 +42,10 @@ The TxGNN model predicts it may be effective for **malignant hypertensive renal 
 
 | Item | Content |
 |------|------|
-| Original Indication | Not recorded in the Evidence Pack (no approved indication text in any Singapore licence) |
+| Original Indication | Hypertensive disorder / hypertension (the Singapore licence records contain no indication text) |
 | Predicted New Indication | Malignant hypertensive renal disease |
 | TxGNN Prediction Score | 96.86% |
-| Evidence Level | L5 (model prediction only) |
+| Evidence Level | L5 |
 | Singapore Market Status | ✓ Marketed |
 | Number of Registrations | 5 |
 | Recommended Decision | Hold |
@@ -54,9 +54,21 @@ The TxGNN model predicts it may be effective for **malignant hypertensive renal 
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Hydralazine is a direct arterial vasodilator. Lowering vascular resistance and afterload is plausible in severe hypertension with kidney involvement, which is how malignant hypertensive renal disease presents.
+Detailed mechanism of action data is not available in the data compiled for this report. Based on known pharmacology, hydralazine is a direct-acting arteriolar vasodilator that lowers systemic vascular resistance and blood pressure. It is already used in hypertension and hypertensive emergencies.
 
-Because the record has no original indication and no mechanism data, this link cannot be checked against source data. The high TxGNN score reflects knowledge-graph similarity, not clinical proof. A further concern is that vasodilators can trigger reflex renin activation, which matters in renin-dependent hypertension.
+Malignant hypertensive renal disease is kidney injury caused by severely elevated blood pressure. Lowering blood pressure through arteriolar vasodilation is therefore mechanistically plausible. However, this is largely a narrower form of the original indication, not a distinct new therapeutic area. The high TxGNN score probably reflects this closeness to hypertension. No trials or literature were found to confirm benefit specifically in the renal setting.
+
+**Other predictions reviewed (all Hold unless noted):**
+
+| Rank | Predicted Indication | Score | Evidence Level | Comment |
+|---|---|---|---|---|
+| 2 | Malignant renovascular hypertension | 96.86% | L5 | One paper on the aldosterone/renin ratio (diagnostic methodology), not evidence of efficacy |
+| 3 | Pulmonary hypertension owing to lung disease and/or hypoxia | 96.70% | L4 | Mostly tumour-hypoxia and preclinical papers; one Cochrane review in infants with hypoxemic respiratory failure |
+| 4 | Pulmonary hypertension, unclear multifactorial mechanism | 96.70% | L5 | No evidence |
+| 5 | Braddock syndrome | 95.77% | L5 | No mechanistic link, no evidence |
+| 6 | Chronic pulmonary heart disease | 88.29% | L3 | Haemodynamic studies in heart failure and COPD with cor pulmonale; flagged as a research question |
+
+Ranks 7–10 (ocular tuberculosis, congenital temporomandibular joint ankylosis, polydipsia, obsolete superimposed infection) have moderate scores (57–59%) and no supporting evidence.
 
 ---
 
@@ -68,31 +80,56 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available.
+No literature is available for the top-ranked prediction (malignant hypertensive renal disease). The closest supporting studies are for **chronic pulmonary heart disease** (rank 6), shown below for context only:
+
+| PMID | Year | Type | Journal | Key Findings |
+|------|-----|------|------|---------|
+| [825327](https://pubmed.ncbi.nlm.nih.gov/825327/) | 1976 | Cohort | Circulation | Oral hydralazine in 10 patients with refractory heart failure lowered systemic vascular resistance by 42% |
+| [7225252](https://pubmed.ncbi.nlm.nih.gov/7225252/) | 1981 | Cohort | Br Heart J | Hydralazine and isosorbide dinitrate, alone and combined, in chronic heart failure at rest and on upright exercise |
+| [6780233](https://pubmed.ncbi.nlm.nih.gov/6780233/) | 1981 | Cohort | Circulation | The combination improved haemodynamics but caused postural hypotension and tachycardia |
+| [23450605](https://pubmed.ncbi.nlm.nih.gov/23450605/) | 2013 | Cohort / systematic review | Cochrane Database Syst Rev | Hydralazine in infants with persistent hypoxemic respiratory failure and pulmonary hypertension |
+| [6692695](https://pubmed.ncbi.nlm.nih.gov/6692695/) | 1984 | Study | Chest | Haemodynamic effects of hydralazine in advanced COPD with cor pulmonale; pulmonary arterial pressure increased after intravenous dosing |
+| [3053182](https://pubmed.ncbi.nlm.nih.gov/3053182/) | 1988 | Review | Eur Heart J | Long-term vasodilator trials in pulmonary hypertension due to lung disease gave inconsistent results, with sometimes major side effects |
+| [36994251](https://pubmed.ncbi.nlm.nih.gov/36994251/) | 2023 | Case report | Cureus | Hydralazine-induced vasculitis, a rare serious adverse effect |
 
 ---
 
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Manufacturer |
+| Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN00211P | APO-HYDRALAZINE TABLET 10 mg | Tablet | Apotex Inc |
-| SIN00210P | APO-HYDRALAZINE TABLET 25 mg | Tablet, film coated | Apotex Inc |
-| SIN01086P | HYDRALAZINE TABLETS 10 mg | Tablet, film coated | Beacons Pharmaceuticals Pte. Ltd. |
-| SIN01148P | APO-HYDRALAZINE TABLET 50 mg | Tablet, film coated | Apotex Inc |
-| SIN01089P | HYDRALAZINE TABLET 50 mg | Tablet, film coated | Beacons Pharmaceuticals Pte. Ltd. |
+| SIN00211P | APO-Hydralazine Tablet 10 mg | Tablet | Not stated in the data |
+| SIN00210P | APO-Hydralazine Tablet 25 mg | Tablet, film coated | Not stated in the data |
+| SIN01148P | APO-Hydralazine Tablet 50 mg | Tablet, film coated | Not stated in the data |
+| SIN01086P | Hydralazine Tablets 10 mg (Beacons Pharmaceuticals) | Tablet, film coated | Not stated in the data |
+| SIN01089P | Hydralazine Tablet 50 mg (Beacons Pharmaceuticals) | Tablet, film coated | Not stated in the data |
 
-All registered products are oral formulations.
+All five licences are valid single-ingredient oral products.
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+**Contraindications (from the knowledge graph, not label text):** The TxGNN knowledge graph links hydralazine to the following contraindicated conditions. These need verification against the package insert.
+- **Cardiovascular:** coronary artery disease, hypertrophic cardiomyopathy, stroke, cerebrovascular disorder, hypotensive disorder
+- **Renal / metabolic:** kidney disease, anuria, diabetes mellitus, diabetic ketoacidosis, gout, hyperuricemia, hypercalcemia, hyperparathyroidism, nephrocalcinosis, potassium deficiency
+- **Autoimmune:** systemic lupus erythematosus (including paediatric)
+- **Hepatic / GI:** hepatic coma and encephalopathy, pancreatitis, peptic ulcer disease
+- **Neuropsychiatric:** epilepsy, anxiety and neurotic disorders, dysthymic disorder
+- **Other:** slow acetylator status, neonatal jaundice
 
-Literature retrieved for other predicted indications does flag two hydralazine-related concerns to address in any future evaluation:
-- **Postural hypotension and tachycardia** with hydralazine plus isosorbide dinitrate in heart failure (PMID 6780233).
-- **Drug-induced vasculitis**, a rare but serious adverse effect (PMID 36994251).
+Kidney disease and systemic lupus erythematosus are especially relevant here, because the proposed indication is a renal condition.
+
+**Drug Interactions:** The interaction database returned 100 entries. Most of those listed are Moderate severity:
+- Corticosteroids: hydrocortisone, prednisone, prednisolone, dexamethasone, betamethasone, budesonide, triamcinolone
+- SGLT2 inhibitors: canagliflozin, dapagliflozin, empagliflozin, ertugliflozin
+- Statins: rosuvastatin, simvastatin
+- Others: bupropion, morphine, aspirin, metronidazole, dronabinol, sapropterin
+- Alosetron is Minor.
+
+**Literature safety signals:** postural hypotension and tachycardia (with isosorbide dinitrate), and hydralazine-induced vasculitis.
+
+Package insert warnings and contraindications were not available for this report. Please refer to the package insert for authoritative safety information.
 
 ---
 
@@ -101,23 +138,14 @@ Literature retrieved for other predicted indications does flag two hydralazine-r
 **Decision: Hold**
 
 **Rationale:**
-The top prediction has a high model score (96.86%) but no supporting trials or publications, and the record has no original indication or mechanism data. It stays at L5 and cannot progress on current evidence.
+The TxGNN score is high (96.86%), but it is prediction-only (L5), with no trials or relevant literature. The indication largely overlaps with hydralazine's existing hypertension use, so it adds little as repurposing. Among the other predictions, chronic pulmonary heart disease has the most indirect support (L3), but the studies address heart failure and COPD haemodynamics rather than the predicted disease, and some show unfavourable effects.
 
 **To proceed, the following is needed:**
-- Singapore package insert (warnings, contraindications, approved indications) from the HSA website
+- Package insert warnings and contraindications from the HSA, which are a blocking gap for safety screening
 - Mechanism of action data from DrugBank
-- A targeted literature search on hydralazine in malignant hypertension and hypertensive nephropathy
-- Comparison against established treatments for hypertensive emergencies with renal involvement
-
-**Other predictions worth noting:**
-- **Chronic pulmonary heart disease** (rank 6, score 88.29%, L3, "Research Question") has the most evidence of the ten predictions.
-  - Small 1980s hemodynamic studies of hydralazine in COPD with cor pulmonale (PMID 6692695, 6407295) and in chronic heart failure (PMID 825327, 7426183, 7225252) exist.
-  - None reports confirmed efficacy or outcome endpoints.
-  - The one listed trial (NCT03967496) is unrelated (postoperative delirium).
-- **Malignant renovascular hypertension** (rank 2, L4) has only indirect literature, and none of the three papers evaluates hydralazine for it.
-- The remaining predictions (pulmonary hypertension, Braddock syndrome, ocular tuberculosis, temporomandibular joint ankylosis, polydipsia, obsolete superimposed infection) have no usable evidence and no plausible mechanistic link. They are likely knowledge-graph artifacts.
-
-*This report is for research reference only and does not constitute medical advice. Repurposing candidates require clinical validation before any clinical use.*
+- Clinical or observational evidence of hydralazine in malignant hypertensive nephropathy
+- A decision on whether this counts as a new indication or as a refinement of the existing hypertension label
+- Safety review against the contraindication list, especially kidney disease and lupus
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Moxifloxacin
 parent: Low Evidence (L5)
-nav_order: 682
+nav_order: 690
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,20 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Moxifloxacin: From Antibacterial Therapy to Hyperamylasemia
+# Moxifloxacin: From Bacterial Infections to Hyperamylasemia
 
 ## One-Sentence Summary
 
-Moxifloxacin is a fluoroquinolone antibiotic that is marketed in Singapore under 14 registrations.
-The TxGNN model predicts it may be effective for **hyperamylasemia**, but there are **0 clinical trials** and **0 publications** supporting this prediction.
-The high score is a graph-based signal only, and no plausible mechanism has been identified.
+Moxifloxacin is a fluoroquinolone antibiotic, originally used for bacterial infections such as pneumonia, conjunctivitis and plague.
+The TxGNN model predicts it may be effective for **hyperamylasemia**, but this rests on a model prediction alone, with **0 clinical trials** and **0 publications** supporting it.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the registration data (moxifloxacin is a fluoroquinolone antibacterial) |
+| Original Indication | Bacterial infections (streptococcal and staphylococcal infections, bacterial pneumonia, peritonitis, conjunctivitis, plague, etc.) |
 | Predicted New Indication | Hyperamylasemia |
 | TxGNN Prediction Score | 99.98% |
 | Evidence Level | L5 |
@@ -49,49 +50,74 @@ The high score is a graph-based signal only, and no plausible mechanism has been
 | Number of Registrations | 14 |
 | Recommended Decision | Hold |
 
+The Singapore registrations in the compiled data carry no approved-indication text. The original indications above come from the TxGNN knowledge graph, not from approved labelling.
+
+---
+
 ## Why is This Prediction Reasonable?
 
-Detailed mechanism of action data is not currently available. Moxifloxacin is a fluoroquinolone antibiotic. Its known antibacterial action is inhibition of bacterial DNA gyrase and topoisomerase IV.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Moxifloxacin is a fluoroquinolone antibacterial. Drugs in this class inhibit bacterial DNA gyrase and topoisomerase IV, and its efficacy in bacterial respiratory, intra-abdominal, eye and plague infections is established.
 
-Hyperamylasemia is a laboratory finding (raised serum amylase), not an infectious disease. That antibacterial mechanism does not plausibly address it. The high TxGNN score comes from network-level associations and is not backed by any mechanistic, clinical or literature evidence. The prediction should be treated as a hypothesis with very low support.
+Hyperamylasemia is a laboratory finding, an elevated serum amylase level. It is not an infectious disease. No plausible mechanism links an antibacterial to lowering amylase, so the prediction looks like a graph-based artefact rather than a biologically grounded signal. A high score therefore should not be read as evidence of benefit.
+
+---
 
 ## Clinical Trial Evidence
 
 Currently no related clinical trials registered.
 
+---
+
 ## Literature Evidence
 
 Currently no related literature available.
 
+---
+
 ## Singapore Market Information
 
-| Authorization Number | Product Name | Dosage Form | Approved Indication |
-|---------|------|------|-----------|
-| SIN11971P | AVELOX SOLUTION FOR INFUSION 400 mg/250 ml | Injection | Not listed |
-| SIN15769P | MOXETERO MOXIFLOXACIN FILM-COATED TABLETS 400 MG | Film-coated tablet | Not listed |
-| SIN15579P | MOLOXIN FILM-COATED TABLETS 400MG | Film-coated tablet | Not listed |
-| SIN17209P | MOXIFCIN FILM COATED TABLET 400MG | Film-coated tablet | Not listed |
-| SIN15670P | JOYLOXIN FILM COATED TABLET 400MG | Film-coated tablet | Not listed |
+Moxifloxacin has 14 valid single-ingredient registrations in Singapore and none cancelled. They cover oral tablets, intravenous infusions and ophthalmic solutions. The five main ones are:
 
-Both injectable and oral forms are available, so no new formulation would be needed for a hypothetical new use.
+| Authorization Number | Product Name | Dosage Form |
+|---------|------|------|
+| SIN11351P | Avelox Tablet 400 mg | Film-coated tablet |
+| SIN11971P | Avelox Solution for Infusion 400 mg/250 ml | Injection |
+| SIN12614P | Vigamox Ophthalmic Solution 0.5% | Solution |
+| SIN15310P | Moxifloxacin Kabi Solution for Infusion 400 mg/250 ml | Infusion solution |
+| SIN15579P | Moloxin Film-Coated Tablets 400 mg | Film-coated tablet |
+
+---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. The interaction query returned no records.
+Please refer to the package insert for key warnings and contraindications.
+
+- **Conditions flagged as contraindicated in the knowledge graph** (these are graph associations, not label text):
+  - Cardiac: long QT syndrome (including familial), torsades de pointes, sudden cardiac arrest, heart conduction disease, myocardial ischemia, coronary artery disease.
+  - Nervous system and muscle: epilepsy, myasthenia gravis, other neuromuscular junction disease, peripheral neuropathy and other peripheral nervous system disease, tendinitis, periarthritis, exostosis.
+  - Liver, gut and metabolic: cirrhosis of the liver, drug-induced liver injury, potassium deficiency, *Clostridium difficile* colitis, perinatal necrotizing enterocolitis.
+- **Drug interactions:** 100 interactions were recorded. Among the 20 reviewed, the following are rated **Major**:
+  - Corticosteroids: hydrocortisone, triamcinolone, dexamethasone, betamethasone.
+  - Others: bupropion, chlorpropamide.
+  
+  Moderate interactions include antidiabetic agents (metformin, pioglitazone, alogliptin, canagliflozin, acarbose, albiglutide), calcium and potassium salts, famotidine, loperamide, aspirin, balsalazide and bisacodyl.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction for hyperamylasemia is supported only by the model score. There are no trials or publications, and no plausible mechanism links an antibacterial to a laboratory finding. The evidence level is L5, and the package insert safety data has not been retrieved.
+The prediction has no supporting trials or publications and no plausible mechanism, and hyperamylasemia is a laboratory finding rather than a treatable infection. The high TxGNN score alone does not justify further investment.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications (a blocking gap for safety screening)
-- Detailed mechanism of action data from DrugBank
-- A clinical or biological rationale for hyperamylasemia, if the prediction is to be pursued at all
+- Any direct clinical or preclinical evidence that moxifloxacin lowers amylase or treats a condition causing hyperamylasemia
+- Mechanism of action data and a mechanistic rationale
+- Package insert warnings and contraindications for Singapore-registered products
+- A review of the safety profile, especially QT prolongation, tendon and neuropathy risks, and the major corticosteroid interactions, before any new use is considered
 
-**Note on other predictions:** Among the ten predictions in this pack, **bubonic plague** (rank 10, score 99.41%) is the only one with a plausible mechanism. It has three preclinical studies on *Yersinia pestis* (in vitro pharmacodynamic and mouse models). It is currently rated L4 and "Research Question", and there are no human trials in the data. If a lead candidate is needed, it is the more defensible one to review.
+**Note:** Among the other model predictions for moxifloxacin, bubonic plague has the most supporting evidence. It rests on preclinical studies (animal and in vitro models) and is a close extension of the existing plague indication, so it may be a better candidate to explore.
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

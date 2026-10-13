@@ -2,7 +2,7 @@
 layout: default
 title: Flupentixol
 parent: Low Evidence (L5)
-nav_order: 440
+nav_order: 444
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,12 +29,13 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Flupentixol: From Antipsychotic Use to Retinal Dystrophy
+# Flupentixol: From Schizophrenia to Retinal Dystrophy (Model Prediction Only)
 
 ## One-Sentence Summary
 
-Flupentixol is a marketed drug in Singapore (Deanxit tablets). The Singapore record does not state an approved indication, but the drug is generally known as a dopamine-antagonist antipsychotic.
-The TxGNN model predicts it may be effective for **retinal dystrophy with or without extraocular anomalies**, but **0 clinical trials** and **no publications that mention flupentixol** support this. This is a model-only prediction.
+Flupentixol is an antipsychotic originally used to treat schizophrenia.
+The TxGNN model predicts it may be effective for **retinal dystrophy with or without extraocular anomalies**,
+but there are currently **0 clinical trials** and **0 publications** supporting this prediction, so it rests on the model output alone.
 
 ---
 
@@ -42,7 +43,7 @@ The TxGNN model predicts it may be effective for **retinal dystrophy with or wit
 
 | Item | Content |
 |------|------|
-| Original Indication | Not stated in the Singapore record (generally known as an antipsychotic) |
+| Original Indication | Schizophrenia (from the knowledge graph; the Singapore licence record contains no indication text) |
 | Predicted New Indication | Retinal dystrophy with or without extraocular anomalies |
 | TxGNN Prediction Score | 99.99% |
 | Evidence Level | L5 |
@@ -54,11 +55,23 @@ The TxGNN model predicts it may be effective for **retinal dystrophy with or wit
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Flupentixol is generally known as a dopamine D1/D2 antagonist antipsychotic. Nothing in the evidence links dopamine receptor blockade to the photoreceptor or retinal pigment epithelium pathology that drives inherited retinal dystrophies.
+Detailed mechanism of action data is not available in the data compiled for this report. Pharmacology records show that flupentixol binds dopamine D1, D2, D3 and D5 receptors. It is a thioxanthene antipsychotic whose effect in schizophrenia is understood to come mainly from dopamine receptor antagonism.
 
-The TxGNN score is a knowledge-graph output only. All ten predicted candidates for this drug score between 0.96 and 0.9999, so the score does not distinguish a credible candidate from a spurious one. The candidates include rare genetic and congenital conditions such as Charcot-Marie-Tooth type 1G, hydranencephaly and several forms of X-linked or syndromic myopia. None has a supporting trial or publication.
+For the predicted indication, no mechanistic link is established. Inherited retinal dystrophies are genetically heterogeneous, and no known pathway connects dopamine receptor blockade to their underlying causes. The very high TxGNN score (0.9999) is a graph-based prediction and should not be read as evidence of efficacy.
 
-The nearest speculative link is in myopia, where retinal dopamine signaling is discussed. Flupentixol is an antagonist, which would be expected to act in the unfavorable direction. That link is not part of the top-ranked prediction and has no supporting data.
+**Other predictions in the top 10 (all L5, all Hold):**
+
+| Rank | Predicted Indication | TxGNN Score | Comment |
+|----|------|------|------|
+| 2 | Charcot-Marie-Tooth disease, demyelinating, type 1G | 99.99% | No disease-modifying relevance for dopamine antagonism; antipsychotic neurological side effects are a concern |
+| 3 | Congenital disorder of glycosylation with defective fucosylation | 99.99% | Metabolic defect unrelated to receptor pharmacology |
+| 4 | Polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis | 99.99% | Developmental malformation; a symptomatic drug is not expected to modify it |
+| 5 | Hydranencephaly | 99.99% | Structural brain anomaly with no pharmacological rationale |
+| 6 | Myopia, X-linked | 99.99% | Retinal dopamine influences eye growth, but antagonism would be expected to be unfavourable |
+| 7 | Syndromic myopia | 99.99% | Same limitation as above |
+| 8 | Myopia 26, X-linked, female-limited | 99.98% | Same limitation as above |
+| 9 | Atypical glycine encephalopathy | 99.98% | No known action on glycine metabolism |
+| 10 | Distal 17p13.3 microdeletion syndrome | 96.01% | Genetic deletion that a receptor antagonist would not correct |
 
 ---
 
@@ -70,20 +83,7 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-The search returned 15 hits. None mentions flupentixol, and none supports a drug-disease link. They are general ophthalmology and orbital anomaly papers. The 10 most relevant are listed below.
-
-| PMID | Year | Type | Journal | Key Findings |
-|------|-----|------|------|---------|
-| [7035111](https://pubmed.ncbi.nlm.nih.gov/7035111/) | 1981 | Review | Doc Ophthalmol | Wagner-Stickler syndrome complex: vitreoretinal degeneration with variable systemic features; no drug data |
-| [33806565](https://pubmed.ncbi.nlm.nih.gov/33806565/) | 2021 | Not classified | Int J Mol Sci | Optic nerve head and retinal abnormalities in congenital fibrosis of the extraocular muscles; no drug data |
-| [33447730](https://pubmed.ncbi.nlm.nih.gov/33447730/) | 2020 | Review | Ther Adv Ophthalmol | Eye involvement in inherited metabolic disorders; no drug data |
-| [38321238](https://pubmed.ncbi.nlm.nih.gov/38321238/) | 2024 | Review | Pediatr Radiol | Imaging features of pediatric ocular pathologies; no drug data |
-| [24932988](https://pubmed.ncbi.nlm.nih.gov/24932988/) | 2014 | Not classified | Am J Ophthalmol | Pathogenesis and treatment of maculopathy with cavitary optic disc anomalies; no drug data |
-| [38249493](https://pubmed.ncbi.nlm.nih.gov/38249493/) | 2023 | Review | Taiwan J Ophthalmol | Congenital anomalies of lens shape; no drug data |
-| [30196776](https://pubmed.ncbi.nlm.nih.gov/30196776/) | 2018 | Not classified | J Binocul Vis Ocul Motil | Congenital cranial dysinnervation disorders causing ophthalmoplegia; no drug data |
-| [22241537](https://pubmed.ncbi.nlm.nih.gov/22241537/) | 2012 | Review | Klin Monbl Augenheilkd | Congenital ptosis; no drug data |
-| [20127583](https://pubmed.ncbi.nlm.nih.gov/20127583/) | 2010 | Review | Semin Neurol | Approach to diplopia; no drug data |
-| [9416661](https://pubmed.ncbi.nlm.nih.gov/9416661/) | 1997 | Review | Semin Ultrasound CT MR | Orbital infections; no drug data |
+Currently no related literature available.
 
 ---
 
@@ -91,13 +91,16 @@ The search returned 15 hits. None mentions flupentixol, and none supports a drug
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN00913P | DEANXIT TABLET (H. Lundbeck A/S) | Tablet, film coated | Not listed in the record |
+| SIN00913P | DEANXIT TABLET (H. Lundbeck A/S) | Film-coated tablet (oral) | Not stated in the licence record |
 
 ---
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information. No drug interaction records were found for this drug.
+- **Drug Interactions:** The interaction search completed, but it returned only pharmacological target records (dopamine D1, D2, D3 and D5 receptors), not drug–drug interactions. No interacting drugs are listed.
+- **Class-related caution:** Antipsychotics can cause extrapyramidal and other neurological adverse effects. This would need careful consideration in any neurological population, such as patients with Charcot-Marie-Tooth disease.
+
+Please refer to the package insert for warnings and contraindications.
 
 ---
 
@@ -106,13 +109,13 @@ Please refer to the package insert for safety information. No drug interaction r
 **Decision: Hold**
 
 **Rationale:**
-The prediction rests on a knowledge-graph score alone (L5). There are no trials, the retrieved literature never mentions flupentixol, and there is no plausible mechanism linking dopamine antagonism to inherited retinal dystrophy.
+The predictions rest only on model scores. There are no clinical trials or publications, and no plausible mechanistic link between dopamine receptor antagonism and any of the predicted conditions. The Singapore licence record also lacks approved indication and safety text.
 
 **To proceed, the following is needed:**
-- The Singapore package insert (warnings, contraindications and approved indication), so safety screening can begin
-- Mechanism of action data from DrugBank, to test whether any mechanistic link exists
-- Preclinical or literature evidence that specifically connects flupentixol to retinal disease
-- A re-ranking of the candidates using evidence rather than the TxGNN score, since all ten scores sit in a narrow band
+- Retrieval of the package insert (warnings, contraindications, approved indications) from the HSA website
+- Detailed mechanism of action data from DrugBank
+- Preclinical or mechanistic evidence for a link to retinal dystrophy, or a literature and trial search to confirm none exists
+- A review of the safety profile for the proposed target population
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

@@ -2,7 +2,7 @@
 layout: default
 title: Gadoteric Acid
 parent: Low Evidence (L5)
-nav_order: 459
+nav_order: 463
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,15 +33,15 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ## One-Sentence Summary
 
-Gadoteric acid is a gadolinium-based contrast agent used in magnetic resonance imaging (MRI), not a treatment for any disease.
-The TxGNN model predicts it may be effective for **osteoarthritis**, but **0 clinical trials** and **0 publications** support this.
-The prediction is most likely an artifact of the knowledge graph, so this is a computational result only.
+Gadoteric acid is a macrocyclic gadolinium-based MRI contrast agent, used for diagnostic imaging rather than treatment.
+The TxGNN model predicts it may be effective for **osteoarthritis**, but **no clinical trials and no publications** currently support this direction.
+The prediction rests on model output alone and has no mechanistic or clinical backing.
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | Not listed in the Singapore registration records (gadolinium-based MRI contrast agent) |
+| Original Indication | No approved indication text in the registration data (the agent is a diagnostic MRI contrast agent) |
 | Predicted New Indication | Osteoarthritis |
 | TxGNN Prediction Score | 98.57% |
 | Evidence Level | L5 |
@@ -51,11 +51,23 @@ The prediction is most likely an artifact of the knowledge graph, so this is a c
 
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available. Gadoteric acid is a paramagnetic gadolinium-based MRI contrast agent. It improves image contrast rather than treating disease, and it has no known disease-modifying pharmacology.
+Currently, detailed mechanism of action data is not available. Gadoteric acid is a paramagnetic gadolinium chelate used to enhance contrast in MRI. It has no known therapeutic pharmacology, is not metabolised, and is excreted unchanged by the kidney.
 
-There is no plausible therapeutic link between an imaging agent and osteoarthritis. The high score most likely reflects the drug's closeness to musculoskeletal diseases in the knowledge graph, not a real pharmacological effect. The other top-ranked predictions (for example osteoarthritis susceptibility, pseudoachondroplasia, brachyolmia and gout) show the same pattern.
+The high TxGNN score most likely reflects network proximity or imaging associations with joint disease in the knowledge graph, not a therapeutic mechanism. No anti-inflammatory, chondroprotective or disease-modifying activity is documented. Gadolinium retention and the risk of nephrogenic systemic fibrosis argue against any therapeutic use.
 
-The nearest related evidence concerns rheumatoid arthritis, a different disease. Two older MRI studies (1990 and 1992) used Gd-DOTA to visualize inflamed synovium in the knee. They show a diagnostic use only, with no anti-inflammatory or therapeutic effect, so they do not support repurposing as a treatment.
+The other top predictions show the same pattern:
+
+| Rank | Predicted Disease | Score | Assessment |
+|------|------|------|------|
+| 2 | Osteoarthritis susceptibility | 98.39% | Genetic susceptibility phenotype, not a treatable indication; graph artefact |
+| 3 | Rheumatoid arthritis | 98.21% | No immunomodulatory mechanism; link limited to diagnostic imaging of synovitis |
+| 4 | Pseudoachondroplasia | 97.80% | Rare skeletal dysplasia (COMP mutations); no action on this pathway |
+| 5 | Hepatic porphyria | 97.72% | No link to heme biosynthesis |
+| 6 | Gout | 97.66% | No known effect on urate metabolism or crystal-induced inflammation |
+| 7 | Brachyolmia | 97.63% | Genetic skeletal dysplasia; no plausible mechanism |
+| 8 | Acromesomelic dysplasia, Hunter-Thompson type | 97.49% | GDF5 signalling defect; no known interaction |
+| 9 | Myosclerosis | 97.38% | No rationale; gadolinium agents are linked to fibrosing disorders in renal impairment, a safety concern |
+| 10 | Brachyolmia-amelogenesis imperfecta syndrome | 97.38% | LTBP3-related genetic syndrome; no pharmacological link |
 
 ## Clinical Trial Evidence
 
@@ -63,35 +75,40 @@ Currently no related clinical trials registered.
 
 ## Literature Evidence
 
-Currently no related literature available for osteoarthritis.
+Currently no related literature available.
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN15973P | DOTAGRAF Solution for Injection 0.5 mmol/ml | Injection, solution | Not listed in registration data |
-| SIN09008P | DOTAREM Injection 27.932 g/100 ml | Injection | Not listed in registration data |
-| SIN15693P | CLARISCAN Solution for Injection in Vial 0.5 mmol/ml | Injection, solution | Not listed in registration data |
-| SIN15694P | CLARISCAN Solution for Injection in Pre-filled Syringe 0.5 mmol/ml | Injection, solution | Not listed in registration data |
+| SIN15973P | DOTAGRAF Solution for Injection 0.5 mmol/mL | Injection, solution | Not stated in the data |
+| SIN09008P | DOTAREM Injection 27.932 g/100 mL | Injection | Not stated in the data |
+| SIN15693P | CLARISCAN Solution for Injection in Vial 0.5 mmol/mL | Injection, solution | Not stated in the data |
+| SIN15694P | CLARISCAN Solution for Injection in Pre-filled Syringe 0.5 mmol/mL | Injection, solution | Not stated in the data |
+
+All four licences are valid single-ingredient injectable products.
 
 ## Safety Considerations
 
-Please refer to the package insert for safety information.
+- **Drug Interactions**: 30 interactions were identified, and all 20 listed in the data are rated Moderate. They are mainly with:
+  - Beta-blockers: acebutolol, atenolol, betaxolol (including ophthalmic), bisoprolol, carvedilol, nadolol, labetalol, metoprolol, and the ophthalmic agents carteolol, levobunolol, metipranolol and timolol.
+  - Calcium channel blockers: nifedipine, amlodipine, levamlodipine, diltiazem, verapamil, clevidipine and isradipine.
+- **Class concerns**: Gadolinium-based agents carry a risk of nephrogenic systemic fibrosis in patients with renal impairment, and gadolinium retention has been reported. These points come from the mechanistic assessment, not from label text.
 
-Gadolinium retention in tissue and the risk of nephrogenic systemic fibrosis (NSF) make therapeutic use of this class unattractive, particularly for a chronic condition such as osteoarthritis.
+Please refer to the package insert for the full warnings and contraindications.
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction has no clinical trials, no literature and no plausible mechanism, so it is evidence level L5. Repeated or long-term exposure to a gadolinium agent would carry a real safety cost with no expected benefit.
+The prediction is supported only by the model score. There are no clinical trials or publications, and no therapeutic mechanism is plausible for a diagnostic contrast agent. Its known safety profile also argues against therapeutic use.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications, to complete safety screening
-- Mechanism of action data from DrugBank
-- A credible mechanistic hypothesis and preclinical evidence linking gadoteric acid to osteoarthritis
-- A route and dosing rationale, since only injectable forms are registered in Singapore
+- Package insert warnings and contraindications from HSA, so safety screening can begin
+- Mechanism of action data, to allow any mechanistic-link analysis
+- Preclinical or clinical evidence of a therapeutic effect in osteoarthritis
+- A route and dosing feasibility assessment (route compatibility has not yet been evaluated)
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.

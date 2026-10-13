@@ -2,7 +2,7 @@
 layout: default
 title: Trastuzumab Deruxtecan
 parent: Low Evidence (L5)
-nav_order: 1003
+nav_order: 1013
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,19 +29,21 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Trastuzumab Deruxtecan: From HER2-Expressing Cancers to Drug-Induced Osteoporosis
+# Trastuzumab deruxtecan: From Its Registered Oncology Use to Drug-Induced Osteoporosis
 
 ## One-Sentence Summary
 
-> Trastuzumab deruxtecan is a HER2-directed antibody-drug conjugate carrying a topoisomerase I inhibitor payload, used in oncology.
-> The TxGNN model predicts it may be effective for **drug-induced osteoporosis**, with a very high score of 99.31%.
-> **No clinical trials and no publications** support this prediction, so it is a graph-based prediction only.
+Trastuzumab deruxtecan is a HER2-directed antibody-drug conjugate (a topoisomerase I inhibitor payload attached to an antibody) used in oncology, and it is registered in Singapore as ENHERTU.
+The TxGNN model ranks **drug-induced osteoporosis** as its top predicted new indication, but there are **0 clinical trials** and **0 publications** supporting this direction.
+This is a model-only prediction (Evidence Level L5) with no identifiable mechanistic link, so the recommendation is to hold.
+
+---
 
 ## Quick Overview
 
 | Item | Content |
 |------|------|
-| Original Indication | HER2-expressing cancers (oncology). The Singapore registration record does not state the approved indication text. |
+| Original Indication | Not available (the approved indication text in the Singapore licence record is empty) |
 | Predicted New Indication | Drug-induced osteoporosis |
 | TxGNN Prediction Score | 99.31% |
 | Evidence Level | L5 |
@@ -49,60 +51,75 @@ Evidence Level: **L5** | Predicted Indications: **10**
 | Number of Registrations | 1 |
 | Recommended Decision | Hold |
 
+---
+
 ## Why is This Prediction Reasonable?
 
-Currently, detailed mechanism of action data is not available in the record. From the known drug class, trastuzumab deruxtecan targets HER2 and delivers a cytotoxic topoisomerase I inhibitor to HER2-expressing cells.
+Currently, detailed mechanism of action data is not available in the data compiled for this report. Based on known information, trastuzumab deruxtecan is a HER2-directed antibody-drug conjugate with a topoisomerase I inhibitor payload, designed to deliver cytotoxic therapy to HER2-expressing tumours.
 
-We found no credible link between this mechanism and osteoporosis. HER2 targeting has no established role in bone remodelling, and a cytotoxic oncology drug is not a plausible osteoporosis therapy.
+On review, the prediction is **not mechanistically reasonable**. HER2-targeted cytotoxic delivery has no known connection to bone metabolism or osteoporosis. The high TxGNN score is a graph-based computational result, with no clinical or literature support behind it.
 
-The high TxGNN score of 0.993 is a network-based prediction. No trial or publication corroborates it, so it should be read as a hypothesis-generating signal, not evidence of efficacy.
+The other top-ranked predictions share the same weakness. They include severe nonproliferative diabetic retinopathy, diabetic retinopathy, bronchitis, diabetic cataract and several tumour or lesion types without HER2 dependence. For bronchitis in particular, the drug carries a boxed warning for interstitial lung disease/pneumonitis, so respiratory risk argues against use.
 
-Nine other predicted indications were also reviewed, including diabetic retinopathy, bronchitis and several tumour types. All were rated L5 and Hold. For the non-oncology ones, the mechanistic and safety rationale is unfavourable. The oncology-type ones (testicular tumours and non-seminomatous lesions) are speculative and would first need HER2 expression data.
+---
 
 ## Clinical Trial Evidence
 
-Currently no related clinical trials registered.
+Currently no related clinical trials registered for drug-induced osteoporosis.
+
+---
 
 ## Literature Evidence
 
-Currently no related literature available.
+Currently no related literature available for drug-induced osteoporosis.
+
+For reference, the literature retrieved for the rank-8 prediction ("ductal or ductular proliferation") consists mainly of HER2-positive and HER2-low breast, pancreatic and salivary ductal cancer reports. These are not evidence for the top-ranked indication, and several are adverse-event case reports (Fanconi syndrome, dermatomyositis, interstitial lung disease). They concern existing oncology use rather than repurposing, and should be evaluated separately.
+
+---
 
 ## Singapore Market Information
 
 | Authorization Number | Product Name | Dosage Form | Approved Indication |
 |---------|------|------|-----------|
-| SIN16352P | ENHERTU POWDER FOR CONCENTRATE FOR SOLUTION FOR INFUSION 100MG/VIAL (Baxter Oncology GmbH) | Infusion, solution concentrate | Not stated in the registration record |
+| SIN16352P | ENHERTU Powder for Concentrate for Solution for Infusion 100mg/vial (Baxter Oncology GmbH) | Infusion, solution concentrate | Not stated in the licence record |
+
+---
 
 ## Cytotoxicity
 
 | Item | Content |
 |------|------|
-| Cytotoxicity Classification | Targeted therapy: HER2-directed antibody-drug conjugate with a topoisomerase I inhibitor payload |
+| Cytotoxicity Classification | Antibody-drug conjugate with a cytotoxic topoisomerase I inhibitor payload (targeted therapy delivering a cytotoxic agent) |
 | Myelosuppression Risk | Please refer to the package insert warnings and precautions |
 | Emetogenicity Classification | Please refer to the package insert warnings and precautions |
-| Monitoring Items | Please refer to the package insert warnings and precautions |
-| Handling Protection | Must follow cytotoxic drug handling regulations (injectable antineoplastic) |
+| Monitoring Items | Please refer to the package insert warnings and precautions (at minimum CBC, liver and renal function; respiratory monitoring for interstitial lung disease/pneumonitis) |
+| Handling Protection | Must follow cytotoxic drug handling regulations |
+
+---
 
 ## Safety Considerations
 
-- **Respiratory risk**: The drug carries a known interstitial lung disease/pneumonitis risk.
-- **Ocular risk**: Ocular toxicity is a recognised concern. Both risks make benefit-risk implausible for non-malignant chronic conditions.
-- No interactions were found in the drug-interaction query.
+- **Key Warnings**: The compiled data contain no label text. The drug carries a boxed warning for interstitial lung disease/pneumonitis, and case reports describe Fanconi syndrome, dermatomyositis and interstitial lung disease after treatment.
+- **Drug Interactions**: 42 interactions were identified. Those listed at Major level include deferiprone, samarium (153Sm) lexidronam, adalimumab, baricitinib, certolizumab pegol, cladribine, leflunomide and natalizumab. Moderate-level examples include palifermin, strontium chloride Sr-89, roflumilast, chloramphenicol, alefacept, alemtuzumab, anakinra, azathioprine, canakinumab, dimethyl fumarate and niraparib. Many of these are immunosuppressive or myelosuppressive agents. Only 20 of the 42 are listed here.
 
-Please refer to the package insert for full safety information.
+For the full set of warnings and contraindications, please refer to the package insert.
+
+---
 
 ## Conclusion and Next Steps
 
 **Decision: Hold**
 
 **Rationale:**
-The prediction is supported only by a model score, with no clinical trials or literature. There is no plausible mechanistic link between a HER2-directed cytotoxic ADC and drug-induced osteoporosis. The systemic toxicity profile also argues against use in a non-malignant bone condition.
+The prediction rests only on a graph-based score, with no trials, no literature and no plausible mechanism linking a HER2-directed cytotoxic conjugate to osteoporosis. Using a toxic oncology agent in a non-oncologic bone condition would also raise a clear risk-benefit concern.
 
 **To proceed, the following is needed:**
-- HSA package insert warnings and contraindications (blocking for safety screening)
+- Package insert warnings and contraindications from HSA (currently a blocking data gap that prevents safety screening)
 - Mechanism of action data from DrugBank
-- Any preclinical or observational evidence linking the drug or its pathway to bone metabolism
-- A benefit-risk rationale for a non-oncology indication
+- The approved indication text for the Singapore licence
+- Any preclinical or mechanistic evidence linking the drug to bone metabolism, which does not currently exist
+- A risk-benefit justification for cytotoxic therapy in a non-oncologic indication
+- Evaluation of the approved HER2 oncology uses separately from this repurposing question
 ## Disclaimer
 
 This content is for research purposes only and does not constitute medical advice.
