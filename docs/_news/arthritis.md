@@ -13,7 +13,15 @@ permalink: /news/arthritis/
 
 ---
 
-**4 articles** related to arthritis.
+**5 articles** related to arthritis.
+
+---
+
+### [Services restored after hours-long disruption at public healthcare clusters; no indication of cyberattack: Health tech agency](https://www.todayonline.com/singapore/public-hospitals-healthcare-system-disruptions-6454651)
+
+2026-10-13
+
+Source: [TODAY](https://www.todayonline.com/singapore/public-hospitals-healthcare-system-disruptions-6454651)
 
 ---
 
