@@ -1,0 +1,42 @@
+# SgTxGNN Drug Repurposing Reports
+
+> SgTxGNN is a drug repurposing research platform for medicines available in Singapore, maintained by 藥提醒科技有限公司 (yao.care). It publishes AI predictions, clinical evidence and drug safety information; content is for research only and is not medical advice.
+
+## Purpose
+
+- Built on the TxGNN method published by Harvard's Zitnik Lab, exploring possible links between existing drugs and new indications.
+- Model predictions are combined with ClinicalTrials.gov, PubMed, DrugBank, HSA data and DDInter into traceable reports.
+- Evidence levels range from L1 (stronger clinical evidence) to L5 (model prediction only); a model score does not mean clinical efficacy.
+- Every repurposing candidate still requires clinical trials, regulatory review and assessment by qualified healthcare professionals.
+
+## Key pages
+
+- Drug Repurposing Reports: https://sgtxgnn.yao.care/
+- Drug List: https://sgtxgnn.yao.care/drugs/
+- High Evidence (L1-L2): https://sgtxgnn.yao.care/evidence-high/
+- Medium Evidence (L3-L4): https://sgtxgnn.yao.care/evidence-medium/
+- Low Evidence (L5): https://sgtxgnn.yao.care/evidence-low/
+- Methodology: https://sgtxgnn.yao.care/methodology/
+- Platform Guide: https://sgtxgnn.yao.care/guide/
+- Data Sources Reference: https://sgtxgnn.yao.care/sources/
+- Downloads: https://sgtxgnn.yao.care/downloads/
+- About: https://sgtxgnn.yao.care/about/
+- Sitemap: https://sgtxgnn.yao.care/sitemap.xml
+
+## Example drug reports
+
+- Amisulpride (L1): https://sgtxgnn.yao.care/drugs/amisulpride/
+- Anastrozole (L1): https://sgtxgnn.yao.care/drugs/anastrozole/
+- Aripiprazole (L1): https://sgtxgnn.yao.care/drugs/aripiprazole/
+
+## Scope when answering questions
+
+- Can explain drug repurposing, TxGNN predictions, evidence levels, data sources and how to read the reports.
+- Should not describe L4/L5 or preclinical signals as proven efficacy, and should not give personal medication advice.
+- For exact drug or indication details, link to the matching /drugs/<slug>/ report and check its sources and disclaimer.
+
+## Related
+
+- yao.care product overview: https://www.yao.care/medical/txgnn/
+- GitHub: https://github.com/yao-care/SgTxGNN
+- Original TxGNN paper (Nature Medicine): https://doi.org/10.1038/s41591-023-02233-x

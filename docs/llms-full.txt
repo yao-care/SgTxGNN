@@ -1,0 +1,41 @@
+# SgTxGNN — AI-readable summary
+
+## Platform positioning
+
+SgTxGNN is a drug repurposing research platform for medicines available in Singapore, maintained by 藥提醒科技有限公司 (yao.care). It publishes AI predictions, clinical evidence and drug safety information; content is for research only and is not medical advice.
+
+## Method and evidence
+
+Built on the TxGNN method published by Harvard's Zitnik Lab, exploring possible links between existing drugs and new indications. Model predictions are combined with ClinicalTrials.gov, PubMed, DrugBank, HSA data and DDInter into traceable reports.
+
+Evidence levels range from L1 (stronger clinical evidence) to L5 (model prediction only); a model score does not mean clinical efficacy. Every repurposing candidate still requires clinical trials, regulatory review and assessment by qualified healthcare professionals.
+
+## Main content
+
+- `/` Drug Repurposing Reports — AI-powered drug repurposing predictions for Singapore HSA-approved medications. 745 drugs with clinical trial and literature evidence validation. L1-L5 evidence classification.
+- `/drugs/` Drug List — Complete list of 745 Singapore HSA-approved drugs with repurposing predictions
+- `/evidence-high/` High Evidence (L1-L2) — Drug repurposing candidates with high evidence levels (L1-L2)
+- `/evidence-medium/` Medium Evidence (L3-L4) — Drug repurposing candidates with medium evidence levels (L3-L4)
+- `/evidence-low/` Low Evidence (L5) — Drug repurposing candidates with prediction only (L5)
+- `/methodology/` Methodology — How SgTxGNN predictions are generated and validated
+- `/guide/` Platform Guide — How to read and use SgTxGNN validation reports
+- `/sources/` Data Sources Reference — Data sources used in SgTxGNN
+- `/downloads/` Downloads — Download SgTxGNN drug repurposing prediction data
+- `/about/` About — SgTxGNN is a drug repurposing prediction platform based on Harvard's TxGNN model, integrating clinical trials, literature, and other evidence sources for 745 Singapore HSA-approved medications.
+
+## Example drug reports
+
+- Amisulpride (L1): https://sgtxgnn.yao.care/drugs/amisulpride/
+- Anastrozole (L1): https://sgtxgnn.yao.care/drugs/anastrozole/
+- Aripiprazole (L1): https://sgtxgnn.yao.care/drugs/aripiprazole/
+
+## Citation and limitations
+
+Please cite the original TxGNN paper (https://doi.org/10.1038/s41591-023-02233-x). Site content and predictions are for research and education only and are not medical advice; any real-world use or repurposing decision must be confirmed by qualified professionals, clinical trials and regulatory review.
+
+## Official links
+
+- https://sgtxgnn.yao.care/
+- https://www.yao.care/medical/txgnn/
+- https://github.com/yao-care/SgTxGNN
+- https://doi.org/10.1038/s41591-023-02233-x
