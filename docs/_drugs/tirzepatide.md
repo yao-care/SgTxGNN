@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tirzepatide: predicted new indication Gout (evidence level L3). Approved use: Not stated in the Singapore licence records compiled for this report.…"
+monitor_inn: "Tirzepatide"
+predicted_indications: ["gout", "osteoarthritis", "pseudoachondroplasia", "osteoarthritis susceptibility", "benign prostatic hyperplasia (disease)", "rheumatoid arthritis", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis"]
 ---
 
 # Tirzepatide

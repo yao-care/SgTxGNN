@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Mivacurium: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not stated in the Singapore licence record (the drug is known as a ne…"
+monitor_inn: "Mivacurium"
+predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "migraine disorder", "irritable bowel syndrome", "migraine with brainstem aura", "primary hereditary glaucoma", "open-angle glaucoma", "hypotrichosis simplex of the scalp", "seborrheic dermatitis", "congenital hypotrichosis milia"]
 ---
 
 # Mivacurium

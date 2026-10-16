@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Mebeverine: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Irritable bowel syndrome"
+monitor_inn: "Mebeverine"
+predicted_indications: ["cauda equina syndrome", "insomnia (disease)", "obsolete neurogenic bladder (disease)", "autonomic nervous system disease", "rhinitis", "familial mitral valve prolapse", "dysautonomia", "gastroduodenitis", "mitral valve prolapse (disease)", "MVP1"]
 ---
 
 # Mebeverine

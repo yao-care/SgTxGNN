@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Malathion: predicted new indication Seborrheic keratosis (evidence level L5). Approved use: Head lice infestation (Pediculus humanus capitis)"
+monitor_inn: "Malathion"
+predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "seborrheic dermatitis", "mycotic corneal ulcer", "inherited skin tumor", "anogenital human papillomavirus infection", "breast fibrocystic disease", "benign mammary dysplasia", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
 ---
 
 # Malathion

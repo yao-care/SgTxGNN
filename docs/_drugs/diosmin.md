@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Diosmin: predicted new indication Amenorrhea (evidence level L5). Approved use: Not stated in the Singapore registration records (diosmin is generall…"
+monitor_inn: "Diosmin"
+predicted_indications: ["amenorrhea (disease)", "primary release disorder of platelets", "pseudo-von Willebrand disease", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "Glanzmann thrombasthenia", "bone Paget disease", "non-syndromic esophageal malformation"]
 ---
 
 # Diosmin

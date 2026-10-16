@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Faricimab: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Not stated in the Singapore registration record. Faricimab is an intr…"
+monitor_inn: "Faricimab"
+predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "drug-induced osteoporosis", "esotropia", "severe nonproliferative diabetic retinopathy", "HER2 positive breast carcinoma", "diabetic retinopathy", "respiratory syncytial virus infectious disease", "fetal and neonatal alloimmune thrombocytopenia"]
 ---
 
 # Faricimab

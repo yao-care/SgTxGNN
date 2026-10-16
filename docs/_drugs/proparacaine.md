@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Proparacaine: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Not stated in the registration data (ophthalmic topical anaesthetic)"
+monitor_inn: "Proparacaine"
+predicted_indications: ["cauda equina syndrome", "allergic asthma", "intrinsic asthma", "hypotensive disorder", "obsolete neurogenic bladder (disease)", "papillary conjunctivitis", "pityriasis simplex", "asthma-related traits, susceptibility to", "lichen disease", "vertigo, benign recurrent, 2"]
 ---
 
 # Proparacaine

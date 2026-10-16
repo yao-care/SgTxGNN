@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Cefaclor: predicted new indication Gonococcal urethritis (evidence level L3). Approved use: Urinary tract infection, tonsillitis, pharyngitis, pneumonia…"
+monitor_inn: "Cefaclor"
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "gonococcal urethritis", "Ureaplasma urethritis", "congenital analbuminemia", "blood group incompatibility", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "premalignant hematological system disease", "monoclonal gammopathy"]
 ---
 
 # Cefaclor

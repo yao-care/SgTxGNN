@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Trifluoperazine: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Schizophrenia, anxiety"
+monitor_inn: "Trifluoperazine"
+predicted_indications: ["manic bipolar affective disorder", "syndromic myopia", "myopia X-linked", "retinal dystrophy with or without extraocular anomalies", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
 ---
 
 # Trifluoperazine

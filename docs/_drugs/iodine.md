@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Iodine: predicted new indication Sjögren syndrome (evidence level L5). Approved use: Not available"
+monitor_inn: "Iodine"
+predicted_indications: ["Sjogren syndrome", "prolapse of lacrimal gland", "acne (disease)", "seborrheic keratosis", "fetal erythroblastosis", "recurrent corneal erosion", "keratitis", "vulvar inverted follicular keratosis", "peptic esophagitis", "lacrimal gland neoplasm"]
 ---
 
 # Iodine

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Icodextrin: predicted new indication Irritable bowel syndrome (evidence level L5). Approved use: Not stated in the Singapore license data (the product is a peritoneal…"
+monitor_inn: "Icodextrin"
+predicted_indications: ["irritable bowel syndrome", "non-syndromic esophageal malformation", "C1 inhibitor deficiency", "potassium deficiency disease", "serpinopathy with toxic serpin polymerization", "hereditary angioedema with C1Inh deficiency", "esophageal disease", "familial visceral myopathy", "renal tubular acidosis", "vitamin deficiency disorder"]
 ---
 
 # Icodextrin

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Nemolizumab: predicted new indication Diabetic cataract (evidence level L5). Approved use: Not stated in the Singapore licence data. Per pharmacology data…"
+monitor_inn: "Nemolizumab"
+predicted_indications: ["diabetic cataract", "immature cataract", "mature cataract", "tetanic cataract", "craniostenosis cataract", "diabetes mellitus type 2 associated cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "diabetic retinopathy"]
 ---
 
 # Nemolizumab

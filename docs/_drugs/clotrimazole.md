@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Clotrimazole: predicted new indication Acne (evidence level L4). Approved use: Tinea pedis, tinea corporis and other tinea infections…"
+monitor_inn: "Clotrimazole"
+predicted_indications: ["acne (disease)", "vulvovaginitis", "postmenopausal atrophic vaginitis", "trichomonal vulvovaginitis", "tinea profunda", "ectothrix infectious disease", "Majocchi granuloma", "endothrix infectious disease", "superficial mycosis", "dermatophytosis of scalp or beard"]
 ---
 
 # Clotrimazole

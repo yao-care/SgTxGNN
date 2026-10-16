@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Desonide: predicted new indication Polyp of vocal cord (evidence level L5). Approved use: Not stated in the Singapore licence records. The knowledge graph list…"
+monitor_inn: "Desonide"
+predicted_indications: ["polyp of vocal cord", "polyp of middle ear", "polyp of external auditory canal", "polyp of frontal sinus", "polyp of ureter", "polyp of vulva", "fibroepithelial polyp", "neoplastic polyp", "epulis", "uterine polyp"]
 ---
 
 # Desonide

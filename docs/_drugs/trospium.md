@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Trospium: predicted new indication Irritable bowel syndrome (evidence level L5). Approved use: Overactive bladder"
+monitor_inn: "Trospium"
+predicted_indications: ["irritable bowel syndrome", "cauda equina syndrome", "obsolete neurogenic bladder (disease)", "common cold", "dysthymic disorder", "neurocirculatory asthenia", "open-angle glaucoma", "autonomic nervous system disease", "insomnia (disease)", "primary hereditary glaucoma"]
 ---
 
 # Trospium

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Sertaconazole: predicted new indication Dermatophytosis of groin and perianal area (evidence level L5). Approved use: Tinea pedis"
+monitor_inn: "Sertaconazole"
+predicted_indications: ["dermatophytosis of groin and perianal area", "tinea corporis", "cutaneous candidiasis", "Majocchi granuloma", "ectothrix infectious disease", "endothrix infectious disease", "superficial mycosis", "dermatophytosis of scalp or beard", "pityriasis versicolor", "tinea profunda"]
 ---
 
 # Sertaconazole

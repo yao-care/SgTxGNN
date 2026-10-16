@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tedizolid Phosphate: predicted new indication Post-infectious syndrome (evidence level L5). Approved use: Skin disease caused by infection"
+monitor_inn: "Tedizolid phosphate"
+predicted_indications: ["post-infectious syndrome", "post-bacterial disorder", "postinfectious vasculitis", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "otitis externa", "conjunctivitis", "infectious otitis interna", "infectious otitis media"]
 ---
 
 # Tedizolid Phosphate

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Fenofibric Acid: predicted new indication Top-ranked by TxGNN: cholesterol-ester transfer protein deficiency (evidence level L5). Approved use: Hypertriglyceridemia, hyperlipidemia, familial hyperlip…"
+monitor_inn: "Fenofibric acid"
+predicted_indications: ["cholesterol-ester transfer protein deficiency", "hyperlipoproteinemia", "hyperlipidemia due to hepatic triglyceride lipase deficiency", "familial hypercholesterolemia", "homozygous familial hypercholesterolemia", "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency", "hypercholesterolemia, autosomal dominant", "hypolipoproteinemia (disease)", "hepatopulmonary syndrome", "idiopathic copper-associated cirrhosis"]
 ---
 
 # Fenofibric Acid

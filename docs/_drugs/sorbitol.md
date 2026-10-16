@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Sorbitol: predicted new indication Exercise-induced malignant hyperthermia (evidence level L5). Approved use: Not stated in the Singapore licence record"
+monitor_inn: "Sorbitol"
+predicted_indications: ["exercise-induced malignant hyperthermia", "epiglottitis", "congestive heart failure", "infectious otitis media", "toxocariasis", "acute pulmonary heart disease", "middle ear cholesterol granuloma", "otosalpingitis", "allergic otitis media", "familial periodic paralysis"]
 ---
 
 # Sorbitol

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Testosterone Propionate: predicted new indication Urethral obstruction sequence (evidence level L5). Approved use: Male hypogonadism (other listed indications: eunuchism…"
+monitor_inn: "Testosterone propionate"
+predicted_indications: ["urethral obstruction sequence", "tetragametic chimerism", "testicular regression syndrome", "prune belly syndrome", "freemartinism", "penile/testicular agenesis", "arthrogryposis epileptic seizures migrational brain disorder", "inflammatory and autoimmune disease with epilepsy", "immune epilepsy", "polysomy of X chromosome"]
 ---
 
 # Testosterone Propionate

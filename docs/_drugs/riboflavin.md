@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Riboflavin: predicted new indication Biotin metabolic disease (evidence level L4). Approved use: Vitamin deficiency disorder"
+monitor_inn: "Riboflavin"
+predicted_indications: ["biotin metabolic disease", "congenital prothrombin deficiency", "corneal pigmentation", "type II mixed cryoglobulinemia", "ocular tuberculosis", "guttate psoriasis", "obsolete left bundle branch block", "obsolete superimposed infection", "valvar pulmonary stenosis", "sunburn"]
 ---
 
 # Riboflavin

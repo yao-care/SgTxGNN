@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Methyl Salicylate: predicted new indication Gout (evidence level L5). Approved use: Not specified"
+monitor_inn: "Methyl salicylate"
+predicted_indications: ["gout", "bronchitis", "exostosis", "congestive heart failure", "osteoarthritis susceptibility", "osteoarthritis", "acute pulmonary heart disease", "pseudoachondroplasia", "rheumatoid arthritis", "exostoses, multiple,"]
 ---
 
 # Methyl Salicylate

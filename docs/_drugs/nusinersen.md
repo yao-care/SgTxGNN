@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Nusinersen: predicted new indication Tendinopathy (evidence level L5). Approved use: Spinal muscular atrophy"
+monitor_inn: "Nusinersen"
+predicted_indications: ["tendinopathy", "CDKL5 disorder", "epilepsy of infancy with migrating focal seizures", "Rowley-Rosenberg syndrome", "myoclonic encephalopathy in non-progressive disorder", "febrile seizures plus, genetic epilepsy with febrile seizures plus", "ectodermal dysplasia syndrome", "ECHS1-related paroxysmal dyskinesia", "adolescent/adult-onset epilepsy syndrome", "saccharopinuria"]
 ---
 
 # Nusinersen

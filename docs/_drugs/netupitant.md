@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Netupitant: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not stated in the Singapore licence data"
+monitor_inn: "Netupitant"
+predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "leprosy", "migraine disorder", "migraine with or without aura, susceptibility to", "pulmonary hypertension", "migraine with brainstem aura", "kyphoscoliotic heart disease", "hyperargininemia", "coronary artery disease", "hypertrichosis (disease)"]
 ---
 
 # Netupitant

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Follitropin: predicted new indication Allergic asthma (evidence level L5). Approved use: Not listed in the Singapore registration data. Published literature a…"
+monitor_inn: "Follitropin"
+predicted_indications: ["allergic asthma", "intrinsic asthma", "Prinzmetal angina", "headache disorder", "Jeune syndrome situs inversus", "partial deletion of the long arm of chromosome 22", "Pierre Robin syndrome associated with a chromosomal anomaly", "disorder of fucoglycosan synthesis", "orofacial clefting syndrome", "partial deletion of the long arm of chromosome 7"]
 ---
 
 # Follitropin

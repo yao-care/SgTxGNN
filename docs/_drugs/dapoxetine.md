@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Dapoxetine: predicted new indication Migraine disorder (evidence level L4). Approved use: Premature ejaculation"
+monitor_inn: "Dapoxetine"
+predicted_indications: ["migraine disorder", "dysthymic disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "neurotic disorder", "atrophoderma vermiculata", "ulerythema ophryogenesis", "neurotic depression", "melancholia", "congenital isolated adrenocorticotropic hormone deficiency (disease)"]
 ---
 
 # Dapoxetine

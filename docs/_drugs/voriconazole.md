@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Voriconazole: predicted new indication Multidrug-resistant tuberculosis (evidence level L4). Approved use: Esophageal candidiasis, candidemia, disseminated candidiasis…"
+monitor_inn: "Voriconazole"
+predicted_indications: ["multidrug-resistant tuberculosis", "cysticercosis", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "malformation syndrome with odontal and/or periodontal component", "tuberculosis, bovine", "isolated genetic hair shaft abnormality", "tuberculoma", "tuberculous ascites", "tuberculosis, avian"]
 ---
 
 # Voriconazole

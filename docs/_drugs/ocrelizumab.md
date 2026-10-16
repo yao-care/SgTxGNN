@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ocrelizumab: predicted new indication HER2-positive breast carcinoma (evidence level L5). Approved use: Progressive multiple sclerosis"
+monitor_inn: "Ocrelizumab"
+predicted_indications: ["HER2 positive breast carcinoma", "progesterone-receptor positive breast cancer", "normal breast-like subtype of breast carcinoma", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer", "benign neoplasm of tongue", "cervical neuroblastoma", "benign neoplasm of hypopharynx", "schwannoma of jugular foramen", "benign neoplasm of buccal mucosa"]
 ---
 
 # Ocrelizumab

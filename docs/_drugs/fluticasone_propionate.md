@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Fluticasone Propionate: predicted new indication 2-hydroxyethyl methacrylate sensitization (evidence level L5). Approved use: Atopic eczema, contact dermatitis, allergic rhinitis…"
+monitor_inn: "Fluticasone propionate"
+predicted_indications: ["2-hydroxyethyl methacrylate sensitization", "vulvar inverted follicular keratosis", "alopecia mucinosa", "telogen effluvium", "alopecia areata", "Quinquaud's folliculitis decalvans", "atopic dermatitis", "polyp of vocal cord", "hereditary hypotrichosis with recurrent skin vesicles", "polyp of middle ear"]
 ---
 
 # Fluticasone Propionate

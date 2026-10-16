@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Raltegravir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infectious disease"
+monitor_inn: "Raltegravir"
+predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "AIDS related complex", "congenital human immunodeficiency virus", "obsolete familial combined hyperlipidemia", "fibroma of prostate", "breast fibrocystic disease", "benign reproductive system neoplasm", "Brenner tumor"]
 ---
 
 # Raltegravir

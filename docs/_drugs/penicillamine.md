@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Penicillamine: predicted new indication Megaloblastic anemia (evidence level L5). Approved use: Rheumatoid arthritis, cystinuria…"
+monitor_inn: "Penicillamine"
+predicted_indications: ["megaloblastic anemia (disease)", "tricarboxylic acid cycle disorder", "disease of transporter activity", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "glycogen storage disease due to glycogen branching enzyme deficiency, fatal perinatal neuromuscular form", "glycogen storage disease due to glycogen branching enzyme deficiency, congenital neuromuscular form", "adult polyglucosan body disease", "granulomatous disease, chronic, X-linked", "pyruvate metabolism disorder", "anemia, nonspherocytic hemolytic, due to G6PD deficiency"]
 ---
 
 # Penicillamine

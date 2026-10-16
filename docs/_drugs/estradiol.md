@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Estradiol: predicted new indication Symptomatic form of fragile X syndrome in female carrier (evidence level L5). Approved use: Primary ovarian failure, postmenopausal osteoporosis…"
+monitor_inn: "Estradiol"
+predicted_indications: ["symptomatic form of fragile X syndrome in female carrier", "anovulation", "ovarian remnant syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18", "partial trisomy/tetrasomy of the short arm of chromosome 12", "partial trisomy/tetrasomy of the short arm of chromosome 5", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "luteoma of pregnancy", "partial autosomal trisomy/tetrasomy", "ovarian ectopic pregnancy"]
 ---
 
 # Estradiol

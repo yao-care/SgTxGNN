@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Midostaurin: predicted new indication Familial thrombocytosis (evidence level L5). Approved use: Acute myeloid leukaemia (including several AML subtypes)"
+monitor_inn: "Midostaurin"
+predicted_indications: ["familial thrombocytosis", "reactive thrombocytosis", "metastatic melanoma", "inverse Klippel-Trenaunay syndrome", "thrombocythemia", "non-cutaneous melanoma", "epithelioid cell melanoma", "eyelid melanoma", "scrotum melanoma", "malignant melanoma of the mucosa"]
 ---
 
 # Midostaurin

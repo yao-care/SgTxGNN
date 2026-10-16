@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Oxymetholone: predicted new indication Seborrheic dermatitis (evidence level L5). Approved use: Diamond-Blackfan anemia, inherited aplastic anemia…"
+monitor_inn: "Oxymetholone"
+predicted_indications: ["seborrheic dermatitis", "primary release disorder of platelets", "pseudo-von Willebrand disease", "seborrheic keratosis", "vulvar inverted follicular keratosis", "Glanzmann thrombasthenia", "fetal and neonatal alloimmune thrombocytopenia", "psoriasis", "parapsoriasis", "acute lichenoid pityriasis"]
 ---
 
 # Oxymetholone

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Urokinase: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Pulmonary embolism"
+monitor_inn: "Urokinase"
+predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease", "thrombotic thrombocytopenic purpura", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "Scott syndrome", "Ledderhose disease", "palmar fibromatosis", "infantile digital fibromatosis"]
 ---
 
 # Urokinase

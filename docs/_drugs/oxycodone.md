@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Oxycodone: predicted new indication Restless legs syndrome (evidence level L5). Approved use: Not listed in the Singapore licence records compiled for this report…"
+monitor_inn: "Oxycodone"
+predicted_indications: ["methemoglobinemia", "restless legs syndrome", "myofascial pain syndrome", "methemoglobinemia, alpha type", "common cold", "nephrogenic syndrome of inappropriate antidiuresis", "headache disorder", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis"]
 ---
 
 # Oxycodone

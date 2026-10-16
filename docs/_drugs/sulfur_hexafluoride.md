@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Sulfur Hexafluoride: predicted new indication Benign prostatic hyperplasia (evidence level L5). Approved use: Not stated in the Singapore licence record"
+monitor_inn: "Sulfur hexafluoride"
+predicted_indications: ["benign prostatic hyperplasia (disease)", "vaginitis (disease)", "vulvitis", "vulvovaginitis", "peripheral arterial disease", "iritis (disease)", "bacterial vaginosis", "vaginal discharge", "leukoplakia of vagina", "folliculitis"]
 ---
 
 # Sulfur Hexafluoride

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Atovaquone: predicted new indication Leprosy (evidence level L5). Approved use: Plasmodium falciparum malaria, malaria, pneumocystosis"
+monitor_inn: "Atovaquone"
+predicted_indications: ["leprosy", "nocardiosis", "facial nerve palsy due to herpes zoster infection", "acne (disease)", "toxoplasmosis", "ocular toxoplasmosis", "creeping myiasis", "furuncular myiasis", "wound myiasis", "myiasis"]
 ---
 
 # Atovaquone

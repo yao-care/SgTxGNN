@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Magnesium Chloride: predicted new indication Congestive heart failure (evidence level L3). Approved use: Not stated in the Singapore licence records (products are dialysis…"
+monitor_inn: "Magnesium chloride"
+predicted_indications: ["congestive heart failure", "gout", "osteoarthritis", "acute pulmonary heart disease", "IgG4-related pachymeningitis", "osteoarthritis susceptibility", "epiglottitis", "dyspepsia", "IgG4-related aortitis", "IgG4-related mesenteritis"]
 ---
 
 # Magnesium Chloride

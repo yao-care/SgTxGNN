@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Calcium Chloride: predicted new indication Dyspepsia (evidence level L5). Approved use: Potassium deficiency disease, hypercalcemia disease, nephrocalcinosis…"
+monitor_inn: "Calcium chloride"
+predicted_indications: ["dyspepsia", "calcium-alkali syndrome", "primary bone dysplasia with defective bone mineralization", "gastroparesis (disease)", "gastroduodenitis", "stomach disease", "congenital prothrombin deficiency", "hypophosphatemia (disease)", "esophageal varices without bleeding", "esophageal varices with bleeding"]
 ---
 
 # Calcium Chloride

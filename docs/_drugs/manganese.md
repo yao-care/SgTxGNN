@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Manganese: predicted new indication Sclerosing cholangitis (evidence level L4). Approved use: Not stated in the registration data (the approved indication text is…"
+monitor_inn: "Manganese"
+predicted_indications: ["sclerosing cholangitis", "respiratory syncytial virus infectious disease", "dry eye syndrome", "drug-induced osteoporosis", "esotropia", "cholestasis", "non-syndromic visceral malformation", "vitamin deficiency disorder", "biotin metabolic disease", "biliary atresia intrahepatic"]
 ---
 
 # Manganese

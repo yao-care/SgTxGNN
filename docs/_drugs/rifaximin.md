@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Rifaximin: predicted new indication Oral candidiasis (evidence level L4). Approved use: Hepatic encephalopathy, hepatic coma"
+monitor_inn: "Rifaximin"
+predicted_indications: ["oral candidiasis", "commissural lip fistula", "osteoradionecrosis of the mandible", "oral leukoedema", "burning mouth syndrome", "candidiasis", "closed-angle glaucoma", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "HIV infectious disease", "opiate dependence"]
 ---
 
 # Rifaximin

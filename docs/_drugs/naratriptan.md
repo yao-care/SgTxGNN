@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Naratriptan: predicted new indication Migraine with brainstem aura (evidence level L4). Approved use: Migraine disorder"
+monitor_inn: "Naratriptan"
+predicted_indications: ["migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "amenorrhea (disease)", "sciatic neuropathy", "dysthymic disorder", "Ambras type hypertrichosis universalis congenita", "congenital hypotrichosis milia", "hypotrichosis simplex of the scalp", "diffuse alopecia areata"]
 ---
 
 # Naratriptan

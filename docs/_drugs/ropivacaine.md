@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ropivacaine: predicted new indication Migraine disorder (evidence level L5). Approved use: Not stated in the Singapore licence data compiled for this report"
+monitor_inn: "Ropivacaine"
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "nephrogenic syndrome of inappropriate antidiuresis", "dysthymic disorder", "fibromyalgia", "myofascial pain syndrome", "tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "bronchitis"]
 ---
 
 # Ropivacaine

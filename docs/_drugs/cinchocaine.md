@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Cinchocaine: predicted new indication Bronchitis (evidence level L5). Approved use: Dermatitis"
+monitor_inn: "Cinchocaine"
+predicted_indications: ["bronchitis", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acne keloid", "hydroa vacciniforme, familial", "amyopathic dermatomyositis", "neonatal myasthenia gravis", "autoimmune disease of peripheral nervous system", "myasthenia gravis with thymus hyperplasia"]
 ---
 
 # Cinchocaine

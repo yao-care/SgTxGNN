@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Benzyl Benzoate: predicted new indication Pharyngitis (evidence level L5). Approved use: Not stated in the Singapore registration data (generally known as a t…"
+monitor_inn: "Benzyl benzoate"
+predicted_indications: ["pharyngitis", "nasal cavity disease", "vaginitis (disease)", "acute laryngopharyngitis", "vulvitis", "bacterial vaginosis", "vaginal discharge", "vulvovaginitis", "leukoplakia of vagina", "vulvovaginal candidiasis"]
 ---
 
 # Benzyl Benzoate

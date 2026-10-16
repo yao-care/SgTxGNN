@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Trimetazidine: predicted new indication Endolymphatic hydrops (evidence level L5). Approved use: Not available in the registration data"
+monitor_inn: "Trimetazidine"
+predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "endolymphatic hydrops", "active cochlear Meniere disease", "active cochleovestibular Meniere disease", "active vestibular Meniere disease", "exocrine pancreatic insufficiency", "vertigo, benign recurrent, 2", "46,XY disorder of gonadal development", "male infertility due to gonadal dysgenesis", "metastatic melanoma"]
 ---
 
 # Trimetazidine

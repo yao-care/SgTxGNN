@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Alfentanil: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not stated in the Singapore licence records (alfentanil is a mu-opioi…"
+monitor_inn: "Alfentanil"
+predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "hypertrichosis (disease)", "migraine with brainstem aura", "syndrome with a Dandy-Walker malformation as major feature", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "isolated genetic hair shaft abnormality", "headache disorder", "leprosy"]
 ---
 
 # Alfentanil

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Testosterone: predicted new indication Polysomy of X chromosome (evidence level L5). Approved use: Hypogonadotropic hypogonadism, hypopituitarism…"
+monitor_inn: "Testosterone"
+predicted_indications: ["polysomy of X chromosome", "tetragametic chimerism", "penile/testicular agenesis", "testicular regression syndrome", "Leydig cell hypoplasia due to LH resistance", "urethral obstruction sequence", "46,XX disorder of sex development-anorectal anomalies syndrome", "freemartinism", "arthrogryposis epileptic seizures migrational brain disorder", "primary ovarian failure"]
 ---
 
 # Testosterone

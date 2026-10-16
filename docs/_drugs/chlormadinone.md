@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Chlormadinone: predicted new indication Antithrombin deficiency type 2 (evidence level L5). Approved use: Not stated in the registration data (the product is a combined oral c…"
+monitor_inn: "Chlormadinone"
+predicted_indications: ["antithrombin deficiency type 2", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "candidiasis", "plasma cell myeloma", "heart neoplasm", "rheumatoid arthritis", "indolent plasma cell myeloma", "gout", "thrombophilia"]
 ---
 
 # Chlormadinone

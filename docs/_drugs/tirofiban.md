@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tirofiban: predicted new indication Primary release disorder of platelets (evidence level L4). Approved use: Acute coronary syndrome"
+monitor_inn: "Tirofiban"
+predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "rheumatoid arthritis", "trigeminal autonomic cephalalgia", "headache disorder", "pseudo-von Willebrand disease", "congenital prothrombin deficiency", "thromboangiitis obliterans", "female breast carcinoma", "cholecystolithiasis"]
 ---
 
 # Tirofiban

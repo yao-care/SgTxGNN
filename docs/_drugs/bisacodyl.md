@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Bisacodyl: predicted new indication Exercise-induced malignant hyperthermia (evidence level L5). Approved use: Constipation disorder"
+monitor_inn: "Bisacodyl"
+predicted_indications: ["exercise-induced malignant hyperthermia", "dyspepsia", "nephrogenic syndrome of inappropriate antidiuresis", "malignant hyperthermia, susceptibility to", "common cold", "pharyngitis", "familial periodic paralysis", "acute laryngopharyngitis", "malignant hyperthermia of anesthesia", "acute pulmonary heart disease"]
 ---
 
 # Bisacodyl

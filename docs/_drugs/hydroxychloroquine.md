@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Hydroxychloroquine: predicted new indication Quinquaud's folliculitis decalvans (evidence level L3). Approved use: Rheumatoid arthritis, systemic lupus erythematosus, malaria…"
+monitor_inn: "Hydroxychloroquine"
+predicted_indications: ["Quinquaud's folliculitis decalvans", "telogen effluvium", "alopecia antibody deficiency", "alopecia mucinosa", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "alopecia areata", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "juvenile chronic polyarthritis", "rheumatoid nodulosis"]
 ---
 
 # Hydroxychloroquine

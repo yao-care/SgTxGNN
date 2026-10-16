@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Cinnarizine: predicted new indication Migraine disorder (evidence level L1). Approved use: Central nervous system origin vertigo"
+monitor_inn: "Cinnarizine"
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "nephrogenic syndrome of inappropriate antidiuresis", "headache disorder", "trigeminal autonomic cephalalgia", "migraine with or without aura, susceptibility to", "common cold", "atrophoderma vermiculata", "pulmonary hypertension", "ulerythema ophryogenesis"]
 ---
 
 # Cinnarizine

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Cinacalcet: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not stated in the Singapore registration record. The compiled literat…"
+monitor_inn: "Cinacalcet"
+predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "common cold", "female breast carcinoma", "multiple endocrine neoplasia", "headache disorder", "trigeminal autonomic cephalalgia", "hypertrichosis (disease)", "subarachnoid hemorrhage (disease)", "pulmonary hypertension", "obsolete familial combined hyperlipidemia"]
 ---
 
 # Cinacalcet

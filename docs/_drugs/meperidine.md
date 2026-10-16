@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Meperidine: predicted new indication Headache disorder (evidence level L3). Approved use: Not recorded"
+monitor_inn: "Meperidine"
+predicted_indications: ["Tourette syndrome", "trichotillomania", "headache disorder", "manic bipolar affective disorder", "methemoglobinemia", "common cold", "nephrogenic syndrome of inappropriate antidiuresis", "trigeminal autonomic cephalalgia", "attention deficit hyperactivity disorder, inattentive type", "schizophreniform disorder"]
 ---
 
 # Meperidine

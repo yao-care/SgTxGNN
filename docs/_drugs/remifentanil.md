@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Remifentanil: predicted new indication Common cold (evidence level L5). Approved use: Not stated in the registration data. Based on the drug's known pharma…"
+monitor_inn: "Remifentanil"
+predicted_indications: ["common cold", "nephrogenic syndrome of inappropriate antidiuresis", "exercise-induced malignant hyperthermia", "familial periodic paralysis", "hypokalemic periodic paralysis", "thyrotoxic periodic paralysis, susceptibility to", "thyrotoxic periodic paralysis", "malignant hyperthermia, susceptibility to", "headache disorder", "King-Denborough syndrome"]
 ---
 
 # Remifentanil

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Botulinum Toxin Type A: predicted new indication Parkinson disease (symptom management). This is the best-evidenced of… (evidence level L5). Approved use: Not stated in the data compiled for this rep…"
+monitor_inn: "Botulinum toxin type A"
+predicted_indications: ["primary hereditary glaucoma", "parkinsonian disorder", "open-angle glaucoma", "insomnia (disease)", "glaucoma 1, open angle", "restless legs syndrome", "Parkinson disease", "paralysis agitans, juvenile, of Hunt", "bronchitis", "autosomal recessive Parkinson disease"]
 ---
 
 # Botulinum Toxin Type A

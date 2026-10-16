@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Nandrolone Decanoate: predicted new indication Brain small vessel disease 1 with or without ocular anomalies (evidence level L5). Approved use: Not available"
+monitor_inn: "Nandrolone decanoate"
+predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "autoimmune oophoritis", "diabetic nephropathy", "type 1 diabetes mellitus", "cholecystolithiasis", "obsolete hyperuricemia (disease)", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "scalp dermatosis", "hyperthyroidism"]
 ---
 
 # Nandrolone Decanoate

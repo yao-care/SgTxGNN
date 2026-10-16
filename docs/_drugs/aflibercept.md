@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Aflibercept: predicted new indication Esotropia (evidence level L5). Approved use: Metastatic colorectal cancer, macular degeneration…"
+monitor_inn: "Aflibercept"
+predicted_indications: ["esotropia", "esophageal varices with bleeding", "esophageal varices without bleeding", "varicose disease", "urethral calculus", "adenosine deaminase deficiency", "hemorrhagic disease of newborn", "ectomesenchymoma", "malignant cutaneous granular cell skin tumor", "middle ear neuroendocrine tumor"]
 ---
 
 # Aflibercept

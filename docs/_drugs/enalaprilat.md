@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Enalaprilat: predicted new indication Primary hereditary glaucoma . Highest-evidence candidate: acute pulmo… (evidence level L5). Approved use: Hypertensive disorder, hypertension, congestive heart f…"
+monitor_inn: "Enalaprilat"
+predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "acute pulmonary heart disease", "hypotrichosis simplex of the scalp", "chronic pulmonary heart disease", "congenital hypotrichosis milia", "chronic kidney disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant renovascular hypertension"]
 ---
 
 # Enalaprilat

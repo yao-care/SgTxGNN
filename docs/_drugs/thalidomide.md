@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Thalidomide: predicted new indication Ganglioneuroblastoma (evidence level L5). Approved use: Plasma cell myeloma"
+monitor_inn: "Thalidomide"
+predicted_indications: ["ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "neuroblastoma", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "rheumatoid arthritis", "myeloid leukemia", "indolent plasma cell myeloma", "acute lymphoblastic leukemia (disease)"]
 ---
 
 # Thalidomide

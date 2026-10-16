@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Epoprostenol: predicted new indication Trigeminal autonomic cephalalgia (evidence level L5). Approved use: Pulmonary arterial hypertension"
+monitor_inn: "Epoprostenol"
+predicted_indications: ["trigeminal autonomic cephalalgia", "headache disorder", "migraine with brainstem aura", "papillary conjunctivitis", "nasal cavity disease", "acute laryngopharyngitis", "allergic urticaria", "migraine disorder", "respiratory failure", "obsolete rare pulmonary disease"]
 ---
 
 # Epoprostenol

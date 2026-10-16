@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Pralidoxime: predicted new indication Bronchitis (evidence level L5). Approved use: Organophosphate poisoning"
+monitor_inn: "Pralidoxime"
+predicted_indications: ["bronchitis", "female breast carcinoma", "seborrheic dermatitis", "plasma cell myeloma", "indolent plasma cell myeloma", "seborrheic keratosis", "bronchial neoplasm (disease)", "genital herpes", "vulvar inverted follicular keratosis", "headache disorder"]
 ---
 
 # Pralidoxime

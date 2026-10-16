@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ticlopidine: predicted new indication Rheumatoid arthritis (evidence level L4). Approved use: Not stated in the Singapore licence records (approved indication text…"
+monitor_inn: "Ticlopidine"
+predicted_indications: ["rheumatoid arthritis", "female breast carcinoma", "obsolete familial combined hyperlipidemia", "homozygous familial hypercholesterolemia", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "HIV infectious disease", "leprosy", "multiple endocrine neoplasia"]
 ---
 
 # Ticlopidine

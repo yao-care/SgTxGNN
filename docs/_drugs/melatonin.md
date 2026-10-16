@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Melatonin: predicted new indication Migraine with brainstem aura (evidence level L4). Approved use: Insomnia"
+monitor_inn: "Melatonin"
+predicted_indications: ["migraine with brainstem aura", "obesity disorder", "restless legs syndrome", "migraine disorder", "hypervitaminosis", "obsolete hypertelorism (disease)", "monogenic obesity", "frontorhiny", "proximal 16p11.2 microdeletion syndrome", "acute encephalopathy with biphasic seizures and late reduced diffusion"]
 ---
 
 # Melatonin

@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Beclomethasone Dipropionate: predicted new indication Atopic eczema (evidence level L3). Approved use: Asthma, allergic rhinitis, vasomotor rhinitis, nasal cavity polyp"
+monitor_inn: "Beclomethasone dipropionate"
+predicted_indications: ["atopic eczema", "bronchitis", "2-hydroxyethyl methacrylate sensitization", "polyp of vocal cord", "polyp of middle ear", "fibroepithelial polyp", "uterine polyp", "polyp of frontal sinus", "seborrheic dermatitis", "polyp of ureter"]
 ---
 
 # Beclomethasone Dipropionate

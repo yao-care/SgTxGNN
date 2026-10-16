@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Carbocisteine: predicted new indication Gout (evidence level L5). Approved use: Mucus-related respiratory disorders (mucolytic). The Singapore regist…"
+monitor_inn: "Carbocisteine"
+predicted_indications: ["gout", "bronchitis", "appendicitis", "congestive heart failure", "acute pulmonary heart disease", "epiglottitis", "peritonitis", "laryngitis", "Lesch-Nyhan syndrome", "gastrointestinal allergy"]
 ---
 
 # Carbocisteine

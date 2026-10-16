@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Leflunomide: predicted new indication Plasma cell myeloma (evidence level L5). Approved use: Rheumatoid arthritis"
+monitor_inn: "Leflunomide"
+predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "indolent plasma cell myeloma", "plasma cell myeloma", "myeloid leukemia", "Meester-Loeys syndrome", "ganglioneuroblastoma (disease)", "WHIM syndrome", "scalp dermatosis", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
 ---
 
 # Leflunomide

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Iron: predicted new indication Vitamin B12- and folate-independent constitutional megaloblastic anem… (evidence level L5). Approved use: Iron deficiency anemia (also folic acid deficiency anemia…"
+monitor_inn: "Iron"
+predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "Plummer-Vinson syndrome", "non-syndromic esophageal malformation", "biotin metabolic disease", "vitamin deficiency disorder", "esophageal disease", "injury", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "perinatal disease"]
 ---
 
 # Iron

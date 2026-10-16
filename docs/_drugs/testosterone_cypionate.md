@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Testosterone Cypionate: predicted new indication Urethral obstruction sequence (evidence level L5). Approved use: Male hypogonadism, eunuchism, premature menopause…"
+monitor_inn: "Testosterone cypionate"
+predicted_indications: ["urethral obstruction sequence", "tetragametic chimerism", "polysomy of X chromosome", "testicular regression syndrome", "penile/testicular agenesis", "freemartinism", "prune belly syndrome", "arthrogryposis epileptic seizures migrational brain disorder", "dyschondrosteosis-nephritis syndrome", "inflammatory and autoimmune disease with epilepsy"]
 ---
 
 # Testosterone Cypionate

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Gadobutrol: predicted new indication Benign prostatic hyperplasia (evidence level L5). Approved use: Not stated in the Singapore licence text (the drug is an MRI contrast…"
+monitor_inn: "Gadobutrol"
+predicted_indications: ["benign prostatic hyperplasia (disease)", "peripheral arterial disease", "cauda equina syndrome", "peripheral vascular disease", "strongyloidiasis", "prostate calculus", "obsolete neurogenic bladder (disease)", "iritis (disease)", "hypertrichosis (disease)", "disease of orbital region"]
 ---
 
 # Gadobutrol

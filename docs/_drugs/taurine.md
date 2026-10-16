@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Taurine: predicted new indication Alcohol withdrawal delirium (evidence level L5). Approved use: Not stated in the Singapore licence records"
+monitor_inn: "Taurine"
+predicted_indications: ["alcohol withdrawal delirium", "antidepressant type abuse", "barbiturate abuse", "hallucinogen abuse", "cauda equina syndrome", "migraine disorder", "migraine with brainstem aura", "restless legs syndrome", "obsolete neurogenic bladder (disease)", "phencyclidine abuse"]
 ---
 
 # Taurine

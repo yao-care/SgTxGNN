@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Sulbactam: predicted new indication Bacterial arthritis (evidence level L3). Approved use: Cholangitis, staphylococcal infection, E. coli infection"
+monitor_inn: "Sulbactam"
+predicted_indications: ["bacterial arthritis", "epiglottitis", "paratyphoid fever", "chronic ethmoidal sinusitis", "chronic rhinosinusitis", "sinusitis", "paranasal sinus neoplasm (disease)", "diffuse scleroderma", "infectious otitis media", "chronic otitis media"]
 ---
 
 # Sulbactam

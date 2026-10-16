@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Dacomitinib: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Not available in the data compiled for this report"
+monitor_inn: "Dacomitinib"
+predicted_indications: ["rheumatoid arthritis", "homozygous familial hypercholesterolemia", "brachydactyly-syndactyly syndrome", "pulmonary hypertension", "nephrogenic syndrome of inappropriate antidiuresis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "kyphoscoliotic heart disease", "multiple endocrine neoplasia", "amyotrophic lateral sclerosis", "leprosy"]
 ---
 
 # Dacomitinib

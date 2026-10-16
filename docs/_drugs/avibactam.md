@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Avibactam: predicted new indication Streptococcal pneumonia (evidence level L5). Approved use: Pyelonephritis"
+monitor_inn: "Avibactam"
+predicted_indications: ["streptococcal pneumonia", "influenza, severe, susceptibility to", "ureter tuberculosis", "urinary schistosomiasis", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "staphylococcus aureus infection", "renal tuberculosis", "squamous cell lung carcinoma", "congenital analbuminemia"]
 ---
 
 # Avibactam

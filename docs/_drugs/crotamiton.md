@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Crotamiton: predicted new indication Trombiculiasis (evidence level L5). Approved use: Scabies (including Norwegian scabies) and mite infestation"
+monitor_inn: "Crotamiton"
+predicted_indications: ["trombiculiasis", "lymph node palisaded myofibroblastoma", "abdominal ectopic pregnancy", "celiac trunk compression syndrome", "abdominal cystic lymphangioma", "disease of uterine broad ligament", "disease of retroperitoneum", "sacrum chordoma", "urethral disease", "hordeolum"]
 ---
 
 # Crotamiton

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Etomidate: predicted new indication Headache disorder (evidence level L5). Approved use: Not stated in the Singapore license text. Anesthetic induction is inf…"
+monitor_inn: "Etomidate"
+predicted_indications: ["headache disorder", "mild pre-eclampsia", "severe pre-eclampsia", "congenital hypotrichosis milia", "exercise-induced malignant hyperthermia", "hypotrichosis simplex of the scalp", "trigeminal autonomic cephalalgia", "alopecia", "common cold", "diffuse alopecia areata"]
 ---
 
 # Etomidate

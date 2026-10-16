@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Bromhexine: predicted new indication Vulvitis (evidence level L5). Approved use: Not stated in the Singapore license records (the products are mucolyt…"
+monitor_inn: "Bromhexine"
+predicted_indications: ["vulvitis", "vaginitis (disease)", "catatrichy", "vulvovaginitis", "irritable bowel syndrome", "keratosis follicularis spinulosa decalvans, autosomal dominant", "ulceration of vulva", "vulvar neoplasm", "bacterial vaginosis", "vaginal discharge"]
 ---
 
 # Bromhexine

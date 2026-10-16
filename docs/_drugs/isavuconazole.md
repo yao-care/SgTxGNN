@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Isavuconazole: predicted new indication Migraine disorder (evidence level L5). Approved use: Not stated in the Singapore license records compiled for this report…"
+monitor_inn: "Isavuconazole"
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "pulmonary hypertension", "kyphoscoliotic heart disease", "rheumatoid arthritis", "atrophoderma vermiculata", "nephrogenic syndrome of inappropriate antidiuresis", "Prinzmetal angina", "ulerythema ophryogenesis"]
 ---
 
 # Isavuconazole

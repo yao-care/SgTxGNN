@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Mifepristone: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Pregnancy disorder with abortive outcome"
+monitor_inn: "Mifepristone"
+predicted_indications: ["punctate epithelial keratoconjunctivitis", "rosacea", "otitis externa", "post-bacterial disorder", "postinfectious vasculitis", "infective urethral stricture", "post-infectious syndrome", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "parasitic eyelid infestation"]
 ---
 
 # Mifepristone

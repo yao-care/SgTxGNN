@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Atracurium: predicted new indication Myofascial pain syndrome (evidence level L5). Approved use: Not stated in the Singapore licence records. Pharmacologically…"
+monitor_inn: "Atracurium"
+predicted_indications: ["myofascial pain syndrome", "nephrogenic syndrome of inappropriate antidiuresis", "methemoglobinemia", "common cold", "conjunctivitis", "idiopathic granulomatous myositis", "myositis fibrosa", "tendinitis", "methemoglobinemia, alpha type", "fibromyalgia"]
 ---
 
 # Atracurium

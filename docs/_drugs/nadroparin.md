@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Nadroparin: predicted new indication Primary release disorder of platelets . Best-supported: pulmonary emb… (evidence level L5). Approved use: Not available"
+monitor_inn: "Nadroparin"
+predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease", "thrombophilia", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "pulmonary embolism (disease)", "amenorrhea (disease)", "hemoglobinopathy"]
 ---
 
 # Nadroparin

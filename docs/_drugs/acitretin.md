@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Acitretin: predicted new indication Acne (disease) (evidence level L3). Approved use: Not stated in the Singapore licence data compiled for this report"
+monitor_inn: "Acitretin"
+predicted_indications: ["acne (disease)", "pediatric systemic lupus erythematosus", "fetal erythroblastosis", "familial cutaneous telangiectasia and oropharyngeal predisposition cancer syndrome", "complement component 4a deficiency", "subacute bacterial endocarditis", "familial acanthosis nigricans", "prolapse of lacrimal gland", "urticaria, familial localized heat", "Sjogren syndrome"]
 ---
 
 # Acitretin

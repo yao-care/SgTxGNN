@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Alemtuzumab: predicted new indication Hepatic infarction . For reference… (evidence level L5). Approved use: Relapsing-remitting multiple sclerosis"
+monitor_inn: "Alemtuzumab"
+predicted_indications: ["hepatic infarction", "syndrome with combined immunodeficiency", "hepatic veno-occlusive disease", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant", "prostatic urethra urothelial carcinoma", "renal pelvis papillary urothelial carcinoma", "peliosis hepatis", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease", "hemophagocytic syndrome associated with an infection"]
 ---
 
 # Alemtuzumab

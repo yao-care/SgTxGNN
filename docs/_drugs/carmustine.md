@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Carmustine: predicted new indication Lymph node cancer (evidence level L5). Approved use: Lymphomas (Hodgkin and non-Hodgkin)…"
+monitor_inn: "Carmustine"
+predicted_indications: ["lymph node cancer", "astrocytoma (excluding glioblastoma)", "adult astrocytic tumour", "cauda equina neoplasm", "reticulum cell sarcoma", "childhood cerebral astrocytoma", "subependymal giant cell astrocytoma", "astrocytic tumor", "interdigitating dendritic cell sarcoma", "colon adenocarcinoma"]
 ---
 
 # Carmustine

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Methylnaltrexone: predicted new indication Congenital hypotrichosis milia (evidence level L5). Approved use: Not stated in the Singapore licence record. Pharmacology data describ…"
+monitor_inn: "Methylnaltrexone"
+predicted_indications: ["congenital hypotrichosis milia", "hypotrichosis simplex of the scalp", "exercise-induced malignant hyperthermia", "common cold", "alopecia", "diffuse alopecia areata", "respiratory failure", "familial periodic paralysis", "obsolete hyperuricemia (disease)", "trigeminal autonomic cephalalgia"]
 ---
 
 # Methylnaltrexone

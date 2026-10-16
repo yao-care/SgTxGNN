@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Benzbromarone: predicted new indication Hypouricemia, renal (evidence level L4). Approved use: Gout"
+monitor_inn: "Benzbromarone"
+predicted_indications: ["hypouricemia, renal", "Lesch-Nyhan syndrome", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "homozygous familial hypercholesterolemia", "glycogen storage disease", "glycogen storage disease due to glycogen branching enzyme deficiency, congenital neuromuscular form", "glycogen storage disease due to glycogen branching enzyme deficiency, fatal perinatal neuromuscular form", "tricarboxylic acid cycle disorder", "early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis"]
 ---
 
 # Benzbromarone

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Lacidipine: predicted new indication Migraine disorder (evidence level L5). Approved use: Not stated in the Singapore license data (the drug class is used for…"
+monitor_inn: "Lacidipine"
+predicted_indications: ["migraine disorder", "nephrogenic syndrome of inappropriate antidiuresis", "migraine with brainstem aura", "pulmonary hypertension", "kyphoscoliotic heart disease", "alopecia", "Prinzmetal angina", "Raynaud disease", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
 ---
 
 # Lacidipine

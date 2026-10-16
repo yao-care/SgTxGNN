@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Proline: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Not available in the registration data . Marketed products are amino…"
+monitor_inn: "Proline"
+predicted_indications: ["congenital prothrombin deficiency", "obsolete vitamin D deficiency", "gastroparesis (disease)", "dyspepsia", "vitamin deficiency disorder", "bone Paget disease", "hypophosphatemic rickets", "biotin metabolic disease", "folic acid deficiency anemia", "familial isolated hypoparathyroidism due to impaired PTH secretion"]
 ---
 
 # Proline

@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Butylscopolamine: predicted new indication Irritable bowel syndrome (evidence level L3). Approved use: Not stated in the registration data compiled for this report (general…"
+monitor_inn: "Butylscopolamine"
+predicted_indications: ["irritable bowel syndrome", "cauda equina syndrome", "neurocirculatory asthenia", "obsolete neurogenic bladder (disease)", "autonomic nervous system disease", "open-angle glaucoma", "primary hereditary glaucoma", "dysautonomia", "migraine disorder", "migraine with brainstem aura"]
 ---
 
 # Butylscopolamine

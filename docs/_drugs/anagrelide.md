@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Anagrelide: predicted new indication Reactive thrombocytosis (evidence level L4). Approved use: Thrombocythemia"
+monitor_inn: "Anagrelide"
+predicted_indications: ["reactive thrombocytosis", "inverse Klippel-Trenaunay syndrome", "dermatofibrosarcoma protuberans", "rheumatoid arthritis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "juvenile idiopathic arthritis", "osteoarthritis", "pseudoachondroplasia", "rheumatoid nodulosis", "juvenile chronic polyarthritis"]
 ---
 
 # Anagrelide

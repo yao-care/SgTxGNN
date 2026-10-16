@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tolterodine: predicted new indication Low compliance bladder (evidence level L3). Approved use: Overactive bladder"
+monitor_inn: "Tolterodine"
+predicted_indications: ["low compliance bladder", "polycystic kidney disease 3 with or without polycystic liver disease", "thoracic malformation", "renal-hepatic-pancreatic dysplasia", "Joubert syndrome with renal defect", "adult familial nephronophthisis-spastic quadriparesia syndrome", "karyomegalic interstitial nephritis", "congenital analbuminemia", "polyclonal hyperviscosity syndrome", "hyperamylasemia"]
 ---
 
 # Tolterodine

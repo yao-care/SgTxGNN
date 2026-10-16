@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Desflurane: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Not recorded in the licence data (desflurane is a general inhalationa…"
+monitor_inn: "Desflurane"
+predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "Prinzmetal angina", "manic bipolar affective disorder", "Tourette syndrome", "myositis fibrosa", "idiopathic granulomatous myositis", "trichotillomania", "tendinitis", "fibromyalgia", "myofascial pain syndrome"]
 ---
 
 # Desflurane

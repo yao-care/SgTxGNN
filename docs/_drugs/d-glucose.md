@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "D-Glucose: predicted new indication Non-syndromic esophageal malformation (evidence level L5). Approved use: Not stated in the licence data (the products are intravenous glucose/…"
+monitor_inn: "D-glucose"
+predicted_indications: ["non-syndromic esophageal malformation", "primary hereditary glaucoma", "open-angle glaucoma", "esophageal disease", "biotin metabolic disease", "vitamin deficiency disorder", "dermatitis", "neonatal dermatomyositis", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial"]
 ---
 
 # D-Glucose

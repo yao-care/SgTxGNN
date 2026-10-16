@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Vedolizumab: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Crohn's disease, inflammatory bowel disease, Crohn's colitis…"
+monitor_inn: "Vedolizumab"
+predicted_indications: ["severe nonproliferative diabetic retinopathy", "dermatitis", "neonatal dermatomyositis", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis", "bronchitis", "drug-induced osteoporosis"]
 ---
 
 # Vedolizumab

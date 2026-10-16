@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Bemiparin: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Not stated in the registration records. The published literature desc…"
+monitor_inn: "Bemiparin"
+predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "Scott syndrome", "fetal and neonatal alloimmune thrombocytopenia", "platelet-type bleeding disorder", "pulmonary embolism (disease)", "autosomal dominant macrothrombocytopenia"]
 ---
 
 # Bemiparin

@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Selexipag: predicted new indication Pulmonary arterial hypertension associated with congenital heart dise… (evidence level L2). Approved use: Pulmonary arterial hypertension"
+monitor_inn: "Selexipag"
+predicted_indications: ["pulmonary arterial hypertension associated with congenital heart disease", "pulmonary arteriovenous malformation (disease)", "pulmonary arterial hypertension associated with connective tissue disease", "pulmonary arterial hypertension associated with chronic hemolytic anemia", "pulmonary arterial hypertension associated with HIV infection", "pulmonary arterial hypertension associated with schistosomiasis", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "malformation syndrome with odontal and/or periodontal component"]
 ---
 
 # Selexipag

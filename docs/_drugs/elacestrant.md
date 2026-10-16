@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Elacestrant: predicted new indication Amenorrhea (evidence level L5). Approved use: Not stated in the Singapore licence text. Based on the drug's known p…"
+monitor_inn: "Elacestrant"
+predicted_indications: ["amenorrhea (disease)", "bone Paget disease", "multiple endocrine neoplasia", "primary cutaneous T-cell lymphoma", "seborrheic dermatitis", "familial adrenal hypoplasia with absent pituitary luteinizing hormone", "candidiasis", "Leydig cell hypoplasia due to LH resistance", "hypogonadotropic hypogonadism with or without anosmia", "46,XY disorder of sex development due to impaired androgen production"]
 ---
 
 # Elacestrant

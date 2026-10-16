@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Bumetanide: predicted new indication Acute pulmonary heart disease (evidence level L4). Approved use: Congestive heart failure"
+monitor_inn: "Bumetanide"
+predicted_indications: ["acute pulmonary heart disease", "acute urate nephropathy", "primary hereditary glaucoma", "chronic kidney disease", "chronic pulmonary heart disease", "open-angle glaucoma", "end stage renal failure", "hypoglycemia", "nephrolithiasis", "unclassified intestinal pseudoobstruction"]
 ---
 
 # Bumetanide

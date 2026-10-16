@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Magnesium Acetate Tetrahydrate: predicted new indication Migraine disorder (evidence level L5). Approved use: Not specified in the Singapore registration data"
+monitor_inn: "Magnesium acetate tetrahydrate"
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "headache disorder", "open-angle glaucoma", "trigeminal autonomic cephalalgia", "primary hereditary glaucoma", "nephrogenic syndrome of inappropriate antidiuresis", "atrophoderma vermiculata", "congenital hypotrichosis milia", "ulerythema ophryogenesis"]
 ---
 
 # Magnesium Acetate Tetrahydrate

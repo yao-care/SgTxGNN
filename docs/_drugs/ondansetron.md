@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ondansetron: predicted new indication Tourette syndrome (evidence level L2). Approved use: Not stated in the licence data"
+monitor_inn: "Ondansetron"
+predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome", "trichotillomania", "schizotypal personality disorder", "schizoid personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "common cold", "allergic urticaria", "acute intermittent porphyria"]
 ---
 
 # Ondansetron

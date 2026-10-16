@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Pazopanib: predicted new indication Renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene… (evidence level L5). Approved use: Renal cell carcinoma and soft tissue sarcoma"
+monitor_inn: "Pazopanib"
+predicted_indications: ["renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "unclassified renal cell carcinoma", "renal cell carcinoma associated with neuroblastoma", "liposarcoma", "childhood kidney cell carcinoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
 ---
 
 # Pazopanib

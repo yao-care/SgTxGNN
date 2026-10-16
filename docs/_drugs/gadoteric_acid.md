@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Gadoteric Acid: predicted new indication Osteoarthritis (evidence level L5). Approved use: No approved indication text in the registration data (the agent is a…"
+monitor_inn: "Gadoteric acid"
+predicted_indications: ["osteoarthritis", "osteoarthritis susceptibility", "rheumatoid arthritis", "pseudoachondroplasia", "hepatic porphyria", "gout", "brachyolmia", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "brachyolmia-amelogenesis imperfecta syndrome"]
 ---
 
 # Gadoteric Acid

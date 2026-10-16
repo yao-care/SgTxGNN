@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Piracetam: predicted new indication Osteoarthritis (evidence level L5). Approved use: Not stated in the Singapore licence records (reference sources descri…"
+monitor_inn: "Piracetam"
+predicted_indications: ["osteoarthritis", "osteoarthritis susceptibility", "rheumatoid arthritis", "pseudoachondroplasia", "hepatic porphyria", "gout", "brachyolmia", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "primitive portal vein thrombosis"]
 ---
 
 # Piracetam

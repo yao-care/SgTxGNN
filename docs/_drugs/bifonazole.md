@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Bifonazole: predicted new indication Pulmonary hypertension (evidence level L5). Approved use: Not stated in the Singapore registration data (the approved indicatio…"
+monitor_inn: "Bifonazole"
+predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "female breast carcinoma", "leprosy", "migraine disorder", "migraine with brainstem aura", "mycotic corneal ulcer", "coronary artery disease", "anomalous left coronary artery from the pulmonary artery", "migraine with or without aura, susceptibility to"]
 ---
 
 # Bifonazole

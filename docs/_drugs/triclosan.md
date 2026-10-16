@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Triclosan: predicted new indication Acne (disease) (evidence level L4). Approved use: Not stated in the registration data"
+monitor_inn: "Triclosan"
+predicted_indications: ["acne (disease)", "familial adrenal hypoplasia with absent pituitary luteinizing hormone", "scalp dermatosis", "PAGOD syndrome", "zinc, elevated plasma", "primary release disorder of platelets", "pseudo-von Willebrand disease", "multiple endocrine neoplasia", "familial pityriasis rubra pilaris", "thyroid gland disease"]
 ---
 
 # Triclosan

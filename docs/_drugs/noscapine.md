@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Noscapine: predicted new indication Scalp dermatosis (evidence level L5). Approved use: Cough"
+monitor_inn: "Noscapine"
+predicted_indications: ["scalp dermatosis", "renin-angiotensin-aldosterone system-blocker-induced angioedema", "rheumatoid arthritis", "atopic eczema", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "nephrotic syndrome", "brachydactyly-syndactyly syndrome", "eye disease", "autoimmune hemolytic anemia", "recurrent idiopathic neuroretinitis"]
 ---
 
 # Noscapine

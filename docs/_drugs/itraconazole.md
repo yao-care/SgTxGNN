@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Itraconazole: predicted new indication Pneumocystosis (evidence level L5). Approved use: Fungal infections (esophageal candidiasis, candidemia, histoplasmosis…"
+monitor_inn: "Itraconazole"
+predicted_indications: ["pneumocystosis", "Cryptococcal meningitis", "trichosporonosis", "hyalohyphomycosis", "penicilliosis", "geotrichosis", "maple bark strippers' lung", "leprosy", "congenital candidiasis", "candida glabrata"]
 ---
 
 # Itraconazole

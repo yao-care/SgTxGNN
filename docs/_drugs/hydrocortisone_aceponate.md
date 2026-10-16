@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Hydrocortisone Aceponate: predicted new indication Gout (evidence level L5). Approved use: Not stated in the Singapore registration records (topical corticoster…"
+monitor_inn: "Hydrocortisone aceponate"
+predicted_indications: ["gout", "allergic asthma", "exostosis", "intrinsic asthma", "iris disease", "Crohn's colitis", "primary cutaneous T-cell lymphoma", "seborrheic dermatitis", "benign neoplasm of iris", "iris cancer"]
 ---
 
 # Hydrocortisone Aceponate

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Framycetin: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not available (the registered approved-indication text is empty)"
+monitor_inn: "Framycetin"
+predicted_indications: ["sclerosing cholangitis", "urinary tract infection (disease)", "congenital prothrombin deficiency", "Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "bronchitis", "genital herpes", "vitamin deficiency disorder"]
 ---
 
 # Framycetin

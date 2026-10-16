@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Isoleucine: predicted new indication Gastroparesis (evidence level L5). Approved use: Not available"
+monitor_inn: "Isoleucine"
+predicted_indications: ["gastroparesis (disease)", "obsolete vitamin D deficiency", "congenital prothrombin deficiency", "dyspepsia", "renal tubular acidosis", "sclerosing cholangitis", "familial visceral myopathy", "hypophosphatemic rickets", "potassium deficiency disease", "unclassified intestinal pseudoobstruction"]
 ---
 
 # Isoleucine

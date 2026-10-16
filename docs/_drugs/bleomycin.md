@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Bleomycin: predicted new indication Cauda equina neoplasm (evidence level L4). Approved use: Lymphomas (Hodgkin and non-Hodgkin), Langerhans cell histiocytosis…"
+monitor_inn: "Bleomycin"
+predicted_indications: ["cauda equina neoplasm", "adult astrocytic tumour", "reticulum cell sarcoma", "primary pulmonary lymphoma", "pulmonary blastoma", "well-differentiated fetal adenocarcinoma of the lung", "small cell lung carcinoma", "interdigitating dendritic cell sarcoma", "acute lymphoblastic/lymphocytic leukemia", "astrocytoma (excluding glioblastoma)"]
 ---
 
 # Bleomycin

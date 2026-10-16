@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tyrothricin: predicted new indication Insomnia (evidence level L5). Approved use: Not stated in the Singapore licence data (the lozenge is a throat pro…"
+monitor_inn: "Tyrothricin"
+predicted_indications: ["insomnia (disease)", "enterocolitis (disease)", "neuromuscular junction disease", "gastroenteritis", "congenital myasthenic syndrome with tubular aggregates", "irritable bowel syndrome", "osteoarthritis", "myasthenic syndrome, congenital, 24, presynaptic", "myasthenia, congenital, refractory to acetylcholinesterase inhibitors", "small intestine disease"]
 ---
 
 # Tyrothricin

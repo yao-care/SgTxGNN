@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Aprotinin: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Not stated in the Singapore licence records (the DrugBank-based clini…"
+monitor_inn: "Aprotinin"
+predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "migraine with brainstem aura", "pseudo-von Willebrand disease", "migraine disorder", "non-syndromic esophageal malformation", "congenital prothrombin deficiency", "filariasis", "severe nonproliferative diabetic retinopathy", "esotropia"]
 ---
 
 # Aprotinin

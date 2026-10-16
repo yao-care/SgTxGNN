@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Protamine Sulfate: predicted new indication Self-limited familial and non-familial neonatal/infantile seizures (evidence level L5). Approved use: Not stated in the Singapore licence record (protamine…"
+monitor_inn: "Protamine sulfate"
+predicted_indications: ["self-limited familial and non-familial neonatal/infantile seizures", "immune epilepsy", "hypereosinophilia of undetermined significance", "PRPS1 deficiency disorder", "Pericytoma with t(7;12)", "tyrosine hydroxylase deficiency", "TH-deficient infantile parkinsonism and motor delay", "anaphylaxis", "acetazolamide-responsive hereditary episodic ataxia", "idiopathic mast cell activation syndrome"]
 ---
 
 # Protamine Sulfate

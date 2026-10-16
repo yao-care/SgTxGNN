@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Deoxycholic Acid: predicted new indication Diabetic nephropathy (evidence level L4). Approved use: Not stated in the registration data compiled for this report (the app…"
+monitor_inn: "Deoxycholic acid"
+predicted_indications: ["autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "Prinzmetal angina", "hemoglobinopathy", "rheumatoid arthritis", "partial deletion of the short arm of chromosome 16", "conjunctivitis", "beta-thalassemia with other manifestations", "hemolytic anemia due to glucophosphate isomerase deficiency"]
 ---
 
 # Deoxycholic Acid

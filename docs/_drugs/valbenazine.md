@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Valbenazine: predicted new indication Psychogenic movement disorders (evidence level L5). Approved use: Tardive dyskinesia"
+monitor_inn: "Valbenazine"
+predicted_indications: ["psychogenic movement disorders", "primary orthostatic tremor", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "chronic tic disorder", "benign shuddering attacks", "extrapyramidal and movement disease", "acute intermittent porphyria", "miscellaneous movement disorder due to neurodegenerative disease", "drug-induced dyskinesia"]
 ---
 
 # Valbenazine

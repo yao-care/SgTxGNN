@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Pasireotide: predicted new indication Nephrogenic syndrome of inappropriate antidiuresis (evidence level L5). Approved use: Adrenal gland hyperfunction"
+monitor_inn: "Pasireotide"
+predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "hypertrichosis (disease)", "carbamoyl phosphate synthetase I deficiency disease", "isolated genetic hair shaft abnormality", "hyperargininemia", "tinea nigra", "duodenal obstruction"]
 ---
 
 # Pasireotide

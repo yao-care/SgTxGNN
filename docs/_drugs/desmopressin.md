@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Desmopressin: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Hereditary von Willebrand disease, haemophilia, nocturnal enuresis"
+monitor_inn: "Desmopressin"
+predicted_indications: ["congenital prothrombin deficiency", "inherited thrombophilia", "Glanzmann thrombasthenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Scott syndrome", "flood factor deficiency", "thrombocytopenic purpura", "bleeding diathesis due to a collagen receptor defect", "hereditary thrombocytosis with transverse limb defect"]
 ---
 
 # Desmopressin

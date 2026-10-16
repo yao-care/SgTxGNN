@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Mecobalamin: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not available"
+monitor_inn: "Mecobalamin"
+predicted_indications: ["sclerosing cholangitis", "multiple endocrine neoplasia", "bone Paget disease", "gastroparesis (disease)", "juvenile Paget disease", "acne (disease)", "osteomesopyknosis", "obsolete vitamin D deficiency", "choledocholithiasis", "colorectal cancer"]
 ---
 
 # Mecobalamin

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ribociclib: predicted new indication Myeloid leukemia (evidence level L5). Approved use: The Singapore licence record has no indication text. The compiled lit…"
+monitor_inn: "Ribociclib"
+predicted_indications: ["myeloid leukemia", "thrombocytopenia", "marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "transient neonatal thrombocytopenia", "dense granule disease", "female breast carcinoma", "multiple endocrine neoplasia", "HIV infectious disease", "heart neoplasm"]
 ---
 
 # Ribociclib

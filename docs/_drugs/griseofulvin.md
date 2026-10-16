@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Griseofulvin: predicted new indication Myiasis (evidence level L5). Approved use: Dermatophyte infections (tinea pedis, tinea corporis, tinea unguium…"
+monitor_inn: "Griseofulvin"
+predicted_indications: ["myiasis", "creeping myiasis", "wound myiasis", "furuncular myiasis", "echinococcus granulosus infectious disease", "cutaneous candidiasis", "toxoplasmosis", "alveolar echinococcosis", "blastomycosis", "Bacteroidaceae infectious disease"]
 ---
 
 # Griseofulvin

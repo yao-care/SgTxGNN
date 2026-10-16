@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Upadacitinib: predicted new indication Colobomatous microphthalmia-rhizomelic dysplasia syndrome (evidence level L5). Approved use: Rheumatoid arthritis"
+monitor_inn: "Upadacitinib"
+predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "indolent plasma cell myeloma", "amyotrohpic lateral sclerosis type 22", "heparin cofactor 2 deficiency", "amyotrophic lateral sclerosis, susceptibility to", "plasma cell myeloma", "Mills syndrome", "amyotrophic lateral sclerosis", "axial spondylometaphyseal dysplasia"]
 ---
 
 # Upadacitinib

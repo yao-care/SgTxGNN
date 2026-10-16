@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Selenium Sulfide: predicted new indication Vulvar inverted follicular keratosis (evidence level L5). Approved use: Seborrheic dermatitis, pityriasis simplex, seborrheic keratosis…"
+monitor_inn: "Selenium Sulfide"
+predicted_indications: ["vulvar inverted follicular keratosis", "cutaneous candidiasis", "acne keloid", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis", "hydroa vacciniforme, familial", "lichen planus, familial", "acne (disease)"]
 ---
 
 # Selenium Sulfide

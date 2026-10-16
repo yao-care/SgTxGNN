@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Blinatumomab: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Not stated in the Singapore licence record"
+monitor_inn: "Blinatumomab"
+predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease", "drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "psoriasis", "Ledderhose disease", "hemorrhagic disorder due to a constitutional thrombocytopenia", "penile fibromatosis", "bleeding diathesis due to a collagen receptor defect"]
 ---
 
 # Blinatumomab

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tetanus Immune Globulin: predicted new indication Diabetic cataract (evidence level L5). Approved use: Not stated in the Singapore licence record (the product is known as t…"
+monitor_inn: "Tetanus Immune Globulin"
+predicted_indications: ["diabetic cataract", "tetanic cataract", "craniostenosis cataract", "immature cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "cortical cataract", "nuclear senile cataract", "senile cataract", "diabetic retinopathy"]
 ---
 
 # Tetanus Immune Globulin

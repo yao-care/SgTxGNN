@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Dimenhydrinate: predicted new indication Allergic urticaria (evidence level L5). Approved use: Motion sickness"
+monitor_inn: "Dimenhydrinate"
+predicted_indications: ["allergic urticaria", "cold urticaria", "nasal cavity disease", "common cold", "pharyngitis", "acute laryngopharyngitis", "urticaria (disease)", "recalcitrant atopic dermatitis", "angioedema", "IgE responsiveness, atopic"]
 ---
 
 # Dimenhydrinate

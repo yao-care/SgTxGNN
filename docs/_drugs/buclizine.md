@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Buclizine: predicted new indication Allergic urticaria (evidence level L4). Approved use: Motion sickness"
+monitor_inn: "Buclizine"
+predicted_indications: ["allergic urticaria", "cold urticaria", "common cold", "nasal cavity disease", "schizophrenia", "pharyngitis", "retinal dystrophy with or without extraocular anomalies", "acute laryngopharyngitis", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked"]
 ---
 
 # Buclizine

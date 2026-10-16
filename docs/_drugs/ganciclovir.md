@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ganciclovir: predicted new indication Cytomegalovirus pneumonia (evidence level L2). Approved use: Cytomegalovirus retinitis"
+monitor_inn: "Ganciclovir"
+predicted_indications: ["cytomegalovirus pneumonia", "epidemic keratoconjunctivitis", "commissural lip fistula", "idiopathic disseminated cytomegalovirus infection", "burning mouth syndrome", "oral leukoedema", "osteoradionecrosis of the mandible", "punctate epithelial keratoconjunctivitis", "oral candidiasis", "pneumonia"]
 ---
 
 # Ganciclovir

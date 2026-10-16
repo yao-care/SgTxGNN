@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Dostarlimab: predicted new indication Tendinopathy (evidence level L5). Approved use: The Singapore licence record contains no approved indication text. Ot…"
+monitor_inn: "Dostarlimab"
+predicted_indications: ["tendinopathy", "autoimmune retinopathy", "anaphylaxis", "idiopathic anaphylaxis", "exercise-induced anaphylaxis", "food-dependent exercise-induced anaphylaxis", "hypervalinemia and hyperleucine-isoleucinemia", "metabolic epilepsy", "adolescent/adult onset autosomal dominant epilepsy with auditory features", "adolescent/adult-onset epilepsy syndrome"]
 ---
 
 # Dostarlimab

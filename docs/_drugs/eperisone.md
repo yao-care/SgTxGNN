@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Eperisone: predicted new indication Osteoarthritis (evidence level L3). Approved use: Not stated in the Singapore licence data compiled for this report (ep…"
+monitor_inn: "Eperisone"
+predicted_indications: ["osteoarthritis", "nephrogenic syndrome of inappropriate antidiuresis", "insomnia (disease)", "headache disorder", "pseudoachondroplasia", "osteoarthritis susceptibility", "trigeminal autonomic cephalalgia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia", "myosclerosis"]
 ---
 
 # Eperisone

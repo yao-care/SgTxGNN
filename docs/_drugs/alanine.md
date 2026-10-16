@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Alanine: predicted new indication Gastroparesis (evidence level L5). Approved use: Not stated in the Singapore licence records (used in parenteral nutri…"
+monitor_inn: "Alanine"
+predicted_indications: ["gastroparesis (disease)", "obsolete vitamin D deficiency", "dyspepsia", "congenital prothrombin deficiency", "hypophosphatemic rickets", "renal tubular acidosis", "sclerosing cholangitis", "potassium deficiency disease", "postmenopausal osteoporosis", "albinism-deafness syndrome"]
 ---
 
 # Alanine

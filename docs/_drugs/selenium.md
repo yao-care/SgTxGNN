@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Selenium: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not stated in the registration data (approved indication text is empt…"
+monitor_inn: "selenium"
+predicted_indications: ["sclerosing cholangitis"]
 ---
 
 # Selenium

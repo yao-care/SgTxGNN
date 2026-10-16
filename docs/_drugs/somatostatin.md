@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Somatostatin: predicted new indication Amenorrhea (evidence level L5). Approved use: Not available"
+monitor_inn: "Somatostatin"
+predicted_indications: ["amenorrhea (disease)", "Leydig cell hypoplasia due to LH resistance", "46,XY disorder of sex development due to impaired androgen production", "hypogonadotropic hypogonadism with or without anosmia", "multiple endocrine neoplasia", "mycotic corneal ulcer", "pulmonary hypertension", "kyphoscoliotic heart disease", "HER2 positive breast carcinoma", "homozygous familial hypercholesterolemia"]
 ---
 
 # Somatostatin

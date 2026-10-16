@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ethinylestradiol: predicted new indication Zinc, elevated plasma (evidence level L5). Approved use: Acne, postmenopausal osteoporosis, osteoporosis…"
+monitor_inn: "Ethinylestradiol"
+predicted_indications: ["zinc, elevated plasma", "pyogenic arthritis-pyoderma gangrenosum-acne syndrome", "demodicidosis of sebaceous gland", "sebaceous gland anomaly", "amenorrhea (disease)", "duodenal ulcer (disease)", "hypoalphalipoproteinemia", "duodenogastric reflux", "familial acanthosis nigricans", "isolated congenital adermatoglyphia"]
 ---
 
 # Ethinylestradiol

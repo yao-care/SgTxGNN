@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Gallium Nitrate: predicted new indication Top-ranked prediction: sickle cell-hemoglobin C disease syndrome (pre… (evidence level L5). Approved use: Not stated in the Singapore registration data"
+monitor_inn: "Gallium nitrate"
+predicted_indications: ["sickle cell-hemoglobin c disease syndrome", "sickle cell-hemoglobin d disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "sickle cell-hemoglobin E disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "plasma cell myeloma", "indolent plasma cell myeloma", "relapsing-remitting multiple sclerosis", "colonic neoplasm", "drug-induced osteoporosis"]
 ---
 
 # Gallium Nitrate

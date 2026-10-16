@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ceftriaxone: predicted new indication Top-ranked by TxGNN: polyclonal hyperviscosity syndrome . Best-suppor… (evidence level L5). Approved use: Not stated in the Singapore licence records. The knowle…"
+monitor_inn: "Ceftriaxone"
+predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "infectious otitis media", "blood group incompatibility", "suppurative otitis media", "chronic otitis media", "premalignant hematological system disease", "middle ear disease", "otosalpingitis"]
 ---
 
 # Ceftriaxone

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Oxytocin: predicted new indication Allergic urticaria (evidence level L5). Approved use: Pregnancy disorder with abortive outcome"
+monitor_inn: "Oxytocin"
+predicted_indications: ["allergic urticaria", "nasopharyngitis", "papillary conjunctivitis", "recalcitrant atopic dermatitis", "atopic conjunctivitis", "IgE responsiveness, atopic", "cold urticaria", "esotropia", "rosacea conjunctivitis", "urticaria, aquagenic"]
 ---
 
 # Oxytocin

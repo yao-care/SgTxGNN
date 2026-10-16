@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Fosnetupitant: predicted new indication Leprosy (evidence level L5). Approved use: Not available in the data compiled for this report (the registered pr…"
+monitor_inn: "Fosnetupitant"
+predicted_indications: ["leprosy", "mycotic corneal ulcer", "coronary artery disease", "anomalous left coronary artery from the pulmonary artery", "candidiasis", "myocardial ischemia", "uterine polyp", "polyp of vocal cord", "polyp of middle ear", "polyp of ureter"]
 ---
 
 # Fosnetupitant

@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Dolutegravir: predicted new indication Simian immunodeficiency virus infection (evidence level L3). Approved use: HIV infection / AIDS"
+monitor_inn: "Dolutegravir"
+predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "chronic hepatitis C virus infection", "AIDS related complex", "congenital human immunodeficiency virus", "hepatitis C virus infection", "obsolete familial combined hyperlipidemia", "hepatitis E virus infection", "hepatitis A virus infection"]
 ---
 
 # Dolutegravir

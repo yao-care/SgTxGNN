@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Carbetocin: predicted new indication Isotretinoin-like syndrome (evidence level L5). Approved use: Prader-Willi syndrome, Noonan syndrome"
+monitor_inn: "Carbetocin"
+predicted_indications: ["isotretinoin-like syndrome", "Goodman syndrome", "Prader-Willi syndrome due to paternal deletion of 15q11q13", "Brachymorphism-onychodysplasia-dysphalangism syndrome", "Mietens syndrome", "hydrocephalus-costovertebral dysplasia-Sprengel anomaly syndrome", "lethal faciocardiomelic dysplasia", "symptomatic form of Coffin-Lowry syndrome in female carriers", "hypoglossia-hypodactyly syndrome", "partial deletion of the long arm of chromosome 15"]
 ---
 
 # Carbetocin

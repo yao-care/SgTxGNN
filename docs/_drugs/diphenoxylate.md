@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Diphenoxylate: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Diarrheal disease"
+monitor_inn: "Diphenoxylate"
+predicted_indications: ["gastroduodenitis", "peptic ulcer disease", "gastroenteritis", "common cold", "irritable bowel syndrome", "acute laryngopharyngitis", "nasal cavity disease", "pharyngitis", "parkinsonian disorder", "exercise-induced malignant hyperthermia"]
 ---
 
 # Diphenoxylate

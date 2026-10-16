@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Norethisterone: predicted new indication Amenorrhea (evidence level L4). Approved use: Acne, primary ovarian failure, endometriosis…"
+monitor_inn: "Norethisterone"
+predicted_indications: ["amenorrhea (disease)", "symptomatic form of fragile X syndrome in female carrier", "zinc, elevated plasma", "anovulation", "ovarian remnant syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18", "partial trisomy/tetrasomy of the short arm of chromosome 12", "luteoma of pregnancy", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 5"]
 ---
 
 # Norethisterone

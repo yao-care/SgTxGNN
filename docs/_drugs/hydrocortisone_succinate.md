@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Hydrocortisone Succinate: predicted new indication Allergic asthma (evidence level L4). Approved use: Not available"
+monitor_inn: "Hydrocortisone succinate"
+predicted_indications: ["allergic asthma", "intrinsic asthma", "gout", "migraine disorder", "migraine with brainstem aura", "uterine polyp", "polyp of vocal cord", "polyp of middle ear", "epulis", "polyp of frontal sinus"]
 ---
 
 # Hydrocortisone Succinate

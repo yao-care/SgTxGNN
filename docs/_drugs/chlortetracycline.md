@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Chlortetracycline: predicted new indication Postinfectious vasculitis (evidence level L5). Approved use: Trachoma, ornithosis, ophthalmia neonatorum"
+monitor_inn: "Chlortetracycline"
+predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "otitis externa", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "parasitic eyelid infestation", "ulcerative blepharitis", "blepharoconjunctivitis"]
 ---
 
 # Chlortetracycline

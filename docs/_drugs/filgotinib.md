@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Filgotinib: predicted new indication HER2-positive breast carcinoma (evidence level L5). Approved use: Not stated in the Singapore licence data"
+monitor_inn: "Filgotinib"
+predicted_indications: ["HER2 positive breast carcinoma", "thrombocytopenia", "hereditary thrombocytopenia with normal platelets", "marcothrombocytopenia with mitral valve insufficiency", "transient neonatal thrombocytopenia", "dense granule disease", "multiple endocrine neoplasia", "homozygous familial hypercholesterolemia", "progesterone-receptor negative breast cancer", "normal breast-like subtype of breast carcinoma"]
 ---
 
 # Filgotinib

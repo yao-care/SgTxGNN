@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Lanreotide: predicted new indication Hypertrichosis (evidence level L5). Approved use: Acromegaly, hyperpituitarism, pituitary gigantism"
+monitor_inn: "Lanreotide"
+predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita", "renal-hepatic-pancreatic dysplasia", "pulmonary arteriovenous malformation (disease)", "polycystic kidney disease 3 with or without polycystic liver disease", "genetic alopecia", "thoracic malformation"]
 ---
 
 # Lanreotide

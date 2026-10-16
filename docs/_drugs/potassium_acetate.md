@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Potassium Acetate: predicted new indication Renal tubular acidosis (evidence level L4). Approved use: Potassium deficiency disease"
+monitor_inn: "Potassium acetate"
+predicted_indications: ["renal tubular acidosis", "Alstrom syndrome", "pseudo-von Willebrand disease", "HELIX syndrome", "gastroduodenitis", "primary release disorder of platelets", "esophageal varices without bleeding", "esophageal varices with bleeding", "peptic ulcer disease", "immune-mediated necrotizing myopathy"]
 ---
 
 # Potassium Acetate

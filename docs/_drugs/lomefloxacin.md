@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Lomefloxacin: predicted new indication Laryngotracheitis (evidence level L4). Approved use: Urinary tract infection, bronchitis"
+monitor_inn: "Lomefloxacin"
+predicted_indications: ["laryngotracheitis", "heart valve disease", "heart conduction disease", "congenital anomaly of ventricular septum", "heart neoplasm", "pericardium disease", "carcinoid heart disease", "cardiac anomalies-heterotaxy syndrome", "myocardial rupture", "heart aneurysm"]
 ---
 
 # Lomefloxacin

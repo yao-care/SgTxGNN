@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Sodium Ascorbate: predicted new indication Insomnia (evidence level L5). Approved use: Not available"
+monitor_inn: "Sodium ascorbate"
+predicted_indications: ["insomnia (disease)", "osteoarthritis", "enterocolitis (disease)", "pseudoachondroplasia", "osteoarthritis susceptibility", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia", "exercise-induced malignant hyperthermia", "nephrogenic syndrome of inappropriate antidiuresis", "myosclerosis"]
 ---
 
 # Sodium Ascorbate

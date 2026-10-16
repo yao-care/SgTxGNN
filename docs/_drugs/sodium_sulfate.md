@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Sodium Sulfate: predicted new indication Dyspepsia (evidence level L5). Approved use: Not stated in the registration data (osmotic laxative / bowel prepara…"
+monitor_inn: "Sodium sulfate"
+predicted_indications: ["dyspepsia", "dry eye syndrome", "stomach disease", "sclerosing cholangitis", "bronchitis", "methemoglobinemia, alpha type", "methemoglobinemia", "methemoglobin reductase deficiency", "postgastrectomy syndrome", "primary hereditary glaucoma"]
 ---
 
 # Sodium Sulfate

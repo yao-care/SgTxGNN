@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Prazosin: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension (hypertensive disorder)"
+monitor_inn: "Prazosin"
+predicted_indications: ["malignant hypertensive renal disease", "malignant renovascular hypertension", "attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "specific developmental disorder", "Braddock syndrome", "chondromyxoid fibroma"]
 ---
 
 # Prazosin

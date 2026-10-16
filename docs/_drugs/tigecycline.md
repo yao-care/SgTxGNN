@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tigecycline: predicted new indication Disorder of tyrosine metabolism (evidence level L4). Approved use: Streptococcal pneumonia"
+monitor_inn: "Tigecycline"
+predicted_indications: ["disorder of tyrosine metabolism", "teratogenic Pierre Robin syndrome", "tetrahydrobiopterin-responsive hyperphenylalaninemia/phenylketonuria", "disorder of phenylalanine metabolism", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy"]
 ---
 
 # Tigecycline

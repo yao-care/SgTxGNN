@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Melitracen: predicted new indication Insomnia (evidence level L4). Approved use: Not stated in the Singapore licence record"
+monitor_inn: "Melitracen"
+predicted_indications: ["insomnia (disease)", "osteoarthritis", "headache disorder", "osteoarthritis susceptibility", "nephrogenic syndrome of inappropriate antidiuresis", "pseudoachondroplasia", "idiopathic granulomatous myositis", "myositis fibrosa", "dysthymic disorder", "tendinitis"]
 ---
 
 # Melitracen

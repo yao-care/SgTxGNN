@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Idarubicin: predicted new indication Bulbar polio (evidence level L5). Approved use: Acute myeloid leukaemia (AML) and related subtypes"
+monitor_inn: "Idarubicin"
+predicted_indications: ["bulbar polio", "5q35 microduplication syndrome", "neuralgic amyotrophy", "amyotrophic neuralgia", "familial thrombocytosis", "reactive thrombocytosis", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "vertebral anomalies and variable endocrine and T-cell dysfunction", "obsolete Hodgkin's granuloma"]
 ---
 
 # Idarubicin

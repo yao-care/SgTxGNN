@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Dinoprostone: predicted new indication Esotropia (evidence level L5). Approved use: Pregnancy disorder with abortive outcome"
+monitor_inn: "Dinoprostone"
+predicted_indications: ["esotropia", "atypical coarctation of aorta", "aortic malformation", "acne (disease)", "non-severe combined immunodeficiency", "T-B+ severe combined immunodeficiency due to CD45 deficiency", "HER2 positive breast carcinoma", "pyelonephritis", "drug-induced osteoporosis", "cervical neuroblastoma"]
 ---
 
 # Dinoprostone

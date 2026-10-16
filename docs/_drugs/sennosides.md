@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Sennosides: predicted new indication Hypotrichosis simplex of the scalp (evidence level L5). Approved use: Not stated in the registration data (sennosides are generally used as…"
+monitor_inn: "Sennosides"
+predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "open-angle glaucoma", "primary hereditary glaucoma", "alopecia", "glaucoma 1, open angle", "open angle glaucoma", "esophageal varices without bleeding", "esophageal varices with bleeding"]
 ---
 
 # Sennosides

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Glycopyrronium: predicted new indication Irritable bowel syndrome (evidence level L5). Approved use: Not stated in the licence records compiled for this report (the regis…"
+monitor_inn: "Glycopyrronium"
+predicted_indications: ["irritable bowel syndrome", "cauda equina syndrome", "obsolete neurogenic bladder (disease)", "neurocirculatory asthenia", "migraine disorder", "migraine with brainstem aura", "open-angle glaucoma", "autonomic nervous system disease", "primary hereditary glaucoma", "dysthymic disorder"]
 ---
 
 # Glycopyrronium

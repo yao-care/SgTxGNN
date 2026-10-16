@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Osimertinib: predicted new indication Thrombocytopenia (evidence level L4). Approved use: Not stated in the Singapore licence data (the literature describes it…"
+monitor_inn: "Osimertinib"
+predicted_indications: ["thrombocytopenia", "heart neoplasm", "thrombotic disease", "heart conduction disease", "marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "cardiovascular disease", "transient neonatal thrombocytopenia", "dense granule disease", "heart disease"]
 ---
 
 # Osimertinib

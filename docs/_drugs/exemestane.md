@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Exemestane: predicted new indication Amenorrhea (disease) (evidence level L4). Approved use: Not available in the registration data (the drug is an aromatase inhi…"
+monitor_inn: "Exemestane"
+predicted_indications: ["antithrombin deficiency type 2", "amenorrhea (disease)", "factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "thrombophilia", "migraine disorder", "migraine with brainstem aura", "acne (disease)", "migraine with or without aura, susceptibility to", "breast fibrocystic disease"]
 ---
 
 # Exemestane

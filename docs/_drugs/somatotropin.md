@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Somatotropin: predicted new indication Middle ear neuroendocrine tumor (evidence level L5). Approved use: Pituitary dwarfism, isolated congenital growth hormone deficiency…"
+monitor_inn: "Somatotropin"
+predicted_indications: ["middle ear neuroendocrine tumor", "malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "mixed gonadal dysgenesis", "mosaic monosomy X", "Turner syndrome due to structural X chromosome anomalies", "familial generalized lentiginosis", "rhabdoid tumor", "gastrocutaneous syndrome"]
 ---
 
 # Somatotropin

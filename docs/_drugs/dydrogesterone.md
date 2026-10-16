@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Dydrogesterone: predicted new indication Seborrheic keratosis (evidence level L5). Approved use: Not stated in the Singapore licence records. The pharmacology data de…"
+monitor_inn: "Dydrogesterone"
+predicted_indications: ["seborrheic keratosis", "myelodysplastic syndrome", "vulvar inverted follicular keratosis", "refractory cytopenia of childhood", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "amenorrhea (disease)", "cholecystolithiasis"]
 ---
 
 # Dydrogesterone

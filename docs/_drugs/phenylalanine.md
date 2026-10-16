@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Phenylalanine: predicted new indication Sclerosing cholangitis (evidence level L5). Approved use: Not stated in the Singapore licence records (marketed in amino acid a…"
+monitor_inn: "Phenylalanine"
+predicted_indications: ["sclerosing cholangitis", "congenital prothrombin deficiency", "epiglottitis", "hypophosphatemic rickets", "obsolete hyperuricemia (disease)", "laryngitis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "cholecystolithiasis", "diabetic nephropathy"]
 ---
 
 # Phenylalanine

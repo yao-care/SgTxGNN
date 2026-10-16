@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tafluprost: predicted new indication Primary hereditary glaucoma (evidence level L5). Approved use: Open-angle glaucoma"
+monitor_inn: "Tafluprost"
+predicted_indications: ["primary hereditary glaucoma", "visceral calciphylaxis", "tinea nigra", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "angiodysplasia of stomach", "idiopathic spontaneous coronary artery dissection", "neurogenic thoracic outlet syndrome", "vascular disease", "lymphangiectasis"]
 ---
 
 # Tafluprost

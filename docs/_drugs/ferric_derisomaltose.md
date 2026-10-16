@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ferric Derisomaltose: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Not stated in the Singapore licence record (the product is generally…"
+monitor_inn: "Ferric derisomaltose"
+predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "esotropia", "non-syndromic esophageal malformation", "hemorrhagic disease of newborn", "dermatitis", "acrodermatitis chronica atrophicans", "filariasis", "neonatal dermatomyositis", "hydroa vacciniforme, familial"]
 ---
 
 # Ferric Derisomaltose

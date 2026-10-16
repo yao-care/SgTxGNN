@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Misoprostol: predicted new indication Amenorrhea (evidence level L4). Approved use: Not stated in the Singapore licence data compiled for this report"
+monitor_inn: "Misoprostol"
+predicted_indications: ["amenorrhea (disease)", "atypical coarctation of aorta", "aortic malformation", "non-syndromic esophageal malformation", "acne (disease)", "esophageal disease", "primary hereditary glaucoma", "open-angle glaucoma", "congenital hypotrichosis milia", "double outlet right ventricle with atrioventricular septal defect, pulmonary stenosis, heterotaxy"]
 ---
 
 # Misoprostol

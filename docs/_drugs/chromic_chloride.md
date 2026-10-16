@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Chromic Chloride: predicted new indication Primary hereditary glaucoma (evidence level L5). Approved use: Not stated in the Singapore licence data (use as a trace-element supp…"
+monitor_inn: "Chromic chloride"
+predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "amenorrhea (disease)", "filariasis", "trigeminal autonomic cephalalgia", "headache disorder", "peripheral arterial disease", "congenital hypotrichosis milia", "pulmonary hypertension", "glaucoma 1, open angle"]
 ---
 
 # Chromic Chloride

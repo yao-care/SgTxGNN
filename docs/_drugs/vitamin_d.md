@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Vitamin D: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Not available"
+monitor_inn: "Vitamin D"
+predicted_indications: ["primary release disorder of platelets", "sclerosing cholangitis", "pseudo-von Willebrand disease", "cholecystolithiasis", "multiple endocrine neoplasia", "Glanzmann thrombasthenia", "familial isolated hypoparathyroidism due to impaired PTH secretion", "acromesomelic dysplasia, Campailla Martinelli type", "hypoparathyroidism", "craniofacial conodysplasia"]
 ---
 
 # Vitamin D

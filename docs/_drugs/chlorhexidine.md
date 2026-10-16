@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Chlorhexidine: predicted new indication Chronic ethmoidal sinusitis (evidence level L5). Approved use: Gingivitis"
+monitor_inn: "Chlorhexidine"
+predicted_indications: ["chronic ethmoidal sinusitis", "sinusitis", "chronic rhinosinusitis", "paranasal sinus neoplasm (disease)", "tinea corporis", "blastomycosis", "Campylobacter fetus infectious disease", "catatrichy", "cutaneous candidiasis", "keratosis follicularis spinulosa decalvans, autosomal dominant"]
 ---
 
 # Chlorhexidine

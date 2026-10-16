@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Nivolumab: predicted new indication Non-cutaneous melanoma (evidence level L2). Approved use: Non-small cell lung carcinoma, lung cancer…"
+monitor_inn: "Nivolumab"
+predicted_indications: ["non-cutaneous melanoma", "epithelioid cell melanoma", "CDK4 linked melanoma", "lentigo maligna melanoma", "amelanotic skin melanoma", "acral lentiginous melanoma (disease)", "balloon cell malignant melanoma", "malignant melanoma of the mucosa", "superficial spreading melanoma", "nodular malignant melanoma"]
 ---
 
 # Nivolumab

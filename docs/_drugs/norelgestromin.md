@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Norelgestromin: predicted new indication Amenorrhea (evidence level L5). Approved use: Not stated in the Singapore registration data (the approved indicatio…"
+monitor_inn: "Norelgestromin"
+predicted_indications: ["amenorrhea (disease)", "acne (disease)", "breast fibrocystic disease", "apocrine adenosis of breast", "blunt duct adenosis of breast", "benign mammary dysplasia", "fat necrosis of breast", "breast abscess", "lactation disease", "primary ovarian failure"]
 ---
 
 # Norelgestromin

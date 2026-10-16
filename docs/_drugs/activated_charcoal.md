@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Activated Charcoal: predicted new indication Jeune syndrome situs inversus (evidence level L5). Approved use: Not stated in the Singapore registration records"
+monitor_inn: "Activated charcoal"
+predicted_indications: ["Jeune syndrome situs inversus", "orofacial clefting syndrome", "disorder of fucoglycosan synthesis", "Pierre Robin syndrome associated with a chromosomal anomaly", "partial deletion of the long arm of chromosome 22", "partial deletion of the long arm of chromosome 7", "pulmonary valve disease", "heart disease", "genetic syndromic Pierre Robin syndrome", "Laubry-Pezzi syndrome"]
 ---
 
 # Activated Charcoal

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Aminacrine: predicted new indication Paratyphoid fever (evidence level L5). Approved use: Not stated in the Singapore licence record (topical antiseptic use is…"
+monitor_inn: "Aminacrine"
+predicted_indications: ["paratyphoid fever", "diffuse scleroderma", "sinusitis", "epiglottitis", "apical periodontitis", "periapical granuloma", "suppurative periapical periodontitis", "chronic ethmoidal sinusitis", "chronic rhinosinusitis", "paranasal sinus neoplasm (disease)"]
 ---
 
 # Aminacrine

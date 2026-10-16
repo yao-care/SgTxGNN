@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Protein C: predicted new indication Glanzmann thrombasthenia (evidence level L5). Approved use: Not stated in the licence data (approved indication text is empty)"
+monitor_inn: "Protein C"
+predicted_indications: ["Glanzmann thrombasthenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "Scott syndrome", "platelet-type bleeding disorder", "inherited thrombophilia", "fetal and neonatal alloimmune thrombocytopenia", "flood factor deficiency"]
 ---
 
 # Protein C

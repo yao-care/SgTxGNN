@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Soybean Oil: predicted new indication Amenorrhea (evidence level L5). Approved use: Not stated in the registration data (the product is an injectable lip…"
+monitor_inn: "Soybean oil"
+predicted_indications: ["amenorrhea (disease)", "non-syndromic esophageal malformation", "bone Paget disease", "esophageal disease", "juvenile Paget disease", "dentinogenesis imperfecta", "rectal cloacogenic carcinoma", "gallbladder adenosquamous carcinoma", "acantholytic variant squamous cell breast carcinoma", "adenosquamous breast carcinoma"]
 ---
 
 # Soybean Oil

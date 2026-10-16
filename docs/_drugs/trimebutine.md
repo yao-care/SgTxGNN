@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Trimebutine: predicted new indication Migraine disorder (evidence level L5). Approved use: Not stated in the Singapore licence data compiled for this report"
+monitor_inn: "Trimebutine"
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "nephrogenic syndrome of inappropriate antidiuresis", "headache disorder", "ulerythema ophryogenesis", "pulmonary hypertension", "open-angle glaucoma", "Raynaud disease"]
 ---
 
 # Trimebutine

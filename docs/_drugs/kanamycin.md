@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Kanamycin: predicted new indication Top-ranked prediction: hyperamylasemia . Best-supported prediction: g… (evidence level L5). Approved use: Urinary tract infection, bacterial pneumonia, cholangitis…"
+monitor_inn: "Kanamycin"
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "Ureaplasma urethritis", "gonococcal urethritis", "blood group incompatibility", "premalignant hematological system disease", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "monoclonal gammopathy"]
 ---
 
 # Kanamycin

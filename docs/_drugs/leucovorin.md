@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Leucovorin: predicted new indication Primary hyperoxaluria (evidence level L5). Approved use: Megaloblastic anemia"
+monitor_inn: "Leucovorin"
+predicted_indications: ["primary hyperoxaluria", "congenital intrinsic factor deficiency", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "hereditary hemochromatosis", "inflammatory myopathy with abundant macrophages", "idiopathic eosinophilic myositis", "focal myositis", "primary amyloidosis", "acquired amyloid peripheral neuropathy"]
 ---
 
 # Leucovorin

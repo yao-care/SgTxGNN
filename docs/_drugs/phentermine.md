@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Phentermine: predicted new indication Hypervitaminosis (evidence level L5). Approved use: Obesity"
+monitor_inn: "Phentermine"
+predicted_indications: ["hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "obsolete hypertelorism (disease)", "frontorhiny", "postural orthostatic tachycardia syndrome", "lethal polymalformative syndrome, Boissel type", "fatty liver disease", "pentosuria", "migraine with brainstem aura", "migraine disorder"]
 ---
 
 # Phentermine

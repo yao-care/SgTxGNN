@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Sultamicillin: predicted new indication Bronchitis (evidence level L3). Approved use: Not recorded in the licence data (the approved indication text is emp…"
+monitor_inn: "Sultamicillin"
+predicted_indications: ["bronchitis", "thrombotic disease", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "rheumatoid arthritis", "antithrombin deficiency type 2", "laryngotracheitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "thrombophilia", "myositis fibrosa"]
 ---
 
 # Sultamicillin

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Levocetirizine: predicted new indication Rheumatoid arthritis (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, idiopathic urticaria"
+monitor_inn: "Levocetirizine"
+predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "osteoarthritis susceptibility", "common cold", "acromesomelic dysplasia, Hunter-Thompson type", "osteoarthritis", "myosclerosis", "brachyolmia", "gout"]
 ---
 
 # Levocetirizine

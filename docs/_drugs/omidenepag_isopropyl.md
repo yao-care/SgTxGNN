@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Omidenepag Isopropyl: predicted new indication Pancreatitis (evidence level L5). Approved use: Ocular hypertension, glaucoma"
+monitor_inn: "Omidenepag isopropyl"
+predicted_indications: ["pancreatitis", "hyperphosphatemia (disease)", "esophageal varices with bleeding", "esophageal varices without bleeding", "blepharospasm", "familial visceral myopathy", "alcoholic cardiomyopathy", "lipase deficiency, combined", "varicose disease", "hiatus hernia (disease)"]
 ---
 
 # Omidenepag Isopropyl

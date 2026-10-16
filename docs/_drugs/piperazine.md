@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Piperazine: predicted new indication Echinococcus granulosus infectious disease (evidence level L5). Approved use: Enterobiasis, ascariasis"
+monitor_inn: "Piperazine"
+predicted_indications: ["echinococcus granulosus infectious disease", "alveolar echinococcosis", "acute neonatal citrullinemia type I", "adult-onset citrullinemia type I", "malaria", "Smouldering systemic mastocytosis", "lymphoadenopathic mastocytosis with eosinophilia", "urea cycle disorder", "systemic mastocytosis", "cystic echinococcosis"]
 ---
 
 # Piperazine

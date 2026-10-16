@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Erdosteine: predicted new indication Marcothrombocytopenia with mitral valve insufficiency (evidence level L5). Approved use: Not stated in the Singapore license data (erdosteine is generally kno…"
+monitor_inn: "Erdosteine"
+predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "thrombocytopenia", "dense granule disease", "transient neonatal thrombocytopenia", "platelet storage pool deficiency", "Ledderhose disease", "penile fibromatosis", "respiratory syncytial virus infectious disease", "infantile digital fibromatosis"]
 ---
 
 # Erdosteine

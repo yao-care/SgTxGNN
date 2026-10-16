@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tropicamide: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Cycloplegia"
+monitor_inn: "Tropicamide"
+predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "allergic urticaria", "nasal cavity disease", "acute laryngopharyngitis", "pharyngitis", "primary hereditary glaucoma", "nasopharyngitis", "recalcitrant atopic dermatitis"]
 ---
 
 # Tropicamide

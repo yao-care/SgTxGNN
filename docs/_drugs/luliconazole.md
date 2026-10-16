@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Luliconazole: predicted new indication Pityriasis versicolor (evidence level L3). Approved use: Tinea pedis, tinea corporis, tinea infection…"
+monitor_inn: "Luliconazole"
+predicted_indications: ["pityriasis versicolor", "superficial mycosis", "cutaneous candidiasis", "endothrix infectious disease", "dermatophytosis of scalp or beard", "ectothrix infectious disease", "Majocchi granuloma", "tinea profunda", "echinococcus granulosus infectious disease", "ophthalmic herpes zoster"]
 ---
 
 # Luliconazole

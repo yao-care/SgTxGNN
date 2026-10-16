@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Dicyclomine: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Irritable bowel syndrome"
+monitor_inn: "Dicyclomine"
+predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "attention deficit hyperactivity disorder, inattentive type", "specific developmental disorder", "attention deficit-hyperactivity disorder", "chondromyxoid fibroma", "gastroduodenitis", "faciodigitogenital syndrome", "peptic ulcer disease", "autonomic nervous system disease"]
 ---
 
 # Dicyclomine

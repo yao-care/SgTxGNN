@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Somapacitan: predicted new indication Allergic asthma (evidence level L5). Approved use: Not stated in the registration data compiled for this report (the dru…"
+monitor_inn: "Somapacitan"
+predicted_indications: ["allergic asthma", "intrinsic asthma", "brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "renin-angiotensin-aldosterone system-blocker-induced angioedema", "gout", "autoimmune hemolytic anemia", "diabetic nephropathy", "asthma-related traits, susceptibility to", "disorder of GPI anchor biosynthesis"]
 ---
 
 # Somapacitan

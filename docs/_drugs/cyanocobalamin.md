@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Cyanocobalamin: predicted new indication Biotin metabolic disease (evidence level L5). Approved use: Vitamin B12 deficiency, pernicious anaemia…"
+monitor_inn: "Cyanocobalamin"
+predicted_indications: ["biotin metabolic disease", "inborn error of biotin metabolism", "non-syndromic esophageal malformation", "inflammatory myopathy with abundant macrophages", "idiopathic eosinophilic myositis", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "proteinuria", "focal myositis", "primary CD59 deficiency"]
 ---
 
 # Cyanocobalamin

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Pinazepam: predicted new indication Insomnia (evidence level L5). Approved use: Not recorded in the Singapore licence data (literature suggests anxie…"
+monitor_inn: "Pinazepam"
+predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium", "antidepressant type abuse", "barbiturate abuse", "hallucinogen abuse", "anxiety", "sleep disorder, initiating and maintaining sleep", "anxiety disorder", "alcohol withdrawal", "dysthymic disorder"]
 ---
 
 # Pinazepam

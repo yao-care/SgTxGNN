@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Isoflurane: predicted new indication Prinzmetal angina (evidence level L5). Approved use: Not stated in the Singapore licence records (product names indicate i…"
+monitor_inn: "Isoflurane"
+predicted_indications: ["Prinzmetal angina", "Tourette syndrome", "manic bipolar affective disorder", "trichotillomania", "dysthymic disorder", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "myofascial pain syndrome", "migraine with brainstem aura", "myositis fibrosa"]
 ---
 
 # Isoflurane

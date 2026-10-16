@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Titanium Dioxide: predicted new indication Drug-induced osteoporosis (evidence level L5). Approved use: Not recorded in the Singapore license data"
+monitor_inn: "Titanium dioxide"
+predicted_indications: ["drug-induced osteoporosis", "diabetic retinopathy", "diabetic cataract", "severe nonproliferative diabetic retinopathy", "tetanic cataract", "diabetes mellitus type 2 associated cataract", "craniostenosis cataract", "mature cataract", "immature cataract", "nuclear senile cataract"]
 ---
 
 # Titanium Dioxide

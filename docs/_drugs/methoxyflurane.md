@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Methoxyflurane: predicted new indication Insomnia (evidence level L5). Approved use: Not stated in the Singapore registration data. Published literature d…"
+monitor_inn: "Methoxyflurane"
+predicted_indications: ["insomnia (disease)", "migraine disorder", "migraine with brainstem aura", "dysthymic disorder", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "neurotic disorder", "ulerythema ophryogenesis", "anxiety disorder", "anxiety"]
 ---
 
 # Methoxyflurane

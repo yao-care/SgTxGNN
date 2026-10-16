@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Rivastigmine: predicted new indication Glaucoma (evidence level L3). Approved use: Alzheimer's disease"
+monitor_inn: "Rivastigmine"
+predicted_indications: ["glaucoma", "acute intermittent porphyria", "psychogenic movement disorders", "primary orthostatic tremor", "tremor-nystagmus-duodenal ulcer syndrome", "benign shuddering attacks", "extrapyramidal and movement disease", "benign paroxysmal tonic upgaze of childhood with ataxia", "chronic tic disorder", "primary hereditary glaucoma"]
 ---
 
 # Rivastigmine

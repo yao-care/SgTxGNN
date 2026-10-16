@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Trastuzumab Emtansine: predicted new indication Progesterone-receptor positive breast cancer (evidence level L4). Approved use: HER2-positive breast carcinoma"
+monitor_inn: "Trastuzumab emtansine"
+predicted_indications: ["progesterone-receptor positive breast cancer", "normal breast-like subtype of breast carcinoma", "progesterone-receptor negative breast cancer", "breast tumor luminal A or B", "synovium cancer", "tenosynovial giant cell tumor", "tenosynovial giant cell tumor, localized type", "malignant giant cell tumor", "human herpesvirus 8-related tumor", "ectomesenchymoma"]
 ---
 
 # Trastuzumab Emtansine

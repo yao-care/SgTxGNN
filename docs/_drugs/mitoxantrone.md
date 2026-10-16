@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Mitoxantrone: predicted new indication Upper aerodigestive tract neoplasm (evidence level L4). Approved use: Myeloid leukaemia / acute myeloid leukaemia"
+monitor_inn: "Mitoxantrone"
+predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "head and neck cancer", "bladder exstrophy-epispadias-cloacal exstrophy complex", "bulbar polio", "adenosarcoma"]
 ---
 
 # Mitoxantrone

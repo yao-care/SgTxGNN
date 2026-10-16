@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Atenolol: predicted new indication Posterolateral myocardial infarction (evidence level L5). Approved use: Hypertension, myocardial infarction"
+monitor_inn: "Atenolol"
+predicted_indications: ["posterolateral myocardial infarction", "posteroinferior myocardial infarction", "malignant renovascular hypertension", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "septal myocardial infarction", "Braddock syndrome", "chronic pulmonary heart disease", "primary hereditary glaucoma"]
 ---
 
 # Atenolol

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Pilocarpine: predicted new indication Primary hereditary glaucoma (evidence level L5). Approved use: Open-angle glaucoma"
+monitor_inn: "Pilocarpine"
+predicted_indications: ["primary hereditary glaucoma", "oral candidiasis", "glaucoma 1, open angle", "open angle glaucoma", "osteoradionecrosis of the mandible", "commissural lip fistula", "burning mouth syndrome", "oral leukoedema", "chronic tic disorder", "benign shuddering attacks"]
 ---
 
 # Pilocarpine

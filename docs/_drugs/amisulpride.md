@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Amisulpride: predicted new indication Schizophrenia (evidence level L1). Approved use: Not available"
+monitor_inn: "Amisulpride"
+predicted_indications: ["schizophrenia", "retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "hydranencephaly (disease)", "psychotic disorder", "syndromic myopia", "myopia 26, X-linked, female-limited", "dysthymic disorder", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "anxiety disorder"]
 ---
 
 # Amisulpride

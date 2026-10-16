@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tianeptine: predicted new indication Migraine disorder (evidence level L5). Approved use: Not stated in the Singapore registration data (tianeptine is known as…"
+monitor_inn: "Tianeptine"
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "dysthymic disorder", "migraine with or without aura, susceptibility to", "headache disorder", "atrophoderma vermiculata", "trigeminal autonomic cephalalgia", "neurotic disorder", "ulerythema ophryogenesis", "common cold"]
 ---
 
 # Tianeptine

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Arginine: predicted new indication Gastroparesis (evidence level L4). Approved use: Not stated in the licence data compiled for this report (products are…"
+monitor_inn: "Arginine"
+predicted_indications: ["gastroparesis (disease)", "congenital prothrombin deficiency", "dyspepsia", "vitamin deficiency disorder", "sclerosing cholangitis", "obsolete vitamin D deficiency", "biotin metabolic disease", "hypophosphatemic rickets", "postgastrectomy syndrome", "non-syndromic esophageal malformation"]
 ---
 
 # Arginine

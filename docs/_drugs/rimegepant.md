@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Rimegepant: predicted new indication Migraine with brainstem aura (evidence level L3). Approved use: Migraine disorder"
+monitor_inn: "Rimegepant"
+predicted_indications: ["migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis", "thrombophilia", "Prinzmetal angina", "sciatic neuropathy", "homozygous familial hypercholesterolemia"]
 ---
 
 # Rimegepant

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Doxazosin: predicted new indication Migraine disorder (evidence level L5). Approved use: Hypertension"
+monitor_inn: "Doxazosin"
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "hypotrichosis simplex of the scalp", "syndrome with a Dandy-Walker malformation as major feature", "hypertrichosis (disease)", "congenital hypotrichosis milia", "isolated genetic hair shaft abnormality", "kyphoscoliotic heart disease"]
 ---
 
 # Doxazosin

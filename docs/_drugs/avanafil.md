@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Avanafil: predicted new indication Amenorrhea (evidence level L5). Approved use: Erectile dysfunction"
+monitor_inn: "Avanafil"
+predicted_indications: ["amenorrhea (disease)", "hypoalphalipoproteinemia", "malignant catarrh", "infectious bovine rhinotracheitis", "Raynaud disease", "Ambras type hypertrichosis universalis congenita", "obsolete susceptibility to ischemic stroke", "malformation syndrome with odontal and/or periodontal component", "stroke disorder", "adrenal gland hyperfunction"]
 ---
 
 # Avanafil

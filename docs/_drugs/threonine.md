@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Threonine: predicted new indication Gastroparesis (evidence level L5). Approved use: Not stated in the registration data (marketed as a component of amino…"
+monitor_inn: "Threonine"
+predicted_indications: ["gastroparesis (disease)", "dyspepsia", "obsolete vitamin D deficiency", "renal tubular acidosis", "postgastrectomy syndrome", "hypophosphatemic rickets", "hereditary hypophosphatemic rickets", "congenital prothrombin deficiency", "albinism-deafness syndrome", "postmenopausal osteoporosis"]
 ---
 
 # Threonine

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Pentetic Acid: predicted new indication Thrombocytopenic purpura (evidence level L5). Approved use: Not stated in the Singapore registration data"
+monitor_inn: "Pentetic acid"
+predicted_indications: ["thrombocytopenic purpura", "hepatic porphyria", "benign recurrent intrahepatic cholestasis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "primitive portal vein thrombosis", "hepatoportal sclerosis", "idiopathic copper-associated cirrhosis", "peliosis hepatis", "hepatic infarction"]
 ---
 
 # Pentetic Acid

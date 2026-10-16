@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Benzydamine: predicted new indication Benign prostatic hyperplasia (evidence level L5). Approved use: Not stated in the registration records compiled for this report (prod…"
+monitor_inn: "Benzydamine"
+predicted_indications: ["benign prostatic hyperplasia (disease)", "headache disorder", "trigeminal autonomic cephalalgia", "peripheral vascular disease", "common cold", "peripheral arterial disease", "female breast carcinoma", "toxocariasis", "subarachnoid hemorrhage (disease)", "alopecia"]
 ---
 
 # Benzydamine

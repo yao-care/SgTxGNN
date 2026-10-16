@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ebastine: predicted new indication Coronary artery disease (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, idiopathic urticaria"
+monitor_inn: "Ebastine"
+predicted_indications: ["coronary artery disease", "myocardial ischemia", "anomalous left coronary artery from the pulmonary artery", "leprosy", "candidiasis", "pneumocystosis", "hypertrichosis (disease)", "polyp of vocal cord", "polyp of middle ear", "uterine polyp"]
 ---
 
 # Ebastine

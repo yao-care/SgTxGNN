@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Chlordiazepoxide: predicted new indication Insomnia (evidence level L4). Approved use: Anxiety, alcohol withdrawal, mixed anxiety and depressive disorder"
+monitor_inn: "Chlordiazepoxide"
+predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "obsolete neurogenic bladder (disease)", "attention deficit hyperactivity disorder, inattentive type", "specific developmental disorder", "sleep disorder, initiating and maintaining sleep", "barbiturate abuse", "antidepressant type abuse", "hallucinogen abuse", "myofascial pain syndrome"]
 ---
 
 # Chlordiazepoxide

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Mepivacaine: predicted new indication Gastroduodenitis (evidence level L5). Approved use: Local anaesthesia"
+monitor_inn: "Mepivacaine"
+predicted_indications: ["gastroduodenitis", "peptic ulcer disease", "gout", "bronchitis", "rhinitis", "infectious otitis media", "hypertensive disorder", "malignant renovascular hypertension", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia"]
 ---
 
 # Mepivacaine

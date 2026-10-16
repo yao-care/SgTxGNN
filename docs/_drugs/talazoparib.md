@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Talazoparib: predicted new indication HER2 positive breast carcinoma (evidence level L2). Approved use: Not stated in the Singapore licence records (published literature des…"
+monitor_inn: "Talazoparib"
+predicted_indications: ["HER2 positive breast carcinoma", "HIV infectious disease", "progesterone-receptor negative breast cancer", "normal breast-like subtype of breast carcinoma", "progesterone-receptor positive breast cancer", "breast tumor luminal A or B", "multiple endocrine neoplasia", "primary release disorder of platelets", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
 ---
 
 # Talazoparib

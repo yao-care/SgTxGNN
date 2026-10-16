@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Paraldehyde: predicted new indication Irritable bowel syndrome (evidence level L5). Approved use: Not stated in the registration data (approved indication text is blan…"
+monitor_inn: "Paraldehyde"
+predicted_indications: ["irritable bowel syndrome", "cauda equina syndrome", "obsolete neurogenic bladder (disease)", "neurocirculatory asthenia", "rhinitis", "insomnia (disease)", "dysautonomia", "autonomic nervous system disease", "ancylostomiasis", "mitral valve prolapse (disease)"]
 ---
 
 # Paraldehyde

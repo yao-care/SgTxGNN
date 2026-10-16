@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Leuprolide: predicted new indication Osteoarthritis (evidence level L5). Approved use: Endometriosis, precocious puberty"
+monitor_inn: "Leuprolide"
+predicted_indications: ["osteoarthritis", "pseudoachondroplasia", "brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia", "myosclerosis", "osteoarthritis susceptibility", "arthropathy", "Behr syndrome", "pulmonic stenosis (disease)"]
 ---
 
 # Leuprolide

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Pentamidine: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Pneumocystosis, human African trypanosomiasis, trypanosomiasis"
+monitor_inn: "pentamidine"
+predicted_indications: ["punctate epithelial keratoconjunctivitis", "neurotrophic keratopathy", "exposure keratitis", "non-human animal disease", "congenital analbuminemia"]
 ---
 
 # Pentamidine

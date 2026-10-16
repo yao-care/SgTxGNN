@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ritonavir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: Chronic hepatitis C virus infection, HIV infection / AIDS"
+monitor_inn: "Ritonavir"
+predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hepatitis B virus infection", "AIDS related complex", "congenital human immunodeficiency virus", "fibroma of prostate", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection"]
 ---
 
 # Ritonavir

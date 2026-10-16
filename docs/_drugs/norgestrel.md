@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Norgestrel: predicted new indication Amenorrhea (evidence level L4). Approved use: Not stated in the Singapore licence data (the product is a progestin…"
+monitor_inn: "Norgestrel"
+predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "apocrine adenosis of breast", "blunt duct adenosis of breast", "lactation disease", "breast adenosis", "fat necrosis of breast", "breast abscess", "scalp dermatosis"]
 ---
 
 # Norgestrel

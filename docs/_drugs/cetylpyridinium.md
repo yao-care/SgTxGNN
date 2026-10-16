@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Cetylpyridinium: predicted new indication Fetal erythroblastosis (evidence level L5). Approved use: Not stated in the Singapore licence records (products are oral antise…"
+monitor_inn: "Cetylpyridinium"
+predicted_indications: ["fetal erythroblastosis", "acquired angioedema", "renin-angiotensin-aldosterone system-blocker-induced angioedema", "scleroderma (disease)", "localized scleroderma", "multiple sclerosis", "pseudoxanthoma elasticum, forme fruste", "elastoma", "aphthous stomatitis", "imperforate anus"]
 ---
 
 # Cetylpyridinium

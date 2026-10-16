@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Baloxavir Marboxil: predicted new indication Hemophagocytic syndrome associated with an infection (evidence level L5). Approved use: Influenza"
+monitor_inn: "Baloxavir marboxil"
+predicted_indications: ["hemophagocytic syndrome associated with an infection", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease", "cardioencephalomyopathy, fatal infantile, due to cytochrome c oxidase deficiency", "Singleton-Merten syndrome", "hemophagocytic syndrome", "chronic hepatitis C virus infection", "hepatitis C virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "Omsk hemorrhagic fever"]
 ---
 
 # Baloxavir Marboxil

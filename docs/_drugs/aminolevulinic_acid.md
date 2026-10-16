@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Aminolevulinic Acid: predicted new indication Pre-malignant neoplasm (evidence level L2). Approved use: Actinic keratosis and related skin disease"
+monitor_inn: "Aminolevulinic acid"
+predicted_indications: ["pre-malignant neoplasm", "odontogenic cyst", "nasopharyngeal teratoma", "cervical neuroblastoma", "benign neoplasm of tongue", "benign neoplasm of buccal mucosa", "cystic neoplasm", "inner ear neoplasm", "tumor of testis and paratestis", "schwannoma of jugular foramen"]
 ---
 
 # Aminolevulinic Acid
