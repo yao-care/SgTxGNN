@@ -66,7 +66,7 @@ And the original TxGNN paper:
   author={Huang, Kexin and others},
   journal={Nature Medicine},
   year={2023},
-  doi={10.1038/s41591-023-02233-x}
+  doi={10.1038/s41591-024-03233-x}
 }
 ```
 
@@ -77,7 +77,7 @@ And the original TxGNN paper:
 ### TxGNN
 
 - [TxGNN Project Page](https://zitniklab.hms.harvard.edu/projects/TxGNN/)
-- [TxGNN Paper](https://www.nature.com/articles/s41591-023-02233-x)
+- [TxGNN Paper](https://www.nature.com/articles/s41591-024-03233-x)
 - [TxGNN Explorer](http://txgnn.org)
 - [TxGNN GitHub](https://github.com/mims-harvard/TxGNN)
 

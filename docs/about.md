@@ -54,7 +54,7 @@ electronic health record integration.
 This project's AI prediction model is based on:
 
 > Huang, K., et al. (2023). A foundation model for clinician-centered drug repurposing. *Nature Medicine*.
-> [DOI: 10.1038/s41591-023-02233-x](https://doi.org/10.1038/s41591-023-02233-x)
+> [DOI: 10.1038/s41591-024-03233-x](https://doi.org/10.1038/s41591-024-03233-x)
 
 ---
 
@@ -80,7 +80,7 @@ The advantage of drug repurposing: drug safety, pharmacokinetics, and manufactur
 ## What is TxGNN?
 
 <p class="key-answer" data-question="What is TxGNN?">
-<a href="https://www.nature.com/articles/s41591-023-02233-x">TxGNN</a> is a deep learning model developed by Harvard Medical School's Zitnik Lab team, published in <em>Nature Medicine</em>. It is the first foundation model designed for clinician-centered drug repurposing.
+<a href="https://www.nature.com/articles/s41591-024-03233-x">TxGNN</a> is a deep learning model developed by Harvard Medical School's Zitnik Lab team, published in <em>Nature Medicine</em>. It is the first foundation model designed for clinician-centered drug repurposing.
 </p>
 
 <blockquote class="expert-quote">
@@ -143,7 +143,7 @@ If using TxGNN prediction results, please also cite the original paper:
   author={Huang, Kexin and others},
   journal={Nature Medicine},
   year={2023},
-  doi={10.1038/s41591-023-02233-x}
+  doi={10.1038/s41591-024-03233-x}
 }
 ```
 

@@ -2,7 +2,7 @@
 layout: default
 title: Drug Repurposing Reports
 nav_order: 1
-description: "AI-powered drug repurposing predictions for Singapore HSA-approved medications. 745 drugs with clinical trial and literature evidence validation. L1-L5 evidence classification."
+description: "AI-powered drug repurposing predictions for Singapore HSA-approved medications. 1,052 drugs with clinical trial and literature evidence validation. L1-L5 evidence classification."
 permalink: /
 image: /assets/images/og-default.png
 ---
@@ -10,7 +10,7 @@ image: /assets/images/og-default.png
 # Drug Repurposing: From Data to Evidence
 
 <p class="key-answer" data-question="What is SgTxGNN Drug Repurposing Reports?">
-<strong>SgTxGNN</strong> is a drug repurposing prediction platform based on Harvard's TxGNN model. We use AI to predict <strong>18,069</strong> drug repurposing candidates and provide evidence-based validation reports for <strong>745</strong> Singapore HSA-approved medications.
+<strong>SgTxGNN</strong> is a drug repurposing prediction platform based on Harvard's TxGNN model. We use AI to predict <strong>10,473</strong> drug repurposing candidates and provide evidence-based validation reports for <strong>1,052</strong> Singapore HSA-approved medications.
 </p>
 
 <div class="key-takeaway">
@@ -77,7 +77,7 @@ Most drug repurposing tools only provide "possibly effective" scores. SgTxGNN in
   </div>
   <div style="padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #FB8C00;">
     <strong style="font-size: 1.1rem;">Singapore HSA Coverage</strong><br>
-    <span style="color: #666;">Focused on HSA-registered medications covering 745 drugs and 4,589 predicted indications. Reports include Singapore license status.</span>
+    <span style="color: #666;">Focused on HSA-registered medications covering 1,052 drugs and 10,473 predicted indications. Reports include Singapore license status.</span>
   </div>
   <div style="padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #9B59B6;">
     <strong style="font-size: 1.1rem;">Dual Validation (KG+DL)</strong><br>
@@ -115,15 +115,15 @@ Most drug repurposing tools only provide "possibly effective" scores. SgTxGNN in
 
 <div class="stats-grid">
   <div class="stat-card">
-    <div class="stat-number">745</div>
+    <div class="stat-number">1,052</div>
     <div class="stat-label">Drugs Analyzed</div>
   </div>
   <div class="stat-card">
-    <div class="stat-number">18,069</div>
+    <div class="stat-number">10,473</div>
     <div class="stat-label">Repurposing Candidates</div>
   </div>
   <div class="stat-card">
-    <div class="stat-number">4,589</div>
+    <div class="stat-number">1,873</div>
     <div class="stat-label">Diseases Covered</div>
   </div>
   <div class="stat-card">
@@ -151,7 +151,7 @@ Most drug repurposing tools only provide "possibly effective" scores. SgTxGNN in
 | **High Evidence** | L1-L2, prioritize for evaluation | [View Drugs]({{ '/evidence-high' | relative_url }}) |
 | **Medium Evidence** | L3-L4, needs additional evidence | [View Drugs]({{ '/evidence-medium' | relative_url }}) |
 | **Predictions Only** | L5, research direction reference | [View Drugs]({{ '/evidence-low' | relative_url }}) |
-| **Full Drug List** | All 745 drugs (searchable) | [Drug List]({{ '/drugs' | relative_url }}) |
+| **Full Drug List** | All 1,052 drugs (searchable) | [Drug List]({{ '/drugs' | relative_url }}) |
 | **Methodology** | How predictions are made | [Methodology]({{ '/methodology' | relative_url }}) |
 | **Downloads** | CSV / JSON formats | [Downloads]({{ '/downloads' | relative_url }}) |
 
@@ -160,7 +160,7 @@ Most drug repurposing tools only provide "possibly effective" scores. SgTxGNN in
 ## About This Project
 
 <p class="key-answer" data-question="What technology does SgTxGNN use?">
-This system uses Harvard Zitnik Lab's <a href="https://www.nature.com/articles/s41591-023-02233-x">TxGNN</a> deep learning model published in <em>Nature Medicine</em> to predict potential new indications for Singapore HSA-approved medications.
+This system uses Harvard Zitnik Lab's <a href="https://www.nature.com/articles/s41591-024-03233-x">TxGNN</a> deep learning model published in <em>Nature Medicine</em> to predict potential new indications for Singapore HSA-approved medications.
 </p>
 
 <blockquote class="expert-quote">
