@@ -5,6 +5,8 @@ parent: Medium Evidence (L3-L4)
 nav_order: 291
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Cytarabine: predicted new indication Small cell lung carcinoma (evidence level L4). Approved use: Acute lymphoblastic leukaemia and acute myeloid leukaemia (including…"
 ---
 
 # Cytarabine

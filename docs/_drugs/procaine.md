@@ -5,6 +5,8 @@ parent: Medium Evidence (L3-L4)
 nav_order: 827
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Procaine: predicted new indication Methemoglobinemia (evidence level L4). Approved use: Not stated in the Singapore licence record (a local anaesthetic by dr…"
 ---
 
 # Procaine

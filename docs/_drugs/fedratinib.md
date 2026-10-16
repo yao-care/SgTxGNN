@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 419
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Fedratinib: predicted new indication Benign PEComa (evidence level L5). Approved use: Primary myelofibrosis / myelofibrosis"
 ---
 
 # Fedratinib

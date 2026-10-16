@@ -5,6 +5,8 @@ parent: High Evidence (L1-L2)
 nav_order: 770
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Peginterferon Alfa-2A: predicted new indication Hepatitis B virus infection (evidence level L1). Approved use: Chronic hepatitis C virus infection"
 ---
 
 # Peginterferon Alfa-2A

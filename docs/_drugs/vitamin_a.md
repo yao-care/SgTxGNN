@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 1072
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Vitamin A: predicted new indication Congenital prothrombin deficiency (evidence level L5). Approved use: Vitamin deficiency disorder / vitamin A deficiency"
 ---
 
 # Vitamin A

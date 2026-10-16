@@ -5,6 +5,8 @@ parent: High Evidence (L1-L2)
 nav_order: 314
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Desloratadine: predicted new indication Cold urticaria (evidence level L2). Approved use: Allergic rhinitis, vasomotor rhinitis…"
 ---
 
 # Desloratadine

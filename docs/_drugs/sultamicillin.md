@@ -5,6 +5,8 @@ parent: Medium Evidence (L3-L4)
 nav_order: 944
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Sultamicillin: predicted new indication Bronchitis (evidence level L3). Approved use: Not recorded in the licence data (the approved indication text is emp…"
 ---
 
 # Sultamicillin

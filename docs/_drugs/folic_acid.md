@@ -5,6 +5,8 @@ parent: Medium Evidence (L3-L4)
 nav_order: 449
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Folic Acid: predicted new indication Biotin metabolic disease (evidence level L4). Approved use: Vitamin deficiency disorder"
 ---
 
 # Folic Acid

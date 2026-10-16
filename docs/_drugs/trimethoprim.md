@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 1029
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Trimethoprim: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Urinary tract infection (other labelled uses: infectious otitis media…"
 ---
 
 # Trimethoprim

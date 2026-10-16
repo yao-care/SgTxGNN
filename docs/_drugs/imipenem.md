@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 524
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Imipenem: predicted new indication Diffuse scleroderma (evidence level L5). Approved use: Bacterial pneumonia, peritonitis…"
 ---
 
 # Imipenem

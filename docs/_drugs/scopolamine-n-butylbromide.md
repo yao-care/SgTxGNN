@@ -1,10 +1,12 @@
 ---
 layout: default
-title: SCOPOLAMINE N-BUTYLBROMIDE
+title: Scopolamine N-butylbromide
 parent: Drugs
 nav_order: 240
 last_modified_date: 2026-03-11
 evidence_level: L5
+last_modified_at: 2026-03-12
+description: "Scopolamine N-butylbromide: predicted new indication DB00747 (evidence level L5). Approved use: SCOPOLAMINE N-BUTYLBROMIDE"
 ---
 
 # SCOPOLAMINE N-BUTYLBROMIDE

@@ -5,6 +5,8 @@ parent: Medium Evidence (L3-L4)
 nav_order: 312
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Deoxycholic Acid: predicted new indication Diabetic nephropathy (evidence level L4). Approved use: Not stated in the registration data compiled for this report (the app…"
 ---
 
 # Deoxycholic Acid

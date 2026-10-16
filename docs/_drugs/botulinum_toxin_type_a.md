@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 170
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Botulinum Toxin Type A: predicted new indication Parkinson disease (symptom management). This is the best-evidenced of… (evidence level L5). Approved use: Not stated in the data compiled for this rep…"
 ---
 
 # Botulinum Toxin Type A

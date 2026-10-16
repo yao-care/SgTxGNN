@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 951
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Tagraxofusp: predicted new indication Esotropia (evidence level L5). Approved use: CD4+/CD56+ hematodermic neoplasm"
 ---
 
 # Tagraxofusp

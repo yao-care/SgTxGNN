@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 274
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Clozapine: predicted new indication Manic bipolar affective disorder (evidence level L5). Approved use: Not stated in the Singapore licence records . Clozapine is known clin…"
 ---
 
 # Clozapine

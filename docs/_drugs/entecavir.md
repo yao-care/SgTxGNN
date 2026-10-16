@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 379
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Entecavir: predicted new indication Chronic hepatitis C virus infection (evidence level L5). Approved use: Chronic hepatitis B virus infection"
 ---
 
 # Entecavir

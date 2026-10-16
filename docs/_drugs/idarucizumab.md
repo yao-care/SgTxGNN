@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 517
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Idarucizumab: predicted new indication Hemoglobinopathy (evidence level L5). Approved use: Not stated in the Singapore license record (the drug is known to reve…"
 ---
 
 # Idarucizumab

@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 337
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Diphenhydramine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Insomnia, vasomotor rhinitis, allergic rhinitis, atopic…"
 ---
 
 # Diphenhydramine

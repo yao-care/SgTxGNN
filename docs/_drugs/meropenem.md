@@ -5,6 +5,8 @@ parent: Medium Evidence (L3-L4)
 nav_order: 652
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Meropenem: predicted new indication Bacterial arthritis (evidence level L4). Approved use: Pseudomonas aeruginosa infection, meningococcal infection…"
 ---
 
 # Meropenem

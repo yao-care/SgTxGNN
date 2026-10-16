@@ -1,10 +1,12 @@
 ---
 layout: default
-title: RASAGILINE MESYLATE 1.56MG EQUIVALENT RASAGILINE
+title: Rasagiline Mesylate 1.56mg Equivalent Rasagiline
 parent: Drugs
 nav_order: 461
 last_modified_date: 2026-03-11
 evidence_level: L5
+last_modified_at: 2026-03-12
+description: "Rasagiline Mesylate 1.56mg Equivalent Rasagiline: predicted new indication DB01367 (evidence level L5). Approved use: RASAGILINE MESYLATE 1.56MG EQUIVALENT RASAGILINE"
 ---
 
 # RASAGILINE MESYLATE 1.56MG EQUIVALENT RASAGILINE

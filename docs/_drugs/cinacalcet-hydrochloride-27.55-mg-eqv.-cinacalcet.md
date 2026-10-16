@@ -1,10 +1,12 @@
 ---
 layout: default
-title: CINACALCET HYDROCHLORIDE 27.55 MG EQV. CINACALCET
+title: Cinacalcet Hydrochloride 27.55 Mg Eqv. Cinacalcet
 parent: Drugs
 nav_order: 339
 last_modified_date: 2026-03-11
 evidence_level: L5
+last_modified_at: 2026-03-12
+description: "Cinacalcet Hydrochloride 27.55 Mg Eqv. Cinacalcet: predicted new indication DB01012 (evidence level L5). Approved use: CINACALCET HYDROCHLORIDE 27.55 MG EQV. CINACALCET"
 ---
 
 # CINACALCET HYDROCHLORIDE 27.55 MG EQV. CINACALCET

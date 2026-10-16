@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 1059
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Velaglucerase Alfa: predicted new indication Steel syndrome (evidence level L5). Approved use: Gaucher disease"
 ---
 
 # Velaglucerase Alfa

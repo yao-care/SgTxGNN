@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 110
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Artesunate: predicted new indication Acne (disease) (evidence level L5). Approved use: Malaria (Plasmodium falciparum and Plasmodium vivax malaria)"
 ---
 
 # Artesunate

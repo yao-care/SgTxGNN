@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 855
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Rasagiline: predicted new indication PLA2G6-associated neurodegeneration (evidence level L5). Approved use: Parkinson disease (and related parkinsonian syndromes)"
 ---
 
 # Rasagiline

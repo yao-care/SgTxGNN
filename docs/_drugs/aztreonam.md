@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 132
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Aztreonam: predicted new indication Hyperamylasemia (evidence level L5). Approved use: Urinary tract infection and other Gram-negative infections"
 ---
 
 # Aztreonam

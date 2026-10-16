@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 807
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Pomalidomide: predicted new indication Indolent plasma cell myeloma (evidence level L5). Approved use: Plasma cell myeloma"
 ---
 
 # Pomalidomide

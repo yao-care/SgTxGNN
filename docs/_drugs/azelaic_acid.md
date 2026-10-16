@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 129
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Azelaic Acid: predicted new indication Demodicidosis of sebaceous gland (evidence level L5). Approved use: Acne and rosacea"
 ---
 
 # Azelaic Acid

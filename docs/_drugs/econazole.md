@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 364
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Econazole: predicted new indication Majocchi granuloma (evidence level L5). Approved use: Tinea pedis, tinea corporis, tinea infection, cutaneous candidiasis…"
 ---
 
 # Econazole

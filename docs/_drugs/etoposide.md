@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 409
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Etoposide: predicted new indication Well-differentiated fetal adenocarcinoma of the lung . The best-suppo… (evidence level L5). Approved use: Small cell lung carcinoma"
 ---
 
 # Etoposide

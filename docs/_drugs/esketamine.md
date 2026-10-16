@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 400
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Esketamine: predicted new indication Agoraphobia (evidence level L5). Approved use: Anxiety disorder, neurotic disorder, dysthymic disorder"
 ---
 
 # Esketamine

@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 578
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Lapatinib: predicted new indication Dermatofibrosarcoma protuberans (evidence level L5). Approved use: HER2-positive breast carcinoma"
 ---
 
 # Lapatinib

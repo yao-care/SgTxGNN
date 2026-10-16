@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 375
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Encorafenib: predicted new indication Choroideremia . The most credible prediction is non-cutaneous melanoma (evidence level L5). Approved use: Metastatic melanoma"
 ---
 
 # Encorafenib

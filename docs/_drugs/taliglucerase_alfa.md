@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 953
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Taliglucerase Alfa: predicted new indication Hurler syndrome (evidence level L5). Approved use: Gaucher disease"
 ---
 
 # Taliglucerase Alfa

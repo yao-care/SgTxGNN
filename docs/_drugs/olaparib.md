@@ -5,6 +5,8 @@ parent: High Evidence (L1-L2)
 nav_order: 735
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Olaparib: predicted new indication Female breast carcinoma (evidence level L1). Approved use: Ovarian cancer"
 ---
 
 # Olaparib

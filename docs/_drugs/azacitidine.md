@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 127
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Azacitidine: predicted new indication Bulbar polio (evidence level L5). Approved use: Myeloid leukemia / acute myeloid leukemia"
 ---
 
 # Azacitidine

@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 572
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Lacidipine: predicted new indication Migraine disorder (evidence level L5). Approved use: Not stated in the Singapore license data (the drug class is used for…"
 ---
 
 # Lacidipine

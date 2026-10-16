@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 839
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Protein C: predicted new indication Glanzmann thrombasthenia (evidence level L5). Approved use: Not stated in the licence data (approved indication text is empty)"
 ---
 
 # Protein C

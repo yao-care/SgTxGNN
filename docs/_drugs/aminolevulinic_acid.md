@@ -5,6 +5,8 @@ parent: High Evidence (L1-L2)
 nav_order: 87
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Aminolevulinic Acid: predicted new indication Pre-malignant neoplasm (evidence level L2). Approved use: Actinic keratosis and related skin disease"
 ---
 
 # Aminolevulinic Acid

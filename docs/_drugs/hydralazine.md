@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 502
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Hydralazine: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertensive disorder / hypertension"
 ---
 
 # Hydralazine

@@ -5,6 +5,8 @@ parent: Medium Evidence (L3-L4)
 nav_order: 242
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Chlorpromazine: predicted new indication Retinal dystrophy with or without extraocular anomalies (evidence level L4). Approved use: Schizophrenia and other psychotic disorders (manic bipolar affectiv…"
 ---
 
 # Chlorpromazine

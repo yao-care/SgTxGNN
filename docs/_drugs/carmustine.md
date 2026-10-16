@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 215
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Carmustine: predicted new indication Lymph node cancer (evidence level L5). Approved use: Lymphomas (Hodgkin and non-Hodgkin)…"
 ---
 
 # Carmustine

@@ -5,6 +5,8 @@ parent: Medium Evidence (L3-L4)
 nav_order: 883
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Ropinirole: predicted new indication Attention deficit-hyperactivity disorder (evidence level L3). Approved use: Restless legs syndrome, Parkinson disease"
 ---
 
 # Ropinirole

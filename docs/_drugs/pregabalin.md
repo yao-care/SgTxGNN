@@ -5,6 +5,8 @@ parent: Medium Evidence (L3-L4)
 nav_order: 824
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Pregabalin: predicted new indication Tendinitis (evidence level L4). Approved use: Anxiety disorder, fibromyalgia, myofascial pain syndrome…"
 ---
 
 # Pregabalin

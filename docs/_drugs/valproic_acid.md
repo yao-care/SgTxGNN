@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 1053
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Valproic Acid: predicted new indication Trigeminal nerve neoplasm (evidence level L5). Approved use: Epilepsy, manic bipolar affective disorder, absence epilepsy"
 ---
 
 # Valproic Acid

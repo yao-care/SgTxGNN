@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 45
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Agomelatine: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Not stated in the Singapore licence record. The knowledge graph lists…"
 ---
 
 # Agomelatine

@@ -5,6 +5,8 @@ parent: Medium Evidence (L3-L4)
 nav_order: 648
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Meperidine: predicted new indication Headache disorder (evidence level L3). Approved use: Not recorded"
 ---
 
 # Meperidine

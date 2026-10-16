@@ -5,6 +5,8 @@ parent: Medium Evidence (L3-L4)
 nav_order: 686
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Mometasone Furoate: predicted new indication Polyp of middle ear (evidence level L4). Approved use: Atopic dermatitis, contact dermatitis, seborrheic dermatitis, asthma…"
 ---
 
 # Mometasone Furoate

@@ -5,6 +5,8 @@ parent: Medium Evidence (L3-L4)
 nav_order: 1043
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Uracil: predicted new indication Colonic neoplasm (evidence level L3). Approved use: Not stated in the Singapore licence record (UFT is used as an oral fl…"
 ---
 
 # Uracil

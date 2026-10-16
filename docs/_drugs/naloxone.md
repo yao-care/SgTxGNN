@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 695
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Naloxone: predicted new indication Continuous spikes and waves during sleep (evidence level L5). Approved use: Opiate dependence, substance abuse/dependence, morphine dependence"
 ---
 
 # Naloxone

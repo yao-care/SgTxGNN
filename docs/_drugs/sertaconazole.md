@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 909
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Sertaconazole: predicted new indication Dermatophytosis of groin and perianal area (evidence level L5). Approved use: Tinea pedis"
 ---
 
 # Sertaconazole

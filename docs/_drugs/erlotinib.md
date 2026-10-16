@@ -5,6 +5,8 @@ parent: Medium Evidence (L3-L4)
 nav_order: 396
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Erlotinib: predicted new indication Ewing sarcoma (evidence level L4). Approved use: Non-small cell lung carcinoma, lung cancer, pancreatic adenocarcinoma"
 ---
 
 # Erlotinib

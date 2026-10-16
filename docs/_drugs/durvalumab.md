@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 360
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Durvalumab: predicted new indication Prostatic urethra urothelial carcinoma (evidence level L5). Approved use: Transitional cell carcinoma (urothelial carcinoma)"
 ---
 
 # Durvalumab

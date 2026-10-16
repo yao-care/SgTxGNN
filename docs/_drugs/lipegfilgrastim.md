@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 604
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Lipegfilgrastim: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Not recorded in the approved indication text of the Singapore licence"
 ---
 
 # Lipegfilgrastim

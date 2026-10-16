@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 488
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Glycopyrronium: predicted new indication Irritable bowel syndrome (evidence level L5). Approved use: Not stated in the licence records compiled for this report (the regis…"
 ---
 
 # Glycopyrronium

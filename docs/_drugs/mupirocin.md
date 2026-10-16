@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 691
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Mupirocin: predicted new indication Pleural empyema (evidence level L5). Approved use: Impetigo, bullous impetigo"
 ---
 
 # Mupirocin

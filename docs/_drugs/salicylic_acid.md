@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 895
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Salicylic Acid: predicted new indication Papillary conjunctivitis (evidence level L5). Approved use: Not stated in the Singapore licence records. The knowledge graph list…"
 ---
 
 # Salicylic Acid

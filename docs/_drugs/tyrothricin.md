@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 1038
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Tyrothricin: predicted new indication Insomnia (evidence level L5). Approved use: Not stated in the Singapore licence data (the lozenge is a throat pro…"
 ---
 
 # Tyrothricin

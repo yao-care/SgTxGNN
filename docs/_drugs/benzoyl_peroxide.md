@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 148
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Benzoyl Peroxide: predicted new indication Vulvar inverted follicular keratosis (evidence level L5). Approved use: Acne, atopic eczema, contact dermatitis, seborrheic dermatitis…"
 ---
 
 # Benzoyl Peroxide

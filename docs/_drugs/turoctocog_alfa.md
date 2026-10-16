@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 1036
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Turoctocog Alfa: predicted new indication Primary release disorder of platelets (evidence level L5). Approved use: Hemophilia (including the symptomatic form of hemophilia in female ca…"
 ---
 
 # Turoctocog Alfa

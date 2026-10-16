@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 657
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Methotrexate: predicted new indication Pulmonary blastoma (evidence level L5). Approved use: Acute lymphoblastic leukemia, non-Hodgkin lymphoma, mycosis fungoides…"
 ---
 
 # Methotrexate

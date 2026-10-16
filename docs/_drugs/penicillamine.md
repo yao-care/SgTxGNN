@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 774
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Penicillamine: predicted new indication Megaloblastic anemia (evidence level L5). Approved use: Rheumatoid arthritis, cystinuria…"
 ---
 
 # Penicillamine

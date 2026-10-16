@@ -1,10 +1,12 @@
 ---
 layout: default
-title: BOSENTAN MONOHYDRATE 129.083MG EQV. TO BOSENTAN
+title: Bosentan Monohydrate 129.083mg Eqv. To Bosentan
 parent: Drugs
 nav_order: 174
 last_modified_date: 2026-03-11
 evidence_level: L5
+last_modified_at: 2026-03-12
+description: "Bosentan Monohydrate 129.083mg Eqv. To Bosentan: predicted new indication DB00559 (evidence level L5). Approved use: BOSENTAN MONOHYDRATE 129.083MG EQV. TO BOSENTAN"
 ---
 
 # BOSENTAN MONOHYDRATE 129.083MG EQV. TO BOSENTAN

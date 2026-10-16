@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 306
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Dasatinib: predicted new indication Ewing sarcoma (evidence level L5). Approved use: Chronic myelogenous leukemia…"
 ---
 
 # Dasatinib

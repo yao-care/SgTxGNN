@@ -5,6 +5,8 @@ parent: High Evidence (L1-L2)
 nav_order: 100
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Anastrozole: predicted new indication Female breast carcinoma (evidence level L1). Approved use: Not stated in the data compiled for this report"
 ---
 
 # Anastrozole

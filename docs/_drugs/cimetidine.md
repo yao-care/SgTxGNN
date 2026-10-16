@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 250
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Cimetidine: predicted new indication Smouldering systemic mastocytosis (evidence level L5). Approved use: Gastric ulcer, duodenal ulcer, gastroesophageal reflux disease…"
 ---
 
 # Cimetidine

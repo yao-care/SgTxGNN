@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 403
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Estradiol Valerate: predicted new indication Symptomatic form of fragile X syndrome in female carriers (evidence level L5). Approved use: Primary ovarian failure"
 ---
 
 # Estradiol Valerate

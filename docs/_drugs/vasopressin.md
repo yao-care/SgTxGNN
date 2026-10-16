@@ -5,6 +5,8 @@ parent: Medium Evidence (L3-L4)
 nav_order: 1057
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Vasopressin: predicted new indication Congenital prothrombin deficiency (evidence level L4). Approved use: Not stated in the available licence data"
 ---
 
 # Vasopressin

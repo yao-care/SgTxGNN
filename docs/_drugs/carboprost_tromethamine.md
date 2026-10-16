@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 212
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Carboprost Tromethamine: predicted new indication Atypical coarctation of aorta (evidence level L5). Approved use: Not stated in the Singapore registration record"
 ---
 
 # Carboprost Tromethamine

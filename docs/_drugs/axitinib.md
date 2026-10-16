@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 126
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Axitinib: predicted new indication Renal cell carcinoma associated with neuroblastoma (evidence level L5). Approved use: Renal cell carcinoma (including clear cell and non-papillary subtypes)"
 ---
 
 # Axitinib

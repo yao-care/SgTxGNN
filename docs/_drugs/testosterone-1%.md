@@ -1,10 +1,12 @@
 ---
 layout: default
-title: TESTOSTERONE 1%
+title: Testosterone 1%
 parent: Drugs
 nav_order: 200
 last_modified_date: 2026-03-11
 evidence_level: L5
+last_modified_at: 2026-03-12
+description: "Testosterone 1%: predicted new indication DB00624 (evidence level L5). Approved use: TESTOSTERONE 1%"
 ---
 
 # TESTOSTERONE 1%

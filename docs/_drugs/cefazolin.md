@@ -5,6 +5,8 @@ parent: Medium Evidence (L3-L4)
 nav_order: 220
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Cefazolin: predicted new indication Infectious otitis media (evidence level L4). Approved use: Bacterial pneumonia, endocarditis, bacterial arthritis, cholangitis"
 ---
 
 # Cefazolin

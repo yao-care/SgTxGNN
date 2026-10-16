@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 499
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Human Immunoglobulin G: predicted new indication Severe nonproliferative diabetic retinopathy (evidence level L5). Approved use: Not available"
 ---
 
 # Human Immunoglobulin G

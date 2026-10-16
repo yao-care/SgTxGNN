@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 887
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Rufinamide: predicted new indication Febrile infection-related epilepsy syndrome (evidence level L5). Approved use: Lennox-Gastaut syndrome"
 ---
 
 # Rufinamide

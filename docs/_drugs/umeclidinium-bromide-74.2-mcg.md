@@ -1,10 +1,12 @@
 ---
 layout: default
-title: UMECLIDINIUM BROMIDE 74.2 MCG
+title: Umeclidinium Bromide 74.2 Mcg
 parent: Drugs
 nav_order: 611
 last_modified_date: 2026-03-11
 evidence_level: L5
+last_modified_at: 2026-03-12
+description: "Umeclidinium Bromide 74.2 Mcg: predicted new indication DB09076 (evidence level L5). Approved use: UMECLIDINIUM BROMIDE 74.2 MCG"
 ---
 
 # UMECLIDINIUM BROMIDE 74.2 MCG

@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 239
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Chlormadinone: predicted new indication Antithrombin deficiency type 2 (evidence level L5). Approved use: Not stated in the registration data (the product is a combined oral c…"
 ---
 
 # Chlormadinone

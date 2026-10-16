@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 837
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Propylthiouracil: predicted new indication Resistance to thyroid hormone due to a mutation in thyroid hormone re… (evidence level L5). Approved use: Hyperthyroidism, Graves' disease, thyrotoxicosis, …"
 ---
 
 # Propylthiouracil

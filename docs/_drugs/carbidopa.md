@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 207
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Carbidopa: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Parkinson disease"
 ---
 
 # Carbidopa

@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 345
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Donepezil: predicted new indication Psychogenic movement disorders (evidence level L5). Approved use: Alzheimer disease"
 ---
 
 # Donepezil

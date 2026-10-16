@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 261
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Clavulanic Acid: predicted new indication Ureaplasma urethritis (evidence level L5). Approved use: Bacterial infections (urinary tract infection, bacterial pneumonia…"
 ---
 
 # Clavulanic Acid

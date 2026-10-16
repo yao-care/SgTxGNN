@@ -5,6 +5,8 @@ parent: Medium Evidence (L3-L4)
 nav_order: 843
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Pyridostigmine: predicted new indication Myasthenia gravis with thymus hyperplasia (evidence level L4). Approved use: Myasthenia gravis, adult-onset myasthenia gravis…"
 ---
 
 # Pyridostigmine

@@ -5,6 +5,8 @@ parent: Medium Evidence (L3-L4)
 nav_order: 1016
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Trazodone: predicted new indication Obsessive-compulsive disorder (evidence level L3). Approved use: Unipolar depression, endogenous depression, major depressive disorder…"
 ---
 
 # Trazodone

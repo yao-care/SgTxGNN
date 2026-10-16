@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 487
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Glycine: predicted new indication Nasal cavity disease (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 ---
 
 # Glycine

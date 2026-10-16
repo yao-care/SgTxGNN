@@ -5,6 +5,8 @@ parent: Medium Evidence (L3-L4)
 nav_order: 189
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Cabergoline: predicted new indication Pituitary adenocarcinoma (evidence level L4). Approved use: Hyperprolactinemia, including prolactin-producing pituitary tumours"
 ---
 
 # Cabergoline

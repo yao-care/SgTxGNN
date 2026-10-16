@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 697
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Nandrolone Decanoate: predicted new indication Brain small vessel disease 1 with or without ocular anomalies (evidence level L5). Approved use: Not available"
 ---
 
 # Nandrolone Decanoate

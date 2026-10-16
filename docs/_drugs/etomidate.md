@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 408
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Etomidate: predicted new indication Headache disorder (evidence level L5). Approved use: Not stated in the Singapore license text. Anesthetic induction is inf…"
 ---
 
 # Etomidate

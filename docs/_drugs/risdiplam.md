@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 874
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Risdiplam: predicted new indication Acne (evidence level L5). Approved use: Not listed in the Singapore license record (the drug is known as an S…"
 ---
 
 # Risdiplam

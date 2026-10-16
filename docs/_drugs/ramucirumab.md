@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 851
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Ramucirumab: predicted new indication Uterine ligament adenocarcinoma (evidence level L5). Approved use: Non-small cell lung carcinoma, gastric adenocarcinoma…"
 ---
 
 # Ramucirumab

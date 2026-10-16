@@ -1,10 +1,12 @@
 ---
 layout: default
-title: AVIBACTAM SODIUM 543.5 MG EQV. TO AVIBACTAM
+title: Avibactam Sodium 543.5 Mg Eqv. To Avibactam
 parent: Drugs
 nav_order: 605
 last_modified_date: 2026-03-11
 evidence_level: L5
+last_modified_at: 2026-03-12
+description: "Avibactam Sodium 543.5 Mg Eqv. To Avibactam: predicted new indication DB09060 (evidence level L5). Approved use: AVIBACTAM SODIUM 543.5 MG EQV. TO AVIBACTAM"
 ---
 
 # AVIBACTAM SODIUM 543.5 MG EQV. TO AVIBACTAM

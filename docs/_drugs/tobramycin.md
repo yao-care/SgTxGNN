@@ -5,6 +5,8 @@ parent: Medium Evidence (L3-L4)
 nav_order: 999
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Tobramycin: predicted new indication Exposure keratitis (evidence level L4). Approved use: Bacterial and inflammatory eye infections, e.g. conjunctivitis…"
 ---
 
 # Tobramycin

@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 369
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Eltrombopag: predicted new indication HIV infectious disease (evidence level L5). Approved use: Autoimmune thrombocytopenia"
 ---
 
 # Eltrombopag

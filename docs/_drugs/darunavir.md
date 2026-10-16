@@ -5,6 +5,8 @@ parent: Medium Evidence (L3-L4)
 nav_order: 305
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Darunavir: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infection, AIDS"
 ---
 
 # Darunavir

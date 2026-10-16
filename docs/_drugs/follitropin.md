@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 450
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Follitropin: predicted new indication Allergic asthma (evidence level L5). Approved use: Not listed in the Singapore registration data. Published literature a…"
 ---
 
 # Follitropin

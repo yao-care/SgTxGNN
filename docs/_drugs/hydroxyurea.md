@@ -5,6 +5,8 @@ parent: Medium Evidence (L3-L4)
 nav_order: 511
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Hydroxyurea: predicted new indication Female breast carcinoma (evidence level L4). Approved use: Melanoma, sickle cell anaemia, ovarian cancer"
 ---
 
 # Hydroxyurea

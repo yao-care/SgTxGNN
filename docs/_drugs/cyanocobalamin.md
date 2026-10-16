@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 283
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Cyanocobalamin: predicted new indication Biotin metabolic disease (evidence level L5). Approved use: Vitamin B12 deficiency, pernicious anaemia…"
 ---
 
 # Cyanocobalamin

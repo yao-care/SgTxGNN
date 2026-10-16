@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 822
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Prednisolone Acetate: predicted new indication Chronic follicular conjunctivitis (evidence level L5). Approved use: Uveitis, iris disease, ciliary body disease, panuveitis…"
 ---
 
 # Prednisolone Acetate

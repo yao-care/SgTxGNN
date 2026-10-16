@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 320
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Dexchlorpheniramine Maleate: predicted new indication Acute intermittent porphyria (evidence level L5). Approved use: Not stated in the licence records"
 ---
 
 # Dexchlorpheniramine Maleate

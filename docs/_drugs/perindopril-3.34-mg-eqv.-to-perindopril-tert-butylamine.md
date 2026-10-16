@@ -1,10 +1,12 @@
 ---
 layout: default
-title: PERINDOPRIL 3.34 MG EQV. TO PERINDOPRIL TERT-BUTYLAMINE
+title: Perindopril 3.34 Mg Eqv. To Perindopril Tert-butylamine
 parent: Drugs
 nav_order: 258
 last_modified_date: 2026-03-11
 evidence_level: L5
+last_modified_at: 2026-03-12
+description: "Perindopril 3.34 Mg Eqv. To Perindopril Tert-butylamine: predicted new indication DB00790 (evidence level L5). Approved use: PERINDOPRIL 3.34 MG EQV. TO PERINDOPRIL TERT-BUTYLAMINE"
 ---
 
 # PERINDOPRIL 3.34 MG EQV. TO PERINDOPRIL TERT-BUTYLAMINE

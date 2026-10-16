@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 168
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Bortezomib: predicted new indication Vertebral anomalies and variable endocrine and T-cell dysfunction (evidence level L5). Approved use: Plasma cell myeloma, mantle cell lymphoma, B-cell neoplasm…"
 ---
 
 # Bortezomib

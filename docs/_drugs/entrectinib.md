@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 380
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Entrectinib: predicted new indication Multiple endocrine neoplasia (evidence level L5). Approved use: Not available in the compiled data"
 ---
 
 # Entrectinib

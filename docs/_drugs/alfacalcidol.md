@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 59
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Alfacalcidol: predicted new indication Familial isolated hypoparathyroidism due to impaired PTH secretion (evidence level L5). Approved use: Hyperparathyroidism, osteitis fibrosa, hypoparathyroidism…"
 ---
 
 # Alfacalcidol

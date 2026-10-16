@@ -5,6 +5,8 @@ parent: Medium Evidence (L3-L4)
 nav_order: 414
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Exemestane: predicted new indication Amenorrhea (disease) (evidence level L4). Approved use: Not available in the registration data (the drug is an aromatase inhi…"
 ---
 
 # Exemestane

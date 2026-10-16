@@ -5,6 +5,8 @@ parent: Low Evidence (L5)
 nav_order: 37
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Acyclovir: predicted new indication Punctate epithelial keratoconjunctivitis (evidence level L5). Approved use: Herpes simplex infection, herpes zoster, chickenpox, herpes labialis…"
 ---
 
 # Acyclovir
