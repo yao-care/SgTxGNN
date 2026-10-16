@@ -19,7 +19,7 @@ permalink: /news/depression/
 
 ### [IMH to be redeveloped and expanded, renamed the National Centre for Mental Health Singapore](https://www.straitstimes.com/singapore/health/imh-to-be-redeveloped-and-expanded-renamed-the-national-centre-for-mental-health-singapore)
 
-2026-10-15
+2026-10-16
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/imh-to-be-redeveloped-and-expanded-renamed-the-national-centre-for-mental-health-singapore)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/imh-to-be-
 
 ### [ST’s senior health correspondent wins first media excellence award for championing mental health](https://www.straitstimes.com/singapore/health/sts-senior-health-correspondent-wins-first-media-excellence-award-for-championing-mental-health)
 
-2026-10-15
+2026-10-16
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/sts-senior-health-correspondent-wins-first-media-excellence-award-for-championing-mental-health)
 
