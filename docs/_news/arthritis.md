@@ -17,19 +17,19 @@ permalink: /news/arthritis/
 
 ---
 
-### [Singapore haze: Air quality very unhealthy in central region; PM2.5 reading high](https://www.todayonline.com/singapore/haze-oct-16-psi-pm-25-6459416)
-
-2026-10-16
-
-Source: [TODAY](https://www.todayonline.com/singapore/haze-oct-16-psi-pm-25-6459416)
-
----
-
 ### [Wait list for kidney hits 10-year high; NKF actively encouraging living donor transplants](https://www.straitstimes.com/singapore/health/wait-list-for-kidney-hits-10-year-high-nkf-actively-encouraging-living-donor-transplants)
 
 2026-10-16
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/wait-list-for-kidney-hits-10-year-high-nkf-actively-encouraging-living-donor-transplants)
+
+---
+
+### [Beyond trial and error: Tailoring drug therapies to patients’ DNA](https://www.straitstimes.com/singapore/health/beyond-trial-and-error-tailoring-drug-therapies-to-patients-dna)
+
+2026-10-16
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/beyond-trial-and-error-tailoring-drug-therapies-to-patients-dna)
 
 ---
 
