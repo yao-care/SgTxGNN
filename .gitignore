@@ -85,3 +85,11 @@ mydatabase.db
 
 # SEO-ops 主機收集資料，不發布到 GitHub Pages
 /seo-data/
+
+# 成果資料放 Release（yao-care/txgnn），git 只留 GitHub Actions 用的 cache 與 news（2026-10-16，與 Tw 相同）
+/data/*
+!/data/cache/
+/data/cache/*
+!/data/cache/.gitkeep
+!/data/cache/*.json
+!/data/news/
