@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Abacavir Core
 parent: Low Evidence (L5)

@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: 84 Anhydrous Anidulafungin 122Mg Eqv Anidulafungin
 parent: Low Evidence (L5)

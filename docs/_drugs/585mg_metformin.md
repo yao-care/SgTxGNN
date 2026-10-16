@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: 585Mg Metformin
 parent: Low Evidence (L5)

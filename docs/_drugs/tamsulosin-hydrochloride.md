@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: TAMSULOSIN HYDROCHLORIDE
 parent: Drugs

@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: TROSPIUM CHLORIDE
 parent: Drugs

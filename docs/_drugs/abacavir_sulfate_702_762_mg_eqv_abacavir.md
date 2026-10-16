@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Abacavir Sulfate 702 762 Mg Eqv Abacavir
 parent: Low Evidence (L5)

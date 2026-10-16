@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Alpha-Tocopherol
 parent: Low Evidence (L5)

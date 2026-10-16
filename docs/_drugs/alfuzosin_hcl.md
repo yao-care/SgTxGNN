@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Alfuzosin Hcl
 parent: Low Evidence (L5)

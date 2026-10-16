@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Albuterol Sulfate
 parent: Low Evidence (L5)

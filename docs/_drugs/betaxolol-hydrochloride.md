@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: BETAXOLOL HYDROCHLORIDE
 parent: Drugs

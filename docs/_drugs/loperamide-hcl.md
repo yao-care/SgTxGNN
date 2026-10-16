@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: LOPERAMIDE HCL
 parent: Drugs

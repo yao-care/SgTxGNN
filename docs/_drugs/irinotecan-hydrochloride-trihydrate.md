@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: IRINOTECAN HYDROCHLORIDE TRIHYDRATE
 parent: Drugs

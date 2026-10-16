@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Albuterol B P
 parent: Low Evidence (L5)

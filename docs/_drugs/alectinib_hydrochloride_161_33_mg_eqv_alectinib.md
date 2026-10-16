@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Alectinib Hydrochloride 161 33 Mg Eqv Alectinib
 parent: Low Evidence (L5)

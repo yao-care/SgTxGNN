@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: FENOTEROL HYDROBROMIDE
 parent: Drugs

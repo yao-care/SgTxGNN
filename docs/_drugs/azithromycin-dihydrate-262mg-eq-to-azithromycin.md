@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: AZITHROMYCIN DIHYDRATE 262MG EQ TO AZITHROMYCIN
 parent: Drugs

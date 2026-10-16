@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Acyclovir Sodium 274 4Mg Eqv Acyclovir
 parent: Low Evidence (L5)

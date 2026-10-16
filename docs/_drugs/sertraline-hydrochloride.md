@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: SERTRALINE HYDROCHLORIDE
 parent: Drugs

@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: DISODIUM PAMIDRONATE
 parent: Drugs

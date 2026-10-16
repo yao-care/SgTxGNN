@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: PRAVASTATIN SODIUM
 parent: Drugs

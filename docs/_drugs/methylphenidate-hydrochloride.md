@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: METHYLPHENIDATE HYDROCHLORIDE
 parent: Drugs

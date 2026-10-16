@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: BRIMONIDINE TARTRATE
 parent: Drugs

@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: RIVAROXABAN MICRONIZED
 parent: Drugs

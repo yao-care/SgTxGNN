@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Albuterol Sulfate 120Mcg Equivalent Albuterol
 parent: Low Evidence (L5)

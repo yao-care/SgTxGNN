@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: BENDAMUSTINE HYDROCHLORIDE
 parent: Drugs

@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: ATROPINE SULFATE
 parent: Drugs

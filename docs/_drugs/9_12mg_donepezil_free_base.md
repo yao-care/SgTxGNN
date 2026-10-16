@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: 9 12Mg Donepezil Free Base
 parent: Low Evidence (L5)

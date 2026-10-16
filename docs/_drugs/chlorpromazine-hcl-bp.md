@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: CHLORPROMAZINE HCL BP
 parent: Drugs

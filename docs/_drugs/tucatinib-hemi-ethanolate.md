@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: TUCATINIB HEMI ETHANOLATE)
 parent: Drugs

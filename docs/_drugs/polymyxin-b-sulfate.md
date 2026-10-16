@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: POLYMYXIN B SULFATE
 parent: Drugs

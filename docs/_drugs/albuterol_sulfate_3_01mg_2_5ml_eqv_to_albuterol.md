@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Albuterol Sulfate 3 01Mg 2 5Ml Eqv To Albuterol
 parent: Low Evidence (L5)

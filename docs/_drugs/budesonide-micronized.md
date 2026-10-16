@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: BUDESONIDE MICRONIZED
 parent: Drugs

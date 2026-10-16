@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: SOLIFENACIN SUCCINATE
 parent: Drugs

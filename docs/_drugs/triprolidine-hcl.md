@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: TRIPROLIDINE HCL
 parent: Drugs

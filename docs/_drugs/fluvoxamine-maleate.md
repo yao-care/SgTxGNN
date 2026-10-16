@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: FLUVOXAMINE MALEATE
 parent: Drugs

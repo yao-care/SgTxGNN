@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: NORETHISTERONE ACETATE MICRONIZED
 parent: Drugs

@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: 4 56Mg Donepezil Free Base
 parent: Low Evidence (L5)

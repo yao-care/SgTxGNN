@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: OXYMETAZOLINE HCL
 parent: Drugs

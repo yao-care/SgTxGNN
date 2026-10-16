@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: ANHYDROUS METOCLOPRAMIDE HCL
 parent: Drugs

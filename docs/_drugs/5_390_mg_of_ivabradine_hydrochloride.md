@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: 5 390 Mg Of Ivabradine Hydrochloride
 parent: Low Evidence (L5)

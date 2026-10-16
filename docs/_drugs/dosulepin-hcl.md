@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: DOSULEPIN HCL
 parent: Drugs

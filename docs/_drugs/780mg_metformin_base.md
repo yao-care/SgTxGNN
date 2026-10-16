@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: 780Mg Metformin Base
 parent: Low Evidence (L5)

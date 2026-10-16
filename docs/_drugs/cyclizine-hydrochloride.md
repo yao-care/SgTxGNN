@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: CYCLIZINE HYDROCHLORIDE
 parent: Drugs

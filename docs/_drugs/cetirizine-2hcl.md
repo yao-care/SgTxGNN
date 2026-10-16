@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: CETIRIZINE 2HCL
 parent: Drugs

@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: Aminacrine Hcl
 parent: Low Evidence (L5)

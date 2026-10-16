@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: TRIAMCINOLONE ACETONIDE
 parent: Drugs

@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: METOPROLOL TARTRATE
 parent: Drugs

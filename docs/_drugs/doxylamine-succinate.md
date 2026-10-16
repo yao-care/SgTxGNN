@@ -1,4 +1,6 @@
 ---
+noindex: true
+sitemap: false
 layout: default
 title: DOXYLAMINE SUCCINATE
 parent: Drugs
