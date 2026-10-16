@@ -19,7 +19,7 @@ SgTxGNN integrates data from multiple authoritative sources to provide comprehen
 
 **Source**: Harvard Medical School, Zitnik Lab
 
-The core prediction engine, published in *Nature Medicine* (2023).
+The core prediction engine, published in *Nature Medicine* (2024).
 
 - [Project Page](https://zitniklab.hms.harvard.edu/projects/TxGNN/)
 - [Paper](https://doi.org/10.1038/s41591-024-03233-x)

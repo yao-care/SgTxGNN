@@ -17,33 +17,26 @@ How predictions are generated and validated
 
 ## Overview
 
-SgTxGNN uses a dual-method approach combining **Knowledge Graph (KG)** predictions and **Deep Learning (DL)** predictions to identify drug repurposing candidates. Predictions validated by both methods (KG+DL) have higher confidence.
+SgTxGNN uses TxGNN's **deep learning (DL)** model to score drug–disease pairs. Indications and contraindications already recorded for the drug in the TxGNN **knowledge graph (KG)** are removed, so drug pages list only new predicted indications with a score of at least 0.99 (up to 10 per drug).
 
 ---
 
 ## Prediction Pipeline
 
-### Step 1: Knowledge Graph Prediction (KG)
-
-The Knowledge Graph method uses TxGNN's biomedical knowledge graph containing:
-- **17,080 biomedical entities** (drugs, diseases, genes, proteins)
-- **80,127 drug-disease relationships**
-- **Biological pathway connections**
-
-KG predictions identify drugs that share biological pathways or targets with diseases.
-
-### Step 2: Deep Learning Prediction (DL)
+### Step 1: Deep Learning Prediction (DL)
 
 The Deep Learning method uses TxGNN's graph neural network model:
 - Trained on known drug-disease relationships
 - Learns complex patterns in the knowledge graph
-- Outputs confidence scores (0.0-1.0) for each drug-disease pair
+- Outputs scores (0.0-1.0) for each drug-disease pair
 
-### Step 3: Dual Validation (KG+DL)
+### Step 2: Known-Use Check (KG)
 
-Predictions that appear in **both** KG and DL results are marked as "KG+DL" with higher confidence:
-- **1,217 dual-validated predictions** in SgTxGNN
-- These predictions have convergent evidence from two independent methods
+The TxGNN knowledge graph records **80,127 drug-disease relationships** (indications, off-label uses and contraindications). Indications and contraindications already recorded for a drug are removed from its predictions; they are known uses, not new predictions.
+
+### Step 3: Selection
+
+For each drug, the remaining predictions with a score of at least 0.99 are kept (up to 10), and evidence is collected for each of them.
 
 ---
 
@@ -71,18 +64,11 @@ Evidence is collected from:
 
 ## Prediction Quality
 
-### Confidence Scores
-
-DL predictions include confidence scores:
-- **>0.99**: Very high confidence
-- **0.95-0.99**: High confidence
-- **0.90-0.95**: Moderate confidence
-- **0.50-0.90**: Lower confidence (still above threshold)
-
 ### Filtering Criteria
 
-All predictions meet these minimum criteria:
-- DL score ≥ 0.50 (above random chance)
+Predicted new indications shown on drug pages meet all of these criteria:
+- DL score ≥ 0.99
+- Not an indication or contraindication already recorded in the knowledge graph
 - Drug is registered with Singapore HSA
 - Drug has valid DrugBank mapping
 
@@ -102,7 +88,7 @@ All predictions meet these minimum criteria:
 1. DrugBank IDs matched to TxGNN knowledge graph
 2. Predictions generated for all mapped drugs
 3. Results filtered by confidence threshold
-4. Final dataset: **31,543 predictions**
+4. Known uses removed; predictions with score ≥ 0.99 kept: **{{ site.data.site_stats.indications }} predicted new indications**
 
 ---
 
@@ -140,7 +126,7 @@ All predictions meet these minimum criteria:
 
 | Component | Version |
 |-----------|---------|
-| TxGNN Model | v1.0 (Nature Medicine 2023) |
+| TxGNN Model | v1.0 (Nature Medicine 2024) |
 | HSA Data | March 2026 |
 | SgTxGNN | v1.0.0 |
 

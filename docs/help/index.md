@@ -48,7 +48,7 @@ Predictions should be viewed as research hypotheses. While TxGNN is validated on
 
 ### What does KG+DL mean?
 
-Predictions marked "KG+DL" are validated by both the Knowledge Graph method and the Deep Learning method, indicating higher confidence.
+Pairs marked "KG+DL" scored highly in Deep Learning and are also an indication or off-label use already recorded in the knowledge graph — a known use recovered by the model, not a new prediction.
 
 ### Can I use this data for research?
 

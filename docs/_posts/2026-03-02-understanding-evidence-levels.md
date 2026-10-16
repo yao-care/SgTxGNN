@@ -57,13 +57,9 @@ AI prediction without clinical validation:
 
 ## Special Indicators
 
-### KG+DL (Dual Validated)
+### KG+DL (Known Uses)
 
-Predictions that appear in both:
-- Knowledge Graph analysis
-- Deep Learning model
-
-These have higher confidence due to convergent evidence from independent methods.
+Pairs that Deep Learning scored highly and that are already recorded in the knowledge graph as an indication or off-label use. They are known uses recovered by the model, not new predictions.
 
 ### High Score (>0.99)
 
@@ -73,7 +69,7 @@ Deep Learning predictions with confidence scores above 99% indicate very strong 
 
 1. **Prioritize L1-L2** for immediate clinical relevance
 2. **Investigate L3-L4** for emerging opportunities
-3. **Use L5 with KG+DL** as high-quality research hypotheses
+3. **Treat KG+DL as known uses**, not new research hypotheses
 4. **Always verify** with current literature and clinical judgment
 
 ---

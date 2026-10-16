@@ -25,7 +25,7 @@ Drug repurposing (also known as drug repositioning) is a strategy for identifyin
 
 ## The TxGNN Model
 
-SgTxGNN is built on **TxGNN** (Therapeutic Target Prediction using Graph Neural Networks), developed by Harvard Medical School's Zitnik Lab and published in *Nature Medicine* (2023).
+SgTxGNN is built on **TxGNN** (Therapeutic Target Prediction using Graph Neural Networks), developed by Harvard Medical School's Zitnik Lab and published in *Nature Medicine* (2024).
 
 ### Key Features
 
@@ -77,9 +77,9 @@ Two complementary approaches:
 
 | Method | Description | Count |
 |--------|-------------|-------|
-| **Knowledge Graph (KG)** | Direct relationship queries | 22,136 |
+| **Knowledge Graph (KG)** | Known indications / off-label uses (not predictions) | 22,136 |
 | **Deep Learning (DL)** | Neural network predictions | 29,100 |
-| **Unified (KG+DL)** | Dual-validated predictions | 1,217 |
+| **KG+DL** | Known uses also scored highly by DL | 1,217 |
 
 ### 3. Evidence Classification
 

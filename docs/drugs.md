@@ -178,7 +178,7 @@ document.addEventListener('DOMContentLoaded', function() {
 |--------|-------|
 | Total Drugs | 745 |
 | Total Predictions | 31,543 |
-| KG+DL Validated | 1,217 |
+| KG+DL (known uses) | 1,217 |
 | High Score (>0.99) | 6,361 |
 
 ---

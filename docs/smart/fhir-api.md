@@ -196,9 +196,9 @@ Values: KG, DL, KG+DL
 
 | Value | Description |
 |-------|-------------|
-| KG | Knowledge Graph only |
+| KG | Known use recorded in the knowledge graph |
 | DL | Deep Learning only |
-| KG+DL | Both methods (higher confidence) |
+| KG+DL | Known use that DL also scored highly (not a new prediction) |
 
 ### TxGNN Score
 

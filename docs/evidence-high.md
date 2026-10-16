@@ -27,9 +27,9 @@ These predictions have the strongest clinical foundation and can be prioritized 
 
 ---
 
-## KG+DL Dual Validated Predictions
+## KG+DL Predictions (Known Uses)
 
-The following predictions are validated by **both** Knowledge Graph and Deep Learning methods, providing the highest confidence:
+The following pairs scored highly in Deep Learning and are also an indication or off-label use already recorded in the knowledge graph — a known use recovered by the model, not a new prediction:
 
 <div id="high-evidence-list">
   Loading high evidence drugs...
@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
             `).join('')}
           </tbody>
         </table>
-        <p><em>Showing top 50 of ${highEvidence.length} KG+DL validated predictions.</em></p>
+        <p><em>Showing top 50 of ${highEvidence.length} KG+DL (known-use) pairs.</em></p>
       `;
     })
     .catch(err => {

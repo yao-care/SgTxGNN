@@ -136,7 +136,7 @@ print(drug_preds[['disease_name', 'score', 'source']].head(10))
 
 Focus on predictions that are:
 - **High confidence**: Score > 0.9
-- **Dual validated**: Source = KG+DL
+- **Known use**: Source = KG+DL (already recorded in the knowledge graph)
 - **Clinically plausible**: Has mechanistic rationale
 
 ### Step 4: Gather Evidence

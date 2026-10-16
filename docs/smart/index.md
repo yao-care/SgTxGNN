@@ -76,8 +76,8 @@ Register with your EHR administrator using:
     <span style="color: #666;">Shows L1-L5 evidence levels for each prediction</span>
   </div>
   <div style="padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #FB8C00;">
-    <strong>Dual Validation</strong><br>
-    <span style="color: #666;">KG+DL validated predictions highlighted</span>
+    <strong>Known Uses Marked</strong><br>
+    <span style="color: #666;">KG+DL pairs (known uses) are labeled separately from new predictions</span>
   </div>
   <div style="padding: 1.5rem; background: #f8f9fa; border-radius: 8px; border-left: 4px solid #9B59B6;">
     <strong>Privacy First</strong><br>
