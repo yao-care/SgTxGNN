@@ -35,7 +35,7 @@ SgTxGNN is built on **TxGNN** (Therapeutic Target Prediction using Graph Neural 
 
 ### Citation
 
-> Huang, K., Chandak, P., Wang, Q. et al. A foundation model for clinician-centered drug repurposing. *Nat Med* (2023). https://doi.org/10.1038/s41591-024-03233-x
+> Huang, K., Chandak, P., Wang, Q. et al. A foundation model for clinician-centered drug repurposing. *Nat Med* (2024). https://doi.org/10.1038/s41591-024-03233-x
 
 ---
 
