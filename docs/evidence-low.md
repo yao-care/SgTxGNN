@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <tr>
               <td><span class="badge kgdl">KG+DL</span></td>
               <td>${data.counts?.kgdl || 0}</td>
-              <td>Validated by both methods - highest confidence</td>
+              <td>Known use recorded in the knowledge graph that DL also scored highly — not a new prediction</td>
             </tr>
             <tr>
               <td><span class="badge dl">DL</span></td>

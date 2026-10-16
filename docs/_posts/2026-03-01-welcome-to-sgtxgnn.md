@@ -15,7 +15,7 @@ We're excited to launch **SgTxGNN**, a drug repurposing prediction platform spec
 SgTxGNN uses Harvard's TxGNN model to predict potential new uses for drugs already approved by Singapore's Health Sciences Authority (HSA). Our platform provides:
 
 - **31,543 predictions** across 745 drugs
-- **Dual validation** using both Knowledge Graph and Deep Learning methods
+- **Known uses excluded**: indications already recorded in the knowledge graph are removed, so only new predicted indications are listed
 - **FHIR R4 API** for integration with healthcare systems
 - **SMART on FHIR apps** for EHR integration
 

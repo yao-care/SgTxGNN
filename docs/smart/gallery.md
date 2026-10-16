@@ -50,7 +50,7 @@ Applications with similar functionality to SgTxGNN:
 
 SgTxGNN uniquely provides:
 - AI-predicted drug repurposing candidates
-- Dual validation (Knowledge Graph + Deep Learning)
+- Known uses in the knowledge graph excluded from new predictions
 - Singapore HSA-approved medication focus
 - Evidence level classification (L1-L5)
 
