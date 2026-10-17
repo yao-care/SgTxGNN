@@ -1,5 +1,5 @@
 ---
-layout: redirect
+layout: id_redirect
 permalink: /drugs/avibactam-sodium-543-5-mg-eqv-to-avibactam/
 sitemap: false
 search_exclude: true

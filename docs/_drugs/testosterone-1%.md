@@ -1,5 +1,5 @@
 ---
-layout: redirect
+layout: id_redirect
 permalink: /drugs/testosterone-1/
 sitemap: false
 search_exclude: true

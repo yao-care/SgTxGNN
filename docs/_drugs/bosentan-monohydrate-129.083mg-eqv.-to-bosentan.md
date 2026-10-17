@@ -1,5 +1,5 @@
 ---
-layout: redirect
+layout: id_redirect
 permalink: /drugs/bosentan-monohydrate-129-083mg-eqv-to-bosentan/
 sitemap: false
 search_exclude: true

@@ -1,5 +1,5 @@
 ---
-layout: redirect
+layout: id_redirect
 permalink: /drugs/meperidine-43-57mg-as-meperidine-hydrochloride/
 sitemap: false
 search_exclude: true

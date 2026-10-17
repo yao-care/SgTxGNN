@@ -1,5 +1,5 @@
 ---
-layout: redirect
+layout: id_redirect
 permalink: /drugs/esketamine-hcl-32-2mg-eqv-to-esketamine/
 sitemap: false
 search_exclude: true

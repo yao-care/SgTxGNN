@@ -1,5 +1,5 @@
 ---
-layout: redirect
+layout: id_redirect
 permalink: /drugs/perindopril-3-34-mg-eqv-to-perindopril-tert-butylamine/
 sitemap: false
 search_exclude: true

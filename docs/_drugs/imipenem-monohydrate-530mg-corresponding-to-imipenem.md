@@ -1,5 +1,5 @@
 ---
-layout: redirect
+layout: id_redirect
 permalink: /drugs/imipenem-monohydrate-530mg-corresponding-to-imipenem/
 sitemap: false
 search_exclude: true

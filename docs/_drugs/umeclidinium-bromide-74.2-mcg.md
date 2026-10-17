@@ -1,5 +1,5 @@
 ---
-layout: redirect
+layout: id_redirect
 permalink: /drugs/umeclidinium-bromide-74-2-mcg/
 sitemap: false
 search_exclude: true

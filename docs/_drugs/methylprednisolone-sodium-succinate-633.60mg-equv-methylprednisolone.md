@@ -1,5 +1,5 @@
 ---
-layout: redirect
+layout: id_redirect
 permalink: /drugs/methylprednisolone-sodium-succinate-633-60mg-equv-methylprednisolone/
 sitemap: false
 search_exclude: true

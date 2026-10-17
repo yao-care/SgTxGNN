@@ -1,5 +1,5 @@
 ---
-layout: redirect
+layout: id_redirect
 permalink: /drugs/enalaprilat-14-148mg-eqv-enalapril-15-287mg-eqv-enalapril-maleate/
 sitemap: false
 search_exclude: true

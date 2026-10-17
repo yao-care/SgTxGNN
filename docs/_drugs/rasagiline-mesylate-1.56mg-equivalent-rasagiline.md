@@ -1,5 +1,5 @@
 ---
-layout: redirect
+layout: id_redirect
 permalink: /drugs/rasagiline-mesylate-1-56mg-equivalent-rasagiline/
 sitemap: false
 search_exclude: true

@@ -1,5 +1,5 @@
 ---
-layout: redirect
+layout: id_redirect
 permalink: /drugs/aminolevulinic-acid-23-4mg-ml-equivalent-aminolevulinic-acid-hydrochloride/
 sitemap: false
 search_exclude: true

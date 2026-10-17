@@ -1,5 +1,5 @@
 ---
-layout: redirect
+layout: id_redirect
 permalink: /drugs/piperacillin-sodium-4-25310g-eq-to-piperacillin/
 sitemap: false
 search_exclude: true

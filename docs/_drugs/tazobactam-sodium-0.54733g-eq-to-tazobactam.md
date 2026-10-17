@@ -1,5 +1,5 @@
 ---
-layout: redirect
+layout: id_redirect
 permalink: /drugs/tazobactam-sodium-0-54733g-eq-to-tazobactam/
 sitemap: false
 search_exclude: true

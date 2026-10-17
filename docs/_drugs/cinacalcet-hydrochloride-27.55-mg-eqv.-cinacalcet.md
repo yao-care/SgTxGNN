@@ -1,5 +1,5 @@
 ---
-layout: redirect
+layout: id_redirect
 permalink: /drugs/cinacalcet-hydrochloride-27-55-mg-eqv-cinacalcet/
 sitemap: false
 search_exclude: true
