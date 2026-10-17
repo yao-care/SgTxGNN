@@ -6,7 +6,6 @@ nav_order: 685
 last_modified_date: 2026-03-11
 evidence_level: L5
 last_modified_at: 2026-03-12
-description: "Esketamine HCl 32.2mg Eqv. To Esketamine: predicted new indication DB11823 (evidence level L5). Approved use: ESKETAMINE HCL 32.2MG EQV. TO ESKETAMINE"
 ---
 
 # ESKETAMINE HCL 32.2MG EQV. TO ESKETAMINE

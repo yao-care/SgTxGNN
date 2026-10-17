@@ -6,7 +6,6 @@ nav_order: 85
 last_modified_date: 2026-03-11
 evidence_level: L5
 last_modified_at: 2026-03-12
-description: "Piperacillin Sodium 4.25310g Eq To Piperacillin: predicted new indication DB00319 (evidence level L5). Approved use: PIPERACILLIN SODIUM 4.25310G EQ TO PIPERACILLIN"
 ---
 
 # PIPERACILLIN SODIUM 4.25310G EQ TO PIPERACILLIN

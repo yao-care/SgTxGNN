@@ -6,7 +6,6 @@ nav_order: 475
 last_modified_date: 2026-03-11
 evidence_level: L5
 last_modified_at: 2026-03-12
-description: "Imipenem Monohydrate 530mg Corresponding To Imipenem: predicted new indication DB01598 (evidence level L5). Approved use: IMIPENEM MONOHYDRATE 530MG CORRESPONDING TO IMIPENEM"
 ---
 
 # IMIPENEM MONOHYDRATE 530MG CORRESPONDING TO IMIPENEM

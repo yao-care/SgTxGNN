@@ -6,7 +6,6 @@ nav_order: 647
 last_modified_date: 2026-03-11
 evidence_level: L5
 last_modified_at: 2026-03-12
-description: "Enalaprilat 14.148mg Eqv. Enalapril 15.287mg Eqv. Enalapril Maleate: predicted new indication DB09477 (evidence level L5). Approved use: ENALAPRILAT 14.148MG EQV. ENALAPRIL 15.287MG EQV. ENALAPRIL MA…"
 ---
 
 # ENALAPRILAT 14.148MG EQV. ENALAPRIL 15.287MG EQV. ENALAPRIL MALEATE

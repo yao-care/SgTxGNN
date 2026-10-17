@@ -6,7 +6,6 @@ nav_order: 477
 last_modified_date: 2026-03-11
 evidence_level: L5
 last_modified_at: 2026-03-12
-description: "Tazobactam Sodium 0.54733g Eq To Tazobactam: predicted new indication DB01606 (evidence level L5). Approved use: TAZOBACTAM SODIUM 0.54733G EQ TO TAZOBACTAM"
 ---
 
 # TAZOBACTAM SODIUM 0.54733G EQ TO TAZOBACTAM

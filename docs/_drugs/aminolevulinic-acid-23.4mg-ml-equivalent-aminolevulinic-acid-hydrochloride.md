@@ -6,7 +6,6 @@ nav_order: 282
 last_modified_date: 2026-03-11
 evidence_level: L5
 last_modified_at: 2026-03-12
-description: "Aminolevulinic Acid 23.4mg/ml Equivalent Aminolevulinic Acid Hydrochloride: predicted new indication DB00855 (evidence level L5). Approved use: AMINOLEVULINIC ACID 23.4MG/ML EQUIVALENT AMINOLEVULINIC…"
 ---
 
 # AMINOLEVULINIC ACID 23.4MG/ML EQUIVALENT AMINOLEVULINIC ACID HYDROCHLORIDE

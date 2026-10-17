@@ -6,7 +6,6 @@ nav_order: 139
 last_modified_date: 2026-03-11
 evidence_level: L5
 last_modified_at: 2026-03-12
-description: "Meperidine 43.57mg As Meperidine Hydrochloride: predicted new indication DB00454 (evidence level L5). Approved use: MEPERIDINE 43.57MG AS MEPERIDINE HYDROCHLORIDE"
 ---
 
 # MEPERIDINE 43.57MG AS MEPERIDINE HYDROCHLORIDE

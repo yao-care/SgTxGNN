@@ -6,7 +6,6 @@ nav_order: 314
 last_modified_date: 2026-03-11
 evidence_level: L5
 last_modified_at: 2026-03-12
-description: "Methylprednisolone Sodium Succinate 633.60mg Equv Methylprednisolone: predicted new indication DB00959 (evidence level L5). Approved use: METHYLPREDNISOLONE SODIUM SUCCINATE 633.60MG EQUV METHYLPREDN…"
 ---
 
 # METHYLPREDNISOLONE SODIUM SUCCINATE 633.60MG EQUV METHYLPREDNISOLONE
