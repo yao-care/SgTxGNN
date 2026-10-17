@@ -51,7 +51,7 @@ Lists all active medications for the patient:
 
 For medications with predictions:
 - **Indication**: The predicted new use
-- **Source**: Prediction method (KG, DL, or KG+DL)
+- **Source**: DL = model prediction; KG = known use already in the knowledge graph
 - **Evidence Level**: L1-L5 classification
 
 ---

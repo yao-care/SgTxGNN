@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Magnesium Hydroxide: predicted new indication Active peptic ulcer disease (evidence level L3). Approved use: Peptic ulcer disease, gastroesophageal reflux disease, esophagitis…"
 monitor_inn: "Magnesium hydroxide"
-predicted_indications: ["gastroduodenitis", "gastroparesis (disease)", "duodenal obstruction"]
+predicted_indications: ["gastroparesis (disease)", "duodenal obstruction"]
 ---
 
 # Magnesium Hydroxide
@@ -27,7 +27,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

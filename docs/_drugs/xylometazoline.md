@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Xylometazoline: predicted new indication Nasal cavity disease (evidence level L3). Approved use: Pharyngitis, common cold"
 monitor_inn: "Xylometazoline"
-predicted_indications: ["nasal cavity disease", "allergic urticaria", "trigeminal autonomic cephalalgia", "headache disorder", "papillary conjunctivitis", "faucial diphtheria", "cervical disc degenerative disorder", "anorectal stricture"]
+predicted_indications: ["acute laryngopharyngitis", "allergic urticaria", "trigeminal autonomic cephalalgia", "headache disorder", "papillary conjunctivitis", "faucial diphtheria", "cervical disc degenerative disorder", "anorectal stricture"]
 ---
 
 # Xylometazoline
@@ -27,7 +27,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

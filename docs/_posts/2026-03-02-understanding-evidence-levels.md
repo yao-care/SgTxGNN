@@ -50,8 +50,8 @@ Based on laboratory and mechanistic research:
 ### L5 - Prediction Only
 
 AI prediction without clinical validation:
-- TxGNN model prediction
-- May be KG, DL, or KG+DL validated
+- TxGNN deep learning model prediction
+- No clinical trial or literature evidence found yet
 
 **Recommendation**: Use as starting point for research
 

@@ -83,13 +83,13 @@ The advantage of drug repurposing: drug safety, pharmacokinetics, and manufactur
 </p>
 
 <blockquote class="expert-quote">
-"TxGNN integrates a knowledge graph of 17,080 biomedical entities, using graph neural networks to learn complex relationships between nodes and predict drug efficacy for rare diseases."
+"TxGNN integrates a knowledge graph covering 17,080 diseases, using graph neural networks to learn complex relationships between nodes and predict drug efficacy for rare diseases."
 <cite>— Huang et al., Nature Medicine (2024)</cite>
 </blockquote>
 
 ### Technical Features
 
-1. **Knowledge Graph**: Integrates 17,080 nodes including drugs, diseases, genes, and proteins
+1. **Knowledge Graph**: Covers 17,080 diseases, plus drugs, genes and proteins
 2. **Graph Neural Network**: Learns complex relationships between nodes
 3. **Prediction Capability**: Predicts which diseases a drug might be effective for
 
@@ -103,7 +103,7 @@ This platform integrates multiple authoritative public data sources including AI
 
 | Data Type | Source | Description |
 |-----------|--------|-------------|
-| AI Prediction | [TxGNN](https://zitniklab.hms.harvard.edu/projects/TxGNN/) | Harvard knowledge graph prediction model |
+| AI Prediction | [TxGNN](https://zitniklab.hms.harvard.edu/projects/TxGNN/) | Harvard graph neural network model |
 | Clinical Trials | [ClinicalTrials.gov](https://clinicaltrials.gov/) | Global clinical trial registry |
 | Academic Literature | [PubMed](https://pubmed.ncbi.nlm.nih.gov/) | Biomedical literature database |
 | Drug Information | [DrugBank](https://go.drugbank.com/) | Drug and target database |

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Hydroxyprogesterone Caproate: predicted new indication Endometrial cancer (evidence level L3). Approved use: Not available (the registered indication text is blank)"
 monitor_inn: "Hydroxyprogesterone caproate"
-predicted_indications: ["endometriosis of uterus", "renal hypoplasia, bilateral", "endometriosis of rectovaginal septum and vagina", "endometriosis in cutaneous scar", "renal hypoplasia (disease)", "uterine corpus cancer", "cervix endometriosis", "endometrial cancer", "breast fibrocystic disease", "infantile cerebral and cerebellar atrophy with postnatal progressive microcephaly"]
+predicted_indications: ["renal hypoplasia, bilateral", "renal hypoplasia (disease)", "uterine corpus cancer", "endometrial cancer", "breast fibrocystic disease", "infantile cerebral and cerebellar atrophy with postnatal progressive microcephaly"]
 ---
 
 # Hydroxyprogesterone Caproate
@@ -27,7 +27,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

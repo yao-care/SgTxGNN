@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Caspofungin: predicted new indication Gastrin secretion abnormality (evidence level L5). Approved use: Esophageal candidiasis, candidemia"
 monitor_inn: "Caspofungin"
-predicted_indications: ["gastrin secretion abnormality", "punctate epithelial keratoconjunctivitis", "abnormality of glucagon secretion", "HIV infectious disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "exposure keratitis", "congenital candidiasis", "neonatal candidiasis", "candida glabrata"]
+predicted_indications: ["gastrin secretion abnormality", "punctate epithelial keratoconjunctivitis", "abnormality of glucagon secretion", "HIV infectious disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "exposure keratitis"]
 ---
 
 # Caspofungin
@@ -27,7 +27,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

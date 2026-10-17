@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Oxymetazoline: predicted new indication Nasal cavity disease (evidence level L3). Approved use: Pharyngitis, common cold"
 monitor_inn: "Oxymetazoline"
-predicted_indications: ["nasal cavity disease", "headache disorder", "trigeminal autonomic cephalalgia", "allergic urticaria", "faucial diphtheria", "papillary conjunctivitis", "cervical disc degenerative disorder", "massive neonatal aspiration syndrome"]
+predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia", "allergic urticaria", "faucial diphtheria", "papillary conjunctivitis", "cervical disc degenerative disorder", "massive neonatal aspiration syndrome"]
 ---
 
 # Oxymetazoline
@@ -27,7 +27,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

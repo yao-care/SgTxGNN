@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Burosumab: predicted new indication Renal osteodystrophy (evidence level L4). Approved use: Hereditary hypophosphatemic rickets"
 monitor_inn: "Burosumab"
-predicted_indications: ["renal osteodystrophy", "impaired renal function disease", "non-renal secondary hyperparathyroidism", "bone remodeling disease", "hyperparathyroidism, transient neonatal", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic cataract", "hypocalcemic rickets", "cortical cataract"]
+predicted_indications: ["renal osteodystrophy", "impaired renal function disease", "non-renal secondary hyperparathyroidism", "hyperparathyroidism, transient neonatal", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic cataract", "hypocalcemic rickets", "cortical cataract"]
 ---
 
 # Burosumab
@@ -27,7 +27,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

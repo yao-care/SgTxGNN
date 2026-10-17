@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ergotamine: predicted new indication Migraine with brainstem aura (evidence level L4). Approved use: Migraine disorder, cluster headache, paroxysmal hemicrania…"
 monitor_inn: "Ergotamine"
-predicted_indications: ["migraine with brainstem aura", "headache disorder", "SUNCT syndrome", "atrophoderma vermiculata", "sciatic neuropathy", "glossodynia", "coccygodynia", "neuralgia"]
+predicted_indications: ["headache disorder", "SUNCT syndrome", "atrophoderma vermiculata", "sciatic neuropathy", "glossodynia", "coccygodynia", "neuralgia"]
 ---
 
 # Ergotamine
@@ -27,7 +27,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

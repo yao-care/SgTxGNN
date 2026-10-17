@@ -79,9 +79,9 @@ Comprehensive drug and target database.
 ### Prediction Generation
 
 1. DrugBank IDs matched to TxGNN knowledge graph
-2. Knowledge Graph predictions generated
+2. Known drug–disease relations extracted from the knowledge graph (known uses, not predictions)
 3. Deep Learning predictions generated
-4. Results combined and deduplicated
+4. Known uses excluded from the predictions
 
 ---
 

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Zolmitriptan: predicted new indication Migraine with brainstem aura (evidence level L4). Approved use: Migraine disorder (acute treatment of migraine)"
 monitor_inn: "Zolmitriptan"
-predicted_indications: ["migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "sciatic neuropathy", "dysthymic disorder", "amenorrhea (disease)", "headache disorder", "trigeminal autonomic cephalalgia", "congenital hypotrichosis milia", "hypotrichosis simplex of the scalp"]
+predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "sciatic neuropathy", "dysthymic disorder", "amenorrhea (disease)", "headache disorder", "trigeminal autonomic cephalalgia", "congenital hypotrichosis milia", "hypotrichosis simplex of the scalp"]
 ---
 
 # Zolmitriptan
@@ -27,7 +27,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

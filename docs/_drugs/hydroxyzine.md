@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Hydroxyzine: predicted new indication Allergic urticaria (evidence level L4). Approved use: Atopic eczema, allergic rhinitis, urticaria…"
 monitor_inn: "Hydroxyzine"
-predicted_indications: ["rosacea conjunctivitis", "nasal cavity disease", "acute laryngopharyngitis", "parasitic conjunctivitis", "chronic follicular conjunctivitis", "serous conjunctivitis except viral"]
+predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
 ---
 
 # Hydroxyzine
@@ -27,7 +27,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

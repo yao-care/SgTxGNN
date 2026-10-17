@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Calcium Carbonate: predicted new indication Calcium-alkali syndrome (evidence level L4). Approved use: Dyspepsia (antacid use). The Singapore approved-indication text is no…"
 monitor_inn: "Calcium carbonate"
-predicted_indications: ["calcium-alkali syndrome", "primary bone dysplasia with defective bone mineralization", "gout", "potassium deficiency disease", "digitalis poisoning", "gastroduodenitis", "hyperlipidemia", "peptic ulcer disease", "duodenogastric reflux"]
+predicted_indications: ["calcium-alkali syndrome", "primary bone dysplasia with defective bone mineralization", "gout", "potassium deficiency disease", "digitalis poisoning", "hyperlipidemia", "duodenogastric reflux"]
 ---
 
 # Calcium Carbonate
@@ -27,7 +27,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

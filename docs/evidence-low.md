@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <tr>
               <td><span class="badge kg">KG</span></td>
               <td>${data.counts?.kg || 0}</td>
-              <td>Knowledge graph prediction</td>
+              <td>Known use in knowledge graph (not a prediction)</td>
             </tr>
             <tr>
               <td><strong>Total</strong></td>

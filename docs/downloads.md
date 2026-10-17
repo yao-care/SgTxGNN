@@ -18,7 +18,7 @@ Download prediction data in various formats
 
 ### Unified Predictions
 
-Complete dataset of all drug repurposing predictions combining KG and DL methods.
+Candidate table combining deep learning (DL) predictions with known uses from the knowledge graph (KG). Rows with source KG are known uses, not predictions.
 
 | Format | File | Size | Description |
 |--------|------|------|-------------|
@@ -37,9 +37,9 @@ Complete dataset of all drug repurposing predictions combining KG and DL methods
 |--------|------|-------------|
 | `drugbank_id` | string | DrugBank identifier (e.g., DB00945) |
 | `drug_name` | string | Drug generic name |
-| `disease_name` | string | Predicted indication |
+| `disease_name` | string | Disease (predicted or known use, see `source`) |
 | `score` | float | DL confidence score (0.5-1.0, null for KG-only) |
-| `source` | string | Prediction source (KG, DL, or KG+DL) |
+| `source` | string | KG = known use in the knowledge graph; DL = model prediction; KG+DL = known use also scored by DL |
 
 ### Example Rows
 

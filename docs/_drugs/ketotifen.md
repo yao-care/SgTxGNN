@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ketotifen: predicted new indication Allergic urticaria (evidence level L3). Approved use: Atopic conjunctivitis, papillary conjunctivitis, vernal conjunctivitis"
 monitor_inn: "Ketotifen"
-predicted_indications: ["allergic urticaria", "rosacea conjunctivitis", "cold urticaria", "nasopharyngitis", "recalcitrant atopic dermatitis", "acute hemorrhagic conjunctivitis", "pseudomembranous conjunctivitis", "parasitic conjunctivitis", "chronic follicular conjunctivitis"]
+predicted_indications: ["allergic urticaria", "cold urticaria", "nasopharyngitis", "recalcitrant atopic dermatitis"]
 ---
 
 # Ketotifen
@@ -27,7 +27,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

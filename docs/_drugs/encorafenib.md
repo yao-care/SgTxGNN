@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Encorafenib: predicted new indication Choroideremia . The most credible prediction is non-cutaneous melanoma (evidence level L5). Approved use: Metastatic melanoma"
 monitor_inn: "Encorafenib"
-predicted_indications: ["choroideremia", "non-cutaneous melanoma", "epithelioid cell melanoma", "eyelid melanoma", "scrotum melanoma", "choroidal dystrophy, central areolar", "superficial spreading melanoma", "acral lentiginous melanoma (disease)", "amelanotic skin melanoma", "lentigo maligna melanoma"]
+predicted_indications: ["choroideremia", "choroidal dystrophy, central areolar"]
 ---
 
 # Encorafenib
@@ -27,7 +27,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

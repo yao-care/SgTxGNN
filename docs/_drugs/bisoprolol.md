@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Bisoprolol: predicted new indication Malignant renovascular hypertension (evidence level L5). Approved use: Hypertension"
 monitor_inn: "Bisoprolol"
-predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "chronic pulmonary heart disease", "Prinzmetal angina", "obsolete susceptibility to ischemic stroke", "brain stem infarction", "cerebrovascular disorder"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "chronic pulmonary heart disease", "obsolete susceptibility to ischemic stroke", "brain stem infarction", "cerebrovascular disorder"]
 ---
 
 # Bisoprolol
@@ -27,7 +27,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

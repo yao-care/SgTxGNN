@@ -26,9 +26,9 @@ All drug repurposing predictions with source and confidence information.
 **Columns**:
 - `drugbank_id`: DrugBank identifier
 - `drug_name`: Generic drug name
-- `disease_name`: Predicted indication
+- `disease_name`: Disease (predicted or known use, see `source`)
 - `score`: Confidence score (0-1)
-- `source`: Prediction method (KG, DL, KG+DL)
+- `source`: KG = known use in the knowledge graph; DL = model prediction; KG+DL = known use also scored by DL
 
 ### Drug List
 

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Eletriptan: predicted new indication Migraine with brainstem aura (evidence level L4). Approved use: Migraine disorder"
 monitor_inn: "Eletriptan"
-predicted_indications: ["migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "sciatic neuropathy", "Ambras type hypertrichosis universalis congenita", "dysthymic disorder", "malformation syndrome with odontal and/or periodontal component", "hypertrichosis (disease)", "syndrome with a Dandy-Walker malformation as major feature", "headache disorder"]
+predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "sciatic neuropathy", "Ambras type hypertrichosis universalis congenita", "dysthymic disorder", "malformation syndrome with odontal and/or periodontal component", "hypertrichosis (disease)", "syndrome with a Dandy-Walker malformation as major feature", "headache disorder"]
 ---
 
 # Eletriptan
@@ -27,7 +27,7 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

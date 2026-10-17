@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Metoclopramide: predicted new indication Gastric ulcer (evidence level L5). Approved use: Gastroesophageal reflux disease"
 monitor_inn: "Metoclopramide"
-predicted_indications: ["gastric ulcer (disease)", "gastroduodenitis", "gastrojejunal ulcer", "peptic ulcer perforation", "duodenal obstruction", "achlorhydria", "hiatus hernia (disease)", "cascade stomach", "gastric dilatation"]
+predicted_indications: ["gastroduodenitis", "duodenal obstruction", "achlorhydria", "hiatus hernia (disease)", "cascade stomach", "gastric dilatation"]
 ---
 
 # Metoclopramide
@@ -27,7 +27,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

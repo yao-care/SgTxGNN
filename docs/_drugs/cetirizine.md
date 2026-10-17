@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Cetirizine: predicted new indication Allergic urticaria (evidence level L1). Approved use: Allergic rhinitis (also vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "Cetirizine"
-predicted_indications: ["allergic urticaria", "cold urticaria", "nasal cavity disease", "rosacea conjunctivitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "angioedema", "punctate epithelial keratoconjunctivitis", "trigeminal autonomic cephalalgia"]
+predicted_indications: ["acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "trigeminal autonomic cephalalgia"]
 ---
 
 # Cetirizine
@@ -27,7 +27,7 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

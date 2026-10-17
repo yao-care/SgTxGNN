@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Scopolamine: predicted new indication Cauda equina syndrome (evidence level L5). Approved use: Peptic ulcer disease, allergic rhinitis, uveitis, motion sickness…"
 monitor_inn: "Scopolamine"
-predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "papillary conjunctivitis", "atopic conjunctivitis", "rosacea conjunctivitis", "vernal conjunctivitis", "nasal cavity disease"]
+predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "papillary conjunctivitis", "atopic conjunctivitis", "rosacea conjunctivitis", "vernal conjunctivitis", "nasal cavity disease", "acute laryngopharyngitis"]
 ---
 
 # Scopolamine
@@ -27,7 +27,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

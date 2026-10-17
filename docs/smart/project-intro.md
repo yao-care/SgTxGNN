@@ -71,9 +71,9 @@ HSA Drug Registry → Ingredient Normalisation → DrugBank ID
 
 Mapping rate: **73.87%** of HSA ingredients successfully mapped
 
-### 2. Prediction Methods
+### 2. Prediction and Known-Use Check
 
-Two complementary approaches:
+Deep learning predicts; the knowledge graph identifies known uses:
 
 | Method | Description | Count |
 |--------|-------------|-------|

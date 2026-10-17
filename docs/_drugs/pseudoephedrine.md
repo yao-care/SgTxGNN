@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Pseudoephedrine: predicted new indication Nasal cavity disease (evidence level L3). Approved use: Allergic rhinitis, vasomotor rhinitis, pharyngitis, common cold…"
 monitor_inn: "Pseudoephedrine"
-predicted_indications: ["allergic urticaria", "trigeminal autonomic cephalalgia", "rosacea conjunctivitis", "cold urticaria", "faucial diphtheria", "cervical disc degenerative disorder", "massive neonatal aspiration syndrome", "bronchial disease"]
+predicted_indications: ["acute laryngopharyngitis", "allergic urticaria", "trigeminal autonomic cephalalgia", "cold urticaria", "faucial diphtheria", "cervical disc degenerative disorder", "massive neonatal aspiration syndrome", "bronchial disease"]
 ---
 
 # Pseudoephedrine
@@ -27,7 +27,7 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

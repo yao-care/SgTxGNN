@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Desloratadine: predicted new indication Cold urticaria (evidence level L2). Approved use: Allergic rhinitis, vasomotor rhinitis…"
 monitor_inn: "Desloratadine"
-predicted_indications: ["cold urticaria", "nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis", "headache disorder", "trigeminal autonomic cephalalgia", "punctate epithelial keratoconjunctivitis"]
+predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "headache disorder", "trigeminal autonomic cephalalgia"]
 ---
 
 # Desloratadine
@@ -27,7 +27,7 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

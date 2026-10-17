@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Gabapentin: predicted new indication Myofascial pain syndrome . The top-ranked prediction by score is acne… (evidence level L5). Approved use: Restless legs syndrome"
 monitor_inn: "Gabapentin"
-predicted_indications: ["acne (disease)", "adolescent/adult onset autosomal dominant epilepsy with auditory features", "epilepsy with generalized tonic-clonic seizures", "myofascial pain syndrome", "visual epilepsy", "active cochlear Meniere disease", "active vestibular Meniere disease", "active cochleovestibular Meniere disease", "trigeminal nerve neoplasm", "osteoarthritis susceptibility"]
+predicted_indications: ["acne (disease)", "myofascial pain syndrome", "active cochlear Meniere disease", "active vestibular Meniere disease", "active cochleovestibular Meniere disease", "trigeminal nerve neoplasm", "osteoarthritis susceptibility"]
 ---
 
 # Gabapentin
@@ -27,7 +27,7 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Pharmacist Assessment Report
 

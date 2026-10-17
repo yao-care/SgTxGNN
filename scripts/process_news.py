@@ -383,6 +383,49 @@ Source: {sources_html}
         f.write(content)
 
 
+# 2026-10-17：藥物連結一律用頁面實際網址（Jekyll :name 會把 _ 轉成 -；明寫 permalink 者照 permalink），
+# 舊 ID 轉址頁換成目標頁，noindex 頁與不存在的藥不給連結。
+_DRUG_URLS = None
+
+
+def drug_url(slug):
+    global _DRUG_URLS
+    if _DRUG_URLS is None:
+        _DRUG_URLS = {}
+        for f in (Path(__file__).parent.parent / "docs" / "_drugs").glob("*.md"):
+            t = f.read_text(encoding="utf-8", errors="replace")
+            if 'http-equiv="refresh"' in t:
+                m = re.search(r'url=(/drugs/[^"]+/)"', t)
+                url = m.group(1) if m else None
+            elif re.search(r"^noindex:\s*true", t[:2000], re.M):
+                url = None
+            else:
+                pm = re.search(r"^permalink:\s*(\S+)", t[:2000], re.M)
+                url = pm.group(1) if pm else "/drugs/" + re.sub(r"[\W_]+", "-", f.stem).strip("-").lower() + "/"
+            _DRUG_URLS[f.stem] = url
+            _DRUG_URLS.setdefault(f.stem.lower(), url)
+    s = str(slug or "")
+    return _DRUG_URLS.get(s) or _DRUG_URLS.get(s.lower())
+
+
+def drug_url_slug(slug):
+    u = drug_url(slug)
+    return u.strip("/").split("/")[-1] if u else None
+
+
+def _index_kw(k):
+    """T-302：索引裡的 slug 也用頁面實際網址的 slug（舊 ID、轉址、noindex 不外露）。"""
+    k = dict(k)
+    if k.get("type") == "drug":
+        u = drug_url(k.get("slug")) or drug_url(re.sub(r"[\W_]+", "_", str(k.get("name", ""))).strip("_"))
+        k.pop("slug", None); k.pop("url", None)
+        if u:
+            k["slug"], k["url"] = u.strip("/").split("/")[-1], u
+    if k.get("related_drugs"):
+        k["related_drugs"] = [dict(r, slug=drug_url_slug(r["slug"])) for r in k["related_drugs"] if drug_url_slug(r.get("slug"))]
+    return k
+
+
 def generate_news_index(matched_news: list[dict]):
     """Generate news index JSON for frontend."""
     indexed_news = [
@@ -391,7 +434,7 @@ def generate_news_index(matched_news: list[dict]):
             "title": item.get("title", ""),
             "published": item.get("published", ""),
             "sources": item.get("sources", []),
-            "keywords": item.get("matched_keywords", [])
+            "keywords": [_index_kw(k) for k in item.get("matched_keywords", [])]
         }
         for item in matched_news
         if item.get("matched_keywords")

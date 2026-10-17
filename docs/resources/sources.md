@@ -119,9 +119,9 @@ Side effect database.
 ### Prediction Generation
 
 1. DrugBank IDs matched to TxGNN knowledge graph
-2. Knowledge Graph predictions generated: **22,136**
+2. Known drug–disease relations from the knowledge graph (known uses, not predictions): **22,136**
 3. Deep Learning predictions generated: **29,100**
-4. Results unified and deduplicated: **31,543**
+4. Combined candidate table (known uses and predictions, deduplicated): **31,543**
 
 ---
 
