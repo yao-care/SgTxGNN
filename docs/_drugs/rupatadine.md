@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Rupatadine: predicted new indication Cold urticaria (evidence level L2). Approved use: Allergic rhinitis, vasomotor rhinitis, urticaria, angioedema"
 monitor_inn: "Rupatadine"
-predicted_indications: ["cold urticaria", "allergic urticaria", "gastric ulcer (disease)", "C1 inhibitor deficiency", "duodenal obstruction", "IgE responsiveness, atopic", "uterine polyp", "epulis", "serpinopathy with toxic serpin polymerization", "polyp of vocal cord"]
+predicted_indications: ["gastric ulcer (disease)", "C1 inhibitor deficiency", "duodenal obstruction", "IgE responsiveness, atopic", "uterine polyp", "epulis", "serpinopathy with toxic serpin polymerization", "polyp of vocal cord"]
 ---
 
 # Rupatadine

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Mirtazapine: predicted new indication Ohdo syndrome and variants (evidence level L5). Approved use: Unipolar depression / major depressive disorder"
 monitor_inn: "Mirtazapine"
-predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy", "ligneous conjunctivitis", "childhood apraxia of speech", "dysthymic disorder", "agoraphobia", "phobic disorder", "melancholia", "neurotic depression"]
+predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy", "ligneous conjunctivitis", "childhood apraxia of speech", "agoraphobia"]
 ---
 
 # Mirtazapine

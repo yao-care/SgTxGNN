@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Netarsudil: predicted new indication Primary hereditary glaucoma (evidence level L5). Approved use: Open-angle glaucoma"
 monitor_inn: "Netarsudil"
-predicted_indications: ["primary hereditary glaucoma", "glaucoma", "hypoglycemia", "Axenfeld anomaly", "glaucoma 1, open angle", "open angle glaucoma", "hydrophthalmos", "hereditary thrombocytopenia with normal platelets", "dense granule disease", "marcothrombocytopenia with mitral valve insufficiency"]
+predicted_indications: ["primary hereditary glaucoma", "hypoglycemia", "Axenfeld anomaly", "hydrophthalmos", "hereditary thrombocytopenia with normal platelets", "dense granule disease", "marcothrombocytopenia with mitral valve insufficiency"]
 ---
 
 # Netarsudil

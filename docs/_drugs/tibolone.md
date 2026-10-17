@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tibolone: predicted new indication Migraine with brainstem aura (evidence level L4). Approved use: Postmenopausal osteoporosis"
 monitor_inn: "Tibolone"
-predicted_indications: ["migraine with brainstem aura", "Worth syndrome", "migraine disorder", "pregnancy associated osteoporosis", "severe nonproliferative diabetic retinopathy", "autosomal dominant neovascular inflammatory vitreoretinopathy", "seborrheic dermatitis", "succinyl-CoA:3-ketoacid CoA transferase deficiency", "heparin cofactor 2 deficiency", "acne (disease)"]
+predicted_indications: ["migraine with brainstem aura", "Worth syndrome", "migraine disorder", "severe nonproliferative diabetic retinopathy", "autosomal dominant neovascular inflammatory vitreoretinopathy", "seborrheic dermatitis", "succinyl-CoA:3-ketoacid CoA transferase deficiency", "heparin cofactor 2 deficiency", "acne (disease)"]
 ---
 
 # Tibolone

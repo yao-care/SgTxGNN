@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Crisaborole: predicted new indication Exanthem (disease) (evidence level L5). Approved use: Atopic dermatitis (atopic eczema)"
 monitor_inn: "Crisaborole"
-predicted_indications: ["exanthem (disease)", "dermatitis", "acne keloid", "neonatal dermatomyositis", "acrodermatitis chronica atrophicans", "bronchitis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "amyopathic dermatomyositis", "pityriasis simplex"]
+predicted_indications: ["exanthem (disease)", "acne keloid", "neonatal dermatomyositis", "acrodermatitis chronica atrophicans", "bronchitis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "amyopathic dermatomyositis", "pityriasis simplex"]
 ---
 
 # Crisaborole

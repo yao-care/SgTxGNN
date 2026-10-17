@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Cisplatin: predicted new indication Female breast carcinoma (evidence level L2). Approved use: Ovarian cancer"
 monitor_inn: "Cisplatin"
-predicted_indications: ["female breast carcinoma", "choriocarcinoma of ovary", "gonadal germ cell tumor", "adult germ cell tumor", "ovarian primitive germ cell tumor", "enteric pattern testicular yolk sac tumor", "testicular yolk sac tumor, papillary pattern", "reticular pattern testicular yolk sac tumor", "testicular yolk sac tumor, solid pattern", "testicular yolk sac tumor, macrocystic pattern"]
+predicted_indications: ["female breast carcinoma", "adult germ cell tumor"]
 ---
 
 # Cisplatin

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Gilteritinib: predicted new indication Bulbar polio (evidence level L5). Approved use: Acute myeloid leukemia"
 monitor_inn: "Gilteritinib"
-predicted_indications: ["bulbar polio", "acute myeloid leukemia and myelodysplastic syndromes related to alkylating agent", "acute myeloid leukemia and myelodysplastic syndromes related to radiation", "5q35 microduplication syndrome", "neuralgic amyotrophy", "amyotrophic neuralgia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "myelodysplastic/myeloproliferative disease"]
+predicted_indications: ["bulbar polio", "5q35 microduplication syndrome", "neuralgic amyotrophy", "amyotrophic neuralgia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "myelodysplastic/myeloproliferative disease"]
 ---
 
 # Gilteritinib

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Thiotepa: predicted new indication Adult germ cell tumor (evidence level L2). Approved use: Lymphomas (Hodgkin and non-Hodgkin, mantle cell), B-cell neoplasm…"
 monitor_inn: "Thiotepa"
-predicted_indications: ["adult germ cell tumor", "reticular pattern testicular yolk sac tumor", "enteric pattern testicular yolk sac tumor", "testicular yolk sac tumor, hepatoid pattern", "testicular yolk sac tumor, papillary pattern", "polyvesicular vitelline pattern testicular yolk sac tumor", "testicular yolk sac tumor, macrocystic pattern", "testicular yolk sac tumor, endodermal sinus pattern", "testicular yolk sac tumor, solid pattern", "childhood ovarian yolk sac tumor"]
+predicted_indications: ["adult germ cell tumor"]
 ---
 
 # Thiotepa

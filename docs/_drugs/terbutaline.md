@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Terbutaline: predicted new indication Obstructive lung disease (evidence level L1). Approved use: Asthma, bronchitis and emphysema"
 monitor_inn: "Terbutaline"
-predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome", "laryngotracheitis", "bronchial neoplasm (disease)", "chronic obstructive pulmonary disease", "anaphylaxis", "food-dependent exercise-induced anaphylaxis", "nasolacrimal duct disease", "lacrimal atrophy"]
+predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome", "laryngotracheitis", "bronchial neoplasm (disease)", "anaphylaxis", "food-dependent exercise-induced anaphylaxis", "nasolacrimal duct disease", "lacrimal atrophy"]
 ---
 
 # Terbutaline

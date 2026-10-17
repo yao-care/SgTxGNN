@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Magnesium Oxide: predicted new indication Calcium-alkali syndrome (evidence level L4). Approved use: Osteoporosis, postmenopausal osteoporosis, constipation, dyspepsia…"
 monitor_inn: "Magnesium oxide"
-predicted_indications: ["calcium-alkali syndrome", "primary bone dysplasia with defective bone mineralization", "gastroduodenitis", "potassium deficiency disease", "digitalis poisoning", "stomach disease", "hypophosphatemia (disease)", "duodenal ulcer (disease)", "autosomal dominant neovascular inflammatory vitreoretinopathy", "duodenogastric reflux"]
+predicted_indications: ["calcium-alkali syndrome", "primary bone dysplasia with defective bone mineralization", "gastroduodenitis", "potassium deficiency disease", "digitalis poisoning", "stomach disease", "duodenal ulcer (disease)", "autosomal dominant neovascular inflammatory vitreoretinopathy", "duodenogastric reflux"]
 ---
 
 # Magnesium Oxide

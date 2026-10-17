@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Carvedilol: predicted new indication Malignant hypertensive renal disease (evidence level L5). Approved use: Hypertension (hypertensive disorder). No approved indication text is…"
 monitor_inn: "Carvedilol"
-predicted_indications: ["malignant hypertensive renal disease", "malignant renovascular hypertension", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "obsolete susceptibility to ischemic stroke", "cerebrovascular disorder", "ocular tuberculosis", "brain stem infarction"]
+predicted_indications: ["malignant hypertensive renal disease", "chronic pulmonary heart disease", "obsolete susceptibility to ischemic stroke", "cerebrovascular disorder", "ocular tuberculosis", "brain stem infarction"]
 ---
 
 # Carvedilol

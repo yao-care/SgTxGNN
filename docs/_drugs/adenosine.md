@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Adenosine: predicted new indication Obsolete bundle branch block (evidence level L5). Approved use: Ventricular tachycardia"
 monitor_inn: "Adenosine"
-predicted_indications: ["obsolete bundle branch block", "catecholaminergic polymorphic ventricular tachycardia", "periodic paralysis with transient compartment-like syndrome", "incessant infant ventricular tachycardia", "arrhythmogenic right ventricular cardiomyopathy", "primary hereditary glaucoma", "attention deficit hyperactivity disorder, inattentive type", "open-angle glaucoma", "specific developmental disorder", "angle-closure glaucoma"]
+predicted_indications: ["obsolete bundle branch block", "periodic paralysis with transient compartment-like syndrome", "arrhythmogenic right ventricular cardiomyopathy", "primary hereditary glaucoma", "attention deficit hyperactivity disorder, inattentive type", "open-angle glaucoma", "specific developmental disorder", "angle-closure glaucoma"]
 ---
 
 # Adenosine

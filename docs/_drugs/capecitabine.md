@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Capecitabine: predicted new indication Gastric tubular adenocarcinoma (evidence level L1). Approved use: Metastasis from malignant tumour of colon"
 monitor_inn: "Capecitabine"
-predicted_indications: ["gastric adenocarcinoma and proximal polyposis of the stomach", "gastric tubular adenocarcinoma", "microinvasive gastric cancer", "signet ring cell gastric adenocarcinoma", "gastric cardia adenocarcinoma", "gastric pylorus carcinoma", "carcinoma of stomach, salivary gland type", "gastric body carcinoma", "Epstein-Barr virus-associated gastric carcinoma", "malignant gastric granular cell tumor"]
+predicted_indications: ["gastric adenocarcinoma and proximal polyposis of the stomach", "gastric tubular adenocarcinoma", "signet ring cell gastric adenocarcinoma", "gastric cardia adenocarcinoma"]
 ---
 
 # Capecitabine

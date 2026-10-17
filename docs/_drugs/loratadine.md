@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Loratadine: predicted new indication Allergic urticaria (evidence level L3). Approved use: Allergic rhinitis (other listed indications: vasomotor rhinitis…"
 monitor_inn: "Loratadine"
-predicted_indications: ["allergic urticaria", "nasal cavity disease", "acute laryngopharyngitis", "rosacea conjunctivitis", "cold urticaria", "viral conjunctivitis", "punctate epithelial keratoconjunctivitis", "trigeminal autonomic cephalalgia", "faucial diphtheria", "cervical disc degenerative disorder"]
+predicted_indications: ["allergic urticaria", "nasal cavity disease", "rosacea conjunctivitis", "cold urticaria", "viral conjunctivitis", "punctate epithelial keratoconjunctivitis", "trigeminal autonomic cephalalgia", "faucial diphtheria", "cervical disc degenerative disorder"]
 ---
 
 # Loratadine

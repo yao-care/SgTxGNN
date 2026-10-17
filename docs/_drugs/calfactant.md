@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Calfactant: predicted new indication Adult acute respiratory distress syndrome (evidence level L5). Approved use: Neonatal respiratory distress syndrome"
 monitor_inn: "Calfactant"
-predicted_indications: ["adult acute respiratory distress syndrome", "neurolymphomatosis", "pulmonary edema", "plasmacytoma", "adult-onset myasthenia gravis", "autoimmune disease of peripheral nervous system", "atypical hemolytic-uremic syndrome with B factor anomaly", "neonatal myasthenia gravis", "disease of receptor activity", "myasthenia gravis with thymus hyperplasia"]
+predicted_indications: ["neurolymphomatosis", "pulmonary edema", "plasmacytoma", "adult-onset myasthenia gravis", "autoimmune disease of peripheral nervous system", "atypical hemolytic-uremic syndrome with B factor anomaly", "neonatal myasthenia gravis", "disease of receptor activity", "myasthenia gravis with thymus hyperplasia"]
 ---
 
 # Calfactant

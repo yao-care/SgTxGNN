@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Paroxetine: predicted new indication Ohdo syndrome and variants (evidence level L5). Approved use: Not stated in the Singapore licence record. Per the knowledge graph:…"
 monitor_inn: "Paroxetine"
-predicted_indications: ["Ohdo syndrome and variants", "melancholia", "blepharophimosis - intellectual disability syndrome, Ohdo type", "neurotic depression", "benign paroxysmal torticollis of infancy", "agoraphobia", "schizoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "paranoid personality disorder"]
+predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy", "schizoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "paranoid personality disorder"]
 ---
 
 # Paroxetine

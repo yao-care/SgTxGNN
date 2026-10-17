@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ephedrine: predicted new indication Nasal cavity disease (evidence level L4). Approved use: Allergic rhinitis, vasomotor rhinitis, bronchitis, pharyngitis…"
 monitor_inn: "Ephedrine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia", "allergic urticaria", "massive neonatal aspiration syndrome", "hantavirus infectious disease", "respiratory syncytial virus bronchiolitis", "meconium aspiration syndrome", "faucial diphtheria", "lung disease"]
+predicted_indications: ["trigeminal autonomic cephalalgia", "allergic urticaria", "massive neonatal aspiration syndrome", "hantavirus infectious disease", "respiratory syncytial virus bronchiolitis", "meconium aspiration syndrome", "faucial diphtheria", "lung disease"]
 ---
 
 # Ephedrine

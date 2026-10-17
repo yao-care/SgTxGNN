@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Pentoxifylline: predicted new indication Ischemic disease (evidence level L2). Approved use: Peripheral vascular disease, intermittent claudication…"
 monitor_inn: "Pentoxifylline"
-predicted_indications: ["ischemic disease", "intracranial arteriosclerosis", "vascular ectasia", "Monckeberg arteriosclerosis", "angiodysplasia", "priapism", "venous thromboembolism", "fibrocartilaginous embolism", "non-inflammatory vasculopathy", "congenital renal artery stenosis"]
+predicted_indications: ["ischemic disease", "intracranial arteriosclerosis", "vascular ectasia", "Monckeberg arteriosclerosis", "angiodysplasia", "venous thromboembolism", "fibrocartilaginous embolism", "non-inflammatory vasculopathy", "congenital renal artery stenosis"]
 ---
 
 # Pentoxifylline

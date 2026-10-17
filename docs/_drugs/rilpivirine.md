@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Rilpivirine: predicted new indication Simian immunodeficiency virus infection (evidence level L4). Approved use: HIV infectious disease"
 monitor_inn: "Rilpivirine"
-predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "AIDS related complex", "congenital human immunodeficiency virus", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection", "fibroma of prostate", "benign reproductive system neoplasm", "Brenner tumor"]
+predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection", "fibroma of prostate", "benign reproductive system neoplasm", "Brenner tumor"]
 ---
 
 # Rilpivirine

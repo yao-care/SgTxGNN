@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Norepinephrine: predicted new indication Obstructive lung disease (evidence level L4). Approved use: Asthma, bronchitis, hypotensive disorder, pulmonary emphysema…"
 monitor_inn: "Norepinephrine"
-predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome", "transient ischemic attack (disease)", "chronic obstructive pulmonary disease", "asthma-related traits, susceptibility to", "food-dependent exercise-induced anaphylaxis", "anaphylaxis", "tracheal stenosis", "interstitial emphysema"]
+predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome", "transient ischemic attack (disease)", "food-dependent exercise-induced anaphylaxis", "anaphylaxis", "tracheal stenosis"]
 ---
 
 # Norepinephrine

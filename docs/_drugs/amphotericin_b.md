@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Amphotericin B: predicted new indication Chronic rhinosinusitis (evidence level L5). Approved use: Candidiasis and other infections"
 monitor_inn: "Amphotericin B"
-predicted_indications: ["paranasal sinus neoplasm (disease)", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "bacterial pneumonia", "meningococcal infection", "endocardial fibroelastosis", "punctate epithelial keratoconjunctivitis", "bacterial arthritis", "endocarditis", "pneumocystosis"]
+predicted_indications: ["paranasal sinus neoplasm (disease)", "meningococcal infection", "endocardial fibroelastosis", "bacterial arthritis"]
 ---
 
 # Amphotericin B

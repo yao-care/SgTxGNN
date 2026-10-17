@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Revefenacin: predicted new indication Bronchitis (evidence level L5). Approved use: Chronic obstructive pulmonary disease (COPD)"
 monitor_inn: "Revefenacin"
-predicted_indications: ["bronchitis", "obstructive lung disease", "tracheal stenosis", "compensatory emphysema", "hyperlucent lung", "interstitial emphysema", "susceptibility to respiratory infections associated with CD8alpha chain mutation", "congenital lobar emphysema", "tracheal calcification", "respiratory malformation"]
+predicted_indications: ["tracheal stenosis", "compensatory emphysema", "hyperlucent lung", "interstitial emphysema", "susceptibility to respiratory infections associated with CD8alpha chain mutation", "congenital lobar emphysema", "tracheal calcification", "respiratory malformation"]
 ---
 
 # Revefenacin

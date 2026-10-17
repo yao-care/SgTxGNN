@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Moclobemide: predicted new indication Agoraphobia (evidence level L2). Approved use: Anxiety disorder, neurotic disorder, dysthymic disorder"
 monitor_inn: "Moclobemide"
-predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy", "neurotic depression", "melancholia", "Keppen-Lubinsky syndrome", "vitamin B12-responsive methylmalonic acidemia", "migraine disorder", "migraine with brainstem aura", "obsessive-compulsive disorder", "autosomal dominant slowed nerve conduction velocity"]
+predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy", "Keppen-Lubinsky syndrome", "vitamin B12-responsive methylmalonic acidemia", "migraine disorder", "migraine with brainstem aura", "autosomal dominant slowed nerve conduction velocity"]
 ---
 
 # Moclobemide

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Cabergoline: predicted new indication Pituitary adenocarcinoma (evidence level L4). Approved use: Hyperprolactinemia, including prolactin-producing pituitary tumours"
 monitor_inn: "Cabergoline"
-predicted_indications: ["pituitary adenocarcinoma (disease)", "progeria-short stature-pigmented nevi syndrome", "pituitary cancer", "cerebral palsy, spastic quadriplegic", "glaucoma", "progeroid syndrome, Petty type", "psychogenic movement disorders", "kleptomania", "primary orthostatic tremor", "multiple fibroadenoma of the breast"]
+predicted_indications: ["progeria-short stature-pigmented nevi syndrome", "pituitary cancer", "cerebral palsy, spastic quadriplegic", "glaucoma", "progeroid syndrome, Petty type", "psychogenic movement disorders", "kleptomania", "primary orthostatic tremor", "multiple fibroadenoma of the breast"]
 ---
 
 # Cabergoline

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Brompheniramine: predicted new indication Allergic urticaria (evidence level L4). Approved use: Allergic rhinitis, vasomotor rhinitis, common cold…"
 monitor_inn: "Brompheniramine"
-predicted_indications: ["allergic urticaria", "cold urticaria", "nasal cavity disease", "acute laryngopharyngitis", "pharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis", "nasopharyngitis", "anorectal stricture"]
+predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "pharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis", "anorectal stricture"]
 ---
 
 # Brompheniramine

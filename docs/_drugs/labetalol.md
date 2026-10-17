@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Labetalol: predicted new indication Malignant renovascular hypertension (evidence level L5). Approved use: Hypertensive disorder / hypertension"
 monitor_inn: "Labetalol"
-predicted_indications: ["malignant renovascular hypertension", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "primary hereditary glaucoma", "open-angle glaucoma", "atrial flutter (disease)", "ocular tuberculosis"]
+predicted_indications: ["malignant hypertensive renal disease", "chronic pulmonary heart disease", "primary hereditary glaucoma", "open-angle glaucoma", "atrial flutter (disease)", "ocular tuberculosis"]
 ---
 
 # Labetalol

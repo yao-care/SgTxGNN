@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Bilastine: predicted new indication Duodenal obstruction (evidence level L5). Approved use: Allergic rhinitis, vasomotor rhinitis, urticaria, angioedema"
 monitor_inn: "Bilastine"
-predicted_indications: ["duodenal obstruction", "duodenal ulcer (disease)", "duodenogastric reflux", "gastric ulcer (disease)", "leather-bottle stomach", "duodenitis", "cold urticaria", "C1 inhibitor deficiency", "allergic urticaria", "serpinopathy with toxic serpin polymerization"]
+predicted_indications: ["duodenal obstruction", "duodenal ulcer (disease)", "duodenogastric reflux", "gastric ulcer (disease)", "leather-bottle stomach", "duodenitis", "C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization"]
 ---
 
 # Bilastine

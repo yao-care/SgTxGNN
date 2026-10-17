@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Apalutamide: predicted new indication Benign neoplasm of prostate (evidence level L4). Approved use: Prostate cancer"
 monitor_inn: "Apalutamide"
-predicted_indications: ["prostate cancer/brain cancer susceptibility", "prostate leiomyoma", "Brenner tumor", "benign reproductive system neoplasm", "fibroma of prostate", "prostate phyllodes tumor", "benign neoplasm of prostate", "male reproductive organ cancer", "benign prostate phyllodes tumor", "palmoplantar keratoderma-sclerodactyly syndrome"]
+predicted_indications: ["prostate leiomyoma", "Brenner tumor", "benign reproductive system neoplasm", "fibroma of prostate", "prostate phyllodes tumor", "benign neoplasm of prostate", "benign prostate phyllodes tumor", "palmoplantar keratoderma-sclerodactyly syndrome"]
 ---
 
 # Apalutamide

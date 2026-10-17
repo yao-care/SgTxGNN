@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Carbimazole: predicted new indication Resistance to thyroid hormone due to a mutation in thyroid hormone re… (evidence level L5). Approved use: Hyperthyroidism, Graves' disease, thyrotoxicosis"
 monitor_inn: "Carbimazole"
-predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "neonatal thyrotoxicosis", "hyperthyroxinemia", "Prinzmetal angina", "autoimmune thyroid disease", "Hashimoto thyroiditis", "Raynaud disease", "migraine with brainstem aura", "kyphoscoliotic heart disease", "migraine disorder"]
+predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia", "Prinzmetal angina", "Hashimoto thyroiditis", "Raynaud disease", "migraine with brainstem aura", "kyphoscoliotic heart disease", "migraine disorder"]
 ---
 
 # Carbimazole
