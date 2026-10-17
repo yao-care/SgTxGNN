@@ -2,14 +2,14 @@
 layout: default
 title: Drug List
 nav_order: 4
-description: "Complete list of 745 Singapore HSA-approved drugs with repurposing predictions"
+description: "Complete list of Singapore HSA-approved drugs with repurposing predictions"
 permalink: /drugs/
 ---
 
 # Drug List
 {: .fs-9 }
 
-Browse all 745 drugs with repurposing predictions
+Browse all {{ site.data.site_stats.drugs }} drugs with repurposing predictions
 {: .fs-6 .fw-300 }
 
 ---
@@ -176,7 +176,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 | Metric | Value |
 |--------|-------|
-| Total Drugs | 745 |
+| Total Drugs | {{ site.data.site_stats.drugs }} |
 | Total Predictions | 31,543 |
 | KG+DL (known uses) | 1,217 |
 | High Score (>0.99) | 6,361 |
