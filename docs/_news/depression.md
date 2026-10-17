@@ -13,15 +13,7 @@ permalink: /news/depression/
 
 ---
 
-**2 articles** related to depression.
-
----
-
-### [IMH to be redeveloped and expanded, renamed the National Centre for Mental Health Singapore](https://www.straitstimes.com/singapore/health/imh-to-be-redeveloped-and-expanded-renamed-the-national-centre-for-mental-health-singapore)
-
-2026-10-17
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/imh-to-be-redeveloped-and-expanded-renamed-the-national-centre-for-mental-health-singapore)
+**1 articles** related to depression.
 
 ---
 

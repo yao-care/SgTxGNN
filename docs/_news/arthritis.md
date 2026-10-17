@@ -13,7 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**6 articles** related to arthritis.
+**7 articles** related to arthritis.
 
 ---
 
@@ -30,6 +30,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/wait-list-
 2026-10-17
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/beyond-trial-and-error-tailoring-drug-therapies-to-patients-dna)
+
+---
+
+### [Rare condition leaves teen’s nerves without protective covering, slowing nerve signals](https://www.straitstimes.com/singapore/health/rare-condition-leaves-teens-nerves-without-protective-covering-slowing-nerve-signals)
+
+2026-10-17
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/rare-condition-leaves-teens-nerves-without-protective-covering-slowing-nerve-signals)
 
 ---
 
