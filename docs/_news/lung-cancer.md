@@ -19,7 +19,7 @@ permalink: /news/lung-cancer/
 
 ### [How Stage 4 lung cancer changed this former nightlife boss: From 5 litres of beer a night to Everest Base Camp](https://www.channelnewsasia.com/wellness/living-stage-4-lung-cancer-michael-chuah-6382671)
 
-2026-10-16
+2026-10-17
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/living-stage-4-lung-cancer-michael-chuah-6382671)
 

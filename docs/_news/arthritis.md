@@ -19,7 +19,7 @@ permalink: /news/arthritis/
 
 ### [Wait list for kidney hits 10-year high; NKF actively encouraging living donor transplants](https://www.straitstimes.com/singapore/health/wait-list-for-kidney-hits-10-year-high-nkf-actively-encouraging-living-donor-transplants)
 
-2026-10-16
+2026-10-17
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/wait-list-for-kidney-hits-10-year-high-nkf-actively-encouraging-living-donor-transplants)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/wait-list-
 
 ### [Beyond trial and error: Tailoring drug therapies to patients’ DNA](https://www.straitstimes.com/singapore/health/beyond-trial-and-error-tailoring-drug-therapies-to-patients-dna)
 
-2026-10-16
+2026-10-17
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/beyond-trial-and-error-tailoring-drug-therapies-to-patients-dna)
 
@@ -35,7 +35,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/beyond-tri
 
 ### [Always tripping or spraining your ankles? When ‘clumsiness’ could be a genetic nerve disorder](https://www.channelnewsasia.com/wellness/charcot-marie-tooth-tripping-weakness-6323596)
 
-2026-10-16
+2026-10-17
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/charcot-marie-tooth-tripping-weakness-6323596)
 
@@ -43,7 +43,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/charcot-marie-tooth-tripp
 
 ### [Is mouthwash bad for your oral health? Here's what the research found](https://www.channelnewsasia.com/wellness/mouthwash-oral-microbiome-harms-6360641)
 
-2026-10-16
+2026-10-17
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/mouthwash-oral-microbiome-harms-6360641)
 
@@ -51,7 +51,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/mouthwash-oral-microbiome
 
 ### [Brain fog isn’t just forgetfulness: What causes it? Is it linked to dementia? When should you worry?](https://www.channelnewsasia.com/wellness/brain-fog-causes-symptoms-sleep-stress-menopause-dengue-6420656)
 
-2026-10-16
+2026-10-17
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/brain-fog-causes-symptoms-sleep-stress-menopause-dengue-6420656)
 
@@ -59,7 +59,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/brain-fog-causes-symptoms
 
 ### [How drinking affects your dementia risk – and what studies say about moderate alcohol use](https://www.channelnewsasia.com/wellness/alcohol-dementia-risk-6424581)
 
-2026-10-16
+2026-10-17
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/alcohol-dementia-risk-6424581)
 
