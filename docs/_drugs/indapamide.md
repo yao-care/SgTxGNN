@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Indapamide: predicted new indication Chronic pulmonary heart disease (evidence level L5). Approved use: Hypertension and congestive heart failure"
 monitor_inn: "Indapamide"
-predicted_indications: ["chronic pulmonary heart disease", "malignant hypertensive renal disease", "acute pulmonary heart disease", "primary hereditary glaucoma", "open-angle glaucoma", "chronic kidney disease"]
+predicted_indications: ["chronic pulmonary heart disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "acute pulmonary heart disease", "primary hereditary glaucoma", "open-angle glaucoma", "chronic kidney disease"]
 ---
 
 # Indapamide

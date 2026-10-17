@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Methyldopa: predicted new indication Malignant renovascular hypertension (evidence level L4). Approved use: Hypertension / hypertensive disorder"
 monitor_inn: "Methyldopa"
-predicted_indications: ["malignant hypertensive renal disease", "chronic pulmonary heart disease", "congenital temporomandibular joint ankylosis", "polydipsia", "atrial flutter (disease)", "cholangiocarcinoma, susceptibility to"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "chronic pulmonary heart disease", "congenital temporomandibular joint ankylosis", "polydipsia", "atrial flutter (disease)", "cholangiocarcinoma, susceptibility to"]
 ---
 
 # Methyldopa

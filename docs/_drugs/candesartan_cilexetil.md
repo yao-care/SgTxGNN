@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Candesartan Cilexetil: predicted new indication Malignant renovascular hypertension (evidence level L5). Approved use: Hypertension"
 monitor_inn: "Candesartan cilexetil"
-predicted_indications: ["malignant hypertensive renal disease", "chronic pulmonary heart disease", "obsolete susceptibility to ischemic stroke", "brain stem infarction", "cerebrovascular disorder", "intracerebral hemorrhage"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "chronic pulmonary heart disease", "obsolete susceptibility to ischemic stroke", "brain stem infarction", "cerebrovascular disorder", "intracerebral hemorrhage"]
 ---
 
 # Candesartan Cilexetil
