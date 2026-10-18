@@ -13,13 +13,13 @@ permalink: /news/multiple-sclerosis/
 
 ---
 
-**2 articles** related to multiple sclerosis.
+**3 articles** related to multiple sclerosis.
 
 ---
 
 ### [Always tripping or spraining your ankles? When ‘clumsiness’ could be a genetic nerve disorder](https://www.channelnewsasia.com/wellness/charcot-marie-tooth-tripping-weakness-6323596)
 
-2026-10-17
+2026-10-18
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/charcot-marie-tooth-tripping-weakness-6323596)
 
@@ -27,9 +27,17 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/charcot-marie-tooth-tripp
 
 ### [How ADHD symptoms change from childhood through adulthood](https://www.channelnewsasia.com/wellness/adhd-symptoms-change-age-6381941)
 
-2026-10-17
+2026-10-18
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/adhd-symptoms-change-age-6381941)
+
+---
+
+### [5 gastrointestinal symptoms you should never ignore, according to doctors](https://www.channelnewsasia.com/wellness/gastrointestinal-symptoms-gut-health-6436716)
+
+2026-10-18
+
+Source: [CNA](https://www.channelnewsasia.com/wellness/gastrointestinal-symptoms-gut-health-6436716)
 
 ---
 

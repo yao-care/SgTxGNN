@@ -19,7 +19,7 @@ permalink: /news/depression/
 
 ### [ST’s senior health correspondent wins first media excellence award for championing mental health](https://www.straitstimes.com/singapore/health/sts-senior-health-correspondent-wins-first-media-excellence-award-for-championing-mental-health)
 
-2026-10-17
+2026-10-18
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/sts-senior-health-correspondent-wins-first-media-excellence-award-for-championing-mental-health)
 
