@@ -13,7 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**7 articles** related to arthritis.
+**9 articles** related to arthritis.
 
 ---
 
@@ -38,6 +38,22 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/beyond-tri
 2026-10-19
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/rare-condition-leaves-teens-nerves-without-protective-covering-slowing-nerve-signals)
+
+---
+
+### [Seniors with dementia use objects from the past to rekindle memories under NTUC Health programme](https://www.straitstimes.com/singapore/health/seniors-with-dementia-spark-memories-with-old-objects-like-vinyl-records-under-ntuc-health-programme)
+
+2026-10-19
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/seniors-with-dementia-spark-memories-with-old-objects-like-vinyl-records-under-ntuc-health-programme)
+
+---
+
+### [NUH offers precision brain stimulation to treat depression and anxiety](https://www.straitstimes.com/singapore/health/nuh-offers-precision-brain-stimulation-to-treat-depression-and-anxiety)
+
+2026-10-19
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/nuh-offers-precision-brain-stimulation-to-treat-depression-and-anxiety)
 
 ---
 

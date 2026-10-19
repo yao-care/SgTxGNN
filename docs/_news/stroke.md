@@ -13,7 +13,7 @@ permalink: /news/stroke/
 
 ---
 
-**3 articles** related to stroke.
+**4 articles** related to stroke.
 
 ---
 
@@ -22,6 +22,14 @@ permalink: /news/stroke/
 2026-10-19
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-steps-up-surveillance-of-three-infectious-diseases-from-oct-31)
+
+---
+
+### [Seniors with dementia use objects from the past to rekindle memories under NTUC Health programme](https://www.straitstimes.com/singapore/health/seniors-with-dementia-spark-memories-with-old-objects-like-vinyl-records-under-ntuc-health-programme)
+
+2026-10-19
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/seniors-with-dementia-spark-memories-with-old-objects-like-vinyl-records-under-ntuc-health-programme)
 
 ---
 
