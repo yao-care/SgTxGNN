@@ -13,15 +13,23 @@ permalink: /news/infectious-disease/
 
 ---
 
-**1 articles** related to infectious disease.
+**2 articles** related to infectious disease.
 
 ---
 
-### [Singapore to step up surveillance of three infectious diseases from Oct 31](https://www.straitstimes.com/singapore/health/singapore-steps-up-surveillance-of-three-infectious-diseases-from-oct-31)
+### [S’pore steps up surveillance of 3 potentially deadly infectious diseases](https://www.straitstimes.com/singapore/health/singapore-steps-up-surveillance-of-three-infectious-diseases-from-oct-31)
 
 2026-10-19
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-steps-up-surveillance-of-three-infectious-diseases-from-oct-31)
+
+---
+
+### [S’pore scientists developing treatment to target fluid that fuels cancer in abdominal lining](https://www.straitstimes.com/singapore/health/spore-scientists-developing-treatment-to-target-fluid-that-fuels-cancer-in-abdominal-lining)
+
+2026-10-19
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/spore-scientists-developing-treatment-to-target-fluid-that-fuels-cancer-in-abdominal-lining)
 
 ---
 

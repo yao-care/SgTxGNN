@@ -13,7 +13,15 @@ permalink: /news/cancer/
 
 ---
 
-**1 articles** related to cancer.
+**2 articles** related to cancer.
+
+---
+
+### [S’pore scientists developing treatment to target fluid that fuels cancer in abdominal lining](https://www.straitstimes.com/singapore/health/spore-scientists-developing-treatment-to-target-fluid-that-fuels-cancer-in-abdominal-lining)
+
+2026-10-19
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/spore-scientists-developing-treatment-to-target-fluid-that-fuels-cancer-in-abdominal-lining)
 
 ---
 
