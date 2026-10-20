@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Flunarizine: predicted new indication Migraine disorder (evidence level L5). Approved use: Not stated in the licence records (both approved indication fields ar…"
 monitor_inn: "Flunarizine"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "nephrogenic syndrome of inappropriate antidiuresis", "headache disorder", "migraine with or without aura, susceptibility to", "trigeminal autonomic cephalalgia", "atrophoderma vermiculata", "ulerythema ophryogenesis", "common cold", "insomnia (disease)"]
+predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "headache disorder", "trigeminal autonomic cephalalgia", "atrophoderma vermiculata", "ulerythema ophryogenesis", "common cold", "insomnia (disease)"]
 ---
 
 # Flunarizine
