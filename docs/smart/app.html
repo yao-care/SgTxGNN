@@ -216,19 +216,20 @@
         const SGTXGNN_FHIR_BASE = 'https://sgtxgnn.yao.care/fhir';
 
         // Sample repurposing data (in production, fetch from FHIR server)
+        // 2026-10-20：取自 SgTxGNN 藥物頁的實際預測（DL 分數 ≥ 0.99、已排除知識圖譜已知用途）
         const REPURPOSING_DATA = {
             'metformin': [
-                { indication: 'Polycystic Ovary Syndrome', source: 'TxGNN Deep Learning' },
-                { indication: 'Cancer Prevention', source: 'TxGNN Deep Learning' },
-            ],
-            'aspirin': [
-                { indication: 'Colorectal Cancer Prevention', source: 'TxGNN Deep Learning' },
+                { indication: 'Focal Stiff Limb Syndrome', source: 'TxGNN Deep Learning' },
+                { indication: 'Classic Stiff Person Syndrome', source: 'TxGNN Deep Learning' },
             ],
             'atorvastatin': [
-                { indication: 'Alzheimer Disease', source: 'TxGNN Deep Learning' },
+                { indication: 'Brain Stem Infarction', source: 'TxGNN Deep Learning' },
             ],
             'losartan': [
-                { indication: 'Marfan Syndrome', source: 'TxGNN Deep Learning' },
+                { indication: 'Malignant Hypertensive Renal Disease', source: 'TxGNN Deep Learning' },
+            ],
+            'lisinopril': [
+                { indication: 'Pulmonary Hypertension Owing to Lung Disease and/or Hypoxia', source: 'TxGNN Deep Learning' },
             ],
         };
 

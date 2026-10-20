@@ -11,21 +11,23 @@ permalink: /resources/case-studies/
 
 Example analyses demonstrating how to use SgTxGNN data for drug repurposing research.
 
+> **Note:** Case Studies 1–3 are illustrative discussions of repurposing hypotheses from the published literature. They are **not** SgTxGNN model output and carry no TxGNN score. Actual SgTxGNN predictions are deep-learning scores ≥ 0.99 with known uses (relations already recorded in the knowledge graph) excluded; see each drug page.
+
 ---
 
 ## Case Study 1: Metformin Beyond Diabetes
 
 ### Background
 
-Metformin is a first-line treatment for type 2 diabetes. SgTxGNN predictions suggest potential applications beyond glucose control.
+Metformin is a first-line treatment for type 2 diabetes. The literature discusses applications beyond glucose control.
 
-### SgTxGNN Predictions
+### Hypotheses discussed in the literature (illustrative)
 
-| Predicted Indication | Score |
+| Indication | Status |
 |---------------------|-------|
-| Polycystic ovary syndrome | 0.95 |
-| Colorectal cancer prevention | 0.89 |
-| Anti-aging | 0.76 |
+| Polycystic ovary syndrome | Known use (off-label), not a new prediction |
+| Colorectal cancer prevention | Hypothesis under investigation |
+| Anti-aging | Hypothesis under investigation |
 
 ### Evidence Review
 
@@ -41,7 +43,7 @@ Metformin is a first-line treatment for type 2 diabetes. SgTxGNN predictions sug
 
 ### Conclusion
 
-This case demonstrates how TxGNN predictions align with emerging clinical evidence. Metformin's pleiotropic effects make it a strong repurposing candidate.
+This case shows how a repurposing hypothesis can be checked against clinical evidence, and why known uses must be separated from new predictions. Metformin's pleiotropic effects make it a strong repurposing candidate.
 
 ---
 
@@ -49,14 +51,14 @@ This case demonstrates how TxGNN predictions align with emerging clinical eviden
 
 ### Background
 
-Aspirin is widely used for cardiovascular prevention. SgTxGNN suggests potential neurological applications.
+Aspirin is widely used for cardiovascular prevention. The literature has explored neurological applications.
 
-### SgTxGNN Predictions
+### Hypotheses discussed in the literature (illustrative)
 
-| Predicted Indication | Score |
+| Indication | Status |
 |---------------------|-------|
-| Alzheimer's disease | 0.82 |
-| Parkinson's disease | 0.71 |
+| Alzheimer's disease | Hypothesis; RCTs mixed |
+| Parkinson's disease | Hypothesis |
 
 ### Evidence Review
 
@@ -67,7 +69,7 @@ Aspirin is widely used for cardiovascular prevention. SgTxGNN suggests potential
 
 **Key Learning**
 
-High prediction scores don't guarantee clinical efficacy. Multiple failed trials highlight the importance of rigorous validation.
+A plausible hypothesis does not guarantee clinical efficacy. Multiple failed trials highlight the importance of rigorous validation.
 
 ### Conclusion
 
@@ -79,14 +81,14 @@ This case illustrates that even promising predictions require extensive validati
 
 ### Background
 
-Statins are primarily used for cholesterol management. SgTxGNN identifies potential antimicrobial applications.
+Statins are primarily used for cholesterol management. The literature has explored immunomodulatory and anti-infective applications.
 
-### SgTxGNN Predictions
+### Hypotheses discussed in the literature (illustrative)
 
-| Predicted Indication | Score |
+| Indication | Status |
 |---------------------|-------|
-| Sepsis | 0.78 |
-| Pneumonia outcomes | 0.72 |
+| Sepsis | Hypothesis; SAILS RCT showed no benefit |
+| Pneumonia outcomes | Hypothesis |
 
 ### Evidence Review
 
@@ -103,7 +105,7 @@ Statins are primarily used for cholesterol management. SgTxGNN identifies potent
 
 ### Conclusion
 
-Demonstrates the complexity of translating predictions to clinical practice. Context and patient selection are crucial.
+Demonstrates the complexity of translating hypotheses to clinical practice. Context and patient selection are crucial.
 
 ---
 
@@ -135,8 +137,8 @@ print(drug_preds[['disease_name', 'score', 'source']].head(10))
 ### Step 3: Prioritise for Investigation
 
 Focus on predictions that are:
-- **High confidence**: Score > 0.9
-- **Known use**: Source = KG+DL (already recorded in the knowledge graph)
+- **High confidence**: Score ≥ 0.99 (deep learning prediction)
+- **Not a known use**: exclude rows already recorded in the knowledge graph (Source = KG or KG+DL)
 - **Clinically plausible**: Has mechanistic rationale
 
 ### Step 4: Gather Evidence
