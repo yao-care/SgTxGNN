@@ -19,7 +19,7 @@ permalink: /news/infectious-disease/
 
 ### [S’pore steps up surveillance of 3 potentially deadly infectious diseases](https://www.straitstimes.com/singapore/health/singapore-steps-up-surveillance-of-three-infectious-diseases-from-oct-31)
 
-2026-10-19
+2026-10-20
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-steps-up-surveillance-of-three-infectious-diseases-from-oct-31)
 
@@ -27,7 +27,7 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-
 
 ### [S’pore scientists developing treatment to target fluid that fuels cancer in abdominal lining](https://www.straitstimes.com/singapore/health/spore-scientists-developing-treatment-to-target-fluid-that-fuels-cancer-in-abdominal-lining)
 
-2026-10-19
+2026-10-20
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/spore-scientists-developing-treatment-to-target-fluid-that-fuels-cancer-in-abdominal-lining)
 
