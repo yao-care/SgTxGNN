@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Rituximab: predicted new indication Follicular lymphoma (evidence level L1). Approved use: Rheumatoid arthritis, non-Hodgkin lymphoma…"
 monitor_inn: "Rituximab"
-predicted_indications: ["metastatic neoplasm", "malignant spiradenoma"]
+predicted_indications: ["metastatic neoplasm", "malignant spiradenoma", "small intestinal Burkitt lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma"]
 ---
 
 # Rituximab

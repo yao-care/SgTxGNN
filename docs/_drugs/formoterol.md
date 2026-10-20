@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Formoterol: predicted new indication Bronchitis (evidence level L5). Approved use: Pulmonary emphysema, intrinsic asthma, allergic asthma"
 monitor_inn: "Formoterol"
-predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
+predicted_indications: ["respiratory malformation", "bronchitis", "Rienhoff syndrome", "atopic eczema", "hyperlucent lung"]
 ---
 
 # Formoterol

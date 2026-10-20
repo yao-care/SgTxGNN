@@ -21,11 +21,11 @@ Metformin is a first-line treatment for type 2 diabetes. SgTxGNN predictions sug
 
 ### SgTxGNN Predictions
 
-| Predicted Indication | Score | Source |
-|---------------------|-------|--------|
-| Polycystic ovary syndrome | 0.95 | KG+DL |
-| Colorectal cancer prevention | 0.89 | DL |
-| Anti-aging | 0.76 | DL |
+| Predicted Indication | Score |
+|---------------------|-------|
+| Polycystic ovary syndrome | 0.95 |
+| Colorectal cancer prevention | 0.89 |
+| Anti-aging | 0.76 |
 
 ### Evidence Review
 
@@ -53,10 +53,10 @@ Aspirin is widely used for cardiovascular prevention. SgTxGNN suggests potential
 
 ### SgTxGNN Predictions
 
-| Predicted Indication | Score | Source |
-|---------------------|-------|--------|
-| Alzheimer's disease | 0.82 | KG |
-| Parkinson's disease | 0.71 | DL |
+| Predicted Indication | Score |
+|---------------------|-------|
+| Alzheimer's disease | 0.82 |
+| Parkinson's disease | 0.71 |
 
 ### Evidence Review
 
@@ -83,10 +83,10 @@ Statins are primarily used for cholesterol management. SgTxGNN identifies potent
 
 ### SgTxGNN Predictions
 
-| Predicted Indication | Score | Source |
-|---------------------|-------|--------|
-| Sepsis | 0.78 | KG+DL |
-| Pneumonia outcomes | 0.72 | DL |
+| Predicted Indication | Score |
+|---------------------|-------|
+| Sepsis | 0.78 |
+| Pneumonia outcomes | 0.72 |
 
 ### Evidence Review
 

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Potassium Citrate: predicted new indication Nephrolithiasis (evidence level L2). Approved use: Potassium deficiency disease"
 monitor_inn: "Potassium citrate"
-predicted_indications: ["familial visceral myopathy", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Pendred syndrome", "cystinosis", "hypermanganesemia with dystonia", "nephrolithiasis susceptibility caused by SLC26A1", "autosomal recessive nonsyndromic deafness", "exocrine pancreatic insufficiency", "leukocyte adhesion deficiency"]
+predicted_indications: ["familial visceral myopathy", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Pendred syndrome", "nephrolithiasis", "cystinosis", "hypermanganesemia with dystonia", "nephrolithiasis susceptibility caused by SLC26A1", "autosomal recessive nonsyndromic deafness", "exocrine pancreatic insufficiency", "leukocyte adhesion deficiency"]
 ---
 
 # Potassium Citrate

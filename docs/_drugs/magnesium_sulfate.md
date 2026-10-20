@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Magnesium Sulfate: predicted new indication Preeclampsia/Eclampsia (evidence level L1). Approved use: Constipation"
 monitor_inn: "Magnesium sulfate"
-predicted_indications: ["thrombotic disease", "pharyngitis", "nasal cavity disease", "psychotic disorder", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia", "treatment-refractory schizophrenia"]
+predicted_indications: ["preeclampsia/eclampsia", "toxemia of pregnancy", "thrombotic disease", "nasal cavity disease", "psychotic disorder", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia", "treatment-refractory schizophrenia"]
 ---
 
 # Magnesium Sulfate

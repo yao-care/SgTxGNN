@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Amitriptyline: predicted new indication Benign paroxysmal torticollis of infancy (evidence level L5). Approved use: Anxiety disorder, neurotic disorder, dysthymic disorder…"
 monitor_inn: "Amitriptyline"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "Ohdo syndrome and variants", "melancholia", "phobic disorder", "blepharophimosis - intellectual disability syndrome, Ohdo type"]
 ---
 
 # Amitriptyline

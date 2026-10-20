@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Cloxacillin: predicted new indication Chronic rhinosinusitis (evidence level L5). Approved use: Staphylococcus aureus infection, staphylococcal infection…"
 monitor_inn: "Cloxacillin"
-predicted_indications: ["paranasal sinus neoplasm (disease)", "epiglottitis", "bacterial arthritis", "laryngitis", "celiac trunk compression syndrome", "abdominal cystic lymphangioma", "abdominal ectopic pregnancy"]
+predicted_indications: ["chronic rhinosinusitis", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "epiglottitis", "bacterial arthritis", "laryngitis", "celiac trunk compression syndrome", "abdominal cystic lymphangioma", "abdominal ectopic pregnancy"]
 ---
 
 # Cloxacillin

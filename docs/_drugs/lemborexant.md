@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Lemborexant: predicted new indication Sleep disorder, initiating and maintaining sleep (evidence level L5). Approved use: Insomnia"
 monitor_inn: "Lemborexant"
-predicted_indications: ["sleep disorder, initiating and maintaining sleep", "acute encephalopathy with biphasic seizures and late reduced diffusion", "agoraphobia", "epilepsy, childhood absence, susceptibility to", "faciodigitogenital syndrome", "Wernicke-Korsakoff syndrome", "benign paroxysmal torticollis of infancy", "inherited prion disease", "attention deficit-hyperactivity disorder"]
+predicted_indications: ["acute encephalopathy with biphasic seizures and late reduced diffusion", "agoraphobia", "epilepsy, childhood absence, susceptibility to", "faciodigitogenital syndrome", "Wernicke-Korsakoff syndrome", "benign paroxysmal torticollis of infancy", "inherited prion disease", "attention deficit-hyperactivity disorder", "anxiety disorder"]
 ---
 
 # Lemborexant

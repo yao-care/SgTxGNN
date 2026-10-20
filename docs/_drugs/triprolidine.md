@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Triprolidine: predicted new indication Allergic urticaria (evidence level L4). Approved use: Allergic rhinitis (other listed indications: vasomotor rhinitis…"
 monitor_inn: "Triprolidine"
-predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic"]
+predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis"]
 ---
 
 # Triprolidine

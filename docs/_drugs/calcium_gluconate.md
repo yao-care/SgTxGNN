@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Calcium Gluconate: predicted new indication Calcium-alkali syndrome (evidence level L5). Approved use: Osteoporosis, postmenopausal osteoporosis, hypercalcemia disease…"
 monitor_inn: "Calcium gluconate"
-predicted_indications: ["calcium-alkali syndrome", "primary bone dysplasia with defective bone mineralization", "dyspepsia", "potassium deficiency disease", "duodenal ulcer (disease)", "duodenal obstruction", "hyperlipidemia", "urolithiasis", "duodenogastric reflux"]
+predicted_indications: ["calcium-alkali syndrome", "primary bone dysplasia with defective bone mineralization", "dyspepsia", "hypophosphatemia (disease)", "potassium deficiency disease", "duodenal ulcer (disease)", "duodenal obstruction", "hyperlipidemia", "urolithiasis", "duodenogastric reflux"]
 ---
 
 # Calcium Gluconate

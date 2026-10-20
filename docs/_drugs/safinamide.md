@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Safinamide: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Parkinson disease"
 monitor_inn: "Safinamide"
-predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration", "transaldolase deficiency", "fructose-1,6-bisphosphatase deficiency", "Lewy body dementia", "X-linked intellectual disability-ataxia-apraxia syndrome", "lethal infantile mitochondrial myopathy", "X-linked intellectual disability-cerebellar hypoplasia syndrome"]
+predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration", "transaldolase deficiency", "fructose-1,6-bisphosphatase deficiency", "paralysis agitans, juvenile, of Hunt", "Lewy body dementia", "X-linked intellectual disability-ataxia-apraxia syndrome", "lethal infantile mitochondrial myopathy", "X-linked intellectual disability-cerebellar hypoplasia syndrome"]
 ---
 
 # Safinamide

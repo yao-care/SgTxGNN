@@ -103,7 +103,7 @@ This platform integrates multiple authoritative public data sources including AI
 
 | Data Type | Source | Description |
 |-----------|--------|-------------|
-| AI Prediction | [TxGNN](https://zitniklab.hms.harvard.edu/projects/TxGNN/) | Harvard graph neural network model |
+| AI Prediction | [TxGNN](https://zitniklab.hms.harvard.edu/projects/TxGNN/) | Harvard graph neural network trained on a knowledge graph |
 | Clinical Trials | [ClinicalTrials.gov](https://clinicaltrials.gov/) | Global clinical trial registry |
 | Academic Literature | [PubMed](https://pubmed.ncbi.nlm.nih.gov/) | Biomedical literature database |
 | Drug Information | [DrugBank](https://go.drugbank.com/) | Drug and target database |

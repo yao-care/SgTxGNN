@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Posaconazole: predicted new indication Pneumocystosis (evidence level L4). Approved use: Invasive and superficial fungal infections (e.g., aspergillosis…"
 monitor_inn: "Posaconazole"
-predicted_indications: ["pneumocystosis", "leprosy", "multibacillary leprosy", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "isolated genetic hair shaft abnormality", "syndrome with a Dandy-Walker malformation as major feature", "hypertrichosis (disease)", "paucibacillary leprosy"]
+predicted_indications: ["pneumocystosis", "vulvovaginal candidiasis", "leprosy", "multibacillary leprosy", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "isolated genetic hair shaft abnormality", "syndrome with a Dandy-Walker malformation as major feature", "hypertrichosis (disease)", "paucibacillary leprosy"]
 ---
 
 # Posaconazole

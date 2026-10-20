@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Bezafibrate: predicted new indication Hypoalphalipoproteinemia (evidence level L4). Approved use: Hyperlipidemia, familial hyperlipidemia"
 monitor_inn: "Bezafibrate"
-predicted_indications: ["hypoalphalipoproteinemia", "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency", "cholesterol-ester transfer protein deficiency", "homozygous familial hypercholesterolemia", "obsolete susceptibility to ischemic stroke", "amenorrhea (disease)"]
+predicted_indications: ["hypoalphalipoproteinemia", "hyperlipidemia due to hepatic triglyceride lipase deficiency", "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency", "cholesterol-ester transfer protein deficiency", "homozygous familial hypercholesterolemia", "obsolete familial combined hyperlipidemia", "hyperlipoproteinemia", "obsolete susceptibility to ischemic stroke", "amenorrhea (disease)"]
 ---
 
 # Bezafibrate

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Sucralfate: predicted new indication Duodenogastric reflux (evidence level L5). Approved use: Duodenal ulcer"
 monitor_inn: "Sucralfate"
-predicted_indications: ["duodenogastric reflux", "duodenal obstruction", "esophagitis (disease)", "peptic esophagitis", "duodenitis", "C1 inhibitor deficiency"]
+predicted_indications: ["duodenogastric reflux", "duodenal obstruction", "esophagitis (disease)", "peptic esophagitis", "duodenitis", "gastroduodenitis", "C1 inhibitor deficiency"]
 ---
 
 # Sucralfate

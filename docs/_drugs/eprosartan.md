@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Eprosartan: predicted new indication Malignant renovascular hypertension (evidence level L5). Approved use: Hypertension (hypertensive disorder)"
 monitor_inn: "Eprosartan"
-predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "chronic pulmonary heart disease", "obsolete susceptibility to ischemic stroke", "ocular tuberculosis", "congenital temporomandibular joint ankylosis", "obsolete functional visual loss"]
+predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease", "obsolete susceptibility to ischemic stroke", "ocular tuberculosis", "congenital temporomandibular joint ankylosis", "obsolete functional visual loss"]
 ---
 
 # Eprosartan

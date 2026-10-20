@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Promethazine: predicted new indication Rosacea conjunctivitis (evidence level L5). Approved use: Vasomotor rhinitis, allergic rhinitis…"
 monitor_inn: "Promethazine"
-predicted_indications: ["recalcitrant atopic dermatitis"]
+predicted_indications: ["rosacea conjunctivitis", "recalcitrant atopic dermatitis", "Angelucci syndrome", "acute hemorrhagic conjunctivitis", "parasitic conjunctivitis", "chronic follicular conjunctivitis", "serous conjunctivitis except viral"]
 ---
 
 # Promethazine

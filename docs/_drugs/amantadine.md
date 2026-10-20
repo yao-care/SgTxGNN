@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Amantadine: predicted new indication Rasmussen subacute encephalitis (evidence level L5). Approved use: Parkinson disease and related parkinsonian disorders"
 monitor_inn: "Amantadine"
-predicted_indications: ["Rasmussen subacute encephalitis", "transaldolase deficiency", "myelitis", "PLA2G6-associated neurodegeneration", "fructose-1,6-bisphosphatase deficiency", "Lewy body dementia", "X-linked intellectual disability-ataxia-apraxia syndrome", "progressive supranuclear palsy-corticobasal syndrome", "X-linked intellectual disability-cerebellar hypoplasia syndrome"]
+predicted_indications: ["Rasmussen subacute encephalitis", "transaldolase deficiency", "myelitis", "PLA2G6-associated neurodegeneration", "fructose-1,6-bisphosphatase deficiency", "paralysis agitans, juvenile, of Hunt", "Lewy body dementia", "X-linked intellectual disability-ataxia-apraxia syndrome", "progressive supranuclear palsy-corticobasal syndrome", "X-linked intellectual disability-cerebellar hypoplasia syndrome"]
 ---
 
 # Amantadine

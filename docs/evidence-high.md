@@ -27,7 +27,7 @@ These predictions have the strongest clinical foundation and can be prioritized 
 
 ---
 
-## KG+DL Predictions (Known Uses)
+## KG+DL Pairs (Known Uses, Not New Predictions)
 
 The following pairs scored highly in Deep Learning and are also an indication or off-label use already recorded in the knowledge graph — a known use recovered by the model, not a new prediction:
 

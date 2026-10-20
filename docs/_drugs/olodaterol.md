@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Olodaterol: predicted new indication Bronchitis (evidence level L4). Approved use: Chronic obstructive pulmonary disease (COPD)"
 monitor_inn: "Olodaterol"
-predicted_indications: ["interstitial emphysema", "compensatory emphysema", "hyperlucent lung", "tracheal stenosis", "susceptibility to respiratory infections associated with CD8alpha chain mutation", "congenital lobar emphysema", "tracheal calcification", "respiratory malformation"]
+predicted_indications: ["bronchitis", "interstitial emphysema", "compensatory emphysema", "hyperlucent lung", "tracheal stenosis", "susceptibility to respiratory infections associated with CD8alpha chain mutation", "congenital lobar emphysema", "tracheal calcification", "respiratory malformation"]
 ---
 
 # Olodaterol

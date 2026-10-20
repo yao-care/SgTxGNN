@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Zanubrutinib: predicted new indication Myeloid leukemia (evidence level L4). Approved use: Mantle cell lymphoma, B-cell neoplasm, lymphosarcoma"
 monitor_inn: "Zanubrutinib"
-predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "Ewing sarcoma", "neuroblastoma", "lymphoma, non-Hodgkin, familial"]
+predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "Ewing sarcoma", "neuroblastoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive", "lymphoma, non-Hodgkin, familial", "acute lymphoblastic/lymphocytic leukemia"]
 ---
 
 # Zanubrutinib

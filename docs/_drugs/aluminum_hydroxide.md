@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Aluminum Hydroxide: predicted new indication Active peptic ulcer disease (evidence level L3). Approved use: Gastric ulcer, peptic ulcer disease, gastroesophageal reflux disease…"
 monitor_inn: "Aluminum hydroxide"
-predicted_indications: ["hiatus hernia (disease)", "achlorhydria", "pylorospasm", "gastric dilatation", "Dieulafoy lesion", "cascade stomach"]
+predicted_indications: ["gastroduodenitis", "hiatus hernia (disease)", "achlorhydria", "pylorospasm", "gastric dilatation", "Dieulafoy lesion", "cascade stomach"]
 ---
 
 # Aluminum Hydroxide

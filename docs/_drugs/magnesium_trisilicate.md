@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Magnesium Trisilicate: predicted new indication Active peptic ulcer disease (evidence level L3). Approved use: Peptic ulcer disease, gastroesophageal reflux disease, esophagitis…"
 monitor_inn: "Magnesium trisilicate"
-predicted_indications: ["gastroduodenitis", "duodenal obstruction", "gastroparesis (disease)", "hiatus hernia (disease)"]
+predicted_indications: ["gastroduodenitis", "stomach disease", "duodenal obstruction", "gastroparesis (disease)", "hiatus hernia (disease)"]
 ---
 
 # Magnesium Trisilicate

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Warfarin: predicted new indication Top-ranked: heparin cofactor 2 deficiency. Best-supported: thrombophi… (evidence level L5). Approved use: Pulmonary embolism, thrombotic disease, intracranial embol…"
 monitor_inn: "Warfarin"
-predicted_indications: ["heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "thrombophilia", "rheumatoid arthritis", "breast fibrocystic disease", "benign mammary dysplasia", "apocrine adenosis of breast", "blunt duct adenosis of breast", "migraine disorder"]
+predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "rheumatoid arthritis", "breast fibrocystic disease", "benign mammary dysplasia", "apocrine adenosis of breast", "blunt duct adenosis of breast", "migraine disorder"]
 ---
 
 # Warfarin

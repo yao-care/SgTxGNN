@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tolnaftate: predicted new indication Ectothrix infectious disease . Superficial mycosis is the best-suppor… (evidence level L5). Approved use: Tinea pedis, tinea corporis, tinea manuum, tinea barbae…"
 monitor_inn: "Tolnaftate"
-predicted_indications: ["ectothrix infectious disease", "Majocchi granuloma", "endothrix infectious disease", "ophthalmic herpes zoster", "orbital cellulitis", "infectious mononucleosis"]
+predicted_indications: ["ectothrix infectious disease", "Majocchi granuloma", "endothrix infectious disease", "ophthalmic herpes zoster", "orbital cellulitis", "skin disease caused by infection", "infectious mononucleosis"]
 ---
 
 # Tolnaftate

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Venlafaxine: predicted new indication Ohdo syndrome and variants (evidence level L5). Approved use: Depression and anxiety disorders"
 monitor_inn: "Venlafaxine"
-predicted_indications: ["Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy", "childhood apraxia of speech"]
+predicted_indications: ["Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy", "dysthymic disorder", "melancholia", "childhood apraxia of speech", "obsessive-compulsive disorder", "agoraphobia"]
 ---
 
 # Venlafaxine

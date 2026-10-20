@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Vonoprazan: predicted new indication Active peptic ulcer disease (evidence level L5). Approved use: Gastric ulcer, duodenal ulcer, esophagitis, peptic esophagitis…"
 monitor_inn: "Vonoprazan"
-predicted_indications: ["hiatus hernia (disease)", "achlorhydria", "gastric dilatation", "cascade stomach", "pylorospasm", "Dieulafoy lesion", "hemorrhagic duodenitis"]
+predicted_indications: ["peptic ulcer perforation", "hiatus hernia (disease)", "achlorhydria", "gastric dilatation", "cascade stomach", "pylorospasm", "Dieulafoy lesion", "hemorrhagic duodenitis"]
 ---
 
 # Vonoprazan
