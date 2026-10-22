@@ -13,15 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**8 articles** related to arthritis.
-
----
-
-### [Beyond trial and error: Tailoring drug therapies to patients’ DNA](https://www.straitstimes.com/singapore/health/beyond-trial-and-error-tailoring-drug-therapies-to-patients-dna)
-
-2026-10-22
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/beyond-trial-and-error-tailoring-drug-therapies-to-patients-dna)
+**7 articles** related to arthritis.
 
 ---
 
