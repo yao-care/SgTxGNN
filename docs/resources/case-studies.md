@@ -137,7 +137,7 @@ print(drug_preds[['disease_name', 'score', 'source']].head(10))
 ### Step 3: Prioritise for Investigation
 
 Focus on predictions that are:
-- **High confidence**: Score ≥ 0.99 (deep learning prediction)
+- **Listed on the site**: Score ≥ 0.99 (deep learning prediction)
 - **Not a known use**: exclude rows already recorded in the knowledge graph (Source = KG or KG+DL)
 - **Clinically plausible**: Has mechanistic rationale
 
@@ -154,7 +154,7 @@ For each high-priority prediction:
 
 ### For Researchers
 
-1. **Start with high-confidence predictions**
+1. **Start with predictions that have the strongest evidence level (L1–L3)**
 2. **Verify mechanistic plausibility**
 3. **Check for existing clinical evidence**
 4. **Consider safety profile for new indication**

@@ -17,7 +17,7 @@ Download SgTxGNN datasets for research use.
 
 ### Unified Predictions
 
-All drug repurposing predictions with source and confidence information.
+All drug repurposing predictions with source and model score.
 
 | File | Format | Size | Records |
 |------|--------|------|---------|
@@ -27,7 +27,7 @@ All drug repurposing predictions with source and confidence information.
 - `drugbank_id`: DrugBank identifier
 - `drug_name`: Generic drug name
 - `disease_name`: Disease (predicted or known use, see `source`)
-- `score`: Confidence score (0-1)
+- `score`: Model score (0-1); a ranking value, not a probability
 - `source`: KG = known use in the knowledge graph; DL = model prediction; KG+DL = known use also scored by DL
 
 ### Drug List

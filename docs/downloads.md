@@ -38,7 +38,7 @@ Candidate table combining deep learning (DL) predictions with known uses from th
 | `drugbank_id` | string | DrugBank identifier (e.g., DB00945) |
 | `drug_name` | string | Drug generic name |
 | `disease_name` | string | Disease (predicted or known use, see `source`) |
-| `score` | float | DL confidence score (0.5-1.0, null for KG-only) |
+| `score` | float | DL model score (0.5-1.0, null for KG-only); a ranking value, not a probability |
 | `source` | string | KG = known use in the knowledge graph; DL = model prediction; KG+DL = known use also scored by DL |
 
 ### Example Rows

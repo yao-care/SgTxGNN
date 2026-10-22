@@ -29,7 +29,7 @@ These predictions have supporting evidence but need additional clinical validati
 
 ## High-Score Predictions (DL > 0.99)
 
-The following predictions have very high deep learning confidence scores:
+The following predictions scored 0.99 or higher in the deep learning model (the score is a ranking value, not a probability):
 
 <div id="medium-evidence-list">
   Loading medium evidence drugs...

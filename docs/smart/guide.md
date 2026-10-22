@@ -69,7 +69,7 @@ For medications with predictions:
 ### Special Indicators
 
 - **KG+DL**: Also an indication or off-label use already recorded in the knowledge graph — a known use recovered by the model, not a new prediction (DL also scored it highly)
-- **High Score (>0.99)**: Very strong model confidence
+- **Score ≥0.99**: Listed on the site; the score is a ranking value inside the model, not a probability
 
 ---
 

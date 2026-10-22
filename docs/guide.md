@@ -58,7 +58,7 @@ Quickly understand the core content:
 |-------|-------------|
 | Original Indication | Drug's currently approved use |
 | Predicted New Indication | TxGNN's predicted new use |
-| TxGNN Prediction Score | AI confidence level (higher = more confident) |
+| TxGNN Prediction Score | Ranking value inside the model (the site only lists ≥0.99); not a probability |
 | Evidence Level | L1-L5, see above |
 | Singapore Registration | Whether registered with HSA |
 | Recommendation | Go / Proceed / Consider / Explore / Hold |
@@ -144,10 +144,10 @@ Summarizes the recommendation and explains:
 
 ### Q: Is a higher prediction score always better?
 
-**Generally yes.** Prediction score reflects AI model confidence:
-- Above 99.9%: Very confident
-- 99.0-99.9%: Confident
-- But high prediction score ≠ high clinical evidence
+**Not necessarily.** The prediction score is a ranking value inside the model, not a probability:
+- The site only lists predictions scoring ≥0.99, up to the top 10 per drug
+- Differences between scores above 0.99 do not mean one prediction is more likely to work
+- Use the evidence level (L1–L5) to judge the strength of evidence
 
 ### Q: How often are reports updated?
 

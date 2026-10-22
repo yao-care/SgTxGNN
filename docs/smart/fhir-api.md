@@ -208,7 +208,7 @@ Type: decimal
 Range: 0.0 - 1.0
 ```
 
-Deep learning confidence score.
+Deep learning model score: a ranking value inside the model, not a probability.
 
 ---
 

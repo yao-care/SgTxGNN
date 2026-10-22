@@ -108,7 +108,7 @@ define "Recent Medications":
 ### Conditional Logic
 
 ```cql
-define "Risk Level":
+define "Site Listing Status":
   if Score >= 0.99 then 'Listed on site'
   else 'Not listed'
 ```

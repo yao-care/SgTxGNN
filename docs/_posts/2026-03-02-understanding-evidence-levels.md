@@ -61,9 +61,9 @@ AI prediction without clinical validation:
 
 Pairs that Deep Learning scored highly and that are already recorded in the knowledge graph as an indication or off-label use. They are known uses recovered by the model, not new predictions.
 
-### High Score (>0.99)
+### Score threshold (≥0.99)
 
-Deep Learning predictions with confidence scores above 99% indicate very strong model certainty, though this doesn't guarantee clinical validity.
+The site only lists Deep Learning predictions scoring 0.99 or higher. The score is a ranking value inside the model, not a probability, and it says nothing about clinical validity.
 
 ## How to Use This Information
 

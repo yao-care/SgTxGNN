@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <tr>
               <td><span class="badge dl">DL</span></td>
               <td>${data.counts?.dl || 0}</td>
-              <td>Deep learning prediction with confidence score</td>
+              <td>Deep learning prediction with model score</td>
             </tr>
             <tr>
               <td><span class="badge kg">KG</span></td>
