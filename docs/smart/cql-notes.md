@@ -109,9 +109,8 @@ define "Recent Medications":
 
 ```cql
 define "Risk Level":
-  if Score > 0.9 then 'High'
-  else if Score > 0.5 then 'Medium'
-  else 'Low'
+  if Score >= 0.99 then 'Listed on site'
+  else 'Not listed'
 ```
 
 ### Null Handling
