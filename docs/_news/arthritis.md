@@ -13,15 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**9 articles** related to arthritis.
-
----
-
-### [Wait list for kidney hits 10-year high; NKF actively encouraging living donor transplants](https://www.straitstimes.com/singapore/health/wait-list-for-kidney-hits-10-year-high-nkf-actively-encouraging-living-donor-transplants)
-
-2026-10-22
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/wait-list-for-kidney-hits-10-year-high-nkf-actively-encouraging-living-donor-transplants)
+**8 articles** related to arthritis.
 
 ---
 

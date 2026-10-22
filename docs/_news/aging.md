@@ -13,15 +13,7 @@ permalink: /news/aging/
 
 ---
 
-**3 articles** related to aging.
-
----
-
-### [Wait list for kidney hits 10-year high; NKF actively encouraging living donor transplants](https://www.straitstimes.com/singapore/health/wait-list-for-kidney-hits-10-year-high-nkf-actively-encouraging-living-donor-transplants)
-
-2026-10-22
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/wait-list-for-kidney-hits-10-year-high-nkf-actively-encouraging-living-donor-transplants)
+**2 articles** related to aging.
 
 ---
 
