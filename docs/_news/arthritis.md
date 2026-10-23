@@ -13,7 +13,15 @@ permalink: /news/arthritis/
 
 ---
 
-**7 articles** related to arthritis.
+**8 articles** related to arthritis.
+
+---
+
+### [Singapore haze: Air quality in west and central hits unhealthy range as PM2.5 readings rise islandwide](https://www.todayonline.com/singapore/haze-psi-pm25-oct-23-6484486)
+
+2026-10-23
+
+Source: [TODAY](https://www.todayonline.com/singapore/haze-psi-pm25-oct-23-6484486)
 
 ---
 

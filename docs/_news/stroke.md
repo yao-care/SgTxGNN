@@ -13,15 +13,7 @@ permalink: /news/stroke/
 
 ---
 
-**4 articles** related to stroke.
-
----
-
-### [S’pore steps up surveillance of 3 potentially deadly infectious diseases](https://www.straitstimes.com/singapore/health/singapore-steps-up-surveillance-of-three-infectious-diseases-from-oct-31)
-
-2026-10-23
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/singapore-steps-up-surveillance-of-three-infectious-diseases-from-oct-31)
+**3 articles** related to stroke.
 
 ---
 
