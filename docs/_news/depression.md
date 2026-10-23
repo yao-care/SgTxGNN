@@ -19,7 +19,7 @@ permalink: /news/depression/
 
 ### [NUH offers precision brain stimulation to treat depression and anxiety](https://www.straitstimes.com/singapore/health/nuh-offers-precision-brain-stimulation-to-treat-depression-and-anxiety)
 
-2026-10-22
+2026-10-23
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/nuh-offers-precision-brain-stimulation-to-treat-depression-and-anxiety)
 
