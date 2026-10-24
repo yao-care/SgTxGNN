@@ -21,7 +21,7 @@ How to read and use validation reports
 
 - Use the **search function** in the top right corner
 - Or browse from the [Drug List](/drugs/)
-- Or filter by [Evidence Level](/evidence-high/)
+- Or filter by Evidence Level: [High](/evidence-high/), [Medium](/evidence-medium/), [Low](/evidence-low/)
 
 ### 2. Check Evidence Level
 
@@ -34,6 +34,8 @@ Each drug has an evidence level (L1-L5):
 | **L3** | Observational studies | ⭐⭐⭐ |
 | **L4** | Preclinical/mechanistic studies | ⭐⭐ |
 | **L5** | AI prediction only | ⭐ |
+
+See the [Methodology](/methodology/) page for how levels are assigned, and [Data Sources](/sources/) for the registries and trial databases behind them.
 
 ### 3. Read the Full Report
 
