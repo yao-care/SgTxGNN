@@ -13,13 +13,21 @@ permalink: /news/depression/
 
 ---
 
-**1 articles** related to depression.
+**2 articles** related to depression.
+
+---
+
+### [Mental Health Matters: How to stop a pastime from becoming an unhealthy obsession](https://www.todayonline.com/cna-insider/mental-health-matters/hobbies-exercise-obsession-unhappy-disappointed-6485681)
+
+2026-10-25
+
+Source: [TODAY](https://www.todayonline.com/cna-insider/mental-health-matters/hobbies-exercise-obsession-unhappy-disappointed-6485681)
 
 ---
 
 ### [NUH offers precision brain stimulation to treat depression and anxiety](https://www.straitstimes.com/singapore/health/nuh-offers-precision-brain-stimulation-to-treat-depression-and-anxiety)
 
-2026-10-24
+2026-10-25
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/nuh-offers-precision-brain-stimulation-to-treat-depression-and-anxiety)
 
