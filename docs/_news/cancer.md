@@ -13,7 +13,15 @@ permalink: /news/cancer/
 
 ---
 
-**1 articles** related to cancer.
+**2 articles** related to cancer.
+
+---
+
+### [New blood test could help flag risk of condition that leads to liver failure, cancer](https://www.straitstimes.com/singapore/health/new-blood-test-could-help-prevent-condition-that-leads-to-liver-failure-cancer)
+
+2026-10-25
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/new-blood-test-could-help-prevent-condition-that-leads-to-liver-failure-cancer)
 
 ---
 

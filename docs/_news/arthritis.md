@@ -13,15 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**6 articles** related to arthritis.
-
----
-
-### [NUH offers precision brain stimulation to treat depression and anxiety](https://www.straitstimes.com/singapore/health/nuh-offers-precision-brain-stimulation-to-treat-depression-and-anxiety)
-
-2026-10-25
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/nuh-offers-precision-brain-stimulation-to-treat-depression-and-anxiety)
+**5 articles** related to arthritis.
 
 ---
 
