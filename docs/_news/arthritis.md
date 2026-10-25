@@ -13,7 +13,7 @@ permalink: /news/arthritis/
 
 ---
 
-**5 articles** related to arthritis.
+**6 articles** related to arthritis.
 
 ---
 
@@ -30,6 +30,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/need-help-
 2026-10-25
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/rare-disorder-and-low-muscle-tone-cannot-dampen-teens-swimming-passion)
+
+---
+
+### [Nursing home staff to be trained in end-of-life care under Dover Park Hospice, NTUC Health tie](https://www.straitstimes.com/singapore/health/nursing-home-staff-to-be-trained-in-end-of-life-care-under-dover-park-hospice-ntuc-health-tie-up)
+
+2026-10-25
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/nursing-home-staff-to-be-trained-in-end-of-life-care-under-dover-park-hospice-ntuc-health-tie-up)
 
 ---
 
