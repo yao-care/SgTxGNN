@@ -19,7 +19,7 @@ permalink: /news/multiple-sclerosis/
 
 ### [How ADHD symptoms change from childhood through adulthood](https://www.channelnewsasia.com/wellness/adhd-symptoms-change-age-6381941)
 
-2026-10-25
+2026-10-26
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/adhd-symptoms-change-age-6381941)
 
@@ -27,7 +27,7 @@ Source: [CNA](https://www.channelnewsasia.com/wellness/adhd-symptoms-change-age-
 
 ### [5 gastrointestinal symptoms you should never ignore, according to doctors](https://www.channelnewsasia.com/wellness/gastrointestinal-symptoms-gut-health-6436716)
 
-2026-10-25
+2026-10-26
 
 Source: [CNA](https://www.channelnewsasia.com/wellness/gastrointestinal-symptoms-gut-health-6436716)
 
