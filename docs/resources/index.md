@@ -32,7 +32,7 @@ Data sources, downloads, and research materials
 | File | Format | Description |
 |------|--------|-------------|
 | [Unified Predictions]({{ '/data/unified_predictions.csv' | relative_url }}) | CSV | All 31,543 predictions |
-| [Drug List]({{ '/data/drugs.json' | relative_url }}) | JSON | 745 drugs with metadata |
+| [Drug List]({{ '/data/drugs.json' | relative_url }}) | JSON | {{ site.data.drug_stats.total_drugs }} drugs with metadata |
 | [Search Index]({{ '/data/search-index.json' | relative_url }}) | JSON | Full searchable index |
 
 ### FHIR Resources
