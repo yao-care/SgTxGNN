@@ -259,8 +259,17 @@ def generate_news_pages(matched_news: list[dict]):
                 indication_news[name].append(item)
 
     # Generate drug news pages
+    back_links = {}  # 藥物頁網址 -> [{url, title, count}]
     for drug_name, items in drug_news.items():
         generate_drug_news_page(drug_name, items)
+        u = drug_page_url(drug_name)
+        if u:
+            back_links.setdefault(u, []).append({"url": f"/news/{slugify(drug_name)}/", "title": f"{drug_name} News", "count": len(items)})
+
+    # 2026-10-27：藥物頁「相關新聞」回連，docs/_includes/footer_custom.html 讀這份；只收可收錄的藥物頁
+    (DOCS_DIR / "_data").mkdir(parents=True, exist_ok=True)
+    with open(DOCS_DIR / "_data" / "drug_news.json", "w", encoding="utf-8") as f:
+        json.dump(dict(sorted(back_links.items())), f, ensure_ascii=False, indent=2)
 
     # Generate indication news pages
     for ind_name, items in indication_news.items():
@@ -289,6 +298,13 @@ permalink: /news/{slug}/
 ---
 
 **{len(news_items)} articles** related to {drug_name}.
+
+---
+
+"""
+    u = drug_page_url(drug_name)
+    if u:
+        content += f"""[View the full drug report →]({{{{ '{u}' | relative_url }}}})
 
 ---
 
@@ -406,6 +422,11 @@ def drug_url(slug):
             _DRUG_URLS.setdefault(f.stem.lower(), url)
     s = str(slug or "")
     return _DRUG_URLS.get(s) or _DRUG_URLS.get(s.lower())
+
+
+def drug_page_url(drug_name):
+    """新聞比對到的藥名 → 藥物頁網址（與 _index_kw 同規則）。"""
+    return drug_url(re.sub(r"[\W_]+", "_", str(drug_name)).strip("_"))
 
 
 def drug_url_slug(slug):
