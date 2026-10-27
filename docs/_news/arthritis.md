@@ -13,7 +13,15 @@ permalink: /news/arthritis/
 
 ---
 
-**6 articles** related to arthritis.
+**7 articles** related to arthritis.
+
+---
+
+### [Need help getting out of a chair? It could be an early sign of frailty](https://www.straitstimes.com/singapore/health/need-help-getting-out-of-a-chair-it-could-be-an-early-sign-of-frailty)
+
+2026-10-27
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/need-help-getting-out-of-a-chair-it-could-be-an-early-sign-of-frailty)
 
 ---
 
