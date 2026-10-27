@@ -17,14 +17,6 @@ permalink: /news/arthritis/
 
 ---
 
-### [Need help getting out of a chair? It could be an early sign of frailty](https://www.straitstimes.com/singapore/health/need-help-getting-out-of-a-chair-it-could-be-an-early-sign-of-frailty)
-
-2026-10-27
-
-Source: [Straits Times](https://www.straitstimes.com/singapore/health/need-help-getting-out-of-a-chair-it-could-be-an-early-sign-of-frailty)
-
----
-
 ### [Rare disorder and low muscle tone cannot dampen teen’s swimming passion](https://www.straitstimes.com/singapore/health/rare-disorder-and-low-muscle-tone-cannot-dampen-teens-swimming-passion)
 
 2026-10-27
@@ -38,6 +30,14 @@ Source: [Straits Times](https://www.straitstimes.com/singapore/health/rare-disor
 2026-10-27
 
 Source: [Straits Times](https://www.straitstimes.com/singapore/health/nursing-home-staff-to-be-trained-in-end-of-life-care-under-dover-park-hospice-ntuc-health-tie-up)
+
+---
+
+### [SKH, NUH save over $1.1m in annual energy costs with innovations in operating theatres](https://www.straitstimes.com/singapore/health/skh-nuh-save-more-1-1m-in-annual-energy-costs-with-innovations-in-operating-theatres)
+
+2026-10-27
+
+Source: [Straits Times](https://www.straitstimes.com/singapore/health/skh-nuh-save-more-1-1m-in-annual-energy-costs-with-innovations-in-operating-theatres)
 
 ---
 
