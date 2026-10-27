@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Erdafitinib: From Its Registered Use to Pulmonary Hypertension
+## Erdafitinib: From Its Registered Use to Pulmonary Hypertension
+{: .text-alpha }
 
 ## One-Sentence Summary
 

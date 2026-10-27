@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Filgotinib: From Its Marketed Use (JAK1 Inhibition) to HER2-Positive Breast Carcinoma
+## Filgotinib: From Its Marketed Use (JAK1 Inhibition) to HER2-Positive Breast Carcinoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

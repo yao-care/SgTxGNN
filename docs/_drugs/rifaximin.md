@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Rifaximin: From Hepatic Encephalopathy to Oral Candidiasis
+## Rifaximin: From Hepatic Encephalopathy to Oral Candidiasis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

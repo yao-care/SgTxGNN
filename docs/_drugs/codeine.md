@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Codeine: From Cough, Cold and Headache to Nasal Cavity Disease
+## Codeine: From Cough, Cold and Headache to Nasal Cavity Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

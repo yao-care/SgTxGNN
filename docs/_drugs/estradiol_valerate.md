@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Estradiol Valerate: From Primary Ovarian Failure to Symptomatic Fragile X Syndrome in Female Carriers
+## Estradiol Valerate: From Primary Ovarian Failure to Symptomatic Fragile X Syndrome in Female Carriers
+{: .text-alpha }
 
 ## One-Sentence Summary
 

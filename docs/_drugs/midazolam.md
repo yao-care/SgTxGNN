@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Midazolam: From Anxiety to Insomnia
+## Midazolam: From Anxiety to Insomnia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

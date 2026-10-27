@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Distigmine: From Myasthenia Gravis to Myasthenia Gravis with Thymus Hyperplasia
+## Distigmine: From Myasthenia Gravis to Myasthenia Gravis with Thymus Hyperplasia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

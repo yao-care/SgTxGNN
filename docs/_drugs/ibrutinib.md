@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ibrutinib: From B-Cell Malignancies to Polyclonal Hypergammaglobulinemia
+## Ibrutinib: From B-Cell Malignancies to Polyclonal Hypergammaglobulinemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cinacalcet: From Hyperparathyroidism to Nephrogenic Syndrome of Inappropriate Antidiuresis
+## Cinacalcet: From Hyperparathyroidism to Nephrogenic Syndrome of Inappropriate Antidiuresis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

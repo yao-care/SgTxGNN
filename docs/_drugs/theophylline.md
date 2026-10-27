@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Theophylline: From Asthma and Chronic Lung Disease to Thrombotic Disease
+## Theophylline: From Asthma and Chronic Lung Disease to Thrombotic Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

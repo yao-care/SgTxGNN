@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Potassium Bicarbonate: From Peptic Ulcer Disease to Gastroduodenitis
+## Potassium Bicarbonate: From Peptic Ulcer Disease to Gastroduodenitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

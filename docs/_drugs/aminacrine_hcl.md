@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# AMINACRINE HCL: Evaluation Pending — No Repurposing Prediction Available
+## AMINACRINE HCL: Evaluation Pending — No Repurposing Prediction Available
+{: .text-alpha }
 
 ## One-Sentence Summary
 

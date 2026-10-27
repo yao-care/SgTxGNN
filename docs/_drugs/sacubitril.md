@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Sacubitril: From Heart Failure Therapy to Diabetic Nephropathy
+## Sacubitril: From Heart Failure Therapy to Diabetic Nephropathy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

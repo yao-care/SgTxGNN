@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Moroctocog alfa: From Hemophilia to Primary Release Disorder of Platelets
+## Moroctocog alfa: From Hemophilia to Primary Release Disorder of Platelets
+{: .text-alpha }
 
 ## One-Sentence Summary
 

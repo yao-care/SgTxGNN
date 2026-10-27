@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Sultamicillin: From Bacterial Infections (Indication Text Not Recorded) to Bronchitis
+## Sultamicillin: From Bacterial Infections (Indication Text Not Recorded) to Bronchitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

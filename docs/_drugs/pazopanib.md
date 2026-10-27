@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pazopanib: From Renal Cell Carcinoma and Soft Tissue Sarcoma to Renal Cell Carcinoma (Xp11.2/TFE3 Translocation Subtype)
+## Pazopanib: From Renal Cell Carcinoma and Soft Tissue Sarcoma to Renal Cell Carcinoma (Xp11.2/TFE3 Translocation Subtype)
+{: .text-alpha }
 
 The prompt says to use predicted_indications[0] as the primary prediction. That entry (Xp11.2/TFE3 RCC) has no trials or literature. The data compiled for this report also contain better-supported candidates, namely liposarcoma, fibroblastic neoplasm, dermatofibrosarcoma protuberans (DFSP) and unclassified RCC. These are summarised after the main sections so the primary entry is not misrepresented.
 

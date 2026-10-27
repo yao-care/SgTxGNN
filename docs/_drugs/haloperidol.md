@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Haloperidol: From Schizophrenia to Congenital Disorder of Glycosylation with Defective Fucosylation
+## Haloperidol: From Schizophrenia to Congenital Disorder of Glycosylation with Defective Fucosylation
+{: .text-alpha }
 
 ## One-Sentence Summary
 

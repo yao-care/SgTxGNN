@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Ephedrine: From Allergic Rhinitis to Nasal Cavity Disease
+## Ephedrine: From Allergic Rhinitis to Nasal Cavity Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

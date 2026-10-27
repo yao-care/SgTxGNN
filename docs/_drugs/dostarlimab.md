@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dostarlimab: From Mismatch Repair-Deficient Solid Tumours to Tendinopathy
+## Dostarlimab: From Mismatch Repair-Deficient Solid Tumours to Tendinopathy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

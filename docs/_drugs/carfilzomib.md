@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Carfilzomib: From Plasma Cell Myeloma to Melanoma
+## Carfilzomib: From Plasma Cell Myeloma to Melanoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

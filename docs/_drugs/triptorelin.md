@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Triptorelin: From Gonadal Hormone Suppression (GnRH Agonist Therapy) to Hypertrichosis
+## Triptorelin: From Gonadal Hormone Suppression (GnRH Agonist Therapy) to Hypertrichosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

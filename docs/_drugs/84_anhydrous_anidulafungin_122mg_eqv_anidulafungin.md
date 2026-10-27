@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Anidulafungin: Insufficient Data for Repurposing Evaluation
+## Anidulafungin: Insufficient Data for Repurposing Evaluation
+{: .text-alpha }
 
 ## One-Sentence Summary
 

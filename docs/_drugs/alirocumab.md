@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Alirocumab: From Dyslipidaemia and Atherosclerosis to X-linked Ichthyosis (without Steroid Sulfatase Deficiency)
+## Alirocumab: From Dyslipidaemia and Atherosclerosis to X-linked Ichthyosis (without Steroid Sulfatase Deficiency)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

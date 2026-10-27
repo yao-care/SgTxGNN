@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Thiamine: From Nutritional Supplementation to Hyperthyroidism
+## Thiamine: From Nutritional Supplementation to Hyperthyroidism
+{: .text-alpha }
 
 ## One-Sentence Summary
 

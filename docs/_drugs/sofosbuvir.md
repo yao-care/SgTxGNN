@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sofosbuvir: From Hepatitis C Virus Infection to Hepatitis B Virus Infection
+## Sofosbuvir: From Hepatitis C Virus Infection to Hepatitis B Virus Infection
+{: .text-alpha }
 
 ## One-Sentence Summary
 

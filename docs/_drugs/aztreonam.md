@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Aztreonam: From Urinary Tract Infection to Hyperamylasemia
+## Aztreonam: From Urinary Tract Infection to Hyperamylasemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

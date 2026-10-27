@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sulpiride: From Schizophrenia to Retinal Dystrophy with or without Extraocular Anomalies
+## Sulpiride: From Schizophrenia to Retinal Dystrophy with or without Extraocular Anomalies
+{: .text-alpha }
 
 ## One-Sentence Summary
 

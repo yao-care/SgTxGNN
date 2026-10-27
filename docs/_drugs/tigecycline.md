@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Tigecycline: From Streptococcal Pneumonia to Disorder of Tyrosine Metabolism
+## Tigecycline: From Streptococcal Pneumonia to Disorder of Tyrosine Metabolism
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Estradiol: From Primary Ovarian Failure and Menopausal Conditions to Symptomatic Fragile X Syndrome in Female Carriers
+## Estradiol: From Primary Ovarian Failure and Menopausal Conditions to Symptomatic Fragile X Syndrome in Female Carriers
+{: .text-alpha }
 
 ## One-Sentence Summary
 

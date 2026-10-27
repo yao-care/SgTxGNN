@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Aflibercept: From Metastatic Colorectal Cancer and Retinal Vascular Disease to Esotropia
+## Aflibercept: From Metastatic Colorectal Cancer and Retinal Vascular Disease to Esotropia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

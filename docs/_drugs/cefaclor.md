@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Cefaclor: From Bacterial Infections to Gonococcal Urethritis
+## Cefaclor: From Bacterial Infections to Gonococcal Urethritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

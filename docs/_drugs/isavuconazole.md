@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Isavuconazole: From Invasive Fungal Infection (Azole Antifungal) to Migraine Disorder
+## Isavuconazole: From Invasive Fungal Infection (Azole Antifungal) to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

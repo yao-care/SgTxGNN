@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ropivacaine: From Local Anaesthesia to Migraine Disorder
+## Ropivacaine: From Local Anaesthesia to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

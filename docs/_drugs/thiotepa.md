@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Thiotepa: From Lymphoma and Breast/Ovarian Cancer to Adult Germ Cell Tumor
+## Thiotepa: From Lymphoma and Breast/Ovarian Cancer to Adult Germ Cell Tumor
+{: .text-alpha }
 
 ## One-Sentence Summary
 

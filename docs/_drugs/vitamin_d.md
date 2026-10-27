@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Vitamin D: From Nutritional Supplementation (No Indication Text on File) to Primary Release Disorder of Platelets
+## Vitamin D: From Nutritional Supplementation (No Indication Text on File) to Primary Release Disorder of Platelets
+{: .text-alpha }
 
 ## One-Sentence Summary
 

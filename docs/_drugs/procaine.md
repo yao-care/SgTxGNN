@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Procaine: From Local Anaesthesia to Methemoglobinemia (Top TxGNN Prediction)
+## Procaine: From Local Anaesthesia to Methemoglobinemia (Top TxGNN Prediction)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

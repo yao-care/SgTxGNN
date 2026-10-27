@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Granisetron: From Chemotherapy-Related Nausea and Vomiting to Manic Bipolar Affective Disorder
+## Granisetron: From Chemotherapy-Related Nausea and Vomiting to Manic Bipolar Affective Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Doxylamine: From Allergic Rhinitis and Urticaria to Allergic Urticaria
+## Doxylamine: From Allergic Rhinitis and Urticaria to Allergic Urticaria
+{: .text-alpha }
 
 ## One-Sentence Summary
 

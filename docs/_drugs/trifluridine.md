@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Trifluridine: From Herpes Simplex Keratitis and Colorectal Cancer to Cecum Villous Adenoma
+## Trifluridine: From Herpes Simplex Keratitis and Colorectal Cancer to Cecum Villous Adenoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

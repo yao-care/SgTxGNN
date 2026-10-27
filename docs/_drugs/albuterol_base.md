@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# ALBUTEROL BASE: Repurposing Evaluation — No Predictions Available
+## ALBUTEROL BASE: Repurposing Evaluation — No Predictions Available
+{: .text-alpha }
 
 ## One-Sentence Summary
 

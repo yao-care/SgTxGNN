@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Ambroxol: From Pharyngitis to Nasal Cavity Disease
+## Ambroxol: From Pharyngitis to Nasal Cavity Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

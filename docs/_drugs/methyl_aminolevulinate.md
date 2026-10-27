@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Methyl Aminolevulinate: From Topical Photodynamic Therapy to Hereditary Hemochromatosis
+## Methyl Aminolevulinate: From Topical Photodynamic Therapy to Hereditary Hemochromatosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

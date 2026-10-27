@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Methoxyflurane: From Inhaled Acute Pain Relief to Insomnia
+## Methoxyflurane: From Inhaled Acute Pain Relief to Insomnia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

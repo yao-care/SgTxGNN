@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Acetaminophen Micronized: Insufficient Data for Repurposing Prediction
+## Acetaminophen Micronized: Insufficient Data for Repurposing Prediction
+{: .text-alpha }
 
 ---
 

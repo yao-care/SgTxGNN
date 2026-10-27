@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Piracetam: From Cognitive and Myoclonus Use to Osteoarthritis
+## Piracetam: From Cognitive and Myoclonus Use to Osteoarthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

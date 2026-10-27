@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Fluticasone Propionate: From Allergic and Inflammatory Conditions to 2-Hydroxyethyl Methacrylate Sensitization
+## Fluticasone Propionate: From Allergic and Inflammatory Conditions to 2-Hydroxyethyl Methacrylate Sensitization
+{: .text-alpha }
 
 ## One-Sentence Summary
 

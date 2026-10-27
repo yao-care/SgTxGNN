@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Donepezil 4.56 mg (Free Base): Data Quality Issues Prevent Repurposing Evaluation
+## Donepezil 4.56 mg (Free Base): Data Quality Issues Prevent Repurposing Evaluation
+{: .text-alpha }
 
 > **⚠️ Note:** The standard title format `From [Original Indication] to [Predicted New Indication]` cannot be applied because this Evidence Pack contains **no predicted indications**. The root cause is identified below.
 

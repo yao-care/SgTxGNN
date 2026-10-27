@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Sertraline: From Anxiety Disorders to Schizotypal Personality Disorder
+## Sertraline: From Anxiety Disorders to Schizotypal Personality Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

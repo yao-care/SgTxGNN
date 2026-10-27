@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Crizotinib: From Non-Small Cell Lung Cancer to Gingival Fibromatosis
+## Crizotinib: From Non-Small Cell Lung Cancer to Gingival Fibromatosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

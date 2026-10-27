@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Pseudoephedrine: From Rhinitis and the Common Cold to Nasal Cavity Disease
+## Pseudoephedrine: From Rhinitis and the Common Cold to Nasal Cavity Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Remifentanil: From Anesthesia and Analgesia to Common Cold
+## Remifentanil: From Anesthesia and Analgesia to Common Cold
+{: .text-alpha }
 
 ## One-Sentence Summary
 

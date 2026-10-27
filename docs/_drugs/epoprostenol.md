@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Epoprostenol: From Pulmonary Arterial Hypertension to Trigeminal Autonomic Cephalalgia
+## Epoprostenol: From Pulmonary Arterial Hypertension to Trigeminal Autonomic Cephalalgia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

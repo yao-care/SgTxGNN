@@ -33,7 +33,8 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Gimeracil: From Gastric Cancer to Colonic Neoplasm
+## Gimeracil: From Gastric Cancer to Colonic Neoplasm
+{: .text-alpha }
 
 ## One-Sentence Summary
 

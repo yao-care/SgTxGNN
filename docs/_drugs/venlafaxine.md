@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Venlafaxine: From Depression and Anxiety Disorders to Ohdo Syndrome and Variants
+## Venlafaxine: From Depression and Anxiety Disorders to Ohdo Syndrome and Variants
+{: .text-alpha }
 
 ## One-Sentence Summary
 

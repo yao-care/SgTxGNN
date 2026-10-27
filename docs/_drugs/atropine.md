@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Atropine: From Antimuscarinic Therapy to Migraine Disorder
+## Atropine: From Antimuscarinic Therapy to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

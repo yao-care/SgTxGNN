@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tucatinib: From an Unspecified Original Indication to Migraine Disorder
+## Tucatinib: From an Unspecified Original Indication to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

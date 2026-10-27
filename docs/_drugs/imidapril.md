@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Imidapril: From Hypertension to Pulmonary Hypertension (Multifactorial)
+## Imidapril: From Hypertension to Pulmonary Hypertension (Multifactorial)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

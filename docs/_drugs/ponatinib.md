@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ponatinib: From BCR-ABL1-Positive Chronic Myelogenous Leukaemia to Gingival Fibromatosis
+## Ponatinib: From BCR-ABL1-Positive Chronic Myelogenous Leukaemia to Gingival Fibromatosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

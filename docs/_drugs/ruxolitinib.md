@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ruxolitinib: From Myelofibrosis to Uterine Corpus Perivascular Epithelioid Cell Tumor (PEComa)
+## Ruxolitinib: From Myelofibrosis to Uterine Corpus Perivascular Epithelioid Cell Tumor (PEComa)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

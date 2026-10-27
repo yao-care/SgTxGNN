@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ixekizumab: From Ankylosing Spondylitis to Inflammatory Spondylopathy
+## Ixekizumab: From Ankylosing Spondylitis to Inflammatory Spondylopathy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

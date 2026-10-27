@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Acalabrutinib: From Mantle Cell Lymphoma to Non-Hodgkin Lymphoma (Familial, Generic Node)
+## Acalabrutinib: From Mantle Cell Lymphoma to Non-Hodgkin Lymphoma (Familial, Generic Node)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

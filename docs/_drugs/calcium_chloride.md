@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Calcium Chloride: From Electrolyte Disorders and Cardiac Arrest to Dyspepsia
+## Calcium Chloride: From Electrolyte Disorders and Cardiac Arrest to Dyspepsia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

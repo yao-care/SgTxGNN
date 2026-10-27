@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tildrakizumab: From an Anti-IL-23 Biologic (Approved Indication Not Listed) to Severe Nonproliferative Diabetic Retinopathy
+## Tildrakizumab: From an Anti-IL-23 Biologic (Approved Indication Not Listed) to Severe Nonproliferative Diabetic Retinopathy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

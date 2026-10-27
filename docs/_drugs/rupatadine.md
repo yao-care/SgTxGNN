@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Rupatadine: From Allergic Rhinitis and Urticaria to Cold Urticaria
+## Rupatadine: From Allergic Rhinitis and Urticaria to Cold Urticaria
+{: .text-alpha }
 
 ## One-Sentence Summary
 

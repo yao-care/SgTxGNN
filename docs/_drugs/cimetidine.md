@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cimetidine: From Peptic Ulcer and Acid-Related Disorders to Smouldering Systemic Mastocytosis
+## Cimetidine: From Peptic Ulcer and Acid-Related Disorders to Smouldering Systemic Mastocytosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

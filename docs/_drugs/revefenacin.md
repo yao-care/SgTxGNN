@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Revefenacin: From Chronic Obstructive Pulmonary Disease to Bronchitis
+## Revefenacin: From Chronic Obstructive Pulmonary Disease to Bronchitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

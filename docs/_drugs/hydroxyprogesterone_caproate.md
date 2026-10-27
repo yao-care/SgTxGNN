@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Hydroxyprogesterone Caproate: From an Unspecified Original Indication to Endometrial Cancer
+## Hydroxyprogesterone Caproate: From an Unspecified Original Indication to Endometrial Cancer
+{: .text-alpha }
 
 ## One-Sentence Summary
 

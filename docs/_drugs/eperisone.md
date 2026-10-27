@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Eperisone: From Muscle Spasm Relief to Osteoarthritis
+## Eperisone: From Muscle Spasm Relief to Osteoarthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

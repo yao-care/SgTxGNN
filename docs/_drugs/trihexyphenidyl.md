@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Trihexyphenidyl: From Parkinson Disease to Attention Deficit-Hyperactivity Disorder
+## Trihexyphenidyl: From Parkinson Disease to Attention Deficit-Hyperactivity Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

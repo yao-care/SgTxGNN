@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Duloxetine: From Major Depressive Disorder to Obsessive-Compulsive Disorder
+## Duloxetine: From Major Depressive Disorder to Obsessive-Compulsive Disorder
+{: .text-alpha }
 
 *Note on scope: the top-ranked TxGNN prediction (benign paroxysmal torticollis of infancy) has no trials or literature behind it. This report therefore centres on the best-supported prediction, obsessive-compulsive disorder (OCD, rank 3). The other predictions are summarised briefly in the conclusion.*
 

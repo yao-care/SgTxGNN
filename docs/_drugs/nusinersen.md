@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Nusinersen: From Spinal Muscular Atrophy to Tendinopathy
+## Nusinersen: From Spinal Muscular Atrophy to Tendinopathy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

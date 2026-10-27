@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Thrombin: From Fibrin Sealant Hemostasis to Primary Release Disorder of Platelets
+## Thrombin: From Fibrin Sealant Hemostasis to Primary Release Disorder of Platelets
+{: .text-alpha }
 
 ## One-Sentence Summary
 

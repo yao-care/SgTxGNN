@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Glycopyrronium: From Respiratory Disease (Inhaled Formulations) to Irritable Bowel Syndrome
+## Glycopyrronium: From Respiratory Disease (Inhaled Formulations) to Irritable Bowel Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Uracil: From an Unspecified Approved Indication (UFT Component) to Colonic Neoplasm
+## Uracil: From an Unspecified Approved Indication (UFT Component) to Colonic Neoplasm
+{: .text-alpha }
 
 ## One-Sentence Summary
 

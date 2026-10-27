@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Trospium: From Overactive Bladder to Irritable Bowel Syndrome
+## Trospium: From Overactive Bladder to Irritable Bowel Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Flavoxate: From Urinary Tract Antispasmodic Use to Attention Deficit Hyperactivity Disorder (Inattentive Type)
+## Flavoxate: From Urinary Tract Antispasmodic Use to Attention Deficit Hyperactivity Disorder (Inattentive Type)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

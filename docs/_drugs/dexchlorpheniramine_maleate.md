@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dexchlorpheniramine Maleate: From Antihistamine Use to Acute Intermittent Porphyria
+## Dexchlorpheniramine Maleate: From Antihistamine Use to Acute Intermittent Porphyria
+{: .text-alpha }
 
 ## One-Sentence Summary
 

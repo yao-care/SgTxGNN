@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Desflurane: From General Anaesthesia to Nephrogenic Syndrome of Inappropriate Antidiuresis
+## Desflurane: From General Anaesthesia to Nephrogenic Syndrome of Inappropriate Antidiuresis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

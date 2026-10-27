@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cefadroxil: From Urinary Tract Infection to Polyclonal Hyperviscosity Syndrome
+## Cefadroxil: From Urinary Tract Infection to Polyclonal Hyperviscosity Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

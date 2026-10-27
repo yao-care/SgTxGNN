@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Hydrocortisone Succinate: From Corticosteroid-Responsive Conditions to Allergic Asthma
+## Hydrocortisone Succinate: From Corticosteroid-Responsive Conditions to Allergic Asthma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

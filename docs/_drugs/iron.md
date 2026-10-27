@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Iron: From Iron Deficiency Anemia to Vitamin B12- and Folate-Independent Constitutional Megaloblastic Anemia
+## Iron: From Iron Deficiency Anemia to Vitamin B12- and Folate-Independent Constitutional Megaloblastic Anemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

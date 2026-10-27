@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Desmopressin: From von Willebrand Disease and Nocturnal Enuresis to Congenital Prothrombin Deficiency
+## Desmopressin: From von Willebrand Disease and Nocturnal Enuresis to Congenital Prothrombin Deficiency
+{: .text-alpha }
 
 ## One-Sentence Summary
 

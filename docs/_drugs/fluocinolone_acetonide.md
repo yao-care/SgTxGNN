@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Fluocinolone Acetonide: From Inflammatory Skin Diseases to Hypertrophic Lichen Planus
+## Fluocinolone Acetonide: From Inflammatory Skin Diseases to Hypertrophic Lichen Planus
+{: .text-alpha }
 
 ## One-Sentence Summary
 

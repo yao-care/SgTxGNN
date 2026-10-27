@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Methyldopa: From Hypertension to Malignant Renovascular Hypertension
+## Methyldopa: From Hypertension to Malignant Renovascular Hypertension
+{: .text-alpha }
 
 ## One-Sentence Summary
 

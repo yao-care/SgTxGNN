@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Baloxavir marboxil: From Influenza to Infection-Associated Hemophagocytic Syndrome
+## Baloxavir marboxil: From Influenza to Infection-Associated Hemophagocytic Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

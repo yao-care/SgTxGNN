@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Atracurium Besylate: From Neuromuscular Blockade to Preeclampsia
+## Atracurium Besylate: From Neuromuscular Blockade to Preeclampsia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

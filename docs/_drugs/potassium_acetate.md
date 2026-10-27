@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Potassium Acetate: From Potassium Deficiency to Renal Tubular Acidosis
+## Potassium Acetate: From Potassium Deficiency to Renal Tubular Acidosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

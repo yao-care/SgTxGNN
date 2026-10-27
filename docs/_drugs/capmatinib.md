@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Capmatinib: From Its Approved Oncology Use to Rheumatoid Arthritis
+## Capmatinib: From Its Approved Oncology Use to Rheumatoid Arthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

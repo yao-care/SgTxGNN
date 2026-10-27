@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Metoclopramide: From Gastroesophageal Reflux Disease to Gastric Ulcer
+## Metoclopramide: From Gastroesophageal Reflux Disease to Gastric Ulcer
+{: .text-alpha }
 
 ## One-Sentence Summary
 

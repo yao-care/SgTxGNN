@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Esketamine: From Anxiety Disorder to Agoraphobia
+## Esketamine: From Anxiety Disorder to Agoraphobia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

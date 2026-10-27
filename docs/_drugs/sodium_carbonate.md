@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sodium Carbonate: From an Unspecified Original Indication to Cauda Equina Syndrome
+## Sodium Carbonate: From an Unspecified Original Indication to Cauda Equina Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

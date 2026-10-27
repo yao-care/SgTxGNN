@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Hesperidin: From Venous Disease (Licensed Use) to Myeloproliferative Neoplasm
+## Hesperidin: From Venous Disease (Licensed Use) to Myeloproliferative Neoplasm
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Piperazine: From Enterobiasis and Ascariasis to Echinococcus granulosus Infection
+## Piperazine: From Enterobiasis and Ascariasis to Echinococcus granulosus Infection
+{: .text-alpha }
 
 ## One-Sentence Summary
 

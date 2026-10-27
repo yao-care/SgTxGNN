@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Clobetasol Propionate: From Atopic Eczema and Contact Dermatitis to Vulvar Inverted Follicular Keratosis
+## Clobetasol Propionate: From Atopic Eczema and Contact Dermatitis to Vulvar Inverted Follicular Keratosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

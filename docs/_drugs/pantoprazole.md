@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pantoprazole: From Peptic Ulcer Disease to Active Peptic Ulcer Disease
+## Pantoprazole: From Peptic Ulcer Disease to Active Peptic Ulcer Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Dolutegravir: From HIV Infection to Simian Immunodeficiency Virus Infection
+## Dolutegravir: From HIV Infection to Simian Immunodeficiency Virus Infection
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Mivacurium: From Neuromuscular Blockade in Anaesthesia to Cauda Equina Syndrome
+## Mivacurium: From Neuromuscular Blockade in Anaesthesia to Cauda Equina Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

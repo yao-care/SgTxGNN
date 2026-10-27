@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Heparin: From Pulmonary Embolism and Disseminated Intravascular Coagulation to Thrombophilia due to Protein C Deficiency
+## Heparin: From Pulmonary Embolism and Disseminated Intravascular Coagulation to Thrombophilia due to Protein C Deficiency
+{: .text-alpha }
 
 ## One-Sentence Summary
 

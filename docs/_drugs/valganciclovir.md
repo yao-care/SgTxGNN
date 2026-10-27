@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Valganciclovir: From Cytomegalovirus Infection to Rheumatoid Arthritis
+## Valganciclovir: From Cytomegalovirus Infection to Rheumatoid Arthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

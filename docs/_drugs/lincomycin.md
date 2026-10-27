@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Lincomycin: From Pneumococcal/Staphylococcal/Streptococcal Infections to Polyclonal Hyperviscosity Syndrome
+## Lincomycin: From Pneumococcal/Staphylococcal/Streptococcal Infections to Polyclonal Hyperviscosity Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

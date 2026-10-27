@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Ivabradine: Insufficient Data for Repurposing Evaluation
+## Ivabradine: Insufficient Data for Repurposing Evaluation
+{: .text-alpha }
 
 > ⚠️ **Data Quality Alert**: The `inn` field in this Evidence Pack contains a dosage specification (`"5.390 MG OF IVABRADINE HYDROCHLORIDE)"`) rather than a proper INN. The active ingredient is **Ivabradine**. This malformed input is the root cause of all downstream data gaps in this report.
 

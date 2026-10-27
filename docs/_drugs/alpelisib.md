@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Alpelisib: From Breast Cancer (Indication Text Not Recorded in Local Licences) to Pulmonary Hypertension
+## Alpelisib: From Breast Cancer (Indication Text Not Recorded in Local Licences) to Pulmonary Hypertension
+{: .text-alpha }
 
 ## One-Sentence Summary
 

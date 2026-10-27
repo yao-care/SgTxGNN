@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Norelgestromin: From Hormonal Contraception to Amenorrhea
+## Norelgestromin: From Hormonal Contraception to Amenorrhea
+{: .text-alpha }
 
 ## One-Sentence Summary
 

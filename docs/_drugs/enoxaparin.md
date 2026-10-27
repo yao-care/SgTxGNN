@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Enoxaparin: From Pulmonary Embolism to Thrombophilia due to Protein C Deficiency
+## Enoxaparin: From Pulmonary Embolism to Thrombophilia due to Protein C Deficiency
+{: .text-alpha }
 
 ## One-Sentence Summary
 

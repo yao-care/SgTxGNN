@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Luspatercept: From Beta-Thalassemia to Monosomy X
+## Luspatercept: From Beta-Thalassemia to Monosomy X
+{: .text-alpha }
 
 ## One-Sentence Summary
 

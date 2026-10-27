@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **9**
 
 </div>
 
-# Zuclopenthixol: From Schizophrenia to Retinal Dystrophy with or without Extraocular Anomalies
+## Zuclopenthixol: From Schizophrenia to Retinal Dystrophy with or without Extraocular Anomalies
+{: .text-alpha }
 
 ## One-Sentence Summary
 

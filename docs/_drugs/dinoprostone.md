@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dinoprostone: From Pregnancy Disorder with Abortive Outcome to Esotropia
+## Dinoprostone: From Pregnancy Disorder with Abortive Outcome to Esotropia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

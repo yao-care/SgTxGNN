@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Basiliximab: From Transplant Immunosuppression to Plasma Cell Myeloma
+## Basiliximab: From Transplant Immunosuppression to Plasma Cell Myeloma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

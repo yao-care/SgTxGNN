@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ceftaroline fosamil: From Bacterial Infection to Rheumatoid Arthritis
+## Ceftaroline fosamil: From Bacterial Infection to Rheumatoid Arthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

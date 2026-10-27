@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ganirelix: From Ovarian Stimulation Support (Premature Ovulation Prevention) to Hypertrichosis
+## Ganirelix: From Ovarian Stimulation Support (Premature Ovulation Prevention) to Hypertrichosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

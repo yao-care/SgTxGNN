@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Risankizumab: From Psoriasis to Dermatitis
+## Risankizumab: From Psoriasis to Dermatitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

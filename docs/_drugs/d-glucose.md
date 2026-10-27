@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# D-glucose: From Intravenous Fluid and Energy Supplementation to Non-syndromic Esophageal Malformation
+## D-glucose: From Intravenous Fluid and Energy Supplementation to Non-syndromic Esophageal Malformation
+{: .text-alpha }
 
 ## One-Sentence Summary
 

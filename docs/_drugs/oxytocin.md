@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Oxytocin: From Pregnancy Disorder with Abortive Outcome to Allergic Urticaria
+## Oxytocin: From Pregnancy Disorder with Abortive Outcome to Allergic Urticaria
+{: .text-alpha }
 
 ## One-Sentence Summary
 

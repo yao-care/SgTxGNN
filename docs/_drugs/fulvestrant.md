@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Fulvestrant: From Its Licensed Breast Cancer Use to HIV Infectious Disease
+## Fulvestrant: From Its Licensed Breast Cancer Use to HIV Infectious Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Eprosartan: From Hypertension to Malignant Renovascular Hypertension
+## Eprosartan: From Hypertension to Malignant Renovascular Hypertension
+{: .text-alpha }
 
 ## One-Sentence Summary
 

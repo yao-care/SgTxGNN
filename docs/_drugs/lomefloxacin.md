@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Lomefloxacin: From Urinary Tract Infection and Bronchitis to Laryngotracheitis
+## Lomefloxacin: From Urinary Tract Infection and Bronchitis to Laryngotracheitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

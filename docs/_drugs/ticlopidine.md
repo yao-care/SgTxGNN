@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Ticlopidine: From Platelet Aggregation Inhibition to Rheumatoid Arthritis
+## Ticlopidine: From Platelet Aggregation Inhibition to Rheumatoid Arthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

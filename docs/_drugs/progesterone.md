@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Progesterone: From Endometriosis to Amenorrhea
+## Progesterone: From Endometriosis to Amenorrhea
+{: .text-alpha }
 
 ## One-Sentence Summary
 

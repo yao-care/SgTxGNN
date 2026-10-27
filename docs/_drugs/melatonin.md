@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Melatonin: From Insomnia to Migraine with Brainstem Aura
+## Melatonin: From Insomnia to Migraine with Brainstem Aura
+{: .text-alpha }
 
 ## One-Sentence Summary
 

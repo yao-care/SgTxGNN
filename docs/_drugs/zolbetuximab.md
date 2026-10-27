@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Zolbetuximab: From Gastric Cancer to Diabetic Cataract
+## Zolbetuximab: From Gastric Cancer to Diabetic Cataract
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Entrectinib: From Oncology Use (NTRK/ROS1-Positive Tumours) to Multiple Endocrine Neoplasia
+## Entrectinib: From Oncology Use (NTRK/ROS1-Positive Tumours) to Multiple Endocrine Neoplasia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

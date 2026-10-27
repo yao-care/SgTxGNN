@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Benzbromarone: From Gout and Hyperuricemia to Renal Hypouricemia
+## Benzbromarone: From Gout and Hyperuricemia to Renal Hypouricemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

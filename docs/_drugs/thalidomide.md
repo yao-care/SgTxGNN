@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Thalidomide: From Plasma Cell Myeloma to Ganglioneuroblastoma
+## Thalidomide: From Plasma Cell Myeloma to Ganglioneuroblastoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

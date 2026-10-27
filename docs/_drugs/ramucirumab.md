@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ramucirumab: From Lung, Gastric and Liver Cancers to Uterine Ligament Adenocarcinoma
+## Ramucirumab: From Lung, Gastric and Liver Cancers to Uterine Ligament Adenocarcinoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

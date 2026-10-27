@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tyrothricin: From a Topical Throat Antibacterial to Insomnia (Top-Ranked Prediction)
+## Tyrothricin: From a Topical Throat Antibacterial to Insomnia (Top-Ranked Prediction)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

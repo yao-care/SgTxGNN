@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Melitracen: From a Tricyclic Antidepressant to Insomnia
+## Melitracen: From a Tricyclic Antidepressant to Insomnia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ergometrine: From Uterotonic Use to Hypertrichosis (Computational Prediction Only)
+## Ergometrine: From Uterotonic Use to Hypertrichosis (Computational Prediction Only)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

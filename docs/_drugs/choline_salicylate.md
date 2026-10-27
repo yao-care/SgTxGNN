@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Choline Salicylate: From Topical Oral Pain Relief to Prinzmetal Angina
+## Choline Salicylate: From Topical Oral Pain Relief to Prinzmetal Angina
+{: .text-alpha }
 
 ## One-Sentence Summary
 

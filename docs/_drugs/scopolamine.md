@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Scopolamine: From Peptic Ulcer Disease and Motion Sickness to Cauda Equina Syndrome
+## Scopolamine: From Peptic Ulcer Disease and Motion Sickness to Cauda Equina Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

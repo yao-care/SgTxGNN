@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sorbitol: From an Osmotic Agent and Excipient to Exercise-Induced Malignant Hyperthermia
+## Sorbitol: From an Osmotic Agent and Excipient to Exercise-Induced Malignant Hyperthermia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

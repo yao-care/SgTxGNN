@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Escitalopram: From Major Depressive Disorder to Dysthymic Disorder
+## Escitalopram: From Major Depressive Disorder to Dysthymic Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Eravacycline: From Antibacterial Therapy to Bronchitis
+## Eravacycline: From Antibacterial Therapy to Bronchitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

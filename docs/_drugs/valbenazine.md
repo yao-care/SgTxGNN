@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Valbenazine: From Tardive Dyskinesia to Psychogenic Movement Disorders
+## Valbenazine: From Tardive Dyskinesia to Psychogenic Movement Disorders
+{: .text-alpha }
 
 ## One-Sentence Summary
 

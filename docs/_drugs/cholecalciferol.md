@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cholecalciferol: From Osteoporosis and Vitamin D Deficiency to Familial Isolated Hypoparathyroidism
+## Cholecalciferol: From Osteoporosis and Vitamin D Deficiency to Familial Isolated Hypoparathyroidism
+{: .text-alpha }
 
 ## One-Sentence Summary
 

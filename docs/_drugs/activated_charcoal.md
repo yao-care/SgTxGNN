@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Activated Charcoal: From Gastrointestinal Adsorbent Use to Jeune Syndrome Situs Inversus
+## Activated Charcoal: From Gastrointestinal Adsorbent Use to Jeune Syndrome Situs Inversus
+{: .text-alpha }
 
 ## One-Sentence Summary
 

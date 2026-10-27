@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Selenium Sulfide: From Seborrheic Dermatitis to Vulvar Inverted Follicular Keratosis
+## Selenium Sulfide: From Seborrheic Dermatitis to Vulvar Inverted Follicular Keratosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

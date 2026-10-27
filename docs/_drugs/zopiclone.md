@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Zopiclone: From Insomnia to Sleep Disorder (Initiating and Maintaining Sleep)
+## Zopiclone: From Insomnia to Sleep Disorder (Initiating and Maintaining Sleep)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

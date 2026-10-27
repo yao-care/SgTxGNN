@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Gemtuzumab ozogamicin: From Acute Myeloid Leukemia to Richter Syndrome
+## Gemtuzumab ozogamicin: From Acute Myeloid Leukemia to Richter Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

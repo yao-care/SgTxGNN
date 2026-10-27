@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Trastuzumab deruxtecan: From Its Registered Oncology Use to Drug-Induced Osteoporosis
+## Trastuzumab deruxtecan: From Its Registered Oncology Use to Drug-Induced Osteoporosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

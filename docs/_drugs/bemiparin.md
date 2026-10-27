@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Bemiparin: From Anticoagulation (VTE Treatment and Prevention) to Primary Release Disorder of Platelets
+## Bemiparin: From Anticoagulation (VTE Treatment and Prevention) to Primary Release Disorder of Platelets
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Romosozumab: From Postmenopausal Osteoporosis to Obsolete Vitamin D Deficiency
+## Romosozumab: From Postmenopausal Osteoporosis to Obsolete Vitamin D Deficiency
+{: .text-alpha }
 
 ## One-Sentence Summary
 

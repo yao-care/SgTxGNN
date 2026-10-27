@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Naratriptan: From Migraine to Migraine with Brainstem Aura
+## Naratriptan: From Migraine to Migraine with Brainstem Aura
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Atovaquone: From Malaria and Pneumocystosis to Leprosy
+## Atovaquone: From Malaria and Pneumocystosis to Leprosy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

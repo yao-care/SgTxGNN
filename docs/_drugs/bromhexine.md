@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Bromhexine: From Respiratory Mucolytic Use to Vulvitis
+## Bromhexine: From Respiratory Mucolytic Use to Vulvitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

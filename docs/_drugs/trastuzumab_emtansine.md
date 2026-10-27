@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Trastuzumab emtansine: From HER2-Positive Breast Cancer to Progesterone-Receptor Positive Breast Cancer
+## Trastuzumab emtansine: From HER2-Positive Breast Cancer to Progesterone-Receptor Positive Breast Cancer
+{: .text-alpha }
 
 ## One-Sentence Summary
 

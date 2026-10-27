@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Caffeine: From Headache and Rhinitis Indications to Nasal Cavity Disease
+## Caffeine: From Headache and Rhinitis Indications to Nasal Cavity Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

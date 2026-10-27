@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Donepezil (9.12mg Free Base): Evaluation Blocked — Data Entry Issue and Missing Predictions
+## Donepezil (9.12mg Free Base): Evaluation Blocked — Data Entry Issue and Missing Predictions
+{: .text-alpha }
 
 ## One-Sentence Summary
 

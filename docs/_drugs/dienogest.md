@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Dienogest: From Endometriosis-Type Progestin Therapy to Amenorrhea
+## Dienogest: From Endometriosis-Type Progestin Therapy to Amenorrhea
+{: .text-alpha }
 
 ## One-Sentence Summary
 

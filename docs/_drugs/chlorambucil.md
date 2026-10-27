@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Chlorambucil: From Hodgkin Lymphoma and Other Lymphoid Malignancies to CLL/SLL with Somatic Hypermutation of the IGHV Gene
+## Chlorambucil: From Hodgkin Lymphoma and Other Lymphoid Malignancies to CLL/SLL with Somatic Hypermutation of the IGHV Gene
+{: .text-alpha }
 
 ## One-Sentence Summary
 

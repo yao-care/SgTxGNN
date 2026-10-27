@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Furosemide: From Hypertension and Congestive Heart Failure to Malignant Renovascular Hypertension
+## Furosemide: From Hypertension and Congestive Heart Failure to Malignant Renovascular Hypertension
+{: .text-alpha }
 
 ## One-Sentence Summary
 

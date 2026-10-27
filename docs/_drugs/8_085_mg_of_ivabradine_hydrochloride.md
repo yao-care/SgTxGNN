@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Ivabradine: Evaluation Report — Insufficient Data for Repurposing Assessment
+## Ivabradine: Evaluation Report — Insufficient Data for Repurposing Assessment
+{: .text-alpha }
 
 ---
 

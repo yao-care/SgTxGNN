@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Dopamine: From Hypotensive Disorder to Postural Orthostatic Tachycardia Syndrome
+## Dopamine: From Hypotensive Disorder to Postural Orthostatic Tachycardia Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

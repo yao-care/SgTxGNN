@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Leuprolide: From Endometriosis and Precocious Puberty to Osteoarthritis
+## Leuprolide: From Endometriosis and Precocious Puberty to Osteoarthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

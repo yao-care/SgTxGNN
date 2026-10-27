@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Bilastine: From Allergic Rhinitis to Duodenal Obstruction
+## Bilastine: From Allergic Rhinitis to Duodenal Obstruction
+{: .text-alpha }
 
 ## One-Sentence Summary
 

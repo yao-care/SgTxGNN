@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Leucine: From Parenteral Nutrition Amino Acid to Congenital Prothrombin Deficiency
+## Leucine: From Parenteral Nutrition Amino Acid to Congenital Prothrombin Deficiency
+{: .text-alpha }
 
 ## One-Sentence Summary
 

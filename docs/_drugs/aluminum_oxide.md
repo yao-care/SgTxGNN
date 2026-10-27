@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Aluminum Oxide: From an Antacid Ingredient (Indication Not Specified in Licences) to Rheumatoid Arthritis
+## Aluminum Oxide: From an Antacid Ingredient (Indication Not Specified in Licences) to Rheumatoid Arthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Warfarin: From Thrombotic Disease to Thrombophilia
+## Warfarin: From Thrombotic Disease to Thrombophilia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

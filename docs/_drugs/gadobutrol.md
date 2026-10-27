@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Gadobutrol: From MRI Contrast Imaging to Peripheral Arterial Disease (Diagnostic Use)
+## Gadobutrol: From MRI Contrast Imaging to Peripheral Arterial Disease (Diagnostic Use)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

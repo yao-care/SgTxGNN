@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pasireotide: From Cushing Syndrome to Nephrogenic Syndrome of Inappropriate Antidiuresis
+## Pasireotide: From Cushing Syndrome to Nephrogenic Syndrome of Inappropriate Antidiuresis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

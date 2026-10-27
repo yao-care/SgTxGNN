@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Paliperidone: From Schizophrenia to Retinal Dystrophy (Top TxGNN Prediction)
+## Paliperidone: From Schizophrenia to Retinal Dystrophy (Top TxGNN Prediction)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

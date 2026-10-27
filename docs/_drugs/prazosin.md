@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Prazosin: From Hypertension to Malignant Hypertensive Renal Disease
+## Prazosin: From Hypertension to Malignant Hypertensive Renal Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

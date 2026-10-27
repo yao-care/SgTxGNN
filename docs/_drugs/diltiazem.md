@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Diltiazem: From Hypertension and Arrhythmia to Cerebrovascular Disorder
+## Diltiazem: From Hypertension and Arrhythmia to Cerebrovascular Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

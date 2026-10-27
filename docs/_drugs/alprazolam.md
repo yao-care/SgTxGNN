@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Alprazolam: From Anxiety Disorder to Insomnia
+## Alprazolam: From Anxiety Disorder to Insomnia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

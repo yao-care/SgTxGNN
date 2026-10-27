@@ -33,7 +33,8 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Cinnarizine: From Vertigo and Motion Sickness to Migraine Disorder
+## Cinnarizine: From Vertigo and Motion Sickness to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

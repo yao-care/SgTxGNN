@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Potassium Citrate: From Potassium Deficiency and Renal Tubular Acidosis to Nephrolithiasis
+## Potassium Citrate: From Potassium Deficiency and Renal Tubular Acidosis to Nephrolithiasis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

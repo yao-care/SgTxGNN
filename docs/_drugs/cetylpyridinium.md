@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cetylpyridinium: From Oral Antiseptic Use to Fetal Erythroblastosis
+## Cetylpyridinium: From Oral Antiseptic Use to Fetal Erythroblastosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

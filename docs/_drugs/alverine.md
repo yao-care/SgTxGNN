@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Alverine: From Smooth Muscle Spasm to Dysthymic Disorder
+## Alverine: From Smooth Muscle Spasm to Dysthymic Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

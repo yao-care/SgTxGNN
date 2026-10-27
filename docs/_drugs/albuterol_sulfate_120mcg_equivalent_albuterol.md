@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Albuterol Sulfate: From Bronchospasm/Asthma to [No Prediction Available]
+## Albuterol Sulfate: From Bronchospasm/Asthma to [No Prediction Available]
+{: .text-alpha }
 
 ## One-Sentence Summary
 

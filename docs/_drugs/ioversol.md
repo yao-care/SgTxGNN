@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ioversol: From Radiographic Contrast Imaging to Osteoarthritis Susceptibility
+## Ioversol: From Radiographic Contrast Imaging to Osteoarthritis Susceptibility
+{: .text-alpha }
 
 ## One-Sentence Summary
 

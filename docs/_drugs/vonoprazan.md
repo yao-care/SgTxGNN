@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Vonoprazan: From Gastric/Duodenal Ulcer and Reflux Esophagitis to Active Peptic Ulcer Disease
+## Vonoprazan: From Gastric/Duodenal Ulcer and Reflux Esophagitis to Active Peptic Ulcer Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Oxycodone: From Opioid Analgesia to Restless Legs Syndrome
+## Oxycodone: From Opioid Analgesia to Restless Legs Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Carboprost Tromethamine: From Obstetric Use (Indication Not Stated in the Local Record) to Atypical Coarctation of Aorta
+## Carboprost Tromethamine: From Obstetric Use (Indication Not Stated in the Local Record) to Atypical Coarctation of Aorta
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Valaciclovir: From Herpesvirus Infection to Rheumatoid Arthritis
+## Valaciclovir: From Herpesvirus Infection to Rheumatoid Arthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

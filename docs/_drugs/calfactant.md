@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Calfactant: From Neonatal Respiratory Distress Syndrome to Adult Acute Respiratory Distress Syndrome
+## Calfactant: From Neonatal Respiratory Distress Syndrome to Adult Acute Respiratory Distress Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

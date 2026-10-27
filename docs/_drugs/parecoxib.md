@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Parecoxib: From Perioperative Pain Management to Migraine Disorder
+## Parecoxib: From Perioperative Pain Management to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

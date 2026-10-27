@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Bictegravir: From HIV Infection to Simian Immunodeficiency Virus Infection
+## Bictegravir: From HIV Infection to Simian Immunodeficiency Virus Infection
+{: .text-alpha }
 
 ## One-Sentence Summary
 

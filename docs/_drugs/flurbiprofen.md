@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Flurbiprofen: From Rheumatoid Arthritis and Osteoarthritis to Ankylosing Spondylitis
+## Flurbiprofen: From Rheumatoid Arthritis and Osteoarthritis to Ankylosing Spondylitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

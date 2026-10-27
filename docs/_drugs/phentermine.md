@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Phentermine: From Obesity to Hypervitaminosis
+## Phentermine: From Obesity to Hypervitaminosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Aminacrine: From Topical Antisepsis to Paratyphoid Fever
+## Aminacrine: From Topical Antisepsis to Paratyphoid Fever
+{: .text-alpha }
 
 ## One-Sentence Summary
 

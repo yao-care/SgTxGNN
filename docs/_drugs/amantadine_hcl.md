@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Amantadine HCl: Repurposing Evaluation — Insufficient Data to Proceed
+## Amantadine HCl: Repurposing Evaluation — Insufficient Data to Proceed
+{: .text-alpha }
 
 ---
 

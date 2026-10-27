@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tetanus Immune Globulin: From Tetanus Prophylaxis to Diabetic Cataract
+## Tetanus Immune Globulin: From Tetanus Prophylaxis to Diabetic Cataract
+{: .text-alpha }
 
 ## One-Sentence Summary
 

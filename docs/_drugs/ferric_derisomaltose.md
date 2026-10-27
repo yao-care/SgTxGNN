@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ferric derisomaltose: From Iron Replacement to Severe Nonproliferative Diabetic Retinopathy
+## Ferric derisomaltose: From Iron Replacement to Severe Nonproliferative Diabetic Retinopathy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

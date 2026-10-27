@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Itraconazole: From Fungal Infections to Pneumocystosis
+## Itraconazole: From Fungal Infections to Pneumocystosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

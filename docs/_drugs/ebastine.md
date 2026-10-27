@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ebastine: From Allergic Rhinitis to Coronary Artery Disease
+## Ebastine: From Allergic Rhinitis to Coronary Artery Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

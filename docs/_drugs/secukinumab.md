@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Secukinumab: From Inflammatory Conditions (Original Indication Not Recorded) to Primary Release Disorder of Platelets
+## Secukinumab: From Inflammatory Conditions (Original Indication Not Recorded) to Primary Release Disorder of Platelets
+{: .text-alpha }
 
 ## One-Sentence Summary
 

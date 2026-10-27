@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Vortioxetine: From Depression to Melancholia
+## Vortioxetine: From Depression to Melancholia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

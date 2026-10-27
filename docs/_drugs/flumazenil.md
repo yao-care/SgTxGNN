@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Flumazenil: From Benzodiazepine Reversal to Migraine Disorder
+## Flumazenil: From Benzodiazepine Reversal to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

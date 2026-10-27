@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Malathion: From Head Lice Infestation to Seborrheic Keratosis
+## Malathion: From Head Lice Infestation to Seborrheic Keratosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

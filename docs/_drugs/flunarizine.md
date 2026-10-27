@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Flunarizine: From Unspecified Registered Indication to Migraine Disorder
+## Flunarizine: From Unspecified Registered Indication to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

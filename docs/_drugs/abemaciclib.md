@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Abemaciclib: From Breast Cancer to Rheumatoid Arthritis
+## Abemaciclib: From Breast Cancer to Rheumatoid Arthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

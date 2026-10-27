@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Norgestrel: From Contraception to Amenorrhea
+## Norgestrel: From Contraception to Amenorrhea
+{: .text-alpha }
 
 ## One-Sentence Summary
 

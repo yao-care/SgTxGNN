@@ -33,7 +33,8 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Amisulpride: From an Unspecified Registered Indication to Schizophrenia
+## Amisulpride: From an Unspecified Registered Indication to Schizophrenia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

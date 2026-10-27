@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Cisplatin: From Ovarian Cancer to Female Breast Carcinoma
+## Cisplatin: From Ovarian Cancer to Female Breast Carcinoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

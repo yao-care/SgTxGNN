@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **1**
 
 </div>
 
-# Mometasone: From Allergic Nasal Conditions to Primary Cutaneous T-Cell Lymphoma
+## Mometasone: From Allergic Nasal Conditions to Primary Cutaneous T-Cell Lymphoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

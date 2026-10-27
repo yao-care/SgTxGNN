@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Streptomycin: From Tuberculosis and Other Bacterial Infections to Conjunctivitis
+## Streptomycin: From Tuberculosis and Other Bacterial Infections to Conjunctivitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

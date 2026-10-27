@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Propafenone: From Atrial Fibrillation and Ventricular Tachycardia to Manic Bipolar Affective Disorder
+## Propafenone: From Atrial Fibrillation and Ventricular Tachycardia to Manic Bipolar Affective Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

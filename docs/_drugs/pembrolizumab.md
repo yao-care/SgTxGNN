@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pembrolizumab: From Non-Small Cell Lung Cancer to Gingival Fibromatosis
+## Pembrolizumab: From Non-Small Cell Lung Cancer to Gingival Fibromatosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

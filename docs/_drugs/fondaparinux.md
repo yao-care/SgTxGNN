@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Fondaparinux: From Pulmonary Embolism to Primary Release Disorder of Platelets
+## Fondaparinux: From Pulmonary Embolism to Primary Release Disorder of Platelets
+{: .text-alpha }
 
 ## One-Sentence Summary
 

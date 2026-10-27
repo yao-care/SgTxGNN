@@ -33,7 +33,8 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Clofarabine: From Acute Lymphoblastic Leukemia to Myeloid Leukemia
+## Clofarabine: From Acute Lymphoblastic Leukemia to Myeloid Leukemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

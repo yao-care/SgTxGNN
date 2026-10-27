@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Azithromycin: From Bacterial Infections to Hyperamylasemia
+## Azithromycin: From Bacterial Infections to Hyperamylasemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

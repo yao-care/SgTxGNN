@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Promethazine: From Allergic Rhinitis and Urticaria to Rosacea Conjunctivitis
+## Promethazine: From Allergic Rhinitis and Urticaria to Rosacea Conjunctivitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

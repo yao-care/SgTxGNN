@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Methylthioninium: From an Unspecified Approved Indication to Irritable Bowel Syndrome
+## Methylthioninium: From an Unspecified Approved Indication to Irritable Bowel Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

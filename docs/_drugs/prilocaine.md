@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Prilocaine: From Premature Ejaculation to Papillary Conjunctivitis
+## Prilocaine: From Premature Ejaculation to Papillary Conjunctivitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Luliconazole: From Tinea Infections to Pityriasis Versicolor
+## Luliconazole: From Tinea Infections to Pityriasis Versicolor
+{: .text-alpha }
 
 ## One-Sentence Summary
 

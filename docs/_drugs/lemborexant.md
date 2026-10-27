@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Lemborexant: From Insomnia to Sleep Disorder (Initiating and Maintaining Sleep)
+## Lemborexant: From Insomnia to Sleep Disorder (Initiating and Maintaining Sleep)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

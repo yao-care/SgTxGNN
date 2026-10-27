@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Fluvoxamine: From Social Phobia and Obsessive-Compulsive Disorder to Schizotypal Personality Disorder
+## Fluvoxamine: From Social Phobia and Obsessive-Compulsive Disorder to Schizotypal Personality Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

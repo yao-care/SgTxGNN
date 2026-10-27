@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Midodrine: From Orthostatic Hypotension to Variably Protease-Sensitive Prionopathy
+## Midodrine: From Orthostatic Hypotension to Variably Protease-Sensitive Prionopathy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

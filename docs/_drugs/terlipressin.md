@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Terlipressin: From Its Registered Use to Open-Angle Glaucoma
+## Terlipressin: From Its Registered Use to Open-Angle Glaucoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

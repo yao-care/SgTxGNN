@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Aminolevulinic Acid: From Actinic Keratosis to Pre-malignant Neoplasm
+## Aminolevulinic Acid: From Actinic Keratosis to Pre-malignant Neoplasm
+{: .text-alpha }
 
 ## One-Sentence Summary
 

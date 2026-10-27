@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Orlistat: From Obesity to Hypervitaminosis
+## Orlistat: From Obesity to Hypervitaminosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

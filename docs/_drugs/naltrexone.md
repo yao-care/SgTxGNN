@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Naltrexone: From Substance Dependence and Obesity to Hypervitaminosis
+## Naltrexone: From Substance Dependence and Obesity to Hypervitaminosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Hydroxychloroquine: From Rheumatoid Arthritis and Lupus to Folliculitis Decalvans
+## Hydroxychloroquine: From Rheumatoid Arthritis and Lupus to Folliculitis Decalvans
+{: .text-alpha }
 
 ## One-Sentence Summary
 

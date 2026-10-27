@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Potassium Iodide: From Allergic Rhinitis and Upper Respiratory Inflammation to Nasal Cavity Disease
+## Potassium Iodide: From Allergic Rhinitis and Upper Respiratory Inflammation to Nasal Cavity Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

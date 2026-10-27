@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Crotamiton: From Scabies to Trombiculiasis
+## Crotamiton: From Scabies to Trombiculiasis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

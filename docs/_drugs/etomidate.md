@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Etomidate: From Anesthetic Induction to Headache Disorder
+## Etomidate: From Anesthetic Induction to Headache Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Chlormadinone: From Contraception (Oral Hormonal) to Antithrombin Deficiency Type 2
+## Chlormadinone: From Contraception (Oral Hormonal) to Antithrombin Deficiency Type 2
+{: .text-alpha }
 
 ## One-Sentence Summary
 

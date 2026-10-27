@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sodium Bicarbonate: From Antacid and Acid-Base Correction to Bronchitis (Top TxGNN Prediction)
+## Sodium Bicarbonate: From Antacid and Acid-Base Correction to Bronchitis (Top TxGNN Prediction)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sacituzumab govitecan: From an Unspecified Approved Indication to Drug-Induced Osteoporosis
+## Sacituzumab govitecan: From an Unspecified Approved Indication to Drug-Induced Osteoporosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

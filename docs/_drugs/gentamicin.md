@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Gentamicin: From Bacterial Infections to Rheumatoid Arthritis
+## Gentamicin: From Bacterial Infections to Rheumatoid Arthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

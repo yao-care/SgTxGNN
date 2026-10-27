@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Albuterol: Repurposing Evaluation Incomplete — No Predictions Available
+## Albuterol: Repurposing Evaluation Incomplete — No Predictions Available
+{: .text-alpha }
 
 ## One-Sentence Summary
 

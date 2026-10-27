@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Oxymetholone: From Aplastic Anemia to Seborrheic Dermatitis
+## Oxymetholone: From Aplastic Anemia to Seborrheic Dermatitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

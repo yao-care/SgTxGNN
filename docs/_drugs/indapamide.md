@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Indapamide: From Hypertension to Chronic Pulmonary Heart Disease
+## Indapamide: From Hypertension to Chronic Pulmonary Heart Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

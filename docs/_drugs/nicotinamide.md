@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Nicotinamide: From Acne to Elevated Plasma Zinc
+## Nicotinamide: From Acne to Elevated Plasma Zinc
+{: .text-alpha }
 
 ## One-Sentence Summary
 

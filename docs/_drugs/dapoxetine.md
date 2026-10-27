@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Dapoxetine: From Premature Ejaculation to Migraine Disorder
+## Dapoxetine: From Premature Ejaculation to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

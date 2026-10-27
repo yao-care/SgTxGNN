@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Crisaborole: From Atopic Dermatitis to Exanthem
+## Crisaborole: From Atopic Dermatitis to Exanthem
+{: .text-alpha }
 
 ## One-Sentence Summary
 

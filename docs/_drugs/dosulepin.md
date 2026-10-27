@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dosulepin: From Depression to Benign Paroxysmal Torticollis of Infancy
+## Dosulepin: From Depression to Benign Paroxysmal Torticollis of Infancy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

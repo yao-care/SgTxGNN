@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Botulinum Toxin Type A: From Neuromuscular Indications to Parkinson Disease
+## Botulinum Toxin Type A: From Neuromuscular Indications to Parkinson Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

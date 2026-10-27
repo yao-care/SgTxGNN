@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Chloramphenicol: From Typhoid Fever to Conjunctivitis
+## Chloramphenicol: From Typhoid Fever to Conjunctivitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

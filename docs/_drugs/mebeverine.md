@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Mebeverine: From Irritable Bowel Syndrome to Cauda Equina Syndrome
+## Mebeverine: From Irritable Bowel Syndrome to Cauda Equina Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

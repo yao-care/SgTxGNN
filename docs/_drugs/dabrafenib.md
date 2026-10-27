@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Dabrafenib: From Metastatic Melanoma to Non-Cutaneous Melanoma
+## Dabrafenib: From Metastatic Melanoma to Non-Cutaneous Melanoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Cefazolin: From Bacterial Pneumonia and Other Bacterial Infections to Infectious Otitis Media
+## Cefazolin: From Bacterial Pneumonia and Other Bacterial Infections to Infectious Otitis Media
+{: .text-alpha }
 
 ## One-Sentence Summary
 

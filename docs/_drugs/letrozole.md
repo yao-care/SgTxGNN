@@ -33,7 +33,8 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Letrozole: From Breast Cancer Endocrine Therapy to Female Breast Carcinoma
+## Letrozole: From Breast Cancer Endocrine Therapy to Female Breast Carcinoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

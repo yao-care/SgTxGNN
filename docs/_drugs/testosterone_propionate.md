@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Testosterone Propionate: From Male Hypogonadism to Urethral Obstruction Sequence
+## Testosterone Propionate: From Male Hypogonadism to Urethral Obstruction Sequence
+{: .text-alpha }
 
 ## One-Sentence Summary
 

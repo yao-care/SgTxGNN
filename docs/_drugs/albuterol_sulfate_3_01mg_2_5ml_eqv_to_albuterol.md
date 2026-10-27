@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Albuterol Sulfate: Repurposing Evaluation — Insufficient Data to Proceed
+## Albuterol Sulfate: Repurposing Evaluation — Insufficient Data to Proceed
+{: .text-alpha }
 
 ## One-Sentence Summary
 

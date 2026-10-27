@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Etoposide: From Small Cell Lung Carcinoma and Germ Cell Tumours to Well-Differentiated Fetal Adenocarcinoma of the Lung
+## Etoposide: From Small Cell Lung Carcinoma and Germ Cell Tumours to Well-Differentiated Fetal Adenocarcinoma of the Lung
+{: .text-alpha }
 
 ## One-Sentence Summary
 

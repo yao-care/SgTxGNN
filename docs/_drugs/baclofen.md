@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Baclofen: From Spasticity (Original Indication Not Listed in Local Records) to Attention Deficit-Hyperactivity Disorder
+## Baclofen: From Spasticity (Original Indication Not Listed in Local Records) to Attention Deficit-Hyperactivity Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

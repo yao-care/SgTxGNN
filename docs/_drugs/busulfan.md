@@ -33,7 +33,8 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Busulfan: From Hematologic Conditioning (Original Indication Not Recorded) to Myelodysplastic Syndrome
+## Busulfan: From Hematologic Conditioning (Original Indication Not Recorded) to Myelodysplastic Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

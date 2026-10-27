@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Gallium Nitrate: From Radiopharmaceutical/Diagnostic Use to Plasma Cell Myeloma
+## Gallium Nitrate: From Radiopharmaceutical/Diagnostic Use to Plasma Cell Myeloma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

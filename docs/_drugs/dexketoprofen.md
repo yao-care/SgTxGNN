@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dexketoprofen: From Acute Pain to Tendinitis
+## Dexketoprofen: From Acute Pain to Tendinitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

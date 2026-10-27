@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Ranibizumab: From Diabetic Retinopathy and Macular Degeneration to Severe Nonproliferative Diabetic Retinopathy
+## Ranibizumab: From Diabetic Retinopathy and Macular Degeneration to Severe Nonproliferative Diabetic Retinopathy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Ciprofloxacin: From Bacterial Infections (Typhoid Fever, Pneumonia, Anthrax and Others) to Diffuse Scleroderma
+## Ciprofloxacin: From Bacterial Infections (Typhoid Fever, Pneumonia, Anthrax and Others) to Diffuse Scleroderma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

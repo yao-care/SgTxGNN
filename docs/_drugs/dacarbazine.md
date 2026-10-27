@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Dacarbazine: From Hodgkin Lymphoma and Metastatic Melanoma to Upper Aerodigestive Tract Neoplasm
+## Dacarbazine: From Hodgkin Lymphoma and Metastatic Melanoma to Upper Aerodigestive Tract Neoplasm
+{: .text-alpha }
 
 ## One-Sentence Summary
 

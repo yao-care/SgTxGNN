@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Copper: From Parenteral Trace-Element Supplementation to Esotropia
+## Copper: From Parenteral Trace-Element Supplementation to Esotropia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

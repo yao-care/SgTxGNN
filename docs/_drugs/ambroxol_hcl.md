@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# AMBROXOL HCL: Repurposing Evaluation — Prediction Pipeline Incomplete
+## AMBROXOL HCL: Repurposing Evaluation — Prediction Pipeline Incomplete
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Binimetinib: From Metastatic Melanoma to Choroideremia
+## Binimetinib: From Metastatic Melanoma to Choroideremia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

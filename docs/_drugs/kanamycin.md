@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Kanamycin: From Urinary Tract Infection to Gonococcal Urethritis
+## Kanamycin: From Urinary Tract Infection to Gonococcal Urethritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

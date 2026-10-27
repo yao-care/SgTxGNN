@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Nemolizumab: From Atopic Dermatitis / Prurigo Nodularis Pruritus to Diabetic Cataract
+## Nemolizumab: From Atopic Dermatitis / Prurigo Nodularis Pruritus to Diabetic Cataract
+{: .text-alpha }
 
 ## One-Sentence Summary
 

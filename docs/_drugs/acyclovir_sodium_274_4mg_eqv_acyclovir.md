@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Acyclovir Sodium: No Repurposing Predictions Available
+## Acyclovir Sodium: No Repurposing Predictions Available
+{: .text-alpha }
 
 ## One-Sentence Summary
 

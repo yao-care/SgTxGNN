@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Captopril: From Hypertension to Malignant Hypertensive Renal Disease
+## Captopril: From Hypertension to Malignant Hypertensive Renal Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

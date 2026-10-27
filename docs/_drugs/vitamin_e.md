@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Vitamin E: From Cholestasis-Related Vitamin E Deficiency to Inborn Disorder of Bilirubin Metabolism
+## Vitamin E: From Cholestasis-Related Vitamin E Deficiency to Inborn Disorder of Bilirubin Metabolism
+{: .text-alpha }
 
 ## One-Sentence Summary
 

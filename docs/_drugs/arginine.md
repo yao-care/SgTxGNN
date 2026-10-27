@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Arginine: From Parenteral Nutrition Amino Acid Supply to Gastroparesis
+## Arginine: From Parenteral Nutrition Amino Acid Supply to Gastroparesis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

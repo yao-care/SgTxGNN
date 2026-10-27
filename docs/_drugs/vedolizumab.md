@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Vedolizumab: From Crohn's Disease and Ulcerative Colitis to Severe Nonproliferative Diabetic Retinopathy
+## Vedolizumab: From Crohn's Disease and Ulcerative Colitis to Severe Nonproliferative Diabetic Retinopathy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

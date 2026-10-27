@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pitavastatin: From Familial Combined Hyperlipidaemia to Homozygous Familial Hypercholesterolaemia
+## Pitavastatin: From Familial Combined Hyperlipidaemia to Homozygous Familial Hypercholesterolaemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

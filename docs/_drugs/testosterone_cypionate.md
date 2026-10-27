@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Testosterone Cypionate: From Male Hypogonadism to Urethral Obstruction Sequence
+## Testosterone Cypionate: From Male Hypogonadism to Urethral Obstruction Sequence
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Titanium dioxide: From an Unspecified Topical Use to Drug-Induced Osteoporosis
+## Titanium dioxide: From an Unspecified Topical Use to Drug-Induced Osteoporosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

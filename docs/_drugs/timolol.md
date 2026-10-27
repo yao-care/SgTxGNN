@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Timolol: From Hypertension and Open-Angle Glaucoma to Primary Hereditary Glaucoma
+## Timolol: From Hypertension and Open-Angle Glaucoma to Primary Hereditary Glaucoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

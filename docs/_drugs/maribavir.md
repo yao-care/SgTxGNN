@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Maribavir: From Cytomegalovirus Infection to Bronchitis
+## Maribavir: From Cytomegalovirus Infection to Bronchitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

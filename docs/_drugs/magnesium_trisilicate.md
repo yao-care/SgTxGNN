@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Magnesium Trisilicate: From Peptic Ulcer Disease to Active Peptic Ulcer Disease
+## Magnesium Trisilicate: From Peptic Ulcer Disease to Active Peptic Ulcer Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

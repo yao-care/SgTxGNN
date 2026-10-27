@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Proline: From Nutritional Amino Acid Supply to Congenital Prothrombin Deficiency
+## Proline: From Nutritional Amino Acid Supply to Congenital Prothrombin Deficiency
+{: .text-alpha }
 
 ## One-Sentence Summary
 

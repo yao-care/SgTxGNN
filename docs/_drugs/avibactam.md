@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Avibactam: From Pyelonephritis to Streptococcal Pneumonia
+## Avibactam: From Pyelonephritis to Streptococcal Pneumonia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

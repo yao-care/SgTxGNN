@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Betahistine: From Meniere Disease to Restless Legs Syndrome
+## Betahistine: From Meniere Disease to Restless Legs Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

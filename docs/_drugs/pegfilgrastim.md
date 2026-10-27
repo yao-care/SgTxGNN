@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pegfilgrastim: From Neutropenia Prophylaxis to Severe Nonproliferative Diabetic Retinopathy
+## Pegfilgrastim: From Neutropenia Prophylaxis to Severe Nonproliferative Diabetic Retinopathy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

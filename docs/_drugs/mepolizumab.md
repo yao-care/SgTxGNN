@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Mepolizumab: From Eosinophilic Pneumonia to Thrombocytopenia Due to Immune Destruction
+## Mepolizumab: From Eosinophilic Pneumonia to Thrombocytopenia Due to Immune Destruction
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Acitretin: From Severe Keratinisation Disorders to Acne (Disease)
+## Acitretin: From Severe Keratinisation Disorders to Acne (Disease)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

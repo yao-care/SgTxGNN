@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Ritonavir: From HIV/AIDS and Hepatitis C to Simian Immunodeficiency Virus Infection
+## Ritonavir: From HIV/AIDS and Hepatitis C to Simian Immunodeficiency Virus Infection
+{: .text-alpha }
 
 ## One-Sentence Summary
 

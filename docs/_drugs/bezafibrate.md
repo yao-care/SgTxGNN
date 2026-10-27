@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Bezafibrate: From Hyperlipidemia to Hypoalphalipoproteinemia
+## Bezafibrate: From Hyperlipidemia to Hypoalphalipoproteinemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

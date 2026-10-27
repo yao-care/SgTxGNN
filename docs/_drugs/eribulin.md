@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Eribulin: From Liposarcoma to Autosomal Recessive Familial Mediterranean Fever
+## Eribulin: From Liposarcoma to Autosomal Recessive Familial Mediterranean Fever
+{: .text-alpha }
 
 ## One-Sentence Summary
 

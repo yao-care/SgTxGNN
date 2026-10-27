@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sertaconazole: From Tinea Pedis to Dermatophytosis of the Groin and Perianal Area
+## Sertaconazole: From Tinea Pedis to Dermatophytosis of the Groin and Perianal Area
+{: .text-alpha }
 
 ## One-Sentence Summary
 

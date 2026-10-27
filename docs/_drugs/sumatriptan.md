@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Sumatriptan: From Migraine and Cluster Headache to Migraine with Brainstem Aura
+## Sumatriptan: From Migraine and Cluster Headache to Migraine with Brainstem Aura
+{: .text-alpha }
 
 ## One-Sentence Summary
 

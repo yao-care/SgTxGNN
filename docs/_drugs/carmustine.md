@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Carmustine: From Lymphoma and Brain Tumours to Lymph Node Cancer
+## Carmustine: From Lymphoma and Brain Tumours to Lymph Node Cancer
+{: .text-alpha }
 
 ## One-Sentence Summary
 

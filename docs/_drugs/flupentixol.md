@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Flupentixol: From Schizophrenia to Retinal Dystrophy (Model Prediction Only)
+## Flupentixol: From Schizophrenia to Retinal Dystrophy (Model Prediction Only)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

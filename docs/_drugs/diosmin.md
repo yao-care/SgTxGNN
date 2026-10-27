@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Diosmin: From Chronic Venous Disease (Inferred) to Amenorrhea
+## Diosmin: From Chronic Venous Disease (Inferred) to Amenorrhea
+{: .text-alpha }
 
 ## One-Sentence Summary
 

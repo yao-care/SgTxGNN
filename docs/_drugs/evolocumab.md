@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Evolocumab: From Homozygous Familial Hypercholesterolemia to Symptomatic Hemophilia in Female Carriers
+## Evolocumab: From Homozygous Familial Hypercholesterolemia to Symptomatic Hemophilia in Female Carriers
+{: .text-alpha }
 
 ## One-Sentence Summary
 

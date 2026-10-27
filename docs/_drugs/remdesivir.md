@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Remdesivir: From an Antiviral Injection to Multiple Endocrine Neoplasia
+## Remdesivir: From an Antiviral Injection to Multiple Endocrine Neoplasia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

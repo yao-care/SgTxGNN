@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dimethicone: From Gastrointestinal Gas Relief to Insomnia
+## Dimethicone: From Gastrointestinal Gas Relief to Insomnia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

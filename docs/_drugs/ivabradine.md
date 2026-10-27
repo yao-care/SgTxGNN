@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ivabradine: From Heart Rate Control to Hypertrichosis
+## Ivabradine: From Heart Rate Control to Hypertrichosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Midostaurin: From Acute Myeloid Leukaemia to Familial Thrombocytosis
+## Midostaurin: From Acute Myeloid Leukaemia to Familial Thrombocytosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

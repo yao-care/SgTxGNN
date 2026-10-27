@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Perindopril: From Hypertension to Malignant Renovascular Hypertension
+## Perindopril: From Hypertension to Malignant Renovascular Hypertension
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Enfortumab vedotin: From Urothelial Cancer to Leprosy (Top TxGNN Prediction)
+## Enfortumab vedotin: From Urothelial Cancer to Leprosy (Top TxGNN Prediction)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

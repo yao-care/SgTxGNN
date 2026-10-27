@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Benzyl Benzoate: From Ectoparasite Treatment to Pharyngitis
+## Benzyl Benzoate: From Ectoparasite Treatment to Pharyngitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

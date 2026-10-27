@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Desvenlafaxine: From Depression to Obsessive-Compulsive Disorder
+## Desvenlafaxine: From Depression to Obsessive-Compulsive Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

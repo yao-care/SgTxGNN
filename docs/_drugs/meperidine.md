@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Meperidine: From Opioid Analgesia to Headache Disorder
+## Meperidine: From Opioid Analgesia to Headache Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

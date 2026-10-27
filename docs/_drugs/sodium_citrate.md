@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sodium Citrate: From Acid-Related Gastric and Upper-Airway Conditions to Papillary Conjunctivitis
+## Sodium Citrate: From Acid-Related Gastric and Upper-Airway Conditions to Papillary Conjunctivitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

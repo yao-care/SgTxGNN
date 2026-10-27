@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Tolterodine: From Overactive Bladder to Low Compliance Bladder
+## Tolterodine: From Overactive Bladder to Low Compliance Bladder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

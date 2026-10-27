@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Formoterol: From Pulmonary Emphysema and Asthma to Bronchitis
+## Formoterol: From Pulmonary Emphysema and Asthma to Bronchitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

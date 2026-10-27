@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Chromic Chloride: From a Parenteral Trace-Element Supplement to Primary Hereditary Glaucoma
+## Chromic Chloride: From a Parenteral Trace-Element Supplement to Primary Hereditary Glaucoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

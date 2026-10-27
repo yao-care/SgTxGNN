@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Cilastatin: From Bacterial Pneumonia to Staphylococcus aureus Infection
+## Cilastatin: From Bacterial Pneumonia to Staphylococcus aureus Infection
+{: .text-alpha }
 
 ## One-Sentence Summary
 

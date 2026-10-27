@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Amphotericin B: From Fungal and Bacterial Infections to Chronic Rhinosinusitis
+## Amphotericin B: From Fungal and Bacterial Infections to Chronic Rhinosinusitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

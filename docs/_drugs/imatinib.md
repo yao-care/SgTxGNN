@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Imatinib: From Chronic Myelogenous Leukaemia and GIST to Heart Fibrosarcoma
+## Imatinib: From Chronic Myelogenous Leukaemia and GIST to Heart Fibrosarcoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

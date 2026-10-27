@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Gadoteric Acid: From MRI Contrast Imaging to Osteoarthritis
+## Gadoteric Acid: From MRI Contrast Imaging to Osteoarthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

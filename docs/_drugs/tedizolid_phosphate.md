@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tedizolid Phosphate: From Skin Infection to Post-Infectious Syndrome
+## Tedizolid Phosphate: From Skin Infection to Post-Infectious Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

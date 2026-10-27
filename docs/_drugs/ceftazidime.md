@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Ceftazidime: From Bacterial Infections to Urinary Tract Infection
+## Ceftazidime: From Bacterial Infections to Urinary Tract Infection
+{: .text-alpha }
 
 ## One-Sentence Summary
 

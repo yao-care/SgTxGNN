@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tagraxofusp: From CD4+/CD56+ Hematodermic Neoplasm to Esotropia
+## Tagraxofusp: From CD4+/CD56+ Hematodermic Neoplasm to Esotropia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

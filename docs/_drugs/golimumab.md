@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Golimumab: From Inflammatory Arthritis and Spondyloarthritis to Rheumatoid Vasculitis
+## Golimumab: From Inflammatory Arthritis and Spondyloarthritis to Rheumatoid Vasculitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

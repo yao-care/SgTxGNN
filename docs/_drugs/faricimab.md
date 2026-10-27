@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Faricimab: From Retinal Vascular Disease to Primary Release Disorder of Platelets
+## Faricimab: From Retinal Vascular Disease to Primary Release Disorder of Platelets
+{: .text-alpha }
 
 ## One-Sentence Summary
 

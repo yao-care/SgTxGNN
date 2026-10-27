@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cariprazine: From Schizophrenia and Bipolar Disorder to Retinal Dystrophy
+## Cariprazine: From Schizophrenia and Bipolar Disorder to Retinal Dystrophy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

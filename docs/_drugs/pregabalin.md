@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Pregabalin: From Anxiety Disorder, Fibromyalgia and Postherpetic Neuralgia to Tendinitis
+## Pregabalin: From Anxiety Disorder, Fibromyalgia and Postherpetic Neuralgia to Tendinitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

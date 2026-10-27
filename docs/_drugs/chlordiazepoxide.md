@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Chlordiazepoxide: From Anxiety and Alcohol Withdrawal to Insomnia
+## Chlordiazepoxide: From Anxiety and Alcohol Withdrawal to Insomnia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

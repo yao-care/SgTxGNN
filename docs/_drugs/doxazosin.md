@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Doxazosin: From Hypertension and Benign Prostatic Hyperplasia to Migraine Disorder
+## Doxazosin: From Hypertension and Benign Prostatic Hyperplasia to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

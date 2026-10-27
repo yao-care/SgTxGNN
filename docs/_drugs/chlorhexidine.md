@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Chlorhexidine: From Gingivitis to Chronic Ethmoidal Sinusitis
+## Chlorhexidine: From Gingivitis to Chronic Ethmoidal Sinusitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

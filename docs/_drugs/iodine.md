@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Iodine: From Iodinated Contrast Imaging to Sjögren Syndrome
+## Iodine: From Iodinated Contrast Imaging to Sjögren Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Carbimazole: From Hyperthyroidism to Resistance to Thyroid Hormone (Thyroid Hormone Receptor Beta Mutation)
+## Carbimazole: From Hyperthyroidism to Resistance to Thyroid Hormone (Thyroid Hormone Receptor Beta Mutation)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Alverine Citrate: Preliminary Screening — Insufficient Data for Full Evaluation
+## Alverine Citrate: Preliminary Screening — Insufficient Data for Full Evaluation
+{: .text-alpha }
 
 ## One-Sentence Summary
 

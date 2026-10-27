@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Tirofiban: From Acute Coronary Syndrome to Primary Release Disorder of Platelets
+## Tirofiban: From Acute Coronary Syndrome to Primary Release Disorder of Platelets
+{: .text-alpha }
 
 ## One-Sentence Summary
 

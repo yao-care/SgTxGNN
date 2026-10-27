@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Nystatin: From Candidiasis to Vulvovaginitis
+## Nystatin: From Candidiasis to Vulvovaginitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

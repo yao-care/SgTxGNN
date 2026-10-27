@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Magnesium Acetate Tetrahydrate: From Parenteral Nutrition Component to Migraine Disorder
+## Magnesium Acetate Tetrahydrate: From Parenteral Nutrition Component to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

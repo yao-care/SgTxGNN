@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Rasburicase: From Hyperuricemia to Renal Hypouricemia
+## Rasburicase: From Hyperuricemia to Renal Hypouricemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

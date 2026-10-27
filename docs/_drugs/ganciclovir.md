@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Ganciclovir: From Cytomegalovirus Retinitis to Cytomegalovirus Pneumonia
+## Ganciclovir: From Cytomegalovirus Retinitis to Cytomegalovirus Pneumonia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

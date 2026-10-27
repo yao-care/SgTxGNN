@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Cabazitaxel: From Prostate Cancer (Taxane Chemotherapy) to Female Breast Carcinoma
+## Cabazitaxel: From Prostate Cancer (Taxane Chemotherapy) to Female Breast Carcinoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

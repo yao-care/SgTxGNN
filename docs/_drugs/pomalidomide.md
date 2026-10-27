@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pomalidomide: From Plasma Cell Myeloma to Indolent Plasma Cell Myeloma
+## Pomalidomide: From Plasma Cell Myeloma to Indolent Plasma Cell Myeloma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dextromethorphan: From Cough and Cold Symptoms to Nasal Cavity Disease
+## Dextromethorphan: From Cough and Cold Symptoms to Nasal Cavity Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

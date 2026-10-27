@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Chlorpheniramine: From Allergic Rhinitis to Allergic Urticaria
+## Chlorpheniramine: From Allergic Rhinitis to Allergic Urticaria
+{: .text-alpha }
 
 ## One-Sentence Summary
 

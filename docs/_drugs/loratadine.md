@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Loratadine: From Allergic Rhinitis to Allergic Urticaria
+## Loratadine: From Allergic Rhinitis to Allergic Urticaria
+{: .text-alpha }
 
 ## One-Sentence Summary
 

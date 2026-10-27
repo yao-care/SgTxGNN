@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Fosfomycin: From Urinary Tract Infection to Ureaplasma Urethritis
+## Fosfomycin: From Urinary Tract Infection to Ureaplasma Urethritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

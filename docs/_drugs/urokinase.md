@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Urokinase: From Pulmonary Embolism to Primary Release Disorder of Platelets
+## Urokinase: From Pulmonary Embolism to Primary Release Disorder of Platelets
+{: .text-alpha }
 
 ## One-Sentence Summary
 

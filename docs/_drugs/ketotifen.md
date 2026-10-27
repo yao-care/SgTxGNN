@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Ketotifen: From Atopic Conjunctivitis to Allergic Urticaria
+## Ketotifen: From Atopic Conjunctivitis to Allergic Urticaria
+{: .text-alpha }
 
 ## One-Sentence Summary
 

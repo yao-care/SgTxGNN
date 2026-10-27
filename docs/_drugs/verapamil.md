@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Verapamil: From Hypertension and Arrhythmia to Malignant Hypertensive Renal Disease
+## Verapamil: From Hypertension and Arrhythmia to Malignant Hypertensive Renal Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

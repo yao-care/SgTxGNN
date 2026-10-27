@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cisatracurium: From Neuromuscular Blockade in Anaesthesia to Cauda Equina Syndrome
+## Cisatracurium: From Neuromuscular Blockade in Anaesthesia to Cauda Equina Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

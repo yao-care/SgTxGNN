@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Abiraterone Acetate: Evidence Pack Incomplete — Evaluation on Hold
+## Abiraterone Acetate: Evidence Pack Incomplete — Evaluation on Hold
+{: .text-alpha }
 
 ## One-Sentence Summary
 

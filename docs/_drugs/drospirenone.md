@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Drospirenone: From Acne and Postmenopausal Atrophic Vaginitis to Elevated Plasma Zinc
+## Drospirenone: From Acne and Postmenopausal Atrophic Vaginitis to Elevated Plasma Zinc
+{: .text-alpha }
 
 ## One-Sentence Summary
 

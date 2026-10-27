@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Trimebutine: From Gastrointestinal Motility Disorders to Migraine Disorder
+## Trimebutine: From Gastrointestinal Motility Disorders to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

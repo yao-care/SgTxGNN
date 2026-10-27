@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Naphazoline: From Nasal and Ocular Decongestion to Hypotrichosis Simplex of the Scalp
+## Naphazoline: From Nasal and Ocular Decongestion to Hypotrichosis Simplex of the Scalp
+{: .text-alpha }
 
 ## One-Sentence Summary
 

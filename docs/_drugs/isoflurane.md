@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Isoflurane: From General Inhalation Anaesthesia to Prinzmetal Angina
+## Isoflurane: From General Inhalation Anaesthesia to Prinzmetal Angina
+{: .text-alpha }
 
 ## One-Sentence Summary
 

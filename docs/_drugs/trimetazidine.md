@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Trimetazidine: From an Unspecified Original Indication to Endolymphatic Hydrops
+## Trimetazidine: From an Unspecified Original Indication to Endolymphatic Hydrops
+{: .text-alpha }
 
 ## One-Sentence Summary
 

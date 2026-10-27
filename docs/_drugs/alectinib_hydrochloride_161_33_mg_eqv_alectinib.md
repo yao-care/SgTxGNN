@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Alectinib: Evaluation Halted — Insufficient Evidence Pack Data
+## Alectinib: Evaluation Halted — Insufficient Evidence Pack Data
+{: .text-alpha }
 
 ## One-Sentence Summary
 

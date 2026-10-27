@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Velaglucerase alfa: From Gaucher Disease to Steel Syndrome
+## Velaglucerase alfa: From Gaucher Disease to Steel Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

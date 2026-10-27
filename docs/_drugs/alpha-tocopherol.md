@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Alpha-Tocopherol: Insufficient Data to Complete Drug Repurposing Assessment
+## Alpha-Tocopherol: Insufficient Data to Complete Drug Repurposing Assessment
+{: .text-alpha }
 
 ## One-Sentence Summary
 

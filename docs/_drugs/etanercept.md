@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Etanercept: From Rheumatoid Arthritis and Spondyloarthritis to Rheumatoid Vasculitis
+## Etanercept: From Rheumatoid Arthritis and Spondyloarthritis to Rheumatoid Vasculitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

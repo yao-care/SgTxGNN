@@ -33,7 +33,8 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Rituximab: From Rheumatoid Arthritis and B-Cell Lymphomas to Follicular Lymphoma
+## Rituximab: From Rheumatoid Arthritis and B-Cell Lymphomas to Follicular Lymphoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

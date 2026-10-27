@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Testosterone: From Hypogonadotropic Hypogonadism and Pituitary Hormone Deficiency to Polysomy of X Chromosome
+## Testosterone: From Hypogonadotropic Hypogonadism and Pituitary Hormone Deficiency to Polysomy of X Chromosome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

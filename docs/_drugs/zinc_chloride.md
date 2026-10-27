@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Zinc Chloride: From Trace Element Supplementation to Severe Nonproliferative Diabetic Retinopathy
+## Zinc Chloride: From Trace Element Supplementation to Severe Nonproliferative Diabetic Retinopathy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Diphenoxylate: From Diarrheal Disease to Gastroduodenitis
+## Diphenoxylate: From Diarrheal Disease to Gastroduodenitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

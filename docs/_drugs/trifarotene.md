@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Trifarotene: From Acne to Elevated Plasma Zinc
+## Trifarotene: From Acne to Elevated Plasma Zinc
+{: .text-alpha }
 
 ## One-Sentence Summary
 

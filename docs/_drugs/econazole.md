@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Econazole: From Superficial Fungal Skin Infections (Tinea) to Majocchi Granuloma
+## Econazole: From Superficial Fungal Skin Infections (Tinea) to Majocchi Granuloma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

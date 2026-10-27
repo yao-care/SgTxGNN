@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Caspofungin: From Esophageal Candidiasis and Candidemia to Gastrin Secretion Abnormality
+## Caspofungin: From Esophageal Candidiasis and Candidemia to Gastrin Secretion Abnormality
+{: .text-alpha }
 
 ## One-Sentence Summary
 

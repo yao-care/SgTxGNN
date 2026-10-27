@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Triamcinolone: From Autoimmune and Inflammatory Disease to Alopecia Mucinosa
+## Triamcinolone: From Autoimmune and Inflammatory Disease to Alopecia Mucinosa
+{: .text-alpha }
 
 ## One-Sentence Summary
 

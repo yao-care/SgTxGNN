@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Ofatumumab: From Acute Lymphoblastic Leukaemia and Richter Syndrome to Follicular Lymphoma
+## Ofatumumab: From Acute Lymphoblastic Leukaemia and Richter Syndrome to Follicular Lymphoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

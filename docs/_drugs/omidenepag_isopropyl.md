@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Omidenepag Isopropyl: From Ocular Hypertension and Glaucoma to Pancreatitis
+## Omidenepag Isopropyl: From Ocular Hypertension and Glaucoma to Pancreatitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

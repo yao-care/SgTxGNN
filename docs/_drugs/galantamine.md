@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Galantamine: From Alzheimer Disease to Psychogenic Movement Disorders
+## Galantamine: From Alzheimer Disease to Psychogenic Movement Disorders
+{: .text-alpha }
 
 ## One-Sentence Summary
 

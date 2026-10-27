@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Histidine: From Parenteral Nutrition Amino Acid Component to Gastroparesis
+## Histidine: From Parenteral Nutrition Amino Acid Component to Gastroparesis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

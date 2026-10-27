@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# 780MG METFORMIN BASE): Insufficient Data Quality to Complete Drug Repurposing Assessment
+## 780MG METFORMIN BASE): Insufficient Data Quality to Complete Drug Repurposing Assessment
+{: .text-alpha }
 
 > ⚠️ **Notice**: This report cannot be completed in standard format due to severe data quality issues with the input data. The following is an analysis of data gaps and recommended actions.
 

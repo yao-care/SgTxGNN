@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Felypressin: From Local Dental Anaesthesia Adjunct (Indication Text Not Recorded) to Drug-Induced Osteoporosis
+## Felypressin: From Local Dental Anaesthesia Adjunct (Indication Text Not Recorded) to Drug-Induced Osteoporosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

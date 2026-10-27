@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dasatinib: From Chronic Myeloid Leukemia to Ewing Sarcoma
+## Dasatinib: From Chronic Myeloid Leukemia to Ewing Sarcoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

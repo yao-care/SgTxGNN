@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Hyaluronidase: From Registered Injectable Use to Esotropia
+## Hyaluronidase: From Registered Injectable Use to Esotropia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

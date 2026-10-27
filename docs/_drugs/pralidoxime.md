@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pralidoxime: From Organophosphate Poisoning to Bronchitis
+## Pralidoxime: From Organophosphate Poisoning to Bronchitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

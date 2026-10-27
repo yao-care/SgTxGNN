@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# L-Lysine: From Parenteral Nutrition (Amino Acid Supply) to Gastroparesis
+## L-Lysine: From Parenteral Nutrition (Amino Acid Supply) to Gastroparesis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

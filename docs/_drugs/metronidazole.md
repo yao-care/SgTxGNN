@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Metronidazole: From Anaerobic Bacterial and Protozoal Infections to Pneumocystosis
+## Metronidazole: From Anaerobic Bacterial and Protozoal Infections to Pneumocystosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

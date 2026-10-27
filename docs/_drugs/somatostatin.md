@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Somatostatin: From an Unspecified Approved Indication to Amenorrhea
+## Somatostatin: From an Unspecified Approved Indication to Amenorrhea
+{: .text-alpha }
 
 ## One-Sentence Summary
 

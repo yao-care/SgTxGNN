@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Daptomycin: From Gram-Positive Bacterial Infections to Osteoarthritis
+## Daptomycin: From Gram-Positive Bacterial Infections to Osteoarthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

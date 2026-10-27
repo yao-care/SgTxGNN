@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Human Immunoglobulin G: From Immune Globulin Therapy to Severe Nonproliferative Diabetic Retinopathy
+## Human Immunoglobulin G: From Immune Globulin Therapy to Severe Nonproliferative Diabetic Retinopathy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

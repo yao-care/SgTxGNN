@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Clarithromycin: From Respiratory and Bacterial Infections to Polyclonal Hyperviscosity Syndrome
+## Clarithromycin: From Respiratory and Bacterial Infections to Polyclonal Hyperviscosity Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

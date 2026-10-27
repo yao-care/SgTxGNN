@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sucralfate: From Duodenal Ulcer to Duodenogastric Reflux
+## Sucralfate: From Duodenal Ulcer to Duodenogastric Reflux
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Taliglucerase alfa: From Gaucher Disease to Hurler Syndrome
+## Taliglucerase alfa: From Gaucher Disease to Hurler Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

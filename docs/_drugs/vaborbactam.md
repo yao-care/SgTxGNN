@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Vaborbactam: From Carbapenem-Resistant Bacterial Infections to Osteoarthritis
+## Vaborbactam: From Carbapenem-Resistant Bacterial Infections to Osteoarthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

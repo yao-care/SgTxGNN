@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Calcium Gluconate: From Osteoporosis and Calcium/Phosphorus Disorders to Calcium-Alkali Syndrome
+## Calcium Gluconate: From Osteoporosis and Calcium/Phosphorus Disorders to Calcium-Alkali Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

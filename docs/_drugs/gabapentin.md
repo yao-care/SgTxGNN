@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Gabapentin: From Restless Legs Syndrome and Postherpetic Neuralgia to Myofascial Pain Syndrome
+## Gabapentin: From Restless Legs Syndrome and Postherpetic Neuralgia to Myofascial Pain Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Nifedipine: From Hypertension to Migraine with Brainstem Aura
+## Nifedipine: From Hypertension to Migraine with Brainstem Aura
+{: .text-alpha }
 
 ## One-Sentence Summary
 

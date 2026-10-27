@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Methionine: From Parenteral Nutrition Amino Acid to Acne
+## Methionine: From Parenteral Nutrition Amino Acid to Acne
+{: .text-alpha }
 
 ## One-Sentence Summary
 

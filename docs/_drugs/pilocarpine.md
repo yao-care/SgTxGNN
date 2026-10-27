@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pilocarpine: From Open-Angle Glaucoma to Primary Hereditary Glaucoma
+## Pilocarpine: From Open-Angle Glaucoma to Primary Hereditary Glaucoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

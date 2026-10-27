@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Fluoxetine: From Depression and Anxiety Disorders to Schizotypal Personality Disorder
+## Fluoxetine: From Depression and Anxiety Disorders to Schizotypal Personality Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

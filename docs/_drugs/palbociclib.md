@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Palbociclib: From Its Licensed Use to Hyperthyroidism (Top TxGNN Prediction), with Myeloid Leukemia as the Best-Supported Candidate
+## Palbociclib: From Its Licensed Use to Hyperthyroidism (Top TxGNN Prediction), with Myeloid Leukemia as the Best-Supported Candidate
+{: .text-alpha }
 
 ## One-Sentence Summary
 

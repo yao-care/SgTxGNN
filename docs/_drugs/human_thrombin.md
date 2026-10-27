@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Human Thrombin: From Topical Hemostatic Sealant to Primary Release Disorder of Platelets
+## Human Thrombin: From Topical Hemostatic Sealant to Primary Release Disorder of Platelets
+{: .text-alpha }
 
 ## One-Sentence Summary
 

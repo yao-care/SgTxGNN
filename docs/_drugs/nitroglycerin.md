@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Nitroglycerin: From Angina and Other Cardiovascular Uses to Pulmonary Hypertension
+## Nitroglycerin: From Angina and Other Cardiovascular Uses to Pulmonary Hypertension
+{: .text-alpha }
 
 ## One-Sentence Summary
 

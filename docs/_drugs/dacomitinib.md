@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dacomitinib: From Its Licensed Oncology Use to Rheumatoid Arthritis
+## Dacomitinib: From Its Licensed Oncology Use to Rheumatoid Arthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

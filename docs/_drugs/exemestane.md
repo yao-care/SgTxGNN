@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Exemestane: From Breast Cancer to Amenorrhea
+## Exemestane: From Breast Cancer to Amenorrhea
+{: .text-alpha }
 
 ## One-Sentence Summary
 

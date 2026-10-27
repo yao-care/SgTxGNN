@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Digoxin: From Atrial Fibrillation to Prinzmetal Angina
+## Digoxin: From Atrial Fibrillation to Prinzmetal Angina
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Isosorbide Dinitrate: From Its Licensed Use to Alopecia (Top Prediction), with Pulmonary Hypertension as the Best-Supported Candidate
+## Isosorbide Dinitrate: From Its Licensed Use to Alopecia (Top Prediction), with Pulmonary Hypertension as the Best-Supported Candidate
+{: .text-alpha }
 
 ## One-Sentence Summary
 

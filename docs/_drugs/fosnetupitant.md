@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Fosnetupitant: From Chemotherapy-Related Nausea and Vomiting to Leprosy
+## Fosnetupitant: From Chemotherapy-Related Nausea and Vomiting to Leprosy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

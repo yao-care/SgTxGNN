@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cabotegravir: From HIV-1 Infection (Antiretroviral Use) to Rheumatoid Arthritis
+## Cabotegravir: From HIV-1 Infection (Antiretroviral Use) to Rheumatoid Arthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

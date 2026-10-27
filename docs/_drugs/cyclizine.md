@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cyclizine: From Motion Sickness and Allergic Rhinitis to Allergic Urticaria
+## Cyclizine: From Motion Sickness and Allergic Rhinitis to Allergic Urticaria
+{: .text-alpha }
 
 ## One-Sentence Summary
 

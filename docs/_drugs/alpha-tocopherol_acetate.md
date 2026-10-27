@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# alpha-Tocopherol acetate: From an Unspecified Original Indication to Drug-Induced Osteoporosis
+## alpha-Tocopherol acetate: From an Unspecified Original Indication to Drug-Induced Osteoporosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Brexpiprazole: From Schizophrenia and Depressive Disorders to Neurotic Depression
+## Brexpiprazole: From Schizophrenia and Depressive Disorders to Neurotic Depression
+{: .text-alpha }
 
 ## One-Sentence Summary
 

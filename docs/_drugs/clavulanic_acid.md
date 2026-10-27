@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Clavulanic Acid: From Bacterial Infections to Ureaplasma Urethritis
+## Clavulanic Acid: From Bacterial Infections to Ureaplasma Urethritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

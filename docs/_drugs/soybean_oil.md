@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Soybean Oil: From Parenteral Nutrition (Lipid Source) to Amenorrhea
+## Soybean Oil: From Parenteral Nutrition (Lipid Source) to Amenorrhea
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Benzoic Acid: From Fibrotic and Autoimmune Skin Conditions to Bronchitis
+## Benzoic Acid: From Fibrotic and Autoimmune Skin Conditions to Bronchitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tianeptine: From Depression (Unconfirmed Label Indication) to Migraine Disorder
+## Tianeptine: From Depression (Unconfirmed Label Indication) to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

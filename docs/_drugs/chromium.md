@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Chromium: From a Marketed Trace-Element Infusion to Osteoarthritis
+## Chromium: From a Marketed Trace-Element Infusion to Osteoarthritis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

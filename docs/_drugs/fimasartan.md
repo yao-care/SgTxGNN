@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Fimasartan: From Hypertension to Pulmonary Hypertension
+## Fimasartan: From Hypertension to Pulmonary Hypertension
+{: .text-alpha }
 
 The first-ranked prediction (pulmonary hypertension) rests on model score alone, with no trials or literature behind it. This report therefore also reviews the better-supported candidate, cerebrovascular disorder, in the evidence sections below.
 

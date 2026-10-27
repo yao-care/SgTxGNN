@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cladribine: From Hairy Cell Leukemia to Parameningeal Embryonal Rhabdomyosarcoma
+## Cladribine: From Hairy Cell Leukemia to Parameningeal Embryonal Rhabdomyosarcoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

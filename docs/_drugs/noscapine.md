@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Noscapine: From Cough Suppression to Scalp Dermatosis
+## Noscapine: From Cough Suppression to Scalp Dermatosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

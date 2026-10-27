@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Polidocanol: From Varicose Disease to Esophageal Varices with Bleeding
+## Polidocanol: From Varicose Disease to Esophageal Varices with Bleeding
+{: .text-alpha }
 
 ## One-Sentence Summary
 

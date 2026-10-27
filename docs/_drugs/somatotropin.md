@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Somatotropin: From Growth Hormone Deficiency and Turner Syndrome to Middle Ear Neuroendocrine Tumor
+## Somatotropin: From Growth Hormone Deficiency and Turner Syndrome to Middle Ear Neuroendocrine Tumor
+{: .text-alpha }
 
 ## One-Sentence Summary
 

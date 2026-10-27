@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Calcium Carbonate: From Hypercalcemia/Dyspepsia to Calcium-Alkali Syndrome
+## Calcium Carbonate: From Hypercalcemia/Dyspepsia to Calcium-Alkali Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

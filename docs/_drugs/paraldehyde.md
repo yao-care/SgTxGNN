@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Paraldehyde: From Sedative-Hypnotic Use to Irritable Bowel Syndrome
+## Paraldehyde: From Sedative-Hypnotic Use to Irritable Bowel Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

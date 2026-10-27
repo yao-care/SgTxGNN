@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Neomycin: From Topical and Gut-Luminal Antibacterial Use to Irritable Bowel Syndrome
+## Neomycin: From Topical and Gut-Luminal Antibacterial Use to Irritable Bowel Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

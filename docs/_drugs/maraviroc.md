@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Maraviroc: From an Unspecified Original Indication to Multiple Endocrine Neoplasia
+## Maraviroc: From an Unspecified Original Indication to Multiple Endocrine Neoplasia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pentetic Acid: From Diagnostic Imaging Agent to Thrombocytopenic Purpura
+## Pentetic Acid: From Diagnostic Imaging Agent to Thrombocytopenic Purpura
+{: .text-alpha }
 
 ## One-Sentence Summary
 

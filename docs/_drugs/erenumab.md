@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Erenumab: From Migraine to Migraine with Brainstem Aura
+## Erenumab: From Migraine to Migraine with Brainstem Aura
+{: .text-alpha }
 
 ## One-Sentence Summary
 

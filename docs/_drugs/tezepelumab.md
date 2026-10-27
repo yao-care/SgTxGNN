@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tezepelumab: From an Unspecified Original Indication to Diabetic Cataract
+## Tezepelumab: From an Unspecified Original Indication to Diabetic Cataract
+{: .text-alpha }
 
 ## One-Sentence Summary
 

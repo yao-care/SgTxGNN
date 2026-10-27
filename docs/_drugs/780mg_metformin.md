@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Metformin: Incomplete Data — Unable to Generate Drug Repurposing Assessment Report
+## Metformin: Incomplete Data — Unable to Generate Drug Repurposing Assessment Report
+{: .text-alpha }
 
 ---
 

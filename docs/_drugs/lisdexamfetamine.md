@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Lisdexamfetamine: From Attention Deficit Hyperactivity Disorder to Specific Developmental Disorder
+## Lisdexamfetamine: From Attention Deficit Hyperactivity Disorder to Specific Developmental Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

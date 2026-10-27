@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Atracurium: From Neuromuscular Blockade to Myofascial Pain Syndrome
+## Atracurium: From Neuromuscular Blockade to Myofascial Pain Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

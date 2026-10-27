@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Bisacodyl: From Constipation to Exercise-Induced Malignant Hyperthermia
+## Bisacodyl: From Constipation to Exercise-Induced Malignant Hyperthermia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

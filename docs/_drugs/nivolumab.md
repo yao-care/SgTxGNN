@@ -31,7 +31,8 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Nivolumab: From Non-Small Cell Lung Cancer and Metastatic Melanoma to Non-Cutaneous Melanoma
+## Nivolumab: From Non-Small Cell Lung Cancer and Metastatic Melanoma to Non-Cutaneous Melanoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

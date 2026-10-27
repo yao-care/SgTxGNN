@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Chlorpromazine: From Schizophrenia and Other Psychotic Disorders to Retinal Dystrophy with or without Extraocular Anomalies
+## Chlorpromazine: From Schizophrenia and Other Psychotic Disorders to Retinal Dystrophy with or without Extraocular Anomalies
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Methyl Salicylate: From an Unspecified Topical Indication to Gout
+## Methyl Salicylate: From an Unspecified Topical Indication to Gout
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Buclizine: From Motion Sickness to Allergic Urticaria
+## Buclizine: From Motion Sickness to Allergic Urticaria
+{: .text-alpha }
 
 ## One-Sentence Summary
 

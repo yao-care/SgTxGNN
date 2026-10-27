@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Isatuximab: From Plasma Cell Myeloma to Indolent Plasma Cell Myeloma
+## Isatuximab: From Plasma Cell Myeloma to Indolent Plasma Cell Myeloma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

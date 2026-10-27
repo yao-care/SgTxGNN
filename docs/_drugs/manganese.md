@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Manganese: From Trace-Element Parenteral Nutrition to Sclerosing Cholangitis
+## Manganese: From Trace-Element Parenteral Nutrition to Sclerosing Cholangitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

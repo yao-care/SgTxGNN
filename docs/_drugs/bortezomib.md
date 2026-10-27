@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Bortezomib: From Plasma Cell Myeloma to Vertebral Anomalies and Variable Endocrine and T-Cell Dysfunction
+## Bortezomib: From Plasma Cell Myeloma to Vertebral Anomalies and Variable Endocrine and T-Cell Dysfunction
+{: .text-alpha }
 
 ## One-Sentence Summary
 

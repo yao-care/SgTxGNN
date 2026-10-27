@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Risperidone: From Schizophrenia and Bipolar Disorder to Major Affective Disorder
+## Risperidone: From Schizophrenia and Bipolar Disorder to Major Affective Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

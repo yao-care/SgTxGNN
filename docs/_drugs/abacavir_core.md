@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Abacavir: HIV Antiretroviral — No Repurposing Predictions Available
+## Abacavir: HIV Antiretroviral — No Repurposing Predictions Available
+{: .text-alpha }
 
 ## One-Sentence Summary
 

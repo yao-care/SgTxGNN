@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Zanubrutinib: From Mantle Cell Lymphoma to Myeloid Leukemia
+## Zanubrutinib: From Mantle Cell Lymphoma to Myeloid Leukemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

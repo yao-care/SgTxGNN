@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Proparacaine: From Ocular Surface Anesthesia to Cauda Equina Syndrome
+## Proparacaine: From Ocular Surface Anesthesia to Cauda Equina Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

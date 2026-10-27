@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Bromazepam: From Anxiety Treatment to Migraine Disorder
+## Bromazepam: From Anxiety Treatment to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

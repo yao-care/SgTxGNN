@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Undecylenic Acid: From Tinea Pedis and Tinea Corporis to Dermatophytosis of the Groin and Perianal Area
+## Undecylenic Acid: From Tinea Pedis and Tinea Corporis to Dermatophytosis of the Groin and Perianal Area
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **5**
 
 </div>
 
-# Pentamidine: From Pneumocystosis and Trypanosomiasis to Punctate Epithelial Keratoconjunctivitis
+## Pentamidine: From Pneumocystosis and Trypanosomiasis to Punctate Epithelial Keratoconjunctivitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **1**
 
 </div>
 
-# Selenium: From Trace-Element Supplementation (Parenteral) to Sclerosing Cholangitis
+## Selenium: From Trace-Element Supplementation (Parenteral) to Sclerosing Cholangitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

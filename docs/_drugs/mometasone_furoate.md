@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Mometasone Furoate: From Inflammatory Skin and Airway Diseases to Polyp of Middle Ear
+## Mometasone Furoate: From Inflammatory Skin and Airway Diseases to Polyp of Middle Ear
+{: .text-alpha }
 
 ## One-Sentence Summary
 

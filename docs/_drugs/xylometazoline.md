@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Xylometazoline: From Pharyngitis and Common Cold to Nasal Cavity Disease
+## Xylometazoline: From Pharyngitis and Common Cold to Nasal Cavity Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

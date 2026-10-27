@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Benserazide: From Parkinsonism to Congenital Hypotrichosis Milia
+## Benserazide: From Parkinsonism to Congenital Hypotrichosis Milia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

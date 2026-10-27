@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Milrinone: From Congestive Heart Failure to Alopecia
+## Milrinone: From Congestive Heart Failure to Alopecia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

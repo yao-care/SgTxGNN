@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Urea: From Dermatitis-Type Skin Conditions to Dermatitis (Radiation- and Drug-Induced Settings)
+## Urea: From Dermatitis-Type Skin Conditions to Dermatitis (Radiation- and Drug-Induced Settings)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

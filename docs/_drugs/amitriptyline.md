@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Amitriptyline: From Anxiety and Depressive Disorders to Benign Paroxysmal Torticollis of Infancy
+## Amitriptyline: From Anxiety and Depressive Disorders to Benign Paroxysmal Torticollis of Infancy
+{: .text-alpha }
 
 ## One-Sentence Summary
 

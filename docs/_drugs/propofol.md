@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Propofol: From General Anaesthesia and Sedation to Migraine Disorder
+## Propofol: From General Anaesthesia and Sedation to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

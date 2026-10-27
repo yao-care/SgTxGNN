@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dydrogesterone: From Hormonal Gynaecological Use to Seborrheic Keratosis (Top-Ranked TxGNN Prediction)
+## Dydrogesterone: From Hormonal Gynaecological Use to Seborrheic Keratosis (Top-Ranked TxGNN Prediction)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

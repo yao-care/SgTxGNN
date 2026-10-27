@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Nandrolone Decanoate: From an Unspecified Original Indication to Brain Small Vessel Disease (COL4A1-related)
+## Nandrolone Decanoate: From an Unspecified Original Indication to Brain Small Vessel Disease (COL4A1-related)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

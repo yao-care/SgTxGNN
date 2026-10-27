@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Metformin: Data Quality Issue — Drug Repurposing Analysis Pending
+## Metformin: Data Quality Issue — Drug Repurposing Analysis Pending
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Cysteine: From Respiratory and Mucolytic Uses to Dry Eye Syndrome
+## Cysteine: From Respiratory and Mucolytic Uses to Dry Eye Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

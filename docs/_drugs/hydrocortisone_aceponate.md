@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Hydrocortisone Aceponate: From Topical Corticosteroid Therapy to Gout
+## Hydrocortisone Aceponate: From Topical Corticosteroid Therapy to Gout
+{: .text-alpha }
 
 ## One-Sentence Summary
 

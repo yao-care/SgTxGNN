@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Butylscopolamine: From Gastrointestinal Spasm to Irritable Bowel Syndrome
+## Butylscopolamine: From Gastrointestinal Spasm to Irritable Bowel Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

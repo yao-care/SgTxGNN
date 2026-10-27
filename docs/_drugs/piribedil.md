@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Piribedil: From Parkinson Disease to Retinal Dystrophy with or without Extraocular Anomalies
+## Piribedil: From Parkinson Disease to Retinal Dystrophy with or without Extraocular Anomalies
+{: .text-alpha }
 
 ## One-Sentence Summary
 

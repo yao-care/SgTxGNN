@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Lenvatinib: From Renal Cell Carcinoma and Thyroid Cancer to Liposarcoma
+## Lenvatinib: From Renal Cell Carcinoma and Thyroid Cancer to Liposarcoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

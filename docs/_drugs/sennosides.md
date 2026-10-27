@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sennosides: From Constipation Treatment to Hypotrichosis Simplex of the Scalp
+## Sennosides: From Constipation Treatment to Hypotrichosis Simplex of the Scalp
+{: .text-alpha }
 
 ## One-Sentence Summary
 

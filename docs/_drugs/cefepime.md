@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cefepime: From Bacterial Infections to Polyclonal Hyperviscosity Syndrome
+## Cefepime: From Bacterial Infections to Polyclonal Hyperviscosity Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Peppermint Oil: From an Oral Enteric-Coated Capsule to Leprosy (Predicted)
+## Peppermint Oil: From an Oral Enteric-Coated Capsule to Leprosy (Predicted)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

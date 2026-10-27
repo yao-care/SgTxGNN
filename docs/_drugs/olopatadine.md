@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Olopatadine: From Allergic Conjunctivitis and Rhinitis to Rosacea Conjunctivitis
+## Olopatadine: From Allergic Conjunctivitis and Rhinitis to Rosacea Conjunctivitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

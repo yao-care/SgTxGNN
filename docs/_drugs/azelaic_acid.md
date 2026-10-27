@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Azelaic Acid: From Acne and Rosacea to Seborrheic Dermatitis
+## Azelaic Acid: From Acne and Rosacea to Seborrheic Dermatitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

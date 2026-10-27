@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Eplerenone: From Hypertension to Pulmonary Hypertension
+## Eplerenone: From Hypertension to Pulmonary Hypertension
+{: .text-alpha }
 
 ## One-Sentence Summary
 

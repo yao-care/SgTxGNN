@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Desonide: From Inflammatory Skin and Allergic Conditions to Polyp of Vocal Cord
+## Desonide: From Inflammatory Skin and Allergic Conditions to Polyp of Vocal Cord
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Cyproheptadine: From Allergic Rhinitis and Urticaria to Allergic Urticaria
+## Cyproheptadine: From Allergic Rhinitis and Urticaria to Allergic Urticaria
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Misoprostol: From Gastric Ulcer Prevention to Amenorrhea
+## Misoprostol: From Gastric Ulcer Prevention to Amenorrhea
+{: .text-alpha }
 
 ## One-Sentence Summary
 

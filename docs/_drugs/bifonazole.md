@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Bifonazole: From Topical Antifungal Use to Pulmonary Hypertension
+## Bifonazole: From Topical Antifungal Use to Pulmonary Hypertension
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Magnesium Oxide: From Osteoporosis and Dyspepsia to Calcium-Alkali Syndrome
+## Magnesium Oxide: From Osteoporosis and Dyspepsia to Calcium-Alkali Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

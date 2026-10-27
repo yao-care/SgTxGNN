@@ -32,7 +32,8 @@ Evidence Level: **L5** | Predicted Indications: **0**
 
 </div>
 
-# Amiloride HCL: Drug Repurposing Candidate — Insufficient Evidence Pack for Full Analysis
+## Amiloride HCL: Drug Repurposing Candidate — Insufficient Evidence Pack for Full Analysis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

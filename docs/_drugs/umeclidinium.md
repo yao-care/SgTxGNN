@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Umeclidinium: From Respiratory Disease (COPD) to Migraine Disorder
+## Umeclidinium: From Respiratory Disease (COPD) to Migraine Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Nortriptyline: From Anxiety Disorder to Attention Deficit-Hyperactivity Disorder
+## Nortriptyline: From Anxiety Disorder to Attention Deficit-Hyperactivity Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Vinpocetine: From Dementia to Coronary Artery Disease
+## Vinpocetine: From Dementia to Coronary Artery Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

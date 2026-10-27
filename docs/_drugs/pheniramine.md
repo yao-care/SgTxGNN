@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Pheniramine: From Allergic and Upper Respiratory Conditions to Allergic Urticaria
+## Pheniramine: From Allergic and Upper Respiratory Conditions to Allergic Urticaria
+{: .text-alpha }
 
 ## One-Sentence Summary
 

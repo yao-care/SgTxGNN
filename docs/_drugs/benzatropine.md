@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Benzatropine: From Parkinson Disease to PLA2G6-Associated Neurodegeneration
+## Benzatropine: From Parkinson Disease to PLA2G6-Associated Neurodegeneration
+{: .text-alpha }
 
 ## One-Sentence Summary
 
@@ -101,7 +102,8 @@ The prediction score is very high, but there are no clinical trials or publicati
 
 ---
 
-# Supplementary Prediction: Attention Deficit-Hyperactivity Disorder
+## Supplementary Prediction: Attention Deficit-Hyperactivity Disorder
+{: .text-alpha }
 
 The second-ranked prediction is **attention deficit-hyperactivity disorder** (TxGNN score 99.03%, evidence level L5, decision **Hold**). It has no clinical trials and no literature in the compiled data.
 

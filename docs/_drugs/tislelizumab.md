@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Tislelizumab: From Advanced Solid Tumours to Mixed-Type Autoimmune Hemolytic Anemia
+## Tislelizumab: From Advanced Solid Tumours to Mixed-Type Autoimmune Hemolytic Anemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

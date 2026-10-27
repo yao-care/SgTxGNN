@@ -33,7 +33,8 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Anastrozole: From Breast Cancer (Registered Indication) to Female Breast Carcinoma
+## Anastrozole: From Breast Cancer (Registered Indication) to Female Breast Carcinoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

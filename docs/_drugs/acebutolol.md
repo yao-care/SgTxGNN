@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Acebutolol: From Hypertension to Malignant Renovascular Hypertension
+## Acebutolol: From Hypertension to Malignant Renovascular Hypertension
+{: .text-alpha }
 
 ## One-Sentence Summary
 

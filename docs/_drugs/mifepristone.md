@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Mifepristone: From Pregnancy Termination to Punctate Epithelial Keratoconjunctivitis
+## Mifepristone: From Pregnancy Termination to Punctate Epithelial Keratoconjunctivitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

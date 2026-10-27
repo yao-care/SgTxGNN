@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Sulfasalazine: From Rheumatoid Arthritis and Inflammatory Bowel Disease to Brachydactyly-Syndactyly Syndrome
+## Sulfasalazine: From Rheumatoid Arthritis and Inflammatory Bowel Disease to Brachydactyly-Syndactyly Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

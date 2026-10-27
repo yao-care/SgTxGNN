@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Gatifloxacin: From Bacterial Pneumonia to Polyclonal Hyperviscosity Syndrome
+## Gatifloxacin: From Bacterial Pneumonia to Polyclonal Hyperviscosity Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

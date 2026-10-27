@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Fludrocortisone: From Mineralocorticoid Replacement to Primary Cutaneous T-Cell Lymphoma
+## Fludrocortisone: From Mineralocorticoid Replacement to Primary Cutaneous T-Cell Lymphoma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

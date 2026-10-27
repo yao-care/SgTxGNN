@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Dexlansoprazole: From Peptic Ulcer Disease / GERD to Active Peptic Ulcer Disease
+## Dexlansoprazole: From Peptic Ulcer Disease / GERD to Active Peptic Ulcer Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Choriogonadotropin alfa: From an Unspecified Original Indication to Peptic Esophagitis
+## Choriogonadotropin alfa: From an Unspecified Original Indication to Peptic Esophagitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

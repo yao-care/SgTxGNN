@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Magnesium Chloride: From Electrolyte/Dialysis Solution Component to Congestive Heart Failure
+## Magnesium Chloride: From Electrolyte/Dialysis Solution Component to Congestive Heart Failure
+{: .text-alpha }
 
 ## One-Sentence Summary
 

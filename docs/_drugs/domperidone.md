@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Domperidone: From Upper Gastrointestinal Symptoms to Headache Disorder
+## Domperidone: From Upper Gastrointestinal Symptoms to Headache Disorder
+{: .text-alpha }
 
 ## One-Sentence Summary
 

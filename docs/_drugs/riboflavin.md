@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Riboflavin: From Vitamin Deficiency Disorder to Biotin Metabolic Disease
+## Riboflavin: From Vitamin Deficiency Disorder to Biotin Metabolic Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

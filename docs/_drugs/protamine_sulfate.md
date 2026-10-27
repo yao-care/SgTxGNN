@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Protamine Sulfate: From Heparin Reversal to Self-Limited Neonatal/Infantile Seizures
+## Protamine Sulfate: From Heparin Reversal to Self-Limited Neonatal/Infantile Seizures
+{: .text-alpha }
 
 ## One-Sentence Summary
 

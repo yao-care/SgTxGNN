@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Prucalopride: From Constipation to Hypoalphalipoproteinemia
+## Prucalopride: From Constipation to Hypoalphalipoproteinemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

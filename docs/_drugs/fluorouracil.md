@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Fluorouracil: From Gastric Cancer and Skin Conditions to Rhabdomyosarcoma (Botryoid-Type Embryonal Rhabdomyosarcoma of the Vagina)
+## Fluorouracil: From Gastric Cancer and Skin Conditions to Rhabdomyosarcoma (Botryoid-Type Embryonal Rhabdomyosarcoma of the Vagina)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

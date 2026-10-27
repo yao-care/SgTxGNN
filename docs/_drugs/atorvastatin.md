@@ -33,7 +33,8 @@ Evidence Level: **L1** | Predicted Indications: **10**
 
 </div>
 
-# Atorvastatin: From Hyperlipidaemia and Atherosclerotic Disease to Familial Hypercholesterolemia
+## Atorvastatin: From Hyperlipidaemia and Atherosclerotic Disease to Familial Hypercholesterolemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Gemeprost: From Obstetric Use (Cervical Softening and Pregnancy Termination) to Atypical Coarctation of Aorta
+## Gemeprost: From Obstetric Use (Cervical Softening and Pregnancy Termination) to Atypical Coarctation of Aorta
+{: .text-alpha }
 
 ## One-Sentence Summary
 

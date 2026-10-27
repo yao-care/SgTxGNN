@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Triclosan: From an Unspecified Topical Antimicrobial Use to Acne
+## Triclosan: From an Unspecified Topical Antimicrobial Use to Acne
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Amiloride: From Hypertension to Malignant Hypertensive Renal Disease
+## Amiloride: From Hypertension to Malignant Hypertensive Renal Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L3** | Predicted Indications: **10**
 
 </div>
 
-# Danazol: From Endometriosis to Amenorrhea (Menstrual Suppression)
+## Danazol: From Endometriosis to Amenorrhea (Menstrual Suppression)
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L2** | Predicted Indications: **10**
 
 </div>
 
-# Pentoxifylline: From Peripheral Vascular Disease to Ischemic Disease
+## Pentoxifylline: From Peripheral Vascular Disease to Ischemic Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

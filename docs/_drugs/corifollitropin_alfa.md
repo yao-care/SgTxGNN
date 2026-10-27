@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Corifollitropin alfa: From Assisted Reproduction to Gastroduodenitis
+## Corifollitropin alfa: From Assisted Reproduction to Gastroduodenitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

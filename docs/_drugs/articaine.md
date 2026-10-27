@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Articaine: From Local Anaesthesia to Gout
+## Articaine: From Local Anaesthesia to Gout
+{: .text-alpha }
 
 ## One-Sentence Summary
 

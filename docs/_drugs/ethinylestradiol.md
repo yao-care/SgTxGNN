@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Ethinylestradiol: From Acne and Menopausal Conditions to Zinc, Elevated Plasma
+## Ethinylestradiol: From Acne and Menopausal Conditions to Zinc, Elevated Plasma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

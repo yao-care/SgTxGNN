@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Darbepoetin alfa: From Anaemia (Erythropoiesis Stimulation) to Amenorrhea
+## Darbepoetin alfa: From Anaemia (Erythropoiesis Stimulation) to Amenorrhea
+{: .text-alpha }
 
 ## One-Sentence Summary
 

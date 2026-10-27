@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Alemtuzumab: From Relapsing-Remitting Multiple Sclerosis to Hepatic Infarction
+## Alemtuzumab: From Relapsing-Remitting Multiple Sclerosis to Hepatic Infarction
+{: .text-alpha }
 
 ## One-Sentence Summary
 

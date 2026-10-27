@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Pamidronic Acid: From Humoral Hypercalcemia of Malignancy to HIV Infectious Disease
+## Pamidronic Acid: From Humoral Hypercalcemia of Malignancy to HIV Infectious Disease
+{: .text-alpha }
 
 ## One-Sentence Summary
 

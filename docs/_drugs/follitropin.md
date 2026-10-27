@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Follitropin: From Infertility Treatment to Allergic Asthma
+## Follitropin: From Infertility Treatment to Allergic Asthma
+{: .text-alpha }
 
 ## One-Sentence Summary
 

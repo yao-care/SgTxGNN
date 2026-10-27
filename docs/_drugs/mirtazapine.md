@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Mirtazapine: From Depression to Ohdo Syndrome and Variants
+## Mirtazapine: From Depression to Ohdo Syndrome and Variants
+{: .text-alpha }
 
 ## One-Sentence Summary
 

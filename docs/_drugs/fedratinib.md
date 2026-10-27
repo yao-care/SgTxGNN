@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Fedratinib: From Myelofibrosis to Benign PEComa
+## Fedratinib: From Myelofibrosis to Benign PEComa
+{: .text-alpha }
 
 ## One-Sentence Summary
 

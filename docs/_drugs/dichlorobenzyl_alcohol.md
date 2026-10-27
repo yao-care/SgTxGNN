@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **2**
 
 </div>
 
-# Dichlorobenzyl Alcohol: From Sore Throat Lozenge Use to Bronchitis
+## Dichlorobenzyl Alcohol: From Sore Throat Lozenge Use to Bronchitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Erdosteine: From Respiratory Mucolytic Use to Macrothrombocytopenia with Mitral Valve Insufficiency
+## Erdosteine: From Respiratory Mucolytic Use to Macrothrombocytopenia with Mitral Valve Insufficiency
+{: .text-alpha }
 
 ## One-Sentence Summary
 

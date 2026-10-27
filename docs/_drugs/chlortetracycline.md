@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Chlortetracycline: From Trachoma to Postinfectious Vasculitis
+## Chlortetracycline: From Trachoma to Postinfectious Vasculitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

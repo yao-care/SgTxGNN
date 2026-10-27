@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Testosterone Undecanoate: From Hypogonadism to Homozygous Familial Hypercholesterolemia
+## Testosterone Undecanoate: From Hypogonadism to Homozygous Familial Hypercholesterolemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

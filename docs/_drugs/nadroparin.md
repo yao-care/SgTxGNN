@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Nadroparin: From Thromboembolic Disorders to Pulmonary Embolism
+## Nadroparin: From Thromboembolic Disorders to Pulmonary Embolism
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Protein C: From Unspecified Original Indication to Glanzmann Thrombasthenia (Top Prediction) — Best-Supported Use: Inherited Thrombophilia
+## Protein C: From Unspecified Original Indication to Glanzmann Thrombasthenia (Top Prediction) — Best-Supported Use: Inherited Thrombophilia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Cyclophosphamide: From Lymphoma and Breast Carcinoma to Myeloid Leukemia
+## Cyclophosphamide: From Lymphoma and Breast Carcinoma to Myeloid Leukemia
+{: .text-alpha }
 
 ## One-Sentence Summary
 

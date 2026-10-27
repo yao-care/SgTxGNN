@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Adalimumab: From Inflammatory Arthritis and Bowel Disease to Rheumatoid Vasculitis
+## Adalimumab: From Inflammatory Arthritis and Bowel Disease to Rheumatoid Vasculitis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

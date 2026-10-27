@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Aprotinin: From Antifibrinolytic Use in Surgical Bleeding to Primary Release Disorder of Platelets
+## Aprotinin: From Antifibrinolytic Use in Surgical Bleeding to Primary Release Disorder of Platelets
+{: .text-alpha }
 
 ## One-Sentence Summary
 

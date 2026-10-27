@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Racecadotril: From Acute Diarrhea to Polyclonal Hyperviscosity Syndrome
+## Racecadotril: From Acute Diarrhea to Polyclonal Hyperviscosity Syndrome
+{: .text-alpha }
 
 ## One-Sentence Summary
 

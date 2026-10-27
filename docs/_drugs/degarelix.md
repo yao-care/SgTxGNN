@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Degarelix: From Its Approved Use in Advanced Prostate Cancer to Hypertrichosis
+## Degarelix: From Its Approved Use in Advanced Prostate Cancer to Hypertrichosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

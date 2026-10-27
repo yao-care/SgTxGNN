@@ -33,7 +33,8 @@ Evidence Level: **L5** | Predicted Indications: **10**
 
 </div>
 
-# Rabeprazole: From Peptic Ulcer Disease and Reflux Disease to Smouldering Systemic Mastocytosis
+## Rabeprazole: From Peptic Ulcer Disease and Reflux Disease to Smouldering Systemic Mastocytosis
+{: .text-alpha }
 
 ## One-Sentence Summary
 

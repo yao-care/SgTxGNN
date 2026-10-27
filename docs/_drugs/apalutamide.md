@@ -33,7 +33,8 @@ Evidence Level: **L4** | Predicted Indications: **10**
 
 </div>
 
-# Apalutamide: From Prostate Cancer to Benign Neoplasm of Prostate
+## Apalutamide: From Prostate Cancer to Benign Neoplasm of Prostate
+{: .text-alpha }
 
 ## One-Sentence Summary
 
