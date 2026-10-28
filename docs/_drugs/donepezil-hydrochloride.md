@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | DONEPEZIL HYDROCHLORIDE |
 | DrugBank ID | [DB00843](https://go.drugbank.com/drugs/DB00843) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 18 |
 | DL Predictions (≥0.7) | 50 |

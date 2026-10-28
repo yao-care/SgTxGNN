@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | FLECAINIDE ACETATE |
 | DrugBank ID | [DB01195](https://go.drugbank.com/drugs/DB01195) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 39 |
 | DL Predictions (≥0.7) | 50 |

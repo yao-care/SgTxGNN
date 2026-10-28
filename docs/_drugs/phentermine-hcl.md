@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | PHENTERMINE HCL |
 | DrugBank ID | [DB00191](https://go.drugbank.com/drugs/DB00191) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 10 |
 | DL Predictions (≥0.7) | 13 |

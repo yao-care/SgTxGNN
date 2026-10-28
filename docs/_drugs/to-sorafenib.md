@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | TO SORAFENIB |
 | DrugBank ID | [DB00398](https://go.drugbank.com/drugs/DB00398) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 66 |
 | DL Predictions (≥0.7) | 50 |

@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | BETAXOLOL HYDROCHLORIDE |
 | DrugBank ID | [DB00195](https://go.drugbank.com/drugs/DB00195) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 10 |
 | DL Predictions (≥0.7) | 18 |

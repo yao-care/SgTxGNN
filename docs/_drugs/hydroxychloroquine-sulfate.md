@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | HYDROXYCHLOROQUINE SULFATE |
 | DrugBank ID | [DB01611](https://go.drugbank.com/drugs/DB01611) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 36 |
 | DL Predictions (≥0.7) | 50 |

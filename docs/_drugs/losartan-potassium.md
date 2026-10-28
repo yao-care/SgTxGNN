@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | LOSARTAN POTASSIUM |
 | DrugBank ID | [DB00678](https://go.drugbank.com/drugs/DB00678) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 66 |
 | DL Predictions (≥0.7) | 21 |

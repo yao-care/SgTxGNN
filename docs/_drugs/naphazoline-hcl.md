@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | NAPHAZOLINE HCL |
 | DrugBank ID | [DB06711](https://go.drugbank.com/drugs/DB06711) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 22 |
 | DL Predictions (≥0.7) | 50 |

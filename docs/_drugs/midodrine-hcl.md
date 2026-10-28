@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | MIDODRINE HCL |
 | DrugBank ID | [DB00211](https://go.drugbank.com/drugs/DB00211) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 18 |
 | DL Predictions (≥0.7) | 50 |

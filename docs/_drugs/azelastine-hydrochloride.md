@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | AZELASTINE HYDROCHLORIDE |
 | DrugBank ID | [DB00972](https://go.drugbank.com/drugs/DB00972) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 28 |
 | DL Predictions (≥0.7) | 48 |

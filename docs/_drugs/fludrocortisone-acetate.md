@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | FLUDROCORTISONE ACETATE |
 | DrugBank ID | [DB00687](https://go.drugbank.com/drugs/DB00687) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 148 |
 | DL Predictions (≥0.7) | 50 |

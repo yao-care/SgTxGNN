@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | TO QUETIAPINE |
 | DrugBank ID | [DB01224](https://go.drugbank.com/drugs/DB01224) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 36 |
 | DL Predictions (≥0.7) | 50 |

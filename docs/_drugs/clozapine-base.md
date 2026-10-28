@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | CLOZAPINE BASE |
 | DrugBank ID | [DB00363](https://go.drugbank.com/drugs/DB00363) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 22 |
 | DL Predictions (≥0.7) | 50 |

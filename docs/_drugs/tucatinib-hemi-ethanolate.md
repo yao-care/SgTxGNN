@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | TUCATINIB HEMI ETHANOLATE) |
 | DrugBank ID | [DB11652](https://go.drugbank.com/drugs/DB11652) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 24 |
 | DL Predictions (≥0.7) | 50 |

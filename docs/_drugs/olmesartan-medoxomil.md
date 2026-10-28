@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | OLMESARTAN MEDOXOMIL |
 | DrugBank ID | [DB00275](https://go.drugbank.com/drugs/DB00275) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 108 |
 | DL Predictions (≥0.7) | 50 |

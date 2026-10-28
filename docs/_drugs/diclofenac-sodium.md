@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | DICLOFENAC SODIUM |
 | DrugBank ID | [DB00586](https://go.drugbank.com/drugs/DB00586) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 45 |
 | DL Predictions (≥0.7) | 50 |

@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | ELEMENTARY IRON |
 | DrugBank ID | [DB15617](https://go.drugbank.com/drugs/DB15617) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 7 |
 | DL Predictions (≥0.7) | 50 |

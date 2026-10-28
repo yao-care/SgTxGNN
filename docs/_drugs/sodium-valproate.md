@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | SODIUM VALPROATE |
 | DrugBank ID | [DB00313](https://go.drugbank.com/drugs/DB00313) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 12 |
 | DL Predictions (≥0.7) | 50 |

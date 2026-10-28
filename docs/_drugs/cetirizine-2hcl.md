@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | CETIRIZINE 2HCL |
 | DrugBank ID | [DB00341](https://go.drugbank.com/drugs/DB00341) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 20 |
 | DL Predictions (≥0.7) | 42 |

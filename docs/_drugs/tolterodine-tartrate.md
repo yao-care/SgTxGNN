@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | TOLTERODINE TARTRATE |
 | DrugBank ID | [DB01036](https://go.drugbank.com/drugs/DB01036) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 23 |
 | DL Predictions (≥0.7) | 37 |

@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | PHENIRAMINE MALEATE |
 | DrugBank ID | [DB01620](https://go.drugbank.com/drugs/DB01620) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 18 |
 | DL Predictions (≥0.7) | 22 |

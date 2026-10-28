@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | VINORELBINE (BASE) |
 | DrugBank ID | [DB00361](https://go.drugbank.com/drugs/DB00361) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 34 |
 | DL Predictions (≥0.7) | 50 |

@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | EPERISONE HCL |
 | DrugBank ID | [DB08992](https://go.drugbank.com/drugs/DB08992) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 65 |
 | DL Predictions (≥0.7) | 50 |

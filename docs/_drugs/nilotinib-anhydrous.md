@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | NILOTINIB ANHYDROUS |
 | DrugBank ID | [DB04868](https://go.drugbank.com/drugs/DB04868) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 12 |
 | DL Predictions (≥0.7) | 50 |

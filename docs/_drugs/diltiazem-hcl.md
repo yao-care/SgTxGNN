@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | DILTIAZEM HCL |
 | DrugBank ID | [DB00343](https://go.drugbank.com/drugs/DB00343) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 16 |
 | DL Predictions (≥0.7) | 35 |

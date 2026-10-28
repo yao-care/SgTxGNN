@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | CEFEPIME BASE |
 | DrugBank ID | [DB01413](https://go.drugbank.com/drugs/DB01413) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 51 |
 | DL Predictions (≥0.7) | 50 |

@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | DOXORUBICIN HCL |
 | DrugBank ID | [DB00997](https://go.drugbank.com/drugs/DB00997) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 23 |
 | DL Predictions (≥0.7) | 50 |

@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | BUPROPION HYDROCHLORIDE |
 | DrugBank ID | [DB01156](https://go.drugbank.com/drugs/DB01156) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 13 |
 | DL Predictions (≥0.7) | 50 |

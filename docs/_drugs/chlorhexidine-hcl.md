@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | CHLORHEXIDINE HCL |
 | DrugBank ID | [DB00878](https://go.drugbank.com/drugs/DB00878) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 19 |
 | DL Predictions (≥0.7) | 42 |

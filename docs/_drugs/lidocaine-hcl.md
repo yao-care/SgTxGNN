@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | LIDOCAINE HCL |
 | DrugBank ID | [DB00281](https://go.drugbank.com/drugs/DB00281) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 37 |
 | DL Predictions (≥0.7) | 50 |

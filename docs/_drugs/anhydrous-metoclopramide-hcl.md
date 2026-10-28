@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | ANHYDROUS METOCLOPRAMIDE HCL |
 | DrugBank ID | [DB01233](https://go.drugbank.com/drugs/DB01233) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 34 |
 | DL Predictions (≥0.7) | 24 |

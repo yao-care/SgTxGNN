@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | AMITRIPTYLINE HCL |
 | DrugBank ID | [DB00321](https://go.drugbank.com/drugs/DB00321) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 24 |
 | DL Predictions (≥0.7) | 42 |

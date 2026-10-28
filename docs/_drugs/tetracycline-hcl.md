@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | TETRACYCLINE HCL |
 | DrugBank ID | [DB00759](https://go.drugbank.com/drugs/DB00759) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 73 |
 | DL Predictions (≥0.7) | 50 |

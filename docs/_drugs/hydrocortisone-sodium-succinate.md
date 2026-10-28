@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | HYDROCORTISONE SODIUM SUCCINATE |
 | DrugBank ID | [DB14545](https://go.drugbank.com/drugs/DB14545) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 16 |
 | DL Predictions (≥0.7) | 50 |

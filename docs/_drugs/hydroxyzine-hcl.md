@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | HYDROXYZINE HCL |
 | DrugBank ID | [DB00557](https://go.drugbank.com/drugs/DB00557) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 23 |
 | DL Predictions (≥0.7) | 50 |

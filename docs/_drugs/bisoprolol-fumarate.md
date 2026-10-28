@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | BISOPROLOL FUMARATE |
 | DrugBank ID | [DB00612](https://go.drugbank.com/drugs/DB00612) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 36 |
 | DL Predictions (≥0.7) | 9 |

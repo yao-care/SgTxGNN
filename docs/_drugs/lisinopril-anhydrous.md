@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | LISINOPRIL (ANHYDROUS) |
 | DrugBank ID | [DB00722](https://go.drugbank.com/drugs/DB00722) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 21 |
 | DL Predictions (≥0.7) | 50 |

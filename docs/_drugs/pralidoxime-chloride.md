@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | PRALIDOXIME CHLORIDE |
 | DrugBank ID | [DB00733](https://go.drugbank.com/drugs/DB00733) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 34 |
 | DL Predictions (≥0.7) | 19 |

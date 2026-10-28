@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | LEUPRORELIN ACETATE |
 | DrugBank ID | [DB00007](https://go.drugbank.com/drugs/DB00007) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 6 |
 | DL Predictions (≥0.7) | 35 |

@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | SERTRALINE HYDROCHLORIDE |
 | DrugBank ID | [DB01104](https://go.drugbank.com/drugs/DB01104) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 22 |
 | DL Predictions (≥0.7) | 50 |

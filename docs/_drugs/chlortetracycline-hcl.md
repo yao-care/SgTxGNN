@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | CHLORTETRACYCLINE HCL |
 | DrugBank ID | [DB09093](https://go.drugbank.com/drugs/DB09093) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 20 |
 | DL Predictions (≥0.7) | 37 |

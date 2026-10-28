@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | SELEGILINE HCL |
 | DrugBank ID | [DB01037](https://go.drugbank.com/drugs/DB01037) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 23 |
 | DL Predictions (≥0.7) | 50 |

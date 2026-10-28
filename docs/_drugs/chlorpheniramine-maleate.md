@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | CHLORPHENIRAMINE MALEATE |
 | DrugBank ID | [DB01114](https://go.drugbank.com/drugs/DB01114) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 32 |
 | DL Predictions (≥0.7) | 47 |

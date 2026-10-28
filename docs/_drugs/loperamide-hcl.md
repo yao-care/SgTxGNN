@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | LOPERAMIDE HCL |
 | DrugBank ID | [DB00836](https://go.drugbank.com/drugs/DB00836) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 10 |
 | DL Predictions (≥0.7) | 50 |

@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | BETAMETHASONE VALERATE |
 | DrugBank ID | [DB00443](https://go.drugbank.com/drugs/DB00443) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 186 |
 | DL Predictions (≥0.7) | 50 |

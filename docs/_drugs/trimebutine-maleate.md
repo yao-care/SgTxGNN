@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | TRIMEBUTINE MALEATE |
 | DrugBank ID | [DB09089](https://go.drugbank.com/drugs/DB09089) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 18 |
 | DL Predictions (≥0.7) | 50 |

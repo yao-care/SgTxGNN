@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | CYCLOPENTOLATE HCL |
 | DrugBank ID | [DB00979](https://go.drugbank.com/drugs/DB00979) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 53 |
 | DL Predictions (≥0.7) | 50 |

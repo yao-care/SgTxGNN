@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | BIFONAZOLE MICRONIZED |
 | DrugBank ID | [DB04794](https://go.drugbank.com/drugs/DB04794) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 47 |
 | DL Predictions (≥0.7) | 50 |

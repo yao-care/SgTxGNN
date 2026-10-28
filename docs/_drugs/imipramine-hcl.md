@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | IMIPRAMINE HCL |
 | DrugBank ID | [DB00458](https://go.drugbank.com/drugs/DB00458) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 27 |
 | DL Predictions (≥0.7) | 50 |

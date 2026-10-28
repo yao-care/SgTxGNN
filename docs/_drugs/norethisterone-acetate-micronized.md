@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | NORETHISTERONE ACETATE MICRONIZED |
 | DrugBank ID | [DB00717](https://go.drugbank.com/drugs/DB00717) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 9 |
 | DL Predictions (≥0.7) | 50 |

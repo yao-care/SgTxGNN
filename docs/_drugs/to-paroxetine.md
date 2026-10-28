@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | TO PAROXETINE |
 | DrugBank ID | [DB00715](https://go.drugbank.com/drugs/DB00715) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 8 |
 | DL Predictions (≥0.7) | 50 |

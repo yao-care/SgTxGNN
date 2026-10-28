@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | PROMETHAZINE HCL |
 | DrugBank ID | [DB01069](https://go.drugbank.com/drugs/DB01069) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 28 |
 | DL Predictions (≥0.7) | 32 |

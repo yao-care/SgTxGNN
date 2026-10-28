@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | TRIAMCINOLONE ACETONIDE |
 | DrugBank ID | [DB00620](https://go.drugbank.com/drugs/DB00620) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 148 |
 | DL Predictions (≥0.7) | 50 |

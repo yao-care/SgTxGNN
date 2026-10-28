@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | FREE PHENOL |
 | DrugBank ID | [DB06817](https://go.drugbank.com/drugs/DB06817) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 15 |
 | DL Predictions (≥0.7) | 40 |

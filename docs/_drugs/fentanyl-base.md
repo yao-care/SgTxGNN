@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | FENTANYL BASE |
 | DrugBank ID | [DB00813](https://go.drugbank.com/drugs/DB00813) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 8 |
 | DL Predictions (≥0.7) | 50 |

@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | SCOPOLAMINE BUTYLBROMIDE |
 | DrugBank ID | [DB09300](https://go.drugbank.com/drugs/DB09300) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 17 |
 | DL Predictions (≥0.7) | 50 |

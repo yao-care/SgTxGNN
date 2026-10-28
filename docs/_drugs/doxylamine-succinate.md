@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | DOXYLAMINE SUCCINATE |
 | DrugBank ID | [DB00366](https://go.drugbank.com/drugs/DB00366) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 34 |
 | DL Predictions (≥0.7) | 21 |

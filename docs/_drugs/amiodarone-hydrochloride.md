@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | AMIODARONE HYDROCHLORIDE |
 | DrugBank ID | [DB01118](https://go.drugbank.com/drugs/DB01118) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 12 |
 | DL Predictions (≥0.7) | 50 |

@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | IRINOTECAN HYDROCHLORIDE TRIHYDRATE |
 | DrugBank ID | [DB00762](https://go.drugbank.com/drugs/DB00762) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 41 |
 | DL Predictions (≥0.7) | 50 |

@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | ULIPRISTAL ACETATE |
 | DrugBank ID | [DB08867](https://go.drugbank.com/drugs/DB08867) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 13 |
 | DL Predictions (≥0.7) | 50 |

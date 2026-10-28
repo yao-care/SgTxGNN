@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | POLYMYXIN B SULFATE |
 | DrugBank ID | [DB00781](https://go.drugbank.com/drugs/DB00781) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 41 |
 | DL Predictions (≥0.7) | 50 |

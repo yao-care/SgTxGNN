@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | ERIBULIN MESYLATE |
 | DrugBank ID | [DB08871](https://go.drugbank.com/drugs/DB08871) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 8 |
 | DL Predictions (≥0.7) | 50 |

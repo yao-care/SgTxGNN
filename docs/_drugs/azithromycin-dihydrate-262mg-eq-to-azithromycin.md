@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | AZITHROMYCIN DIHYDRATE 262MG EQ TO AZITHROMYCIN |
 | DrugBank ID | [DB00207](https://go.drugbank.com/drugs/DB00207) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 25 |
 | DL Predictions (≥0.7) | 50 |

@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | CLOMIPRAMINE HCL |
 | DrugBank ID | [DB01242](https://go.drugbank.com/drugs/DB01242) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 22 |
 | DL Predictions (≥0.7) | 50 |

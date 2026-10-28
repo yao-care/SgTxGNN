@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | RIFAMPIN |
 | DrugBank ID | [DB01045](https://go.drugbank.com/drugs/DB01045) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 27 |
 | DL Predictions (≥0.7) | 50 |

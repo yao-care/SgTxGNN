@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | CYPROHEPTADINE HCL |
 | DrugBank ID | [DB00434](https://go.drugbank.com/drugs/DB00434) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 12 |
 | DL Predictions (≥0.7) | 32 |

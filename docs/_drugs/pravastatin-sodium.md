@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | PRAVASTATIN SODIUM |
 | DrugBank ID | [DB00175](https://go.drugbank.com/drugs/DB00175) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 22 |
 | DL Predictions (≥0.7) | 50 |

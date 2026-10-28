@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | PROPAFENONE HCL |
 | DrugBank ID | [DB01182](https://go.drugbank.com/drugs/DB01182) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 11 |
 | DL Predictions (≥0.7) | 50 |

@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | FLUDARABINE PHOSPHATE USP |
 | DrugBank ID | [DB01073](https://go.drugbank.com/drugs/DB01073) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 31 |
 | DL Predictions (≥0.7) | 50 |

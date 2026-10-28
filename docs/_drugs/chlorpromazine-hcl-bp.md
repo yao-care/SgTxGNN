@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | CHLORPROMAZINE HCL BP |
 | DrugBank ID | [DB00477](https://go.drugbank.com/drugs/DB00477) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 30 |
 | DL Predictions (≥0.7) | 50 |

@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | VINCRISTINE SULFATE |
 | DrugBank ID | [DB00541](https://go.drugbank.com/drugs/DB00541) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 42 |
 | DL Predictions (≥0.7) | 50 |

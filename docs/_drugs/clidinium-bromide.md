@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | CLIDINIUM BROMIDE |
 | DrugBank ID | [DB00771](https://go.drugbank.com/drugs/DB00771) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 17 |
 | DL Predictions (≥0.7) | 50 |

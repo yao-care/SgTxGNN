@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | ERGOMETRINE MALEATE |
 | DrugBank ID | [DB01253](https://go.drugbank.com/drugs/DB01253) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 22 |
 | DL Predictions (≥0.7) | 50 |

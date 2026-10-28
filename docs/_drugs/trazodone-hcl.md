@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | TRAZODONE HCL |
 | DrugBank ID | [DB00656](https://go.drugbank.com/drugs/DB00656) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 24 |
 | DL Predictions (≥0.7) | 50 |

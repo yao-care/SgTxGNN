@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | PILOCARPINE HCL |
 | DrugBank ID | [DB01085](https://go.drugbank.com/drugs/DB01085) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 19 |
 | DL Predictions (≥0.7) | 50 |

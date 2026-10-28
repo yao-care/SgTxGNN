@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | OXYCODONE HYDROCHLORIDE |
 | DrugBank ID | [DB00497](https://go.drugbank.com/drugs/DB00497) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 9 |
 | DL Predictions (≥0.7) | 48 |

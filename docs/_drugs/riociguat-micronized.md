@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | RIOCIGUAT MICRONIZED |
 | DrugBank ID | [DB08931](https://go.drugbank.com/drugs/DB08931) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 18 |
 | DL Predictions (≥0.7) | 43 |

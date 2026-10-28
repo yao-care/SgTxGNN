@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | DIMENHYDRINATE BP |
 | DrugBank ID | [DB00985](https://go.drugbank.com/drugs/DB00985) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 17 |
 | DL Predictions (≥0.7) | 34 |

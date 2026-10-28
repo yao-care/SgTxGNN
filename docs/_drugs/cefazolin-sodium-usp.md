@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | CEFAZOLIN SODIUM USP |
 | DrugBank ID | [DB01327](https://go.drugbank.com/drugs/DB01327) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 60 |
 | DL Predictions (≥0.7) | 50 |

@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | GALANTAMINE BASE |
 | DrugBank ID | [DB00674](https://go.drugbank.com/drugs/DB00674) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 23 |
 | DL Predictions (≥0.7) | 50 |

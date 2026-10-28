@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | PIPERAZINE HYDRATE |
 | DrugBank ID | [DB00592](https://go.drugbank.com/drugs/DB00592) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 15 |
 | DL Predictions (≥0.7) | 39 |

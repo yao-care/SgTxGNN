@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | ENALAPRIL MALEATE |
 | DrugBank ID | [DB00584](https://go.drugbank.com/drugs/DB00584) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 67 |
 | DL Predictions (≥0.7) | 50 |

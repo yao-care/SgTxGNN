@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | TERBINAFINE HYDROCHLORIDE |
 | DrugBank ID | [DB00857](https://go.drugbank.com/drugs/DB00857) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 15 |
 | DL Predictions (≥0.7) | 28 |

@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | CHLORMADINONE ACETATE |
 | DrugBank ID | [DB13528](https://go.drugbank.com/drugs/DB13528) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 65 |
 | DL Predictions (≥0.7) | 50 |

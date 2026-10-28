@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | PYRIDOSTIGMINE BROMIDE |
 | DrugBank ID | [DB00545](https://go.drugbank.com/drugs/DB00545) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 13 |
 | DL Predictions (≥0.7) | 28 |

@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | PHENYTOIN SODIUM |
 | DrugBank ID | [DB00252](https://go.drugbank.com/drugs/DB00252) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 19 |
 | DL Predictions (≥0.7) | 50 |

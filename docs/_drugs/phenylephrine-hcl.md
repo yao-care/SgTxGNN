@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | PHENYLEPHRINE HCL |
 | DrugBank ID | [DB00388](https://go.drugbank.com/drugs/DB00388) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 29 |
 | DL Predictions (≥0.7) | 38 |

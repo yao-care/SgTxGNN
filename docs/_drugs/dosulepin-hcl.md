@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | DOSULEPIN HCL |
 | DrugBank ID | [DB09167](https://go.drugbank.com/drugs/DB09167) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 18 |
 | DL Predictions (≥0.7) | 39 |

@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | DIPHENHYDRAMINE HCL |
 | DrugBank ID | [DB01075](https://go.drugbank.com/drugs/DB01075) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 45 |
 | DL Predictions (≥0.7) | 36 |

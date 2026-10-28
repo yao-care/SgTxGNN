@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | TO CLINDAMYCIN |
 | DrugBank ID | [DB01190](https://go.drugbank.com/drugs/DB01190) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 13 |
 | DL Predictions (≥0.7) | 50 |

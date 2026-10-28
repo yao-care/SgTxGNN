@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | LEVOCETIRIZINE DIHYDROCHLORIDE |
 | DrugBank ID | [DB06282](https://go.drugbank.com/drugs/DB06282) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 55 |
 | DL Predictions (≥0.7) | 44 |

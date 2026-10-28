@@ -27,5 +27,4 @@ evidence_level: N/A
 | Drug Name | PEPTIDE |
 | DrugBank ID | [DB00014](https://go.drugbank.com/drugs/DB00014) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 5 |
 | DL Predictions (≥0.7) | 43 |

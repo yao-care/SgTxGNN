@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | BROMPHENIRAMINE MALEATE |
 | DrugBank ID | [DB00835](https://go.drugbank.com/drugs/DB00835) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 36 |
 | DL Predictions (≥0.7) | 26 |

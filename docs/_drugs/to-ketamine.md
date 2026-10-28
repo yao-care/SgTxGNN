@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | TO KETAMINE |
 | DrugBank ID | [DB01221](https://go.drugbank.com/drugs/DB01221) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 18 |
 | DL Predictions (≥0.7) | 50 |

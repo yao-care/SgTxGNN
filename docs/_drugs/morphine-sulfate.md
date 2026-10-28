@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | MORPHINE SULFATE |
 | DrugBank ID | [DB00295](https://go.drugbank.com/drugs/DB00295) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 21 |
 | DL Predictions (≥0.7) | 50 |

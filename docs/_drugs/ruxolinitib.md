@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | RUXOLINITIB |
 | DrugBank ID | [DB08877](https://go.drugbank.com/drugs/DB08877) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 66 |
 | DL Predictions (≥0.7) | 50 |

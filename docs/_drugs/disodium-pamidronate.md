@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | DISODIUM PAMIDRONATE |
 | DrugBank ID | [DB00282](https://go.drugbank.com/drugs/DB00282) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 8 |
 | DL Predictions (≥0.7) | 19 |

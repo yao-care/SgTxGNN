@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | FEXOFENADINE HYDROCHLORIDE |
 | DrugBank ID | [DB00950](https://go.drugbank.com/drugs/DB00950) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 16 |
 | DL Predictions (≥0.7) | 43 |

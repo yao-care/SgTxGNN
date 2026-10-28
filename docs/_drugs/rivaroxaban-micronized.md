@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | RIVAROXABAN MICRONIZED |
 | DrugBank ID | [DB06228](https://go.drugbank.com/drugs/DB06228) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 58 |
 | DL Predictions (≥0.7) | 50 |

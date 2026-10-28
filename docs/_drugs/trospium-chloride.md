@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | TROSPIUM CHLORIDE |
 | DrugBank ID | [DB00209](https://go.drugbank.com/drugs/DB00209) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 16 |
 | DL Predictions (≥0.7) | 50 |

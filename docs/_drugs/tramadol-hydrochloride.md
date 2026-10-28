@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | TRAMADOL HYDROCHLORIDE |
 | DrugBank ID | [DB00193](https://go.drugbank.com/drugs/DB00193) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 10 |
 | DL Predictions (≥0.7) | 50 |

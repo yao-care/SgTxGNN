@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | CYCLIZINE HYDROCHLORIDE |
 | DrugBank ID | [DB01176](https://go.drugbank.com/drugs/DB01176) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 20 |
 | DL Predictions (≥0.7) | 50 |

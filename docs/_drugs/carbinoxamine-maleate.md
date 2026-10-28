@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | CARBINOXAMINE MALEATE |
 | DrugBank ID | [DB00748](https://go.drugbank.com/drugs/DB00748) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 19 |
 | DL Predictions (≥0.7) | 42 |

@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | LURASIDONE HYDROCHLORIDE |
 | DrugBank ID | [DB08815](https://go.drugbank.com/drugs/DB08815) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 32 |
 | DL Predictions (≥0.7) | 50 |

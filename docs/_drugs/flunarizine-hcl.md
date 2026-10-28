@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | FLUNARIZINE HCL |
 | DrugBank ID | [DB04841](https://go.drugbank.com/drugs/DB04841) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 26 |
 | DL Predictions (≥0.7) | 50 |

@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | TOFACITINIB CITRATE |
 | DrugBank ID | [DB08895](https://go.drugbank.com/drugs/DB08895) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 9 |
 | DL Predictions (≥0.7) | 13 |

@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | BRIMONIDINE TARTRATE |
 | DrugBank ID | [DB00484](https://go.drugbank.com/drugs/DB00484) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 16 |
 | DL Predictions (≥0.7) | 50 |

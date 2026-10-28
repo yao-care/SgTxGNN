@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | ERGOTAMINE TARTRATE |
 | DrugBank ID | [DB00696](https://go.drugbank.com/drugs/DB00696) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 30 |
 | DL Predictions (≥0.7) | 22 |

@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | BUCLIZINE HCL |
 | DrugBank ID | [DB00354](https://go.drugbank.com/drugs/DB00354) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 29 |
 | DL Predictions (≥0.7) | 50 |

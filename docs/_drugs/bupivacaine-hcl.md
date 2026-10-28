@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | BUPIVACAINE HCL |
 | DrugBank ID | [DB00297](https://go.drugbank.com/drugs/DB00297) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 20 |
 | DL Predictions (≥0.7) | 39 |

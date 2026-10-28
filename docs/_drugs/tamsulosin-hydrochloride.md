@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | TAMSULOSIN HYDROCHLORIDE |
 | DrugBank ID | [DB00706](https://go.drugbank.com/drugs/DB00706) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 10 |
 | DL Predictions (≥0.7) | 50 |

@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | INDACATEROL (MICRONIZED) |
 | DrugBank ID | [DB05039](https://go.drugbank.com/drugs/DB05039) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 31 |
 | DL Predictions (≥0.7) | 50 |

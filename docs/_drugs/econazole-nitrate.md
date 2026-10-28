@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | ECONAZOLE NITRATE |
 | DrugBank ID | [DB01127](https://go.drugbank.com/drugs/DB01127) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 10 |
 | DL Predictions (≥0.7) | 50 |

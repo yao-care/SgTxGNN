@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | LISDEXAMFETAMINE DIMESYLATE |
 | DrugBank ID | [DB01255](https://go.drugbank.com/drugs/DB01255) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 18 |
 | DL Predictions (≥0.7) | 50 |

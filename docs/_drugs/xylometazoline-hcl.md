@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | XYLOMETAZOLINE HCL |
 | DrugBank ID | [DB06694](https://go.drugbank.com/drugs/DB06694) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 17 |
 | DL Predictions (≥0.7) | 29 |

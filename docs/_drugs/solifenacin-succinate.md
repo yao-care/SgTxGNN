@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | SOLIFENACIN SUCCINATE |
 | DrugBank ID | [DB01591](https://go.drugbank.com/drugs/DB01591) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 23 |
 | DL Predictions (≥0.7) | 38 |

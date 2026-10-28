@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | TICLOPIDINE HCL |
 | DrugBank ID | [DB00208](https://go.drugbank.com/drugs/DB00208) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 25 |
 | DL Predictions (≥0.7) | 50 |

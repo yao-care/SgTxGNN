@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | EPHEDRINE HCL |
 | DrugBank ID | [DB01364](https://go.drugbank.com/drugs/DB01364) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 18 |
 | DL Predictions (≥0.7) | 47 |

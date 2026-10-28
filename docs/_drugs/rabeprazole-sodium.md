@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | RABEPRAZOLE SODIUM |
 | DrugBank ID | [DB01129](https://go.drugbank.com/drugs/DB01129) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 23 |
 | DL Predictions (≥0.7) | 31 |

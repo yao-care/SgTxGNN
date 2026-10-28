@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | FIMASARTAN POTASSIUM |
 | DrugBank ID | [DB09279](https://go.drugbank.com/drugs/DB09279) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 13 |
 | DL Predictions (≥0.7) | 14 |

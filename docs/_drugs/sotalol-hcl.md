@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | SOTALOL HCL |
 | DrugBank ID | [DB00489](https://go.drugbank.com/drugs/DB00489) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 9 |
 | DL Predictions (≥0.7) | 50 |

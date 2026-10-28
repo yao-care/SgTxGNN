@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | IDARUBICIN HCL |
 | DrugBank ID | [DB01177](https://go.drugbank.com/drugs/DB01177) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 14 |
 | DL Predictions (≥0.7) | 27 |

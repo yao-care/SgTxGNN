@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | TO SILDENAFIL |
 | DrugBank ID | [DB00203](https://go.drugbank.com/drugs/DB00203) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 17 |
 | DL Predictions (≥0.7) | 10 |

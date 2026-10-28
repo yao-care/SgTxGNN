@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | FLUVOXAMINE MALEATE |
 | DrugBank ID | [DB00176](https://go.drugbank.com/drugs/DB00176) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 26 |
 | DL Predictions (≥0.7) | 50 |

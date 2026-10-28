@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | FENOTEROL HYDROBROMIDE |
 | DrugBank ID | [DB01288](https://go.drugbank.com/drugs/DB01288) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 17 |
 | DL Predictions (≥0.7) | 50 |

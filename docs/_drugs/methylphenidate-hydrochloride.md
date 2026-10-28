@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | METHYLPHENIDATE HYDROCHLORIDE |
 | DrugBank ID | [DB00422](https://go.drugbank.com/drugs/DB00422) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 8 |
 | DL Predictions (≥0.7) | 50 |

@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | BUDESONIDE MICRONIZED |
 | DrugBank ID | [DB01222](https://go.drugbank.com/drugs/DB01222) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 166 |
 | DL Predictions (≥0.7) | 50 |

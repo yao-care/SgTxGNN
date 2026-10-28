@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | DICYCLOMINE HCL |
 | DrugBank ID | [DB00804](https://go.drugbank.com/drugs/DB00804) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 16 |
 | DL Predictions (≥0.7) | 15 |

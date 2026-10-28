@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | TO DAPOXETINE HYDROCHLORIDE |
 | DrugBank ID | [DB04884](https://go.drugbank.com/drugs/DB04884) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 14 |
 | DL Predictions (≥0.7) | 50 |

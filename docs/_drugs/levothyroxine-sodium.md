@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | LEVOTHYROXINE SODIUM |
 | DrugBank ID | [DB00451](https://go.drugbank.com/drugs/DB00451) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 17 |
 | DL Predictions (≥0.7) | 50 |

@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | TRIHEXYPHENIDYL HCL |
 | DrugBank ID | [DB00376](https://go.drugbank.com/drugs/DB00376) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 34 |
 | DL Predictions (≥0.7) | 50 |

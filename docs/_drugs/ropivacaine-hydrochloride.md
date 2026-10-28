@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | ROPIVACAINE HYDROCHLORIDE |
 | DrugBank ID | [DB00296](https://go.drugbank.com/drugs/DB00296) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 52 |
 | DL Predictions (≥0.7) | 50 |

@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | TRIPROLIDINE HCL |
 | DrugBank ID | [DB00427](https://go.drugbank.com/drugs/DB00427) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 19 |
 | DL Predictions (≥0.7) | 33 |

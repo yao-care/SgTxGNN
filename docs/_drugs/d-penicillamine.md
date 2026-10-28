@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | D-PENICILLAMINE |
 | DrugBank ID | [DB00859](https://go.drugbank.com/drugs/DB00859) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 10 |
 | DL Predictions (≥0.7) | 50 |

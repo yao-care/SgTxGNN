@@ -25,5 +25,4 @@ evidence_level: N/A
 | Drug Name | DOCETAXEL ANHYDROUS |
 | DrugBank ID | [DB01248](https://go.drugbank.com/drugs/DB01248) |
 | HSA Status | Registered with Health Sciences Authority |
-| KG Predictions | 95 |
 | DL Predictions (≥0.7) | 50 |
