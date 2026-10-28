@@ -3,7 +3,7 @@ layout: default
 title: About
 parent: Help
 nav_order: 3
-description: "SgTxGNN is a drug repurposing prediction platform based on Harvard's TxGNN model, integrating clinical trials, literature, and other evidence sources for 1,051 Singapore HSA-approved medications."
+description: "SgTxGNN is a drug repurposing prediction platform based on Harvard's TxGNN model, integrating clinical trials, literature, and other evidence sources for 966 Singapore HSA-approved medications."
 permalink: /about/
 ---
 

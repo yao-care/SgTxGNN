@@ -19,7 +19,7 @@ Drug repurposing predictions for Singapore HSA-approved drugs using the TxGNN mo
 
 | Item | Count |
 |------|------|
-| **Drug Reports** | 1,051 |
+| **Drug Reports** | 966 |
 | **Total Predictions** | 10,473,055 |
 | **Unique Drugs** | 1,041 |
 | **Unique Indications** | 17,184 |
